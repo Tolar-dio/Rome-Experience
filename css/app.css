@@ -161,7 +161,7 @@ a { color: var(--porphyry); }
 
 .yearplate { position: absolute; top: 14px; left: 16px; z-index: 5; pointer-events: none; color: #F4EFE6; max-width: min(520px, 70%);
   background: rgba(23, 44, 58, .86); backdrop-filter: blur(3px); border-radius: var(--radius-m); padding: 10px 16px 12px; box-shadow: 0 8px 26px rgba(10,20,30,.3); border-top: 3px solid var(--gilt); }
-.yp-year { font-size: 50px; font-weight: 600; line-height: 1; letter-spacing: -.01em; font-variant-numeric: lining-nums; }
+.yp-year { font-size: 44px; font-weight: 600; line-height: 1; letter-spacing: -.01em; font-variant-numeric: lining-nums; }
 .yp-year small { font-size: 21px; font-weight: 500; margin-left: 6px; letter-spacing: .08em; font-variant: small-caps; color: #E3C68A; }
 .yp-auc { font-family: var(--ui); font-size: 12.5px; color: #B9C6CF; margin-top: 3px; }
 .yp-line { font-size: 15px; margin-top: 6px; font-style: italic; color: #E9E1D7; line-height: 1.35; }
@@ -272,8 +272,11 @@ a { color: var(--porphyry); }
   .wm-sub { display: none; }
 }
 @media (max-width: 760px) {
+  .yearplate { padding: 6px 10px 8px; max-width: 80%; }
+  .yp-line, .yp-era { display: none; }
   :root { --tl: 132px; --topbar: 50px; }
-  #app { grid-template-columns: 0 1fr; grid-template-rows: var(--topbar) 1fr var(--tl); grid-template-areas: "top top" "stage stage" "tl tl"; }
+  #app, #app.panel-closed { grid-template-columns: 100%; grid-template-rows: var(--topbar) 1fr var(--tl); grid-template-areas: "top" "stage" "tl"; }
+  .stage { margin-bottom: 52px; }
   .rail { position: fixed; left: 0; right: 0; bottom: var(--tl); height: 52px; flex-direction: row; overflow-x: auto; padding: 0; }
   .rail button { border-left: 0; border-top: 3px solid transparent; min-width: 64px; }
   .rail button.active { border-top-color: var(--gilt); }
@@ -283,7 +286,10 @@ a { color: var(--porphyry); }
   .wordmark { display: none; }
   .yp-year { font-size: 36px; }
   .legend { display: none; }
-  .tl-controls { grid-template-columns: repeat(5, auto); padding: 6px; }
+  .timeline { grid-template-columns: 1fr; grid-template-rows: auto 1fr; }
+  .tl-controls { grid-template-columns: repeat(5, 1fr); padding: 6px 8px; border-right: 0; border-bottom: 1px solid #3E342D; }
+  #helpBtn { display: none; }
+  .omnibox { min-width: 0; }
   .tl-controls select, .tl-follow { display: none; }
 }
 @media (prefers-reduced-motion: reduce) {

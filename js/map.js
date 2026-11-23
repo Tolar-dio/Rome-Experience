@@ -114,7 +114,7 @@ export async function initMap(onReady) {
   map = new maplibregl.Map({
     container: 'map',
     attributionControl: false,
-    center: [12.5, 41.9], zoom: 5.2, minZoom: 2.6, maxZoom: 11, renderWorldCopies: false,
+    center: [12.5, 41.9], zoom: window.innerWidth < 760 ? 4.2 : 5.2, minZoom: 2.6, maxZoom: 11, renderWorldCopies: false,
     maxBounds: [[-40, -5], [100, 75]],
     dragRotate: false, pitchWithRotate: false,
     style: {

@@ -12,9 +12,15 @@ const CATS = ['military', 'political', 'constitutional', 'law', 'religious', 'cu
 let chronicleState = { q: '', era: true, minImp: 1, cats: new Set() };
 let codexState = { kind: 'person', q: '' };
 let readingChapter = null;
+let initialised = false;
 
 export function initPanels() {
-  document.querySelectorAll('.rail button').forEach((b) => b.addEventListener('click', () => showTab(b.dataset.tab)));
+  document.querySelectorAll('.rail button').forEach((b) => b.addEventListener('click', () => {
+    const app = document.getElementById('app');
+    if (b.dataset.tab === S.tab && !app.classList.contains('panel-closed') && window.innerWidth <= 760) { app.classList.add('panel-closed'); return; }
+    showTab(b.dataset.tab);
+  }));
+  if (window.innerWidth <= 760) document.getElementById('app').classList.add('panel-closed');
   panel().addEventListener('click', (e) => {
     const t = e.target.closest('[data-id]');
     if (t && !t.closest('[data-noopen]')) { openId(t.dataset.id, t.dataset.kind); return; }
@@ -28,7 +34,8 @@ export function initPanels() {
 export function showTab(tab) {
   S.tab = tab;
   document.querySelectorAll('.rail button').forEach((b) => b.classList.toggle('active', b.dataset.tab === tab));
-  document.getElementById('app').classList.remove('panel-closed');
+  if (initialised) document.getElementById('app').classList.remove('panel-closed');
+  initialised = true;
   render();
   panel().scrollTop = 0;
   if (tab === 'chronicle') scrollChronicle();

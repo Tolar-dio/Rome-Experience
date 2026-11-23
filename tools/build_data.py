@@ -305,11 +305,55 @@ def main():
     chapters = dedupe(C['chapters'], 'chapter')
     chapters.sort(key=lambda c: (year(c.get('from')) or 0, year(c.get('to')) or 0))
 
-    # cross-reference checks
+    # cross-reference checks, with alias repair for near-miss ids
     ids = set()
     for lst in (evs, people, wars, camps, places, legions, frontiers, roads, sources, glossary):
         ids |= {o['id'] for o in lst if o.get('id')}
     ids |= pol_ids | {r['id'] for r in out_regions}
+    alias_cache = {}
+
+    def resolve(i):
+        if not i or i in ids:
+            return i
+        if i in alias_cache:
+            return alias_cache[i]
+        cands = []
+        base = re.sub(r'_\d{1,3}(bc)?$', '', i)
+        for v in (i.replace('battle_of_', 'battle_of_the_'), i.replace('siege_of_', 'siege_of_the_'), i.replace('_of_the_', '_of_'),
+                  base, base.replace('battle_of_', 'battle_of_the_'), i + 's', i.rstrip('s')):
+            if v in ids:
+                cands.append(v)
+        if not cands:
+            pref = [x for x in ids if x.startswith(base + '_') and re.match(r'^_\d', x[len(base):])]
+            if len(pref) == 1:
+                cands = pref
+        if not cands:
+            import difflib
+            pre = i.split('_of_')[0] + '_of_' if '_of_' in i else ''
+            pool = [x for x in ids if x.startswith(pre)] if pre else list(ids)
+            cands = difflib.get_close_matches(i, pool, n=1, cutoff=0.86)
+        alias_cache[i] = cands[0] if cands else i
+        return alias_cache[i]
+
+    for e in evs:
+        if e.get('people'):
+            e['people'] = [resolve(p) for p in e['people']]
+        if e.get('war'):
+            e['war'] = resolve(e['war'])
+        if e.get('place'):
+            e['place'] = resolve(e['place'])
+    for ch in chapters:
+        ch['body'] = re.sub(r'\[\[([^\]|]+)', lambda m: '[[' + resolve(m.group(1).strip()), ch.get('body', ''))
+    for c in camps:
+        if c.get('war'):
+            c['war'] = resolve(c['war'])
+        for pt in c.get('path', []):
+            if pt.get('event'):
+                pt['event'] = resolve(pt['event'])
+    for p in people:
+        if p.get('related'):
+            p['related'] = [resolve(r) for r in p['related']]
+    print('aliases repaired:', sum(1 for k, v in alias_cache.items() if k != v))
     for e in evs:
         for p in e.get('people', []) or []:
             if p not in ids:
