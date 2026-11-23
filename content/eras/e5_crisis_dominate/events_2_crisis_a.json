@@ -1,396 +1,2647 @@
-{"events":[
-{"id":"elagabal_cult_in_rome_220","year":220,"endYear":222,"title":"Elagabalus imposes the cult of Elagabal on Rome","type":"religious","cats":["religious","political"],"importance":3,
-"summary":"The boy emperor brought the black conical baetyl of the Emesene sun god to Rome, built the Elagabalium on the Palatine, placed Elagabal above Jupiter and married the Vestal Virgin Aquilia Severa as a sacred union.",
-"detail":"Elagabalus also 'married' the god to Urania of Carthage, whose cult image was brought to Rome, and moved the Palladium and Vesta's fire into the new temple. Midsummer processions saw the emperor running backwards before the god's chariot. Dio and Herodian present the reign as a catalogue of sexual and religious outrages, and the HA life adds much fiction; modern work (Icks, 2011) sees a real religious programme alienating the Roman elite and army. Coins with the legend SANCT DEO SOLI ELAGABAL confirm the cult.",
-"place":"rome","loc":[12.4884,41.8893],"locName":"Elagabalium, Palatine, Rome","locCertainty":"approx",
-"people":["elagabalus","julia_maesa"],"polities":["rome"],
-"sources":[{"a":"Herodian","w":"History of the Empire after Marcus","r":"5.5-6"},{"a":"Cassius Dio","w":"Roman History","r":"80(79).9-12"},{"a":"Historia Augusta","w":"Heliogabalus","r":"3-7"}],
-"scholarship":["Icks, The Crimes of Elagabalus (2011)"],
-"debate":"The HA life is largely invented; Herodian moralising; the god's Syrian character is overplayed in sources.","certainty":"certain","tags":["Sol","Emesa","Vestals"]},
-
-{"id":"assassination_of_elagabalus_222","year":222,"month":3,"day":11,"title":"Assassination of Elagabalus","type":"assassination","cats":["political"],"importance":3,
-"summary":"After Elagabalus tried to remove his popular cousin and adopted Caesar Alexianus, the Praetorians killed him and his mother Julia Soaemias, dragged the bodies through the streets and threw them into the Tiber, and hailed the thirteen-year-old Severus Alexander.",
-"detail":"The Emesene god was sent home and Jupiter restored. Real power passed to Julia Maesa (died c. 224) and then to Alexander's mother Julia Mamaea, governing with a council of senators and jurists including Ulpian.",
-"place":"rome","loc":[12.5035,41.9055],"locName":"Castra Praetoria, Rome","locCertainty":"certain",
-"people":["elagabalus","severus_alexander","julia_maesa","julia_mamaea"],"polities":["rome"],
-"sources":[{"a":"Cassius Dio","w":"Roman History","r":"80(79).19-20"},{"a":"Herodian","w":"History of the Empire after Marcus","r":"5.8"}],
-"debate":"Date given as 11 or 13 March 222.","certainty":"certain","tags":["Praetorian Guard","damnatio memoriae"]},
-
-{"id":"murder_of_ulpian_223","year":223,"title":"Murder of the jurist Ulpian by the Praetorians","type":"assassination","cats":["political","law"],"importance":3,
-"summary":"Domitius Ulpianus, praetorian prefect and the most prolific Roman jurist, was killed by his own guardsmen in the palace before the emperor and his mother, after three days of street fighting between the Praetorians and the people of Rome.",
-"detail":"Ulpian had reportedly executed his predecessors Flavianus and Chrestus. His writings supplied about a third of Justinian's Digest, making him perhaps the single most influential legal author in European history. Dio, then governor of Pannonia, was himself threatened by the Guard for disciplining soldiers and spent his second consulship (229) outside Rome for safety.",
-"place":"rome","loc":[12.4875,41.8892],"locName":"Palatine, Rome","locCertainty":"certain",
-"people":["ulpian","severus_alexander","julia_mamaea","cassius_dio"],"polities":["rome"],
-"sources":[{"a":"Cassius Dio","w":"Roman History","r":"80.2.2-4, 80.4.2"},{"a":"Papyri","w":"P.Oxy. XXXI 2565","r":"Ulpian still prefect in Dec 222"}],
-"debate":"Traditional date 228 has given way to 223 on the basis of P.Oxy. 2565 and Dio's sequence; still disputed.","certainty":"disputed","tags":["jurists","Digest"]},
-
-{"id":"battle_of_hormozgan_224","year":224,"month":4,"day":28,"title":"Battle of Hormozgan: end of the Arsacids","type":"battle","cats":["military","political"],"importance":5,
-"summary":"Ardashir, Sasanian king of Persis, defeated and killed the last Parthian great king Artabanus IV on the plain of Hormozgan, ending 470 years of Arsacid rule and founding the Sasanian Empire.",
-"detail":"Ardashir had built a power base around Istakhr and Ardashir-Khwarrah (Gor/Firuzabad), defeating neighbouring local kings. The Firuzabad rock relief shows the Sasanian dynasts unhorsing their Arsacid opponents in a joust, with Ardashir lancing Artabanus. Arsacid branches survived in Armenia and the Caucasus, giving Armenian kings a long-lasting dynastic grievance against the Sasanians. For Rome the change brought a more centralised, ideologically assertive neighbour that claimed (according to Roman writers) the old Achaemenid lands up to the Aegean.",
-"place":"hormozgan","loc":[49.0,31.3],"locName":"Plain of Hormozgan (exact site unknown, probably in Khuzestan or near Golpayegan)","locCertainty":"disputed",
-"people":["ardashir_i","artabanus_iv","shapur_i"],"polities":["sasanian","parthia"],
-"battle":{"sides":[{"polity":"sasanian","commanders":["ardashir_i","shapur_i"],"strength":"Persian nobility and levies","losses":"unknown"},{"polity":"parthia","commanders":["artabanus_iv"],"strength":"Arsacid royal army","losses":"Artabanus killed"}],"victor":"sasanian","kind":"field","significance":"Replaced the Arsacids with the Sasanians, Rome's principal rival until 628."},
-"sources":[{"a":"al-Tabari","w":"Ta'rikh al-rusul wa'l-muluk","r":"Sasanian section, reign of Ardashir"},{"a":"Agathias","w":"Histories","r":"2.26"},{"a":"Herodian","w":"History of the Empire after Marcus","r":"6.2.1-2"}],
-"scholarship":["Daryaee, Sasanian Persia (2009)","Wiesehöfer, Ancient Persia (1996)","Frye, The History of Ancient Iran (1984)"],
-"debate":"The date 28 April 224 rests on later Arabic-Persian tradition; location disputed.","certainty":"probable","tags":["Sasanians","Firuzabad relief"]},
-
-{"id":"coronation_of_ardashir_226","year":226,"title":"Ardashir crowned King of Kings at Ctesiphon","type":"accession","cats":["political","religious"],"importance":3,
-"summary":"Having taken Ctesiphon, Ardashir I was crowned 'King of Kings of Iran' (shahanshah eran), inaugurating a Sasanian era and an ideology tied to Zoroastrian kingship and the land of Eran.",
-"detail":"Ardashir's coins show the fire altar on the reverse and call him 'Mazda-worshipping divine Ardashir, King of Kings of Iran, whose lineage is from the gods'. Roman authors (Herodian, Dio) report that he claimed all lands once ruled by Darius as far as Ionia and Caria, though this may be a Roman projection.",
-"place":"ctesiphon","loc":[44.5803,33.0936],"locName":"Ctesiphon","locCertainty":"approx",
-"people":["ardashir_i"],"polities":["sasanian"],
-"sources":[{"a":"Cassius Dio","w":"Roman History","r":"80.3-4"},{"a":"Herodian","w":"History of the Empire after Marcus","r":"6.2.2"}],
-"debate":"Date of coronation 226 or 227.","certainty":"probable","tags":["Sasanians","Achaemenid claims"]},
-
-{"id":"cassius_dio_second_consulship_229","year":229,"title":"Cassius Dio's second consulship and the end of his History","type":"literary","cats":["literature","political"],"importance":2,
-"summary":"Lucius Cassius Dio, senator from Nicaea, held his second consulship with Severus Alexander as colleague and retired to Bithynia, where he completed his 80-book Roman History to 229.",
-"detail":"Dio spent ten years collecting material and twelve writing. Books 36-60 survive largely intact; the books for 193-229, our best source for the Severans, survive only in Byzantine epitomes (Xiphilinus, Zonaras) and excerpts, apart from parts of books 78-79. As a senator and eyewitness of Commodus, Pertinax and the Severans, he is invaluable but hostile to soldiers and to upstarts like Macrinus.",
-"place":"nicaea","loc":[29.7194,40.4292],"locName":"Rome / Nicaea","locCertainty":"approx",
-"people":["cassius_dio","severus_alexander"],"polities":["rome"],
-"sources":[{"a":"Cassius Dio","w":"Roman History","r":"80.5"}],
-"certainty":"certain","tags":["historiography"]},
-
-{"id":"ardashir_invades_mesopotamia_230","year":230,"title":"Ardashir invades Roman Mesopotamia","type":"campaign","cats":["military"],"importance":3,
-"summary":"Ardashir attacked Roman Mesopotamia, besieged Nisibis and raided toward Cappadocia and Syria, the first Sasanian war against Rome.",
-"detail":"An embassy from Alexander urging Ardashir to be content with his own borders was answered (Herodian) with 400 tall Persian horsemen demanding Roman withdrawal from Syria and Asia. Mutinies in the Roman eastern army, including the murder of the governor of Mesopotamia Flavius Heracleo, show the weakness of the Roman position.",
-"place":"nisibis","loc":[41.2152,37.0711],"locName":"Nisibis, Mesopotamia","locCertainty":"approx","war":"persian_war_230_233",
-"people":["ardashir_i","severus_alexander"],"polities":["sasanian","rome"],
-"sources":[{"a":"Cassius Dio","w":"Roman History","r":"80.4.1-2"},{"a":"Herodian","w":"History of the Empire after Marcus","r":"6.2.1-6.4.6"}],
-"certainty":"probable","tags":["Sasanians"]},
-
-{"id":"severus_alexander_persian_campaign_232","year":232,"title":"Severus Alexander's three-pronged Persian campaign","type":"campaign","cats":["military"],"importance":3,
-"summary":"Alexander launched three columns, through Armenia into Media, through Mesopotamia, and under his own command in the centre; the southern column was destroyed, the northern suffered in the winter mountains, and Alexander's own force never pushed hard. Both sides were exhausted and Ardashir did not attack again for several years.",
-"detail":"Herodian presents the campaign as a humiliating failure caused by Alexander's timidity and Mamaea's influence; Alexander's own coinage and triumph of 233 claimed victory, and the HA invents a great battle. Modern scholarship (e.g. Edwell) sees a costly stalemate that preserved Mesopotamia. The dangerous Germanic incursions on the Rhine and Danube in 233-234 forced the field army to the West.",
-"place":null,"loc":[40.5,36.0],"locName":"Mesopotamia, Armenia and Media","locCertainty":"approx","war":"persian_war_230_233",
-"people":["severus_alexander","julia_mamaea","ardashir_i"],"polities":["rome","sasanian"],
-"sources":[{"a":"Herodian","w":"History of the Empire after Marcus","r":"6.5-6"},{"a":"Historia Augusta","w":"Severus Alexander","r":"55-57"}],
-"scholarship":["Edwell, Between Rome and Persia (2008)"],
-"debate":"Outcome disputed: Herodian (defeat) vs HA and coins (victory).","certainty":"disputed","tags":["Sasanians"]},
-
-{"id":"assassination_of_severus_alexander_235","year":235,"month":3,"title":"Murder of Severus Alexander and Julia Mamaea near Mogontiacum","type":"assassination","cats":["political"],"importance":4,
-"summary":"Preparing to buy peace from the Germans rather than fight, Alexander and his mother were killed by mutinous soldiers at Vicus Britannicus near Mogontiacum, and the army proclaimed the Thracian officer Maximinus.",
-"detail":"The end of the Severan dynasty is the conventional start of the 'Crisis of the Third Century' or 'military anarchy': in the next fifty years some 26 recognised emperors and dozens of usurpers reigned, almost all dying violently. Herodian contrasts the soft, mother-dominated Alexander with the giant soldier-emperor, a characterisation modern scholars treat with caution.",
-"place":"mogontiacum","loc":[8.2711,49.9929],"locName":"Vicus Britannicus near Mogontiacum (Mainz)","locCertainty":"approx","war":"maximinus_german_war",
-"people":["severus_alexander","julia_mamaea","maximinus_thrax"],"polities":["rome"],
-"sources":[{"a":"Herodian","w":"History of the Empire after Marcus","r":"6.8-9"},{"a":"Historia Augusta","w":"Severus Alexander","r":"59-61"},{"a":"Aurelius Victor","w":"De Caesaribus","r":"24.4"}],
-"debate":"Vicus Britannicus is often identified with Bretzenheim near Mainz.","certainty":"certain","tags":["end of the Severans","Crisis of the Third Century"]},
-
-{"id":"battle_of_harzhorn","year":235,"endYear":236,"title":"Battle at the Harzhorn","type":"battle","cats":["military"],"importance":3,
-"summary":"A Roman army returning from a deep penetration into northern Germany fought its way through a Germanic blockade at the Harzhorn ridge in Lower Saxony, some 200 km beyond the limes; the battlefield, found by metal detectorists in 2008, revolutionised views of third-century Roman offensive capacity.",
-"detail":"Over 2,700 artefacts include catapult bolts, hipposandals, a dolabra stamped for Legio IIII Severiana Alexandriana, and coins down to Severus Alexander, which together date the battle to the campaign of Maximinus in 235/236. Bolt patterns show Roman artillery clearing the ridge and infantry storming it. Herodian had reported Maximinus marching 300-400 stades into Germany and fighting a battle in a swamp, long dismissed as rhetoric; the Harzhorn confirms large-scale operations near the Elbe-Weser region.",
-"place":"harzhorn","loc":[10.0592,51.8297],"locName":"Harzhorn, near Kalefeld, Lower Saxony","locCertainty":"certain","war":"maximinus_german_war",
-"people":["maximinus_thrax"],"polities":["rome","germani"],
-"battle":{"sides":[{"polity":"rome","commanders":["maximinus_thrax"],"strength":"legionary vexillations, auxiliaries, Moorish and Osroene archers, artillery","losses":"unknown"},{"polity":"germani","commanders":[],"strength":"unknown","losses":"unknown"}],"victor":"rome","kind":"field","significance":"Archaeological proof that Roman armies still campaigned far beyond the Rhine in the 230s."},
-"sources":[{"a":"Herodian","w":"History of the Empire after Marcus","r":"7.2.3-8"},{"a":"Historia Augusta","w":"Maximini Duo","r":"12.1-4"}],
-"scholarship":["Pöppelmann, Deppmeyer and Steinmetz (eds.), Roms vergessener Feldzug (2013)","Geschwinde and others, 'Roms vergessener Feldzug', Germania (2009)"],
-"debate":"Identification with Maximinus' campaign is very probable but not explicit in the sources.","certainty":"probable","tags":["battlefield archaeology","artillery"]},
-
-{"id":"revolt_of_the_gordians_238","year":238,"month":3,"title":"Revolt of the Gordians in Africa","type":"usurpation","cats":["political"],"importance":4,
-"summary":"Young landowners at Thysdrus killed Maximinus' procurator in a tax revolt and proclaimed the aged proconsul of Africa, Marcus Antonius Gordianus, emperor with his son Gordian II; the Senate recognised them and declared Maximinus a public enemy.",
-"detail":"The revolt began a year in which six men were called emperor. The Senate formed a committee of twenty consulars (vigintiviri) to defend Italy, a striking revival of senatorial initiative. The Gordians reigned about three weeks.",
-"place":"thysdrus","loc":[10.7069,35.2964],"locName":"Thysdrus (El Djem), Africa Proconsularis","locCertainty":"certain","war":"civil_war_238",
-"people":["gordian_i","gordian_ii","maximinus_thrax"],"polities":["rome"],
-"sources":[{"a":"Herodian","w":"History of the Empire after Marcus","r":"7.4-7"},{"a":"Historia Augusta","w":"Gordiani Tres","r":"7-16"}],
-"debate":"Chronology of 238 is notoriously difficult; dates for the African revolt range from January to March.","certainty":"certain","tags":["Year of the Six Emperors","taxation"]},
-
-{"id":"battle_of_carthage_238","year":238,"title":"Battle of Carthage","type":"battle","cats":["military"],"importance":2,
-"summary":"Capelianus, the loyal governor of Numidia, marched Legio III Augusta on Carthage and crushed the Gordians' untrained militia; Gordian II was killed and his father hanged himself.",
-"detail":"Gordian III later cashiered III Augusta for its role, and its name was erased from inscriptions until the legion was reconstituted in 253.",
-"place":"carthage","loc":[10.3233,36.8528],"locName":"Outside Carthage","locCertainty":"approx","war":"civil_war_238",
-"people":["gordian_ii","gordian_i","capelianus"],"polities":["rome"],
-"battle":{"sides":[{"polity":"rome","faction":"Maximinus","commanders":["capelianus"],"strength":"Legio III Augusta and Numidian auxiliaries","losses":"light"},{"polity":"rome","faction":"Gordians","commanders":["gordian_ii"],"strength":"Carthaginian militia","losses":"heavy; Gordian II killed"}],"victor":"rome","victorFaction":"Maximinus","kind":"field","significance":"Ended the African revolt but not the senatorial rebellion it had started."},
-"sources":[{"a":"Herodian","w":"History of the Empire after Marcus","r":"7.9"}],
-"certainty":"certain","tags":["legio III Augusta"]},
-
-{"id":"pupienus_and_balbinus_elected_238","year":238,"title":"Senate elects Pupienus and Balbinus","type":"political","cats":["political","constitutional"],"importance":3,
-"summary":"On news of the Gordians' death the Senate chose two of the vigintiviri, the soldier Pupienus Maximus and the aristocrat Balbinus, as joint Augusti with equal powers, including the pontificate; the Roman crowd forced them to add the thirteen-year-old Gordian III as Caesar.",
-"detail":"The collegiate emperorship with two equal Augusti, without a senior partner, was unprecedented. Street fighting broke out between the plebs and the Praetorians, and parts of the city burned.",
-"place":"rome","loc":[12.4924,41.8902],"locName":"Rome","locCertainty":"certain","war":"civil_war_238",
-"people":["pupienus","balbinus","gordian_iii"],"polities":["rome"],
-"sources":[{"a":"Herodian","w":"History of the Empire after Marcus","r":"7.10-12"},{"a":"Historia Augusta","w":"Maximus et Balbinus","r":"1-3"}],
-"certainty":"certain","tags":["collegiate rule","Senate"]},
-
-{"id":"siege_of_aquileia_238","year":238,"title":"Siege of Aquileia and death of Maximinus","type":"siege","cats":["military"],"importance":3,
-"summary":"Maximinus crossed the Julian Alps but was stopped at Aquileia, defended by the senators Crispinus and Menophilus; his starving army, short of supplies in a stripped countryside, murdered him and his son in their tents.",
-"detail":"Herodian describes the Aquileians melting down statues for missiles and women giving their hair for bowstrings (a topos also attached to Carthage). The local god Belenus was said to have appeared on the walls. The heads of Maximinus and Maximus were sent to Rome.",
-"place":"aquileia","loc":[13.3683,45.7686],"locName":"Aquileia","locCertainty":"certain","war":"civil_war_238",
-"people":["maximinus_thrax","pupienus"],"polities":["rome"],
-"battle":{"sides":[{"polity":"rome","faction":"Senate","commanders":["rutilius_pudens_crispinus","tullius_menophilus"],"strength":"city militia and garrison","losses":"unknown"},{"polity":"rome","faction":"Maximinus","commanders":["maximinus_thrax"],"strength":"Danubian field army","losses":"emperor murdered by his own troops"}],"victor":"rome","victorFaction":"Senate","kind":"siege","significance":"Death of the first soldier-emperor; vindicated the senatorial coup."},
-"sources":[{"a":"Herodian","w":"History of the Empire after Marcus","r":"8.2-5"},{"a":"Historia Augusta","w":"Maximini Duo","r":"21-23"}],
-"debate":"Date of Maximinus' death (April to June 238) disputed.","certainty":"certain","tags":["Belenus"]},
-
-{"id":"murder_of_pupienus_and_balbinus_238","year":238,"title":"Murder of Pupienus and Balbinus; Gordian III sole emperor","type":"assassination","cats":["political"],"importance":3,
-"summary":"After 99 days of quarrelling joint rule, the two senatorial emperors were seized by the Praetorians, stripped, dragged through the city and killed; Gordian III, aged 13, was proclaimed sole Augustus.",
-"place":"rome","loc":[12.4875,41.8892],"locName":"Palatine, Rome","locCertainty":"certain","war":"civil_war_238",
-"people":["pupienus","balbinus","gordian_iii"],"polities":["rome"],
-"sources":[{"a":"Herodian","w":"History of the Empire after Marcus","r":"8.8"}],
-"debate":"Herodian's narrative ends here.","certainty":"certain","tags":["Praetorian Guard","Year of the Six Emperors"]},
-
-{"id":"sack_of_histria_238","year":238,"title":"Goths and Carpi sack Histria","type":"other","cats":["military"],"importance":3,
-"summary":"Gothic and Carpic raiders sacked Histria near the Danube mouth, the first securely recorded Gothic attack on the empire; Tullius Menophilus, governor of Moesia Inferior, bought them off with subsidies.",
-"detail":"The Historia Augusta's 'excidium Histriae' is corroborated by a destruction layer at the site. Menophilus' subsidies to the Goths and refusal to pay the Carpi, reported by the fragment of Petrus Patricius (from Dexippus), illustrate the developing system of tribute and divide-and-rule on the lower Danube.",
-"place":"histria","loc":[28.7744,44.5464],"locName":"Histria, Moesia Inferior","locCertainty":"certain","war":"gothic_war_249_251",
-"people":["tullius_menophilus"],"polities":["rome","goths","free_dacians"],
-"sources":[{"a":"Historia Augusta","w":"Maximus et Balbinus","r":"16.3"},{"a":"Petrus Patricius","w":"Fragments","r":"fr. 8 (FHG IV)"}],
-"scholarship":["Heather, Goths and Romans 332-489 (1991)","Kulikowski, Rome's Gothic Wars (2007)"],
-"certainty":"probable","tags":["Goths","subsidies"]},
-
-{"id":"siege_of_hatra_240","year":240,"endYear":241,"title":"Sasanian capture of Hatra","type":"siege","cats":["military"],"importance":3,
-"summary":"Hatra, which had become a Roman ally with a Roman garrison, fell to Ardashir and his son Shapur after a long siege; the city was destroyed and never reoccupied, which preserved its spectacular temples until ISIS damaged them in 2015.",
-"detail":"The Cologne Mani Codex dates the fall to the year Mani received his second revelation (240/241). Arabic legend tells of the king's daughter al-Nadira betraying the city for love of Shapur. Persian pressure also took Nisibis and Carrhae around this time, prompting Gordian III's expedition.",
-"place":"hatra","loc":[42.7181,35.5881],"locName":"Hatra","locCertainty":"certain","war":"persian_war_241_244",
-"people":["ardashir_i","shapur_i"],"polities":["sasanian","hatra","rome"],
-"battle":{"sides":[{"polity":"sasanian","commanders":["ardashir_i","shapur_i"],"strength":"royal army","losses":"unknown"},{"polity":"hatra","commanders":["sanatruq_ii"],"strength":"city garrison with a Roman cohort","losses":"city destroyed"}],"victor":"sasanian","kind":"siege","significance":"Removed the last buffer between Rome and Persia in the Jazira."},
-"sources":[{"a":"Cologne Mani Codex","w":"Codex Manichaicus Coloniensis","r":"18.1-16"},{"a":"al-Tabari","w":"Ta'rikh al-rusul wa'l-muluk","r":"reign of Shapur I"}],
-"debate":"King's identity in 240 uncertain (Sanatruq II is the last securely attested king).","certainty":"probable","tags":["Hatra","Mani"]},
-
-{"id":"accession_of_shapur_i_240","year":240,"month":4,"day":12,"title":"Shapur I crowned co-ruler; sole King of Kings from 242","type":"accession","cats":["political"],"importance":3,
-"summary":"Ardashir crowned his son Shapur co-ruler, probably on 12 April 240, and Shapur ruled alone from around 242 to 270, the most dangerous enemy Rome faced in the third century.",
-"detail":"Shapur's own trilingual (Middle Persian, Parthian, Greek) inscription on the Ka'ba-ye Zartosht at Naqsh-e Rustam (ŠKZ) narrates his three Roman wars, listing defeated emperors and captured cities and recording the deportation of Roman prisoners to build cities such as Gundeshapur (Weh-Andiok-Shabuhr, 'better than Antioch, Shapur built this') and Bishapur.",
-"place":"ctesiphon","loc":[44.5803,33.0936],"locName":"Ctesiphon","locCertainty":"approx",
-"people":["shapur_i","ardashir_i"],"polities":["sasanian"],
-"sources":[{"a":"Shapur I","w":"Res Gestae Divi Saporis (ŠKZ)","r":"preamble"},{"a":"Cologne Mani Codex","w":"Codex Manichaicus Coloniensis","r":"18"}],
-"debate":"The date 12 April 240 derives from Manichaean sources; sole rule 241 or 242.","certainty":"probable","tags":["ŠKZ","Naqsh-e Rustam"]},
-
-{"id":"battle_of_rhesaina_243","year":243,"title":"Battle of Rhesaina","type":"battle","cats":["military"],"importance":3,
-"summary":"Gordian III's army, directed by his father-in-law and praetorian prefect Timesitheus, defeated Shapur near Rhesaina and recovered Carrhae and Nisibis.",
-"detail":"Gordian had opened the temple of Janus before leaving Rome, an antiquarian gesture. The victory was followed by Timesitheus' death from illness, possibly helped along by his successor Philip.",
-"place":"rhesaina","loc":[40.0717,36.8503],"locName":"Rhesaina (Ras al-Ayn), Mesopotamia","locCertainty":"approx","war":"persian_war_241_244","campaign":"gordian_iii_persia_243_244",
-"people":["gordian_iii","timesitheus","shapur_i"],"polities":["rome","sasanian"],
-"battle":{"sides":[{"polity":"rome","commanders":["gordian_iii","timesitheus"],"strength":"large expeditionary army including Germanic and Gothic contingents","losses":"unknown"},{"polity":"sasanian","commanders":["shapur_i"],"strength":"unknown","losses":"unknown"}],"victor":"rome","kind":"field","significance":"Restored Roman Mesopotamia."},
-"sources":[{"a":"Ammianus Marcellinus","w":"Res Gestae","r":"23.5.17"},{"a":"Historia Augusta","w":"Gordiani Tres","r":"26.6-27.3"}],
-"certainty":"probable","tags":["Timesitheus"]},
-
-{"id":"battle_of_misiche_244","year":244,"month":2,"title":"Battle of Misiche and death of Gordian III","type":"battle","cats":["military","political"],"importance":4,
-"summary":"Advancing down the Euphrates toward Ctesiphon, Gordian's army was defeated by Shapur at Misiche near modern Fallujah; Gordian died soon after, either of wounds (Persian version) or murdered by his troops at the instigation of Philip the Arab (Roman version).",
-"detail":"Shapur renamed the place Peroz-Shapur ('victorious is Shapur') and boasts on the ŠKZ that Caesar Gordian was killed and the Roman army destroyed; the Bishapur and Naqsh-e Rustam reliefs show a Roman lying beneath his horse. Roman sources suppress the battle and blame Philip, who raised a cenotaph to Gordian at Zaitha near Circesium. Modern consensus tends to accept a Roman defeat followed by Gordian's death in uncertain circumstances.",
-"place":"misiche","loc":[43.6,33.38],"locName":"Misiche (Peroz-Shapur, later al-Anbar), on the Euphrates","locCertainty":"probable","war":"persian_war_241_244","campaign":"gordian_iii_persia_243_244",
-"people":["gordian_iii","shapur_i","philip_the_arab"],"polities":["rome","sasanian"],
-"battle":{"sides":[{"polity":"rome","commanders":["gordian_iii","philip_the_arab"],"strength":"Roman field army including Gothic and Germanic contingents (ŠKZ)","losses":"heavy; emperor dead"},{"polity":"sasanian","commanders":["shapur_i"],"strength":"royal army","losses":"unknown"}],"victor":"sasanian","kind":"field","significance":"First of Shapur's three triumphs over Roman emperors; led to Philip's costly peace."},
-"sources":[{"a":"Shapur I","w":"Res Gestae Divi Saporis (ŠKZ)","r":"account of the first war (Gordian)"},{"a":"Zosimus","w":"New History","r":"1.18-19"},{"a":"Ammianus Marcellinus","w":"Res Gestae","r":"23.5.7"},{"a":"Zonaras","w":"Epitome of Histories","r":"12.17"}],
-"scholarship":["Dodgeon and Lieu, The Roman Eastern Frontier and the Persian Wars AD 226-363 (1991)","Potter, The Roman Empire at Bay (2004/2014)"],
-"debate":"Roman and Persian narratives are irreconcilable; the cause of Gordian's death is genuinely uncertain.","certainty":"disputed","tags":["ŠKZ","Peroz-Shapur","Zaitha"]},
-
-{"id":"peace_of_philip_244","year":244,"title":"Philip the Arab's peace with Shapur","type":"treaty","cats":["diplomatic"],"importance":3,
-"summary":"The new emperor Philip made peace with Shapur, paying 500,000 denarii (aurei, according to the ŠKZ) and apparently recognising Persian influence in Armenia, while Roman coins proclaimed PAX FUNDATA CUM PERSIS.",
-"detail":"The ŠKZ calls Philip a tributary. Roman writers say he later reneged on the Armenian clause. Philip also founded Philippopolis (Shahba) in his native Trachonitis and deified his father Marinus.",
-"place":"misiche","loc":[43.6,33.38],"locName":"Mesopotamia","locCertainty":"approx","war":"persian_war_241_244",
-"people":["philip_the_arab","shapur_i"],"polities":["rome","sasanian","armenia"],
-"sources":[{"a":"Shapur I","w":"Res Gestae Divi Saporis (ŠKZ)","r":"Philip episode"},{"a":"Zonaras","w":"Epitome of Histories","r":"12.19"}],
-"certainty":"probable","tags":["tribute","Armenia"]},
-
-{"id":"millennium_of_rome_248","year":248,"month":4,"day":21,"title":"Philip celebrates Rome's millennium","type":"religious","cats":["religious","cultural"],"importance":3,
-"summary":"On 21 April 248 Philip staged the Ludi Saeculares for the thousandth anniversary of Rome's foundation, with games in which, according to later tradition, a thousand pairs of gladiators and exotic animals collected by Gordian III appeared.",
-"detail":"Coins carry SAECULUM NOVUM. The celebration coincided with Gothic and Carpic invasions and military revolts, an irony later Christian tradition, which also made Philip the first Christian emperor (Eusebius, HE 6.34), exploited. The Christian claim is generally rejected.",
-"place":"rome","loc":[12.4924,41.8902],"locName":"Rome","locCertainty":"certain",
-"people":["philip_the_arab"],"polities":["rome"],
-"sources":[{"a":"Aurelius Victor","w":"De Caesaribus","r":"28.1"},{"a":"Eusebius","w":"Ecclesiastical History","r":"6.34"},{"a":"Historia Augusta","w":"Gordiani Tres","r":"33.1-2"}],
-"debate":"Philip's Christianity is a later legend; the animal list in the HA is suspect.","certainty":"certain","tags":["Secular Games","millennium"]},
-
-{"id":"revolts_of_pacatianus_and_jotapianus_248","year":248,"title":"Revolts of Pacatianus and Jotapianus","type":"usurpation","cats":["political","military"],"importance":2,
-"summary":"In 248 Tiberius Claudius Marinus Pacatianus was proclaimed by the Danube legions and Jotapianus, claiming kinship with Severus Alexander, rose in Syria or Cappadocia; both were soon killed by their own troops.",
-"detail":"Philip's offer to resign was answered by the senator Decius, who predicted the usurpers would fall; Philip then sent Decius to the Danube, where the troops proclaimed him instead. Pacatianus' coins, minted at Viminacium, are dated 'year 1001 of Rome'.",
-"place":"viminacium","loc":[21.2167,44.7367],"locName":"Moesia (Pacatianus) and Syria (Jotapianus)","locCertainty":"approx",
-"people":["philip_the_arab","decius"],"polities":["rome"],
-"sources":[{"a":"Zosimus","w":"New History","r":"1.20-21"},{"a":"Aurelius Victor","w":"De Caesaribus","r":"29.2"}],
-"certainty":"probable","tags":["usurpers"]},
-
-{"id":"battle_of_verona_249","year":249,"month":9,"title":"Battle of Verona","type":"battle","cats":["military"],"importance":3,
-"summary":"Decius, proclaimed by the Danubian army, marched into Italy and defeated and killed Philip near Verona; Philip's son Philip II was murdered by the Praetorians in Rome.",
-"place":"verona","loc":[10.9916,45.4384],"locName":"Near Verona","locCertainty":"approx",
-"people":["decius","philip_the_arab"],"polities":["rome"],
-"battle":{"sides":[{"polity":"rome","faction":"Decius","commanders":["decius"],"strength":"Danubian army","losses":"unknown"},{"polity":"rome","faction":"Philip","commanders":["philip_the_arab"],"strength":"Italian and eastern units","losses":"emperor killed"}],"victor":"rome","victorFaction":"Decius","kind":"field","significance":"Brought the Danubian Decius to power."},
-"sources":[{"a":"Zosimus","w":"New History","r":"1.22"},{"a":"Aurelius Victor","w":"De Caesaribus","r":"28.10"},{"a":"Zonaras","w":"Epitome of Histories","r":"12.19"}],
-"debate":"Location (Verona vs Beroea in Macedonia, a scribal confusion) and date (September or October 249) debated.","certainty":"probable","tags":["civil war"]},
-
-{"id":"decian_persecution_250","year":250,"title":"Decius' edict of universal sacrifice","type":"religious","cats":["religious","political"],"importance":4,
-"summary":"Decius ordered every inhabitant of the empire to sacrifice to the gods, taste the sacrificial meat and obtain a certificate (libellus) from local commissioners; Christians who refused were imprisoned or executed, including Pope Fabian (20 January 250).",
-"detail":"Over forty libelli survive on papyrus from Egypt, including one for a priestess of Petesouchos, showing the order applied to everyone, not just Christians. The measure was probably a supplicatio for the empire's welfare tied to Decius' Trajanic-traditionalist programme rather than a targeted persecution, but its effect on the Church was severe: mass lapses, purchased certificates (libellatici), and bitter disputes over readmitting the lapsed that produced the Novatianist schism. Origen was tortured at Caesarea and died a few years later.",
-"place":"rome","loc":[12.4924,41.8902],"locName":"Empire-wide","locCertainty":"approx",
-"people":["decius","cyprian","origen"],"polities":["rome"],
-"sources":[{"a":"Cyprian","w":"De Lapsis","r":"7-9"},{"a":"Eusebius","w":"Ecclesiastical History","r":"6.39-42"},{"a":"Papyri","w":"Libelli of 250 (e.g. P.Mich. III 157)","r":""}],
-"scholarship":["Rives, 'The Decree of Decius and the Religion of Empire', JRS 89 (1999)","Knipfing, 'The Libelli of the Decian Persecution', HTR 16 (1923)"],
-"debate":"Whether Decius intended to target Christians is debated; Rives argues for a universalising religious policy.","certainty":"certain","tags":["libelli","persecution","lapsi"]},
-
-{"id":"plague_of_cyprian","year":249,"endYear":262,"title":"Plague of Cyprian","type":"plague","cats":["disaster","social"],"importance":4,
-"summary":"A pandemic, probably originating in Ethiopia and reaching Alexandria by 249, swept the empire for over a decade; Bishop Cyprian of Carthage describes bloody diarrhoea, vomiting, eye haemorrhage, gangrene of the limbs and loss of hearing and sight.",
-"detail":"Dionysius of Alexandria reports the city's population so reduced that the number of men aged 14 to 80 equalled those aged 40 to 70 in earlier times. The emperors Hostilian (251) and probably Claudius II (270) died of plague. Kyle Harper has argued for a viral haemorrhagic fever (filovirus) and an empire-wide mortality crisis, which others think overstated. The epidemic coincided with the worst military defeats of the century and may have hampered recruitment and tax.",
-"place":"alexandria","loc":[29.9187,31.2001],"locName":"Alexandria, then empire-wide","locCertainty":"approx",
-"people":["cyprian","trebonianus_gallus","claudius_gothicus"],"polities":["rome"],
-"sources":[{"a":"Cyprian","w":"De Mortalitate","r":"14"},{"a":"Eusebius","w":"Ecclesiastical History","r":"7.21-22 (Dionysius of Alexandria)"},{"a":"Pontius","w":"Vita Cypriani","r":"9"},{"a":"Zosimus","w":"New History","r":"1.26, 1.37"}],
-"scholarship":["Harper, The Fate of Rome (2017)","Harper, 'Pandemics and passages to late antiquity', JRA 28 (2015)","Huebner, 'The Plague of Cyprian: A revised view', Klio (2021)"],
-"debate":"Pathogen unknown (smallpox, measles, filovirus proposed); scale contested.","certainty":"certain","tags":["pandemic","climate"]},
-
-{"id":"siege_of_philippopolis_250","year":250,"title":"Siege and sack of Philippopolis","type":"siege","cats":["military"],"importance":3,
-"summary":"The Gothic king Cniva besieged Philippopolis in Thrace, whose governor Lucius Priscus, despairing of help from Decius, proclaimed himself emperor and allied with the Goths; the city fell and Ammianus says 100,000 people were killed or captured.",
-"detail":"A Vienna palimpsest (the 'Scythica Vindobonensia', identified in 2014) preserves fragments of Dexippus describing this campaign in Thrace, including speeches by Decius. Priscus was declared a public enemy and soon disappeared.",
-"place":"philippopolis","loc":[24.7453,42.1354],"locName":"Philippopolis (Plovdiv), Thrace","locCertainty":"certain","war":"gothic_war_249_251","campaign":"decius_vs_cniva_250_251",
-"people":["cniva","decius","lucius_priscus"],"polities":["goths","rome"],
-"battle":{"sides":[{"polity":"goths","commanders":["cniva"],"strength":"Gothic and allied force","losses":"unknown"},{"polity":"rome","commanders":["lucius_priscus"],"strength":"city defenders","losses":"c. 100,000 killed or captured (Ammianus, exaggerated)"}],"victor":"goths","kind":"siege","significance":"First sack of a major Balkan city by the Goths."},
-"sources":[{"a":"Ammianus Marcellinus","w":"Res Gestae","r":"31.5.17"},{"a":"Jordanes","w":"Getica","r":"18.101-103"},{"a":"Dexippus","w":"Scythica","r":"Vienna fragments (Martin and Grusková)"}],
-"scholarship":["Martin and Grusková, 'Scythica Vindobonensia', WS 127 (2014)"],
-"certainty":"certain","tags":["Goths","Dexippus palimpsest"]},
-
-{"id":"battle_of_beroe_250","year":250,"title":"Battle of Beroe (Augusta Traiana)","type":"battle","cats":["military"],"importance":2,
-"summary":"Cniva surprised Decius' army in camp near Beroe-Augusta Traiana, routing it and forcing the emperor to retreat to Moesia to regroup, leaving Philippopolis to its fate.",
-"place":"augusta_traiana","loc":[25.6345,42.4258],"locName":"Beroe-Augusta Traiana (Stara Zagora), Thrace","locCertainty":"probable","war":"gothic_war_249_251","campaign":"decius_vs_cniva_250_251",
-"people":["decius","cniva"],"polities":["rome","goths"],
-"battle":{"sides":[{"polity":"rome","commanders":["decius"],"strength":"imperial field army","losses":"heavy"},{"polity":"goths","commanders":["cniva"],"strength":"unknown","losses":"unknown"}],"victor":"goths","kind":"ambush","significance":"Left Thrace open to the Goths."},
-"sources":[{"a":"Jordanes","w":"Getica","r":"18.102"}],
-"certainty":"probable","tags":["Goths"]},
-
-{"id":"battle_of_abritus","year":251,"month":6,"title":"Battle of Abritus","type":"battle","cats":["military"],"importance":5,
-"summary":"Decius and his son Herennius Etruscus were killed when Cniva's Goths lured the Roman army into a marsh near Abritus in Moesia Inferior; Decius was the first emperor to die fighting a foreign enemy, and his body was never found.",
-"detail":"Herennius was killed by an arrow early in the fighting; Decius reportedly told the troops that the loss of one soldier did not matter. Cniva placed part of his army behind a swamp; the Romans pursuing into it were trapped. Byzantine sources (Zosimus, Zonaras) accuse the governor Trebonianus Gallus of treachery, a claim many moderns doubt. Gallus, proclaimed emperor, allowed the Goths to withdraw with their booty and prisoners and promised an annual subsidy. A large fortified Roman camp excavated near Razgrad and coin hoards in the area have been linked to the battle.",
-"place":"abritus","loc":[26.5236,43.5222],"locName":"Abritus (Razgrad), Moesia Inferior","locCertainty":"probable","war":"gothic_war_249_251","campaign":"decius_vs_cniva_250_251",
-"people":["decius","herennius_etruscus","cniva","trebonianus_gallus"],"polities":["rome","goths"],
-"battle":{"sides":[{"polity":"rome","commanders":["decius","herennius_etruscus","trebonianus_gallus"],"strength":"Danubian field army, perhaps 20,000-30,000 (modern estimate)","losses":"very heavy; emperor and heir killed"},{"polity":"goths","commanders":["cniva"],"strength":"perhaps similar (modern estimate)","losses":"unknown"}],"victor":"goths","kind":"field","significance":"First Roman emperor killed by a foreign enemy; symbol of the third-century nadir."},
-"sources":[{"a":"Zosimus","w":"New History","r":"1.23"},{"a":"Jordanes","w":"Getica","r":"18.103"},{"a":"Aurelius Victor","w":"De Caesaribus","r":"29.4-5"},{"a":"Lactantius","w":"De Mortibus Persecutorum","r":"4.3"}],
-"scholarship":["Bursche, 'The battle of Abritus, the imperial treasury and aurei in Barbaricum', NC 173 (2013)","Kulikowski, Rome's Gothic Wars (2007)"],
-"debate":"Date (June or July 251), Gallus' alleged treachery, and Gothic identity of Cniva's force (perhaps a mixed coalition) debated. Lactantius gloats over the persecutor's unburied corpse.","certainty":"certain","tags":["Goths","death of an emperor"]},
-
-{"id":"novatian_schism_251","year":251,"title":"Novatianist schism at Rome","type":"religious","cats":["religious"],"importance":3,
-"summary":"When Cornelius was elected bishop of Rome in March 251 and favoured readmitting the lapsed after penance, the learned presbyter Novatian had himself consecrated rival bishop, founding a rigorist church that survived for centuries.",
-"detail":"Cyprian at Carthage backed Cornelius after hesitation and held councils on the lapsed. The Novatianists ('Cathari') spread across the empire; Constantine later tolerated them, and their bishops attended Nicaea. Novatian's De Trinitate is the first major Latin Trinitarian treatise from Rome.",
-"place":"rome","loc":[12.4924,41.8902],"locName":"Rome","locCertainty":"certain",
-"people":["cyprian"],"polities":["rome"],
-"sources":[{"a":"Eusebius","w":"Ecclesiastical History","r":"6.43"},{"a":"Cyprian","w":"Letters","r":"44-55"}],
-"certainty":"certain","tags":["schism","lapsi"]},
-
-{"id":"battle_of_barbalissos_252","year":252,"title":"Battle of Barbalissos","type":"battle","cats":["military"],"importance":4,
-"summary":"Opening his second war, Shapur I destroyed a Roman army of 60,000 (his figure) at Barbalissos on the Euphrates, then overran Syria and Cappadocia; the ŠKZ lists 37 captured cities.",
-"detail":"Shapur's pretext was Roman interference in Armenia, where the Arsacid king (probably Khosrov II) was murdered and his son Tiridates fled to Rome. Barbalissos opened the road to Antioch.",
-"place":"barbalissos","loc":[38.0472,36.0364],"locName":"Barbalissos (Meskene), Syria","locCertainty":"probable","war":"persian_war_252_260",
-"people":["shapur_i"],"polities":["sasanian","rome"],
-"battle":{"sides":[{"polity":"sasanian","commanders":["shapur_i"],"strength":"royal army","losses":"unknown"},{"polity":"rome","commanders":[],"strength":"60,000 (ŠKZ)","losses":"army destroyed (ŠKZ)"}],"victor":"sasanian","kind":"field","significance":"Left the Roman East defenceless."},
-"sources":[{"a":"Shapur I","w":"Res Gestae Divi Saporis (ŠKZ)","r":"second campaign"}],
-"debate":"Date 252 or 253; known only from Shapur's inscription.","certainty":"probable","tags":["ŠKZ"]},
-
-{"id":"sack_of_antioch_253","year":253,"title":"Shapur I sacks Antioch","type":"siege","cats":["military"],"importance":4,
-"summary":"Shapur took and sacked Antioch, the third city of the empire, guided (according to Ammianus and the Thirteenth Sibylline Oracle) by a renegade Antiochene councillor named Mariades; thousands were deported to Persia.",
-"detail":"Ammianus has the people of Antioch watching a mime in the theatre when an actor's wife cried 'Am I dreaming, or are the Persians here?'. Deportees from Antioch peopled Gundeshapur and Bishapur and helped to spread Christianity in Persia. Shapur later executed Mariades.",
-"place":"antioch","loc":[36.1611,36.2021],"locName":"Antioch on the Orontes","locCertainty":"certain","war":"persian_war_252_260",
-"people":["shapur_i","mariades"],"polities":["sasanian","rome"],
-"battle":{"sides":[{"polity":"sasanian","commanders":["shapur_i"],"strength":"royal army","losses":"minimal"},{"polity":"rome","commanders":[],"strength":"citizen population","losses":"city sacked; mass deportation"}],"victor":"sasanian","kind":"siege","significance":"The greatest humiliation inflicted on Rome in the East to that date."},
-"sources":[{"a":"Ammianus Marcellinus","w":"Res Gestae","r":"23.5.3"},{"a":"Shapur I","w":"Res Gestae Divi Saporis (ŠKZ)","r":"second campaign"},{"a":"Oracula Sibyllina","w":"Book 13","r":"89-130"}],
-"debate":"Date 253 or 256; some argue for two captures (253 and 260).","certainty":"disputed","tags":["deportation","Gundeshapur"]},
-
-{"id":"uranius_antoninus_253","year":253,"title":"Uranius Antoninus defends Emesa","type":"usurpation","cats":["political","military"],"importance":2,
-"summary":"Lucius Julius Aurelius Sulpicius Severus Uranius Antoninus, priest of Elagabal at Emesa, led local resistance to Shapur and struck gold and silver coins as emperor in 253-254.",
-"detail":"Malalas records a priest of Aphrodite (Sampsigeramus) driving off Shapur from Emesa with slingers; the identification with Uranius is widely accepted. His local defence anticipates the larger role of Odaenathus of Palmyra.",
-"place":"emesa","loc":[36.7136,34.7324],"locName":"Emesa (Homs)","locCertainty":"certain","war":"persian_war_252_260",
-"people":["uranius_antoninus","shapur_i"],"polities":["rome","emesa"],
-"sources":[{"a":"John Malalas","w":"Chronographia","r":"12.26"},{"a":"Oracula Sibyllina","w":"Book 13","r":"150-154"}],
-"certainty":"probable","tags":["Emesa","local defence"]},
-
-{"id":"aemilianus_and_valerian_253","year":253,"title":"Aemilianus overthrows Gallus; Valerian seizes power","type":"civil_war","cats":["political","military"],"importance":3,
-"summary":"Aemilius Aemilianus, governor of Moesia, won a victory over the Goths, was proclaimed emperor and invaded Italy; Trebonianus Gallus and his son Volusian were killed by their own men near Interamna. Three months later Aemilianus met the same fate near Spoletium as Valerian approached with the Rhine army.",
-"detail":"Valerian, a senior senator in his sixties, made his son Gallienus co-Augustus, dividing responsibility between East (Valerian) and West (Gallienus), a pattern for later joint rule.",
-"place":"interamna_nahars","loc":[12.6466,42.5636],"locName":"Interamna (Terni) and Spoletium, Umbria","locCertainty":"approx",
-"people":["trebonianus_gallus","aemilianus","valerian","gallienus"],"polities":["rome"],
-"sources":[{"a":"Zosimus","w":"New History","r":"1.28-29"},{"a":"Aurelius Victor","w":"De Caesaribus","r":"31-32"},{"a":"Eutropius","w":"Breviarium","r":"9.5-7"}],
-"certainty":"certain","tags":["civil war"]},
-
-{"id":"siege_of_dura_europos_256","year":256,"title":"Sasanian siege of Dura-Europos","type":"siege","cats":["military"],"importance":4,
-"summary":"Shapur's army besieged and destroyed the Roman frontier fortress of Dura-Europos on the Euphrates; excavations revealed siege mines and countermines in which some twenty Roman soldiers and one Persian died, perhaps the earliest archaeological evidence of chemical warfare.",
-"detail":"Simon James has argued that the Persians filled the Roman countermine with toxic smoke from burning bitumen and sulphur crystals, killing the Romans who broke in. To strengthen the wall the defenders had buried the street behind it with an earthen ramp, which preserved the synagogue with its painted biblical cycle, the Christian house-church with the earliest datable baptistery, and the Mithraeum. The city was abandoned after its fall.",
-"place":"dura_europos","loc":[40.7303,34.7469],"locName":"Dura-Europos, Euphrates","locCertainty":"certain","war":"persian_war_252_260",
-"people":["shapur_i"],"polities":["sasanian","rome"],
-"battle":{"sides":[{"polity":"sasanian","commanders":["shapur_i"],"strength":"royal army with siege engineers","losses":"unknown"},{"polity":"rome","commanders":[],"strength":"garrison incl. cohors XX Palmyrenorum","losses":"garrison destroyed; city abandoned"}],"victor":"sasanian","kind":"siege","significance":"Its ramp-buried buildings are among the most important finds of Roman archaeology."},
-"sources":[{"a":"Archaeological evidence","w":"Yale-French excavations","r":"Tower 19 mine"}],
-"scholarship":["James, 'Stratagems, Combat, and Chemical Warfare in the Siege Mines of Dura-Europos', AJA 115 (2011)","James, The Roman Military Base at Dura-Europos (2019)"],
-"debate":"Date of fall 256 or 257 from coin and graffiti evidence.","certainty":"probable","tags":["siege mines","synagogue","chemical warfare"]},
-
-{"id":"gothic_raid_on_trapezus_257","year":257,"title":"Gothic and Boranoi sea raids: Pityus and Trapezus","type":"other","cats":["military"],"importance":3,
-"summary":"Using ships commandeered from the Bosporan Kingdom, Boranoi and Goths raided the eastern Black Sea, taking Pityus at the second attempt and storming Trapezus, whose large garrison fled by night.",
-"detail":"Zosimus describes the raiders climbing the walls with tree trunks against the hillside and carrying off immense booty and captives. Gregory Thaumaturgus' Canonical Epistle deals with Christian captives and collaborators after these raids in Pontus. In 258 another fleet raided the Propontis and sacked Chalcedon, Nicomedia and Nicaea.",
-"place":"trapezus","loc":[39.7178,41.0015],"locName":"Trapezus (Trabzon), Pontus","locCertainty":"certain","war":"gothic_invasions_253_271",
-"people":[],"polities":["goths","bosporan_kingdom","rome"],
-"sources":[{"a":"Zosimus","w":"New History","r":"1.32-35"},{"a":"Gregory Thaumaturgus","w":"Canonical Epistle","r":"1-11"}],
-"certainty":"probable","tags":["Goths","naval raids","Black Sea"]},
-
-{"id":"valerian_persecution_257","year":257,"endYear":259,"title":"Valerian's persecution of the clergy","type":"religious","cats":["religious","political"],"importance":3,
-"summary":"Valerian's first edict (257) ordered clergy to sacrifice and banned Christian meetings and cemeteries; a second (258) ordered execution of bishops, priests and deacons and confiscated property of Christian senators and equestrians.",
-"detail":"Victims included Pope Sixtus II, beheaded with deacons in the catacomb of Callixtus on 6 August 258, the deacon Lawrence (later legend: the gridiron), and Cyprian of Carthage. Unlike Decius, Valerian targeted the Church's leadership and property, implying awareness of its institutional strength.",
-"place":"rome","loc":[12.5106,41.8586],"locName":"Empire-wide; Catacomb of Callixtus, Rome","locCertainty":"approx",
-"people":["valerian","cyprian"],"polities":["rome"],
-"sources":[{"a":"Cyprian","w":"Letters","r":"80"},{"a":"Eusebius","w":"Ecclesiastical History","r":"7.10-12"},{"a":"Acta Proconsularia Cypriani","w":"Acta","r":"1-5"}],
-"certainty":"certain","tags":["persecution","Sixtus II","Lawrence"]},
-
-{"id":"martyrdom_of_cyprian_258","year":258,"month":9,"day":14,"title":"Martyrdom of Cyprian of Carthage","type":"religious","cats":["religious"],"importance":3,
-"summary":"Thascius Caecilius Cyprianus, bishop of Carthage, was beheaded at the villa Sexti outside Carthage before a large crowd after a trial before the proconsul Galerius Maximus, the first African bishop to be martyred.",
-"detail":"The Acta Proconsularia record his reply 'Deo gratias' to the sentence. His letters and treatises (De Unitate Ecclesiae, De Lapsis) are the most important sources for third-century church organisation and the plague and persecutions.",
-"place":"carthage","loc":[10.3233,36.8528],"locName":"Carthage","locCertainty":"certain",
-"people":["cyprian","valerian"],"polities":["rome"],
-"sources":[{"a":"Acta Proconsularia Cypriani","w":"Acta","r":"3-6"},{"a":"Pontius","w":"Vita Cypriani","r":"15-19"}],
-"certainty":"certain","tags":["martyrdom"]},
-
-{"id":"battle_of_mediolanum_259","year":259,"title":"Battle of Mediolanum","type":"battle","cats":["military"],"importance":3,
-"summary":"Gallienus defeated a vast Alamannic army (Zonaras says 300,000) near Milan with a force of 10,000, after the invaders had crossed the Alps and reached the outskirts of Rome, where the Senate armed the plebs.",
-"detail":"The invasion forced Gallienus to concentrate cavalry in northern Italy, often seen (with caution) as the origin of a mobile cavalry reserve under Aureolus based at Milan.",
-"place":"mediolanum","loc":[9.19,45.4642],"locName":"Near Mediolanum (Milan)","locCertainty":"approx","war":"alamannic_invasions_259_271",
-"people":["gallienus"],"polities":["rome","alamanni"],
-"battle":{"sides":[{"polity":"rome","commanders":["gallienus"],"strength":"10,000 (Zonaras)","losses":"unknown"},{"polity":"alamanni","commanders":[],"strength":"300,000 (Zonaras, impossible)","losses":"heavy"}],"victor":"rome","kind":"field","significance":"Saved Italy from the first major barbarian invasion since the Cimbri."},
-"sources":[{"a":"Zonaras","w":"Epitome of Histories","r":"12.24"},{"a":"Zosimus","w":"New History","r":"1.37"}],
-"debate":"Date 259 or 260; numbers absurd.","certainty":"probable","tags":["Alamanni","cavalry reserve"]},
-
-{"id":"battle_of_augusta_vindelicum_260","year":260,"month":4,"day":24,"title":"Battle at Augusta Vindelicum","type":"battle","cats":["military"],"importance":3,
-"summary":"On 24-25 April 260 the Raetian governor Marcus Simplicinius Genialis, with soldiers and local levies, defeated Semnones or Juthungi returning from Italy laden with booty and freed 'many thousands of Italian captives', as recorded on a victory altar found in Augsburg in 1992.",
-"detail":"The altar is dated by the consuls of 260 'Postumus Augustus and Honoratianus', showing that Raetia had joined Postumus' Gallic Empire. It is a rare contemporary document of the invasions and of a provincial army acting without the emperor.",
-"place":"augusta_vindelicum","loc":[10.8978,48.3705],"locName":"Augusta Vindelicum (Augsburg), Raetia","locCertainty":"probable","war":"alamannic_invasions_259_271",
-"people":["marcus_simplicinius_genialis","postumus"],"polities":["rome","juthungi","gallic_empire"],
-"battle":{"sides":[{"polity":"gallic_empire","commanders":["marcus_simplicinius_genialis"],"strength":"Raetian garrison and local levies","losses":"unknown"},{"polity":"juthungi","commanders":[],"strength":"raiding army with booty","losses":"heavy; captives freed"}],"victor":"gallic_empire","kind":"field","significance":"Epigraphic snapshot of invasion, captives and the Gallic secession."},
-"sources":[{"a":"Inscriptions","w":"Augsburg victory altar","r":"AE 1993, 1231"}],
-"scholarship":["Bakker, 'Raetien unter Postumus', Germania 71 (1993)","Drinkwater, The Alamanni and Rome (2007)"],
-"certainty":"certain","tags":["Augsburg altar","Juthungi","Semnones"]},
-
-{"id":"revolts_of_ingenuus_and_regalianus_260","year":260,"title":"Revolts of Ingenuus and Regalianus on the Danube","type":"usurpation","cats":["political","military"],"importance":2,
-"summary":"Ingenuus, governor of Pannonia, was proclaimed emperor and defeated by Gallienus' cavalry commander Aureolus at Mursa; his successor as usurper, Regalianus, struck coins at Carnuntum before being killed after Sarmatian (Roxolani) attacks.",
-"detail":"Regalianus' coins, crude overstrikes on older denarii, include issues for his wife Sulpicia Dryantilla. Both revolts reflect frontier armies' demand for an emperor on the spot.",
-"place":"mursa","loc":[18.6955,45.5550],"locName":"Mursa (Osijek), Pannonia","locCertainty":"approx",
-"people":["ingenuus","aureolus","gallienus"],"polities":["rome","roxolani"],
-"sources":[{"a":"Aurelius Victor","w":"De Caesaribus","r":"33.2"},{"a":"Zonaras","w":"Epitome of Histories","r":"12.24"},{"a":"Historia Augusta","w":"Tyranni Triginta","r":"9-10"}],
-"debate":"Date 258 or 260 for Ingenuus.","certainty":"probable","tags":["usurpers"]},
-
-{"id":"battle_of_mursa_260","year":260,"title":"Battle of Mursa (260)","type":"battle","cats":["military"],"importance":2,
-"summary":"Gallienus and his cavalry commander Aureolus crushed the usurper Ingenuus near Mursa; Ingenuus was killed or drowned himself.",
-"place":"mursa","loc":[18.6955,45.555],"locName":"Mursa (Osijek)","locCertainty":"approx",
-"people":["gallienus","aureolus","ingenuus"],"polities":["rome"],
-"battle":{"sides":[{"polity":"rome","faction":"Gallienus","commanders":["gallienus","aureolus"],"strength":"cavalry reserve from Italy","losses":"unknown"},{"polity":"rome","faction":"Ingenuus","commanders":["ingenuus"],"strength":"Pannonian and Moesian legions","losses":"heavy"}],"victor":"rome","victorFaction":"Gallienus","kind":"field","significance":"Early display of Gallienus' mobile cavalry."},
-"sources":[{"a":"Zonaras","w":"Epitome of Histories","r":"12.24"},{"a":"Aurelius Victor","w":"De Caesaribus","r":"33.2"}],
-"certainty":"probable","tags":["civil war","cavalry"]},
-
-{"id":"battle_of_edessa_260","year":260,"title":"Battle of Edessa and capture of Valerian","type":"battle","cats":["military","political"],"importance":5,
-"summary":"Shapur I defeated Valerian between Carrhae and Edessa and captured him, the only Roman emperor ever taken prisoner by a foreign enemy, along with his praetorian prefect, senators and, by Shapur's count, an army of 70,000.",
-"detail":"Valerian's army was already weakened by plague. Roman sources suggest he was seized during negotiations; the ŠKZ says Shapur captured him 'with his own hands'. Valerian died in captivity; Christian writers (Lactantius) relished stories that Shapur used him as a mounting block and had his skin stuffed and hung in a temple. The reliefs at Naqsh-e Rustam and Bishapur show Shapur on horseback holding Valerian by the wrist while Philip kneels. Roman prisoners built the Band-e Kaisar dam at Shushtar. Shapur's army then ravaged Cilicia and Cappadocia before Odaenathus and Ballista harried it on its return.",
-"place":"edessa","loc":[38.7955,37.1591],"locName":"Between Carrhae and Edessa, Osroene","locCertainty":"approx","war":"persian_war_252_260","campaign":"shapur_i_campaign_260",
-"people":["valerian","shapur_i"],"polities":["sasanian","rome"],
-"battle":{"sides":[{"polity":"sasanian","commanders":["shapur_i"],"strength":"royal army","losses":"unknown"},{"polity":"rome","commanders":["valerian","successianus"],"strength":"70,000 (ŠKZ), drawn from many provinces","losses":"army captured; emperor taken"}],"victor":"sasanian","kind":"field","significance":"Nadir of Roman prestige; precipitated the Gallic and Palmyrene secessions."},
-"sources":[{"a":"Shapur I","w":"Res Gestae Divi Saporis (ŠKZ)","r":"third campaign"},{"a":"Zosimus","w":"New History","r":"1.36"},{"a":"Lactantius","w":"De Mortibus Persecutorum","r":"5"},{"a":"Aurelius Victor","w":"De Caesaribus","r":"32.5"}],
-"scholarship":["Dodgeon and Lieu (1991)","Potter, The Roman Empire at Bay (2014)","Canepa, The Two Eyes of the Earth (2009)"],
-"debate":"Circumstances (battle vs treacherous parley) and exact year (260, possibly 259) disputed.","certainty":"certain","tags":["ŠKZ","Naqsh-e Rustam","captive emperor"]},
-
-{"id":"macriani_usurpation_260","year":260,"endYear":261,"title":"Usurpation of the Macriani","type":"usurpation","cats":["political","military"],"importance":2,
-"summary":"After Valerian's capture, his finance official Fulvius Macrianus and the prefect Ballista had Macrianus' sons Macrianus Minor and Quietus proclaimed emperors in the East; the Macriani invaded the Balkans in 261 and were destroyed by Aureolus, while Odaenathus of Palmyra killed Quietus and Ballista at Emesa.",
-"place":"emesa","loc":[36.7136,34.7324],"locName":"Syria, Illyricum and Emesa","locCertainty":"approx",
-"people":["aureolus","odaenathus","gallienus"],"polities":["rome","palmyra"],
-"sources":[{"a":"Zonaras","w":"Epitome of Histories","r":"12.24"},{"a":"Historia Augusta","w":"Tyranni Triginta","r":"12-14, 18"}],
-"certainty":"probable","tags":["usurpers"]},
-
-{"id":"postumus_founds_gallic_empire_260","year":260,"title":"Postumus founds the Gallic Empire","type":"usurpation","cats":["political","military"],"importance":4,
-"summary":"Marcus Cassianius Latinius Postumus, commander on the Rhine, quarrelled with Gallienus' son Saloninus and his guardian Silvanus over booty, besieged them in Colonia Agrippinensis and had them killed; he then ruled Gaul, Germany, Britain, Spain and briefly Raetia for nine years.",
-"detail":"The Gallic Empire had its own consuls, praetorian guard and Senate (probably at Trier or Cologne) and never tried to march on Rome; Postumus presented himself as defender of the Rhine (coins: RESTITVTOR GALLIARVM, HERCVLI DEVSONIENSI). Drinkwater characterises it as a Roman regime born of regional needs rather than Gallic separatism. Gallienus' attempt to retake it c. 265 failed when he was wounded besieging Postumus.",
-"place":"colonia_agrippina","loc":[6.958,50.941],"locName":"Colonia Agrippinensis (Cologne)","locCertainty":"certain","war":"gallic_empire_war",
-"people":["postumus","gallienus"],"polities":["gallic_empire","rome"],
-"sources":[{"a":"Zonaras","w":"Epitome of Histories","r":"12.24"},{"a":"Aurelius Victor","w":"De Caesaribus","r":"33.8"},{"a":"Eutropius","w":"Breviarium","r":"9.9"}],
-"scholarship":["Drinkwater, The Gallic Empire (1987)"],
-"certainty":"certain","tags":["Gallic Empire","Imperium Galliarum"]},
-
-{"id":"gallienus_edict_of_toleration_260","year":260,"title":"Gallienus' rescript restoring Christian property","type":"religious","cats":["religious","law"],"importance":3,
-"summary":"Gallienus ended his father's persecution and restored churches and cemeteries to the bishops, effectively recognising the Church as a property-holding body; peace for Christians lasted until 303.",
-"detail":"Eusebius quotes Gallienus' rescript to Bishop Dionysius of Alexandria and others. The forty years of peace saw large churches built in cities like Nicomedia, opposite the imperial palace.",
-"place":"rome","loc":[12.4924,41.8902],"locName":"Empire-wide","locCertainty":"approx",
-"people":["gallienus"],"polities":["rome"],
-"sources":[{"a":"Eusebius","w":"Ecclesiastical History","r":"7.13"}],
-"certainty":"certain","tags":["toleration","Church property"]}
-]}
+{
+ "events": [
+  {
+   "id": "elagabal_cult_in_rome_220",
+   "year": 220,
+   "endYear": 222,
+   "title": "Elagabalus imposes the cult of Elagabal on Rome",
+   "type": "religious",
+   "cats": [
+    "religious",
+    "political"
+   ],
+   "importance": 3,
+   "summary": "The boy emperor brought the black conical baetyl of the Emesene sun god to Rome, built the Elagabalium on the Palatine, placed Elagabal above Jupiter and married the Vestal Virgin Aquilia Severa as a sacred union.",
+   "detail": "Elagabalus also 'married' the god to Urania of Carthage, whose cult image was brought to Rome, and moved the Palladium and Vesta's fire into the new temple. Midsummer processions saw the emperor running backwards before the god's chariot. Dio and Herodian present the reign as a catalogue of sexual and religious outrages, and the HA life adds much fiction; modern work (Icks, 2011) sees a real religious programme alienating the Roman elite and army. Coins with the legend SANCT DEO SOLI ELAGABAL confirm the cult.",
+   "place": "rome",
+   "loc": [
+    12.4884,
+    41.8893
+   ],
+   "locName": "Elagabalium, Palatine, Rome",
+   "locCertainty": "approx",
+   "people": [
+    "elagabalus",
+    "julia_maesa"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Herodian",
+     "w": "History of the Empire after Marcus",
+     "r": "5.5-6"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "80(79).9-12"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Heliogabalus",
+     "r": "3-7"
+    }
+   ],
+   "scholarship": [
+    "Icks, The Crimes of Elagabalus (2011)"
+   ],
+   "debate": "The HA life is largely invented; Herodian moralising; the god's Syrian character is overplayed in sources.",
+   "certainty": "certain",
+   "tags": [
+    "Sol",
+    "Emesa",
+    "Vestals"
+   ]
+  },
+  {
+   "id": "assassination_of_elagabalus_222",
+   "year": 222,
+   "month": 3,
+   "day": 11,
+   "title": "Assassination of Elagabalus",
+   "type": "assassination",
+   "cats": [
+    "political"
+   ],
+   "importance": 3,
+   "summary": "After Elagabalus tried to remove his popular cousin and adopted Caesar Alexianus, the Praetorians killed him and his mother Julia Soaemias, dragged the bodies through the streets and threw them into the Tiber, and hailed the thirteen-year-old Severus Alexander.",
+   "detail": "The Emesene god was sent home and Jupiter restored. Real power passed to Julia Maesa (died c. 224) and then to Alexander's mother Julia Mamaea, governing with a council of senators and jurists including Ulpian.",
+   "place": "rome",
+   "loc": [
+    12.5035,
+    41.9055
+   ],
+   "locName": "Castra Praetoria, Rome",
+   "locCertainty": "certain",
+   "people": [
+    "elagabalus",
+    "severus_alexander",
+    "julia_maesa",
+    "julia_mamaea"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "80(79).19-20"
+    },
+    {
+     "a": "Herodian",
+     "w": "History of the Empire after Marcus",
+     "r": "5.8"
+    }
+   ],
+   "debate": "Date given as 11 or 13 March 222.",
+   "certainty": "certain",
+   "tags": [
+    "Praetorian Guard",
+    "damnatio memoriae"
+   ]
+  },
+  {
+   "id": "murder_of_ulpian_223",
+   "year": 223,
+   "title": "Murder of the jurist Ulpian by the Praetorians",
+   "type": "assassination",
+   "cats": [
+    "political",
+    "law"
+   ],
+   "importance": 3,
+   "summary": "Domitius Ulpianus, praetorian prefect and the most prolific Roman jurist, was killed by his own guardsmen in the palace before the emperor and his mother, after three days of street fighting between the Praetorians and the people of Rome.",
+   "detail": "Ulpian had reportedly executed his predecessors Flavianus and Chrestus. His writings supplied about a third of Justinian's Digest, making him perhaps the single most influential legal author in European history. Dio, then governor of Pannonia, was himself threatened by the Guard for disciplining soldiers and spent his second consulship (229) outside Rome for safety.",
+   "place": "rome",
+   "loc": [
+    12.4875,
+    41.8892
+   ],
+   "locName": "Palatine, Rome",
+   "locCertainty": "certain",
+   "people": [
+    "ulpian",
+    "severus_alexander",
+    "julia_mamaea",
+    "cassius_dio"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "80.2.2-4, 80.4.2"
+    },
+    {
+     "a": "Papyri",
+     "w": "P.Oxy. XXXI 2565",
+     "r": "Ulpian still prefect in Dec 222"
+    }
+   ],
+   "debate": "Traditional date 228 has given way to 223 on the basis of P.Oxy. 2565 and Dio's sequence; still disputed.",
+   "certainty": "disputed",
+   "tags": [
+    "jurists",
+    "Digest"
+   ]
+  },
+  {
+   "id": "battle_of_hormozgan_224",
+   "year": 224,
+   "month": 4,
+   "day": 28,
+   "title": "Battle of Hormozgan: end of the Arsacids",
+   "type": "battle",
+   "cats": [
+    "military",
+    "political"
+   ],
+   "importance": 5,
+   "summary": "Ardashir, Sasanian king of Persis, defeated and killed the last Parthian great king Artabanus IV on the plain of Hormozgan, ending 470 years of Arsacid rule and founding the Sasanian Empire.",
+   "detail": "Ardashir had built a power base around Istakhr and Ardashir-Khwarrah (Gor/Firuzabad), defeating neighbouring local kings. The Firuzabad rock relief shows the Sasanian dynasts unhorsing their Arsacid opponents in a joust, with Ardashir lancing Artabanus. Arsacid branches survived in Armenia and the Caucasus, giving Armenian kings a long-lasting dynastic grievance against the Sasanians. For Rome the change brought a more centralised, ideologically assertive neighbour that claimed (according to Roman writers) the old Achaemenid lands up to the Aegean.",
+   "place": "hormozgan",
+   "loc": [
+    49.0,
+    31.3
+   ],
+   "locName": "Plain of Hormozgan (exact site unknown, probably in Khuzestan or near Golpayegan)",
+   "locCertainty": "disputed",
+   "people": [
+    "ardashir_i",
+    "artabanus_iv",
+    "shapur_i"
+   ],
+   "polities": [
+    "sasanian",
+    "parthia"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "sasanian",
+      "commanders": [
+       "ardashir_i",
+       "shapur_i"
+      ],
+      "strength": "Persian nobility and levies",
+      "losses": "unknown"
+     },
+     {
+      "polity": "parthia",
+      "commanders": [
+       "artabanus_iv"
+      ],
+      "strength": "Arsacid royal army",
+      "losses": "Artabanus killed"
+     }
+    ],
+    "victor": "sasanian",
+    "kind": "field",
+    "significance": "Replaced the Arsacids with the Sasanians, Rome's principal rival until 628."
+   },
+   "sources": [
+    {
+     "a": "al-Tabari",
+     "w": "Ta'rikh al-rusul wa'l-muluk",
+     "r": "Sasanian section, reign of Ardashir"
+    },
+    {
+     "a": "Agathias",
+     "w": "Histories",
+     "r": "2.26"
+    },
+    {
+     "a": "Herodian",
+     "w": "History of the Empire after Marcus",
+     "r": "6.2.1-2"
+    }
+   ],
+   "scholarship": [
+    "Daryaee, Sasanian Persia (2009)",
+    "Wiesehöfer, Ancient Persia (1996)",
+    "Frye, The History of Ancient Iran (1984)"
+   ],
+   "debate": "The date 28 April 224 rests on later Arabic-Persian tradition; location disputed.",
+   "certainty": "probable",
+   "tags": [
+    "Sasanians",
+    "Firuzabad relief"
+   ]
+  },
+  {
+   "id": "coronation_of_ardashir_226",
+   "year": 226,
+   "title": "Ardashir crowned King of Kings at Ctesiphon",
+   "type": "accession",
+   "cats": [
+    "political",
+    "religious"
+   ],
+   "importance": 3,
+   "summary": "Having taken Ctesiphon, Ardashir I was crowned 'King of Kings of Iran' (shahanshah eran), inaugurating a Sasanian era and an ideology tied to Zoroastrian kingship and the land of Eran.",
+   "detail": "Ardashir's coins show the fire altar on the reverse and call him 'Mazda-worshipping divine Ardashir, King of Kings of Iran, whose lineage is from the gods'. Roman authors (Herodian, Dio) report that he claimed all lands once ruled by Darius as far as Ionia and Caria, though this may be a Roman projection.",
+   "place": "ctesiphon",
+   "loc": [
+    44.5803,
+    33.0936
+   ],
+   "locName": "Ctesiphon",
+   "locCertainty": "approx",
+   "people": [
+    "ardashir_i"
+   ],
+   "polities": [
+    "sasanian"
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "80.3-4"
+    },
+    {
+     "a": "Herodian",
+     "w": "History of the Empire after Marcus",
+     "r": "6.2.2"
+    }
+   ],
+   "debate": "Date of coronation 226 or 227.",
+   "certainty": "probable",
+   "tags": [
+    "Sasanians",
+    "Achaemenid claims"
+   ]
+  },
+  {
+   "id": "cassius_dio_second_consulship_229",
+   "year": 229,
+   "title": "Cassius Dio's second consulship and the end of his History",
+   "type": "literary",
+   "cats": [
+    "literature",
+    "political"
+   ],
+   "importance": 2,
+   "summary": "Lucius Cassius Dio, senator from Nicaea, held his second consulship with Severus Alexander as colleague and retired to Bithynia, where he completed his 80-book Roman History to 229.",
+   "detail": "Dio spent ten years collecting material and twelve writing. Books 36-60 survive largely intact; the books for 193-229, our best source for the Severans, survive only in Byzantine epitomes (Xiphilinus, Zonaras) and excerpts, apart from parts of books 78-79. As a senator and eyewitness of Commodus, Pertinax and the Severans, he is invaluable but hostile to soldiers and to upstarts like Macrinus.",
+   "place": "nicaea",
+   "loc": [
+    29.7194,
+    40.4292
+   ],
+   "locName": "Rome / Nicaea",
+   "locCertainty": "approx",
+   "people": [
+    "cassius_dio",
+    "severus_alexander"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "80.5"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "historiography"
+   ]
+  },
+  {
+   "id": "ardashir_invades_mesopotamia_230",
+   "year": 230,
+   "title": "Ardashir invades Roman Mesopotamia",
+   "type": "campaign",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "Ardashir attacked Roman Mesopotamia, besieged Nisibis and raided toward Cappadocia and Syria, the first Sasanian war against Rome.",
+   "detail": "An embassy from Alexander urging Ardashir to be content with his own borders was answered (Herodian) with 400 tall Persian horsemen demanding Roman withdrawal from Syria and Asia. Mutinies in the Roman eastern army, including the murder of the governor of Mesopotamia Flavius Heracleo, show the weakness of the Roman position.",
+   "place": "nisibis",
+   "loc": [
+    41.2152,
+    37.0711
+   ],
+   "locName": "Nisibis, Mesopotamia",
+   "locCertainty": "approx",
+   "war": "persian_war_230_233",
+   "people": [
+    "ardashir_i",
+    "severus_alexander"
+   ],
+   "polities": [
+    "sasanian",
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "80.4.1-2"
+    },
+    {
+     "a": "Herodian",
+     "w": "History of the Empire after Marcus",
+     "r": "6.2.1-6.4.6"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "Sasanians"
+   ]
+  },
+  {
+   "id": "severus_alexander_persian_campaign_232",
+   "year": 232,
+   "title": "Severus Alexander's three-pronged Persian campaign",
+   "type": "campaign",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "Alexander launched three columns, through Armenia into Media, through Mesopotamia, and under his own command in the centre; the southern column was destroyed, the northern suffered in the winter mountains, and Alexander's own force never pushed hard. Both sides were exhausted and Ardashir did not attack again for several years.",
+   "detail": "Herodian presents the campaign as a humiliating failure caused by Alexander's timidity and Mamaea's influence; Alexander's own coinage and triumph of 233 claimed victory, and the HA invents a great battle. Modern scholarship (e.g. Edwell) sees a costly stalemate that preserved Mesopotamia. The dangerous Germanic incursions on the Rhine and Danube in 233-234 forced the field army to the West.",
+   "place": null,
+   "loc": [
+    40.5,
+    36.0
+   ],
+   "locName": "Mesopotamia, Armenia and Media",
+   "locCertainty": "approx",
+   "war": "persian_war_230_233",
+   "people": [
+    "severus_alexander",
+    "julia_mamaea",
+    "ardashir_i"
+   ],
+   "polities": [
+    "rome",
+    "sasanian"
+   ],
+   "sources": [
+    {
+     "a": "Herodian",
+     "w": "History of the Empire after Marcus",
+     "r": "6.5-6"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Severus Alexander",
+     "r": "55-57"
+    }
+   ],
+   "scholarship": [
+    "Edwell, Between Rome and Persia (2008)"
+   ],
+   "debate": "Outcome disputed: Herodian (defeat) vs HA and coins (victory).",
+   "certainty": "disputed",
+   "tags": [
+    "Sasanians"
+   ]
+  },
+  {
+   "id": "assassination_of_severus_alexander_235",
+   "year": 235,
+   "month": 3,
+   "title": "Murder of Severus Alexander and Julia Mamaea near Mogontiacum",
+   "type": "assassination",
+   "cats": [
+    "political"
+   ],
+   "importance": 4,
+   "summary": "Preparing to buy peace from the Germans rather than fight, Alexander and his mother were killed by mutinous soldiers at Vicus Britannicus near Mogontiacum, and the army proclaimed the Thracian officer Maximinus.",
+   "detail": "The end of the Severan dynasty is the conventional start of the 'Crisis of the Third Century' or 'military anarchy': in the next fifty years some 26 recognised emperors and dozens of usurpers reigned, almost all dying violently. Herodian contrasts the soft, mother-dominated Alexander with the giant soldier-emperor, a characterisation modern scholars treat with caution.",
+   "place": "mogontiacum",
+   "loc": [
+    8.2711,
+    49.9929
+   ],
+   "locName": "Vicus Britannicus near Mogontiacum (Mainz)",
+   "locCertainty": "approx",
+   "war": "maximinus_german_war",
+   "people": [
+    "severus_alexander",
+    "julia_mamaea",
+    "maximinus_thrax"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Herodian",
+     "w": "History of the Empire after Marcus",
+     "r": "6.8-9"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Severus Alexander",
+     "r": "59-61"
+    },
+    {
+     "a": "Aurelius Victor",
+     "w": "De Caesaribus",
+     "r": "24.4"
+    }
+   ],
+   "debate": "Vicus Britannicus is often identified with Bretzenheim near Mainz.",
+   "certainty": "certain",
+   "tags": [
+    "end of the Severans",
+    "Crisis of the Third Century"
+   ]
+  },
+  {
+   "id": "battle_of_harzhorn",
+   "year": 235,
+   "endYear": 236,
+   "title": "Battle at the Harzhorn",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "A Roman army returning from a deep penetration into northern Germany fought its way through a Germanic blockade at the Harzhorn ridge in Lower Saxony, some 200 km beyond the limes; the battlefield, found by metal detectorists in 2008, revolutionised views of third-century Roman offensive capacity.",
+   "detail": "Over 2,700 artefacts include catapult bolts, hipposandals, a dolabra stamped for Legio IIII Severiana Alexandriana, and coins down to Severus Alexander, which together date the battle to the campaign of Maximinus in 235/236. Bolt patterns show Roman artillery clearing the ridge and infantry storming it. Herodian had reported Maximinus marching 300-400 stades into Germany and fighting a battle in a swamp, long dismissed as rhetoric; the Harzhorn confirms large-scale operations near the Elbe-Weser region.",
+   "place": "harzhorn",
+   "loc": [
+    10.0592,
+    51.8297
+   ],
+   "locName": "Harzhorn, near Kalefeld, Lower Saxony",
+   "locCertainty": "certain",
+   "war": "maximinus_german_war",
+   "people": [
+    "maximinus_thrax"
+   ],
+   "polities": [
+    "rome",
+    "germani"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "maximinus_thrax"
+      ],
+      "strength": "legionary vexillations, auxiliaries, Moorish and Osroene archers, artillery",
+      "losses": "unknown"
+     },
+     {
+      "polity": "germani",
+      "commanders": [],
+      "strength": "unknown",
+      "losses": "unknown"
+     }
+    ],
+    "victor": "rome",
+    "kind": "field",
+    "significance": "Archaeological proof that Roman armies still campaigned far beyond the Rhine in the 230s."
+   },
+   "sources": [
+    {
+     "a": "Herodian",
+     "w": "History of the Empire after Marcus",
+     "r": "7.2.3-8"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Maximini Duo",
+     "r": "12.1-4"
+    }
+   ],
+   "scholarship": [
+    "Pöppelmann, Deppmeyer and Steinmetz (eds.), Roms vergessener Feldzug (2013)",
+    "Geschwinde and others, 'Roms vergessener Feldzug', Germania (2009)"
+   ],
+   "debate": "Identification with Maximinus' campaign is very probable but not explicit in the sources.",
+   "certainty": "probable",
+   "tags": [
+    "battlefield archaeology",
+    "artillery"
+   ]
+  },
+  {
+   "id": "revolt_of_the_gordians_238",
+   "year": 238,
+   "month": 3,
+   "title": "Revolt of the Gordians in Africa",
+   "type": "usurpation",
+   "cats": [
+    "political"
+   ],
+   "importance": 4,
+   "summary": "Young landowners at Thysdrus killed Maximinus' procurator in a tax revolt and proclaimed the aged proconsul of Africa, Marcus Antonius Gordianus, emperor with his son Gordian II; the Senate recognised them and declared Maximinus a public enemy.",
+   "detail": "The revolt began a year in which six men were called emperor. The Senate formed a committee of twenty consulars (vigintiviri) to defend Italy, a striking revival of senatorial initiative. The Gordians reigned about three weeks.",
+   "place": "thysdrus",
+   "loc": [
+    10.7069,
+    35.2964
+   ],
+   "locName": "Thysdrus (El Djem), Africa Proconsularis",
+   "locCertainty": "certain",
+   "war": "civil_war_238",
+   "people": [
+    "gordian_i",
+    "gordian_ii",
+    "maximinus_thrax"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Herodian",
+     "w": "History of the Empire after Marcus",
+     "r": "7.4-7"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Gordiani Tres",
+     "r": "7-16"
+    }
+   ],
+   "debate": "Chronology of 238 is notoriously difficult; dates for the African revolt range from January to March.",
+   "certainty": "certain",
+   "tags": [
+    "Year of the Six Emperors",
+    "taxation"
+   ]
+  },
+  {
+   "id": "battle_of_carthage_238",
+   "year": 238,
+   "title": "Battle of Carthage",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "Capelianus, the loyal governor of Numidia, marched Legio III Augusta on Carthage and crushed the Gordians' untrained militia; Gordian II was killed and his father hanged himself.",
+   "detail": "Gordian III later cashiered III Augusta for its role, and its name was erased from inscriptions until the legion was reconstituted in 253.",
+   "place": "carthage",
+   "loc": [
+    10.3233,
+    36.8528
+   ],
+   "locName": "Outside Carthage",
+   "locCertainty": "approx",
+   "war": "civil_war_238",
+   "people": [
+    "gordian_ii",
+    "gordian_i",
+    "capelianus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "faction": "Maximinus",
+      "commanders": [
+       "capelianus"
+      ],
+      "strength": "Legio III Augusta and Numidian auxiliaries",
+      "losses": "light"
+     },
+     {
+      "polity": "rome",
+      "faction": "Gordians",
+      "commanders": [
+       "gordian_ii"
+      ],
+      "strength": "Carthaginian militia",
+      "losses": "heavy; Gordian II killed"
+     }
+    ],
+    "victor": "rome",
+    "victorFaction": "Maximinus",
+    "kind": "field",
+    "significance": "Ended the African revolt but not the senatorial rebellion it had started."
+   },
+   "sources": [
+    {
+     "a": "Herodian",
+     "w": "History of the Empire after Marcus",
+     "r": "7.9"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "legio III Augusta"
+   ]
+  },
+  {
+   "id": "pupienus_and_balbinus_elected_238",
+   "year": 238,
+   "title": "Senate elects Pupienus and Balbinus",
+   "type": "political",
+   "cats": [
+    "political",
+    "constitutional"
+   ],
+   "importance": 3,
+   "summary": "On news of the Gordians' death the Senate chose two of the vigintiviri, the soldier Pupienus Maximus and the aristocrat Balbinus, as joint Augusti with equal powers, including the pontificate; the Roman crowd forced them to add the thirteen-year-old Gordian III as Caesar.",
+   "detail": "The collegiate emperorship with two equal Augusti, without a senior partner, was unprecedented. Street fighting broke out between the plebs and the Praetorians, and parts of the city burned.",
+   "place": "rome",
+   "loc": [
+    12.4924,
+    41.8902
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "war": "civil_war_238",
+   "people": [
+    "pupienus",
+    "balbinus",
+    "gordian_iii"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Herodian",
+     "w": "History of the Empire after Marcus",
+     "r": "7.10-12"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Maximus et Balbinus",
+     "r": "1-3"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "collegiate rule",
+    "Senate"
+   ]
+  },
+  {
+   "id": "siege_of_aquileia_238",
+   "year": 238,
+   "title": "Siege of Aquileia and death of Maximinus",
+   "type": "siege",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "Maximinus crossed the Julian Alps but was stopped at Aquileia, defended by the senators Crispinus and Menophilus; his starving army, short of supplies in a stripped countryside, murdered him and his son in their tents.",
+   "detail": "Herodian describes the Aquileians melting down statues for missiles and women giving their hair for bowstrings (a topos also attached to Carthage). The local god Belenus was said to have appeared on the walls. The heads of Maximinus and Maximus were sent to Rome.",
+   "place": "aquileia",
+   "loc": [
+    13.3683,
+    45.7686
+   ],
+   "locName": "Aquileia",
+   "locCertainty": "certain",
+   "war": "civil_war_238",
+   "people": [
+    "maximinus_thrax",
+    "pupienus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "faction": "Senate",
+      "commanders": [
+       "rutilius_pudens_crispinus",
+       "tullius_menophilus"
+      ],
+      "strength": "city militia and garrison",
+      "losses": "unknown"
+     },
+     {
+      "polity": "rome",
+      "faction": "Maximinus",
+      "commanders": [
+       "maximinus_thrax"
+      ],
+      "strength": "Danubian field army",
+      "losses": "emperor murdered by his own troops"
+     }
+    ],
+    "victor": "rome",
+    "victorFaction": "Senate",
+    "kind": "siege",
+    "significance": "Death of the first soldier-emperor; vindicated the senatorial coup."
+   },
+   "sources": [
+    {
+     "a": "Herodian",
+     "w": "History of the Empire after Marcus",
+     "r": "8.2-5"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Maximini Duo",
+     "r": "21-23"
+    }
+   ],
+   "debate": "Date of Maximinus' death (April to June 238) disputed.",
+   "certainty": "certain",
+   "tags": [
+    "Belenus"
+   ]
+  },
+  {
+   "id": "murder_of_pupienus_and_balbinus_238",
+   "year": 238,
+   "title": "Murder of Pupienus and Balbinus; Gordian III sole emperor",
+   "type": "assassination",
+   "cats": [
+    "political"
+   ],
+   "importance": 3,
+   "summary": "After 99 days of quarrelling joint rule, the two senatorial emperors were seized by the Praetorians, stripped, dragged through the city and killed; Gordian III, aged 13, was proclaimed sole Augustus.",
+   "place": "rome",
+   "loc": [
+    12.4875,
+    41.8892
+   ],
+   "locName": "Palatine, Rome",
+   "locCertainty": "certain",
+   "war": "civil_war_238",
+   "people": [
+    "pupienus",
+    "balbinus",
+    "gordian_iii"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Herodian",
+     "w": "History of the Empire after Marcus",
+     "r": "8.8"
+    }
+   ],
+   "debate": "Herodian's narrative ends here.",
+   "certainty": "certain",
+   "tags": [
+    "Praetorian Guard",
+    "Year of the Six Emperors"
+   ]
+  },
+  {
+   "id": "sack_of_histria_238",
+   "year": 238,
+   "title": "Goths and Carpi sack Histria",
+   "type": "other",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "Gothic and Carpic raiders sacked Histria near the Danube mouth, the first securely recorded Gothic attack on the empire; Tullius Menophilus, governor of Moesia Inferior, bought them off with subsidies.",
+   "detail": "The Historia Augusta's 'excidium Histriae' is corroborated by a destruction layer at the site. Menophilus' subsidies to the Goths and refusal to pay the Carpi, reported by the fragment of Petrus Patricius (from Dexippus), illustrate the developing system of tribute and divide-and-rule on the lower Danube.",
+   "place": "histria",
+   "loc": [
+    28.7744,
+    44.5464
+   ],
+   "locName": "Histria, Moesia Inferior",
+   "locCertainty": "certain",
+   "war": "gothic_war_249_251",
+   "people": [
+    "tullius_menophilus"
+   ],
+   "polities": [
+    "rome",
+    "goths",
+    "free_dacians"
+   ],
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Maximus et Balbinus",
+     "r": "16.3"
+    },
+    {
+     "a": "Petrus Patricius",
+     "w": "Fragments",
+     "r": "fr. 8 (FHG IV)"
+    }
+   ],
+   "scholarship": [
+    "Heather, Goths and Romans 332-489 (1991)",
+    "Kulikowski, Rome's Gothic Wars (2007)"
+   ],
+   "certainty": "probable",
+   "tags": [
+    "Goths",
+    "subsidies"
+   ]
+  },
+  {
+   "id": "siege_of_hatra_240",
+   "year": 240,
+   "endYear": 241,
+   "title": "Sasanian capture of Hatra",
+   "type": "siege",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "Hatra, which had become a Roman ally with a Roman garrison, fell to Ardashir and his son Shapur after a long siege; the city was destroyed and never reoccupied, which preserved its spectacular temples until ISIS damaged them in 2015.",
+   "detail": "The Cologne Mani Codex dates the fall to the year Mani received his second revelation (240/241). Arabic legend tells of the king's daughter al-Nadira betraying the city for love of Shapur. Persian pressure also took Nisibis and Carrhae around this time, prompting Gordian III's expedition.",
+   "place": "hatra",
+   "loc": [
+    42.7181,
+    35.5881
+   ],
+   "locName": "Hatra",
+   "locCertainty": "certain",
+   "war": "persian_war_241_244",
+   "people": [
+    "ardashir_i",
+    "shapur_i"
+   ],
+   "polities": [
+    "sasanian",
+    "hatra",
+    "rome"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "sasanian",
+      "commanders": [
+       "ardashir_i",
+       "shapur_i"
+      ],
+      "strength": "royal army",
+      "losses": "unknown"
+     },
+     {
+      "polity": "hatra",
+      "commanders": [
+       "sanatruq_ii"
+      ],
+      "strength": "city garrison with a Roman cohort",
+      "losses": "city destroyed"
+     }
+    ],
+    "victor": "sasanian",
+    "kind": "siege",
+    "significance": "Removed the last buffer between Rome and Persia in the Jazira."
+   },
+   "sources": [
+    {
+     "a": "Cologne Mani Codex",
+     "w": "Codex Manichaicus Coloniensis",
+     "r": "18.1-16"
+    },
+    {
+     "a": "al-Tabari",
+     "w": "Ta'rikh al-rusul wa'l-muluk",
+     "r": "reign of Shapur I"
+    }
+   ],
+   "debate": "King's identity in 240 uncertain (Sanatruq II is the last securely attested king).",
+   "certainty": "probable",
+   "tags": [
+    "Hatra",
+    "Mani"
+   ]
+  },
+  {
+   "id": "accession_of_shapur_i_240",
+   "year": 240,
+   "month": 4,
+   "day": 12,
+   "title": "Shapur I crowned co-ruler; sole King of Kings from 242",
+   "type": "accession",
+   "cats": [
+    "political"
+   ],
+   "importance": 3,
+   "summary": "Ardashir crowned his son Shapur co-ruler, probably on 12 April 240, and Shapur ruled alone from around 242 to 270, the most dangerous enemy Rome faced in the third century.",
+   "detail": "Shapur's own trilingual (Middle Persian, Parthian, Greek) inscription on the Ka'ba-ye Zartosht at Naqsh-e Rustam (ŠKZ) narrates his three Roman wars, listing defeated emperors and captured cities and recording the deportation of Roman prisoners to build cities such as Gundeshapur (Weh-Andiok-Shabuhr, 'better than Antioch, Shapur built this') and Bishapur.",
+   "place": "ctesiphon",
+   "loc": [
+    44.5803,
+    33.0936
+   ],
+   "locName": "Ctesiphon",
+   "locCertainty": "approx",
+   "people": [
+    "shapur_i",
+    "ardashir_i"
+   ],
+   "polities": [
+    "sasanian"
+   ],
+   "sources": [
+    {
+     "a": "Shapur I",
+     "w": "Res Gestae Divi Saporis (ŠKZ)",
+     "r": "preamble"
+    },
+    {
+     "a": "Cologne Mani Codex",
+     "w": "Codex Manichaicus Coloniensis",
+     "r": "18"
+    }
+   ],
+   "debate": "The date 12 April 240 derives from Manichaean sources; sole rule 241 or 242.",
+   "certainty": "probable",
+   "tags": [
+    "ŠKZ",
+    "Naqsh-e Rustam"
+   ]
+  },
+  {
+   "id": "battle_of_rhesaina_243",
+   "year": 243,
+   "title": "Battle of Rhesaina",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "Gordian III's army, directed by his father-in-law and praetorian prefect Timesitheus, defeated Shapur near Rhesaina and recovered Carrhae and Nisibis.",
+   "detail": "Gordian had opened the temple of Janus before leaving Rome, an antiquarian gesture. The victory was followed by Timesitheus' death from illness, possibly helped along by his successor Philip.",
+   "place": "rhesaina",
+   "loc": [
+    40.0717,
+    36.8503
+   ],
+   "locName": "Rhesaina (Ras al-Ayn), Mesopotamia",
+   "locCertainty": "approx",
+   "war": "persian_war_241_244",
+   "campaign": "gordian_iii_persia_243_244",
+   "people": [
+    "gordian_iii",
+    "timesitheus",
+    "shapur_i"
+   ],
+   "polities": [
+    "rome",
+    "sasanian"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "gordian_iii",
+       "timesitheus"
+      ],
+      "strength": "large expeditionary army including Germanic and Gothic contingents",
+      "losses": "unknown"
+     },
+     {
+      "polity": "sasanian",
+      "commanders": [
+       "shapur_i"
+      ],
+      "strength": "unknown",
+      "losses": "unknown"
+     }
+    ],
+    "victor": "rome",
+    "kind": "field",
+    "significance": "Restored Roman Mesopotamia."
+   },
+   "sources": [
+    {
+     "a": "Ammianus Marcellinus",
+     "w": "Res Gestae",
+     "r": "23.5.17"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Gordiani Tres",
+     "r": "26.6-27.3"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "Timesitheus"
+   ]
+  },
+  {
+   "id": "battle_of_misiche_244",
+   "year": 244,
+   "month": 2,
+   "title": "Battle of Misiche and death of Gordian III",
+   "type": "battle",
+   "cats": [
+    "military",
+    "political"
+   ],
+   "importance": 4,
+   "summary": "Advancing down the Euphrates toward Ctesiphon, Gordian's army was defeated by Shapur at Misiche near modern Fallujah; Gordian died soon after, either of wounds (Persian version) or murdered by his troops at the instigation of Philip the Arab (Roman version).",
+   "detail": "Shapur renamed the place Peroz-Shapur ('victorious is Shapur') and boasts on the ŠKZ that Caesar Gordian was killed and the Roman army destroyed; the Bishapur and Naqsh-e Rustam reliefs show a Roman lying beneath his horse. Roman sources suppress the battle and blame Philip, who raised a cenotaph to Gordian at Zaitha near Circesium. Modern consensus tends to accept a Roman defeat followed by Gordian's death in uncertain circumstances.",
+   "place": "misiche",
+   "loc": [
+    43.6,
+    33.38
+   ],
+   "locName": "Misiche (Peroz-Shapur, later al-Anbar), on the Euphrates",
+   "locCertainty": "probable",
+   "war": "persian_war_241_244",
+   "campaign": "gordian_iii_persia_243_244",
+   "people": [
+    "gordian_iii",
+    "shapur_i",
+    "philip_the_arab"
+   ],
+   "polities": [
+    "rome",
+    "sasanian"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "gordian_iii",
+       "philip_the_arab"
+      ],
+      "strength": "Roman field army including Gothic and Germanic contingents (ŠKZ)",
+      "losses": "heavy; emperor dead"
+     },
+     {
+      "polity": "sasanian",
+      "commanders": [
+       "shapur_i"
+      ],
+      "strength": "royal army",
+      "losses": "unknown"
+     }
+    ],
+    "victor": "sasanian",
+    "kind": "field",
+    "significance": "First of Shapur's three triumphs over Roman emperors; led to Philip's costly peace."
+   },
+   "sources": [
+    {
+     "a": "Shapur I",
+     "w": "Res Gestae Divi Saporis (ŠKZ)",
+     "r": "account of the first war (Gordian)"
+    },
+    {
+     "a": "Zosimus",
+     "w": "New History",
+     "r": "1.18-19"
+    },
+    {
+     "a": "Ammianus Marcellinus",
+     "w": "Res Gestae",
+     "r": "23.5.7"
+    },
+    {
+     "a": "Zonaras",
+     "w": "Epitome of Histories",
+     "r": "12.17"
+    }
+   ],
+   "scholarship": [
+    "Dodgeon and Lieu, The Roman Eastern Frontier and the Persian Wars AD 226-363 (1991)",
+    "Potter, The Roman Empire at Bay (2004/2014)"
+   ],
+   "debate": "Roman and Persian narratives are irreconcilable; the cause of Gordian's death is genuinely uncertain.",
+   "certainty": "disputed",
+   "tags": [
+    "ŠKZ",
+    "Peroz-Shapur",
+    "Zaitha"
+   ]
+  },
+  {
+   "id": "peace_of_philip_244",
+   "year": 244,
+   "title": "Philip the Arab's peace with Shapur",
+   "type": "treaty",
+   "cats": [
+    "diplomatic"
+   ],
+   "importance": 3,
+   "summary": "The new emperor Philip made peace with Shapur, paying 500,000 denarii (aurei, according to the ŠKZ) and apparently recognising Persian influence in Armenia, while Roman coins proclaimed PAX FUNDATA CUM PERSIS.",
+   "detail": "The ŠKZ calls Philip a tributary. Roman writers say he later reneged on the Armenian clause. Philip also founded Philippopolis (Shahba) in his native Trachonitis and deified his father Marinus.",
+   "place": "misiche",
+   "loc": [
+    43.6,
+    33.38
+   ],
+   "locName": "Mesopotamia",
+   "locCertainty": "approx",
+   "war": "persian_war_241_244",
+   "people": [
+    "philip_the_arab",
+    "shapur_i"
+   ],
+   "polities": [
+    "rome",
+    "sasanian",
+    "armenia"
+   ],
+   "sources": [
+    {
+     "a": "Shapur I",
+     "w": "Res Gestae Divi Saporis (ŠKZ)",
+     "r": "Philip episode"
+    },
+    {
+     "a": "Zonaras",
+     "w": "Epitome of Histories",
+     "r": "12.19"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "tribute",
+    "Armenia"
+   ]
+  },
+  {
+   "id": "millennium_of_rome_248",
+   "year": 248,
+   "month": 4,
+   "day": 21,
+   "title": "Philip celebrates Rome's millennium",
+   "type": "religious",
+   "cats": [
+    "religious",
+    "cultural"
+   ],
+   "importance": 3,
+   "summary": "On 21 April 248 Philip staged the Ludi Saeculares for the thousandth anniversary of Rome's foundation, with games in which, according to later tradition, a thousand pairs of gladiators and exotic animals collected by Gordian III appeared.",
+   "detail": "Coins carry SAECULUM NOVUM. The celebration coincided with Gothic and Carpic invasions and military revolts, an irony later Christian tradition, which also made Philip the first Christian emperor (Eusebius, HE 6.34), exploited. The Christian claim is generally rejected.",
+   "place": "rome",
+   "loc": [
+    12.4924,
+    41.8902
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "people": [
+    "philip_the_arab"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Aurelius Victor",
+     "w": "De Caesaribus",
+     "r": "28.1"
+    },
+    {
+     "a": "Eusebius",
+     "w": "Ecclesiastical History",
+     "r": "6.34"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Gordiani Tres",
+     "r": "33.1-2"
+    }
+   ],
+   "debate": "Philip's Christianity is a later legend; the animal list in the HA is suspect.",
+   "certainty": "certain",
+   "tags": [
+    "Secular Games",
+    "millennium"
+   ]
+  },
+  {
+   "id": "revolts_of_pacatianus_and_jotapianus_248",
+   "year": 248,
+   "title": "Revolts of Pacatianus and Jotapianus",
+   "type": "usurpation",
+   "cats": [
+    "political",
+    "military"
+   ],
+   "importance": 2,
+   "summary": "In 248 Tiberius Claudius Marinus Pacatianus was proclaimed by the Danube legions and Jotapianus, claiming kinship with Severus Alexander, rose in Syria or Cappadocia; both were soon killed by their own troops.",
+   "detail": "Philip's offer to resign was answered by the senator Decius, who predicted the usurpers would fall; Philip then sent Decius to the Danube, where the troops proclaimed him instead. Pacatianus' coins, minted at Viminacium, are dated 'year 1001 of Rome'.",
+   "place": "viminacium",
+   "loc": [
+    21.2167,
+    44.7367
+   ],
+   "locName": "Moesia (Pacatianus) and Syria (Jotapianus)",
+   "locCertainty": "approx",
+   "people": [
+    "philip_the_arab",
+    "decius"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Zosimus",
+     "w": "New History",
+     "r": "1.20-21"
+    },
+    {
+     "a": "Aurelius Victor",
+     "w": "De Caesaribus",
+     "r": "29.2"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "usurpers"
+   ]
+  },
+  {
+   "id": "battle_of_verona_249",
+   "year": 249,
+   "month": 9,
+   "title": "Battle of Verona",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "Decius, proclaimed by the Danubian army, marched into Italy and defeated and killed Philip near Verona; Philip's son Philip II was murdered by the Praetorians in Rome.",
+   "place": "verona",
+   "loc": [
+    10.9916,
+    45.4384
+   ],
+   "locName": "Near Verona",
+   "locCertainty": "approx",
+   "people": [
+    "decius",
+    "philip_the_arab"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "faction": "Decius",
+      "commanders": [
+       "decius"
+      ],
+      "strength": "Danubian army",
+      "losses": "unknown"
+     },
+     {
+      "polity": "rome",
+      "faction": "Philip",
+      "commanders": [
+       "philip_the_arab"
+      ],
+      "strength": "Italian and eastern units",
+      "losses": "emperor killed"
+     }
+    ],
+    "victor": "rome",
+    "victorFaction": "Decius",
+    "kind": "field",
+    "significance": "Brought the Danubian Decius to power."
+   },
+   "sources": [
+    {
+     "a": "Zosimus",
+     "w": "New History",
+     "r": "1.22"
+    },
+    {
+     "a": "Aurelius Victor",
+     "w": "De Caesaribus",
+     "r": "28.10"
+    },
+    {
+     "a": "Zonaras",
+     "w": "Epitome of Histories",
+     "r": "12.19"
+    }
+   ],
+   "debate": "Location (Verona vs Beroea in Macedonia, a scribal confusion) and date (September or October 249) debated.",
+   "certainty": "probable",
+   "tags": [
+    "civil war"
+   ]
+  },
+  {
+   "id": "decian_persecution_250",
+   "year": 250,
+   "title": "Decius' edict of universal sacrifice",
+   "type": "religious",
+   "cats": [
+    "religious",
+    "political"
+   ],
+   "importance": 4,
+   "summary": "Decius ordered every inhabitant of the empire to sacrifice to the gods, taste the sacrificial meat and obtain a certificate (libellus) from local commissioners; Christians who refused were imprisoned or executed, including Pope Fabian (20 January 250).",
+   "detail": "Over forty libelli survive on papyrus from Egypt, including one for a priestess of Petesouchos, showing the order applied to everyone, not just Christians. The measure was probably a supplicatio for the empire's welfare tied to Decius' Trajanic-traditionalist programme rather than a targeted persecution, but its effect on the Church was severe: mass lapses, purchased certificates (libellatici), and bitter disputes over readmitting the lapsed that produced the Novatianist schism. Origen was tortured at Caesarea and died a few years later.",
+   "place": "rome",
+   "loc": [
+    12.4924,
+    41.8902
+   ],
+   "locName": "Empire-wide",
+   "locCertainty": "approx",
+   "people": [
+    "decius",
+    "cyprian",
+    "origen"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Cyprian",
+     "w": "De Lapsis",
+     "r": "7-9"
+    },
+    {
+     "a": "Eusebius",
+     "w": "Ecclesiastical History",
+     "r": "6.39-42"
+    },
+    {
+     "a": "Papyri",
+     "w": "Libelli of 250 (over 40 surviving papyri from Egypt)",
+     "r": ""
+    }
+   ],
+   "scholarship": [
+    "Rives, 'The Decree of Decius and the Religion of Empire', JRS 89 (1999)",
+    "Knipfing, 'The Libelli of the Decian Persecution', HTR 16 (1923)"
+   ],
+   "debate": "Whether Decius intended to target Christians is debated; Rives argues for a universalising religious policy.",
+   "certainty": "certain",
+   "tags": [
+    "libelli",
+    "persecution",
+    "lapsi"
+   ]
+  },
+  {
+   "id": "plague_of_cyprian",
+   "year": 249,
+   "endYear": 262,
+   "title": "Plague of Cyprian",
+   "type": "plague",
+   "cats": [
+    "disaster",
+    "social"
+   ],
+   "importance": 4,
+   "summary": "A pandemic, probably originating in Ethiopia and reaching Alexandria by 249, swept the empire for over a decade; Bishop Cyprian of Carthage describes bloody diarrhoea, vomiting, eye haemorrhage, gangrene of the limbs and loss of hearing and sight.",
+   "detail": "Dionysius of Alexandria reports the city's population so reduced that the number of men aged 14 to 80 equalled those aged 40 to 70 in earlier times. The emperors Hostilian (251) and probably Claudius II (270) died of plague. Kyle Harper has argued for a viral haemorrhagic fever (filovirus) and an empire-wide mortality crisis, which others think overstated. The epidemic coincided with the worst military defeats of the century and may have hampered recruitment and tax.",
+   "place": "alexandria",
+   "loc": [
+    29.9187,
+    31.2001
+   ],
+   "locName": "Alexandria, then empire-wide",
+   "locCertainty": "approx",
+   "people": [
+    "cyprian",
+    "trebonianus_gallus",
+    "claudius_gothicus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Cyprian",
+     "w": "De Mortalitate",
+     "r": "14"
+    },
+    {
+     "a": "Eusebius",
+     "w": "Ecclesiastical History",
+     "r": "7.21-22 (Dionysius of Alexandria)"
+    },
+    {
+     "a": "Pontius",
+     "w": "Vita Cypriani",
+     "r": "9"
+    },
+    {
+     "a": "Zosimus",
+     "w": "New History",
+     "r": "1.26, 1.37"
+    }
+   ],
+   "scholarship": [
+    "Harper, The Fate of Rome (2017)",
+    "Harper, 'Pandemics and passages to late antiquity', JRA 28 (2015)",
+    "Huebner, 'The Plague of Cyprian: A revised view', Klio (2021)"
+   ],
+   "debate": "Pathogen unknown (smallpox, measles, filovirus proposed); scale contested.",
+   "certainty": "certain",
+   "tags": [
+    "pandemic",
+    "climate"
+   ]
+  },
+  {
+   "id": "siege_of_philippopolis_250",
+   "year": 250,
+   "title": "Siege and sack of Philippopolis",
+   "type": "siege",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "The Gothic king Cniva besieged Philippopolis in Thrace, whose governor Lucius Priscus, despairing of help from Decius, proclaimed himself emperor and allied with the Goths; the city fell and Ammianus says 100,000 people were killed or captured.",
+   "detail": "A Vienna palimpsest (the 'Scythica Vindobonensia', identified in 2014) preserves fragments of Dexippus describing this campaign in Thrace, including speeches by Decius. Priscus was declared a public enemy and soon disappeared.",
+   "place": "philippopolis",
+   "loc": [
+    24.7453,
+    42.1354
+   ],
+   "locName": "Philippopolis (Plovdiv), Thrace",
+   "locCertainty": "certain",
+   "war": "gothic_war_249_251",
+   "campaign": "decius_vs_cniva_250_251",
+   "people": [
+    "cniva",
+    "decius",
+    "lucius_priscus"
+   ],
+   "polities": [
+    "goths",
+    "rome"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "goths",
+      "commanders": [
+       "cniva"
+      ],
+      "strength": "Gothic and allied force",
+      "losses": "unknown"
+     },
+     {
+      "polity": "rome",
+      "commanders": [
+       "lucius_priscus"
+      ],
+      "strength": "city defenders",
+      "losses": "c. 100,000 killed or captured (Ammianus, exaggerated)"
+     }
+    ],
+    "victor": "goths",
+    "kind": "siege",
+    "significance": "First sack of a major Balkan city by the Goths."
+   },
+   "sources": [
+    {
+     "a": "Ammianus Marcellinus",
+     "w": "Res Gestae",
+     "r": "31.5.17"
+    },
+    {
+     "a": "Jordanes",
+     "w": "Getica",
+     "r": "18.101-103"
+    },
+    {
+     "a": "Dexippus",
+     "w": "Scythica",
+     "r": "Vienna fragments (Martin and Grusková)"
+    }
+   ],
+   "scholarship": [
+    "Martin and Grusková, 'Scythica Vindobonensia', WS 127 (2014)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Goths",
+    "Dexippus palimpsest"
+   ]
+  },
+  {
+   "id": "battle_of_beroe_250",
+   "year": 250,
+   "title": "Battle of Beroe (Augusta Traiana)",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "Cniva surprised Decius' army in camp near Beroe-Augusta Traiana, routing it and forcing the emperor to retreat to Moesia to regroup, leaving Philippopolis to its fate.",
+   "place": "augusta_traiana",
+   "loc": [
+    25.6345,
+    42.4258
+   ],
+   "locName": "Beroe-Augusta Traiana (Stara Zagora), Thrace",
+   "locCertainty": "probable",
+   "war": "gothic_war_249_251",
+   "campaign": "decius_vs_cniva_250_251",
+   "people": [
+    "decius",
+    "cniva"
+   ],
+   "polities": [
+    "rome",
+    "goths"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "decius"
+      ],
+      "strength": "imperial field army",
+      "losses": "heavy"
+     },
+     {
+      "polity": "goths",
+      "commanders": [
+       "cniva"
+      ],
+      "strength": "unknown",
+      "losses": "unknown"
+     }
+    ],
+    "victor": "goths",
+    "kind": "ambush",
+    "significance": "Left Thrace open to the Goths."
+   },
+   "sources": [
+    {
+     "a": "Jordanes",
+     "w": "Getica",
+     "r": "18.102"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "Goths"
+   ]
+  },
+  {
+   "id": "battle_of_abritus",
+   "year": 251,
+   "month": 6,
+   "title": "Battle of Abritus",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 5,
+   "summary": "Decius and his son Herennius Etruscus were killed when Cniva's Goths lured the Roman army into a marsh near Abritus in Moesia Inferior; Decius was the first emperor to die fighting a foreign enemy, and his body was never found.",
+   "detail": "Herennius was killed by an arrow early in the fighting; Decius reportedly told the troops that the loss of one soldier did not matter. Cniva placed part of his army behind a swamp; the Romans pursuing into it were trapped. Byzantine sources (Zosimus, Zonaras) accuse the governor Trebonianus Gallus of treachery, a claim many moderns doubt. Gallus, proclaimed emperor, allowed the Goths to withdraw with their booty and prisoners and promised an annual subsidy. A large fortified Roman camp excavated near Razgrad and coin hoards in the area have been linked to the battle.",
+   "place": "abritus",
+   "loc": [
+    26.5236,
+    43.5222
+   ],
+   "locName": "Abritus (Razgrad), Moesia Inferior",
+   "locCertainty": "probable",
+   "war": "gothic_war_249_251",
+   "campaign": "decius_vs_cniva_250_251",
+   "people": [
+    "decius",
+    "herennius_etruscus",
+    "cniva",
+    "trebonianus_gallus"
+   ],
+   "polities": [
+    "rome",
+    "goths"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "decius",
+       "herennius_etruscus",
+       "trebonianus_gallus"
+      ],
+      "strength": "Danubian field army, perhaps 20,000-30,000 (modern estimate)",
+      "losses": "very heavy; emperor and heir killed"
+     },
+     {
+      "polity": "goths",
+      "commanders": [
+       "cniva"
+      ],
+      "strength": "perhaps similar (modern estimate)",
+      "losses": "unknown"
+     }
+    ],
+    "victor": "goths",
+    "kind": "field",
+    "significance": "First Roman emperor killed by a foreign enemy; symbol of the third-century nadir."
+   },
+   "sources": [
+    {
+     "a": "Zosimus",
+     "w": "New History",
+     "r": "1.23"
+    },
+    {
+     "a": "Jordanes",
+     "w": "Getica",
+     "r": "18.103"
+    },
+    {
+     "a": "Aurelius Victor",
+     "w": "De Caesaribus",
+     "r": "29.4-5"
+    },
+    {
+     "a": "Lactantius",
+     "w": "De Mortibus Persecutorum",
+     "r": "4.3"
+    }
+   ],
+   "scholarship": [
+    "Bursche, 'The battle of Abritus, the imperial treasury and aurei in Barbaricum', NC 173 (2013)",
+    "Kulikowski, Rome's Gothic Wars (2007)"
+   ],
+   "debate": "Date (June or July 251), Gallus' alleged treachery, and Gothic identity of Cniva's force (perhaps a mixed coalition) debated. Lactantius gloats over the persecutor's unburied corpse.",
+   "certainty": "certain",
+   "tags": [
+    "Goths",
+    "death of an emperor"
+   ]
+  },
+  {
+   "id": "novatian_schism_251",
+   "year": 251,
+   "title": "Novatianist schism at Rome",
+   "type": "religious",
+   "cats": [
+    "religious"
+   ],
+   "importance": 3,
+   "summary": "When Cornelius was elected bishop of Rome in March 251 and favoured readmitting the lapsed after penance, the learned presbyter Novatian had himself consecrated rival bishop, founding a rigorist church that survived for centuries.",
+   "detail": "Cyprian at Carthage backed Cornelius after hesitation and held councils on the lapsed. The Novatianists ('Cathari') spread across the empire; Constantine later tolerated them, and their bishops attended Nicaea. Novatian's De Trinitate is the first major Latin Trinitarian treatise from Rome.",
+   "place": "rome",
+   "loc": [
+    12.4924,
+    41.8902
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "people": [
+    "cyprian"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Eusebius",
+     "w": "Ecclesiastical History",
+     "r": "6.43"
+    },
+    {
+     "a": "Cyprian",
+     "w": "Letters",
+     "r": "44-55"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "schism",
+    "lapsi"
+   ]
+  },
+  {
+   "id": "battle_of_barbalissos_252",
+   "year": 252,
+   "title": "Battle of Barbalissos",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 4,
+   "summary": "Opening his second war, Shapur I destroyed a Roman army of 60,000 (his figure) at Barbalissos on the Euphrates, then overran Syria and Cappadocia; the ŠKZ lists 37 captured cities.",
+   "detail": "Shapur's pretext was Roman interference in Armenia, where the Arsacid king (probably Khosrov II) was murdered and his son Tiridates fled to Rome. Barbalissos opened the road to Antioch.",
+   "place": "barbalissos",
+   "loc": [
+    38.0472,
+    36.0364
+   ],
+   "locName": "Barbalissos (Meskene), Syria",
+   "locCertainty": "probable",
+   "war": "persian_war_252_260",
+   "people": [
+    "shapur_i"
+   ],
+   "polities": [
+    "sasanian",
+    "rome"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "sasanian",
+      "commanders": [
+       "shapur_i"
+      ],
+      "strength": "royal army",
+      "losses": "unknown"
+     },
+     {
+      "polity": "rome",
+      "commanders": [],
+      "strength": "60,000 (ŠKZ)",
+      "losses": "army destroyed (ŠKZ)"
+     }
+    ],
+    "victor": "sasanian",
+    "kind": "field",
+    "significance": "Left the Roman East defenceless."
+   },
+   "sources": [
+    {
+     "a": "Shapur I",
+     "w": "Res Gestae Divi Saporis (ŠKZ)",
+     "r": "second campaign"
+    }
+   ],
+   "debate": "Date 252 or 253; known only from Shapur's inscription.",
+   "certainty": "probable",
+   "tags": [
+    "ŠKZ"
+   ]
+  },
+  {
+   "id": "sack_of_antioch_253",
+   "year": 253,
+   "title": "Shapur I sacks Antioch",
+   "type": "siege",
+   "cats": [
+    "military"
+   ],
+   "importance": 4,
+   "summary": "Shapur took and sacked Antioch, the third city of the empire, guided (according to Ammianus and the Thirteenth Sibylline Oracle) by a renegade Antiochene councillor named Mariades; thousands were deported to Persia.",
+   "detail": "Ammianus has the people of Antioch watching a mime in the theatre when an actor's wife cried 'Am I dreaming, or are the Persians here?'. Deportees from Antioch peopled Gundeshapur and Bishapur and helped to spread Christianity in Persia. Shapur later executed Mariades.",
+   "place": "antioch",
+   "loc": [
+    36.1611,
+    36.2021
+   ],
+   "locName": "Antioch on the Orontes",
+   "locCertainty": "certain",
+   "war": "persian_war_252_260",
+   "people": [
+    "shapur_i",
+    "mariades"
+   ],
+   "polities": [
+    "sasanian",
+    "rome"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "sasanian",
+      "commanders": [
+       "shapur_i"
+      ],
+      "strength": "royal army",
+      "losses": "minimal"
+     },
+     {
+      "polity": "rome",
+      "commanders": [],
+      "strength": "citizen population",
+      "losses": "city sacked; mass deportation"
+     }
+    ],
+    "victor": "sasanian",
+    "kind": "siege",
+    "significance": "The greatest humiliation inflicted on Rome in the East to that date."
+   },
+   "sources": [
+    {
+     "a": "Ammianus Marcellinus",
+     "w": "Res Gestae",
+     "r": "23.5.3"
+    },
+    {
+     "a": "Shapur I",
+     "w": "Res Gestae Divi Saporis (ŠKZ)",
+     "r": "second campaign"
+    },
+    {
+     "a": "Oracula Sibyllina",
+     "w": "Book 13",
+     "r": "89-130"
+    }
+   ],
+   "debate": "Date 253 or 256; some argue for two captures (253 and 260).",
+   "certainty": "disputed",
+   "tags": [
+    "deportation",
+    "Gundeshapur"
+   ]
+  },
+  {
+   "id": "uranius_antoninus_253",
+   "year": 253,
+   "title": "Uranius Antoninus defends Emesa",
+   "type": "usurpation",
+   "cats": [
+    "political",
+    "military"
+   ],
+   "importance": 2,
+   "summary": "Lucius Julius Aurelius Sulpicius Severus Uranius Antoninus, priest of Elagabal at Emesa, led local resistance to Shapur and struck gold and silver coins as emperor in 253-254.",
+   "detail": "Malalas records a priest of Aphrodite (Sampsigeramus) driving off Shapur from Emesa with slingers; the identification with Uranius is widely accepted. His local defence anticipates the larger role of Odaenathus of Palmyra.",
+   "place": "emesa",
+   "loc": [
+    36.7136,
+    34.7324
+   ],
+   "locName": "Emesa (Homs)",
+   "locCertainty": "certain",
+   "war": "persian_war_252_260",
+   "people": [
+    "uranius_antoninus",
+    "shapur_i"
+   ],
+   "polities": [
+    "rome",
+    "emesa"
+   ],
+   "sources": [
+    {
+     "a": "John Malalas",
+     "w": "Chronographia",
+     "r": "12.26"
+    },
+    {
+     "a": "Oracula Sibyllina",
+     "w": "Book 13",
+     "r": "150-154"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "Emesa",
+    "local defence"
+   ]
+  },
+  {
+   "id": "aemilianus_and_valerian_253",
+   "year": 253,
+   "title": "Aemilianus overthrows Gallus; Valerian seizes power",
+   "type": "civil_war",
+   "cats": [
+    "political",
+    "military"
+   ],
+   "importance": 3,
+   "summary": "Aemilius Aemilianus, governor of Moesia, won a victory over the Goths, was proclaimed emperor and invaded Italy; Trebonianus Gallus and his son Volusian were killed by their own men near Interamna. Three months later Aemilianus met the same fate near Spoletium as Valerian approached with the Rhine army.",
+   "detail": "Valerian, a senior senator in his sixties, made his son Gallienus co-Augustus, dividing responsibility between East (Valerian) and West (Gallienus), a pattern for later joint rule.",
+   "place": "interamna_nahars",
+   "loc": [
+    12.6466,
+    42.5636
+   ],
+   "locName": "Interamna (Terni) and Spoletium, Umbria",
+   "locCertainty": "approx",
+   "people": [
+    "trebonianus_gallus",
+    "aemilianus",
+    "valerian",
+    "gallienus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Zosimus",
+     "w": "New History",
+     "r": "1.28-29"
+    },
+    {
+     "a": "Aurelius Victor",
+     "w": "De Caesaribus",
+     "r": "31-32"
+    },
+    {
+     "a": "Eutropius",
+     "w": "Breviarium",
+     "r": "9.5-7"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "civil war"
+   ]
+  },
+  {
+   "id": "siege_of_dura_europos_256",
+   "year": 256,
+   "title": "Sasanian siege of Dura-Europos",
+   "type": "siege",
+   "cats": [
+    "military"
+   ],
+   "importance": 4,
+   "summary": "Shapur's army besieged and destroyed the Roman frontier fortress of Dura-Europos on the Euphrates; excavations revealed siege mines and countermines in which some twenty Roman soldiers and one Persian died, perhaps the earliest archaeological evidence of chemical warfare.",
+   "detail": "Simon James has argued that the Persians filled the Roman countermine with toxic smoke from burning bitumen and sulphur crystals, killing the Romans who broke in. To strengthen the wall the defenders had buried the street behind it with an earthen ramp, which preserved the synagogue with its painted biblical cycle, the Christian house-church with the earliest datable baptistery, and the Mithraeum. The city was abandoned after its fall.",
+   "place": "dura_europos",
+   "loc": [
+    40.7303,
+    34.7469
+   ],
+   "locName": "Dura-Europos, Euphrates",
+   "locCertainty": "certain",
+   "war": "persian_war_252_260",
+   "people": [
+    "shapur_i"
+   ],
+   "polities": [
+    "sasanian",
+    "rome"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "sasanian",
+      "commanders": [
+       "shapur_i"
+      ],
+      "strength": "royal army with siege engineers",
+      "losses": "unknown"
+     },
+     {
+      "polity": "rome",
+      "commanders": [],
+      "strength": "garrison incl. cohors XX Palmyrenorum",
+      "losses": "garrison destroyed; city abandoned"
+     }
+    ],
+    "victor": "sasanian",
+    "kind": "siege",
+    "significance": "Its ramp-buried buildings are among the most important finds of Roman archaeology."
+   },
+   "sources": [
+    {
+     "a": "Archaeological evidence",
+     "w": "Yale-French excavations",
+     "r": "Tower 19 mine"
+    }
+   ],
+   "scholarship": [
+    "James, 'Stratagems, Combat, and Chemical Warfare in the Siege Mines of Dura-Europos', AJA 115 (2011)",
+    "James, The Roman Military Base at Dura-Europos (2019)"
+   ],
+   "debate": "Date of fall 256 or 257 from coin and graffiti evidence.",
+   "certainty": "probable",
+   "tags": [
+    "siege mines",
+    "synagogue",
+    "chemical warfare"
+   ]
+  },
+  {
+   "id": "gothic_raid_on_trapezus_257",
+   "year": 257,
+   "title": "Gothic and Boranoi sea raids: Pityus and Trapezus",
+   "type": "other",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "Using ships commandeered from the Bosporan Kingdom, Boranoi and Goths raided the eastern Black Sea, taking Pityus at the second attempt and storming Trapezus, whose large garrison fled by night.",
+   "detail": "Zosimus describes the raiders climbing the walls with tree trunks against the hillside and carrying off immense booty and captives. Gregory Thaumaturgus' Canonical Epistle deals with Christian captives and collaborators after these raids in Pontus. In 258 another fleet raided the Propontis and sacked Chalcedon, Nicomedia and Nicaea.",
+   "place": "trapezus",
+   "loc": [
+    39.7178,
+    41.0015
+   ],
+   "locName": "Trapezus (Trabzon), Pontus",
+   "locCertainty": "certain",
+   "war": "gothic_invasions_253_271",
+   "people": [],
+   "polities": [
+    "goths",
+    "bosporan_kingdom",
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Zosimus",
+     "w": "New History",
+     "r": "1.32-35"
+    },
+    {
+     "a": "Gregory Thaumaturgus",
+     "w": "Canonical Epistle",
+     "r": "1-11"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "Goths",
+    "naval raids",
+    "Black Sea"
+   ]
+  },
+  {
+   "id": "valerian_persecution_257",
+   "year": 257,
+   "endYear": 259,
+   "title": "Valerian's persecution of the clergy",
+   "type": "religious",
+   "cats": [
+    "religious",
+    "political"
+   ],
+   "importance": 3,
+   "summary": "Valerian's first edict (257) ordered clergy to sacrifice and banned Christian meetings and cemeteries; a second (258) ordered execution of bishops, priests and deacons and confiscated property of Christian senators and equestrians.",
+   "detail": "Victims included Pope Sixtus II, beheaded with deacons in the catacomb of Callixtus on 6 August 258, the deacon Lawrence (later legend: the gridiron), and Cyprian of Carthage. Unlike Decius, Valerian targeted the Church's leadership and property, implying awareness of its institutional strength.",
+   "place": "rome",
+   "loc": [
+    12.5106,
+    41.8586
+   ],
+   "locName": "Empire-wide; Catacomb of Callixtus, Rome",
+   "locCertainty": "approx",
+   "people": [
+    "valerian",
+    "cyprian"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Cyprian",
+     "w": "Letters",
+     "r": "80"
+    },
+    {
+     "a": "Eusebius",
+     "w": "Ecclesiastical History",
+     "r": "7.10-12"
+    },
+    {
+     "a": "Acta Proconsularia Cypriani",
+     "w": "Acta",
+     "r": "1-5"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "persecution",
+    "Sixtus II",
+    "Lawrence"
+   ]
+  },
+  {
+   "id": "martyrdom_of_cyprian_258",
+   "year": 258,
+   "month": 9,
+   "day": 14,
+   "title": "Martyrdom of Cyprian of Carthage",
+   "type": "religious",
+   "cats": [
+    "religious"
+   ],
+   "importance": 3,
+   "summary": "Thascius Caecilius Cyprianus, bishop of Carthage, was beheaded at the villa Sexti outside Carthage before a large crowd after a trial before the proconsul Galerius Maximus, the first African bishop to be martyred.",
+   "detail": "The Acta Proconsularia record his reply 'Deo gratias' to the sentence. His letters and treatises (De Unitate Ecclesiae, De Lapsis) are the most important sources for third-century church organisation and the plague and persecutions.",
+   "place": "carthage",
+   "loc": [
+    10.3233,
+    36.8528
+   ],
+   "locName": "Carthage",
+   "locCertainty": "certain",
+   "people": [
+    "cyprian",
+    "valerian"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Acta Proconsularia Cypriani",
+     "w": "Acta",
+     "r": "3-6"
+    },
+    {
+     "a": "Pontius",
+     "w": "Vita Cypriani",
+     "r": "15-19"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "martyrdom"
+   ]
+  },
+  {
+   "id": "battle_of_mediolanum_259",
+   "year": 259,
+   "title": "Battle of Mediolanum",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "Gallienus defeated a vast Alamannic army (Zonaras says 300,000) near Milan with a force of 10,000, after the invaders had crossed the Alps and reached the outskirts of Rome, where the Senate armed the plebs.",
+   "detail": "The invasion forced Gallienus to concentrate cavalry in northern Italy, often seen (with caution) as the origin of a mobile cavalry reserve under Aureolus based at Milan.",
+   "place": "mediolanum",
+   "loc": [
+    9.19,
+    45.4642
+   ],
+   "locName": "Near Mediolanum (Milan)",
+   "locCertainty": "approx",
+   "war": "alamannic_invasions_259_271",
+   "people": [
+    "gallienus"
+   ],
+   "polities": [
+    "rome",
+    "alamanni"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "gallienus"
+      ],
+      "strength": "10,000 (Zonaras)",
+      "losses": "unknown"
+     },
+     {
+      "polity": "alamanni",
+      "commanders": [],
+      "strength": "300,000 (Zonaras, impossible)",
+      "losses": "heavy"
+     }
+    ],
+    "victor": "rome",
+    "kind": "field",
+    "significance": "Saved Italy from the first major barbarian invasion since the Cimbri."
+   },
+   "sources": [
+    {
+     "a": "Zonaras",
+     "w": "Epitome of Histories",
+     "r": "12.24"
+    },
+    {
+     "a": "Zosimus",
+     "w": "New History",
+     "r": "1.37"
+    }
+   ],
+   "debate": "Date 259 or 260; numbers absurd.",
+   "certainty": "probable",
+   "tags": [
+    "Alamanni",
+    "cavalry reserve"
+   ]
+  },
+  {
+   "id": "battle_of_augusta_vindelicum_260",
+   "year": 260,
+   "month": 4,
+   "day": 24,
+   "title": "Battle at Augusta Vindelicum",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "On 24-25 April 260 the Raetian governor Marcus Simplicinius Genialis, with soldiers and local levies, defeated Semnones or Juthungi returning from Italy laden with booty and freed 'many thousands of Italian captives', as recorded on a victory altar found in Augsburg in 1992.",
+   "detail": "The altar is dated by the consuls of 260 'Postumus Augustus and Honoratianus', showing that Raetia had joined Postumus' Gallic Empire. It is a rare contemporary document of the invasions and of a provincial army acting without the emperor.",
+   "place": "augusta_vindelicum",
+   "loc": [
+    10.8978,
+    48.3705
+   ],
+   "locName": "Augusta Vindelicum (Augsburg), Raetia",
+   "locCertainty": "probable",
+   "war": "alamannic_invasions_259_271",
+   "people": [
+    "marcus_simplicinius_genialis",
+    "postumus"
+   ],
+   "polities": [
+    "rome",
+    "juthungi",
+    "gallic_empire"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "gallic_empire",
+      "commanders": [
+       "marcus_simplicinius_genialis"
+      ],
+      "strength": "Raetian garrison and local levies",
+      "losses": "unknown"
+     },
+     {
+      "polity": "juthungi",
+      "commanders": [],
+      "strength": "raiding army with booty",
+      "losses": "heavy; captives freed"
+     }
+    ],
+    "victor": "gallic_empire",
+    "kind": "field",
+    "significance": "Epigraphic snapshot of invasion, captives and the Gallic secession."
+   },
+   "sources": [
+    {
+     "a": "Inscriptions",
+     "w": "Augsburg victory altar",
+     "r": "AE 1993, 1231"
+    }
+   ],
+   "scholarship": [
+    "Bakker, 'Raetien unter Postumus', Germania 71 (1993)",
+    "Drinkwater, The Alamanni and Rome (2007)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Augsburg altar",
+    "Juthungi",
+    "Semnones"
+   ]
+  },
+  {
+   "id": "revolts_of_ingenuus_and_regalianus_260",
+   "year": 260,
+   "title": "Revolts of Ingenuus and Regalianus on the Danube",
+   "type": "usurpation",
+   "cats": [
+    "political",
+    "military"
+   ],
+   "importance": 2,
+   "summary": "Ingenuus, governor of Pannonia, was proclaimed emperor and defeated by Gallienus' cavalry commander Aureolus at Mursa; his successor as usurper, Regalianus, struck coins at Carnuntum before being killed after Sarmatian (Roxolani) attacks.",
+   "detail": "Regalianus' coins, crude overstrikes on older denarii, include issues for his wife Sulpicia Dryantilla. Both revolts reflect frontier armies' demand for an emperor on the spot.",
+   "place": "mursa",
+   "loc": [
+    18.6955,
+    45.555
+   ],
+   "locName": "Mursa (Osijek), Pannonia",
+   "locCertainty": "approx",
+   "people": [
+    "ingenuus",
+    "aureolus",
+    "gallienus"
+   ],
+   "polities": [
+    "rome",
+    "roxolani"
+   ],
+   "sources": [
+    {
+     "a": "Aurelius Victor",
+     "w": "De Caesaribus",
+     "r": "33.2"
+    },
+    {
+     "a": "Zonaras",
+     "w": "Epitome of Histories",
+     "r": "12.24"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Tyranni Triginta",
+     "r": "9-10"
+    }
+   ],
+   "debate": "Date 258 or 260 for Ingenuus.",
+   "certainty": "probable",
+   "tags": [
+    "usurpers"
+   ]
+  },
+  {
+   "id": "battle_of_mursa_260",
+   "year": 260,
+   "title": "Battle of Mursa (260)",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "Gallienus and his cavalry commander Aureolus crushed the usurper Ingenuus near Mursa; Ingenuus was killed or drowned himself.",
+   "place": "mursa",
+   "loc": [
+    18.6955,
+    45.555
+   ],
+   "locName": "Mursa (Osijek)",
+   "locCertainty": "approx",
+   "people": [
+    "gallienus",
+    "aureolus",
+    "ingenuus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "faction": "Gallienus",
+      "commanders": [
+       "gallienus",
+       "aureolus"
+      ],
+      "strength": "cavalry reserve from Italy",
+      "losses": "unknown"
+     },
+     {
+      "polity": "rome",
+      "faction": "Ingenuus",
+      "commanders": [
+       "ingenuus"
+      ],
+      "strength": "Pannonian and Moesian legions",
+      "losses": "heavy"
+     }
+    ],
+    "victor": "rome",
+    "victorFaction": "Gallienus",
+    "kind": "field",
+    "significance": "Early display of Gallienus' mobile cavalry."
+   },
+   "sources": [
+    {
+     "a": "Zonaras",
+     "w": "Epitome of Histories",
+     "r": "12.24"
+    },
+    {
+     "a": "Aurelius Victor",
+     "w": "De Caesaribus",
+     "r": "33.2"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "civil war",
+    "cavalry"
+   ]
+  },
+  {
+   "id": "battle_of_edessa_260",
+   "year": 260,
+   "title": "Battle of Edessa and capture of Valerian",
+   "type": "battle",
+   "cats": [
+    "military",
+    "political"
+   ],
+   "importance": 5,
+   "summary": "Shapur I defeated Valerian between Carrhae and Edessa and captured him, the only Roman emperor ever taken prisoner by a foreign enemy, along with his praetorian prefect, senators and, by Shapur's count, an army of 70,000.",
+   "detail": "Valerian's army was already weakened by plague. Roman sources suggest he was seized during negotiations; the ŠKZ says Shapur captured him 'with his own hands'. Valerian died in captivity; Christian writers (Lactantius) relished stories that Shapur used him as a mounting block and had his skin stuffed and hung in a temple. The reliefs at Naqsh-e Rustam and Bishapur show Shapur on horseback holding Valerian by the wrist while Philip kneels. Roman prisoners built the Band-e Kaisar dam at Shushtar. Shapur's army then ravaged Cilicia and Cappadocia before Odaenathus and Ballista harried it on its return.",
+   "place": "edessa",
+   "loc": [
+    38.7955,
+    37.1591
+   ],
+   "locName": "Between Carrhae and Edessa, Osroene",
+   "locCertainty": "approx",
+   "war": "persian_war_252_260",
+   "campaign": "shapur_i_campaign_260",
+   "people": [
+    "valerian",
+    "shapur_i"
+   ],
+   "polities": [
+    "sasanian",
+    "rome"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "sasanian",
+      "commanders": [
+       "shapur_i"
+      ],
+      "strength": "royal army",
+      "losses": "unknown"
+     },
+     {
+      "polity": "rome",
+      "commanders": [
+       "valerian",
+       "successianus"
+      ],
+      "strength": "70,000 (ŠKZ), drawn from many provinces",
+      "losses": "army captured; emperor taken"
+     }
+    ],
+    "victor": "sasanian",
+    "kind": "field",
+    "significance": "Nadir of Roman prestige; precipitated the Gallic and Palmyrene secessions."
+   },
+   "sources": [
+    {
+     "a": "Shapur I",
+     "w": "Res Gestae Divi Saporis (ŠKZ)",
+     "r": "third campaign"
+    },
+    {
+     "a": "Zosimus",
+     "w": "New History",
+     "r": "1.36"
+    },
+    {
+     "a": "Lactantius",
+     "w": "De Mortibus Persecutorum",
+     "r": "5"
+    },
+    {
+     "a": "Aurelius Victor",
+     "w": "De Caesaribus",
+     "r": "32.5"
+    }
+   ],
+   "scholarship": [
+    "Dodgeon and Lieu (1991)",
+    "Potter, The Roman Empire at Bay (2014)",
+    "Canepa, The Two Eyes of the Earth (2009)"
+   ],
+   "debate": "Circumstances (battle vs treacherous parley) and exact year (260, possibly 259) disputed.",
+   "certainty": "certain",
+   "tags": [
+    "ŠKZ",
+    "Naqsh-e Rustam",
+    "captive emperor"
+   ]
+  },
+  {
+   "id": "macriani_usurpation_260",
+   "year": 260,
+   "endYear": 261,
+   "title": "Usurpation of the Macriani",
+   "type": "usurpation",
+   "cats": [
+    "political",
+    "military"
+   ],
+   "importance": 2,
+   "summary": "After Valerian's capture, his finance official Fulvius Macrianus and the prefect Ballista had Macrianus' sons Macrianus Minor and Quietus proclaimed emperors in the East; the Macriani invaded the Balkans in 261 and were destroyed by Aureolus, while Odaenathus of Palmyra killed Quietus and Ballista at Emesa.",
+   "place": "emesa",
+   "loc": [
+    36.7136,
+    34.7324
+   ],
+   "locName": "Syria, Illyricum and Emesa",
+   "locCertainty": "approx",
+   "people": [
+    "aureolus",
+    "odaenathus",
+    "gallienus"
+   ],
+   "polities": [
+    "rome",
+    "palmyra"
+   ],
+   "sources": [
+    {
+     "a": "Zonaras",
+     "w": "Epitome of Histories",
+     "r": "12.24"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Tyranni Triginta",
+     "r": "12-14, 18"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "usurpers"
+   ]
+  },
+  {
+   "id": "postumus_founds_gallic_empire_260",
+   "year": 260,
+   "title": "Postumus founds the Gallic Empire",
+   "type": "usurpation",
+   "cats": [
+    "political",
+    "military"
+   ],
+   "importance": 4,
+   "summary": "Marcus Cassianius Latinius Postumus, commander on the Rhine, quarrelled with Gallienus' son Saloninus and his guardian Silvanus over booty, besieged them in Colonia Agrippinensis and had them killed; he then ruled Gaul, Germany, Britain, Spain and briefly Raetia for nine years.",
+   "detail": "The Gallic Empire had its own consuls, praetorian guard and Senate (probably at Trier or Cologne) and never tried to march on Rome; Postumus presented himself as defender of the Rhine (coins: RESTITVTOR GALLIARVM, HERCVLI DEVSONIENSI). Drinkwater characterises it as a Roman regime born of regional needs rather than Gallic separatism. Gallienus' attempt to retake it c. 265 failed when he was wounded besieging Postumus.",
+   "place": "colonia_agrippina",
+   "loc": [
+    6.958,
+    50.941
+   ],
+   "locName": "Colonia Agrippinensis (Cologne)",
+   "locCertainty": "certain",
+   "war": "gallic_empire_war",
+   "people": [
+    "postumus",
+    "gallienus"
+   ],
+   "polities": [
+    "gallic_empire",
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Zonaras",
+     "w": "Epitome of Histories",
+     "r": "12.24"
+    },
+    {
+     "a": "Aurelius Victor",
+     "w": "De Caesaribus",
+     "r": "33.8"
+    },
+    {
+     "a": "Eutropius",
+     "w": "Breviarium",
+     "r": "9.9"
+    }
+   ],
+   "scholarship": [
+    "Drinkwater, The Gallic Empire (1987)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Gallic Empire",
+    "Imperium Galliarum"
+   ]
+  },
+  {
+   "id": "gallienus_edict_of_toleration_260",
+   "year": 260,
+   "title": "Gallienus' rescript restoring Christian property",
+   "type": "religious",
+   "cats": [
+    "religious",
+    "law"
+   ],
+   "importance": 3,
+   "summary": "Gallienus ended his father's persecution and restored churches and cemeteries to the bishops, effectively recognising the Church as a property-holding body; peace for Christians lasted until 303.",
+   "detail": "Eusebius quotes Gallienus' rescript to Bishop Dionysius of Alexandria and others. The forty years of peace saw large churches built in cities like Nicomedia, opposite the imperial palace.",
+   "place": "rome",
+   "loc": [
+    12.4924,
+    41.8902
+   ],
+   "locName": "Empire-wide",
+   "locCertainty": "approx",
+   "people": [
+    "gallienus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Eusebius",
+     "w": "Ecclesiastical History",
+     "r": "7.13"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "toleration",
+    "Church property"
+   ]
+  }
+ ]
+}

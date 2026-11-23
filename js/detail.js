@@ -105,7 +105,7 @@ const R = {
       `<button data-action="adjacent" data-dir="prev">Previous event</button><button data-action="adjacent" data-dir="next">Next event</button>`);
     html += `<div class="d-body"><p class="summary">${richText(e.summary, exists)} ${cert(e.certainty)}</p>`;
     if (b) {
-      html += `<div class="battle-card">${(b.sides || []).map((s) => `<div><div class="bc-side">${polityLink(s.polity)}${b.victor === s.polity ? '<span class="bc-win">victor</span>' : ''}</div>
+      html += `<div class="battle-card">${(b.sides || []).map((s) => `<div><div class="bc-side">${s.faction ? `${swatch(s.polity)}${esc(s.faction)}` : polityLink(s.polity)}${(b.victorFaction ? b.victorFaction === s.faction : b.victor === s.polity) ? '<span class="bc-win">victor</span>' : ''}</div>
         ${s.commanders?.length ? `<div class="bc-k">Commanders</div>${s.commanders.map((c) => link(c, null, 'person')).join(', ')}` : ''}
         ${s.strength ? `<div class="bc-k">Strength</div>${esc(s.strength)}` : ''}${s.losses ? `<div class="bc-k">Losses</div>${esc(s.losses)}` : ''}</div>`).join('')}</div>`;
       if (b.significance) html += `<p><b>Significance.</b> ${richText(b.significance, exists)}</p>`;

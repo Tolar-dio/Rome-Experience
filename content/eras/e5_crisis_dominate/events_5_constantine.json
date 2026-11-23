@@ -1,295 +1,1954 @@
-{"events":[
-{"id":"battle_of_turin_312","year":312,"title":"Battle of Turin","type":"battle","cats":["military"],"importance":3,
-"summary":"After storming Segusio at the foot of the Alps, Constantine met Maxentius' heavily armoured cavalry (clibanarii) on the plain west of Turin; his men opened ranks and clubbed the armoured riders down with iron-bound maces, and Turin shut its gates on the fleeing Maxentians.",
-"place":"augusta_taurinorum","loc":[7.6869,45.0703],"locName":"Near Augusta Taurinorum (Turin)","locCertainty":"approx","war":"civil_wars_of_the_tetrarchy","campaign":"constantine_italy_312",
-"people":["constantine_i","maxentius"],"polities":["rome"],
-"battle":{"sides":[{"polity":"rome","faction":"Constantine","commanders":["constantine_i"],"strength":"perhaps 40,000 (panegyric of 313 says under a quarter of his army, c. 25,000-40,000)","losses":"light"},{"polity":"rome","faction":"Maxentius","commanders":[],"strength":"northern Italian army with clibanarii","losses":"heavy"}],"victor":"rome","victorFaction":"Constantine","kind":"field","significance":"Opened the Po valley; Milan welcomed Constantine."},
-"sources":[{"a":"Panegyrici Latini","w":"Panegyric 12(9) of 313","r":"5-6"},{"a":"Panegyrici Latini","w":"Panegyric 4(10) of 321 (Nazarius)","r":"22-24"}],
-"certainty":"certain","tags":["clibanarii","cataphracts"]},
-
-{"id":"siege_of_verona_312","year":312,"title":"Siege and battle of Verona","type":"siege","cats":["military"],"importance":3,
-"summary":"Constantine besieged Verona, held by Maxentius' praetorian prefect Ruricius Pompeianus, who broke out to bring a relief army; Constantine defeated and killed him in a night battle, after which Verona and Aquileia surrendered.",
-"detail":"The panegyrist of 313 records that Constantine fought in person and was rebuked by his officers for risking himself, and that the captured Maxentian soldiers were chained with fetters made from their own swords.",
-"place":"verona","loc":[10.9916,45.4384],"locName":"Verona","locCertainty":"certain","war":"civil_wars_of_the_tetrarchy","campaign":"constantine_italy_312",
-"people":["constantine_i","ruricius_pompeianus"],"polities":["rome"],
-"battle":{"sides":[{"polity":"rome","faction":"Constantine","commanders":["constantine_i"],"strength":"field army","losses":"unknown"},{"polity":"rome","faction":"Maxentius","commanders":["ruricius_pompeianus"],"strength":"garrison and relief force","losses":"Pompeianus killed; garrison captured"}],"victor":"rome","victorFaction":"Constantine","kind":"siege","significance":"Destroyed Maxentius' northern army, leaving Rome exposed."},
-"sources":[{"a":"Panegyrici Latini","w":"Panegyric 12(9) of 313","r":"8-10"}],
-"certainty":"certain","tags":[]},
-
-{"id":"vision_of_constantine_312","year":312,"month":10,"title":"Constantine's vision and the Christian sign","type":"religious","cats":["religious","political"],"importance":5,
-"summary":"Before the battle against Maxentius, Constantine was, according to Lactantius, told in a dream to mark 'the heavenly sign of God' on his soldiers' shields; Eusebius, writing after Constantine's death and claiming the emperor's own sworn account, describes a cross of light in the sky with the words 'by this conquer' (touto nika) followed by a dream and the making of the labarum.",
-"detail":"The two Christian accounts differ in timing, content and the sign (a staurogram or chi-rho). Neither panegyrist of 313 nor of 321 mentions Christ. Modern explanations range from a genuine religious experience to a solar halo seen in 310 and reinterpreted (Weiss), to retrospective propaganda. What is not in doubt is that from 312 Constantine favoured the Church: restitution of property, exemption of clergy from curial duties (313), grants to bishops and building the Lateran basilica. The chi-rho appears on Constantine's helmet on a silver medallion from Ticinum of c. 315.",
-"place":"rome","loc":[12.47,41.95],"locName":"Before Rome","locCertainty":"approx","war":"civil_wars_of_the_tetrarchy",
-"people":["constantine_i","lactantius","eusebius_of_caesarea"],"polities":["rome"],
-"sources":[{"a":"Lactantius","w":"De Mortibus Persecutorum","r":"44.5-6"},{"a":"Eusebius","w":"Life of Constantine","r":"1.27-32"},{"a":"Eusebius","w":"Ecclesiastical History","r":"9.9"}],
-"scholarship":["Barnes, Constantine: Dynasty, Religion and Power (2011)","Weiss, JRA 16 (2003)","Van Dam, Remembering Constantine at the Milvian Bridge (2011)","Lenski (ed.), Cambridge Companion to the Age of Constantine (2006/2012)"],
-"debate":"Lactantius and Eusebius are partisan; their versions are inconsistent. The sincerity and timing of Constantine's conversion are among the most contested questions in Roman history.","certainty":"disputed","tags":["chi-rho","labarum","in hoc signo vinces","conversion"]},
-
-{"id":"battle_of_the_milvian_bridge","year":312,"month":10,"day":28,"title":"Battle of the Milvian Bridge","type":"battle","cats":["military","political","religious"],"importance":5,
-"summary":"On the sixth anniversary of his accession, Maxentius left the Aurelian Walls, crossed the Tiber on a pontoon bridge beside the cut Milvian Bridge and drew up with the river at his back near Saxa Rubra; Constantine's cavalry routed his wings, the army collapsed toward the river, the pontoon gave way and Maxentius drowned.",
-"detail":"Lactantius says Maxentius had consulted the Sibylline Books, which foretold that 'the enemy of the Romans' would die that day. His body was recovered and his head paraded through Rome on a spear and sent to Africa. The Praetorians, who had fought hardest, were disbanded and their camp demolished. Constantine entered Rome on 29 October but, notably, apparently did not climb the Capitol to sacrifice to Jupiter (a much-debated silence). The Senate voted him the senior Augustan title and an arch. The battle became the founding myth of Christian empire.",
-"place":"milvian_bridge","loc":[12.4672,41.9356],"locName":"Milvian Bridge and Saxa Rubra, north of Rome","locCertainty":"certain","war":"civil_wars_of_the_tetrarchy","campaign":"constantine_italy_312",
-"people":["constantine_i","maxentius"],"polities":["rome"],
-"battle":{"sides":[{"polity":"rome","faction":"Constantine","commanders":["constantine_i"],"strength":"c. 40,000 (modern estimate); Zosimus claims 90,000 foot, 8,000 horse","losses":"light"},{"polity":"rome","faction":"Maxentius","commanders":["maxentius"],"strength":"Zosimus claims 170,000 foot, 18,000 horse (impossible); Praetorians, Italian and African troops","losses":"heavy; Maxentius drowned"}],"victor":"rome","victorFaction":"Constantine","kind":"field","significance":"Gave Constantine the West and Rome; traditionally the turning point toward a Christian empire."},
-"sources":[{"a":"Lactantius","w":"De Mortibus Persecutorum","r":"44"},{"a":"Eusebius","w":"Ecclesiastical History","r":"9.9.2-11"},{"a":"Panegyrici Latini","w":"Panegyric 12(9) of 313","r":"16-18"},{"a":"Zosimus","w":"New History","r":"2.15-16"},{"a":"Origo Constantini (Anonymus Valesianus)","w":"Pars prior","r":"4.12"}],
-"scholarship":["Van Dam, Remembering Constantine at the Milvian Bridge (2011)","Barnes, Constantine (2011)","Potter, Constantine the Emperor (2013)"],
-"debate":"Zosimus' numbers are fantastical; the precise topography (Saxa Rubra vs the bridge itself) and the Sibylline story are uncertain. Eusebius compares the drowning to Pharaoh in the Red Sea.","certainty":"certain","tags":["Saxa Rubra","Sibylline Books","Maxentius"]},
-
-{"id":"praetorian_guard_abolished_312","year":312,"title":"Abolition of the Praetorian Guard","type":"reform","cats":["military"],"importance":3,
-"summary":"Constantine dissolved the Praetorian cohorts and the equites singulares Augusti, who had fought for Maxentius, demolished the internal walls of the Castra Praetoria, and replaced them with the new scholae palatinae, cavalry guard regiments attached to the emperor's person.",
-"detail":"The equites singulares' cemetery on the Via Labicana was built over by the basilica of Saints Marcellinus and Peter and the mausoleum of Helena, and their barracks on the Caelian by the Lateran basilica, a pointed reuse of the losers' property for Christian building.",
-"place":"rome","loc":[12.5035,41.9055],"locName":"Castra Praetoria, Rome","locCertainty":"certain",
-"people":["constantine_i"],"polities":["rome"],
-"sources":[{"a":"Aurelius Victor","w":"De Caesaribus","r":"40.25"},{"a":"Zosimus","w":"New History","r":"2.17.2"}],
-"certainty":"certain","tags":["scholae palatinae","equites singulares"]},
-
-{"id":"lateran_basilica_founded","year":312,"endYear":324,"title":"Foundation of the Lateran Basilica","type":"building","cats":["religious","cultural"],"importance":3,
-"summary":"Constantine gave the bishop of Rome the Lateran property and built the Basilica Constantiniana (later St John Lateran) over the barracks of the disbanded horse guard, a five-aisled basilica about 100 m long, the first great church of Rome and cathedral of its bishop.",
-"detail":"The Liber Pontificalis lists its endowments of gold and silver fittings and estates. Constantine's churches in Rome were placed mostly on imperial land at the edges of the city (Lateran, St Peter's on the Vatican, St Paul's, the cemetery basilicas), leaving the monumental core to its traditional cults.",
-"place":"rome","loc":[12.5056,41.8859],"locName":"Lateran, Rome","locCertainty":"certain",
-"people":["constantine_i"],"polities":["rome"],
-"sources":[{"a":"Liber Pontificalis","w":"Life of Silvester","r":"34.9"}],
-"scholarship":["Krautheimer, Rome: Profile of a City (1980)","Krautheimer, Three Christian Capitals (1983)"],
-"certainty":"certain","tags":["basilica","Christian topography"]},
-
-{"id":"edict_of_milan_313","year":313,"month":2,"title":"The 'Edict of Milan'","type":"religious","cats":["religious","law","political"],"importance":5,
-"summary":"Meeting at Milan in February 313, where Licinius married Constantine's half-sister Constantia, the two Augusti agreed on a policy of religious freedom for all and restoration of confiscated church property; the text survives as a letter issued by Licinius at Nicomedia on 13 June 313.",
-"detail":"The document grants 'to Christians and to all others free power to follow the religion each one wishes, so that whatever divinity there is in the heavenly seat may be favourable to us'. Strictly it was not an edict and not issued at Milan; Lactantius gives the Latin text and Eusebius a Greek translation. It ended persecution in the East and established the principle of state restitution to the churches as corporate bodies.",
-"place":"mediolanum","loc":[9.19,45.4642],"locName":"Mediolanum (agreement); Nicomedia (letter posted)","locCertainty":"certain",
-"people":["constantine_i","licinius","constantia"],"polities":["rome"],
-"sources":[{"a":"Lactantius","w":"De Mortibus Persecutorum","r":"48"},{"a":"Eusebius","w":"Ecclesiastical History","r":"10.5.2-14"}],
-"debate":"Its legal form (edict, rescript, letter) and whether Constantine had already issued a similar measure in the West are debated.","certainty":"certain","tags":["toleration","religious freedom"]},
-
-{"id":"battle_of_tzirallum","year":313,"month":4,"day":30,"title":"Battle of Tzirallum (Campus Ergenus)","type":"battle","cats":["military"],"importance":3,
-"summary":"Maximinus Daia crossed into Europe and took Byzantium and Heraclea, but Licinius, with about 30,000 men against 70,000, defeated him on the Campus Ergenus near Tzirallum; Lactantius says an angel dictated a prayer to Licinius that his soldiers recited before battle.",
-"place":"tzirallum","loc":[27.8,41.16],"locName":"Campus Ergenus near Tzirallum (Çorlu), Thrace","locCertainty":"probable","war":"civil_wars_of_the_tetrarchy","campaign":"licinius_vs_maximinus_313",
-"people":["licinius","maximinus_daia"],"polities":["rome"],
-"battle":{"sides":[{"polity":"rome","faction":"Licinius","commanders":["licinius"],"strength":"c. 30,000 (Lactantius)","losses":"light"},{"polity":"rome","faction":"Maximinus","commanders":["maximinus_daia"],"strength":"c. 70,000 (Lactantius)","losses":"heavy"}],"victor":"rome","victorFaction":"Licinius","kind":"field","significance":"Left the empire divided between two Augusti, Constantine and Licinius."},
-"sources":[{"a":"Lactantius","w":"De Mortibus Persecutorum","r":"45-47"},{"a":"Eusebius","w":"Ecclesiastical History","r":"9.10"}],
-"debate":"Lactantius' numbers and angelic prayer are part of his providential narrative.","certainty":"certain","tags":["Lactantius"]},
-
-{"id":"death_of_maximinus_daia_313","year":313,"title":"Death of Maximinus Daia at Tarsus","type":"death","cats":["political"],"importance":2,
-"summary":"Fleeing to Asia Minor, Maximinus issued his own toleration edict and died at Tarsus in summer 313, of poison or disease; Licinius then killed his family and the families of Galerius, Severus and Diocletian, including Diocletian's widow Prisca and daughter Valeria.",
-"place":"tarsus","loc":[34.8959,36.9177],"locName":"Tarsus, Cilicia","locCertainty":"certain","war":"civil_wars_of_the_tetrarchy",
-"people":["maximinus_daia","licinius"],"polities":["rome"],
-"sources":[{"a":"Lactantius","w":"De Mortibus Persecutorum","r":"49-51"},{"a":"Eusebius","w":"Ecclesiastical History","r":"9.10.13-15"}],
-"certainty":"certain","tags":["death of persecutors"]},
-
-{"id":"council_of_arles_314","year":314,"month":8,"title":"Council of Arles","type":"religious","cats":["religious"],"importance":3,
-"summary":"Constantine summoned bishops from across the West, including three from Britain (York, London and probably Lincoln), to Arles to judge the Donatist appeal; they upheld Caecilian and issued canons, including one threatening excommunication for soldiers who threw down their arms in peacetime.",
-"detail":"The first council called by an emperor, it set the pattern for Nicaea. The British bishops' signatures are the earliest firm evidence for an organised church in Britain.",
-"place":"arelate","loc":[4.6278,43.6766],"locName":"Arelate (Arles)","locCertainty":"certain",
-"people":["constantine_i","donatus_magnus"],"polities":["rome"],
-"sources":[{"a":"Canons","w":"Canons of the Council of Arles (314)","r":"3, 8"},{"a":"Optatus of Milevis","w":"Against the Donatists","r":"Appendix 4"}],
-"certainty":"certain","tags":["Donatism","British bishops"]},
-
-{"id":"arch_of_constantine","year":315,"month":7,"title":"Arch of Constantine dedicated","type":"building","cats":["cultural","political"],"importance":3,
-"summary":"For his decennalia in 315 the Senate dedicated a triple arch beside the Colosseum, celebrating victory over the 'tyrant' Maxentius; it reused reliefs from monuments of Trajan, Hadrian and Marcus Aurelius with heads recut as Constantine, together with a contemporary frieze of the campaign of 312.",
-"detail":"Its inscription attributes the victory to 'instinctu divinitatis' (by the prompting of the divinity), a famously ambiguous phrase acceptable to pagans and Christians. The stylistic contrast between the second-century spolia and the squat Constantinian frieze is a textbook case in debates about 'decline' versus deliberate late antique aesthetics.",
-"place":"rome","loc":[12.4907,41.8898],"locName":"Next to the Colosseum, Rome","locCertainty":"certain",
-"people":["constantine_i"],"polities":["rome"],
-"sources":[{"a":"Inscriptions","w":"CIL VI 1139","r":""}],
-"scholarship":["Elsner, 'From the culture of spolia to the cult of relics', PBSR 68 (2000)"],
-"certainty":"certain","tags":["spolia","instinctu divinitatis"]},
-
-{"id":"battle_of_cibalae","year":316,"month":10,"day":8,"title":"Battle of Cibalae","type":"battle","cats":["military"],"importance":3,
-"summary":"In the first war between Constantine and Licinius, Constantine with 20,000 men defeated Licinius' 35,000 in a day-long battle in the narrow ground between a hill and a marsh near Cibalae in Pannonia; Licinius retreated to Sirmium and then Thrace.",
-"detail":"The war began after a failed plan to make Bassianus, husband of Constantine's half-sister Anastasia, Caesar of a buffer zone in Italy and Illyricum. Licinius raised his officer Valens as co-Augustus.",
-"place":"cibalae","loc":[18.8044,45.2883],"locName":"Cibalae (Vinkovci), Pannonia Secunda","locCertainty":"probable","war":"constantine_licinius_wars",
-"people":["constantine_i","licinius"],"polities":["rome"],
-"battle":{"sides":[{"polity":"rome","faction":"Constantine","commanders":["constantine_i"],"strength":"20,000 (Origo)","losses":"unknown"},{"polity":"rome","faction":"Licinius","commanders":["licinius"],"strength":"35,000 (Origo)","losses":"20,000 (Zosimus, exaggerated)"}],"victor":"rome","victorFaction":"Constantine","kind":"field","significance":"Constantine gained the initiative in the Balkans."},
-"sources":[{"a":"Origo Constantini (Anonymus Valesianus)","w":"Pars prior","r":"5.16"},{"a":"Zosimus","w":"New History","r":"2.18"}],
-"debate":"Date 316 (now standard) vs older 314.","certainty":"certain","tags":[]},
-
-{"id":"battle_of_mardia","year":316,"title":"Battle of Mardia","type":"battle","cats":["military"],"importance":2,
-"summary":"Constantine and Licinius fought an indecisive battle at Campus Mardiensis in Thrace in late 316 or early 317; the peace concluded at Serdica gave Constantine all the Balkans except Thrace (the dioceses of Pannonia and Moesia).",
-"detail":"Licinius' co-emperor Valens was deposed and executed as part of the settlement.",
-"place":null,"loc":[25.9,41.93],"locName":"Campus Mardiensis, Thrace (perhaps near Harmanli)","locCertainty":"disputed","war":"constantine_licinius_wars",
-"people":["constantine_i","licinius"],"polities":["rome"],
-"battle":{"sides":[{"polity":"rome","faction":"Constantine","commanders":["constantine_i"],"strength":"unknown","losses":"unknown"},{"polity":"rome","faction":"Licinius","commanders":["licinius"],"strength":"unknown","losses":"unknown"}],"victor":"indecisive","kind":"field","significance":"Led to a negotiated peace and redistribution of the Balkans."},
-"sources":[{"a":"Origo Constantini (Anonymus Valesianus)","w":"Pars prior","r":"5.17-18"},{"a":"Zosimus","w":"New History","r":"2.19-20"}],
-"certainty":"probable","tags":[]},
-
-{"id":"caesars_of_317","year":317,"month":3,"day":1,"title":"Crispus, Constantine II and Licinius II made Caesars","type":"political","cats":["political"],"importance":2,
-"summary":"At Serdica on 1 March 317 Constantine's sons Crispus (about 12-17) and the infant Constantine II and Licinius' infant son Licinius II were proclaimed Caesars, sealing the peace and establishing hereditary succession for both houses.",
-"place":"serdica","loc":[23.3219,42.6977],"locName":"Serdica","locCertainty":"certain","war":"constantine_licinius_wars",
-"people":["crispus","constantine_ii","constantine_i","licinius"],"polities":["rome"],
-"sources":[{"a":"Origo Constantini (Anonymus Valesianus)","w":"Pars prior","r":"5.19"},{"a":"Zosimus","w":"New History","r":"2.20.2"}],
-"certainty":"certain","tags":["dynasty"]},
-
-{"id":"arian_controversy_begins","year":318,"title":"Arius and the beginning of the Arian controversy","type":"religious","cats":["religious"],"importance":4,
-"summary":"Arius, presbyter of the Baucalis church in Alexandria, taught that the Son was created by the Father and that 'there was when he was not'; Bishop Alexander condemned him at a synod of about 100 Egyptian bishops, but Arius found support from Eusebius of Nicomedia and other Lucianist bishops in the East.",
-"detail":"Arius set his teaching to popular songs (the Thalia), sung by sailors and millers. The dispute fused theology with rivalries between sees (Alexandria, Nicomedia, Antioch) and quickly became an imperial problem when Constantine gained the East in 324. 'Arianism' is a polemical label: many later 'Arians' had little to do with Arius, and modern scholars (Hanson, Williams, Ayres) prefer to speak of a fourth-century debate about the Trinity.",
-"place":"alexandria","loc":[29.9187,31.2001],"locName":"Alexandria","locCertainty":"certain",
-"people":["arius","eusebius_of_nicomedia","athanasius"],"polities":["rome"],
-"sources":[{"a":"Socrates Scholasticus","w":"Ecclesiastical History","r":"1.5-6"},{"a":"Athanasius","w":"Orations against the Arians","r":"1.5-6"},{"a":"Theodoret","w":"Ecclesiastical History","r":"1.2-4"}],
-"scholarship":["Hanson, The Search for the Christian Doctrine of God (1988)","Williams, Arius: Heresy and Tradition (1987/2001)","Ayres, Nicaea and its Legacy (2004)"],
-"debate":"Start date 318 or 320/321.","certainty":"probable","tags":["Arianism","Thalia","Trinity"]},
-
-{"id":"sunday_law_321","year":321,"month":3,"day":3,"title":"Constantine's law on the 'venerable day of the Sun'","type":"law","cats":["law","religious"],"importance":3,
-"summary":"Constantine ordered that magistrates, city people and craftsmen rest on the 'venerable day of the Sun' (dies Solis), while allowing farmers to work; a July 321 law permitted manumissions and emancipations on that day.",
-"detail":"The religiously neutral language (Sun, not Lord's day) suited both Christians and solar worshippers, and the law founded the Western legal tradition of Sunday rest.",
-"place":null,"loc":[12.4924,41.8902],"locName":"Empire (Constantine's territories)","locCertainty":"approx",
-"people":["constantine_i"],"polities":["rome"],
-"sources":[{"a":"Codex Justinianus","w":"Codex","r":"3.12.2"},{"a":"Codex Theodosianus","w":"Codex Theodosianus","r":"2.8.1"}],
-"certainty":"certain","tags":["Sunday","dies Solis"]},
-
-{"id":"battle_of_adrianople_324","year":324,"month":7,"day":3,"title":"Battle of Adrianople (324)","type":"battle","cats":["military"],"importance":3,
-"summary":"Constantine, now openly fighting under the labarum, crossed the Hebrus with a small detachment upstream and fell on Licinius' fortified camp near Adrianople, winning a major victory; Licinius retreated to Byzantium.",
-"detail":"Zosimus gives Licinius 150,000 foot and 15,000 horse against Constantine's 120,000 foot and 10,000 horse, figures much inflated. Constantine was wounded in the thigh. Eusebius presents the war as a crusade against Licinius' renewed harassment of Christians.",
-"place":"hadrianopolis","loc":[26.56,41.7],"locName":"On the Hebrus near Hadrianopolis (Edirne)","locCertainty":"approx","war":"constantine_licinius_wars","campaign":"constantine_vs_licinius_324",
-"people":["constantine_i","licinius"],"polities":["rome"],
-"battle":{"sides":[{"polity":"rome","faction":"Constantine","commanders":["constantine_i"],"strength":"130,000 (Zosimus, inflated)","losses":"unknown"},{"polity":"rome","faction":"Licinius","commanders":["licinius"],"strength":"165,000 (Zosimus, inflated)","losses":"34,000 (Zosimus)"}],"victor":"rome","victorFaction":"Constantine","kind":"field","significance":"Drove Licinius out of Thrace."},
-"sources":[{"a":"Zosimus","w":"New History","r":"2.22"},{"a":"Origo Constantini (Anonymus Valesianus)","w":"Pars prior","r":"5.24"},{"a":"Eusebius","w":"Life of Constantine","r":"2.6-10"}],
-"certainty":"certain","tags":["labarum"]},
-
-{"id":"battle_of_the_hellespont_324","year":324,"month":7,"title":"Battle of the Hellespont","type":"naval","cats":["military"],"importance":3,
-"summary":"Crispus with Constantine's fleet of 200 smaller warships defeated Licinius' admiral Abantus (Amandus) with 350 triremes in the Hellespont over two days, a storm on the second day wrecking much of the enemy fleet.",
-"detail":"The victory broke the blockade of the straits and allowed Constantine to supply the siege of Byzantium and ferry his army to Asia. It was the last major naval battle in the Mediterranean between Roman fleets until the fifth century.",
-"place":null,"loc":[26.68,40.375],"locName":"Hellespont near Callipolis","locCertainty":"approx","war":"constantine_licinius_wars","campaign":"constantine_vs_licinius_324",
-"people":["crispus","licinius"],"polities":["rome"],
-"battle":{"sides":[{"polity":"rome","faction":"Constantine","commanders":["crispus"],"strength":"200 thirty-oared ships (Zosimus)","losses":"light"},{"polity":"rome","faction":"Licinius","commanders":["abantus"],"strength":"350 triremes (Zosimus)","losses":"130 ships, 5,000 men (Zosimus)"}],"victor":"rome","victorFaction":"Constantine","kind":"naval","significance":"Opened the straits; prerequisite for Chrysopolis."},
-"sources":[{"a":"Zosimus","w":"New History","r":"2.23-24"},{"a":"Origo Constantini (Anonymus Valesianus)","w":"Pars prior","r":"5.23"}],
-"certainty":"certain","tags":["naval warfare"]},
-
-{"id":"battle_of_chrysopolis","year":324,"month":9,"day":18,"title":"Battle of Chrysopolis","type":"battle","cats":["military","political"],"importance":4,
-"summary":"Constantine crossed the Bosporus and crushed Licinius' army, reinforced by Gothic auxiliaries under Alica, at Chrysopolis opposite Byzantium; Licinius fled to Nicomedia and surrendered on the plea of his wife Constantia.",
-"detail":"Licinius had proclaimed his magister officiorum Martinianus co-emperor. The victory reunited the empire under one ruler for the first time since 285; within weeks, on 8 November 324, Constantine marked out the new city on the site of Byzantium.",
-"place":"chrysopolis","loc":[29.0154,41.0255],"locName":"Chrysopolis (Üsküdar)","locCertainty":"certain","war":"constantine_licinius_wars","campaign":"constantine_vs_licinius_324",
-"people":["constantine_i","licinius","constantia"],"polities":["rome","goths"],
-"battle":{"sides":[{"polity":"rome","faction":"Constantine","commanders":["constantine_i"],"strength":"field army","losses":"unknown"},{"polity":"rome","faction":"Licinius","commanders":["licinius"],"strength":"130,000 (Zosimus) incl. Gothic auxiliaries","losses":"c. 25,000 (Zosimus)"}],"victor":"rome","victorFaction":"Constantine","kind":"field","significance":"Made Constantine sole emperor; led to the foundation of Constantinople."},
-"sources":[{"a":"Zosimus","w":"New History","r":"2.26"},{"a":"Origo Constantini (Anonymus Valesianus)","w":"Pars prior","r":"5.27-28"},{"a":"Eusebius","w":"Life of Constantine","r":"2.16-18"}],
-"certainty":"certain","tags":["reunification"]},
-
-{"id":"execution_of_licinius_325","year":325,"title":"Execution of Licinius at Thessalonica","type":"death","cats":["political"],"importance":2,
-"summary":"Spared at first and sent to Thessalonica, Licinius was executed in spring 325, accused of plotting with barbarians; his son Licinius II was killed in 326.",
-"place":"thessalonica","loc":[22.9444,40.6401],"locName":"Thessalonica","locCertainty":"certain","war":"constantine_licinius_wars",
-"people":["licinius","constantine_i"],"polities":["rome"],
-"sources":[{"a":"Origo Constantini (Anonymus Valesianus)","w":"Pars prior","r":"5.29"},{"a":"Eutropius","w":"Breviarium","r":"10.6.1"}],
-"certainty":"certain","tags":[]},
-
-{"id":"foundation_of_constantinople_324","year":324,"month":11,"day":8,"title":"Foundation of Constantinople","type":"founding","cats":["political","cultural"],"importance":5,
-"summary":"On 8 November 324 Constantine traced the boundary of a greatly enlarged city on the site of Byzantium, about four times its former size, as his eponymous residence and 'New Rome'.",
-"detail":"The site commanded the Bosporus crossing between the Danube and Euphrates fronts. Philostorgius tells that Constantine walked the line with spear in hand and, asked how far he would go, replied 'until he who walks ahead of me stops'. Construction drew on spolia from across the East: the Serpent Column from Delphi, statues for the Baths of Zeuxippus, and a porphyry column in the oval Forum of Constantine topped by a statue of the emperor as Sol or Apollo. Whether Constantine intended a new capital, a Christian city, or another tetrarchic residence is debated; the city received a Senate (of lower rank until Constantius II) and free grain dole (80,000 rations) from 332.",
-"place":"constantinople","loc":[28.9784,41.0082],"locName":"Byzantium / Constantinople","locCertainty":"certain",
-"people":["constantine_i"],"polities":["rome"],
-"sources":[{"a":"Zosimus","w":"New History","r":"2.30-32"},{"a":"Philostorgius","w":"Ecclesiastical History","r":"2.9"},{"a":"Eusebius","w":"Life of Constantine","r":"3.48"}],
-"scholarship":["Dagron, Naissance d'une capitale (1974)","Krautheimer, Three Christian Capitals (1983)","Bassett, The Urban Image of Late Antique Constantinople (2004)"],
-"debate":"Date of foundation 324 (standard) and the city's original character (Christian or not) disputed.","certainty":"certain","tags":["New Rome","Serpent Column","Forum of Constantine"]},
-
-{"id":"council_of_nicaea","year":325,"month":6,"title":"First Council of Nicaea","type":"religious","cats":["religious","political"],"importance":5,
-"summary":"Constantine convened some 250-300 bishops (later tradition: 318) at Nicaea in Bithynia, opening the council in person in the imperial palace; it condemned Arius, adopted a creed declaring the Son 'homoousios' (of the same substance) with the Father, set rules for the date of Easter and issued twenty canons.",
-"detail":"Only two bishops, Secundus of Ptolemais and Theonas of Marmarica, refused to sign and were exiled with Arius; Eusebius of Nicomedia signed but balked at the anathemas. Ossius of Corduba probably presided. The canons regulated the ranks of Alexandria, Rome and Antioch (canon 6), honour for Jerusalem (7), readmission of Novatianists (8) and banned self-castrated clergy (1). The term homoousios, probably suggested by Ossius or the emperor himself, later became the rallying point of Nicene orthodoxy, but in 325 it was a compromise and its acceptance lasted only a few years. Eusebius of Caesarea, a participant, wrote a letter to his church explaining why he signed.",
-"place":"nicaea","loc":[29.7194,40.4292],"locName":"Nicaea (Iznik), Bithynia","locCertainty":"certain",
-"people":["constantine_i","arius","athanasius","ossius_of_cordoba","eusebius_of_caesarea","eusebius_of_nicomedia"],"polities":["rome"],
-"sources":[{"a":"Eusebius","w":"Life of Constantine","r":"3.6-22"},{"a":"Athanasius","w":"De Decretis","r":"19-20"},{"a":"Socrates Scholasticus","w":"Ecclesiastical History","r":"1.8-9"},{"a":"Canons","w":"Canons of Nicaea","r":"1-20"}],
-"scholarship":["Ayres, Nicaea and its Legacy (2004)","Hanson, The Search for the Christian Doctrine of God (1988)","Barnes, Constantine and Eusebius (1981)"],
-"debate":"Number of bishops, president, and the significance of homoousios at the time are debated; Athanasius' later accounts are partisan.","certainty":"certain","tags":["homoousios","Nicene Creed","Easter","ecumenical council"]},
-
-{"id":"execution_of_crispus_and_fausta_326","year":326,"title":"Execution of Crispus and death of Fausta","type":"assassination","cats":["political"],"importance":3,
-"summary":"In 326 Constantine had his eldest son Crispus, Caesar and victor of the Hellespont, executed at Pola in Istria; shortly afterwards the empress Fausta died, reportedly suffocated in an overheated bath.",
-"detail":"No contemporary source explains why. Later writers (Zosimus, Zonaras) tell of Fausta falsely accusing Crispus of seducing her, a Phaedra story; others suggest adultery between them, or Fausta's attempt to secure the succession for her own sons. Both were subjected to damnatio memoriae. Zosimus claims Constantine's guilt drove him to Christianity, a pagan polemic Sozomen explicitly refutes.",
-"place":"pola","loc":[13.85,44.87],"locName":"Pola (Pula), Istria (Crispus); Rome or court (Fausta)","locCertainty":"probable",
-"people":["crispus","fausta","constantine_i","helena"],"polities":["rome"],
-"sources":[{"a":"Zosimus","w":"New History","r":"2.29"},{"a":"Ammianus Marcellinus","w":"Res Gestae","r":"14.11.20"},{"a":"Epitome de Caesaribus","w":"Epitome de Caesaribus","r":"41.11-12"}],
-"scholarship":["Woods, 'On the death of the empress Fausta', G&R 45 (1998)","Barnes, Constantine (2011)"],
-"debate":"Motive unknown; Woods suggests Fausta died from a botched abortion in a hot bath.","certainty":"certain","tags":["dynastic murder","damnatio memoriae"]},
-
-{"id":"helenas_pilgrimage_and_holy_sepulchre","year":326,"endYear":335,"title":"Helena's pilgrimage and the Church of the Holy Sepulchre","type":"building","cats":["religious","cultural"],"importance":4,
-"summary":"Constantine ordered Bishop Macarius to demolish the Hadrianic temple over the supposed tomb of Christ in Jerusalem and build a basilica; his mother Helena toured the Holy Land in 326-328 founding churches at Bethlehem and on the Mount of Olives. The Holy Sepulchre was dedicated in September 335.",
-"detail":"The legend of Helena finding the True Cross is first attested in Ambrose's funeral oration for Theodosius (395), not in Eusebius. Constantine's building programme created the Christian Holy Land and the practice of pilgrimage (the Bordeaux Pilgrim's itinerary of 333 survives).",
-"place":"jerusalem","loc":[35.2297,31.7785],"locName":"Jerusalem (Aelia Capitolina)","locCertainty":"certain",
-"people":["helena","constantine_i","eusebius_of_caesarea"],"polities":["rome"],
-"sources":[{"a":"Eusebius","w":"Life of Constantine","r":"3.25-47"},{"a":"Ambrose","w":"De Obitu Theodosii","r":"40-48"},{"a":"Itinerarium Burdigalense","w":"Bordeaux Itinerary","r":"593-594"}],
-"scholarship":["Hunt, Holy Land Pilgrimage in the Later Roman Empire (1982)","Drijvers, Helena Augusta (1992)"],
-"certainty":"certain","tags":["True Cross","pilgrimage","Holy Land"]},
-
-{"id":"old_st_peters_basilica","year":319,"endYear":333,"title":"Old St Peter's Basilica begun","type":"building","cats":["religious","cultural"],"importance":3,
-"summary":"Constantine built a vast five-aisled basilica over the reputed tomb of the apostle Peter on the Vatican hill, levelling part of the hillside and burying a pagan necropolis to centre the building on the second-century aedicula.",
-"detail":"Excavations under the Vatican in 1940-1949 exposed the necropolis and the 'Tropaion of Gaius'. The basilica, about 120 m long, was a funerary hall and martyrium rather than a cathedral and stood until its demolition from 1506.",
-"place":"rome","loc":[12.4534,41.9022],"locName":"Vatican hill, Rome","locCertainty":"certain",
-"people":["constantine_i"],"polities":["rome"],
-"sources":[{"a":"Liber Pontificalis","w":"Life of Silvester","r":"34.16"}],
-"debate":"Start date (c. 319-322 or after 324) debated.","certainty":"probable","tags":["Vatican necropolis","martyrium"]},
-
-{"id":"danube_bridge_at_oescus_328","year":328,"month":7,"day":5,"title":"Constantine's Danube bridge at Oescus","type":"building","cats":["military"],"importance":2,
-"summary":"Constantine opened a bridge of about 2.4 km across the Danube between Oescus and Sucidava, the longest bridge of the ancient world, reasserting Roman power north of the river in the old Dacian lands.",
-"place":"oescus","loc":[24.45,43.72],"locName":"Oescus - Sucidava, lower Danube","locCertainty":"certain","war":"gothic_sarmatian_war_332_334",
-"people":["constantine_i"],"polities":["rome","thervingi"],
-"sources":[{"a":"Chronicon Paschale","w":"Chronicon Paschale","r":"a. 328"},{"a":"Aurelius Victor","w":"De Caesaribus","r":"41.18"}],
-"certainty":"probable","tags":["bridge","Dacia"]},
-
-{"id":"dedication_of_constantinople_330","year":330,"month":5,"day":11,"title":"Dedication of Constantinople","type":"founding","cats":["political","religious","cultural"],"importance":5,
-"summary":"On 11 May 330 the new city was formally dedicated with forty days of celebrations; the anniversary was marked annually in the Hippodrome by a procession of a gilded statue of Constantine holding a figure of the city's Tyche.",
-"detail":"Later legend added that the Palladium of Rome was buried under the porphyry column, with Christian relics. The dedication has traditionally been taken as the birth of the Byzantine Empire, although contemporaries saw the city as an imperial residence within a single Roman empire. Constantinople had perhaps 30,000-90,000 inhabitants by 337 and some 300,000-400,000 by 500.",
-"place":"constantinople","loc":[28.9714,41.0086],"locName":"Constantinople","locCertainty":"certain",
-"people":["constantine_i"],"polities":["rome"],
-"sources":[{"a":"Chronicon Paschale","w":"Chronicon Paschale","r":"a. 330"},{"a":"John Malalas","w":"Chronographia","r":"13.7-8"},{"a":"Zosimus","w":"New History","r":"2.30-31"}],
-"certainty":"certain","tags":["Byzantium","Tyche","Palladium"]},
-
-{"id":"constantine_army_reforms","year":312,"endYear":337,"title":"Constantine's military reorganisation","type":"reform","cats":["military","administrative"],"importance":4,
-"summary":"Constantine developed a permanent mobile field army (comitatenses) separate from the frontier forces (ripenses, later limitanei), created the commands of magister peditum and magister equitum, and stripped the praetorian prefects of military authority, turning them into the highest civil officials.",
-"detail":"Zosimus accuses Constantine of withdrawing troops from the frontiers into cities, softening them and exposing the borders. Modern scholars (Jones, Elton, Southern and Dixon) see the field army as an outgrowth of tetrarchic comitatus forces and Gallienus' cavalry, and doubt Zosimus' moralising. Germanic recruitment into the army and officer corps grew, and the new auxilia palatina units (Cornuti, Brachiati) took names and shield designs recorded in the Notitia Dignitatum.",
-"place":null,"loc":[28.9784,41.0082],"locName":"Empire-wide","locCertainty":"approx",
-"people":["constantine_i"],"polities":["rome"],
-"sources":[{"a":"Zosimus","w":"New History","r":"2.33-34"},{"a":"Notitia Dignitatum","w":"Notitia Dignitatum","r":"Or. and Occ., later reflection"}],
-"scholarship":["Jones, The Later Roman Empire (1964)","Elton, Warfare in Roman Europe AD 350-425 (1996)","Southern and Dixon, The Late Roman Army (1996)"],
-"debate":"Dating of the comitatenses/limitanei division and Zosimus' hostile interpretation.","certainty":"probable","tags":["comitatenses","limitanei","magister militum"]},
-
-{"id":"temple_treasures_and_chrysargyron","year":326,"endYear":337,"title":"Confiscation of temple treasures and the chrysargyron","type":"economic","cats":["economic","religious"],"importance":3,
-"summary":"After 324 Constantine's agents stripped temples of gold and silver, bronze doors and cult statues, funding the new gold coinage and Constantinople, and he introduced the collatio lustralis (chrysargyron), a tax on merchants and craftsmen paid every five years, and the collatio glebalis on senators.",
-"detail":"The anonymous author of De Rebus Bellicis links the temple gold to the debasement of social values, saying it swelled the houses of the powerful while the poor suffered. Libanius and Zosimus attack the chrysargyron as falling cruelly on the poor; it was abolished by Anastasius in 498.",
-"place":null,"loc":[28.9784,41.0082],"locName":"Eastern provinces","locCertainty":"approx",
-"people":["constantine_i"],"polities":["rome"],
-"sources":[{"a":"Eusebius","w":"Life of Constantine","r":"3.54-58"},{"a":"Zosimus","w":"New History","r":"2.38"},{"a":"Anonymous","w":"De Rebus Bellicis","r":"2.1-2"}],
-"certainty":"probable","tags":["chrysargyron","taxation","temples"]},
-
-{"id":"law_binding_coloni_332","year":332,"month":10,"day":30,"title":"Constantine's law on fugitive coloni","type":"law","cats":["law","social","economic"],"importance":3,
-"summary":"A law of 30 October 332 ordered that a colonus found on another's land be returned to the estate of his origin, and permitted fugitive coloni to be chained like slaves, a key text in the history of the 'tied colonate'.",
-"detail":"Older scholarship saw the beginning of serfdom here. Since the 1980s (Carrié, Sirks, Grey) the colonate has been reinterpreted as a fiscal device for registering tax liability rather than a uniform legal status binding peasants to the soil.",
-"place":null,"loc":[28.9784,41.0082],"locName":"Empire","locCertainty":"approx",
-"people":["constantine_i"],"polities":["rome"],
-"sources":[{"a":"Codex Theodosianus","w":"Codex Theodosianus","r":"5.17.1"}],
-"scholarship":["Carrié, 'Le colonat du Bas-Empire: un mythe historiographique?', Opus 1 (1982)","Grey, 'Contextualizing colonatus', JRS 97 (2007)","Sirks, 'The colonate in Justinian's reign', JRS 98 (2008)"],
-"debate":"Meaning of the colonate (proto-serfdom vs fiscal registration).","certainty":"certain","tags":["colonate","coloni"]},
-
-{"id":"gothic_treaty_332","year":332,"month":4,"day":20,"title":"Constantine's Gothic war and treaty","type":"treaty","cats":["military","diplomatic"],"importance":3,
-"summary":"Intervening for the Sarmatians against the Tervingi, Constantine's son Constantine II won a great victory on 20 April 332, said to have killed 100,000 Goths through hunger and cold; the ensuing treaty made the Tervingi allies who supplied troops in return for subsidies and trading rights.",
-"detail":"The treaty, whose exact terms are disputed (whether the Goths became foederati in the later sense), kept the lower Danube quiet for a generation and fostered Gothic Christianisation and Romanisation; the son of the Gothic king Ariaric was sent as a hostage to Constantinople.",
-"place":null,"loc":[26.0,44.4],"locName":"North of the lower Danube","locCertainty":"approx","war":"gothic_sarmatian_war_332_334",
-"people":["constantine_ii","constantine_i"],"polities":["rome","thervingi","sarmatians"],
-"sources":[{"a":"Origo Constantini (Anonymus Valesianus)","w":"Pars prior","r":"6.31"},{"a":"Eusebius","w":"Life of Constantine","r":"4.5-6"},{"a":"Consularia Constantinopolitana","w":"Consularia","r":"a. 332"}],
-"scholarship":["Heather, Goths and Romans 332-489 (1991)","Kulikowski, Rome's Gothic Wars (2007)"],
-"debate":"Nature of the foedus of 332 (equal alliance or subjection) is debated.","certainty":"probable","tags":["foederati","Tervingi"]},
-
-{"id":"sarmatian_settlement_334","year":334,"title":"Settlement of 300,000 Sarmatians","type":"migration","cats":["social","military"],"importance":2,
-"summary":"When the Sarmatian 'Argaragantes' were overthrown by their armed slaves (the Limigantes), Constantine received more than 300,000 Sarmatian refugees and distributed them across Thrace, Scythia, Macedonia and Italy.",
-"place":null,"loc":[20.5,45.5],"locName":"Banat (Sarmatian lands) to Balkan provinces","locCertainty":"approx","war":"gothic_sarmatian_war_332_334",
-"people":["constantine_i"],"polities":["rome","sarmatians"],
-"sources":[{"a":"Origo Constantini (Anonymus Valesianus)","w":"Pars prior","r":"6.32"},{"a":"Eusebius","w":"Life of Constantine","r":"4.6"},{"a":"Ammianus Marcellinus","w":"Res Gestae","r":"17.12.17-19"}],
-"debate":"The figure of 300,000 is suspect.","certainty":"probable","tags":["Limigantes","resettlement"]},
-
-{"id":"council_of_tyre_335","year":335,"title":"Council of Tyre and the first exile of Athanasius","type":"religious","cats":["religious","political"],"importance":3,
-"summary":"A council at Tyre, dominated by Eusebius of Nicomedia's allies, tried Athanasius of Alexandria on charges including violence against Melitian clergy, the breaking of a chalice and the murder of Bishop Arsenius (who was produced alive); Athanasius fled to Constantinople and Constantine exiled him to Trier after he was accused of threatening the Alexandrian grain fleet.",
-"detail":"Athanasius would be exiled five times under four emperors (335-337, 339-346, 356-362, 362-363, 365-366), and his polemical writings shaped the later picture of an 'Arian' conspiracy.",
-"place":"tyre","loc":[35.1939,33.2705],"locName":"Tyre, Phoenicia","locCertainty":"certain",
-"people":["athanasius","eusebius_of_nicomedia","constantine_i","eusebius_of_caesarea"],"polities":["rome"],
-"sources":[{"a":"Athanasius","w":"Apologia contra Arianos","r":"71-87"},{"a":"Socrates Scholasticus","w":"Ecclesiastical History","r":"1.28-35"},{"a":"Eusebius","w":"Life of Constantine","r":"4.41-42"}],
-"scholarship":["Barnes, Athanasius and Constantius (1993)"],
-"certainty":"certain","tags":["Athanasius","Melitians"]},
-
-{"id":"death_of_arius_336","year":336,"title":"Death of Arius at Constantinople","type":"death","cats":["religious"],"importance":2,
-"summary":"On the eve of his planned readmission to communion at Constantinople, Arius died suddenly in a public latrine; his opponents (Athanasius, Socrates) saw divine judgement, comparing his end to Judas' bursting asunder.",
-"place":"constantinople","loc":[28.9784,41.0082],"locName":"Constantinople","locCertainty":"certain",
-"people":["arius","athanasius"],"polities":["rome"],
-"sources":[{"a":"Athanasius","w":"Epistula ad Serapionem de morte Arii","r":"2-4"},{"a":"Socrates Scholasticus","w":"Ecclesiastical History","r":"1.38"}],
-"debate":"Poisoning has been suspected; the account is polemical.","certainty":"probable","tags":[]},
-
-{"id":"death_of_constantine_337","year":337,"month":5,"day":22,"title":"Baptism and death of Constantine","type":"death","cats":["political","religious"],"importance":5,
-"summary":"Preparing a war against Shapur II, Constantine fell ill, was baptised by Eusebius of Nicomedia at the villa of Achyron near Nicomedia, and died at Pentecost, 22 May 337, aged about 65; he was buried in the Church of the Holy Apostles in Constantinople amid cenotaphs of the twelve apostles.",
-"detail":"Deathbed baptism was common for those holding power that involved bloodshed. Constantine was deified by the Roman Senate as divus with a coin showing him ascending to heaven in a chariot, while the Church called him isapostolos, 'equal to the apostles'. No successor was named Augustus for over three months, during which a purge of the family took place.",
-"place":"nicomedia","loc":[29.85,40.75],"locName":"Achyron (Ancyrona), near Nicomedia","locCertainty":"approx","war":"persian_war_337_361",
-"people":["constantine_i","eusebius_of_nicomedia","shapur_ii"],"polities":["rome"],
-"sources":[{"a":"Eusebius","w":"Life of Constantine","r":"4.61-73"},{"a":"Origo Constantini (Anonymus Valesianus)","w":"Pars prior","r":"6.35"},{"a":"Eutropius","w":"Breviarium","r":"10.8"}],
-"certainty":"certain","tags":["deathbed baptism","Holy Apostles","isapostolos"]}
-]}
+{
+ "events": [
+  {
+   "id": "battle_of_turin_312",
+   "year": 312,
+   "title": "Battle of Turin",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "After storming Segusio at the foot of the Alps, Constantine met Maxentius' heavily armoured cavalry (clibanarii) on the plain west of Turin; his men opened ranks and clubbed the armoured riders down with iron-bound maces, and Turin shut its gates on the fleeing Maxentians.",
+   "place": "augusta_taurinorum",
+   "loc": [
+    7.6869,
+    45.0703
+   ],
+   "locName": "Near Augusta Taurinorum (Turin)",
+   "locCertainty": "approx",
+   "war": "civil_wars_of_the_tetrarchy",
+   "campaign": "constantine_italy_312",
+   "people": [
+    "constantine_i",
+    "maxentius"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "faction": "Constantine",
+      "commanders": [
+       "constantine_i"
+      ],
+      "strength": "perhaps 40,000 (panegyric of 313 says under a quarter of his army, c. 25,000-40,000)",
+      "losses": "light"
+     },
+     {
+      "polity": "rome",
+      "faction": "Maxentius",
+      "commanders": [],
+      "strength": "northern Italian army with clibanarii",
+      "losses": "heavy"
+     }
+    ],
+    "victor": "rome",
+    "victorFaction": "Constantine",
+    "kind": "field",
+    "significance": "Opened the Po valley; Milan welcomed Constantine."
+   },
+   "sources": [
+    {
+     "a": "Panegyrici Latini",
+     "w": "Panegyric 12(9) of 313",
+     "r": "5-6"
+    },
+    {
+     "a": "Panegyrici Latini",
+     "w": "Panegyric 4(10) of 321 (Nazarius)",
+     "r": "22-24"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "clibanarii",
+    "cataphracts"
+   ]
+  },
+  {
+   "id": "siege_of_verona_312",
+   "year": 312,
+   "title": "Siege and battle of Verona",
+   "type": "siege",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "Constantine besieged Verona, held by Maxentius' praetorian prefect Ruricius Pompeianus, who broke out to bring a relief army; Constantine defeated and killed him in a night battle, after which Verona and Aquileia surrendered.",
+   "detail": "The panegyrist of 313 records that Constantine fought in person and was rebuked by his officers for risking himself, and that the captured Maxentian soldiers were chained with fetters made from their own swords.",
+   "place": "verona",
+   "loc": [
+    10.9916,
+    45.4384
+   ],
+   "locName": "Verona",
+   "locCertainty": "certain",
+   "war": "civil_wars_of_the_tetrarchy",
+   "campaign": "constantine_italy_312",
+   "people": [
+    "constantine_i",
+    "ruricius_pompeianus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "faction": "Constantine",
+      "commanders": [
+       "constantine_i"
+      ],
+      "strength": "field army",
+      "losses": "unknown"
+     },
+     {
+      "polity": "rome",
+      "faction": "Maxentius",
+      "commanders": [
+       "ruricius_pompeianus"
+      ],
+      "strength": "garrison and relief force",
+      "losses": "Pompeianus killed; garrison captured"
+     }
+    ],
+    "victor": "rome",
+    "victorFaction": "Constantine",
+    "kind": "siege",
+    "significance": "Destroyed Maxentius' northern army, leaving Rome exposed."
+   },
+   "sources": [
+    {
+     "a": "Panegyrici Latini",
+     "w": "Panegyric 12(9) of 313",
+     "r": "8-10"
+    }
+   ],
+   "certainty": "certain",
+   "tags": []
+  },
+  {
+   "id": "vision_of_constantine_312",
+   "year": 312,
+   "month": 10,
+   "title": "Constantine's vision and the Christian sign",
+   "type": "religious",
+   "cats": [
+    "religious",
+    "political"
+   ],
+   "importance": 5,
+   "summary": "Before the battle against Maxentius, Constantine was, according to Lactantius, told in a dream to mark 'the heavenly sign of God' on his soldiers' shields; Eusebius, writing after Constantine's death and claiming the emperor's own sworn account, describes a cross of light in the sky with the words 'by this conquer' (touto nika) followed by a dream and the making of the labarum.",
+   "detail": "The two Christian accounts differ in timing, content and the sign (a staurogram or chi-rho). Neither panegyrist of 313 nor of 321 mentions Christ. Modern explanations range from a genuine religious experience to a solar halo seen in 310 and reinterpreted (Weiss), to retrospective propaganda. What is not in doubt is that from 312 Constantine favoured the Church: restitution of property, exemption of clergy from curial duties (313), grants to bishops and building the Lateran basilica. The chi-rho appears on Constantine's helmet on a silver medallion from Ticinum of c. 315.",
+   "place": "rome",
+   "loc": [
+    12.47,
+    41.95
+   ],
+   "locName": "Before Rome",
+   "locCertainty": "approx",
+   "war": "civil_wars_of_the_tetrarchy",
+   "people": [
+    "constantine_i",
+    "lactantius",
+    "eusebius_of_caesarea"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Lactantius",
+     "w": "De Mortibus Persecutorum",
+     "r": "44.5-6"
+    },
+    {
+     "a": "Eusebius",
+     "w": "Life of Constantine",
+     "r": "1.27-32"
+    },
+    {
+     "a": "Eusebius",
+     "w": "Ecclesiastical History",
+     "r": "9.9"
+    }
+   ],
+   "scholarship": [
+    "Barnes, Constantine: Dynasty, Religion and Power (2011)",
+    "Weiss, JRA 16 (2003)",
+    "Van Dam, Remembering Constantine at the Milvian Bridge (2011)",
+    "Lenski (ed.), Cambridge Companion to the Age of Constantine (2006/2012)"
+   ],
+   "debate": "Lactantius and Eusebius are partisan; their versions are inconsistent. The sincerity and timing of Constantine's conversion are among the most contested questions in Roman history.",
+   "certainty": "disputed",
+   "tags": [
+    "chi-rho",
+    "labarum",
+    "in hoc signo vinces",
+    "conversion"
+   ]
+  },
+  {
+   "id": "battle_of_the_milvian_bridge",
+   "year": 312,
+   "month": 10,
+   "day": 28,
+   "title": "Battle of the Milvian Bridge",
+   "type": "battle",
+   "cats": [
+    "military",
+    "political",
+    "religious"
+   ],
+   "importance": 5,
+   "summary": "On the sixth anniversary of his accession, Maxentius left the Aurelian Walls, crossed the Tiber on a pontoon bridge beside the cut Milvian Bridge and drew up with the river at his back near Saxa Rubra; Constantine's cavalry routed his wings, the army collapsed toward the river, the pontoon gave way and Maxentius drowned.",
+   "detail": "Lactantius says Maxentius had consulted the Sibylline Books, which foretold that 'the enemy of the Romans' would die that day. His body was recovered and his head paraded through Rome on a spear and sent to Africa. The Praetorians, who had fought hardest, were disbanded and their camp demolished. Constantine entered Rome on 29 October but, notably, apparently did not climb the Capitol to sacrifice to Jupiter (a much-debated silence). The Senate voted him the senior Augustan title and an arch. The battle became the founding myth of Christian empire.",
+   "place": "milvian_bridge",
+   "loc": [
+    12.4672,
+    41.9356
+   ],
+   "locName": "Milvian Bridge and Saxa Rubra, north of Rome",
+   "locCertainty": "certain",
+   "war": "civil_wars_of_the_tetrarchy",
+   "campaign": "constantine_italy_312",
+   "people": [
+    "constantine_i",
+    "maxentius"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "faction": "Constantine",
+      "commanders": [
+       "constantine_i"
+      ],
+      "strength": "c. 40,000 (modern estimate); Zosimus claims 90,000 foot, 8,000 horse",
+      "losses": "light"
+     },
+     {
+      "polity": "rome",
+      "faction": "Maxentius",
+      "commanders": [
+       "maxentius"
+      ],
+      "strength": "Zosimus claims 170,000 foot, 18,000 horse (impossible); Praetorians, Italian and African troops",
+      "losses": "heavy; Maxentius drowned"
+     }
+    ],
+    "victor": "rome",
+    "victorFaction": "Constantine",
+    "kind": "field",
+    "significance": "Gave Constantine the West and Rome; traditionally the turning point toward a Christian empire."
+   },
+   "sources": [
+    {
+     "a": "Lactantius",
+     "w": "De Mortibus Persecutorum",
+     "r": "44"
+    },
+    {
+     "a": "Eusebius",
+     "w": "Ecclesiastical History",
+     "r": "9.9.2-11"
+    },
+    {
+     "a": "Panegyrici Latini",
+     "w": "Panegyric 12(9) of 313",
+     "r": "16-18"
+    },
+    {
+     "a": "Zosimus",
+     "w": "New History",
+     "r": "2.15-16"
+    },
+    {
+     "a": "Origo Constantini (Anonymus Valesianus)",
+     "w": "Pars prior",
+     "r": "4.12"
+    }
+   ],
+   "scholarship": [
+    "Van Dam, Remembering Constantine at the Milvian Bridge (2011)",
+    "Barnes, Constantine (2011)",
+    "Potter, Constantine the Emperor (2013)"
+   ],
+   "debate": "Zosimus' numbers are fantastical; the precise topography (Saxa Rubra vs the bridge itself) and the Sibylline story are uncertain. Eusebius compares the drowning to Pharaoh in the Red Sea.",
+   "certainty": "certain",
+   "tags": [
+    "Saxa Rubra",
+    "Sibylline Books",
+    "Maxentius"
+   ]
+  },
+  {
+   "id": "praetorian_guard_abolished_312",
+   "year": 312,
+   "title": "Abolition of the Praetorian Guard",
+   "type": "reform",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "Constantine dissolved the Praetorian cohorts and the equites singulares Augusti, who had fought for Maxentius, demolished the internal walls of the Castra Praetoria, and replaced them with the new scholae palatinae, cavalry guard regiments attached to the emperor's person.",
+   "detail": "The equites singulares' cemetery on the Via Labicana was built over by the basilica of Saints Marcellinus and Peter and the mausoleum of Helena, and their barracks on the Caelian by the Lateran basilica, a pointed reuse of the losers' property for Christian building.",
+   "place": "rome",
+   "loc": [
+    12.5035,
+    41.9055
+   ],
+   "locName": "Castra Praetoria, Rome",
+   "locCertainty": "certain",
+   "people": [
+    "constantine_i"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Aurelius Victor",
+     "w": "De Caesaribus",
+     "r": "40.25"
+    },
+    {
+     "a": "Zosimus",
+     "w": "New History",
+     "r": "2.17.2"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "scholae palatinae",
+    "equites singulares"
+   ]
+  },
+  {
+   "id": "lateran_basilica_founded",
+   "year": 312,
+   "endYear": 324,
+   "title": "Foundation of the Lateran Basilica",
+   "type": "building",
+   "cats": [
+    "religious",
+    "cultural"
+   ],
+   "importance": 3,
+   "summary": "Constantine gave the bishop of Rome the Lateran property and built the Basilica Constantiniana (later St John Lateran) over the barracks of the disbanded horse guard, a five-aisled basilica about 100 m long, the first great church of Rome and cathedral of its bishop.",
+   "detail": "The Liber Pontificalis lists its endowments of gold and silver fittings and estates. Constantine's churches in Rome were placed mostly on imperial land at the edges of the city (Lateran, St Peter's on the Vatican, St Paul's, the cemetery basilicas), leaving the monumental core to its traditional cults.",
+   "place": "rome",
+   "loc": [
+    12.5056,
+    41.8859
+   ],
+   "locName": "Lateran, Rome",
+   "locCertainty": "certain",
+   "people": [
+    "constantine_i"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "Life of Silvester",
+     "r": "34.9"
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Rome: Profile of a City (1980)",
+    "Krautheimer, Three Christian Capitals (1983)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "basilica",
+    "Christian topography"
+   ]
+  },
+  {
+   "id": "edict_of_milan_313",
+   "year": 313,
+   "month": 2,
+   "title": "The 'Edict of Milan'",
+   "type": "religious",
+   "cats": [
+    "religious",
+    "law",
+    "political"
+   ],
+   "importance": 5,
+   "summary": "Meeting at Milan in February 313, where Licinius married Constantine's half-sister Constantia, the two Augusti agreed on a policy of religious freedom for all and restoration of confiscated church property; the text survives as a letter issued by Licinius at Nicomedia on 13 June 313.",
+   "detail": "The document grants 'to Christians and to all others free power to follow the religion each one wishes, so that whatever divinity there is in the heavenly seat may be favourable to us'. Strictly it was not an edict and not issued at Milan; Lactantius gives the Latin text and Eusebius a Greek translation. It ended persecution in the East and established the principle of state restitution to the churches as corporate bodies.",
+   "place": "mediolanum",
+   "loc": [
+    9.19,
+    45.4642
+   ],
+   "locName": "Mediolanum (agreement); Nicomedia (letter posted)",
+   "locCertainty": "certain",
+   "people": [
+    "constantine_i",
+    "licinius",
+    "constantia"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Lactantius",
+     "w": "De Mortibus Persecutorum",
+     "r": "48"
+    },
+    {
+     "a": "Eusebius",
+     "w": "Ecclesiastical History",
+     "r": "10.5.2-14"
+    }
+   ],
+   "debate": "Its legal form (edict, rescript, letter) and whether Constantine had already issued a similar measure in the West are debated.",
+   "certainty": "certain",
+   "tags": [
+    "toleration",
+    "religious freedom"
+   ]
+  },
+  {
+   "id": "battle_of_tzirallum",
+   "year": 313,
+   "month": 4,
+   "day": 30,
+   "title": "Battle of Tzirallum (Campus Ergenus)",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "Maximinus Daia crossed into Europe and took Byzantium and Heraclea, but Licinius, with about 30,000 men against 70,000, defeated him on the Campus Ergenus near Tzirallum; Lactantius says an angel dictated a prayer to Licinius that his soldiers recited before battle.",
+   "place": "tzirallum",
+   "loc": [
+    27.8,
+    41.16
+   ],
+   "locName": "Campus Ergenus near Tzirallum (Çorlu), Thrace",
+   "locCertainty": "probable",
+   "war": "civil_wars_of_the_tetrarchy",
+   "campaign": "licinius_vs_maximinus_313",
+   "people": [
+    "licinius",
+    "maximinus_daia"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "faction": "Licinius",
+      "commanders": [
+       "licinius"
+      ],
+      "strength": "c. 30,000 (Lactantius)",
+      "losses": "light"
+     },
+     {
+      "polity": "rome",
+      "faction": "Maximinus",
+      "commanders": [
+       "maximinus_daia"
+      ],
+      "strength": "c. 70,000 (Lactantius)",
+      "losses": "heavy"
+     }
+    ],
+    "victor": "rome",
+    "victorFaction": "Licinius",
+    "kind": "field",
+    "significance": "Left the empire divided between two Augusti, Constantine and Licinius."
+   },
+   "sources": [
+    {
+     "a": "Lactantius",
+     "w": "De Mortibus Persecutorum",
+     "r": "45-47"
+    },
+    {
+     "a": "Eusebius",
+     "w": "Ecclesiastical History",
+     "r": "9.10"
+    }
+   ],
+   "debate": "Lactantius' numbers and angelic prayer are part of his providential narrative.",
+   "certainty": "certain",
+   "tags": [
+    "Lactantius"
+   ]
+  },
+  {
+   "id": "death_of_maximinus_daia_313",
+   "year": 313,
+   "title": "Death of Maximinus Daia at Tarsus",
+   "type": "death",
+   "cats": [
+    "political"
+   ],
+   "importance": 2,
+   "summary": "Fleeing to Asia Minor, Maximinus issued his own toleration edict and died at Tarsus in summer 313, of poison or disease; Licinius then killed his family and the families of Galerius, Severus and Diocletian, including Diocletian's widow Prisca and daughter Valeria.",
+   "place": "tarsus",
+   "loc": [
+    34.8959,
+    36.9177
+   ],
+   "locName": "Tarsus, Cilicia",
+   "locCertainty": "certain",
+   "war": "civil_wars_of_the_tetrarchy",
+   "people": [
+    "maximinus_daia",
+    "licinius"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Lactantius",
+     "w": "De Mortibus Persecutorum",
+     "r": "49-51"
+    },
+    {
+     "a": "Eusebius",
+     "w": "Ecclesiastical History",
+     "r": "9.10.13-15"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "death of persecutors"
+   ]
+  },
+  {
+   "id": "council_of_arles_314",
+   "year": 314,
+   "month": 8,
+   "title": "Council of Arles",
+   "type": "religious",
+   "cats": [
+    "religious"
+   ],
+   "importance": 3,
+   "summary": "Constantine summoned bishops from across the West, including three from Britain (York, London and probably Lincoln), to Arles to judge the Donatist appeal; they upheld Caecilian and issued canons, including one threatening excommunication for soldiers who threw down their arms in peacetime.",
+   "detail": "The first council called by an emperor, it set the pattern for Nicaea. The British bishops' signatures are the earliest firm evidence for an organised church in Britain.",
+   "place": "arelate",
+   "loc": [
+    4.6278,
+    43.6766
+   ],
+   "locName": "Arelate (Arles)",
+   "locCertainty": "certain",
+   "people": [
+    "constantine_i",
+    "donatus_magnus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Canons",
+     "w": "Canons of the Council of Arles (314)",
+     "r": "3, 8"
+    },
+    {
+     "a": "Optatus of Milevis",
+     "w": "Against the Donatists",
+     "r": "Appendix 4"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Donatism",
+    "British bishops"
+   ]
+  },
+  {
+   "id": "arch_of_constantine",
+   "year": 315,
+   "month": 7,
+   "title": "Arch of Constantine dedicated",
+   "type": "building",
+   "cats": [
+    "cultural",
+    "political"
+   ],
+   "importance": 3,
+   "summary": "For his decennalia in 315 the Senate dedicated a triple arch beside the Colosseum, celebrating victory over the 'tyrant' Maxentius; it reused reliefs from monuments of Trajan, Hadrian and Marcus Aurelius with heads recut as Constantine, together with a contemporary frieze of the campaign of 312.",
+   "detail": "Its inscription attributes the victory to 'instinctu divinitatis' (by the prompting of the divinity), a famously ambiguous phrase acceptable to pagans and Christians. The stylistic contrast between the second-century spolia and the squat Constantinian frieze is a textbook case in debates about 'decline' versus deliberate late antique aesthetics.",
+   "place": "rome",
+   "loc": [
+    12.4907,
+    41.8898
+   ],
+   "locName": "Next to the Colosseum, Rome",
+   "locCertainty": "certain",
+   "people": [
+    "constantine_i"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Inscriptions",
+     "w": "CIL VI 1139",
+     "r": ""
+    }
+   ],
+   "scholarship": [
+    "Elsner, 'From the culture of spolia to the cult of relics', PBSR 68 (2000)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "spolia",
+    "instinctu divinitatis"
+   ]
+  },
+  {
+   "id": "battle_of_cibalae",
+   "year": 316,
+   "month": 10,
+   "day": 8,
+   "title": "Battle of Cibalae",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "In the first war between Constantine and Licinius, Constantine with 20,000 men defeated Licinius' 35,000 in a day-long battle in the narrow ground between a hill and a marsh near Cibalae in Pannonia; Licinius retreated to Sirmium and then Thrace.",
+   "detail": "The war began after a failed plan to make Bassianus, husband of Constantine's half-sister Anastasia, Caesar of a buffer zone in Italy and Illyricum. Licinius raised his officer Valens as co-Augustus.",
+   "place": "cibalae",
+   "loc": [
+    18.8044,
+    45.2883
+   ],
+   "locName": "Cibalae (Vinkovci), Pannonia Secunda",
+   "locCertainty": "probable",
+   "war": "constantine_licinius_wars",
+   "people": [
+    "constantine_i",
+    "licinius"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "faction": "Constantine",
+      "commanders": [
+       "constantine_i"
+      ],
+      "strength": "20,000 (Origo)",
+      "losses": "unknown"
+     },
+     {
+      "polity": "rome",
+      "faction": "Licinius",
+      "commanders": [
+       "licinius"
+      ],
+      "strength": "35,000 (Origo)",
+      "losses": "20,000 (Zosimus, exaggerated)"
+     }
+    ],
+    "victor": "rome",
+    "victorFaction": "Constantine",
+    "kind": "field",
+    "significance": "Constantine gained the initiative in the Balkans."
+   },
+   "sources": [
+    {
+     "a": "Origo Constantini (Anonymus Valesianus)",
+     "w": "Pars prior",
+     "r": "5.16"
+    },
+    {
+     "a": "Zosimus",
+     "w": "New History",
+     "r": "2.18"
+    }
+   ],
+   "debate": "Date 316 (now standard) vs older 314.",
+   "certainty": "certain",
+   "tags": []
+  },
+  {
+   "id": "battle_of_mardia",
+   "year": 316,
+   "title": "Battle of Mardia",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "Constantine and Licinius fought an indecisive battle at Campus Mardiensis in Thrace in late 316 or early 317; the peace concluded at Serdica gave Constantine all the Balkans except Thrace (the dioceses of Pannonia and Moesia).",
+   "detail": "Licinius' co-emperor Valens was deposed and executed as part of the settlement.",
+   "place": null,
+   "loc": [
+    25.9,
+    41.93
+   ],
+   "locName": "Campus Mardiensis, Thrace (perhaps near Harmanli)",
+   "locCertainty": "disputed",
+   "war": "constantine_licinius_wars",
+   "people": [
+    "constantine_i",
+    "licinius"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "faction": "Constantine",
+      "commanders": [
+       "constantine_i"
+      ],
+      "strength": "unknown",
+      "losses": "unknown"
+     },
+     {
+      "polity": "rome",
+      "faction": "Licinius",
+      "commanders": [
+       "licinius"
+      ],
+      "strength": "unknown",
+      "losses": "unknown"
+     }
+    ],
+    "victor": "indecisive",
+    "kind": "field",
+    "significance": "Led to a negotiated peace and redistribution of the Balkans."
+   },
+   "sources": [
+    {
+     "a": "Origo Constantini (Anonymus Valesianus)",
+     "w": "Pars prior",
+     "r": "5.17-18"
+    },
+    {
+     "a": "Zosimus",
+     "w": "New History",
+     "r": "2.19-20"
+    }
+   ],
+   "certainty": "probable",
+   "tags": []
+  },
+  {
+   "id": "caesars_of_317",
+   "year": 317,
+   "month": 3,
+   "day": 1,
+   "title": "Crispus, Constantine II and Licinius II made Caesars",
+   "type": "political",
+   "cats": [
+    "political"
+   ],
+   "importance": 2,
+   "summary": "At Serdica on 1 March 317 Constantine's sons Crispus (about 12-17) and the infant Constantine II and Licinius' infant son Licinius II were proclaimed Caesars, sealing the peace and establishing hereditary succession for both houses.",
+   "place": "serdica",
+   "loc": [
+    23.3219,
+    42.6977
+   ],
+   "locName": "Serdica",
+   "locCertainty": "certain",
+   "war": "constantine_licinius_wars",
+   "people": [
+    "crispus",
+    "constantine_ii",
+    "constantine_i",
+    "licinius"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Origo Constantini (Anonymus Valesianus)",
+     "w": "Pars prior",
+     "r": "5.19"
+    },
+    {
+     "a": "Zosimus",
+     "w": "New History",
+     "r": "2.20.2"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "dynasty"
+   ]
+  },
+  {
+   "id": "arian_controversy_begins",
+   "year": 318,
+   "title": "Arius and the beginning of the Arian controversy",
+   "type": "religious",
+   "cats": [
+    "religious"
+   ],
+   "importance": 4,
+   "summary": "Arius, presbyter of the Baucalis church in Alexandria, taught that the Son was created by the Father and that 'there was when he was not'; Bishop Alexander condemned him at a synod of about 100 Egyptian bishops, but Arius found support from Eusebius of Nicomedia and other Lucianist bishops in the East.",
+   "detail": "Arius set his teaching to popular songs (the Thalia), sung by sailors and millers. The dispute fused theology with rivalries between sees (Alexandria, Nicomedia, Antioch) and quickly became an imperial problem when Constantine gained the East in 324. 'Arianism' is a polemical label: many later 'Arians' had little to do with Arius, and modern scholars (Hanson, Williams, Ayres) prefer to speak of a fourth-century debate about the Trinity.",
+   "place": "alexandria",
+   "loc": [
+    29.9187,
+    31.2001
+   ],
+   "locName": "Alexandria",
+   "locCertainty": "certain",
+   "people": [
+    "arius",
+    "eusebius_of_nicomedia",
+    "athanasius"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Socrates Scholasticus",
+     "w": "Ecclesiastical History",
+     "r": "1.5-6"
+    },
+    {
+     "a": "Athanasius",
+     "w": "Orations against the Arians",
+     "r": "1.5-6"
+    },
+    {
+     "a": "Theodoret",
+     "w": "Ecclesiastical History",
+     "r": "1.2-4"
+    }
+   ],
+   "scholarship": [
+    "Hanson, The Search for the Christian Doctrine of God (1988)",
+    "Williams, Arius: Heresy and Tradition (1987/2001)",
+    "Ayres, Nicaea and its Legacy (2004)"
+   ],
+   "debate": "Start date 318 or 320/321.",
+   "certainty": "probable",
+   "tags": [
+    "Arianism",
+    "Thalia",
+    "Trinity"
+   ]
+  },
+  {
+   "id": "sunday_law_321",
+   "year": 321,
+   "month": 3,
+   "day": 7,
+   "title": "Constantine's law on the 'venerable day of the Sun'",
+   "type": "law",
+   "cats": [
+    "law",
+    "religious"
+   ],
+   "importance": 3,
+   "summary": "Constantine ordered that magistrates, city people and craftsmen rest on the 'venerable day of the Sun' (dies Solis), while allowing farmers to work; a July 321 law permitted manumissions and emancipations on that day.",
+   "detail": "The religiously neutral language (Sun, not Lord's day) suited both Christians and solar worshippers, and the law founded the Western legal tradition of Sunday rest.",
+   "place": null,
+   "loc": [
+    12.4924,
+    41.8902
+   ],
+   "locName": "Empire (Constantine's territories)",
+   "locCertainty": "approx",
+   "people": [
+    "constantine_i"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Codex Justinianus",
+     "w": "Codex",
+     "r": "3.12.2"
+    },
+    {
+     "a": "Codex Theodosianus",
+     "w": "Codex Theodosianus",
+     "r": "2.8.1"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Sunday",
+    "dies Solis"
+   ]
+  },
+  {
+   "id": "battle_of_adrianople_324",
+   "year": 324,
+   "month": 7,
+   "day": 3,
+   "title": "Battle of Adrianople (324)",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "Constantine, now openly fighting under the labarum, crossed the Hebrus with a small detachment upstream and fell on Licinius' fortified camp near Adrianople, winning a major victory; Licinius retreated to Byzantium.",
+   "detail": "Zosimus gives Licinius 150,000 foot and 15,000 horse against Constantine's 120,000 foot and 10,000 horse, figures much inflated. Constantine was wounded in the thigh. Eusebius presents the war as a crusade against Licinius' renewed harassment of Christians.",
+   "place": "hadrianopolis",
+   "loc": [
+    26.56,
+    41.7
+   ],
+   "locName": "On the Hebrus near Hadrianopolis (Edirne)",
+   "locCertainty": "approx",
+   "war": "constantine_licinius_wars",
+   "campaign": "constantine_vs_licinius_324",
+   "people": [
+    "constantine_i",
+    "licinius"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "faction": "Constantine",
+      "commanders": [
+       "constantine_i"
+      ],
+      "strength": "130,000 (Zosimus, inflated)",
+      "losses": "unknown"
+     },
+     {
+      "polity": "rome",
+      "faction": "Licinius",
+      "commanders": [
+       "licinius"
+      ],
+      "strength": "165,000 (Zosimus, inflated)",
+      "losses": "34,000 (Zosimus)"
+     }
+    ],
+    "victor": "rome",
+    "victorFaction": "Constantine",
+    "kind": "field",
+    "significance": "Drove Licinius out of Thrace."
+   },
+   "sources": [
+    {
+     "a": "Zosimus",
+     "w": "New History",
+     "r": "2.22"
+    },
+    {
+     "a": "Origo Constantini (Anonymus Valesianus)",
+     "w": "Pars prior",
+     "r": "5.24"
+    },
+    {
+     "a": "Eusebius",
+     "w": "Life of Constantine",
+     "r": "2.6-10"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "labarum"
+   ]
+  },
+  {
+   "id": "battle_of_the_hellespont_324",
+   "year": 324,
+   "month": 7,
+   "title": "Battle of the Hellespont",
+   "type": "naval",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "Crispus with Constantine's fleet of 200 smaller warships defeated Licinius' admiral Abantus (Amandus) with 350 triremes in the Hellespont over two days, a storm on the second day wrecking much of the enemy fleet.",
+   "detail": "The victory broke the blockade of the straits and allowed Constantine to supply the siege of Byzantium and ferry his army to Asia. It was the last major naval battle in the Mediterranean between Roman fleets until the fifth century.",
+   "place": null,
+   "loc": [
+    26.68,
+    40.375
+   ],
+   "locName": "Hellespont near Callipolis",
+   "locCertainty": "approx",
+   "war": "constantine_licinius_wars",
+   "campaign": "constantine_vs_licinius_324",
+   "people": [
+    "crispus",
+    "licinius"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "faction": "Constantine",
+      "commanders": [
+       "crispus"
+      ],
+      "strength": "200 thirty-oared ships (Zosimus)",
+      "losses": "light"
+     },
+     {
+      "polity": "rome",
+      "faction": "Licinius",
+      "commanders": [
+       "abantus"
+      ],
+      "strength": "350 triremes (Zosimus)",
+      "losses": "130 ships, 5,000 men (Zosimus)"
+     }
+    ],
+    "victor": "rome",
+    "victorFaction": "Constantine",
+    "kind": "naval",
+    "significance": "Opened the straits; prerequisite for Chrysopolis."
+   },
+   "sources": [
+    {
+     "a": "Zosimus",
+     "w": "New History",
+     "r": "2.23-24"
+    },
+    {
+     "a": "Origo Constantini (Anonymus Valesianus)",
+     "w": "Pars prior",
+     "r": "5.23"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "naval warfare"
+   ]
+  },
+  {
+   "id": "battle_of_chrysopolis",
+   "year": 324,
+   "month": 9,
+   "day": 18,
+   "title": "Battle of Chrysopolis",
+   "type": "battle",
+   "cats": [
+    "military",
+    "political"
+   ],
+   "importance": 4,
+   "summary": "Constantine crossed the Bosporus and crushed Licinius' army, reinforced by Gothic auxiliaries under Alica, at Chrysopolis opposite Byzantium; Licinius fled to Nicomedia and surrendered on the plea of his wife Constantia.",
+   "detail": "Licinius had proclaimed his magister officiorum Martinianus co-emperor. The victory reunited the empire under one ruler for the first time since 285; within weeks, on 8 November 324, Constantine marked out the new city on the site of Byzantium.",
+   "place": "chrysopolis",
+   "loc": [
+    29.0154,
+    41.0255
+   ],
+   "locName": "Chrysopolis (Üsküdar)",
+   "locCertainty": "certain",
+   "war": "constantine_licinius_wars",
+   "campaign": "constantine_vs_licinius_324",
+   "people": [
+    "constantine_i",
+    "licinius",
+    "constantia"
+   ],
+   "polities": [
+    "rome",
+    "goths"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "faction": "Constantine",
+      "commanders": [
+       "constantine_i"
+      ],
+      "strength": "field army",
+      "losses": "unknown"
+     },
+     {
+      "polity": "rome",
+      "faction": "Licinius",
+      "commanders": [
+       "licinius"
+      ],
+      "strength": "130,000 (Zosimus) incl. Gothic auxiliaries",
+      "losses": "very heavy; Zosimus says scarcely 30,000 of 130,000 escaped (exaggerated)"
+     }
+    ],
+    "victor": "rome",
+    "victorFaction": "Constantine",
+    "kind": "field",
+    "significance": "Made Constantine sole emperor; led to the foundation of Constantinople."
+   },
+   "sources": [
+    {
+     "a": "Zosimus",
+     "w": "New History",
+     "r": "2.26"
+    },
+    {
+     "a": "Origo Constantini (Anonymus Valesianus)",
+     "w": "Pars prior",
+     "r": "5.27-28"
+    },
+    {
+     "a": "Eusebius",
+     "w": "Life of Constantine",
+     "r": "2.16-18"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "reunification"
+   ]
+  },
+  {
+   "id": "execution_of_licinius_325",
+   "year": 325,
+   "title": "Execution of Licinius at Thessalonica",
+   "type": "death",
+   "cats": [
+    "political"
+   ],
+   "importance": 2,
+   "summary": "Spared at first and sent to Thessalonica, Licinius was executed in spring 325, accused of plotting with barbarians; his son Licinius II was killed in 326.",
+   "place": "thessalonica",
+   "loc": [
+    22.9444,
+    40.6401
+   ],
+   "locName": "Thessalonica",
+   "locCertainty": "certain",
+   "war": "constantine_licinius_wars",
+   "people": [
+    "licinius",
+    "constantine_i"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Origo Constantini (Anonymus Valesianus)",
+     "w": "Pars prior",
+     "r": "5.29"
+    },
+    {
+     "a": "Eutropius",
+     "w": "Breviarium",
+     "r": "10.6.1"
+    }
+   ],
+   "certainty": "certain",
+   "tags": []
+  },
+  {
+   "id": "foundation_of_constantinople_324",
+   "year": 324,
+   "month": 11,
+   "day": 8,
+   "title": "Foundation of Constantinople",
+   "type": "founding",
+   "cats": [
+    "political",
+    "cultural"
+   ],
+   "importance": 5,
+   "summary": "On 8 November 324 Constantine traced the boundary of a greatly enlarged city on the site of Byzantium, about four times its former size, as his eponymous residence and 'New Rome'.",
+   "detail": "The site commanded the Bosporus crossing between the Danube and Euphrates fronts. Philostorgius tells that Constantine walked the line with spear in hand and, asked how far he would go, replied 'until he who walks ahead of me stops'. Construction drew on spolia from across the East: the Serpent Column from Delphi, statues for the Baths of Zeuxippus, and a porphyry column in the oval Forum of Constantine topped by a statue of the emperor as Sol or Apollo. Whether Constantine intended a new capital, a Christian city, or another tetrarchic residence is debated; the city received a Senate (of lower rank until Constantius II) and free grain dole (80,000 rations) from 332.",
+   "place": "constantinople",
+   "loc": [
+    28.9784,
+    41.0082
+   ],
+   "locName": "Byzantium / Constantinople",
+   "locCertainty": "certain",
+   "people": [
+    "constantine_i"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Zosimus",
+     "w": "New History",
+     "r": "2.30-32"
+    },
+    {
+     "a": "Philostorgius",
+     "w": "Ecclesiastical History",
+     "r": "2.9"
+    },
+    {
+     "a": "Eusebius",
+     "w": "Life of Constantine",
+     "r": "3.48"
+    }
+   ],
+   "scholarship": [
+    "Dagron, Naissance d'une capitale (1974)",
+    "Krautheimer, Three Christian Capitals (1983)",
+    "Bassett, The Urban Image of Late Antique Constantinople (2004)"
+   ],
+   "debate": "Date of foundation 324 (standard) and the city's original character (Christian or not) disputed.",
+   "certainty": "certain",
+   "tags": [
+    "New Rome",
+    "Serpent Column",
+    "Forum of Constantine"
+   ]
+  },
+  {
+   "id": "council_of_nicaea",
+   "year": 325,
+   "month": 6,
+   "title": "First Council of Nicaea",
+   "type": "religious",
+   "cats": [
+    "religious",
+    "political"
+   ],
+   "importance": 5,
+   "summary": "Constantine convened some 250-300 bishops (later tradition: 318) at Nicaea in Bithynia, opening the council in person in the imperial palace; it condemned Arius, adopted a creed declaring the Son 'homoousios' (of the same substance) with the Father, set rules for the date of Easter and issued twenty canons.",
+   "detail": "Only two bishops, Secundus of Ptolemais and Theonas of Marmarica, refused to sign and were exiled with Arius; Eusebius of Nicomedia signed but balked at the anathemas. Ossius of Corduba probably presided. The canons regulated the ranks of Alexandria, Rome and Antioch (canon 6), honour for Jerusalem (7), readmission of Novatianists (8) and banned self-castrated clergy (1). The term homoousios, probably suggested by Ossius or the emperor himself, later became the rallying point of Nicene orthodoxy, but in 325 it was a compromise and its acceptance lasted only a few years. Eusebius of Caesarea, a participant, wrote a letter to his church explaining why he signed.",
+   "place": "nicaea",
+   "loc": [
+    29.7194,
+    40.4292
+   ],
+   "locName": "Nicaea (Iznik), Bithynia",
+   "locCertainty": "certain",
+   "people": [
+    "constantine_i",
+    "arius",
+    "athanasius",
+    "ossius_of_cordoba",
+    "eusebius_of_caesarea",
+    "eusebius_of_nicomedia"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Eusebius",
+     "w": "Life of Constantine",
+     "r": "3.6-22"
+    },
+    {
+     "a": "Athanasius",
+     "w": "De Decretis",
+     "r": "19-20"
+    },
+    {
+     "a": "Socrates Scholasticus",
+     "w": "Ecclesiastical History",
+     "r": "1.8-9"
+    },
+    {
+     "a": "Canons",
+     "w": "Canons of Nicaea",
+     "r": "1-20"
+    }
+   ],
+   "scholarship": [
+    "Ayres, Nicaea and its Legacy (2004)",
+    "Hanson, The Search for the Christian Doctrine of God (1988)",
+    "Barnes, Constantine and Eusebius (1981)"
+   ],
+   "debate": "Number of bishops, president, and the significance of homoousios at the time are debated; Athanasius' later accounts are partisan.",
+   "certainty": "certain",
+   "tags": [
+    "homoousios",
+    "Nicene Creed",
+    "Easter",
+    "ecumenical council"
+   ]
+  },
+  {
+   "id": "execution_of_crispus_and_fausta_326",
+   "year": 326,
+   "title": "Execution of Crispus and death of Fausta",
+   "type": "assassination",
+   "cats": [
+    "political"
+   ],
+   "importance": 3,
+   "summary": "In 326 Constantine had his eldest son Crispus, Caesar and victor of the Hellespont, executed at Pola in Istria; shortly afterwards the empress Fausta died, reportedly suffocated in an overheated bath.",
+   "detail": "No contemporary source explains why. Later writers (Zosimus, Zonaras) tell of Fausta falsely accusing Crispus of seducing her, a Phaedra story; others suggest adultery between them, or Fausta's attempt to secure the succession for her own sons. Both were subjected to damnatio memoriae. Zosimus claims Constantine's guilt drove him to Christianity, a pagan polemic Sozomen explicitly refutes.",
+   "place": "pola",
+   "loc": [
+    13.85,
+    44.87
+   ],
+   "locName": "Pola (Pula), Istria (Crispus); Rome or court (Fausta)",
+   "locCertainty": "probable",
+   "people": [
+    "crispus",
+    "fausta",
+    "constantine_i",
+    "helena"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Zosimus",
+     "w": "New History",
+     "r": "2.29"
+    },
+    {
+     "a": "Ammianus Marcellinus",
+     "w": "Res Gestae",
+     "r": "14.11.20"
+    },
+    {
+     "a": "Epitome de Caesaribus",
+     "w": "Epitome de Caesaribus",
+     "r": "41.11-12"
+    }
+   ],
+   "scholarship": [
+    "Woods, 'On the death of the empress Fausta', G&R 45 (1998)",
+    "Barnes, Constantine (2011)"
+   ],
+   "debate": "Motive unknown; Woods suggests Fausta died from a botched abortion in a hot bath.",
+   "certainty": "certain",
+   "tags": [
+    "dynastic murder",
+    "damnatio memoriae"
+   ]
+  },
+  {
+   "id": "helenas_pilgrimage_and_holy_sepulchre",
+   "year": 326,
+   "endYear": 335,
+   "title": "Helena's pilgrimage and the Church of the Holy Sepulchre",
+   "type": "building",
+   "cats": [
+    "religious",
+    "cultural"
+   ],
+   "importance": 4,
+   "summary": "Constantine ordered Bishop Macarius to demolish the Hadrianic temple over the supposed tomb of Christ in Jerusalem and build a basilica; his mother Helena toured the Holy Land in 326-328 founding churches at Bethlehem and on the Mount of Olives. The Holy Sepulchre was dedicated in September 335.",
+   "detail": "The legend of Helena finding the True Cross is first attested in Ambrose's funeral oration for Theodosius (395), not in Eusebius. Constantine's building programme created the Christian Holy Land and the practice of pilgrimage (the Bordeaux Pilgrim's itinerary of 333 survives).",
+   "place": "jerusalem",
+   "loc": [
+    35.2297,
+    31.7785
+   ],
+   "locName": "Jerusalem (Aelia Capitolina)",
+   "locCertainty": "certain",
+   "people": [
+    "helena",
+    "constantine_i",
+    "eusebius_of_caesarea"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Eusebius",
+     "w": "Life of Constantine",
+     "r": "3.25-47"
+    },
+    {
+     "a": "Ambrose",
+     "w": "De Obitu Theodosii",
+     "r": "40-48"
+    },
+    {
+     "a": "Itinerarium Burdigalense",
+     "w": "Bordeaux Itinerary",
+     "r": "593-594"
+    }
+   ],
+   "scholarship": [
+    "Hunt, Holy Land Pilgrimage in the Later Roman Empire (1982)",
+    "Drijvers, Helena Augusta (1992)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "True Cross",
+    "pilgrimage",
+    "Holy Land"
+   ]
+  },
+  {
+   "id": "old_st_peters_basilica",
+   "year": 319,
+   "endYear": 333,
+   "title": "Old St Peter's Basilica begun",
+   "type": "building",
+   "cats": [
+    "religious",
+    "cultural"
+   ],
+   "importance": 3,
+   "summary": "Constantine built a vast five-aisled basilica over the reputed tomb of the apostle Peter on the Vatican hill, levelling part of the hillside and burying a pagan necropolis to centre the building on the second-century aedicula.",
+   "detail": "Excavations under the Vatican in 1940-1949 exposed the necropolis and the 'Tropaion of Gaius'. The basilica, about 120 m long, was a funerary hall and martyrium rather than a cathedral and stood until its demolition from 1506.",
+   "place": "rome",
+   "loc": [
+    12.4534,
+    41.9022
+   ],
+   "locName": "Vatican hill, Rome",
+   "locCertainty": "certain",
+   "people": [
+    "constantine_i"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "Life of Silvester",
+     "r": "34.16"
+    }
+   ],
+   "debate": "Start date (c. 319-322 or after 324) debated.",
+   "certainty": "probable",
+   "tags": [
+    "Vatican necropolis",
+    "martyrium"
+   ]
+  },
+  {
+   "id": "danube_bridge_at_oescus_328",
+   "year": 328,
+   "month": 7,
+   "day": 5,
+   "title": "Constantine's Danube bridge at Oescus",
+   "type": "building",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "Constantine opened a bridge of about 2.4 km across the Danube between Oescus and Sucidava, the longest bridge of the ancient world, reasserting Roman power north of the river in the old Dacian lands.",
+   "place": "oescus",
+   "loc": [
+    24.45,
+    43.72
+   ],
+   "locName": "Oescus - Sucidava, lower Danube",
+   "locCertainty": "certain",
+   "war": "gothic_sarmatian_war_332_334",
+   "people": [
+    "constantine_i"
+   ],
+   "polities": [
+    "rome",
+    "thervingi"
+   ],
+   "sources": [
+    {
+     "a": "Chronicon Paschale",
+     "w": "Chronicon Paschale",
+     "r": "a. 328"
+    },
+    {
+     "a": "Aurelius Victor",
+     "w": "De Caesaribus",
+     "r": "41.18"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "bridge",
+    "Dacia"
+   ]
+  },
+  {
+   "id": "dedication_of_constantinople_330",
+   "year": 330,
+   "month": 5,
+   "day": 11,
+   "title": "Dedication of Constantinople",
+   "type": "founding",
+   "cats": [
+    "political",
+    "religious",
+    "cultural"
+   ],
+   "importance": 5,
+   "summary": "On 11 May 330 the new city was formally dedicated with forty days of celebrations; the anniversary was marked annually in the Hippodrome by a procession of a gilded statue of Constantine holding a figure of the city's Tyche.",
+   "detail": "Later legend added that the Palladium of Rome was buried under the porphyry column, with Christian relics. The dedication has traditionally been taken as the birth of the Byzantine Empire, although contemporaries saw the city as an imperial residence within a single Roman empire. Constantinople had perhaps 30,000-90,000 inhabitants by 337 and some 300,000-400,000 by 500.",
+   "place": "constantinople",
+   "loc": [
+    28.9714,
+    41.0086
+   ],
+   "locName": "Constantinople",
+   "locCertainty": "certain",
+   "people": [
+    "constantine_i"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Chronicon Paschale",
+     "w": "Chronicon Paschale",
+     "r": "a. 330"
+    },
+    {
+     "a": "John Malalas",
+     "w": "Chronographia",
+     "r": "13.7-8"
+    },
+    {
+     "a": "Zosimus",
+     "w": "New History",
+     "r": "2.30-31"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Byzantium",
+    "Tyche",
+    "Palladium"
+   ]
+  },
+  {
+   "id": "constantine_army_reforms",
+   "year": 312,
+   "endYear": 337,
+   "title": "Constantine's military reorganisation",
+   "type": "reform",
+   "cats": [
+    "military",
+    "administrative"
+   ],
+   "importance": 4,
+   "summary": "Constantine developed a permanent mobile field army (comitatenses) separate from the frontier forces (ripenses, later limitanei), created the commands of magister peditum and magister equitum, and stripped the praetorian prefects of military authority, turning them into the highest civil officials.",
+   "detail": "Zosimus accuses Constantine of withdrawing troops from the frontiers into cities, softening them and exposing the borders. Modern scholars (Jones, Elton, Southern and Dixon) see the field army as an outgrowth of tetrarchic comitatus forces and Gallienus' cavalry, and doubt Zosimus' moralising. Germanic recruitment into the army and officer corps grew, and the new auxilia palatina units (Cornuti, Brachiati) took names and shield designs recorded in the Notitia Dignitatum.",
+   "place": null,
+   "loc": [
+    28.9784,
+    41.0082
+   ],
+   "locName": "Empire-wide",
+   "locCertainty": "approx",
+   "people": [
+    "constantine_i"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Zosimus",
+     "w": "New History",
+     "r": "2.33-34"
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "Notitia Dignitatum",
+     "r": "Or. and Occ., later reflection"
+    }
+   ],
+   "scholarship": [
+    "Jones, The Later Roman Empire (1964)",
+    "Elton, Warfare in Roman Europe AD 350-425 (1996)",
+    "Southern and Dixon, The Late Roman Army (1996)"
+   ],
+   "debate": "Dating of the comitatenses/limitanei division and Zosimus' hostile interpretation.",
+   "certainty": "probable",
+   "tags": [
+    "comitatenses",
+    "limitanei",
+    "magister militum"
+   ]
+  },
+  {
+   "id": "temple_treasures_and_chrysargyron",
+   "year": 326,
+   "endYear": 337,
+   "title": "Confiscation of temple treasures and the chrysargyron",
+   "type": "economic",
+   "cats": [
+    "economic",
+    "religious"
+   ],
+   "importance": 3,
+   "summary": "After 324 Constantine's agents stripped temples of gold and silver, bronze doors and cult statues, funding the new gold coinage and Constantinople, and he introduced the collatio lustralis (chrysargyron), a tax on merchants and craftsmen paid every five years, and the collatio glebalis on senators.",
+   "detail": "The anonymous author of De Rebus Bellicis links the temple gold to the debasement of social values, saying it swelled the houses of the powerful while the poor suffered. Libanius and Zosimus attack the chrysargyron as falling cruelly on the poor; it was abolished by Anastasius in 498.",
+   "place": null,
+   "loc": [
+    28.9784,
+    41.0082
+   ],
+   "locName": "Eastern provinces",
+   "locCertainty": "approx",
+   "people": [
+    "constantine_i"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Eusebius",
+     "w": "Life of Constantine",
+     "r": "3.54-58"
+    },
+    {
+     "a": "Zosimus",
+     "w": "New History",
+     "r": "2.38"
+    },
+    {
+     "a": "Anonymous",
+     "w": "De Rebus Bellicis",
+     "r": "2.1-2"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "chrysargyron",
+    "taxation",
+    "temples"
+   ]
+  },
+  {
+   "id": "law_binding_coloni_332",
+   "year": 332,
+   "month": 10,
+   "day": 30,
+   "title": "Constantine's law on fugitive coloni",
+   "type": "law",
+   "cats": [
+    "law",
+    "social",
+    "economic"
+   ],
+   "importance": 3,
+   "summary": "A law of 30 October 332 ordered that a colonus found on another's land be returned to the estate of his origin, and permitted fugitive coloni to be chained like slaves, a key text in the history of the 'tied colonate'.",
+   "detail": "Older scholarship saw the beginning of serfdom here. Since the 1980s (Carrié, Sirks, Grey) the colonate has been reinterpreted as a fiscal device for registering tax liability rather than a uniform legal status binding peasants to the soil.",
+   "place": null,
+   "loc": [
+    28.9784,
+    41.0082
+   ],
+   "locName": "Empire",
+   "locCertainty": "approx",
+   "people": [
+    "constantine_i"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Codex Theodosianus",
+     "w": "Codex Theodosianus",
+     "r": "5.17.1"
+    }
+   ],
+   "scholarship": [
+    "Carrié, 'Le colonat du Bas-Empire: un mythe historiographique?', Opus 1 (1982)",
+    "Grey, 'Contextualizing colonatus', JRS 97 (2007)",
+    "Sirks, 'The colonate in Justinian's reign', JRS 98 (2008)"
+   ],
+   "debate": "Meaning of the colonate (proto-serfdom vs fiscal registration).",
+   "certainty": "certain",
+   "tags": [
+    "colonate",
+    "coloni"
+   ]
+  },
+  {
+   "id": "gothic_treaty_332",
+   "year": 332,
+   "month": 4,
+   "day": 20,
+   "title": "Constantine's Gothic war and treaty",
+   "type": "treaty",
+   "cats": [
+    "military",
+    "diplomatic"
+   ],
+   "importance": 3,
+   "summary": "Intervening for the Sarmatians against the Tervingi, Constantine's son Constantine II won a great victory on 20 April 332, said to have killed 100,000 Goths through hunger and cold; the ensuing treaty made the Tervingi allies who supplied troops in return for subsidies and trading rights.",
+   "detail": "The treaty, whose exact terms are disputed (whether the Goths became foederati in the later sense), kept the lower Danube quiet for a generation and fostered Gothic Christianisation and Romanisation; the son of the Gothic king Ariaric was sent as a hostage to Constantinople.",
+   "place": null,
+   "loc": [
+    26.0,
+    44.4
+   ],
+   "locName": "North of the lower Danube",
+   "locCertainty": "approx",
+   "war": "gothic_sarmatian_war_332_334",
+   "people": [
+    "constantine_ii",
+    "constantine_i"
+   ],
+   "polities": [
+    "rome",
+    "thervingi",
+    "sarmatians"
+   ],
+   "sources": [
+    {
+     "a": "Origo Constantini (Anonymus Valesianus)",
+     "w": "Pars prior",
+     "r": "6.31"
+    },
+    {
+     "a": "Eusebius",
+     "w": "Life of Constantine",
+     "r": "4.5-6"
+    },
+    {
+     "a": "Consularia Constantinopolitana",
+     "w": "Consularia",
+     "r": "a. 332"
+    }
+   ],
+   "scholarship": [
+    "Heather, Goths and Romans 332-489 (1991)",
+    "Kulikowski, Rome's Gothic Wars (2007)"
+   ],
+   "debate": "Nature of the foedus of 332 (equal alliance or subjection) is debated.",
+   "certainty": "probable",
+   "tags": [
+    "foederati",
+    "Tervingi"
+   ]
+  },
+  {
+   "id": "sarmatian_settlement_334",
+   "year": 334,
+   "title": "Settlement of 300,000 Sarmatians",
+   "type": "migration",
+   "cats": [
+    "social",
+    "military"
+   ],
+   "importance": 2,
+   "summary": "When the Sarmatian 'Argaragantes' were overthrown by their armed slaves (the Limigantes), Constantine received more than 300,000 Sarmatian refugees and distributed them across Thrace, Scythia, Macedonia and Italy.",
+   "place": null,
+   "loc": [
+    20.5,
+    45.5
+   ],
+   "locName": "Banat (Sarmatian lands) to Balkan provinces",
+   "locCertainty": "approx",
+   "war": "gothic_sarmatian_war_332_334",
+   "people": [
+    "constantine_i"
+   ],
+   "polities": [
+    "rome",
+    "sarmatians"
+   ],
+   "sources": [
+    {
+     "a": "Origo Constantini (Anonymus Valesianus)",
+     "w": "Pars prior",
+     "r": "6.32"
+    },
+    {
+     "a": "Eusebius",
+     "w": "Life of Constantine",
+     "r": "4.6"
+    },
+    {
+     "a": "Ammianus Marcellinus",
+     "w": "Res Gestae",
+     "r": "17.12.17-19"
+    }
+   ],
+   "debate": "The figure of 300,000 is suspect.",
+   "certainty": "probable",
+   "tags": [
+    "Limigantes",
+    "resettlement"
+   ]
+  },
+  {
+   "id": "council_of_tyre_335",
+   "year": 335,
+   "title": "Council of Tyre and the first exile of Athanasius",
+   "type": "religious",
+   "cats": [
+    "religious",
+    "political"
+   ],
+   "importance": 3,
+   "summary": "A council at Tyre, dominated by Eusebius of Nicomedia's allies, tried Athanasius of Alexandria on charges including violence against Melitian clergy, the breaking of a chalice and the murder of Bishop Arsenius (who was produced alive); Athanasius fled to Constantinople and Constantine exiled him to Trier after he was accused of threatening the Alexandrian grain fleet.",
+   "detail": "Athanasius would be exiled five times under four emperors (335-337, 339-346, 356-362, 362-363, 365-366), and his polemical writings shaped the later picture of an 'Arian' conspiracy.",
+   "place": "tyre",
+   "loc": [
+    35.1939,
+    33.2705
+   ],
+   "locName": "Tyre, Phoenicia",
+   "locCertainty": "certain",
+   "people": [
+    "athanasius",
+    "eusebius_of_nicomedia",
+    "constantine_i",
+    "eusebius_of_caesarea"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Athanasius",
+     "w": "Apologia contra Arianos",
+     "r": "71-87"
+    },
+    {
+     "a": "Socrates Scholasticus",
+     "w": "Ecclesiastical History",
+     "r": "1.28-35"
+    },
+    {
+     "a": "Eusebius",
+     "w": "Life of Constantine",
+     "r": "4.41-42"
+    }
+   ],
+   "scholarship": [
+    "Barnes, Athanasius and Constantius (1993)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Athanasius",
+    "Melitians"
+   ]
+  },
+  {
+   "id": "death_of_arius_336",
+   "year": 336,
+   "title": "Death of Arius at Constantinople",
+   "type": "death",
+   "cats": [
+    "religious"
+   ],
+   "importance": 2,
+   "summary": "On the eve of his planned readmission to communion at Constantinople, Arius died suddenly in a public latrine; his opponents (Athanasius, Socrates) saw divine judgement, comparing his end to Judas' bursting asunder.",
+   "place": "constantinople",
+   "loc": [
+    28.9784,
+    41.0082
+   ],
+   "locName": "Constantinople",
+   "locCertainty": "certain",
+   "people": [
+    "arius",
+    "athanasius"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Athanasius",
+     "w": "Epistula ad Serapionem de morte Arii",
+     "r": "2-4"
+    },
+    {
+     "a": "Socrates Scholasticus",
+     "w": "Ecclesiastical History",
+     "r": "1.38"
+    }
+   ],
+   "debate": "Poisoning has been suspected; the account is polemical.",
+   "certainty": "probable",
+   "tags": []
+  },
+  {
+   "id": "death_of_constantine_337",
+   "year": 337,
+   "month": 5,
+   "day": 22,
+   "title": "Baptism and death of Constantine",
+   "type": "death",
+   "cats": [
+    "political",
+    "religious"
+   ],
+   "importance": 5,
+   "summary": "Preparing a war against Shapur II, Constantine fell ill, was baptised by Eusebius of Nicomedia at the villa of Achyron near Nicomedia, and died at Pentecost, 22 May 337, aged about 65; he was buried in the Church of the Holy Apostles in Constantinople amid cenotaphs of the twelve apostles.",
+   "detail": "Deathbed baptism was common for those holding power that involved bloodshed. Constantine was deified by the Roman Senate as divus with a coin showing him ascending to heaven in a chariot, while the Church called him isapostolos, 'equal to the apostles'. No successor was named Augustus for over three months, during which a purge of the family took place.",
+   "place": "nicomedia",
+   "loc": [
+    29.85,
+    40.75
+   ],
+   "locName": "Achyron (Ancyrona), near Nicomedia",
+   "locCertainty": "approx",
+   "war": "persian_war_337_361",
+   "people": [
+    "constantine_i",
+    "eusebius_of_nicomedia",
+    "shapur_ii"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Eusebius",
+     "w": "Life of Constantine",
+     "r": "4.61-73"
+    },
+    {
+     "a": "Origo Constantini (Anonymus Valesianus)",
+     "w": "Pars prior",
+     "r": "6.35"
+    },
+    {
+     "a": "Eutropius",
+     "w": "Breviarium",
+     "r": "10.8"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "deathbed baptism",
+    "Holy Apostles",
+    "isapostolos"
+   ]
+  }
+ ]
+}
