@@ -26,7 +26,11 @@ export function openId(id, kind) {
   if (r.kind === 'event') setYear(r.obj.year);
 }
 
-function close() { box().hidden = true; box().innerHTML = ''; stopMarch(); document.getElementById('march').hidden = true; }
+let collapsedPanel = false;
+function close() {
+  document.getElementById('legend').style.display = '';
+  if (collapsedPanel) { document.getElementById('app').classList.remove('panel-closed'); collapsedPanel = false; }
+  box().hidden = true; box().innerHTML = ''; stopMarch(); document.getElementById('march').hidden = true; }
 
 function action(act, ds) {
   const sel = S.selected;
@@ -47,10 +51,11 @@ function action(act, ds) {
 function startMarch(c) {
   const panel = document.getElementById('march');
   panel.hidden = false;
+  document.getElementById('legend').style.display = 'none';
   const pts = (c.path || []).filter((p) => Array.isArray(p.loc));
   panel.innerHTML = `<h4>${esc(c.name)}</h4><div class="mc-step" id="mcStep">Setting out</div><div class="mc-bar"><i id="mcBar"></i></div>
     <div class="mc-ctl"><button id="mcReplay">Replay</button><button id="mcClose">Close</button></div>`;
-  panel.querySelector('#mcClose').onclick = () => { stopMarch(); panel.hidden = true; };
+  panel.querySelector('#mcClose').onclick = () => { stopMarch(); panel.hidden = true; document.getElementById('legend').style.display = ''; };
   panel.querySelector('#mcReplay').onclick = () => startMarch(c);
   playMarch(c, (i, p, n) => {
     if (i < 0) { panel.querySelector('#mcStep').innerHTML += ' <span class="muted">(end)</span>'; return; }
@@ -240,5 +245,7 @@ function render(sel) {
   b.innerHTML = R[r.kind](r.obj);
   b.hidden = false;
   b.scrollTop = 0;
+  const app = document.getElementById('app');
+  if (window.innerWidth > 760 && window.innerWidth < 1700 && !app.classList.contains('panel-closed')) { app.classList.add('panel-closed'); collapsedPanel = true; setTimeout(() => window.dispatchEvent(new Event('resize')), 50); }
   document.title = `${nameOf(sel.id, r.kind)} · Orbis`;
 }

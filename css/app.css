@@ -186,7 +186,7 @@ a { color: var(--porphyry); }
 .layers-pop label { display: flex; align-items: center; gap: 8px; padding: 3px 0; }
 .layers-pop .lp-note { color: var(--ink-3); font-size: 12px; margin-left: auto; }
 
-.march { position: absolute; right: 16px; bottom: 16px; z-index: 6; width: 330px; background: var(--marble); border-radius: var(--radius-m); box-shadow: 0 12px 34px rgba(10,20,30,.35); padding: 12px 14px; }
+.march { position: absolute; left: 16px; bottom: 16px; z-index: 7; width: 330px; background: var(--marble); border-radius: var(--radius-m); box-shadow: 0 12px 34px rgba(10,20,30,.35); padding: 12px 14px; }
 .march h4 { margin: 0; font-size: 16px; }
 .march .mc-step { font-size: 14px; margin: 8px 0; min-height: 3.2em; }
 .march .mc-bar { height: 3px; background: var(--marble-3); border-radius: 2px; overflow: hidden; }
