@@ -318,6 +318,7 @@ def main():
     chapters.sort(key=lambda c: (year(c.get('from')) or 0, year(c.get('to')) or 0))
 
     # ---- patches, then corrections
+    REPLACED = {}
     lists = {'event': evs, 'person': people, 'war': wars, 'campaign': camps, 'place': places, 'legion': legions,
              'polity': pols, 'glossary': glossary, 'source': sources, 'frontier': frontiers, 'road': roads}
     index = {k: {o.get('id'): o for o in v} for k, v in lists.items()}
@@ -337,6 +338,13 @@ def main():
             o = index.get(k, {}).get(pt.get('id'))
             if not o:
                 warn(f'{label}: target missing', f"{k}:{pt.get('id')}")
+                continue
+            if pt.get('delete'):
+                lst = lists[k]
+                lst.remove(o)
+                if pt.get('replacedBy'):
+                    REPLACED[pt['id']] = pt['replacedBy']
+                warnings[f'applied: {label} (delete)'] += 1
                 continue
             for f, v in (pt.get('set') or {}).items():
                 if f in ('year', 'endYear', 'born', 'died', 'start', 'end', 'founded'):
@@ -391,7 +399,7 @@ def main():
     ids |= pol_ids | {r['id'] for r in out_regions}
     for lst in (provinces, monuments, mints, hoards, sites, routes):
         ids |= {o['id'] for o in lst if o.get('id')}
-    alias_cache = {'battle_of_aegates_islands': 'battle_of_the_aegates', 'battle_of_philippi': 'battle_of_philippi_second', 'dacian_wars': 'first_dacian_war'}
+    alias_cache = {**REPLACED, 'battle_of_aegates_islands': 'battle_of_the_aegates', 'battle_of_philippi': 'battle_of_philippi_second', 'dacian_wars': 'first_dacian_war'}
 
     def resolve(i):
         if not i or i in ids:

@@ -1,0 +1,692 @@
+{
+ "corrections": [
+  {
+   "kind": "region",
+   "id": "an_cilicia",
+   "control": [
+    {
+     "from": -509,
+     "to": -401,
+     "p": "achaemenid",
+     "s": "independent",
+     "note": "Syennesis dynasty, client kings of Persia, until 401"
+    },
+    {
+     "from": -401,
+     "to": -333,
+     "p": "achaemenid",
+     "s": "independent"
+    },
+    {
+     "from": -333,
+     "to": -323,
+     "p": "alexander_empire",
+     "s": "independent"
+    },
+    {
+     "from": -323,
+     "to": -295,
+     "p": "macedon_antigonid",
+     "s": "independent"
+    },
+    {
+     "from": -295,
+     "to": -83,
+     "p": "seleucid",
+     "s": "independent",
+     "note": "Ptolemaic interlude after 246"
+    },
+    {
+     "from": -83,
+     "to": -69,
+     "p": "armenia",
+     "s": "independent",
+     "note": "Tigranes deports the Cilician Greeks to Tigranocerta"
+    },
+    {
+     "from": -69,
+     "to": -64,
+     "p": "cilician_pirates",
+     "s": "contested",
+     "note": "Pompey settles surrendered pirates at Soli-Pompeiopolis (67)"
+    },
+    {
+     "from": -64,
+     "to": 260,
+     "p": "rome",
+     "s": "direct",
+     "note": "Province of Cilicia (64); Cicero proconsul (51-50); client Tarcondimotids at Castabala to AD 17"
+    },
+    {
+     "from": 260,
+     "to": 261,
+     "p": "sasanian",
+     "s": "occupied",
+     "note": "Shapur I takes Tarsus"
+    },
+    {
+     "from": 261,
+     "to": 270,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 270,
+     "to": 272,
+     "p": "palmyrene_empire",
+     "s": "independent",
+     "note": "Palmyrene forces of Zenobia hold Cilicia on the road to Asia Minor (Zosimus 1.50); recovered by Aurelian 272"
+    },
+    {
+     "from": 272,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 613,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 613,
+     "to": 629,
+     "p": "sasanian",
+     "s": "occupied",
+     "note": "Persians take Tarsus after Heraclius' defeat at Antioch (613)"
+    },
+    {
+     "from": 629,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct"
+    }
+   ],
+   "reason": "Palmyrene Empire 270-272 is missing here. Zosimus 1.50 and HA Aurel. 22-25 put Zenobia's power in Asia Minor as far as Ancyra, with Tyana in Cappadocia resisting Aurelian in 272; neighbouring Syrian, Egyptian and Mesopotamian regions already show palmyrene_empire 270-272."
+  },
+  {
+   "kind": "region",
+   "id": "an_cappadocia",
+   "control": [
+    {
+     "from": -509,
+     "to": -331,
+     "p": "achaemenid",
+     "s": "independent"
+    },
+    {
+     "from": -331,
+     "to": -322,
+     "p": "cappadocia",
+     "s": "independent",
+     "note": "Ariarathes I holds out after Gaugamela"
+    },
+    {
+     "from": -322,
+     "to": -301,
+     "p": "macedon_antigonid",
+     "s": "independent",
+     "note": "Perdiccas executes Ariarathes I (322); Eumenes, then Antigonus"
+    },
+    {
+     "from": -301,
+     "to": -101,
+     "p": "cappadocia",
+     "s": "independent",
+     "note": "Ariarathid kingdom; royal title c. 255"
+    },
+    {
+     "from": -101,
+     "to": -95,
+     "p": "pontus",
+     "s": "occupied",
+     "note": "Mithridates' son installed as Ariarathes IX"
+    },
+    {
+     "from": -95,
+     "to": -89,
+     "p": "cappadocia",
+     "s": "client",
+     "note": "Sulla installs Ariobarzanes I (95)"
+    },
+    {
+     "from": -89,
+     "to": -85,
+     "p": "pontus",
+     "s": "occupied"
+    },
+    {
+     "from": -85,
+     "to": 17,
+     "p": "cappadocia",
+     "s": "client",
+     "note": "Ariobarzanids; Archelaus (36 BC-AD 17)"
+    },
+    {
+     "from": 17,
+     "to": 260,
+     "p": "rome",
+     "s": "direct",
+     "note": "Annexed by Tiberius (17)"
+    },
+    {
+     "from": 260,
+     "to": 261,
+     "p": "sasanian",
+     "s": "occupied",
+     "note": "Shapur I takes Caesarea after Edessa"
+    },
+    {
+     "from": 261,
+     "to": 270,
+     "p": "rome",
+     "s": "direct",
+     "note": "Basil of Caesarea, Gregory of Nyssa, Gregory of Nazianzus"
+    },
+    {
+     "from": 270,
+     "to": 272,
+     "p": "palmyrene_empire",
+     "s": "independent",
+     "note": "Palmyrene control; Tyana holds out against Aurelian before capitulating (272)"
+    },
+    {
+     "from": 272,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Basil of Caesarea, Gregory of Nyssa, Gregory of Nazianzus"
+    },
+    {
+     "from": 395,
+     "to": 611,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 611,
+     "to": 612,
+     "p": "sasanian",
+     "s": "occupied",
+     "note": "Shahin holds Caesarea; besieged by Priscus"
+    },
+    {
+     "from": 612,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct"
+    }
+   ],
+   "reason": "Palmyrene Empire 270-272 is missing here. Zosimus 1.50 and HA Aurel. 22-25 put Zenobia's power in Asia Minor as far as Ancyra, with Tyana in Cappadocia resisting Aurelian in 272; neighbouring Syrian, Egyptian and Mesopotamian regions already show palmyrene_empire 270-272."
+  },
+  {
+   "kind": "region",
+   "id": "an_galatia",
+   "control": [
+    {
+     "from": -509,
+     "to": -334,
+     "p": "achaemenid",
+     "s": "independent"
+    },
+    {
+     "from": -334,
+     "to": -323,
+     "p": "alexander_empire",
+     "s": "independent"
+    },
+    {
+     "from": -323,
+     "to": -301,
+     "p": "macedon_antigonid",
+     "s": "independent"
+    },
+    {
+     "from": -301,
+     "to": -278,
+     "p": "seleucid",
+     "s": "independent"
+    },
+    {
+     "from": -278,
+     "to": -88,
+     "p": "galatia",
+     "s": "independent",
+     "note": "Tolistobogii, Tectosages, Trocmi; Manlius Vulso's campaign (189); Pergamene suzerainty 183-166"
+    },
+    {
+     "from": -88,
+     "to": -86,
+     "p": "pontus",
+     "s": "occupied",
+     "note": "Mithridates massacres the Galatian tetrarchs (86)"
+    },
+    {
+     "from": -86,
+     "to": -64,
+     "p": "galatia",
+     "s": "independent"
+    },
+    {
+     "from": -64,
+     "to": -25,
+     "p": "galatia",
+     "s": "client",
+     "note": "Deiotarus; Amyntas (36-25)"
+    },
+    {
+     "from": -25,
+     "to": 271,
+     "p": "rome",
+     "s": "direct",
+     "note": "Province of Galatia; Res Gestae inscribed at Ancyra"
+    },
+    {
+     "from": 271,
+     "to": 272,
+     "p": "palmyrene_empire",
+     "s": "independent",
+     "note": "Zenobia's rule reaches Ancyra (Zosimus 1.50.1); Aurelian recovers it on his march east (272)"
+    },
+    {
+     "from": 272,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Province of Galatia; Res Gestae inscribed at Ancyra"
+    },
+    {
+     "from": 395,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Persians sack Ancyra (622)"
+    }
+   ],
+   "reason": "Palmyrene Empire 270-272 is missing here. Zosimus 1.50 and HA Aurel. 22-25 put Zenobia's power in Asia Minor as far as Ancyra, with Tyana in Cappadocia resisting Aurelian in 272; neighbouring Syrian, Egyptian and Mesopotamian regions already show palmyrene_empire 270-272."
+  },
+  {
+   "kind": "region",
+   "id": "me_osroene",
+   "control": [
+    {
+     "from": -509,
+     "to": -331,
+     "p": "achaemenid",
+     "s": "independent"
+    },
+    {
+     "from": -331,
+     "to": -312,
+     "p": "alexander_empire",
+     "s": "independent"
+    },
+    {
+     "from": -312,
+     "to": -132,
+     "p": "seleucid",
+     "s": "independent",
+     "note": "Edessa refounded by Seleucus I"
+    },
+    {
+     "from": -132,
+     "to": 114,
+     "p": "osroene",
+     "s": "independent",
+     "note": "Abgarid kingdom (c. 132); Abgar II misleads Crassus; Carrhae (9 June 53 BC)"
+    },
+    {
+     "from": 114,
+     "to": 117,
+     "p": "osroene",
+     "s": "client",
+     "note": "Abgar VII submits to Trajan; Lusius Quietus sacks Edessa after the revolt of 116"
+    },
+    {
+     "from": 117,
+     "to": 165,
+     "p": "osroene",
+     "s": "independent"
+    },
+    {
+     "from": 165,
+     "to": 214,
+     "p": "osroene",
+     "s": "client",
+     "note": "Edessa taken in Lucius Verus' war; Severus' province around Edessa (195); Abgar VIII the Great"
+    },
+    {
+     "from": 214,
+     "to": 238,
+     "p": "rome",
+     "s": "direct",
+     "note": "Caracalla deposes Abgar IX; colonia; Caracalla murdered near Carrhae (217)"
+    },
+    {
+     "from": 238,
+     "to": 242,
+     "p": "sasanian",
+     "s": "occupied",
+     "note": "Ardashir takes Carrhae"
+    },
+    {
+     "from": 242,
+     "to": 270,
+     "p": "rome",
+     "s": "direct",
+     "note": "Valerian captured near Edessa (260)"
+    },
+    {
+     "from": 270,
+     "to": 272,
+     "p": "palmyrene_empire",
+     "s": "independent",
+     "note": "Part of Zenobia's realm with the rest of Roman Mesopotamia; recovered by Aurelian 272"
+    },
+    {
+     "from": 272,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Valerian captured near Edessa (260)"
+    },
+    {
+     "from": 395,
+     "to": 609,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Khosrow's siege of Edessa fails (544)"
+    },
+    {
+     "from": 609,
+     "to": 628,
+     "p": "sasanian",
+     "s": "occupied",
+     "note": "Edessa falls (609)"
+    },
+    {
+     "from": 628,
+     "to": 639,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 639,
+     "to": 641,
+     "p": "rashidun",
+     "s": "independent",
+     "note": "Edessa capitulates to Iyad ibn Ghanm"
+    }
+   ],
+   "reason": "Palmyrene Empire 270-272 is missing here. Zosimus 1.50 and HA Aurel. 22-25 put Zenobia's power in Asia Minor as far as Ancyra, with Tyana in Cappadocia resisting Aurelian in 272; neighbouring Syrian, Egyptian and Mesopotamian regions already show palmyrene_empire 270-272."
+  },
+  {
+   "kind": "region",
+   "id": "br_bernicia",
+   "control": [
+    {
+     "from": -509,
+     "to": 79,
+     "p": "britons",
+     "s": "independent"
+    },
+    {
+     "from": 79,
+     "to": 105,
+     "p": "rome",
+     "s": "direct",
+     "note": "Agricola; Corbridge"
+    },
+    {
+     "from": 105,
+     "to": 142,
+     "p": "rome",
+     "s": "direct",
+     "note": "Stanegate line, then Hadrian's Wall (from 122) across the south of the region; ground north of it held only by outpost forts"
+    },
+    {
+     "from": 142,
+     "to": 260,
+     "p": "rome",
+     "s": "direct",
+     "note": "Antonine advance; then outpost forts Bremenium and Habitancum"
+    },
+    {
+     "from": 260,
+     "to": 274,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Gallic Empire of Postumus and successors"
+    },
+    {
+     "from": 274,
+     "to": 286,
+     "p": "rome",
+     "s": "direct",
+     "note": "Antonine advance; then outpost forts Bremenium and Habitancum"
+    },
+    {
+     "from": 286,
+     "to": 296,
+     "p": "britannic_empire",
+     "s": "direct",
+     "note": "Carausius (286-293) and Allectus (293-296)"
+    },
+    {
+     "from": 296,
+     "to": 367,
+     "p": "rome",
+     "s": "direct",
+     "note": "Antonine advance; then outpost forts Bremenium and Habitancum"
+    },
+    {
+     "from": 367,
+     "to": 369,
+     "p": "caledonians",
+     "s": "contested",
+     "note": "Barbarica conspiratio: Picts, Scotti, Attacotti and Saxons; Theodosius restores order"
+    },
+    {
+     "from": 369,
+     "to": 410,
+     "p": "rome",
+     "s": "direct",
+     "note": "Hadrian's Wall garrisoned to c. 400-410; outpost forts north of it (Bremenium, Habitancum) abandoned after 367"
+    },
+    {
+     "from": 410,
+     "to": 547,
+     "p": "britons_sub_roman",
+     "s": "independent",
+     "note": "End of Roman rule (409-410: officials expelled; Honorius' rescript)"
+    },
+    {
+     "from": 547,
+     "to": 641,
+     "p": "anglo_saxons",
+     "s": "independent",
+     "note": "Ida at Bamburgh (trad. 547)"
+    }
+   ],
+   "reason": "Region contains Hadrian's Wall and County Durham (see its own notes). Marking it a British client 105-142 shows the Wall as non-Roman during its construction (122-128), and 'client' for 369-410 contradicts the Wall's garrisoning into c. 400 (Notitia Occ. 40; coin series at Wall forts). Both periods are direct Roman control of the Wall corridor."
+  },
+  {
+   "kind": "legion",
+   "id": "legio_ii_augusta",
+   "set": {
+    "stations": [
+     {
+      "from": -26,
+      "to": 9,
+      "base": "Cantabrian war zone (north Spain)",
+      "loc": [
+       -4.6,
+       42.9
+      ],
+      "note": "Cantabrian war; veterans settled at Emerita? and Caesaraugusta",
+      "certainty": "approx"
+     },
+     {
+      "from": 9,
+      "to": 17,
+      "base": "Mogontiacum (Mainz)",
+      "loc": [
+       8.2739,
+       49.9989
+      ],
+      "place": "mogontiacum",
+      "note": "after the Varian disaster",
+      "certainty": "disputed"
+     },
+     {
+      "from": 17,
+      "to": 43,
+      "base": "Argentoratum (Strasbourg)",
+      "loc": [
+       7.7474,
+       48.5824
+      ],
+      "place": "argentoratum",
+      "note": "built the first legionary fortress at Strasbourg"
+     },
+     {
+      "from": 43,
+      "to": 55,
+      "base": "South-west Britain (Vespasian's campaign bases; Lake Farm near Wimborne, Dorset)",
+      "loc": [
+       -1.99,
+       50.79
+      ],
+      "note": "Vespasian's campaign in the south-west: 30 battles, 20 oppida, the Isle of Wight (Suet. Vesp. 4)",
+      "certainty": "approx"
+     },
+     {
+      "from": 55,
+      "to": 75,
+      "base": "Isca Dumnoniorum (Exeter)",
+      "loc": [
+       -3.5269,
+       50.7256
+      ],
+      "place": "isca_dumnoniorum"
+     },
+     {
+      "from": 75,
+      "to": 290,
+      "base": "Isca Silurum (Caerleon)",
+      "loc": [
+       -2.9553,
+       51.6103
+      ],
+      "place": "isca_silurum"
+     },
+     {
+      "from": 290,
+      "to": 410,
+      "base": "Rutupiae (Richborough)",
+      "loc": [
+       1.3323,
+       51.2935
+      ],
+      "place": "rutupiae"
+     }
+    ]
+   },
+   "reason": "The 43-55 station was placed in the Midlands (Mancetter area, -1.55/52.57), but its own note and Suetonius Vesp. 4 put II Augusta under Vespasian in the south-west (Durotriges, Isle of Wight). Its base before Exeter was the vexillation fortress at Lake Farm, Dorset (Webster; Frere, Britannia)."
+  },
+  {
+   "kind": "legion",
+   "id": "legio_ii_traiana_fortis",
+   "set": {
+    "stations": [
+     {
+      "from": 106,
+      "to": 117,
+      "base": "Syria (bases not securely located)",
+      "loc": [
+       36.6,
+       35.6
+      ],
+      "note": "Trajan's Parthian war",
+      "certainty": "approx"
+     },
+     {
+      "from": 117,
+      "to": 125,
+      "base": "Caparcotna / Legio (Lajjun, near Megiddo)",
+      "loc": [
+       35.1864,
+       32.5753
+      ],
+      "place": "legio_caparcotna",
+      "note": "in Judaea before VI Ferrata",
+      "certainty": "disputed"
+     },
+     {
+      "from": 127,
+      "to": 300,
+      "base": "Nicopolis (east of Alexandria)",
+      "loc": [
+       29.963,
+       31.232
+      ],
+      "place": "nicopolis_egypt",
+      "note": "single legion of Egypt after XXII Deiotariana vanished"
+     },
+     {
+      "from": 300,
+      "to": 430,
+      "base": "Apollonopolis Magna (Edfu) and Parembole (Notitia)",
+      "loc": [
+       32.873,
+       24.978
+      ],
+      "note": "late Roman dispositions in the Thebaid; Luxor was the base of III Diocletiana",
+      "certainty": "probable"
+     }
+    ]
+   },
+   "reason": "Notitia Dignitatum Or. 31 lists II Traiana at Parembole and Apollonos superioris (Edfu), as the record's own endNote says; the Luxor temple fortress at Thebes housed legio III Diocletiana (Not. Or. 31.31), not II Traiana."
+  },
+  {
+   "kind": "event",
+   "id": "battle_of_blarathon",
+   "set": {
+    "battle": {
+     "sides": [
+      {
+       "polity": "rome_east",
+       "commanders": [
+        "khosrow_ii"
+       ],
+       "strength": "Roman and Armenian troops under the magister militum per Orientem Narses and John Mystacon with Khosrow II's loyalists, perhaps 40,000-60,000",
+       "losses": "unknown"
+      },
+      {
+       "polity": "sasanian",
+       "commanders": [
+        "bahram_chobin"
+       ],
+       "strength": "Bahram's army with elephants",
+       "losses": "heavy; elephants captured"
+      }
+     ],
+     "victor": "rome_east",
+     "kind": "field",
+     "significance": "Restored a grateful Sasanian king and brought the most favourable peace Rome ever made with Persia."
+    }
+   },
+   "reason": "Maurice never took the field in Persia; Theophylact Simocatta 5.9-11 has the Roman army led by Narses (not the eunuch Narses, so no existing person id) and John Mystacon, with Khosrow II present. Commanders changed from maurice to khosrow_ii; Maurice stays in people as sponsor."
+  },
+  {
+   "kind": "ruler",
+   "office": "usurper",
+   "name": "Gildo",
+   "set": {
+    "how": "suicide"
+   },
+   "reason": "Gildo was not killed in battle: after the rout at the Ardalio (398) he fled to Thabraca and hanged himself (Zosimus 5.11.4; Orosius 7.36.13 says strangled after capture). The codex event battle_of_the_ardalio already says he killed himself."
+  }
+ ]
+}
