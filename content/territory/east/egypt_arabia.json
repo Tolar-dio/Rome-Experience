@@ -1,0 +1,1707 @@
+{
+ "regions": [
+  {
+   "id": "eg_delta",
+   "name": "Lower Egypt (Alexandria, the Delta)",
+   "seed": [
+    31.0,
+    30.8
+   ],
+   "countries": [
+    "EG"
+   ],
+   "zone": {
+    "in117": true
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -486,
+     "p": "achaemenid",
+     "s": "independent",
+     "note": "27th Dynasty; Darius I completes the Nile-Red Sea canal"
+    },
+    {
+     "from": -486,
+     "to": -484,
+     "p": "achaemenid",
+     "s": "contested",
+     "note": "Revolt at the death of Darius, crushed by Xerxes"
+    },
+    {
+     "from": -484,
+     "to": -460,
+     "p": "achaemenid",
+     "s": "independent"
+    },
+    {
+     "from": -460,
+     "to": -454,
+     "p": "achaemenid",
+     "s": "contested",
+     "note": "Revolt of Inaros with an Athenian fleet"
+    },
+    {
+     "from": -454,
+     "to": -404,
+     "p": "achaemenid",
+     "s": "independent",
+     "note": "Elephantine papyri"
+    },
+    {
+     "from": -404,
+     "to": -343,
+     "p": "egypt_native",
+     "s": "independent",
+     "note": "Amyrtaeus, Nepherites, Nectanebo I and II"
+    },
+    {
+     "from": -343,
+     "to": -332,
+     "p": "achaemenid",
+     "s": "independent",
+     "note": "Artaxerxes III reconquers Egypt"
+    },
+    {
+     "from": -332,
+     "to": -323,
+     "p": "alexander_empire",
+     "s": "independent",
+     "note": "Alexandria founded (331)"
+    },
+    {
+     "from": -323,
+     "to": -169,
+     "p": "ptolemaic",
+     "s": "independent",
+     "note": "Ptolemy satrap (323), king (305); Raphia (217)"
+    },
+    {
+     "from": -169,
+     "to": -168,
+     "p": "seleucid",
+     "s": "occupied",
+     "note": "Antiochus IV occupies Egypt outside Alexandria; Popillius Laenas' circle at Eleusis (168)"
+    },
+    {
+     "from": -168,
+     "to": -55,
+     "p": "ptolemaic",
+     "s": "independent",
+     "note": "Under Roman tutelage; Ptolemy XII declared friend and ally (59)"
+    },
+    {
+     "from": -55,
+     "to": -30,
+     "p": "ptolemaic",
+     "s": "client",
+     "note": "Gabinius restores Ptolemy XII (55); Cleopatra VII; Actium (31)"
+    },
+    {
+     "from": -30,
+     "to": 270,
+     "p": "rome",
+     "s": "direct",
+     "note": "Prefect of Egypt; grain for Rome; Antinoopolis founded (130)"
+    },
+    {
+     "from": 270,
+     "to": 272,
+     "p": "palmyrene_empire",
+     "s": "independent",
+     "note": "Zabdas takes Egypt for Zenobia; Probus recovers it"
+    },
+    {
+     "from": 272,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Domitius Domitianus and Achilleus (297-298)"
+    },
+    {
+     "from": 395,
+     "to": 619,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Patriarchate of Alexandria; Coptic Christianity"
+    },
+    {
+     "from": 619,
+     "to": 629,
+     "p": "sasanian",
+     "s": "occupied",
+     "note": "Persian conquest: Alexandria falls (619)"
+    },
+    {
+     "from": 629,
+     "to": 640,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Patriarch Cyrus (al-Muqawqis)"
+    },
+    {
+     "from": 640,
+     "to": 641,
+     "p": "rashidun",
+     "s": "contested",
+     "note": "Amr ibn al-As takes Pelusium (640) and Babylon (April 641); Alexandria capitulates (November 641)"
+    }
+   ],
+   "certainty": "certain",
+   "notes": ""
+  },
+  {
+   "id": "eg_heptanomis",
+   "name": "Middle Egypt (Memphis, Fayum, Oxyrhynchus)",
+   "seed": [
+    30.9,
+    28.8
+   ],
+   "countries": [
+    "EG"
+   ],
+   "zone": {
+    "in117": true
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -486,
+     "p": "achaemenid",
+     "s": "independent",
+     "note": "27th Dynasty; Darius I completes the Nile-Red Sea canal"
+    },
+    {
+     "from": -486,
+     "to": -484,
+     "p": "achaemenid",
+     "s": "contested",
+     "note": "Revolt at the death of Darius, crushed by Xerxes"
+    },
+    {
+     "from": -484,
+     "to": -460,
+     "p": "achaemenid",
+     "s": "independent"
+    },
+    {
+     "from": -460,
+     "to": -454,
+     "p": "achaemenid",
+     "s": "contested",
+     "note": "Revolt of Inaros with an Athenian fleet"
+    },
+    {
+     "from": -454,
+     "to": -404,
+     "p": "achaemenid",
+     "s": "independent",
+     "note": "Elephantine papyri"
+    },
+    {
+     "from": -404,
+     "to": -343,
+     "p": "egypt_native",
+     "s": "independent",
+     "note": "Amyrtaeus, Nepherites, Nectanebo I and II"
+    },
+    {
+     "from": -343,
+     "to": -332,
+     "p": "achaemenid",
+     "s": "independent",
+     "note": "Artaxerxes III reconquers Egypt"
+    },
+    {
+     "from": -332,
+     "to": -323,
+     "p": "alexander_empire",
+     "s": "independent",
+     "note": "Alexandria founded (331)"
+    },
+    {
+     "from": -323,
+     "to": -169,
+     "p": "ptolemaic",
+     "s": "independent",
+     "note": "Ptolemy satrap (323), king (305); Raphia (217)"
+    },
+    {
+     "from": -169,
+     "to": -168,
+     "p": "seleucid",
+     "s": "occupied",
+     "note": "Antiochus IV occupies Egypt outside Alexandria; Popillius Laenas' circle at Eleusis (168)"
+    },
+    {
+     "from": -168,
+     "to": -55,
+     "p": "ptolemaic",
+     "s": "independent",
+     "note": "Under Roman tutelage; Ptolemy XII declared friend and ally (59)"
+    },
+    {
+     "from": -55,
+     "to": -30,
+     "p": "ptolemaic",
+     "s": "client",
+     "note": "Gabinius restores Ptolemy XII (55); Cleopatra VII; Actium (31)"
+    },
+    {
+     "from": -30,
+     "to": 270,
+     "p": "rome",
+     "s": "direct",
+     "note": "Prefect of Egypt; grain for Rome; Antinoopolis founded (130)"
+    },
+    {
+     "from": 270,
+     "to": 272,
+     "p": "palmyrene_empire",
+     "s": "independent",
+     "note": "Zabdas takes Egypt for Zenobia; Probus recovers it"
+    },
+    {
+     "from": 272,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Domitius Domitianus and Achilleus (297-298)"
+    },
+    {
+     "from": 395,
+     "to": 619,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Patriarchate of Alexandria; Coptic Christianity"
+    },
+    {
+     "from": 619,
+     "to": 629,
+     "p": "sasanian",
+     "s": "occupied",
+     "note": "Persian conquest: Alexandria falls (619)"
+    },
+    {
+     "from": 629,
+     "to": 640,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 640,
+     "to": 641,
+     "p": "rashidun",
+     "s": "contested",
+     "note": "Heliopolis (July 640); Fayum overrun"
+    }
+   ],
+   "certainty": "certain",
+   "notes": ""
+  },
+  {
+   "id": "eg_thebaid",
+   "name": "Upper Egypt (Thebaid: Thebes, Ptolemais, Coptos)",
+   "seed": [
+    32.5,
+    25.9
+   ],
+   "countries": [
+    "EG"
+   ],
+   "zone": {
+    "in117": true
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -486,
+     "p": "achaemenid",
+     "s": "independent",
+     "note": "27th Dynasty; Darius I completes the Nile-Red Sea canal"
+    },
+    {
+     "from": -486,
+     "to": -484,
+     "p": "achaemenid",
+     "s": "contested",
+     "note": "Revolt at the death of Darius, crushed by Xerxes"
+    },
+    {
+     "from": -484,
+     "to": -460,
+     "p": "achaemenid",
+     "s": "independent"
+    },
+    {
+     "from": -460,
+     "to": -454,
+     "p": "achaemenid",
+     "s": "contested",
+     "note": "Revolt of Inaros with an Athenian fleet"
+    },
+    {
+     "from": -454,
+     "to": -404,
+     "p": "achaemenid",
+     "s": "independent",
+     "note": "Elephantine papyri"
+    },
+    {
+     "from": -404,
+     "to": -343,
+     "p": "egypt_native",
+     "s": "independent",
+     "note": "Amyrtaeus, Nepherites, Nectanebo I and II"
+    },
+    {
+     "from": -343,
+     "to": -332,
+     "p": "achaemenid",
+     "s": "independent",
+     "note": "Artaxerxes III reconquers Egypt"
+    },
+    {
+     "from": -332,
+     "to": -323,
+     "p": "alexander_empire",
+     "s": "independent",
+     "note": "Alexandria founded (331)"
+    },
+    {
+     "from": -323,
+     "to": -206,
+     "p": "ptolemaic",
+     "s": "independent",
+     "note": "Ptolemy satrap (323), king (305)"
+    },
+    {
+     "from": -206,
+     "to": -186,
+     "p": "egypt_native",
+     "s": "contested",
+     "note": "Great Theban revolt: pharaohs Haronnophris and Chaonnophris"
+    },
+    {
+     "from": -186,
+     "to": -88,
+     "p": "ptolemaic",
+     "s": "independent"
+    },
+    {
+     "from": -88,
+     "to": -86,
+     "p": "ptolemaic",
+     "s": "contested",
+     "note": "Theban revolt crushed by Ptolemy IX; Thebes sacked"
+    },
+    {
+     "from": -86,
+     "to": -55,
+     "p": "ptolemaic",
+     "s": "independent"
+    },
+    {
+     "from": -55,
+     "to": -30,
+     "p": "ptolemaic",
+     "s": "client",
+     "note": "Gabinius restores Ptolemy XII (55); Cleopatra VII; Actium (31)"
+    },
+    {
+     "from": -30,
+     "to": 270,
+     "p": "rome",
+     "s": "direct",
+     "note": "Prefect of Egypt; grain for Rome; Antinoopolis founded (130)"
+    },
+    {
+     "from": 270,
+     "to": 272,
+     "p": "palmyrene_empire",
+     "s": "independent",
+     "note": "Zabdas takes Egypt for Zenobia; Probus recovers it"
+    },
+    {
+     "from": 272,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Domitius Domitianus and Achilleus (297-298)"
+    },
+    {
+     "from": 395,
+     "to": 621,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Patriarchate of Alexandria; Coptic Christianity"
+    },
+    {
+     "from": 621,
+     "to": 629,
+     "p": "sasanian",
+     "s": "occupied",
+     "note": "Persian conquest: Alexandria falls (619)"
+    },
+    {
+     "from": 629,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Includes the Eastern Desert roads to Myos Hormos and Berenice."
+  },
+  {
+   "id": "eg_oases",
+   "name": "Libyan Desert and the Oases (Kharga, Dakhla, Siwa)",
+   "seed": [
+    28.5,
+    26.0
+   ],
+   "countries": [
+    "EG"
+   ],
+   "zone": {
+    "in117": false
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -486,
+     "p": "achaemenid",
+     "s": "independent",
+     "note": "27th Dynasty; Darius I completes the Nile-Red Sea canal"
+    },
+    {
+     "from": -486,
+     "to": -484,
+     "p": "achaemenid",
+     "s": "contested",
+     "note": "Revolt at the death of Darius, crushed by Xerxes"
+    },
+    {
+     "from": -484,
+     "to": -460,
+     "p": "achaemenid",
+     "s": "independent"
+    },
+    {
+     "from": -460,
+     "to": -454,
+     "p": "achaemenid",
+     "s": "contested",
+     "note": "Revolt of Inaros with an Athenian fleet"
+    },
+    {
+     "from": -454,
+     "to": -404,
+     "p": "achaemenid",
+     "s": "independent",
+     "note": "Elephantine papyri"
+    },
+    {
+     "from": -404,
+     "to": -343,
+     "p": "egypt_native",
+     "s": "independent",
+     "note": "Amyrtaeus, Nepherites, Nectanebo I and II"
+    },
+    {
+     "from": -343,
+     "to": -332,
+     "p": "achaemenid",
+     "s": "independent",
+     "note": "Artaxerxes III reconquers Egypt"
+    },
+    {
+     "from": -332,
+     "to": -323,
+     "p": "alexander_empire",
+     "s": "independent",
+     "note": "Alexandria founded (331)"
+    },
+    {
+     "from": -323,
+     "to": -169,
+     "p": "ptolemaic",
+     "s": "independent",
+     "note": "Ptolemy satrap (323), king (305); Raphia (217)"
+    },
+    {
+     "from": -169,
+     "to": -168,
+     "p": "seleucid",
+     "s": "occupied",
+     "note": "Antiochus IV occupies Egypt outside Alexandria; Popillius Laenas' circle at Eleusis (168)"
+    },
+    {
+     "from": -168,
+     "to": -55,
+     "p": "ptolemaic",
+     "s": "independent",
+     "note": "Under Roman tutelage; Ptolemy XII declared friend and ally (59)"
+    },
+    {
+     "from": -55,
+     "to": -30,
+     "p": "ptolemaic",
+     "s": "client",
+     "note": "Gabinius restores Ptolemy XII (55); Cleopatra VII; Actium (31)"
+    },
+    {
+     "from": -30,
+     "to": 270,
+     "p": "rome",
+     "s": "direct",
+     "note": "Prefect of Egypt; grain for Rome; Antinoopolis founded (130)"
+    },
+    {
+     "from": 270,
+     "to": 272,
+     "p": "palmyrene_empire",
+     "s": "independent",
+     "note": "Zabdas takes Egypt for Zenobia; Probus recovers it"
+    },
+    {
+     "from": 272,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Domitius Domitianus and Achilleus (297-298)"
+    },
+    {
+     "from": 395,
+     "to": 619,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Patriarchate of Alexandria; Coptic Christianity"
+    },
+    {
+     "from": 619,
+     "to": 629,
+     "p": "sasanian",
+     "s": "occupied",
+     "note": "Persian conquest: Alexandria falls (619)"
+    },
+    {
+     "from": 629,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct"
+    }
+   ],
+   "certainty": "approx",
+   "notes": "Siwa (Ammonium) was autonomous much of the time; Alexander consulted the oracle in 331."
+  },
+  {
+   "id": "eg_sinai",
+   "name": "Sinai and the eastern Delta approaches (Pelusium, Pharan)",
+   "seed": [
+    33.6,
+    29.6
+   ],
+   "countries": [
+    "EG"
+   ],
+   "zone": {
+    "in117": true
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -486,
+     "p": "achaemenid",
+     "s": "independent",
+     "note": "27th Dynasty; Darius I completes the Nile-Red Sea canal"
+    },
+    {
+     "from": -486,
+     "to": -484,
+     "p": "achaemenid",
+     "s": "contested",
+     "note": "Revolt at the death of Darius, crushed by Xerxes"
+    },
+    {
+     "from": -484,
+     "to": -460,
+     "p": "achaemenid",
+     "s": "independent"
+    },
+    {
+     "from": -460,
+     "to": -454,
+     "p": "achaemenid",
+     "s": "contested",
+     "note": "Revolt of Inaros with an Athenian fleet"
+    },
+    {
+     "from": -454,
+     "to": -404,
+     "p": "achaemenid",
+     "s": "independent",
+     "note": "Elephantine papyri"
+    },
+    {
+     "from": -404,
+     "to": -343,
+     "p": "egypt_native",
+     "s": "independent",
+     "note": "Amyrtaeus, Nepherites, Nectanebo I and II"
+    },
+    {
+     "from": -343,
+     "to": -332,
+     "p": "achaemenid",
+     "s": "independent",
+     "note": "Artaxerxes III reconquers Egypt"
+    },
+    {
+     "from": -332,
+     "to": -323,
+     "p": "alexander_empire",
+     "s": "independent",
+     "note": "Alexandria founded (331)"
+    },
+    {
+     "from": -323,
+     "to": -169,
+     "p": "ptolemaic",
+     "s": "independent",
+     "note": "Ptolemy satrap (323), king (305); Raphia (217)"
+    },
+    {
+     "from": -169,
+     "to": -168,
+     "p": "seleucid",
+     "s": "occupied",
+     "note": "Antiochus IV occupies Egypt outside Alexandria; Popillius Laenas' circle at Eleusis (168)"
+    },
+    {
+     "from": -168,
+     "to": -55,
+     "p": "ptolemaic",
+     "s": "independent",
+     "note": "Under Roman tutelage; Ptolemy XII declared friend and ally (59)"
+    },
+    {
+     "from": -55,
+     "to": -30,
+     "p": "ptolemaic",
+     "s": "client",
+     "note": "Gabinius restores Ptolemy XII (55); Cleopatra VII; Actium (31)"
+    },
+    {
+     "from": -30,
+     "to": 270,
+     "p": "rome",
+     "s": "direct",
+     "note": "Prefect of Egypt; grain for Rome; Antinoopolis founded (130)"
+    },
+    {
+     "from": 270,
+     "to": 272,
+     "p": "palmyrene_empire",
+     "s": "independent",
+     "note": "Zabdas takes Egypt for Zenobia; Probus recovers it"
+    },
+    {
+     "from": 272,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Domitius Domitianus and Achilleus (297-298)"
+    },
+    {
+     "from": 395,
+     "to": 618,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Patriarchate of Alexandria; Coptic Christianity"
+    },
+    {
+     "from": 618,
+     "to": 629,
+     "p": "sasanian",
+     "s": "occupied",
+     "note": "Persian conquest: Alexandria falls (619)"
+    },
+    {
+     "from": 629,
+     "to": 639,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 639,
+     "to": 641,
+     "p": "rashidun",
+     "s": "independent",
+     "note": "Amr crosses into Egypt at al-Arish (December 639)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "South Sinai was Nabataean in influence; Saint Catherine's monastery founded by Justinian."
+  },
+  {
+   "id": "eg_marmarica",
+   "name": "Marmarica (Paraetonium, Darnis)",
+   "seed": [
+    25.3,
+    31.0
+   ],
+   "countries": [
+    "EG",
+    "LY"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -332,
+     "p": "libyans",
+     "s": "independent",
+     "note": "Marmaridae and Adyrmachidae"
+    },
+    {
+     "from": -332,
+     "to": -30,
+     "p": "ptolemaic",
+     "s": "independent",
+     "note": "Alexander marches from Paraetonium to Siwa (331)"
+    },
+    {
+     "from": -30,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Marmaric war of Quirinius (c. 6 BC-AD 2); Libya Inferior under Diocletian"
+    },
+    {
+     "from": 395,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Austurian raids (5th c.)"
+    }
+   ],
+   "certainty": "approx",
+   "notes": ""
+  },
+  {
+   "id": "cr_cyrenaica",
+   "name": "Cyrenaica (Pentapolis: Cyrene, Barca, Euhesperides)",
+   "seed": [
+    21.4,
+    32.4
+   ],
+   "countries": [
+    "LY"
+   ],
+   "zone": {
+    "in60bc": true
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -440,
+     "p": "cyrene",
+     "s": "independent",
+     "note": "Battiad kings, tributary to Persia since 525"
+    },
+    {
+     "from": -440,
+     "to": -322,
+     "p": "cyrene",
+     "s": "independent",
+     "note": "Republic; submits to Alexander (331)"
+    },
+    {
+     "from": -322,
+     "to": -276,
+     "p": "ptolemaic",
+     "s": "independent",
+     "note": "Ophellas (322-308), then Magas as governor"
+    },
+    {
+     "from": -276,
+     "to": -246,
+     "p": "cyrene",
+     "s": "independent",
+     "note": "Magas king; Demetrius the Fair (250); republic of Ecdelus and Demophanes"
+    },
+    {
+     "from": -246,
+     "to": -96,
+     "p": "ptolemaic",
+     "s": "independent",
+     "note": "Berenice II; Ptolemy VIII king of Cyrene (163-145); Ptolemy Apion (to 96)"
+    },
+    {
+     "from": -96,
+     "to": -74,
+     "p": "cyrene",
+     "s": "ally",
+     "note": "Apion bequeaths Cyrenaica to Rome; the cities left free"
+    },
+    {
+     "from": -74,
+     "to": -34,
+     "p": "rome",
+     "s": "direct",
+     "note": "Province (74), joined to Crete (67)"
+    },
+    {
+     "from": -34,
+     "to": -30,
+     "p": "ptolemaic",
+     "s": "client",
+     "note": "Donations of Alexandria: Cleopatra Selene"
+    },
+    {
+     "from": -30,
+     "to": 115,
+     "p": "rome",
+     "s": "direct",
+     "note": "Cyrene edicts of Augustus"
+    },
+    {
+     "from": 115,
+     "to": 117,
+     "p": "rome",
+     "s": "contested",
+     "note": "Jewish revolt of Lukuas-Andreas begins in Cyrene (115)"
+    },
+    {
+     "from": 117,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Libya Superior (Pentapolis) under Diocletian"
+    },
+    {
+     "from": 395,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Synesius of Cyrene bishop of Ptolemais (c. 410); Arab conquest of Barqa only in 642/643"
+    }
+   ],
+   "certainty": "certain",
+   "notes": ""
+  },
+  {
+   "id": "cr_cyrenaica_interior",
+   "name": "Inner Cyrenaica and the Syrtic desert (Nasamones)",
+   "seed": [
+    21.8,
+    28.8
+   ],
+   "countries": [
+    "LY"
+   ],
+   "zone": {
+    "in60bc": false
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": 641,
+     "p": "libyans",
+     "s": "independent",
+     "note": "Nasamones, Psylli, Augila oasis; Domitian's war on the Nasamones (85-86)"
+    }
+   ],
+   "certainty": "approx",
+   "notes": ""
+  },
+  {
+   "id": "sd_lower_nubia",
+   "name": "Lower Nubia (Primis, Faras, Buhen)",
+   "seed": [
+    31.4,
+    21.6
+   ],
+   "countries": [
+    "EG",
+    "SD"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -30,
+     "p": "kush_meroe",
+     "s": "independent",
+     "note": "Ptolemaic Dodekaschoinos to the north in the 3rd-2nd c.; Kushite recovery during the Theban revolt"
+    },
+    {
+     "from": -30,
+     "to": -21,
+     "p": "kush_meroe",
+     "s": "contested",
+     "note": "Cornelius Gallus (29); Kushite raid on Syene (25/24); Petronius garrisons Primis"
+    },
+    {
+     "from": -21,
+     "to": 350,
+     "p": "kush_meroe",
+     "s": "independent",
+     "note": "Treaty of Samos (21/20); Rome keeps the Dodekaschoinos until Diocletian withdraws (298)"
+    },
+    {
+     "from": 350,
+     "to": 641,
+     "p": "nobatia",
+     "s": "independent",
+     "note": "Ballana kings; Silko defeats the Blemmyes (c. 450); Julian's mission converts Nobatia (543)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": ""
+  },
+  {
+   "id": "sd_makuria",
+   "name": "Napata and the Dongola reach (Makuria)",
+   "seed": [
+    31.3,
+    18.8
+   ],
+   "countries": [
+    "SD"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": 350,
+     "p": "kush_meroe",
+     "s": "independent",
+     "note": "Napata; Petronius sacks it (24/23 BC)"
+    },
+    {
+     "from": 350,
+     "to": 500,
+     "p": null,
+     "s": "unsettled",
+     "note": "Post-Meroitic chiefdoms"
+    },
+    {
+     "from": 500,
+     "to": 641,
+     "p": "makuria",
+     "s": "independent",
+     "note": "Old Dongola; Makuria converts (c. 569)"
+    }
+   ],
+   "certainty": "approx",
+   "notes": ""
+  },
+  {
+   "id": "sd_meroe",
+   "name": "Meroe and the Butana (Alodia)",
+   "seed": [
+    33.6,
+    16.6
+   ],
+   "countries": [
+    "SD"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": 350,
+     "p": "kush_meroe",
+     "s": "independent",
+     "note": "Meroitic kingdom; Nero's centurions explore the Nile (c. 61-63)"
+    },
+    {
+     "from": 350,
+     "to": 500,
+     "p": null,
+     "s": "unsettled",
+     "note": "Aksumite campaign of Ezana against Kasu and Noba (c. 350)"
+    },
+    {
+     "from": 500,
+     "to": 641,
+     "p": "alodia",
+     "s": "independent",
+     "note": "Soba; Longinus converts Alodia (580)"
+    }
+   ],
+   "certainty": "approx",
+   "notes": ""
+  },
+  {
+   "id": "sd_blemmyes",
+   "name": "Eastern Desert (Blemmyes and Trogodytes)",
+   "seed": [
+    35.3,
+    21.5
+   ],
+   "countries": [
+    "EG",
+    "SD"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": 641,
+     "p": "blemmyes",
+     "s": "independent",
+     "note": "Blemmyes (attested from Napatan times); Ptolemaic elephant stations (Ptolemais Theron); Blemmyes raid Upper Egypt (3rd-5th c.)"
+    }
+   ],
+   "certainty": "approx",
+   "notes": ""
+  },
+  {
+   "id": "sd_kordofan",
+   "name": "Kordofan and Darfur (outside the map's scope)",
+   "seed": [
+    27.0,
+    13.5
+   ],
+   "countries": [
+    "SD"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": 641,
+     "p": null,
+     "s": "unsettled",
+     "note": "No known state"
+    }
+   ],
+   "certainty": "approx",
+   "notes": "Placeholder."
+  },
+  {
+   "id": "et_aksum",
+   "name": "Aksum and Adulis",
+   "seed": [
+    38.9,
+    14.6
+   ],
+   "countries": [
+    "ET",
+    "ER"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": 50,
+     "p": "pre_aksumite",
+     "s": "independent",
+     "note": "D'mt and South Arabian-influenced polities (Yeha)"
+    },
+    {
+     "from": 50,
+     "to": 641,
+     "p": "aksum",
+     "s": "independent",
+     "note": "Zoskales (Periplus); Ezana converts (c. 340); Kaleb invades Himyar (525); Muslims' first hijra to Aksum (615)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": ""
+  },
+  {
+   "id": "et_highlands",
+   "name": "Southern Ethiopian highlands and lowlands",
+   "seed": [
+    39.5,
+    8.0
+   ],
+   "countries": [
+    "ET"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": 641,
+     "p": null,
+     "s": "unsettled",
+     "note": "No known state"
+    }
+   ],
+   "certainty": "approx",
+   "notes": "Placeholder."
+  },
+  {
+   "id": "ar_north_hejaz",
+   "name": "Northern Hejaz (Dedan, Hegra, Tayma)",
+   "seed": [
+    37.6,
+    26.8
+   ],
+   "countries": [
+    "SA"
+   ],
+   "zone": {
+    "in117": false
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -100,
+     "p": "lihyan",
+     "s": "independent",
+     "note": "Dedanite and Lihyanite kingdom"
+    },
+    {
+     "from": -100,
+     "to": 106,
+     "p": "nabataea",
+     "s": "independent",
+     "note": "Hegra (Mada'in Salih), tombs dated 1 BC-AD 75"
+    },
+    {
+     "from": 106,
+     "to": 250,
+     "p": "rome",
+     "s": "direct",
+     "note": "Hegra garrisoned (inscription of 175-177); Ruwafa temple of the Thamud for Marcus Aurelius (166-169)"
+    },
+    {
+     "from": 250,
+     "to": 630,
+     "p": "arab_tribes",
+     "s": "independent"
+    },
+    {
+     "from": 630,
+     "to": 632,
+     "p": "medina_umma",
+     "s": "independent",
+     "note": "Tabuk expedition (630)"
+    },
+    {
+     "from": 632,
+     "to": 641,
+     "p": "rashidun",
+     "s": "independent"
+    }
+   ],
+   "certainty": "approx",
+   "notes": "Extent and end of Roman control at Hegra uncertain."
+  },
+  {
+   "id": "ar_yathrib",
+   "name": "Yathrib (Medina) and Khaybar",
+   "seed": [
+    39.6,
+    24.8
+   ],
+   "countries": [
+    "SA"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": 622,
+     "p": "arab_tribes",
+     "s": "independent",
+     "note": "Jewish tribes (Qaynuqa, Nadir, Qurayza) and the Aws and Khazraj"
+    },
+    {
+     "from": 622,
+     "to": 632,
+     "p": "medina_umma",
+     "s": "independent",
+     "note": "Hijra (622); Badr (624), Uhud (625), the Trench (627), Khaybar (628)"
+    },
+    {
+     "from": 632,
+     "to": 641,
+     "p": "rashidun",
+     "s": "independent"
+    }
+   ],
+   "certainty": "certain",
+   "notes": ""
+  },
+  {
+   "id": "ar_mecca",
+   "name": "Mecca and Taif",
+   "seed": [
+    40.3,
+    21.5
+   ],
+   "countries": [
+    "SA"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": 630,
+     "p": "arab_tribes",
+     "s": "independent",
+     "note": "Quraysh; Abraha's elephant expedition (c. 552 or 570)"
+    },
+    {
+     "from": 630,
+     "to": 632,
+     "p": "medina_umma",
+     "s": "independent",
+     "note": "Conquest of Mecca (January 630); Hunayn; Taif submits (630/631)"
+    },
+    {
+     "from": 632,
+     "to": 641,
+     "p": "rashidun",
+     "s": "independent"
+    }
+   ],
+   "certainty": "certain",
+   "notes": ""
+  },
+  {
+   "id": "ar_najran",
+   "name": "Najran and Asir",
+   "seed": [
+    44.0,
+    18.3
+   ],
+   "countries": [
+    "SA",
+    "YE"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -25,
+     "p": "saba",
+     "s": "independent",
+     "note": "Minaean and Sabaean caravan city"
+    },
+    {
+     "from": -25,
+     "to": -24,
+     "p": "rome",
+     "s": "occupied",
+     "note": "Aelius Gallus takes Negrana (25/24 BC)"
+    },
+    {
+     "from": -24,
+     "to": 280,
+     "p": "saba",
+     "s": "independent"
+    },
+    {
+     "from": 280,
+     "to": 525,
+     "p": "himyar",
+     "s": "independent",
+     "note": "Christian Najran; Dhu Nuwas' massacre (523)"
+    },
+    {
+     "from": 525,
+     "to": 570,
+     "p": "aksum",
+     "s": "independent",
+     "note": "Aksumite conquest; Abraha"
+    },
+    {
+     "from": 570,
+     "to": 631,
+     "p": "sasanian",
+     "s": "independent",
+     "note": "Persian Yemen"
+    },
+    {
+     "from": 631,
+     "to": 632,
+     "p": "medina_umma",
+     "s": "independent",
+     "note": "Treaty with the Christians of Najran"
+    },
+    {
+     "from": 632,
+     "to": 641,
+     "p": "rashidun",
+     "s": "independent"
+    }
+   ],
+   "certainty": "approx",
+   "notes": ""
+  },
+  {
+   "id": "ar_saba",
+   "name": "Saba (Marib, Sana'a, al-Jawf)",
+   "seed": [
+    44.9,
+    15.6
+   ],
+   "countries": [
+    "YE"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": 275,
+     "p": "saba",
+     "s": "independent",
+     "note": "Marib dam; Minaean kingdom in al-Jawf; Aelius Gallus besieges Marib for six days (25/24 BC)"
+    },
+    {
+     "from": 275,
+     "to": 525,
+     "p": "himyar",
+     "s": "independent",
+     "note": "Shammar Yahri'sh annexes Saba (c. 275-280); Judaism at court (c. 380)"
+    },
+    {
+     "from": 525,
+     "to": 570,
+     "p": "aksum",
+     "s": "independent",
+     "note": "Kaleb's invasion; Abraha repairs the Marib dam (548)"
+    },
+    {
+     "from": 570,
+     "to": 628,
+     "p": "sasanian",
+     "s": "independent",
+     "note": "Wahriz expels the Aksumites (c. 570)"
+    },
+    {
+     "from": 628,
+     "to": 632,
+     "p": "medina_umma",
+     "s": "independent",
+     "note": "Governor Badhan converts (628)"
+    },
+    {
+     "from": 632,
+     "to": 641,
+     "p": "rashidun",
+     "s": "independent",
+     "note": "Revolt of al-Aswad al-Ansi (632)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": ""
+  },
+  {
+   "id": "ar_himyar",
+   "name": "Himyar (Zafar, Aden, Tihama)",
+   "seed": [
+    44.0,
+    13.9
+   ],
+   "countries": [
+    "YE"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -110,
+     "p": "qataban",
+     "s": "independent"
+    },
+    {
+     "from": -110,
+     "to": 525,
+     "p": "himyar",
+     "s": "independent",
+     "note": "Himyarite era (110 BC); Zafar; Arabia Eudaemon (Aden) sacked in the 1st c. AD"
+    },
+    {
+     "from": 525,
+     "to": 570,
+     "p": "aksum",
+     "s": "independent",
+     "note": "Sumyafa Ashwa, then Abraha"
+    },
+    {
+     "from": 570,
+     "to": 628,
+     "p": "sasanian",
+     "s": "independent"
+    },
+    {
+     "from": 628,
+     "to": 632,
+     "p": "medina_umma",
+     "s": "independent"
+    },
+    {
+     "from": 632,
+     "to": 641,
+     "p": "rashidun",
+     "s": "independent"
+    }
+   ],
+   "certainty": "probable",
+   "notes": ""
+  },
+  {
+   "id": "ar_hadramawt",
+   "name": "Hadramawt and Qataban (Shabwa, Timna)",
+   "seed": [
+    48.3,
+    15.6
+   ],
+   "countries": [
+    "YE",
+    "SA"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": 300,
+     "p": "hadramawt",
+     "s": "independent",
+     "note": "Frankincense kingdom; absorbs Qataban (2nd c. AD)"
+    },
+    {
+     "from": 300,
+     "to": 525,
+     "p": "himyar",
+     "s": "independent",
+     "note": "Conquered by Shammar Yahri'sh"
+    },
+    {
+     "from": 525,
+     "to": 570,
+     "p": "aksum",
+     "s": "independent"
+    },
+    {
+     "from": 570,
+     "to": 628,
+     "p": "sasanian",
+     "s": "independent"
+    },
+    {
+     "from": 628,
+     "to": 632,
+     "p": "medina_umma",
+     "s": "independent"
+    },
+    {
+     "from": 632,
+     "to": 641,
+     "p": "rashidun",
+     "s": "independent",
+     "note": "Kinda's revolt; siege of al-Nujayr (632-633)"
+    }
+   ],
+   "certainty": "approx",
+   "notes": ""
+  },
+  {
+   "id": "ar_dhofar",
+   "name": "Dhofar and Mahra (Sumhuram)",
+   "seed": [
+    53.5,
+    18.0
+   ],
+   "countries": [
+    "OM",
+    "YE"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -100,
+     "p": "arab_tribes",
+     "s": "independent"
+    },
+    {
+     "from": -100,
+     "to": 300,
+     "p": "hadramawt",
+     "s": "independent",
+     "note": "Sumhuram (Khor Rori) founded from Hadramawt"
+    },
+    {
+     "from": 300,
+     "to": 525,
+     "p": "himyar",
+     "s": "independent"
+    },
+    {
+     "from": 525,
+     "to": 630,
+     "p": "arab_tribes",
+     "s": "independent",
+     "note": "Mahra"
+    },
+    {
+     "from": 630,
+     "to": 632,
+     "p": "medina_umma",
+     "s": "independent"
+    },
+    {
+     "from": 632,
+     "to": 641,
+     "p": "rashidun",
+     "s": "independent"
+    }
+   ],
+   "certainty": "approx",
+   "notes": ""
+  },
+  {
+   "id": "ar_najd",
+   "name": "Najd and Yamama",
+   "seed": [
+    44.5,
+    25.0
+   ],
+   "countries": [
+    "SA"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": 425,
+     "p": "arab_tribes",
+     "s": "independent",
+     "note": "Ma'add; Himyarite campaigns into central Arabia (Ma'sal inscription)"
+    },
+    {
+     "from": 425,
+     "to": 540,
+     "p": "kinda",
+     "s": "independent",
+     "note": "Kingdom of Kinda, Himyarite vassal; al-Harith ibn Amr seizes Hira (c. 525)"
+    },
+    {
+     "from": 540,
+     "to": 630,
+     "p": "arab_tribes",
+     "s": "independent",
+     "note": "Banu Hanifa in Yamama"
+    },
+    {
+     "from": 630,
+     "to": 632,
+     "p": "medina_umma",
+     "s": "independent",
+     "note": "Year of Delegations"
+    },
+    {
+     "from": 632,
+     "to": 633,
+     "p": "rashidun",
+     "s": "contested",
+     "note": "Ridda; Musaylima killed at Aqraba (632/633)"
+    },
+    {
+     "from": 633,
+     "to": 641,
+     "p": "rashidun",
+     "s": "independent"
+    }
+   ],
+   "certainty": "approx",
+   "notes": ""
+  },
+  {
+   "id": "ar_bahrain",
+   "name": "Eastern Arabia (Gerrha, Bahrain, Qatar)",
+   "seed": [
+    49.6,
+    25.8
+   ],
+   "countries": [
+    "SA",
+    "BH",
+    "QA"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": 240,
+     "p": "arab_tribes",
+     "s": "independent",
+     "note": "Gerrha, trading city bought off by Antiochus III (205 BC); Tylos (Bahrain)"
+    },
+    {
+     "from": 240,
+     "to": 629,
+     "p": "sasanian",
+     "s": "independent",
+     "note": "Ardashir conquers Bahrain"
+    },
+    {
+     "from": 629,
+     "to": 632,
+     "p": "medina_umma",
+     "s": "independent",
+     "note": "Al-Ala' al-Hadrami; al-Mundhir ibn Sawa converts"
+    },
+    {
+     "from": 632,
+     "to": 633,
+     "p": "rashidun",
+     "s": "contested",
+     "note": "Ridda; siege of Jawatha"
+    },
+    {
+     "from": 633,
+     "to": 641,
+     "p": "rashidun",
+     "s": "independent"
+    }
+   ],
+   "certainty": "approx",
+   "notes": ""
+  },
+  {
+   "id": "ar_oman",
+   "name": "Oman (Maka, Mazun)",
+   "seed": [
+    57.0,
+    23.2
+   ],
+   "countries": [
+    "OM",
+    "AE"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -330,
+     "p": "achaemenid",
+     "s": "independent",
+     "note": "Satrapy of Maka"
+    },
+    {
+     "from": -330,
+     "to": 240,
+     "p": "arab_tribes",
+     "s": "independent",
+     "note": "Mleiha and ed-Dur"
+    },
+    {
+     "from": 240,
+     "to": 630,
+     "p": "sasanian",
+     "s": "independent",
+     "note": "Mazun; Persian coastal garrisons; Azd settle the interior"
+    },
+    {
+     "from": 630,
+     "to": 632,
+     "p": "medina_umma",
+     "s": "independent",
+     "note": "The Julanda brothers convert"
+    },
+    {
+     "from": 632,
+     "to": 641,
+     "p": "rashidun",
+     "s": "independent",
+     "note": "Battle of Dibba (633)"
+    }
+   ],
+   "certainty": "approx",
+   "notes": ""
+  }
+ ]
+}

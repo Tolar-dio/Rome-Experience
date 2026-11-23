@@ -1,0 +1,2403 @@
+{
+ "regions": [
+  {
+   "id": "bk_histria",
+   "name": "Histria",
+   "seed": [
+    13.9,
+    45.2
+   ],
+   "countries": [
+    "HR"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -178,
+     "p": "illyrian_tribes",
+     "s": "independent",
+     "note": "Histri; Roman war of 221 BC against Histrian piracy"
+    },
+    {
+     "from": -178,
+     "to": -177,
+     "p": "rome",
+     "s": "contested",
+     "note": "Histrian War: Nesactium falls to C. Claudius Pulcher 177"
+    },
+    {
+     "from": -177,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Part of Italy (Regio X Venetia et Histria) under Augustus; Pola a colony (Pietas Iulia)"
+    },
+    {
+     "from": 395,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 539,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 539,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Byzantine from c. 539; Avar-Slav raids 599-611 but the coastal towns hold (later Exarchate of Ravenna)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Histria is in Italy proper from Augustus. Date of Byzantine takeover (c. 538/539) approximate."
+  },
+  {
+   "id": "bk_liburnia",
+   "name": "Liburnia and the Iapodes",
+   "seed": [
+    15.3,
+    44.6
+   ],
+   "countries": [
+    "HR"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -129,
+     "p": "illyrian_tribes",
+     "s": "independent",
+     "note": "Liburnian city-states and the Iapodes inland; Liburnian galleys give the Roman liburna its name"
+    },
+    {
+     "from": -129,
+     "to": -35,
+     "p": "illyrian_tribes",
+     "s": "ally",
+     "note": "C. Sempronius Tuditanus triumphs over the Iapodes 129; Liburnian towns in the Roman orbit, Iader a Roman community by Caesar"
+    },
+    {
+     "from": -35,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Octavian destroys Metulum (Iapodes) 35 BC; part of Illyricum, then Dalmatia"
+    },
+    {
+     "from": 395,
+     "to": 454,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 454,
+     "to": 480,
+     "p": "dalmatia_julius_nepos",
+     "s": "independent",
+     "note": "Marcellinus (454-468) then Julius Nepos (468-480) rule Dalmatia from Salona, de facto independent of Ravenna"
+    },
+    {
+     "from": 480,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent",
+     "note": "Odoacer annexes Dalmatia after the murder of Nepos (480), campaign of 481/482"
+    },
+    {
+     "from": 493,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 537,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Mundus takes Salona 535; Gothic counterattack 536; secured by Constantinianus 537"
+    },
+    {
+     "from": 537,
+     "to": 620,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 620,
+     "to": 641,
+     "p": "slavs",
+     "s": "independent",
+     "note": "Croat and Slav settlement of Liburnia in the time of Heraclius (De Administrando Imperio); Iader and the Kvarner islands stay Byzantine"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Status 129-35 BC (alliance versus subjection) is debated; the AWMC 60 BC line leaves Liburnia outside the empire."
+  },
+  {
+   "id": "bk_dalmatia_coast",
+   "name": "Dalmatia (Salona and Narona)",
+   "seed": [
+    16.8,
+    43.4
+   ],
+   "countries": [
+    "HR",
+    "BA"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -300,
+     "p": "illyrian_tribes",
+     "s": "independent",
+     "note": "Illyrians; Greek colonies Issa (c. 390) and Pharos (385/4) on the islands"
+    },
+    {
+     "from": -300,
+     "to": -78,
+     "p": "dalmatae",
+     "s": "independent",
+     "note": "Delmatae, capital Delminium (taken by Scipio Nasica 155); Metellus Delmaticus 119-117; Issa allied to Rome from 229"
+    },
+    {
+     "from": -78,
+     "to": -33,
+     "p": "dalmatae",
+     "s": "contested",
+     "note": "C. Cosconius takes Salona 78-76; a conventus of Roman citizens at Salona and Narona; Gabinius defeated 48/47; Vatinius 45-44"
+    },
+    {
+     "from": -33,
+     "to": 6,
+     "p": "rome",
+     "s": "direct",
+     "note": "Octavian's Illyrian war (35-33 BC); Salona a colonia (Martia Iulia); province Illyricum"
+    },
+    {
+     "from": 6,
+     "to": 9,
+     "p": "rome",
+     "s": "contested",
+     "note": "Great Illyrian (Batonian) revolt, AD 6-9; ends with the surrender at Andetrium"
+    },
+    {
+     "from": 9,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Province of Dalmatia; Diocletian born near Salona and retires to his palace at Spalatum (305)"
+    },
+    {
+     "from": 395,
+     "to": 454,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 454,
+     "to": 480,
+     "p": "dalmatia_julius_nepos",
+     "s": "independent",
+     "note": "Marcellinus (454-468) then Julius Nepos (468-480) rule Dalmatia from Salona, de facto independent of Ravenna"
+    },
+    {
+     "from": 480,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent",
+     "note": "Odoacer annexes Dalmatia after the murder of Nepos (480), campaign of 481/482"
+    },
+    {
+     "from": 493,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 537,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Mundus takes Salona 535; Gothic counterattack 536; secured by Constantinianus 537"
+    },
+    {
+     "from": 537,
+     "to": 614,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 614,
+     "to": 641,
+     "p": "slavs",
+     "s": "independent",
+     "note": "Salona sacked by Avars and Slavs, traditionally c. 614; refugees fill Diocletian's palace at Split; Tragurium, Ragusa (Epidaurum refugees) and the islands stay Byzantine"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "The fall of Salona is dated anywhere from c. 614 to 639; 614 is the most common modern estimate."
+  },
+  {
+   "id": "bk_dalmatia_interior",
+   "name": "Inner Dalmatia (Daesitiates and Maezaei)",
+   "seed": [
+    17.9,
+    44.2
+   ],
+   "countries": [
+    "BA"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -300,
+     "p": "illyrian_tribes",
+     "s": "independent"
+    },
+    {
+     "from": -300,
+     "to": -33,
+     "p": "dalmatae",
+     "s": "independent",
+     "note": "Daesitiates, Maezaei, Pirustae; silver and iron mines"
+    },
+    {
+     "from": -33,
+     "to": 6,
+     "p": "rome",
+     "s": "direct",
+     "note": "Subdued in Octavian's campaigns 35-33 BC"
+    },
+    {
+     "from": 6,
+     "to": 9,
+     "p": "rome",
+     "s": "contested",
+     "note": "Revolt of Bato the Daesitiate, AD 6-9; Tiberius and Germanicus need 10 legions"
+    },
+    {
+     "from": 9,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Dalmatia; mining district under procurators"
+    },
+    {
+     "from": 395,
+     "to": 454,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 454,
+     "to": 480,
+     "p": "dalmatia_julius_nepos",
+     "s": "independent",
+     "note": "Marcellinus (454-468) then Julius Nepos (468-480) rule Dalmatia from Salona, de facto independent of Ravenna"
+    },
+    {
+     "from": 480,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent",
+     "note": "Odoacer annexes Dalmatia after the murder of Nepos (480), campaign of 481/482"
+    },
+    {
+     "from": 493,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 537,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Mundus takes Salona 535; Gothic counterattack 536; secured by Constantinianus 537"
+    },
+    {
+     "from": 537,
+     "to": 600,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 600,
+     "to": 641,
+     "p": "slavs",
+     "s": "independent",
+     "note": "Avar raids from the 580s; Slav settlement of inner Dalmatia c. 600"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Slavic settlement of the interior is archaeologically poorly dated (late 6th to early 7th c.)."
+  },
+  {
+   "id": "bk_savia",
+   "name": "Pannonia Savia (Siscia)",
+   "seed": [
+    16.3,
+    45.7
+   ],
+   "countries": [
+    "HR"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -35,
+     "p": "pannonians",
+     "s": "independent",
+     "note": "Segestani and Colapiani; Roman attack on Segestica 119 BC"
+    },
+    {
+     "from": -35,
+     "to": 6,
+     "p": "rome",
+     "s": "direct",
+     "note": "Octavian takes Siscia (Segestica) 35 BC and garrisons it"
+    },
+    {
+     "from": 6,
+     "to": 9,
+     "p": "rome",
+     "s": "contested",
+     "note": "Pannonian revolt of Bato the Breucian"
+    },
+    {
+     "from": 9,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Pannonia (Superior); Siscia a Flavian colony and imperial mint; Pannonia Savia under Diocletian"
+    },
+    {
+     "from": 395,
+     "to": 454,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 454,
+     "to": 473,
+     "p": "ostrogoths",
+     "s": "ally",
+     "note": "Ostrogoths of Valamir, Thiudimir and Vidimir settled as federates in Pannonia (456-473)"
+    },
+    {
+     "from": 473,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 537,
+     "p": "ostrogothic_kingdom",
+     "s": "independent",
+     "note": "Ostrogothic province of Savia (Cassiodorus, Variae)"
+    },
+    {
+     "from": 537,
+     "to": 547,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 547,
+     "to": 568,
+     "p": "lombards",
+     "s": "ally",
+     "note": "Justinian grants Pannonia and Noricum to the Lombards (c. 547)"
+    },
+    {
+     "from": 568,
+     "to": 641,
+     "p": "avars",
+     "s": "independent",
+     "note": "Avar khaganate and Slav (later Croat) settlement"
+    }
+   ],
+   "certainty": "approx",
+   "notes": "Who held Savia between 473 and 493 and in 537-547 is unclear; Odoacer and Justinian are assumed."
+  },
+  {
+   "id": "bk_sirmium",
+   "name": "Pannonia Secunda (Sirmium) and Syrmia",
+   "seed": [
+    18.7,
+    45.1
+   ],
+   "countries": [
+    "HR",
+    "RS",
+    "BA"
+   ],
+   "zone": {
+    "in117": true
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -279,
+     "p": "pannonians",
+     "s": "independent",
+     "note": "Breuci and Amantini"
+    },
+    {
+     "from": -279,
+     "to": -15,
+     "p": "scordisci",
+     "s": "independent",
+     "note": "Celtic Scordisci, settled after the Gallic invasion of 279; repeated wars with the governors of Macedonia (114, 88-84 BC)"
+    },
+    {
+     "from": -15,
+     "to": -9,
+     "p": "rome",
+     "s": "contested",
+     "note": "Tiberius' Bellum Pannonicum 12-9 BC"
+    },
+    {
+     "from": -9,
+     "to": 6,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 6,
+     "to": 9,
+     "p": "rome",
+     "s": "contested",
+     "note": "Revolt of Bato the Breucian (AD 6-8)"
+    },
+    {
+     "from": 9,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Sirmium, Flavian colony, imperial residence of Marcus Aurelius, Probus (born there), Galerius, Licinius"
+    },
+    {
+     "from": 395,
+     "to": 437,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 437,
+     "to": 441,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Western Illyricum ceded to the East on the marriage of Valentinian III and Licinia Eudoxia (437)"
+    },
+    {
+     "from": 441,
+     "to": 454,
+     "p": "huns",
+     "s": "independent",
+     "note": "Sirmium taken by the Huns 441"
+    },
+    {
+     "from": 454,
+     "to": 473,
+     "p": "ostrogoths",
+     "s": "ally",
+     "note": "Ostrogothic federates in Pannonia"
+    },
+    {
+     "from": 473,
+     "to": 504,
+     "p": "gepids",
+     "s": "independent",
+     "note": "Gepid kingdom centred on Sirmium"
+    },
+    {
+     "from": 504,
+     "to": 536,
+     "p": "ostrogothic_kingdom",
+     "s": "independent",
+     "note": "Pitzia takes Sirmium for Theoderic 504"
+    },
+    {
+     "from": 536,
+     "to": 567,
+     "p": "gepids",
+     "s": "independent",
+     "note": "Gepids reoccupy Sirmium as the Goths withdraw"
+    },
+    {
+     "from": 567,
+     "to": 582,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Justin II seizes Sirmium after the Lombard-Avar destruction of the Gepids"
+    },
+    {
+     "from": 582,
+     "to": 641,
+     "p": "avars",
+     "s": "independent",
+     "note": "Sirmium surrenders to Khagan Bayan after a three-year siege (579-582)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "The 437 cession of Sirmium to the East rests on Cassiodorus and is debated."
+  },
+  {
+   "id": "bk_pannonia_sup",
+   "name": "Pannonia Superior (Carnuntum, Savaria)",
+   "seed": [
+    17.1,
+    47.2
+   ],
+   "countries": [
+    "HU",
+    "SK"
+   ],
+   "zone": {
+    "in117": true
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -400,
+     "p": "pannonians",
+     "s": "independent"
+    },
+    {
+     "from": -400,
+     "to": -60,
+     "p": "celts_danubian",
+     "s": "independent",
+     "note": "Boii and Taurisci"
+    },
+    {
+     "from": -60,
+     "to": -44,
+     "p": "dacia_kingdom",
+     "s": "independent",
+     "note": "Burebista crushes the Boii of Critasirus; the deserta Boiorum"
+    },
+    {
+     "from": -44,
+     "to": -9,
+     "p": "celts_danubian",
+     "s": "independent",
+     "note": "Azali and Boian remnants"
+    },
+    {
+     "from": -9,
+     "to": 6,
+     "p": "rome",
+     "s": "occupied",
+     "note": "Danube bank occupied in the Pannonian war; Carnuntum the base for the planned attack on Maroboduus (AD 6)"
+    },
+    {
+     "from": 6,
+     "to": 9,
+     "p": "rome",
+     "s": "contested"
+    },
+    {
+     "from": 9,
+     "to": 170,
+     "p": "rome",
+     "s": "direct",
+     "note": "Carnuntum (legio XV Apollinaris, then XIV Gemina), Savaria (Claudian colony), Scarbantia"
+    },
+    {
+     "from": 170,
+     "to": 172,
+     "p": "rome",
+     "s": "contested",
+     "note": "Marcomanni and Quadi break through to Aquileia (170); Marcus Aurelius at Carnuntum 172-173"
+    },
+    {
+     "from": 172,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Septimius Severus proclaimed at Carnuntum 193; conference of Carnuntum 308"
+    },
+    {
+     "from": 395,
+     "to": 433,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 433,
+     "to": 454,
+     "p": "huns",
+     "s": "independent",
+     "note": "Aetius cedes parts of Pannonia to the Huns c. 433"
+    },
+    {
+     "from": 454,
+     "to": 473,
+     "p": "ostrogoths",
+     "s": "ally"
+    },
+    {
+     "from": 473,
+     "to": 526,
+     "p": null,
+     "s": "unsettled",
+     "note": "Post-Ostrogothic vacuum: Suebi, Sciri, Heruli; Ostrogothic Italy claims Pannonia"
+    },
+    {
+     "from": 526,
+     "to": 568,
+     "p": "lombards",
+     "s": "independent",
+     "note": "Lombards move into Pannonia under Wacho and Audoin"
+    },
+    {
+     "from": 568,
+     "to": 641,
+     "p": "avars",
+     "s": "independent",
+     "note": "Lombards leave for Italy (Easter 568) and cede Pannonia to the Avars"
+    }
+   ],
+   "certainty": "approx",
+   "notes": "The 473-526 interval is genuinely obscure; Hunnic control after 433 may have been partial."
+  },
+  {
+   "id": "bk_valeria",
+   "name": "Pannonia Inferior/Valeria (Aquincum, Sopianae)",
+   "seed": [
+    18.6,
+    46.7
+   ],
+   "countries": [
+    "HU"
+   ],
+   "zone": {
+    "in117": true
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -400,
+     "p": "pannonians",
+     "s": "independent"
+    },
+    {
+     "from": -400,
+     "to": -60,
+     "p": "celts_danubian",
+     "s": "independent",
+     "note": "Eravisci, oppidum on the Gellert Hill"
+    },
+    {
+     "from": -60,
+     "to": -44,
+     "p": "dacia_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": -44,
+     "to": -9,
+     "p": "celts_danubian",
+     "s": "independent"
+    },
+    {
+     "from": -9,
+     "to": 9,
+     "p": "rome",
+     "s": "occupied"
+    },
+    {
+     "from": 9,
+     "to": 170,
+     "p": "rome",
+     "s": "direct",
+     "note": "Aquincum (legio II Adiutrix from 89), capital of Pannonia Inferior from 106"
+    },
+    {
+     "from": 170,
+     "to": 175,
+     "p": "rome",
+     "s": "contested",
+     "note": "Marcomannic wars; Quadi and Iazyges across the frozen Danube"
+    },
+    {
+     "from": 175,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Valentinian I dies at Brigetio 375"
+    },
+    {
+     "from": 395,
+     "to": 433,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 433,
+     "to": 454,
+     "p": "huns",
+     "s": "independent"
+    },
+    {
+     "from": 454,
+     "to": 473,
+     "p": "ostrogoths",
+     "s": "ally"
+    },
+    {
+     "from": 473,
+     "to": 526,
+     "p": null,
+     "s": "unsettled"
+    },
+    {
+     "from": 526,
+     "to": 568,
+     "p": "lombards",
+     "s": "independent"
+    },
+    {
+     "from": 568,
+     "to": 641,
+     "p": "avars",
+     "s": "independent"
+    }
+   ],
+   "certainty": "approx",
+   "notes": "As for Pannonia Superior; 5th-century chronology uncertain."
+  },
+  {
+   "id": "bk_alfold",
+   "name": "Great Hungarian Plain (Iazyges)",
+   "seed": [
+    20.0,
+    46.8
+   ],
+   "countries": [
+    "HU",
+    "RS",
+    "RO"
+   ],
+   "zone": {
+    "in117": false
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -350,
+     "p": "scythians",
+     "s": "independent",
+     "note": "Vekerzug culture, Scythian-type; Herodotus' Agathyrsi and Sigynnae"
+    },
+    {
+     "from": -350,
+     "to": -60,
+     "p": "celts_danubian",
+     "s": "independent"
+    },
+    {
+     "from": -60,
+     "to": -44,
+     "p": "dacia_kingdom",
+     "s": "independent",
+     "note": "Burebista"
+    },
+    {
+     "from": -44,
+     "to": 20,
+     "p": "dacia_kingdom",
+     "s": "independent",
+     "note": "Dacian tribes after Burebista"
+    },
+    {
+     "from": 20,
+     "to": 166,
+     "p": "iazyges",
+     "s": "independent",
+     "note": "Sarmatian Iazyges settle between Danube and Tisza (c. AD 20-50)"
+    },
+    {
+     "from": 166,
+     "to": 180,
+     "p": "iazyges",
+     "s": "contested",
+     "note": "Marcomannic wars; Iazyges defeated on the frozen Danube; peace of 175 returns 100,000 captives"
+    },
+    {
+     "from": 180,
+     "to": 400,
+     "p": "iazyges",
+     "s": "independent",
+     "note": "Constantius II's campaigns of 358-359 against the Limigantes"
+    },
+    {
+     "from": 400,
+     "to": 454,
+     "p": "huns",
+     "s": "independent",
+     "note": "Core of Attila's realm; Priscus' embassy 449"
+    },
+    {
+     "from": 454,
+     "to": 567,
+     "p": "gepids",
+     "s": "independent",
+     "note": "Gepids after Nedao (454)"
+    },
+    {
+     "from": 567,
+     "to": 641,
+     "p": "avars",
+     "s": "independent",
+     "note": "Avar heartland; khagan's ring"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Western edge with Dacia follows the AWMC Trajanic line."
+  },
+  {
+   "id": "bk_crisana",
+   "name": "Crisana and Maramures (free Dacians)",
+   "seed": [
+    22.3,
+    47.3
+   ],
+   "countries": [
+    "RO"
+   ],
+   "zone": {
+    "in117": false
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -350,
+     "p": "scythians",
+     "s": "independent",
+     "note": "Agathyrsi"
+    },
+    {
+     "from": -350,
+     "to": -82,
+     "p": "celts_danubian",
+     "s": "independent"
+    },
+    {
+     "from": -82,
+     "to": 106,
+     "p": "dacia_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 106,
+     "to": 270,
+     "p": "free_dacians",
+     "s": "independent",
+     "note": "Free Dacians outside the province; Hasdingi Vandals on the upper Tisza from c. 171"
+    },
+    {
+     "from": 270,
+     "to": 400,
+     "p": "gepids",
+     "s": "independent",
+     "note": "Gepids in the north-west (late 3rd c.)"
+    },
+    {
+     "from": 400,
+     "to": 454,
+     "p": "huns",
+     "s": "independent"
+    },
+    {
+     "from": 454,
+     "to": 567,
+     "p": "gepids",
+     "s": "independent"
+    },
+    {
+     "from": 567,
+     "to": 641,
+     "p": "avars",
+     "s": "independent"
+    }
+   ],
+   "certainty": "approx",
+   "notes": ""
+  },
+  {
+   "id": "bk_quadi",
+   "name": "Land of the Quadi (Slovakia)",
+   "seed": [
+    18.9,
+    48.6
+   ],
+   "countries": [
+    "SK"
+   ],
+   "zone": {
+    "in117": false
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -400,
+     "p": "pannonians",
+     "s": "independent",
+     "note": "Late Hallstatt populations"
+    },
+    {
+     "from": -400,
+     "to": -9,
+     "p": "celts_danubian",
+     "s": "independent",
+     "note": "Celtic Cotini and Boii (Bratislava oppidum)"
+    },
+    {
+     "from": -9,
+     "to": 20,
+     "p": "marcomanni",
+     "s": "independent",
+     "note": "Maroboduus' Marcomannic realm"
+    },
+    {
+     "from": 20,
+     "to": 166,
+     "p": "quadi",
+     "s": "client",
+     "note": "Regnum Vannianum (AD 19-50), a Roman client kingdom of the Quadi; later Quadic kings crowned by Rome (rex Quadis datus, coin of Antoninus Pius)"
+    },
+    {
+     "from": 166,
+     "to": 180,
+     "p": "quadi",
+     "s": "contested",
+     "note": "Marcomannic wars; Roman winter camps; Laugaricio (Trencin) inscription of 179-180"
+    },
+    {
+     "from": 180,
+     "to": 400,
+     "p": "quadi",
+     "s": "independent",
+     "note": "Valentinian I dies of apoplexy at Brigetio facing Quadic envoys (375)"
+    },
+    {
+     "from": 400,
+     "to": 454,
+     "p": "huns",
+     "s": "independent"
+    },
+    {
+     "from": 454,
+     "to": 508,
+     "p": "heruli",
+     "s": "independent",
+     "note": "Herul kingdom north of the Danube, destroyed by the Lombards c. 508"
+    },
+    {
+     "from": 508,
+     "to": 568,
+     "p": "lombards",
+     "s": "independent"
+    },
+    {
+     "from": 568,
+     "to": 641,
+     "p": "avars",
+     "s": "independent",
+     "note": "Avars and Slavs; Samo's Slav kingdom from c. 623 to the north-west"
+    }
+   ],
+   "certainty": "approx",
+   "notes": ""
+  },
+  {
+   "id": "bk_moesia_sup",
+   "name": "Moesia Superior (Singidunum, Viminacium)",
+   "seed": [
+    21.0,
+    44.4
+   ],
+   "countries": [
+    "RS"
+   ],
+   "zone": {
+    "in117": true
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -279,
+     "p": "illyrian_tribes",
+     "s": "independent",
+     "note": "Autariatae and Triballi"
+    },
+    {
+     "from": -279,
+     "to": -15,
+     "p": "scordisci",
+     "s": "independent"
+    },
+    {
+     "from": -15,
+     "to": 6,
+     "p": "scordisci",
+     "s": "ally",
+     "note": "Scordisci become Roman allies after Tiberius' campaigns"
+    },
+    {
+     "from": 6,
+     "to": 85,
+     "p": "rome",
+     "s": "direct",
+     "note": "Moesia (legatus from AD 6); Singidunum (IV Flavia), Viminacium (VII Claudia)"
+    },
+    {
+     "from": 85,
+     "to": 86,
+     "p": "rome",
+     "s": "contested",
+     "note": "Dacian invasion; the governor Oppius Sabinus killed"
+    },
+    {
+     "from": 86,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Moesia Superior from 86; Diocletian defeats Carinus at the Margus (285)"
+    },
+    {
+     "from": 395,
+     "to": 441,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 441,
+     "to": 447,
+     "p": "huns",
+     "s": "contested",
+     "note": "Attila sacks Viminacium, Margus and Singidunum"
+    },
+    {
+     "from": 447,
+     "to": 454,
+     "p": "huns",
+     "s": "independent",
+     "note": "Treaty of 447: a strip five days wide south of the Danube ceded to the Huns"
+    },
+    {
+     "from": 454,
+     "to": 512,
+     "p": "gepids",
+     "s": "contested",
+     "note": "Sarmatian king Babai at Singidunum until Theoderic takes it (471); Gepid and Roman claims; Sabinian defeated at Horreum Margi (505)"
+    },
+    {
+     "from": 512,
+     "to": 539,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Heruli settled as federates near Singidunum by Anastasius (512)"
+    },
+    {
+     "from": 539,
+     "to": 551,
+     "p": "gepids",
+     "s": "contested",
+     "note": "Gepid expansion after taking Sirmium"
+    },
+    {
+     "from": 551,
+     "to": 582,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Justinian rebuilds Singidunum"
+    },
+    {
+     "from": 582,
+     "to": 602,
+     "p": "avars",
+     "s": "contested",
+     "note": "Avars take Singidunum (584) and raze Viminacium; Priscus' victories near Viminacium (599)"
+    },
+    {
+     "from": 602,
+     "to": 641,
+     "p": "avars",
+     "s": "independent",
+     "note": "Collapse of the Danube frontier after the mutiny against Maurice (602)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Control of Singidunum between 454 and 512 changed hands several times; simplified."
+  },
+  {
+   "id": "bk_dardania",
+   "name": "Dardania (Naissus, Ulpiana)",
+   "seed": [
+    21.3,
+    42.8
+   ],
+   "countries": [
+    "XK",
+    "RS"
+   ],
+   "zone": {
+    "in117": true
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -28,
+     "p": "illyrian_tribes",
+     "s": "independent",
+     "note": "Dardanian kingdom; raids into Macedonia; enemies of Philip V and Perseus"
+    },
+    {
+     "from": -28,
+     "to": 6,
+     "p": "rome",
+     "s": "occupied",
+     "note": "M. Licinius Crassus subdues Moesi and Dardani (29-28 BC)"
+    },
+    {
+     "from": 6,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Moesia Superior; Claudius II defeats the Goths at Naissus (268/269); Constantine born at Naissus; province Dardania under Diocletian"
+    },
+    {
+     "from": 395,
+     "to": 441,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 441,
+     "to": 447,
+     "p": "huns",
+     "s": "contested",
+     "note": "Naissus sacked 441/442"
+    },
+    {
+     "from": 447,
+     "to": 454,
+     "p": "huns",
+     "s": "independent",
+     "note": "Naissus the border market under the 447 treaty"
+    },
+    {
+     "from": 454,
+     "to": 586,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Justiniana Prima founded near Justinian's birthplace (c. 535)"
+    },
+    {
+     "from": 586,
+     "to": 615,
+     "p": "slavs",
+     "s": "contested",
+     "note": "Avar-Slav invasions; Naissus besieged"
+    },
+    {
+     "from": 615,
+     "to": 641,
+     "p": "slavs",
+     "s": "independent",
+     "note": "Naissus and Justiniana Prima abandoned in the 610s"
+    }
+   ],
+   "certainty": "probable",
+   "notes": ""
+  },
+  {
+   "id": "bk_dacia_ripensis",
+   "name": "Dacia Ripensis (Ratiaria, Oescus)",
+   "seed": [
+    23.5,
+    43.6
+   ],
+   "countries": [
+    "BG",
+    "RS"
+   ],
+   "zone": {
+    "in117": true
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -28,
+     "p": "thracians",
+     "s": "independent",
+     "note": "Triballi; Alexander campaigns against them 335"
+    },
+    {
+     "from": -28,
+     "to": 6,
+     "p": "rome",
+     "s": "occupied",
+     "note": "Crassus' campaign 29-28 BC"
+    },
+    {
+     "from": 6,
+     "to": 271,
+     "p": "rome",
+     "s": "direct",
+     "note": "Moesia; Oescus a colony under Trajan, Ratiaria likewise"
+    },
+    {
+     "from": 271,
+     "to": 382,
+     "p": "rome",
+     "s": "direct",
+     "note": "Dacia Aureliana (Ripensis) created south of the Danube after the evacuation of Trajan's Dacia; Constantine's bridge Oescus-Sucidava 328"
+    },
+    {
+     "from": 382,
+     "to": 395,
+     "p": "visigoths",
+     "s": "ally",
+     "note": "Gothic federates settled in 382"
+    },
+    {
+     "from": 395,
+     "to": 441,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 441,
+     "to": 447,
+     "p": "huns",
+     "s": "contested",
+     "note": "Ratiaria sacked"
+    },
+    {
+     "from": 447,
+     "to": 454,
+     "p": "huns",
+     "s": "independent"
+    },
+    {
+     "from": 454,
+     "to": 586,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 586,
+     "to": 602,
+     "p": "avars",
+     "s": "contested"
+    },
+    {
+     "from": 602,
+     "to": 641,
+     "p": "slavs",
+     "s": "independent"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Visigothic settlement area of 382 is not precisely known."
+  },
+  {
+   "id": "bk_moesia_inf",
+   "name": "Moesia Inferior (Novae, Durostorum, Marcianopolis)",
+   "seed": [
+    26.0,
+    43.4
+   ],
+   "countries": [
+    "BG"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -323,
+     "p": "getae",
+     "s": "independent",
+     "note": "Getae south of the Danube; Darius' Scythian campaign crosses 513"
+    },
+    {
+     "from": -323,
+     "to": -292,
+     "p": "lysimachus",
+     "s": "independent"
+    },
+    {
+     "from": -292,
+     "to": -29,
+     "p": "getae",
+     "s": "independent",
+     "note": "Dromichaetes captures Lysimachus (c. 292)"
+    },
+    {
+     "from": -29,
+     "to": 46,
+     "p": "odrysian_kingdom",
+     "s": "client",
+     "note": "Ripa Thraciae under the Thracian client kings"
+    },
+    {
+     "from": 46,
+     "to": 250,
+     "p": "rome",
+     "s": "direct",
+     "note": "Moesia Inferior from 86; Novae (I Italica), Durostorum (XI Claudia); Nicopolis ad Istrum founded by Trajan"
+    },
+    {
+     "from": 250,
+     "to": 251,
+     "p": "rome",
+     "s": "contested",
+     "note": "Cniva's Goths; Decius killed at Abritus (June 251)"
+    },
+    {
+     "from": 251,
+     "to": 376,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 376,
+     "to": 382,
+     "p": "visigoths",
+     "s": "contested",
+     "note": "Gothic crossing 376; Lupicinus' banquet at Marcianopolis"
+    },
+    {
+     "from": 382,
+     "to": 395,
+     "p": "visigoths",
+     "s": "ally",
+     "note": "Gothic federates settled in Moesia Secunda (382)"
+    },
+    {
+     "from": 395,
+     "to": 441,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 441,
+     "to": 447,
+     "p": "huns",
+     "s": "contested"
+    },
+    {
+     "from": 447,
+     "to": 454,
+     "p": "huns",
+     "s": "independent",
+     "note": "The 447 cession reaches Novae"
+    },
+    {
+     "from": 454,
+     "to": 483,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 483,
+     "to": 488,
+     "p": "ostrogoths",
+     "s": "ally",
+     "note": "Theoderic's Goths settled at Novae before leaving for Italy (488)"
+    },
+    {
+     "from": 488,
+     "to": 586,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Kutrigur and Slav raids (from 493, Zabergan 559)"
+    },
+    {
+     "from": 586,
+     "to": 614,
+     "p": "avars",
+     "s": "contested",
+     "note": "Avar invasions 586-587; Maurice's Balkan campaigns 591-602"
+    },
+    {
+     "from": 614,
+     "to": 641,
+     "p": "slavs",
+     "s": "independent",
+     "note": "Marcianopolis and the Danube forts lost in the 610s; Bulgars of Asparukh only arrive in 680"
+    }
+   ],
+   "certainty": "probable",
+   "notes": ""
+  },
+  {
+   "id": "bk_scythia_minor",
+   "name": "Scythia Minor (Dobruja)",
+   "seed": [
+    28.3,
+    44.4
+   ],
+   "countries": [
+    "RO",
+    "BG"
+   ],
+   "zone": {
+    "in117": true
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -340,
+     "p": "getae",
+     "s": "independent",
+     "note": "Greek colonies Histria, Tomis, Callatis among the Getae"
+    },
+    {
+     "from": -340,
+     "to": -339,
+     "p": "scythians",
+     "s": "independent",
+     "note": "Scythian king Atheas, killed by Philip II (339)"
+    },
+    {
+     "from": -339,
+     "to": -313,
+     "p": "macedon",
+     "s": "independent"
+    },
+    {
+     "from": -313,
+     "to": -281,
+     "p": "lysimachus",
+     "s": "independent",
+     "note": "Revolt of Callatis 313"
+    },
+    {
+     "from": -281,
+     "to": -72,
+     "p": "greek_poleis",
+     "s": "independent",
+     "note": "Greek cities under Getic and Scythian kinglets"
+    },
+    {
+     "from": -72,
+     "to": -61,
+     "p": "greek_poleis",
+     "s": "client",
+     "note": "M. Terentius Varro Lucullus takes the Pontic cities (72-71)"
+    },
+    {
+     "from": -61,
+     "to": -55,
+     "p": "greek_poleis",
+     "s": "independent",
+     "note": "C. Antonius Hybrida defeated near Histria (61)"
+    },
+    {
+     "from": -55,
+     "to": -44,
+     "p": "dacia_kingdom",
+     "s": "independent",
+     "note": "Burebista takes the coast"
+    },
+    {
+     "from": -44,
+     "to": -29,
+     "p": "getae",
+     "s": "independent"
+    },
+    {
+     "from": -29,
+     "to": 15,
+     "p": "odrysian_kingdom",
+     "s": "client",
+     "note": "Crassus' campaign; coast under the Thracian client kings; Ovid exiled to Tomis AD 8-17"
+    },
+    {
+     "from": 15,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Moesia; Tropaeum Traiani (Adamclisi) 109; province Scythia under Diocletian"
+    },
+    {
+     "from": 395,
+     "to": 602,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 602,
+     "to": 614,
+     "p": "slavs",
+     "s": "contested"
+    },
+    {
+     "from": 614,
+     "to": 641,
+     "p": "slavs",
+     "s": "independent",
+     "note": "Byzantine hold on the Dobruja forts ends in the early 7th c."
+    }
+   ],
+   "certainty": "probable",
+   "notes": ""
+  },
+  {
+   "id": "bk_serdica",
+   "name": "Serdica and Pautalia",
+   "seed": [
+    23.2,
+    42.5
+   ],
+   "countries": [
+    "BG"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -29,
+     "p": "thracians",
+     "s": "independent",
+     "note": "Serdi, Thracian (Celtic admixture after 279)"
+    },
+    {
+     "from": -29,
+     "to": 46,
+     "p": "odrysian_kingdom",
+     "s": "client"
+    },
+    {
+     "from": 46,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Thrace, later Dacia Mediterranea; Serdica Constantine's favourite residence; Council of Serdica 343"
+    },
+    {
+     "from": 395,
+     "to": 441,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 441,
+     "to": 447,
+     "p": "huns",
+     "s": "contested",
+     "note": "Serdica sacked"
+    },
+    {
+     "from": 447,
+     "to": 586,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 586,
+     "to": 615,
+     "p": "slavs",
+     "s": "contested"
+    },
+    {
+     "from": 615,
+     "to": 641,
+     "p": "slavs",
+     "s": "independent",
+     "note": "Serdica lost to Byzantium in the 610s"
+    }
+   ],
+   "certainty": "probable",
+   "notes": ""
+  },
+  {
+   "id": "bk_philippopolis",
+   "name": "Thrace: Philippopolis and the Hebrus valley",
+   "seed": [
+    24.9,
+    42.2
+   ],
+   "countries": [
+    "BG"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -479,
+     "p": "achaemenid",
+     "s": "independent",
+     "note": "Thrace (Skudra) under Persia after Darius' campaign of 513"
+    },
+    {
+     "from": -479,
+     "to": -342,
+     "p": "odrysian_kingdom",
+     "s": "independent",
+     "note": "Odrysian kingdom of Teres, Sitalces, Cotys I"
+    },
+    {
+     "from": -342,
+     "to": -323,
+     "p": "macedon",
+     "s": "independent",
+     "note": "Philip II founds Philippopolis (342/341)"
+    },
+    {
+     "from": -323,
+     "to": -281,
+     "p": "lysimachus",
+     "s": "independent",
+     "note": "Seuthes III at Seuthopolis, a dependent Odrysian king"
+    },
+    {
+     "from": -281,
+     "to": -29,
+     "p": "odrysian_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": -29,
+     "to": 46,
+     "p": "odrysian_kingdom",
+     "s": "client",
+     "note": "Sapaean and Astaean client kings (Rhoemetalces I)"
+    },
+    {
+     "from": 46,
+     "to": 250,
+     "p": "rome",
+     "s": "direct",
+     "note": "Province of Thrace (46); Augusta Traiana"
+    },
+    {
+     "from": 250,
+     "to": 251,
+     "p": "rome",
+     "s": "contested",
+     "note": "Cniva takes and sacks Philippopolis"
+    },
+    {
+     "from": 251,
+     "to": 376,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 376,
+     "to": 382,
+     "p": "visigoths",
+     "s": "contested"
+    },
+    {
+     "from": 382,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Philippopolis remains Byzantine; Slavs settle in the Rhodope and the valleys from the 610s"
+    }
+   ],
+   "certainty": "probable",
+   "notes": ""
+  },
+  {
+   "id": "bk_thrace_east",
+   "name": "Eastern Thrace (Hadrianopolis, Odrysian heartland)",
+   "seed": [
+    26.4,
+    42.0
+   ],
+   "countries": [
+    "BG",
+    "TR",
+    "GR"
+   ],
+   "zone": {
+    "in60bc": false
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -479,
+     "p": "achaemenid",
+     "s": "independent",
+     "note": "Persian Thrace; garrison at Doriscus held until c. 465"
+    },
+    {
+     "from": -479,
+     "to": -342,
+     "p": "odrysian_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": -342,
+     "to": -323,
+     "p": "macedon",
+     "s": "independent"
+    },
+    {
+     "from": -323,
+     "to": -281,
+     "p": "lysimachus",
+     "s": "independent"
+    },
+    {
+     "from": -281,
+     "to": -212,
+     "p": "tylis",
+     "s": "independent",
+     "note": "Celtic kingdom of Tylis; Byzantium pays tribute"
+    },
+    {
+     "from": -212,
+     "to": -29,
+     "p": "odrysian_kingdom",
+     "s": "independent",
+     "note": "Odrysian, Astaean and Sapaean kings; Roman campaigns from Macedonia"
+    },
+    {
+     "from": -29,
+     "to": 46,
+     "p": "odrysian_kingdom",
+     "s": "client",
+     "note": "Thracian client kingdom; Rhoemetalces III murdered 46"
+    },
+    {
+     "from": 46,
+     "to": 376,
+     "p": "rome",
+     "s": "direct",
+     "note": "Hadrianopolis refounded by Hadrian; Constantine defeats Licinius there (324)"
+    },
+    {
+     "from": 376,
+     "to": 382,
+     "p": "visigoths",
+     "s": "contested",
+     "note": "Valens killed at Adrianople (9 August 378)"
+    },
+    {
+     "from": 382,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Hinterland of Constantinople; Huns to the Long Walls (447), Kutrigurs (559), Avars (619, 626)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": ""
+  },
+  {
+   "id": "bk_byzantium",
+   "name": "Byzantium (Constantinople) and Perinthus",
+   "seed": [
+    28.8,
+    41.15
+   ],
+   "countries": [
+    "TR"
+   ],
+   "zone": {
+    "in60bc": false
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -478,
+     "p": "achaemenid",
+     "s": "independent",
+     "note": "Persian until Pausanias takes it (478); joins the Ionian revolt 499-494"
+    },
+    {
+     "from": -478,
+     "to": -405,
+     "p": "athens",
+     "s": "independent",
+     "note": "Delian League; revolts 440 and 411; Alcibiades recaptures it 408"
+    },
+    {
+     "from": -405,
+     "to": -390,
+     "p": "sparta",
+     "s": "independent"
+    },
+    {
+     "from": -390,
+     "to": -340,
+     "p": "greek_poleis",
+     "s": "independent"
+    },
+    {
+     "from": -340,
+     "to": -339,
+     "p": "macedon",
+     "s": "contested",
+     "note": "Philip II's failed siege"
+    },
+    {
+     "from": -339,
+     "to": -200,
+     "p": "greek_poleis",
+     "s": "independent",
+     "note": "Free city; tribute to the Gauls of Tylis (3rd c.)"
+    },
+    {
+     "from": -200,
+     "to": 73,
+     "p": "greek_poleis",
+     "s": "ally",
+     "note": "Civitas foederata of Rome"
+    },
+    {
+     "from": 73,
+     "to": 193,
+     "p": "rome",
+     "s": "direct",
+     "note": "Annexed by Vespasian"
+    },
+    {
+     "from": 193,
+     "to": 196,
+     "p": "rome",
+     "s": "contested",
+     "note": "Holds out for Pescennius Niger; Severus' siege destroys the walls"
+    },
+    {
+     "from": 196,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Refounded as Constantinople, dedicated 11 May 330"
+    },
+    {
+     "from": 395,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Capital of the Eastern Empire; Avar-Persian siege of 626 fails"
+    }
+   ],
+   "certainty": "certain",
+   "notes": ""
+  },
+  {
+   "id": "bk_chersonese",
+   "name": "Thracian Chersonese (Gallipoli)",
+   "seed": [
+    26.4,
+    40.3
+   ],
+   "countries": [
+    "TR"
+   ],
+   "zone": {
+    "in60bc": false
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -478,
+     "p": "achaemenid",
+     "s": "independent",
+     "note": "Miltiades the Younger rules the Chersonese as a Persian vassal until 493"
+    },
+    {
+     "from": -478,
+     "to": -404,
+     "p": "athens",
+     "s": "independent",
+     "note": "Aegospotami (405) fought here"
+    },
+    {
+     "from": -404,
+     "to": -386,
+     "p": "sparta",
+     "s": "independent"
+    },
+    {
+     "from": -386,
+     "to": -338,
+     "p": "athens",
+     "s": "independent",
+     "note": "Athenian cleruchies; Cersobleptes cedes the Chersonese 357"
+    },
+    {
+     "from": -338,
+     "to": -323,
+     "p": "macedon",
+     "s": "independent"
+    },
+    {
+     "from": -323,
+     "to": -281,
+     "p": "lysimachus",
+     "s": "independent",
+     "note": "Lysimachia founded 309"
+    },
+    {
+     "from": -281,
+     "to": -277,
+     "p": "greek_poleis",
+     "s": "contested",
+     "note": "Gallic invasion; Antigonus Gonatas defeats the Gauls near Lysimachia (277)"
+    },
+    {
+     "from": -277,
+     "to": -245,
+     "p": "greek_poleis",
+     "s": "independent"
+    },
+    {
+     "from": -245,
+     "to": -202,
+     "p": "ptolemaic",
+     "s": "independent",
+     "note": "Ptolemaic possessions in Thrace after the Third Syrian War"
+    },
+    {
+     "from": -202,
+     "to": -196,
+     "p": "macedon_antigonid",
+     "s": "independent",
+     "note": "Philip V takes Lysimachia and Sestos"
+    },
+    {
+     "from": -196,
+     "to": -190,
+     "p": "seleucid",
+     "s": "independent",
+     "note": "Antiochus III refounds Lysimachia"
+    },
+    {
+     "from": -190,
+     "to": -133,
+     "p": "pergamon",
+     "s": "independent",
+     "note": "Granted to Eumenes II at Apamea (188)"
+    },
+    {
+     "from": -133,
+     "to": -129,
+     "p": "pergamon",
+     "s": "contested"
+    },
+    {
+     "from": -129,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct"
+    }
+   ],
+   "certainty": "probable",
+   "notes": ""
+  },
+  {
+   "id": "bk_dacia",
+   "name": "Dacia (Transylvania: Sarmizegetusa, Apulum, Porolissum)",
+   "seed": [
+    24.0,
+    46.3
+   ],
+   "countries": [
+    "RO"
+   ],
+   "zone": {
+    "in117": true
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -350,
+     "p": "scythians",
+     "s": "independent",
+     "note": "Agathyrsi (Ciumbrud group)"
+    },
+    {
+     "from": -350,
+     "to": -150,
+     "p": "celts_danubian",
+     "s": "independent",
+     "note": "Celtic presence in Transylvania"
+    },
+    {
+     "from": -150,
+     "to": -82,
+     "p": "getae",
+     "s": "independent",
+     "note": "Dacian chiefdoms; Rubobostes"
+    },
+    {
+     "from": -82,
+     "to": 89,
+     "p": "dacia_kingdom",
+     "s": "independent",
+     "note": "Burebista (82-44), Deceneus; kingdom fragments after 44; Decebalus king from 87; Tapae (88)"
+    },
+    {
+     "from": 89,
+     "to": 101,
+     "p": "dacia_kingdom",
+     "s": "client",
+     "note": "Domitian's peace (89): subsidies and Roman engineers for Decebalus"
+    },
+    {
+     "from": 101,
+     "to": 102,
+     "p": "dacia_kingdom",
+     "s": "contested",
+     "note": "First Dacian War"
+    },
+    {
+     "from": 102,
+     "to": 105,
+     "p": "dacia_kingdom",
+     "s": "client",
+     "note": "Peace of 102; Roman garrison at Sarmizegetusa"
+    },
+    {
+     "from": 105,
+     "to": 106,
+     "p": "dacia_kingdom",
+     "s": "contested",
+     "note": "Second Dacian War; Sarmizegetusa falls, Decebalus suicide (106)"
+    },
+    {
+     "from": 106,
+     "to": 271,
+     "p": "rome",
+     "s": "direct",
+     "note": "Province of Dacia (gold of the Apuseni mountains; Alburnus Maior tablets); three Daciae under Marcus Aurelius"
+    },
+    {
+     "from": 271,
+     "to": 376,
+     "p": "thervingi",
+     "s": "independent",
+     "note": "Aurelian evacuates Dacia (271); Gothic and Gepid settlement"
+    },
+    {
+     "from": 376,
+     "to": 454,
+     "p": "huns",
+     "s": "independent"
+    },
+    {
+     "from": 454,
+     "to": 567,
+     "p": "gepids",
+     "s": "independent",
+     "note": "Gepid kingdom (Apahida princely graves)"
+    },
+    {
+     "from": 567,
+     "to": 641,
+     "p": "avars",
+     "s": "independent",
+     "note": "Avars and Slavs"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Date of the evacuation (271 vs 272-275) is debated."
+  },
+  {
+   "id": "bk_dacia_inferior",
+   "name": "Dacia Inferior (Banat and Oltenia: Drobeta, Romula)",
+   "seed": [
+    23.0,
+    44.9
+   ],
+   "countries": [
+    "RO"
+   ],
+   "zone": {
+    "in117": true
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -82,
+     "p": "getae",
+     "s": "independent"
+    },
+    {
+     "from": -82,
+     "to": 89,
+     "p": "dacia_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 89,
+     "to": 101,
+     "p": "dacia_kingdom",
+     "s": "client"
+    },
+    {
+     "from": 101,
+     "to": 102,
+     "p": "dacia_kingdom",
+     "s": "contested",
+     "note": "Tapae and the advance through the Banat"
+    },
+    {
+     "from": 102,
+     "to": 105,
+     "p": "rome",
+     "s": "occupied",
+     "note": "Banat and Oltenia garrisoned; Apollodorus' bridge at Drobeta (103-105)"
+    },
+    {
+     "from": 105,
+     "to": 106,
+     "p": "rome",
+     "s": "contested"
+    },
+    {
+     "from": 106,
+     "to": 271,
+     "p": "rome",
+     "s": "direct",
+     "note": "Dacia Inferior/Malvensis; Drobeta, Romula, Tibiscum"
+    },
+    {
+     "from": 271,
+     "to": 332,
+     "p": "thervingi",
+     "s": "independent",
+     "note": "Taifali and Goths north of the Danube"
+    },
+    {
+     "from": 332,
+     "to": 367,
+     "p": "thervingi",
+     "s": "ally",
+     "note": "Constantine's Gothic treaty (332); Roman bridgeheads at Sucidava and Drobeta"
+    },
+    {
+     "from": 367,
+     "to": 369,
+     "p": "thervingi",
+     "s": "contested",
+     "note": "Valens' Gothic war"
+    },
+    {
+     "from": 369,
+     "to": 376,
+     "p": "thervingi",
+     "s": "independent",
+     "note": "Athanaric"
+    },
+    {
+     "from": 376,
+     "to": 454,
+     "p": "huns",
+     "s": "independent"
+    },
+    {
+     "from": 454,
+     "to": 567,
+     "p": "gepids",
+     "s": "independent",
+     "note": "Gepids in the Banat; Slavs in Oltenia; Justinian restores the bridgeheads"
+    },
+    {
+     "from": 567,
+     "to": 641,
+     "p": "avars",
+     "s": "independent"
+    }
+   ],
+   "certainty": "approx",
+   "notes": ""
+  },
+  {
+   "id": "bk_muntenia",
+   "name": "Muntenia (Getae, Carpi)",
+   "seed": [
+    26.0,
+    44.6
+   ],
+   "countries": [
+    "RO"
+   ],
+   "zone": {
+    "in117": false
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -82,
+     "p": "getae",
+     "s": "independent"
+    },
+    {
+     "from": -82,
+     "to": 102,
+     "p": "dacia_kingdom",
+     "s": "independent",
+     "note": "Argedava; Dacian fortresses"
+    },
+    {
+     "from": 102,
+     "to": 118,
+     "p": "rome",
+     "s": "direct",
+     "note": "Annexed to Moesia Inferior by Trajan; abandoned by Hadrian 117/118"
+    },
+    {
+     "from": 118,
+     "to": 250,
+     "p": "free_dacians",
+     "s": "independent",
+     "note": "Carpi; Roxolani subsidised by Hadrian"
+    },
+    {
+     "from": 250,
+     "to": 332,
+     "p": "thervingi",
+     "s": "independent"
+    },
+    {
+     "from": 332,
+     "to": 367,
+     "p": "thervingi",
+     "s": "ally",
+     "note": "Gothic federates of the 332 treaty"
+    },
+    {
+     "from": 367,
+     "to": 369,
+     "p": "thervingi",
+     "s": "contested",
+     "note": "Valens crosses at Transmarisca and Noviodunum"
+    },
+    {
+     "from": 369,
+     "to": 376,
+     "p": "thervingi",
+     "s": "independent",
+     "note": "Athanaric's persecution of Gothic Christians"
+    },
+    {
+     "from": 376,
+     "to": 454,
+     "p": "huns",
+     "s": "independent"
+    },
+    {
+     "from": 454,
+     "to": 500,
+     "p": null,
+     "s": "unsettled",
+     "note": "Post-Hunnic vacuum"
+    },
+    {
+     "from": 500,
+     "to": 641,
+     "p": "slavs",
+     "s": "independent",
+     "note": "Sclaveni (Ardagast, Musocius) raid across the Danube; Avar overlordship from the 560s; Priscus' campaigns 593-594"
+    }
+   ],
+   "certainty": "approx",
+   "notes": ""
+  },
+  {
+   "id": "bk_moldavia",
+   "name": "Moldavia and Bessarabia (Bastarnae, Carpi)",
+   "seed": [
+    28.0,
+    47.0
+   ],
+   "countries": [
+    "RO",
+    "MD"
+   ],
+   "zone": {
+    "in117": false
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -233,
+     "p": "getae",
+     "s": "independent"
+    },
+    {
+     "from": -233,
+     "to": 50,
+     "p": "bastarnae",
+     "s": "independent",
+     "note": "Bastarnae (Poienesti-Lukashevka culture); allies of Philip V and Mithridates"
+    },
+    {
+     "from": 50,
+     "to": 250,
+     "p": "free_dacians",
+     "s": "independent",
+     "note": "Carpi; Costoboci to the north"
+    },
+    {
+     "from": 250,
+     "to": 376,
+     "p": "thervingi",
+     "s": "independent",
+     "note": "Chernyakhov-Santana de Mures culture; Athanaric's wall"
+    },
+    {
+     "from": 376,
+     "to": 454,
+     "p": "huns",
+     "s": "independent"
+    },
+    {
+     "from": 454,
+     "to": 500,
+     "p": null,
+     "s": "unsettled"
+    },
+    {
+     "from": 500,
+     "to": 641,
+     "p": "slavs",
+     "s": "independent",
+     "note": "Sclaveni and Antes; Avar overlordship"
+    }
+   ],
+   "certainty": "approx",
+   "notes": ""
+  }
+ ]
+}

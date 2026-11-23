@@ -1,0 +1,2978 @@
+{
+ "regions": [
+  {
+   "id": "sy_antioch",
+   "name": "Seleucis (Antioch, Seleucia Pieria, Laodicea)",
+   "seed": [
+    36.4,
+    36.1
+   ],
+   "countries": [
+    "TR",
+    "SY"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -333,
+     "p": "achaemenid",
+     "s": "independent",
+     "note": "Satrapy Beyond the River (Ebir-nari)"
+    },
+    {
+     "from": -333,
+     "to": -315,
+     "p": "alexander_empire",
+     "s": "independent",
+     "note": "Issus (November 333); Laomedon satrap; Ptolemy seizes Syria 320"
+    },
+    {
+     "from": -315,
+     "to": -301,
+     "p": "macedon_antigonid",
+     "s": "independent",
+     "note": "Antigonia on the Orontes (307)"
+    },
+    {
+     "from": -301,
+     "to": -246,
+     "p": "seleucid",
+     "s": "independent",
+     "note": "Antioch founded (300), Seleucid capital"
+    },
+    {
+     "from": -246,
+     "to": -245,
+     "p": "ptolemaic",
+     "s": "occupied",
+     "note": "Ptolemy III enters Antioch (Laodicean War); Seleucia Pieria Ptolemaic until 219"
+    },
+    {
+     "from": -245,
+     "to": -83,
+     "p": "seleucid",
+     "s": "independent"
+    },
+    {
+     "from": -83,
+     "to": -69,
+     "p": "armenia",
+     "s": "independent",
+     "note": "Tigranes the Great rules Syria; Magadates his governor"
+    },
+    {
+     "from": -69,
+     "to": -64,
+     "p": "seleucid",
+     "s": "client",
+     "note": "Antiochus XIII restored by Lucullus"
+    },
+    {
+     "from": -64,
+     "to": -40,
+     "p": "rome",
+     "s": "direct",
+     "note": "Pompey annexes Syria (64)"
+    },
+    {
+     "from": -40,
+     "to": -38,
+     "p": "parthia",
+     "s": "occupied",
+     "note": "Pacorus and Labienus; Ventidius wins at Gindarus (38)"
+    },
+    {
+     "from": -38,
+     "to": 253,
+     "p": "rome",
+     "s": "direct",
+     "note": "Capital of Syria; Trajan survives the earthquake of 115 there"
+    },
+    {
+     "from": 253,
+     "to": 254,
+     "p": "sasanian",
+     "s": "occupied",
+     "note": "Shapur I sacks Antioch (traitor Mariades)"
+    },
+    {
+     "from": 254,
+     "to": 270,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 270,
+     "to": 272,
+     "p": "palmyrene_empire",
+     "s": "independent",
+     "note": "Zenobia; Aurelian's victory at Immae (272)"
+    },
+    {
+     "from": 272,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Julian's Misopogon (363)"
+    },
+    {
+     "from": 395,
+     "to": 540,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Earthquake of 526 kills c. 250,000"
+    },
+    {
+     "from": 540,
+     "to": 541,
+     "p": "sasanian",
+     "s": "occupied",
+     "note": "Khosrow I sacks Antioch and deports its people to Weh Antiok Khosrow"
+    },
+    {
+     "from": 541,
+     "to": 611,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 611,
+     "to": 629,
+     "p": "sasanian",
+     "s": "occupied",
+     "note": "Antioch falls (611); Heraclius defeated outside it (613)"
+    },
+    {
+     "from": 629,
+     "to": 637,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 637,
+     "to": 641,
+     "p": "rashidun",
+     "s": "independent",
+     "note": "Antioch surrenders after the battle of the Iron Bridge (637)"
+    }
+   ],
+   "certainty": "certain",
+   "notes": ""
+  },
+  {
+   "id": "sy_apamea",
+   "name": "Apamene and Cassiotis (Apamea, Larissa)",
+   "seed": [
+    36.6,
+    35.4
+   ],
+   "countries": [
+    "SY"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -333,
+     "p": "achaemenid",
+     "s": "independent",
+     "note": "Satrapy Beyond the River (Ebir-nari)"
+    },
+    {
+     "from": -333,
+     "to": -315,
+     "p": "alexander_empire",
+     "s": "independent",
+     "note": "Issus (November 333); Laomedon satrap; Ptolemy seizes Syria 320"
+    },
+    {
+     "from": -315,
+     "to": -301,
+     "p": "macedon_antigonid",
+     "s": "independent",
+     "note": "Antigonia on the Orontes (307)"
+    },
+    {
+     "from": -301,
+     "to": -83,
+     "p": "seleucid",
+     "s": "independent",
+     "note": "Seleucis: the tetrapolis of Antioch, Seleucia Pieria, Apamea, Laodicea"
+    },
+    {
+     "from": -83,
+     "to": -69,
+     "p": "armenia",
+     "s": "independent",
+     "note": "Tigranes the Great rules Syria; Magadates his governor"
+    },
+    {
+     "from": -69,
+     "to": -64,
+     "p": "seleucid",
+     "s": "client",
+     "note": "Antiochus XIII restored by Lucullus"
+    },
+    {
+     "from": -64,
+     "to": -40,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": -40,
+     "to": -38,
+     "p": "parthia",
+     "s": "occupied"
+    },
+    {
+     "from": -38,
+     "to": 270,
+     "p": "rome",
+     "s": "direct",
+     "note": "Apamea, cavalry base and seat of a Neoplatonist school"
+    },
+    {
+     "from": 270,
+     "to": 272,
+     "p": "palmyrene_empire",
+     "s": "independent"
+    },
+    {
+     "from": 272,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 573,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 573,
+     "to": 574,
+     "p": "sasanian",
+     "s": "occupied",
+     "note": "Adarmahan sacks Apamea (573)"
+    },
+    {
+     "from": 574,
+     "to": 611,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 611,
+     "to": 629,
+     "p": "sasanian",
+     "s": "occupied"
+    },
+    {
+     "from": 629,
+     "to": 636,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 636,
+     "to": 641,
+     "p": "rashidun",
+     "s": "independent",
+     "note": "Hama and Apamea taken after Yarmuk"
+    }
+   ],
+   "certainty": "probable",
+   "notes": ""
+  },
+  {
+   "id": "sy_emesa",
+   "name": "Emesa and Arethusa",
+   "seed": [
+    36.75,
+    34.75
+   ],
+   "countries": [
+    "SY"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -333,
+     "p": "achaemenid",
+     "s": "independent",
+     "note": "Satrapy Beyond the River (Ebir-nari)"
+    },
+    {
+     "from": -333,
+     "to": -315,
+     "p": "alexander_empire",
+     "s": "independent",
+     "note": "Issus (November 333); Laomedon satrap; Ptolemy seizes Syria 320"
+    },
+    {
+     "from": -315,
+     "to": -301,
+     "p": "macedon_antigonid",
+     "s": "independent",
+     "note": "Antigonia on the Orontes (307)"
+    },
+    {
+     "from": -301,
+     "to": -83,
+     "p": "seleucid",
+     "s": "independent",
+     "note": "Seleucis: the tetrapolis of Antioch, Seleucia Pieria, Apamea, Laodicea"
+    },
+    {
+     "from": -83,
+     "to": -69,
+     "p": "armenia",
+     "s": "independent",
+     "note": "Tigranes the Great rules Syria; Magadates his governor"
+    },
+    {
+     "from": -69,
+     "to": -64,
+     "p": "seleucid",
+     "s": "client",
+     "note": "Antiochus XIII restored by Lucullus"
+    },
+    {
+     "from": -64,
+     "to": 72,
+     "p": "emesa",
+     "s": "client",
+     "note": "Sampsigeramid dynasty; Sohaemus"
+    },
+    {
+     "from": 72,
+     "to": 253,
+     "p": "rome",
+     "s": "direct",
+     "note": "Temple of Elagabal; Julia Domna and Elagabalus from Emesa"
+    },
+    {
+     "from": 253,
+     "to": 254,
+     "p": "rome",
+     "s": "contested",
+     "note": "Uranius Antoninus, priest-emperor, defends Emesa against Shapur"
+    },
+    {
+     "from": 254,
+     "to": 270,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 270,
+     "to": 272,
+     "p": "palmyrene_empire",
+     "s": "independent",
+     "note": "Aurelian defeats Zenobia at Emesa (272)"
+    },
+    {
+     "from": 272,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 611,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 611,
+     "to": 629,
+     "p": "sasanian",
+     "s": "occupied"
+    },
+    {
+     "from": 629,
+     "to": 634,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 634,
+     "to": 636,
+     "p": "rashidun",
+     "s": "contested",
+     "note": "Emesa taken 635, evacuated before Yarmuk"
+    },
+    {
+     "from": 636,
+     "to": 641,
+     "p": "rashidun",
+     "s": "independent"
+    }
+   ],
+   "certainty": "probable",
+   "notes": ""
+  },
+  {
+   "id": "sy_palmyrene",
+   "name": "Palmyrene (Palmyra-Tadmor)",
+   "seed": [
+    38.0,
+    34.5
+   ],
+   "countries": [
+    "SY"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -332,
+     "p": "achaemenid",
+     "s": "independent"
+    },
+    {
+     "from": -332,
+     "to": -312,
+     "p": "alexander_empire",
+     "s": "independent"
+    },
+    {
+     "from": -312,
+     "to": -64,
+     "p": "seleucid",
+     "s": "independent",
+     "note": "Loose Seleucid control of the oasis"
+    },
+    {
+     "from": -64,
+     "to": 17,
+     "p": "palmyra",
+     "s": "independent",
+     "note": "Antony's raid (41 BC)"
+    },
+    {
+     "from": 17,
+     "to": 260,
+     "p": "rome",
+     "s": "direct",
+     "note": "Incorporated under Tiberius; Palmyrene tariff (137); Hadriana Palmyra (129); colonia under Caracalla"
+    },
+    {
+     "from": 260,
+     "to": 270,
+     "p": "palmyra",
+     "s": "client",
+     "note": "Odaenathus, corrector totius Orientis, defeats Shapur"
+    },
+    {
+     "from": 270,
+     "to": 273,
+     "p": "palmyrene_empire",
+     "s": "independent",
+     "note": "Zenobia and Vaballathus; Aurelian takes Palmyra (272) and destroys it after the revolt (273)"
+    },
+    {
+     "from": 273,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Diocletian's camp; Strata Diocletiana"
+    },
+    {
+     "from": 395,
+     "to": 611,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 611,
+     "to": 629,
+     "p": "sasanian",
+     "s": "occupied"
+    },
+    {
+     "from": 629,
+     "to": 634,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 634,
+     "to": 641,
+     "p": "rashidun",
+     "s": "independent",
+     "note": "Khalid ibn al-Walid's desert march takes Palmyra (634)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": ""
+  },
+  {
+   "id": "sy_phoenicia",
+   "name": "Phoenicia (Tyre, Sidon, Berytus, Byblos)",
+   "seed": [
+    35.5,
+    33.95
+   ],
+   "countries": [
+    "LB"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -332,
+     "p": "achaemenid",
+     "s": "independent",
+     "note": "Sidonian navy the core of the Persian fleet; Sidon destroyed after Tennes' revolt (345)"
+    },
+    {
+     "from": -332,
+     "to": -320,
+     "p": "alexander_empire",
+     "s": "independent",
+     "note": "Siege of Tyre (January-August 332)"
+    },
+    {
+     "from": -320,
+     "to": -315,
+     "p": "ptolemaic",
+     "s": "independent"
+    },
+    {
+     "from": -315,
+     "to": -287,
+     "p": "macedon_antigonid",
+     "s": "independent",
+     "note": "Demetrius holds Tyre and Sidon after Ipsus"
+    },
+    {
+     "from": -287,
+     "to": -219,
+     "p": "ptolemaic",
+     "s": "independent"
+    },
+    {
+     "from": -219,
+     "to": -217,
+     "p": "seleucid",
+     "s": "contested"
+    },
+    {
+     "from": -217,
+     "to": -200,
+     "p": "ptolemaic",
+     "s": "independent"
+    },
+    {
+     "from": -200,
+     "to": -83,
+     "p": "seleucid",
+     "s": "independent",
+     "note": "Panium (200)"
+    },
+    {
+     "from": -83,
+     "to": -69,
+     "p": "armenia",
+     "s": "independent"
+    },
+    {
+     "from": -69,
+     "to": -64,
+     "p": "seleucid",
+     "s": "client"
+    },
+    {
+     "from": -64,
+     "to": -40,
+     "p": "rome",
+     "s": "direct",
+     "note": "Tyre and Sidon free cities"
+    },
+    {
+     "from": -40,
+     "to": -38,
+     "p": "parthia",
+     "s": "occupied",
+     "note": "All but Tyre"
+    },
+    {
+     "from": -38,
+     "to": 270,
+     "p": "rome",
+     "s": "direct",
+     "note": "Berytus a veteran colony (15/14 BC) and law school"
+    },
+    {
+     "from": 270,
+     "to": 272,
+     "p": "palmyrene_empire",
+     "s": "independent"
+    },
+    {
+     "from": 272,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 613,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 613,
+     "to": 629,
+     "p": "sasanian",
+     "s": "occupied",
+     "note": "Persian occupation of Syria and Palestine"
+    },
+    {
+     "from": 629,
+     "to": 636,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Shahrbaraz evacuates (629); Heraclius restores the True Cross at Jerusalem (630)"
+    },
+    {
+     "from": 636,
+     "to": 641,
+     "p": "rashidun",
+     "s": "independent",
+     "note": "Tyre, Sidon and Beirut fall to Yazid and Muawiya (636-638)"
+    }
+   ],
+   "certainty": "certain",
+   "notes": ""
+  },
+  {
+   "id": "sy_ituraea",
+   "name": "Ituraea and Chalcis (Beqaa: Heliopolis)",
+   "seed": [
+    36.2,
+    33.85
+   ],
+   "countries": [
+    "LB"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -332,
+     "p": "achaemenid",
+     "s": "independent"
+    },
+    {
+     "from": -332,
+     "to": -315,
+     "p": "alexander_empire",
+     "s": "independent"
+    },
+    {
+     "from": -315,
+     "to": -301,
+     "p": "macedon_antigonid",
+     "s": "independent"
+    },
+    {
+     "from": -301,
+     "to": -200,
+     "p": "ptolemaic",
+     "s": "independent",
+     "note": "Marsyas valley, Ptolemaic-Seleucid border"
+    },
+    {
+     "from": -200,
+     "to": -100,
+     "p": "seleucid",
+     "s": "independent"
+    },
+    {
+     "from": -100,
+     "to": -64,
+     "p": "ituraea",
+     "s": "independent",
+     "note": "Ptolemaeus son of Mennaeus at Chalcis"
+    },
+    {
+     "from": -64,
+     "to": 93,
+     "p": "ituraea",
+     "s": "client",
+     "note": "Lysanias (executed 36 BC at Cleopatra's request), Zenodorus; Herod of Chalcis (41-48), Agrippa II"
+    },
+    {
+     "from": 93,
+     "to": 270,
+     "p": "rome",
+     "s": "direct",
+     "note": "Heliopolis (Baalbek), colony of Berytus; temple of Jupiter"
+    },
+    {
+     "from": 270,
+     "to": 272,
+     "p": "palmyrene_empire",
+     "s": "independent"
+    },
+    {
+     "from": 272,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 613,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 613,
+     "to": 629,
+     "p": "sasanian",
+     "s": "occupied",
+     "note": "Persian occupation of Syria and Palestine"
+    },
+    {
+     "from": 629,
+     "to": 635,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Shahrbaraz evacuates (629); Heraclius restores the True Cross at Jerusalem (630)"
+    },
+    {
+     "from": 635,
+     "to": 641,
+     "p": "rashidun",
+     "s": "independent",
+     "note": "Arab conquest"
+    }
+   ],
+   "certainty": "probable",
+   "notes": ""
+  },
+  {
+   "id": "sy_damascus",
+   "name": "Damascene",
+   "seed": [
+    36.4,
+    33.45
+   ],
+   "countries": [
+    "SY"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -332,
+     "p": "achaemenid",
+     "s": "independent"
+    },
+    {
+     "from": -332,
+     "to": -315,
+     "p": "alexander_empire",
+     "s": "independent"
+    },
+    {
+     "from": -315,
+     "to": -301,
+     "p": "macedon_antigonid",
+     "s": "independent"
+    },
+    {
+     "from": -301,
+     "to": -200,
+     "p": "ptolemaic",
+     "s": "independent"
+    },
+    {
+     "from": -200,
+     "to": -85,
+     "p": "seleucid",
+     "s": "independent",
+     "note": "Capital of the late Seleucid kingdom of Demetrius III"
+    },
+    {
+     "from": -85,
+     "to": -72,
+     "p": "nabataea",
+     "s": "independent",
+     "note": "Aretas III takes Damascus"
+    },
+    {
+     "from": -72,
+     "to": -69,
+     "p": "armenia",
+     "s": "independent",
+     "note": "Tigranes"
+    },
+    {
+     "from": -69,
+     "to": -64,
+     "p": "nabataea",
+     "s": "independent"
+    },
+    {
+     "from": -64,
+     "to": 270,
+     "p": "rome",
+     "s": "direct",
+     "note": "Decapolis city; a Nabataean ethnarch under Aretas IV in Paul's day (2 Cor 11:32)"
+    },
+    {
+     "from": 270,
+     "to": 272,
+     "p": "palmyrene_empire",
+     "s": "independent"
+    },
+    {
+     "from": 272,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 613,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 613,
+     "to": 629,
+     "p": "sasanian",
+     "s": "occupied",
+     "note": "Damascus falls (613)"
+    },
+    {
+     "from": 629,
+     "to": 634,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 634,
+     "to": 635,
+     "p": "rashidun",
+     "s": "contested",
+     "note": "Siege of Damascus"
+    },
+    {
+     "from": 635,
+     "to": 641,
+     "p": "rashidun",
+     "s": "independent",
+     "note": "Surrender (September 635); briefly evacuated before Yarmuk (636)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": ""
+  },
+  {
+   "id": "sy_hauran",
+   "name": "Auranitis, Batanea and Trachonitis (Hauran, Golan)",
+   "seed": [
+    36.3,
+    32.85
+   ],
+   "countries": [
+    "SY"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -332,
+     "p": "achaemenid",
+     "s": "independent"
+    },
+    {
+     "from": -332,
+     "to": -320,
+     "p": "alexander_empire",
+     "s": "independent",
+     "note": "Sieges of Tyre and Gaza (332)"
+    },
+    {
+     "from": -320,
+     "to": -315,
+     "p": "ptolemaic",
+     "s": "independent",
+     "note": "Ptolemy seizes Syria and Phoenicia"
+    },
+    {
+     "from": -315,
+     "to": -301,
+     "p": "macedon_antigonid",
+     "s": "independent",
+     "note": "Battle of Gaza (312) a brief Ptolemaic return"
+    },
+    {
+     "from": -301,
+     "to": -219,
+     "p": "ptolemaic",
+     "s": "independent",
+     "note": "Ptolemaic Syria and Phoenicia; Zenon papyri"
+    },
+    {
+     "from": -219,
+     "to": -217,
+     "p": "seleucid",
+     "s": "contested",
+     "note": "Fourth Syrian War; Raphia (22 June 217)"
+    },
+    {
+     "from": -217,
+     "to": -200,
+     "p": "ptolemaic",
+     "s": "independent"
+    },
+    {
+     "from": -200,
+     "to": -85,
+     "p": "seleucid",
+     "s": "independent"
+    },
+    {
+     "from": -85,
+     "to": -64,
+     "p": "ituraea",
+     "s": "independent",
+     "note": "Ituraean and Nabataean raiders"
+    },
+    {
+     "from": -64,
+     "to": -23,
+     "p": "ituraea",
+     "s": "client",
+     "note": "Zenodorus' tetrarchy"
+    },
+    {
+     "from": -23,
+     "to": 93,
+     "p": "judaea_herodian",
+     "s": "client",
+     "note": "Augustus gives Trachonitis to Herod (23 BC); tetrarchy of Philip (4 BC-AD 34); Agrippa I and II"
+    },
+    {
+     "from": 93,
+     "to": 270,
+     "p": "rome",
+     "s": "direct",
+     "note": "Bostra in Arabia from 106"
+    },
+    {
+     "from": 270,
+     "to": 272,
+     "p": "palmyrene_empire",
+     "s": "independent",
+     "note": "Zabdas sacks Bostra"
+    },
+    {
+     "from": 272,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 613,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Ghassanid seat at Jabiya (Golan)"
+    },
+    {
+     "from": 613,
+     "to": 629,
+     "p": "sasanian",
+     "s": "occupied"
+    },
+    {
+     "from": 629,
+     "to": 634,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 634,
+     "to": 636,
+     "p": "rashidun",
+     "s": "contested",
+     "note": "Bostra falls (634); Yarmuk (20 August 636)"
+    },
+    {
+     "from": 636,
+     "to": 641,
+     "p": "rashidun",
+     "s": "independent"
+    }
+   ],
+   "certainty": "probable",
+   "notes": ""
+  },
+  {
+   "id": "sy_judaea",
+   "name": "Judaea (Jerusalem) and the coastal plain",
+   "seed": [
+    35.05,
+    31.8
+   ],
+   "countries": [
+    "IL",
+    "PS"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -332,
+     "p": "achaemenid",
+     "s": "independent"
+    },
+    {
+     "from": -332,
+     "to": -320,
+     "p": "alexander_empire",
+     "s": "independent",
+     "note": "Sieges of Tyre and Gaza (332)"
+    },
+    {
+     "from": -320,
+     "to": -315,
+     "p": "ptolemaic",
+     "s": "independent",
+     "note": "Ptolemy seizes Syria and Phoenicia"
+    },
+    {
+     "from": -315,
+     "to": -301,
+     "p": "macedon_antigonid",
+     "s": "independent",
+     "note": "Battle of Gaza (312) a brief Ptolemaic return"
+    },
+    {
+     "from": -301,
+     "to": -219,
+     "p": "ptolemaic",
+     "s": "independent",
+     "note": "Ptolemaic Syria and Phoenicia; Zenon papyri"
+    },
+    {
+     "from": -219,
+     "to": -217,
+     "p": "seleucid",
+     "s": "contested",
+     "note": "Fourth Syrian War; Raphia (22 June 217)"
+    },
+    {
+     "from": -217,
+     "to": -200,
+     "p": "ptolemaic",
+     "s": "independent"
+    },
+    {
+     "from": -200,
+     "to": -167,
+     "p": "seleucid",
+     "s": "independent"
+    },
+    {
+     "from": -167,
+     "to": -142,
+     "p": "seleucid",
+     "s": "contested",
+     "note": "Maccabean revolt; Temple rededicated (164)"
+    },
+    {
+     "from": -142,
+     "to": -63,
+     "p": "hasmonean",
+     "s": "independent",
+     "note": "Simon (142); John Hyrcanus; Alexander Jannaeus"
+    },
+    {
+     "from": -63,
+     "to": -40,
+     "p": "hasmonean",
+     "s": "client",
+     "note": "Pompey takes the Temple (63); Hyrcanus II ethnarch"
+    },
+    {
+     "from": -40,
+     "to": -37,
+     "p": "hasmonean",
+     "s": "independent",
+     "note": "Parthians install Antigonus II"
+    },
+    {
+     "from": -37,
+     "to": 6,
+     "p": "judaea_herodian",
+     "s": "client",
+     "note": "Herod (37-4 BC), Archelaus (4 BC-AD 6)"
+    },
+    {
+     "from": 6,
+     "to": 41,
+     "p": "rome",
+     "s": "direct",
+     "note": "Prefects (Coponius; Pontius Pilate 26-36); census of Quirinius"
+    },
+    {
+     "from": 41,
+     "to": 44,
+     "p": "judaea_herodian",
+     "s": "client",
+     "note": "Agrippa I"
+    },
+    {
+     "from": 44,
+     "to": 66,
+     "p": "rome",
+     "s": "direct",
+     "note": "Procurators"
+    },
+    {
+     "from": 66,
+     "to": 70,
+     "p": "rome",
+     "s": "contested",
+     "note": "First Jewish War; Jerusalem falls (August 70); Masada (73/74)"
+    },
+    {
+     "from": 70,
+     "to": 132,
+     "p": "rome",
+     "s": "direct",
+     "note": "X Fretensis at Jerusalem"
+    },
+    {
+     "from": 132,
+     "to": 135,
+     "p": "rome",
+     "s": "contested",
+     "note": "Bar Kokhba revolt"
+    },
+    {
+     "from": 135,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Aelia Capitolina; Syria Palaestina"
+    },
+    {
+     "from": 395,
+     "to": 614,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 614,
+     "to": 629,
+     "p": "sasanian",
+     "s": "occupied",
+     "note": "Jerusalem sacked (May 614), True Cross taken"
+    },
+    {
+     "from": 629,
+     "to": 634,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 634,
+     "to": 638,
+     "p": "rashidun",
+     "s": "contested",
+     "note": "Ajnadayn (634); Jerusalem surrenders to Umar (637/638)"
+    },
+    {
+     "from": 638,
+     "to": 641,
+     "p": "rashidun",
+     "s": "independent"
+    }
+   ],
+   "certainty": "certain",
+   "notes": ""
+  },
+  {
+   "id": "sy_galilee",
+   "name": "Galilee, Samaria and Caesarea",
+   "seed": [
+    35.25,
+    32.65
+   ],
+   "countries": [
+    "IL",
+    "PS"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -332,
+     "p": "achaemenid",
+     "s": "independent"
+    },
+    {
+     "from": -332,
+     "to": -320,
+     "p": "alexander_empire",
+     "s": "independent",
+     "note": "Sieges of Tyre and Gaza (332)"
+    },
+    {
+     "from": -320,
+     "to": -315,
+     "p": "ptolemaic",
+     "s": "independent",
+     "note": "Ptolemy seizes Syria and Phoenicia"
+    },
+    {
+     "from": -315,
+     "to": -301,
+     "p": "macedon_antigonid",
+     "s": "independent",
+     "note": "Battle of Gaza (312) a brief Ptolemaic return"
+    },
+    {
+     "from": -301,
+     "to": -219,
+     "p": "ptolemaic",
+     "s": "independent",
+     "note": "Ptolemaic Syria and Phoenicia; Zenon papyri"
+    },
+    {
+     "from": -219,
+     "to": -217,
+     "p": "seleucid",
+     "s": "contested",
+     "note": "Fourth Syrian War; Raphia (22 June 217)"
+    },
+    {
+     "from": -217,
+     "to": -200,
+     "p": "ptolemaic",
+     "s": "independent"
+    },
+    {
+     "from": -200,
+     "to": -107,
+     "p": "seleucid",
+     "s": "independent"
+    },
+    {
+     "from": -107,
+     "to": -63,
+     "p": "hasmonean",
+     "s": "independent",
+     "note": "John Hyrcanus destroys Samaria and Gerizim; Aristobulus I annexes Galilee (104)"
+    },
+    {
+     "from": -63,
+     "to": -40,
+     "p": "hasmonean",
+     "s": "client"
+    },
+    {
+     "from": -40,
+     "to": -37,
+     "p": "hasmonean",
+     "s": "independent"
+    },
+    {
+     "from": -37,
+     "to": 44,
+     "p": "judaea_herodian",
+     "s": "client",
+     "note": "Herod; Herod Antipas tetrarch of Galilee (4 BC-AD 39); Agrippa I"
+    },
+    {
+     "from": 44,
+     "to": 66,
+     "p": "rome",
+     "s": "direct",
+     "note": "Caesarea Maritima, seat of the governors"
+    },
+    {
+     "from": 66,
+     "to": 67,
+     "p": "rome",
+     "s": "contested",
+     "note": "Vespasian's Galilee campaign; Jotapata"
+    },
+    {
+     "from": 67,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Sepphoris and Tiberias; the Mishnah (c. 200)"
+    },
+    {
+     "from": 395,
+     "to": 529,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 529,
+     "to": 530,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Samaritan revolt of Julian ben Sabar"
+    },
+    {
+     "from": 530,
+     "to": 614,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 614,
+     "to": 629,
+     "p": "sasanian",
+     "s": "occupied"
+    },
+    {
+     "from": 629,
+     "to": 634,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 634,
+     "to": 636,
+     "p": "rashidun",
+     "s": "contested",
+     "note": "Fahl-Pella (January 635)"
+    },
+    {
+     "from": 636,
+     "to": 641,
+     "p": "rashidun",
+     "s": "independent",
+     "note": "Caesarea holds until 640/641"
+    }
+   ],
+   "certainty": "probable",
+   "notes": ""
+  },
+  {
+   "id": "sy_negev",
+   "name": "Idumaea and the Negev (Elusa, Oboda)",
+   "seed": [
+    34.9,
+    30.9
+   ],
+   "countries": [
+    "IL",
+    "PS"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -312,
+     "p": "arab_tribes",
+     "s": "independent",
+     "note": "Qedarite Arabs, allies of Persia; Edomites move into southern Judaea (Idumaea)"
+    },
+    {
+     "from": -312,
+     "to": -62,
+     "p": "nabataea",
+     "s": "independent",
+     "note": "Antigonus' expedition against the Nabataeans (312); Idumaea proper conquered by John Hyrcanus (c. 112)"
+    },
+    {
+     "from": -62,
+     "to": 106,
+     "p": "nabataea",
+     "s": "client",
+     "note": "Scaurus' expedition (62) imposes tribute"
+    },
+    {
+     "from": 106,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Arabia, later Palaestina Tertia"
+    },
+    {
+     "from": 395,
+     "to": 614,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Nessana papyri"
+    },
+    {
+     "from": 614,
+     "to": 629,
+     "p": "sasanian",
+     "s": "occupied"
+    },
+    {
+     "from": 629,
+     "to": 634,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 634,
+     "to": 641,
+     "p": "rashidun",
+     "s": "independent",
+     "note": "Dathin near Gaza (February 634)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": ""
+  },
+  {
+   "id": "sy_decapolis",
+   "name": "Peraea and the Decapolis (Gerasa, Philadelphia, Gadara)",
+   "seed": [
+    35.9,
+    32.1
+   ],
+   "countries": [
+    "JO"
+   ],
+   "zone": {
+    "in117": true
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -332,
+     "p": "achaemenid",
+     "s": "independent"
+    },
+    {
+     "from": -332,
+     "to": -320,
+     "p": "alexander_empire",
+     "s": "independent",
+     "note": "Sieges of Tyre and Gaza (332)"
+    },
+    {
+     "from": -320,
+     "to": -315,
+     "p": "ptolemaic",
+     "s": "independent",
+     "note": "Ptolemy seizes Syria and Phoenicia"
+    },
+    {
+     "from": -315,
+     "to": -301,
+     "p": "macedon_antigonid",
+     "s": "independent",
+     "note": "Battle of Gaza (312) a brief Ptolemaic return"
+    },
+    {
+     "from": -301,
+     "to": -219,
+     "p": "ptolemaic",
+     "s": "independent",
+     "note": "Ptolemaic Syria and Phoenicia; Zenon papyri"
+    },
+    {
+     "from": -219,
+     "to": -217,
+     "p": "seleucid",
+     "s": "contested",
+     "note": "Fourth Syrian War; Raphia (22 June 217)"
+    },
+    {
+     "from": -217,
+     "to": -200,
+     "p": "ptolemaic",
+     "s": "independent"
+    },
+    {
+     "from": -200,
+     "to": -100,
+     "p": "seleucid",
+     "s": "independent",
+     "note": "Tobiad Hyrcanus at Iraq al-Amir"
+    },
+    {
+     "from": -100,
+     "to": -63,
+     "p": "hasmonean",
+     "s": "independent",
+     "note": "Alexander Jannaeus conquers Gadara, Pella and Moab"
+    },
+    {
+     "from": -63,
+     "to": 106,
+     "p": "rome",
+     "s": "direct",
+     "note": "Decapolis freed by Pompey (63); Peraea under Herod Antipas (4 BC-AD 39)"
+    },
+    {
+     "from": 106,
+     "to": 270,
+     "p": "rome",
+     "s": "direct",
+     "note": "Philadelphia and Gerasa in Arabia (106)"
+    },
+    {
+     "from": 270,
+     "to": 272,
+     "p": "palmyrene_empire",
+     "s": "independent"
+    },
+    {
+     "from": 272,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 614,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 614,
+     "to": 629,
+     "p": "sasanian",
+     "s": "occupied"
+    },
+    {
+     "from": 629,
+     "to": 634,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 634,
+     "to": 636,
+     "p": "rashidun",
+     "s": "contested",
+     "note": "Fahl-Pella (635)"
+    },
+    {
+     "from": 636,
+     "to": 641,
+     "p": "rashidun",
+     "s": "independent"
+    }
+   ],
+   "certainty": "probable",
+   "notes": ""
+  },
+  {
+   "id": "sy_nabataea",
+   "name": "Nabataea (Petra, Moab, Aila)",
+   "seed": [
+    35.6,
+    30.4
+   ],
+   "countries": [
+    "JO",
+    "SA"
+   ],
+   "zone": {
+    "in117": true
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -312,
+     "p": "arab_tribes",
+     "s": "independent",
+     "note": "Edom and Qedar"
+    },
+    {
+     "from": -312,
+     "to": -62,
+     "p": "nabataea",
+     "s": "independent",
+     "note": "Petra; incense trade"
+    },
+    {
+     "from": -62,
+     "to": 106,
+     "p": "nabataea",
+     "s": "client",
+     "note": "Aretas IV (9 BC-AD 40); Rabbel II, last king (70-106)"
+    },
+    {
+     "from": 106,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Cornelius Palma annexes Arabia (106); Via Nova Traiana (111-114)"
+    },
+    {
+     "from": 395,
+     "to": 614,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Palaestina Tertia; Petra papyri (6th c.)"
+    },
+    {
+     "from": 614,
+     "to": 629,
+     "p": "sasanian",
+     "s": "occupied"
+    },
+    {
+     "from": 629,
+     "to": 630,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Mu'ta (September 629)"
+    },
+    {
+     "from": 630,
+     "to": 634,
+     "p": "rashidun",
+     "s": "contested",
+     "note": "Ayla, Adhruh and Jarba submit to Muhammad during the Tabuk expedition (630)"
+    },
+    {
+     "from": 634,
+     "to": 641,
+     "p": "rashidun",
+     "s": "independent"
+    }
+   ],
+   "certainty": "probable",
+   "notes": ""
+  },
+  {
+   "id": "sy_euphratensis",
+   "name": "Cyrrhestice, Euphratensis and the Balikh (Hierapolis, Beroea, Callinicum)",
+   "seed": [
+    38.2,
+    36.5
+   ],
+   "countries": [
+    "SY"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -333,
+     "p": "achaemenid",
+     "s": "independent",
+     "note": "Satrapy Beyond the River (Ebir-nari)"
+    },
+    {
+     "from": -333,
+     "to": -315,
+     "p": "alexander_empire",
+     "s": "independent",
+     "note": "Issus (November 333); Laomedon satrap; Ptolemy seizes Syria 320"
+    },
+    {
+     "from": -315,
+     "to": -301,
+     "p": "macedon_antigonid",
+     "s": "independent",
+     "note": "Antigonia on the Orontes (307)"
+    },
+    {
+     "from": -301,
+     "to": -83,
+     "p": "seleucid",
+     "s": "independent",
+     "note": "Seleucis: the tetrapolis of Antioch, Seleucia Pieria, Apamea, Laodicea"
+    },
+    {
+     "from": -83,
+     "to": -69,
+     "p": "armenia",
+     "s": "independent",
+     "note": "Tigranes the Great rules Syria; Magadates his governor"
+    },
+    {
+     "from": -69,
+     "to": -64,
+     "p": "seleucid",
+     "s": "client",
+     "note": "Antiochus XIII restored by Lucullus"
+    },
+    {
+     "from": -64,
+     "to": -40,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": -40,
+     "to": -38,
+     "p": "parthia",
+     "s": "occupied"
+    },
+    {
+     "from": -38,
+     "to": 253,
+     "p": "rome",
+     "s": "direct",
+     "note": "Hierapolis Bambyce, temple of Atargatis (Lucian's De Dea Syria)"
+    },
+    {
+     "from": 253,
+     "to": 254,
+     "p": "sasanian",
+     "s": "occupied"
+    },
+    {
+     "from": 254,
+     "to": 270,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 270,
+     "to": 272,
+     "p": "palmyrene_empire",
+     "s": "independent"
+    },
+    {
+     "from": 272,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 540,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 540,
+     "to": 541,
+     "p": "sasanian",
+     "s": "occupied",
+     "note": "Khosrow ransoms Hierapolis and burns Beroea"
+    },
+    {
+     "from": 541,
+     "to": 610,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 610,
+     "to": 629,
+     "p": "sasanian",
+     "s": "occupied"
+    },
+    {
+     "from": 629,
+     "to": 637,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 637,
+     "to": 641,
+     "p": "rashidun",
+     "s": "independent",
+     "note": "Aleppo and Hierapolis surrender (637)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": ""
+  },
+  {
+   "id": "ar_syrian_desert",
+   "name": "Syrian Desert and Wadi Sirhan (Dumat al-Jandal)",
+   "seed": [
+    39.0,
+    31.2
+   ],
+   "countries": [
+    "JO",
+    "SA",
+    "SY",
+    "IQ"
+   ],
+   "zone": {
+    "in117": false
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -312,
+     "p": "arab_tribes",
+     "s": "independent",
+     "note": "Qedarite confederation, tributary allies of Persia"
+    },
+    {
+     "from": -312,
+     "to": 300,
+     "p": "arab_tribes",
+     "s": "independent",
+     "note": "Nabataean influence in Wadi Sirhan; Roman outposts at Dumata and Azraq (3rd c.)"
+    },
+    {
+     "from": 300,
+     "to": 502,
+     "p": "arab_tribes",
+     "s": "ally",
+     "note": "Tanukh and Salihid federates; Imru' al-Qays, king of all the Arabs, buried at Namara (328)"
+    },
+    {
+     "from": 502,
+     "to": 614,
+     "p": "ghassanids",
+     "s": "ally",
+     "note": "Ghassanid phylarchs; al-Harith ibn Jabala supreme phylarch (529); confederation broken up after 582"
+    },
+    {
+     "from": 614,
+     "to": 628,
+     "p": "arab_tribes",
+     "s": "independent",
+     "note": "Persian occupation of Syria"
+    },
+    {
+     "from": 628,
+     "to": 634,
+     "p": "ghassanids",
+     "s": "ally",
+     "note": "Jabala ibn al-Ayham; Khalid takes Dumat al-Jandal (630/631)"
+    },
+    {
+     "from": 634,
+     "to": 641,
+     "p": "rashidun",
+     "s": "independent"
+    }
+   ],
+   "certainty": "approx",
+   "notes": ""
+  },
+  {
+   "id": "me_osroene",
+   "name": "Osroene (Edessa, Carrhae, Batnae)",
+   "seed": [
+    39.0,
+    36.95
+   ],
+   "countries": [
+    "TR",
+    "SY"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -331,
+     "p": "achaemenid",
+     "s": "independent"
+    },
+    {
+     "from": -331,
+     "to": -312,
+     "p": "alexander_empire",
+     "s": "independent"
+    },
+    {
+     "from": -312,
+     "to": -132,
+     "p": "seleucid",
+     "s": "independent",
+     "note": "Edessa refounded by Seleucus I"
+    },
+    {
+     "from": -132,
+     "to": 114,
+     "p": "osroene",
+     "s": "independent",
+     "note": "Abgarid kingdom (c. 132); Abgar II misleads Crassus; Carrhae (9 June 53 BC)"
+    },
+    {
+     "from": 114,
+     "to": 117,
+     "p": "osroene",
+     "s": "client",
+     "note": "Abgar VII submits to Trajan; Lusius Quietus sacks Edessa after the revolt of 116"
+    },
+    {
+     "from": 117,
+     "to": 165,
+     "p": "osroene",
+     "s": "independent"
+    },
+    {
+     "from": 165,
+     "to": 214,
+     "p": "osroene",
+     "s": "client",
+     "note": "Edessa taken in Lucius Verus' war; Severus' province around Edessa (195); Abgar VIII the Great"
+    },
+    {
+     "from": 214,
+     "to": 238,
+     "p": "rome",
+     "s": "direct",
+     "note": "Caracalla deposes Abgar IX; colonia; Caracalla murdered near Carrhae (217)"
+    },
+    {
+     "from": 238,
+     "to": 242,
+     "p": "sasanian",
+     "s": "occupied",
+     "note": "Ardashir takes Carrhae"
+    },
+    {
+     "from": 242,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Valerian captured near Edessa (260)"
+    },
+    {
+     "from": 395,
+     "to": 609,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Khosrow's siege of Edessa fails (544)"
+    },
+    {
+     "from": 609,
+     "to": 628,
+     "p": "sasanian",
+     "s": "occupied",
+     "note": "Edessa falls (609)"
+    },
+    {
+     "from": 628,
+     "to": 639,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 639,
+     "to": 641,
+     "p": "rashidun",
+     "s": "independent",
+     "note": "Edessa capitulates to Iyad ibn Ghanm"
+    }
+   ],
+   "certainty": "probable",
+   "notes": ""
+  },
+  {
+   "id": "me_nisibis",
+   "name": "Mygdonia (Nisibis and the Khabur plain)",
+   "seed": [
+    40.6,
+    36.6
+   ],
+   "countries": [
+    "SY",
+    "TR"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -331,
+     "p": "achaemenid",
+     "s": "independent"
+    },
+    {
+     "from": -331,
+     "to": -312,
+     "p": "alexander_empire",
+     "s": "independent"
+    },
+    {
+     "from": -312,
+     "to": -141,
+     "p": "seleucid",
+     "s": "independent",
+     "note": "Antiochia Mygdoniae"
+    },
+    {
+     "from": -141,
+     "to": 115,
+     "p": "parthia",
+     "s": "independent",
+     "note": "Armenian under Tigranes (80-68); Lucullus storms Nisibis (68)"
+    },
+    {
+     "from": 115,
+     "to": 117,
+     "p": "rome",
+     "s": "direct",
+     "note": "Trajan's Mesopotamia"
+    },
+    {
+     "from": 117,
+     "to": 195,
+     "p": "parthia",
+     "s": "independent",
+     "note": "Adiabenian dependency"
+    },
+    {
+     "from": 195,
+     "to": 238,
+     "p": "rome",
+     "s": "direct",
+     "note": "Severan province of Mesopotamia, colonia Septimia Nisibis"
+    },
+    {
+     "from": 238,
+     "to": 242,
+     "p": "sasanian",
+     "s": "occupied"
+    },
+    {
+     "from": 242,
+     "to": 252,
+     "p": "rome",
+     "s": "direct",
+     "note": "Recovered by Timesitheus and Gordian III"
+    },
+    {
+     "from": 252,
+     "to": 262,
+     "p": "sasanian",
+     "s": "occupied",
+     "note": "Shapur I's campaigns"
+    },
+    {
+     "from": 262,
+     "to": 270,
+     "p": "rome",
+     "s": "direct",
+     "note": "Odaenathus recovers Mesopotamia"
+    },
+    {
+     "from": 270,
+     "to": 272,
+     "p": "palmyrene_empire",
+     "s": "independent"
+    },
+    {
+     "from": 272,
+     "to": 363,
+     "p": "rome",
+     "s": "direct",
+     "note": "Shapur II's sieges fail (338, 346, 350); Ephrem the Syrian"
+    },
+    {
+     "from": 363,
+     "to": 639,
+     "p": "sasanian",
+     "s": "independent",
+     "note": "Ceded by Jovian (363); the citizens are evacuated to Amida"
+    },
+    {
+     "from": 639,
+     "to": 641,
+     "p": "rashidun",
+     "s": "independent"
+    }
+   ],
+   "certainty": "probable",
+   "notes": ""
+  },
+  {
+   "id": "me_tur_abdin",
+   "name": "Tur Abdin and Dara (Mardin)",
+   "seed": [
+    40.9,
+    37.35
+   ],
+   "countries": [
+    "TR"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -331,
+     "p": "achaemenid",
+     "s": "independent"
+    },
+    {
+     "from": -331,
+     "to": -312,
+     "p": "alexander_empire",
+     "s": "independent"
+    },
+    {
+     "from": -312,
+     "to": -141,
+     "p": "seleucid",
+     "s": "independent"
+    },
+    {
+     "from": -141,
+     "to": 115,
+     "p": "parthia",
+     "s": "independent"
+    },
+    {
+     "from": 115,
+     "to": 117,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 117,
+     "to": 195,
+     "p": "parthia",
+     "s": "independent"
+    },
+    {
+     "from": 195,
+     "to": 238,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 238,
+     "to": 242,
+     "p": "sasanian",
+     "s": "occupied"
+    },
+    {
+     "from": 242,
+     "to": 252,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 252,
+     "to": 262,
+     "p": "sasanian",
+     "s": "occupied"
+    },
+    {
+     "from": 262,
+     "to": 270,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 270,
+     "to": 272,
+     "p": "palmyrene_empire",
+     "s": "independent"
+    },
+    {
+     "from": 272,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 573,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Dara-Anastasiopolis founded (505) facing Nisibis; Belisarius wins at Dara (530)"
+    },
+    {
+     "from": 573,
+     "to": 591,
+     "p": "sasanian",
+     "s": "occupied",
+     "note": "Dara falls to Khosrow I (November 573)"
+    },
+    {
+     "from": 591,
+     "to": 604,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Returned in 591"
+    },
+    {
+     "from": 604,
+     "to": 628,
+     "p": "sasanian",
+     "s": "occupied",
+     "note": "Dara falls after a nine-month siege (604)"
+    },
+    {
+     "from": 628,
+     "to": 639,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 639,
+     "to": 641,
+     "p": "rashidun",
+     "s": "independent",
+     "note": "Dara taken (640)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": ""
+  },
+  {
+   "id": "me_amida",
+   "name": "Amida and Tigranocerta (Diyarbakir)",
+   "seed": [
+    40.5,
+    38.1
+   ],
+   "countries": [
+    "TR"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -331,
+     "p": "achaemenid",
+     "s": "independent"
+    },
+    {
+     "from": -331,
+     "to": -95,
+     "p": "armenia",
+     "s": "independent",
+     "note": "Sophene"
+    },
+    {
+     "from": -95,
+     "to": -69,
+     "p": "armenia",
+     "s": "independent",
+     "note": "Tigranocerta founded by Tigranes"
+    },
+    {
+     "from": -69,
+     "to": -66,
+     "p": "rome",
+     "s": "contested",
+     "note": "Lucullus takes Tigranocerta (69)"
+    },
+    {
+     "from": -66,
+     "to": 114,
+     "p": "armenia",
+     "s": "client"
+    },
+    {
+     "from": 114,
+     "to": 117,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 117,
+     "to": 195,
+     "p": "armenia",
+     "s": "independent"
+    },
+    {
+     "from": 195,
+     "to": 359,
+     "p": "rome",
+     "s": "direct",
+     "note": "Amida fortified by Constantius II (349)"
+    },
+    {
+     "from": 359,
+     "to": 360,
+     "p": "sasanian",
+     "s": "occupied",
+     "note": "Shapur II takes Amida after a 73-day siege (Ammianus 19)"
+    },
+    {
+     "from": 360,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Rebuilt; receives the refugees of Nisibis (363)"
+    },
+    {
+     "from": 395,
+     "to": 503,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 503,
+     "to": 505,
+     "p": "sasanian",
+     "s": "occupied",
+     "note": "Kavadh takes Amida (January 503); returned for ransom"
+    },
+    {
+     "from": 505,
+     "to": 609,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 609,
+     "to": 628,
+     "p": "sasanian",
+     "s": "occupied"
+    },
+    {
+     "from": 628,
+     "to": 639,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 639,
+     "to": 641,
+     "p": "rashidun",
+     "s": "independent"
+    }
+   ],
+   "certainty": "approx",
+   "notes": "Location of Tigranocerta (Arzan vs Silvan) debated; Roman control of Amida before the 3rd c. uncertain."
+  },
+  {
+   "id": "me_singara",
+   "name": "Singara and Jebel Sinjar",
+   "seed": [
+    41.9,
+    36.35
+   ],
+   "countries": [
+    "IQ",
+    "SY"
+   ],
+   "zone": {
+    "in117": true
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -331,
+     "p": "achaemenid",
+     "s": "independent"
+    },
+    {
+     "from": -331,
+     "to": -312,
+     "p": "alexander_empire",
+     "s": "independent"
+    },
+    {
+     "from": -312,
+     "to": -141,
+     "p": "seleucid",
+     "s": "independent"
+    },
+    {
+     "from": -141,
+     "to": 115,
+     "p": "parthia",
+     "s": "independent"
+    },
+    {
+     "from": 115,
+     "to": 117,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 117,
+     "to": 198,
+     "p": "parthia",
+     "s": "independent"
+    },
+    {
+     "from": 198,
+     "to": 238,
+     "p": "rome",
+     "s": "direct",
+     "note": "Severan Mesopotamia; legio I Parthica at Singara"
+    },
+    {
+     "from": 238,
+     "to": 242,
+     "p": "sasanian",
+     "s": "occupied"
+    },
+    {
+     "from": 242,
+     "to": 252,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 252,
+     "to": 262,
+     "p": "sasanian",
+     "s": "occupied"
+    },
+    {
+     "from": 262,
+     "to": 270,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 270,
+     "to": 272,
+     "p": "palmyrene_empire",
+     "s": "independent"
+    },
+    {
+     "from": 272,
+     "to": 360,
+     "p": "rome",
+     "s": "direct",
+     "note": "Night battle of Singara (344)"
+    },
+    {
+     "from": 360,
+     "to": 637,
+     "p": "sasanian",
+     "s": "independent",
+     "note": "Shapur II takes Singara (360); ceded 363"
+    },
+    {
+     "from": 637,
+     "to": 641,
+     "p": "rashidun",
+     "s": "independent"
+    }
+   ],
+   "certainty": "probable",
+   "notes": ""
+  },
+  {
+   "id": "me_dura",
+   "name": "Middle Euphrates (Dura-Europos, Circesium)",
+   "seed": [
+    40.6,
+    35.0
+   ],
+   "countries": [
+    "SY",
+    "IQ"
+   ],
+   "zone": {
+    "in200": true
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -331,
+     "p": "achaemenid",
+     "s": "independent"
+    },
+    {
+     "from": -331,
+     "to": -312,
+     "p": "alexander_empire",
+     "s": "independent"
+    },
+    {
+     "from": -312,
+     "to": -113,
+     "p": "seleucid",
+     "s": "independent",
+     "note": "Dura-Europos founded c. 300"
+    },
+    {
+     "from": -113,
+     "to": 115,
+     "p": "parthia",
+     "s": "independent",
+     "note": "Parthian Dura"
+    },
+    {
+     "from": 115,
+     "to": 117,
+     "p": "rome",
+     "s": "occupied",
+     "note": "Trajan's arch at Dura (116)"
+    },
+    {
+     "from": 117,
+     "to": 165,
+     "p": "parthia",
+     "s": "independent"
+    },
+    {
+     "from": 165,
+     "to": 256,
+     "p": "rome",
+     "s": "direct",
+     "note": "Dura Roman (165); synagogue and house-church frescoes"
+    },
+    {
+     "from": 256,
+     "to": 262,
+     "p": "sasanian",
+     "s": "occupied",
+     "note": "Shapur I takes Dura (256); city abandoned"
+    },
+    {
+     "from": 262,
+     "to": 270,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 270,
+     "to": 272,
+     "p": "palmyrene_empire",
+     "s": "independent"
+    },
+    {
+     "from": 272,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Diocletian's fortress at Circesium; Julian's march down the Euphrates (363)"
+    },
+    {
+     "from": 395,
+     "to": 609,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 609,
+     "to": 628,
+     "p": "sasanian",
+     "s": "occupied"
+    },
+    {
+     "from": 628,
+     "to": 637,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 637,
+     "to": 641,
+     "p": "rashidun",
+     "s": "independent"
+    }
+   ],
+   "certainty": "probable",
+   "notes": ""
+  },
+  {
+   "id": "me_hatra",
+   "name": "Hatra and the Jazira (Arabaya)",
+   "seed": [
+    42.9,
+    35.4
+   ],
+   "countries": [
+    "IQ"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -331,
+     "p": "achaemenid",
+     "s": "independent"
+    },
+    {
+     "from": -331,
+     "to": -312,
+     "p": "alexander_empire",
+     "s": "independent"
+    },
+    {
+     "from": -312,
+     "to": -141,
+     "p": "seleucid",
+     "s": "independent"
+    },
+    {
+     "from": -141,
+     "to": 50,
+     "p": "parthia",
+     "s": "independent"
+    },
+    {
+     "from": 50,
+     "to": 230,
+     "p": "hatra",
+     "s": "independent",
+     "note": "Arab kingdom of Hatra; repels Trajan (117) and Severus (198, 199)"
+    },
+    {
+     "from": 230,
+     "to": 241,
+     "p": "hatra",
+     "s": "ally",
+     "note": "Roman garrison (cohors IX Maurorum)"
+    },
+    {
+     "from": 241,
+     "to": 637,
+     "p": "sasanian",
+     "s": "independent",
+     "note": "Hatra destroyed by Ardashir and Shapur (240/241)"
+    },
+    {
+     "from": 637,
+     "to": 641,
+     "p": "rashidun",
+     "s": "independent",
+     "note": "Tikrit falls (637); Mosul (641)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": ""
+  },
+  {
+   "id": "me_adiabene",
+   "name": "Adiabene (Arbela)",
+   "seed": [
+    44.2,
+    36.3
+   ],
+   "countries": [
+    "IQ"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -331,
+     "p": "achaemenid",
+     "s": "independent"
+    },
+    {
+     "from": -331,
+     "to": -312,
+     "p": "alexander_empire",
+     "s": "independent",
+     "note": "Gaugamela, near Arbela (1 October 331)"
+    },
+    {
+     "from": -312,
+     "to": -125,
+     "p": "seleucid",
+     "s": "independent"
+    },
+    {
+     "from": -125,
+     "to": -100,
+     "p": "parthia",
+     "s": "independent"
+    },
+    {
+     "from": -100,
+     "to": 116,
+     "p": "adiabene",
+     "s": "independent",
+     "note": "Parthian vassal kingdom; Queen Helena and Izates convert to Judaism"
+    },
+    {
+     "from": 116,
+     "to": 117,
+     "p": "rome",
+     "s": "occupied",
+     "note": "Trajan's province of Assyria"
+    },
+    {
+     "from": 117,
+     "to": 226,
+     "p": "adiabene",
+     "s": "independent"
+    },
+    {
+     "from": 226,
+     "to": 627,
+     "p": "sasanian",
+     "s": "independent",
+     "note": "Christian metropolis of Arbela"
+    },
+    {
+     "from": 627,
+     "to": 628,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Heraclius wins at Nineveh (12 December 627)"
+    },
+    {
+     "from": 628,
+     "to": 637,
+     "p": "sasanian",
+     "s": "independent"
+    },
+    {
+     "from": 637,
+     "to": 641,
+     "p": "rashidun",
+     "s": "contested"
+    }
+   ],
+   "certainty": "probable",
+   "notes": ""
+  },
+  {
+   "id": "me_babylonia",
+   "name": "Babylonia (Seleucia-Ctesiphon, Babylon)",
+   "seed": [
+    44.6,
+    33.2
+   ],
+   "countries": [
+    "IQ"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -331,
+     "p": "achaemenid",
+     "s": "independent",
+     "note": "Revolts of 484 crushed by Xerxes"
+    },
+    {
+     "from": -331,
+     "to": -315,
+     "p": "alexander_empire",
+     "s": "independent",
+     "note": "Alexander dies at Babylon (11 June 323)"
+    },
+    {
+     "from": -315,
+     "to": -312,
+     "p": "macedon_antigonid",
+     "s": "independent",
+     "note": "Seleucus flees to Egypt"
+    },
+    {
+     "from": -312,
+     "to": -309,
+     "p": "seleucid",
+     "s": "contested",
+     "note": "Babylonian War; Seleucid era begins 312/311"
+    },
+    {
+     "from": -309,
+     "to": -141,
+     "p": "seleucid",
+     "s": "independent",
+     "note": "Seleucia on the Tigris"
+    },
+    {
+     "from": -141,
+     "to": -130,
+     "p": "parthia",
+     "s": "independent",
+     "note": "Mithridates I enters Seleucia (July 141)"
+    },
+    {
+     "from": -130,
+     "to": -129,
+     "p": "seleucid",
+     "s": "occupied",
+     "note": "Antiochus VII's reconquest"
+    },
+    {
+     "from": -129,
+     "to": 116,
+     "p": "parthia",
+     "s": "independent",
+     "note": "Ctesiphon the winter capital"
+    },
+    {
+     "from": 116,
+     "to": 117,
+     "p": "rome",
+     "s": "occupied",
+     "note": "Trajan takes Ctesiphon and crowns Parthamaspates"
+    },
+    {
+     "from": 117,
+     "to": 226,
+     "p": "parthia",
+     "s": "independent",
+     "note": "Avidius Cassius sacks Seleucia (165); Severus sacks Ctesiphon (198)"
+    },
+    {
+     "from": 226,
+     "to": 636,
+     "p": "sasanian",
+     "s": "independent",
+     "note": "Ardashir crowned at Ctesiphon; Carus dies there (283); Julian before its walls (363); Taq-i Kisra"
+    },
+    {
+     "from": 636,
+     "to": 637,
+     "p": "rashidun",
+     "s": "contested",
+     "note": "Qadisiyya (636/637)"
+    },
+    {
+     "from": 637,
+     "to": 641,
+     "p": "rashidun",
+     "s": "independent",
+     "note": "Ctesiphon falls (March 637); Jalula (637)"
+    }
+   ],
+   "certainty": "certain",
+   "notes": ""
+  },
+  {
+   "id": "me_mesene",
+   "name": "Characene and Mesene (Charax Spasinou)",
+   "seed": [
+    47.0,
+    30.9
+   ],
+   "countries": [
+    "IQ",
+    "KW"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -331,
+     "p": "achaemenid",
+     "s": "independent"
+    },
+    {
+     "from": -331,
+     "to": -312,
+     "p": "alexander_empire",
+     "s": "independent",
+     "note": "Alexandria on the Tigris"
+    },
+    {
+     "from": -312,
+     "to": -141,
+     "p": "seleucid",
+     "s": "independent",
+     "note": "Seleucid garrison on Failaka (Ikaros)"
+    },
+    {
+     "from": -141,
+     "to": 116,
+     "p": "characene",
+     "s": "independent",
+     "note": "Hyspaosines; Parthian vassal from 122"
+    },
+    {
+     "from": 116,
+     "to": 117,
+     "p": "characene",
+     "s": "client",
+     "note": "Attambelos VII submits to Trajan, who watches ships leave for India"
+    },
+    {
+     "from": 117,
+     "to": 222,
+     "p": "characene",
+     "s": "independent"
+    },
+    {
+     "from": 222,
+     "to": 633,
+     "p": "sasanian",
+     "s": "independent",
+     "note": "Ardashir conquers Mesene"
+    },
+    {
+     "from": 633,
+     "to": 636,
+     "p": "rashidun",
+     "s": "contested",
+     "note": "Battle of Chains (633); Ubulla taken"
+    },
+    {
+     "from": 636,
+     "to": 641,
+     "p": "rashidun",
+     "s": "independent",
+     "note": "Basra founded (636-638)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": ""
+  },
+  {
+   "id": "me_hira",
+   "name": "Al-Hira and the Euphrates desert edge",
+   "seed": [
+    44.2,
+    31.6
+   ],
+   "countries": [
+    "IQ",
+    "SA"
+   ],
+   "zone": {
+    "in117": false
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -331,
+     "p": "achaemenid",
+     "s": "independent"
+    },
+    {
+     "from": -331,
+     "to": -312,
+     "p": "alexander_empire",
+     "s": "independent"
+    },
+    {
+     "from": -312,
+     "to": -141,
+     "p": "seleucid",
+     "s": "independent"
+    },
+    {
+     "from": -141,
+     "to": 224,
+     "p": "parthia",
+     "s": "independent"
+    },
+    {
+     "from": 224,
+     "to": 300,
+     "p": "sasanian",
+     "s": "independent"
+    },
+    {
+     "from": 300,
+     "to": 602,
+     "p": "lakhmids",
+     "s": "independent",
+     "note": "Lakhmid kings, Sasanian clients; al-Mundhir III (503-554) raids Syria"
+    },
+    {
+     "from": 602,
+     "to": 633,
+     "p": "sasanian",
+     "s": "independent",
+     "note": "Nu'man III deposed (602); Arab victory at Dhu Qar (c. 609)"
+    },
+    {
+     "from": 633,
+     "to": 634,
+     "p": "rashidun",
+     "s": "independent",
+     "note": "Khalid takes Hira (633)"
+    },
+    {
+     "from": 634,
+     "to": 636,
+     "p": "rashidun",
+     "s": "contested",
+     "note": "Battle of the Bridge (634); Buwayb"
+    },
+    {
+     "from": 636,
+     "to": 641,
+     "p": "rashidun",
+     "s": "independent"
+    }
+   ],
+   "certainty": "probable",
+   "notes": ""
+  }
+ ]
+}

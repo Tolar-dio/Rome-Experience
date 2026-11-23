@@ -1,0 +1,1527 @@
+{
+ "regions": [
+  {
+   "id": "gr_macedonia",
+   "name": "Lower Macedonia (Pella, Thessalonica, Chalcidice)",
+   "seed": [
+    22.6,
+    40.7
+   ],
+   "countries": [
+    "GR"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -479,
+     "p": "macedon",
+     "s": "independent",
+     "note": "Amyntas I and Alexander I, vassals of Persia c. 510-479"
+    },
+    {
+     "from": -479,
+     "to": -294,
+     "p": "macedon",
+     "s": "independent",
+     "note": "Argeads; Philip II (359-336) and Alexander; Antipater and Cassander (king 305-297)"
+    },
+    {
+     "from": -294,
+     "to": -288,
+     "p": "macedon_antigonid",
+     "s": "independent",
+     "note": "Demetrius Poliorcetes king of Macedon"
+    },
+    {
+     "from": -288,
+     "to": -285,
+     "p": "macedon",
+     "s": "contested",
+     "note": "Partition between Lysimachus and Pyrrhus"
+    },
+    {
+     "from": -285,
+     "to": -281,
+     "p": "lysimachus",
+     "s": "independent"
+    },
+    {
+     "from": -281,
+     "to": -279,
+     "p": "macedon",
+     "s": "independent",
+     "note": "Ptolemy Keraunos"
+    },
+    {
+     "from": -279,
+     "to": -277,
+     "p": "gauls",
+     "s": "contested",
+     "note": "Gallic invasion under Bolgius and Brennus; anarchy"
+    },
+    {
+     "from": -277,
+     "to": -274,
+     "p": "macedon_antigonid",
+     "s": "independent",
+     "note": "Antigonus Gonatas after his victory at Lysimachia"
+    },
+    {
+     "from": -274,
+     "to": -272,
+     "p": "epirus",
+     "s": "independent",
+     "note": "Pyrrhus king of Macedon again"
+    },
+    {
+     "from": -272,
+     "to": -168,
+     "p": "macedon_antigonid",
+     "s": "independent",
+     "note": "Antigonid kingdom; Second Macedonian War ends at Cynoscephalae (197); Pydna (22 June 168)"
+    },
+    {
+     "from": -168,
+     "to": -149,
+     "p": "macedonian_merides",
+     "s": "client",
+     "note": "Aemilius Paullus divides Macedonia into four tributary republics (167)"
+    },
+    {
+     "from": -149,
+     "to": -148,
+     "p": "macedon_antigonid",
+     "s": "contested",
+     "note": "Revolt of Andriscus (pseudo-Philip VI), defeated by Q. Caecilius Metellus"
+    },
+    {
+     "from": -148,
+     "to": -88,
+     "p": "rome",
+     "s": "direct",
+     "note": "Province of Macedonia (148/146); Via Egnatia"
+    },
+    {
+     "from": -88,
+     "to": -86,
+     "p": "pontus",
+     "s": "occupied",
+     "note": "Mithridates' son Arcathias overruns Macedonia"
+    },
+    {
+     "from": -86,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Gothic attack on Thessalonica 268; Galerius' palace at Thessalonica"
+    },
+    {
+     "from": 395,
+     "to": 615,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Alaric's Goths 395; Theoderic's Goths 479-483; Avar-Slav siege of Thessalonica 586"
+    },
+    {
+     "from": 615,
+     "to": 641,
+     "p": "slavs",
+     "s": "contested",
+     "note": "Sclaviniae: Drougoubitai, Sagoudatai, Berzitai; Thessalonica besieged 615-618 (Miracles of St Demetrius) but holds"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Thessalonica never fell; the countryside was Slav-dominated from the 610s, so shown as contested."
+  },
+  {
+   "id": "gr_macedonia_upper",
+   "name": "Upper Macedonia (Elimeia, Orestis, Lyncestis)",
+   "seed": [
+    21.4,
+    40.4
+   ],
+   "countries": [
+    "GR"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -358,
+     "p": "macedon",
+     "s": "independent",
+     "note": "Upper Macedonian kingdoms (Lyncestis, Elimeia) semi-independent until Philip II"
+    },
+    {
+     "from": -358,
+     "to": -294,
+     "p": "macedon",
+     "s": "independent",
+     "note": "Annexed by Philip II"
+    },
+    {
+     "from": -294,
+     "to": -288,
+     "p": "macedon_antigonid",
+     "s": "independent",
+     "note": "Demetrius Poliorcetes king of Macedon"
+    },
+    {
+     "from": -288,
+     "to": -285,
+     "p": "macedon",
+     "s": "contested",
+     "note": "Partition between Lysimachus and Pyrrhus"
+    },
+    {
+     "from": -285,
+     "to": -281,
+     "p": "lysimachus",
+     "s": "independent"
+    },
+    {
+     "from": -281,
+     "to": -279,
+     "p": "macedon",
+     "s": "independent",
+     "note": "Ptolemy Keraunos"
+    },
+    {
+     "from": -279,
+     "to": -277,
+     "p": "gauls",
+     "s": "contested",
+     "note": "Gallic invasion under Bolgius and Brennus; anarchy"
+    },
+    {
+     "from": -277,
+     "to": -274,
+     "p": "macedon_antigonid",
+     "s": "independent",
+     "note": "Antigonus Gonatas after his victory at Lysimachia"
+    },
+    {
+     "from": -274,
+     "to": -272,
+     "p": "epirus",
+     "s": "independent",
+     "note": "Pyrrhus king of Macedon again"
+    },
+    {
+     "from": -272,
+     "to": -168,
+     "p": "macedon_antigonid",
+     "s": "independent",
+     "note": "Antigonid kingdom; Second Macedonian War ends at Cynoscephalae (197); Pydna (22 June 168)"
+    },
+    {
+     "from": -168,
+     "to": -149,
+     "p": "macedonian_merides",
+     "s": "client",
+     "note": "Aemilius Paullus divides Macedonia into four tributary republics (167)"
+    },
+    {
+     "from": -149,
+     "to": -148,
+     "p": "macedon_antigonid",
+     "s": "contested",
+     "note": "Revolt of Andriscus (pseudo-Philip VI), defeated by Q. Caecilius Metellus"
+    },
+    {
+     "from": -148,
+     "to": -88,
+     "p": "rome",
+     "s": "direct",
+     "note": "Province of Macedonia (148/146); Via Egnatia"
+    },
+    {
+     "from": -88,
+     "to": -86,
+     "p": "pontus",
+     "s": "occupied",
+     "note": "Mithridates' son Arcathias overruns Macedonia"
+    },
+    {
+     "from": -86,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Gothic attack on Thessalonica 268; Galerius' palace at Thessalonica"
+    },
+    {
+     "from": 395,
+     "to": 615,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Alaric's Goths 395; Theoderic's Goths 479-483; Avar-Slav siege of Thessalonica 586"
+    },
+    {
+     "from": 615,
+     "to": 641,
+     "p": "slavs",
+     "s": "independent",
+     "note": "Slav settlement (Berzitai) of the western Macedonian uplands"
+    }
+   ],
+   "certainty": "probable",
+   "notes": ""
+  },
+  {
+   "id": "gr_paeonia",
+   "name": "Paeonia and Pelagonia (Stobi, Heraclea Lyncestis)",
+   "seed": [
+    21.7,
+    41.6
+   ],
+   "countries": [
+    "MK"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -358,
+     "p": "paeonia",
+     "s": "independent",
+     "note": "Darius deports Paeonians to Asia (511)"
+    },
+    {
+     "from": -358,
+     "to": -284,
+     "p": "paeonia",
+     "s": "independent",
+     "note": "Paeonian kings dependent on Macedon after Philip II (Audoleon)"
+    },
+    {
+     "from": -284,
+     "to": -281,
+     "p": "lysimachus",
+     "s": "independent",
+     "note": "Lysimachus annexes Paeonia"
+    },
+    {
+     "from": -281,
+     "to": -277,
+     "p": "gauls",
+     "s": "contested"
+    },
+    {
+     "from": -277,
+     "to": -168,
+     "p": "macedon_antigonid",
+     "s": "independent",
+     "note": "Dardanian invasions"
+    },
+    {
+     "from": -168,
+     "to": -149,
+     "p": "macedonian_merides",
+     "s": "client"
+    },
+    {
+     "from": -149,
+     "to": -148,
+     "p": "macedon_antigonid",
+     "s": "contested"
+    },
+    {
+     "from": -148,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Macedonia; Stobi a municipium; Scupi a Flavian colony in Moesia Superior"
+    },
+    {
+     "from": 395,
+     "to": 586,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Justinian born at Tauresium near Scupi (482); Scupi destroyed by earthquake 518"
+    },
+    {
+     "from": 586,
+     "to": 615,
+     "p": "slavs",
+     "s": "contested"
+    },
+    {
+     "from": 615,
+     "to": 641,
+     "p": "slavs",
+     "s": "independent",
+     "note": "Stobi and Heraclea abandoned"
+    }
+   ],
+   "certainty": "probable",
+   "notes": ""
+  },
+  {
+   "id": "gr_macedonia_east",
+   "name": "Eastern Macedonia (Amphipolis, Philippi)",
+   "seed": [
+    24.2,
+    41.1
+   ],
+   "countries": [
+    "GR"
+   ],
+   "zone": {
+    "in60bc": true
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -479,
+     "p": "achaemenid",
+     "s": "independent",
+     "note": "Megabazus subdues the Strymon region (511)"
+    },
+    {
+     "from": -479,
+     "to": -357,
+     "p": "greek_poleis",
+     "s": "independent",
+     "note": "Edonian Thracians, Thasos, Athenian Amphipolis (437-424)"
+    },
+    {
+     "from": -357,
+     "to": -277,
+     "p": "macedon",
+     "s": "independent",
+     "note": "Philip II takes Amphipolis (357) and founds Philippi (356)"
+    },
+    {
+     "from": -277,
+     "to": -168,
+     "p": "macedon_antigonid",
+     "s": "independent"
+    },
+    {
+     "from": -168,
+     "to": -149,
+     "p": "macedonian_merides",
+     "s": "client",
+     "note": "Amphipolis capital of the first meris"
+    },
+    {
+     "from": -149,
+     "to": -148,
+     "p": "macedon_antigonid",
+     "s": "contested"
+    },
+    {
+     "from": -148,
+     "to": -88,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": -88,
+     "to": -86,
+     "p": "pontus",
+     "s": "occupied"
+    },
+    {
+     "from": -86,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Philippi (42 BC); colonia Iulia Augusta Philippensis; Paul's first European church"
+    },
+    {
+     "from": 395,
+     "to": 615,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 615,
+     "to": 641,
+     "p": "slavs",
+     "s": "contested",
+     "note": "Strymonitai settle the Strymon valley"
+    }
+   ],
+   "certainty": "probable",
+   "notes": ""
+  },
+  {
+   "id": "gr_thessaly",
+   "name": "Thessaly",
+   "seed": [
+    22.1,
+    39.6
+   ],
+   "countries": [
+    "GR"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -480,
+     "p": "greek_poleis",
+     "s": "independent",
+     "note": "Thessalian koinon under the Aleuadae"
+    },
+    {
+     "from": -480,
+     "to": -479,
+     "p": "achaemenid",
+     "s": "occupied",
+     "note": "Thessaly medizes; Mardonius winters there"
+    },
+    {
+     "from": -479,
+     "to": -352,
+     "p": "greek_poleis",
+     "s": "independent",
+     "note": "Jason of Pherae tagos (c. 375-370)"
+    },
+    {
+     "from": -352,
+     "to": -294,
+     "p": "macedon",
+     "s": "independent",
+     "note": "Philip II archon of the Thessalian League after the Crocus Field (352)"
+    },
+    {
+     "from": -294,
+     "to": -197,
+     "p": "macedon_antigonid",
+     "s": "independent",
+     "note": "Demetrias founded (294), a fetter of Greece"
+    },
+    {
+     "from": -197,
+     "to": -191,
+     "p": "greek_poleis",
+     "s": "ally",
+     "note": "Freed by Flamininus after Cynoscephalae (197, in Thessaly)"
+    },
+    {
+     "from": -191,
+     "to": -190,
+     "p": "seleucid",
+     "s": "contested",
+     "note": "Antiochus III in Thessaly"
+    },
+    {
+     "from": -190,
+     "to": -146,
+     "p": "greek_poleis",
+     "s": "ally"
+    },
+    {
+     "from": -146,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Pharsalus (48 BC)"
+    },
+    {
+     "from": 395,
+     "to": 615,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Kutrigur and Slav raids"
+    },
+    {
+     "from": 615,
+     "to": 641,
+     "p": "slavs",
+     "s": "contested",
+     "note": "Belegezitai settle near Demetrias and Thebes"
+    }
+   ],
+   "certainty": "probable",
+   "notes": ""
+  },
+  {
+   "id": "gr_epirus",
+   "name": "Epirus and Corcyra (Molossia, Chaonia, Thesprotia)",
+   "seed": [
+    20.6,
+    39.6
+   ],
+   "countries": [
+    "GR",
+    "AL"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -297,
+     "p": "epirus",
+     "s": "independent",
+     "note": "Molossian kings (Aeacidae); Alexander I of Epirus dies in Italy (331)"
+    },
+    {
+     "from": -297,
+     "to": -272,
+     "p": "epirus",
+     "s": "independent",
+     "note": "Pyrrhus; invasion of Italy 280-275"
+    },
+    {
+     "from": -272,
+     "to": -170,
+     "p": "epirus",
+     "s": "independent",
+     "note": "Monarchy ends c. 232; Epirote League"
+    },
+    {
+     "from": -170,
+     "to": -167,
+     "p": "epirus",
+     "s": "contested",
+     "note": "Molossians side with Perseus"
+    },
+    {
+     "from": -167,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Aemilius Paullus sacks 70 towns and enslaves 150,000 (167); Nicopolis founded after Actium (31)"
+    },
+    {
+     "from": 395,
+     "to": 397,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 397,
+     "to": 401,
+     "p": "visigoths",
+     "s": "ally",
+     "note": "Alaric magister militum per Illyricum, his Goths quartered in Epirus"
+    },
+    {
+     "from": 401,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Vandal raid on Nicopolis (474); Totila's fleet (551); Slavs in Epirus in the 7th c."
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Epirus polity used for the Molossian kingdom before 330 as well. Corcyra (Corfu), which shares this unit, was an independent polis and from 229 the first Roman protectorate east of the Adriatic."
+  },
+  {
+   "id": "gr_illyris",
+   "name": "Illyris Graeca (Epidamnus-Dyrrachium, Apollonia)",
+   "seed": [
+    19.7,
+    41.0
+   ],
+   "countries": [
+    "AL"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -229,
+     "p": "greek_poleis",
+     "s": "independent",
+     "note": "Corinthian-Corcyraean colonies; Taulantian kings (Glaucias)"
+    },
+    {
+     "from": -229,
+     "to": -148,
+     "p": "greek_poleis",
+     "s": "ally",
+     "note": "First Illyrian War: Apollonia, Epidamnus, Corcyra under Roman protection (229/228); Philip V's attacks 214-205"
+    },
+    {
+     "from": -148,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Dyrrachium; Caesar's defeat at Dyrrachium (48)"
+    },
+    {
+     "from": 395,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Dyrrachium, Anastasius' birthplace; Theoderic seizes it briefly (479)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": ""
+  },
+  {
+   "id": "gr_illyria",
+   "name": "Illyria (Labeates, Scodra) and Praevalitana",
+   "seed": [
+    19.4,
+    42.4
+   ],
+   "countries": [
+    "AL",
+    "ME"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -260,
+     "p": "illyrian_tribes",
+     "s": "independent"
+    },
+    {
+     "from": -260,
+     "to": -168,
+     "p": "illyrians",
+     "s": "independent",
+     "note": "Ardiaean kingdom: Agron, Teuta (First Illyrian War 229-228), Demetrius of Pharos (Second, 219), Pleuratus, Genthius"
+    },
+    {
+     "from": -168,
+     "to": -167,
+     "p": "illyrians",
+     "s": "contested",
+     "note": "Third Illyrian War: L. Anicius Gallus takes Scodra in thirty days"
+    },
+    {
+     "from": -167,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Tributary Illyrian communities supervised from Macedonia; Illyricum (Caesar 59); Praevalitana under Diocletian"
+    },
+    {
+     "from": 395,
+     "to": 610,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Praevalitana belongs to the eastern prefecture"
+    },
+    {
+     "from": 610,
+     "to": 641,
+     "p": "slavs",
+     "s": "contested",
+     "note": "Slav settlement inland; Doclea abandoned; coastal towns hold"
+    }
+   ],
+   "certainty": "probable",
+   "notes": ""
+  },
+  {
+   "id": "gr_aetolia",
+   "name": "Aetolia, Acarnania, Achaea and Elis",
+   "seed": [
+    21.6,
+    38.3
+   ],
+   "countries": [
+    "GR"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -280,
+     "p": "greek_poleis",
+     "s": "independent",
+     "note": "Aetolian and Acarnanian koina; Elis; Achaean cities"
+    },
+    {
+     "from": -280,
+     "to": -189,
+     "p": "aetolian_league",
+     "s": "independent",
+     "note": "Aetolian League at its height (Delphi, 279); Roman ally in 211 (first Roman treaty in Greece)"
+    },
+    {
+     "from": -189,
+     "to": -146,
+     "p": "achaean_league",
+     "s": "ally",
+     "note": "Aetolia subordinated by the treaty of 189; Achaea and Elis in the Achaean League, Roman ally"
+    },
+    {
+     "from": -146,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Province of Achaea (27 BC); Patrae a colony (14 BC)"
+    },
+    {
+     "from": 395,
+     "to": 587,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Alaric trapped at Pholoe by Stilicho (397)"
+    },
+    {
+     "from": 587,
+     "to": 641,
+     "p": "slavs",
+     "s": "contested",
+     "note": "Chronicle of Monemvasia: Avars and Slavs occupy the Peloponnese from 587/588; Slavic graves at Olympia"
+    }
+   ],
+   "certainty": "approx",
+   "notes": "A single modern admin unit holds both Aetolia and Achaea; the Aetolian League (to 189) and Achaean League (189-146) are shown in turn."
+  },
+  {
+   "id": "gr_boeotia",
+   "name": "Boeotia, Phocis, Locris and Euboea",
+   "seed": [
+    23.0,
+    38.6
+   ],
+   "countries": [
+    "GR"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -480,
+     "p": "greek_poleis",
+     "s": "independent",
+     "note": "Boeotian League (Thebes); Chalcis defeated by Athens (506)"
+    },
+    {
+     "from": -480,
+     "to": -479,
+     "p": "achaemenid",
+     "s": "occupied",
+     "note": "Thebes medizes; Plataea (479)"
+    },
+    {
+     "from": -479,
+     "to": -338,
+     "p": "greek_poleis",
+     "s": "independent",
+     "note": "Theban hegemony after Leuctra (371)"
+    },
+    {
+     "from": -338,
+     "to": -294,
+     "p": "macedon",
+     "s": "independent",
+     "note": "Chaeronea (338); Thebes razed (335), refounded by Cassander (316)"
+    },
+    {
+     "from": -294,
+     "to": -197,
+     "p": "macedon_antigonid",
+     "s": "independent",
+     "note": "Chalcis an Antigonid fetter; Phocis and Locris often Aetolian"
+    },
+    {
+     "from": -197,
+     "to": -192,
+     "p": "greek_poleis",
+     "s": "ally",
+     "note": "Isthmian proclamation of freedom (196)"
+    },
+    {
+     "from": -192,
+     "to": -191,
+     "p": "seleucid",
+     "s": "contested",
+     "note": "Antiochus III at Chalcis; defeated at Thermopylae (191)"
+    },
+    {
+     "from": -191,
+     "to": -88,
+     "p": "greek_poleis",
+     "s": "ally"
+    },
+    {
+     "from": -88,
+     "to": -86,
+     "p": "pontus",
+     "s": "occupied",
+     "note": "Archelaus' army; Sulla wins at Chaeronea (86) and Orchomenus (85)"
+    },
+    {
+     "from": -86,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct"
+    }
+   ],
+   "certainty": "probable",
+   "notes": ""
+  },
+  {
+   "id": "gr_attica",
+   "name": "Attica (Athens)",
+   "seed": [
+    23.8,
+    38.05
+   ],
+   "countries": [
+    "GR"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -480,
+     "p": "athens",
+     "s": "independent",
+     "note": "Cleisthenes' reforms (508/507)"
+    },
+    {
+     "from": -480,
+     "to": -479,
+     "p": "achaemenid",
+     "s": "occupied",
+     "note": "Xerxes burns Athens (480); Mardonius reoccupies it (479)"
+    },
+    {
+     "from": -479,
+     "to": -322,
+     "p": "athens",
+     "s": "independent",
+     "note": "Delian League and empire; Peloponnesian War; Second Athenian Confederacy"
+    },
+    {
+     "from": -322,
+     "to": -307,
+     "p": "macedon",
+     "s": "occupied",
+     "note": "Lamian War lost; Macedonian garrison in Munychia; Demetrius of Phalerum (317-307)"
+    },
+    {
+     "from": -307,
+     "to": -287,
+     "p": "macedon_antigonid",
+     "s": "independent",
+     "note": "Demetrius Poliorcetes; tyranny of Lachares"
+    },
+    {
+     "from": -287,
+     "to": -262,
+     "p": "athens",
+     "s": "independent"
+    },
+    {
+     "from": -262,
+     "to": -229,
+     "p": "macedon_antigonid",
+     "s": "occupied",
+     "note": "Chremonidean War lost; Antigonid garrison until bought out (229)"
+    },
+    {
+     "from": -229,
+     "to": -200,
+     "p": "athens",
+     "s": "independent"
+    },
+    {
+     "from": -200,
+     "to": -88,
+     "p": "athens",
+     "s": "ally",
+     "note": "Appeals to Rome against Philip V (200); Delos granted to Athens (167)"
+    },
+    {
+     "from": -88,
+     "to": -86,
+     "p": "pontus",
+     "s": "occupied",
+     "note": "Aristion's regime for Mithridates; Sulla storms Athens 1 March 86"
+    },
+    {
+     "from": -86,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Free city within Achaea; Hadrian's Olympieion (132); Herulian sack (267)"
+    },
+    {
+     "from": 395,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Alaric spares Athens (396); Justinian ends state funding of the schools (529)"
+    }
+   ],
+   "certainty": "certain",
+   "notes": ""
+  },
+  {
+   "id": "gr_peloponnese",
+   "name": "Peloponnese (Corinth, Argos, Sparta, Arcadia, Messenia)",
+   "seed": [
+    22.4,
+    37.5
+   ],
+   "countries": [
+    "GR"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -371,
+     "p": "sparta",
+     "s": "independent",
+     "note": "Peloponnesian League under Spartan hegemony"
+    },
+    {
+     "from": -371,
+     "to": -338,
+     "p": "greek_poleis",
+     "s": "independent",
+     "note": "Leuctra (371); Messene and Megalopolis founded"
+    },
+    {
+     "from": -338,
+     "to": -243,
+     "p": "macedon",
+     "s": "independent",
+     "note": "League of Corinth; Antigonid garrison on Acrocorinth"
+    },
+    {
+     "from": -243,
+     "to": -198,
+     "p": "achaean_league",
+     "s": "independent",
+     "note": "Aratus frees Acrocorinth (243); Cleomenic War; Sellasia (222); Nabis of Sparta (207-192)"
+    },
+    {
+     "from": -198,
+     "to": -146,
+     "p": "achaean_league",
+     "s": "ally",
+     "note": "Achaean League joins Rome (198); Sparta absorbed (192)"
+    },
+    {
+     "from": -146,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Mummius destroys Corinth (146); Caesar's colony Laus Iulia Corinthiensis (44), capital of Achaea"
+    },
+    {
+     "from": 395,
+     "to": 587,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Alaric sacks Corinth, Argos and Sparta (395-396); Hexamilion wall"
+    },
+    {
+     "from": 587,
+     "to": 641,
+     "p": "slavs",
+     "s": "contested",
+     "note": "Avar-Slav settlement of the western and central Peloponnese; Corinth and the east coast held"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "The macedon id stands in for both Argead and Antigonid control 338-243."
+  },
+  {
+   "id": "gr_ionian_islands",
+   "name": "Cephallenia, Ithaca, Zacynthus and Leucas",
+   "seed": [
+    20.5,
+    38.4
+   ],
+   "countries": [
+    "GR"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -280,
+     "p": "greek_poleis",
+     "s": "independent",
+     "note": "Leucas, Corinthian colony and later capital of the Acarnanian League"
+    },
+    {
+     "from": -280,
+     "to": -189,
+     "p": "aetolian_league",
+     "s": "independent",
+     "note": "Cephallenia allied to the Aetolians"
+    },
+    {
+     "from": -189,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "M. Fulvius Nobilior sacks Same after a four-month siege (189); Leucas Acarnanian until 167"
+    },
+    {
+     "from": 395,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Vandal raid on Zacynthus (474)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Corcyra (Corfu) lies in the Epirus unit of the base map; Leucas was Acarnanian rather than Aetolian."
+  },
+  {
+   "id": "gr_crete",
+   "name": "Crete",
+   "seed": [
+    24.9,
+    35.2
+   ],
+   "countries": [
+    "GR"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -69,
+     "p": "cretan_cities",
+     "s": "independent",
+     "note": "Gortyn, Knossos, Lyttos; mercenaries and pirates; Ptolemaic garrison at Itanos"
+    },
+    {
+     "from": -69,
+     "to": -67,
+     "p": "rome",
+     "s": "contested",
+     "note": "Q. Caecilius Metellus Creticus' conquest"
+    },
+    {
+     "from": -67,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Province of Crete and Cyrene, capital Gortyn"
+    },
+    {
+     "from": 395,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct"
+    }
+   ],
+   "certainty": "certain",
+   "notes": ""
+  },
+  {
+   "id": "gr_cyclades",
+   "name": "The Cyclades (Delos, Naxos, Paros)",
+   "seed": [
+    25.2,
+    37.1
+   ],
+   "countries": [
+    "GR"
+   ],
+   "zone": {
+    "in60bc": false
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -490,
+     "p": "greek_poleis",
+     "s": "independent",
+     "note": "Naxos resists the Persian attack of 499"
+    },
+    {
+     "from": -490,
+     "to": -479,
+     "p": "achaemenid",
+     "s": "independent",
+     "note": "Datis subdues Naxos and the islands (490)"
+    },
+    {
+     "from": -479,
+     "to": -404,
+     "p": "athens",
+     "s": "independent",
+     "note": "Delian League, treasury on Delos until 454"
+    },
+    {
+     "from": -404,
+     "to": -377,
+     "p": "sparta",
+     "s": "independent"
+    },
+    {
+     "from": -377,
+     "to": -338,
+     "p": "athens",
+     "s": "independent",
+     "note": "Second Athenian Confederacy"
+    },
+    {
+     "from": -338,
+     "to": -314,
+     "p": "macedon",
+     "s": "independent"
+    },
+    {
+     "from": -314,
+     "to": -287,
+     "p": "macedon_antigonid",
+     "s": "independent",
+     "note": "League of the Islanders founded by Antigonus I"
+    },
+    {
+     "from": -287,
+     "to": -245,
+     "p": "ptolemaic",
+     "s": "independent",
+     "note": "Ptolemaic hegemony"
+    },
+    {
+     "from": -245,
+     "to": -200,
+     "p": "macedon_antigonid",
+     "s": "independent",
+     "note": "Antigonid naval victories at Cos and Andros"
+    },
+    {
+     "from": -200,
+     "to": -167,
+     "p": "rhodes",
+     "s": "independent",
+     "note": "Rhodian-led Nesiotic League"
+    },
+    {
+     "from": -167,
+     "to": -88,
+     "p": "greek_poleis",
+     "s": "ally",
+     "note": "Delos a free port under Athens (167), hub of the slave trade"
+    },
+    {
+     "from": -88,
+     "to": -85,
+     "p": "pontus",
+     "s": "occupied",
+     "note": "Menophanes sacks Delos (88); 20,000 killed"
+    },
+    {
+     "from": -85,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Province of Asia, later Provincia Insularum"
+    },
+    {
+     "from": 395,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct"
+    }
+   ],
+   "certainty": "probable",
+   "notes": ""
+  },
+  {
+   "id": "gr_rhodes",
+   "name": "Rhodes, Cos and the Dodecanese",
+   "seed": [
+    28.0,
+    36.3
+   ],
+   "countries": [
+    "GR"
+   ],
+   "zone": {
+    "in60bc": true
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -479,
+     "p": "achaemenid",
+     "s": "independent"
+    },
+    {
+     "from": -479,
+     "to": -411,
+     "p": "athens",
+     "s": "independent",
+     "note": "Delian League"
+    },
+    {
+     "from": -411,
+     "to": -357,
+     "p": "rhodes",
+     "s": "independent",
+     "note": "Synoecism of Ialysos, Camirus and Lindos into Rhodes (408)"
+    },
+    {
+     "from": -357,
+     "to": -332,
+     "p": "achaemenid",
+     "s": "independent",
+     "note": "Hecatomnid Carian dynasts (Mausolus, Artemisia) control the island"
+    },
+    {
+     "from": -332,
+     "to": -323,
+     "p": "alexander_empire",
+     "s": "independent"
+    },
+    {
+     "from": -323,
+     "to": -164,
+     "p": "rhodes",
+     "s": "independent",
+     "note": "Siege by Demetrius Poliorcetes (305-304) fails; the Colossus"
+    },
+    {
+     "from": -164,
+     "to": -42,
+     "p": "rhodes",
+     "s": "ally",
+     "note": "Formal treaty with Rome (164); resists Mithridates' siege (88)"
+    },
+    {
+     "from": -42,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Cassius sacks Rhodes (43/42); nominally free until Vespasian"
+    },
+    {
+     "from": 395,
+     "to": 623,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 623,
+     "to": 628,
+     "p": "sasanian",
+     "s": "occupied",
+     "note": "Persian fleet takes Rhodes (622/623)"
+    },
+    {
+     "from": 628,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct"
+    }
+   ],
+   "certainty": "probable",
+   "notes": ""
+  },
+  {
+   "id": "gr_north_aegean",
+   "name": "Lesbos, Chios and Samos",
+   "seed": [
+    26.5,
+    38.6
+   ],
+   "countries": [
+    "GR"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -479,
+     "p": "achaemenid",
+     "s": "independent",
+     "note": "Ionian revolt (499-494); Lade (494)"
+    },
+    {
+     "from": -479,
+     "to": -404,
+     "p": "athens",
+     "s": "independent",
+     "note": "Delian League; revolts of Samos (440) and Mytilene (428-427)"
+    },
+    {
+     "from": -404,
+     "to": -334,
+     "p": "greek_poleis",
+     "s": "independent",
+     "note": "Athenian cleruchy on Samos 365-322"
+    },
+    {
+     "from": -334,
+     "to": -323,
+     "p": "alexander_empire",
+     "s": "independent"
+    },
+    {
+     "from": -323,
+     "to": -301,
+     "p": "macedon_antigonid",
+     "s": "independent"
+    },
+    {
+     "from": -301,
+     "to": -281,
+     "p": "lysimachus",
+     "s": "independent"
+    },
+    {
+     "from": -281,
+     "to": -197,
+     "p": "ptolemaic",
+     "s": "independent",
+     "note": "Samos a Ptolemaic naval base"
+    },
+    {
+     "from": -197,
+     "to": -188,
+     "p": "seleucid",
+     "s": "independent"
+    },
+    {
+     "from": -188,
+     "to": -88,
+     "p": "greek_poleis",
+     "s": "ally",
+     "note": "Free allied cities after Apamea"
+    },
+    {
+     "from": -88,
+     "to": -85,
+     "p": "pontus",
+     "s": "occupied"
+    },
+    {
+     "from": -85,
+     "to": -80,
+     "p": "rome",
+     "s": "contested",
+     "note": "Mytilene holds out until stormed (80); young Caesar wins the corona civica"
+    },
+    {
+     "from": -80,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct"
+    }
+   ],
+   "certainty": "probable",
+   "notes": ""
+  },
+  {
+   "id": "gr_cyprus",
+   "name": "Cyprus",
+   "seed": [
+    33.2,
+    35.0
+   ],
+   "countries": [
+    "CY"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -499,
+     "p": "achaemenid",
+     "s": "independent",
+     "note": "City-kingdoms (Salamis, Paphos, Citium) under Persia"
+    },
+    {
+     "from": -499,
+     "to": -497,
+     "p": "achaemenid",
+     "s": "contested",
+     "note": "Revolt of Onesilus of Salamis"
+    },
+    {
+     "from": -497,
+     "to": -391,
+     "p": "achaemenid",
+     "s": "independent",
+     "note": "Cimon dies besieging Citium (450)"
+    },
+    {
+     "from": -391,
+     "to": -380,
+     "p": "achaemenid",
+     "s": "contested",
+     "note": "Evagoras of Salamis' revolt"
+    },
+    {
+     "from": -380,
+     "to": -332,
+     "p": "achaemenid",
+     "s": "independent"
+    },
+    {
+     "from": -332,
+     "to": -323,
+     "p": "alexander_empire",
+     "s": "independent",
+     "note": "Cypriot kings join Alexander at Tyre"
+    },
+    {
+     "from": -323,
+     "to": -306,
+     "p": "ptolemaic",
+     "s": "independent"
+    },
+    {
+     "from": -306,
+     "to": -294,
+     "p": "macedon_antigonid",
+     "s": "independent",
+     "note": "Demetrius wins the naval battle of Salamis (306)"
+    },
+    {
+     "from": -294,
+     "to": -58,
+     "p": "ptolemaic",
+     "s": "independent"
+    },
+    {
+     "from": -58,
+     "to": -47,
+     "p": "rome",
+     "s": "direct",
+     "note": "Annexed by Cato (58), joined to Cilicia; Cicero governs it (51-50)"
+    },
+    {
+     "from": -47,
+     "to": -30,
+     "p": "ptolemaic",
+     "s": "client",
+     "note": "Returned to the Ptolemies by Caesar and Antony"
+    },
+    {
+     "from": -30,
+     "to": 116,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 116,
+     "to": 117,
+     "p": "rome",
+     "s": "contested",
+     "note": "Jewish revolt under Artemion; Salamis destroyed"
+    },
+    {
+     "from": 117,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Autocephalous church (431); Arab raids begin 649"
+    }
+   ],
+   "certainty": "certain",
+   "notes": ""
+  }
+ ]
+}

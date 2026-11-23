@@ -1,0 +1,1893 @@
+{
+ "regions": [
+  {
+   "id": "an_bithynia",
+   "name": "Bithynia (Nicomedia, Nicaea, Prusa)",
+   "seed": [
+    30.0,
+    40.5
+   ],
+   "countries": [
+    "TR"
+   ],
+   "zone": {
+    "in60bc": true
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -334,
+     "p": "achaemenid",
+     "s": "independent",
+     "note": "Hellespontine Phrygia satrapy (Dascylium)"
+    },
+    {
+     "from": -334,
+     "to": -297,
+     "p": "bithynia",
+     "s": "independent",
+     "note": "Native dynasts Bas and Zipoetes defy Alexander's and Lysimachus' generals"
+    },
+    {
+     "from": -297,
+     "to": -89,
+     "p": "bithynia",
+     "s": "independent",
+     "note": "Zipoetes king (297); Nicomedes I invites the Galatians (278); Prusias I shelters Hannibal (d. 183)"
+    },
+    {
+     "from": -89,
+     "to": -85,
+     "p": "pontus",
+     "s": "occupied",
+     "note": "Mithridates expels Nicomedes IV"
+    },
+    {
+     "from": -85,
+     "to": -74,
+     "p": "bithynia",
+     "s": "client",
+     "note": "Nicomedes IV restored by Sulla"
+    },
+    {
+     "from": -74,
+     "to": -73,
+     "p": "rome",
+     "s": "direct",
+     "note": "Nicomedes IV bequeaths Bithynia to Rome"
+    },
+    {
+     "from": -73,
+     "to": -72,
+     "p": "pontus",
+     "s": "contested",
+     "note": "Third Mithridatic War: Cotta beaten at Chalcedon, siege of Cyzicus"
+    },
+    {
+     "from": -72,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Bithynia et Pontus; Pliny's governorship (110-112); Diocletian's capital Nicomedia; Council of Nicaea (325)"
+    },
+    {
+     "from": 395,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Persian armies at Chalcedon (615, 626)"
+    }
+   ],
+   "certainty": "certain",
+   "notes": ""
+  },
+  {
+   "id": "an_mysia",
+   "name": "Mysia and the Troad (Cyzicus, Ilium, Pergamene heartland)",
+   "seed": [
+    27.6,
+    39.8
+   ],
+   "countries": [
+    "TR"
+   ],
+   "zone": {
+    "in60bc": true
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -334,
+     "p": "achaemenid",
+     "s": "independent",
+     "note": "Hellespontine Phrygia"
+    },
+    {
+     "from": -334,
+     "to": -323,
+     "p": "alexander_empire",
+     "s": "independent",
+     "note": "Granicus (May 334) fought on the Biga"
+    },
+    {
+     "from": -323,
+     "to": -301,
+     "p": "macedon_antigonid",
+     "s": "independent"
+    },
+    {
+     "from": -301,
+     "to": -281,
+     "p": "lysimachus",
+     "s": "independent",
+     "note": "Philetaerus holds Pergamon for Lysimachus"
+    },
+    {
+     "from": -281,
+     "to": -241,
+     "p": "seleucid",
+     "s": "independent",
+     "note": "Galatian raids"
+    },
+    {
+     "from": -241,
+     "to": -133,
+     "p": "pergamon",
+     "s": "independent",
+     "note": "Attalus I defeats the Galatians and takes the royal title; Treaty of Apamea (188) enlarges the kingdom"
+    },
+    {
+     "from": -133,
+     "to": -129,
+     "p": "pergamon",
+     "s": "contested"
+    },
+    {
+     "from": -129,
+     "to": -88,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": -88,
+     "to": -85,
+     "p": "pontus",
+     "s": "occupied"
+    },
+    {
+     "from": -85,
+     "to": -73,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": -73,
+     "to": -72,
+     "p": "pontus",
+     "s": "contested",
+     "note": "Siege of Cyzicus relieved by Lucullus"
+    },
+    {
+     "from": -72,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Pergamon itself lies in the modern Izmir unit (an_ionia); this region carries the Attalid heartland of Mysia."
+  },
+  {
+   "id": "an_ionia",
+   "name": "Ionia and Aeolis (Smyrna, Ephesus, Pergamon)",
+   "seed": [
+    27.2,
+    38.5
+   ],
+   "countries": [
+    "TR"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -499,
+     "p": "achaemenid",
+     "s": "independent"
+    },
+    {
+     "from": -499,
+     "to": -494,
+     "p": "achaemenid",
+     "s": "contested",
+     "note": "Ionian revolt; Miletus sacked after Lade (494)"
+    },
+    {
+     "from": -494,
+     "to": -479,
+     "p": "achaemenid",
+     "s": "independent"
+    },
+    {
+     "from": -479,
+     "to": -412,
+     "p": "athens",
+     "s": "independent",
+     "note": "Mycale (479); Delian League"
+    },
+    {
+     "from": -412,
+     "to": -387,
+     "p": "sparta",
+     "s": "independent",
+     "note": "Ionian War; Agesilaus in Asia (396-394)"
+    },
+    {
+     "from": -387,
+     "to": -334,
+     "p": "achaemenid",
+     "s": "independent",
+     "note": "King's Peace (387) returns the Asian Greeks to Persia"
+    },
+    {
+     "from": -334,
+     "to": -323,
+     "p": "alexander_empire",
+     "s": "independent"
+    },
+    {
+     "from": -323,
+     "to": -301,
+     "p": "macedon_antigonid",
+     "s": "independent"
+    },
+    {
+     "from": -301,
+     "to": -281,
+     "p": "lysimachus",
+     "s": "independent",
+     "note": "Ephesus refounded as Arsinoeia"
+    },
+    {
+     "from": -281,
+     "to": -188,
+     "p": "seleucid",
+     "s": "independent",
+     "note": "Ptolemaic Ephesus c. 260s and 246-197; Pergamon independent under the Attalids from 282"
+    },
+    {
+     "from": -188,
+     "to": -133,
+     "p": "pergamon",
+     "s": "independent",
+     "note": "Treaty of Apamea (188)"
+    },
+    {
+     "from": -133,
+     "to": -129,
+     "p": "pergamon",
+     "s": "contested",
+     "note": "Bequest of Attalus III (133); revolt of Aristonicus (Eumenes III) to 129"
+    },
+    {
+     "from": -129,
+     "to": -88,
+     "p": "rome",
+     "s": "direct",
+     "note": "Province of Asia organised by Manius Aquillius"
+    },
+    {
+     "from": -88,
+     "to": -85,
+     "p": "pontus",
+     "s": "occupied",
+     "note": "Mithridates VI overruns Asia; the Asiatic Vespers (88); Treaty of Dardanus (85)"
+    },
+    {
+     "from": -85,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Ephesus seat of the proconsul of Asia; Gothic sack of the Artemision (262)"
+    },
+    {
+     "from": 395,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Council of Ephesus (431)"
+    }
+   ],
+   "certainty": "certain",
+   "notes": ""
+  },
+  {
+   "id": "an_lydia",
+   "name": "Lydia (Sardis, Thyateira, Philadelphia)",
+   "seed": [
+    28.5,
+    38.7
+   ],
+   "countries": [
+    "TR"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -499,
+     "p": "achaemenid",
+     "s": "independent",
+     "note": "Satrapy of Sparda"
+    },
+    {
+     "from": -499,
+     "to": -498,
+     "p": "achaemenid",
+     "s": "contested",
+     "note": "Ionians burn Sardis (498)"
+    },
+    {
+     "from": -498,
+     "to": -334,
+     "p": "achaemenid",
+     "s": "independent"
+    },
+    {
+     "from": -334,
+     "to": -323,
+     "p": "alexander_empire",
+     "s": "independent",
+     "note": "Granicus (May 334)"
+    },
+    {
+     "from": -323,
+     "to": -301,
+     "p": "macedon_antigonid",
+     "s": "independent",
+     "note": "Antigonus Monophthalmus, satrap of Phrygia from 333, master of Asia Minor 319-301"
+    },
+    {
+     "from": -301,
+     "to": -281,
+     "p": "lysimachus",
+     "s": "independent",
+     "note": "After Ipsus (301)"
+    },
+    {
+     "from": -281,
+     "to": -188,
+     "p": "seleucid",
+     "s": "independent",
+     "note": "Corupedium (281); Attalus I briefly takes Seleucid Asia Minor (228-223); Achaeus at Sardis (220-213); Magnesia (190/189)"
+    },
+    {
+     "from": -188,
+     "to": -133,
+     "p": "pergamon",
+     "s": "independent",
+     "note": "Treaty of Apamea (188)"
+    },
+    {
+     "from": -133,
+     "to": -129,
+     "p": "pergamon",
+     "s": "contested",
+     "note": "Bequest of Attalus III (133); revolt of Aristonicus (Eumenes III) to 129"
+    },
+    {
+     "from": -129,
+     "to": -88,
+     "p": "rome",
+     "s": "direct",
+     "note": "Province of Asia organised by Manius Aquillius"
+    },
+    {
+     "from": -88,
+     "to": -85,
+     "p": "pontus",
+     "s": "occupied",
+     "note": "Mithridates VI overruns Asia; the Asiatic Vespers (88); Treaty of Dardanus (85)"
+    },
+    {
+     "from": -85,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Earthquake of AD 17 destroys Sardis and eleven cities; Tiberius remits taxes"
+    },
+    {
+     "from": 395,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Sardis destroyed c. 616, probably by a Persian raid"
+    }
+   ],
+   "certainty": "certain",
+   "notes": ""
+  },
+  {
+   "id": "an_caria",
+   "name": "Caria (Halicarnassus, Miletus, Mylasa)",
+   "seed": [
+    28.1,
+    37.4
+   ],
+   "countries": [
+    "TR"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -499,
+     "p": "achaemenid",
+     "s": "independent"
+    },
+    {
+     "from": -499,
+     "to": -494,
+     "p": "achaemenid",
+     "s": "contested",
+     "note": "Carian revolt"
+    },
+    {
+     "from": -494,
+     "to": -334,
+     "p": "achaemenid",
+     "s": "independent",
+     "note": "Hecatomnid satraps; Mausolus (377-353) moves the capital to Halicarnassus"
+    },
+    {
+     "from": -334,
+     "to": -323,
+     "p": "alexander_empire",
+     "s": "independent",
+     "note": "Siege of Halicarnassus; Ada restored"
+    },
+    {
+     "from": -323,
+     "to": -301,
+     "p": "macedon_antigonid",
+     "s": "independent"
+    },
+    {
+     "from": -301,
+     "to": -281,
+     "p": "lysimachus",
+     "s": "independent"
+    },
+    {
+     "from": -281,
+     "to": -201,
+     "p": "seleucid",
+     "s": "independent",
+     "note": "Ptolemaic coastal holdings (Halicarnassus, Caunus)"
+    },
+    {
+     "from": -201,
+     "to": -197,
+     "p": "macedon_antigonid",
+     "s": "independent",
+     "note": "Philip V's Carian campaign (201)"
+    },
+    {
+     "from": -197,
+     "to": -188,
+     "p": "seleucid",
+     "s": "independent"
+    },
+    {
+     "from": -188,
+     "to": -167,
+     "p": "rhodes",
+     "s": "independent",
+     "note": "Caria south of the Maeander granted to Rhodes"
+    },
+    {
+     "from": -167,
+     "to": -133,
+     "p": "greek_poleis",
+     "s": "ally",
+     "note": "Senate frees Caria from Rhodes (167)"
+    },
+    {
+     "from": -133,
+     "to": -129,
+     "p": "pergamon",
+     "s": "contested",
+     "note": "Bequest of Attalus III (133); revolt of Aristonicus (Eumenes III) to 129"
+    },
+    {
+     "from": -129,
+     "to": -88,
+     "p": "rome",
+     "s": "direct",
+     "note": "Province of Asia organised by Manius Aquillius"
+    },
+    {
+     "from": -88,
+     "to": -85,
+     "p": "pontus",
+     "s": "occupied",
+     "note": "Mithridates VI overruns Asia; the Asiatic Vespers (88); Treaty of Dardanus (85)"
+    },
+    {
+     "from": -85,
+     "to": -40,
+     "p": "rome",
+     "s": "direct",
+     "note": "Aphrodisias a free city"
+    },
+    {
+     "from": -40,
+     "to": -39,
+     "p": "parthia",
+     "s": "occupied",
+     "note": "Q. Labienus and the Parthians overrun Caria; Mylasa and Alabanda sacked, Stratonicea besieged"
+    },
+    {
+     "from": -39,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct"
+    }
+   ],
+   "certainty": "probable",
+   "notes": ""
+  },
+  {
+   "id": "an_lycia",
+   "name": "Lycia (Xanthus, Patara, Myra)",
+   "seed": [
+    29.9,
+    36.6
+   ],
+   "countries": [
+    "TR"
+   ],
+   "zone": {
+    "in60bc": false
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -334,
+     "p": "achaemenid",
+     "s": "independent",
+     "note": "Xanthian dynasts; Pericles of Limyra's revolt (c. 370-360)"
+    },
+    {
+     "from": -334,
+     "to": -323,
+     "p": "alexander_empire",
+     "s": "independent"
+    },
+    {
+     "from": -323,
+     "to": -309,
+     "p": "macedon_antigonid",
+     "s": "independent"
+    },
+    {
+     "from": -309,
+     "to": -197,
+     "p": "ptolemaic",
+     "s": "independent",
+     "note": "Ptolemaic Lycia; Limyra Ptolemaion"
+    },
+    {
+     "from": -197,
+     "to": -188,
+     "p": "seleucid",
+     "s": "independent"
+    },
+    {
+     "from": -188,
+     "to": -167,
+     "p": "rhodes",
+     "s": "independent",
+     "note": "Granted to Rhodes; Lycian resistance"
+    },
+    {
+     "from": -167,
+     "to": 43,
+     "p": "lycian_league",
+     "s": "ally",
+     "note": "Free Lycian League (23 cities, proportional votes); Brutus sacks Xanthus (42 BC); treaty with Rome (46 BC)"
+    },
+    {
+     "from": 43,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Annexed by Claudius (43); Lycia et Pamphylia"
+    },
+    {
+     "from": 395,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct"
+    }
+   ],
+   "certainty": "probable",
+   "notes": ""
+  },
+  {
+   "id": "an_pamphylia",
+   "name": "Pamphylia (Perge, Aspendos, Side, Attaleia)",
+   "seed": [
+    31.0,
+    37.0
+   ],
+   "countries": [
+    "TR"
+   ],
+   "zone": {
+    "in60bc": true
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -334,
+     "p": "achaemenid",
+     "s": "independent",
+     "note": "Eurymedon (466)"
+    },
+    {
+     "from": -334,
+     "to": -323,
+     "p": "alexander_empire",
+     "s": "independent"
+    },
+    {
+     "from": -323,
+     "to": -301,
+     "p": "macedon_antigonid",
+     "s": "independent"
+    },
+    {
+     "from": -301,
+     "to": -197,
+     "p": "ptolemaic",
+     "s": "independent",
+     "note": "Ptolemaic presence; Side and Aspendos often independent"
+    },
+    {
+     "from": -197,
+     "to": -188,
+     "p": "seleucid",
+     "s": "independent",
+     "note": "Naval battle off Side (190)"
+    },
+    {
+     "from": -188,
+     "to": -133,
+     "p": "pergamon",
+     "s": "independent",
+     "note": "Attalus II founds Attaleia (c. 150); status under Apamea disputed"
+    },
+    {
+     "from": -133,
+     "to": -102,
+     "p": "greek_poleis",
+     "s": "independent",
+     "note": "Free cities; Side a pirate slave market"
+    },
+    {
+     "from": -102,
+     "to": -36,
+     "p": "rome",
+     "s": "direct",
+     "note": "M. Antonius' command against the pirates (102); Cilicia province"
+    },
+    {
+     "from": -36,
+     "to": -25,
+     "p": "galatia",
+     "s": "client",
+     "note": "Given to Amyntas"
+    },
+    {
+     "from": -25,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct"
+    }
+   ],
+   "certainty": "probable",
+   "notes": ""
+  },
+  {
+   "id": "an_pisidia",
+   "name": "Pisidia (Sagalassus, Termessus, Antioch)",
+   "seed": [
+    30.7,
+    37.9
+   ],
+   "countries": [
+    "TR"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -334,
+     "p": "achaemenid",
+     "s": "independent"
+    },
+    {
+     "from": -334,
+     "to": -323,
+     "p": "alexander_empire",
+     "s": "independent",
+     "note": "Granicus (May 334)"
+    },
+    {
+     "from": -323,
+     "to": -301,
+     "p": "macedon_antigonid",
+     "s": "independent",
+     "note": "Antigonus Monophthalmus, satrap of Phrygia from 333, master of Asia Minor 319-301"
+    },
+    {
+     "from": -301,
+     "to": -281,
+     "p": "lysimachus",
+     "s": "independent",
+     "note": "After Ipsus (301)"
+    },
+    {
+     "from": -281,
+     "to": -188,
+     "p": "seleucid",
+     "s": "independent",
+     "note": "Corupedium (281); Attalus I briefly takes Seleucid Asia Minor (228-223); Achaeus at Sardis (220-213); Magnesia (190/189)"
+    },
+    {
+     "from": -188,
+     "to": -129,
+     "p": "pergamon",
+     "s": "independent",
+     "note": "Nominally Attalid; highland cities autonomous"
+    },
+    {
+     "from": -129,
+     "to": -39,
+     "p": "rome",
+     "s": "direct",
+     "note": "Nominally within Asia and Cilicia; highlands unpacified"
+    },
+    {
+     "from": -39,
+     "to": -25,
+     "p": "galatia",
+     "s": "client",
+     "note": "Amyntas, killed by the Homonadenses (25)"
+    },
+    {
+     "from": -25,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Antioch in Pisidia an Augustan colony; Quirinius' Homonadensian war"
+    },
+    {
+     "from": 395,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct"
+    }
+   ],
+   "certainty": "approx",
+   "notes": ""
+  },
+  {
+   "id": "an_phrygia",
+   "name": "Phrygia (Celaenae-Apamea, Laodicea, Dorylaeum, Amorium)",
+   "seed": [
+    30.0,
+    39.0
+   ],
+   "countries": [
+    "TR"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -334,
+     "p": "achaemenid",
+     "s": "independent",
+     "note": "Greater Phrygia, satrapal seat Celaenae"
+    },
+    {
+     "from": -334,
+     "to": -323,
+     "p": "alexander_empire",
+     "s": "independent",
+     "note": "Gordian knot (333)"
+    },
+    {
+     "from": -323,
+     "to": -301,
+     "p": "macedon_antigonid",
+     "s": "independent",
+     "note": "Antigonus' power base; Ipsus (301) fought here"
+    },
+    {
+     "from": -301,
+     "to": -281,
+     "p": "lysimachus",
+     "s": "independent"
+    },
+    {
+     "from": -281,
+     "to": -188,
+     "p": "seleucid",
+     "s": "independent",
+     "note": "Apamea Kibotos, where the treaty of 188 is sworn"
+    },
+    {
+     "from": -188,
+     "to": -133,
+     "p": "pergamon",
+     "s": "independent"
+    },
+    {
+     "from": -133,
+     "to": -129,
+     "p": "pergamon",
+     "s": "contested"
+    },
+    {
+     "from": -129,
+     "to": -116,
+     "p": "pontus",
+     "s": "client",
+     "note": "Greater Phrygia given to Mithridates V; revoked after his death (120-116)"
+    },
+    {
+     "from": -116,
+     "to": -88,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": -88,
+     "to": -85,
+     "p": "pontus",
+     "s": "occupied"
+    },
+    {
+     "from": -85,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Laodicea, Hierapolis, Colossae"
+    },
+    {
+     "from": 395,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct"
+    }
+   ],
+   "certainty": "probable",
+   "notes": ""
+  },
+  {
+   "id": "an_galatia",
+   "name": "Galatia (Ancyra, Pessinus, Tavium)",
+   "seed": [
+    33.0,
+    39.8
+   ],
+   "countries": [
+    "TR"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -334,
+     "p": "achaemenid",
+     "s": "independent"
+    },
+    {
+     "from": -334,
+     "to": -323,
+     "p": "alexander_empire",
+     "s": "independent"
+    },
+    {
+     "from": -323,
+     "to": -301,
+     "p": "macedon_antigonid",
+     "s": "independent"
+    },
+    {
+     "from": -301,
+     "to": -278,
+     "p": "seleucid",
+     "s": "independent"
+    },
+    {
+     "from": -278,
+     "to": -88,
+     "p": "galatia",
+     "s": "independent",
+     "note": "Tolistobogii, Tectosages, Trocmi; Manlius Vulso's campaign (189); Pergamene suzerainty 183-166"
+    },
+    {
+     "from": -88,
+     "to": -86,
+     "p": "pontus",
+     "s": "occupied",
+     "note": "Mithridates massacres the Galatian tetrarchs (86)"
+    },
+    {
+     "from": -86,
+     "to": -64,
+     "p": "galatia",
+     "s": "independent"
+    },
+    {
+     "from": -64,
+     "to": -25,
+     "p": "galatia",
+     "s": "client",
+     "note": "Deiotarus; Amyntas (36-25)"
+    },
+    {
+     "from": -25,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Province of Galatia; Res Gestae inscribed at Ancyra"
+    },
+    {
+     "from": 395,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Persians sack Ancyra (622)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": ""
+  },
+  {
+   "id": "an_paphlagonia",
+   "name": "Paphlagonia (Gangra, Pompeiopolis, Amastris)",
+   "seed": [
+    33.5,
+    41.3
+   ],
+   "countries": [
+    "TR"
+   ],
+   "zone": {
+    "in60bc": true
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -334,
+     "p": "achaemenid",
+     "s": "independent",
+     "note": "Paphlagonian dynasts"
+    },
+    {
+     "from": -334,
+     "to": -323,
+     "p": "alexander_empire",
+     "s": "independent"
+    },
+    {
+     "from": -323,
+     "to": -301,
+     "p": "macedon_antigonid",
+     "s": "independent"
+    },
+    {
+     "from": -301,
+     "to": -108,
+     "p": "paphlagonia",
+     "s": "independent",
+     "note": "Pylaemenid dynasts; Amastris founded (c. 300)"
+    },
+    {
+     "from": -108,
+     "to": -95,
+     "p": "pontus",
+     "s": "independent",
+     "note": "Partitioned by Mithridates VI and Nicomedes III"
+    },
+    {
+     "from": -95,
+     "to": -89,
+     "p": "paphlagonia",
+     "s": "client",
+     "note": "Senate orders the kings out"
+    },
+    {
+     "from": -89,
+     "to": -85,
+     "p": "pontus",
+     "s": "occupied"
+    },
+    {
+     "from": -85,
+     "to": -73,
+     "p": "paphlagonia",
+     "s": "client"
+    },
+    {
+     "from": -73,
+     "to": -64,
+     "p": "pontus",
+     "s": "contested"
+    },
+    {
+     "from": -64,
+     "to": -6,
+     "p": "paphlagonia",
+     "s": "client",
+     "note": "Pompey's settlement; Deiotarus Philadelphus (31-6)"
+    },
+    {
+     "from": -6,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Annexed to Galatia (6/5 BC); oath of Gangra (3 BC)"
+    },
+    {
+     "from": 395,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct"
+    }
+   ],
+   "certainty": "probable",
+   "notes": ""
+  },
+  {
+   "id": "an_pontus",
+   "name": "Pontus (Sinope, Amisus)",
+   "seed": [
+    35.4,
+    41.4
+   ],
+   "countries": [
+    "TR"
+   ],
+   "zone": {
+    "in60bc": true
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -334,
+     "p": "achaemenid",
+     "s": "independent"
+    },
+    {
+     "from": -334,
+     "to": -302,
+     "p": "greek_poleis",
+     "s": "independent",
+     "note": "Sinope and Amisus, Greek"
+    },
+    {
+     "from": -302,
+     "to": -73,
+     "p": "pontus",
+     "s": "independent",
+     "note": "Mithridates I Ctistes; Pharnaces I takes Sinope (183), the new capital; Mithridates VI born at Sinope"
+    },
+    {
+     "from": -73,
+     "to": -63,
+     "p": "pontus",
+     "s": "contested",
+     "note": "Lucullus takes Amisus (71) and Sinope (70); Pompey"
+    },
+    {
+     "from": -63,
+     "to": -48,
+     "p": "rome",
+     "s": "direct",
+     "note": "Province of Bithynia et Pontus"
+    },
+    {
+     "from": -48,
+     "to": -47,
+     "p": "pontus",
+     "s": "contested",
+     "note": "Pharnaces II reconquers Pontus; Zela (2 August 47)"
+    },
+    {
+     "from": -47,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Caesar's colony at Sinope"
+    },
+    {
+     "from": 395,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct"
+    }
+   ],
+   "certainty": "certain",
+   "notes": ""
+  },
+  {
+   "id": "an_pontus_galaticus",
+   "name": "Inner Pontus (Amaseia, Comana, Zela)",
+   "seed": [
+    35.9,
+    40.2
+   ],
+   "countries": [
+    "TR"
+   ],
+   "zone": {
+    "in60bc": false
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -334,
+     "p": "achaemenid",
+     "s": "independent"
+    },
+    {
+     "from": -334,
+     "to": -302,
+     "p": "macedon_antigonid",
+     "s": "independent",
+     "note": "Nominal Macedonian rule; Mithridates I Ctistes flees here (302)"
+    },
+    {
+     "from": -302,
+     "to": -73,
+     "p": "pontus",
+     "s": "independent",
+     "note": "Amaseia, first capital; royal tombs"
+    },
+    {
+     "from": -73,
+     "to": -63,
+     "p": "pontus",
+     "s": "contested"
+    },
+    {
+     "from": -63,
+     "to": -48,
+     "p": "galatia",
+     "s": "client",
+     "note": "Pompey gives inner Pontus to Galatian and local dynasts"
+    },
+    {
+     "from": -48,
+     "to": -47,
+     "p": "pontus",
+     "s": "contested",
+     "note": "Pharnaces II"
+    },
+    {
+     "from": -47,
+     "to": -37,
+     "p": "galatia",
+     "s": "client"
+    },
+    {
+     "from": -37,
+     "to": -3,
+     "p": "pontus_polemonian",
+     "s": "client",
+     "note": "Polemon I, then Pythodoris"
+    },
+    {
+     "from": -3,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Pontus Galaticus annexed to Galatia (3/2 BC)"
+    },
+    {
+     "from": 395,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "The modern Yozgat unit (Tavium of the Trocmi Galatians) falls here; Tavium followed Galatia until 25 BC."
+  },
+  {
+   "id": "an_pontus_polemoniacus",
+   "name": "Pontus Polemoniacus (Trapezus, Cerasus, Pharnacia)",
+   "seed": [
+    39.2,
+    40.75
+   ],
+   "countries": [
+    "TR"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -334,
+     "p": "achaemenid",
+     "s": "independent",
+     "note": "Chalybes, Mossynoeci, Tibareni; Xenophon's Ten Thousand reach Trapezus (400)"
+    },
+    {
+     "from": -334,
+     "to": -183,
+     "p": "greek_poleis",
+     "s": "independent",
+     "note": "Greek Trapezus and Cerasus; hinterland tribes"
+    },
+    {
+     "from": -183,
+     "to": -73,
+     "p": "pontus",
+     "s": "independent",
+     "note": "Pharnaces I founds Pharnacia"
+    },
+    {
+     "from": -73,
+     "to": -63,
+     "p": "pontus",
+     "s": "contested"
+    },
+    {
+     "from": -63,
+     "to": -48,
+     "p": "galatia",
+     "s": "client",
+     "note": "Given with Lesser Armenia to Deiotarus (Strabo 12.3.13)"
+    },
+    {
+     "from": -48,
+     "to": -47,
+     "p": "pontus",
+     "s": "contested"
+    },
+    {
+     "from": -47,
+     "to": -37,
+     "p": "galatia",
+     "s": "client"
+    },
+    {
+     "from": -37,
+     "to": 64,
+     "p": "pontus_polemonian",
+     "s": "client",
+     "note": "Polemon I, Pythodoris, Polemon II"
+    },
+    {
+     "from": 64,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Annexed by Nero (64); Trapezus sacked by the Goths (257)"
+    },
+    {
+     "from": 395,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Trapezus a base in Heraclius' Persian campaigns"
+    }
+   ],
+   "certainty": "probable",
+   "notes": ""
+  },
+  {
+   "id": "an_cappadocia",
+   "name": "Cappadocia (Mazaca-Caesarea, Tyana)",
+   "seed": [
+    35.2,
+    38.6
+   ],
+   "countries": [
+    "TR"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -331,
+     "p": "achaemenid",
+     "s": "independent"
+    },
+    {
+     "from": -331,
+     "to": -322,
+     "p": "cappadocia",
+     "s": "independent",
+     "note": "Ariarathes I holds out after Gaugamela"
+    },
+    {
+     "from": -322,
+     "to": -301,
+     "p": "macedon_antigonid",
+     "s": "independent",
+     "note": "Perdiccas executes Ariarathes I (322); Eumenes, then Antigonus"
+    },
+    {
+     "from": -301,
+     "to": -101,
+     "p": "cappadocia",
+     "s": "independent",
+     "note": "Ariarathid kingdom; royal title c. 255"
+    },
+    {
+     "from": -101,
+     "to": -95,
+     "p": "pontus",
+     "s": "occupied",
+     "note": "Mithridates' son installed as Ariarathes IX"
+    },
+    {
+     "from": -95,
+     "to": -89,
+     "p": "cappadocia",
+     "s": "client",
+     "note": "Sulla installs Ariobarzanes I (95)"
+    },
+    {
+     "from": -89,
+     "to": -85,
+     "p": "pontus",
+     "s": "occupied"
+    },
+    {
+     "from": -85,
+     "to": 17,
+     "p": "cappadocia",
+     "s": "client",
+     "note": "Ariobarzanids; Archelaus (36 BC-AD 17)"
+    },
+    {
+     "from": 17,
+     "to": 260,
+     "p": "rome",
+     "s": "direct",
+     "note": "Annexed by Tiberius (17)"
+    },
+    {
+     "from": 260,
+     "to": 261,
+     "p": "sasanian",
+     "s": "occupied",
+     "note": "Shapur I takes Caesarea after Edessa"
+    },
+    {
+     "from": 261,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Basil of Caesarea, Gregory of Nyssa, Gregory of Nazianzus"
+    },
+    {
+     "from": 395,
+     "to": 611,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 611,
+     "to": 612,
+     "p": "sasanian",
+     "s": "occupied",
+     "note": "Shahin holds Caesarea; besieged by Priscus"
+    },
+    {
+     "from": 612,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct"
+    }
+   ],
+   "certainty": "probable",
+   "notes": ""
+  },
+  {
+   "id": "an_lesser_armenia",
+   "name": "Lesser Armenia (Nicopolis, Satala)",
+   "seed": [
+    38.9,
+    39.6
+   ],
+   "countries": [
+    "TR"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -331,
+     "p": "achaemenid",
+     "s": "independent"
+    },
+    {
+     "from": -331,
+     "to": -115,
+     "p": "lesser_armenia",
+     "s": "independent",
+     "note": "Local dynasts"
+    },
+    {
+     "from": -115,
+     "to": -66,
+     "p": "pontus",
+     "s": "independent",
+     "note": "Ceded to Mithridates VI by Antipater; 75 fortresses"
+    },
+    {
+     "from": -66,
+     "to": 72,
+     "p": "lesser_armenia",
+     "s": "client",
+     "note": "Pompey founds Nicopolis (66); Deiotarus, Ariobarzanes, Polemon, Artavasdes of Media, Archelaus, Cotys, Aristobulus"
+    },
+    {
+     "from": 72,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Annexed by Vespasian; legionary base at Satala"
+    },
+    {
+     "from": 395,
+     "to": 610,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 610,
+     "to": 622,
+     "p": "sasanian",
+     "s": "occupied",
+     "note": "Persian occupation of eastern Anatolia"
+    },
+    {
+     "from": 622,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Heraclius' campaigns from 622"
+    }
+   ],
+   "certainty": "probable",
+   "notes": ""
+  },
+  {
+   "id": "an_cilicia",
+   "name": "Cilicia Pedias (Tarsus, Adana, Mopsuestia)",
+   "seed": [
+    35.6,
+    37.2
+   ],
+   "countries": [
+    "TR"
+   ],
+   "zone": {
+    "in60bc": true
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -401,
+     "p": "achaemenid",
+     "s": "independent",
+     "note": "Syennesis dynasty, client kings of Persia, until 401"
+    },
+    {
+     "from": -401,
+     "to": -333,
+     "p": "achaemenid",
+     "s": "independent"
+    },
+    {
+     "from": -333,
+     "to": -323,
+     "p": "alexander_empire",
+     "s": "independent"
+    },
+    {
+     "from": -323,
+     "to": -295,
+     "p": "macedon_antigonid",
+     "s": "independent"
+    },
+    {
+     "from": -295,
+     "to": -83,
+     "p": "seleucid",
+     "s": "independent",
+     "note": "Ptolemaic interlude after 246"
+    },
+    {
+     "from": -83,
+     "to": -69,
+     "p": "armenia",
+     "s": "independent",
+     "note": "Tigranes deports the Cilician Greeks to Tigranocerta"
+    },
+    {
+     "from": -69,
+     "to": -64,
+     "p": "cilician_pirates",
+     "s": "contested",
+     "note": "Pompey settles surrendered pirates at Soli-Pompeiopolis (67)"
+    },
+    {
+     "from": -64,
+     "to": 260,
+     "p": "rome",
+     "s": "direct",
+     "note": "Province of Cilicia (64); Cicero proconsul (51-50); client Tarcondimotids at Castabala to AD 17"
+    },
+    {
+     "from": 260,
+     "to": 261,
+     "p": "sasanian",
+     "s": "occupied",
+     "note": "Shapur I takes Tarsus"
+    },
+    {
+     "from": 261,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 613,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 613,
+     "to": 629,
+     "p": "sasanian",
+     "s": "occupied",
+     "note": "Persians take Tarsus after Heraclius' defeat at Antioch (613)"
+    },
+    {
+     "from": 629,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct"
+    }
+   ],
+   "certainty": "probable",
+   "notes": ""
+  },
+  {
+   "id": "an_isauria",
+   "name": "Isauria and Cilicia Tracheia (Seleucia, Isaura)",
+   "seed": [
+    33.4,
+    36.8
+   ],
+   "countries": [
+    "TR"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -333,
+     "p": "achaemenid",
+     "s": "independent"
+    },
+    {
+     "from": -333,
+     "to": -323,
+     "p": "alexander_empire",
+     "s": "independent"
+    },
+    {
+     "from": -323,
+     "to": -301,
+     "p": "macedon_antigonid",
+     "s": "independent"
+    },
+    {
+     "from": -301,
+     "to": -140,
+     "p": "seleucid",
+     "s": "independent",
+     "note": "Seleucia on the Calycadnus; Ptolemaic coastal posts"
+    },
+    {
+     "from": -140,
+     "to": -67,
+     "p": "cilician_pirates",
+     "s": "independent",
+     "note": "Diodotus Tryphon fosters the pirates at Coracesium"
+    },
+    {
+     "from": -67,
+     "to": -36,
+     "p": "rome",
+     "s": "direct",
+     "note": "Pompey's pirate war (67); P. Servilius Isauricus (78-74) takes Isaura"
+    },
+    {
+     "from": -36,
+     "to": -30,
+     "p": "ptolemaic",
+     "s": "client",
+     "note": "Antony gives the timber coast to Cleopatra"
+    },
+    {
+     "from": -30,
+     "to": 38,
+     "p": "cappadocia",
+     "s": "client",
+     "note": "Amyntas, then Archelaus I and II"
+    },
+    {
+     "from": 38,
+     "to": 72,
+     "p": "commagene",
+     "s": "client",
+     "note": "Antiochus IV of Commagene"
+    },
+    {
+     "from": 72,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 492,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Isaurian emperor Zeno (474-491)"
+    },
+    {
+     "from": 492,
+     "to": 497,
+     "p": "isaurians",
+     "s": "contested",
+     "note": "Isaurian war of Anastasius"
+    },
+    {
+     "from": 497,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct"
+    }
+   ],
+   "certainty": "probable",
+   "notes": ""
+  },
+  {
+   "id": "an_lycaonia",
+   "name": "Lycaonia (Iconium, Lystra, Derbe)",
+   "seed": [
+    32.6,
+    38.2
+   ],
+   "countries": [
+    "TR"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -334,
+     "p": "achaemenid",
+     "s": "independent"
+    },
+    {
+     "from": -334,
+     "to": -323,
+     "p": "alexander_empire",
+     "s": "independent",
+     "note": "Granicus (May 334)"
+    },
+    {
+     "from": -323,
+     "to": -301,
+     "p": "macedon_antigonid",
+     "s": "independent",
+     "note": "Antigonus Monophthalmus, satrap of Phrygia from 333, master of Asia Minor 319-301"
+    },
+    {
+     "from": -301,
+     "to": -281,
+     "p": "lysimachus",
+     "s": "independent",
+     "note": "After Ipsus (301)"
+    },
+    {
+     "from": -281,
+     "to": -188,
+     "p": "seleucid",
+     "s": "independent",
+     "note": "Corupedium (281); Attalus I briefly takes Seleucid Asia Minor (228-223); Achaeus at Sardis (220-213); Magnesia (190/189)"
+    },
+    {
+     "from": -188,
+     "to": -129,
+     "p": "pergamon",
+     "s": "independent"
+    },
+    {
+     "from": -129,
+     "to": -64,
+     "p": "cappadocia",
+     "s": "client",
+     "note": "Given to the sons of Ariarathes V (129)"
+    },
+    {
+     "from": -64,
+     "to": -36,
+     "p": "rome",
+     "s": "direct",
+     "note": "Lycaonian diocese of Cilicia"
+    },
+    {
+     "from": -36,
+     "to": -25,
+     "p": "galatia",
+     "s": "client",
+     "note": "Amyntas"
+    },
+    {
+     "from": -25,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Galatia; Paul at Iconium, Lystra and Derbe"
+    },
+    {
+     "from": 395,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct"
+    }
+   ],
+   "certainty": "probable",
+   "notes": ""
+  },
+  {
+   "id": "an_commagene",
+   "name": "Commagene and Melitene (Samosata, Germanicia)",
+   "seed": [
+    38.1,
+    37.7
+   ],
+   "countries": [
+    "TR"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -333,
+     "p": "achaemenid",
+     "s": "independent"
+    },
+    {
+     "from": -333,
+     "to": -323,
+     "p": "alexander_empire",
+     "s": "independent"
+    },
+    {
+     "from": -323,
+     "to": -301,
+     "p": "macedon_antigonid",
+     "s": "independent"
+    },
+    {
+     "from": -301,
+     "to": -163,
+     "p": "seleucid",
+     "s": "independent",
+     "note": "Orontid satraps"
+    },
+    {
+     "from": -163,
+     "to": -64,
+     "p": "commagene",
+     "s": "independent",
+     "note": "Ptolemaeus independent (163)"
+    },
+    {
+     "from": -64,
+     "to": 17,
+     "p": "commagene",
+     "s": "client",
+     "note": "Antiochus I confirmed by Pompey; hierothesion on Nemrut Dag"
+    },
+    {
+     "from": 17,
+     "to": 38,
+     "p": "rome",
+     "s": "direct",
+     "note": "Annexed by Germanicus (17/18)"
+    },
+    {
+     "from": 38,
+     "to": 72,
+     "p": "commagene",
+     "s": "client",
+     "note": "Antiochus IV restored by Caligula"
+    },
+    {
+     "from": 72,
+     "to": 256,
+     "p": "rome",
+     "s": "direct",
+     "note": "Annexed by Caesennius Paetus; Melitene base of XII Fulminata"
+    },
+    {
+     "from": 256,
+     "to": 257,
+     "p": "sasanian",
+     "s": "occupied",
+     "note": "Shapur I's second campaign takes Samosata"
+    },
+    {
+     "from": 257,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 610,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Khosrow I burns Melitene (576)"
+    },
+    {
+     "from": 610,
+     "to": 628,
+     "p": "sasanian",
+     "s": "occupied"
+    },
+    {
+     "from": 628,
+     "to": 638,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 638,
+     "to": 641,
+     "p": "rashidun",
+     "s": "independent",
+     "note": "Iyad ibn Ghanm takes Samosata"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Melitene (Malatya) shares a unit with Commagene though it was Cappadocian until 17."
+  }
+ ]
+}
