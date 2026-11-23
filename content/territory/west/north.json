@@ -1,0 +1,450 @@
+{
+ "regions": [
+  {
+   "id": "cz_bohemia",
+   "name": "Boiohaemum (Bohemia)",
+   "seed": [
+    14.8,
+    50.0
+   ],
+   "countries": [
+    "CZ"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -60,
+     "p": "gauls",
+     "s": "independent",
+     "note": "Boii (Zavist oppidum)"
+    },
+    {
+     "from": -60,
+     "to": -9,
+     "p": "germani",
+     "s": "independent"
+    },
+    {
+     "from": -9,
+     "to": 19,
+     "p": "marcomanni",
+     "s": "independent",
+     "note": "Maroboduus' kingdom; Tiberius' AD 6 invasion aborted"
+    },
+    {
+     "from": 19,
+     "to": 166,
+     "p": "marcomanni",
+     "s": "client",
+     "note": "Catualda and later client kings"
+    },
+    {
+     "from": 166,
+     "to": 180,
+     "p": "marcomanni",
+     "s": "contested",
+     "note": "Marcomannic Wars; planned province Marcomannia"
+    },
+    {
+     "from": 180,
+     "to": 400,
+     "p": "marcomanni",
+     "s": "independent"
+    },
+    {
+     "from": 400,
+     "to": 550,
+     "p": "germani",
+     "s": "independent"
+    },
+    {
+     "from": 550,
+     "to": 623,
+     "p": "slavs",
+     "s": "independent",
+     "note": "Slavs under Avar hegemony"
+    },
+    {
+     "from": 623,
+     "to": 641,
+     "p": "samo_realm",
+     "s": "independent",
+     "note": "Samo defeats Dagobert at Wogastisburg (631)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Location of Samo's centre (Bohemia or Moravia) is debated."
+  },
+  {
+   "id": "cz_moravia",
+   "name": "Quadi (Moravia)",
+   "seed": [
+    17.3,
+    49.2
+   ],
+   "countries": [
+    "CZ"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -50,
+     "p": "gauls",
+     "s": "independent"
+    },
+    {
+     "from": -50,
+     "to": 19,
+     "p": "quadi",
+     "s": "independent"
+    },
+    {
+     "from": 19,
+     "to": 166,
+     "p": "quadi",
+     "s": "client",
+     "note": "Regnum Vannianum (19-50)"
+    },
+    {
+     "from": 166,
+     "to": 180,
+     "p": "quadi",
+     "s": "contested",
+     "note": "Roman camp at Musov"
+    },
+    {
+     "from": 180,
+     "to": 400,
+     "p": "quadi",
+     "s": "independent",
+     "note": "Valentinian I dies receiving Quadi envoys (375)"
+    },
+    {
+     "from": 400,
+     "to": 454,
+     "p": "huns",
+     "s": "independent"
+    },
+    {
+     "from": 454,
+     "to": 489,
+     "p": "germani",
+     "s": "independent"
+    },
+    {
+     "from": 489,
+     "to": 508,
+     "p": "heruli",
+     "s": "independent"
+    },
+    {
+     "from": 508,
+     "to": 568,
+     "p": "lombards",
+     "s": "independent"
+    },
+    {
+     "from": 568,
+     "to": 623,
+     "p": "slavs",
+     "s": "independent"
+    },
+    {
+     "from": 623,
+     "to": 641,
+     "p": "samo_realm",
+     "s": "independent"
+    }
+   ],
+   "certainty": "approx",
+   "notes": "Herul and Lombard phases are approximate."
+  },
+  {
+   "id": "pl_gothiscandza",
+   "name": "Gothiscandza (Vistula mouth and Pomerania)",
+   "seed": [
+    17.8,
+    53.8
+   ],
+   "countries": [
+    "PL"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": 600,
+     "p": "germani",
+     "s": "independent",
+     "note": "Gutones (Wielbark culture) until c.200; Rugii and Lemovii"
+    },
+    {
+     "from": 600,
+     "to": 641,
+     "p": "slavs",
+     "s": "independent"
+    }
+   ],
+   "certainty": "approx",
+   "notes": "Gothic migration south c.200; Slavic Pomerania c.600-650."
+  },
+  {
+   "id": "pl_aesti",
+   "name": "Aesti and Galindai (Masuria)",
+   "seed": [
+    21.3,
+    53.9
+   ],
+   "countries": [
+    "PL"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": 641,
+     "p": "baltic_peoples",
+     "s": "independent",
+     "note": "Amber coast; Theodoric thanks the Aesti for amber (Cassiod. Var. 5.2)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Warmia, Masuria, Podlachia."
+  },
+  {
+   "id": "pl_venedi",
+   "name": "Venedi (Masovia and Lublin)",
+   "seed": [
+    21.3,
+    52.0
+   ],
+   "countries": [
+    "PL"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": 500,
+     "p": "germani",
+     "s": "independent",
+     "note": "Przeworsk and Wielbark cultures"
+    },
+    {
+     "from": 500,
+     "to": 641,
+     "p": "slavs",
+     "s": "independent"
+    }
+   ],
+   "certainty": "approx",
+   "notes": "Early Slavs (Jordanes' Venethi)."
+  },
+  {
+   "id": "pl_lugii",
+   "name": "Lugii and Silingi (Silesia, Greater Poland)",
+   "seed": [
+    17.2,
+    51.5
+   ],
+   "countries": [
+    "PL"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -150,
+     "p": "gauls",
+     "s": "independent",
+     "note": "La Tene Celts in Silesia"
+    },
+    {
+     "from": -150,
+     "to": 400,
+     "p": "vandals",
+     "s": "independent",
+     "note": "Przeworsk culture: Lugii, Vandili, Silingi"
+    },
+    {
+     "from": 400,
+     "to": 550,
+     "p": "germani",
+     "s": "independent"
+    },
+    {
+     "from": 550,
+     "to": 641,
+     "p": "slavs",
+     "s": "independent"
+    }
+   ],
+   "certainty": "approx",
+   "notes": "Silesia is named after the Silingi."
+  },
+  {
+   "id": "pl_lesser",
+   "name": "Vistulan uplands (Lesser Poland)",
+   "seed": [
+    20.4,
+    50.1
+   ],
+   "countries": [
+    "PL"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -100,
+     "p": "gauls",
+     "s": "independent",
+     "note": "Celtic Tyniec"
+    },
+    {
+     "from": -100,
+     "to": 500,
+     "p": "germani",
+     "s": "independent"
+    },
+    {
+     "from": 500,
+     "to": 641,
+     "p": "slavs",
+     "s": "independent"
+    }
+   ],
+   "certainty": "approx",
+   "notes": "Earliest Slavic settlement north of the Carpathians."
+  },
+  {
+   "id": "sc_jutland",
+   "name": "Jutland (Cimbri, Jutes)",
+   "seed": [
+    9.3,
+    56.2
+   ],
+   "countries": [
+    "DK"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": 641,
+     "p": "scandinavians",
+     "s": "independent",
+     "note": "Cimbri emigrate c.120 BC; Augustus' fleet reaches the Cimbric promontory (AD 5)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Illerup Adal weapon deposits (c.200)."
+  },
+  {
+   "id": "sc_danes",
+   "name": "Danish isles and Scania (Dani)",
+   "seed": [
+    12.5,
+    55.7
+   ],
+   "countries": [
+    "DK",
+    "SE"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": 641,
+     "p": "scandinavians",
+     "s": "independent",
+     "note": "Lejre; Danes named by Jordanes and Procopius"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Zealand and Scania."
+  },
+  {
+   "id": "sc_gotar",
+   "name": "Gotaland (Gautoi, Gutes)",
+   "seed": [
+    14.3,
+    57.9
+   ],
+   "countries": [
+    "SE"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": 641,
+     "p": "scandinavians",
+     "s": "independent",
+     "note": "Gautoi of Procopius; Gotland picture stones"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Southern Sweden and Gotland."
+  },
+  {
+   "id": "sc_svear",
+   "name": "Svealand (Suiones)",
+   "seed": [
+    16.6,
+    60.2
+   ],
+   "countries": [
+    "SE"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": 641,
+     "p": "scandinavians",
+     "s": "independent",
+     "note": "Tacitus' Suiones; Uppsala mounds (6th c.)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Uppland and Mälaren."
+  },
+  {
+   "id": "sc_norway",
+   "name": "Norway (Rugii, Horthar, Raumar)",
+   "seed": [
+    9.0,
+    60.5
+   ],
+   "countries": [
+    "NO"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": 641,
+     "p": "scandinavians",
+     "s": "independent",
+     "note": "Peoples listed by Jordanes (Getica 3)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Southern and western Norway."
+  },
+  {
+   "id": "sc_sapmi",
+   "name": "Skrithiphinoi (Sapmi)",
+   "seed": [
+    18.5,
+    66.5
+   ],
+   "countries": [
+    "SE",
+    "NO"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": 641,
+     "p": "finnic_peoples",
+     "s": "independent",
+     "note": "Procopius' Skrithiphinoi, skiing hunters"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Northern Fennoscandia."
+  }
+ ]
+}

@@ -1,0 +1,6193 @@
+{
+ "regions": [
+  {
+   "id": "it_roma",
+   "name": "Rome and Latium Vetus",
+   "seed": [
+    12.55,
+    41.9
+   ],
+   "countries": [
+    "IT",
+    "VA"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -508,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": -508,
+     "to": -506,
+     "p": "clusium",
+     "s": "contested",
+     "note": "Porsenna's war; Tacitus and Pliny say the city surrendered to him"
+    },
+    {
+     "from": -506,
+     "to": -390,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": -390,
+     "to": -389,
+     "p": "senones",
+     "s": "contested",
+     "note": "Gallic sack after the Allia (Varronian 390; Polybian 387/6)"
+    },
+    {
+     "from": -389,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 408,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 408,
+     "to": 411,
+     "p": "visigoths",
+     "s": "contested",
+     "note": "Alaric's three sieges; sack of 24-27 August 410"
+    },
+    {
+     "from": 411,
+     "to": 455,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 455,
+     "to": 456,
+     "p": "vandal_kingdom",
+     "s": "contested",
+     "note": "Vandal sack, 2-16 June 455"
+    },
+    {
+     "from": 456,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 554,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Gothic War: Byzantine reconquest contested by the Goths (Totila 541-552)"
+    },
+    {
+     "from": 554,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Ducatus Romanus; Lombard sieges 579 and 593 (Agilulf)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "The province of Rome is one map cell, so Rome, Latium Vetus, the Alban Hills, Ager Veientanus (Veii taken 396), Caere and Tibur share one region; Latin cities were treaty allies until 338 and Tibur and Praeneste stayed federate allies until 90 BC."
+  },
+  {
+   "id": "it_etruria_south",
+   "name": "Southern Etruria (Tarquinii, Falerii, Vulci)",
+   "seed": [
+    12.0,
+    42.42
+   ],
+   "countries": [
+    "IT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -358,
+     "p": "tarquinii",
+     "s": "independent",
+     "note": "Falerii and Capena submit 395/394; Latin colonies at Sutrium (383) and Nepet (373)"
+    },
+    {
+     "from": -358,
+     "to": -351,
+     "p": "tarquinii",
+     "s": "contested",
+     "note": "Tarquinian war; 307 Roman prisoners sacrificed at Tarquinii"
+    },
+    {
+     "from": -351,
+     "to": -311,
+     "p": "tarquinii",
+     "s": "independent",
+     "note": "Forty-year truce of 351"
+    },
+    {
+     "from": -311,
+     "to": -308,
+     "p": "rome",
+     "s": "contested",
+     "note": "Fabius Rullianus crosses the Ciminian Forest (310)"
+    },
+    {
+     "from": -308,
+     "to": -283,
+     "p": "tarquinii",
+     "s": "independent"
+    },
+    {
+     "from": -283,
+     "to": -280,
+     "p": "rome",
+     "s": "contested",
+     "note": "Vulci and Volsinii defeated; triumph of Ti. Coruncanius (280)"
+    },
+    {
+     "from": -280,
+     "to": -241,
+     "p": "tarquinii",
+     "s": "ally"
+    },
+    {
+     "from": -241,
+     "to": -240,
+     "p": "rome",
+     "s": "contested",
+     "note": "Revolt of Falerii crushed in six days; city moved to Falerii Novi"
+    },
+    {
+     "from": -240,
+     "to": -89,
+     "p": "tarquinii",
+     "s": "ally"
+    },
+    {
+     "from": -89,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 554,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Gothic War: Byzantine reconquest contested by the Goths (Totila 541-552)"
+    },
+    {
+     "from": 554,
+     "to": 574,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 574,
+     "to": 605,
+     "p": "lombards",
+     "s": "contested",
+     "note": "Lombard Tuscia advancing"
+    },
+    {
+     "from": 605,
+     "to": 641,
+     "p": "lombards",
+     "s": "independent",
+     "note": "Agilulf takes Orvieto and Bagnoregio (605); Sutri, Nepi and the Ager Faliscus stay Roman"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Viterbo province: the Faliscan country and Tarquinii share a cell; Roman colonies on its southern rim from 383 are not shown separately."
+  },
+  {
+   "id": "it_etruria_coast",
+   "name": "Coastal Etruria (Rusellae, Vetulonia, Cosa)",
+   "seed": [
+    11.2,
+    42.75
+   ],
+   "countries": [
+    "IT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -294,
+     "p": "etruscans",
+     "s": "independent"
+    },
+    {
+     "from": -294,
+     "to": -280,
+     "p": "rome",
+     "s": "contested",
+     "note": "Rusellae stormed 294 (Livy 10.37); Vulci defeated 280"
+    },
+    {
+     "from": -280,
+     "to": -225,
+     "p": "etruscans",
+     "s": "ally",
+     "note": "Latin colony at Cosa 273; Saturnia 183"
+    },
+    {
+     "from": -225,
+     "to": -224,
+     "p": "boii",
+     "s": "contested",
+     "note": "Battle of Telamon (225): the Gallic army destroyed between two consular armies"
+    },
+    {
+     "from": -224,
+     "to": -89,
+     "p": "etruscans",
+     "s": "ally",
+     "note": "Latin colony at Cosa 273; Saturnia 183"
+    },
+    {
+     "from": -89,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 554,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Gothic War: Byzantine reconquest contested by the Goths (Totila 541-552)"
+    },
+    {
+     "from": 554,
+     "to": 574,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 574,
+     "to": 641,
+     "p": "lombards",
+     "s": "independent",
+     "note": "Lombard Tuscia"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Lombard arrival in coastal Tuscia is dated only approximately (c.570s)."
+  },
+  {
+   "id": "it_clusium",
+   "name": "Central Etruria (Clusium)",
+   "seed": [
+    11.5,
+    43.15
+   ],
+   "countries": [
+    "IT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -295,
+     "p": "clusium",
+     "s": "independent",
+     "note": "Porsenna's Clusium; Gauls besiege Clusium 391"
+    },
+    {
+     "from": -295,
+     "to": -280,
+     "p": "rome",
+     "s": "contested",
+     "note": "A Roman legion destroyed near Clusium before Sentinum (295)"
+    },
+    {
+     "from": -280,
+     "to": -225,
+     "p": "clusium",
+     "s": "ally"
+    },
+    {
+     "from": -225,
+     "to": -224,
+     "p": "boii",
+     "s": "contested",
+     "note": "Gallic army defeats the Romans near Faesulae/Clusium before Telamon"
+    },
+    {
+     "from": -224,
+     "to": -89,
+     "p": "clusium",
+     "s": "ally"
+    },
+    {
+     "from": -89,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 554,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Gothic War: Byzantine reconquest contested by the Goths (Totila 541-552)"
+    },
+    {
+     "from": 554,
+     "to": 574,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 574,
+     "to": 641,
+     "p": "lombards",
+     "s": "independent",
+     "note": "Lombard duchy of Chiusi"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Date of the Clusine treaty with Rome is not recorded; c.280 is inferred."
+  },
+  {
+   "id": "it_arretium",
+   "name": "Northern Etruria (Arretium, Cortona)",
+   "seed": [
+    11.85,
+    43.5
+   ],
+   "countries": [
+    "IT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -310,
+     "p": "etruscans",
+     "s": "independent"
+    },
+    {
+     "from": -310,
+     "to": -308,
+     "p": "rome",
+     "s": "contested",
+     "note": "War with Perusia, Cortona and Arretium; thirty-year truce"
+    },
+    {
+     "from": -308,
+     "to": -302,
+     "p": "etruscans",
+     "s": "independent"
+    },
+    {
+     "from": -302,
+     "to": -284,
+     "p": "etruscans",
+     "s": "ally",
+     "note": "Rome restores the Cilnii at Arretium (302)"
+    },
+    {
+     "from": -284,
+     "to": -283,
+     "p": "senones",
+     "s": "contested",
+     "note": "Battle of Arretium: Senones annihilate L. Caecilius Metellus"
+    },
+    {
+     "from": -283,
+     "to": -217,
+     "p": "etruscans",
+     "s": "ally",
+     "note": "Rome restores the Cilnii at Arretium (302)"
+    },
+    {
+     "from": -217,
+     "to": -216,
+     "p": "carthage",
+     "s": "contested",
+     "note": "Hannibal marches past Flaminius' army at Arretium"
+    },
+    {
+     "from": -216,
+     "to": -89,
+     "p": "etruscans",
+     "s": "ally",
+     "note": "Rome restores the Cilnii at Arretium (302)"
+    },
+    {
+     "from": -89,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 554,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Gothic War: Byzantine reconquest contested by the Goths (Totila 541-552)"
+    },
+    {
+     "from": 554,
+     "to": 574,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 574,
+     "to": 641,
+     "p": "lombards",
+     "s": "independent"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Sullan colony at Arretium c.80 BC."
+  },
+  {
+   "id": "it_faesulae",
+   "name": "Faesulae and the Arno (Florentia, Pistoria)",
+   "seed": [
+    11.15,
+    43.85
+   ],
+   "countries": [
+    "IT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -295,
+     "p": "etruscans",
+     "s": "independent"
+    },
+    {
+     "from": -295,
+     "to": -283,
+     "p": "rome",
+     "s": "contested"
+    },
+    {
+     "from": -283,
+     "to": -89,
+     "p": "etruscans",
+     "s": "ally"
+    },
+    {
+     "from": -89,
+     "to": -63,
+     "p": "rome",
+     "s": "direct",
+     "note": "Florentia founded as a colony c.59 or 41 BC"
+    },
+    {
+     "from": -63,
+     "to": -62,
+     "p": "rome",
+     "s": "contested",
+     "note": "Catiline's rising: Manlius' camp at Faesulae; Catiline killed at Pistoria (Jan 62)"
+    },
+    {
+     "from": -62,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Florentia founded as a colony c.59 or 41 BC"
+    },
+    {
+     "from": 395,
+     "to": 405,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 405,
+     "to": 407,
+     "p": "goths",
+     "s": "contested",
+     "note": "Radagaisus besieges Florence; destroyed at Faesulae (23 Aug 406)"
+    },
+    {
+     "from": 407,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct",
+     "note": "Florentia founded as a colony c.59 or 41 BC"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 554,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Gothic War: Byzantine reconquest contested by the Goths (Totila 541-552)"
+    },
+    {
+     "from": 554,
+     "to": 570,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 570,
+     "to": 641,
+     "p": "lombards",
+     "s": "independent"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Faesulae entered the Roman alliance at an unrecorded date in the early 3rd century."
+  },
+  {
+   "id": "it_volaterrae",
+   "name": "Volaterrae, Populonia and Pisae",
+   "seed": [
+    10.65,
+    43.35
+   ],
+   "countries": [
+    "IT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -298,
+     "p": "etruscans",
+     "s": "independent"
+    },
+    {
+     "from": -298,
+     "to": -283,
+     "p": "rome",
+     "s": "contested",
+     "note": "Battle near Volaterrae (298)"
+    },
+    {
+     "from": -283,
+     "to": -89,
+     "p": "etruscans",
+     "s": "ally",
+     "note": "Pisae a Roman base against the Ligurians from the 220s"
+    },
+    {
+     "from": -89,
+     "to": -82,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": -82,
+     "to": -80,
+     "p": "rome",
+     "s": "contested",
+     "note": "Sulla besieges proscribed Marians in Volaterrae for two years"
+    },
+    {
+     "from": -80,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 554,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Gothic War: Byzantine reconquest contested by the Goths (Totila 541-552)"
+    },
+    {
+     "from": 554,
+     "to": 574,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 574,
+     "to": 641,
+     "p": "lombards",
+     "s": "independent",
+     "note": "Lombard Tuscia; Pisa perhaps Byzantine until c.600"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Pisa and Populonia had separate histories from Volaterrae; merged here."
+  },
+  {
+   "id": "it_volsinii",
+   "name": "Volsinii and the Tiber corridor (Narnia, Ameria)",
+   "seed": [
+    12.3,
+    42.62
+   ],
+   "countries": [
+    "IT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -310,
+     "p": "volsinii",
+     "s": "independent"
+    },
+    {
+     "from": -310,
+     "to": -308,
+     "p": "rome",
+     "s": "contested"
+    },
+    {
+     "from": -308,
+     "to": -299,
+     "p": "volsinii",
+     "s": "independent"
+    },
+    {
+     "from": -299,
+     "to": -280,
+     "p": "rome",
+     "s": "contested",
+     "note": "Latin colony at Narnia (299); Volsinii defeated 294 and 280"
+    },
+    {
+     "from": -280,
+     "to": -265,
+     "p": "volsinii",
+     "s": "ally"
+    },
+    {
+     "from": -265,
+     "to": -264,
+     "p": "rome",
+     "s": "contested",
+     "note": "Servile revolution at Volsinii; Fulvius Flaccus destroys the city, Vertumnus evoked to Rome"
+    },
+    {
+     "from": -264,
+     "to": -89,
+     "p": "volsinii",
+     "s": "ally",
+     "note": "Volsinii refounded at Bolsena"
+    },
+    {
+     "from": -89,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 554,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Gothic War: Byzantine reconquest contested by the Goths (Totila 541-552)"
+    },
+    {
+     "from": 554,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Byzantine corridor Rome-Ravenna (Narni, Amelia, Todi); Orvieto lost 605, Terni Lombard"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Terni province mixes Etruscan Volsinii (Orvieto) with Umbrian Interamna and Narnia."
+  },
+  {
+   "id": "it_umbria",
+   "name": "Umbria (Iguvium, Spoletium, Perusia)",
+   "seed": [
+    12.55,
+    43.05
+   ],
+   "countries": [
+    "IT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -310,
+     "p": "umbrians",
+     "s": "independent"
+    },
+    {
+     "from": -310,
+     "to": -295,
+     "p": "rome",
+     "s": "contested",
+     "note": "Perusia 310/309; Mevania 308; Perusia again 295; Camerinum allied 310"
+    },
+    {
+     "from": -295,
+     "to": -217,
+     "p": "umbrians",
+     "s": "ally",
+     "note": "Latin colony at Spoletium (241)"
+    },
+    {
+     "from": -217,
+     "to": -216,
+     "p": "carthage",
+     "s": "contested",
+     "note": "Battle of Lake Trasimene (21 June 217); Spoletium repulses Hannibal"
+    },
+    {
+     "from": -216,
+     "to": -89,
+     "p": "umbrians",
+     "s": "ally",
+     "note": "Latin colony at Spoletium (241)"
+    },
+    {
+     "from": -89,
+     "to": -41,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": -41,
+     "to": -40,
+     "p": "rome",
+     "s": "contested",
+     "note": "Perusine War: Octavian starves out L. Antonius; Perusia burnt"
+    },
+    {
+     "from": -40,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 554,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Gothic War: Byzantine reconquest contested by the Goths (Totila 541-552)"
+    },
+    {
+     "from": 554,
+     "to": 576,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 576,
+     "to": 641,
+     "p": "lombards",
+     "s": "independent",
+     "note": "Duchy of Spoleto (Faroald); Perugia and Gubbio stay Byzantine"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Perusia, though Etruscan, lies in this cell; Lombard Spoleto dates c.570-576."
+  },
+  {
+   "id": "it_sabina",
+   "name": "Sabina (Reate, Cures)",
+   "seed": [
+    12.9,
+    42.35
+   ],
+   "countries": [
+    "IT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -291,
+     "p": "sabines",
+     "s": "independent",
+     "note": "Repeated Sabine wars 505-449; then quiet"
+    },
+    {
+     "from": -291,
+     "to": -290,
+     "p": "rome",
+     "s": "contested",
+     "note": "Manius Curius Dentatus conquers the Sabines"
+    },
+    {
+     "from": -290,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Civitas sine suffragio 290, full citizenship 268"
+    },
+    {
+     "from": 395,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 554,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Gothic War: Byzantine reconquest contested by the Goths (Totila 541-552)"
+    },
+    {
+     "from": 554,
+     "to": 576,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 576,
+     "to": 641,
+     "p": "lombards",
+     "s": "independent",
+     "note": "Reate a gastaldate of Spoleto"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Southern Sabina (Cures, Farfa) was later Roman ducal land; Rieti went Lombard."
+  },
+  {
+   "id": "it_volsci",
+   "name": "Volscian country and the Aurunci (Pomptine plain, Monti Lepini, Tarracina)",
+   "seed": [
+    13.15,
+    41.42
+   ],
+   "countries": [
+    "IT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -493,
+     "p": "volsci",
+     "s": "contested",
+     "note": "Suessa Pometia taken 495; Volscian advance into the Pomptine plain"
+    },
+    {
+     "from": -493,
+     "to": -406,
+     "p": "volsci",
+     "s": "independent",
+     "note": "Era of Coriolanus (trad. 491-488); Latin colonies at Norba and Signia"
+    },
+    {
+     "from": -406,
+     "to": -338,
+     "p": "rome",
+     "s": "contested",
+     "note": "Anxur (Tarracina) 406; Circeii 393; Satricum 385; Setia 383; Privernum revolts"
+    },
+    {
+     "from": -338,
+     "to": -315,
+     "p": "rome",
+     "s": "direct",
+     "note": "Latin War ends; Fundi and Formiae cives sine suffragio; Tarracina colony 329; tribes Oufentina and Falerna 318"
+    },
+    {
+     "from": -315,
+     "to": -314,
+     "p": "rome",
+     "s": "contested",
+     "note": "Ausonian cities (Ausona, Minturnae, Vescia) destroyed"
+    },
+    {
+     "from": -314,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Latin War ends; Fundi and Formiae cives sine suffragio; Tarracina colony 329; tribes Oufentina and Falerna 318"
+    },
+    {
+     "from": 395,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 554,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Gothic War: Byzantine reconquest contested by the Goths (Totila 541-552)"
+    },
+    {
+     "from": 554,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Latina province holds both the Volscian Pomptine plain and the Aurunci (Minturnae, Formiae); Antium lies in the Rome cell."
+  },
+  {
+   "id": "it_hernici",
+   "name": "Hernici and the Liris valley (Anagnia, Fregellae, Sora)",
+   "seed": [
+    13.5,
+    41.62
+   ],
+   "countries": [
+    "IT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -486,
+     "p": "hernici",
+     "s": "independent"
+    },
+    {
+     "from": -486,
+     "to": -362,
+     "p": "hernici",
+     "s": "ally",
+     "note": "Treaty of Sp. Cassius with the Hernici (486)"
+    },
+    {
+     "from": -362,
+     "to": -358,
+     "p": "hernici",
+     "s": "contested",
+     "note": "Hernican war"
+    },
+    {
+     "from": -358,
+     "to": -328,
+     "p": "hernici",
+     "s": "ally"
+    },
+    {
+     "from": -328,
+     "to": -304,
+     "p": "samnites",
+     "s": "contested",
+     "note": "Second Samnite War in the Liris valley: Fregellae (328), Sora; Anagnia revolts 306"
+    },
+    {
+     "from": -304,
+     "to": -125,
+     "p": "rome",
+     "s": "direct",
+     "note": "Anagnia cives sine suffragio; Sora (303) and Interamna Lirenas (312) colonies"
+    },
+    {
+     "from": -125,
+     "to": -124,
+     "p": "rome",
+     "s": "contested",
+     "note": "Revolt and destruction of Fregellae"
+    },
+    {
+     "from": -124,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Anagnia cives sine suffragio; Sora (303) and Interamna Lirenas (312) colonies"
+    },
+    {
+     "from": 395,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 554,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Gothic War: Byzantine reconquest contested by the Goths (Totila 541-552)"
+    },
+    {
+     "from": 554,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Aletrium, Ferentinum and Verulae stayed allies until 90; Monte Cassino (in this cell) sacked by Lombards c.577."
+  },
+  {
+   "id": "it_aequi_marsi",
+   "name": "Aequi, Marsi, Vestini and Paeligni (Alba Fucens, Corfinium)",
+   "seed": [
+    13.6,
+    42.1
+   ],
+   "countries": [
+    "IT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -304,
+     "p": "aequi",
+     "s": "independent",
+     "note": "Aequian wars: Mount Algidus 458 (Cincinnatus) and 431"
+    },
+    {
+     "from": -304,
+     "to": -303,
+     "p": "rome",
+     "s": "contested",
+     "note": "Aequi crushed: 31 towns in 50 days (Livy 9.45)"
+    },
+    {
+     "from": -303,
+     "to": -91,
+     "p": "marsi_paeligni",
+     "s": "ally",
+     "note": "Alba Fucens (303) and Carsioli (298) colonies"
+    },
+    {
+     "from": -91,
+     "to": -88,
+     "p": "marsi_paeligni",
+     "s": "contested",
+     "note": "Social War: the Italian allies in revolt"
+    },
+    {
+     "from": -88,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 554,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Gothic War: Byzantine reconquest contested by the Goths (Totila 541-552)"
+    },
+    {
+     "from": 554,
+     "to": 576,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 576,
+     "to": 641,
+     "p": "lombards",
+     "s": "independent",
+     "note": "Spoleto (Marsica, Valeria)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "L'Aquila province is one cell holding the Aequi, Marsi, Vestini and Paeligni; Corfinium was the rebel capital Italia in 91-90."
+  },
+  {
+   "id": "it_frentani",
+   "name": "Frentani and Marrucini (Teate, Anxanum, Larinum)",
+   "seed": [
+    14.25,
+    42.2
+   ],
+   "countries": [
+    "IT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -304,
+     "p": "samnites",
+     "s": "independent"
+    },
+    {
+     "from": -304,
+     "to": -91,
+     "p": "samnites",
+     "s": "ally",
+     "note": "Treaties with the Frentani and Marrucini (304)"
+    },
+    {
+     "from": -91,
+     "to": -88,
+     "p": "samnites",
+     "s": "contested",
+     "note": "Social War: the Italian allies in revolt"
+    },
+    {
+     "from": -88,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 554,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Gothic War: Byzantine reconquest contested by the Goths (Totila 541-552)"
+    },
+    {
+     "from": 554,
+     "to": 595,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 595,
+     "to": 641,
+     "p": "lombards",
+     "s": "independent",
+     "note": "Lombard by c.600; Ortona Byzantine longer"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "The Frentani and Marrucini are shown under the Samnite polity for want of their own; Larinum lies in the Pentri cell."
+  },
+  {
+   "id": "it_praetutii",
+   "name": "Praetutii (Hadria, Interamnia)",
+   "seed": [
+    13.72,
+    42.65
+   ],
+   "countries": [
+    "IT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -291,
+     "p": "picentes",
+     "s": "independent"
+    },
+    {
+     "from": -291,
+     "to": -290,
+     "p": "rome",
+     "s": "contested",
+     "note": "Curius Dentatus"
+    },
+    {
+     "from": -290,
+     "to": -91,
+     "p": "rome",
+     "s": "direct",
+     "note": "Hadria Latin colony 289; Castrum Novum"
+    },
+    {
+     "from": -91,
+     "to": -89,
+     "p": "picentes",
+     "s": "contested",
+     "note": "Social War around Asculum"
+    },
+    {
+     "from": -89,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Hadria Latin colony 289; Castrum Novum"
+    },
+    {
+     "from": 395,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 554,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Gothic War: Byzantine reconquest contested by the Goths (Totila 541-552)"
+    },
+    {
+     "from": 554,
+     "to": 580,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 580,
+     "to": 641,
+     "p": "lombards",
+     "s": "independent",
+     "note": "Spoleto (approx.)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Teramo province; Social War fighting spilled in from Asculum."
+  },
+  {
+   "id": "it_picenum",
+   "name": "Picenum (Asculum, Firmum, Cingulum)",
+   "seed": [
+    13.45,
+    43.05
+   ],
+   "countries": [
+    "IT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -299,
+     "p": "picentes",
+     "s": "independent"
+    },
+    {
+     "from": -299,
+     "to": -269,
+     "p": "picentes",
+     "s": "ally",
+     "note": "Alliance of 299"
+    },
+    {
+     "from": -269,
+     "to": -268,
+     "p": "rome",
+     "s": "contested",
+     "note": "Picene revolt; Sempronius Sophus wins near Asculum; Picentes deported to the Silarus"
+    },
+    {
+     "from": -268,
+     "to": -91,
+     "p": "picentes",
+     "s": "ally",
+     "note": "Firmum Latin colony 264; Flaminius distributes the ager Picenus 232"
+    },
+    {
+     "from": -91,
+     "to": -89,
+     "p": "picentes",
+     "s": "contested",
+     "note": "Social War breaks out at Asculum; siege by Pompeius Strabo, fell Nov 89"
+    },
+    {
+     "from": -89,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 554,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Gothic War: Byzantine reconquest contested by the Goths (Totila 541-552)"
+    },
+    {
+     "from": 554,
+     "to": 580,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 580,
+     "to": 641,
+     "p": "lombards",
+     "s": "independent",
+     "note": "Spoleto takes Camerino, Fermo, Ascoli (580s-592)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Lombard conquest dates for southern Picenum are approximate."
+  },
+  {
+   "id": "it_ager_gallicus",
+   "name": "Ager Gallicus and Ancona (later the Pentapolis)",
+   "seed": [
+    12.85,
+    43.62
+   ],
+   "countries": [
+    "IT",
+    "SM"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -400,
+     "p": "umbrians",
+     "s": "independent"
+    },
+    {
+     "from": -400,
+     "to": -295,
+     "p": "senones",
+     "s": "independent",
+     "note": "Senones settle c.400; Sentinum (295) lies in this cell"
+    },
+    {
+     "from": -295,
+     "to": -294,
+     "p": "rome",
+     "s": "contested",
+     "note": "Battle of Sentinum: Samnites, Gauls, Etruscans and Umbrians defeated"
+    },
+    {
+     "from": -294,
+     "to": -284,
+     "p": "senones",
+     "s": "independent",
+     "note": "Senones settle c.400; Sentinum (295) lies in this cell"
+    },
+    {
+     "from": -284,
+     "to": -283,
+     "p": "rome",
+     "s": "contested",
+     "note": "Senones expelled by Dolabella; Sena Gallica colony"
+    },
+    {
+     "from": -283,
+     "to": -207,
+     "p": "rome",
+     "s": "direct",
+     "note": "Ariminum Latin colony 268; Lex Flaminia viritane allotments 232"
+    },
+    {
+     "from": -207,
+     "to": -206,
+     "p": "carthage",
+     "s": "contested",
+     "note": "Battle of the Metaurus: Hasdrubal Barca killed"
+    },
+    {
+     "from": -206,
+     "to": 271,
+     "p": "rome",
+     "s": "direct",
+     "note": "Ariminum Latin colony 268; Lex Flaminia viritane allotments 232"
+    },
+    {
+     "from": 271,
+     "to": 272,
+     "p": "alamanni",
+     "s": "contested",
+     "note": "Juthungi defeated by Aurelian at Fanum Fortunae"
+    },
+    {
+     "from": 272,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Ariminum Latin colony 268; Lex Flaminia viritane allotments 232"
+    },
+    {
+     "from": 395,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 554,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Gothic War: Byzantine reconquest contested by the Goths (Totila 541-552)"
+    },
+    {
+     "from": 554,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Pentapolis (Rimini, Pesaro, Fano, Senigallia, Ancona) under the exarch"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "San Marino is included; the Pentapolis survived Lombard raids into the 8th century."
+  },
+  {
+   "id": "it_pentri",
+   "name": "Samnium Pentri (Bovianum, Aesernia, Saepinum)",
+   "seed": [
+    14.45,
+    41.62
+   ],
+   "countries": [
+    "IT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -343,
+     "p": "samnites",
+     "s": "independent",
+     "note": "Rome-Samnite treaty 354"
+    },
+    {
+     "from": -343,
+     "to": -341,
+     "p": "rome",
+     "s": "contested",
+     "note": "First Samnite War"
+    },
+    {
+     "from": -341,
+     "to": -326,
+     "p": "samnites",
+     "s": "independent"
+    },
+    {
+     "from": -326,
+     "to": -304,
+     "p": "rome",
+     "s": "contested",
+     "note": "Second Samnite War (Caudine Forks 321)"
+    },
+    {
+     "from": -304,
+     "to": -298,
+     "p": "samnites",
+     "s": "independent"
+    },
+    {
+     "from": -298,
+     "to": -290,
+     "p": "rome",
+     "s": "contested",
+     "note": "Third Samnite War"
+    },
+    {
+     "from": -290,
+     "to": -280,
+     "p": "samnites",
+     "s": "ally"
+    },
+    {
+     "from": -280,
+     "to": -275,
+     "p": "epirus",
+     "s": "contested",
+     "note": "Samnites join Pyrrhus"
+    },
+    {
+     "from": -275,
+     "to": -91,
+     "p": "samnites",
+     "s": "ally"
+    },
+    {
+     "from": -91,
+     "to": -82,
+     "p": "samnites",
+     "s": "contested",
+     "note": "Social War; Samnites fight on until the Colline Gate (Nov 82)"
+    },
+    {
+     "from": -82,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Sullan devastation of Samnium"
+    },
+    {
+     "from": 395,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 554,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Gothic War: Byzantine reconquest contested by the Goths (Totila 541-552)"
+    },
+    {
+     "from": 554,
+     "to": 571,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 571,
+     "to": 641,
+     "p": "lombards",
+     "s": "independent",
+     "note": "Duchy of Benevento (Zotto, c.570/571)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "The Pentri stayed loyal after Cannae; Aesernia Latin colony 263; Pietrabbondante sanctuary."
+  },
+  {
+   "id": "it_caudini",
+   "name": "Samnium Caudini (Caudium, Beneventum)",
+   "seed": [
+    14.75,
+    41.2
+   ],
+   "countries": [
+    "IT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -343,
+     "p": "samnites",
+     "s": "independent",
+     "note": "Rome-Samnite treaty 354"
+    },
+    {
+     "from": -343,
+     "to": -341,
+     "p": "rome",
+     "s": "contested",
+     "note": "First Samnite War"
+    },
+    {
+     "from": -341,
+     "to": -326,
+     "p": "samnites",
+     "s": "independent"
+    },
+    {
+     "from": -326,
+     "to": -321,
+     "p": "rome",
+     "s": "contested",
+     "note": "Second Samnite War (Caudine Forks 321)"
+    },
+    {
+     "from": -321,
+     "to": -320,
+     "p": "samnites",
+     "s": "contested",
+     "note": "Caudine Forks: the Roman army sent under the yoke"
+    },
+    {
+     "from": -320,
+     "to": -304,
+     "p": "rome",
+     "s": "contested",
+     "note": "Second Samnite War (Caudine Forks 321)"
+    },
+    {
+     "from": -304,
+     "to": -298,
+     "p": "samnites",
+     "s": "independent"
+    },
+    {
+     "from": -298,
+     "to": -290,
+     "p": "rome",
+     "s": "contested",
+     "note": "Third Samnite War"
+    },
+    {
+     "from": -290,
+     "to": -280,
+     "p": "samnites",
+     "s": "ally"
+    },
+    {
+     "from": -280,
+     "to": -275,
+     "p": "epirus",
+     "s": "contested",
+     "note": "Samnites join Pyrrhus"
+    },
+    {
+     "from": -275,
+     "to": -274,
+     "p": "epirus",
+     "s": "contested",
+     "note": "Battle of Beneventum: Curius Dentatus defeats Pyrrhus"
+    },
+    {
+     "from": -274,
+     "to": -216,
+     "p": "samnites",
+     "s": "ally"
+    },
+    {
+     "from": -216,
+     "to": -209,
+     "p": "carthage",
+     "s": "contested",
+     "note": "Caudini defect after Cannae; Latin Beneventum (268) holds out"
+    },
+    {
+     "from": -209,
+     "to": -91,
+     "p": "samnites",
+     "s": "ally"
+    },
+    {
+     "from": -91,
+     "to": -88,
+     "p": "samnites",
+     "s": "contested",
+     "note": "Social War"
+    },
+    {
+     "from": -88,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 554,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Gothic War: Byzantine reconquest contested by the Goths (Totila 541-552)"
+    },
+    {
+     "from": 554,
+     "to": 571,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 571,
+     "to": 641,
+     "p": "lombards",
+     "s": "independent",
+     "note": "Duchy of Benevento (Zotto, c.570/571)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Beneventum, a Latin colony from 268, was the Roman anchor of the region."
+  },
+  {
+   "id": "it_hirpini",
+   "name": "Samnium Hirpini (Aeclanum, Compsa, Abellinum)",
+   "seed": [
+    15.05,
+    40.95
+   ],
+   "countries": [
+    "IT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -343,
+     "p": "samnites",
+     "s": "independent",
+     "note": "Rome-Samnite treaty 354"
+    },
+    {
+     "from": -343,
+     "to": -341,
+     "p": "rome",
+     "s": "contested",
+     "note": "First Samnite War"
+    },
+    {
+     "from": -341,
+     "to": -326,
+     "p": "samnites",
+     "s": "independent"
+    },
+    {
+     "from": -326,
+     "to": -304,
+     "p": "rome",
+     "s": "contested",
+     "note": "Second Samnite War (Caudine Forks 321)"
+    },
+    {
+     "from": -304,
+     "to": -298,
+     "p": "samnites",
+     "s": "independent"
+    },
+    {
+     "from": -298,
+     "to": -290,
+     "p": "rome",
+     "s": "contested",
+     "note": "Third Samnite War"
+    },
+    {
+     "from": -290,
+     "to": -280,
+     "p": "samnites",
+     "s": "ally"
+    },
+    {
+     "from": -280,
+     "to": -275,
+     "p": "epirus",
+     "s": "contested",
+     "note": "Samnites join Pyrrhus"
+    },
+    {
+     "from": -275,
+     "to": -216,
+     "p": "samnites",
+     "s": "ally"
+    },
+    {
+     "from": -216,
+     "to": -209,
+     "p": "carthage",
+     "s": "contested",
+     "note": "Compsa opens its gates to Hannibal; Hirpini surrender 209"
+    },
+    {
+     "from": -209,
+     "to": -91,
+     "p": "samnites",
+     "s": "ally"
+    },
+    {
+     "from": -91,
+     "to": -89,
+     "p": "samnites",
+     "s": "contested",
+     "note": "Sulla sacks Aeclanum (89)"
+    },
+    {
+     "from": -89,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 554,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Gothic War: Byzantine reconquest contested by the Goths (Totila 541-552)"
+    },
+    {
+     "from": 554,
+     "to": 571,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 571,
+     "to": 641,
+     "p": "lombards",
+     "s": "independent",
+     "note": "Duchy of Benevento (Zotto, c.570/571)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Hirpini treated as a separate people after 268."
+  },
+  {
+   "id": "it_campania",
+   "name": "Campania (Capua, Cales, Suessa, Teanum Sidicinum)",
+   "seed": [
+    14.2,
+    41.2
+   ],
+   "countries": [
+    "IT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -423,
+     "p": "etruscans",
+     "s": "independent",
+     "note": "Etruscan Capua"
+    },
+    {
+     "from": -423,
+     "to": -343,
+     "p": "campanians",
+     "s": "independent",
+     "note": "Oscan takeover of Capua (423)"
+    },
+    {
+     "from": -343,
+     "to": -338,
+     "p": "rome",
+     "s": "contested",
+     "note": "Campanian deditio (343); Latin War (Trifanum 340)"
+    },
+    {
+     "from": -338,
+     "to": -216,
+     "p": "rome",
+     "s": "direct",
+     "note": "Civitas sine suffragio; Cales (334) and Suessa (313) colonies"
+    },
+    {
+     "from": -216,
+     "to": -211,
+     "p": "campanians",
+     "s": "contested",
+     "note": "Capua defects after Cannae; besieged 212-211"
+    },
+    {
+     "from": -211,
+     "to": -73,
+     "p": "rome",
+     "s": "direct",
+     "note": "Capuan land confiscated as ager publicus; Caesarian colony 59"
+    },
+    {
+     "from": -73,
+     "to": -72,
+     "p": "rome",
+     "s": "contested",
+     "note": "Spartacus breaks out of Lentulus Batiatus' school at Capua"
+    },
+    {
+     "from": -72,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Capuan land confiscated as ager publicus; Caesarian colony 59"
+    },
+    {
+     "from": 395,
+     "to": 410,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 410,
+     "to": 411,
+     "p": "visigoths",
+     "s": "contested",
+     "note": "Alaric's march south (Nola)"
+    },
+    {
+     "from": 411,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct",
+     "note": "Capuan land confiscated as ager publicus; Caesarian colony 59"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 554,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Gothic War: Byzantine reconquest contested by the Goths (Totila 541-552)"
+    },
+    {
+     "from": 554,
+     "to": 571,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 571,
+     "to": 594,
+     "p": "lombards",
+     "s": "contested",
+     "note": "Lombard Benevento pushes into Campania"
+    },
+    {
+     "from": 594,
+     "to": 641,
+     "p": "lombards",
+     "s": "independent",
+     "note": "Capua Lombard by the 590s (approx.)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Capua's 338-216 status (cives sine suffragio with own magistrates) is shown as direct; it might equally be called allied."
+  },
+  {
+   "id": "it_neapolis",
+   "name": "Neapolis and the Bay of Naples (Cumae, Puteoli, Nola)",
+   "seed": [
+    14.35,
+    40.85
+   ],
+   "countries": [
+    "IT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -327,
+     "p": "neapolis",
+     "s": "independent",
+     "note": "Cumae Greek until the Oscan conquest of 421; battle of Cumae 474"
+    },
+    {
+     "from": -327,
+     "to": -326,
+     "p": "rome",
+     "s": "contested",
+     "note": "Siege of Palaepolis by Publilius Philo"
+    },
+    {
+     "from": -326,
+     "to": -89,
+     "p": "neapolis",
+     "s": "ally",
+     "note": "Foedus with Neapolis; Nola loyal against Hannibal (216-214)"
+    },
+    {
+     "from": -89,
+     "to": -73,
+     "p": "rome",
+     "s": "direct",
+     "note": "Puteoli colony 194"
+    },
+    {
+     "from": -73,
+     "to": -72,
+     "p": "rome",
+     "s": "contested",
+     "note": "Spartacus' camp on Vesuvius"
+    },
+    {
+     "from": -72,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Puteoli colony 194"
+    },
+    {
+     "from": 395,
+     "to": 410,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 410,
+     "to": 411,
+     "p": "visigoths",
+     "s": "contested",
+     "note": "Alaric's march south"
+    },
+    {
+     "from": 411,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct",
+     "note": "Puteoli colony 194"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 554,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Gothic War: Byzantine reconquest contested by the Goths (Totila 541-552)"
+    },
+    {
+     "from": 554,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Duchy of Naples; Lombard sieges 581 and 592"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Vesuvius eruption of 24 Aug (or Oct) 79 buried Pompeii and Herculaneum in this cell."
+  },
+  {
+   "id": "it_paestum",
+   "name": "Paestum and the Ager Picentinus (Poseidonia, Salernum, Nuceria)",
+   "seed": [
+    15.2,
+    40.45
+   ],
+   "countries": [
+    "IT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -410,
+     "p": "italiote_league",
+     "s": "independent",
+     "note": "Greek Poseidonia"
+    },
+    {
+     "from": -410,
+     "to": -273,
+     "p": "lucanians",
+     "s": "independent",
+     "note": "Lucanian Paistom"
+    },
+    {
+     "from": -273,
+     "to": -216,
+     "p": "rome",
+     "s": "direct",
+     "note": "Paestum Latin colony 273; Picentini deported here 268; Salernum colony 194"
+    },
+    {
+     "from": -216,
+     "to": -215,
+     "p": "carthage",
+     "s": "contested",
+     "note": "Hannibal destroys Nuceria Alfaterna"
+    },
+    {
+     "from": -215,
+     "to": -72,
+     "p": "rome",
+     "s": "direct",
+     "note": "Paestum Latin colony 273; Picentini deported here 268; Salernum colony 194"
+    },
+    {
+     "from": -72,
+     "to": -71,
+     "p": "rome",
+     "s": "contested",
+     "note": "Spartacus defeated by Crassus near the Silarus"
+    },
+    {
+     "from": -71,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Paestum Latin colony 273; Picentini deported here 268; Salernum colony 194"
+    },
+    {
+     "from": 395,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 554,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Gothic War: Byzantine reconquest contested by the Goths (Totila 541-552)"
+    },
+    {
+     "from": 554,
+     "to": 640,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 640,
+     "to": 641,
+     "p": "lombards",
+     "s": "independent",
+     "note": "Arechis I of Benevento takes Salerno (c.640)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Nuceria Alfaterna was an allied city, not a colony."
+  },
+  {
+   "id": "it_daunia",
+   "name": "Daunia (Arpi, Luceria, Canusium, Cannae)",
+   "seed": [
+    15.6,
+    41.45
+   ],
+   "countries": [
+    "IT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -326,
+     "p": "apulians",
+     "s": "independent"
+    },
+    {
+     "from": -326,
+     "to": -321,
+     "p": "apulians",
+     "s": "ally",
+     "note": "Arpi allied 326; Teanum Apulum and Canusium 318; Luceria colony 314"
+    },
+    {
+     "from": -321,
+     "to": -319,
+     "p": "samnites",
+     "s": "contested",
+     "note": "Luceria lost and retaken"
+    },
+    {
+     "from": -319,
+     "to": -279,
+     "p": "apulians",
+     "s": "ally",
+     "note": "Arpi allied 326; Teanum Apulum and Canusium 318; Luceria colony 314"
+    },
+    {
+     "from": -279,
+     "to": -278,
+     "p": "epirus",
+     "s": "contested",
+     "note": "Battle of Asculum (Ausculum) against Pyrrhus"
+    },
+    {
+     "from": -278,
+     "to": -216,
+     "p": "apulians",
+     "s": "ally",
+     "note": "Arpi allied 326; Teanum Apulum and Canusium 318; Luceria colony 314"
+    },
+    {
+     "from": -216,
+     "to": -210,
+     "p": "carthage",
+     "s": "contested",
+     "note": "Cannae (2 Aug 216); Arpi and Salapia defect; Herdonea 212 and 210"
+    },
+    {
+     "from": -210,
+     "to": -91,
+     "p": "apulians",
+     "s": "ally"
+    },
+    {
+     "from": -91,
+     "to": -88,
+     "p": "apulians",
+     "s": "contested",
+     "note": "Social War"
+    },
+    {
+     "from": -88,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 554,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Gothic War: Byzantine reconquest contested by the Goths (Totila 541-552)"
+    },
+    {
+     "from": 554,
+     "to": 590,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 590,
+     "to": 641,
+     "p": "lombards",
+     "s": "independent",
+     "note": "Lombard Benevento in northern Apulia (approx.)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Cannae lies in the Barletta province, here joined to Daunia; Lombard dates approximate."
+  },
+  {
+   "id": "it_peucetia",
+   "name": "Peucetia (Barium, Rubi, Caelia)",
+   "seed": [
+    16.85,
+    40.9
+   ],
+   "countries": [
+    "IT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -300,
+     "p": "apulians",
+     "s": "independent"
+    },
+    {
+     "from": -300,
+     "to": -89,
+     "p": "apulians",
+     "s": "ally"
+    },
+    {
+     "from": -89,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 554,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Gothic War: Byzantine reconquest contested by the Goths (Totila 541-552)"
+    },
+    {
+     "from": 554,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Byzantine Apulia; Lombard raids"
+    }
+   ],
+   "certainty": "approx",
+   "notes": "The date of Peucetian alliances is not recorded; c.300 is a guess."
+  },
+  {
+   "id": "it_messapia",
+   "name": "Messapia and the Sallentini (Brundisium, Uria, Lupiae)",
+   "seed": [
+    17.95,
+    40.4
+   ],
+   "countries": [
+    "IT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -267,
+     "p": "messapians",
+     "s": "independent"
+    },
+    {
+     "from": -267,
+     "to": -266,
+     "p": "rome",
+     "s": "contested",
+     "note": "Triumphs over the Sallentini 267 and 266"
+    },
+    {
+     "from": -266,
+     "to": -89,
+     "p": "messapians",
+     "s": "ally",
+     "note": "Brundisium Latin colony 244"
+    },
+    {
+     "from": -89,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 554,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Gothic War: Byzantine reconquest contested by the Goths (Totila 541-552)"
+    },
+    {
+     "from": 554,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Byzantine Calabria (Otranto); Lombard Brindisi only after 670"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "In this period \"Calabria\" meant the Salento."
+  },
+  {
+   "id": "it_tarentum",
+   "name": "Tarentum",
+   "seed": [
+    17.2,
+    40.55
+   ],
+   "countries": [
+    "IT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -282,
+     "p": "tarentum",
+     "s": "independent"
+    },
+    {
+     "from": -282,
+     "to": -272,
+     "p": "tarentum",
+     "s": "contested",
+     "note": "Roman ships sunk off Tarentum (282); Pyrrhus 280-275; surrender 272"
+    },
+    {
+     "from": -272,
+     "to": -213,
+     "p": "tarentum",
+     "s": "ally"
+    },
+    {
+     "from": -213,
+     "to": -209,
+     "p": "carthage",
+     "s": "contested",
+     "note": "Hannibal takes the city, the citadel holds; Fabius recaptures 209"
+    },
+    {
+     "from": -209,
+     "to": -89,
+     "p": "tarentum",
+     "s": "ally",
+     "note": "Colonia Neptunia of C. Gracchus 123"
+    },
+    {
+     "from": -89,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 554,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Gothic War: Byzantine reconquest contested by the Goths (Totila 541-552)"
+    },
+    {
+     "from": 554,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Tarentum held out as Byzantine until the 680s."
+  },
+  {
+   "id": "it_lucania",
+   "name": "Lucania (Potentia, Grumentum, Metapontum, Heraclea)",
+   "seed": [
+    16.1,
+    40.5
+   ],
+   "countries": [
+    "IT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -420,
+     "p": "italiote_league",
+     "s": "independent",
+     "note": "Oenotrians inland, Greek Metapontum and Siris on the coast"
+    },
+    {
+     "from": -420,
+     "to": -298,
+     "p": "lucanians",
+     "s": "independent"
+    },
+    {
+     "from": -298,
+     "to": -280,
+     "p": "lucanians",
+     "s": "ally",
+     "note": "Treaty of 298; Venusia colony 291"
+    },
+    {
+     "from": -280,
+     "to": -272,
+     "p": "epirus",
+     "s": "contested",
+     "note": "Battle of Heraclea (280); Lucanians with Pyrrhus"
+    },
+    {
+     "from": -272,
+     "to": -216,
+     "p": "lucanians",
+     "s": "ally"
+    },
+    {
+     "from": -216,
+     "to": -207,
+     "p": "carthage",
+     "s": "contested",
+     "note": "Lucanian defections; Grumentum 207"
+    },
+    {
+     "from": -207,
+     "to": -91,
+     "p": "lucanians",
+     "s": "ally"
+    },
+    {
+     "from": -91,
+     "to": -88,
+     "p": "lucanians",
+     "s": "contested",
+     "note": "Social War (Lamponius)"
+    },
+    {
+     "from": -88,
+     "to": -73,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": -73,
+     "to": -71,
+     "p": "rome",
+     "s": "contested",
+     "note": "Spartacus' war in Lucania"
+    },
+    {
+     "from": -71,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 554,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Gothic War: Byzantine reconquest contested by the Goths (Totila 541-552)"
+    },
+    {
+     "from": 554,
+     "to": 580,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 580,
+     "to": 641,
+     "p": "lombards",
+     "s": "independent",
+     "note": "Inland Lucania Beneventan (approx.); coast Byzantine"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Matera and Potenza provinces; Venusia lies here."
+  },
+  {
+   "id": "it_thurii",
+   "name": "Thurii and Consentia (northern Bruttium)",
+   "seed": [
+    16.3,
+    39.55
+   ],
+   "countries": [
+    "IT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -356,
+     "p": "italiote_league",
+     "s": "independent",
+     "note": "Sybaris destroyed 510; Thurii founded 444/3"
+    },
+    {
+     "from": -356,
+     "to": -282,
+     "p": "bruttii",
+     "s": "independent",
+     "note": "Bruttian Consentia; Thurii hard pressed"
+    },
+    {
+     "from": -282,
+     "to": -272,
+     "p": "bruttii",
+     "s": "contested",
+     "note": "Roman garrison at Thurii (282); Pyrrhic War"
+    },
+    {
+     "from": -272,
+     "to": -216,
+     "p": "bruttii",
+     "s": "ally"
+    },
+    {
+     "from": -216,
+     "to": -204,
+     "p": "carthage",
+     "s": "contested",
+     "note": "Consentia defects; recovered 204"
+    },
+    {
+     "from": -204,
+     "to": -89,
+     "p": "bruttii",
+     "s": "ally",
+     "note": "Latin colony Copia at Thurii 193"
+    },
+    {
+     "from": -89,
+     "to": -72,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": -72,
+     "to": -71,
+     "p": "rome",
+     "s": "contested",
+     "note": "Spartacus at Thurii; Crassus' ditch across Bruttium"
+    },
+    {
+     "from": -71,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 410,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 410,
+     "to": 412,
+     "p": "visigoths",
+     "s": "contested",
+     "note": "Alaric dies at Consentia and is buried in the Busento"
+    },
+    {
+     "from": 412,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 554,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Gothic War: Byzantine reconquest contested by the Goths (Totila 541-552)"
+    },
+    {
+     "from": 554,
+     "to": 590,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 590,
+     "to": 641,
+     "p": "lombards",
+     "s": "independent",
+     "note": "Consentia Beneventan (approx.)"
+    }
+   ],
+   "certainty": "approx",
+   "notes": "When Cosenza fell to Benevento is unclear (c.590-600); the coast stayed Byzantine."
+  },
+  {
+   "id": "it_bruttium",
+   "name": "Bruttium (Croton, Scylletium, Hipponium)",
+   "seed": [
+    16.4,
+    38.8
+   ],
+   "countries": [
+    "IT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -356,
+     "p": "italiote_league",
+     "s": "independent",
+     "note": "Croton, Caulonia, Hipponion"
+    },
+    {
+     "from": -356,
+     "to": -280,
+     "p": "bruttii",
+     "s": "independent",
+     "note": "Bruttians take Hipponium and Terina (356)"
+    },
+    {
+     "from": -280,
+     "to": -272,
+     "p": "epirus",
+     "s": "contested"
+    },
+    {
+     "from": -272,
+     "to": -215,
+     "p": "bruttii",
+     "s": "ally",
+     "note": "Bruttii lose half the Sila forest"
+    },
+    {
+     "from": -215,
+     "to": -203,
+     "p": "carthage",
+     "s": "contested",
+     "note": "Hannibal's last base; Croton taken 215; leaves from Croton 203"
+    },
+    {
+     "from": -203,
+     "to": -89,
+     "p": "bruttii",
+     "s": "ally",
+     "note": "Croton colony 194, Vibo Valentia 192"
+    },
+    {
+     "from": -89,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 554,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Gothic War: Byzantine reconquest contested by the Goths (Totila 541-552)"
+    },
+    {
+     "from": 554,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Croton sacked by Arechis 596"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Greek coastal cities allied with Rome from 282/277, separately from the Bruttii."
+  },
+  {
+   "id": "it_rhegium",
+   "name": "Rhegium and Locri",
+   "seed": [
+    16.0,
+    38.2
+   ],
+   "countries": [
+    "IT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -280,
+     "p": "italiote_league",
+     "s": "independent",
+     "note": "Anaxilas; Dionysius I sacks Rhegium 387"
+    },
+    {
+     "from": -280,
+     "to": -270,
+     "p": "rome",
+     "s": "contested",
+     "note": "The Campanian legion seizes Rhegium; executed 270"
+    },
+    {
+     "from": -270,
+     "to": -215,
+     "p": "italiote_league",
+     "s": "ally",
+     "note": "Rhegium a federate ally"
+    },
+    {
+     "from": -215,
+     "to": -205,
+     "p": "carthage",
+     "s": "contested",
+     "note": "Locri defects; retaken by Scipio 205 (Pleminius scandal)"
+    },
+    {
+     "from": -205,
+     "to": -89,
+     "p": "italiote_league",
+     "s": "ally",
+     "note": "Rhegium a federate ally"
+    },
+    {
+     "from": -89,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 410,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 410,
+     "to": 411,
+     "p": "visigoths",
+     "s": "contested",
+     "note": "Alaric's failed crossing to Sicily"
+    },
+    {
+     "from": 411,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 554,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Gothic War: Byzantine reconquest contested by the Goths (Totila 541-552)"
+    },
+    {
+     "from": 554,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Rhegium stayed loyal through the Hannibalic war."
+  },
+  {
+   "id": "it_emilia_west",
+   "name": "Anares and western Emilia (Placentia, Parma)",
+   "seed": [
+    9.85,
+    44.8
+   ],
+   "countries": [
+    "IT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -400,
+     "p": "ligures",
+     "s": "independent"
+    },
+    {
+     "from": -400,
+     "to": -224,
+     "p": "boii",
+     "s": "independent",
+     "note": "Gallic Anares and Boii"
+    },
+    {
+     "from": -224,
+     "to": -218,
+     "p": "rome",
+     "s": "occupied"
+    },
+    {
+     "from": -218,
+     "to": -191,
+     "p": "carthage",
+     "s": "contested",
+     "note": "Placentia founded (218); Trebia (Dec 218); Placentia sacked 200"
+    },
+    {
+     "from": -191,
+     "to": 271,
+     "p": "rome",
+     "s": "direct",
+     "note": "Via Aemilia 187; Parma colony 183"
+    },
+    {
+     "from": 271,
+     "to": 272,
+     "p": "alamanni",
+     "s": "contested",
+     "note": "Juthungi defeat Aurelian near Placentia"
+    },
+    {
+     "from": 272,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Via Aemilia 187; Parma colony 183"
+    },
+    {
+     "from": 395,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 554,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Gothic War: Byzantine reconquest contested by the Goths (Totila 541-552)"
+    },
+    {
+     "from": 554,
+     "to": 570,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 570,
+     "to": 641,
+     "p": "lombards",
+     "s": "independent",
+     "note": "Lombard Parma and Piacenza; brief defections to Romanus 590"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Placentia and Cremona held out as Roman islands throughout 218-201."
+  },
+  {
+   "id": "it_boii",
+   "name": "Boii (Bononia, Mutina, Regium Lepidi)",
+   "seed": [
+    11.1,
+    44.5
+   ],
+   "countries": [
+    "IT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -400,
+     "p": "etruscans",
+     "s": "independent",
+     "note": "Etruscan Felsina"
+    },
+    {
+     "from": -400,
+     "to": -225,
+     "p": "boii",
+     "s": "independent"
+    },
+    {
+     "from": -225,
+     "to": -224,
+     "p": "rome",
+     "s": "contested"
+    },
+    {
+     "from": -224,
+     "to": -218,
+     "p": "rome",
+     "s": "occupied",
+     "note": "Boii submit after Telamon"
+    },
+    {
+     "from": -218,
+     "to": -201,
+     "p": "boii",
+     "s": "independent",
+     "note": "Boii revolt; Postumius killed in the Litana forest (216)"
+    },
+    {
+     "from": -201,
+     "to": -191,
+     "p": "rome",
+     "s": "contested",
+     "note": "Wars ending with Scipio Nasica (191)"
+    },
+    {
+     "from": -191,
+     "to": -43,
+     "p": "rome",
+     "s": "direct",
+     "note": "Boii lose half their land; Bononia 189, Mutina 183"
+    },
+    {
+     "from": -43,
+     "to": -42,
+     "p": "rome",
+     "s": "contested",
+     "note": "War of Mutina: Antony besieges D. Brutus; Forum Gallorum (14 Apr 43)"
+    },
+    {
+     "from": -42,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Boii lose half their land; Bononia 189, Mutina 183"
+    },
+    {
+     "from": 395,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 554,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Gothic War: Byzantine reconquest contested by the Goths (Totila 541-552)"
+    },
+    {
+     "from": 554,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Exarchate frontier; Modena and Reggio Lombard for spells; Bologna Byzantine to 727"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Mid-Emilia changed hands repeatedly after 568; shown as Byzantine."
+  },
+  {
+   "id": "it_ravenna",
+   "name": "Ravenna, Spina and the Po delta",
+   "seed": [
+    12.0,
+    44.5
+   ],
+   "countries": [
+    "IT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -266,
+     "p": "umbrians",
+     "s": "independent",
+     "note": "Umbrian Ravenna, Etruscan Spina; Lingones in the lowlands"
+    },
+    {
+     "from": -266,
+     "to": -89,
+     "p": "umbrians",
+     "s": "ally",
+     "note": "Sarsina conquered 266"
+    },
+    {
+     "from": -89,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Classis Ravennas; Western capital from 402"
+    },
+    {
+     "from": 395,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 539,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Gothic War: Byzantine reconquest contested by the Goths (Totila 541-552)"
+    },
+    {
+     "from": 539,
+     "to": 540,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Belisarius besieges Ravenna"
+    },
+    {
+     "from": 540,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Ravenna surrenders (May 540); seat of the exarch"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Ravenna was the Western court 402-476 and the Ostrogothic capital 493-540."
+  },
+  {
+   "id": "it_insubres",
+   "name": "Insubres (Mediolanum, Comum, Novaria)",
+   "seed": [
+    9.2,
+    45.6
+   ],
+   "countries": [
+    "IT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -225,
+     "p": "insubres",
+     "s": "independent"
+    },
+    {
+     "from": -225,
+     "to": -222,
+     "p": "rome",
+     "s": "contested",
+     "note": "Telamon (225); Mediolanum taken 222"
+    },
+    {
+     "from": -222,
+     "to": -218,
+     "p": "rome",
+     "s": "occupied"
+    },
+    {
+     "from": -218,
+     "to": -197,
+     "p": "insubres",
+     "s": "independent",
+     "note": "Insubres join Hannibal"
+    },
+    {
+     "from": -197,
+     "to": -194,
+     "p": "rome",
+     "s": "contested"
+    },
+    {
+     "from": -194,
+     "to": -89,
+     "p": "insubres",
+     "s": "ally",
+     "note": "Treaty barring Insubres from citizenship (Cic. Balb. 32)"
+    },
+    {
+     "from": -89,
+     "to": 259,
+     "p": "rome",
+     "s": "direct",
+     "note": "Latin rights 89, citizenship 49"
+    },
+    {
+     "from": 259,
+     "to": 260,
+     "p": "alamanni",
+     "s": "contested",
+     "note": "Gallienus defeats the Alamanni at Milan"
+    },
+    {
+     "from": 260,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Latin rights 89, citizenship 49"
+    },
+    {
+     "from": 395,
+     "to": 401,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 401,
+     "to": 403,
+     "p": "visigoths",
+     "s": "contested",
+     "note": "Alaric's first invasion of Italy (Pollentia 402, Verona 402/3)"
+    },
+    {
+     "from": 403,
+     "to": 452,
+     "p": "rome_west",
+     "s": "direct",
+     "note": "Latin rights 89, citizenship 49"
+    },
+    {
+     "from": 452,
+     "to": 453,
+     "p": "huns",
+     "s": "contested",
+     "note": "Attila's invasion of Italy (452): Aquileia razed, Milan and Pavia taken"
+    },
+    {
+     "from": 453,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct",
+     "note": "Latin rights 89, citizenship 49"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 554,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Gothic War: Byzantine reconquest contested by the Goths (Totila 541-552)"
+    },
+    {
+     "from": 554,
+     "to": 569,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 569,
+     "to": 641,
+     "p": "lombards",
+     "s": "independent",
+     "note": "Alboin enters Milan (3 Sept 569); Isola Comacina Byzantine until 588"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Mediolanum was the Western imperial residence 286-402."
+  },
+  {
+   "id": "it_ticinum",
+   "name": "Ticinum and Clastidium (Laevi and Marici)",
+   "seed": [
+    9.15,
+    45.2
+   ],
+   "countries": [
+    "IT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -225,
+     "p": "insubres",
+     "s": "independent"
+    },
+    {
+     "from": -225,
+     "to": -222,
+     "p": "rome",
+     "s": "contested",
+     "note": "Clastidium: Marcellus wins the spolia opima (222)"
+    },
+    {
+     "from": -222,
+     "to": -218,
+     "p": "rome",
+     "s": "occupied"
+    },
+    {
+     "from": -218,
+     "to": -197,
+     "p": "insubres",
+     "s": "independent",
+     "note": "Battle of the Ticinus (Nov 218)"
+    },
+    {
+     "from": -197,
+     "to": -194,
+     "p": "rome",
+     "s": "contested"
+    },
+    {
+     "from": -194,
+     "to": -89,
+     "p": "insubres",
+     "s": "ally"
+    },
+    {
+     "from": -89,
+     "to": 271,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 271,
+     "to": 272,
+     "p": "alamanni",
+     "s": "contested",
+     "note": "Aurelian destroys the Juthungi near Ticinum"
+    },
+    {
+     "from": 272,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 452,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 452,
+     "to": 453,
+     "p": "huns",
+     "s": "contested",
+     "note": "Attila's invasion of Italy (452): Aquileia razed, Milan and Pavia taken"
+    },
+    {
+     "from": 453,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 554,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Gothic War: Byzantine reconquest contested by the Goths (Totila 541-552)"
+    },
+    {
+     "from": 554,
+     "to": 569,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 569,
+     "to": 572,
+     "p": "lombards",
+     "s": "contested",
+     "note": "Three-year siege of Pavia"
+    },
+    {
+     "from": 572,
+     "to": 641,
+     "p": "lombards",
+     "s": "independent",
+     "note": "Pavia falls (572), becomes the Lombard capital"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Pavia province; Lodi joins it here."
+  },
+  {
+   "id": "it_cenomani",
+   "name": "Cenomani (Brixia, Cremona, Mantua, Verona)",
+   "seed": [
+    10.25,
+    45.45
+   ],
+   "countries": [
+    "IT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -400,
+     "p": "gauls",
+     "s": "independent",
+     "note": "Etruscan Mantua; Orobii and early Gauls"
+    },
+    {
+     "from": -400,
+     "to": -225,
+     "p": "cenomani",
+     "s": "independent"
+    },
+    {
+     "from": -225,
+     "to": -200,
+     "p": "cenomani",
+     "s": "ally",
+     "note": "Cenomani side with Rome against the Boii and Insubres"
+    },
+    {
+     "from": -200,
+     "to": -197,
+     "p": "cenomani",
+     "s": "contested",
+     "note": "Join Hamilcar's rising; Cremona (218) besieged"
+    },
+    {
+     "from": -197,
+     "to": -89,
+     "p": "cenomani",
+     "s": "ally"
+    },
+    {
+     "from": -89,
+     "to": 268,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 268,
+     "to": 269,
+     "p": "alamanni",
+     "s": "contested",
+     "note": "Claudius II defeats the Alamanni at Lake Benacus"
+    },
+    {
+     "from": 269,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 401,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 401,
+     "to": 403,
+     "p": "visigoths",
+     "s": "contested",
+     "note": "Alaric's first invasion of Italy (Pollentia 402, Verona 402/3)"
+    },
+    {
+     "from": 403,
+     "to": 452,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 452,
+     "to": 453,
+     "p": "huns",
+     "s": "contested",
+     "note": "Attila's invasion of Italy (452): Aquileia razed, Milan and Pavia taken"
+    },
+    {
+     "from": 453,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 545,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Gothic War: Byzantine reconquest contested by the Goths (Totila 541-552)"
+    },
+    {
+     "from": 545,
+     "to": 562,
+     "p": "frankish_kingdom",
+     "s": "contested",
+     "note": "Franks hold parts of Venetia; Narses retakes Verona and Brixia (562)"
+    },
+    {
+     "from": 562,
+     "to": 569,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 569,
+     "to": 641,
+     "p": "lombards",
+     "s": "independent",
+     "note": "Brescia, Bergamo, Verona 569; Cremona and Mantua Byzantine until 603"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Verona falls in this region by the cell geometry."
+  },
+  {
+   "id": "it_veneti",
+   "name": "Veneti (Vicetia, Tarvisium, Opitergium)",
+   "seed": [
+    11.75,
+    45.72
+   ],
+   "countries": [
+    "IT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -225,
+     "p": "veneti",
+     "s": "independent"
+    },
+    {
+     "from": -225,
+     "to": -89,
+     "p": "veneti",
+     "s": "ally",
+     "note": "Veneti allied with Rome against the Gauls (225)"
+    },
+    {
+     "from": -89,
+     "to": 170,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 170,
+     "to": 171,
+     "p": "marcomanni",
+     "s": "contested",
+     "note": "Marcomanni and Quadi destroy Opitergium and besiege Aquileia"
+    },
+    {
+     "from": 171,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 401,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 401,
+     "to": 403,
+     "p": "visigoths",
+     "s": "contested",
+     "note": "Alaric's first invasion of Italy (Pollentia 402, Verona 402/3)"
+    },
+    {
+     "from": 403,
+     "to": 452,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 452,
+     "to": 453,
+     "p": "huns",
+     "s": "contested",
+     "note": "Attila's invasion of Italy (452): Aquileia razed, Milan and Pavia taken"
+    },
+    {
+     "from": 453,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 545,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Gothic War: Byzantine reconquest contested by the Goths (Totila 541-552)"
+    },
+    {
+     "from": 545,
+     "to": 562,
+     "p": "frankish_kingdom",
+     "s": "contested"
+    },
+    {
+     "from": 562,
+     "to": 569,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 569,
+     "to": 641,
+     "p": "lombards",
+     "s": "independent",
+     "note": "Treviso surrenders (569); Oderzo destroyed by Rothari (639)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Inland Veneto."
+  },
+  {
+   "id": "it_patavium",
+   "name": "Patavium and Ateste",
+   "seed": [
+    11.8,
+    45.2
+   ],
+   "countries": [
+    "IT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -225,
+     "p": "veneti",
+     "s": "independent"
+    },
+    {
+     "from": -225,
+     "to": -89,
+     "p": "veneti",
+     "s": "ally"
+    },
+    {
+     "from": -89,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 452,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 452,
+     "to": 453,
+     "p": "huns",
+     "s": "contested",
+     "note": "Attila's invasion of Italy (452): Aquileia razed, Milan and Pavia taken"
+    },
+    {
+     "from": 453,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 554,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Gothic War: Byzantine reconquest contested by the Goths (Totila 541-552)"
+    },
+    {
+     "from": 554,
+     "to": 601,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 601,
+     "to": 641,
+     "p": "lombards",
+     "s": "independent",
+     "note": "Agilulf burns Padua (601); Monselice 602"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "The Raudine Plain of 101 BC has one candidate site near Rovigo."
+  },
+  {
+   "id": "it_venetia_lagoon",
+   "name": "Venetia maritima (Altinum, Concordia, the lagoons)",
+   "seed": [
+    12.6,
+    45.5
+   ],
+   "countries": [
+    "IT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -225,
+     "p": "veneti",
+     "s": "independent"
+    },
+    {
+     "from": -225,
+     "to": -89,
+     "p": "veneti",
+     "s": "ally"
+    },
+    {
+     "from": -89,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 452,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 452,
+     "to": 453,
+     "p": "huns",
+     "s": "contested",
+     "note": "Attila's invasion of Italy (452): Aquileia razed, Milan and Pavia taken"
+    },
+    {
+     "from": 453,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 554,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Gothic War: Byzantine reconquest contested by the Goths (Totila 541-552)"
+    },
+    {
+     "from": 554,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Byzantine lagoon communities (Grado, Heraclea, Torcello)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "The lagoon settlements grew with refugees from 452 and 568."
+  },
+  {
+   "id": "it_aquileia",
+   "name": "Aquileia and the Carni (Forum Iulii)",
+   "seed": [
+    13.2,
+    45.95
+   ],
+   "countries": [
+    "IT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -186,
+     "p": "carni",
+     "s": "independent"
+    },
+    {
+     "from": -186,
+     "to": -183,
+     "p": "gauls",
+     "s": "contested",
+     "note": "Transalpine Gauls settle near the future Aquileia, expelled 183"
+    },
+    {
+     "from": -183,
+     "to": -181,
+     "p": "carni",
+     "s": "independent"
+    },
+    {
+     "from": -181,
+     "to": 170,
+     "p": "rome",
+     "s": "direct",
+     "note": "Aquileia Latin colony 181; Carni subdued 115"
+    },
+    {
+     "from": 170,
+     "to": 171,
+     "p": "marcomanni",
+     "s": "contested",
+     "note": "Siege of Aquileia"
+    },
+    {
+     "from": 171,
+     "to": 238,
+     "p": "rome",
+     "s": "direct",
+     "note": "Aquileia Latin colony 181; Carni subdued 115"
+    },
+    {
+     "from": 238,
+     "to": 239,
+     "p": "rome",
+     "s": "contested",
+     "note": "Maximinus Thrax killed besieging Aquileia"
+    },
+    {
+     "from": 239,
+     "to": 388,
+     "p": "rome",
+     "s": "direct",
+     "note": "Aquileia Latin colony 181; Carni subdued 115"
+    },
+    {
+     "from": 388,
+     "to": 389,
+     "p": "rome",
+     "s": "contested",
+     "note": "Magnus Maximus executed at Aquileia"
+    },
+    {
+     "from": 389,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Aquileia Latin colony 181; Carni subdued 115"
+    },
+    {
+     "from": 395,
+     "to": 401,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 401,
+     "to": 403,
+     "p": "visigoths",
+     "s": "contested",
+     "note": "Alaric's first invasion of Italy (Pollentia 402, Verona 402/3)"
+    },
+    {
+     "from": 403,
+     "to": 452,
+     "p": "rome_west",
+     "s": "direct",
+     "note": "Aquileia Latin colony 181; Carni subdued 115"
+    },
+    {
+     "from": 452,
+     "to": 453,
+     "p": "huns",
+     "s": "contested",
+     "note": "Attila's invasion of Italy (452): Aquileia razed, Milan and Pavia taken"
+    },
+    {
+     "from": 453,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct",
+     "note": "Aquileia Latin colony 181; Carni subdued 115"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 554,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Gothic War: Byzantine reconquest contested by the Goths (Totila 541-552)"
+    },
+    {
+     "from": 554,
+     "to": 568,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 568,
+     "to": 641,
+     "p": "lombards",
+     "s": "independent",
+     "note": "Duchy of Forum Iulii (Gisulf, 568); Avar sack of Cividale 610"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Udine province lies wholly outside the AWMC 60 BC line though Aquileia was founded in 181."
+  },
+  {
+   "id": "it_istria",
+   "name": "Histria (Tergeste, Pola)",
+   "seed": [
+    13.85,
+    45.55
+   ],
+   "countries": [
+    "IT",
+    "SI"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -221,
+     "p": "histri",
+     "s": "independent"
+    },
+    {
+     "from": -221,
+     "to": -220,
+     "p": "rome",
+     "s": "contested",
+     "note": "First Histrian war"
+    },
+    {
+     "from": -220,
+     "to": -178,
+     "p": "histri",
+     "s": "independent"
+    },
+    {
+     "from": -178,
+     "to": -177,
+     "p": "rome",
+     "s": "contested",
+     "note": "Nesactium taken; Histrian king Epulo dies"
+    },
+    {
+     "from": -177,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Tuditanus triumphs over Histri 129; Tergeste colony under Caesar/Octavian"
+    },
+    {
+     "from": 395,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 539,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 539,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Byzantine Istria; Slav and Avar raids 599-611"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Croatian Istria belongs to the eastern map; this region holds Trieste and coastal Slovenia."
+  },
+  {
+   "id": "it_raetia_tridentum",
+   "name": "Tridentum and the Raetian Alps (Isarci, Venostes)",
+   "seed": [
+    11.3,
+    46.4
+   ],
+   "countries": [
+    "IT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -15,
+     "p": "raeti",
+     "s": "independent"
+    },
+    {
+     "from": -15,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Drusus and Tiberius conquer the Raeti (15 BC)"
+    },
+    {
+     "from": 395,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 554,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Gothic War: Byzantine reconquest contested by the Goths (Totila 541-552)"
+    },
+    {
+     "from": 554,
+     "to": 569,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 569,
+     "to": 641,
+     "p": "lombards",
+     "s": "independent",
+     "note": "Duchy of Trent; Frankish invasion 590; Bavarians in the Puster valley"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Tridentum may have been in the Roman orbit before 15 BC (Tabula Clesiana, AD 46)."
+  },
+  {
+   "id": "it_lepontii",
+   "name": "Lepontii and Camunni (Alpine valleys of Lombardy, Ticino)",
+   "seed": [
+    9.0,
+    46.2
+   ],
+   "countries": [
+    "IT",
+    "CH"
+   ],
+   "zone": {
+    "in60bc": false
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -16,
+     "p": "alpine_tribes",
+     "s": "independent"
+    },
+    {
+     "from": -16,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "P. Silius Nerva subdues Camunni and Vennonetes (16 BC); Lepontii 15 BC"
+    },
+    {
+     "from": 395,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 554,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Gothic War: Byzantine reconquest contested by the Goths (Totila 541-552)"
+    },
+    {
+     "from": 554,
+     "to": 569,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 569,
+     "to": 641,
+     "p": "lombards",
+     "s": "independent"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Upper valleys only (outside the 60 BC line); Val Camonica falls to the Tridentum region by geometry."
+  },
+  {
+   "id": "it_salassi",
+   "name": "Salassi (Augusta Praetoria)",
+   "seed": [
+    7.4,
+    45.72
+   ],
+   "countries": [
+    "IT"
+   ],
+   "zone": {
+    "in60bc": false
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -143,
+     "p": "alpine_tribes",
+     "s": "independent",
+     "note": "Salassi gold workings"
+    },
+    {
+     "from": -143,
+     "to": -140,
+     "p": "rome",
+     "s": "contested",
+     "note": "Ap. Claudius Pulcher wins a disputed triumph"
+    },
+    {
+     "from": -140,
+     "to": -25,
+     "p": "alpine_tribes",
+     "s": "independent",
+     "note": "Eporedia colony (100) watches the Salassi"
+    },
+    {
+     "from": -25,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Terentius Varro Murena sells 36,000 Salassi; Augusta Praetoria founded"
+    },
+    {
+     "from": 395,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 554,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Gothic War: Byzantine reconquest contested by the Goths (Totila 541-552)"
+    },
+    {
+     "from": 554,
+     "to": 569,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 569,
+     "to": 575,
+     "p": "lombards",
+     "s": "independent"
+    },
+    {
+     "from": 575,
+     "to": 641,
+     "p": "frankish_kingdom",
+     "s": "independent",
+     "note": "Lombard dukes cede Aosta to the Frankish king Guntram"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Aosta and the upper valleys of Piedmont."
+  },
+  {
+   "id": "it_alpes_cottiae",
+   "name": "Alpes Cottiae (Segusio, Brigantio)",
+   "seed": [
+    7.0,
+    45.0
+   ],
+   "countries": [
+    "IT",
+    "FR"
+   ],
+   "zone": {
+    "in60bc": false
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -60,
+     "p": "alpine_tribes",
+     "s": "independent"
+    },
+    {
+     "from": -60,
+     "to": -13,
+     "p": "cottian_kingdom",
+     "s": "independent",
+     "note": "King Donnus"
+    },
+    {
+     "from": -13,
+     "to": 63,
+     "p": "cottian_kingdom",
+     "s": "client",
+     "note": "Cottius praefectus (Arch of Susa 9/8 BC); Cottius II king under Claudius"
+    },
+    {
+     "from": 63,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Nero annexes the Alpes Cottiae"
+    },
+    {
+     "from": 395,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 554,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Gothic War: Byzantine reconquest contested by the Goths (Totila 541-552)"
+    },
+    {
+     "from": 554,
+     "to": 575,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Magister militum Sisinnius holds Segusio"
+    },
+    {
+     "from": 575,
+     "to": 641,
+     "p": "frankish_kingdom",
+     "s": "independent",
+     "note": "Franks take Susa (c.575)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Includes Briançon (Brigantio), part of the Cottian kingdom."
+  },
+  {
+   "id": "it_taurini",
+   "name": "Taurini and Libui (Augusta Taurinorum, Vercellae, Eporedia)",
+   "seed": [
+    7.7,
+    45.1
+   ],
+   "countries": [
+    "IT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -218,
+     "p": "ligures",
+     "s": "independent"
+    },
+    {
+     "from": -218,
+     "to": -217,
+     "p": "carthage",
+     "s": "contested",
+     "note": "Hannibal storms the Taurine capital"
+    },
+    {
+     "from": -217,
+     "to": -191,
+     "p": "ligures",
+     "s": "independent"
+    },
+    {
+     "from": -191,
+     "to": -101,
+     "p": "ligures",
+     "s": "ally",
+     "note": "Roman hegemony after the Insubrian and Ligurian wars; Eporedia colony 100"
+    },
+    {
+     "from": -101,
+     "to": -100,
+     "p": "cimbri_teutones",
+     "s": "contested",
+     "note": "Battle of Vercellae / Raudine Plain (30 July 101), site disputed"
+    },
+    {
+     "from": -100,
+     "to": -89,
+     "p": "ligures",
+     "s": "ally",
+     "note": "Roman hegemony after the Insubrian and Ligurian wars; Eporedia colony 100"
+    },
+    {
+     "from": -89,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 554,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Gothic War: Byzantine reconquest contested by the Goths (Totila 541-552)"
+    },
+    {
+     "from": 554,
+     "to": 569,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 569,
+     "to": 641,
+     "p": "lombards",
+     "s": "independent",
+     "note": "Duchy of Turin"
+    }
+   ],
+   "certainty": "approx",
+   "notes": "The status of the Piedmont plain between 191 and 89 is poorly documented."
+  },
+  {
+   "id": "it_liguria_west",
+   "name": "Ingauni, Intemelii and Bagienni (Albingaunum, Pollentia)",
+   "seed": [
+    8.0,
+    44.1
+   ],
+   "countries": [
+    "IT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -185,
+     "p": "ligures",
+     "s": "independent"
+    },
+    {
+     "from": -185,
+     "to": -155,
+     "p": "rome",
+     "s": "contested",
+     "note": "Aemilius Paullus defeats the Ingauni (181)"
+    },
+    {
+     "from": -155,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 401,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 401,
+     "to": 403,
+     "p": "visigoths",
+     "s": "contested",
+     "note": "Alaric's first invasion of Italy (Pollentia 402, Verona 402/3)"
+    },
+    {
+     "from": 403,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 554,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Gothic War: Byzantine reconquest contested by the Goths (Totila 541-552)"
+    },
+    {
+     "from": 554,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Liguria maritima Byzantine until Rothari (643); inland Cuneo Lombard"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Upper Cuneo valleys belonged to the Alpine peoples until 14 BC."
+  },
+  {
+   "id": "it_liguria_east",
+   "name": "Genua and the Statielli",
+   "seed": [
+    9.1,
+    44.45
+   ],
+   "countries": [
+    "IT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -238,
+     "p": "ligures",
+     "s": "independent"
+    },
+    {
+     "from": -238,
+     "to": -233,
+     "p": "rome",
+     "s": "contested",
+     "note": "First Roman campaigns in Liguria; triumphs 236, 233"
+    },
+    {
+     "from": -233,
+     "to": -205,
+     "p": "ligures",
+     "s": "independent",
+     "note": "Genua friendly to Rome"
+    },
+    {
+     "from": -205,
+     "to": -203,
+     "p": "carthage",
+     "s": "contested",
+     "note": "Mago Barca destroys Genua"
+    },
+    {
+     "from": -203,
+     "to": -197,
+     "p": "ligures",
+     "s": "independent"
+    },
+    {
+     "from": -197,
+     "to": -155,
+     "p": "rome",
+     "s": "contested",
+     "note": "Ligurian wars: Statielli (173) enslaved by M. Popillius Laenas"
+    },
+    {
+     "from": -155,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 554,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Gothic War: Byzantine reconquest contested by the Goths (Totila 541-552)"
+    },
+    {
+     "from": 554,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Genoa held by Byzantium until 643"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Alessandria province (Statielli, Dertona) joins Genoa here."
+  },
+  {
+   "id": "it_apuani",
+   "name": "Ligures Apuani (Luna, Luca)",
+   "seed": [
+    10.2,
+    44.15
+   ],
+   "countries": [
+    "IT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -187,
+     "p": "ligures",
+     "s": "independent"
+    },
+    {
+     "from": -187,
+     "to": -180,
+     "p": "rome",
+     "s": "contested",
+     "note": "Saltus Marcius disaster (186); 40,000 Apuani deported to Samnium (180)"
+    },
+    {
+     "from": -180,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Luca 180, Luna 177"
+    },
+    {
+     "from": 395,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 554,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Gothic War: Byzantine reconquest contested by the Goths (Totila 541-552)"
+    },
+    {
+     "from": 554,
+     "to": 574,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 574,
+     "to": 641,
+     "p": "lombards",
+     "s": "independent",
+     "note": "Lucca Lombard; Luni Byzantine until 643"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Luni and Lucca had different fates after 568."
+  },
+  {
+   "id": "it_sicilia_west",
+   "name": "Western Sicily (Lilybaeum, Panormus, Eryx, Segesta)",
+   "seed": [
+    13.1,
+    38.0
+   ],
+   "countries": [
+    "IT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -397,
+     "p": "carthage",
+     "s": "independent",
+     "note": "Punic epikrateia; Himera 480"
+    },
+    {
+     "from": -397,
+     "to": -396,
+     "p": "syracuse",
+     "s": "contested",
+     "note": "Dionysius I takes Motya"
+    },
+    {
+     "from": -396,
+     "to": -278,
+     "p": "carthage",
+     "s": "independent",
+     "note": "Punic epikrateia; Himera 480"
+    },
+    {
+     "from": -278,
+     "to": -276,
+     "p": "epirus",
+     "s": "contested",
+     "note": "Pyrrhus takes Eryx, fails at Lilybaeum"
+    },
+    {
+     "from": -276,
+     "to": -264,
+     "p": "carthage",
+     "s": "independent",
+     "note": "Punic epikrateia; Himera 480"
+    },
+    {
+     "from": -264,
+     "to": -241,
+     "p": "rome",
+     "s": "contested",
+     "note": "First Punic War: Panormus 254, Lilybaeum siege 250-241, Drepana 249"
+    },
+    {
+     "from": -241,
+     "to": -104,
+     "p": "rome",
+     "s": "direct",
+     "note": "Aegates Islands (10 Mar 241); first province"
+    },
+    {
+     "from": -104,
+     "to": -100,
+     "p": "rome",
+     "s": "contested",
+     "note": "Second Servile War (Athenion near Lilybaeum, Triocala)"
+    },
+    {
+     "from": -100,
+     "to": -42,
+     "p": "rome",
+     "s": "direct",
+     "note": "Aegates Islands (10 Mar 241); first province"
+    },
+    {
+     "from": -42,
+     "to": -36,
+     "p": "sextus_pompeius",
+     "s": "direct",
+     "note": "Sicily held by Sextus Pompeius until Naulochus (3 Sept 36)"
+    },
+    {
+     "from": -36,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Aegates Islands (10 Mar 241); first province"
+    },
+    {
+     "from": 395,
+     "to": 440,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 440,
+     "to": 442,
+     "p": "vandal_kingdom",
+     "s": "contested",
+     "note": "Gaiseric raids Sicily, besieges Panormus (440)"
+    },
+    {
+     "from": 442,
+     "to": 468,
+     "p": "rome_west",
+     "s": "direct",
+     "note": "Aegates Islands (10 Mar 241); first province"
+    },
+    {
+     "from": 468,
+     "to": 477,
+     "p": "vandal_kingdom",
+     "s": "independent",
+     "note": "Vandal control after the failed Roman armada of 468"
+    },
+    {
+     "from": 477,
+     "to": 491,
+     "p": "odoacer_kingdom",
+     "s": "independent",
+     "note": "Gaiseric cedes Sicily to Odoacer for tribute (Lilybaeum kept)"
+    },
+    {
+     "from": 491,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 550,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Belisarius takes Sicily (535); Syracuse surrenders 31 Dec 535"
+    },
+    {
+     "from": 550,
+     "to": 551,
+     "p": "ostrogothic_kingdom",
+     "s": "contested",
+     "note": "Totila's raid on Sicily (550)"
+    },
+    {
+     "from": 551,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Belisarius takes Sicily (535); Syracuse surrenders 31 Dec 535"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Lilybaeum was a Vandal enclave 477-491 and again from 500 as Amalafrida's dowry."
+  },
+  {
+   "id": "it_akragas",
+   "name": "Akragas and the Halykos (Agrigentum, Gela)",
+   "seed": [
+    13.65,
+    37.35
+   ],
+   "countries": [
+    "IT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -406,
+     "p": "siceliote_cities",
+     "s": "independent",
+     "note": "Theron of Akragas"
+    },
+    {
+     "from": -406,
+     "to": -339,
+     "p": "carthage",
+     "s": "independent",
+     "note": "Carthaginian sack of Akragas (406)"
+    },
+    {
+     "from": -339,
+     "to": -264,
+     "p": "siceliote_cities",
+     "s": "independent",
+     "note": "Timoleon's peace; Agathocles; Phintias"
+    },
+    {
+     "from": -264,
+     "to": -241,
+     "p": "rome",
+     "s": "contested",
+     "note": "Agrigentum besieged 262-261 and sacked; Carthalo burns it 255"
+    },
+    {
+     "from": -241,
+     "to": -104,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": -104,
+     "to": -100,
+     "p": "rome",
+     "s": "contested",
+     "note": "Second Servile War; Triocala"
+    },
+    {
+     "from": -100,
+     "to": -42,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": -42,
+     "to": -36,
+     "p": "sextus_pompeius",
+     "s": "direct",
+     "note": "Sicily held by Sextus Pompeius until Naulochus (3 Sept 36)"
+    },
+    {
+     "from": -36,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 440,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 440,
+     "to": 442,
+     "p": "vandal_kingdom",
+     "s": "contested",
+     "note": "Gaiseric raids Sicily, besieges Panormus (440)"
+    },
+    {
+     "from": 442,
+     "to": 468,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 468,
+     "to": 477,
+     "p": "vandal_kingdom",
+     "s": "independent",
+     "note": "Vandal control after the failed Roman armada of 468"
+    },
+    {
+     "from": 477,
+     "to": 491,
+     "p": "odoacer_kingdom",
+     "s": "independent",
+     "note": "Gaiseric cedes Sicily to Odoacer for tribute (Lilybaeum kept)"
+    },
+    {
+     "from": 491,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 550,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Belisarius takes Sicily (535); Syracuse surrenders 31 Dec 535"
+    },
+    {
+     "from": 550,
+     "to": 551,
+     "p": "ostrogothic_kingdom",
+     "s": "contested",
+     "note": "Totila's raid on Sicily (550)"
+    },
+    {
+     "from": 551,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Belisarius takes Sicily (535); Syracuse surrenders 31 Dec 535"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Gela and Caltanissetta are joined here."
+  },
+  {
+   "id": "it_henna",
+   "name": "Catana, Henna and the Sicel interior",
+   "seed": [
+    14.6,
+    37.55
+   ],
+   "countries": [
+    "IT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -440,
+     "p": "sicels",
+     "s": "independent",
+     "note": "Ducetius' Sicel league (460-440)"
+    },
+    {
+     "from": -440,
+     "to": -264,
+     "p": "syracuse",
+     "s": "independent"
+    },
+    {
+     "from": -264,
+     "to": -263,
+     "p": "rome",
+     "s": "contested"
+    },
+    {
+     "from": -263,
+     "to": -214,
+     "p": "rome",
+     "s": "direct",
+     "note": "Catana and Henna surrender (263)"
+    },
+    {
+     "from": -214,
+     "to": -211,
+     "p": "carthage",
+     "s": "contested",
+     "note": "Henna massacre (214); Morgantina defects"
+    },
+    {
+     "from": -211,
+     "to": -135,
+     "p": "rome",
+     "s": "direct",
+     "note": "Catana and Henna surrender (263)"
+    },
+    {
+     "from": -135,
+     "to": -132,
+     "p": "rome",
+     "s": "contested",
+     "note": "First Servile War: Eunus' kingdom at Henna"
+    },
+    {
+     "from": -132,
+     "to": -104,
+     "p": "rome",
+     "s": "direct",
+     "note": "Catana and Henna surrender (263)"
+    },
+    {
+     "from": -104,
+     "to": -100,
+     "p": "rome",
+     "s": "contested",
+     "note": "Second Servile War"
+    },
+    {
+     "from": -100,
+     "to": -42,
+     "p": "rome",
+     "s": "direct",
+     "note": "Catana and Henna surrender (263)"
+    },
+    {
+     "from": -42,
+     "to": -36,
+     "p": "sextus_pompeius",
+     "s": "direct",
+     "note": "Sicily held by Sextus Pompeius until Naulochus (3 Sept 36)"
+    },
+    {
+     "from": -36,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Catana and Henna surrender (263)"
+    },
+    {
+     "from": 395,
+     "to": 440,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 440,
+     "to": 442,
+     "p": "vandal_kingdom",
+     "s": "contested",
+     "note": "Gaiseric raids Sicily, besieges Panormus (440)"
+    },
+    {
+     "from": 442,
+     "to": 468,
+     "p": "rome_west",
+     "s": "direct",
+     "note": "Catana and Henna surrender (263)"
+    },
+    {
+     "from": 468,
+     "to": 477,
+     "p": "vandal_kingdom",
+     "s": "independent",
+     "note": "Vandal control after the failed Roman armada of 468"
+    },
+    {
+     "from": 477,
+     "to": 491,
+     "p": "odoacer_kingdom",
+     "s": "independent",
+     "note": "Gaiseric cedes Sicily to Odoacer for tribute (Lilybaeum kept)"
+    },
+    {
+     "from": 491,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 550,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Belisarius takes Sicily (535); Syracuse surrenders 31 Dec 535"
+    },
+    {
+     "from": 550,
+     "to": 551,
+     "p": "ostrogothic_kingdom",
+     "s": "contested",
+     "note": "Totila's raid on Sicily (550)"
+    },
+    {
+     "from": 551,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Belisarius takes Sicily (535); Syracuse surrenders 31 Dec 535"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Etna eruptions (e.g. 122 BC) damaged Catana repeatedly."
+  },
+  {
+   "id": "it_syracuse",
+   "name": "Syracuse and the Hieronian kingdom",
+   "seed": [
+    15.0,
+    37.05
+   ],
+   "countries": [
+    "IT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -415,
+     "p": "syracuse",
+     "s": "independent",
+     "note": "Gelon (485), Dionysius I, Agathocles"
+    },
+    {
+     "from": -415,
+     "to": -413,
+     "p": "athens",
+     "s": "contested",
+     "note": "Athenian siege"
+    },
+    {
+     "from": -413,
+     "to": -397,
+     "p": "syracuse",
+     "s": "independent",
+     "note": "Gelon (485), Dionysius I, Agathocles"
+    },
+    {
+     "from": -397,
+     "to": -396,
+     "p": "carthage",
+     "s": "contested",
+     "note": "Himilco's siege"
+    },
+    {
+     "from": -396,
+     "to": -311,
+     "p": "syracuse",
+     "s": "independent",
+     "note": "Gelon (485), Dionysius I, Agathocles"
+    },
+    {
+     "from": -311,
+     "to": -309,
+     "p": "carthage",
+     "s": "contested",
+     "note": "Carthaginian siege during Agathocles' war"
+    },
+    {
+     "from": -309,
+     "to": -263,
+     "p": "syracuse",
+     "s": "independent",
+     "note": "Gelon (485), Dionysius I, Agathocles"
+    },
+    {
+     "from": -263,
+     "to": -215,
+     "p": "syracuse",
+     "s": "ally",
+     "note": "Hiero II's treaty (263, perpetual 248)"
+    },
+    {
+     "from": -215,
+     "to": -211,
+     "p": "syracuse",
+     "s": "contested",
+     "note": "Hieronymus defects; siege by Marcellus; Archimedes killed (212)"
+    },
+    {
+     "from": -211,
+     "to": -42,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": -42,
+     "to": -36,
+     "p": "sextus_pompeius",
+     "s": "direct",
+     "note": "Sicily held by Sextus Pompeius until Naulochus (3 Sept 36)"
+    },
+    {
+     "from": -36,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 440,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 440,
+     "to": 442,
+     "p": "vandal_kingdom",
+     "s": "contested",
+     "note": "Gaiseric raids Sicily, besieges Panormus (440)"
+    },
+    {
+     "from": 442,
+     "to": 468,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 468,
+     "to": 477,
+     "p": "vandal_kingdom",
+     "s": "independent",
+     "note": "Vandal control after the failed Roman armada of 468"
+    },
+    {
+     "from": 477,
+     "to": 491,
+     "p": "odoacer_kingdom",
+     "s": "independent",
+     "note": "Gaiseric cedes Sicily to Odoacer for tribute (Lilybaeum kept)"
+    },
+    {
+     "from": 491,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 550,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Belisarius takes Sicily (535); Syracuse surrenders 31 Dec 535"
+    },
+    {
+     "from": 550,
+     "to": 551,
+     "p": "ostrogothic_kingdom",
+     "s": "contested",
+     "note": "Totila's raid on Sicily (550)"
+    },
+    {
+     "from": 551,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Belisarius takes Sicily (535); Syracuse surrenders 31 Dec 535"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Constans II moved the court to Syracuse in 663, after this period."
+  },
+  {
+   "id": "it_messana",
+   "name": "Messana (the Mamertines) and Tauromenium",
+   "seed": [
+    15.0,
+    38.05
+   ],
+   "countries": [
+    "IT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -288,
+     "p": "siceliote_cities",
+     "s": "independent",
+     "note": "Zancle renamed Messana by Anaxilas (c.488)"
+    },
+    {
+     "from": -288,
+     "to": -264,
+     "p": "mamertines",
+     "s": "independent",
+     "note": "Campanian mercenaries seize Messana"
+    },
+    {
+     "from": -264,
+     "to": -42,
+     "p": "mamertines",
+     "s": "ally",
+     "note": "Appeal to Rome triggers the First Punic War; civitas foederata"
+    },
+    {
+     "from": -42,
+     "to": -36,
+     "p": "sextus_pompeius",
+     "s": "direct"
+    },
+    {
+     "from": -36,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 440,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 440,
+     "to": 442,
+     "p": "vandal_kingdom",
+     "s": "contested",
+     "note": "Gaiseric raids Sicily, besieges Panormus (440)"
+    },
+    {
+     "from": 442,
+     "to": 468,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 468,
+     "to": 477,
+     "p": "vandal_kingdom",
+     "s": "independent",
+     "note": "Vandal control after the failed Roman armada of 468"
+    },
+    {
+     "from": 477,
+     "to": 491,
+     "p": "odoacer_kingdom",
+     "s": "independent",
+     "note": "Gaiseric cedes Sicily to Odoacer for tribute (Lilybaeum kept)"
+    },
+    {
+     "from": 491,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 550,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Belisarius takes Sicily (535); Syracuse surrenders 31 Dec 535"
+    },
+    {
+     "from": 550,
+     "to": 551,
+     "p": "ostrogothic_kingdom",
+     "s": "contested",
+     "note": "Totila's raid on Sicily (550)"
+    },
+    {
+     "from": 551,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Belisarius takes Sicily (535); Syracuse surrenders 31 Dec 535"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Messana, Tauromenium and Netum were the three federate cities of Sicily."
+  },
+  {
+   "id": "it_sardinia_south",
+   "name": "Southern Sardinia (Carales, Tharros, Nora)",
+   "seed": [
+    8.85,
+    39.6
+   ],
+   "countries": [
+    "IT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -240,
+     "p": "carthage",
+     "s": "independent",
+     "note": "Punic Sardinia (named in the treaty of 509)"
+    },
+    {
+     "from": -240,
+     "to": -238,
+     "p": "carthage",
+     "s": "contested",
+     "note": "Mercenary revolt in Sardinia"
+    },
+    {
+     "from": -238,
+     "to": -216,
+     "p": "rome",
+     "s": "direct",
+     "note": "Rome seizes Sardinia (238/7)"
+    },
+    {
+     "from": -216,
+     "to": -215,
+     "p": "carthage",
+     "s": "contested",
+     "note": "Hampsicora and Hasdrubal the Bald; Manlius Torquatus wins near Cornus"
+    },
+    {
+     "from": -215,
+     "to": -40,
+     "p": "rome",
+     "s": "direct",
+     "note": "Rome seizes Sardinia (238/7)"
+    },
+    {
+     "from": -40,
+     "to": -38,
+     "p": "sextus_pompeius",
+     "s": "direct",
+     "note": "Held by Menodorus for Sextus"
+    },
+    {
+     "from": -38,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Rome seizes Sardinia (238/7)"
+    },
+    {
+     "from": 395,
+     "to": 456,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 456,
+     "to": 533,
+     "p": "vandal_kingdom",
+     "s": "independent",
+     "note": "Briefly recovered by Marcellinus (468)"
+    },
+    {
+     "from": 533,
+     "to": 534,
+     "p": "vandal_kingdom",
+     "s": "contested",
+     "note": "Godas' revolt; Tzazon retakes the island"
+    },
+    {
+     "from": 534,
+     "to": 551,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 551,
+     "to": 552,
+     "p": "ostrogothic_kingdom",
+     "s": "contested",
+     "note": "Totila occupies Sardinia"
+    },
+    {
+     "from": 552,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Oristano and the Campidano."
+  },
+  {
+   "id": "it_sardinia_north",
+   "name": "Northern Sardinia (Ilienses, Balari, Olbia, Turris)",
+   "seed": [
+    8.85,
+    40.75
+   ],
+   "countries": [
+    "IT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -238,
+     "p": "sardinians",
+     "s": "independent",
+     "note": "Punic posts at Olbia and Bosa"
+    },
+    {
+     "from": -238,
+     "to": -176,
+     "p": "rome",
+     "s": "contested",
+     "note": "Revolts 235-231 and 181-176; Ti. Gracchus claims 80,000 killed or enslaved"
+    },
+    {
+     "from": -176,
+     "to": -40,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": -40,
+     "to": -38,
+     "p": "sextus_pompeius",
+     "s": "direct"
+    },
+    {
+     "from": -38,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 456,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 456,
+     "to": 533,
+     "p": "vandal_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 533,
+     "to": 534,
+     "p": "vandal_kingdom",
+     "s": "contested"
+    },
+    {
+     "from": 534,
+     "to": 551,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 551,
+     "to": 552,
+     "p": "ostrogothic_kingdom",
+     "s": "contested"
+    },
+    {
+     "from": 552,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Turris Libisonis colony under Caesar or Octavian."
+  },
+  {
+   "id": "it_barbaria",
+   "name": "Barbaria (Barbagia: the Sardinian highlands)",
+   "seed": [
+    9.4,
+    40.15
+   ],
+   "countries": [
+    "IT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -238,
+     "p": "sardinians",
+     "s": "independent"
+    },
+    {
+     "from": -238,
+     "to": -176,
+     "p": "sardinians",
+     "s": "contested"
+    },
+    {
+     "from": -176,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Chronic brigandage; military governors from AD 6"
+    },
+    {
+     "from": 395,
+     "to": 456,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 456,
+     "to": 534,
+     "p": "vandal_kingdom",
+     "s": "independent",
+     "note": "Vandals exile Moors here (Procopius on the Barbaricini)"
+    },
+    {
+     "from": 534,
+     "to": 594,
+     "p": "sardinians",
+     "s": "independent",
+     "note": "Barbaricini under dux Hospito"
+    },
+    {
+     "from": 594,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Peace of Zabardas; Hospito converted (Gregory I)"
+    }
+   ],
+   "certainty": "approx",
+   "notes": "Roman control of the highlands was always partial."
+  },
+  {
+   "id": "it_corsica",
+   "name": "Corsica (Alalia/Aleria, Mariana)",
+   "seed": [
+    9.1,
+    42.15
+   ],
+   "countries": [
+    "FR"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -280,
+     "p": "etruscans",
+     "s": "independent",
+     "note": "Etruscan Alalia after the battle of c.540"
+    },
+    {
+     "from": -280,
+     "to": -259,
+     "p": "carthage",
+     "s": "independent"
+    },
+    {
+     "from": -259,
+     "to": -238,
+     "p": "rome",
+     "s": "contested",
+     "note": "L. Cornelius Scipio takes Aleria (259)"
+    },
+    {
+     "from": -238,
+     "to": -163,
+     "p": "corsi",
+     "s": "contested",
+     "note": "Corsican revolts 236, 231, 181, 173"
+    },
+    {
+     "from": -163,
+     "to": -40,
+     "p": "rome",
+     "s": "direct",
+     "note": "Marian colony Mariana, Sullan Aleria"
+    },
+    {
+     "from": -40,
+     "to": -38,
+     "p": "sextus_pompeius",
+     "s": "direct"
+    },
+    {
+     "from": -38,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Marian colony Mariana, Sullan Aleria"
+    },
+    {
+     "from": 395,
+     "to": 456,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 456,
+     "to": 534,
+     "p": "vandal_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 534,
+     "to": 551,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 551,
+     "to": 552,
+     "p": "ostrogothic_kingdom",
+     "s": "contested",
+     "note": "Totila occupies Corsica"
+    },
+    {
+     "from": 552,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Corsica is French territory today but belongs with Sardinia historically."
+  },
+  {
+   "id": "it_malta",
+   "name": "Melita and Gaulos (Malta)",
+   "seed": [
+    14.45,
+    35.9
+   ],
+   "countries": [
+    "MT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -218,
+     "p": "carthage",
+     "s": "independent"
+    },
+    {
+     "from": -218,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Ti. Sempronius Longus takes Malta (Livy 21.51)"
+    },
+    {
+     "from": 395,
+     "to": 440,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 440,
+     "to": 442,
+     "p": "vandal_kingdom",
+     "s": "contested",
+     "note": "Gaiseric raids Sicily, besieges Panormus (440)"
+    },
+    {
+     "from": 442,
+     "to": 468,
+     "p": "rome_west",
+     "s": "direct",
+     "note": "Ti. Sempronius Longus takes Malta (Livy 21.51)"
+    },
+    {
+     "from": 468,
+     "to": 477,
+     "p": "vandal_kingdom",
+     "s": "independent",
+     "note": "Vandal control after the failed Roman armada of 468"
+    },
+    {
+     "from": 477,
+     "to": 491,
+     "p": "odoacer_kingdom",
+     "s": "independent",
+     "note": "Gaiseric cedes Sicily to Odoacer for tribute (Lilybaeum kept)"
+    },
+    {
+     "from": 491,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 550,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Belisarius takes Sicily (535); Syracuse surrenders 31 Dec 535"
+    },
+    {
+     "from": 550,
+     "to": 551,
+     "p": "ostrogothic_kingdom",
+     "s": "contested",
+     "note": "Totila's raid on Sicily (550)"
+    },
+    {
+     "from": 551,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Belisarius takes Sicily (535); Syracuse surrenders 31 Dec 535"
+    }
+   ],
+   "certainty": "approx",
+   "notes": "Malta's 5th-6th century rulers are barely attested; it is assumed to follow Sicily. St Paul's shipwreck c.60."
+  }
+ ]
+}

@@ -1,0 +1,3080 @@
+{
+ "regions": [
+  {
+   "id": "ga_massalia",
+   "name": "Massalia and the Salluvii (Aquae Sextiae, Arelate)",
+   "seed": [
+    5.3,
+    43.5
+   ],
+   "countries": [
+    "FR"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -264,
+     "p": "massalia",
+     "s": "independent"
+    },
+    {
+     "from": -264,
+     "to": -125,
+     "p": "massalia",
+     "s": "ally",
+     "note": "Massalia a naval ally (Ebro 217)"
+    },
+    {
+     "from": -125,
+     "to": -122,
+     "p": "rome",
+     "s": "contested",
+     "note": "Fulvius Flaccus and Sextius Calvinus defeat the Salluvii; Aquae Sextiae 122"
+    },
+    {
+     "from": -122,
+     "to": -102,
+     "p": "massalia",
+     "s": "ally",
+     "note": "Free allied city; Salluvian hinterland provincial"
+    },
+    {
+     "from": -102,
+     "to": -101,
+     "p": "cimbri_teutones",
+     "s": "contested",
+     "note": "Marius destroys the Teutones at Aquae Sextiae (102)"
+    },
+    {
+     "from": -101,
+     "to": -49,
+     "p": "massalia",
+     "s": "ally",
+     "note": "Free allied city; Salluvian hinterland provincial"
+    },
+    {
+     "from": -49,
+     "to": 260,
+     "p": "rome",
+     "s": "direct",
+     "note": "Caesar's siege of Massalia; Arelate colony 46"
+    },
+    {
+     "from": 260,
+     "to": 269,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Gallic Empire; east of the Rhone recovered by Claudius II c.269"
+    },
+    {
+     "from": 269,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Caesar's siege of Massalia; Arelate colony 46"
+    },
+    {
+     "from": 395,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 508,
+     "p": "visigothic_kingdom",
+     "s": "independent",
+     "note": "Euric takes Arles and Marseille (476)"
+    },
+    {
+     "from": 508,
+     "to": 537,
+     "p": "ostrogothic_kingdom",
+     "s": "independent",
+     "note": "Theodoric annexes Provence after Vouille"
+    },
+    {
+     "from": 537,
+     "to": 641,
+     "p": "frankish_kingdom",
+     "s": "independent",
+     "note": "Witigis cedes Provence to the Franks"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Arles was the seat of the Gallic prefecture from c.407."
+  },
+  {
+   "id": "ga_var",
+   "name": "Oxybii, Deciates and Forum Iulii (Var)",
+   "seed": [
+    6.25,
+    43.45
+   ],
+   "countries": [
+    "FR"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -154,
+     "p": "ligures",
+     "s": "independent"
+    },
+    {
+     "from": -154,
+     "to": -125,
+     "p": "massalia",
+     "s": "ally",
+     "note": "Q. Opimius defeats Oxybii and Deciates for Massalia (154)"
+    },
+    {
+     "from": -125,
+     "to": -122,
+     "p": "rome",
+     "s": "contested"
+    },
+    {
+     "from": -122,
+     "to": 260,
+     "p": "rome",
+     "s": "direct",
+     "note": "Forum Iulii naval base and colony"
+    },
+    {
+     "from": 260,
+     "to": 269,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Gallic Empire; east of the Rhone recovered by Claudius II c.269"
+    },
+    {
+     "from": 269,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Forum Iulii naval base and colony"
+    },
+    {
+     "from": 395,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 508,
+     "p": "visigothic_kingdom",
+     "s": "independent",
+     "note": "Euric takes Arles and Marseille (476)"
+    },
+    {
+     "from": 508,
+     "to": 537,
+     "p": "ostrogothic_kingdom",
+     "s": "independent",
+     "note": "Theodoric annexes Provence after Vouille"
+    },
+    {
+     "from": 537,
+     "to": 641,
+     "p": "frankish_kingdom",
+     "s": "independent",
+     "note": "Witigis cedes Provence to the Franks"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Coastal Alpes-Maritimes (Antipolis, Nicaea) joins the Var here."
+  },
+  {
+   "id": "ga_alpes_maritimae",
+   "name": "Alpes Maritimae (Cemenelum, Portus Monoeci)",
+   "seed": [
+    7.05,
+    44.05
+   ],
+   "countries": [
+    "FR",
+    "MC"
+   ],
+   "zone": {
+    "in60bc": false
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -14,
+     "p": "alpine_tribes",
+     "s": "independent",
+     "note": "Ligurian Capillati"
+    },
+    {
+     "from": -14,
+     "to": 260,
+     "p": "rome",
+     "s": "direct",
+     "note": "Conquered 14 BC; Tropaeum Alpium at La Turbie (7/6 BC)"
+    },
+    {
+     "from": 260,
+     "to": 269,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Gallic Empire; east of the Rhone recovered by Claudius II c.269"
+    },
+    {
+     "from": 269,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Conquered 14 BC; Tropaeum Alpium at La Turbie (7/6 BC)"
+    },
+    {
+     "from": 395,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 508,
+     "p": "visigothic_kingdom",
+     "s": "independent",
+     "note": "Euric takes Arles and Marseille (476)"
+    },
+    {
+     "from": 508,
+     "to": 537,
+     "p": "ostrogothic_kingdom",
+     "s": "independent",
+     "note": "Theodoric annexes Provence after Vouille"
+    },
+    {
+     "from": 537,
+     "to": 641,
+     "p": "frankish_kingdom",
+     "s": "independent",
+     "note": "Witigis cedes Provence to the Franks"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Visigothic control of the Maritime Alps after 476 is assumed from Euric's Provence campaign."
+  },
+  {
+   "id": "ga_cavares",
+   "name": "Cavares and Vocontii (Arausio, Avennio, Vasio)",
+   "seed": [
+    5.1,
+    44.35
+   ],
+   "countries": [
+    "FR"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -124,
+     "p": "gauls",
+     "s": "independent"
+    },
+    {
+     "from": -124,
+     "to": -121,
+     "p": "rome",
+     "s": "contested",
+     "note": "Vocontii defeated (124); Domitius at Vindalium (121)"
+    },
+    {
+     "from": -121,
+     "to": -105,
+     "p": "rome",
+     "s": "direct",
+     "note": "Vocontii a federate civitas"
+    },
+    {
+     "from": -105,
+     "to": -104,
+     "p": "cimbri_teutones",
+     "s": "contested",
+     "note": "Arausio (6 Oct 105): the worst Roman defeat since Cannae"
+    },
+    {
+     "from": -104,
+     "to": 260,
+     "p": "rome",
+     "s": "direct",
+     "note": "Vocontii a federate civitas"
+    },
+    {
+     "from": 260,
+     "to": 269,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Gallic Empire; east of the Rhone recovered by Claudius II c.269"
+    },
+    {
+     "from": 269,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Vocontii a federate civitas"
+    },
+    {
+     "from": 395,
+     "to": 470,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 470,
+     "to": 476,
+     "p": "burgundians",
+     "s": "ally",
+     "note": "Burgundian expansion as Roman federates"
+    },
+    {
+     "from": 476,
+     "to": 523,
+     "p": "burgundians",
+     "s": "independent"
+    },
+    {
+     "from": 523,
+     "to": 537,
+     "p": "ostrogothic_kingdom",
+     "s": "independent",
+     "note": "Ostrogoths annex Burgundian land between Durance and Isere (523)"
+    },
+    {
+     "from": 537,
+     "to": 641,
+     "p": "frankish_kingdom",
+     "s": "independent"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "South of the Durance was Visigothic from 476; Ardèche (Helvii) is included."
+  },
+  {
+   "id": "ga_allobroges",
+   "name": "Allobroges (Vienna, Genava, Cularo)",
+   "seed": [
+    5.95,
+    45.6
+   ],
+   "countries": [
+    "FR",
+    "CH"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -122,
+     "p": "allobroges",
+     "s": "independent"
+    },
+    {
+     "from": -122,
+     "to": -121,
+     "p": "rome",
+     "s": "contested",
+     "note": "Fabius Maximus defeats Allobroges and Arverni at the Isere (8 Aug 121)"
+    },
+    {
+     "from": -121,
+     "to": -62,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": -62,
+     "to": -61,
+     "p": "allobroges",
+     "s": "contested",
+     "note": "Catugnatus' revolt crushed by Pomptinus"
+    },
+    {
+     "from": -61,
+     "to": 260,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 260,
+     "to": 269,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Gallic Empire; east of the Rhone recovered by Claudius II c.269"
+    },
+    {
+     "from": 269,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 443,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 443,
+     "to": 476,
+     "p": "burgundians",
+     "s": "ally",
+     "note": "Burgundians settled in Sapaudia (443); Vienne by c.470"
+    },
+    {
+     "from": 476,
+     "to": 534,
+     "p": "burgundians",
+     "s": "independent"
+    },
+    {
+     "from": 534,
+     "to": 641,
+     "p": "frankish_kingdom",
+     "s": "independent"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Geneva belonged to the Allobroges; Savoy and Haute-Savoie are joined here."
+  },
+  {
+   "id": "ga_volcae",
+   "name": "Volcae Arecomici (Nemausus)",
+   "seed": [
+    4.0,
+    43.85
+   ],
+   "countries": [
+    "FR"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -121,
+     "p": "gauls",
+     "s": "independent"
+    },
+    {
+     "from": -121,
+     "to": 260,
+     "p": "rome",
+     "s": "direct",
+     "note": "Via Domitia; Nemausus Latin colony"
+    },
+    {
+     "from": 260,
+     "to": 274,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Gallic Empire of Postumus and successors"
+    },
+    {
+     "from": 274,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Via Domitia; Nemausus Latin colony"
+    },
+    {
+     "from": 395,
+     "to": 470,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 470,
+     "to": 475,
+     "p": "visigothic_kingdom",
+     "s": "ally"
+    },
+    {
+     "from": 475,
+     "to": 641,
+     "p": "visigothic_kingdom",
+     "s": "independent",
+     "note": "Septimania stays Visigothic after 507"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Visigothic takeover of Nîmes c.470 is approximate; Lozère (Gabali) is included."
+  },
+  {
+   "id": "ga_narbo",
+   "name": "Narbo Martius, Baeterrae and Ruscino",
+   "seed": [
+    2.9,
+    43.25
+   ],
+   "countries": [
+    "FR"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -121,
+     "p": "gauls",
+     "s": "independent",
+     "note": "Elisyci, Sordones; Hannibal passes through Ruscino (218)"
+    },
+    {
+     "from": -121,
+     "to": 260,
+     "p": "rome",
+     "s": "direct",
+     "note": "Narbo Martius colony 118"
+    },
+    {
+     "from": 260,
+     "to": 274,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Gallic Empire of Postumus and successors"
+    },
+    {
+     "from": 274,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Narbo Martius colony 118"
+    },
+    {
+     "from": 395,
+     "to": 413,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 413,
+     "to": 415,
+     "p": "visigoths",
+     "s": "occupied",
+     "note": "Athaulf weds Galla Placidia at Narbonne (Jan 414)"
+    },
+    {
+     "from": 415,
+     "to": 462,
+     "p": "rome_west",
+     "s": "direct",
+     "note": "Narbo Martius colony 118"
+    },
+    {
+     "from": 462,
+     "to": 475,
+     "p": "visigothic_kingdom",
+     "s": "ally",
+     "note": "Agrippinus cedes Narbonne to Theodoric II (462)"
+    },
+    {
+     "from": 475,
+     "to": 641,
+     "p": "visigothic_kingdom",
+     "s": "independent",
+     "note": "Septimania"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Septimania remained Visigothic until the Arab conquest of 720."
+  },
+  {
+   "id": "ga_tolosa",
+   "name": "Volcae Tectosages (Tolosa)",
+   "seed": [
+    1.45,
+    43.45
+   ],
+   "countries": [
+    "FR"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -121,
+     "p": "gauls",
+     "s": "independent"
+    },
+    {
+     "from": -121,
+     "to": -107,
+     "p": "gauls",
+     "s": "ally",
+     "note": "Tolosa a federate city"
+    },
+    {
+     "from": -107,
+     "to": -106,
+     "p": "gauls",
+     "s": "contested",
+     "note": "Tolosa revolts with the Tigurini; Caepio seizes the aurum Tolosanum"
+    },
+    {
+     "from": -106,
+     "to": 260,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 260,
+     "to": 274,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Gallic Empire of Postumus and successors"
+    },
+    {
+     "from": 274,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 413,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 413,
+     "to": 415,
+     "p": "visigoths",
+     "s": "occupied"
+    },
+    {
+     "from": 415,
+     "to": 418,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 418,
+     "to": 475,
+     "p": "visigothic_kingdom",
+     "s": "ally",
+     "note": "Visigothic federate settlement in Aquitaine (418)"
+    },
+    {
+     "from": 475,
+     "to": 507,
+     "p": "visigothic_kingdom",
+     "s": "independent",
+     "note": "Kingdom of Toulouse (Euric)"
+    },
+    {
+     "from": 507,
+     "to": 641,
+     "p": "frankish_kingdom",
+     "s": "independent",
+     "note": "Clovis defeats Alaric II at Vouille (507)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Toulouse was the Visigothic capital 418-507; Carcassonne stayed Visigothic after 507."
+  },
+  {
+   "id": "ga_aquitani",
+   "name": "Aquitani (later Novempopulana)",
+   "seed": [
+    -0.4,
+    43.45
+   ],
+   "countries": [
+    "FR"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -56,
+     "p": "aquitani",
+     "s": "independent"
+    },
+    {
+     "from": -56,
+     "to": -28,
+     "p": "aquitani",
+     "s": "occupied",
+     "note": "P. Crassus defeats the Sotiates and Tarusates (56); Agrippa 38"
+    },
+    {
+     "from": -28,
+     "to": -27,
+     "p": "aquitani",
+     "s": "contested",
+     "note": "Messalla Corvinus triumphs over the Aquitani (27)"
+    },
+    {
+     "from": -27,
+     "to": 260,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 260,
+     "to": 274,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Gallic Empire of Postumus and successors"
+    },
+    {
+     "from": 274,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 408,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 408,
+     "to": 409,
+     "p": "vandals",
+     "s": "contested"
+    },
+    {
+     "from": 409,
+     "to": 418,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 418,
+     "to": 475,
+     "p": "visigothic_kingdom",
+     "s": "ally",
+     "note": "Visigothic federate settlement in Aquitaine (418)"
+    },
+    {
+     "from": 475,
+     "to": 507,
+     "p": "visigothic_kingdom",
+     "s": "independent",
+     "note": "Kingdom of Toulouse (Euric)"
+    },
+    {
+     "from": 507,
+     "to": 641,
+     "p": "frankish_kingdom",
+     "s": "independent",
+     "note": "Clovis defeats Alaric II at Vouille (507)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Vascones raided and settled north of the Pyrenees from the 580s; Frankish duchy of Vasconia 602."
+  },
+  {
+   "id": "ga_vivisci",
+   "name": "Bituriges Vivisci and Nitiobroges (Burdigala, Aginnum)",
+   "seed": [
+    -0.25,
+    44.7
+   ],
+   "countries": [
+    "FR"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -56,
+     "p": "gauls",
+     "s": "independent"
+    },
+    {
+     "from": -56,
+     "to": -51,
+     "p": "gauls",
+     "s": "occupied",
+     "note": "Crassus' Aquitanian campaign"
+    },
+    {
+     "from": -51,
+     "to": 260,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 260,
+     "to": 274,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Gallic Empire of Postumus and successors"
+    },
+    {
+     "from": 274,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 408,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 408,
+     "to": 409,
+     "p": "vandals",
+     "s": "contested"
+    },
+    {
+     "from": 409,
+     "to": 413,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 413,
+     "to": 414,
+     "p": "visigoths",
+     "s": "occupied",
+     "note": "Athaulf at Bordeaux; burns it on leaving"
+    },
+    {
+     "from": 414,
+     "to": 418,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 418,
+     "to": 475,
+     "p": "visigothic_kingdom",
+     "s": "ally",
+     "note": "Visigothic federate settlement in Aquitaine (418)"
+    },
+    {
+     "from": 475,
+     "to": 507,
+     "p": "visigothic_kingdom",
+     "s": "independent",
+     "note": "Kingdom of Toulouse (Euric)"
+    },
+    {
+     "from": 507,
+     "to": 641,
+     "p": "frankish_kingdom",
+     "s": "independent",
+     "note": "Clovis defeats Alaric II at Vouille (507)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Dordogne (Petrocorii) is joined here by geometry."
+  },
+  {
+   "id": "ga_pictones",
+   "name": "Pictones and Santones (Limonum, Mediolanum Santonum)",
+   "seed": [
+    -0.3,
+    46.15
+   ],
+   "countries": [
+    "FR"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -56,
+     "p": "gauls",
+     "s": "independent",
+     "note": "Helvetii aim for the Santones (58)"
+    },
+    {
+     "from": -56,
+     "to": -51,
+     "p": "gauls",
+     "s": "ally",
+     "note": "Pictones and Santones build ships for the Veneti campaign"
+    },
+    {
+     "from": -51,
+     "to": 260,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 260,
+     "to": 274,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Gallic Empire of Postumus and successors"
+    },
+    {
+     "from": 274,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 418,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 418,
+     "to": 475,
+     "p": "visigothic_kingdom",
+     "s": "ally",
+     "note": "Visigothic federate settlement in Aquitaine (418)"
+    },
+    {
+     "from": 475,
+     "to": 507,
+     "p": "visigothic_kingdom",
+     "s": "independent",
+     "note": "Kingdom of Toulouse (Euric)"
+    },
+    {
+     "from": 507,
+     "to": 641,
+     "p": "frankish_kingdom",
+     "s": "independent",
+     "note": "Clovis defeats Alaric II at Vouille (507)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Vouillé (507) lies near Poitiers in this region."
+  },
+  {
+   "id": "ga_lemovices",
+   "name": "Lemovices and Cadurci (Augustoritum, Uxellodunum)",
+   "seed": [
+    1.6,
+    45.4
+   ],
+   "countries": [
+    "FR"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -52,
+     "p": "gauls",
+     "s": "independent"
+    },
+    {
+     "from": -52,
+     "to": -51,
+     "p": "gauls",
+     "s": "contested",
+     "note": "Uxellodunum: last stand of the Gallic revolt (51)"
+    },
+    {
+     "from": -51,
+     "to": 260,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 260,
+     "to": 274,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Gallic Empire of Postumus and successors"
+    },
+    {
+     "from": 274,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 469,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 469,
+     "to": 475,
+     "p": "visigothic_kingdom",
+     "s": "contested",
+     "note": "Euric's conquest of Aquitania Prima"
+    },
+    {
+     "from": 475,
+     "to": 507,
+     "p": "visigothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 507,
+     "to": 641,
+     "p": "frankish_kingdom",
+     "s": "independent"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Uxellodunum is probably the Puy d'Issolud (Lot)."
+  },
+  {
+   "id": "ga_arverni",
+   "name": "Arverni (Gergovia, Augustonemetum)",
+   "seed": [
+    3.05,
+    45.55
+   ],
+   "countries": [
+    "FR"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -121,
+     "p": "arverni",
+     "s": "independent",
+     "note": "Arvernian hegemony (Luernios, Bituitus)"
+    },
+    {
+     "from": -121,
+     "to": -120,
+     "p": "arverni",
+     "s": "contested",
+     "note": "Bituitus defeated; Arverni left free"
+    },
+    {
+     "from": -120,
+     "to": -52,
+     "p": "arverni",
+     "s": "independent"
+    },
+    {
+     "from": -52,
+     "to": -51,
+     "p": "arverni",
+     "s": "contested",
+     "note": "Vercingetorix; Gergovia; Alesia"
+    },
+    {
+     "from": -51,
+     "to": 260,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 260,
+     "to": 274,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Gallic Empire of Postumus and successors"
+    },
+    {
+     "from": 274,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 471,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 471,
+     "to": 475,
+     "p": "visigothic_kingdom",
+     "s": "contested",
+     "note": "Sidonius and Ecdicius defend Clermont"
+    },
+    {
+     "from": 475,
+     "to": 507,
+     "p": "visigothic_kingdom",
+     "s": "independent",
+     "note": "Nepos cedes the Auvergne to Euric (475)"
+    },
+    {
+     "from": 507,
+     "to": 641,
+     "p": "frankish_kingdom",
+     "s": "independent"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Ruteni of Aveyron fall in this region by geometry."
+  },
+  {
+   "id": "ga_bituriges",
+   "name": "Bituriges Cubi (Avaricum)",
+   "seed": [
+    2.2,
+    46.95
+   ],
+   "countries": [
+    "FR"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -52,
+     "p": "gauls",
+     "s": "independent"
+    },
+    {
+     "from": -52,
+     "to": -51,
+     "p": "gauls",
+     "s": "contested",
+     "note": "Siege of Avaricum (52)"
+    },
+    {
+     "from": -51,
+     "to": 260,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 260,
+     "to": 274,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Gallic Empire of Postumus and successors"
+    },
+    {
+     "from": 274,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 469,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 469,
+     "to": 475,
+     "p": "visigothic_kingdom",
+     "s": "contested",
+     "note": "Euric defeats Riothamus at Deols (469)"
+    },
+    {
+     "from": 475,
+     "to": 507,
+     "p": "visigothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 507,
+     "to": 641,
+     "p": "frankish_kingdom",
+     "s": "independent"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Allier is split between this region and the Arverni."
+  },
+  {
+   "id": "ga_lugdunum",
+   "name": "Segusiavi and Ambarri (Lugdunum)",
+   "seed": [
+    4.65,
+    45.85
+   ],
+   "countries": [
+    "FR"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -58,
+     "p": "aedui",
+     "s": "independent",
+     "note": "Segusiavi clients of the Aedui"
+    },
+    {
+     "from": -58,
+     "to": -51,
+     "p": "aedui",
+     "s": "ally"
+    },
+    {
+     "from": -51,
+     "to": 196,
+     "p": "rome",
+     "s": "direct",
+     "note": "Lugdunum founded 43 BC; Altar of the Three Gauls 12 BC"
+    },
+    {
+     "from": 196,
+     "to": 197,
+     "p": "rome",
+     "s": "contested",
+     "note": "Battle of Lugdunum: Severus defeats Clodius Albinus (19 Feb 197)"
+    },
+    {
+     "from": 197,
+     "to": 260,
+     "p": "rome",
+     "s": "direct",
+     "note": "Lugdunum founded 43 BC; Altar of the Three Gauls 12 BC"
+    },
+    {
+     "from": 260,
+     "to": 274,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Gallic Empire of Postumus and successors"
+    },
+    {
+     "from": 274,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Lugdunum founded 43 BC; Altar of the Three Gauls 12 BC"
+    },
+    {
+     "from": 395,
+     "to": 461,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 461,
+     "to": 476,
+     "p": "burgundians",
+     "s": "ally",
+     "note": "Burgundians in Lyon (457/461)"
+    },
+    {
+     "from": 476,
+     "to": 534,
+     "p": "burgundians",
+     "s": "independent"
+    },
+    {
+     "from": 534,
+     "to": 641,
+     "p": "frankish_kingdom",
+     "s": "independent"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Lyon was briefly retaken by Majorian in 458."
+  },
+  {
+   "id": "ga_aedui",
+   "name": "Aedui (Bibracte, Augustodunum, Cabillonum)",
+   "seed": [
+    4.35,
+    46.85
+   ],
+   "countries": [
+    "FR"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -121,
+     "p": "aedui",
+     "s": "independent"
+    },
+    {
+     "from": -121,
+     "to": -52,
+     "p": "aedui",
+     "s": "ally",
+     "note": "\"Brothers of the Roman people\""
+    },
+    {
+     "from": -52,
+     "to": -51,
+     "p": "aedui",
+     "s": "contested",
+     "note": "Aedui join Vercingetorix; Alesia (Mandubii)"
+    },
+    {
+     "from": -51,
+     "to": 21,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 21,
+     "to": 22,
+     "p": "aedui",
+     "s": "contested",
+     "note": "Revolt of Julius Sacrovir at Augustodunum"
+    },
+    {
+     "from": 22,
+     "to": 260,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 260,
+     "to": 274,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Gallic Empire of Postumus and successors"
+    },
+    {
+     "from": 274,
+     "to": 275,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 275,
+     "to": 277,
+     "p": "alamanni",
+     "s": "contested",
+     "note": "Germanic invasions of 275-276; Probus restores the Rhine (277)"
+    },
+    {
+     "from": 277,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 470,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 470,
+     "to": 476,
+     "p": "burgundians",
+     "s": "ally",
+     "note": "Burgundian expansion as Roman federates"
+    },
+    {
+     "from": 476,
+     "to": 534,
+     "p": "burgundians",
+     "s": "independent"
+    },
+    {
+     "from": 534,
+     "to": 641,
+     "p": "frankish_kingdom",
+     "s": "independent",
+     "note": "Franks conquer Burgundy (534)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Alesia (Alise-Sainte-Reine) lies in this region."
+  },
+  {
+   "id": "ga_sequani",
+   "name": "Sequani (Vesontio)",
+   "seed": [
+    6.05,
+    47.15
+   ],
+   "countries": [
+    "FR"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -58,
+     "p": "sequani",
+     "s": "independent",
+     "note": "Sequani call in Ariovistus (c.71-61)"
+    },
+    {
+     "from": -58,
+     "to": -51,
+     "p": "sequani",
+     "s": "occupied",
+     "note": "Caesar at Vesontio (58)"
+    },
+    {
+     "from": -51,
+     "to": 68,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 68,
+     "to": 69,
+     "p": "rome",
+     "s": "contested",
+     "note": "Vindex defeated at Vesontio by Verginius Rufus"
+    },
+    {
+     "from": 69,
+     "to": 260,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 260,
+     "to": 274,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Gallic Empire of Postumus and successors"
+    },
+    {
+     "from": 274,
+     "to": 275,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 275,
+     "to": 277,
+     "p": "alamanni",
+     "s": "contested",
+     "note": "Germanic invasions of 275-276; Probus restores the Rhine (277)"
+    },
+    {
+     "from": 277,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 470,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 470,
+     "to": 476,
+     "p": "burgundians",
+     "s": "ally",
+     "note": "Burgundian expansion as Roman federates"
+    },
+    {
+     "from": 476,
+     "to": 534,
+     "p": "burgundians",
+     "s": "independent"
+    },
+    {
+     "from": 534,
+     "to": 641,
+     "p": "frankish_kingdom",
+     "s": "independent",
+     "note": "Franks conquer Burgundy (534)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Territoire de Belfort and Jura are included."
+  },
+  {
+   "id": "ga_alsace",
+   "name": "Triboci and Rauraci (Argentorate)",
+   "seed": [
+    7.5,
+    48.3
+   ],
+   "countries": [
+    "FR"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -63,
+     "p": "sequani",
+     "s": "independent"
+    },
+    {
+     "from": -63,
+     "to": -58,
+     "p": "suebi",
+     "s": "independent",
+     "note": "Ariovistus seizes a third of Sequanian land"
+    },
+    {
+     "from": -58,
+     "to": -51,
+     "p": "rome",
+     "s": "occupied",
+     "note": "Ariovistus defeated (Sept 58)"
+    },
+    {
+     "from": -51,
+     "to": 260,
+     "p": "rome",
+     "s": "direct",
+     "note": "Legio VIII Augusta at Argentorate"
+    },
+    {
+     "from": 260,
+     "to": 274,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Gallic Empire of Postumus and successors"
+    },
+    {
+     "from": 274,
+     "to": 275,
+     "p": "rome",
+     "s": "direct",
+     "note": "Legio VIII Augusta at Argentorate"
+    },
+    {
+     "from": 275,
+     "to": 277,
+     "p": "alamanni",
+     "s": "contested",
+     "note": "Germanic invasions of 275-276; Probus restores the Rhine (277)"
+    },
+    {
+     "from": 277,
+     "to": 352,
+     "p": "rome",
+     "s": "direct",
+     "note": "Legio VIII Augusta at Argentorate"
+    },
+    {
+     "from": 352,
+     "to": 357,
+     "p": "alamanni",
+     "s": "contested",
+     "note": "Alamanni overrun Alsace; Julian wins at Strasbourg (Aug 357)"
+    },
+    {
+     "from": 357,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Legio VIII Augusta at Argentorate"
+    },
+    {
+     "from": 395,
+     "to": 406,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 406,
+     "to": 409,
+     "p": "vandals",
+     "s": "contested",
+     "note": "Vandals, Alans and Suebi cross the Rhine (31 Dec 406) and ravage Gaul"
+    },
+    {
+     "from": 409,
+     "to": 455,
+     "p": "rome_west",
+     "s": "direct",
+     "note": "Legio VIII Augusta at Argentorate"
+    },
+    {
+     "from": 455,
+     "to": 506,
+     "p": "alamanni",
+     "s": "independent"
+    },
+    {
+     "from": 506,
+     "to": 641,
+     "p": "frankish_kingdom",
+     "s": "independent",
+     "note": "Clovis' Alamannic victories (496/506)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Gratian defeated the Lentienses at Argentaria (Horbourg) in 378."
+  },
+  {
+   "id": "ga_mediomatrici",
+   "name": "Mediomatrici and Leuci (Divodurum, Tullum)",
+   "seed": [
+    6.2,
+    48.75
+   ],
+   "countries": [
+    "FR"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -58,
+     "p": "gauls",
+     "s": "independent"
+    },
+    {
+     "from": -58,
+     "to": -51,
+     "p": "rome",
+     "s": "occupied"
+    },
+    {
+     "from": -51,
+     "to": 260,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 260,
+     "to": 274,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Gallic Empire of Postumus and successors"
+    },
+    {
+     "from": 274,
+     "to": 275,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 275,
+     "to": 277,
+     "p": "alamanni",
+     "s": "contested",
+     "note": "Germanic invasions of 275-276; Probus restores the Rhine (277)"
+    },
+    {
+     "from": 277,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 406,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 406,
+     "to": 409,
+     "p": "vandals",
+     "s": "contested",
+     "note": "Vandals, Alans and Suebi cross the Rhine (31 Dec 406) and ravage Gaul"
+    },
+    {
+     "from": 409,
+     "to": 451,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 451,
+     "to": 452,
+     "p": "huns",
+     "s": "contested",
+     "note": "Attila's invasion of Gaul (451)"
+    },
+    {
+     "from": 452,
+     "to": 475,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 475,
+     "to": 481,
+     "p": "franks",
+     "s": "independent"
+    },
+    {
+     "from": 481,
+     "to": 641,
+     "p": "frankish_kingdom",
+     "s": "independent",
+     "note": "Metz an Austrasian capital"
+    }
+   ],
+   "certainty": "approx",
+   "notes": "When Metz passed to the Franks (c.475) is not recorded."
+  },
+  {
+   "id": "ga_lingones",
+   "name": "Lingones, Tricasses and Senones (Andematunnum, Agedincum)",
+   "seed": [
+    4.9,
+    48.1
+   ],
+   "countries": [
+    "FR"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -58,
+     "p": "gauls",
+     "s": "independent"
+    },
+    {
+     "from": -58,
+     "to": -51,
+     "p": "gauls",
+     "s": "ally",
+     "note": "Lingones loyal to Caesar; Senones revolt 53 (Acco executed)"
+    },
+    {
+     "from": -51,
+     "to": 69,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 69,
+     "to": 70,
+     "p": "gauls",
+     "s": "contested",
+     "note": "Julius Sabinus proclaims himself Caesar"
+    },
+    {
+     "from": 70,
+     "to": 260,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 260,
+     "to": 274,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Gallic Empire of Postumus and successors"
+    },
+    {
+     "from": 274,
+     "to": 275,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 275,
+     "to": 277,
+     "p": "alamanni",
+     "s": "contested",
+     "note": "Germanic invasions of 275-276; Probus restores the Rhine (277)"
+    },
+    {
+     "from": 277,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 451,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 451,
+     "to": 452,
+     "p": "huns",
+     "s": "contested",
+     "note": "Attila's invasion of Gaul (451)"
+    },
+    {
+     "from": 452,
+     "to": 461,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 461,
+     "to": 486,
+     "p": "domain_of_soissons",
+     "s": "direct",
+     "note": "Aegidius and Syagrius break with Italy after Majorian's murder"
+    },
+    {
+     "from": 486,
+     "to": 641,
+     "p": "frankish_kingdom",
+     "s": "independent",
+     "note": "Clovis defeats Syagrius at Soissons (486)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "The Catalaunian Plains battle (June 451) was fought near Troyes; Langres was Burgundian c.480-534."
+  },
+  {
+   "id": "ga_remi",
+   "name": "Remi and Suessiones (Durocortorum, Noviodunum)",
+   "seed": [
+    4.3,
+    49.35
+   ],
+   "countries": [
+    "FR"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -57,
+     "p": "belgae",
+     "s": "independent"
+    },
+    {
+     "from": -57,
+     "to": -51,
+     "p": "belgae",
+     "s": "ally",
+     "note": "Remi ally with Caesar; Suessiones submit (57)"
+    },
+    {
+     "from": -51,
+     "to": 260,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 260,
+     "to": 274,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Gallic Empire of Postumus and successors"
+    },
+    {
+     "from": 274,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 406,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 406,
+     "to": 409,
+     "p": "vandals",
+     "s": "contested",
+     "note": "Vandals, Alans and Suebi cross the Rhine (31 Dec 406) and ravage Gaul"
+    },
+    {
+     "from": 409,
+     "to": 451,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 451,
+     "to": 452,
+     "p": "huns",
+     "s": "contested",
+     "note": "Attila's invasion of Gaul (451)"
+    },
+    {
+     "from": 452,
+     "to": 461,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 461,
+     "to": 486,
+     "p": "domain_of_soissons",
+     "s": "direct",
+     "note": "Aegidius and Syagrius break with Italy after Majorian's murder"
+    },
+    {
+     "from": 486,
+     "to": 641,
+     "p": "frankish_kingdom",
+     "s": "independent",
+     "note": "Clovis defeats Syagrius at Soissons (486)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Soissons was the seat of the Domain of Soissons; Clovis baptised at Reims (496/508)."
+  },
+  {
+   "id": "ga_belgae",
+   "name": "Bellovaci, Ambiani and Atrebates (Samarobriva, Gesoriacum)",
+   "seed": [
+    2.35,
+    49.85
+   ],
+   "countries": [
+    "FR"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -57,
+     "p": "belgae",
+     "s": "independent"
+    },
+    {
+     "from": -57,
+     "to": -51,
+     "p": "belgae",
+     "s": "contested",
+     "note": "Belgic campaign (57); Bellovaci revolt under Correus (51)"
+    },
+    {
+     "from": -51,
+     "to": 260,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 260,
+     "to": 274,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Gallic Empire of Postumus and successors"
+    },
+    {
+     "from": 274,
+     "to": 286,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 286,
+     "to": 293,
+     "p": "britannic_empire",
+     "s": "direct",
+     "note": "Carausius holds Gesoriacum until 293"
+    },
+    {
+     "from": 293,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 406,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 406,
+     "to": 409,
+     "p": "vandals",
+     "s": "contested",
+     "note": "Vandals, Alans and Suebi cross the Rhine (31 Dec 406) and ravage Gaul"
+    },
+    {
+     "from": 409,
+     "to": 461,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 461,
+     "to": 486,
+     "p": "domain_of_soissons",
+     "s": "direct",
+     "note": "Aegidius and Syagrius break with Italy after Majorian's murder"
+    },
+    {
+     "from": 486,
+     "to": 641,
+     "p": "frankish_kingdom",
+     "s": "independent",
+     "note": "Clovis defeats Syagrius at Soissons (486)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Clodio's Franks took Arras and Cambrai c.445-448 (Pas-de-Calais)."
+  },
+  {
+   "id": "ga_nervii",
+   "name": "Nervii and Menapii (Bagacum, Turnacum)",
+   "seed": [
+    3.6,
+    50.6
+   ],
+   "countries": [
+    "FR",
+    "BE"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -57,
+     "p": "belgae",
+     "s": "independent"
+    },
+    {
+     "from": -57,
+     "to": -51,
+     "p": "belgae",
+     "s": "contested",
+     "note": "Battle of the Sabis (57); Nervian rising (54)"
+    },
+    {
+     "from": -51,
+     "to": 260,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 260,
+     "to": 274,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Gallic Empire of Postumus and successors"
+    },
+    {
+     "from": 274,
+     "to": 275,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 275,
+     "to": 277,
+     "p": "franks",
+     "s": "contested",
+     "note": "Frankish invasions of 275-276"
+    },
+    {
+     "from": 277,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 406,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 406,
+     "to": 409,
+     "p": "vandals",
+     "s": "contested",
+     "note": "Vandals, Alans and Suebi cross the Rhine (31 Dec 406) and ravage Gaul"
+    },
+    {
+     "from": 409,
+     "to": 445,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 445,
+     "to": 481,
+     "p": "franks",
+     "s": "independent",
+     "note": "Salian Franks: Clodio at Cambrai, Childeric at Tournai"
+    },
+    {
+     "from": 481,
+     "to": 641,
+     "p": "frankish_kingdom",
+     "s": "independent"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Childeric I's grave was found at Tournai in 1653."
+  },
+  {
+   "id": "ga_tungri",
+   "name": "Eburones and Tungri (Atuatuca Tungrorum)",
+   "seed": [
+    5.45,
+    50.6
+   ],
+   "countries": [
+    "BE",
+    "NL"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -57,
+     "p": "belgae",
+     "s": "independent"
+    },
+    {
+     "from": -57,
+     "to": -53,
+     "p": "belgae",
+     "s": "contested",
+     "note": "Ambiorix destroys Sabinus and Cotta (54); Eburones exterminated (53)"
+    },
+    {
+     "from": -53,
+     "to": 69,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 69,
+     "to": 70,
+     "p": "batavi",
+     "s": "contested",
+     "note": "Tungri join Civilis"
+    },
+    {
+     "from": 70,
+     "to": 260,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 260,
+     "to": 274,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Gallic Empire of Postumus and successors"
+    },
+    {
+     "from": 274,
+     "to": 275,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 275,
+     "to": 277,
+     "p": "franks",
+     "s": "contested",
+     "note": "Frankish invasions of 275-276"
+    },
+    {
+     "from": 277,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 440,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 440,
+     "to": 481,
+     "p": "franks",
+     "s": "independent"
+    },
+    {
+     "from": 481,
+     "to": 641,
+     "p": "frankish_kingdom",
+     "s": "independent"
+    }
+   ],
+   "certainty": "approx",
+   "notes": "Frankish takeover of Tongeren is dated only loosely (c.430-450)."
+  },
+  {
+   "id": "ga_toxandria",
+   "name": "Menapii and Toxandria",
+   "seed": [
+    5.0,
+    51.35
+   ],
+   "countries": [
+    "BE",
+    "NL"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -57,
+     "p": "belgae",
+     "s": "independent"
+    },
+    {
+     "from": -57,
+     "to": -53,
+     "p": "belgae",
+     "s": "contested",
+     "note": "Caesar's Menapian campaigns"
+    },
+    {
+     "from": -53,
+     "to": 260,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 260,
+     "to": 274,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Gallic Empire of Postumus and successors"
+    },
+    {
+     "from": 274,
+     "to": 342,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 342,
+     "to": 358,
+     "p": "franks",
+     "s": "contested",
+     "note": "Salian Franks settle; Constans campaigns 341-342"
+    },
+    {
+     "from": 358,
+     "to": 406,
+     "p": "franks",
+     "s": "ally",
+     "note": "Julian accepts the Salians as dediticii (358)"
+    },
+    {
+     "from": 406,
+     "to": 481,
+     "p": "franks",
+     "s": "independent"
+    },
+    {
+     "from": 481,
+     "to": 641,
+     "p": "frankish_kingdom",
+     "s": "independent"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Toxandria proper is North Brabant; Zeeland and Antwerp are joined to it."
+  },
+  {
+   "id": "ga_treveri",
+   "name": "Treveri and the middle Rhine (Augusta Treverorum, Mogontiacum)",
+   "seed": [
+    6.85,
+    49.85
+   ],
+   "countries": [
+    "DE",
+    "LU",
+    "BE"
+   ],
+   "zone": {
+    "in117": true
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -57,
+     "p": "treveri",
+     "s": "independent"
+    },
+    {
+     "from": -57,
+     "to": -54,
+     "p": "treveri",
+     "s": "ally",
+     "note": "Treveran cavalry with Caesar"
+    },
+    {
+     "from": -54,
+     "to": -53,
+     "p": "treveri",
+     "s": "contested",
+     "note": "Indutiomarus' revolt; Labienus"
+    },
+    {
+     "from": -53,
+     "to": -51,
+     "p": "treveri",
+     "s": "ally",
+     "note": "Treveran cavalry with Caesar"
+    },
+    {
+     "from": -51,
+     "to": 21,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 21,
+     "to": 22,
+     "p": "treveri",
+     "s": "contested",
+     "note": "Revolt of Julius Florus"
+    },
+    {
+     "from": 22,
+     "to": 69,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 69,
+     "to": 70,
+     "p": "treveri",
+     "s": "contested",
+     "note": "Imperium Galliarum of Classicus and Tutor; Cerialis at Rigodulum (70)"
+    },
+    {
+     "from": 70,
+     "to": 260,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 260,
+     "to": 274,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Gallic Empire of Postumus and successors"
+    },
+    {
+     "from": 274,
+     "to": 275,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 275,
+     "to": 277,
+     "p": "alamanni",
+     "s": "contested",
+     "note": "Germanic invasions of 275-276; Probus restores the Rhine (277)"
+    },
+    {
+     "from": 277,
+     "to": 355,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 355,
+     "to": 356,
+     "p": "alamanni",
+     "s": "contested",
+     "note": "Alamanni take Mainz, Worms and Speyer"
+    },
+    {
+     "from": 356,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 406,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 406,
+     "to": 413,
+     "p": "vandals",
+     "s": "contested",
+     "note": "Rhine crossing at Mainz; Jovinus proclaimed at Mainz (411)"
+    },
+    {
+     "from": 413,
+     "to": 436,
+     "p": "burgundians",
+     "s": "ally",
+     "note": "Burgundian federate kingdom at Worms; destroyed by Aetius' Huns (436/7)"
+    },
+    {
+     "from": 436,
+     "to": 455,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 455,
+     "to": 475,
+     "p": "franks",
+     "s": "contested",
+     "note": "Trier sacked repeatedly; comes Arbogast holds out"
+    },
+    {
+     "from": 475,
+     "to": 481,
+     "p": "franks",
+     "s": "independent"
+    },
+    {
+     "from": 481,
+     "to": 641,
+     "p": "frankish_kingdom",
+     "s": "independent"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Rhineland-Palatinate is a single cell, so Trier, Mainz and Worms share this region; Trier was an imperial capital 293-395."
+  },
+  {
+   "id": "ga_parisii",
+   "name": "Parisii and Meldi (Lutetia)",
+   "seed": [
+    2.35,
+    48.8
+   ],
+   "countries": [
+    "FR"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -57,
+     "p": "gauls",
+     "s": "independent"
+    },
+    {
+     "from": -57,
+     "to": -52,
+     "p": "gauls",
+     "s": "occupied"
+    },
+    {
+     "from": -52,
+     "to": -51,
+     "p": "gauls",
+     "s": "contested",
+     "note": "Labienus defeats Camulogenus at Lutetia (52)"
+    },
+    {
+     "from": -51,
+     "to": 260,
+     "p": "rome",
+     "s": "direct",
+     "note": "Julian proclaimed Augustus at Lutetia (360)"
+    },
+    {
+     "from": 260,
+     "to": 274,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Gallic Empire of Postumus and successors"
+    },
+    {
+     "from": 274,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Julian proclaimed Augustus at Lutetia (360)"
+    },
+    {
+     "from": 395,
+     "to": 461,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 461,
+     "to": 486,
+     "p": "domain_of_soissons",
+     "s": "direct",
+     "note": "Aegidius and Syagrius break with Italy after Majorian's murder"
+    },
+    {
+     "from": 486,
+     "to": 641,
+     "p": "frankish_kingdom",
+     "s": "independent",
+     "note": "Clovis defeats Syagrius at Soissons (486)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Paris became Clovis' capital c.508."
+  },
+  {
+   "id": "ga_carnutes",
+   "name": "Carnutes (Cenabum, Autricum)",
+   "seed": [
+    1.45,
+    47.9
+   ],
+   "countries": [
+    "FR"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -57,
+     "p": "gauls",
+     "s": "independent"
+    },
+    {
+     "from": -57,
+     "to": -52,
+     "p": "gauls",
+     "s": "occupied"
+    },
+    {
+     "from": -52,
+     "to": -51,
+     "p": "gauls",
+     "s": "contested",
+     "note": "Massacre of Romans at Cenabum (Feb 52) starts the revolt"
+    },
+    {
+     "from": -51,
+     "to": 260,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 260,
+     "to": 274,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Gallic Empire of Postumus and successors"
+    },
+    {
+     "from": 274,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 451,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 451,
+     "to": 452,
+     "p": "huns",
+     "s": "contested",
+     "note": "Attila besieges Orleans"
+    },
+    {
+     "from": 452,
+     "to": 461,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 461,
+     "to": 486,
+     "p": "domain_of_soissons",
+     "s": "direct",
+     "note": "Aegidius and Syagrius break with Italy after Majorian's murder"
+    },
+    {
+     "from": 486,
+     "to": 641,
+     "p": "frankish_kingdom",
+     "s": "independent",
+     "note": "Clovis defeats Syagrius at Soissons (486)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Aegidius and Childeric beat the Visigoths at Orleans in 463."
+  },
+  {
+   "id": "ga_turones",
+   "name": "Turones, Andecavi and Cenomani (Caesarodunum, Iuliomagus)",
+   "seed": [
+    0.5,
+    47.35
+   ],
+   "countries": [
+    "FR"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -57,
+     "p": "gauls",
+     "s": "independent"
+    },
+    {
+     "from": -57,
+     "to": -51,
+     "p": "gauls",
+     "s": "occupied"
+    },
+    {
+     "from": -51,
+     "to": 260,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 260,
+     "to": 274,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Gallic Empire of Postumus and successors"
+    },
+    {
+     "from": 274,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 461,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 461,
+     "to": 486,
+     "p": "visigothic_kingdom",
+     "s": "contested",
+     "note": "Visigoths at Tours (c.471); Saxons of Adovacrius at Angers (463-469)"
+    },
+    {
+     "from": 486,
+     "to": 641,
+     "p": "frankish_kingdom",
+     "s": "independent",
+     "note": "Tours itself Visigothic until 507"
+    }
+   ],
+   "certainty": "approx",
+   "notes": "The Loire valley was a contested frontier in 461-507."
+  },
+  {
+   "id": "ga_lexovii",
+   "name": "Lexovii, Aulerci and Unelli (Rotomagus, Noviomagus)",
+   "seed": [
+    0.0,
+    49.1
+   ],
+   "countries": [
+    "FR"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -56,
+     "p": "armoricans",
+     "s": "independent"
+    },
+    {
+     "from": -56,
+     "to": -51,
+     "p": "armoricans",
+     "s": "occupied",
+     "note": "Sabinus defeats the Venelli (56)"
+    },
+    {
+     "from": -51,
+     "to": 260,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 260,
+     "to": 274,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Gallic Empire of Postumus and successors"
+    },
+    {
+     "from": 274,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 409,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 409,
+     "to": 417,
+     "p": "rome_west",
+     "s": "contested",
+     "note": "Armorican tract expels Roman officials (409); Exuperantius restores order 417"
+    },
+    {
+     "from": 417,
+     "to": 461,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 461,
+     "to": 486,
+     "p": "domain_of_soissons",
+     "s": "direct",
+     "note": "Aegidius and Syagrius break with Italy after Majorian's murder"
+    },
+    {
+     "from": 486,
+     "to": 641,
+     "p": "frankish_kingdom",
+     "s": "independent",
+     "note": "Clovis defeats Syagrius at Soissons (486)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Saxons settled around Bayeux (Saxones Baiocassini) in the 5th-6th centuries."
+  },
+  {
+   "id": "ga_redones",
+   "name": "Redones and Namnetes (Condate, Portus Namnetum)",
+   "seed": [
+    -1.6,
+    47.8
+   ],
+   "countries": [
+    "FR"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -57,
+     "p": "armoricans",
+     "s": "independent"
+    },
+    {
+     "from": -57,
+     "to": -51,
+     "p": "armoricans",
+     "s": "occupied"
+    },
+    {
+     "from": -51,
+     "to": 260,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 260,
+     "to": 274,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Gallic Empire of Postumus and successors"
+    },
+    {
+     "from": 274,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 409,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 409,
+     "to": 417,
+     "p": "rome_west",
+     "s": "contested",
+     "note": "Bacaudae"
+    },
+    {
+     "from": 417,
+     "to": 435,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 435,
+     "to": 437,
+     "p": "rome_west",
+     "s": "contested",
+     "note": "Bacaudae of Tibatto"
+    },
+    {
+     "from": 437,
+     "to": 461,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 461,
+     "to": 497,
+     "p": "bretons",
+     "s": "contested",
+     "note": "Bretons, Armoricans, Loire Saxons and Franks"
+    },
+    {
+     "from": 497,
+     "to": 641,
+     "p": "frankish_kingdom",
+     "s": "independent",
+     "note": "Breton raids under Waroch (578-590)"
+    }
+   ],
+   "certainty": "approx",
+   "notes": "Mayenne is joined here; Rennes and Nantes were Frankish frontier counties."
+  },
+  {
+   "id": "ga_armorica",
+   "name": "Armorica (Osismii, Veneti, Coriosolites)",
+   "seed": [
+    -3.4,
+    48.2
+   ],
+   "countries": [
+    "FR",
+    "JE",
+    "GG"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -57,
+     "p": "armoricans",
+     "s": "independent"
+    },
+    {
+     "from": -57,
+     "to": -56,
+     "p": "armoricans",
+     "s": "occupied"
+    },
+    {
+     "from": -56,
+     "to": -55,
+     "p": "armoricans",
+     "s": "contested",
+     "note": "Veneti revolt; naval battle in Quiberon Bay (56)"
+    },
+    {
+     "from": -55,
+     "to": -51,
+     "p": "armoricans",
+     "s": "occupied"
+    },
+    {
+     "from": -51,
+     "to": 260,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 260,
+     "to": 274,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Gallic Empire of Postumus and successors"
+    },
+    {
+     "from": 274,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 409,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 409,
+     "to": 417,
+     "p": "rome_west",
+     "s": "contested",
+     "note": "Bacaudae"
+    },
+    {
+     "from": 417,
+     "to": 435,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 435,
+     "to": 437,
+     "p": "rome_west",
+     "s": "contested"
+    },
+    {
+     "from": 437,
+     "to": 461,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 461,
+     "to": 641,
+     "p": "bretons",
+     "s": "independent",
+     "note": "Brittonic migration; Riothamus (469); Frankish claims nominal"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Jersey and Guernsey are included."
+  },
+  {
+   "id": "nl_batavi",
+   "name": "Batavi and Cananefates (Noviomagus, Lugdunum Batavorum)",
+   "seed": [
+    5.4,
+    51.95
+   ],
+   "countries": [
+    "NL"
+   ],
+   "zone": {
+    "in117": true
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -50,
+     "p": "belgae",
+     "s": "independent",
+     "note": "Menapii and Eburones"
+    },
+    {
+     "from": -50,
+     "to": -12,
+     "p": "batavi",
+     "s": "independent",
+     "note": "Batavi settle from the Chatti"
+    },
+    {
+     "from": -12,
+     "to": 69,
+     "p": "batavi",
+     "s": "ally",
+     "note": "Allied, untaxed, supplying troops; Fossa Drusiana"
+    },
+    {
+     "from": 69,
+     "to": 70,
+     "p": "batavi",
+     "s": "contested",
+     "note": "Revolt of Julius Civilis"
+    },
+    {
+     "from": 70,
+     "to": 260,
+     "p": "rome",
+     "s": "direct",
+     "note": "Ulpia Noviomagus"
+    },
+    {
+     "from": 260,
+     "to": 274,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Gallic Empire of Postumus and successors"
+    },
+    {
+     "from": 274,
+     "to": 293,
+     "p": "franks",
+     "s": "contested"
+    },
+    {
+     "from": 293,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Ulpia Noviomagus"
+    },
+    {
+     "from": 395,
+     "to": 406,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 406,
+     "to": 481,
+     "p": "franks",
+     "s": "independent"
+    },
+    {
+     "from": 481,
+     "to": 550,
+     "p": "frankish_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 550,
+     "to": 630,
+     "p": "frisii",
+     "s": "independent",
+     "note": "Frisian expansion to Utrecht and Dorestad"
+    },
+    {
+     "from": 630,
+     "to": 641,
+     "p": "frankish_kingdom",
+     "s": "independent",
+     "note": "Dagobert I at Utrecht"
+    }
+   ],
+   "certainty": "approx",
+   "notes": "Corbulo's canal (47) linked Rhine and Meuse."
+  },
+  {
+   "id": "nl_frisii",
+   "name": "Frisii",
+   "seed": [
+    5.6,
+    53.0
+   ],
+   "countries": [
+    "NL"
+   ],
+   "zone": {
+    "in117": false
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -12,
+     "p": "frisii",
+     "s": "independent"
+    },
+    {
+     "from": -12,
+     "to": 28,
+     "p": "frisii",
+     "s": "client",
+     "note": "Tributary in ox hides from Drusus (12 BC)"
+    },
+    {
+     "from": 28,
+     "to": 641,
+     "p": "frisii",
+     "s": "independent",
+     "note": "Revolt of 28 (Olennius); Corbulo briefly 47"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Terp-dwelling Frisians; Frisian kingdom 7th century."
+  },
+  {
+   "id": "nl_chamavi",
+   "name": "Chamavi, Tubantes and Salian homelands",
+   "seed": [
+    6.3,
+    52.3
+   ],
+   "countries": [
+    "NL"
+   ],
+   "zone": {
+    "in117": false
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": 250,
+     "p": "germani",
+     "s": "independent"
+    },
+    {
+     "from": 250,
+     "to": 450,
+     "p": "franks",
+     "s": "independent"
+    },
+    {
+     "from": 450,
+     "to": 641,
+     "p": "saxons",
+     "s": "independent"
+    }
+   ],
+   "certainty": "approx",
+   "notes": "Saxon expansion into Drenthe and Twente is approximate."
+  }
+ ]
+}

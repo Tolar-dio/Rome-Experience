@@ -1,0 +1,1713 @@
+{
+ "regions": [
+  {
+   "id": "ge_ubii",
+   "name": "Ubii and Cugerni (Colonia Agrippinensis, Vetera)",
+   "seed": [
+    6.6,
+    50.9
+   ],
+   "countries": [
+    "DE"
+   ],
+   "zone": {
+    "in117": true
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -55,
+     "p": "belgae",
+     "s": "independent",
+     "note": "Eburones on the left bank"
+    },
+    {
+     "from": -55,
+     "to": -51,
+     "p": "rome",
+     "s": "contested",
+     "note": "Caesar's Rhine bridges (55, 53); Eburones exterminated"
+    },
+    {
+     "from": -51,
+     "to": 69,
+     "p": "rome",
+     "s": "direct",
+     "note": "Ubii resettled on the left bank (38 or 19 BC); colonia 50"
+    },
+    {
+     "from": 69,
+     "to": 70,
+     "p": "batavi",
+     "s": "contested",
+     "note": "Batavian revolt: Vetera besieged and taken"
+    },
+    {
+     "from": 70,
+     "to": 260,
+     "p": "rome",
+     "s": "direct",
+     "note": "Ubii resettled on the left bank (38 or 19 BC); colonia 50"
+    },
+    {
+     "from": 260,
+     "to": 274,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Gallic Empire of Postumus and successors"
+    },
+    {
+     "from": 274,
+     "to": 275,
+     "p": "rome",
+     "s": "direct",
+     "note": "Ubii resettled on the left bank (38 or 19 BC); colonia 50"
+    },
+    {
+     "from": 275,
+     "to": 277,
+     "p": "franks",
+     "s": "contested"
+    },
+    {
+     "from": 277,
+     "to": 355,
+     "p": "rome",
+     "s": "direct",
+     "note": "Ubii resettled on the left bank (38 or 19 BC); colonia 50"
+    },
+    {
+     "from": 355,
+     "to": 356,
+     "p": "franks",
+     "s": "contested",
+     "note": "Franks take Cologne (Dec 355); Julian recovers it"
+    },
+    {
+     "from": 356,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Ubii resettled on the left bank (38 or 19 BC); colonia 50"
+    },
+    {
+     "from": 395,
+     "to": 406,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 406,
+     "to": 459,
+     "p": "franks",
+     "s": "contested",
+     "note": "Repeated Frankish sacks of Cologne"
+    },
+    {
+     "from": 459,
+     "to": 481,
+     "p": "franks",
+     "s": "independent",
+     "note": "Ripuarian kingdom of Cologne"
+    },
+    {
+     "from": 481,
+     "to": 641,
+     "p": "frankish_kingdom",
+     "s": "independent",
+     "note": "Clovis absorbs the Ripuarian kingdom (c.508)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Left-bank Lower Rhine (Germania Inferior)."
+  },
+  {
+   "id": "ge_wetterau",
+   "name": "Mattiaci and the Wetterau (Nida, Aquae Mattiacorum)",
+   "seed": [
+    8.7,
+    50.2
+   ],
+   "countries": [
+    "DE"
+   ],
+   "zone": {
+    "in117": true
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -38,
+     "p": "germani",
+     "s": "independent",
+     "note": "Ubii before their move across the Rhine"
+    },
+    {
+     "from": -38,
+     "to": -12,
+     "p": "chatti",
+     "s": "independent"
+    },
+    {
+     "from": -12,
+     "to": 9,
+     "p": "chatti",
+     "s": "occupied",
+     "note": "Mainz-Kastel bridgehead; Waldgirmes town in the Lahn valley"
+    },
+    {
+     "from": 9,
+     "to": 83,
+     "p": "germani",
+     "s": "client",
+     "note": "Mattiaci clients of Rome (Tac. Germ. 29)"
+    },
+    {
+     "from": 83,
+     "to": 260,
+     "p": "rome",
+     "s": "direct",
+     "note": "Domitian's Chattan war; Taunus-Wetterau limes"
+    },
+    {
+     "from": 260,
+     "to": 496,
+     "p": "alamanni",
+     "s": "independent"
+    },
+    {
+     "from": 496,
+     "to": 641,
+     "p": "frankish_kingdom",
+     "s": "independent"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "The southern Hessian part inside the limes."
+  },
+  {
+   "id": "ge_agri_decumates",
+   "name": "Agri Decumates (Sumelocenna, Arae Flaviae)",
+   "seed": [
+    8.9,
+    48.5
+   ],
+   "countries": [
+    "DE"
+   ],
+   "zone": {
+    "in117": true
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -100,
+     "p": "gauls",
+     "s": "independent",
+     "note": "Celtic oppida (Heidengraben); the \"Helvetian desert\" later"
+    },
+    {
+     "from": -100,
+     "to": 74,
+     "p": "suebi",
+     "s": "independent",
+     "note": "Thinly settled; Claudian forts on the upper Danube"
+    },
+    {
+     "from": 74,
+     "to": 260,
+     "p": "rome",
+     "s": "direct",
+     "note": "Cornelius Clemens' road across the Black Forest (74); outer limes c.160"
+    },
+    {
+     "from": 260,
+     "to": 506,
+     "p": "alamanni",
+     "s": "independent",
+     "note": "Limesfall (259/260); Caracalla's Alamannic war 213 first names them"
+    },
+    {
+     "from": 506,
+     "to": 641,
+     "p": "frankish_kingdom",
+     "s": "independent",
+     "note": "Northern Alamannia Frankish; southern under Ostrogothic protection to 536"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Annexation is dated by the 74 road; the Neckar-Odenwald line c.98 and the outer limes c.160 advanced it in stages."
+  },
+  {
+   "id": "al_vindelici",
+   "name": "Vindelicia (Augusta Vindelicum, Cambodunum)",
+   "seed": [
+    10.6,
+    48.1
+   ],
+   "countries": [
+    "DE"
+   ],
+   "zone": {
+    "in117": true
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -15,
+     "p": "raeti",
+     "s": "independent",
+     "note": "Celtic Vindelici (Manching oppidum)"
+    },
+    {
+     "from": -15,
+     "to": 260,
+     "p": "rome",
+     "s": "direct",
+     "note": "Raetia; Augusta Vindelicum"
+    },
+    {
+     "from": 260,
+     "to": 261,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Augsburg victory altar (Sept 260) dated by Postumus' consulship"
+    },
+    {
+     "from": 261,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Raetia; Augusta Vindelicum"
+    },
+    {
+     "from": 395,
+     "to": 455,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 455,
+     "to": 476,
+     "p": "alamanni",
+     "s": "contested",
+     "note": "Alamanni and Juthungi overrun Raetia II west of the Lech"
+    },
+    {
+     "from": 476,
+     "to": 537,
+     "p": "alamanni",
+     "s": "independent"
+    },
+    {
+     "from": 537,
+     "to": 641,
+     "p": "frankish_kingdom",
+     "s": "independent",
+     "note": "Alamannic duchy under Frankish rule; Bavarii east of the Lech"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Includes eastern Württemberg south of the Raetian limes."
+  },
+  {
+   "id": "al_castra_regina",
+   "name": "Raetia secunda east (Castra Regina, Batavis)",
+   "seed": [
+    12.4,
+    48.3
+   ],
+   "countries": [
+    "DE"
+   ],
+   "zone": {
+    "in117": true
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -15,
+     "p": "norici",
+     "s": "independent"
+    },
+    {
+     "from": -15,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Legio III Italica at Castra Regina (179)"
+    },
+    {
+     "from": 395,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 488,
+     "p": "odoacer_kingdom",
+     "s": "independent",
+     "note": "Severinus at Batavis (Passau)"
+    },
+    {
+     "from": 488,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "contested",
+     "note": "Roman population evacuated to Italy (488)"
+    },
+    {
+     "from": 493,
+     "to": 536,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 536,
+     "to": 550,
+     "p": "frankish_kingdom",
+     "s": "contested"
+    },
+    {
+     "from": 550,
+     "to": 641,
+     "p": "bavarii",
+     "s": "independent",
+     "note": "Agilolfing dukes (Garibald, 555) under Frankish overlordship"
+    }
+   ],
+   "certainty": "approx",
+   "notes": "Bavarian ethnogenesis (first named c.551) is debated."
+  },
+  {
+   "id": "ge_chauci",
+   "name": "Chauci (Weser and Ems coast)",
+   "seed": [
+    8.6,
+    53.3
+   ],
+   "countries": [
+    "DE"
+   ],
+   "zone": {
+    "in117": false
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -12,
+     "p": "germani",
+     "s": "independent"
+    },
+    {
+     "from": -12,
+     "to": 9,
+     "p": "germani",
+     "s": "client",
+     "note": "Chauci allied to Drusus (12 BC) and Tiberius (AD 5)"
+    },
+    {
+     "from": 9,
+     "to": 280,
+     "p": "germani",
+     "s": "independent",
+     "note": "Chaucian raids 41, 47 (Gannascus), 170s"
+    },
+    {
+     "from": 280,
+     "to": 641,
+     "p": "saxons",
+     "s": "independent"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Chauci merged into the Saxons by the late 3rd century."
+  },
+  {
+   "id": "ge_cherusci",
+   "name": "Cherusci (Weser hills)",
+   "seed": [
+    9.6,
+    52.2
+   ],
+   "countries": [
+    "DE"
+   ],
+   "zone": {
+    "in117": false
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -50,
+     "p": "germani",
+     "s": "independent"
+    },
+    {
+     "from": -50,
+     "to": -12,
+     "p": "cherusci",
+     "s": "independent"
+    },
+    {
+     "from": -12,
+     "to": 9,
+     "p": "cherusci",
+     "s": "occupied",
+     "note": "Varus' summer camp on the Weser"
+    },
+    {
+     "from": 9,
+     "to": 16,
+     "p": "cherusci",
+     "s": "contested",
+     "note": "Teutoburg (Kalkriese, Sept 9); Idistaviso and the Angrivarian Wall (16)"
+    },
+    {
+     "from": 16,
+     "to": 47,
+     "p": "cherusci",
+     "s": "independent"
+    },
+    {
+     "from": 47,
+     "to": 50,
+     "p": "cherusci",
+     "s": "client",
+     "note": "Claudius sends Italicus, nephew of Arminius, as king"
+    },
+    {
+     "from": 50,
+     "to": 100,
+     "p": "cherusci",
+     "s": "independent"
+    },
+    {
+     "from": 100,
+     "to": 235,
+     "p": "germani",
+     "s": "independent"
+    },
+    {
+     "from": 235,
+     "to": 236,
+     "p": "rome",
+     "s": "contested",
+     "note": "Harzhorn battlefield: Maximinus Thrax's army deep in Germany"
+    },
+    {
+     "from": 236,
+     "to": 280,
+     "p": "germani",
+     "s": "independent"
+    },
+    {
+     "from": 280,
+     "to": 641,
+     "p": "saxons",
+     "s": "independent"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Kalkriese is the accepted Varus site but not proven."
+  },
+  {
+   "id": "ge_langobardi",
+   "name": "Langobardi (lower Elbe)",
+   "seed": [
+    10.7,
+    53.0
+   ],
+   "countries": [
+    "DE"
+   ],
+   "zone": {
+    "in117": false
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": 5,
+     "p": "germani",
+     "s": "independent"
+    },
+    {
+     "from": 5,
+     "to": 6,
+     "p": "rome",
+     "s": "contested",
+     "note": "Tiberius' army and fleet reach the Elbe (AD 5)"
+    },
+    {
+     "from": 6,
+     "to": 400,
+     "p": "germani",
+     "s": "independent",
+     "note": "Langobardi of the Bardengau"
+    },
+    {
+     "from": 400,
+     "to": 641,
+     "p": "saxons",
+     "s": "independent"
+    }
+   ],
+   "certainty": "approx",
+   "notes": "Lombard departure from the Elbe is undated (4th-5th c.)."
+  },
+  {
+   "id": "ge_saxons",
+   "name": "Saxones and Angli (Cimbric peninsula south)",
+   "seed": [
+    9.8,
+    54.2
+   ],
+   "countries": [
+    "DE"
+   ],
+   "zone": {
+    "in117": false
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": 280,
+     "p": "germani",
+     "s": "independent",
+     "note": "Saxones in Ptolemy; Angli of Angeln"
+    },
+    {
+     "from": 280,
+     "to": 641,
+     "p": "saxons",
+     "s": "independent",
+     "note": "Angles emigrate to Britain in the 5th c.; Danes press south"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Holstein and Hamburg."
+  },
+  {
+   "id": "ge_bructeri",
+   "name": "Sugambri, Bructeri and Tencteri (Lippe and Ruhr)",
+   "seed": [
+    7.8,
+    51.6
+   ],
+   "countries": [
+    "DE"
+   ],
+   "zone": {
+    "in117": false
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -12,
+     "p": "germani",
+     "s": "independent",
+     "note": "Sugambri defeat Lollius (16 BC)"
+    },
+    {
+     "from": -12,
+     "to": 9,
+     "p": "germani",
+     "s": "occupied",
+     "note": "Drusus (12-9 BC) and Tiberius: Roman camps on the Lippe (Haltern, Oberaden, Anreppen)"
+    },
+    {
+     "from": 9,
+     "to": 16,
+     "p": "germani",
+     "s": "contested",
+     "note": "Varian disaster (AD 9); Germanicus' campaigns 14-16"
+    },
+    {
+     "from": 16,
+     "to": 250,
+     "p": "germani",
+     "s": "independent",
+     "note": "Bructeri: the seeress Veleda (69-77)"
+    },
+    {
+     "from": 250,
+     "to": 481,
+     "p": "franks",
+     "s": "independent"
+    },
+    {
+     "from": 481,
+     "to": 641,
+     "p": "frankish_kingdom",
+     "s": "independent",
+     "note": "Saxons conquer the Boructuarii c.695"
+    }
+   ],
+   "certainty": "approx",
+   "notes": "Merovingian authority east of the Rhine was loose."
+  },
+  {
+   "id": "ge_chatti",
+   "name": "Chatti (Mattium)",
+   "seed": [
+    9.3,
+    51.0
+   ],
+   "countries": [
+    "DE"
+   ],
+   "zone": {
+    "in117": false
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -50,
+     "p": "germani",
+     "s": "independent"
+    },
+    {
+     "from": -50,
+     "to": 15,
+     "p": "chatti",
+     "s": "independent",
+     "note": "Drusus campaigns against the Chatti (10-9 BC)"
+    },
+    {
+     "from": 15,
+     "to": 16,
+     "p": "rome",
+     "s": "contested",
+     "note": "Germanicus burns Mattium"
+    },
+    {
+     "from": 16,
+     "to": 83,
+     "p": "chatti",
+     "s": "independent"
+    },
+    {
+     "from": 83,
+     "to": 85,
+     "p": "rome",
+     "s": "contested",
+     "note": "Domitian's Chattan war"
+    },
+    {
+     "from": 85,
+     "to": 260,
+     "p": "chatti",
+     "s": "independent",
+     "note": "Chatti back Saturninus' revolt (89)"
+    },
+    {
+     "from": 260,
+     "to": 500,
+     "p": "franks",
+     "s": "independent"
+    },
+    {
+     "from": 500,
+     "to": 641,
+     "p": "frankish_kingdom",
+     "s": "independent"
+    }
+   ],
+   "certainty": "approx",
+   "notes": "The Chatti are later the Hessians, inside the Frankish orbit."
+  },
+  {
+   "id": "ge_main",
+   "name": "Hermunduri and Naristi (Main and Naab)",
+   "seed": [
+    10.6,
+    49.9
+   ],
+   "countries": [
+    "DE"
+   ],
+   "zone": {
+    "in117": false
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -100,
+     "p": "gauls",
+     "s": "independent",
+     "note": "Celtic oppida (Staffelberg)"
+    },
+    {
+     "from": -100,
+     "to": -9,
+     "p": "marcomanni",
+     "s": "independent",
+     "note": "Marcomanni on the Main before Maroboduus moved to Bohemia"
+    },
+    {
+     "from": -9,
+     "to": 250,
+     "p": "germani",
+     "s": "independent",
+     "note": "Hermunduri, trading partners admitted to Raetia (Tac. Germ. 41)"
+    },
+    {
+     "from": 250,
+     "to": 413,
+     "p": "burgundians",
+     "s": "independent",
+     "note": "Burgundians on the Main, fighting the Alamanni over salt springs"
+    },
+    {
+     "from": 413,
+     "to": 531,
+     "p": "thuringii",
+     "s": "independent"
+    },
+    {
+     "from": 531,
+     "to": 641,
+     "p": "frankish_kingdom",
+     "s": "independent"
+    }
+   ],
+   "certainty": "approx",
+   "notes": "Franconia north of the Raetian limes; Burgundian and Thuringian phases are approximate."
+  },
+  {
+   "id": "ge_thuringii",
+   "name": "Hermunduri and the Thuringian kingdom (Saale and Unstrut)",
+   "seed": [
+    11.1,
+    51.2
+   ],
+   "countries": [
+    "DE"
+   ],
+   "zone": {
+    "in117": false
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -100,
+     "p": "gauls",
+     "s": "independent"
+    },
+    {
+     "from": -100,
+     "to": 450,
+     "p": "germani",
+     "s": "independent",
+     "note": "Hermunduri"
+    },
+    {
+     "from": 450,
+     "to": 531,
+     "p": "thuringii",
+     "s": "independent",
+     "note": "Kingdom of Bisinus and Hermanafrid"
+    },
+    {
+     "from": 531,
+     "to": 641,
+     "p": "frankish_kingdom",
+     "s": "independent",
+     "note": "Franks destroy Thuringia at the Unstrut (531); Radulf defeats Sigibert III (641)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Slavs settled east of the Saale from c.600."
+  },
+  {
+   "id": "ge_sorbs",
+   "name": "Upper Elbe (later Sorbian land)",
+   "seed": [
+    13.3,
+    51.1
+   ],
+   "countries": [
+    "DE"
+   ],
+   "zone": {
+    "in117": false
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": 450,
+     "p": "germani",
+     "s": "independent"
+    },
+    {
+     "from": 450,
+     "to": 531,
+     "p": "thuringii",
+     "s": "independent"
+    },
+    {
+     "from": 531,
+     "to": 580,
+     "p": "germani",
+     "s": "independent"
+    },
+    {
+     "from": 580,
+     "to": 641,
+     "p": "slavs",
+     "s": "independent",
+     "note": "Sorbs; Dervan dux Surbiorum joins Samo (631)"
+    }
+   ],
+   "certainty": "approx",
+   "notes": "Saxony."
+  },
+  {
+   "id": "ge_semnones",
+   "name": "Semnones (Havel and Spree)",
+   "seed": [
+    13.2,
+    52.5
+   ],
+   "countries": [
+    "DE"
+   ],
+   "zone": {
+    "in117": false
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -100,
+     "p": "germani",
+     "s": "independent"
+    },
+    {
+     "from": -100,
+     "to": 250,
+     "p": "suebi",
+     "s": "independent",
+     "note": "Semnones, the Suebic core with its sacred grove"
+    },
+    {
+     "from": 250,
+     "to": 570,
+     "p": "germani",
+     "s": "independent"
+    },
+    {
+     "from": 570,
+     "to": 641,
+     "p": "slavs",
+     "s": "independent"
+    }
+   ],
+   "certainty": "approx",
+   "notes": "Semnones joined the Juthungi and Alamanni migrations in the 3rd century."
+  },
+  {
+   "id": "ge_varini",
+   "name": "Varini and Rugii (Baltic coast)",
+   "seed": [
+    12.5,
+    53.8
+   ],
+   "countries": [
+    "DE"
+   ],
+   "zone": {
+    "in117": false
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": 600,
+     "p": "germani",
+     "s": "independent"
+    },
+    {
+     "from": 600,
+     "to": 641,
+     "p": "slavs",
+     "s": "independent"
+    }
+   ],
+   "certainty": "approx",
+   "notes": "Mecklenburg; Slavic settlement c.600."
+  },
+  {
+   "id": "al_helvetii_west",
+   "name": "Helvetii west (Aventicum, Noviodunum)",
+   "seed": [
+    7.05,
+    46.75
+   ],
+   "countries": [
+    "CH"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -100,
+     "p": "gauls",
+     "s": "independent",
+     "note": "La Tene"
+    },
+    {
+     "from": -100,
+     "to": -58,
+     "p": "helvetii",
+     "s": "independent"
+    },
+    {
+     "from": -58,
+     "to": -15,
+     "p": "helvetii",
+     "s": "ally",
+     "note": "Sent home after Bibracte (58); Colonia Iulia Equestris"
+    },
+    {
+     "from": -15,
+     "to": 69,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 69,
+     "to": 70,
+     "p": "rome",
+     "s": "contested",
+     "note": "Caecina crushes the Helvetii; Aventicum surrenders"
+    },
+    {
+     "from": 70,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 443,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 443,
+     "to": 476,
+     "p": "burgundians",
+     "s": "ally"
+    },
+    {
+     "from": 476,
+     "to": 534,
+     "p": "burgundians",
+     "s": "independent"
+    },
+    {
+     "from": 534,
+     "to": 641,
+     "p": "frankish_kingdom",
+     "s": "independent"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Western Swiss plateau."
+  },
+  {
+   "id": "al_helvetii_east",
+   "name": "Helvetii east and Rauraci (Vindonissa, Augusta Raurica)",
+   "seed": [
+    8.4,
+    47.35
+   ],
+   "countries": [
+    "CH"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -100,
+     "p": "gauls",
+     "s": "independent"
+    },
+    {
+     "from": -100,
+     "to": -58,
+     "p": "helvetii",
+     "s": "independent"
+    },
+    {
+     "from": -58,
+     "to": -15,
+     "p": "helvetii",
+     "s": "ally",
+     "note": "Augusta Raurica founded 44"
+    },
+    {
+     "from": -15,
+     "to": 69,
+     "p": "rome",
+     "s": "direct",
+     "note": "Legionary base at Vindonissa (from c.17)"
+    },
+    {
+     "from": 69,
+     "to": 70,
+     "p": "rome",
+     "s": "contested"
+    },
+    {
+     "from": 70,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Legionary base at Vindonissa (from c.17)"
+    },
+    {
+     "from": 395,
+     "to": 455,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 455,
+     "to": 537,
+     "p": "alamanni",
+     "s": "independent"
+    },
+    {
+     "from": 537,
+     "to": 641,
+     "p": "frankish_kingdom",
+     "s": "independent"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Rhine-Iller-Danube limes held into the early 5th century."
+  },
+  {
+   "id": "al_alpes_poeninae",
+   "name": "Vallis Poenina (Octodurus)",
+   "seed": [
+    7.55,
+    46.2
+   ],
+   "countries": [
+    "CH"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -57,
+     "p": "alpine_tribes",
+     "s": "independent",
+     "note": "Nantuates, Veragri, Seduni"
+    },
+    {
+     "from": -57,
+     "to": -56,
+     "p": "rome",
+     "s": "contested",
+     "note": "Galba's winter at Octodurus"
+    },
+    {
+     "from": -56,
+     "to": -15,
+     "p": "alpine_tribes",
+     "s": "independent"
+    },
+    {
+     "from": -15,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 443,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 443,
+     "to": 476,
+     "p": "burgundians",
+     "s": "ally"
+    },
+    {
+     "from": 476,
+     "to": 534,
+     "p": "burgundians",
+     "s": "independent",
+     "note": "Agaune abbey founded by Sigismund (515)"
+    },
+    {
+     "from": 534,
+     "to": 641,
+     "p": "frankish_kingdom",
+     "s": "independent"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Valais."
+  },
+  {
+   "id": "al_raetia_curiensis",
+   "name": "Raetia prima (Curia)",
+   "seed": [
+    9.55,
+    46.8
+   ],
+   "countries": [
+    "CH",
+    "LI",
+    "AT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -15,
+     "p": "raeti",
+     "s": "independent"
+    },
+    {
+     "from": -15,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 537,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 537,
+     "to": 641,
+     "p": "frankish_kingdom",
+     "s": "independent",
+     "note": "Victorid praesides under Frankish suzerainty"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Graubünden, Liechtenstein, Vorarlberg."
+  },
+  {
+   "id": "al_breuni",
+   "name": "Breuni and Genauni (Veldidena)",
+   "seed": [
+    11.3,
+    47.2
+   ],
+   "countries": [
+    "AT"
+   ],
+   "zone": {
+    "in117": true
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -15,
+     "p": "raeti",
+     "s": "independent"
+    },
+    {
+     "from": -15,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 537,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 537,
+     "to": 590,
+     "p": "frankish_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 590,
+     "to": 641,
+     "p": "bavarii",
+     "s": "independent"
+    }
+   ],
+   "certainty": "approx",
+   "notes": "Tyrol."
+  },
+  {
+   "id": "al_noricum_med",
+   "name": "Noricum mediterraneum (Virunum, Flavia Solva)",
+   "seed": [
+    14.2,
+    46.85
+   ],
+   "countries": [
+    "AT"
+   ],
+   "zone": {
+    "in117": true
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -170,
+     "p": "norici",
+     "s": "independent",
+     "note": "Taurisci and Norici"
+    },
+    {
+     "from": -170,
+     "to": -113,
+     "p": "norici",
+     "s": "ally",
+     "note": "Hospitium publicum with Rome; Magdalensberg emporium"
+    },
+    {
+     "from": -113,
+     "to": -112,
+     "p": "cimbri_teutones",
+     "s": "contested",
+     "note": "Cimbri defeat Carbo at Noreia"
+    },
+    {
+     "from": -112,
+     "to": -16,
+     "p": "norici",
+     "s": "ally",
+     "note": "Hospitium publicum with Rome; Magdalensberg emporium"
+    },
+    {
+     "from": -16,
+     "to": 170,
+     "p": "rome",
+     "s": "direct",
+     "note": "Kingdom annexed peacefully (16/15 BC)"
+    },
+    {
+     "from": 170,
+     "to": 171,
+     "p": "marcomanni",
+     "s": "contested",
+     "note": "Marcomannic invasion through Noricum"
+    },
+    {
+     "from": 171,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Kingdom annexed peacefully (16/15 BC)"
+    },
+    {
+     "from": 395,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 536,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 536,
+     "to": 568,
+     "p": "frankish_kingdom",
+     "s": "independent",
+     "note": "Theudebert I's claims"
+    },
+    {
+     "from": 568,
+     "to": 595,
+     "p": "slavs",
+     "s": "contested",
+     "note": "Slav and Avar advance; Tassilo I wins 592, Bavarians lose 595"
+    },
+    {
+     "from": 595,
+     "to": 641,
+     "p": "slavs",
+     "s": "independent",
+     "note": "Carantanians (Valuk dux 631)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Carinthia and Styria."
+  },
+  {
+   "id": "al_noricum_ripense",
+   "name": "Noricum ripense (Lauriacum, Ovilava, Iuvavum)",
+   "seed": [
+    13.9,
+    47.9
+   ],
+   "countries": [
+    "AT"
+   ],
+   "zone": {
+    "in117": true
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -170,
+     "p": "norici",
+     "s": "independent",
+     "note": "Taurisci and Norici"
+    },
+    {
+     "from": -170,
+     "to": -16,
+     "p": "norici",
+     "s": "ally",
+     "note": "Hospitium publicum with Rome; Magdalensberg emporium"
+    },
+    {
+     "from": -16,
+     "to": 170,
+     "p": "rome",
+     "s": "direct",
+     "note": "Kingdom annexed peacefully (16/15 BC)"
+    },
+    {
+     "from": 170,
+     "to": 171,
+     "p": "marcomanni",
+     "s": "contested"
+    },
+    {
+     "from": 171,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Kingdom annexed peacefully (16/15 BC)"
+    },
+    {
+     "from": 395,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 488,
+     "p": "odoacer_kingdom",
+     "s": "independent",
+     "note": "Severinus (d. 482); Rugian pressure"
+    },
+    {
+     "from": 488,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "contested",
+     "note": "Evacuation of Noricum ripense (488)"
+    },
+    {
+     "from": 493,
+     "to": 536,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 536,
+     "to": 550,
+     "p": "frankish_kingdom",
+     "s": "contested"
+    },
+    {
+     "from": 550,
+     "to": 641,
+     "p": "bavarii",
+     "s": "independent",
+     "note": "Enns becomes the Bavarian-Avar border"
+    }
+   ],
+   "certainty": "approx",
+   "notes": "Upper Austria south of the Danube and Salzburg."
+  },
+  {
+   "id": "al_carnuntum",
+   "name": "Carnuntum and Vindobona (Pannonia superior west)",
+   "seed": [
+    16.3,
+    48.0
+   ],
+   "countries": [
+    "AT"
+   ],
+   "zone": {
+    "in117": true
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -60,
+     "p": "gauls",
+     "s": "independent",
+     "note": "Boii"
+    },
+    {
+     "from": -60,
+     "to": -15,
+     "p": "norici",
+     "s": "independent",
+     "note": "Carnuntum \"in the kingdom of Noricum\" (Velleius)"
+    },
+    {
+     "from": -15,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Legionary fortress at Carnuntum"
+    },
+    {
+     "from": 395,
+     "to": 433,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 433,
+     "to": 454,
+     "p": "huns",
+     "s": "independent",
+     "note": "Aetius cedes Pannonia to the Huns"
+    },
+    {
+     "from": 454,
+     "to": 473,
+     "p": "ostrogoths",
+     "s": "ally",
+     "note": "Ostrogothic federates in Pannonia"
+    },
+    {
+     "from": 473,
+     "to": 508,
+     "p": "heruli",
+     "s": "independent"
+    },
+    {
+     "from": 508,
+     "to": 568,
+     "p": "lombards",
+     "s": "independent",
+     "note": "Lombards defeat the Heruli (508); settle in Pannonia (526/7)"
+    },
+    {
+     "from": 568,
+     "to": 641,
+     "p": "avars",
+     "s": "independent"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Marcus Aurelius' headquarters 171-173; Severus proclaimed here (193); Conference of Carnuntum (308)."
+  },
+  {
+   "id": "al_rugiland",
+   "name": "North bank of the Danube (later Rugiland)",
+   "seed": [
+    15.6,
+    48.6
+   ],
+   "countries": [
+    "AT"
+   ],
+   "zone": {
+    "in117": false
+   },
+   "control": [
+    {
+     "from": -509,
+     "to": -60,
+     "p": "gauls",
+     "s": "independent"
+    },
+    {
+     "from": -60,
+     "to": -9,
+     "p": "germani",
+     "s": "independent"
+    },
+    {
+     "from": -9,
+     "to": 19,
+     "p": "marcomanni",
+     "s": "independent"
+    },
+    {
+     "from": 19,
+     "to": 166,
+     "p": "marcomanni",
+     "s": "client",
+     "note": "Client kings"
+    },
+    {
+     "from": 166,
+     "to": 180,
+     "p": "marcomanni",
+     "s": "contested",
+     "note": "Marcomannic Wars"
+    },
+    {
+     "from": 180,
+     "to": 400,
+     "p": "marcomanni",
+     "s": "independent"
+    },
+    {
+     "from": 400,
+     "to": 454,
+     "p": "huns",
+     "s": "independent"
+    },
+    {
+     "from": 454,
+     "to": 487,
+     "p": "rugii",
+     "s": "independent",
+     "note": "Rugian kingdom of Feletheus"
+    },
+    {
+     "from": 487,
+     "to": 489,
+     "p": "odoacer_kingdom",
+     "s": "contested",
+     "note": "Odoacer destroys the Rugii"
+    },
+    {
+     "from": 489,
+     "to": 568,
+     "p": "lombards",
+     "s": "independent"
+    },
+    {
+     "from": 568,
+     "to": 641,
+     "p": "avars",
+     "s": "independent"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Waldviertel, Weinviertel, Mühlviertel."
+  },
+  {
+   "id": "al_emona",
+   "name": "Emona and the Julian Alps (Taurisci)",
+   "seed": [
+    14.6,
+    46.1
+   ],
+   "countries": [
+    "SI"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -35,
+     "p": "norici",
+     "s": "independent",
+     "note": "Taurisci; Nauportus emporium"
+    },
+    {
+     "from": -35,
+     "to": 394,
+     "p": "rome",
+     "s": "direct",
+     "note": "Octavian's Illyrian war (35-33); Emona colony c.14"
+    },
+    {
+     "from": 394,
+     "to": 395,
+     "p": "rome",
+     "s": "contested",
+     "note": "Battle of the Frigidus (5-6 Sept 394): Theodosius defeats Eugenius"
+    },
+    {
+     "from": 395,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct",
+     "note": "Octavian's Illyrian war (35-33); Emona colony c.14"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 536,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 536,
+     "to": 548,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 548,
+     "to": 568,
+     "p": "lombards",
+     "s": "independent"
+    },
+    {
+     "from": 568,
+     "to": 590,
+     "p": "avars",
+     "s": "independent"
+    },
+    {
+     "from": 590,
+     "to": 641,
+     "p": "slavs",
+     "s": "independent",
+     "note": "Slavic Carniola"
+    }
+   ],
+   "certainty": "approx",
+   "notes": "Interior Slovenia."
+  }
+ ]
+}

@@ -1,0 +1,1742 @@
+{
+ "regions": [
+  {
+   "id": "br_cantium",
+   "name": "Cantiaci (Durovernum, Rutupiae)",
+   "seed": [
+    0.75,
+    51.2
+   ],
+   "countries": [
+    "GB"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -55,
+     "p": "britons",
+     "s": "independent"
+    },
+    {
+     "from": -55,
+     "to": -53,
+     "p": "rome",
+     "s": "contested",
+     "note": "Caesar's invasions (55 and 54)"
+    },
+    {
+     "from": -53,
+     "to": 43,
+     "p": "britons",
+     "s": "independent"
+    },
+    {
+     "from": 43,
+     "to": 260,
+     "p": "rome",
+     "s": "direct",
+     "note": "Claudian landing at Richborough (43)"
+    },
+    {
+     "from": 260,
+     "to": 274,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Gallic Empire of Postumus and successors"
+    },
+    {
+     "from": 274,
+     "to": 286,
+     "p": "rome",
+     "s": "direct",
+     "note": "Claudian landing at Richborough (43)"
+    },
+    {
+     "from": 286,
+     "to": 296,
+     "p": "britannic_empire",
+     "s": "direct",
+     "note": "Carausius (286-293) and Allectus (293-296)"
+    },
+    {
+     "from": 296,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Claudian landing at Richborough (43)"
+    },
+    {
+     "from": 395,
+     "to": 410,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 410,
+     "to": 449,
+     "p": "britons_sub_roman",
+     "s": "independent",
+     "note": "End of Roman rule (409-410: officials expelled; Honorius' rescript)"
+    },
+    {
+     "from": 449,
+     "to": 455,
+     "p": "anglo_saxons",
+     "s": "contested",
+     "note": "Hengest and Horsa (trad. 449); Aylesford (455)"
+    },
+    {
+     "from": 455,
+     "to": 641,
+     "p": "anglo_saxons",
+     "s": "independent",
+     "note": "Kingdom of Kent; Augustine at Canterbury (597)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Anglo-Saxon Chronicle dates for the 5th century are schematic."
+  },
+  {
+   "id": "br_trinovantes",
+   "name": "Trinovantes (Camulodunum, Londinium)",
+   "seed": [
+    0.3,
+    51.65
+   ],
+   "countries": [
+    "GB"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": 43,
+     "p": "britons",
+     "s": "independent",
+     "note": "Mandubracius allied to Caesar (54); Cunobelinus at Camulodunum"
+    },
+    {
+     "from": 43,
+     "to": 60,
+     "p": "rome",
+     "s": "direct",
+     "note": "Camulodunum taken 43, colony 49"
+    },
+    {
+     "from": 60,
+     "to": 61,
+     "p": "britons",
+     "s": "contested",
+     "note": "Boudican revolt"
+    },
+    {
+     "from": 61,
+     "to": 260,
+     "p": "rome",
+     "s": "direct",
+     "note": "Camulodunum taken 43, colony 49"
+    },
+    {
+     "from": 260,
+     "to": 274,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Gallic Empire of Postumus and successors"
+    },
+    {
+     "from": 274,
+     "to": 286,
+     "p": "rome",
+     "s": "direct",
+     "note": "Camulodunum taken 43, colony 49"
+    },
+    {
+     "from": 286,
+     "to": 296,
+     "p": "britannic_empire",
+     "s": "direct",
+     "note": "Carausius (286-293) and Allectus (293-296)"
+    },
+    {
+     "from": 296,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Camulodunum taken 43, colony 49"
+    },
+    {
+     "from": 395,
+     "to": 410,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 410,
+     "to": 480,
+     "p": "britons_sub_roman",
+     "s": "independent",
+     "note": "End of Roman rule (409-410: officials expelled; Honorius' rescript)"
+    },
+    {
+     "from": 480,
+     "to": 641,
+     "p": "anglo_saxons",
+     "s": "independent",
+     "note": "East Saxons; Mellitus bishop of London (604)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "London falls in this region by geometry."
+  },
+  {
+   "id": "br_catuvellauni",
+   "name": "Catuvellauni (Verulamium)",
+   "seed": [
+    -0.55,
+    51.9
+   ],
+   "countries": [
+    "GB"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -54,
+     "p": "britons",
+     "s": "independent"
+    },
+    {
+     "from": -54,
+     "to": -53,
+     "p": "rome",
+     "s": "contested",
+     "note": "Caesar storms Cassivellaunus' stronghold"
+    },
+    {
+     "from": -53,
+     "to": 43,
+     "p": "britons",
+     "s": "independent"
+    },
+    {
+     "from": 43,
+     "to": 60,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 60,
+     "to": 61,
+     "p": "britons",
+     "s": "contested",
+     "note": "Boudican revolt"
+    },
+    {
+     "from": 61,
+     "to": 260,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 260,
+     "to": 274,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Gallic Empire of Postumus and successors"
+    },
+    {
+     "from": 274,
+     "to": 286,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 286,
+     "to": 296,
+     "p": "britannic_empire",
+     "s": "direct",
+     "note": "Carausius (286-293) and Allectus (293-296)"
+    },
+    {
+     "from": 296,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 410,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 410,
+     "to": 571,
+     "p": "britons_sub_roman",
+     "s": "independent",
+     "note": "End of Roman rule (409-410: officials expelled; Honorius' rescript)"
+    },
+    {
+     "from": 571,
+     "to": 641,
+     "p": "anglo_saxons",
+     "s": "independent",
+     "note": "Bedcanford (571): Limbury, Aylesbury, Bensington, Eynsham taken"
+    }
+   ],
+   "certainty": "approx",
+   "notes": "A long-lived British enclave in the Chilterns is debated."
+  },
+  {
+   "id": "br_regni",
+   "name": "Regni (Noviomagus Reginorum)",
+   "seed": [
+    -0.3,
+    50.95
+   ],
+   "countries": [
+    "GB"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": 43,
+     "p": "britons",
+     "s": "independent"
+    },
+    {
+     "from": 43,
+     "to": 80,
+     "p": "britons",
+     "s": "client",
+     "note": "Togidubnus, \"great king\" (Fishbourne palace)"
+    },
+    {
+     "from": 80,
+     "to": 260,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 260,
+     "to": 274,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Gallic Empire of Postumus and successors"
+    },
+    {
+     "from": 274,
+     "to": 286,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 286,
+     "to": 296,
+     "p": "britannic_empire",
+     "s": "direct",
+     "note": "Carausius (286-293) and Allectus (293-296)"
+    },
+    {
+     "from": 296,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 410,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 410,
+     "to": 477,
+     "p": "britons_sub_roman",
+     "s": "independent",
+     "note": "End of Roman rule (409-410: officials expelled; Honorius' rescript)"
+    },
+    {
+     "from": 477,
+     "to": 491,
+     "p": "anglo_saxons",
+     "s": "contested",
+     "note": "Aelle lands (trad. 477); Anderida stormed (491)"
+    },
+    {
+     "from": 491,
+     "to": 641,
+     "p": "anglo_saxons",
+     "s": "independent",
+     "note": "South Saxons"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "End of Togidubnus' client kingdom c.80 is inferred."
+  },
+  {
+   "id": "br_atrebates",
+   "name": "Atrebates and Belgae (Calleva, Venta Belgarum)",
+   "seed": [
+    -1.4,
+    51.2
+   ],
+   "countries": [
+    "GB"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": 43,
+     "p": "britons",
+     "s": "independent",
+     "note": "Verica flees to Claudius (42/43)"
+    },
+    {
+     "from": 43,
+     "to": 45,
+     "p": "rome",
+     "s": "contested",
+     "note": "Vespasian's campaign; Vectis taken"
+    },
+    {
+     "from": 45,
+     "to": 80,
+     "p": "britons",
+     "s": "client",
+     "note": "Part of Togidubnus' realm"
+    },
+    {
+     "from": 80,
+     "to": 260,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 260,
+     "to": 274,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Gallic Empire of Postumus and successors"
+    },
+    {
+     "from": 274,
+     "to": 286,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 286,
+     "to": 296,
+     "p": "britannic_empire",
+     "s": "direct",
+     "note": "Carausius (286-293) and Allectus (293-296)"
+    },
+    {
+     "from": 296,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 410,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 410,
+     "to": 495,
+     "p": "britons_sub_roman",
+     "s": "independent",
+     "note": "End of Roman rule (409-410: officials expelled; Honorius' rescript)"
+    },
+    {
+     "from": 495,
+     "to": 552,
+     "p": "anglo_saxons",
+     "s": "contested",
+     "note": "Cerdic and Cynric (trad. 495-534); Wight 530"
+    },
+    {
+     "from": 552,
+     "to": 641,
+     "p": "anglo_saxons",
+     "s": "independent",
+     "note": "Searoburh (552), Beranbyrg (556): West Saxons"
+    }
+   ],
+   "certainty": "approx",
+   "notes": "Hampshire, Wiltshire and the Isle of Wight."
+  },
+  {
+   "id": "br_durotriges",
+   "name": "Durotriges (Durnovaria, Lindinis)",
+   "seed": [
+    -2.6,
+    50.95
+   ],
+   "countries": [
+    "GB"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": 43,
+     "p": "britons",
+     "s": "independent"
+    },
+    {
+     "from": 43,
+     "to": 45,
+     "p": "rome",
+     "s": "contested",
+     "note": "Legio II Augusta takes twenty oppida (Maiden Castle, Hod Hill)"
+    },
+    {
+     "from": 45,
+     "to": 260,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 260,
+     "to": 274,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Gallic Empire of Postumus and successors"
+    },
+    {
+     "from": 274,
+     "to": 286,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 286,
+     "to": 296,
+     "p": "britannic_empire",
+     "s": "direct",
+     "note": "Carausius (286-293) and Allectus (293-296)"
+    },
+    {
+     "from": 296,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 410,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 410,
+     "to": 641,
+     "p": "britons_sub_roman",
+     "s": "independent",
+     "note": "End of Roman rule (409-410: officials expelled; Honorius' rescript)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Somerset fell to the West Saxons only after Peonnum (658)."
+  },
+  {
+   "id": "br_dumnonii",
+   "name": "Dumnonii (Isca Dumnoniorum)",
+   "seed": [
+    -4.1,
+    50.6
+   ],
+   "countries": [
+    "GB"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": 49,
+     "p": "britons",
+     "s": "independent"
+    },
+    {
+     "from": 49,
+     "to": 55,
+     "p": "rome",
+     "s": "occupied"
+    },
+    {
+     "from": 55,
+     "to": 260,
+     "p": "rome",
+     "s": "direct",
+     "note": "Legionary fortress at Exeter c.55"
+    },
+    {
+     "from": 260,
+     "to": 274,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Gallic Empire of Postumus and successors"
+    },
+    {
+     "from": 274,
+     "to": 286,
+     "p": "rome",
+     "s": "direct",
+     "note": "Legionary fortress at Exeter c.55"
+    },
+    {
+     "from": 286,
+     "to": 296,
+     "p": "britannic_empire",
+     "s": "direct",
+     "note": "Carausius (286-293) and Allectus (293-296)"
+    },
+    {
+     "from": 296,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Legionary fortress at Exeter c.55"
+    },
+    {
+     "from": 395,
+     "to": 410,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 410,
+     "to": 641,
+     "p": "britons_sub_roman",
+     "s": "independent",
+     "note": "End of Roman rule (409-410: officials expelled; Honorius' rescript)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Dumnonia remained British throughout; Tintagel imports Mediterranean wares."
+  },
+  {
+   "id": "br_dobunni",
+   "name": "Dobunni (Corinium, Glevum)",
+   "seed": [
+    -2.1,
+    51.8
+   ],
+   "countries": [
+    "GB"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": 43,
+     "p": "britons",
+     "s": "independent"
+    },
+    {
+     "from": 43,
+     "to": 47,
+     "p": "britons",
+     "s": "client",
+     "note": "Part of the Dobunni (Bodunni) submit in 43"
+    },
+    {
+     "from": 47,
+     "to": 260,
+     "p": "rome",
+     "s": "direct",
+     "note": "Glevum c.49; colony under Nerva"
+    },
+    {
+     "from": 260,
+     "to": 274,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Gallic Empire of Postumus and successors"
+    },
+    {
+     "from": 274,
+     "to": 286,
+     "p": "rome",
+     "s": "direct",
+     "note": "Glevum c.49; colony under Nerva"
+    },
+    {
+     "from": 286,
+     "to": 296,
+     "p": "britannic_empire",
+     "s": "direct",
+     "note": "Carausius (286-293) and Allectus (293-296)"
+    },
+    {
+     "from": 296,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Glevum c.49; colony under Nerva"
+    },
+    {
+     "from": 395,
+     "to": 410,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 410,
+     "to": 577,
+     "p": "britons_sub_roman",
+     "s": "independent",
+     "note": "End of Roman rule (409-410: officials expelled; Honorius' rescript)"
+    },
+    {
+     "from": 577,
+     "to": 641,
+     "p": "anglo_saxons",
+     "s": "independent",
+     "note": "Dyrham (577): Gloucester, Cirencester and Bath to the West Saxons"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Hwicce under Mercia after Cirencester (628)."
+  },
+  {
+   "id": "br_iceni",
+   "name": "Iceni (Venta Icenorum)",
+   "seed": [
+    1.0,
+    52.55
+   ],
+   "countries": [
+    "GB"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": 43,
+     "p": "britons",
+     "s": "independent"
+    },
+    {
+     "from": 43,
+     "to": 47,
+     "p": "britons",
+     "s": "client",
+     "note": "Prasutagus"
+    },
+    {
+     "from": 47,
+     "to": 48,
+     "p": "britons",
+     "s": "contested",
+     "note": "Iceni resist disarmament by Ostorius Scapula"
+    },
+    {
+     "from": 48,
+     "to": 60,
+     "p": "britons",
+     "s": "client",
+     "note": "Prasutagus"
+    },
+    {
+     "from": 60,
+     "to": 61,
+     "p": "britons",
+     "s": "contested",
+     "note": "Boudican revolt"
+    },
+    {
+     "from": 61,
+     "to": 260,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 260,
+     "to": 274,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Gallic Empire of Postumus and successors"
+    },
+    {
+     "from": 274,
+     "to": 286,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 286,
+     "to": 296,
+     "p": "britannic_empire",
+     "s": "direct",
+     "note": "Carausius (286-293) and Allectus (293-296)"
+    },
+    {
+     "from": 296,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 410,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 410,
+     "to": 450,
+     "p": "britons_sub_roman",
+     "s": "independent",
+     "note": "End of Roman rule (409-410: officials expelled; Honorius' rescript)"
+    },
+    {
+     "from": 450,
+     "to": 641,
+     "p": "anglo_saxons",
+     "s": "independent",
+     "note": "East Angles; Sutton Hoo (c.625)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Early Anglian cemeteries (Spong Hill) start c.420-450."
+  },
+  {
+   "id": "br_corieltauvi",
+   "name": "Corieltauvi (Ratae, Lindum)",
+   "seed": [
+    -0.75,
+    52.95
+   ],
+   "countries": [
+    "GB"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": 43,
+     "p": "britons",
+     "s": "independent"
+    },
+    {
+     "from": 43,
+     "to": 47,
+     "p": "rome",
+     "s": "occupied"
+    },
+    {
+     "from": 47,
+     "to": 260,
+     "p": "rome",
+     "s": "direct",
+     "note": "Fosse Way frontier; Lindum colony c.90"
+    },
+    {
+     "from": 260,
+     "to": 274,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Gallic Empire of Postumus and successors"
+    },
+    {
+     "from": 274,
+     "to": 286,
+     "p": "rome",
+     "s": "direct",
+     "note": "Fosse Way frontier; Lindum colony c.90"
+    },
+    {
+     "from": 286,
+     "to": 296,
+     "p": "britannic_empire",
+     "s": "direct",
+     "note": "Carausius (286-293) and Allectus (293-296)"
+    },
+    {
+     "from": 296,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Fosse Way frontier; Lindum colony c.90"
+    },
+    {
+     "from": 395,
+     "to": 410,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 410,
+     "to": 480,
+     "p": "britons_sub_roman",
+     "s": "independent",
+     "note": "End of Roman rule (409-410: officials expelled; Honorius' rescript)"
+    },
+    {
+     "from": 480,
+     "to": 641,
+     "p": "anglo_saxons",
+     "s": "independent",
+     "note": "Lindsey and the Middle Angles"
+    }
+   ],
+   "certainty": "approx",
+   "notes": "Date of Anglian control is approximate."
+  },
+  {
+   "id": "br_cornovii",
+   "name": "Cornovii (Viroconium)",
+   "seed": [
+    -2.6,
+    52.75
+   ],
+   "countries": [
+    "GB"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": 47,
+     "p": "britons",
+     "s": "independent"
+    },
+    {
+     "from": 47,
+     "to": 50,
+     "p": "rome",
+     "s": "contested",
+     "note": "Scapula's campaigns"
+    },
+    {
+     "from": 50,
+     "to": 260,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 260,
+     "to": 274,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Gallic Empire of Postumus and successors"
+    },
+    {
+     "from": 274,
+     "to": 286,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 286,
+     "to": 296,
+     "p": "britannic_empire",
+     "s": "direct",
+     "note": "Carausius (286-293) and Allectus (293-296)"
+    },
+    {
+     "from": 296,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 410,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 410,
+     "to": 616,
+     "p": "britons_sub_roman",
+     "s": "independent",
+     "note": "End of Roman rule (409-410: officials expelled; Honorius' rescript)"
+    },
+    {
+     "from": 616,
+     "to": 641,
+     "p": "anglo_saxons",
+     "s": "contested",
+     "note": "Chester (616); Mercian expansion under Penda; Pengwern"
+    }
+   ],
+   "certainty": "approx",
+   "notes": "Wroxeter was occupied into the 6th century."
+  },
+  {
+   "id": "br_brigantes_east",
+   "name": "Brigantes east and Parisi (Eboracum, Petuaria)",
+   "seed": [
+    -1.3,
+    54.0
+   ],
+   "countries": [
+    "GB"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": 43,
+     "p": "britons",
+     "s": "independent"
+    },
+    {
+     "from": 43,
+     "to": 69,
+     "p": "brigantes",
+     "s": "client",
+     "note": "Cartimandua; hands Caratacus over (51)"
+    },
+    {
+     "from": 69,
+     "to": 71,
+     "p": "brigantes",
+     "s": "contested",
+     "note": "Venutius ousts Cartimandua"
+    },
+    {
+     "from": 71,
+     "to": 260,
+     "p": "rome",
+     "s": "direct",
+     "note": "Eboracum 71; Constantine proclaimed at York (25 July 306)"
+    },
+    {
+     "from": 260,
+     "to": 274,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Gallic Empire of Postumus and successors"
+    },
+    {
+     "from": 274,
+     "to": 286,
+     "p": "rome",
+     "s": "direct",
+     "note": "Eboracum 71; Constantine proclaimed at York (25 July 306)"
+    },
+    {
+     "from": 286,
+     "to": 296,
+     "p": "britannic_empire",
+     "s": "direct",
+     "note": "Carausius (286-293) and Allectus (293-296)"
+    },
+    {
+     "from": 296,
+     "to": 367,
+     "p": "rome",
+     "s": "direct",
+     "note": "Eboracum 71; Constantine proclaimed at York (25 July 306)"
+    },
+    {
+     "from": 367,
+     "to": 369,
+     "p": "caledonians",
+     "s": "contested",
+     "note": "Barbarica conspiratio: Picts, Scotti, Attacotti and Saxons; Theodosius restores order"
+    },
+    {
+     "from": 369,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Eboracum 71; Constantine proclaimed at York (25 July 306)"
+    },
+    {
+     "from": 395,
+     "to": 410,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 410,
+     "to": 560,
+     "p": "britons_sub_roman",
+     "s": "independent",
+     "note": "End of Roman rule (409-410: officials expelled; Honorius' rescript)"
+    },
+    {
+     "from": 560,
+     "to": 641,
+     "p": "anglo_saxons",
+     "s": "independent",
+     "note": "Deira (Aelle, trad. 560); Elmet British until 617"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Severus died at York (211)."
+  },
+  {
+   "id": "br_brigantes_west",
+   "name": "Brigantes west and Carvetii (Luguvalium)",
+   "seed": [
+    -2.8,
+    54.3
+   ],
+   "countries": [
+    "GB"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": 43,
+     "p": "britons",
+     "s": "independent"
+    },
+    {
+     "from": 43,
+     "to": 69,
+     "p": "brigantes",
+     "s": "client"
+    },
+    {
+     "from": 69,
+     "to": 72,
+     "p": "brigantes",
+     "s": "contested"
+    },
+    {
+     "from": 72,
+     "to": 260,
+     "p": "rome",
+     "s": "direct",
+     "note": "Carlisle fort 72/73"
+    },
+    {
+     "from": 260,
+     "to": 274,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Gallic Empire of Postumus and successors"
+    },
+    {
+     "from": 274,
+     "to": 286,
+     "p": "rome",
+     "s": "direct",
+     "note": "Carlisle fort 72/73"
+    },
+    {
+     "from": 286,
+     "to": 296,
+     "p": "britannic_empire",
+     "s": "direct",
+     "note": "Carausius (286-293) and Allectus (293-296)"
+    },
+    {
+     "from": 296,
+     "to": 367,
+     "p": "rome",
+     "s": "direct",
+     "note": "Carlisle fort 72/73"
+    },
+    {
+     "from": 367,
+     "to": 369,
+     "p": "caledonians",
+     "s": "contested",
+     "note": "Barbarica conspiratio: Picts, Scotti, Attacotti and Saxons; Theodosius restores order"
+    },
+    {
+     "from": 369,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Carlisle fort 72/73"
+    },
+    {
+     "from": 395,
+     "to": 410,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 410,
+     "to": 641,
+     "p": "britons_sub_roman",
+     "s": "independent",
+     "note": "End of Roman rule (409-410: officials expelled; Honorius' rescript)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Rheged, absorbed into Northumbria c.640s by marriage."
+  },
+  {
+   "id": "br_bernicia",
+   "name": "Hadrian's Wall and Bernicia",
+   "seed": [
+    -1.95,
+    55.35
+   ],
+   "countries": [
+    "GB"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": 79,
+     "p": "britons",
+     "s": "independent"
+    },
+    {
+     "from": 79,
+     "to": 105,
+     "p": "rome",
+     "s": "direct",
+     "note": "Agricola; Corbridge"
+    },
+    {
+     "from": 105,
+     "to": 142,
+     "p": "britons",
+     "s": "client",
+     "note": "Beyond the Stanegate; Hadrian's Wall from 122"
+    },
+    {
+     "from": 142,
+     "to": 260,
+     "p": "rome",
+     "s": "direct",
+     "note": "Antonine advance; then outpost forts Bremenium and Habitancum"
+    },
+    {
+     "from": 260,
+     "to": 274,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Gallic Empire of Postumus and successors"
+    },
+    {
+     "from": 274,
+     "to": 286,
+     "p": "rome",
+     "s": "direct",
+     "note": "Antonine advance; then outpost forts Bremenium and Habitancum"
+    },
+    {
+     "from": 286,
+     "to": 296,
+     "p": "britannic_empire",
+     "s": "direct",
+     "note": "Carausius (286-293) and Allectus (293-296)"
+    },
+    {
+     "from": 296,
+     "to": 367,
+     "p": "rome",
+     "s": "direct",
+     "note": "Antonine advance; then outpost forts Bremenium and Habitancum"
+    },
+    {
+     "from": 367,
+     "to": 369,
+     "p": "caledonians",
+     "s": "contested",
+     "note": "Barbarica conspiratio: Picts, Scotti, Attacotti and Saxons; Theodosius restores order"
+    },
+    {
+     "from": 369,
+     "to": 410,
+     "p": "britons",
+     "s": "client",
+     "note": "Outpost forts abandoned after 367"
+    },
+    {
+     "from": 410,
+     "to": 547,
+     "p": "britons_sub_roman",
+     "s": "independent",
+     "note": "End of Roman rule (409-410: officials expelled; Honorius' rescript)"
+    },
+    {
+     "from": 547,
+     "to": 641,
+     "p": "anglo_saxons",
+     "s": "independent",
+     "note": "Ida at Bamburgh (trad. 547)"
+    }
+   ],
+   "certainty": "approx",
+   "notes": "Northumberland and Durham; the Wall crosses the southern part of the region."
+  },
+  {
+   "id": "br_lothian",
+   "name": "Votadini (Gododdin)",
+   "seed": [
+    -2.9,
+    55.85
+   ],
+   "countries": [
+    "GB"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": 80,
+     "p": "britons",
+     "s": "independent"
+    },
+    {
+     "from": 80,
+     "to": 105,
+     "p": "rome",
+     "s": "direct",
+     "note": "Flavian forts (Newstead, Elginhaugh)"
+    },
+    {
+     "from": 105,
+     "to": 142,
+     "p": "britons",
+     "s": "ally",
+     "note": "Friendly Votadini (Traprain Law)"
+    },
+    {
+     "from": 142,
+     "to": 162,
+     "p": "rome",
+     "s": "direct",
+     "note": "Antonine Wall period"
+    },
+    {
+     "from": 162,
+     "to": 410,
+     "p": "britons",
+     "s": "ally",
+     "note": "Traprain Law silver hoard (c.400)"
+    },
+    {
+     "from": 410,
+     "to": 638,
+     "p": "britons_sub_roman",
+     "s": "independent",
+     "note": "Gododdin; Catraeth (c.600)"
+    },
+    {
+     "from": 638,
+     "to": 641,
+     "p": "anglo_saxons",
+     "s": "independent",
+     "note": "Siege of Din Eidyn (638)"
+    }
+   ],
+   "certainty": "approx",
+   "notes": "Votadini relations with Rome are inferred from archaeology."
+  },
+  {
+   "id": "br_novantae",
+   "name": "Novantae and Selgovae (Galloway)",
+   "seed": [
+    -4.0,
+    55.1
+   ],
+   "countries": [
+    "GB"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": 80,
+     "p": "britons",
+     "s": "independent"
+    },
+    {
+     "from": 80,
+     "to": 105,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 105,
+     "to": 142,
+     "p": "britons",
+     "s": "client",
+     "note": "Outpost fort at Birrens"
+    },
+    {
+     "from": 142,
+     "to": 162,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 162,
+     "to": 184,
+     "p": "britons",
+     "s": "client",
+     "note": "Birrens held to c.180"
+    },
+    {
+     "from": 184,
+     "to": 410,
+     "p": "britons",
+     "s": "independent",
+     "note": "Northern tribes cross the Wall (c.180); Ulpius Marcellus"
+    },
+    {
+     "from": 410,
+     "to": 641,
+     "p": "britons_sub_roman",
+     "s": "independent",
+     "note": "Whithorn (Candida Casa)"
+    }
+   ],
+   "certainty": "approx",
+   "notes": "Dumfries and Galloway and Carrick."
+  },
+  {
+   "id": "br_damnonii",
+   "name": "Damnonii (Clyde valley)",
+   "seed": [
+    -4.2,
+    55.8
+   ],
+   "countries": [
+    "GB"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": 81,
+     "p": "britons",
+     "s": "independent"
+    },
+    {
+     "from": 81,
+     "to": 87,
+     "p": "rome",
+     "s": "direct",
+     "note": "Agricola fortifies the Forth-Clyde isthmus (81)"
+    },
+    {
+     "from": 87,
+     "to": 142,
+     "p": "britons",
+     "s": "independent"
+    },
+    {
+     "from": 142,
+     "to": 162,
+     "p": "rome",
+     "s": "direct",
+     "note": "Antonine Wall built from 142, abandoned c.158-162"
+    },
+    {
+     "from": 162,
+     "to": 410,
+     "p": "britons",
+     "s": "independent"
+    },
+    {
+     "from": 410,
+     "to": 641,
+     "p": "britons_sub_roman",
+     "s": "independent",
+     "note": "Alt Clut (Dumbarton)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Antonine Wall forts at Old Kilpatrick, Bearsden, Bar Hill."
+  },
+  {
+   "id": "br_caledonia_south",
+   "name": "Caledonia south (Venicones, Vacomagi: Fife, Strathearn, Tay)",
+   "seed": [
+    -3.4,
+    56.5
+   ],
+   "countries": [
+    "GB"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": 80,
+     "p": "caledonians",
+     "s": "independent"
+    },
+    {
+     "from": 80,
+     "to": 84,
+     "p": "rome",
+     "s": "contested",
+     "note": "Agricola reaches the Tay (80); Mons Graupius (83 or 84)"
+    },
+    {
+     "from": 84,
+     "to": 87,
+     "p": "rome",
+     "s": "occupied",
+     "note": "Inchtuthil fortress and Gask Ridge towers"
+    },
+    {
+     "from": 87,
+     "to": 208,
+     "p": "caledonians",
+     "s": "independent",
+     "note": "Antonine outposts to Bertha (142-c.160)"
+    },
+    {
+     "from": 208,
+     "to": 211,
+     "p": "rome",
+     "s": "contested",
+     "note": "Severus and Caracalla; Carpow"
+    },
+    {
+     "from": 211,
+     "to": 641,
+     "p": "caledonians",
+     "s": "independent",
+     "note": "Picts (from 297)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Mons Graupius may lie in Aberdeenshire (Bennachie), joined to this region."
+  },
+  {
+   "id": "br_caledonia_north",
+   "name": "Caledonia north (Caledonii, Orcades)",
+   "seed": [
+    -4.6,
+    57.6
+   ],
+   "countries": [
+    "GB"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": 641,
+     "p": "caledonians",
+     "s": "independent",
+     "note": "Roman fleet rounds Britain (84)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Highlands and islands, never Roman."
+  },
+  {
+   "id": "br_dal_riata",
+   "name": "Epidii and Dal Riata (Argyll)",
+   "seed": [
+    -5.5,
+    56.2
+   ],
+   "countries": [
+    "GB"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": 500,
+     "p": "caledonians",
+     "s": "independent"
+    },
+    {
+     "from": 500,
+     "to": 641,
+     "p": "hibernians",
+     "s": "independent",
+     "note": "Dal Riata (Fergus Mor, trad. c.500); Columba at Iona (563)"
+    }
+   ],
+   "certainty": "traditional",
+   "notes": "Irish settlement of Argyll is traditional and debated."
+  },
+  {
+   "id": "br_ordovices",
+   "name": "Ordovices and Deceangli (Segontium, Mona)",
+   "seed": [
+    -3.75,
+    52.85
+   ],
+   "countries": [
+    "GB"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": 48,
+     "p": "britons",
+     "s": "independent"
+    },
+    {
+     "from": 48,
+     "to": 78,
+     "p": "rome",
+     "s": "contested",
+     "note": "Caratacus' last stand (51); Paulinus on Mona (60); Agricola (77/78)"
+    },
+    {
+     "from": 78,
+     "to": 260,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 260,
+     "to": 274,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Gallic Empire of Postumus and successors"
+    },
+    {
+     "from": 274,
+     "to": 286,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 286,
+     "to": 296,
+     "p": "britannic_empire",
+     "s": "direct",
+     "note": "Carausius (286-293) and Allectus (293-296)"
+    },
+    {
+     "from": 296,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 410,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 410,
+     "to": 641,
+     "p": "britons_sub_roman",
+     "s": "independent",
+     "note": "End of Roman rule (409-410: officials expelled; Honorius' rescript)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Gwynedd later claimed descent from Cunedda."
+  },
+  {
+   "id": "br_silures",
+   "name": "Silures and Demetae (Isca, Venta Silurum, Moridunum)",
+   "seed": [
+    -3.5,
+    51.75
+   ],
+   "countries": [
+    "GB"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": 47,
+     "p": "britons",
+     "s": "independent"
+    },
+    {
+     "from": 47,
+     "to": 75,
+     "p": "rome",
+     "s": "contested",
+     "note": "Silures defeat a legion (52); Frontinus (74-75)"
+    },
+    {
+     "from": 75,
+     "to": 260,
+     "p": "rome",
+     "s": "direct",
+     "note": "Caerleon fortress 75"
+    },
+    {
+     "from": 260,
+     "to": 274,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Gallic Empire of Postumus and successors"
+    },
+    {
+     "from": 274,
+     "to": 286,
+     "p": "rome",
+     "s": "direct",
+     "note": "Caerleon fortress 75"
+    },
+    {
+     "from": 286,
+     "to": 296,
+     "p": "britannic_empire",
+     "s": "direct",
+     "note": "Carausius (286-293) and Allectus (293-296)"
+    },
+    {
+     "from": 296,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Caerleon fortress 75"
+    },
+    {
+     "from": 395,
+     "to": 410,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 410,
+     "to": 641,
+     "p": "britons_sub_roman",
+     "s": "independent",
+     "note": "End of Roman rule (409-410: officials expelled; Honorius' rescript)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Irish (Deisi) settled in Dyfed in the 5th century."
+  },
+  {
+   "id": "br_ulaid",
+   "name": "Northern Ireland and Man (Ulaid, Mona/Manavia)",
+   "seed": [
+    -6.5,
+    54.6
+   ],
+   "countries": [
+    "GB",
+    "IE",
+    "IM"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": 641,
+     "p": "hibernians",
+     "s": "independent",
+     "note": "Edwin of Northumbria subjects Man (620s)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Isle of Man is included for convenience."
+  },
+  {
+   "id": "br_hibernia",
+   "name": "Hibernia (Laigin, Mumu, Connachta)",
+   "seed": [
+    -8.0,
+    53.0
+   ],
+   "countries": [
+    "IE"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": 641,
+     "p": "hibernians",
+     "s": "independent",
+     "note": "Agricola thought one legion could take Ireland; Patrick 5th c."
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Drumanagh finds suggest trade, not conquest."
+  }
+ ]
+}

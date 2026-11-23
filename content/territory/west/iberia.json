@@ -1,0 +1,2663 @@
+{
+ "regions": [
+  {
+   "id": "es_emporiae",
+   "name": "Indicetes and Laietani (Emporiae, Barcino)",
+   "seed": [
+    2.4,
+    41.9
+   ],
+   "countries": [
+    "ES"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -218,
+     "p": "iberians",
+     "s": "independent",
+     "note": "Greek Emporion and Iberian Indika"
+    },
+    {
+     "from": -218,
+     "to": -197,
+     "p": "rome",
+     "s": "occupied",
+     "note": "Cn. Scipio lands at Emporion (218); Cissa"
+    },
+    {
+     "from": -197,
+     "to": -195,
+     "p": "iberians",
+     "s": "contested",
+     "note": "Cato's campaign from Emporiae (195)"
+    },
+    {
+     "from": -195,
+     "to": 260,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 260,
+     "to": 269,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Hispania under the Gallic emperors until c.269"
+    },
+    {
+     "from": 269,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 415,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 415,
+     "to": 416,
+     "p": "visigoths",
+     "s": "occupied",
+     "note": "Athaulf murdered at Barcelona (415)"
+    },
+    {
+     "from": 416,
+     "to": 472,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 472,
+     "to": 641,
+     "p": "visigothic_kingdom",
+     "s": "independent",
+     "note": "Euric's generals take Pamplona, Zaragoza and the Tarraconensis coast (472-475)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Barcelona was a Visigothic royal seat again under Gesalec and Amalaric (507-531)."
+  },
+  {
+   "id": "es_ilergetes",
+   "name": "Ilergetes and the Pyrenees (Ilerda, Osca)",
+   "seed": [
+    0.6,
+    42.0
+   ],
+   "countries": [
+    "ES",
+    "AD"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -218,
+     "p": "iberians",
+     "s": "independent"
+    },
+    {
+     "from": -218,
+     "to": -209,
+     "p": "carthage",
+     "s": "contested"
+    },
+    {
+     "from": -209,
+     "to": -206,
+     "p": "iberians",
+     "s": "ally",
+     "note": "Indibilis and Mandonius join Scipio"
+    },
+    {
+     "from": -206,
+     "to": -205,
+     "p": "iberians",
+     "s": "contested",
+     "note": "Their revolt; Indibilis killed (205)"
+    },
+    {
+     "from": -205,
+     "to": -197,
+     "p": "rome",
+     "s": "occupied"
+    },
+    {
+     "from": -197,
+     "to": -195,
+     "p": "iberians",
+     "s": "contested"
+    },
+    {
+     "from": -195,
+     "to": -80,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": -80,
+     "to": -72,
+     "p": "rome",
+     "s": "contested",
+     "note": "Sertorius' capital and school at Osca"
+    },
+    {
+     "from": -72,
+     "to": -49,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": -49,
+     "to": -48,
+     "p": "rome",
+     "s": "contested",
+     "note": "Caesar's Ilerda campaign (49)"
+    },
+    {
+     "from": -48,
+     "to": 260,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 260,
+     "to": 269,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Hispania under the Gallic emperors until c.269"
+    },
+    {
+     "from": 269,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 449,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 449,
+     "to": 454,
+     "p": "suebic_kingdom",
+     "s": "contested",
+     "note": "Rechiar and the Bacaudae of Basilius sack Ilerda (449)"
+    },
+    {
+     "from": 454,
+     "to": 472,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 472,
+     "to": 641,
+     "p": "visigothic_kingdom",
+     "s": "independent",
+     "note": "Euric's generals take Pamplona, Zaragoza and the Tarraconensis coast (472-475)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Andorra is included."
+  },
+  {
+   "id": "es_tarraco",
+   "name": "Cessetani and Ilercavones (Tarraco, Dertosa)",
+   "seed": [
+    0.9,
+    40.95
+   ],
+   "countries": [
+    "ES"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -218,
+     "p": "iberians",
+     "s": "independent"
+    },
+    {
+     "from": -218,
+     "to": -197,
+     "p": "rome",
+     "s": "occupied",
+     "note": "Scipionic base at Tarraco"
+    },
+    {
+     "from": -197,
+     "to": -195,
+     "p": "iberians",
+     "s": "contested"
+    },
+    {
+     "from": -195,
+     "to": 260,
+     "p": "rome",
+     "s": "direct",
+     "note": "Capital of Hispania Citerior / Tarraconensis"
+    },
+    {
+     "from": 260,
+     "to": 262,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Hispania under the Gallic emperors until c.269"
+    },
+    {
+     "from": 262,
+     "to": 263,
+     "p": "franks",
+     "s": "contested",
+     "note": "Frankish raiders sack Tarraco (c.262)"
+    },
+    {
+     "from": 263,
+     "to": 269,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Hispania under the Gallic emperors until c.269"
+    },
+    {
+     "from": 269,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Capital of Hispania Citerior / Tarraconensis"
+    },
+    {
+     "from": 395,
+     "to": 472,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 472,
+     "to": 641,
+     "p": "visigothic_kingdom",
+     "s": "independent",
+     "note": "Euric's generals take Pamplona, Zaragoza and the Tarraconensis coast (472-475)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Augustus wintered at Tarraco (26-25 BC)."
+  },
+  {
+   "id": "es_edetani",
+   "name": "Edetani (Saguntum, Valentia)",
+   "seed": [
+    -0.6,
+    39.45
+   ],
+   "countries": [
+    "ES"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -219,
+     "p": "iberians",
+     "s": "independent",
+     "note": "Saguntum a friend of Rome (c.231-226)"
+    },
+    {
+     "from": -219,
+     "to": -212,
+     "p": "carthage",
+     "s": "independent",
+     "note": "Hannibal takes Saguntum after eight months (219)"
+    },
+    {
+     "from": -212,
+     "to": -209,
+     "p": "rome",
+     "s": "contested",
+     "note": "Saguntum retaken"
+    },
+    {
+     "from": -209,
+     "to": -197,
+     "p": "rome",
+     "s": "occupied"
+    },
+    {
+     "from": -197,
+     "to": -80,
+     "p": "rome",
+     "s": "direct",
+     "note": "Valentia founded 138 for veterans of the Lusitanian wars"
+    },
+    {
+     "from": -80,
+     "to": -72,
+     "p": "rome",
+     "s": "contested",
+     "note": "Pompey destroys Valentia (75); Sucro and Saguntum"
+    },
+    {
+     "from": -72,
+     "to": 260,
+     "p": "rome",
+     "s": "direct",
+     "note": "Valentia founded 138 for veterans of the Lusitanian wars"
+    },
+    {
+     "from": 260,
+     "to": 269,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Hispania under the Gallic emperors until c.269"
+    },
+    {
+     "from": 269,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Valentia founded 138 for veterans of the Lusitanian wars"
+    },
+    {
+     "from": 395,
+     "to": 472,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 472,
+     "to": 641,
+     "p": "visigothic_kingdom",
+     "s": "independent",
+     "note": "Euric's generals take Pamplona, Zaragoza and the Tarraconensis coast (472-475)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Castellón and Teruel are joined here."
+  },
+  {
+   "id": "es_carthago_nova",
+   "name": "Contestani and Carthago Nova (Mastia, Ilici)",
+   "seed": [
+    -1.2,
+    38.1
+   ],
+   "countries": [
+    "ES"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -230,
+     "p": "iberians",
+     "s": "independent",
+     "note": "Mastia"
+    },
+    {
+     "from": -230,
+     "to": -209,
+     "p": "carthage",
+     "s": "independent",
+     "note": "Hasdrubal founds Qart Hadasht (228/7)"
+    },
+    {
+     "from": -209,
+     "to": -197,
+     "p": "rome",
+     "s": "occupied",
+     "note": "Scipio storms New Carthage (209)"
+    },
+    {
+     "from": -197,
+     "to": -80,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": -80,
+     "to": -72,
+     "p": "rome",
+     "s": "contested",
+     "note": "Sertorian naval base at Dianium"
+    },
+    {
+     "from": -72,
+     "to": 260,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 260,
+     "to": 269,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Hispania under the Gallic emperors until c.269"
+    },
+    {
+     "from": 269,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 409,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 409,
+     "to": 411,
+     "p": "vandals",
+     "s": "contested"
+    },
+    {
+     "from": 411,
+     "to": 418,
+     "p": "alans",
+     "s": "independent",
+     "note": "Alans allotted Carthaginiensis and Lusitania"
+    },
+    {
+     "from": 418,
+     "to": 422,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 422,
+     "to": 429,
+     "p": "vandals",
+     "s": "contested",
+     "note": "Vandals sack Carthago Nova (425)"
+    },
+    {
+     "from": 429,
+     "to": 441,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 441,
+     "to": 456,
+     "p": "suebic_kingdom",
+     "s": "contested",
+     "note": "Suebic raids"
+    },
+    {
+     "from": 456,
+     "to": 475,
+     "p": "visigothic_kingdom",
+     "s": "ally",
+     "note": "Visigoths campaign as Roman federates"
+    },
+    {
+     "from": 475,
+     "to": 552,
+     "p": "visigothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 552,
+     "to": 624,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Spania: Liberius' expedition (552); Cartagena capital"
+    },
+    {
+     "from": 624,
+     "to": 641,
+     "p": "visigothic_kingdom",
+     "s": "independent",
+     "note": "Suinthila expels the last Byzantines (c.624-625)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Alicante and Albacete are joined here."
+  },
+  {
+   "id": "es_celtiberia",
+   "name": "Celtiberia (Numantia, Segeda, Segobriga, Salduie)",
+   "seed": [
+    -2.2,
+    41.0
+   ],
+   "countries": [
+    "ES"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -195,
+     "p": "celtiberians",
+     "s": "independent"
+    },
+    {
+     "from": -195,
+     "to": -179,
+     "p": "rome",
+     "s": "contested",
+     "note": "Cato's raid (195); Fulvius Flaccus (181)"
+    },
+    {
+     "from": -179,
+     "to": -153,
+     "p": "celtiberians",
+     "s": "ally",
+     "note": "Treaties of Ti. Sempronius Gracchus (179)"
+    },
+    {
+     "from": -153,
+     "to": -151,
+     "p": "rome",
+     "s": "contested",
+     "note": "Segeda's walls; consuls take office on 1 January from 153"
+    },
+    {
+     "from": -151,
+     "to": -143,
+     "p": "celtiberians",
+     "s": "ally"
+    },
+    {
+     "from": -143,
+     "to": -133,
+     "p": "rome",
+     "s": "contested",
+     "note": "Numantine War; Scipio Aemilianus takes Numantia (133)"
+    },
+    {
+     "from": -133,
+     "to": -80,
+     "p": "rome",
+     "s": "direct",
+     "note": "Caesaraugusta colony c.14 BC"
+    },
+    {
+     "from": -80,
+     "to": -72,
+     "p": "rome",
+     "s": "contested",
+     "note": "Sertorian War (80-72)"
+    },
+    {
+     "from": -72,
+     "to": 260,
+     "p": "rome",
+     "s": "direct",
+     "note": "Caesaraugusta colony c.14 BC"
+    },
+    {
+     "from": 260,
+     "to": 269,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Hispania under the Gallic emperors until c.269"
+    },
+    {
+     "from": 269,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Caesaraugusta colony c.14 BC"
+    },
+    {
+     "from": 395,
+     "to": 441,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 441,
+     "to": 454,
+     "p": "rome_west",
+     "s": "contested",
+     "note": "Bacaudae of Tarraconensis (Tarazona 449); Frederic crushes them 454"
+    },
+    {
+     "from": 454,
+     "to": 472,
+     "p": "rome_west",
+     "s": "direct",
+     "note": "Caesaraugusta colony c.14 BC"
+    },
+    {
+     "from": 472,
+     "to": 641,
+     "p": "visigothic_kingdom",
+     "s": "independent",
+     "note": "Euric's generals take Pamplona, Zaragoza and the Tarraconensis coast (472-475)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Zaragoza, Soria, Guadalajara, Cuenca."
+  },
+  {
+   "id": "es_berones",
+   "name": "Berones and the upper Ebro (Calagurris, Gracchurris)",
+   "seed": [
+    -2.2,
+    42.35
+   ],
+   "countries": [
+    "ES"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -181,
+     "p": "celtiberians",
+     "s": "independent"
+    },
+    {
+     "from": -181,
+     "to": -179,
+     "p": "rome",
+     "s": "contested",
+     "note": "Gracchurris founded (179)"
+    },
+    {
+     "from": -179,
+     "to": -133,
+     "p": "celtiberians",
+     "s": "ally"
+    },
+    {
+     "from": -133,
+     "to": -76,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": -76,
+     "to": -72,
+     "p": "rome",
+     "s": "contested",
+     "note": "Sertorian Calagurris starves under siege (72)"
+    },
+    {
+     "from": -72,
+     "to": 260,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 260,
+     "to": 269,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Hispania under the Gallic emperors until c.269"
+    },
+    {
+     "from": 269,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 449,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 449,
+     "to": 454,
+     "p": "rome_west",
+     "s": "contested"
+    },
+    {
+     "from": 454,
+     "to": 472,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 472,
+     "to": 641,
+     "p": "visigothic_kingdom",
+     "s": "independent",
+     "note": "Euric's generals take Pamplona, Zaragoza and the Tarraconensis coast (472-475)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "La Rioja and Álava; Vascon raids into the lowlands throughout the 6th century."
+  },
+  {
+   "id": "es_vascones",
+   "name": "Vascones (Pompaelo, saltus Vasconum)",
+   "seed": [
+    -1.8,
+    43.0
+   ],
+   "countries": [
+    "ES"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -76,
+     "p": "vascones",
+     "s": "independent"
+    },
+    {
+     "from": -76,
+     "to": -29,
+     "p": "vascones",
+     "s": "ally",
+     "note": "Allies of Pompey; Pompaelo founded 75/74"
+    },
+    {
+     "from": -29,
+     "to": 260,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 260,
+     "to": 269,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Hispania under the Gallic emperors until c.269"
+    },
+    {
+     "from": 269,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 409,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 409,
+     "to": 641,
+     "p": "vascones",
+     "s": "independent",
+     "note": "Visigothic campaigns: Leovigild (581, Victoriacum), Gundemar, Suinthila (621)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Pamplona itself was Visigothic from 472."
+  },
+  {
+   "id": "es_cantabri",
+   "name": "Cantabri and Autrigones (Juliobriga)",
+   "seed": [
+    -4.0,
+    43.1
+   ],
+   "countries": [
+    "ES"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -29,
+     "p": "cantabri_astures",
+     "s": "independent"
+    },
+    {
+     "from": -29,
+     "to": -19,
+     "p": "rome",
+     "s": "contested",
+     "note": "Cantabrian War: Augustus (26-25), Mons Vindius, Aracillum; Agrippa (19)"
+    },
+    {
+     "from": -19,
+     "to": 260,
+     "p": "rome",
+     "s": "direct",
+     "note": "Legio IV Macedonica at Pisoraca"
+    },
+    {
+     "from": 260,
+     "to": 269,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Hispania under the Gallic emperors until c.269"
+    },
+    {
+     "from": 269,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Legio IV Macedonica at Pisoraca"
+    },
+    {
+     "from": 395,
+     "to": 409,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 409,
+     "to": 574,
+     "p": "cantabrian_senate",
+     "s": "independent",
+     "note": "Local senate of Cantabria (Vita Aemiliani)"
+    },
+    {
+     "from": 574,
+     "to": 641,
+     "p": "visigothic_kingdom",
+     "s": "independent",
+     "note": "Leovigild takes Amaya (574)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Burgos falls in this region by geometry."
+  },
+  {
+   "id": "es_astures",
+   "name": "Astures (Asturica Augusta, Legio)",
+   "seed": [
+    -5.9,
+    42.95
+   ],
+   "countries": [
+    "ES"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -29,
+     "p": "cantabri_astures",
+     "s": "independent"
+    },
+    {
+     "from": -29,
+     "to": -19,
+     "p": "rome",
+     "s": "contested",
+     "note": "Lancia (25); revolts 22 and 19"
+    },
+    {
+     "from": -19,
+     "to": 260,
+     "p": "rome",
+     "s": "direct",
+     "note": "Gold mines of Las Médulas; Legio VII Gemina at León (74)"
+    },
+    {
+     "from": 260,
+     "to": 269,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Hispania under the Gallic emperors until c.269"
+    },
+    {
+     "from": 269,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Gold mines of Las Médulas; Legio VII Gemina at León (74)"
+    },
+    {
+     "from": 395,
+     "to": 409,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 409,
+     "to": 411,
+     "p": "vandals",
+     "s": "contested"
+    },
+    {
+     "from": 411,
+     "to": 585,
+     "p": "suebic_kingdom",
+     "s": "independent",
+     "note": "Visigoths sack Astorga (457)"
+    },
+    {
+     "from": 585,
+     "to": 641,
+     "p": "visigothic_kingdom",
+     "s": "independent",
+     "note": "Leovigild annexes the Suebic kingdom (585)"
+    }
+   ],
+   "certainty": "approx",
+   "notes": "Asturian mountain communities were barely governed after 409."
+  },
+  {
+   "id": "es_callaeci",
+   "name": "Callaeci Lucenses (Lucus Augusti, Brigantium)",
+   "seed": [
+    -8.0,
+    42.85
+   ],
+   "countries": [
+    "ES"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -29,
+     "p": "callaeci",
+     "s": "independent",
+     "note": "Caesar reaches Brigantium by sea (61)"
+    },
+    {
+     "from": -29,
+     "to": -19,
+     "p": "rome",
+     "s": "contested",
+     "note": "Mons Medullius (26/25)"
+    },
+    {
+     "from": -19,
+     "to": 260,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 260,
+     "to": 269,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Hispania under the Gallic emperors until c.269"
+    },
+    {
+     "from": 269,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 409,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 409,
+     "to": 411,
+     "p": "vandals",
+     "s": "contested"
+    },
+    {
+     "from": 411,
+     "to": 419,
+     "p": "vandals",
+     "s": "independent",
+     "note": "Hasdingi Vandals in Gallaecia; Nervasian mountains (419)"
+    },
+    {
+     "from": 419,
+     "to": 585,
+     "p": "suebic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 585,
+     "to": 641,
+     "p": "visigothic_kingdom",
+     "s": "independent"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Galicia."
+  },
+  {
+   "id": "es_vaccaei",
+   "name": "Vaccaei (Pallantia, Cauca, Septimanca)",
+   "seed": [
+    -4.6,
+    41.85
+   ],
+   "countries": [
+    "ES"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -220,
+     "p": "vaccaei_vettones",
+     "s": "independent"
+    },
+    {
+     "from": -220,
+     "to": -219,
+     "p": "carthage",
+     "s": "contested",
+     "note": "Hannibal takes Arbocala"
+    },
+    {
+     "from": -219,
+     "to": -151,
+     "p": "vaccaei_vettones",
+     "s": "independent"
+    },
+    {
+     "from": -151,
+     "to": -133,
+     "p": "rome",
+     "s": "contested",
+     "note": "Lucullus' massacre at Cauca (151); Pallantia besieged"
+    },
+    {
+     "from": -133,
+     "to": -76,
+     "p": "vaccaei_vettones",
+     "s": "ally"
+    },
+    {
+     "from": -76,
+     "to": -72,
+     "p": "rome",
+     "s": "contested",
+     "note": "Pompey at Pallantia and Cauca"
+    },
+    {
+     "from": -72,
+     "to": -56,
+     "p": "vaccaei_vettones",
+     "s": "ally"
+    },
+    {
+     "from": -56,
+     "to": -29,
+     "p": "rome",
+     "s": "contested",
+     "note": "Metellus Nepos (56); Statilius Taurus (29)"
+    },
+    {
+     "from": -29,
+     "to": 260,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 260,
+     "to": 269,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Hispania under the Gallic emperors until c.269"
+    },
+    {
+     "from": 269,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 409,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 409,
+     "to": 456,
+     "p": "suebic_kingdom",
+     "s": "contested"
+    },
+    {
+     "from": 456,
+     "to": 475,
+     "p": "visigothic_kingdom",
+     "s": "ally",
+     "note": "Theodoric II defeats Rechiar at the Orbigo (5 Oct 456)"
+    },
+    {
+     "from": 475,
+     "to": 641,
+     "p": "visigothic_kingdom",
+     "s": "independent"
+    }
+   ],
+   "certainty": "approx",
+   "notes": "Vaccaean status 133-56 is inferred."
+  },
+  {
+   "id": "es_vettones",
+   "name": "Vettones (Salmantica, Obila)",
+   "seed": [
+    -5.5,
+    40.6
+   ],
+   "countries": [
+    "ES"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -220,
+     "p": "vaccaei_vettones",
+     "s": "independent"
+    },
+    {
+     "from": -220,
+     "to": -219,
+     "p": "carthage",
+     "s": "contested",
+     "note": "Hannibal takes Helmantica"
+    },
+    {
+     "from": -219,
+     "to": -155,
+     "p": "vaccaei_vettones",
+     "s": "independent"
+    },
+    {
+     "from": -155,
+     "to": -138,
+     "p": "lusitanians",
+     "s": "contested",
+     "note": "Lusitanian wars"
+    },
+    {
+     "from": -138,
+     "to": -80,
+     "p": "vaccaei_vettones",
+     "s": "ally"
+    },
+    {
+     "from": -80,
+     "to": -72,
+     "p": "rome",
+     "s": "contested",
+     "note": "Sertorian War (80-72)"
+    },
+    {
+     "from": -72,
+     "to": -61,
+     "p": "vaccaei_vettones",
+     "s": "ally"
+    },
+    {
+     "from": -61,
+     "to": -60,
+     "p": "rome",
+     "s": "contested",
+     "note": "Caesar's campaign as governor"
+    },
+    {
+     "from": -60,
+     "to": 260,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 260,
+     "to": 269,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Hispania under the Gallic emperors until c.269"
+    },
+    {
+     "from": 269,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 409,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 409,
+     "to": 456,
+     "p": "suebic_kingdom",
+     "s": "contested"
+    },
+    {
+     "from": 456,
+     "to": 573,
+     "p": "visigothic_kingdom",
+     "s": "contested",
+     "note": "Local Hispano-Roman communities beyond royal control"
+    },
+    {
+     "from": 573,
+     "to": 641,
+     "p": "visigothic_kingdom",
+     "s": "independent",
+     "note": "Leovigild conquers Sabaria (573)"
+    }
+   ],
+   "certainty": "approx",
+   "notes": "Sabaria lay around Zamora and Salamanca."
+  },
+  {
+   "id": "es_carpetania",
+   "name": "Carpetani and Oretani (Toletum, Complutum)",
+   "seed": [
+    -3.8,
+    39.75
+   ],
+   "countries": [
+    "ES"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -220,
+     "p": "celtiberians",
+     "s": "independent"
+    },
+    {
+     "from": -220,
+     "to": -209,
+     "p": "carthage",
+     "s": "independent",
+     "note": "Hannibal defeats Carpetani on the Tagus (220)"
+    },
+    {
+     "from": -209,
+     "to": -193,
+     "p": "celtiberians",
+     "s": "independent"
+    },
+    {
+     "from": -193,
+     "to": -179,
+     "p": "rome",
+     "s": "contested",
+     "note": "Fulvius Nobilior takes Toletum (193)"
+    },
+    {
+     "from": -179,
+     "to": -147,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": -147,
+     "to": -139,
+     "p": "lusitanians",
+     "s": "contested",
+     "note": "Viriathus raids"
+    },
+    {
+     "from": -139,
+     "to": 260,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 260,
+     "to": 269,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Hispania under the Gallic emperors until c.269"
+    },
+    {
+     "from": 269,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 409,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 409,
+     "to": 418,
+     "p": "alans",
+     "s": "contested"
+    },
+    {
+     "from": 418,
+     "to": 441,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 441,
+     "to": 456,
+     "p": "suebic_kingdom",
+     "s": "contested"
+    },
+    {
+     "from": 456,
+     "to": 475,
+     "p": "visigothic_kingdom",
+     "s": "ally",
+     "note": "Visigoths campaign as Roman federates"
+    },
+    {
+     "from": 475,
+     "to": 641,
+     "p": "visigothic_kingdom",
+     "s": "independent"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Toledo became the Visigothic capital under Athanagild and Leovigild."
+  },
+  {
+   "id": "es_hispalis",
+   "name": "Turdetani (Hispalis, Italica, Ilipa)",
+   "seed": [
+    -5.7,
+    37.5
+   ],
+   "countries": [
+    "ES"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -237,
+     "p": "turdetani",
+     "s": "independent",
+     "note": "Tartessian heritage"
+    },
+    {
+     "from": -237,
+     "to": -206,
+     "p": "carthage",
+     "s": "independent",
+     "note": "Hamilcar's conquest of Turdetania"
+    },
+    {
+     "from": -206,
+     "to": -197,
+     "p": "rome",
+     "s": "occupied",
+     "note": "Ilipa (206); Italica founded"
+    },
+    {
+     "from": -197,
+     "to": -195,
+     "p": "turdetani",
+     "s": "contested"
+    },
+    {
+     "from": -195,
+     "to": -147,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": -147,
+     "to": -139,
+     "p": "lusitanians",
+     "s": "contested",
+     "note": "Viriathus raids"
+    },
+    {
+     "from": -139,
+     "to": -46,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": -46,
+     "to": -45,
+     "p": "rome",
+     "s": "contested",
+     "note": "Caesar's war with Pompey's sons; Munda (17 Mar 45)"
+    },
+    {
+     "from": -45,
+     "to": 260,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 260,
+     "to": 269,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Hispania under the Gallic emperors until c.269"
+    },
+    {
+     "from": 269,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 409,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 409,
+     "to": 411,
+     "p": "vandals",
+     "s": "contested",
+     "note": "Vandals, Alans and Suebi enter Spain (Sept/Oct 409)"
+    },
+    {
+     "from": 411,
+     "to": 418,
+     "p": "vandals",
+     "s": "independent",
+     "note": "Silingi Vandals allotted Baetica (411)"
+    },
+    {
+     "from": 418,
+     "to": 422,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 422,
+     "to": 429,
+     "p": "vandals",
+     "s": "independent",
+     "note": "Hasdingi in Baetica: Castinus defeated (422), Hispalis and Carthago Nova sacked (425)"
+    },
+    {
+     "from": 429,
+     "to": 439,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 439,
+     "to": 456,
+     "p": "suebic_kingdom",
+     "s": "independent",
+     "note": "Rechila takes Merida (439) and Seville (441)"
+    },
+    {
+     "from": 456,
+     "to": 475,
+     "p": "visigothic_kingdom",
+     "s": "ally",
+     "note": "Visigoths campaign as Roman federates"
+    },
+    {
+     "from": 475,
+     "to": 579,
+     "p": "visigothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 579,
+     "to": 584,
+     "p": "visigothic_kingdom",
+     "s": "contested",
+     "note": "Hermenegild's rebellion at Seville"
+    },
+    {
+     "from": 584,
+     "to": 641,
+     "p": "visigothic_kingdom",
+     "s": "independent"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Western Huelva goes to the Cynetes region."
+  },
+  {
+   "id": "es_gades",
+   "name": "Gades and Asido",
+   "seed": [
+    -5.8,
+    36.55
+   ],
+   "countries": [
+    "ES",
+    "GI"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -206,
+     "p": "carthage",
+     "s": "independent",
+     "note": "Phoenician Gadir in the Carthaginian sphere"
+    },
+    {
+     "from": -206,
+     "to": -49,
+     "p": "carthage",
+     "s": "ally",
+     "note": "Treaty with Rome (206; renewed 78)"
+    },
+    {
+     "from": -49,
+     "to": 260,
+     "p": "rome",
+     "s": "direct",
+     "note": "Caesar makes Gades a municipium (49)"
+    },
+    {
+     "from": 260,
+     "to": 269,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Hispania under the Gallic emperors until c.269"
+    },
+    {
+     "from": 269,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Caesar makes Gades a municipium (49)"
+    },
+    {
+     "from": 395,
+     "to": 409,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 409,
+     "to": 411,
+     "p": "vandals",
+     "s": "contested",
+     "note": "Vandals, Alans and Suebi enter Spain (Sept/Oct 409)"
+    },
+    {
+     "from": 411,
+     "to": 418,
+     "p": "vandals",
+     "s": "independent",
+     "note": "Silingi Vandals allotted Baetica (411)"
+    },
+    {
+     "from": 418,
+     "to": 422,
+     "p": "rome_west",
+     "s": "direct",
+     "note": "Caesar makes Gades a municipium (49)"
+    },
+    {
+     "from": 422,
+     "to": 429,
+     "p": "vandals",
+     "s": "independent",
+     "note": "Hasdingi in Baetica: Castinus defeated (422), Hispalis and Carthago Nova sacked (425)"
+    },
+    {
+     "from": 429,
+     "to": 439,
+     "p": "rome_west",
+     "s": "direct",
+     "note": "Caesar makes Gades a municipium (49)"
+    },
+    {
+     "from": 439,
+     "to": 456,
+     "p": "suebic_kingdom",
+     "s": "independent",
+     "note": "Rechila takes Merida (439) and Seville (441)"
+    },
+    {
+     "from": 456,
+     "to": 475,
+     "p": "visigothic_kingdom",
+     "s": "ally",
+     "note": "Visigoths campaign as Roman federates"
+    },
+    {
+     "from": 475,
+     "to": 552,
+     "p": "visigothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 552,
+     "to": 571,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Byzantine Asido"
+    },
+    {
+     "from": 571,
+     "to": 641,
+     "p": "visigothic_kingdom",
+     "s": "independent",
+     "note": "Leovigild takes Medina Sidonia (571)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Gades is shown under the Carthage polity before 206 and as a treaty ally after; whether Carthage ruled or only led it is disputed. Gibraltar (Calpe) is included."
+  },
+  {
+   "id": "es_septem",
+   "name": "Septem Fratres (Ceuta)",
+   "seed": [
+    -5.33,
+    35.89
+   ],
+   "countries": [
+    "ES"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -105,
+     "p": "mauretania",
+     "s": "independent"
+    },
+    {
+     "from": -105,
+     "to": -33,
+     "p": "mauretania",
+     "s": "client"
+    },
+    {
+     "from": -33,
+     "to": -25,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": -25,
+     "to": 40,
+     "p": "mauretania",
+     "s": "client"
+    },
+    {
+     "from": 40,
+     "to": 44,
+     "p": "mauretania",
+     "s": "contested"
+    },
+    {
+     "from": 44,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 429,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 429,
+     "to": 534,
+     "p": "vandal_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 534,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Justinian fortifies Septem (534)"
+    }
+   ],
+   "certainty": "approx",
+   "notes": "Vandal control of Septem before 534 is inferred from Procopius."
+  },
+  {
+   "id": "es_corduba",
+   "name": "Oretani and Turduli (Corduba, Castulo)",
+   "seed": [
+    -4.3,
+    38.0
+   ],
+   "countries": [
+    "ES"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -237,
+     "p": "iberians",
+     "s": "independent"
+    },
+    {
+     "from": -237,
+     "to": -213,
+     "p": "carthage",
+     "s": "independent",
+     "note": "Hamilcar dies near Helike (229/8)"
+    },
+    {
+     "from": -213,
+     "to": -211,
+     "p": "rome",
+     "s": "contested",
+     "note": "The Scipios killed near Castulo and Ilorci (211)"
+    },
+    {
+     "from": -211,
+     "to": -208,
+     "p": "carthage",
+     "s": "independent"
+    },
+    {
+     "from": -208,
+     "to": -206,
+     "p": "rome",
+     "s": "contested",
+     "note": "Baecula (208)"
+    },
+    {
+     "from": -206,
+     "to": -197,
+     "p": "rome",
+     "s": "occupied"
+    },
+    {
+     "from": -197,
+     "to": -195,
+     "p": "iberians",
+     "s": "contested"
+    },
+    {
+     "from": -195,
+     "to": -147,
+     "p": "rome",
+     "s": "direct",
+     "note": "Corduba founded by Marcellus (169/152)"
+    },
+    {
+     "from": -147,
+     "to": -139,
+     "p": "lusitanians",
+     "s": "contested",
+     "note": "Viriathus raids"
+    },
+    {
+     "from": -139,
+     "to": -46,
+     "p": "rome",
+     "s": "direct",
+     "note": "Corduba founded by Marcellus (169/152)"
+    },
+    {
+     "from": -46,
+     "to": -45,
+     "p": "rome",
+     "s": "contested",
+     "note": "Caesar's war with Pompey's sons; Munda (17 Mar 45)"
+    },
+    {
+     "from": -45,
+     "to": 260,
+     "p": "rome",
+     "s": "direct",
+     "note": "Corduba founded by Marcellus (169/152)"
+    },
+    {
+     "from": 260,
+     "to": 269,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Hispania under the Gallic emperors until c.269"
+    },
+    {
+     "from": 269,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Corduba founded by Marcellus (169/152)"
+    },
+    {
+     "from": 395,
+     "to": 409,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 409,
+     "to": 411,
+     "p": "vandals",
+     "s": "contested",
+     "note": "Vandals, Alans and Suebi enter Spain (Sept/Oct 409)"
+    },
+    {
+     "from": 411,
+     "to": 418,
+     "p": "vandals",
+     "s": "independent",
+     "note": "Silingi Vandals allotted Baetica (411)"
+    },
+    {
+     "from": 418,
+     "to": 422,
+     "p": "rome_west",
+     "s": "direct",
+     "note": "Corduba founded by Marcellus (169/152)"
+    },
+    {
+     "from": 422,
+     "to": 429,
+     "p": "vandals",
+     "s": "independent",
+     "note": "Hasdingi in Baetica: Castinus defeated (422), Hispalis and Carthago Nova sacked (425)"
+    },
+    {
+     "from": 429,
+     "to": 439,
+     "p": "rome_west",
+     "s": "direct",
+     "note": "Corduba founded by Marcellus (169/152)"
+    },
+    {
+     "from": 439,
+     "to": 456,
+     "p": "suebic_kingdom",
+     "s": "independent",
+     "note": "Rechila takes Merida (439) and Seville (441)"
+    },
+    {
+     "from": 456,
+     "to": 475,
+     "p": "visigothic_kingdom",
+     "s": "ally",
+     "note": "Visigoths campaign as Roman federates"
+    },
+    {
+     "from": 475,
+     "to": 550,
+     "p": "visigothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 550,
+     "to": 572,
+     "p": "visigothic_kingdom",
+     "s": "contested",
+     "note": "Cordoba defies Agila (550) until Leovigild (572)"
+    },
+    {
+     "from": 572,
+     "to": 641,
+     "p": "visigothic_kingdom",
+     "s": "independent"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Jaén is joined here."
+  },
+  {
+   "id": "es_malaca",
+   "name": "Bastetani and Malaca (Sexi, Abdera, Basti)",
+   "seed": [
+    -3.9,
+    37.0
+   ],
+   "countries": [
+    "ES"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -237,
+     "p": "iberians",
+     "s": "independent",
+     "note": "Phoenician coast towns in Carthage's orbit"
+    },
+    {
+     "from": -237,
+     "to": -206,
+     "p": "carthage",
+     "s": "independent"
+    },
+    {
+     "from": -206,
+     "to": -197,
+     "p": "rome",
+     "s": "occupied"
+    },
+    {
+     "from": -197,
+     "to": -195,
+     "p": "iberians",
+     "s": "contested",
+     "note": "Malaca and Sexi join Culchas' revolt"
+    },
+    {
+     "from": -195,
+     "to": 260,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 260,
+     "to": 269,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Hispania under the Gallic emperors until c.269"
+    },
+    {
+     "from": 269,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 409,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 409,
+     "to": 411,
+     "p": "vandals",
+     "s": "contested",
+     "note": "Vandals, Alans and Suebi enter Spain (Sept/Oct 409)"
+    },
+    {
+     "from": 411,
+     "to": 418,
+     "p": "vandals",
+     "s": "independent",
+     "note": "Silingi Vandals allotted Baetica (411)"
+    },
+    {
+     "from": 418,
+     "to": 422,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 422,
+     "to": 429,
+     "p": "vandals",
+     "s": "independent",
+     "note": "Hasdingi in Baetica: Castinus defeated (422), Hispalis and Carthago Nova sacked (425)"
+    },
+    {
+     "from": 429,
+     "to": 439,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 439,
+     "to": 456,
+     "p": "suebic_kingdom",
+     "s": "independent",
+     "note": "Rechila takes Merida (439) and Seville (441)"
+    },
+    {
+     "from": 456,
+     "to": 475,
+     "p": "visigothic_kingdom",
+     "s": "ally",
+     "note": "Visigoths campaign as Roman federates"
+    },
+    {
+     "from": 475,
+     "to": 552,
+     "p": "visigothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 552,
+     "to": 616,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Byzantine Malaca"
+    },
+    {
+     "from": 616,
+     "to": 641,
+     "p": "visigothic_kingdom",
+     "s": "independent",
+     "note": "Sisebut's campaigns (c.614-616)"
+    }
+   ],
+   "certainty": "approx",
+   "notes": "Granada and Almería are included; Basti fell to Leovigild in 570."
+  },
+  {
+   "id": "es_emerita",
+   "name": "Emerita Augusta (Turduli Veteres and Vettones)",
+   "seed": [
+    -6.3,
+    38.95
+   ],
+   "countries": [
+    "ES"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -155,
+     "p": "lusitanians",
+     "s": "independent"
+    },
+    {
+     "from": -155,
+     "to": -138,
+     "p": "lusitanians",
+     "s": "contested",
+     "note": "Lusitanian War; Galba's massacre (150); Viriathus (147-139)"
+    },
+    {
+     "from": -138,
+     "to": -80,
+     "p": "rome",
+     "s": "direct",
+     "note": "Metellinum (c.79); Emerita Augusta (25 BC)"
+    },
+    {
+     "from": -80,
+     "to": -72,
+     "p": "rome",
+     "s": "contested",
+     "note": "Sertorian War (80-72)"
+    },
+    {
+     "from": -72,
+     "to": 260,
+     "p": "rome",
+     "s": "direct",
+     "note": "Metellinum (c.79); Emerita Augusta (25 BC)"
+    },
+    {
+     "from": 260,
+     "to": 269,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Hispania under the Gallic emperors until c.269"
+    },
+    {
+     "from": 269,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Metellinum (c.79); Emerita Augusta (25 BC)"
+    },
+    {
+     "from": 395,
+     "to": 409,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 409,
+     "to": 411,
+     "p": "vandals",
+     "s": "contested"
+    },
+    {
+     "from": 411,
+     "to": 418,
+     "p": "alans",
+     "s": "independent"
+    },
+    {
+     "from": 418,
+     "to": 429,
+     "p": "rome_west",
+     "s": "direct",
+     "note": "Metellinum (c.79); Emerita Augusta (25 BC)"
+    },
+    {
+     "from": 429,
+     "to": 430,
+     "p": "vandals",
+     "s": "contested",
+     "note": "Gaiseric routs the Suebi near Merida (429)"
+    },
+    {
+     "from": 430,
+     "to": 439,
+     "p": "rome_west",
+     "s": "direct",
+     "note": "Metellinum (c.79); Emerita Augusta (25 BC)"
+    },
+    {
+     "from": 439,
+     "to": 456,
+     "p": "suebic_kingdom",
+     "s": "independent",
+     "note": "Rechila's capital"
+    },
+    {
+     "from": 456,
+     "to": 475,
+     "p": "visigothic_kingdom",
+     "s": "ally",
+     "note": "Visigoths campaign as Roman federates"
+    },
+    {
+     "from": 475,
+     "to": 641,
+     "p": "visigothic_kingdom",
+     "s": "independent"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Badajoz and Cáceres; Merida was capital of the Diocese of Hispaniae."
+  },
+  {
+   "id": "pt_lusitani",
+   "name": "Lusitani (Mons Herminius, Viseu)",
+   "seed": [
+    -7.5,
+    40.35
+   ],
+   "countries": [
+    "PT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -155,
+     "p": "lusitanians",
+     "s": "independent"
+    },
+    {
+     "from": -155,
+     "to": -138,
+     "p": "lusitanians",
+     "s": "contested",
+     "note": "Lusitanian War; Galba's massacre (150); Viriathus (147-139)"
+    },
+    {
+     "from": -138,
+     "to": -80,
+     "p": "lusitanians",
+     "s": "ally"
+    },
+    {
+     "from": -80,
+     "to": -72,
+     "p": "lusitanians",
+     "s": "contested",
+     "note": "Sertorius leads the Lusitanians"
+    },
+    {
+     "from": -72,
+     "to": -61,
+     "p": "lusitanians",
+     "s": "ally"
+    },
+    {
+     "from": -61,
+     "to": -60,
+     "p": "rome",
+     "s": "contested",
+     "note": "Caesar in the Mons Herminius"
+    },
+    {
+     "from": -60,
+     "to": 260,
+     "p": "rome",
+     "s": "direct",
+     "note": "Province of Lusitania (27-16 BC)"
+    },
+    {
+     "from": 260,
+     "to": 269,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Hispania under the Gallic emperors until c.269"
+    },
+    {
+     "from": 269,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Province of Lusitania (27-16 BC)"
+    },
+    {
+     "from": 395,
+     "to": 409,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 409,
+     "to": 411,
+     "p": "vandals",
+     "s": "contested"
+    },
+    {
+     "from": 411,
+     "to": 418,
+     "p": "alans",
+     "s": "independent"
+    },
+    {
+     "from": 418,
+     "to": 430,
+     "p": "rome_west",
+     "s": "direct",
+     "note": "Province of Lusitania (27-16 BC)"
+    },
+    {
+     "from": 430,
+     "to": 585,
+     "p": "suebic_kingdom",
+     "s": "independent",
+     "note": "Conimbriga sacked by the Suebi (465-468)"
+    },
+    {
+     "from": 585,
+     "to": 641,
+     "p": "visigothic_kingdom",
+     "s": "independent"
+    }
+   ],
+   "certainty": "approx",
+   "notes": "Coimbra and Aveiro are joined here."
+  },
+  {
+   "id": "pt_olisipo",
+   "name": "Olisipo and Scallabis",
+   "seed": [
+    -8.85,
+    39.2
+   ],
+   "countries": [
+    "PT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -155,
+     "p": "lusitanians",
+     "s": "independent"
+    },
+    {
+     "from": -155,
+     "to": -138,
+     "p": "lusitanians",
+     "s": "contested",
+     "note": "Lusitanian War; Galba's massacre (150); Viriathus (147-139)"
+    },
+    {
+     "from": -138,
+     "to": -80,
+     "p": "rome",
+     "s": "direct",
+     "note": "D. Junius Brutus fortifies Olisipo (138)"
+    },
+    {
+     "from": -80,
+     "to": -72,
+     "p": "rome",
+     "s": "contested",
+     "note": "Sertorian War (80-72)"
+    },
+    {
+     "from": -72,
+     "to": 260,
+     "p": "rome",
+     "s": "direct",
+     "note": "D. Junius Brutus fortifies Olisipo (138)"
+    },
+    {
+     "from": 260,
+     "to": 269,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Hispania under the Gallic emperors until c.269"
+    },
+    {
+     "from": 269,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "D. Junius Brutus fortifies Olisipo (138)"
+    },
+    {
+     "from": 395,
+     "to": 409,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 409,
+     "to": 411,
+     "p": "vandals",
+     "s": "contested"
+    },
+    {
+     "from": 411,
+     "to": 418,
+     "p": "alans",
+     "s": "independent"
+    },
+    {
+     "from": 418,
+     "to": 439,
+     "p": "rome_west",
+     "s": "direct",
+     "note": "D. Junius Brutus fortifies Olisipo (138)"
+    },
+    {
+     "from": 439,
+     "to": 456,
+     "p": "suebic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 456,
+     "to": 469,
+     "p": "suebic_kingdom",
+     "s": "contested"
+    },
+    {
+     "from": 469,
+     "to": 585,
+     "p": "suebic_kingdom",
+     "s": "independent",
+     "note": "Lusidius hands Lisbon to the Suebi (469)"
+    },
+    {
+     "from": 585,
+     "to": 641,
+     "p": "visigothic_kingdom",
+     "s": "independent"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Évora falls in this region by geometry."
+  },
+  {
+   "id": "pt_cynetes",
+   "name": "Cynetes and Celtici (Pax Iulia, Ossonoba)",
+   "seed": [
+    -8.0,
+    37.55
+   ],
+   "countries": [
+    "PT",
+    "ES"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -237,
+     "p": "iberians",
+     "s": "independent",
+     "note": "Conii"
+    },
+    {
+     "from": -237,
+     "to": -206,
+     "p": "carthage",
+     "s": "independent"
+    },
+    {
+     "from": -206,
+     "to": -155,
+     "p": "rome",
+     "s": "occupied"
+    },
+    {
+     "from": -155,
+     "to": -138,
+     "p": "lusitanians",
+     "s": "contested"
+    },
+    {
+     "from": -138,
+     "to": -80,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": -80,
+     "to": -72,
+     "p": "rome",
+     "s": "contested",
+     "note": "Sertorian War (80-72)"
+    },
+    {
+     "from": -72,
+     "to": 260,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 260,
+     "to": 269,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Hispania under the Gallic emperors until c.269"
+    },
+    {
+     "from": 269,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 409,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 409,
+     "to": 411,
+     "p": "vandals",
+     "s": "contested"
+    },
+    {
+     "from": 411,
+     "to": 418,
+     "p": "alans",
+     "s": "independent"
+    },
+    {
+     "from": 418,
+     "to": 439,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 439,
+     "to": 456,
+     "p": "suebic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 456,
+     "to": 475,
+     "p": "visigothic_kingdom",
+     "s": "ally",
+     "note": "Visigoths campaign as Roman federates"
+    },
+    {
+     "from": 475,
+     "to": 641,
+     "p": "visigothic_kingdom",
+     "s": "independent"
+    }
+   ],
+   "certainty": "approx",
+   "notes": "Algarve, Beja and western Huelva (Rio Tinto mines)."
+  },
+  {
+   "id": "pt_bracari",
+   "name": "Callaeci Bracari (Bracara Augusta)",
+   "seed": [
+    -8.2,
+    41.55
+   ],
+   "countries": [
+    "PT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -138,
+     "p": "callaeci",
+     "s": "independent"
+    },
+    {
+     "from": -138,
+     "to": -136,
+     "p": "rome",
+     "s": "contested",
+     "note": "D. Junius Brutus Callaicus crosses the Lethe and reaches the Minho"
+    },
+    {
+     "from": -136,
+     "to": -61,
+     "p": "callaeci",
+     "s": "independent"
+    },
+    {
+     "from": -61,
+     "to": -60,
+     "p": "rome",
+     "s": "contested"
+    },
+    {
+     "from": -60,
+     "to": -27,
+     "p": "rome",
+     "s": "occupied"
+    },
+    {
+     "from": -27,
+     "to": 260,
+     "p": "rome",
+     "s": "direct",
+     "note": "Bracara Augusta (c.16 BC)"
+    },
+    {
+     "from": 260,
+     "to": 269,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Hispania under the Gallic emperors until c.269"
+    },
+    {
+     "from": 269,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Bracara Augusta (c.16 BC)"
+    },
+    {
+     "from": 395,
+     "to": 409,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 409,
+     "to": 411,
+     "p": "vandals",
+     "s": "contested"
+    },
+    {
+     "from": 411,
+     "to": 585,
+     "p": "suebic_kingdom",
+     "s": "independent",
+     "note": "Braga, the Suebic capital; Martin of Braga"
+    },
+    {
+     "from": 585,
+     "to": 641,
+     "p": "visigothic_kingdom",
+     "s": "independent"
+    }
+   ],
+   "certainty": "approx",
+   "notes": "Bragança is joined here."
+  },
+  {
+   "id": "es_baleares",
+   "name": "Baleares and Pityusae",
+   "seed": [
+    2.9,
+    39.6
+   ],
+   "countries": [
+    "ES"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -123,
+     "p": "balearic",
+     "s": "independent",
+     "note": "Slingers in Carthaginian service; Punic Ebusus"
+    },
+    {
+     "from": -123,
+     "to": -122,
+     "p": "rome",
+     "s": "contested",
+     "note": "Q. Caecilius Metellus Balearicus"
+    },
+    {
+     "from": -122,
+     "to": 260,
+     "p": "rome",
+     "s": "direct",
+     "note": "Palma and Pollentia"
+    },
+    {
+     "from": 260,
+     "to": 269,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Hispania under the Gallic emperors until c.269"
+    },
+    {
+     "from": 269,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Palma and Pollentia"
+    },
+    {
+     "from": 395,
+     "to": 455,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 455,
+     "to": 534,
+     "p": "vandal_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 534,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Ebusus (Ibiza) remained a federate Punic city."
+  },
+  {
+   "id": "es_canaries",
+   "name": "Fortunatae Insulae (Canaries)",
+   "seed": [
+    -13.8,
+    28.8
+   ],
+   "countries": [
+    "ES"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": 641,
+     "p": "canarians",
+     "s": "independent",
+     "note": "Juba II's expedition (Pliny NH 6.202-205)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Only the eastern islands fall inside the map frame."
+  }
+ ]
+}

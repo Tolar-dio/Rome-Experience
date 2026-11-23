@@ -1,0 +1,3512 @@
+{
+ "roads": [
+  {
+   "id": "via_appia",
+   "name": "Via Appia",
+   "built": -312,
+   "builder": "appius_claudius_caecus",
+   "extended": [
+    {
+     "y": -268,
+     "t": "to Beneventum"
+    },
+    {
+     "y": -191,
+     "t": "to Tarentum and Brundisium (completed by c. 190 BC)"
+    },
+    {
+     "y": -73,
+     "t": "6,000 crucified slaves of Spartacus lined it from Capua to Rome (71 BC)"
+    }
+   ],
+   "line": [
+    [
+     12.4893,
+     41.8838
+    ],
+    [
+     12.515,
+     41.866
+    ],
+    [
+     12.552,
+     41.832
+    ],
+    [
+     12.617,
+     41.7659
+    ],
+    [
+     12.6733,
+     41.7214
+    ],
+    [
+     12.8743,
+     41.5617
+    ],
+    [
+     12.9975,
+     41.4664
+    ],
+    [
+     13.2488,
+     41.2912
+    ],
+    [
+     13.4279,
+     41.3574
+    ],
+    [
+     13.6035,
+     41.256
+    ],
+    [
+     13.7684,
+     41.2422
+    ],
+    [
+     13.8467,
+     41.1542
+    ],
+    [
+     14.2171,
+     41.1035
+    ],
+    [
+     14.2502,
+     41.0861
+    ],
+    [
+     14.6368,
+     41.0626
+    ],
+    [
+     14.7812,
+     41.1304
+    ],
+    [
+     15.0105,
+     41.0542
+    ],
+    [
+     15.3,
+     40.98
+    ],
+    [
+     15.8273,
+     40.9689
+    ],
+    [
+     16.4123,
+     40.8196
+    ],
+    [
+     16.75,
+     40.64
+    ],
+    [
+     17.233,
+     40.4738
+    ],
+    [
+     17.6423,
+     40.4978
+    ],
+    [
+     17.9429,
+     40.6387
+    ]
+   ],
+   "summary": "The 'queen of roads' (regina viarum, Statius). Built in 312 BC by the censor Appius Claudius Caecus from Rome to Capua, extended to Beneventum, Venusia, Tarentum and by c. 190 BC Brundisium, 540 km in all.",
+   "detail": "Its straight 90 km section across the Pontine marshes included a parallel canal (Horace, Sat. 1.5, travelled by barge at night). Trajan's Via Traiana (109) offered a faster alternative from Beneventum to Brundisium. Procopius (Wars 5.14) admired its fitted basalt paving still intact in 536.",
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "9.29.6"
+    },
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "5.14.6-11"
+    },
+    {
+     "a": "Horace",
+     "w": "Satires",
+     "r": "1.5"
+    }
+   ],
+   "certainty": "certain",
+   "lengthKm": 520
+  },
+  {
+   "id": "via_latina",
+   "name": "Via Latina",
+   "built": -370,
+   "builder": null,
+   "line": [
+    [
+     12.5003,
+     41.8746
+    ],
+    [
+     12.54,
+     41.84
+    ],
+    [
+     12.61,
+     41.8
+    ],
+    [
+     12.7072,
+     41.7981
+    ],
+    [
+     12.81,
+     41.745
+    ],
+    [
+     13.1482,
+     41.7271
+    ],
+    [
+     13.2534,
+     41.6927
+    ],
+    [
+     13.3519,
+     41.6402
+    ],
+    [
+     13.5389,
+     41.5367
+    ],
+    [
+     13.7056,
+     41.4922
+    ],
+    [
+     13.8306,
+     41.4929
+    ],
+    [
+     14.0701,
+     41.2503
+    ],
+    [
+     14.1321,
+     41.2
+    ],
+    [
+     14.2171,
+     41.1035
+    ]
+   ],
+   "summary": "Inland route from Rome to Campania through the Sacco and Liri valleys, older than the Via Appia and following a natural corridor used in the Latin and Samnite wars; it joined the Appia at Casilinum.",
+   "detail": "Its date is unknown (perhaps paved in the late 4th century BC with the Latin colonies at Cales and Fregellae). Hannibal marched up it in his feint on Rome in 211 BC (Livy 26.9). The Tombs of the Via Latina park preserves 2nd-century painted tombs near Rome.",
+   "certainty": "probable",
+   "lengthKm": 180
+  },
+  {
+   "id": "via_tiburtina",
+   "name": "Via Tiburtina",
+   "built": -300,
+   "builder": null,
+   "line": [
+    [
+     12.5118,
+     41.8978
+    ],
+    [
+     12.53,
+     41.905
+    ],
+    [
+     12.555,
+     41.915
+    ],
+    [
+     12.585,
+     41.925
+    ],
+    [
+     12.62,
+     41.935
+    ],
+    [
+     12.7189,
+     41.9587
+    ],
+    [
+     12.73,
+     41.95
+    ],
+    [
+     12.745,
+     41.952
+    ],
+    [
+     12.77,
+     41.958
+    ],
+    [
+     12.7982,
+     41.9636
+    ]
+   ],
+   "summary": "Road from Rome to Tibur (Tivoli) past the sulphur springs of Aquae Albulae and the travertine quarries; its continuation into the Apennines was the Via Valeria.",
+   "detail": "The Mausoleum of the Plautii at the Ponte Lucano (c. AD 10) still stands beside the road. Hadrian's Villa lies just south of it below Tibur.",
+   "certainty": "probable",
+   "lengthKm": 30
+  },
+  {
+   "id": "via_valeria",
+   "name": "Via Valeria",
+   "built": -307,
+   "builder": null,
+   "extended": [
+    {
+     "y": -154,
+     "t": "paved to Cerfennia (M. Valerius Messalla?)"
+    },
+    {
+     "y": 48,
+     "t": "Via Claudia Valeria to Aternum (Pescara)"
+    }
+   ],
+   "line": [
+    [
+     12.7982,
+     41.9636
+    ],
+    [
+     12.8962,
+     42.0182
+    ],
+    [
+     12.98,
+     42.06
+    ],
+    [
+     13.0655,
+     42.089
+    ],
+    [
+     13.25,
+     42.08
+    ],
+    [
+     13.4112,
+     42.0799
+    ],
+    [
+     13.6257,
+     42.059
+    ],
+    [
+     13.7,
+     42.09
+    ],
+    [
+     13.839,
+     42.122
+    ],
+    [
+     13.9342,
+     42.2442
+    ],
+    [
+     14.08,
+     42.33
+    ],
+    [
+     14.166,
+     42.3447
+    ],
+    [
+     14.214,
+     42.4648
+    ]
+   ],
+   "summary": "Continuation of the Via Tiburtina across the central Apennines to the Fucine basin and Corfinium, probably begun by the censor M. Valerius Maximus (307 BC); Claudius extended it to the Adriatic at Aternum as the Via Claudia Valeria (48-49).",
+   "certainty": "probable",
+   "lengthKm": 140
+  },
+  {
+   "id": "via_salaria",
+   "name": "Via Salaria",
+   "built": -500,
+   "builder": null,
+   "line": [
+    [
+     12.4993,
+     41.9097
+    ],
+    [
+     12.507,
+     41.93
+    ],
+    [
+     12.5154,
+     41.9821
+    ],
+    [
+     12.56,
+     42.0
+    ],
+    [
+     12.626,
+     42.1011
+    ],
+    [
+     12.72,
+     42.2
+    ],
+    [
+     12.8,
+     42.32
+    ],
+    [
+     12.8612,
+     42.4031
+    ],
+    [
+     13.0809,
+     42.416
+    ],
+    [
+     13.1587,
+     42.6173
+    ],
+    [
+     13.3,
+     42.7
+    ],
+    [
+     13.575,
+     42.8554
+    ],
+    [
+     13.76,
+     42.88
+    ],
+    [
+     13.9,
+     42.912
+    ]
+   ],
+   "summary": "The 'salt road' along which the Sabines fetched salt from the Tiber mouth, one of the oldest routes of Italy; paved through Sabine country to Asculum and the Adriatic.",
+   "detail": "The Gauls marched down it in 390 BC to the Allia, a tributary on its course 18 km from Rome. Vespasian's birthplace at Falacrinae lay on it.",
+   "certainty": "probable",
+   "lengthKm": 180
+  },
+  {
+   "id": "via_flaminia",
+   "name": "Via Flaminia",
+   "built": -220,
+   "builder": "gaius_flaminius",
+   "extended": [
+    {
+     "y": -27,
+     "t": "restored by Augustus; arches at Rome and Ariminum"
+    },
+    {
+     "y": 77,
+     "t": "Furlo pass tunnel by Vespasian"
+    }
+   ],
+   "line": [
+    [
+     12.4766,
+     41.9112
+    ],
+    [
+     12.4675,
+     41.9355
+    ],
+    [
+     12.48,
+     41.9731
+    ],
+    [
+     12.48,
+     42.1
+    ],
+    [
+     12.47,
+     42.26
+    ],
+    [
+     12.4666,
+     42.4127
+    ],
+    [
+     12.5157,
+     42.5188
+    ],
+    [
+     12.5568,
+     42.6398
+    ],
+    [
+     12.6094,
+     42.9349
+    ],
+    [
+     12.7265,
+     42.9843
+    ],
+    [
+     12.8,
+     43.115
+    ],
+    [
+     12.7597,
+     43.2969
+    ],
+    [
+     12.6485,
+     43.5468
+    ],
+    [
+     12.8138,
+     43.6918
+    ],
+    [
+     13.0169,
+     43.8449
+    ],
+    [
+     12.9158,
+     43.9121
+    ],
+    [
+     12.5632,
+     44.059
+    ]
+   ],
+   "summary": "Great north road built in 220 BC by the censor C. Flaminius from Rome across the Apennines to the Adriatic at Fanum and on to Ariminum, the main artery to Cisalpine Gaul. Augustus rebuilt it in 27 BC; Vespasian cut the Furlo tunnel (Intercisa) in 76-77.",
+   "detail": "It crossed the Tiber at the Milvian Bridge, where Constantine defeated Maxentius on 28 October 312. A later branch ran via Spoletium and Interamna. C. Flaminius died at Trasimene in 217 BC.",
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Periochae",
+     "r": "20"
+    },
+    {
+     "a": "Res Gestae Divi Augusti",
+     "w": "Res Gestae",
+     "r": "20.5"
+    }
+   ],
+   "certainty": "certain",
+   "lengthKm": 280
+  },
+  {
+   "id": "via_aurelia",
+   "name": "Via Aurelia",
+   "built": -241,
+   "builder": null,
+   "extended": [
+    {
+     "y": -109,
+     "t": "Via Aemilia Scauri from Pisae via Luna to Vada Sabatia and Genua (M. Aemilius Scaurus)"
+    },
+    {
+     "y": -13,
+     "t": "Via Iulia Augusta to Arelate"
+    }
+   ],
+   "line": [
+    [
+     12.4625,
+     41.8857
+    ],
+    [
+     12.4,
+     41.89
+    ],
+    [
+     12.2848,
+     41.9021
+    ],
+    [
+     12.1013,
+     41.934
+    ],
+    [
+     11.9636,
+     42.0168
+    ],
+    [
+     11.8335,
+     42.0353
+    ],
+    [
+     11.7968,
+     42.0912
+    ],
+    [
+     11.7104,
+     42.2128
+    ],
+    [
+     11.57,
+     42.36
+    ],
+    [
+     11.2893,
+     42.4141
+    ],
+    [
+     11.18,
+     42.56
+    ],
+    [
+     11.05,
+     42.74
+    ],
+    [
+     10.78,
+     42.94
+    ],
+    [
+     10.455,
+     43.364
+    ],
+    [
+     10.39,
+     43.55
+    ],
+    [
+     10.4001,
+     43.7194
+    ],
+    [
+     10.25,
+     43.93
+    ],
+    [
+     10.0168,
+     44.064
+    ],
+    [
+     9.7,
+     44.17
+    ],
+    [
+     9.3,
+     44.33
+    ],
+    [
+     8.9328,
+     44.4095
+    ]
+   ],
+   "summary": "Coastal road north-west from Rome through Etruria to Pisae, probably built by the censor C. Aurelius Cotta in 241 BC; continued to Genua by the Via Aemilia Scauri (109 BC) and into Gaul by the Via Iulia Augusta.",
+   "detail": "Rutilius Namatianus sailed rather than rode home to Gaul in 417 because the road was impassable after the Gothic invasions (De reditu 1.37-42).",
+   "certainty": "probable",
+   "lengthKm": 430
+  },
+  {
+   "id": "via_cassia",
+   "name": "Via Cassia",
+   "built": -154,
+   "builder": null,
+   "line": [
+    [
+     12.4675,
+     41.9355
+    ],
+    [
+     12.43,
+     41.99
+    ],
+    [
+     12.38,
+     42.04
+    ],
+    [
+     12.3,
+     42.15
+    ],
+    [
+     12.2205,
+     42.2428
+    ],
+    [
+     12.0716,
+     42.3306
+    ],
+    [
+     12.05,
+     42.48
+    ],
+    [
+     11.9851,
+     42.648
+    ],
+    [
+     11.93,
+     42.8
+    ],
+    [
+     11.9477,
+     43.0165
+    ],
+    [
+     11.9,
+     43.25
+    ],
+    [
+     11.863,
+     43.4713
+    ],
+    [
+     11.6,
+     43.64
+    ],
+    [
+     11.2556,
+     43.7698
+    ],
+    [
+     10.9182,
+     43.9328
+    ],
+    [
+     10.507,
+     43.8418
+    ]
+   ],
+   "summary": "Road through inner Etruria from the Milvian Bridge past Sutrium, Volsinii, Clusium and Arretium to Florentia and Luca, named after an unknown Cassius (perhaps C. Cassius Longinus, censor 154 BC).",
+   "detail": "Its date is uncertain (2nd century BC); Cicero mentions it in 43 BC (Phil. 12.22-23) as one of three routes from Rome to Mutina.",
+   "certainty": "approx",
+   "lengthKm": 310
+  },
+  {
+   "id": "via_clodia",
+   "name": "Via Clodia",
+   "built": -225,
+   "builder": null,
+   "line": [
+    [
+     12.38,
+     42.035
+    ],
+    [
+     12.3,
+     42.09
+    ],
+    [
+     12.168,
+     42.1268
+    ],
+    [
+     12.11,
+     42.19
+    ],
+    [
+     12.0275,
+     42.2727
+    ],
+    [
+     11.95,
+     42.35
+    ],
+    [
+     11.8703,
+     42.4192
+    ],
+    [
+     11.7,
+     42.53
+    ],
+    [
+     11.58,
+     42.6
+    ],
+    [
+     11.5048,
+     42.6663
+    ],
+    [
+     11.33,
+     42.75
+    ],
+    [
+     11.16,
+     42.8277
+    ]
+   ],
+   "summary": "Road branching from the Via Cassia north of Rome through the Etruscan towns of the Tolfa hills and Tuscania to Saturnia and Rusellae. Its builder and date are unknown, though it may follow an Etruscan route.",
+   "certainty": "approx",
+   "lengthKm": 140
+  },
+  {
+   "id": "via_aemilia",
+   "name": "Via Aemilia",
+   "built": -187,
+   "builder": "marcus_aemilius_lepidus_cos187",
+   "line": [
+    [
+     12.5632,
+     44.059
+    ],
+    [
+     12.2418,
+     44.1351
+    ],
+    [
+     12.13,
+     44.19
+    ],
+    [
+     12.04,
+     44.222
+    ],
+    [
+     11.8835,
+     44.2862
+    ],
+    [
+     11.713,
+     44.353
+    ],
+    [
+     11.5046,
+     44.4345
+    ],
+    [
+     11.3455,
+     44.4946
+    ],
+    [
+     11.0532,
+     44.5967
+    ],
+    [
+     10.9252,
+     44.6471
+    ],
+    [
+     10.6307,
+     44.6981
+    ],
+    [
+     10.4552,
+     44.7717
+    ],
+    [
+     10.328,
+     44.8015
+    ],
+    [
+     10.0617,
+     44.8651
+    ],
+    [
+     9.9108,
+     44.9272
+    ],
+    [
+     9.6977,
+     45.0526
+    ]
+   ],
+   "summary": "Built in 187 BC by the consul M. Aemilius Lepidus from Ariminum to Placentia, a 260 km almost straight line along the Apennine foot that structured the colonies and fora of the Po plain; the region of Italy and modern Emilia take its name.",
+   "detail": "Its towns were founded at regular intervals as road stations (Forum Livi, Forum Corneli, Regium Lepidi). The battle of Forum Gallorum (14 April 43 BC) between Antony and the consuls was fought on it.",
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "39.2.10"
+    }
+   ],
+   "certainty": "certain",
+   "lengthKm": 250
+  },
+  {
+   "id": "via_postumia",
+   "name": "Via Postumia",
+   "built": -148,
+   "builder": "spurius_postumius_albinus_cos148",
+   "line": [
+    [
+     8.9328,
+     44.4095
+    ],
+    [
+     8.9,
+     44.55
+    ],
+    [
+     8.8611,
+     44.7149
+    ],
+    [
+     8.8655,
+     44.8972
+    ],
+    [
+     9.0097,
+     44.9922
+    ],
+    [
+     9.6977,
+     45.0526
+    ],
+    [
+     10.0261,
+     45.1336
+    ],
+    [
+     10.4423,
+     45.1295
+    ],
+    [
+     10.72,
+     45.3
+    ],
+    [
+     10.9957,
+     45.4422
+    ],
+    [
+     11.5403,
+     45.5458
+    ],
+    [
+     11.95,
+     45.68
+    ],
+    [
+     12.4937,
+     45.7812
+    ],
+    [
+     12.8428,
+     45.7583
+    ],
+    [
+     13.3709,
+     45.7696
+    ]
+   ],
+   "summary": "Built in 148 BC by the consul Sp. Postumius Albinus across northern Italy from Genua on the Tyrrhenian to Aquileia on the Adriatic, crossing the Po at Placentia and passing Cremona and Verona.",
+   "detail": "The two battles of Bedriacum in 69 were fought astride it between Cremona and Verona.",
+   "certainty": "certain",
+   "lengthKm": 430
+  },
+  {
+   "id": "via_popillia",
+   "name": "Via Popillia (Via ab Regio ad Capuam)",
+   "built": -132,
+   "builder": "publius_popillius_laenas",
+   "line": [
+    [
+     14.2502,
+     41.0861
+    ],
+    [
+     14.5245,
+     40.9268
+    ],
+    [
+     14.6739,
+     40.7431
+    ],
+    [
+     14.7659,
+     40.678
+    ],
+    [
+     15.05,
+     40.6
+    ],
+    [
+     15.4989,
+     40.5182
+    ],
+    [
+     15.7,
+     40.3
+    ],
+    [
+     15.9,
+     40.06
+    ],
+    [
+     16.1374,
+     39.8428
+    ],
+    [
+     16.12,
+     39.6
+    ],
+    [
+     16.2536,
+     39.2954
+    ],
+    [
+     16.23,
+     39.0
+    ],
+    [
+     16.0976,
+     38.6756
+    ],
+    [
+     15.95,
+     38.42
+    ],
+    [
+     15.8,
+     38.25
+    ],
+    [
+     15.646,
+     38.111
+    ]
+   ],
+   "summary": "Road of 321 Roman miles from Capua to Rhegium built c. 132 BC, recorded on the Lapis Pollae (CIL I² 638), whose builder boasts he 'first made shepherds yield to ploughmen on public land'. The builder is P. Popillius Laenas (cos. 132) or T. Annius Rufus (cos. 128).",
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "CIL I²",
+     "r": "638 (Lapis Pollae)"
+    }
+   ],
+   "certainty": "probable",
+   "lengthKm": 430
+  },
+  {
+   "id": "via_annia",
+   "name": "Via Annia and northern Via Popillia",
+   "built": -131,
+   "builder": null,
+   "line": [
+    [
+     12.5632,
+     44.059
+    ],
+    [
+     12.372,
+     44.244
+    ],
+    [
+     12.1966,
+     44.4157
+    ],
+    [
+     12.17,
+     44.6
+    ],
+    [
+     12.18,
+     44.8
+    ],
+    [
+     12.0562,
+     45.0577
+    ],
+    [
+     11.95,
+     45.2
+    ],
+    [
+     11.877,
+     45.4096
+    ],
+    [
+     12.15,
+     45.48
+    ],
+    [
+     12.3997,
+     45.5463
+    ],
+    [
+     12.65,
+     45.68
+    ],
+    [
+     12.8428,
+     45.7583
+    ],
+    [
+     13.3709,
+     45.7696
+    ]
+   ],
+   "summary": "Coastal route around the Adriatic lagoons: the northern Via Popillia (132 BC) from Ariminum by Ravenna to Hatria, and the Via Annia (T. Annius Luscus, 153 BC, or T. Annius Rufus, 131 BC) from Hatria through Patavium and Altinum to Aquileia.",
+   "certainty": "approx",
+   "lengthKm": 290
+  },
+  {
+   "id": "via_traiana",
+   "name": "Via Traiana",
+   "built": 109,
+   "builder": "trajan",
+   "line": [
+    [
+     14.7812,
+     41.1304
+    ],
+    [
+     15.0875,
+     41.1525
+    ],
+    [
+     15.2,
+     41.3
+    ],
+    [
+     15.3089,
+     41.3612
+    ],
+    [
+     15.6224,
+     41.3104
+    ],
+    [
+     15.85,
+     41.27
+    ],
+    [
+     16.0656,
+     41.2214
+    ],
+    [
+     16.29,
+     41.17
+    ],
+    [
+     16.4845,
+     41.1172
+    ],
+    [
+     16.6914,
+     41.1085
+    ],
+    [
+     16.8703,
+     41.1292
+    ],
+    [
+     17.15,
+     41.0
+    ],
+    [
+     17.3898,
+     40.887
+    ],
+    [
+     17.7,
+     40.75
+    ],
+    [
+     17.9429,
+     40.6387
+    ]
+   ],
+   "summary": "Trajan's road of 109 from Beneventum across Apulia to Brundisium, shorter and flatter than the Via Appia; commemorated by the Arch of Beneventum (114) and a coin issue showing a reclining woman holding a wheel.",
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "CIL IX",
+     "r": "6005-6006"
+    }
+   ],
+   "certainty": "certain",
+   "lengthKm": 300
+  },
+  {
+   "id": "via_domitiana",
+   "name": "Via Domitiana",
+   "built": 95,
+   "builder": "domitian",
+   "line": [
+    [
+     13.8467,
+     41.1542
+    ],
+    [
+     13.9017,
+     41.0811
+    ],
+    [
+     13.94,
+     41.03
+    ],
+    [
+     13.9417,
+     41.0337
+    ],
+    [
+     13.99,
+     40.98
+    ],
+    [
+     14.0301,
+     40.9211
+    ],
+    [
+     14.05,
+     40.88
+    ],
+    [
+     14.0564,
+     40.8479
+    ],
+    [
+     14.09,
+     40.835
+    ],
+    [
+     14.1217,
+     40.8258
+    ]
+   ],
+   "summary": "Coastal road built by Domitian in 95 from Sinuessa on the Via Appia across the Volturnus marshes to Cumae and Puteoli, celebrated in Statius's poem on its construction (Silvae 4.3).",
+   "sources": [
+    {
+     "a": "Statius",
+     "w": "Silvae",
+     "r": "4.3"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "67.14.1"
+    }
+   ],
+   "certainty": "certain",
+   "lengthKm": 50
+  },
+  {
+   "id": "via_amerina",
+   "name": "Via Amerina",
+   "built": -241,
+   "builder": null,
+   "line": [
+    [
+     12.38,
+     42.035
+    ],
+    [
+     12.36,
+     42.12
+    ],
+    [
+     12.3466,
+     42.2441
+    ],
+    [
+     12.38,
+     42.29
+    ],
+    [
+     12.3589,
+     42.2998
+    ],
+    [
+     12.39,
+     42.38
+    ],
+    [
+     12.3864,
+     42.4603
+    ],
+    [
+     12.4135,
+     42.5572
+    ],
+    [
+     12.38,
+     42.7
+    ],
+    [
+     12.4085,
+     42.7803
+    ],
+    [
+     12.3899,
+     43.1112
+    ]
+   ],
+   "summary": "Road from the Via Cassia through the Faliscan towns of Nepet and Falerii Novi to Ameria, Tuder and Perusia, built after the foundation of Falerii Novi (241 BC). In the 6th-7th centuries it was the Byzantine corridor linking Rome with Ravenna through Lombard territory.",
+   "certainty": "approx",
+   "lengthKm": 120
+  },
+  {
+   "id": "via_ostiensis",
+   "name": "Via Ostiensis",
+   "built": -400,
+   "builder": null,
+   "line": [
+    [
+     12.4813,
+     41.8763
+    ],
+    [
+     12.479,
+     41.865
+    ],
+    [
+     12.477,
+     41.858
+    ],
+    [
+     12.4616,
+     41.8527
+    ],
+    [
+     12.453,
+     41.837
+    ],
+    [
+     12.433,
+     41.82
+    ],
+    [
+     12.408,
+     41.803
+    ],
+    [
+     12.37,
+     41.786
+    ],
+    [
+     12.335,
+     41.772
+    ],
+    [
+     12.3,
+     41.759
+    ],
+    [
+     12.2894,
+     41.7536
+    ]
+   ],
+   "summary": "Road along the left bank of the Tiber from the Porta Ostiensis to Ostia, 24 km, carrying the salt and later the grain traffic of Rome's harbour. Paul was buried beside it at the site of San Paolo fuori le Mura.",
+   "certainty": "probable",
+   "lengthKm": 20
+  },
+  {
+   "id": "via_portuensis",
+   "name": "Via Portuensis",
+   "built": 46,
+   "builder": "claudius",
+   "line": [
+    [
+     12.4733,
+     41.881
+    ],
+    [
+     12.468,
+     41.87
+    ],
+    [
+     12.455,
+     41.858
+    ],
+    [
+     12.438,
+     41.843
+    ],
+    [
+     12.41,
+     41.825
+    ],
+    [
+     12.38,
+     41.81
+    ],
+    [
+     12.35,
+     41.8
+    ],
+    [
+     12.315,
+     41.792
+    ],
+    [
+     12.285,
+     41.785
+    ],
+    [
+     12.2563,
+     41.777
+    ]
+   ],
+   "summary": "Road on the right bank of the Tiber from Trastevere to the Claudian-Trajanic harbour of Portus, laid out with the harbour under Claudius; a double carriageway in its imperial form.",
+   "certainty": "probable",
+   "lengthKm": 20
+  },
+  {
+   "id": "via_praenestina",
+   "name": "Via Praenestina",
+   "built": -400,
+   "builder": null,
+   "line": [
+    [
+     12.5156,
+     41.8917
+    ],
+    [
+     12.54,
+     41.892
+    ],
+    [
+     12.57,
+     41.893
+    ],
+    [
+     12.61,
+     41.895
+    ],
+    [
+     12.655,
+     41.892
+    ],
+    [
+     12.7197,
+     41.8874
+    ],
+    [
+     12.77,
+     41.87
+    ],
+    [
+     12.83,
+     41.855
+    ],
+    [
+     12.8923,
+     41.8395
+    ],
+    [
+     13.0,
+     41.79
+    ],
+    [
+     13.159,
+     41.7422
+    ]
+   ],
+   "summary": "Road east from the Porta Praenestina past Gabii to Praeneste (Palestrina), originally the Via Gabina, continued to join the Via Latina near Anagnia. The Ponte di Nona (2nd century BC) is one of its best surviving viaducts.",
+   "certainty": "probable",
+   "lengthKm": 60
+  },
+  {
+   "id": "via_egnatia",
+   "name": "Via Egnatia",
+   "built": -145,
+   "builder": "gnaeus_egnatius",
+   "line": [
+    [
+     19.4474,
+     41.3163
+    ],
+    [
+     19.7964,
+     41.0415
+    ],
+    [
+     20.08,
+     41.11
+    ],
+    [
+     20.4,
+     41.1
+    ],
+    [
+     20.7938,
+     41.1146
+    ],
+    [
+     21.342,
+     41.011
+    ],
+    [
+     21.7,
+     40.82
+    ],
+    [
+     22.054,
+     40.7997
+    ],
+    [
+     22.5182,
+     40.7544
+    ],
+    [
+     22.9529,
+     40.6283
+    ],
+    [
+     23.2,
+     40.65
+    ],
+    [
+     23.4697,
+     40.6237
+    ],
+    [
+     23.8416,
+     40.8258
+    ],
+    [
+     24.2846,
+     41.0127
+    ],
+    [
+     24.4099,
+     40.945
+    ],
+    [
+     24.9,
+     40.99
+    ],
+    [
+     25.2,
+     41.03
+    ],
+    [
+     25.6,
+     40.95
+    ],
+    [
+     25.98,
+     40.93
+    ],
+    [
+     26.3921,
+     40.9245
+    ],
+    [
+     26.9,
+     40.85
+    ],
+    [
+     27.4,
+     40.9
+    ],
+    [
+     27.952,
+     40.9751
+    ],
+    [
+     28.2497,
+     41.0807
+    ],
+    [
+     28.9739,
+     41.0059
+    ]
+   ],
+   "summary": "Built c. 146-120 BC by the proconsul Cn. Egnatius from Dyrrachium (with a branch from Apollonia) across the Balkans to Thessalonica and later Byzantium, 1,120 km. It carried the armies of the civil wars to Pharsalus and Philippi and later linked Old and New Rome.",
+   "detail": "A bilingual milestone found near Thessalonica in 1974 names Egnatius and gives the distance from Dyrrachium (Polybius in Strabo 7.7.4 describes the road measured and marked). Paul travelled it from Neapolis to Thessalonica.",
+   "sources": [
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "7.7.4"
+    },
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "34.12"
+    }
+   ],
+   "certainty": "certain",
+   "lengthKm": 850
+  },
+  {
+   "id": "via_militaris",
+   "name": "Via Militaris (Via Diagonalis)",
+   "built": 33,
+   "builder": null,
+   "line": [
+    [
+     20.4579,
+     44.813
+    ],
+    [
+     20.7,
+     44.76
+    ],
+    [
+     20.7896,
+     44.6307
+    ],
+    [
+     21.0617,
+     44.6912
+    ],
+    [
+     21.17,
+     44.4
+    ],
+    [
+     21.25,
+     44.15
+    ],
+    [
+     21.3836,
+     43.9272
+    ],
+    [
+     21.65,
+     43.62
+    ],
+    [
+     21.8939,
+     43.3163
+    ],
+    [
+     22.2935,
+     43.2145
+    ],
+    [
+     22.65,
+     43.0
+    ],
+    [
+     22.99,
+     42.83
+    ],
+    [
+     23.3429,
+     42.7228
+    ],
+    [
+     23.65,
+     42.45
+    ],
+    [
+     24.15,
+     42.27
+    ],
+    [
+     24.7495,
+     42.1456
+    ],
+    [
+     25.3,
+     42.05
+    ],
+    [
+     25.9,
+     41.85
+    ],
+    [
+     26.556,
+     41.677
+    ],
+    [
+     27.0,
+     41.5
+    ],
+    [
+     27.3527,
+     41.4017
+    ],
+    [
+     27.8,
+     41.16
+    ],
+    [
+     28.2497,
+     41.0807
+    ],
+    [
+     28.9739,
+     41.0059
+    ]
+   ],
+   "summary": "The diagonal road across the Balkans from Singidunum through Naissus, Serdica, Philippopolis and Hadrianopolis to Byzantium/Constantinople, the main military artery of the late empire. Paved under Claudius and Trajan, it was the route of Attila (441-447), Theodoric and the Avars.",
+   "detail": "The Bordeaux pilgrim's itinerary (333) and the Antonine Itinerary list its stations. Valens marched it to his death at Adrianople in 378; the Crusaders and the Ottomans used the same corridor.",
+   "sources": [
+    {
+     "a": "Itinerarium Burdigalense",
+     "w": "Itinerarium Burdigalense",
+     "r": "562-571"
+    }
+   ],
+   "certainty": "certain",
+   "lengthKm": 880
+  },
+  {
+   "id": "via_pontica",
+   "name": "Via Pontica",
+   "built": 46,
+   "builder": null,
+   "line": [
+    [
+     28.9739,
+     41.0059
+    ],
+    [
+     28.7,
+     41.3
+    ],
+    [
+     28.0915,
+     41.6316
+    ],
+    [
+     27.9,
+     41.9
+    ],
+    [
+     27.6955,
+     42.4151
+    ],
+    [
+     27.648,
+     42.559
+    ],
+    [
+     27.7244,
+     42.6596
+    ],
+    [
+     27.85,
+     42.95
+    ],
+    [
+     27.9135,
+     43.2062
+    ],
+    [
+     28.1629,
+     43.4178
+    ],
+    [
+     28.45,
+     43.62
+    ],
+    [
+     28.5828,
+     43.8172
+    ],
+    [
+     28.6497,
+     44.1729
+    ],
+    [
+     28.7711,
+     44.5503
+    ],
+    [
+     28.9,
+     44.85
+    ],
+    [
+     29.1973,
+     45.0247
+    ]
+   ],
+   "summary": "Coastal road along the western Black Sea linking the old Greek colonies of Thrace and Scythia Minor (Apollonia, Mesembria, Odessos, Tomis, Histria) with Byzantium and the Danube delta.",
+   "certainty": "approx",
+   "lengthKm": 520
+  },
+  {
+   "id": "via_sebaste",
+   "name": "Via Sebaste",
+   "built": -6,
+   "builder": "augustus",
+   "line": [
+    [
+     30.3143,
+     37.3221
+    ],
+    [
+     30.52,
+     37.42
+    ],
+    [
+     30.689,
+     37.4988
+    ],
+    [
+     30.6,
+     37.75
+    ],
+    [
+     30.4638,
+     38.0757
+    ],
+    [
+     30.8,
+     38.2
+    ],
+    [
+     31.1899,
+     38.3054
+    ],
+    [
+     31.6,
+     38.2
+    ],
+    [
+     31.75,
+     38.1
+    ],
+    [
+     32.1,
+     38.0
+    ],
+    [
+     32.4923,
+     37.8725
+    ],
+    [
+     32.3445,
+     37.5883
+    ]
+   ],
+   "summary": "Augustan military road of 6 BC built by the legate Cornutus Aquila linking the Pisidian colonies (Comama, Cremna, Antioch, Lystra) across the Taurus foothills, during the war against the Homonadenses of the Taurus.",
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "CIL III",
+     "r": "6974 (milestone of 6 BC)"
+    }
+   ],
+   "certainty": "probable",
+   "lengthKm": 330
+  },
+  {
+   "id": "via_maris",
+   "name": "Via Maris (coastal road of Palestine)",
+   "built": null,
+   "builder": null,
+   "line": [
+    [
+     32.5471,
+     31.0426
+    ],
+    [
+     33.0,
+     31.11
+    ],
+    [
+     33.4079,
+     31.15
+    ],
+    [
+     33.7969,
+     31.1118
+    ],
+    [
+     34.2425,
+     31.2907
+    ],
+    [
+     34.4517,
+     31.5202
+    ],
+    [
+     34.5505,
+     31.6648
+    ],
+    [
+     34.6581,
+     31.7559
+    ],
+    [
+     34.7384,
+     31.8765
+    ],
+    [
+     34.7499,
+     32.0531
+    ],
+    [
+     34.8108,
+     32.1964
+    ],
+    [
+     34.8924,
+     32.5018
+    ],
+    [
+     35.1864,
+     32.5753
+    ],
+    [
+     35.4,
+     32.7
+    ],
+    [
+     35.55,
+     32.9
+    ],
+    [
+     35.62,
+     33.15
+    ],
+    [
+     35.95,
+     33.3
+    ],
+    [
+     36.3091,
+     33.5116
+    ]
+   ],
+   "summary": "The ancient coastal highway from Egypt through Philistia and the Sharon plain, turning inland through the Megiddo pass to the Jordan and Damascus. The name derives from Isaiah's 'way of the sea' (Isa. 9:1); the Romans paved it as part of their road network.",
+   "detail": "Vespasian and Titus moved their armies along it; Pompey and later Persian and Arab invaders used the same corridor.",
+   "certainty": "approx",
+   "lengthKm": 500
+  },
+  {
+   "id": "via_nova_traiana",
+   "name": "Via Nova Traiana",
+   "built": 111,
+   "builder": "trajan",
+   "line": [
+    [
+     36.4813,
+     32.5205
+    ],
+    [
+     36.3,
+     32.35
+    ],
+    [
+     36.15,
+     32.2
+    ],
+    [
+     35.935,
+     31.955
+    ],
+    [
+     35.81,
+     31.8
+    ],
+    [
+     35.7941,
+     31.7177
+    ],
+    [
+     35.7805,
+     31.4992
+    ],
+    [
+     35.736,
+     31.272
+    ],
+    [
+     35.7033,
+     31.1832
+    ],
+    [
+     35.64,
+     30.9
+    ],
+    [
+     35.6,
+     30.6
+    ],
+    [
+     35.56,
+     30.45
+    ],
+    [
+     35.444,
+     30.329
+    ],
+    [
+     35.41,
+     30.1
+    ],
+    [
+     35.3219,
+     29.9579
+    ],
+    [
+     35.2,
+     29.7
+    ],
+    [
+     35.0,
+     29.5306
+    ]
+   ],
+   "summary": "Road built 111-114 by the legate C. Claudius Severus 'from the borders of Syria to the Red Sea' (a finibus Syriae usque ad mare Rubrum), as Trajan's milestones say, through the new province of Arabia from Bostra by Philadelphia and Petra to Aila.",
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "CIL III",
+     "r": "14149-14150 (milestones)"
+    }
+   ],
+   "certainty": "certain",
+   "lengthKm": 370
+  },
+  {
+   "id": "via_hadriana",
+   "name": "Via Hadriana (Egypt)",
+   "built": 137,
+   "builder": "hadrian",
+   "line": [
+    [
+     30.881,
+     27.8106
+    ],
+    [
+     31.2,
+     27.7
+    ],
+    [
+     31.7,
+     27.6
+    ],
+    [
+     32.3,
+     27.5
+    ],
+    [
+     32.9,
+     27.45
+    ],
+    [
+     33.5,
+     27.4
+    ],
+    [
+     33.7,
+     27.25
+    ],
+    [
+     33.9,
+     26.9
+    ],
+    [
+     34.0488,
+     26.549
+    ],
+    [
+     34.244,
+     26.1566
+    ],
+    [
+     34.42,
+     25.8
+    ],
+    [
+     34.65,
+     25.35
+    ],
+    [
+     34.9,
+     24.9
+    ],
+    [
+     35.1,
+     24.5
+    ],
+    [
+     35.3,
+     24.2
+    ],
+    [
+     35.4748,
+     23.9106
+    ]
+   ],
+   "summary": "Desert road built by Hadrian in 137 from his new city of Antinoopolis east to the Red Sea and then south along the coast to Berenice, 'through safe and level country, with plentiful wells, stations and garrisons' as its inscription says.",
+   "detail": "Its dedication stone (IGRR I 1142) is dated 25 February 137. Recent survey has traced stations along the coast; the inland stretch is approximate here.",
+   "sources": [
+    {
+     "a": "IGRR",
+     "w": "IGRR I",
+     "r": "1142"
+    }
+   ],
+   "certainty": "approx",
+   "lengthKm": 700
+  },
+  {
+   "id": "royal_road",
+   "name": "Persian Royal Road",
+   "built": -500,
+   "builder": null,
+   "line": [
+    [
+     28.0403,
+     38.4883
+    ],
+    [
+     28.9,
+     38.7
+    ],
+    [
+     29.9,
+     39.1
+    ],
+    [
+     31.0,
+     39.5
+    ],
+    [
+     31.9785,
+     39.6503
+    ],
+    [
+     32.8593,
+     39.9438
+    ],
+    [
+     33.6,
+     39.8
+    ],
+    [
+     34.3,
+     39.4
+    ],
+    [
+     35.4744,
+     38.7264
+    ],
+    [
+     36.6,
+     38.6
+    ],
+    [
+     38.3612,
+     38.3822
+    ],
+    [
+     39.2,
+     38.2
+    ],
+    [
+     40.2334,
+     37.9122
+    ],
+    [
+     41.2154,
+     37.0675
+    ],
+    [
+     42.2,
+     36.7
+    ],
+    [
+     43.1599,
+     36.3608
+    ],
+    [
+     44.0094,
+     36.1913
+    ],
+    [
+     44.5,
+     35.4
+    ],
+    [
+     45.0,
+     34.4
+    ],
+    [
+     46.0,
+     33.3
+    ],
+    [
+     47.2,
+     32.7
+    ],
+    [
+     48.2535,
+     32.1899
+    ]
+   ],
+   "summary": "Achaemenid highway of 2,500 km from Sardis to Susa with 111 relay stations, which Herodotus says a traveller took 90 days to cover while royal couriers did it in about a week (5.52-54; 8.98). Shown here as context for Rome's eastern road system; its exact course is reconstructed.",
+   "sources": [
+    {
+     "a": "Herodotus",
+     "w": "Histories",
+     "r": "5.52-54; 8.98"
+    }
+   ],
+   "certainty": "disputed",
+   "lengthKm": 2150
+  },
+  {
+   "id": "via_domitia",
+   "name": "Via Domitia",
+   "built": -118,
+   "builder": "gnaeus_domitius_ahenobarbus_cos122",
+   "line": [
+    [
+     6.73,
+     44.935
+    ],
+    [
+     6.634,
+     44.8969
+    ],
+    [
+     6.4957,
+     44.564
+    ],
+    [
+     6.08,
+     44.56
+    ],
+    [
+     5.9435,
+     44.197
+    ],
+    [
+     5.7,
+     43.95
+    ],
+    [
+     5.3937,
+     43.8766
+    ],
+    [
+     5.0342,
+     43.8299
+    ],
+    [
+     4.85,
+     43.81
+    ],
+    [
+     4.6356,
+     43.8112
+    ],
+    [
+     4.3578,
+     43.8327
+    ],
+    [
+     4.1496,
+     43.7156
+    ],
+    [
+     3.8964,
+     43.6423
+    ],
+    [
+     3.6,
+     43.45
+    ],
+    [
+     3.2179,
+     43.3417
+    ],
+    [
+     3.0042,
+     43.1836
+    ],
+    [
+     2.99,
+     42.93
+    ],
+    [
+     2.9452,
+     42.7086
+    ],
+    [
+     2.88,
+     42.55
+    ],
+    [
+     2.87,
+     42.455
+    ]
+   ],
+   "summary": "The first Roman road in Gaul, built c. 118 BC by Cn. Domitius Ahenobarbus from the Mont Genèvre pass across Provence and Languedoc to the Pyrenees, linking Italy and Spain. Its milestone of Domitius, found near Narbonne in 1949, is the oldest in Gaul.",
+   "detail": "Pompey reopened the Alpine section in 77 BC on his way to fight Sertorius. The Pont Ambroix at Ambrussum and the track worn into the rock at the Col de Panissars (with the trophy of Pompey) survive.",
+   "certainty": "certain",
+   "lengthKm": 480
+  },
+  {
+   "id": "via_augusta",
+   "name": "Via Augusta",
+   "built": -8,
+   "builder": "augustus",
+   "line": [
+    [
+     2.87,
+     42.455
+    ],
+    [
+     2.9682,
+     42.2748
+    ],
+    [
+     2.8266,
+     41.9873
+    ],
+    [
+     2.6,
+     41.7
+    ],
+    [
+     2.1699,
+     41.3879
+    ],
+    [
+     1.7,
+     41.23
+    ],
+    [
+     1.2583,
+     41.1169
+    ],
+    [
+     0.8,
+     40.95
+    ],
+    [
+     0.521,
+     40.811
+    ],
+    [
+     0.2,
+     40.45
+    ],
+    [
+     -0.05,
+     40.0
+    ],
+    [
+     -0.2772,
+     39.6781
+    ],
+    [
+     -0.3768,
+     39.4704
+    ],
+    [
+     -0.5178,
+     38.9885
+    ],
+    [
+     -0.8,
+     38.8
+    ],
+    [
+     -1.4,
+     38.6
+    ],
+    [
+     -2.2,
+     38.35
+    ],
+    [
+     -2.9,
+     38.15
+    ],
+    [
+     -3.624,
+     38.0365
+    ],
+    [
+     -4.1,
+     37.98
+    ],
+    [
+     -4.7792,
+     37.8847
+    ],
+    [
+     -5.0799,
+     37.5409
+    ],
+    [
+     -5.6465,
+     37.4703
+    ],
+    [
+     -5.9963,
+     37.3827
+    ],
+    [
+     -6.05,
+     37.0
+    ],
+    [
+     -6.1726,
+     36.788
+    ],
+    [
+     -6.2931,
+     36.5293
+    ]
+   ],
+   "summary": "Augustus's rebuilding (8-2 BC) of the old Via Heraclea along the Mediterranean coast of Spain and inland through Castulo and Corduba to Gades, 1,500 km. The Vicarello cups list its stations from Gades to Rome.",
+   "detail": "The arch of Janus Augustus on the Baetis marked the entry into Baetica. Scipio's and Hannibal's armies had used the same coastal corridor.",
+   "certainty": "certain",
+   "lengthKm": 1140
+  },
+  {
+   "id": "via_de_la_plata",
+   "name": "Iter ab Emerita Asturicam (Vía de la Plata)",
+   "built": -25,
+   "builder": null,
+   "line": [
+    [
+     -5.9963,
+     37.3827
+    ],
+    [
+     -6.0439,
+     37.4419
+    ],
+    [
+     -6.1,
+     37.8
+    ],
+    [
+     -6.25,
+     38.25
+    ],
+    [
+     -6.341,
+     38.9177
+    ],
+    [
+     -6.3,
+     39.2
+    ],
+    [
+     -6.3722,
+     39.4743
+    ],
+    [
+     -6.2,
+     39.8
+    ],
+    [
+     -6.1013,
+     40.1667
+    ],
+    [
+     -5.95,
+     40.45
+    ],
+    [
+     -5.8,
+     40.7
+    ],
+    [
+     -5.6631,
+     40.965
+    ],
+    [
+     -5.7,
+     41.25
+    ],
+    [
+     -5.7463,
+     41.5033
+    ],
+    [
+     -5.8,
+     41.85
+    ],
+    [
+     -5.95,
+     42.2
+    ],
+    [
+     -6.0635,
+     42.4588
+    ]
+   ],
+   "summary": "North-south road from Hispalis and Emerita Augusta through Caparra and Salmantica to Asturica Augusta, carrying the produce of the north-western gold mines. Its modern name comes from Arabic balat (paved road), not silver.",
+   "certainty": "probable",
+   "lengthKm": 580
+  },
+  {
+   "id": "via_iulia_augusta",
+   "name": "Via Iulia Augusta",
+   "built": -13,
+   "builder": "augustus",
+   "line": [
+    [
+     9.6977,
+     45.0526
+    ],
+    [
+     8.8655,
+     44.8972
+    ],
+    [
+     8.65,
+     44.6
+    ],
+    [
+     8.4358,
+     44.2694
+    ],
+    [
+     8.2149,
+     44.0484
+    ],
+    [
+     8.0,
+     43.9
+    ],
+    [
+     7.6258,
+     43.7928
+    ],
+    [
+     7.405,
+     43.75
+    ],
+    [
+     7.2758,
+     43.7195
+    ],
+    [
+     7.1209,
+     43.5806
+    ],
+    [
+     6.736,
+     43.4328
+    ],
+    [
+     6.3,
+     43.43
+    ],
+    [
+     5.9,
+     43.5
+    ],
+    [
+     5.4454,
+     43.5262
+    ],
+    [
+     5.0,
+     43.65
+    ],
+    [
+     4.6308,
+     43.6776
+    ]
+   ],
+   "summary": "Augustus's road of 13-12 BC from Placentia via Dertona to the Ligurian coast and along the Riviera to Arelate, built after the conquest of the Alpine tribes celebrated at the Tropaeum Alpium at La Turbie (7-6 BC).",
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "3.136-137"
+    }
+   ],
+   "certainty": "probable",
+   "lengthKm": 490
+  },
+  {
+   "id": "via_agrippa_narbonensis",
+   "name": "Via Agrippa (Lugdunum-Arelate-Massilia)",
+   "built": -20,
+   "builder": "agrippa",
+   "line": [
+    [
+     4.8195,
+     45.7589
+    ],
+    [
+     4.876,
+     45.5245
+    ],
+    [
+     4.82,
+     45.35
+    ],
+    [
+     4.85,
+     45.12
+    ],
+    [
+     4.8897,
+     44.9307
+    ],
+    [
+     4.78,
+     44.7
+    ],
+    [
+     4.73,
+     44.45
+    ],
+    [
+     4.8079,
+     44.1368
+    ],
+    [
+     4.8066,
+     43.9507
+    ],
+    [
+     4.7,
+     43.78
+    ],
+    [
+     4.6308,
+     43.6776
+    ],
+    [
+     4.95,
+     43.5
+    ],
+    [
+     5.3825,
+     43.2969
+    ]
+   ],
+   "summary": "The southern branch of Agrippa's road system radiating from Lugdunum (Strabo 4.6.11), down the Rhône valley through Vienna, Valentia and Arausio to Arelate and Massilia.",
+   "sources": [
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "4.6.11"
+    }
+   ],
+   "certainty": "probable",
+   "lengthKm": 310
+  },
+  {
+   "id": "via_agrippa_rhine",
+   "name": "Via Agrippa (Lugdunum-Rhine)",
+   "built": -20,
+   "builder": "agrippa",
+   "line": [
+    [
+     4.8195,
+     45.7589
+    ],
+    [
+     4.84,
+     46.05
+    ],
+    [
+     4.8302,
+     46.3068
+    ],
+    [
+     4.853,
+     46.781
+    ],
+    [
+     5.04,
+     47.25
+    ],
+    [
+     5.3352,
+     47.8642
+    ],
+    [
+     5.6,
+     48.2
+    ],
+    [
+     5.8948,
+     48.6794
+    ],
+    [
+     6.05,
+     48.9
+    ],
+    [
+     6.1742,
+     49.1181
+    ],
+    [
+     6.4,
+     49.45
+    ],
+    [
+     6.6417,
+     49.7522
+    ],
+    [
+     6.8,
+     50.15
+    ],
+    [
+     6.85,
+     50.55
+    ],
+    [
+     6.9599,
+     50.9407
+    ]
+   ],
+   "summary": "Agrippa's road from Lugdunum up the Saône to Cabillonum, over the Langres plateau to Tullum, Divodurum and Augusta Treverorum and down the Moselle valley and the Eifel to the Rhine army at Cologne.",
+   "sources": [
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "4.6.11"
+    }
+   ],
+   "certainty": "probable",
+   "lengthKm": 600
+  },
+  {
+   "id": "via_agrippa_ocean",
+   "name": "Via Agrippa (Lugdunum-Ocean)",
+   "built": -20,
+   "builder": "agrippa",
+   "line": [
+    [
+     4.8195,
+     45.7589
+    ],
+    [
+     4.8302,
+     46.3068
+    ],
+    [
+     4.853,
+     46.781
+    ],
+    [
+     4.2992,
+     46.9472
+    ],
+    [
+     4.0,
+     47.4
+    ],
+    [
+     3.9,
+     47.8
+    ],
+    [
+     4.05,
+     48.3
+    ],
+    [
+     4.0748,
+     48.2975
+    ],
+    [
+     4.05,
+     48.8
+    ],
+    [
+     4.0332,
+     49.254
+    ],
+    [
+     3.4,
+     49.4
+    ],
+    [
+     3.3259,
+     49.3808
+    ],
+    [
+     2.8,
+     49.65
+    ],
+    [
+     2.3,
+     49.894
+    ],
+    [
+     1.9,
+     50.3
+    ],
+    [
+     1.6148,
+     50.7257
+    ]
+   ],
+   "summary": "Agrippa's road to the Channel coast at Gesoriacum (Boulogne), the embarkation point for Britain, by way of Augustodunum, Durocortorum and Samarobriva.",
+   "sources": [
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "4.6.11"
+    }
+   ],
+   "certainty": "probable",
+   "lengthKm": 680
+  },
+  {
+   "id": "via_agrippa_aquitania",
+   "name": "Via Agrippa (Lugdunum-Aquitania)",
+   "built": -20,
+   "builder": "agrippa",
+   "line": [
+    [
+     4.8195,
+     45.7589
+    ],
+    [
+     4.5,
+     45.72
+    ],
+    [
+     4.06,
+     45.66
+    ],
+    [
+     3.7,
+     45.72
+    ],
+    [
+     3.0859,
+     45.7787
+    ],
+    [
+     2.7,
+     45.75
+    ],
+    [
+     2.3,
+     45.7
+    ],
+    [
+     1.8,
+     45.8
+    ],
+    [
+     1.2644,
+     45.8285
+    ],
+    [
+     0.9,
+     45.78
+    ],
+    [
+     0.4,
+     45.75
+    ],
+    [
+     0.0,
+     45.75
+    ],
+    [
+     -0.633,
+     45.745
+    ]
+   ],
+   "summary": "The western branch of Agrippa's roads, across the Massif Central through Augustonemetum (Clermont) and Augustoritum (Limoges) to Mediolanum Santonum (Saintes), crossing the Charente by a bridge marked by the Arch of Germanicus.",
+   "sources": [
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "4.6.11"
+    }
+   ],
+   "certainty": "probable",
+   "lengthKm": 430
+  },
+  {
+   "id": "via_belgica",
+   "name": "Via Belgica (Bavay-Cologne road)",
+   "built": -20,
+   "builder": "agrippa",
+   "line": [
+    [
+     1.6148,
+     50.7257
+    ],
+    [
+     2.0,
+     50.68
+    ],
+    [
+     2.5,
+     50.6
+    ],
+    [
+     2.7786,
+     50.2928
+    ],
+    [
+     3.3,
+     50.27
+    ],
+    [
+     3.7924,
+     50.2978
+    ],
+    [
+     4.2,
+     50.42
+    ],
+    [
+     4.7,
+     50.58
+    ],
+    [
+     5.1,
+     50.68
+    ],
+    [
+     5.4639,
+     50.7806
+    ],
+    [
+     5.75,
+     50.85
+    ],
+    [
+     5.9809,
+     50.883
+    ],
+    [
+     6.3,
+     50.9
+    ],
+    [
+     6.3612,
+     50.921
+    ],
+    [
+     6.7,
+     50.93
+    ],
+    [
+     6.9599,
+     50.9407
+    ]
+   ],
+   "summary": "Main east-west road of northern Gaul from Boulogne via Bagacum (Bavay), the hub of seven roads, and Atuatuca Tungrorum (Tongeren) to Cologne, probably laid out under Agrippa; 'Via Belgica' is a modern name.",
+   "certainty": "probable",
+   "lengthKm": 410
+  },
+  {
+   "id": "via_claudia_augusta",
+   "name": "Via Claudia Augusta",
+   "built": 47,
+   "builder": "claudius",
+   "extended": [
+    {
+     "y": -15,
+     "t": "military track of Drusus"
+    },
+    {
+     "y": 47,
+     "t": "completed and paved by Claudius"
+    }
+   ],
+   "line": [
+    [
+     12.3997,
+     45.5463
+    ],
+    [
+     12.2,
+     45.75
+    ],
+    [
+     11.9057,
+     46.0166
+    ],
+    [
+     11.6,
+     46.03
+    ],
+    [
+     11.1191,
+     46.0668
+    ],
+    [
+     11.15,
+     46.3
+    ],
+    [
+     11.358,
+     46.4967
+    ],
+    [
+     11.16,
+     46.67
+    ],
+    [
+     10.85,
+     46.68
+    ],
+    [
+     10.53,
+     46.83
+    ],
+    [
+     10.52,
+     47.05
+    ],
+    [
+     10.65,
+     47.2
+    ],
+    [
+     10.83,
+     47.36
+    ],
+    [
+     10.7004,
+     47.5697
+    ],
+    [
+     10.9097,
+     47.9099
+    ],
+    [
+     10.88,
+     48.1
+    ],
+    [
+     10.8948,
+     48.3655
+    ],
+    [
+     10.8,
+     48.7
+    ]
+   ],
+   "summary": "Alpine road over the Reschen and Fern passes from the Adriatic to the Danube, opened by Drusus during the Alpine war of 15 BC and completed by Claudius in 46-47, as two milestones state ('from the river Po ... to the river Danube, 350 miles').",
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "CIL V",
+     "r": "8002-8003 (Rabland and Cesiomaggiore milestones)"
+    }
+   ],
+   "certainty": "certain",
+   "lengthKm": 480
+  },
+  {
+   "id": "via_flavia",
+   "name": "Via Flavia (Istria)",
+   "built": 78,
+   "builder": "vespasian",
+   "line": [
+    [
+     13.7717,
+     45.6491
+    ],
+    [
+     13.8,
+     45.58
+    ],
+    [
+     13.82,
+     45.5
+    ],
+    [
+     13.78,
+     45.42
+    ],
+    [
+     13.72,
+     45.35
+    ],
+    [
+     13.5949,
+     45.2274
+    ],
+    [
+     13.66,
+     45.13
+    ],
+    [
+     13.72,
+     45.05
+    ],
+    [
+     13.79,
+     44.97
+    ],
+    [
+     13.8411,
+     44.8696
+    ]
+   ],
+   "summary": "Road down the west coast of Istria from Tergeste to Pola, built under Vespasian in 78-79 according to its milestones.",
+   "certainty": "probable",
+   "lengthKm": 100
+  },
+  {
+   "id": "via_carthago_theveste",
+   "name": "Carthage-Theveste road",
+   "built": 123,
+   "builder": "hadrian",
+   "line": [
+    [
+     10.322,
+     36.8545
+    ],
+    [
+     10.15,
+     36.78
+    ],
+    [
+     9.9,
+     36.7
+    ],
+    [
+     9.6134,
+     36.6487
+    ],
+    [
+     9.3618,
+     36.5237
+    ],
+    [
+     9.2187,
+     36.4232
+    ],
+    [
+     9.1441,
+     36.3366
+    ],
+    [
+     9.0,
+     36.15
+    ],
+    [
+     8.7122,
+     36.1806
+    ],
+    [
+     8.6,
+     35.9
+    ],
+    [
+     8.4558,
+     35.5653
+    ],
+    [
+     8.3,
+     35.48
+    ],
+    [
+     8.1223,
+     35.4042
+    ]
+   ],
+   "summary": "Road of 191 Roman miles from Carthage up the Bagradas valley to Theveste, paved in 123 by soldiers of III Augusta under the legate P. Metilius Secundus, joining the capital to the legionary zone.",
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "CIL VIII",
+     "r": "10114 (milestone of 123)"
+    }
+   ],
+   "certainty": "probable",
+   "lengthKm": 280
+  },
+  {
+   "id": "watling_street",
+   "name": "Watling Street",
+   "built": 47,
+   "builder": null,
+   "line": [
+    [
+     1.3323,
+     51.2935
+    ],
+    [
+     1.0839,
+     51.2799
+    ],
+    [
+     0.9,
+     51.31
+    ],
+    [
+     0.78,
+     51.315
+    ],
+    [
+     0.5026,
+     51.3896
+    ],
+    [
+     0.3,
+     51.43
+    ],
+    [
+     0.1714,
+     51.4449
+    ],
+    [
+     -0.0889,
+     51.5133
+    ],
+    [
+     -0.2,
+     51.58
+    ],
+    [
+     -0.3047,
+     51.6333
+    ],
+    [
+     -0.3585,
+     51.752
+    ],
+    [
+     -0.5286,
+     51.883
+    ],
+    [
+     -0.7162,
+     51.9986
+    ],
+    [
+     -1.0,
+     52.135
+    ],
+    [
+     -1.0856,
+     52.2764
+    ],
+    [
+     -1.3014,
+     52.4945
+    ],
+    [
+     -1.5293,
+     52.5669
+    ],
+    [
+     -1.8565,
+     52.6569
+    ],
+    [
+     -2.1455,
+     52.694
+    ],
+    [
+     -2.407,
+     52.6951
+    ],
+    [
+     -2.6438,
+     52.6745
+    ]
+   ],
+   "summary": "The Roman road from the Kentish ports through London and Verulamium to Wroxeter, the axis of Iter II of the Antonine Itinerary; the name is Anglo-Saxon (Wæclingastræt, after the people of Verulamium). Paulinus probably destroyed Boudica's army somewhere along it in 60/61.",
+   "certainty": "certain",
+   "lengthKm": 340
+  },
+  {
+   "id": "fosse_way",
+   "name": "Fosse Way",
+   "built": 47,
+   "builder": null,
+   "line": [
+    [
+     -3.5269,
+     50.7256
+    ],
+    [
+     -3.3,
+     50.77
+    ],
+    [
+     -3.19,
+     50.8
+    ],
+    [
+     -2.95,
+     50.9
+    ],
+    [
+     -2.6823,
+     51.0008
+    ],
+    [
+     -2.55,
+     51.18
+    ],
+    [
+     -2.3597,
+     51.381
+    ],
+    [
+     -2.2,
+     51.53
+    ],
+    [
+     -1.9718,
+     51.7114
+    ],
+    [
+     -1.8,
+     51.88
+    ],
+    [
+     -1.68,
+     52.0
+    ],
+    [
+     -1.55,
+     52.15
+    ],
+    [
+     -1.42,
+     52.33
+    ],
+    [
+     -1.3014,
+     52.4945
+    ],
+    [
+     -1.1354,
+     52.6347
+    ],
+    [
+     -0.98,
+     52.8
+    ],
+    [
+     -0.8828,
+     53.042
+    ],
+    [
+     -0.68,
+     53.15
+    ],
+    [
+     -0.5384,
+     53.2348
+    ]
+   ],
+   "summary": "Road of about 370 km in near-straight alignment from Exeter to Lincoln, never more than 10 km from a straight line, which may mark the first frontier of the province c. 47 under the governor Ostorius Scapula. 'Fosse' refers to its ditch.",
+   "detail": "The theory that it was a frontier road (limes) for the early province goes back to Haverfield; it remains debated.",
+   "certainty": "certain",
+   "lengthKm": 360
+  },
+  {
+   "id": "ermine_street",
+   "name": "Ermine Street",
+   "built": 47,
+   "builder": null,
+   "line": [
+    [
+     -0.0889,
+     51.5133
+    ],
+    [
+     -0.08,
+     51.65
+    ],
+    [
+     -0.06,
+     51.78
+    ],
+    [
+     0.0271,
+     51.9064
+    ],
+    [
+     -0.08,
+     52.05
+    ],
+    [
+     -0.13,
+     52.2
+    ],
+    [
+     -0.1739,
+     52.3192
+    ],
+    [
+     -0.27,
+     52.45
+    ],
+    [
+     -0.3479,
+     52.5586
+    ],
+    [
+     -0.48,
+     52.73
+    ],
+    [
+     -0.6,
+     52.89
+    ],
+    [
+     -0.57,
+     53.05
+    ],
+    [
+     -0.5384,
+     53.2348
+    ],
+    [
+     -0.57,
+     53.45
+    ],
+    [
+     -0.59,
+     53.69
+    ],
+    [
+     -0.577,
+     53.7282
+    ],
+    [
+     -0.85,
+     53.84
+    ],
+    [
+     -1.0823,
+     53.9577
+    ]
+   ],
+   "summary": "Road from London north through Durobrivae (Water Newton) to Lincoln, then to the Humber at Winteringham, ferry to Petuaria (Brough) and on to York. The name is from the Anglo-Saxon Earninga stræt.",
+   "certainty": "certain",
+   "lengthKm": 300
+  },
+  {
+   "id": "dere_street",
+   "name": "Dere Street",
+   "built": 71,
+   "builder": null,
+   "line": [
+    [
+     -1.0823,
+     53.9577
+    ],
+    [
+     -1.25,
+     54.03
+    ],
+    [
+     -1.3833,
+     54.0906
+    ],
+    [
+     -1.5,
+     54.23
+    ],
+    [
+     -1.6547,
+     54.3872
+    ],
+    [
+     -1.66,
+     54.53
+    ],
+    [
+     -1.6766,
+     54.6766
+    ],
+    [
+     -1.7534,
+     54.8166
+    ],
+    [
+     -1.8401,
+     54.8942
+    ],
+    [
+     -2.0293,
+     54.9782
+    ],
+    [
+     -2.1736,
+     55.1701
+    ],
+    [
+     -2.2648,
+     55.2815
+    ],
+    [
+     -2.4,
+     55.42
+    ],
+    [
+     -2.6912,
+     55.5998
+    ],
+    [
+     -2.85,
+     55.75
+    ],
+    [
+     -2.95,
+     55.86
+    ],
+    [
+     -3.0546,
+     55.9372
+    ]
+   ],
+   "summary": "Road from York north across the Tees and Tyne at Corbridge, over the Cheviots past High Rochester to Newstead and the Forth at Inveresk: the invasion route of Agricola, Lollius Urbicus and Severus into Scotland. Named after the Anglian kingdom of Deira.",
+   "certainty": "certain",
+   "lengthKm": 260
+  },
+  {
+   "id": "stanegate_road",
+   "name": "Stanegate (road)",
+   "built": 80,
+   "builder": null,
+   "line": [
+    [
+     -2.0293,
+     54.9782
+    ],
+    [
+     -2.11,
+     54.98
+    ],
+    [
+     -2.205,
+     54.985
+    ],
+    [
+     -2.29,
+     54.99
+    ],
+    [
+     -2.3602,
+     54.9913
+    ],
+    [
+     -2.455,
+     54.983
+    ],
+    [
+     -2.5243,
+     54.9848
+    ],
+    [
+     -2.635,
+     54.968
+    ],
+    [
+     -2.715,
+     54.945
+    ],
+    [
+     -2.83,
+     54.915
+    ],
+    [
+     -2.9377,
+     54.896
+    ]
+   ],
+   "summary": "The 'stone road' (Middle English) between Corbridge and Carlisle, laid out c. 80 under Agricola to link the Tyne and Eden river crossings, later the service road behind Hadrian's Wall.",
+   "certainty": "probable",
+   "lengthKm": 60
+  }
+ ]
+}
