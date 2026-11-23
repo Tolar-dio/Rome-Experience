@@ -1,0 +1,2839 @@
+{
+ "events": [
+  {
+   "id": "funeral_of_pertinax_193",
+   "year": 193,
+   "month": 6,
+   "title": "Severus stages the funeral and deification of Pertinax",
+   "type": "religious",
+   "cats": [
+    "political",
+    "religious"
+   ],
+   "importance": 2,
+   "summary": "Soon after entering Rome Severus had Pertinax consecrated as divus and staged a lavish funerary consecratio with a wax effigy on a pyre in the Campus Martius, described as an eyewitness by Cassius Dio. The ceremony advertised Severus as avenger and heir of the murdered emperor, whose name he had already taken.",
+   "place": "roma",
+   "loc": [
+    12.4853,
+    41.8925
+   ],
+   "locName": "Campus Martius, Rome",
+   "locCertainty": "certain",
+   "people": [
+    "septimius_severus",
+    "pertinax",
+    "cassius_dio"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "75.4-5"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Severus",
+     "r": "7"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "consecratio",
+    "imperial funeral"
+   ]
+  },
+  {
+   "id": "battle_of_perinthus_193",
+   "year": 193,
+   "title": "Clash at Perinthus",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "Pescennius Niger's forces, having seized Byzantium, attempted to take Perinthus on the Propontis, but the Severan vanguard held the city; Dio records ominous prodigies and losses among Severus' troops. The check confined Niger to Byzantium and the Asian side.",
+   "place": "perinthus",
+   "loc": [
+    27.95,
+    40.98
+   ],
+   "locName": "Perinthus, Thrace",
+   "locCertainty": "probable",
+   "war": "civil_war_193_197",
+   "people": [
+    "pescennius_niger",
+    "septimius_severus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "septimius_severus"
+      ]
+     },
+     {
+      "polity": "rome",
+      "commanders": [
+       "pescennius_niger"
+      ]
+     }
+    ],
+    "victor": "indecisive",
+    "kind": "skirmish",
+    "significance": "Kept Thrace in Severan hands and opened the long siege of Byzantium."
+   },
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "75.6"
+    },
+    {
+     "a": "Herodian",
+     "w": "History of the Empire after Marcus",
+     "r": "3.2"
+    }
+   ],
+   "certainty": "probable"
+  },
+  {
+   "id": "byzantium_razed_196",
+   "year": 196,
+   "title": "Fall and punishment of Byzantium",
+   "type": "siege",
+   "cats": [
+    "military",
+    "political"
+   ],
+   "importance": 3,
+   "summary": "After a siege of some two and a half years, during which its engineer Priscus built machines that Dio admired, starving Byzantium surrendered. Severus executed its magistrates and soldiers, razed its famous walls, confiscated its property and made it a village subject to Perinthus; Caracalla later persuaded him to restore it.",
+   "loc": [
+    28.98,
+    41.01
+   ],
+   "locName": "Byzantium",
+   "locCertainty": "probable",
+   "war": "civil_war_193_197",
+   "people": [
+    "septimius_severus",
+    "caracalla"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "septimius_severus"
+      ]
+     },
+     {
+      "polity": "rome",
+      "commanders": [],
+      "strength": "garrison of Niger's partisans",
+      "losses": "magistrates and soldiers executed"
+     }
+    ],
+    "victor": "rome",
+    "kind": "siege",
+    "significance": "Removed the last Nigrian stronghold; destruction of the walls weakened the Bosporus against later Gothic raids, as Dio notes."
+   },
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "75.10-14"
+    },
+    {
+     "a": "Herodian",
+     "w": "History of the Empire after Marcus",
+     "r": "3.6.9"
+    }
+   ],
+   "debate": "Surrender date late 195 or early 196.",
+   "certainty": "probable"
+  },
+  {
+   "id": "legio_ii_parthica_at_albanum_197",
+   "year": 197,
+   "title": "Legio II Parthica stationed at Albanum",
+   "type": "administrative",
+   "cats": [
+    "military",
+    "political"
+   ],
+   "importance": 3,
+   "summary": "Severus based the new II Parthica in a fortress at Albanum 20 km from Rome, the first legion stationed in Italy under the Principate. With the doubled Praetorian Guard and enlarged urban cohorts, it gave the emperor some 30,000 troops near the capital, a decisive military reserve.",
+   "place": "castra_albana",
+   "loc": [
+    12.6573,
+    41.7306
+   ],
+   "locName": "Castra Albana, Alban Hills",
+   "locCertainty": "probable",
+   "people": [
+    "septimius_severus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "55.24.4"
+    },
+    {
+     "a": "Herodian",
+     "w": "History of the Empire after Marcus",
+     "r": "8.5.8"
+    }
+   ],
+   "debate": "Exact date of installation (197-202) uncertain.",
+   "certainty": "probable",
+   "tags": [
+    "strategic reserve"
+   ]
+  },
+  {
+   "id": "alexandrian_persecution_202",
+   "year": 202,
+   "title": "Persecution at Alexandria; martyrdom of Leonides",
+   "type": "religious",
+   "cats": [
+    "religious"
+   ],
+   "importance": 3,
+   "summary": "Christians were arrested and executed in Egypt under the prefect Laetus, among them Leonides, father of the 17-year-old Origen, whose mother hid his clothes to stop him seeking martyrdom. Clement left Alexandria and Origen took over catechetical instruction. The Historia Augusta's claim that Severus banned conversion to Judaism and Christianity is doubted.",
+   "place": "alexandria",
+   "loc": [
+    29.91,
+    31.2
+   ],
+   "locName": "Alexandria",
+   "locCertainty": "probable",
+   "people": [
+    "origen",
+    "septimius_severus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Eusebius",
+     "w": "Ecclesiastical History",
+     "r": "6.1-3"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Severus",
+     "r": "17.1"
+    }
+   ],
+   "debate": "Whether an empire-wide Severan ban on conversion existed is disputed; the persecution may have been local.",
+   "certainty": "probable"
+  },
+  {
+   "id": "septizodium_203",
+   "year": 203,
+   "title": "Septizodium built on the Palatine",
+   "type": "building",
+   "cats": [
+    "cultural"
+   ],
+   "importance": 2,
+   "summary": "Severus erected a three-storeyed columnar façade, the Septizodium, at the south-east corner of the Palatine facing the Via Appia, so that travellers from Africa would see his monument first (HA). Its remains were demolished by Sixtus V in 1588-89 for building material.",
+   "place": "roma",
+   "loc": [
+    12.4875,
+    41.8857
+   ],
+   "locName": "Via Appia front of the Palatine, Rome",
+   "locCertainty": "certain",
+   "people": [
+    "septimius_severus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Severus",
+     "r": "19.5, 24.3"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Palatine",
+    "nymphaeum"
+   ]
+  },
+  {
+   "id": "forma_urbis_severan",
+   "year": 205,
+   "title": "Severan Marble Plan of Rome",
+   "type": "cultural",
+   "cats": [
+    "cultural",
+    "administrative"
+   ],
+   "importance": 3,
+   "summary": "Between about 203 and 211 a marble plan of the entire city at roughly 1:240, some 18 x 13 m on 150 slabs, was fixed to a wall of the Templum Pacis (now part of Santi Cosma e Damiano). About 10-15% survives in over 1,100 fragments, the most important document of ancient Rome's topography.",
+   "place": "roma",
+   "loc": [
+    12.4877,
+    41.8922
+   ],
+   "locName": "Templum Pacis, Rome",
+   "locCertainty": "probable",
+   "people": [
+    "septimius_severus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [],
+   "scholarship": [
+    "Carettoni et al., La pianta marmorea di Roma antica (1960)",
+    "Stanford Digital Forma Urbis Romae Project"
+   ],
+   "certainty": "probable",
+   "tags": [
+    "Forma Urbis Romae",
+    "topography"
+   ]
+  },
+  {
+   "id": "numidia_made_province",
+   "year": 198,
+   "title": "Numidia separated from Africa Proconsularis",
+   "type": "administrative",
+   "cats": [
+    "administrative"
+   ],
+   "importance": 2,
+   "summary": "Under Severus the military zone of the legate of III Augusta became a separate province, Numidia, with its capital at Lambaesis, formalising a de facto division since Caligula. Severus also pushed the Tripolitanian and Numidian frontier south with new forts such as Gholaia (Bu Njem, 201) and Castellum Dimmidi.",
+   "place": "lambaesis",
+   "loc": [
+    6.25,
+    35.49
+   ],
+   "locName": "Lambaesis, Numidia",
+   "locCertainty": "probable",
+   "people": [
+    "septimius_severus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "59.20.7"
+    }
+   ],
+   "debate": "The precise date of the formal separation (between 197 and 208) is disputed.",
+   "certainty": "probable"
+  },
+  {
+   "id": "division_of_britain_severan",
+   "year": 213,
+   "title": "Britain divided into Superior and Inferior",
+   "type": "administrative",
+   "cats": [
+    "administrative",
+    "military"
+   ],
+   "importance": 3,
+   "summary": "To prevent any future governor from commanding three legions, as Clodius Albinus had, Britain was split into Britannia Superior (Londinium, legions II Augusta and XX Valeria Victrix) and Britannia Inferior (Eboracum, VI Victrix). Herodian attributes it to Severus in 197; inscriptions show it in force under Caracalla by about 213-216.",
+   "place": "eboracum",
+   "loc": [
+    -1.08,
+    53.96
+   ],
+   "locName": "Eboracum and Londinium",
+   "locCertainty": "probable",
+   "people": [
+    "septimius_severus",
+    "caracalla"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Herodian",
+     "w": "History of the Empire after Marcus",
+     "r": "3.8.2"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "55.23"
+    }
+   ],
+   "debate": "Herodian dates it 197, epigraphy suggests c. 211-216.",
+   "certainty": "probable"
+  },
+  {
+   "id": "purge_after_geta_212",
+   "year": 212,
+   "month": 1,
+   "title": "Caracalla's purge and the execution of Papinian",
+   "type": "political",
+   "cats": [
+    "political",
+    "law"
+   ],
+   "importance": 3,
+   "summary": "After Geta's murder Caracalla killed his brother's friends and supporters, about 20,000 people according to Dio, including Pertinax's son, Marcus Aurelius' last daughter Cornificia and the great jurist Papinian, praetorian prefect, beheaded with an axe after allegedly refusing to justify the fratricide ('it is not as easy to defend a murder as to commit it'). Geta's name and images were erased across the empire.",
+   "place": "roma",
+   "loc": [
+    12.4875,
+    41.8892
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "people": [
+    "caracalla",
+    "papinian",
+    "geta",
+    "julia_domna"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "78.4-6"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Caracalla",
+     "r": "4, 8"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Geta",
+     "r": "6"
+    }
+   ],
+   "debate": "The famous retort of Papinian is from the Historia Augusta and may be invented.",
+   "certainty": "certain",
+   "tags": [
+    "damnatio memoriae"
+   ]
+  },
+  {
+   "id": "caracalla_at_ilium_214",
+   "year": 214,
+   "title": "Caracalla honours Achilles at Ilium",
+   "type": "religious",
+   "cats": [
+    "religious",
+    "cultural"
+   ],
+   "importance": 2,
+   "summary": "Marching east in imitation of Alexander, Caracalla visited Troy, sacrificed at the tomb of Achilles and staged a funeral for his freedman Festus, said by Herodian to have been poisoned for the purpose, so that he could play Achilles mourning Patroclus. He also formed a phalanx of 16,000 Macedonians armed in the ancient manner.",
+   "place": "ilium",
+   "loc": [
+    26.24,
+    39.96
+   ],
+   "locName": "Ilium (Troy)",
+   "locCertainty": "probable",
+   "people": [
+    "caracalla"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Herodian",
+     "w": "History of the Empire after Marcus",
+     "r": "4.8.3-5"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "78.7, 78.16.7"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "imitatio Alexandri"
+   ]
+  },
+  {
+   "id": "macrinus_peace_with_parthia_218",
+   "year": 218,
+   "title": "Macrinus buys peace from Artabanus IV",
+   "type": "treaty",
+   "cats": [
+    "diplomatic",
+    "military"
+   ],
+   "importance": 3,
+   "summary": "After the bloody drawn battle at Nisibis, Macrinus ended the Parthian war by returning prisoners and paying Artabanus IV about 200 million sesterces in gifts, while keeping the province of Mesopotamia. The payment undermined Macrinus with the army and the Senate.",
+   "place": "nisibis",
+   "loc": [
+    41.22,
+    37.07
+   ],
+   "locName": "Nisibis, Mesopotamia",
+   "locCertainty": "certain",
+   "war": "parthian_war_216_217",
+   "people": [
+    "macrinus",
+    "artabanus_iv"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "79.26-27"
+    },
+    {
+     "a": "Herodian",
+     "w": "History of the Empire after Marcus",
+     "r": "4.15.6-9"
+    }
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "death_of_macrinus_218",
+   "year": 218,
+   "month": 6,
+   "title": "Execution of Macrinus and Diadumenian",
+   "type": "death",
+   "cats": [
+    "political"
+   ],
+   "importance": 2,
+   "summary": "Beaten at Immae near Antioch on 8 June 218, Macrinus fled disguised towards Rome but was caught at Chalcedon and killed in Cappadocia; his son Diadumenian, made Augustus weeks before, was taken at Zeugma and executed. Macrinus, the first equestrian emperor, had never visited Rome as emperor.",
+   "loc": [
+    35.9,
+    38.5
+   ],
+   "locName": "Cappadocia (Archelais)",
+   "locCertainty": "approx",
+   "people": [
+    "macrinus",
+    "elagabalus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "79.39-40"
+    },
+    {
+     "a": "Herodian",
+     "w": "History of the Empire after Marcus",
+     "r": "5.4"
+    }
+   ],
+   "certainty": "probable"
+  },
+  {
+   "id": "elagabalus_marries_vestal_220",
+   "year": 220,
+   "title": "Elagabalus marries the Vestal Aquilia Severa",
+   "type": "religious",
+   "cats": [
+    "religious",
+    "political"
+   ],
+   "importance": 2,
+   "summary": "Elagabalus divorced Julia Cornelia Paula and married the Vestal Virgin Julia Aquilia Severa, claiming the union of priest and priestess would produce godlike children; he also \"married\" his sun-stone god to the Palladium and then to the Carthaginian Caelestis. Roman opinion saw it as sacrilege punishable by burial alive.",
+   "place": "roma",
+   "loc": [
+    12.4865,
+    41.8917
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "people": [
+    "elagabalus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "80.9"
+    },
+    {
+     "a": "Herodian",
+     "w": "History of the Empire after Marcus",
+     "r": "5.6.2-5"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Vestal Virgins",
+    "sacred marriage"
+   ]
+  },
+  {
+   "id": "seius_sallustius_conspiracy_227",
+   "year": 227,
+   "title": "Fall of Seius Sallustius, Severus Alexander's father-in-law",
+   "type": "political",
+   "cats": [
+    "political"
+   ],
+   "importance": 2,
+   "summary": "Lucius Seius Herennius Sallustius, made Caesar when his daughter Orbiana married Severus Alexander (225), was executed for an alleged plot, and Orbiana was exiled to Libya; Herodian blames the jealousy of Julia Mamaea.",
+   "place": "roma",
+   "loc": [
+    12.4875,
+    41.8892
+   ],
+   "locName": "Rome",
+   "locCertainty": "probable",
+   "people": [
+    "severus_alexander",
+    "julia_mamaea"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Herodian",
+     "w": "History of the Empire after Marcus",
+     "r": "6.1.9-10"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Severus Alexander",
+     "r": "49.3-4"
+    }
+   ],
+   "debate": "Date 227 or 228.",
+   "certainty": "probable"
+  },
+  {
+   "id": "julius_africanus_library_pantheon",
+   "year": 230,
+   "title": "Julius Africanus organises a library in the Pantheon",
+   "type": "cultural",
+   "cats": [
+    "cultural",
+    "literature"
+   ],
+   "importance": 2,
+   "summary": "The Christian chronographer Sextus Julius Africanus, who had served at Edessa and led an embassy for Emmaus-Nicopolis, designed a library in the Pantheon for Severus Alexander, as recorded in a papyrus fragment of his miscellany Kestoi (P.Oxy. 412). His Chronographiai, dating creation to 5500 BC, became the foundation of Christian world chronology.",
+   "place": "roma",
+   "loc": [
+    12.4769,
+    41.8986
+   ],
+   "locName": "Pantheon, Rome",
+   "locCertainty": "probable",
+   "people": [
+    "julius_africanus",
+    "severus_alexander"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Papyri",
+     "w": "P.Oxy. III 412 (Julius Africanus, Kestoi)"
+    },
+    {
+     "a": "George Syncellus",
+     "w": "Ecloga Chronographica"
+    }
+   ],
+   "debate": "Date uncertain, c. 227-235.",
+   "certainty": "probable"
+  },
+  {
+   "id": "dura_church_house",
+   "year": 232,
+   "title": "Church house at Dura-Europos",
+   "type": "religious",
+   "cats": [
+    "religious",
+    "cultural"
+   ],
+   "importance": 3,
+   "summary": "A private house at Dura was converted around 232/3-241 into a Christian meeting place with an assembly room and a painted baptistery showing the Good Shepherd, Adam and Eve, the healing of the paralytic, Christ walking on water and women at the tomb. Buried under the rampart in 256, it is the oldest securely identified church building.",
+   "place": "dura_europos",
+   "loc": [
+    40.7299,
+    34.7472
+   ],
+   "locName": "Dura-Europos, Syria",
+   "locCertainty": "probable",
+   "people": [],
+   "polities": [
+    "rome"
+   ],
+   "sources": [],
+   "scholarship": [
+    "Kraeling, The Christian Building (Excavations at Dura-Europos, Final Report VIII.2, 1967)",
+    "Peppard, The World's Oldest Church (2016)"
+   ],
+   "certainty": "probable",
+   "tags": [
+    "domus ecclesiae",
+    "early Christian art"
+   ]
+  },
+  {
+   "id": "dura_synagogue_244",
+   "year": 244,
+   "title": "Painting of the Dura-Europos synagogue",
+   "type": "cultural",
+   "cats": [
+    "religious",
+    "cultural"
+   ],
+   "importance": 3,
+   "summary": "The enlarged synagogue at Dura, dated by Aramaic inscriptions to 244/5, was decorated with some 58 narrative panels of biblical scenes (Exodus, Ezekiel's dry bones, Esther, the Ark among the Philistines), overturning assumptions that Jewish art avoided figuration. It survived because it was buried in the defensive embankment of 256.",
+   "place": "dura_europos",
+   "loc": [
+    40.7286,
+    34.7478
+   ],
+   "locName": "Dura-Europos, Syria",
+   "locCertainty": "certain",
+   "people": [],
+   "polities": [
+    "rome"
+   ],
+   "sources": [],
+   "scholarship": [
+    "Kraeling, The Synagogue (Dura Final Report VIII.1, 1956)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Jewish art",
+    "Aramaic inscriptions"
+   ]
+  },
+  {
+   "id": "alamannic_invasion_233",
+   "year": 233,
+   "title": "Alamanni break through the Raetian and Upper German limes",
+   "type": "campaign",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "While Severus Alexander was in the east, Germanic raiders crossed the Rhine and Danube frontier; burnt forts and coin hoards ending c. 233 cluster in the Taunus, Wetterau and Raetia (Pfünz, Saalburg). Alarming reports brought Alexander west in 234.",
+   "loc": [
+    10.2,
+    48.9
+   ],
+   "locName": "Upper German-Raetian limes",
+   "locCertainty": "approx",
+   "war": "maximinus_german_war",
+   "people": [
+    "severus_alexander"
+   ],
+   "polities": [
+    "rome",
+    "alamanni"
+   ],
+   "sources": [
+    {
+     "a": "Herodian",
+     "w": "History of the Empire after Marcus",
+     "r": "6.7.2-3"
+    }
+   ],
+   "debate": "The identification of the invaders as Alamanni is anachronistic for 233; the name is first secure in 289.",
+   "certainty": "probable"
+  },
+  {
+   "id": "exile_of_pontian_and_hippolytus_235",
+   "year": 235,
+   "month": 9,
+   "day": 28,
+   "title": "Pontian and Hippolytus deported to Sardinia",
+   "type": "religious",
+   "cats": [
+    "religious"
+   ],
+   "importance": 3,
+   "summary": "Under Maximinus the bishop of Rome Pontian and the rival presbyter Hippolytus were exiled to the mines of Sardinia; Pontian resigned on 28 September 235, the first exactly dated papal abdication, and both died there. Their remains were brought back by Fabian and the schism ended.",
+   "loc": [
+    9.1,
+    40.1
+   ],
+   "locName": "Sardinia",
+   "locCertainty": "approx",
+   "people": [
+    "hippolytus_of_rome",
+    "maximinus_thrax"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Chronograph of 354",
+     "w": "Liberian Catalogue"
+    },
+    {
+     "a": "Eusebius",
+     "w": "Ecclesiastical History",
+     "r": "6.28"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "Liberian Catalogue",
+    "damnatio ad metalla"
+   ]
+  },
+  {
+   "id": "maximinus_danube_campaigns_236",
+   "year": 236,
+   "title": "Maximinus campaigns against Dacians and Sarmatians",
+   "type": "campaign",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "After his victory in Germany Maximinus wintered at Sirmium and campaigned beyond the middle Danube in 236-237, taking the titles Dacicus Maximus and Sarmaticus Maximus. His exactions to pay the army provoked the revolts of 238.",
+   "place": "sirmium",
+   "loc": [
+    19.61,
+    44.97
+   ],
+   "locName": "Sirmium",
+   "locCertainty": "probable",
+   "war": "maximinus_german_war",
+   "people": [
+    "maximinus_thrax"
+   ],
+   "polities": [
+    "rome",
+    "sarmatians",
+    "free_dacians"
+   ],
+   "sources": [
+    {
+     "a": "Herodian",
+     "w": "History of the Empire after Marcus",
+     "r": "7.2.9"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Maximini Duo",
+     "r": "13.3"
+    }
+   ],
+   "certainty": "probable"
+  },
+  {
+   "id": "persians_take_nisibis_carrhae_238",
+   "year": 238,
+   "title": "Ardashir takes Nisibis and Carrhae",
+   "type": "campaign",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "Exploiting the chaos of 235-238, Ardashir and his son Shapur seized the Roman strongholds of Nisibis and Carrhae in Mesopotamia (Syncellus, Zonaras), and by 240 had taken Hatra. Dura-Europos records a Persian approach in 239.",
+   "place": "nisibis",
+   "loc": [
+    41.22,
+    37.07
+   ],
+   "locName": "Nisibis and Carrhae",
+   "locCertainty": "probable",
+   "war": "persian_war_241_244",
+   "people": [
+    "ardashir_i",
+    "shapur_i"
+   ],
+   "polities": [
+    "rome",
+    "sasanian"
+   ],
+   "sources": [
+    {
+     "a": "George Syncellus",
+     "w": "Ecloga Chronographica",
+     "r": "681"
+    },
+    {
+     "a": "Zonaras",
+     "w": "Epitome of Histories",
+     "r": "12.18"
+    }
+   ],
+   "debate": "Dates range 235-238.",
+   "certainty": "probable"
+  },
+  {
+   "id": "legio_iii_augusta_disbanded_238",
+   "year": 238,
+   "title": "Legio III Augusta disbanded",
+   "type": "administrative",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "Because its legate Capelianus had crushed the Gordians at Carthage, Gordian III's regime dissolved legio III Augusta and erased its name from inscriptions; its men were sent to Raetia. The legion was reconstituted at Lambaesis by Valerian in 253.",
+   "place": "lambaesis",
+   "loc": [
+    6.25,
+    35.49
+   ],
+   "locName": "Lambaesis, Numidia",
+   "locCertainty": "certain",
+   "people": [
+    "gordian_iii"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Inscriptions",
+     "w": "CIL VIII 2634"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "damnatio memoriae of a unit"
+   ]
+  },
+  {
+   "id": "timesitheus_prefect_241",
+   "year": 241,
+   "title": "Timesitheus becomes praetorian prefect; Gordian marries Tranquillina",
+   "type": "political",
+   "cats": [
+    "political"
+   ],
+   "importance": 2,
+   "summary": "Gaius Furius Sabinius Aquila Timesitheus, an equestrian with a long career of procuratorships, became praetorian prefect and married his daughter Furia Sabinia Tranquillina to the 16-year-old Gordian III, effectively directing the government until his death of illness in 243.",
+   "place": "roma",
+   "loc": [
+    12.4875,
+    41.8892
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "people": [
+    "timesitheus",
+    "gordian_iii"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Gordiani Tres",
+     "r": "23-24, 28"
+    },
+    {
+     "a": "Zosimus",
+     "w": "New History",
+     "r": "1.17"
+    }
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "gordian_iii_balkan_march_242",
+   "year": 242,
+   "title": "Gordian III opens the gates of Janus and marches east",
+   "type": "campaign",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "Gordian III ceremonially opened the gates of the Temple of Janus and led an army east through the Balkans, defeating Goths, Carpi and Sarmatians in Moesia and Thrace on the way (HA mentions a battle near Philippopolis with the Alans). The expedition reached Antioch late in 242.",
+   "loc": [
+    24.75,
+    42.15
+   ],
+   "locName": "Moesia and Thrace",
+   "locCertainty": "approx",
+   "war": "persian_war_241_244",
+   "people": [
+    "gordian_iii",
+    "timesitheus"
+   ],
+   "polities": [
+    "rome",
+    "goths",
+    "sarmatians"
+   ],
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Gordiani Tres",
+     "r": "26.3-4"
+    },
+    {
+     "a": "Ammianus Marcellinus",
+     "w": "Res Gestae",
+     "r": "23.5.17"
+    }
+   ],
+   "certainty": "probable"
+  },
+  {
+   "id": "philip_carpic_war_246",
+   "year": 246,
+   "title": "Philip's war against the Carpi",
+   "type": "campaign",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "Philip campaigned personally on the lower Danube against the Carpi in 245-247, taking the title Carpicus Maximus; a letter of his commander in Moesia complains of Carpic demands for subsidies already paid to the Goths. Philip celebrated the victory in Rome in 247 and raised his son to Augustus.",
+   "loc": [
+    27.5,
+    44.0
+   ],
+   "locName": "Lower Danube",
+   "locCertainty": "approx",
+   "people": [
+    "philip_the_arab"
+   ],
+   "polities": [
+    "rome",
+    "free_dacians"
+   ],
+   "sources": [
+    {
+     "a": "Zosimus",
+     "w": "New History",
+     "r": "1.20"
+    },
+    {
+     "a": "Petrus Patricius",
+     "w": "Fragments",
+     "r": "fr. 8"
+    }
+   ],
+   "certainty": "probable"
+  },
+  {
+   "id": "siege_of_marcianopolis_248",
+   "year": 248,
+   "title": "Gothic siege of Marcianopolis",
+   "type": "siege",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "A Gothic force, led according to Jordanes by Argaith and Guntheric, crossed the Danube after Philip stopped subsidies, ravaged Moesia and besieged Marcianopolis, which bought them off; Dexippus describes the defence. It foreshadowed the great invasion of 250.",
+   "place": "marcianopolis",
+   "loc": [
+    27.59,
+    43.23
+   ],
+   "locName": "Marcianopolis, Moesia Inferior",
+   "locCertainty": "probable",
+   "war": "gothic_war_249_251",
+   "people": [
+    "philip_the_arab"
+   ],
+   "polities": [
+    "rome",
+    "goths"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "goths",
+      "commanders": []
+     },
+     {
+      "polity": "rome",
+      "commanders": [],
+      "strength": "city militia"
+     }
+    ],
+    "victor": "goths",
+    "kind": "siege",
+    "significance": "City ransomed; showed the weakness of the lower Danube defences after the Carpic wars."
+   },
+   "sources": [
+    {
+     "a": "Jordanes",
+     "w": "Getica",
+     "r": "91-92"
+    },
+    {
+     "a": "Dexippus",
+     "w": "Scythica",
+     "r": "fr. 25"
+    }
+   ],
+   "debate": "Date 248 or 249.",
+   "certainty": "probable"
+  },
+  {
+   "id": "alexandrian_pogrom_249",
+   "year": 249,
+   "title": "Anti-Christian riot at Alexandria",
+   "type": "religious",
+   "cats": [
+    "religious",
+    "social"
+   ],
+   "importance": 2,
+   "summary": "A year before Decius' edict, a mob stirred up by a pagan poet attacked Christians in Alexandria, killing the old man Metras, the woman Quinta and the virgin Apollonia, whose teeth were broken before she leapt into the fire; Bishop Dionysius described it in a letter to Fabius of Antioch.",
+   "place": "alexandria",
+   "loc": [
+    29.91,
+    31.2
+   ],
+   "locName": "Alexandria",
+   "locCertainty": "certain",
+   "people": [
+    "dionysius_of_alexandria"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Eusebius",
+     "w": "Ecclesiastical History",
+     "r": "6.41.1-9"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Apollonia"
+   ]
+  },
+  {
+   "id": "martyrdom_of_pope_fabian_250",
+   "year": 250,
+   "month": 1,
+   "day": 20,
+   "title": "Martyrdom of Pope Fabian",
+   "type": "religious",
+   "cats": [
+    "religious"
+   ],
+   "importance": 3,
+   "summary": "Fabian, bishop of Rome since 236, who had organised the city into seven ecclesiastical regions under deacons, was among the first victims of Decius, dying on 20 January 250; his epitaph survives in the papal crypt of the catacomb of Callixtus. The see remained vacant for 14 months.",
+   "place": "roma",
+   "loc": [
+    12.5114,
+    41.8586
+   ],
+   "locName": "Rome; buried in the Catacomb of Callixtus",
+   "locCertainty": "certain",
+   "people": [
+    "pope_fabian",
+    "decius"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Eusebius",
+     "w": "Ecclesiastical History",
+     "r": "6.39.1"
+    },
+    {
+     "a": "Cyprian",
+     "w": "Letters",
+     "r": "9"
+    },
+    {
+     "a": "Chronograph of 354",
+     "w": "Depositio Martyrum"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Crypt of the Popes"
+   ]
+  },
+  {
+   "id": "libelli_of_250",
+   "year": 250,
+   "title": "Certificates of sacrifice (libelli) issued in Egypt",
+   "type": "religious",
+   "cats": [
+    "religious",
+    "administrative"
+   ],
+   "importance": 3,
+   "summary": "Some 46 papyrus libelli survive, dated June-July 250, in which individuals, including a priestess of Petesouchos, declare that they have always sacrificed and have now poured libations and tasted the offerings before the commissioners, who countersign. They show that the edict targeted the whole population, not only Christians.",
+   "place": "oxyrhynchus",
+   "loc": [
+    30.65,
+    28.54
+   ],
+   "locName": "Fayum and Oxyrhynchus, Egypt",
+   "locCertainty": "certain",
+   "people": [
+    "decius"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Papyri",
+     "w": "Libelli of 250: P.Mich. III 157, P.Ryl. II 12"
+    }
+   ],
+   "scholarship": [
+    "Knipfing, \"The Libelli of the Decian Persecution\", HTR 16 (1923)",
+    "Rives, \"The Decree of Decius and the Religion of Empire\", JRS 89 (1999)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "papyrology"
+   ]
+  },
+  {
+   "id": "revolt_of_valens_licinianus_250",
+   "year": 250,
+   "title": "Julius Valens Licinianus proclaimed at Rome",
+   "type": "usurpation",
+   "cats": [
+    "political"
+   ],
+   "importance": 2,
+   "summary": "While Decius fought the Goths, Julius Valens Licinianus was proclaimed emperor in Rome, apparently with some popular support, but was killed within days.",
+   "place": "roma",
+   "loc": [
+    12.4875,
+    41.8892
+   ],
+   "locName": "Rome",
+   "locCertainty": "probable",
+   "people": [
+    "decius"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Aurelius Victor",
+     "w": "De Caesaribus",
+     "r": "29.3"
+    },
+    {
+     "a": "Epitome de Caesaribus",
+     "w": "Epitome de Caesaribus",
+     "r": "29.5"
+    }
+   ],
+   "certainty": "probable"
+  },
+  {
+   "id": "council_of_carthage_251",
+   "year": 251,
+   "month": 5,
+   "title": "Council of Carthage on the lapsed",
+   "type": "religious",
+   "cats": [
+    "religious"
+   ],
+   "importance": 3,
+   "summary": "Returning from hiding after Easter 251, Cyprian held a council that set graded penances for those who had sacrificed (sacrificati) or bought certificates (libellatici), rejecting both the rigorism of Novatian and the confessors' indulgences; he wrote De Lapsis and De Ecclesiae Catholicae Unitate for the occasion.",
+   "place": "carthago",
+   "loc": [
+    10.32,
+    36.85
+   ],
+   "locName": "Carthage",
+   "locCertainty": "certain",
+   "people": [
+    "cyprian"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Cyprian",
+     "w": "Letters",
+     "r": "55"
+    },
+    {
+     "a": "Cyprian",
+     "w": "De Lapsis"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "lapsi",
+    "penance"
+   ]
+  },
+  {
+   "id": "gallus_gothic_treaty_251",
+   "year": 251,
+   "title": "Trebonianus Gallus pays off the Goths",
+   "type": "treaty",
+   "cats": [
+    "diplomatic",
+    "military"
+   ],
+   "importance": 2,
+   "summary": "After Abritus Gallus allowed Cniva's Goths to go home with their booty and prisoners, including captured nobles from Philippopolis, and promised an annual payment; Gallus' son Hostilian, the surviving son of Decius, died of the plague in Rome soon after.",
+   "loc": [
+    26.9,
+    43.5
+   ],
+   "locName": "Moesia Inferior",
+   "locCertainty": "approx",
+   "war": "gothic_war_249_251",
+   "people": [
+    "trebonianus_gallus",
+    "cniva"
+   ],
+   "polities": [
+    "rome",
+    "goths"
+   ],
+   "sources": [
+    {
+     "a": "Zosimus",
+     "w": "New History",
+     "r": "1.24"
+    },
+    {
+     "a": "Jordanes",
+     "w": "Getica",
+     "r": "106"
+    }
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "exile_of_pope_cornelius_253",
+   "year": 253,
+   "month": 6,
+   "title": "Pope Cornelius exiled to Centumcellae",
+   "type": "religious",
+   "cats": [
+    "religious"
+   ],
+   "importance": 2,
+   "summary": "In a renewed wave of arrests under Gallus, perhaps triggered by the plague, Cornelius of Rome was banished to Centumcellae, where he died in June 253; his successor Lucius was also exiled briefly. Cyprian wrote a letter of congratulation to the exiled confessor.",
+   "loc": [
+    11.7983,
+    42.0937
+   ],
+   "locName": "Centumcellae (Civitavecchia)",
+   "locCertainty": "certain",
+   "people": [
+    "pope_cornelius",
+    "trebonianus_gallus",
+    "cyprian"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Cyprian",
+     "w": "Letters",
+     "r": "60"
+    },
+    {
+     "a": "Eusebius",
+     "w": "Ecclesiastical History",
+     "r": "7.1"
+    }
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "death_of_origen_254",
+   "year": 254,
+   "title": "Death of Origen at Tyre",
+   "type": "death",
+   "cats": [
+    "religious",
+    "literature"
+   ],
+   "importance": 3,
+   "summary": "Origen, imprisoned and tortured in the Decian persecution (chained, his legs stretched in the stocks), survived but died at Tyre around 253-254 aged about 69. His Hexapla, commentaries and De Principiis made him the most prolific and influential theologian before Augustine; his tomb was shown at Tyre in the Middle Ages.",
+   "place": "tyrus",
+   "loc": [
+    35.2,
+    33.27
+   ],
+   "locName": "Tyre, Phoenicia",
+   "locCertainty": "probable",
+   "people": [
+    "origen"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Eusebius",
+     "w": "Ecclesiastical History",
+     "r": "6.39.5, 7.1"
+    },
+    {
+     "a": "Jerome",
+     "w": "De Viris Illustribus",
+     "r": "54"
+    }
+   ],
+   "certainty": "probable"
+  },
+  {
+   "id": "siege_of_thessalonica_254",
+   "year": 254,
+   "title": "Gothic siege of Thessalonica; Greece refortifies",
+   "type": "siege",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "Goths overran Macedonia and besieged Thessalonica without taking it; panic spread to southern Greece, where the Isthmus wall was repaired and Athens rebuilt its city wall (the so-called Valerianic wall), for the first time since Sulla.",
+   "place": "thessalonica",
+   "loc": [
+    22.95,
+    40.63
+   ],
+   "locName": "Thessalonica",
+   "locCertainty": "probable",
+   "war": "gothic_invasions_253_271",
+   "people": [
+    "valerian"
+   ],
+   "polities": [
+    "rome",
+    "goths"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "goths",
+      "commanders": []
+     },
+     {
+      "polity": "rome",
+      "commanders": [],
+      "strength": "city militia"
+     }
+    ],
+    "victor": "rome",
+    "kind": "siege",
+    "significance": "City held; start of a refortification of Greece."
+   },
+   "sources": [
+    {
+     "a": "Zosimus",
+     "w": "New History",
+     "r": "1.29.2-3"
+    }
+   ],
+   "certainty": "probable"
+  },
+  {
+   "id": "rebaptism_controversy_256",
+   "year": 256,
+   "month": 9,
+   "day": 1,
+   "title": "Councils of Carthage and the rebaptism controversy",
+   "type": "religious",
+   "cats": [
+    "religious"
+   ],
+   "importance": 3,
+   "summary": "Cyprian's African councils of 255-256, culminating on 1 September 256 with 87 bishops whose individual votes survive (Sententiae episcoporum), insisted that heretics be rebaptised, against Stephen of Rome, who threatened excommunication and claimed the authority of Peter's see. Stephen's death (257) and Cyprian's martyrdom ended the clash; Africa's position later underpinned Donatism.",
+   "place": "carthago",
+   "loc": [
+    10.32,
+    36.85
+   ],
+   "locName": "Carthage",
+   "locCertainty": "certain",
+   "people": [
+    "cyprian",
+    "pope_stephen_i",
+    "dionysius_of_alexandria"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Cyprian",
+     "w": "Letters",
+     "r": "69-75"
+    },
+    {
+     "a": "Eusebius",
+     "w": "Ecclesiastical History",
+     "r": "7.2-5"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Petrine primacy",
+    "Sententiae episcoporum"
+   ]
+  },
+  {
+   "id": "gothic_sack_of_nicomedia_257",
+   "year": 257,
+   "title": "Goths sack Chalcedon, Nicomedia and the Bithynian cities",
+   "type": "campaign",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "Sailing along the western Black Sea coast with boats built by captives, Goths crossed to Asia; the garrison of Chalcedon fled, and Nicomedia, Nicaea, Cius, Apamea and Prusa were sacked and burned (Zosimus), while Valerian, delayed at Antioch and Cappadocia, failed to intervene.",
+   "place": "nicomedia",
+   "loc": [
+    29.92,
+    40.77
+   ],
+   "locName": "Bithynia",
+   "locCertainty": "probable",
+   "war": "gothic_invasions_253_271",
+   "people": [
+    "valerian"
+   ],
+   "polities": [
+    "rome",
+    "goths"
+   ],
+   "sources": [
+    {
+     "a": "Zosimus",
+     "w": "New History",
+     "r": "1.34-35"
+    }
+   ],
+   "debate": "Date 256, 257 or 258.",
+   "certainty": "probable"
+  },
+  {
+   "id": "martyrdom_of_sixtus_ii_and_lawrence_258",
+   "year": 258,
+   "month": 8,
+   "day": 6,
+   "title": "Martyrdom of Pope Sixtus II and the deacon Lawrence",
+   "type": "religious",
+   "cats": [
+    "religious"
+   ],
+   "importance": 3,
+   "summary": "Under Valerian's second rescript, Sixtus II was seized while preaching in a cemetery on 6 August 258 and beheaded with four deacons; his archdeacon Lawrence followed on 10 August. Ambrose and Prudentius tell how Lawrence presented the poor as the church's treasure and was roasted on a gridiron, a legend probably arising from a misreading of 'passus est' for 'assus est'.",
+   "place": "roma",
+   "loc": [
+    12.5114,
+    41.8586
+   ],
+   "locName": "Catacomb of Callixtus, Rome",
+   "locCertainty": "certain",
+   "people": [
+    "pope_sixtus_ii",
+    "valerian"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Cyprian",
+     "w": "Letters",
+     "r": "80"
+    },
+    {
+     "a": "Ambrose",
+     "w": "De officiis",
+     "r": "1.41.205-207"
+    },
+    {
+     "a": "Chronograph of 354",
+     "w": "Depositio Martyrum"
+    }
+   ],
+   "debate": "Lawrence was probably beheaded like Sixtus; the gridiron is late legend.",
+   "certainty": "certain",
+   "tags": [
+    "San Lorenzo fuori le Mura"
+   ]
+  },
+  {
+   "id": "martyrdom_of_fructuosus_259",
+   "year": 259,
+   "month": 1,
+   "day": 21,
+   "title": "Martyrdom of Fructuosus of Tarraco",
+   "type": "religious",
+   "cats": [
+    "religious"
+   ],
+   "importance": 2,
+   "summary": "Bishop Fructuosus of Tarraco and his deacons Augurius and Eulogius were burned alive in the amphitheatre on 21 January 259; their authentic Acta are among the best of the period, and a Visigothic basilica was later built in the arena over the spot.",
+   "place": "tarraco",
+   "loc": [
+    1.2554,
+    41.1145
+   ],
+   "locName": "Amphitheatre of Tarraco",
+   "locCertainty": "certain",
+   "people": [
+    "valerian"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Acta Fructuosi",
+     "w": "Acta martyrum"
+    },
+    {
+     "a": "Prudentius",
+     "w": "Peristephanon",
+     "r": "6"
+    }
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "frankish_raid_on_tarraco_260",
+   "year": 260,
+   "title": "Frankish raiders sack Tarraco and cross to Africa",
+   "type": "campaign",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "In the earliest major Frankish invasion, raiders swept through Gaul into Spain, sacked Tarraco and, seizing ships, reached Mauretania (Aurelius Victor, Orosius). Destruction layers at Tarraco and Emporiae and the walling of Spanish towns may relate to it.",
+   "loc": [
+    1.26,
+    41.12
+   ],
+   "locName": "Tarraco, Hispania",
+   "locCertainty": "probable",
+   "people": [
+    "gallienus"
+   ],
+   "polities": [
+    "rome",
+    "franks"
+   ],
+   "sources": [
+    {
+     "a": "Aurelius Victor",
+     "w": "De Caesaribus",
+     "r": "33.3"
+    },
+    {
+     "a": "Eutropius",
+     "w": "Breviarium",
+     "r": "9.8.2"
+    },
+    {
+     "a": "Orosius",
+     "w": "Seven Books of History against the Pagans",
+     "r": "7.22.7-8"
+    }
+   ],
+   "debate": "Dates range 256-262; Orosius claims Tarraco was still in ruins in his day.",
+   "certainty": "probable"
+  },
+  {
+   "id": "agri_decumates_abandoned_260",
+   "year": 260,
+   "title": "Abandonment of the Upper German-Raetian limes",
+   "type": "administrative",
+   "cats": [
+    "military"
+   ],
+   "importance": 4,
+   "summary": "In the turmoil of 259-260 the forts of the Upper German and Raetian limes between the Rhine and Danube were given up; coin series at sites such as Saalburg and Osterburken end, and the frontier fell back to the Rhine, Lake Constance, Iller and Danube. A Verona list (Laterculus Veronensis) later notes the lands beyond the Rhine lost \"under Gallienus\".",
+   "loc": [
+    8.9,
+    48.5
+   ],
+   "locName": "Agri Decumates",
+   "locCertainty": "approx",
+   "war": "alamannic_invasions_259_271",
+   "people": [
+    "gallienus",
+    "postumus"
+   ],
+   "polities": [
+    "rome",
+    "alamanni"
+   ],
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Laterculus Veronensis"
+    },
+    {
+     "a": "Panegyrici Latini",
+     "w": "Panegyric 8(5) of 297",
+     "r": "10"
+    }
+   ],
+   "scholarship": [
+    "Nuber, \"Das Ende des Obergermanisch-Raetischen Limes\", in Ausgewählte Aspekte (1990)",
+    "Drinkwater, The Alamanni and Rome 213-496 (2007)"
+   ],
+   "debate": "Gradual erosion from 233 versus a single collapse in 259/60; some forts were possibly retained into the 270s.",
+   "certainty": "probable",
+   "tags": [
+    "limes",
+    "Danube-Iller-Rhine"
+   ]
+  },
+  {
+   "id": "sack_of_caesarea_mazaca_260",
+   "year": 260,
+   "title": "Shapur takes Caesarea in Cappadocia",
+   "type": "siege",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "On the third campaign after capturing Valerian, Shapur besieged Caesarea, defended by the physician Demosthenes, and took it through treachery; Zonaras puts the population at 400,000 and claims many were slaughtered. Persian columns also ravaged Cilicia and Lycaonia.",
+   "place": "caesarea_mazaca",
+   "loc": [
+    35.47,
+    38.73
+   ],
+   "locName": "Caesarea Mazaca",
+   "locCertainty": "probable",
+   "war": "persian_war_252_260",
+   "people": [
+    "shapur_i"
+   ],
+   "polities": [
+    "rome",
+    "sasanian"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "sasanian",
+      "commanders": [
+       "shapur_i"
+      ]
+     },
+     {
+      "polity": "rome",
+      "commanders": [],
+      "losses": "large civilian losses (Zonaras)"
+     }
+    ],
+    "victor": "sasanian",
+    "kind": "siege",
+    "significance": "The deepest Persian penetration into Anatolia in the Roman period."
+   },
+   "sources": [
+    {
+     "a": "Zonaras",
+     "w": "Epitome of Histories",
+     "r": "12.23"
+    },
+    {
+     "a": "Shapur I",
+     "w": "Res Gestae Divi Saporis (ŠKZ)"
+    }
+   ],
+   "certainty": "probable"
+  },
+  {
+   "id": "ballista_defeats_persians_260",
+   "year": 260,
+   "title": "Ballista defeats the Persians in Cilicia",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "Valerian's officer Ballista (Callistus), acting for Macrianus, surprised the scattered Persian columns near Pompeiopolis and Corycus, capturing part of Shapur's harem and treasure; Odaenathus harried the retreating army at the Euphrates. Shapur withdrew across the river, paying the Edessenes for passage.",
+   "loc": [
+    34.53,
+    36.74
+   ],
+   "locName": "Pompeiopolis and Sebaste, Cilicia",
+   "locCertainty": "approx",
+   "war": "persian_war_252_260",
+   "people": [
+    "ballista_prefect",
+    "odaenathus",
+    "shapur_i"
+   ],
+   "polities": [
+    "rome",
+    "sasanian"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "ballista_prefect"
+      ]
+     },
+     {
+      "polity": "sasanian",
+      "commanders": [
+       "shapur_i"
+      ],
+      "losses": "harem and baggage captured"
+     }
+    ],
+    "victor": "rome",
+    "kind": "field",
+    "significance": "Turned the Persian victory into a costly withdrawal and gave the Macriani the prestige to usurp."
+   },
+   "sources": [
+    {
+     "a": "Zonaras",
+     "w": "Epitome of Histories",
+     "r": "12.23"
+    },
+    {
+     "a": "George Syncellus",
+     "w": "Ecloga Chronographica",
+     "r": "716"
+    }
+   ],
+   "certainty": "probable"
+  },
+  {
+   "id": "battle_against_the_macriani_261",
+   "year": 261,
+   "title": "Defeat of the Macriani in the Balkans",
+   "type": "battle",
+   "cats": [
+    "military",
+    "political"
+   ],
+   "importance": 3,
+   "summary": "Macrianus the Elder and his son Macrianus the Younger marched west with some 30,000 men and were met by Gallienus' general Aureolus (and Domitianus) in Illyricum or Thrace; their army went over, and both Macriani were killed. Their brother Quietus, left in the east with Ballista, was then besieged at Emesa by Odaenathus and killed.",
+   "loc": [
+    21.5,
+    43.5
+   ],
+   "locName": "Illyricum or Thrace",
+   "locCertainty": "disputed",
+   "people": [
+    "macrianus_major",
+    "macrianus_minor",
+    "quietus",
+    "aureolus",
+    "gallienus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "aureolus"
+      ]
+     },
+     {
+      "polity": "rome",
+      "commanders": [
+       "macrianus_major",
+       "macrianus_minor"
+      ],
+      "strength": "c. 30,000 (HA, probably exaggerated)",
+      "losses": "army surrendered"
+     }
+    ],
+    "victor": "rome",
+    "kind": "field",
+    "significance": "Restored the east nominally to Gallienus, in practice to Odaenathus."
+   },
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Tyranni Triginta",
+     "r": "12-14"
+    },
+    {
+     "a": "Zonaras",
+     "w": "Epitome of Histories",
+     "r": "12.24"
+    }
+   ],
+   "certainty": "probable"
+  },
+  {
+   "id": "death_of_quietus_261",
+   "year": 261,
+   "title": "Odaenathus kills Quietus and Ballista at Emesa",
+   "type": "siege",
+   "cats": [
+    "military",
+    "political"
+   ],
+   "importance": 2,
+   "summary": "Acting for Gallienus, Odaenathus besieged the last Macrianic claimant Quietus in Emesa; the citizens killed Quietus and Ballista, and Odaenathus was rewarded with the titles dux Romanorum and corrector totius Orientis.",
+   "place": "emesa",
+   "loc": [
+    36.72,
+    34.74
+   ],
+   "locName": "Emesa, Syria",
+   "locCertainty": "probable",
+   "people": [
+    "quietus",
+    "ballista_prefect",
+    "odaenathus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Gallieni Duo",
+     "r": "3.1-5"
+    },
+    {
+     "a": "Zonaras",
+     "w": "Epitome of Histories",
+     "r": "12.24"
+    }
+   ],
+   "certainty": "probable"
+  },
+  {
+   "id": "revolt_of_mussius_aemilianus_261",
+   "year": 261,
+   "title": "Revolt of the prefect Mussius Aemilianus in Egypt",
+   "type": "usurpation",
+   "cats": [
+    "political"
+   ],
+   "importance": 2,
+   "summary": "Lucius Mussius Aemilianus, prefect of Egypt who had backed the Macriani, assumed imperial power in Alexandria after their fall; Gallienus' general Aurelius Theodotus crushed him in 262. Dionysius of Alexandria describes the civil war in the city, the plague and the street fighting that left the Bruchion quarter half-deserted.",
+   "place": "alexandria",
+   "loc": [
+    29.91,
+    31.2
+   ],
+   "locName": "Alexandria",
+   "locCertainty": "probable",
+   "people": [
+    "gallienus",
+    "dionysius_of_alexandria"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Tyranni Triginta",
+     "r": "22"
+    },
+    {
+     "a": "Eusebius",
+     "w": "Ecclesiastical History",
+     "r": "7.21-22"
+    }
+   ],
+   "debate": "Whether he claimed the title Augustus is uncertain; no coins.",
+   "certainty": "probable"
+  },
+  {
+   "id": "goths_burn_temple_of_artemis_262",
+   "year": 262,
+   "title": "Goths burn the Temple of Artemis at Ephesus",
+   "type": "disaster",
+   "cats": [
+    "military",
+    "religious"
+   ],
+   "importance": 3,
+   "summary": "Gothic raiders, led according to Jordanes by Respa, Veduc and Thuruar, crossed to Asia and burned the Artemision, one of the Seven Wonders; it was patched up afterwards but never regained its former splendour, and its stones were later quarried for Christian churches.",
+   "loc": [
+    27.3639,
+    37.9497
+   ],
+   "locName": "Artemision, Ephesus",
+   "locCertainty": "probable",
+   "war": "gothic_invasions_253_271",
+   "people": [
+    "gallienus"
+   ],
+   "polities": [
+    "rome",
+    "goths"
+   ],
+   "sources": [
+    {
+     "a": "Jordanes",
+     "w": "Getica",
+     "r": "107"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Gallieni Duo",
+     "r": "6.2"
+    },
+    {
+     "a": "George Syncellus",
+     "w": "Ecloga Chronographica",
+     "r": "717"
+    }
+   ],
+   "debate": "Date 262 or 263 (HA), some suggest 268.",
+   "certainty": "probable",
+   "tags": [
+    "Seven Wonders"
+   ]
+  },
+  {
+   "id": "earthquake_of_262",
+   "year": 262,
+   "title": "Earthquakes and plague in the reign of Gallienus",
+   "type": "disaster",
+   "cats": [
+    "disaster"
+   ],
+   "importance": 2,
+   "summary": "The Historia Augusta reports an earthquake felt in Rome, Libya and Asia, with chasms opening and a long darkness, followed by a plague that killed 5,000 a day at Rome; Gallienus consulted the Sibylline books and sacrificed to Jupiter Salutaris.",
+   "loc": [
+    27.3,
+    38.4
+   ],
+   "locName": "Asia, Libya and Italy",
+   "locCertainty": "approx",
+   "people": [
+    "gallienus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Gallieni Duo",
+     "r": "5.2-6"
+    }
+   ],
+   "debate": "Only the Historia Augusta reports it in these terms; details may be exaggerated or invented.",
+   "certainty": "disputed"
+  },
+  {
+   "id": "gallienus_at_athens_264",
+   "year": 264,
+   "title": "Gallienus at Athens and Eleusis",
+   "type": "cultural",
+   "cats": [
+    "cultural",
+    "religious"
+   ],
+   "importance": 2,
+   "summary": "Gallienus visited Athens, became archon and Areopagite and was initiated into the Eleusinian Mysteries; coins of the period honour Demeter and style him GALLIENAE AUGUSTAE, perhaps alluding to the goddess. His philhellenism matched his patronage of Plotinus, who asked him to found a Platonic city, Platonopolis, in Campania.",
+   "place": "eleusis",
+   "loc": [
+    23.54,
+    38.04
+   ],
+   "locName": "Athens and Eleusis",
+   "locCertainty": "probable",
+   "people": [
+    "gallienus",
+    "plotinus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Gallieni Duo",
+     "r": "11.3-5"
+    },
+    {
+     "a": "Porphyry",
+     "w": "Life of Plotinus",
+     "r": "12"
+    }
+   ],
+   "certainty": "probable"
+  },
+  {
+   "id": "gallienus_campaign_against_postumus_265",
+   "year": 265,
+   "title": "Gallienus' failed campaign against Postumus",
+   "type": "campaign",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "Gallienus invaded Gaul with Aureolus and defeated Postumus in battle but failed to finish him; besieging Postumus in an unnamed Gallic town, he was wounded by an arrow and withdrew. The Gallic Empire was left alone thereafter.",
+   "loc": [
+    5.0,
+    47.0
+   ],
+   "locName": "Gaul",
+   "locCertainty": "approx",
+   "war": "gallic_empire_war",
+   "people": [
+    "gallienus",
+    "postumus",
+    "aureolus"
+   ],
+   "polities": [
+    "rome",
+    "gallic_empire"
+   ],
+   "sources": [
+    {
+     "a": "Zonaras",
+     "w": "Epitome of Histories",
+     "r": "12.24"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Gallieni Duo",
+     "r": "4.4-6"
+    }
+   ],
+   "debate": "Date 263-265.",
+   "certainty": "probable"
+  },
+  {
+   "id": "murder_of_odaenathus_267",
+   "year": 267,
+   "title": "Murder of Odaenathus",
+   "type": "assassination",
+   "cats": [
+    "political"
+   ],
+   "importance": 3,
+   "summary": "Septimius Odaenathus, King of Kings and corrector of the East, was assassinated with his eldest son Herodes (Hairan) by a kinsman, Maeonius, at Emesa or, according to Syncellus, at Heraclea Pontica after repelling the Goths. His widow Zenobia took power for their young son Vaballathus.",
+   "loc": [
+    36.72,
+    34.74
+   ],
+   "locName": "Emesa (or Heraclea Pontica)",
+   "locCertainty": "disputed",
+   "people": [
+    "odaenathus",
+    "zenobia",
+    "vaballathus"
+   ],
+   "polities": [
+    "palmyra"
+   ],
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Tyranni Triginta",
+     "r": "15-17"
+    },
+    {
+     "a": "Zonaras",
+     "w": "Epitome of Histories",
+     "r": "12.24"
+    },
+    {
+     "a": "George Syncellus",
+     "w": "Ecloga Chronographica",
+     "r": "716"
+    }
+   ],
+   "debate": "Year 267 or 268; Zenobia or Gallienus were suspected of instigating it.",
+   "certainty": "probable"
+  },
+  {
+   "id": "naulobatus_surrenders_267",
+   "year": 267,
+   "title": "The Herul chief Naulobatus enters Roman service",
+   "type": "diplomacy",
+   "cats": [
+    "military",
+    "diplomatic"
+   ],
+   "importance": 2,
+   "summary": "After his defeat at the Nestus, the Herul leader Naulobatus surrendered to Gallienus and was given the consular ornaments, the first barbarian king known to receive them.",
+   "loc": [
+    24.0,
+    41.3
+   ],
+   "locName": "Nestus valley, Thrace",
+   "locCertainty": "approx",
+   "war": "gothic_invasions_253_271",
+   "people": [
+    "gallienus",
+    "naulobatus"
+   ],
+   "polities": [
+    "rome",
+    "heruli"
+   ],
+   "sources": [
+    {
+     "a": "George Syncellus",
+     "w": "Ecloga Chronographica",
+     "r": "717"
+    }
+   ],
+   "certainty": "probable"
+  },
+  {
+   "id": "gothic_siege_of_thessalonica_268",
+   "year": 268,
+   "title": "Goths besiege Thessalonica and Cassandreia",
+   "type": "siege",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "The great Gothic and Herul fleet of 268 landed in Macedonia and besieged Cassandreia and Thessalonica; on news of Claudius' approach they abandoned the siege and moved north up the Axius, to be destroyed at Naissus.",
+   "place": "thessalonica",
+   "loc": [
+    22.95,
+    40.63
+   ],
+   "locName": "Thessalonica",
+   "locCertainty": "probable",
+   "war": "gothic_invasions_253_271",
+   "people": [
+    "claudius_gothicus"
+   ],
+   "polities": [
+    "rome",
+    "goths",
+    "heruli"
+   ],
+   "sources": [
+    {
+     "a": "Zosimus",
+     "w": "New History",
+     "r": "1.43"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Divus Claudius",
+     "r": "9"
+    },
+    {
+     "a": "Ammianus Marcellinus",
+     "w": "Res Gestae",
+     "r": "31.5.16"
+    }
+   ],
+   "certainty": "probable"
+  },
+  {
+   "id": "gothic_naval_raids_269",
+   "year": 269,
+   "title": "Gothic raids on Crete, Rhodes and Cyprus",
+   "type": "naval",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "Remnants of the Gothic fleet raided Crete, Rhodes and Cyprus, but plague and Roman naval forces under the future emperor Probus (or Tenagino Probus) dispersed them. Surviving Goths were settled as farmers or enrolled in the army.",
+   "loc": [
+    28.23,
+    36.45
+   ],
+   "locName": "Aegean and Eastern Mediterranean",
+   "locCertainty": "approx",
+   "war": "gothic_invasions_253_271",
+   "people": [
+    "claudius_gothicus"
+   ],
+   "polities": [
+    "rome",
+    "goths"
+   ],
+   "sources": [
+    {
+     "a": "Zosimus",
+     "w": "New History",
+     "r": "1.46"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Divus Claudius",
+     "r": "12.1"
+    }
+   ],
+   "certainty": "probable"
+  },
+  {
+   "id": "hispania_rejoins_central_empire_269",
+   "year": 269,
+   "title": "Spain returns to the central emperor",
+   "type": "political",
+   "cats": [
+    "political"
+   ],
+   "importance": 2,
+   "summary": "After Postumus' death the Spanish provinces recognised Claudius II, and Claudius' general Julius Placidianus occupied Gallia Narbonensis; an inscription at Cularo (Grenoble) records his vexillations. Victorinus responded by besieging Augustodunum, which had declared for Claudius.",
+   "loc": [
+    5.72,
+    45.19
+   ],
+   "locName": "Cularo (Grenoble) and Hispania",
+   "locCertainty": "certain",
+   "war": "gallic_empire_war",
+   "people": [
+    "claudius_gothicus",
+    "victorinus"
+   ],
+   "polities": [
+    "rome",
+    "gallic_empire"
+   ],
+   "sources": [
+    {
+     "a": "Inscriptions",
+     "w": "CIL XII 2228"
+    }
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "aurelian_defeats_juthungi_270",
+   "year": 270,
+   "title": "Aurelian defeats the Juthungi; the embassy in Dexippus",
+   "type": "battle",
+   "cats": [
+    "military",
+    "diplomatic"
+   ],
+   "importance": 2,
+   "summary": "Early in his reign Aurelian defeated Juthungi returning from a raid into Italy. Dexippus preserves a set-piece account of their envoys before the emperor, who received them seated high on a tribunal amid the gilded standards, rejecting their demand for continued subsidies.",
+   "loc": [
+    11.0,
+    48.0
+   ],
+   "locName": "Upper Danube",
+   "locCertainty": "approx",
+   "war": "alamannic_invasions_259_271",
+   "people": [
+    "aurelian",
+    "dexippus"
+   ],
+   "polities": [
+    "rome",
+    "juthungi"
+   ],
+   "sources": [
+    {
+     "a": "Dexippus",
+     "w": "Scythica",
+     "r": "fr. 6"
+    }
+   ],
+   "certainty": "probable"
+  },
+  {
+   "id": "aurelian_vandal_treaty_270",
+   "year": 270,
+   "title": "Aurelian's treaty with the Vandals",
+   "type": "treaty",
+   "cats": [
+    "diplomatic",
+    "military"
+   ],
+   "importance": 2,
+   "summary": "After defeating Asding Vandals raiding Pannonia, Aurelian made a treaty under which their two kings gave their children as hostages and 2,000 Vandal horsemen joined the Roman army; Dexippus reports both sides voting on the terms.",
+   "loc": [
+    18.5,
+    46.5
+   ],
+   "locName": "Pannonia",
+   "locCertainty": "approx",
+   "people": [
+    "aurelian"
+   ],
+   "polities": [
+    "rome",
+    "vandals"
+   ],
+   "sources": [
+    {
+     "a": "Dexippus",
+     "w": "Scythica",
+     "r": "fr. 7"
+    }
+   ],
+   "certainty": "probable"
+  },
+  {
+   "id": "domitianus_ii_usurpation_271",
+   "year": 271,
+   "title": "Domitianus, usurper in Gaul",
+   "type": "usurpation",
+   "cats": [
+    "political"
+   ],
+   "importance": 2,
+   "summary": "A Gallic claimant Domitianus, mentioned in passing by Zosimus and the HA, was proved real when a coin reading IMP C DOMITIANVS P F AVG was found in a hoard at Chalgrove, Oxfordshire, in 2003, joining a single French specimen once dismissed as a forgery. He probably revolted against Victorinus or Tetricus c. 271.",
+   "loc": [
+    4.8,
+    47.0
+   ],
+   "locName": "Gaul",
+   "locCertainty": "approx",
+   "war": "gallic_empire_war",
+   "people": [
+    "tetricus_i"
+   ],
+   "polities": [
+    "gallic_empire"
+   ],
+   "sources": [
+    {
+     "a": "Zosimus",
+     "w": "New History",
+     "r": "1.49.2"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Tyranni Triginta",
+     "r": "12.14"
+    }
+   ],
+   "scholarship": [
+    "Abdy, \"The Domitian II coin from Chalgrove\", Numismatic Chronicle 164 (2004)"
+   ],
+   "certainty": "probable",
+   "tags": [
+    "Chalgrove hoard"
+   ]
+  },
+  {
+   "id": "aurelian_carpic_war_272",
+   "year": 272,
+   "title": "Aurelian defeats the Carpi",
+   "type": "campaign",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "Between the Palmyrene campaigns Aurelian defeated the Carpi, settling captives within the empire and taking the title Carpicus Maximus; the HA tells that the Senate offered the title and he joked about \"Carpisculus\", a kind of shoe.",
+   "loc": [
+    27.5,
+    44.5
+   ],
+   "locName": "Lower Danube",
+   "locCertainty": "approx",
+   "people": [
+    "aurelian"
+   ],
+   "polities": [
+    "rome",
+    "free_dacians"
+   ],
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Divus Aurelianus",
+     "r": "30.4"
+    },
+    {
+     "a": "Aurelius Victor",
+     "w": "De Caesaribus",
+     "r": "39.43"
+    }
+   ],
+   "debate": "Date 272 or 273.",
+   "certainty": "probable"
+  },
+  {
+   "id": "destruction_of_the_bruchion_272",
+   "year": 272,
+   "title": "Aurelian destroys the Bruchion at Alexandria",
+   "type": "siege",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "During fighting between the Palmyrene party and Roman troops in Alexandria, the palace quarter of the Bruchion, home of the Museum, was destroyed and its walls razed (Ammianus). Some modern scholars see this, rather than Caesar's fire, as the end of the Museum and much of the Library.",
+   "place": "alexandria",
+   "loc": [
+    29.9,
+    31.21
+   ],
+   "locName": "Bruchion quarter, Alexandria",
+   "locCertainty": "probable",
+   "war": "palmyrene_war",
+   "people": [
+    "aurelian",
+    "zenobia"
+   ],
+   "polities": [
+    "rome",
+    "palmyrene_empire"
+   ],
+   "sources": [
+    {
+     "a": "Ammianus Marcellinus",
+     "w": "Res Gestae",
+     "r": "22.16.15"
+    },
+    {
+     "a": "Eusebius",
+     "w": "Ecclesiastical History",
+     "r": "7.32.7-11"
+    }
+   ],
+   "debate": "Date 272 or 273 (connected with the revolt of Firmus); the fate of the Library is one of antiquity's most contested questions.",
+   "certainty": "probable",
+   "tags": [
+    "Library of Alexandria"
+   ]
+  },
+  {
+   "id": "aurelian_food_dole_reform_274",
+   "year": 274,
+   "title": "Aurelian's reform of the Roman dole",
+   "type": "reform",
+   "cats": [
+    "economic",
+    "social"
+   ],
+   "importance": 3,
+   "summary": "Aurelian replaced the monthly grain ration with a daily distribution of baked bread of two pounds, added pork (from levies on southern Italy), olive oil and salt, and planned free wine. The arca vinaria and the forum suarium mark the institutional shift from grain to processed food, and from the Annona to the corporations of bakers.",
+   "place": "roma",
+   "loc": [
+    12.4875,
+    41.8892
+   ],
+   "locName": "Rome",
+   "locCertainty": "probable",
+   "people": [
+    "aurelian"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Divus Aurelianus",
+     "r": "35.1-2, 48.1"
+    },
+    {
+     "a": "Zosimus",
+     "w": "New History",
+     "r": "1.61"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "annona",
+    "panis gradilis"
+   ]
+  },
+  {
+   "id": "gothic_invasion_of_asia_minor_276",
+   "year": 276,
+   "title": "Gothic invasion of Pontus and Cappadocia",
+   "type": "campaign",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "In 275-276 Goths, apparently from the Maeotis, crossed into Pontus and raided as far as Cappadocia, Galatia and Cilicia. The emperor Tacitus and his brother, the praetorian prefect Florianus, defeated them, earning Tacitus the title Gothicus Maximus, but Tacitus died soon after at Tyana or Zela.",
+   "loc": [
+    36.0,
+    39.5
+   ],
+   "locName": "Pontus, Cappadocia, Galatia and Cilicia",
+   "locCertainty": "approx",
+   "people": [
+    "tacitus_emperor",
+    "florianus"
+   ],
+   "polities": [
+    "rome",
+    "goths"
+   ],
+   "sources": [
+    {
+     "a": "Zosimus",
+     "w": "New History",
+     "r": "1.63-64"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Tacitus",
+     "r": "13"
+    }
+   ],
+   "certainty": "probable"
+  },
+  {
+   "id": "probus_defeats_burgundians_and_vandals_278",
+   "year": 278,
+   "title": "Probus defeats Burgundians and Vandals",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "Probus fought a coalition of Burgundians and Vandals across a river in Raetia, lured them over by provoking them with archers and destroyed them; he sent surviving captives to Britain, where they later helped suppress a revolt.",
+   "loc": [
+    10.9,
+    48.4
+   ],
+   "locName": "Raetia (river Lech?)",
+   "locCertainty": "disputed",
+   "people": [
+    "probus"
+   ],
+   "polities": [
+    "rome",
+    "burgundians",
+    "vandals"
+   ],
+   "sources": [
+    {
+     "a": "Zosimus",
+     "w": "New History",
+     "r": "1.68"
+    }
+   ],
+   "certainty": "probable"
+  },
+  {
+   "id": "probus_permits_viticulture_280",
+   "year": 280,
+   "title": "Probus permits vine-growing in the western provinces",
+   "type": "economic",
+   "cats": [
+    "economic"
+   ],
+   "importance": 3,
+   "summary": "Probus allowed the inhabitants of Gaul, Spain, Britain and Pannonia to plant vines and make wine, revoking (in tradition) the restrictions attributed to Domitian; he used soldiers to plant vineyards on Mons Almus (Fruška Gora) near Sirmium and on Mount Aureus near Moesia. The army's resentment at such labour is said to have caused his murder in 282.",
+   "place": "sirmium",
+   "loc": [
+    19.7,
+    45.15
+   ],
+   "locName": "Gaul, Spain, Britain; Mons Almus near Sirmium",
+   "locCertainty": "approx",
+   "people": [
+    "probus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Eutropius",
+     "w": "Breviarium",
+     "r": "9.17.2"
+    },
+    {
+     "a": "Aurelius Victor",
+     "w": "De Caesaribus",
+     "r": "37.3"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Probus",
+     "r": "18.8"
+    }
+   ],
+   "debate": "How far the Domitianic vine edict was ever enforced, and therefore how much Probus' grant changed, is debated; viticulture was already spreading in the Moselle and Rhône valleys.",
+   "certainty": "probable",
+   "tags": [
+    "wine",
+    "Fruška Gora"
+   ]
+  },
+  {
+   "id": "bastarnae_settled_in_thrace_280",
+   "year": 280,
+   "title": "Probus settles 100,000 Bastarnae in Thrace",
+   "type": "migration",
+   "cats": [
+    "military",
+    "social"
+   ],
+   "importance": 2,
+   "summary": "Probus transplanted a large body of Bastarnae, reportedly 100,000, into Thrace, where they remained loyal; similar settlements of Gepids, Greuthungi and Vandals rebelled and plundered when Probus was occupied elsewhere.",
+   "loc": [
+    26.0,
+    42.5
+   ],
+   "locName": "Thrace",
+   "locCertainty": "approx",
+   "people": [
+    "probus"
+   ],
+   "polities": [
+    "rome",
+    "bastarnae"
+   ],
+   "sources": [
+    {
+     "a": "Zosimus",
+     "w": "New History",
+     "r": "1.71.1"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Probus",
+     "r": "18.1"
+    }
+   ],
+   "certainty": "probable"
+  },
+  {
+   "id": "franks_escape_from_the_black_sea_280",
+   "year": 280,
+   "title": "The odyssey of the Pontic Franks",
+   "type": "naval",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "Franks whom Probus had settled on the Black Sea coast seized ships, sailed through the Bosporus raiding Greece and Asia, sacked Syracuse, attacked Carthage and, passing the Straits of Gibraltar, returned home to the Rhine mouth; the panegyrist of 297 cites it as proof that nothing was beyond barbarian daring.",
+   "place": "syracusae",
+   "loc": [
+    15.28,
+    37.07
+   ],
+   "locName": "Black Sea to Syracuse and the Rhine",
+   "locCertainty": "approx",
+   "people": [
+    "probus"
+   ],
+   "polities": [
+    "rome",
+    "franks"
+   ],
+   "sources": [
+    {
+     "a": "Zosimus",
+     "w": "New History",
+     "r": "1.71.2"
+    },
+    {
+     "a": "Panegyrici Latini",
+     "w": "Panegyric 8(5) of 297",
+     "r": "18.3"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "Syracuse"
+   ]
+  },
+  {
+   "id": "battle_of_verona_285",
+   "year": 285,
+   "title": "Carinus defeats Sabinus Julianus near Verona",
+   "type": "battle",
+   "cats": [
+    "military",
+    "political"
+   ],
+   "importance": 2,
+   "summary": "Marcus Aurelius Sabinus Julianus, corrector of Venetia or governor in Pannonia, proclaimed himself emperor after the death of Numerian; Carinus crushed him near Verona early in 285 before turning to fight Diocletian on the Margus.",
+   "place": "verona",
+   "loc": [
+    11.0,
+    45.44
+   ],
+   "locName": "Verona",
+   "locCertainty": "probable",
+   "people": [
+    "carinus",
+    "sabinus_julianus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "carinus"
+      ]
+     },
+     {
+      "polity": "rome",
+      "commanders": [
+       "sabinus_julianus"
+      ],
+      "losses": "usurper killed"
+     }
+    ],
+    "victor": "rome",
+    "kind": "field",
+    "significance": "Briefly secured the west for Carinus."
+   },
+   "sources": [
+    {
+     "a": "Aurelius Victor",
+     "w": "De Caesaribus",
+     "r": "39.10"
+    },
+    {
+     "a": "Epitome de Caesaribus",
+     "w": "Epitome de Caesaribus",
+     "r": "38.6"
+    },
+    {
+     "a": "Zosimus",
+     "w": "New History",
+     "r": "1.73"
+    }
+   ],
+   "certainty": "probable"
+  }
+ ]
+}

@@ -1,0 +1,1736 @@
+{
+ "corrections": [
+  {
+   "kind": "event",
+   "id": "battle_of_arretium",
+   "set": {
+    "year": -283
+   },
+   "reason": "Broughton MRR I 188 lists L. Caecilius Metellus Denter (cos. 284) as praetor of 283 killed at Arretium (Polyb. 2.19.7-8; Livy Per. 12; Oros. 3.22.13); the dataset's own person record has him praetor in 283, so a 284 battle date contradicts it. Previous value -284."
+  },
+  {
+   "kind": "person",
+   "id": "lucius_caecilius_metellus_denter",
+   "set": {
+    "died": -283
+   },
+   "reason": "Killed at Arretium as praetor in 283 (MRR I 188); record gave died -284 while listing his praetorship in 283, an internal contradiction."
+  },
+  {
+   "kind": "event",
+   "id": "battle_of_forum_gallorum",
+   "set": {
+    "battle": {
+     "sides": [
+      {
+       "polity": "rome",
+       "commanders": [
+        "gaius_vibius_pansa",
+        "aulus_hirtius",
+        "augustus"
+       ],
+       "strength": "Pansa's 4 recruit legions, Martian legion and Hirtius' relief",
+       "losses": "heavy among the recruits"
+      },
+      {
+       "polity": "antoniani",
+       "commanders": [
+        "mark_antony"
+       ],
+       "strength": "2 veteran legions and cavalry",
+       "losses": "heavy"
+      }
+     ],
+     "victor": "rome",
+     "kind": "field",
+     "significance": "Checked Antony but cost the senate one consul."
+    }
+   },
+   "reason": "Forum Gallorum (14 April 43) was fought by the consul C. Vibius Pansa, mortally wounded there, with Hirtius arriving in the evening to rout Antony; Octavian stayed defending the camp (Cic. Fam. 10.30; App. BC 3.66-70; Dio 46.37). Listing Octavian as sole commander was wrong; he is kept third for the camp defence."
+  },
+  {
+   "kind": "event",
+   "id": "battle_of_the_tolenus",
+   "set": {
+    "battle": {
+     "sides": [
+      {
+       "polity": "rome",
+       "commanders": [
+        "publius_rutilius_lupus",
+        "gaius_marius"
+       ],
+       "strength": "consular army",
+       "losses": "c. 8,000 killed incl. the consul"
+      },
+      {
+       "polity": "italia_socii",
+       "commanders": [
+        "publius_vettius_scato"
+       ],
+       "strength": "Marsi under Vettius Scato",
+       "losses": "unknown"
+      }
+     ],
+     "victor": "italia_socii",
+     "kind": "ambush",
+     "significance": "Worst Roman defeat of the war's first year; contributed to the concession of the lex Julia."
+    }
+   },
+   "reason": "The Roman commander at the Tolenus (11 June 90) was the consul P. Rutilius Lupus, killed in the ambush with c. 8,000 men; Marius was his legate who counter-attacked afterwards (App. BC 1.43; Ovid Fasti 6.563-566; Oros. 5.18.11-13). The Marsi were led by P. Vettius Scato, as the record's own strength field says."
+  },
+  {
+   "kind": "event",
+   "id": "siege_of_fregellae",
+   "set": {
+    "battle": {
+     "sides": [
+      {
+       "polity": "rome",
+       "commanders": [
+        "opimius"
+       ],
+       "strength": "praetorian army",
+       "losses": "light"
+      },
+      {
+       "polity": "fregellae",
+       "commanders": [],
+       "strength": "Latin colony citizens",
+       "losses": "town destroyed"
+      }
+     ],
+     "victor": "rome",
+     "kind": "siege",
+     "significance": "First armed allied revolt over citizenship; a warning of the Social War three decades later."
+    }
+   },
+   "reason": "The defending side was coded as polity 'rome', i.e. Rome besieging itself. The defenders were the Latin colony of Fregellae (Livy Per. 60; Vell. 2.6.4). New polity id 'fregellae' will be auto-created by the build."
+  },
+  {
+   "kind": "event",
+   "id": "battle_of_telamon",
+   "set": {
+    "battle": {
+     "sides": [
+      {
+       "polity": "rome",
+       "commanders": [
+        "lucius_aemilius_papus",
+        "gaius_atilius_regulus_cos225"
+       ],
+       "strength": "two consular armies, c. 40,000 under C. Atilius Regulus and L. Aemilius Papus",
+       "losses": "unknown; consul Atilius killed"
+      },
+      {
+       "polity": "insubres",
+       "commanders": [
+        "concolitanus",
+        "aneroestes"
+       ],
+       "strength": "c. 50,000-70,000 Boii, Insubres, Taurisci and Gaesatae",
+       "losses": "c. 40,000 killed, 10,000 captured"
+      }
+     ],
+     "victor": "rome",
+     "kind": "field",
+     "significance": "Ended the last great Gallic invasion of peninsular Italy and opened the conquest of the Po valley."
+    }
+   },
+   "reason": "Roman side had no commanders although the battle was fought by both consuls of 225, L. Aemilius Papus and C. Atilius Regulus (killed) (Polyb. 2.27-31); the captured Gaesatan king Concolitanus is named in the record's own summary."
+  },
+  {
+   "kind": "event",
+   "id": "battle_of_the_allia",
+   "set": {
+    "battle": {
+     "sides": [
+      {
+       "polity": "rome",
+       "commanders": [
+        "quintus_sulpicius_longus"
+       ],
+       "strength": "unknown (Plutarch says 40,000)",
+       "losses": "heavy; most survivors fled to Veii"
+      },
+      {
+       "polity": "senones",
+       "commanders": [
+        "brennus"
+       ],
+       "strength": "Gallic war band, perhaps 30,000 (Diodorus, guess)",
+       "losses": "light"
+      }
+     ],
+     "victor": "senones",
+     "kind": "field",
+     "significance": "Leaves Rome open to capture; the greatest humiliation of early Roman history and a lasting Roman fear of Gauls (metus Gallicus)."
+    }
+   },
+   "reason": "Roman army at the Allia was led by the consular tribunes of 390, among them Q. Sulpicius Longus, who later negotiated the ransom (Livy 5.36-38, 5.48); commanders list was empty."
+  },
+  {
+   "kind": "event",
+   "id": "battle_of_ausculum",
+   "set": {
+    "battle": {
+     "sides": [
+      {
+       "polity": "epirus",
+       "commanders": [
+        "pyrrhus"
+       ],
+       "strength": "c. 40,000 including 19 elephants, Italian allies (Dionysius)",
+       "losses": "3,505 (Hieronymus)"
+      },
+      {
+       "polity": "rome",
+       "commanders": [
+        "publius_decius_mus_cos279",
+        "publius_sulpicius_saverrio"
+       ],
+       "strength": "four legions plus allies, c. 40,000 (consuls P. Sulpicius Saverrio and P. Decius Mus)",
+       "losses": "6,000 (Hieronymus)"
+      }
+     ],
+     "victor": "epirus",
+     "kind": "field",
+     "significance": "The proverbial 'Pyrrhic victory'; Pyrrhus turns to Sicily."
+    }
+   },
+   "reason": "Roman commanders were the consuls of 279, P. Decius Mus and P. Sulpicius Saverrio, as the record's own summary states (MRR I 192); list was empty."
+  },
+  {
+   "kind": "event",
+   "id": "siege_of_agrigentum_262",
+   "set": {
+    "battle": {
+     "sides": [
+      {
+       "polity": "rome",
+       "commanders": [
+        "lucius_postumius_megellus_cos262",
+        "quintus_mamilius_vitulus"
+       ],
+       "strength": "4 legions plus allies, c. 40,000",
+       "losses": "heavy losses from disease and fighting; Diodorus gives 30,000 foot and 540 horse (implausible)"
+      },
+      {
+       "polity": "carthage",
+       "commanders": [
+        "hannibal_gisco"
+       ],
+       "strength": "garrison c. 50,000 (Diodorus) plus Hanno's 50,000 foot, 6,000 horse, 60 elephants",
+       "losses": "relief army routed; city sacked"
+      }
+     ],
+     "victor": "rome",
+     "kind": "siege",
+     "significance": "First great Roman success in Sicily; Polybius treats it as the point at which Rome resolved on the conquest of the whole island and the creation of a navy."
+    }
+   },
+   "reason": "Agrigentum was besieged by both consuls of 262, L. Postumius Megellus and Q. Mamilius Vitulus (Polyb. 1.17-19; MRR I 204); list was empty. Id kept distinct from lucius_postumius_megellus (cos. 305, 294, 291), his father."
+  },
+  {
+   "kind": "event",
+   "id": "battle_of_cape_hermaeum",
+   "set": {
+    "battle": {
+     "sides": [
+      {
+       "polity": "rome",
+       "commanders": [
+        "servius_fulvius_paetinus_nobilior",
+        "marcus_aemilius_paullus_cos255"
+       ],
+       "strength": "350 ships (Polybius)"
+      },
+      {
+       "polity": "carthage",
+       "commanders": [],
+       "strength": "200 ships",
+       "losses": "114 captured"
+      }
+     ],
+     "victor": "rome",
+     "kind": "naval",
+     "significance": "A great victory immediately thrown away by the storm off Camarina."
+    }
+   },
+   "reason": "Roman fleet at Cape Hermaeum was commanded by the consuls of 255, Ser. Fulvius Paetinus Nobilior and M. Aemilius Paullus (Polyb. 1.36; MRR I 210); list was empty."
+  },
+  {
+   "kind": "event",
+   "id": "battle_of_phintias",
+   "set": {
+    "battle": {
+     "sides": [
+      {
+       "polity": "rome",
+       "commanders": [
+        "lucius_junius_pullus"
+       ],
+       "strength": "c. 120 warships, 800 transports under L. Junius Pullus",
+       "losses": "nearly all ships wrecked"
+      },
+      {
+       "polity": "carthage",
+       "commanders": [
+        "carthalo"
+       ],
+       "strength": "c. 100-120 ships",
+       "losses": "minimal"
+      }
+     ],
+     "victor": "carthage",
+     "kind": "naval",
+     "significance": "Left Rome with almost no fleet for six years."
+    }
+   },
+   "reason": "The Roman convoy lost off Phintias and Pachynus was under the consul L. Junius Pullus (Polyb. 1.52-54; MRR I 214)."
+  },
+  {
+   "kind": "event",
+   "id": "siege_of_volsinii_264",
+   "set": {
+    "battle": {
+     "sides": [
+      {
+       "polity": "rome",
+       "commanders": [
+        "marcus_fulvius_flaccus_cos264"
+       ],
+       "strength": "consular army of M. Fulvius Flaccus",
+       "losses": "consul Q. Fabius Gurges died of wounds in 265"
+      },
+      {
+       "polity": "volsinii",
+       "commanders": [],
+       "strength": "city held by former slaves or freedmen",
+       "losses": "city destroyed; population moved"
+      }
+     ],
+     "victor": "rome",
+     "kind": "siege",
+     "significance": "End of Etruscan independence; transfer of the Fanum Voltumnae's prestige to Rome."
+    }
+   },
+   "reason": "Volsinii was taken by the consul M. Fulvius Flaccus, who triumphed de Vulsiniensibus in 264 (Fasti Triumphales; Zon. 8.7; Pliny NH 34.34)."
+  },
+  {
+   "kind": "event",
+   "id": "battle_of_silva_litana",
+   "set": {
+    "battle": {
+     "sides": [
+      {
+       "polity": "rome",
+       "commanders": [
+        "lucius_postumius_albinus_cos215"
+       ],
+       "strength": "2 legions and allies, 25,000 (Livy) under L. Postumius Albinus",
+       "losses": "almost all killed; 10 survivors (Livy)"
+      },
+      {
+       "polity": "boii",
+       "commanders": [],
+       "strength": "unknown"
+      }
+     ],
+     "victor": "boii",
+     "kind": "ambush",
+     "significance": "Ended Roman operations in Cisalpine Gaul for years."
+    }
+   },
+   "reason": "The army destroyed in the Litana forest was led by L. Postumius Albinus, consul-designate for 215, whose skull the Boii gilded as a cup (Livy 23.24)."
+  },
+  {
+   "kind": "event",
+   "id": "tarentum_betrayed_212",
+   "set": {
+    "battle": {
+     "sides": [
+      {
+       "polity": "carthage",
+       "commanders": [
+        "hannibal_barca"
+       ],
+       "strength": "c. 10,000"
+      },
+      {
+       "polity": "rome",
+       "commanders": [
+        "marcus_livius_macatus"
+       ],
+       "strength": "garrison",
+       "losses": "garrison confined to the citadel"
+      }
+     ],
+     "victor": "carthage",
+     "kind": "siege",
+     "significance": "Hannibal's greatest gain in the south, but he never took the citadel."
+    }
+   },
+   "reason": "The Roman garrison that held the citadel of Tarentum after the betrayal was commanded by M. Livius (Macatus) (Polyb. 8.25-34; Livy 25.10-11)."
+  },
+  {
+   "kind": "event",
+   "id": "battle_of_myonessus",
+   "set": {
+    "battle": {
+     "sides": [
+      {
+       "polity": "rome",
+       "commanders": [
+        "lucius_aemilius_regillus"
+       ],
+       "strength": "58 Roman and 22 Rhodian ships under L. Aemilius Regillus",
+       "losses": "2 ships"
+      },
+      {
+       "polity": "seleucid",
+       "commanders": [
+        "polyxenidas"
+       ],
+       "strength": "89 ships under Polyxenidas",
+       "losses": "29 sunk, 13 captured"
+      }
+     ],
+     "victor": "rome",
+     "kind": "naval",
+     "significance": "Gave Rome command of the Aegean and allowed the Scipios to cross into Asia unopposed."
+    }
+   },
+   "reason": "Myonessus was won by the praetor L. Aemilius Regillus over Antiochus' admiral Polyxenidas (Livy 37.26-30; App. Syr. 27); both lists were empty."
+  },
+  {
+   "kind": "event",
+   "id": "battle_of_the_eurymedon_190",
+   "set": {
+    "battle": {
+     "sides": [
+      {
+       "polity": "rhodes",
+       "commanders": [
+        "eudamus"
+       ],
+       "strength": "36 ships under Eudamus"
+      },
+      {
+       "polity": "seleucid",
+       "commanders": [
+        "hannibal_barca"
+       ],
+       "strength": "47 ships incl. large Phoenician units",
+       "losses": "c. 20 ships disabled or captured"
+      }
+     ],
+     "victor": "rhodes",
+     "kind": "naval",
+     "significance": "Kept the Phoenician fleet out of the Aegean."
+    }
+   },
+   "reason": "The Rhodian fleet off Side was commanded by Eudamus (Livy 37.23-24)."
+  },
+  {
+   "kind": "event",
+   "id": "battle_of_panium",
+   "set": {
+    "battle": {
+     "sides": [
+      {
+       "polity": "seleucid",
+       "commanders": [
+        "antiochus_iii"
+       ],
+       "strength": "unknown, with elephants and cataphracts"
+      },
+      {
+       "polity": "ptolemaic",
+       "commanders": [
+        "scopas_of_aetolia"
+       ],
+       "strength": "army under Scopas",
+       "losses": "heavy; Scopas besieged in Sidon"
+      }
+     ],
+     "victor": "seleucid",
+     "kind": "field",
+     "significance": "Ended a century of Ptolemaic rule in Coele-Syria and Judaea."
+    }
+   },
+   "reason": "Ptolemaic army at Panium was commanded by the Aetolian Scopas (Polyb. 16.18-19)."
+  },
+  {
+   "kind": "event",
+   "id": "battle_of_callinicus",
+   "set": {
+    "battle": {
+     "sides": [
+      {
+       "polity": "rome",
+       "commanders": [
+        "publius_licinius_crassus_cos171"
+       ],
+       "strength": "cavalry and light infantry of P. Licinius Crassus' army",
+       "losses": "c. 200 cavalry and 2,000 infantry killed, 600 captured (Livy)"
+      },
+      {
+       "polity": "macedon_antigonid",
+       "commanders": [
+        "perseus_of_macedon"
+       ],
+       "strength": "cavalry and light troops",
+       "losses": "light"
+      }
+     ],
+     "victor": "macedon_antigonid",
+     "kind": "field",
+     "significance": "Perseus' only major victory; his failure to follow it up and Rome's refusal to negotiate set the pattern of the war."
+    }
+   },
+   "reason": "Roman commander at Callinicus was the consul P. Licinius Crassus (Livy 42.57-62)."
+  },
+  {
+   "kind": "event",
+   "id": "battle_of_numantia_153",
+   "set": {
+    "battle": {
+     "sides": [
+      {
+       "polity": "rome",
+       "commanders": [
+        "quintus_fulvius_nobilior_cos153"
+       ],
+       "strength": "c. 30,000 under Q. Fulvius Nobilior with 10 elephants",
+       "losses": "6,000 in the ambush and 4,000 at Numantia (Appian)"
+      },
+      {
+       "polity": "celtiberians",
+       "commanders": [],
+       "strength": "Belli, Titthi and Arevaci; 20,000 foot, 5,000 horse under Carus",
+       "losses": "6,000 incl. Carus (Appian)"
+      }
+     ],
+     "victor": "celtiberians",
+     "kind": "field",
+     "significance": "Beginning of twenty years of humiliations for Rome in Celtiberia."
+    }
+   },
+   "reason": "The defeats of the Vulcanalia 153 were suffered by the consul Q. Fulvius Nobilior, named in the record's own title (App. Ib. 45-47)."
+  },
+  {
+   "kind": "event",
+   "id": "battle_of_mount_algidus_431",
+   "set": {
+    "battle": {
+     "sides": [
+      {
+       "polity": "rome",
+       "commanders": [
+        "aulus_postumius_tubertus"
+       ],
+       "strength": "dictator's army with Latin and Hernican contingents",
+       "losses": "unknown"
+      },
+      {
+       "polity": "aequi",
+       "commanders": [],
+       "strength": "Aequi and Volsci",
+       "losses": "camp stormed; heavy"
+      }
+     ],
+     "victor": "rome",
+     "kind": "field",
+     "significance": "End of the Aequian threat to the Alban Hills; beginning of Roman counter-offensive in the Volscian and Aequian hills."
+    }
+   },
+   "reason": "The Algidus victory of 431 was won by the dictator A. Postumius Tubertus (Livy 4.26-29)."
+  },
+  {
+   "kind": "event",
+   "id": "battle_of_the_isara",
+   "set": {
+    "battle": {
+     "sides": [
+      {
+       "polity": "rome",
+       "commanders": [
+        "quintus_fabius_maximus_allobrogicus"
+       ],
+       "strength": "c. 30,000",
+       "losses": "15 killed (claimed)"
+      },
+      {
+       "polity": "arverni",
+       "commanders": [
+        "bituitus"
+       ],
+       "strength": "allegedly 180,000-200,000",
+       "losses": "allegedly 120,000-130,000"
+      }
+     ],
+     "victor": "rome",
+     "kind": "field",
+     "significance": "Destroyed the Arvernian hegemony and led directly to the creation of the province of Transalpine Gaul."
+    }
+   },
+   "reason": "The Isara battle (8 August 121) was won by Q. Fabius Maximus (Allobrogicus) over the Arvernian king Bituitus (Livy Per. 61; Strabo 4.2.3; Pliny NH 7.166); both lists were empty."
+  },
+  {
+   "kind": "event",
+   "id": "battle_of_noreia",
+   "set": {
+    "battle": {
+     "sides": [
+      {
+       "polity": "rome",
+       "commanders": [
+        "gnaeus_papirius_carbo_cos113"
+       ],
+       "strength": "consular army",
+       "losses": "heavy"
+      },
+      {
+       "polity": "cimbri_teutones",
+       "commanders": [],
+       "strength": "migrating host, numbers unknown",
+       "losses": "unknown"
+      }
+     ],
+     "victor": "cimbri_teutones",
+     "kind": "field",
+     "significance": "Opened twelve years of Cimbrian warfare and exposed Roman treachery as counterproductive."
+    }
+   },
+   "reason": "Roman commander at Noreia was the consul Cn. Papirius Carbo (App. Celt. 13; Livy Per. 63). Distinct from gnaeus_papirius_carbo (cos. 85, 84, 82)."
+  },
+  {
+   "kind": "event",
+   "id": "battle_of_suthul",
+   "set": {
+    "battle": {
+     "sides": [
+      {
+       "polity": "rome",
+       "commanders": [
+        "aulus_postumius_albinus"
+       ],
+       "strength": "consular army of Spurius Albinus",
+       "losses": "camp taken, army sent under the yoke"
+      },
+      {
+       "polity": "numidia",
+       "commanders": [
+        "jugurtha"
+       ],
+       "strength": "unknown",
+       "losses": "light"
+      }
+     ],
+     "victor": "numidia",
+     "kind": "ambush",
+     "significance": "The low point of the war; discredited the senatorial leadership at Rome."
+    }
+   },
+   "reason": "The army that capitulated at Suthul was commanded by A. Postumius Albinus, legate pro praetore of his brother the consul Sp. Albinus (Sall. Jug. 37-38)."
+  },
+  {
+   "kind": "event",
+   "id": "battle_of_burdigala",
+   "set": {
+    "battle": {
+     "sides": [
+      {
+       "polity": "rome",
+       "commanders": [
+        "lucius_cassius_longinus_cos107"
+       ],
+       "strength": "consular army",
+       "losses": "consul and legate killed; army under the yoke"
+      },
+      {
+       "polity": "helvetii",
+       "commanders": [
+        "divico"
+       ],
+       "strength": "Tigurini, unknown",
+       "losses": "unknown"
+      }
+     ],
+     "victor": "helvetii",
+     "kind": "ambush",
+     "significance": "Another consular army lost; the Volcae Tectosages of Tolosa defected."
+    }
+   },
+   "reason": "Defeated commander was the consul L. Cassius Longinus, killed with his legate L. Piso; the Tigurini were led by the young Divico (Caes. BG 1.7, 1.12-14; Livy Per. 65)."
+  },
+  {
+   "kind": "event",
+   "id": "battle_of_aquae_sextiae",
+   "set": {
+    "battle": {
+     "sides": [
+      {
+       "polity": "rome",
+       "commanders": [
+        "gaius_marius"
+       ],
+       "strength": "c. 30,000-40,000",
+       "losses": "light"
+      },
+      {
+       "polity": "cimbri_teutones",
+       "commanders": [
+        "teutobod"
+       ],
+       "strength": "Teutones and Ambrones, figures inflated",
+       "losses": "100,000-200,000 killed or captured (ancient claims)"
+      }
+     ],
+     "victor": "rome",
+     "kind": "field",
+     "significance": "Annihilated the Teutones and removed the western half of the migratory threat to Italy."
+    }
+   },
+   "reason": "The Teutonic king Teutobod was captured after Aquae Sextiae (Florus 1.38.10; Oros. 5.16.12); enemy commander list was empty."
+  },
+  {
+   "kind": "event",
+   "id": "battle_of_mount_vesuvius",
+   "set": {
+    "battle": {
+     "sides": [
+      {
+       "polity": "rome",
+       "commanders": [
+        "gaius_claudius_glaber"
+       ],
+       "strength": "c. 3,000 militia",
+       "losses": "camp taken"
+      },
+      {
+       "polity": "spartacan_slaves",
+       "commanders": [
+        "spartacus",
+        "crixus"
+       ],
+       "strength": "a few hundred to a few thousand",
+       "losses": "light"
+      }
+     ],
+     "victor": "spartacan_slaves",
+     "kind": "ambush",
+     "significance": "Turned a breakout into a war; fugitive slaves and rural poor flocked to Spartacus."
+    }
+   },
+   "reason": "Roman force blockading Spartacus on Vesuvius was under the praetor C. Claudius Glaber (Plut. Crass. 9; Frontin. Str. 1.5.21)."
+  },
+  {
+   "kind": "event",
+   "id": "battle_of_picenum_72",
+   "set": {
+    "battle": {
+     "sides": [
+      {
+       "polity": "rome",
+       "commanders": [
+        "gnaeus_cornelius_lentulus_clodianus",
+        "lucius_gellius_publicola"
+       ],
+       "strength": "two consular armies, then c. 10,000 under Cassius",
+       "losses": "heavy"
+      },
+      {
+       "polity": "spartacan_slaves",
+       "commanders": [
+        "spartacus"
+       ],
+       "strength": "allegedly 70,000-120,000 including non-combatants",
+       "losses": "unknown"
+      }
+     ],
+     "victor": "spartacan_slaves",
+     "kind": "field",
+     "significance": "The high point of the revolt; Rome had lost two consular armies to slaves."
+    }
+   },
+   "reason": "The two consuls Spartacus defeated in 72 were Cn. Cornelius Lentulus Clodianus and L. Gellius Publicola (App. BC 1.117; Plut. Crass. 9)."
+  },
+  {
+   "kind": "event",
+   "id": "battle_of_chalcedon_73",
+   "set": {
+    "battle": {
+     "sides": [
+      {
+       "polity": "rome",
+       "commanders": [
+        "marcus_aurelius_cotta"
+       ],
+       "strength": "Cotta's consular army and fleet",
+       "losses": "several thousand killed; much of the fleet lost"
+      },
+      {
+       "polity": "pontus",
+       "commanders": [
+        "mithridates_vi"
+       ],
+       "strength": "royal army and fleet",
+       "losses": "light"
+      }
+     ],
+     "victor": "pontus",
+     "kind": "siege",
+     "significance": "Gave Mithridates command of the Propontis and opened the way to Cyzicus."
+    }
+   },
+   "reason": "Rome's defeated commander at Chalcedon was the consul M. Aurelius Cotta (App. Mithr. 71; Plut. Luc. 8)."
+  },
+  {
+   "kind": "event",
+   "id": "battle_of_zela_67",
+   "set": {
+    "battle": {
+     "sides": [
+      {
+       "polity": "rome",
+       "commanders": [
+        "gaius_valerius_triarius"
+       ],
+       "strength": "Triarius' army",
+       "losses": "7,000 incl. 24 tribunes and 150 centurions"
+      },
+      {
+       "polity": "pontus",
+       "commanders": [
+        "mithridates_vi"
+       ],
+       "strength": "royal army",
+       "losses": "unknown"
+      }
+     ],
+     "victor": "pontus",
+     "kind": "field",
+     "significance": "Restored Mithridates in Pontus and ended Lucullus' command."
+    }
+   },
+   "reason": "The Roman army destroyed at Zela in 67 was under Lucullus' legate C. Valerius Triarius (Plut. Luc. 35; App. Mithr. 89; Dio 36.12)."
+  },
+  {
+   "kind": "event",
+   "id": "battle_of_pistoria",
+   "set": {
+    "battle": {
+     "sides": [
+      {
+       "polity": "rome",
+       "commanders": [
+        "marcus_petreius"
+       ],
+       "strength": "Antonius' army under Petreius, perhaps 3 legions",
+       "losses": "heavy among the best troops"
+      },
+      {
+       "polity": "catilinarii",
+       "commanders": [
+        "catiline"
+       ],
+       "strength": "c. 3,000 (of perhaps 10,000 at peak)",
+       "losses": "annihilated"
+      }
+     ],
+     "victor": "rome",
+     "kind": "field",
+     "significance": "Ended the Catilinarian rising."
+    }
+   },
+   "reason": "At Pistoria the army was commanded in the field by the legate M. Petreius, the consul C. Antonius Hybrida pleading gout (Sall. Cat. 59; Dio 37.39)."
+  },
+  {
+   "kind": "event",
+   "id": "battle_of_atuatuca",
+   "set": {
+    "battle": {
+     "sides": [
+      {
+       "polity": "rome",
+       "commanders": [
+        "quintus_titurius_sabinus",
+        "lucius_aurunculeius_cotta"
+       ],
+       "strength": "1 legion and 5 cohorts",
+       "losses": "annihilated"
+      },
+      {
+       "polity": "eburones",
+       "commanders": [
+        "ambiorix"
+       ],
+       "strength": "Eburones under Ambiorix and Catuvolcus",
+       "losses": "light"
+      }
+     ],
+     "victor": "eburones",
+     "kind": "ambush",
+     "significance": "Triggered the rising of the Nervii and Treveri in 54-53 and Caesar's war of extermination against the Eburones."
+    }
+   },
+   "reason": "The destroyed force was led by the legates Q. Titurius Sabinus and L. Aurunculeius Cotta, named in the record's own summary (Caes. BG 5.24-37)."
+  },
+  {
+   "kind": "event",
+   "id": "battle_of_ilerda",
+   "set": {
+    "battle": {
+     "sides": [
+      {
+       "polity": "caesariani",
+       "commanders": [
+        "julius_caesar"
+       ],
+       "strength": "6 legions, 6,000 auxiliaries, 3,000 Gallic cavalry",
+       "losses": "c. 70 in the worst skirmish; light overall"
+      },
+      {
+       "polity": "pompeiani",
+       "commanders": [
+        "lucius_afranius",
+        "marcus_petreius"
+       ],
+       "strength": "5 legions and c. 80 cohorts of Spanish auxiliaries under Afranius and Petreius",
+       "losses": "army surrendered and disbanded"
+      }
+     ],
+     "victor": "caesariani",
+     "kind": "field",
+     "significance": "Secured the West for Caesar within six months of the Rubicon."
+    }
+   },
+   "reason": "The Pompeian army at Ilerda was commanded by the legates L. Afranius and M. Petreius, named in the record's own summary (Caes. BC 1.37-87)."
+  },
+  {
+   "kind": "event",
+   "id": "siege_of_praeneste",
+   "set": {
+    "battle": {
+     "sides": [
+      {
+       "polity": "sullani",
+       "commanders": [
+        "quintus_lucretius_afella"
+       ],
+       "strength": "Ofella's blockading army",
+       "losses": "unknown"
+      },
+      {
+       "polity": "mariani",
+       "commanders": [
+        "gaius_marius_the_younger"
+       ],
+       "strength": "garrison",
+       "losses": "c. 12,000 massacred after surrender"
+      }
+     ],
+     "victor": "sullani",
+     "kind": "siege",
+     "significance": "Its fall, after the Colline Gate, ended organised Marian resistance in Italy."
+    }
+   },
+   "reason": "Sulla left the siege of Praeneste to Q. Lucretius Afella (Ofella) (App. BC 1.88-94; Plut. Sull. 29, 33)."
+  },
+  {
+   "kind": "event",
+   "id": "battle_of_the_amnias",
+   "set": {
+    "battle": {
+     "sides": [
+      {
+       "polity": "bithynia",
+       "commanders": [
+        "nicomedes_iv"
+       ],
+       "strength": "Nicomedes IV: 50,000 foot, 6,000 horse (Appian)",
+       "losses": "camp and much of the army lost"
+      },
+      {
+       "polity": "pontus",
+       "commanders": [
+        "archelaus_pontic"
+       ],
+       "strength": "Pontic advance force with scythed chariots",
+       "losses": "light"
+      }
+     ],
+     "victor": "pontus",
+     "kind": "field",
+     "significance": "Opened Asia to Mithridates and began the First Mithridatic War."
+    }
+   },
+   "reason": "The Bithynian army defeated on the Amnias was that of Nicomedes IV (App. Mithr. 18)."
+  },
+  {
+   "kind": "event",
+   "id": "siege_of_jerusalem_63",
+   "set": {
+    "battle": {
+     "sides": [
+      {
+       "polity": "rome",
+       "commanders": [
+        "pompey"
+       ],
+       "strength": "several legions",
+       "losses": "light"
+      },
+      {
+       "polity": "hasmonean",
+       "commanders": [
+        "aristobulus_ii"
+       ],
+       "strength": "Aristobulus' partisans",
+       "losses": "c. 12,000 killed (Josephus)"
+      }
+     ],
+     "victor": "rome",
+     "kind": "siege",
+     "significance": "Ended Hasmonean independence; Judaea became a Roman dependency."
+    }
+   },
+   "reason": "The Temple was held by the partisans of Aristobulus II, as the record's summary says (Jos. AJ 14.54-79)."
+  },
+  {
+   "kind": "event",
+   "id": "siege_of_jerusalem_37",
+   "set": {
+    "battle": {
+     "sides": [
+      {
+       "polity": "rome",
+       "commanders": [
+        "gaius_sosius",
+        "herod_the_great"
+       ],
+       "strength": "Sosius' legions and Herod's army, c. 11 legions per Josephus",
+       "losses": "moderate"
+      },
+      {
+       "polity": "hasmonean",
+       "commanders": [
+        "antigonus_ii_mattathias"
+       ],
+       "strength": "Antigonus' garrison",
+       "losses": "city sacked"
+      }
+     ],
+     "victor": "rome",
+     "kind": "siege",
+     "significance": "Ended the Hasmonean dynasty; inaugurated Herodian Judaea."
+    }
+   },
+   "reason": "Jerusalem was taken in 37 by the governor of Syria C. Sosius with Herod from the last Hasmonean king Antigonus II Mattathias (Jos. AJ 14.465-491; Dio 49.22); both lists were empty."
+  },
+  {
+   "kind": "event",
+   "id": "siege_of_alesia",
+   "set": {
+    "summary": "After a failed cavalry attack on Caesar's column, Vercingetorix shut himself and 80,000 men in Alesia. Caesar enclosed it with a 11-mile inner line and a 14-mile outer line of ditches, ramparts, towers and booby traps, the stimuli, lilia and cippi. A relief army that Caesar puts at 250,000 foot and 8,000 horse attacked from outside while Vercingetorix attacked from within; the final assault fell on a weak camp on the north side, where Caesar himself, recognisable by his red cloak, led the reserve and German cavalry took the attackers in the rear."
+   },
+   "reason": "Caesar BG 7.69: the inner circuit 'XI milia passuum tenebat'; the outer line was 14 miles (7.74)."
+  },
+  {
+   "kind": "event",
+   "id": "massacre_of_cauca",
+   "set": {
+    "loc": [
+     -4.522,
+     41.218
+    ]
+   },
+   "reason": "Cauca is modern Coca (Segovia), 41.218 N 4.522 W; previous point [-4.39, 41.22] lay c. 11 km east of the town."
+  },
+  {
+   "kind": "region",
+   "id": "it_henna",
+   "control": [
+    {
+     "from": -509,
+     "to": -440,
+     "p": "sicels",
+     "s": "independent",
+     "note": "Ducetius' Sicel league (460-440)"
+    },
+    {
+     "from": -440,
+     "to": -264,
+     "p": "syracuse",
+     "s": "independent"
+    },
+    {
+     "from": -264,
+     "to": -263,
+     "p": "rome",
+     "s": "contested"
+    },
+    {
+     "from": -263,
+     "to": -241,
+     "p": "rome",
+     "s": "contested",
+     "note": "Catana and Henna surrender (263); Hamilcar retakes Henna by treachery (259), recovered 258; war zone until 241"
+    },
+    {
+     "from": -241,
+     "to": -214,
+     "p": "rome",
+     "s": "direct",
+     "note": "Province of Sicily after the treaty of Lutatius (241); praetor from 227"
+    },
+    {
+     "from": -214,
+     "to": -211,
+     "p": "carthage",
+     "s": "contested",
+     "note": "Henna massacre (214); Morgantina defects"
+    },
+    {
+     "from": -211,
+     "to": -135,
+     "p": "rome",
+     "s": "direct",
+     "note": "Catana and Henna surrender (263)"
+    },
+    {
+     "from": -135,
+     "to": -132,
+     "p": "rome",
+     "s": "contested",
+     "note": "First Servile War: Eunus' kingdom at Henna"
+    },
+    {
+     "from": -132,
+     "to": -104,
+     "p": "rome",
+     "s": "direct",
+     "note": "Catana and Henna surrender (263)"
+    },
+    {
+     "from": -104,
+     "to": -100,
+     "p": "rome",
+     "s": "contested",
+     "note": "Second Servile War"
+    },
+    {
+     "from": -100,
+     "to": -42,
+     "p": "rome",
+     "s": "direct",
+     "note": "Catana and Henna surrender (263)"
+    },
+    {
+     "from": -42,
+     "to": -36,
+     "p": "sextus_pompeius",
+     "s": "direct",
+     "note": "Sicily held by Sextus Pompeius until Naulochus (3 Sept 36)"
+    },
+    {
+     "from": -36,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Catana and Henna surrender (263)"
+    },
+    {
+     "from": 395,
+     "to": 440,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 440,
+     "to": 442,
+     "p": "vandal_kingdom",
+     "s": "contested",
+     "note": "Gaiseric raids Sicily, besieges Panormus (440)"
+    },
+    {
+     "from": 442,
+     "to": 468,
+     "p": "rome_west",
+     "s": "direct",
+     "note": "Catana and Henna surrender (263)"
+    },
+    {
+     "from": 468,
+     "to": 477,
+     "p": "vandal_kingdom",
+     "s": "independent",
+     "note": "Vandal control after the failed Roman armada of 468"
+    },
+    {
+     "from": 477,
+     "to": 491,
+     "p": "odoacer_kingdom",
+     "s": "independent",
+     "note": "Gaiseric cedes Sicily to Odoacer for tribute (Lilybaeum kept)"
+    },
+    {
+     "from": 491,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 550,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Belisarius takes Sicily (535); Syracuse surrenders 31 Dec 535"
+    },
+    {
+     "from": 550,
+     "to": 551,
+     "p": "ostrogothic_kingdom",
+     "s": "contested",
+     "note": "Totila's raid on Sicily (550)"
+    },
+    {
+     "from": 551,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Belisarius takes Sicily (535); Syracuse surrenders 31 Dec 535"
+    }
+   ],
+   "reason": "Rome did not hold the Sicilian interior as a secure possession from 263: Hamilcar took Henna (and Camarina) in 259 and it was recovered only in 258 (Diod. 23.9; Polyb. 1.24). Shown 'contested' until the treaty of 241, which is the conventional start of Roman Sicily."
+  },
+  {
+   "kind": "region",
+   "id": "it_corsica",
+   "control": [
+    {
+     "from": -509,
+     "to": -280,
+     "p": "etruscans",
+     "s": "independent",
+     "note": "Etruscan Alalia after the battle of c.540"
+    },
+    {
+     "from": -280,
+     "to": -259,
+     "p": "carthage",
+     "s": "independent"
+    },
+    {
+     "from": -259,
+     "to": -258,
+     "p": "rome",
+     "s": "contested",
+     "note": "L. Cornelius Scipio takes Aleria (259)"
+    },
+    {
+     "from": -258,
+     "to": -238,
+     "p": "carthage",
+     "s": "independent",
+     "note": "Scipio's raid left no garrison; Corsica stays in the Carthaginian sphere until ceded with Sardinia (238-237)"
+    },
+    {
+     "from": -238,
+     "to": -163,
+     "p": "corsi",
+     "s": "contested",
+     "note": "Corsican revolts 236, 231, 181, 173"
+    },
+    {
+     "from": -163,
+     "to": -40,
+     "p": "rome",
+     "s": "direct",
+     "note": "Marian colony Mariana, Sullan Aleria"
+    },
+    {
+     "from": -40,
+     "to": -38,
+     "p": "sextus_pompeius",
+     "s": "direct"
+    },
+    {
+     "from": -38,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Marian colony Mariana, Sullan Aleria"
+    },
+    {
+     "from": 395,
+     "to": 456,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 456,
+     "to": 534,
+     "p": "vandal_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 534,
+     "to": 551,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 551,
+     "to": 552,
+     "p": "ostrogothic_kingdom",
+     "s": "contested",
+     "note": "Totila occupies Corsica"
+    },
+    {
+     "from": 552,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct"
+    }
+   ],
+   "reason": "Scipio's capture of Aleria in 259 (ILLRP 310) was a raid; Rome acquired Corsica only with Sardinia in 238-237 (Polyb. 1.88). Twenty-one years of Roman colour was wrong."
+  },
+  {
+   "kind": "region",
+   "id": "it_emilia_west",
+   "control": [
+    {
+     "from": -509,
+     "to": -400,
+     "p": "ligures",
+     "s": "independent"
+    },
+    {
+     "from": -400,
+     "to": -224,
+     "p": "boii",
+     "s": "independent",
+     "note": "Gallic Anares and Boii"
+    },
+    {
+     "from": -224,
+     "to": -218,
+     "p": "rome",
+     "s": "occupied"
+    },
+    {
+     "from": -218,
+     "to": -217,
+     "p": "carthage",
+     "s": "contested",
+     "note": "Placentia founded (218); Trebia (Dec 218); Hannibal winters among the Boii"
+    },
+    {
+     "from": -217,
+     "to": -191,
+     "p": "boii",
+     "s": "contested",
+     "note": "Hannibal leaves in spring 217; Boii and Anares in revolt while the colonies of Placentia and Cremona hold out; Hamilcar's Gauls sack Placentia (200)"
+    },
+    {
+     "from": -191,
+     "to": 271,
+     "p": "rome",
+     "s": "direct",
+     "note": "Via Aemilia 187; Parma colony 183"
+    },
+    {
+     "from": 271,
+     "to": 272,
+     "p": "alamanni",
+     "s": "contested",
+     "note": "Juthungi defeat Aurelian near Placentia"
+    },
+    {
+     "from": 272,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Via Aemilia 187; Parma colony 183"
+    },
+    {
+     "from": 395,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 554,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Gothic War: Byzantine reconquest contested by the Goths (Totila 541-552)"
+    },
+    {
+     "from": 554,
+     "to": 570,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 570,
+     "to": 641,
+     "p": "lombards",
+     "s": "independent",
+     "note": "Lombard Parma and Piacenza; brief defections to Romanus 590"
+    }
+   ],
+   "reason": "Carthage contested the Po valley only in 218-217; after Hannibal crossed the Apennines in spring 217 the region was fought over between Rome's colonies and the Boii/Insubres (Livy 21.25, 27.10, 31.10; Polyb. 3.40, 3.77-78) until the Boian surrender of 191."
+  },
+  {
+   "kind": "region",
+   "id": "es_gades",
+   "control": [
+    {
+     "from": -509,
+     "to": -206,
+     "p": "carthage",
+     "s": "independent",
+     "note": "Phoenician Gadir in the Carthaginian sphere"
+    },
+    {
+     "from": -206,
+     "to": -49,
+     "p": "gades",
+     "s": "ally",
+     "note": "Gades defects from Carthage and makes a treaty with Rome (206; foedus renewed 78)"
+    },
+    {
+     "from": -49,
+     "to": 260,
+     "p": "rome",
+     "s": "direct",
+     "note": "Caesar makes Gades a municipium (49)"
+    },
+    {
+     "from": 260,
+     "to": 269,
+     "p": "gallic_empire",
+     "s": "direct",
+     "note": "Hispania under the Gallic emperors until c.269"
+    },
+    {
+     "from": 269,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Caesar makes Gades a municipium (49)"
+    },
+    {
+     "from": 395,
+     "to": 409,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 409,
+     "to": 411,
+     "p": "vandals",
+     "s": "contested",
+     "note": "Vandals, Alans and Suebi enter Spain (Sept/Oct 409)"
+    },
+    {
+     "from": 411,
+     "to": 418,
+     "p": "vandals",
+     "s": "independent",
+     "note": "Silingi Vandals allotted Baetica (411)"
+    },
+    {
+     "from": 418,
+     "to": 422,
+     "p": "rome_west",
+     "s": "direct",
+     "note": "Caesar makes Gades a municipium (49)"
+    },
+    {
+     "from": 422,
+     "to": 429,
+     "p": "vandals",
+     "s": "independent",
+     "note": "Hasdingi in Baetica: Castinus defeated (422), Hispalis and Carthago Nova sacked (425)"
+    },
+    {
+     "from": 429,
+     "to": 439,
+     "p": "rome_west",
+     "s": "direct",
+     "note": "Caesar makes Gades a municipium (49)"
+    },
+    {
+     "from": 439,
+     "to": 456,
+     "p": "suebic_kingdom",
+     "s": "independent",
+     "note": "Rechila takes Merida (439) and Seville (441)"
+    },
+    {
+     "from": 456,
+     "to": 475,
+     "p": "visigothic_kingdom",
+     "s": "ally",
+     "note": "Visigoths campaign as Roman federates"
+    },
+    {
+     "from": 475,
+     "to": 552,
+     "p": "visigothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 552,
+     "to": 571,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Byzantine Asido"
+    },
+    {
+     "from": 571,
+     "to": 641,
+     "p": "visigothic_kingdom",
+     "s": "independent",
+     "note": "Leovigild takes Medina Sidonia (571)"
+    }
+   ],
+   "reason": "Coded as polity 'carthage' with status ally to 49 BC, i.e. a Carthaginian ally of Rome surviving a century after Carthage's destruction. Gades broke with Carthage in 206 (Livy 28.37) and was an independent federate city of Rome (Cic. Balb. 34-39). New polity id 'gades' will be auto-created."
+  },
+  {
+   "kind": "region",
+   "id": "gr_illyria",
+   "control": [
+    {
+     "from": -509,
+     "to": -260,
+     "p": "illyrian_tribes",
+     "s": "independent"
+    },
+    {
+     "from": -260,
+     "to": -168,
+     "p": "illyrians",
+     "s": "independent",
+     "note": "Ardiaean kingdom: Agron, Teuta (First Illyrian War 229-228), Demetrius of Pharos (Second, 219), Pleuratus, Genthius"
+    },
+    {
+     "from": -168,
+     "to": -167,
+     "p": "illyrians",
+     "s": "contested",
+     "note": "Third Illyrian War: L. Anicius Gallus takes Scodra in thirty days"
+    },
+    {
+     "from": -167,
+     "to": -59,
+     "p": "illyrians",
+     "s": "client",
+     "note": "Genthius' kingdom split into three autonomous, partly tributary districts (Livy 45.26); supervised from Macedonia"
+    },
+    {
+     "from": -59,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Illyricum under Caesar (59); province after 27; Praevalitana under Diocletian"
+    },
+    {
+     "from": 395,
+     "to": 610,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Praevalitana belongs to the eastern prefecture"
+    },
+    {
+     "from": 610,
+     "to": 641,
+     "p": "slavs",
+     "s": "contested",
+     "note": "Slav settlement inland; Doclea abandoned; coastal towns hold"
+    }
+   ],
+   "reason": "After Anicius' victory in 167 Rome did not annex the Ardiaean kingdom: it was divided into three self-governing districts, some exempt from tribute (Livy 45.26.11-15). Direct rule from 167 overstates it; Illyricum appears as a command only with Caesar's lex Vatinia (59)."
+  },
+  {
+   "kind": "region",
+   "id": "gr_epirus",
+   "control": [
+    {
+     "from": -509,
+     "to": -297,
+     "p": "epirus",
+     "s": "independent",
+     "note": "Molossian kings (Aeacidae); Alexander I of Epirus dies in Italy (331)"
+    },
+    {
+     "from": -297,
+     "to": -272,
+     "p": "epirus",
+     "s": "independent",
+     "note": "Pyrrhus; invasion of Italy 280-275"
+    },
+    {
+     "from": -272,
+     "to": -170,
+     "p": "epirus",
+     "s": "independent",
+     "note": "Monarchy ends c. 232; Epirote League"
+    },
+    {
+     "from": -170,
+     "to": -167,
+     "p": "epirus",
+     "s": "contested",
+     "note": "Molossians side with Perseus"
+    },
+    {
+     "from": -167,
+     "to": -148,
+     "p": "epirus",
+     "s": "client",
+     "note": "Aemilius Paullus sacks 70 towns and enslaves 150,000 (167); surviving communities nominally free"
+    },
+    {
+     "from": -148,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Attached to the province of Macedonia (148/146); Nicopolis founded after Actium (31)"
+    },
+    {
+     "from": 395,
+     "to": 397,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 397,
+     "to": 401,
+     "p": "visigoths",
+     "s": "ally",
+     "note": "Alaric magister militum per Illyricum, his Goths quartered in Epirus"
+    },
+    {
+     "from": 401,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Vandal raid on Nicopolis (474); Totila's fleet (551); Slavs in Epirus in the 7th c."
+    }
+   ],
+   "reason": "The sack of 167 punished the Molossians but did not create a province; Epirus came under a Roman governor only with the organisation of Macedonia in 148/146."
+  },
+  {
+   "kind": "region",
+   "id": "gr_rhodes",
+   "control": [
+    {
+     "from": -509,
+     "to": -479,
+     "p": "achaemenid",
+     "s": "independent"
+    },
+    {
+     "from": -479,
+     "to": -411,
+     "p": "athens",
+     "s": "independent",
+     "note": "Delian League"
+    },
+    {
+     "from": -411,
+     "to": -357,
+     "p": "rhodes",
+     "s": "independent",
+     "note": "Synoecism of Ialysos, Camirus and Lindos into Rhodes (408)"
+    },
+    {
+     "from": -357,
+     "to": -332,
+     "p": "achaemenid",
+     "s": "independent",
+     "note": "Hecatomnid Carian dynasts (Mausolus, Artemisia) control the island"
+    },
+    {
+     "from": -332,
+     "to": -323,
+     "p": "alexander_empire",
+     "s": "independent"
+    },
+    {
+     "from": -323,
+     "to": -164,
+     "p": "rhodes",
+     "s": "independent",
+     "note": "Siege by Demetrius Poliorcetes (305-304) fails; the Colossus"
+    },
+    {
+     "from": -164,
+     "to": -43,
+     "p": "rhodes",
+     "s": "ally",
+     "note": "Formal treaty with Rome (164); resists Mithridates' siege (88)"
+    },
+    {
+     "from": -43,
+     "to": -42,
+     "p": "rhodes",
+     "s": "contested",
+     "note": "Cassius defeats the Rhodian fleet and sacks the city (43)"
+    },
+    {
+     "from": -42,
+     "to": 73,
+     "p": "rhodes",
+     "s": "ally",
+     "note": "Free federate city under the Principate (Claudius suspends its freedom 44-53)"
+    },
+    {
+     "from": 73,
+     "to": 395,
+     "p": "rome",
+     "s": "direct",
+     "note": "Vespasian ends Rhodian freedom (c. 73); province of the Islands under Diocletian"
+    },
+    {
+     "from": 395,
+     "to": 623,
+     "p": "rome_east",
+     "s": "direct"
+    },
+    {
+     "from": 623,
+     "to": 628,
+     "p": "sasanian",
+     "s": "occupied",
+     "note": "Persian fleet takes Rhodes (622/623)"
+    },
+    {
+     "from": 628,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct"
+    }
+   ],
+   "reason": "Rhodes was never annexed in 42: Cassius sacked it in 43 but it remained a free federate city (the record's own note says 'nominally free until Vespasian'; Suet. Vesp. 8; Tac. Ann. 12.58). Annexation dated to Vespasian, c. AD 73."
+  }
+ ]
+}

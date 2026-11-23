@@ -1,0 +1,3611 @@
+{
+ "journeys": [
+  {
+   "id": "journey_polybius",
+   "name": "Polybius: hostage, companion and eyewitness",
+   "kind": "journey",
+   "person": "polybius",
+   "polity": "achaean_league",
+   "start": -167,
+   "end": -118,
+   "summary": "The son of the Achaean general Lycortas, Polybius was one of the thousand leading Achaeans deported to Italy after Pydna on the say-so of the pro-Roman Callicrates. Where the others were parked in Etruscan towns, he was allowed to stay in Rome, where he became the mentor of the young Scipio Aemilianus. Seventeen years of detention turned him into the best-informed foreigner in Rome. Released in 150, he went where the history was being made: to Masinissa's court, to the siege of Carthage, along the Atlantic coast of Africa in a squadron lent by Scipio, to the ruins of Corinth, to Ptolemaic Alexandria and probably to Numantia. He also walked Hannibal's Alpine route to check the sources. The result was the Histories, written to explain how the Romans had conquered almost the whole inhabited world in less than 53 years (220-167).",
+   "path": [
+    {
+     "loc": [
+      22.13,
+      37.4
+     ],
+     "t": "Megalopolis",
+     "y": -167,
+     "note": "home city in Arcadia; listed among the Achaean suspects"
+    },
+    {
+     "loc": [
+      21.7385,
+      38.2433
+     ],
+     "t": "Embarks at Patrae",
+     "y": -167
+    },
+    {
+     "loc": [
+      18.6,
+      39.9
+     ],
+     "t": "Crossing the Ionian Sea",
+     "y": -167,
+     "sea": true,
+     "marine": true
+    },
+    {
+     "loc": [
+      17.9429,
+      40.6387
+     ],
+     "t": "Brundisium",
+     "y": -167,
+     "sea": true
+    },
+    {
+     "loc": [
+      12.4917,
+      41.8899
+     ],
+     "t": "Rome: detention in the house of Aemilius Paullus",
+     "y": -167,
+     "note": "Polybius 31.23-24: friendship with Scipio Aemilianus begins over the loan of books",
+     "event": "achaean_hostages_167"
+    },
+    {
+     "loc": [
+      6.6133,
+      36.3681
+     ],
+     "t": "Court of Masinissa",
+     "y": -151,
+     "note": "Polybius spoke with the aged king (9.25); probably with Scipio on his mission from Spain in 151/150",
+     "sea": true
+    },
+    {
+     "loc": [
+      12.4917,
+      41.8899
+     ],
+     "t": "Rome: release of the surviving 300 hostages",
+     "y": -150,
+     "note": "Cato: 'as if we had nothing to do, we sit all day debating whether some old Greeks should be buried by our undertakers or by those of Achaea'",
+     "sea": true
+    },
+    {
+     "loc": [
+      10.322,
+      36.8545
+     ],
+     "t": "Siege of Carthage, with Scipio",
+     "y": -146,
+     "note": "watched the city burn beside Scipio, who quoted Homer on the fall of Troy (38.21-22)",
+     "sea": true,
+     "event": "destruction_of_carthage"
+    },
+    {
+     "loc": [
+      5.3,
+      37.6
+     ],
+     "t": "Westward along the African coast",
+     "y": -146,
+     "sea": true,
+     "marine": true
+    },
+    {
+     "loc": [
+      -5.6,
+      35.95
+     ],
+     "t": "Pillars of Heracles",
+     "y": -146,
+     "sea": true,
+     "marine": true
+    },
+    {
+     "loc": [
+      -6.11,
+      35.2002
+     ],
+     "t": "Atlantic voyage to Lixus and beyond",
+     "y": -146,
+     "note": "exploratory cruise down the Moroccan coast in ships lent by Scipio (Pliny NH 5.9)",
+     "sea": true
+    },
+    {
+     "loc": [
+      -5.6,
+      35.95
+     ],
+     "t": "Back through the Strait",
+     "y": -146,
+     "sea": true,
+     "marine": true
+    },
+    {
+     "loc": [
+      12.2,
+      37.2
+     ],
+     "t": "Off western Sicily",
+     "y": -146,
+     "sea": true,
+     "marine": true
+    },
+    {
+     "loc": [
+      20.8,
+      37.4
+     ],
+     "t": "Ionian Sea",
+     "y": -146,
+     "sea": true,
+     "marine": true
+    },
+    {
+     "loc": [
+      22.8786,
+      37.9056
+     ],
+     "t": "Corinth after the sack",
+     "y": -146,
+     "note": "saw Roman soldiers playing dice on paintings thrown on the ground (39.2); then spent a year settling the cities of Achaea for the Roman commissioners",
+     "sea": true,
+     "event": "sack_of_corinth"
+    },
+    {
+     "loc": [
+      24.5,
+      35.2
+     ],
+     "t": "South of Crete",
+     "y": -140,
+     "note": "date of the Alexandrian visit uncertain, under Ptolemy VIII",
+     "sea": true,
+     "marine": true
+    },
+    {
+     "loc": [
+      29.9098,
+      31.2014
+     ],
+     "t": "Alexandria",
+     "y": -140,
+     "note": "found the city dominated by mercenaries and mob (34.14)",
+     "sea": true
+    },
+    {
+     "loc": [
+      15.62,
+      38.12
+     ],
+     "t": "Strait of Messina",
+     "y": -134,
+     "sea": true,
+     "marine": true
+    },
+    {
+     "loc": [
+      12.4917,
+      41.8899
+     ],
+     "t": "Rome",
+     "y": -134,
+     "sea": true
+    },
+    {
+     "loc": [
+      -2.4443,
+      41.8094
+     ],
+     "t": "Numantia, probably with Scipio",
+     "y": -133,
+     "note": "he wrote a monograph on the Numantine War (Cicero Fam. 5.12)",
+     "event": "siege_of_numantia"
+    },
+    {
+     "loc": [
+      22.13,
+      37.4
+     ],
+     "t": "Megalopolis: death after a fall from his horse, aged 82",
+     "y": -118,
+     "note": "Ps.-Lucian, Macrobii 23"
+    }
+   ],
+   "certainty": "probable",
+   "note": "Dates of the Masinissa, Alexandria and Numantia visits are inferred; the Alpine walk (3.48) is undated and not drawn. Intermediate sea points are schematic.",
+   "sources": [
+    "Polybius 3.48, 3.59, 9.25, 31.23-25, 34.14, 38.21-22, 39.2",
+    "Pausanias 8.30",
+    "Walbank, Polybius (1972)"
+   ]
+  },
+  {
+   "id": "journey_hannibal_exile",
+   "name": "Hannibal in exile, 195-183 BC",
+   "kind": "journey",
+   "person": "hannibal_barca",
+   "polity": "carthage",
+   "start": -195,
+   "end": -183,
+   "summary": "After Zama Hannibal remained the most dangerous man in Carthage. As sufete in 196 he broke the grip of the judges' oligarchy and reformed the state finances so well that the indemnity could be paid without new taxes. His enemies told Rome he was plotting with Antiochus III, and when a Roman embassy arrived in 195 he rode through the night to his coastal estate, sailed for the Kerkennah islands and then for Tyre, the mother city. For twelve years he was a professional exile at Hellenistic courts: adviser to Antiochus, admiral of a Seleucid fleet beaten off Side, a fugitive on Crete, perhaps the planner of Artaxata for the Armenian king, finally a guest of Prusias of Bithynia. When Flamininus demanded his surrender he took poison at Libyssa.",
+   "path": [
+    {
+     "loc": [
+      10.322,
+      36.8545
+     ],
+     "t": "Carthage",
+     "y": -195,
+     "note": "flees by night when a Roman embassy arrives (Livy 33.47-49)"
+    },
+    {
+     "loc": [
+      10.95,
+      35.45
+     ],
+     "t": "His estate between Acholla and Thapsus",
+     "y": -195
+    },
+    {
+     "loc": [
+      11.25,
+      34.72
+     ],
+     "t": "Cercina (Kerkennah islands)",
+     "y": -195,
+     "note": "gives a feast for the merchants in port and uses their sails as awnings so no ship can leave to report him",
+     "sea": true
+    },
+    {
+     "loc": [
+      20.0,
+      34.5
+     ],
+     "t": "Across the Libyan Sea",
+     "y": -195,
+     "sea": true,
+     "marine": true
+    },
+    {
+     "loc": [
+      30.5,
+      33.3
+     ],
+     "t": "Off Cyprus",
+     "y": -195,
+     "sea": true,
+     "marine": true
+    },
+    {
+     "loc": [
+      35.2018,
+      33.2693
+     ],
+     "t": "Tyre",
+     "y": -195,
+     "note": "received as a founder-hero by the mother city",
+     "sea": true
+    },
+    {
+     "loc": [
+      36.1768,
+      36.2159
+     ],
+     "t": "Antioch",
+     "y": -195,
+     "note": "Antiochus is away; Hannibal follows him"
+    },
+    {
+     "loc": [
+      27.3424,
+      37.9402
+     ],
+     "t": "Ephesus: at the court of Antiochus III",
+     "y": -195,
+     "note": "meets Scipio Africanus here, according to a famous but doubtful anecdote of 193 (Livy 35.14)"
+    },
+    {
+     "loc": [
+      31.3922,
+      36.7684
+     ],
+     "t": "Defeat off Side (Eurymedon)",
+     "y": -190,
+     "note": "commands part of the Seleucid fleet against the Rhodians",
+     "event": "battle_of_the_eurymedon_190"
+    },
+    {
+     "loc": [
+      24.9469,
+      35.0621
+     ],
+     "t": "Gortyn, Crete",
+     "y": -189,
+     "note": "after Apamea demanded his surrender; the story of the lead-filled jars left in the temple of Artemis (Nepos, Hannibal 9)",
+     "sea": true
+    },
+    {
+     "loc": [
+      44.5752,
+      39.8819
+     ],
+     "t": "Artaxata, Armenia (tradition)",
+     "y": -188,
+     "note": "Strabo 11.14.6 and Plutarch Lucullus 31 say he laid out the city for Artaxias; doubted by some",
+     "sea": true
+    },
+    {
+     "loc": [
+      29.43,
+      40.8
+     ],
+     "t": "Libyssa, Bithynia: suicide",
+     "y": -183,
+     "note": "death year 183, 182 or 181 in the sources; Nepos and Livy 39.51: 'let us free the Romans from their long anxiety'"
+    }
+   ],
+   "certainty": "possible",
+   "note": "The Crete and Armenia episodes rest on late or anecdotal sources; the leg from Crete to Artaxata is schematic. Death date per Livy 183 BC (Polybius placed it in 183/2).",
+   "sources": [
+    "Livy 33.45-49, 35.14, 37.23-24, 39.51",
+    "Nepos, Hannibal 7-12",
+    "Justin 31-32",
+    "Strabo 11.14.6"
+   ]
+  },
+  {
+   "id": "journey_cicero_exile",
+   "name": "Cicero in exile, 58-57 BC",
+   "kind": "journey",
+   "person": "cicero",
+   "polity": "rome",
+   "start": -58,
+   "end": -57,
+   "summary": "Clodius' bill outlawing anyone who had executed a citizen without trial was aimed at the consul of 63, and Cicero left Rome before it passed rather than fight in the streets. A second law named him, set a radius of 400 (later 500) miles, and his house on the Palatine was torn down for a shrine of Libertas. His letters from exile are the most raw he wrote: he begged Atticus to explain why he had not killed himself and considered suicide on the voyage. He hid first in the south, refused by the governor of Sicily, then crossed to Greece and lodged with the quaestor Plancius at Thessalonica. When the tide in Rome turned, the centuriate assembly recalled him on 4 August 57. He landed at Brundisium on the 5th, his daughter's birthday, and walked into a Rome that met him at the gate.",
+   "path": [
+    {
+     "loc": [
+      12.4917,
+      41.8899
+     ],
+     "t": "Leaves Rome",
+     "y": -58,
+     "m": 3,
+     "note": "around 19-20 March, before the lex Clodia de capite civis was voted",
+     "event": "exile_of_cicero"
+    },
+    {
+     "loc": [
+      16.1,
+      38.68
+     ],
+     "t": "Vibo, the estate of Sica",
+     "y": -58,
+     "m": 4,
+     "note": "Att. 3.3-4: the second law makes Vibo too close"
+    },
+    {
+     "loc": [
+      17.233,
+      40.4738
+     ],
+     "t": "Near Tarentum",
+     "y": -58,
+     "m": 4
+    },
+    {
+     "loc": [
+      17.9429,
+      40.6387
+     ],
+     "t": "Brundisium, villa of M. Laenius Flaccus",
+     "y": -58,
+     "m": 4,
+     "d": 17,
+     "note": "stays 17-29 April; Laenius risked the law to shelter him (Planc. 97)"
+    },
+    {
+     "loc": [
+      19.4474,
+      41.3163
+     ],
+     "t": "Dyrrachium",
+     "y": -58,
+     "m": 5,
+     "sea": true
+    },
+    {
+     "loc": [
+      22.9529,
+      40.6283
+     ],
+     "t": "Thessalonica, with the quaestor Plancius",
+     "y": -58,
+     "m": 5,
+     "d": 23,
+     "note": "arrives 23 May; stays until November"
+    },
+    {
+     "loc": [
+      19.4474,
+      41.3163
+     ],
+     "t": "Dyrrachium",
+     "y": -58,
+     "m": 11,
+     "note": "moves closer to Italy as the agitation for recall grows"
+    },
+    {
+     "loc": [
+      17.9429,
+      40.6387
+     ],
+     "t": "Brundisium",
+     "y": -57,
+     "m": 8,
+     "d": 5,
+     "note": "lands on 5 August, the birthday of Tullia and of the colony",
+     "sea": true,
+     "event": "recall_of_cicero"
+    },
+    {
+     "loc": [
+      14.2502,
+      41.0861
+     ],
+     "t": "Via Appia through Campania",
+     "y": -57,
+     "m": 8,
+     "note": "delegations from the Italian towns along the road"
+    },
+    {
+     "loc": [
+      12.4917,
+      41.8899
+     ],
+     "t": "Rome",
+     "y": -57,
+     "m": 9,
+     "d": 4,
+     "note": "Att. 4.1: 'the whole city seemed to be torn from its foundations to greet me'"
+    }
+   ],
+   "certainty": "certain",
+   "note": "Dated mainly from the Letters to Atticus book 3 and Att. 4.1.",
+   "sources": [
+    "Cicero, Ad Atticum 3, 4.1",
+    "Cicero, Pro Plancio 95-101",
+    "Plutarch, Cicero 30-33",
+    "Dio 38.14-17"
+   ]
+  },
+  {
+   "id": "journey_cicero_cilicia",
+   "name": "Cicero governs Cilicia, 51-50 BC",
+   "kind": "journey",
+   "person": "cicero",
+   "polity": "rome",
+   "start": -51,
+   "end": -49,
+   "summary": "Pompey's law of 52 forced ex-consuls who had never governed a province into the job, and Cicero drew Cilicia, a sprawling command from Pamphylia to the Taurus with Cyprus attached and a Parthian invasion threatening Syria next door. He hated every day of it and counted them in his letters, yet he was an honest governor by Roman standards: he capped interest at 12 per cent, refused the customary gifts, and fought Brutus' agents who were squeezing Salamis on Cyprus at 48 per cent. With two weak legions he marched to the Cilician Gates, then turned on the mountain tribes of the Amanus, besieged Pindenissum for 57 days and was hailed imperator. He spent the next year asking for a triumph and arrived outside Rome just as the civil war began, his lictors still wreathed in laurel.",
+   "path": [
+    {
+     "loc": [
+      12.4917,
+      41.8899
+     ],
+     "t": "Leaves Rome",
+     "y": -51,
+     "m": 5
+    },
+    {
+     "loc": [
+      17.233,
+      40.4738
+     ],
+     "t": "Tarentum: three days with Pompey",
+     "y": -51,
+     "m": 5,
+     "note": "talks about the political crisis (Att. 5.6-7)"
+    },
+    {
+     "loc": [
+      17.9429,
+      40.6387
+     ],
+     "t": "Brundisium",
+     "y": -51,
+     "m": 6
+    },
+    {
+     "loc": [
+      20.7676,
+      38.9528
+     ],
+     "t": "Actium",
+     "y": -51,
+     "m": 6,
+     "d": 15,
+     "sea": true
+    },
+    {
+     "loc": [
+      23.724,
+      37.9716
+     ],
+     "t": "Athens",
+     "y": -51,
+     "m": 6,
+     "d": 24,
+     "note": "ten days in the city; quarrels over Epicurus' house"
+    },
+    {
+     "loc": [
+      25.2682,
+      37.3973
+     ],
+     "t": "Delos",
+     "y": -51,
+     "m": 7,
+     "sea": true
+    },
+    {
+     "loc": [
+      27.3424,
+      37.9402
+     ],
+     "t": "Ephesus",
+     "y": -51,
+     "m": 7,
+     "d": 22,
+     "note": "greeted by crowds and tax-farmers",
+     "sea": true
+    },
+    {
+     "loc": [
+      27.84,
+      37.86
+     ],
+     "t": "Tralles",
+     "y": -51,
+     "m": 7,
+     "d": 27
+    },
+    {
+     "loc": [
+      29.1074,
+      37.8359
+     ],
+     "t": "Laodicea: enters his province",
+     "y": -51,
+     "m": 7,
+     "d": 31,
+     "note": "his year of command runs from 31 July"
+    },
+    {
+     "loc": [
+      30.168,
+      38.075
+     ],
+     "t": "Apamea",
+     "y": -51,
+     "m": 8
+    },
+    {
+     "loc": [
+      30.56,
+      38.52
+     ],
+     "t": "Synnada",
+     "y": -51,
+     "m": 8
+    },
+    {
+     "loc": [
+      31.42,
+      38.36
+     ],
+     "t": "Philomelium",
+     "y": -51,
+     "m": 8
+    },
+    {
+     "loc": [
+      32.4923,
+      37.8725
+     ],
+     "t": "Camp at Iconium",
+     "y": -51,
+     "m": 8,
+     "note": "reviews his army of two understrength legions"
+    },
+    {
+     "loc": [
+      34.05,
+      37.53
+     ],
+     "t": "Cybistra",
+     "y": -51,
+     "m": 9,
+     "note": "guards Cappadocia against the Parthian threat"
+    },
+    {
+     "loc": [
+      34.8965,
+      36.914
+     ],
+     "t": "Tarsus via the Cilician Gates",
+     "y": -51,
+     "m": 10
+    },
+    {
+     "loc": [
+      36.4,
+      37.15
+     ],
+     "t": "Siege of Pindenissum, Mount Amanus",
+     "y": -51,
+     "m": 12,
+     "d": 17,
+     "note": "site approximate; falls after 57 days on the Saturnalia; hailed imperator"
+    },
+    {
+     "loc": [
+      34.8965,
+      36.914
+     ],
+     "t": "Winter at Tarsus",
+     "y": -50,
+     "m": 1
+    },
+    {
+     "loc": [
+      29.1074,
+      37.8359
+     ],
+     "t": "Assizes at Laodicea",
+     "y": -50,
+     "m": 2,
+     "note": "Feb-May; the edict capping interest at 12%"
+    },
+    {
+     "loc": [
+      31.3922,
+      36.7684
+     ],
+     "t": "Side: leaves the province",
+     "y": -50,
+     "m": 7,
+     "d": 30
+    },
+    {
+     "loc": [
+      28.225,
+      36.445
+     ],
+     "t": "Rhodes",
+     "y": -50,
+     "m": 8,
+     "sea": true
+    },
+    {
+     "loc": [
+      23.724,
+      37.9716
+     ],
+     "t": "Athens",
+     "y": -50,
+     "m": 10,
+     "d": 14,
+     "sea": true
+    },
+    {
+     "loc": [
+      21.7385,
+      38.2433
+     ],
+     "t": "Patrae, where Tiro is left ill",
+     "y": -50,
+     "m": 11
+    },
+    {
+     "loc": [
+      19.9067,
+      39.6081
+     ],
+     "t": "Corcyra",
+     "y": -50,
+     "m": 11,
+     "sea": true
+    },
+    {
+     "loc": [
+      17.9429,
+      40.6387
+     ],
+     "t": "Brundisium",
+     "y": -50,
+     "m": 11,
+     "d": 24,
+     "sea": true
+    },
+    {
+     "loc": [
+      12.4917,
+      41.8899
+     ],
+     "t": "Outside Rome, awaiting a triumph",
+     "y": -49,
+     "m": 1,
+     "d": 4,
+     "note": "the Senate passes the final decree three days later"
+    }
+   ],
+   "certainty": "certain",
+   "note": "Itinerary from Cicero's Letters to Atticus 5-7 and Ad Familiares 2, 3, 15. Pindenissum is unlocated; the point is placed in the Amanus range.",
+   "sources": [
+    "Cicero, Ad Atticum 5.1-7.2",
+    "Cicero, Ad Familiares 15.1-4 (report to the Senate)",
+    "Plutarch, Cicero 36"
+   ]
+  },
+  {
+   "id": "journey_pompey_flight",
+   "name": "Pompey's flight after Pharsalus, 48 BC",
+   "kind": "journey",
+   "person": "pompey",
+   "polity": "rome",
+   "start": -48,
+   "end": -48,
+   "summary": "On the afternoon of 9 August 48 Pompey watched his cavalry break and rode back to his camp, then out of the back gate before Caesar's men stormed it. With a handful of friends he fled through the Vale of Tempe to the sea, slept in a fisherman's hut and got aboard a grain freighter. He picked up his wife Cornelia and his son Sextus at Mytilene, called at Attalia and Cyprus, and debated where to go: Parthia, Numidia or Egypt, whose boy king Ptolemy XIII owed his throne to Pompey's support for his father. Egypt won. On 28 September, the day before his 58th birthday, he was rowed ashore at Pelusium in a small boat and stabbed by Achillas and Septimius, a Roman who had served under him. Cornelia watched from the ship.",
+   "path": [
+    {
+     "loc": [
+      22.38,
+      39.3
+     ],
+     "t": "Pharsalus",
+     "y": -48,
+     "m": 8,
+     "d": 9,
+     "event": "battle_of_pharsalus"
+    },
+    {
+     "loc": [
+      22.42,
+      39.64
+     ],
+     "t": "Larissa",
+     "y": -48,
+     "m": 8,
+     "d": 10,
+     "note": "does not enter the city; tells the Larissaeans to submit to Caesar"
+    },
+    {
+     "loc": [
+      22.62,
+      39.88
+     ],
+     "t": "Vale of Tempe",
+     "y": -48,
+     "m": 8
+    },
+    {
+     "loc": [
+      22.78,
+      39.92
+     ],
+     "t": "Mouth of the Peneus: boards a merchantman",
+     "y": -48,
+     "m": 8,
+     "note": "the shipmaster Peticius had dreamt of him the night before (Plutarch 73)",
+     "sea": true,
+     "marine": true
+    },
+    {
+     "loc": [
+      23.9,
+      40.7
+     ],
+     "t": "Off Amphipolis",
+     "y": -48,
+     "m": 8,
+     "note": "issues a call to arms, then sails on",
+     "sea": true,
+     "marine": true
+    },
+    {
+     "loc": [
+      26.56,
+      39.11
+     ],
+     "t": "Mytilene: Cornelia and Sextus",
+     "y": -48,
+     "m": 8,
+     "sea": true
+    },
+    {
+     "loc": [
+      26.4,
+      37.2
+     ],
+     "t": "Down the Aegean coast",
+     "y": -48,
+     "m": 9,
+     "sea": true,
+     "marine": true
+    },
+    {
+     "loc": [
+      28.5,
+      36.3
+     ],
+     "t": "Off Rhodes",
+     "y": -48,
+     "m": 9,
+     "sea": true,
+     "marine": true
+    },
+    {
+     "loc": [
+      30.7,
+      36.88
+     ],
+     "t": "Attalia, Pamphylia",
+     "y": -48,
+     "m": 9,
+     "note": "some senators and ships rejoin him",
+     "sea": true
+    },
+    {
+     "loc": [
+      32.41,
+      34.76
+     ],
+     "t": "Paphos, Cyprus",
+     "y": -48,
+     "m": 9,
+     "note": "council decides for Egypt rather than Parthia",
+     "sea": true
+    },
+    {
+     "loc": [
+      32.5471,
+      31.0426
+     ],
+     "t": "Pelusium: murdered on the shore",
+     "y": -48,
+     "m": 9,
+     "d": 28,
+     "note": "head taken to Caesar, who arrived days later and wept",
+     "sea": true,
+     "event": "death_of_pompey"
+    }
+   ],
+   "certainty": "certain",
+   "note": "Sources: Plutarch Pompey 72-80, Caesar BC 3.96-104, Appian BC 2.81-86, Dio 42.2-5.",
+   "sources": [
+    "Caesar, Bellum Civile 3.96-104",
+    "Plutarch, Pompey 72-80",
+    "Appian, BC 2.81-86"
+   ]
+  },
+  {
+   "id": "journey_cleopatra_rome",
+   "name": "Cleopatra in Rome, 46-44 BC",
+   "kind": "journey",
+   "person": "cleopatra_vii",
+   "polity": "ptolemaic",
+   "start": -46,
+   "end": -44,
+   "summary": "After the Alexandrian War Cleopatra came to Rome, probably in summer 46 for Caesar's quadruple triumph, in which her sister Arsinoe was paraded in chains. She stayed in Caesar's gardens across the Tiber with her brother-husband Ptolemy XIV and the infant Caesarion, and received the great men of Rome; Cicero, who disliked her intensely, called on her and later wrote 'I hate the queen'. Caesar set a gilded statue of her beside Venus Genetrix in his new forum, a provocation remembered for centuries. Whether she stayed two years or went home and returned in 45 is disputed. She was still in the city on the Ides of March and left in mid April 44, soon after which Ptolemy XIV died, leaving Caesarion as her co-ruler.",
+   "path": [
+    {
+     "loc": [
+      29.9098,
+      31.2014
+     ],
+     "t": "Alexandria",
+     "y": -46,
+     "m": 6
+    },
+    {
+     "loc": [
+      27.0,
+      33.8
+     ],
+     "t": "Libyan Sea, south of Crete",
+     "y": -46,
+     "sea": true,
+     "marine": true
+    },
+    {
+     "loc": [
+      18.5,
+      37.0
+     ],
+     "t": "Ionian Sea",
+     "y": -46,
+     "sea": true,
+     "marine": true
+    },
+    {
+     "loc": [
+      15.62,
+      38.12
+     ],
+     "t": "Strait of Messina",
+     "y": -46,
+     "sea": true,
+     "marine": true
+    },
+    {
+     "loc": [
+      14.1217,
+      40.8258
+     ],
+     "t": "Puteoli",
+     "y": -46,
+     "sea": true
+    },
+    {
+     "loc": [
+      12.4917,
+      41.8899
+     ],
+     "t": "Rome: Caesar's gardens across the Tiber",
+     "y": -46,
+     "m": 9,
+     "note": "statue of Cleopatra placed in the temple of Venus Genetrix (App. BC 2.102; Dio 51.22)",
+     "event": "caesars_quadruple_triumph"
+    },
+    {
+     "loc": [
+      12.4917,
+      41.8899
+     ],
+     "t": "Rome on the Ides of March",
+     "y": -44,
+     "m": 3,
+     "d": 15,
+     "note": "Cicero, Att. 14.8: 'the flight of the queen does not trouble me'",
+     "event": "ides_of_march"
+    },
+    {
+     "loc": [
+      14.1217,
+      40.8258
+     ],
+     "t": "Puteoli",
+     "y": -44,
+     "m": 4
+    },
+    {
+     "loc": [
+      15.62,
+      38.12
+     ],
+     "t": "Strait of Messina",
+     "y": -44,
+     "m": 4,
+     "sea": true,
+     "marine": true
+    },
+    {
+     "loc": [
+      20.0,
+      35.5
+     ],
+     "t": "Open sea toward Egypt",
+     "y": -44,
+     "sea": true,
+     "marine": true
+    },
+    {
+     "loc": [
+      29.9098,
+      31.2014
+     ],
+     "t": "Alexandria",
+     "y": -44,
+     "m": 6,
+     "note": "Ptolemy XIV dies soon after, reputedly poisoned; Caesarion made co-ruler",
+     "sea": true
+    }
+   ],
+   "certainty": "probable",
+   "note": "Whether she remained continuously from 46 to 44 or made two visits is debated (Gruen 2003; Roller 2010). Sea legs schematic.",
+   "sources": [
+    "Cicero, Ad Atticum 14.8, 15.15",
+    "Suetonius, Julius 52",
+    "Dio 43.27",
+    "Appian BC 2.102"
+   ]
+  },
+  {
+   "id": "journey_augustus_east",
+   "name": "Augustus' eastern tour, 22-19 BC",
+   "kind": "journey",
+   "person": "augustus",
+   "polity": "rome",
+   "start": -22,
+   "end": -19,
+   "summary": "In autumn 22, after refusing the dictatorship during a famine, Augustus left Rome for three years. The tour was a working inspection of the provinces and a diplomatic offensive. In Sicily he founded colonies; in Greece he punished Athens and rewarded Sparta; he wintered twice on Samos, where an embassy from an Indian king arrived with a tiger and a man without arms. The central business was Parthia. With Tiberius leading an army into Armenia and Augustus himself in Syria, Phraates IV handed back the standards lost by Crassus at Carrhae and by Antony, without a battle. Augustus made it the signature achievement of the reign: coins with a kneeling Parthian, the Prima Porta breastplate, a triumphal arch in the Forum. On the way home he met Virgil in Athens; the poet died at Brundisium.",
+   "path": [
+    {
+     "loc": [
+      12.4917,
+      41.8899
+     ],
+     "t": "Leaves Rome",
+     "y": -22,
+     "m": 9,
+     "event": "cura_annonae_22bc"
+    },
+    {
+     "loc": [
+      15.646,
+      38.111
+     ],
+     "t": "Rhegium",
+     "y": -22
+    },
+    {
+     "loc": [
+      15.2833,
+      37.0701
+     ],
+     "t": "Sicily: colonies at Syracuse and elsewhere",
+     "y": -22,
+     "note": "winter 22/21; colonies at Syracuse, Catana, Tauromenium, Tyndaris, Thermae, Panormus (Dio 54.7)",
+     "sea": true
+    },
+    {
+     "loc": [
+      19.0,
+      37.0
+     ],
+     "t": "Ionian Sea",
+     "y": -21,
+     "sea": true,
+     "marine": true
+    },
+    {
+     "loc": [
+      22.57,
+      36.76
+     ],
+     "t": "Gytheion",
+     "y": -21,
+     "sea": true
+    },
+    {
+     "loc": [
+      22.4247,
+      37.0818
+     ],
+     "t": "Sparta",
+     "y": -21,
+     "note": "dines in the common mess; gives Sparta Cythera, thanks for sheltering Livia in 40 BC"
+    },
+    {
+     "loc": [
+      23.724,
+      37.9716
+     ],
+     "t": "Athens",
+     "y": -21,
+     "note": "takes Aegina and Eretria from Athens, which had backed Antony"
+    },
+    {
+     "loc": [
+      26.94,
+      37.69
+     ],
+     "t": "Samos: first winter",
+     "y": -21,
+     "note": "winter 21/20; grants Samos freedom",
+     "sea": true
+    },
+    {
+     "loc": [
+      27.3424,
+      37.9402
+     ],
+     "t": "Asia",
+     "y": -20,
+     "sea": true
+    },
+    {
+     "loc": [
+      29.9199,
+      40.7652
+     ],
+     "t": "Bithynia",
+     "y": -20
+    },
+    {
+     "loc": [
+      32.8593,
+      39.9438
+     ],
+     "t": "Galatia",
+     "y": -20
+    },
+    {
+     "loc": [
+      34.8965,
+      36.914
+     ],
+     "t": "Cilicia",
+     "y": -20
+    },
+    {
+     "loc": [
+      36.1768,
+      36.2159
+     ],
+     "t": "Syria",
+     "y": -20,
+     "note": "Herod meets him and escorts him to the coast (Josephus AJ 15.354-360)"
+    },
+    {
+     "loc": [
+      37.8702,
+      37.0577
+     ],
+     "t": "The Euphrates: the standards returned",
+     "y": -20,
+     "m": 5,
+     "note": "Tiberius receives the standards and surviving prisoners; date 12 May 20 BC traditional",
+     "event": "return_of_the_parthian_standards"
+    },
+    {
+     "loc": [
+      35.9286,
+      36.1213
+     ],
+     "t": "Seleucia Pieria",
+     "y": -20
+    },
+    {
+     "loc": [
+      32.0,
+      35.8
+     ],
+     "t": "North of Cyprus",
+     "y": -20,
+     "sea": true,
+     "marine": true
+    },
+    {
+     "loc": [
+      30.4,
+      36.1
+     ],
+     "t": "Off the Chelidonian islands",
+     "y": -20,
+     "sea": true,
+     "marine": true
+    },
+    {
+     "loc": [
+      28.0,
+      36.6
+     ],
+     "t": "Off Rhodes",
+     "y": -20,
+     "sea": true,
+     "marine": true
+    },
+    {
+     "loc": [
+      26.94,
+      37.69
+     ],
+     "t": "Samos: second winter",
+     "y": -20,
+     "note": "Indian embassy; the gymnosophist Zarmarus burns himself alive at Athens in 19",
+     "sea": true
+    },
+    {
+     "loc": [
+      23.724,
+      37.9716
+     ],
+     "t": "Athens: meets Virgil",
+     "y": -19,
+     "sea": true
+    },
+    {
+     "loc": [
+      23.35,
+      38.0
+     ],
+     "t": "Megara: Virgil falls ill",
+     "y": -19,
+     "m": 9
+    },
+    {
+     "loc": [
+      19.9067,
+      39.6081
+     ],
+     "t": "Corcyra",
+     "y": -19,
+     "m": 9,
+     "sea": true
+    },
+    {
+     "loc": [
+      17.9429,
+      40.6387
+     ],
+     "t": "Brundisium: death of Virgil",
+     "y": -19,
+     "m": 9,
+     "d": 21,
+     "sea": true
+    },
+    {
+     "loc": [
+      12.4917,
+      41.8899
+     ],
+     "t": "Return to Rome",
+     "y": -19,
+     "m": 10,
+     "d": 12,
+     "note": "Altar of Fortuna Redux; 12 October becomes the Augustalia"
+    }
+   ],
+   "certainty": "probable",
+   "note": "Order of the 20 BC land leg reconstructed from Dio 54.7-9; Augustus' own presence at the Euphrates is not attested (Res Gestae 29).",
+   "sources": [
+    "Res Gestae 29, 31",
+    "Dio 54.6-10",
+    "Suetonius, Augustus 21, 93",
+    "Donatus, Life of Virgil 35"
+   ]
+  },
+  {
+   "id": "journey_ovid_exile",
+   "name": "Ovid's journey into exile, AD 8-9",
+   "kind": "journey",
+   "person": "ovid",
+   "polity": "rome",
+   "start": 8,
+   "end": 17,
+   "summary": "In autumn AD 8 the most fashionable poet in Rome was summoned to Augustus and sent to the edge of the world: relegatio, not exile, so he kept his property and citizenship, but he had to live at Tomis on the Black Sea. The reasons were 'a poem and an error' (carmen et error): the Art of Love, and something he had seen that he never named, very likely connected with the scandal of the younger Julia. He left Rome on a December night, crossed the Adriatic in winter gales that he turned into poems, transferred ships at Corinth, and from Samothrace walked across Thrace while his ship went on through the straits. At Tomis he learned Getic, wrote the Tristia and the Letters from Pontus, and watched the Danube freeze. Neither Augustus nor Tiberius relented. He died there in 17 or 18.",
+   "path": [
+    {
+     "loc": [
+      12.4917,
+      41.8899
+     ],
+     "t": "Leaves Rome on a December night",
+     "y": 8,
+     "m": 12,
+     "note": "Tristia 1.3: the last night in the city"
+    },
+    {
+     "loc": [
+      17.9429,
+      40.6387
+     ],
+     "t": "Brundisium",
+     "y": 8,
+     "m": 12
+    },
+    {
+     "loc": [
+      18.9,
+      40.6
+     ],
+     "t": "Winter storms in the Adriatic",
+     "y": 8,
+     "m": 12,
+     "note": "Tristia 1.2 and 1.11 composed at sea",
+     "sea": true,
+     "marine": true
+    },
+    {
+     "loc": [
+      20.4,
+      38.6
+     ],
+     "t": "Ionian Sea",
+     "y": 8,
+     "m": 12,
+     "sea": true,
+     "marine": true
+    },
+    {
+     "loc": [
+      21.6,
+      38.3
+     ],
+     "t": "Gulf of Corinth",
+     "y": 8,
+     "m": 12,
+     "sea": true,
+     "marine": true
+    },
+    {
+     "loc": [
+      22.89,
+      37.93
+     ],
+     "t": "Lechaeum: crosses the Isthmus",
+     "y": 9,
+     "m": 1,
+     "sea": true
+    },
+    {
+     "loc": [
+      22.99,
+      37.88
+     ],
+     "t": "Cenchreae: boards the Minerva",
+     "y": 9,
+     "m": 1,
+     "note": "Tristia 1.10, a hymn to the ship that carried him"
+    },
+    {
+     "loc": [
+      24.4,
+      37.8
+     ],
+     "t": "Across the Aegean",
+     "y": 9,
+     "sea": true,
+     "marine": true
+    },
+    {
+     "loc": [
+      25.53,
+      40.5
+     ],
+     "t": "Samothrace",
+     "y": 9,
+     "sea": true
+    },
+    {
+     "loc": [
+      25.85,
+      40.92
+     ],
+     "t": "Tempyra: lands in Thrace",
+     "y": 9,
+     "note": "site approximate; the ship goes on via the Hellespont while Ovid travels overland (Tristia 1.10.21-24)",
+     "sea": true
+    },
+    {
+     "loc": [
+      26.95,
+      42.05
+     ],
+     "t": "Across Thrace",
+     "y": 9
+    },
+    {
+     "loc": [
+      25.61,
+      42.42
+     ],
+     "t": "Apollonia Pontica",
+     "y": 9
+    },
+    {
+     "loc": [
+      27.9135,
+      43.2062
+     ],
+     "t": "Odessos",
+     "y": 9
+    },
+    {
+     "loc": [
+      28.6497,
+      44.1729
+     ],
+     "t": "Tomis",
+     "y": 9,
+     "note": "dies here in AD 17 or 18; Tristia and Epistulae ex Ponto"
+    }
+   ],
+   "certainty": "probable",
+   "note": "Route from Tristia 1.10, which names the stages of the ship; the overland route across Thrace is reconstructed. Some scholars doubt the exile happened at all (Fitton Brown 1985), a minority view.",
+   "sources": [
+    "Ovid, Tristia 1.2, 1.10, 1.11, 2.207",
+    "Ovid, Epistulae ex Ponto",
+    "Syme, History in Ovid (1978)"
+   ]
+  },
+  {
+   "id": "journey_germanicus_east",
+   "name": "Germanicus in the East, AD 17-19",
+   "kind": "journey",
+   "person": "germanicus",
+   "polity": "rome",
+   "start": 17,
+   "end": 19,
+   "summary": "After his German triumph Germanicus received an extraordinary command over all the eastern provinces, with the stubborn Cn. Calpurnius Piso sent to govern Syria at the same time. His journey was half tour of the classical world, half state business, and it ended in one of the great scandals of Tiberius' reign. He visited Actium, where his two grandfathers had fought on opposite sides, entered Athens with a single lictor, consulted the oracle of Clarian Apollo, crowned a new king of Armenia at Artaxata, and annexed Cappadocia and Commagene. In early 19 he went to Egypt without permission, which no senator was allowed to enter, sailed up the Nile to the colossi of Memnon and Syene, and opened the granaries at Alexandria. Back in Syria he fell ill and died at Antioch on 10 October, convinced Piso and Plancina had poisoned him.",
+   "path": [
+    {
+     "loc": [
+      12.4917,
+      41.8899
+     ],
+     "t": "Leaves Rome",
+     "y": 17,
+     "m": 10
+    },
+    {
+     "loc": [
+      16.4834,
+      43.5396
+     ],
+     "t": "Dalmatia: visits his brother Drusus",
+     "y": 17,
+     "m": 11
+    },
+    {
+     "loc": [
+      19.8,
+      39.6
+     ],
+     "t": "Along the Illyrian coast",
+     "y": 17,
+     "sea": true,
+     "marine": true
+    },
+    {
+     "loc": [
+      20.736,
+      39.0157
+     ],
+     "t": "Nicopolis and Actium",
+     "y": 18,
+     "m": 1,
+     "d": 1,
+     "note": "enters his second consulship here; visits the sites of Actium",
+     "sea": true
+    },
+    {
+     "loc": [
+      23.724,
+      37.9716
+     ],
+     "t": "Athens, with one lictor",
+     "y": 18
+    },
+    {
+     "loc": [
+      24.2,
+      38.3
+     ],
+     "t": "Euboea",
+     "y": 18
+    },
+    {
+     "loc": [
+      26.56,
+      39.11
+     ],
+     "t": "Lesbos: birth of Julia Livilla",
+     "y": 18,
+     "sea": true
+    },
+    {
+     "loc": [
+      27.952,
+      40.9751
+     ],
+     "t": "Perinthus and Byzantium",
+     "y": 18,
+     "sea": true
+    },
+    {
+     "loc": [
+      26.2385,
+      39.9574
+     ],
+     "t": "Ilium",
+     "y": 18,
+     "sea": true
+    },
+    {
+     "loc": [
+      27.19,
+      38.0
+     ],
+     "t": "Colophon: oracle of Clarian Apollo",
+     "y": 18,
+     "note": "said to have foretold an early death (Tac. Ann. 2.54)",
+     "sea": true
+    },
+    {
+     "loc": [
+      28.225,
+      36.445
+     ],
+     "t": "Rhodes: rescues Piso from shipwreck",
+     "y": 18,
+     "sea": true
+    },
+    {
+     "loc": [
+      31.5,
+      35.9
+     ],
+     "t": "Along the south Anatolian coast",
+     "y": 18,
+     "sea": true,
+     "marine": true
+    },
+    {
+     "loc": [
+      35.9286,
+      36.1213
+     ],
+     "t": "Syria",
+     "y": 18,
+     "sea": true
+    },
+    {
+     "loc": [
+      44.5752,
+      39.8819
+     ],
+     "t": "Artaxata: crowns Zeno-Artaxias king of Armenia",
+     "y": 18,
+     "note": "also turns Cappadocia and Commagene into provinces"
+    },
+    {
+     "loc": [
+      36.1768,
+      36.2159
+     ],
+     "t": "Antioch: quarrels with Piso",
+     "y": 18
+    },
+    {
+     "loc": [
+      29.9098,
+      31.2014
+     ],
+     "t": "Alexandria: opens the granaries",
+     "y": 19,
+     "note": "rebuked by Tiberius for entering Egypt without leave",
+     "sea": true,
+     "event": "germanicus_in_the_east"
+    },
+    {
+     "loc": [
+      30.08,
+      31.32
+     ],
+     "t": "Canopus",
+     "y": 19
+    },
+    {
+     "loc": [
+      31.2551,
+      29.8495
+     ],
+     "t": "Memphis",
+     "y": 19
+    },
+    {
+     "loc": [
+      32.639,
+      25.7
+     ],
+     "t": "Thebes and the colossi of Memnon",
+     "y": 19,
+     "note": "a priest reads him the hieroglyphic records of Ramesses II's tribute"
+    },
+    {
+     "loc": [
+      32.9015,
+      24.0886
+     ],
+     "t": "Elephantine and Syene",
+     "y": 19
+    },
+    {
+     "loc": [
+      29.9098,
+      31.2014
+     ],
+     "t": "Alexandria",
+     "y": 19
+    },
+    {
+     "loc": [
+      36.1768,
+      36.2159
+     ],
+     "t": "Antioch: death",
+     "y": 19,
+     "m": 10,
+     "d": 10,
+     "sea": true,
+     "event": "death_of_germanicus"
+    }
+   ],
+   "certainty": "certain",
+   "note": "From Tacitus Annals 2.53-73; the Egyptian visit is confirmed by papyri (P.Oxy. 2435). The Senate's honours are in the Tabula Siarensis.",
+   "sources": [
+    "Tacitus, Annals 2.53-73",
+    "P.Oxy. 25.2435",
+    "Tabula Siarensis"
+   ]
+  },
+  {
+   "id": "journey_paul_first",
+   "name": "Paul's first missionary journey",
+   "kind": "journey",
+   "person": "paul_of_tarsus",
+   "polity": "rome",
+   "start": 46,
+   "end": 48,
+   "summary": "Sent out by the church at Antioch with Barnabas and the young John Mark, Paul began, according to Acts, in Barnabas' home island of Cyprus, where the proconsul Sergius Paullus listened to them at Paphos; a family of Sergii Paulli with estates near Pisidian Antioch is known from inscriptions, which may explain why they went there next. Mark went home from Perge, a split that later broke up the partnership. In the Roman colony of Pisidian Antioch Paul preached in the synagogue and turned to the gentiles when the synagogue turned against him, the pattern of the whole mission. At Lystra the crowd took Barnabas for Zeus and Paul for Hermes, then stoned Paul and left him for dead. They walked back over the same road to strengthen the new communities and sailed home from Attalia.",
+   "path": [
+    {
+     "loc": [
+      36.1768,
+      36.2159
+     ],
+     "t": "Antioch on the Orontes",
+     "y": 46
+    },
+    {
+     "loc": [
+      35.9286,
+      36.1213
+     ],
+     "t": "Seleucia Pieria",
+     "y": 46
+    },
+    {
+     "loc": [
+      33.9,
+      35.18
+     ],
+     "t": "Salamis, Cyprus",
+     "y": 46,
+     "note": "preach in the synagogues",
+     "sea": true
+    },
+    {
+     "loc": [
+      32.41,
+      34.76
+     ],
+     "t": "Paphos: the proconsul Sergius Paullus",
+     "y": 46,
+     "note": "Elymas the magician struck blind (Acts 13:6-12)"
+    },
+    {
+     "loc": [
+      30.8533,
+      36.9645
+     ],
+     "t": "Perge: John Mark goes home",
+     "y": 47,
+     "sea": true
+    },
+    {
+     "loc": [
+      31.1899,
+      38.3054
+     ],
+     "t": "Pisidian Antioch",
+     "y": 47,
+     "note": "sermon in the synagogue (Acts 13:16-41)"
+    },
+    {
+     "loc": [
+      32.4923,
+      37.8725
+     ],
+     "t": "Iconium",
+     "y": 47
+    },
+    {
+     "loc": [
+      32.33,
+      37.58
+     ],
+     "t": "Lystra: hailed as gods, then stoned",
+     "y": 47,
+     "note": "Acts 14:8-20"
+    },
+    {
+     "loc": [
+      33.36,
+      37.35
+     ],
+     "t": "Derbe",
+     "y": 48
+    },
+    {
+     "loc": [
+      32.33,
+      37.58
+     ],
+     "t": "Lystra",
+     "y": 48
+    },
+    {
+     "loc": [
+      32.4923,
+      37.8725
+     ],
+     "t": "Iconium",
+     "y": 48
+    },
+    {
+     "loc": [
+      31.1899,
+      38.3054
+     ],
+     "t": "Pisidian Antioch",
+     "y": 48
+    },
+    {
+     "loc": [
+      30.8533,
+      36.9645
+     ],
+     "t": "Perge",
+     "y": 48
+    },
+    {
+     "loc": [
+      30.7,
+      36.88
+     ],
+     "t": "Attalia",
+     "y": 48
+    },
+    {
+     "loc": [
+      33.5,
+      35.95
+     ],
+     "t": "Past Cyprus",
+     "y": 48,
+     "sea": true,
+     "marine": true
+    },
+    {
+     "loc": [
+      35.9286,
+      36.1213
+     ],
+     "t": "Seleucia Pieria",
+     "y": 48,
+     "sea": true
+    },
+    {
+     "loc": [
+      36.1768,
+      36.2159
+     ],
+     "t": "Antioch",
+     "y": 48
+    }
+   ],
+   "certainty": "probable",
+   "note": "Pauline chronology is reconstructed from Acts and the letters, anchored by the Gallio inscription at Delphi (Gallio proconsul of Achaea 51/52). Dates may be a year or two off; Acts' account is debated as a historical source.",
+   "sources": [
+    "Acts of the Apostles",
+    "Paul, Galatians, 1-2 Corinthians, Romans",
+    "Riesner, Paul's Early Period (1998)",
+    "Barrington Atlas"
+   ]
+  },
+  {
+   "id": "journey_paul_second",
+   "name": "Paul's second missionary journey",
+   "kind": "journey",
+   "person": "paul_of_tarsus",
+   "polity": "rome",
+   "start": 49,
+   "end": 52,
+   "summary": "After the Jerusalem meeting settled that gentile converts need not be circumcised, Paul set out again, now with Silas, having quarrelled with Barnabas. He revisited the Galatian churches, took on Timothy at Lystra, and tried to go into Asia and Bithynia before a vision at Troas called him across to Macedonia: the moment Christianity reached Europe, and where the 'we' passages of Acts begin. At the Roman colony of Philippi he was beaten with rods and jailed until he announced that he was a citizen. Thessalonica and Beroea followed, then Athens, where he debated with Epicureans and Stoics on the Areopagus with little success. Corinth was the triumph: eighteen months, a large church, and a hearing before the proconsul Gallio, Seneca's brother, who threw the case out. That hearing is the fixed point of all Pauline chronology.",
+   "path": [
+    {
+     "loc": [
+      36.1768,
+      36.2159
+     ],
+     "t": "Antioch",
+     "y": 49
+    },
+    {
+     "loc": [
+      34.8965,
+      36.914
+     ],
+     "t": "Tarsus, through the Syrian Gates",
+     "y": 49
+    },
+    {
+     "loc": [
+      33.36,
+      37.35
+     ],
+     "t": "Derbe, through the Cilician Gates",
+     "y": 49
+    },
+    {
+     "loc": [
+      32.33,
+      37.58
+     ],
+     "t": "Lystra: Timothy joins",
+     "y": 49
+    },
+    {
+     "loc": [
+      32.4923,
+      37.8725
+     ],
+     "t": "Iconium",
+     "y": 49
+    },
+    {
+     "loc": [
+      31.1899,
+      38.3054
+     ],
+     "t": "Pisidian Antioch",
+     "y": 49
+    },
+    {
+     "loc": [
+      30.5,
+      39.4
+     ],
+     "t": "Through Phrygia and Galatia",
+     "y": 50,
+     "note": "'forbidden by the Holy Spirit to speak the word in Asia' (Acts 16:6); route uncertain"
+    },
+    {
+     "loc": [
+      26.16,
+      39.75
+     ],
+     "t": "Alexandria Troas: the vision of the Macedonian",
+     "y": 50
+    },
+    {
+     "loc": [
+      25.53,
+      40.5
+     ],
+     "t": "Samothrace",
+     "y": 50,
+     "sea": true
+    },
+    {
+     "loc": [
+      24.41,
+      40.94
+     ],
+     "t": "Neapolis",
+     "y": 50,
+     "sea": true
+    },
+    {
+     "loc": [
+      24.2846,
+      41.0127
+     ],
+     "t": "Philippi: Lydia, prison and earthquake",
+     "y": 50,
+     "note": "Acts 16:11-40"
+    },
+    {
+     "loc": [
+      23.84,
+      40.82
+     ],
+     "t": "Amphipolis",
+     "y": 50
+    },
+    {
+     "loc": [
+      22.9529,
+      40.6283
+     ],
+     "t": "Thessalonica",
+     "y": 50,
+     "note": "accused of acting against the decrees of Caesar (Acts 17:7)"
+    },
+    {
+     "loc": [
+      22.2,
+      40.52
+     ],
+     "t": "Beroea",
+     "y": 50
+    },
+    {
+     "loc": [
+      22.9,
+      39.9
+     ],
+     "t": "Thermaic Gulf",
+     "y": 50,
+     "sea": true,
+     "marine": true
+    },
+    {
+     "loc": [
+      23.6,
+      39.0
+     ],
+     "t": "Euboean Gulf",
+     "y": 50,
+     "sea": true,
+     "marine": true
+    },
+    {
+     "loc": [
+      24.1,
+      37.9
+     ],
+     "t": "Off Sunium",
+     "y": 50,
+     "sea": true,
+     "marine": true
+    },
+    {
+     "loc": [
+      23.724,
+      37.9716
+     ],
+     "t": "Athens: the Areopagus speech",
+     "y": 50,
+     "note": "'to an unknown god' (Acts 17:23)",
+     "sea": true
+    },
+    {
+     "loc": [
+      22.8786,
+      37.9056
+     ],
+     "t": "Corinth: eighteen months",
+     "y": 51,
+     "note": "with Aquila and Priscilla, expelled from Rome by Claudius; before Gallio in 51/52 (Acts 18:12-17)"
+    },
+    {
+     "loc": [
+      22.99,
+      37.88
+     ],
+     "t": "Cenchreae",
+     "y": 52
+    },
+    {
+     "loc": [
+      27.3424,
+      37.9402
+     ],
+     "t": "Ephesus",
+     "y": 52,
+     "sea": true
+    },
+    {
+     "loc": [
+      28.0,
+      36.5
+     ],
+     "t": "Past Rhodes",
+     "y": 52,
+     "sea": true,
+     "marine": true
+    },
+    {
+     "loc": [
+      31.5,
+      35.0
+     ],
+     "t": "South of Cyprus",
+     "y": 52,
+     "sea": true,
+     "marine": true
+    },
+    {
+     "loc": [
+      34.8924,
+      32.5018
+     ],
+     "t": "Caesarea",
+     "y": 52,
+     "sea": true
+    },
+    {
+     "loc": [
+      35.235,
+      31.7772
+     ],
+     "t": "Jerusalem",
+     "y": 52
+    }
+   ],
+   "certainty": "probable",
+   "note": "Pauline chronology is reconstructed from Acts and the letters, anchored by the Gallio inscription at Delphi (Gallio proconsul of Achaea 51/52). Dates may be a year or two off; Acts' account is debated as a historical source.",
+   "sources": [
+    "Acts of the Apostles",
+    "Paul, Galatians, 1-2 Corinthians, Romans",
+    "Riesner, Paul's Early Period (1998)",
+    "Barrington Atlas"
+   ]
+  },
+  {
+   "id": "journey_paul_third",
+   "name": "Paul's third missionary journey",
+   "kind": "journey",
+   "person": "paul_of_tarsus",
+   "polity": "rome",
+   "start": 53,
+   "end": 57,
+   "summary": "The third journey was centred on Ephesus, the capital of Asia, where Paul stayed between two and three years and from where most of the Corinthian correspondence was written. Acts ends the stay with a riot in the great theatre led by Demetrius the silversmith, whose trade in shrines of Artemis was suffering, the crowd chanting 'Great is Artemis of the Ephesians' for two hours until the town clerk dispersed them. Paul then toured Macedonia and Greece, writing Romans in Corinth, and organised a collection of money from his gentile churches for the poor in Jerusalem. To avoid a plot he went back overland through Macedonia, sailed down the coast of Asia, said a tearful farewell to the Ephesian elders at Miletus and reached Jerusalem for Pentecost, where he was arrested in the Temple.",
+   "path": [
+    {
+     "loc": [
+      36.1768,
+      36.2159
+     ],
+     "t": "Antioch",
+     "y": 53
+    },
+    {
+     "loc": [
+      31.1899,
+      38.3054
+     ],
+     "t": "Through Galatia and Phrygia",
+     "y": 53
+    },
+    {
+     "loc": [
+      27.3424,
+      37.9402
+     ],
+     "t": "Ephesus: two to three years",
+     "y": 53,
+     "note": "lectures in the hall of Tyrannus; letters to Corinth; riot of the silversmiths (Acts 19)"
+    },
+    {
+     "loc": [
+      26.16,
+      39.75
+     ],
+     "t": "Troas",
+     "y": 56
+    },
+    {
+     "loc": [
+      24.41,
+      40.94
+     ],
+     "t": "Neapolis",
+     "y": 56,
+     "sea": true
+    },
+    {
+     "loc": [
+      24.2846,
+      41.0127
+     ],
+     "t": "Macedonia",
+     "y": 56,
+     "note": "2 Corinthians written"
+    },
+    {
+     "loc": [
+      22.9529,
+      40.6283
+     ],
+     "t": "Thessalonica",
+     "y": 56
+    },
+    {
+     "loc": [
+      22.8786,
+      37.9056
+     ],
+     "t": "Corinth: three months",
+     "y": 57,
+     "note": "letter to the Romans written; plot against him"
+    },
+    {
+     "loc": [
+      22.9529,
+      40.6283
+     ],
+     "t": "Back through Macedonia",
+     "y": 57
+    },
+    {
+     "loc": [
+      24.2846,
+      41.0127
+     ],
+     "t": "Philippi: Passover",
+     "y": 57,
+     "m": 4
+    },
+    {
+     "loc": [
+      24.41,
+      40.94
+     ],
+     "t": "Neapolis",
+     "y": 57,
+     "m": 4
+    },
+    {
+     "loc": [
+      26.16,
+      39.75
+     ],
+     "t": "Troas: Eutychus falls from the window",
+     "y": 57,
+     "m": 4,
+     "note": "five days crossing (Acts 20:6-12)",
+     "sea": true
+    },
+    {
+     "loc": [
+      26.34,
+      39.49
+     ],
+     "t": "Assos (Paul on foot)",
+     "y": 57,
+     "m": 4
+    },
+    {
+     "loc": [
+      26.56,
+      39.11
+     ],
+     "t": "Mitylene",
+     "y": 57,
+     "m": 4,
+     "sea": true
+    },
+    {
+     "loc": [
+      26.2,
+      38.45
+     ],
+     "t": "Off Chios",
+     "y": 57,
+     "m": 4,
+     "sea": true,
+     "marine": true
+    },
+    {
+     "loc": [
+      26.94,
+      37.69
+     ],
+     "t": "Samos",
+     "y": 57,
+     "m": 4,
+     "sea": true
+    },
+    {
+     "loc": [
+      27.2788,
+      37.5305
+     ],
+     "t": "Miletus: farewell to the Ephesian elders",
+     "y": 57,
+     "m": 5,
+     "note": "Acts 20:17-38",
+     "sea": true
+    },
+    {
+     "loc": [
+      27.29,
+      36.89
+     ],
+     "t": "Cos",
+     "y": 57,
+     "m": 5,
+     "sea": true
+    },
+    {
+     "loc": [
+      28.225,
+      36.445
+     ],
+     "t": "Rhodes",
+     "y": 57,
+     "m": 5,
+     "sea": true
+    },
+    {
+     "loc": [
+      29.32,
+      36.26
+     ],
+     "t": "Patara",
+     "y": 57,
+     "m": 5,
+     "sea": true
+    },
+    {
+     "loc": [
+      33.0,
+      34.4
+     ],
+     "t": "Past Cyprus on the left",
+     "y": 57,
+     "m": 5,
+     "sea": true,
+     "marine": true
+    },
+    {
+     "loc": [
+      35.2018,
+      33.2693
+     ],
+     "t": "Tyre: seven days",
+     "y": 57,
+     "m": 5,
+     "sea": true
+    },
+    {
+     "loc": [
+      35.0798,
+      32.9213
+     ],
+     "t": "Ptolemais",
+     "y": 57,
+     "m": 5,
+     "sea": true
+    },
+    {
+     "loc": [
+      34.8924,
+      32.5018
+     ],
+     "t": "Caesarea: Agabus' prophecy",
+     "y": 57,
+     "m": 5
+    },
+    {
+     "loc": [
+      35.235,
+      31.7772
+     ],
+     "t": "Jerusalem: arrest in the Temple",
+     "y": 57,
+     "m": 6,
+     "note": "Acts 21:27-36"
+    }
+   ],
+   "certainty": "probable",
+   "note": "Pauline chronology is reconstructed from Acts and the letters, anchored by the Gallio inscription at Delphi (Gallio proconsul of Achaea 51/52). Dates may be a year or two off; Acts' account is debated as a historical source.",
+   "sources": [
+    "Acts of the Apostles",
+    "Paul, Galatians, 1-2 Corinthians, Romans",
+    "Riesner, Paul's Early Period (1998)",
+    "Barrington Atlas"
+   ]
+  },
+  {
+   "id": "journey_paul_rome",
+   "name": "Paul's voyage to Rome and the shipwreck on Malta",
+   "kind": "journey",
+   "person": "paul_of_tarsus",
+   "polity": "rome",
+   "start": 59,
+   "end": 60,
+   "summary": "After two years in custody at Caesarea Paul used his right as a citizen to appeal to Caesar, and the new procurator Festus sent him to Rome under a centurion named Julius. Acts 27 is the most detailed account of a sea voyage to survive from antiquity, full of sailors' practice: changing ships at Myra to an Alexandrian grain freighter, running in the lee of Crete, arguing about wintering at Fair Havens, being caught by the north-easter called Euraquilo, undergirding the hull with cables, throwing the cargo and tackle overboard, sounding twenty then fifteen fathoms in the dark. After fourteen days the 276 on board ran aground on Malta and all reached land. Three months later another Alexandrian ship, the Dioscuri, took them via Syracuse and Rhegium to Puteoli, and Christians walked out from Rome to meet Paul at Forum Appii.",
+   "path": [
+    {
+     "loc": [
+      34.8924,
+      32.5018
+     ],
+     "t": "Caesarea",
+     "y": 59,
+     "m": 8,
+     "note": "two years in custody under Felix and Festus; appeal to Caesar"
+    },
+    {
+     "loc": [
+      35.3728,
+      33.5619
+     ],
+     "t": "Sidon",
+     "y": 59,
+     "m": 8,
+     "sea": true
+    },
+    {
+     "loc": [
+      34.0,
+      35.75
+     ],
+     "t": "In the lee of Cyprus",
+     "y": 59,
+     "m": 9,
+     "sea": true,
+     "marine": true
+    },
+    {
+     "loc": [
+      31.5,
+      36.15
+     ],
+     "t": "Off Cilicia and Pamphylia",
+     "y": 59,
+     "m": 9,
+     "sea": true,
+     "marine": true
+    },
+    {
+     "loc": [
+      29.96,
+      36.22
+     ],
+     "t": "Myra (Andriake): transfer to an Alexandrian grain ship",
+     "y": 59,
+     "m": 9,
+     "sea": true
+    },
+    {
+     "loc": [
+      27.37,
+      36.62
+     ],
+     "t": "Off Cnidus",
+     "y": 59,
+     "m": 9,
+     "sea": true,
+     "marine": true
+    },
+    {
+     "loc": [
+      26.3,
+      35.25
+     ],
+     "t": "Cape Salmone, eastern Crete",
+     "y": 59,
+     "m": 10,
+     "sea": true,
+     "marine": true
+    },
+    {
+     "loc": [
+      24.79,
+      34.93
+     ],
+     "t": "Fair Havens, Crete",
+     "y": 59,
+     "m": 10,
+     "note": "'the Fast was already over' (Yom Kippur, Acts 27:9)",
+     "sea": true
+    },
+    {
+     "loc": [
+      24.08,
+      34.8
+     ],
+     "t": "Cauda: the Euraquilo strikes",
+     "y": 59,
+     "m": 10,
+     "sea": true,
+     "marine": true
+    },
+    {
+     "loc": [
+      19.5,
+      35.2
+     ],
+     "t": "Fourteen days adrift",
+     "y": 59,
+     "m": 11,
+     "sea": true,
+     "marine": true
+    },
+    {
+     "loc": [
+      14.4,
+      35.95
+     ],
+     "t": "Shipwreck in St Paul's Bay, Malta",
+     "y": 59,
+     "m": 11,
+     "note": "the viper on the fire; Publius 'first man of the island' (a title attested on Malta)",
+     "sea": true
+    },
+    {
+     "loc": [
+      15.2833,
+      37.0701
+     ],
+     "t": "Syracuse: three days",
+     "y": 60,
+     "m": 2,
+     "sea": true
+    },
+    {
+     "loc": [
+      15.646,
+      38.111
+     ],
+     "t": "Rhegium",
+     "y": 60,
+     "m": 2,
+     "sea": true
+    },
+    {
+     "loc": [
+      15.0,
+      39.6
+     ],
+     "t": "Tyrrhenian coast",
+     "y": 60,
+     "m": 2,
+     "sea": true,
+     "marine": true
+    },
+    {
+     "loc": [
+      14.1217,
+      40.8258
+     ],
+     "t": "Puteoli: seven days with the brethren",
+     "y": 60,
+     "m": 3,
+     "sea": true
+    },
+    {
+     "loc": [
+      13.06,
+      41.47
+     ],
+     "t": "Forum Appii",
+     "y": 60,
+     "m": 3
+    },
+    {
+     "loc": [
+      12.87,
+      41.6
+     ],
+     "t": "Tres Tabernae",
+     "y": 60,
+     "m": 3
+    },
+    {
+     "loc": [
+      12.4917,
+      41.8899
+     ],
+     "t": "Rome: two years under house arrest",
+     "y": 60,
+     "m": 3,
+     "note": "Acts ends here; tradition places his execution under Nero, c. 64-67"
+    }
+   ],
+   "certainty": "probable",
+   "note": "Pauline chronology is reconstructed from Acts and the letters, anchored by the Gallio inscription at Delphi (Gallio proconsul of Achaea 51/52). Dates may be a year or two off; Acts' account is debated as a historical source. The wreck site in St Paul's Bay is the traditional and still most favoured location; Cephalonia and Mljet have been proposed.",
+   "sources": [
+    "Acts of the Apostles",
+    "Paul, Galatians, 1-2 Corinthians, Romans",
+    "Riesner, Paul's Early Period (1998)",
+    "Barrington Atlas",
+    "Smith, The Voyage and Shipwreck of St Paul (1848)"
+   ]
+  },
+  {
+   "id": "journey_peter",
+   "name": "Peter the Apostle: the traditional route",
+   "kind": "journey",
+   "person": "peter_the_apostle",
+   "polity": "rome",
+   "start": 33,
+   "end": 64,
+   "summary": "Peter's movements are known from Acts and Paul's letters up to about 49; after that the record becomes tradition. In Acts he leads the Jerusalem community, travels to Samaria, Lydda and Joppa, and baptises the centurion Cornelius at Caesarea, the first gentile convert in the narrative. Arrested by Herod Agrippa I around 43-44, he escaped and 'went to another place'. Paul met him in Jerusalem and confronted him at Antioch over eating with gentiles (Galatians 2). A 'Cephas party' at Corinth suggests a visit there. That he came to Rome and was executed under Nero is reported by 1 Clement (c. 96), hinted at by Ignatius, and stated outright from the late 2nd century; the 'trophy' on the Vatican mentioned by the presbyter Gaius around 200 has been identified with the aedicula found beneath St Peter's in the 1940s.",
+   "path": [
+    {
+     "loc": [
+      35.235,
+      31.7772
+     ],
+     "t": "Jerusalem: Pentecost",
+     "y": 33,
+     "note": "date of the crucifixion either 30 or 33"
+    },
+    {
+     "loc": [
+      35.19,
+      32.28
+     ],
+     "t": "Samaria, with John",
+     "y": 35,
+     "note": "Simon Magus (Acts 8:14-25)"
+    },
+    {
+     "loc": [
+      35.235,
+      31.7772
+     ],
+     "t": "Jerusalem",
+     "y": 36
+    },
+    {
+     "loc": [
+      34.89,
+      31.95
+     ],
+     "t": "Lydda: heals Aeneas",
+     "y": 39
+    },
+    {
+     "loc": [
+      34.75,
+      32.05
+     ],
+     "t": "Joppa: raises Tabitha; vision on the roof",
+     "y": 39,
+     "note": "Acts 9:32-10:16"
+    },
+    {
+     "loc": [
+      34.8924,
+      32.5018
+     ],
+     "t": "Caesarea: baptism of Cornelius",
+     "y": 40,
+     "note": "Acts 10"
+    },
+    {
+     "loc": [
+      35.235,
+      31.7772
+     ],
+     "t": "Jerusalem: imprisoned by Agrippa I, escapes",
+     "y": 44,
+     "note": "Acts 12; Agrippa died in 44"
+    },
+    {
+     "loc": [
+      35.235,
+      31.7772
+     ],
+     "t": "Jerusalem: the apostolic council",
+     "y": 49,
+     "note": "Acts 15; Galatians 2:1-10"
+    },
+    {
+     "loc": [
+      36.1768,
+      36.2159
+     ],
+     "t": "Antioch: the clash with Paul",
+     "y": 49,
+     "note": "Galatians 2:11-14; later tradition made Peter Antioch's first bishop"
+    },
+    {
+     "loc": [
+      22.8786,
+      37.9056
+     ],
+     "t": "Corinth (possible visit)",
+     "y": 53,
+     "note": "inferred from the 'Cephas party' (1 Cor 1:12); Dionysius of Corinth (c. 170) claims Peter and Paul taught there"
+    },
+    {
+     "loc": [
+      12.4917,
+      41.8899
+     ],
+     "t": "Rome: martyrdom under Nero",
+     "y": 64,
+     "note": "crucified, by tradition head downward (Origen); 1 Clement 5; 1 Peter 5:13 writes from 'Babylon'"
+    }
+   ],
+   "certainty": "legendary",
+   "note": "After Acts 15 everything is tradition. The 25-year Roman episcopate is a 4th-century construction (Jerome); most scholars accept a Roman martyrdom, a minority (Goulder, Zwierlein) doubt Peter reached Rome at all.",
+   "sources": [
+    "Acts 1-15",
+    "Galatians 1-2",
+    "1 Clement 5",
+    "Eusebius, HE 2.25",
+    "Zwierlein, Petrus in Rom (2009)"
+   ]
+  },
+  {
+   "id": "journey_nero_greece",
+   "name": "Nero's tour of Greece, AD 66-67",
+   "kind": "journey",
+   "person": "nero",
+   "polity": "rome",
+   "start": 66,
+   "end": 68,
+   "summary": "Nero had wanted to perform in Greece for years, and in September 66 he went, with Poppaea's successor Statilia Messalina, a claque of 5,000 trained applauders and Vespasian, who disgraced himself by falling asleep during a recital. The Greek festivals were rescheduled so that the Olympic, Pythian, Isthmian and Nemean games, normally spread over four years, fell in one season, and a musical contest was added at Olympia for the first time. Nero won 1,808 prizes, including the chariot race at Olympia, where he fell out of a ten-horse chariot and was crowned anyway. At the Isthmus he dug the first basket of earth for a canal and on 28 November 67 proclaimed the freedom of Achaea, exempting it from tribute. Meanwhile his freedman Helius warned him that Rome was close to revolt.",
+   "path": [
+    {
+     "loc": [
+      12.4917,
+      41.8899
+     ],
+     "t": "Leaves Rome",
+     "y": 66,
+     "m": 9
+    },
+    {
+     "loc": [
+      17.9429,
+      40.6387
+     ],
+     "t": "Brundisium",
+     "y": 66,
+     "m": 9
+    },
+    {
+     "loc": [
+      19.9067,
+      39.6081
+     ],
+     "t": "Corcyra: sings at the altar of Zeus Kassios",
+     "y": 66,
+     "m": 9,
+     "sea": true
+    },
+    {
+     "loc": [
+      20.7676,
+      38.9528
+     ],
+     "t": "Actium",
+     "y": 66,
+     "m": 10,
+     "sea": true
+    },
+    {
+     "loc": [
+      21.0,
+      38.2
+     ],
+     "t": "Gulf of Patras",
+     "y": 66,
+     "sea": true,
+     "marine": true
+    },
+    {
+     "loc": [
+      21.6308,
+      37.6387
+     ],
+     "t": "Olympia: chariot race and musical contest",
+     "y": 67,
+     "m": 7,
+     "note": "the 211th Olympiad, postponed from 65 to 67 and later struck from the lists"
+    },
+    {
+     "loc": [
+      22.5012,
+      38.4823
+     ],
+     "t": "Delphi: the Pythian games",
+     "y": 67,
+     "note": "takes 500 statues from the sanctuary, according to Pausanias"
+    },
+    {
+     "loc": [
+      22.7204,
+      37.6309
+     ],
+     "t": "Argos and Nemea",
+     "y": 67
+    },
+    {
+     "loc": [
+      22.8786,
+      37.9056
+     ],
+     "t": "Isthmus: canal begun and Greece declared free",
+     "y": 67,
+     "m": 11,
+     "d": 28,
+     "note": "speech preserved in an inscription from Acraephia (ILS 8794); 6,000 Jewish prisoners sent by Vespasian to dig"
+    },
+    {
+     "loc": [
+      21.7385,
+      38.2433
+     ],
+     "t": "Patrae",
+     "y": 67,
+     "m": 12
+    },
+    {
+     "loc": [
+      19.6,
+      39.5
+     ],
+     "t": "Ionian Sea",
+     "y": 67,
+     "m": 12,
+     "sea": true,
+     "marine": true
+    },
+    {
+     "loc": [
+      17.9429,
+      40.6387
+     ],
+     "t": "Brundisium",
+     "y": 68,
+     "m": 1,
+     "sea": true
+    },
+    {
+     "loc": [
+      14.2529,
+      40.84
+     ],
+     "t": "Neapolis: triumphal entry through a breach in the wall",
+     "y": 68,
+     "m": 1
+    },
+    {
+     "loc": [
+      12.4917,
+      41.8899
+     ],
+     "t": "Rome: Greek triumph in the chariot of Augustus",
+     "y": 68,
+     "m": 1,
+     "note": "Vindex rises in Gaul in March; Nero is dead by June"
+    }
+   ],
+   "certainty": "probable",
+   "note": "The exact order of the festivals is uncertain. Suetonius and Dio are hostile; the Acraephia inscription preserves Nero's own words.",
+   "sources": [
+    "Suetonius, Nero 19, 22-25",
+    "Dio 63.8-21",
+    "ILS 8794 (Acraephia)",
+    "Alcock, Graecia Capta (1993)"
+   ]
+  },
+  {
+   "id": "journey_hadrian_121_125",
+   "name": "Hadrian's first great tour, 121-125",
+   "kind": "journey",
+   "person": "hadrian",
+   "polity": "rome",
+   "start": 121,
+   "end": 125,
+   "summary": "Hadrian spent more than half his reign away from Rome, and the coin series commemorating his visits to the provinces (adventus, restitutor, exercitus types) are a map of a new idea of empire: not Rome and its conquests, but a commonwealth of provinces seen by its ruler. The first tour began with the armies. He inspected the Rhine legions, tightened discipline, slept in the open and ate camp food, and ordered a continuous palisade along the German frontier. In Britain he ordered the Wall 'to separate Romans from barbarians'. He wintered at Tarraco, where a slave attacked him with a sword. A Parthian crisis took him east in 123; he settled it by meeting the king in person. He then toured Asia Minor, where he probably met the Bithynian youth Antinous, was initiated at Eleusis, and returned to Rome via Sicily, climbing Etna to watch the sunrise.",
+   "path": [
+    {
+     "loc": [
+      12.4917,
+      41.8899
+     ],
+     "t": "Leaves Rome",
+     "y": 121,
+     "m": 4,
+     "note": "after the Parilia (21 April)"
+    },
+    {
+     "loc": [
+      4.8195,
+      45.7589
+     ],
+     "t": "Gaul",
+     "y": 121
+    },
+    {
+     "loc": [
+      8.2739,
+      49.9989
+     ],
+     "t": "Upper Germany: the palisade",
+     "y": 121,
+     "note": "Historia Augusta, Hadrian 12.6: a continuous barrier of great stakes"
+    },
+    {
+     "loc": [
+      6.9599,
+      50.9407
+     ],
+     "t": "Lower Germany",
+     "y": 122
+    },
+    {
+     "loc": [
+      5.8587,
+      51.8417
+     ],
+     "t": "Noviomagus",
+     "y": 122
+    },
+    {
+     "loc": [
+      2.0,
+      51.4
+     ],
+     "t": "Crossing to Britain",
+     "y": 122,
+     "sea": true,
+     "marine": true
+    },
+    {
+     "loc": [
+      -0.0889,
+      51.5133
+     ],
+     "t": "Britain",
+     "y": 122,
+     "m": 6,
+     "note": "Hadrian arrives with legio VI Victrix and the new governor Platorius Nepos",
+     "sea": true
+    },
+    {
+     "loc": [
+      -1.0823,
+      53.9577
+     ],
+     "t": "Eboracum",
+     "y": 122
+    },
+    {
+     "loc": [
+      -2.3602,
+      54.9913
+     ],
+     "t": "The Wall begun",
+     "y": 122,
+     "event": "hadrians_wall_begun"
+    },
+    {
+     "loc": [
+      -0.0889,
+      51.5133
+     ],
+     "t": "Londinium",
+     "y": 122
+    },
+    {
+     "loc": [
+      1.6,
+      50.6
+     ],
+     "t": "Back to Gaul",
+     "y": 122,
+     "sea": true,
+     "marine": true
+    },
+    {
+     "loc": [
+      4.3578,
+      43.8327
+     ],
+     "t": "Nemausus: basilica for Plotina",
+     "y": 122,
+     "note": "Plotina died in 121/122",
+     "sea": true
+    },
+    {
+     "loc": [
+      1.2583,
+      41.1169
+     ],
+     "t": "Tarraco: winter 122/123",
+     "y": 123,
+     "note": "council of Spain; survives an attack by a deranged slave (HA Hadr. 12.5)"
+    },
+    {
+     "loc": [
+      7.0,
+      38.5
+     ],
+     "t": "Western Mediterranean",
+     "y": 123,
+     "note": "possibly via Mauretania; route to the East uncertain",
+     "sea": true,
+     "marine": true
+    },
+    {
+     "loc": [
+      22.0,
+      35.0
+     ],
+     "t": "Eastern Mediterranean",
+     "y": 123,
+     "sea": true,
+     "marine": true
+    },
+    {
+     "loc": [
+      36.1768,
+      36.2159
+     ],
+     "t": "Syria: meets the Parthian king on the Euphrates",
+     "y": 123,
+     "note": "the war is averted by negotiation",
+     "sea": true
+    },
+    {
+     "loc": [
+      39.7233,
+      41.0043
+     ],
+     "t": "Trapezus and the Black Sea coast",
+     "y": 123,
+     "note": "Arrian's Periplus later refers to Hadrian's visit"
+    },
+    {
+     "loc": [
+      31.61,
+      40.74
+     ],
+     "t": "Claudiopolis, Bithynia",
+     "y": 123,
+     "note": "home of Antinous; the meeting is plausibly placed in this year"
+    },
+    {
+     "loc": [
+      29.9199,
+      40.7652
+     ],
+     "t": "Nicomedia and Nicaea",
+     "y": 124,
+     "note": "rebuilt after an earthquake"
+    },
+    {
+     "loc": [
+      27.8832,
+      40.3856
+     ],
+     "t": "Cyzicus",
+     "y": 124
+    },
+    {
+     "loc": [
+      26.2385,
+      39.9574
+     ],
+     "t": "Ilium: restores the tomb of Ajax",
+     "y": 124
+    },
+    {
+     "loc": [
+      27.3424,
+      37.9402
+     ],
+     "t": "Ephesus",
+     "y": 124
+    },
+    {
+     "loc": [
+      23.724,
+      37.9716
+     ],
+     "t": "Athens: initiated at Eleusis",
+     "y": 124,
+     "m": 9,
+     "sea": true,
+     "event": "hadrians_first_journey"
+    },
+    {
+     "loc": [
+      15.2833,
+      37.0701
+     ],
+     "t": "Sicily: climbs Etna",
+     "y": 125,
+     "note": "HA Hadr. 13.3: to see the sunrise, said to show the colours of a rainbow",
+     "sea": true
+    },
+    {
+     "loc": [
+      12.4917,
+      41.8899
+     ],
+     "t": "Return to Rome",
+     "y": 125,
+     "sea": true
+    }
+   ],
+   "certainty": "probable",
+   "note": "Reconstruction after Halfmann, Itinera principum (1986) and Birley, Hadrian (1997). The sequence in the East in 123-124 is particularly uncertain.",
+   "sources": [
+    "Historia Augusta, Hadrian 10-14",
+    "Dio 69.9-11",
+    "Halfmann, Itinera principum (1986)",
+    "Birley, Hadrian: the Restless Emperor (1997)"
+   ]
+  },
+  {
+   "id": "journey_hadrian_128_132",
+   "name": "Hadrian's second great tour, 128-132",
+   "kind": "journey",
+   "person": "hadrian",
+   "polity": "rome",
+   "start": 128,
+   "end": 134,
+   "summary": "The second tour opened with a quick visit to Africa, where Hadrian watched the exercises of legio III Augusta at Lambaesis and delivered the speech whose fragments survive on the parade-ground monument, judging each manoeuvre like a drill-sergeant. Then he went east for six years. He wintered at Athens, toured Asia Minor and Syria, gave Palmyra the name Hadriana, wintered at Gerasa, where an arch still marks his visit, and refounded Jerusalem as the colony Aelia Capitolina, a decision that helped provoke the Bar Kokhba revolt. In Egypt he restored Pompey's tomb at Pelusium, debated with the scholars of the Museum, and hunted a lion in the Libyan desert. In October 130 Antinous drowned in the Nile; Hadrian founded Antinoopolis on the spot and filled the empire with statues of him. He dedicated the Olympieion at Athens in 131/132.",
+   "path": [
+    {
+     "loc": [
+      12.4917,
+      41.8899
+     ],
+     "t": "Rome",
+     "y": 128,
+     "m": 5
+    },
+    {
+     "loc": [
+      11.5,
+      38.9
+     ],
+     "t": "Crossing to Africa",
+     "y": 128,
+     "sea": true,
+     "marine": true
+    },
+    {
+     "loc": [
+      10.322,
+      36.8545
+     ],
+     "t": "Carthage",
+     "y": 128,
+     "m": 6,
+     "note": "rain fell on his arrival after five years of drought (HA Hadr. 22.14)",
+     "sea": true
+    },
+    {
+     "loc": [
+      6.2548,
+      35.4897
+     ],
+     "t": "Lambaesis: the address to the army",
+     "y": 128,
+     "m": 7,
+     "d": 1,
+     "event": "lambaesis_address"
+    },
+    {
+     "loc": [
+      10.322,
+      36.8545
+     ],
+     "t": "Carthage",
+     "y": 128,
+     "m": 7
+    },
+    {
+     "loc": [
+      12.4917,
+      41.8899
+     ],
+     "t": "Rome",
+     "y": 128,
+     "m": 8,
+     "sea": true
+    },
+    {
+     "loc": [
+      17.9429,
+      40.6387
+     ],
+     "t": "Brundisium",
+     "y": 128,
+     "m": 8
+    },
+    {
+     "loc": [
+      23.724,
+      37.9716
+     ],
+     "t": "Athens: winter 128/129",
+     "y": 128,
+     "m": 9,
+     "note": "second Eleusinian initiation (epopteia)",
+     "sea": true
+    },
+    {
+     "loc": [
+      27.3424,
+      37.9402
+     ],
+     "t": "Ephesus",
+     "y": 129,
+     "sea": true
+    },
+    {
+     "loc": [
+      29.1074,
+      37.8359
+     ],
+     "t": "Caria and Phrygia",
+     "y": 129
+    },
+    {
+     "loc": [
+      30.8533,
+      36.9645
+     ],
+     "t": "Pamphylia",
+     "y": 129
+    },
+    {
+     "loc": [
+      34.8965,
+      36.914
+     ],
+     "t": "Cilicia",
+     "y": 129
+    },
+    {
+     "loc": [
+      36.1768,
+      36.2159
+     ],
+     "t": "Antioch",
+     "y": 129
+    },
+    {
+     "loc": [
+      38.2701,
+      34.5507
+     ],
+     "t": "Palmyra becomes Hadriana",
+     "y": 129
+    },
+    {
+     "loc": [
+      36.3091,
+      33.5116
+     ],
+     "t": "Damascus",
+     "y": 129
+    },
+    {
+     "loc": [
+      35.8911,
+      32.2801
+     ],
+     "t": "Gerasa: winter 129/130",
+     "y": 130,
+     "note": "the arch of Hadrian built for the visit"
+    },
+    {
+     "loc": [
+      35.444,
+      30.329
+     ],
+     "t": "Petra: Hadriane Petra",
+     "y": 130
+    },
+    {
+     "loc": [
+      35.235,
+      31.7772
+     ],
+     "t": "Jerusalem refounded as Aelia Capitolina",
+     "y": 130
+    },
+    {
+     "loc": [
+      34.4517,
+      31.5202
+     ],
+     "t": "Gaza",
+     "y": 130
+    },
+    {
+     "loc": [
+      32.5471,
+      31.0426
+     ],
+     "t": "Pelusium: restores the tomb of Pompey",
+     "y": 130,
+     "m": 7
+    },
+    {
+     "loc": [
+      29.9098,
+      31.2014
+     ],
+     "t": "Alexandria: the Museum",
+     "y": 130,
+     "m": 8
+    },
+    {
+     "loc": [
+      30.881,
+      27.8106
+     ],
+     "t": "Antinous drowns; Antinoopolis founded",
+     "y": 130,
+     "m": 10,
+     "d": 30
+    },
+    {
+     "loc": [
+      32.639,
+      25.7
+     ],
+     "t": "Thebes: the singing colossus of Memnon",
+     "y": 130,
+     "m": 11,
+     "note": "Julia Balbilla's epigrams on the colossus record the visit (20-21 Nov 130)"
+    },
+    {
+     "loc": [
+      29.9098,
+      31.2014
+     ],
+     "t": "Alexandria",
+     "y": 131
+    },
+    {
+     "loc": [
+      23.724,
+      37.9716
+     ],
+     "t": "Athens: the Olympieion and the Panhellenion",
+     "y": 131,
+     "note": "winter 131/132; Bar Kokhba revolt breaks out in 132; Hadrian may have gone to Judaea",
+     "sea": true,
+     "event": "panhellenion"
+    },
+    {
+     "loc": [
+      12.4917,
+      41.8899
+     ],
+     "t": "Rome",
+     "y": 134,
+     "sea": true
+    }
+   ],
+   "certainty": "probable",
+   "note": "After Halfmann (1986) and Birley (1997). Whether Hadrian went to Judaea during the revolt in 132-134 is disputed. Sea legs schematic.",
+   "sources": [
+    "Historia Augusta, Hadrian 13-14, 22",
+    "Dio 69.11-12",
+    "CIL VIII 2532, 18042 (Lambaesis)",
+    "Halfmann, Itinera principum (1986)"
+   ]
+  },
+  {
+   "id": "journey_marcus_danube",
+   "name": "Marcus Aurelius on the northern front, 168-180",
+   "kind": "journey",
+   "person": "marcus_aurelius",
+   "polity": "rome",
+   "start": 168,
+   "end": 180,
+   "summary": "The philosopher emperor spent most of his last twelve years in army camps on the Danube, fighting a war he had not chosen while plague emptied the cities. The Marcomanni and Quadi had broken through to Aquileia in 170, the first invasion of Italy in nearly three centuries. Marcus auctioned palace treasures to pay for the war, recruited slaves and gladiators, and campaigned from bases at Carnuntum and Sirmium. Book 1 of the Meditations was written 'among the Quadi, on the Granua', book 2 'at Carnuntum'. The revolt of Avidius Cassius in 175 took him east, where his wife Faustina died at Halala; he was initiated at Eleusis on the way home. In 178 he returned north, apparently planning new provinces of Marcomannia and Sarmatia, and died in March 180, at Vindobona according to Aurelius Victor, at Sirmium according to Tertullian.",
+   "path": [
+    {
+     "loc": [
+      12.4917,
+      41.8899
+     ],
+     "t": "Rome",
+     "y": 168,
+     "m": 1
+    },
+    {
+     "loc": [
+      13.3709,
+      45.7696
+     ],
+     "t": "Aquileia, with Lucius Verus",
+     "y": 168,
+     "note": "the first expedition; plague in the army"
+    },
+    {
+     "loc": [
+      12.4917,
+      41.8899
+     ],
+     "t": "Back to Rome after Verus' death at Altinum",
+     "y": 169,
+     "m": 2,
+     "note": "Verus died of a stroke in January 169"
+    },
+    {
+     "loc": [
+      19.6098,
+      44.9731
+     ],
+     "t": "Sirmium",
+     "y": 169,
+     "m": 10
+    },
+    {
+     "loc": [
+      16.8679,
+      48.1133
+     ],
+     "t": "Carnuntum",
+     "y": 171,
+     "note": "Meditations book 2: 'at Carnuntum'"
+    },
+    {
+     "loc": [
+      18.76,
+      47.81
+     ],
+     "t": "Among the Quadi, on the Granua (Hron)",
+     "y": 172,
+     "note": "Meditations book 1 colophon; the rain miracle belongs to these years (Column of Marcus, scene 16)"
+    },
+    {
+     "loc": [
+      19.6098,
+      44.9731
+     ],
+     "t": "Sirmium: news of Avidius Cassius' revolt",
+     "y": 175,
+     "m": 4
+    },
+    {
+     "loc": [
+      29.9199,
+      40.7652
+     ],
+     "t": "Bithynia",
+     "y": 175
+    },
+    {
+     "loc": [
+      34.68,
+      37.43
+     ],
+     "t": "Halala: death of Faustina",
+     "y": 175,
+     "note": "renamed Faustinopolis; site approximate"
+    },
+    {
+     "loc": [
+      36.1768,
+      36.2159
+     ],
+     "t": "Antioch",
+     "y": 175
+    },
+    {
+     "loc": [
+      29.9098,
+      31.2014
+     ],
+     "t": "Alexandria",
+     "y": 176,
+     "m": 1,
+     "sea": true
+    },
+    {
+     "loc": [
+      36.1768,
+      36.2159
+     ],
+     "t": "Syria",
+     "y": 176,
+     "sea": true
+    },
+    {
+     "loc": [
+      27.1414,
+      38.4172
+     ],
+     "t": "Smyrna",
+     "y": 176
+    },
+    {
+     "loc": [
+      23.724,
+      37.9716
+     ],
+     "t": "Athens: initiated at Eleusis; chairs of philosophy endowed",
+     "y": 176,
+     "m": 9,
+     "sea": true
+    },
+    {
+     "loc": [
+      17.9429,
+      40.6387
+     ],
+     "t": "Brundisium",
+     "y": 176,
+     "m": 10,
+     "sea": true
+    },
+    {
+     "loc": [
+      12.4917,
+      41.8899
+     ],
+     "t": "Rome: German and Sarmatian triumph",
+     "y": 176,
+     "m": 12,
+     "d": 23,
+     "event": "triumph_176_and_column_of_marcus"
+    },
+    {
+     "loc": [
+      19.6098,
+      44.9731
+     ],
+     "t": "Leaves again for the Danube",
+     "y": 178,
+     "m": 8
+    },
+    {
+     "loc": [
+      16.3717,
+      48.2099
+     ],
+     "t": "Death at Vindobona (or Sirmium)",
+     "y": 180,
+     "m": 3,
+     "d": 17
+    }
+   ],
+   "certainty": "probable",
+   "note": "Movements after Halfmann (1986) and Birley, Marcus Aurelius (1987). The place of death is disputed between Vindobona and Sirmium.",
+   "sources": [
+    "Marcus Aurelius, Meditations 1, 2 (colophons)",
+    "Dio 71-72",
+    "Historia Augusta, Marcus",
+    "Birley, Marcus Aurelius (1987)"
+   ]
+  },
+  {
+   "id": "journey_severus_britain",
+   "name": "Septimius Severus' last expedition to Britain, 208-211",
+   "kind": "journey",
+   "person": "septimius_severus",
+   "polity": "rome",
+   "start": 208,
+   "end": 211,
+   "summary": "At 63 and crippled by gout, Severus took the whole court to Britain: his wife Julia Domna, both quarrelling sons, the praetorian prefect Papinian and the imperial treasury. The pretext was trouble from the Maeatae and Caledonians; Herodian thought the real aim was to get Caracalla and Geta out of Rome and away from its pleasures. York became for three years the capital of the empire. Severus was carried in a litter across the Forth, rebuilt the fortress at Carpow on the Tay, and lost men by the thousand in bogs and ambushes without ever forcing a battle. The Caledonians submitted in 209 and rose again in 210. Severus ordered his soldiers to kill everyone, then died at York on 4 February 211, advising his sons to 'agree with each other, enrich the soldiers and despise everyone else'.",
+   "path": [
+    {
+     "loc": [
+      12.4917,
+      41.8899
+     ],
+     "t": "Rome",
+     "y": 208,
+     "m": 3
+    },
+    {
+     "loc": [
+      4.8195,
+      45.7589
+     ],
+     "t": "Through Gaul",
+     "y": 208
+    },
+    {
+     "loc": [
+      1.6148,
+      50.7257
+     ],
+     "t": "Gesoriacum",
+     "y": 208
+    },
+    {
+     "loc": [
+      1.3323,
+      51.2935
+     ],
+     "t": "Rutupiae",
+     "y": 208,
+     "sea": true
+    },
+    {
+     "loc": [
+      -0.0889,
+      51.5133
+     ],
+     "t": "Londinium",
+     "y": 208
+    },
+    {
+     "loc": [
+      -1.0823,
+      53.9577
+     ],
+     "t": "Eboracum: imperial residence",
+     "y": 208,
+     "event": "severus_british_expedition_208"
+    },
+    {
+     "loc": [
+      -2.0293,
+      54.9782
+     ],
+     "t": "Coria (Corbridge): supply base",
+     "y": 209
+    },
+    {
+     "loc": [
+      -2.6912,
+      55.5998
+     ],
+     "t": "Trimontium",
+     "y": 209
+    },
+    {
+     "loc": [
+      -3.3,
+      55.97
+     ],
+     "t": "Cramond on the Forth",
+     "y": 209
+    },
+    {
+     "loc": [
+      -3.27,
+      56.36
+     ],
+     "t": "Carpow on the Tay",
+     "y": 209,
+     "note": "legionary fortress rebuilt for II Augusta and VI Victrix"
+    },
+    {
+     "loc": [
+      -1.0823,
+      53.9577
+     ],
+     "t": "Eboracum",
+     "y": 210,
+     "note": "Caracalla leads the campaign of 210 alone as Severus weakens"
+    },
+    {
+     "loc": [
+      -1.0823,
+      53.9577
+     ],
+     "t": "Death at Eboracum",
+     "y": 211,
+     "m": 2,
+     "d": 4,
+     "event": "death_of_septimius_severus_211"
+    }
+   ],
+   "certainty": "probable",
+   "note": "The exact routes north of the Forth are reconstructed from the Severan supply bases at South Shields, Corbridge, Cramond and Carpow.",
+   "sources": [
+    "Dio 76.11-15",
+    "Herodian 3.14-15",
+    "Birley, Septimius Severus (1988)"
+   ]
+  }
+ ]
+}

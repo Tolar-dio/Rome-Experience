@@ -1,0 +1,3451 @@
+{
+ "tactics": [
+  {
+   "event": "battle_of_the_trebia",
+   "title": "The Trebia: Mago's ambush",
+   "terrain": [
+    {
+     "kind": "river",
+     "pts": [
+      [
+       0,
+       47
+      ],
+      [
+       25,
+       45
+      ],
+      [
+       50,
+       48
+      ],
+      [
+       75,
+       45
+      ],
+      [
+       100,
+       47
+      ]
+     ],
+     "label": "Trebia (in winter flood)"
+    },
+    {
+     "kind": "stream",
+     "pts": [
+      [
+       4,
+       14
+      ],
+      [
+       6,
+       26
+      ],
+      [
+       4,
+       38
+      ],
+      [
+       7,
+       50
+      ]
+     ],
+     "label": "overgrown watercourse"
+    },
+    {
+     "kind": "camp",
+     "cx": 60,
+     "cy": 57,
+     "r": 3,
+     "label": "Roman camp"
+    },
+    {
+     "kind": "camp",
+     "cx": 50,
+     "cy": 3,
+     "r": 3,
+     "label": "Hannibal's camp"
+    },
+    {
+     "kind": "town",
+     "cx": 96,
+     "cy": 57,
+     "r": 2,
+     "label": "towards Placentia"
+    }
+   ],
+   "north": 90,
+   "scaleNote": "front perhaps 3 km; schematic",
+   "units": [
+    {
+     "id": "r_all_s",
+     "side": 0,
+     "label": "Allied infantry, south wing",
+     "kind": "infantry",
+     "w": 12,
+     "h": 5
+    },
+    {
+     "id": "r_inf_c",
+     "side": 0,
+     "label": "Roman legions (centre)",
+     "kind": "infantry",
+     "w": 26,
+     "h": 5
+    },
+    {
+     "id": "r_all_n",
+     "side": 0,
+     "label": "Allied infantry, north wing",
+     "kind": "infantry",
+     "w": 12,
+     "h": 5
+    },
+    {
+     "id": "r_vel",
+     "side": 0,
+     "label": "Velites",
+     "kind": "light",
+     "w": 50,
+     "h": 2
+    },
+    {
+     "id": "r_cav_s",
+     "side": 0,
+     "label": "Roman cavalry",
+     "kind": "cavalry",
+     "w": 8,
+     "h": 4
+    },
+    {
+     "id": "r_cav_n",
+     "side": 0,
+     "label": "Allied cavalry",
+     "kind": "cavalry",
+     "w": 8,
+     "h": 4
+    },
+    {
+     "id": "c_light",
+     "side": 1,
+     "label": "Light troops: Balearic slingers, spearmen (8,000)",
+     "kind": "light",
+     "w": 50,
+     "h": 2
+    },
+    {
+     "id": "c_inf",
+     "side": 1,
+     "label": "Africans, Iberians, Celts (20,000)",
+     "kind": "infantry",
+     "w": 52,
+     "h": 6
+    },
+    {
+     "id": "c_cav",
+     "side": 1,
+     "label": "Iberian and Celtic cavalry",
+     "kind": "cavalry",
+     "w": 8,
+     "h": 4
+    },
+    {
+     "id": "c_numid",
+     "side": 1,
+     "label": "Numidian cavalry",
+     "kind": "cavalry",
+     "w": 8,
+     "h": 4
+    },
+    {
+     "id": "c_el_s",
+     "side": 1,
+     "label": "Elephants",
+     "kind": "elephants",
+     "w": 6,
+     "h": 3
+    },
+    {
+     "id": "c_el_n",
+     "side": 1,
+     "label": "Elephants",
+     "kind": "elephants",
+     "w": 6,
+     "h": 3
+    },
+    {
+     "id": "c_mago",
+     "side": 1,
+     "label": "Mago: 1,000 foot, 1,000 horse",
+     "kind": "reserve",
+     "w": 10,
+     "h": 4
+    }
+   ],
+   "phases": [
+    {
+     "t": "The Numidians draw the Romans over the river",
+     "text": "It was the winter solstice season, with snow falling. Hannibal had hidden his brother Mago with 1,000 picked foot and 1,000 horse in a watercourse with high, overgrown banks on the flank of the ground he meant to fight on. At dawn he sent the Numidian cavalry across the Trebia to skirmish at the Roman camp. The consul Ti. Sempronius Longus, eager for a victory before his year ended, sent out first his cavalry and then the whole army, before the men had eaten. Polybius (3.72) says they waded the river chest-deep in icy water. Hannibal's men had eaten and oiled themselves by their fires.",
+     "pos": {
+      "r_all_s": [
+       30,
+       54,
+       0
+      ],
+      "r_inf_c": [
+       50,
+       54,
+       0
+      ],
+      "r_all_n": [
+       70,
+       54,
+       0
+      ],
+      "r_vel": [
+       50,
+       50,
+       0
+      ],
+      "r_cav_s": [
+       16,
+       54,
+       0
+      ],
+      "r_cav_n": [
+       84,
+       54,
+       0
+      ],
+      "c_light": [
+       50,
+       26,
+       0
+      ],
+      "c_inf": [
+       50,
+       19,
+       0
+      ],
+      "c_cav": [
+       14,
+       19,
+       0
+      ],
+      "c_numid": [
+       50,
+       40,
+       0
+      ],
+      "c_el_s": [
+       20,
+       26,
+       0
+      ],
+      "c_el_n": [
+       80,
+       26,
+       0
+      ],
+      "c_mago": [
+       6,
+       30,
+       90
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        50,
+        38
+       ],
+       "to": [
+        50,
+        30
+       ],
+       "side": 1,
+       "kind": "retreat"
+      },
+      {
+       "from": [
+        50,
+        51
+       ],
+       "to": [
+        50,
+        44
+       ],
+       "side": 0
+      }
+     ]
+    },
+    {
+     "t": "The lines form; the skirmish",
+     "text": "On the west bank the Romans formed the normal triple line: 16,000 Romans and 20,000 allies, with 4,000 cavalry on the wings. Hannibal had his 8,000 light troops in front, a single line of about 20,000 Iberians, Celts and Africans, and 10,000 cavalry divided between the wings, with the elephants in front of the wings. The Numidians fell back to their wing. The light troops opened the battle, and the velites, who had used up many of their javelins against the Numidians that morning, were driven in.",
+     "pos": {
+      "r_all_s": [
+       30,
+       37,
+       0
+      ],
+      "r_inf_c": [
+       50,
+       37,
+       0
+      ],
+      "r_all_n": [
+       70,
+       37,
+       0
+      ],
+      "r_vel": [
+       50,
+       32,
+       0
+      ],
+      "r_cav_s": [
+       17,
+       37,
+       0
+      ],
+      "r_cav_n": [
+       83,
+       37,
+       0
+      ],
+      "c_light": [
+       50,
+       26,
+       0
+      ],
+      "c_inf": [
+       50,
+       19,
+       0
+      ],
+      "c_cav": [
+       14,
+       19,
+       0
+      ],
+      "c_numid": [
+       86,
+       19,
+       0
+      ],
+      "c_el_s": [
+       20,
+       26,
+       0
+      ],
+      "c_el_n": [
+       80,
+       26,
+       0
+      ],
+      "c_mago": [
+       6,
+       30,
+       90
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        50,
+        52
+       ],
+       "to": [
+        50,
+        40
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        50,
+        38
+       ],
+       "to": [
+        84,
+        22
+       ],
+       "side": 1
+      }
+     ]
+    },
+    {
+     "t": "Cavalry routed; Mago strikes the rear",
+     "text": "The Carthaginian cavalry, outnumbering the Roman 10,000 to 4,000, drove both Roman wings off the field, helped by the elephants, whose smell and noise panicked the horses. The light troops and Numidians then fell on the exposed flanks of the infantry. At this point Mago came out of the watercourse and attacked the Roman rear. Polybius notes that the elephants did great damage to the flanks.",
+     "pos": {
+      "r_all_s": [
+       30,
+       37,
+       0
+      ],
+      "r_inf_c": [
+       50,
+       37,
+       0
+      ],
+      "r_all_n": [
+       70,
+       37,
+       0
+      ],
+      "r_vel": [
+       50,
+       41,
+       0
+      ],
+      "r_cav_s": [
+       10,
+       54,
+       0
+      ],
+      "r_cav_n": [
+       90,
+       54,
+       0
+      ],
+      "c_light": [
+       50,
+       26,
+       0
+      ],
+      "c_inf": [
+       50,
+       19,
+       0
+      ],
+      "c_cav": [
+       12,
+       46,
+       0
+      ],
+      "c_numid": [
+       88,
+       46,
+       0
+      ],
+      "c_el_s": [
+       21,
+       38,
+       90
+      ],
+      "c_el_n": [
+       79,
+       38,
+       90
+      ],
+      "c_mago": [
+       48,
+       44,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        14,
+        22
+       ],
+       "to": [
+        12,
+        42
+       ],
+       "side": 1
+      },
+      {
+       "from": [
+        86,
+        22
+       ],
+       "to": [
+        88,
+        42
+       ],
+       "side": 1
+      },
+      {
+       "from": [
+        8,
+        36
+       ],
+       "to": [
+        42,
+        44
+       ],
+       "side": 1
+      },
+      {
+       "from": [
+        15,
+        40
+       ],
+       "to": [
+        10,
+        51
+       ],
+       "side": 0,
+       "kind": "retreat"
+      }
+     ],
+     "hidden": [
+      "c_light",
+      "r_vel"
+     ]
+    },
+    {
+     "t": "The 10,000 break through",
+     "text": "The Roman centre, about 10,000 men, cut its way through the Celts and part of the Africans in front of it. Seeing that the river and the rain made it impossible to go back to the camp, these men marched in good order to Placentia. The rest of the army, on the wings, was destroyed between the river, the elephants and the cavalry. Carthaginian losses fell mainly on the Celts; but almost all the elephants died in the cold that followed. Sempronius reported the defeat to Rome as a battle lost to the weather.",
+     "pos": {
+      "r_all_s": [
+       28,
+       43,
+       0
+      ],
+      "r_inf_c": [
+       86,
+       9,
+       0
+      ],
+      "r_all_n": [
+       68,
+       43,
+       0
+      ],
+      "r_vel": [
+       50,
+       41,
+       0
+      ],
+      "r_cav_s": [
+       10,
+       54,
+       0
+      ],
+      "r_cav_n": [
+       90,
+       54,
+       0
+      ],
+      "c_light": [
+       50,
+       26,
+       0
+      ],
+      "c_inf": [
+       46,
+       31,
+       0
+      ],
+      "c_cav": [
+       12,
+       52,
+       0
+      ],
+      "c_numid": [
+       88,
+       50,
+       0
+      ],
+      "c_el_s": [
+       18,
+       42,
+       90
+      ],
+      "c_el_n": [
+       80,
+       42,
+       90
+      ],
+      "c_mago": [
+       48,
+       51,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        50,
+        34
+       ],
+       "to": [
+        84,
+        12
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        46,
+        34
+       ],
+       "to": [
+        40,
+        40
+       ],
+       "side": 1
+      },
+      {
+       "from": [
+        30,
+        44
+       ],
+       "to": [
+        30,
+        50
+       ],
+       "side": 0,
+       "kind": "retreat"
+      }
+     ],
+     "hidden": [
+      "c_light",
+      "r_vel",
+      "r_cav_s",
+      "r_cav_n"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "3.70-74"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "21.52-56"
+    },
+    {
+     "a": "Appian",
+     "w": "Hannibalica",
+     "r": "6-7"
+    }
+   ],
+   "note": "Reconstruction after Polybius 3.71-74. The battle was fought on the west (left) bank of the Trebia south of Placentia; the drawing is rotated so that the Roman advance (westward) runs up the page and north is to the right. The location of Mago's watercourse is unknown and is placed on the southern flank by inference; Livy 21.54 puts it between the armies.",
+   "scholarship": [
+    "Walbank, A Historical Commentary on Polybius I (1957)",
+    "Lazenby, Hannibal's War (1978)",
+    "Goldsworthy, The Fall of Carthage (2000)"
+   ]
+  },
+  {
+   "event": "battle_of_lake_trasimene",
+   "title": "Trasimene: the ambush in the fog",
+   "terrain": [
+    {
+     "kind": "lake",
+     "pts": [
+      [
+       0,
+       46
+      ],
+      [
+       20,
+       45
+      ],
+      [
+       45,
+       47
+      ],
+      [
+       70,
+       46
+      ],
+      [
+       90,
+       48
+      ],
+      [
+       100,
+       47
+      ],
+      [
+       100,
+       60
+      ],
+      [
+       0,
+       60
+      ]
+     ],
+     "label": "Lake Trasimene"
+    },
+    {
+     "kind": "hill",
+     "cx": 6,
+     "cy": 34,
+     "r": 7,
+     "label": "Malpasso (Borghetto) narrows"
+    },
+    {
+     "kind": "ridge",
+     "pts": [
+      [
+       10,
+       26
+      ],
+      [
+       30,
+       24
+      ],
+      [
+       50,
+       25
+      ],
+      [
+       70,
+       23
+      ],
+      [
+       84,
+       26
+      ]
+     ],
+     "label": "hills above the plain (Tuoro)"
+    },
+    {
+     "kind": "hill",
+     "cx": 88,
+     "cy": 36,
+     "r": 7,
+     "label": "hill closing the exit (Montigeto / Passignano)"
+    }
+   ],
+   "north": 0,
+   "scaleNote": "plain roughly 5 km long; schematic",
+   "units": [
+    {
+     "id": "r_van",
+     "side": 0,
+     "label": "Roman vanguard (c. 6,000)",
+     "kind": "infantry",
+     "w": 10,
+     "h": 3
+    },
+    {
+     "id": "r_col1",
+     "side": 0,
+     "label": "Column: leading legion",
+     "kind": "infantry",
+     "w": 18,
+     "h": 2.5
+    },
+    {
+     "id": "r_col2",
+     "side": 0,
+     "label": "Column: Flaminius with the main body",
+     "kind": "infantry",
+     "w": 18,
+     "h": 2.5
+    },
+    {
+     "id": "r_col3",
+     "side": 0,
+     "label": "Column: rear and baggage",
+     "kind": "baggage",
+     "w": 14,
+     "h": 2.5
+    },
+    {
+     "id": "c_afr",
+     "side": 1,
+     "label": "Africans and Iberians",
+     "kind": "infantry",
+     "w": 12,
+     "h": 5
+    },
+    {
+     "id": "c_light",
+     "side": 1,
+     "label": "Balearic slingers and light infantry",
+     "kind": "light",
+     "w": 30,
+     "h": 3
+    },
+    {
+     "id": "c_celts",
+     "side": 1,
+     "label": "Celts",
+     "kind": "infantry",
+     "w": 18,
+     "h": 4
+    },
+    {
+     "id": "c_cav",
+     "side": 1,
+     "label": "Cavalry",
+     "kind": "cavalry",
+     "w": 8,
+     "h": 4
+    }
+   ],
+   "phases": [
+    {
+     "t": "Into the defile",
+     "text": "Hannibal had marched past Flaminius at Arretium, burning the countryside to provoke him. Polybius (3.83) describes the trap: a narrow pass at the western end of the lake opening into a plain under hills, with a hill closing the eastern end. Hannibal camped on that far hill with his Africans and Iberians, put the Balearics and light infantry behind the hills along the north side, and the cavalry and Celts behind the hills near the entrance, so that they could close it behind the Romans. Flaminius camped by the lake the evening before, without reconnoitring, and entered the pass at dawn in a thick mist off the lake.",
+     "pos": {
+      "r_van": [
+       44,
+       40,
+       0
+      ],
+      "r_col1": [
+       28,
+       41,
+       0
+      ],
+      "r_col2": [
+       11,
+       42,
+       0
+      ],
+      "r_col3": [
+       8,
+       53,
+       0
+      ],
+      "c_afr": [
+       88,
+       30,
+       0
+      ],
+      "c_light": [
+       52,
+       16,
+       0
+      ],
+      "c_celts": [
+       26,
+       16,
+       0
+      ],
+      "c_cav": [
+       8,
+       22,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        40,
+        40
+       ],
+       "to": [
+        66,
+        40
+       ],
+       "side": 0
+      }
+     ],
+     "hidden": [
+      "r_col3"
+     ]
+    },
+    {
+     "t": "The trap closes",
+     "text": "When the head of the column reached the Africans and the rest was strung out along the shore, Hannibal gave the signal to all the ambush parties at once. They came down from several directions out of the fog. Polybius says the Romans could not see where the attack was coming from and were killed in column before most could form a line or even draw their weapons. The cavalry and Celts closed the entrance.",
+     "pos": {
+      "r_van": [
+       74,
+       40,
+       0
+      ],
+      "r_col1": [
+       54,
+       41,
+       0
+      ],
+      "r_col2": [
+       34,
+       41.5,
+       0
+      ],
+      "r_col3": [
+       14,
+       42,
+       0
+      ],
+      "c_afr": [
+       88,
+       34,
+       0
+      ],
+      "c_light": [
+       52,
+       34,
+       0
+      ],
+      "c_celts": [
+       28,
+       34,
+       0
+      ],
+      "c_cav": [
+       5,
+       40,
+       90
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        52,
+        18
+       ],
+       "to": [
+        52,
+        31
+       ],
+       "side": 1
+      },
+      {
+       "from": [
+        26,
+        18
+       ],
+       "to": [
+        28,
+        31
+       ],
+       "side": 1
+      },
+      {
+       "from": [
+        8,
+        25
+       ],
+       "to": [
+        6,
+        35
+       ],
+       "side": 1
+      },
+      {
+       "from": [
+        86,
+        30
+       ],
+       "to": [
+        82,
+        36
+       ],
+       "side": 1
+      }
+     ]
+    },
+    {
+     "t": "Flaminius killed; the column destroyed",
+     "text": "Fighting went on for about three hours, in isolated groups. Livy (22.6) says the consul tried to rally his men and was killed by an Insubrian horseman named Ducarius, who recognised him from the Gallic campaign of 223. Many Romans were driven into the lake and drowned or were killed trying to swim with their armour; others waded in up to their necks and were cut down by the cavalry. Polybius gives about 15,000 dead.",
+     "pos": {
+      "r_van": [
+       74,
+       40,
+       0
+      ],
+      "r_col1": [
+       54,
+       43,
+       0
+      ],
+      "r_col2": [
+       34,
+       44,
+       0
+      ],
+      "r_col3": [
+       14,
+       44,
+       0
+      ],
+      "c_afr": [
+       88,
+       34,
+       0
+      ],
+      "c_light": [
+       52,
+       38,
+       0
+      ],
+      "c_celts": [
+       26,
+       38,
+       0
+      ],
+      "c_cav": [
+       6,
+       44,
+       90
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        52,
+        36
+       ],
+       "to": [
+        54,
+        41
+       ],
+       "side": 1
+      },
+      {
+       "from": [
+        26,
+        36
+       ],
+       "to": [
+        30,
+        42
+       ],
+       "side": 1
+      },
+      {
+       "from": [
+        34,
+        44
+       ],
+       "to": [
+        36,
+        50
+       ],
+       "side": 0,
+       "kind": "retreat"
+      }
+     ]
+    },
+    {
+     "t": "The vanguard breaks out",
+     "text": "The 6,000 men at the head of the column fought their way through and over the hill at the far end. They did not know what had happened behind them until the fog lifted. They took refuge in an Etruscan village, where Maharbal surrounded them the next day and they surrendered on terms; Hannibal kept the Romans and released the Italian allies without ransom, part of his campaign to break up Rome's alliance. Hannibal lost about 1,500 men, mostly Celts. A few days later Maharbal also destroyed 4,000 cavalry sent ahead by the other consul.",
+     "pos": {
+      "r_van": [
+       92,
+       18,
+       0
+      ],
+      "r_col1": [
+       54,
+       43,
+       0
+      ],
+      "r_col2": [
+       34,
+       44,
+       0
+      ],
+      "r_col3": [
+       14,
+       44,
+       0
+      ],
+      "c_afr": [
+       84,
+       38,
+       0
+      ],
+      "c_light": [
+       52,
+       38,
+       0
+      ],
+      "c_celts": [
+       26,
+       38,
+       0
+      ],
+      "c_cav": [
+       6,
+       44,
+       90
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        76,
+        38
+       ],
+       "to": [
+        90,
+        22
+       ],
+       "side": 0
+      }
+     ],
+     "hidden": [
+      "r_col1",
+      "r_col2",
+      "r_col3"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "3.82-85"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "22.4-7"
+    },
+    {
+     "a": "Appian",
+     "w": "Hannibalica",
+     "r": "9-10"
+    }
+   ],
+   "note": "Polybius' topography is clear in outline but has been fitted to the ground in several ways: the traditional view puts the battle in the Tuoro plain between Borghetto and Passignano; others (Pareti, Susini) place it farther east near Passignano or in the valley towards Sanguineto. The lake shore has receded since antiquity. Positions follow the Tuoro reconstruction and are schematic.",
+   "scholarship": [
+    "Walbank, A Historical Commentary on Polybius I (1957)",
+    "Lazenby, Hannibal's War (1978)",
+    "Susini, Ricerche sulla battaglia del Trasimeno (1960)"
+   ]
+  },
+  {
+   "event": "battle_of_cannae",
+   "title": "Cannae: the double envelopment",
+   "terrain": [
+    {
+     "kind": "river",
+     "pts": [
+      [
+       6,
+       0
+      ],
+      [
+       4,
+       18
+      ],
+      [
+       8,
+       34
+      ],
+      [
+       5,
+       48
+      ],
+      [
+       9,
+       60
+      ]
+     ],
+     "label": "Aufidus (Ofanto)"
+    },
+    {
+     "kind": "hill",
+     "cx": 94,
+     "cy": 54,
+     "r": 5,
+     "label": "towards Cannae"
+    }
+   ],
+   "north": 0,
+   "scaleNote": "front perhaps 2 km; schematic",
+   "units": [
+    {
+     "id": "r_inf",
+     "side": 0,
+     "label": "Roman and allied infantry (c. 55,000), very deep",
+     "kind": "infantry",
+     "w": 38,
+     "h": 10
+    },
+    {
+     "id": "r_vel",
+     "side": 0,
+     "label": "Velites",
+     "kind": "light",
+     "w": 38,
+     "h": 2
+    },
+    {
+     "id": "r_cav",
+     "side": 0,
+     "label": "Roman cavalry (2,400), Paullus",
+     "kind": "cavalry",
+     "w": 8,
+     "h": 4
+    },
+    {
+     "id": "r_all_cav",
+     "side": 0,
+     "label": "Allied cavalry (3,600), Varro",
+     "kind": "cavalry",
+     "w": 10,
+     "h": 4
+    },
+    {
+     "id": "c_light",
+     "side": 1,
+     "label": "Balearic slingers, spearmen",
+     "kind": "light",
+     "w": 44,
+     "h": 2
+    },
+    {
+     "id": "c_crescent",
+     "side": 1,
+     "label": "Celts and Iberians in a forward crescent",
+     "kind": "infantry",
+     "w": 30,
+     "h": 5
+    },
+    {
+     "id": "c_lib_w",
+     "side": 1,
+     "label": "Libyan foot",
+     "kind": "infantry",
+     "w": 8,
+     "h": 7
+    },
+    {
+     "id": "c_lib_e",
+     "side": 1,
+     "label": "Libyan foot",
+     "kind": "infantry",
+     "w": 8,
+     "h": 7
+    },
+    {
+     "id": "c_cav",
+     "side": 1,
+     "label": "Hasdrubal: Iberian and Celtic horse",
+     "kind": "cavalry",
+     "w": 10,
+     "h": 5
+    },
+    {
+     "id": "c_numid",
+     "side": 1,
+     "label": "Numidian horse",
+     "kind": "cavalry",
+     "w": 10,
+     "h": 4
+    }
+   ],
+   "phases": [
+    {
+     "t": "Deployment",
+     "text": "The Romans formed with their right on the Aufidus, facing south. Polybius (3.113) says they made the maniples deeper than their frontage and closed up the intervals: the plan was to smash the Carthaginian centre by weight. The 2,400 Roman cavalry under Paullus stood between the infantry and the river; the 3,600 allied cavalry under Varro held the open left. Hannibal put the Iberian and Celtic cavalry under Hasdrubal by the river and the Numidians on his right. In the centre he advanced the Celts and Iberians in a crescent bulging towards the enemy, with the African infantry, armed with captured Roman equipment, in deep columns at each end.",
+     "pos": {
+      "r_inf": [
+       46,
+       20,
+       0
+      ],
+      "r_vel": [
+       46,
+       27,
+       0
+      ],
+      "r_cav": [
+       19,
+       20,
+       0
+      ],
+      "r_all_cav": [
+       76,
+       20,
+       0
+      ],
+      "c_light": [
+       46,
+       31,
+       0
+      ],
+      "c_crescent": [
+       46,
+       36,
+       0
+      ],
+      "c_lib_w": [
+       24,
+       42,
+       0
+      ],
+      "c_lib_e": [
+       68,
+       42,
+       0
+      ],
+      "c_cav": [
+       15,
+       42,
+       0
+      ],
+      "c_numid": [
+       82,
+       42,
+       0
+      ]
+     }
+    },
+    {
+     "t": "The cavalry by the river; the crescent gives way",
+     "text": "On the narrow ground by the river, with no room to manoeuvre, the Iberian and Celtic horse met the Roman cavalry head on. Polybius says the men dismounted and fought on foot, and the Roman horse was destroyed or driven along the river. In the centre the Roman infantry pushed the crescent back. It did not break: it bent from convex to concave, and the Romans, crowding towards the centre where the fighting was, pressed into the pocket between the two Libyan columns.",
+     "pos": {
+      "r_inf": [
+       46,
+       30,
+       0
+      ],
+      "r_vel": [
+       46,
+       27,
+       0
+      ],
+      "r_cav": [
+       14,
+       6,
+       0
+      ],
+      "r_all_cav": [
+       78,
+       28,
+       0
+      ],
+      "c_light": [
+       46,
+       31,
+       0
+      ],
+      "c_crescent": [
+       46,
+       41,
+       0
+      ],
+      "c_lib_w": [
+       24,
+       42,
+       0
+      ],
+      "c_lib_e": [
+       68,
+       42,
+       0
+      ],
+      "c_cav": [
+       17,
+       27,
+       0
+      ],
+      "c_numid": [
+       80,
+       34,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        15,
+        39
+       ],
+       "to": [
+        17,
+        30
+       ],
+       "side": 1
+      },
+      {
+       "from": [
+        18,
+        22
+       ],
+       "to": [
+        14,
+        9
+       ],
+       "side": 0,
+       "kind": "retreat"
+      },
+      {
+       "from": [
+        46,
+        26
+       ],
+       "to": [
+        46,
+        32
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        46,
+        37
+       ],
+       "to": [
+        46,
+        40
+       ],
+       "side": 1,
+       "kind": "retreat"
+      }
+     ],
+     "hidden": [
+      "c_light",
+      "r_vel"
+     ]
+    },
+    {
+     "t": "The Libyans turn inward; Hasdrubal rides round",
+     "text": "The Libyans on each flank turned inwards and attacked the sides of the Roman mass. Hasdrubal led his cavalry behind the Roman army to the other wing, where the Numidians were skirmishing with Varro's allied horse in the Numidian way, without closing. On seeing Hasdrubal coming, the allied cavalry fled.",
+     "pos": {
+      "r_inf": [
+       46,
+       30,
+       0
+      ],
+      "r_vel": [
+       46,
+       27,
+       0
+      ],
+      "r_cav": [
+       10,
+       4,
+       0
+      ],
+      "r_all_cav": [
+       78,
+       28,
+       0
+      ],
+      "c_light": [
+       46,
+       31,
+       0
+      ],
+      "c_crescent": [
+       46,
+       41,
+       0
+      ],
+      "c_lib_w": [
+       23,
+       32,
+       90
+      ],
+      "c_lib_e": [
+       69,
+       32,
+       90
+      ],
+      "c_cav": [
+       62,
+       8,
+       0
+      ],
+      "c_numid": [
+       80,
+       34,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        24,
+        39
+       ],
+       "to": [
+        24,
+        33
+       ],
+       "side": 1
+      },
+      {
+       "from": [
+        68,
+        39
+       ],
+       "to": [
+        68,
+        33
+       ],
+       "side": 1
+      },
+      {
+       "from": [
+        20,
+        22
+       ],
+       "to": [
+        60,
+        8
+       ],
+       "side": 1
+      },
+      {
+       "from": [
+        64,
+        10
+       ],
+       "to": [
+        76,
+        24
+       ],
+       "side": 1
+      }
+     ],
+     "hidden": [
+      "c_light",
+      "r_vel",
+      "r_cav"
+     ]
+    },
+    {
+     "t": "Encirclement",
+     "text": "Hasdrubal left the Numidians to pursue the allied cavalry and brought his own squadrons down on the rear of the Roman infantry. The Romans were now surrounded, so packed that the men in the middle could not use their weapons. Polybius gives 70,000 dead, Livy 48,200 with 19,300 captured. Paullus died, along with 80 senators or men eligible for the senate and 29 military tribunes. Hannibal lost about 5,700 (Polybius), two-thirds of them Celts. Capua and much of southern Italy went over to him.",
+     "pos": {
+      "r_inf": [
+       46,
+       30,
+       0
+      ],
+      "r_vel": [
+       46,
+       27,
+       0
+      ],
+      "r_cav": [
+       10,
+       4,
+       0
+      ],
+      "r_all_cav": [
+       90,
+       6,
+       0
+      ],
+      "c_light": [
+       46,
+       31,
+       0
+      ],
+      "c_crescent": [
+       46,
+       39,
+       0
+      ],
+      "c_lib_w": [
+       23,
+       32,
+       90
+      ],
+      "c_lib_e": [
+       69,
+       32,
+       90
+      ],
+      "c_cav": [
+       46,
+       20,
+       0
+      ],
+      "c_numid": [
+       88,
+       14,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        60,
+        12
+       ],
+       "to": [
+        48,
+        18
+       ],
+       "side": 1
+      },
+      {
+       "from": [
+        80,
+        26
+       ],
+       "to": [
+        88,
+        16
+       ],
+       "side": 1
+      },
+      {
+       "from": [
+        78,
+        22
+       ],
+       "to": [
+        90,
+        9
+       ],
+       "side": 0,
+       "kind": "retreat"
+      }
+     ],
+     "hidden": [
+      "c_light",
+      "r_vel",
+      "r_cav",
+      "r_all_cav"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "3.107-117"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "22.40-52"
+    },
+    {
+     "a": "Appian",
+     "w": "Hannibalica",
+     "r": "17-26"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Fabius Maximus",
+     "r": "15-16"
+    }
+   ],
+   "note": "Reconstruction after Polybius 3.113-116, followed by most modern accounts. Which bank of the Aufidus the battle was fought on, and the exact Roman strength (Polybius' 80,000 infantry is often reduced), are disputed. The crescent is drawn as a block pushed forward and then back; its real shape is uncertain. The 10,000 Romans left to guard the main camp across the river are not shown.",
+   "scholarship": [
+    "Walbank, A Historical Commentary on Polybius I (1957)",
+    "Lazenby, Hannibal's War (1978)",
+    "Daly, Cannae: The Experience of Battle in the Second Punic War (2002)",
+    "Goldsworthy, Cannae (2001)"
+   ]
+  },
+  {
+   "event": "battle_of_ilipa",
+   "title": "Ilipa: Scipio reverses his line",
+   "terrain": [
+    {
+     "kind": "hill",
+     "cx": 50,
+     "cy": 4,
+     "r": 5,
+     "label": "Carthaginian camp hill"
+    },
+    {
+     "kind": "hill",
+     "cx": 50,
+     "cy": 57,
+     "r": 4,
+     "label": "Roman camp"
+    },
+    {
+     "kind": "river",
+     "pts": [
+      [
+       100,
+       30
+      ],
+      [
+       96,
+       45
+      ],
+      [
+       100,
+       60
+      ]
+     ],
+     "label": "towards the Baetis"
+    }
+   ],
+   "north": 0,
+   "scaleNote": "front perhaps 4 km; schematic",
+   "units": [
+    {
+     "id": "r_rom_l",
+     "side": 0,
+     "label": "Roman legions",
+     "kind": "infantry",
+     "w": 16,
+     "h": 5
+    },
+    {
+     "id": "r_rom_r",
+     "side": 0,
+     "label": "Roman legions",
+     "kind": "infantry",
+     "w": 16,
+     "h": 5
+    },
+    {
+     "id": "r_sp_l",
+     "side": 0,
+     "label": "Spanish allies",
+     "kind": "infantry",
+     "w": 16,
+     "h": 5
+    },
+    {
+     "id": "r_sp_r",
+     "side": 0,
+     "label": "Spanish allies",
+     "kind": "infantry",
+     "w": 16,
+     "h": 5
+    },
+    {
+     "id": "r_cav_l",
+     "side": 0,
+     "label": "Cavalry and velites",
+     "kind": "cavalry",
+     "w": 8,
+     "h": 4
+    },
+    {
+     "id": "r_cav_r",
+     "side": 0,
+     "label": "Cavalry and velites",
+     "kind": "cavalry",
+     "w": 8,
+     "h": 4
+    },
+    {
+     "id": "c_afr",
+     "side": 1,
+     "label": "African infantry (Hasdrubal Gisco)",
+     "kind": "infantry",
+     "w": 24,
+     "h": 6
+    },
+    {
+     "id": "c_sp_r",
+     "side": 1,
+     "label": "Spanish levies",
+     "kind": "infantry",
+     "w": 18,
+     "h": 5
+    },
+    {
+     "id": "c_sp_l",
+     "side": 1,
+     "label": "Spanish levies",
+     "kind": "infantry",
+     "w": 18,
+     "h": 5
+    },
+    {
+     "id": "c_el_r",
+     "side": 1,
+     "label": "Elephants",
+     "kind": "elephants",
+     "w": 10,
+     "h": 3
+    },
+    {
+     "id": "c_el_l",
+     "side": 1,
+     "label": "Elephants",
+     "kind": "elephants",
+     "w": 10,
+     "h": 3
+    },
+    {
+     "id": "c_cav_r",
+     "side": 1,
+     "label": "Cavalry (Mago, Masinissa)",
+     "kind": "cavalry",
+     "w": 8,
+     "h": 4
+    },
+    {
+     "id": "c_cav_l",
+     "side": 1,
+     "label": "Cavalry",
+     "kind": "cavalry",
+     "w": 8,
+     "h": 4
+    }
+   ],
+   "phases": [
+    {
+     "t": "The pattern of the first days",
+     "text": "For several days the armies drew up opposite each other late in the morning and stood until evening without fighting. Polybius (11.20-22) says both sides used the same order each day: Hasdrubal Gisco put his best troops, the Africans, in the centre with Spaniards on the wings and elephants in front of the wings; Scipio put his legions in the centre facing the Africans and his less reliable Spanish allies on the wings. Polybius gives Hasdrubal 70,000 foot, 4,000 horse and 32 elephants, Scipio 45,000 foot and 3,000 horse.",
+     "pos": {
+      "r_rom_l": [
+       42,
+       42,
+       0
+      ],
+      "r_rom_r": [
+       58,
+       42,
+       0
+      ],
+      "r_sp_l": [
+       24,
+       42,
+       0
+      ],
+      "r_sp_r": [
+       76,
+       42,
+       0
+      ],
+      "r_cav_l": [
+       8,
+       42,
+       0
+      ],
+      "r_cav_r": [
+       92,
+       42,
+       0
+      ],
+      "c_afr": [
+       50,
+       16,
+       0
+      ],
+      "c_sp_r": [
+       26,
+       16,
+       0
+      ],
+      "c_sp_l": [
+       74,
+       16,
+       0
+      ],
+      "c_el_r": [
+       26,
+       23,
+       0
+      ],
+      "c_el_l": [
+       74,
+       23,
+       0
+      ],
+      "c_cav_r": [
+       9,
+       16,
+       0
+      ],
+      "c_cav_l": [
+       91,
+       16,
+       0
+      ]
+     }
+    },
+    {
+     "t": "The decisive morning: the line reversed",
+     "text": "On the chosen day Scipio had his men fed at dawn and armed, and formed up at first light with the order reversed: Spaniards in the centre, legions on the wings. He sent his cavalry and velites straight at the Carthaginian camp. Hasdrubal had to rush his men out unfed and could only form them in the usual order, too late to see what Scipio had done until the lines were set.",
+     "pos": {
+      "r_rom_l": [
+       24,
+       42,
+       0
+      ],
+      "r_rom_r": [
+       76,
+       42,
+       0
+      ],
+      "r_sp_l": [
+       42,
+       44,
+       0
+      ],
+      "r_sp_r": [
+       58,
+       44,
+       0
+      ],
+      "r_cav_l": [
+       14,
+       30,
+       0
+      ],
+      "r_cav_r": [
+       86,
+       30,
+       0
+      ],
+      "c_afr": [
+       50,
+       16,
+       0
+      ],
+      "c_sp_r": [
+       26,
+       16,
+       0
+      ],
+      "c_sp_l": [
+       74,
+       16,
+       0
+      ],
+      "c_el_r": [
+       26,
+       23,
+       0
+      ],
+      "c_el_l": [
+       74,
+       23,
+       0
+      ],
+      "c_cav_r": [
+       9,
+       16,
+       0
+      ],
+      "c_cav_l": [
+       91,
+       16,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        10,
+        40
+       ],
+       "to": [
+        14,
+        33
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        90,
+        40
+       ],
+       "to": [
+        86,
+        33
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        50,
+        9
+       ],
+       "to": [
+        50,
+        13
+       ],
+       "side": 1
+      }
+     ]
+    },
+    {
+     "t": "The wings march out",
+     "text": "Scipio ordered the Spanish centre to advance slowly. With the legions on each wing he performed the manoeuvre Polybius describes in detail (11.23): the leading units turned outward and marched in column to the flank, with the cavalry and velites in front, then wheeled to face the enemy. The aim was to strike the weak Carthaginian wings with his best troops while the Carthaginian best troops in the centre were held in place by the threat of the advancing Spaniards.",
+     "pos": {
+      "r_rom_l": [
+       14,
+       32,
+       70
+      ],
+      "r_rom_r": [
+       86,
+       32,
+       -70
+      ],
+      "r_sp_l": [
+       42,
+       40,
+       0
+      ],
+      "r_sp_r": [
+       58,
+       40,
+       0
+      ],
+      "r_cav_l": [
+       5,
+       24,
+       70
+      ],
+      "r_cav_r": [
+       95,
+       24,
+       -70
+      ],
+      "c_afr": [
+       50,
+       16,
+       0
+      ],
+      "c_sp_r": [
+       26,
+       16,
+       0
+      ],
+      "c_sp_l": [
+       74,
+       16,
+       0
+      ],
+      "c_el_r": [
+       26,
+       23,
+       0
+      ],
+      "c_el_l": [
+       74,
+       23,
+       0
+      ],
+      "c_cav_r": [
+       9,
+       16,
+       0
+      ],
+      "c_cav_l": [
+       91,
+       16,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        24,
+        40
+       ],
+       "to": [
+        14,
+        35
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        76,
+        40
+       ],
+       "to": [
+        86,
+        35
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        50,
+        47
+       ],
+       "to": [
+        50,
+        43
+       ],
+       "side": 0
+      }
+     ]
+    },
+    {
+     "t": "The wings strike",
+     "text": "The legions came into line against the Spaniards and elephants on both Carthaginian wings while the cavalry and velites attacked their flanks. The elephants, harried by missiles from all sides, did as much harm to their own side as to the Romans. The African centre stood idle: if it moved to help the wings it would expose itself to Scipio's Spaniards, who had still not engaged.",
+     "pos": {
+      "r_rom_l": [
+       26,
+       28,
+       0
+      ],
+      "r_rom_r": [
+       74,
+       28,
+       0
+      ],
+      "r_sp_l": [
+       42,
+       36,
+       0
+      ],
+      "r_sp_r": [
+       58,
+       36,
+       0
+      ],
+      "r_cav_l": [
+       6,
+       18,
+       90
+      ],
+      "r_cav_r": [
+       94,
+       18,
+       90
+      ],
+      "c_afr": [
+       50,
+       16,
+       0
+      ],
+      "c_sp_r": [
+       26,
+       16,
+       0
+      ],
+      "c_sp_l": [
+       74,
+       16,
+       0
+      ],
+      "c_el_r": [
+       26,
+       23.5,
+       0
+      ],
+      "c_el_l": [
+       74,
+       23.5,
+       0
+      ],
+      "c_cav_r": [
+       12,
+       9,
+       0
+      ],
+      "c_cav_l": [
+       88,
+       9,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        14,
+        30
+       ],
+       "to": [
+        24,
+        26
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        86,
+        30
+       ],
+       "to": [
+        76,
+        26
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        6,
+        24
+       ],
+       "to": [
+        6,
+        20
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        94,
+        24
+       ],
+       "to": [
+        94,
+        20
+       ],
+       "side": 0
+      }
+     ]
+    },
+    {
+     "t": "Collapse and rain",
+     "text": "The Carthaginian wings broke, and the whole army fell back to the foot of the hill and then into its camp. A sudden downpour stopped the Romans from storming it. That night Hasdrubal's Spanish allies began to desert, and when he tried to retreat to the coast Scipio's pursuit caught and destroyed the army. Hasdrubal escaped by sea to Gades. Ilipa ended Carthaginian power in Spain; within months Mago had left Gades and the city came over to Rome.",
+     "pos": {
+      "r_rom_l": [
+       30,
+       20,
+       0
+      ],
+      "r_rom_r": [
+       70,
+       20,
+       0
+      ],
+      "r_sp_l": [
+       42,
+       26,
+       0
+      ],
+      "r_sp_r": [
+       58,
+       26,
+       0
+      ],
+      "r_cav_l": [
+       14,
+       18,
+       0
+      ],
+      "r_cav_r": [
+       86,
+       18,
+       0
+      ],
+      "c_afr": [
+       50,
+       10,
+       0
+      ],
+      "c_sp_r": [
+       27,
+       9,
+       0
+      ],
+      "c_sp_l": [
+       73,
+       9,
+       0
+      ],
+      "c_el_r": [
+       26,
+       23.5,
+       0
+      ],
+      "c_el_l": [
+       74,
+       23.5,
+       0
+      ],
+      "c_cav_r": [
+       18,
+       3,
+       0
+      ],
+      "c_cav_l": [
+       82,
+       3,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        50,
+        14
+       ],
+       "to": [
+        50,
+        11
+       ],
+       "side": 1,
+       "kind": "retreat"
+      },
+      {
+       "from": [
+        30,
+        23
+       ],
+       "to": [
+        32,
+        17
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        70,
+        23
+       ],
+       "to": [
+        68,
+        17
+       ],
+       "side": 0
+      }
+     ],
+     "hidden": [
+      "c_el_r",
+      "c_el_l"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "11.20-24"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "28.12-16"
+    },
+    {
+     "a": "Appian",
+     "w": "Iberica",
+     "r": "25-28"
+    }
+   ],
+   "note": "Reconstruction after Polybius 11.20-24, whose description of the wing manoeuvre is precise but has been interpreted in several ways (an outward turn into column and a wheel back into line is the most common). The site near Alcalá del Río (Ilipa) is accepted; the Roman and Carthaginian numbers are Polybius' and probably high.",
+   "scholarship": [
+    "Scullard, Scipio Africanus: Soldier and Politician (1970)",
+    "Walbank, A Historical Commentary on Polybius II (1967)",
+    "Lazenby, Hannibal's War (1978)"
+   ]
+  },
+  {
+   "event": "battle_of_the_metaurus",
+   "title": "The Metaurus: Nero's march behind the line",
+   "terrain": [
+    {
+     "kind": "river",
+     "pts": [
+      [
+       0,
+       3
+      ],
+      [
+       30,
+       5
+      ],
+      [
+       60,
+       2
+      ],
+      [
+       100,
+       4
+      ]
+     ],
+     "label": "Metaurus"
+    },
+    {
+     "kind": "hill",
+     "cx": 80,
+     "cy": 14,
+     "r": 10,
+     "label": "steep ground on the Carthaginian left"
+    }
+   ],
+   "north": 0,
+   "scaleNote": "front perhaps 2.5 km; schematic",
+   "units": [
+    {
+     "id": "r_liv",
+     "side": 0,
+     "label": "Livius Salinator (left)",
+     "kind": "infantry",
+     "w": 20,
+     "h": 5
+    },
+    {
+     "id": "r_por",
+     "side": 0,
+     "label": "Porcius Licinus (centre)",
+     "kind": "infantry",
+     "w": 16,
+     "h": 5
+    },
+    {
+     "id": "r_nero",
+     "side": 0,
+     "label": "Claudius Nero (right)",
+     "kind": "infantry",
+     "w": 18,
+     "h": 5
+    },
+    {
+     "id": "r_nero_col",
+     "side": 0,
+     "label": "Nero's flanking column",
+     "kind": "infantry",
+     "w": 14,
+     "h": 4
+    },
+    {
+     "id": "c_sp",
+     "side": 1,
+     "label": "Spaniards with Hasdrubal",
+     "kind": "infantry",
+     "w": 18,
+     "h": 6
+    },
+    {
+     "id": "c_lig",
+     "side": 1,
+     "label": "Ligurians",
+     "kind": "infantry",
+     "w": 14,
+     "h": 5
+    },
+    {
+     "id": "c_gauls",
+     "side": 1,
+     "label": "Gauls on the hill",
+     "kind": "infantry",
+     "w": 16,
+     "h": 6
+    },
+    {
+     "id": "c_el",
+     "side": 1,
+     "label": "Elephants (10)",
+     "kind": "elephants",
+     "w": 10,
+     "h": 3
+    }
+   ],
+   "phases": [
+    {
+     "t": "Hasdrubal trapped",
+     "text": "Hasdrubal Barca had crossed the Alps and reached the Adriatic coast, but his letters to Hannibal were intercepted. The consul C. Claudius Nero left his camp facing Hannibal in Apulia and marched north with 7,000 picked men in about a week to join his colleague M. Livius at Sena Gallica. Hasdrubal noticed two trumpet calls in the Roman camp, guessed that both consuls were present, and tried to slip away by night. His guides deserted, and at dawn he was still searching for a ford on the Metaurus when the Romans caught him. He drew up with the river behind him: Spaniards and himself on the right, Ligurians in the centre, Gauls on steep ground on the left, elephants in front.",
+     "pos": {
+      "r_liv": [
+       22,
+       42,
+       0
+      ],
+      "r_por": [
+       46,
+       42,
+       0
+      ],
+      "r_nero": [
+       76,
+       42,
+       0
+      ],
+      "r_nero_col": [
+       76,
+       49,
+       0
+      ],
+      "c_sp": [
+       22,
+       18,
+       0
+      ],
+      "c_lig": [
+       46,
+       18,
+       0
+      ],
+      "c_gauls": [
+       78,
+       14,
+       0
+      ],
+      "c_el": [
+       32,
+       25,
+       0
+      ]
+     },
+     "hidden": [
+      "r_nero_col"
+     ]
+    },
+    {
+     "t": "The fight on the Carthaginian right",
+     "text": "The battle was fought mainly between Livius and Hasdrubal's Spaniards. The elephants charged at first and threw the Roman front into disorder, then, as the fighting thickened, ran wild between the lines, crushing men on both sides. Livy (27.48) adds that the drivers had a chisel and mallet to kill any beast that turned on its own men by driving the blade into the spine, a method he credits to Hasdrubal. Nero, on the Roman right, could make no headway up the slope against the Gauls.",
+     "pos": {
+      "r_liv": [
+       22,
+       30,
+       0
+      ],
+      "r_por": [
+       46,
+       30,
+       0
+      ],
+      "r_nero": [
+       76,
+       36,
+       0
+      ],
+      "r_nero_col": [
+       76,
+       49,
+       0
+      ],
+      "c_sp": [
+       22,
+       22,
+       0
+      ],
+      "c_lig": [
+       46,
+       22,
+       0
+      ],
+      "c_gauls": [
+       78,
+       14,
+       0
+      ],
+      "c_el": [
+       36,
+       28,
+       30
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        22,
+        34
+       ],
+       "to": [
+        22,
+        31
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        32,
+        25
+       ],
+       "to": [
+        38,
+        29
+       ],
+       "side": 1
+      },
+      {
+       "from": [
+        76,
+        40
+       ],
+       "to": [
+        76,
+        37
+       ],
+       "side": 0
+      }
+     ],
+     "hidden": [
+      "r_nero_col"
+     ]
+    },
+    {
+     "t": "Nero's march",
+     "text": "Seeing that the ground in front of him made attack impossible and that the issue would be decided on the other wing, Nero took some of his cohorts out of the line, marched them behind the whole Roman army and brought them round beyond Livius' left. Polybius and Livy both credit him with the decision.",
+     "pos": {
+      "r_liv": [
+       22,
+       30,
+       0
+      ],
+      "r_por": [
+       46,
+       30,
+       0
+      ],
+      "r_nero": [
+       78,
+       36,
+       0
+      ],
+      "r_nero_col": [
+       40,
+       52,
+       0
+      ],
+      "c_sp": [
+       22,
+       22,
+       0
+      ],
+      "c_lig": [
+       46,
+       22,
+       0
+      ],
+      "c_gauls": [
+       78,
+       14,
+       0
+      ],
+      "c_el": [
+       36,
+       28,
+       30
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        70,
+        48
+       ],
+       "to": [
+        14,
+        52
+       ],
+       "side": 0
+      }
+     ]
+    },
+    {
+     "t": "Flank and rear; Hasdrubal killed",
+     "text": "Nero's men fell on the flank and then the rear of the Spaniards. The Carthaginian army broke. Hasdrubal, Polybius says, rode into the fighting and died sword in hand when he saw all was lost. Polybius gives about 10,000 Carthaginian and Gallic dead and 2,000 Roman; Livy's 56,000 is impossible. Nero marched back to Apulia and had Hasdrubal's head thrown into Hannibal's outposts. Hannibal withdrew into Bruttium and never again threatened central Italy.",
+     "pos": {
+      "r_liv": [
+       22,
+       28,
+       0
+      ],
+      "r_por": [
+       46,
+       30,
+       0
+      ],
+      "r_nero": [
+       78,
+       36,
+       0
+      ],
+      "r_nero_col": [
+       6,
+       20,
+       90
+      ],
+      "c_sp": [
+       20,
+       22,
+       0
+      ],
+      "c_lig": [
+       46,
+       22,
+       0
+      ],
+      "c_gauls": [
+       78,
+       14,
+       0
+      ],
+      "c_el": [
+       44,
+       34,
+       30
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        10,
+        50
+       ],
+       "to": [
+        6,
+        28
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        6,
+        14
+       ],
+       "to": [
+        12,
+        12
+       ],
+       "side": 0
+      }
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "11.1-3"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "27.43-51"
+    },
+    {
+     "a": "Appian",
+     "w": "Hannibalica",
+     "r": "52-53"
+    },
+    {
+     "a": "Zonaras",
+     "w": "Epitome",
+     "r": "9.9"
+    }
+   ],
+   "note": "Reconstruction after Polybius' brief account and Livy's longer one. The battlefield lies somewhere in the lower Metaurus valley near Fossombrone and is not located precisely. Livy's names for the Roman wing commanders are used; the arrangement of the hill and the river is inferred from his description.",
+   "scholarship": [
+    "Lazenby, Hannibal's War (1978)",
+    "Baldwin, 'The Battle of the Metaurus', Military Affairs (various reconstructions)"
+   ]
+  },
+  {
+   "event": "battle_of_zama",
+   "title": "Zama: elephants, lanes and three lines",
+   "terrain": [
+    {
+     "kind": "plain",
+     "pts": [
+      [
+       0,
+       0
+      ],
+      [
+       100,
+       0
+      ],
+      [
+       100,
+       60
+      ],
+      [
+       0,
+       60
+      ]
+     ],
+     "label": "open plain near Naraggara"
+    }
+   ],
+   "north": 0,
+   "scaleNote": "front perhaps 3 km; schematic",
+   "units": [
+    {
+     "id": "r_vel",
+     "side": 0,
+     "label": "Velites in the lanes",
+     "kind": "light",
+     "w": 30,
+     "h": 2
+    },
+    {
+     "id": "r_hast",
+     "side": 0,
+     "label": "Hastati",
+     "kind": "infantry",
+     "w": 30,
+     "h": 3
+    },
+    {
+     "id": "r_princ_l",
+     "side": 0,
+     "label": "Principes",
+     "kind": "infantry",
+     "w": 15,
+     "h": 3
+    },
+    {
+     "id": "r_princ_r",
+     "side": 0,
+     "label": "Principes",
+     "kind": "infantry",
+     "w": 15,
+     "h": 3
+    },
+    {
+     "id": "r_tri_l",
+     "side": 0,
+     "label": "Triarii",
+     "kind": "infantry",
+     "w": 10,
+     "h": 3
+    },
+    {
+     "id": "r_tri_r",
+     "side": 0,
+     "label": "Triarii",
+     "kind": "infantry",
+     "w": 10,
+     "h": 3
+    },
+    {
+     "id": "r_lael",
+     "side": 0,
+     "label": "Laelius: Italian cavalry",
+     "kind": "cavalry",
+     "w": 10,
+     "h": 4
+    },
+    {
+     "id": "r_mas",
+     "side": 0,
+     "label": "Masinissa: Numidian horse and foot",
+     "kind": "cavalry",
+     "w": 12,
+     "h": 5
+    },
+    {
+     "id": "c_el",
+     "side": 1,
+     "label": "Elephants (80)",
+     "kind": "elephants",
+     "w": 40,
+     "h": 3
+    },
+    {
+     "id": "c_l1",
+     "side": 1,
+     "label": "1st line: Ligurians, Celts, Balearics, Moors",
+     "kind": "infantry",
+     "w": 34,
+     "h": 4
+    },
+    {
+     "id": "c_l2",
+     "side": 1,
+     "label": "2nd line: Libyans and Carthaginians",
+     "kind": "infantry",
+     "w": 34,
+     "h": 4
+    },
+    {
+     "id": "c_l3",
+     "side": 1,
+     "label": "3rd line: Hannibal's veterans of Italy",
+     "kind": "infantry",
+     "w": 50,
+     "h": 4
+    },
+    {
+     "id": "c_cav_c",
+     "side": 1,
+     "label": "Carthaginian cavalry",
+     "kind": "cavalry",
+     "w": 10,
+     "h": 4
+    },
+    {
+     "id": "c_cav_n",
+     "side": 1,
+     "label": "Numidian cavalry (Tychaeus)",
+     "kind": "cavalry",
+     "w": 10,
+     "h": 4
+    }
+   ],
+   "phases": [
+    {
+     "t": "Deployment",
+     "text": "Polybius (15.9-11) describes both orders. Scipio set his maniples not in the usual checkerboard but one behind another, leaving open lanes through the army, which he filled with velites who were told to retire down them or to the sides when the elephants came. Laelius had the Italian cavalry on the left, Masinissa his Numidians on the right. Hannibal put more than 80 elephants in front, then a first line of mercenaries (Ligurians, Celts, Balearics, Moors, about 12,000), a second of Libyans and Carthaginian citizens, and, more than a stade behind, his veterans from Italy. Carthaginian cavalry stood on his right, Numidian allies on his left.",
+     "pos": {
+      "r_vel": [
+       50,
+       33,
+       0
+      ],
+      "r_hast": [
+       50,
+       37,
+       0
+      ],
+      "r_princ_l": [
+       42.5,
+       42,
+       0
+      ],
+      "r_princ_r": [
+       57.5,
+       42,
+       0
+      ],
+      "r_tri_l": [
+       45,
+       47,
+       0
+      ],
+      "r_tri_r": [
+       55,
+       47,
+       0
+      ],
+      "r_lael": [
+       12,
+       40,
+       0
+      ],
+      "r_mas": [
+       88,
+       40,
+       0
+      ],
+      "c_el": [
+       50,
+       24,
+       0
+      ],
+      "c_l1": [
+       50,
+       18,
+       0
+      ],
+      "c_l2": [
+       50,
+       12,
+       0
+      ],
+      "c_l3": [
+       50,
+       4,
+       0
+      ],
+      "c_cav_c": [
+       12,
+       18,
+       0
+      ],
+      "c_cav_n": [
+       88,
+       18,
+       0
+      ]
+     }
+    },
+    {
+     "t": "The elephant charge and the cavalry battle",
+     "text": "Roman trumpets and horns blew all at once and some of the elephants panicked and turned back into the Numidian cavalry on Hannibal's left, which Masinissa then routed. The rest charged the velites; many went harmlessly down the lanes and out of the back of the Roman army, others veered off to the right and left under missile fire. Those on the Roman left ran into the Carthaginian cavalry, and Laelius charged and broke it. Both Roman cavalry wings chased their opponents off the field.",
+     "pos": {
+      "r_vel": [
+       50,
+       33,
+       0
+      ],
+      "r_hast": [
+       50,
+       37,
+       0
+      ],
+      "r_princ_l": [
+       42.5,
+       42,
+       0
+      ],
+      "r_princ_r": [
+       57.5,
+       42,
+       0
+      ],
+      "r_tri_l": [
+       45,
+       47,
+       0
+      ],
+      "r_tri_r": [
+       55,
+       47,
+       0
+      ],
+      "r_lael": [
+       10,
+       12,
+       0
+      ],
+      "r_mas": [
+       90,
+       14,
+       0
+      ],
+      "c_el": [
+       50,
+       29,
+       0
+      ],
+      "c_l1": [
+       50,
+       18,
+       0
+      ],
+      "c_l2": [
+       50,
+       12,
+       0
+      ],
+      "c_l3": [
+       50,
+       4,
+       0
+      ],
+      "c_cav_c": [
+       6,
+       6,
+       0
+      ],
+      "c_cav_n": [
+       94,
+       6,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        50,
+        30
+       ],
+       "to": [
+        50,
+        50
+       ],
+       "side": 1
+      },
+      {
+       "from": [
+        40,
+        26
+       ],
+       "to": [
+        16,
+        20
+       ],
+       "side": 1
+      },
+      {
+       "from": [
+        62,
+        26
+       ],
+       "to": [
+        86,
+        20
+       ],
+       "side": 1
+      },
+      {
+       "from": [
+        12,
+        36
+       ],
+       "to": [
+        10,
+        16
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        88,
+        36
+       ],
+       "to": [
+        90,
+        18
+       ],
+       "side": 0
+      }
+     ]
+    },
+    {
+     "t": "The infantry: first and second lines",
+     "text": "The hastati met the mercenaries and, after a hard fight, pushed them back. The Carthaginian second line did not come up to support them, and Polybius says the mercenaries, thinking themselves betrayed, began to fight the Libyans and Carthaginians behind them. The second line in turn was broken, partly by its own men and partly by the hastati, with the principes behind them. Hannibal's veterans levelled their spears to keep the fugitives from breaking into their ranks, and the survivors drifted off to the wings and the open plain.",
+     "pos": {
+      "r_vel": [
+       50,
+       33,
+       0
+      ],
+      "r_hast": [
+       50,
+       25,
+       0
+      ],
+      "r_princ_l": [
+       42.5,
+       30,
+       0
+      ],
+      "r_princ_r": [
+       57.5,
+       30,
+       0
+      ],
+      "r_tri_l": [
+       45,
+       35,
+       0
+      ],
+      "r_tri_r": [
+       55,
+       35,
+       0
+      ],
+      "r_lael": [
+       10,
+       12,
+       0
+      ],
+      "r_mas": [
+       90,
+       14,
+       0
+      ],
+      "c_el": [
+       50,
+       29,
+       0
+      ],
+      "c_l1": [
+       50,
+       21,
+       0
+      ],
+      "c_l2": [
+       50,
+       15,
+       0
+      ],
+      "c_l3": [
+       50,
+       4,
+       0
+      ],
+      "c_cav_c": [
+       6,
+       6,
+       0
+      ],
+      "c_cav_n": [
+       94,
+       6,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        50,
+        36
+       ],
+       "to": [
+        50,
+        27
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        50,
+        19
+       ],
+       "to": [
+        50,
+        17
+       ],
+       "side": 1
+      }
+     ],
+     "hidden": [
+      "c_el",
+      "r_vel",
+      "c_cav_c",
+      "c_cav_n",
+      "r_lael",
+      "r_mas"
+     ]
+    },
+    {
+     "t": "Scipio re-forms the line",
+     "text": "Between the armies lay a space covered with blood, bodies and discarded weapons. Scipio recalled the hastati, had the wounded carried to the rear, and reformed: hastati in the centre, principes and triarii closed up on both wings, so that his line matched the length of Hannibal's veterans. The two lines advanced over the bodies and met. Polybius stresses that this was a fight between equals in numbers, spirit and arms, and long undecided.",
+     "pos": {
+      "r_vel": [
+       50,
+       33,
+       0
+      ],
+      "r_hast": [
+       50,
+       24,
+       0
+      ],
+      "r_princ_l": [
+       27.5,
+       24,
+       0
+      ],
+      "r_princ_r": [
+       72.5,
+       24,
+       0
+      ],
+      "r_tri_l": [
+       15,
+       24,
+       0
+      ],
+      "r_tri_r": [
+       85,
+       24,
+       0
+      ],
+      "r_lael": [
+       10,
+       12,
+       0
+      ],
+      "r_mas": [
+       90,
+       14,
+       0
+      ],
+      "c_el": [
+       50,
+       29,
+       0
+      ],
+      "c_l1": [
+       50,
+       21,
+       0
+      ],
+      "c_l2": [
+       50,
+       15,
+       0
+      ],
+      "c_l3": [
+       50,
+       19,
+       0
+      ],
+      "c_cav_c": [
+       6,
+       6,
+       0
+      ],
+      "c_cav_n": [
+       94,
+       6,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        30,
+        30
+       ],
+       "to": [
+        27,
+        26
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        70,
+        30
+       ],
+       "to": [
+        73,
+        26
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        50,
+        6
+       ],
+       "to": [
+        50,
+        17
+       ],
+       "side": 1
+      }
+     ],
+     "hidden": [
+      "c_el",
+      "r_vel",
+      "c_cav_c",
+      "c_cav_n",
+      "r_lael",
+      "r_mas",
+      "c_l1",
+      "c_l2"
+     ]
+    },
+    {
+     "t": "The cavalry returns",
+     "text": "The deadlock ended when Laelius and Masinissa returned from the pursuit 'as if by divine providence' (Polybius 15.14) and charged Hannibal's veterans in the rear. Most were cut down in their ranks. Polybius gives Carthaginian losses of more than 20,000 killed and almost as many captured, and Roman losses of about 1,500. Hannibal escaped to Hadrumetum and advised the Carthaginian senate to accept Scipio's terms: surrender of the fleet but ten ships, an indemnity of 10,000 talents over 50 years, and no war without Rome's permission.",
+     "pos": {
+      "r_vel": [
+       50,
+       33,
+       0
+      ],
+      "r_hast": [
+       50,
+       24,
+       0
+      ],
+      "r_princ_l": [
+       27.5,
+       24,
+       0
+      ],
+      "r_princ_r": [
+       72.5,
+       24,
+       0
+      ],
+      "r_tri_l": [
+       15,
+       24,
+       0
+      ],
+      "r_tri_r": [
+       85,
+       24,
+       0
+      ],
+      "r_lael": [
+       30,
+       10,
+       0
+      ],
+      "r_mas": [
+       70,
+       10,
+       0
+      ],
+      "c_el": [
+       50,
+       29,
+       0
+      ],
+      "c_l1": [
+       50,
+       21,
+       0
+      ],
+      "c_l2": [
+       50,
+       15,
+       0
+      ],
+      "c_l3": [
+       50,
+       19,
+       0
+      ],
+      "c_cav_c": [
+       6,
+       6,
+       0
+      ],
+      "c_cav_n": [
+       94,
+       6,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        8,
+        6
+       ],
+       "to": [
+        28,
+        10
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        92,
+        6
+       ],
+       "to": [
+        72,
+        10
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        30,
+        12
+       ],
+       "to": [
+        34,
+        17
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        70,
+        12
+       ],
+       "to": [
+        66,
+        17
+       ],
+       "side": 0
+      }
+     ],
+     "hidden": [
+      "c_el",
+      "r_vel",
+      "c_cav_c",
+      "c_cav_n",
+      "c_l1",
+      "c_l2"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "15.9-16"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "30.29-35"
+    },
+    {
+     "a": "Appian",
+     "w": "Libyca",
+     "r": "40-47"
+    }
+   ],
+   "note": "Reconstruction after Polybius 15.9-16, who knew Laelius and Masinissa. The site of the battle (Polybius' Margaron, Livy's Naraggara, the Zama of later tradition) is not identified on the ground. Appian's version, with single combats between the generals, is rejected by most scholars. Line frontages are schematic and the Roman lanes are not drawn individually.",
+   "scholarship": [
+    "Walbank, A Historical Commentary on Polybius II (1967)",
+    "Scullard, Scipio Africanus: Soldier and Politician (1970)",
+    "Lazenby, Hannibal's War (1978)"
+   ]
+  }
+ ]
+}
