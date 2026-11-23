@@ -170,7 +170,7 @@ def build_regions(simplify='12%'):
     tmp = os.path.join(SRC, 'regions_raw.geojson')
     json.dump({'type': 'FeatureCollection', 'features': feats}, open(tmp, 'w'))
     subprocess.run(['mapshaper', tmp, '-simplify', simplify, 'keep-shapes', 'planar',
-                    '-filter-slivers', 'min-area=20km2', '-o', 'precision=0.001', 'format=geojson',
+                    '-filter-slivers', 'min-area=3km2', '-o', 'precision=0.001', 'format=geojson',
                     os.path.join(OUT, 'regions.json')], check=True)
     # label points (pole of inaccessibility approximation via representative point)
     lab = []

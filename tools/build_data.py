@@ -38,6 +38,13 @@ OVERRIDE = {
     'lombards': '#6E8A5A', 'rashidun': '#2E7D4F', 'odoacer_kingdom': '#8A9050', 'samnites': '#8F7A3A', 'latin_league': '#B59B5F',
     'pontus': '#5E7FA0', 'armenia': '#7C6EA0', 'numidia': '#B07A45', 'mauretania': '#A88452', 'aksum': '#9A6A4A', 'himyar': '#A88A5A',
     'slavs': '#8C8FB5', 'bulgars': '#A08F5E', 'dacia_kingdom': '#A3765C', 'kushan': '#A06A5A', 'hephthalites': '#9F8A60',
+    'pergamon': '#6FA083', 'bithynia': '#B0896A', 'cappadocia': '#B5785A', 'commagene': '#A07C9C', 'galatia': '#8FA75A',
+    'aetolian_league': '#7FA7C9', 'achaean_league': '#6C93BE', 'athens': '#8DB0D0', 'sparta': '#5F7FA8', 'rhodes': '#5FA3B0',
+    'epirus': '#9A8FC0', 'nabataea': '#C58F5A', 'hasmonean': '#9B7E3A', 'judaea_herodian': '#A88A4E', 'osroene': '#B0905C',
+    'syracuse': '#4F86B8', 'tarentum': '#6A9BC6', 'italiote_league': '#7FA7C9', 'etruscans': '#9C6B3E', 'veii': '#A9764A',
+    'volsci': '#8A9A55', 'aequi': '#9BA066', 'sabines': '#B09060', 'umbrians': '#A38C5A', 'campanians': '#C4A060',
+    'lucanians': '#9E7F55', 'bruttii': '#8C6D4A', 'senones': '#7E9A45', 'boii': '#6E8E40', 'insubres': '#86A24E',
+    'iberia_kartli': '#7E8FB0', 'bosporan_kingdom': '#5E8FAF', 'sarmatians': '#B3A05E', 'scythians': '#C1A86A',
 }
 
 
@@ -48,8 +55,8 @@ def color_for(p):
     r, g, b = (int(base[i:i + 2], 16) / 255 for i in (1, 3, 5))
     h, l, s = colorsys.rgb_to_hls(r, g, b)
     hv = int(hashlib.md5(p['id'].encode()).hexdigest()[:4], 16) / 65535
-    l = min(0.78, max(0.25, l + (hv - 0.5) * 0.22))
-    h = (h + (hv - 0.5) * 0.06) % 1
+    l = min(0.72, max(0.32, l + (hv - 0.5) * 0.2))
+    h = (h + (hv - 0.5) * 0.16) % 1
     r, g, b = colorsys.hls_to_rgb(h, l, s)
     return '#%02X%02X%02X' % (round(r * 255), round(g * 255), round(b * 255))
 
@@ -136,7 +143,7 @@ def main():
 
     # ---- regions
     geo = json.load(open(os.path.join(DATA, 'geo', 'regions.json')))
-    area = {f['properties']['id']: f['properties']['area'] for f in geo['features']}
+    area = {f['properties']['id']: f['properties']['area'] for f in geo['features'] if f.get('geometry')}
     regs = dedupe([r for r in C['regions'] if not r.get('id', '').startswith('t_')], 'region')
     pidx = None
     out_regions = []
@@ -333,7 +340,12 @@ def main():
 
 
 def build_edges():
-    geo = json.load(open(os.path.join(DATA, 'geo', 'regions.json')))
+    path = os.path.join(DATA, 'geo', 'regions.json')
+    geo = json.load(open(path))
+    n0 = len(geo['features'])
+    geo['features'] = [f for f in geo['features'] if f.get('geometry')]
+    if len(geo['features']) != n0:
+        json.dump(geo, open(path, 'w'), separators=(',', ':'))
     feats = [(f['properties']['rid'], shape(f['geometry']).buffer(0)) for f in geo['features']]
     geoms = [g for _, g in feats]
     tree = STRtree(geoms)

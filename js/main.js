@@ -24,6 +24,7 @@ async function boot() {
   $('bootMsg').textContent = 'Drawing the provinces';
   await initMap(() => {
     $('app').classList.remove('loading');
+    window.orbis = { map, D, S, setYear, select };
     if (h.selected) select(h.selected.kind, h.selected.id);
     if (!localStorage.getItem('orbis.seenGuide')) openGuide();
   });
@@ -62,7 +63,8 @@ function shortName(n) {
 // ---------------- legend
 let legendMin = false;
 function renderLegend({ groups }) {
-  const top = [...groups.values()].filter((g) => g.area > 0).sort((a, b) => b.area - a.area).slice(0, 7);
+  const weight = (g) => g.area * (['rome', 'rome_west', 'rome_east'].includes(g.pol.id) ? 100 : ['empire', 'kingdom', 'republic', 'league', 'city_state', 'client_kingdom', 'breakaway'].includes(g.pol.type) ? 1 : 0.08);
+  const top = [...groups.values()].filter((g) => g.area > 0).sort((a, b) => weight(b) - weight(a)).slice(0, 7);
   const pat = (bg, img) => `<span class="lg-pat" style="background:${bg}${img ? `;background-image:${img}` : ''}"></span>`;
   const hatch = 'repeating-linear-gradient(-45deg, rgba(255,255,255,.75) 0 1.5px, transparent 1.5px 5px)';
   const dots = 'radial-gradient(rgba(255,255,255,.85) 1.2px, transparent 1.4px)';
