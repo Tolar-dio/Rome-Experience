@@ -1,214 +1,2464 @@
-{"events":[
-{"id":"outbreak_of_persian_war_603","year":603,"title":"Khosrow II declares war to avenge Maurice","type":"political","cats":["military","diplomatic"],"importance":5,
-"summary":"Khosrow II, who owed his throne to Maurice, imprisoned Phocas's envoy and declared war in 603, sponsoring a pretender claiming to be Maurice's son Theodosius. Narses, magister militum of the East, rebelled against Phocas at Edessa and called in the Persians; he was later lured to Constantinople and burned alive. The last and greatest war of antiquity had begun.",
-"detail":"Over 26 years the war would bring Persian armies to the Bosporus and the Nile, cost the empire Syria, Palestine and Egypt for a decade, and end with Heraclius in the Mesopotamian heartland of Persia. Both empires emerged exhausted on the eve of the Arab conquests. Our main sources are Theophanes (drawing on a lost eastern chronicle and George of Pisidia), the Chronicon Paschale, Sebeos's Armenian History and the Chronicle of 724; Howard-Johnston has reconstructed its chronology.",
-"loc":[38.79,37.15],"locName":"Edessa and the Mesopotamian frontier","locCertainty":"approx","war":"roman_sasanian_war_602","people":["khosrow_ii","phocas","maurice"],"polities":["sasanian","rome_east"],
-"sources":[{"a":"Theophanes","w":"Chronicle","r":"AM 6095-6096"},{"a":"Sebeos","w":"History","r":"106-107"},{"a":"Theophylact Simocatta","w":"History","r":"8.15"}],
-"scholarship":["Howard-Johnston, Witnesses to a World Crisis (2010)","Howard-Johnston, The Last Great War of Antiquity (2021)","Greatrex & Lieu, The Roman Eastern Frontier and the Persian Wars, Part II (2002)"],"certainty":"certain","tags":["pseudo-Theodosius","Narses the general"]},
-{"id":"siege_of_dara_604","year":604,"title":"Persians take Dara","type":"siege","cats":["military"],"importance":3,
-"summary":"Khosrow II besieged Dara in person from 603; after about nine months his engineers undermined the walls and the city fell in 604 (or 605). The fall of the frontier citadel opened Roman Mesopotamia: Mardin, Amida, Resaina, Edessa and Theodosiopolis fell over the next six years.",
-"loc":[40.948,37.177],"locName":"Dara","locCertainty":"certain","war":"roman_sasanian_war_602","people":["khosrow_ii","phocas"],"polities":["sasanian","rome_east"],
-"battle":{"sides":[{"polity":"rome_east","commanders":[],"strength":"garrison","losses":"city taken"},{"polity":"sasanian","commanders":["khosrow_ii"],"strength":"Persian royal army","losses":"unknown"}],"victor":"sasanian","kind":"siege","significance":"Broke the Mesopotamian frontier for the rest of the war."},
-"sources":[{"a":"Sebeos","w":"History","r":"107-108"},{"a":"Chronicle of 1234","w":"Chronicon ad annum 1234","r":"s.a. 914 Sel."}],"debate":"Date 604 or 605.","certainty":"probable","tags":["mining"]},
-{"id":"column_of_phocas_608","year":608,"month":8,"day":1,"title":"Column of Phocas in the Roman Forum","type":"building","cats":["cultural","political"],"importance":2,
-"summary":"On 1 August 608 the exarch Smaragdus re-dedicated an older honorific column in the Forum Romanum, topping it with a gilded statue of Phocas and an inscription praising his benefactions to Italy. It was the last monument added to the Forum. In 609 Phocas also allowed Pope Boniface IV to consecrate the Pantheon as the church of Santa Maria ad Martyres (13 May 609).",
-"loc":[12.4848,41.8925],"locName":"Forum Romanum, Rome","locCertainty":"certain","people":["phocas","gregory_the_great"],"polities":["rome_east"],
-"sources":[{"a":"Inscriptions","w":"CIL VI 1200"},{"a":"Liber Pontificalis","w":"Liber Pontificalis","r":"68-69 (Boniface III, Boniface IV)"}],"certainty":"certain","tags":["Smaragdus","Pantheon"]},
-{"id":"heraclian_revolt_608","year":608,"endYear":610,"title":"Heraclian revolt in Africa","type":"revolt","cats":["military","political"],"importance":4,
-"summary":"Heraclius the Elder, exarch of Africa, and his brother Gregory rebelled against Phocas in 608, cutting the grain from Africa and striking coins showing father and son as consuls. Gregory's son Nicetas marched overland to Egypt, defeating Phocas's general Bonosus at Alexandria in 609-610, while the younger Heraclius sailed with a fleet via Sicily and Thessalonica.",
-"loc":[10.323,36.853],"locName":"Carthage","locCertainty":"certain","war":"heraclian_revolt","people":["heraclius","phocas"],"polities":["rome_east"],
-"sources":[{"a":"John of Nikiu","w":"Chronicle","r":"105-109"},{"a":"Theophanes","w":"Chronicle","r":"AM 6100-6102"},{"a":"Chronicon Paschale","w":"Chronicon Paschale","r":"s.a. 609-610"}],
-"scholarship":["Kaegi, Heraclius: Emperor of Byzantium (2003)","Olster, The Politics of Usurpation in the Seventh Century (1993)"],"certainty":"certain","tags":["consular coinage","Nicetas","Bonosus"]},
-{"id":"accession_of_heraclius_610","year":610,"month":10,"day":5,"title":"Fall of Phocas; Heraclius crowned","type":"accession","cats":["political"],"importance":5,
-"summary":"Heraclius's fleet reached Constantinople on 3 October 610; the Greens and the excubitors under Phocas's son-in-law Priscus deserted Phocas, who was dragged before Heraclius. 'Is this how you have governed the empire?' 'Will you govern it better?' Phocas was beheaded and mutilated. Heraclius was crowned by Patriarch Sergius on 5 October and married Fabia-Eudocia the same day.",
-"loc":[28.98,41.01],"locName":"Constantinople","locCertainty":"certain","war":"heraclian_revolt","people":["heraclius","phocas","sergius_of_constantinople","priscus_general"],"polities":["rome_east"],
-"sources":[{"a":"Chronicon Paschale","w":"Chronicon Paschale","r":"s.a. 610"},{"a":"John of Antioch","w":"History","r":"fr. 321 (Mariev)"},{"a":"Nikephoros","w":"Short History","r":"1"}],"certainty":"certain","tags":["Fabia-Eudocia"]},
-{"id":"battle_of_antioch_613","year":613,"title":"Battle of Antioch","type":"battle","cats":["military"],"importance":4,
-"summary":"Heraclius, his brother Theodore and cousin Nicetas tried to stop the Persian advance near Antioch in 613. After initial success they were beaten by Shahrbaraz and Shahin. Antioch, Damascus and Tarsus fell; Roman territory was cut in two, Syria and Palestine severed from Anatolia.",
-"loc":[36.16,36.20],"locName":"Antioch","locCertainty":"certain","war":"roman_sasanian_war_602","people":["heraclius","theodore_brother_of_heraclius","shahrbaraz","shahin"],"polities":["rome_east","sasanian"],
-"battle":{"sides":[{"polity":"rome_east","commanders":["heraclius","theodore_brother_of_heraclius"],"strength":"main Roman field army","losses":"heavy"},{"polity":"sasanian","commanders":["shahrbaraz","shahin"],"strength":"Persian field armies","losses":"unknown"}],"victor":"sasanian","kind":"field","significance":"The decisive Roman defeat of the war's first phase; it opened Palestine and Egypt to the Persians."},
-"sources":[{"a":"Sebeos","w":"History","r":"114-115"},{"a":"Theophanes","w":"Chronicle","r":"AM 6104"}],"certainty":"certain","tags":[]},
-{"id":"siege_of_jerusalem_614","year":614,"month":5,"title":"Persian capture of Jerusalem","type":"siege","cats":["military","religious"],"importance":5,
-"summary":"After the city first submitted and then revolted, killing the Persian garrison, Shahrbaraz besieged Jerusalem for about three weeks and stormed it in May 614. Churches including the Holy Sepulchre were burned, thousands killed, and Patriarch Zacharias and the relic of the True Cross were carried off to Ctesiphon. The monk Antiochus Strategos's account lists bodies counted in the city.",
-"detail":"Antiochus's figures (over 60,000 dead in some versions, 4,518 in one location) are hagiographic. Jewish involvement, under a leader sometimes called Nehemiah ben Hushiel, is attested in Christian sources that are hostile and polemical; Persian policy initially favoured the Jews, then swung back to the Christian majority. Archaeology shows less destruction than the texts suggest. The loss of the Cross gave the later war a crusading tone in Heraclius's propaganda.",
-"loc":[35.2316,31.7767],"locName":"Jerusalem","locCertainty":"certain","war":"roman_sasanian_war_602","campaign":"shahrbaraz_613","people":["shahrbaraz","khosrow_ii","heraclius"],"polities":["sasanian","rome_east"],
-"battle":{"sides":[{"polity":"rome_east","commanders":[],"strength":"citizens and local garrison","losses":"thousands killed and deported"},{"polity":"sasanian","commanders":["shahrbaraz"],"strength":"Persian army with local Jewish auxiliaries","losses":"unknown"}],"victor":"sasanian","kind":"siege","significance":"A religious catastrophe for the Christian empire; the True Cross became the symbol of Heraclius's war of revenge."},
-"sources":[{"a":"Antiochus Strategos","w":"The Capture of Jerusalem by the Persians"},{"a":"Sebeos","w":"History","r":"115-116"},{"a":"Chronicon Paschale","w":"Chronicon Paschale","r":"s.a. 614"}],
-"scholarship":["Avni, 'The Persian conquest of Jerusalem (614 CE): an archaeological assessment', BASOR 357 (2010)","Howard-Johnston, Witnesses to a World Crisis (2010)"],"certainty":"certain","tags":["True Cross","Zacharias","Antiochus Strategos"]},
-{"id":"persians_at_chalcedon_615","year":615,"title":"Persian army at Chalcedon; embassy to Khosrow","type":"diplomacy","cats":["diplomatic","military"],"importance":3,
-"summary":"Shahin's army marched across Anatolia to Chalcedon, opposite Constantinople, in 615. Heraclius parleyed with him and the Senate sent a letter (preserved in the Chronicon Paschale) asking Khosrow to accept Heraclius as his 'son'. Khosrow imprisoned the envoys. Heraclius's desperate measures followed: a silver coin made from church plate and cuts in official pay.",
-"loc":[29.026,40.991],"locName":"Chalcedon","locCertainty":"certain","war":"roman_sasanian_war_602","people":["shahin","heraclius","khosrow_ii"],"polities":["sasanian","rome_east"],
-"sources":[{"a":"Chronicon Paschale","w":"Chronicon Paschale","r":"s.a. 615"},{"a":"Sebeos","w":"History","r":"122-123"}],"certainty":"certain","tags":["Senate letter"]},
-{"id":"hexagram_615","year":615,"title":"Heraclius introduces the silver hexagram","type":"economic","cats":["economic","religious"],"importance":2,
-"summary":"To pay troops amid the collapse of revenue, Heraclius struck a heavy silver coin, the hexagram (6 grammata, about 6.5 g), from 615, bearing the legend Deus adiuta Romanis ('God help the Romans'). Official salaries were halved in 616, and in 622 church plate was melted down with Patriarch Sergius's consent.",
-"loc":[28.98,41.01],"locName":"Constantinople mint","locCertainty":"certain","war":"roman_sasanian_war_602","people":["heraclius","sergius_of_constantinople"],"polities":["rome_east"],
-"sources":[{"a":"Chronicon Paschale","w":"Chronicon Paschale","r":"s.a. 615-616"},{"a":"Theophanes","w":"Chronicle","r":"AM 6113"}],"scholarship":["Hendy, Studies in the Byzantine Monetary Economy (1985)"],"certainty":"certain","tags":["Deus adiuta Romanis"]},
-{"id":"end_of_grain_dole_618","year":618,"title":"End of the free bread distribution in Constantinople","type":"economic","cats":["economic","social"],"importance":3,
-"summary":"With Egypt about to fall, the free bread ration of Constantinople, instituted by Constantine in 332 on the model of Rome's annona, was first made chargeable at 3 nomismata per ration and then abolished altogether in 618. The capital's population, perhaps 400,000-500,000 under Justinian, shrank drastically in the following decades.",
-"loc":[28.98,41.01],"locName":"Constantinople","locCertainty":"certain","war":"roman_sasanian_war_602","people":["heraclius"],"polities":["rome_east"],
-"sources":[{"a":"Chronicon Paschale","w":"Chronicon Paschale","r":"s.a. 618"}],"scholarship":["Haldon, Byzantium in the Seventh Century (1990)"],"certainty":"certain","tags":["annona civica"]},
-{"id":"persian_conquest_of_egypt_619","year":619,"title":"Persian conquest of Egypt and fall of Alexandria","type":"siege","cats":["military","economic"],"importance":5,
-"summary":"Shahrbaraz invaded Egypt in 618 and took Alexandria in 619 after a siege; the city reportedly fell when a defector showed the Persians a way in through a canal or gate during the night, or with the help of a student from Afghanistan in the Enaton monasteries, as later sources say. Egypt, the empire's granary and richest province, remained under Persian rule for a decade.",
-"loc":[29.92,31.20],"locName":"Alexandria","locCertainty":"certain","war":"roman_sasanian_war_602","campaign":"shahrbaraz_613","people":["shahrbaraz","khosrow_ii","heraclius"],"polities":["sasanian","rome_east"],
-"battle":{"sides":[{"polity":"rome_east","commanders":[],"strength":"garrison under Nicetas, who escaped to Cyprus","losses":"city taken"},{"polity":"sasanian","commanders":["shahrbaraz"],"strength":"Persian army","losses":"unknown"}],"victor":"sasanian","kind":"siege","significance":"Deprived Constantinople of Egyptian grain and tax; the Sasanian empire briefly reached its greatest extent, recreating the Achaemenid western border."},
-"sources":[{"a":"History of the Patriarchs of Alexandria","w":"History of the Patriarchs","r":"Andronicus"},{"a":"Chronicle of Khuzistan","w":"Chronicle of Khuzistan"},{"a":"Papyri","w":"Pahlavi papyri from Egypt"}],
-"debate":"Narrative sources are late and contradictory; papyri in Middle Persian and Greek show the Persian administration at work in Egypt.","scholarship":["Sänger, 'The administration of Sasanian Egypt', GRBS 51 (2011)","Altheim-Stiehl, 'The Sasanians in Egypt', Bulletin de la Société d'archéologie copte 31 (1992)"],"certainty":"certain","tags":["Enaton"]},
-{"id":"avar_surprise_623","year":623,"month":6,"day":5,"title":"The 'Avar surprise' at Heraclea","type":"battle","cats":["military","diplomatic"],"importance":3,
-"summary":"Heraclius rode to Heraclea (Perinthus) on 5 June 623 to meet the Avar khagan for a peace ceremony with chariot races; the khagan had hidden troops to seize him. Heraclius escaped to Constantinople, reportedly carrying his crown under his arm, while the Avars plundered the suburbs, carrying off the regalia, the court's silver and, Nikephoros says, 270,000 captives. Peace was bought for 200,000 nomismata a year.",
-"loc":[27.96,40.97],"locName":"Heraclea Perinthus and the suburbs of Constantinople","locCertainty":"probable","war":"roman_sasanian_war_602","people":["heraclius"],"polities":["avars","rome_east"],
-"battle":{"sides":[{"polity":"rome_east","commanders":["heraclius"],"strength":"imperial escort","losses":"heavy civilian losses and captives"},{"polity":"avars","commanders":[],"strength":"Avar army","losses":"none recorded"}],"victor":"avars","kind":"ambush","significance":"Showed the khagan's willingness to strike at Constantinople, a prelude to the joint siege of 626."},
-"sources":[{"a":"Chronicon Paschale","w":"Chronicon Paschale","r":"s.a. 623"},{"a":"Nikephoros","w":"Short History","r":"10"},{"a":"Theophanes","w":"Chronicle","r":"AM 6110"}],
-"debate":"Date disputed: 617 (Theophanes, Nikephoros) or 623 (Chronicon Paschale); Howard-Johnston and Whitby favour 623. The captives figure is surely inflated.","certainty":"probable","tags":["Heraclea"]},
-{"id":"heraclius_campaign_622","year":622,"month":4,"day":5,"title":"Heraclius takes the field against Persia","type":"campaign","cats":["military","religious"],"importance":4,
-"summary":"After Easter, on 5 April 622, Heraclius left Constantinople carrying an icon of Christ 'not made by human hands', trained his army through the summer in Bithynia and Pontus, and in the autumn outmanoeuvred and defeated Shahrbaraz in the highlands of Cappadocia or Armenia. It was the first emperor-led campaign since Theodosius I.",
-"loc":[36.0,39.5],"locName":"Pontus and Cappadocia","locCertainty":"approx","war":"roman_sasanian_war_602","campaign":"heraclius_622_628","people":["heraclius","shahrbaraz","george_of_pisidia","sergius_of_constantinople"],"polities":["rome_east","sasanian"],
-"sources":[{"a":"George of Pisidia","w":"Expeditio Persica"},{"a":"Theophanes","w":"Chronicle","r":"AM 6113"}],"debate":"The location and scale of the 622 victory are unclear; George of Pisidia's poem is panegyric, and Theophanes depends on it.","certainty":"probable","tags":["acheiropoietos"]},
-{"id":"destruction_of_adur_gushnasp_624","year":624,"title":"Heraclius destroys the fire temple of Adur Gushnasp","type":"campaign","cats":["military","religious"],"importance":4,
-"summary":"Leaving on 25 March 624, Heraclius marched through Armenia via Dvin and Nakhchivan to Atropatene. Khosrow II fled from Ganzak; Heraclius sacked the city and destroyed the great fire temple of Adur Gushnasp at Thebarmais (Takht-i Suleiman), one of the three holiest fires of Zoroastrianism, in revenge for Jerusalem. He wintered in Caucasian Albania.",
-"loc":[47.235,36.604],"locName":"Thebarmais (Takht-i Suleiman), Atropatene","locCertainty":"probable","war":"roman_sasanian_war_602","campaign":"heraclius_622_628","people":["heraclius","khosrow_ii"],"polities":["rome_east","sasanian","caucasian_albania"],
-"sources":[{"a":"Theophanes","w":"Chronicle","r":"AM 6114"},{"a":"Sebeos","w":"History","r":"124"},{"a":"Movses Daskhurantsi","w":"History of the Caucasian Albanians","r":"2.10"}],"scholarship":["Kaegi, Heraclius (2003)"],"debate":"Identification of Thebarmais with Takht-i Suleiman is generally accepted; excavations show the sanctuary was rebuilt.","certainty":"probable","tags":["Adur Gushnasp","Ganzak"]},
-{"id":"battle_of_the_sarus_625","year":625,"title":"Battle of the Sarus","type":"battle","cats":["military"],"importance":3,
-"summary":"Returning west through Armenia after a season of manoeuvre against three Persian armies, Heraclius met Shahrbaraz across the Sarus river in Cilicia in late 625. When Roman troops crossing the bridge were cut up, Heraclius himself fought on the bridge and killed a giant Persian, throwing him into the river; Shahrbaraz is said to have admired him openly. The Persians withdrew.",
-"loc":[35.32,37.0],"locName":"River Sarus (Seyhan), near Adana","locCertainty":"approx","war":"roman_sasanian_war_602","campaign":"heraclius_622_628","people":["heraclius","shahrbaraz"],"polities":["rome_east","sasanian"],
-"battle":{"sides":[{"polity":"rome_east","commanders":["heraclius"],"strength":"Heraclius's expeditionary army","losses":"significant in the first clash"},{"polity":"sasanian","commanders":["shahrbaraz"],"strength":"Shahrbaraz's army","losses":"unknown"}],"victor":"indecisive","kind":"field","significance":"Shahrbaraz then marched to Chalcedon to join the Avars for the siege of 626."},
-"sources":[{"a":"Theophanes","w":"Chronicle","r":"AM 6115"}],"certainty":"probable","tags":["single combat"]},
-{"id":"siege_of_constantinople_626","year":626,"month":7,"day":29,"title":"Avar-Persian siege of Constantinople","type":"siege","cats":["military","religious"],"importance":5,
-"summary":"From 29 July to 7 August 626 the Avar khagan, with perhaps 80,000 Avars, Slavs, Bulgars and Gepids and siege towers, attacked the Theodosian Walls while Shahrbaraz's army watched from Chalcedon, unable to cross. Heraclius stayed in the East, having sent troops home; the defence was led by the magister Bonus and Patriarch Sergius, who carried icons of the Virgin around the walls. On 7 August the Roman fleet destroyed the Slav monoxyla attempting to ferry Persians and attack the sea walls in the Golden Horn; the khagan burned his engines and withdrew.",
-"detail":"The victory was credited to the Virgin of Blachernae, whose church lay just outside the walls near the Golden Horn and survived. The Akathist hymn was later associated with the deliverance, and Theodore Syncellus's homily and George of Pisidia's Bellum Avaricum celebrate it. Meanwhile Heraclius's brother Theodore defeated Shahin in Mesopotamia or Armenia. The khagan's failure began the decline of Avar hegemony over the Slavs, with the revolt of Samo's Slavs and the rise of Kubrat's Bulgars.",
-"loc":[28.94,41.04],"locName":"Constantinople (Theodosian Walls and Golden Horn)","locCertainty":"certain","war":"roman_sasanian_war_602",
-"people":["sergius_of_constantinople","shahrbaraz","heraclius","george_of_pisidia","theodore_brother_of_heraclius","shahin"],"polities":["rome_east","avars","slavs","sasanian","bulgars"],
-"battle":{"sides":[{"polity":"rome_east","commanders":["sergius_of_constantinople"],"strength":"12,000 cavalry sent by Heraclius plus citizens and fleet; commander the magister Bonus","losses":"light"},{"polity":"avars","commanders":[],"strength":"80,000 (Chronicon Paschale) Avars, Slavs, Bulgars and Gepids; Persian army of Shahrbaraz at Chalcedon","losses":"heavy, especially among Slavs in the Golden Horn"}],"victor":"rome_east","kind":"siege","significance":"The turning point of the war: the capital survived, the Avar-Persian coalition collapsed, and Heraclius was free to strike Persia's heart."},
-"sources":[{"a":"Chronicon Paschale","w":"Chronicon Paschale","r":"s.a. 626"},{"a":"Theodore Syncellus","w":"Homily on the Siege of Constantinople"},{"a":"George of Pisidia","w":"Bellum Avaricum"},{"a":"Nikephoros","w":"Short History","r":"13"}],
-"scholarship":["Howard-Johnston, 'The siege of Constantinople in 626', in Mango & Dagron (eds.), Constantinople and its Hinterland (1995)","Pohl, The Avars (2018)"],"certainty":"certain","tags":["Bonus","Blachernae","monoxyla","Akathist"]},
-{"id":"siege_of_tbilisi_627","year":627,"title":"Siege of Tbilisi with the Western Turks","type":"siege","cats":["military","diplomatic"],"importance":3,
-"summary":"Heraclius allied with the Western Turkic Khaganate, whose forces under Böri Shad (a relative of the yabghu Tong) broke through the Caspian Gates at Derbent in 626 and joined Heraclius before Tbilisi in 627. Heraclius met the Turkic leader (Ziebel in Theophanes), placed his own crown on his head and promised his daughter Eudocia in marriage. The defenders mocked the Turks; the siege failed and the Turks withdrew for the winter, but left 40,000 men with Heraclius.",
-"loc":[44.79,41.69],"locName":"Tiflis (Tbilisi), Iberia","locCertainty":"certain","war":"roman_sasanian_war_602","campaign":"heraclius_622_628","people":["heraclius"],"polities":["rome_east","western_turks","sasanian","iberia_kartli"],
-"battle":{"sides":[{"polity":"rome_east","commanders":["heraclius"],"strength":"Roman army with Turkic allies","losses":"unknown"},{"polity":"sasanian","commanders":[],"strength":"Persian and Iberian garrison","losses":"unknown"}],"victor":"sasanian","kind":"siege","significance":"The siege failed, but the Turkic alliance gave Heraclius the manpower for his winter invasion of Mesopotamia."},
-"sources":[{"a":"Theophanes","w":"Chronicle","r":"AM 6117"},{"a":"Movses Daskhurantsi","w":"History of the Caucasian Albanians","r":"2.11-2.14"},{"a":"Nikephoros","w":"Short History","r":"12"}],"debate":"The identity of Ziebel (Tong Yabghu or a Khazar/Turkic subordinate) is debated.","certainty":"probable","tags":["Ziebel","Böri Shad","Derbent"]},
-{"id":"battle_of_nineveh","year":627,"month":12,"day":12,"title":"Battle of Nineveh","type":"battle","cats":["military"],"importance":5,
-"summary":"Heraclius invaded Assyria in autumn 627 and on 12 December 627 fought the Persian army of Rhahzadh near the ruins of Nineveh. In an eleven-hour battle in fog, Heraclius, on his horse Dorkon, is said to have killed Rhahzadh in single combat and two other champions; the Persian army was destroyed, losing 6,000 men and 28 standards (Theophanes). Heraclius then marched on Khosrow's palace at Dastagird.",
-"detail":"The battle broke Khosrow II's last field army. Heraclius plundered Dastagird in January 628, recovering 300 Roman standards taken over the war, but did not attack Ctesiphon, protected by its canals. On 23-25 February 628 Persian nobles, including Shahrbaraz's faction and the general Gurdanaspa, deposed Khosrow in favour of his son Kavad II Shiroe; Khosrow was executed days later. The Persian collapse into civil war was almost as fatal to the Sasanian empire as the Roman victory.",
-"loc":[43.15,36.36],"locName":"Near Nineveh, on the Tigris","locCertainty":"probable","war":"roman_sasanian_war_602","campaign":"heraclius_622_628","people":["heraclius","khosrow_ii"],"polities":["rome_east","sasanian","western_turks"],
-"battle":{"sides":[{"polity":"rome_east","commanders":["heraclius"],"strength":"perhaps 25,000-50,000 (modern estimates)","losses":"c. 50 killed (Theophanes, implausibly low)"},{"polity":"sasanian","commanders":[],"strength":"c. 12,000 under Rhahzadh","losses":"6,000 and commander killed; 28 standards taken"}],"victor":"rome_east","kind":"field","significance":"The decisive battle of the last Roman-Persian war; within weeks Khosrow II was overthrown and Persia sued for peace."},
-"sources":[{"a":"Theophanes","w":"Chronicle","r":"AM 6118"},{"a":"Chronicon Paschale","w":"Chronicon Paschale","r":"s.a. 628 (Heraclius's dispatch)"},{"a":"Sebeos","w":"History","r":"126"}],
-"scholarship":["Kaegi, Heraclius (2003)","Howard-Johnston, Witnesses to a World Crisis (2010)"],"certainty":"certain","tags":["Rhahzadh","Dorkon","Dastagird"]},
-{"id":"fall_of_khosrow_ii_628","year":628,"month":2,"day":25,"title":"Overthrow of Khosrow II and peace with Persia","type":"treaty","cats":["political","diplomatic"],"importance":4,
-"summary":"Khosrow II was deposed on 25 February 628 (date per Chronicon Paschale) and killed by order of his son Kavad II, who made peace with Heraclius in April: return of all Roman territory, prisoners and the True Cross. Heraclius's dispatch announcing the death of the 'God-hating' Khosrow was read from the ambo of Hagia Sophia on 15 May 628.",
-"loc":[44.58,33.09],"locName":"Ctesiphon","locCertainty":"certain","war":"roman_sasanian_war_602","people":["khosrow_ii","heraclius","shahrbaraz"],"polities":["sasanian","rome_east"],
-"sources":[{"a":"Chronicon Paschale","w":"Chronicon Paschale","r":"s.a. 628"},{"a":"Sebeos","w":"History","r":"127"},{"a":"Tabari","w":"History","r":"I 1043-1061"}],"debate":"Kavad II died of plague within months; Shahrbaraz agreed at Arabissos in July 629 to evacuate Egypt and Syria, then seized the Persian throne in 630 and was murdered after 40 days.","certainty":"certain","tags":["Kavad II Shiroe","Arabissos"]},
-{"id":"restoration_of_the_true_cross_630","year":630,"month":3,"day":21,"title":"Heraclius restores the True Cross to Jerusalem","type":"religious","cats":["religious","political"],"importance":4,
-"summary":"On 21 March 630 (some argue 629) Heraclius entered Jerusalem in procession with the True Cross, recovered from Shahrbaraz's custody, and restored it to the Church of the Holy Sepulchre. Later legend has him unable to pass the gate on horseback in imperial regalia until he dismounted and walked barefoot. The feast of the Exaltation of the Cross acquired this story.",
-"loc":[35.2296,31.7785],"locName":"Church of the Holy Sepulchre, Jerusalem","locCertainty":"certain","war":"roman_sasanian_war_602","people":["heraclius","shahrbaraz","sophronius"],"polities":["rome_east"],
-"sources":[{"a":"Sebeos","w":"History","r":"131"},{"a":"Strategius / Antiochus","w":"Capture of Jerusalem (appendix)"},{"a":"Nikephoros","w":"Short History","r":"18"}],
-"debate":"Date debated: 21 March 630 is preferred by most; Zuckerman argues for 629. Some contemporaries interpreted the moment eschatologically, and some scholars connect it with Heraclius's later order for the forced baptism of Jews (632), whose extent is disputed.","scholarship":["Drijvers, 'Heraclius and the restitutio crucis', in Reinink & Stolte (eds.), The Reign of Heraclius (2002)","Zuckerman, 'Heraclius and the return of the Holy Cross', Travaux et Mémoires 17 (2013)"],"certainty":"probable","tags":["Exaltation of the Cross"]},
-{"id":"heraclius_title_basileus_629","year":629,"month":3,"title":"Heraclius adopts the title basileus","type":"constitutional","cats":["constitutional","political"],"importance":3,
-"summary":"In a law of March 629 Heraclius styled himself pistos en Christo basileus ('faithful in Christ, emperor') instead of the traditional Latin imperator Caesar Augustus rendered in Greek. Basileus, the old Greek word for king, which Romans had long avoided for themselves, became the official imperial title; Greek fully displaced Latin in government in these decades.",
-"loc":[28.98,41.01],"locName":"Constantinople","locCertainty":"certain","people":["heraclius"],"polities":["rome_east"],
-"sources":[{"a":"Heraclius","w":"Novels","r":"Novel of 21 March 629 (ed. Konidaris)"}],
-"debate":"A classic marker in narratives of 'Byzantinisation'. Kaldellis argues the term 'Byzantine' is a post-1550 invention and that the subjects of Heraclius called themselves Romans and their state Romanía; title changes reflect usage, not a new state. Shahid connected the title with the Persian victory over a 'king of kings'.","scholarship":["Shahid, 'The Iranian factor in Byzantium during the reign of Heraclius', DOP 26 (1972)","Kaldellis, Romanland: Ethnicity and Empire in Byzantium (2019)","Chrysos, 'The title basileus in early Byzantine international relations', DOP 32 (1978)"],"certainty":"certain","tags":["basileus","Byzantine"]},
-{"id":"hijra_622","year":622,"month":9,"title":"The Hijra: Muhammad moves to Medina","type":"religious","cats":["religious","political"],"importance":4,
-"summary":"In September 622, persecuted at Mecca, Muhammad and his followers migrated to Yathrib, later Medina, where he became arbiter of its tribes; the so-called Constitution of Medina defined a community (umma) including Jewish clans. The year was later fixed as the start of the Islamic calendar under Umar.",
-"loc":[39.61,24.47],"locName":"Yathrib (Medina)","locCertainty":"certain","people":["muhammad","abu_bakr","umar"],"polities":["medinan_state","arab_tribes"],
-"sources":[{"a":"Ibn Ishaq","w":"Sira (via Ibn Hisham)"},{"a":"Tabari","w":"History","r":"I 1228-1262"}],
-"debate":"Islamic sources are later than the events by 150 years or more and were shaped by later concerns; revisionist scholarship (Crone, Cook) once questioned much of the traditional narrative, while Donner and Hoyland reconstruct a core supported by early non-Muslim sources.","scholarship":["Donner, Muhammad and the Believers (2010)","Hoyland, Seeing Islam as Others Saw It (1997)"],"certainty":"traditional","tags":["umma","Constitution of Medina"]},
-{"id":"battle_of_mutah","year":629,"month":9,"title":"Battle of Mu'ta","type":"battle","cats":["military","religious"],"importance":3,
-"summary":"A Muslim force of some 3,000 sent north by Muhammad met Roman troops and their Arab allies (Ghassanid, Lakhm, Judham, Bali) at Mu'ta, east of the Dead Sea, in September 629. The three successive Muslim commanders, Zayd ibn Haritha, Ja'far ibn Abi Talib and Abd Allah ibn Rawaha, were killed; Khalid ibn al-Walid extracted the survivors.",
-"loc":[35.70,31.08],"locName":"Mu'ta, near Karak (Jordan)","locCertainty":"probable","war":"arab_roman_war_634","people":["muhammad","khalid_ibn_al_walid","heraclius"],"polities":["medinan_state","rome_east","ghassanids"],
-"battle":{"sides":[{"polity":"medinan_state","commanders":["khalid_ibn_al_walid"],"strength":"c. 3,000 (Muslim tradition)","losses":"leaders killed; small number of others"},{"polity":"rome_east","commanders":[],"strength":"100,000-200,000 (Muslim tradition, impossible); local garrison and Arab federates under the vicarius Theodore","losses":"unknown"}],"victor":"rome_east","kind":"field","significance":"The first clash between Rome and the new Islamic state; Theophanes records it as a Roman victory, Muslim sources as an honourable withdrawal."},
-"sources":[{"a":"Theophanes","w":"Chronicle","r":"AM 6123"},{"a":"Ibn Ishaq","w":"Sira (via Ibn Hisham)","r":"791-802"},{"a":"al-Waqidi","w":"Kitab al-Maghazi"}],"certainty":"certain","tags":["Zayd ibn Haritha","Ja'far"]},
-{"id":"death_of_muhammad_632","year":632,"month":6,"day":8,"title":"Death of Muhammad","type":"death","cats":["religious","political"],"importance":4,
-"summary":"Muhammad died at Medina on 8 June 632 (traditional date). Abu Bakr was chosen as his successor (khalifa) and spent 632-633 suppressing the Ridda, the defection of Arabian tribes, uniting the peninsula under Medina for the first time and creating the forces that would be turned on Syria and Iraq.",
-"loc":[39.61,24.47],"locName":"Medina","locCertainty":"certain","people":["muhammad","abu_bakr","umar","khalid_ibn_al_walid"],"polities":["medinan_state","rashidun"],
-"sources":[{"a":"Ibn Ishaq","w":"Sira (via Ibn Hisham)"},{"a":"Tabari","w":"History","r":"I 1810-1845"}],
-"debate":"The Doctrina Jacobi nuper baptizati (written c. 634) mentions a prophet 'appearing with the Saracens' as if still alive, prompting debate about the traditional chronology.","certainty":"traditional","tags":["Ridda","caliphate"]},
-{"id":"pact_of_union_633","year":633,"month":6,"day":3,"title":"Monoenergism: the Pact of Union at Alexandria","type":"religious","cats":["religious","political"],"importance":3,
-"summary":"Cyrus, Heraclius's appointee as patriarch of Alexandria, united the Chalcedonians and the Theodosian miaphysites on 3 June 633 on the formula that Christ acted through 'one theandric energy', a compromise devised by Patriarch Sergius and the emperor. The monk Sophronius protested, and in 634 Sergius forbade further talk of energies.",
-"loc":[29.92,31.20],"locName":"Alexandria","locCertainty":"certain","people":["cyrus_of_alexandria","sergius_of_constantinople","sophronius","heraclius"],"polities":["rome_east"],
-"sources":[{"a":"Acta Conciliorum Oecumenicorum","w":"ACO ser. 2, II (Acts of the Sixth Council)"},{"a":"Sophronius","w":"Synodical Letter"}],"scholarship":["Booth, Crisis of Empire: Doctrine and Dissent at the End of Late Antiquity (2014)","Allen (ed.), Sophronius of Jerusalem and Seventh-Century Heresy (2009)"],"certainty":"certain","tags":["Monoenergism"]},
-{"id":"battle_of_dathin","year":634,"month":2,"day":4,"title":"Battle of Dathin","type":"battle","cats":["military"],"importance":3,
-"summary":"Near Gaza on 4 February 634, an Arab army under Yazid ibn Abi Sufyan defeated a Roman force under the candidatus Sergius, perhaps dux of Palestine; Sergius was killed. The Syriac Chronicle of 640 by Thomas the Presbyter notes 'a battle between the Romans and the Arabs of Muhammad' with 4,000 Palestinian villagers killed, the first securely dated event of the conquest in a non-Muslim source.",
-"loc":[34.5,31.4],"locName":"Dathin, near Gaza","locCertainty":"approx","war":"arab_roman_war_634","people":["abu_bakr"],"polities":["rashidun","rome_east"],
-"battle":{"sides":[{"polity":"rashidun","commanders":[],"strength":"Arab army under Yazid ibn Abi Sufyan","losses":"unknown"},{"polity":"rome_east","commanders":[],"strength":"local Roman forces under the candidatus Sergius","losses":"commander killed; 4,000 villagers killed (Thomas the Presbyter)"}],"victor":"rashidun","kind":"field","significance":"Opened southern Palestine to the conquerors."},
-"sources":[{"a":"Thomas the Presbyter","w":"Chronicle of 640"},{"a":"Doctrina Jacobi","w":"Doctrina Jacobi nuper baptizati","r":"5.16"},{"a":"Theophanes","w":"Chronicle","r":"AM 6124"}],"scholarship":["Hoyland, In God's Path (2015)","Kaegi, Byzantium and the Early Islamic Conquests (1992)"],"certainty":"certain","tags":["Thomas the Presbyter","candidatus Sergius"]},
-{"id":"khalids_desert_march_634","year":634,"month":3,"title":"Khalid ibn al-Walid's desert crossing","type":"campaign","cats":["military"],"importance":4,
-"summary":"Ordered by Abu Bakr to reinforce the armies in Syria, Khalid led perhaps 500-800 picked men from Iraq across the waterless desert between Qurraqir and Suwa in about five days, watering camels in advance and slaughtering some to drink the water stored in their stomachs, according to tradition. He appeared near Damascus at Marj Rahit around Easter 634, took Bosra and joined the other commanders.",
-"loc":[37.5,32.8],"locName":"Syrian desert to Marj Rahit","locCertainty":"approx","war":"arab_roman_war_634","campaign":"khalid_634","people":["khalid_ibn_al_walid","abu_bakr"],"polities":["rashidun","rome_east","ghassanids"],
-"sources":[{"a":"Tabari","w":"History","r":"I 2108-2125"},{"a":"al-Baladhuri","w":"Futuh al-Buldan","r":"110-112"}],"debate":"The route and timing are reconstructed from contradictory Arabic traditions; Donner discusses at least four route variants.","scholarship":["Donner, The Early Islamic Conquests (1981)","Kennedy, The Great Arab Conquests (2007)"],"certainty":"disputed","tags":["Qurraqir","Suwa"]},
-{"id":"battle_of_ajnadayn","year":634,"month":7,"day":30,"title":"Battle of Ajnadayn","type":"battle","cats":["military"],"importance":4,
-"summary":"The united Arab armies, including Khalid, defeated a Roman army in southern Palestine at Ajnadayn, between Ramla and Beit Guvrin, traditionally on 30 July 634. Arab tradition names its commander as 'Artabun'; Theodore, Heraclius's brother, may have been in command in the region. Palestine's open country fell to the invaders; cities held out behind their walls.",
-"loc":[34.90,31.61],"locName":"Ajnadayn, near Beit Guvrin","locCertainty":"disputed","war":"arab_roman_war_634","campaign":"khalid_634","people":["khalid_ibn_al_walid","amr_ibn_al_as","theodore_brother_of_heraclius"],"polities":["rashidun","rome_east"],
-"battle":{"sides":[{"polity":"rashidun","commanders":["khalid_ibn_al_walid","amr_ibn_al_as"],"strength":"perhaps 15,000-20,000","losses":"unknown"},{"polity":"rome_east","commanders":[],"strength":"Roman field army of Palestine, size unknown (Arab sources: 100,000)","losses":"heavy"}],"victor":"rashidun","kind":"field","significance":"The first major pitched-battle victory of the conquests in Syria."},
-"sources":[{"a":"al-Baladhuri","w":"Futuh al-Buldan","r":"113-114"},{"a":"Tabari","w":"History","r":"I 2125-2126"}],"debate":"Date (July 634 or 635), location and commanders are all disputed; some suggest Ajnadayn and Fahl have been confused in the tradition.","certainty":"probable","tags":["Artabun"]},
-{"id":"battle_of_fahl","year":635,"month":1,"title":"Battle of Fahl (Pella)","type":"battle","cats":["military"],"importance":3,
-"summary":"Roman troops who had flooded the Jordan valley around Baysan to block the Arabs were defeated near Pella (Fahl) in January 635, a battle the tradition calls 'the Day of the Mud'. Jordan and the Galilee fell, and the road to Damascus was open.",
-"loc":[35.62,32.45],"locName":"Pella (Fahl), Jordan valley","locCertainty":"probable","war":"arab_roman_war_634","campaign":"khalid_634","people":["khalid_ibn_al_walid","abu_ubayda"],"polities":["rashidun","rome_east"],
-"battle":{"sides":[{"polity":"rashidun","commanders":["abu_ubayda","khalid_ibn_al_walid"],"strength":"Arab armies of Syria","losses":"unknown"},{"polity":"rome_east","commanders":[],"strength":"Roman army including Ajnadayn survivors","losses":"heavy"}],"victor":"rashidun","kind":"field","significance":"Secured the Jordan valley and isolated Damascus."},
-"sources":[{"a":"al-Baladhuri","w":"Futuh al-Buldan","r":"115-116"},{"a":"Tabari","w":"History","r":"I 2145-2155"}],"certainty":"probable","tags":["Day of the Mud"]},
-{"id":"siege_of_damascus_635","year":635,"month":9,"title":"Surrender of Damascus","type":"siege","cats":["military","diplomatic"],"importance":4,
-"summary":"After a six-month blockade, Damascus surrendered in September 635 on terms negotiated, according to tradition, by Mansur ibn Sarjun, the city's fiscal official and grandfather of John of Damascus: security of life, property and churches in return for tribute. Khalid is said to have entered by force at the east gate at the same time Abu Ubayda entered by treaty at the west.",
-"loc":[36.306,33.511],"locName":"Damascus","locCertainty":"certain","war":"arab_roman_war_634","campaign":"khalid_634","people":["khalid_ibn_al_walid","abu_ubayda"],"polities":["rashidun","rome_east"],
-"battle":{"sides":[{"polity":"rome_east","commanders":[],"strength":"city garrison","losses":"city surrendered"},{"polity":"rashidun","commanders":["khalid_ibn_al_walid","abu_ubayda"],"strength":"Arab armies of Syria","losses":"light"}],"victor":"rashidun","kind":"siege","significance":"Gave the conquerors the main city of interior Syria; abandoned briefly before Yarmuk, it was reoccupied in 636 and became the Umayyad capital in 661."},
-"sources":[{"a":"al-Baladhuri","w":"Futuh al-Buldan","r":"120-127"},{"a":"Theophanes","w":"Chronicle","r":"AM 6125"}],"debate":"The tale of the two gates is an etiological explanation for the city being treated partly as conquered by force and partly by treaty.","certainty":"probable","tags":["Mansur ibn Sarjun"]},
-{"id":"battle_of_the_yarmuk","year":636,"month":8,"day":20,"title":"Battle of the Yarmuk","type":"battle","cats":["military"],"importance":5,
-"summary":"Heraclius gathered a great army in 636 under the Armenian Vahan, the sakellarios Theodore Trithyrios, and the Ghassanid king Jabala ibn al-Ayham, which forced the Arabs to abandon Damascus and Emesa. The Arabs concentrated on the plateau near the Yarmuk river, and after weeks of skirmishing and some six days of battle, traditionally ending on 20 August 636, the Roman army was routed, many trapped against the ravine of the Wadi al-Ruqqad.",
-"detail":"Arab sources inflate the Roman army to 100,000-240,000; modern estimates range from 15,000-40,000 Romans against 20,000-40,000 Arabs. Kaegi stresses Roman command friction (Vahan was briefly proclaimed emperor by his troops according to one source), unpaid and mutinous soldiers, the defection or wavering of Christian Arab allies, and Arab mastery of mobile warfare on terrain they chose. Heraclius, at Antioch, left Syria; Baladhuri preserves his farewell from a height: 'Peace be upon you, Syria, and what a fine land you are for the enemy.' The whole of Syria south of the Taurus was lost within four years.",
-"loc":[35.95,32.80],"locName":"Yarmuk river and Wadi al-Ruqqad, Golan / Hauran","locCertainty":"approx","war":"arab_roman_war_634","campaign":"khalid_634",
-"people":["vahan","khalid_ibn_al_walid","abu_ubayda","heraclius","umar","amr_ibn_al_as"],"polities":["rashidun","rome_east","ghassanids","armenian_nakharars"],
-"battle":{"sides":[{"polity":"rashidun","commanders":["abu_ubayda","khalid_ibn_al_walid"],"strength":"perhaps 20,000-40,000","losses":"several thousand (Arab sources: 3,000)"},{"polity":"rome_east","commanders":["vahan"],"strength":"perhaps 15,000-40,000 (Arab sources: 100,000-240,000), incl. Armenians and Ghassanids","losses":"army destroyed; Theodore Trithyrios killed"}],"victor":"rashidun","kind":"field","significance":"One of the most consequential battles in history: it ended Roman rule in Syria and Palestine after seven centuries and opened the way to Egypt and Mesopotamia."},
-"sources":[{"a":"al-Baladhuri","w":"Futuh al-Buldan","r":"135-137"},{"a":"Tabari","w":"History","r":"I 2087-2100, 2347-2349"},{"a":"Theophanes","w":"Chronicle","r":"AM 6126"},{"a":"Sebeos","w":"History","r":"135-136"}],
-"debate":"Date (Arab sources give dates from 634 to 636), sequence, and numbers are all disputed; Arabic accounts are later reconstructions with literary topoi (sandstorms, oaths, women fighting in the rear).",
-"scholarship":["Kaegi, Byzantium and the Early Islamic Conquests (1992)","Donner, The Early Islamic Conquests (1981)","Hoyland, In God's Path (2015)","Jandora, 'The battle of the Yarmuk: a reconstruction', Journal of Asian History 19 (1985)"],"certainty":"certain","tags":["Vahan","Jabala ibn al-Ayham","Wadi al-Ruqqad"]},
-{"id":"siege_of_jerusalem_637","year":637,"title":"Surrender of Jerusalem to Umar","type":"siege","cats":["military","religious","diplomatic"],"importance":4,
-"summary":"Blockaded since 636, Jerusalem under Patriarch Sophronius surrendered in 637 or early 638 on condition that the caliph Umar come in person to accept it. Tradition tells of Umar arriving in a simple patched cloak, touring the Holy Sepulchre but praying outside so that Muslims would not claim it, and clearing the Temple Mount. Sophronius, who had lamented the 'Saracens' in his Christmas sermon of 634, died soon after.",
-"loc":[35.2316,31.7767],"locName":"Jerusalem","locCertainty":"certain","war":"arab_roman_war_634","people":["umar","sophronius","abu_ubayda"],"polities":["rashidun","rome_east"],
-"battle":{"sides":[{"polity":"rome_east","commanders":["sophronius"],"strength":"citizens and small garrison","losses":"surrendered on terms"},{"polity":"rashidun","commanders":["abu_ubayda"],"strength":"Arab blockading force","losses":"light"}],"victor":"rashidun","kind":"siege","significance":"The holy city of Christianity passed to Muslim rule, which lasted, apart from 1099-1187 and 1229-1244, until 1917."},
-"sources":[{"a":"Sophronius","w":"Christmas Sermon (634)"},{"a":"Theophanes","w":"Chronicle","r":"AM 6127"},{"a":"Tabari","w":"History","r":"I 2402-2406"}],
-"debate":"The 'Covenant of Umar' text granted to Jerusalem's Christians is a later composition; the date of surrender (636, 637 or 638) is disputed.","certainty":"certain","tags":["Covenant of Umar","Temple Mount"]},
-{"id":"plague_of_amwas_638","year":638,"endYear":639,"title":"Plague of Amwas","type":"plague","cats":["disaster"],"importance":2,
-"summary":"A wave of the Justinianic plague struck the Arab armies in Syria and Palestine in 638-639, named for their camp at Emmaus (Amwas). Arab tradition says 25,000 died, including the commanders Abu Ubayda and Yazid ibn Abi Sufyan, whose brother Mu'awiya succeeded him in Syria.",
-"loc":[34.99,31.84],"locName":"Emmaus-Nicopolis (Amwas)","locCertainty":"certain","war":"arab_roman_war_634","people":["abu_ubayda","umar"],"polities":["rashidun"],
-"sources":[{"a":"Tabari","w":"History","r":"I 2516-2524"},{"a":"al-Baladhuri","w":"Futuh al-Buldan","r":"139-140"}],"scholarship":["Conrad, 'Umar at Sargh: the evolution of an Umayyad tradition on flight from the plague', in Leder (ed.), Story-telling in the Framework of Non-fictional Arabic Literature (1998)"],"certainty":"certain","tags":["Mu'awiya"]},
-{"id":"ecthesis_638","year":638,"title":"The Ecthesis: Monotheletism decreed","type":"religious","cats":["religious","law"],"importance":3,
-"summary":"Drafted by Patriarch Sergius and posted in the narthex of Hagia Sophia in 638, Heraclius's Ecthesis forbade discussion of 'one or two energies' and declared that Christ had a single will. Councils in Constantinople accepted it; Rome rejected it, and its condemnation at the Sixth Ecumenical Council in 680-681 made Heraclius a posthumous heretic in Chalcedonian eyes.",
-"loc":[28.9802,41.0086],"locName":"Hagia Sophia, Constantinople","locCertainty":"certain","people":["heraclius","sergius_of_constantinople","sophronius"],"polities":["rome_east"],
-"sources":[{"a":"Acta Conciliorum Oecumenicorum","w":"ACO ser. 2, I (Lateran Council of 649), text of the Ecthesis"}],"scholarship":["Booth, Crisis of Empire (2014)"],"certainty":"certain","tags":["Monotheletism"]},
-{"id":"fall_of_mesopotamia_639","year":639,"endYear":640,"title":"Arab conquest of Roman Mesopotamia","type":"campaign","cats":["military","diplomatic"],"importance":3,
-"summary":"After Antioch and northern Syria fell in 637-638, Iyad ibn Ghanm crossed the Euphrates and in 639-640 took the cities of the Jazira, Raqqa, Edessa, Harran, Amida, Dara and Resaina, mostly by treaty. Edessa surrendered on terms that the Arabs would keep its walls and churches, and pay tribute.",
-"loc":[38.79,37.15],"locName":"Edessa and the Jazira","locCertainty":"approx","war":"arab_roman_war_634","people":["umar","heraclius"],"polities":["rashidun","rome_east"],
-"sources":[{"a":"al-Baladhuri","w":"Futuh al-Buldan","r":"172-182"},{"a":"Chronicle of 1234","w":"Chronicon ad annum 1234"}],"certainty":"probable","tags":["Iyad ibn Ghanm"]},
-{"id":"fall_of_caesarea_640","year":640,"title":"Fall of Caesarea Maritima","type":"siege","cats":["military"],"importance":2,
-"summary":"The capital of Palaestina Prima, supplied by sea, held out for years against blockade until Mu'awiya took it by storm in 640 or 641, reportedly guided by a Jewish informer through an aqueduct. The last Roman city in Palestine fell; the tradition says 7,000 defenders were killed.",
-"loc":[34.89,32.50],"locName":"Caesarea Maritima","locCertainty":"certain","war":"arab_roman_war_634","people":["umar"],"polities":["rashidun","rome_east"],
-"battle":{"sides":[{"polity":"rome_east","commanders":[],"strength":"garrison, supplied by sea","losses":"7,000 (Baladhuri)"},{"polity":"rashidun","commanders":[],"strength":"Arab army under Mu'awiya","losses":"unknown"}],"victor":"rashidun","kind":"siege","significance":"Completed the conquest of Palestine."},
-"sources":[{"a":"al-Baladhuri","w":"Futuh al-Buldan","r":"140-142"},{"a":"Theophanes","w":"Chronicle","r":"AM 6133"}],"certainty":"probable","tags":["Mu'awiya"]},
-{"id":"arab_invasion_of_egypt_639","year":639,"month":12,"title":"Amr ibn al-As invades Egypt","type":"campaign","cats":["military"],"importance":4,
-"summary":"With perhaps 4,000 men and only the reluctant approval of Umar, Amr ibn al-As crossed from Palestine into Egypt in December 639, reaching al-Arish at the Feast of Sacrifice. He took Pelusium after a siege of about a month, then Bilbays, and marched on the fortress of Babylon at the apex of the Delta.",
-"loc":[33.80,31.13],"locName":"al-Arish and Pelusium","locCertainty":"approx","war":"arab_roman_war_634","campaign":"amr_egypt_639","people":["amr_ibn_al_as","umar","cyrus_of_alexandria"],"polities":["rashidun","rome_east"],
-"sources":[{"a":"John of Nikiu","w":"Chronicle","r":"111-113"},{"a":"Ibn Abd al-Hakam","w":"Futuh Misr"},{"a":"al-Baladhuri","w":"Futuh al-Buldan","r":"212-214"}],"scholarship":["Butler, The Arab Conquest of Egypt (1902; 2nd ed. Fraser, 1978)","Kennedy, The Great Arab Conquests (2007)"],"certainty":"probable","tags":["Pelusium"]},
-{"id":"battle_of_heliopolis_640","year":640,"month":7,"title":"Battle of Heliopolis","type":"battle","cats":["military"],"importance":4,
-"summary":"Reinforced by 4,000 or more men under al-Zubayr ibn al-Awwam, Amr drew the Roman army of Egypt under Theodore into battle near Heliopolis in July 640, using a concealed detachment that attacked from the rear. The Roman force broke; part fled to the fortress of Babylon, part to Alexandria.",
-"loc":[31.31,30.13],"locName":"Heliopolis (Ayn Shams), near Cairo","locCertainty":"probable","war":"arab_roman_war_634","campaign":"amr_egypt_639","people":["amr_ibn_al_as"],"polities":["rashidun","rome_east"],
-"battle":{"sides":[{"polity":"rashidun","commanders":["amr_ibn_al_as"],"strength":"c. 12,000-15,000 after reinforcement","losses":"light"},{"polity":"rome_east","commanders":[],"strength":"Roman field army of Egypt under Theodore, perhaps 15,000-20,000","losses":"heavy"}],"victor":"rashidun","kind":"field","significance":"Decided the fate of Egypt in the field; the rest was sieges and negotiation."},
-"sources":[{"a":"John of Nikiu","w":"Chronicle","r":"111"},{"a":"Ibn Abd al-Hakam","w":"Futuh Misr"}],"certainty":"probable","tags":["al-Zubayr"]},
-{"id":"death_of_heraclius_641","year":641,"month":2,"day":11,"title":"Death of Heraclius","type":"death","cats":["political"],"importance":5,
-"summary":"Heraclius died on 11 February 641 aged about 66, of a disease Nikephoros describes as dropsy, which some contemporaries saw as punishment for his uncanonical marriage to his niece Martina. He left the empire jointly to Constantine III, his son by Fabia-Eudocia, and Heraclonas, his son by Martina, with Martina to be honoured as 'mother and empress'. He was buried in the Church of the Holy Apostles.",
-"detail":"His reign is the hinge between late antiquity and the middle Byzantine world: the triumph over Persia in 628 and the loss of Syria, Palestine, Mesopotamia and much of Egypt within a decade of it; the end of Latin in government; the crisis of Constantinople's food supply; and the failure of Monoenergism and Monotheletism to reunite the churches. Theodosius I had died in 395 ruling from the Atlantic to the Euphrates; Heraclius died holding Anatolia, the Balkan coasts, Africa, parts of Italy and a collapsing Egypt.",
-"loc":[28.98,41.01],"locName":"Constantinople","locCertainty":"certain","people":["heraclius","martina","constantine_iii_heraclius","heraclonas"],"polities":["rome_east"],
-"sources":[{"a":"Nikephoros","w":"Short History","r":"26-27"},{"a":"Theophanes","w":"Chronicle","r":"AM 6132"},{"a":"John of Nikiu","w":"Chronicle","r":"116"}],
-"scholarship":["Kaegi, Heraclius: Emperor of Byzantium (2003)","Reinink & Stolte (eds.), The Reign of Heraclius (610-641): Crisis and Confrontation (2002)","Haldon, The Empire That Would Not Die (2016)"],"certainty":"certain","tags":["Holy Apostles","Martina"]},
-{"id":"surrender_of_babylon_fortress_641","year":641,"month":4,"day":9,"title":"Surrender of the fortress of Babylon","type":"siege","cats":["military","diplomatic"],"importance":4,
-"summary":"Besieged since September 640, the Roman fortress of Babylon (Old Cairo), guarding the Nile crossing at the head of the Delta, surrendered on 9 April 641, Easter Monday, after news of Heraclius's death and the recall of the patriarch Cyrus had undermined resistance. Amr founded the camp-city of Fustat beside it.",
-"loc":[31.231,30.006],"locName":"Babylon fortress (Old Cairo)","locCertainty":"certain","war":"arab_roman_war_634","campaign":"amr_egypt_639","people":["amr_ibn_al_as","cyrus_of_alexandria","heraclius"],"polities":["rashidun","rome_east"],
-"battle":{"sides":[{"polity":"rome_east","commanders":[],"strength":"garrison of several thousand","losses":"surrendered on terms"},{"polity":"rashidun","commanders":["amr_ibn_al_as"],"strength":"Arab army of Egypt","losses":"moderate"}],"victor":"rashidun","kind":"siege","significance":"Gave the Arabs control of the Nile and Upper Egypt; Fustat became the capital of Islamic Egypt."},
-"sources":[{"a":"John of Nikiu","w":"Chronicle","r":"117"},{"a":"Ibn Abd al-Hakam","w":"Futuh Misr"}],"scholarship":["Butler, The Arab Conquest of Egypt (2nd ed. 1978)"],"certainty":"probable","tags":["Fustat"]},
-{"id":"succession_crisis_641","year":641,"endYear":641,"title":"Constantine III, Heraclonas and the fall of Martina","type":"political","cats":["political","constitutional"],"importance":3,
-"summary":"Constantine III, consumptive, died after a reign of about three months (May 641), amid rumours that Martina had poisoned him. Martina and Heraclonas governed briefly, but the army under Valentinus and the people of Constantinople forced the coronation of Constantine III's son Constans II in September, and in late 641 Martina's tongue and Heraclonas's nose were slit and they were exiled to Rhodes, the first use of such mutilation to disqualify a ruler.",
-"loc":[28.98,41.01],"locName":"Constantinople","locCertainty":"certain","people":["constantine_iii_heraclius","heraclonas","martina","cyrus_of_alexandria"],"polities":["rome_east"],
-"sources":[{"a":"Nikephoros","w":"Short History","r":"28-31"},{"a":"John of Nikiu","w":"Chronicle","r":"119-120"},{"a":"Theophanes","w":"Chronicle","r":"AM 6133"}],
-"debate":"Exact dates in 641 are uncertain; Constantine III's death is placed between April and May, Martina's fall in September-November.","certainty":"certain","tags":["Constans II","Valentinus","rhinokopia"]},
-{"id":"treaty_of_alexandria_641","year":641,"month":11,"day":8,"title":"Treaty of Alexandria","type":"treaty","cats":["diplomatic"],"importance":4,
-"summary":"Restored to Alexandria by the new regime, Patriarch Cyrus agreed with Amr on 8 November 641 to surrender Egypt: an armistice of eleven months, a poll tax of two dinars per adult man, protection of churches, and evacuation of the Roman army by sea. The last Roman troops left Alexandria in September 642, ending nearly 700 years of Roman rule in Egypt.",
-"loc":[29.92,31.20],"locName":"Alexandria","locCertainty":"certain","war":"arab_roman_war_634","campaign":"amr_egypt_639","people":["cyrus_of_alexandria","amr_ibn_al_as"],"polities":["rome_east","rashidun"],
-"sources":[{"a":"John of Nikiu","w":"Chronicle","r":"120"}],
-"debate":"The famous story of Amr burning the Library of Alexandria on Umar's orders first appears in thirteenth-century writers (Abd al-Latif al-Baghdadi, Ibn al-Qifti) and is rejected by historians; the library had long since ceased to exist in its Ptolemaic form. A Roman fleet briefly retook Alexandria in 645-646.","scholarship":["Butler, The Arab Conquest of Egypt (2nd ed. 1978)","Kennedy, The Great Arab Conquests (2007)"],"certainty":"certain","tags":["Library of Alexandria myth","jizya"]}
-]}
+{
+ "events": [
+  {
+   "id": "outbreak_of_persian_war_603",
+   "year": 603,
+   "title": "Khosrow II declares war to avenge Maurice",
+   "type": "political",
+   "cats": [
+    "military",
+    "diplomatic"
+   ],
+   "importance": 5,
+   "summary": "Khosrow II, who owed his throne to Maurice, imprisoned Phocas's envoy and declared war in 603, sponsoring a pretender claiming to be Maurice's son Theodosius. Narses, magister militum of the East, rebelled against Phocas at Edessa and called in the Persians; he was later lured to Constantinople and burned alive. The last and greatest war of antiquity had begun.",
+   "detail": "Over 26 years the war would bring Persian armies to the Bosporus and the Nile, cost the empire Syria, Palestine and Egypt for a decade, and end with Heraclius in the Mesopotamian heartland of Persia. Both empires emerged exhausted on the eve of the Arab conquests. Our main sources are Theophanes (drawing on a lost eastern chronicle and George of Pisidia), the Chronicon Paschale, Sebeos's Armenian History and the Chronicle of 724; Howard-Johnston has reconstructed its chronology.",
+   "loc": [
+    38.79,
+    37.15
+   ],
+   "locName": "Edessa and the Mesopotamian frontier",
+   "locCertainty": "approx",
+   "war": "roman_sasanian_war_602",
+   "people": [
+    "khosrow_ii",
+    "phocas",
+    "maurice"
+   ],
+   "polities": [
+    "sasanian",
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Theophanes",
+     "w": "Chronicle",
+     "r": "AM 6095-6096"
+    },
+    {
+     "a": "Sebeos",
+     "w": "History",
+     "r": "106-107"
+    },
+    {
+     "a": "Theophylact Simocatta",
+     "w": "History",
+     "r": "8.15"
+    }
+   ],
+   "scholarship": [
+    "Howard-Johnston, Witnesses to a World Crisis (2010)",
+    "Howard-Johnston, The Last Great War of Antiquity (2021)",
+    "Greatrex & Lieu, The Roman Eastern Frontier and the Persian Wars, Part II (2002)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "pseudo-Theodosius",
+    "Narses the general"
+   ]
+  },
+  {
+   "id": "siege_of_dara_604",
+   "year": 604,
+   "title": "Persians take Dara",
+   "type": "siege",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "Khosrow II besieged Dara in person from 603; after about nine months his engineers undermined the walls and the city fell in 604 (or 605). The fall of the frontier citadel opened Roman Mesopotamia: Mardin, Amida, Resaina, Edessa and Theodosiopolis fell over the next six years.",
+   "loc": [
+    40.948,
+    37.177
+   ],
+   "locName": "Dara",
+   "locCertainty": "certain",
+   "war": "roman_sasanian_war_602",
+   "people": [
+    "khosrow_ii",
+    "phocas"
+   ],
+   "polities": [
+    "sasanian",
+    "rome_east"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome_east",
+      "commanders": [],
+      "strength": "garrison",
+      "losses": "city taken"
+     },
+     {
+      "polity": "sasanian",
+      "commanders": [
+       "khosrow_ii"
+      ],
+      "strength": "Persian royal army",
+      "losses": "unknown"
+     }
+    ],
+    "victor": "sasanian",
+    "kind": "siege",
+    "significance": "Broke the Mesopotamian frontier for the rest of the war."
+   },
+   "sources": [
+    {
+     "a": "Sebeos",
+     "w": "History",
+     "r": "107-108"
+    },
+    {
+     "a": "Chronicle of 1234",
+     "w": "Chronicon ad annum 1234",
+     "r": "s.a. 914 Sel."
+    }
+   ],
+   "debate": "Date 604 or 605.",
+   "certainty": "probable",
+   "tags": [
+    "mining"
+   ]
+  },
+  {
+   "id": "column_of_phocas_608",
+   "year": 608,
+   "month": 8,
+   "day": 1,
+   "title": "Column of Phocas in the Roman Forum",
+   "type": "building",
+   "cats": [
+    "cultural",
+    "political"
+   ],
+   "importance": 2,
+   "summary": "On 1 August 608 the exarch Smaragdus re-dedicated an older honorific column in the Forum Romanum, topping it with a gilded statue of Phocas and an inscription praising his benefactions to Italy. It was the last monument added to the Forum. In 609 Phocas also allowed Pope Boniface IV to consecrate the Pantheon as the church of Santa Maria ad Martyres (13 May 609).",
+   "loc": [
+    12.4848,
+    41.8925
+   ],
+   "locName": "Forum Romanum, Rome",
+   "locCertainty": "certain",
+   "people": [
+    "phocas",
+    "gregory_the_great"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Inscriptions",
+     "w": "CIL VI 1200"
+    },
+    {
+     "a": "Liber Pontificalis",
+     "w": "Liber Pontificalis",
+     "r": "68-69 (Boniface III, Boniface IV)"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Smaragdus",
+    "Pantheon"
+   ]
+  },
+  {
+   "id": "heraclian_revolt_608",
+   "year": 608,
+   "endYear": 610,
+   "title": "Heraclian revolt in Africa",
+   "type": "revolt",
+   "cats": [
+    "military",
+    "political"
+   ],
+   "importance": 4,
+   "summary": "Heraclius the Elder, exarch of Africa, and his brother Gregory rebelled against Phocas in 608, cutting the grain from Africa and striking coins showing father and son as consuls. Gregory's son Nicetas marched overland to Egypt, defeating Phocas's general Bonosus at Alexandria in 609-610, while the younger Heraclius sailed with a fleet via Sicily and Thessalonica.",
+   "loc": [
+    10.323,
+    36.853
+   ],
+   "locName": "Carthage",
+   "locCertainty": "certain",
+   "war": "heraclian_revolt",
+   "people": [
+    "heraclius",
+    "phocas"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "John of Nikiu",
+     "w": "Chronicle",
+     "r": "105-109"
+    },
+    {
+     "a": "Theophanes",
+     "w": "Chronicle",
+     "r": "AM 6100-6102"
+    },
+    {
+     "a": "Chronicon Paschale",
+     "w": "Chronicon Paschale",
+     "r": "s.a. 609-610"
+    }
+   ],
+   "scholarship": [
+    "Kaegi, Heraclius: Emperor of Byzantium (2003)",
+    "Olster, The Politics of Usurpation in the Seventh Century (1993)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "consular coinage",
+    "Nicetas",
+    "Bonosus"
+   ]
+  },
+  {
+   "id": "accession_of_heraclius_610",
+   "year": 610,
+   "month": 10,
+   "day": 5,
+   "title": "Fall of Phocas; Heraclius crowned",
+   "type": "accession",
+   "cats": [
+    "political"
+   ],
+   "importance": 5,
+   "summary": "Heraclius's fleet reached Constantinople on 3 October 610; the Greens and the excubitors under Phocas's son-in-law Priscus deserted Phocas, who was dragged before Heraclius. 'Is this how you have governed the empire?' 'Will you govern it better?' Phocas was beheaded and mutilated. Heraclius was crowned by Patriarch Sergius on 5 October and married Fabia-Eudocia the same day.",
+   "loc": [
+    28.98,
+    41.01
+   ],
+   "locName": "Constantinople",
+   "locCertainty": "certain",
+   "war": "heraclian_revolt",
+   "people": [
+    "heraclius",
+    "phocas",
+    "sergius_of_constantinople",
+    "priscus_general"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Chronicon Paschale",
+     "w": "Chronicon Paschale",
+     "r": "s.a. 610"
+    },
+    {
+     "a": "John of Antioch",
+     "w": "History",
+     "r": "fr. 321 (Mariev)"
+    },
+    {
+     "a": "Nikephoros",
+     "w": "Short History",
+     "r": "1"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Fabia-Eudocia"
+   ]
+  },
+  {
+   "id": "battle_of_antioch_613",
+   "year": 613,
+   "title": "Battle of Antioch",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 4,
+   "summary": "Heraclius, his brother Theodore and cousin Nicetas tried to stop the Persian advance near Antioch in 613. After initial success they were beaten by Shahrbaraz and Shahin. Antioch, Damascus and Tarsus fell; Roman territory was cut in two, Syria and Palestine severed from Anatolia.",
+   "loc": [
+    36.16,
+    36.2
+   ],
+   "locName": "Antioch",
+   "locCertainty": "certain",
+   "war": "roman_sasanian_war_602",
+   "people": [
+    "heraclius",
+    "theodore_brother_of_heraclius",
+    "shahrbaraz",
+    "shahin"
+   ],
+   "polities": [
+    "rome_east",
+    "sasanian"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome_east",
+      "commanders": [
+       "heraclius",
+       "theodore_brother_of_heraclius"
+      ],
+      "strength": "main Roman field army",
+      "losses": "heavy"
+     },
+     {
+      "polity": "sasanian",
+      "commanders": [
+       "shahrbaraz",
+       "shahin"
+      ],
+      "strength": "Persian field armies",
+      "losses": "unknown"
+     }
+    ],
+    "victor": "sasanian",
+    "kind": "field",
+    "significance": "The decisive Roman defeat of the war's first phase; it opened Palestine and Egypt to the Persians."
+   },
+   "sources": [
+    {
+     "a": "Sebeos",
+     "w": "History",
+     "r": "114-115"
+    },
+    {
+     "a": "Theophanes",
+     "w": "Chronicle",
+     "r": "AM 6104"
+    }
+   ],
+   "certainty": "certain",
+   "tags": []
+  },
+  {
+   "id": "siege_of_jerusalem_614",
+   "year": 614,
+   "month": 5,
+   "title": "Persian capture of Jerusalem",
+   "type": "siege",
+   "cats": [
+    "military",
+    "religious"
+   ],
+   "importance": 5,
+   "summary": "After the city first submitted and then revolted, killing the Persian garrison, Shahrbaraz besieged Jerusalem for about three weeks and stormed it in May 614. Churches including the Holy Sepulchre were burned, thousands killed, and Patriarch Zacharias and the relic of the True Cross were carried off to Ctesiphon. The monk Antiochus Strategos's account lists bodies counted in the city.",
+   "detail": "Antiochus's figures (over 60,000 dead in some versions, 4,518 in one location) are hagiographic. Jewish involvement, under a leader sometimes called Nehemiah ben Hushiel, is attested in Christian sources that are hostile and polemical; Persian policy initially favoured the Jews, then swung back to the Christian majority. Archaeology shows less destruction than the texts suggest. The loss of the Cross gave the later war a crusading tone in Heraclius's propaganda.",
+   "loc": [
+    35.2316,
+    31.7767
+   ],
+   "locName": "Jerusalem",
+   "locCertainty": "certain",
+   "war": "roman_sasanian_war_602",
+   "people": [
+    "shahrbaraz",
+    "khosrow_ii",
+    "heraclius"
+   ],
+   "polities": [
+    "sasanian",
+    "rome_east"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome_east",
+      "commanders": [],
+      "strength": "citizens and local garrison",
+      "losses": "thousands killed and deported"
+     },
+     {
+      "polity": "sasanian",
+      "commanders": [
+       "shahrbaraz"
+      ],
+      "strength": "Persian army with local Jewish auxiliaries",
+      "losses": "unknown"
+     }
+    ],
+    "victor": "sasanian",
+    "kind": "siege",
+    "significance": "A religious catastrophe for the Christian empire; the True Cross became the symbol of Heraclius's war of revenge."
+   },
+   "sources": [
+    {
+     "a": "Antiochus Strategos",
+     "w": "The Capture of Jerusalem by the Persians"
+    },
+    {
+     "a": "Sebeos",
+     "w": "History",
+     "r": "115-116"
+    },
+    {
+     "a": "Chronicon Paschale",
+     "w": "Chronicon Paschale",
+     "r": "s.a. 614"
+    }
+   ],
+   "scholarship": [
+    "Avni, 'The Persian conquest of Jerusalem (614 CE): an archaeological assessment', BASOR 357 (2010)",
+    "Howard-Johnston, Witnesses to a World Crisis (2010)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "True Cross",
+    "Zacharias",
+    "Antiochus Strategos"
+   ]
+  },
+  {
+   "id": "persians_at_chalcedon_615",
+   "year": 615,
+   "title": "Persian army at Chalcedon; embassy to Khosrow",
+   "type": "diplomacy",
+   "cats": [
+    "diplomatic",
+    "military"
+   ],
+   "importance": 3,
+   "summary": "Shahin's army marched across Anatolia to Chalcedon, opposite Constantinople, in 615. Heraclius parleyed with him and the Senate sent a letter (preserved in the Chronicon Paschale) asking Khosrow to accept Heraclius as his 'son'. Khosrow imprisoned the envoys. Heraclius's desperate measures followed: a silver coin made from church plate and cuts in official pay.",
+   "loc": [
+    29.026,
+    40.991
+   ],
+   "locName": "Chalcedon",
+   "locCertainty": "certain",
+   "war": "roman_sasanian_war_602",
+   "people": [
+    "shahin",
+    "heraclius",
+    "khosrow_ii"
+   ],
+   "polities": [
+    "sasanian",
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Chronicon Paschale",
+     "w": "Chronicon Paschale",
+     "r": "s.a. 615"
+    },
+    {
+     "a": "Sebeos",
+     "w": "History",
+     "r": "122-123"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Senate letter"
+   ]
+  },
+  {
+   "id": "hexagram_615",
+   "year": 615,
+   "title": "Heraclius introduces the silver hexagram",
+   "type": "economic",
+   "cats": [
+    "economic",
+    "religious"
+   ],
+   "importance": 2,
+   "summary": "To pay troops amid the collapse of revenue, Heraclius struck a heavy silver coin, the hexagram (6 grammata, about 6.5 g), from 615, bearing the legend Deus adiuta Romanis ('God help the Romans'). Official salaries were halved in 616, and in 622 church plate was melted down with Patriarch Sergius's consent.",
+   "loc": [
+    28.98,
+    41.01
+   ],
+   "locName": "Constantinople mint",
+   "locCertainty": "certain",
+   "war": "roman_sasanian_war_602",
+   "people": [
+    "heraclius",
+    "sergius_of_constantinople"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Chronicon Paschale",
+     "w": "Chronicon Paschale",
+     "r": "s.a. 615-616"
+    },
+    {
+     "a": "Theophanes",
+     "w": "Chronicle",
+     "r": "AM 6113"
+    }
+   ],
+   "scholarship": [
+    "Hendy, Studies in the Byzantine Monetary Economy (1985)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Deus adiuta Romanis"
+   ]
+  },
+  {
+   "id": "end_of_grain_dole_618",
+   "year": 618,
+   "title": "End of the free bread distribution in Constantinople",
+   "type": "economic",
+   "cats": [
+    "economic",
+    "social"
+   ],
+   "importance": 3,
+   "summary": "With Egypt about to fall, the free bread ration of Constantinople, instituted by Constantine in 332 on the model of Rome's annona, was first made chargeable at 3 nomismata per ration and then abolished altogether in 618. The capital's population, perhaps 400,000-500,000 under Justinian, shrank drastically in the following decades.",
+   "loc": [
+    28.98,
+    41.01
+   ],
+   "locName": "Constantinople",
+   "locCertainty": "certain",
+   "war": "roman_sasanian_war_602",
+   "people": [
+    "heraclius"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Chronicon Paschale",
+     "w": "Chronicon Paschale",
+     "r": "s.a. 618"
+    }
+   ],
+   "scholarship": [
+    "Haldon, Byzantium in the Seventh Century (1990)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "annona civica"
+   ]
+  },
+  {
+   "id": "persian_conquest_of_egypt_619",
+   "year": 619,
+   "title": "Persian conquest of Egypt and fall of Alexandria",
+   "type": "siege",
+   "cats": [
+    "military",
+    "economic"
+   ],
+   "importance": 5,
+   "summary": "Shahrbaraz invaded Egypt in 618 and took Alexandria in 619 after a siege; the city reportedly fell when a defector showed the Persians a way in through a canal or gate during the night, or with the help of a student from Afghanistan in the Enaton monasteries, as later sources say. Egypt, the empire's granary and richest province, remained under Persian rule for a decade.",
+   "loc": [
+    29.92,
+    31.2
+   ],
+   "locName": "Alexandria",
+   "locCertainty": "certain",
+   "war": "roman_sasanian_war_602",
+   "people": [
+    "shahrbaraz",
+    "khosrow_ii",
+    "heraclius"
+   ],
+   "polities": [
+    "sasanian",
+    "rome_east"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome_east",
+      "commanders": [],
+      "strength": "garrison under Nicetas, who escaped to Cyprus",
+      "losses": "city taken"
+     },
+     {
+      "polity": "sasanian",
+      "commanders": [
+       "shahrbaraz"
+      ],
+      "strength": "Persian army",
+      "losses": "unknown"
+     }
+    ],
+    "victor": "sasanian",
+    "kind": "siege",
+    "significance": "Deprived Constantinople of Egyptian grain and tax; the Sasanian empire briefly reached its greatest extent, recreating the Achaemenid western border."
+   },
+   "sources": [
+    {
+     "a": "History of the Patriarchs of Alexandria",
+     "w": "History of the Patriarchs",
+     "r": "Andronicus"
+    },
+    {
+     "a": "Chronicle of Khuzistan",
+     "w": "Chronicle of Khuzistan"
+    },
+    {
+     "a": "Papyri",
+     "w": "Pahlavi papyri from Egypt"
+    }
+   ],
+   "debate": "Narrative sources are late and contradictory; papyri in Middle Persian and Greek show the Persian administration at work in Egypt.",
+   "scholarship": [
+    "Sänger, 'The administration of Sasanian Egypt', GRBS 51 (2011)",
+    "Altheim-Stiehl, 'The Sasanians in Egypt', Bulletin de la Société d'archéologie copte 31 (1992)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Enaton"
+   ]
+  },
+  {
+   "id": "avar_surprise_623",
+   "year": 623,
+   "month": 6,
+   "day": 5,
+   "title": "The 'Avar surprise' at Heraclea",
+   "type": "battle",
+   "cats": [
+    "military",
+    "diplomatic"
+   ],
+   "importance": 3,
+   "summary": "Heraclius rode to Heraclea (Perinthus) on 5 June 623 to meet the Avar khagan for a peace ceremony with chariot races; the khagan had hidden troops to seize him. Heraclius escaped to Constantinople, reportedly carrying his crown under his arm, while the Avars plundered the suburbs, carrying off the regalia, the court's silver and, Nikephoros says, 270,000 captives. Peace was bought for 200,000 nomismata a year.",
+   "loc": [
+    27.96,
+    40.97
+   ],
+   "locName": "Heraclea Perinthus and the suburbs of Constantinople",
+   "locCertainty": "probable",
+   "war": "roman_sasanian_war_602",
+   "people": [
+    "heraclius"
+   ],
+   "polities": [
+    "avars",
+    "rome_east"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome_east",
+      "commanders": [
+       "heraclius"
+      ],
+      "strength": "imperial escort",
+      "losses": "heavy civilian losses and captives"
+     },
+     {
+      "polity": "avars",
+      "commanders": [],
+      "strength": "Avar army",
+      "losses": "none recorded"
+     }
+    ],
+    "victor": "avars",
+    "kind": "ambush",
+    "significance": "Showed the khagan's willingness to strike at Constantinople, a prelude to the joint siege of 626."
+   },
+   "sources": [
+    {
+     "a": "Chronicon Paschale",
+     "w": "Chronicon Paschale",
+     "r": "s.a. 623"
+    },
+    {
+     "a": "Nikephoros",
+     "w": "Short History",
+     "r": "10"
+    },
+    {
+     "a": "Theophanes",
+     "w": "Chronicle",
+     "r": "AM 6110"
+    }
+   ],
+   "debate": "Date disputed: 617 (Theophanes, Nikephoros) or 623 (Chronicon Paschale); Howard-Johnston and Whitby favour 623. The captives figure is surely inflated.",
+   "certainty": "probable",
+   "tags": [
+    "Heraclea"
+   ]
+  },
+  {
+   "id": "heraclius_campaign_622",
+   "year": 622,
+   "month": 4,
+   "day": 5,
+   "title": "Heraclius takes the field against Persia",
+   "type": "campaign",
+   "cats": [
+    "military",
+    "religious"
+   ],
+   "importance": 4,
+   "summary": "After Easter, on 5 April 622, Heraclius left Constantinople carrying an icon of Christ 'not made by human hands', trained his army through the summer in Bithynia and Pontus, and in the autumn outmanoeuvred and defeated Shahrbaraz in the highlands of Cappadocia or Armenia. It was the first emperor-led campaign since Theodosius I.",
+   "loc": [
+    36.0,
+    39.5
+   ],
+   "locName": "Pontus and Cappadocia",
+   "locCertainty": "approx",
+   "war": "roman_sasanian_war_602",
+   "people": [
+    "heraclius",
+    "shahrbaraz",
+    "george_of_pisidia",
+    "sergius_of_constantinople"
+   ],
+   "polities": [
+    "rome_east",
+    "sasanian"
+   ],
+   "sources": [
+    {
+     "a": "George of Pisidia",
+     "w": "Expeditio Persica"
+    },
+    {
+     "a": "Theophanes",
+     "w": "Chronicle",
+     "r": "AM 6113"
+    }
+   ],
+   "debate": "The location and scale of the 622 victory are unclear; George of Pisidia's poem is panegyric, and Theophanes depends on it.",
+   "certainty": "probable",
+   "tags": [
+    "acheiropoietos"
+   ]
+  },
+  {
+   "id": "destruction_of_adur_gushnasp_624",
+   "year": 624,
+   "title": "Heraclius destroys the fire temple of Adur Gushnasp",
+   "type": "campaign",
+   "cats": [
+    "military",
+    "religious"
+   ],
+   "importance": 4,
+   "summary": "Leaving on 25 March 624, Heraclius marched through Armenia via Dvin and Nakhchivan to Atropatene. Khosrow II fled from Ganzak; Heraclius sacked the city and destroyed the great fire temple of Adur Gushnasp at Thebarmais (Takht-i Suleiman), one of the three holiest fires of Zoroastrianism, in revenge for Jerusalem. He wintered in Caucasian Albania.",
+   "loc": [
+    47.235,
+    36.604
+   ],
+   "locName": "Thebarmais (Takht-i Suleiman), Atropatene",
+   "locCertainty": "probable",
+   "war": "roman_sasanian_war_602",
+   "people": [
+    "heraclius",
+    "khosrow_ii"
+   ],
+   "polities": [
+    "rome_east",
+    "sasanian",
+    "caucasian_albania"
+   ],
+   "sources": [
+    {
+     "a": "Theophanes",
+     "w": "Chronicle",
+     "r": "AM 6114"
+    },
+    {
+     "a": "Sebeos",
+     "w": "History",
+     "r": "124"
+    },
+    {
+     "a": "Movses Daskhurantsi",
+     "w": "History of the Caucasian Albanians",
+     "r": "2.10"
+    }
+   ],
+   "scholarship": [
+    "Kaegi, Heraclius (2003)"
+   ],
+   "debate": "Identification of Thebarmais with Takht-i Suleiman is generally accepted; excavations show the sanctuary was rebuilt.",
+   "certainty": "probable",
+   "tags": [
+    "Adur Gushnasp",
+    "Ganzak"
+   ]
+  },
+  {
+   "id": "battle_of_the_sarus_625",
+   "year": 625,
+   "title": "Battle of the Sarus",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "Returning west through Armenia after a season of manoeuvre against three Persian armies, Heraclius met Shahrbaraz across the Sarus river in Cilicia in late 625. When Roman troops crossing the bridge were cut up, Heraclius himself fought on the bridge and killed a giant Persian, throwing him into the river; Shahrbaraz is said to have admired him openly. The Persians withdrew.",
+   "loc": [
+    35.32,
+    37.0
+   ],
+   "locName": "River Sarus (Seyhan), near Adana",
+   "locCertainty": "approx",
+   "war": "roman_sasanian_war_602",
+   "people": [
+    "heraclius",
+    "shahrbaraz"
+   ],
+   "polities": [
+    "rome_east",
+    "sasanian"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome_east",
+      "commanders": [
+       "heraclius"
+      ],
+      "strength": "Heraclius's expeditionary army",
+      "losses": "significant in the first clash"
+     },
+     {
+      "polity": "sasanian",
+      "commanders": [
+       "shahrbaraz"
+      ],
+      "strength": "Shahrbaraz's army",
+      "losses": "unknown"
+     }
+    ],
+    "victor": "indecisive",
+    "kind": "field",
+    "significance": "Shahrbaraz then marched to Chalcedon to join the Avars for the siege of 626."
+   },
+   "sources": [
+    {
+     "a": "Theophanes",
+     "w": "Chronicle",
+     "r": "AM 6115"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "single combat"
+   ]
+  },
+  {
+   "id": "siege_of_constantinople_626",
+   "year": 626,
+   "month": 7,
+   "day": 29,
+   "title": "Avar-Persian siege of Constantinople",
+   "type": "siege",
+   "cats": [
+    "military",
+    "religious"
+   ],
+   "importance": 5,
+   "summary": "From 29 July to 7 August 626 the Avar khagan, with perhaps 80,000 Avars, Slavs, Bulgars and Gepids and siege towers, attacked the Theodosian Walls while Shahrbaraz's army watched from Chalcedon, unable to cross. Heraclius stayed in the East, having sent troops home; the defence was led by the magister Bonus and Patriarch Sergius, who carried icons of the Virgin around the walls. On 7 August the Roman fleet destroyed the Slav monoxyla attempting to ferry Persians and attack the sea walls in the Golden Horn; the khagan burned his engines and withdrew.",
+   "detail": "The victory was credited to the Virgin of Blachernae, whose church lay just outside the walls near the Golden Horn and survived. The Akathist hymn was later associated with the deliverance, and Theodore Syncellus's homily and George of Pisidia's Bellum Avaricum celebrate it. Meanwhile Heraclius's brother Theodore defeated Shahin in Mesopotamia or Armenia. The khagan's failure began the decline of Avar hegemony over the Slavs, with the revolt of Samo's Slavs and the rise of Kubrat's Bulgars.",
+   "loc": [
+    28.94,
+    41.04
+   ],
+   "locName": "Constantinople (Theodosian Walls and Golden Horn)",
+   "locCertainty": "certain",
+   "war": "roman_sasanian_war_602",
+   "people": [
+    "sergius_of_constantinople",
+    "shahrbaraz",
+    "heraclius",
+    "george_of_pisidia",
+    "theodore_brother_of_heraclius",
+    "shahin"
+   ],
+   "polities": [
+    "rome_east",
+    "avars",
+    "slavs",
+    "sasanian",
+    "bulgars"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome_east",
+      "commanders": [
+       "sergius_of_constantinople"
+      ],
+      "strength": "12,000 cavalry sent by Heraclius plus citizens and fleet; commander the magister Bonus",
+      "losses": "light"
+     },
+     {
+      "polity": "avars",
+      "commanders": [],
+      "strength": "80,000 (Chronicon Paschale) Avars, Slavs, Bulgars and Gepids; Persian army of Shahrbaraz at Chalcedon",
+      "losses": "heavy, especially among Slavs in the Golden Horn"
+     }
+    ],
+    "victor": "rome_east",
+    "kind": "siege",
+    "significance": "The turning point of the war: the capital survived, the Avar-Persian coalition collapsed, and Heraclius was free to strike Persia's heart."
+   },
+   "sources": [
+    {
+     "a": "Chronicon Paschale",
+     "w": "Chronicon Paschale",
+     "r": "s.a. 626"
+    },
+    {
+     "a": "Theodore Syncellus",
+     "w": "Homily on the Siege of Constantinople"
+    },
+    {
+     "a": "George of Pisidia",
+     "w": "Bellum Avaricum"
+    },
+    {
+     "a": "Nikephoros",
+     "w": "Short History",
+     "r": "13"
+    }
+   ],
+   "scholarship": [
+    "Howard-Johnston, 'The siege of Constantinople in 626', in Mango & Dagron (eds.), Constantinople and its Hinterland (1995)",
+    "Pohl, The Avars (2018)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Bonus",
+    "Blachernae",
+    "monoxyla",
+    "Akathist"
+   ]
+  },
+  {
+   "id": "siege_of_tbilisi_627",
+   "year": 627,
+   "title": "Siege of Tbilisi with the Western Turks",
+   "type": "siege",
+   "cats": [
+    "military",
+    "diplomatic"
+   ],
+   "importance": 3,
+   "summary": "Heraclius allied with the Western Turkic Khaganate, whose forces under Böri Shad (a relative of the yabghu Tong) broke through the Caspian Gates at Derbent in 626 and joined Heraclius before Tbilisi in 627. Heraclius met the Turkic leader (Ziebel in Theophanes), placed his own crown on his head and promised his daughter Eudocia in marriage. The defenders mocked the Turks; the siege failed and the Turks withdrew for the winter, but left 40,000 men with Heraclius.",
+   "loc": [
+    44.79,
+    41.69
+   ],
+   "locName": "Tiflis (Tbilisi), Iberia",
+   "locCertainty": "certain",
+   "war": "roman_sasanian_war_602",
+   "people": [
+    "heraclius"
+   ],
+   "polities": [
+    "rome_east",
+    "western_turks",
+    "sasanian"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome_east",
+      "commanders": [
+       "heraclius"
+      ],
+      "strength": "Roman army with Turkic allies",
+      "losses": "unknown"
+     },
+     {
+      "polity": "sasanian",
+      "commanders": [],
+      "strength": "Persian and Iberian garrison",
+      "losses": "unknown"
+     }
+    ],
+    "victor": "sasanian",
+    "kind": "siege",
+    "significance": "The siege failed, but the Turkic alliance gave Heraclius the manpower for his winter invasion of Mesopotamia."
+   },
+   "sources": [
+    {
+     "a": "Theophanes",
+     "w": "Chronicle",
+     "r": "AM 6117"
+    },
+    {
+     "a": "Movses Daskhurantsi",
+     "w": "History of the Caucasian Albanians",
+     "r": "2.11-2.14"
+    },
+    {
+     "a": "Nikephoros",
+     "w": "Short History",
+     "r": "12"
+    }
+   ],
+   "debate": "The identity of Ziebel (Tong Yabghu or a Khazar/Turkic subordinate) is debated.",
+   "certainty": "probable",
+   "tags": [
+    "Ziebel",
+    "Böri Shad",
+    "Derbent"
+   ]
+  },
+  {
+   "id": "battle_of_nineveh",
+   "year": 627,
+   "month": 12,
+   "day": 12,
+   "title": "Battle of Nineveh",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 5,
+   "summary": "Heraclius invaded Assyria in autumn 627 and on 12 December 627 fought the Persian army of Rhahzadh near the ruins of Nineveh. In an eleven-hour battle in fog, Heraclius, on his horse Dorkon, is said to have killed Rhahzadh in single combat and two other champions; the Persian army was destroyed, losing 6,000 men and 28 standards (Theophanes). Heraclius then marched on Khosrow's palace at Dastagird.",
+   "detail": "The battle broke Khosrow II's last field army. Heraclius plundered Dastagird in January 628, recovering 300 Roman standards taken over the war, but did not attack Ctesiphon, protected by its canals. On 23-25 February 628 Persian nobles, including Shahrbaraz's faction and the general Gurdanaspa, deposed Khosrow in favour of his son Kavad II Shiroe; Khosrow was executed days later. The Persian collapse into civil war was almost as fatal to the Sasanian empire as the Roman victory.",
+   "loc": [
+    43.15,
+    36.36
+   ],
+   "locName": "Near Nineveh, on the Tigris",
+   "locCertainty": "probable",
+   "war": "roman_sasanian_war_602",
+   "people": [
+    "heraclius",
+    "khosrow_ii"
+   ],
+   "polities": [
+    "rome_east",
+    "sasanian",
+    "western_turks"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome_east",
+      "commanders": [
+       "heraclius"
+      ],
+      "strength": "perhaps 25,000-50,000 (modern estimates)",
+      "losses": "c. 50 killed (Theophanes, implausibly low)"
+     },
+     {
+      "polity": "sasanian",
+      "commanders": [],
+      "strength": "c. 12,000 under Rhahzadh",
+      "losses": "6,000 and commander killed; 28 standards taken"
+     }
+    ],
+    "victor": "rome_east",
+    "kind": "field",
+    "significance": "The decisive battle of the last Roman-Persian war; within weeks Khosrow II was overthrown and Persia sued for peace."
+   },
+   "sources": [
+    {
+     "a": "Theophanes",
+     "w": "Chronicle",
+     "r": "AM 6118"
+    },
+    {
+     "a": "Chronicon Paschale",
+     "w": "Chronicon Paschale",
+     "r": "s.a. 628 (Heraclius's dispatch)"
+    },
+    {
+     "a": "Sebeos",
+     "w": "History",
+     "r": "126"
+    }
+   ],
+   "scholarship": [
+    "Kaegi, Heraclius (2003)",
+    "Howard-Johnston, Witnesses to a World Crisis (2010)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Rhahzadh",
+    "Dorkon",
+    "Dastagird"
+   ]
+  },
+  {
+   "id": "fall_of_khosrow_ii_628",
+   "year": 628,
+   "month": 2,
+   "day": 25,
+   "title": "Overthrow of Khosrow II and peace with Persia",
+   "type": "treaty",
+   "cats": [
+    "political",
+    "diplomatic"
+   ],
+   "importance": 4,
+   "summary": "Khosrow II was deposed in a palace coup around 23-25 February 628 and killed by order of his son Kavad II, who made peace with Heraclius in April: return of all Roman territory, prisoners and the True Cross. Heraclius's dispatch announcing the death of the 'God-hating' Khosrow was read from the ambo of Hagia Sophia on 15 May 628.",
+   "loc": [
+    44.58,
+    33.09
+   ],
+   "locName": "Ctesiphon",
+   "locCertainty": "certain",
+   "war": "roman_sasanian_war_602",
+   "people": [
+    "khosrow_ii",
+    "heraclius",
+    "shahrbaraz"
+   ],
+   "polities": [
+    "sasanian",
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Chronicon Paschale",
+     "w": "Chronicon Paschale",
+     "r": "s.a. 628"
+    },
+    {
+     "a": "Sebeos",
+     "w": "History",
+     "r": "127"
+    },
+    {
+     "a": "Tabari",
+     "w": "History",
+     "r": "I 1043-1061"
+    }
+   ],
+   "debate": "Kavad II died of plague within months; Shahrbaraz agreed at Arabissos in July 629 to evacuate Egypt and Syria, then seized the Persian throne in 630 and was murdered after 40 days.",
+   "certainty": "certain",
+   "tags": [
+    "Kavad II Shiroe",
+    "Arabissos"
+   ]
+  },
+  {
+   "id": "restoration_of_the_true_cross_630",
+   "year": 630,
+   "month": 3,
+   "day": 21,
+   "title": "Heraclius restores the True Cross to Jerusalem",
+   "type": "religious",
+   "cats": [
+    "religious",
+    "political"
+   ],
+   "importance": 4,
+   "summary": "On 21 March 630 (some argue 629) Heraclius entered Jerusalem in procession with the True Cross, recovered from Shahrbaraz's custody, and restored it to the Church of the Holy Sepulchre. Later legend has him unable to pass the gate on horseback in imperial regalia until he dismounted and walked barefoot. The feast of the Exaltation of the Cross acquired this story.",
+   "loc": [
+    35.2296,
+    31.7785
+   ],
+   "locName": "Church of the Holy Sepulchre, Jerusalem",
+   "locCertainty": "certain",
+   "war": "roman_sasanian_war_602",
+   "people": [
+    "heraclius",
+    "shahrbaraz",
+    "sophronius"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Sebeos",
+     "w": "History",
+     "r": "131"
+    },
+    {
+     "a": "Strategius / Antiochus",
+     "w": "Capture of Jerusalem (appendix)"
+    },
+    {
+     "a": "Nikephoros",
+     "w": "Short History",
+     "r": "18"
+    }
+   ],
+   "debate": "Date debated: 21 March 630 is preferred by most; Zuckerman argues for 629. Some contemporaries interpreted the moment eschatologically, and some scholars connect it with Heraclius's later order for the forced baptism of Jews (632), whose extent is disputed.",
+   "scholarship": [
+    "Drijvers, 'Heraclius and the restitutio crucis', in Reinink & Stolte (eds.), The Reign of Heraclius (2002)",
+    "Zuckerman, 'Heraclius and the return of the Holy Cross', Travaux et Mémoires 17 (2013)"
+   ],
+   "certainty": "probable",
+   "tags": [
+    "Exaltation of the Cross"
+   ]
+  },
+  {
+   "id": "heraclius_title_basileus_629",
+   "year": 629,
+   "month": 3,
+   "title": "Heraclius adopts the title basileus",
+   "type": "constitutional",
+   "cats": [
+    "constitutional",
+    "political"
+   ],
+   "importance": 3,
+   "summary": "In a law of March 629 Heraclius styled himself pistos en Christo basileus ('faithful in Christ, emperor') instead of the traditional Latin imperator Caesar Augustus rendered in Greek. Basileus, the old Greek word for king, which Romans had long avoided for themselves, became the official imperial title; Greek fully displaced Latin in government in these decades.",
+   "loc": [
+    28.98,
+    41.01
+   ],
+   "locName": "Constantinople",
+   "locCertainty": "certain",
+   "people": [
+    "heraclius"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Heraclius",
+     "w": "Novels",
+     "r": "Novel of 21 March 629 (ed. Konidaris)"
+    }
+   ],
+   "debate": "A classic marker in narratives of 'Byzantinisation'. Kaldellis argues the term 'Byzantine' is a post-1550 invention and that the subjects of Heraclius called themselves Romans and their state Romanía; title changes reflect usage, not a new state. Shahid connected the title with the Persian victory over a 'king of kings'.",
+   "scholarship": [
+    "Shahid, 'The Iranian factor in Byzantium during the reign of Heraclius', DOP 26 (1972)",
+    "Kaldellis, Romanland: Ethnicity and Empire in Byzantium (2019)",
+    "Chrysos, 'The title basileus in early Byzantine international relations', DOP 32 (1978)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "basileus",
+    "Byzantine"
+   ]
+  },
+  {
+   "id": "hijra_622",
+   "year": 622,
+   "month": 9,
+   "title": "The Hijra: Muhammad moves to Medina",
+   "type": "religious",
+   "cats": [
+    "religious",
+    "political"
+   ],
+   "importance": 4,
+   "summary": "In September 622, persecuted at Mecca, Muhammad and his followers migrated to Yathrib, later Medina, where he became arbiter of its tribes; the so-called Constitution of Medina defined a community (umma) including Jewish clans. The year was later fixed as the start of the Islamic calendar under Umar.",
+   "loc": [
+    39.61,
+    24.47
+   ],
+   "locName": "Yathrib (Medina)",
+   "locCertainty": "certain",
+   "people": [
+    "muhammad",
+    "abu_bakr",
+    "umar"
+   ],
+   "polities": [
+    "medinan_state",
+    "arab_tribes"
+   ],
+   "sources": [
+    {
+     "a": "Ibn Ishaq",
+     "w": "Sira (via Ibn Hisham)"
+    },
+    {
+     "a": "Tabari",
+     "w": "History",
+     "r": "I 1228-1262"
+    }
+   ],
+   "debate": "Islamic sources are later than the events by 150 years or more and were shaped by later concerns; revisionist scholarship (Crone, Cook) once questioned much of the traditional narrative, while Donner and Hoyland reconstruct a core supported by early non-Muslim sources.",
+   "scholarship": [
+    "Donner, Muhammad and the Believers (2010)",
+    "Hoyland, Seeing Islam as Others Saw It (1997)"
+   ],
+   "certainty": "traditional",
+   "tags": [
+    "umma",
+    "Constitution of Medina"
+   ]
+  },
+  {
+   "id": "battle_of_mutah",
+   "year": 629,
+   "month": 9,
+   "title": "Battle of Mu'ta",
+   "type": "battle",
+   "cats": [
+    "military",
+    "religious"
+   ],
+   "importance": 3,
+   "summary": "A Muslim force of some 3,000 sent north by Muhammad met Roman troops and their Arab allies (Ghassanid, Lakhm, Judham, Bali) at Mu'ta, east of the Dead Sea, in September 629. The three successive Muslim commanders, Zayd ibn Haritha, Ja'far ibn Abi Talib and Abd Allah ibn Rawaha, were killed; Khalid ibn al-Walid extracted the survivors.",
+   "loc": [
+    35.7,
+    31.08
+   ],
+   "locName": "Mu'ta, near Karak (Jordan)",
+   "locCertainty": "probable",
+   "war": "arab_roman_war_634",
+   "people": [
+    "muhammad",
+    "khalid_ibn_al_walid",
+    "heraclius"
+   ],
+   "polities": [
+    "medinan_state",
+    "rome_east",
+    "ghassanids"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "medinan_state",
+      "commanders": [
+       "khalid_ibn_al_walid"
+      ],
+      "strength": "c. 3,000 (Muslim tradition)",
+      "losses": "leaders killed; small number of others"
+     },
+     {
+      "polity": "rome_east",
+      "commanders": [],
+      "strength": "100,000-200,000 (Muslim tradition, impossible); local garrison and Arab federates under the vicarius Theodore",
+      "losses": "unknown"
+     }
+    ],
+    "victor": "rome_east",
+    "kind": "field",
+    "significance": "The first clash between Rome and the new Islamic state; Theophanes records it as a Roman victory, Muslim sources as an honourable withdrawal."
+   },
+   "sources": [
+    {
+     "a": "Theophanes",
+     "w": "Chronicle",
+     "r": "AM 6123"
+    },
+    {
+     "a": "Ibn Ishaq",
+     "w": "Sira (via Ibn Hisham)",
+     "r": "791-802"
+    },
+    {
+     "a": "al-Waqidi",
+     "w": "Kitab al-Maghazi"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Zayd ibn Haritha",
+    "Ja'far"
+   ]
+  },
+  {
+   "id": "death_of_muhammad_632",
+   "year": 632,
+   "month": 6,
+   "day": 8,
+   "title": "Death of Muhammad",
+   "type": "death",
+   "cats": [
+    "religious",
+    "political"
+   ],
+   "importance": 4,
+   "summary": "Muhammad died at Medina on 8 June 632 (traditional date). Abu Bakr was chosen as his successor (khalifa) and spent 632-633 suppressing the Ridda, the defection of Arabian tribes, uniting the peninsula under Medina for the first time and creating the forces that would be turned on Syria and Iraq.",
+   "loc": [
+    39.61,
+    24.47
+   ],
+   "locName": "Medina",
+   "locCertainty": "certain",
+   "people": [
+    "muhammad",
+    "abu_bakr",
+    "umar",
+    "khalid_ibn_al_walid"
+   ],
+   "polities": [
+    "medinan_state",
+    "rashidun"
+   ],
+   "sources": [
+    {
+     "a": "Ibn Ishaq",
+     "w": "Sira (via Ibn Hisham)"
+    },
+    {
+     "a": "Tabari",
+     "w": "History",
+     "r": "I 1810-1845"
+    }
+   ],
+   "debate": "The Doctrina Jacobi nuper baptizati (written c. 634) mentions a prophet 'appearing with the Saracens' as if still alive, prompting debate about the traditional chronology.",
+   "certainty": "traditional",
+   "tags": [
+    "Ridda",
+    "caliphate"
+   ]
+  },
+  {
+   "id": "pact_of_union_633",
+   "year": 633,
+   "month": 6,
+   "day": 3,
+   "title": "Monoenergism: the Pact of Union at Alexandria",
+   "type": "religious",
+   "cats": [
+    "religious",
+    "political"
+   ],
+   "importance": 3,
+   "summary": "Cyrus, Heraclius's appointee as patriarch of Alexandria, united the Chalcedonians and the Theodosian miaphysites on 3 June 633 on the formula that Christ acted through 'one theandric energy', a compromise devised by Patriarch Sergius and the emperor. The monk Sophronius protested, and in 634 Sergius forbade further talk of energies.",
+   "loc": [
+    29.92,
+    31.2
+   ],
+   "locName": "Alexandria",
+   "locCertainty": "certain",
+   "people": [
+    "cyrus_of_alexandria",
+    "sergius_of_constantinople",
+    "sophronius",
+    "heraclius"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Acta Conciliorum Oecumenicorum",
+     "w": "ACO ser. 2, II (Acts of the Sixth Council)"
+    },
+    {
+     "a": "Sophronius",
+     "w": "Synodical Letter"
+    }
+   ],
+   "scholarship": [
+    "Booth, Crisis of Empire: Doctrine and Dissent at the End of Late Antiquity (2014)",
+    "Allen (ed.), Sophronius of Jerusalem and Seventh-Century Heresy (2009)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Monoenergism"
+   ]
+  },
+  {
+   "id": "battle_of_dathin",
+   "year": 634,
+   "month": 2,
+   "day": 4,
+   "title": "Battle of Dathin",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "Near Gaza on 4 February 634, an Arab army under Yazid ibn Abi Sufyan defeated a Roman force under the candidatus Sergius, perhaps dux of Palestine; Sergius was killed. The Syriac Chronicle of 640 by Thomas the Presbyter notes 'a battle between the Romans and the Arabs of Muhammad' with 4,000 Palestinian villagers killed, the first securely dated event of the conquest in a non-Muslim source.",
+   "loc": [
+    34.5,
+    31.4
+   ],
+   "locName": "Dathin, near Gaza",
+   "locCertainty": "approx",
+   "war": "arab_roman_war_634",
+   "people": [
+    "abu_bakr"
+   ],
+   "polities": [
+    "rashidun",
+    "rome_east"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rashidun",
+      "commanders": [],
+      "strength": "Arab army under Yazid ibn Abi Sufyan",
+      "losses": "unknown"
+     },
+     {
+      "polity": "rome_east",
+      "commanders": [],
+      "strength": "local Roman forces under the candidatus Sergius",
+      "losses": "commander killed; 4,000 villagers killed (Thomas the Presbyter)"
+     }
+    ],
+    "victor": "rashidun",
+    "kind": "field",
+    "significance": "Opened southern Palestine to the conquerors."
+   },
+   "sources": [
+    {
+     "a": "Thomas the Presbyter",
+     "w": "Chronicle of 640"
+    },
+    {
+     "a": "Doctrina Jacobi",
+     "w": "Doctrina Jacobi nuper baptizati",
+     "r": "5.16"
+    },
+    {
+     "a": "Theophanes",
+     "w": "Chronicle",
+     "r": "AM 6124"
+    }
+   ],
+   "scholarship": [
+    "Hoyland, In God's Path (2015)",
+    "Kaegi, Byzantium and the Early Islamic Conquests (1992)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Thomas the Presbyter",
+    "candidatus Sergius"
+   ]
+  },
+  {
+   "id": "khalids_desert_march_634",
+   "year": 634,
+   "month": 3,
+   "title": "Khalid ibn al-Walid's desert crossing",
+   "type": "campaign",
+   "cats": [
+    "military"
+   ],
+   "importance": 4,
+   "summary": "Ordered by Abu Bakr to reinforce the armies in Syria, Khalid led perhaps 500-800 picked men from Iraq across the waterless desert between Qurraqir and Suwa in about five days, watering camels in advance and slaughtering some to drink the water stored in their stomachs, according to tradition. He appeared near Damascus at Marj Rahit around Easter 634, took Bosra and joined the other commanders.",
+   "loc": [
+    37.5,
+    32.8
+   ],
+   "locName": "Syrian desert to Marj Rahit",
+   "locCertainty": "approx",
+   "war": "arab_roman_war_634",
+   "people": [
+    "khalid_ibn_al_walid",
+    "abu_bakr"
+   ],
+   "polities": [
+    "rashidun",
+    "rome_east",
+    "ghassanids"
+   ],
+   "sources": [
+    {
+     "a": "Tabari",
+     "w": "History",
+     "r": "I 2108-2125"
+    },
+    {
+     "a": "al-Baladhuri",
+     "w": "Futuh al-Buldan",
+     "r": "110-112"
+    }
+   ],
+   "debate": "The route and timing are reconstructed from contradictory Arabic traditions; Donner discusses at least four route variants.",
+   "scholarship": [
+    "Donner, The Early Islamic Conquests (1981)",
+    "Kennedy, The Great Arab Conquests (2007)"
+   ],
+   "certainty": "disputed",
+   "tags": [
+    "Qurraqir",
+    "Suwa"
+   ]
+  },
+  {
+   "id": "battle_of_ajnadayn",
+   "year": 634,
+   "month": 7,
+   "day": 30,
+   "title": "Battle of Ajnadayn",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 4,
+   "summary": "The united Arab armies, including Khalid, defeated a Roman army in southern Palestine at Ajnadayn, between Ramla and Beit Guvrin, traditionally on 30 July 634. Arab tradition names its commander as 'Artabun'; Theodore, Heraclius's brother, may have been in command in the region. Palestine's open country fell to the invaders; cities held out behind their walls.",
+   "loc": [
+    34.9,
+    31.61
+   ],
+   "locName": "Ajnadayn, near Beit Guvrin",
+   "locCertainty": "disputed",
+   "war": "arab_roman_war_634",
+   "people": [
+    "khalid_ibn_al_walid",
+    "amr_ibn_al_as",
+    "theodore_brother_of_heraclius"
+   ],
+   "polities": [
+    "rashidun",
+    "rome_east"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rashidun",
+      "commanders": [
+       "khalid_ibn_al_walid",
+       "amr_ibn_al_as"
+      ],
+      "strength": "perhaps 15,000-20,000",
+      "losses": "unknown"
+     },
+     {
+      "polity": "rome_east",
+      "commanders": [],
+      "strength": "Roman field army of Palestine, size unknown (Arab sources: 100,000)",
+      "losses": "heavy"
+     }
+    ],
+    "victor": "rashidun",
+    "kind": "field",
+    "significance": "The first major pitched-battle victory of the conquests in Syria."
+   },
+   "sources": [
+    {
+     "a": "al-Baladhuri",
+     "w": "Futuh al-Buldan",
+     "r": "113-114"
+    },
+    {
+     "a": "Tabari",
+     "w": "History",
+     "r": "I 2125-2126"
+    }
+   ],
+   "debate": "Date (July 634 or 635), location and commanders are all disputed; some suggest Ajnadayn and Fahl have been confused in the tradition.",
+   "certainty": "probable",
+   "tags": [
+    "Artabun"
+   ]
+  },
+  {
+   "id": "battle_of_fahl",
+   "year": 635,
+   "month": 1,
+   "title": "Battle of Fahl (Pella)",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "Roman troops who had flooded the Jordan valley around Baysan to block the Arabs were defeated near Pella (Fahl) in January 635, a battle the tradition calls 'the Day of the Mud'. Jordan and the Galilee fell, and the road to Damascus was open.",
+   "loc": [
+    35.62,
+    32.45
+   ],
+   "locName": "Pella (Fahl), Jordan valley",
+   "locCertainty": "probable",
+   "war": "arab_roman_war_634",
+   "people": [
+    "khalid_ibn_al_walid",
+    "abu_ubayda"
+   ],
+   "polities": [
+    "rashidun",
+    "rome_east"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rashidun",
+      "commanders": [
+       "abu_ubayda",
+       "khalid_ibn_al_walid"
+      ],
+      "strength": "Arab armies of Syria",
+      "losses": "unknown"
+     },
+     {
+      "polity": "rome_east",
+      "commanders": [],
+      "strength": "Roman army including Ajnadayn survivors",
+      "losses": "heavy"
+     }
+    ],
+    "victor": "rashidun",
+    "kind": "field",
+    "significance": "Secured the Jordan valley and isolated Damascus."
+   },
+   "sources": [
+    {
+     "a": "al-Baladhuri",
+     "w": "Futuh al-Buldan",
+     "r": "115-116"
+    },
+    {
+     "a": "Tabari",
+     "w": "History",
+     "r": "I 2145-2155"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "Day of the Mud"
+   ]
+  },
+  {
+   "id": "siege_of_damascus_635",
+   "year": 635,
+   "month": 9,
+   "title": "Surrender of Damascus",
+   "type": "siege",
+   "cats": [
+    "military",
+    "diplomatic"
+   ],
+   "importance": 4,
+   "summary": "After a six-month blockade, Damascus surrendered in September 635 on terms negotiated, according to tradition, by Mansur ibn Sarjun, the city's fiscal official and grandfather of John of Damascus: security of life, property and churches in return for tribute. Khalid is said to have entered by force at the east gate at the same time Abu Ubayda entered by treaty at the west.",
+   "loc": [
+    36.306,
+    33.511
+   ],
+   "locName": "Damascus",
+   "locCertainty": "certain",
+   "war": "arab_roman_war_634",
+   "people": [
+    "khalid_ibn_al_walid",
+    "abu_ubayda"
+   ],
+   "polities": [
+    "rashidun",
+    "rome_east"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome_east",
+      "commanders": [],
+      "strength": "city garrison",
+      "losses": "city surrendered"
+     },
+     {
+      "polity": "rashidun",
+      "commanders": [
+       "khalid_ibn_al_walid",
+       "abu_ubayda"
+      ],
+      "strength": "Arab armies of Syria",
+      "losses": "light"
+     }
+    ],
+    "victor": "rashidun",
+    "kind": "siege",
+    "significance": "Gave the conquerors the main city of interior Syria; abandoned briefly before Yarmuk, it was reoccupied in 636 and became the Umayyad capital in 661."
+   },
+   "sources": [
+    {
+     "a": "al-Baladhuri",
+     "w": "Futuh al-Buldan",
+     "r": "120-127"
+    },
+    {
+     "a": "Theophanes",
+     "w": "Chronicle",
+     "r": "AM 6125"
+    }
+   ],
+   "debate": "The tale of the two gates is an etiological explanation for the city being treated partly as conquered by force and partly by treaty.",
+   "certainty": "probable",
+   "tags": [
+    "Mansur ibn Sarjun"
+   ]
+  },
+  {
+   "id": "battle_of_the_yarmuk",
+   "year": 636,
+   "month": 8,
+   "day": 20,
+   "title": "Battle of the Yarmuk",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 5,
+   "summary": "Heraclius gathered a great army in 636 under the Armenian Vahan, the sakellarios Theodore Trithyrios, and the Ghassanid king Jabala ibn al-Ayham, which forced the Arabs to abandon Damascus and Emesa. The Arabs concentrated on the plateau near the Yarmuk river, and after weeks of skirmishing and some six days of battle, traditionally ending on 20 August 636, the Roman army was routed, many trapped against the ravine of the Wadi al-Ruqqad.",
+   "detail": "Arab sources inflate the Roman army to 100,000-240,000; modern estimates range from 15,000-40,000 Romans against 20,000-40,000 Arabs. Kaegi stresses Roman command friction (Vahan was briefly proclaimed emperor by his troops according to one source), unpaid and mutinous soldiers, the defection or wavering of Christian Arab allies, and Arab mastery of mobile warfare on terrain they chose. Heraclius, at Antioch, left Syria; Baladhuri preserves his farewell from a height: 'Peace be upon you, Syria, and what a fine land you are for the enemy.' The whole of Syria south of the Taurus was lost within four years.",
+   "loc": [
+    35.95,
+    32.8
+   ],
+   "locName": "Yarmuk river and Wadi al-Ruqqad, Golan / Hauran",
+   "locCertainty": "approx",
+   "war": "arab_roman_war_634",
+   "people": [
+    "vahan",
+    "khalid_ibn_al_walid",
+    "abu_ubayda",
+    "heraclius",
+    "umar",
+    "amr_ibn_al_as"
+   ],
+   "polities": [
+    "rashidun",
+    "rome_east",
+    "ghassanids",
+    "armenian_nakharars"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rashidun",
+      "commanders": [
+       "abu_ubayda",
+       "khalid_ibn_al_walid"
+      ],
+      "strength": "perhaps 20,000-40,000",
+      "losses": "several thousand (Arab sources: 3,000)"
+     },
+     {
+      "polity": "rome_east",
+      "commanders": [
+       "vahan"
+      ],
+      "strength": "perhaps 15,000-40,000 (Arab sources: 100,000-240,000), incl. Armenians and Ghassanids",
+      "losses": "army destroyed; Theodore Trithyrios killed"
+     }
+    ],
+    "victor": "rashidun",
+    "kind": "field",
+    "significance": "One of the most consequential battles in history: it ended Roman rule in Syria and Palestine after seven centuries and opened the way to Egypt and Mesopotamia."
+   },
+   "sources": [
+    {
+     "a": "al-Baladhuri",
+     "w": "Futuh al-Buldan",
+     "r": "135-137"
+    },
+    {
+     "a": "Tabari",
+     "w": "History",
+     "r": "I 2087-2100, 2347-2349"
+    },
+    {
+     "a": "Theophanes",
+     "w": "Chronicle",
+     "r": "AM 6126"
+    },
+    {
+     "a": "Sebeos",
+     "w": "History",
+     "r": "135-136"
+    }
+   ],
+   "debate": "Date (Arab sources give dates from 634 to 636), sequence, and numbers are all disputed; Arabic accounts are later reconstructions with literary topoi (sandstorms, oaths, women fighting in the rear).",
+   "scholarship": [
+    "Kaegi, Byzantium and the Early Islamic Conquests (1992)",
+    "Donner, The Early Islamic Conquests (1981)",
+    "Hoyland, In God's Path (2015)",
+    "Jandora, 'The battle of the Yarmuk: a reconstruction', Journal of Asian History 19 (1985)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Vahan",
+    "Jabala ibn al-Ayham",
+    "Wadi al-Ruqqad"
+   ]
+  },
+  {
+   "id": "siege_of_jerusalem_637",
+   "year": 637,
+   "title": "Surrender of Jerusalem to Umar",
+   "type": "siege",
+   "cats": [
+    "military",
+    "religious",
+    "diplomatic"
+   ],
+   "importance": 4,
+   "summary": "Blockaded since 636, Jerusalem under Patriarch Sophronius surrendered in 637 or early 638 on condition that the caliph Umar come in person to accept it. Tradition tells of Umar arriving in a simple patched cloak, touring the Holy Sepulchre but praying outside so that Muslims would not claim it, and clearing the Temple Mount. Sophronius, who had lamented the 'Saracens' in his Christmas sermon of 634, died soon after.",
+   "loc": [
+    35.2316,
+    31.7767
+   ],
+   "locName": "Jerusalem",
+   "locCertainty": "certain",
+   "war": "arab_roman_war_634",
+   "people": [
+    "umar",
+    "sophronius",
+    "abu_ubayda"
+   ],
+   "polities": [
+    "rashidun",
+    "rome_east"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome_east",
+      "commanders": [
+       "sophronius"
+      ],
+      "strength": "citizens and small garrison",
+      "losses": "surrendered on terms"
+     },
+     {
+      "polity": "rashidun",
+      "commanders": [
+       "abu_ubayda"
+      ],
+      "strength": "Arab blockading force",
+      "losses": "light"
+     }
+    ],
+    "victor": "rashidun",
+    "kind": "siege",
+    "significance": "The holy city of Christianity passed to Muslim rule, which lasted, apart from 1099-1187 and 1229-1244, until 1917."
+   },
+   "sources": [
+    {
+     "a": "Sophronius",
+     "w": "Christmas Sermon (634)"
+    },
+    {
+     "a": "Theophanes",
+     "w": "Chronicle",
+     "r": "AM 6127"
+    },
+    {
+     "a": "Tabari",
+     "w": "History",
+     "r": "I 2402-2406"
+    }
+   ],
+   "debate": "The 'Covenant of Umar' text granted to Jerusalem's Christians is a later composition; the date of surrender (636, 637 or 638) is disputed.",
+   "certainty": "certain",
+   "tags": [
+    "Covenant of Umar",
+    "Temple Mount"
+   ]
+  },
+  {
+   "id": "plague_of_amwas_638",
+   "year": 638,
+   "endYear": 639,
+   "title": "Plague of Amwas",
+   "type": "plague",
+   "cats": [
+    "disaster"
+   ],
+   "importance": 2,
+   "summary": "A wave of the Justinianic plague struck the Arab armies in Syria and Palestine in 638-639, named for their camp at Emmaus (Amwas). Arab tradition says 25,000 died, including the commanders Abu Ubayda and Yazid ibn Abi Sufyan, whose brother Mu'awiya succeeded him in Syria.",
+   "loc": [
+    34.99,
+    31.84
+   ],
+   "locName": "Emmaus-Nicopolis (Amwas)",
+   "locCertainty": "certain",
+   "war": "arab_roman_war_634",
+   "people": [
+    "abu_ubayda",
+    "umar"
+   ],
+   "polities": [
+    "rashidun"
+   ],
+   "sources": [
+    {
+     "a": "Tabari",
+     "w": "History",
+     "r": "I 2516-2524"
+    },
+    {
+     "a": "al-Baladhuri",
+     "w": "Futuh al-Buldan",
+     "r": "139-140"
+    }
+   ],
+   "scholarship": [
+    "Conrad, 'Umar at Sargh: the evolution of an Umayyad tradition on flight from the plague', in Leder (ed.), Story-telling in the Framework of Non-fictional Arabic Literature (1998)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Mu'awiya"
+   ]
+  },
+  {
+   "id": "ecthesis_638",
+   "year": 638,
+   "title": "The Ecthesis: Monotheletism decreed",
+   "type": "religious",
+   "cats": [
+    "religious",
+    "law"
+   ],
+   "importance": 3,
+   "summary": "Drafted by Patriarch Sergius and posted in the narthex of Hagia Sophia in 638, Heraclius's Ecthesis forbade discussion of 'one or two energies' and declared that Christ had a single will. Councils in Constantinople accepted it; Rome rejected it, and its condemnation at the Sixth Ecumenical Council in 680-681 made Heraclius a posthumous heretic in Chalcedonian eyes.",
+   "loc": [
+    28.9802,
+    41.0086
+   ],
+   "locName": "Hagia Sophia, Constantinople",
+   "locCertainty": "certain",
+   "people": [
+    "heraclius",
+    "sergius_of_constantinople",
+    "sophronius"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Acta Conciliorum Oecumenicorum",
+     "w": "ACO ser. 2, I (Lateran Council of 649), text of the Ecthesis"
+    }
+   ],
+   "scholarship": [
+    "Booth, Crisis of Empire (2014)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Monotheletism"
+   ]
+  },
+  {
+   "id": "fall_of_mesopotamia_639",
+   "year": 639,
+   "endYear": 640,
+   "title": "Arab conquest of Roman Mesopotamia",
+   "type": "campaign",
+   "cats": [
+    "military",
+    "diplomatic"
+   ],
+   "importance": 3,
+   "summary": "After Antioch and northern Syria fell in 637-638, Iyad ibn Ghanm crossed the Euphrates and in 639-640 took the cities of the Jazira, Raqqa, Edessa, Harran, Amida, Dara and Resaina, mostly by treaty. Edessa surrendered on terms that the Arabs would keep its walls and churches, and pay tribute.",
+   "loc": [
+    38.79,
+    37.15
+   ],
+   "locName": "Edessa and the Jazira",
+   "locCertainty": "approx",
+   "war": "arab_roman_war_634",
+   "people": [
+    "umar",
+    "heraclius"
+   ],
+   "polities": [
+    "rashidun",
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "al-Baladhuri",
+     "w": "Futuh al-Buldan",
+     "r": "172-182"
+    },
+    {
+     "a": "Chronicle of 1234",
+     "w": "Chronicon ad annum 1234"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "Iyad ibn Ghanm"
+   ]
+  },
+  {
+   "id": "fall_of_caesarea_640",
+   "year": 640,
+   "title": "Fall of Caesarea Maritima",
+   "type": "siege",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "The capital of Palaestina Prima, supplied by sea, held out for years against blockade until Mu'awiya took it by storm in 640 or 641, reportedly guided by a Jewish informer through an aqueduct. The last Roman city in Palestine fell; the tradition says 7,000 defenders were killed.",
+   "loc": [
+    34.89,
+    32.5
+   ],
+   "locName": "Caesarea Maritima",
+   "locCertainty": "certain",
+   "war": "arab_roman_war_634",
+   "people": [
+    "umar"
+   ],
+   "polities": [
+    "rashidun",
+    "rome_east"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome_east",
+      "commanders": [],
+      "strength": "garrison, supplied by sea",
+      "losses": "7,000 (Baladhuri)"
+     },
+     {
+      "polity": "rashidun",
+      "commanders": [],
+      "strength": "Arab army under Mu'awiya",
+      "losses": "unknown"
+     }
+    ],
+    "victor": "rashidun",
+    "kind": "siege",
+    "significance": "Completed the conquest of Palestine."
+   },
+   "sources": [
+    {
+     "a": "al-Baladhuri",
+     "w": "Futuh al-Buldan",
+     "r": "140-142"
+    },
+    {
+     "a": "Theophanes",
+     "w": "Chronicle",
+     "r": "AM 6133"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "Mu'awiya"
+   ]
+  },
+  {
+   "id": "arab_invasion_of_egypt_639",
+   "year": 639,
+   "month": 12,
+   "title": "Amr ibn al-As invades Egypt",
+   "type": "campaign",
+   "cats": [
+    "military"
+   ],
+   "importance": 4,
+   "summary": "With perhaps 4,000 men and only the reluctant approval of Umar, Amr ibn al-As crossed from Palestine into Egypt in December 639, reaching al-Arish at the Feast of Sacrifice. He took Pelusium after a siege of about a month, then Bilbays, and marched on the fortress of Babylon at the apex of the Delta.",
+   "loc": [
+    33.8,
+    31.13
+   ],
+   "locName": "al-Arish and Pelusium",
+   "locCertainty": "approx",
+   "war": "arab_roman_war_634",
+   "people": [
+    "amr_ibn_al_as",
+    "umar",
+    "cyrus_of_alexandria"
+   ],
+   "polities": [
+    "rashidun",
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "John of Nikiu",
+     "w": "Chronicle",
+     "r": "111-113"
+    },
+    {
+     "a": "Ibn Abd al-Hakam",
+     "w": "Futuh Misr"
+    },
+    {
+     "a": "al-Baladhuri",
+     "w": "Futuh al-Buldan",
+     "r": "212-214"
+    }
+   ],
+   "scholarship": [
+    "Butler, The Arab Conquest of Egypt (1902; 2nd ed. Fraser, 1978)",
+    "Kennedy, The Great Arab Conquests (2007)"
+   ],
+   "certainty": "probable",
+   "tags": [
+    "Pelusium"
+   ]
+  },
+  {
+   "id": "battle_of_heliopolis_640",
+   "year": 640,
+   "month": 7,
+   "title": "Battle of Heliopolis",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 4,
+   "summary": "Reinforced by 4,000 or more men under al-Zubayr ibn al-Awwam, Amr drew the Roman army of Egypt under Theodore into battle near Heliopolis in July 640, using a concealed detachment that attacked from the rear. The Roman force broke; part fled to the fortress of Babylon, part to Alexandria.",
+   "loc": [
+    31.31,
+    30.13
+   ],
+   "locName": "Heliopolis (Ayn Shams), near Cairo",
+   "locCertainty": "probable",
+   "war": "arab_roman_war_634",
+   "people": [
+    "amr_ibn_al_as"
+   ],
+   "polities": [
+    "rashidun",
+    "rome_east"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rashidun",
+      "commanders": [
+       "amr_ibn_al_as"
+      ],
+      "strength": "c. 12,000-15,000 after reinforcement",
+      "losses": "light"
+     },
+     {
+      "polity": "rome_east",
+      "commanders": [],
+      "strength": "Roman field army of Egypt under Theodore, perhaps 15,000-20,000",
+      "losses": "heavy"
+     }
+    ],
+    "victor": "rashidun",
+    "kind": "field",
+    "significance": "Decided the fate of Egypt in the field; the rest was sieges and negotiation."
+   },
+   "sources": [
+    {
+     "a": "John of Nikiu",
+     "w": "Chronicle",
+     "r": "111"
+    },
+    {
+     "a": "Ibn Abd al-Hakam",
+     "w": "Futuh Misr"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "al-Zubayr"
+   ]
+  },
+  {
+   "id": "death_of_heraclius_641",
+   "year": 641,
+   "month": 2,
+   "day": 11,
+   "title": "Death of Heraclius",
+   "type": "death",
+   "cats": [
+    "political"
+   ],
+   "importance": 5,
+   "summary": "Heraclius died on 11 February 641 aged about 66, of a disease Nikephoros describes as dropsy, which some contemporaries saw as punishment for his uncanonical marriage to his niece Martina. He left the empire jointly to Constantine III, his son by Fabia-Eudocia, and Heraclonas, his son by Martina, with Martina to be honoured as 'mother and empress'. He was buried in the Church of the Holy Apostles.",
+   "detail": "His reign is the hinge between late antiquity and the middle Byzantine world: the triumph over Persia in 628 and the loss of Syria, Palestine, Mesopotamia and much of Egypt within a decade of it; the end of Latin in government; the crisis of Constantinople's food supply; and the failure of Monoenergism and Monotheletism to reunite the churches. Theodosius I had died in 395 ruling from the Atlantic to the Euphrates; Heraclius died holding Anatolia, the Balkan coasts, Africa, parts of Italy and a collapsing Egypt.",
+   "loc": [
+    28.98,
+    41.01
+   ],
+   "locName": "Constantinople",
+   "locCertainty": "certain",
+   "people": [
+    "heraclius",
+    "martina",
+    "constantine_iii_heraclius",
+    "heraclonas"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Nikephoros",
+     "w": "Short History",
+     "r": "26-27"
+    },
+    {
+     "a": "Theophanes",
+     "w": "Chronicle",
+     "r": "AM 6132"
+    },
+    {
+     "a": "John of Nikiu",
+     "w": "Chronicle",
+     "r": "116"
+    }
+   ],
+   "scholarship": [
+    "Kaegi, Heraclius: Emperor of Byzantium (2003)",
+    "Reinink & Stolte (eds.), The Reign of Heraclius (610-641): Crisis and Confrontation (2002)",
+    "Haldon, The Empire That Would Not Die (2016)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Holy Apostles",
+    "Martina"
+   ]
+  },
+  {
+   "id": "surrender_of_babylon_fortress_641",
+   "year": 641,
+   "month": 4,
+   "day": 9,
+   "title": "Surrender of the fortress of Babylon",
+   "type": "siege",
+   "cats": [
+    "military",
+    "diplomatic"
+   ],
+   "importance": 4,
+   "summary": "Besieged since September 640, the Roman fortress of Babylon (Old Cairo), guarding the Nile crossing at the head of the Delta, surrendered on 9 April 641, Easter Monday, after news of Heraclius's death and the recall of the patriarch Cyrus had undermined resistance. Amr founded the camp-city of Fustat beside it.",
+   "loc": [
+    31.231,
+    30.006
+   ],
+   "locName": "Babylon fortress (Old Cairo)",
+   "locCertainty": "certain",
+   "war": "arab_roman_war_634",
+   "people": [
+    "amr_ibn_al_as",
+    "cyrus_of_alexandria",
+    "heraclius"
+   ],
+   "polities": [
+    "rashidun",
+    "rome_east"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome_east",
+      "commanders": [],
+      "strength": "garrison of several thousand",
+      "losses": "surrendered on terms"
+     },
+     {
+      "polity": "rashidun",
+      "commanders": [
+       "amr_ibn_al_as"
+      ],
+      "strength": "Arab army of Egypt",
+      "losses": "moderate"
+     }
+    ],
+    "victor": "rashidun",
+    "kind": "siege",
+    "significance": "Gave the Arabs control of the Nile and Upper Egypt; Fustat became the capital of Islamic Egypt."
+   },
+   "sources": [
+    {
+     "a": "John of Nikiu",
+     "w": "Chronicle",
+     "r": "117"
+    },
+    {
+     "a": "Ibn Abd al-Hakam",
+     "w": "Futuh Misr"
+    }
+   ],
+   "scholarship": [
+    "Butler, The Arab Conquest of Egypt (2nd ed. 1978)"
+   ],
+   "certainty": "probable",
+   "tags": [
+    "Fustat"
+   ]
+  },
+  {
+   "id": "succession_crisis_641",
+   "year": 641,
+   "endYear": 641,
+   "title": "Constantine III, Heraclonas and the fall of Martina",
+   "type": "political",
+   "cats": [
+    "political",
+    "constitutional"
+   ],
+   "importance": 3,
+   "summary": "Constantine III, consumptive, died after a reign of about three months (May 641), amid rumours that Martina had poisoned him. Martina and Heraclonas governed briefly, but the army under Valentinus and the people of Constantinople forced the coronation of Constantine III's son Constans II in September, and in late 641 Martina's tongue and Heraclonas's nose were slit and they were exiled to Rhodes, the first use of such mutilation to disqualify a ruler.",
+   "loc": [
+    28.98,
+    41.01
+   ],
+   "locName": "Constantinople",
+   "locCertainty": "certain",
+   "people": [
+    "constantine_iii_heraclius",
+    "heraclonas",
+    "martina",
+    "cyrus_of_alexandria"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Nikephoros",
+     "w": "Short History",
+     "r": "28-31"
+    },
+    {
+     "a": "John of Nikiu",
+     "w": "Chronicle",
+     "r": "119-120"
+    },
+    {
+     "a": "Theophanes",
+     "w": "Chronicle",
+     "r": "AM 6133"
+    }
+   ],
+   "debate": "Exact dates in 641 are uncertain; Constantine III's death is placed between April and May, Martina's fall in September-November.",
+   "certainty": "certain",
+   "tags": [
+    "Constans II",
+    "Valentinus",
+    "rhinokopia"
+   ]
+  },
+  {
+   "id": "treaty_of_alexandria_641",
+   "year": 641,
+   "month": 11,
+   "day": 8,
+   "title": "Treaty of Alexandria",
+   "type": "treaty",
+   "cats": [
+    "diplomatic"
+   ],
+   "importance": 4,
+   "summary": "Restored to Alexandria by the new regime, Patriarch Cyrus agreed with Amr on 8 November 641 to surrender Egypt: an armistice of eleven months, a poll tax of two dinars per adult man, protection of churches, and evacuation of the Roman army by sea. The last Roman troops left Alexandria in September 642, ending nearly 700 years of Roman rule in Egypt.",
+   "loc": [
+    29.92,
+    31.2
+   ],
+   "locName": "Alexandria",
+   "locCertainty": "certain",
+   "war": "arab_roman_war_634",
+   "people": [
+    "cyrus_of_alexandria",
+    "amr_ibn_al_as"
+   ],
+   "polities": [
+    "rome_east",
+    "rashidun"
+   ],
+   "sources": [
+    {
+     "a": "John of Nikiu",
+     "w": "Chronicle",
+     "r": "120"
+    }
+   ],
+   "debate": "The famous story of Amr burning the Library of Alexandria on Umar's orders first appears in thirteenth-century writers (Abd al-Latif al-Baghdadi, Ibn al-Qifti) and is rejected by historians; the library had long since ceased to exist in its Ptolemaic form. A Roman fleet briefly retook Alexandria in 645-646.",
+   "scholarship": [
+    "Butler, The Arab Conquest of Egypt (2nd ed. 1978)",
+    "Kennedy, The Great Arab Conquests (2007)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Library of Alexandria myth",
+    "jizya"
+   ]
+  }
+ ]
+}

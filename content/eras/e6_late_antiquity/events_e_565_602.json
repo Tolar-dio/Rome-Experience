@@ -1,144 +1,1642 @@
-{"events":[
-{"id":"accession_of_justin_ii_565","year":565,"month":11,"day":14,"title":"Accession of Justin II; Avar subsidies refused","type":"accession","cats":["political","diplomatic"],"importance":3,
-"summary":"Justin II, son of Justinian's sister Vigilantia, was crowned on 14/15 November 565 by Patriarch John Scholasticus, with his wife Sophia, Theodora's niece. Days later he received the Avar envoy Targitius and refused the subsidies Justinian had paid, a policy of firmness celebrated by Corippus that soon cost dearly in the Balkans and the East.",
-"loc":[28.98,41.01],"locName":"Constantinople","locCertainty":"certain","people":["justin_ii","sophia_empress","bayan_i","menander_protector"],"polities":["rome_east","avars"],
-"sources":[{"a":"Corippus","w":"In laudem Iustini","r":"2-3"},{"a":"Menander Protector","w":"History","r":"fr. 8 (Blockley)"},{"a":"Evagrius","w":"Ecclesiastical History","r":"5.1"}],"scholarship":["Cameron (ed.), Corippus: In laudem Iustini Augusti minoris (1976)"],"certainty":"certain","tags":["Targitius"]},
-{"id":"destruction_of_the_gepids_567","year":567,"title":"Lombards and Avars destroy the Gepid kingdom","type":"battle","cats":["military"],"importance":3,
-"summary":"Alboin's Lombards, allied with the Avars of Bayan on condition of giving them the Gepid lands and a tenth of their livestock, crushed the Gepids in 567. King Cunimund was killed; Alboin made his skull a drinking cup and married his daughter Rosamund. Sirmium was occupied by the Romans, and the Avars took the Carpathian basin.",
-"loc":[20.5,45.5],"locName":"Gepid territory, Tisza-Danube region","locCertainty":"approx","people":["alboin","bayan_i","justin_ii"],"polities":["lombards","avars","gepids","rome_east"],
-"battle":{"sides":[{"polity":"lombards","commanders":["alboin"],"strength":"Lombard army with Avar allies","losses":"unknown"},{"polity":"gepids","commanders":[],"strength":"Gepid army under Cunimund","losses":"king killed; kingdom destroyed"}],"victor":"lombards","kind":"field","significance":"Gave the Avars the Carpathian basin, from which they dominated the middle Danube for 250 years, and set the Lombards moving toward Italy."},
-"sources":[{"a":"Paul the Deacon","w":"History of the Lombards","r":"1.27"},{"a":"Menander Protector","w":"History","r":"fr. 12 (Blockley)"}],"certainty":"certain","tags":["Cunimund","skull cup","Rosamund"]},
-{"id":"lombard_invasion_568","year":568,"month":4,"day":2,"title":"Lombard invasion of Italy","type":"migration","cats":["military"],"importance":5,
-"summary":"On 2 April 568, Easter Monday, Alboin led the Lombards with Saxons, Gepids, Bulgars and others out of Pannonia, leaving it to the Avars, and entered Italy through the Julian Alps. Forum Iulii (Cividale) became the first duchy, under Alboin's nephew Gisulf; Milan fell on 3 September 569. Fourteen years after the Pragmatic Sanction, Roman Italy began to break into a patchwork of Lombard and Roman territories that lasted until the nineteenth century.",
-"detail":"Italy had been devastated by twenty years of war and plague and was defended by scattered garrisons. Paul the Deacon reports the tradition that Narses, dismissed by Sophia, invited the Lombards out of spite, a story most historians reject. The Romans held the coasts, Ravenna, Rome, Naples, Genoa (until 643), and the corridor between Rome and Ravenna; the Lombards held most of the Po valley and inland duchies of Spoleto and Benevento.",
-"loc":[13.43,46.09],"locName":"Forum Iulii (Cividale del Friuli)","locCertainty":"probable","war":"roman_lombard_wars","campaign":"lombard_migration_568",
-"people":["alboin","narses","justin_ii","sophia_empress"],"polities":["lombards","rome_east","avars"],
-"sources":[{"a":"Paul the Deacon","w":"History of the Lombards","r":"2.5-2.9, 2.25"},{"a":"Marius of Avenches","w":"Chronicle","r":"s.a. 569"},{"a":"Gregory the Great","w":"Dialogues","r":"3.38"}],
-"debate":"Whether the Lombards came as federates with Roman agreement (an old treaty with Justinian) or as invaders is debated. Their numbers, perhaps 100,000-150,000 people, are guesses.",
-"scholarship":["Christie, The Lombards (1995)","Wickham, Early Medieval Italy (1981)","Pohl & Erhart (eds.), Die Langobarden (2005)"],"certainty":"certain","tags":["Gisulf","Forum Iulii"]},
-{"id":"siege_of_pavia_569","year":569,"endYear":572,"title":"Siege of Pavia","type":"siege","cats":["military"],"importance":3,
-"summary":"Ticinum held out against Alboin for three years. When it finally surrendered, Paul the Deacon says Alboin swore to massacre the inhabitants but relented after his horse stumbled at the gate. Pavia became the Lombard royal capital.",
-"loc":[9.158,45.185],"locName":"Ticinum (Pavia)","locCertainty":"certain","war":"roman_lombard_wars","people":["alboin"],"polities":["lombards","rome_east"],
-"battle":{"sides":[{"polity":"rome_east","commanders":[],"strength":"garrison and citizens","losses":"surrendered"},{"polity":"lombards","commanders":["alboin"],"strength":"Lombard army","losses":"unknown"}],"victor":"lombards","kind":"siege","significance":"Gave the Lombards their royal seat for two centuries."},
-"sources":[{"a":"Paul the Deacon","w":"History of the Lombards","r":"2.26-2.27"}],"certainty":"probable","tags":[]},
-{"id":"embassy_of_zemarchus_569","year":569,"endYear":571,"title":"Zemarchus's embassy to the Turks","type":"diplomacy","cats":["diplomatic","economic"],"importance":3,
-"summary":"After a Sogdian-led Turkic embassy under Maniakh came to Constantinople in 568 seeking a silk trade route bypassing Persia, Justin II sent Zemarchus, magister militum of the East, to the court of the Turkic yabghu Istämi (Sizabul) in the Altai or Tian Shan. Menander's account describes exorcisms with incense and bells and a golden throne on wheels. The anti-Persian alliance helped trigger the war of 572.",
-"loc":[76.0,43.0],"locName":"Court of Istämi, Tian Shan / Ektag","locCertainty":"disputed","people":["justin_ii","menander_protector"],"polities":["rome_east","western_turks","sasanian"],
-"sources":[{"a":"Menander Protector","w":"History","r":"fr. 10.1-10.5 (Blockley)"}],"scholarship":["de la Vaissière, Sogdian Traders: A History (2005)"],"certainty":"certain","tags":["Maniakh","Sogdians","Istämi"]},
-{"id":"assassination_of_alboin_572","year":572,"month":6,"day":28,"title":"Assassination of Alboin","type":"assassination","cats":["political"],"importance":2,
-"summary":"Alboin was murdered at Verona on 28 June 572 by his armour-bearer Helmichis and the warrior Peredeo, instigated by Queen Rosamund, whom he had forced to drink from her father's skull. The conspirators fled to Ravenna with the Lombard treasure; Rosamund tried to poison Helmichis, who forced her to drink the rest of the cup.",
-"loc":[10.993,45.438],"locName":"Verona","locCertainty":"certain","war":"roman_lombard_wars","people":["alboin"],"polities":["lombards","rome_east"],
-"sources":[{"a":"Paul the Deacon","w":"History of the Lombards","r":"2.28-2.29"},{"a":"Agnellus","w":"Liber Pontificalis Ecclesiae Ravennatis","r":"96"}],"debate":"Paul writes two centuries later with saga elements; the involvement of the exarch Longinus is plausible.","certainty":"probable","tags":["Rosamund","Helmichis"]},
-{"id":"outbreak_of_persian_war_572","year":572,"title":"Outbreak of the Persian war of 572","type":"political","cats":["military","diplomatic","religious"],"importance":4,
-"summary":"Justin II refused the annual payment due under the 562 treaty, supported a revolt in Persarmenia, where Vardan Mamikonian killed the Persian governor at Dvin in February 572, and received the Armenian rebels into Roman protection. Twenty years of war followed, ending only with Khosrow II's restoration in 591.",
-"loc":[44.57,40.0],"locName":"Dvin, Persarmenia","locCertainty":"approx","war":"roman_sasanian_war_572","people":["justin_ii","khosrow_i"],"polities":["rome_east","sasanian","armenian_nakharars"],
-"sources":[{"a":"Theophylact Simocatta","w":"History","r":"3.9"},{"a":"Evagrius","w":"Ecclesiastical History","r":"5.7"},{"a":"Sebeos","w":"History","r":"67-68"}],"scholarship":["Whitby, The Emperor Maurice and his Historian (1988)"],"certainty":"certain","tags":["Vardan II Mamikonian"]},
-{"id":"siege_of_dara_573","year":573,"month":11,"title":"Fall of Dara","type":"siege","cats":["military","political"],"importance":4,
-"summary":"After the Roman siege of Nisibis collapsed in panic and the general Marcian was recalled, Khosrow I besieged Dara for six months and took it in November 573, while his general Adarmahan ravaged Syria and burned Apamea. The news drove Justin II insane; he had to be soothed with organ music and a toy cart, says John of Ephesus. Sophia bought a one-year truce for 45,000 nomismata.",
-"loc":[40.948,37.177],"locName":"Dara","locCertainty":"certain","war":"roman_sasanian_war_572","people":["khosrow_i","justin_ii","sophia_empress","evagrius_scholasticus"],"polities":["sasanian","rome_east"],
-"battle":{"sides":[{"polity":"rome_east","commanders":[],"strength":"garrison and citizens","losses":"city taken; population deported"},{"polity":"sasanian","commanders":["khosrow_i"],"strength":"Persian royal army","losses":"unknown"}],"victor":"sasanian","kind":"siege","significance":"The loss of Rome's key Mesopotamian fortress caused a constitutional crisis and the elevation of Tiberius as Caesar."},
-"sources":[{"a":"Evagrius","w":"Ecclesiastical History","r":"5.9-5.10"},{"a":"John of Ephesus","w":"Ecclesiastical History","r":"3.2-3.4"},{"a":"Theophylact Simocatta","w":"History","r":"3.10-3.11"}],"certainty":"certain","tags":["Adarmahan","Apamea"]},
-{"id":"tiberius_caesar_574","year":574,"month":12,"day":7,"title":"Tiberius proclaimed Caesar","type":"constitutional","cats":["political","constitutional"],"importance":3,
-"summary":"In a lucid interval on 7 December 574, Justin II proclaimed Tiberius, commander of the excubitors, Caesar, with a speech recorded by Theophylact and John of Ephesus warning him not to imitate Justin's own mistakes: 'Do not delight in bloodshed... Let not the glory of these garments mislead you as it did me'. Tiberius and Sophia governed jointly until Justin's death.",
-"loc":[28.98,41.01],"locName":"Constantinople","locCertainty":"certain","people":["tiberius_ii","justin_ii","sophia_empress","theophylact_simocatta"],"polities":["rome_east"],
-"sources":[{"a":"Theophylact Simocatta","w":"History","r":"3.11.7-13"},{"a":"Evagrius","w":"Ecclesiastical History","r":"5.13"},{"a":"John of Ephesus","w":"Ecclesiastical History","r":"3.5"}],"certainty":"certain","tags":["excubitors"]},
-{"id":"battle_of_melitene_576","year":576,"title":"Battle of Melitene","type":"battle","cats":["military"],"importance":3,
-"summary":"Khosrow I, aged about 75, invaded Armenia and Cappadocia in 576, failed before Theodosiopolis and Caesarea, and burned Sebasteia and Melitene. Near Melitene the Romans under Justinian, son of Germanus, caught his army; the Persian camp and royal baggage including the sacred fire were taken, and Khosrow escaped across the Euphrates on an elephant, then decreed that no Persian king should campaign in person again.",
-"loc":[38.33,38.35],"locName":"Melitene (Malatya)","locCertainty":"probable","war":"roman_sasanian_war_572","people":["khosrow_i","evagrius_scholasticus","theophylact_simocatta"],"polities":["rome_east","sasanian"],
-"battle":{"sides":[{"polity":"rome_east","commanders":[],"strength":"eastern field army under Justinian son of Germanus","losses":"unknown"},{"polity":"sasanian","commanders":["khosrow_i"],"strength":"Persian royal army","losses":"heavy; baggage and camp captured"}],"victor":"rome_east","kind":"field","significance":"Khosrow's last campaign; the Roman counter-raid reached the Caspian."},
-"sources":[{"a":"Evagrius","w":"Ecclesiastical History","r":"5.14"},{"a":"Theophylact Simocatta","w":"History","r":"3.14"},{"a":"John of Ephesus","w":"Ecclesiastical History","r":"6.8-6.9"}],"debate":"Date 575 or 576; the sources' accounts of the battle differ substantially.","certainty":"probable","tags":["elephant"]},
-{"id":"accession_of_tiberius_ii_578","year":578,"month":9,"day":26,"title":"Tiberius II Constantine becomes Augustus","type":"accession","cats":["political"],"importance":2,
-"summary":"Crowned Augustus on 26 September 578, nine days before Justin II's death, Tiberius took the name Constantine. His generosity (he cut taxes by a quarter and lavished donatives) won popularity but emptied the treasury Justin had refilled. He recruited a new corps of 15,000 foederati and appointed Maurice to the East.",
-"loc":[28.98,41.01],"locName":"Constantinople","locCertainty":"certain","people":["tiberius_ii","justin_ii","sophia_empress","maurice"],"polities":["rome_east"],
-"sources":[{"a":"Theophylact Simocatta","w":"History","r":"3.16"},{"a":"Evagrius","w":"Ecclesiastical History","r":"5.13"},{"a":"Gregory of Tours","w":"Histories","r":"5.19"}],"certainty":"certain","tags":["foederati"]},
-{"id":"fall_of_sirmium_582","year":582,"title":"Avars take Sirmium","type":"siege","cats":["military"],"importance":4,
-"summary":"Bayan built bridges across the Sava with the help of Roman craftsmen and blockaded Sirmium from 579. With Roman armies tied down in the East, Tiberius gave up the city in 582 in exchange for the garrison's freedom, paying the arrears of subsidy (240,000 nomismata). The old imperial capital became the Avar khagan's bridgehead.",
-"loc":[19.61,44.97],"locName":"Sirmium (Sremska Mitrovica)","locCertainty":"certain","war":"balkan_wars_of_maurice","people":["bayan_i","tiberius_ii","menander_protector"],"polities":["avars","rome_east"],
-"battle":{"sides":[{"polity":"rome_east","commanders":[],"strength":"garrison and starving citizens","losses":"city surrendered"},{"polity":"avars","commanders":["bayan_i"],"strength":"Avar army with Slav auxiliaries","losses":"unknown"}],"victor":"avars","kind":"siege","significance":"Broke the middle Danube line; Avar and Slav raids into the Balkans followed for fifty years."},
-"sources":[{"a":"Menander Protector","w":"History","r":"fr. 25.1-27.3 (Blockley)"},{"a":"John of Ephesus","w":"Ecclesiastical History","r":"6.32"}],"certainty":"certain","tags":["Sava bridge"]},
-{"id":"accession_of_maurice_582","year":582,"month":8,"day":13,"title":"Accession of Maurice","type":"accession","cats":["political"],"importance":3,
-"summary":"Dying, Tiberius II named Maurice, a Cappadocian notary turned general who had won victories in the East, as Caesar on 5 August and Augustus on 13 August 582, and married him to his daughter Constantina. Tiberius died on 14 August.",
-"loc":[28.98,41.01],"locName":"Constantinople","locCertainty":"certain","people":["maurice","tiberius_ii","theophylact_simocatta"],"polities":["rome_east"],
-"sources":[{"a":"Theophylact Simocatta","w":"History","r":"1.1-1.2"},{"a":"Evagrius","w":"Ecclesiastical History","r":"5.22"}],"certainty":"certain","tags":["Constantina"]},
-{"id":"slav_settlement_in_greece_580s","year":581,"endYear":590,"title":"Slav settlement in the Balkans and Greece","type":"migration","cats":["military","social"],"importance":4,
-"summary":"John of Ephesus wrote in 584 that Slavs had overrun Thrace, Thessaly and Greece, lived there 'as in their own land', grew rich in gold, silver and herds, and learned to fight better than the Romans. Over the following decades Slavic settlement spread through much of the Balkans and the Peloponnese, the Monemvasia Chronicle claiming that Roman rule there lapsed for 218 years.",
-"loc":[22.0,38.0],"locName":"Peloponnese and central Greece","locCertainty":"approx","war":"balkan_wars_of_maurice","people":["maurice","bayan_i"],"polities":["slavs","avars","rome_east"],
-"sources":[{"a":"John of Ephesus","w":"Ecclesiastical History","r":"6.25"},{"a":"Chronicle of Monemvasia","w":"Chronicle of Monemvasia"},{"a":"Evagrius","w":"Ecclesiastical History","r":"6.10"}],
-"debate":"Scale and chronology are debated: Curta argues 'the Slavs' were partly a Roman construct and that settlement in Greece was later and patchier; Fallmerayer's notorious nineteenth-century thesis of Greek extinction is discredited.","scholarship":["Curta, The Making of the Slavs (2001)","Curta, Southeastern Europe in the Middle Ages 500-1250 (2006)"],"certainty":"probable","tags":["Monemvasia Chronicle","Sclaveni"]},
-{"id":"exarchate_of_ravenna_584","year":584,"title":"Creation of the Exarchate of Ravenna","type":"administrative","cats":["administrative","military"],"importance":3,
-"summary":"By 584 an exarch (first attested Decius, then Smaragdus) combined supreme civil and military authority over Roman Italy, a response to the Lombard threat that broke the late Roman separation of civil and military command. A parallel Exarchate of Carthage is attested from 591 (Gennadius).",
-"loc":[12.199,44.418],"locName":"Ravenna","locCertainty":"certain","war":"roman_lombard_wars","people":["maurice","gregory_the_great"],"polities":["rome_east"],
-"sources":[{"a":"Gregory the Great","w":"Register of Letters","r":"1.59, 1.73"},{"a":"Pelagius II","w":"Letters","r":"(584)"}],"scholarship":["Brown, Gentlemen and Officers: Imperial Administration and Aristocratic Power in Byzantine Italy 554-800 (1984)"],"debate":"The office developed gradually; 584 is the date of the first secure attestation of the title.","certainty":"probable","tags":["exarch"]},
-{"id":"battle_of_solachon","year":586,"title":"Battle of Solachon","type":"battle","cats":["military","religious"],"importance":3,
-"summary":"In spring 586 Maurice's brother-in-law Philippicus met the Persian general Kardarigan on the plain of Solachon south of Mardin. Before battle he paraded the Camuliana image of Christ 'not made by human hands'. The Roman centre under Heraclius the Elder broke the Persians, who were cut off from water; Kardarigan fled to a hilltop.",
-"loc":[40.7,37.2],"locName":"Solachon, south of Mardin","locCertainty":"approx","war":"roman_sasanian_war_572","people":["philippicus","heraclius","theophylact_simocatta"],"polities":["rome_east","sasanian"],
-"battle":{"sides":[{"polity":"rome_east","commanders":["philippicus"],"strength":"eastern field army; centre under Heraclius the Elder","losses":"light"},{"polity":"sasanian","commanders":[],"strength":"Persian army under Kardarigan","losses":"heavy, many dying of thirst"}],"victor":"rome_east","kind":"field","significance":"The first major Roman field victory of the war; an early example of an icon used as a military palladium."},
-"sources":[{"a":"Theophylact Simocatta","w":"History","r":"2.2-2.5"}],"scholarship":["Whitby, The Emperor Maurice and his Historian (1988)"],"certainty":"certain","tags":["acheiropoietos","Camuliana image","Kardarigan"]},
-{"id":"siege_of_thessalonica_586","year":586,"month":9,"title":"Avaro-Slav siege of Thessalonica","type":"siege","cats":["military","religious"],"importance":3,
-"summary":"A huge Slav army sent by the Avar khagan besieged Thessalonica for a week in September 586 (or 597), with siege engines including stone throwers and testudos. The city's defence was credited to its patron St Demetrius, who appeared on the walls; the episode is the core of Book I of the Miracles of St Demetrius.",
-"loc":[22.94,40.64],"locName":"Thessalonica","locCertainty":"certain","war":"balkan_wars_of_maurice","people":["bayan_i","maurice"],"polities":["slavs","avars","rome_east"],
-"battle":{"sides":[{"polity":"rome_east","commanders":[],"strength":"citizens; garrison absent","losses":"unknown"},{"polity":"slavs","commanders":[],"strength":"100,000 (Miracula, inflated) with Avar-supplied engines","losses":"unknown"}],"victor":"rome_east","kind":"siege","significance":"Thessalonica's survival made it the Roman bulwark in the Slavicised Balkans."},
-"sources":[{"a":"Miracles of St Demetrius","w":"Miracula S. Demetrii","r":"I.13-15"}],"debate":"Date disputed between 586 and 597.","scholarship":["Lemerle, Les plus anciens recueils des miracles de saint Démétrius (1979-81)"],"certainty":"probable","tags":["St Demetrius","stone throwers"]},
-{"id":"mutiny_of_588","year":588,"title":"Mutiny of the eastern army","type":"revolt","cats":["military","economic"],"importance":2,
-"summary":"Maurice's order to cut military pay by a quarter provoked a mutiny of the eastern army at Easter 588 at Monocarton; the new commander Priscus fled after being stoned, and the troops chose Germanus, dux of Phoenicia. The mutineers still beat the Persians at Martyropolis; Gregory of Antioch restored order in 589.",
-"loc":[40.0,37.3],"locName":"Monocarton, near Constantina","locCertainty":"approx","war":"roman_sasanian_war_572","people":["maurice","priscus_general","theophylact_simocatta","evagrius_scholasticus"],"polities":["rome_east"],
-"sources":[{"a":"Theophylact Simocatta","w":"History","r":"3.1-3.4"},{"a":"Evagrius","w":"Ecclesiastical History","r":"6.4-6.13"}],"certainty":"certain","tags":["pay cut"]},
-{"id":"third_council_of_toledo_589","year":589,"month":5,"day":8,"title":"Third Council of Toledo: Visigoths become Catholic","type":"religious","cats":["religious","political"],"importance":3,
-"summary":"King Reccared, who had converted privately in 587, presided at the Third Council of Toledo opened on 8 May 589, where the Visigothic nobility and Arian bishops abjured Arianism and accepted Nicene Christianity. The council also adopted the Filioque in its creed, a seed of the later East-West dispute.",
-"loc":[-4.024,39.857],"locName":"Toletum (Toledo)","locCertainty":"certain","people":[],"polities":["visigothic_kingdom"],
-"sources":[{"a":"Acts of the Third Council of Toledo","w":"Concilios visigóticos e hispano-romanos (ed. Vives)"},{"a":"John of Biclaro","w":"Chronicle","r":"s.a. 589"},{"a":"Isidore of Seville","w":"History of the Goths","r":"52-53"}],"certainty":"certain","tags":["Reccared","Filioque"]},
-{"id":"pontificate_of_gregory_590","year":590,"month":9,"day":3,"title":"Gregory the Great becomes pope","type":"religious","cats":["religious","political"],"importance":4,
-"summary":"Gregory, former urban prefect, monk and papal envoy to Constantinople, was consecrated on 3 September 590 after Pelagius II died of plague, which Gregory fought with penitential processions (legend later put the archangel Michael atop Hadrian's mausoleum, hence Castel Sant'Angelo). He ran Rome's food supply, defence and diplomacy from the papal estates.",
-"loc":[12.4924,41.8902],"locName":"Rome","locCertainty":"certain","people":["gregory_the_great","maurice"],"polities":["rome_east"],
-"sources":[{"a":"Gregory of Tours","w":"Histories","r":"10.1"},{"a":"Gregory the Great","w":"Register of Letters"}],"scholarship":["Markus, Gregory the Great and His World (1997)"],"certainty":"certain","tags":["Castel Sant'Angelo"]},
-{"id":"flight_of_khosrow_ii_590","year":590,"title":"Bahram Chobin's revolt; Khosrow II flees to the Romans","type":"usurpation","cats":["political","diplomatic"],"importance":3,
-"summary":"The general Bahram Chobin, victor over the Turks but then defeated by the Romans in the Caucasus and insulted by Hormizd IV with a woman's dress, rebelled. Hormizd was overthrown and killed in a palace coup (590) and his son Khosrow II crowned, but Bahram took Ctesiphon and proclaimed himself king, the first non-Sasanian to do so. Khosrow fled to Roman Circesium and appealed to Maurice.",
-"loc":[40.45,35.16],"locName":"Circesium on the Euphrates","locCertainty":"certain","war":"roman_sasanian_war_572","people":["khosrow_ii","bahram_chobin","maurice","theophylact_simocatta"],"polities":["sasanian","rome_east"],
-"sources":[{"a":"Theophylact Simocatta","w":"History","r":"4.1-4.12"},{"a":"Sebeos","w":"History","r":"73-76"}],"certainty":"certain","tags":["Hormizd IV"]},
-{"id":"battle_of_blarathon","year":591,"title":"Battle of the Blarathon","type":"battle","cats":["military","political"],"importance":4,
-"summary":"Against the advice of his senate, Maurice backed Khosrow II. A Roman army under Narses and John Mystacon with Armenian contingents and Khosrow's loyalists defeated Bahram Chobin on the river Blarathon near Ganzak in Atropatene in late summer 591. Bahram fled to the Turks and was murdered; Khosrow was restored.",
-"loc":[46.5,36.9],"locName":"River Blarathon, near Ganzak, Atropatene","locCertainty":"approx","war":"roman_sasanian_war_572","people":["khosrow_ii","bahram_chobin","maurice","theophylact_simocatta"],"polities":["rome_east","sasanian"],
-"battle":{"sides":[{"polity":"rome_east","commanders":["maurice"],"strength":"Roman and Armenian troops under Narses and John Mystacon with Khosrow's supporters, perhaps 40,000-60,000","losses":"unknown"},{"polity":"sasanian","commanders":["bahram_chobin"],"strength":"Bahram's army with elephants","losses":"heavy; elephants captured"}],"victor":"rome_east","kind":"field","significance":"Restored a grateful Sasanian king and brought the most favourable peace Rome ever made with Persia."},
-"sources":[{"a":"Theophylact Simocatta","w":"History","r":"5.9-5.11"},{"a":"Sebeos","w":"History","r":"76-77"}],"certainty":"certain","tags":["Narses (general of Maurice)","John Mystacon"]},
-{"id":"peace_of_591","year":591,"title":"Peace of 591 with Khosrow II","type":"treaty","cats":["diplomatic"],"importance":3,
-"summary":"In return for his restoration, Khosrow II returned Dara and Martyropolis and ceded most of Persarmenia, including Dvin, and part of Iberia, without any Roman payment. Rome's eastern frontier reached its farthest extent, and Maurice could switch his armies to the Balkans.",
-"loc":[44.57,40.0],"locName":"Persarmenia","locCertainty":"approx","war":"roman_sasanian_war_572","people":["khosrow_ii","maurice"],"polities":["rome_east","sasanian"],
-"sources":[{"a":"Theophylact Simocatta","w":"History","r":"5.15"},{"a":"Sebeos","w":"History","r":"84"}],"certainty":"certain","tags":["Dvin"]},
-{"id":"agilulf_besieges_rome_593","year":593,"title":"Agilulf threatens Rome; Gregory buys peace","type":"diplomacy","cats":["diplomatic","religious"],"importance":2,
-"summary":"After the exarch Romanus recovered the Rome-Ravenna corridor, the Lombard king Agilulf retaliated by marching on Rome in 593. Gregory, interrupting his homilies on Ezekiel, saw Romans led off roped like dogs to be sold in Gaul, and paid 500 lbs of gold to buy Agilulf off, then negotiated a separate peace, angering Maurice, who called him a fool.",
-"loc":[12.4924,41.8902],"locName":"Rome","locCertainty":"certain","war":"roman_lombard_wars","people":["gregory_the_great","maurice"],"polities":["lombards","rome_east"],
-"sources":[{"a":"Gregory the Great","w":"Homilies on Ezekiel","r":"2.6.22"},{"a":"Gregory the Great","w":"Register of Letters","r":"5.36"},{"a":"Paul the Deacon","w":"History of the Lombards","r":"4.8"}],"certainty":"certain","tags":["Agilulf","Theodelinda"]},
-{"id":"gregorian_mission_597","year":597,"title":"Gregory's mission to the English","type":"religious","cats":["religious","cultural"],"importance":3,
-"summary":"Gregory sent the monk Augustine with about 40 companions from his monastery of St Andrew in Rome; they landed in Kent in 597 and were received by King Æthelberht, whose Frankish wife Bertha was already Christian. Æthelberht's baptism followed, and Canterbury became the metropolitan see.",
-"loc":[1.08,51.28],"locName":"Durovernum Cantiacorum (Canterbury)","locCertainty":"certain","people":["gregory_the_great"],"polities":["anglo_saxons"],
-"sources":[{"a":"Bede","w":"Ecclesiastical History of the English People","r":"1.23-1.33"},{"a":"Gregory the Great","w":"Register of Letters","r":"8.29, 11.56"}],"debate":"The 'non Angli sed angeli' anecdote is from the Whitby Life and Bede, not Gregory.","certainty":"certain","tags":["Augustine of Canterbury","Æthelberht"]},
-{"id":"maurice_balkan_campaigns_593","year":593,"endYear":598,"title":"Maurice's offensives beyond the Danube","type":"campaign","cats":["military"],"importance":3,
-"summary":"From 593 Maurice took the war to the enemy. Priscus crossed the lower Danube and smashed the Slav chief Ardagastus in his home territory; Maurice's brother Peter campaigned in 594-597. Theophylact preserves the tension between commanders and troops, who hated campaigning in winter beyond the river and resisted orders to live off the land.",
-"loc":[26.5,44.2],"locName":"Lower Danube (Wallachia)","locCertainty":"approx","war":"balkan_wars_of_maurice","people":["maurice","priscus_general","theophylact_simocatta","bayan_i"],"polities":["rome_east","slavs","avars"],
-"sources":[{"a":"Theophylact Simocatta","w":"History","r":"6.6-7.5"}],"scholarship":["Whitby, The Emperor Maurice and his Historian (1988)"],"certainty":"certain","tags":["Ardagastus","Musocius"]},
-{"id":"strategikon_c600","year":600,"title":"The Strategikon of Maurice","type":"literary","cats":["military","literature"],"importance":4,
-"summary":"Composed around 592-610 and traditionally attributed to Maurice, the Strategikon is a 12-book field manual: cavalry organisation into banda, drill with Latin words of command, march and camp procedure, ambushes, and ethnographic chapters on how to fight Persians, Scythians (Avars and Turks), 'light-haired peoples' (Franks and Lombards) and Slavs and Antes.",
-"detail":"The ideal trooper is an Avar-style lancer-archer with stirrups (the first clear reference in a Greek text), lamellar armour and a lance with a pennant removed before battle. The chapter on Slavs advises winter campaigns when the trees give no cover and rivers are frozen, exactly what Maurice ordered in 602. It is the hinge between Vegetius and Leo VI's Taktika.",
-"loc":[28.98,41.01],"locName":"Constantinople","locCertainty":"approx","people":["maurice","philippicus"],"polities":["rome_east"],
-"sources":[{"a":"Maurice","w":"Strategikon","r":"1.1-2, 11.1-4"}],
-"debate":"Authorship by Maurice himself is uncertain; Philippicus or an anonymous officer have been suggested. Rance and others debate its date within c. 575-628.","scholarship":["Dennis (trans.), Maurice's Strategikon (1984)","Rance, 'The date of the military compendium of Syrianus Magister', BZ 100 (2007)"],"certainty":"probable","tags":["stirrups","banda","Latin commands"]},
-{"id":"captives_massacre_599","year":599,"title":"Bayan massacres 12,000 Roman prisoners","type":"other","cats":["military","political"],"importance":3,
-"summary":"After Comentiolus's disastrous retreat at Iatrus in 598, the Avars took some 12,000 Roman prisoners. Maurice refused to pay the khagan's ransom, reportedly a nomisma each, then half, then a quarter, and Bayan had them all killed. The atrocity was one of the grievances against Maurice in 602.",
-"loc":[25.62,43.62],"locName":"Iatrus and the lower Danube","locCertainty":"approx","war":"balkan_wars_of_maurice","people":["maurice","comentiolus","bayan_i","theophylact_simocatta"],"polities":["avars","rome_east"],
-"sources":[{"a":"Theophylact Simocatta","w":"History","r":"7.13-7.15"},{"a":"Theophanes","w":"Chronicle","r":"AM 6092"}],"debate":"Theophanes, drawing on a source hostile to Maurice, gives the ransom detail; Theophylact suggests Comentiolus betrayed the army deliberately on Maurice's orders to punish it, which most doubt.","certainty":"probable","tags":["Iatrus"]},
-{"id":"battle_of_viminacium_599","year":599,"title":"Battles of Viminacium and the Tisza","type":"battle","cats":["military"],"importance":4,
-"summary":"In 599 Priscus crossed the Danube at Viminacium and won a series of battles against the Avars on Pannonian soil, killing, says Theophylact, four sons of the khagan. He then struck into the Avar heartland on the Tisza, destroying villages of Gepids under Avar rule and taking 3,000 Avars, 6,200 other barbarians and 8,000 Slavs captive.",
-"loc":[21.22,44.73],"locName":"Viminacium (Kostolac) and the Tisza","locCertainty":"approx","war":"balkan_wars_of_maurice","people":["priscus_general","bayan_i","maurice","theophylact_simocatta"],"polities":["rome_east","avars","slavs","gepids"],
-"battle":{"sides":[{"polity":"rome_east","commanders":["priscus_general"],"strength":"Balkan field army","losses":"light"},{"polity":"avars","commanders":["bayan_i"],"strength":"Avar army with subjects","losses":"heavy; four sons of the khagan killed (Theophylact)"}],"victor":"rome_east","kind":"field","significance":"The high point of Roman power on the Danube in the late sixth century; it seemed to vindicate Maurice's policy just before the 602 collapse."},
-"sources":[{"a":"Theophylact Simocatta","w":"History","r":"8.2-8.4"}],"debate":"Theophylact's numbers and the identity of the khagan (Bayan or his son) are uncertain; Whitby dates the campaign to 599.","certainty":"probable","tags":["Tisza"]},
-{"id":"revolt_of_phocas_602","year":602,"month":11,"title":"Mutiny of the Danube army and revolt of Phocas","type":"usurpation","cats":["military","political"],"importance":5,
-"summary":"Ordered in autumn 602 to winter north of the Danube to live off Slav lands, the army mutinied, raised the centurion Phocas on a shield and marched on Constantinople. The Greens rose in the capital, Maurice fled across the Bosporus, and Phocas was crowned at the Hebdomon on 23 November 602, the first successful violent usurpation in Constantinople since its founding.",
-"detail":"Maurice's unpopularity had accumulated: the pay cuts, the refusal to ransom captives, a famine in 602, and his close-fistedness compared with Tiberius. The mutineers first offered the throne to Maurice's son Theodosius or his father-in-law Germanus. The coup ended the most promising Balkan position Rome had held for decades and supplied Khosrow II with his casus belli.",
-"loc":[28.83,40.98],"locName":"Hebdomon, Constantinople","locCertainty":"certain","war":"roman_sasanian_war_602","people":["phocas","maurice","theophylact_simocatta"],"polities":["rome_east"],
-"sources":[{"a":"Theophylact Simocatta","w":"History","r":"8.6-8.10"},{"a":"Chronicon Paschale","w":"Chronicon Paschale","r":"s.a. 602"},{"a":"Theophanes","w":"Chronicle","r":"AM 6094"}],
-"scholarship":["Whitby, The Emperor Maurice and his Historian (1988)","Olster, The Politics of Usurpation in the Seventh Century (1993)"],"certainty":"certain","tags":["Hebdomon","Greens"]},
-{"id":"execution_of_maurice_602","year":602,"month":11,"day":27,"title":"Execution of Maurice and his sons","type":"assassination","cats":["political"],"importance":4,
-"summary":"On 27 November 602 Phocas's men executed Maurice at the harbour of Eutropius at Chalcedon after making him watch the beheading of five of his sons. Theophylact says Maurice repeated 'You are just, O Lord, and your judgment is righteous', and that when a nurse tried to substitute her own child for one of his sons, he revealed the deception. His eldest son Theodosius was later killed, though rumours of his survival persisted.",
-"loc":[29.03,40.98],"locName":"Harbour of Eutropius, Chalcedon","locCertainty":"certain","war":"roman_sasanian_war_602","people":["maurice","phocas","theophylact_simocatta","khosrow_ii"],"polities":["rome_east"],
-"sources":[{"a":"Theophylact Simocatta","w":"History","r":"8.11"},{"a":"Chronicon Paschale","w":"Chronicon Paschale","r":"s.a. 602"}],"certainty":"certain","tags":["Psalm 119"]}
-]}
+{
+ "events": [
+  {
+   "id": "accession_of_justin_ii_565",
+   "year": 565,
+   "month": 11,
+   "day": 14,
+   "title": "Accession of Justin II; Avar subsidies refused",
+   "type": "accession",
+   "cats": [
+    "political",
+    "diplomatic"
+   ],
+   "importance": 3,
+   "summary": "Justin II, son of Justinian's sister Vigilantia, was crowned on 14/15 November 565 by Patriarch John Scholasticus, with his wife Sophia, Theodora's niece. Days later he received the Avar envoy Targitius and refused the subsidies Justinian had paid, a policy of firmness celebrated by Corippus that soon cost dearly in the Balkans and the East.",
+   "loc": [
+    28.98,
+    41.01
+   ],
+   "locName": "Constantinople",
+   "locCertainty": "certain",
+   "people": [
+    "justin_ii",
+    "sophia_empress",
+    "bayan_i",
+    "menander_protector"
+   ],
+   "polities": [
+    "rome_east",
+    "avars"
+   ],
+   "sources": [
+    {
+     "a": "Corippus",
+     "w": "In laudem Iustini",
+     "r": "2-3"
+    },
+    {
+     "a": "Menander Protector",
+     "w": "History",
+     "r": "fr. 8 (Blockley)"
+    },
+    {
+     "a": "Evagrius",
+     "w": "Ecclesiastical History",
+     "r": "5.1"
+    }
+   ],
+   "scholarship": [
+    "Cameron (ed.), Corippus: In laudem Iustini Augusti minoris (1976)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Targitius"
+   ]
+  },
+  {
+   "id": "destruction_of_the_gepids_567",
+   "year": 567,
+   "title": "Lombards and Avars destroy the Gepid kingdom",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "Alboin's Lombards, allied with the Avars of Bayan on condition of giving them the Gepid lands and a tenth of their livestock, crushed the Gepids in 567. King Cunimund was killed; Alboin made his skull a drinking cup and married his daughter Rosamund. Sirmium was occupied by the Romans, and the Avars took the Carpathian basin.",
+   "loc": [
+    20.5,
+    45.5
+   ],
+   "locName": "Gepid territory, Tisza-Danube region",
+   "locCertainty": "approx",
+   "people": [
+    "alboin",
+    "bayan_i",
+    "justin_ii"
+   ],
+   "polities": [
+    "lombards",
+    "avars",
+    "gepids",
+    "rome_east"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "lombards",
+      "commanders": [
+       "alboin"
+      ],
+      "strength": "Lombard army with Avar allies",
+      "losses": "unknown"
+     },
+     {
+      "polity": "gepids",
+      "commanders": [],
+      "strength": "Gepid army under Cunimund",
+      "losses": "king killed; kingdom destroyed"
+     }
+    ],
+    "victor": "lombards",
+    "kind": "field",
+    "significance": "Gave the Avars the Carpathian basin, from which they dominated the middle Danube for 250 years, and set the Lombards moving toward Italy."
+   },
+   "sources": [
+    {
+     "a": "Paul the Deacon",
+     "w": "History of the Lombards",
+     "r": "1.27"
+    },
+    {
+     "a": "Menander Protector",
+     "w": "History",
+     "r": "fr. 12 (Blockley)"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Cunimund",
+    "skull cup",
+    "Rosamund"
+   ]
+  },
+  {
+   "id": "lombard_invasion_568",
+   "year": 568,
+   "month": 4,
+   "day": 2,
+   "title": "Lombard invasion of Italy",
+   "type": "migration",
+   "cats": [
+    "military"
+   ],
+   "importance": 5,
+   "summary": "On 2 April 568, Easter Monday, Alboin led the Lombards with Saxons, Gepids, Bulgars and others out of Pannonia, leaving it to the Avars, and entered Italy through the Julian Alps. Forum Iulii (Cividale) became the first duchy, under Alboin's nephew Gisulf; Milan fell on 3 September 569. Fourteen years after the Pragmatic Sanction, Roman Italy began to break into a patchwork of Lombard and Roman territories that lasted until the nineteenth century.",
+   "detail": "Italy had been devastated by twenty years of war and plague and was defended by scattered garrisons. Paul the Deacon reports the tradition that Narses, dismissed by Sophia, invited the Lombards out of spite, a story most historians reject. The Romans held the coasts, Ravenna, Rome, Naples, Genoa (until 643), and the corridor between Rome and Ravenna; the Lombards held most of the Po valley and inland duchies of Spoleto and Benevento.",
+   "loc": [
+    13.43,
+    46.09
+   ],
+   "locName": "Forum Iulii (Cividale del Friuli)",
+   "locCertainty": "probable",
+   "war": "roman_lombard_wars",
+   "people": [
+    "alboin",
+    "narses",
+    "justin_ii",
+    "sophia_empress"
+   ],
+   "polities": [
+    "lombards",
+    "rome_east",
+    "avars"
+   ],
+   "sources": [
+    {
+     "a": "Paul the Deacon",
+     "w": "History of the Lombards",
+     "r": "2.5-2.9, 2.25"
+    },
+    {
+     "a": "Marius of Avenches",
+     "w": "Chronicle",
+     "r": "s.a. 569"
+    },
+    {
+     "a": "Gregory the Great",
+     "w": "Dialogues",
+     "r": "3.38"
+    }
+   ],
+   "debate": "Whether the Lombards came as federates with Roman agreement (an old treaty with Justinian) or as invaders is debated. Their numbers, perhaps 100,000-150,000 people, are guesses.",
+   "scholarship": [
+    "Christie, The Lombards (1995)",
+    "Wickham, Early Medieval Italy (1981)",
+    "Pohl & Erhart (eds.), Die Langobarden (2005)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Gisulf",
+    "Forum Iulii"
+   ]
+  },
+  {
+   "id": "siege_of_pavia_569",
+   "year": 569,
+   "endYear": 572,
+   "title": "Siege of Pavia",
+   "type": "siege",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "Ticinum held out against Alboin for three years. When it finally surrendered, Paul the Deacon says Alboin swore to massacre the inhabitants but relented after his horse stumbled at the gate. Pavia became the Lombard royal capital.",
+   "loc": [
+    9.158,
+    45.185
+   ],
+   "locName": "Ticinum (Pavia)",
+   "locCertainty": "certain",
+   "war": "roman_lombard_wars",
+   "people": [
+    "alboin"
+   ],
+   "polities": [
+    "lombards",
+    "rome_east"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome_east",
+      "commanders": [],
+      "strength": "garrison and citizens",
+      "losses": "surrendered"
+     },
+     {
+      "polity": "lombards",
+      "commanders": [
+       "alboin"
+      ],
+      "strength": "Lombard army",
+      "losses": "unknown"
+     }
+    ],
+    "victor": "lombards",
+    "kind": "siege",
+    "significance": "Gave the Lombards their royal seat for two centuries."
+   },
+   "sources": [
+    {
+     "a": "Paul the Deacon",
+     "w": "History of the Lombards",
+     "r": "2.26-2.27"
+    }
+   ],
+   "certainty": "probable",
+   "tags": []
+  },
+  {
+   "id": "embassy_of_zemarchus_569",
+   "year": 569,
+   "endYear": 571,
+   "title": "Zemarchus's embassy to the Turks",
+   "type": "diplomacy",
+   "cats": [
+    "diplomatic",
+    "economic"
+   ],
+   "importance": 3,
+   "summary": "After a Sogdian-led Turkic embassy under Maniakh came to Constantinople in 568 seeking a silk trade route bypassing Persia, Justin II sent Zemarchus, magister militum of the East, to the court of the Turkic yabghu Istämi (Sizabul) in the Altai or Tian Shan. Menander's account describes exorcisms with incense and bells and a golden throne on wheels. The anti-Persian alliance helped trigger the war of 572.",
+   "loc": [
+    76.0,
+    43.0
+   ],
+   "locName": "Court of Istämi, Tian Shan / Ektag",
+   "locCertainty": "disputed",
+   "people": [
+    "justin_ii",
+    "menander_protector"
+   ],
+   "polities": [
+    "rome_east",
+    "western_turks",
+    "sasanian"
+   ],
+   "sources": [
+    {
+     "a": "Menander Protector",
+     "w": "History",
+     "r": "fr. 10.1-10.5 (Blockley)"
+    }
+   ],
+   "scholarship": [
+    "de la Vaissière, Sogdian Traders: A History (2005)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Maniakh",
+    "Sogdians",
+    "Istämi"
+   ]
+  },
+  {
+   "id": "assassination_of_alboin_572",
+   "year": 572,
+   "month": 6,
+   "day": 28,
+   "title": "Assassination of Alboin",
+   "type": "assassination",
+   "cats": [
+    "political"
+   ],
+   "importance": 2,
+   "summary": "Alboin was murdered at Verona on 28 June 572 by his armour-bearer Helmichis and the warrior Peredeo, instigated by Queen Rosamund, whom he had forced to drink from her father's skull. The conspirators fled to Ravenna with the Lombard treasure; Rosamund tried to poison Helmichis, who forced her to drink the rest of the cup.",
+   "loc": [
+    10.993,
+    45.438
+   ],
+   "locName": "Verona",
+   "locCertainty": "certain",
+   "war": "roman_lombard_wars",
+   "people": [
+    "alboin"
+   ],
+   "polities": [
+    "lombards",
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Paul the Deacon",
+     "w": "History of the Lombards",
+     "r": "2.28-2.29"
+    },
+    {
+     "a": "Agnellus",
+     "w": "Liber Pontificalis Ecclesiae Ravennatis",
+     "r": "96"
+    }
+   ],
+   "debate": "Paul writes two centuries later with saga elements; the involvement of the exarch Longinus is plausible.",
+   "certainty": "probable",
+   "tags": [
+    "Rosamund",
+    "Helmichis"
+   ]
+  },
+  {
+   "id": "outbreak_of_persian_war_572",
+   "year": 572,
+   "title": "Outbreak of the Persian war of 572",
+   "type": "political",
+   "cats": [
+    "military",
+    "diplomatic",
+    "religious"
+   ],
+   "importance": 4,
+   "summary": "Justin II refused the annual payment due under the 562 treaty, supported a revolt in Persarmenia, where Vardan Mamikonian killed the Persian governor at Dvin in February 572, and received the Armenian rebels into Roman protection. Twenty years of war followed, ending only with Khosrow II's restoration in 591.",
+   "loc": [
+    44.57,
+    40.0
+   ],
+   "locName": "Dvin, Persarmenia",
+   "locCertainty": "approx",
+   "war": "roman_sasanian_war_572",
+   "people": [
+    "justin_ii",
+    "khosrow_i"
+   ],
+   "polities": [
+    "rome_east",
+    "sasanian",
+    "armenian_nakharars"
+   ],
+   "sources": [
+    {
+     "a": "Theophylact Simocatta",
+     "w": "History",
+     "r": "3.9"
+    },
+    {
+     "a": "Evagrius",
+     "w": "Ecclesiastical History",
+     "r": "5.7"
+    },
+    {
+     "a": "Sebeos",
+     "w": "History",
+     "r": "67-68"
+    }
+   ],
+   "scholarship": [
+    "Whitby, The Emperor Maurice and his Historian (1988)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Vardan II Mamikonian"
+   ]
+  },
+  {
+   "id": "siege_of_dara_573",
+   "year": 573,
+   "month": 11,
+   "title": "Fall of Dara",
+   "type": "siege",
+   "cats": [
+    "military",
+    "political"
+   ],
+   "importance": 4,
+   "summary": "After the Roman siege of Nisibis collapsed in panic and the general Marcian was recalled, Khosrow I besieged Dara for six months and took it in November 573, while his general Adarmahan ravaged Syria and burned Apamea. The news drove Justin II insane; he had to be soothed with organ music and a toy cart, says John of Ephesus. Sophia bought a one-year truce for 45,000 nomismata.",
+   "loc": [
+    40.948,
+    37.177
+   ],
+   "locName": "Dara",
+   "locCertainty": "certain",
+   "war": "roman_sasanian_war_572",
+   "people": [
+    "khosrow_i",
+    "justin_ii",
+    "sophia_empress",
+    "evagrius_scholasticus"
+   ],
+   "polities": [
+    "sasanian",
+    "rome_east"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome_east",
+      "commanders": [],
+      "strength": "garrison and citizens",
+      "losses": "city taken; population deported"
+     },
+     {
+      "polity": "sasanian",
+      "commanders": [
+       "khosrow_i"
+      ],
+      "strength": "Persian royal army",
+      "losses": "unknown"
+     }
+    ],
+    "victor": "sasanian",
+    "kind": "siege",
+    "significance": "The loss of Rome's key Mesopotamian fortress caused a constitutional crisis and the elevation of Tiberius as Caesar."
+   },
+   "sources": [
+    {
+     "a": "Evagrius",
+     "w": "Ecclesiastical History",
+     "r": "5.9-5.10"
+    },
+    {
+     "a": "John of Ephesus",
+     "w": "Ecclesiastical History",
+     "r": "3.2-3.4"
+    },
+    {
+     "a": "Theophylact Simocatta",
+     "w": "History",
+     "r": "3.10-3.11"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Adarmahan",
+    "Apamea"
+   ]
+  },
+  {
+   "id": "tiberius_caesar_574",
+   "year": 574,
+   "month": 12,
+   "day": 7,
+   "title": "Tiberius proclaimed Caesar",
+   "type": "constitutional",
+   "cats": [
+    "political",
+    "constitutional"
+   ],
+   "importance": 3,
+   "summary": "In a lucid interval on 7 December 574, Justin II proclaimed Tiberius, commander of the excubitors, Caesar, with a speech recorded by Theophylact and John of Ephesus warning him not to imitate Justin's own mistakes: 'Do not delight in bloodshed... Let not the glory of these garments mislead you as it did me'. Tiberius and Sophia governed jointly until Justin's death.",
+   "loc": [
+    28.98,
+    41.01
+   ],
+   "locName": "Constantinople",
+   "locCertainty": "certain",
+   "people": [
+    "tiberius_ii",
+    "justin_ii",
+    "sophia_empress",
+    "theophylact_simocatta"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Theophylact Simocatta",
+     "w": "History",
+     "r": "3.11.7-13"
+    },
+    {
+     "a": "Evagrius",
+     "w": "Ecclesiastical History",
+     "r": "5.13"
+    },
+    {
+     "a": "John of Ephesus",
+     "w": "Ecclesiastical History",
+     "r": "3.5"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "excubitors"
+   ]
+  },
+  {
+   "id": "battle_of_melitene_576",
+   "year": 576,
+   "title": "Battle of Melitene",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "Khosrow I, aged about 75, invaded Armenia and Cappadocia in 576, failed before Theodosiopolis and Caesarea, and burned Sebasteia and Melitene. Near Melitene the Romans under Justinian, son of Germanus, caught his army; the Persian camp and royal baggage including the sacred fire were taken, and Khosrow escaped across the Euphrates on an elephant, then decreed that no Persian king should campaign in person again.",
+   "loc": [
+    38.33,
+    38.35
+   ],
+   "locName": "Melitene (Malatya)",
+   "locCertainty": "probable",
+   "war": "roman_sasanian_war_572",
+   "people": [
+    "khosrow_i",
+    "evagrius_scholasticus",
+    "theophylact_simocatta"
+   ],
+   "polities": [
+    "rome_east",
+    "sasanian"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome_east",
+      "commanders": [],
+      "strength": "eastern field army under Justinian son of Germanus",
+      "losses": "unknown"
+     },
+     {
+      "polity": "sasanian",
+      "commanders": [
+       "khosrow_i"
+      ],
+      "strength": "Persian royal army",
+      "losses": "heavy; baggage and camp captured"
+     }
+    ],
+    "victor": "rome_east",
+    "kind": "field",
+    "significance": "Khosrow's last campaign; the Roman counter-raid reached the Caspian."
+   },
+   "sources": [
+    {
+     "a": "Evagrius",
+     "w": "Ecclesiastical History",
+     "r": "5.14"
+    },
+    {
+     "a": "Theophylact Simocatta",
+     "w": "History",
+     "r": "3.14"
+    },
+    {
+     "a": "John of Ephesus",
+     "w": "Ecclesiastical History",
+     "r": "6.8-6.9"
+    }
+   ],
+   "debate": "Date 575 or 576; the sources' accounts of the battle differ substantially.",
+   "certainty": "probable",
+   "tags": [
+    "elephant"
+   ]
+  },
+  {
+   "id": "accession_of_tiberius_ii_578",
+   "year": 578,
+   "month": 9,
+   "day": 26,
+   "title": "Tiberius II Constantine becomes Augustus",
+   "type": "accession",
+   "cats": [
+    "political"
+   ],
+   "importance": 2,
+   "summary": "Crowned Augustus on 26 September 578, nine days before Justin II's death, Tiberius took the name Constantine. His generosity (he cut taxes by a quarter and lavished donatives) won popularity but emptied the treasury Justin had refilled. He recruited a new corps of 15,000 foederati and appointed Maurice to the East.",
+   "loc": [
+    28.98,
+    41.01
+   ],
+   "locName": "Constantinople",
+   "locCertainty": "certain",
+   "people": [
+    "tiberius_ii",
+    "justin_ii",
+    "sophia_empress",
+    "maurice"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Theophylact Simocatta",
+     "w": "History",
+     "r": "3.16"
+    },
+    {
+     "a": "Evagrius",
+     "w": "Ecclesiastical History",
+     "r": "5.13"
+    },
+    {
+     "a": "Gregory of Tours",
+     "w": "Histories",
+     "r": "5.19"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "foederati"
+   ]
+  },
+  {
+   "id": "fall_of_sirmium_582",
+   "year": 582,
+   "title": "Avars take Sirmium",
+   "type": "siege",
+   "cats": [
+    "military"
+   ],
+   "importance": 4,
+   "summary": "Bayan built bridges across the Sava with the help of Roman craftsmen and blockaded Sirmium from 579. With Roman armies tied down in the East, Tiberius gave up the city in 582 in exchange for the garrison's freedom, paying the arrears of subsidy (240,000 nomismata). The old imperial capital became the Avar khagan's bridgehead.",
+   "loc": [
+    19.61,
+    44.97
+   ],
+   "locName": "Sirmium (Sremska Mitrovica)",
+   "locCertainty": "certain",
+   "war": "balkan_wars_of_maurice",
+   "people": [
+    "bayan_i",
+    "tiberius_ii",
+    "menander_protector"
+   ],
+   "polities": [
+    "avars",
+    "rome_east"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome_east",
+      "commanders": [],
+      "strength": "garrison and starving citizens",
+      "losses": "city surrendered"
+     },
+     {
+      "polity": "avars",
+      "commanders": [
+       "bayan_i"
+      ],
+      "strength": "Avar army with Slav auxiliaries",
+      "losses": "unknown"
+     }
+    ],
+    "victor": "avars",
+    "kind": "siege",
+    "significance": "Broke the middle Danube line; Avar and Slav raids into the Balkans followed for fifty years."
+   },
+   "sources": [
+    {
+     "a": "Menander Protector",
+     "w": "History",
+     "r": "fr. 25.1-27.3 (Blockley)"
+    },
+    {
+     "a": "John of Ephesus",
+     "w": "Ecclesiastical History",
+     "r": "6.32"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Sava bridge"
+   ]
+  },
+  {
+   "id": "accession_of_maurice_582",
+   "year": 582,
+   "month": 8,
+   "day": 13,
+   "title": "Accession of Maurice",
+   "type": "accession",
+   "cats": [
+    "political"
+   ],
+   "importance": 3,
+   "summary": "Dying, Tiberius II named Maurice, a Cappadocian notary turned general who had won victories in the East, as Caesar on 5 August and Augustus on 13 August 582, and married him to his daughter Constantina. Tiberius died on 14 August.",
+   "loc": [
+    28.98,
+    41.01
+   ],
+   "locName": "Constantinople",
+   "locCertainty": "certain",
+   "people": [
+    "maurice",
+    "tiberius_ii",
+    "theophylact_simocatta"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Theophylact Simocatta",
+     "w": "History",
+     "r": "1.1-1.2"
+    },
+    {
+     "a": "Evagrius",
+     "w": "Ecclesiastical History",
+     "r": "5.22"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Constantina"
+   ]
+  },
+  {
+   "id": "slav_settlement_in_greece_580s",
+   "year": 581,
+   "endYear": 590,
+   "title": "Slav settlement in the Balkans and Greece",
+   "type": "migration",
+   "cats": [
+    "military",
+    "social"
+   ],
+   "importance": 4,
+   "summary": "John of Ephesus wrote in 584 that Slavs had overrun Thrace, Thessaly and Greece, lived there 'as in their own land', grew rich in gold, silver and herds, and learned to fight better than the Romans. Over the following decades Slavic settlement spread through much of the Balkans and the Peloponnese, the Monemvasia Chronicle claiming that Roman rule there lapsed for 218 years.",
+   "loc": [
+    22.0,
+    38.0
+   ],
+   "locName": "Peloponnese and central Greece",
+   "locCertainty": "approx",
+   "war": "balkan_wars_of_maurice",
+   "people": [
+    "maurice",
+    "bayan_i"
+   ],
+   "polities": [
+    "slavs",
+    "avars",
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "John of Ephesus",
+     "w": "Ecclesiastical History",
+     "r": "6.25"
+    },
+    {
+     "a": "Chronicle of Monemvasia",
+     "w": "Chronicle of Monemvasia"
+    },
+    {
+     "a": "Evagrius",
+     "w": "Ecclesiastical History",
+     "r": "6.10"
+    }
+   ],
+   "debate": "Scale and chronology are debated: Curta argues 'the Slavs' were partly a Roman construct and that settlement in Greece was later and patchier; Fallmerayer's notorious nineteenth-century thesis of Greek extinction is discredited.",
+   "scholarship": [
+    "Curta, The Making of the Slavs (2001)",
+    "Curta, Southeastern Europe in the Middle Ages 500-1250 (2006)"
+   ],
+   "certainty": "probable",
+   "tags": [
+    "Monemvasia Chronicle",
+    "Sclaveni"
+   ]
+  },
+  {
+   "id": "exarchate_of_ravenna_584",
+   "year": 584,
+   "title": "Creation of the Exarchate of Ravenna",
+   "type": "administrative",
+   "cats": [
+    "administrative",
+    "military"
+   ],
+   "importance": 3,
+   "summary": "By 584 an exarch (first attested Decius, then Smaragdus) combined supreme civil and military authority over Roman Italy, a response to the Lombard threat that broke the late Roman separation of civil and military command. A parallel Exarchate of Carthage is attested from 591 (Gennadius).",
+   "loc": [
+    12.199,
+    44.418
+   ],
+   "locName": "Ravenna",
+   "locCertainty": "certain",
+   "war": "roman_lombard_wars",
+   "people": [
+    "maurice",
+    "gregory_the_great"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Gregory the Great",
+     "w": "Register of Letters",
+     "r": "1.59, 1.73"
+    },
+    {
+     "a": "Pelagius II",
+     "w": "Letters",
+     "r": "(584)"
+    }
+   ],
+   "scholarship": [
+    "Brown, Gentlemen and Officers: Imperial Administration and Aristocratic Power in Byzantine Italy 554-800 (1984)"
+   ],
+   "debate": "The office developed gradually; 584 is the date of the first secure attestation of the title.",
+   "certainty": "probable",
+   "tags": [
+    "exarch"
+   ]
+  },
+  {
+   "id": "battle_of_solachon",
+   "year": 586,
+   "title": "Battle of Solachon",
+   "type": "battle",
+   "cats": [
+    "military",
+    "religious"
+   ],
+   "importance": 3,
+   "summary": "In spring 586 Maurice's brother-in-law Philippicus met the Persian general Kardarigan on the plain of Solachon south of Mardin. Before battle he paraded the Camuliana image of Christ 'not made by human hands'. The Roman centre under Heraclius the Elder broke the Persians, who were cut off from water; Kardarigan fled to a hilltop.",
+   "loc": [
+    40.7,
+    37.2
+   ],
+   "locName": "Solachon, south of Mardin",
+   "locCertainty": "approx",
+   "war": "roman_sasanian_war_572",
+   "people": [
+    "philippicus",
+    "heraclius",
+    "theophylact_simocatta"
+   ],
+   "polities": [
+    "rome_east",
+    "sasanian"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome_east",
+      "commanders": [
+       "philippicus"
+      ],
+      "strength": "eastern field army; centre under Heraclius the Elder",
+      "losses": "light"
+     },
+     {
+      "polity": "sasanian",
+      "commanders": [],
+      "strength": "Persian army under Kardarigan",
+      "losses": "heavy, many dying of thirst"
+     }
+    ],
+    "victor": "rome_east",
+    "kind": "field",
+    "significance": "The first major Roman field victory of the war; an early example of an icon used as a military palladium."
+   },
+   "sources": [
+    {
+     "a": "Theophylact Simocatta",
+     "w": "History",
+     "r": "2.2-2.5"
+    }
+   ],
+   "scholarship": [
+    "Whitby, The Emperor Maurice and his Historian (1988)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "acheiropoietos",
+    "Camuliana image",
+    "Kardarigan"
+   ]
+  },
+  {
+   "id": "siege_of_thessalonica_586",
+   "year": 586,
+   "month": 9,
+   "title": "Avaro-Slav siege of Thessalonica",
+   "type": "siege",
+   "cats": [
+    "military",
+    "religious"
+   ],
+   "importance": 3,
+   "summary": "A huge Slav army sent by the Avar khagan besieged Thessalonica for a week in September 586 (or 597), with siege engines including stone throwers and testudos. The city's defence was credited to its patron St Demetrius, who appeared on the walls; the episode is the core of Book I of the Miracles of St Demetrius.",
+   "loc": [
+    22.94,
+    40.64
+   ],
+   "locName": "Thessalonica",
+   "locCertainty": "certain",
+   "war": "balkan_wars_of_maurice",
+   "people": [
+    "bayan_i",
+    "maurice"
+   ],
+   "polities": [
+    "slavs",
+    "avars",
+    "rome_east"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome_east",
+      "commanders": [],
+      "strength": "citizens; garrison absent",
+      "losses": "unknown"
+     },
+     {
+      "polity": "slavs",
+      "commanders": [],
+      "strength": "100,000 (Miracula, inflated) with Avar-supplied engines",
+      "losses": "unknown"
+     }
+    ],
+    "victor": "rome_east",
+    "kind": "siege",
+    "significance": "Thessalonica's survival made it the Roman bulwark in the Slavicised Balkans."
+   },
+   "sources": [
+    {
+     "a": "Miracles of St Demetrius",
+     "w": "Miracula S. Demetrii",
+     "r": "I.13-15"
+    }
+   ],
+   "debate": "Date disputed between 586 and 597.",
+   "scholarship": [
+    "Lemerle, Les plus anciens recueils des miracles de saint Démétrius (1979-81)"
+   ],
+   "certainty": "probable",
+   "tags": [
+    "St Demetrius",
+    "stone throwers"
+   ]
+  },
+  {
+   "id": "mutiny_of_588",
+   "year": 588,
+   "title": "Mutiny of the eastern army",
+   "type": "revolt",
+   "cats": [
+    "military",
+    "economic"
+   ],
+   "importance": 2,
+   "summary": "Maurice's order to cut military pay by a quarter provoked a mutiny of the eastern army at Easter 588 at Monocarton; the new commander Priscus fled after being stoned, and the troops chose Germanus, dux of Phoenicia. The mutineers still beat the Persians at Martyropolis; Gregory of Antioch restored order in 589.",
+   "loc": [
+    40.0,
+    37.3
+   ],
+   "locName": "Monocarton, near Constantina",
+   "locCertainty": "approx",
+   "war": "roman_sasanian_war_572",
+   "people": [
+    "maurice",
+    "priscus_general",
+    "theophylact_simocatta",
+    "evagrius_scholasticus"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Theophylact Simocatta",
+     "w": "History",
+     "r": "3.1-3.4"
+    },
+    {
+     "a": "Evagrius",
+     "w": "Ecclesiastical History",
+     "r": "6.4-6.13"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "pay cut"
+   ]
+  },
+  {
+   "id": "third_council_of_toledo_589",
+   "year": 589,
+   "month": 5,
+   "day": 8,
+   "title": "Third Council of Toledo: Visigoths become Catholic",
+   "type": "religious",
+   "cats": [
+    "religious",
+    "political"
+   ],
+   "importance": 3,
+   "summary": "King Reccared, who had converted privately in 587, presided at the Third Council of Toledo opened on 8 May 589, where the Visigothic nobility and Arian bishops abjured Arianism and accepted Nicene Christianity. The council also adopted the Filioque in its creed, a seed of the later East-West dispute.",
+   "loc": [
+    -4.024,
+    39.857
+   ],
+   "locName": "Toletum (Toledo)",
+   "locCertainty": "certain",
+   "people": [],
+   "polities": [
+    "visigothic_kingdom"
+   ],
+   "sources": [
+    {
+     "a": "Acts of the Third Council of Toledo",
+     "w": "Concilios visigóticos e hispano-romanos (ed. Vives)"
+    },
+    {
+     "a": "John of Biclaro",
+     "w": "Chronicle",
+     "r": "s.a. 589"
+    },
+    {
+     "a": "Isidore of Seville",
+     "w": "History of the Goths",
+     "r": "52-53"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Reccared",
+    "Filioque"
+   ]
+  },
+  {
+   "id": "pontificate_of_gregory_590",
+   "year": 590,
+   "month": 9,
+   "day": 3,
+   "title": "Gregory the Great becomes pope",
+   "type": "religious",
+   "cats": [
+    "religious",
+    "political"
+   ],
+   "importance": 4,
+   "summary": "Gregory, former urban prefect, monk and papal envoy to Constantinople, was consecrated on 3 September 590 after Pelagius II died of plague, which Gregory fought with penitential processions (legend later put the archangel Michael atop Hadrian's mausoleum, hence Castel Sant'Angelo). He ran Rome's food supply, defence and diplomacy from the papal estates.",
+   "loc": [
+    12.4924,
+    41.8902
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "people": [
+    "gregory_the_great",
+    "maurice"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Gregory of Tours",
+     "w": "Histories",
+     "r": "10.1"
+    },
+    {
+     "a": "Gregory the Great",
+     "w": "Register of Letters"
+    }
+   ],
+   "scholarship": [
+    "Markus, Gregory the Great and His World (1997)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Castel Sant'Angelo"
+   ]
+  },
+  {
+   "id": "flight_of_khosrow_ii_590",
+   "year": 590,
+   "title": "Bahram Chobin's revolt; Khosrow II flees to the Romans",
+   "type": "usurpation",
+   "cats": [
+    "political",
+    "diplomatic"
+   ],
+   "importance": 3,
+   "summary": "The general Bahram Chobin, victor over the Turks but then defeated by the Romans in the Caucasus and insulted by Hormizd IV with a woman's dress, rebelled. Hormizd was overthrown and killed in a palace coup (590) and his son Khosrow II crowned, but Bahram took Ctesiphon and proclaimed himself king, the first non-Sasanian to do so. Khosrow fled to Roman Circesium and appealed to Maurice.",
+   "loc": [
+    40.45,
+    35.16
+   ],
+   "locName": "Circesium on the Euphrates",
+   "locCertainty": "certain",
+   "war": "roman_sasanian_war_572",
+   "people": [
+    "khosrow_ii",
+    "bahram_chobin",
+    "maurice",
+    "theophylact_simocatta"
+   ],
+   "polities": [
+    "sasanian",
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Theophylact Simocatta",
+     "w": "History",
+     "r": "4.1-4.12"
+    },
+    {
+     "a": "Sebeos",
+     "w": "History",
+     "r": "73-76"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Hormizd IV"
+   ]
+  },
+  {
+   "id": "battle_of_blarathon",
+   "year": 591,
+   "title": "Battle of the Blarathon",
+   "type": "battle",
+   "cats": [
+    "military",
+    "political"
+   ],
+   "importance": 4,
+   "summary": "Against the advice of his senate, Maurice backed Khosrow II. A Roman army under Narses and John Mystacon with Armenian contingents and Khosrow's loyalists defeated Bahram Chobin on the river Blarathon near Ganzak in Atropatene in late summer 591. Bahram fled to the Turks and was murdered; Khosrow was restored.",
+   "loc": [
+    46.5,
+    36.9
+   ],
+   "locName": "River Blarathon, near Ganzak, Atropatene",
+   "locCertainty": "approx",
+   "war": "roman_sasanian_war_572",
+   "people": [
+    "khosrow_ii",
+    "bahram_chobin",
+    "maurice",
+    "theophylact_simocatta"
+   ],
+   "polities": [
+    "rome_east",
+    "sasanian"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome_east",
+      "commanders": [
+       "maurice"
+      ],
+      "strength": "Roman and Armenian troops under Narses and John Mystacon with Khosrow's supporters, perhaps 40,000-60,000",
+      "losses": "unknown"
+     },
+     {
+      "polity": "sasanian",
+      "commanders": [
+       "bahram_chobin"
+      ],
+      "strength": "Bahram's army with elephants",
+      "losses": "heavy; elephants captured"
+     }
+    ],
+    "victor": "rome_east",
+    "kind": "field",
+    "significance": "Restored a grateful Sasanian king and brought the most favourable peace Rome ever made with Persia."
+   },
+   "sources": [
+    {
+     "a": "Theophylact Simocatta",
+     "w": "History",
+     "r": "5.9-5.11"
+    },
+    {
+     "a": "Sebeos",
+     "w": "History",
+     "r": "76-77"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Narses (general of Maurice)",
+    "John Mystacon"
+   ]
+  },
+  {
+   "id": "peace_of_591",
+   "year": 591,
+   "title": "Peace of 591 with Khosrow II",
+   "type": "treaty",
+   "cats": [
+    "diplomatic"
+   ],
+   "importance": 3,
+   "summary": "In return for his restoration, Khosrow II returned Dara and Martyropolis and ceded most of Persarmenia, including Dvin, and part of Iberia, without any Roman payment. Rome's eastern frontier reached its farthest extent, and Maurice could switch his armies to the Balkans.",
+   "loc": [
+    44.57,
+    40.0
+   ],
+   "locName": "Persarmenia",
+   "locCertainty": "approx",
+   "war": "roman_sasanian_war_572",
+   "people": [
+    "khosrow_ii",
+    "maurice"
+   ],
+   "polities": [
+    "rome_east",
+    "sasanian"
+   ],
+   "sources": [
+    {
+     "a": "Theophylact Simocatta",
+     "w": "History",
+     "r": "5.15"
+    },
+    {
+     "a": "Sebeos",
+     "w": "History",
+     "r": "84"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Dvin"
+   ]
+  },
+  {
+   "id": "agilulf_besieges_rome_593",
+   "year": 593,
+   "title": "Agilulf threatens Rome; Gregory buys peace",
+   "type": "diplomacy",
+   "cats": [
+    "diplomatic",
+    "religious"
+   ],
+   "importance": 2,
+   "summary": "After the exarch Romanus recovered the Rome-Ravenna corridor, the Lombard king Agilulf retaliated by marching on Rome in 593. Gregory, interrupting his homilies on Ezekiel, saw Romans led off roped like dogs to be sold in Gaul, and paid 500 lbs of gold to buy Agilulf off, then negotiated a separate peace, angering Maurice, who called him a fool.",
+   "loc": [
+    12.4924,
+    41.8902
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "war": "roman_lombard_wars",
+   "people": [
+    "gregory_the_great",
+    "maurice"
+   ],
+   "polities": [
+    "lombards",
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Gregory the Great",
+     "w": "Homilies on Ezekiel",
+     "r": "2.6.22"
+    },
+    {
+     "a": "Gregory the Great",
+     "w": "Register of Letters",
+     "r": "5.36"
+    },
+    {
+     "a": "Paul the Deacon",
+     "w": "History of the Lombards",
+     "r": "4.8"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Agilulf",
+    "Theodelinda"
+   ]
+  },
+  {
+   "id": "gregorian_mission_597",
+   "year": 597,
+   "title": "Gregory's mission to the English",
+   "type": "religious",
+   "cats": [
+    "religious",
+    "cultural"
+   ],
+   "importance": 3,
+   "summary": "Gregory sent the monk Augustine with about 40 companions from his monastery of St Andrew in Rome; they landed in Kent in 597 and were received by King Æthelberht, whose Frankish wife Bertha was already Christian. Æthelberht's baptism followed, and Canterbury became the metropolitan see.",
+   "loc": [
+    1.08,
+    51.28
+   ],
+   "locName": "Durovernum Cantiacorum (Canterbury)",
+   "locCertainty": "certain",
+   "people": [
+    "gregory_the_great"
+   ],
+   "polities": [
+    "anglo_saxons"
+   ],
+   "sources": [
+    {
+     "a": "Bede",
+     "w": "Ecclesiastical History of the English People",
+     "r": "1.23-1.33"
+    },
+    {
+     "a": "Gregory the Great",
+     "w": "Register of Letters",
+     "r": "8.29, 11.56"
+    }
+   ],
+   "debate": "The 'non Angli sed angeli' anecdote is from the Whitby Life and Bede, not Gregory.",
+   "certainty": "certain",
+   "tags": [
+    "Augustine of Canterbury",
+    "Æthelberht"
+   ]
+  },
+  {
+   "id": "maurice_balkan_campaigns_593",
+   "year": 593,
+   "endYear": 598,
+   "title": "Maurice's offensives beyond the Danube",
+   "type": "campaign",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "From 593 Maurice took the war to the enemy. Priscus crossed the lower Danube and smashed the Slav chief Ardagastus in his home territory; Maurice's brother Peter campaigned in 594-597. Theophylact preserves the tension between commanders and troops, who hated campaigning in winter beyond the river and resisted orders to live off the land.",
+   "loc": [
+    26.5,
+    44.2
+   ],
+   "locName": "Lower Danube (Wallachia)",
+   "locCertainty": "approx",
+   "war": "balkan_wars_of_maurice",
+   "people": [
+    "maurice",
+    "priscus_general",
+    "theophylact_simocatta",
+    "bayan_i"
+   ],
+   "polities": [
+    "rome_east",
+    "slavs",
+    "avars"
+   ],
+   "sources": [
+    {
+     "a": "Theophylact Simocatta",
+     "w": "History",
+     "r": "6.6-7.5"
+    }
+   ],
+   "scholarship": [
+    "Whitby, The Emperor Maurice and his Historian (1988)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Ardagastus",
+    "Musocius"
+   ]
+  },
+  {
+   "id": "strategikon_c600",
+   "year": 600,
+   "title": "The Strategikon of Maurice",
+   "type": "literary",
+   "cats": [
+    "military",
+    "literature"
+   ],
+   "importance": 4,
+   "summary": "Composed around 592-610 and traditionally attributed to Maurice, the Strategikon is a 12-book field manual: cavalry organisation into banda, drill with Latin words of command, march and camp procedure, ambushes, and ethnographic chapters on how to fight Persians, Scythians (Avars and Turks), 'light-haired peoples' (Franks and Lombards) and Slavs and Antes.",
+   "detail": "The ideal trooper is an Avar-style lancer-archer with stirrups (the first clear reference in a Greek text), lamellar armour and a lance with a pennant removed before battle. The chapter on Slavs advises winter campaigns when the trees give no cover and rivers are frozen, exactly what Maurice ordered in 602. It is the hinge between Vegetius and Leo VI's Taktika.",
+   "loc": [
+    28.98,
+    41.01
+   ],
+   "locName": "Constantinople",
+   "locCertainty": "approx",
+   "people": [
+    "maurice",
+    "philippicus"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Maurice",
+     "w": "Strategikon",
+     "r": "1.1-2, 11.1-4"
+    }
+   ],
+   "debate": "Authorship by Maurice himself is uncertain; Philippicus or an anonymous officer have been suggested. Rance and others debate its date within c. 575-628.",
+   "scholarship": [
+    "Dennis (trans.), Maurice's Strategikon (1984)",
+    "Rance, 'The date of the military compendium of Syrianus Magister', BZ 100 (2007)"
+   ],
+   "certainty": "probable",
+   "tags": [
+    "stirrups",
+    "banda",
+    "Latin commands"
+   ]
+  },
+  {
+   "id": "captives_massacre_599",
+   "year": 599,
+   "title": "Bayan massacres 12,000 Roman prisoners",
+   "type": "other",
+   "cats": [
+    "military",
+    "political"
+   ],
+   "importance": 3,
+   "summary": "After Comentiolus's disastrous retreat at Iatrus in 598, the Avars took some 12,000 Roman prisoners. Maurice refused to pay the khagan's ransom, reportedly a nomisma each, then half, then a quarter, and Bayan had them all killed. The atrocity was one of the grievances against Maurice in 602.",
+   "loc": [
+    25.62,
+    43.62
+   ],
+   "locName": "Iatrus and the lower Danube",
+   "locCertainty": "approx",
+   "war": "balkan_wars_of_maurice",
+   "people": [
+    "maurice",
+    "comentiolus",
+    "bayan_i",
+    "theophylact_simocatta"
+   ],
+   "polities": [
+    "avars",
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Theophylact Simocatta",
+     "w": "History",
+     "r": "7.13-7.15"
+    },
+    {
+     "a": "Theophanes",
+     "w": "Chronicle",
+     "r": "AM 6092"
+    }
+   ],
+   "debate": "Theophanes, drawing on a source hostile to Maurice, gives the ransom detail; Theophylact suggests Comentiolus betrayed the army deliberately on Maurice's orders to punish it, which most doubt.",
+   "certainty": "probable",
+   "tags": [
+    "Iatrus"
+   ]
+  },
+  {
+   "id": "battle_of_viminacium_599",
+   "year": 599,
+   "title": "Battles of Viminacium and the Tisza",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 4,
+   "summary": "In 599 Priscus crossed the Danube at Viminacium and won a series of battles against the Avars on Pannonian soil, killing, says Theophylact, four sons of the khagan. He then struck into the Avar heartland on the Tisza, destroying villages of Gepids under Avar rule and taking 3,000 Avars, 6,200 other barbarians and 8,000 Slavs captive.",
+   "loc": [
+    21.22,
+    44.73
+   ],
+   "locName": "Viminacium (Kostolac) and the Tisza",
+   "locCertainty": "approx",
+   "war": "balkan_wars_of_maurice",
+   "people": [
+    "priscus_general",
+    "bayan_i",
+    "maurice",
+    "theophylact_simocatta"
+   ],
+   "polities": [
+    "rome_east",
+    "avars",
+    "slavs"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome_east",
+      "commanders": [
+       "priscus_general"
+      ],
+      "strength": "Balkan field army",
+      "losses": "light"
+     },
+     {
+      "polity": "avars",
+      "commanders": [
+       "bayan_i"
+      ],
+      "strength": "Avar army with subjects",
+      "losses": "heavy; four sons of the khagan killed (Theophylact)"
+     }
+    ],
+    "victor": "rome_east",
+    "kind": "field",
+    "significance": "The high point of Roman power on the Danube in the late sixth century; it seemed to vindicate Maurice's policy just before the 602 collapse."
+   },
+   "sources": [
+    {
+     "a": "Theophylact Simocatta",
+     "w": "History",
+     "r": "8.2-8.4"
+    }
+   ],
+   "debate": "Theophylact's numbers and the identity of the khagan (Bayan or his son) are uncertain; Whitby dates the campaign to 599.",
+   "certainty": "probable",
+   "tags": [
+    "Tisza"
+   ]
+  },
+  {
+   "id": "revolt_of_phocas_602",
+   "year": 602,
+   "month": 11,
+   "title": "Mutiny of the Danube army and revolt of Phocas",
+   "type": "usurpation",
+   "cats": [
+    "military",
+    "political"
+   ],
+   "importance": 5,
+   "summary": "Ordered in autumn 602 to winter north of the Danube to live off Slav lands, the army mutinied, raised the centurion Phocas on a shield and marched on Constantinople. The Greens rose in the capital, Maurice fled across the Bosporus, and Phocas was crowned at the Hebdomon on 23 November 602, the first successful violent usurpation in Constantinople since its founding.",
+   "detail": "Maurice's unpopularity had accumulated: the pay cuts, the refusal to ransom captives, a famine in 602, and his close-fistedness compared with Tiberius. The mutineers first offered the throne to Maurice's son Theodosius or his father-in-law Germanus. The coup ended the most promising Balkan position Rome had held for decades and supplied Khosrow II with his casus belli.",
+   "loc": [
+    28.83,
+    40.98
+   ],
+   "locName": "Hebdomon, Constantinople",
+   "locCertainty": "certain",
+   "war": "roman_sasanian_war_602",
+   "people": [
+    "phocas",
+    "maurice",
+    "theophylact_simocatta"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Theophylact Simocatta",
+     "w": "History",
+     "r": "8.6-8.10"
+    },
+    {
+     "a": "Chronicon Paschale",
+     "w": "Chronicon Paschale",
+     "r": "s.a. 602"
+    },
+    {
+     "a": "Theophanes",
+     "w": "Chronicle",
+     "r": "AM 6094"
+    }
+   ],
+   "scholarship": [
+    "Whitby, The Emperor Maurice and his Historian (1988)",
+    "Olster, The Politics of Usurpation in the Seventh Century (1993)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Hebdomon",
+    "Greens"
+   ]
+  },
+  {
+   "id": "execution_of_maurice_602",
+   "year": 602,
+   "month": 11,
+   "day": 27,
+   "title": "Execution of Maurice and his sons",
+   "type": "assassination",
+   "cats": [
+    "political"
+   ],
+   "importance": 4,
+   "summary": "On 27 November 602 Phocas's men executed Maurice at the harbour of Eutropius at Chalcedon after making him watch the beheading of five of his sons. Theophylact says Maurice repeated 'You are just, O Lord, and your judgment is righteous', and that when a nurse tried to substitute her own child for one of his sons, he revealed the deception. His eldest son Theodosius was later killed, though rumours of his survival persisted.",
+   "loc": [
+    29.03,
+    40.98
+   ],
+   "locName": "Harbour of Eutropius, Chalcedon",
+   "locCertainty": "certain",
+   "war": "roman_sasanian_war_602",
+   "people": [
+    "maurice",
+    "phocas",
+    "theophylact_simocatta",
+    "khosrow_ii"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Theophylact Simocatta",
+     "w": "History",
+     "r": "8.11"
+    },
+    {
+     "a": "Chronicon Paschale",
+     "w": "Chronicon Paschale",
+     "r": "s.a. 602"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Psalm 119"
+   ]
+  }
+ ]
+}

@@ -1,204 +1,2293 @@
-{"events":[
-{"id":"death_of_gaiseric_477","year":477,"month":1,"day":25,"title":"Death of Gaiseric","type":"death","cats":["political"],"importance":3,
-"summary":"Gaiseric died on 25 January 477 after nearly fifty years as king, having led the Vandals from Spain to Carthage, sacked Rome and defeated two imperial armadas. His law of succession gave the throne to the eldest male of the royal house (agnatic seniority), which would bring Gelimer's coup in 530.",
-"loc":[10.323,36.853],"locName":"Carthage","locCertainty":"certain","people":["gaiseric","huneric"],"polities":["vandal_kingdom"],
-"sources":[{"a":"Victor of Vita","w":"History of the Vandal Persecution","r":"1.51"},{"a":"Procopius","w":"Wars","r":"3.7.29"}],"certainty":"certain","tags":["seniorate"]},
-{"id":"murder_of_julius_nepos_480","year":480,"month":5,"day":9,"title":"Murder of Julius Nepos","type":"assassination","cats":["political"],"importance":2,
-"summary":"Julius Nepos, still recognised in Constantinople and on Odoacer's coinage as western emperor, was murdered by his retainers at his villa near Salona on 9 May 480, possibly at the instigation of Glycerius, now bishop of Salona. Odoacer invaded Dalmatia in 481 on the pretext of avenging him.",
-"loc":[16.48,43.54],"locName":"Salona, Dalmatia","locCertainty":"certain","people":["julius_nepos","glycerius","odoacer"],"polities":["dalmatia_julius_nepos","odoacer_kingdom"],
-"sources":[{"a":"Marcellinus Comes","w":"Chronicle","r":"s.a. 480"},{"a":"Malchus","w":"History","r":"fr. 14"}],"debate":"For legitimists, Nepos's death, not 476, ended the line of western emperors.","certainty":"certain","tags":["Diocletian's palace"]},
-{"id":"henotikon_482","year":482,"title":"Zeno's Henotikon","type":"religious","cats":["religious","political"],"importance":3,
-"summary":"Drafted by the patriarch Acacius and accepted by Peter Mongus of Alexandria, Zeno's 'Act of Union' affirmed Nicaea, Constantinople and Ephesus and Cyril's Twelve Anathemas while passing over Chalcedon in silence, condemning anyone who held otherwise 'whether at Chalcedon or any other synod'. It pleased neither side fully and Rome rejected it.",
-"loc":[28.98,41.01],"locName":"Constantinople","locCertainty":"certain","people":["zeno"],"polities":["rome_east"],
-"sources":[{"a":"Evagrius","w":"Ecclesiastical History","r":"3.14 (text)"},{"a":"Zacharias of Mytilene","w":"Ecclesiastical History","r":"5.8"}],"certainty":"certain","tags":["Acacius","Peter Mongus"]},
-{"id":"acacian_schism_484","year":484,"month":7,"day":28,"title":"Acacian Schism begins","type":"religious","cats":["religious"],"importance":3,
-"summary":"Pope Felix III excommunicated Acacius of Constantinople on 28 July 484 for supporting the Henotikon and communing with Peter Mongus; Acacius struck Felix's name from the diptychs. The first great schism between Rome and Constantinople lasted 35 years, until 519.",
-"loc":[12.4924,41.8902],"locName":"Rome","locCertainty":"certain","people":["zeno"],"polities":["rome_east","odoacer_kingdom"],
-"sources":[{"a":"Evagrius","w":"Ecclesiastical History","r":"3.18-21"},{"a":"Liber Pontificalis","w":"Liber Pontificalis","r":"50 (Felix III)"}],"certainty":"certain","tags":["diptychs"]},
-{"id":"hunerics_persecution_484","year":484,"month":2,"title":"Huneric's persecution of Nicene Christians","type":"religious","cats":["religious","law"],"importance":2,
-"summary":"After a staged conference at Carthage in February 484 between Nicene and Arian bishops, Huneric issued an edict on 25 February turning against the Nicenes the very penalties of Honorius's anti-Donatist laws. Some 46 bishops were exiled to Corsica to cut timber and over 300 to the south; Victor of Vita's History is the passionate testimony.",
-"loc":[10.323,36.853],"locName":"Carthage","locCertainty":"certain","people":["huneric","victor_of_vita"],"polities":["vandal_kingdom"],
-"sources":[{"a":"Victor of Vita","w":"History of the Vandal Persecution","r":"2.39-3.14"}],"debate":"Victor is a partisan exile writing to rouse Constantinople; the Notitia provinciarum et civitatum Africae lists 466 bishops summoned in 484.","certainty":"certain","tags":["Notitia Africae"]},
-{"id":"revolt_of_illus_484","year":484,"endYear":488,"title":"Revolt of Illus and Leontius","type":"revolt","cats":["military","political"],"importance":3,
-"summary":"The Isaurian general Illus, after years as Zeno's indispensable minister and an assassination attempt instigated by Ariadne, rebelled in 484 and with the dowager Verina crowned the patrician Leontius emperor at Tarsus on 19 July. Defeated near Antioch by Zeno's army with Theodoric's Goths, Illus and Leontius held out in the Isaurian fortress of Papyrius for four years until betrayed and beheaded in 488.",
-"loc":[34.9,37.0],"locName":"Tarsus and the fortress of Papyrius, Isauria","locCertainty":"approx","war":"revolt_of_illus","people":["illus","zeno","verina","ariadne","theodoric_the_great"],"polities":["rome_east","isaurians"],
-"sources":[{"a":"John of Antioch","w":"History","r":"fr. 214 (Mariev)"},{"a":"Joshua the Stylite","w":"Chronicle","r":"14-17"},{"a":"Theophanes","w":"Chronicle","r":"AM 5976-5980"}],
-"debate":"Illus courted pagan intellectuals like the philosopher Pamprepius, whose oracles promised a pagan restoration; Pamprepius was executed in 488.","certainty":"certain","tags":["Pamprepius","Papyrius"]},
-{"id":"battle_of_soissons_486","year":486,"title":"Battle of Soissons: Clovis defeats Syagrius","type":"battle","cats":["military","political"],"importance":4,
-"summary":"Clovis, the young king of the Salian Franks of Tournai, defeated Syagrius, son of Aegidius and ruler of the last Roman enclave in northern Gaul, in 486 (or 487). Syagrius fled to Alaric II at Toulouse, who handed him over to be executed. Clovis made Soissons his base and absorbed the Roman administration of Belgica Secunda.",
-"loc":[3.323,49.381],"locName":"Augusta Suessionum (Soissons)","locCertainty":"probable","people":["clovis_i","syagrius","alaric_ii","gregory_of_tours"],"polities":["franks","domain_of_soissons"],
-"battle":{"sides":[{"polity":"franks","commanders":["clovis_i"],"strength":"Salian Frankish warband with kinsman Ragnachar","losses":"unknown"},{"polity":"domain_of_soissons","commanders":["syagrius"],"strength":"remnant Roman forces","losses":"army broken"}],"victor":"franks","kind":"field","significance":"Ended the last Roman political unit in northern Gaul and laid the foundation of the Frankish kingdom."},
-"sources":[{"a":"Gregory of Tours","w":"Histories","r":"2.27"}],
-"debate":"Gregory calls Syagrius 'king of the Romans', a title modern historians doubt; the 'Domain of Soissons' may be a modern construct inflated from Gregory's brief notice. The episode of the vase of Soissons belongs to its aftermath.","certainty":"probable","tags":["vase of Soissons"]},
-{"id":"evacuation_of_noricum_488","year":488,"title":"Odoacer evacuates the Romans of Noricum","type":"migration","cats":["military","social"],"importance":2,
-"summary":"After destroying the Rugian kingdom north of the Danube in 487 and capturing King Feletheus, Odoacer ordered the Roman provincials of Noricum Ripense to withdraw to Italy in 488. They carried with them the body of St Severinus, the holy man who had organised their defence, eventually enshrined at Castellum Lucullanum, where Romulus Augustulus lived.",
-"loc":[15.57,48.39],"locName":"Favianis (Mautern), Noricum","locCertainty":"probable","people":["odoacer"],"polities":["odoacer_kingdom","rugii"],
-"sources":[{"a":"Eugippius","w":"Life of Severinus","r":"44"},{"a":"Anonymus Valesianus","w":"Pars posterior","r":"48"}],"scholarship":["Thompson, Romans and Barbarians: The Decline of the Western Empire (1982)"],"debate":"Eugippius's Life is a vivid picture of a frontier province fending for itself, but archaeology shows continuing Romance-speaking populations in Noricum afterward.","certainty":"certain","tags":["Severinus","Eugippius"]},
-{"id":"battle_of_the_isonzo_489","year":489,"month":8,"day":28,"title":"Battle of the Isonzo","type":"battle","cats":["military"],"importance":3,
-"summary":"After a winter march from Novae and a fight with the Gepids near Sirmium, Theodoric's Goths, perhaps 100,000 people with 20,000 or so warriors, entered Italy and on 28 August 489 forced the crossing of the Isonzo at the Pons Sontii against Odoacer's fortified camp.",
-"loc":[13.50,45.89],"locName":"Pons Sontii on the Isonzo","locCertainty":"approx","war":"theodorics_war_489","people":["theodoric_the_great","odoacer"],"polities":["ostrogoths","odoacer_kingdom"],
-"battle":{"sides":[{"polity":"ostrogoths","commanders":["theodoric_the_great"],"strength":"perhaps 20,000 warriors with families and Rugian allies","losses":"unknown"},{"polity":"odoacer_kingdom","commanders":["odoacer"],"strength":"Italian army","losses":"camp taken"}],"victor":"ostrogoths","kind":"field","significance":"Opened Italy to the Goths."},
-"sources":[{"a":"Anonymus Valesianus","w":"Pars posterior","r":"50"},{"a":"Cassiodorus","w":"Chronica","r":"s.a. 489"},{"a":"Ennodius","w":"Panegyric on Theodoric","r":"26-35"}],
-"debate":"The size of Theodoric's following is guesswork; Procopius gives no number. Polity end dates in the dataset place 'ostrogoths' until 489 and the kingdom from 493.","certainty":"certain","tags":[]},
-{"id":"battle_of_verona_489","year":489,"month":9,"day":30,"title":"Battle of Verona (489)","type":"battle","cats":["military"],"importance":3,
-"summary":"Theodoric defeated Odoacer again outside Verona on 30 September 489; Ennodius describes Theodoric's mother and sister watching. Odoacer fled to Ravenna, and Milan and Pavia submitted. Odoacer's general Tufa then defected to Theodoric, only to betray a Gothic force at Faventia.",
-"loc":[10.993,45.438],"locName":"Verona","locCertainty":"certain","war":"theodorics_war_489","people":["theodoric_the_great","odoacer"],"polities":["ostrogoths","odoacer_kingdom"],
-"battle":{"sides":[{"polity":"ostrogoths","commanders":["theodoric_the_great"],"strength":"Gothic army","losses":"heavy"},{"polity":"odoacer_kingdom","commanders":["odoacer"],"strength":"Italian army","losses":"heavy; many drowned in the Adige"}],"victor":"ostrogoths","kind":"field","significance":"Gave Theodoric the Po valley; Verona became one of his favourite residences, remembered as Dietrich von Bern in Germanic legend."},
-"sources":[{"a":"Anonymus Valesianus","w":"Pars posterior","r":"50"},{"a":"Ennodius","w":"Panegyric on Theodoric","r":"36-47"}],"certainty":"certain","tags":["Dietrich von Bern"]},
-{"id":"battle_of_the_adda_490","year":490,"month":8,"day":11,"title":"Battle of the Adda","type":"battle","cats":["military"],"importance":3,
-"summary":"Reinforced by Visigoths sent by Alaric II, Theodoric routed Odoacer on the river Adda on 11 August 490; Odoacer's magister militum Pierius was killed. Odoacer shut himself in Ravenna for a siege that lasted two and a half years.",
-"loc":[9.52,45.53],"locName":"River Adda","locCertainty":"approx","war":"theodorics_war_489","people":["theodoric_the_great","odoacer","alaric_ii"],"polities":["ostrogoths","visigothic_kingdom","odoacer_kingdom"],
-"battle":{"sides":[{"polity":"ostrogoths","commanders":["theodoric_the_great"],"strength":"Goths with Visigothic reinforcements","losses":"unknown"},{"polity":"odoacer_kingdom","commanders":["odoacer"],"strength":"Odoacer's army","losses":"heavy; Pierius killed"}],"victor":"ostrogoths","kind":"field","significance":"Decided the war in the field."},
-"sources":[{"a":"Anonymus Valesianus","w":"Pars posterior","r":"53"},{"a":"Cassiodorus","w":"Chronica","r":"s.a. 490"}],"certainty":"certain","tags":["Pierius"]},
-{"id":"siege_of_ravenna_490","year":490,"endYear":493,"title":"Siege of Ravenna and murder of Odoacer","type":"siege","cats":["military","political"],"importance":4,
-"summary":"Theodoric blockaded Ravenna from August 490; Odoacer's sortie at the Pineta on 10 July 491 failed. With a fleet closing the port at Classis from 492, famine forced a treaty on 25 February 493, mediated by Bishop John, for joint rule. Theodoric entered on 5 March and on 15 March killed Odoacer with his own hands at a banquet, reportedly remarking that the wretch had no bones in him. Odoacer's men were massacred.",
-"loc":[12.199,44.418],"locName":"Ravenna","locCertainty":"certain","war":"theodorics_war_489","campaign":"theodoric_italy_488","people":["theodoric_the_great","odoacer"],"polities":["ostrogoths","odoacer_kingdom","ostrogothic_kingdom"],
-"battle":{"sides":[{"polity":"ostrogoths","commanders":["theodoric_the_great"],"strength":"Gothic army and fleet","losses":"unknown"},{"polity":"odoacer_kingdom","commanders":["odoacer"],"strength":"garrison of Ravenna","losses":"surrendered; leadership massacred"}],"victor":"ostrogoths","kind":"siege","significance":"Founded the Ostrogothic kingdom of Italy, which lasted until 553."},
-"sources":[{"a":"Anonymus Valesianus","w":"Pars posterior","r":"54-56"},{"a":"Procopius","w":"Wars","r":"5.1.24-25"},{"a":"John of Antioch","w":"History","r":"fr. 214a (Mariev)"}],"certainty":"certain","tags":["Bishop John","Classis"]},
-{"id":"accession_of_anastasius_i_491","year":491,"month":4,"day":11,"title":"Accession of Anastasius I","type":"accession","cats":["political"],"importance":4,
-"summary":"Zeno died on 9 April 491. The Senate and court left the choice to the empress Ariadne, who chose Anastasius, an elderly silentiarius (palace usher) from Dyrrachium known for piety and financial competence. Crowned on 11 April after swearing to uphold orthodoxy, he married Ariadne on 20 May. Zeno's brother Longinus and the Isaurian faction were expelled.",
-"loc":[28.98,41.01],"locName":"Constantinople, Hippodrome","locCertainty":"certain","people":["anastasius_i","ariadne","zeno"],"polities":["rome_east"],
-"sources":[{"a":"Constantine VII","w":"De Ceremoniis","r":"1.92 (from Peter the Patrician)"},{"a":"Evagrius","w":"Ecclesiastical History","r":"3.29"}],"scholarship":["Haarer, Anastasius I: Politics and Empire in the Late Roman World (2006)"],"certainty":"certain","tags":["Ariadne"]},
-{"id":"battle_of_cotyaeum_492","year":492,"title":"Battle of Cotyaeum: start of the Isaurian War","type":"battle","cats":["military"],"importance":3,
-"summary":"The Isaurians expelled from the capital raised a huge army under Lingis and Longinus of Cardala and marched into Phrygia, where they were routed at Cotyaeum by John the Scythian and John the Hunchback. The war continued in the Taurus until 497-498, when the last strongholds fell and many Isaurians were deported to Thrace.",
-"loc":[29.98,39.42],"locName":"Cotyaeum (Kütahya), Phrygia","locCertainty":"certain","war":"isaurian_war_492","people":["anastasius_i"],"polities":["rome_east","isaurians"],
-"battle":{"sides":[{"polity":"rome_east","commanders":[],"strength":"field army with Gothic, Hunnic and Bessian troops under John the Scythian and John the Hunchback","losses":"unknown"},{"polity":"isaurians","commanders":[],"strength":"100,000 (Theophanes, inflated) under Lingis","losses":"heavy; Lingis killed"}],"victor":"rome_east","kind":"field","significance":"Broke Isaurian power, removing the faction that had dominated Constantinople under Zeno."},
-"sources":[{"a":"John of Antioch","w":"History","r":"fr. 214b (Mariev)"},{"a":"Theophanes","w":"Chronicle","r":"AM 5985"},{"a":"Evagrius","w":"Ecclesiastical History","r":"3.35"}],"certainty":"certain","tags":["Lingis"]},
-{"id":"battle_of_tolbiac","year":496,"title":"Battle of Tolbiac (Zülpich)","type":"battle","cats":["military","religious"],"importance":3,
-"summary":"According to Gregory of Tours, Clovis, facing defeat against the Alamanni, vowed to become a Christian if the God of his wife Clotilde gave him victory; the Alamannic king fell and his people submitted. Gregory sets the battle in Clovis's fifteenth year (496).",
-"loc":[6.65,50.69],"locName":"Tolbiacum (Zülpich)","locCertainty":"disputed","people":["clovis_i","gregory_of_tours"],"polities":["franks","alamanni"],
-"battle":{"sides":[{"polity":"franks","commanders":["clovis_i"],"strength":"Frankish army, perhaps with Ripuarian Franks","losses":"unknown"},{"polity":"alamanni","commanders":[],"strength":"Alamannic army","losses":"king killed"}],"victor":"franks","kind":"field","significance":"Began the Frankish subjection of the Alamanni; in Gregory's narrative it is Clovis's 'Milvian Bridge'."},
-"sources":[{"a":"Gregory of Tours","w":"Histories","r":"2.30"},{"a":"Cassiodorus","w":"Variae","r":"2.41"}],
-"debate":"Gregory does not name Tolbiac in 2.30 (the name comes from 2.37 on Sigibert the Lame); there may have been two Alamannic wars (c. 496 and 506), and the conversion parallel with Constantine is a literary construct.","certainty":"disputed","tags":["Clotilde"]},
-{"id":"baptism_of_clovis","year":496,"month":12,"day":25,"title":"Baptism of Clovis","type":"religious","cats":["religious","political"],"importance":4,
-"summary":"Clovis was baptised at Reims by Bishop Remigius on a Christmas Day, with 3,000 warriors, choosing Nicene Catholicism rather than the Arian Christianity of the Goths, Burgundians and Vandals. 'Bow your head, proud Sicambrian; adore what you have burned and burn what you have adored.'",
-"detail":"The choice aligned the Franks with the Gallo-Roman episcopate and aristocracy and with Constantinople, and was later used to justify the war against the Arian Visigoths in 507. Avitus of Vienne's letter congratulating Clovis survives.",
-"loc":[4.034,49.253],"locName":"Durocortorum (Reims)","locCertainty":"probable","people":["clovis_i","gregory_of_tours"],"polities":["franks"],
-"sources":[{"a":"Gregory of Tours","w":"Histories","r":"2.31"},{"a":"Avitus of Vienne","w":"Letters","r":"46"}],
-"debate":"Date disputed: 496, 498/499, or as late as 506-508 (Wood, Shanzer). Clovis may have flirted with Arianism first.","scholarship":["Wood, The Merovingian Kingdoms 450-751 (1994)","Shanzer, 'Dating the baptism of Clovis', Early Medieval Europe 7 (1998)"],"certainty":"disputed","tags":["Remigius","Reims"]},
-{"id":"abolition_of_chrysargyron_498","year":498,"title":"Anastasius abolishes the chrysargyron","type":"reform","cats":["economic","administrative"],"importance":3,
-"summary":"Anastasius abolished the collatio lustralis or chrysargyron, the five-yearly tax in gold and silver on merchants and craftsmen introduced by Constantine, and publicly burned its registers. Joshua the Stylite describes rejoicing across Edessa. He replaced the revenue from imperial estates managed by a new comes patrimonii.",
-"loc":[28.98,41.01],"locName":"Constantinople","locCertainty":"certain","people":["anastasius_i"],"polities":["rome_east"],
-"sources":[{"a":"Joshua the Stylite","w":"Chronicle","r":"31"},{"a":"Evagrius","w":"Ecclesiastical History","r":"3.39-41"},{"a":"Codex Justinianus","w":"Codex Justinianus","r":"11.1.1"}],"certainty":"certain","tags":["collatio lustralis"]},
-{"id":"follis_reform_498","year":498,"title":"Anastasius's copper coinage reform","type":"economic","cats":["economic"],"importance":3,
-"summary":"In 498, under the comes sacrarum largitionum John the Paphlagonian, Anastasius introduced large copper coins marked with their value in Greek numerals: the follis of 40 nummi (M), and half (K), quarter (I) and later pentanummium (E). It replaced the chaos of tiny nummi and gave the eastern economy a stable small change for over a century.",
-"loc":[28.98,41.01],"locName":"Constantinople mint","locCertainty":"certain","people":["anastasius_i"],"polities":["rome_east"],
-"sources":[{"a":"John Malalas","w":"Chronicle","r":"16.12"},{"a":"Marcellinus Comes","w":"Chronicle","r":"s.a. 498"}],"scholarship":["Grierson, Byzantine Coins (1982)","Hendy, Studies in the Byzantine Monetary Economy c.300-1450 (1985)"],"debate":"A heavier follis followed in 512; the reform may have imitated coinage already struck in Ostrogothic Italy and Vandal Africa.","certainty":"certain","tags":["follis","nummi"]},
-{"id":"anastasian_wall","year":503,"title":"The Long Walls of Thrace","type":"building","cats":["military","technology"],"importance":2,
-"summary":"Anastasius built or rebuilt a wall some 56 km long from the Black Sea to Selymbria on the Propontis, about 65 km west of Constantinople, to protect the capital's hinterland against Bulgars, Slavs and later Avars. It proved hard to man and was often breached.",
-"loc":[28.18,41.30],"locName":"Anastasian Wall, Thrace","locCertainty":"probable","people":["anastasius_i","procopius"],"polities":["rome_east"],
-"sources":[{"a":"Procopius","w":"Buildings","r":"4.9.6-13"},{"a":"Evagrius","w":"Ecclesiastical History","r":"3.38"}],"debate":"Date uncertain (c. 497-507); some argue for an earlier Theodosian or Leonine origin.","scholarship":["Crow, 'The Anastasian Wall and the Lower Danube frontier', in Poulter (ed.), The Transition to Late Antiquity (2007)"],"certainty":"probable","tags":["Long Walls"]},
-{"id":"siege_of_amida_502","year":502,"month":10,"day":5,"endYear":503,"title":"Siege of Amida","type":"siege","cats":["military"],"importance":3,
-"summary":"Kavad I, needing money to pay the Hephthalites and refused subsidies by Anastasius, invaded and besieged Amida from 5 October 502. After three months the Persians entered on the night of 10/11 January 503 through a tower guarded by monks who had drunk too much. The massacre and enslavement were vast; Pseudo-Joshua says 80,000 bodies were carried out. The Romans bought the city back in 505.",
-"loc":[40.23,37.91],"locName":"Amida (Diyarbakır)","locCertainty":"certain","war":"anastasian_war","people":["kavad_i","anastasius_i"],"polities":["sasanian","rome_east"],
-"battle":{"sides":[{"polity":"rome_east","commanders":[],"strength":"citizens and small garrison","losses":"tens of thousands killed or enslaved"},{"polity":"sasanian","commanders":["kavad_i"],"strength":"Persian royal army with Arab and Hephthalite contingents","losses":"heavy (50,000 per Procopius, exaggerated)"}],"victor":"sasanian","kind":"siege","significance":"Opened the first major Roman-Persian war in over sixty years and led to the building of Dara."},
-"sources":[{"a":"Joshua the Stylite","w":"Chronicle","r":"50-53"},{"a":"Procopius","w":"Wars","r":"1.7"},{"a":"Zacharias of Mytilene","w":"Ecclesiastical History","r":"7.3-4"}],"scholarship":["Greatrex, Rome and Persia at War 502-532 (1998)"],"certainty":"certain","tags":["Kavad"]},
-{"id":"founding_of_dara_505","year":505,"title":"Foundation of Dara (Anastasiopolis)","type":"founding","cats":["military","technology"],"importance":3,
-"summary":"After the war of 502-506 exposed the lack of a Roman base near Nisibis, Anastasius built the fortress-city of Dara, renamed Anastasiopolis, only 18 km from Nisibis, in about 505-507, in defiance of the treaty of 422. It became the seat of the dux of Mesopotamia and the hinge of every later war on that front.",
-"loc":[40.948,37.177],"locName":"Dara (Oğuz, Mardin)","locCertainty":"certain","war":"anastasian_war","people":["anastasius_i","procopius"],"polities":["rome_east","sasanian"],
-"sources":[{"a":"Procopius","w":"Buildings","r":"2.1-3"},{"a":"Zacharias of Mytilene","w":"Ecclesiastical History","r":"7.6"},{"a":"John Malalas","w":"Chronicle","r":"16.10"}],"certainty":"certain","tags":["Anastasiopolis"]},
-{"id":"breviary_of_alaric_506","year":506,"month":2,"day":2,"title":"Breviary of Alaric (Lex Romana Visigothorum)","type":"law","cats":["law"],"importance":3,
-"summary":"Promulgated by Alaric II at Aire-sur-l'Adour on 2 February 506 after review by a council of bishops and provincials, this abridgement of the Theodosian Code, post-Theodosian Novels, the Sentences of Paul, Gaius's Institutes and other texts, with explanatory interpretationes, became the main vehicle of Roman law in the early medieval West.",
-"loc":[-0.262,43.70],"locName":"Vicus Iulii (Aire-sur-l'Adour)","locCertainty":"certain","people":["alaric_ii"],"polities":["visigothic_kingdom"],
-"sources":[{"a":"Lex Romana Visigothorum","w":"Commonitorium"}],"debate":"Issued months before Vouillé, perhaps to win Roman and Catholic loyalty against Clovis.","certainty":"certain","tags":["interpretatio"]},
-{"id":"battle_of_vouille","year":507,"title":"Battle of Vouillé","type":"battle","cats":["military","political"],"importance":4,
-"summary":"In spring 507 Clovis, with Burgundian allies and the blessing of the Gallo-Roman bishops, attacked the Arian Visigoths and defeated them at the Campus Vogladensis near Poitiers; Clovis is said to have killed Alaric II with his own hand. The Visigoths lost almost all of Gaul except Septimania, which Theodoric's Ostrogoths secured, and their kingdom's centre shifted to Spain.",
-"loc":[0.165,46.64],"locName":"Campus Vogladensis (Vouillé), near Poitiers","locCertainty":"disputed","war":"frankish_visigothic_war_507","campaign":"clovis_507","people":["clovis_i","alaric_ii","gundobad","theodoric_the_great","gregory_of_tours"],"polities":["franks","burgundians","visigothic_kingdom"],
-"battle":{"sides":[{"polity":"franks","commanders":["clovis_i"],"strength":"Frankish army with Burgundian contingents","losses":"unknown"},{"polity":"visigothic_kingdom","commanders":["alaric_ii"],"strength":"Visigothic army with Gallo-Roman levies (including Arvernians under Sidonius's son Apollinaris)","losses":"heavy; Alaric II killed"}],"victor":"franks","kind":"field","significance":"Made the Franks the dominant power in Gaul and pushed the Visigoths into Spain; one of the formative battles of medieval Europe."},
-"sources":[{"a":"Gregory of Tours","w":"Histories","r":"2.37"},{"a":"Cassiodorus","w":"Variae","r":"3.1-4 (Theodoric's letters attempting to prevent war)"},{"a":"Chronica Caesaraugustana","w":"Chronicle of Zaragoza","r":"s.a. 507"}],
-"debate":"Site disputed: Vouillé, Voulon, or Vouneuil-sur-Vienne. Gregory's religious framing (a stag showing the ford, lights from St Hilary's church) is hagiographic; the role of Byzantine encouragement is suggested by an East Roman naval raid on Apulia in 508 that kept Theodoric busy.","scholarship":["Mathisen & Shanzer (eds.), The Battle of Vouillé, 507 CE (2012)"],"certainty":"certain","tags":["Campus Vogladensis"]},
-{"id":"consulship_of_clovis_508","year":508,"title":"Clovis receives the consulship from Anastasius","type":"diplomacy","cats":["diplomatic","political"],"importance":3,
-"summary":"At Tours in 508 Clovis received letters from Anastasius granting him the consulship (probably honorary). Gregory says he put on a purple tunic and chlamys and a diadem in the church of St Martin and rode to the cathedral scattering coins, and was hailed as consul and Augustus. He then made Paris his seat.",
-"loc":[0.689,47.394],"locName":"Caesarodunum (Tours), St Martin's basilica","locCertainty":"certain","people":["clovis_i","anastasius_i","gregory_of_tours"],"polities":["frankish_kingdom","rome_east"],
-"sources":[{"a":"Gregory of Tours","w":"Histories","r":"2.38"}],"debate":"What exact title Anastasius granted is unclear: honorary consul, patricius, or something else; Clovis does not appear in the consular fasti.","certainty":"probable","tags":["Paris"]},
-{"id":"trisagion_riots_512","year":512,"month":11,"title":"Trisagion riots in Constantinople","type":"revolt","cats":["religious","political"],"importance":2,
-"summary":"Anastasius's addition to the liturgy of the anti-Chalcedonian phrase 'who was crucified for us' to the Trisagion triggered riots in November 512; crowds burned houses and acclaimed the general Areobindus emperor. Anastasius appeared in the Hippodrome without his diadem and offered to abdicate; the crowd relented and he later punished the leaders.",
-"loc":[28.9753,41.0063],"locName":"Hippodrome, Constantinople","locCertainty":"certain","people":["anastasius_i"],"polities":["rome_east"],
-"sources":[{"a":"Marcellinus Comes","w":"Chronicle","r":"s.a. 512"},{"a":"John Malalas","w":"Chronicle","r":"16.19"},{"a":"Evagrius","w":"Ecclesiastical History","r":"3.44"}],"certainty":"certain","tags":["Trisagion","Areobindus"]},
-{"id":"naval_battle_of_constantinople_515","year":515,"title":"Defeat of Vitalian's fleet before Constantinople","type":"naval","cats":["military","technology"],"importance":3,
-"summary":"The Thracian federate commander Vitalian, demanding the restoration of Chalcedonian bishops and federate pay, marched on Constantinople three times between 513 and 515. In 515 his fleet was destroyed in the Bosporus near Sosthenion by Marinus the Syrian, using a sulphur-based incendiary supplied, Malalas says, by the Athenian philosopher Proclus. Vitalian fled.",
-"loc":[29.05,41.10],"locName":"Bosporus near Sosthenion","locCertainty":"approx","war":"revolt_of_vitalian","people":["vitalian","anastasius_i","john_malalas"],"polities":["rome_east"],
-"battle":{"sides":[{"polity":"rome_east","commanders":["anastasius_i"],"strength":"imperial fleet under Marinus","losses":"light"},{"polity":"rome_east","commanders":["vitalian"],"strength":"rebel fleet of perhaps 200 ships with federate army","losses":"fleet burned"}],"victor":"rome_east","kind":"naval","significance":"Ended Vitalian's rebellion militarily, though he returned to power under Justin I."},
-"sources":[{"a":"John Malalas","w":"Chronicle","r":"16.16"},{"a":"Evagrius","w":"Ecclesiastical History","r":"3.43"},{"a":"Marcellinus Comes","w":"Chronicle","r":"s.a. 514-515"}],
-"debate":"Not Greek fire, which appeared c. 672; the Proclus here is a different man from the Neoplatonist (d. 485). Malalas's account mixes the miraculous with the technical.","certainty":"probable","tags":["sulphur","Marinus"]},
-{"id":"accession_of_justin_i_518","year":518,"month":7,"day":10,"title":"Accession of Justin I","type":"accession","cats":["political"],"importance":4,
-"summary":"Anastasius died on 9 July 518 aged about 88 with no designated heir. Justin, the elderly Thracian commander of the excubitors, reportedly given money by the eunuch Amantius to bribe the guards for another candidate, used it for himself and was crowned on 10 July. A Chalcedonian, he reconciled with Rome. His nephew and adopted son Justinian was the power behind him.",
-"loc":[28.9753,41.0063],"locName":"Hippodrome, Constantinople","locCertainty":"certain","people":["justin_i","justinian_i","anastasius_i","vitalian"],"polities":["rome_east"],
-"sources":[{"a":"Constantine VII","w":"De Ceremoniis","r":"1.93"},{"a":"Procopius","w":"Secret History","r":"6.1-11"},{"a":"Evagrius","w":"Ecclesiastical History","r":"4.2"}],
-"debate":"Procopius's Secret History says Justin was illiterate and signed with a stencil; this is hostile caricature but possibly rooted in fact. Anastasius left 320,000 lbs of gold in the treasury (Procopius, Secret History 19.7).","scholarship":["Vasiliev, Justin the First (1950)"],"certainty":"certain","tags":["excubitors","Amantius"]},
-{"id":"end_of_acacian_schism_519","year":519,"month":3,"day":28,"title":"End of the Acacian Schism","type":"religious","cats":["religious","diplomatic"],"importance":2,
-"summary":"On 28 March 519 Patriarch John II signed the Libellus of Pope Hormisdas, accepting Chalcedon and striking Acacius, Zeno and Anastasius from the diptychs. Anti-Chalcedonian bishops, including Severus of Antioch, were expelled, driving the miaphysite movement toward a separate hierarchy.",
-"loc":[28.98,41.01],"locName":"Constantinople","locCertainty":"certain","people":["justin_i","justinian_i","severus_of_antioch"],"polities":["rome_east"],
-"sources":[{"a":"Collectio Avellana","w":"Collectio Avellana","r":"159-160, 223"}],"certainty":"certain","tags":["Libellus Hormisdae"]},
-{"id":"murder_of_vitalian_520","year":520,"month":7,"title":"Murder of Vitalian","type":"assassination","cats":["political"],"importance":2,
-"summary":"Vitalian, rehabilitated by Justin I as magister militum praesentalis and consul for 520, was stabbed to death in the palace in July 520 with two attendants. Procopius and others blame Justinian, removing a rival for the succession.",
-"loc":[28.98,41.01],"locName":"Constantinople, Great Palace","locCertainty":"certain","war":"revolt_of_vitalian","people":["vitalian","justinian_i","justin_i"],"polities":["rome_east"],
-"sources":[{"a":"Procopius","w":"Secret History","r":"6.27-28"},{"a":"Marcellinus Comes","w":"Chronicle","r":"s.a. 520"},{"a":"Evagrius","w":"Ecclesiastical History","r":"4.3"}],"certainty":"certain","tags":[]},
-{"id":"massacre_of_najran_and_aksumite_invasion","year":525,"title":"Aksumite invasion of Himyar","type":"campaign","cats":["military","religious","diplomatic"],"importance":2,
-"summary":"After the Jewish Himyarite king Yusuf As'ar Yath'ar (Dhu Nuwas) massacred the Christians of Najran in 523, Kaleb Ella Asbeha of Aksum, encouraged by Justin I and supplied with Roman ships from Egyptian and Red Sea ports, invaded South Arabia around 525 and destroyed him, installing a Christian client regime.",
-"loc":[44.13,17.49],"locName":"Najran and Himyar","locCertainty":"approx","people":["justin_i"],"polities":["aksum","himyar","rome_east"],
-"sources":[{"a":"Book of the Himyarites","w":"Book of the Himyarites"},{"a":"Procopius","w":"Wars","r":"1.20"},{"a":"Martyrium Arethae","w":"Martyrdom of Arethas"}],"scholarship":["Bowersock, The Throne of Adulis (2013)"],"debate":"Dates of the Najran massacre (518 or 523) and the invasion (525 or later) are debated.","certainty":"probable","tags":["Najran","Dhu Nuwas","Kaleb"]},
-{"id":"execution_of_boethius_524","year":524,"title":"Execution of Boethius","type":"political","cats":["political","literature"],"importance":3,
-"summary":"Boethius, magister officiorum and the West's most learned man, defended the senator Albinus against a charge of treasonable correspondence with Constantinople and was himself convicted. Imprisoned near Pavia, he wrote the Consolation of Philosophy, then was tortured and clubbed to death in 524 (or 525). His father-in-law Symmachus was executed soon after, and Pope John I died in Theodoric's prison in 526.",
-"loc":[9.158,45.185],"locName":"Ticinum (Pavia)","locCertainty":"probable","people":["boethius","theodoric_the_great","cassiodorus"],"polities":["ostrogothic_kingdom"],
-"sources":[{"a":"Boethius","w":"Consolation of Philosophy","r":"1.4"},{"a":"Anonymus Valesianus","w":"Pars posterior","r":"85-87"},{"a":"Procopius","w":"Wars","r":"5.1.32-39"}],
-"debate":"Was there a real senatorial conspiracy, or did Theodoric's growing paranoia, sharpened by Justin's anti-Arian measures, drive the trials? Cassiodorus, Boethius's successor as magister officiorum, stayed silent.","scholarship":["Moorhead, Theoderic in Italy (1992)","Chadwick, Boethius (1981)"],"certainty":"certain","tags":["Consolation of Philosophy","Albinus","Symmachus"]},
-{"id":"earthquake_of_antioch_526","year":526,"month":5,"day":29,"title":"Earthquake and fire of Antioch","type":"disaster","cats":["disaster"],"importance":3,
-"summary":"An earthquake struck Antioch around midday on 29 May 526, during the festival of the Ascension when the city was full of visitors; fire followed and burned for days. Malalas, a native, gives 250,000 dead, including Patriarch Euphrasius. Another quake in 528 completed the ruin; the city was renamed Theoupolis, 'City of God'.",
-"loc":[36.16,36.20],"locName":"Antioch","locCertainty":"certain","people":["john_malalas","justin_i"],"polities":["rome_east"],
-"sources":[{"a":"John Malalas","w":"Chronicle","r":"17.16"},{"a":"Procopius","w":"Wars","r":"2.14.6"},{"a":"Evagrius","w":"Ecclesiastical History","r":"4.5"}],"debate":"Malalas's death toll is surely exaggerated, but the disaster was real and contributed to Antioch's sixth-century decline alongside 540 and the plague.","certainty":"certain","tags":["Theoupolis"]},
-{"id":"death_of_theodoric_526","year":526,"month":8,"day":30,"title":"Death of Theodoric the Great","type":"death","cats":["political"],"importance":4,
-"summary":"Theodoric died at Ravenna on 30 August 526, probably of dysentery; Procopius says he was haunted by a fish head on his table resembling the face of Symmachus. His ten-year-old grandson Athalaric succeeded under the regency of his daughter Amalasuntha. He was buried in the mausoleum he had built, capped by a single block of Istrian limestone some 230 tonnes in weight.",
-"loc":[12.208,44.425],"locName":"Mausoleum of Theodoric, Ravenna","locCertainty":"certain","people":["theodoric_the_great","amalasuntha","procopius"],"polities":["ostrogothic_kingdom"],
-"sources":[{"a":"Procopius","w":"Wars","r":"5.1.35-39"},{"a":"Anonymus Valesianus","w":"Pars posterior","r":"95-96"}],"certainty":"certain","tags":["Athalaric","mausoleum"]},
-{"id":"accession_of_justinian_527","year":527,"month":8,"day":1,"title":"Accession of Justinian I","type":"accession","cats":["political"],"importance":5,
-"summary":"Crowned co-emperor with Theodora on 1 April 527, Justinian became sole ruler when Justin died on 1 August 527. He reigned for 38 years, undertaking the reconquest of Africa, Italy and part of Spain, the codification of Roman law, the rebuilding of Hagia Sophia and a sustained programme of religious unification, while surviving the Nika revolt and the first pandemic of plague.",
-"detail":"Born Petrus Sabbatius at Tauresium near Bederiana in Dardania (c. 482), a Latin speaker from the Balkans, he had been the dominant figure of his uncle's reign. His image is split between Procopius's Wars and Buildings, which praise him, and the Secret History, which calls him a demon in human form. Modern judgements range from 'last Roman emperor' to the overreacher who exhausted the empire before the crises of 570-630.",
-"loc":[28.98,41.01],"locName":"Constantinople","locCertainty":"certain","people":["justinian_i","theodora","justin_i","procopius"],"polities":["rome_east"],
-"sources":[{"a":"Procopius","w":"Wars","r":"1.11"},{"a":"Procopius","w":"Secret History","r":"6-12"},{"a":"John Malalas","w":"Chronicle","r":"17.18-18.1"}],
-"scholarship":["Maas (ed.), The Cambridge Companion to the Age of Justinian (2005)","Moorhead, Justinian (1994)","Sarris, Economy and Society in the Age of Justinian (2006)"],"certainty":"certain","tags":["Petrus Sabbatius"]},
-{"id":"battle_of_mindouos_528","year":528,"title":"Battle of Mindouos","type":"battle","cats":["military"],"importance":2,
-"summary":"Belisarius, newly dux of Mesopotamia, tried to build a fort at Mindouos (Thannuris?) near Nisibis; a Persian army attacked the work and routed the Roman force. Several commanders were captured. The defeat preceded his appointment as magister militum per Orientem.",
-"loc":[41.0,37.0],"locName":"Mindouos, near Dara","locCertainty":"approx","war":"iberian_war","people":["belisarius","kavad_i","procopius"],"polities":["rome_east","sasanian"],
-"battle":{"sides":[{"polity":"rome_east","commanders":["belisarius"],"strength":"Roman frontier forces","losses":"heavy; officers captured"},{"polity":"sasanian","commanders":[],"strength":"Persian army","losses":"unknown"}],"victor":"sasanian","kind":"field","significance":"Belisarius's first recorded command ended in defeat."},
-"sources":[{"a":"Procopius","w":"Wars","r":"1.13.1-8"},{"a":"Zacharias of Mytilene","w":"Ecclesiastical History","r":"9.2"}],"debate":"Mindouos and Thannuris may be the same or neighbouring sites.","certainty":"probable","tags":[]},
-{"id":"first_justinian_code_529","year":529,"month":4,"day":7,"title":"First Codex Justinianus","type":"law","cats":["law"],"importance":3,
-"summary":"Promulgated on 7 April 529 by the constitution Summa rei publicae, the first Codex Justinianus combined the Gregorian, Hermogenian and Theodosian codes and later constitutions into a single code in 12 books, prepared in just 14 months by a commission including John the Cappadocian and Tribonian. It does not survive; we have only the revised edition of 534.",
-"loc":[28.98,41.01],"locName":"Constantinople","locCertainty":"certain","people":["justinian_i","tribonian","john_the_cappadocian"],"polities":["rome_east"],
-"sources":[{"a":"Codex Justinianus","w":"Constitutions Haec and Summa"},{"a":"Papyrus","w":"P. Oxy. XV 1814 (index fragment of the first Codex)"}],"scholarship":["Honoré, Tribonian (1978)"],"certainty":"certain","tags":["Summa rei publicae"]},
-{"id":"closure_of_the_academy_529","year":529,"title":"Justinian's ban on pagan teaching and the end of the Athenian Academy","type":"religious","cats":["religious","cultural","law"],"importance":3,
-"summary":"Malalas records that in 529 Justinian sent an order to Athens forbidding anyone to teach philosophy or interpret law there; laws in the Codex barred pagans from teaching. In 531/532 seven Neoplatonists including Damascius and Simplicius went to the court of Khosrow I, returning after the peace of 532 guaranteed their safety.",
-"loc":[23.727,37.976],"locName":"Athens","locCertainty":"certain","people":["justinian_i","khosrow_i","agathias","john_malalas"],"polities":["rome_east","sasanian"],
-"sources":[{"a":"John Malalas","w":"Chronicle","r":"18.47"},{"a":"Agathias","w":"Histories","r":"2.30-31"},{"a":"Codex Justinianus","w":"Codex Justinianus","r":"1.5.18, 1.11.10"}],
-"debate":"Whether the Academy was formally closed, or starved by confiscation of its endowment, and where the philosophers settled afterward (Harran?) is disputed; the image of 529 as 'the end of ancient philosophy' is exaggerated.","scholarship":["Cameron, 'The last days of the Academy at Athens', PCPS 15 (1969)","Watts, City and School in Late Antique Athens and Alexandria (2006)"],"certainty":"disputed","tags":["Damascius","Simplicius"]},
-{"id":"founding_of_monte_cassino_529","year":529,"title":"Benedict founds Monte Cassino","type":"religious","cats":["religious","cultural"],"importance":3,
-"summary":"Benedict of Nursia, leaving his monasteries at Subiaco, founded a community on the summit of Monte Cassino above Casinum, on the site of a temple of Apollo, traditionally in 529. His Rule, written there, became the foundation of western monasticism.",
-"loc":[13.814,41.490],"locName":"Monte Cassino","locCertainty":"certain","people":["gregory_the_great"],"polities":["ostrogothic_kingdom"],
-"sources":[{"a":"Gregory the Great","w":"Dialogues","r":"2.8"}],"debate":"The date 529 is traditional and the only source, Gregory's Dialogues (593/594), is hagiography; some historians question how much of the Rule is Benedict's own.","certainty":"traditional","tags":["Rule of Benedict"]},
-{"id":"samaritan_revolt_529","year":529,"title":"Samaritan revolt of Julian ben Sabar","type":"revolt","cats":["military","religious"],"importance":2,
-"summary":"Provoked by anti-heretical laws, Samaritans in Palestine proclaimed Julian ben Sabar king, sacked Neapolis and killed its bishop, and held chariot races there. The revolt was crushed with the help of Ghassanid Arab allies; Malalas says 20,000 Samaritans were killed and 20,000 sold to Persia and India. Justinian closed synagogues and the Mount Gerizim cult.",
-"loc":[35.26,32.21],"locName":"Neapolis (Nablus) and Mount Gerizim","locCertainty":"certain","people":["justinian_i","john_malalas"],"polities":["rome_east","ghassanids"],
-"sources":[{"a":"John Malalas","w":"Chronicle","r":"18.35"},{"a":"Procopius","w":"Secret History","r":"11.24-30"}],"certainty":"certain","tags":["Gerizim"]},
-{"id":"battle_of_dara","year":530,"month":6,"title":"Battle of Dara","type":"battle","cats":["military"],"importance":4,
-"summary":"Before the walls of Dara, Belisarius and Hermogenes, with 25,000 men, met a Persian army of 40,000 to 50,000 under Firuz (Perozes). Belisarius dug a system of ditches with gaps and angles, placed his infantry behind them and his Hunnic and Herul cavalry at the corners. On the second day a flank attack by Herul cavalry hidden behind a hill and a counter-charge by Sunicas and Aigan's Huns broke the Persian wings; 5,000 Persians died.",
-"detail":"Procopius, then Belisarius's secretary (assessor), was present and gives a detailed account including a single combat in which Andreas, a bath attendant serving as a wrestling trainer, killed two Persian champions. It was the first major Roman victory over Persia in generations and made Belisarius's reputation. The ditch layout has been compared with Hannibal's methods, though its exact geometry is debated.",
-"loc":[40.948,37.17],"locName":"Dara, Mesopotamia","locCertainty":"certain","war":"iberian_war","people":["belisarius","procopius","kavad_i"],"polities":["rome_east","sasanian","heruli"],
-"battle":{"sides":[{"polity":"rome_east","commanders":["belisarius"],"strength":"25,000 (Procopius), incl. Huns under Sunicas and Aigan and Heruli under Pharas","losses":"light"},{"polity":"sasanian","commanders":[],"strength":"40,000 then reinforced to 50,000 (Procopius); commander Firuz the mirranes, with Immortals","losses":"c. 5,000 killed"}],"victor":"rome_east","kind":"field","significance":"Restored Roman confidence after a century of caution on the eastern front and made Belisarius the empire's leading general."},
-"sources":[{"a":"Procopius","w":"Wars","r":"1.13.9-1.14.55"},{"a":"Zacharias of Mytilene","w":"Ecclesiastical History","r":"9.3"}],
-"scholarship":["Greatrex, Rome and Persia at War 502-532 (1998)","Whately, Battles and Generals: Combat, Culture, and Didacticism in Procopius' Wars (2016)"],"certainty":"certain","tags":["Andreas","ditches","Pharas"]},
-{"id":"battle_of_satala_530","year":530,"title":"Battle of Satala","type":"battle","cats":["military"],"importance":2,
-"summary":"In Armenia in summer 530, Sittas and Dorotheus with some 15,000 men defeated a Persian army of 30,000 under Mihr-Mihroe near Satala. Sittas's surprise attack with 1,000 horsemen from behind a hill threw the Persians into confusion; the Romans then took the Persarmenian forts of Bolum and Pharangium and its gold mines.",
-"loc":[39.659,40.025],"locName":"Satala (Sadak), Armenia","locCertainty":"certain","war":"iberian_war","people":["procopius"],"polities":["rome_east","sasanian"],
-"battle":{"sides":[{"polity":"rome_east","commanders":[],"strength":"c. 15,000 under Sittas and Dorotheus","losses":"light"},{"polity":"sasanian","commanders":[],"strength":"30,000 (Procopius) under Mihr-Mihroe","losses":"heavy"}],"victor":"rome_east","kind":"field","significance":"Secured the Armenian front in the same season as Dara."},
-"sources":[{"a":"Procopius","w":"Wars","r":"1.15"}],"certainty":"certain","tags":["Sittas","Pharangium"]},
-{"id":"battle_of_callinicum","year":531,"month":4,"day":19,"title":"Battle of Callinicum","type":"battle","cats":["military"],"importance":4,
-"summary":"A Persian and Lakhmid army under Azarethes and al-Mundhir III raided along the Euphrates into Commagene. Belisarius shadowed them until, under pressure from his troops, he gave battle on Easter Saturday, 19 April 531, by the Euphrates opposite Callinicum. The Roman right, held by Ghassanid allies under al-Harith, collapsed; Belisarius dismounted and fought on foot with the infantry, their backs to the river, and held until nightfall. Both sides lost heavily.",
-"loc":[39.01,35.95],"locName":"Callinicum (Raqqa), on the Euphrates","locCertainty":"certain","war":"iberian_war","people":["belisarius","procopius","john_malalas","kavad_i"],"polities":["rome_east","ghassanids","sasanian","lakhmids"],
-"battle":{"sides":[{"polity":"rome_east","commanders":["belisarius"],"strength":"20,000 (Procopius) including 5,000 Ghassanid Arabs","losses":"heavy"},{"polity":"sasanian","commanders":[],"strength":"15,000 Persian cavalry and Lakhmid Arabs under Azarethes and al-Mundhir","losses":"heavy; Azarethes disgraced by Kavad for losing so many men"}],"victor":"sasanian","kind":"field","significance":"Tactically a Persian win but strategically barren; Belisarius was recalled and an inquiry held."},
-"sources":[{"a":"Procopius","w":"Wars","r":"1.18"},{"a":"John Malalas","w":"Chronicle","r":"18.60"}],
-"debate":"Procopius blames the Ghassanids and the impatience of the troops; Malalas, using an official report, gives a less flattering picture of Belisarius, who he says fled across the river. A test case for Procopius's partiality.","scholarship":["Greatrex, Rome and Persia at War 502-532 (1998)","Shahid, Byzantium and the Arabs in the Sixth Century (1995)"],"certainty":"certain","tags":["al-Harith","al-Mundhir III"]},
-{"id":"accession_of_khosrow_i_531","year":531,"month":9,"day":13,"title":"Death of Kavad; accession of Khosrow I","type":"accession","cats":["political"],"importance":3,
-"summary":"Kavad I died on 13 September 531. His favoured younger son Khosrow I Anushirvan ('of the immortal soul') succeeded over his elder brothers, crushed the Mazdakite movement and launched fiscal and military reforms: a fixed land tax by survey, a poll tax, four regional commanders (spahbeds) and a salaried cavalry of lesser nobility (dehqans).",
-"loc":[44.58,33.09],"locName":"Ctesiphon","locCertainty":"certain","people":["khosrow_i","kavad_i"],"polities":["sasanian"],
-"sources":[{"a":"Procopius","w":"Wars","r":"1.21.17-22"},{"a":"Tabari","w":"History","r":"I 897-899"}],"scholarship":["Rubin, 'The reforms of Khusro Anushirwan', in Cameron (ed.), The Byzantine and Early Islamic Near East III (1995)"],"certainty":"certain","tags":["Mazdakites","Anushirvan"]}
-]}
+{
+ "events": [
+  {
+   "id": "death_of_gaiseric_477",
+   "year": 477,
+   "month": 1,
+   "day": 25,
+   "title": "Death of Gaiseric",
+   "type": "death",
+   "cats": [
+    "political"
+   ],
+   "importance": 3,
+   "summary": "Gaiseric died on 25 January 477 after nearly fifty years as king, having led the Vandals from Spain to Carthage, sacked Rome and defeated two imperial armadas. His law of succession gave the throne to the eldest male of the royal house (agnatic seniority), which would bring Gelimer's coup in 530.",
+   "loc": [
+    10.323,
+    36.853
+   ],
+   "locName": "Carthage",
+   "locCertainty": "certain",
+   "people": [
+    "gaiseric",
+    "huneric"
+   ],
+   "polities": [
+    "vandal_kingdom"
+   ],
+   "sources": [
+    {
+     "a": "Victor of Vita",
+     "w": "History of the Vandal Persecution",
+     "r": "1.51"
+    },
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "3.7.29"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "seniorate"
+   ]
+  },
+  {
+   "id": "murder_of_julius_nepos_480",
+   "year": 480,
+   "month": 5,
+   "day": 9,
+   "title": "Murder of Julius Nepos",
+   "type": "assassination",
+   "cats": [
+    "political"
+   ],
+   "importance": 2,
+   "summary": "Julius Nepos, still recognised in Constantinople and on Odoacer's coinage as western emperor, was murdered by his retainers at his villa near Salona on 9 May 480, possibly at the instigation of Glycerius, now bishop of Salona. Odoacer invaded Dalmatia in 481 on the pretext of avenging him.",
+   "loc": [
+    16.48,
+    43.54
+   ],
+   "locName": "Salona, Dalmatia",
+   "locCertainty": "certain",
+   "people": [
+    "julius_nepos",
+    "glycerius",
+    "odoacer"
+   ],
+   "polities": [
+    "dalmatia_julius_nepos",
+    "odoacer_kingdom"
+   ],
+   "sources": [
+    {
+     "a": "Marcellinus Comes",
+     "w": "Chronicle",
+     "r": "s.a. 480"
+    },
+    {
+     "a": "Malchus",
+     "w": "History",
+     "r": "fr. 14"
+    }
+   ],
+   "debate": "For legitimists, Nepos's death, not 476, ended the line of western emperors.",
+   "certainty": "certain",
+   "tags": [
+    "Diocletian's palace"
+   ]
+  },
+  {
+   "id": "henotikon_482",
+   "year": 482,
+   "title": "Zeno's Henotikon",
+   "type": "religious",
+   "cats": [
+    "religious",
+    "political"
+   ],
+   "importance": 3,
+   "summary": "Drafted by the patriarch Acacius and accepted by Peter Mongus of Alexandria, Zeno's 'Act of Union' affirmed Nicaea, Constantinople and Ephesus and Cyril's Twelve Anathemas while passing over Chalcedon in silence, condemning anyone who held otherwise 'whether at Chalcedon or any other synod'. It pleased neither side fully and Rome rejected it.",
+   "loc": [
+    28.98,
+    41.01
+   ],
+   "locName": "Constantinople",
+   "locCertainty": "certain",
+   "people": [
+    "zeno"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Evagrius",
+     "w": "Ecclesiastical History",
+     "r": "3.14 (text)"
+    },
+    {
+     "a": "Zacharias of Mytilene",
+     "w": "Ecclesiastical History",
+     "r": "5.8"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Acacius",
+    "Peter Mongus"
+   ]
+  },
+  {
+   "id": "acacian_schism_484",
+   "year": 484,
+   "month": 7,
+   "day": 28,
+   "title": "Acacian Schism begins",
+   "type": "religious",
+   "cats": [
+    "religious"
+   ],
+   "importance": 3,
+   "summary": "Pope Felix III excommunicated Acacius of Constantinople on 28 July 484 for supporting the Henotikon and communing with Peter Mongus; Acacius struck Felix's name from the diptychs. The first great schism between Rome and Constantinople lasted 35 years, until 519.",
+   "loc": [
+    12.4924,
+    41.8902
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "people": [
+    "zeno"
+   ],
+   "polities": [
+    "rome_east",
+    "odoacer_kingdom"
+   ],
+   "sources": [
+    {
+     "a": "Evagrius",
+     "w": "Ecclesiastical History",
+     "r": "3.18-21"
+    },
+    {
+     "a": "Liber Pontificalis",
+     "w": "Liber Pontificalis",
+     "r": "50 (Felix III)"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "diptychs"
+   ]
+  },
+  {
+   "id": "hunerics_persecution_484",
+   "year": 484,
+   "month": 2,
+   "title": "Huneric's persecution of Nicene Christians",
+   "type": "religious",
+   "cats": [
+    "religious",
+    "law"
+   ],
+   "importance": 2,
+   "summary": "After a staged conference at Carthage in February 484 between Nicene and Arian bishops, Huneric issued an edict on 25 February turning against the Nicenes the very penalties of Honorius's anti-Donatist laws. Some 46 bishops were exiled to Corsica to cut timber and over 300 to the south; Victor of Vita's History is the passionate testimony.",
+   "loc": [
+    10.323,
+    36.853
+   ],
+   "locName": "Carthage",
+   "locCertainty": "certain",
+   "people": [
+    "huneric",
+    "victor_of_vita"
+   ],
+   "polities": [
+    "vandal_kingdom"
+   ],
+   "sources": [
+    {
+     "a": "Victor of Vita",
+     "w": "History of the Vandal Persecution",
+     "r": "2.39-3.14"
+    }
+   ],
+   "debate": "Victor is a partisan exile writing to rouse Constantinople; the Notitia provinciarum et civitatum Africae lists 466 bishops summoned in 484.",
+   "certainty": "certain",
+   "tags": [
+    "Notitia Africae"
+   ]
+  },
+  {
+   "id": "revolt_of_illus_484",
+   "year": 484,
+   "endYear": 488,
+   "title": "Revolt of Illus and Leontius",
+   "type": "revolt",
+   "cats": [
+    "military",
+    "political"
+   ],
+   "importance": 3,
+   "summary": "The Isaurian general Illus, after years as Zeno's indispensable minister and an assassination attempt instigated by Ariadne, rebelled in 484 and with the dowager Verina crowned the patrician Leontius emperor at Tarsus on 19 July. Defeated near Antioch by Zeno's army with Theodoric's Goths, Illus and Leontius held out in the Isaurian fortress of Papyrius for four years until betrayed and beheaded in 488.",
+   "loc": [
+    34.9,
+    37.0
+   ],
+   "locName": "Tarsus and the fortress of Papyrius, Isauria",
+   "locCertainty": "approx",
+   "war": "revolt_of_illus",
+   "people": [
+    "illus",
+    "zeno",
+    "verina",
+    "ariadne",
+    "theodoric_the_great"
+   ],
+   "polities": [
+    "rome_east",
+    "isaurians"
+   ],
+   "sources": [
+    {
+     "a": "John of Antioch",
+     "w": "History",
+     "r": "fr. 214 (Mariev)"
+    },
+    {
+     "a": "Joshua the Stylite",
+     "w": "Chronicle",
+     "r": "14-17"
+    },
+    {
+     "a": "Theophanes",
+     "w": "Chronicle",
+     "r": "AM 5976-5980"
+    }
+   ],
+   "debate": "Illus courted pagan intellectuals like the philosopher Pamprepius, whose oracles promised a pagan restoration; Pamprepius was executed in 488.",
+   "certainty": "certain",
+   "tags": [
+    "Pamprepius",
+    "Papyrius"
+   ]
+  },
+  {
+   "id": "battle_of_soissons_486",
+   "year": 486,
+   "title": "Battle of Soissons: Clovis defeats Syagrius",
+   "type": "battle",
+   "cats": [
+    "military",
+    "political"
+   ],
+   "importance": 4,
+   "summary": "Clovis, the young king of the Salian Franks of Tournai, defeated Syagrius, son of Aegidius and ruler of the last Roman enclave in northern Gaul, in 486 (or 487). Syagrius fled to Alaric II at Toulouse, who handed him over to be executed. Clovis made Soissons his base and absorbed the Roman administration of Belgica Secunda.",
+   "loc": [
+    3.323,
+    49.381
+   ],
+   "locName": "Augusta Suessionum (Soissons)",
+   "locCertainty": "probable",
+   "people": [
+    "clovis_i",
+    "syagrius",
+    "alaric_ii",
+    "gregory_of_tours"
+   ],
+   "polities": [
+    "frankish_kingdom",
+    "domain_of_soissons"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "frankish_kingdom",
+      "commanders": [
+       "clovis_i"
+      ],
+      "strength": "Salian Frankish warband with kinsman Ragnachar",
+      "losses": "unknown"
+     },
+     {
+      "polity": "domain_of_soissons",
+      "commanders": [
+       "syagrius"
+      ],
+      "strength": "remnant Roman forces",
+      "losses": "army broken"
+     }
+    ],
+    "victor": "frankish_kingdom",
+    "kind": "field",
+    "significance": "Ended the last Roman political unit in northern Gaul and laid the foundation of the Frankish kingdom."
+   },
+   "sources": [
+    {
+     "a": "Gregory of Tours",
+     "w": "Histories",
+     "r": "2.27"
+    }
+   ],
+   "debate": "Gregory calls Syagrius 'king of the Romans', a title modern historians doubt; the 'Domain of Soissons' may be a modern construct inflated from Gregory's brief notice. The episode of the vase of Soissons belongs to its aftermath.",
+   "certainty": "probable",
+   "tags": [
+    "vase of Soissons"
+   ]
+  },
+  {
+   "id": "evacuation_of_noricum_488",
+   "year": 488,
+   "title": "Odoacer evacuates the Romans of Noricum",
+   "type": "migration",
+   "cats": [
+    "military",
+    "social"
+   ],
+   "importance": 2,
+   "summary": "After destroying the Rugian kingdom north of the Danube in 487 and capturing King Feletheus, Odoacer ordered the Roman provincials of Noricum Ripense to withdraw to Italy in 488. They carried with them the body of St Severinus, the holy man who had organised their defence, eventually enshrined at Castellum Lucullanum, where Romulus Augustulus lived.",
+   "loc": [
+    15.57,
+    48.39
+   ],
+   "locName": "Favianis (Mautern), Noricum",
+   "locCertainty": "probable",
+   "people": [
+    "odoacer"
+   ],
+   "polities": [
+    "odoacer_kingdom"
+   ],
+   "sources": [
+    {
+     "a": "Eugippius",
+     "w": "Life of Severinus",
+     "r": "44"
+    },
+    {
+     "a": "Anonymus Valesianus",
+     "w": "Pars posterior",
+     "r": "48"
+    }
+   ],
+   "scholarship": [
+    "Thompson, Romans and Barbarians: The Decline of the Western Empire (1982)"
+   ],
+   "debate": "Eugippius's Life is a vivid picture of a frontier province fending for itself, but archaeology shows continuing Romance-speaking populations in Noricum afterward.",
+   "certainty": "certain",
+   "tags": [
+    "Severinus",
+    "Eugippius"
+   ]
+  },
+  {
+   "id": "battle_of_the_isonzo_489",
+   "year": 489,
+   "month": 8,
+   "day": 28,
+   "title": "Battle of the Isonzo",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "After a winter march from Novae and a fight with the Gepids near Sirmium, Theodoric's Goths, perhaps 100,000 people with 20,000 or so warriors, entered Italy and on 28 August 489 forced the crossing of the Isonzo at the Pons Sontii against Odoacer's fortified camp.",
+   "loc": [
+    13.5,
+    45.89
+   ],
+   "locName": "Pons Sontii on the Isonzo",
+   "locCertainty": "approx",
+   "war": "theodorics_war_489",
+   "people": [
+    "theodoric_the_great",
+    "odoacer"
+   ],
+   "polities": [
+    "ostrogoths",
+    "odoacer_kingdom"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "ostrogoths",
+      "commanders": [
+       "theodoric_the_great"
+      ],
+      "strength": "perhaps 20,000 warriors with families and Rugian allies",
+      "losses": "unknown"
+     },
+     {
+      "polity": "odoacer_kingdom",
+      "commanders": [
+       "odoacer"
+      ],
+      "strength": "Italian army",
+      "losses": "camp taken"
+     }
+    ],
+    "victor": "ostrogoths",
+    "kind": "field",
+    "significance": "Opened Italy to the Goths."
+   },
+   "sources": [
+    {
+     "a": "Anonymus Valesianus",
+     "w": "Pars posterior",
+     "r": "50"
+    },
+    {
+     "a": "Cassiodorus",
+     "w": "Chronica",
+     "r": "s.a. 489"
+    },
+    {
+     "a": "Ennodius",
+     "w": "Panegyric on Theodoric",
+     "r": "26-35"
+    }
+   ],
+   "debate": "The size of Theodoric's following is guesswork; Procopius gives no number.",
+   "certainty": "certain",
+   "tags": []
+  },
+  {
+   "id": "battle_of_verona_489",
+   "year": 489,
+   "month": 9,
+   "day": 30,
+   "title": "Battle of Verona (489)",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "Theodoric defeated Odoacer again outside Verona on 30 September 489; Ennodius describes Theodoric's mother and sister watching. Odoacer fled to Ravenna, and Milan and Pavia submitted. Odoacer's general Tufa then defected to Theodoric, only to betray a Gothic force at Faventia.",
+   "loc": [
+    10.993,
+    45.438
+   ],
+   "locName": "Verona",
+   "locCertainty": "certain",
+   "war": "theodorics_war_489",
+   "people": [
+    "theodoric_the_great",
+    "odoacer"
+   ],
+   "polities": [
+    "ostrogoths",
+    "odoacer_kingdom"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "ostrogoths",
+      "commanders": [
+       "theodoric_the_great"
+      ],
+      "strength": "Gothic army",
+      "losses": "heavy"
+     },
+     {
+      "polity": "odoacer_kingdom",
+      "commanders": [
+       "odoacer"
+      ],
+      "strength": "Italian army",
+      "losses": "heavy; many drowned in the Adige"
+     }
+    ],
+    "victor": "ostrogoths",
+    "kind": "field",
+    "significance": "Gave Theodoric the Po valley; Verona became one of his favourite residences, remembered as Dietrich von Bern in Germanic legend."
+   },
+   "sources": [
+    {
+     "a": "Anonymus Valesianus",
+     "w": "Pars posterior",
+     "r": "50"
+    },
+    {
+     "a": "Ennodius",
+     "w": "Panegyric on Theodoric",
+     "r": "36-47"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Dietrich von Bern"
+   ]
+  },
+  {
+   "id": "battle_of_the_adda_490",
+   "year": 490,
+   "month": 8,
+   "day": 11,
+   "title": "Battle of the Adda",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "Reinforced by Visigoths sent by Alaric II, Theodoric routed Odoacer on the river Adda on 11 August 490; Odoacer's magister militum Pierius was killed. Odoacer shut himself in Ravenna for a siege that lasted two and a half years.",
+   "loc": [
+    9.52,
+    45.53
+   ],
+   "locName": "River Adda",
+   "locCertainty": "approx",
+   "war": "theodorics_war_489",
+   "people": [
+    "theodoric_the_great",
+    "odoacer",
+    "alaric_ii"
+   ],
+   "polities": [
+    "ostrogoths",
+    "visigothic_kingdom",
+    "odoacer_kingdom"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "ostrogoths",
+      "commanders": [
+       "theodoric_the_great"
+      ],
+      "strength": "Goths with Visigothic reinforcements",
+      "losses": "unknown"
+     },
+     {
+      "polity": "odoacer_kingdom",
+      "commanders": [
+       "odoacer"
+      ],
+      "strength": "Odoacer's army",
+      "losses": "heavy; Pierius killed"
+     }
+    ],
+    "victor": "ostrogoths",
+    "kind": "field",
+    "significance": "Decided the war in the field."
+   },
+   "sources": [
+    {
+     "a": "Anonymus Valesianus",
+     "w": "Pars posterior",
+     "r": "53"
+    },
+    {
+     "a": "Cassiodorus",
+     "w": "Chronica",
+     "r": "s.a. 490"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Pierius"
+   ]
+  },
+  {
+   "id": "siege_of_ravenna_490",
+   "year": 490,
+   "endYear": 493,
+   "title": "Siege of Ravenna and murder of Odoacer",
+   "type": "siege",
+   "cats": [
+    "military",
+    "political"
+   ],
+   "importance": 4,
+   "summary": "Theodoric blockaded Ravenna from August 490; Odoacer's sortie at the Pineta on 10 July 491 failed. With a fleet closing the port at Classis from 492, famine forced a treaty on 25 February 493, mediated by Bishop John, for joint rule. Theodoric entered on 5 March and on 15 March killed Odoacer with his own hands at a banquet, reportedly remarking that the wretch had no bones in him. Odoacer's men were massacred.",
+   "loc": [
+    12.199,
+    44.418
+   ],
+   "locName": "Ravenna",
+   "locCertainty": "certain",
+   "war": "theodorics_war_489",
+   "people": [
+    "theodoric_the_great",
+    "odoacer"
+   ],
+   "polities": [
+    "ostrogoths",
+    "odoacer_kingdom"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "ostrogoths",
+      "commanders": [
+       "theodoric_the_great"
+      ],
+      "strength": "Gothic army and fleet",
+      "losses": "unknown"
+     },
+     {
+      "polity": "odoacer_kingdom",
+      "commanders": [
+       "odoacer"
+      ],
+      "strength": "garrison of Ravenna",
+      "losses": "surrendered; leadership massacred"
+     }
+    ],
+    "victor": "ostrogoths",
+    "kind": "siege",
+    "significance": "Founded the Ostrogothic kingdom of Italy, which lasted until 553."
+   },
+   "sources": [
+    {
+     "a": "Anonymus Valesianus",
+     "w": "Pars posterior",
+     "r": "54-56"
+    },
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "5.1.24-25"
+    },
+    {
+     "a": "John of Antioch",
+     "w": "History",
+     "r": "fr. 214a (Mariev)"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Bishop John",
+    "Classis"
+   ]
+  },
+  {
+   "id": "accession_of_anastasius_i_491",
+   "year": 491,
+   "month": 4,
+   "day": 11,
+   "title": "Accession of Anastasius I",
+   "type": "accession",
+   "cats": [
+    "political"
+   ],
+   "importance": 4,
+   "summary": "Zeno died on 9 April 491. The Senate and court left the choice to the empress Ariadne, who chose Anastasius, an elderly silentiarius (palace usher) from Dyrrachium known for piety and financial competence. Crowned on 11 April after swearing to uphold orthodoxy, he married Ariadne on 20 May. Zeno's brother Longinus and the Isaurian faction were expelled.",
+   "loc": [
+    28.98,
+    41.01
+   ],
+   "locName": "Constantinople, Hippodrome",
+   "locCertainty": "certain",
+   "people": [
+    "anastasius_i",
+    "ariadne",
+    "zeno"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Constantine VII",
+     "w": "De Ceremoniis",
+     "r": "1.92 (from Peter the Patrician)"
+    },
+    {
+     "a": "Evagrius",
+     "w": "Ecclesiastical History",
+     "r": "3.29"
+    }
+   ],
+   "scholarship": [
+    "Haarer, Anastasius I: Politics and Empire in the Late Roman World (2006)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Ariadne"
+   ]
+  },
+  {
+   "id": "battle_of_cotyaeum_492",
+   "year": 492,
+   "title": "Battle of Cotyaeum: start of the Isaurian War",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "The Isaurians expelled from the capital raised a huge army under Lingis and Longinus of Cardala and marched into Phrygia, where they were routed at Cotyaeum by John the Scythian and John the Hunchback. The war continued in the Taurus until 497-498, when the last strongholds fell and many Isaurians were deported to Thrace.",
+   "loc": [
+    29.98,
+    39.42
+   ],
+   "locName": "Cotyaeum (Kütahya), Phrygia",
+   "locCertainty": "certain",
+   "war": "isaurian_war_492",
+   "people": [
+    "anastasius_i"
+   ],
+   "polities": [
+    "rome_east",
+    "isaurians"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome_east",
+      "commanders": [],
+      "strength": "field army with Gothic, Hunnic and Bessian troops under John the Scythian and John the Hunchback",
+      "losses": "unknown"
+     },
+     {
+      "polity": "isaurians",
+      "commanders": [],
+      "strength": "100,000 (Theophanes, inflated) under Lingis",
+      "losses": "heavy; Lingis killed"
+     }
+    ],
+    "victor": "rome_east",
+    "kind": "field",
+    "significance": "Broke Isaurian power, removing the faction that had dominated Constantinople under Zeno."
+   },
+   "sources": [
+    {
+     "a": "John of Antioch",
+     "w": "History",
+     "r": "fr. 214b (Mariev)"
+    },
+    {
+     "a": "Theophanes",
+     "w": "Chronicle",
+     "r": "AM 5985"
+    },
+    {
+     "a": "Evagrius",
+     "w": "Ecclesiastical History",
+     "r": "3.35"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Lingis"
+   ]
+  },
+  {
+   "id": "battle_of_tolbiac",
+   "year": 496,
+   "title": "Battle of Tolbiac (Zülpich)",
+   "type": "battle",
+   "cats": [
+    "military",
+    "religious"
+   ],
+   "importance": 3,
+   "summary": "According to Gregory of Tours, Clovis, facing defeat against the Alamanni, vowed to become a Christian if the God of his wife Clotilde gave him victory; the Alamannic king fell and his people submitted. Gregory sets the battle in Clovis's fifteenth year (496).",
+   "loc": [
+    6.65,
+    50.69
+   ],
+   "locName": "Tolbiacum (Zülpich)",
+   "locCertainty": "disputed",
+   "people": [
+    "clovis_i",
+    "gregory_of_tours"
+   ],
+   "polities": [
+    "frankish_kingdom",
+    "alamanni"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "frankish_kingdom",
+      "commanders": [
+       "clovis_i"
+      ],
+      "strength": "Frankish army, perhaps with Ripuarian Franks",
+      "losses": "unknown"
+     },
+     {
+      "polity": "alamanni",
+      "commanders": [],
+      "strength": "Alamannic army",
+      "losses": "king killed"
+     }
+    ],
+    "victor": "frankish_kingdom",
+    "kind": "field",
+    "significance": "Began the Frankish subjection of the Alamanni; in Gregory's narrative it is Clovis's 'Milvian Bridge'."
+   },
+   "sources": [
+    {
+     "a": "Gregory of Tours",
+     "w": "Histories",
+     "r": "2.30"
+    },
+    {
+     "a": "Cassiodorus",
+     "w": "Variae",
+     "r": "2.41"
+    }
+   ],
+   "debate": "Gregory does not name Tolbiac in 2.30 (the name comes from 2.37 on Sigibert the Lame); there may have been two Alamannic wars (c. 496 and 506), and the conversion parallel with Constantine is a literary construct.",
+   "certainty": "disputed",
+   "tags": [
+    "Clotilde"
+   ]
+  },
+  {
+   "id": "baptism_of_clovis",
+   "year": 496,
+   "month": 12,
+   "day": 25,
+   "title": "Baptism of Clovis",
+   "type": "religious",
+   "cats": [
+    "religious",
+    "political"
+   ],
+   "importance": 4,
+   "summary": "Clovis was baptised at Reims by Bishop Remigius on a Christmas Day, with 3,000 warriors, choosing Nicene Catholicism rather than the Arian Christianity of the Goths, Burgundians and Vandals. 'Bow your head, proud Sicambrian; adore what you have burned and burn what you have adored.'",
+   "detail": "The choice aligned the Franks with the Gallo-Roman episcopate and aristocracy and with Constantinople, and was later used to justify the war against the Arian Visigoths in 507. Avitus of Vienne's letter congratulating Clovis survives.",
+   "loc": [
+    4.034,
+    49.253
+   ],
+   "locName": "Durocortorum (Reims)",
+   "locCertainty": "probable",
+   "people": [
+    "clovis_i",
+    "gregory_of_tours"
+   ],
+   "polities": [
+    "frankish_kingdom"
+   ],
+   "sources": [
+    {
+     "a": "Gregory of Tours",
+     "w": "Histories",
+     "r": "2.31"
+    },
+    {
+     "a": "Avitus of Vienne",
+     "w": "Letters",
+     "r": "46"
+    }
+   ],
+   "debate": "Date disputed: 496, 498/499, or as late as 506-508 (Wood, Shanzer). Clovis may have flirted with Arianism first.",
+   "scholarship": [
+    "Wood, The Merovingian Kingdoms 450-751 (1994)",
+    "Shanzer, 'Dating the baptism of Clovis', Early Medieval Europe 7 (1998)"
+   ],
+   "certainty": "disputed",
+   "tags": [
+    "Remigius",
+    "Reims"
+   ]
+  },
+  {
+   "id": "abolition_of_chrysargyron_498",
+   "year": 498,
+   "title": "Anastasius abolishes the chrysargyron",
+   "type": "reform",
+   "cats": [
+    "economic",
+    "administrative"
+   ],
+   "importance": 3,
+   "summary": "Anastasius abolished the collatio lustralis or chrysargyron, the five-yearly tax in gold and silver on merchants and craftsmen introduced by Constantine, and publicly burned its registers. Joshua the Stylite describes rejoicing across Edessa. He replaced the revenue from imperial estates managed by a new comes patrimonii.",
+   "loc": [
+    28.98,
+    41.01
+   ],
+   "locName": "Constantinople",
+   "locCertainty": "certain",
+   "people": [
+    "anastasius_i"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Joshua the Stylite",
+     "w": "Chronicle",
+     "r": "31"
+    },
+    {
+     "a": "Evagrius",
+     "w": "Ecclesiastical History",
+     "r": "3.39-41"
+    },
+    {
+     "a": "Codex Justinianus",
+     "w": "Codex Justinianus",
+     "r": "11.1.1"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "collatio lustralis"
+   ]
+  },
+  {
+   "id": "follis_reform_498",
+   "year": 498,
+   "title": "Anastasius's copper coinage reform",
+   "type": "economic",
+   "cats": [
+    "economic"
+   ],
+   "importance": 3,
+   "summary": "In 498, under the comes sacrarum largitionum John the Paphlagonian, Anastasius introduced large copper coins marked with their value in Greek numerals: the follis of 40 nummi (M), and half (K), quarter (I) and later pentanummium (E). It replaced the chaos of tiny nummi and gave the eastern economy a stable small change for over a century.",
+   "loc": [
+    28.98,
+    41.01
+   ],
+   "locName": "Constantinople mint",
+   "locCertainty": "certain",
+   "people": [
+    "anastasius_i"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "John Malalas",
+     "w": "Chronicle",
+     "r": "16.12"
+    },
+    {
+     "a": "Marcellinus Comes",
+     "w": "Chronicle",
+     "r": "s.a. 498"
+    }
+   ],
+   "scholarship": [
+    "Grierson, Byzantine Coins (1982)",
+    "Hendy, Studies in the Byzantine Monetary Economy c.300-1450 (1985)"
+   ],
+   "debate": "A heavier follis followed in 512; the reform may have imitated coinage already struck in Ostrogothic Italy and Vandal Africa.",
+   "certainty": "certain",
+   "tags": [
+    "follis",
+    "nummi"
+   ]
+  },
+  {
+   "id": "anastasian_wall",
+   "year": 503,
+   "title": "The Long Walls of Thrace",
+   "type": "building",
+   "cats": [
+    "military",
+    "technology"
+   ],
+   "importance": 2,
+   "summary": "Anastasius built or rebuilt a wall some 56 km long from the Black Sea to Selymbria on the Propontis, about 65 km west of Constantinople, to protect the capital's hinterland against Bulgars, Slavs and later Avars. It proved hard to man and was often breached.",
+   "loc": [
+    28.18,
+    41.3
+   ],
+   "locName": "Anastasian Wall, Thrace",
+   "locCertainty": "probable",
+   "people": [
+    "anastasius_i",
+    "procopius"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Buildings",
+     "r": "4.9.6-13"
+    },
+    {
+     "a": "Evagrius",
+     "w": "Ecclesiastical History",
+     "r": "3.38"
+    }
+   ],
+   "debate": "Date uncertain (c. 497-507); some argue for an earlier Theodosian or Leonine origin.",
+   "scholarship": [
+    "Crow, 'The Anastasian Wall and the Lower Danube frontier', in Poulter (ed.), The Transition to Late Antiquity (2007)"
+   ],
+   "certainty": "probable",
+   "tags": [
+    "Long Walls"
+   ]
+  },
+  {
+   "id": "siege_of_amida_502",
+   "year": 502,
+   "month": 10,
+   "day": 5,
+   "endYear": 503,
+   "title": "Siege of Amida",
+   "type": "siege",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "Kavad I, needing money to pay the Hephthalites and refused subsidies by Anastasius, invaded and besieged Amida from 5 October 502. After three months the Persians entered on the night of 10/11 January 503 through a tower guarded by monks who had drunk too much. The massacre and enslavement were vast; Pseudo-Joshua says 80,000 bodies were carried out. The Romans bought the city back in 505.",
+   "loc": [
+    40.23,
+    37.91
+   ],
+   "locName": "Amida (Diyarbakır)",
+   "locCertainty": "certain",
+   "war": "anastasian_war",
+   "people": [
+    "kavad_i",
+    "anastasius_i"
+   ],
+   "polities": [
+    "sasanian",
+    "rome_east"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome_east",
+      "commanders": [],
+      "strength": "citizens and small garrison",
+      "losses": "tens of thousands killed or enslaved"
+     },
+     {
+      "polity": "sasanian",
+      "commanders": [
+       "kavad_i"
+      ],
+      "strength": "Persian royal army with Arab and Hephthalite contingents",
+      "losses": "heavy (50,000 per Procopius, exaggerated)"
+     }
+    ],
+    "victor": "sasanian",
+    "kind": "siege",
+    "significance": "Opened the first major Roman-Persian war in over sixty years and led to the building of Dara."
+   },
+   "sources": [
+    {
+     "a": "Joshua the Stylite",
+     "w": "Chronicle",
+     "r": "50-53"
+    },
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "1.7"
+    },
+    {
+     "a": "Zacharias of Mytilene",
+     "w": "Ecclesiastical History",
+     "r": "7.3-4"
+    }
+   ],
+   "scholarship": [
+    "Greatrex, Rome and Persia at War 502-532 (1998)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Kavad"
+   ]
+  },
+  {
+   "id": "founding_of_dara_505",
+   "year": 505,
+   "title": "Foundation of Dara (Anastasiopolis)",
+   "type": "founding",
+   "cats": [
+    "military",
+    "technology"
+   ],
+   "importance": 3,
+   "summary": "After the war of 502-506 exposed the lack of a Roman base near Nisibis, Anastasius built the fortress-city of Dara, renamed Anastasiopolis, only 18 km from Nisibis, in about 505-507, in defiance of the treaty of 422. It became the seat of the dux of Mesopotamia and the hinge of every later war on that front.",
+   "loc": [
+    40.948,
+    37.177
+   ],
+   "locName": "Dara (Oğuz, Mardin)",
+   "locCertainty": "certain",
+   "war": "anastasian_war",
+   "people": [
+    "anastasius_i",
+    "procopius"
+   ],
+   "polities": [
+    "rome_east",
+    "sasanian"
+   ],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Buildings",
+     "r": "2.1-3"
+    },
+    {
+     "a": "Zacharias of Mytilene",
+     "w": "Ecclesiastical History",
+     "r": "7.6"
+    },
+    {
+     "a": "John Malalas",
+     "w": "Chronicle",
+     "r": "16.10"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Anastasiopolis"
+   ]
+  },
+  {
+   "id": "breviary_of_alaric_506",
+   "year": 506,
+   "month": 2,
+   "day": 2,
+   "title": "Breviary of Alaric (Lex Romana Visigothorum)",
+   "type": "law",
+   "cats": [
+    "law"
+   ],
+   "importance": 3,
+   "summary": "Promulgated by Alaric II at Aire-sur-l'Adour on 2 February 506 after review by a council of bishops and provincials, this abridgement of the Theodosian Code, post-Theodosian Novels, the Sentences of Paul, Gaius's Institutes and other texts, with explanatory interpretationes, became the main vehicle of Roman law in the early medieval West.",
+   "loc": [
+    -0.262,
+    43.7
+   ],
+   "locName": "Vicus Iulii (Aire-sur-l'Adour)",
+   "locCertainty": "certain",
+   "people": [
+    "alaric_ii"
+   ],
+   "polities": [
+    "visigothic_kingdom"
+   ],
+   "sources": [
+    {
+     "a": "Lex Romana Visigothorum",
+     "w": "Commonitorium"
+    }
+   ],
+   "debate": "Issued months before Vouillé, perhaps to win Roman and Catholic loyalty against Clovis.",
+   "certainty": "certain",
+   "tags": [
+    "interpretatio"
+   ]
+  },
+  {
+   "id": "battle_of_vouille",
+   "year": 507,
+   "title": "Battle of Vouillé",
+   "type": "battle",
+   "cats": [
+    "military",
+    "political"
+   ],
+   "importance": 4,
+   "summary": "In spring 507 Clovis, with Burgundian allies and the blessing of the Gallo-Roman bishops, attacked the Arian Visigoths and defeated them at the Campus Vogladensis near Poitiers; Clovis is said to have killed Alaric II with his own hand. The Visigoths lost almost all of Gaul except Septimania, which Theodoric's Ostrogoths secured, and their kingdom's centre shifted to Spain.",
+   "loc": [
+    0.165,
+    46.64
+   ],
+   "locName": "Campus Vogladensis (Vouillé), near Poitiers",
+   "locCertainty": "disputed",
+   "war": "frankish_visigothic_war_507",
+   "people": [
+    "clovis_i",
+    "alaric_ii",
+    "gundobad",
+    "theodoric_the_great",
+    "gregory_of_tours"
+   ],
+   "polities": [
+    "frankish_kingdom",
+    "burgundians",
+    "visigothic_kingdom"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "frankish_kingdom",
+      "commanders": [
+       "clovis_i"
+      ],
+      "strength": "Frankish army with Burgundian contingents",
+      "losses": "unknown"
+     },
+     {
+      "polity": "visigothic_kingdom",
+      "commanders": [
+       "alaric_ii"
+      ],
+      "strength": "Visigothic army with Gallo-Roman levies (including Arvernians under Sidonius's son Apollinaris)",
+      "losses": "heavy; Alaric II killed"
+     }
+    ],
+    "victor": "frankish_kingdom",
+    "kind": "field",
+    "significance": "Made the Franks the dominant power in Gaul and pushed the Visigoths into Spain; one of the formative battles of medieval Europe."
+   },
+   "sources": [
+    {
+     "a": "Gregory of Tours",
+     "w": "Histories",
+     "r": "2.37"
+    },
+    {
+     "a": "Cassiodorus",
+     "w": "Variae",
+     "r": "3.1-4 (Theodoric's letters attempting to prevent war)"
+    },
+    {
+     "a": "Chronica Caesaraugustana",
+     "w": "Chronicle of Zaragoza",
+     "r": "s.a. 507"
+    }
+   ],
+   "debate": "Site disputed: Vouillé, Voulon, or Vouneuil-sur-Vienne. Gregory's religious framing (a stag showing the ford, lights from St Hilary's church) is hagiographic; the role of Byzantine encouragement is suggested by an East Roman naval raid on Apulia in 508 that kept Theodoric busy.",
+   "scholarship": [
+    "Mathisen & Shanzer (eds.), The Battle of Vouillé, 507 CE (2012)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Campus Vogladensis"
+   ]
+  },
+  {
+   "id": "consulship_of_clovis_508",
+   "year": 508,
+   "title": "Clovis receives the consulship from Anastasius",
+   "type": "diplomacy",
+   "cats": [
+    "diplomatic",
+    "political"
+   ],
+   "importance": 3,
+   "summary": "At Tours in 508 Clovis received letters from Anastasius granting him the consulship (probably honorary). Gregory says he put on a purple tunic and chlamys and a diadem in the church of St Martin and rode to the cathedral scattering coins, and was hailed as consul and Augustus. He then made Paris his seat.",
+   "loc": [
+    0.689,
+    47.394
+   ],
+   "locName": "Caesarodunum (Tours), St Martin's basilica",
+   "locCertainty": "certain",
+   "people": [
+    "clovis_i",
+    "anastasius_i",
+    "gregory_of_tours"
+   ],
+   "polities": [
+    "frankish_kingdom",
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Gregory of Tours",
+     "w": "Histories",
+     "r": "2.38"
+    }
+   ],
+   "debate": "What exact title Anastasius granted is unclear: honorary consul, patricius, or something else; Clovis does not appear in the consular fasti.",
+   "certainty": "probable",
+   "tags": [
+    "Paris"
+   ]
+  },
+  {
+   "id": "trisagion_riots_512",
+   "year": 512,
+   "month": 11,
+   "title": "Trisagion riots in Constantinople",
+   "type": "revolt",
+   "cats": [
+    "religious",
+    "political"
+   ],
+   "importance": 2,
+   "summary": "Anastasius's addition to the liturgy of the anti-Chalcedonian phrase 'who was crucified for us' to the Trisagion triggered riots in November 512; crowds burned houses and acclaimed the general Areobindus emperor. Anastasius appeared in the Hippodrome without his diadem and offered to abdicate; the crowd relented and he later punished the leaders.",
+   "loc": [
+    28.9753,
+    41.0063
+   ],
+   "locName": "Hippodrome, Constantinople",
+   "locCertainty": "certain",
+   "people": [
+    "anastasius_i"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Marcellinus Comes",
+     "w": "Chronicle",
+     "r": "s.a. 512"
+    },
+    {
+     "a": "John Malalas",
+     "w": "Chronicle",
+     "r": "16.19"
+    },
+    {
+     "a": "Evagrius",
+     "w": "Ecclesiastical History",
+     "r": "3.44"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Trisagion",
+    "Areobindus"
+   ]
+  },
+  {
+   "id": "naval_battle_of_constantinople_515",
+   "year": 515,
+   "title": "Defeat of Vitalian's fleet before Constantinople",
+   "type": "naval",
+   "cats": [
+    "military",
+    "technology"
+   ],
+   "importance": 3,
+   "summary": "The Thracian federate commander Vitalian, demanding the restoration of Chalcedonian bishops and federate pay, marched on Constantinople three times between 513 and 515. In 515 his fleet was destroyed in the Bosporus near Sosthenion by Marinus the Syrian, using a sulphur-based incendiary supplied, Malalas says, by the Athenian philosopher Proclus. Vitalian fled.",
+   "loc": [
+    29.05,
+    41.1
+   ],
+   "locName": "Bosporus near Sosthenion",
+   "locCertainty": "approx",
+   "war": "revolt_of_vitalian",
+   "people": [
+    "vitalian",
+    "anastasius_i",
+    "john_malalas"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome_east",
+      "commanders": [
+       "anastasius_i"
+      ],
+      "strength": "imperial fleet under Marinus",
+      "losses": "light"
+     },
+     {
+      "polity": "rome_east",
+      "commanders": [
+       "vitalian"
+      ],
+      "strength": "rebel fleet of perhaps 200 ships with federate army",
+      "losses": "fleet burned"
+     }
+    ],
+    "victor": "rome_east",
+    "kind": "naval",
+    "significance": "Ended Vitalian's rebellion militarily, though he returned to power under Justin I."
+   },
+   "sources": [
+    {
+     "a": "John Malalas",
+     "w": "Chronicle",
+     "r": "16.16"
+    },
+    {
+     "a": "Evagrius",
+     "w": "Ecclesiastical History",
+     "r": "3.43"
+    },
+    {
+     "a": "Marcellinus Comes",
+     "w": "Chronicle",
+     "r": "s.a. 514-515"
+    }
+   ],
+   "debate": "Not Greek fire, which appeared c. 672; the Proclus here is a different man from the Neoplatonist (d. 485). Malalas's account mixes the miraculous with the technical.",
+   "certainty": "probable",
+   "tags": [
+    "sulphur",
+    "Marinus"
+   ]
+  },
+  {
+   "id": "accession_of_justin_i_518",
+   "year": 518,
+   "month": 7,
+   "day": 10,
+   "title": "Accession of Justin I",
+   "type": "accession",
+   "cats": [
+    "political"
+   ],
+   "importance": 4,
+   "summary": "Anastasius died on 9 July 518 aged about 88 with no designated heir. Justin, the elderly Thracian commander of the excubitors, reportedly given money by the eunuch Amantius to bribe the guards for another candidate, used it for himself and was crowned on 10 July. A Chalcedonian, he reconciled with Rome. His nephew and adopted son Justinian was the power behind him.",
+   "loc": [
+    28.9753,
+    41.0063
+   ],
+   "locName": "Hippodrome, Constantinople",
+   "locCertainty": "certain",
+   "people": [
+    "justin_i",
+    "justinian_i",
+    "anastasius_i",
+    "vitalian"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Constantine VII",
+     "w": "De Ceremoniis",
+     "r": "1.93"
+    },
+    {
+     "a": "Procopius",
+     "w": "Secret History",
+     "r": "6.1-11"
+    },
+    {
+     "a": "Evagrius",
+     "w": "Ecclesiastical History",
+     "r": "4.2"
+    }
+   ],
+   "debate": "Procopius's Secret History says Justin was illiterate and signed with a stencil; this is hostile caricature but possibly rooted in fact. Anastasius left 320,000 lbs of gold in the treasury (Procopius, Secret History 19.7).",
+   "scholarship": [
+    "Vasiliev, Justin the First (1950)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "excubitors",
+    "Amantius"
+   ]
+  },
+  {
+   "id": "end_of_acacian_schism_519",
+   "year": 519,
+   "month": 3,
+   "day": 28,
+   "title": "End of the Acacian Schism",
+   "type": "religious",
+   "cats": [
+    "religious",
+    "diplomatic"
+   ],
+   "importance": 2,
+   "summary": "On 28 March 519 Patriarch John II signed the Libellus of Pope Hormisdas, accepting Chalcedon and striking Acacius, Zeno and Anastasius from the diptychs. Anti-Chalcedonian bishops, including Severus of Antioch, were expelled, driving the miaphysite movement toward a separate hierarchy.",
+   "loc": [
+    28.98,
+    41.01
+   ],
+   "locName": "Constantinople",
+   "locCertainty": "certain",
+   "people": [
+    "justin_i",
+    "justinian_i",
+    "severus_of_antioch"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Collectio Avellana",
+     "w": "Collectio Avellana",
+     "r": "159-160, 223"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Libellus Hormisdae"
+   ]
+  },
+  {
+   "id": "murder_of_vitalian_520",
+   "year": 520,
+   "month": 7,
+   "title": "Murder of Vitalian",
+   "type": "assassination",
+   "cats": [
+    "political"
+   ],
+   "importance": 2,
+   "summary": "Vitalian, rehabilitated by Justin I as magister militum praesentalis and consul for 520, was stabbed to death in the palace in July 520 with two attendants. Procopius and others blame Justinian, removing a rival for the succession.",
+   "loc": [
+    28.98,
+    41.01
+   ],
+   "locName": "Constantinople, Great Palace",
+   "locCertainty": "certain",
+   "war": "revolt_of_vitalian",
+   "people": [
+    "vitalian",
+    "justinian_i",
+    "justin_i"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Secret History",
+     "r": "6.27-28"
+    },
+    {
+     "a": "Marcellinus Comes",
+     "w": "Chronicle",
+     "r": "s.a. 520"
+    },
+    {
+     "a": "Evagrius",
+     "w": "Ecclesiastical History",
+     "r": "4.3"
+    }
+   ],
+   "certainty": "certain",
+   "tags": []
+  },
+  {
+   "id": "massacre_of_najran_and_aksumite_invasion",
+   "year": 525,
+   "title": "Aksumite invasion of Himyar",
+   "type": "campaign",
+   "cats": [
+    "military",
+    "religious",
+    "diplomatic"
+   ],
+   "importance": 2,
+   "summary": "After the Jewish Himyarite king Yusuf As'ar Yath'ar (Dhu Nuwas) massacred the Christians of Najran in 523, Kaleb Ella Asbeha of Aksum, encouraged by Justin I and supplied with Roman ships from Egyptian and Red Sea ports, invaded South Arabia around 525 and destroyed him, installing a Christian client regime.",
+   "loc": [
+    44.13,
+    17.49
+   ],
+   "locName": "Najran and Himyar",
+   "locCertainty": "approx",
+   "people": [
+    "justin_i"
+   ],
+   "polities": [
+    "aksum",
+    "himyar",
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Book of the Himyarites",
+     "w": "Book of the Himyarites"
+    },
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "1.20"
+    },
+    {
+     "a": "Martyrium Arethae",
+     "w": "Martyrdom of Arethas"
+    }
+   ],
+   "scholarship": [
+    "Bowersock, The Throne of Adulis (2013)"
+   ],
+   "debate": "Dates of the Najran massacre (518 or 523) and the invasion (525 or later) are debated.",
+   "certainty": "probable",
+   "tags": [
+    "Najran",
+    "Dhu Nuwas",
+    "Kaleb"
+   ]
+  },
+  {
+   "id": "execution_of_boethius_524",
+   "year": 524,
+   "title": "Execution of Boethius",
+   "type": "political",
+   "cats": [
+    "political",
+    "literature"
+   ],
+   "importance": 3,
+   "summary": "Boethius, magister officiorum and the West's most learned man, defended the senator Albinus against a charge of treasonable correspondence with Constantinople and was himself convicted. Imprisoned near Pavia, he wrote the Consolation of Philosophy, then was tortured and clubbed to death in 524 (or 525). His father-in-law Symmachus was executed soon after, and Pope John I died in Theodoric's prison in 526.",
+   "loc": [
+    9.158,
+    45.185
+   ],
+   "locName": "Ticinum (Pavia)",
+   "locCertainty": "probable",
+   "people": [
+    "boethius",
+    "theodoric_the_great",
+    "cassiodorus"
+   ],
+   "polities": [
+    "ostrogothic_kingdom"
+   ],
+   "sources": [
+    {
+     "a": "Boethius",
+     "w": "Consolation of Philosophy",
+     "r": "1.4"
+    },
+    {
+     "a": "Anonymus Valesianus",
+     "w": "Pars posterior",
+     "r": "85-87"
+    },
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "5.1.32-39"
+    }
+   ],
+   "debate": "Was there a real senatorial conspiracy, or did Theodoric's growing paranoia, sharpened by Justin's anti-Arian measures, drive the trials? Cassiodorus, Boethius's successor as magister officiorum, stayed silent.",
+   "scholarship": [
+    "Moorhead, Theoderic in Italy (1992)",
+    "Chadwick, Boethius (1981)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Consolation of Philosophy",
+    "Albinus",
+    "Symmachus"
+   ]
+  },
+  {
+   "id": "earthquake_of_antioch_526",
+   "year": 526,
+   "month": 5,
+   "day": 29,
+   "title": "Earthquake and fire of Antioch",
+   "type": "disaster",
+   "cats": [
+    "disaster"
+   ],
+   "importance": 3,
+   "summary": "An earthquake struck Antioch around midday on 29 May 526, during the festival of the Ascension when the city was full of visitors; fire followed and burned for days. Malalas, a native, gives 250,000 dead, including Patriarch Euphrasius. Another quake in 528 completed the ruin; the city was renamed Theoupolis, 'City of God'.",
+   "loc": [
+    36.16,
+    36.2
+   ],
+   "locName": "Antioch",
+   "locCertainty": "certain",
+   "people": [
+    "john_malalas",
+    "justin_i"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "John Malalas",
+     "w": "Chronicle",
+     "r": "17.16"
+    },
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "2.14.6"
+    },
+    {
+     "a": "Evagrius",
+     "w": "Ecclesiastical History",
+     "r": "4.5"
+    }
+   ],
+   "debate": "Malalas's death toll is surely exaggerated, but the disaster was real and contributed to Antioch's sixth-century decline alongside 540 and the plague.",
+   "certainty": "certain",
+   "tags": [
+    "Theoupolis"
+   ]
+  },
+  {
+   "id": "death_of_theodoric_526",
+   "year": 526,
+   "month": 8,
+   "day": 30,
+   "title": "Death of Theodoric the Great",
+   "type": "death",
+   "cats": [
+    "political"
+   ],
+   "importance": 4,
+   "summary": "Theodoric died at Ravenna on 30 August 526, probably of dysentery; Procopius says he was haunted by a fish head on his table resembling the face of Symmachus. His ten-year-old grandson Athalaric succeeded under the regency of his daughter Amalasuntha. He was buried in the mausoleum he had built, capped by a single block of Istrian limestone some 230 tonnes in weight.",
+   "loc": [
+    12.208,
+    44.425
+   ],
+   "locName": "Mausoleum of Theodoric, Ravenna",
+   "locCertainty": "certain",
+   "people": [
+    "theodoric_the_great",
+    "amalasuntha",
+    "procopius"
+   ],
+   "polities": [
+    "ostrogothic_kingdom"
+   ],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "5.1.35-39"
+    },
+    {
+     "a": "Anonymus Valesianus",
+     "w": "Pars posterior",
+     "r": "95-96"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Athalaric",
+    "mausoleum"
+   ]
+  },
+  {
+   "id": "accession_of_justinian_527",
+   "year": 527,
+   "month": 8,
+   "day": 1,
+   "title": "Accession of Justinian I",
+   "type": "accession",
+   "cats": [
+    "political"
+   ],
+   "importance": 5,
+   "summary": "Crowned co-emperor with Theodora on 1 April 527, Justinian became sole ruler when Justin died on 1 August 527. He reigned for 38 years, undertaking the reconquest of Africa, Italy and part of Spain, the codification of Roman law, the rebuilding of Hagia Sophia and a sustained programme of religious unification, while surviving the Nika revolt and the first pandemic of plague.",
+   "detail": "Born Petrus Sabbatius at Tauresium near Bederiana in Dardania (c. 482), a Latin speaker from the Balkans, he had been the dominant figure of his uncle's reign. His image is split between Procopius's Wars and Buildings, which praise him, and the Secret History, which calls him a demon in human form. Modern judgements range from 'last Roman emperor' to the overreacher who exhausted the empire before the crises of 570-630.",
+   "loc": [
+    28.98,
+    41.01
+   ],
+   "locName": "Constantinople",
+   "locCertainty": "certain",
+   "people": [
+    "justinian_i",
+    "theodora",
+    "justin_i",
+    "procopius"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "1.11"
+    },
+    {
+     "a": "Procopius",
+     "w": "Secret History",
+     "r": "6-12"
+    },
+    {
+     "a": "John Malalas",
+     "w": "Chronicle",
+     "r": "17.18-18.1"
+    }
+   ],
+   "scholarship": [
+    "Maas (ed.), The Cambridge Companion to the Age of Justinian (2005)",
+    "Moorhead, Justinian (1994)",
+    "Sarris, Economy and Society in the Age of Justinian (2006)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Petrus Sabbatius"
+   ]
+  },
+  {
+   "id": "battle_of_mindouos_528",
+   "year": 528,
+   "title": "Battle of Mindouos",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "Belisarius, newly dux of Mesopotamia, tried to build a fort at Mindouos (Thannuris?) near Nisibis; a Persian army attacked the work and routed the Roman force. Several commanders were captured. The defeat preceded his appointment as magister militum per Orientem.",
+   "loc": [
+    41.0,
+    37.0
+   ],
+   "locName": "Mindouos, near Dara",
+   "locCertainty": "approx",
+   "war": "iberian_war",
+   "people": [
+    "belisarius",
+    "kavad_i",
+    "procopius"
+   ],
+   "polities": [
+    "rome_east",
+    "sasanian"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome_east",
+      "commanders": [
+       "belisarius"
+      ],
+      "strength": "Roman frontier forces",
+      "losses": "heavy; officers captured"
+     },
+     {
+      "polity": "sasanian",
+      "commanders": [],
+      "strength": "Persian army",
+      "losses": "unknown"
+     }
+    ],
+    "victor": "sasanian",
+    "kind": "field",
+    "significance": "Belisarius's first recorded command ended in defeat."
+   },
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "1.13.1-8"
+    },
+    {
+     "a": "Zacharias of Mytilene",
+     "w": "Ecclesiastical History",
+     "r": "9.2"
+    }
+   ],
+   "debate": "Mindouos and Thannuris may be the same or neighbouring sites.",
+   "certainty": "probable",
+   "tags": []
+  },
+  {
+   "id": "first_justinian_code_529",
+   "year": 529,
+   "month": 4,
+   "day": 7,
+   "title": "First Codex Justinianus",
+   "type": "law",
+   "cats": [
+    "law"
+   ],
+   "importance": 3,
+   "summary": "Promulgated on 7 April 529 by the constitution Summa rei publicae, the first Codex Justinianus combined the Gregorian, Hermogenian and Theodosian codes and later constitutions into a single code in 12 books, prepared in just 14 months by a commission including John the Cappadocian and Tribonian. It does not survive; we have only the revised edition of 534.",
+   "loc": [
+    28.98,
+    41.01
+   ],
+   "locName": "Constantinople",
+   "locCertainty": "certain",
+   "people": [
+    "justinian_i",
+    "tribonian",
+    "john_the_cappadocian"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Codex Justinianus",
+     "w": "Constitutions Haec and Summa"
+    },
+    {
+     "a": "Papyrus",
+     "w": "P. Oxy. XV 1814 (index fragment of the first Codex)"
+    }
+   ],
+   "scholarship": [
+    "Honoré, Tribonian (1978)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Summa rei publicae"
+   ]
+  },
+  {
+   "id": "closure_of_the_academy_529",
+   "year": 529,
+   "title": "Justinian's ban on pagan teaching and the end of the Athenian Academy",
+   "type": "religious",
+   "cats": [
+    "religious",
+    "cultural",
+    "law"
+   ],
+   "importance": 3,
+   "summary": "Malalas records that in 529 Justinian sent an order to Athens forbidding anyone to teach philosophy or interpret law there; laws in the Codex barred pagans from teaching. In 531/532 seven Neoplatonists including Damascius and Simplicius went to the court of Khosrow I, returning after the peace of 532 guaranteed their safety.",
+   "loc": [
+    23.727,
+    37.976
+   ],
+   "locName": "Athens",
+   "locCertainty": "certain",
+   "people": [
+    "justinian_i",
+    "khosrow_i",
+    "agathias",
+    "john_malalas"
+   ],
+   "polities": [
+    "rome_east",
+    "sasanian"
+   ],
+   "sources": [
+    {
+     "a": "John Malalas",
+     "w": "Chronicle",
+     "r": "18.47"
+    },
+    {
+     "a": "Agathias",
+     "w": "Histories",
+     "r": "2.30-31"
+    },
+    {
+     "a": "Codex Justinianus",
+     "w": "Codex Justinianus",
+     "r": "1.5.18, 1.11.10"
+    }
+   ],
+   "debate": "Whether the Academy was formally closed, or starved by confiscation of its endowment, and where the philosophers settled afterward (Harran?) is disputed; the image of 529 as 'the end of ancient philosophy' is exaggerated.",
+   "scholarship": [
+    "Cameron, 'The last days of the Academy at Athens', PCPS 15 (1969)",
+    "Watts, City and School in Late Antique Athens and Alexandria (2006)"
+   ],
+   "certainty": "disputed",
+   "tags": [
+    "Damascius",
+    "Simplicius"
+   ]
+  },
+  {
+   "id": "founding_of_monte_cassino_529",
+   "year": 529,
+   "title": "Benedict founds Monte Cassino",
+   "type": "religious",
+   "cats": [
+    "religious",
+    "cultural"
+   ],
+   "importance": 3,
+   "summary": "Benedict of Nursia, leaving his monasteries at Subiaco, founded a community on the summit of Monte Cassino above Casinum, on the site of a temple of Apollo, traditionally in 529. His Rule, written there, became the foundation of western monasticism.",
+   "loc": [
+    13.814,
+    41.49
+   ],
+   "locName": "Monte Cassino",
+   "locCertainty": "certain",
+   "people": [
+    "gregory_the_great"
+   ],
+   "polities": [
+    "ostrogothic_kingdom"
+   ],
+   "sources": [
+    {
+     "a": "Gregory the Great",
+     "w": "Dialogues",
+     "r": "2.8"
+    }
+   ],
+   "debate": "The date 529 is traditional and the only source, Gregory's Dialogues (593/594), is hagiography; some historians question how much of the Rule is Benedict's own.",
+   "certainty": "traditional",
+   "tags": [
+    "Rule of Benedict"
+   ]
+  },
+  {
+   "id": "samaritan_revolt_529",
+   "year": 529,
+   "title": "Samaritan revolt of Julian ben Sabar",
+   "type": "revolt",
+   "cats": [
+    "military",
+    "religious"
+   ],
+   "importance": 2,
+   "summary": "Provoked by anti-heretical laws, Samaritans in Palestine proclaimed Julian ben Sabar king, sacked Neapolis and killed its bishop, and held chariot races there. The revolt was crushed with the help of Ghassanid Arab allies; Malalas says 20,000 Samaritans were killed and 20,000 sold to Persia and India. Justinian closed synagogues and the Mount Gerizim cult.",
+   "loc": [
+    35.26,
+    32.21
+   ],
+   "locName": "Neapolis (Nablus) and Mount Gerizim",
+   "locCertainty": "certain",
+   "people": [
+    "justinian_i",
+    "john_malalas"
+   ],
+   "polities": [
+    "rome_east",
+    "ghassanids"
+   ],
+   "sources": [
+    {
+     "a": "John Malalas",
+     "w": "Chronicle",
+     "r": "18.35"
+    },
+    {
+     "a": "Procopius",
+     "w": "Secret History",
+     "r": "11.24-30"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Gerizim"
+   ]
+  },
+  {
+   "id": "battle_of_dara",
+   "year": 530,
+   "month": 6,
+   "title": "Battle of Dara",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 4,
+   "summary": "Before the walls of Dara, Belisarius and Hermogenes, with 25,000 men, met a Persian army of 40,000 to 50,000 under Firuz (Perozes). Belisarius dug a system of ditches with gaps and angles, placed his infantry behind them and his Hunnic and Herul cavalry at the corners. On the second day a flank attack by Herul cavalry hidden behind a hill and a counter-charge by Sunicas and Aigan's Huns broke the Persian wings; 5,000 Persians died.",
+   "detail": "Procopius, then Belisarius's secretary (assessor), was present and gives a detailed account including a single combat in which Andreas, a bath attendant serving as a wrestling trainer, killed two Persian champions. It was the first major Roman victory over Persia in generations and made Belisarius's reputation. The ditch layout has been compared with Hannibal's methods, though its exact geometry is debated.",
+   "loc": [
+    40.948,
+    37.17
+   ],
+   "locName": "Dara, Mesopotamia",
+   "locCertainty": "certain",
+   "war": "iberian_war",
+   "people": [
+    "belisarius",
+    "procopius",
+    "kavad_i"
+   ],
+   "polities": [
+    "rome_east",
+    "sasanian",
+    "heruli"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome_east",
+      "commanders": [
+       "belisarius"
+      ],
+      "strength": "25,000 (Procopius), incl. Huns under Sunicas and Aigan and Heruli under Pharas",
+      "losses": "light"
+     },
+     {
+      "polity": "sasanian",
+      "commanders": [],
+      "strength": "40,000 then reinforced to 50,000 (Procopius); commander Firuz the mirranes, with Immortals",
+      "losses": "c. 5,000 killed"
+     }
+    ],
+    "victor": "rome_east",
+    "kind": "field",
+    "significance": "Restored Roman confidence after a century of caution on the eastern front and made Belisarius the empire's leading general."
+   },
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "1.13.9-1.14.55"
+    },
+    {
+     "a": "Zacharias of Mytilene",
+     "w": "Ecclesiastical History",
+     "r": "9.3"
+    }
+   ],
+   "scholarship": [
+    "Greatrex, Rome and Persia at War 502-532 (1998)",
+    "Whately, Battles and Generals: Combat, Culture, and Didacticism in Procopius' Wars (2016)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Andreas",
+    "ditches",
+    "Pharas"
+   ]
+  },
+  {
+   "id": "battle_of_satala_530",
+   "year": 530,
+   "title": "Battle of Satala",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "In Armenia in summer 530, Sittas and Dorotheus with some 15,000 men defeated a Persian army of 30,000 under Mihr-Mihroe near Satala. Sittas's surprise attack with 1,000 horsemen from behind a hill threw the Persians into confusion; the Romans then took the Persarmenian forts of Bolum and Pharangium and its gold mines.",
+   "loc": [
+    39.659,
+    40.025
+   ],
+   "locName": "Satala (Sadak), Armenia",
+   "locCertainty": "certain",
+   "war": "iberian_war",
+   "people": [
+    "procopius"
+   ],
+   "polities": [
+    "rome_east",
+    "sasanian"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome_east",
+      "commanders": [],
+      "strength": "c. 15,000 under Sittas and Dorotheus",
+      "losses": "light"
+     },
+     {
+      "polity": "sasanian",
+      "commanders": [],
+      "strength": "30,000 (Procopius) under Mihr-Mihroe",
+      "losses": "heavy"
+     }
+    ],
+    "victor": "rome_east",
+    "kind": "field",
+    "significance": "Secured the Armenian front in the same season as Dara."
+   },
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "1.15"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Sittas",
+    "Pharangium"
+   ]
+  },
+  {
+   "id": "battle_of_callinicum",
+   "year": 531,
+   "month": 4,
+   "day": 19,
+   "title": "Battle of Callinicum",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 4,
+   "summary": "A Persian and Lakhmid army under Azarethes and al-Mundhir III raided along the Euphrates into Commagene. Belisarius shadowed them until, under pressure from his troops, he gave battle on Easter Saturday, 19 April 531, by the Euphrates opposite Callinicum. The Roman right, held by Ghassanid allies under al-Harith, collapsed; Belisarius dismounted and fought on foot with the infantry, their backs to the river, and held until nightfall. Both sides lost heavily.",
+   "loc": [
+    39.01,
+    35.95
+   ],
+   "locName": "Callinicum (Raqqa), on the Euphrates",
+   "locCertainty": "certain",
+   "war": "iberian_war",
+   "people": [
+    "belisarius",
+    "procopius",
+    "john_malalas",
+    "kavad_i"
+   ],
+   "polities": [
+    "rome_east",
+    "ghassanids",
+    "sasanian",
+    "lakhmids"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome_east",
+      "commanders": [
+       "belisarius"
+      ],
+      "strength": "20,000 (Procopius) including 5,000 Ghassanid Arabs",
+      "losses": "heavy"
+     },
+     {
+      "polity": "sasanian",
+      "commanders": [],
+      "strength": "15,000 Persian cavalry and Lakhmid Arabs under Azarethes and al-Mundhir",
+      "losses": "heavy; Azarethes disgraced by Kavad for losing so many men"
+     }
+    ],
+    "victor": "sasanian",
+    "kind": "field",
+    "significance": "Tactically a Persian win but strategically barren; Belisarius was recalled and an inquiry held."
+   },
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "1.18"
+    },
+    {
+     "a": "John Malalas",
+     "w": "Chronicle",
+     "r": "18.60"
+    }
+   ],
+   "debate": "Procopius blames the Ghassanids and the impatience of the troops; Malalas, using an official report, gives a less flattering picture of Belisarius, who he says fled across the river. A test case for Procopius's partiality.",
+   "scholarship": [
+    "Greatrex, Rome and Persia at War 502-532 (1998)",
+    "Shahid, Byzantium and the Arabs in the Sixth Century (1995)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "al-Harith",
+    "al-Mundhir III"
+   ]
+  },
+  {
+   "id": "accession_of_khosrow_i_531",
+   "year": 531,
+   "month": 9,
+   "day": 13,
+   "title": "Death of Kavad; accession of Khosrow I",
+   "type": "accession",
+   "cats": [
+    "political"
+   ],
+   "importance": 3,
+   "summary": "Kavad I died on 13 September 531. His favoured younger son Khosrow I Anushirvan ('of the immortal soul') succeeded over his elder brothers, crushed the Mazdakite movement and launched fiscal and military reforms: a fixed land tax by survey, a poll tax, four regional commanders (spahbeds) and a salaried cavalry of lesser nobility (dehqans).",
+   "loc": [
+    44.58,
+    33.09
+   ],
+   "locName": "Ctesiphon",
+   "locCertainty": "certain",
+   "people": [
+    "khosrow_i",
+    "kavad_i"
+   ],
+   "polities": [
+    "sasanian"
+   ],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "1.21.17-22"
+    },
+    {
+     "a": "Tabari",
+     "w": "History",
+     "r": "I 897-899"
+    }
+   ],
+   "scholarship": [
+    "Rubin, 'The reforms of Khusro Anushirwan', in Cameron (ed.), The Byzantine and Early Islamic Near East III (1995)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Mazdakites",
+    "Anushirvan"
+   ]
+  }
+ ]
+}

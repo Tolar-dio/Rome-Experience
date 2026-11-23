@@ -1,248 +1,2663 @@
-{"events":[
-{"id":"nika_riots_532","year":532,"month":1,"day":13,"title":"Nika riots","type":"revolt","cats":["political","social","military"],"importance":5,
-"summary":"After a botched execution left a Blue and a Green condemned man alive under the protection of monks, the two circus factions united on 13 January 532 under the cry 'Nika!' ('Conquer!'), burned the city centre including Hagia Sophia and the Chalke gate, and forced Justinian to dismiss John the Cappadocian, Tribonian and the urban prefect Eudaemon. On 18 January they crowned Hypatius, nephew of Anastasius, in the Hippodrome.",
-"detail":"Justinian was preparing to flee by sea when, according to Procopius, Theodora declared that she would not flee: 'royalty is a good burial shroud', adapting a saying about tyranny. Narses went into the Hippodrome with gold to detach the Blues; Belisarius and Mundus with Gothic and Herul troops then entered from two gates and massacred the crowd, perhaps 30,000 people. Hypatius and his brother Pompeius were executed the next day and their bodies thrown into the sea. The riot was less a popular uprising than a convergence of factional violence, fiscal grievance against John the Cappadocian's tax drive, and senatorial opposition looking for an alternative emperor.",
-"loc":[28.9753,41.0063],"locName":"Hippodrome, Constantinople","locCertainty":"certain",
-"people":["justinian_i","theodora","belisarius","narses","john_the_cappadocian","tribonian","procopius"],"polities":["rome_east"],
-"battle":{"sides":[{"polity":"rome_east","commanders":["belisarius","narses"],"strength":"Belisarius's bucellarii and Gothic and Herul troops under Mundus","losses":"light"},{"polity":"rome_east","commanders":[],"strength":"crowd of Blue and Green partisans with senatorial backers","losses":"c. 30,000 killed (Procopius); 35,000 (Malalas)"}],"victor":"rome_east","kind":"massacre","significance":"Secured Justinian's throne and freed his hand for the codification, the rebuilding of the capital and the Vandal war."},
-"sources":[{"a":"Procopius","w":"Wars","r":"1.24"},{"a":"John Malalas","w":"Chronicle","r":"18.71"},{"a":"Chronicon Paschale","w":"Chronicon Paschale","r":"s.a. 531"},{"a":"Theophanes","w":"Chronicle","r":"AM 6024 (the 'Acta dia Kalopodion')"}],
-"debate":"Theodora's speech is a literary construct echoing Isocrates; Greatrex reconstructs the riot's escalation in detail. The 'Kalapodios dialogue' preserved in Theophanes may belong to a different occasion.",
-"scholarship":["Greatrex, 'The Nika riot: a reappraisal', JHS 117 (1997)","Cameron, Circus Factions (1976)"],"certainty":"certain","tags":["Blues and Greens","Hypatius"]},
-{"id":"eternal_peace_532","year":532,"month":9,"title":"The 'Eternal Peace' with Persia","type":"treaty","cats":["diplomatic","economic"],"importance":3,
-"summary":"Khosrow I and Justinian agreed a peace without time limit: Rome paid 110 centenaria (11,000 lbs of gold) as a lump sum toward the defence of the Caucasus passes, moved the dux of Mesopotamia from Dara to Constantina, and the two sides returned captured forts in Lazica and Persarmenia. It freed Justinian's armies for the West and lasted eight years.",
-"loc":[44.58,33.09],"locName":"Ctesiphon and the Mesopotamian frontier","locCertainty":"approx","war":"iberian_war","people":["justinian_i","khosrow_i","procopius"],"polities":["rome_east","sasanian"],
-"sources":[{"a":"Procopius","w":"Wars","r":"1.22"},{"a":"John Malalas","w":"Chronicle","r":"18.76"}],"certainty":"certain","tags":["Caspian Gates"]},
-{"id":"hagia_sophia_construction_532","year":532,"month":2,"day":23,"endYear":537,"title":"Building of Hagia Sophia","type":"building","cats":["cultural","religious","technology"],"importance":5,
-"summary":"Begun on 23 February 532, forty days after the Nika riots destroyed the Theodosian basilica, Justinian's Great Church was designed by the mathematician Anthemius of Tralles and the engineer Isidore of Miletus and dedicated on 27 December 537. Its dome, about 31 m across, appeared, Procopius said, to hang from heaven by a golden chain.",
-"detail":"Built in under six years by perhaps 10,000 workers, it combined a basilica with a central dome on pendentives, buttressed by two half-domes. Brick and mortar dominated, with columns of porphyry and verd antique taken from older buildings; the interior had acres of gold mosaic with only crosses as decoration in Justinian's phase. The story of Justinian exclaiming 'Solomon, I have surpassed thee' comes from the much later Narratio de aedificatione. Earthquakes in 553 and 557 weakened the dome, which collapsed on 7 May 558; Isidore the Younger rebuilt it about 6 m higher, and it was rededicated on 24 December 562, celebrated in Paul the Silentiary's Ekphrasis.",
-"loc":[28.9802,41.0086],"locName":"Hagia Sophia, Constantinople","locCertainty":"certain",
-"people":["justinian_i","anthemius_of_tralles","isidore_of_miletus","procopius","agathias"],"polities":["rome_east"],
-"sources":[{"a":"Procopius","w":"Buildings","r":"1.1.20-78"},{"a":"Paul the Silentiary","w":"Ekphrasis of Hagia Sophia"},{"a":"Agathias","w":"Histories","r":"5.9"},{"a":"John Malalas","w":"Chronicle","r":"18.86, 18.151"}],
-"scholarship":["Mainstone, Hagia Sophia: Architecture, Structure and Liturgy of Justinian's Great Church (1988)","Mark & Çakmak (eds.), Hagia Sophia from the Age of Justinian to the Present (1992)"],"certainty":"certain","tags":["pendentives","dome"]},
-{"id":"digest_and_institutes_533","year":533,"month":12,"day":16,"title":"Publication of the Digest and Institutes","type":"law","cats":["law"],"importance":5,
-"summary":"The Digest (Pandects), commissioned on 15 December 530 by the constitution Deo auctore and published on 16 December 533 (constitution Tanta), distilled the writings of classical jurists, chiefly Ulpian, Paul and Papinian, into 50 books. Tribonian's commission reduced some 2,000 books and 3 million lines to about 150,000. The Institutes, a textbook for students, were published on 21 November 533; both took force on 30 December 533.",
-"detail":"The Digest preserved most of what survives of classical Roman jurisprudence (the jurists of c. 100 BC to AD 240); its rediscovery in eleventh-century Bologna, through the Florentine manuscript (Littera Florentina, copied in the later sixth century), founded the western legal tradition. The speed of compilation led Bluhme in 1820 to propose that three subcommittees worked in parallel on 'masses' of texts (Sabinian, edictal, Papinian), a theory still largely accepted. Interpolations, the compilers' alterations of the classical texts, were for generations the obsession of Romanists.",
-"loc":[28.98,41.01],"locName":"Constantinople","locCertainty":"certain","people":["justinian_i","tribonian"],"polities":["rome_east"],
-"sources":[{"a":"Digesta","w":"Constitutions Deo auctore, Omnem, Tanta/Dedoken"},{"a":"Institutiones","w":"Constitution Imperatoriam"}],
-"scholarship":["Honoré, Tribonian (1978)","Watson (ed.), The Digest of Justinian (1985)","Humfress, 'Law and legal practice in the age of Justinian', in Maas (ed.), Cambridge Companion to the Age of Justinian (2005)"],"certainty":"certain","tags":["Pandects","Bluhme hypothesis","Littera Florentina"]},
-{"id":"vandal_war_begins_533","year":533,"month":6,"title":"Belisarius's expedition sails for Africa","type":"campaign","cats":["military"],"importance":4,
-"summary":"Using Gelimer's deposition of the pro-Roman Hilderic (530) as pretext, and against the advice of John the Cappadocian, Justinian sent Belisarius in June 533 with 10,000 infantry, 5,000 cavalry (including 1,500 bucellarii, 600 Huns and 400 Heruli), 500 transports with 30,000 sailors and 92 dromons. Procopius sailed with him. A revolt in Sardinia and another in Tripolitania, encouraged by Constantinople, drew off Vandal forces.",
-"loc":[28.98,41.01],"locName":"Constantinople","locCertainty":"certain","war":"vandalic_war_533","people":["belisarius","justinian_i","gelimer","procopius","john_the_cappadocian","antonina"],"polities":["rome_east","vandal_kingdom"],
-"sources":[{"a":"Procopius","w":"Wars","r":"3.9-3.13"}],
-"debate":"Procopius reports mouldy bread from John the Cappadocian's money-saving double-baking, killing 500 men; a hostile anecdote about a man he loathed.","certainty":"certain","tags":["Hilderic","dromons"]},
-{"id":"battle_of_ad_decimum","year":533,"month":9,"day":13,"title":"Battle of Ad Decimum","type":"battle","cats":["military"],"importance":4,
-"summary":"Landing at Caput Vada and marching up the coast, Belisarius approached Carthage. Gelimer planned a three-way trap at the tenth milestone (Ad Decimum): his brother Ammatas from Carthage, his nephew Gibamund from the west, and himself from the rear. The parts arrived out of time. Ammatas was killed, Gibamund's 2,000 were destroyed by 600 Huns at Pedion Halon, and Gelimer, after scattering the Roman vanguard, stopped to mourn his brother. Belisarius rallied and routed him.",
-"loc":[10.24,36.74],"locName":"Ad Decimum, 10 miles south-west of Carthage","locCertainty":"approx","war":"vandalic_war_533","campaign":"belisarius_africa_533","people":["belisarius","gelimer","procopius"],"polities":["rome_east","vandal_kingdom"],
-"battle":{"sides":[{"polity":"rome_east","commanders":["belisarius"],"strength":"c. 15,000 with allied Huns and Heruli","losses":"light; vanguard scattered"},{"polity":"vandal_kingdom","commanders":["gelimer"],"strength":"perhaps 11,000-12,000 in three groups","losses":"heavy; Ammatas and Gibamund killed"}],"victor":"rome_east","kind":"field","significance":"Opened Carthage to Belisarius, who entered on 15 September and dined on Gelimer's prepared meal in the palace."},
-"sources":[{"a":"Procopius","w":"Wars","r":"3.18-3.20"}],"debate":"Procopius admits Gelimer could have won had he pressed on; Vandal numbers are unknown and modern estimates of the whole Vandal army range from 20,000 to 30,000.","certainty":"certain","tags":["Ammatas","Gibamund","Pedion Halon"]},
-{"id":"battle_of_tricamarum","year":533,"month":12,"title":"Battle of Tricamarum","type":"battle","cats":["military"],"importance":4,
-"summary":"Reinforced by his brother Tzazon's army returning from Sardinia, Gelimer advanced on Carthage. At Tricamarum, about 30 km west, in mid-December 533, Roman cavalry under John the Armenian charged three times across a stream and killed Tzazon; the Vandal line collapsed. Procopius counts fewer than 50 Roman and about 800 Vandal dead. Gelimer fled, and the Roman troops lost all discipline plundering the Vandal camp.",
-"loc":[9.95,36.80],"locName":"Tricamarum, west of Carthage","locCertainty":"approx","war":"vandalic_war_533","campaign":"belisarius_africa_533","people":["belisarius","gelimer","procopius"],"polities":["rome_east","vandal_kingdom"],
-"battle":{"sides":[{"polity":"rome_east","commanders":["belisarius"],"strength":"Roman cavalry (infantry arrived late)","losses":"fewer than 50 (Procopius)"},{"polity":"vandal_kingdom","commanders":["gelimer"],"strength":"whole Vandal army, perhaps 15,000-25,000","losses":"c. 800 (Procopius); Tzazon killed"}],"victor":"rome_east","kind":"field","significance":"Destroyed the Vandal kingdom after a century; Africa was reorganised as a praetorian prefecture in April 534."},
-"sources":[{"a":"Procopius","w":"Wars","r":"4.2-4.3"}],"debate":"The very low casualty figures suggest the Vandals broke early; Procopius's date ('about three months' after Carthage) gives mid-December.","certainty":"certain","tags":["Tzazon","John the Armenian"]},
-{"id":"surrender_of_gelimer_534","year":534,"month":3,"title":"Surrender of Gelimer on Mount Papua","type":"political","cats":["military","political"],"importance":3,
-"summary":"Besieged through the winter by the Herul Pharas in a Moorish hill town on Mount Papua, Gelimer asked for a lyre to sing a lament he had composed on his misfortunes, a sponge for his eyes and a loaf of bread. He surrendered in March 534, laughing hysterically when brought before Belisarius.",
-"loc":[7.66,36.93],"locName":"Mount Papua, Numidia","locCertainty":"disputed","war":"vandalic_war_533","people":["gelimer","belisarius","procopius"],"polities":["vandal_kingdom","rome_east","moors"],
-"sources":[{"a":"Procopius","w":"Wars","r":"4.6-4.7"}],"certainty":"certain","tags":["Pharas"]},
-{"id":"triumph_of_belisarius_534","year":534,"title":"Triumph of Belisarius","type":"political","cats":["political","cultural"],"importance":3,
-"summary":"Belisarius celebrated a triumph in Constantinople in 534, walking rather than riding, the first non-imperial triumph since the age of Augustus. Gelimer and Vandal nobles were paraded with the treasure of Carthage, including the Temple vessels of Jerusalem, which Justinian sent to churches in Jerusalem. Before the emperor, Gelimer kept repeating 'Vanity of vanities, all is vanity'. Belisarius was consul for 535.",
-"loc":[28.9753,41.0063],"locName":"Hippodrome, Constantinople","locCertainty":"certain","war":"vandalic_war_533","people":["belisarius","gelimer","justinian_i","procopius"],"polities":["rome_east"],
-"sources":[{"a":"Procopius","w":"Wars","r":"4.9"}],"certainty":"certain","tags":["Temple treasures","Ecclesiastes"]},
-{"id":"second_justinian_code_534","year":534,"month":11,"day":16,"title":"Codex Justinianus, second edition","type":"law","cats":["law"],"importance":3,
-"summary":"The Codex repetitae praelectionis, promulgated on 16 November 534 (constitution Cordi), replaced the 529 edition with an updated code in 12 books incorporating the Fifty Decisions and later laws. Justinian's subsequent legislation, mostly in Greek, survives as the Novels; together the four parts were later called the Corpus Iuris Civilis, a name first used by Dionysius Gothofredus in 1583.",
-"loc":[28.98,41.01],"locName":"Constantinople","locCertainty":"certain","people":["justinian_i","tribonian"],"polities":["rome_east"],
-"sources":[{"a":"Codex Justinianus","w":"Constitution Cordi"},{"a":"Novellae","w":"Novels"}],"certainty":"certain","tags":["Corpus Iuris Civilis","Novels"]},
-{"id":"murder_of_amalasuntha_535","year":535,"month":4,"day":30,"title":"Murder of Amalasuntha","type":"assassination","cats":["political"],"importance":4,
-"summary":"After her son Athalaric drank himself to death in 534, Amalasuntha made her cousin Theodahad co-ruler. He confined her on the island of Martana in Lake Bolsena, where relatives of Gothic nobles she had executed strangled her in her bath, probably on 30 April 535. Justinian, with whom she had been negotiating a flight to Constantinople, used her murder as the casus belli for the Gothic War.",
-"loc":[11.93,42.57],"locName":"Martana island, Lake Bolsena","locCertainty":"probable","war":"gothic_war_535","people":["amalasuntha","justinian_i","theodora","procopius","cassiodorus"],"polities":["ostrogothic_kingdom","rome_east"],
-"sources":[{"a":"Procopius","w":"Wars","r":"5.4.12-31"},{"a":"Procopius","w":"Secret History","r":"16.1-5"},{"a":"Jordanes","w":"Getica","r":"306"}],
-"debate":"The Secret History claims Theodora, jealous of Amalasuntha, secretly urged Theodahad to kill her through the envoy Peter the Patrician; the Wars says nothing of it.","certainty":"certain","tags":["Theodahad","Athalaric"]},
-{"id":"conquest_of_sicily_535","year":535,"month":12,"day":31,"title":"Belisarius conquers Sicily","type":"campaign","cats":["military"],"importance":3,
-"summary":"Sent with only 7,500 men, Belisarius took Sicily in 535 with little resistance except at Panormus, where he hoisted archers in boats to the mastheads of his ships to shoot over the walls. He entered Syracuse on 31 December 535, the last day of his consulship, scattering gold coins to the crowd.",
-"loc":[15.287,37.075],"locName":"Syracuse","locCertainty":"certain","war":"gothic_war_535","campaign":"belisarius_italy_535","people":["belisarius","procopius"],"polities":["rome_east","ostrogothic_kingdom"],
-"sources":[{"a":"Procopius","w":"Wars","r":"5.5.12-19"}],"certainty":"certain","tags":["Panormus"]},
-{"id":"volcanic_winter_536","year":536,"title":"The 'year without summer' of 536","type":"disaster","cats":["disaster"],"importance":4,
-"summary":"Procopius records that throughout 536 'the sun gave forth its light without brightness, like the moon'; Cassiodorus in Italy describes a bluish sun, summer frosts and failed harvests; John Lydus and Syriac chroniclers concur. Ice cores and tree rings now show major volcanic eruptions in 536 and 539/540, triggering the coldest decade in two millennia.",
-"detail":"Sigl et al. (2015) dated sulphate spikes in Greenland and Antarctic ice to 536 and 540; Büntgen et al. (2016) defined a 'Late Antique Little Ice Age' (536-c. 660). The source volcano for 536 is uncertain (Iceland has been proposed, along with sites in North America); Ilopango in El Salvador is linked to 539/540 or earlier. Harper connects this climate shock, the plague and political crisis into an environmental narrative of the end of antiquity; critics warn against monocausal determinism.",
-"loc":[28.98,41.01],"locName":"Mediterranean-wide","locCertainty":"approx","people":["procopius","cassiodorus"],"polities":["rome_east","ostrogothic_kingdom"],
-"sources":[{"a":"Procopius","w":"Wars","r":"4.14.5-6"},{"a":"Cassiodorus","w":"Variae","r":"12.25"},{"a":"John Lydus","w":"De Ostentis","r":"9c"}],
-"scholarship":["Sigl et al., 'Timing and climate forcing of volcanic eruptions for the past 2,500 years', Nature 523 (2015)","Büntgen et al., 'Cooling and societal change during the Late Antique Little Ice Age', Nature Geoscience 9 (2016)","Harper, The Fate of Rome (2017)"],"certainty":"certain","tags":["dust veil","LALIA"]},
-{"id":"mutiny_of_stotzas_536","year":536,"title":"Military mutiny in Africa under Stotzas","type":"revolt","cats":["military","religious"],"importance":2,
-"summary":"At Easter 536 Roman troops in Africa, many married to Vandal widows who claimed their estates and Arian soldiers denied baptism for their children, mutinied against Solomon and chose the guardsman Stotzas as leader. Belisarius hurried from Sicily and scattered them at Membresa; Justinian's cousin Germanus won back most of the mutineers with pay and defeated Stotzas at Scalae Veteres in 537.",
-"loc":[9.59,36.65],"locName":"Membresa and Scalae Veteres, Africa","locCertainty":"approx","war":"moorish_wars_534","people":["solomon_eunuch","belisarius","germanus_patricius","procopius"],"polities":["rome_east","moors"],
-"sources":[{"a":"Procopius","w":"Wars","r":"4.14-4.17"}],"certainty":"certain","tags":["Stotzas","Arian soldiers"]},
-{"id":"siege_of_naples_536","year":536,"month":11,"title":"Siege and sack of Naples","type":"siege","cats":["military"],"importance":3,
-"summary":"Belisarius crossed to Italy in spring 536 and besieged Naples, held by a Gothic garrison and its pro-Gothic citizens, including the Jewish community, for some twenty days. An Isaurian soldier found a dry aqueduct channel; 400 men crept through it, and the city was taken and sacked in November 536.",
-"loc":[14.25,40.85],"locName":"Neapolis (Naples)","locCertainty":"certain","war":"gothic_war_535","campaign":"belisarius_italy_535","people":["belisarius","procopius"],"polities":["rome_east","ostrogothic_kingdom"],
-"battle":{"sides":[{"polity":"rome_east","commanders":["belisarius"],"strength":"under 10,000","losses":"several hundred in assaults"},{"polity":"ostrogothic_kingdom","commanders":[],"strength":"c. 800 Goths plus citizens","losses":"city sacked; massacre of civilians"}],"victor":"rome_east","kind":"siege","significance":"The Goths deposed Theodahad for inaction and elected Witiges; Rome opened its gates to Belisarius on 9 December 536."},
-"sources":[{"a":"Procopius","w":"Wars","r":"5.8-5.10"}],"certainty":"certain","tags":["aqueduct"]},
-{"id":"siege_of_rome_537","year":537,"month":3,"endYear":538,"title":"Witiges besieges Rome","type":"siege","cats":["military","cultural"],"importance":5,
-"summary":"From March 537 to March 538 Witiges besieged Belisarius's 5,000 men in Rome with an army Procopius puts at 150,000. The Goths cut all fourteen aqueducts, ending Rome's baths and forcing the use of floating mills on the Tiber. Belisarius beat off a general assault on the Salarian and Praenestine gates, defenders on Hadrian's mausoleum hurled its statues on the attackers, and Roman horse-archers bled the Goths in repeated sorties. Witiges withdrew after a year and nine days.",
-"detail":"Procopius was inside the city and gives one of antiquity's most detailed siege narratives, including Belisarius's explanation of why mounted archers beat Gothic lancers and the deposition of Pope Silverius, accused of treason and replaced by Vigilius at Antonina's instigation. The siege broke when John, nephew of Vitalian, seized Ariminum in Witiges's rear. The cutting of the aqueducts is often taken as the end of ancient Rome's urban life; some, like the Aqua Traiana, were later restored.",
-"loc":[12.4924,41.8902],"locName":"Rome","locCertainty":"certain","war":"gothic_war_535","campaign":"belisarius_italy_535",
-"people":["belisarius","witiges","antonina","pope_vigilius","procopius"],"polities":["rome_east","ostrogothic_kingdom"],
-"battle":{"sides":[{"polity":"rome_east","commanders":["belisarius"],"strength":"c. 5,000, later reinforced by 1,600 Huns, Slavs and Antae and further troops","losses":"moderate"},{"polity":"ostrogothic_kingdom","commanders":["witiges"],"strength":"150,000 (Procopius, impossible); perhaps 25,000-30,000","losses":"heavy from sorties, disease and famine"}],"victor":"rome_east","kind":"siege","significance":"The decisive phase of the first Gothic war; it proved the superiority of Roman horse-archers over Gothic cavalry but devastated the city."},
-"sources":[{"a":"Procopius","w":"Wars","r":"5.18-6.10"},{"a":"Liber Pontificalis","w":"Liber Pontificalis","r":"60 (Silverius)"}],
-"scholarship":["Wolfram, History of the Goths (1988)","Heather, Rome Resurgent (2018)"],"certainty":"certain","tags":["aqueducts","Hadrian's mausoleum","floating mills"]},
-{"id":"siege_of_milan_538","year":538,"endYear":539,"title":"Siege and destruction of Milan","type":"siege","cats":["military"],"importance":3,
-"summary":"Milan's archbishop Datius invited the Romans in 538, and Belisarius sent 1,000 men under Mundilas. Goths under Uraias, reinforced by 10,000 Burgundians sent by the Frankish king Theudebert, besieged the city. The rivalry between Belisarius and Narses delayed relief; the garrison surrendered in early 539 and Procopius says 300,000 men of the city were massacred and the women given to the Burgundians.",
-"loc":[9.19,45.464],"locName":"Mediolanum (Milan)","locCertainty":"certain","war":"gothic_war_535","people":["belisarius","narses","witiges","procopius"],"polities":["ostrogothic_kingdom","burgundians","rome_east"],
-"battle":{"sides":[{"polity":"rome_east","commanders":[],"strength":"c. 1,000 under Mundilas plus citizens","losses":"garrison captured; city destroyed"},{"polity":"ostrogothic_kingdom","commanders":[],"strength":"Goths under Uraias with 10,000 Burgundians","losses":"unknown"}],"victor":"ostrogothic_kingdom","kind":"siege","significance":"The worst atrocity of the war; it led Justinian to recall Narses and restore Belisarius's sole command."},
-"sources":[{"a":"Procopius","w":"Wars","r":"6.7.35-38, 6.12, 6.21"},{"a":"Marius of Avenches","w":"Chronicle","r":"s.a. 538"}],"debate":"Procopius's 300,000 is impossible; it likely reflects the whole adult male population as a rhetorical figure.","certainty":"certain","tags":["Datius","Uraias"]},
-{"id":"siege_of_ravenna_539","year":539,"endYear":540,"title":"Belisarius takes Ravenna","type":"siege","cats":["military","political"],"importance":4,
-"summary":"After taking Fiesole and Auximum, Belisarius blockaded Witiges in Ravenna in late 539; a fire destroyed the Gothic grain stores. The Goths offered to make Belisarius emperor of the West. He feigned acceptance, entered Ravenna in May 540 and took Witiges, his wife Matasuntha and the royal treasure to Constantinople, where Witiges became a patrician.",
-"loc":[12.199,44.418],"locName":"Ravenna","locCertainty":"certain","war":"gothic_war_535","campaign":"belisarius_italy_535","people":["belisarius","witiges","justinian_i","procopius"],"polities":["rome_east","ostrogothic_kingdom"],
-"battle":{"sides":[{"polity":"rome_east","commanders":["belisarius"],"strength":"Roman field army in Italy","losses":"light"},{"polity":"ostrogothic_kingdom","commanders":["witiges"],"strength":"Gothic court and army","losses":"capitulated"}],"victor":"rome_east","kind":"siege","significance":"Apparently ended the war; but Justinian, alarmed by Persia and suspicious of Belisarius, recalled him before the north was secured, and the Goths rallied under Ildibad and Totila."},
-"sources":[{"a":"Procopius","w":"Wars","r":"6.28-6.30"}],"debate":"Justinian had offered terms leaving the Goths north of the Po; Belisarius refused to sign them, preferring total victory. Whether he was ever tempted by the crown is unknowable.","certainty":"certain","tags":["Matasuntha"]},
-{"id":"sack_of_antioch_540","year":540,"month":6,"title":"Khosrow I sacks Antioch","type":"siege","cats":["military","economic"],"importance":4,
-"summary":"Encouraged by Witiges's envoys and alarmed by Roman success, Khosrow I broke the Eternal Peace in spring 540, burned Sura, ransomed Hierapolis and Beroea, and took Antioch in June after its 6,000 troops fled. The city was looted and burned, its population deported to a new city near Ctesiphon, Weh Antiok Khosrow ('Better than Antioch, Khosrow built this'), with its own hippodrome.",
-"loc":[36.16,36.20],"locName":"Antioch","locCertainty":"certain","war":"lazic_war","campaign":"khosrow_antioch_540","people":["khosrow_i","justinian_i","procopius"],"polities":["sasanian","rome_east"],
-"battle":{"sides":[{"polity":"rome_east","commanders":[],"strength":"6,000 soldiers sent under Theoctistus and Molatzes, plus circus faction youths","losses":"city taken; many civilians killed or deported"},{"polity":"sasanian","commanders":["khosrow_i"],"strength":"Persian royal army","losses":"light"}],"victor":"sasanian","kind":"siege","significance":"The worst humiliation of Justinian's reign; it began twenty years of war and showed Persia could strike the heart of Roman Syria."},
-"sources":[{"a":"Procopius","w":"Wars","r":"2.5-2.14"},{"a":"Evagrius","w":"Ecclesiastical History","r":"4.25"}],"certainty":"certain","tags":["Weh Antiok Khosrow","Rumagan"]},
-{"id":"justinianic_plague_541","year":541,"month":7,"title":"Outbreak of the Justinianic Plague","type":"plague","cats":["disaster","social","economic"],"importance":5,
-"summary":"Bubonic plague appeared at Pelusium in Egypt in July 541, spread along shipping routes and reached Constantinople in spring 542, where Procopius says it killed 5,000 and then 10,000 or more a day for four months. Justinian himself caught it and recovered. Recurring waves struck the Mediterranean every 10-20 years until about 750.",
-"detail":"Procopius, imitating Thucydides, describes the buboes, delirium and coma; bodies were stacked in the towers of Sykai across the Golden Horn. John of Ephesus describes corpses in the streets, and Evagrius, who caught the disease as a child and lost children and grandchildren in later waves, writes of fifteen years of recurrence. Ancient DNA from Bavarian cemeteries (Aschheim, Altenerding) has confirmed Yersinia pestis. The debate now is about scale: maximalists (Little, Harper, McCormick) see mortality of 25-50% with lasting demographic and fiscal consequences; minimalists (Mordechai, Eisenberg and colleagues, 2019) argue that papyri, coinage, legislation and inscriptions show no sharp break. Justinian's Novel 122 (544) tried to cap wages and prices that had soared after the plague.",
-"loc":[32.57,31.04],"locName":"Pelusium, then Constantinople","locCertainty":"certain","people":["justinian_i","procopius","evagrius_scholasticus"],"polities":["rome_east","sasanian","ostrogothic_kingdom"],
-"sources":[{"a":"Procopius","w":"Wars","r":"2.22-2.23"},{"a":"Evagrius","w":"Ecclesiastical History","r":"4.29"},{"a":"John of Ephesus","w":"Ecclesiastical History (via Pseudo-Dionysius of Tel-Mahre)"},{"a":"Novellae","w":"Novels","r":"122"}],
-"scholarship":["Little (ed.), Plague and the End of Antiquity (2007)","Harbeck et al., 'Yersinia pestis DNA from skeletal remains from the 6th century AD', PLoS Pathogens 9 (2013)","Wagner et al., 'Yersinia pestis and the Plague of Justinian 541-543 AD', Lancet Infectious Diseases 14 (2014)","Mordechai et al., 'The Justinianic Plague: an inconsequential pandemic?', PNAS 116 (2019)","Harper, The Fate of Rome (2017)"],
-"certainty":"certain","tags":["Yersinia pestis","Sykai","first pandemic"]},
-{"id":"end_of_the_consulship_541","year":541,"title":"Last ordinary consul: Basilius","type":"constitutional","cats":["constitutional","political"],"importance":2,
-"summary":"Anicius Faustus Albinus Basilius, consul in 541, was the last private citizen to hold the ordinary consulship, an office dating from 509 BC. Justinian let it lapse, partly because of its ruinous cost in games and largesse; thereafter the title was absorbed into the emperor's regalia. The West's last consul had been Paulinus in 534.",
-"loc":[28.98,41.01],"locName":"Constantinople","locCertainty":"certain","people":["justinian_i","procopius"],"polities":["rome_east"],
-"sources":[{"a":"Procopius","w":"Secret History","r":"26.12-15"},{"a":"Novellae","w":"Novels","r":"105 (537)"}],
-"debate":"Novel 105 (537) had already regulated and limited consular spending. Dating by post-consulate of Basilius continued for decades in the West.","certainty":"certain","tags":["consulship","fasti"]},
-{"id":"election_of_totila_541","year":541,"title":"Totila becomes king of the Goths","type":"accession","cats":["political","military"],"importance":3,
-"summary":"After the murders of Ildibad and Eraric, the Goths in the north chose Baduila, known in Greek sources as Totila, nephew of Ildibad, in autumn 541. He won over peasants and slaves by targeting senatorial landlords and treating captured Roman soldiers well, and in five years undid most of Belisarius's conquest.",
-"loc":[12.0,45.3],"locName":"Tarvisium (Treviso)","locCertainty":"probable","war":"gothic_war_535","people":["totila","procopius"],"polities":["ostrogothic_kingdom"],
-"sources":[{"a":"Procopius","w":"Wars","r":"7.2"}],"debate":"Whether Totila pursued a deliberate 'social revolution' (older Marxist readings) or simply exploited Roman fiscal oppression is debated.","certainty":"certain","tags":["Baduila"]},
-{"id":"battle_of_faventia_542","year":542,"title":"Battle of Faventia","type":"battle","cats":["military"],"importance":2,
-"summary":"Eleven Roman generals with 12,000 men, lacking a commander-in-chief after Belisarius's recall, failed to take Verona and were defeated by Totila's 5,000 near Faventia (Faenza) in spring 542, when a flank attack by 300 Gothic horsemen panicked them. Totila then defeated another army at Mucellium and marched south.",
-"loc":[11.88,44.29],"locName":"Faventia (Faenza)","locCertainty":"probable","war":"gothic_war_535","people":["totila","procopius"],"polities":["ostrogothic_kingdom","rome_east"],
-"battle":{"sides":[{"polity":"rome_east","commanders":[],"strength":"12,000 under eleven commanders (Procopius)","losses":"heavy; standards captured"},{"polity":"ostrogothic_kingdom","commanders":["totila"],"strength":"5,000 (Procopius)","losses":"light"}],"victor":"ostrogothic_kingdom","kind":"field","significance":"Showed the cost of divided command and let Totila retake central and southern Italy."},
-"sources":[{"a":"Procopius","w":"Wars","r":"7.3-7.5"}],"certainty":"probable","tags":["Artabazes"]},
-{"id":"jacob_baradaeus_ordinations_542","year":542,"title":"Jacob Baradaeus builds the miaphysite hierarchy","type":"religious","cats":["religious"],"importance":3,
-"summary":"Consecrated bishop of Edessa around 542 at the request of the Ghassanid king al-Harith and with Theodora's protection, Jacob Baradaeus ('the ragged') travelled in disguise across Syria, Asia Minor and Egypt, ordaining, according to John of Ephesus, two patriarchs, 27 bishops and up to 100,000 clergy. He made the anti-Chalcedonians a separate church, later called 'Jacobite' (the Syriac Orthodox Church).",
-"loc":[38.79,37.15],"locName":"Edessa and Syria","locCertainty":"approx","people":["theodora","justinian_i"],"polities":["rome_east","ghassanids"],
-"sources":[{"a":"John of Ephesus","w":"Lives of the Eastern Saints","r":"49-50"}],"scholarship":["Frend, The Rise of the Monophysite Movement (1972)","Menze, Justinian and the Making of the Syrian Orthodox Church (2008)"],"debate":"The numbers are hagiographical; the date of his consecration is 542 or 544.","certainty":"probable","tags":["Jacobites","Theodora"]},
-{"id":"battle_of_anglon","year":543,"title":"Battle of Anglon","type":"battle","cats":["military"],"importance":3,
-"summary":"Taking advantage of plague in Persia, a Roman army of some 30,000 under multiple commanders invaded Persarmenia without unified command. At Anglon, near Dvin, Nabedes with only 4,000 men laid an ambush in a village and ravine; the disordered Roman columns were routed with heavy losses. Procopius calls it the greatest Roman disaster yet.",
-"loc":[43.3,39.6],"locName":"Anglon, Persarmenia","locCertainty":"disputed","war":"lazic_war","people":["procopius","khosrow_i"],"polities":["rome_east","sasanian"],
-"battle":{"sides":[{"polity":"rome_east","commanders":[],"strength":"c. 30,000 under Martin, Valerian, Peter, Isaac and others","losses":"very heavy; Narses the Persarmenian killed"},{"polity":"sasanian","commanders":[],"strength":"4,000 under Nabedes (Procopius)","losses":"light"}],"victor":"sasanian","kind":"ambush","significance":"Ended the Roman counter-offensive of 543 and confirmed the danger of divided command."},
-"sources":[{"a":"Procopius","w":"Wars","r":"2.24-2.25"}],"debate":"Location uncertain; Procopius's numbers emphasise the shame of defeat.","certainty":"probable","tags":["Nabedes"]},
-{"id":"siege_of_edessa_544","year":544,"title":"Siege of Edessa","type":"siege","cats":["military","religious","technology"],"importance":3,
-"summary":"Khosrow besieged Edessa in 544, building a huge timber-and-earth mound against the walls. The defenders tunnelled under it and set fire to the timbers inside, using sulphur, bitumen and cedar oil; the mound burned for days. A final assault failed and Khosrow accepted 500 lbs of gold. Evagrius later credited a miracle-working image of Christ (the Mandylion), unmentioned by Procopius.",
-"loc":[38.79,37.15],"locName":"Edessa (Şanlıurfa)","locCertainty":"certain","war":"lazic_war","people":["khosrow_i","procopius","evagrius_scholasticus"],"polities":["sasanian","rome_east"],
-"battle":{"sides":[{"polity":"rome_east","commanders":[],"strength":"garrison under Martin and Peter with citizens","losses":"moderate"},{"polity":"sasanian","commanders":["khosrow_i"],"strength":"Persian royal army","losses":"heavy in assaults"}],"victor":"rome_east","kind":"siege","significance":"Persia's failure here led to the five-year truce of 545 (Rome paid 2,000 lbs of gold) covering Mesopotamia, though not Lazica."},
-"sources":[{"a":"Procopius","w":"Wars","r":"2.26-2.27"},{"a":"Evagrius","w":"Ecclesiastical History","r":"4.27"}],"debate":"A classic example of later legend (the Mandylion, or 'image not made by hands') growing onto a sober contemporary account.","certainty":"certain","tags":["Mandylion","siege mound"]},
-{"id":"battle_of_cillium_544","year":544,"title":"Battle of Cillium: death of Solomon","type":"battle","cats":["military"],"importance":2,
-"summary":"After Solomon's nephew Sergius murdered 80 Leuathae (Laguatan) envoys at Leptis Magna, the Moors of Tripolitania and Byzacena under Antalas rose. Solomon, prefect and magister of Africa, attacked them near Cillium in 544 with mutinous troops and was killed when his horse fell in a ravine.",
-"loc":[8.83,35.17],"locName":"Cillium (Kasserine)","locCertainty":"probable","war":"moorish_wars_534","people":["solomon_eunuch","procopius"],"polities":["rome_east","moors"],
-"battle":{"sides":[{"polity":"rome_east","commanders":["solomon_eunuch"],"strength":"African field army, partly disaffected","losses":"Solomon killed"},{"polity":"moors","commanders":[],"strength":"Moors of Byzacena under Antalas and Laguatan","losses":"unknown"}],"victor":"moors","kind":"field","significance":"Plunged Roman Africa into four years of war and mutiny."},
-"sources":[{"a":"Procopius","w":"Wars","r":"4.21-4.22"},{"a":"Corippus","w":"Iohannis","r":"3"}],"certainty":"certain","tags":["Antalas","Laguatan"]},
-{"id":"totila_takes_rome_546","year":546,"month":12,"day":17,"title":"Totila captures Rome","type":"siege","cats":["military"],"importance":3,
-"summary":"After a long blockade in which Belisarius's relief attempt at Portus failed, Isaurian sentries opened the Asinarian Gate to Totila on the night of 17 December 546. Totila wrote to Justinian threatening to destroy Rome; Belisarius urged him not to destroy the world's greatest city. Totila tore down a third of the walls and left the city almost empty; Belisarius reoccupied it in spring 547.",
-"loc":[12.513,41.884],"locName":"Porta Asinaria, Rome","locCertainty":"certain","war":"gothic_war_535","people":["totila","belisarius","procopius"],"polities":["ostrogothic_kingdom","rome_east"],
-"battle":{"sides":[{"polity":"rome_east","commanders":[],"strength":"garrison of 3,000 under Bessas","losses":"garrison fled"},{"polity":"ostrogothic_kingdom","commanders":["totila"],"strength":"Gothic army","losses":"light"}],"victor":"ostrogothic_kingdom","kind":"siege","significance":"Rome changed hands for the second time in the war; Procopius claims only 500 inhabitants remained."},
-"sources":[{"a":"Procopius","w":"Wars","r":"7.13-7.22"},{"a":"Liber Pontificalis","w":"Liber Pontificalis","r":"61 (Vigilius)"}],"debate":"The '40 days with no living creature in Rome' (Marcellinus Comes, continuator) is rhetorical.","certainty":"certain","tags":["Bessas"]},
-{"id":"san_vitale_consecrated_547","year":547,"title":"Consecration of San Vitale, Ravenna","type":"building","cats":["cultural","religious"],"importance":3,
-"summary":"Begun under Ostrogothic rule with money from the banker Julianus Argentarius, the octagonal church of San Vitale in Ravenna was consecrated by Archbishop Maximian in 547 or 548. Its apse mosaics show Justinian and Theodora with their courts bearing offerings, the most famous images of the two rulers, neither of whom ever visited Ravenna.",
-"loc":[12.196,44.420],"locName":"San Vitale, Ravenna","locCertainty":"certain","people":["justinian_i","theodora"],"polities":["rome_east"],
-"sources":[{"a":"Agnellus","w":"Liber Pontificalis Ecclesiae Ravennatis","r":"57-59, 77"}],"scholarship":["Deliyannis, Ravenna in Late Antiquity (2010)"],"certainty":"certain","tags":["Julianus Argentarius","Maximian"]},
-{"id":"battle_of_campi_catonis_548","year":548,"title":"Battle of the Campi Catonis","type":"battle","cats":["military"],"importance":2,
-"summary":"John Troglita, sent to Africa in 546, was defeated by the Laguatan under Carcasan at Marta in 547, but in summer 548 crushed the Moorish coalition at the Fields of Cato; Carcasan and 17 chieftains were killed. The victory brought Roman Africa fifteen years of peace and is the climax of Corippus's Latin epic, the Iohannis.",
-"loc":[10.0,35.3],"locName":"Campi Catonis, Byzacena","locCertainty":"disputed","war":"moorish_wars_534","people":["john_troglita","procopius"],"polities":["rome_east","moors"],
-"battle":{"sides":[{"polity":"rome_east","commanders":["john_troglita"],"strength":"Roman army with loyal Moorish allies under Cusina","losses":"unknown"},{"polity":"moors","commanders":[],"strength":"Laguatan and Byzacene Moors under Carcasan and Antalas","losses":"heavy; Carcasan killed"}],"victor":"rome_east","kind":"field","significance":"Ended the Moorish wars; Africa remained relatively prosperous under Roman rule until the 640s."},
-"sources":[{"a":"Corippus","w":"Iohannis","r":"8"},{"a":"Procopius","w":"Wars","r":"8.17.20-22"}],"certainty":"probable","tags":["Corippus","Carcasan"]},
-{"id":"death_of_theodora_548","year":548,"month":6,"day":28,"title":"Death of Theodora","type":"death","cats":["political"],"importance":3,
-"summary":"The empress Theodora died on 28 June 548, probably of cancer, aged about 48. Former actress, daughter of a bear-keeper of the Greens, she had been Justinian's partner in government, protector of the anti-Chalcedonians and the moving force, according to Procopius, behind the fall of John the Cappadocian in 541.",
-"loc":[28.98,41.01],"locName":"Constantinople","locCertainty":"certain","people":["theodora","justinian_i","procopius","john_the_cappadocian"],"polities":["rome_east"],
-"sources":[{"a":"Victor of Tunnuna","w":"Chronicle","r":"s.a. 549"},{"a":"Procopius","w":"Wars","r":"7.30.4"}],"debate":"Victor of Tunnuna's 'cancer' (cancri plaga) may be literal or metaphorical.","certainty":"certain","tags":[]},
-{"id":"totila_retakes_rome_550","year":550,"month":1,"day":16,"title":"Totila retakes Rome","type":"siege","cats":["military"],"importance":2,
-"summary":"After Belisarius's recall in 549, Totila besieged Rome again; Isaurian soldiers unpaid for years opened the Gate of St Paul on 16 January 550. This time Totila repopulated the city, restored buildings, and held chariot races in the Circus Maximus, the last recorded there.",
-"loc":[12.48,41.876],"locName":"Porta Ostiensis (St Paul's Gate), Rome","locCertainty":"certain","war":"gothic_war_535","people":["totila","procopius"],"polities":["ostrogothic_kingdom","rome_east"],
-"battle":{"sides":[{"polity":"rome_east","commanders":[],"strength":"garrison of 3,000 under Diogenes","losses":"most killed or surrendered"},{"polity":"ostrogothic_kingdom","commanders":["totila"],"strength":"Gothic army","losses":"light"}],"victor":"ostrogothic_kingdom","kind":"siege","significance":"The Gothic recovery's high-water mark; Totila sent envoys seeking peace, which Justinian refused."},
-"sources":[{"a":"Procopius","w":"Wars","r":"7.36-7.37"}],"certainty":"certain","tags":["Circus Maximus"]},
-{"id":"jordanes_getica_551","year":551,"title":"Jordanes writes the Getica","type":"literary","cats":["literature"],"importance":3,
-"summary":"At Constantinople in 551, Jordanes, a Latin-speaking official of Gothic descent, wrote De origine actibusque Getarum, a short summary of Cassiodorus's lost twelve-book Gothic History, which he claims to have had for only three days. It is our main narrative source for Gothic origins, the Catalaunian Plains and Attila's death, and ends by celebrating the union of Amal blood with the Anicii in Germanus's son.",
-"loc":[28.98,41.01],"locName":"Constantinople","locCertainty":"certain","people":["jordanes","cassiodorus","germanus_patricius"],"polities":["rome_east"],
-"sources":[{"a":"Jordanes","w":"Getica","r":"1-3, 314-316"}],"debate":"How much is Cassiodorus, how much Jordanes, and how much invention is endlessly debated. Goffart sees a pro-imperial work with a political agenda; Heather and Wolfram trust some oral Gothic traditions in it; Christensen doubts nearly all of the early migration story.","scholarship":["Goffart, The Narrators of Barbarian History (1988)","Christensen, Cassiodorus, Jordanes and the History of the Goths (2002)","Heather, Goths and Romans (1991)"],"certainty":"certain","tags":["Cassiodorus","Scandza"]},
-{"id":"secret_history_550","year":550,"title":"Procopius writes the Secret History","type":"literary","cats":["literature","political"],"importance":4,
-"summary":"Around 550 Procopius wrote, but did not publish, the Anekdota, a savage attack on Justinian and Theodora as demons who destroyed the empire, with pornographic slander of Theodora's youth, and on Belisarius and Antonina. Its text surfaced in the Vatican Library and was first printed by Niccolò Alemanni in 1623.",
-"detail":"The Secret History's relation to Procopius's other works is a central problem. In the Wars (books 1-7 published c. 551) he is critical but restrained; in the Buildings he praises Justinian extravagantly. Some once doubted Procopius wrote the Anekdota at all; that is no longer held. Kaldellis reads all three as a coherent classicising, subtly subversive oeuvre; Cameron saw a conventional mind; Greatrex supports a 550 date against a 558/559 dating. Its fiscal and administrative information, if hostile, often matches the Novels and papyri.",
-"loc":[28.98,41.01],"locName":"Constantinople","locCertainty":"certain","people":["procopius","justinian_i","theodora","belisarius","antonina"],"polities":["rome_east"],
-"sources":[{"a":"Procopius","w":"Secret History","r":"1.1-3, 12.14-32"}],
-"scholarship":["Cameron, Procopius and the Sixth Century (1985)","Kaldellis, Procopius of Caesarea: Tyranny, History and Philosophy at the End of Antiquity (2004)","Greatrex, 'The dates of Procopius' works', BMGS 18 (1994)"],"certainty":"probable","tags":["Anekdota","Alemanni"]},
-{"id":"battle_of_sena_gallica_551","year":551,"title":"Battle of Sena Gallica","type":"naval","cats":["military"],"importance":3,
-"summary":"Off Sena Gallica in autumn 551, a Roman fleet of 50 ships under John, nephew of Vitalian, and the Lombard-friendly Valerian met 47 Gothic ships besieging Ancona. Roman crews kept formation while the Goths crowded and fouled one another; 36 Gothic ships were lost, ending Totila's naval power in the Adriatic.",
-"loc":[13.30,43.75],"locName":"Off Sena Gallica (Senigallia), Adriatic","locCertainty":"approx","war":"gothic_war_535","people":["procopius","totila"],"polities":["rome_east","ostrogothic_kingdom"],
-"battle":{"sides":[{"polity":"rome_east","commanders":[],"strength":"50 warships under John and Valerian","losses":"light"},{"polity":"ostrogothic_kingdom","commanders":[],"strength":"47 warships under Indulf and Gibal","losses":"36 ships"}],"victor":"rome_east","kind":"naval","significance":"Restored Roman control of the Adriatic, protecting the supply route for Narses's offensive."},
-"sources":[{"a":"Procopius","w":"Wars","r":"8.23"}],"certainty":"certain","tags":["Ancona"]},
-{"id":"silkworms_smuggled_552","year":552,"title":"Silkworm eggs smuggled to Constantinople","type":"economic","cats":["economic","technology"],"importance":3,
-"summary":"Procopius records that monks from 'Serinda', perhaps Sogdiana or Khotan, offered to bring silkworms to Justinian to free the empire from buying silk through Persia, and returned with eggs hidden, according to Theophanes of Byzantium, in a hollow cane. A Byzantine sericulture industry grew, though imports from the East continued.",
-"loc":[28.98,41.01],"locName":"Constantinople","locCertainty":"certain","people":["justinian_i","procopius"],"polities":["rome_east"],
-"sources":[{"a":"Procopius","w":"Wars","r":"8.17.1-8"},{"a":"Theophanes of Byzantium","w":"History","r":"fr. 3 (in Photius, Bibliotheca 64)"}],"debate":"Date c. 552-553; Serinda's identification is uncertain.","certainty":"probable","tags":["sericulture","Serinda"]},
-{"id":"spania_founded_552","year":552,"title":"Roman expedition to Spain: Spania","type":"campaign","cats":["military","political"],"importance":3,
-"summary":"Invited by the Visigothic rebel Athanagild against King Agila, Justinian sent the octogenarian patrician Liberius with a small force in 552. When Athanagild won the throne in 555, the Romans kept a coastal strip from about Cartagena to Malaga and the lower Guadalquivir, the province of Spania, under a magister militum, held until about 624.",
-"loc":[-0.98,37.60],"locName":"Carthago Nova (Cartagena)","locCertainty":"approx","war":"spanish_war_552","people":["justinian_i"],"polities":["rome_east","visigothic_kingdom"],
-"sources":[{"a":"Isidore of Seville","w":"History of the Goths","r":"46-47"},{"a":"Jordanes","w":"Getica","r":"303"}],"debate":"Spania's extent is debated; Corduba and the interior may never have been Roman. An inscription of 589/590 at Cartagena names the magister Comentiolus.","scholarship":["Collins, Visigothic Spain 409-711 (2004)","Wood, 'Defending Byzantine Spain', Early Medieval Europe 18 (2010)"],"certainty":"probable","tags":["Liberius","Athanagild"]},
-{"id":"battle_of_taginae","year":552,"month":7,"title":"Battle of Busta Gallorum (Taginae)","type":"battle","cats":["military"],"importance":5,
-"summary":"Narses, marching from Ravenna along the Via Flaminia with some 20,000-30,000 men, met Totila at Busta Gallorum near Taginae in the Apennines in late June or July 552. He placed dismounted Lombard and Herul heavy infantry in the centre and 8,000 foot archers on the wings angled forward. Totila delayed, performing a war dance on horseback in gilded armour while waiting for 2,000 reinforcements, then launched a cavalry charge into the crescent of archers. The Gothic horse were shot down, the infantry fled, and Totila was mortally wounded in the rout.",
-"detail":"Procopius's account is detailed and coherent, and reflects a new Roman tactical style: combined arms with dismounted heavy cavalry as a shield wall and massed archery. Totila had reportedly forbidden his men to use bows or spears other than lances. About 6,000 Goths died. Narses's army included 5,500 Lombards sent by Audoin, 3,000 Heruli, 400 Gepids, Huns and Persian deserters; he dismissed the Lombards after the victory for their savagery. Rome was retaken soon after, for the fifth time in the war (Procopius 8.33.27).",
-"loc":[12.78,43.23],"locName":"Busta Gallorum, near Taginae (Gualdo Tadino), Umbria","locCertainty":"probable","war":"gothic_war_535","campaign":"narses_italy_552",
-"people":["narses","totila","procopius"],"polities":["rome_east","lombards","heruli","ostrogothic_kingdom"],
-"battle":{"sides":[{"polity":"rome_east","commanders":["narses"],"strength":"perhaps 20,000-30,000 incl. 5,500 Lombards, 3,000 Heruli, Gepids and Huns","losses":"light"},{"polity":"ostrogothic_kingdom","commanders":["totila"],"strength":"perhaps 15,000-20,000","losses":"c. 6,000 killed; Totila killed"}],"victor":"rome_east","kind":"field","significance":"Broke the Ostrogothic kingdom; the remaining Goths could no longer field a royal army capable of winning a pitched battle."},
-"sources":[{"a":"Procopius","w":"Wars","r":"8.29-8.32"}],
-"debate":"The name Busta Gallorum ('tombs of the Gauls') recalls the battle of Sentinum (295 BC); the exact field is disputed (Gualdo Tadino plain vs other sites near Fabriano/Scheggia). Rance analyses Narses's tactics as informed by the Persian-front experience.",
-"scholarship":["Rance, 'Narses and the Battle of Taginae (Busta Gallorum) 552', Historia 54 (2005)"],"certainty":"certain","tags":["Busta Gallorum","war dance","dismounted cavalry"]},
-{"id":"battle_of_mons_lactarius","year":552,"month":10,"title":"Battle of Mons Lactarius","type":"battle","cats":["military"],"importance":4,
-"summary":"Teia, Totila's successor, marched south to relieve his brother Aligern guarding the Gothic treasure at Cumae and held the Sarno river for two months until Roman ships cut his supplies. Withdrawing to Mons Lactarius, the Goths attacked on foot in a desperate two-day battle in October 552 (or early 553). Teia fought in the front rank until killed while changing a shield heavy with twelve spears. The survivors were allowed to leave Italy.",
-"loc":[14.57,40.71],"locName":"Mons Lactarius (Monti Lattari), near Nuceria","locCertainty":"probable","war":"gothic_war_535","campaign":"narses_italy_552","people":["narses","teia","procopius","agathias"],"polities":["rome_east","ostrogothic_kingdom"],
-"battle":{"sides":[{"polity":"rome_east","commanders":["narses"],"strength":"Roman field army","losses":"significant"},{"polity":"ostrogothic_kingdom","commanders":["teia"],"strength":"last Gothic army","losses":"heavy; Teia killed"}],"victor":"rome_east","kind":"field","significance":"End of the Ostrogothic monarchy, where Procopius ends his Wars."},
-"sources":[{"a":"Procopius","w":"Wars","r":"8.35"},{"a":"Agathias","w":"Histories","r":"1.1, 1.8"}],"certainty":"certain","tags":["Teia","Cumae"]},
-{"id":"second_council_of_constantinople_553","year":553,"month":5,"day":5,"title":"Second Council of Constantinople (Fifth Ecumenical)","type":"religious","cats":["religious","political"],"importance":3,
-"summary":"Hoping to reconcile the anti-Chalcedonians, Justinian had condemned the 'Three Chapters' (the person and works of Theodore of Mopsuestia and some writings of Theodoret and Ibas) in 543/544. The council of 5 May-2 June 553, of some 160 bishops, confirmed the condemnation and struck Pope Vigilius, held in Constantinople since 547 and refusing to attend, from the diptychs. Vigilius gave in later that year.",
-"loc":[28.98,41.01],"locName":"Constantinople, Hagia Sophia","locCertainty":"certain","people":["justinian_i","pope_vigilius"],"polities":["rome_east"],
-"sources":[{"a":"Acta Conciliorum Oecumenicorum","w":"ACO IV.1"},{"a":"Evagrius","w":"Ecclesiastical History","r":"4.38"}],
-"debate":"The council failed to win the miaphysites and caused a schism with Aquileia and Milan (the Schism of the Three Chapters) lasting until 698. Whether the anathemas against Origen belong to this council is disputed.","scholarship":["Price, The Acts of the Council of Constantinople of 553 (2009)"],"certainty":"certain","tags":["Three Chapters","Iudicatum"]},
-{"id":"battle_of_the_volturnus_554","year":554,"title":"Battle of the Volturnus (Casilinum)","type":"battle","cats":["military"],"importance":4,
-"summary":"Two Alamannic brothers serving the Franks, Butilinus and Leutharis, invaded Italy in 553 with a large army and raided to the Straits. Leutharis's column, laden with plunder, perished of disease on the way home. Narses met Butilinus on the Volturnus at Casilinum near Capua in autumn 554, enveloping the Frankish wedge of infantry between his cavalry wings while Herul foot held the centre. Agathias says only five of the enemy escaped.",
-"loc":[14.21,41.10],"locName":"Casilinum on the Volturnus, near Capua","locCertainty":"probable","war":"gothic_war_535","people":["narses","agathias"],"polities":["rome_east","heruli","frankish_kingdom","alamanni"],
-"battle":{"sides":[{"polity":"rome_east","commanders":["narses"],"strength":"18,000 (Agathias)","losses":"80 killed (Agathias)"},{"polity":"frankish_kingdom","commanders":[],"strength":"30,000 Franks and Alamanni under Butilinus (Agathias)","losses":"almost total (Agathias)"}],"victor":"rome_east","kind":"field","significance":"Ended Frankish attempts to take over Italy after the Goths and made Narses master of the peninsula until 568."},
-"sources":[{"a":"Agathias","w":"Histories","r":"2.4-2.10"}],"debate":"Agathias's numbers and the near-total annihilation are Herodotean exaggerations, but the battle was clearly decisive.","certainty":"certain","tags":["Butilinus","Leutharis","wedge"]},
-{"id":"pragmatic_sanction_554","year":554,"month":8,"day":13,"title":"Pragmatic Sanction for Italy","type":"law","cats":["law","administrative"],"importance":3,
-"summary":"Issued on 13 August 554 at Pope Vigilius's request, the Pragmatic Sanction extended Justinian's legislation to Italy, confirmed the acts of the Gothic kings before Totila but annulled Totila's, restored lands and slaves to their former owners, and gave bishops and notables a role in choosing provincial governors.",
-"loc":[28.98,41.01],"locName":"Constantinople","locCertainty":"certain","people":["justinian_i","pope_vigilius","narses"],"polities":["rome_east"],
-"sources":[{"a":"Novellae","w":"Appendix 7 (Pragmatica sanctio pro petitione Vigilii)"}],"certainty":"certain","tags":["Totila's acts annulled"]},
-{"id":"siege_of_petra_551","year":551,"title":"Bessas storms Petra in Lazica","type":"siege","cats":["military"],"importance":3,
-"summary":"The Persian-held coastal fortress of Petra in Lazica, besieged without success by Dagisthaeus in 549, was stormed in spring 551 by the aged general Bessas, who led the assault personally. Procopius describes the Roman engineers' light rams carried by men inside, Persian incendiaries of sulphur and bitumen, and the final escalade. The Romans razed the walls.",
-"loc":[41.75,41.77],"locName":"Petra (Tsikhisdziri), Lazica","locCertainty":"probable","war":"lazic_war","people":["procopius"],"polities":["rome_east","sasanian","colchis"],
-"battle":{"sides":[{"polity":"rome_east","commanders":[],"strength":"c. 6,000 under Bessas with Lazic allies","losses":"significant"},{"polity":"sasanian","commanders":[],"strength":"2,300 Persian garrison","losses":"almost all killed or captured; 500 burned in the citadel"}],"victor":"rome_east","kind":"siege","significance":"Turned the Lazic War in Rome's favour on the Black Sea coast."},
-"sources":[{"a":"Procopius","w":"Wars","r":"8.11-8.12"}],"certainty":"certain","tags":["Bessas","rams"]},
-{"id":"siege_of_phasis_555","year":555,"title":"Siege of Phasis","type":"siege","cats":["military"],"importance":2,
-"summary":"After the Roman generals murdered the Lazic king Gubazes in 555 and nearly lost Lazica's loyalty, the Persian commander Nachoragan besieged Phasis at the mouth of the Rioni. Martin and the young officer Justin, son of Germanus, defended it; a sortie routed the Persians. Agathias's account includes a ruse in which Martin faked the arrival of reinforcements.",
-"loc":[41.67,42.15],"locName":"Phasis (Poti), Lazica","locCertainty":"probable","war":"lazic_war","people":["agathias"],"polities":["rome_east","sasanian","colchis"],
-"battle":{"sides":[{"polity":"rome_east","commanders":[],"strength":"Roman garrison and fleet under Martin","losses":"light"},{"polity":"sasanian","commanders":[],"strength":"60,000 (Agathias, inflated) under Nachoragan","losses":"heavy"}],"victor":"rome_east","kind":"siege","significance":"Persia's last major offensive in Lazica; a truce followed in 557. Nachoragan was flayed alive by Khosrow."},
-"sources":[{"a":"Agathias","w":"Histories","r":"3.19-3.28"}],"certainty":"certain","tags":["Gubazes","Martin"]},
-{"id":"avar_embassy_558","year":558,"title":"First Avar embassy to Constantinople","type":"diplomacy","cats":["diplomatic"],"importance":3,
-"summary":"Fleeing the Turks, the Avars reached the Caucasus and, through the Alan king Sarosius, sent an envoy named Kandikh to Justinian in 557/558. Their wild appearance, with hair in long braids, caused a sensation. Justinian granted gifts and subsidies and used them against the Kutrigurs, Utigurs and Sabirs, a policy that soon brought them to the Danube.",
-"loc":[28.98,41.01],"locName":"Constantinople","locCertainty":"certain","people":["justinian_i","menander_protector"],"polities":["avars","rome_east","alans"],
-"sources":[{"a":"Menander Protector","w":"History","r":"fr. 5.1-2 (Blockley)"},{"a":"Agathias","w":"Histories","r":"5.25"},{"a":"Theophanes","w":"Chronicle","r":"AM 6050"}],"scholarship":["Pohl, The Avars: A Steppe Empire in Central Europe 567-822 (2018)"],"certainty":"certain","tags":["Kandikh","Sarosius"]},
-{"id":"battle_of_melantias_559","year":559,"title":"Belisarius's last victory: Melantias","type":"battle","cats":["military"],"importance":3,
-"summary":"In winter 558/559 the Kutrigur Huns under Zabergan crossed the frozen Danube and split into three columns, one reaching Melantias 30 km from Constantinople. The retired Belisarius, with 300 veterans and a mass of peasants and townsmen, laid an ambush in a wooded valley near the village of Chettus, making noise and dust to simulate a large army; the Kutrigurs fled.",
-"loc":[28.58,41.02],"locName":"Melantias and Chettus, near Constantinople","locCertainty":"approx","people":["belisarius","agathias","justinian_i"],"polities":["rome_east","kutrigurs_utigurs"],
-"battle":{"sides":[{"polity":"rome_east","commanders":["belisarius"],"strength":"300 veterans plus civilians","losses":"none recorded"},{"polity":"kutrigurs_utigurs","commanders":[],"strength":"2,000 Kutrigur horsemen of Zabergan's column","losses":"c. 400 (Agathias)"}],"victor":"rome_east","kind":"ambush","significance":"Saved the capital's suburbs; Justinian then paid the Kutrigurs to leave and set the Utigurs against them."},
-"sources":[{"a":"Agathias","w":"Histories","r":"5.15-5.20"},{"a":"Theophanes","w":"Chronicle","r":"AM 6051"}],"certainty":"certain","tags":["Zabergan","Chettus"]},
-{"id":"fifty_years_peace_562","year":562,"title":"The Fifty Years' Peace with Persia","type":"treaty","cats":["diplomatic","religious","economic"],"importance":3,
-"summary":"Concluded by Peter the Patrician and the Persian Yazdgushnasp at Dara in late 561 and ratified in 562, the treaty gave Lazica to Rome, set a Roman payment of 30,000 nomismata (about 420 lbs of gold) a year, with the first seven years paid up front, restricted trade to designated customs posts, forbade enticing Arab allies, limited Dara's garrison, and allowed Christians in Persia to worship and bury their dead.",
-"loc":[40.948,37.177],"locName":"Dara","locCertainty":"certain","war":"lazic_war","people":["justinian_i","khosrow_i","menander_protector"],"polities":["rome_east","sasanian"],
-"sources":[{"a":"Menander Protector","w":"History","r":"fr. 6.1 (Blockley)"}],"scholarship":["Greatrex & Lieu, The Roman Eastern Frontier and the Persian Wars, Part II (2002)"],"debate":"Menander preserves the treaty's thirteen clauses in remarkable detail, one of the most complete Roman treaties to survive. It lasted only ten years.","certainty":"certain","tags":["Peter the Patrician","customs posts"]},
-{"id":"rededication_of_hagia_sophia_562","year":562,"month":12,"day":24,"title":"Rededication of Hagia Sophia","type":"building","cats":["cultural","religious"],"importance":2,
-"summary":"After the dome collapsed on 7 May 558, Isidore the Younger rebuilt it with a higher profile and steeper curvature; the church was rededicated on 24 December 562. Paul the Silentiary recited his Ekphrasis, a verse description of the building, at the ceremonies in early 563.",
-"loc":[28.9802,41.0086],"locName":"Hagia Sophia, Constantinople","locCertainty":"certain","people":["justinian_i","agathias"],"polities":["rome_east"],
-"sources":[{"a":"Paul the Silentiary","w":"Ekphrasis of Hagia Sophia"},{"a":"Agathias","w":"Histories","r":"5.9.2-5"},{"a":"John Malalas","w":"Chronicle","r":"18.151"}],"certainty":"certain","tags":["Isidore the Younger"]},
-{"id":"death_of_justinian_565","year":565,"month":11,"day":14,"title":"Death of Justinian","type":"death","cats":["political"],"importance":4,
-"summary":"Justinian died on the night of 14/15 November 565 aged about 83, having outlived Theodora, Belisarius (d. March 565) and most of his generation, and spent his last years absorbed in theology (he had just proclaimed the doctrine of the incorruptibility of Christ's body, Aphthartodocetism). His nephew Justin II, curopalates, was crowned at once.",
-"loc":[28.98,41.01],"locName":"Constantinople","locCertainty":"certain","people":["justinian_i","justin_ii","belisarius"],"polities":["rome_east"],
-"sources":[{"a":"Corippus","w":"In laudem Iustini","r":"1"},{"a":"Evagrius","w":"Ecclesiastical History","r":"4.39-41"}],
-"debate":"The balance of his reign is contested: an empire enlarged by a third, a legal and architectural legacy without equal, against an overextended army, fiscal exhaustion, plague and unsolved religious division that his successors inherited.","certainty":"certain","tags":["Aphthartodocetism"]}
-]}
+{
+ "events": [
+  {
+   "id": "nika_riots_532",
+   "year": 532,
+   "month": 1,
+   "day": 13,
+   "title": "Nika riots",
+   "type": "revolt",
+   "cats": [
+    "political",
+    "social",
+    "military"
+   ],
+   "importance": 5,
+   "summary": "After a botched execution left a Blue and a Green condemned man alive under the protection of monks, the two circus factions united on 13 January 532 under the cry 'Nika!' ('Conquer!'), burned the city centre including Hagia Sophia and the Chalke gate, and forced Justinian to dismiss John the Cappadocian, Tribonian and the urban prefect Eudaemon. On 18 January they crowned Hypatius, nephew of Anastasius, in the Hippodrome.",
+   "detail": "Justinian was preparing to flee by sea when, according to Procopius, Theodora declared that she would not flee: 'royalty is a good burial shroud', adapting a saying about tyranny. Narses went into the Hippodrome with gold to detach the Blues; Belisarius and Mundus with Gothic and Herul troops then entered from two gates and massacred the crowd, perhaps 30,000 people. Hypatius and his brother Pompeius were executed the next day and their bodies thrown into the sea. The riot was less a popular uprising than a convergence of factional violence, fiscal grievance against John the Cappadocian's tax drive, and senatorial opposition looking for an alternative emperor.",
+   "loc": [
+    28.9753,
+    41.0063
+   ],
+   "locName": "Hippodrome, Constantinople",
+   "locCertainty": "certain",
+   "people": [
+    "justinian_i",
+    "theodora",
+    "belisarius",
+    "narses",
+    "john_the_cappadocian",
+    "tribonian",
+    "procopius"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome_east",
+      "commanders": [
+       "belisarius",
+       "narses"
+      ],
+      "strength": "Belisarius's bucellarii and Gothic and Herul troops under Mundus",
+      "losses": "light"
+     },
+     {
+      "polity": "rome_east",
+      "commanders": [],
+      "strength": "crowd of Blue and Green partisans with senatorial backers",
+      "losses": "c. 30,000 killed (Procopius); 35,000 (Malalas)"
+     }
+    ],
+    "victor": "rome_east",
+    "kind": "massacre",
+    "significance": "Secured Justinian's throne and freed his hand for the codification, the rebuilding of the capital and the Vandal war."
+   },
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "1.24"
+    },
+    {
+     "a": "John Malalas",
+     "w": "Chronicle",
+     "r": "18.71"
+    },
+    {
+     "a": "Chronicon Paschale",
+     "w": "Chronicon Paschale",
+     "r": "s.a. 531"
+    },
+    {
+     "a": "Theophanes",
+     "w": "Chronicle",
+     "r": "AM 6024 (the 'Acta dia Kalopodion')"
+    }
+   ],
+   "debate": "Theodora's speech is a literary construct echoing Isocrates; Greatrex reconstructs the riot's escalation in detail. The 'Kalapodios dialogue' preserved in Theophanes may belong to a different occasion.",
+   "scholarship": [
+    "Greatrex, 'The Nika riot: a reappraisal', JHS 117 (1997)",
+    "Cameron, Circus Factions (1976)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Blues and Greens",
+    "Hypatius"
+   ]
+  },
+  {
+   "id": "eternal_peace_532",
+   "year": 532,
+   "month": 9,
+   "title": "The 'Eternal Peace' with Persia",
+   "type": "treaty",
+   "cats": [
+    "diplomatic",
+    "economic"
+   ],
+   "importance": 3,
+   "summary": "Khosrow I and Justinian agreed a peace without time limit: Rome paid 110 centenaria (11,000 lbs of gold) as a lump sum toward the defence of the Caucasus passes, moved the dux of Mesopotamia from Dara to Constantina, and the two sides returned captured forts in Lazica and Persarmenia. It freed Justinian's armies for the West and lasted eight years.",
+   "loc": [
+    44.58,
+    33.09
+   ],
+   "locName": "Ctesiphon and the Mesopotamian frontier",
+   "locCertainty": "approx",
+   "war": "iberian_war",
+   "people": [
+    "justinian_i",
+    "khosrow_i",
+    "procopius"
+   ],
+   "polities": [
+    "rome_east",
+    "sasanian"
+   ],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "1.22"
+    },
+    {
+     "a": "John Malalas",
+     "w": "Chronicle",
+     "r": "18.76"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Caspian Gates"
+   ]
+  },
+  {
+   "id": "hagia_sophia_construction_532",
+   "year": 532,
+   "month": 2,
+   "day": 23,
+   "endYear": 537,
+   "title": "Building of Hagia Sophia",
+   "type": "building",
+   "cats": [
+    "cultural",
+    "religious",
+    "technology"
+   ],
+   "importance": 5,
+   "summary": "Begun on 23 February 532, forty days after the Nika riots destroyed the Theodosian basilica, Justinian's Great Church was designed by the mathematician Anthemius of Tralles and the engineer Isidore of Miletus and dedicated on 27 December 537. Its dome, about 31 m across, appeared, Procopius said, to hang from heaven by a golden chain.",
+   "detail": "Built in under six years by perhaps 10,000 workers, it combined a basilica with a central dome on pendentives, buttressed by two half-domes. Brick and mortar dominated, with columns of porphyry and verd antique taken from older buildings; the interior had acres of gold mosaic with only crosses as decoration in Justinian's phase. The story of Justinian exclaiming 'Solomon, I have surpassed thee' comes from the much later Narratio de aedificatione. Earthquakes in 553 and 557 weakened the dome, which collapsed on 7 May 558; Isidore the Younger rebuilt it about 6 m higher, and it was rededicated on 24 December 562, celebrated in Paul the Silentiary's Ekphrasis.",
+   "loc": [
+    28.9802,
+    41.0086
+   ],
+   "locName": "Hagia Sophia, Constantinople",
+   "locCertainty": "certain",
+   "people": [
+    "justinian_i",
+    "anthemius_of_tralles",
+    "isidore_of_miletus",
+    "procopius",
+    "agathias"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Buildings",
+     "r": "1.1.20-78"
+    },
+    {
+     "a": "Paul the Silentiary",
+     "w": "Ekphrasis of Hagia Sophia"
+    },
+    {
+     "a": "Agathias",
+     "w": "Histories",
+     "r": "5.9"
+    },
+    {
+     "a": "John Malalas",
+     "w": "Chronicle",
+     "r": "18.86, 18.151"
+    }
+   ],
+   "scholarship": [
+    "Mainstone, Hagia Sophia: Architecture, Structure and Liturgy of Justinian's Great Church (1988)",
+    "Mark & Çakmak (eds.), Hagia Sophia from the Age of Justinian to the Present (1992)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "pendentives",
+    "dome"
+   ]
+  },
+  {
+   "id": "digest_and_institutes_533",
+   "year": 533,
+   "month": 12,
+   "day": 16,
+   "title": "Publication of the Digest and Institutes",
+   "type": "law",
+   "cats": [
+    "law"
+   ],
+   "importance": 5,
+   "summary": "The Digest (Pandects), commissioned on 15 December 530 by the constitution Deo auctore and published on 16 December 533 (constitution Tanta), distilled the writings of classical jurists, chiefly Ulpian, Paul and Papinian, into 50 books. Tribonian's commission reduced some 2,000 books and 3 million lines to about 150,000. The Institutes, a textbook for students, were published on 21 November 533; both took force on 30 December 533.",
+   "detail": "The Digest preserved most of what survives of classical Roman jurisprudence (the jurists of c. 100 BC to AD 240); its rediscovery in eleventh-century Bologna, through the Florentine manuscript (Littera Florentina, copied in the later sixth century), founded the western legal tradition. The speed of compilation led Bluhme in 1820 to propose that three subcommittees worked in parallel on 'masses' of texts (Sabinian, edictal, Papinian), a theory still largely accepted. Interpolations, the compilers' alterations of the classical texts, were for generations the obsession of Romanists.",
+   "loc": [
+    28.98,
+    41.01
+   ],
+   "locName": "Constantinople",
+   "locCertainty": "certain",
+   "people": [
+    "justinian_i",
+    "tribonian"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Digesta",
+     "w": "Constitutions Deo auctore, Omnem, Tanta/Dedoken"
+    },
+    {
+     "a": "Institutiones",
+     "w": "Constitution Imperatoriam"
+    }
+   ],
+   "scholarship": [
+    "Honoré, Tribonian (1978)",
+    "Watson (ed.), The Digest of Justinian (1985)",
+    "Humfress, 'Law and legal practice in the age of Justinian', in Maas (ed.), Cambridge Companion to the Age of Justinian (2005)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Pandects",
+    "Bluhme hypothesis",
+    "Littera Florentina"
+   ]
+  },
+  {
+   "id": "vandal_war_begins_533",
+   "year": 533,
+   "month": 6,
+   "title": "Belisarius's expedition sails for Africa",
+   "type": "campaign",
+   "cats": [
+    "military"
+   ],
+   "importance": 4,
+   "summary": "Using Gelimer's deposition of the pro-Roman Hilderic (530) as pretext, and against the advice of John the Cappadocian, Justinian sent Belisarius in June 533 with 10,000 infantry, 5,000 cavalry (including 1,500 bucellarii, 600 Huns and 400 Heruli), 500 transports with 30,000 sailors and 92 dromons. Procopius sailed with him. A revolt in Sardinia and another in Tripolitania, encouraged by Constantinople, drew off Vandal forces.",
+   "loc": [
+    28.98,
+    41.01
+   ],
+   "locName": "Constantinople",
+   "locCertainty": "certain",
+   "war": "vandalic_war_533",
+   "people": [
+    "belisarius",
+    "justinian_i",
+    "gelimer",
+    "procopius",
+    "john_the_cappadocian",
+    "antonina"
+   ],
+   "polities": [
+    "rome_east",
+    "vandal_kingdom"
+   ],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "3.9-3.13"
+    }
+   ],
+   "debate": "Procopius reports mouldy bread from John the Cappadocian's money-saving double-baking, killing 500 men; a hostile anecdote about a man he loathed.",
+   "certainty": "certain",
+   "tags": [
+    "Hilderic",
+    "dromons"
+   ]
+  },
+  {
+   "id": "battle_of_ad_decimum",
+   "year": 533,
+   "month": 9,
+   "day": 13,
+   "title": "Battle of Ad Decimum",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 4,
+   "summary": "Landing at Caput Vada and marching up the coast, Belisarius approached Carthage. Gelimer planned a three-way trap at the tenth milestone (Ad Decimum): his brother Ammatas from Carthage, his nephew Gibamund from the west, and himself from the rear. The parts arrived out of time. Ammatas was killed, Gibamund's 2,000 were destroyed by 600 Huns at Pedion Halon, and Gelimer, after scattering the Roman vanguard, stopped to mourn his brother. Belisarius rallied and routed him.",
+   "loc": [
+    10.24,
+    36.74
+   ],
+   "locName": "Ad Decimum, 10 miles south-west of Carthage",
+   "locCertainty": "approx",
+   "war": "vandalic_war_533",
+   "people": [
+    "belisarius",
+    "gelimer",
+    "procopius"
+   ],
+   "polities": [
+    "rome_east",
+    "vandal_kingdom"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome_east",
+      "commanders": [
+       "belisarius"
+      ],
+      "strength": "c. 15,000 with allied Huns and Heruli",
+      "losses": "light; vanguard scattered"
+     },
+     {
+      "polity": "vandal_kingdom",
+      "commanders": [
+       "gelimer"
+      ],
+      "strength": "perhaps 11,000-12,000 in three groups",
+      "losses": "heavy; Ammatas and Gibamund killed"
+     }
+    ],
+    "victor": "rome_east",
+    "kind": "field",
+    "significance": "Opened Carthage to Belisarius, who entered on 15 September and dined on Gelimer's prepared meal in the palace."
+   },
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "3.18-3.20"
+    }
+   ],
+   "debate": "Procopius admits Gelimer could have won had he pressed on; Vandal numbers are unknown and modern estimates of the whole Vandal army range from 20,000 to 30,000.",
+   "certainty": "certain",
+   "tags": [
+    "Ammatas",
+    "Gibamund",
+    "Pedion Halon"
+   ]
+  },
+  {
+   "id": "battle_of_tricamarum",
+   "year": 533,
+   "month": 12,
+   "title": "Battle of Tricamarum",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 4,
+   "summary": "Reinforced by his brother Tzazon's army returning from Sardinia, Gelimer advanced on Carthage. At Tricamarum, about 30 km west, in mid-December 533, Roman cavalry under John the Armenian charged three times across a stream and killed Tzazon; the Vandal line collapsed. Procopius counts fewer than 50 Roman and about 800 Vandal dead. Gelimer fled, and the Roman troops lost all discipline plundering the Vandal camp.",
+   "loc": [
+    9.95,
+    36.8
+   ],
+   "locName": "Tricamarum, west of Carthage",
+   "locCertainty": "approx",
+   "war": "vandalic_war_533",
+   "people": [
+    "belisarius",
+    "gelimer",
+    "procopius"
+   ],
+   "polities": [
+    "rome_east",
+    "vandal_kingdom"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome_east",
+      "commanders": [
+       "belisarius"
+      ],
+      "strength": "Roman cavalry (infantry arrived late)",
+      "losses": "fewer than 50 (Procopius)"
+     },
+     {
+      "polity": "vandal_kingdom",
+      "commanders": [
+       "gelimer"
+      ],
+      "strength": "whole Vandal army, perhaps 15,000-25,000",
+      "losses": "c. 800 (Procopius); Tzazon killed"
+     }
+    ],
+    "victor": "rome_east",
+    "kind": "field",
+    "significance": "Destroyed the Vandal kingdom after a century; Africa was reorganised as a praetorian prefecture in April 534."
+   },
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "4.2-4.3"
+    }
+   ],
+   "debate": "The very low casualty figures suggest the Vandals broke early; Procopius's date ('about three months' after Carthage) gives mid-December.",
+   "certainty": "certain",
+   "tags": [
+    "Tzazon",
+    "John the Armenian"
+   ]
+  },
+  {
+   "id": "surrender_of_gelimer_534",
+   "year": 534,
+   "month": 3,
+   "title": "Surrender of Gelimer on Mount Papua",
+   "type": "political",
+   "cats": [
+    "military",
+    "political"
+   ],
+   "importance": 3,
+   "summary": "Besieged through the winter by the Herul Pharas in a Moorish hill town on Mount Papua, Gelimer asked for a lyre to sing a lament he had composed on his misfortunes, a sponge for his eyes and a loaf of bread. He surrendered in March 534, laughing hysterically when brought before Belisarius.",
+   "loc": [
+    7.66,
+    36.93
+   ],
+   "locName": "Mount Papua, Numidia",
+   "locCertainty": "disputed",
+   "war": "vandalic_war_533",
+   "people": [
+    "gelimer",
+    "belisarius",
+    "procopius"
+   ],
+   "polities": [
+    "vandal_kingdom",
+    "rome_east",
+    "moors"
+   ],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "4.6-4.7"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Pharas"
+   ]
+  },
+  {
+   "id": "triumph_of_belisarius_534",
+   "year": 534,
+   "title": "Triumph of Belisarius",
+   "type": "political",
+   "cats": [
+    "political",
+    "cultural"
+   ],
+   "importance": 3,
+   "summary": "Belisarius celebrated a triumph in Constantinople in 534, walking rather than riding, the first triumph by a private citizen since Cornelius Balbus in 19 BC. Gelimer and Vandal nobles were paraded with the treasure of Carthage, including the Temple vessels of Jerusalem, which Justinian sent to churches in Jerusalem. Before the emperor, Gelimer kept repeating 'Vanity of vanities, all is vanity'. Belisarius was consul for 535.",
+   "loc": [
+    28.9753,
+    41.0063
+   ],
+   "locName": "Hippodrome, Constantinople",
+   "locCertainty": "certain",
+   "war": "vandalic_war_533",
+   "people": [
+    "belisarius",
+    "gelimer",
+    "justinian_i",
+    "procopius"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "4.9"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Temple treasures",
+    "Ecclesiastes"
+   ]
+  },
+  {
+   "id": "second_justinian_code_534",
+   "year": 534,
+   "month": 11,
+   "day": 16,
+   "title": "Codex Justinianus, second edition",
+   "type": "law",
+   "cats": [
+    "law"
+   ],
+   "importance": 3,
+   "summary": "The Codex repetitae praelectionis, promulgated on 16 November 534 (constitution Cordi), replaced the 529 edition with an updated code in 12 books incorporating the Fifty Decisions and later laws. Justinian's subsequent legislation, mostly in Greek, survives as the Novels; together the four parts were later called the Corpus Iuris Civilis, a name first used by Dionysius Gothofredus in 1583.",
+   "loc": [
+    28.98,
+    41.01
+   ],
+   "locName": "Constantinople",
+   "locCertainty": "certain",
+   "people": [
+    "justinian_i",
+    "tribonian"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Codex Justinianus",
+     "w": "Constitution Cordi"
+    },
+    {
+     "a": "Novellae",
+     "w": "Novels"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Corpus Iuris Civilis",
+    "Novels"
+   ]
+  },
+  {
+   "id": "murder_of_amalasuntha_535",
+   "year": 535,
+   "month": 4,
+   "day": 30,
+   "title": "Murder of Amalasuntha",
+   "type": "assassination",
+   "cats": [
+    "political"
+   ],
+   "importance": 4,
+   "summary": "After her son Athalaric drank himself to death in 534, Amalasuntha made her cousin Theodahad co-ruler. He confined her on the island of Martana in Lake Bolsena, where relatives of Gothic nobles she had executed strangled her in her bath, probably on 30 April 535. Justinian, with whom she had been negotiating a flight to Constantinople, used her murder as the casus belli for the Gothic War.",
+   "loc": [
+    11.93,
+    42.57
+   ],
+   "locName": "Martana island, Lake Bolsena",
+   "locCertainty": "probable",
+   "war": "gothic_war_535",
+   "people": [
+    "amalasuntha",
+    "justinian_i",
+    "theodora",
+    "procopius",
+    "cassiodorus"
+   ],
+   "polities": [
+    "ostrogothic_kingdom",
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "5.4.12-31"
+    },
+    {
+     "a": "Procopius",
+     "w": "Secret History",
+     "r": "16.1-5"
+    },
+    {
+     "a": "Jordanes",
+     "w": "Getica",
+     "r": "306"
+    }
+   ],
+   "debate": "The Secret History claims Theodora, jealous of Amalasuntha, secretly urged Theodahad to kill her through the envoy Peter the Patrician; the Wars says nothing of it.",
+   "certainty": "certain",
+   "tags": [
+    "Theodahad",
+    "Athalaric"
+   ]
+  },
+  {
+   "id": "conquest_of_sicily_535",
+   "year": 535,
+   "month": 12,
+   "day": 31,
+   "title": "Belisarius conquers Sicily",
+   "type": "campaign",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "Sent with only 7,500 men, Belisarius took Sicily in 535 with little resistance except at Panormus, where he hoisted archers in boats to the mastheads of his ships to shoot over the walls. He entered Syracuse on 31 December 535, the last day of his consulship, scattering gold coins to the crowd.",
+   "loc": [
+    15.287,
+    37.075
+   ],
+   "locName": "Syracuse",
+   "locCertainty": "certain",
+   "war": "gothic_war_535",
+   "people": [
+    "belisarius",
+    "procopius"
+   ],
+   "polities": [
+    "rome_east",
+    "ostrogothic_kingdom"
+   ],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "5.5.12-19"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Panormus"
+   ]
+  },
+  {
+   "id": "volcanic_winter_536",
+   "year": 536,
+   "title": "The 'year without summer' of 536",
+   "type": "disaster",
+   "cats": [
+    "disaster"
+   ],
+   "importance": 4,
+   "summary": "Procopius records that throughout 536 'the sun gave forth its light without brightness, like the moon'; Cassiodorus in Italy describes a bluish sun, summer frosts and failed harvests; John Lydus and Syriac chroniclers concur. Ice cores and tree rings now show major volcanic eruptions in 536 and 539/540, triggering the coldest decade in two millennia.",
+   "detail": "Sigl et al. (2015) dated sulphate spikes in Greenland and Antarctic ice to 536 and 540; Büntgen et al. (2016) defined a 'Late Antique Little Ice Age' (536-c. 660). The source volcano for 536 is uncertain (Iceland has been proposed, along with sites in North America); Ilopango in El Salvador is linked to 539/540 or earlier. Harper connects this climate shock, the plague and political crisis into an environmental narrative of the end of antiquity; critics warn against monocausal determinism.",
+   "loc": [
+    28.98,
+    41.01
+   ],
+   "locName": "Mediterranean-wide",
+   "locCertainty": "approx",
+   "people": [
+    "procopius",
+    "cassiodorus"
+   ],
+   "polities": [
+    "rome_east",
+    "ostrogothic_kingdom"
+   ],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "4.14.5-6"
+    },
+    {
+     "a": "Cassiodorus",
+     "w": "Variae",
+     "r": "12.25"
+    },
+    {
+     "a": "John Lydus",
+     "w": "De Ostentis",
+     "r": "9c"
+    }
+   ],
+   "scholarship": [
+    "Sigl et al., 'Timing and climate forcing of volcanic eruptions for the past 2,500 years', Nature 523 (2015)",
+    "Büntgen et al., 'Cooling and societal change during the Late Antique Little Ice Age', Nature Geoscience 9 (2016)",
+    "Harper, The Fate of Rome (2017)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "dust veil",
+    "LALIA"
+   ]
+  },
+  {
+   "id": "mutiny_of_stotzas_536",
+   "year": 536,
+   "title": "Military mutiny in Africa under Stotzas",
+   "type": "revolt",
+   "cats": [
+    "military",
+    "religious"
+   ],
+   "importance": 2,
+   "summary": "At Easter 536 Roman troops in Africa, many married to Vandal widows who claimed their estates and Arian soldiers denied baptism for their children, mutinied against Solomon and chose the guardsman Stotzas as leader. Belisarius hurried from Sicily and scattered them at Membresa; Justinian's cousin Germanus won back most of the mutineers with pay and defeated Stotzas at Scalae Veteres in 537.",
+   "loc": [
+    9.59,
+    36.65
+   ],
+   "locName": "Membresa and Scalae Veteres, Africa",
+   "locCertainty": "approx",
+   "war": "moorish_wars_534",
+   "people": [
+    "solomon_eunuch",
+    "belisarius",
+    "germanus_patricius",
+    "procopius"
+   ],
+   "polities": [
+    "rome_east",
+    "moors"
+   ],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "4.14-4.17"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Stotzas",
+    "Arian soldiers"
+   ]
+  },
+  {
+   "id": "siege_of_naples_536",
+   "year": 536,
+   "month": 11,
+   "title": "Siege and sack of Naples",
+   "type": "siege",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "Belisarius crossed to Italy in spring 536 and besieged Naples, held by a Gothic garrison and its pro-Gothic citizens, including the Jewish community, for some twenty days. An Isaurian soldier found a dry aqueduct channel; 400 men crept through it, and the city was taken and sacked in November 536.",
+   "loc": [
+    14.25,
+    40.85
+   ],
+   "locName": "Neapolis (Naples)",
+   "locCertainty": "certain",
+   "war": "gothic_war_535",
+   "people": [
+    "belisarius",
+    "procopius"
+   ],
+   "polities": [
+    "rome_east",
+    "ostrogothic_kingdom"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome_east",
+      "commanders": [
+       "belisarius"
+      ],
+      "strength": "under 10,000",
+      "losses": "several hundred in assaults"
+     },
+     {
+      "polity": "ostrogothic_kingdom",
+      "commanders": [],
+      "strength": "c. 800 Goths plus citizens",
+      "losses": "city sacked; massacre of civilians"
+     }
+    ],
+    "victor": "rome_east",
+    "kind": "siege",
+    "significance": "The Goths deposed Theodahad for inaction and elected Witiges; Rome opened its gates to Belisarius on 9 December 536."
+   },
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "5.8-5.10"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "aqueduct"
+   ]
+  },
+  {
+   "id": "siege_of_rome_537",
+   "year": 537,
+   "month": 3,
+   "endYear": 538,
+   "title": "Witiges besieges Rome",
+   "type": "siege",
+   "cats": [
+    "military",
+    "cultural"
+   ],
+   "importance": 5,
+   "summary": "From March 537 to March 538 Witiges besieged Belisarius's 5,000 men in Rome with an army Procopius puts at 150,000. The Goths cut all fourteen aqueducts, ending Rome's baths and forcing the use of floating mills on the Tiber. Belisarius beat off a general assault on the Salarian and Praenestine gates, defenders on Hadrian's mausoleum hurled its statues on the attackers, and Roman horse-archers bled the Goths in repeated sorties. Witiges withdrew after a year and nine days.",
+   "detail": "Procopius was inside the city and gives one of antiquity's most detailed siege narratives, including Belisarius's explanation of why mounted archers beat Gothic lancers and the deposition of Pope Silverius, accused of treason and replaced by Vigilius at Antonina's instigation. The siege broke when John, nephew of Vitalian, seized Ariminum in Witiges's rear. The cutting of the aqueducts is often taken as the end of ancient Rome's urban life; some, like the Aqua Traiana, were later restored.",
+   "loc": [
+    12.4924,
+    41.8902
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "war": "gothic_war_535",
+   "people": [
+    "belisarius",
+    "witiges",
+    "antonina",
+    "pope_vigilius",
+    "procopius"
+   ],
+   "polities": [
+    "rome_east",
+    "ostrogothic_kingdom"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome_east",
+      "commanders": [
+       "belisarius"
+      ],
+      "strength": "c. 5,000, later reinforced by 1,600 Huns, Slavs and Antae and further troops",
+      "losses": "moderate"
+     },
+     {
+      "polity": "ostrogothic_kingdom",
+      "commanders": [
+       "witiges"
+      ],
+      "strength": "150,000 (Procopius, impossible); perhaps 25,000-30,000",
+      "losses": "heavy from sorties, disease and famine"
+     }
+    ],
+    "victor": "rome_east",
+    "kind": "siege",
+    "significance": "The decisive phase of the first Gothic war; it proved the superiority of Roman horse-archers over Gothic cavalry but devastated the city."
+   },
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "5.18-6.10"
+    },
+    {
+     "a": "Liber Pontificalis",
+     "w": "Liber Pontificalis",
+     "r": "60 (Silverius)"
+    }
+   ],
+   "scholarship": [
+    "Wolfram, History of the Goths (1988)",
+    "Heather, Rome Resurgent (2018)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "aqueducts",
+    "Hadrian's mausoleum",
+    "floating mills"
+   ]
+  },
+  {
+   "id": "siege_of_milan_538",
+   "year": 538,
+   "endYear": 539,
+   "title": "Siege and destruction of Milan",
+   "type": "siege",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "Milan's archbishop Datius invited the Romans in 538, and Belisarius sent 1,000 men under Mundilas. Goths under Uraias, reinforced by 10,000 Burgundians sent by the Frankish king Theudebert, besieged the city. The rivalry between Belisarius and Narses delayed relief; the garrison surrendered in early 539 and Procopius says 300,000 men of the city were massacred and the women given to the Burgundians.",
+   "loc": [
+    9.19,
+    45.464
+   ],
+   "locName": "Mediolanum (Milan)",
+   "locCertainty": "certain",
+   "war": "gothic_war_535",
+   "people": [
+    "belisarius",
+    "narses",
+    "witiges",
+    "procopius"
+   ],
+   "polities": [
+    "ostrogothic_kingdom",
+    "frankish_kingdom",
+    "rome_east"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome_east",
+      "commanders": [],
+      "strength": "c. 1,000 under Mundilas plus citizens",
+      "losses": "garrison captured; city destroyed"
+     },
+     {
+      "polity": "ostrogothic_kingdom",
+      "commanders": [],
+      "strength": "Goths under Uraias with 10,000 Burgundians",
+      "losses": "unknown"
+     }
+    ],
+    "victor": "ostrogothic_kingdom",
+    "kind": "siege",
+    "significance": "The worst atrocity of the war; it led Justinian to recall Narses and restore Belisarius's sole command."
+   },
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "6.7.35-38, 6.12, 6.21"
+    },
+    {
+     "a": "Marius of Avenches",
+     "w": "Chronicle",
+     "r": "s.a. 538"
+    }
+   ],
+   "debate": "Procopius's 300,000 is impossible; it likely reflects the whole adult male population as a rhetorical figure.",
+   "certainty": "certain",
+   "tags": [
+    "Datius",
+    "Uraias"
+   ]
+  },
+  {
+   "id": "siege_of_ravenna_539",
+   "year": 539,
+   "endYear": 540,
+   "title": "Belisarius takes Ravenna",
+   "type": "siege",
+   "cats": [
+    "military",
+    "political"
+   ],
+   "importance": 4,
+   "summary": "After taking Fiesole and Auximum, Belisarius blockaded Witiges in Ravenna in late 539; a fire destroyed the Gothic grain stores. The Goths offered to make Belisarius emperor of the West. He feigned acceptance, entered Ravenna in May 540 and took Witiges, his wife Matasuntha and the royal treasure to Constantinople, where Witiges became a patrician.",
+   "loc": [
+    12.199,
+    44.418
+   ],
+   "locName": "Ravenna",
+   "locCertainty": "certain",
+   "war": "gothic_war_535",
+   "people": [
+    "belisarius",
+    "witiges",
+    "justinian_i",
+    "procopius"
+   ],
+   "polities": [
+    "rome_east",
+    "ostrogothic_kingdom"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome_east",
+      "commanders": [
+       "belisarius"
+      ],
+      "strength": "Roman field army in Italy",
+      "losses": "light"
+     },
+     {
+      "polity": "ostrogothic_kingdom",
+      "commanders": [
+       "witiges"
+      ],
+      "strength": "Gothic court and army",
+      "losses": "capitulated"
+     }
+    ],
+    "victor": "rome_east",
+    "kind": "siege",
+    "significance": "Apparently ended the war; but Justinian, alarmed by Persia and suspicious of Belisarius, recalled him before the north was secured, and the Goths rallied under Ildibad and Totila."
+   },
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "6.28-6.30"
+    }
+   ],
+   "debate": "Justinian had offered terms leaving the Goths north of the Po; Belisarius refused to sign them, preferring total victory. Whether he was ever tempted by the crown is unknowable.",
+   "certainty": "certain",
+   "tags": [
+    "Matasuntha"
+   ]
+  },
+  {
+   "id": "sack_of_antioch_540",
+   "year": 540,
+   "month": 6,
+   "title": "Khosrow I sacks Antioch",
+   "type": "siege",
+   "cats": [
+    "military",
+    "economic"
+   ],
+   "importance": 4,
+   "summary": "Encouraged by Witiges's envoys and alarmed by Roman success, Khosrow I broke the Eternal Peace in spring 540, burned Sura, ransomed Hierapolis and Beroea, and took Antioch in June after its 6,000 troops fled. The city was looted and burned, its population deported to a new city near Ctesiphon, Weh Antiok Khosrow ('Better than Antioch, Khosrow built this'), with its own hippodrome.",
+   "loc": [
+    36.16,
+    36.2
+   ],
+   "locName": "Antioch",
+   "locCertainty": "certain",
+   "war": "lazic_war",
+   "people": [
+    "khosrow_i",
+    "justinian_i",
+    "procopius"
+   ],
+   "polities": [
+    "sasanian",
+    "rome_east"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome_east",
+      "commanders": [],
+      "strength": "6,000 soldiers sent under Theoctistus and Molatzes, plus circus faction youths",
+      "losses": "city taken; many civilians killed or deported"
+     },
+     {
+      "polity": "sasanian",
+      "commanders": [
+       "khosrow_i"
+      ],
+      "strength": "Persian royal army",
+      "losses": "light"
+     }
+    ],
+    "victor": "sasanian",
+    "kind": "siege",
+    "significance": "The worst humiliation of Justinian's reign; it began twenty years of war and showed Persia could strike the heart of Roman Syria."
+   },
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "2.5-2.14"
+    },
+    {
+     "a": "Evagrius",
+     "w": "Ecclesiastical History",
+     "r": "4.25"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Weh Antiok Khosrow",
+    "Rumagan"
+   ]
+  },
+  {
+   "id": "justinianic_plague_541",
+   "year": 541,
+   "month": 7,
+   "title": "Outbreak of the Justinianic Plague",
+   "type": "plague",
+   "cats": [
+    "disaster",
+    "social",
+    "economic"
+   ],
+   "importance": 5,
+   "summary": "Bubonic plague appeared at Pelusium in Egypt in July 541, spread along shipping routes and reached Constantinople in spring 542, where Procopius says it killed 5,000 and then 10,000 or more a day for four months. Justinian himself caught it and recovered. Recurring waves struck the Mediterranean every 10-20 years until about 750.",
+   "detail": "Procopius, imitating Thucydides, describes the buboes, delirium and coma; bodies were stacked in the towers of Sykai across the Golden Horn. John of Ephesus describes corpses in the streets, and Evagrius, who caught the disease as a child and lost children and grandchildren in later waves, writes of fifteen years of recurrence. Ancient DNA from Bavarian cemeteries (Aschheim, Altenerding) has confirmed Yersinia pestis. The debate now is about scale: maximalists (Little, Harper, McCormick) see mortality of 25-50% with lasting demographic and fiscal consequences; minimalists (Mordechai, Eisenberg and colleagues, 2019) argue that papyri, coinage, legislation and inscriptions show no sharp break. Justinian's Novel 122 (544) tried to cap wages and prices that had soared after the plague.",
+   "loc": [
+    32.57,
+    31.04
+   ],
+   "locName": "Pelusium, then Constantinople",
+   "locCertainty": "certain",
+   "people": [
+    "justinian_i",
+    "procopius",
+    "evagrius_scholasticus"
+   ],
+   "polities": [
+    "rome_east",
+    "sasanian",
+    "ostrogothic_kingdom"
+   ],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "2.22-2.23"
+    },
+    {
+     "a": "Evagrius",
+     "w": "Ecclesiastical History",
+     "r": "4.29"
+    },
+    {
+     "a": "John of Ephesus",
+     "w": "Ecclesiastical History (via Pseudo-Dionysius of Tel-Mahre)"
+    },
+    {
+     "a": "Novellae",
+     "w": "Novels",
+     "r": "122"
+    }
+   ],
+   "scholarship": [
+    "Little (ed.), Plague and the End of Antiquity (2007)",
+    "Harbeck et al., 'Yersinia pestis DNA from skeletal remains from the 6th century AD', PLoS Pathogens 9 (2013)",
+    "Wagner et al., 'Yersinia pestis and the Plague of Justinian 541-543 AD', Lancet Infectious Diseases 14 (2014)",
+    "Mordechai et al., 'The Justinianic Plague: an inconsequential pandemic?', PNAS 116 (2019)",
+    "Harper, The Fate of Rome (2017)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Yersinia pestis",
+    "Sykai",
+    "first pandemic"
+   ]
+  },
+  {
+   "id": "end_of_the_consulship_541",
+   "year": 541,
+   "title": "Last ordinary consul: Basilius",
+   "type": "constitutional",
+   "cats": [
+    "constitutional",
+    "political"
+   ],
+   "importance": 2,
+   "summary": "Anicius Faustus Albinus Basilius, consul in 541, was the last private citizen to hold the ordinary consulship, an office dating from 509 BC. Justinian let it lapse, partly because of its ruinous cost in games and largesse; thereafter the title was absorbed into the emperor's regalia. The West's last consul had been Paulinus in 534.",
+   "loc": [
+    28.98,
+    41.01
+   ],
+   "locName": "Constantinople",
+   "locCertainty": "certain",
+   "people": [
+    "justinian_i",
+    "procopius"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Secret History",
+     "r": "26.12-15"
+    },
+    {
+     "a": "Novellae",
+     "w": "Novels",
+     "r": "105 (537)"
+    }
+   ],
+   "debate": "Novel 105 (537) had already regulated and limited consular spending. Dating by post-consulate of Basilius continued for decades in the West.",
+   "certainty": "certain",
+   "tags": [
+    "consulship",
+    "fasti"
+   ]
+  },
+  {
+   "id": "election_of_totila_541",
+   "year": 541,
+   "title": "Totila becomes king of the Goths",
+   "type": "accession",
+   "cats": [
+    "political",
+    "military"
+   ],
+   "importance": 3,
+   "summary": "After the murders of Ildibad and Eraric, the Goths in the north chose Baduila, known in Greek sources as Totila, nephew of Ildibad, in autumn 541. He won over peasants and slaves by targeting senatorial landlords and treating captured Roman soldiers well, and in five years undid most of Belisarius's conquest.",
+   "loc": [
+    12.0,
+    45.3
+   ],
+   "locName": "Tarvisium (Treviso)",
+   "locCertainty": "probable",
+   "war": "gothic_war_535",
+   "people": [
+    "totila",
+    "procopius"
+   ],
+   "polities": [
+    "ostrogothic_kingdom"
+   ],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "7.2"
+    }
+   ],
+   "debate": "Whether Totila pursued a deliberate 'social revolution' (older Marxist readings) or simply exploited Roman fiscal oppression is debated.",
+   "certainty": "certain",
+   "tags": [
+    "Baduila"
+   ]
+  },
+  {
+   "id": "battle_of_faventia_542",
+   "year": 542,
+   "title": "Battle of Faventia",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "Eleven Roman generals with 12,000 men, lacking a commander-in-chief after Belisarius's recall, failed to take Verona and were defeated by Totila's 5,000 near Faventia (Faenza) in spring 542, when a flank attack by 300 Gothic horsemen panicked them. Totila then defeated another army at Mucellium and marched south.",
+   "loc": [
+    11.88,
+    44.29
+   ],
+   "locName": "Faventia (Faenza)",
+   "locCertainty": "probable",
+   "war": "gothic_war_535",
+   "people": [
+    "totila",
+    "procopius"
+   ],
+   "polities": [
+    "ostrogothic_kingdom",
+    "rome_east"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome_east",
+      "commanders": [],
+      "strength": "12,000 under eleven commanders (Procopius)",
+      "losses": "heavy; standards captured"
+     },
+     {
+      "polity": "ostrogothic_kingdom",
+      "commanders": [
+       "totila"
+      ],
+      "strength": "5,000 (Procopius)",
+      "losses": "light"
+     }
+    ],
+    "victor": "ostrogothic_kingdom",
+    "kind": "field",
+    "significance": "Showed the cost of divided command and let Totila retake central and southern Italy."
+   },
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "7.3-7.5"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "Artabazes"
+   ]
+  },
+  {
+   "id": "jacob_baradaeus_ordinations_542",
+   "year": 542,
+   "title": "Jacob Baradaeus builds the miaphysite hierarchy",
+   "type": "religious",
+   "cats": [
+    "religious"
+   ],
+   "importance": 3,
+   "summary": "Consecrated bishop of Edessa around 542 at the request of the Ghassanid king al-Harith and with Theodora's protection, Jacob Baradaeus ('the ragged') travelled in disguise across Syria, Asia Minor and Egypt, ordaining, according to John of Ephesus, two patriarchs, 27 bishops and up to 100,000 clergy. He made the anti-Chalcedonians a separate church, later called 'Jacobite' (the Syriac Orthodox Church).",
+   "loc": [
+    38.79,
+    37.15
+   ],
+   "locName": "Edessa and Syria",
+   "locCertainty": "approx",
+   "people": [
+    "theodora",
+    "justinian_i"
+   ],
+   "polities": [
+    "rome_east",
+    "ghassanids"
+   ],
+   "sources": [
+    {
+     "a": "John of Ephesus",
+     "w": "Lives of the Eastern Saints",
+     "r": "49-50"
+    }
+   ],
+   "scholarship": [
+    "Frend, The Rise of the Monophysite Movement (1972)",
+    "Menze, Justinian and the Making of the Syrian Orthodox Church (2008)"
+   ],
+   "debate": "The numbers are hagiographical; the date of his consecration is 542 or 544.",
+   "certainty": "probable",
+   "tags": [
+    "Jacobites",
+    "Theodora"
+   ]
+  },
+  {
+   "id": "battle_of_anglon",
+   "year": 543,
+   "title": "Battle of Anglon",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "Taking advantage of plague in Persia, a Roman army of some 30,000 under multiple commanders invaded Persarmenia without unified command. At Anglon, near Dvin, Nabedes with only 4,000 men laid an ambush in a village and ravine; the disordered Roman columns were routed with heavy losses. Procopius calls it the greatest Roman disaster yet.",
+   "loc": [
+    43.3,
+    39.6
+   ],
+   "locName": "Anglon, Persarmenia",
+   "locCertainty": "disputed",
+   "war": "lazic_war",
+   "people": [
+    "procopius",
+    "khosrow_i"
+   ],
+   "polities": [
+    "rome_east",
+    "sasanian"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome_east",
+      "commanders": [],
+      "strength": "c. 30,000 under Martin, Valerian, Peter, Isaac and others",
+      "losses": "very heavy; Narses the Persarmenian killed"
+     },
+     {
+      "polity": "sasanian",
+      "commanders": [],
+      "strength": "4,000 under Nabedes (Procopius)",
+      "losses": "light"
+     }
+    ],
+    "victor": "sasanian",
+    "kind": "ambush",
+    "significance": "Ended the Roman counter-offensive of 543 and confirmed the danger of divided command."
+   },
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "2.24-2.25"
+    }
+   ],
+   "debate": "Location uncertain; Procopius's numbers emphasise the shame of defeat.",
+   "certainty": "probable",
+   "tags": [
+    "Nabedes"
+   ]
+  },
+  {
+   "id": "siege_of_edessa_544",
+   "year": 544,
+   "title": "Siege of Edessa",
+   "type": "siege",
+   "cats": [
+    "military",
+    "religious",
+    "technology"
+   ],
+   "importance": 3,
+   "summary": "Khosrow besieged Edessa in 544, building a huge timber-and-earth mound against the walls. The defenders tunnelled under it and set fire to the timbers inside, using sulphur, bitumen and cedar oil; the mound burned for days. A final assault failed and Khosrow accepted 500 lbs of gold. Evagrius later credited a miracle-working image of Christ (the Mandylion), unmentioned by Procopius.",
+   "loc": [
+    38.79,
+    37.15
+   ],
+   "locName": "Edessa (Şanlıurfa)",
+   "locCertainty": "certain",
+   "war": "lazic_war",
+   "people": [
+    "khosrow_i",
+    "procopius",
+    "evagrius_scholasticus"
+   ],
+   "polities": [
+    "sasanian",
+    "rome_east"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome_east",
+      "commanders": [],
+      "strength": "garrison under Martin and Peter with citizens",
+      "losses": "moderate"
+     },
+     {
+      "polity": "sasanian",
+      "commanders": [
+       "khosrow_i"
+      ],
+      "strength": "Persian royal army",
+      "losses": "heavy in assaults"
+     }
+    ],
+    "victor": "rome_east",
+    "kind": "siege",
+    "significance": "Persia's failure here led to the five-year truce of 545 (Rome paid 2,000 lbs of gold) covering Mesopotamia, though not Lazica."
+   },
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "2.26-2.27"
+    },
+    {
+     "a": "Evagrius",
+     "w": "Ecclesiastical History",
+     "r": "4.27"
+    }
+   ],
+   "debate": "A classic example of later legend (the Mandylion, or 'image not made by hands') growing onto a sober contemporary account.",
+   "certainty": "certain",
+   "tags": [
+    "Mandylion",
+    "siege mound"
+   ]
+  },
+  {
+   "id": "battle_of_cillium_544",
+   "year": 544,
+   "title": "Battle of Cillium: death of Solomon",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "After Solomon's nephew Sergius murdered 80 Leuathae (Laguatan) envoys at Leptis Magna, the Moors of Tripolitania and Byzacena under Antalas rose. Solomon, prefect and magister of Africa, attacked them near Cillium in 544 with mutinous troops and was killed when his horse fell in a ravine.",
+   "loc": [
+    8.83,
+    35.17
+   ],
+   "locName": "Cillium (Kasserine)",
+   "locCertainty": "probable",
+   "war": "moorish_wars_534",
+   "people": [
+    "solomon_eunuch",
+    "procopius"
+   ],
+   "polities": [
+    "rome_east",
+    "moors"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome_east",
+      "commanders": [
+       "solomon_eunuch"
+      ],
+      "strength": "African field army, partly disaffected",
+      "losses": "Solomon killed"
+     },
+     {
+      "polity": "moors",
+      "commanders": [],
+      "strength": "Moors of Byzacena under Antalas and Laguatan",
+      "losses": "unknown"
+     }
+    ],
+    "victor": "moors",
+    "kind": "field",
+    "significance": "Plunged Roman Africa into four years of war and mutiny."
+   },
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "4.21-4.22"
+    },
+    {
+     "a": "Corippus",
+     "w": "Iohannis",
+     "r": "3"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Antalas",
+    "Laguatan"
+   ]
+  },
+  {
+   "id": "totila_takes_rome_546",
+   "year": 546,
+   "month": 12,
+   "day": 17,
+   "title": "Totila captures Rome",
+   "type": "siege",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "After a long blockade in which Belisarius's relief attempt at Portus failed, Isaurian sentries opened the Asinarian Gate to Totila on the night of 17 December 546. Totila wrote to Justinian threatening to destroy Rome; Belisarius urged him not to destroy the world's greatest city. Totila tore down a third of the walls and left the city almost empty; Belisarius reoccupied it in spring 547.",
+   "loc": [
+    12.513,
+    41.884
+   ],
+   "locName": "Porta Asinaria, Rome",
+   "locCertainty": "certain",
+   "war": "gothic_war_535",
+   "people": [
+    "totila",
+    "belisarius",
+    "procopius"
+   ],
+   "polities": [
+    "ostrogothic_kingdom",
+    "rome_east"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome_east",
+      "commanders": [],
+      "strength": "garrison of 3,000 under Bessas",
+      "losses": "garrison fled"
+     },
+     {
+      "polity": "ostrogothic_kingdom",
+      "commanders": [
+       "totila"
+      ],
+      "strength": "Gothic army",
+      "losses": "light"
+     }
+    ],
+    "victor": "ostrogothic_kingdom",
+    "kind": "siege",
+    "significance": "Rome changed hands for the second time in the war; Procopius claims only 500 inhabitants remained."
+   },
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "7.13-7.22"
+    },
+    {
+     "a": "Liber Pontificalis",
+     "w": "Liber Pontificalis",
+     "r": "61 (Vigilius)"
+    }
+   ],
+   "debate": "The '40 days with no living creature in Rome' (Marcellinus Comes, continuator) is rhetorical.",
+   "certainty": "certain",
+   "tags": [
+    "Bessas"
+   ]
+  },
+  {
+   "id": "san_vitale_consecrated_547",
+   "year": 547,
+   "title": "Consecration of San Vitale, Ravenna",
+   "type": "building",
+   "cats": [
+    "cultural",
+    "religious"
+   ],
+   "importance": 3,
+   "summary": "Begun under Ostrogothic rule with money from the banker Julianus Argentarius, the octagonal church of San Vitale in Ravenna was consecrated by Archbishop Maximian in 547 or 548. Its apse mosaics show Justinian and Theodora with their courts bearing offerings, the most famous images of the two rulers, neither of whom ever visited Ravenna.",
+   "loc": [
+    12.196,
+    44.42
+   ],
+   "locName": "San Vitale, Ravenna",
+   "locCertainty": "certain",
+   "people": [
+    "justinian_i",
+    "theodora"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Agnellus",
+     "w": "Liber Pontificalis Ecclesiae Ravennatis",
+     "r": "57-59, 77"
+    }
+   ],
+   "scholarship": [
+    "Deliyannis, Ravenna in Late Antiquity (2010)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Julianus Argentarius",
+    "Maximian"
+   ]
+  },
+  {
+   "id": "battle_of_campi_catonis_548",
+   "year": 548,
+   "title": "Battle of the Campi Catonis",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "John Troglita, sent to Africa in 546, was defeated by the Laguatan under Carcasan at Marta in 547, but in summer 548 crushed the Moorish coalition at the Fields of Cato; Carcasan and 17 chieftains were killed. The victory brought Roman Africa fifteen years of peace and is the climax of Corippus's Latin epic, the Iohannis.",
+   "loc": [
+    10.0,
+    35.3
+   ],
+   "locName": "Campi Catonis, Byzacena",
+   "locCertainty": "disputed",
+   "war": "moorish_wars_534",
+   "people": [
+    "john_troglita",
+    "procopius"
+   ],
+   "polities": [
+    "rome_east",
+    "moors"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome_east",
+      "commanders": [
+       "john_troglita"
+      ],
+      "strength": "Roman army with loyal Moorish allies under Cusina",
+      "losses": "unknown"
+     },
+     {
+      "polity": "moors",
+      "commanders": [],
+      "strength": "Laguatan and Byzacene Moors under Carcasan and Antalas",
+      "losses": "heavy; Carcasan killed"
+     }
+    ],
+    "victor": "rome_east",
+    "kind": "field",
+    "significance": "Ended the Moorish wars; Africa remained relatively prosperous under Roman rule until the 640s."
+   },
+   "sources": [
+    {
+     "a": "Corippus",
+     "w": "Iohannis",
+     "r": "8"
+    },
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "8.17.20-22"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "Corippus",
+    "Carcasan"
+   ]
+  },
+  {
+   "id": "death_of_theodora_548",
+   "year": 548,
+   "month": 6,
+   "day": 28,
+   "title": "Death of Theodora",
+   "type": "death",
+   "cats": [
+    "political"
+   ],
+   "importance": 3,
+   "summary": "The empress Theodora died on 28 June 548, probably of cancer, aged about 48. Former actress, daughter of a bear-keeper of the Greens, she had been Justinian's partner in government, protector of the anti-Chalcedonians and the moving force, according to Procopius, behind the fall of John the Cappadocian in 541.",
+   "loc": [
+    28.98,
+    41.01
+   ],
+   "locName": "Constantinople",
+   "locCertainty": "certain",
+   "people": [
+    "theodora",
+    "justinian_i",
+    "procopius",
+    "john_the_cappadocian"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Victor of Tunnuna",
+     "w": "Chronicle",
+     "r": "s.a. 549"
+    },
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "7.30.4"
+    }
+   ],
+   "debate": "Victor of Tunnuna's 'cancer' (cancri plaga) may be literal or metaphorical.",
+   "certainty": "certain",
+   "tags": []
+  },
+  {
+   "id": "totila_retakes_rome_550",
+   "year": 550,
+   "month": 1,
+   "day": 16,
+   "title": "Totila retakes Rome",
+   "type": "siege",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "After Belisarius's recall in 549, Totila besieged Rome again; Isaurian soldiers unpaid for years opened the Gate of St Paul on 16 January 550. This time Totila repopulated the city, restored buildings, and held chariot races in the Circus Maximus, the last recorded there.",
+   "loc": [
+    12.48,
+    41.876
+   ],
+   "locName": "Porta Ostiensis (St Paul's Gate), Rome",
+   "locCertainty": "certain",
+   "war": "gothic_war_535",
+   "people": [
+    "totila",
+    "procopius"
+   ],
+   "polities": [
+    "ostrogothic_kingdom",
+    "rome_east"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome_east",
+      "commanders": [],
+      "strength": "garrison of 3,000 under Diogenes",
+      "losses": "most killed or surrendered"
+     },
+     {
+      "polity": "ostrogothic_kingdom",
+      "commanders": [
+       "totila"
+      ],
+      "strength": "Gothic army",
+      "losses": "light"
+     }
+    ],
+    "victor": "ostrogothic_kingdom",
+    "kind": "siege",
+    "significance": "The Gothic recovery's high-water mark; Totila sent envoys seeking peace, which Justinian refused."
+   },
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "7.36-7.37"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Circus Maximus"
+   ]
+  },
+  {
+   "id": "jordanes_getica_551",
+   "year": 551,
+   "title": "Jordanes writes the Getica",
+   "type": "literary",
+   "cats": [
+    "literature"
+   ],
+   "importance": 3,
+   "summary": "At Constantinople in 551, Jordanes, a Latin-speaking official of Gothic descent, wrote De origine actibusque Getarum, a short summary of Cassiodorus's lost twelve-book Gothic History, which he claims to have had for only three days. It is our main narrative source for Gothic origins, the Catalaunian Plains and Attila's death, and ends by celebrating the union of Amal blood with the Anicii in Germanus's son.",
+   "loc": [
+    28.98,
+    41.01
+   ],
+   "locName": "Constantinople",
+   "locCertainty": "certain",
+   "people": [
+    "jordanes",
+    "cassiodorus",
+    "germanus_patricius"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Jordanes",
+     "w": "Getica",
+     "r": "1-3, 314-316"
+    }
+   ],
+   "debate": "How much is Cassiodorus, how much Jordanes, and how much invention is endlessly debated. Goffart sees a pro-imperial work with a political agenda; Heather and Wolfram trust some oral Gothic traditions in it; Christensen doubts nearly all of the early migration story.",
+   "scholarship": [
+    "Goffart, The Narrators of Barbarian History (1988)",
+    "Christensen, Cassiodorus, Jordanes and the History of the Goths (2002)",
+    "Heather, Goths and Romans (1991)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Cassiodorus",
+    "Scandza"
+   ]
+  },
+  {
+   "id": "secret_history_550",
+   "year": 550,
+   "title": "Procopius writes the Secret History",
+   "type": "literary",
+   "cats": [
+    "literature",
+    "political"
+   ],
+   "importance": 4,
+   "summary": "Around 550 Procopius wrote, but did not publish, the Anekdota, a savage attack on Justinian and Theodora as demons who destroyed the empire, with pornographic slander of Theodora's youth, and on Belisarius and Antonina. Its text surfaced in the Vatican Library and was first printed by Niccolò Alemanni in 1623.",
+   "detail": "The Secret History's relation to Procopius's other works is a central problem. In the Wars (books 1-7 published c. 551) he is critical but restrained; in the Buildings he praises Justinian extravagantly. Some once doubted Procopius wrote the Anekdota at all; that is no longer held. Kaldellis reads all three as a coherent classicising, subtly subversive oeuvre; Cameron saw a conventional mind; Greatrex supports a 550 date against a 558/559 dating. Its fiscal and administrative information, if hostile, often matches the Novels and papyri.",
+   "loc": [
+    28.98,
+    41.01
+   ],
+   "locName": "Constantinople",
+   "locCertainty": "certain",
+   "people": [
+    "procopius",
+    "justinian_i",
+    "theodora",
+    "belisarius",
+    "antonina"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Secret History",
+     "r": "1.1-3, 12.14-32"
+    }
+   ],
+   "scholarship": [
+    "Cameron, Procopius and the Sixth Century (1985)",
+    "Kaldellis, Procopius of Caesarea: Tyranny, History and Philosophy at the End of Antiquity (2004)",
+    "Greatrex, 'The dates of Procopius' works', BMGS 18 (1994)"
+   ],
+   "certainty": "probable",
+   "tags": [
+    "Anekdota",
+    "Alemanni"
+   ]
+  },
+  {
+   "id": "battle_of_sena_gallica_551",
+   "year": 551,
+   "title": "Battle of Sena Gallica",
+   "type": "naval",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "Off Sena Gallica in autumn 551, a Roman fleet of 50 ships under John, nephew of Vitalian, and the Lombard-friendly Valerian met 47 Gothic ships besieging Ancona. Roman crews kept formation while the Goths crowded and fouled one another; 36 Gothic ships were lost, ending Totila's naval power in the Adriatic.",
+   "loc": [
+    13.3,
+    43.75
+   ],
+   "locName": "Off Sena Gallica (Senigallia), Adriatic",
+   "locCertainty": "approx",
+   "war": "gothic_war_535",
+   "people": [
+    "procopius",
+    "totila"
+   ],
+   "polities": [
+    "rome_east",
+    "ostrogothic_kingdom"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome_east",
+      "commanders": [],
+      "strength": "50 warships under John and Valerian",
+      "losses": "light"
+     },
+     {
+      "polity": "ostrogothic_kingdom",
+      "commanders": [],
+      "strength": "47 warships under Indulf and Gibal",
+      "losses": "36 ships"
+     }
+    ],
+    "victor": "rome_east",
+    "kind": "naval",
+    "significance": "Restored Roman control of the Adriatic, protecting the supply route for Narses's offensive."
+   },
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "8.23"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Ancona"
+   ]
+  },
+  {
+   "id": "silkworms_smuggled_552",
+   "year": 552,
+   "title": "Silkworm eggs smuggled to Constantinople",
+   "type": "economic",
+   "cats": [
+    "economic",
+    "technology"
+   ],
+   "importance": 3,
+   "summary": "Procopius records that monks from 'Serinda', perhaps Sogdiana or Khotan, offered to bring silkworms to Justinian to free the empire from buying silk through Persia, and returned with eggs hidden, according to Theophanes of Byzantium, in a hollow cane. A Byzantine sericulture industry grew, though imports from the East continued.",
+   "loc": [
+    28.98,
+    41.01
+   ],
+   "locName": "Constantinople",
+   "locCertainty": "certain",
+   "people": [
+    "justinian_i",
+    "procopius"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "8.17.1-8"
+    },
+    {
+     "a": "Theophanes of Byzantium",
+     "w": "History",
+     "r": "fr. 3 (in Photius, Bibliotheca 64)"
+    }
+   ],
+   "debate": "Date c. 552-553; Serinda's identification is uncertain.",
+   "certainty": "probable",
+   "tags": [
+    "sericulture",
+    "Serinda"
+   ]
+  },
+  {
+   "id": "spania_founded_552",
+   "year": 552,
+   "title": "Roman expedition to Spain: Spania",
+   "type": "campaign",
+   "cats": [
+    "military",
+    "political"
+   ],
+   "importance": 3,
+   "summary": "Invited by the Visigothic rebel Athanagild against King Agila, Justinian sent the octogenarian patrician Liberius with a small force in 552. When Athanagild won the throne in 555, the Romans kept a coastal strip from about Cartagena to Malaga and the lower Guadalquivir, the province of Spania, under a magister militum, held until about 624.",
+   "loc": [
+    -0.98,
+    37.6
+   ],
+   "locName": "Carthago Nova (Cartagena)",
+   "locCertainty": "approx",
+   "war": "spanish_war_552",
+   "people": [
+    "justinian_i"
+   ],
+   "polities": [
+    "rome_east",
+    "visigothic_kingdom"
+   ],
+   "sources": [
+    {
+     "a": "Isidore of Seville",
+     "w": "History of the Goths",
+     "r": "46-47"
+    },
+    {
+     "a": "Jordanes",
+     "w": "Getica",
+     "r": "303"
+    }
+   ],
+   "debate": "Spania's extent is debated; Corduba and the interior may never have been Roman. An inscription of 589/590 at Cartagena names the magister Comentiolus.",
+   "scholarship": [
+    "Collins, Visigothic Spain 409-711 (2004)",
+    "Wood, 'Defending Byzantine Spain', Early Medieval Europe 18 (2010)"
+   ],
+   "certainty": "probable",
+   "tags": [
+    "Liberius",
+    "Athanagild"
+   ]
+  },
+  {
+   "id": "battle_of_taginae",
+   "year": 552,
+   "month": 7,
+   "title": "Battle of Busta Gallorum (Taginae)",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 5,
+   "summary": "Narses, marching from Ravenna along the Via Flaminia with some 20,000-30,000 men, met Totila at Busta Gallorum near Taginae in the Apennines in late June or July 552. He placed dismounted Lombard and Herul heavy infantry in the centre and 8,000 foot archers on the wings angled forward. Totila delayed, performing a war dance on horseback in gilded armour while waiting for 2,000 reinforcements, then launched a cavalry charge into the crescent of archers. The Gothic horse were shot down, the infantry fled, and Totila was mortally wounded in the rout.",
+   "detail": "Procopius's account is detailed and coherent, and reflects a new Roman tactical style: combined arms with dismounted heavy cavalry as a shield wall and massed archery. Totila had reportedly forbidden his men to use bows or spears other than lances. About 6,000 Goths died. Narses's army included 5,500 Lombards sent by Audoin, 3,000 Heruli, 400 Gepids, Huns and Persian deserters; he dismissed the Lombards after the victory for their savagery. Rome was retaken soon after, for the fifth time in the war (Procopius 8.33.27).",
+   "loc": [
+    12.78,
+    43.23
+   ],
+   "locName": "Busta Gallorum, near Taginae (Gualdo Tadino), Umbria",
+   "locCertainty": "probable",
+   "war": "gothic_war_535",
+   "people": [
+    "narses",
+    "totila",
+    "procopius"
+   ],
+   "polities": [
+    "rome_east",
+    "lombards",
+    "ostrogothic_kingdom"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome_east",
+      "commanders": [
+       "narses"
+      ],
+      "strength": "perhaps 20,000-30,000 incl. 5,500 Lombards, 3,000 Heruli, Gepids and Huns",
+      "losses": "light"
+     },
+     {
+      "polity": "ostrogothic_kingdom",
+      "commanders": [
+       "totila"
+      ],
+      "strength": "perhaps 15,000-20,000",
+      "losses": "c. 6,000 killed; Totila killed"
+     }
+    ],
+    "victor": "rome_east",
+    "kind": "field",
+    "significance": "Broke the Ostrogothic kingdom; the remaining Goths could no longer field a royal army capable of winning a pitched battle."
+   },
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "8.29-8.32"
+    }
+   ],
+   "debate": "The name Busta Gallorum ('tombs of the Gauls') recalls the battle of Sentinum (295 BC); the exact field is disputed (Gualdo Tadino plain vs other sites near Fabriano/Scheggia). Rance analyses Narses's tactics as informed by the Persian-front experience.",
+   "scholarship": [
+    "Rance, 'Narses and the Battle of Taginae (Busta Gallorum) 552', Historia 54 (2005)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Busta Gallorum",
+    "war dance",
+    "dismounted cavalry"
+   ]
+  },
+  {
+   "id": "battle_of_mons_lactarius",
+   "year": 552,
+   "month": 10,
+   "title": "Battle of Mons Lactarius",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 4,
+   "summary": "Teia, Totila's successor, marched south to relieve his brother Aligern guarding the Gothic treasure at Cumae and held the Sarno river for two months until Roman ships cut his supplies. Withdrawing to Mons Lactarius, the Goths attacked on foot in a desperate two-day battle in October 552 (or early 553). Teia fought in the front rank until killed while changing a shield heavy with twelve spears. The survivors were allowed to leave Italy.",
+   "loc": [
+    14.57,
+    40.71
+   ],
+   "locName": "Mons Lactarius (Monti Lattari), near Nuceria",
+   "locCertainty": "probable",
+   "war": "gothic_war_535",
+   "people": [
+    "narses",
+    "teia",
+    "procopius",
+    "agathias"
+   ],
+   "polities": [
+    "rome_east",
+    "ostrogothic_kingdom"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome_east",
+      "commanders": [
+       "narses"
+      ],
+      "strength": "Roman field army",
+      "losses": "significant"
+     },
+     {
+      "polity": "ostrogothic_kingdom",
+      "commanders": [
+       "teia"
+      ],
+      "strength": "last Gothic army",
+      "losses": "heavy; Teia killed"
+     }
+    ],
+    "victor": "rome_east",
+    "kind": "field",
+    "significance": "End of the Ostrogothic monarchy, where Procopius ends his Wars."
+   },
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "8.35"
+    },
+    {
+     "a": "Agathias",
+     "w": "Histories",
+     "r": "1.1, 1.8"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Teia",
+    "Cumae"
+   ]
+  },
+  {
+   "id": "second_council_of_constantinople_553",
+   "year": 553,
+   "month": 5,
+   "day": 5,
+   "title": "Second Council of Constantinople (Fifth Ecumenical)",
+   "type": "religious",
+   "cats": [
+    "religious",
+    "political"
+   ],
+   "importance": 3,
+   "summary": "Hoping to reconcile the anti-Chalcedonians, Justinian had condemned the 'Three Chapters' (the person and works of Theodore of Mopsuestia and some writings of Theodoret and Ibas) in 543/544. The council of 5 May-2 June 553, of some 160 bishops, confirmed the condemnation and struck Pope Vigilius, held in Constantinople since 547 and refusing to attend, from the diptychs. Vigilius gave in later that year.",
+   "loc": [
+    28.98,
+    41.01
+   ],
+   "locName": "Constantinople, Hagia Sophia",
+   "locCertainty": "certain",
+   "people": [
+    "justinian_i",
+    "pope_vigilius"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Acta Conciliorum Oecumenicorum",
+     "w": "ACO IV.1"
+    },
+    {
+     "a": "Evagrius",
+     "w": "Ecclesiastical History",
+     "r": "4.38"
+    }
+   ],
+   "debate": "The council failed to win the miaphysites and caused a schism with Aquileia and Milan (the Schism of the Three Chapters) lasting until 698. Whether the anathemas against Origen belong to this council is disputed.",
+   "scholarship": [
+    "Price, The Acts of the Council of Constantinople of 553 (2009)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Three Chapters",
+    "Iudicatum"
+   ]
+  },
+  {
+   "id": "battle_of_the_volturnus_554",
+   "year": 554,
+   "title": "Battle of the Volturnus (Casilinum)",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 4,
+   "summary": "Two Alamannic brothers serving the Franks, Butilinus and Leutharis, invaded Italy in 553 with a large army and raided to the Straits. Leutharis's column, laden with plunder, perished of disease on the way home. Narses met Butilinus on the Volturnus at Casilinum near Capua in autumn 554, enveloping the Frankish wedge of infantry between his cavalry wings while Herul foot held the centre. Agathias says only five of the enemy escaped.",
+   "loc": [
+    14.21,
+    41.1
+   ],
+   "locName": "Casilinum on the Volturnus, near Capua",
+   "locCertainty": "probable",
+   "war": "gothic_war_535",
+   "people": [
+    "narses",
+    "agathias"
+   ],
+   "polities": [
+    "rome_east",
+    "frankish_kingdom",
+    "alamanni"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome_east",
+      "commanders": [
+       "narses"
+      ],
+      "strength": "18,000 (Agathias)",
+      "losses": "80 killed (Agathias)"
+     },
+     {
+      "polity": "frankish_kingdom",
+      "commanders": [],
+      "strength": "30,000 Franks and Alamanni under Butilinus (Agathias)",
+      "losses": "almost total (Agathias)"
+     }
+    ],
+    "victor": "rome_east",
+    "kind": "field",
+    "significance": "Ended Frankish attempts to take over Italy after the Goths and made Narses master of the peninsula until 568."
+   },
+   "sources": [
+    {
+     "a": "Agathias",
+     "w": "Histories",
+     "r": "2.4-2.10"
+    }
+   ],
+   "debate": "Agathias's numbers and the near-total annihilation are Herodotean exaggerations, but the battle was clearly decisive.",
+   "certainty": "certain",
+   "tags": [
+    "Butilinus",
+    "Leutharis",
+    "wedge"
+   ]
+  },
+  {
+   "id": "pragmatic_sanction_554",
+   "year": 554,
+   "month": 8,
+   "day": 13,
+   "title": "Pragmatic Sanction for Italy",
+   "type": "law",
+   "cats": [
+    "law",
+    "administrative"
+   ],
+   "importance": 3,
+   "summary": "Issued on 13 August 554 at Pope Vigilius's request, the Pragmatic Sanction extended Justinian's legislation to Italy, confirmed the acts of the Gothic kings before Totila but annulled Totila's, restored lands and slaves to their former owners, and gave bishops and notables a role in choosing provincial governors.",
+   "loc": [
+    28.98,
+    41.01
+   ],
+   "locName": "Constantinople",
+   "locCertainty": "certain",
+   "people": [
+    "justinian_i",
+    "pope_vigilius",
+    "narses"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Novellae",
+     "w": "Appendix 7 (Pragmatica sanctio pro petitione Vigilii)"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Totila's acts annulled"
+   ]
+  },
+  {
+   "id": "siege_of_petra_551",
+   "year": 551,
+   "title": "Bessas storms Petra in Lazica",
+   "type": "siege",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "The Persian-held coastal fortress of Petra in Lazica, besieged without success by Dagisthaeus in 549, was stormed in spring 551 by the aged general Bessas, who led the assault personally. Procopius describes the Roman engineers' light rams carried by men inside, Persian incendiaries of sulphur and bitumen, and the final escalade. The Romans razed the walls.",
+   "loc": [
+    41.75,
+    41.77
+   ],
+   "locName": "Petra (Tsikhisdziri), Lazica",
+   "locCertainty": "probable",
+   "war": "lazic_war",
+   "people": [
+    "procopius"
+   ],
+   "polities": [
+    "rome_east",
+    "sasanian",
+    "colchis"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome_east",
+      "commanders": [],
+      "strength": "c. 6,000 under Bessas with Lazic allies",
+      "losses": "significant"
+     },
+     {
+      "polity": "sasanian",
+      "commanders": [],
+      "strength": "2,300 Persian garrison",
+      "losses": "almost all killed or captured; 500 burned in the citadel"
+     }
+    ],
+    "victor": "rome_east",
+    "kind": "siege",
+    "significance": "Turned the Lazic War in Rome's favour on the Black Sea coast."
+   },
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "8.11-8.12"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Bessas",
+    "rams"
+   ]
+  },
+  {
+   "id": "siege_of_phasis_555",
+   "year": 555,
+   "title": "Siege of Phasis",
+   "type": "siege",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "After the Roman generals murdered the Lazic king Gubazes in 555 and nearly lost Lazica's loyalty, the Persian commander Nachoragan besieged Phasis at the mouth of the Rioni. Martin and the young officer Justin, son of Germanus, defended it; a sortie routed the Persians. Agathias's account includes a ruse in which Martin faked the arrival of reinforcements.",
+   "loc": [
+    41.67,
+    42.15
+   ],
+   "locName": "Phasis (Poti), Lazica",
+   "locCertainty": "probable",
+   "war": "lazic_war",
+   "people": [
+    "agathias"
+   ],
+   "polities": [
+    "rome_east",
+    "sasanian",
+    "colchis"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome_east",
+      "commanders": [],
+      "strength": "Roman garrison and fleet under Martin",
+      "losses": "light"
+     },
+     {
+      "polity": "sasanian",
+      "commanders": [],
+      "strength": "60,000 (Agathias, inflated) under Nachoragan",
+      "losses": "heavy"
+     }
+    ],
+    "victor": "rome_east",
+    "kind": "siege",
+    "significance": "Persia's last major offensive in Lazica; a truce followed in 557. Nachoragan was flayed alive by Khosrow."
+   },
+   "sources": [
+    {
+     "a": "Agathias",
+     "w": "Histories",
+     "r": "3.19-3.28"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Gubazes",
+    "Martin"
+   ]
+  },
+  {
+   "id": "avar_embassy_558",
+   "year": 558,
+   "title": "First Avar embassy to Constantinople",
+   "type": "diplomacy",
+   "cats": [
+    "diplomatic"
+   ],
+   "importance": 3,
+   "summary": "Fleeing the Turks, the Avars reached the Caucasus and, through the Alan king Sarosius, sent an envoy named Kandikh to Justinian in 557/558. Their wild appearance, with hair in long braids, caused a sensation. Justinian granted gifts and subsidies and used them against the Kutrigurs, Utigurs and Sabirs, a policy that soon brought them to the Danube.",
+   "loc": [
+    28.98,
+    41.01
+   ],
+   "locName": "Constantinople",
+   "locCertainty": "certain",
+   "people": [
+    "justinian_i",
+    "menander_protector"
+   ],
+   "polities": [
+    "avars",
+    "rome_east",
+    "alans"
+   ],
+   "sources": [
+    {
+     "a": "Menander Protector",
+     "w": "History",
+     "r": "fr. 5.1-2 (Blockley)"
+    },
+    {
+     "a": "Agathias",
+     "w": "Histories",
+     "r": "5.25"
+    },
+    {
+     "a": "Theophanes",
+     "w": "Chronicle",
+     "r": "AM 6050"
+    }
+   ],
+   "scholarship": [
+    "Pohl, The Avars: A Steppe Empire in Central Europe 567-822 (2018)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Kandikh",
+    "Sarosius"
+   ]
+  },
+  {
+   "id": "battle_of_melantias_559",
+   "year": 559,
+   "title": "Belisarius's last victory: Melantias",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "In winter 558/559 the Kutrigur Huns under Zabergan crossed the frozen Danube and split into three columns, one reaching Melantias 30 km from Constantinople. The retired Belisarius, with 300 veterans and a mass of peasants and townsmen, laid an ambush in a wooded valley near the village of Chettus, making noise and dust to simulate a large army; the Kutrigurs fled.",
+   "loc": [
+    28.58,
+    41.02
+   ],
+   "locName": "Melantias and Chettus, near Constantinople",
+   "locCertainty": "approx",
+   "people": [
+    "belisarius",
+    "agathias",
+    "justinian_i"
+   ],
+   "polities": [
+    "rome_east",
+    "kutrigurs_utigurs"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome_east",
+      "commanders": [
+       "belisarius"
+      ],
+      "strength": "300 veterans plus civilians",
+      "losses": "none recorded"
+     },
+     {
+      "polity": "kutrigurs_utigurs",
+      "commanders": [],
+      "strength": "2,000 Kutrigur horsemen of Zabergan's column",
+      "losses": "c. 400 (Agathias)"
+     }
+    ],
+    "victor": "rome_east",
+    "kind": "ambush",
+    "significance": "Saved the capital's suburbs; Justinian then paid the Kutrigurs to leave and set the Utigurs against them."
+   },
+   "sources": [
+    {
+     "a": "Agathias",
+     "w": "Histories",
+     "r": "5.15-5.20"
+    },
+    {
+     "a": "Theophanes",
+     "w": "Chronicle",
+     "r": "AM 6051"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Zabergan",
+    "Chettus"
+   ]
+  },
+  {
+   "id": "fifty_years_peace_562",
+   "year": 562,
+   "title": "The Fifty Years' Peace with Persia",
+   "type": "treaty",
+   "cats": [
+    "diplomatic",
+    "religious",
+    "economic"
+   ],
+   "importance": 3,
+   "summary": "Concluded by Peter the Patrician and the Persian Yazdgushnasp at Dara in late 561 and ratified in 562, the treaty gave Lazica to Rome, set a Roman payment of 30,000 nomismata (about 420 lbs of gold) a year, with the first seven years paid up front, restricted trade to designated customs posts, forbade enticing Arab allies, limited Dara's garrison, and allowed Christians in Persia to worship and bury their dead.",
+   "loc": [
+    40.948,
+    37.177
+   ],
+   "locName": "Dara",
+   "locCertainty": "certain",
+   "war": "lazic_war",
+   "people": [
+    "justinian_i",
+    "khosrow_i",
+    "menander_protector"
+   ],
+   "polities": [
+    "rome_east",
+    "sasanian"
+   ],
+   "sources": [
+    {
+     "a": "Menander Protector",
+     "w": "History",
+     "r": "fr. 6.1 (Blockley)"
+    }
+   ],
+   "scholarship": [
+    "Greatrex & Lieu, The Roman Eastern Frontier and the Persian Wars, Part II (2002)"
+   ],
+   "debate": "Menander preserves the treaty's thirteen clauses in remarkable detail, one of the most complete Roman treaties to survive. It lasted only ten years.",
+   "certainty": "certain",
+   "tags": [
+    "Peter the Patrician",
+    "customs posts"
+   ]
+  },
+  {
+   "id": "rededication_of_hagia_sophia_562",
+   "year": 562,
+   "month": 12,
+   "day": 24,
+   "title": "Rededication of Hagia Sophia",
+   "type": "building",
+   "cats": [
+    "cultural",
+    "religious"
+   ],
+   "importance": 2,
+   "summary": "After the dome collapsed on 7 May 558, Isidore the Younger rebuilt it with a higher profile and steeper curvature; the church was rededicated on 24 December 562. Paul the Silentiary recited his Ekphrasis, a verse description of the building, at the ceremonies in early 563.",
+   "loc": [
+    28.9802,
+    41.0086
+   ],
+   "locName": "Hagia Sophia, Constantinople",
+   "locCertainty": "certain",
+   "people": [
+    "justinian_i",
+    "agathias"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Paul the Silentiary",
+     "w": "Ekphrasis of Hagia Sophia"
+    },
+    {
+     "a": "Agathias",
+     "w": "Histories",
+     "r": "5.9.2-5"
+    },
+    {
+     "a": "John Malalas",
+     "w": "Chronicle",
+     "r": "18.151"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Isidore the Younger"
+   ]
+  },
+  {
+   "id": "death_of_justinian_565",
+   "year": 565,
+   "month": 11,
+   "day": 14,
+   "title": "Death of Justinian",
+   "type": "death",
+   "cats": [
+    "political"
+   ],
+   "importance": 4,
+   "summary": "Justinian died on the night of 14/15 November 565 aged about 83, having outlived Theodora, Belisarius (d. March 565) and most of his generation, and spent his last years absorbed in theology (he had just proclaimed the doctrine of the incorruptibility of Christ's body, Aphthartodocetism). His nephew Justin II, curopalates, was crowned at once.",
+   "loc": [
+    28.98,
+    41.01
+   ],
+   "locName": "Constantinople",
+   "locCertainty": "certain",
+   "people": [
+    "justinian_i",
+    "justin_ii",
+    "belisarius"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Corippus",
+     "w": "In laudem Iustini",
+     "r": "1"
+    },
+    {
+     "a": "Evagrius",
+     "w": "Ecclesiastical History",
+     "r": "4.39-41"
+    }
+   ],
+   "debate": "The balance of his reign is contested: an empire enlarged by a third, a legal and architectural legacy without equal, against an overextended army, fiscal exhaustion, plague and unsolved religious division that his successors inherited.",
+   "certainty": "certain",
+   "tags": [
+    "Aphthartodocetism"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,3720 @@
+{
+ "wars": [
+  {
+   "id": "first_punic_war",
+   "name": "First Punic War",
+   "start": -264,
+   "end": -241,
+   "sides": [
+    [
+     "rome",
+     "mamertines",
+     "syracuse"
+    ],
+    [
+     "carthage"
+    ]
+   ],
+   "outcome": "Roman victory; Carthage evacuates Sicily and pays 3,200 talents; western Sicily becomes Rome's first overseas possession",
+   "summary": "Twenty-three years of war for Sicily, begun over the Mamertines of Messana, in which Rome built its first battle fleets, won at Mylae, Ecnomus and finally the Aegates, and lost hundreds of ships to Carthaginian skill and Mediterranean storms. Polybius calls it the longest, most continuous and greatest war he knew of.",
+   "detail": "On land Rome quickly overran most of Sicily but could not take the western fortresses of Lilybaeum and Drepana. At sea, the corvus let Roman marines beat more skilful Carthaginian crews, and Rome invaded Africa in 256, only for Regulus to be destroyed by Xanthippus. Storms in 255, 253 and 249 and the defeat at Drepana cost Rome perhaps 600-700 warships and well over 100,000 men. The war was won by Roman willingness to absorb loss: a final fleet built on private credit destroyed Carthage's last relief attempt in 241. Polybius' account (book 1), based on Fabius Pictor and the pro-Carthaginian Philinus, is the main narrative.",
+   "phases": [
+    {
+     "from": -264,
+     "to": -262,
+     "t": "Messana and the alliance with Hiero"
+    },
+    {
+     "from": -262,
+     "to": -257,
+     "t": "Agrigentum and the creation of the fleet; Mylae"
+    },
+    {
+     "from": -256,
+     "to": -255,
+     "t": "Ecnomus and Regulus in Africa"
+    },
+    {
+     "from": -255,
+     "to": -249,
+     "t": "Storms, Panormus and the siege of Lilybaeum; Drepana"
+    },
+    {
+     "from": -248,
+     "to": -242,
+     "t": "Stalemate: Hamilcar at Heircte and Eryx"
+    },
+    {
+     "from": -242,
+     "to": -241,
+     "t": "Lutatius' fleet and the Aegates"
+    }
+   ],
+   "events": [
+    "mamertine_appeal_264",
+    "battle_of_messana_264",
+    "alliance_with_hiero_263",
+    "siege_of_agrigentum_262",
+    "roman_fleet_built_261",
+    "battle_of_the_lipari_islands",
+    "battle_of_mylae",
+    "triumph_of_duilius_260",
+    "battle_of_thermae_260",
+    "scipio_corsica_aleria_259",
+    "battle_of_sulci",
+    "calpurnius_flamma_camarina_258",
+    "battle_of_tyndaris",
+    "battle_of_ecnomus",
+    "regulus_lands_at_aspis_256",
+    "battle_of_adys",
+    "regulus_peace_terms_256",
+    "battle_of_tunes_255",
+    "battle_of_cape_hermaeum",
+    "storm_off_camarina_255",
+    "capture_of_panormus_254",
+    "storm_off_palinurus_253",
+    "censors_degrade_equites_252",
+    "battle_of_panormus_250",
+    "metellus_elephant_triumph_250",
+    "legend_of_regulus",
+    "siege_of_lilybaeum",
+    "battle_of_drepana",
+    "trial_of_claudius_pulcher_249",
+    "battle_of_phintias",
+    "calatinus_dictator_249",
+    "ludi_tarentini_249",
+    "hamilcar_at_heircte_247",
+    "maritime_colonies_alsium_fregenae",
+    "siege_of_eryx",
+    "private_fleet_loan_243",
+    "treaty_of_lutatius",
+    "battle_of_the_aegates"
+   ],
+   "people": [
+    "marcus_atilius_regulus",
+    "hiero_ii",
+    "hannibal_gisco",
+    "aulus_atilius_calatinus",
+    "hamilcar_barca",
+    "appius_claudius_caudex",
+    "manius_valerius_maximus_messalla",
+    "gnaeus_cornelius_scipio_asina",
+    "gaius_duilius",
+    "lucius_caecilius_metellus_cos251",
+    "publius_claudius_pulcher_cos249",
+    "gaius_lutatius_catulus"
+   ],
+   "campaigns": [
+    "regulus_african_campaign"
+   ],
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "1.7-64"
+    },
+    {
+     "a": "Diodorus Siculus",
+     "w": "Bibliotheca Historica",
+     "r": "23-24"
+    },
+    {
+     "a": "Zonaras",
+     "w": "Epitome Historiarum",
+     "r": "8.8-17"
+    },
+    {
+     "a": "Orosius",
+     "w": "Historiae adversus Paganos",
+     "r": "4.7-11"
+    }
+   ],
+   "scholarship": [
+    "Lazenby, The First Punic War (1996)",
+    "Goldsworthy, The Punic Wars (2000)",
+    "Hoyos, Unplanned Wars (1998)"
+   ],
+   "debate": "Responsibility for the war (Philinus treaty; Roman aggression versus accident), the true size of the fleets, and the role of the corvus are all debated."
+  },
+  {
+   "id": "mercenary_war",
+   "name": "Mercenary War (Truceless War)",
+   "start": -241,
+   "end": -237,
+   "sides": [
+    [
+     "carthage",
+     "numidia_massylii"
+    ],
+    [
+     "libyan_rebels"
+    ]
+   ],
+   "outcome": "Carthaginian victory under Hamilcar Barca; Rome exploits the crisis to seize Sardinia",
+   "summary": "A savage revolt of Carthage's unpaid mercenaries and Libyan subjects that nearly destroyed Carthage after the First Punic War. Rome stayed formally neutral but seized Sardinia at the end.",
+   "phases": [
+    {
+     "from": -241,
+     "to": -240,
+     "t": "Mutiny at Sicca and siege of Utica and Hippou Acra"
+    },
+    {
+     "from": -240,
+     "to": -238,
+     "t": "Hamilcar's campaigns: Bagradas, the Saw"
+    },
+    {
+     "from": -238,
+     "to": -237,
+     "t": "Defeat of Mathos; loss of Sardinia"
+    }
+   ],
+   "events": [
+    "mercenary_war_outbreak_241",
+    "battle_of_the_saw"
+   ],
+   "people": [
+    "mathos",
+    "hamilcar_barca",
+    "hanno_the_great"
+   ],
+   "campaigns": [],
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "1.65-88"
+    }
+   ],
+   "scholarship": [
+    "Hoyos, Truceless War (2007)"
+   ]
+  },
+  {
+   "id": "first_illyrian_war",
+   "name": "First Illyrian War",
+   "start": -229,
+   "end": -228,
+   "sides": [
+    [
+     "rome"
+    ],
+    [
+     "illyrians"
+    ]
+   ],
+   "outcome": "Roman victory; Teuta pays tribute and is barred from sailing south of Lissus with armed ships; a Roman sphere on the Adriatic coast",
+   "summary": "Rome's first military intervention across the Adriatic, against Queen Teuta's Ardiaean kingdom after Illyrian piracy and the murder of a Roman envoy.",
+   "detail": "Corcyra, Apollonia, Epidamnus, the Parthini and the Atintani entered Roman fides, and Demetrius of Pharos became a Roman client ruler. Roman envoys explained the war to the Aetolian and Achaean Leagues, Rome's first formal diplomatic contact with mainland Greece.",
+   "phases": [
+    {
+     "from": -229,
+     "to": -229,
+     "t": "Roman landing and capitulation of Corcyra"
+    },
+    {
+     "from": -228,
+     "to": -228,
+     "t": "Peace with Teuta"
+    }
+   ],
+   "events": [
+    "embassy_of_the_coruncanii_230",
+    "battle_of_paxos",
+    "roman_crossing_to_illyria_229",
+    "peace_with_teuta_228"
+   ],
+   "people": [
+    "teuta",
+    "demetrius_of_pharos"
+   ],
+   "campaigns": [],
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "2.2-12"
+    },
+    {
+     "a": "Appian",
+     "w": "Illyrica",
+     "r": "7-8"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History (fragments)",
+     "r": "12.49"
+    }
+   ],
+   "scholarship": [
+    "Hammond, 'Illyris, Rome and Macedon in 229-205 BC', JRS 58 (1968)",
+    "Eckstein, Rome Enters the Greek East (2008)"
+   ]
+  },
+  {
+   "id": "second_illyrian_war",
+   "name": "Second Illyrian War",
+   "start": -219,
+   "end": -219,
+   "sides": [
+    [
+     "rome"
+    ],
+    [
+     "illyrians"
+    ]
+   ],
+   "outcome": "Roman victory; Demetrius of Pharos expelled and flees to Philip V",
+   "summary": "A short campaign by the consuls Aemilius Paullus and Livius Salinator against Demetrius of Pharos, who had broken the 228 treaty, taking Dimale and Pharos.",
+   "phases": [],
+   "events": [
+    "siege_of_pharos"
+   ],
+   "people": [
+    "demetrius_of_pharos",
+    "lucius_aemilius_paullus_cos216",
+    "marcus_livius_salinator"
+   ],
+   "campaigns": [],
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "3.16-19"
+    },
+    {
+     "a": "Appian",
+     "w": "Illyrica",
+     "r": "8"
+    }
+   ]
+  },
+  {
+   "id": "third_illyrian_war",
+   "name": "Third Illyrian War",
+   "start": -168,
+   "end": -168,
+   "sides": [
+    [
+     "rome"
+    ],
+    [
+     "illyrians"
+    ]
+   ],
+   "outcome": "Roman victory; end of the Ardiaean monarchy; Illyria divided into three tributary districts",
+   "summary": "A thirty-day campaign by the praetor Lucius Anicius Gallus against King Genthius, Perseus' ally, ending with the surrender of Scodra.",
+   "phases": [],
+   "events": [
+    "siege_of_scodra_168"
+   ],
+   "people": [
+    "lucius_anicius_gallus",
+    "genthius"
+   ],
+   "campaigns": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "44.30-32"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "45.26"
+    }
+   ]
+  },
+  {
+   "id": "gallic_war_225_222",
+   "name": "Gallic War of 225-222",
+   "start": -225,
+   "end": -222,
+   "sides": [
+    [
+     "rome",
+     "cenomani",
+     "veneti"
+    ],
+    [
+     "boii",
+     "insubres",
+     "gaesatae"
+    ]
+   ],
+   "outcome": "Roman victory; Boii and Insubres submit; Roman colonies planned on the Po",
+   "summary": "The great Gallic invasion of Etruria in 225, crushed at Telamon, followed by Roman offensives across the Po culminating in Marcellus' spolia opima at Clastidium and the capture of Mediolanum.",
+   "detail": "Polybius (2.14-35) gives the war a lengthy excursus, seeing the Gauls as a permanent threat and Rome's victory as the precondition for its resistance to Hannibal. The manpower list of 225 comes from this context.",
+   "phases": [
+    {
+     "from": -225,
+     "to": -225,
+     "t": "Invasion of Etruria; Faesulae and Telamon"
+    },
+    {
+     "from": -224,
+     "to": -223,
+     "t": "Roman offensives against Boii and Insubres"
+    },
+    {
+     "from": -222,
+     "to": -222,
+     "t": "Clastidium and Mediolanum"
+    }
+   ],
+   "events": [
+    "battle_of_faesulae",
+    "roman_manpower_list_225",
+    "battle_of_telamon",
+    "boii_submit_224",
+    "battle_of_the_adda_223",
+    "battle_of_clastidium",
+    "fall_of_mediolanum_222"
+   ],
+   "people": [
+    "aneroestes",
+    "gaius_flaminius",
+    "marcus_claudius_marcellus",
+    "viridomarus",
+    "gnaeus_cornelius_scipio_calvus"
+   ],
+   "campaigns": [
+    "gallic_army_225"
+   ],
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "2.22-35"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Marcellus",
+     "r": "3-8"
+    },
+    {
+     "a": "Zonaras",
+     "w": "Epitome Historiarum",
+     "r": "8.19-20"
+    }
+   ],
+   "scholarship": [
+    "Williams, Beyond the Rubicon (2001)"
+   ]
+  },
+  {
+   "id": "gallic_war_200_191",
+   "name": "Roman conquest of Cisalpine Gaul (200-191)",
+   "start": -200,
+   "end": -191,
+   "sides": [
+    [
+     "rome",
+     "cenomani"
+    ],
+    [
+     "boii",
+     "insubres",
+     "ligures"
+    ]
+   ],
+   "outcome": "Roman victory; Boii lose half their land; Cisalpine Gaul south of the Po under Roman control; colonies at Bononia, Parma, Mutina",
+   "summary": "After Hannibal's departure the Boii and Insubres, encouraged by the Carthaginian officer Hamilcar, renewed the war. Defeats at Cremona (200), the Mincius (197), Comum (196) and Mutina (193) and Nasica's victory over the Boii (191) ended Gallic independence south of the Alps.",
+   "phases": [
+    {
+     "from": -200,
+     "to": -197,
+     "t": "Cremona and the Mincius"
+    },
+    {
+     "from": -196,
+     "to": -194,
+     "t": "Campaigns against Insubres and Boii"
+    },
+    {
+     "from": -193,
+     "to": -191,
+     "t": "Mutina and the final defeat of the Boii"
+    }
+   ],
+   "events": [
+    "battle_of_cremona_200",
+    "battle_of_the_mincius",
+    "battle_of_mutina_193",
+    "defeat_of_the_boii_191",
+    "colony_bononia_189"
+   ],
+   "people": [
+    "scipio_nasica_cos191"
+   ],
+   "campaigns": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "31.10-21"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "33.22-23"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "35.4-6"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "36.38-40"
+    }
+   ],
+   "scholarship": [
+    "Williams, Beyond the Rubicon (2001)",
+    "Dyson, The Creation of the Roman Frontier (1985)"
+   ]
+  },
+  {
+   "id": "istrian_wars",
+   "name": "Istrian Wars",
+   "start": -221,
+   "end": -177,
+   "sides": [
+    [
+     "rome"
+    ],
+    [
+     "istri"
+    ]
+   ],
+   "outcome": "Roman victory; Istria subdued by 177",
+   "summary": "Two wars against the Istrians at the head of the Adriatic: a campaign against piracy in 221 and the war of 178-177, ended by the capture of Nesactium.",
+   "phases": [
+    {
+     "from": -221,
+     "to": -221,
+     "t": "First Istrian War"
+    },
+    {
+     "from": -181,
+     "to": -181,
+     "t": "Aquileia founded"
+    },
+    {
+     "from": -178,
+     "to": -177,
+     "t": "Second Istrian War"
+    }
+   ],
+   "events": [
+    "istrian_campaign_221",
+    "founding_of_aquileia",
+    "siege_of_nesactium"
+   ],
+   "people": [
+    "marcus_minucius_rufus"
+   ],
+   "campaigns": [],
+   "sources": [
+    {
+     "a": "Eutropius",
+     "w": "Breviarium",
+     "r": "3.7"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "41.1-11"
+    }
+   ]
+  },
+  {
+   "id": "ligurian_wars",
+   "name": "Ligurian Wars",
+   "start": -238,
+   "end": -155,
+   "sides": [
+    [
+     "rome"
+    ],
+    [
+     "ligures"
+    ]
+   ],
+   "outcome": "Roman victory after eighty years of intermittent warfare; Apuani deported to Samnium; colonies at Luna and Genua secured",
+   "summary": "A long, grinding series of mountain wars against the Ligurian tribes of the northern Apennines and Maritime Alps, which Livy calls a training ground for Roman soldiers. Highlights include the deportation of 47,000 Apuani (180) and the scandal of Popillius' enslavement of the Statellates (173).",
+   "phases": [
+    {
+     "from": -238,
+     "to": -230,
+     "t": "First campaigns"
+    },
+    {
+     "from": -201,
+     "to": -180,
+     "t": "Renewed wars; deportation of the Apuani"
+    },
+    {
+     "from": -179,
+     "to": -155,
+     "t": "Final campaigns; Statellates affair"
+    }
+   ],
+   "events": [
+    "deportation_of_the_apuani",
+    "colony_luna_177",
+    "popillius_and_the_statellates_173"
+   ],
+   "people": [],
+   "campaigns": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "39.1-2"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "40.38"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "42.7-10"
+    },
+    {
+     "a": "Florus",
+     "w": "Epitome",
+     "r": "1.19"
+    }
+   ],
+   "scholarship": [
+    "Dyson, The Creation of the Roman Frontier (1985)"
+   ]
+  },
+  {
+   "id": "social_war_220",
+   "name": "Social War (220-217)",
+   "start": -220,
+   "end": -217,
+   "sides": [
+    [
+     "macedon_antigonid",
+     "achaean_league"
+    ],
+    [
+     "aetolian_league",
+     "sparta"
+    ]
+   ],
+   "outcome": "Peace of Naupactus on the basis of the status quo",
+   "summary": "War of Philip V and the Hellenic Alliance against the Aetolian League, ended at Naupactus in 217 when Philip turned his attention to Italy after Trasimene.",
+   "phases": [],
+   "events": [
+    "peace_of_naupactus"
+   ],
+   "people": [
+    "philip_v",
+    "demetrius_of_pharos"
+   ],
+   "campaigns": [],
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "4.3-37"
+    },
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "5.1-30"
+    },
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "5.101-105"
+    }
+   ],
+   "scholarship": [
+    "Walbank, Philip V of Macedon (1940)"
+   ]
+  },
+  {
+   "id": "fourth_syrian_war",
+   "name": "Fourth Syrian War",
+   "start": -219,
+   "end": -217,
+   "sides": [
+    [
+     "ptolemaic"
+    ],
+    [
+     "seleucid"
+    ]
+   ],
+   "outcome": "Ptolemaic victory at Raphia; Coele-Syria remains Ptolemaic",
+   "summary": "Antiochus III's attempt to conquer Ptolemaic Coele-Syria, ended by Ptolemy IV's victory at Raphia.",
+   "phases": [],
+   "events": [
+    "battle_of_raphia"
+   ],
+   "people": [
+    "ptolemy_iv",
+    "antiochus_iii"
+   ],
+   "campaigns": [],
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "5.58-87"
+    }
+   ]
+  },
+  {
+   "id": "fifth_syrian_war",
+   "name": "Fifth Syrian War",
+   "start": -202,
+   "end": -195,
+   "sides": [
+    [
+     "seleucid"
+    ],
+    [
+     "ptolemaic"
+    ]
+   ],
+   "outcome": "Seleucid victory; Coele-Syria and Judaea pass to Antiochus III",
+   "summary": "Antiochus III exploited the minority of Ptolemy V to take Coele-Syria, winning at Panium (200); peace was sealed by the marriage of his daughter Cleopatra I to Ptolemy V.",
+   "phases": [],
+   "events": [
+    "battle_of_panium"
+   ],
+   "people": [
+    "antiochus_iii"
+   ],
+   "campaigns": [],
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "16.18-39"
+    },
+    {
+     "a": "Josephus",
+     "w": "Jewish Antiquities",
+     "r": "12.129-153"
+    }
+   ]
+  },
+  {
+   "id": "sixth_syrian_war",
+   "name": "Sixth Syrian War",
+   "start": -170,
+   "end": -168,
+   "sides": [
+    [
+     "seleucid"
+    ],
+    [
+     "ptolemaic"
+    ]
+   ],
+   "outcome": "Antiochus IV forced out of Egypt by Roman ultimatum (Day of Eleusis)",
+   "summary": "Antiochus IV invaded Egypt twice and was crowned at Memphis, but withdrew when Popillius Laenas delivered the Senate's ultimatum at Eleusis.",
+   "phases": [],
+   "events": [
+    "day_of_eleusis"
+   ],
+   "people": [
+    "gaius_popillius_laenas",
+    "antiochus_iv"
+   ],
+   "campaigns": [],
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "28.18-23"
+    },
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "29.27"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "45.11-12"
+    },
+    {
+     "a": "Bible",
+     "w": "Daniel",
+     "r": "11.25-30"
+    }
+   ]
+  },
+  {
+   "id": "second_punic_war",
+   "name": "Second Punic War",
+   "start": -218,
+   "end": -201,
+   "sides": [
+    [
+     "rome",
+     "numidia_massylii",
+     "massalia",
+     "pergamon",
+     "aetolian_league",
+     "saguntum"
+    ],
+    [
+     "carthage",
+     "macedon_antigonid",
+     "campanians",
+     "syracuse",
+     "masaesylii",
+     "insubres",
+     "boii"
+    ]
+   ],
+   "outcome": "Roman victory; Carthage loses Spain and its fleet, pays 10,000 talents over 50 years and may not wage war without Roman permission",
+   "summary": "The Hannibalic War, the defining conflict of Roman history. Hannibal crossed the Alps and annihilated Roman armies at the Trebia, Trasimene and Cannae, detaching Capua, much of the south, Syracuse and Macedon from Rome. Rome refused to negotiate, ground down his allies, won the war in Spain under the Scipios, killed Hasdrubal at the Metaurus and finally carried the war to Africa, where Scipio defeated Hannibal at Zama.",
+   "detail": "The war mobilised Roman and allied manpower on an unprecedented scale: some 20-25 legions were in service at the peak (212-211), and perhaps a quarter of Italian adult males served at any time. It produced lasting changes: the denarius, the rise of publicani, extraordinary commands, the devastation of parts of southern Italy (Toynbee's 'Hannibal's Legacy', much debated), Roman involvement in Spain and the Greek East, and the ideology of Roman resilience. Polybius (books 3, 7-15, partly fragmentary) and Livy (books 21-30) are the principal sources; Livy is fuller for Italy but contains annalistic inflation and doublets.",
+   "phases": [
+    {
+     "from": -219,
+     "to": -218,
+     "t": "Saguntum and the outbreak"
+    },
+    {
+     "from": -218,
+     "to": -216,
+     "t": "Hannibal's invasion: Trebia, Trasimene, Cannae"
+    },
+    {
+     "from": -216,
+     "to": -211,
+     "t": "War of attrition in Italy; Syracuse, Capua; disaster in Spain"
+    },
+    {
+     "from": -210,
+     "to": -206,
+     "t": "Scipio in Spain; the Metaurus"
+    },
+    {
+     "from": -205,
+     "to": -201,
+     "t": "Scipio in Africa; Zama and peace"
+    }
+   ],
+   "events": [
+    "siege_of_saguntum",
+    "declaration_of_war_218",
+    "boian_revolt_218",
+    "battle_of_the_rhone_crossing",
+    "hannibal_crosses_the_alps",
+    "battle_of_cissa",
+    "battle_of_ticinus",
+    "battle_of_the_trebia",
+    "fabius_dictator_217",
+    "religious_measures_217",
+    "battle_of_ager_falernus",
+    "lex_metilia_217",
+    "battle_of_the_ebro_river",
+    "battle_of_lake_trasimene",
+    "rome_after_cannae_216",
+    "lectio_senatus_buteo_216",
+    "defection_of_capua_216",
+    "battle_of_nola_216",
+    "battle_of_silva_litana",
+    "siege_of_casilinum",
+    "battle_of_cannae",
+    "lex_oppia_215",
+    "death_of_hiero_215",
+    "battle_of_dertosa",
+    "battle_of_cornus",
+    "battle_of_beneventum_214",
+    "siege_of_syracuse_213",
+    "tarentum_betrayed_212",
+    "publicani_fraud_212",
+    "battle_of_the_silarus",
+    "battle_of_herdonia_212",
+    "ludi_apollinares_212",
+    "siege_of_capua_211",
+    "hannibal_march_on_rome_211",
+    "battle_of_the_upper_baetis",
+    "introduction_of_the_denarius",
+    "ovation_of_marcellus_211",
+    "scipio_command_in_spain_210",
+    "battle_of_herdonia_210",
+    "latin_colonies_refuse_209",
+    "aurum_vicesimarium_209",
+    "siege_of_new_carthage",
+    "siege_of_tarentum_209",
+    "battle_of_baecula",
+    "death_of_marcellus_208",
+    "hymn_of_livius_andronicus_207",
+    "battle_of_grumentum",
+    "battle_of_the_metaurus",
+    "battle_of_ilipa",
+    "mutiny_at_sucro",
+    "founding_of_italica",
+    "surrender_of_gades_206",
+    "mago_lands_at_genua",
+    "pleminius_scandal_locri",
+    "censorship_nero_salinator_204",
+    "scipio_lands_in_africa",
+    "arrival_of_magna_mater",
+    "battle_of_the_great_plains",
+    "capture_of_syphax_203",
+    "mago_defeated_in_insubria_203",
+    "hannibal_recalled_203",
+    "battle_of_utica_203",
+    "armistice_broken_202",
+    "battle_of_zama",
+    "peace_of_201",
+    "triumph_of_scipio_africanus_201"
+   ],
+   "people": [
+    "hannibal_barca",
+    "scipio_africanus",
+    "masinissa",
+    "mago_barca",
+    "quintus_fabius_maximus",
+    "gaius_laelius",
+    "publius_cornelius_scipio_cos218",
+    "gnaeus_cornelius_scipio_calvus",
+    "marcus_claudius_marcellus",
+    "hasdrubal_barca",
+    "hasdrubal_gisco",
+    "syphax"
+   ],
+   "campaigns": [
+    "hannibals_march",
+    "hannibal_217_216",
+    "hannibal_march_on_rome_211",
+    "scipio_in_spain",
+    "hasdrubals_march_207",
+    "nero_march_207",
+    "scipio_in_africa"
+   ],
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "3"
+    },
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "7-15"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "21-30"
+    },
+    {
+     "a": "Appian",
+     "w": "Hannibalica",
+     "r": "1-61"
+    },
+    {
+     "a": "Appian",
+     "w": "Iberica",
+     "r": "6-38"
+    },
+    {
+     "a": "Appian",
+     "w": "Libyca",
+     "r": "6-66"
+    },
+    {
+     "a": "Silius Italicus",
+     "w": "Punica",
+     "r": "1-17"
+    }
+   ],
+   "scholarship": [
+    "Lazenby, Hannibal's War (1978)",
+    "Goldsworthy, The Punic Wars (2000)",
+    "Hoyos (ed.), A Companion to the Punic Wars (2011)",
+    "Toynbee, Hannibal's Legacy (1965)",
+    "Brunt, Italian Manpower (1971)",
+    "Fronda, Between Rome and Carthage (2010)"
+   ],
+   "debate": "War guilt (Saguntum, the Ebro treaty, Barcid ambition versus Roman provocation); Hannibal's strategy and why he did not march on Rome after Cannae; the reliability of Livy's figures; the long-term economic effects on Italy (Toynbee versus his critics)."
+  },
+  {
+   "id": "first_macedonian_war",
+   "name": "First Macedonian War",
+   "start": -214,
+   "end": -205,
+   "sides": [
+    [
+     "rome",
+     "aetolian_league",
+     "pergamon"
+    ],
+    [
+     "macedon_antigonid",
+     "achaean_league"
+    ]
+   ],
+   "outcome": "Peace of Phoenice: compromise; Philip keeps Atintania, Rome keeps its Illyrian protectorate",
+   "summary": "A sideshow of the Hannibalic War: Philip V allied with Hannibal and attacked Rome's Illyrian clients; Rome contained him with a fleet and the Aetolian alliance, then made peace at Phoenice.",
+   "phases": [
+    {
+     "from": -214,
+     "to": -212,
+     "t": "Philip in Illyria; Apollonia; capture of Lissus"
+    },
+    {
+     "from": -211,
+     "to": -207,
+     "t": "Roman-Aetolian alliance; Aegina"
+    },
+    {
+     "from": -206,
+     "to": -205,
+     "t": "Aetolian peace and the Peace of Phoenice"
+    }
+   ],
+   "events": [
+    "treaty_hannibal_philip_215",
+    "battle_of_apollonia_214",
+    "roman_aetolian_treaty_211",
+    "aegina_sold_to_attalus_210",
+    "aetolian_separate_peace_206",
+    "treaty_of_phoenice"
+   ],
+   "people": [
+    "philip_v",
+    "marcus_valerius_laevinus",
+    "hannibal_barca",
+    "publius_sulpicius_galba_maximus",
+    "attalus_i"
+   ],
+   "campaigns": [],
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "7.9"
+    },
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "9.37-42"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "24.40"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "26.24"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "29.12"
+    }
+   ],
+   "scholarship": [
+    "Eckstein, Rome Enters the Greek East (2008)",
+    "Walbank, Philip V of Macedon (1940)"
+   ]
+  },
+  {
+   "id": "second_macedonian_war",
+   "name": "Second Macedonian War",
+   "start": -200,
+   "end": -197,
+   "sides": [
+    [
+     "rome",
+     "pergamon",
+     "rhodes",
+     "athens",
+     "aetolian_league",
+     "achaean_league"
+    ],
+    [
+     "macedon_antigonid"
+    ]
+   ],
+   "outcome": "Roman victory; Philip evacuates Greece, surrenders his fleet, pays 1,000 talents; 'freedom of the Greeks' proclaimed",
+   "summary": "Launched after appeals from Rhodes and Pergamon and against initial popular reluctance at Rome, the war ended when Flamininus crushed Philip at Cynoscephalae. The settlement proclaimed at the Isthmian Games made Rome the patron of Greek freedom and the arbiter of the Greek world.",
+   "phases": [
+    {
+     "from": -200,
+     "to": -199,
+     "t": "Sulpicius Galba's campaigns"
+    },
+    {
+     "from": -198,
+     "to": -198,
+     "t": "Flamininus at the Aous; Achaeans join Rome"
+    },
+    {
+     "from": -197,
+     "to": -197,
+     "t": "Cynoscephalae"
+    },
+    {
+     "from": -196,
+     "to": -194,
+     "t": "Settlement and evacuation"
+    }
+   ],
+   "events": [
+    "vote_for_war_with_macedon_200",
+    "siege_of_abydos_200",
+    "athens_declares_war_200",
+    "achaean_league_joins_rome_198",
+    "battle_of_the_aous",
+    "conference_of_nicaea",
+    "battle_of_cynoscephalae",
+    "isthmian_declaration",
+    "triumph_of_flamininus_194"
+   ],
+   "people": [
+    "philip_v",
+    "titus_quinctius_flamininus",
+    "marcus_aemilius_lepidus_cos187",
+    "publius_sulpicius_galba_maximus"
+   ],
+   "campaigns": [
+    "flamininus_198_197"
+   ],
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "16.24-34"
+    },
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "18.1-48"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "31-33"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Flamininus",
+     "r": "3-12"
+    }
+   ],
+   "scholarship": [
+    "Harris, War and Imperialism in Republican Rome (1979)",
+    "Gruen, The Hellenistic World and the Coming of Rome (1984)",
+    "Eckstein, Rome Enters the Greek East (2008)",
+    "Briscoe, A Commentary on Livy XXXI-XXXIII (1973)"
+   ],
+   "debate": "The key case study in the debate over Roman imperialism: defensive fear (Holleaux), aggressive appetite (Harris), Greek manipulation of Rome (Gruen), or systemic crisis (Eckstein)."
+  },
+  {
+   "id": "laconian_war_195",
+   "name": "War against Nabis",
+   "start": -195,
+   "end": -195,
+   "sides": [
+    [
+     "rome",
+     "achaean_league",
+     "pergamon",
+     "rhodes",
+     "macedon_antigonid"
+    ],
+    [
+     "sparta"
+    ]
+   ],
+   "outcome": "Nabis surrenders Argos and the Laconian coast but keeps Sparta",
+   "summary": "Flamininus' campaign against Nabis of Sparta to free Argos, the last war of the Greek settlement.",
+   "phases": [],
+   "events": [
+    "siege_of_sparta_195"
+   ],
+   "people": [
+    "titus_quinctius_flamininus",
+    "nabis",
+    "philopoemen"
+   ],
+   "campaigns": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "34.22-41"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Flamininus",
+     "r": "13"
+    }
+   ]
+  },
+  {
+   "id": "spanish_revolt_197",
+   "name": "Spanish revolt of 197-195",
+   "start": -197,
+   "end": -195,
+   "sides": [
+    [
+     "rome"
+    ],
+    [
+     "turdetani",
+     "iberians"
+    ]
+   ],
+   "outcome": "Roman victory; Cato pacifies the north-east and organises the mines",
+   "summary": "A general rising in both new Spanish provinces that killed a praetor in 197 and was suppressed by Cato as consul in 195.",
+   "phases": [],
+   "events": [
+    "turdetanian_revolt_197",
+    "battle_of_emporiae"
+   ],
+   "people": [
+    "cato_the_elder"
+   ],
+   "campaigns": [
+    "cato_in_spain_195"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "33.21-25"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "34.8-21"
+    },
+    {
+     "a": "Appian",
+     "w": "Iberica",
+     "r": "39-41"
+    }
+   ],
+   "scholarship": [
+    "Richardson, Hispaniae (1986)"
+   ]
+  },
+  {
+   "id": "roman_seleucid_war",
+   "name": "Roman-Seleucid War (War of Antiochus)",
+   "start": -192,
+   "end": -188,
+   "sides": [
+    [
+     "rome",
+     "pergamon",
+     "rhodes",
+     "achaean_league",
+     "macedon_antigonid"
+    ],
+    [
+     "seleucid",
+     "aetolian_league",
+     "galatia"
+    ]
+   ],
+   "outcome": "Roman victory; Treaty of Apamea strips the Seleucids of Asia Minor west of the Taurus and imposes a 15,000-talent indemnity",
+   "summary": "The confrontation between Rome and Antiochus III, prepared by years of cold war over Thrace and the Greek cities of Asia. Antiochus' small expedition to Greece was routed at Thermopylae (191); naval victories at Corycus, Side and Myonessus let the Scipios cross into Asia, where Magnesia destroyed the Seleucid army.",
+   "detail": "Rome annexed nothing, enriching Pergamon and Rhodes instead, which created a system of client states and a balance of power under Roman supervision. Hannibal served Antiochus as adviser and admiral.",
+   "phases": [
+    {
+     "from": -196,
+     "to": -193,
+     "t": "Cold war: Lysimachia and the embassies"
+    },
+    {
+     "from": -192,
+     "to": -191,
+     "t": "Antiochus in Greece; Thermopylae"
+    },
+    {
+     "from": -191,
+     "to": -190,
+     "t": "Naval war in the Aegean"
+    },
+    {
+     "from": -190,
+     "to": -189,
+     "t": "Scipios in Asia; Magnesia"
+    },
+    {
+     "from": -188,
+     "to": -188,
+     "t": "Treaty of Apamea"
+    }
+   ],
+   "events": [
+    "conference_of_lysimachia",
+    "assassination_of_nabis_192",
+    "antiochus_lands_in_greece_192",
+    "battle_of_thermopylae_191",
+    "battle_of_corycus",
+    "antiochus_peace_offer_190",
+    "battle_of_magnesia",
+    "battle_of_the_eurymedon_190",
+    "battle_of_myonessus",
+    "treaty_of_apamea"
+   ],
+   "people": [
+    "antiochus_iii",
+    "eumenes_ii",
+    "hannibal_barca",
+    "scipio_africanus",
+    "lucius_cornelius_scipio_asiaticus",
+    "nabis",
+    "philopoemen",
+    "manius_acilius_glabrio_cos191",
+    "cato_the_elder",
+    "gnaeus_manlius_vulso",
+    "antiochus_iv"
+   ],
+   "campaigns": [
+    "lucius_scipio_vs_antiochus"
+   ],
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "18.49-52"
+    },
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "21.1-46"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "35-38"
+    },
+    {
+     "a": "Appian",
+     "w": "Syriaca",
+     "r": "1-44"
+    }
+   ],
+   "scholarship": [
+    "Grainger, The Roman War of Antiochus the Great (2002)",
+    "Badian, 'Rome and Antiochus the Great: A Study in Cold War', CPh 54 (1959)",
+    "Briscoe, A Commentary on Livy XXXIV-XXXVII (1981)"
+   ]
+  },
+  {
+   "id": "aetolian_war",
+   "name": "Aetolian War",
+   "start": -191,
+   "end": -189,
+   "sides": [
+    [
+     "rome",
+     "macedon_antigonid"
+    ],
+    [
+     "aetolian_league"
+    ]
+   ],
+   "outcome": "Roman victory; Aetolians accept a treaty with the maiestas clause and pay 500 talents",
+   "summary": "Rome's war against its former ally, the Aetolian League, which had invited Antiochus III into Greece: sieges of Heraclea, Naupactus and Ambracia.",
+   "phases": [],
+   "events": [
+    "siege_of_heraclea_191",
+    "aetolian_deditio_191",
+    "siege_of_ambracia",
+    "aetolian_peace_189"
+   ],
+   "people": [
+    "manius_acilius_glabrio_cos191",
+    "marcus_fulvius_nobilior_cos189",
+    "ennius"
+   ],
+   "campaigns": [],
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "20.9-11"
+    },
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "21.25-32"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "36.22-35"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "38.1-11"
+    }
+   ]
+  },
+  {
+   "id": "galatian_war_189",
+   "name": "Galatian War of Manlius Vulso",
+   "start": -189,
+   "end": -189,
+   "sides": [
+    [
+     "rome",
+     "pergamon"
+    ],
+    [
+     "galatia"
+    ]
+   ],
+   "outcome": "Roman victory; the Galatians cease raiding Asia Minor; Eumenes II secure",
+   "summary": "Manlius Vulso's controversial campaign against the Galatians of central Anatolia after Magnesia, at Mount Olympus and Mount Magaba.",
+   "phases": [],
+   "events": [
+    "battle_of_mount_olympus_189"
+   ],
+   "people": [
+    "gnaeus_manlius_vulso",
+    "eumenes_ii"
+   ],
+   "campaigns": [
+    "manlius_vulso_galatia"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "38.12-27"
+    },
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "21.33-39"
+    }
+   ]
+  },
+  {
+   "id": "first_celtiberian_war",
+   "name": "First Celtiberian War",
+   "start": -181,
+   "end": -179,
+   "sides": [
+    [
+     "rome"
+    ],
+    [
+     "celtiberians"
+    ]
+   ],
+   "outcome": "Roman victory; Gracchan treaties establish a 25-year peace",
+   "summary": "Campaigns of Fulvius Flaccus and Tiberius Gracchus in the central Meseta, ended by Gracchus' combination of victories and negotiated treaties.",
+   "phases": [],
+   "events": [
+    "battle_of_aebura",
+    "gracchan_settlement_in_spain"
+   ],
+   "people": [
+    "tiberius_sempronius_gracchus_cos177"
+   ],
+   "campaigns": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "40.30-50"
+    },
+    {
+     "a": "Appian",
+     "w": "Iberica",
+     "r": "42-44"
+    }
+   ],
+   "scholarship": [
+    "Richardson, Hispaniae (1986)"
+   ]
+  },
+  {
+   "id": "sardinian_war_177",
+   "name": "Sardinian War of 177-176",
+   "start": -177,
+   "end": -176,
+   "sides": [
+    [
+     "rome"
+    ],
+    [
+     "sardinians"
+    ]
+   ],
+   "outcome": "Roman victory; 80,000 Sardinians killed or enslaved",
+   "summary": "Tiberius Gracchus' war against the Ilienses and Balari of Sardinia, which flooded the slave markets.",
+   "phases": [],
+   "events": [
+    "sardinian_war_177"
+   ],
+   "people": [
+    "tiberius_sempronius_gracchus_cos177"
+   ],
+   "campaigns": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "41.6-28"
+    }
+   ]
+  },
+  {
+   "id": "third_macedonian_war",
+   "name": "Third Macedonian War",
+   "start": -171,
+   "end": -168,
+   "sides": [
+    [
+     "rome",
+     "pergamon",
+     "achaean_league"
+    ],
+    [
+     "macedon_antigonid",
+     "illyrians",
+     "epirus"
+    ]
+   ],
+   "outcome": "Roman victory; end of the Antigonid monarchy; Macedon split into four republics; Epirus sacked",
+   "summary": "Rome's war against Perseus, prepared by Eumenes' denunciations. After three years of Roman incompetence and Greek sympathy for Perseus, Aemilius Paullus won the war in a single battle at Pydna (168).",
+   "detail": "The aftermath was harsh: Macedon dismembered, 150,000 Epirotes enslaved, 1,000 Achaeans deported, Rhodes humiliated and ruined, Eumenes snubbed. Polybius (31.25) dates the beginning of Roman moral decline to the wealth and luxury that followed.",
+   "phases": [
+    {
+     "from": -172,
+     "to": -171,
+     "t": "Diplomatic preparation; Callinicus"
+    },
+    {
+     "from": -170,
+     "to": -169,
+     "t": "Stalemate; Marcius crosses Olympus"
+    },
+    {
+     "from": -168,
+     "to": -168,
+     "t": "Pydna; Genthius and the Day of Eleusis"
+    },
+    {
+     "from": -167,
+     "to": -167,
+     "t": "Settlement of Macedonia, sack of Epirus"
+    }
+   ],
+   "events": [
+    "eumenes_at_delphi_172",
+    "battle_of_callinicus",
+    "marcius_crosses_olympus_169",
+    "surrender_of_perseus_168",
+    "battle_of_pydna",
+    "settlement_of_macedonia_167",
+    "sack_of_epirus_167",
+    "achaean_hostages_167",
+    "triumph_of_aemilius_paullus"
+   ],
+   "people": [
+    "perseus_of_macedon",
+    "lucius_aemilius_paullus_macedonicus",
+    "polybius",
+    "scipio_aemilianus",
+    "eumenes_ii",
+    "scipio_nasica_corculum",
+    "cato_the_elder",
+    "servius_sulpicius_galba_cos144"
+   ],
+   "campaigns": [
+    "aemilius_paullus_168"
+   ],
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "27-30"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "42-45"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Aemilius Paullus",
+     "r": "7-39"
+    }
+   ],
+   "scholarship": [
+    "Gruen, The Hellenistic World and the Coming of Rome (1984)",
+    "Briscoe, A Commentary on Livy XLI-XLV (2012)"
+   ]
+  },
+  {
+   "id": "dalmatian_war_156",
+   "name": "Dalmatian War of 156-155",
+   "start": -156,
+   "end": -155,
+   "sides": [
+    [
+     "rome"
+    ],
+    [
+     "dalmatae"
+    ]
+   ],
+   "outcome": "Roman victory; capture of Delminium",
+   "summary": "A punitive war against the Dalmatae for attacks on Rome's allies, which Polybius thought the Senate welcomed to keep Italians from softening in peace.",
+   "phases": [],
+   "events": [
+    "siege_of_delminium"
+   ],
+   "people": [
+    "scipio_nasica_corculum"
+   ],
+   "campaigns": [],
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "32.13"
+    },
+    {
+     "a": "Appian",
+     "w": "Illyrica",
+     "r": "11"
+    }
+   ]
+  },
+  {
+   "id": "second_celtiberian_war",
+   "name": "Second Celtiberian War",
+   "start": -154,
+   "end": -151,
+   "sides": [
+    [
+     "rome"
+    ],
+    [
+     "celtiberians",
+     "vaccaei_vettones"
+    ]
+   ],
+   "outcome": "Peace of Marcellus (152); then Lucullus' unprovoked attack on the Vaccaei",
+   "summary": "War triggered by Segeda's new walls, marked by Nobilior's defeats (153), Marcellus' negotiated peace (152) and Lucullus' massacre at Cauca (151). The terror it caused led to a levy crisis at Rome.",
+   "phases": [],
+   "events": [
+    "consuls_enter_office_1_january",
+    "battle_of_numantia_153",
+    "foundation_of_corduba",
+    "levy_crisis_151",
+    "massacre_of_cauca"
+   ],
+   "people": [
+    "scipio_aemilianus",
+    "lucius_licinius_lucullus_cos151",
+    "cato_the_elder"
+   ],
+   "campaigns": [],
+   "sources": [
+    {
+     "a": "Appian",
+     "w": "Iberica",
+     "r": "44-55"
+    },
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "35.1-5"
+    }
+   ],
+   "scholarship": [
+    "Richardson, Hispaniae (1986)",
+    "Simon, Roms Kriege in Spanien 154-133 v. Chr. (1962)"
+   ]
+  },
+  {
+   "id": "lusitanian_war",
+   "name": "Lusitanian War",
+   "start": -155,
+   "end": -139,
+   "sides": [
+    [
+     "rome"
+    ],
+    [
+     "lusitanians",
+     "vaccaei_vettones"
+    ]
+   ],
+   "outcome": "Roman victory after the assassination of Viriathus; Lusitanians settled at Valentia; Gallaecia invaded",
+   "summary": "Two decades of war in the far west of Spain, notorious for Roman perfidy (Galba's massacre of 150, the bribing of Viriathus' murderers in 139) and for the guerrilla genius of Viriathus, who forced a Roman army to capitulate at Erisane (140).",
+   "phases": [
+    {
+     "from": -155,
+     "to": -150,
+     "t": "Lusitanian raids; Galba's massacre"
+    },
+    {
+     "from": -147,
+     "to": -139,
+     "t": "War of Viriathus"
+    },
+    {
+     "from": -138,
+     "to": -136,
+     "t": "Brutus Callaicus in Lusitania and Gallaecia"
+    }
+   ],
+   "events": [
+    "lusitanian_war_begins_155",
+    "galba_massacre_of_lusitanians",
+    "battle_of_tribola",
+    "battle_of_erisane",
+    "assassination_of_viriathus",
+    "valentia_138",
+    "brutus_crosses_the_lethe_137"
+   ],
+   "people": [
+    "viriathus",
+    "quintus_servilius_caepio_cos140",
+    "decimus_junius_brutus_callaicus",
+    "servius_sulpicius_galba_cos144",
+    "cato_the_elder",
+    "quintus_fabius_maximus_servilianus"
+   ],
+   "campaigns": [],
+   "sources": [
+    {
+     "a": "Appian",
+     "w": "Iberica",
+     "r": "56-75"
+    },
+    {
+     "a": "Diodorus Siculus",
+     "w": "Bibliotheca Historica",
+     "r": "33.1, 7, 21"
+    },
+    {
+     "a": "Livy",
+     "w": "Periochae",
+     "r": "48-56"
+    }
+   ],
+   "scholarship": [
+    "Simon, Roms Kriege in Spanien 154-133 v. Chr. (1962)",
+    "Richardson, Hispaniae (1986)"
+   ]
+  },
+  {
+   "id": "fourth_macedonian_war",
+   "name": "Fourth Macedonian War (revolt of Andriscus)",
+   "start": -150,
+   "end": -148,
+   "sides": [
+    [
+     "rome",
+     "pergamon"
+    ],
+    [
+     "andriscus_macedon",
+     "thracians"
+    ]
+   ],
+   "outcome": "Roman victory; Macedonia becomes a Roman province",
+   "summary": "The rising of the pretender Andriscus, who reunited Macedonia, killed a Roman praetor and was defeated by Metellus at Pydna (148).",
+   "phases": [],
+   "events": [
+    "andriscus_revolt_149",
+    "battle_of_pydna_148",
+    "province_of_macedonia_146"
+   ],
+   "people": [
+    "andriscus",
+    "quintus_caecilius_metellus_macedonicus"
+   ],
+   "campaigns": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Periochae",
+     "r": "49-50"
+    },
+    {
+     "a": "Diodorus Siculus",
+     "w": "Bibliotheca Historica",
+     "r": "32.15"
+    },
+    {
+     "a": "Zonaras",
+     "w": "Epitome Historiarum",
+     "r": "9.28"
+    }
+   ]
+  },
+  {
+   "id": "third_punic_war",
+   "name": "Third Punic War",
+   "start": -149,
+   "end": -146,
+   "sides": [
+    [
+     "rome",
+     "numidia"
+    ],
+    [
+     "carthage"
+    ]
+   ],
+   "outcome": "Destruction of Carthage; its territory becomes the province of Africa",
+   "summary": "Rome's war of annihilation against Carthage, launched on the pretext of Carthage's war against Masinissa. Carthage surrendered its arms, then refused to abandon its city, and held out for three years until Scipio Aemilianus stormed it in 146.",
+   "phases": [
+    {
+     "from": -149,
+     "to": -148,
+     "t": "Failed assaults by Manilius, Censorinus and Piso"
+    },
+    {
+     "from": -147,
+     "to": -146,
+     "t": "Scipio Aemilianus: blockade, Nepheris, final assault"
+    }
+   ],
+   "events": [
+    "carthaginian_deditio_149",
+    "siege_of_carthage_149",
+    "aemilianus_elected_consul_147",
+    "battle_of_nepheris",
+    "province_of_africa_146",
+    "destruction_of_carthage"
+   ],
+   "people": [
+    "scipio_aemilianus",
+    "manius_manilius_cos149",
+    "lucius_marcius_censorinus_cos149",
+    "hasdrubal_boetharch",
+    "gaius_laelius_sapiens",
+    "polybius"
+   ],
+   "campaigns": [
+    "scipio_aemilianus_carthage"
+   ],
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "36.1-9"
+    },
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "38.19-22"
+    },
+    {
+     "a": "Appian",
+     "w": "Libyca",
+     "r": "67-135"
+    },
+    {
+     "a": "Livy",
+     "w": "Periochae",
+     "r": "47-51"
+    }
+   ],
+   "scholarship": [
+    "Astin, Scipio Aemilianus (1967)",
+    "Harris, War and Imperialism in Republican Rome (1979)",
+    "Miles, Carthage Must Be Destroyed (2010)",
+    "Ridley, 'To Be Taken with a Pinch of Salt', CPh 81 (1986)"
+   ],
+   "debate": "Motives: fear of a recovering Carthage (metus Punicus), Cato's influence, greed for land, or the wish to prevent Masinissa from taking Carthage; Polybius 36.9 records Greek debates on the war's justice."
+  },
+  {
+   "id": "achaean_war",
+   "name": "Achaean War",
+   "start": -146,
+   "end": -146,
+   "sides": [
+    [
+     "rome"
+    ],
+    [
+     "achaean_league"
+    ]
+   ],
+   "outcome": "Roman victory; Corinth destroyed; Achaean League dissolved; Greece under Roman supervision",
+   "summary": "The brief, disastrous war of the Achaean League against Rome over Spartan secession, ended by Metellus at Scarpheia and Mummius at Leucopetra and the sack of Corinth.",
+   "phases": [],
+   "events": [
+    "battle_of_scarpheia",
+    "battle_of_corinth_146",
+    "sack_of_corinth",
+    "triumph_of_mummius_145"
+   ],
+   "people": [
+    "lucius_mummius",
+    "quintus_caecilius_metellus_macedonicus",
+    "critolaus_achaean",
+    "diaeus",
+    "polybius"
+   ],
+   "campaigns": [],
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "38.9-18"
+    },
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "39.2-6"
+    },
+    {
+     "a": "Pausanias",
+     "w": "Description of Greece",
+     "r": "7.11-16"
+    }
+   ],
+   "scholarship": [
+    "Gruen, 'The Origins of the Achaean War', JHS 96 (1976)",
+    "Kallet-Marx, Hegemony to Empire (1995)"
+   ],
+   "debate": "Gruen argued that Rome did not seek the war and that the Achaean leaders miscalculated; Polybius blames the demagogues."
+  },
+  {
+   "id": "numantine_war",
+   "name": "Numantine War",
+   "start": -143,
+   "end": -133,
+   "sides": [
+    [
+     "rome",
+     "numidia"
+    ],
+    [
+     "celtiberians"
+    ]
+   ],
+   "outcome": "Destruction of Numantia",
+   "summary": "A decade of humiliation for Rome before the walls of Numantia, a hill town of perhaps 8,000 Arevaci: failed sieges, repudiated treaties (Pompeius 140, Mancinus 137) and the surrender of an army of 20,000, ended only when Scipio Aemilianus encircled the town in 134-133.",
+   "phases": [
+    {
+     "from": -143,
+     "to": -142,
+     "t": "Metellus Macedonicus"
+    },
+    {
+     "from": -141,
+     "to": -138,
+     "t": "Pompeius and Popillius Laenas"
+    },
+    {
+     "from": -137,
+     "to": -136,
+     "t": "Mancinus' capitulation"
+    },
+    {
+     "from": -134,
+     "to": -133,
+     "t": "Scipio Aemilianus' siege"
+    }
+   ],
+   "events": [
+    "surrender_of_mancinus",
+    "mancinus_handed_over_136",
+    "siege_of_numantia"
+   ],
+   "people": [
+    "gaius_hostilius_mancinus",
+    "tiberius_gracchus",
+    "scipio_aemilianus",
+    "jugurtha",
+    "gaius_marius",
+    "polybius"
+   ],
+   "campaigns": [
+    "scipio_aemilianus_numantia"
+   ],
+   "sources": [
+    {
+     "a": "Appian",
+     "w": "Iberica",
+     "r": "76-98"
+    },
+    {
+     "a": "Livy",
+     "w": "Periochae",
+     "r": "53-59"
+    },
+    {
+     "a": "Florus",
+     "w": "Epitome",
+     "r": "1.34"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Tiberius Gracchus",
+     "r": "5-7"
+    }
+   ],
+   "scholarship": [
+    "Schulten, Numantia (1914-1931)",
+    "Astin, Scipio Aemilianus (1967)",
+    "Simon, Roms Kriege in Spanien 154-133 v. Chr. (1962)"
+   ]
+  },
+  {
+   "id": "first_servile_war",
+   "name": "First Servile War",
+   "start": -135,
+   "end": -132,
+   "sides": [
+    [
+     "rome"
+    ],
+    [
+     "sicilian_slave_kingdom"
+    ]
+   ],
+   "outcome": "Roman victory; Eunus captured; Lex Rupilia reorganises Sicily",
+   "summary": "The great slave revolt in Sicily under Eunus ('King Antiochus') and Cleon, which defeated several Roman armies before Rupilius took Tauromenium and Enna.",
+   "phases": [],
+   "events": [
+    "first_servile_war_outbreak",
+    "siege_of_enna_132"
+   ],
+   "people": [
+    "eunus",
+    "publius_rupilius"
+   ],
+   "campaigns": [],
+   "sources": [
+    {
+     "a": "Diodorus Siculus",
+     "w": "Bibliotheca Historica",
+     "r": "34/35.2"
+    },
+    {
+     "a": "Livy",
+     "w": "Periochae",
+     "r": "56-59"
+    },
+    {
+     "a": "Florus",
+     "w": "Epitome",
+     "r": "2.7"
+    },
+    {
+     "a": "Orosius",
+     "w": "Historiae adversus Paganos",
+     "r": "5.6, 9"
+    }
+   ],
+   "scholarship": [
+    "Bradley, Slavery and Rebellion in the Roman World (1989)",
+    "Shaw, Spartacus and the Slave Wars (2001)"
+   ],
+   "debate": "Start date (136, 135 or earlier) and the scale of the revolt (Diodorus' 200,000 is surely inflated)."
+  },
+  {
+   "id": "aristonicus_revolt",
+   "name": "Revolt of Aristonicus",
+   "start": -133,
+   "end": -129,
+   "sides": [
+    [
+     "rome",
+     "pergamon",
+     "bithynia",
+     "pontus",
+     "cappadocia"
+    ],
+    [
+     "pergamon"
+    ]
+   ],
+   "outcome": "Roman victory; province of Asia organised by Manius Aquillius (129)",
+   "summary": "The war that followed Attalus III's bequest: Aristonicus claimed the throne as Eumenes III and raised the poor and slaves of the interior, defeating a consul before his capture in 130/129.",
+   "phases": [],
+   "events": [
+    "pergamon_bequest"
+   ],
+   "people": [
+    "attalus_iii",
+    "aristonicus",
+    "tiberius_gracchus"
+   ],
+   "campaigns": [],
+   "sources": [
+    {
+     "a": "Strabo",
+     "w": "Geographica",
+     "r": "14.1.38"
+    },
+    {
+     "a": "Justin",
+     "w": "Epitome of Pompeius Trogus",
+     "r": "36.4"
+    },
+    {
+     "a": "Livy",
+     "w": "Periochae",
+     "r": "59"
+    }
+   ],
+   "scholarship": [
+    "Kallet-Marx, Hegemony to Empire (1995)"
+   ],
+   "debate": "Whether Aristonicus led a social revolution or a dynastic war is debated; the 'Heliopolis' utopia may reflect Stoic ideas (Blossius of Cumae)."
+  }
+ ],
+ "campaigns": [
+  {
+   "id": "regulus_african_campaign",
+   "name": "Regulus' invasion of Africa",
+   "war": "first_punic_war",
+   "polity": "rome",
+   "commander": "marcus_atilius_regulus",
+   "start": -256,
+   "end": -255,
+   "strength": "330 ships at Ecnomus; 15,000 foot and 500 horse left in Africa",
+   "summary": "The first Roman invasion of Africa: the fleet fought its way past the Carthaginian navy at Ecnomus, landed at Aspis, won at Adys and reached Tunes, before Xanthippus destroyed Regulus' army in spring 255.",
+   "path": [
+    {
+     "loc": [
+      15.554,
+      38.1937
+     ],
+     "t": "Fleet assembles at Messana",
+     "y": -256,
+     "note": "embarks the army of both consuls"
+    },
+    {
+     "loc": [
+      15.09,
+      36.68
+     ],
+     "t": "Rounds Cape Pachynus",
+     "y": -256,
+     "sea": true
+    },
+    {
+     "loc": [
+      13.95,
+      37.02
+     ],
+     "t": "Battle of Ecnomus",
+     "y": -256,
+     "event": "battle_of_ecnomus",
+     "sea": true
+    },
+    {
+     "loc": [
+      11.0939,
+      36.8475
+     ],
+     "t": "Landing and capture of Aspis",
+     "y": -256,
+     "note": "after crossing the Sicilian channel",
+     "event": "regulus_lands_at_aspis_256",
+     "sea": true
+    },
+    {
+     "loc": [
+      10.17,
+      36.62
+     ],
+     "t": "Victory at Adys",
+     "y": -256,
+     "event": "battle_of_adys"
+    },
+    {
+     "loc": [
+      10.17,
+      36.8
+     ],
+     "t": "Winter quarters at Tunes",
+     "y": -256,
+     "note": "peace talks fail",
+     "event": "regulus_peace_terms_256"
+    },
+    {
+     "loc": [
+      10.15,
+      36.78
+     ],
+     "t": "Defeat by Xanthippus",
+     "y": -255,
+     "note": "Regulus captured",
+     "event": "battle_of_tunes_255"
+    },
+    {
+     "loc": [
+      11.0939,
+      36.8475
+     ],
+     "t": "2,000 survivors hold Aspis",
+     "y": -255,
+     "note": "evacuated by the fleet"
+    }
+   ],
+   "certainty": "probable"
+  },
+  {
+   "id": "gallic_army_225",
+   "name": "The Gallic invasion of 225",
+   "war": "gallic_war_225_222",
+   "polity": "insubres",
+   "commander": "aneroestes",
+   "start": -225,
+   "end": -225,
+   "strength": "50,000 foot and 20,000 horse and chariots (Polybius 2.23)",
+   "summary": "The Boii, Insubres and Gaesatae crossed the Apennines into Etruria, plundered as far as Clusium, defeated a praetorian army near Faesulae, and, retreating up the coast with their booty, were trapped between two consular armies at Telamon.",
+   "path": [
+    {
+     "loc": [
+      9.19,
+      45.4642
+     ],
+     "t": "Insubres and Gaesatae gather",
+     "y": -225
+    },
+    {
+     "loc": [
+      11.34,
+      44.49
+     ],
+     "t": "Joined by the Boii",
+     "y": -225
+    },
+    {
+     "loc": [
+      10.95,
+      44.1
+     ],
+     "t": "Cross the Apennines",
+     "y": -225
+    },
+    {
+     "loc": [
+      11.948,
+      43.017
+     ],
+     "t": "Plunder Etruria to Clusium",
+     "y": -225,
+     "note": "three days from Rome"
+    },
+    {
+     "loc": [
+      11.294,
+      43.807
+     ],
+     "t": "Ambush of the praetor's army",
+     "y": -225,
+     "note": "Polybius' 'Faesulae' may be an error",
+     "event": "battle_of_faesulae"
+    },
+    {
+     "loc": [
+      11.6,
+      42.42
+     ],
+     "t": "Withdraw to the coast",
+     "y": -225
+    },
+    {
+     "loc": [
+      11.15,
+      42.57
+     ],
+     "t": "Trapped at Telamon",
+     "y": -225,
+     "event": "battle_of_telamon"
+    }
+   ],
+   "certainty": "disputed",
+   "note": "Polybius' topography (Faesulae north, Telamon south) is hard to reconcile; many scholars move the first battle to the Clusium area."
+  },
+  {
+   "id": "hannibals_march",
+   "name": "Hannibal's march to Italy",
+   "war": "second_punic_war",
+   "polity": "carthage",
+   "commander": "hannibal_barca",
+   "start": -218,
+   "end": -218,
+   "strength": "c. 90,000 foot and 12,000 horse at the Ebro; 38,000 foot and 8,000 horse at the Rhône; 20,000 foot and 6,000 horse on arrival in Italy (Polybius 3.35, 3.56)",
+   "summary": "From New Carthage Hannibal marched across the Ebro and the Pyrenees, forced the Rhône, crossed the Alps in about fifteen days in October-November, took Turin and beat the Romans at the Ticinus and the Trebia.",
+   "path": [
+    {
+     "loc": [
+      -0.9864,
+      37.6
+     ],
+     "t": "New Carthage",
+     "y": -218,
+     "m": 5,
+     "note": "departs in late spring"
+    },
+    {
+     "loc": [
+      -0.2667,
+      39.6795
+     ],
+     "t": "Past Saguntum",
+     "y": -218,
+     "m": 5
+    },
+    {
+     "loc": [
+      0.52,
+      40.81
+     ],
+     "t": "Crosses the Ebro",
+     "y": -218,
+     "m": 6,
+     "note": "subdues the tribes north of the river; leaves Hanno with 10,000"
+    },
+    {
+     "loc": [
+      2.864,
+      42.47
+     ],
+     "t": "Crosses the Pyrenees",
+     "y": -218,
+     "m": 8,
+     "note": "probably near Le Perthus"
+    },
+    {
+     "loc": [
+      2.93,
+      42.72
+     ],
+     "t": "Ruscino",
+     "y": -218,
+     "m": 8,
+     "note": "negotiates passage with Gallic chiefs"
+    },
+    {
+     "loc": [
+      4.36,
+      43.84
+     ],
+     "t": "Through the land of the Volcae",
+     "y": -218,
+     "m": 9
+    },
+    {
+     "loc": [
+      4.75,
+      44.02
+     ],
+     "t": "Crossing of the Rhône",
+     "y": -218,
+     "m": 9,
+     "event": "battle_of_the_rhone_crossing"
+    },
+    {
+     "loc": [
+      4.87,
+      44.98
+     ],
+     "t": "'The Island' at the Isère confluence",
+     "y": -218,
+     "m": 10,
+     "note": "settles a dispute among the Allobroges"
+    },
+    {
+     "loc": [
+      5.92,
+      45.56
+     ],
+     "t": "Approach to the Alps",
+     "y": -218,
+     "m": 10,
+     "note": "Allobroges attack on the ascent"
+    },
+    {
+     "loc": [
+      6.35,
+      45.28
+     ],
+     "t": "Through the Arc valley (Maurienne)?",
+     "y": -218,
+     "m": 10,
+     "note": "route uncertain"
+    },
+    {
+     "loc": [
+      6.93,
+      45.24
+     ],
+     "t": "Summit pass",
+     "y": -218,
+     "m": 10,
+     "note": "Col du Clapier, Mont Cenis or Traversette",
+     "event": "hannibal_crosses_the_alps"
+    },
+    {
+     "loc": [
+      7.05,
+      45.14
+     ],
+     "t": "Descent into the Susa valley",
+     "y": -218,
+     "m": 11
+    },
+    {
+     "loc": [
+      7.6869,
+      45.0703
+     ],
+     "t": "Sack of the Taurini (Turin)",
+     "y": -218,
+     "m": 11
+    },
+    {
+     "loc": [
+      8.88,
+      45.18
+     ],
+     "t": "Battle of the Ticinus",
+     "y": -218,
+     "m": 11,
+     "event": "battle_of_ticinus"
+    },
+    {
+     "loc": [
+      9.58,
+      44.99
+     ],
+     "t": "Battle of the Trebia",
+     "y": -218,
+     "m": 12,
+     "event": "battle_of_the_trebia"
+    }
+   ],
+   "certainty": "disputed",
+   "note": "Alpine pass disputed (Col de la Traversette, Col du Clapier, Mont Cenis, Mont Genèvre, Little St Bernard); the path drawn follows a Clapier route."
+  },
+  {
+   "id": "hannibal_217_216",
+   "name": "Hannibal's campaigns of 217-216",
+   "war": "second_punic_war",
+   "polity": "carthage",
+   "commander": "hannibal_barca",
+   "start": -217,
+   "end": -216,
+   "strength": "c. 50,000 by 216 including Gallic allies",
+   "summary": "Leaving winter quarters in the Po valley, Hannibal crossed the Apennines and the flooded Arno marshes (losing an eye), destroyed Flaminius at Trasimene, marched to the Adriatic, ravaged Campania under Fabius' eyes, wintered at Gerunium and annihilated the Roman army at Cannae.",
+   "path": [
+    {
+     "loc": [
+      10.95,
+      44.15
+     ],
+     "t": "Crosses the Apennines",
+     "y": -217,
+     "m": 4
+    },
+    {
+     "loc": [
+      10.85,
+      43.75
+     ],
+     "t": "Through the Arno marshes",
+     "y": -217,
+     "m": 5,
+     "note": "four days and three nights in water; Hannibal loses an eye"
+    },
+    {
+     "loc": [
+      11.98,
+      43.27
+     ],
+     "t": "Ravages around Cortona to provoke Flaminius",
+     "y": -217,
+     "m": 6
+    },
+    {
+     "loc": [
+      12.075,
+      43.205
+     ],
+     "t": "Lake Trasimene",
+     "y": -217,
+     "m": 6,
+     "event": "battle_of_lake_trasimene"
+    },
+    {
+     "loc": [
+      12.74,
+      42.73
+     ],
+     "t": "Repulsed at Spoletium",
+     "y": -217,
+     "m": 7
+    },
+    {
+     "loc": [
+      13.75,
+      43.1
+     ],
+     "t": "Rests his army in Picenum",
+     "y": -217,
+     "m": 7
+    },
+    {
+     "loc": [
+      15.55,
+      41.45
+     ],
+     "t": "Apulia",
+     "y": -217,
+     "m": 8,
+     "note": "Fabius shadows him"
+    },
+    {
+     "loc": [
+      14.15,
+      41.17
+     ],
+     "t": "Ager Falernus and the oxen stratagem",
+     "y": -217,
+     "m": 9,
+     "event": "battle_of_ager_falernus"
+    },
+    {
+     "loc": [
+      14.85,
+      41.74
+     ],
+     "t": "Winter at Gerunium",
+     "y": -217,
+     "m": 11,
+     "event": "lex_metilia_217"
+    },
+    {
+     "loc": [
+      16.1322,
+      41.3062
+     ],
+     "t": "Cannae",
+     "y": -216,
+     "m": 8,
+     "event": "battle_of_cannae"
+    }
+   ],
+   "certainty": "probable"
+  },
+  {
+   "id": "hannibal_march_on_rome_211",
+   "name": "Hannibal's march on Rome",
+   "war": "second_punic_war",
+   "polity": "carthage",
+   "commander": "hannibal_barca",
+   "start": -211,
+   "end": -211,
+   "strength": "picked force, perhaps 30,000",
+   "summary": "To relieve Capua, Hannibal marched on Rome, camped by the Anio and rode to the Colline Gate, then withdrew, plundering the sanctuary of Feronia, when the besiegers of Capua stayed put. The route given follows Livy (from Coelius); Polybius sends him through Samnium.",
+   "path": [
+    {
+     "loc": [
+      14.253,
+      41.083
+     ],
+     "t": "Leaves the lines before Capua",
+     "y": -211
+    },
+    {
+     "loc": [
+      14.06,
+      41.21
+     ],
+     "t": "Cales",
+     "y": -211
+    },
+    {
+     "loc": [
+      13.83,
+      41.49
+     ],
+     "t": "Casinum",
+     "y": -211
+    },
+    {
+     "loc": [
+      13.53,
+      41.55
+     ],
+     "t": "Fregellae (bridge on the Liris broken)",
+     "y": -211
+    },
+    {
+     "loc": [
+      12.71,
+      41.8
+     ],
+     "t": "Past Tusculum",
+     "y": -211
+    },
+    {
+     "loc": [
+      12.53,
+      41.95
+     ],
+     "t": "Camp on the Anio; rides to the Colline Gate",
+     "y": -211,
+     "event": "hannibal_march_on_rome_211"
+    },
+    {
+     "loc": [
+      12.58,
+      42.13
+     ],
+     "t": "Plunders the grove of Feronia",
+     "y": -211
+    },
+    {
+     "loc": [
+      15.65,
+      39.3
+     ],
+     "t": "Retreats to Bruttium",
+     "y": -211
+    }
+   ],
+   "certainty": "disputed",
+   "note": "Polybius (9.5-7) and Livy (26.7-11) give different routes."
+  },
+  {
+   "id": "scipio_in_spain",
+   "name": "Scipio's campaigns in Spain",
+   "war": "second_punic_war",
+   "polity": "rome",
+   "commander": "scipio_africanus",
+   "start": -210,
+   "end": -206,
+   "strength": "c. 28,000 foot and 3,000 horse at New Carthage (Polybius); 45,000 foot and 3,000 horse at Ilipa",
+   "summary": "Scipio stormed New Carthage, beat Hasdrubal at Baecula and destroyed the last Carthaginian armies at Ilipa, then crossed to Africa to court Syphax and returned to punish rebels and quell a mutiny.",
+   "path": [
+    {
+     "loc": [
+      1.245,
+      41.119
+     ],
+     "t": "Tarraco",
+     "y": -210,
+     "note": "arrives with reinforcements"
+    },
+    {
+     "loc": [
+      0.52,
+      40.81
+     ],
+     "t": "Crosses the Ebro",
+     "y": -209,
+     "m": 3
+    },
+    {
+     "loc": [
+      -0.9864,
+      37.6
+     ],
+     "t": "Storms New Carthage",
+     "y": -209,
+     "event": "siege_of_new_carthage"
+    },
+    {
+     "loc": [
+      1.245,
+      41.119
+     ],
+     "t": "Winters at Tarraco",
+     "y": -209
+    },
+    {
+     "loc": [
+      -3.08,
+      38.03
+     ],
+     "t": "Battle of Baecula",
+     "y": -208,
+     "event": "battle_of_baecula"
+    },
+    {
+     "loc": [
+      -5.98,
+      37.518
+     ],
+     "t": "Battle of Ilipa",
+     "y": -206,
+     "event": "battle_of_ilipa"
+    },
+    {
+     "loc": [
+      -1.47,
+      35.27
+     ],
+     "t": "Visits Syphax at Siga",
+     "y": -206,
+     "note": "dines with Hasdrubal son of Gisco at Syphax's table",
+     "sea": true
+    },
+    {
+     "loc": [
+      -3.63,
+      38.04
+     ],
+     "t": "Punishes Iliturgi and Castulo",
+     "y": -206
+    },
+    {
+     "loc": [
+      -0.43,
+      39.15
+     ],
+     "t": "Suppresses the mutiny at Sucro",
+     "y": -206,
+     "event": "mutiny_at_sucro"
+    },
+    {
+     "loc": [
+      1.245,
+      41.119
+     ],
+     "t": "Returns to Rome from Tarraco",
+     "y": -206
+    }
+   ],
+   "certainty": "probable"
+  },
+  {
+   "id": "hasdrubals_march_207",
+   "name": "Hasdrubal's march to Italy",
+   "war": "second_punic_war",
+   "polity": "carthage",
+   "commander": "hasdrubal_barca",
+   "start": -208,
+   "end": -207,
+   "strength": "perhaps 30,000 by the Metaurus, with 10 elephants and many Gauls and Ligurians",
+   "summary": "After Baecula Hasdrubal led his army north through Spain, crossed the Pyrenees, wintered among the Arverni, crossed the Alps more easily than his brother and descended into Italy, only to be destroyed at the Metaurus.",
+   "path": [
+    {
+     "loc": [
+      -3.08,
+      38.03
+     ],
+     "t": "Escapes from Baecula",
+     "y": -208
+    },
+    {
+     "loc": [
+      -3.0,
+      40.5
+     ],
+     "t": "Through central Spain",
+     "y": -208
+    },
+    {
+     "loc": [
+      -1.5,
+      43.1
+     ],
+     "t": "Crosses the western Pyrenees?",
+     "y": -208,
+     "note": "route uncertain"
+    },
+    {
+     "loc": [
+      3.08,
+      45.78
+     ],
+     "t": "Winters among the Arverni",
+     "y": -208
+    },
+    {
+     "loc": [
+      4.85,
+      45.75
+     ],
+     "t": "Rhône valley",
+     "y": -207,
+     "m": 3
+    },
+    {
+     "loc": [
+      6.93,
+      45.24
+     ],
+     "t": "Crosses the Alps",
+     "y": -207,
+     "m": 4,
+     "note": "pass unknown"
+    },
+    {
+     "loc": [
+      9.6929,
+      45.0526
+     ],
+     "t": "Fails to take Placentia",
+     "y": -207,
+     "m": 5
+    },
+    {
+     "loc": [
+      12.5683,
+      44.0594
+     ],
+     "t": "Past Ariminum",
+     "y": -207,
+     "m": 6
+    },
+    {
+     "loc": [
+      13.22,
+      43.71
+     ],
+     "t": "Near Sena Gallica: two consuls face him",
+     "y": -207,
+     "m": 6
+    },
+    {
+     "loc": [
+      12.9,
+      43.71
+     ],
+     "t": "Battle of the Metaurus",
+     "y": -207,
+     "m": 6,
+     "event": "battle_of_the_metaurus"
+    }
+   ],
+   "certainty": "disputed",
+   "note": "Livy and Appian give few details; the Pyrenean crossing and Alpine pass are unknown."
+  },
+  {
+   "id": "nero_march_207",
+   "name": "Claudius Nero's march to the Metaurus",
+   "war": "second_punic_war",
+   "polity": "rome",
+   "commander": "gaius_claudius_nero",
+   "start": -207,
+   "end": -207,
+   "strength": "6,000 foot and 1,000 horse picked men (Livy 27.43)",
+   "summary": "Having intercepted Hasdrubal's letters, Nero slipped away from Hannibal in Apulia with picked troops and marched up the Adriatic coast, about 400 km in six or seven days, fed by the towns along the way, to join Livius Salinator and destroy Hasdrubal.",
+   "path": [
+    {
+     "loc": [
+      16.07,
+      41.22
+     ],
+     "t": "Leaves the camp facing Hannibal near Canusium",
+     "y": -207
+    },
+    {
+     "loc": [
+      14.92,
+      41.8
+     ],
+     "t": "Larinum",
+     "y": -207
+    },
+    {
+     "loc": [
+      14.71,
+      42.11
+     ],
+     "t": "Histonium",
+     "y": -207
+    },
+    {
+     "loc": [
+      13.93,
+      42.66
+     ],
+     "t": "Hadria",
+     "y": -207
+    },
+    {
+     "loc": [
+      13.7178,
+      43.1606
+     ],
+     "t": "Firmum",
+     "y": -207
+    },
+    {
+     "loc": [
+      13.22,
+      43.71
+     ],
+     "t": "Joins Livius at Sena Gallica by night",
+     "y": -207
+    },
+    {
+     "loc": [
+      12.9,
+      43.71
+     ],
+     "t": "Battle of the Metaurus",
+     "y": -207,
+     "event": "battle_of_the_metaurus"
+    },
+    {
+     "loc": [
+      16.07,
+      41.22
+     ],
+     "t": "Back facing Hannibal within six days",
+     "y": -207
+    }
+   ],
+   "certainty": "probable"
+  },
+  {
+   "id": "scipio_in_africa",
+   "name": "Scipio's invasion of Africa",
+   "war": "second_punic_war",
+   "polity": "rome",
+   "commander": "scipio_africanus",
+   "start": -204,
+   "end": -202,
+   "strength": "c. 25,000-35,000 men from Sicily, later joined by Masinissa's 6,000 foot and 4,000 horse",
+   "summary": "Scipio crossed from Lilybaeum, failed to take Utica, burned the camps of Syphax and Hasdrubal, won the Great Plains, took Tunes and finally defeated Hannibal at Zama.",
+   "path": [
+    {
+     "loc": [
+      12.438,
+      37.799
+     ],
+     "t": "Sails from Lilybaeum",
+     "y": -204
+    },
+    {
+     "loc": [
+      10.27,
+      37.18
+     ],
+     "t": "Lands at the Fair Promontory",
+     "y": -204,
+     "sea": true
+    },
+    {
+     "loc": [
+      10.0562,
+      37.057
+     ],
+     "t": "Siege of Utica fails",
+     "y": -204,
+     "event": "scipio_lands_in_africa"
+    },
+    {
+     "loc": [
+      10.1,
+      37.1
+     ],
+     "t": "Winters at Castra Cornelia",
+     "y": -204
+    },
+    {
+     "loc": [
+      10.03,
+      37.03
+     ],
+     "t": "Burns the enemy camps",
+     "y": -203,
+     "m": 3,
+     "event": "battle_of_utica_203"
+    },
+    {
+     "loc": [
+      9.2,
+      36.55
+     ],
+     "t": "Battle of the Great Plains",
+     "y": -203,
+     "event": "battle_of_the_great_plains"
+    },
+    {
+     "loc": [
+      10.17,
+      36.8
+     ],
+     "t": "Occupies Tunes",
+     "y": -203
+    },
+    {
+     "loc": [
+      9.1,
+      36.1
+     ],
+     "t": "Battle of Zama",
+     "y": -202,
+     "m": 10,
+     "event": "battle_of_zama"
+    },
+    {
+     "loc": [
+      10.17,
+      36.8
+     ],
+     "t": "Peace terms dictated at Tunes",
+     "y": -202,
+     "event": "peace_of_201"
+    }
+   ],
+   "certainty": "probable"
+  },
+  {
+   "id": "flamininus_198_197",
+   "name": "Flamininus against Philip V",
+   "war": "second_macedonian_war",
+   "polity": "rome",
+   "commander": "titus_quinctius_flamininus",
+   "start": -198,
+   "end": -197,
+   "strength": "c. 26,000 at Cynoscephalae including Aetolians and 20 elephants",
+   "summary": "Flamininus forced the Aous gorge, marched through Epirus into Thessaly, wintered in Phocis, negotiated at Nicaea, and in 197 brought Philip to battle at Cynoscephalae.",
+   "path": [
+    {
+     "loc": [
+      19.47,
+      40.723
+     ],
+     "t": "Arrives at Apollonia",
+     "y": -198,
+     "m": 3,
+     "sea": true
+    },
+    {
+     "loc": [
+      20.19,
+      40.31
+     ],
+     "t": "Forces the Aous gorge",
+     "y": -198,
+     "m": 6,
+     "event": "battle_of_the_aous"
+    },
+    {
+     "loc": [
+      21.65,
+      39.43
+     ],
+     "t": "Through Epirus to Gomphi",
+     "y": -198,
+     "m": 7
+    },
+    {
+     "loc": [
+      22.23,
+      39.57
+     ],
+     "t": "Fails to take Atrax",
+     "y": -198,
+     "m": 8
+    },
+    {
+     "loc": [
+      22.78,
+      38.62
+     ],
+     "t": "Winters at Elatea",
+     "y": -198,
+     "m": 10
+    },
+    {
+     "loc": [
+      22.62,
+      38.8
+     ],
+     "t": "Conference of Nicaea",
+     "y": -198,
+     "m": 11,
+     "event": "conference_of_nicaea"
+    },
+    {
+     "loc": [
+      23.32,
+      38.32
+     ],
+     "t": "Wins over Thebes",
+     "y": -197,
+     "m": 3
+    },
+    {
+     "loc": [
+      22.74,
+      39.39
+     ],
+     "t": "Advances past Pherae",
+     "y": -197,
+     "m": 6
+    },
+    {
+     "loc": [
+      22.55,
+      39.43
+     ],
+     "t": "Battle of Cynoscephalae",
+     "y": -197,
+     "m": 6,
+     "event": "battle_of_cynoscephalae"
+    },
+    {
+     "loc": [
+      22.59,
+      39.89
+     ],
+     "t": "Peace talks at the Vale of Tempe",
+     "y": -197,
+     "m": 7
+    }
+   ],
+   "certainty": "probable"
+  },
+  {
+   "id": "cato_in_spain_195",
+   "name": "Cato's campaign in Spain",
+   "war": "spanish_revolt_197",
+   "polity": "rome",
+   "commander": "cato_the_elder",
+   "start": -195,
+   "end": -195,
+   "strength": "2 legions plus allies, c. 25,000",
+   "summary": "Cato sailed from Luna, defeated the Iberians at Emporiae, disarmed the tribes north of the Ebro, marched south to help the praetor in Turdetania, and failed to take Seguntia in Celtiberia before returning to the north-east.",
+   "path": [
+    {
+     "loc": [
+      10.02,
+      44.07
+     ],
+     "t": "Sails from Luna",
+     "y": -195,
+     "sea": true
+    },
+    {
+     "loc": [
+      3.18,
+      42.26
+     ],
+     "t": "Rhoda",
+     "y": -195,
+     "sea": true
+    },
+    {
+     "loc": [
+      3.1158,
+      42.1342
+     ],
+     "t": "Victory at Emporiae",
+     "y": -195,
+     "event": "battle_of_emporiae"
+    },
+    {
+     "loc": [
+      1.245,
+      41.119
+     ],
+     "t": "Tarraco",
+     "y": -195
+    },
+    {
+     "loc": [
+      -5.0,
+      37.5
+     ],
+     "t": "Relieves the praetor in Turdetania",
+     "y": -195
+    },
+    {
+     "loc": [
+      -2.64,
+      41.07
+     ],
+     "t": "Fails to take Seguntia",
+     "y": -195
+    },
+    {
+     "loc": [
+      1.5,
+      41.9
+     ],
+     "t": "Subdues the Bergistani",
+     "y": -195
+    }
+   ],
+   "certainty": "probable"
+  },
+  {
+   "id": "lucius_scipio_vs_antiochus",
+   "name": "The Scipios' march to Asia",
+   "war": "roman_seleucid_war",
+   "polity": "rome",
+   "commander": "lucius_cornelius_scipio_asiaticus",
+   "start": -190,
+   "end": -190,
+   "strength": "c. 30,000 with Pergamene and Achaean contingents",
+   "summary": "Lucius Scipio, with Africanus as legate, marched overland through Macedonia and Thrace with Philip V's help, crossed the Hellespont unopposed after Myonessus, sacrificed at Ilium and defeated Antiochus at Magnesia.",
+   "path": [
+    {
+     "loc": [
+      17.9415,
+      40.6327
+     ],
+     "t": "Brundisium",
+     "y": -190,
+     "m": 3
+    },
+    {
+     "loc": [
+      19.47,
+      40.723
+     ],
+     "t": "Apollonia",
+     "y": -190,
+     "sea": true
+    },
+    {
+     "loc": [
+      22.9444,
+      40.6401
+     ],
+     "t": "Thessalonica, with Philip's escort",
+     "y": -190
+    },
+    {
+     "loc": [
+      23.846,
+      40.822
+     ],
+     "t": "Amphipolis",
+     "y": -190
+    },
+    {
+     "loc": [
+      25.51,
+      40.88
+     ],
+     "t": "Maroneia",
+     "y": -190
+    },
+    {
+     "loc": [
+      26.75,
+      40.53
+     ],
+     "t": "Lysimachia, abandoned by Antiochus",
+     "y": -190,
+     "m": 10
+    },
+    {
+     "loc": [
+      26.405,
+      40.195
+     ],
+     "t": "Crosses the Hellespont",
+     "y": -190,
+     "m": 10,
+     "event": "antiochus_peace_offer_190",
+     "sea": true
+    },
+    {
+     "loc": [
+      26.24,
+      39.96
+     ],
+     "t": "Sacrifice at Ilium",
+     "y": -190,
+     "m": 10
+    },
+    {
+     "loc": [
+      27.5,
+      38.68
+     ],
+     "t": "Battle of Magnesia",
+     "y": -190,
+     "m": 12,
+     "event": "battle_of_magnesia"
+    },
+    {
+     "loc": [
+      28.04,
+      38.49
+     ],
+     "t": "Sardis: Antiochus sues for peace",
+     "y": -189,
+     "m": 1
+    }
+   ],
+   "certainty": "probable"
+  },
+  {
+   "id": "manlius_vulso_galatia",
+   "name": "Manlius Vulso's Galatian campaign",
+   "war": "galatian_war_189",
+   "polity": "rome",
+   "commander": "gnaeus_manlius_vulso",
+   "start": -189,
+   "end": -189,
+   "strength": "4 legions and allies with Pergamene troops under Attalus",
+   "summary": "From Ephesus Manlius marched through Caria, Pisidia and Phrygia extorting money from cities and dynasts, then stormed the Galatian refuges on Mount Olympus and Mount Magaba.",
+   "path": [
+    {
+     "loc": [
+      27.34,
+      37.94
+     ],
+     "t": "Ephesus",
+     "y": -189,
+     "m": 4
+    },
+    {
+     "loc": [
+      27.53,
+      37.85
+     ],
+     "t": "Magnesia on the Maeander",
+     "y": -189
+    },
+    {
+     "loc": [
+      29.52,
+      37.14
+     ],
+     "t": "Cibyra pays 100 talents",
+     "y": -189
+    },
+    {
+     "loc": [
+      30.52,
+      37.68
+     ],
+     "t": "Sagalassus",
+     "y": -189
+    },
+    {
+     "loc": [
+      30.5,
+      38.52
+     ],
+     "t": "Synnada",
+     "y": -189
+    },
+    {
+     "loc": [
+      31.98,
+      39.65
+     ],
+     "t": "Gordium",
+     "y": -189
+    },
+    {
+     "loc": [
+      31.5,
+      39.8
+     ],
+     "t": "Storms Mount Olympus",
+     "y": -189,
+     "event": "battle_of_mount_olympus_189"
+    },
+    {
+     "loc": [
+      32.86,
+      39.94
+     ],
+     "t": "Ancyra",
+     "y": -189
+    },
+    {
+     "loc": [
+      33.0,
+      39.98
+     ],
+     "t": "Defeats the Tectosages on Mount Magaba",
+     "y": -189
+    },
+    {
+     "loc": [
+      27.34,
+      37.94
+     ],
+     "t": "Returns to Ephesus",
+     "y": -189,
+     "m": 12
+    }
+   ],
+   "certainty": "approx"
+  },
+  {
+   "id": "aemilius_paullus_168",
+   "name": "Aemilius Paullus' Pydna campaign",
+   "war": "third_macedonian_war",
+   "polity": "rome",
+   "commander": "lucius_aemilius_paullus_macedonicus",
+   "start": -168,
+   "end": -168,
+   "strength": "c. 29,000 with 34 elephants",
+   "summary": "Paullus crossed to Corcyra, visited Delphi, took over the army facing Perseus on the Elpeus, sent Nasica round by the Pythion pass to turn the Macedonian line, and won at Pydna.",
+   "path": [
+    {
+     "loc": [
+      17.9415,
+      40.6327
+     ],
+     "t": "Brundisium",
+     "y": -168,
+     "m": 4
+    },
+    {
+     "loc": [
+      19.92,
+      39.624
+     ],
+     "t": "Corcyra",
+     "y": -168,
+     "sea": true
+    },
+    {
+     "loc": [
+      22.501,
+      38.482
+     ],
+     "t": "Delphi",
+     "y": -168
+    },
+    {
+     "loc": [
+      22.59,
+      39.89
+     ],
+     "t": "Through Tempe",
+     "y": -168
+    },
+    {
+     "loc": [
+      22.5,
+      40.15
+     ],
+     "t": "Takes command on the Elpeus near Dion",
+     "y": -168,
+     "m": 5
+    },
+    {
+     "loc": [
+      22.25,
+      40.05
+     ],
+     "t": "Nasica's outflanking march via Pythion",
+     "y": -168,
+     "m": 6
+    },
+    {
+     "loc": [
+      22.56,
+      40.32
+     ],
+     "t": "Battle of Pydna",
+     "y": -168,
+     "m": 6,
+     "event": "battle_of_pydna"
+    },
+    {
+     "loc": [
+      22.52,
+      40.76
+     ],
+     "t": "Pella surrenders",
+     "y": -168
+    },
+    {
+     "loc": [
+      23.846,
+      40.822
+     ],
+     "t": "Amphipolis",
+     "y": -168,
+     "event": "settlement_of_macedonia_167"
+    }
+   ],
+   "certainty": "probable"
+  },
+  {
+   "id": "scipio_aemilianus_carthage",
+   "name": "Scipio Aemilianus at Carthage",
+   "war": "third_punic_war",
+   "polity": "rome",
+   "commander": "scipio_aemilianus",
+   "start": -147,
+   "end": -146,
+   "strength": "c. 40,000 including Numidians",
+   "summary": "Scipio restored discipline, cut Carthage off from the land with a fortified line across the isthmus, closed the harbour with a mole, destroyed the Punic field army at Nepheris and stormed the city.",
+   "path": [
+    {
+     "loc": [
+      10.0562,
+      37.057
+     ],
+     "t": "Arrives at Utica",
+     "y": -147,
+     "m": 4,
+     "sea": true
+    },
+    {
+     "loc": [
+      10.34,
+      36.87
+     ],
+     "t": "Night assault on the suburb of Megara",
+     "y": -147
+    },
+    {
+     "loc": [
+      10.27,
+      36.85
+     ],
+     "t": "Fortified line across the isthmus",
+     "y": -147
+    },
+    {
+     "loc": [
+      10.33,
+      36.84
+     ],
+     "t": "Mole across the harbour mouth",
+     "y": -147
+    },
+    {
+     "loc": [
+      10.42,
+      36.68
+     ],
+     "t": "Nepheris taken",
+     "y": -146,
+     "m": 1,
+     "event": "battle_of_nepheris"
+    },
+    {
+     "loc": [
+      10.323,
+      36.8475
+     ],
+     "t": "Laelius storms the Cothon",
+     "y": -146,
+     "m": 4,
+     "event": "siege_of_carthage_149"
+    },
+    {
+     "loc": [
+      10.3233,
+      36.8528
+     ],
+     "t": "Fall of the Byrsa",
+     "y": -146,
+     "m": 4,
+     "event": "destruction_of_carthage"
+    }
+   ],
+   "certainty": "probable"
+  },
+  {
+   "id": "scipio_aemilianus_numantia",
+   "name": "Scipio Aemilianus at Numantia",
+   "war": "numantine_war",
+   "polity": "rome",
+   "commander": "scipio_aemilianus",
+   "start": -134,
+   "end": -133,
+   "strength": "c. 60,000 including allies and Numidians under Jugurtha",
+   "summary": "Scipio drilled the demoralised army, foraged through the land of the Vaccaei to deny Numantia supplies, then built a 9 km circumvallation; the town starved and surrendered in summer 133.",
+   "path": [
+    {
+     "loc": [
+      1.245,
+      41.119
+     ],
+     "t": "Tarraco",
+     "y": -134,
+     "m": 4
+    },
+    {
+     "loc": [
+      -0.88,
+      41.65
+     ],
+     "t": "Up the Ebro valley",
+     "y": -134
+    },
+    {
+     "loc": [
+      -2.4447,
+      41.8098
+     ],
+     "t": "Takes over the army before Numantia",
+     "y": -134
+    },
+    {
+     "loc": [
+      -4.53,
+      42.01
+     ],
+     "t": "Forages near Pallantia; ambushed on return",
+     "y": -134,
+     "m": 8
+    },
+    {
+     "loc": [
+      -2.4447,
+      41.8098
+     ],
+     "t": "Begins the circumvallation",
+     "y": -134,
+     "m": 10,
+     "event": "siege_of_numantia"
+    },
+    {
+     "loc": [
+      -2.75,
+      41.55
+     ],
+     "t": "Punishes Lutia: 400 young men mutilated",
+     "y": -133
+    },
+    {
+     "loc": [
+      -2.4447,
+      41.8098
+     ],
+     "t": "Surrender and destruction of Numantia",
+     "y": -133,
+     "m": 7
+    }
+   ],
+   "certainty": "probable"
+  }
+ ],
+ "polities": [
+  {
+   "id": "mamertines",
+   "name": "Mamertines (Messana)",
+   "type": "city_state",
+   "family": "italic",
+   "start": -288,
+   "end": -264,
+   "summary": "Campanian ex-mercenaries of Agathocles ('sons of Mars') who seized Messana c. 288; their appeal to Rome and Carthage started the First Punic War, after which they were Roman allies."
+  },
+  {
+   "id": "libyan_rebels",
+   "name": "Libyan and mercenary rebels",
+   "type": "breakaway",
+   "family": "berber",
+   "start": -241,
+   "end": -237,
+   "summary": "Mercenaries and Libyan subjects of Carthage in revolt under Spendius and Mathos during the Truceless War; they struck their own coins inscribed LIBYON."
+  },
+  {
+   "id": "gaesatae",
+   "name": "Gaesatae",
+   "type": "tribe",
+   "family": "gallic",
+   "start": -232,
+   "end": -222,
+   "summary": "Gallic warrior bands from the Alps and Rhône valley (the name means 'spearmen' or mercenaries) hired by the Boii and Insubres; fought naked at Telamon and were broken at Clastidium."
+  },
+  {
+   "id": "istri",
+   "name": "Istri",
+   "type": "tribe",
+   "family": "illyrian",
+   "start": -400,
+   "end": -177,
+   "summary": "People of the Istrian peninsula, accused of piracy; subdued by Rome in 221 and 178-177 (fall of Nesactium)."
+  },
+  {
+   "id": "saguntum",
+   "name": "Saguntum",
+   "type": "city_state",
+   "family": "iberian",
+   "start": -500,
+   "end": -219,
+   "summary": "Iberian town (Arse) on the east coast in friendship with Rome; Hannibal's siege of 219 was the casus belli of the Second Punic War. Refounded by Rome after 212."
+  },
+  {
+   "id": "volcae",
+   "name": "Volcae",
+   "type": "tribe",
+   "family": "gallic",
+   "start": -300,
+   "end": -121,
+   "summary": "Gallic people of Languedoc (Arecomici around Nîmes, Tectosages around Toulouse) who opposed Hannibal's crossing of the Rhône in 218."
+  },
+  {
+   "id": "taurini",
+   "name": "Taurini",
+   "type": "tribe",
+   "family": "gallic",
+   "start": -400,
+   "end": -100,
+   "summary": "Ligurian-Celtic people of the upper Po whose chief town (Turin) Hannibal stormed in 218."
+  },
+  {
+   "id": "ilergetes",
+   "name": "Ilergetes",
+   "type": "tribe",
+   "family": "iberian",
+   "start": -400,
+   "end": -195,
+   "summary": "Iberian people of the lower Segre (Lleida) whose chiefs Indibilis and Mandonius switched between Carthage and Rome and revolted against Scipio in 206-205."
+  },
+  {
+   "id": "macedonian_merides",
+   "name": "Macedonian republics (four merides)",
+   "type": "republic",
+   "family": "hellenistic",
+   "start": -167,
+   "end": -149,
+   "summary": "The four autonomous districts into which Rome divided Macedon in 167, with capitals at Amphipolis, Thessalonica, Pella and Pelagonia, paying tribute to Rome; reunited by Andriscus."
+  },
+  {
+   "id": "andriscus_macedon",
+   "name": "Macedon under Andriscus",
+   "type": "breakaway",
+   "family": "hellenistic",
+   "start": -149,
+   "end": -148,
+   "summary": "The short-lived revived Macedonian kingdom of the pretender Andriscus ('Philip VI'), ended by Metellus at Pydna in 148."
+  },
+  {
+   "id": "sicilian_slave_kingdom",
+   "name": "Kingdom of Eunus (Sicilian slave state)",
+   "type": "breakaway",
+   "family": "other",
+   "start": -135,
+   "end": -132,
+   "summary": "The rebel slave state of the First Servile War centred on Enna, whose king Eunus took the name Antiochus, held an assembly and minted bronze coins."
+  }
+ ]
+}

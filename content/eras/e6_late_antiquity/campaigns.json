@@ -1,117 +1,2935 @@
-{"campaigns":[
-{"id":"alaric_greece_395","name":"Alaric's march through Thrace and Greece","war":"gothic_war_395","polity":"visigoths","commander":"alaric_i","start":395,"end":397,
-"strength":"Gothic federates of the Frigidus campaign with families; perhaps 10,000-20,000 fighting men (modern estimates)",
-"summary":"After revolting in 395 the Goths threatened Constantinople, moved through Macedonia and Thessaly, passed Thermopylae, extorted terms from Athens, sacked Corinth, Argos and Sparta, escaped Stilicho's blockade at Pholoe and crossed into Epirus.",
-"path":[{"loc":[28.6,41.1],"t":"Outskirts of Constantinople","y":395,"note":"Goths ravage Thrace and threaten the capital"},{"loc":[22.94,40.64],"t":"Thessalonica region","y":395},{"loc":[22.42,39.64],"t":"Larissa, Thessaly","y":395,"note":"standoff with Stilicho's combined army"},{"loc":[22.54,38.80],"t":"Thermopylae","y":396},{"loc":[23.54,38.04],"t":"Eleusis","y":396,"note":"sanctuary destroyed in this period"},{"loc":[23.64,37.94],"t":"Piraeus and Athens","y":396,"note":"Athens spared, probably by payment"},{"loc":[22.88,37.91],"t":"Corinth","y":396,"note":"sacked"},{"loc":[22.73,37.63],"t":"Argos","y":396,"note":"sacked"},{"loc":[22.43,37.07],"t":"Sparta","y":396,"note":"sacked"},{"loc":[21.75,37.75],"t":"Mount Pholoe","y":397,"event":"battle_of_pholoe","note":"blockaded by Stilicho, escapes"},{"loc":[21.77,38.31],"t":"Crossing of the Gulf of Corinth","y":397,"sea":true},{"loc":[20.85,39.15],"t":"Epirus","y":397,"note":"Alaric made magister militum per Illyricum by Constantinople"}],
-"certainty":"approx","note":"The order of sacks and the route are reconstructed mainly from Zosimus 5.5-7 and Claudian; exact itinerary uncertain."},
-{"id":"alaric_italy_401","name":"Alaric's first invasion of Italy","war":"gothic_war_395","polity":"visigoths","commander":"alaric_i","start":401,"end":402,
-"strength":"Gothic army with families, perhaps 15,000-20,000 warriors",
-"summary":"From Illyricum Alaric crossed the Julian Alps in November 401, besieged Aquileia, cut Honorius off in Milan and Hasta, was fought to a standstill at Pollentia on Easter Day 402 and defeated near Verona, then withdrew east.",
-"path":[{"loc":[19.61,44.97],"t":"Sirmium region, Illyricum","y":401,"note":"starting point uncertain"},{"loc":[16.37,45.48],"t":"Siscia","y":401},{"loc":[14.51,46.05],"t":"Emona","y":401,"m":11},{"loc":[13.37,45.77],"t":"Aquileia","y":401,"m":11,"event":"alaric_invades_italy_401"},{"loc":[10.99,45.44],"t":"Verona area","y":401,"m":12},{"loc":[8.21,44.90],"t":"Hasta (Asti)","y":402,"m":3,"note":"Honorius besieged according to Claudian"},{"loc":[7.897,44.686],"t":"Pollentia","y":402,"m":4,"event":"battle_of_pollentia"},{"loc":[9.69,45.05],"t":"Retreat along the Po","y":402},{"loc":[10.993,45.438],"t":"Verona","y":402,"event":"battle_of_verona_402"},{"loc":[13.37,45.77],"t":"Withdrawal via Aquileia","y":402},{"loc":[14.51,46.05],"t":"Return over the Julian Alps","y":402}],
-"certainty":"approx","note":"Claudian's poems are the main source; the date of Verona (402 or 403) is disputed."},
-{"id":"radagaisus_405","name":"Radagaisus's invasion of Italy","war":"radagaisus_war","polity":"radagaisus_coalition","commander":"radagaisus","start":405,"end":406,
-"strength":"perhaps 20,000 warriors plus families (ancient figures of 200,000-400,000 are fantasy)",
-"summary":"Radagaisus's host came from the middle Danube through Pannonia and over the Julian Alps, crossed the Po valley and the Apennines, and besieged Florence before being trapped and destroyed at Faesulae.",
-"path":[{"loc":[17.5,47.0],"t":"Middle Danube, Pannonia","y":405},{"loc":[15.87,46.42],"t":"Poetovio","y":405},{"loc":[14.51,46.05],"t":"Emona","y":405},{"loc":[13.37,45.77],"t":"Aquileia","y":405,"m":12},{"loc":[11.88,45.41],"t":"Patavium","y":406},{"loc":[11.34,44.49],"t":"Bononia","y":406},{"loc":[11.255,43.77],"t":"Florentia (besieged)","y":406,"m":7},{"loc":[11.293,43.807],"t":"Faesulae","y":406,"m":8,"d":23,"event":"battle_of_faesulae","note":"surrender and execution of Radagaisus"}],
-"certainty":"approx","note":"Route unattested in detail; entry by the Julian Alps is the likeliest reconstruction."},
-{"id":"alaric_italy_408","name":"Alaric's second invasion and the sack of Rome","war":"gothic_war_395","polity":"visigoths","commander":"alaric_i","start":408,"end":410,
-"strength":"Gothic army swollen by c. 30,000 defectors from Stilicho's federates (Zosimus) and fugitive slaves",
-"summary":"After Stilicho's execution Alaric marched from Noricum through Aquileia, Cremona, Bononia and Ariminum, down the Flaminia to Rome, which he blockaded in 408 and 409, seized Portus, negotiated at Ariminum, and finally sacked Rome in August 410 before marching south toward Africa.",
-"path":[{"loc":[14.37,46.70],"t":"Noricum (Virunum)","y":408,"m":9},{"loc":[13.37,45.77],"t":"Aquileia","y":408},{"loc":[12.86,45.77],"t":"Concordia","y":408},{"loc":[10.02,45.13],"t":"Cremona, crossing of the Po","y":408},{"loc":[11.34,44.49],"t":"Bononia","y":408},{"loc":[12.568,44.059],"t":"Ariminum","y":408},{"loc":[13.02,43.84],"t":"Picenum (Fanum Fortunae)","y":408},{"loc":[12.52,42.52],"t":"Narnia","y":408,"note":"town saved, Zosimus says, by a thunderstorm"},{"loc":[12.4924,41.8902],"t":"Rome blockaded","y":408,"m":11,"event":"siege_of_rome_408"},{"loc":[12.568,44.059],"t":"Negotiations at Ariminum","y":409},{"loc":[12.26,41.78],"t":"Portus seized","y":409,"event":"siege_of_rome_409"},{"loc":[12.568,44.059],"t":"Attalus deposed near Ariminum","y":410,"m":7},{"loc":[12.4924,41.8902],"t":"Sack of Rome","y":410,"m":8,"d":24,"event":"sack_of_rome_410"},{"loc":[14.25,41.08],"t":"Capua","y":410,"m":9},{"loc":[14.53,40.93],"t":"Nola","y":410,"m":9},{"loc":[16.25,39.30],"t":"Consentia","y":410},{"loc":[15.65,38.11],"t":"Rhegium","y":410,"note":"fleet wrecked crossing to Sicily"},{"loc":[16.25,39.30],"t":"Consentia: death of Alaric","y":410,"event":"death_of_alaric_410"}],
-"certainty":"probable","note":"Itinerary from Zosimus 5.37 and 6.6-13 and Olympiodorus; the Ariminum-Rome shuttles are simplified."},
-{"id":"vandal_migration_406","name":"Vandal and Alan migration from the Rhine to Carthage","war":"vandal_war_429","polity":"vandals","commander":"gaiseric","start":406,"end":439,
-"strength":"Hasdings, Silings and Alans; 80,000 people in 429 (Victor of Vita)",
-"summary":"From the Rhine crossing at the end of 406 the Vandals and Alans plundered Gaul for three years, crossed the Pyrenees in 409, settled in Gallaecia and Baetica, crossed to Africa in 429 and marched east along the Mauretanian and Numidian coast to Hippo and finally Carthage.",
-"path":[{"loc":[8.27,50.0],"t":"Rhine crossing near Mainz","y":406,"m":12,"d":31,"event":"rhine_crossing_406"},{"loc":[4.03,49.25],"t":"Reims","y":407},{"loc":[2.30,49.89],"t":"Amiens","y":407},{"loc":[0.69,47.39],"t":"Tours region","y":408},{"loc":[-0.58,44.84],"t":"Aquitaine (Bordeaux)","y":408},{"loc":[-1.32,43.01],"t":"Crossing of the western Pyrenees","y":409,"m":10,"event":"vandals_alans_suebi_enter_spain_409"},{"loc":[-6.06,42.46],"t":"Gallaecia (Asturica)","y":411,"note":"Hasdings and Suebi allotted Gallaecia"},{"loc":[-5.99,37.39],"t":"Baetica (Hispalis)","y":422,"event":"castinus_defeated_in_baetica_422"},{"loc":[-0.98,37.60],"t":"Carthago Nova raided","y":425},{"loc":[-5.60,36.01],"t":"Iulia Traducta","y":429,"m":5,"event":"vandal_crossing_to_africa_429"},{"loc":[-5.81,35.78],"t":"Tingis","y":429,"m":5,"sea":true},{"loc":[-1.47,35.26],"t":"Siga","y":429},{"loc":[2.19,36.61],"t":"Caesarea Mauretaniae","y":429},{"loc":[5.41,36.19],"t":"Sitifis","y":430},{"loc":[6.61,36.37],"t":"Cirta","y":430},{"loc":[7.752,36.882],"t":"Hippo Regius","y":430,"m":6,"event":"siege_of_hippo_regius_430"},{"loc":[10.323,36.853],"t":"Carthage","y":439,"m":10,"d":19,"event":"vandal_capture_of_carthage_439"}],
-"certainty":"approx","note":"Gallic and Spanish movements are largely reconstructed from Jerome, Hydatius and Salvian; the land route through Mauretania is assumed to follow the coastal road. Gaiseric led only from 428."},
-{"id":"visigoths_athaulf_412","name":"The Goths from Italy to Aquitaine","war":"gothic_war_395","polity":"visigoths","commander":"athaulf","start":411,"end":418,
-"strength":"the whole Gothic people under Athaulf, then Wallia",
-"summary":"After Alaric's death the Goths moved north through Italy into Gaul (412), supported and then betrayed the usurper Jovinus, took Narbonne and Bordeaux, were blockaded into Spain (415), fought the Vandals and Alans for Rome (416-418) and were settled in Aquitaine.",
-"path":[{"loc":[16.25,39.30],"t":"Consentia","y":411},{"loc":[12.4924,41.8902],"t":"Through Latium","y":411},{"loc":[11.0,43.5],"t":"Etruria","y":411},{"loc":[8.93,44.41],"t":"Liguria","y":412},{"loc":[6.75,44.93],"t":"Crossing the Cottian Alps","y":412},{"loc":[4.89,44.93],"t":"Valentia (Valence)","y":413,"note":"Jovinus's brother Sebastianus defeated"},{"loc":[3.003,43.184],"t":"Narbo","y":414,"m":1,"event":"athaulf_marries_galla_placidia_414"},{"loc":[-0.58,44.84],"t":"Burdigala","y":414},{"loc":[2.17,41.38],"t":"Barcino","y":415,"note":"Athaulf murdered"},{"loc":[-0.38,39.47],"t":"Valentia (Spain)","y":416},{"loc":[-5.99,37.39],"t":"Baetica","y":417,"event":"visigothic_campaigns_in_spain_416"},{"loc":[-6.34,38.92],"t":"Lusitania (Emerita)","y":418,"note":"Alans crushed"},{"loc":[-0.88,41.65],"t":"Caesaraugusta","y":418},{"loc":[1.444,43.604],"t":"Tolosa: settlement in Aquitaine","y":418,"event":"visigothic_settlement_aquitaine_418"}],
-"certainty":"approx","note":"Route into Gaul uncertain (coastal road or Alpine pass); Spanish campaigns reconstructed from Hydatius."},
-{"id":"attila_gaul_451","name":"Attila's invasion of Gaul","war":"hunnic_wars","polity":"huns","commander":"attila","start":451,"end":451,
-"strength":"Huns with Ostrogoths, Gepids, Rugii, Sciri, Heruli and others; Jordanes's 500,000 is impossible, perhaps 30,000-50,000",
-"summary":"Attila led his coalition up the Danube, crossed the Rhine in early spring, sacked Metz on 7 April, besieged Orléans until relieved by Aetius and Theodoric in June, and fought the battle of the Catalaunian Plains before withdrawing across the Rhine.",
-"path":[{"loc":[19.0,47.2],"t":"Hunnic heartland, Pannonian plain","y":451,"m":1},{"loc":[16.37,48.21],"t":"Vindobona","y":451,"m":2},{"loc":[12.10,49.02],"t":"Castra Regina (upper Danube)","y":451,"m":2},{"loc":[9.93,49.79],"t":"Main valley","y":451,"m":3},{"loc":[7.6,50.35],"t":"Crossing of the Rhine","y":451,"m":3},{"loc":[6.64,49.75],"t":"Treveri","y":451,"m":4},{"loc":[6.176,49.119],"t":"Divodurum (Metz)","y":451,"m":4,"d":7,"event":"siege_of_metz_451"},{"loc":[4.03,49.25],"t":"Durocortorum (Reims)","y":451,"m":5},{"loc":[1.909,47.902],"t":"Aurelianum (Orléans)","y":451,"m":6,"event":"siege_of_orleans_451"},{"loc":[4.07,48.30],"t":"Tricasses (Troyes)","y":451,"m":6},{"loc":[4.36,48.95],"t":"Catalaunian Plains","y":451,"m":6,"d":20,"event":"battle_of_the_catalaunian_plains"},{"loc":[7.6,50.0],"t":"Withdrawal across the Rhine","y":451,"m":7},{"loc":[19.0,47.2],"t":"Return to the Hunnic heartland","y":451,"m":9}],
-"certainty":"approx","note":"Route to the Rhine and crossing point unknown; Reims and Troyes appear in hagiographic traditions (Nicasius, Lupus). Battle site disputed."},
-{"id":"attila_italy_452","name":"Attila's invasion of Italy","war":"hunnic_wars","polity":"huns","commander":"attila","start":452,"end":452,
-"strength":"main Hunnic army and subject peoples",
-"summary":"Attila crossed the Julian Alps, destroyed Aquileia after a long siege, took the cities of the Po valley as far as Milan and Pavia, met Pope Leo's embassy on the Mincio, and withdrew amid famine and disease.",
-"path":[{"loc":[19.0,47.2],"t":"Hunnic heartland","y":452,"m":3},{"loc":[15.87,46.42],"t":"Poetovio","y":452,"m":4},{"loc":[14.51,46.05],"t":"Emona","y":452,"m":4},{"loc":[13.37,45.769],"t":"Aquileia (siege)","y":452,"m":5,"event":"siege_of_aquileia_452"},{"loc":[11.88,45.41],"t":"Patavium","y":452,"m":7},{"loc":[11.55,45.55],"t":"Vicetia","y":452,"m":7},{"loc":[10.993,45.438],"t":"Verona","y":452,"m":7},{"loc":[10.22,45.54],"t":"Brixia","y":452,"m":7},{"loc":[9.67,45.70],"t":"Bergomum","y":452,"m":7},{"loc":[9.19,45.464],"t":"Mediolanum","y":452,"m":8},{"loc":[9.158,45.185],"t":"Ticinum","y":452,"m":8},{"loc":[10.79,45.15],"t":"Ager Ambuleius on the Mincio","y":452,"m":8,"event":"meeting_of_leo_and_attila_452"},{"loc":[13.37,45.77],"t":"Withdrawal via the Julian Alps","y":452,"m":9},{"loc":[19.0,47.2],"t":"Return to the Hunnic heartland","y":452,"m":10}],
-"certainty":"approx","note":"Cities taken are listed by later sources; the order is reconstructed."},
-{"id":"gaiseric_rome_455","name":"Gaiseric's expedition against Rome","war":"roman_vandal_war_455","polity":"vandal_kingdom","commander":"gaiseric","start":455,"end":455,
-"strength":"Vandal and Moorish fleet and army",
-"summary":"Gaiseric sailed from Carthage in May 455, landed at Portus, entered Rome on 2 June after Petronius Maximus's death, plundered it for fourteen days and returned to Carthage with the empress, her daughters and the treasure of the imperial palace.",
-"path":[{"loc":[10.323,36.853],"t":"Carthage","y":455,"m":5},{"loc":[10.6,38.0],"t":"Sicilian channel","y":455,"m":5,"sea":true},{"loc":[11.6,40.0],"t":"Tyrrhenian Sea","y":455,"m":5,"sea":true},{"loc":[12.26,41.78],"t":"Portus","y":455,"m":5,"sea":true},{"loc":[12.4924,41.8902],"t":"Rome plundered","y":455,"m":6,"d":2,"event":"vandal_sack_of_rome_455"},{"loc":[12.26,41.78],"t":"Re-embarkation at Portus","y":455,"m":6},{"loc":[11.6,40.0],"t":"Tyrrhenian Sea","y":455,"m":6,"sea":true},{"loc":[10.323,36.853],"t":"Return to Carthage","y":455,"m":7,"sea":true}],
-"certainty":"probable","note":"Sea route schematic."},
-{"id":"majorian_460","name":"Majorian's campaigns in Gaul and Spain","war":"roman_vandal_war_455","polity":"rome_west","commander":"majorian","start":458,"end":461,
-"strength":"Italian field army with Hunnic, Gepid, Ostrogothic, Rugian, Burgundian and Suevic contingents (Sidonius); fleet of c. 300 ships",
-"summary":"Majorian crossed the Alps in winter 458, recovered Lyon, forced the Visigoths back to alliance near Arles, marched into Spain in 460 to embark for Africa from the south-east coast, saw his fleet destroyed, and returned through Gaul to Italy, where Ricimer arrested and executed him.",
-"path":[{"loc":[12.199,44.418],"t":"Ravenna","y":458},{"loc":[9.19,45.464],"t":"Mediolanum","y":458},{"loc":[6.75,44.93],"t":"Crossing the Cottian Alps in winter","y":458,"m":12},{"loc":[4.83,45.76],"t":"Lugdunum recovered","y":458},{"loc":[4.63,43.677],"t":"Arelate: Visigoths defeated and reconciled","y":459},{"loc":[3.003,43.184],"t":"Narbo","y":460},{"loc":[2.87,42.45],"t":"Crossing of the eastern Pyrenees","y":460},{"loc":[-0.88,41.65],"t":"Caesaraugusta","y":460,"note":"attested at Zaragoza by the Chronicle of Zaragoza"},{"loc":[-0.556,38.19],"t":"Portus Illicitanus: fleet destroyed","y":460,"event":"destruction_of_majorians_fleet_460"},{"loc":[4.63,43.677],"t":"Return to Arelate","y":461},{"loc":[6.74,43.43],"t":"Forum Iulii","y":461},{"loc":[8.863,44.896],"t":"Dertona: arrest and execution","y":461,"m":8,"d":7,"event":"execution_of_majorian_461"}],
-"certainty":"approx","note":"The Spanish leg is reconstructed from Hydatius and the Chronicle of Zaragoza."},
-{"id":"basiliscus_468","name":"The great expedition against the Vandals","war":"roman_vandal_war_455","polity":"rome_east","commander":"basiliscus","start":468,"end":468,
-"strength":"over 1,000 ships and perhaps tens of thousands of men (later sources: 1,113 ships, 100,000 men); cost 64,000-65,000 lbs of gold and 700,000 lbs of silver",
-"summary":"Basiliscus sailed from Constantinople through the Aegean and round the Peloponnese to Sicily and then to Cape Bon, where Vandal fireships destroyed half his fleet. Parallel forces under Marcellinus took Sardinia and under Heraclius of Edessa took Tripolitania.",
-"path":[{"loc":[28.98,41.01],"t":"Constantinople","y":468,"sea":true},{"loc":[26.4,40.2],"t":"Hellespont","y":468,"sea":true},{"loc":[24.5,38.3],"t":"Aegean","y":468,"sea":true},{"loc":[23.2,36.4],"t":"Off Cape Malea","y":468,"sea":true},{"loc":[15.29,37.07],"t":"Sicily","y":468,"sea":true},{"loc":[11.0,37.05],"t":"Anchorage off Cape Bon","y":468,"sea":true,"event":"battle_of_cape_bon"},{"loc":[15.29,37.07],"t":"Retreat to Sicily","y":468,"sea":true}],
-"certainty":"probable","note":"Route schematic; the stop in Sicily is attested for the survivors."},
-{"id":"theodoric_italy_488","name":"Theodoric's march to Italy","war":"theodorics_war_489","polity":"ostrogoths","commander":"theodoric_the_great","start":488,"end":493,
-"strength":"a whole people, perhaps 100,000 including 20,000 warriors, with wagons; joined by Rugians",
-"summary":"Commissioned by Zeno, Theodoric left Novae in autumn 488, marched up the Danube, fought the Gepids at the Ulca near Sirmium, crossed into Italy, and defeated Odoacer on the Isonzo, at Verona and on the Adda before besieging him in Ravenna for two and a half years.",
-"path":[{"loc":[25.39,43.61],"t":"Novae","y":488,"m":10},{"loc":[24.27,43.71],"t":"Oescus","y":488},{"loc":[21.22,44.73],"t":"Viminacium","y":488},{"loc":[20.46,44.82],"t":"Singidunum","y":488},{"loc":[19.61,44.97],"t":"Sirmium: battle with the Gepids at the Ulca","y":489},{"loc":[16.37,45.48],"t":"Siscia","y":489},{"loc":[14.51,46.05],"t":"Emona","y":489,"m":8},{"loc":[13.50,45.89],"t":"Pons Sontii on the Isonzo","y":489,"m":8,"d":28,"event":"battle_of_the_isonzo_489"},{"loc":[10.993,45.438],"t":"Verona","y":489,"m":9,"d":30,"event":"battle_of_verona_489"},{"loc":[9.19,45.464],"t":"Mediolanum","y":489},{"loc":[9.158,45.185],"t":"Ticinum","y":490},{"loc":[9.52,45.53],"t":"River Adda","y":490,"m":8,"d":11,"event":"battle_of_the_adda_490"},{"loc":[12.199,44.418],"t":"Ravenna besieged","y":493,"m":3,"event":"siege_of_ravenna_490"}],
-"certainty":"probable","note":"The route from Novae to Sirmium followed the Danube road; winter marching conditions were severe according to Ennodius."},
-{"id":"clovis_507","name":"Clovis's campaign against the Visigoths","war":"frankish_visigothic_war_507","polity":"franks","commander":"clovis_i","start":507,"end":508,
-"strength":"Frankish army with Burgundian contingent under Gundobad's son Sigismund",
-"summary":"Clovis marched from Paris to Tours, crossed the Vienne at a ford revealed, Gregory says, by a stag, defeated and killed Alaric II at Vouillé, wintered at Bordeaux, seized the Visigothic treasure at Toulouse, and returned to Tours for his consular ceremony.",
-"path":[{"loc":[2.35,48.85],"t":"Paris","y":507,"m":3},{"loc":[1.909,47.902],"t":"Orléans, crossing the Loire","y":507},{"loc":[0.689,47.394],"t":"Tours","y":507},{"loc":[0.55,46.95],"t":"Ford of the Vienne","y":507},{"loc":[0.165,46.64],"t":"Campus Vogladensis","y":507,"event":"battle_of_vouille"},{"loc":[0.16,45.65],"t":"Angoulême","y":507},{"loc":[-0.58,44.84],"t":"Burdigala: winter quarters","y":507},{"loc":[1.444,43.604],"t":"Tolosa: Visigothic treasure seized","y":508},{"loc":[0.16,45.65],"t":"Angoulême taken","y":508},{"loc":[0.689,47.394],"t":"Tours: consular ceremony","y":508,"event":"consulship_of_clovis_508"},{"loc":[2.35,48.85],"t":"Paris","y":508}],
-"certainty":"approx","note":"Gregory of Tours 2.37-38 is the only narrative; Angoulême's capture may belong to 508."},
-{"id":"belisarius_africa_533","name":"Belisarius's expedition to Africa","war":"vandalic_war_533","polity":"rome_east","commander":"belisarius","start":533,"end":534,
-"strength":"10,000 infantry, 5,000 cavalry, 500 transports, 92 dromons (Procopius 3.11)",
-"summary":"Belisarius sailed from Constantinople around midsummer 533 via Abydos, Methone, Zacynthus and Sicily, landed at Caput Vada, marched up the coast road, won at Ad Decimum and entered Carthage, won again at Tricamarum and pursued Gelimer into Numidia.",
-"path":[{"loc":[28.98,41.01],"t":"Constantinople","y":533,"m":6,"sea":true},{"loc":[26.40,40.20],"t":"Abydos","y":533,"m":6,"sea":true},{"loc":[23.2,36.4],"t":"Cape Malea","y":533,"sea":true},{"loc":[21.70,36.82],"t":"Methone","y":533,"sea":true,"note":"500 men die from mouldy bread"},{"loc":[20.90,37.78],"t":"Zacynthus","y":533,"sea":true},{"loc":[15.09,37.50],"t":"Sicily (Catana region)","y":533,"m":8,"sea":true},{"loc":[14.52,36.72],"t":"Caucana","y":533,"sea":true},{"loc":[14.30,36.00],"t":"Gaulos and Melite","y":533,"sea":true},{"loc":[11.15,35.24],"t":"Caput Vada: landing","y":533,"m":9,"sea":true},{"loc":[10.86,35.66],"t":"Leptis Minor","y":533,"m":9},{"loc":[10.64,35.83],"t":"Hadrumetum","y":533,"m":9},{"loc":[10.24,36.74],"t":"Ad Decimum","y":533,"m":9,"d":13,"event":"battle_of_ad_decimum"},{"loc":[10.323,36.853],"t":"Carthage entered","y":533,"m":9,"d":15},{"loc":[9.95,36.80],"t":"Tricamarum","y":533,"m":12,"event":"battle_of_tricamarum"},{"loc":[7.752,36.882],"t":"Hippo Regius (pursuit)","y":534,"m":1},{"loc":[7.66,36.93],"t":"Mount Papua: Gelimer surrenders","y":534,"m":3,"event":"surrender_of_gelimer_534"},{"loc":[10.323,36.853],"t":"Return to Carthage and departure","y":534}],
-"certainty":"probable","note":"Procopius, an eyewitness, gives the itinerary in Wars 3.12-4.7."},
-{"id":"belisarius_italy_535","name":"Belisarius's conquest of Sicily and Italy","war":"gothic_war_535","polity":"rome_east","commander":"belisarius","start":535,"end":540,
-"strength":"7,500 men at the start (4,000 regulars and federates, 3,000 Isaurians, plus Huns, Moors and 200 bucellarii), later reinforced",
-"summary":"Belisarius took Sicily in 535, crossed to Rhegium, took Naples by an aqueduct, entered Rome, withstood a year-long siege, then advanced up the Adriatic side, relieved Ariminum, took Auximum and accepted the surrender of Ravenna in 540.",
-"path":[{"loc":[28.98,41.01],"t":"Constantinople","y":535,"sea":true},{"loc":[15.09,37.50],"t":"Catana","y":535,"sea":true},{"loc":[13.36,38.12],"t":"Panormus","y":535,"note":"taken with archers hoisted to the mastheads"},{"loc":[15.287,37.075],"t":"Syracuse","y":535,"m":12,"d":31,"event":"conquest_of_sicily_535"},{"loc":[15.65,38.11],"t":"Rhegium","y":536,"m":5,"sea":true},{"loc":[16.25,39.30],"t":"Bruttium","y":536},{"loc":[15.0,40.4],"t":"Lucania","y":536},{"loc":[14.25,40.85],"t":"Naples","y":536,"m":11,"event":"siege_of_naples_536"},{"loc":[14.25,41.08],"t":"Capua and the Via Latina","y":536},{"loc":[12.4924,41.8902],"t":"Rome","y":536,"m":12,"d":9,"event":"siege_of_rome_537"},{"loc":[12.52,42.52],"t":"Narnia","y":538},{"loc":[13.72,43.16],"t":"Firmum","y":538},{"loc":[12.568,44.059],"t":"Ariminum relieved","y":538},{"loc":[13.48,43.48],"t":"Auximum besieged","y":539},{"loc":[12.199,44.418],"t":"Ravenna surrenders","y":540,"m":5,"event":"siege_of_ravenna_539"}],
-"certainty":"probable","note":"From Procopius, Wars 5-6; movements in 538-539 simplified."},
-{"id":"khosrow_antioch_540","name":"Khosrow I's invasion of Syria","war":"lazic_war","polity":"sasanian","commander":"khosrow_i","start":540,"end":540,
-"strength":"Persian royal army",
-"summary":"Khosrow marched up the Euphrates, burned Sura, ransomed Hierapolis and Beroea, sacked Antioch, bathed in the Mediterranean at Seleucia, visited Apamea and Chalcis, extorted money from Edessa and Dara on the way home and settled the deportees near Ctesiphon.",
-"path":[{"loc":[44.58,33.09],"t":"Ctesiphon","y":540,"m":3},{"loc":[40.45,35.16],"t":"Circesium","y":540,"m":4},{"loc":[38.80,35.90],"t":"Sura burned","y":540,"m":4},{"loc":[37.96,36.53],"t":"Hierapolis ransomed","y":540,"m":5},{"loc":[37.16,36.20],"t":"Beroea","y":540,"m":5},{"loc":[36.16,36.20],"t":"Antioch sacked","y":540,"m":6,"event":"sack_of_antioch_540"},{"loc":[35.93,36.12],"t":"Seleucia Pieria","y":540,"m":6,"note":"Khosrow bathes in the sea"},{"loc":[36.40,35.42],"t":"Apamea","y":540,"m":7},{"loc":[37.00,35.99],"t":"Chalcis","y":540,"m":7},{"loc":[38.79,37.15],"t":"Edessa pays","y":540,"m":8},{"loc":[40.948,37.177],"t":"Dara attacked","y":540,"m":8},{"loc":[41.22,37.07],"t":"Nisibis","y":540,"m":9},{"loc":[43.13,36.34],"t":"Down the Tigris (Nineveh)","y":540,"m":9},{"loc":[44.58,33.09],"t":"Weh Antiok Khosrow near Ctesiphon","y":540,"m":10}],
-"certainty":"probable","note":"From Procopius, Wars 2.5-14."},
-{"id":"narses_italy_552","name":"Narses's campaign in Italy","war":"gothic_war_535","polity":"rome_east","commander":"narses","start":551,"end":554,
-"strength":"perhaps 20,000-30,000, including 5,500 Lombards, 3,000 Heruli, Gepids, Huns and Persian deserters",
-"summary":"Narses marched overland from Salona round the head of the Adriatic, crossed the lagoons to Ravenna using boats and causeways, took the Via Flaminia, destroyed Totila at Busta Gallorum, retook Rome, defeated Teia at Mons Lactarius, besieged Cumae and annihilated the Franks on the Volturnus.",
-"path":[{"loc":[16.48,43.54],"t":"Salona","y":551},{"loc":[14.44,45.33],"t":"Tarsatica","y":552,"m":4},{"loc":[13.77,45.65],"t":"Tergeste","y":552,"m":5},{"loc":[13.37,45.77],"t":"Aquileia","y":552,"m":5},{"loc":[12.3,45.2],"t":"Through the Venetian lagoons","y":552,"m":5},{"loc":[12.199,44.418],"t":"Ravenna","y":552,"m":6},{"loc":[12.568,44.059],"t":"Ariminum","y":552,"m":6},{"loc":[12.78,43.23],"t":"Busta Gallorum","y":552,"m":7,"event":"battle_of_taginae"},{"loc":[12.52,42.52],"t":"Narnia","y":552,"m":7},{"loc":[12.4924,41.8902],"t":"Rome retaken","y":552,"m":8},{"loc":[14.57,40.71],"t":"Mons Lactarius","y":552,"m":10,"event":"battle_of_mons_lactarius"},{"loc":[14.05,40.85],"t":"Cumae besieged","y":553},{"loc":[14.21,41.10],"t":"Casilinum on the Volturnus","y":554,"event":"battle_of_the_volturnus_554"}],
-"certainty":"probable","note":"From Procopius, Wars 8.26-35, and Agathias 1-2."},
-{"id":"lombard_migration_568","name":"The Lombard migration into Italy","war":"roman_lombard_wars","polity":"lombards","commander":"alboin","start":568,"end":572,
-"strength":"Lombards with Saxons, Gepids, Bulgars and others; perhaps 100,000-150,000 people",
-"summary":"Leaving Pannonia to the Avars on Easter Monday 568, the Lombards crossed the Julian Alps to Forum Iulii, spread across Venetia, took Milan in 569 and Pavia after a three-year siege.",
-"path":[{"loc":[17.5,47.0],"t":"Pannonia","y":568,"m":4,"d":2},{"loc":[15.87,46.42],"t":"Poetovio","y":568,"m":4},{"loc":[14.51,46.05],"t":"Emona","y":568,"m":5},{"loc":[13.43,46.09],"t":"Forum Iulii","y":568,"event":"lombard_invasion_568"},{"loc":[11.55,45.55],"t":"Vicetia","y":569},{"loc":[10.993,45.438],"t":"Verona","y":569},{"loc":[9.19,45.464],"t":"Mediolanum","y":569,"m":9,"d":3},{"loc":[9.158,45.185],"t":"Ticinum besieged","y":572,"event":"siege_of_pavia_569"},{"loc":[10.993,45.438],"t":"Verona: Alboin murdered","y":572,"m":6,"d":28,"event":"assassination_of_alboin_572"}],
-"certainty":"probable","note":"From Paul the Deacon 2.7-28."},
-{"id":"priscus_avar_599","name":"Priscus's campaign against the Avars","war":"balkan_wars_of_maurice","polity":"rome_east","commander":"priscus_general","start":599,"end":599,
-"strength":"Balkan field army",
-"summary":"Priscus crossed the Danube at Viminacium, won a series of battles against the Avars, then struck north into the Tisza region, destroying settlements and taking thousands of captives.",
-"path":[{"loc":[20.46,44.82],"t":"Singidunum","y":599},{"loc":[21.22,44.73],"t":"Viminacium: crossing of the Danube","y":599,"event":"battle_of_viminacium_599"},{"loc":[21.0,45.1],"t":"Battles north of the Danube","y":599},{"loc":[20.2,45.8],"t":"River Tisza","y":599},{"loc":[20.2,46.2],"t":"Gepid and Avar villages destroyed","y":599},{"loc":[21.22,44.73],"t":"Return to Viminacium","y":599}],
-"certainty":"disputed","note":"Theophylact 8.2-4; locations north of the Danube are approximate."},
-{"id":"shahrbaraz_613","name":"Shahrbaraz's conquest of Syria, Palestine and Egypt","war":"roman_sasanian_war_602","polity":"sasanian","commander":"shahrbaraz","start":613,"end":619,
-"strength":"Persian field army",
-"summary":"After defeating Heraclius near Antioch, Shahrbaraz took Damascus, received the submission of Caesarea, stormed Jerusalem in 614 and carried off the True Cross, then invaded Egypt (618) and took Alexandria (619).",
-"path":[{"loc":[36.16,36.20],"t":"Antioch","y":613,"event":"battle_of_antioch_613"},{"loc":[36.72,34.73],"t":"Emesa","y":613},{"loc":[36.306,33.511],"t":"Damascus","y":613},{"loc":[34.89,32.50],"t":"Caesarea Maritima submits","y":614},{"loc":[35.2316,31.7767],"t":"Jerusalem stormed","y":614,"m":5,"event":"siege_of_jerusalem_614"},{"loc":[34.46,31.50],"t":"Gaza","y":618},{"loc":[32.57,31.04],"t":"Pelusium","y":618},{"loc":[29.92,31.20],"t":"Alexandria","y":619,"event":"persian_conquest_of_egypt_619"}],
-"certainty":"approx","note":"Sequence certain, route and intermediate dates approximate; Shahrbaraz's command of the Egyptian campaign is inferred from later sources."},
-{"id":"heraclius_622_628","name":"Heraclius's Persian campaigns","war":"roman_sasanian_war_602","polity":"rome_east","commander":"heraclius","start":622,"end":628,
-"strength":"perhaps 20,000-50,000; reinforced by up to 40,000 Turks in 627 (Theophanes)",
-"summary":"In six years Heraclius trained an army in Anatolia, struck through Armenia into Atropatene to destroy the fire temple of Adur Gushnasp, manoeuvred against three Persian armies, fought at the Sarus, allied with the Western Turks, and in winter 627 marched into Mesopotamia to win at Nineveh, plunder Dastagird and force Khosrow's fall.",
-"path":[{"loc":[28.98,41.01],"t":"Constantinople","y":622,"m":4,"d":5},{"loc":[29.15,40.65],"t":"Pylae","y":622,"m":4,"sea":true},{"loc":[35.48,38.73],"t":"Cappadocia: victory over Shahrbaraz","y":622,"m":10},{"loc":[28.98,41.01],"t":"Return to Constantinople","y":623},{"loc":[29.92,40.77],"t":"Nicomedia","y":624,"m":3},{"loc":[35.48,38.73],"t":"Caesarea","y":624,"m":4},{"loc":[41.27,39.91],"t":"Theodosiopolis","y":624,"m":5},{"loc":[44.57,40.0],"t":"Dvin","y":624,"m":6},{"loc":[45.41,39.21],"t":"Nakhchivan","y":624,"m":6},{"loc":[46.3,37.0],"t":"Ganzak","y":624,"m":7},{"loc":[47.235,36.604],"t":"Thebarmais: fire temple destroyed","y":624,"m":7,"event":"destruction_of_adur_gushnasp_624"},{"loc":[47.12,40.38],"t":"Winter quarters in Albania","y":624,"m":12},{"loc":[43.0,38.8],"t":"Manoeuvres around Lake Van","y":625},{"loc":[36.93,37.58],"t":"Germanicia","y":625},{"loc":[35.32,37.0],"t":"River Sarus","y":625,"event":"battle_of_the_sarus_625"},{"loc":[37.02,39.75],"t":"Sebasteia: winter quarters","y":625,"m":12},{"loc":[41.7,42.0],"t":"Lazica","y":626},{"loc":[44.79,41.69],"t":"Tiflis with the Turks","y":627,"event":"siege_of_tbilisi_627"},{"loc":[45.0,37.6],"t":"Through Atropatene","y":627,"m":10},{"loc":[43.15,36.36],"t":"Nineveh","y":627,"m":12,"d":12,"event":"battle_of_nineveh"},{"loc":[44.98,33.88],"t":"Dastagird plundered","y":628,"m":1},{"loc":[44.7,33.4],"t":"Nahrawan canal before Ctesiphon","y":628,"m":2},{"loc":[45.9,35.3],"t":"Shahrazur","y":628,"m":3},{"loc":[46.3,37.0],"t":"Ganzak: news of Khosrow's fall","y":628,"m":4,"event":"fall_of_khosrow_ii_628"}],
-"certainty":"disputed","note":"Reconstructed from Theophanes, George of Pisidia, Movses Daskhurantsi and the Chronicon Paschale; the 622 battle site, the 625 manoeuvres and Ganzak's location are uncertain. See Howard-Johnston for alternative chronologies."},
-{"id":"khalid_634","name":"Khalid ibn al-Walid's march to Syria and the conquest of Syria","war":"arab_roman_war_634","polity":"rashidun","commander":"khalid_ibn_al_walid","start":634,"end":636,
-"strength":"500-800 men on the desert crossing (tradition); Arab armies in Syria perhaps 20,000-40,000 by 636",
-"summary":"Khalid crossed the desert from Iraq to Syria in early 634, appeared at Marj Rahit, took Bosra, joined the other armies at Ajnadayn, besieged Damascus, fought at Fahl, took Emesa, and fell back before Heraclius's great army to the Yarmuk, where it was destroyed.",
-"path":[{"loc":[44.39,31.99],"t":"al-Hira, Iraq","y":634,"m":2},{"loc":[43.50,32.56],"t":"Ayn al-Tamr","y":634,"m":3},{"loc":[41.5,32.8],"t":"Qurraqir (location uncertain)","y":634,"m":3},{"loc":[39.0,34.0],"t":"Suwa, after the waterless crossing (location uncertain)","y":634,"m":3},{"loc":[38.27,34.55],"t":"Tadmur (Palmyra)","y":634,"m":4},{"loc":[37.24,34.23],"t":"al-Qaryatayn","y":634,"m":4},{"loc":[36.40,33.60],"t":"Marj Rahit","y":634,"m":4,"event":"khalids_desert_march_634"},{"loc":[36.48,32.52],"t":"Bosra","y":634,"m":5},{"loc":[34.90,31.61],"t":"Ajnadayn","y":634,"m":7,"d":30,"event":"battle_of_ajnadayn"},{"loc":[35.62,32.45],"t":"Fahl (Pella)","y":635,"m":1,"event":"battle_of_fahl"},{"loc":[36.306,33.511],"t":"Damascus","y":635,"m":9,"event":"siege_of_damascus_635"},{"loc":[36.72,34.73],"t":"Emesa","y":636,"m":2},{"loc":[35.95,32.95],"t":"al-Jabiya","y":636,"m":6},{"loc":[35.95,32.80],"t":"Yarmuk","y":636,"m":8,"d":20,"event":"battle_of_the_yarmuk"}],
-"certainty":"disputed","note":"The desert route has at least four variants in the Arabic tradition (Donner); dates follow the commonest traditional chronology."},
-{"id":"amr_egypt_639","name":"Amr ibn al-As's conquest of Egypt","war":"arab_roman_war_634","polity":"rashidun","commander":"amr_ibn_al_as","start":639,"end":641,
-"strength":"c. 4,000 at the start, 12,000-15,000 after reinforcements",
-"summary":"Amr entered Egypt in December 639, took Pelusium and Bilbays, won at Heliopolis with al-Zubayr's reinforcements, besieged and took the fortress of Babylon, advanced down the Delta and obtained the surrender of Alexandria by treaty in November 641.",
-"path":[{"loc":[34.46,31.50],"t":"Gaza","y":639,"m":11},{"loc":[34.25,31.29],"t":"Rafah","y":639,"m":12},{"loc":[33.80,31.13],"t":"al-Arish","y":639,"m":12,"event":"arab_invasion_of_egypt_639"},{"loc":[32.57,31.04],"t":"Pelusium","y":640,"m":1},{"loc":[31.56,30.42],"t":"Bilbays","y":640,"m":3},{"loc":[31.31,30.13],"t":"Heliopolis","y":640,"m":7,"event":"battle_of_heliopolis_640"},{"loc":[31.231,30.006],"t":"Babylon fortress","y":641,"m":4,"d":9,"event":"surrender_of_babylon_fortress_641"},{"loc":[30.93,30.47],"t":"Nikiou","y":641,"m":5},{"loc":[29.92,31.20],"t":"Alexandria: treaty","y":641,"m":11,"d":8,"event":"treaty_of_alexandria_641"}],
-"certainty":"probable","note":"From John of Nikiu and Ibn Abd al-Hakam; dates partly reconstructed (Butler)."}
-]}
+{
+ "campaigns": [
+  {
+   "id": "alaric_greece_395",
+   "name": "Alaric's march through Thrace and Greece",
+   "war": "gothic_war_395",
+   "polity": "visigoths",
+   "commander": "alaric_i",
+   "start": 395,
+   "end": 397,
+   "strength": "Gothic federates of the Frigidus campaign with families; perhaps 10,000-20,000 fighting men (modern estimates)",
+   "summary": "After revolting in 395 the Goths threatened Constantinople, moved through Macedonia and Thessaly, passed Thermopylae, extorted terms from Athens, sacked Corinth, Argos and Sparta, escaped Stilicho's blockade at Pholoe and crossed into Epirus.",
+   "path": [
+    {
+     "loc": [
+      28.6,
+      41.1
+     ],
+     "t": "Outskirts of Constantinople",
+     "y": 395,
+     "note": "Goths ravage Thrace and threaten the capital"
+    },
+    {
+     "loc": [
+      22.94,
+      40.64
+     ],
+     "t": "Thessalonica region",
+     "y": 395
+    },
+    {
+     "loc": [
+      22.42,
+      39.64
+     ],
+     "t": "Larissa, Thessaly",
+     "y": 395,
+     "note": "standoff with Stilicho's combined army"
+    },
+    {
+     "loc": [
+      22.54,
+      38.8
+     ],
+     "t": "Thermopylae",
+     "y": 396
+    },
+    {
+     "loc": [
+      23.54,
+      38.04
+     ],
+     "t": "Eleusis",
+     "y": 396,
+     "note": "sanctuary destroyed in this period"
+    },
+    {
+     "loc": [
+      23.64,
+      37.94
+     ],
+     "t": "Piraeus and Athens",
+     "y": 396,
+     "note": "Athens spared, probably by payment"
+    },
+    {
+     "loc": [
+      22.88,
+      37.91
+     ],
+     "t": "Corinth",
+     "y": 396,
+     "note": "sacked"
+    },
+    {
+     "loc": [
+      22.73,
+      37.63
+     ],
+     "t": "Argos",
+     "y": 396,
+     "note": "sacked"
+    },
+    {
+     "loc": [
+      22.43,
+      37.07
+     ],
+     "t": "Sparta",
+     "y": 396,
+     "note": "sacked"
+    },
+    {
+     "loc": [
+      21.75,
+      37.75
+     ],
+     "t": "Mount Pholoe",
+     "y": 397,
+     "event": "battle_of_pholoe",
+     "note": "blockaded by Stilicho, escapes"
+    },
+    {
+     "loc": [
+      21.77,
+      38.31
+     ],
+     "t": "Crossing of the Gulf of Corinth",
+     "y": 397,
+     "sea": true
+    },
+    {
+     "loc": [
+      20.85,
+      39.15
+     ],
+     "t": "Epirus",
+     "y": 397,
+     "note": "Alaric made magister militum per Illyricum by Constantinople"
+    }
+   ],
+   "certainty": "approx",
+   "note": "The order of sacks and the route are reconstructed mainly from Zosimus 5.5-7 and Claudian; exact itinerary uncertain."
+  },
+  {
+   "id": "alaric_italy_401",
+   "name": "Alaric's first invasion of Italy",
+   "war": "gothic_war_395",
+   "polity": "visigoths",
+   "commander": "alaric_i",
+   "start": 401,
+   "end": 402,
+   "strength": "Gothic army with families, perhaps 15,000-20,000 warriors",
+   "summary": "From Illyricum Alaric crossed the Julian Alps in November 401, besieged Aquileia, cut Honorius off in Milan and Hasta, was fought to a standstill at Pollentia on Easter Day 402 and defeated near Verona, then withdrew east.",
+   "path": [
+    {
+     "loc": [
+      19.61,
+      44.97
+     ],
+     "t": "Sirmium region, Illyricum",
+     "y": 401,
+     "note": "starting point uncertain"
+    },
+    {
+     "loc": [
+      16.37,
+      45.48
+     ],
+     "t": "Siscia",
+     "y": 401
+    },
+    {
+     "loc": [
+      14.51,
+      46.05
+     ],
+     "t": "Emona",
+     "y": 401,
+     "m": 11
+    },
+    {
+     "loc": [
+      13.37,
+      45.77
+     ],
+     "t": "Aquileia",
+     "y": 401,
+     "m": 11,
+     "event": "alaric_invades_italy_401"
+    },
+    {
+     "loc": [
+      10.99,
+      45.44
+     ],
+     "t": "Verona area",
+     "y": 401,
+     "m": 12
+    },
+    {
+     "loc": [
+      8.21,
+      44.9
+     ],
+     "t": "Hasta (Asti)",
+     "y": 402,
+     "m": 3,
+     "note": "Honorius besieged according to Claudian"
+    },
+    {
+     "loc": [
+      7.897,
+      44.686
+     ],
+     "t": "Pollentia",
+     "y": 402,
+     "m": 4,
+     "event": "battle_of_pollentia"
+    },
+    {
+     "loc": [
+      9.69,
+      45.05
+     ],
+     "t": "Retreat along the Po",
+     "y": 402
+    },
+    {
+     "loc": [
+      10.993,
+      45.438
+     ],
+     "t": "Verona",
+     "y": 402,
+     "event": "battle_of_verona_402"
+    },
+    {
+     "loc": [
+      13.37,
+      45.77
+     ],
+     "t": "Withdrawal via Aquileia",
+     "y": 402
+    },
+    {
+     "loc": [
+      14.51,
+      46.05
+     ],
+     "t": "Return over the Julian Alps",
+     "y": 402
+    }
+   ],
+   "certainty": "approx",
+   "note": "Claudian's poems are the main source; the date of Verona (402 or 403) is disputed."
+  },
+  {
+   "id": "radagaisus_405",
+   "name": "Radagaisus's invasion of Italy",
+   "war": "radagaisus_war",
+   "polity": "radagaisus_coalition",
+   "commander": "radagaisus",
+   "start": 405,
+   "end": 406,
+   "strength": "perhaps 20,000 warriors plus families (ancient figures of 200,000-400,000 are fantasy)",
+   "summary": "Radagaisus's host came from the middle Danube through Pannonia and over the Julian Alps, crossed the Po valley and the Apennines, and besieged Florence before being trapped and destroyed at Faesulae.",
+   "path": [
+    {
+     "loc": [
+      17.5,
+      47.0
+     ],
+     "t": "Middle Danube, Pannonia",
+     "y": 405
+    },
+    {
+     "loc": [
+      15.87,
+      46.42
+     ],
+     "t": "Poetovio",
+     "y": 405
+    },
+    {
+     "loc": [
+      14.51,
+      46.05
+     ],
+     "t": "Emona",
+     "y": 405
+    },
+    {
+     "loc": [
+      13.37,
+      45.77
+     ],
+     "t": "Aquileia",
+     "y": 405,
+     "m": 12
+    },
+    {
+     "loc": [
+      11.88,
+      45.41
+     ],
+     "t": "Patavium",
+     "y": 406
+    },
+    {
+     "loc": [
+      11.34,
+      44.49
+     ],
+     "t": "Bononia",
+     "y": 406
+    },
+    {
+     "loc": [
+      11.255,
+      43.77
+     ],
+     "t": "Florentia (besieged)",
+     "y": 406,
+     "m": 7
+    },
+    {
+     "loc": [
+      11.293,
+      43.807
+     ],
+     "t": "Faesulae",
+     "y": 406,
+     "m": 8,
+     "d": 23,
+     "event": "battle_of_faesulae",
+     "note": "surrender and execution of Radagaisus"
+    }
+   ],
+   "certainty": "approx",
+   "note": "Route unattested in detail; entry by the Julian Alps is the likeliest reconstruction."
+  },
+  {
+   "id": "alaric_italy_408",
+   "name": "Alaric's second invasion and the sack of Rome",
+   "war": "gothic_war_395",
+   "polity": "visigoths",
+   "commander": "alaric_i",
+   "start": 408,
+   "end": 410,
+   "strength": "Gothic army swollen by c. 30,000 defectors from Stilicho's federates (Zosimus) and fugitive slaves",
+   "summary": "After Stilicho's execution Alaric marched from Noricum through Aquileia, Cremona, Bononia and Ariminum, down the Flaminia to Rome, which he blockaded in 408 and 409, seized Portus, negotiated at Ariminum, and finally sacked Rome in August 410 before marching south toward Africa.",
+   "path": [
+    {
+     "loc": [
+      14.37,
+      46.7
+     ],
+     "t": "Noricum (Virunum)",
+     "y": 408,
+     "m": 9
+    },
+    {
+     "loc": [
+      13.37,
+      45.77
+     ],
+     "t": "Aquileia",
+     "y": 408
+    },
+    {
+     "loc": [
+      12.86,
+      45.77
+     ],
+     "t": "Concordia",
+     "y": 408
+    },
+    {
+     "loc": [
+      10.02,
+      45.13
+     ],
+     "t": "Cremona, crossing of the Po",
+     "y": 408
+    },
+    {
+     "loc": [
+      11.34,
+      44.49
+     ],
+     "t": "Bononia",
+     "y": 408
+    },
+    {
+     "loc": [
+      12.568,
+      44.059
+     ],
+     "t": "Ariminum",
+     "y": 408
+    },
+    {
+     "loc": [
+      13.02,
+      43.84
+     ],
+     "t": "Picenum (Fanum Fortunae)",
+     "y": 408
+    },
+    {
+     "loc": [
+      12.52,
+      42.52
+     ],
+     "t": "Narnia",
+     "y": 408,
+     "note": "town saved, Zosimus says, by a thunderstorm"
+    },
+    {
+     "loc": [
+      12.4924,
+      41.8902
+     ],
+     "t": "Rome blockaded",
+     "y": 408,
+     "m": 11,
+     "event": "siege_of_rome_408"
+    },
+    {
+     "loc": [
+      12.568,
+      44.059
+     ],
+     "t": "Negotiations at Ariminum",
+     "y": 409
+    },
+    {
+     "loc": [
+      12.26,
+      41.78
+     ],
+     "t": "Portus seized",
+     "y": 409,
+     "event": "siege_of_rome_409"
+    },
+    {
+     "loc": [
+      12.568,
+      44.059
+     ],
+     "t": "Attalus deposed near Ariminum",
+     "y": 410,
+     "m": 7
+    },
+    {
+     "loc": [
+      12.4924,
+      41.8902
+     ],
+     "t": "Sack of Rome",
+     "y": 410,
+     "m": 8,
+     "d": 24,
+     "event": "sack_of_rome_410"
+    },
+    {
+     "loc": [
+      14.25,
+      41.08
+     ],
+     "t": "Capua",
+     "y": 410,
+     "m": 9
+    },
+    {
+     "loc": [
+      14.53,
+      40.93
+     ],
+     "t": "Nola",
+     "y": 410,
+     "m": 9
+    },
+    {
+     "loc": [
+      16.25,
+      39.3
+     ],
+     "t": "Consentia",
+     "y": 410
+    },
+    {
+     "loc": [
+      15.65,
+      38.11
+     ],
+     "t": "Rhegium",
+     "y": 410,
+     "note": "fleet wrecked crossing to Sicily"
+    },
+    {
+     "loc": [
+      16.25,
+      39.3
+     ],
+     "t": "Consentia: death of Alaric",
+     "y": 410,
+     "event": "death_of_alaric_410"
+    }
+   ],
+   "certainty": "probable",
+   "note": "Itinerary from Zosimus 5.37 and 6.6-13 and Olympiodorus; the Ariminum-Rome shuttles are simplified."
+  },
+  {
+   "id": "vandal_migration_406",
+   "name": "Vandal and Alan migration from the Rhine to Carthage",
+   "war": "vandal_war_429",
+   "polity": "vandals",
+   "commander": "gaiseric",
+   "start": 406,
+   "end": 439,
+   "strength": "Hasdings, Silings and Alans; 80,000 people in 429 (Victor of Vita)",
+   "summary": "From the Rhine crossing at the end of 406 the Vandals and Alans plundered Gaul for three years, crossed the Pyrenees in 409, settled in Gallaecia and Baetica, crossed to Africa in 429 and marched east along the Mauretanian and Numidian coast to Hippo and finally Carthage.",
+   "path": [
+    {
+     "loc": [
+      8.27,
+      50.0
+     ],
+     "t": "Rhine crossing near Mainz",
+     "y": 406,
+     "m": 12,
+     "d": 31,
+     "event": "rhine_crossing_406"
+    },
+    {
+     "loc": [
+      4.03,
+      49.25
+     ],
+     "t": "Reims",
+     "y": 407
+    },
+    {
+     "loc": [
+      2.3,
+      49.89
+     ],
+     "t": "Amiens",
+     "y": 407
+    },
+    {
+     "loc": [
+      0.69,
+      47.39
+     ],
+     "t": "Tours region",
+     "y": 408
+    },
+    {
+     "loc": [
+      -0.58,
+      44.84
+     ],
+     "t": "Aquitaine (Bordeaux)",
+     "y": 408
+    },
+    {
+     "loc": [
+      -1.32,
+      43.01
+     ],
+     "t": "Crossing of the western Pyrenees",
+     "y": 409,
+     "m": 10,
+     "event": "vandals_alans_suebi_enter_spain_409"
+    },
+    {
+     "loc": [
+      -6.06,
+      42.46
+     ],
+     "t": "Gallaecia (Asturica)",
+     "y": 411,
+     "note": "Hasdings and Suebi allotted Gallaecia"
+    },
+    {
+     "loc": [
+      -5.99,
+      37.39
+     ],
+     "t": "Baetica (Hispalis)",
+     "y": 422,
+     "event": "castinus_defeated_in_baetica_422"
+    },
+    {
+     "loc": [
+      -0.98,
+      37.6
+     ],
+     "t": "Carthago Nova raided",
+     "y": 425
+    },
+    {
+     "loc": [
+      -5.6,
+      36.01
+     ],
+     "t": "Iulia Traducta",
+     "y": 429,
+     "m": 5,
+     "event": "vandal_crossing_to_africa_429"
+    },
+    {
+     "loc": [
+      -5.81,
+      35.78
+     ],
+     "t": "Tingis",
+     "y": 429,
+     "m": 5,
+     "sea": true
+    },
+    {
+     "loc": [
+      -1.47,
+      35.26
+     ],
+     "t": "Siga",
+     "y": 429
+    },
+    {
+     "loc": [
+      2.19,
+      36.61
+     ],
+     "t": "Caesarea Mauretaniae",
+     "y": 429
+    },
+    {
+     "loc": [
+      5.41,
+      36.19
+     ],
+     "t": "Sitifis",
+     "y": 430
+    },
+    {
+     "loc": [
+      6.61,
+      36.37
+     ],
+     "t": "Cirta",
+     "y": 430
+    },
+    {
+     "loc": [
+      7.752,
+      36.882
+     ],
+     "t": "Hippo Regius",
+     "y": 430,
+     "m": 6,
+     "event": "siege_of_hippo_regius_430"
+    },
+    {
+     "loc": [
+      10.323,
+      36.853
+     ],
+     "t": "Carthage",
+     "y": 439,
+     "m": 10,
+     "d": 19,
+     "event": "vandal_capture_of_carthage_439"
+    }
+   ],
+   "certainty": "approx",
+   "note": "Gallic and Spanish movements are largely reconstructed from Jerome, Hydatius and Salvian; the land route through Mauretania is assumed to follow the coastal road. Gaiseric led only from 428."
+  },
+  {
+   "id": "visigoths_athaulf_412",
+   "name": "The Goths from Italy to Aquitaine",
+   "war": "gothic_war_395",
+   "polity": "visigoths",
+   "commander": "athaulf",
+   "start": 411,
+   "end": 418,
+   "strength": "the whole Gothic people under Athaulf, then Wallia",
+   "summary": "After Alaric's death the Goths moved north through Italy into Gaul (412), supported and then betrayed the usurper Jovinus, took Narbonne and Bordeaux, were blockaded into Spain (415), fought the Vandals and Alans for Rome (416-418) and were settled in Aquitaine.",
+   "path": [
+    {
+     "loc": [
+      16.25,
+      39.3
+     ],
+     "t": "Consentia",
+     "y": 411
+    },
+    {
+     "loc": [
+      12.4924,
+      41.8902
+     ],
+     "t": "Through Latium",
+     "y": 411
+    },
+    {
+     "loc": [
+      11.0,
+      43.5
+     ],
+     "t": "Etruria",
+     "y": 411
+    },
+    {
+     "loc": [
+      8.93,
+      44.41
+     ],
+     "t": "Liguria",
+     "y": 412
+    },
+    {
+     "loc": [
+      6.75,
+      44.93
+     ],
+     "t": "Crossing the Cottian Alps",
+     "y": 412
+    },
+    {
+     "loc": [
+      4.89,
+      44.93
+     ],
+     "t": "Valentia (Valence)",
+     "y": 413,
+     "note": "Jovinus's brother Sebastianus defeated"
+    },
+    {
+     "loc": [
+      3.003,
+      43.184
+     ],
+     "t": "Narbo",
+     "y": 414,
+     "m": 1,
+     "event": "athaulf_marries_galla_placidia_414"
+    },
+    {
+     "loc": [
+      -0.58,
+      44.84
+     ],
+     "t": "Burdigala",
+     "y": 414
+    },
+    {
+     "loc": [
+      2.17,
+      41.38
+     ],
+     "t": "Barcino",
+     "y": 415,
+     "note": "Athaulf murdered"
+    },
+    {
+     "loc": [
+      -0.38,
+      39.47
+     ],
+     "t": "Valentia (Spain)",
+     "y": 416
+    },
+    {
+     "loc": [
+      -5.99,
+      37.39
+     ],
+     "t": "Baetica",
+     "y": 417,
+     "event": "visigothic_campaigns_in_spain_416"
+    },
+    {
+     "loc": [
+      -6.34,
+      38.92
+     ],
+     "t": "Lusitania (Emerita)",
+     "y": 418,
+     "note": "Alans crushed"
+    },
+    {
+     "loc": [
+      -0.88,
+      41.65
+     ],
+     "t": "Caesaraugusta",
+     "y": 418
+    },
+    {
+     "loc": [
+      1.444,
+      43.604
+     ],
+     "t": "Tolosa: settlement in Aquitaine",
+     "y": 418,
+     "event": "visigothic_settlement_aquitaine_418"
+    }
+   ],
+   "certainty": "approx",
+   "note": "Route into Gaul uncertain (coastal road or Alpine pass); Spanish campaigns reconstructed from Hydatius."
+  },
+  {
+   "id": "attila_gaul_451",
+   "name": "Attila's invasion of Gaul",
+   "war": "hunnic_wars",
+   "polity": "huns",
+   "commander": "attila",
+   "start": 451,
+   "end": 451,
+   "strength": "Huns with Ostrogoths, Gepids, Rugii, Sciri, Heruli and others; Jordanes's 500,000 is impossible, perhaps 30,000-50,000",
+   "summary": "Attila led his coalition up the Danube, crossed the Rhine in early spring, sacked Metz on 7 April, besieged Orléans until relieved by Aetius and Theodoric in June, and fought the battle of the Catalaunian Plains before withdrawing across the Rhine.",
+   "path": [
+    {
+     "loc": [
+      19.0,
+      47.2
+     ],
+     "t": "Hunnic heartland, Pannonian plain",
+     "y": 451,
+     "m": 1
+    },
+    {
+     "loc": [
+      16.37,
+      48.21
+     ],
+     "t": "Vindobona",
+     "y": 451,
+     "m": 2
+    },
+    {
+     "loc": [
+      12.1,
+      49.02
+     ],
+     "t": "Castra Regina (upper Danube)",
+     "y": 451,
+     "m": 2
+    },
+    {
+     "loc": [
+      9.93,
+      49.79
+     ],
+     "t": "Main valley",
+     "y": 451,
+     "m": 3
+    },
+    {
+     "loc": [
+      7.6,
+      50.35
+     ],
+     "t": "Crossing of the Rhine",
+     "y": 451,
+     "m": 3
+    },
+    {
+     "loc": [
+      6.64,
+      49.75
+     ],
+     "t": "Treveri",
+     "y": 451,
+     "m": 4
+    },
+    {
+     "loc": [
+      6.176,
+      49.119
+     ],
+     "t": "Divodurum (Metz)",
+     "y": 451,
+     "m": 4,
+     "d": 7,
+     "event": "siege_of_metz_451"
+    },
+    {
+     "loc": [
+      4.03,
+      49.25
+     ],
+     "t": "Durocortorum (Reims)",
+     "y": 451,
+     "m": 5
+    },
+    {
+     "loc": [
+      1.909,
+      47.902
+     ],
+     "t": "Aurelianum (Orléans)",
+     "y": 451,
+     "m": 6,
+     "event": "siege_of_orleans_451"
+    },
+    {
+     "loc": [
+      4.07,
+      48.3
+     ],
+     "t": "Tricasses (Troyes)",
+     "y": 451,
+     "m": 6
+    },
+    {
+     "loc": [
+      4.36,
+      48.95
+     ],
+     "t": "Catalaunian Plains",
+     "y": 451,
+     "m": 6,
+     "d": 20,
+     "event": "battle_of_the_catalaunian_plains"
+    },
+    {
+     "loc": [
+      7.6,
+      50.0
+     ],
+     "t": "Withdrawal across the Rhine",
+     "y": 451,
+     "m": 7
+    },
+    {
+     "loc": [
+      19.0,
+      47.2
+     ],
+     "t": "Return to the Hunnic heartland",
+     "y": 451,
+     "m": 9
+    }
+   ],
+   "certainty": "approx",
+   "note": "Route to the Rhine and crossing point unknown; Reims and Troyes appear in hagiographic traditions (Nicasius, Lupus). Battle site disputed."
+  },
+  {
+   "id": "attila_italy_452",
+   "name": "Attila's invasion of Italy",
+   "war": "hunnic_wars",
+   "polity": "huns",
+   "commander": "attila",
+   "start": 452,
+   "end": 452,
+   "strength": "main Hunnic army and subject peoples",
+   "summary": "Attila crossed the Julian Alps, destroyed Aquileia after a long siege, took the cities of the Po valley as far as Milan and Pavia, met Pope Leo's embassy on the Mincio, and withdrew amid famine and disease.",
+   "path": [
+    {
+     "loc": [
+      19.0,
+      47.2
+     ],
+     "t": "Hunnic heartland",
+     "y": 452,
+     "m": 3
+    },
+    {
+     "loc": [
+      15.87,
+      46.42
+     ],
+     "t": "Poetovio",
+     "y": 452,
+     "m": 4
+    },
+    {
+     "loc": [
+      14.51,
+      46.05
+     ],
+     "t": "Emona",
+     "y": 452,
+     "m": 4
+    },
+    {
+     "loc": [
+      13.37,
+      45.769
+     ],
+     "t": "Aquileia (siege)",
+     "y": 452,
+     "m": 5,
+     "event": "siege_of_aquileia_452"
+    },
+    {
+     "loc": [
+      11.88,
+      45.41
+     ],
+     "t": "Patavium",
+     "y": 452,
+     "m": 7
+    },
+    {
+     "loc": [
+      11.55,
+      45.55
+     ],
+     "t": "Vicetia",
+     "y": 452,
+     "m": 7
+    },
+    {
+     "loc": [
+      10.993,
+      45.438
+     ],
+     "t": "Verona",
+     "y": 452,
+     "m": 7
+    },
+    {
+     "loc": [
+      10.22,
+      45.54
+     ],
+     "t": "Brixia",
+     "y": 452,
+     "m": 7
+    },
+    {
+     "loc": [
+      9.67,
+      45.7
+     ],
+     "t": "Bergomum",
+     "y": 452,
+     "m": 7
+    },
+    {
+     "loc": [
+      9.19,
+      45.464
+     ],
+     "t": "Mediolanum",
+     "y": 452,
+     "m": 8
+    },
+    {
+     "loc": [
+      9.158,
+      45.185
+     ],
+     "t": "Ticinum",
+     "y": 452,
+     "m": 8
+    },
+    {
+     "loc": [
+      10.79,
+      45.15
+     ],
+     "t": "Ager Ambuleius on the Mincio",
+     "y": 452,
+     "m": 8,
+     "event": "meeting_of_leo_and_attila_452"
+    },
+    {
+     "loc": [
+      13.37,
+      45.77
+     ],
+     "t": "Withdrawal via the Julian Alps",
+     "y": 452,
+     "m": 9
+    },
+    {
+     "loc": [
+      19.0,
+      47.2
+     ],
+     "t": "Return to the Hunnic heartland",
+     "y": 452,
+     "m": 10
+    }
+   ],
+   "certainty": "approx",
+   "note": "Cities taken are listed by later sources; the order is reconstructed."
+  },
+  {
+   "id": "gaiseric_rome_455",
+   "name": "Gaiseric's expedition against Rome",
+   "war": "roman_vandal_war_455",
+   "polity": "vandal_kingdom",
+   "commander": "gaiseric",
+   "start": 455,
+   "end": 455,
+   "strength": "Vandal and Moorish fleet and army",
+   "summary": "Gaiseric sailed from Carthage in May 455, landed at Portus, entered Rome on 2 June after Petronius Maximus's death, plundered it for fourteen days and returned to Carthage with the empress, her daughters and the treasure of the imperial palace.",
+   "path": [
+    {
+     "loc": [
+      10.323,
+      36.853
+     ],
+     "t": "Carthage",
+     "y": 455,
+     "m": 5
+    },
+    {
+     "loc": [
+      10.6,
+      38.0
+     ],
+     "t": "Sicilian channel",
+     "y": 455,
+     "m": 5,
+     "sea": true
+    },
+    {
+     "loc": [
+      11.6,
+      40.0
+     ],
+     "t": "Tyrrhenian Sea",
+     "y": 455,
+     "m": 5,
+     "sea": true
+    },
+    {
+     "loc": [
+      12.26,
+      41.78
+     ],
+     "t": "Portus",
+     "y": 455,
+     "m": 5,
+     "sea": true
+    },
+    {
+     "loc": [
+      12.4924,
+      41.8902
+     ],
+     "t": "Rome plundered",
+     "y": 455,
+     "m": 6,
+     "d": 2,
+     "event": "vandal_sack_of_rome_455"
+    },
+    {
+     "loc": [
+      12.26,
+      41.78
+     ],
+     "t": "Re-embarkation at Portus",
+     "y": 455,
+     "m": 6
+    },
+    {
+     "loc": [
+      11.6,
+      40.0
+     ],
+     "t": "Tyrrhenian Sea",
+     "y": 455,
+     "m": 6,
+     "sea": true
+    },
+    {
+     "loc": [
+      10.323,
+      36.853
+     ],
+     "t": "Return to Carthage",
+     "y": 455,
+     "m": 7,
+     "sea": true
+    }
+   ],
+   "certainty": "probable",
+   "note": "Sea route schematic."
+  },
+  {
+   "id": "majorian_460",
+   "name": "Majorian's campaigns in Gaul and Spain",
+   "war": "roman_vandal_war_455",
+   "polity": "rome_west",
+   "commander": "majorian",
+   "start": 458,
+   "end": 461,
+   "strength": "Italian field army with Hunnic, Gepid, Ostrogothic, Rugian, Burgundian and Suevic contingents (Sidonius); fleet of c. 300 ships",
+   "summary": "Majorian crossed the Alps in winter 458, recovered Lyon, forced the Visigoths back to alliance near Arles, marched into Spain in 460 to embark for Africa from the south-east coast, saw his fleet destroyed, and returned through Gaul to Italy, where Ricimer arrested and executed him.",
+   "path": [
+    {
+     "loc": [
+      12.199,
+      44.418
+     ],
+     "t": "Ravenna",
+     "y": 458
+    },
+    {
+     "loc": [
+      9.19,
+      45.464
+     ],
+     "t": "Mediolanum",
+     "y": 458
+    },
+    {
+     "loc": [
+      6.75,
+      44.93
+     ],
+     "t": "Crossing the Cottian Alps in winter",
+     "y": 458,
+     "m": 12
+    },
+    {
+     "loc": [
+      4.83,
+      45.76
+     ],
+     "t": "Lugdunum recovered",
+     "y": 458
+    },
+    {
+     "loc": [
+      4.63,
+      43.677
+     ],
+     "t": "Arelate: Visigoths defeated and reconciled",
+     "y": 459
+    },
+    {
+     "loc": [
+      3.003,
+      43.184
+     ],
+     "t": "Narbo",
+     "y": 460
+    },
+    {
+     "loc": [
+      2.87,
+      42.45
+     ],
+     "t": "Crossing of the eastern Pyrenees",
+     "y": 460
+    },
+    {
+     "loc": [
+      -0.88,
+      41.65
+     ],
+     "t": "Caesaraugusta",
+     "y": 460,
+     "note": "attested at Zaragoza by the Chronicle of Zaragoza"
+    },
+    {
+     "loc": [
+      -0.556,
+      38.19
+     ],
+     "t": "Portus Illicitanus: fleet destroyed",
+     "y": 460,
+     "event": "destruction_of_majorians_fleet_460"
+    },
+    {
+     "loc": [
+      4.63,
+      43.677
+     ],
+     "t": "Return to Arelate",
+     "y": 461
+    },
+    {
+     "loc": [
+      6.74,
+      43.43
+     ],
+     "t": "Forum Iulii",
+     "y": 461
+    },
+    {
+     "loc": [
+      8.863,
+      44.896
+     ],
+     "t": "Dertona: arrest and execution",
+     "y": 461,
+     "m": 8,
+     "d": 7,
+     "event": "execution_of_majorian_461"
+    }
+   ],
+   "certainty": "approx",
+   "note": "The Spanish leg is reconstructed from Hydatius and the Chronicle of Zaragoza."
+  },
+  {
+   "id": "basiliscus_468",
+   "name": "The great expedition against the Vandals",
+   "war": "roman_vandal_war_455",
+   "polity": "rome_east",
+   "commander": "basiliscus",
+   "start": 468,
+   "end": 468,
+   "strength": "over 1,000 ships and perhaps tens of thousands of men (later sources: 1,113 ships, 100,000 men); cost 64,000-65,000 lbs of gold and 700,000 lbs of silver",
+   "summary": "Basiliscus sailed from Constantinople through the Aegean and round the Peloponnese to Sicily and then to Cape Bon, where Vandal fireships destroyed half his fleet. Parallel forces under Marcellinus took Sardinia and under Heraclius of Edessa took Tripolitania.",
+   "path": [
+    {
+     "loc": [
+      28.98,
+      41.01
+     ],
+     "t": "Constantinople",
+     "y": 468,
+     "sea": true
+    },
+    {
+     "loc": [
+      26.4,
+      40.2
+     ],
+     "t": "Hellespont",
+     "y": 468,
+     "sea": true
+    },
+    {
+     "loc": [
+      24.5,
+      38.3
+     ],
+     "t": "Aegean",
+     "y": 468,
+     "sea": true
+    },
+    {
+     "loc": [
+      23.2,
+      36.4
+     ],
+     "t": "Off Cape Malea",
+     "y": 468,
+     "sea": true
+    },
+    {
+     "loc": [
+      15.29,
+      37.07
+     ],
+     "t": "Sicily",
+     "y": 468,
+     "sea": true
+    },
+    {
+     "loc": [
+      11.0,
+      37.05
+     ],
+     "t": "Anchorage off Cape Bon",
+     "y": 468,
+     "sea": true,
+     "event": "battle_of_cape_bon"
+    },
+    {
+     "loc": [
+      15.29,
+      37.07
+     ],
+     "t": "Retreat to Sicily",
+     "y": 468,
+     "sea": true
+    }
+   ],
+   "certainty": "probable",
+   "note": "Route schematic; the stop in Sicily is attested for the survivors."
+  },
+  {
+   "id": "theodoric_italy_488",
+   "name": "Theodoric's march to Italy",
+   "war": "theodorics_war_489",
+   "polity": "ostrogoths",
+   "commander": "theodoric_the_great",
+   "start": 488,
+   "end": 493,
+   "strength": "a whole people, perhaps 100,000 including 20,000 warriors, with wagons; joined by Rugians",
+   "summary": "Commissioned by Zeno, Theodoric left Novae in autumn 488, marched up the Danube, fought the Gepids at the Ulca near Sirmium, crossed into Italy, and defeated Odoacer on the Isonzo, at Verona and on the Adda before besieging him in Ravenna for two and a half years.",
+   "path": [
+    {
+     "loc": [
+      25.39,
+      43.61
+     ],
+     "t": "Novae",
+     "y": 488,
+     "m": 10
+    },
+    {
+     "loc": [
+      24.27,
+      43.71
+     ],
+     "t": "Oescus",
+     "y": 488
+    },
+    {
+     "loc": [
+      21.22,
+      44.73
+     ],
+     "t": "Viminacium",
+     "y": 488
+    },
+    {
+     "loc": [
+      20.46,
+      44.82
+     ],
+     "t": "Singidunum",
+     "y": 488
+    },
+    {
+     "loc": [
+      19.61,
+      44.97
+     ],
+     "t": "Sirmium: battle with the Gepids at the Ulca",
+     "y": 489
+    },
+    {
+     "loc": [
+      16.37,
+      45.48
+     ],
+     "t": "Siscia",
+     "y": 489
+    },
+    {
+     "loc": [
+      14.51,
+      46.05
+     ],
+     "t": "Emona",
+     "y": 489,
+     "m": 8
+    },
+    {
+     "loc": [
+      13.5,
+      45.89
+     ],
+     "t": "Pons Sontii on the Isonzo",
+     "y": 489,
+     "m": 8,
+     "d": 28,
+     "event": "battle_of_the_isonzo_489"
+    },
+    {
+     "loc": [
+      10.993,
+      45.438
+     ],
+     "t": "Verona",
+     "y": 489,
+     "m": 9,
+     "d": 30,
+     "event": "battle_of_verona_489"
+    },
+    {
+     "loc": [
+      9.19,
+      45.464
+     ],
+     "t": "Mediolanum",
+     "y": 489
+    },
+    {
+     "loc": [
+      9.158,
+      45.185
+     ],
+     "t": "Ticinum",
+     "y": 490
+    },
+    {
+     "loc": [
+      9.52,
+      45.53
+     ],
+     "t": "River Adda",
+     "y": 490,
+     "m": 8,
+     "d": 11,
+     "event": "battle_of_the_adda_490"
+    },
+    {
+     "loc": [
+      12.199,
+      44.418
+     ],
+     "t": "Ravenna besieged",
+     "y": 493,
+     "m": 3,
+     "event": "siege_of_ravenna_490"
+    }
+   ],
+   "certainty": "probable",
+   "note": "The route from Novae to Sirmium followed the Danube road; winter marching conditions were severe according to Ennodius."
+  },
+  {
+   "id": "clovis_507",
+   "name": "Clovis's campaign against the Visigoths",
+   "war": "frankish_visigothic_war_507",
+   "polity": "frankish_kingdom",
+   "commander": "clovis_i",
+   "start": 507,
+   "end": 508,
+   "strength": "Frankish army with Burgundian contingent under Gundobad's son Sigismund",
+   "summary": "Clovis marched from Paris to Tours, crossed the Vienne at a ford revealed, Gregory says, by a stag, defeated and killed Alaric II at Vouillé, wintered at Bordeaux, seized the Visigothic treasure at Toulouse, and returned to Tours for his consular ceremony.",
+   "path": [
+    {
+     "loc": [
+      2.35,
+      48.85
+     ],
+     "t": "Paris",
+     "y": 507,
+     "m": 3
+    },
+    {
+     "loc": [
+      1.909,
+      47.902
+     ],
+     "t": "Orléans, crossing the Loire",
+     "y": 507
+    },
+    {
+     "loc": [
+      0.689,
+      47.394
+     ],
+     "t": "Tours",
+     "y": 507
+    },
+    {
+     "loc": [
+      0.55,
+      46.95
+     ],
+     "t": "Ford of the Vienne",
+     "y": 507
+    },
+    {
+     "loc": [
+      0.165,
+      46.64
+     ],
+     "t": "Campus Vogladensis",
+     "y": 507,
+     "event": "battle_of_vouille"
+    },
+    {
+     "loc": [
+      0.16,
+      45.65
+     ],
+     "t": "Angoulême",
+     "y": 507
+    },
+    {
+     "loc": [
+      -0.58,
+      44.84
+     ],
+     "t": "Burdigala: winter quarters",
+     "y": 507
+    },
+    {
+     "loc": [
+      1.444,
+      43.604
+     ],
+     "t": "Tolosa: Visigothic treasure seized",
+     "y": 508
+    },
+    {
+     "loc": [
+      0.16,
+      45.65
+     ],
+     "t": "Angoulême taken",
+     "y": 508
+    },
+    {
+     "loc": [
+      0.689,
+      47.394
+     ],
+     "t": "Tours: consular ceremony",
+     "y": 508,
+     "event": "consulship_of_clovis_508"
+    },
+    {
+     "loc": [
+      2.35,
+      48.85
+     ],
+     "t": "Paris",
+     "y": 508
+    }
+   ],
+   "certainty": "approx",
+   "note": "Gregory of Tours 2.37-38 is the only narrative; Angoulême's capture may belong to 508."
+  },
+  {
+   "id": "belisarius_africa_533",
+   "name": "Belisarius's expedition to Africa",
+   "war": "vandalic_war_533",
+   "polity": "rome_east",
+   "commander": "belisarius",
+   "start": 533,
+   "end": 534,
+   "strength": "10,000 infantry, 5,000 cavalry, 500 transports, 92 dromons (Procopius 3.11)",
+   "summary": "Belisarius sailed from Constantinople around midsummer 533 via Abydos, Methone, Zacynthus and Sicily, landed at Caput Vada, marched up the coast road, won at Ad Decimum and entered Carthage, won again at Tricamarum and pursued Gelimer into Numidia.",
+   "path": [
+    {
+     "loc": [
+      28.98,
+      41.01
+     ],
+     "t": "Constantinople",
+     "y": 533,
+     "m": 6,
+     "sea": true
+    },
+    {
+     "loc": [
+      26.4,
+      40.2
+     ],
+     "t": "Abydos",
+     "y": 533,
+     "m": 6,
+     "sea": true
+    },
+    {
+     "loc": [
+      23.2,
+      36.4
+     ],
+     "t": "Cape Malea",
+     "y": 533,
+     "sea": true
+    },
+    {
+     "loc": [
+      21.7,
+      36.82
+     ],
+     "t": "Methone",
+     "y": 533,
+     "sea": true,
+     "note": "500 men die from mouldy bread"
+    },
+    {
+     "loc": [
+      20.9,
+      37.78
+     ],
+     "t": "Zacynthus",
+     "y": 533,
+     "sea": true
+    },
+    {
+     "loc": [
+      15.09,
+      37.5
+     ],
+     "t": "Sicily (Catana region)",
+     "y": 533,
+     "m": 8,
+     "sea": true
+    },
+    {
+     "loc": [
+      14.52,
+      36.72
+     ],
+     "t": "Caucana",
+     "y": 533,
+     "sea": true
+    },
+    {
+     "loc": [
+      14.3,
+      36.0
+     ],
+     "t": "Gaulos and Melite",
+     "y": 533,
+     "sea": true
+    },
+    {
+     "loc": [
+      11.15,
+      35.24
+     ],
+     "t": "Caput Vada: landing",
+     "y": 533,
+     "m": 9,
+     "sea": true
+    },
+    {
+     "loc": [
+      10.86,
+      35.66
+     ],
+     "t": "Leptis Minor",
+     "y": 533,
+     "m": 9
+    },
+    {
+     "loc": [
+      10.64,
+      35.83
+     ],
+     "t": "Hadrumetum",
+     "y": 533,
+     "m": 9
+    },
+    {
+     "loc": [
+      10.24,
+      36.74
+     ],
+     "t": "Ad Decimum",
+     "y": 533,
+     "m": 9,
+     "d": 13,
+     "event": "battle_of_ad_decimum"
+    },
+    {
+     "loc": [
+      10.323,
+      36.853
+     ],
+     "t": "Carthage entered",
+     "y": 533,
+     "m": 9,
+     "d": 15
+    },
+    {
+     "loc": [
+      9.95,
+      36.8
+     ],
+     "t": "Tricamarum",
+     "y": 533,
+     "m": 12,
+     "event": "battle_of_tricamarum"
+    },
+    {
+     "loc": [
+      7.752,
+      36.882
+     ],
+     "t": "Hippo Regius (pursuit)",
+     "y": 534,
+     "m": 1
+    },
+    {
+     "loc": [
+      7.66,
+      36.93
+     ],
+     "t": "Mount Papua: Gelimer surrenders",
+     "y": 534,
+     "m": 3,
+     "event": "surrender_of_gelimer_534"
+    },
+    {
+     "loc": [
+      10.323,
+      36.853
+     ],
+     "t": "Return to Carthage and departure",
+     "y": 534
+    }
+   ],
+   "certainty": "probable",
+   "note": "Procopius, an eyewitness, gives the itinerary in Wars 3.12-4.7."
+  },
+  {
+   "id": "belisarius_italy_535",
+   "name": "Belisarius's conquest of Sicily and Italy",
+   "war": "gothic_war_535",
+   "polity": "rome_east",
+   "commander": "belisarius",
+   "start": 535,
+   "end": 540,
+   "strength": "7,500 men at the start (4,000 regulars and federates, 3,000 Isaurians, plus Huns, Moors and 200 bucellarii), later reinforced",
+   "summary": "Belisarius took Sicily in 535, crossed to Rhegium, took Naples by an aqueduct, entered Rome, withstood a year-long siege, then advanced up the Adriatic side, relieved Ariminum, took Auximum and accepted the surrender of Ravenna in 540.",
+   "path": [
+    {
+     "loc": [
+      28.98,
+      41.01
+     ],
+     "t": "Constantinople",
+     "y": 535,
+     "sea": true
+    },
+    {
+     "loc": [
+      15.09,
+      37.5
+     ],
+     "t": "Catana",
+     "y": 535,
+     "sea": true
+    },
+    {
+     "loc": [
+      13.36,
+      38.12
+     ],
+     "t": "Panormus",
+     "y": 535,
+     "note": "taken with archers hoisted to the mastheads"
+    },
+    {
+     "loc": [
+      15.287,
+      37.075
+     ],
+     "t": "Syracuse",
+     "y": 535,
+     "m": 12,
+     "d": 31,
+     "event": "conquest_of_sicily_535"
+    },
+    {
+     "loc": [
+      15.65,
+      38.11
+     ],
+     "t": "Rhegium",
+     "y": 536,
+     "m": 5,
+     "sea": true
+    },
+    {
+     "loc": [
+      16.25,
+      39.3
+     ],
+     "t": "Bruttium",
+     "y": 536
+    },
+    {
+     "loc": [
+      15.0,
+      40.4
+     ],
+     "t": "Lucania",
+     "y": 536
+    },
+    {
+     "loc": [
+      14.25,
+      40.85
+     ],
+     "t": "Naples",
+     "y": 536,
+     "m": 11,
+     "event": "siege_of_naples_536"
+    },
+    {
+     "loc": [
+      14.25,
+      41.08
+     ],
+     "t": "Capua and the Via Latina",
+     "y": 536
+    },
+    {
+     "loc": [
+      12.4924,
+      41.8902
+     ],
+     "t": "Rome",
+     "y": 536,
+     "m": 12,
+     "d": 9,
+     "event": "siege_of_rome_537"
+    },
+    {
+     "loc": [
+      12.52,
+      42.52
+     ],
+     "t": "Narnia",
+     "y": 538
+    },
+    {
+     "loc": [
+      13.72,
+      43.16
+     ],
+     "t": "Firmum",
+     "y": 538
+    },
+    {
+     "loc": [
+      12.568,
+      44.059
+     ],
+     "t": "Ariminum relieved",
+     "y": 538
+    },
+    {
+     "loc": [
+      13.48,
+      43.48
+     ],
+     "t": "Auximum besieged",
+     "y": 539
+    },
+    {
+     "loc": [
+      12.199,
+      44.418
+     ],
+     "t": "Ravenna surrenders",
+     "y": 540,
+     "m": 5,
+     "event": "siege_of_ravenna_539"
+    }
+   ],
+   "certainty": "probable",
+   "note": "From Procopius, Wars 5-6; movements in 538-539 simplified."
+  },
+  {
+   "id": "khosrow_antioch_540",
+   "name": "Khosrow I's invasion of Syria",
+   "war": "lazic_war",
+   "polity": "sasanian",
+   "commander": "khosrow_i",
+   "start": 540,
+   "end": 540,
+   "strength": "Persian royal army",
+   "summary": "Khosrow marched up the Euphrates, burned Sura, ransomed Hierapolis and Beroea, sacked Antioch, bathed in the Mediterranean at Seleucia, visited Apamea and Chalcis, extorted money from Edessa and Dara on the way home and settled the deportees near Ctesiphon.",
+   "path": [
+    {
+     "loc": [
+      44.58,
+      33.09
+     ],
+     "t": "Ctesiphon",
+     "y": 540,
+     "m": 3
+    },
+    {
+     "loc": [
+      40.45,
+      35.16
+     ],
+     "t": "Circesium",
+     "y": 540,
+     "m": 4
+    },
+    {
+     "loc": [
+      38.8,
+      35.9
+     ],
+     "t": "Sura burned",
+     "y": 540,
+     "m": 4
+    },
+    {
+     "loc": [
+      37.96,
+      36.53
+     ],
+     "t": "Hierapolis ransomed",
+     "y": 540,
+     "m": 5
+    },
+    {
+     "loc": [
+      37.16,
+      36.2
+     ],
+     "t": "Beroea",
+     "y": 540,
+     "m": 5
+    },
+    {
+     "loc": [
+      36.16,
+      36.2
+     ],
+     "t": "Antioch sacked",
+     "y": 540,
+     "m": 6,
+     "event": "sack_of_antioch_540"
+    },
+    {
+     "loc": [
+      35.93,
+      36.12
+     ],
+     "t": "Seleucia Pieria",
+     "y": 540,
+     "m": 6,
+     "note": "Khosrow bathes in the sea"
+    },
+    {
+     "loc": [
+      36.4,
+      35.42
+     ],
+     "t": "Apamea",
+     "y": 540,
+     "m": 7
+    },
+    {
+     "loc": [
+      37.0,
+      35.99
+     ],
+     "t": "Chalcis",
+     "y": 540,
+     "m": 7
+    },
+    {
+     "loc": [
+      38.79,
+      37.15
+     ],
+     "t": "Edessa pays",
+     "y": 540,
+     "m": 8
+    },
+    {
+     "loc": [
+      40.948,
+      37.177
+     ],
+     "t": "Dara attacked",
+     "y": 540,
+     "m": 8
+    },
+    {
+     "loc": [
+      41.22,
+      37.07
+     ],
+     "t": "Nisibis",
+     "y": 540,
+     "m": 9
+    },
+    {
+     "loc": [
+      43.13,
+      36.34
+     ],
+     "t": "Down the Tigris (Nineveh)",
+     "y": 540,
+     "m": 9
+    },
+    {
+     "loc": [
+      44.58,
+      33.09
+     ],
+     "t": "Weh Antiok Khosrow near Ctesiphon",
+     "y": 540,
+     "m": 10
+    }
+   ],
+   "certainty": "probable",
+   "note": "From Procopius, Wars 2.5-14."
+  },
+  {
+   "id": "narses_italy_552",
+   "name": "Narses's campaign in Italy",
+   "war": "gothic_war_535",
+   "polity": "rome_east",
+   "commander": "narses",
+   "start": 551,
+   "end": 554,
+   "strength": "perhaps 20,000-30,000, including 5,500 Lombards, 3,000 Heruli, Gepids, Huns and Persian deserters",
+   "summary": "Narses marched overland from Salona round the head of the Adriatic, crossed the lagoons to Ravenna using boats and causeways, took the Via Flaminia, destroyed Totila at Busta Gallorum, retook Rome, defeated Teia at Mons Lactarius, besieged Cumae and annihilated the Franks on the Volturnus.",
+   "path": [
+    {
+     "loc": [
+      16.48,
+      43.54
+     ],
+     "t": "Salona",
+     "y": 551
+    },
+    {
+     "loc": [
+      14.44,
+      45.33
+     ],
+     "t": "Tarsatica",
+     "y": 552,
+     "m": 4
+    },
+    {
+     "loc": [
+      13.77,
+      45.65
+     ],
+     "t": "Tergeste",
+     "y": 552,
+     "m": 5
+    },
+    {
+     "loc": [
+      13.37,
+      45.77
+     ],
+     "t": "Aquileia",
+     "y": 552,
+     "m": 5
+    },
+    {
+     "loc": [
+      12.3,
+      45.2
+     ],
+     "t": "Through the Venetian lagoons",
+     "y": 552,
+     "m": 5
+    },
+    {
+     "loc": [
+      12.199,
+      44.418
+     ],
+     "t": "Ravenna",
+     "y": 552,
+     "m": 6
+    },
+    {
+     "loc": [
+      12.568,
+      44.059
+     ],
+     "t": "Ariminum",
+     "y": 552,
+     "m": 6
+    },
+    {
+     "loc": [
+      12.78,
+      43.23
+     ],
+     "t": "Busta Gallorum",
+     "y": 552,
+     "m": 7,
+     "event": "battle_of_taginae"
+    },
+    {
+     "loc": [
+      12.52,
+      42.52
+     ],
+     "t": "Narnia",
+     "y": 552,
+     "m": 7
+    },
+    {
+     "loc": [
+      12.4924,
+      41.8902
+     ],
+     "t": "Rome retaken",
+     "y": 552,
+     "m": 8
+    },
+    {
+     "loc": [
+      14.57,
+      40.71
+     ],
+     "t": "Mons Lactarius",
+     "y": 552,
+     "m": 10,
+     "event": "battle_of_mons_lactarius"
+    },
+    {
+     "loc": [
+      14.05,
+      40.85
+     ],
+     "t": "Cumae besieged",
+     "y": 553
+    },
+    {
+     "loc": [
+      14.21,
+      41.1
+     ],
+     "t": "Casilinum on the Volturnus",
+     "y": 554,
+     "event": "battle_of_the_volturnus_554"
+    }
+   ],
+   "certainty": "probable",
+   "note": "From Procopius, Wars 8.26-35, and Agathias 1-2."
+  },
+  {
+   "id": "lombard_migration_568",
+   "name": "The Lombard migration into Italy",
+   "war": "roman_lombard_wars",
+   "polity": "lombards",
+   "commander": "alboin",
+   "start": 568,
+   "end": 572,
+   "strength": "Lombards with Saxons, Gepids, Bulgars and others; perhaps 100,000-150,000 people",
+   "summary": "Leaving Pannonia to the Avars on Easter Monday 568, the Lombards crossed the Julian Alps to Forum Iulii, spread across Venetia, took Milan in 569 and Pavia after a three-year siege.",
+   "path": [
+    {
+     "loc": [
+      17.5,
+      47.0
+     ],
+     "t": "Pannonia",
+     "y": 568,
+     "m": 4,
+     "d": 2
+    },
+    {
+     "loc": [
+      15.87,
+      46.42
+     ],
+     "t": "Poetovio",
+     "y": 568,
+     "m": 4
+    },
+    {
+     "loc": [
+      14.51,
+      46.05
+     ],
+     "t": "Emona",
+     "y": 568,
+     "m": 5
+    },
+    {
+     "loc": [
+      13.43,
+      46.09
+     ],
+     "t": "Forum Iulii",
+     "y": 568,
+     "event": "lombard_invasion_568"
+    },
+    {
+     "loc": [
+      11.55,
+      45.55
+     ],
+     "t": "Vicetia",
+     "y": 569
+    },
+    {
+     "loc": [
+      10.993,
+      45.438
+     ],
+     "t": "Verona",
+     "y": 569
+    },
+    {
+     "loc": [
+      9.19,
+      45.464
+     ],
+     "t": "Mediolanum",
+     "y": 569,
+     "m": 9,
+     "d": 3
+    },
+    {
+     "loc": [
+      9.158,
+      45.185
+     ],
+     "t": "Ticinum besieged",
+     "y": 572,
+     "event": "siege_of_pavia_569"
+    },
+    {
+     "loc": [
+      10.993,
+      45.438
+     ],
+     "t": "Verona: Alboin murdered",
+     "y": 572,
+     "m": 6,
+     "d": 28,
+     "event": "assassination_of_alboin_572"
+    }
+   ],
+   "certainty": "probable",
+   "note": "From Paul the Deacon 2.7-28."
+  },
+  {
+   "id": "priscus_avar_599",
+   "name": "Priscus's campaign against the Avars",
+   "war": "balkan_wars_of_maurice",
+   "polity": "rome_east",
+   "commander": "priscus_general",
+   "start": 599,
+   "end": 599,
+   "strength": "Balkan field army",
+   "summary": "Priscus crossed the Danube at Viminacium, won a series of battles against the Avars, then struck north into the Tisza region, destroying settlements and taking thousands of captives.",
+   "path": [
+    {
+     "loc": [
+      20.46,
+      44.82
+     ],
+     "t": "Singidunum",
+     "y": 599
+    },
+    {
+     "loc": [
+      21.22,
+      44.73
+     ],
+     "t": "Viminacium: crossing of the Danube",
+     "y": 599,
+     "event": "battle_of_viminacium_599"
+    },
+    {
+     "loc": [
+      21.0,
+      45.1
+     ],
+     "t": "Battles north of the Danube",
+     "y": 599
+    },
+    {
+     "loc": [
+      20.2,
+      45.8
+     ],
+     "t": "River Tisza",
+     "y": 599
+    },
+    {
+     "loc": [
+      20.2,
+      46.2
+     ],
+     "t": "Gepid and Avar villages destroyed",
+     "y": 599
+    },
+    {
+     "loc": [
+      21.22,
+      44.73
+     ],
+     "t": "Return to Viminacium",
+     "y": 599
+    }
+   ],
+   "certainty": "disputed",
+   "note": "Theophylact 8.2-4; locations north of the Danube are approximate."
+  },
+  {
+   "id": "shahrbaraz_613",
+   "name": "Shahrbaraz's conquest of Syria, Palestine and Egypt",
+   "war": "roman_sasanian_war_602",
+   "polity": "sasanian",
+   "commander": "shahrbaraz",
+   "start": 613,
+   "end": 619,
+   "strength": "Persian field army",
+   "summary": "After defeating Heraclius near Antioch, Shahrbaraz took Damascus, received the submission of Caesarea, stormed Jerusalem in 614 and carried off the True Cross, then invaded Egypt (618) and took Alexandria (619).",
+   "path": [
+    {
+     "loc": [
+      36.16,
+      36.2
+     ],
+     "t": "Antioch",
+     "y": 613,
+     "event": "battle_of_antioch_613"
+    },
+    {
+     "loc": [
+      36.72,
+      34.73
+     ],
+     "t": "Emesa",
+     "y": 613
+    },
+    {
+     "loc": [
+      36.306,
+      33.511
+     ],
+     "t": "Damascus",
+     "y": 613
+    },
+    {
+     "loc": [
+      34.89,
+      32.5
+     ],
+     "t": "Caesarea Maritima submits",
+     "y": 614
+    },
+    {
+     "loc": [
+      35.2316,
+      31.7767
+     ],
+     "t": "Jerusalem stormed",
+     "y": 614,
+     "m": 5,
+     "event": "siege_of_jerusalem_614"
+    },
+    {
+     "loc": [
+      34.46,
+      31.5
+     ],
+     "t": "Gaza",
+     "y": 618
+    },
+    {
+     "loc": [
+      32.57,
+      31.04
+     ],
+     "t": "Pelusium",
+     "y": 618
+    },
+    {
+     "loc": [
+      29.92,
+      31.2
+     ],
+     "t": "Alexandria",
+     "y": 619,
+     "event": "persian_conquest_of_egypt_619"
+    }
+   ],
+   "certainty": "approx",
+   "note": "Sequence certain, route and intermediate dates approximate; Shahrbaraz's command of the Egyptian campaign is inferred from later sources."
+  },
+  {
+   "id": "heraclius_622_628",
+   "name": "Heraclius's Persian campaigns",
+   "war": "roman_sasanian_war_602",
+   "polity": "rome_east",
+   "commander": "heraclius",
+   "start": 622,
+   "end": 628,
+   "strength": "perhaps 20,000-50,000; reinforced by up to 40,000 Turks in 627 (Theophanes)",
+   "summary": "In six years Heraclius trained an army in Anatolia, struck through Armenia into Atropatene to destroy the fire temple of Adur Gushnasp, manoeuvred against three Persian armies, fought at the Sarus, allied with the Western Turks, and in winter 627 marched into Mesopotamia to win at Nineveh, plunder Dastagird and force Khosrow's fall.",
+   "path": [
+    {
+     "loc": [
+      28.98,
+      41.01
+     ],
+     "t": "Constantinople",
+     "y": 622,
+     "m": 4,
+     "d": 5
+    },
+    {
+     "loc": [
+      29.15,
+      40.65
+     ],
+     "t": "Pylae",
+     "y": 622,
+     "m": 4,
+     "sea": true
+    },
+    {
+     "loc": [
+      35.48,
+      38.73
+     ],
+     "t": "Cappadocia: victory over Shahrbaraz",
+     "y": 622,
+     "m": 10
+    },
+    {
+     "loc": [
+      28.98,
+      41.01
+     ],
+     "t": "Return to Constantinople",
+     "y": 623
+    },
+    {
+     "loc": [
+      29.92,
+      40.77
+     ],
+     "t": "Nicomedia",
+     "y": 624,
+     "m": 3
+    },
+    {
+     "loc": [
+      35.48,
+      38.73
+     ],
+     "t": "Caesarea",
+     "y": 624,
+     "m": 4
+    },
+    {
+     "loc": [
+      41.27,
+      39.91
+     ],
+     "t": "Theodosiopolis",
+     "y": 624,
+     "m": 5
+    },
+    {
+     "loc": [
+      44.57,
+      40.0
+     ],
+     "t": "Dvin",
+     "y": 624,
+     "m": 6
+    },
+    {
+     "loc": [
+      45.41,
+      39.21
+     ],
+     "t": "Nakhchivan",
+     "y": 624,
+     "m": 6
+    },
+    {
+     "loc": [
+      46.3,
+      37.0
+     ],
+     "t": "Ganzak",
+     "y": 624,
+     "m": 7
+    },
+    {
+     "loc": [
+      47.235,
+      36.604
+     ],
+     "t": "Thebarmais: fire temple destroyed",
+     "y": 624,
+     "m": 7,
+     "event": "destruction_of_adur_gushnasp_624"
+    },
+    {
+     "loc": [
+      47.12,
+      40.38
+     ],
+     "t": "Winter quarters in Albania",
+     "y": 624,
+     "m": 12
+    },
+    {
+     "loc": [
+      43.0,
+      38.8
+     ],
+     "t": "Manoeuvres around Lake Van",
+     "y": 625
+    },
+    {
+     "loc": [
+      36.93,
+      37.58
+     ],
+     "t": "Germanicia",
+     "y": 625
+    },
+    {
+     "loc": [
+      35.32,
+      37.0
+     ],
+     "t": "River Sarus",
+     "y": 625,
+     "event": "battle_of_the_sarus_625"
+    },
+    {
+     "loc": [
+      37.02,
+      39.75
+     ],
+     "t": "Sebasteia: winter quarters",
+     "y": 625,
+     "m": 12
+    },
+    {
+     "loc": [
+      41.7,
+      42.0
+     ],
+     "t": "Lazica",
+     "y": 626
+    },
+    {
+     "loc": [
+      44.79,
+      41.69
+     ],
+     "t": "Tiflis with the Turks",
+     "y": 627,
+     "event": "siege_of_tbilisi_627"
+    },
+    {
+     "loc": [
+      45.0,
+      37.6
+     ],
+     "t": "Through Atropatene",
+     "y": 627,
+     "m": 10
+    },
+    {
+     "loc": [
+      43.15,
+      36.36
+     ],
+     "t": "Nineveh",
+     "y": 627,
+     "m": 12,
+     "d": 12,
+     "event": "battle_of_nineveh"
+    },
+    {
+     "loc": [
+      44.98,
+      33.88
+     ],
+     "t": "Dastagird plundered",
+     "y": 628,
+     "m": 1
+    },
+    {
+     "loc": [
+      44.7,
+      33.4
+     ],
+     "t": "Nahrawan canal before Ctesiphon",
+     "y": 628,
+     "m": 2
+    },
+    {
+     "loc": [
+      45.9,
+      35.3
+     ],
+     "t": "Shahrazur",
+     "y": 628,
+     "m": 3
+    },
+    {
+     "loc": [
+      46.3,
+      37.0
+     ],
+     "t": "Ganzak: news of Khosrow's fall",
+     "y": 628,
+     "m": 4,
+     "event": "fall_of_khosrow_ii_628"
+    }
+   ],
+   "certainty": "disputed",
+   "note": "Reconstructed from Theophanes, George of Pisidia, Movses Daskhurantsi and the Chronicon Paschale; the 622 battle site, the 625 manoeuvres and Ganzak's location are uncertain. See Howard-Johnston for alternative chronologies."
+  },
+  {
+   "id": "khalid_634",
+   "name": "Khalid ibn al-Walid's march to Syria and the conquest of Syria",
+   "war": "arab_roman_war_634",
+   "polity": "rashidun",
+   "commander": "khalid_ibn_al_walid",
+   "start": 634,
+   "end": 636,
+   "strength": "500-800 men on the desert crossing (tradition); Arab armies in Syria perhaps 20,000-40,000 by 636",
+   "summary": "Khalid crossed the desert from Iraq to Syria in early 634, appeared at Marj Rahit, took Bosra, joined the other armies at Ajnadayn, besieged Damascus, fought at Fahl, took Emesa, and fell back before Heraclius's great army to the Yarmuk, where it was destroyed.",
+   "path": [
+    {
+     "loc": [
+      44.39,
+      31.99
+     ],
+     "t": "al-Hira, Iraq",
+     "y": 634,
+     "m": 2
+    },
+    {
+     "loc": [
+      43.5,
+      32.56
+     ],
+     "t": "Ayn al-Tamr",
+     "y": 634,
+     "m": 3
+    },
+    {
+     "loc": [
+      41.5,
+      32.8
+     ],
+     "t": "Qurraqir (location uncertain)",
+     "y": 634,
+     "m": 3
+    },
+    {
+     "loc": [
+      39.0,
+      34.0
+     ],
+     "t": "Suwa, after the waterless crossing (location uncertain)",
+     "y": 634,
+     "m": 3
+    },
+    {
+     "loc": [
+      38.27,
+      34.55
+     ],
+     "t": "Tadmur (Palmyra)",
+     "y": 634,
+     "m": 4
+    },
+    {
+     "loc": [
+      37.24,
+      34.23
+     ],
+     "t": "al-Qaryatayn",
+     "y": 634,
+     "m": 4
+    },
+    {
+     "loc": [
+      36.4,
+      33.6
+     ],
+     "t": "Marj Rahit",
+     "y": 634,
+     "m": 4,
+     "event": "khalids_desert_march_634"
+    },
+    {
+     "loc": [
+      36.48,
+      32.52
+     ],
+     "t": "Bosra",
+     "y": 634,
+     "m": 5
+    },
+    {
+     "loc": [
+      34.9,
+      31.61
+     ],
+     "t": "Ajnadayn",
+     "y": 634,
+     "m": 7,
+     "d": 30,
+     "event": "battle_of_ajnadayn"
+    },
+    {
+     "loc": [
+      35.62,
+      32.45
+     ],
+     "t": "Fahl (Pella)",
+     "y": 635,
+     "m": 1,
+     "event": "battle_of_fahl"
+    },
+    {
+     "loc": [
+      36.306,
+      33.511
+     ],
+     "t": "Damascus",
+     "y": 635,
+     "m": 9,
+     "event": "siege_of_damascus_635"
+    },
+    {
+     "loc": [
+      36.72,
+      34.73
+     ],
+     "t": "Emesa",
+     "y": 636,
+     "m": 2
+    },
+    {
+     "loc": [
+      35.95,
+      32.95
+     ],
+     "t": "al-Jabiya",
+     "y": 636,
+     "m": 6
+    },
+    {
+     "loc": [
+      35.95,
+      32.8
+     ],
+     "t": "Yarmuk",
+     "y": 636,
+     "m": 8,
+     "d": 20,
+     "event": "battle_of_the_yarmuk"
+    }
+   ],
+   "certainty": "disputed",
+   "note": "The desert route has at least four variants in the Arabic tradition (Donner); dates follow the commonest traditional chronology."
+  },
+  {
+   "id": "amr_egypt_639",
+   "name": "Amr ibn al-As's conquest of Egypt",
+   "war": "arab_roman_war_634",
+   "polity": "rashidun",
+   "commander": "amr_ibn_al_as",
+   "start": 639,
+   "end": 641,
+   "strength": "c. 4,000 at the start, 12,000-15,000 after reinforcements",
+   "summary": "Amr entered Egypt in December 639, took Pelusium and Bilbays, won at Heliopolis with al-Zubayr's reinforcements, besieged and took the fortress of Babylon, advanced down the Delta and obtained the surrender of Alexandria by treaty in November 641.",
+   "path": [
+    {
+     "loc": [
+      34.46,
+      31.5
+     ],
+     "t": "Gaza",
+     "y": 639,
+     "m": 11
+    },
+    {
+     "loc": [
+      34.25,
+      31.29
+     ],
+     "t": "Rafah",
+     "y": 639,
+     "m": 12
+    },
+    {
+     "loc": [
+      33.8,
+      31.13
+     ],
+     "t": "al-Arish",
+     "y": 639,
+     "m": 12,
+     "event": "arab_invasion_of_egypt_639"
+    },
+    {
+     "loc": [
+      32.57,
+      31.04
+     ],
+     "t": "Pelusium",
+     "y": 640,
+     "m": 1
+    },
+    {
+     "loc": [
+      31.56,
+      30.42
+     ],
+     "t": "Bilbays",
+     "y": 640,
+     "m": 3
+    },
+    {
+     "loc": [
+      31.31,
+      30.13
+     ],
+     "t": "Heliopolis",
+     "y": 640,
+     "m": 7,
+     "event": "battle_of_heliopolis_640"
+    },
+    {
+     "loc": [
+      31.231,
+      30.006
+     ],
+     "t": "Babylon fortress",
+     "y": 641,
+     "m": 4,
+     "d": 9,
+     "event": "surrender_of_babylon_fortress_641"
+    },
+    {
+     "loc": [
+      30.93,
+      30.47
+     ],
+     "t": "Nikiou",
+     "y": 641,
+     "m": 5
+    },
+    {
+     "loc": [
+      29.92,
+      31.2
+     ],
+     "t": "Alexandria: treaty",
+     "y": 641,
+     "m": 11,
+     "d": 8,
+     "event": "treaty_of_alexandria_641"
+    }
+   ],
+   "certainty": "probable",
+   "note": "From John of Nikiu and Ibn Abd al-Hakam; dates partly reconstructed (Butler)."
+  }
+ ]
+}

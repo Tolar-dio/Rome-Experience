@@ -1,0 +1,2980 @@
+{
+ "frontiers": [
+  {
+   "id": "hadrians_wall",
+   "name": "Hadrian's Wall (Vallum Aelium)",
+   "kind": "wall",
+   "built": 122,
+   "abandoned": 410,
+   "builder": "hadrian",
+   "phases": [
+    {
+     "to": 128,
+     "t": "built: Broad Wall in stone from the east, Turf Wall west of the Irthing; forts added to the line",
+     "from": 122
+    },
+    {
+     "to": 162,
+     "t": "largely abandoned for the Antonine Wall",
+     "from": 142
+    },
+    {
+     "to": 410,
+     "t": "recommissioned; repaired under Severus (c. 205-208) and in the 4th century",
+     "from": 162
+    }
+   ],
+   "line": [
+    [
+     -1.5323,
+     54.9879
+    ],
+    [
+     -1.6101,
+     54.9688
+    ],
+    [
+     -1.6642,
+     54.9771
+    ],
+    [
+     -1.8255,
+     55.0024
+    ],
+    [
+     -2.006,
+     55.0104
+    ],
+    [
+     -2.1397,
+     55.0259
+    ],
+    [
+     -2.2222,
+     55.0346
+    ],
+    [
+     -2.3303,
+     55.0133
+    ],
+    [
+     -2.4645,
+     54.9949
+    ],
+    [
+     -2.5243,
+     54.9848
+    ],
+    [
+     -2.6024,
+     54.9895
+    ],
+    [
+     -2.7638,
+     54.9638
+    ],
+    [
+     -2.9343,
+     54.9051
+    ],
+    [
+     -3.0497,
+     54.9222
+    ],
+    [
+     -3.1489,
+     54.9281
+    ],
+    [
+     -3.2151,
+     54.9529
+    ]
+   ],
+   "summary": "Stone and turf curtain wall 80 Roman miles (117 km) from Wallsend on the Tyne to Bowness on the Solway, begun c. 122 after Hadrian's visit by the governor A. Platorius Nepos, with milecastles every Roman mile, two turrets between each, 14-16 forts and the Vallum earthwork behind.",
+   "detail": "Building inscriptions name II Augusta, VI Victrix and XX Valeria Victrix, each legion working in lengths. Hadrian's biography says it was built 'to separate the Romans from the barbarians' (HA Hadr. 11.2). The Vallum, a flat-bottomed ditch with mounds, marked the military zone to the south. Garrisons are documented by the Notitia's 'per lineam valli' list and by Vindolanda and Birdoswald. Late Roman occupation continued at Birdoswald into the 5th century with timber halls.",
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Hadrian",
+     "r": "11.2"
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "Occidens",
+     "r": "40.32-56"
+    }
+   ],
+   "polities": [
+    "rome",
+    "caledonians",
+    "brigantes"
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "antonine_wall",
+   "name": "Antonine Wall",
+   "kind": "wall",
+   "built": 142,
+   "abandoned": 162,
+   "builder": "antoninus_pius",
+   "phases": [
+    {
+     "to": 158,
+     "t": "first occupation",
+     "from": 142
+    },
+    {
+     "to": 162,
+     "t": "brief second occupation, then withdrawal",
+     "from": 158
+    }
+   ],
+   "line": [
+    [
+     -3.5641,
+     56.0102
+    ],
+    [
+     -3.6415,
+     56.0054
+    ],
+    [
+     -3.6831,
+     55.9986
+    ],
+    [
+     -3.7363,
+     55.9964
+    ],
+    [
+     -3.7849,
+     55.9991
+    ],
+    [
+     -3.8553,
+     55.9979
+    ],
+    [
+     -3.905,
+     55.994
+    ],
+    [
+     -3.9405,
+     55.9823
+    ],
+    [
+     -3.9914,
+     55.9702
+    ],
+    [
+     -4.0316,
+     55.9647
+    ],
+    [
+     -4.072,
+     55.952
+    ],
+    [
+     -4.1196,
+     55.9491
+    ],
+    [
+     -4.1546,
+     55.9399
+    ],
+    [
+     -4.2135,
+     55.9214
+    ],
+    [
+     -4.247,
+     55.913
+    ],
+    [
+     -4.3338,
+     55.9194
+    ],
+    [
+     -4.3632,
+     55.9246
+    ],
+    [
+     -4.4099,
+     55.9235
+    ],
+    [
+     -4.4567,
+     55.924
+    ]
+   ],
+   "summary": "Turf rampart on a stone base 60 km long across the Forth-Clyde isthmus, built from 142 under the governor Q. Lollius Urbicus, with 16-17 forts and a deep ditch. Abandoned after barely twenty years in favour of Hadrian's Wall.",
+   "detail": "The building of the wall is recorded by eighteen or more 'distance slabs', some carved with scenes of conquest, set up by detachments of II Augusta, VI Victrix and XX Valeria Victrix, each recording the paces built. Antoninus Pius took his only imperial acclamation for the campaign (HA Ant. Pius 5.4). Severus campaigned beyond it in 208-211 and reoccupied forts such as Cramond, but did not refortify the wall.",
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Antoninus Pius",
+     "r": "5.4"
+    }
+   ],
+   "polities": [
+    "rome",
+    "caledonians"
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "gask_ridge",
+   "name": "Gask Ridge frontier",
+   "kind": "limes",
+   "built": 75,
+   "abandoned": 86,
+   "phases": [
+    {
+     "to": 83,
+     "t": "towers built (early date argued by Woolliscroft and Hoffmann)",
+     "from": 75
+    },
+    {
+     "to": 86,
+     "t": "Agricolan advance, Inchtuthil built",
+     "from": 83
+    },
+    {
+     "to": 90,
+     "t": "abandoned",
+     "from": 86
+    }
+   ],
+   "line": [
+    [
+     -3.817,
+     56.006
+    ],
+    [
+     -4.0518,
+     56.1868
+    ],
+    [
+     -3.8755,
+     56.2678
+    ],
+    [
+     -3.8423,
+     56.2952
+    ],
+    [
+     -3.7827,
+     56.3411
+    ],
+    [
+     -3.68,
+     56.343
+    ],
+    [
+     -3.6486,
+     56.3521
+    ],
+    [
+     -3.583,
+     56.365
+    ],
+    [
+     -3.533,
+     56.38
+    ],
+    [
+     -3.4644,
+     56.4234
+    ]
+   ],
+   "summary": "Line of timber watchtowers and fortlets along the Roman road on the Gask Ridge from Ardoch to Bertha on the Tay, with forts at the mouths of the Highland glens ('glen-blocking forts'). Possibly the earliest fortified land frontier of the Roman empire.",
+   "debate": "Dated either to Agricola (c. 79-83) as a temporary line, or earlier under Cerialis or Frontinus (c. 70s) as a deliberate frontier that predates the German limes; the towers show only short occupation.",
+   "polities": [
+    "rome",
+    "caledonians"
+   ],
+   "certainty": "approx"
+  },
+  {
+   "id": "stanegate",
+   "name": "Stanegate frontier",
+   "kind": "road_frontier",
+   "built": 85,
+   "abandoned": 122,
+   "phases": [
+    {
+     "to": 105,
+     "t": "forts at Corbridge, Vindolanda, Nether Denton, Carlisle",
+     "from": 85
+    },
+    {
+     "to": 122,
+     "t": "extra forts and fortlets added (Old Church Brampton, Haltwhistle Burn, Throp)",
+     "from": 105
+    }
+   ],
+   "line": [
+    [
+     -2.0293,
+     54.9782
+    ],
+    [
+     -2.205,
+     54.985
+    ],
+    [
+     -2.3602,
+     54.9913
+    ],
+    [
+     -2.455,
+     54.983
+    ],
+    [
+     -2.5243,
+     54.9848
+    ],
+    [
+     -2.565,
+     54.975
+    ],
+    [
+     -2.635,
+     54.968
+    ],
+    [
+     -2.715,
+     54.945
+    ],
+    [
+     -2.9377,
+     54.896
+    ],
+    [
+     -3.0497,
+     54.9222
+    ],
+    [
+     -3.202,
+     54.9045
+    ]
+   ],
+   "summary": "Road and chain of forts across the Tyne-Solway isthmus, from Corbridge to Carlisle and Kirkbride, that formed the de facto frontier after the withdrawal from Scotland c. 87-105, before Hadrian's Wall was built just north of it.",
+   "detail": "The Vindolanda tablets date from the Stanegate period. Whether it was a frontier system or simply a communications road with forts is debated.",
+   "polities": [
+    "rome",
+    "brigantes"
+   ],
+   "certainty": "probable"
+  },
+  {
+   "id": "upper_german_raetian_limes",
+   "name": "Upper German-Raetian Limes",
+   "kind": "limes",
+   "built": 85,
+   "abandoned": 260,
+   "builder": "domitian",
+   "phases": [
+    {
+     "to": 120,
+     "t": "Domitianic patrol road and timber towers in the Taunus and Wetterau",
+     "from": 85
+    },
+    {
+     "to": 159,
+     "t": "Hadrianic palisade; Odenwald-Neckar line in the south",
+     "from": 120
+    },
+    {
+     "to": 160,
+     "t": "outer line advanced 30 km east under Antoninus Pius (Walldürn-Lorch straight section)",
+     "from": 159
+    },
+    {
+     "to": 213,
+     "t": "Raetian stone wall (Teufelsmauer); Caracalla's Alemannic campaign of 213",
+     "from": 200
+    },
+    {
+     "to": 260,
+     "t": "Alemannic raids; given up c. 259-260 (the 'Limesfall')",
+     "from": 233
+    }
+   ],
+   "line": [
+    [
+     7.333,
+     50.502
+    ],
+    [
+     7.4719,
+     50.467
+    ],
+    [
+     7.7127,
+     50.3362
+    ],
+    [
+     7.948,
+     50.215
+    ],
+    [
+     8.2029,
+     50.1914
+    ],
+    [
+     8.4447,
+     50.2271
+    ],
+    [
+     8.5667,
+     50.2715
+    ],
+    [
+     8.6357,
+     50.313
+    ],
+    [
+     8.6735,
+     50.4371
+    ],
+    [
+     8.7844,
+     50.4877
+    ],
+    [
+     8.884,
+     50.392
+    ],
+    [
+     8.9416,
+     50.2852
+    ],
+    [
+     8.9848,
+     50.2222
+    ],
+    [
+     8.987,
+     50.081
+    ],
+    [
+     8.9755,
+     50.0434
+    ],
+    [
+     9.0653,
+     49.9789
+    ],
+    [
+     9.1469,
+     49.8417
+    ],
+    [
+     9.26,
+     49.7
+    ],
+    [
+     9.3786,
+     49.5802
+    ],
+    [
+     9.4275,
+     49.4255
+    ],
+    [
+     9.4694,
+     49.3107
+    ],
+    [
+     9.5,
+     49.2
+    ],
+    [
+     9.5558,
+     49.0784
+    ],
+    [
+     9.5818,
+     48.9786
+    ],
+    [
+     9.638,
+     48.8741
+    ],
+    [
+     9.6897,
+     48.7981
+    ],
+    [
+     9.79,
+     48.79
+    ],
+    [
+     10.0846,
+     48.8357
+    ],
+    [
+     10.1395,
+     48.9088
+    ],
+    [
+     10.2855,
+     48.983
+    ],
+    [
+     10.4806,
+     49.0464
+    ],
+    [
+     10.71,
+     49.06
+    ],
+    [
+     10.85,
+     49.07
+    ],
+    [
+     10.9625,
+     49.031
+    ],
+    [
+     11.27,
+     48.89
+    ],
+    [
+     11.39,
+     48.95
+    ],
+    [
+     11.76,
+     48.88
+    ]
+   ],
+   "summary": "The longest land frontier of Europe, 550 km from the Rhine at Rheinbrohl to the Danube at Hienheim near Eining, with about 60 forts and 900 watchtowers. Began as a patrol road with timber towers after Domitian's Chattan war (83-85) and grew into palisade, ditch-and-bank (Upper Germany) and stone wall (Raetia).",
+   "detail": "The 80 km straight section between Walldürn and Haghof deviates less than 2 m per km, a feat of Roman surveying. The Agri Decumates between Rhine, Main and Danube were surrendered c. 260 under Gallienus. UNESCO World Heritage (2005).",
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Hadrian",
+     "r": "12.6"
+    },
+    {
+     "a": "Frontinus",
+     "w": "Strategemata",
+     "r": "1.3.10"
+    }
+   ],
+   "polities": [
+    "rome",
+    "chatti",
+    "alamanni"
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "odenwald_neckar_limes",
+   "name": "Odenwald-Neckar Limes",
+   "kind": "limes",
+   "built": 100,
+   "abandoned": 160,
+   "phases": [
+    {
+     "to": 145,
+     "t": "timber towers, then stone towers and forts",
+     "from": 100
+    },
+    {
+     "to": 160,
+     "t": "stone phase; forts moved forward c. 159-160",
+     "from": 145
+    }
+   ],
+   "line": [
+    [
+     9.1505,
+     49.7993
+    ],
+    [
+     9.0885,
+     49.7794
+    ],
+    [
+     9.07,
+     49.715
+    ],
+    [
+     9.077,
+     49.6798
+    ],
+    [
+     9.0753,
+     49.6342
+    ],
+    [
+     9.0901,
+     49.5754
+    ],
+    [
+     9.1504,
+     49.54
+    ],
+    [
+     9.1512,
+     49.5072
+    ],
+    [
+     9.1703,
+     49.3767
+    ],
+    [
+     9.165,
+     49.232
+    ],
+    [
+     9.185,
+     49.135
+    ],
+    [
+     9.1545,
+     49.0107
+    ],
+    [
+     9.2418,
+     48.9468
+    ],
+    [
+     9.215,
+     48.805
+    ],
+    [
+     9.3602,
+     48.6773
+    ]
+   ],
+   "summary": "Inner line of the Upper German limes, from the Main at Wörth through the Odenwald and along the Neckar to Köngen, held from the late Flavian or Trajanic period until the advance to the outer limes c. 159-160.",
+   "polities": [
+    "rome",
+    "germani"
+   ],
+   "certainty": "probable"
+  },
+  {
+   "id": "lower_german_limes",
+   "name": "Lower German Limes (Rhine)",
+   "kind": "river",
+   "built": -12,
+   "abandoned": 406,
+   "phases": [
+    {
+     "to": 9,
+     "t": "Drusus's bases for the conquest of Germany",
+     "from": -12
+    },
+    {
+     "to": 47,
+     "t": "stabilised after the Varian disaster; Claudius orders Corbulo back (47)",
+     "from": 9
+    },
+    {
+     "to": 70,
+     "t": "overrun in the Batavian revolt",
+     "from": 69
+    },
+    {
+     "to": 260,
+     "t": "rebuilt in stone",
+     "from": 70
+    },
+    {
+     "to": 406,
+     "t": "Frankish pressure; Julian restores forts 358-359",
+     "from": 260
+    }
+   ],
+   "line": [
+    [
+     7.227,
+     50.5788
+    ],
+    [
+     7.0963,
+     50.7326
+    ],
+    [
+     6.9599,
+     50.9407
+    ],
+    [
+     6.8421,
+     51.0931
+    ],
+    [
+     6.7219,
+     51.1839
+    ],
+    [
+     6.6768,
+     51.3308
+    ],
+    [
+     6.6645,
+     51.4349
+    ],
+    [
+     6.4698,
+     51.6444
+    ],
+    [
+     6.3059,
+     51.7268
+    ],
+    [
+     6.0936,
+     51.8772
+    ],
+    [
+     5.88,
+     51.965
+    ],
+    [
+     5.57,
+     51.93
+    ],
+    [
+     5.424,
+     51.9662
+    ],
+    [
+     5.349,
+     51.9676
+    ],
+    [
+     5.1619,
+     52.0577
+    ],
+    [
+     5.1221,
+     52.0909
+    ],
+    [
+     5.03,
+     52.08
+    ],
+    [
+     4.885,
+     52.085
+    ],
+    [
+     4.7159,
+     52.105
+    ],
+    [
+     4.658,
+     52.1284
+    ],
+    [
+     4.518,
+     52.1501
+    ],
+    [
+     4.433,
+     52.1799
+    ],
+    [
+     4.3966,
+     52.2049
+    ]
+   ],
+   "summary": "The Rhine frontier of Germania Inferior from the Vinxtbach to the North Sea at Katwijk, a riverine frontier of legionary fortresses (Bonn, Neuss, Xanten, Nijmegen) and auxiliary forts every 10-15 km along the Rhine and the Oude Rijn. Caligula and Claudius fixed it; Corbulo was ordered back to it from beyond the Rhine in 47.",
+   "detail": "Wet conditions preserved timber forts, ships (Zwammerdam barges) and the Valkenburg fort sequence. UNESCO World Heritage (2021).",
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "11.18-20"
+    }
+   ],
+   "polities": [
+    "rome",
+    "frisii",
+    "franks"
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "danube_limes_raetia_noricum",
+   "name": "Danube Limes: Raetia and Noricum",
+   "kind": "river",
+   "built": 45,
+   "abandoned": 488,
+   "phases": [
+    {
+     "to": 170,
+     "t": "Claudian and Flavian forts",
+     "from": 45
+    },
+    {
+     "to": 180,
+     "t": "Marcomannic wars; Regensburg and Lauriacum fortresses built",
+     "from": 170
+    },
+    {
+     "to": 400,
+     "t": "late-Roman reconstruction under Diocletian and Valentinian I",
+     "from": 260
+    },
+    {
+     "to": 488,
+     "t": "evacuation of Noricum ordered by Odoacer (488)",
+     "from": 476
+    }
+   ],
+   "line": [
+    [
+     11.771,
+     48.85
+    ],
+    [
+     12.0985,
+     49.0198
+    ],
+    [
+     12.5964,
+     48.8868
+    ],
+    [
+     13.0793,
+     48.669
+    ],
+    [
+     13.47,
+     48.574
+    ],
+    [
+     13.9167,
+     48.4167
+    ],
+    [
+     14.2884,
+     48.3046
+    ],
+    [
+     14.4748,
+     48.2218
+    ],
+    [
+     14.96,
+     48.17
+    ],
+    [
+     15.2104,
+     48.2122
+    ],
+    [
+     15.3149,
+     48.2155
+    ],
+    [
+     15.57,
+     48.39
+    ],
+    [
+     15.7381,
+     48.3422
+    ],
+    [
+     16.0521,
+     48.331
+    ],
+    [
+     16.1772,
+     48.329
+    ]
+   ],
+   "summary": "Upper Danube frontier from Eining to the Vienna Woods, with the legionary fortresses of Regensburg and Lauriacum, cohort forts such as Künzing and Passau, and late-Roman burgi. The Life of Severinus describes its last decades in the 470s-480s.",
+   "sources": [
+    {
+     "a": "Eugippius",
+     "w": "Vita Severini",
+     "r": "20; 44"
+    }
+   ],
+   "polities": [
+    "rome",
+    "marcomanni",
+    "alamanni",
+    "rugii"
+   ],
+   "certainty": "probable"
+  },
+  {
+   "id": "danube_limes_pannonia",
+   "name": "Danube Limes: Pannonia (Ripa Pannonica)",
+   "kind": "river",
+   "built": 50,
+   "abandoned": 433,
+   "phases": [
+    {
+     "to": 106,
+     "t": "Claudian-Flavian forts",
+     "from": 50
+    },
+    {
+     "to": 180,
+     "t": "Marcomannic wars",
+     "from": 166
+    },
+    {
+     "to": 375,
+     "t": "Diocletianic and Valentinianic fortification, counter-forts on the left bank",
+     "from": 294
+    },
+    {
+     "to": 433,
+     "t": "Valeria ceded to the Huns by Aetius",
+     "from": 433
+    }
+   ],
+   "line": [
+    [
+     16.325,
+     48.3051
+    ],
+    [
+     16.3717,
+     48.2099
+    ],
+    [
+     16.4735,
+     48.1425
+    ],
+    [
+     16.8679,
+     48.1133
+    ],
+    [
+     17.1495,
+     48.056
+    ],
+    [
+     17.2694,
+     47.8744
+    ],
+    [
+     17.635,
+     47.69
+    ],
+    [
+     18.1695,
+     47.7352
+    ],
+    [
+     18.5374,
+     47.7583
+    ],
+    [
+     18.7393,
+     47.7958
+    ],
+    [
+     19.0729,
+     47.665
+    ],
+    [
+     19.045,
+     47.545
+    ],
+    [
+     18.9846,
+     47.392
+    ],
+    [
+     18.9147,
+     47.3087
+    ],
+    [
+     18.8652,
+     47.1247
+    ],
+    [
+     18.937,
+     46.9755
+    ],
+    [
+     18.8864,
+     46.8866
+    ],
+    [
+     18.8819,
+     46.6561
+    ],
+    [
+     18.7902,
+     46.4236
+    ],
+    [
+     18.7615,
+     46.0896
+    ],
+    [
+     18.8506,
+     45.8526
+    ],
+    [
+     18.9877,
+     45.4841
+    ],
+    [
+     19.3775,
+     45.223
+    ],
+    [
+     19.8621,
+     45.2522
+    ],
+    [
+     20.2534,
+     45.1451
+    ],
+    [
+     20.4115,
+     44.836
+    ],
+    [
+     20.4579,
+     44.813
+    ]
+   ],
+   "summary": "The Pannonian Danube from the Vienna Woods to the Sava confluence at Belgrade: legionary fortresses at Vindobona, Carnuntum, Brigetio and Aquincum facing the Marcomanni, Quadi and the Sarmatian Iazyges of the Hungarian plain.",
+   "polities": [
+    "rome",
+    "marcomanni",
+    "quadi",
+    "iazyges"
+   ],
+   "certainty": "probable"
+  },
+  {
+   "id": "danube_limes_moesia_superior",
+   "name": "Danube Limes: Moesia Superior and the Iron Gates",
+   "kind": "river",
+   "built": 45,
+   "abandoned": 441,
+   "phases": [
+    {
+     "to": 101,
+     "t": "Claudian forts; Tiberian road cut 33-34",
+     "from": 45
+    },
+    {
+     "to": 106,
+     "t": "Trajan's canal and bridge for the Dacian wars",
+     "from": 101
+    },
+    {
+     "to": 271,
+     "t": "rear line behind Roman Dacia",
+     "from": 106
+    },
+    {
+     "to": 441,
+     "t": "frontier again after Aurelian's evacuation",
+     "from": 271
+    }
+   ],
+   "line": [
+    [
+     20.4579,
+     44.813
+    ],
+    [
+     20.65,
+     44.7332
+    ],
+    [
+     21.0617,
+     44.6912
+    ],
+    [
+     21.1914,
+     44.7266
+    ],
+    [
+     21.3396,
+     44.8168
+    ],
+    [
+     21.52,
+     44.76
+    ],
+    [
+     21.6383,
+     44.6511
+    ],
+    [
+     21.8885,
+     44.6204
+    ],
+    [
+     22.1443,
+     44.4436
+    ],
+    [
+     22.5637,
+     44.6307
+    ],
+    [
+     22.6692,
+     44.6131
+    ],
+    [
+     22.4453,
+     44.4691
+    ],
+    [
+     22.6,
+     44.29
+    ],
+    [
+     22.7362,
+     44.1927
+    ],
+    [
+     22.8759,
+     43.9932
+    ],
+    [
+     22.9123,
+     43.8136
+    ]
+   ],
+   "summary": "Danube frontier through the Iron Gates gorge, where Tiberius and Trajan cut a towpath road into the cliff (Tabula Traiana, 100) and Trajan dug a canal at Karataš to bypass the rapids (101). Apollodorus's bridge crossed at Pontes-Drobeta.",
+   "polities": [
+    "rome",
+    "dacia_kingdom",
+    "huns"
+   ],
+   "certainty": "probable"
+  },
+  {
+   "id": "danube_limes_moesia_inferior",
+   "name": "Danube Limes: Moesia Inferior and Scythia Minor",
+   "kind": "river",
+   "built": 45,
+   "abandoned": 600,
+   "phases": [
+    {
+     "to": 106,
+     "t": "Claudian and Flavian forts; Domitian's Dacian war",
+     "from": 45
+    },
+    {
+     "to": 271,
+     "t": "Gothic invasions (Cniva, 250-251)",
+     "from": 250
+    },
+    {
+     "to": 378,
+     "t": "Diocletianic legions I Iovia and II Herculia; Constantine's bridge at Oescus (328)",
+     "from": 290
+    },
+    {
+     "to": 376,
+     "t": "Goths admitted across the river",
+     "from": 376
+    },
+    {
+     "to": 600,
+     "t": "Justinianic restoration; collapse under Avar-Slav pressure after 602",
+     "from": 500
+    }
+   ],
+   "line": [
+    [
+     22.9123,
+     43.8136
+    ],
+    [
+     23.2375,
+     43.8256
+    ],
+    [
+     23.8404,
+     43.7333
+    ],
+    [
+     24.4661,
+     43.7104
+    ],
+    [
+     25.1294,
+     43.6508
+    ],
+    [
+     25.394,
+     43.613
+    ],
+    [
+     25.73,
+     43.615
+    ],
+    [
+     25.9454,
+     43.8465
+    ],
+    [
+     26.2456,
+     43.9877
+    ],
+    [
+     26.611,
+     44.0482
+    ],
+    [
+     26.8483,
+     44.0634
+    ],
+    [
+     27.2601,
+     44.1191
+    ],
+    [
+     28.0198,
+     44.3276
+    ],
+    [
+     28.0903,
+     44.4937
+    ],
+    [
+     27.952,
+     44.6818
+    ],
+    [
+     28.1951,
+     45.1432
+    ],
+    [
+     28.13,
+     45.24
+    ],
+    [
+     28.1388,
+     45.379
+    ],
+    [
+     28.492,
+     45.2708
+    ],
+    [
+     28.8064,
+     45.1798
+    ],
+    [
+     29.0803,
+     45.0767
+    ],
+    [
+     29.1973,
+     45.0247
+    ]
+   ],
+   "summary": "Lower Danube frontier from Ratiaria to the delta at Halmyris, with the legionary fortresses of Oescus, Novae, Durostorum, Troesmis and Noviodunum and the Moesian fleet. It faced Getae, Bastarnae, Roxolani, Carpi, Goths and finally Avars and Slavs.",
+   "polities": [
+    "rome",
+    "rome_east",
+    "getae",
+    "goths",
+    "avars",
+    "slavs"
+   ],
+   "certainty": "probable"
+  },
+  {
+   "id": "limes_dacicus",
+   "name": "Dacian Limes (Limes Porolissensis and eastern line)",
+   "kind": "limes",
+   "built": 106,
+   "abandoned": 271,
+   "phases": [
+    {
+     "to": 118,
+     "t": "Trajanic forts",
+     "from": 106
+    },
+    {
+     "to": 170,
+     "t": "Hadrianic reorganisation into three Dacias; earthworks at Porolissum",
+     "from": 118
+    },
+    {
+     "to": 180,
+     "t": "Marcomannic and Costobocan attacks",
+     "from": 170
+    },
+    {
+     "to": 271,
+     "t": "Carpic and Gothic pressure; evacuation",
+     "from": 250
+    }
+   ],
+   "line": [
+    [
+     22.7312,
+     47.0164
+    ],
+    [
+     22.9111,
+     47.1635
+    ],
+    [
+     23.0881,
+     47.2648
+    ],
+    [
+     23.2666,
+     47.3333
+    ],
+    [
+     23.4893,
+     47.3876
+    ],
+    [
+     23.7034,
+     47.4147
+    ],
+    [
+     23.8933,
+     47.4233
+    ],
+    [
+     23.8475,
+     47.1915
+    ],
+    [
+     24.0704,
+     47.2303
+    ],
+    [
+     24.5002,
+     47.1335
+    ],
+    [
+     24.76,
+     46.87
+    ],
+    [
+     24.8773,
+     46.629
+    ],
+    [
+     25.0124,
+     46.5619
+    ],
+    [
+     25.3012,
+     46.3131
+    ],
+    [
+     25.8488,
+     45.9741
+    ],
+    [
+     25.98,
+     45.84
+    ],
+    [
+     26.3038,
+     46.0417
+    ]
+   ],
+   "summary": "Frontier of Roman Dacia on the north-west (Meseș mountains, around Porolissum) and along the Eastern Carpathians, combining watchtowers, earthworks and forts. The province was abandoned under Aurelian c. 271-275.",
+   "detail": "The western section follows the Pleiades trace of the Limes Daciae; the eastern line is approximate between attested forts.",
+   "polities": [
+    "rome",
+    "free_dacians",
+    "iazyges",
+    "goths"
+   ],
+   "certainty": "approx"
+  },
+  {
+   "id": "limes_alutanus",
+   "name": "Limes Alutanus (Olt line)",
+   "kind": "limes",
+   "built": 120,
+   "abandoned": 245,
+   "line": [
+    [
+     24.4594,
+     43.7643
+    ],
+    [
+     24.3972,
+     44.1742
+    ],
+    [
+     24.335,
+     44.25
+    ],
+    [
+     24.2709,
+     44.6814
+    ],
+    [
+     24.236,
+     44.8701
+    ],
+    [
+     24.3014,
+     45.0361
+    ],
+    [
+     24.3771,
+     45.2091
+    ],
+    [
+     24.3002,
+     45.2837
+    ],
+    [
+     24.3035,
+     45.4178
+    ],
+    [
+     24.3065,
+     45.5029
+    ],
+    [
+     24.2577,
+     45.633
+    ],
+    [
+     24.8332,
+     45.8376
+    ]
+   ],
+   "summary": "Fortified line along the Olt (Alutus) river, the eastern boundary of Dacia Inferior under Hadrian, which kept the Wallachian plain outside the province. Superseded by the Limes Transalutanus c. 200, and partly reused after 245.",
+   "polities": [
+    "rome",
+    "free_dacians"
+   ],
+   "certainty": "approx"
+  },
+  {
+   "id": "limes_transalutanus",
+   "name": "Limes Transalutanus",
+   "kind": "earthwork",
+   "built": 200,
+   "abandoned": 245,
+   "builder": "septimius_severus",
+   "line": [
+    [
+     25.04,
+     43.701
+    ],
+    [
+     25.01,
+     43.93
+    ],
+    [
+     24.99,
+     44.11
+    ],
+    [
+     24.975,
+     44.3
+    ],
+    [
+     24.975,
+     44.47
+    ],
+    [
+     24.96,
+     44.62
+    ],
+    [
+     24.93,
+     44.79
+    ],
+    [
+     24.96,
+     44.95
+    ],
+    [
+     25.0,
+     45.1
+    ],
+    [
+     25.02,
+     45.24
+    ],
+    [
+     25.17,
+     45.4
+    ]
+   ],
+   "summary": "Earth rampart and ditch of about 235 km with 14 forts, running from Flămânda on the Danube north to Câmpulung and Rucăr near the Carpathians, 10-50 km east of the Olt. Built under Septimius Severus c. 200 and abandoned in 245-248 under Carpic attacks.",
+   "detail": "Its southern end follows the Pleiades trace (Flămânda-Băneasa); the northern part is approximate.",
+   "polities": [
+    "rome",
+    "free_dacians"
+   ],
+   "certainty": "approx"
+  },
+  {
+   "id": "brazda_lui_novac",
+   "name": "Brazda lui Novac de Nord",
+   "kind": "earthwork",
+   "built": 330,
+   "abandoned": 380,
+   "line": [
+    [
+     22.78,
+     44.56
+    ],
+    [
+     23.18,
+     44.56
+    ],
+    [
+     23.55,
+     44.56
+    ],
+    [
+     23.95,
+     44.47
+    ],
+    [
+     24.37,
+     44.43
+    ],
+    [
+     24.8,
+     44.63
+    ],
+    [
+     25.3,
+     44.72
+    ],
+    [
+     25.7,
+     44.78
+    ],
+    [
+     26.05,
+     44.87
+    ],
+    [
+     26.44,
+     45.0
+    ]
+   ],
+   "summary": "Earthwork about 300 km long across Oltenia and Muntenia, north of the Danube, named in Romanian folklore after the hero Novac. Often linked to Constantine's reconquest north of the Danube (bridge at Oescus 328, Gothic treaty 332), it would have marked a Roman glacis in Wallachia.",
+   "debate": "Dating is unresolved: Constantinian (c. 330s) is the majority view, but it has also been ascribed to the 2nd century, to the Goths or to the early Middle Ages. Course shown is approximate.",
+   "polities": [
+    "rome",
+    "goths"
+   ],
+   "certainty": "disputed"
+  },
+  {
+   "id": "trajans_wall_bessarabia",
+   "name": "Lower Trajan's Wall (Bessarabia)",
+   "kind": "earthwork",
+   "built": 376,
+   "abandoned": 376,
+   "line": [
+    [
+     28.2,
+     45.74
+    ],
+    [
+     28.38,
+     45.8
+    ],
+    [
+     28.56,
+     45.85
+    ],
+    [
+     28.74,
+     45.87
+    ],
+    [
+     28.92,
+     45.88
+    ],
+    [
+     29.1,
+     45.89
+    ],
+    [
+     29.28,
+     45.88
+    ],
+    [
+     29.45,
+     45.86
+    ],
+    [
+     29.6,
+     45.84
+    ]
+   ],
+   "summary": "Earth rampart about 126 km long from the Prut near Vadul lui Isac to Lake Sasyk on the Black Sea, south of an Upper Trajan's Wall between the Prut and the Dniester near Tighina. The popular name is modern.",
+   "debate": "Attributions include Trajan (2nd century), the Gothic king Athanaric, who Ammianus says built a wall 'from the banks of the Gerasus (Prut) to the Danube' against the Huns in 376 (31.3.7), and later nomads. Course approximate.",
+   "sources": [
+    {
+     "a": "Ammianus Marcellinus",
+     "w": "Res Gestae",
+     "r": "31.3.7"
+    }
+   ],
+   "polities": [
+    "thervingi",
+    "rome"
+   ],
+   "certainty": "disputed"
+  },
+  {
+   "id": "strata_diocletiana",
+   "name": "Strata Diocletiana",
+   "kind": "road_frontier",
+   "built": 293,
+   "abandoned": 600,
+   "builder": "diocletian",
+   "line": [
+    [
+     38.7795,
+     35.8974
+    ],
+    [
+     38.7576,
+     35.629
+    ],
+    [
+     38.9273,
+     35.0992
+    ],
+    [
+     38.2701,
+     34.5507
+    ],
+    [
+     37.8,
+     34.4
+    ],
+    [
+     37.2506,
+     34.2463
+    ],
+    [
+     36.99,
+     34.0
+    ],
+    [
+     36.69,
+     33.64
+    ],
+    [
+     36.3091,
+     33.5116
+    ]
+   ],
+   "summary": "Fortified road built under Diocletian from Sura on the Euphrates via Palmyra to Damascus, lined with forts and road stations a day's march apart, guarding the Syrian steppe against Arab nomads and Persian raids.",
+   "detail": "Milestones carrying the name 'strata Diocletiana' and the forts of the Notitia (dux Syriae et Euphratensis, dux Phoenicis) mark its course; Justinian's ruling on a dispute between the Ghassanid al-Harith and the Lakhmid al-Mundhir concerned the lands south of it (Procopius, Wars 2.1).",
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "2.1.6-11"
+    }
+   ],
+   "polities": [
+    "rome",
+    "rome_east",
+    "lakhmids",
+    "ghassanids"
+   ],
+   "certainty": "probable"
+  },
+  {
+   "id": "limes_arabicus",
+   "name": "Limes Arabicus",
+   "kind": "limes",
+   "built": 106,
+   "abandoned": 530,
+   "phases": [
+    {
+     "to": 284,
+     "t": "Trajanic annexation; forts on the Via Nova Traiana",
+     "from": 106
+    },
+    {
+     "to": 363,
+     "t": "Diocletianic build-up: Betthorus, Udhruh, Qasr Bshir (306)",
+     "from": 284
+    },
+    {
+     "to": 530,
+     "t": "earthquake of 363; garrisons reduced; Justinian relies on the Ghassanids from c. 530",
+     "from": 363
+    }
+   ],
+   "line": [
+    [
+     36.4813,
+     32.5205
+    ],
+    [
+     36.3693,
+     32.327
+    ],
+    [
+     36.328,
+     32.0929
+    ],
+    [
+     36.1646,
+     32.1575
+    ],
+    [
+     35.935,
+     31.955
+    ],
+    [
+     35.9812,
+     31.3373
+    ],
+    [
+     35.8684,
+     31.237
+    ],
+    [
+     35.88,
+     30.66
+    ],
+    [
+     35.5959,
+     30.3321
+    ],
+    [
+     35.3219,
+     29.9579
+    ],
+    [
+     35.0,
+     29.5306
+    ]
+   ],
+   "summary": "The desert frontier of Arabia, a zone of forts, watchtowers and road stations along and east of the Via Nova Traiana from Bostra to Aila on the Red Sea, strengthened by Diocletian with the legionary fortresses of el-Lejjun and Udhruh.",
+   "detail": "Whether it was a defensive line against nomads (Parker) or an internal policing and road-security system (Isaac, The Limits of Empire, 1990) is a classic debate of frontier studies.",
+   "polities": [
+    "rome",
+    "rome_east",
+    "nabataea",
+    "arab_tribes",
+    "ghassanids"
+   ],
+   "certainty": "probable"
+  },
+  {
+   "id": "euphrates_frontier",
+   "name": "Euphrates frontier",
+   "kind": "river",
+   "built": 72,
+   "abandoned": 640,
+   "phases": [
+    {
+     "to": 114,
+     "t": "Flavian legionary bases on the upper Euphrates",
+     "from": 72
+    },
+    {
+     "to": 117,
+     "t": "Trajan's provinces beyond the river",
+     "from": 114
+    },
+    {
+     "to": 256,
+     "t": "Dura held as a Roman garrison town until 256",
+     "from": 165
+    },
+    {
+     "to": 640,
+     "t": "frontier zone again after Jovian's peace; Justinian fortifies Callinicum, Sura and Circesium",
+     "from": 363
+    }
+   ],
+   "line": [
+    [
+     39.5979,
+     40.0279
+    ],
+    [
+     39.49,
+     39.74
+    ],
+    [
+     39.03,
+     39.6
+    ],
+    [
+     38.56,
+     39.45
+    ],
+    [
+     38.49,
+     39.17
+    ],
+    [
+     38.3612,
+     38.3822
+    ],
+    [
+     38.5304,
+     37.5258
+    ],
+    [
+     37.8702,
+     37.0577
+    ],
+    [
+     38.0149,
+     36.8294
+    ],
+    [
+     38.05,
+     36.0
+    ],
+    [
+     38.7795,
+     35.8974
+    ],
+    [
+     39.057,
+     35.95
+    ],
+    [
+     39.8216,
+     35.6893
+    ],
+    [
+     40.43,
+     35.1566
+    ],
+    [
+     40.73,
+     34.7477
+    ]
+   ],
+   "summary": "The Euphrates line from the Armenian highlands at Satala past the legionary bases of Melitene, Samosata and Zeugma to Sura, Callinicum, Circesium and Dura. Rome's eastern river frontier under the Flavians; after 165 and especially 198 it became a rear line behind Mesopotamia, and again the front after 363.",
+   "polities": [
+    "rome",
+    "rome_east",
+    "parthia",
+    "sasanian"
+   ],
+   "certainty": "probable"
+  },
+  {
+   "id": "fossatum_africae",
+   "name": "Fossatum Africae (Gemellae sector)",
+   "kind": "fossatum",
+   "built": 120,
+   "abandoned": 430,
+   "line": [
+    [
+     5.1486,
+     34.4387
+    ],
+    [
+     5.2186,
+     34.4446
+    ],
+    [
+     5.2595,
+     34.4489
+    ],
+    [
+     5.3575,
+     34.46
+    ],
+    [
+     5.4148,
+     34.4678
+    ],
+    [
+     5.462,
+     34.4764
+    ],
+    [
+     5.6055,
+     34.5067
+    ],
+    [
+     5.6413,
+     34.5161
+    ],
+    [
+     5.686,
+     34.5284
+    ],
+    [
+     5.7339,
+     34.5428
+    ],
+    [
+     5.8167,
+     34.5713
+    ],
+    [
+     5.8531,
+     34.5866
+    ],
+    [
+     5.9125,
+     34.6121
+    ]
+   ],
+   "summary": "Ditch and bank up to 6 m wide with stone walls in places, controlling seasonal pastoral movement around Gemellae south of the Aurès. One of several Fossatum sectors, probably Hadrianic in origin.",
+   "detail": "The Codex Theodosianus (7.15.1, 409) mentions land assigned to gentiles to maintain the limes and fossatum. Baradez's aerial photography (1949) revealed the system. Trace from the Pleiades sector line.",
+   "sources": [
+    {
+     "a": "Codex Theodosianus",
+     "w": "Codex Theodosianus",
+     "r": "7.15.1"
+    }
+   ],
+   "polities": [
+    "rome",
+    "gaetuli"
+   ],
+   "certainty": "probable"
+  },
+  {
+   "id": "fossatum_africae_hodna",
+   "name": "Fossatum Africae (Hodna-Tubunae sector)",
+   "kind": "fossatum",
+   "built": 120,
+   "abandoned": 430,
+   "line": [
+    [
+     5.4908,
+     35.0791
+    ],
+    [
+     5.4478,
+     35.1001
+    ],
+    [
+     5.4121,
+     35.1206
+    ],
+    [
+     5.3905,
+     35.1377
+    ],
+    [
+     5.333,
+     35.1873
+    ],
+    [
+     5.3081,
+     35.2142
+    ],
+    [
+     5.2833,
+     35.2423
+    ],
+    [
+     5.2599,
+     35.2703
+    ],
+    [
+     5.2085,
+     35.3529
+    ],
+    [
+     5.1799,
+     35.416
+    ],
+    [
+     5.1551,
+     35.474
+    ],
+    [
+     5.1382,
+     35.5231
+    ]
+   ],
+   "summary": "Sector of the Fossatum running from the Hodna mountains south-east past Tubunae (Tobna) towards Mesarfelta, enclosing the Hodna basin.",
+   "polities": [
+    "rome",
+    "gaetuli"
+   ],
+   "certainty": "probable"
+  },
+  {
+   "id": "fossatum_africae_bazensis",
+   "name": "Fossatum Africae (limes Bazensis sector)",
+   "kind": "fossatum",
+   "built": 120,
+   "abandoned": 430,
+   "line": [
+    [
+     6.1791,
+     34.7028
+    ],
+    [
+     6.2807,
+     34.6977
+    ],
+    [
+     6.3508,
+     34.6912
+    ],
+    [
+     6.432,
+     34.6809
+    ],
+    [
+     6.5096,
+     34.6689
+    ],
+    [
+     6.5856,
+     34.6541
+    ],
+    [
+     6.6672,
+     34.6378
+    ],
+    [
+     6.7463,
+     34.6197
+    ],
+    [
+     6.8182,
+     34.6003
+    ],
+    [
+     6.8918,
+     34.5759
+    ],
+    [
+     7.0386,
+     34.5251
+    ],
+    [
+     7.0996,
+     34.5025
+    ],
+    [
+     7.206,
+     34.4549
+    ]
+   ],
+   "summary": "Eastern continuation of the Fossatum south of the Aurès and Nemencha mountains between Badias and Ad Maiores.",
+   "polities": [
+    "rome",
+    "gaetuli"
+   ],
+   "certainty": "approx"
+  },
+  {
+   "id": "limes_tripolitanus",
+   "name": "Limes Tripolitanus",
+   "kind": "limes",
+   "built": 200,
+   "abandoned": 365,
+   "builder": "septimius_severus",
+   "line": [
+    [
+     10.1,
+     33.885
+    ],
+    [
+     10.2881,
+     33.626
+    ],
+    [
+     10.5,
+     33.35
+    ],
+    [
+     10.43,
+     32.93
+    ],
+    [
+     10.3984,
+     32.3169
+    ],
+    [
+     10.98,
+     31.87
+    ],
+    [
+     12.03,
+     31.95
+    ],
+    [
+     12.9832,
+     31.4329
+    ],
+    [
+     13.4206,
+     30.4228
+    ],
+    [
+     13.9,
+     30.45
+    ],
+    [
+     14.45,
+     30.52
+    ],
+    [
+     14.95,
+     30.56
+    ],
+    [
+     15.4129,
+     30.5782
+    ]
+   ],
+   "summary": "Fortified routes and forts on the desert edge of Tripolitania, from Tacapae (Gabès) through Tillibari (Remada) to the Severan outposts of Gheriat el-Garbia and Bu Njem (Golas), built 201 by detachments of III Augusta.",
+   "detail": "Ostraca from Bu Njem (c. 253-259) record the garrison's daily reports and the arrival of Garamantian guides. The system was reorganised into limitanei sectors under the comes Africae and dux Tripolitaniae. Course partly approximate.",
+   "polities": [
+    "rome",
+    "garamantes"
+   ],
+   "certainty": "approx"
+  },
+  {
+   "id": "anastasian_wall",
+   "name": "Anastasian Wall (Long Walls of Thrace)",
+   "kind": "wall",
+   "built": 469,
+   "abandoned": 600,
+   "builder": "anastasius_i",
+   "phases": [
+    {
+     "to": 507,
+     "t": "probably begun under Leo I and completed or rebuilt under Anastasius I (c. 503-507)",
+     "from": 469
+    },
+    {
+     "to": 559,
+     "t": "breached by Zabergan's Kutrigurs after earthquake damage",
+     "from": 559
+    },
+    {
+     "to": 626,
+     "t": "abandoned in the early 7th century",
+     "from": 600
+    }
+   ],
+   "line": [
+    [
+     28.3817,
+     41.447
+    ],
+    [
+     28.38,
+     41.425
+    ],
+    [
+     28.379,
+     41.405
+    ],
+    [
+     28.364,
+     41.378
+    ],
+    [
+     28.35,
+     41.345
+    ],
+    [
+     28.344,
+     41.312
+    ],
+    [
+     28.329,
+     41.294
+    ],
+    [
+     28.278,
+     41.252
+    ],
+    [
+     28.264,
+     41.242
+    ],
+    [
+     28.24,
+     41.19
+    ],
+    [
+     28.215,
+     41.14
+    ],
+    [
+     28.185,
+     41.09
+    ]
+   ],
+   "summary": "Wall 56 km long, 3.3 m thick and up to 5 m high, from the Black Sea near Evcik to the Sea of Marmara 6 km west of Selymbria, about 65 km west of Constantinople, enclosing the city's hinterland.",
+   "detail": "Procopius (Buildings 4.9) complains it was hard to man and leaked raiders. Its vicar (vicarius of the Long Walls) was abolished by Justinian. Northern trace from Pleiades fort points; southern end approximate.",
+   "debate": "Attribution to Anastasius rests on its name and the chronicles; some scholars (Croke) argue for Leo I c. 469.",
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "De aedificiis",
+     "r": "4.9"
+    }
+   ],
+   "polities": [
+    "rome_east",
+    "kutrigurs_utigurs",
+    "avars"
+   ],
+   "certainty": "probable"
+  },
+  {
+   "id": "theodosian_walls",
+   "name": "Theodosian Walls of Constantinople",
+   "kind": "wall",
+   "built": 413,
+   "abandoned": 641,
+   "builder": "theodosius_ii",
+   "phases": [
+    {
+     "to": 447,
+     "t": "inner wall",
+     "from": 413
+    },
+    {
+     "to": 641,
+     "t": "outer wall and moat added under the prefect Constantine; resisted the Avar-Persian siege of 626",
+     "from": 447
+    }
+   ],
+   "line": [
+    [
+     28.9217,
+     40.996
+    ],
+    [
+     28.9218,
+     40.9947
+    ],
+    [
+     28.9207,
+     40.999
+    ],
+    [
+     28.9206,
+     41.006
+    ],
+    [
+     28.9212,
+     41.012
+    ],
+    [
+     28.9215,
+     41.016
+    ],
+    [
+     28.9265,
+     41.0215
+    ],
+    [
+     28.9333,
+     41.029
+    ],
+    [
+     28.9395,
+     41.0325
+    ],
+    [
+     28.9435,
+     41.0365
+    ],
+    [
+     28.946,
+     41.0405
+    ]
+   ],
+   "summary": "Triple land wall of Constantinople (inner wall, outer wall and moat) 5.7 km from the Marble Tower on the Sea of Marmara to Blachernae on the Golden Horn. The inner wall was built in 408-413 by the praetorian prefect Anthemius; the outer wall and moat were added in 447 after an earthquake, rebuilt in 60 days as Attila approached.",
+   "detail": "96 main towers on the inner wall up to 20 m high. The Golden Gate served as the triumphal entry. The walls were breached only in 1204 (from the sea) and 1453.",
+   "polities": [
+    "rome_east"
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "aurelian_walls",
+   "name": "Aurelian Walls of Rome",
+   "kind": "wall",
+   "built": 271,
+   "abandoned": 641,
+   "builder": "aurelian",
+   "phases": [
+    {
+     "to": 279,
+     "t": "built at 6 m height",
+     "from": 271
+    },
+    {
+     "to": 403,
+     "t": "doubled in height by Honorius and Stilicho",
+     "from": 401
+    },
+    {
+     "to": 538,
+     "t": "held by Belisarius against Vitiges",
+     "from": 537
+    }
+   ],
+   "rings": [
+    [
+     [
+      12.4766,
+      41.9112
+     ],
+     [
+      12.4807,
+      41.9128
+     ],
+     [
+      12.4887,
+      41.9088
+     ],
+     [
+      12.4993,
+      41.9097
+     ],
+     [
+      12.503,
+      41.9086
+     ],
+     [
+      12.5081,
+      41.909
+     ],
+     [
+      12.5078,
+      41.9035
+     ],
+     [
+      12.5118,
+      41.8978
+     ],
+     [
+      12.5156,
+      41.8917
+     ],
+     [
+      12.5189,
+      41.8891
+     ],
+     [
+      12.516,
+      41.8872
+     ],
+     [
+      12.509,
+      41.8855
+     ],
+     [
+      12.4997,
+      41.8798
+     ],
+     [
+      12.5003,
+      41.8746
+     ],
+     [
+      12.5021,
+      41.8734
+     ],
+     [
+      12.4946,
+      41.873
+     ],
+     [
+      12.4813,
+      41.8763
+     ],
+     [
+      12.4719,
+      41.8735
+     ],
+     [
+      12.4733,
+      41.881
+     ],
+     [
+      12.4655,
+      41.8896
+     ],
+     [
+      12.4685,
+      41.8928
+     ],
+     [
+      12.4702,
+      41.8948
+     ],
+     [
+      12.4706,
+      41.901
+     ],
+     [
+      12.4745,
+      41.9095
+     ],
+     [
+      12.4766,
+      41.9112
+     ]
+    ]
+   ],
+   "summary": "Brick-faced concrete wall of 19 km with 381 towers and 18 main gates, begun by Aurelian in 271 after the Juthungi raided Italy and completed under Probus (c. 279). It enclosed all seven hills, the Campus Martius and part of Trastevere.",
+   "detail": "It incorporated existing structures such as the pyramid of Cestius, the Castra Praetoria and the Amphitheatrum Castrense. Constantine abolished the praetorian camp's separate defence in 312. Belisarius defended it for a year against the Goths.",
+   "polities": [
+    "rome",
+    "rome_west"
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "servian_wall",
+   "name": "Servian Wall of Rome",
+   "kind": "wall",
+   "built": -378,
+   "abandoned": -87,
+   "phases": [
+    {
+     "to": -353,
+     "t": "built after the Gallic sack",
+     "from": -378
+    },
+    {
+     "to": -211,
+     "t": "Hannibal rides up to the Colline Gate",
+     "from": -211
+    },
+    {
+     "to": -87,
+     "t": "last used defensively in the civil war of Marius and Cinna",
+     "from": -87
+    }
+   ],
+   "rings": [
+    [
+     [
+      12.499,
+      41.907
+     ],
+     [
+      12.501,
+      41.901
+     ],
+     [
+      12.5033,
+      41.8962
+     ],
+     [
+      12.501,
+      41.89
+     ],
+     [
+      12.497,
+      41.8854
+     ],
+     [
+      12.4893,
+      41.8838
+     ],
+     [
+      12.4855,
+      41.88
+     ],
+     [
+      12.4808,
+      41.8815
+     ],
+     [
+      12.4775,
+      41.8865
+     ],
+     [
+      12.479,
+      41.8918
+     ],
+     [
+      12.4815,
+      41.8925
+     ],
+     [
+      12.484,
+      41.895
+     ],
+     [
+      12.4865,
+      41.8975
+     ],
+     [
+      12.4905,
+      41.9005
+     ],
+     [
+      12.4935,
+      41.903
+     ],
+     [
+      12.499,
+      41.907
+     ]
+    ]
+   ],
+   "summary": "Rome's republican city wall of Grotta Oscura tufa, about 11 km long, attributed by tradition to King Servius Tullius but built after the Gallic sack, from 378 BC (Livy 6.32.1). On the Esquiline plateau it was reinforced by the agger, an earth rampart with a ditch 30 m wide.",
+   "detail": "The Colline Gate saw Sulla's decisive victory over the Samnites on 1 November 82 BC. By Augustus's time the city had outgrown it and it was built over; the best surviving section stands outside Termini station.",
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "6.32.1"
+    }
+   ],
+   "polities": [
+    "rome"
+   ],
+   "certainty": "probable"
+  },
+  {
+   "id": "hexamilion",
+   "name": "Hexamilion",
+   "kind": "wall",
+   "built": 408,
+   "abandoned": 600,
+   "line": [
+    [
+     22.935,
+     37.935
+    ],
+    [
+     22.948,
+     37.932
+    ],
+    [
+     22.96,
+     37.929
+    ],
+    [
+     22.9725,
+     37.9261
+    ],
+    [
+     22.983,
+     37.922
+    ],
+    [
+     22.995,
+     37.915
+    ],
+    [
+     23.003,
+     37.91
+    ],
+    [
+     23.0098,
+     37.9053
+    ]
+   ],
+   "summary": "Six-mile wall across the Isthmus of Corinth, with the Isthmia fortress at the sanctuary of Poseidon, built after Alaric's invasion of Greece (395-396), probably under Theodosius II (c. 408-450), and restored by Justinian.",
+   "detail": "Its builders reused blocks from the Isthmian sanctuary. It failed to stop Slavic invaders in the late 6th century and was rebuilt by Manuel II in 1415.",
+   "polities": [
+    "rome_east",
+    "visigoths",
+    "slavs"
+   ],
+   "certainty": "probable"
+  },
+  {
+   "id": "derbent_wall",
+   "name": "Derbent Wall (Caspian Gates)",
+   "kind": "wall",
+   "built": 560,
+   "abandoned": 641,
+   "line": [
+    [
+     48.305,
+     42.065
+    ],
+    [
+     48.276,
+     42.053
+    ],
+    [
+     48.22,
+     42.048
+    ],
+    [
+     48.15,
+     42.04
+    ],
+    [
+     48.08,
+     42.032
+    ],
+    [
+     48.01,
+     42.022
+    ],
+    [
+     47.95,
+     42.012
+    ],
+    [
+     47.9,
+     42.0
+    ]
+   ],
+   "summary": "Sasanian fortification at Derbent where the Caucasus meets the Caspian: two parallel city walls 3.6 km to the sea and the Dagh-bary mountain wall running some 40 km inland, rebuilt in stone under Khosrow I (c. 560s) against the steppe nomads.",
+   "detail": "The Romans contributed subsidies for the defence of the Caucasus passes under several 5th-6th-century treaties, a recurrent issue in the Persian wars. Mountain wall course approximate.",
+   "polities": [
+    "sasanian",
+    "kutrigurs_utigurs"
+   ],
+   "certainty": "approx"
+  },
+  {
+   "id": "gorgan_wall",
+   "name": "Great Wall of Gorgan",
+   "kind": "wall",
+   "built": 420,
+   "abandoned": 650,
+   "line": [
+    [
+     54.07,
+     37.1
+    ],
+    [
+     54.181,
+     37.1334
+    ],
+    [
+     54.2508,
+     37.1377
+    ],
+    [
+     54.3241,
+     37.1327
+    ],
+    [
+     54.4252,
+     37.1099
+    ],
+    [
+     54.4925,
+     37.1021
+    ],
+    [
+     54.5459,
+     37.0978
+    ],
+    [
+     54.615,
+     37.1185
+    ],
+    [
+     54.6591,
+     37.1648
+    ],
+    [
+     54.6924,
+     37.1982
+    ],
+    [
+     54.7501,
+     37.2103
+    ],
+    [
+     54.8156,
+     37.2288
+    ],
+    [
+     54.8968,
+     37.2352
+    ],
+    [
+     54.9822,
+     37.2409
+    ],
+    [
+     55.0859,
+     37.2435
+    ],
+    [
+     55.1609,
+     37.2568
+    ],
+    [
+     55.2095,
+     37.2789
+    ],
+    [
+     55.2474,
+     37.3182
+    ],
+    [
+     55.2917,
+     37.3511
+    ],
+    [
+     55.3487,
+     37.4005
+    ],
+    [
+     55.3981,
+     37.4258
+    ],
+    [
+     55.4424,
+     37.4562
+    ],
+    [
+     55.5095,
+     37.484
+    ],
+    [
+     55.5711,
+     37.5099
+    ]
+   ],
+   "summary": "Brick wall 195 km long with over 30 forts and a canal-fed ditch, from the Caspian shore to the Pishkamar mountains, built by the Sasanians against the Hephthalites and other northern nomads. OSL and radiocarbon dates place it in the 5th century, probably under Peroz (459-484) or earlier.",
+   "detail": "Sometimes called the 'Red Snake' after its fired bricks. Its forts could hold a garrison of perhaps 15,000-30,000, a scale comparable to Hadrian's Wall (Sauer et al., Persia's Imperial Power in Late Antiquity, 2013). Trace from Pleiades fort points.",
+   "polities": [
+    "sasanian",
+    "hephthalites"
+   ],
+   "certainty": "probable"
+  },
+  {
+   "id": "saxon_shore",
+   "name": "Saxon Shore forts (Litus Saxonicum)",
+   "kind": "limes",
+   "built": 270,
+   "abandoned": 410,
+   "phases": [
+    {
+     "to": 260,
+     "t": "early forts at Brancaster and Reculver",
+     "from": 225
+    },
+    {
+     "to": 293,
+     "t": "main building phase, perhaps under Carausius",
+     "from": 270
+    },
+    {
+     "to": 368,
+     "t": "the 'barbarian conspiracy'; count Nectaridus killed",
+     "from": 367
+    }
+   ],
+   "line": [
+    [
+     0.697,
+     52.968
+    ],
+    [
+     1.6514,
+     52.5825
+    ],
+    [
+     1.34,
+     52.05
+    ],
+    [
+     0.9402,
+     51.7356
+    ],
+    [
+     1.1998,
+     51.3775
+    ],
+    [
+     1.3323,
+     51.2935
+    ],
+    [
+     1.3075,
+     51.123
+    ],
+    [
+     1.0211,
+     51.0685
+    ],
+    [
+     0.333,
+     50.819
+    ],
+    [
+     -1.1151,
+     50.8499
+    ]
+   ],
+   "summary": "Chain of nine or ten coastal forts from Brancaster in Norfolk to Portchester in Hampshire, built c. 260-300, placed in the Notitia under the comes litoris Saxonici per Britanniam. Matching forts stood on the Gallic coast.",
+   "debate": "Whether the forts defended against Saxon raiders or were bases for Carausius and Allectus against Rome, and whether 'Saxon Shore' means the shore attacked by or settled by Saxons, are debated.",
+   "sources": [
+    {
+     "a": "Notitia Dignitatum",
+     "w": "Occidens",
+     "r": "28"
+    },
+    {
+     "a": "Ammianus Marcellinus",
+     "w": "Res Gestae",
+     "r": "27.8.1"
+    }
+   ],
+   "polities": [
+    "rome",
+    "britannic_empire",
+    "saxons"
+   ],
+   "certainty": "probable"
+  },
+  {
+   "id": "danube_iller_rhine_limes",
+   "name": "Danube-Iller-Rhine Limes",
+   "kind": "limes",
+   "built": 290,
+   "abandoned": 430,
+   "line": [
+    [
+     7.7229,
+     47.5399
+    ],
+    [
+     8.2932,
+     47.5877
+    ],
+    [
+     8.8588,
+     47.6559
+    ],
+    [
+     9.174,
+     47.6623
+    ],
+    [
+     9.4369,
+     47.5151
+    ],
+    [
+     9.7471,
+     47.503
+    ],
+    [
+     10.0673,
+     47.6981
+    ],
+    [
+     10.3266,
+     47.7275
+    ],
+    [
+     10.1271,
+     48.1202
+    ],
+    [
+     10.0,
+     48.39
+    ],
+    [
+     10.2815,
+     48.4544
+    ],
+    [
+     10.7,
+     48.64
+    ],
+    [
+     11.771,
+     48.85
+    ]
+   ],
+   "summary": "Late Roman frontier after the loss of the Agri Decumates c. 260: the High Rhine from Kaiseraugst to Lake Constance, the Iller from Bregenz to the Danube near Ulm, and the Danube to Eining, refortified under Diocletian and again under Valentinian I.",
+   "polities": [
+    "rome",
+    "alamanni"
+   ],
+   "certainty": "probable"
+  },
+  {
+   "id": "devils_dykes",
+   "name": "Devil's Dykes (Csörsz árok)",
+   "kind": "earthwork",
+   "built": 320,
+   "abandoned": 375,
+   "line": [
+    [
+     19.05,
+     47.78
+    ],
+    [
+     19.9,
+     47.78
+    ],
+    [
+     20.7,
+     47.65
+    ],
+    [
+     21.5,
+     47.6
+    ],
+    [
+     21.9,
+     47.2
+    ],
+    [
+     21.7,
+     46.7
+    ],
+    [
+     21.3,
+     46.25
+    ],
+    [
+     21.0,
+     45.9
+    ],
+    [
+     20.9,
+     45.4
+    ],
+    [
+     20.8,
+     45.1
+    ]
+   ],
+   "summary": "System of earthworks some 1,260 km in total enclosing the Sarmatian lands of the Great Hungarian Plain between the Danube and the Carpathians, usually dated to Constantine's treaty with the Sarmatians after 322-334, when Rome protected them against Goths and Vandals.",
+   "debate": "The Constantinian date relies on finds and context rather than inscriptions; parts may be later. Course approximate.",
+   "polities": [
+    "iazyges",
+    "rome"
+   ],
+   "certainty": "disputed"
+  }
+ ]
+}

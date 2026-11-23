@@ -1,133 +1,1522 @@
-{"wars":[
-{"id":"gothic_war_395","name":"Gothic Wars of Alaric and his successors","start":395,"end":418,
-"sides":[["rome_west","rome_east"],["visigoths"]],
-"outcome":"Goths settled as federates in Aquitaine (418) after sacking Rome (410); the Visigothic kingdom of Toulouse is born",
-"summary":"Twenty-three years of intermittent war, negotiation and alliance between the Goths led by Alaric, Athaulf and Wallia and the two Roman courts, from the revolt of 395 to the settlement in Aquitaine.","detail":"The Goths' goals were consistently Roman: recognised command, regular supplies, and land. The rivalry between Stilicho and Constantinople let Alaric extract concessions from each in turn; Stilicho's fall in 408 removed the one Roman able to contain him. The sack of 410 was the result of Ravenna's refusal to negotiate, not of Gothic strength. Constantius's naval blockade, not battle, finally forced the Goths into the 416 treaty.",
-"phases":[{"from":395,"to":397,"t":"Revolt in the Balkans and ravaging of Greece"},{"from":401,"to":402,"t":"First invasion of Italy: Pollentia and Verona"},{"from":408,"to":410,"t":"Sieges and sack of Rome"},{"from":411,"to":415,"t":"Athaulf in Gaul and Spain"},{"from":416,"to":418,"t":"Wallia as Roman federate in Spain; settlement in Aquitaine"}],
-"events":["alaric_revolt_395","battle_of_pholoe","alaric_invades_italy_401","battle_of_pollentia","battle_of_verona_402","siege_of_rome_408","siege_of_rome_409","sack_of_rome_410","death_of_alaric_410","athaulf_marries_galla_placidia_414","treaty_of_wallia_416","visigothic_campaigns_in_spain_416","visigothic_settlement_aquitaine_418"],
-"people":["alaric_i","stilicho","honorius","athaulf","wallia","constantius_iii","priscus_attalus","galla_placidia"],"campaigns":["alaric_greece_395","alaric_italy_401","alaric_italy_408","visigoths_athaulf_412"],
-"sources":[{"a":"Zosimus","w":"New History","r":"5-6"},{"a":"Orosius","w":"Histories against the Pagans","r":"7.37-43"},{"a":"Olympiodorus","w":"History"},{"a":"Claudian","w":"De Bello Gothico"}],"scholarship":["Kulikowski, Rome's Gothic Wars (2007)","Heather, Goths and Romans (1991)"]},
-{"id":"gildonic_war","name":"Gildonic War","start":397,"end":398,"sides":[["rome_west"],["moors"]],
-"outcome":"Gildo defeated and killed; Africa and its grain restored to the western court",
-"summary":"Gildo, comes Africae, transferred Africa to the eastern court and cut Rome's grain. Stilicho sent Gildo's brother Mascezel, who routed him at the Ardalio.","events":["battle_of_the_ardalio"],"people":["stilicho","honorius","claudian"],"campaigns":[],
-"sources":[{"a":"Claudian","w":"De Bello Gildonico"},{"a":"Orosius","w":"Histories against the Pagans","r":"7.36"}]},
-{"id":"radagaisus_war","name":"Invasion of Radagaisus","start":405,"end":406,"sides":[["rome_west","huns"],["radagaisus_coalition"]],
-"outcome":"Radagaisus's host destroyed at Faesulae; 12,000 drafted into the Roman army",
-"summary":"A Gothic-led coalition from the middle Danube invaded Italy and was annihilated by Stilicho with Hunnic and Gothic auxiliaries.","events":["radagaisus_invades_italy_405","battle_of_faesulae"],"people":["radagaisus","stilicho"],"campaigns":["radagaisus_405"],
-"sources":[{"a":"Orosius","w":"Histories against the Pagans","r":"7.37"},{"a":"Zosimus","w":"New History","r":"5.26"}]},
-{"id":"constantine_iii_civil_war","name":"Usurpation of Constantine III","start":407,"end":411,"sides":[["rome_west"],["rome_west"]],
-"outcome":"Constantine III defeated and executed; Gaul restored to Ravenna, Britain lost",
-"summary":"Civil war between Honorius and the British-born usurper Constantine III, complicated by the rebellion of Constantine's general Gerontius and his emperor Maximus in Spain, and by the Rhine invaders.","events":["usurpation_of_constantine_iii_407","vandals_alans_suebi_enter_spain_409","britain_abandoned_410","siege_of_arles_411"],"people":["constantine_iii_usurper","honorius","constantius_iii"],"campaigns":[],
-"sources":[{"a":"Zosimus","w":"New History","r":"6.1-5"},{"a":"Sozomen","w":"Ecclesiastical History","r":"9.11-15"}]},
-{"id":"roman_sasanian_war_421","name":"Roman-Sasanian War of 421-422","start":421,"end":422,"sides":[["rome_east"],["sasanian"]],
-"outcome":"Status quo; mutual religious toleration and no new frontier forts",
-"summary":"Brief war triggered by Bahram V's persecution of Christians and Roman refusal to return refugees.","events":["roman_sasanian_war_421_peace_422"],"people":["theodosius_ii"],"campaigns":[],
-"sources":[{"a":"Socrates","w":"Ecclesiastical History","r":"7.18-20"}],"scholarship":["Greatrex & Lieu, The Roman Eastern Frontier and the Persian Wars, Part II (2002)"]},
-{"id":"joannes_civil_war","name":"War against Joannes","start":423,"end":425,"sides":[["rome_east"],["rome_west","huns"]],
-"outcome":"Joannes executed; Valentinian III installed with Galla Placidia as regent",
-"summary":"Theodosius II's intervention to install his cousin Valentinian III against the Ravenna usurper Joannes, who was backed by Aetius and his Huns.","events":["death_of_honorius_423","fall_of_joannes_425","accession_of_valentinian_iii_425"],"people":["joannes_usurper","aspar","aetius","galla_placidia","valentinian_iii","theodosius_ii"],"campaigns":[],
-"sources":[{"a":"Socrates","w":"Ecclesiastical History","r":"7.23-24"},{"a":"Olympiodorus","w":"History","r":"fr. 41-43"}]},
-{"id":"vandal_war_429","name":"Vandal conquest of Africa","start":429,"end":442,"sides":[["rome_west","rome_east"],["vandals","alans"]],
-"outcome":"Vandals take Carthage (439); treaty of 442 recognises their rule over the richest provinces",
-"summary":"The Vandals and Alans under Gaiseric crossed to Africa, besieged Hippo, defeated Roman and eastern armies, were recognised as federates in 435, and seized Carthage in 439.","detail":"The loss of the Proconsularis and Byzacena was the most damaging blow to western finances in the fifth century. The aborted joint expedition of 441 showed the empire's capacity to respond was wrecked by simultaneous Hunnic and Persian threats.",
-"events":["vandal_crossing_to_africa_429","siege_of_hippo_regius_430","treaty_with_vandals_435","vandal_capture_of_carthage_439","aborted_sicily_expedition_441"],"people":["gaiseric","bonifatius","aspar","valentinian_iii","galla_placidia","augustine_of_hippo"],"campaigns":["vandal_migration_406"],
-"sources":[{"a":"Victor of Vita","w":"History of the Vandal Persecution","r":"1"},{"a":"Procopius","w":"Wars","r":"3.3-4"},{"a":"Prosper","w":"Chronicle"}],"scholarship":["Merrills & Miles, The Vandals (2010)"]},
-{"id":"gallic_wars_of_aetius","name":"Aetius's wars in Gaul","start":425,"end":439,"sides":[["rome_west","huns"],["visigothic_kingdom","burgundians","franks"]],
-"outcome":"Burgundians crushed and resettled; Visigoths contained after the defeat of Litorius",
-"summary":"Aetius's campaigns, often with Hunnic auxiliaries, against Visigoths at Arles and Narbonne, Franks on the Rhine, Burgundians, Iuthungi and the Bagaudae of Armorica.","events":["destruction_of_the_burgundians_436","battle_of_toulouse_439"],"people":["aetius","theodoric_i_visigoth","avitus"],"campaigns":[],
-"sources":[{"a":"Hydatius","w":"Chronicle"},{"a":"Prosper","w":"Chronicle"},{"a":"Chronica Gallica of 452","w":"Chronica Gallica"}]},
-{"id":"hunnic_wars","name":"Wars with Attila's Huns","start":434,"end":454,"sides":[["rome_east","rome_west","visigothic_kingdom"],["huns","ostrogoths","gepids"]],
-"outcome":"Huge tribute extracted from the East; Attila halted in Gaul (451), withdrew from Italy (452); Hunnic empire collapses after Nedao (454)",
-"summary":"Two decades of Hunnic pressure: treaties and rising tribute (435, 443, 447), devastating Balkan invasions (441-442, 447), the invasion of Gaul (451) and Italy (452), and the collapse after Attila's death.","detail":"Hunnic power rested on Roman gold redistributed to a coalition of subject peoples. The East paid and rebuilt its walls; the West depended on Aetius's coalition of federates. Heather argues the Huns' greatest impact was indirect, pushing other peoples into the empire before 420 and, after 454, releasing a crowd of successor groups into Roman politics.",
-"phases":[{"from":434,"to":440,"t":"Treaties of Margus and rising tribute"},{"from":441,"to":447,"t":"Balkan invasions"},{"from":449,"to":450,"t":"Diplomacy and the Honoria affair"},{"from":451,"to":452,"t":"Invasions of Gaul and Italy"},{"from":453,"to":454,"t":"Death of Attila and Nedao"}],
-"events":["treaty_of_margus_435","siege_of_naissus_442","peace_of_anatolius_443","earthquake_and_rebuilding_walls_447","battle_of_the_utus","embassy_of_maximinus_449","honoria_affair_450","siege_of_metz_451","siege_of_orleans_451","battle_of_the_catalaunian_plains","siege_of_aquileia_452","meeting_of_leo_and_attila_452","death_of_attila_453","battle_of_nedao"],
-"people":["attila","bleda","rua","aetius","theodoric_i_visigoth","theodosius_ii","marcian","pope_leo_i","priscus_of_panium"],"campaigns":["attila_gaul_451","attila_italy_452"],
-"sources":[{"a":"Priscus","w":"History"},{"a":"Jordanes","w":"Getica","r":"178-263"}],"scholarship":["Maenchen-Helfen, The World of the Huns (1973)","Kelly, Attila the Hun (2008)","Heather, The Fall of the Roman Empire (2005)"]},
-{"id":"roman_vandal_war_455","name":"Roman-Vandal War of 455-474","start":455,"end":474,"sides":[["rome_west","rome_east"],["vandal_kingdom"]],
-"outcome":"Both Roman counter-offensives (460, 468) fail; Zeno recognises Vandal rule in perpetual peace (474)",
-"summary":"After the sack of Rome, twenty years of Vandal naval raiding on Italy, Sicily and the Aegean, and two great Roman attempts at reconquest under Majorian and Basiliscus, both destroyed before landing in force.","events":["vandal_sack_of_rome_455","battle_of_agrigentum_456","battle_of_the_garigliano_458","destruction_of_majorians_fleet_460","battle_of_cape_bon","eternal_peace_with_gaiseric_474"],"people":["gaiseric","ricimer","majorian","basiliscus","leo_i","anthemius","marcellinus_dalmatia"],"campaigns":["gaiseric_rome_455","majorian_460","basiliscus_468"],
-"sources":[{"a":"Procopius","w":"Wars","r":"3.5-7"},{"a":"Hydatius","w":"Chronicle"},{"a":"Priscus","w":"History"}]},
-{"id":"revolt_of_illus","name":"Revolt of Illus","start":484,"end":488,"sides":[["rome_east","ostrogoths"],["isaurians"]],
-"outcome":"Illus and Leontius defeated and executed",
-"summary":"Rebellion of Zeno's Isaurian minister Illus with the usurper Leontius and the dowager Verina, ending with the four-year siege of Papyrius.","events":["revolt_of_illus_484"],"people":["illus","zeno","verina","theodoric_the_great"],"campaigns":[],
-"sources":[{"a":"John of Antioch","w":"History","r":"fr. 214"},{"a":"Joshua the Stylite","w":"Chronicle","r":"14-17"}]},
-{"id":"theodorics_war_489","name":"Ostrogothic conquest of Italy","start":489,"end":493,"sides":[["ostrogoths","visigothic_kingdom"],["odoacer_kingdom"]],
-"outcome":"Odoacer killed; Theodoric rules Italy",
-"summary":"Theodoric the Amal, commissioned by Zeno, led the Goths from the Balkans into Italy and in four years of war destroyed Odoacer's regime.","events":["battle_of_the_isonzo_489","battle_of_verona_489","battle_of_the_adda_490","siege_of_ravenna_490"],"people":["theodoric_the_great","odoacer","zeno","alaric_ii"],"campaigns":["theodoric_italy_488"],
-"sources":[{"a":"Anonymus Valesianus","w":"Pars posterior","r":"49-56"},{"a":"Ennodius","w":"Panegyric on Theodoric"}],"scholarship":["Moorhead, Theoderic in Italy (1992)"]},
-{"id":"isaurian_war_492","name":"Isaurian War","start":492,"end":497,"sides":[["rome_east"],["isaurians"]],
-"outcome":"Isaurian resistance crushed; many deported to Thrace",
-"summary":"Anastasius's war against the Isaurian faction expelled from Constantinople after Zeno's death, decided at Cotyaeum and ended by the capture of their mountain strongholds.","events":["battle_of_cotyaeum_492"],"people":["anastasius_i"],"campaigns":[],
-"sources":[{"a":"Evagrius","w":"Ecclesiastical History","r":"3.35"},{"a":"Theophanes","w":"Chronicle","r":"AM 5985-5988"}]},
-{"id":"anastasian_war","name":"Anastasian War","start":502,"end":506,"sides":[["rome_east"],["sasanian"]],
-"outcome":"Seven-year truce; Romans recover Amida by payment and build Dara",
-"summary":"Kavad I's invasion to extort money, notable for the siege of Amida, poor Roman command coordination, and the building of Dara.","events":["siege_of_amida_502","founding_of_dara_505"],"people":["kavad_i","anastasius_i"],"campaigns":[],
-"sources":[{"a":"Joshua the Stylite","w":"Chronicle"},{"a":"Procopius","w":"Wars","r":"1.7-10"}],"scholarship":["Greatrex, Rome and Persia at War 502-532 (1998)"]},
-{"id":"frankish_visigothic_war_507","name":"Frankish-Visigothic War","start":507,"end":508,"sides":[["franks","burgundians"],["visigothic_kingdom","ostrogothic_kingdom"]],
-"outcome":"Visigoths lose almost all of Gaul; Ostrogoths secure Septimania and Provence",
-"summary":"Clovis's attack on the Visigothic kingdom of Toulouse, decided at Vouillé, with Theodoric's Ostrogoths intervening in 508 to save Septimania.","events":["battle_of_vouille","consulship_of_clovis_508"],"people":["clovis_i","alaric_ii","gundobad","theodoric_the_great"],"campaigns":["clovis_507"],
-"sources":[{"a":"Gregory of Tours","w":"Histories","r":"2.37"},{"a":"Cassiodorus","w":"Variae","r":"3.1-4"}]},
-{"id":"revolt_of_vitalian","name":"Revolt of Vitalian","start":513,"end":515,"sides":[["rome_east"],["rome_east"]],
-"outcome":"Vitalian's fleet destroyed (515); he is later rehabilitated by Justin I",
-"summary":"Three marches on Constantinople by the Thracian federate commander Vitalian, demanding Chalcedonian orthodoxy and pay for the federates.","events":["naval_battle_of_constantinople_515","murder_of_vitalian_520"],"people":["vitalian","anastasius_i","justin_i"],"campaigns":[],
-"sources":[{"a":"John Malalas","w":"Chronicle","r":"16.16"},{"a":"Marcellinus Comes","w":"Chronicle"}]},
-{"id":"iberian_war","name":"Iberian War","start":526,"end":532,"sides":[["rome_east","ghassanids","heruli"],["sasanian","lakhmids"]],
-"outcome":"'Eternal Peace' (532): status quo, Rome pays 11,000 lbs of gold",
-"summary":"War sparked by the revolt of the Iberian king Gourgen against Persia, fought in Lazica, Armenia and Mesopotamia. Belisarius won at Dara and lost at Callinicum.","events":["battle_of_mindouos_528","battle_of_dara","battle_of_satala_530","battle_of_callinicum","accession_of_khosrow_i_531","eternal_peace_532"],"people":["belisarius","kavad_i","khosrow_i","justinian_i","procopius"],"campaigns":[],
-"sources":[{"a":"Procopius","w":"Wars","r":"1.12-22"},{"a":"John Malalas","w":"Chronicle","r":"18"}],"scholarship":["Greatrex, Rome and Persia at War 502-532 (1998)"]},
-{"id":"vandalic_war_533","name":"Vandalic War","start":533,"end":534,"sides":[["rome_east"],["vandal_kingdom"]],
-"outcome":"Vandal kingdom destroyed; Africa, Sardinia, Corsica and the Balearics reconquered",
-"summary":"Belisarius's lightning campaign that destroyed the Vandal kingdom in two battles and restored Roman rule in Africa after 94 years.","detail":"Justinian took a large risk against the advice of his ministers, and the speed of victory surprised everyone. Success owed much to Gelimer's divided forces (his brother Tzazon was in Sardinia), Belisarius's discipline of his troops toward the population, and the superiority of Roman and Hunnic horse archers.",
-"events":["vandal_war_begins_533","battle_of_ad_decimum","battle_of_tricamarum","surrender_of_gelimer_534","triumph_of_belisarius_534"],"people":["belisarius","gelimer","justinian_i","procopius"],"campaigns":["belisarius_africa_533"],
-"sources":[{"a":"Procopius","w":"Wars","r":"3.9-4.9"}],"scholarship":["Merrills & Miles, The Vandals (2010)","Hughes, Belisarius (2009)"]},
-{"id":"moorish_wars_534","name":"Moorish Wars in Roman Africa","start":534,"end":548,"sides":[["rome_east"],["moors"]],
-"outcome":"Moorish coalition broken at the Campi Catonis; fifteen years of peace",
-"summary":"Fourteen years of war against the Mauri of Byzacena, Numidia and Tripolitania, interwoven with military mutinies (Stotzas 536, Guntharic 545-546). Solomon was killed in 544; John Troglita won the final victory in 548.","events":["mutiny_of_stotzas_536","battle_of_cillium_544","battle_of_campi_catonis_548"],"people":["solomon_eunuch","john_troglita","germanus_patricius","belisarius"],"campaigns":[],
-"sources":[{"a":"Procopius","w":"Wars","r":"4.10-28"},{"a":"Corippus","w":"Iohannis"}]},
-{"id":"gothic_war_535","name":"Gothic War","start":535,"end":554,"sides":[["rome_east","heruli","lombards"],["ostrogothic_kingdom","frankish_kingdom","burgundians","alamanni"]],
-"outcome":"Ostrogothic kingdom destroyed; Italy reconquered but devastated; Pragmatic Sanction (554)",
-"summary":"Justinian's twenty-year war to recover Italy: Belisarius's rapid conquest (535-540), Totila's revival (541-550), and Narses's final victories (551-554), with Frankish interventions throughout.","detail":"Rome changed hands five times. Procopius, an eyewitness of the first phase, narrates it in books 5-8 of the Wars; Agathias continues to 554. The war, combined with plague and famine, ruined much of Italy's urban and senatorial society. Fourteen years after its end the Lombards invaded. The cost of the war, and whether it was worth it, has been debated since Procopius.",
-"phases":[{"from":535,"to":540,"t":"Belisarius's conquest: Sicily, Naples, siege of Rome, Ravenna"},{"from":541,"to":550,"t":"Totila's recovery; Rome lost twice"},{"from":551,"to":554,"t":"Narses: Busta Gallorum, Mons Lactarius, the Volturnus"}],
-"events":["murder_of_amalasuntha_535","conquest_of_sicily_535","siege_of_naples_536","siege_of_rome_537","siege_of_milan_538","siege_of_ravenna_539","election_of_totila_541","battle_of_faventia_542","totila_takes_rome_546","totila_retakes_rome_550","battle_of_sena_gallica_551","battle_of_taginae","battle_of_mons_lactarius","battle_of_the_volturnus_554","pragmatic_sanction_554"],
-"people":["belisarius","narses","witiges","totila","teia","justinian_i","amalasuntha","procopius","agathias"],"campaigns":["belisarius_italy_535","narses_italy_552"],
-"sources":[{"a":"Procopius","w":"Wars","r":"5-8"},{"a":"Agathias","w":"Histories","r":"1-2"},{"a":"Jordanes","w":"Getica; Romana"}],"scholarship":["Wolfram, History of the Goths (1988)","Heather, Rome Resurgent (2018)"]},
-{"id":"lazic_war","name":"Roman-Sasanian War of 540-562 (including the Lazic War)","start":540,"end":562,"sides":[["rome_east","colchis"],["sasanian"]],
-"outcome":"Fifty Years' Peace: Lazica Roman, Rome pays 30,000 nomismata a year",
-"summary":"Khosrow I's invasion of Syria and sack of Antioch (540) opened twenty years of war: Mesopotamian campaigns until the truce of 545, and a long war in Lazica on the Black Sea coast (541-562).","phases":[{"from":540,"to":545,"t":"Mesopotamia and Syria: Antioch, Anglon, Edessa"},{"from":541,"to":557,"t":"Lazic War: Petra, Archaeopolis, Phasis"},{"from":557,"to":562,"t":"Truce and Fifty Years' Peace"}],
-"events":["sack_of_antioch_540","khosrow_takes_petra_541","battle_of_anglon","siege_of_edessa_544","siege_of_petra_551","siege_of_phasis_555","fifty_years_peace_562"],"people":["khosrow_i","justinian_i","belisarius","procopius","agathias"],"campaigns":["khosrow_antioch_540"],
-"sources":[{"a":"Procopius","w":"Wars","r":"2.5-30, 8.1-17"},{"a":"Agathias","w":"Histories","r":"2-4"},{"a":"Menander Protector","w":"History","r":"fr. 6.1"}]},
-{"id":"spanish_war_552","name":"Roman intervention in Spain and the province of Spania","start":552,"end":624,"sides":[["rome_east"],["visigothic_kingdom"]],
-"outcome":"Roman province of Spania held on the south-east coast for seventy years, finally lost to Suinthila",
-"summary":"Justinian's expedition under Liberius in support of Athanagild, leaving a Roman coastal province that the Visigothic kings gradually reconquered.","events":["spania_founded_552","visigoths_conquer_spania_624"],"people":["justinian_i","comentiolus"],"campaigns":[],
-"sources":[{"a":"Isidore of Seville","w":"History of the Goths","r":"46-62"},{"a":"Jordanes","w":"Getica","r":"303"}]},
-{"id":"roman_lombard_wars","name":"Roman-Lombard Wars","start":568,"end":605,"sides":[["rome_east","frankish_kingdom"],["lombards"]],
-"outcome":"Italy divided between the Lombard kingdom and duchies and the Roman exarchate",
-"summary":"The Lombard invasion of 568 and the following decades of war, Roman diplomacy with the Franks, the creation of the exarchate, and papal negotiations with Agilulf, ending in truces after 598-605.","events":["lombard_invasion_568","siege_of_pavia_569","assassination_of_alboin_572","exarchate_of_ravenna_584","agilulf_besieges_rome_593"],"people":["alboin","justin_ii","maurice","gregory_the_great","narses"],"campaigns":["lombard_migration_568"],
-"sources":[{"a":"Paul the Deacon","w":"History of the Lombards","r":"2-4"},{"a":"Gregory the Great","w":"Register of Letters"}],"scholarship":["Christie, The Lombards (1995)"]},
-{"id":"roman_sasanian_war_572","name":"Roman-Sasanian War of 572-591","start":572,"end":591,"sides":[["rome_east","armenian_nakharars","western_turks"],["sasanian"]],
-"outcome":"Roman intervention restores Khosrow II; Rome gains most of Armenia without payment",
-"summary":"Justin II's war in support of the Armenian revolt and in alliance with the Turks; the loss of Dara drove him mad. Two decades of campaigns in Mesopotamia and Armenia ended when Maurice restored Khosrow II against Bahram Chobin.","events":["embassy_of_zemarchus_569","outbreak_of_persian_war_572","siege_of_dara_573","tiberius_caesar_574","battle_of_melitene_576","battle_of_solachon","mutiny_of_588","flight_of_khosrow_ii_590","battle_of_blarathon","peace_of_591"],"people":["justin_ii","tiberius_ii","maurice","khosrow_i","khosrow_ii","bahram_chobin","philippicus","priscus_general"],"campaigns":[],
-"sources":[{"a":"Theophylact Simocatta","w":"History","r":"1-5"},{"a":"Evagrius","w":"Ecclesiastical History","r":"5-6"},{"a":"Menander Protector","w":"History"}],"scholarship":["Whitby, The Emperor Maurice and his Historian (1988)"]},
-{"id":"balkan_wars_of_maurice","name":"Avar and Slav Wars in the Balkans","start":579,"end":602,"sides":[["rome_east"],["avars","slavs"]],
-"outcome":"Roman victories beyond the Danube by 599-602, undone by the mutiny of 602 and the Persian war",
-"summary":"From the Avar siege of Sirmium to the mutiny of 602: Avar raids, Slav settlement in the Balkans and Greece, and Maurice's offensives across the Danube after 591.","events":["fall_of_sirmium_582","slav_settlement_in_greece_580s","siege_of_thessalonica_586","maurice_balkan_campaigns_593","captives_massacre_599","battle_of_viminacium_599","revolt_of_phocas_602"],"people":["maurice","bayan_i","priscus_general","comentiolus","phocas","theophylact_simocatta"],"campaigns":["priscus_avar_599"],
-"sources":[{"a":"Theophylact Simocatta","w":"History","r":"1, 6-8"},{"a":"Menander Protector","w":"History"},{"a":"Miracles of St Demetrius","w":"Miracula S. Demetrii"}],"scholarship":["Whitby, The Emperor Maurice and his Historian (1988)","Pohl, The Avars (2018)","Curta, The Making of the Slavs (2001)"]},
-{"id":"heraclian_revolt","name":"Heraclian Revolt","start":608,"end":610,"sides":[["rome_east"],["rome_east"]],
-"outcome":"Phocas overthrown; Heraclius emperor",
-"summary":"Civil war launched from Carthage by the exarch Heraclius the Elder, fought in Egypt and decided by the younger Heraclius's naval descent on Constantinople.","events":["heraclian_revolt_608","accession_of_heraclius_610"],"people":["heraclius","phocas","priscus_general"],"campaigns":[],
-"sources":[{"a":"John of Nikiu","w":"Chronicle","r":"105-110"},{"a":"Chronicon Paschale","w":"Chronicon Paschale","r":"s.a. 609-610"}]},
-{"id":"roman_sasanian_war_602","name":"Roman-Sasanian War of 602-628","start":603,"end":628,"sides":[["rome_east","western_turks"],["sasanian","avars","slavs"]],
-"outcome":"Roman victory after near-collapse: Khosrow II overthrown; all lost territory and the True Cross restored; both empires exhausted",
-"summary":"The 'last great war of antiquity'. Persia conquered Mesopotamia, Syria, Palestine and Egypt and reached the Bosporus; Heraclius counterattacked through Armenia and Azerbaijan, survived the Avar-Persian siege of Constantinople, and destroyed Khosrow's army at Nineveh.","detail":"The war devastated the cities of the Near East, ended Constantinople's free bread, forced the melting of church plate, and drove imperial ideology toward holy war and Marian protection. Its end left both empires militarily exhausted and their Arab buffer states (Lakhmids destroyed 602, Ghassanids weakened) dismantled, opening the way for the Arab conquests.",
-"phases":[{"from":603,"to":610,"t":"Persian conquest of Mesopotamia under Phocas"},{"from":611,"to":621,"t":"Fall of Syria, Palestine and Egypt; Persians at Chalcedon"},{"from":622,"to":626,"t":"Heraclius's campaigns in Armenia and Atropatene; siege of Constantinople"},{"from":627,"to":628,"t":"Turkic alliance, Nineveh, fall of Khosrow"}],
-"events":["outbreak_of_persian_war_603","revolt_of_phocas_602","execution_of_maurice_602","siege_of_dara_604","battle_of_antioch_613","siege_of_jerusalem_614","persians_at_chalcedon_615","hexagram_615","end_of_grain_dole_618","persian_conquest_of_egypt_619","heraclius_campaign_622","avar_surprise_623","destruction_of_adur_gushnasp_624","battle_of_the_sarus_625","siege_of_constantinople_626","siege_of_tbilisi_627","battle_of_nineveh","fall_of_khosrow_ii_628","restoration_of_the_true_cross_630"],
-"people":["khosrow_ii","heraclius","shahrbaraz","shahin","phocas","theodore_brother_of_heraclius","sergius_of_constantinople","george_of_pisidia"],"campaigns":["shahrbaraz_613","heraclius_622_628"],
-"sources":[{"a":"Theophanes","w":"Chronicle","r":"AM 6095-6120"},{"a":"Chronicon Paschale","w":"Chronicon Paschale"},{"a":"Sebeos","w":"History"},{"a":"George of Pisidia","w":"Poems"}],"scholarship":["Howard-Johnston, The Last Great War of Antiquity (2021)","Kaegi, Heraclius (2003)"]},
-{"id":"arab_roman_war_634","name":"Arab conquest of the Roman Near East","start":629,"end":641,"sides":[["rome_east","ghassanids","armenian_nakharars"],["medinan_state","rashidun"]],
-"outcome":"Syria, Palestine, Mesopotamia and Egypt lost; the empire reduced to Anatolia, the Balkan coasts, Africa and Italian enclaves (war continued after 641)",
-"summary":"From the skirmish at Mu'ta (629) to the surrender of Babylon and the Treaty of Alexandria (641), the armies of Medina destroyed Roman power in the Near East: Dathin and Ajnadayn (634), Damascus (635), the Yarmuk (636), Jerusalem (637), Mesopotamia (639-640) and Egypt (639-641).","detail":"Explanations range from Roman and Persian exhaustion after 628, Roman inability to pay soldiers and Arab allies, the tactical mobility of Arab armies and good intelligence, the relative leniency of surrender terms, and religious motivation and cohesion. The older view that miaphysite Christians welcomed the invaders as liberators is now treated sceptically. Sources are a problem: Arabic narratives are late, partly schematic and contradictory; contemporary non-Muslim sources (Thomas the Presbyter, the Doctrina Jacobi, Sophronius, Sebeos, John of Nikiu) are fragmentary.",
-"phases":[{"from":629,"to":633,"t":"First raids: Mu'ta, Tabuk"},{"from":634,"to":636,"t":"Conquest of Palestine and Syria: Dathin, Ajnadayn, Fahl, Damascus, Yarmuk"},{"from":637,"to":640,"t":"Jerusalem, northern Syria, Mesopotamia, Caesarea"},{"from":639,"to":641,"t":"Invasion of Egypt"}],
-"events":["battle_of_mutah","battle_of_dathin","khalids_desert_march_634","battle_of_ajnadayn","battle_of_fahl","siege_of_damascus_635","battle_of_the_yarmuk","heraclius_leaves_syria_636","siege_of_jerusalem_637","plague_of_amwas_638","fall_of_mesopotamia_639","fall_of_caesarea_640","arab_invasion_of_egypt_639","battle_of_heliopolis_640","surrender_of_babylon_fortress_641","treaty_of_alexandria_641"],
-"people":["heraclius","vahan","theodore_brother_of_heraclius","khalid_ibn_al_walid","amr_ibn_al_as","abu_ubayda","umar","abu_bakr","sophronius","cyrus_of_alexandria"],"campaigns":["khalid_634","amr_egypt_639"],
-"sources":[{"a":"al-Baladhuri","w":"Futuh al-Buldan"},{"a":"Tabari","w":"History"},{"a":"Theophanes","w":"Chronicle","r":"AM 6123-6133"},{"a":"John of Nikiu","w":"Chronicle","r":"111-121"},{"a":"Sebeos","w":"History"}],"scholarship":["Kaegi, Byzantium and the Early Islamic Conquests (1992)","Donner, The Early Islamic Conquests (1981)","Kennedy, The Great Arab Conquests (2007)","Hoyland, In God's Path (2015)"]}
-]}
+{
+ "wars": [
+  {
+   "id": "gothic_war_395",
+   "name": "Gothic Wars of Alaric and his successors",
+   "start": 395,
+   "end": 418,
+   "sides": [
+    [
+     "rome_west",
+     "rome_east"
+    ],
+    [
+     "visigoths"
+    ]
+   ],
+   "outcome": "Goths settled as federates in Aquitaine (418) after sacking Rome (410); the Visigothic kingdom of Toulouse is born",
+   "summary": "Twenty-three years of intermittent war, negotiation and alliance between the Goths led by Alaric, Athaulf and Wallia and the two Roman courts, from the revolt of 395 to the settlement in Aquitaine.",
+   "detail": "The Goths' goals were consistently Roman: recognised command, regular supplies, and land. The rivalry between Stilicho and Constantinople let Alaric extract concessions from each in turn; Stilicho's fall in 408 removed the one Roman able to contain him. The sack of 410 was the result of Ravenna's refusal to negotiate, not of Gothic strength. Constantius's naval blockade, not battle, finally forced the Goths into the 416 treaty.",
+   "phases": [
+    {
+     "from": 395,
+     "to": 397,
+     "t": "Revolt in the Balkans and ravaging of Greece"
+    },
+    {
+     "from": 401,
+     "to": 402,
+     "t": "First invasion of Italy: Pollentia and Verona"
+    },
+    {
+     "from": 408,
+     "to": 410,
+     "t": "Sieges and sack of Rome"
+    },
+    {
+     "from": 411,
+     "to": 415,
+     "t": "Athaulf in Gaul and Spain"
+    },
+    {
+     "from": 416,
+     "to": 418,
+     "t": "Wallia as Roman federate in Spain; settlement in Aquitaine"
+    }
+   ],
+   "events": [
+    "alaric_revolt_395",
+    "battle_of_pholoe",
+    "alaric_invades_italy_401",
+    "battle_of_pollentia",
+    "battle_of_verona_402",
+    "siege_of_rome_408",
+    "siege_of_rome_409",
+    "sack_of_rome_410",
+    "death_of_alaric_410",
+    "athaulf_marries_galla_placidia_414",
+    "treaty_of_wallia_416",
+    "visigothic_campaigns_in_spain_416",
+    "visigothic_settlement_aquitaine_418"
+   ],
+   "people": [
+    "alaric_i",
+    "stilicho",
+    "honorius",
+    "athaulf",
+    "wallia",
+    "constantius_iii",
+    "priscus_attalus",
+    "galla_placidia"
+   ],
+   "campaigns": [
+    "alaric_greece_395",
+    "alaric_italy_401",
+    "alaric_italy_408",
+    "visigoths_athaulf_412"
+   ],
+   "sources": [
+    {
+     "a": "Zosimus",
+     "w": "New History",
+     "r": "5-6"
+    },
+    {
+     "a": "Orosius",
+     "w": "Histories against the Pagans",
+     "r": "7.37-43"
+    },
+    {
+     "a": "Olympiodorus",
+     "w": "History"
+    },
+    {
+     "a": "Claudian",
+     "w": "De Bello Gothico"
+    }
+   ],
+   "scholarship": [
+    "Kulikowski, Rome's Gothic Wars (2007)",
+    "Heather, Goths and Romans (1991)"
+   ]
+  },
+  {
+   "id": "gildonic_war",
+   "name": "Gildonic War",
+   "start": 397,
+   "end": 398,
+   "sides": [
+    [
+     "rome_west"
+    ],
+    [
+     "moors"
+    ]
+   ],
+   "outcome": "Gildo defeated and killed; Africa and its grain restored to the western court",
+   "summary": "Gildo, comes Africae, transferred Africa to the eastern court and cut Rome's grain. Stilicho sent Gildo's brother Mascezel, who routed him at the Ardalio.",
+   "events": [
+    "battle_of_the_ardalio"
+   ],
+   "people": [
+    "stilicho",
+    "honorius",
+    "claudian"
+   ],
+   "campaigns": [],
+   "sources": [
+    {
+     "a": "Claudian",
+     "w": "De Bello Gildonico"
+    },
+    {
+     "a": "Orosius",
+     "w": "Histories against the Pagans",
+     "r": "7.36"
+    }
+   ]
+  },
+  {
+   "id": "radagaisus_war",
+   "name": "Invasion of Radagaisus",
+   "start": 405,
+   "end": 406,
+   "sides": [
+    [
+     "rome_west",
+     "huns"
+    ],
+    [
+     "radagaisus_coalition"
+    ]
+   ],
+   "outcome": "Radagaisus's host destroyed at Faesulae; 12,000 drafted into the Roman army",
+   "summary": "A Gothic-led coalition from the middle Danube invaded Italy and was annihilated by Stilicho with Hunnic and Gothic auxiliaries.",
+   "events": [
+    "radagaisus_invades_italy_405",
+    "battle_of_faesulae"
+   ],
+   "people": [
+    "radagaisus",
+    "stilicho"
+   ],
+   "campaigns": [
+    "radagaisus_405"
+   ],
+   "sources": [
+    {
+     "a": "Orosius",
+     "w": "Histories against the Pagans",
+     "r": "7.37"
+    },
+    {
+     "a": "Zosimus",
+     "w": "New History",
+     "r": "5.26"
+    }
+   ]
+  },
+  {
+   "id": "constantine_iii_civil_war",
+   "name": "Usurpation of Constantine III",
+   "start": 407,
+   "end": 411,
+   "sides": [
+    [
+     "rome_west"
+    ],
+    [
+     "rome_west"
+    ]
+   ],
+   "outcome": "Constantine III defeated and executed; Gaul restored to Ravenna, Britain lost",
+   "summary": "Civil war between Honorius and the British-born usurper Constantine III, complicated by the rebellion of Constantine's general Gerontius and his emperor Maximus in Spain, and by the Rhine invaders.",
+   "events": [
+    "usurpation_of_constantine_iii_407",
+    "vandals_alans_suebi_enter_spain_409",
+    "britain_abandoned_410",
+    "siege_of_arles_411"
+   ],
+   "people": [
+    "constantine_iii_usurper",
+    "honorius",
+    "constantius_iii"
+   ],
+   "campaigns": [],
+   "sources": [
+    {
+     "a": "Zosimus",
+     "w": "New History",
+     "r": "6.1-5"
+    },
+    {
+     "a": "Sozomen",
+     "w": "Ecclesiastical History",
+     "r": "9.11-15"
+    }
+   ]
+  },
+  {
+   "id": "roman_sasanian_war_421",
+   "name": "Roman-Sasanian War of 421-422",
+   "start": 421,
+   "end": 422,
+   "sides": [
+    [
+     "rome_east"
+    ],
+    [
+     "sasanian"
+    ]
+   ],
+   "outcome": "Status quo; mutual religious toleration and no new frontier forts",
+   "summary": "Brief war triggered by Bahram V's persecution of Christians and Roman refusal to return refugees.",
+   "events": [
+    "roman_sasanian_war_421_peace_422"
+   ],
+   "people": [
+    "theodosius_ii"
+   ],
+   "campaigns": [],
+   "sources": [
+    {
+     "a": "Socrates",
+     "w": "Ecclesiastical History",
+     "r": "7.18-20"
+    }
+   ],
+   "scholarship": [
+    "Greatrex & Lieu, The Roman Eastern Frontier and the Persian Wars, Part II (2002)"
+   ]
+  },
+  {
+   "id": "joannes_civil_war",
+   "name": "War against Joannes",
+   "start": 423,
+   "end": 425,
+   "sides": [
+    [
+     "rome_east"
+    ],
+    [
+     "rome_west",
+     "huns"
+    ]
+   ],
+   "outcome": "Joannes executed; Valentinian III installed with Galla Placidia as regent",
+   "summary": "Theodosius II's intervention to install his cousin Valentinian III against the Ravenna usurper Joannes, who was backed by Aetius and his Huns.",
+   "events": [
+    "death_of_honorius_423",
+    "fall_of_joannes_425",
+    "accession_of_valentinian_iii_425"
+   ],
+   "people": [
+    "joannes_usurper",
+    "aspar",
+    "aetius",
+    "galla_placidia",
+    "valentinian_iii",
+    "theodosius_ii"
+   ],
+   "campaigns": [],
+   "sources": [
+    {
+     "a": "Socrates",
+     "w": "Ecclesiastical History",
+     "r": "7.23-24"
+    },
+    {
+     "a": "Olympiodorus",
+     "w": "History",
+     "r": "fr. 41-43"
+    }
+   ]
+  },
+  {
+   "id": "vandal_war_429",
+   "name": "Vandal conquest of Africa",
+   "start": 429,
+   "end": 442,
+   "sides": [
+    [
+     "rome_west",
+     "rome_east"
+    ],
+    [
+     "vandals",
+     "alans"
+    ]
+   ],
+   "outcome": "Vandals take Carthage (439); treaty of 442 recognises their rule over the richest provinces",
+   "summary": "The Vandals and Alans under Gaiseric crossed to Africa, besieged Hippo, defeated Roman and eastern armies, were recognised as federates in 435, and seized Carthage in 439.",
+   "detail": "The loss of the Proconsularis and Byzacena was the most damaging blow to western finances in the fifth century. The aborted joint expedition of 441 showed the empire's capacity to respond was wrecked by simultaneous Hunnic and Persian threats.",
+   "events": [
+    "vandal_crossing_to_africa_429",
+    "siege_of_hippo_regius_430",
+    "treaty_with_vandals_435",
+    "vandal_capture_of_carthage_439",
+    "aborted_sicily_expedition_441"
+   ],
+   "people": [
+    "gaiseric",
+    "bonifatius",
+    "aspar",
+    "valentinian_iii",
+    "galla_placidia",
+    "augustine_of_hippo"
+   ],
+   "campaigns": [
+    "vandal_migration_406"
+   ],
+   "sources": [
+    {
+     "a": "Victor of Vita",
+     "w": "History of the Vandal Persecution",
+     "r": "1"
+    },
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "3.3-4"
+    },
+    {
+     "a": "Prosper",
+     "w": "Chronicle"
+    }
+   ],
+   "scholarship": [
+    "Merrills & Miles, The Vandals (2010)"
+   ]
+  },
+  {
+   "id": "gallic_wars_of_aetius",
+   "name": "Aetius's wars in Gaul",
+   "start": 425,
+   "end": 439,
+   "sides": [
+    [
+     "rome_west",
+     "huns"
+    ],
+    [
+     "visigothic_kingdom",
+     "burgundians",
+     "franks"
+    ]
+   ],
+   "outcome": "Burgundians crushed and resettled; Visigoths contained after the defeat of Litorius",
+   "summary": "Aetius's campaigns, often with Hunnic auxiliaries, against Visigoths at Arles and Narbonne, Franks on the Rhine, Burgundians, Iuthungi and the Bagaudae of Armorica.",
+   "events": [
+    "destruction_of_the_burgundians_436",
+    "battle_of_toulouse_439"
+   ],
+   "people": [
+    "aetius",
+    "theodoric_i_visigoth",
+    "avitus"
+   ],
+   "campaigns": [],
+   "sources": [
+    {
+     "a": "Hydatius",
+     "w": "Chronicle"
+    },
+    {
+     "a": "Prosper",
+     "w": "Chronicle"
+    },
+    {
+     "a": "Chronica Gallica of 452",
+     "w": "Chronica Gallica"
+    }
+   ]
+  },
+  {
+   "id": "hunnic_wars",
+   "name": "Wars with Attila's Huns",
+   "start": 434,
+   "end": 454,
+   "sides": [
+    [
+     "rome_east",
+     "rome_west",
+     "visigothic_kingdom"
+    ],
+    [
+     "huns",
+     "ostrogoths",
+     "gepids"
+    ]
+   ],
+   "outcome": "Huge tribute extracted from the East; Attila halted in Gaul (451), withdrew from Italy (452); Hunnic empire collapses after Nedao (454)",
+   "summary": "Two decades of Hunnic pressure: treaties and rising tribute (435, 443, 447), devastating Balkan invasions (441-442, 447), the invasion of Gaul (451) and Italy (452), and the collapse after Attila's death.",
+   "detail": "Hunnic power rested on Roman gold redistributed to a coalition of subject peoples. The East paid and rebuilt its walls; the West depended on Aetius's coalition of federates. Heather argues the Huns' greatest impact was indirect, pushing other peoples into the empire before 420 and, after 454, releasing a crowd of successor groups into Roman politics.",
+   "phases": [
+    {
+     "from": 434,
+     "to": 440,
+     "t": "Treaties of Margus and rising tribute"
+    },
+    {
+     "from": 441,
+     "to": 447,
+     "t": "Balkan invasions"
+    },
+    {
+     "from": 449,
+     "to": 450,
+     "t": "Diplomacy and the Honoria affair"
+    },
+    {
+     "from": 451,
+     "to": 452,
+     "t": "Invasions of Gaul and Italy"
+    },
+    {
+     "from": 453,
+     "to": 454,
+     "t": "Death of Attila and Nedao"
+    }
+   ],
+   "events": [
+    "treaty_of_margus_435",
+    "siege_of_naissus_442",
+    "peace_of_anatolius_443",
+    "earthquake_and_rebuilding_walls_447",
+    "battle_of_the_utus",
+    "embassy_of_maximinus_449",
+    "honoria_affair_450",
+    "siege_of_metz_451",
+    "siege_of_orleans_451",
+    "battle_of_the_catalaunian_plains",
+    "siege_of_aquileia_452",
+    "meeting_of_leo_and_attila_452",
+    "death_of_attila_453",
+    "battle_of_nedao"
+   ],
+   "people": [
+    "attila",
+    "bleda",
+    "rua",
+    "aetius",
+    "theodoric_i_visigoth",
+    "theodosius_ii",
+    "marcian",
+    "pope_leo_i",
+    "priscus_of_panium"
+   ],
+   "campaigns": [
+    "attila_gaul_451",
+    "attila_italy_452"
+   ],
+   "sources": [
+    {
+     "a": "Priscus",
+     "w": "History"
+    },
+    {
+     "a": "Jordanes",
+     "w": "Getica",
+     "r": "178-263"
+    }
+   ],
+   "scholarship": [
+    "Maenchen-Helfen, The World of the Huns (1973)",
+    "Kelly, Attila the Hun (2008)",
+    "Heather, The Fall of the Roman Empire (2005)"
+   ]
+  },
+  {
+   "id": "roman_vandal_war_455",
+   "name": "Roman-Vandal War of 455-474",
+   "start": 455,
+   "end": 474,
+   "sides": [
+    [
+     "rome_west",
+     "rome_east"
+    ],
+    [
+     "vandal_kingdom"
+    ]
+   ],
+   "outcome": "Both Roman counter-offensives (460, 468) fail; Zeno recognises Vandal rule in perpetual peace (474)",
+   "summary": "After the sack of Rome, twenty years of Vandal naval raiding on Italy, Sicily and the Aegean, and two great Roman attempts at reconquest under Majorian and Basiliscus, both destroyed before landing in force.",
+   "events": [
+    "vandal_sack_of_rome_455",
+    "battle_of_agrigentum_456",
+    "battle_of_the_garigliano_458",
+    "destruction_of_majorians_fleet_460",
+    "battle_of_cape_bon",
+    "eternal_peace_with_gaiseric_474"
+   ],
+   "people": [
+    "gaiseric",
+    "ricimer",
+    "majorian",
+    "basiliscus",
+    "leo_i",
+    "anthemius",
+    "marcellinus_dalmatia"
+   ],
+   "campaigns": [
+    "gaiseric_rome_455",
+    "majorian_460",
+    "basiliscus_468"
+   ],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "3.5-7"
+    },
+    {
+     "a": "Hydatius",
+     "w": "Chronicle"
+    },
+    {
+     "a": "Priscus",
+     "w": "History"
+    }
+   ]
+  },
+  {
+   "id": "revolt_of_illus",
+   "name": "Revolt of Illus",
+   "start": 484,
+   "end": 488,
+   "sides": [
+    [
+     "rome_east",
+     "ostrogoths"
+    ],
+    [
+     "isaurians"
+    ]
+   ],
+   "outcome": "Illus and Leontius defeated and executed",
+   "summary": "Rebellion of Zeno's Isaurian minister Illus with the usurper Leontius and the dowager Verina, ending with the four-year siege of Papyrius.",
+   "events": [
+    "revolt_of_illus_484"
+   ],
+   "people": [
+    "illus",
+    "zeno",
+    "verina",
+    "theodoric_the_great"
+   ],
+   "campaigns": [],
+   "sources": [
+    {
+     "a": "John of Antioch",
+     "w": "History",
+     "r": "fr. 214"
+    },
+    {
+     "a": "Joshua the Stylite",
+     "w": "Chronicle",
+     "r": "14-17"
+    }
+   ]
+  },
+  {
+   "id": "theodorics_war_489",
+   "name": "Ostrogothic conquest of Italy",
+   "start": 489,
+   "end": 493,
+   "sides": [
+    [
+     "ostrogoths",
+     "visigothic_kingdom"
+    ],
+    [
+     "odoacer_kingdom"
+    ]
+   ],
+   "outcome": "Odoacer killed; Theodoric rules Italy",
+   "summary": "Theodoric the Amal, commissioned by Zeno, led the Goths from the Balkans into Italy and in four years of war destroyed Odoacer's regime.",
+   "events": [
+    "battle_of_the_isonzo_489",
+    "battle_of_verona_489",
+    "battle_of_the_adda_490",
+    "siege_of_ravenna_490"
+   ],
+   "people": [
+    "theodoric_the_great",
+    "odoacer",
+    "zeno",
+    "alaric_ii"
+   ],
+   "campaigns": [
+    "theodoric_italy_488"
+   ],
+   "sources": [
+    {
+     "a": "Anonymus Valesianus",
+     "w": "Pars posterior",
+     "r": "49-56"
+    },
+    {
+     "a": "Ennodius",
+     "w": "Panegyric on Theodoric"
+    }
+   ],
+   "scholarship": [
+    "Moorhead, Theoderic in Italy (1992)"
+   ]
+  },
+  {
+   "id": "isaurian_war_492",
+   "name": "Isaurian War",
+   "start": 492,
+   "end": 497,
+   "sides": [
+    [
+     "rome_east"
+    ],
+    [
+     "isaurians"
+    ]
+   ],
+   "outcome": "Isaurian resistance crushed; many deported to Thrace",
+   "summary": "Anastasius's war against the Isaurian faction expelled from Constantinople after Zeno's death, decided at Cotyaeum and ended by the capture of their mountain strongholds.",
+   "events": [
+    "battle_of_cotyaeum_492"
+   ],
+   "people": [
+    "anastasius_i"
+   ],
+   "campaigns": [],
+   "sources": [
+    {
+     "a": "Evagrius",
+     "w": "Ecclesiastical History",
+     "r": "3.35"
+    },
+    {
+     "a": "Theophanes",
+     "w": "Chronicle",
+     "r": "AM 5985-5988"
+    }
+   ]
+  },
+  {
+   "id": "anastasian_war",
+   "name": "Anastasian War",
+   "start": 502,
+   "end": 506,
+   "sides": [
+    [
+     "rome_east"
+    ],
+    [
+     "sasanian"
+    ]
+   ],
+   "outcome": "Seven-year truce; Romans recover Amida by payment and build Dara",
+   "summary": "Kavad I's invasion to extort money, notable for the siege of Amida, poor Roman command coordination, and the building of Dara.",
+   "events": [
+    "siege_of_amida_502",
+    "founding_of_dara_505"
+   ],
+   "people": [
+    "kavad_i",
+    "anastasius_i"
+   ],
+   "campaigns": [],
+   "sources": [
+    {
+     "a": "Joshua the Stylite",
+     "w": "Chronicle"
+    },
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "1.7-10"
+    }
+   ],
+   "scholarship": [
+    "Greatrex, Rome and Persia at War 502-532 (1998)"
+   ]
+  },
+  {
+   "id": "frankish_visigothic_war_507",
+   "name": "Frankish-Visigothic War",
+   "start": 507,
+   "end": 508,
+   "sides": [
+    [
+     "frankish_kingdom",
+     "burgundians"
+    ],
+    [
+     "visigothic_kingdom",
+     "ostrogothic_kingdom"
+    ]
+   ],
+   "outcome": "Visigoths lose almost all of Gaul; Ostrogoths secure Septimania and Provence",
+   "summary": "Clovis's attack on the Visigothic kingdom of Toulouse, decided at Vouillé, with Theodoric's Ostrogoths intervening in 508 to save Septimania.",
+   "events": [
+    "battle_of_vouille",
+    "consulship_of_clovis_508"
+   ],
+   "people": [
+    "clovis_i",
+    "alaric_ii",
+    "gundobad",
+    "theodoric_the_great"
+   ],
+   "campaigns": [
+    "clovis_507"
+   ],
+   "sources": [
+    {
+     "a": "Gregory of Tours",
+     "w": "Histories",
+     "r": "2.37"
+    },
+    {
+     "a": "Cassiodorus",
+     "w": "Variae",
+     "r": "3.1-4"
+    }
+   ]
+  },
+  {
+   "id": "revolt_of_vitalian",
+   "name": "Revolt of Vitalian",
+   "start": 513,
+   "end": 515,
+   "sides": [
+    [
+     "rome_east"
+    ],
+    [
+     "rome_east"
+    ]
+   ],
+   "outcome": "Vitalian's fleet destroyed (515); he is later rehabilitated by Justin I",
+   "summary": "Three marches on Constantinople by the Thracian federate commander Vitalian, demanding Chalcedonian orthodoxy and pay for the federates.",
+   "events": [
+    "naval_battle_of_constantinople_515",
+    "murder_of_vitalian_520"
+   ],
+   "people": [
+    "vitalian",
+    "anastasius_i",
+    "justin_i"
+   ],
+   "campaigns": [],
+   "sources": [
+    {
+     "a": "John Malalas",
+     "w": "Chronicle",
+     "r": "16.16"
+    },
+    {
+     "a": "Marcellinus Comes",
+     "w": "Chronicle"
+    }
+   ]
+  },
+  {
+   "id": "iberian_war",
+   "name": "Iberian War",
+   "start": 526,
+   "end": 532,
+   "sides": [
+    [
+     "rome_east",
+     "ghassanids",
+     "heruli"
+    ],
+    [
+     "sasanian",
+     "lakhmids"
+    ]
+   ],
+   "outcome": "'Eternal Peace' (532): status quo, Rome pays 11,000 lbs of gold",
+   "summary": "War sparked by the revolt of the Iberian king Gourgen against Persia, fought in Lazica, Armenia and Mesopotamia. Belisarius won at Dara and lost at Callinicum.",
+   "events": [
+    "battle_of_mindouos_528",
+    "battle_of_dara",
+    "battle_of_satala_530",
+    "battle_of_callinicum",
+    "accession_of_khosrow_i_531",
+    "eternal_peace_532"
+   ],
+   "people": [
+    "belisarius",
+    "kavad_i",
+    "khosrow_i",
+    "justinian_i",
+    "procopius"
+   ],
+   "campaigns": [],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "1.12-22"
+    },
+    {
+     "a": "John Malalas",
+     "w": "Chronicle",
+     "r": "18"
+    }
+   ],
+   "scholarship": [
+    "Greatrex, Rome and Persia at War 502-532 (1998)"
+   ]
+  },
+  {
+   "id": "vandalic_war_533",
+   "name": "Vandalic War",
+   "start": 533,
+   "end": 534,
+   "sides": [
+    [
+     "rome_east"
+    ],
+    [
+     "vandal_kingdom"
+    ]
+   ],
+   "outcome": "Vandal kingdom destroyed; Africa, Sardinia, Corsica and the Balearics reconquered",
+   "summary": "Belisarius's lightning campaign that destroyed the Vandal kingdom in two battles and restored Roman rule in Africa after 94 years.",
+   "detail": "Justinian took a large risk against the advice of his ministers, and the speed of victory surprised everyone. Success owed much to Gelimer's divided forces (his brother Tzazon was in Sardinia), Belisarius's discipline of his troops toward the population, and the superiority of Roman and Hunnic horse archers.",
+   "events": [
+    "vandal_war_begins_533",
+    "battle_of_ad_decimum",
+    "battle_of_tricamarum",
+    "surrender_of_gelimer_534",
+    "triumph_of_belisarius_534"
+   ],
+   "people": [
+    "belisarius",
+    "gelimer",
+    "justinian_i",
+    "procopius"
+   ],
+   "campaigns": [
+    "belisarius_africa_533"
+   ],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "3.9-4.9"
+    }
+   ],
+   "scholarship": [
+    "Merrills & Miles, The Vandals (2010)",
+    "Hughes, Belisarius (2009)"
+   ]
+  },
+  {
+   "id": "moorish_wars_534",
+   "name": "Moorish Wars in Roman Africa",
+   "start": 534,
+   "end": 548,
+   "sides": [
+    [
+     "rome_east"
+    ],
+    [
+     "moors"
+    ]
+   ],
+   "outcome": "Moorish coalition broken at the Campi Catonis; fifteen years of peace",
+   "summary": "Fourteen years of war against the Mauri of Byzacena, Numidia and Tripolitania, interwoven with military mutinies (Stotzas 536, Guntharic 545-546). Solomon was killed in 544; John Troglita won the final victory in 548.",
+   "events": [
+    "mutiny_of_stotzas_536",
+    "battle_of_cillium_544",
+    "battle_of_campi_catonis_548"
+   ],
+   "people": [
+    "solomon_eunuch",
+    "john_troglita",
+    "germanus_patricius",
+    "belisarius"
+   ],
+   "campaigns": [],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "4.10-28"
+    },
+    {
+     "a": "Corippus",
+     "w": "Iohannis"
+    }
+   ]
+  },
+  {
+   "id": "gothic_war_535",
+   "name": "Gothic War",
+   "start": 535,
+   "end": 554,
+   "sides": [
+    [
+     "rome_east",
+     "heruli",
+     "lombards"
+    ],
+    [
+     "ostrogothic_kingdom",
+     "frankish_kingdom",
+     "alamanni"
+    ]
+   ],
+   "outcome": "Ostrogothic kingdom destroyed; Italy reconquered but devastated; Pragmatic Sanction (554)",
+   "summary": "Justinian's twenty-year war to recover Italy: Belisarius's rapid conquest (535-540), Totila's revival (541-550), and Narses's final victories (551-554), with Frankish interventions throughout.",
+   "detail": "Rome changed hands five times. Procopius, an eyewitness of the first phase, narrates it in books 5-8 of the Wars; Agathias continues to 554. The war, combined with plague and famine, ruined much of Italy's urban and senatorial society. Fourteen years after its end the Lombards invaded. The cost of the war, and whether it was worth it, has been debated since Procopius.",
+   "phases": [
+    {
+     "from": 535,
+     "to": 540,
+     "t": "Belisarius's conquest: Sicily, Naples, siege of Rome, Ravenna"
+    },
+    {
+     "from": 541,
+     "to": 550,
+     "t": "Totila's recovery; Rome lost twice"
+    },
+    {
+     "from": 551,
+     "to": 554,
+     "t": "Narses: Busta Gallorum, Mons Lactarius, the Volturnus"
+    }
+   ],
+   "events": [
+    "murder_of_amalasuntha_535",
+    "conquest_of_sicily_535",
+    "siege_of_naples_536",
+    "siege_of_rome_537",
+    "siege_of_milan_538",
+    "siege_of_ravenna_539",
+    "election_of_totila_541",
+    "battle_of_faventia_542",
+    "totila_takes_rome_546",
+    "totila_retakes_rome_550",
+    "battle_of_sena_gallica_551",
+    "battle_of_taginae",
+    "battle_of_mons_lactarius",
+    "battle_of_the_volturnus_554",
+    "pragmatic_sanction_554"
+   ],
+   "people": [
+    "belisarius",
+    "narses",
+    "witiges",
+    "totila",
+    "teia",
+    "justinian_i",
+    "amalasuntha",
+    "procopius",
+    "agathias"
+   ],
+   "campaigns": [
+    "belisarius_italy_535",
+    "narses_italy_552"
+   ],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "5-8"
+    },
+    {
+     "a": "Agathias",
+     "w": "Histories",
+     "r": "1-2"
+    },
+    {
+     "a": "Jordanes",
+     "w": "Getica; Romana"
+    }
+   ],
+   "scholarship": [
+    "Wolfram, History of the Goths (1988)",
+    "Heather, Rome Resurgent (2018)"
+   ]
+  },
+  {
+   "id": "lazic_war",
+   "name": "Roman-Sasanian War of 540-562 (including the Lazic War)",
+   "start": 540,
+   "end": 562,
+   "sides": [
+    [
+     "rome_east",
+     "colchis"
+    ],
+    [
+     "sasanian"
+    ]
+   ],
+   "outcome": "Fifty Years' Peace: Lazica Roman, Rome pays 30,000 nomismata a year",
+   "summary": "Khosrow I's invasion of Syria and sack of Antioch (540) opened twenty years of war: Mesopotamian campaigns until the truce of 545, and a long war in Lazica on the Black Sea coast (541-562).",
+   "phases": [
+    {
+     "from": 540,
+     "to": 545,
+     "t": "Mesopotamia and Syria: Antioch, Anglon, Edessa"
+    },
+    {
+     "from": 541,
+     "to": 557,
+     "t": "Lazic War: Petra, Archaeopolis, Phasis"
+    },
+    {
+     "from": 557,
+     "to": 562,
+     "t": "Truce and Fifty Years' Peace"
+    }
+   ],
+   "events": [
+    "sack_of_antioch_540",
+    "khosrow_takes_petra_541",
+    "battle_of_anglon",
+    "siege_of_edessa_544",
+    "siege_of_petra_551",
+    "siege_of_phasis_555",
+    "fifty_years_peace_562"
+   ],
+   "people": [
+    "khosrow_i",
+    "justinian_i",
+    "belisarius",
+    "procopius",
+    "agathias"
+   ],
+   "campaigns": [
+    "khosrow_antioch_540"
+   ],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "2.5-30, 8.1-17"
+    },
+    {
+     "a": "Agathias",
+     "w": "Histories",
+     "r": "2-4"
+    },
+    {
+     "a": "Menander Protector",
+     "w": "History",
+     "r": "fr. 6.1"
+    }
+   ]
+  },
+  {
+   "id": "spanish_war_552",
+   "name": "Roman intervention in Spain and the province of Spania",
+   "start": 552,
+   "end": 624,
+   "sides": [
+    [
+     "rome_east"
+    ],
+    [
+     "visigothic_kingdom"
+    ]
+   ],
+   "outcome": "Roman province of Spania held on the south-east coast for seventy years, finally lost to Suinthila",
+   "summary": "Justinian's expedition under Liberius in support of Athanagild, leaving a Roman coastal province that the Visigothic kings gradually reconquered.",
+   "events": [
+    "spania_founded_552",
+    "visigoths_conquer_spania_624"
+   ],
+   "people": [
+    "justinian_i",
+    "comentiolus"
+   ],
+   "campaigns": [],
+   "sources": [
+    {
+     "a": "Isidore of Seville",
+     "w": "History of the Goths",
+     "r": "46-62"
+    },
+    {
+     "a": "Jordanes",
+     "w": "Getica",
+     "r": "303"
+    }
+   ]
+  },
+  {
+   "id": "roman_lombard_wars",
+   "name": "Roman-Lombard Wars",
+   "start": 568,
+   "end": 605,
+   "sides": [
+    [
+     "rome_east",
+     "frankish_kingdom"
+    ],
+    [
+     "lombards"
+    ]
+   ],
+   "outcome": "Italy divided between the Lombard kingdom and duchies and the Roman exarchate",
+   "summary": "The Lombard invasion of 568 and the following decades of war, Roman diplomacy with the Franks, the creation of the exarchate, and papal negotiations with Agilulf, ending in truces after 598-605.",
+   "events": [
+    "lombard_invasion_568",
+    "siege_of_pavia_569",
+    "assassination_of_alboin_572",
+    "exarchate_of_ravenna_584",
+    "agilulf_besieges_rome_593"
+   ],
+   "people": [
+    "alboin",
+    "justin_ii",
+    "maurice",
+    "gregory_the_great",
+    "narses"
+   ],
+   "campaigns": [
+    "lombard_migration_568"
+   ],
+   "sources": [
+    {
+     "a": "Paul the Deacon",
+     "w": "History of the Lombards",
+     "r": "2-4"
+    },
+    {
+     "a": "Gregory the Great",
+     "w": "Register of Letters"
+    }
+   ],
+   "scholarship": [
+    "Christie, The Lombards (1995)"
+   ]
+  },
+  {
+   "id": "roman_sasanian_war_572",
+   "name": "Roman-Sasanian War of 572-591",
+   "start": 572,
+   "end": 591,
+   "sides": [
+    [
+     "rome_east",
+     "armenian_nakharars",
+     "western_turks"
+    ],
+    [
+     "sasanian"
+    ]
+   ],
+   "outcome": "Roman intervention restores Khosrow II; Rome gains most of Armenia without payment",
+   "summary": "Justin II's war in support of the Armenian revolt and in alliance with the Turks; the loss of Dara drove him mad. Two decades of campaigns in Mesopotamia and Armenia ended when Maurice restored Khosrow II against Bahram Chobin.",
+   "events": [
+    "embassy_of_zemarchus_569",
+    "outbreak_of_persian_war_572",
+    "siege_of_dara_573",
+    "tiberius_caesar_574",
+    "battle_of_melitene_576",
+    "battle_of_solachon",
+    "mutiny_of_588",
+    "flight_of_khosrow_ii_590",
+    "battle_of_blarathon",
+    "peace_of_591"
+   ],
+   "people": [
+    "justin_ii",
+    "tiberius_ii",
+    "maurice",
+    "khosrow_i",
+    "khosrow_ii",
+    "bahram_chobin",
+    "philippicus",
+    "priscus_general"
+   ],
+   "campaigns": [],
+   "sources": [
+    {
+     "a": "Theophylact Simocatta",
+     "w": "History",
+     "r": "1-5"
+    },
+    {
+     "a": "Evagrius",
+     "w": "Ecclesiastical History",
+     "r": "5-6"
+    },
+    {
+     "a": "Menander Protector",
+     "w": "History"
+    }
+   ],
+   "scholarship": [
+    "Whitby, The Emperor Maurice and his Historian (1988)"
+   ]
+  },
+  {
+   "id": "balkan_wars_of_maurice",
+   "name": "Avar and Slav Wars in the Balkans",
+   "start": 579,
+   "end": 602,
+   "sides": [
+    [
+     "rome_east"
+    ],
+    [
+     "avars",
+     "slavs"
+    ]
+   ],
+   "outcome": "Roman victories beyond the Danube by 599-602, undone by the mutiny of 602 and the Persian war",
+   "summary": "From the Avar siege of Sirmium to the mutiny of 602: Avar raids, Slav settlement in the Balkans and Greece, and Maurice's offensives across the Danube after 591.",
+   "events": [
+    "fall_of_sirmium_582",
+    "slav_settlement_in_greece_580s",
+    "siege_of_thessalonica_586",
+    "maurice_balkan_campaigns_593",
+    "captives_massacre_599",
+    "battle_of_viminacium_599",
+    "revolt_of_phocas_602"
+   ],
+   "people": [
+    "maurice",
+    "bayan_i",
+    "priscus_general",
+    "comentiolus",
+    "phocas",
+    "theophylact_simocatta"
+   ],
+   "campaigns": [
+    "priscus_avar_599"
+   ],
+   "sources": [
+    {
+     "a": "Theophylact Simocatta",
+     "w": "History",
+     "r": "1, 6-8"
+    },
+    {
+     "a": "Menander Protector",
+     "w": "History"
+    },
+    {
+     "a": "Miracles of St Demetrius",
+     "w": "Miracula S. Demetrii"
+    }
+   ],
+   "scholarship": [
+    "Whitby, The Emperor Maurice and his Historian (1988)",
+    "Pohl, The Avars (2018)",
+    "Curta, The Making of the Slavs (2001)"
+   ]
+  },
+  {
+   "id": "heraclian_revolt",
+   "name": "Heraclian Revolt",
+   "start": 608,
+   "end": 610,
+   "sides": [
+    [
+     "rome_east"
+    ],
+    [
+     "rome_east"
+    ]
+   ],
+   "outcome": "Phocas overthrown; Heraclius emperor",
+   "summary": "Civil war launched from Carthage by the exarch Heraclius the Elder, fought in Egypt and decided by the younger Heraclius's naval descent on Constantinople.",
+   "events": [
+    "heraclian_revolt_608",
+    "accession_of_heraclius_610"
+   ],
+   "people": [
+    "heraclius",
+    "phocas",
+    "priscus_general"
+   ],
+   "campaigns": [],
+   "sources": [
+    {
+     "a": "John of Nikiu",
+     "w": "Chronicle",
+     "r": "105-110"
+    },
+    {
+     "a": "Chronicon Paschale",
+     "w": "Chronicon Paschale",
+     "r": "s.a. 609-610"
+    }
+   ]
+  },
+  {
+   "id": "roman_sasanian_war_602",
+   "name": "Roman-Sasanian War of 602-628",
+   "start": 603,
+   "end": 628,
+   "sides": [
+    [
+     "rome_east",
+     "western_turks"
+    ],
+    [
+     "sasanian",
+     "avars",
+     "slavs"
+    ]
+   ],
+   "outcome": "Roman victory after near-collapse: Khosrow II overthrown; all lost territory and the True Cross restored; both empires exhausted",
+   "summary": "The 'last great war of antiquity'. Persia conquered Mesopotamia, Syria, Palestine and Egypt and reached the Bosporus; Heraclius counterattacked through Armenia and Azerbaijan, survived the Avar-Persian siege of Constantinople, and destroyed Khosrow's army at Nineveh.",
+   "detail": "The war devastated the cities of the Near East, ended Constantinople's free bread, forced the melting of church plate, and drove imperial ideology toward holy war and Marian protection. Its end left both empires militarily exhausted and their Arab buffer states (Lakhmids destroyed 602, Ghassanids weakened) dismantled, opening the way for the Arab conquests.",
+   "phases": [
+    {
+     "from": 603,
+     "to": 610,
+     "t": "Persian conquest of Mesopotamia under Phocas"
+    },
+    {
+     "from": 611,
+     "to": 621,
+     "t": "Fall of Syria, Palestine and Egypt; Persians at Chalcedon"
+    },
+    {
+     "from": 622,
+     "to": 626,
+     "t": "Heraclius's campaigns in Armenia and Atropatene; siege of Constantinople"
+    },
+    {
+     "from": 627,
+     "to": 628,
+     "t": "Turkic alliance, Nineveh, fall of Khosrow"
+    }
+   ],
+   "events": [
+    "outbreak_of_persian_war_603",
+    "revolt_of_phocas_602",
+    "execution_of_maurice_602",
+    "siege_of_dara_604",
+    "battle_of_antioch_613",
+    "siege_of_jerusalem_614",
+    "persians_at_chalcedon_615",
+    "hexagram_615",
+    "end_of_grain_dole_618",
+    "persian_conquest_of_egypt_619",
+    "heraclius_campaign_622",
+    "avar_surprise_623",
+    "destruction_of_adur_gushnasp_624",
+    "battle_of_the_sarus_625",
+    "siege_of_constantinople_626",
+    "siege_of_tbilisi_627",
+    "battle_of_nineveh",
+    "fall_of_khosrow_ii_628",
+    "restoration_of_the_true_cross_630"
+   ],
+   "people": [
+    "khosrow_ii",
+    "heraclius",
+    "shahrbaraz",
+    "shahin",
+    "phocas",
+    "theodore_brother_of_heraclius",
+    "sergius_of_constantinople",
+    "george_of_pisidia"
+   ],
+   "campaigns": [
+    "shahrbaraz_613",
+    "heraclius_622_628"
+   ],
+   "sources": [
+    {
+     "a": "Theophanes",
+     "w": "Chronicle",
+     "r": "AM 6095-6120"
+    },
+    {
+     "a": "Chronicon Paschale",
+     "w": "Chronicon Paschale"
+    },
+    {
+     "a": "Sebeos",
+     "w": "History"
+    },
+    {
+     "a": "George of Pisidia",
+     "w": "Poems"
+    }
+   ],
+   "scholarship": [
+    "Howard-Johnston, The Last Great War of Antiquity (2021)",
+    "Kaegi, Heraclius (2003)"
+   ]
+  },
+  {
+   "id": "arab_roman_war_634",
+   "name": "Arab conquest of the Roman Near East",
+   "start": 629,
+   "end": 641,
+   "sides": [
+    [
+     "rome_east",
+     "ghassanids",
+     "armenian_nakharars"
+    ],
+    [
+     "medinan_state",
+     "rashidun"
+    ]
+   ],
+   "outcome": "Syria, Palestine, Mesopotamia and Egypt lost; the empire reduced to Anatolia, the Balkan coasts, Africa and Italian enclaves (war continued after 641)",
+   "summary": "From the skirmish at Mu'ta (629) to the surrender of Babylon and the Treaty of Alexandria (641), the armies of Medina destroyed Roman power in the Near East: Dathin and Ajnadayn (634), Damascus (635), the Yarmuk (636), Jerusalem (637), Mesopotamia (639-640) and Egypt (639-641).",
+   "detail": "Explanations range from Roman and Persian exhaustion after 628, Roman inability to pay soldiers and Arab allies, the tactical mobility of Arab armies and good intelligence, the relative leniency of surrender terms, and religious motivation and cohesion. The older view that miaphysite Christians welcomed the invaders as liberators is now treated sceptically. Sources are a problem: Arabic narratives are late, partly schematic and contradictory; contemporary non-Muslim sources (Thomas the Presbyter, the Doctrina Jacobi, Sophronius, Sebeos, John of Nikiu) are fragmentary.",
+   "phases": [
+    {
+     "from": 629,
+     "to": 633,
+     "t": "First raids: Mu'ta, Tabuk"
+    },
+    {
+     "from": 634,
+     "to": 636,
+     "t": "Conquest of Palestine and Syria: Dathin, Ajnadayn, Fahl, Damascus, Yarmuk"
+    },
+    {
+     "from": 637,
+     "to": 640,
+     "t": "Jerusalem, northern Syria, Mesopotamia, Caesarea"
+    },
+    {
+     "from": 639,
+     "to": 641,
+     "t": "Invasion of Egypt"
+    }
+   ],
+   "events": [
+    "battle_of_mutah",
+    "battle_of_dathin",
+    "khalids_desert_march_634",
+    "battle_of_ajnadayn",
+    "battle_of_fahl",
+    "siege_of_damascus_635",
+    "battle_of_the_yarmuk",
+    "heraclius_leaves_syria_636",
+    "siege_of_jerusalem_637",
+    "plague_of_amwas_638",
+    "fall_of_mesopotamia_639",
+    "fall_of_caesarea_640",
+    "arab_invasion_of_egypt_639",
+    "battle_of_heliopolis_640",
+    "surrender_of_babylon_fortress_641",
+    "treaty_of_alexandria_641"
+   ],
+   "people": [
+    "heraclius",
+    "vahan",
+    "theodore_brother_of_heraclius",
+    "khalid_ibn_al_walid",
+    "amr_ibn_al_as",
+    "abu_ubayda",
+    "umar",
+    "abu_bakr",
+    "sophronius",
+    "cyrus_of_alexandria"
+   ],
+   "campaigns": [
+    "khalid_634",
+    "amr_egypt_639"
+   ],
+   "sources": [
+    {
+     "a": "al-Baladhuri",
+     "w": "Futuh al-Buldan"
+    },
+    {
+     "a": "Tabari",
+     "w": "History"
+    },
+    {
+     "a": "Theophanes",
+     "w": "Chronicle",
+     "r": "AM 6123-6133"
+    },
+    {
+     "a": "John of Nikiu",
+     "w": "Chronicle",
+     "r": "111-121"
+    },
+    {
+     "a": "Sebeos",
+     "w": "History"
+    }
+   ],
+   "scholarship": [
+    "Kaegi, Byzantium and the Early Islamic Conquests (1992)",
+    "Donner, The Early Islamic Conquests (1981)",
+    "Kennedy, The Great Arab Conquests (2007)",
+    "Hoyland, In God's Path (2015)"
+   ]
+  }
+ ]
+}
