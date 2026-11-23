@@ -35,6 +35,7 @@ async function boot() {
   bindControls();
   on('year', renderYearplate);
   on('mapStats', renderLegend);
+  map.on('moveend', () => renderLegend());
   renderYearplate();
 }
 
@@ -62,9 +63,20 @@ function shortName(n) {
 
 // ---------------- legend
 let legendMin = false;
-function renderLegend({ groups }) {
-  const weight = (g) => g.area * (['rome', 'rome_west', 'rome_east'].includes(g.pol.id) ? 100 : ['empire', 'kingdom', 'republic', 'league', 'city_state', 'client_kingdom', 'breakaway'].includes(g.pol.type) ? 1 : 0.08);
-  const top = [...groups.values()].filter((g) => g.area > 0).sort((a, b) => weight(b) - weight(a)).slice(0, 7);
+let lastGroups = null;
+function renderLegend(arg) {
+  const groups = (arg && arg.groups) || lastGroups;
+  if (!groups) return;
+  lastGroups = groups;
+  const b = map.getBounds();
+  const vis = [];
+  for (const g of groups.values()) {
+    const a = g.regs.reduce((s, r) => s + (b.contains(r.labelPt) ? r.area || 0 : 0), 0);
+    if (a > 0) vis.push({ pol: g.pol, area: a, total: g.area });
+  }
+  const isRome = (g) => ['rome', 'rome_west', 'rome_east'].includes(g.pol.id);
+  const weight = (g) => (isRome(g) ? 1e12 : 0) + g.area * (['empire', 'kingdom', 'republic', 'league', 'city_state', 'client_kingdom', 'breakaway'].includes(g.pol.type) ? 1 : 0.3);
+  const top = vis.sort((a, c) => weight(c) - weight(a)).slice(0, 6);
   const pat = (bg, img) => `<span class="lg-pat" style="background:${bg}${img ? `;background-image:${img}` : ''}"></span>`;
   const hatch = 'repeating-linear-gradient(-45deg, rgba(255,255,255,.75) 0 1.5px, transparent 1.5px 5px)';
   const dots = 'radial-gradient(rgba(255,255,255,.85) 1.2px, transparent 1.4px)';
@@ -75,8 +87,8 @@ function renderLegend({ groups }) {
     <div class="lg-row">${pat('#D27A62', hatch)} allies, federates</div>
     <div class="lg-row">${pat('#C99A72', dots + ';background-size:6px 6px')} client kingdoms</div>
     <div class="lg-row">${pat('#9F8C80', cross)} contested</div>
-    <div class="lg-powers">${top.map((g) => `<span><span class="swatch" style="background:${g.pol.color}"></span>${esc(polityLabel(g.pol, S.year) === g.pol.name ? g.pol.name : g.pol.name)}</span><span>${fmtNum(Math.round(g.area))} km²</span>`).join('')}</div></div>`;
-  $('legend').querySelector('.lg-min').onclick = () => { legendMin = !legendMin; renderLegend({ groups }); };
+    <div class="lg-powers" title="Largest powers in view, with their total area">${top.map((g) => `<span><span class="swatch" style="background:${g.pol.color}"></span>${esc(polityLabel(g.pol, S.year) === g.pol.name ? g.pol.name : g.pol.name)}</span><span>${fmtNum(Math.round(g.total))} km²</span>`).join('')}</div></div>`;
+  $('legend').querySelector('.lg-min').onclick = () => { legendMin = !legendMin; renderLegend(); };
 }
 
 // ---------------- layers popover

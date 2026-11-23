@@ -224,11 +224,6 @@ function addLayers() {
   L({ id: 'ancient-labels', type: 'symbol', source: 'ancientLabels', minzoom: 5.2, layout: { 'symbol-placement': 'line-center', 'text-field': ['get', 't'], 'text-font': SERIF_I, 'text-size': ['interpolate', ['linear'], ['zoom'], 5, 11, 9, 15], 'text-letter-spacing': 0.18, 'text-max-angle': 30, 'text-allow-overlap': false }, paint: { 'text-color': 'rgba(42,33,28,.72)', 'text-halo-color': 'rgba(240,232,214,.6)', 'text-halo-width': 1 } });
   L({ id: 'marine', type: 'symbol', source: 'marine', layout: { 'text-field': ['get', 'name'], 'text-font': SERIF_I, 'text-size': ['interpolate', ['linear'], ['zoom'], 3, 10, 7, 15], 'text-letter-spacing': 0.25, 'text-max-width': 8 }, paint: { 'text-color': 'rgba(206,221,230,.55)' } });
   L({ id: 'region-labels', type: 'symbol', source: 'regionLabels', minzoom: 4, layout: { 'text-field': ['get', 'name'], 'text-font': SERIF_I, 'text-size': 11.5, 'text-max-width': 7, 'text-padding': 4 }, paint: { 'text-color': 'rgba(42,33,28,.8)', 'text-halo-color': 'rgba(240,232,214,.7)', 'text-halo-width': 1.2 } });
-  L({ id: 'polity-labels', type: 'symbol', source: 'polityLabels', layout: {
-    'text-field': ['get', 'label'], 'text-font': SERIF_B, 'text-transform': 'uppercase', 'text-letter-spacing': 0.22,
-    'text-size': ['interpolate', ['linear'], ['zoom'], 3, ['*', ['get', 'sz'], 0.75], 7, ['*', ['get', 'sz'], 1.5]],
-    'text-max-width': 9, 'symbol-sort-key': ['-', 0, ['get', 'sz']], 'text-padding': 6,
-  }, paint: { 'text-color': ['case', ['get', 'rome'], '#3B0A0A', 'rgba(42,33,28,.85)'], 'text-halo-color': 'rgba(244,239,230,.75)', 'text-halo-width': 1.6 } });
   L({ id: 'cities-dot', type: 'circle', source: 'cities', filter: ['>=', ['get', 'imp'], 1], paint: {
     'circle-radius': ['interpolate', ['linear'], ['zoom'], 3, ['case', ['>=', ['get', 'imp'], 5], 3.6, ['>=', ['get', 'imp'], 4], 2.6, 1.6], 8, ['case', ['>=', ['get', 'imp'], 5], 7, ['>=', ['get', 'imp'], 4], 5, 3.5]],
     'circle-color': ['case', ['get', 'cap'], C.ink, '#F4EFE6'], 'circle-stroke-color': C.ink, 'circle-stroke-width': 1.2,
@@ -244,6 +239,11 @@ function addLayers() {
     'text-color': C.ink, 'text-halo-color': 'rgba(244,239,230,.88)', 'text-halo-width': 1.5,
     'text-opacity': ['step', ['zoom'], ['case', ['>=', ['get', 'imp'], 5], 1, 0], 4, ['case', ['>=', ['get', 'imp'], 4], 1, 0], 5.2, ['case', ['>=', ['get', 'imp'], 3], 1, 0], 6.5, 1],
   } });
+  L({ id: 'polity-labels', type: 'symbol', source: 'polityLabels', layout: {
+    'text-field': ['get', 'label'], 'text-font': SERIF_B, 'text-transform': 'uppercase', 'text-letter-spacing': 0.22,
+    'text-size': ['interpolate', ['linear'], ['zoom'], 3, ['*', ['get', 'sz'], 0.75], 7, ['*', ['get', 'sz'], 1.5]],
+    'text-max-width': 12, 'symbol-sort-key': ['-', 0, ['get', 'sz']], 'text-padding': 2,
+  }, paint: { 'text-color': ['case', ['get', 'rome'], '#3B0A0A', 'rgba(42,33,28,.85)'], 'text-halo-color': 'rgba(244,239,230,.75)', 'text-halo-width': 1.6 } });
   L({ id: 'legions', type: 'symbol', source: 'legions', minzoom: 3.8, layout: {
     'icon-image': 'ic-eagle', 'icon-size': 0.8, 'icon-allow-overlap': true, 'text-field': ['get', 'label'], 'text-font': SERIF_B, 'text-size': 11,
     'text-offset': [0, 1.3], 'text-anchor': 'top', 'text-optional': true, 'icon-offset': ['get', 'off'],
@@ -318,15 +318,24 @@ export function updateYear(y, force = false) {
     if (!s || s.pid === null || s.st === 'unsettled' || !reg.labelPt) continue;
     const pol = D.polities[s.pid];
     const key = pol.id;
-    if (!groups.has(key)) groups.set(key, { pol, area: 0, best: null, bestArea: -1 });
+    if (!groups.has(key)) groups.set(key, { pol, area: 0, best: null, bestArea: -1, regs: [], cx: 0, cy: 0 });
     const g = groups.get(key);
-    g.area += reg.area || 0;
-    if ((reg.area || 0) > g.bestArea) { g.bestArea = reg.area || 0; g.best = reg; }
+    const a = reg.area || 0;
+    g.area += a; g.regs.push(reg); g.cx += reg.labelPt[0] * a; g.cy += reg.labelPt[1] * a;
+    if (a > g.bestArea) { g.bestArea = a; g.best = reg; }
   }
   const pl = [];
   for (const g of groups.values()) {
-    if (g.area < 9000) continue;
-    const sz = Math.max(9, Math.min(26, 4 + Math.sqrt(g.area) / 55));
+    if (g.area < 1200) continue;
+    // label at the sizeable region nearest the polity's area-weighted centre
+    const cx = g.cx / g.area, cy = g.cy / g.area;
+    let bd = Infinity;
+    for (const r of g.regs) {
+      if ((r.area || 0) < g.bestArea * 0.2) continue;
+      const d = (r.labelPt[0] - cx) ** 2 + (r.labelPt[1] - cy) ** 2;
+      if (d < bd) { bd = d; g.best = r; }
+    }
+    const sz = Math.max(8.5, Math.min(26, 4 + Math.sqrt(g.area) / 55));
     pl.push({ type: 'Feature', geometry: { type: 'Point', coordinates: g.best.labelPt }, properties: { label: polityLabel(g.pol, y), sz, rome: ROMAN.has(g.pol.id) } });
   }
   map.getSource('polityLabels').setData(fc(pl));

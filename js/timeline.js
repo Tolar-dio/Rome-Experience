@@ -65,7 +65,7 @@ function draw() {
   const n = counts.length;
   const step = Math.max(1, Math.round((dom[1] - dom[0]) / (W / 3)));
   const bins = [];
-  for (let i = Math.max(0, dom[0] - FULL[0]); i < Math.min(n, dom[1] - FULL[0] + 1); i += step) {
+  for (let i = Math.max(0, Math.floor(dom[0]) - FULL[0]); i < Math.min(n, Math.ceil(dom[1]) - FULL[0] + 1); i += step) {
     let s = 0, b = 0;
     for (let k = i; k < Math.min(n, i + step); k++) { s += counts[k]; b += counts.battles[k]; }
     bins.push({ i: i + FULL[0], s, b });
@@ -82,7 +82,7 @@ function draw() {
   if (D.stats) {
     const st = D.stats;
     const pts = [];
-    for (let i = Math.max(0, dom[0] - FULL[0]); i < Math.min(st.n, dom[1] - FULL[0] + 1); i += Math.max(1, Math.floor(step / 2))) {
+    for (let i = Math.max(0, Math.floor(dom[0]) - FULL[0]); i < Math.min(st.n, Math.ceil(dom[1]) - FULL[0] + 1); i += Math.max(1, Math.floor(step / 2))) {
       pts.push({ i: i + FULL[0], d: st.direct[i], a: st.direct[i] + st.ally[i] + st.client[i] });
     }
     const maxA = d3.max(D.stats.direct.map((v, i) => v + D.stats.ally[i] + D.stats.client[i])) || 1;

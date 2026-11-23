@@ -2,7 +2,7 @@
  "regions": [
   {
    "id": "it_roma",
-   "name": "Rome and Latium Vetus",
+   "name": "Rome and the ager Romanus",
    "seed": [
     12.55,
     41.9
@@ -104,7 +104,7 @@
     }
    ],
    "certainty": "probable",
-   "notes": "The province of Rome is one map cell, so Rome, Latium Vetus, the Alban Hills, Ager Veientanus (Veii taken 396), Caere and Tibur share one region; Latin cities were treaty allies until 338 and Tibur and Praeneste stayed federate allies until 90 BC."
+   "notes": "The ager Romanus around the city. Neighbouring Latin, Veientine, Caeretan and Volscian land in the same modern province are separate regions."
   },
   {
    "id": "it_etruria_south",
@@ -4325,8 +4325,8 @@
    "id": "it_istria",
    "name": "Histria (Tergeste, Pola)",
    "seed": [
-    13.85,
-    45.55
+    13.75,
+    45.5
    ],
    "countries": [
     "IT",
@@ -4624,8 +4624,8 @@
    "id": "it_alpes_cottiae",
    "name": "Alpes Cottiae (Segusio, Brigantio)",
    "seed": [
-    7.0,
-    45.0
+    7.1,
+    44.75
    ],
    "countries": [
     "IT",
@@ -4703,7 +4703,7 @@
     }
    ],
    "certainty": "probable",
-   "notes": "Includes Briançon (Brigantio), part of the Cottian kingdom."
+   "notes": "Includes Briançon (Brigantio) and the upper Susa and Cuneo valleys; Frankish control of the Cuneo valleys after 575 is assumed."
   },
   {
    "id": "it_taurini",
@@ -4715,6 +4715,9 @@
    "countries": [
     "IT"
    ],
+   "zone": {
+    "in60bc": true
+   },
    "control": [
     {
      "from": -509,

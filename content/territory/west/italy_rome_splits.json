@@ -1,0 +1,539 @@
+{
+ "regions": [
+  {
+   "id": "it_ager_veientanus",
+   "name": "Ager Veientanus (Veii)",
+   "seed": [
+    12.37,
+    42.04
+   ],
+   "countries": [
+    "IT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -396,
+     "p": "veii",
+     "s": "independent",
+     "note": "Three wars with Rome; the ten-year siege ends with Camillus taking Veii"
+    },
+    {
+     "from": -396,
+     "to": -390,
+     "p": "rome",
+     "s": "direct",
+     "note": "Veientine land distributed; four new tribes in 387"
+    },
+    {
+     "from": -390,
+     "to": -389,
+     "p": "senones",
+     "s": "contested",
+     "note": "Gallic sack after the Allia (Varronian 390; Polybian 387/6)"
+    },
+    {
+     "from": -389,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 408,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 408,
+     "to": 411,
+     "p": "visigoths",
+     "s": "contested",
+     "note": "Alaric's three sieges; sack of 24-27 August 410"
+    },
+    {
+     "from": 411,
+     "to": 455,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 455,
+     "to": 456,
+     "p": "vandal_kingdom",
+     "s": "contested",
+     "note": "Vandal sack, 2-16 June 455"
+    },
+    {
+     "from": 456,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 554,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Gothic War: Byzantine reconquest contested by the Goths (Totila 541-552)"
+    },
+    {
+     "from": 554,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Ducatus Romanus; Lombard sieges 579 and 593 (Agilulf)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Split from the province of Rome cell along the Tiber; Veii lay 16 km north of Rome."
+  },
+  {
+   "id": "it_caere",
+   "name": "Caere and the Etruscan coast",
+   "seed": [
+    12.07,
+    42.0
+   ],
+   "countries": [
+    "IT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -353,
+     "p": "caere",
+     "s": "independent",
+     "note": "Etruscan city friendly to Rome; sheltered the Vestals in 390"
+    },
+    {
+     "from": -353,
+     "to": -273,
+     "p": "caere",
+     "s": "ally",
+     "note": "Hundred-year truce 353; civitas sine suffragio (date disputed)"
+    },
+    {
+     "from": -273,
+     "to": -272,
+     "p": "rome",
+     "s": "direct",
+     "note": "Half its territory confiscated 273"
+    },
+    {
+     "from": -272,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 408,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 408,
+     "to": 411,
+     "p": "visigoths",
+     "s": "contested",
+     "note": "Alaric's three sieges; sack of 24-27 August 410"
+    },
+    {
+     "from": 411,
+     "to": 455,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 455,
+     "to": 456,
+     "p": "vandal_kingdom",
+     "s": "contested",
+     "note": "Vandal sack, 2-16 June 455"
+    },
+    {
+     "from": 456,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 554,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Gothic War: Byzantine reconquest contested by the Goths (Totila 541-552)"
+    },
+    {
+     "from": 554,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Ducatus Romanus; Lombard sieges 579 and 593 (Agilulf)"
+    }
+   ],
+   "certainty": "approx",
+   "notes": "Caere as the first civitas sine suffragio is dated variously between 390 and 273."
+  },
+  {
+   "id": "it_tibur_praeneste",
+   "name": "Tibur and Praeneste",
+   "seed": [
+    12.86,
+    41.9
+   ],
+   "countries": [
+    "IT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -493,
+     "p": "latin_league",
+     "s": "independent",
+     "note": "Latin League; war ending at Lake Regillus"
+    },
+    {
+     "from": -493,
+     "to": -341,
+     "p": "latin_league",
+     "s": "ally",
+     "note": "Foedus Cassianum"
+    },
+    {
+     "from": -341,
+     "to": -338,
+     "p": "latin_league",
+     "s": "contested",
+     "note": "Latin War"
+    },
+    {
+     "from": -338,
+     "to": -90,
+     "p": "latin_league",
+     "s": "ally",
+     "note": "Tibur and Praeneste kept federate status, minus some territory, until 90"
+    },
+    {
+     "from": -90,
+     "to": -82,
+     "p": "rome",
+     "s": "direct",
+     "note": "Citizenship after the Social War"
+    },
+    {
+     "from": -82,
+     "to": -81,
+     "p": "rome",
+     "s": "contested",
+     "note": "Siege of Praeneste: the younger Marius trapped by Sulla"
+    },
+    {
+     "from": -81,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 408,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 408,
+     "to": 411,
+     "p": "visigoths",
+     "s": "contested",
+     "note": "Alaric's three sieges; sack of 24-27 August 410"
+    },
+    {
+     "from": 411,
+     "to": 455,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 455,
+     "to": 456,
+     "p": "vandal_kingdom",
+     "s": "contested",
+     "note": "Vandal sack, 2-16 June 455"
+    },
+    {
+     "from": 456,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 554,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Gothic War: Byzantine reconquest contested by the Goths (Totila 541-552)"
+    },
+    {
+     "from": 554,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Ducatus Romanus; Lombard sieges 579 and 593 (Agilulf)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "The two great Latin cities that stayed allies rather than being incorporated in 338."
+  },
+  {
+   "id": "it_alban_hills",
+   "name": "Alban Hills (Aricia, Lanuvium, Tusculum)",
+   "seed": [
+    12.68,
+    41.74
+   ],
+   "countries": [
+    "IT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -493,
+     "p": "latin_league",
+     "s": "independent",
+     "note": "Aricia defeats Arruns Porsenna (c. 504)"
+    },
+    {
+     "from": -493,
+     "to": -341,
+     "p": "latin_league",
+     "s": "ally",
+     "note": "Foedus Cassianum; Tusculum incorporated 381"
+    },
+    {
+     "from": -341,
+     "to": -338,
+     "p": "latin_league",
+     "s": "contested",
+     "note": "Latin War"
+    },
+    {
+     "from": -338,
+     "to": -337,
+     "p": "rome",
+     "s": "direct",
+     "note": "Aricia, Lanuvium, Nomentum and Pedum incorporated"
+    },
+    {
+     "from": -337,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 408,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 408,
+     "to": 411,
+     "p": "visigoths",
+     "s": "contested",
+     "note": "Alaric's three sieges; sack of 24-27 August 410"
+    },
+    {
+     "from": 411,
+     "to": 455,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 455,
+     "to": 456,
+     "p": "vandal_kingdom",
+     "s": "contested",
+     "note": "Vandal sack, 2-16 June 455"
+    },
+    {
+     "from": 456,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 554,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Gothic War: Byzantine reconquest contested by the Goths (Totila 541-552)"
+    },
+    {
+     "from": 554,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Ducatus Romanus; Lombard sieges 579 and 593 (Agilulf)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Split from the province of Rome cell."
+  },
+  {
+   "id": "it_antium",
+   "name": "Antium and the Volscian coast",
+   "seed": [
+    12.66,
+    41.5
+   ],
+   "countries": [
+    "IT"
+   ],
+   "control": [
+    {
+     "from": -509,
+     "to": -467,
+     "p": "volsci",
+     "s": "independent",
+     "note": "Volscian Antium"
+    },
+    {
+     "from": -467,
+     "to": -459,
+     "p": "rome",
+     "s": "contested",
+     "note": "Roman colony of 467, revolts"
+    },
+    {
+     "from": -459,
+     "to": -338,
+     "p": "volsci",
+     "s": "independent",
+     "note": "Volscian; base for raids on Latium"
+    },
+    {
+     "from": -338,
+     "to": -337,
+     "p": "rome",
+     "s": "direct",
+     "note": "Antium a citizen colony; its ships' beaks (rostra) set up in the Forum"
+    },
+    {
+     "from": -337,
+     "to": 395,
+     "p": "rome",
+     "s": "direct"
+    },
+    {
+     "from": 395,
+     "to": 408,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 408,
+     "to": 411,
+     "p": "visigoths",
+     "s": "contested",
+     "note": "Alaric's three sieges; sack of 24-27 August 410"
+    },
+    {
+     "from": 411,
+     "to": 455,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 455,
+     "to": 456,
+     "p": "vandal_kingdom",
+     "s": "contested",
+     "note": "Vandal sack, 2-16 June 455"
+    },
+    {
+     "from": 456,
+     "to": 476,
+     "p": "rome_west",
+     "s": "direct"
+    },
+    {
+     "from": 476,
+     "to": 493,
+     "p": "odoacer_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 493,
+     "to": 535,
+     "p": "ostrogothic_kingdom",
+     "s": "independent"
+    },
+    {
+     "from": 535,
+     "to": 554,
+     "p": "rome_east",
+     "s": "contested",
+     "note": "Gothic War: Byzantine reconquest contested by the Goths (Totila 541-552)"
+    },
+    {
+     "from": 554,
+     "to": 641,
+     "p": "rome_east",
+     "s": "direct",
+     "note": "Ducatus Romanus; Lombard sieges 579 and 593 (Agilulf)"
+    }
+   ],
+   "certainty": "probable",
+   "notes": "Split from the province of Rome cell (Anzio and Nettuno lie in it)."
+  }
+ ]
+}

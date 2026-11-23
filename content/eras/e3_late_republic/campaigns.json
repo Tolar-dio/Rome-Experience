@@ -1,0 +1,2522 @@
+{
+ "campaigns": [
+  {
+   "id": "marius_against_the_cimbri",
+   "name": "Marius against the Teutones and Cimbri",
+   "war": "cimbrian_war",
+   "polity": "rome",
+   "commander": "gaius_marius",
+   "start": -104,
+   "end": -101,
+   "strength": "c. 30,000-40,000 in 102; with Catulus c. 52,300 at Vercellae (Plutarch)",
+   "summary": "Marius trained his army for two years in a fortified camp on the lower Rhône, digging the Fossa Mariana, then shadowed the Teutones and destroyed them at Aquae Sextiae in 102. Returning to Italy, he joined Catulus, who had fallen back from the Adige, and annihilated the Cimbri at Vercellae in July 101.",
+   "path": [
+    {
+     "loc": [
+      12.49,
+      41.89
+     ],
+     "t": "Rome: Marius consul for the second time",
+     "y": -104,
+     "m": 1
+    },
+    {
+     "loc": [
+      8.95,
+      44.41
+     ],
+     "t": "Coast road through Liguria",
+     "y": -104
+    },
+    {
+     "loc": [
+      4.63,
+      43.68
+     ],
+     "t": "Fortified camp near Arelate; Fossa Mariana dug",
+     "y": -104,
+     "note": "army trained 104-102 while the Cimbri were in Spain"
+    },
+    {
+     "loc": [
+      5.73,
+      43.52
+     ],
+     "t": "Aquae Sextiae: Teutones and Ambrones destroyed",
+     "y": -102,
+     "event": "battle_of_aquae_sextiae"
+    },
+    {
+     "loc": [
+      7.27,
+      43.7
+     ],
+     "t": "Return along the coast",
+     "y": -102
+    },
+    {
+     "loc": [
+      12.49,
+      41.89
+     ],
+     "t": "Rome: elected consul for the fifth time",
+     "y": -102,
+     "m": 12
+    },
+    {
+     "loc": [
+      11.34,
+      44.49
+     ],
+     "t": "Po valley, joining Catulus",
+     "y": -101
+    },
+    {
+     "loc": [
+      9.69,
+      45.05
+     ],
+     "t": "Crossing near Placentia",
+     "y": -101
+    },
+    {
+     "loc": [
+      8.42,
+      45.32
+     ],
+     "t": "Campi Raudii: Cimbri annihilated",
+     "y": -101,
+     "m": 7,
+     "event": "battle_of_vercellae"
+    }
+   ],
+   "certainty": "probable",
+   "note": "The site of Vercellae is disputed (Piedmont or the lower Po).",
+   "sources": [
+    {
+     "a": "Plutarch",
+     "w": "Marius",
+     "r": "14-27"
+    }
+   ]
+  },
+  {
+   "id": "sulla_march_on_rome_88",
+   "name": "Sulla's march on Rome",
+   "war": "first_sullan_civil_war",
+   "polity": "sullani",
+   "commander": "sulla",
+   "start": -88,
+   "end": -88,
+   "strength": "6 legions (c. 35,000) from the army besieging Nola",
+   "summary": "Deprived of the Mithridatic command by Sulpicius' law, the consul Sulla led the army at Nola up the Via Latina to Rome and fought his way in through the Esquiline, the first Roman march on the city.",
+   "path": [
+    {
+     "loc": [
+      14.527,
+      40.926
+     ],
+     "t": "Nola: army persuaded to march",
+     "y": -88
+    },
+    {
+     "loc": [
+      14.25,
+      41.08
+     ],
+     "t": "Capua",
+     "y": -88
+    },
+    {
+     "loc": [
+      14.06,
+      41.25
+     ],
+     "t": "Teanum Sidicinum",
+     "y": -88
+    },
+    {
+     "loc": [
+      13.7,
+      41.49
+     ],
+     "t": "Aquinum, Via Latina",
+     "y": -88
+    },
+    {
+     "loc": [
+      13.16,
+      41.74
+     ],
+     "t": "Anagnia",
+     "y": -88
+    },
+    {
+     "loc": [
+      12.8,
+      41.8
+     ],
+     "t": "Pictae: envoys turned away",
+     "y": -88
+    },
+    {
+     "loc": [
+      12.505,
+      41.896
+     ],
+     "t": "Esquiline Gate: Sulla forces his way into Rome",
+     "y": -88,
+     "event": "sullas_march_on_rome"
+    }
+   ],
+   "certainty": "probable",
+   "sources": [
+    {
+     "a": "Appian",
+     "w": "Bella Civilia",
+     "r": "1.57-58"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Sulla",
+     "r": "9"
+    }
+   ]
+  },
+  {
+   "id": "sulla_in_greece",
+   "name": "Sulla's campaign in Greece and Asia",
+   "war": "first_mithridatic_war",
+   "polity": "rome",
+   "commander": "sulla",
+   "start": -87,
+   "end": -84,
+   "strength": "5 legions, c. 30,000 men",
+   "summary": "Sulla crossed to Epirus in 87, besieged Athens and the Piraeus through the winter, destroyed Archelaus' armies at Chaeronea and Orchomenus, marched through Macedonia to the Hellespont, made peace with Mithridates at Dardanus and took over Fimbria's army at Thyatira before settling Asia from Ephesus.",
+   "path": [
+    {
+     "loc": [
+      17.94,
+      40.64
+     ],
+     "t": "Brundisium",
+     "y": -87,
+     "m": 3
+    },
+    {
+     "loc": [
+      19.445,
+      41.32
+     ],
+     "t": "Landing in Epirus (Dyrrachium)",
+     "y": -87,
+     "sea": true
+    },
+    {
+     "loc": [
+      22.4,
+      39.6
+     ],
+     "t": "Through Thessaly",
+     "y": -87
+    },
+    {
+     "loc": [
+      23.32,
+      38.32
+     ],
+     "t": "Boeotia: Thebes submits",
+     "y": -87
+    },
+    {
+     "loc": [
+      23.7275,
+      37.9715
+     ],
+     "t": "Siege of Athens and the Piraeus",
+     "y": -87,
+     "event": "siege_of_athens_86"
+    },
+    {
+     "loc": [
+      22.77,
+      38.62
+     ],
+     "t": "Elatea",
+     "y": -86
+    },
+    {
+     "loc": [
+      22.85,
+      38.5
+     ],
+     "t": "Chaeronea",
+     "y": -86,
+     "event": "battle_of_chaeronea_86"
+    },
+    {
+     "loc": [
+      22.975,
+      38.493
+     ],
+     "t": "Orchomenus",
+     "y": -86,
+     "event": "battle_of_orchomenus"
+    },
+    {
+     "loc": [
+      22.4,
+      39.6
+     ],
+     "t": "Winter in Thessaly",
+     "y": -85
+    },
+    {
+     "loc": [
+      23.85,
+      40.82
+     ],
+     "t": "Through Macedonia via Amphipolis",
+     "y": -85
+    },
+    {
+     "loc": [
+      26.4,
+      40.25
+     ],
+     "t": "Hellespont crossing",
+     "y": -85
+    },
+    {
+     "loc": [
+      26.38,
+      40.08
+     ],
+     "t": "Dardanus: peace with Mithridates",
+     "y": -85,
+     "event": "peace_of_dardanus"
+    },
+    {
+     "loc": [
+      27.84,
+      38.92
+     ],
+     "t": "Thyatira: Fimbria's army defects",
+     "y": -85
+    },
+    {
+     "loc": [
+      27.341,
+      37.941
+     ],
+     "t": "Ephesus: fine imposed on Asia",
+     "y": -84,
+     "event": "sullan_settlement_of_asia"
+    }
+   ],
+   "certainty": "probable",
+   "sources": [
+    {
+     "a": "Plutarch",
+     "w": "Sulla",
+     "r": "11-26"
+    },
+    {
+     "a": "Appian",
+     "w": "Mithridatica",
+     "r": "30-63"
+    }
+   ]
+  },
+  {
+   "id": "sulla_return_83",
+   "name": "Sulla's return and the conquest of Italy",
+   "war": "second_sullan_civil_war",
+   "polity": "sullani",
+   "commander": "sulla",
+   "start": -83,
+   "end": -82,
+   "strength": "5 legions (c. 40,000) on landing, joined by Metellus Pius, Crassus and Pompey's three legions",
+   "summary": "Sulla landed at Brundisium in spring 83, beat Norbanus near Capua, absorbed Scipio's army at Teanum, and in 82 defeated the younger Marius at Sacriportus, entered Rome, campaigned against Carbo around Clusium, and returned to win the Colline Gate.",
+   "path": [
+    {
+     "loc": [
+      19.445,
+      41.32
+     ],
+     "t": "Dyrrachium",
+     "y": -83
+    },
+    {
+     "loc": [
+      17.94,
+      40.64
+     ],
+     "t": "Landing at Brundisium",
+     "y": -83,
+     "m": 4,
+     "sea": true,
+     "event": "sulla_lands_at_brundisium"
+    },
+    {
+     "loc": [
+      16.62,
+      40.67
+     ],
+     "t": "Via Appia through Apulia",
+     "y": -83
+    },
+    {
+     "loc": [
+      14.3,
+      41.1
+     ],
+     "t": "Mount Tifata: Norbanus defeated",
+     "y": -83,
+     "event": "battle_of_mount_tifata"
+    },
+    {
+     "loc": [
+      14.06,
+      41.25
+     ],
+     "t": "Teanum: Scipio's army defects",
+     "y": -83
+    },
+    {
+     "loc": [
+      13.0,
+      41.72
+     ],
+     "t": "Sacriportus",
+     "y": -82,
+     "event": "battle_of_sacriportus"
+    },
+    {
+     "loc": [
+      12.49,
+      41.89
+     ],
+     "t": "Rome entered",
+     "y": -82
+    },
+    {
+     "loc": [
+      11.947,
+      43.017
+     ],
+     "t": "Clusium: indecisive battle with Carbo",
+     "y": -82
+    },
+    {
+     "loc": [
+      12.497,
+      41.906
+     ],
+     "t": "Colline Gate",
+     "y": -82,
+     "m": 11,
+     "event": "battle_of_the_colline_gate"
+    },
+    {
+     "loc": [
+      12.892,
+      41.839
+     ],
+     "t": "Praeneste surrenders",
+     "y": -82,
+     "m": 11,
+     "event": "siege_of_praeneste"
+    }
+   ],
+   "certainty": "probable",
+   "sources": [
+    {
+     "a": "Appian",
+     "w": "Bella Civilia",
+     "r": "1.79-94"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Sulla",
+     "r": "27-29"
+    }
+   ]
+  },
+  {
+   "id": "lucullus_east_74_67",
+   "name": "Lucullus' campaigns against Mithridates and Tigranes",
+   "war": "third_mithridatic_war",
+   "polity": "rome",
+   "commander": "lucius_licinius_lucullus",
+   "start": -74,
+   "end": -67,
+   "strength": "5 legions, c. 30,000 foot and 2,500 horse; 12,000 foot and 3,000 horse at Tigranocerta",
+   "summary": "Lucullus relieved Cyzicus, invaded Pontus and broke Mithridates at Cabira, crossed the Euphrates against Tigranes and won at Tigranocerta, pushed towards Artaxata until his army refused to go on, took Nisibis, and returned to Pontus as his army mutinied.",
+   "path": [
+    {
+     "loc": [
+      27.341,
+      37.941
+     ],
+     "t": "Asia: takes command",
+     "y": -74
+    },
+    {
+     "loc": [
+      27.885,
+      40.384
+     ],
+     "t": "Relief of Cyzicus",
+     "y": -73,
+     "event": "siege_of_cyzicus"
+    },
+    {
+     "loc": [
+      29.92,
+      40.77
+     ],
+     "t": "Bithynia",
+     "y": -72
+    },
+    {
+     "loc": [
+      36.33,
+      41.29
+     ],
+     "t": "Siege of Amisus",
+     "y": -72
+    },
+    {
+     "loc": [
+      36.95,
+      40.59
+     ],
+     "t": "Cabira: Mithridates routed",
+     "y": -72,
+     "event": "battle_of_cabira"
+    },
+    {
+     "loc": [
+      35.15,
+      42.02
+     ],
+     "t": "Sinope taken",
+     "y": -70
+    },
+    {
+     "loc": [
+      38.85,
+      38.65
+     ],
+     "t": "Crosses the Euphrates at Tomisa",
+     "y": -69
+    },
+    {
+     "loc": [
+      41.26,
+      37.98
+     ],
+     "t": "Tigranocerta",
+     "y": -69,
+     "m": 10,
+     "event": "battle_of_tigranocerta"
+    },
+    {
+     "loc": [
+      42.5,
+      37.6
+     ],
+     "t": "Winter in Gordyene",
+     "y": -69
+    },
+    {
+     "loc": [
+      41.6,
+      38.9
+     ],
+     "t": "Arsanias river",
+     "y": -68,
+     "event": "battle_of_the_arsanias"
+    },
+    {
+     "loc": [
+      41.22,
+      37.07
+     ],
+     "t": "Nisibis taken",
+     "y": -68
+    },
+    {
+     "loc": [
+      35.886,
+      40.303
+     ],
+     "t": "Back in Pontus after Zela",
+     "y": -67
+    },
+    {
+     "loc": [
+      33.5,
+      39.4
+     ],
+     "t": "Danala, Galatia: hands over to Pompey",
+     "y": -66
+    }
+   ],
+   "certainty": "probable",
+   "note": "Tigranocerta's location is disputed.",
+   "sources": [
+    {
+     "a": "Plutarch",
+     "w": "Lucullus",
+     "r": "7-36"
+    },
+    {
+     "a": "Appian",
+     "w": "Mithridatica",
+     "r": "72-90"
+    }
+   ]
+  },
+  {
+   "id": "spartacus_revolt_73_71",
+   "name": "The march of Spartacus' army",
+   "war": "third_servile_war",
+   "polity": "spartacan_slaves",
+   "commander": "spartacus",
+   "start": -73,
+   "end": -71,
+   "strength": "70 gladiators at the breakout; 70,000-120,000 including non-combatants at peak (Appian)",
+   "summary": "From Capua the slaves moved to Vesuvius, wintered in Lucania, marched north through Apulia and Picenum to Cisalpine Gaul, beating both consuls and the governor at Mutina, then turned south to Bruttium, where Crassus walled them in. They broke out and were destroyed in Lucania.",
+   "path": [
+    {
+     "loc": [
+      14.25,
+      41.08
+     ],
+     "t": "Breakout from Capua",
+     "y": -73
+    },
+    {
+     "loc": [
+      14.426,
+      40.821
+     ],
+     "t": "Vesuvius",
+     "y": -73,
+     "event": "battle_of_mount_vesuvius"
+    },
+    {
+     "loc": [
+      14.8,
+      40.6
+     ],
+     "t": "Raids in Campania (Nuceria, Nola)",
+     "y": -73
+    },
+    {
+     "loc": [
+      16.5,
+      39.71
+     ],
+     "t": "Winter at Thurii, Lucania",
+     "y": -73
+    },
+    {
+     "loc": [
+      15.95,
+      41.8
+     ],
+     "t": "Garganus: Crixus destroyed",
+     "y": -72,
+     "event": "battle_of_mount_garganus"
+    },
+    {
+     "loc": [
+      13.5,
+      43.1
+     ],
+     "t": "Picenum: consuls defeated",
+     "y": -72,
+     "event": "battle_of_picenum_72"
+    },
+    {
+     "loc": [
+      10.925,
+      44.646
+     ],
+     "t": "Mutina: Cassius defeated",
+     "y": -72
+    },
+    {
+     "loc": [
+      13.5,
+      43.1
+     ],
+     "t": "Turn back south",
+     "y": -72
+    },
+    {
+     "loc": [
+      16.5,
+      39.71
+     ],
+     "t": "Thurii",
+     "y": -72
+    },
+    {
+     "loc": [
+      15.65,
+      38.11
+     ],
+     "t": "Rhegium: pirates fail to ferry them to Sicily",
+     "y": -71
+    },
+    {
+     "loc": [
+      16.0,
+      38.35
+     ],
+     "t": "Breakout through Crassus' wall",
+     "y": -71
+    },
+    {
+     "loc": [
+      15.25,
+      40.62
+     ],
+     "t": "Silarus: final battle",
+     "y": -71,
+     "event": "battle_of_the_silarus_71"
+    }
+   ],
+   "certainty": "approx",
+   "note": "The route north and back is reconstructed from fragmentary notices.",
+   "sources": [
+    {
+     "a": "Appian",
+     "w": "Bella Civilia",
+     "r": "1.116-120"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Crassus",
+     "r": "8-11"
+    }
+   ]
+  },
+  {
+   "id": "pompey_against_the_pirates_67",
+   "name": "Pompey's campaign against the pirates",
+   "war": "cilician_pirate_wars",
+   "polity": "rome",
+   "commander": "pompey",
+   "start": -67,
+   "end": -67,
+   "strength": "500 ships, 120,000 infantry, 5,000 cavalry, 24 legates (lex Gabinia)",
+   "summary": "Dividing the Mediterranean into thirteen zones under legates, Pompey swept the western seas in 40 days, returned to Rome, then sailed from Brundisium to Cilicia, where the pirates' strongholds surrendered after the battle of Coracesium; the whole campaign took about three months.",
+   "path": [
+    {
+     "loc": [
+      12.49,
+      41.89
+     ],
+     "t": "Rome",
+     "y": -67,
+     "m": 3
+    },
+    {
+     "loc": [
+      13.36,
+      38.12
+     ],
+     "t": "Sicily",
+     "y": -67,
+     "sea": true
+    },
+    {
+     "loc": [
+      10.06,
+      37.06
+     ],
+     "t": "Africa",
+     "y": -67,
+     "sea": true
+    },
+    {
+     "loc": [
+      9.11,
+      39.22
+     ],
+     "t": "Sardinia",
+     "y": -67,
+     "sea": true
+    },
+    {
+     "loc": [
+      12.29,
+      41.755
+     ],
+     "t": "Back to Ostia and Rome (40 days)",
+     "y": -67,
+     "sea": true
+    },
+    {
+     "loc": [
+      17.94,
+      40.64
+     ],
+     "t": "Brundisium",
+     "y": -67
+    },
+    {
+     "loc": [
+      23.643,
+      37.942
+     ],
+     "t": "Athens",
+     "y": -67,
+     "sea": true
+    },
+    {
+     "loc": [
+      28.224,
+      36.443
+     ],
+     "t": "Rhodes",
+     "y": -67,
+     "sea": true
+    },
+    {
+     "loc": [
+      31.996,
+      36.544
+     ],
+     "t": "Coracesium",
+     "y": -67,
+     "sea": true,
+     "event": "battle_of_coracesium"
+    },
+    {
+     "loc": [
+      34.56,
+      36.74
+     ],
+     "t": "Soli, refounded as Pompeiopolis for resettled pirates",
+     "y": -67,
+     "sea": true
+    }
+   ],
+   "certainty": "probable",
+   "sources": [
+    {
+     "a": "Plutarch",
+     "w": "Pompey",
+     "r": "26-28"
+    },
+    {
+     "a": "Appian",
+     "w": "Mithridatica",
+     "r": "94-96"
+    },
+    {
+     "a": "Cicero",
+     "w": "De imperio Cn. Pompei (Pro lege Manilia)",
+     "r": "34-35"
+    }
+   ]
+  },
+  {
+   "id": "pompey_east_66_63",
+   "name": "Pompey in the East",
+   "war": "third_mithridatic_war",
+   "polity": "rome",
+   "commander": "pompey",
+   "start": -66,
+   "end": -62,
+   "strength": "Lucullus' army and his own, perhaps 40,000-50,000",
+   "summary": "Pompey took over from Lucullus, destroyed Mithridates' army at the Lycus, received Tigranes' surrender at Artaxata, campaigned against the Albanians and Iberians in the Caucasus, wintered at Amisus, annexed Syria, captured Jerusalem and returned to Italy in 62.",
+   "path": [
+    {
+     "loc": [
+      34.56,
+      36.74
+     ],
+     "t": "Cilicia (winter 67/66)",
+     "y": -66
+    },
+    {
+     "loc": [
+      33.5,
+      39.4
+     ],
+     "t": "Danala: meeting with Lucullus",
+     "y": -66
+    },
+    {
+     "loc": [
+      38.12,
+      40.17
+     ],
+     "t": "The Lycus: Mithridates routed",
+     "y": -66,
+     "event": "battle_of_the_lycus"
+    },
+    {
+     "loc": [
+      44.57,
+      39.88
+     ],
+     "t": "Artaxata: Tigranes submits",
+     "y": -66,
+     "event": "submission_of_tigranes"
+    },
+    {
+     "loc": [
+      46.0,
+      41.2
+     ],
+     "t": "Winter camps on the Cyrnus (Kura)",
+     "y": -66
+    },
+    {
+     "loc": [
+      44.72,
+      41.84
+     ],
+     "t": "Iberia: battle of the Pelorus",
+     "y": -65
+    },
+    {
+     "loc": [
+      41.67,
+      42.15
+     ],
+     "t": "Phasis, Colchis",
+     "y": -65
+    },
+    {
+     "loc": [
+      46.4,
+      41.5
+     ],
+     "t": "Albania: battle of the Abas",
+     "y": -65,
+     "event": "battle_of_the_abas"
+    },
+    {
+     "loc": [
+      36.33,
+      41.29
+     ],
+     "t": "Amisus (winter 65/64)",
+     "y": -65
+    },
+    {
+     "loc": [
+      36.16,
+      36.2
+     ],
+     "t": "Antioch: Syria annexed",
+     "y": -64,
+     "event": "annexation_of_syria"
+    },
+    {
+     "loc": [
+      36.3,
+      33.51
+     ],
+     "t": "Damascus",
+     "y": -63
+    },
+    {
+     "loc": [
+      35.44,
+      31.86
+     ],
+     "t": "Jericho: news of Mithridates' death",
+     "y": -63
+    },
+    {
+     "loc": [
+      35.235,
+      31.778
+     ],
+     "t": "Jerusalem",
+     "y": -63,
+     "event": "siege_of_jerusalem_63"
+    },
+    {
+     "loc": [
+      36.33,
+      41.29
+     ],
+     "t": "Amisus: settlement of the East",
+     "y": -63,
+     "event": "pompeys_eastern_settlement"
+    },
+    {
+     "loc": [
+      26.556,
+      39.105
+     ],
+     "t": "Mytilene",
+     "y": -62
+    },
+    {
+     "loc": [
+      17.94,
+      40.64
+     ],
+     "t": "Brundisium: army disbanded",
+     "y": -62,
+     "m": 12,
+     "sea": true
+    }
+   ],
+   "certainty": "probable",
+   "sources": [
+    {
+     "a": "Plutarch",
+     "w": "Pompey",
+     "r": "30-43"
+    },
+    {
+     "a": "Appian",
+     "w": "Mithridatica",
+     "r": "97-117"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "36.45-37.20"
+    }
+   ]
+  },
+  {
+   "id": "crassus_parthia_53",
+   "name": "Crassus' march to Carrhae",
+   "war": "crassus_parthian_war",
+   "polity": "rome",
+   "commander": "crassus",
+   "start": -53,
+   "end": -53,
+   "strength": "7 legions (c. 35,000), 4,000 cavalry, 4,000 light troops",
+   "summary": "Crassus crossed the Euphrates at Zeugma and, instead of following the river or going through Armenia, struck across the Mesopotamian steppe after the Parthian army, guided by the Osrhoene Abgar. Surena caught him south of Carrhae; the survivors retreated through Carrhae towards the Armenian hills, where Crassus was killed.",
+   "path": [
+    {
+     "loc": [
+      36.16,
+      36.2
+     ],
+     "t": "Antioch: winter quarters",
+     "y": -54
+    },
+    {
+     "loc": [
+      37.87,
+      37.06
+     ],
+     "t": "Euphrates crossing at Zeugma",
+     "y": -53,
+     "m": 5
+    },
+    {
+     "loc": [
+      38.45,
+      36.9
+     ],
+     "t": "March into the steppe",
+     "y": -53
+    },
+    {
+     "loc": [
+      39.0,
+      36.75
+     ],
+     "t": "Battle with Surena",
+     "y": -53,
+     "m": 6,
+     "event": "battle_of_carrhae"
+    },
+    {
+     "loc": [
+      39.03,
+      36.86
+     ],
+     "t": "Night retreat to Carrhae",
+     "y": -53,
+     "m": 6
+    },
+    {
+     "loc": [
+      39.4,
+      37.1
+     ],
+     "t": "Near Sinnaca: Crassus killed at a parley",
+     "y": -53,
+     "m": 6
+    }
+   ],
+   "certainty": "approx",
+   "sources": [
+    {
+     "a": "Plutarch",
+     "w": "Crassus",
+     "r": "17-31"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "40.16-27"
+    }
+   ]
+  },
+  {
+   "id": "caesar_gaul_58",
+   "name": "Caesar in Gaul, 58 BC: the Helvetii and Ariovistus",
+   "war": "gallic_wars",
+   "polity": "rome",
+   "commander": "julius_caesar",
+   "start": -58,
+   "end": -58,
+   "strength": "1 legion at Geneva rising to 6 (VII-XII), with auxiliaries; c. 30,000-35,000",
+   "summary": "Caesar raced from Rome to Geneva, blocked the Helvetii, raised two new legions in Cisalpine Gaul, crossed the Alps, cut up the Tigurini at the Saône, defeated the Helvetii near Bibracte, and in September destroyed Ariovistus' Germans in Alsace.",
+   "path": [
+    {
+     "loc": [
+      12.49,
+      41.89
+     ],
+     "t": "Rome",
+     "y": -58,
+     "m": 3
+    },
+    {
+     "loc": [
+      6.143,
+      46.204
+     ],
+     "t": "Genava: bridge broken, wall along the Rhône",
+     "y": -58,
+     "m": 3
+    },
+    {
+     "loc": [
+      9.19,
+      45.46
+     ],
+     "t": "Cisalpine Gaul: two legions raised",
+     "y": -58,
+     "m": 4
+    },
+    {
+     "loc": [
+      7.4,
+      45.08
+     ],
+     "t": "Ocelum",
+     "y": -58,
+     "m": 5
+    },
+    {
+     "loc": [
+      6.72,
+      44.93
+     ],
+     "t": "Over the Alps (Mont Genèvre)",
+     "y": -58,
+     "m": 5
+    },
+    {
+     "loc": [
+      4.83,
+      45.76
+     ],
+     "t": "Crossing of the Rhône",
+     "y": -58,
+     "m": 6
+    },
+    {
+     "loc": [
+      4.83,
+      46.1
+     ],
+     "t": "The Arar: Tigurini destroyed",
+     "y": -58,
+     "m": 6,
+     "event": "battle_of_the_arar"
+    },
+    {
+     "loc": [
+      4.05,
+      46.73
+     ],
+     "t": "Near Bibracte: Helvetii defeated",
+     "y": -58,
+     "m": 7,
+     "event": "battle_of_bibracte"
+    },
+    {
+     "loc": [
+      6.024,
+      47.238
+     ],
+     "t": "Vesontio: panic in the army",
+     "y": -58,
+     "m": 8
+    },
+    {
+     "loc": [
+      7.25,
+      47.85
+     ],
+     "t": "Alsace: Ariovistus defeated",
+     "y": -58,
+     "m": 9,
+     "event": "battle_of_vosges"
+    },
+    {
+     "loc": [
+      6.024,
+      47.238
+     ],
+     "t": "Winter quarters among the Sequani",
+     "y": -58,
+     "m": 10
+    }
+   ],
+   "certainty": "probable",
+   "note": "Battle sites at Bibracte and against Ariovistus are approximate.",
+   "sources": [
+    {
+     "a": "Caesar",
+     "w": "De Bello Gallico",
+     "r": "1"
+    }
+   ]
+  },
+  {
+   "id": "caesar_gaul_57",
+   "name": "Caesar in Gaul, 57 BC: the Belgae",
+   "war": "gallic_wars",
+   "polity": "rome",
+   "commander": "julius_caesar",
+   "start": -57,
+   "end": -57,
+   "strength": "8 legions (two new, XIII and XIV), plus Numidian, Cretan and Balearic auxiliaries",
+   "summary": "Caesar marched north to the Remi, held the Belgic coalition at the Aisne until it broke up, received the submission of the Suessiones, Bellovaci and Ambiani, nearly lost his army to the Nervii at the Sabis, and stormed the oppidum of the Atuatuci.",
+   "path": [
+    {
+     "loc": [
+      6.024,
+      47.238
+     ],
+     "t": "Vesontio",
+     "y": -57,
+     "m": 5
+    },
+    {
+     "loc": [
+      4.03,
+      49.26
+     ],
+     "t": "Durocortorum (Reims): the Remi ally with Rome",
+     "y": -57,
+     "m": 6
+    },
+    {
+     "loc": [
+      3.896,
+      49.403
+     ],
+     "t": "Camp on the Axona",
+     "y": -57,
+     "m": 6,
+     "event": "battle_of_the_axona"
+    },
+    {
+     "loc": [
+      3.33,
+      49.38
+     ],
+     "t": "Noviodunum of the Suessiones",
+     "y": -57,
+     "m": 7
+    },
+    {
+     "loc": [
+      2.08,
+      49.43
+     ],
+     "t": "Bratuspantium of the Bellovaci",
+     "y": -57,
+     "m": 7
+    },
+    {
+     "loc": [
+      2.3,
+      49.89
+     ],
+     "t": "Ambiani",
+     "y": -57,
+     "m": 7
+    },
+    {
+     "loc": [
+      3.97,
+      50.28
+     ],
+     "t": "The Sabis: the Nervii",
+     "y": -57,
+     "m": 8,
+     "event": "battle_of_the_sabis"
+    },
+    {
+     "loc": [
+      4.86,
+      50.46
+     ],
+     "t": "Oppidum of the Atuatuci",
+     "y": -57,
+     "m": 9,
+     "event": "siege_of_the_atuatuci"
+    },
+    {
+     "loc": [
+      1.0,
+      47.4
+     ],
+     "t": "Winter quarters on the Loire",
+     "y": -57,
+     "m": 10
+    }
+   ],
+   "certainty": "probable",
+   "note": "The Sabis is identified with the Sambre or the Selle; the Atuatucan oppidum is unlocated.",
+   "sources": [
+    {
+     "a": "Caesar",
+     "w": "De Bello Gallico",
+     "r": "2"
+    }
+   ]
+  },
+  {
+   "id": "caesar_gaul_56",
+   "name": "Caesar in Gaul, 56 BC: the Veneti",
+   "war": "gallic_wars",
+   "polity": "rome",
+   "commander": "julius_caesar",
+   "start": -56,
+   "end": -56,
+   "strength": "8 legions divided: Caesar against the Veneti, Labienus on the Rhine, Crassus in Aquitania, Sabinus in Normandy; a fleet under Decimus Brutus",
+   "summary": "After meeting Pompey at Luca, Caesar went to the Loire, where a fleet was built, and destroyed the Veneti in Quiberon Bay; Publius Crassus conquered Aquitania. A late campaign against the Morini and Menapii was stopped by the weather.",
+   "path": [
+    {
+     "loc": [
+      10.503,
+      43.843
+     ],
+     "t": "Luca: meeting with Pompey",
+     "y": -56,
+     "m": 4,
+     "event": "conference_of_luca"
+    },
+    {
+     "loc": [
+      4.83,
+      45.76
+     ],
+     "t": "Through Transalpine Gaul",
+     "y": -56,
+     "m": 5
+    },
+    {
+     "loc": [
+      1.0,
+      47.4
+     ],
+     "t": "The Loire",
+     "y": -56,
+     "m": 5
+    },
+    {
+     "loc": [
+      -1.55,
+      47.22
+     ],
+     "t": "Mouth of the Loire: fleet assembled",
+     "y": -56,
+     "m": 6
+    },
+    {
+     "loc": [
+      -2.95,
+      47.5
+     ],
+     "t": "Quiberon Bay: Veneti destroyed",
+     "y": -56,
+     "m": 8,
+     "event": "battle_of_morbihan"
+    },
+    {
+     "loc": [
+      0.2,
+      49.1
+     ],
+     "t": "Through Normandy",
+     "y": -56,
+     "m": 9
+    },
+    {
+     "loc": [
+      2.3,
+      50.8
+     ],
+     "t": "Against the Morini and Menapii",
+     "y": -56,
+     "m": 10
+    },
+    {
+     "loc": [
+      0.2,
+      49.1
+     ],
+     "t": "Winter among the Aulerci and Lexovii",
+     "y": -56,
+     "m": 11
+    }
+   ],
+   "certainty": "probable",
+   "sources": [
+    {
+     "a": "Caesar",
+     "w": "De Bello Gallico",
+     "r": "3"
+    }
+   ]
+  },
+  {
+   "id": "caesar_gaul_55",
+   "name": "Caesar in Gaul, 55 BC: the Rhine and Britain",
+   "war": "gallic_wars",
+   "polity": "rome",
+   "commander": "julius_caesar",
+   "start": -55,
+   "end": -55,
+   "strength": "8 legions; 2 (VII and X) for the British expedition, about 80 transports",
+   "summary": "Caesar massacred the Usipetes and Tencteri near the Meuse-Rhine confluence, bridged the Rhine and spent 18 days in Germany, then crossed to Britain late in the season with two legions.",
+   "path": [
+    {
+     "loc": [
+      3.97,
+      50.28
+     ],
+     "t": "Belgic winter quarters",
+     "y": -55,
+     "m": 4
+    },
+    {
+     "loc": [
+      5.38,
+      51.79
+     ],
+     "t": "Massacre of the Usipetes and Tencteri",
+     "y": -55,
+     "m": 5,
+     "event": "massacre_of_the_usipetes_and_tencteri"
+    },
+    {
+     "loc": [
+      7.46,
+      50.43
+     ],
+     "t": "Bridge over the Rhine",
+     "y": -55,
+     "m": 6,
+     "event": "caesars_rhine_bridge"
+    },
+    {
+     "loc": [
+      7.8,
+      50.6
+     ],
+     "t": "Sugambrian territory",
+     "y": -55,
+     "m": 7
+    },
+    {
+     "loc": [
+      7.46,
+      50.43
+     ],
+     "t": "Back across; bridge destroyed",
+     "y": -55,
+     "m": 7
+    },
+    {
+     "loc": [
+      1.61,
+      50.73
+     ],
+     "t": "Portus Itius (Boulogne)",
+     "y": -55,
+     "m": 8
+    },
+    {
+     "loc": [
+      1.4,
+      51.2
+     ],
+     "t": "Landing in Britain",
+     "y": -55,
+     "m": 8,
+     "sea": true,
+     "event": "first_invasion_of_britain"
+    },
+    {
+     "loc": [
+      1.61,
+      50.73
+     ],
+     "t": "Return to Gaul",
+     "y": -55,
+     "m": 9,
+     "sea": true
+    }
+   ],
+   "certainty": "probable",
+   "note": "The Rhine bridge site (Neuwied or Koblenz-Urmitz) and the British landing beach are disputed.",
+   "sources": [
+    {
+     "a": "Caesar",
+     "w": "De Bello Gallico",
+     "r": "4"
+    }
+   ]
+  },
+  {
+   "id": "caesar_gaul_54",
+   "name": "Caesar in Gaul and Britain, 54 BC",
+   "war": "gallic_wars",
+   "polity": "rome",
+   "commander": "julius_caesar",
+   "start": -54,
+   "end": -54,
+   "strength": "5 legions and 2,000 cavalry in Britain, c. 800 ships; 8 legions and 5 cohorts in Gaul",
+   "summary": "Caesar crossed to Britain with five legions, defeated Cassivellaunus beyond the Thames and imposed tribute. That winter Ambiorix destroyed Sabinus and Cotta's force at Atuatuca and the Nervii besieged Quintus Cicero, whom Caesar relieved.",
+   "path": [
+    {
+     "loc": [
+      6.64,
+      49.75
+     ],
+     "t": "Treveri: settling their dispute",
+     "y": -54,
+     "m": 5
+    },
+    {
+     "loc": [
+      1.61,
+      50.73
+     ],
+     "t": "Portus Itius",
+     "y": -54,
+     "m": 7
+    },
+    {
+     "loc": [
+      1.37,
+      51.32
+     ],
+     "t": "Landing in Kent",
+     "y": -54,
+     "m": 7,
+     "sea": true
+    },
+    {
+     "loc": [
+      -0.3,
+      51.48
+     ],
+     "t": "Forcing the Thames",
+     "y": -54,
+     "m": 8,
+     "event": "battle_of_the_thames"
+    },
+    {
+     "loc": [
+      -0.29,
+      51.81
+     ],
+     "t": "Cassivellaunus' oppidum stormed",
+     "y": -54,
+     "m": 8
+    },
+    {
+     "loc": [
+      1.37,
+      51.32
+     ],
+     "t": "Back to the coast",
+     "y": -54,
+     "m": 9
+    },
+    {
+     "loc": [
+      1.61,
+      50.73
+     ],
+     "t": "Return to Gaul",
+     "y": -54,
+     "m": 9,
+     "sea": true
+    },
+    {
+     "loc": [
+      2.3,
+      49.89
+     ],
+     "t": "Samarobriva: council and winter quarters",
+     "y": -54,
+     "m": 10
+    },
+    {
+     "loc": [
+      4.2,
+      50.4
+     ],
+     "t": "Relief of Quintus Cicero's camp",
+     "y": -54,
+     "m": 11,
+     "event": "siege_of_ciceros_camp"
+    }
+   ],
+   "certainty": "probable",
+   "note": "The battle of Atuatuca (battle_of_atuatuca) was fought by Sabinus and Cotta, not Caesar's column.",
+   "sources": [
+    {
+     "a": "Caesar",
+     "w": "De Bello Gallico",
+     "r": "5"
+    }
+   ]
+  },
+  {
+   "id": "caesar_gaul_53",
+   "name": "Caesar in Gaul, 53 BC: the punitive campaigns",
+   "war": "gallic_wars",
+   "polity": "rome",
+   "commander": "julius_caesar",
+   "start": -53,
+   "end": -53,
+   "strength": "10 legions (three new, one lent by Pompey)",
+   "summary": "Caesar struck the Nervii before spring, held a council at Lutetia, forced the Senones, Carnutes and Menapii to submit, crossed the Rhine a second time and turned the land of the Eburones over to plunder. At Durocortorum he had Acco of the Senones flogged and beheaded.",
+   "path": [
+    {
+     "loc": [
+      3.97,
+      50.28
+     ],
+     "t": "Winter strike on the Nervii",
+     "y": -53,
+     "m": 2
+    },
+    {
+     "loc": [
+      2.35,
+      48.85
+     ],
+     "t": "Lutetia: council of Gaul",
+     "y": -53,
+     "m": 3
+    },
+    {
+     "loc": [
+      3.28,
+      48.2
+     ],
+     "t": "Senones submit",
+     "y": -53,
+     "m": 3
+    },
+    {
+     "loc": [
+      4.5,
+      51.3
+     ],
+     "t": "Menapii",
+     "y": -53,
+     "m": 5
+    },
+    {
+     "loc": [
+      7.46,
+      50.43
+     ],
+     "t": "Second Rhine bridge",
+     "y": -53,
+     "m": 6
+    },
+    {
+     "loc": [
+      5.464,
+      50.781
+     ],
+     "t": "Devastation of the Eburones; base at Atuatuca",
+     "y": -53,
+     "m": 8
+    },
+    {
+     "loc": [
+      4.03,
+      49.26
+     ],
+     "t": "Durocortorum: execution of Acco",
+     "y": -53,
+     "m": 10
+    },
+    {
+     "loc": [
+      3.28,
+      48.2
+     ],
+     "t": "Winter quarters at Agedincum",
+     "y": -53,
+     "m": 11
+    }
+   ],
+   "certainty": "probable",
+   "sources": [
+    {
+     "a": "Caesar",
+     "w": "De Bello Gallico",
+     "r": "6"
+    }
+   ]
+  },
+  {
+   "id": "caesar_gaul_52",
+   "name": "Caesar against Vercingetorix, 52 BC",
+   "war": "gallic_wars",
+   "polity": "rome",
+   "commander": "julius_caesar",
+   "start": -52,
+   "end": -52,
+   "strength": "10 legions with German cavalry, perhaps 50,000-60,000",
+   "summary": "Caesar hurried from Italy across the snow-bound Cévennes, joined his legions at Agedincum, took Vellaunodunum, Cenabum and Avaricum, failed at Gergovia, reunited with Labienus, and after a cavalry battle besieged Vercingetorix at Alesia, defeating the relief army.",
+   "path": [
+    {
+     "loc": [
+      12.2,
+      44.42
+     ],
+     "t": "Ravenna",
+     "y": -52,
+     "m": 1
+    },
+    {
+     "loc": [
+      3.003,
+      43.184
+     ],
+     "t": "Narbo: Province secured",
+     "y": -52,
+     "m": 2
+    },
+    {
+     "loc": [
+      3.6,
+      44.9
+     ],
+     "t": "Across the Cévennes in snow",
+     "y": -52,
+     "m": 2
+    },
+    {
+     "loc": [
+      4.874,
+      45.525
+     ],
+     "t": "Vienna",
+     "y": -52,
+     "m": 2
+    },
+    {
+     "loc": [
+      3.28,
+      48.2
+     ],
+     "t": "Agedincum: legions concentrated",
+     "y": -52,
+     "m": 3
+    },
+    {
+     "loc": [
+      2.73,
+      47.99
+     ],
+     "t": "Vellaunodunum",
+     "y": -52,
+     "m": 3
+    },
+    {
+     "loc": [
+      1.909,
+      47.902
+     ],
+     "t": "Cenabum sacked",
+     "y": -52,
+     "m": 3,
+     "event": "massacre_at_cenabum"
+    },
+    {
+     "loc": [
+      2.397,
+      47.083
+     ],
+     "t": "Avaricum",
+     "y": -52,
+     "m": 4,
+     "event": "siege_of_avaricum"
+    },
+    {
+     "loc": [
+      3.122,
+      45.709
+     ],
+     "t": "Gergovia",
+     "y": -52,
+     "m": 5,
+     "event": "battle_of_gergovia"
+    },
+    {
+     "loc": [
+      3.28,
+      48.2
+     ],
+     "t": "Agedincum: rejoined by Labienus",
+     "y": -52,
+     "m": 7
+    },
+    {
+     "loc": [
+      5.25,
+      47.55
+     ],
+     "t": "Cavalry battle among the Lingones",
+     "y": -52,
+     "m": 8
+    },
+    {
+     "loc": [
+      4.5,
+      47.537
+     ],
+     "t": "Alesia",
+     "y": -52,
+     "m": 9,
+     "event": "siege_of_alesia"
+    },
+    {
+     "loc": [
+      4.033,
+      46.923
+     ],
+     "t": "Winter at Bibracte",
+     "y": -52,
+     "m": 11
+    }
+   ],
+   "certainty": "probable",
+   "sources": [
+    {
+     "a": "Caesar",
+     "w": "De Bello Gallico",
+     "r": "7"
+    }
+   ]
+  },
+  {
+   "id": "caesar_civil_war_49_48",
+   "name": "Caesar's campaigns of 49-48 BC",
+   "war": "caesars_civil_war",
+   "polity": "caesariani",
+   "commander": "julius_caesar",
+   "start": -49,
+   "end": -48,
+   "strength": "1 legion at the Rubicon; 6 legions in Spain; 7 legions crossing to Epirus, later 11; 22,000 infantry at Pharsalus",
+   "summary": "From the Rubicon Caesar overran Italy in two months, pushed Pompey out of Brundisium, went to Spain by way of Massilia and won at Ilerda, returned to Rome, crossed the Adriatic in January 48, was beaten at Dyrrhachium, and won at Pharsalus. He pursued Pompey to Egypt.",
+   "path": [
+    {
+     "loc": [
+      12.2,
+      44.42
+     ],
+     "t": "Ravenna",
+     "y": -49,
+     "m": 1
+    },
+    {
+     "loc": [
+      12.397,
+      44.093
+     ],
+     "t": "Crossing of the Rubicon",
+     "y": -49,
+     "m": 1,
+     "event": "crossing_of_the_rubicon"
+    },
+    {
+     "loc": [
+      12.568,
+      44.06
+     ],
+     "t": "Ariminum",
+     "y": -49,
+     "m": 1
+    },
+    {
+     "loc": [
+      13.48,
+      43.48
+     ],
+     "t": "Auximum",
+     "y": -49,
+     "m": 1
+    },
+    {
+     "loc": [
+      13.84,
+      42.12
+     ],
+     "t": "Corfinium",
+     "y": -49,
+     "m": 2,
+     "event": "siege_of_corfinium"
+    },
+    {
+     "loc": [
+      17.94,
+      40.64
+     ],
+     "t": "Brundisium: Pompey escapes",
+     "y": -49,
+     "m": 3,
+     "event": "pompey_evacuates_brundisium"
+    },
+    {
+     "loc": [
+      12.49,
+      41.89
+     ],
+     "t": "Rome: treasury seized",
+     "y": -49,
+     "m": 4,
+     "event": "caesar_seizes_the_aerarium"
+    },
+    {
+     "loc": [
+      5.37,
+      43.296
+     ],
+     "t": "Massilia besieged",
+     "y": -49,
+     "m": 4,
+     "event": "siege_of_massilia"
+    },
+    {
+     "loc": [
+      0.62,
+      41.617
+     ],
+     "t": "Ilerda",
+     "y": -49,
+     "m": 8,
+     "event": "battle_of_ilerda"
+    },
+    {
+     "loc": [
+      -4.78,
+      37.88
+     ],
+     "t": "Corduba",
+     "y": -49,
+     "m": 9
+    },
+    {
+     "loc": [
+      5.37,
+      43.296
+     ],
+     "t": "Surrender of Massilia",
+     "y": -49,
+     "m": 10
+    },
+    {
+     "loc": [
+      12.49,
+      41.89
+     ],
+     "t": "Rome: dictator, elected consul",
+     "y": -49,
+     "m": 12
+    },
+    {
+     "loc": [
+      17.94,
+      40.64
+     ],
+     "t": "Brundisium",
+     "y": -48,
+     "m": 1
+    },
+    {
+     "loc": [
+      19.58,
+      40.18
+     ],
+     "t": "Landing at Palaeste",
+     "y": -48,
+     "m": 1,
+     "sea": true
+    },
+    {
+     "loc": [
+      19.5,
+      41.25
+     ],
+     "t": "Dyrrhachium",
+     "y": -48,
+     "m": 7,
+     "event": "battle_of_dyrrhachium"
+    },
+    {
+     "loc": [
+      19.44,
+      40.72
+     ],
+     "t": "Apollonia",
+     "y": -48,
+     "m": 7
+    },
+    {
+     "loc": [
+      21.45,
+      39.45
+     ],
+     "t": "Gomphi stormed",
+     "y": -48,
+     "m": 7
+    },
+    {
+     "loc": [
+      22.38,
+      39.32
+     ],
+     "t": "Pharsalus",
+     "y": -48,
+     "m": 8,
+     "event": "battle_of_pharsalus"
+    },
+    {
+     "loc": [
+      23.85,
+      40.82
+     ],
+     "t": "Amphipolis",
+     "y": -48,
+     "m": 8
+    },
+    {
+     "loc": [
+      26.4,
+      40.25
+     ],
+     "t": "Hellespont",
+     "y": -48,
+     "m": 9
+    },
+    {
+     "loc": [
+      29.9,
+      31.21
+     ],
+     "t": "Alexandria",
+     "y": -48,
+     "m": 10,
+     "sea": true
+    }
+   ],
+   "certainty": "probable",
+   "note": "Months are by the pre-Julian calendar, which ran about two months ahead of the seasons.",
+   "sources": [
+    {
+     "a": "Caesar",
+     "w": "De Bello Civili",
+     "r": "1-3"
+    }
+   ]
+  },
+  {
+   "id": "caesar_campaigns_47_45",
+   "name": "Caesar's campaigns of 47-45 BC",
+   "war": "caesars_civil_war",
+   "polity": "caesariani",
+   "commander": "julius_caesar",
+   "start": -47,
+   "end": -45,
+   "strength": "3,200 foot in Alexandria; 4 legions at Zela; c. 10 legions in Africa; 8 legions and 8,000 horse at Munda",
+   "summary": "After the Alexandrian War Caesar went through Syria to Pontus and destroyed Pharnaces at Zela, returned to Rome, crossed to Africa and won at Thapsus, came back for his triumphs and then went to Spain, where he beat Pompey's sons at Munda.",
+   "path": [
+    {
+     "loc": [
+      29.9,
+      31.21
+     ],
+     "t": "Alexandria",
+     "y": -47,
+     "m": 3,
+     "event": "battle_of_the_nile"
+    },
+    {
+     "loc": [
+      36.16,
+      36.2
+     ],
+     "t": "Antioch",
+     "y": -47,
+     "m": 6
+    },
+    {
+     "loc": [
+      34.895,
+      36.918
+     ],
+     "t": "Tarsus",
+     "y": -47,
+     "m": 7
+    },
+    {
+     "loc": [
+      35.886,
+      40.303
+     ],
+     "t": "Zela",
+     "y": -47,
+     "m": 8,
+     "event": "battle_of_zela"
+    },
+    {
+     "loc": [
+      29.72,
+      40.43
+     ],
+     "t": "Nicaea",
+     "y": -47,
+     "m": 8
+    },
+    {
+     "loc": [
+      17.24,
+      40.47
+     ],
+     "t": "Tarentum",
+     "y": -47,
+     "m": 9,
+     "sea": true
+    },
+    {
+     "loc": [
+      12.49,
+      41.89
+     ],
+     "t": "Rome: mutiny quelled",
+     "y": -47,
+     "m": 10,
+     "event": "mutiny_of_the_tenth"
+    },
+    {
+     "loc": [
+      12.437,
+      37.805
+     ],
+     "t": "Lilybaeum",
+     "y": -47,
+     "m": 12
+    },
+    {
+     "loc": [
+      10.64,
+      35.83
+     ],
+     "t": "Landing near Hadrumetum",
+     "y": -47,
+     "m": 12,
+     "sea": true
+    },
+    {
+     "loc": [
+      10.83,
+      35.77
+     ],
+     "t": "Ruspina",
+     "y": -46,
+     "m": 1,
+     "event": "battle_of_ruspina"
+    },
+    {
+     "loc": [
+      11.05,
+      35.62
+     ],
+     "t": "Thapsus",
+     "y": -46,
+     "m": 4,
+     "event": "battle_of_thapsus"
+    },
+    {
+     "loc": [
+      10.06,
+      37.06
+     ],
+     "t": "Utica",
+     "y": -46,
+     "m": 4
+    },
+    {
+     "loc": [
+      9.11,
+      39.22
+     ],
+     "t": "Sardinia",
+     "y": -46,
+     "m": 6,
+     "sea": true
+    },
+    {
+     "loc": [
+      12.49,
+      41.89
+     ],
+     "t": "Rome: four triumphs",
+     "y": -46,
+     "m": 9,
+     "sea": true,
+     "event": "caesars_quadruple_triumph"
+    },
+    {
+     "loc": [
+      -4.07,
+      37.86
+     ],
+     "t": "Obulco, Spain",
+     "y": -46,
+     "m": 12
+    },
+    {
+     "loc": [
+      -4.63,
+      37.79
+     ],
+     "t": "Ategua taken",
+     "y": -45,
+     "m": 2
+    },
+    {
+     "loc": [
+      -5.15,
+      37.33
+     ],
+     "t": "Munda",
+     "y": -45,
+     "m": 3,
+     "event": "battle_of_munda"
+    },
+    {
+     "loc": [
+      -5.99,
+      37.39
+     ],
+     "t": "Hispalis",
+     "y": -45,
+     "m": 4
+    },
+    {
+     "loc": [
+      12.49,
+      41.89
+     ],
+     "t": "Return to Rome",
+     "y": -45,
+     "m": 10
+    }
+   ],
+   "certainty": "probable",
+   "sources": [
+    {
+     "a": "[Caesar]",
+     "w": "Bellum Alexandrinum",
+     "r": ""
+    },
+    {
+     "a": "[Caesar]",
+     "w": "Bellum Africum",
+     "r": ""
+    },
+    {
+     "a": "[Caesar]",
+     "w": "Bellum Hispaniense",
+     "r": ""
+    },
+    {
+     "a": "Suetonius",
+     "w": "Divus Iulius",
+     "r": "35-37"
+    }
+   ]
+  },
+  {
+   "id": "antony_parthia_36",
+   "name": "Antony's invasion of Media Atropatene",
+   "war": "parthian_war_of_antony",
+   "polity": "rome",
+   "commander": "mark_antony",
+   "start": -36,
+   "end": -36,
+   "strength": "16 legions (c. 60,000), 10,000 Gallic and Spanish cavalry, 30,000 allies: c. 100,000 (Plutarch)",
+   "summary": "Antony marched from Zeugma north through Armenia, left his siege train behind under Oppius Statianus, and besieged Phraaspa in Media. When the train was destroyed and Armenia deserted him he retreated over the mountains in 27 days of fighting, and lost thousands more to winter on the way to the coast.",
+   "path": [
+    {
+     "loc": [
+      37.87,
+      37.06
+     ],
+     "t": "Zeugma: muster",
+     "y": -36,
+     "m": 5
+    },
+    {
+     "loc": [
+      38.32,
+      38.35
+     ],
+     "t": "Melitene",
+     "y": -36,
+     "m": 6
+    },
+    {
+     "loc": [
+      41.27,
+      39.91
+     ],
+     "t": "Carana, Armenia",
+     "y": -36,
+     "m": 7
+    },
+    {
+     "loc": [
+      44.57,
+      39.88
+     ],
+     "t": "Artaxata",
+     "y": -36,
+     "m": 7
+    },
+    {
+     "loc": [
+      45.8,
+      38.4
+     ],
+     "t": "Into Media Atropatene; siege train left behind",
+     "y": -36,
+     "m": 8
+    },
+    {
+     "loc": [
+      46.4,
+      37.3
+     ],
+     "t": "Siege of Phraaspa",
+     "y": -36,
+     "m": 9,
+     "event": "siege_of_phraaspa"
+    },
+    {
+     "loc": [
+      45.8,
+      38.4
+     ],
+     "t": "Retreat through the mountains",
+     "y": -36,
+     "m": 10
+    },
+    {
+     "loc": [
+      45.5,
+      39.0
+     ],
+     "t": "Araxes crossing",
+     "y": -36,
+     "m": 11
+    },
+    {
+     "loc": [
+      44.57,
+      39.88
+     ],
+     "t": "Armenia",
+     "y": -36,
+     "m": 11
+    },
+    {
+     "loc": [
+      35.45,
+      33.7
+     ],
+     "t": "Leuke Kome on the Phoenician coast",
+     "y": -36,
+     "m": 12
+    }
+   ],
+   "certainty": "approx",
+   "note": "Phraaspa's location and the route of the retreat are uncertain.",
+   "sources": [
+    {
+     "a": "Plutarch",
+     "w": "Antony",
+     "r": "37-51"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "49.24-31"
+    }
+   ]
+  },
+  {
+   "id": "octavian_actium_31",
+   "name": "Octavian's Actium campaign",
+   "war": "war_of_actium",
+   "polity": "rome",
+   "commander": "augustus",
+   "start": -31,
+   "end": -30,
+   "strength": "c. 80,000 infantry and 12,000 cavalry; c. 400 ships under Agrippa",
+   "summary": "Octavian crossed to Epirus while Agrippa raided the Greek coast, took Methone and cut Antony's supply; Antony was blockaded in the Ambracian Gulf and broke out to defeat at Actium. Octavian wintered at Samos, went back to Italy to calm his veterans, then marched through Asia and Syria to take Alexandria.",
+   "path": [
+    {
+     "loc": [
+      17.94,
+      40.64
+     ],
+     "t": "Brundisium",
+     "y": -31,
+     "m": 3
+    },
+    {
+     "loc": [
+      20.4,
+      39.28
+     ],
+     "t": "Landing at Toryne, Epirus",
+     "y": -31,
+     "m": 4,
+     "sea": true
+    },
+    {
+     "loc": [
+      20.75,
+      39.0
+     ],
+     "t": "Camp at Mikalitzi, north of the Ambracian Gulf",
+     "y": -31,
+     "m": 5
+    },
+    {
+     "loc": [
+      20.7,
+      38.95
+     ],
+     "t": "Actium",
+     "y": -31,
+     "m": 9,
+     "event": "battle_of_actium"
+    },
+    {
+     "loc": [
+      26.97,
+      37.75
+     ],
+     "t": "Winter at Samos",
+     "y": -31,
+     "m": 11,
+     "sea": true
+    },
+    {
+     "loc": [
+      17.94,
+      40.64
+     ],
+     "t": "Brundisium: veterans placated",
+     "y": -30,
+     "m": 1,
+     "sea": true
+    },
+    {
+     "loc": [
+      27.341,
+      37.941
+     ],
+     "t": "Asia",
+     "y": -30,
+     "m": 3,
+     "sea": true
+    },
+    {
+     "loc": [
+      36.16,
+      36.2
+     ],
+     "t": "Syria",
+     "y": -30,
+     "m": 5
+    },
+    {
+     "loc": [
+      32.57,
+      31.04
+     ],
+     "t": "Pelusium",
+     "y": -30,
+     "m": 7
+    },
+    {
+     "loc": [
+      29.91,
+      31.2
+     ],
+     "t": "Alexandria",
+     "y": -30,
+     "m": 8,
+     "event": "fall_of_alexandria_30"
+    }
+   ],
+   "certainty": "probable",
+   "sources": [
+    {
+     "a": "Plutarch",
+     "w": "Antony",
+     "r": "61-81"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "50.11-51.11"
+    }
+   ]
+  }
+ ]
+}

@@ -150,7 +150,8 @@ def build_regions(simplify='12%'):
         if not pieces:
             continue
         pieces.sort(key=lambda x: -x[1].area)
-        if c['area'] < 25000 or pieces[0][1].area / c['g'].area > 0.85:
+        inside = sum(1 for r in cand if c['g'].contains(r['_pt']))
+        if inside < 2 and (c['area'] < 25000 or pieces[0][1].area / c['g'].area > 0.85):
             parts[pieces[0][0]['id']].append(c['g'])
         else:
             for owner, inter in pieces:
