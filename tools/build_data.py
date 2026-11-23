@@ -221,6 +221,17 @@ def main():
                 need_polity(b.get('victor'), e.get('id'))
         e['importance'] = max(1, min(5, int(e.get('importance') or 2)))
         evs.append(e)
+    # same id used for different events in different years: keep both by suffixing the year
+    by_id = collections.defaultdict(list)
+    for e in evs:
+        by_id[e.get('id')].append(e)
+    for i, lst in by_id.items():
+        years = sorted({e['year'] for e in lst})
+        if i and len(years) > 1:
+            for e in lst:
+                if e['year'] != years[-1]:
+                    e['id'] = f"{i}_{abs(e['year'])}{'bc' if e['year'] < 0 else ''}"
+                    warn('event: id collision renamed', e['id'])
     evs = dedupe(evs, 'event')
     # same title + year from two eras -> merge
     evs = dedupe(evs, 'event (title/year)', key=lambda o: (re.sub(r'\W+', '', o.get('title', '').lower()), o['year']))
@@ -473,6 +484,17 @@ def main():
                                                      frontiers=frontiers, roads=roads, sources=sources, glossary=glossary, series=series).items()}
     codex['rulers'] = rulers
     codex['fasti'] = [fasti[y] for y in sorted(fasti)]
+    # heavy long-form fields go to a lazily loaded file so first paint is fast
+    HEAVY = ('detail', 'debate', 'scholarship', 'sources')
+    details = {}
+    for kname, lst in (('events', codex['events']), ('people', codex['people']), ('wars', codex['wars'])):
+        dk = details.setdefault(kname, {})
+        for o in lst:
+            h = {f: o.pop(f) for f in HEAVY if f in o}
+            if h:
+                dk[o['id']] = h
+    with open(os.path.join(DATA, 'details.json'), 'w', encoding='utf-8') as f:
+        json.dump(details, f, ensure_ascii=False, separators=(',', ':'))
     extra = {k: [strip(o) for o in v] for k, v in dict(provinces=provinces, monuments=monuments, mints=mints, hoards=hoards, coinage=coinage,
                                                      sites=sites, routes=routes, tours=tours).items()}
     for k, v in (('atlas', atlas), ('codex', codex), ('chapters', {'chapters': [strip(c) for c in chapters]}), ('extra', extra), ('tactics', {'tactics': [strip(t) for t in tactics]})):

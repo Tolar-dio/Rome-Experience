@@ -1,5 +1,5 @@
 // Bootstrap and global UI (year plate, legend, layers, playback, keyboard, guide).
-import { D, loadAll, rulersAt, nameOf } from './data.js';
+import { D, loadAll, rulersAt, nameOf, loadDetails } from './data.js';
 import { S, on, emit, setYear, select, setLayer, restoreLayers, readHash } from './state.js';
 import { esc, fmtYear, auc, eraOf, addYears, MIN_YEAR, MAX_YEAR, STATUS_LABEL, fmtNum } from './util.js';
 import { initMap, map, polityLabel } from './map.js';
@@ -26,6 +26,7 @@ async function boot() {
   await initMap(() => {
     $('app').classList.remove('loading');
     window.orbis = { map, D, S, setYear, select };
+    setTimeout(() => loadDetails(), 1500);
     if (h.selected) select(h.selected.kind, h.selected.id);
     if (!localStorage.getItem('orbis.seenGuide')) openGuide();
   });

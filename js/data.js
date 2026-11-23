@@ -58,6 +58,20 @@ export async function loadAll(onMsg = () => {}) {
   return D;
 }
 
+let detailsPromise = null;
+export function loadDetails() {
+  if (!detailsPromise) {
+    detailsPromise = getJSON('data/details.json').then((d) => {
+      for (const [k, kind] of [['events', 'event'], ['people', 'person'], ['wars', 'war']]) {
+        for (const [id, h] of Object.entries(d[k] || {})) { const o = D.byKind[kind].get(id); if (o) Object.assign(o, h); }
+      }
+      D.detailsLoaded = true;
+      return true;
+    }).catch(() => false);
+  }
+  return detailsPromise;
+}
+
 export async function loadTactics() {
   if (!D.tactics) {
     const t = await getJSON('data/tactics.json').catch(() => ({ tactics: [] }));

@@ -11,14 +11,20 @@ python3 -m http.server 8000
 
 ## What is in it
 
-- **Territory, year by year.** Map regions (built from modern admin units cut along the Ancient World Mapping Center's Roman frontier lines) each carry a control timeline from 509 BC to AD 641: Roman rule, allies and federates, client kingdoms, occupation, contested zones, and every rival state in its own colour, from the Volsci and Samnites to the Sasanians, Avars and the Rashidun caliphate.
-- **Chronicle.** Events with dates to the day where known, importance ratings, categories, ancient source references and notes on what is disputed. Battles carry sides, commanders, strengths, losses and victors.
-- **Wars and campaigns.** Wars with phases and sides; campaign routes drawn on the map in their years, with a "Follow the march" mode that animates the army along its route.
-- **Encyclopedia.** People, places (with Pleiades ids), states and peoples, legions with their bases over time, frontier works, named roads, a glossary of Roman institutions.
-- **Historia.** A continuous narrative history in chapters, cross-linked to the map.
+- **Territory, year by year.** 385 map regions (modern admin units cut along the Ancient World Mapping Center's Roman frontier lines) each carry a control timeline from 509 BC to AD 641: Roman rule, allies and federates, client kingdoms, occupation, contested zones, and every rival state in its own colour, from the Volsci and Samnites to the Sasanians, Avars and the Rashidun caliphate.
+- **Chronicle.** About 3,400 events with dates to the day where known, importance ratings, categories, ancient source references and notes on what is disputed; the major ones have long-form write-ups. Battles carry sides, commanders, strengths, losses and victors.
+- **Battle diagrams.** 38 major battles drawn phase by phase, from Sentinum to the Yarmuk.
+- **Wars, campaigns and journeys.** 159 wars, 107 campaign routes and 31 journeys (Paul, Hadrian, Egeria, Julian...) drawn on the map in their years, with a "Follow the march" animation.
+- **Guided tours.** 12 narrated tours that move the map and timeline stop by stop.
+- **Encyclopedia.** 1,340 people, 416 places (with Pleiades ids), 300+ states and peoples, 208 provinces, dioceses and prefectures, 65 legions with their bases over time, frontier works, named roads, 307 glossary terms.
+- **The city.** 279 dated monuments of Rome and Constantinople, with building footprints, on a faint modern street plan.
+- **Coins.** 68 mints with their mintmarks (and a mintmark decoder), 44 famous hoards, monetary reforms, and collector notes on the coinage of every emperor and major usurper.
+- **Society.** 469 economic, religious and cultural sites (bishoprics appear as Christianity spreads) and 35 trade routes.
+- **Historia.** A continuous narrative history in 17 chapters, cross-linked to the map.
 - **Fasti.** Consuls for every year to AD 541, emperors and usurpers, dictators and censors, and the dynasties Rome fought.
 - **Fontes.** Which ancient authors cover any given year and whether their text survives.
 - **Tabulae.** Charts: Roman-held land over time (computed from the atlas), coinage debasement, census figures, army size and more.
+- **Tools.** Compare (overlay another year's Roman frontier), Quiz (guess the year from the map), life maps for people, battle density heatmap.
 
 Keyboard: `Space` play/pause, `←`/`→` step a year (`Shift` for ten), `/` search, `l` layers, `Esc` close.
 
@@ -45,7 +51,7 @@ python3 tools/build_data.py          # data/*.json plus validation report
 
 ## Accuracy
 
-Territorial control is reconstructed region by region from standard scholarship and is necessarily approximate, above all for tribal peoples, the steppe, the early Republic (where the tradition is late and partly legendary) and fluid frontier zones. Early dates follow the conventional Varronian chronology. Items whose dates or facts are traditional or disputed are marked, and many entries say what is debated. Corrections are welcome: every fact lives in a readable JSON file under `content/`.
+Content was compiled with AI assistance from standard scholarship and then given two fact-check sweeps; treat specific citation numbers as leads to verify. Territorial control is reconstructed region by region from standard scholarship and is necessarily approximate, above all for tribal peoples, the steppe, the early Republic (where the tradition is late and partly legendary) and fluid frontier zones. Early dates follow the conventional Varronian chronology. Items whose dates or facts are traditional or disputed are marked, and many entries say what is debated. Corrections are welcome: every fact lives in a readable JSON file under `content/`.
 
 ## Credits and licences
 

@@ -1,0 +1,962 @@
+{
+ "events": [
+  {
+   "id": "triumphs_of_146",
+   "year": -146,
+   "endYear": -145,
+   "title": "Triumphs of Aemilianus and Metellus",
+   "type": "political",
+   "cats": [
+    "political",
+    "military"
+   ],
+   "importance": 2,
+   "summary": "Scipio Aemilianus celebrated his triumph over Carthage, taking the cognomen Africanus like his adoptive grandfather, and Quintus Caecilius Metellus triumphed over Andriscus and Macedonia as Macedonicus. Mummius' Achaean triumph followed in 145. Three new provinces and three victory titles in one year marked the culmination of Rome's Mediterranean ascendancy.",
+   "loc": [
+    12.4823,
+    41.8933
+   ],
+   "locName": "Rome",
+   "locCertainty": "probable",
+   "people": [
+    "scipio_aemilianus",
+    "quintus_caecilius_metellus_macedonicus",
+    "lucius_mummius"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Appian",
+     "w": "Punica",
+     "r": "135"
+    },
+    {
+     "a": "Velleius Paterculus",
+     "w": "Historia Romana",
+     "r": "1.11-12"
+    },
+    {
+     "a": "Livy",
+     "w": "Periochae",
+     "r": "52"
+    },
+    {
+     "a": "Eutropius",
+     "w": "Breviarium",
+     "r": "4.14"
+    }
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "polybius_settles_achaea_145",
+   "year": -145,
+   "title": "Polybius helps settle Greece after Corinth",
+   "type": "administrative",
+   "cats": [
+    "administrative",
+    "political"
+   ],
+   "importance": 2,
+   "summary": "After the departure of Mummius and the ten commissioners, Polybius toured the Achaean cities to explain the new laws and resolve disputes. Grateful cities set up statues of him; one inscription at Megalopolis said that Greece would not have fallen had it followed his advice, and that he alone helped her when she fell.",
+   "loc": [
+    22.13,
+    37.43
+   ],
+   "locName": "Megalopolis and the Peloponnese",
+   "locCertainty": "approx",
+   "war": "achaean_war",
+   "people": [
+    "polybius",
+    "lucius_mummius"
+   ],
+   "polities": [
+    "rome",
+    "achaean_league"
+   ],
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "39.5"
+    },
+    {
+     "a": "Pausanias",
+     "w": "Description of Greece",
+     "r": "8.30.8-9, 8.37.2"
+    }
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "fabius_aemilianus_vs_viriathus_145",
+   "year": -145,
+   "endYear": -144,
+   "title": "Fabius Maximus Aemilianus checks Viriathus",
+   "type": "campaign",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "After Viriathus had defeated the praetors Vetilius, Plautius and Claudius Unimanus, the consul Quintus Fabius Maximus Aemilianus took 15,000 new recruits to Spain, trained them at Urso, and in 144 defeated Viriathus, took two of his towns and drove him to Baecor.",
+   "loc": [
+    -5.5,
+    37.6
+   ],
+   "locName": "Hispania Ulterior",
+   "locCertainty": "approx",
+   "war": "lusitanian_war",
+   "people": [
+    "quintus_fabius_maximus_aemilianus",
+    "viriathus"
+   ],
+   "polities": [
+    "rome",
+    "lusitanians"
+   ],
+   "sources": [
+    {
+     "a": "Appian",
+     "w": "Iberica",
+     "r": "65"
+    },
+    {
+     "a": "Livy",
+     "w": "Periochae",
+     "r": "52"
+    }
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "battle_of_oenoparas_145",
+   "year": -145,
+   "title": "Battle of the Oenoparas",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "Ptolemy VI, who had turned against Alexander Balas and been crowned king of Asia at Antioch, defeated Balas on the river Oenoparas with the young Demetrius II. Balas fled to Arabia and was killed, but Ptolemy, thrown from his horse when an elephant charged, died of his wounds days later, after seeing Balas' head.",
+   "loc": [
+    36.4,
+    36.25
+   ],
+   "locName": "River Oenoparas near Antioch",
+   "locCertainty": "approx",
+   "people": [
+    "ptolemy_vi",
+    "alexander_balas"
+   ],
+   "polities": [
+    "ptolemaic",
+    "seleucid"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "ptolemaic",
+      "commanders": [
+       "ptolemy_vi"
+      ],
+      "strength": "Ptolemaic army with Demetrius II",
+      "losses": "king mortally wounded"
+     },
+     {
+      "polity": "seleucid",
+      "commanders": [
+       "alexander_balas"
+      ],
+      "strength": "Balas' army",
+      "losses": "routed"
+     }
+    ],
+    "victor": "ptolemaic",
+    "kind": "field",
+    "significance": "Ended Ptolemaic hopes of ruling Syria; Ptolemy VIII reunited Egypt."
+   },
+   "sources": [
+    {
+     "a": "Anonymous",
+     "w": "1 Maccabees",
+     "r": "11.13-19"
+    },
+    {
+     "a": "Josephus",
+     "w": "Antiquitates Judaicae",
+     "r": "13.116-119"
+    },
+    {
+     "a": "Diodorus Siculus",
+     "w": "Bibliotheca Historica",
+     "r": "32.9d-10"
+    },
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "16.2.8"
+    }
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "lex_licinia_de_sacerdotiis_145",
+   "year": -145,
+   "title": "Laelius defeats the bill for electing priests",
+   "type": "law",
+   "cats": [
+    "religious",
+    "political"
+   ],
+   "importance": 2,
+   "summary": "The tribune Gaius Licinius Crassus proposed that vacancies in the priestly colleges be filled by popular election rather than co-option. The praetor Gaius Laelius opposed it in a speech on the religious traditions of Numa, preserved in Cicero's memory as a masterpiece, and the bill failed. Crassus was the first to address the people turned towards the Forum.",
+   "detail": "The principle Crassus sought was achieved in 104 by the lex Domitia, which provided that 17 of the 35 tribes chosen by lot should elect priests from the colleges' nominees. Cicero's remark about Crassus turning to face the Forum symbolises a shift of oratory from the Senate to the people, a step towards popularis politics.",
+   "loc": [
+    12.4853,
+    41.8925
+   ],
+   "locName": "Rome",
+   "locCertainty": "probable",
+   "people": [
+    "gaius_licinius_crassus_tr145",
+    "gaius_laelius_sapiens"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Cicero",
+     "w": "De Amicitia",
+     "r": "96"
+    },
+    {
+     "a": "Cicero",
+     "w": "Brutus",
+     "r": "83"
+    },
+    {
+     "a": "Cicero",
+     "w": "De Natura Deorum",
+     "r": "3.43"
+    }
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "panaetius_in_rome_144",
+   "year": -144,
+   "title": "Panaetius joins Scipio Aemilianus",
+   "type": "cultural",
+   "cats": [
+    "cultural"
+   ],
+   "importance": 2,
+   "summary": "Around 144 the Rhodian Stoic Panaetius came to Rome and became an intimate of Scipio Aemilianus and Laelius, with Polybius. His adaptation of Stoic ethics to the values of the Roman governing class, especially in his On Duties, shaped Roman aristocratic self-understanding and Cicero's De officiis.",
+   "loc": [
+    12.4853,
+    41.8925
+   ],
+   "locName": "Rome",
+   "locCertainty": "approx",
+   "people": [
+    "panaetius",
+    "scipio_aemilianus",
+    "gaius_laelius_sapiens",
+    "polybius"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Cicero",
+     "w": "De Officiis",
+     "r": "1.7-10, 1.90"
+    },
+    {
+     "a": "Cicero",
+     "w": "De Re Publica",
+     "r": "1.15, 1.34"
+    },
+    {
+     "a": "Cicero",
+     "w": "Pro Murena",
+     "r": "66"
+    },
+    {
+     "a": "Velleius Paterculus",
+     "w": "Historia Romana",
+     "r": "1.13.3"
+    }
+   ],
+   "debate": "The 'Scipionic Circle' as a coherent salon is largely Cicero's construction (Zetzel, Astin); the friendships themselves are well attested.",
+   "certainty": "probable"
+  },
+  {
+   "id": "lex_didia_143",
+   "year": -143,
+   "title": "Lex Didia sumptuaria",
+   "type": "law",
+   "cats": [
+    "law",
+    "social"
+   ],
+   "importance": 1,
+   "summary": "A law of Titus Didius extended the sumptuary limits of the lex Fannia to all Italy and made guests as well as hosts liable to penalties, because the Italians had been held to be outside the earlier laws.",
+   "loc": [
+    12.4853,
+    41.8925
+   ],
+   "locName": "Rome",
+   "locCertainty": "probable",
+   "people": [],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Macrobius",
+     "w": "Saturnalia",
+     "r": "3.17.6"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "sumptuary law"
+   ]
+  },
+  {
+   "id": "metellus_at_contrebia_143",
+   "year": -143,
+   "endYear": -142,
+   "title": "Metellus Macedonicus in Celtiberia",
+   "type": "campaign",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "When the Arevaci rose again in 143, opening the Numantine War, the consul Quintus Caecilius Metellus Macedonicus took Contrebia by a sudden reversal of his march and subdued much of Celtiberia except Termantia and Numantia. At Centobriga, when the defenders placed the children of a deserter on the walls, he raised the siege rather than kill them.",
+   "loc": [
+    -1.5,
+    41.3
+   ],
+   "locName": "Contrebia and Centobriga, Celtiberia",
+   "locCertainty": "disputed",
+   "war": "numantine_war",
+   "people": [
+    "quintus_caecilius_metellus_macedonicus"
+   ],
+   "polities": [
+    "rome",
+    "celtiberians"
+   ],
+   "sources": [
+    {
+     "a": "Valerius Maximus",
+     "w": "Facta et Dicta Memorabilia",
+     "r": "3.7.5, 5.1.5, 7.4.5"
+    },
+    {
+     "a": "Frontinus",
+     "w": "Strategemata",
+     "r": "1.1.2"
+    },
+    {
+     "a": "Appian",
+     "w": "Iberica",
+     "r": "76"
+    },
+    {
+     "a": "Velleius Paterculus",
+     "w": "Historia Romana",
+     "r": "1.11"
+    }
+   ],
+   "certainty": "probable"
+  },
+  {
+   "id": "temple_of_hercules_victor_142",
+   "year": -142,
+   "title": "Mummius dedicates a temple to Hercules Victor",
+   "type": "religious",
+   "cats": [
+    "religious"
+   ],
+   "importance": 2,
+   "summary": "Lucius Mummius, as censor, dedicated a temple to Hercules Victor vowed during the Achaean war. Its dedicatory inscription survives: 'L. Mummi(us) L.f. cos. duct(u), auspicio imperioque eius Achaia capt(a), Corinto deleto Romam redieit triumphans; ob hasce res bene gestas quod in bello voverat hanc aedem et signu(m) Herculis Victoris imperator dedicat'.",
+   "loc": [
+    12.4855,
+    41.8925
+   ],
+   "locName": "Caelian or Forum Boarium, Rome",
+   "locCertainty": "disputed",
+   "people": [
+    "lucius_mummius"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Inscription",
+     "w": "CIL I2 626 (ILS 20)",
+     "r": ""
+    }
+   ],
+   "debate": "The inscription was found on the Caelian; the round marble temple of Hercules Victor/Olivarius in the Forum Boarium is later (c. 120-100) and is not Mummius' temple.",
+   "certainty": "certain"
+  },
+  {
+   "id": "mithridates_i_takes_seleucia_141",
+   "year": -141,
+   "title": "The Parthians take Babylonia",
+   "type": "campaign",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "The Parthian king Mithridates I, having taken Media from the Seleucids, entered Seleucia on the Tigris in 141; Babylonian documents begin dating by his reign that summer. Demetrius II's counter-offensive ended with his capture in 139/8. The Seleucid kingdom was reduced to Syria and Cilicia.",
+   "detail": "The loss of Mesopotamia cut the Seleucids off from their richest revenues and created the Roman-Parthian frontier zone of the next centuries. The Babylonian astronomical diaries record the transition month by month. Roman awareness of Parthia, as yet, was minimal: the first Roman-Parthian contact came only with Sulla in 96.",
+   "loc": [
+    44.52,
+    33.1
+   ],
+   "locName": "Seleucia on the Tigris",
+   "locCertainty": "probable",
+   "people": [],
+   "polities": [
+    "parthia",
+    "seleucid"
+   ],
+   "sources": [
+    {
+     "a": "Justin",
+     "w": "Epitome of Pompeius Trogus",
+     "r": "36.1, 41.6"
+    },
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "16.1.16"
+    },
+    {
+     "a": "Inscription",
+     "w": "Babylonian astronomical diaries -140",
+     "r": ""
+    }
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "denarius_retariffed_141",
+   "year": -141,
+   "title": "The denarius retariffed at 16 asses",
+   "type": "economic",
+   "cats": [
+    "economic"
+   ],
+   "importance": 2,
+   "summary": "Around 141 the denarius, worth ten asses since its introduction (hence the mark X), was retariffed at sixteen asses, and the bronze as was reduced to the uncial standard; the value mark XVI appears on some issues before reverting to the X symbol. Soldiers' pay continued to be reckoned at the old rate of ten asses for a denarius.",
+   "detail": "Pliny attributes the change to the dictatorship of Fabius Maximus in 217, but the coins (Crawford RRC 224 onwards) show the XVI marks around 141, which is the consensus date. The change devalued bronze relative to silver, reflecting the shift to a silver-based economy fuelled by Spanish and Macedonian mines. Polybius (6.39) gives legionary pay as two obols a day, about a third of a denarius.",
+   "loc": [
+    12.4853,
+    41.8925
+   ],
+   "locName": "Rome",
+   "locCertainty": "probable",
+   "people": [],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "33.45"
+    },
+    {
+     "a": "Festus",
+     "w": "De Verborum Significatu",
+     "r": "468L"
+    }
+   ],
+   "scholarship": [
+    "Crawford, Roman Republican Coinage (1974)"
+   ],
+   "certainty": "probable"
+  },
+  {
+   "id": "trial_of_tubulus_141",
+   "year": -141,
+   "title": "Special court against Hostilius Tubulus",
+   "type": "law",
+   "cats": [
+    "law",
+    "political"
+   ],
+   "importance": 1,
+   "summary": "The tribune Publius Mucius Scaevola carried a bill establishing a special inquiry into the praetor of 142, Lucius Hostilius Tubulus, who had openly taken bribes when presiding over a court for murder. Tubulus went into exile and later took poison rather than return for trial.",
+   "loc": [
+    12.4853,
+    41.8925
+   ],
+   "locName": "Rome",
+   "locCertainty": "probable",
+   "people": [
+    "lucius_hostilius_tubulus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Cicero",
+     "w": "De Finibus",
+     "r": "2.54, 4.77"
+    },
+    {
+     "a": "Cicero",
+     "w": "De Natura Deorum",
+     "r": "1.63, 3.74"
+    },
+    {
+     "a": "Asconius",
+     "w": "Commentaries",
+     "r": "23C"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "quaestio extraordinaria"
+   ]
+  },
+  {
+   "id": "accius_and_pacuvius_140",
+   "year": -140,
+   "title": "Pacuvius and Accius on the same stage",
+   "type": "literary",
+   "cats": [
+    "literature",
+    "cultural"
+   ],
+   "importance": 1,
+   "summary": "Cicero records that in 140 the aged tragedian Pacuvius, aged 80, and the 30-year-old Lucius Accius, son of a freedman from Pisaurum, produced plays at the same festival. Accius became the last great Roman tragedian and a pioneer of literary history.",
+   "loc": [
+    12.4853,
+    41.8925
+   ],
+   "locName": "Rome",
+   "locCertainty": "probable",
+   "people": [
+    "pacuvius"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Cicero",
+     "w": "Brutus",
+     "r": "229"
+    }
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "laelius_agrarian_proposal_140",
+   "year": -140,
+   "title": "Laelius withdraws an agrarian bill",
+   "type": "law",
+   "cats": [
+    "political",
+    "social"
+   ],
+   "importance": 2,
+   "summary": "Plutarch reports that Gaius Laelius, Scipio Aemilianus' friend, attempted to remedy the decline of the small farmers by a land bill, but withdrew it in the face of opposition from the powerful, and was called Sapiens (the wise, or the prudent) for doing so.",
+   "loc": [
+    12.4853,
+    41.8925
+   ],
+   "locName": "Rome",
+   "locCertainty": "approx",
+   "people": [
+    "gaius_laelius_sapiens",
+    "scipio_aemilianus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Plutarch",
+     "w": "Tiberius Gracchus",
+     "r": "8"
+    }
+   ],
+   "debate": "The date is uncertain, during his praetorship (145) or consulship (140); the anecdote shows that the agrarian problem Tiberius Gracchus tackled in 133 was recognised a decade earlier.",
+   "certainty": "probable"
+  },
+  {
+   "id": "torquatus_judges_silanus_140",
+   "year": -140,
+   "title": "Manlius Torquatus judges his son",
+   "type": "law",
+   "cats": [
+    "law",
+    "social"
+   ],
+   "importance": 1,
+   "summary": "When Macedonians accused Decimus Junius Silanus, praetor in Macedonia (141), of extortion, his natural father Titus Manlius Torquatus, an expert in law, asked the Senate to let him hear the case at home. After two days he declared his son guilty and banished him from his sight; Silanus hanged himself, and Torquatus did not attend the funeral.",
+   "loc": [
+    12.4853,
+    41.8925
+   ],
+   "locName": "Rome",
+   "locCertainty": "probable",
+   "people": [],
+   "polities": [
+    "rome",
+    "macedonian_merides"
+   ],
+   "sources": [
+    {
+     "a": "Valerius Maximus",
+     "w": "Facta et Dicta Memorabilia",
+     "r": "5.8.3"
+    },
+    {
+     "a": "Cicero",
+     "w": "De Finibus",
+     "r": "1.24"
+    },
+    {
+     "a": "Livy",
+     "w": "Periochae",
+     "r": "54"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "domestic jurisdiction",
+    "repetundae"
+   ]
+  },
+  {
+   "id": "aemilianus_eastern_embassy_140",
+   "year": -140,
+   "endYear": -139,
+   "title": "Scipio Aemilianus' embassy to the East",
+   "type": "diplomacy",
+   "cats": [
+    "diplomatic"
+   ],
+   "importance": 2,
+   "summary": "Scipio Aemilianus, with Spurius Mummius and Lucius Caecilius Metellus Calvus, travelled with a tiny retinue (five or seven servants in different accounts) and Panaetius on a tour of Egypt, Syria, Asia and Greece to inspect the allied kingdoms. In Alexandria the corpulent Ptolemy VIII had to walk with him through the city, which, the Alexandrians said, gave them at least the sight of their king walking.",
+   "loc": [
+    29.92,
+    31.2
+   ],
+   "locName": "Alexandria, Rhodes and Asia",
+   "locCertainty": "probable",
+   "people": [
+    "scipio_aemilianus",
+    "ptolemy_viii",
+    "panaetius"
+   ],
+   "polities": [
+    "rome",
+    "ptolemaic",
+    "seleucid",
+    "pergamon",
+    "rhodes"
+   ],
+   "sources": [
+    {
+     "a": "Diodorus Siculus",
+     "w": "Bibliotheca Historica",
+     "r": "33.28b"
+    },
+    {
+     "a": "Justin",
+     "w": "Epitome of Pompeius Trogus",
+     "r": "38.8"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Moralia",
+     "r": "200e-201a"
+    },
+    {
+     "a": "Athenaeus",
+     "w": "Deipnosophistae",
+     "r": "12.549d"
+    }
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "pompeius_treaty_with_numantia_139",
+   "year": -139,
+   "title": "The disavowed treaty of Quintus Pompeius",
+   "type": "treaty",
+   "cats": [
+    "diplomatic",
+    "military"
+   ],
+   "importance": 2,
+   "summary": "After failures at Numantia and Termantia, the consul Quintus Pompeius negotiated a secret settlement with the Numantines in the winter of 140/139: in public they surrendered, in private he agreed lenient terms for 30 talents. When his successor Popillius Laenas arrived, Pompeius denied the agreement; the Senate repudiated it and the war resumed.",
+   "loc": [
+    -2.444,
+    41.807
+   ],
+   "locName": "Numantia",
+   "locCertainty": "probable",
+   "war": "numantine_war",
+   "people": [
+    "quintus_pompeius_cos141"
+   ],
+   "polities": [
+    "rome",
+    "celtiberians"
+   ],
+   "sources": [
+    {
+     "a": "Appian",
+     "w": "Iberica",
+     "r": "76-79"
+    },
+    {
+     "a": "Cicero",
+     "w": "De Officiis",
+     "r": "3.109"
+    },
+    {
+     "a": "Livy",
+     "w": "Periochae",
+     "r": "54"
+    }
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "hasmonean_embassy_139",
+   "year": -139,
+   "title": "Simon Maccabaeus' embassy and the Roman circular letter",
+   "type": "diplomacy",
+   "cats": [
+    "diplomatic"
+   ],
+   "importance": 2,
+   "summary": "Simon, high priest and ethnarch of Judaea, sent Numenius to Rome with a golden shield of 1,000 minae. The Senate renewed the alliance and, according to 1 Maccabees, sent a letter signed by a consul Lucius to Ptolemy VIII, Demetrius II, Attalus II, Ariarathes, Arsaces and many cities, warning them not to harm the Jews and to hand over Jewish fugitives.",
+   "loc": [
+    35.235,
+    31.778
+   ],
+   "locName": "Jerusalem and Rome",
+   "locCertainty": "probable",
+   "people": [],
+   "polities": [
+    "hasmonean",
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Anonymous",
+     "w": "1 Maccabees",
+     "r": "14.24, 15.15-24"
+    },
+    {
+     "a": "Josephus",
+     "w": "Antiquitates Judaicae",
+     "r": "14.145-148"
+    }
+   ],
+   "debate": "The date (142 or 139) and the identity of 'Lucius the consul' (probably Lucius Caecilius Metellus Calvus, cos. 142, or Lucius Calpurnius Piso, cos. 139) are debated, as is the relation to the decree that Josephus misplaces under Hyrcanus II.",
+   "certainty": "probable"
+  },
+  {
+   "id": "trial_of_cotta_138",
+   "year": -138,
+   "title": "Scipio Aemilianus prosecutes Aurelius Cotta",
+   "type": "law",
+   "cats": [
+    "law",
+    "political"
+   ],
+   "importance": 1,
+   "summary": "Scipio Aemilianus prosecuted Lucius Aurelius Cotta, consul 144, for extortion. Despite Scipio's prestige, or because of it, the jury acquitted Cotta after seven adjournments, lest it seem that the accuser's influence had decided the case.",
+   "loc": [
+    12.4853,
+    41.8925
+   ],
+   "locName": "Rome",
+   "locCertainty": "probable",
+   "people": [
+    "scipio_aemilianus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Cicero",
+     "w": "Pro Murena",
+     "r": "58"
+    },
+    {
+     "a": "Cicero",
+     "w": "Divinatio in Caecilium",
+     "r": "69"
+    },
+    {
+     "a": "Valerius Maximus",
+     "w": "Facta et Dicta Memorabilia",
+     "r": "8.1.11"
+    },
+    {
+     "a": "Appian",
+     "w": "Bella Civilia",
+     "r": "1.22"
+    }
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "lepidus_porcina_pallantia_136",
+   "year": -136,
+   "title": "Lepidus Porcina's unauthorised attack on Pallantia",
+   "type": "siege",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "The consul of 137, Marcus Aemilius Lepidus Porcina, charging the Vaccaei with supplying Numantia, attacked them and besieged Pallantia with his relative Decimus Brutus, ignoring Senate envoys who told him to desist. Running out of food, he retreated by night, losing 6,000 men; he was recalled, stripped of command and fined.",
+   "loc": [
+    -4.53,
+    42.01
+   ],
+   "locName": "Pallantia (Palencia)",
+   "locCertainty": "probable",
+   "war": "numantine_war",
+   "people": [
+    "marcus_aemilius_lepidus_porcina",
+    "decimus_junius_brutus_callaicus"
+   ],
+   "polities": [
+    "rome",
+    "vaccaei_vettones"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "marcus_aemilius_lepidus_porcina",
+       "decimus_junius_brutus_callaicus"
+      ],
+      "strength": "consular army",
+      "losses": "c. 6,000 in the retreat"
+     },
+     {
+      "polity": "vaccaei_vettones",
+      "commanders": [],
+      "strength": "defenders of Pallantia",
+      "losses": "light"
+     }
+    ],
+    "victor": "vaccaei_vettones",
+    "kind": "siege",
+    "significance": "Another humiliation in the Numantine War."
+   },
+   "sources": [
+    {
+     "a": "Appian",
+     "w": "Iberica",
+     "r": "80-83"
+    },
+    {
+     "a": "Livy",
+     "w": "Periochae",
+     "r": "56"
+    },
+    {
+     "a": "Orosius",
+     "w": "Historiae adversus Paganos",
+     "r": "5.5.13"
+    }
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "census_136",
+   "year": -136,
+   "title": "Census of 136: 317,933 citizens",
+   "type": "administrative",
+   "cats": [
+    "administrative",
+    "social"
+   ],
+   "importance": 1,
+   "summary": "The censors Appius Claudius Pulcher and Quintus Fulvius Nobilior registered 317,933 citizens, the lowest figure since 169. Appius Claudius became princeps senatus. The decline, real or apparent, fed the alarm over military manpower that Tiberius Gracchus voiced three years later.",
+   "loc": [
+    12.4853,
+    41.8925
+   ],
+   "locName": "Rome",
+   "locCertainty": "probable",
+   "people": [
+    "appius_claudius_pulcher_cos143",
+    "quintus_fulvius_nobilior_cos153"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Periochae",
+     "r": "56"
+    }
+   ],
+   "certainty": "probable"
+  },
+  {
+   "id": "ardiaei_campaign_135",
+   "year": -135,
+   "title": "Campaign against the Ardiaei",
+   "type": "campaign",
+   "cats": [
+    "military"
+   ],
+   "importance": 1,
+   "summary": "The consul Servius Fulvius Flaccus campaigned against the Ardiaei (Vardaei) and Pleraei of the Dalmatian coast, who had raided the Roman protectorate, and moved them inland from the sea, the first of several Roman operations that prepared the province of Illyricum.",
+   "loc": [
+    17.62,
+    43.05
+   ],
+   "locName": "Ardiaean coast, Illyria",
+   "locCertainty": "approx",
+   "people": [],
+   "polities": [
+    "rome",
+    "illyrians"
+   ],
+   "sources": [
+    {
+     "a": "Appian",
+     "w": "Illyrica",
+     "r": "10"
+    },
+    {
+     "a": "Livy",
+     "w": "Periochae",
+     "r": "56"
+    }
+   ],
+   "certainty": "probable"
+  }
+ ]
+}

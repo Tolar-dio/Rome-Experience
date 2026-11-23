@@ -1,5 +1,5 @@
 // Right-hand article drawer for any entity.
-import { D, lookup, nameOf, exists, controlAt, loadTactics } from './data.js';
+import { D, lookup, nameOf, exists, controlAt, loadTactics, loadDetails } from './data.js';
 import { S, on, select, setYear } from './state.js';
 import { esc, fmtYear, fmtRange, fmtDate, paragraphs, richText, impDots, STATUS_LABEL, KIND_LABEL, MIN_YEAR, MAX_YEAR, yearToIdx, monthName } from './util.js';
 import { polityColor, colorFor, playMarch, stopMarch, fit, legionShort } from './map.js';
@@ -312,6 +312,9 @@ const R = {
 function render(sel) {
   const r = lookup(sel.id, sel.kind);
   if (!r || !R[r.kind]) return;
+  if (!D.detailsLoaded && ['event', 'person', 'war'].includes(r.kind)) {
+    loadDetails().then(() => { if (S.selected && S.selected.id === sel.id) { history.pop(); render(sel); } });
+  }
   const last = history[history.length - 1];
   if (!last || last.id !== sel.id) history.push({ kind: r.kind, id: sel.id });
   if (history.length > 40) history.shift();
