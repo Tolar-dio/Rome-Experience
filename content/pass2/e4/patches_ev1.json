@@ -1,0 +1,815 @@
+{
+ "patches": [
+  {
+   "kind": "event",
+   "id": "first_settlement_27bc",
+   "set": {
+    "detail": "At the Senate meeting of 13 January 27 BC Octavian, consul for the seventh time with Agrippa, formally laid down the extraordinary powers he had held since the triumvirate and \"transferred the res publica from my power to the discretion of the Senate and people\" (Res Gestae 34). The scene was carefully staged: senators, briefed in advance, begged him not to abandon the state, and he accepted a ten-year command over a large \"province\" comprising Spain (except Baetica), Gaul and Syria, together with Egypt, which he already held as personal possession. These were the regions where most of the legions stood. The remaining provinces, including Africa with its legion, Macedonia and Illyricum for the time being, returned to proconsuls chosen by lot. On 16 January the Senate voted him the name Augustus, a word with religious overtones (augur, augere) chosen over the suggestion of Romulus, together with the oak wreath (corona civica) over his door, laurels flanking the doorposts and a golden shield (clipeus virtutis) in the Curia inscribed with his virtues: valour, clemency, justice and piety. Dio (53.2-12) gives Octavian a long speech of renunciation and explains the arrangement as a sham that left all real power in his hands through control of the army and the treasury; Velleius (2.89) presents it as the restoration of the old Republic, and the coin legend LEGES ET IVRA P R RESTITVIT on an aureus of 28 BC shows the language of restoration. Modern historians since Mommsen have debated whether the settlement created a \"dyarchy\" of princeps and Senate, a disguised monarchy (Syme's \"Roman Revolution\"), or a genuine if evolving compromise with the aristocracy. Its key mechanisms, a provincial command delegated to legates and a continuous consulship, proved unstable and were revised in 23 BC. The ten-year grant was renewed in 18, 13 and 8 BC and AD 3 and 13, a rhythm later marked by decennalia celebrations.",
+    "debate": "Sham restoration (Dio, Syme), dyarchy (Mommsen) or genuine compromise with the Senate."
+   },
+   "append": {
+    "sources": [
+     {
+      "a": "Res Gestae",
+      "w": "Res Gestae Divi Augusti",
+      "r": "34"
+     },
+     {
+      "a": "Cassius Dio",
+      "w": "Roman History",
+      "r": "53.2-18"
+     },
+     {
+      "a": "Velleius Paterculus",
+      "w": "Roman History",
+      "r": "2.89"
+     },
+     {
+      "a": "Strabo",
+      "w": "Geography",
+      "r": "17.3.25"
+     },
+     {
+      "a": "Ovid",
+      "w": "Fasti",
+      "r": "1.587-590"
+     }
+    ],
+    "tags": [
+     "restitutio rei publicae",
+     "clipeus virtutis",
+     "corona civica"
+    ]
+   }
+  },
+  {
+   "kind": "event",
+   "id": "division_of_the_provinces_27bc",
+   "set": {
+    "detail": "The division of provinces in January 27 BC created the administrative map of the Principate. Augustus received the \"unpacified\" provinces where armies were needed: Hispania Tarraconensis and Lusitania (then still one large command with the Cantabrian war under way), the Gallic territories, Syria with Cilicia and Cyprus, and Egypt. The Senate kept the rest: Africa, Baetica, Narbonensis (handed back in 22 BC along with Cyprus), Sicily, Sardinia and Corsica, Macedonia, Achaea, Illyricum (transferred to Augustus in 11 BC when war flared), Crete and Cyrene, Bithynia and Pontus, and Asia. Proconsuls of the \"public\" provinces were chosen by lot from ex-consuls (for Africa and Asia) and ex-praetors (for the others) and served for a single year, while Augustus governed his share through his own legati Augusti pro praetore, senators of his choice serving at his pleasure, often for three years or more, and through equestrian prefects in Egypt, where senators were barred from even visiting without permission. Financial administration followed the same split: proconsuls had quaestors and paid revenues to the aerarium Saturni, while imperial provinces were managed by equestrian procurators accountable to the emperor, who also placed procurators in public provinces to manage his estates. Strabo (17.3.25) and Dio (53.12-15) give the lists, which differ slightly, reflecting changes over time. In practice the line between the two categories blurred: the emperor's maius imperium after 23 BC allowed him to give orders to proconsuls, as the Edicts of Cyrene (7-6 BC) show, and the Senate's provinces could be reassigned when trouble arose (Achaea and Macedonia went to the emperor in AD 15 and back in 44; Bithynia passed to Pliny as a special imperial legate in 110). Africa was the only senatorial province with a legion until Caligula transferred command of III Augusta to an imperial legate in 39. The arrangement lasted in outline until the reforms of Diocletian, though new conquests (Britain, Dacia, Arabia) were always imperial."
+   },
+   "append": {
+    "sources": [
+     {
+      "a": "Strabo",
+      "w": "Geography",
+      "r": "17.3.25"
+     },
+     {
+      "a": "Cassius Dio",
+      "w": "Roman History",
+      "r": "53.12-15"
+     },
+     {
+      "a": "Suetonius",
+      "w": "Augustus",
+      "r": "47"
+     },
+     {
+      "a": "Tacitus",
+      "w": "Annals",
+      "r": "1.76, 1.80"
+     }
+    ],
+    "tags": [
+     "provinciae Caesaris",
+     "provinciae populi",
+     "legati Augusti"
+    ]
+   }
+  },
+  {
+   "kind": "event",
+   "id": "second_settlement_23bc",
+   "set": {
+    "detail": "The settlement of 23 BC, following Augustus's near-fatal illness and the conspiracy of Fannius Caepio and Varro Murena, gave the Principate its lasting legal basis. On 1 July 23 Augustus resigned the consulship he had held continuously since 31 BC, freeing an annual place for senators and ending the anomaly of a permanent consul. In compensation he received two powers. The first was the tribunicia potestas for life, which gave him the right to convene the Senate and people, propose laws, veto any magistrate and offer protection to citizens, and from which his regnal years were henceforth counted (TR POT on coins and inscriptions, renewed each year, so that \"TR P XXXVII\" dates an inscription to AD 14). Augustus had held some tribunician privileges since 36 and 30 BC, but now took the full power as a substitute for office. The second was an imperium proconsulare that he could exercise inside Rome without laying it down at the pomerium, and which was declared greater (maius) than that of any proconsul, allowing him to intervene in senatorial provinces. Dio adds the right to convene the Senate first at any meeting (ius primae relationis). The tradition that he also received consular imperium in 19 BC rests on a disputed passage of Dio (54.10.5). In the same year Agrippa was sent to the East with an imperium of his own, perhaps also maius, a sign that the princeps intended to share power within his family. Tacitus (Annals 3.56) famously called tribunicia potestas the \"title of the highest rank\" invented by Augustus to avoid the name of king or dictator. Scholars disagree on the motive: a concession to senators alarmed by his monopoly of the consulship (Syme), a reaction to a real conspiracy among his own supporters, or the culmination of a long-planned constitutional design. Whatever the cause, the combination of tribunician power and maius imperium became the core of every later emperor's authority, conferred in a single package by Senate and people, as the Lex de imperio Vespasiani shows.",
+    "debate": "Whether Augustus received consular imperium in 19 BC, and whether the settlement responded to a genuine crisis."
+   },
+   "append": {
+    "sources": [
+     {
+      "a": "Cassius Dio",
+      "w": "Roman History",
+      "r": "53.32, 54.10.5"
+     },
+     {
+      "a": "Tacitus",
+      "w": "Annals",
+      "r": "1.2, 3.56"
+     },
+     {
+      "a": "Res Gestae",
+      "w": "Res Gestae Divi Augusti",
+      "r": "10"
+     },
+     {
+      "a": "Suetonius",
+      "w": "Augustus",
+      "r": "27.5"
+     }
+    ],
+    "tags": [
+     "tribunicia potestas",
+     "imperium maius",
+     "regnal years"
+    ]
+   }
+  },
+  {
+   "kind": "event",
+   "id": "return_of_the_parthian_standards",
+   "set": {
+    "detail": "On 12 May 20 BC, according to the Fasti, the Parthian king Phraates IV handed back to Tiberius, acting for Augustus, the legionary eagles and standards lost by Crassus at Carrhae (53 BC), by Decidius Saxa (40 BC) and by Antony's lieutenant Oppius Statianus (36 BC), together with surviving prisoners. Augustus had gone to Syria in person, and a Roman army under Tiberius was moving into Armenia; Phraates, insecure on his throne and holding a pretender Tiridates who had fled to the Romans with Phraates's son, chose to negotiate. No battle was fought. The success was nonetheless presented as a military triumph that avenged the Republic's greatest humiliation in the East. Augustus refused a triumph but accepted an ovation and a triumphal arch; coins proclaimed SIGNIS RECEPTIS and CIVIB ET SIGN MILIT A PARTH RECVP, showing a kneeling Parthian offering a standard. The standards were deposited first in a small round temple of Mars Ultor on the Capitol, shown on coins, and in 2 BC in the great temple in the Forum of Augustus. The central scene of the Prima Porta statue's cuirass shows a Parthian handing an eagle to a Roman figure (Tiberius, Mars or a personification), surrounded by the subjected provinces and the cosmic order. Horace, Propertius and Ovid celebrated the event as the restoration of Roman honour. Res Gestae 29 claims that Augustus \"compelled the Parthians to return the spoils and standards of three Roman armies and to seek the friendship of the Roman people as suppliants\". In 10/9 BC Phraates sent four of his sons with their families to Rome as hostages, which Augustus represented as submission but which also removed rivals from Phraates's court. Modern scholars stress that the agreement was a negotiated compromise between equals that recognised the Euphrates as a de facto boundary, and that Augustus's propaganda transformed diplomacy into conquest, sparing him the risk of a real war."
+   },
+   "append": {
+    "sources": [
+     {
+      "a": "Res Gestae",
+      "w": "Res Gestae Divi Augusti",
+      "r": "29, 32"
+     },
+     {
+      "a": "Cassius Dio",
+      "w": "Roman History",
+      "r": "54.8"
+     },
+     {
+      "a": "Suetonius",
+      "w": "Augustus",
+      "r": "21.3"
+     },
+     {
+      "a": "Suetonius",
+      "w": "Tiberius",
+      "r": "9.1"
+     },
+     {
+      "a": "Horace",
+      "w": "Epistles",
+      "r": "1.12.27-28"
+     },
+     {
+      "a": "Strabo",
+      "w": "Geography",
+      "r": "16.1.28"
+     }
+    ],
+    "tags": [
+     "Prima Porta",
+     "signis receptis",
+     "Mars Ultor"
+    ]
+   }
+  },
+  {
+   "kind": "event",
+   "id": "augustan_marriage_laws_18bc",
+   "set": {
+    "detail": "In 18 BC, using his tribunician power, Augustus carried the Lex Julia de maritandis ordinibus and the Lex Julia de adulteriis coercendis, the first Roman statutes to regulate the family life of citizens on this scale. The marriage law required men between 25 and 60 and women between 20 and 50 to be married; widows and divorcees had to remarry within a period later fixed at two years and eighteen months respectively. Unmarried persons (caelibes) could not receive inheritances or legacies from outside their close kin, and the childless (orbi) only half; parents of three children (four for freedwomen) gained the ius trium liberorum, which freed women from guardianship and gave men advantages in the cursus honorum. The law also forbade senators and their descendants to marry freedwomen, actresses and prostitutes, while allowing other freeborn men to marry freedwomen. The adultery law turned a private family matter into a public crime with a standing jury court: a husband had to divorce an adulterous wife and prosecute within sixty days, or face a charge of pimping (lenocinium); the father could kill an adulterous daughter and her lover caught in his house, the husband only the lover and only if he was of low status. Penalties were relegation to separate islands and confiscation of half the man's property and a third of the woman's. The laws met fierce resistance: an earlier attempt seems to have failed c. 28 BC (Propertius 2.7), knights demonstrated at games in AD 9, and the Lex Papia Poppaea of that year, carried by two unmarried consuls, softened and supplemented the provisions. The most famous victims were Augustus's own daughter Julia (2 BC) and granddaughter Julia (AD 8). Tacitus (Annals 3.25-28) judged that the laws did not increase marriages or child-rearing and only enriched informers, who received a share of forfeited property. The penalties on the unmarried survived until Constantine abolished them in 320, but the adultery law lasted into Justinian's Digest.",
+    "debate": "Purpose of the laws: demographic (raising citizen birth rates), moral, or political control of the elite."
+   },
+   "append": {
+    "sources": [
+     {
+      "a": "Cassius Dio",
+      "w": "Roman History",
+      "r": "54.16, 56.1-10"
+     },
+     {
+      "a": "Suetonius",
+      "w": "Augustus",
+      "r": "34, 89.2"
+     },
+     {
+      "a": "Tacitus",
+      "w": "Annals",
+      "r": "3.25-28"
+     },
+     {
+      "a": "Horace",
+      "w": "Carmen Saeculare",
+      "r": "17-20"
+     },
+     {
+      "a": "Digest",
+      "w": "Digest of Justinian",
+      "r": "48.5"
+     },
+     {
+      "a": "Gaius",
+      "w": "Institutes",
+      "r": "2.111, 2.286a"
+     }
+    ],
+    "tags": [
+     "ius trium liberorum",
+     "caelibes",
+     "adultery court"
+    ]
+   }
+  },
+  {
+   "kind": "event",
+   "id": "ara_pacis",
+   "set": {
+    "detail": "The Altar of Augustan Peace was vowed by the Senate on 4 July 13 BC, on Augustus's return from three years in Spain and Gaul, and dedicated on 30 January 9 BC, Livia's birthday. It stood on the Via Flaminia in the northern Campus Martius, near the Mausoleum and the meridian of the obelisk. The altar itself sits within a marble enclosure (11.6 by 10.6 m) carved inside and out. On the long sides, a procession moves westwards: Augustus with lictors, priests (the four major flamines in their spiked caps), Agrippa with his head veiled, a small boy clutching his toga (Gaius Caesar or a foreign prince), Livia, Tiberius, Antonia Minor with Drusus and the infant Germanicus, and other members of the family, as well as senators. The scene probably represents the vow ceremony of 13 BC rather than the dedication, which Agrippa did not live to see. The short ends carry mythological panels: Aeneas (or perhaps Numa) sacrificing a sow, the Lupercal with Romulus and Remus, a seated goddess with twins, animals and personified winds variously identified as Tellus, Italia, Pax or Venus, and Roma seated on arms. The lower register of the exterior is covered with a carpet of acanthus scrolls inhabited by swans, snakes and insects, an image of the fertile abundance of the new age. Inside, garlands and ox-skulls hang above a fence-like pattern recalling the wooden templum of the original consecration. The altar was buried by rising ground levels; fragments were found from 1568 onwards, and the monument was excavated beneath the Palazzo Fiano in 1937-1938 by freezing the waterlogged soil, then reassembled by Mussolini's regime for the bimillenary of Augustus near the Mausoleum. Since 2006 it has been housed in Richard Meier's pavilion. The altar's mix of Greek classical style (the procession recalls the Parthenon frieze), Roman ritual and dynastic portraiture makes it the key monument of Augustan ideology; its precise iconography, especially the identity of the \"Tellus\" figure and of the children, remains debated.",
+    "debate": "Identity of the female figure on the east panel (Tellus, Italia, Pax, Venus) and of the children in the procession."
+   },
+   "append": {
+    "sources": [
+     {
+      "a": "Res Gestae",
+      "w": "Res Gestae Divi Augusti",
+      "r": "12"
+     },
+     {
+      "a": "Ovid",
+      "w": "Fasti",
+      "r": "1.709-722, 3.881-882"
+     },
+     {
+      "a": "Cassius Dio",
+      "w": "Roman History",
+      "r": "54.25.3"
+     }
+    ],
+    "tags": [
+     "acanthus scrolls",
+     "Tellus panel",
+     "Palazzo Fiano"
+    ]
+   }
+  },
+  {
+   "kind": "event",
+   "id": "death_of_agrippa",
+   "set": {
+    "detail": "Marcus Vipsanius Agrippa died in March 12 BC in Campania, aged about fifty, on his return from a winter mission to Pannonia, where his arrival had been enough to make the rebellious tribes submit. He was Augustus's oldest friend and indispensable partner: victor at Naulochus and Actium, three times consul, holder of tribunician power since 18 BC (renewed in 13) and of an imperium equal to Augustus's in the provinces, he was effectively co-regent and guardian of the dynastic future through his marriage to Julia and his sons Gaius and Lucius, adopted by Augustus. His public works transformed Rome: as aedile in 33 BC he repaired the sewers, sailing through the Cloaca Maxima, restored the aqueducts and built the Aqua Julia, followed by the Aqua Virgo (19 BC), the first Pantheon, the Baths of Agrippa with the Euripus canal and the Saepta Julia, and he left his gardens and baths to the Roman people. Augustus delivered the funeral oration, part of which survives in Greek translation on a papyrus from Egypt (P. Köln 249), and placed his ashes in his own Mausoleum. Dio says that Augustus received his estate, including the Thracian Chersonese, and gave each citizen a cash gift in his name. Agrippa's death left a vacuum that shaped the next decade. His posthumous son, Agrippa Postumus, was born months later. Augustus compelled Tiberius to divorce Vipsania and marry Julia (11 BC), and the burden of the northern wars fell on Tiberius and Drusus. Pliny the Elder records that Agrippa had urged that all paintings and statues be made public property, and his geographic commentaries became the basis for the world map in the Porticus Vipsania. Seneca (Epistles 94.46) quotes his maxim that harmony makes small states great and discord ruins the greatest. Modern historians emphasise that Agrippa's loyalty and administrative ability were as crucial as Augustus's political skill in creating the Principate, and that his low birth, which aristocrats despised, made him safely dependent."
+   },
+   "append": {
+    "sources": [
+     {
+      "a": "Cassius Dio",
+      "w": "Roman History",
+      "r": "54.28-29"
+     },
+     {
+      "a": "Velleius Paterculus",
+      "w": "Roman History",
+      "r": "2.96"
+     },
+     {
+      "a": "Pliny the Elder",
+      "w": "Natural History",
+      "r": "7.45-46, 35.26, 36.104"
+     },
+     {
+      "a": "Papyri",
+      "w": "P. Köln 249 (laudatio Agrippae)"
+     }
+    ],
+    "tags": [
+     "laudatio funebris",
+     "Agrippa's building programme"
+    ]
+   }
+  },
+  {
+   "kind": "event",
+   "id": "forum_of_augustus_dedicated",
+   "set": {
+    "detail": "The Forum of Augustus with its Temple of Mars Ultor was dedicated on 1 August 2 BC, forty years after Octavian had vowed the temple at Philippi in 42 BC to the avenging Mars if he defeated Caesar's murderers. The project was delayed because Augustus refused to expropriate the land he needed, and the irregular eastern edge of the precinct shows where owners would not sell (Suetonius, Augustus 56.2). A 33 m firewall of peperino separated the forum from the crowded Subura. The octastyle Corinthian temple, of Luna marble on a high podium, housed cult statues of Mars, Venus Genetrix and the deified Caesar, and from 2 BC the standards recovered from Parthia. Flanking porticoes opened into two great exedrae. Their niches held a sculptural gallery: on one side Aeneas carrying Anchises and the Alban kings and Julii, on the other Romulus with the spolia opima and the summi viri of the Republic, each with an inscription (elogium) summarising his career; copies of elogia survive at Rome and Arretium. A quadriga of Augustus stood in the centre, inscribed with the title pater patriae granted on 5 February of the same year. Augustus declared in an edict that he had set up the gallery so that citizens would judge him and later principes by the standard of these men. The forum was given a political function: the Senate met in the temple to decide on wars and triumphs, governors departed from it for their provinces, triumphing generals dedicated their insignia there, and boys assumed the toga virilis. The dedication was marked by spectacular games: a naumachia across the Tiber, gladiators, a Troy game and 260 lions and 36 crocodiles killed in the Circus Flaminius. The forum's caryatids copied from the Erechtheion and its programme of Roman history made it the architectural counterpart of the Aeneid and of Livy. Excavations under the Fascist Via dell'Impero and again since the 1990s have revealed the plan, including a colossal hall that probably housed a statue of the Genius of Augustus."
+   },
+   "append": {
+    "sources": [
+     {
+      "a": "Suetonius",
+      "w": "Augustus",
+      "r": "29.1-2, 31.5, 56.2"
+     },
+     {
+      "a": "Ovid",
+      "w": "Fasti",
+      "r": "5.545-598"
+     },
+     {
+      "a": "Cassius Dio",
+      "w": "Roman History",
+      "r": "55.10"
+     },
+     {
+      "a": "Res Gestae",
+      "w": "Res Gestae Divi Augusti",
+      "r": "21, 35"
+     },
+     {
+      "a": "Velleius Paterculus",
+      "w": "Roman History",
+      "r": "2.100.2"
+     }
+    ],
+    "tags": [
+     "Mars Ultor",
+     "summi viri",
+     "elogia",
+     "caryatids"
+    ]
+   }
+  },
+  {
+   "kind": "event",
+   "id": "adoption_of_tiberius",
+   "set": {
+    "detail": "On 26 June AD 4, four months after the death of Gaius Caesar in Lycia, Augustus adopted Tiberius, then 44, together with his last surviving grandson Agrippa Postumus. Tiberius in turn was required to adopt his nephew Germanicus, son of his dead brother Drusus, although he had a son of his own, Drusus the Younger. The arrangement fixed the succession on two lines at once: Tiberius as immediate heir, and Germanicus, married to Augustus's granddaughter Agrippina, as the next generation, joining the blood of Livia's Claudii with Augustus's Julii. Tiberius received tribunician power for ten years and a major military command in Germany. Velleius, who served under him, describes the day as one of universal rejoicing and the soldiers' delight at seeing their old commander return; Augustus is said to have declared that he did it \"for the sake of the state\" (rei publicae causa), a phrase Suetonius read as betraying reluctance. Tacitus's account of Livia's scheming in bringing about this outcome, including insinuations that she had a hand in the deaths of Gaius and Lucius, has coloured the tradition but is not substantiated. As an adopted son Tiberius became legally Tiberius Julius Caesar, losing his own property and freedmen to Augustus, and his son Drusus also passed into the Julian family. Agrippa Postumus was soon disowned (AD 6) and banished to Planasia (AD 7), apparently for a violent temperament, possibly also for political associations. The adoption ended the \"Julian\" phase of succession planning, in which Augustus had relied on his daughter's children, and began the Claudian ascendancy that lasted until Nero. Tiberius spent most of the next eight years fighting in Germany and Illyricum, and his authority was progressively raised until in AD 13 he received an imperium equal to Augustus's in all provinces, making him co-ruler in all but name before Augustus's death."
+   },
+   "append": {
+    "sources": [
+     {
+      "a": "Velleius Paterculus",
+      "w": "Roman History",
+      "r": "2.103-104"
+     },
+     {
+      "a": "Suetonius",
+      "w": "Tiberius",
+      "r": "21.3, 23"
+     },
+     {
+      "a": "Suetonius",
+      "w": "Augustus",
+      "r": "65"
+     },
+     {
+      "a": "Cassius Dio",
+      "w": "Roman History",
+      "r": "55.13.1-2"
+     },
+     {
+      "a": "Tacitus",
+      "w": "Annals",
+      "r": "1.3"
+     }
+    ],
+    "tags": [
+     "adoption",
+     "Julio-Claudian succession",
+     "rei publicae causa"
+    ]
+   }
+  },
+  {
+   "kind": "event",
+   "id": "aerarium_militare",
+   "set": {
+    "detail": "The military treasury (aerarium militare) was created in AD 6 to pay the discharge bounties (praemia) of veterans, which since 13 BC had been given in cash and since AD 5 amounted to 12,000 sesterces for a legionary after twenty years. The cost was enormous: with some 150,000 legionaries and perhaps 5,000-6,000 retirements a year, the treasury needed at least 60-70 million sesterces annually. Augustus opened it with a personal gift of 170 million sesterces (Res Gestae 17) and invited client kings and communities to contribute; none volunteered except, Dio says, some kings and cities. To provide regular income he introduced two new taxes on Roman citizens: the vicesima hereditatium, a 5% duty on inheritances and legacies above a threshold and excluding bequests to close relatives, and the centesima rerum venalium, a 1% tax on goods sold at auction. These were the first direct burdens on Italian citizens since the abolition of tributum in 167 BC, and they provoked strong opposition: Augustus asked senators to propose alternatives, and in AD 13 threatened a land tax on Italy, which persuaded them to accept the inheritance tax. The treasury was administered by three praefecti aerarii militaris of praetorian rank, chosen at first by lot and later by the emperor, serving three years. The arrangement shows how Augustus separated the army's finances from the old aerarium Saturni while keeping them formally public. The fiscal strain remained: the mutineers of AD 14 complained of being kept beyond their terms and settled on poor land, and Tiberius had to restore the twenty-year limit after briefly conceding sixteen. The sales tax was halved in 17 and abolished in Italy by Caligula in 38; the inheritance tax lasted, being doubled by Caracalla. The fund probably also absorbed confiscated property and windfalls. Modern estimates of Roman imperial budgets (Duncan-Jones, Hopkins) treat army costs of around 400-500 million sesterces a year as the largest single item of state spending."
+   },
+   "append": {
+    "sources": [
+     {
+      "a": "Res Gestae",
+      "w": "Res Gestae Divi Augusti",
+      "r": "16-17"
+     },
+     {
+      "a": "Cassius Dio",
+      "w": "Roman History",
+      "r": "55.24.9-25.6, 56.28.4-6"
+     },
+     {
+      "a": "Suetonius",
+      "w": "Augustus",
+      "r": "49.2"
+     },
+     {
+      "a": "Tacitus",
+      "w": "Annals",
+      "r": "1.17, 1.78"
+     }
+    ],
+    "tags": [
+     "vicesima hereditatium",
+     "praefecti aerarii militaris",
+     "praemia"
+    ]
+   }
+  },
+  {
+   "kind": "event",
+   "id": "annexation_of_judaea",
+   "set": {
+    "detail": "After Herod's death in 4 BC Augustus divided his kingdom among three sons: Archelaus received Judaea, Samaria and Idumaea as ethnarch, Antipas Galilee and Peraea, and Philip the north-eastern territories. Archelaus ruled harshly, provoking unrest at the outset that the governor of Syria, Varus, suppressed by crucifying 2,000 rebels. In AD 6 a joint embassy of Jews and Samaritans complained to Augustus, who deposed Archelaus and exiled him to Vienna in Gaul. His territory became a province governed by an equestrian prefect, Coponius, residing at Caesarea with auxiliary troops recruited mainly from Caesarea and Sebaste, under the general supervision of the legate of Syria. Publius Sulpicius Quirinius, then governing Syria, conducted a census of property for tribute, which provoked the resistance of Judas the Galilean and the Pharisee Saddok, whom Josephus links to the later Zealots; the High Priest Joazar persuaded most to comply. The census is the one mentioned by Luke 2.1-2, whose attempt to place Jesus's birth under it conflicts with Matthew's Herodian setting. The prefects controlled the appointment of High Priests and the vestments, held the right of capital punishment and kept the Antonia fortress garrisoned, while internal affairs remained largely with the High Priest and council. The title of the governor is confirmed by the Pilate inscription from Caesarea (\"praefectus Iudaeae\"); after 44 the governors were called procurators. Judaea remained a province, except for Agrippa I's kingdom (41-44), until the revolt of 66, after which it became a praetorian province with a legion. The arrangement of AD 6 is significant as a test of Roman indirect rule: the equestrian prefects lacked troops and local knowledge, and tension over images, taxation and temple funds recurred under Pilate, Cumanus and Florus. Josephus's narrative (Jewish War 2, Antiquities 18) is the main source, and his tendency to trace the revolt back to the \"fourth philosophy\" of AD 6 has shaped modern interpretations of a sixty-year path to war."
+   },
+   "append": {
+    "sources": [
+     {
+      "a": "Josephus",
+      "w": "Jewish Antiquities",
+      "r": "17.342-355, 18.1-10, 18.26"
+     },
+     {
+      "a": "Josephus",
+      "w": "Jewish War",
+      "r": "2.111-118, 2.167"
+     },
+     {
+      "a": "Strabo",
+      "w": "Geography",
+      "r": "16.2.46"
+     },
+     {
+      "a": "Cassius Dio",
+      "w": "Roman History",
+      "r": "55.27.6"
+     },
+     {
+      "a": "Gospel of Luke",
+      "w": "New Testament",
+      "r": "2.1-2"
+     }
+    ],
+    "tags": [
+     "prefect of Judaea",
+     "census of Quirinius",
+     "Archelaus deposed"
+    ]
+   }
+  },
+  {
+   "kind": "event",
+   "id": "outbreak_of_the_illyrian_revolt",
+   "set": {
+    "detail": "In AD 6, as Tiberius was moving twelve legions against Maroboduus, the Dalmatian and Pannonian peoples called up to serve as auxiliaries rose in revolt. The trigger, Dio says, was the levy itself and the burden of tribute: when Tiberius later asked Bato the Daesitiate why his people had rebelled, he answered \"You are to blame, for you send as guardians of your flocks not dogs or shepherds but wolves.\" The Daesitiates of central Bosnia under Bato rose first and were joined by the Breuci of the Sava valley under another Bato and Pinnes. The rebels, some 200,000 infantry and 9,000 cavalry by Velleius's count, had served in Roman auxiliary units and knew Roman tactics and Latin. They massacred Roman traders and veterans, attacked Salona, where Bato was wounded, and moved on Sirmium, held by Aulus Caecina Severus from Moesia, and raided Macedonia. Velleius reports panic at Rome: Augustus told the Senate that the enemy could be at the gates within ten days, raised troops by emergency levies of freedmen and wealthy citizens' slaves (the first time since Cannae), and sent Germanicus with them. Tiberius made peace with Maroboduus and turned south, gathering at Siscia an army of ten legions, over seventy auxiliary cohorts, fourteen cavalry wings and 10,000 veterans, with Thracian cavalry under Rhoemetalces, the largest Roman force assembled since the civil wars, though too unwieldy to use as one. The war lasted three years (6-9), fought in a grinding campaign of attrition, sieges of hill forts and scorched earth, with famine and disease on both sides. Suetonius calls it the most serious foreign war since the Punic Wars. Its outbreak coincided with famine, fire and fiscal crisis in Rome, and the strain it imposed on manpower was one reason why the loss of Varus's three legions in AD 9 was so alarming. The revolt also marked the end of plans to annex Bohemia and pushed the empire towards consolidation along the Danube."
+   },
+   "append": {
+    "sources": [
+     {
+      "a": "Cassius Dio",
+      "w": "Roman History",
+      "r": "55.28-34, 56.16.3"
+     },
+     {
+      "a": "Velleius Paterculus",
+      "w": "Roman History",
+      "r": "2.110-115"
+     },
+     {
+      "a": "Suetonius",
+      "w": "Tiberius",
+      "r": "16-17"
+     },
+     {
+      "a": "Suetonius",
+      "w": "Augustus",
+      "r": "25.2"
+     }
+    ],
+    "tags": [
+     "Bato",
+     "Daesitiates",
+     "Breuci",
+     "levy of freedmen"
+    ]
+   }
+  },
+  {
+   "kind": "event",
+   "id": "battle_of_the_teutoburg_forest",
+   "set": {
+    "detail": "In September AD 9 Publius Quinctilius Varus, legate of Germany, was marching his army of three legions (XVII, XVIII, XIX), six cohorts and three cavalry wings, perhaps 15,000-20,000 soldiers plus camp followers, from their summer camp on the Weser back to winter quarters on the Rhine, when he was told of a rising among distant tribes and diverted his route. The informant was Arminius, a Cheruscan noble and Roman citizen of equestrian rank who commanded auxiliaries; his father-in-law Segestes had warned Varus the previous night, in vain. In wooded, marshy country, amid heavy rain, the strung-out column was attacked by the Cherusci, Marsi, Chatti and Bructeri. Dio describes a running fight of three or four days: the Romans built a camp, burned surplus wagons, pushed on, and were cut down in the forests. Varus and his senior officers killed themselves; the camp prefect Ceionius surrendered, the cavalry commander Numonius Vala fled and was killed, and Eggius fell fighting. Tribunes and senior centurions were sacrificed in groves, and the lawyers were reportedly tortured, one having his tongue cut out. Varus's head was sent to Maroboduus and then to Augustus. Only the fort at Aliso held out and broke through to the Rhine. Augustus, Suetonius says, let his hair and beard grow for months and banged his head against doors crying \"Quinctilius Varus, give me back my legions!\" The disaster, the worst since Carrhae, ended Roman occupation east of the Rhine, though Germanicus campaigned there in 14-16. The site was long sought in the Teutoburg Forest, the name in Tacitus; since 1987 excavations at Kalkriese near Osnabrück, prompted by an amateur's coin finds, have revealed a narrow passage between Kalkriese Hill and the Great Bog where a turf wall channelled the Romans, with over 6,000 Roman objects, including a cavalry face mask, coins ending with issues of Varus, and bone pits from later burial. Whether Kalkriese is the main battlefield or one phase of it (or even a site of Germanicus's campaigns of 15) remains debated. The legion numbers were never reused.",
+    "debate": "Whether Kalkriese is the site of the main battle, one phase of it, or of the fighting of AD 15."
+   },
+   "append": {
+    "sources": [
+     {
+      "a": "Cassius Dio",
+      "w": "Roman History",
+      "r": "56.18-24"
+     },
+     {
+      "a": "Velleius Paterculus",
+      "w": "Roman History",
+      "r": "2.117-120"
+     },
+     {
+      "a": "Tacitus",
+      "w": "Annals",
+      "r": "1.55-62"
+     },
+     {
+      "a": "Suetonius",
+      "w": "Augustus",
+      "r": "23"
+     },
+     {
+      "a": "Florus",
+      "w": "Epitome",
+      "r": "2.30.29-39"
+     }
+    ],
+    "tags": [
+     "Kalkriese",
+     "clades Variana",
+     "Arminius"
+    ]
+   }
+  },
+  {
+   "kind": "event",
+   "id": "res_gestae_divi_augusti",
+   "set": {
+    "detail": "The Res Gestae Divi Augusti (\"Achievements of the Divine Augustus\") is Augustus's own account of his career, written in the first person and deposited with his will with the Vestal Virgins, to be inscribed on bronze pillars in front of his Mausoleum. Its final version dates from AD 13-14; chapter 35 notes that he was in his 76th year. The bronze originals are lost, but copies were set up in the province of Galatia: the Monumentum Ancyranum on the walls of the temple of Rome and Augustus at Ancyra (Ankara), with Latin text and Greek paraphrase, the \"queen of inscriptions\" in Mommsen's phrase, plus fragments from Apollonia (Greek) and Pisidian Antioch (Latin). The text is arranged in 35 chapters and an appendix written after his death. It falls into three parts: honours and offices (1-14), expenditure on the people, veterans and buildings (15-24), and achievements in war and diplomacy (25-33), ending with the settlements of 27 and the title pater patriae (34-35). It lists precise figures: 600 million sesterces paid for land for veterans, 400 million in cash bounties, 82 temples restored in 28 BC, three censuses with their citizen totals, 55 triumphal acclamations, the nations whose embassies reached him from India to the Scythians. Its silences are as telling as its claims: it never names Antony, Lepidus or Brutus and Cassius, calls Sextus Pompey's forces pirates and slaves, presents the triumviral proscriptions as vengeance for Caesar, and claims that after 27 BC he \"excelled all in authority (auctoritas) but had no more power (potestas) than my colleagues in each magistracy\". Scholars debate its genre (funerary elogium, political testament, an account to the people) and its audience. It is the single most important document for Augustan self-representation, and its rhetoric of restoration, consensus and modesty shaped the ideology of the Principate. The appendix, added by an editor, totals his expenditure at 2.4 billion sesterces. In 1938 Mussolini's regime reproduced the full Latin text on the wall of the pavilion of the Ara Pacis, where it remains.",
+    "debate": "Genre, intended audience and date of composition of successive drafts."
+   },
+   "append": {
+    "sources": [
+     {
+      "a": "Res Gestae",
+      "w": "Res Gestae Divi Augusti",
+      "r": "1-35"
+     },
+     {
+      "a": "Suetonius",
+      "w": "Augustus",
+      "r": "101.4"
+     },
+     {
+      "a": "Cassius Dio",
+      "w": "Roman History",
+      "r": "56.33.1"
+     }
+    ],
+    "tags": [
+     "Monumentum Ancyranum",
+     "auctoritas",
+     "Galatia"
+    ]
+   }
+  },
+  {
+   "kind": "event",
+   "id": "death_of_augustus",
+   "set": {
+    "detail": "Augustus died at Nola in Campania on 19 August AD 14, in the same room in which his father had died, a month before his 76th birthday. He had accompanied Tiberius, who was setting out for Illyricum, as far as Beneventum and fell ill on the return journey; by some accounts he had already visited Capri and enjoyed games at Naples. Tiberius was recalled and found him alive, or according to a rumour reported by Tacitus and Dio, arrived too late, Livia concealing the death until he came. Suetonius records his last words to friends, quoting the end of a comedy: \"If I have played my part well, applaud and send me from the stage with your approval,\" and to Livia: \"Livia, live mindful of our marriage, and farewell.\" Tacitus and Dio report rumours that Livia poisoned him with figs, fearing a reconciliation with Agrippa Postumus after a secret visit to Planasia with Paullus Fabius Maximus, a story modern historians generally reject. His body was carried by local magistrates by night to Bovillae and then by knights to Rome. At a Senate meeting Tiberius had the will read: two-thirds of the estate to Tiberius and one-third to Livia, who was adopted into the Julian family and named Augusta; legacies of 40 million sesterces to the people, 1,000 to each praetorian, 500 to urban cohort soldiers and 300 to legionaries. Three rolls accompanied it: instructions for the funeral, the Res Gestae, and a summary of the empire's resources (breviarium totius imperii) advising that the empire be kept within its existing boundaries. The funeral took place in the Campus Martius, with laudations by Tiberius and Drusus; a senator swore he had seen Augustus's spirit ascending, and he was consecrated as Divus Augustus on 17 September. His death tested the system he had built: there was no formal procedure for succession, and the mutinies on the Rhine and Danube and the murder of Agrippa Postumus followed immediately."
+   },
+   "append": {
+    "sources": [
+     {
+      "a": "Suetonius",
+      "w": "Augustus",
+      "r": "97-101"
+     },
+     {
+      "a": "Tacitus",
+      "w": "Annals",
+      "r": "1.5-10"
+     },
+     {
+      "a": "Cassius Dio",
+      "w": "Roman History",
+      "r": "56.29-47"
+     },
+     {
+      "a": "Velleius Paterculus",
+      "w": "Roman History",
+      "r": "2.123"
+     }
+    ],
+    "tags": [
+     "Nola",
+     "breviarium imperii",
+     "will of Augustus"
+    ]
+   }
+  },
+  {
+   "kind": "event",
+   "id": "accession_of_tiberius",
+   "set": {
+    "detail": "Tiberius's accession in AD 14 was the first transfer of power within the Augustan system, and its ambiguities fascinated ancient writers. Legally Tiberius already held tribunician power and an imperium equal to Augustus's, so on Augustus's death he immediately gave the watchword to the praetorians, sent dispatches to the armies and was escorted by soldiers, yet in the Senate he professed reluctance. At the meeting of 17 September, after Augustus's consecration, senators begged him to accept the whole of the state; he replied that only the mind of Augustus could bear such a burden and offered to take a share. Asinius Gallus asked which part he wanted, Quintus Haterius asked \"How long, Caesar, will you let the state lack a head?\" and Mamercus Scaurus provoked him by hoping he would not veto the Senate's prayers. Tacitus presents the scene as hypocrisy (the \"dissimulation\" that became Tiberius's defining trait), Velleius as genuine modesty, and Suetonius says Tiberius described himself as \"holding a wolf by the ears\". He finally accepted without ever formally saying so, declining the title imperator as praenomen and pater patriae. Meanwhile Agrippa Postumus was killed on Planasia by his guard, an act whose author (Augustus's posthumous order, Livia, Sallustius Crispus or Tiberius) was disputed even at the time; Tiberius disclaimed it. The legions in Pannonia and Germany mutinied, demanding shorter service and higher pay, and the German legions offered the throne to Germanicus, who refused. Another early measure transferred the election of magistrates from the popular assemblies to the Senate. Tiberius's handling of the accession established the pattern of the \"reluctant\" princeps (recusatio imperii) imitated by later emperors and showed that the Principate, though never defined as an office, had become a permanent position requiring a successor. Modern historians (Levick) see his reluctance as partly sincere, reflecting a conservative aristocrat's discomfort with autocracy and his loss of political skill after years at the front."
+   },
+   "append": {
+    "sources": [
+     {
+      "a": "Tacitus",
+      "w": "Annals",
+      "r": "1.6-15"
+     },
+     {
+      "a": "Suetonius",
+      "w": "Tiberius",
+      "r": "22-26"
+     },
+     {
+      "a": "Velleius Paterculus",
+      "w": "Roman History",
+      "r": "2.124"
+     },
+     {
+      "a": "Cassius Dio",
+      "w": "Roman History",
+      "r": "57.1-7"
+     }
+    ],
+    "tags": [
+     "recusatio imperii",
+     "dissimulatio",
+     "Agrippa Postumus"
+    ]
+   }
+  },
+  {
+   "kind": "event",
+   "id": "death_of_germanicus",
+   "set": {
+    "detail": "Germanicus Caesar died at Epidaphne near Antioch on 10 October AD 19, aged 33, after an illness during which he became convinced that he had been poisoned by Gnaeus Calpurnius Piso, the legate of Syria, and his wife Plancina. He had been sent east in 17 with a maius imperium over all transmarine provinces, crowned Artaxias III in Armenia, organised Cappadocia and Commagene as provinces, and in 19 made an unauthorised tour of Egypt, entering the province without permission, opening granaries during a famine and sailing up the Nile to Elephantine, for which Tiberius rebuked him. Piso, an aristocrat of fierce independence, had obstructed his orders, cultivated the troops and reversed his arrangements; Germanicus renounced his friendship. Tacitus describes human remains, spells inscribed with Germanicus's name, lead tablets and charred ashes found under the floor of his room. On his deathbed he urged his friends to avenge him and asked Agrippina to put aside her pride. His body was displayed naked in the forum at Antioch, which some took as showing signs of poison, and cremated. Agrippina carried his ashes to Brundisium in a famous procession, met by grieving crowds, and the ashes were placed in the Mausoleum of Augustus. Rome mourned extravagantly; the people stoned temples and threw out their household gods, and barbarian kings were said to have suspended hostilities. The Senate voted honours known from the Tabula Siarensis and Tabula Hebana, including arches on the Rhine, in Syria and in Rome. Piso's attempt to return to Syria by force led to his trial and suicide in 20; the Senatus Consultum de Cn. Pisone patre (found in Spain in the 1980s) gives the official verdict, which accused him of disrupting military discipline and rejoicing at the death but did not confirm poisoning. Tacitus contrasts the charming, popular Germanicus with the dour Tiberius, implying that Tiberius was relieved; modern historians doubt any imperial involvement, and illness (perhaps malaria) is the likeliest cause. His death left the succession to Drusus the Younger and fuelled the rivalry between Agrippina's party and Sejanus.",
+    "debate": "Poisoning by Piso (popular belief) or natural illness; the SCPP does not confirm poison."
+   },
+   "append": {
+    "sources": [
+     {
+      "a": "Tacitus",
+      "w": "Annals",
+      "r": "2.69-83, 3.1-19"
+     },
+     {
+      "a": "Suetonius",
+      "w": "Caligula",
+      "r": "1-7"
+     },
+     {
+      "a": "Cassius Dio",
+      "w": "Roman History",
+      "r": "57.18"
+     },
+     {
+      "a": "Senatus Consultum de Cn. Pisone patre",
+      "w": "SCPP"
+     }
+    ],
+    "tags": [
+     "poison rumour",
+     "Agrippina's ashes",
+     "Epidaphne"
+    ]
+   }
+  },
+  {
+   "kind": "event",
+   "id": "crucifixion_of_jesus",
+   "set": {
+    "detail": "Jesus of Nazareth was crucified outside Jerusalem by order of the prefect Pontius Pilate at Passover, on a Friday, during Pilate's prefecture (26-36). The execution is one of the best-attested facts about him: besides the four gospels and Paul's letters (1 Corinthians 15.3-8, written c. 54), it is recorded by Tacitus (Annals 15.44, \"Christus, executed by the procurator Pontius Pilate in the reign of Tiberius\") and in the core of Josephus's Testimonium (Antiquities 18.63-64). The gospels describe his entry into Jerusalem, a disturbance in the Temple, a last meal with his disciples, his arrest at night in Gethsemane by Temple police, a hearing before the High Priest Caiaphas and his council, and his transfer to Pilate on a political charge: the inscription on the cross, \"King of the Jews\", reflects Roman concern with royal claimants. Crucifixion was a Roman punishment for slaves, bandits and rebels, and the bones of a crucified man, Yehohanan, found in Jerusalem in 1968 with a nail through the heel bone, illustrate the method. The date is disputed. The Synoptics place the death on Passover day itself (15 Nisan), John on the eve, when the lambs were slaughtered (14 Nisan); astronomical calculation shows that 14 Nisan fell on a Friday in AD 30 (7 April) and AD 33 (3 April). AD 30 suits the reckoning from Luke's fifteenth year of Tiberius and a short ministry; AD 33 suits a three-year ministry and is favoured by some on the basis of the lunar eclipse visible from Jerusalem on 3 April 33, linked to Acts 2.20. Earlier dates (27, 29) and 36 have also been proposed. The gospel accounts of Pilate's reluctance and the crowd's responsibility are widely seen by historians as shaped by later apologetic aims, which minimised Roman guilt and blamed Jewish leaders, with terrible later consequences. The proclamation of the resurrection by Jesus's followers within days or weeks of his death was the origin of the Christian movement, and the execution site and tomb were venerated by the fourth century at the place later covered by the Church of the Holy Sepulchre.",
+    "debate": "Date: Friday 7 April 30 or 3 April 33 (14 Nisan in John's chronology); Synoptic and Johannine chronologies differ by a day."
+   },
+   "append": {
+    "sources": [
+     {
+      "a": "Gospel of Mark",
+      "w": "New Testament",
+      "r": "14-16"
+     },
+     {
+      "a": "Gospel of John",
+      "w": "New Testament",
+      "r": "18-19"
+     },
+     {
+      "a": "1 Corinthians",
+      "w": "New Testament",
+      "r": "15.3-8"
+     },
+     {
+      "a": "Tacitus",
+      "w": "Annals",
+      "r": "15.44"
+     },
+     {
+      "a": "Josephus",
+      "w": "Jewish Antiquities",
+      "r": "18.63-64"
+     }
+    ],
+    "tags": [
+     "Passover",
+     "Pilate",
+     "Yehohanan ossuary",
+     "dating"
+    ]
+   }
+  },
+  {
+   "kind": "event",
+   "id": "fall_of_sejanus",
+   "set": {
+    "detail": "Lucius Aelius Sejanus, praetorian prefect from 14 (alone from c. 15), was arrested on 18 October 31 at a Senate meeting in the Temple of Apollo on the Palatine, condemned at a second session in the Temple of Concord beside the prison, and executed the same day. An equestrian from Volsinii, related by marriage to senatorial families, he had concentrated the nine praetorian cohorts in a single camp on the Viminal in 23, made himself indispensable to Tiberius, and after the death of Drusus the Younger (23), which his former wife Apicata later claimed he had arranged with Drusus's wife Livilla, systematically destroyed Agrippina the Elder and her elder sons Nero and Drusus. After Tiberius withdrew to Capri in 26, Sejanus controlled access to the emperor; statues of him were honoured, his birthday was celebrated and he held the consulship of 31 with Tiberius. He was betrothed to Livilla (or her daughter) and seems to have expected tribunician power. Tiberius, alerted, according to Josephus, by a letter from Antonia Minor, prepared his fall secretly. He appointed Macro as new prefect, who had the night watch (vigiles) replace the praetorians outside the Senate, and delivered a long, rambling letter from Capri that began with routine matters and ended by denouncing Sejanus. The Senate, which had come expecting to confer new honours, voted his arrest. He was strangled in the Tullianum, his body thrown down the Gemonian steps and torn by the crowd, and his statues smashed, a scene Juvenal (10.56-107) made the classic image of fallen greatness. His young children were executed, the daughter raped first by the executioner because a virgin could not be killed (Tacitus, 5.9). Apicata killed herself after revealing Drusus's murder, and Livilla was starved to death. A wave of trials of his associates followed (the \"Sejanian\" treason trials), which Tacitus describes in the darkest terms. Velleius's eulogy of Sejanus, published only a year before, shows how high he stood. Modern scholars debate whether he planned a coup or merely sought a regency over Tiberius's grandson Gemellus, and whether Tiberius struck from fear or genuine discovery of a plot.",
+    "debate": "Whether Sejanus planned to seize power or to become regent; the significance of Antonia's warning."
+   },
+   "append": {
+    "sources": [
+     {
+      "a": "Cassius Dio",
+      "w": "Roman History",
+      "r": "58.4-11"
+     },
+     {
+      "a": "Tacitus",
+      "w": "Annals",
+      "r": "4.1-3, 5.6-9, 6.2-9"
+     },
+     {
+      "a": "Suetonius",
+      "w": "Tiberius",
+      "r": "48, 55, 61-62, 65"
+     },
+     {
+      "a": "Juvenal",
+      "w": "Satires",
+      "r": "10.56-107"
+     },
+     {
+      "a": "Josephus",
+      "w": "Jewish Antiquities",
+      "r": "18.181-182"
+     }
+    ],
+    "tags": [
+     "praetorian prefect",
+     "Macro",
+     "Gemonian steps"
+    ]
+   }
+  },
+  {
+   "kind": "event",
+   "id": "death_of_tiberius",
+   "set": {
+    "detail": "Tiberius died on 16 March 37 at the villa of Lucullus at Misenum, aged 77, on his way back towards Rome, which he had not entered since 26 and approached several times without going in. He had held a dinner at Astura and fallen ill, but continued to attend banquets to hide his weakness; his physician Charicles, taking his pulse while pretending to kiss his hand, told Macro he would not last two days. Accounts of the end diverge. Tacitus says he seemed to have died and Gaius was being hailed as emperor when news came that he had recovered and asked for food; Macro calmly ordered him smothered with bedclothes. Suetonius gives versions in which Gaius poisoned him, starved him or smothered him with a pillow, and one in which, recovering from a faint, he called for his attendants and, finding no one, rose and collapsed. Dio says Gaius and Macro starved him or smothered him. Modern historians generally accept a natural death in extreme old age, the murder stories reflecting Gaius's later reputation. His will, made two years earlier, named Gaius and his grandson Tiberius Gemellus joint heirs; the Senate annulled it at Gaius's request, recognising Gaius as sole ruler, and Gemellus was killed within a year. The people greeted the news with joy, shouting \"Tiberius to the Tiber!\", and his body was escorted to Rome by soldiers and cremated, but the Senate did not deify him. Tacitus's famous obituary (Annals 6.51) divides his life into phases of progressive degeneration, from excellence while Augustus lived to unrestrained cruelty and lust after Sejanus's fall, a schema modern scholars criticise as literary. His reign left a full treasury of 2.7 billion sesterces, a stable frontier, competent provincial government and a demoralised Senate. The stories of debauchery on Capri retailed by Suetonius are widely discounted. Tiberius's refusal of honours, devotion to Augustan precedent and attempts to make the Senate share responsibility were sincere but failed, and his isolation on Capri set a precedent for government by an absent ruler through intermediaries.",
+    "debate": "Natural death or murder by Macro and Gaius."
+   },
+   "append": {
+    "sources": [
+     {
+      "a": "Tacitus",
+      "w": "Annals",
+      "r": "6.50-51"
+     },
+     {
+      "a": "Suetonius",
+      "w": "Tiberius",
+      "r": "72-75"
+     },
+     {
+      "a": "Cassius Dio",
+      "w": "Roman History",
+      "r": "58.27-28"
+     },
+     {
+      "a": "Suetonius",
+      "w": "Caligula",
+      "r": "12.2-3"
+     }
+    ],
+    "tags": [
+     "Misenum",
+     "Macro",
+     "will annulled"
+    ]
+   }
+  },
+  {
+   "kind": "event",
+   "id": "assassination_of_caligula",
+   "set": {
+    "detail": "Gaius Caesar (Caligula) was murdered on 24 January 41, the last day of the Palatine Games in honour of Augustus, in a covered passage under the palace as he left the theatre for lunch. The conspiracy involved praetorian officers, senators and palace freedmen, including the praetorian prefect Arrecinus Clemens and the freedman Callistus. Its leading figure was the praetorian tribune Cassius Chaerea, a veteran of the German mutinies whom Gaius habitually humiliated with obscene watchwords such as \"Priapus\" and \"Venus\". Chaerea asked the watchword and struck first, cutting Gaius in the neck; another tribune, Cornelius Sabinus, stabbed him in the chest, and others joined, thirty wounds in all by Suetonius's count, some aimed at the genitals. His German bodyguard ran amok, killing several bystanders and senators, and a centurion killed his wife Milonia Caesonia and dashed their infant daughter Julia Drusilla against a wall. The motives were partly personal and partly political: after the conspiracy of Gaetulicus and Lepidus in 39, Gaius had turned against the Senate, demanded divine honours, threatened to move the capital to Alexandria and exhausted the treasury. Josephus (Antiquities 19.1-273), drawing on a detailed contemporary source, preserves the fullest narrative, with the senator Valerius Asiaticus telling the crowd he wished he had struck the blow himself. The Senate met on the Capitol, the consul Sentius Saturninus spoke of restoring liberty, and debate turned to abolishing the Principate or choosing a new princeps; candidates included Asiaticus and Marcus Vinicius. But the praetorians found Gaius's uncle Claudius hiding behind a curtain in the palace and carried him to their camp, and within a day the Senate had to accept their choice. The murder showed that the Principate could survive the death of a hated ruler without a designated heir, and that the praetorians, not the Senate, now decided the succession. Chaerea was executed by Claudius, while the other conspirators were largely spared."
+   },
+   "append": {
+    "sources": [
+     {
+      "a": "Josephus",
+      "w": "Jewish Antiquities",
+      "r": "19.1-273"
+     },
+     {
+      "a": "Suetonius",
+      "w": "Caligula",
+      "r": "56-60"
+     },
+     {
+      "a": "Cassius Dio",
+      "w": "Roman History",
+      "r": "59.29-30"
+     },
+     {
+      "a": "Seneca",
+      "w": "De Constantia Sapientis",
+      "r": "18"
+     }
+    ],
+    "tags": [
+     "Cassius Chaerea",
+     "Palatine Games",
+     "Republican restoration debate"
+    ]
+   }
+  }
+ ]
+}
