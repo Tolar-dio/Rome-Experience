@@ -1,331 +1,2067 @@
-{"events":[
-{"id":"census_465","year":-465,"title":"Census of 465: 104,714 citizens","type":"administrative","cats":["administrative","social"],"importance":1,
-"summary":"Livy records a lustrum in 465 counting 104,714 citizens (some manuscripts 124,214), 'besides orphans and widows'.",
-"detail":"Early census figures (Servius 80,000; 508 c. 130,000 per Dionysius; 465 104,714; 459 117,319) are far too high for a city-state whose territory in c. 500 was about 822 km2 (Beloch's estimate): even counting all free males they imply a population greater than the land could carry. They are probably later inventions or back-projections, though the mid-Republican figures (from 293 onward) are generally taken seriously.",
-"loc":[12.4924,41.8902],"locName":"Rome","locCertainty":"certain",
-"polities":["rome"],
-"sources":[{"a":"Livy","w":"Ab Urbe Condita","r":"3.3.9"}],
-"scholarship":["Beloch, Römische Geschichte (1926)","Cornell, The Beginnings of Rome (1995) 204-208"],"debate":"Figures generally considered unreliable for the 5th century.","certainty":"disputed","tags":["census","demography"]},
-
-{"id":"plague_of_463","year":-463,"title":"Plague of 463","type":"plague","cats":["disaster"],"importance":2,
-"summary":"A pestilence struck Rome and its allies, killing both consuls (L. Aebutius and P. Servilius) or one of them, many senators and a large part of the population; the Aequi and Volsci exploited the paralysis.",
-"detail":"Livy's sequence of 5th-century epidemics (463, 453, 436-433, 412, 399-398) is plausibly drawn from the pontifical annals; the 433 epidemic produced the vow of a temple to Apollo Medicus.",
-"loc":[12.4924,41.8902],"locName":"Rome","locCertainty":"certain",
-"polities":["rome"],
-"sources":[{"a":"Livy","w":"Ab Urbe Condita","r":"3.6-7"},{"a":"Dionysius of Halicarnassus","w":"Roman Antiquities","r":"9.67"}],"certainty":"probable","tags":["epidemic"]},
-
-{"id":"seizure_of_the_capitol_460","year":-460,"title":"Appius Herdonius seizes the Capitol","type":"revolt","cats":["political","military"],"importance":2,
-"summary":"The Sabine Appius Herdonius with c. 2,500 exiles and slaves occupied the Capitol by night, calling on slaves to rise; the Romans, with help from a Tusculan army under L. Mamilius, retook it after several days, but the consul P. Valerius was killed in the assault.",
-"detail":"Like Attus Clausus, Herdonius illustrates the archaic warlord with a private following; a Turnus Herdonius of Aricia appears in the Tarquin saga. The tribunes had initially obstructed the levy, arguing the threat was a patrician trick.",
-"loc":[12.4823,41.8933],"locName":"Capitoline Hill","locCertainty":"certain",
-"people":["appius_herdonius"],"polities":["rome","sabines","latin_league"],
-"sources":[{"a":"Livy","w":"Ab Urbe Condita","r":"3.15-18"},{"a":"Dionysius of Halicarnassus","w":"Roman Antiquities","r":"10.14-16"}],
-"scholarship":["Cornell, The Beginnings of Rome (1995) 144"],"certainty":"traditional","tags":["warlords","slave revolt","Tusculum"]},
-
-{"id":"census_459","year":-459,"title":"Census of 459: 117,319 citizens","type":"administrative","cats":["administrative"],"importance":1,
-"summary":"Livy gives 117,319 citizens counted at the lustrum of 459.",
-"detail":"See census_465 on the reliability of 5th-century census figures. Dionysius gives slightly different numbers.",
-"loc":[12.4924,41.8902],"locName":"Rome","locCertainty":"certain","polities":["rome"],
-"sources":[{"a":"Livy","w":"Ab Urbe Condita","r":"3.24.10"}],"certainty":"disputed","tags":["census"]},
-
-{"id":"battle_of_mount_algidus_458","year":-458,"title":"Cincinnatus' dictatorship and the battle of Mount Algidus","type":"battle","cats":["military"],"importance":3,
-"summary":"When the Aequi under Gracchus Cloelius trapped the consul L. Minucius in the Algidus pass, envoys found L. Quinctius Cincinnatus ploughing his four-iugera farm across the Tiber; named dictator, he relieved Minucius, sent the Aequi under the yoke, and resigned after sixteen days.",
-"detail":"The tale became the paradigm of Republican virtue, but Livy's account of an army enclosing the besiegers with a ditch and stockade overnight, each man carrying twelve stakes, is a stock motif. The Algidus pass, carrying the route from the Aequian hills to the Alban plain, was the recurrent front of the 5th-century Aequian wars. Dionysius gives a different chronology.",
-"loc":[12.7800,41.7600],"locName":"Mount Algidus pass (near Rocca Priora)","locCertainty":"probable",
-"war":"aequian_wars","people":["cincinnatus"],"polities":["rome","aequi"],
-"battle":{"sides":[{"polity":"rome","commanders":["cincinnatus"],"strength":"relief army from the city plus Minucius' trapped consular army","losses":"unknown"},{"polity":"aequi","commanders":[],"strength":"Aequian army under Gracchus Cloelius","losses":"surrendered and sent under the yoke"}],"victor":"rome","kind":"field","significance":"Legendary model of the citizen-dictator; one of many Algidus engagements."},
-"sources":[{"a":"Livy","w":"Ab Urbe Condita","r":"3.26-29"},{"a":"Dionysius of Halicarnassus","w":"Roman Antiquities","r":"10.23-25"}],
-"scholarship":["Ogilvie, A Commentary on Livy Books 1-5 (1965) 437-444"],"certainty":"traditional","tags":["Cincinnatus","yoke","dictator"]},
-
-{"id":"tribunes_increased_to_ten","year":-457,"title":"Tribunes of the plebs increased to ten","type":"constitutional","cats":["constitutional"],"importance":2,
-"summary":"The number of plebeian tribunes was raised to ten, two from each of the five classes according to one tradition; the number remained ten thereafter.",
-"detail":"A larger college made intercession (veto by a single colleague) a tool that the patricians could exploit by winning over one tribune, a tactic used against the Licinio-Sextian rogations and the Gracchi.",
-"loc":[12.4853,41.8925],"locName":"Rome","locCertainty":"certain","polities":["rome"],
-"sources":[{"a":"Livy","w":"Ab Urbe Condita","r":"3.30.7"},{"a":"Dionysius of Halicarnassus","w":"Roman Antiquities","r":"10.30"}],"certainty":"probable","tags":["tribunes"]},
-
-{"id":"lex_icilia_de_aventino","year":-456,"title":"Lex Icilia de Aventino publicando","type":"law","cats":["law","social"],"importance":2,
-"summary":"The tribune L. Icilius carried a law distributing the Aventine, then public land outside the pomerium, to plebeians for houses; several families could share one building plot by floors.",
-"detail":"Dionysius says the bronze text was set up in the temple of Diana on the Aventine. The Aventine became the plebeian quarter par excellence and the site of the second secession.",
-"loc":[12.4810,41.8830],"locName":"Aventine Hill","locCertainty":"certain",
-"polities":["rome"],
-"sources":[{"a":"Livy","w":"Ab Urbe Condita","r":"3.31.1"},{"a":"Dionysius of Halicarnassus","w":"Roman Antiquities","r":"10.31-32"}],"certainty":"probable","tags":["Aventine","plebs"]},
-
-{"id":"lex_aternia_tarpeia","year":-454,"title":"Lex Aternia Tarpeia on fines","type":"law","cats":["law","economic"],"importance":1,
-"summary":"A consular law set the maximum fine a magistrate could impose at two sheep and thirty oxen, values later converted to bronze (10 asses per sheep, 100 per ox) by the lex Iulia Papiria of 430.",
-"detail":"The law is a precious glimpse of a pre-monetary economy in which value was reckoned in livestock (pecus, whence pecunia) and uncoined bronze by weight.",
-"loc":[12.4924,41.8902],"locName":"Rome","locCertainty":"certain","polities":["rome"],
-"sources":[{"a":"Dionysius of Halicarnassus","w":"Roman Antiquities","r":"10.50.2"},{"a":"Gellius","w":"Noctes Atticae","r":"11.1.2"},{"a":"Cicero","w":"De Re Publica","r":"2.60"}],"certainty":"probable","tags":["fines","pecunia","pre-monetary economy"]},
-
-{"id":"embassy_to_athens_454","year":-454,"title":"Embassy to Greece to study the laws of Solon","type":"diplomacy","cats":["law","diplomatic"],"importance":2,
-"summary":"Three envoys (Sp. Postumius Albus, A. Manlius, P. Sulpicius Camerinus) were reportedly sent to Athens and other Greek cities to copy the laws of Solon before codification; they returned in 452.",
-"detail":"Most scholars doubt an Athenian mission: the Twelve Tables show few specifically Solonian features (a funerary restriction and the rule on boundary strips, which Gaius compared to Solon, are the strongest). Influence via the Greek cities of southern Italy, and the tradition that Hermodorus of Ephesus, an exile, helped the decemvirs (a statue of him stood in the Comitium per Pliny), are more plausible.",
-"loc":[23.7275,37.9715],"locName":"Athens","locCertainty":"approx",
-"polities":["rome","athens"],
-"sources":[{"a":"Livy","w":"Ab Urbe Condita","r":"3.31.8, 3.32.6"},{"a":"Dionysius of Halicarnassus","w":"Roman Antiquities","r":"10.52.4"},{"a":"Pliny the Elder","w":"Natural History","r":"34.21"}],
-"scholarship":["Crawford (ed.), Roman Statutes II (1996) 555-721","Cornell, The Beginnings of Rome (1995) 275"],"debate":"Historicity of the embassy widely doubted.","certainty":"disputed","tags":["Solon","Hermodorus of Ephesus","Twelve Tables"]},
-
-{"id":"first_decemvirate","year":-451,"title":"First Decemvirate","type":"constitutional","cats":["constitutional","law"],"importance":4,
-"summary":"Consulship and tribunate were suspended and ten patrician decemviri legibus scribundis, headed by Appius Claudius, governed with full powers and drafted ten tables of law.",
-"detail":"The first board was remembered as moderate; each decemvir held the fasces in turn for a day. Its laws were ratified by the comitia centuriata. The suspension of the tribunate shows the decemvirate was a compromise in which the plebs traded protection for written law.",
-"loc":[12.4853,41.8925],"locName":"Comitium, Rome","locCertainty":"certain",
-"people":["appius_claudius_decemvir"],"polities":["rome"],
-"sources":[{"a":"Livy","w":"Ab Urbe Condita","r":"3.33-35"},{"a":"Dionysius of Halicarnassus","w":"Roman Antiquities","r":"10.56-58"},{"a":"Cicero","w":"De Re Publica","r":"2.61-62"}],
-"scholarship":["Broughton, MRR I 45-46"],"certainty":"probable","tags":["decemviri legibus scribundis","Appius Claudius"]},
-
-{"id":"twelve_tables","year":-450,"endYear":-449,"title":"The Law of the Twelve Tables","type":"law","cats":["law","social"],"importance":5,
-"summary":"Rome's first written code, ten tables drafted in 451 and two more in 450, was set up in bronze (or wood) in the Forum: Livy called it 'the fount of all public and private law', and Cicero learned it by heart as a schoolboy.",
-"detail":"It survives only in c. 100 quoted fragments (reconstructed by Crawford et al. in Roman Statutes). Content: procedure (summons, 'si in ius vocat, ito'), debt bondage (the creditor may cut the defaulting debtor's body after three market days: 'partes secanto', Table III), patria potestas (a son sold three times is free from his father), usus marriage and the trinoctium escape from manus, intestate succession to sui heredes then agnates then gentiles, tort with talio ('si membrum rupsit, ni cum eo pacit, talio esto'), night-time thieves may be killed, magical crop-charming (fruges excantare) and libellous songs (malum carmen) as capital offences, restrictions on funeral display (no gold except dental gold, no more than ten flute-players), and in the last two tables the notorious ban on patrician-plebeian intermarriage, repealed in 445. It reflects a small agrarian community of farmers, debtors and clans, not a codification of constitutional law.",
-"loc":[12.4853,41.8925],"locName":"Forum Romanum (Comitium)","locCertainty":"certain",
-"people":["appius_claudius_decemvir"],"polities":["rome"],
-"sources":[{"a":"Livy","w":"Ab Urbe Condita","r":"3.34, 3.57.10"},{"a":"Cicero","w":"De Legibus","r":"2.9, 2.58-64"},{"a":"Gellius","w":"Noctes Atticae","r":"20.1"},{"a":"Gaius","w":"Digest","r":"10.1.13"}],
-"scholarship":["Crawford (ed.), Roman Statutes II (1996) 555-721","Watson, Rome of the XII Tables (1975)","Cornell, The Beginnings of Rome (1995) 272-292"],
-"debate":"Authenticity is now generally accepted (archaic language, agrarian content) against Pais and Lambert, who dated the code much later.","certainty":"probable","tags":["Twelve Tables","codification","nexum","patria potestas"]},
-
-{"id":"second_secession_of_the_plebs","year":-449,"title":"Verginia, the fall of the decemvirs and the Second Secession","type":"revolt","cats":["political","social","constitutional"],"importance":4,
-"summary":"The second decemvirate became a tyranny; when Appius Claudius tried to claim the plebeian girl Verginia as a slave, her father killed her in the Forum, the armies mutinied and the plebs seceded to the Aventine and the Mons Sacer until the decemvirs abdicated.",
-"detail":"Appius died in prison awaiting trial (suicide, by one version) and his colleague Sp. Oppius likewise; the others went into exile. The Verginia story is a deliberate doublet of Lucretia: a sexual outrage by a tyrant triggers liberation. Tribunes were restored (the first being Verginius and Icilius, Verginia's betrothed), and the consuls L. Valerius Potitus and M. Horatius Barbatus carried the Valerio-Horatian laws.",
-"loc":[12.4853,41.8925],"locName":"Forum Romanum and Aventine","locCertainty":"certain",
-"people":["appius_claudius_decemvir","verginia"],"polities":["rome"],
-"sources":[{"a":"Livy","w":"Ab Urbe Condita","r":"3.44-54"},{"a":"Dionysius of Halicarnassus","w":"Roman Antiquities","r":"11.28-46"},{"a":"Cicero","w":"De Re Publica","r":"2.63"}],
-"scholarship":["Ogilvie, A Commentary on Livy Books 1-5 (1965) 476-497","Forsythe, A Critical History of Early Rome (2005) 222-225"],"certainty":"traditional","tags":["Verginia","decemvirate","secessio plebis"]},
-
-{"id":"leges_valeriae_horatiae","year":-449,"title":"Leges Valeriae Horatiae","type":"law","cats":["law","constitutional"],"importance":4,
-"summary":"The consuls of 449 carried laws making plebiscites binding on the whole people, renewing provocatio and forbidding magistracies without appeal, and confirming the sacrosanctity of tribunes and plebeian aediles.",
-"detail":"The plebiscite clause also appears in the lex Publilia of 339 and the lex Hortensia of 287, so the 449 and 339 versions are probably either conditional (requiring senatorial approval) or retrojections. Livy adds that senatus consulta were now deposited with the plebeian aediles in the temple of Ceres to prevent tampering.",
-"loc":[12.4853,41.8925],"locName":"Rome","locCertainty":"certain","polities":["rome"],
-"sources":[{"a":"Livy","w":"Ab Urbe Condita","r":"3.55"},{"a":"Dionysius of Halicarnassus","w":"Roman Antiquities","r":"11.45"}],
-"scholarship":["Cornell, The Beginnings of Rome (1995) 277-278","Forsythe, A Critical History of Early Rome (2005) 230-233"],"debate":"Triple tradition (449, 339, 287) on binding plebiscites.","certainty":"disputed","tags":["plebiscita","provocatio"]},
-
-{"id":"quaestors_elected_447","year":-447,"title":"Quaestors first elected by the people","type":"constitutional","cats":["constitutional","administrative"],"importance":2,
-"summary":"Tacitus records that quaestors, previously appointed by the kings and then the consuls, were first elected by the people 63 years after the expulsion of the Tarquins (c. 447), when Valerius Potitus and Aemilius Mamercus held the office.",
-"detail":"The quaestores parricidii (criminal investigators) and the treasury quaestors may originally have been separate; numbers rose to four in 421, with plebeians eligible, and eight in 267.",
-"loc":[12.4924,41.8902],"locName":"Rome","locCertainty":"certain","polities":["rome"],
-"sources":[{"a":"Tacitus","w":"Annals","r":"11.22"}],"certainty":"probable","tags":["quaestors"]},
-
-{"id":"ardea_aricia_arbitration","year":-446,"title":"The Roman people award themselves disputed land","type":"diplomacy","cats":["diplomatic","political"],"importance":1,
-"summary":"Asked to arbitrate a boundary dispute between Ardea and Aricia, the Roman assembly, prompted by the old soldier P. Scaptius, voted the land to Rome; Livy calls it a disgraceful verdict that the senate tried in vain to stop.",
-"detail":"Rome made amends to Ardea in 442 by sending a colony there, ostensibly to protect it from Volscian pressure and internal strife. The territory may be the origin of the tribus Scaptia (created 332).",
-"loc":[12.5440,41.6110],"locName":"Between Ardea and Aricia","locCertainty":"approx",
-"polities":["rome","latin_league"],
-"sources":[{"a":"Livy","w":"Ab Urbe Condita","r":"3.71-72; 4.11"}],"certainty":"traditional","tags":["arbitration","Ardea"]},
-
-{"id":"lex_canuleia","year":-445,"title":"Lex Canuleia: intermarriage between patricians and plebeians","type":"law","cats":["law","social"],"importance":4,
-"summary":"The tribune C. Canuleius carried a plebiscite repealing the ban on conubium between patricians and plebeians that the second decemvirate had added to the Twelve Tables.",
-"detail":"Livy composes a long speech for Canuleius on the absurdity of a citizen body that could not intermarry. A second Canuleian proposal to open the consulship to plebeians was deflected by the creation of military tribunes with consular power. That the ban was introduced by the decemvirate suggests the patriciate was trying to close itself as a hereditary caste precisely in the mid-5th century (Cornell's 'serrata').",
-"loc":[12.4853,41.8925],"locName":"Rome","locCertainty":"certain",
-"people":["gaius_canuleius"],"polities":["rome"],
-"sources":[{"a":"Livy","w":"Ab Urbe Condita","r":"4.1-6"},{"a":"Cicero","w":"De Re Publica","r":"2.63"}],
-"scholarship":["Cornell, The Beginnings of Rome (1995) 252-256, 292"],"certainty":"probable","tags":["conubium","patriciate","Struggle of the Orders"]},
-
-{"id":"consular_tribunes_444","year":-444,"title":"First military tribunes with consular power","type":"constitutional","cats":["constitutional","military"],"importance":4,
-"summary":"In 444 three tribuni militum consulari potestate replaced the consuls; in about 50 of the years from 444 to 367 the state was headed by colleges of three, four or six consular tribunes rather than two consuls.",
-"detail":"Livy explains the office as a device to admit plebeians to supreme command without opening the consulship, yet the first plebeian consular tribune is recorded only in 400 (P. Licinius Calvus) and few plebeians held it. Modern explanations prefer military need: more commanders for simultaneous wars on several fronts, which fits the rise to six tribunes during the Veientine war. The first college of 444 abdicated after 73 days for a fault in the auspices.",
-"loc":[12.4924,41.8902],"locName":"Rome","locCertainty":"certain",
-"polities":["rome"],
-"sources":[{"a":"Livy","w":"Ab Urbe Condita","r":"4.6-7"},{"a":"Dionysius of Halicarnassus","w":"Roman Antiquities","r":"11.60-62"}],
-"scholarship":["Cornell, The Beginnings of Rome (1995) 334-339","Forsythe, A Critical History of Early Rome (2005) 234-239","Broughton, MRR I 52-53"],
-"debate":"Political vs military explanation of the consular tribunate.","certainty":"probable","tags":["tribuni militum consulari potestate","consular tribunes"]},
-
-{"id":"censorship_created","year":-443,"title":"Creation of the censorship","type":"constitutional","cats":["constitutional","administrative"],"importance":3,
-"summary":"Two censors, L. Papirius Mugillanus and L. Sempronius Atratinus, were elected to take the census, a task the consuls (or consular tribunes) no longer had time for; the office grew to control the roll of the Senate and public contracts.",
-"detail":"The first censors held the census in the Villa Publica on the Campus Martius from 435. The lex Aemilia of 434 limited the censorship to 18 months within a five-year cycle, the lustrum.",
-"loc":[12.4760,41.8970],"locName":"Rome (Villa Publica, Campus Martius)","locCertainty":"approx",
-"polities":["rome"],
-"sources":[{"a":"Livy","w":"Ab Urbe Condita","r":"4.8"}],
-"scholarship":["Suolahti, The Roman Censors (1963)","Broughton, MRR I 53-54"],"certainty":"probable","tags":["censors","lustrum"]},
-
-{"id":"colony_at_ardea","year":-442,"title":"Colony at Ardea","type":"founding","cats":["administrative"],"importance":1,
-"summary":"A Latin colony was planted at the Rutulian city of Ardea to protect it after a civil conflict between its nobles and plebs had drawn in the Volsci.",
-"detail":"Ardea, on a tufa spur near the coast, was one of the Latin cities named in the 509 Carthage treaty. Camillus later went into exile there (391).",
-"loc":[12.5440,41.6110],"locName":"Ardea","locCertainty":"certain",
-"polities":["rome","latin_league"],
-"sources":[{"a":"Livy","w":"Ab Urbe Condita","r":"4.11"}],"certainty":"probable","tags":["Latin colony","Rutuli"]},
-
-{"id":"spurius_maelius_439","year":-439,"title":"Spurius Maelius and the famine of 440-439","type":"political","cats":["political","economic"],"importance":3,
-"summary":"During a famine the rich plebeian knight Sp. Maelius distributed grain he had bought in Etruria; accused of seeking kingship, he was summoned by the dictator Cincinnatus and killed by the master of horse C. Servilius Ahala; his house was razed (the Aequimaelium).",
-"detail":"L. Minucius, praefectus annonae, was honoured with a column outside the Porta Trigemina; the columna Minucia appears on a denarius of 135 BC. Cicero celebrated Ahala as a tyrannicide (Brutus the assassin claimed descent from him). An older version (Cincius, Piso) had Ahala act as a private citizen without a dictatorship; the dictatorship may be later justification.",
-"loc":[12.4825,41.8915],"locName":"Aequimaelium, below the Capitol","locCertainty":"approx",
-"people":["spurius_maelius","gaius_servilius_ahala","cincinnatus"],"polities":["rome"],
-"sources":[{"a":"Livy","w":"Ab Urbe Condita","r":"4.12-16"},{"a":"Dionysius of Halicarnassus","w":"Roman Antiquities","r":"12.1-4"},{"a":"Cicero","w":"De Senectute","r":"56"}],
-"scholarship":["Forsythe, A Critical History of Early Rome (2005) 240-241","Crawford, Roman Republican Coinage (1974) no. 243"],"certainty":"traditional","tags":["adfectatio regni","grain","Ahala"]},
-
-{"id":"battle_of_fidenae_437","year":-437,"title":"Fidenae revolts; Cossus wins the spolia opima","type":"battle","cats":["military","religious"],"importance":3,
-"summary":"Fidenae, a Roman colony on the Tiber, defected to Lars Tolumnius of Veii and murdered four Roman envoys; in the ensuing battle the military tribune A. Cornelius Cossus killed Tolumnius and dedicated his armour to Jupiter Feretrius, the second spolia opima after Romulus.",
-"detail":"Livy reports that Augustus told him he had read on the linen corslet in the temple of Jupiter Feretrius that Cossus was consul when he won the spoils (so 428). The emperor's interest was political: in 29-27 BC Augustus denied M. Licinius Crassus (proconsul, not commander under his own auspices) the right to dedicate spolia opima. Statues of the four murdered envoys stood on the Rostra.",
-"loc":[12.5130,41.9890],"locName":"Fidenae, on the Tiber north of Rome","locCertainty":"probable",
-"war":"second_veientine_war","people":["aulus_cornelius_cossus","lars_tolumnius"],"polities":["rome","veii","fidenae"],
-"battle":{"sides":[{"polity":"rome","commanders":["aulus_cornelius_cossus"],"strength":"dictator Mam. Aemilius' army","losses":"unknown"},{"polity":"veii","commanders":["lars_tolumnius"],"strength":"Veientes, Fidenates and Faliscans","losses":"Tolumnius killed"}],"victor":"rome","kind":"field","significance":"Second of three spolia opima in Roman history."},
-"sources":[{"a":"Livy","w":"Ab Urbe Condita","r":"4.17-20"},{"a":"Dionysius of Halicarnassus","w":"Roman Antiquities","r":"12.5"},{"a":"Propertius","w":"Elegies","r":"4.10"}],
-"scholarship":["Ogilvie, A Commentary on Livy Books 1-5 (1965) 563-567","Rich, 'Augustus and the spolia opima', Chiron 26 (1996)"],
-"debate":"Date of Cossus' feat (437 as military tribune, 428 as consul or 426 as magister equitum); Augustus' evidence is suspect.","certainty":"disputed","tags":["spolia opima","Jupiter Feretrius","Augustus"]},
-
-{"id":"villa_publica_435","year":-435,"title":"Construction of the Villa Publica","type":"building","cats":["administrative","building"],"importance":1,
-"summary":"The censors C. Furius Pacilus and M. Geganius Macerinus approved the Villa Publica on the Campus Martius and held the first census there.",
-"detail":"The Villa Publica remained the census office and the place where returning generals awaiting a triumph and foreign envoys were lodged outside the pomerium; Sulla massacred Samnite prisoners there in 82.",
-"loc":[12.4770,41.8960],"locName":"Campus Martius","locCertainty":"approx","polities":["rome"],
-"sources":[{"a":"Livy","w":"Ab Urbe Condita","r":"4.22.7"}],"certainty":"probable","tags":["census","Campus Martius"]},
-
-{"id":"temple_of_apollo_medicus","year":-431,"title":"Dedication of the Temple of Apollo Medicus","type":"religious","cats":["religious"],"importance":2,
-"summary":"Vowed during the plague of 433, the temple of Apollo the Healer in the Prata Flaminia was dedicated by the consul Cn. Iulius in 431, the first Roman temple of a purely Greek god.",
-"detail":"Apollo came to Rome via the Sibylline Books, purchased from the Cumaean Sibyl according to legend. The temple stood near the later Theatre of Marcellus; its Augustan rebuilding by C. Sosius (the Apollo Sosianus) survives in three restored columns. The Senate met there to hear generals and envoys outside the pomerium.",
-"loc":[12.4795,41.8920],"locName":"Prata Flaminia (Apollo Sosianus)","locCertainty":"certain",
-"polities":["rome"],
-"sources":[{"a":"Livy","w":"Ab Urbe Condita","r":"4.25.3, 4.29.7"}],
-"scholarship":["Ziolkowski, The Temples of Mid-Republican Rome (1992)"],"certainty":"probable","tags":["Apollo","Sibylline Books","plague"]},
-
-{"id":"battle_of_mount_algidus_431","year":-431,"title":"Battle of Mount Algidus (431)","type":"battle","cats":["military"],"importance":3,
-"summary":"The dictator A. Postumius Tubertus decisively defeated a combined Aequian and Volscian army on the Algidus; the victory, unlike earlier Algidus stories, marks a real turning point after which the Aequi ceased to threaten Latium.",
-"detail":"Livy tells that Postumius had his own son executed for leaving his post to fight, a story he doubts (and which recurs with Manlius Torquatus in 340, 'imperia Manliana'). Rome now began to take the offensive: Labici (418), Bolae, Ferentinum (413).",
-"loc":[12.7800,41.7600],"locName":"Mount Algidus","locCertainty":"probable",
-"war":"aequian_wars","polities":["rome","aequi","volsci","latin_league","hernici"],
-"battle":{"sides":[{"polity":"rome","commanders":[],"strength":"dictator's army with Latin and Hernican contingents","losses":"unknown"},{"polity":"aequi","commanders":[],"strength":"Aequi and Volsci","losses":"camp stormed; heavy"}],"victor":"rome","kind":"field","significance":"End of the Aequian threat to the Alban Hills; beginning of Roman counter-offensive in the Volscian and Aequian hills."},
-"sources":[{"a":"Livy","w":"Ab Urbe Condita","r":"4.26-29"},{"a":"Diodorus Siculus","w":"Bibliotheca Historica","r":"12.64"}],
-"scholarship":["Cornell, The Beginnings of Rome (1995) 307-309"],"certainty":"probable","tags":["Aequi","turning point"]},
-
-{"id":"siege_of_fidenae_426","year":-426,"title":"Capture and destruction of Fidenae","type":"siege","cats":["military"],"importance":3,
-"summary":"After Fidenae revolted again with Veii, the dictator Mam. Aemilius defeated the Veientines and Fidenates (who attacked with burning torches) and took Fidenae through a tunnel; it was sacked and the population sold.",
-"detail":"Fidenae controlled the Tiber crossing and the salt route upstream; its loss severed Veii from the Sabine and Faliscan hinterland and gave Rome both banks of the lower Tiber. A 20-year truce with Veii followed.",
-"loc":[12.5130,41.9890],"locName":"Fidenae","locCertainty":"probable",
-"war":"second_veientine_war","people":["aulus_cornelius_cossus"],"polities":["rome","veii","fidenae"],
-"battle":{"sides":[{"polity":"rome","commanders":["aulus_cornelius_cossus"],"strength":"dictator Mam. Aemilius Mamercinus with master of horse A. Cornelius Cossus","losses":"unknown"},{"polity":"fidenae","commanders":[],"strength":"Fidenates and Veientes","losses":"city taken, population enslaved"}],"victor":"rome","kind":"siege","significance":"Rome secures the lower Tiber and the Via Salaria."},
-"sources":[{"a":"Livy","w":"Ab Urbe Condita","r":"4.31-34"},{"a":"Diodorus Siculus","w":"Bibliotheca Historica","r":"12.80.6-8"}],"certainty":"probable","tags":["Fidenae","Via Salaria","tunnel"]},
-
-{"id":"samnite_seizure_of_capua","year":-423,"title":"Samnite highlanders seize Etruscan Capua","type":"migration","cats":["military","social"],"importance":3,
-"summary":"Oscan-speaking Samnite settlers, admitted as partners, massacred the Etruscan inhabitants of Capua in a night attack (Livy, 423), creating the Oscan Campanian people; Diodorus dates the formation of the Campanian nation to 438.",
-"detail":"Part of a wider movement of Sabellian peoples (the ver sacrum, 'sacred spring', migrations) from the Apennines into the lowlands and Greek south in the later 5th century: Lucanians took Poseidonia (Paestum) c. 410-400, the Bruttii emerged c. 356. The Campanians soon diverged from their Samnite kin and appealed to Rome against them in 343.",
-"loc":[14.2530,41.0830],"locName":"Capua (Santa Maria Capua Vetere)","locCertainty":"certain",
-"polities":["campanians","samnites","etruscans"],
-"sources":[{"a":"Livy","w":"Ab Urbe Condita","r":"4.37.1-2"},{"a":"Diodorus Siculus","w":"Bibliotheca Historica","r":"12.31.1"},{"a":"Strabo","w":"Geography","r":"5.4.3"}],
-"scholarship":["Salmon, Samnium and the Samnites (1967) 37-39","Frederiksen, Campania (1984) 134-157"],"certainty":"probable","tags":["Sabellian migrations","Campania","Oscans"]},
-
-{"id":"fall_of_cumae_421","year":-421,"title":"Campanians capture Greek Cumae","type":"military","cats":["military"],"importance":2,
-"summary":"The new Oscan masters of Capua stormed Cumae, the oldest Greek colony in the west and Rome's former refuge for Tarquin; Cumae became an Oscan town and Greek civic life in Campania contracted to Neapolis.",
-"detail":"Survivors fled to Neapolis. Cumae retained its oracle of the Sibyl, but Oscan inscriptions dominate from now on. Livy and Diodorus give 421/420.",
-"loc":[14.0550,40.8480],"locName":"Cumae","locCertainty":"certain",
-"polities":["campanians","cumae"],
-"sources":[{"a":"Livy","w":"Ab Urbe Condita","r":"4.44.12"},{"a":"Diodorus Siculus","w":"Bibliotheca Historica","r":"12.76.4"}],
-"scholarship":["Frederiksen, Campania (1984)"],"certainty":"probable","tags":["Cumae","Oscans","neighbours"]},
-
-{"id":"quaestors_increased_421","year":-421,"title":"Quaestorship doubled and opened to plebeians","type":"constitutional","cats":["constitutional"],"importance":2,
-"summary":"The number of quaestors rose from two to four, two to accompany the consuls in war, and plebeians became eligible; the first plebeian quaestors were elected in 409.",
-"detail":"Patricians won all quaestorships until 409, when three of four went to plebeians, an index of the gradual erosion of the patrician monopoly.",
-"loc":[12.4924,41.8902],"locName":"Rome","locCertainty":"certain","polities":["rome"],
-"sources":[{"a":"Livy","w":"Ab Urbe Condita","r":"4.43.3-5, 4.54.2-3"}],"certainty":"probable","tags":["quaestors","plebeians"]},
-
-{"id":"colony_at_labici","year":-418,"title":"Colony at Labici","type":"founding","cats":["military","administrative"],"importance":1,
-"summary":"After Labici joined the Aequi and was captured, 1,500 Roman colonists were sent there, each receiving two iugera.",
-"detail":"The first colony recorded after the Algidus victory, it consolidated Rome's hold on the north side of the Alban Hills. The small allotment size (about half a hectare) is a striking datum for archaic Roman smallholding.",
-"loc":[12.7300,41.8150],"locName":"Labici (near Monte Compatri)","locCertainty":"approx",
-"war":"aequian_wars","polities":["rome","aequi"],
-"sources":[{"a":"Livy","w":"Ab Urbe Condita","r":"4.47.6-7"}],"certainty":"probable","tags":["colony","two iugera"]},
-
-{"id":"murder_of_postumius_at_bolae","year":-414,"title":"Soldiers stone the consular tribune M. Postumius","type":"political","cats":["military","social"],"importance":1,
-"summary":"After capturing the Aequian town of Bolae, the consular tribune M. Postumius Regillensis denied his soldiers the promised booty and threatened them; they stoned him to death, the first Roman commander killed by his own army.",
-"detail":"The episode was entangled with tribunician demands for an agrarian law dividing the territory of Bolae.",
-"loc":[12.85,41.83],"locName":"Bolae (site uncertain)","locCertainty":"disputed",
-"war":"aequian_wars","polities":["rome","aequi"],
-"sources":[{"a":"Livy","w":"Ab Urbe Condita","r":"4.49-50"}],"certainty":"traditional","tags":["mutiny","booty"]},
-
-{"id":"siege_of_anxur_406","year":-406,"title":"Capture of Anxur (Tarracina)","type":"siege","cats":["military"],"importance":2,
-"summary":"The consular tribune N. Fabius Ambustus took the Volscian coastal stronghold of Anxur by a feint, opening the coast road south toward Campania.",
-"detail":"Anxur changed hands repeatedly (lost 402, retaken 400); Rome planted a citizen colony at Tarracina in 329. The Temple of Jupiter Anxur on Monte S. Angelo overlooks the site.",
-"loc":[13.2480,41.2900],"locName":"Anxur (Terracina)","locCertainty":"certain",
-"war":"volscian_wars","polities":["rome","volsci"],
-"battle":{"sides":[{"polity":"rome","commanders":[],"strength":"army of the consular tribune N. Fabius Ambustus","losses":"light"},{"polity":"volsci","commanders":[],"strength":"town garrison","losses":"2,500 captured"}],"victor":"rome","kind":"siege","significance":"Rome reaches the southern edge of the Pontine plain."},
-"sources":[{"a":"Livy","w":"Ab Urbe Condita","r":"4.59"}],"certainty":"probable","tags":["Volsci","Tarracina"]},
-
-{"id":"introduction_of_stipendium","year":-406,"title":"Introduction of military pay (stipendium)","type":"reform","cats":["military","economic"],"importance":4,
-"summary":"The Senate decreed that soldiers should be paid from public funds, financed by a property tax (tributum), so that a long winter siege of Veii became possible.",
-"detail":"Diodorus confirms the introduction of pay in connection with the war against Veii. Payment preceded coinage, so it must have been in weighed bronze. The new burden of tributum on landholders and the obligation of year-round service became a lever in the debt crisis that followed. In 403 the censors, Camillus among them, imposed a tax on unmarried men (aes uxorium).",
-"loc":[12.4924,41.8902],"locName":"Rome","locCertainty":"certain",
-"war":"third_veientine_war","polities":["rome"],
-"sources":[{"a":"Livy","w":"Ab Urbe Condita","r":"4.59.11-60.8"},{"a":"Diodorus Siculus","w":"Bibliotheca Historica","r":"14.16.5"}],
-"scholarship":["Cornell, The Beginnings of Rome (1995) 187, 313"],"certainty":"probable","tags":["stipendium","tributum","army pay"]},
-
-{"id":"siege_of_veii","year":-405,"endYear":-396,"title":"Siege and fall of Veii","type":"siege","cats":["military","religious"],"importance":5,
-"summary":"Rome besieged Veii, its great Etruscan neighbour 15 km up the Cremera, traditionally for ten years; in 396 the dictator M. Furius Camillus took the city through a tunnel, called out its goddess Juno Regina by evocatio, sold the inhabitants and annexed its territory, nearly doubling the ager Romanus.",
-"detail":"The Homeric ten years and the cuniculus emerging inside Juno's temple are legend; the 'Alban lake prodigy' (an oracle that Veii would fall only when the lake was drained) has a real counterpart in the 1.4 km emissarium tunnel of Lake Albano. The other Etruscan cities, meeting at the Fanum Voltumnae, refused to help Veii, which had chosen a king. Camillus' triumph with a chariot drawn by four white horses was attacked as hubris, and the gold bowl promised to Apollo at Delphi from a tenth of the booty was melted down from matrons' jewellery. Archaeology confirms continuity of some sanctuaries (Portonaccio) but a sharp break in urban life. Veii's territory (perhaps 560 km2) became four new tribes in 387 and was distributed in seven-iugera lots.",
-"loc":[12.4040,42.0240],"locName":"Veii (Isola Farnese)","locCertainty":"certain",
-"war":"third_veientine_war","people":["marcus_furius_camillus"],"polities":["rome","veii"],
-"battle":{"sides":[{"polity":"rome","commanders":["marcus_furius_camillus"],"strength":"Roman army with Latin and Hernican allies; volunteers flocked for booty","losses":"unknown"},{"polity":"veii","commanders":[],"strength":"city of perhaps 25,000-30,000 people","losses":"city sacked; survivors sold into slavery"}],"victor":"rome","kind":"siege","significance":"Doubles Roman territory and manpower; the first great conquest and the model for later expansion."},
-"sources":[{"a":"Livy","w":"Ab Urbe Condita","r":"5.1-23"},{"a":"Dionysius of Halicarnassus","w":"Roman Antiquities","r":"12.10-15"},{"a":"Plutarch","w":"Camillus","r":"2-7"},{"a":"Diodorus Siculus","w":"Bibliotheca Historica","r":"14.93.2"}],
-"scholarship":["Ogilvie, A Commentary on Livy Books 1-5 (1965) 626-680","Cornell, The Beginnings of Rome (1995) 309-313","Ward-Perkins, 'Veii: the historical topography of the ancient city', PBSR 29 (1961)"],
-"debate":"Duration and details; the evocatio story; the real scale of the war.","certainty":"probable","tags":["Veii","evocatio","Juno Regina","cuniculus","Camillus"]},
-
-{"id":"first_plebeian_consular_tribune","year":-400,"title":"First plebeian consular tribune","type":"constitutional","cats":["constitutional","political"],"importance":2,
-"summary":"P. Licinius Calvus became the first plebeian elected military tribune with consular power; in 399 plebeians held five of six places.",
-"detail":"The sudden plebeian success during the Veientine war and its equally sudden reversal show how fragile plebeian access remained before 367. Some names in Livy's lists may be later interpolations by plebeian families.",
-"loc":[12.4924,41.8902],"locName":"Rome","locCertainty":"certain","polities":["rome"],
-"sources":[{"a":"Livy","w":"Ab Urbe Condita","r":"5.12.9-13.2"}],
-"scholarship":["Broughton, MRR I 84-85"],"certainty":"probable","tags":["consular tribunes","plebeians"]},
-
-{"id":"eclipse_of_400","year":-400,"month":6,"day":21,"title":"Solar eclipse 'around the 350th year from the foundation'","type":"other","cats":["cultural","religious"],"importance":2,
-"summary":"Cicero quotes Ennius: 'on the Nones of June the moon and night covered the sun', about the 350th year from the foundation, and says the pontifical annals calculated earlier eclipses back from it; the eclipse of 21 June 400 BC fits.",
-"detail":"The passage is precious evidence that the Annales Maximi recorded eclipses from at least c. 400 and that the pontifical calendar was then still roughly in step with the seasons (Nones of June = late June). Precise identification is debated; some prefer an earlier eclipse (e.g. 404) depending on calendar slippage.",
-"loc":[12.4924,41.8902],"locName":"Rome","locCertainty":"certain",
-"polities":["rome"],
-"sources":[{"a":"Cicero","w":"De Re Publica","r":"1.25"},{"a":"Ennius","w":"Annales","r":"fr. 153 Skutsch"}],
-"scholarship":["Skutsch, The Annals of Q. Ennius (1985) 311-313","Forsythe, A Critical History of Early Rome (2005) 69-70"],
-"debate":"Which eclipse is meant; calendar slippage.","certainty":"disputed","tags":["eclipse","chronology","annales maximi","Ennius"]},
-
-{"id":"first_lectisternium","year":-399,"title":"First lectisternium","type":"religious","cats":["religious"],"importance":2,
-"summary":"During a plague after a harsh winter the duoviri sacris faciundis, on the authority of the Sibylline Books, held Rome's first lectisternium: for eight days images of Apollo and Latona, Hercules and Diana, Mercury and Neptune reclined on couches before banquets.",
-"detail":"A Greek rite (theoxenia) channelled through the Sibylline Books; householders kept open house and prisoners were unchained. Lectisternia recur in crises (364, 349, 217).",
-"loc":[12.4924,41.8902],"locName":"Rome","locCertainty":"certain","polities":["rome"],
-"sources":[{"a":"Livy","w":"Ab Urbe Condita","r":"5.13.4-8"},{"a":"Dionysius of Halicarnassus","w":"Roman Antiquities","r":"12.9"}],"certainty":"probable","tags":["lectisternium","Sibylline Books","Greek rite"]},
-
-{"id":"alban_lake_emissarium","year":-398,"title":"The Alban Lake prodigy and emissarium","type":"religious","cats":["religious","technology"],"importance":2,
-"summary":"When Lake Albano rose to an unprecedented level without rain, a captured Veientine haruspex and the Delphic oracle declared Veii would not fall until its water was drawn off; Rome cut a drainage tunnel.",
-"detail":"The tunnel (emissarium) is real: about 1,450 m long through the crater rim, still functioning, and probably of the 5th-4th century. It probably served agriculture and flood control; the prodigy legend rationalised the work.",
-"loc":[12.6560,41.7400],"locName":"Lake Albano emissarium (Castel Gandolfo)","locCertainty":"certain",
-"war":"third_veientine_war","polities":["rome"],
-"sources":[{"a":"Livy","w":"Ab Urbe Condita","r":"5.15-16, 5.19.1"},{"a":"Cicero","w":"De Divinatione","r":"1.100"}],"certainty":"probable","tags":["prodigy","engineering","haruspex"]},
-
-{"id":"siege_of_motya_397","year":-397,"title":"Dionysius I destroys Motya","type":"siege","cats":["military"],"importance":2,
-"summary":"Dionysius I of Syracuse besieged and stormed the Punic island-city of Motya in western Sicily using a mole, six-storey siege towers and the newly invented arrow-firing catapult (gastraphetes/oxybeles).",
-"detail":"The siege is a landmark in Greek siege technology. Carthage replied under Himilco by recapturing the west and besieging Syracuse in 396, until plague destroyed his army. Survivors founded Lilybaeum nearby, later Carthage's chief Sicilian base against Pyrrhus and Rome.",
-"loc":[12.4690,37.8670],"locName":"Motya (San Pantaleo), western Sicily","locCertainty":"certain",
-"people":["dionysius_i"],"polities":["syracuse","carthage"],
-"battle":{"sides":[{"polity":"syracuse","commanders":["dionysius_i"],"strength":"80,000 foot, 3,000 horse, 200 warships (Diodorus)","losses":"unknown"},{"polity":"carthage","commanders":[],"strength":"town garrison","losses":"city destroyed; inhabitants massacred or enslaved"}],"victor":"syracuse","kind":"siege","significance":"First use of torsion-free catapults in a siege; leads to the founding of Lilybaeum."},
-"sources":[{"a":"Diodorus Siculus","w":"Bibliotheca Historica","r":"14.47-53"}],
-"scholarship":["Marsden, Greek and Roman Artillery: Historical Development (1969) 48-56","Caven, Dionysius I (1990)"],"certainty":"certain","tags":["artillery","Sicily","neighbours"]},
-
-{"id":"delphi_bowl_394","year":-394,"title":"Golden bowl to Delphi intercepted by Liparaean pirates","type":"diplomacy","cats":["religious","diplomatic"],"importance":1,
-"summary":"Roman envoys carrying a gold bowl to Apollo at Delphi from the Veientine spoils were captured by ships of Lipara; the chief magistrate Timasitheus released them and escorted them to Delphi, and Rome granted him public hospitality.",
-"detail":"The bowl was placed in the treasury of the Massaliots at Delphi; Appian says it stood on a bronze base until melted down by Onomarchus in the Third Sacred War. When Rome took Lipara in 252 it exempted Timasitheus' descendants from tribute. The story places Rome in the network of Delphi, Massalia and the Tyrrhenian Greeks well before the 3rd century.",
-"loc":[14.9550,38.4670],"locName":"Lipara (Aeolian Islands)","locCertainty":"approx",
-"people":["marcus_furius_camillus"],"polities":["rome","massalia"],
-"sources":[{"a":"Livy","w":"Ab Urbe Condita","r":"5.28.1-5"},{"a":"Diodorus Siculus","w":"Bibliotheca Historica","r":"14.93.3-5"},{"a":"Appian","w":"Italica","r":"fr. 8"}],"certainty":"probable","tags":["Delphi","Massalia","Lipara","piracy"]},
-
-{"id":"siege_of_falerii_394","year":-394,"title":"Surrender of Falerii and the schoolmaster","type":"siege","cats":["military"],"importance":2,
-"summary":"Besieging the Faliscan capital Falerii, Camillus refused the offer of a schoolmaster who brought him the children of its leading men, and had the boys whip the traitor back to the city; moved by this fides, the Faliscans surrendered.",
-"detail":"A moralising tale; in fact Falerii remained hostile into the 350s, and the town (Civita Castellana) was destroyed by Rome in 241 and its people moved to Falerii Novi on the plain. Capena had surrendered in 395.",
-"loc":[12.4120,42.2930],"locName":"Falerii Veteres (Civita Castellana)","locCertainty":"certain",
-"war":"third_veientine_war","people":["marcus_furius_camillus"],"polities":["rome","falisci"],
-"battle":{"sides":[{"polity":"rome","commanders":["marcus_furius_camillus"],"strength":"consular tribune's army","losses":"none recorded"},{"polity":"falisci","commanders":[],"strength":"city garrison","losses":"surrendered; paid soldiers' pay for the year"}],"victor":"rome","kind":"siege","significance":"Ends the Veientine war's Faliscan front."},
-"sources":[{"a":"Livy","w":"Ab Urbe Condita","r":"5.26-27"},{"a":"Plutarch","w":"Camillus","r":"10"}],"certainty":"traditional","tags":["Camillus","fides","Faliscans"]},
-
-{"id":"temple_of_juno_regina_aventine","year":-392,"month":9,"day":1,"title":"Dedication of the Temple of Juno Regina on the Aventine","type":"religious","cats":["religious"],"importance":2,
-"summary":"Camillus dedicated on the Aventine the temple of Juno Regina, whose cult statue had been 'invited' from Veii by evocatio in 396; a young soldier allegedly asked the statue if it wished to go to Rome and it nodded.",
-"detail":"Evocatio, summoning the protecting deity of an enemy city with promise of a better cult in Rome, was used again at Carthage in 146 (Macrobius preserves a formula) and possibly at Volsinii (Vertumnus) in 264 and Isaura Vetus in 75.",
-"loc":[12.4790,41.8830],"locName":"Aventine Hill (near S. Sabina)","locCertainty":"approx",
-"people":["marcus_furius_camillus"],"polities":["rome","veii"],
-"sources":[{"a":"Livy","w":"Ab Urbe Condita","r":"5.21-22, 5.31.3"},{"a":"Macrobius","w":"Saturnalia","r":"3.9.7-8"}],"certainty":"probable","tags":["evocatio","Juno Regina"]},
-
-{"id":"battle_of_the_elleporus","year":-389,"title":"Battle of the Elleporus","type":"battle","cats":["military"],"importance":2,
-"summary":"Dionysius I of Syracuse, allied with the Lucanians, crushed the army of the Italiote League under Heloris on the river Elleporus near Caulonia, then released 10,000 prisoners without ransom and broke up the league.",
-"detail":"Dionysius then destroyed Caulonia (389) and Hipponium, and after an eleven-month siege took Rhegium in 387, the year Polybius synchronises with the Gallic sack of Rome and the King's Peace. His empire spanned Sicily and the toe of Italy, and his fleet raided Pyrgi in 384 and founded posts on the Adriatic (Ancona, Issa, Lissos).",
-"loc":[16.4600,38.4400],"locName":"River Elleporus (Stilaro?), near Caulonia","locCertainty":"approx",
-"people":["dionysius_i"],"polities":["syracuse","italiote_league","lucanians"],
-"battle":{"sides":[{"polity":"syracuse","commanders":["dionysius_i"],"strength":"20,000 foot, 3,000 horse (Diodorus)","losses":"light"},{"polity":"italiote_league","commanders":[],"strength":"25,000 foot, 2,000 horse under Heloris","losses":"Heloris killed; 10,000 captured"}],"victor":"syracuse","kind":"field","significance":"Syracusan hegemony over southern Italy; the Italiote League's centre shifts to Tarentum."},
-"sources":[{"a":"Diodorus Siculus","w":"Bibliotheca Historica","r":"14.103-105"},{"a":"Polybius","w":"Histories","r":"1.6.2"}],
-"scholarship":["Caven, Dionysius I (1990) 154-165"],"certainty":"certain","tags":["Magna Graecia","Dionysius I","neighbours"]},
-
-{"id":"gauls_at_clusium_391","year":-391,"title":"Gauls besiege Clusium","type":"military","cats":["military","diplomatic"],"importance":2,
-"summary":"The Senones under Brennus crossed the Apennines and besieged Clusium; Roman envoys, three sons of M. Fabius Ambustus, violated the law of nations by fighting in the Clusine ranks, one killing a Gallic chief, and Rome refused to surrender them.",
-"detail":"Livy reports the story that a Clusine, Arruns, had lured the Gauls with wine to avenge his wife's seduction. The Fabii were then elected consular tribunes for 390, which gave the Gauls their casus belli. Diodorus says the Gauls had been in Iapygia (in Dionysius' service?) and were returning. The Gallic settlement of the Po valley (Insubres, Cenomani, Boii, Lingones, Senones) had begun at least a century earlier; Livy himself dates the first crossings to the time of Tarquinius Priscus.",
-"loc":[11.9480,43.0170],"locName":"Clusium (Chiusi)","locCertainty":"certain",
-"war":"gallic_war_390","people":["brennus"],"polities":["senones","clusium","rome"],
-"sources":[{"a":"Livy","w":"Ab Urbe Condita","r":"5.33-36"},{"a":"Diodorus Siculus","w":"Bibliotheca Historica","r":"14.113"},{"a":"Plutarch","w":"Camillus","r":"15-18"}],
-"scholarship":["Williams, Beyond the Rubicon (2001) 140-150"],"certainty":"traditional","tags":["Gauls","ius gentium","Fabii"]}
-]}
+{
+ "events": [
+  {
+   "id": "census_465",
+   "year": -465,
+   "title": "Census of 465: 104,714 citizens",
+   "type": "administrative",
+   "cats": [
+    "administrative",
+    "social"
+   ],
+   "importance": 1,
+   "summary": "Livy records a lustrum in 465 counting 104,714 citizens (some manuscripts 124,214), 'besides orphans and widows'.",
+   "detail": "Early census figures (Servius 80,000; 508 c. 130,000 per Dionysius; 465 104,714; 459 117,319) are far too high for a city-state whose territory in c. 500 was about 822 km2 (Beloch's estimate): even counting all free males they imply a population greater than the land could carry. They are probably later inventions or back-projections, though the mid-Republican figures (from 293 onward) are generally taken seriously.",
+   "loc": [
+    12.4924,
+    41.8902
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "3.3.9"
+    }
+   ],
+   "scholarship": [
+    "Beloch, Römische Geschichte (1926)",
+    "Cornell, The Beginnings of Rome (1995) 204-208"
+   ],
+   "debate": "Figures generally considered unreliable for the 5th century.",
+   "certainty": "disputed",
+   "tags": [
+    "census",
+    "demography"
+   ]
+  },
+  {
+   "id": "plague_of_463",
+   "year": -463,
+   "title": "Plague of 463",
+   "type": "plague",
+   "cats": [
+    "disaster"
+   ],
+   "importance": 2,
+   "summary": "A pestilence struck Rome and its allies, killing both consuls (L. Aebutius and P. Servilius) or one of them, many senators and a large part of the population; the Aequi and Volsci exploited the paralysis.",
+   "detail": "Livy's sequence of 5th-century epidemics (463, 453, 436-433, 412, 399-398) is plausibly drawn from the pontifical annals; the 433 epidemic produced the vow of a temple to Apollo Medicus.",
+   "loc": [
+    12.4924,
+    41.8902
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "3.6-7"
+    },
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Roman Antiquities",
+     "r": "9.67"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "epidemic"
+   ]
+  },
+  {
+   "id": "seizure_of_the_capitol_460",
+   "year": -460,
+   "title": "Appius Herdonius seizes the Capitol",
+   "type": "revolt",
+   "cats": [
+    "political",
+    "military"
+   ],
+   "importance": 2,
+   "summary": "The Sabine Appius Herdonius with c. 2,500 exiles and slaves occupied the Capitol by night, calling on slaves to rise; the Romans, with help from a Tusculan army under L. Mamilius, retook it after several days, but the consul P. Valerius was killed in the assault.",
+   "detail": "Like Attus Clausus, Herdonius illustrates the archaic warlord with a private following; a Turnus Herdonius of Aricia appears in the Tarquin saga. The tribunes had initially obstructed the levy, arguing the threat was a patrician trick.",
+   "loc": [
+    12.4823,
+    41.8933
+   ],
+   "locName": "Capitoline Hill",
+   "locCertainty": "certain",
+   "people": [
+    "appius_herdonius"
+   ],
+   "polities": [
+    "rome",
+    "sabines",
+    "latin_league"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "3.15-18"
+    },
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Roman Antiquities",
+     "r": "10.14-16"
+    }
+   ],
+   "scholarship": [
+    "Cornell, The Beginnings of Rome (1995) 144"
+   ],
+   "certainty": "traditional",
+   "tags": [
+    "warlords",
+    "slave revolt",
+    "Tusculum"
+   ]
+  },
+  {
+   "id": "census_459",
+   "year": -459,
+   "title": "Census of 459: 117,319 citizens",
+   "type": "administrative",
+   "cats": [
+    "administrative"
+   ],
+   "importance": 1,
+   "summary": "Livy gives 117,319 citizens counted at the lustrum of 459.",
+   "detail": "See census_465 on the reliability of 5th-century census figures. Dionysius gives slightly different numbers.",
+   "loc": [
+    12.4924,
+    41.8902
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "3.24.10"
+    }
+   ],
+   "certainty": "disputed",
+   "tags": [
+    "census"
+   ]
+  },
+  {
+   "id": "battle_of_mount_algidus_458",
+   "year": -458,
+   "title": "Cincinnatus' dictatorship and the battle of Mount Algidus",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "When the Aequi under Gracchus Cloelius trapped the consul L. Minucius in the Algidus pass, envoys found L. Quinctius Cincinnatus ploughing his four-iugera farm across the Tiber; named dictator, he relieved Minucius, sent the Aequi under the yoke, and resigned after sixteen days.",
+   "detail": "The tale became the paradigm of Republican virtue, but Livy's account of an army enclosing the besiegers with a ditch and stockade overnight, each man carrying twelve stakes, is a stock motif. The Algidus pass, carrying the route from the Aequian hills to the Alban plain, was the recurrent front of the 5th-century Aequian wars. Dionysius gives a different chronology.",
+   "loc": [
+    12.78,
+    41.76
+   ],
+   "locName": "Mount Algidus pass (near Rocca Priora)",
+   "locCertainty": "probable",
+   "war": "aequian_wars",
+   "people": [
+    "cincinnatus"
+   ],
+   "polities": [
+    "rome",
+    "aequi"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "cincinnatus"
+      ],
+      "strength": "relief army from the city plus Minucius' trapped consular army",
+      "losses": "unknown"
+     },
+     {
+      "polity": "aequi",
+      "commanders": [],
+      "strength": "Aequian army under Gracchus Cloelius",
+      "losses": "surrendered and sent under the yoke"
+     }
+    ],
+    "victor": "rome",
+    "kind": "field",
+    "significance": "Legendary model of the citizen-dictator; one of many Algidus engagements."
+   },
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "3.26-29"
+    },
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Roman Antiquities",
+     "r": "10.23-25"
+    }
+   ],
+   "scholarship": [
+    "Ogilvie, A Commentary on Livy Books 1-5 (1965) 437-444"
+   ],
+   "certainty": "traditional",
+   "tags": [
+    "Cincinnatus",
+    "yoke",
+    "dictator"
+   ]
+  },
+  {
+   "id": "tribunes_increased_to_ten",
+   "year": -457,
+   "title": "Tribunes of the plebs increased to ten",
+   "type": "constitutional",
+   "cats": [
+    "constitutional"
+   ],
+   "importance": 2,
+   "summary": "The number of plebeian tribunes was raised to ten, two from each of the five classes according to one tradition; the number remained ten thereafter.",
+   "detail": "A larger college made intercession (veto by a single colleague) a tool that the patricians could exploit by winning over one tribune, a tactic used against the Licinio-Sextian rogations and the Gracchi.",
+   "loc": [
+    12.4853,
+    41.8925
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "3.30.7"
+    },
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Roman Antiquities",
+     "r": "10.30"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "tribunes"
+   ]
+  },
+  {
+   "id": "lex_icilia_de_aventino",
+   "year": -456,
+   "title": "Lex Icilia de Aventino publicando",
+   "type": "law",
+   "cats": [
+    "law",
+    "social"
+   ],
+   "importance": 2,
+   "summary": "The tribune L. Icilius carried a law distributing the Aventine, then public land outside the pomerium, to plebeians for houses; several families could share one building plot by floors.",
+   "detail": "Dionysius says the bronze text was set up in the temple of Diana on the Aventine. The Aventine became the plebeian quarter par excellence and the site of the second secession.",
+   "loc": [
+    12.481,
+    41.883
+   ],
+   "locName": "Aventine Hill",
+   "locCertainty": "certain",
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "3.31.1"
+    },
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Roman Antiquities",
+     "r": "10.31-32"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "Aventine",
+    "plebs"
+   ]
+  },
+  {
+   "id": "lex_aternia_tarpeia",
+   "year": -454,
+   "title": "Lex Aternia Tarpeia on fines",
+   "type": "law",
+   "cats": [
+    "law",
+    "economic"
+   ],
+   "importance": 1,
+   "summary": "A consular law set the maximum fine a magistrate could impose at two sheep and thirty oxen, values later converted to bronze (10 asses per sheep, 100 per ox) by the lex Iulia Papiria of 430.",
+   "detail": "The law is a precious glimpse of a pre-monetary economy in which value was reckoned in livestock (pecus, whence pecunia) and uncoined bronze by weight.",
+   "loc": [
+    12.4924,
+    41.8902
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Roman Antiquities",
+     "r": "10.50.2"
+    },
+    {
+     "a": "Gellius",
+     "w": "Noctes Atticae",
+     "r": "11.1.2"
+    },
+    {
+     "a": "Cicero",
+     "w": "De Re Publica",
+     "r": "2.60"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "fines",
+    "pecunia",
+    "pre-monetary economy"
+   ]
+  },
+  {
+   "id": "embassy_to_athens_454",
+   "year": -454,
+   "title": "Embassy to Greece to study the laws of Solon",
+   "type": "diplomacy",
+   "cats": [
+    "law",
+    "diplomatic"
+   ],
+   "importance": 2,
+   "summary": "Three envoys (Sp. Postumius Albus, A. Manlius, P. Sulpicius Camerinus) were reportedly sent to Athens and other Greek cities to copy the laws of Solon before codification; they returned in 452.",
+   "detail": "Most scholars doubt an Athenian mission: the Twelve Tables show few specifically Solonian features (a funerary restriction and the rule on boundary strips, which Gaius compared to Solon, are the strongest). Influence via the Greek cities of southern Italy, and the tradition that Hermodorus of Ephesus, an exile, helped the decemvirs (a statue of him stood in the Comitium per Pliny), are more plausible.",
+   "loc": [
+    23.7275,
+    37.9715
+   ],
+   "locName": "Athens",
+   "locCertainty": "approx",
+   "polities": [
+    "rome",
+    "athens"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "3.31.8, 3.32.6"
+    },
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Roman Antiquities",
+     "r": "10.52.4"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Natural History",
+     "r": "34.21"
+    }
+   ],
+   "scholarship": [
+    "Crawford (ed.), Roman Statutes II (1996) 555-721",
+    "Cornell, The Beginnings of Rome (1995) 275"
+   ],
+   "debate": "Historicity of the embassy widely doubted.",
+   "certainty": "disputed",
+   "tags": [
+    "Solon",
+    "Hermodorus of Ephesus",
+    "Twelve Tables"
+   ]
+  },
+  {
+   "id": "first_decemvirate",
+   "year": -451,
+   "title": "First Decemvirate",
+   "type": "constitutional",
+   "cats": [
+    "constitutional",
+    "law"
+   ],
+   "importance": 4,
+   "summary": "Consulship and tribunate were suspended and ten patrician decemviri legibus scribundis, headed by Appius Claudius, governed with full powers and drafted ten tables of law.",
+   "detail": "The first board was remembered as moderate; each decemvir held the fasces in turn for a day. Its laws were ratified by the comitia centuriata. The suspension of the tribunate shows the decemvirate was a compromise in which the plebs traded protection for written law.",
+   "loc": [
+    12.4853,
+    41.8925
+   ],
+   "locName": "Comitium, Rome",
+   "locCertainty": "certain",
+   "people": [
+    "appius_claudius_decemvir"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "3.33-35"
+    },
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Roman Antiquities",
+     "r": "10.56-58"
+    },
+    {
+     "a": "Cicero",
+     "w": "De Re Publica",
+     "r": "2.61-62"
+    }
+   ],
+   "scholarship": [
+    "Broughton, MRR I 45-46"
+   ],
+   "certainty": "probable",
+   "tags": [
+    "decemviri legibus scribundis",
+    "Appius Claudius"
+   ]
+  },
+  {
+   "id": "twelve_tables",
+   "year": -450,
+   "endYear": -449,
+   "title": "The Law of the Twelve Tables",
+   "type": "law",
+   "cats": [
+    "law",
+    "social"
+   ],
+   "importance": 5,
+   "summary": "Rome's first written code, ten tables drafted in 451 and two more in 450, was set up in bronze (or wood) in the Forum: Livy called it 'the fount of all public and private law', and Cicero learned it by heart as a schoolboy.",
+   "detail": "It survives only in c. 100 quoted fragments (reconstructed by Crawford et al. in Roman Statutes). Content: procedure (summons, 'si in ius vocat, ito'), debt bondage (the creditor may cut the defaulting debtor's body after three market days: 'partes secanto', Table III), patria potestas (a son sold three times is free from his father), usus marriage and the trinoctium escape from manus, intestate succession to sui heredes then agnates then gentiles, tort with talio ('si membrum rupsit, ni cum eo pacit, talio esto'), night-time thieves may be killed, magical crop-charming (fruges excantare) and libellous songs (malum carmen) as capital offences, restrictions on funeral display (no gold except dental gold, no more than ten flute-players), and in the last two tables the notorious ban on patrician-plebeian intermarriage, repealed in 445. It reflects a small agrarian community of farmers, debtors and clans, not a codification of constitutional law.",
+   "loc": [
+    12.4853,
+    41.8925
+   ],
+   "locName": "Forum Romanum (Comitium)",
+   "locCertainty": "certain",
+   "people": [
+    "appius_claudius_decemvir"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "3.34, 3.57.10"
+    },
+    {
+     "a": "Cicero",
+     "w": "De Legibus",
+     "r": "2.9, 2.58-64"
+    },
+    {
+     "a": "Gellius",
+     "w": "Noctes Atticae",
+     "r": "20.1"
+    },
+    {
+     "a": "Gaius",
+     "w": "Digest",
+     "r": "10.1.13"
+    }
+   ],
+   "scholarship": [
+    "Crawford (ed.), Roman Statutes II (1996) 555-721",
+    "Watson, Rome of the XII Tables (1975)",
+    "Cornell, The Beginnings of Rome (1995) 272-292"
+   ],
+   "debate": "Authenticity is now generally accepted (archaic language, agrarian content) against Pais and Lambert, who dated the code much later.",
+   "certainty": "probable",
+   "tags": [
+    "Twelve Tables",
+    "codification",
+    "nexum",
+    "patria potestas"
+   ]
+  },
+  {
+   "id": "second_secession_of_the_plebs",
+   "year": -449,
+   "title": "Verginia, the fall of the decemvirs and the Second Secession",
+   "type": "revolt",
+   "cats": [
+    "political",
+    "social",
+    "constitutional"
+   ],
+   "importance": 4,
+   "summary": "The second decemvirate became a tyranny; when Appius Claudius tried to claim the plebeian girl Verginia as a slave, her father killed her in the Forum, the armies mutinied and the plebs seceded to the Aventine and the Mons Sacer until the decemvirs abdicated.",
+   "detail": "Appius died in prison awaiting trial (suicide, by one version) and his colleague Sp. Oppius likewise; the others went into exile. The Verginia story is a deliberate doublet of Lucretia: a sexual outrage by a tyrant triggers liberation. Tribunes were restored (the first being Verginius and Icilius, Verginia's betrothed), and the consuls L. Valerius Potitus and M. Horatius Barbatus carried the Valerio-Horatian laws.",
+   "loc": [
+    12.4853,
+    41.8925
+   ],
+   "locName": "Forum Romanum and Aventine",
+   "locCertainty": "certain",
+   "people": [
+    "appius_claudius_decemvir",
+    "verginia"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "3.44-54"
+    },
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Roman Antiquities",
+     "r": "11.28-46"
+    },
+    {
+     "a": "Cicero",
+     "w": "De Re Publica",
+     "r": "2.63"
+    }
+   ],
+   "scholarship": [
+    "Ogilvie, A Commentary on Livy Books 1-5 (1965) 476-497",
+    "Forsythe, A Critical History of Early Rome (2005) 222-225"
+   ],
+   "certainty": "traditional",
+   "tags": [
+    "Verginia",
+    "decemvirate",
+    "secessio plebis"
+   ]
+  },
+  {
+   "id": "leges_valeriae_horatiae",
+   "year": -449,
+   "title": "Leges Valeriae Horatiae",
+   "type": "law",
+   "cats": [
+    "law",
+    "constitutional"
+   ],
+   "importance": 4,
+   "summary": "The consuls of 449 carried laws making plebiscites binding on the whole people, renewing provocatio and forbidding magistracies without appeal, and confirming the sacrosanctity of tribunes and plebeian aediles.",
+   "detail": "The plebiscite clause also appears in the lex Publilia of 339 and the lex Hortensia of 287, so the 449 and 339 versions are probably either conditional (requiring senatorial approval) or retrojections. Livy adds that senatus consulta were now deposited with the plebeian aediles in the temple of Ceres to prevent tampering.",
+   "loc": [
+    12.4853,
+    41.8925
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "3.55"
+    },
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Roman Antiquities",
+     "r": "11.45"
+    }
+   ],
+   "scholarship": [
+    "Cornell, The Beginnings of Rome (1995) 277-278",
+    "Forsythe, A Critical History of Early Rome (2005) 230-233"
+   ],
+   "debate": "Triple tradition (449, 339, 287) on binding plebiscites.",
+   "certainty": "disputed",
+   "tags": [
+    "plebiscita",
+    "provocatio"
+   ]
+  },
+  {
+   "id": "quaestors_elected_447",
+   "year": -447,
+   "title": "Quaestors first elected by the people",
+   "type": "constitutional",
+   "cats": [
+    "constitutional",
+    "administrative"
+   ],
+   "importance": 2,
+   "summary": "Tacitus records that quaestors, previously appointed by the kings and then the consuls, were first elected by the people 63 years after the expulsion of the Tarquins (c. 447), when Valerius Potitus and Aemilius Mamercus held the office.",
+   "detail": "The quaestores parricidii (criminal investigators) and the treasury quaestors may originally have been separate; numbers rose to four in 421, with plebeians eligible, and eight in 267.",
+   "loc": [
+    12.4924,
+    41.8902
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "11.22"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "quaestors"
+   ]
+  },
+  {
+   "id": "ardea_aricia_arbitration",
+   "year": -446,
+   "title": "The Roman people award themselves disputed land",
+   "type": "diplomacy",
+   "cats": [
+    "diplomatic",
+    "political"
+   ],
+   "importance": 1,
+   "summary": "Asked to arbitrate a boundary dispute between Ardea and Aricia, the Roman assembly, prompted by the old soldier P. Scaptius, voted the land to Rome; Livy calls it a disgraceful verdict that the senate tried in vain to stop.",
+   "detail": "Rome made amends to Ardea in 442 by sending a colony there, ostensibly to protect it from Volscian pressure and internal strife. The territory may be the origin of the tribus Scaptia (created 332).",
+   "loc": [
+    12.544,
+    41.611
+   ],
+   "locName": "Between Ardea and Aricia",
+   "locCertainty": "approx",
+   "polities": [
+    "rome",
+    "latin_league"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "3.71-72; 4.11"
+    }
+   ],
+   "certainty": "traditional",
+   "tags": [
+    "arbitration",
+    "Ardea"
+   ]
+  },
+  {
+   "id": "lex_canuleia",
+   "year": -445,
+   "title": "Lex Canuleia: intermarriage between patricians and plebeians",
+   "type": "law",
+   "cats": [
+    "law",
+    "social"
+   ],
+   "importance": 4,
+   "summary": "The tribune C. Canuleius carried a plebiscite repealing the ban on conubium between patricians and plebeians that the second decemvirate had added to the Twelve Tables.",
+   "detail": "Livy composes a long speech for Canuleius on the absurdity of a citizen body that could not intermarry. A second Canuleian proposal to open the consulship to plebeians was deflected by the creation of military tribunes with consular power. That the ban was introduced by the decemvirate suggests the patriciate was trying to close itself as a hereditary caste precisely in the mid-5th century (Cornell's 'serrata').",
+   "loc": [
+    12.4853,
+    41.8925
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "people": [
+    "gaius_canuleius"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "4.1-6"
+    },
+    {
+     "a": "Cicero",
+     "w": "De Re Publica",
+     "r": "2.63"
+    }
+   ],
+   "scholarship": [
+    "Cornell, The Beginnings of Rome (1995) 252-256, 292"
+   ],
+   "certainty": "probable",
+   "tags": [
+    "conubium",
+    "patriciate",
+    "Struggle of the Orders"
+   ]
+  },
+  {
+   "id": "consular_tribunes_444",
+   "year": -444,
+   "title": "First military tribunes with consular power",
+   "type": "constitutional",
+   "cats": [
+    "constitutional",
+    "military"
+   ],
+   "importance": 4,
+   "summary": "In 444 three tribuni militum consulari potestate replaced the consuls; in about 50 of the years from 444 to 367 the state was headed by colleges of three, four or six consular tribunes rather than two consuls.",
+   "detail": "Livy explains the office as a device to admit plebeians to supreme command without opening the consulship, yet the first plebeian consular tribune is recorded only in 400 (P. Licinius Calvus) and few plebeians held it. Modern explanations prefer military need: more commanders for simultaneous wars on several fronts, which fits the rise to six tribunes during the Veientine war. The first college of 444 abdicated after 73 days for a fault in the auspices.",
+   "loc": [
+    12.4924,
+    41.8902
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "4.6-7"
+    },
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Roman Antiquities",
+     "r": "11.60-62"
+    }
+   ],
+   "scholarship": [
+    "Cornell, The Beginnings of Rome (1995) 334-339",
+    "Forsythe, A Critical History of Early Rome (2005) 234-239",
+    "Broughton, MRR I 52-53"
+   ],
+   "debate": "Political vs military explanation of the consular tribunate.",
+   "certainty": "probable",
+   "tags": [
+    "tribuni militum consulari potestate",
+    "consular tribunes"
+   ]
+  },
+  {
+   "id": "censorship_created",
+   "year": -443,
+   "title": "Creation of the censorship",
+   "type": "constitutional",
+   "cats": [
+    "constitutional",
+    "administrative"
+   ],
+   "importance": 3,
+   "summary": "Two censors, L. Papirius Mugillanus and L. Sempronius Atratinus, were elected to take the census, a task the consuls (or consular tribunes) no longer had time for; the office grew to control the roll of the Senate and public contracts.",
+   "detail": "The first censors held the census in the Villa Publica on the Campus Martius from 435. The lex Aemilia of 434 limited the censorship to 18 months within a five-year cycle, the lustrum.",
+   "loc": [
+    12.476,
+    41.897
+   ],
+   "locName": "Rome (Villa Publica, Campus Martius)",
+   "locCertainty": "approx",
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "4.8"
+    }
+   ],
+   "scholarship": [
+    "Suolahti, The Roman Censors (1963)",
+    "Broughton, MRR I 53-54"
+   ],
+   "certainty": "probable",
+   "tags": [
+    "censors",
+    "lustrum"
+   ]
+  },
+  {
+   "id": "colony_at_ardea",
+   "year": -442,
+   "title": "Colony at Ardea",
+   "type": "founding",
+   "cats": [
+    "administrative"
+   ],
+   "importance": 1,
+   "summary": "A Latin colony was planted at the Rutulian city of Ardea to protect it after a civil conflict between its nobles and plebs had drawn in the Volsci.",
+   "detail": "Ardea, on a tufa spur near the coast, was one of the Latin cities named in the 509 Carthage treaty. Camillus later went into exile there (391).",
+   "loc": [
+    12.544,
+    41.611
+   ],
+   "locName": "Ardea",
+   "locCertainty": "certain",
+   "polities": [
+    "rome",
+    "latin_league"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "4.11"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "Latin colony",
+    "Rutuli"
+   ]
+  },
+  {
+   "id": "spurius_maelius_439",
+   "year": -439,
+   "title": "Spurius Maelius and the famine of 440-439",
+   "type": "political",
+   "cats": [
+    "political",
+    "economic"
+   ],
+   "importance": 3,
+   "summary": "During a famine the rich plebeian knight Sp. Maelius distributed grain he had bought in Etruria; accused of seeking kingship, he was summoned by the dictator Cincinnatus and killed by the master of horse C. Servilius Ahala; his house was razed (the Aequimaelium).",
+   "detail": "L. Minucius, praefectus annonae, was honoured with a column outside the Porta Trigemina; the columna Minucia appears on a denarius of 135 BC. Cicero celebrated Ahala as a tyrannicide (Brutus the assassin claimed descent from him). An older version (Cincius, Piso) had Ahala act as a private citizen without a dictatorship; the dictatorship may be later justification.",
+   "loc": [
+    12.4825,
+    41.8915
+   ],
+   "locName": "Aequimaelium, below the Capitol",
+   "locCertainty": "approx",
+   "people": [
+    "spurius_maelius",
+    "gaius_servilius_ahala",
+    "cincinnatus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "4.12-16"
+    },
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Roman Antiquities",
+     "r": "12.1-4"
+    },
+    {
+     "a": "Cicero",
+     "w": "De Senectute",
+     "r": "56"
+    }
+   ],
+   "scholarship": [
+    "Forsythe, A Critical History of Early Rome (2005) 240-241",
+    "Crawford, Roman Republican Coinage (1974) no. 243"
+   ],
+   "certainty": "traditional",
+   "tags": [
+    "adfectatio regni",
+    "grain",
+    "Ahala"
+   ]
+  },
+  {
+   "id": "battle_of_fidenae_437",
+   "year": -437,
+   "title": "Fidenae revolts; Cossus wins the spolia opima",
+   "type": "battle",
+   "cats": [
+    "military",
+    "religious"
+   ],
+   "importance": 3,
+   "summary": "Fidenae, a Roman colony on the Tiber, defected to Lars Tolumnius of Veii and murdered four Roman envoys; in the ensuing battle the military tribune A. Cornelius Cossus killed Tolumnius and dedicated his armour to Jupiter Feretrius, the second spolia opima after Romulus.",
+   "detail": "Livy reports that Augustus told him he had read on the linen corslet in the temple of Jupiter Feretrius that Cossus was consul when he won the spoils (so 428). The emperor's interest was political: in 29-27 BC Augustus denied M. Licinius Crassus (proconsul, not commander under his own auspices) the right to dedicate spolia opima. Statues of the four murdered envoys stood on the Rostra.",
+   "loc": [
+    12.513,
+    41.989
+   ],
+   "locName": "Fidenae, on the Tiber north of Rome",
+   "locCertainty": "probable",
+   "war": "second_veientine_war",
+   "people": [
+    "aulus_cornelius_cossus",
+    "lars_tolumnius"
+   ],
+   "polities": [
+    "rome",
+    "veii",
+    "fidenae"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "aulus_cornelius_cossus"
+      ],
+      "strength": "dictator Mam. Aemilius' army",
+      "losses": "unknown"
+     },
+     {
+      "polity": "veii",
+      "commanders": [
+       "lars_tolumnius"
+      ],
+      "strength": "Veientes, Fidenates and Faliscans",
+      "losses": "Tolumnius killed"
+     }
+    ],
+    "victor": "rome",
+    "kind": "field",
+    "significance": "Second of three spolia opima in Roman history."
+   },
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "4.17-20"
+    },
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Roman Antiquities",
+     "r": "12.5"
+    },
+    {
+     "a": "Propertius",
+     "w": "Elegies",
+     "r": "4.10"
+    }
+   ],
+   "scholarship": [
+    "Ogilvie, A Commentary on Livy Books 1-5 (1965) 563-567",
+    "Rich, 'Augustus and the spolia opima', Chiron 26 (1996)"
+   ],
+   "debate": "Date of Cossus' feat (437 as military tribune, 428 as consul or 426 as magister equitum); Augustus' evidence is suspect.",
+   "certainty": "disputed",
+   "tags": [
+    "spolia opima",
+    "Jupiter Feretrius",
+    "Augustus"
+   ]
+  },
+  {
+   "id": "villa_publica_435",
+   "year": -435,
+   "title": "Construction of the Villa Publica",
+   "type": "building",
+   "cats": [
+    "administrative",
+    "building"
+   ],
+   "importance": 1,
+   "summary": "The censors C. Furius Pacilus and M. Geganius Macerinus approved the Villa Publica on the Campus Martius and held the first census there.",
+   "detail": "The Villa Publica remained the census office and the place where returning generals awaiting a triumph and foreign envoys were lodged outside the pomerium; Sulla massacred Samnite prisoners there in 82.",
+   "loc": [
+    12.477,
+    41.896
+   ],
+   "locName": "Campus Martius",
+   "locCertainty": "approx",
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "4.22.7"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "census",
+    "Campus Martius"
+   ]
+  },
+  {
+   "id": "temple_of_apollo_medicus",
+   "year": -431,
+   "title": "Dedication of the Temple of Apollo Medicus",
+   "type": "religious",
+   "cats": [
+    "religious"
+   ],
+   "importance": 2,
+   "summary": "Vowed during the plague of 433, the temple of Apollo the Healer in the Prata Flaminia was dedicated by the consul Cn. Iulius in 431, the first Roman temple of a purely Greek god.",
+   "detail": "Apollo came to Rome via the Sibylline Books, purchased from the Cumaean Sibyl according to legend. The temple stood near the later Theatre of Marcellus; its Augustan rebuilding by C. Sosius (the Apollo Sosianus) survives in three restored columns. The Senate met there to hear generals and envoys outside the pomerium.",
+   "loc": [
+    12.4795,
+    41.892
+   ],
+   "locName": "Prata Flaminia (Apollo Sosianus)",
+   "locCertainty": "certain",
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "4.25.3, 4.29.7"
+    }
+   ],
+   "scholarship": [
+    "Ziolkowski, The Temples of Mid-Republican Rome (1992)"
+   ],
+   "certainty": "probable",
+   "tags": [
+    "Apollo",
+    "Sibylline Books",
+    "plague"
+   ]
+  },
+  {
+   "id": "battle_of_mount_algidus_431",
+   "year": -431,
+   "title": "Battle of Mount Algidus (431)",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "The dictator A. Postumius Tubertus decisively defeated a combined Aequian and Volscian army on the Algidus; the victory, unlike earlier Algidus stories, marks a real turning point after which the Aequi ceased to threaten Latium.",
+   "detail": "Livy tells that Postumius had his own son executed for leaving his post to fight, a story he doubts (and which recurs with Manlius Torquatus in 340, 'imperia Manliana'). Rome now began to take the offensive: Labici (418), Bolae, Ferentinum (413).",
+   "loc": [
+    12.78,
+    41.76
+   ],
+   "locName": "Mount Algidus",
+   "locCertainty": "probable",
+   "war": "aequian_wars",
+   "polities": [
+    "rome",
+    "aequi",
+    "volsci",
+    "latin_league",
+    "hernici"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [],
+      "strength": "dictator's army with Latin and Hernican contingents",
+      "losses": "unknown"
+     },
+     {
+      "polity": "aequi",
+      "commanders": [],
+      "strength": "Aequi and Volsci",
+      "losses": "camp stormed; heavy"
+     }
+    ],
+    "victor": "rome",
+    "kind": "field",
+    "significance": "End of the Aequian threat to the Alban Hills; beginning of Roman counter-offensive in the Volscian and Aequian hills."
+   },
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "4.26-29"
+    },
+    {
+     "a": "Diodorus Siculus",
+     "w": "Bibliotheca Historica",
+     "r": "12.64"
+    }
+   ],
+   "scholarship": [
+    "Cornell, The Beginnings of Rome (1995) 307-309"
+   ],
+   "certainty": "probable",
+   "tags": [
+    "Aequi",
+    "turning point"
+   ]
+  },
+  {
+   "id": "siege_of_fidenae_426",
+   "year": -426,
+   "title": "Capture and destruction of Fidenae",
+   "type": "siege",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "After Fidenae revolted again with Veii, the dictator Mam. Aemilius defeated the Veientines and Fidenates (who attacked with burning torches) and took Fidenae through a tunnel; it was sacked and the population sold.",
+   "detail": "Fidenae controlled the Tiber crossing and the salt route upstream; its loss severed Veii from the Sabine and Faliscan hinterland and gave Rome both banks of the lower Tiber. A 20-year truce with Veii followed.",
+   "loc": [
+    12.513,
+    41.989
+   ],
+   "locName": "Fidenae",
+   "locCertainty": "probable",
+   "war": "second_veientine_war",
+   "people": [
+    "aulus_cornelius_cossus"
+   ],
+   "polities": [
+    "rome",
+    "veii",
+    "fidenae"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "aulus_cornelius_cossus"
+      ],
+      "strength": "dictator Mam. Aemilius Mamercinus with master of horse A. Cornelius Cossus",
+      "losses": "unknown"
+     },
+     {
+      "polity": "fidenae",
+      "commanders": [],
+      "strength": "Fidenates and Veientes",
+      "losses": "city taken, population enslaved"
+     }
+    ],
+    "victor": "rome",
+    "kind": "siege",
+    "significance": "Rome secures the lower Tiber and the Via Salaria."
+   },
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "4.31-34"
+    },
+    {
+     "a": "Diodorus Siculus",
+     "w": "Bibliotheca Historica",
+     "r": "12.80.6-8"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "Fidenae",
+    "Via Salaria",
+    "tunnel"
+   ]
+  },
+  {
+   "id": "samnite_seizure_of_capua",
+   "year": -423,
+   "title": "Samnite highlanders seize Etruscan Capua",
+   "type": "migration",
+   "cats": [
+    "military",
+    "social"
+   ],
+   "importance": 3,
+   "summary": "Oscan-speaking Samnite settlers, admitted as partners, massacred the Etruscan inhabitants of Capua in a night attack (Livy, 423), creating the Oscan Campanian people; Diodorus dates the formation of the Campanian nation to 438.",
+   "detail": "Part of a wider movement of Sabellian peoples (the ver sacrum, 'sacred spring', migrations) from the Apennines into the lowlands and Greek south in the later 5th century: Lucanians took Poseidonia (Paestum) c. 410-400, the Bruttii emerged c. 356. The Campanians soon diverged from their Samnite kin and appealed to Rome against them in 343.",
+   "loc": [
+    14.253,
+    41.083
+   ],
+   "locName": "Capua (Santa Maria Capua Vetere)",
+   "locCertainty": "certain",
+   "polities": [
+    "campanians",
+    "samnites",
+    "etruscans"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "4.37.1-2"
+    },
+    {
+     "a": "Diodorus Siculus",
+     "w": "Bibliotheca Historica",
+     "r": "12.31.1"
+    },
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "5.4.3"
+    }
+   ],
+   "scholarship": [
+    "Salmon, Samnium and the Samnites (1967) 37-39",
+    "Frederiksen, Campania (1984) 134-157"
+   ],
+   "certainty": "probable",
+   "tags": [
+    "Sabellian migrations",
+    "Campania",
+    "Oscans"
+   ]
+  },
+  {
+   "id": "fall_of_cumae_421",
+   "year": -421,
+   "title": "Campanians capture Greek Cumae",
+   "type": "military",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "The new Oscan masters of Capua stormed Cumae, the oldest Greek colony in the west and Rome's former refuge for Tarquin; Cumae became an Oscan town and Greek civic life in Campania contracted to Neapolis.",
+   "detail": "Survivors fled to Neapolis. Cumae retained its oracle of the Sibyl, but Oscan inscriptions dominate from now on. Livy and Diodorus give 421/420.",
+   "loc": [
+    14.055,
+    40.848
+   ],
+   "locName": "Cumae",
+   "locCertainty": "certain",
+   "polities": [
+    "campanians",
+    "cumae"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "4.44.12"
+    },
+    {
+     "a": "Diodorus Siculus",
+     "w": "Bibliotheca Historica",
+     "r": "12.76.4"
+    }
+   ],
+   "scholarship": [
+    "Frederiksen, Campania (1984)"
+   ],
+   "certainty": "probable",
+   "tags": [
+    "Cumae",
+    "Oscans",
+    "neighbours"
+   ]
+  },
+  {
+   "id": "quaestors_increased_421",
+   "year": -421,
+   "title": "Quaestorship doubled and opened to plebeians",
+   "type": "constitutional",
+   "cats": [
+    "constitutional"
+   ],
+   "importance": 2,
+   "summary": "The number of quaestors rose from two to four, two to accompany the consuls in war, and plebeians became eligible; the first plebeian quaestors were elected in 409.",
+   "detail": "Patricians won all quaestorships until 409, when three of four went to plebeians, an index of the gradual erosion of the patrician monopoly.",
+   "loc": [
+    12.4924,
+    41.8902
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "4.43.3-5, 4.54.2-3"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "quaestors",
+    "plebeians"
+   ]
+  },
+  {
+   "id": "colony_at_labici",
+   "year": -418,
+   "title": "Colony at Labici",
+   "type": "founding",
+   "cats": [
+    "military",
+    "administrative"
+   ],
+   "importance": 1,
+   "summary": "After Labici joined the Aequi and was captured, 1,500 Roman colonists were sent there, each receiving two iugera.",
+   "detail": "The first colony recorded after the Algidus victory, it consolidated Rome's hold on the north side of the Alban Hills. The small allotment size (about half a hectare) is a striking datum for archaic Roman smallholding.",
+   "loc": [
+    12.73,
+    41.815
+   ],
+   "locName": "Labici (near Monte Compatri)",
+   "locCertainty": "approx",
+   "war": "aequian_wars",
+   "polities": [
+    "rome",
+    "aequi"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "4.47.6-7"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "colony",
+    "two iugera"
+   ]
+  },
+  {
+   "id": "murder_of_postumius_at_bolae",
+   "year": -414,
+   "title": "Soldiers stone the consular tribune M. Postumius",
+   "type": "political",
+   "cats": [
+    "military",
+    "social"
+   ],
+   "importance": 1,
+   "summary": "After capturing the Aequian town of Bolae, the consular tribune M. Postumius Regillensis denied his soldiers the promised booty and threatened them; they stoned him to death, the first Roman commander killed by his own army.",
+   "detail": "The episode was entangled with tribunician demands for an agrarian law dividing the territory of Bolae.",
+   "loc": [
+    12.85,
+    41.83
+   ],
+   "locName": "Bolae (site uncertain)",
+   "locCertainty": "disputed",
+   "war": "aequian_wars",
+   "polities": [
+    "rome",
+    "aequi"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "4.49-50"
+    }
+   ],
+   "certainty": "traditional",
+   "tags": [
+    "mutiny",
+    "booty"
+   ]
+  },
+  {
+   "id": "siege_of_anxur_406",
+   "year": -406,
+   "title": "Capture of Anxur (Tarracina)",
+   "type": "siege",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "The consular tribune N. Fabius Ambustus took the Volscian coastal stronghold of Anxur by a feint, opening the coast road south toward Campania.",
+   "detail": "Anxur changed hands repeatedly (lost 402, retaken 400); Rome planted a citizen colony at Tarracina in 329. The Temple of Jupiter Anxur on Monte S. Angelo overlooks the site.",
+   "loc": [
+    13.248,
+    41.29
+   ],
+   "locName": "Anxur (Terracina)",
+   "locCertainty": "certain",
+   "war": "volscian_wars",
+   "polities": [
+    "rome",
+    "volsci"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [],
+      "strength": "army of the consular tribune N. Fabius Ambustus",
+      "losses": "light"
+     },
+     {
+      "polity": "volsci",
+      "commanders": [],
+      "strength": "town garrison",
+      "losses": "2,500 captured"
+     }
+    ],
+    "victor": "rome",
+    "kind": "siege",
+    "significance": "Rome reaches the southern edge of the Pontine plain."
+   },
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "4.59"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "Volsci",
+    "Tarracina"
+   ]
+  },
+  {
+   "id": "introduction_of_stipendium",
+   "year": -406,
+   "title": "Introduction of military pay (stipendium)",
+   "type": "reform",
+   "cats": [
+    "military",
+    "economic"
+   ],
+   "importance": 4,
+   "summary": "The Senate decreed that soldiers should be paid from public funds, financed by a property tax (tributum), so that a long winter siege of Veii became possible.",
+   "detail": "Diodorus confirms the introduction of pay in connection with the war against Veii. Payment preceded coinage, so it must have been in weighed bronze. The new burden of tributum on landholders and the obligation of year-round service became a lever in the debt crisis that followed. In 403 the censors, Camillus among them, imposed a tax on unmarried men (aes uxorium).",
+   "loc": [
+    12.4924,
+    41.8902
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "war": "third_veientine_war",
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "4.59.11-60.8"
+    },
+    {
+     "a": "Diodorus Siculus",
+     "w": "Bibliotheca Historica",
+     "r": "14.16.5"
+    }
+   ],
+   "scholarship": [
+    "Cornell, The Beginnings of Rome (1995) 187, 313"
+   ],
+   "certainty": "probable",
+   "tags": [
+    "stipendium",
+    "tributum",
+    "army pay"
+   ]
+  },
+  {
+   "id": "siege_of_veii",
+   "year": -405,
+   "endYear": -396,
+   "title": "Siege and fall of Veii",
+   "type": "siege",
+   "cats": [
+    "military",
+    "religious"
+   ],
+   "importance": 5,
+   "summary": "Rome besieged Veii, its great Etruscan neighbour 15 km up the Cremera, traditionally for ten years; in 396 the dictator M. Furius Camillus took the city through a tunnel, called out its goddess Juno Regina by evocatio, sold the inhabitants and annexed its territory, nearly doubling the ager Romanus.",
+   "detail": "The Homeric ten years and the cuniculus emerging inside Juno's temple are legend; the 'Alban lake prodigy' (an oracle that Veii would fall only when the lake was drained) has a real counterpart in the 1.4 km emissarium tunnel of Lake Albano. The other Etruscan cities, meeting at the Fanum Voltumnae, refused to help Veii, which had chosen a king. Camillus' triumph with a chariot drawn by four white horses was attacked as hubris, and the gold bowl promised to Apollo at Delphi from a tenth of the booty was melted down from matrons' jewellery. Archaeology confirms continuity of some sanctuaries (Portonaccio) but a sharp break in urban life. Veii's territory (perhaps 560 km2) became four new tribes in 387 and was distributed in seven-iugera lots.",
+   "loc": [
+    12.404,
+    42.024
+   ],
+   "locName": "Veii (Isola Farnese)",
+   "locCertainty": "certain",
+   "war": "third_veientine_war",
+   "people": [
+    "marcus_furius_camillus"
+   ],
+   "polities": [
+    "rome",
+    "veii"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "marcus_furius_camillus"
+      ],
+      "strength": "Roman army with Latin and Hernican allies; volunteers flocked for booty",
+      "losses": "unknown"
+     },
+     {
+      "polity": "veii",
+      "commanders": [],
+      "strength": "city of perhaps 25,000-30,000 people",
+      "losses": "city sacked; survivors sold into slavery"
+     }
+    ],
+    "victor": "rome",
+    "kind": "siege",
+    "significance": "Doubles Roman territory and manpower; the first great conquest and the model for later expansion."
+   },
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "5.1-23"
+    },
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Roman Antiquities",
+     "r": "12.10-15"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Camillus",
+     "r": "2-7"
+    },
+    {
+     "a": "Diodorus Siculus",
+     "w": "Bibliotheca Historica",
+     "r": "14.93.2"
+    }
+   ],
+   "scholarship": [
+    "Ogilvie, A Commentary on Livy Books 1-5 (1965) 626-680",
+    "Cornell, The Beginnings of Rome (1995) 309-313",
+    "Ward-Perkins, 'Veii: the historical topography of the ancient city', PBSR 29 (1961)"
+   ],
+   "debate": "Duration and details; the evocatio story; the real scale of the war.",
+   "certainty": "probable",
+   "tags": [
+    "Veii",
+    "evocatio",
+    "Juno Regina",
+    "cuniculus",
+    "Camillus"
+   ]
+  },
+  {
+   "id": "first_plebeian_consular_tribune",
+   "year": -400,
+   "title": "First plebeian consular tribune",
+   "type": "constitutional",
+   "cats": [
+    "constitutional",
+    "political"
+   ],
+   "importance": 2,
+   "summary": "P. Licinius Calvus became the first plebeian elected military tribune with consular power; in 399 plebeians held five of six places.",
+   "detail": "The sudden plebeian success during the Veientine war and its equally sudden reversal show how fragile plebeian access remained before 367. Some names in Livy's lists may be later interpolations by plebeian families.",
+   "loc": [
+    12.4924,
+    41.8902
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "5.12.9-13.2"
+    }
+   ],
+   "scholarship": [
+    "Broughton, MRR I 84-85"
+   ],
+   "certainty": "probable",
+   "tags": [
+    "consular tribunes",
+    "plebeians"
+   ]
+  },
+  {
+   "id": "eclipse_of_400",
+   "year": -400,
+   "month": 6,
+   "day": 21,
+   "title": "Solar eclipse 'around the 350th year from the foundation'",
+   "type": "other",
+   "cats": [
+    "cultural",
+    "religious"
+   ],
+   "importance": 2,
+   "summary": "Cicero quotes Ennius: 'on the Nones of June the moon and night covered the sun', about the 350th year from the foundation, and says the pontifical annals calculated earlier eclipses back from it; the eclipse of 21 June 400 BC fits.",
+   "detail": "The passage is precious evidence that the Annales Maximi recorded eclipses from at least c. 400 and that the pontifical calendar was then still roughly in step with the seasons (Nones of June = late June). Precise identification is debated; some prefer an earlier eclipse (e.g. 404) depending on calendar slippage.",
+   "loc": [
+    12.4924,
+    41.8902
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Cicero",
+     "w": "De Re Publica",
+     "r": "1.25"
+    },
+    {
+     "a": "Ennius",
+     "w": "Annales",
+     "r": "fr. 153 Skutsch"
+    }
+   ],
+   "scholarship": [
+    "Skutsch, The Annals of Q. Ennius (1985) 311-313",
+    "Forsythe, A Critical History of Early Rome (2005) 69-70"
+   ],
+   "debate": "Which eclipse is meant; calendar slippage.",
+   "certainty": "disputed",
+   "tags": [
+    "eclipse",
+    "chronology",
+    "annales maximi",
+    "Ennius"
+   ]
+  },
+  {
+   "id": "first_lectisternium",
+   "year": -399,
+   "title": "First lectisternium",
+   "type": "religious",
+   "cats": [
+    "religious"
+   ],
+   "importance": 2,
+   "summary": "During a plague after a harsh winter the duoviri sacris faciundis, on the authority of the Sibylline Books, held Rome's first lectisternium: for eight days images of Apollo and Latona, Hercules and Diana, Mercury and Neptune reclined on couches before banquets.",
+   "detail": "A Greek rite (theoxenia) channelled through the Sibylline Books; householders kept open house and prisoners were unchained. Lectisternia recur in crises (364, 349, 217).",
+   "loc": [
+    12.4924,
+    41.8902
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "5.13.4-8"
+    },
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Roman Antiquities",
+     "r": "12.9"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "lectisternium",
+    "Sibylline Books",
+    "Greek rite"
+   ]
+  },
+  {
+   "id": "alban_lake_emissarium",
+   "year": -398,
+   "title": "The Alban Lake prodigy and emissarium",
+   "type": "religious",
+   "cats": [
+    "religious",
+    "technology"
+   ],
+   "importance": 2,
+   "summary": "When Lake Albano rose to an unprecedented level without rain, a captured Veientine haruspex and the Delphic oracle declared Veii would not fall until its water was drawn off; Rome cut a drainage tunnel.",
+   "detail": "The tunnel (emissarium) is real: about 1,450 m long through the crater rim, still functioning, and probably of the 5th-4th century. It probably served agriculture and flood control; the prodigy legend rationalised the work.",
+   "loc": [
+    12.656,
+    41.74
+   ],
+   "locName": "Lake Albano emissarium (Castel Gandolfo)",
+   "locCertainty": "certain",
+   "war": "third_veientine_war",
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "5.15-16, 5.19.1"
+    },
+    {
+     "a": "Cicero",
+     "w": "De Divinatione",
+     "r": "1.100"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "prodigy",
+    "engineering",
+    "haruspex"
+   ]
+  },
+  {
+   "id": "siege_of_motya_397",
+   "year": -397,
+   "title": "Dionysius I destroys Motya",
+   "type": "siege",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "Dionysius I of Syracuse besieged and stormed the Punic island-city of Motya in western Sicily using a mole, six-storey siege towers and the newly invented arrow-firing catapult (gastraphetes/oxybeles).",
+   "detail": "The siege is a landmark in Greek siege technology. Carthage replied under Himilco by recapturing the west and besieging Syracuse in 396, until plague destroyed his army. Survivors founded Lilybaeum nearby, later Carthage's chief Sicilian base against Pyrrhus and Rome.",
+   "loc": [
+    12.469,
+    37.867
+   ],
+   "locName": "Motya (San Pantaleo), western Sicily",
+   "locCertainty": "certain",
+   "people": [
+    "dionysius_i"
+   ],
+   "polities": [
+    "syracuse",
+    "carthage"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "syracuse",
+      "commanders": [
+       "dionysius_i"
+      ],
+      "strength": "80,000 foot, 3,000 horse, 200 warships (Diodorus)",
+      "losses": "unknown"
+     },
+     {
+      "polity": "carthage",
+      "commanders": [],
+      "strength": "town garrison",
+      "losses": "city destroyed; inhabitants massacred or enslaved"
+     }
+    ],
+    "victor": "syracuse",
+    "kind": "siege",
+    "significance": "First use of torsion-free catapults in a siege; leads to the founding of Lilybaeum."
+   },
+   "sources": [
+    {
+     "a": "Diodorus Siculus",
+     "w": "Bibliotheca Historica",
+     "r": "14.47-53"
+    }
+   ],
+   "scholarship": [
+    "Marsden, Greek and Roman Artillery: Historical Development (1969) 48-56",
+    "Caven, Dionysius I (1990)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "artillery",
+    "Sicily",
+    "neighbours"
+   ]
+  },
+  {
+   "id": "delphi_bowl_394",
+   "year": -394,
+   "title": "Golden bowl to Delphi intercepted by Liparaean pirates",
+   "type": "diplomacy",
+   "cats": [
+    "religious",
+    "diplomatic"
+   ],
+   "importance": 1,
+   "summary": "Roman envoys carrying a gold bowl to Apollo at Delphi from the Veientine spoils were captured by ships of Lipara; the chief magistrate Timasitheus released them and escorted them to Delphi, and Rome granted him public hospitality.",
+   "detail": "The bowl was placed in the treasury of the Massaliots at Delphi; Appian says it stood on a bronze base until melted down by Onomarchus in the Third Sacred War. When Rome took Lipara in 252 it exempted Timasitheus' descendants from tribute. The story places Rome in the network of Delphi, Massalia and the Tyrrhenian Greeks well before the 3rd century.",
+   "loc": [
+    14.955,
+    38.467
+   ],
+   "locName": "Lipara (Aeolian Islands)",
+   "locCertainty": "approx",
+   "people": [
+    "marcus_furius_camillus"
+   ],
+   "polities": [
+    "rome",
+    "massalia"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "5.28.1-5"
+    },
+    {
+     "a": "Diodorus Siculus",
+     "w": "Bibliotheca Historica",
+     "r": "14.93.3-5"
+    },
+    {
+     "a": "Appian",
+     "w": "Italica",
+     "r": "fr. 8"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "Delphi",
+    "Massalia",
+    "Lipara",
+    "piracy"
+   ]
+  },
+  {
+   "id": "siege_of_falerii_394",
+   "year": -394,
+   "title": "Surrender of Falerii and the schoolmaster",
+   "type": "siege",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "Besieging the Faliscan capital Falerii, Camillus refused the offer of a schoolmaster who brought him the children of its leading men, and had the boys whip the traitor back to the city; moved by this fides, the Faliscans surrendered.",
+   "detail": "A moralising tale; in fact Falerii remained hostile into the 350s, and the town (Civita Castellana) was destroyed by Rome in 241 and its people moved to Falerii Novi on the plain. Capena had surrendered in 395.",
+   "loc": [
+    12.412,
+    42.293
+   ],
+   "locName": "Falerii Veteres (Civita Castellana)",
+   "locCertainty": "certain",
+   "war": "third_veientine_war",
+   "people": [
+    "marcus_furius_camillus"
+   ],
+   "polities": [
+    "rome",
+    "falisci"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "marcus_furius_camillus"
+      ],
+      "strength": "consular tribune's army",
+      "losses": "none recorded"
+     },
+     {
+      "polity": "falisci",
+      "commanders": [],
+      "strength": "city garrison",
+      "losses": "surrendered; paid soldiers' pay for the year"
+     }
+    ],
+    "victor": "rome",
+    "kind": "siege",
+    "significance": "Ends the Veientine war's Faliscan front."
+   },
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "5.26-27"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Camillus",
+     "r": "10"
+    }
+   ],
+   "certainty": "traditional",
+   "tags": [
+    "Camillus",
+    "fides",
+    "Faliscans"
+   ]
+  },
+  {
+   "id": "temple_of_juno_regina_aventine",
+   "year": -392,
+   "month": 9,
+   "day": 1,
+   "title": "Dedication of the Temple of Juno Regina on the Aventine",
+   "type": "religious",
+   "cats": [
+    "religious"
+   ],
+   "importance": 2,
+   "summary": "Camillus dedicated on the Aventine the temple of Juno Regina, whose cult statue had been 'invited' from Veii by evocatio in 396; a young soldier allegedly asked the statue if it wished to go to Rome and it nodded.",
+   "detail": "Evocatio, summoning the protecting deity of an enemy city with promise of a better cult in Rome, was used again at Carthage in 146 (Macrobius preserves a formula) and possibly at Volsinii (Vertumnus) in 264 and Isaura Vetus in 75.",
+   "loc": [
+    12.479,
+    41.883
+   ],
+   "locName": "Aventine Hill (near S. Sabina)",
+   "locCertainty": "approx",
+   "people": [
+    "marcus_furius_camillus"
+   ],
+   "polities": [
+    "rome",
+    "veii"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "5.21-22, 5.31.3"
+    },
+    {
+     "a": "Macrobius",
+     "w": "Saturnalia",
+     "r": "3.9.7-8"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "evocatio",
+    "Juno Regina"
+   ]
+  },
+  {
+   "id": "battle_of_the_elleporus",
+   "year": -389,
+   "title": "Battle of the Elleporus",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "Dionysius I of Syracuse, allied with the Lucanians, crushed the army of the Italiote League under Heloris on the river Elleporus near Caulonia, then released 10,000 prisoners without ransom and broke up the league.",
+   "detail": "Dionysius then destroyed Caulonia (389) and Hipponium, and after an eleven-month siege took Rhegium in 387, the year Polybius synchronises with the Gallic sack of Rome and the King's Peace. His empire spanned Sicily and the toe of Italy, and his fleet raided Pyrgi in 384 and founded posts on the Adriatic (Ancona, Issa, Lissos).",
+   "loc": [
+    16.46,
+    38.44
+   ],
+   "locName": "River Elleporus (Stilaro?), near Caulonia",
+   "locCertainty": "approx",
+   "people": [
+    "dionysius_i"
+   ],
+   "polities": [
+    "syracuse",
+    "italiote_league",
+    "lucanians"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "syracuse",
+      "commanders": [
+       "dionysius_i"
+      ],
+      "strength": "20,000 foot, 3,000 horse (Diodorus)",
+      "losses": "light"
+     },
+     {
+      "polity": "italiote_league",
+      "commanders": [],
+      "strength": "25,000 foot, 2,000 horse under Heloris",
+      "losses": "Heloris killed; 10,000 captured"
+     }
+    ],
+    "victor": "syracuse",
+    "kind": "field",
+    "significance": "Syracusan hegemony over southern Italy; the Italiote League's centre shifts to Tarentum."
+   },
+   "sources": [
+    {
+     "a": "Diodorus Siculus",
+     "w": "Bibliotheca Historica",
+     "r": "14.103-105"
+    },
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "1.6.2"
+    }
+   ],
+   "scholarship": [
+    "Caven, Dionysius I (1990) 154-165"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Magna Graecia",
+    "Dionysius I",
+    "neighbours"
+   ]
+  },
+  {
+   "id": "gauls_at_clusium_391",
+   "year": -391,
+   "title": "Gauls besiege Clusium",
+   "type": "military",
+   "cats": [
+    "military",
+    "diplomatic"
+   ],
+   "importance": 2,
+   "summary": "The Senones under Brennus crossed the Apennines and besieged Clusium; Roman envoys, three sons of M. Fabius Ambustus, violated the law of nations by fighting in the Clusine ranks, one killing a Gallic chief, and Rome refused to surrender them.",
+   "detail": "Livy reports the story that a Clusine, Arruns, had lured the Gauls with wine to avenge his wife's seduction. The Fabii were then elected consular tribunes for 390, which gave the Gauls their casus belli. Diodorus says the Gauls had been in Iapygia (in Dionysius' service?) and were returning. The Gallic settlement of the Po valley (Insubres, Cenomani, Boii, Lingones, Senones) had begun at least a century earlier; Livy himself dates the first crossings to the time of Tarquinius Priscus.",
+   "loc": [
+    11.948,
+    43.017
+   ],
+   "locName": "Clusium (Chiusi)",
+   "locCertainty": "certain",
+   "war": "gallic_war_390",
+   "people": [
+    "brennus"
+   ],
+   "polities": [
+    "senones",
+    "clusium",
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "5.33-36"
+    },
+    {
+     "a": "Diodorus Siculus",
+     "w": "Bibliotheca Historica",
+     "r": "14.113"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Camillus",
+     "r": "15-18"
+    }
+   ],
+   "scholarship": [
+    "Williams, Beyond the Rubicon (2001) 140-150"
+   ],
+   "certainty": "traditional",
+   "tags": [
+    "Gauls",
+    "ius gentium",
+    "Fabii"
+   ]
+  }
+ ]
+}

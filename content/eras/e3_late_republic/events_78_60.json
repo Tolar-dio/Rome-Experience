@@ -1,0 +1,3706 @@
+{
+ "events": [
+  {
+   "id": "death_of_sulla",
+   "year": -78,
+   "endYear": null,
+   "title": "Death and funeral of Sulla",
+   "type": "death",
+   "cats": [
+    "political"
+   ],
+   "importance": 4,
+   "summary": "Sulla died at his villa near Puteoli aged sixty, of a haemorrhage after a fit of rage in which he had a local magistrate strangled. Against the consul Lepidus, Catulus and Pompey secured a state funeral: his body was carried through Italy and cremated in the Campus Martius, the first Cornelius to be burned rather than buried, and the women of Rome gave spices enough to model him and a lictor in frankincense.",
+   "detail": "Plutarch's lurid story of a disease that turned his flesh to lice (phthiriasis) is a literary topos for tyrants; liver failure from heavy drinking is the modern guess. His epitaph, which he wrote himself, said no friend had ever done him a service, and no enemy a wrong, without being repaid in full. His 22 books of memoirs, dedicated to Lucullus, were a key source for Plutarch.",
+   "loc": [
+    14.12,
+    40.82
+   ],
+   "locName": "Puteoli, Campania; funeral in the Campus Martius",
+   "locCertainty": "certain",
+   "people": [
+    "sulla",
+    "lepidus_cos78",
+    "pompey"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Plutarch",
+     "w": "Sulla",
+     "r": "36-38"
+    },
+    {
+     "a": "Appian",
+     "w": "Bella Civilia",
+     "r": "1.105-106"
+    },
+    {
+     "a": "Valerius Maximus",
+     "w": "Facta et dicta memorabilia",
+     "r": "9.3.8"
+    }
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "revolt_of_lepidus",
+   "year": -78,
+   "endYear": -77,
+   "title": "Revolt of Lepidus",
+   "type": "revolt",
+   "cats": [
+    "political",
+    "military"
+   ],
+   "importance": 3,
+   "summary": "The consul Marcus Aemilius Lepidus campaigned to undo Sulla's settlement, restoring the grain dole and promising to return confiscated land and the tribunes' powers. Sent to suppress a rising of dispossessed farmers at Faesulae, he joined them, and in 77 marched on Rome demanding a second consulship.",
+   "detail": "Lucius Marcius Philippus' speech for the senatus consultum ultimum survives in Sallust's Histories. It was the first test of Sulla's system and it held, but only through Pompey, a privatus with an army.",
+   "loc": [
+    11.29,
+    43.81
+   ],
+   "locName": "Faesulae and Etruria",
+   "locCertainty": "certain",
+   "war": "lepidus_rebellion",
+   "people": [
+    "lepidus_cos78",
+    "pompey"
+   ],
+   "polities": [
+    "lepidani",
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Appian",
+     "w": "Bella Civilia",
+     "r": "1.105-107"
+    },
+    {
+     "a": "Sallust",
+     "w": "Historiae",
+     "r": "1.55, 1.77 M"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Pompey",
+     "r": "16"
+    },
+    {
+     "a": "Livy",
+     "w": "Periochae",
+     "r": "90"
+    }
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "battle_of_the_campus_martius_77",
+   "year": -77,
+   "endYear": null,
+   "title": "Defeat of Lepidus outside Rome",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "Under the senatus consultum ultimum, the proconsul Quintus Lutatius Catulus defeated Lepidus' army near the Milvian Bridge. Pompey besieged Lepidus' lieutenant Marcus Junius Brutus (father of the assassin) in Mutina; Brutus surrendered and was killed on Pompey's orders. Lepidus, beaten again near Cosa, fled to Sardinia and died there.",
+   "detail": "Marcus Perperna took the remnant, Plutarch says 53 cohorts, to Sertorius in Spain. Brutus' son never forgave Pompey, yet joined him in 49.",
+   "loc": [
+    12.4672,
+    41.9355
+   ],
+   "locName": "Milvian Bridge and Campus Martius, Rome",
+   "locCertainty": "probable",
+   "war": "lepidus_rebellion",
+   "people": [
+    "lepidus_cos78",
+    "pompey",
+    "perperna"
+   ],
+   "polities": [
+    "rome",
+    "lepidani"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "pompey"
+      ],
+      "strength": "consular and Pompeian armies",
+      "losses": "light"
+     },
+     {
+      "polity": "lepidani",
+      "commanders": [
+       "lepidus_cos78"
+      ],
+      "strength": "Etruscan levies and Sullan victims",
+      "losses": "routed"
+     }
+    ],
+    "victor": "rome",
+    "kind": "field",
+    "significance": "Ended the Lepidan revolt; Pompey used his army as leverage to obtain the Spanish command."
+   },
+   "sources": [
+    {
+     "a": "Appian",
+     "w": "Bella Civilia",
+     "r": "1.107"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Pompey",
+     "r": "16"
+    },
+    {
+     "a": "Florus",
+     "w": "Epitome",
+     "r": "2.11"
+    },
+    {
+     "a": "Orosius",
+     "w": "Historiae adversus paganos",
+     "r": "5.22.16-18"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "senatus consultum ultimum"
+   ]
+  },
+  {
+   "id": "sertorius_returns_to_spain",
+   "year": -80,
+   "endYear": null,
+   "title": "Sertorius returns to Spain at the Lusitanians' invitation",
+   "type": "campaign",
+   "cats": [
+    "military",
+    "political"
+   ],
+   "importance": 4,
+   "summary": "Quintus Sertorius, the last Marian commander, expelled from Spain in 81, had fought in Mauretania and dug at Tingis into the giant grave of Antaeus. Invited by the Lusitanians, he crossed back in 80 with 2,600 Romans and 700 Africans and built a Romano-Iberian state that defied Rome for eight years.",
+   "detail": "He set up a counter-senate of Roman exiles, a school at Osca where sons of Iberian nobles learned Greek and Latin in togas (hostages, in effect), and a reputation for divine favour through a white fawn he claimed brought messages from Diana. He was a master of guerrilla warfare.",
+   "loc": [
+    -6.0,
+    36.6
+   ],
+   "locName": "landing near Baelo, Further Spain",
+   "locCertainty": "approx",
+   "war": "sertorian_war",
+   "people": [
+    "sertorius"
+   ],
+   "polities": [
+    "sertoriani",
+    "lusitanians"
+   ],
+   "sources": [
+    {
+     "a": "Plutarch",
+     "w": "Sertorius",
+     "r": "7-14"
+    },
+    {
+     "a": "Appian",
+     "w": "Bella Civilia",
+     "r": "1.108"
+    },
+    {
+     "a": "Sallust",
+     "w": "Historiae",
+     "r": "1.104-113 M"
+    }
+   ],
+   "scholarship": [
+    "Konrad, Plutarch's Sertorius: A Historical Commentary (1994)",
+    "Spann, Quintus Sertorius and the Legacy of Sulla (1987)"
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "battle_of_the_baetis_80",
+   "year": -80,
+   "endYear": null,
+   "title": "Battle of the Baetis",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "Soon after landing, Sertorius defeated the governor of Further Spain, Lucius Fufidius, on the Baetis, killing 2,000 Romans. With Hirtuleius' victory over Domitius Calvinus on the Anas in 79/78, it convinced the senate to send Metellus Pius and then Pompey.",
+   "loc": [
+    -5.6,
+    37.5
+   ],
+   "locName": "Baetis (Guadalquivir) valley",
+   "locCertainty": "approx",
+   "war": "sertorian_war",
+   "people": [
+    "sertorius"
+   ],
+   "polities": [
+    "sertoriani",
+    "rome"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [],
+      "strength": "provincial army of Fufidius",
+      "losses": "c. 2,000 killed"
+     },
+     {
+      "polity": "sertoriani",
+      "commanders": [
+       "sertorius"
+      ],
+      "strength": "c. 8,000 incl. Lusitanians",
+      "losses": "light"
+     }
+    ],
+    "victor": "sertoriani",
+    "kind": "field",
+    "significance": "Established Sertorius in the peninsula."
+   },
+   "sources": [
+    {
+     "a": "Plutarch",
+     "w": "Sertorius",
+     "r": "12"
+    },
+    {
+     "a": "Sallust",
+     "w": "Historiae",
+     "r": "1.108 M"
+    }
+   ],
+   "certainty": "probable"
+  },
+  {
+   "id": "pompey_spanish_command_77",
+   "year": -77,
+   "endYear": null,
+   "title": "Pompey receives the Spanish command as a private citizen",
+   "type": "constitutional",
+   "cats": [
+    "constitutional",
+    "military"
+   ],
+   "importance": 3,
+   "summary": "With both consuls unwilling, the senate gave Pompey, who had held no magistracy, proconsular imperium against Sertorius. Philippus quipped that he was sent not pro consule but pro consulibus, in place of both consuls. He marched by a new route over the Alps (via the Mont Genèvre).",
+   "loc": [
+    12.4853,
+    41.8925
+   ],
+   "locName": "Senate, Rome",
+   "locCertainty": "certain",
+   "war": "sertorian_war",
+   "people": [
+    "pompey"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Cicero",
+     "w": "Philippicae",
+     "r": "11.18"
+    },
+    {
+     "a": "Cicero",
+     "w": "De imperio Cn. Pompei (Pro lege Manilia)",
+     "r": "62"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Pompey",
+     "r": "17"
+    },
+    {
+     "a": "Appian",
+     "w": "Bella Civilia",
+     "r": "1.108"
+    },
+    {
+     "a": "Sallust",
+     "w": "Historiae",
+     "r": "2.98 M"
+    }
+   ],
+   "scholarship": [
+    "Vervaet, The High Command in the Roman Republic (2014)"
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "siege_of_lauro",
+   "year": -76,
+   "endYear": null,
+   "title": "Siege of Lauro",
+   "type": "siege",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "Pompey's first campaign in Spain ended in humiliation: trying to relieve Lauro, he was outmanoeuvred by Sertorius, who ambushed his foragers and a relieving legion, killing perhaps 10,000, and burned the town before Pompey's eyes.",
+   "detail": "Sertorius is said to have remarked that a general should look behind as well as ahead. Frontinus preserves the ambush in detail.",
+   "loc": [
+    -0.6,
+    39.62
+   ],
+   "locName": "Lauro, near Valentia",
+   "locCertainty": "disputed",
+   "war": "sertorian_war",
+   "people": [
+    "sertorius",
+    "pompey"
+   ],
+   "polities": [
+    "sertoriani",
+    "rome"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "pompey"
+      ],
+      "strength": "c. 30,000",
+      "losses": "c. 10,000 (Frontinus)"
+     },
+     {
+      "polity": "sertoriani",
+      "commanders": [
+       "sertorius"
+      ],
+      "strength": "unknown",
+      "losses": "light"
+     }
+    ],
+    "victor": "sertoriani",
+    "kind": "siege",
+    "significance": "Pompey's worst defeat; taught him caution in Spain."
+   },
+   "sources": [
+    {
+     "a": "Plutarch",
+     "w": "Sertorius",
+     "r": "18"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Pompey",
+     "r": "18"
+    },
+    {
+     "a": "Frontinus",
+     "w": "Strategemata",
+     "r": "2.5.31"
+    },
+    {
+     "a": "Appian",
+     "w": "Bella Civilia",
+     "r": "1.109"
+    },
+    {
+     "a": "Orosius",
+     "w": "Historiae adversus paganos",
+     "r": "5.23.6-7"
+    }
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "battle_of_italica",
+   "year": -76,
+   "endYear": null,
+   "title": "Battle of Italica",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "Metellus Pius defeated Sertorius' best lieutenant, Lucius Hirtuleius, near Italica, holding his centre back while his wings enveloped the enemy. It secured the south for the Sullan side.",
+   "loc": [
+    -6.044,
+    37.443
+   ],
+   "locName": "Italica, Baetica",
+   "locCertainty": "probable",
+   "war": "sertorian_war",
+   "people": [
+    "metellus_pius"
+   ],
+   "polities": [
+    "rome",
+    "sertoriani"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "metellus_pius"
+      ],
+      "strength": "unknown",
+      "losses": "unknown"
+     },
+     {
+      "polity": "sertoriani",
+      "commanders": [],
+      "strength": "Hirtuleius' army",
+      "losses": "allegedly 20,000 killed"
+     }
+    ],
+    "victor": "rome",
+    "kind": "field",
+    "significance": "Turned the war in Further Spain."
+   },
+   "sources": [
+    {
+     "a": "Frontinus",
+     "w": "Strategemata",
+     "r": "2.1.2, 2.3.5"
+    },
+    {
+     "a": "Orosius",
+     "w": "Historiae adversus paganos",
+     "r": "5.23.10"
+    },
+    {
+     "a": "Livy",
+     "w": "Periochae",
+     "r": "91"
+    }
+   ],
+   "certainty": "probable"
+  },
+  {
+   "id": "battle_of_the_sucro",
+   "year": -75,
+   "endYear": null,
+   "title": "Battle of the Sucro",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "Pompey, eager to win before Metellus arrived, attacked Sertorius late in the day. Sertorius broke Pompey's wing and Pompey, wounded, escaped only by abandoning his richly caparisoned horse; Afranius beat the other wing. Metellus' approach made Sertorius withdraw.",
+   "detail": "Plutarch has Sertorius say that if the old woman had not turned up, he would have thrashed the boy and sent him back to Rome.",
+   "loc": [
+    -0.3,
+    39.17
+   ],
+   "locName": "Sucro (Júcar) river",
+   "locCertainty": "approx",
+   "war": "sertorian_war",
+   "people": [
+    "sertorius",
+    "pompey",
+    "metellus_pius",
+    "perperna"
+   ],
+   "polities": [
+    "sertoriani",
+    "rome"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "pompey"
+      ],
+      "strength": "c. 30,000",
+      "losses": "heavy on Pompey's wing"
+     },
+     {
+      "polity": "sertoriani",
+      "commanders": [
+       "sertorius",
+       "perperna"
+      ],
+      "strength": "unknown",
+      "losses": "heavy on Perperna's wing"
+     }
+    ],
+    "victor": "indecisive",
+    "kind": "field",
+    "significance": "Drawn battle that brought Metellus and Pompey together."
+   },
+   "sources": [
+    {
+     "a": "Plutarch",
+     "w": "Sertorius",
+     "r": "19"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Pompey",
+     "r": "19"
+    },
+    {
+     "a": "Appian",
+     "w": "Bella Civilia",
+     "r": "1.110"
+    }
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "battle_of_saguntum_75",
+   "year": -75,
+   "endYear": null,
+   "title": "Battle of Saguntum (Segontia)",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "A hard-fought battle in which Metellus was wounded and Pompey's brother-in-law and quaestor Memmius killed ended with Sertorius withdrawing to Clunia. That winter Pompey wrote to the senate threatening to bring his starving army back to Italy unless supplied.",
+   "loc": [
+    -0.267,
+    39.68
+   ],
+   "locName": "near Saguntum (or Segontia)",
+   "locCertainty": "disputed",
+   "war": "sertorian_war",
+   "people": [
+    "sertorius",
+    "pompey",
+    "metellus_pius"
+   ],
+   "polities": [
+    "rome",
+    "sertoriani"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "pompey",
+       "metellus_pius"
+      ],
+      "strength": "combined armies",
+      "losses": "heavy"
+     },
+     {
+      "polity": "sertoriani",
+      "commanders": [
+       "sertorius"
+      ],
+      "strength": "unknown",
+      "losses": "heavy"
+     }
+    ],
+    "victor": "rome",
+    "kind": "field",
+    "significance": "Sertorius lost the initiative and the war became one of sieges and attrition."
+   },
+   "sources": [
+    {
+     "a": "Plutarch",
+     "w": "Sertorius",
+     "r": "21"
+    },
+    {
+     "a": "Appian",
+     "w": "Bella Civilia",
+     "r": "1.110"
+    },
+    {
+     "a": "Sallust",
+     "w": "Historiae",
+     "r": "2.98 M"
+    }
+   ],
+   "debate": "Site disputed between Saguntum on the coast and Segontia (Sigüenza) inland.",
+   "certainty": "certain"
+  },
+  {
+   "id": "sertorius_mithridates_treaty",
+   "year": -75,
+   "endYear": null,
+   "title": "Treaty between Sertorius and Mithridates",
+   "type": "diplomacy",
+   "cats": [
+    "diplomatic",
+    "military"
+   ],
+   "importance": 3,
+   "summary": "Mithridates offered Sertorius 3,000 talents and 40 ships in exchange for recognition of his claims and Roman officers to train his army. Sertorius conceded Bithynia and Cappadocia but refused to give up the province of Asia, and sent Marcus Marius with troops to Pontus.",
+   "detail": "Mithridates is said to have exclaimed what a Roman Sertorius would demand if he ruled from the Palatine, when he set such terms as an exile. Cilician pirates linked the two.",
+   "loc": [
+    -0.408,
+    42.136
+   ],
+   "locName": "Osca / Dianium",
+   "locCertainty": "certain",
+   "war": "sertorian_war",
+   "people": [
+    "sertorius",
+    "mithridates_vi"
+   ],
+   "polities": [
+    "sertoriani",
+    "pontus"
+   ],
+   "sources": [
+    {
+     "a": "Plutarch",
+     "w": "Sertorius",
+     "r": "23-24"
+    },
+    {
+     "a": "Appian",
+     "w": "Mithridatica",
+     "r": "68"
+    },
+    {
+     "a": "Cicero",
+     "w": "De imperio Cn. Pompei (Pro lege Manilia)",
+     "r": "46"
+    }
+   ],
+   "certainty": "probable"
+  },
+  {
+   "id": "caesar_and_the_pirates",
+   "year": -75,
+   "endYear": null,
+   "title": "Caesar captured by pirates",
+   "type": "other",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "Sailing to Rhodes to study rhetoric with Apollonius Molon, the 25-year-old Caesar was captured by Cilician pirates. He laughed at their ransom of 20 talents and told them to ask 50, spent 38 days among them, joking that he would crucify them; when freed he raised ships at Miletus, captured them and did exactly that.",
+   "detail": "Suetonius adds that, as a mercy, he had their throats cut before they were crucified. The story's details come from Caesar's own circle but its core is not doubted. Date 75 or 74.",
+   "loc": [
+    27.08,
+    37.29
+   ],
+   "locName": "Pharmacussa (Farmakonisi), off Miletus",
+   "locCertainty": "certain",
+   "people": [
+    "julius_caesar"
+   ],
+   "polities": [
+    "rome",
+    "cilician_pirates"
+   ],
+   "sources": [
+    {
+     "a": "Plutarch",
+     "w": "Caesar",
+     "r": "1-2"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Divus Iulius",
+     "r": "4, 74"
+    },
+    {
+     "a": "Velleius Paterculus",
+     "w": "Historiae Romanae",
+     "r": "2.42"
+    }
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "lex_aurelia_75",
+   "year": -75,
+   "endYear": null,
+   "title": "Lex Aurelia restores the tribunes' career",
+   "type": "law",
+   "cats": [
+    "law",
+    "constitutional"
+   ],
+   "importance": 2,
+   "summary": "The consul Gaius Aurelius Cotta, after grain riots, carried a law allowing former tribunes to stand for higher office, the first breach in Sulla's restrictions on the tribunate.",
+   "loc": [
+    12.4924,
+    41.8902
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "people": [],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Asconius",
+     "w": "Commentaries on Cicero",
+     "r": "66-67C"
+    },
+    {
+     "a": "Sallust",
+     "w": "Historiae",
+     "r": "3.48.8 M"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "named law"
+   ]
+  },
+  {
+   "id": "bequest_of_bithynia",
+   "year": -74,
+   "endYear": null,
+   "title": "Nicomedes IV bequeaths Bithynia to Rome",
+   "type": "diplomacy",
+   "cats": [
+    "diplomatic",
+    "administrative"
+   ],
+   "importance": 3,
+   "summary": "Nicomedes IV died late in 75 or early 74, leaving Bithynia to Rome. Its annexation put Roman power at the Bosporus and on Pontus' doorstep; Mithridates claimed a son of Nicomedes was the true heir and invaded.",
+   "loc": [
+    29.918,
+    40.766
+   ],
+   "locName": "Nicomedia, Bithynia",
+   "locCertainty": "certain",
+   "war": "third_mithridatic_war",
+   "people": [],
+   "polities": [
+    "bithynia",
+    "rome",
+    "pontus"
+   ],
+   "sources": [
+    {
+     "a": "Appian",
+     "w": "Mithridatica",
+     "r": "71"
+    },
+    {
+     "a": "Livy",
+     "w": "Periochae",
+     "r": "93"
+    },
+    {
+     "a": "Eutropius",
+     "w": "Breviarium",
+     "r": "6.6"
+    }
+   ],
+   "debate": "Exact date 75 or 74.",
+   "certainty": "certain"
+  },
+  {
+   "id": "battle_of_chalcedon_73",
+   "year": -73,
+   "endYear": null,
+   "title": "Battle of Chalcedon",
+   "type": "battle",
+   "cats": [
+    "military",
+    "naval"
+   ],
+   "importance": 3,
+   "summary": "Mithridates overran Bithynia and trapped the consul Marcus Aurelius Cotta in Chalcedon, defeating him on land and destroying his fleet in the harbour after breaking its chain.",
+   "loc": [
+    29.03,
+    40.98
+   ],
+   "locName": "Chalcedon, Bithynia",
+   "locCertainty": "certain",
+   "war": "third_mithridatic_war",
+   "people": [
+    "mithridates_vi"
+   ],
+   "polities": [
+    "pontus",
+    "rome"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [],
+      "strength": "Cotta's consular army and fleet",
+      "losses": "several thousand killed; much of the fleet lost"
+     },
+     {
+      "polity": "pontus",
+      "commanders": [
+       "mithridates_vi"
+      ],
+      "strength": "royal army and fleet",
+      "losses": "light"
+     }
+    ],
+    "victor": "pontus",
+    "kind": "siege",
+    "significance": "Gave Mithridates command of the Propontis and opened the way to Cyzicus."
+   },
+   "sources": [
+    {
+     "a": "Appian",
+     "w": "Mithridatica",
+     "r": "71"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Lucullus",
+     "r": "8"
+    },
+    {
+     "a": "Memnon of Heraclea",
+     "w": "History of Heraclea (FGrH 434)",
+     "r": "27.7-8"
+    }
+   ],
+   "certainty": "probable"
+  },
+  {
+   "id": "siege_of_cyzicus",
+   "year": -73,
+   "endYear": -72,
+   "title": "Siege of Cyzicus",
+   "type": "siege",
+   "cats": [
+    "military"
+   ],
+   "importance": 4,
+   "summary": "Mithridates besieged Cyzicus with a vast army and fleet, using towers, rams and a 100-cubit siege tower on ships. Lucullus, rather than attack, occupied the heights behind the besiegers and cut their supply. Winter, famine and plague destroyed the Pontic army; Mithridates escaped by sea and his retreating columns were cut down at the Aesepus and Granicus.",
+   "detail": "Plutarch says Lucullus promised to beat the enemy without spilling Roman blood, by starving them. Cicero (Pro lege Manilia) credits Lucullus with saving Asia here. The city's resistance was rewarded with free status.",
+   "loc": [
+    27.885,
+    40.384
+   ],
+   "locName": "Cyzicus, Propontis",
+   "locCertainty": "certain",
+   "war": "third_mithridatic_war",
+   "people": [
+    "lucius_licinius_lucullus",
+    "mithridates_vi"
+   ],
+   "polities": [
+    "rome",
+    "pontus"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "lucius_licinius_lucullus"
+      ],
+      "strength": "c. 30,000 foot, 1,600 horse (Plutarch)",
+      "losses": "light"
+     },
+     {
+      "polity": "pontus",
+      "commanders": [
+       "mithridates_vi"
+      ],
+      "strength": "allegedly 120,000-300,000",
+      "losses": "most of the army, to famine, disease and pursuit"
+     }
+    ],
+    "victor": "rome",
+    "kind": "siege",
+    "significance": "Destroyed Mithridates' great army without a pitched battle; the turning point of the war's first phase."
+   },
+   "sources": [
+    {
+     "a": "Plutarch",
+     "w": "Lucullus",
+     "r": "9-11"
+    },
+    {
+     "a": "Appian",
+     "w": "Mithridatica",
+     "r": "72-76"
+    },
+    {
+     "a": "Memnon of Heraclea",
+     "w": "History of Heraclea (FGrH 434)",
+     "r": "28"
+    },
+    {
+     "a": "Cicero",
+     "w": "De imperio Cn. Pompei (Pro lege Manilia)",
+     "r": "20"
+    },
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "12.8.11"
+    }
+   ],
+   "scholarship": [
+    "Keaveney, Lucullus: A Life (1992)"
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "battle_of_lemnos_72",
+   "year": -72,
+   "endYear": null,
+   "title": "Naval battle off Lemnos",
+   "type": "naval",
+   "cats": [
+    "military",
+    "naval"
+   ],
+   "importance": 2,
+   "summary": "Lucullus' fleet caught and destroyed a Pontic squadron under Marcus Marius, the officer sent by Sertorius, off Lemnos. Marius was captured and executed: Lucullus would not let a Roman senator be paraded as a prisoner.",
+   "loc": [
+    25.28,
+    39.88
+   ],
+   "locName": "off Lemnos, Aegean",
+   "locCertainty": "approx",
+   "war": "third_mithridatic_war",
+   "people": [
+    "lucius_licinius_lucullus"
+   ],
+   "polities": [
+    "rome",
+    "pontus",
+    "sertoriani"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "lucius_licinius_lucullus"
+      ],
+      "strength": "Roman and allied fleet",
+      "losses": "light"
+     },
+     {
+      "polity": "pontus",
+      "commanders": [],
+      "strength": "13 ships destroyed at the first encounter, the rest beached",
+      "losses": "squadron destroyed"
+     }
+    ],
+    "victor": "rome",
+    "kind": "naval",
+    "significance": "Ended Pontic naval power in the Aegean and the Sertorian connection."
+   },
+   "sources": [
+    {
+     "a": "Plutarch",
+     "w": "Lucullus",
+     "r": "12"
+    },
+    {
+     "a": "Appian",
+     "w": "Mithridatica",
+     "r": "77"
+    },
+    {
+     "a": "Orosius",
+     "w": "Historiae adversus paganos",
+     "r": "6.2.21-23"
+    }
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "battle_of_cabira",
+   "year": -72,
+   "endYear": null,
+   "title": "Battle of Cabira",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "Lucullus invaded Pontus and confronted Mithridates at Cabira. After cavalry skirmishing, his legates destroyed a Pontic supply column in a defile; panic swept the royal camp and the army disintegrated. Mithridates fled to Tigranes of Armenia, escaping because Roman troops stopped to fight over a mule loaded with gold.",
+   "detail": "Before fleeing he sent a eunuch to Pharnacia to kill his sisters and wives, including the Milesian Monime, rather than let them be captured.",
+   "loc": [
+    36.95,
+    40.59
+   ],
+   "locName": "Cabira (Niksar), Pontus",
+   "locCertainty": "probable",
+   "war": "third_mithridatic_war",
+   "people": [
+    "lucius_licinius_lucullus",
+    "mithridates_vi"
+   ],
+   "polities": [
+    "rome",
+    "pontus"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "lucius_licinius_lucullus"
+      ],
+      "strength": "c. 30,000",
+      "losses": "light"
+     },
+     {
+      "polity": "pontus",
+      "commanders": [
+       "mithridates_vi"
+      ],
+      "strength": "c. 40,000 foot, 4,000 horse",
+      "losses": "army dispersed"
+     }
+    ],
+    "victor": "rome",
+    "kind": "field",
+    "significance": "Lost Mithridates his kingdom; Pontus was occupied over the next two years."
+   },
+   "sources": [
+    {
+     "a": "Plutarch",
+     "w": "Lucullus",
+     "r": "15-18"
+    },
+    {
+     "a": "Appian",
+     "w": "Mithridatica",
+     "r": "78-82"
+    },
+    {
+     "a": "Memnon of Heraclea",
+     "w": "History of Heraclea (FGrH 434)",
+     "r": "29"
+    }
+   ],
+   "debate": "Date 72 or 71.",
+   "certainty": "certain"
+  },
+  {
+   "id": "murder_of_sertorius",
+   "year": -73,
+   "endYear": -72,
+   "title": "Murder of Sertorius and the end of the Sertorian War",
+   "type": "assassination",
+   "cats": [
+    "military",
+    "political"
+   ],
+   "importance": 4,
+   "summary": "Increasingly suspicious and harsh, Sertorius was stabbed at a banquet at Osca by Perperna and other Roman officers. Pompey defeated Perperna in his first battle, and when Perperna offered letters from leading men in Rome inviting Sertorius to Italy, Pompey burned them unread and had him executed.",
+   "detail": "Pompey then set up trophies on the Pyrenean pass (excavated at the Col de Panissars) listing 876 towns subdued. Many Spanish communities were enfranchised or made clients of Pompey, giving him a power base in Spain that lasted to Munda.",
+   "loc": [
+    -0.408,
+    42.136
+   ],
+   "locName": "Osca (Huesca)",
+   "locCertainty": "certain",
+   "war": "sertorian_war",
+   "people": [
+    "sertorius",
+    "perperna",
+    "pompey"
+   ],
+   "polities": [
+    "sertoriani",
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Plutarch",
+     "w": "Sertorius",
+     "r": "25-27"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Pompey",
+     "r": "20"
+    },
+    {
+     "a": "Appian",
+     "w": "Bella Civilia",
+     "r": "1.113-115"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "3.18, 7.96"
+    }
+   ],
+   "debate": "Date of the murder 73 or 72.",
+   "certainty": "certain"
+  },
+  {
+   "id": "escape_from_capua",
+   "year": -73,
+   "endYear": null,
+   "title": "Gladiators break out of Capua: the Spartacus revolt",
+   "type": "revolt",
+   "cats": [
+    "military",
+    "social"
+   ],
+   "importance": 4,
+   "summary": "About 70 gladiators from the training school of Gnaeus Lentulus Batiatus at Capua broke out with kitchen knives and spits, seized a wagon of gladiatorial weapons and took refuge on Vesuvius. Their leaders were the Thracian Spartacus and the Gauls Crixus and Oenomaus.",
+   "loc": [
+    14.25,
+    41.08
+   ],
+   "locName": "Capua, Campania",
+   "locCertainty": "certain",
+   "war": "third_servile_war",
+   "people": [
+    "spartacus",
+    "crixus"
+   ],
+   "polities": [
+    "spartacan_slaves"
+   ],
+   "sources": [
+    {
+     "a": "Plutarch",
+     "w": "Crassus",
+     "r": "8"
+    },
+    {
+     "a": "Appian",
+     "w": "Bella Civilia",
+     "r": "1.116"
+    },
+    {
+     "a": "Livy",
+     "w": "Periochae",
+     "r": "95"
+    },
+    {
+     "a": "Florus",
+     "w": "Epitome",
+     "r": "2.8"
+    }
+   ],
+   "scholarship": [
+    "Shaw, Spartacus and the Slave Wars (2001)",
+    "Strauss, The Spartacus War (2009)"
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "battle_of_mount_vesuvius",
+   "year": -73,
+   "endYear": null,
+   "title": "Battle of Mount Vesuvius",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "The praetor Gaius Claudius Glaber blockaded the rebels on Vesuvius with 3,000 hastily raised men. The slaves wove ladders from wild vines, climbed down the cliffs behind him and stormed his camp. A second praetor, Publius Varinius, was then beaten, losing his lictors and his horse.",
+   "loc": [
+    14.426,
+    40.821
+   ],
+   "locName": "Mount Vesuvius",
+   "locCertainty": "probable",
+   "war": "third_servile_war",
+   "people": [
+    "spartacus",
+    "crixus"
+   ],
+   "polities": [
+    "spartacan_slaves",
+    "rome"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [],
+      "strength": "c. 3,000 militia",
+      "losses": "camp taken"
+     },
+     {
+      "polity": "spartacan_slaves",
+      "commanders": [
+       "spartacus",
+       "crixus"
+      ],
+      "strength": "a few hundred to a few thousand",
+      "losses": "light"
+     }
+    ],
+    "victor": "spartacan_slaves",
+    "kind": "ambush",
+    "significance": "Turned a breakout into a war; fugitive slaves and rural poor flocked to Spartacus."
+   },
+   "sources": [
+    {
+     "a": "Plutarch",
+     "w": "Crassus",
+     "r": "9"
+    },
+    {
+     "a": "Frontinus",
+     "w": "Strategemata",
+     "r": "1.5.21"
+    },
+    {
+     "a": "Appian",
+     "w": "Bella Civilia",
+     "r": "1.116"
+    },
+    {
+     "a": "Sallust",
+     "w": "Historiae",
+     "r": "3.90-98 M"
+    }
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "battle_of_mount_garganus",
+   "year": -72,
+   "endYear": null,
+   "title": "Battle of Mount Garganus",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "Crixus, who had separated from Spartacus with a contingent of Gauls and Germans, was destroyed near Mount Garganus by the consul Lucius Gellius Publicola's praetor Quintus Arrius. Spartacus later honoured Crixus with gladiatorial combats between 300 Roman prisoners.",
+   "loc": [
+    15.95,
+    41.8
+   ],
+   "locName": "Mount Garganus, Apulia",
+   "locCertainty": "approx",
+   "war": "third_servile_war",
+   "people": [
+    "crixus"
+   ],
+   "polities": [
+    "rome",
+    "spartacan_slaves"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [],
+      "strength": "consular army of Gellius",
+      "losses": "unknown"
+     },
+     {
+      "polity": "spartacan_slaves",
+      "commanders": [
+       "crixus"
+      ],
+      "strength": "20,000-30,000",
+      "losses": "most killed incl. Crixus"
+     }
+    ],
+    "victor": "rome",
+    "kind": "field",
+    "significance": "Split and weakened the slave army."
+   },
+   "sources": [
+    {
+     "a": "Appian",
+     "w": "Bella Civilia",
+     "r": "1.117"
+    },
+    {
+     "a": "Livy",
+     "w": "Periochae",
+     "r": "96"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Crassus",
+     "r": "9"
+    },
+    {
+     "a": "Orosius",
+     "w": "Historiae adversus paganos",
+     "r": "5.24.4"
+    }
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "battle_of_picenum_72",
+   "year": -72,
+   "endYear": null,
+   "title": "Spartacus defeats both consuls",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "Marching north, Spartacus defeated the consuls Gnaeus Cornelius Lentulus Clodianus and Lucius Gellius Publicola in turn, and then the proconsul of Cisalpine Gaul, Gaius Cassius Longinus, near Mutina. Instead of crossing the Alps he turned back south.",
+   "detail": "Why he turned back is a mystery: Plutarch says the slaves refused to leave Italy, preferring plunder. Appian claims he considered marching on Rome. The senate stripped the consuls of command and gave it to Crassus.",
+   "loc": [
+    13.5,
+    43.1
+   ],
+   "locName": "Picenum / central Apennines",
+   "locCertainty": "approx",
+   "war": "third_servile_war",
+   "people": [
+    "spartacus"
+   ],
+   "polities": [
+    "spartacan_slaves",
+    "rome"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [],
+      "strength": "two consular armies, then c. 10,000 under Cassius",
+      "losses": "heavy"
+     },
+     {
+      "polity": "spartacan_slaves",
+      "commanders": [
+       "spartacus"
+      ],
+      "strength": "allegedly 70,000-120,000 including non-combatants",
+      "losses": "unknown"
+     }
+    ],
+    "victor": "spartacan_slaves",
+    "kind": "field",
+    "significance": "The high point of the revolt; Rome had lost two consular armies to slaves."
+   },
+   "sources": [
+    {
+     "a": "Appian",
+     "w": "Bella Civilia",
+     "r": "1.117"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Crassus",
+     "r": "9"
+    },
+    {
+     "a": "Livy",
+     "w": "Periochae",
+     "r": "96"
+    },
+    {
+     "a": "Orosius",
+     "w": "Historiae adversus paganos",
+     "r": "5.24.4"
+    }
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "crassus_decimation",
+   "year": -71,
+   "endYear": null,
+   "title": "Crassus revives decimation",
+   "type": "military",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "After his legate Mummius disobeyed orders and lost two legions to Spartacus, Crassus revived the ancient punishment of decimation, executing one man in ten of the 500 who had fled first, before the whole army.",
+   "detail": "Appian gives a second version in which 4,000 were executed. Either way the shock restored discipline. Crassus had been given an extraordinary command with six new legions plus the consular armies.",
+   "loc": [
+    16.2,
+    39.3
+   ],
+   "locName": "Picenum or Bruttium",
+   "locCertainty": "approx",
+   "war": "third_servile_war",
+   "people": [
+    "crassus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Plutarch",
+     "w": "Crassus",
+     "r": "10"
+    },
+    {
+     "a": "Appian",
+     "w": "Bella Civilia",
+     "r": "1.118"
+    }
+   ],
+   "note": "Date late 72 or early 71.",
+   "certainty": "probable"
+  },
+  {
+   "id": "battle_of_the_silarus",
+   "year": -71,
+   "endYear": null,
+   "title": "Battle of the Silarus: death of Spartacus",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 4,
+   "summary": "Penned into Bruttium behind a 300-stade ditch and wall Crassus dug across the peninsula, and betrayed by Cilician pirates who took his money but never brought ships, Spartacus broke out on a snowy night. After his Gallic contingent under Castus and Gannicus was destroyed, he turned to fight. He killed his horse before the battle, saying that if he won he would have plenty, and if he lost he would not need one; he died trying to reach Crassus, and his body was never found.",
+   "detail": "Livy's epitomator gives 60,000 rebels killed. Crassus' victory was hurried by news that Pompey, back from Spain, had been summoned to help; Pompey intercepted 5,000 fugitives in Etruria and wrote to the senate that Crassus had beaten the slaves but he had pulled the war up by its roots. Crassus received only an ovation.",
+   "loc": [
+    15.25,
+    40.62
+   ],
+   "locName": "upper Silarus (Sele) valley, Lucania",
+   "locCertainty": "approx",
+   "war": "third_servile_war",
+   "people": [
+    "spartacus",
+    "crassus",
+    "pompey"
+   ],
+   "polities": [
+    "rome",
+    "spartacan_slaves"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "crassus"
+      ],
+      "strength": "8 or more legions",
+      "losses": "c. 1,000 (Appian)"
+     },
+     {
+      "polity": "spartacan_slaves",
+      "commanders": [
+       "spartacus"
+      ],
+      "strength": "tens of thousands",
+      "losses": "allegedly 60,000 killed; 6,000 captured"
+     }
+    ],
+    "victor": "rome",
+    "kind": "field",
+    "significance": "Ended the last great slave war of antiquity."
+   },
+   "sources": [
+    {
+     "a": "Plutarch",
+     "w": "Crassus",
+     "r": "10-11"
+    },
+    {
+     "a": "Appian",
+     "w": "Bella Civilia",
+     "r": "1.118-120"
+    },
+    {
+     "a": "Livy",
+     "w": "Periochae",
+     "r": "97"
+    },
+    {
+     "a": "Florus",
+     "w": "Epitome",
+     "r": "2.8.14"
+    }
+   ],
+   "scholarship": [
+    "Strauss, The Spartacus War (2009)"
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "crucifixions_on_the_via_appia",
+   "year": -71,
+   "endYear": null,
+   "title": "Six thousand crucified along the Via Appia",
+   "type": "other",
+   "cats": [
+    "military",
+    "social"
+   ],
+   "importance": 3,
+   "summary": "Crassus crucified the 6,000 prisoners from Spartacus' army along the Via Appia from Capua to Rome, roughly one cross every 30 to 40 metres for 200 km. It was a deliberate message to Italy's slaves.",
+   "loc": [
+    13.9,
+    41.3
+   ],
+   "locName": "Via Appia between Capua and Rome",
+   "locCertainty": "approx",
+   "war": "third_servile_war",
+   "people": [
+    "crassus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Appian",
+     "w": "Bella Civilia",
+     "r": "1.120"
+    }
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "lucullus_debt_relief_in_asia",
+   "year": -71,
+   "endYear": -70,
+   "title": "Lucullus' debt relief in Asia",
+   "type": "economic",
+   "cats": [
+    "economic",
+    "administrative"
+   ],
+   "importance": 3,
+   "summary": "Finding the Asian cities crushed by the 120,000 talents their Sullan fine had grown into through Roman moneylending, Lucullus capped interest at 12 per cent a year, cancelled interest beyond the principal and limited creditors to a quarter of a debtor's income. The debts were cleared in four years.",
+   "detail": "Plutarch says the cities celebrated festivals in his honour, but the equestrian financiers at Rome began the campaign that eventually stripped him of command.",
+   "loc": [
+    27.341,
+    37.941
+   ],
+   "locName": "Ephesus, Asia",
+   "locCertainty": "certain",
+   "war": "third_mithridatic_war",
+   "people": [
+    "lucius_licinius_lucullus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Plutarch",
+     "w": "Lucullus",
+     "r": "7, 20, 23"
+    },
+    {
+     "a": "Appian",
+     "w": "Mithridatica",
+     "r": "83"
+    }
+   ],
+   "scholarship": [
+    "Badian, Roman Imperialism in the Late Republic (1968)"
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "consulship_of_pompey_and_crassus_70",
+   "year": -70,
+   "endYear": null,
+   "title": "First consulship of Pompey and Crassus; tribunate restored",
+   "type": "constitutional",
+   "cats": [
+    "constitutional",
+    "political",
+    "law"
+   ],
+   "importance": 4,
+   "summary": "Pompey, aged 35 and never yet a senator, and Crassus, both with armies outside the city, were elected consuls for 70. They restored the tribunes' full powers (lex Pompeia Licinia), dismantling the core of Sulla's settlement, and revived the censorship, whose holders expelled 64 senators.",
+   "detail": "Pompey needed a handbook on senatorial procedure written for him by Varro. The two quarrelled throughout the year and were reconciled publicly only at its end. The census recorded about 910,000 citizens, more than double the pre-war figure, the first count to include the enfranchised Italians, though still under-registering them.",
+   "loc": [
+    12.4853,
+    41.8925
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "people": [
+    "pompey",
+    "crassus",
+    "varro"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Plutarch",
+     "w": "Pompey",
+     "r": "21-23"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Crassus",
+     "r": "12"
+    },
+    {
+     "a": "Appian",
+     "w": "Bella Civilia",
+     "r": "1.121"
+    },
+    {
+     "a": "Livy",
+     "w": "Periochae",
+     "r": "97-98"
+    },
+    {
+     "a": "Aulus Gellius",
+     "w": "Noctes Atticae",
+     "r": "14.7.2"
+    },
+    {
+     "a": "Phlegon of Tralles",
+     "w": "Olympiads (FGrH 257)",
+     "r": "fr. 12"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "named law",
+    "census"
+   ]
+  },
+  {
+   "id": "trial_of_verres",
+   "year": -70,
+   "month": 8,
+   "day": 5,
+   "endYear": null,
+   "title": "The trial of Verres",
+   "type": "law",
+   "cats": [
+    "law",
+    "political",
+    "literature"
+   ],
+   "importance": 4,
+   "summary": "Cicero prosecuted Gaius Verres for plundering Sicily as governor (73-71), outflanking the defence of the leading orator Quintus Hortensius, which aimed to drag the trial into 69 when friendly magistrates would preside. Cicero skipped the usual long speech, presented witnesses at once, and Verres went into exile after the first hearing.",
+   "detail": "Cicero published the five undelivered speeches of the second hearing (actio secunda) anyway, a catalogue of stolen statues, extorted grain tithes, crucifixion of a Roman citizen (Gavius of Consa, crying 'civis Romanus sum') and judicial murder. Damages were assessed at 3 million sesterces against 40 million claimed. The case made Cicero the leading advocate in Rome. Verres died in the proscriptions of 43, reportedly for refusing to give his Corinthian bronzes to Antony.",
+   "loc": [
+    12.4859,
+    41.8919
+   ],
+   "locName": "Extortion court, Forum Romanum",
+   "locCertainty": "certain",
+   "people": [
+    "cicero",
+    "verres",
+    "hortensius"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Cicero",
+     "w": "In Verrem",
+     "r": ""
+    },
+    {
+     "a": "Plutarch",
+     "w": "Cicero",
+     "r": "7-8"
+    },
+    {
+     "a": "Asconius",
+     "w": "Commentaries on Cicero",
+     "r": "18-19C"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "34.6"
+    }
+   ],
+   "scholarship": [
+    "Lintott, Cicero as Evidence (2008)"
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "lex_aurelia_iudiciaria",
+   "year": -70,
+   "endYear": null,
+   "title": "Lex Aurelia iudiciaria",
+   "type": "law",
+   "cats": [
+    "law",
+    "political"
+   ],
+   "importance": 3,
+   "summary": "The praetor Lucius Aurelius Cotta ended a fifty-year fight over the juries with a compromise: panels were to be drawn equally from senators, equites and tribuni aerarii (a census class just below the equites).",
+   "loc": [
+    12.4924,
+    41.8902
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "people": [],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Asconius",
+     "w": "Commentaries on Cicero",
+     "r": "17C, 67C"
+    },
+    {
+     "a": "Cicero",
+     "w": "Pro Cluentio",
+     "r": "130"
+    },
+    {
+     "a": "Velleius Paterculus",
+     "w": "Historiae Romanae",
+     "r": "2.32.3"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "named law",
+    "juries"
+   ]
+  },
+  {
+   "id": "battle_of_tigranocerta",
+   "year": -69,
+   "month": 10,
+   "day": 6,
+   "endYear": null,
+   "title": "Battle of Tigranocerta",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 4,
+   "summary": "Lucullus, with perhaps 12,000 legionaries and 3,000 cavalry, routed the immense army Tigranes brought to relieve his new capital. Tigranes famously said the Romans were too many for an embassy and too few for an army. Lucullus led his men uphill against the flank of the armoured cataphracts and told them to strike at their thighs and legs, the only exposed parts; the whole host collapsed.",
+   "detail": "Officers warned that 6 October was the black anniversary of Arausio; Lucullus answered that he would make it a lucky day. Plutarch reports, from Lucullus' dispatch, 5 Romans killed and 100 wounded against 100,000 Armenians: absurd, but the victory was real. Tigranocerta then fell when its Greek mercenaries opened the gates, and Lucullus sent home the peoples Tigranes had forcibly settled there, effectively dissolving the city. The site has been sought at Silvan (Mayyafariqin) and, more convincingly, at Arzan on the Garzan river.",
+   "loc": [
+    41.26,
+    37.98
+   ],
+   "locName": "Tigranocerta (probably Arzan), Armenia",
+   "locCertainty": "disputed",
+   "war": "third_mithridatic_war",
+   "people": [
+    "lucius_licinius_lucullus",
+    "tigranes_ii"
+   ],
+   "polities": [
+    "rome",
+    "armenia"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "lucius_licinius_lucullus"
+      ],
+      "strength": "c. 12,000 foot, 3,000 horse",
+      "losses": "5 killed, 100 wounded (Lucullus' claim)"
+     },
+     {
+      "polity": "armenia",
+      "commanders": [
+       "tigranes_ii"
+      ],
+      "strength": "allegedly 250,000 incl. 17,000 cataphracts (Plutarch)",
+      "losses": "allegedly 100,000"
+     }
+    ],
+    "victor": "rome",
+    "kind": "field",
+    "significance": "Destroyed Armenian military prestige; the first Roman victory over cataphract cavalry."
+   },
+   "sources": [
+    {
+     "a": "Plutarch",
+     "w": "Lucullus",
+     "r": "26-29"
+    },
+    {
+     "a": "Appian",
+     "w": "Mithridatica",
+     "r": "84-86"
+    },
+    {
+     "a": "Memnon of Heraclea",
+     "w": "History of Heraclea (FGrH 434)",
+     "r": "38"
+    },
+    {
+     "a": "Frontinus",
+     "w": "Strategemata",
+     "r": "2.1.14"
+    },
+    {
+     "a": "Eutropius",
+     "w": "Breviarium",
+     "r": "6.9"
+    }
+   ],
+   "scholarship": [
+    "Keaveney, Lucullus: A Life (1992)",
+    "Sinclair, REArm 25 (1994-95) on the site"
+   ],
+   "debate": "Site of Tigranocerta (Arzan versus Silvan) and the size of Tigranes' army.",
+   "certainty": "certain"
+  },
+  {
+   "id": "battle_of_the_arsanias",
+   "year": -68,
+   "endYear": null,
+   "title": "Battle of the Arsanias and the mutiny of Lucullus' army",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "Marching on the old Armenian capital Artaxata, Lucullus again beat Tigranes and Mithridates at the Arsanias, but early snow and the troops' refusal to go on forced him to turn south. He took Nisibis in winter 68/67, but his army, led in agitation by his brother-in-law Publius Clodius, mutinied; the Fimbrian veterans, in the East since 86, demanded discharge.",
+   "loc": [
+    41.6,
+    38.9
+   ],
+   "locName": "Arsanias (Murat) river, Armenia",
+   "locCertainty": "approx",
+   "war": "third_mithridatic_war",
+   "people": [
+    "lucius_licinius_lucullus",
+    "tigranes_ii",
+    "mithridates_vi",
+    "clodius"
+   ],
+   "polities": [
+    "rome",
+    "armenia",
+    "pontus"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "lucius_licinius_lucullus"
+      ],
+      "strength": "c. 20,000",
+      "losses": "light"
+     },
+     {
+      "polity": "armenia",
+      "commanders": [
+       "tigranes_ii",
+       "mithridates_vi"
+      ],
+      "strength": "Armenian and Pontic army",
+      "losses": "heavy"
+     }
+    ],
+    "victor": "rome",
+    "kind": "field",
+    "significance": "Last major victory of Lucullus; the campaign stalled as his soldiers turned against him."
+   },
+   "sources": [
+    {
+     "a": "Plutarch",
+     "w": "Lucullus",
+     "r": "31-35"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "36.4-6, 36.14-17"
+    }
+   ],
+   "scholarship": [
+    "Tatum, The Patrician Tribune (1999)"
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "battle_of_zela_67",
+   "year": -67,
+   "endYear": null,
+   "title": "Battle of Zela (67 BC)",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "While Lucullus' army was paralysed, Mithridates returned to Pontus and destroyed the legate Gaius Valerius Triarius' army at Zela, killing 7,000 men, including 24 military tribunes and 150 centurions, the worst Roman losses of the war. Mithridates was wounded in the thigh and below the eye.",
+   "detail": "Lucullus' soldiers had to be begged not to lynch Triarius. The disaster gave Manilius the argument for transferring the command to Pompey.",
+   "loc": [
+    35.886,
+    40.303
+   ],
+   "locName": "Zela (Zile), Pontus",
+   "locCertainty": "probable",
+   "war": "third_mithridatic_war",
+   "people": [
+    "mithridates_vi",
+    "lucius_licinius_lucullus"
+   ],
+   "polities": [
+    "pontus",
+    "rome"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [],
+      "strength": "Triarius' army",
+      "losses": "7,000 incl. 24 tribunes and 150 centurions"
+     },
+     {
+      "polity": "pontus",
+      "commanders": [
+       "mithridates_vi"
+      ],
+      "strength": "royal army",
+      "losses": "unknown"
+     }
+    ],
+    "victor": "pontus",
+    "kind": "field",
+    "significance": "Restored Mithridates in Pontus and ended Lucullus' command."
+   },
+   "sources": [
+    {
+     "a": "Plutarch",
+     "w": "Lucullus",
+     "r": "35"
+    },
+    {
+     "a": "Appian",
+     "w": "Mithridatica",
+     "r": "89"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "36.12-13"
+    }
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "metellus_conquers_crete",
+   "year": -69,
+   "endYear": -67,
+   "title": "Metellus conquers Crete",
+   "type": "campaign",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "After Marcus Antonius (father of the triumvir) had been defeated by the Cretans in 72/71 and mockingly called Creticus, the proconsul Quintus Caecilius Metellus systematically besieged the Cretan cities. When the Cretans offered surrender to Pompey instead, Pompey's legate fought Metellus' troops, an unedifying clash of Roman commands. Crete became a province.",
+   "loc": [
+    25.163,
+    35.298
+   ],
+   "locName": "Crete (Cydonia, Cnossus, Lyctus)",
+   "locCertainty": "certain",
+   "people": [],
+   "polities": [
+    "rome",
+    "cretan_cities"
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "36.17a-19"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Pompey",
+     "r": "29"
+    },
+    {
+     "a": "Livy",
+     "w": "Periochae",
+     "r": "98-100"
+    },
+    {
+     "a": "Velleius Paterculus",
+     "w": "Historiae Romanae",
+     "r": "2.34.1"
+    }
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "lex_gabinia",
+   "year": -67,
+   "endYear": null,
+   "title": "Lex Gabinia: Pompey's command against the pirates",
+   "type": "law",
+   "cats": [
+    "law",
+    "military",
+    "constitutional"
+   ],
+   "importance": 5,
+   "summary": "The tribune Aulus Gabinius carried a law giving one man of consular rank, obviously Pompey, a three-year command over the whole Mediterranean and its coasts to 50 miles inland, with imperium equal to the governors', 15 (later 24) legates of praetorian rank, 500 ships, 120,000 infantry, 5,000 cavalry and 6,000 talents. The price of grain at Rome fell the day it passed.",
+   "detail": "The senate resisted almost to a man: Catulus asked whom they would turn to if they lost this one man, and the people shouted 'You!'. When the tribune Trebellius vetoed, Gabinius began a vote to depose him, as Tiberius Gracchus had Octavius, and Trebellius gave way after 17 tribes had voted. Pirates had raided Ostia in 68 and burned a consular fleet, kidnapped two praetors with their lictors and cut off Rome's grain. The law was the model for the great commands of the next two decades.",
+   "loc": [
+    12.4853,
+    41.8925
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "war": "cilician_pirate_wars",
+   "people": [
+    "gabinius",
+    "pompey"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Plutarch",
+     "w": "Pompey",
+     "r": "25-26"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "36.20-37"
+    },
+    {
+     "a": "Cicero",
+     "w": "De imperio Cn. Pompei (Pro lege Manilia)",
+     "r": "31-35, 44, 52"
+    },
+    {
+     "a": "Velleius Paterculus",
+     "w": "Historiae Romanae",
+     "r": "2.31-32"
+    },
+    {
+     "a": "Appian",
+     "w": "Mithridatica",
+     "r": "94"
+    }
+   ],
+   "scholarship": [
+    "Vervaet, The High Command in the Roman Republic (2014)",
+    "Seager, Pompey the Great (2002)"
+   ],
+   "debate": "Whether Pompey's imperium was 'equal' (aequum, Velleius) or superior (maius) to governors' is disputed.",
+   "certainty": "certain",
+   "tags": [
+    "named law",
+    "extraordinary command"
+   ]
+  },
+  {
+   "id": "battle_of_coracesium",
+   "year": -67,
+   "endYear": null,
+   "title": "Battle of Coracesium",
+   "type": "naval",
+   "cats": [
+    "military",
+    "naval"
+   ],
+   "importance": 3,
+   "summary": "After clearing the western Mediterranean in 40 days, Pompey trapped the pirates' main fleet off Coracesium in Rough Cilicia, defeated it and besieged their strongholds, which surrendered. The whole campaign took three months.",
+   "detail": "Appian gives 10,000 pirates killed, over 20,000 captured, 120 strongholds taken and 71 ships captured plus 306 surrendered. Pompey resettled the prisoners as farmers at Soli (renamed Pompeiopolis), Mallus, Adana, Epiphaneia and Dyme in Achaea: Virgil's old Corycian gardener in the Georgics may be one of them.",
+   "loc": [
+    31.996,
+    36.544
+   ],
+   "locName": "Coracesium (Alanya), Cilicia",
+   "locCertainty": "certain",
+   "war": "cilician_pirate_wars",
+   "people": [
+    "pompey"
+   ],
+   "polities": [
+    "rome",
+    "cilician_pirates"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "pompey"
+      ],
+      "strength": "60 ships in the final squadron of a 500-ship command",
+      "losses": "light"
+     },
+     {
+      "polity": "cilician_pirates",
+      "commanders": [],
+      "strength": "main pirate fleet",
+      "losses": "c. 10,000 killed, 20,000 captured (campaign total, Appian)"
+     }
+    ],
+    "victor": "rome",
+    "kind": "naval",
+    "significance": "Ended large-scale piracy in the Mediterranean for a generation."
+   },
+   "sources": [
+    {
+     "a": "Plutarch",
+     "w": "Pompey",
+     "r": "26-28"
+    },
+    {
+     "a": "Appian",
+     "w": "Mithridatica",
+     "r": "95-96"
+    },
+    {
+     "a": "Cicero",
+     "w": "De imperio Cn. Pompei (Pro lege Manilia)",
+     "r": "35"
+    },
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "14.5.2, 14.5.8"
+    },
+    {
+     "a": "Velleius Paterculus",
+     "w": "Historiae Romanae",
+     "r": "2.32.4"
+    }
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "lex_roscia_theatralis",
+   "year": -67,
+   "endYear": null,
+   "title": "Lex Roscia theatralis",
+   "type": "law",
+   "cats": [
+    "law",
+    "social"
+   ],
+   "importance": 2,
+   "summary": "The tribune Lucius Roscius Otho reserved the first fourteen rows in the theatre behind the senators for equites. The privilege was hissed by the crowd for years; Cicero calmed a riot about it in 63.",
+   "loc": [
+    12.4924,
+    41.8902
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "people": [],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Periochae",
+     "r": "99"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Cicero",
+     "r": "13"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "36.42.1"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "named law"
+   ]
+  },
+  {
+   "id": "lex_manilia",
+   "year": -66,
+   "endYear": null,
+   "title": "Lex Manilia: Pompey given the war against Mithridates",
+   "type": "law",
+   "cats": [
+    "law",
+    "military",
+    "constitutional"
+   ],
+   "importance": 5,
+   "summary": "The tribune Gaius Manilius transferred the provinces of Bithynia and Cilicia and the war against Mithridates and Tigranes from Lucullus and Glabrio to Pompey, who was still in the East after the pirate war, with power to make war and peace. Cicero, praetor and eyeing the consulship, spoke for it in his first political speech; so did Caesar.",
+   "detail": "Cicero's De imperio Cn. Pompei praises Pompey's knowledge of war, courage, authority and luck, and points out that equestrian investments in Asia were at stake. Catulus and Hortensius again opposed. Lucullus handed over at a frosty meeting in Galatia, where each called the other a vulture.",
+   "loc": [
+    12.4853,
+    41.8925
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "war": "third_mithridatic_war",
+   "people": [
+    "pompey",
+    "cicero",
+    "lucius_licinius_lucullus",
+    "julius_caesar"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Cicero",
+     "w": "De imperio Cn. Pompei (Pro lege Manilia)",
+     "r": ""
+    },
+    {
+     "a": "Plutarch",
+     "w": "Pompey",
+     "r": "30-31"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "36.42-44"
+    },
+    {
+     "a": "Appian",
+     "w": "Mithridatica",
+     "r": "97"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "named law",
+    "extraordinary command"
+   ]
+  },
+  {
+   "id": "battle_of_the_lycus",
+   "year": -66,
+   "endYear": null,
+   "title": "Battle of the Lycus",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 4,
+   "summary": "Pompey cornered Mithridates' army in a valley near the Lycus and attacked at night. The moon low behind the Romans threw their shadows far ahead, so the Pontic archers shot short. The royal army was destroyed; Mithridates escaped with a handful of riders, including his concubine Hypsicratea dressed as a man.",
+   "detail": "Pompey founded Nicopolis, City of Victory, on the site. Mithridates fled through Colchis and around the Black Sea to his son's kingdom at the Cimmerian Bosporus. Tigranes refused him refuge.",
+   "loc": [
+    38.12,
+    40.17
+   ],
+   "locName": "near Dasteira, later Nicopolis, Lesser Armenia",
+   "locCertainty": "approx",
+   "war": "third_mithridatic_war",
+   "people": [
+    "pompey",
+    "mithridates_vi"
+   ],
+   "polities": [
+    "rome",
+    "pontus"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "pompey"
+      ],
+      "strength": "c. 40,000-50,000",
+      "losses": "c. 40 killed (Appian)"
+     },
+     {
+      "polity": "pontus",
+      "commanders": [
+       "mithridates_vi"
+      ],
+      "strength": "c. 30,000 foot, 2,000-3,000 horse",
+      "losses": "c. 10,000 killed and the rest captured or scattered"
+     }
+    ],
+    "victor": "rome",
+    "kind": "field",
+    "significance": "Destroyed Mithridates' last field army."
+   },
+   "sources": [
+    {
+     "a": "Plutarch",
+     "w": "Pompey",
+     "r": "32"
+    },
+    {
+     "a": "Appian",
+     "w": "Mithridatica",
+     "r": "99-101"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "36.48-49"
+    },
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "12.3.28"
+    }
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "submission_of_tigranes",
+   "year": -66,
+   "endYear": null,
+   "title": "Tigranes submits to Pompey at Artaxata",
+   "type": "diplomacy",
+   "cats": [
+    "diplomatic"
+   ],
+   "importance": 3,
+   "summary": "Facing his rebellious son, the younger Tigranes, backed by Parthia and Pompey, the old king walked into Pompey's camp and laid his diadem at his feet. Pompey gave it back: Tigranes kept Armenia proper, paid 6,000 talents, and lost Syria, Cilicia and Sophene. The son, who wanted more, was taken to Rome in chains.",
+   "detail": "Each Roman soldier received 50 drachmas, each centurion 1,000, each tribune 10,000 from Tigranes' payment.",
+   "loc": [
+    44.57,
+    39.88
+   ],
+   "locName": "Artaxata, Armenia",
+   "locCertainty": "certain",
+   "war": "third_mithridatic_war",
+   "people": [
+    "pompey",
+    "tigranes_ii"
+   ],
+   "polities": [
+    "rome",
+    "armenia",
+    "parthia"
+   ],
+   "sources": [
+    {
+     "a": "Plutarch",
+     "w": "Pompey",
+     "r": "33"
+    },
+    {
+     "a": "Appian",
+     "w": "Mithridatica",
+     "r": "104-105"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "36.51-53"
+    },
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "11.14.10"
+    }
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "battle_of_the_abas",
+   "year": -65,
+   "endYear": null,
+   "title": "Battle of the Abas",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "After defeating the Iberians of King Artoces at the Pelorus river, Pompey met the Albanian king Oroeses on the Abas. He hid his infantry behind his cavalry, which feigned retreat, drawing the Albanians onto the legions. Plutarch says women's shields and buskins found among the dead were taken for those of Amazons.",
+   "detail": "Pompey came within three days' march of the Caspian and turned back, Plutarch says, because of the multitude of deadly snakes. The campaign was more about glory than strategy: Pompey wished to match Alexander.",
+   "loc": [
+    46.4,
+    41.5
+   ],
+   "locName": "Abas river (Alazani?), Caucasian Albania",
+   "locCertainty": "disputed",
+   "war": "third_mithridatic_war",
+   "people": [
+    "pompey"
+   ],
+   "polities": [
+    "rome",
+    "caucasian_albania",
+    "iberia_kartli"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "pompey"
+      ],
+      "strength": "unknown",
+      "losses": "light"
+     },
+     {
+      "polity": "caucasian_albania",
+      "commanders": [],
+      "strength": "60,000 foot, 12,000 horse (Plutarch)",
+      "losses": "heavy"
+     }
+    ],
+    "victor": "rome",
+    "kind": "field",
+    "significance": "Brought Albania and Iberia into Rome's orbit; the farthest point of Roman arms in the Caucasus under the Republic."
+   },
+   "sources": [
+    {
+     "a": "Plutarch",
+     "w": "Pompey",
+     "r": "34-36"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "37.1-5"
+    },
+    {
+     "a": "Appian",
+     "w": "Mithridatica",
+     "r": "103"
+    },
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "11.4.5"
+    }
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "annexation_of_syria",
+   "year": -64,
+   "endYear": null,
+   "title": "Pompey annexes Syria and ends the Seleucid kingdom",
+   "type": "administrative",
+   "cats": [
+    "administrative",
+    "diplomatic"
+   ],
+   "importance": 4,
+   "summary": "Pompey deposed Antiochus XIII Asiaticus, saying he would not give Syria to a king who could not defend it against Arabs and Jews, and made it a Roman province. The Seleucid dynasty, founded in 312, ended.",
+   "detail": "Syria's annexation made Rome Parthia's neighbour on the Euphrates and brought the Nabataeans, Ituraeans, Emesenes and the Hasmonean state under Roman supervision. Its first governors were Pompey's legates Scaurus and Gabinius.",
+   "loc": [
+    36.16,
+    36.2
+   ],
+   "locName": "Antioch, Syria",
+   "locCertainty": "certain",
+   "war": "third_mithridatic_war",
+   "people": [
+    "pompey"
+   ],
+   "polities": [
+    "rome",
+    "seleucid"
+   ],
+   "sources": [
+    {
+     "a": "Appian",
+     "w": "Syriaca",
+     "r": "49-50, 70"
+    },
+    {
+     "a": "Appian",
+     "w": "Mithridatica",
+     "r": "106"
+    },
+    {
+     "a": "Justin",
+     "w": "Epitome of Pompeius Trogus",
+     "r": "40.2"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "37.7a"
+    }
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "siege_of_jerusalem_63",
+   "year": -63,
+   "endYear": null,
+   "title": "Pompey's siege of Jerusalem",
+   "type": "siege",
+   "cats": [
+    "military",
+    "religious"
+   ],
+   "importance": 4,
+   "summary": "Called in to arbitrate between the Hasmonean brothers Hyrcanus II and Aristobulus II, Pompey arrested Aristobulus, whose followers held the Temple. After a three-month siege with engines brought from Tyre, the Romans stormed it, Josephus says on a fast day, and 12,000 Jews died. Pompey entered the Holy of Holies, found it empty of any image, and left the treasure untouched.",
+   "detail": "Faustus Sulla, the dictator's son, was first over the wall. Hyrcanus was made high priest; Judaea lost the coastal cities and the Decapolis and paid tribute. The Psalms of Solomon (Ps Sol 2, 8, 17) remember Pompey as a sinner who profaned the sanctuary and died on the shore of Egypt.",
+   "loc": [
+    35.2354,
+    31.778
+   ],
+   "locName": "Temple Mount, Jerusalem",
+   "locCertainty": "certain",
+   "war": "third_mithridatic_war",
+   "people": [
+    "pompey"
+   ],
+   "polities": [
+    "rome",
+    "hasmonean"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "pompey"
+      ],
+      "strength": "several legions",
+      "losses": "light"
+     },
+     {
+      "polity": "hasmonean",
+      "commanders": [],
+      "strength": "Aristobulus' partisans",
+      "losses": "c. 12,000 killed (Josephus)"
+     }
+    ],
+    "victor": "rome",
+    "kind": "siege",
+    "significance": "Ended Hasmonean independence; Judaea became a Roman dependency."
+   },
+   "sources": [
+    {
+     "a": "Josephus",
+     "w": "Antiquitates Judaicae",
+     "r": "14.34-79"
+    },
+    {
+     "a": "Josephus",
+     "w": "Bellum Judaicum",
+     "r": "1.131-158"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "37.15-16"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Historiae",
+     "r": "5.9"
+    },
+    {
+     "a": "Cicero",
+     "w": "Pro Flacco",
+     "r": "67"
+    }
+   ],
+   "debate": "Whether the fast day is the Day of Atonement, a Sabbath, or a confusion by Strabo, whom Josephus follows.",
+   "certainty": "certain"
+  },
+  {
+   "id": "death_of_mithridates",
+   "year": -63,
+   "endYear": null,
+   "title": "Death of Mithridates VI",
+   "type": "death",
+   "cats": [
+    "political",
+    "military"
+   ],
+   "importance": 4,
+   "summary": "Planning, it was said, to march around the Black Sea and invade Italy through the Danube lands, Mithridates faced a revolt by his son Pharnaces and his army. He took poison, but his body, long immunised by daily doses, resisted it; he had his Gallic bodyguard Bituitus kill him with the sword.",
+   "detail": "Pompey learned the news near Jericho and the army celebrated. Pharnaces sent the body to Pompey at Amisus, who had it buried in the royal tombs at Sinope. Pompey kept the king's library and medical papers; his freedman Lenaeus translated the toxicological writings into Latin. The 'mithridatium' antidote remained in pharmacopoeias until the 19th century.",
+   "loc": [
+    36.47,
+    45.35
+   ],
+   "locName": "Panticapaeum, Cimmerian Bosporus",
+   "locCertainty": "certain",
+   "war": "third_mithridatic_war",
+   "people": [
+    "mithridates_vi",
+    "pharnaces_ii",
+    "pompey"
+   ],
+   "polities": [
+    "pontus",
+    "bosporan_kingdom"
+   ],
+   "sources": [
+    {
+     "a": "Appian",
+     "w": "Mithridatica",
+     "r": "107-112"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "37.11-14"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Pompey",
+     "r": "41-42"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "25.6-7"
+    }
+   ],
+   "scholarship": [
+    "Mayor, The Poison King (2010)"
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "pompeys_eastern_settlement",
+   "year": -63,
+   "endYear": -62,
+   "title": "Pompey's eastern settlement",
+   "type": "administrative",
+   "cats": [
+    "administrative",
+    "diplomatic",
+    "economic"
+   ],
+   "importance": 5,
+   "summary": "Pompey reorganised the East: new provinces of Bithynia-Pontus and Syria, an enlarged Cilicia, a ring of client kings (Deiotarus in Galatia, Ariobarzanes in Cappadocia, Antiochus of Commagene, Pharnaces in the Bosporus, Hyrcanus in Judaea, Tigranes in Armenia) and dozens of new or refounded cities. His settlement held, with modifications, into the Principate.",
+   "detail": "Plutarch says provincial revenues rose from 50 to 85 million drachmas a year, and Pompey brought 20,000 talents to the treasury. Pliny quotes his dedication claiming 12 million people subdued, 1,538 towns and forts taken and 846 ships captured. His acta needed ratification at Rome, which the senate under Lucullus, Cato and Metellus Celer blocked for two years, one of the direct causes of the First Triumvirate.",
+   "loc": [
+    36.33,
+    41.29
+   ],
+   "locName": "Amisus, Pontus",
+   "locCertainty": "certain",
+   "war": "third_mithridatic_war",
+   "people": [
+    "pompey",
+    "deiotarus",
+    "tigranes_ii",
+    "pharnaces_ii"
+   ],
+   "polities": [
+    "rome",
+    "pontus",
+    "armenia",
+    "galatia",
+    "cappadocia",
+    "commagene",
+    "hasmonean",
+    "bosporan_kingdom"
+   ],
+   "sources": [
+    {
+     "a": "Plutarch",
+     "w": "Pompey",
+     "r": "38-45"
+    },
+    {
+     "a": "Appian",
+     "w": "Mithridatica",
+     "r": "114-117"
+    },
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "12.3.1"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "7.97-98"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "37.20"
+    }
+   ],
+   "scholarship": [
+    "Sherwin-White, Roman Foreign Policy in the East (1984)",
+    "Seager, Pompey the Great (2002)"
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "first_catilinarian_conspiracy",
+   "year": -66,
+   "endYear": -65,
+   "title": "The so-called first Catilinarian conspiracy",
+   "type": "political",
+   "cats": [
+    "political"
+   ],
+   "importance": 2,
+   "summary": "After the consuls-elect for 65, Publius Autronius Paetus and Publius Cornelius Sulla, were convicted of bribery, stories circulated that they, Catiline and Gnaeus Piso planned to murder the new consuls on 1 January 65; later hostile writers added Crassus and Caesar as backers.",
+   "detail": "Cicero himself defended Sulla in 62 and admitted he had heard nothing of a plot in 66. Since Seager's study most historians treat the 'first conspiracy' as a myth built from rumour and propaganda in 64-63.",
+   "loc": [
+    12.4924,
+    41.8902
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "people": [
+    "catiline",
+    "crassus",
+    "julius_caesar"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Sallust",
+     "w": "Bellum Catilinae",
+     "r": "18-19"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Divus Iulius",
+     "r": "9"
+    },
+    {
+     "a": "Cicero",
+     "w": "Pro Sulla",
+     "r": "11-14, 67-68"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "36.44"
+    }
+   ],
+   "scholarship": [
+    "Seager, Historia 13 (1964)"
+   ],
+   "debate": "Almost certainly fictional.",
+   "certainty": "disputed"
+  },
+  {
+   "id": "caesar_aedile_65",
+   "year": -65,
+   "endYear": null,
+   "title": "Caesar's aedileship and the trophies of Marius",
+   "type": "cultural",
+   "cats": [
+    "political",
+    "cultural"
+   ],
+   "importance": 2,
+   "summary": "As curule aedile Caesar gave lavish games with 320 pairs of gladiators in silvered armour, eclipsing his colleague Bibulus, and overnight re-erected the trophies of Marius' victories on the Capitol, which Sulla had pulled down. Catulus denounced him for attacking the state with siege engines rather than sappers.",
+   "detail": "Bibulus complained that, like Pollux whose name was dropped from the temple of the Twins, he paid half the cost and got none of the credit. A senatorial decree then limited the number of gladiators a man could keep in the city.",
+   "loc": [
+    12.4823,
+    41.8933
+   ],
+   "locName": "Capitol, Rome",
+   "locCertainty": "certain",
+   "people": [
+    "julius_caesar",
+    "bibulus",
+    "gaius_marius"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Divus Iulius",
+     "r": "10-11"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Caesar",
+     "r": "5-6"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "33.53"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "37.8"
+    }
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "prodigies_of_65",
+   "year": -65,
+   "endYear": null,
+   "title": "Lightning strikes the Capitol: the prodigies of 65",
+   "type": "religious",
+   "cats": [
+    "religious"
+   ],
+   "importance": 2,
+   "summary": "Lightning struck the Capitol, melting statues of the gods and bronze law tablets and striking the gilded statue of the she-wolf with Romulus and Remus. The haruspices ordered games and a larger statue of Jupiter facing east, which took two years to make.",
+   "detail": "By chance the new statue was set up on the morning of 3 December 63, as the Allobroges' evidence was being brought to the temple of Concord; Cicero made much of this in the Third Catilinarian and in his poem on his consulship. A bronze she-wolf with a damaged hind leg was once identified with this statue, but the Capitoline wolf is now argued by some to be medieval.",
+   "loc": [
+    12.4823,
+    41.8933
+   ],
+   "locName": "Capitol, Rome",
+   "locCertainty": "certain",
+   "people": [],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Cicero",
+     "w": "In Catilinam",
+     "r": "3.19-21"
+    },
+    {
+     "a": "Cicero",
+     "w": "De divinatione",
+     "r": "1.19-21, 2.47"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "37.9.1-2"
+    },
+    {
+     "a": "Julius Obsequens",
+     "w": "Liber prodigiorum",
+     "r": "61"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "prodigy"
+   ]
+  },
+  {
+   "id": "rullan_land_bill",
+   "year": -63,
+   "endYear": null,
+   "title": "Cicero defeats the Rullan land bill",
+   "type": "law",
+   "cats": [
+    "law",
+    "political"
+   ],
+   "importance": 3,
+   "summary": "The tribune Publius Servilius Rullus proposed a ten-man commission with praetorian powers for five years to sell public land abroad and buy land in Italy, including the rich ager Campanus, for settlers. On his first day as consul Cicero attacked it in the senate and then, unusually, before the people, and Rullus withdrew it.",
+   "detail": "Cicero's three surviving speeches present him as the true popularis. The bill's real aims, perhaps to provide land for Pompey's returning veterans or to give Crassus and Caesar a power base, are debated.",
+   "loc": [
+    12.4853,
+    41.8925
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "people": [
+    "cicero"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Cicero",
+     "w": "De lege agraria",
+     "r": "1-3"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Cicero",
+     "r": "12"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "37.25.4"
+    }
+   ],
+   "debate": "Whether Caesar and Crassus stood behind Rullus.",
+   "certainty": "certain",
+   "tags": [
+    "named law"
+   ]
+  },
+  {
+   "id": "trial_of_rabirius",
+   "year": -63,
+   "endYear": null,
+   "title": "Trial of Gaius Rabirius for the murder of Saturninus",
+   "type": "political",
+   "cats": [
+    "law",
+    "political",
+    "constitutional"
+   ],
+   "importance": 3,
+   "summary": "The tribune Titus Labienus, with Caesar as one of the judges, revived an archaic treason procedure (perduellio) against the elderly senator Gaius Rabirius for killing Saturninus 37 years before, to challenge the legitimacy of the senatus consultum ultimum. Cicero defended him; when the people seemed about to condemn him, the praetor Metellus Celer struck the red flag on the Janiculum, an ancient signal of enemy attack, dissolving the assembly.",
+   "loc": [
+    12.466,
+    41.888
+   ],
+   "locName": "Campus Martius and Janiculum, Rome",
+   "locCertainty": "certain",
+   "people": [
+    "cicero",
+    "julius_caesar",
+    "titus_labienus",
+    "saturninus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Cicero",
+     "w": "Pro Rabirio perduellionis reo",
+     "r": ""
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "37.26-28"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Divus Iulius",
+     "r": "12"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "senatus consultum ultimum"
+   ]
+  },
+  {
+   "id": "caesar_pontifex_maximus",
+   "year": -63,
+   "endYear": null,
+   "title": "Caesar elected pontifex maximus",
+   "type": "religious",
+   "cats": [
+    "religious",
+    "political"
+   ],
+   "importance": 3,
+   "summary": "After Metellus Pius died, Caesar, aged 37 and only an ex-aedile, beat the senior consulars Catulus and Servilius Isauricus for the chief priesthood in a popular election revived by Labienus' law. He told his mother as he left that he would return as pontifex maximus or not at all.",
+   "detail": "He moved into the Domus Publica on the Sacra Via, where the Bona Dea scandal broke the next year. He had borrowed heavily to buy votes.",
+   "loc": [
+    12.4865,
+    41.8917
+   ],
+   "locName": "Domus Publica, Forum Romanum",
+   "locCertainty": "certain",
+   "people": [
+    "julius_caesar",
+    "titus_labienus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Divus Iulius",
+     "r": "13"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Caesar",
+     "r": "7"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "37.37"
+    },
+    {
+     "a": "Velleius Paterculus",
+     "w": "Historiae Romanae",
+     "r": "2.43.3"
+    }
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "birth_of_octavian",
+   "year": -63,
+   "month": 9,
+   "day": 23,
+   "endYear": null,
+   "title": "Birth of Gaius Octavius, the future Augustus",
+   "type": "other",
+   "cats": [
+    "political"
+   ],
+   "importance": 2,
+   "summary": "Gaius Octavius was born at a house called Ox Heads on the Palatine, son of an equestrian-turned-senator from Velitrae and of Atia, daughter of Caesar's sister Julia. Suetonius records that the senator Nigidius Figulus, hearing the hour of birth, declared that the master of the world had been born.",
+   "loc": [
+    12.4875,
+    41.8892
+   ],
+   "locName": "Ad Capita Bubula, Palatine, Rome",
+   "locCertainty": "certain",
+   "people": [
+    "augustus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Divus Augustus",
+     "r": "5, 94"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "45.1"
+    }
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "consulship_of_cicero",
+   "year": -63,
+   "endYear": null,
+   "title": "The consulship of Cicero",
+   "type": "political",
+   "cats": [
+    "political"
+   ],
+   "importance": 4,
+   "summary": "Marcus Tullius Cicero, the first novus homo consul in thirty years, defeated a land bill, defended Rabirius and Murena, and suppressed Catiline's conspiracy, executing five conspirators without trial on 5 December. He was hailed as father of his country (pater patriae) and never stopped reminding Rome of it.",
+   "detail": "He had bought off his colleague Gaius Antonius Hybrida, a sometime Catilinarian sympathiser, by exchanging the rich province of Macedonia for his own. At the election for 62 he wore a breastplate under his toga. On 29 December the tribune Metellus Nepos forbade his farewell speech; Cicero swore instead that he had saved the Republic. His poem De consulatu suo ('o fortunatam natam me consule Romam') was mocked for centuries.",
+   "loc": [
+    12.4853,
+    41.8925
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "people": [
+    "cicero",
+    "catiline"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Plutarch",
+     "w": "Cicero",
+     "r": "10-23"
+    },
+    {
+     "a": "Sallust",
+     "w": "Bellum Catilinae",
+     "r": ""
+    },
+    {
+     "a": "Cicero",
+     "w": "In Catilinam",
+     "r": "1-4"
+    },
+    {
+     "a": "Cicero",
+     "w": "Pro Murena",
+     "r": ""
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "37.24-42"
+    }
+   ],
+   "scholarship": [
+    "Rawson, Cicero (1975)",
+    "Mitchell, Cicero: The Ascending Years (1979)"
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "senatus_consultum_ultimum_63",
+   "year": -63,
+   "month": 10,
+   "day": 21,
+   "endYear": null,
+   "title": "Senatus consultum ultimum of 63",
+   "type": "constitutional",
+   "cats": [
+    "constitutional",
+    "political"
+   ],
+   "importance": 3,
+   "summary": "After Crassus brought Cicero anonymous letters at night warning of a massacre, and news came that the Sullan veteran Gaius Manlius was raising an army at Faesulae, the senate passed the ultimate decree. Manlius took up arms on 27 October.",
+   "loc": [
+    12.4853,
+    41.8925
+   ],
+   "locName": "Senate, Rome",
+   "locCertainty": "certain",
+   "war": "catilinarian_war",
+   "people": [
+    "cicero",
+    "crassus",
+    "catiline"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Sallust",
+     "w": "Bellum Catilinae",
+     "r": "29-30"
+    },
+    {
+     "a": "Cicero",
+     "w": "In Catilinam",
+     "r": "1.4, 1.7"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Cicero",
+     "r": "15"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "37.31"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "senatus consultum ultimum"
+   ]
+  },
+  {
+   "id": "first_catilinarian_oration",
+   "year": -63,
+   "month": 11,
+   "day": 8,
+   "endYear": null,
+   "title": "The First Catilinarian: 'Quo usque tandem'",
+   "type": "literary",
+   "cats": [
+    "political",
+    "literature"
+   ],
+   "importance": 3,
+   "summary": "The day after a failed attempt to murder him at his house, Cicero denounced Catiline to his face in the temple of Jupiter Stator: 'How long, Catiline, will you abuse our patience?' Senators shifted away from the bench where Catiline sat. He left Rome that night for Manlius' camp and was declared a public enemy.",
+   "detail": "The published version was revised in 60 for Cicero's consular corpus; how closely it matches what was said is uncertain.",
+   "loc": [
+    12.488,
+    41.8905
+   ],
+   "locName": "Temple of Jupiter Stator, Rome",
+   "locCertainty": "certain",
+   "war": "catilinarian_war",
+   "people": [
+    "cicero",
+    "catiline"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Cicero",
+     "w": "In Catilinam",
+     "r": "1"
+    },
+    {
+     "a": "Sallust",
+     "w": "Bellum Catilinae",
+     "r": "31"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Cicero",
+     "r": "16"
+    }
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "arrest_of_the_allobroges_envoys",
+   "year": -63,
+   "month": 12,
+   "day": 3,
+   "endYear": null,
+   "title": "Arrest at the Milvian Bridge: the Allobroges' evidence",
+   "type": "political",
+   "cats": [
+    "political"
+   ],
+   "importance": 3,
+   "summary": "Envoys of the Allobroges, in Rome to complain of debt and provincial oppression, were approached by the conspirators and informed their patron, who told Cicero. They played along, obtained sealed letters from Publius Cornelius Lentulus Sura and others, and were arrested by prearrangement at the Milvian Bridge in the night of 2-3 December. The letters were opened in the senate the next day.",
+   "loc": [
+    12.4672,
+    41.9355
+   ],
+   "locName": "Milvian Bridge, Rome",
+   "locCertainty": "certain",
+   "war": "catilinarian_war",
+   "people": [
+    "cicero",
+    "lentulus_sura"
+   ],
+   "polities": [
+    "rome",
+    "allobroges"
+   ],
+   "sources": [
+    {
+     "a": "Sallust",
+     "w": "Bellum Catilinae",
+     "r": "40-47"
+    },
+    {
+     "a": "Cicero",
+     "w": "In Catilinam",
+     "r": "3.4-15"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Cicero",
+     "r": "18-19"
+    }
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "execution_of_the_catilinarians",
+   "year": -63,
+   "month": 12,
+   "day": 5,
+   "endYear": null,
+   "title": "Execution of the Catilinarian conspirators",
+   "type": "political",
+   "cats": [
+    "political",
+    "constitutional",
+    "law"
+   ],
+   "importance": 5,
+   "summary": "In the senate in the temple of Concord the consul-designate Silanus proposed death; Caesar, praetor-designate, proposed life imprisonment in Italian towns and confiscation, warning of the precedent; Cato's speech swung the house to death. Cicero personally escorted Lentulus Sura, Cethegus, Statilius, Gabinius Capito and Caeparius to the Tullianum where they were strangled, then announced to the crowd: 'vixerunt', they have lived.",
+   "detail": "Sallust gives Caesar and Cato set-piece speeches as the two great characters of his age. Whether the senatus consultum ultimum justified killing citizens without trial in violation of the lex Sempronia was the question on which Clodius exiled Cicero in 58.",
+   "loc": [
+    12.484,
+    41.8932
+   ],
+   "locName": "Temple of Concord and the Tullianum, Rome",
+   "locCertainty": "certain",
+   "war": "catilinarian_war",
+   "people": [
+    "cicero",
+    "julius_caesar",
+    "cato_the_younger",
+    "lentulus_sura"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Sallust",
+     "w": "Bellum Catilinae",
+     "r": "50-55"
+    },
+    {
+     "a": "Cicero",
+     "w": "In Catilinam",
+     "r": "4"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Cicero",
+     "r": "20-22"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Cato Minor",
+     "r": "22-24"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Divus Iulius",
+     "r": "14"
+    },
+    {
+     "a": "Appian",
+     "w": "Bella Civilia",
+     "r": "2.5-6"
+    }
+   ],
+   "scholarship": [
+    "Lintott, Violence in Republican Rome (1968)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "senatus consultum ultimum"
+   ]
+  },
+  {
+   "id": "battle_of_pistoria",
+   "year": -62,
+   "month": 1,
+   "endYear": null,
+   "title": "Battle of Pistoria",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "Trying to escape over the Apennines to Gaul, Catiline was trapped between Metellus Celer's army to the north and Gaius Antonius', commanded on the day by Marcus Petreius because Antonius claimed gout. His 3,000 remaining men fought to the death; Catiline was found far in advance of his line among enemy bodies, still breathing.",
+   "detail": "Sallust says every one of his men had his wounds in front and no freeborn citizen was taken alive. Antonius sent Catiline's head to Rome.",
+   "loc": [
+    10.86,
+    44.0
+   ],
+   "locName": "near Pistoria, Etruria",
+   "locCertainty": "approx",
+   "war": "catilinarian_war",
+   "people": [
+    "catiline"
+   ],
+   "polities": [
+    "rome",
+    "catilinarii"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [],
+      "strength": "Antonius' army under Petreius, perhaps 3 legions",
+      "losses": "heavy among the best troops"
+     },
+     {
+      "polity": "catilinarii",
+      "commanders": [
+       "catiline"
+      ],
+      "strength": "c. 3,000 (of perhaps 10,000 at peak)",
+      "losses": "annihilated"
+     }
+    ],
+    "victor": "rome",
+    "kind": "field",
+    "significance": "Ended the Catilinarian rising."
+   },
+   "sources": [
+    {
+     "a": "Sallust",
+     "w": "Bellum Catilinae",
+     "r": "56-61"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "37.39-40"
+    }
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "bona_dea_scandal",
+   "year": -62,
+   "month": 12,
+   "endYear": -61,
+   "title": "The Bona Dea scandal",
+   "type": "religious",
+   "cats": [
+    "religious",
+    "political",
+    "law"
+   ],
+   "importance": 3,
+   "summary": "At the women-only rites of the Bona Dea held in the house of the pontifex maximus Caesar, Publius Clodius Pulcher was discovered disguised as a female musician, allegedly to meet Caesar's wife Pompeia. Caesar divorced her, saying his wife must be above suspicion. At the trial for sacrilege in 61 Cicero demolished Clodius' alibi, but the jury acquitted him 31 to 25, bribed, Cicero says, with Crassus' money.",
+   "detail": "The affair made Clodius Cicero's mortal enemy and soured relations between Cicero and the triumvirs-to-be. Cicero's letters to Atticus (1.12-16) give a running near-contemporary commentary.",
+   "loc": [
+    12.4865,
+    41.8917
+   ],
+   "locName": "Domus Publica, Rome",
+   "locCertainty": "certain",
+   "people": [
+    "clodius",
+    "julius_caesar",
+    "cicero",
+    "crassus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Cicero",
+     "w": "Epistulae ad Atticum",
+     "r": "1.12.3, 1.13.3, 1.16.1-11"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Caesar",
+     "r": "9-10"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Cicero",
+     "r": "28-29"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Divus Iulius",
+     "r": "6, 74"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "37.45-46"
+    }
+   ],
+   "scholarship": [
+    "Tatum, The Patrician Tribune (1999)"
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "pons_fabricius",
+   "year": -62,
+   "endYear": null,
+   "title": "Construction of the Pons Fabricius",
+   "type": "building",
+   "cats": [
+    "administrative",
+    "cultural"
+   ],
+   "importance": 2,
+   "summary": "Lucius Fabricius, curator of roads, built the stone bridge linking the Campus Martius to the Tiber Island; inscriptions on both arches record his name and its approval by the consuls of 21 BC. It is the oldest Roman bridge still in use in its original form.",
+   "loc": [
+    12.4785,
+    41.8913
+   ],
+   "locName": "Pons Fabricius, Tiber Island, Rome",
+   "locCertainty": "certain",
+   "people": [],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "37.45.3"
+    },
+    {
+     "a": "Inscription",
+     "w": "",
+     "r": "CIL VI 1305"
+    }
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "pompeys_triumph_61",
+   "year": -61,
+   "month": 9,
+   "day": 29,
+   "endYear": null,
+   "title": "Pompey's third triumph",
+   "type": "political",
+   "cats": [
+    "political",
+    "military"
+   ],
+   "importance": 4,
+   "summary": "Having disbanded his army at Brundisium in December 62, confounding fears of a Sullan coup, Pompey celebrated over two days, 28-29 September, a triumph over Mithridates, Tigranes, the pirates and fourteen nations. The second day was his 45th birthday. Placards boasted that he had triumphed over all three continents.",
+   "detail": "Mithridates' children and Aristobulus of Judaea walked in the procession; a portrait of Pompey in pearls was carried. But the senate refused to ratify his eastern acta or give land to his veterans, and the consul Afranius proved useless. Within a year Pompey turned to Caesar.",
+   "loc": [
+    12.4823,
+    41.8933
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "people": [
+    "pompey"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Plutarch",
+     "w": "Pompey",
+     "r": "43-45"
+    },
+    {
+     "a": "Appian",
+     "w": "Mithridatica",
+     "r": "116-117"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "7.98, 37.12-16"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "37.21"
+    }
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "caesar_in_further_spain",
+   "year": -61,
+   "endYear": null,
+   "title": "Caesar's propraetorship in Further Spain",
+   "type": "campaign",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "Released by his creditors only when Crassus stood surety for 830 talents, Caesar campaigned against the Lusitanians and Callaeci, sailing to Brigantium in the far north-west, and was hailed imperator. He returned in 60 and gave up his triumph to stand for the consulship when the senate, led by Cato, refused to let him stand in absentia.",
+   "loc": [
+    -8.4,
+    43.37
+   ],
+   "locName": "Lusitania and Callaecia, to Brigantium",
+   "locCertainty": "approx",
+   "people": [
+    "julius_caesar",
+    "crassus",
+    "cato_the_younger"
+   ],
+   "polities": [
+    "rome",
+    "lusitanians",
+    "callaeci"
+   ],
+   "sources": [
+    {
+     "a": "Plutarch",
+     "w": "Caesar",
+     "r": "11-13"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Divus Iulius",
+     "r": "18"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "37.52-54"
+    },
+    {
+     "a": "Appian",
+     "w": "Bella Civilia",
+     "r": "2.8"
+    }
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "formation_of_the_first_triumvirate",
+   "year": -60,
+   "endYear": null,
+   "title": "Formation of the 'First Triumvirate'",
+   "type": "political",
+   "cats": [
+    "political"
+   ],
+   "importance": 5,
+   "summary": "Caesar, consul-elect for 59, brought together Pompey, frustrated by the senate's refusal to ratify his acta and give land to his veterans, and Crassus, who wanted relief for the tax-farmers of Asia who had overbid their contract. The three agreed that nothing should happen in the state that displeased any of them. Varro called the alliance the three-headed monster.",
+   "detail": "The term 'triumvirate' is modern for this informal pact (unlike the legal Second Triumvirate of 43). Cicero was invited to join and declined (Att. 2.3, December 60). The pact was sealed in 59 by Pompey's marriage to Caesar's daughter Julia. Syme saw it as a coup by a faction that killed the Republic; Gruen argued it was a short-term arrangement that the senate's intransigence forced into existence and that the Republic was still functioning.",
+   "loc": [
+    12.4924,
+    41.8902
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "people": [
+    "julius_caesar",
+    "pompey",
+    "crassus",
+    "cicero",
+    "varro"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Plutarch",
+     "w": "Caesar",
+     "r": "13-14"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Pompey",
+     "r": "47"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Crassus",
+     "r": "14"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Divus Iulius",
+     "r": "19"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "37.54-58"
+    },
+    {
+     "a": "Appian",
+     "w": "Bella Civilia",
+     "r": "2.9"
+    },
+    {
+     "a": "Cicero",
+     "w": "Epistulae ad Atticum",
+     "r": "2.3.3"
+    },
+    {
+     "a": "Velleius Paterculus",
+     "w": "Historiae Romanae",
+     "r": "2.44"
+    }
+   ],
+   "scholarship": [
+    "Syme, The Roman Revolution (1939)",
+    "Gruen, The Last Generation of the Roman Republic (1974)",
+    "Gelzer, Caesar: Politician and Statesman (1968)"
+   ],
+   "debate": "Date (60 or early 59) and nature: a conspiracy against the Republic (Syme) or an ad hoc alliance produced by senatorial obstruction (Gruen).",
+   "certainty": "certain"
+  }
+ ]
+}
