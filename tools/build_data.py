@@ -31,9 +31,9 @@ FAMILY = {
     'egyptian': '#C4A64A', 'berber': '#B88C5A', 'british': '#6F9A7E', 'caucasian': '#7E8FB0', 'slavic': '#8C8FB5', 'other': '#9A9184',
 }
 OVERRIDE = {
-    'rome': '#B03A2E', 'rome_west': '#B84A33', 'rome_east': '#9C2F45', 'gallic_empire': '#C2603A', 'britannic_empire': '#C2603A',
-    'palmyrene_empire': '#B5753A', 'carthage': '#6B4FA0', 'seleucid': '#3B6EA5', 'ptolemaic': '#4E9BB5', 'macedon_antigonid': '#2C4F8C',
-    'parthia': '#3F8A78', 'sasanian': '#2E6E62', 'huns': '#8E7A3E', 'avars': '#8A7342', 'vandal_kingdom': '#4F6B8F',
+    'rome': '#B03A2E', 'rome_west': '#B84A33', 'rome_east': '#9C2F45', 'gallic_empire': '#D9913B', 'britannic_empire': '#C9A43E', 'domain_of_soissons': '#C98B5A', 'dalmatia_julius_nepos': '#C7894E',
+    'palmyrene_empire': '#8E6BB0', 'carthage': '#6B4FA0', 'seleucid': '#3B6EA5', 'ptolemaic': '#4E9BB5', 'macedon_antigonid': '#2C4F8C',
+    'parthia': '#3F8A78', 'sasanian': '#33658A', 'huns': '#8E7A3E', 'avars': '#8A7342', 'vandal_kingdom': '#4F6B8F',
     'visigothic_kingdom': '#5C7F4E', 'visigoths': '#5C7F4E', 'ostrogothic_kingdom': '#7A8F3E', 'ostrogoths': '#7A8F3E', 'frankish_kingdom': '#4E6E8E', 'franks': '#4E6E8E',
     'lombards': '#6E8A5A', 'rashidun': '#2E7D4F', 'odoacer_kingdom': '#8A9050', 'samnites': '#8F7A3A', 'latin_league': '#B59B5F',
     'pontus': '#5E7FA0', 'armenia': '#7C6EA0', 'numidia': '#B07A45', 'mauretania': '#A88452', 'aksum': '#9A6A4A', 'himyar': '#A88A5A',
@@ -262,6 +262,8 @@ def main():
         f['built'] = year(f.get('built')) or MIN_Y
         if f.get('abandoned') is not None:
             f['abandoned'] = year(f['abandoned'])
+        if not f.get('line') and f.get('rings'):
+            f['line'] = f['rings'][0]
         f['line'] = [pt for pt in f.get('line', []) if good_loc(pt)]
     roads = dedupe(C['roads'], 'road')
     for r in roads:
@@ -310,7 +312,7 @@ def main():
     for lst in (evs, people, wars, camps, places, legions, frontiers, roads, sources, glossary):
         ids |= {o['id'] for o in lst if o.get('id')}
     ids |= pol_ids | {r['id'] for r in out_regions}
-    alias_cache = {}
+    alias_cache = {'battle_of_aegates_islands': 'battle_of_the_aegates', 'battle_of_philippi': 'battle_of_philippi_second', 'dacian_wars': 'first_dacian_war'}
 
     def resolve(i):
         if not i or i in ids:

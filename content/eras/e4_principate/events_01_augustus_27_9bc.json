@@ -1,368 +1,2218 @@
 {
  "events": [
-  {"id": "first_settlement_27bc", "year": -27, "month": 1, "day": 13, "title": "First constitutional settlement; Octavian becomes Augustus", "type": "constitutional", "cats": ["constitutional", "political"], "importance": 5,
+  {
+   "id": "first_settlement_27bc",
+   "year": -27,
+   "month": 1,
+   "day": 13,
+   "title": "First constitutional settlement; Octavian becomes Augustus",
+   "type": "constitutional",
+   "cats": [
+    "constitutional",
+    "political"
+   ],
+   "importance": 5,
    "summary": "On 13 January 27 BC Octavian announced to the Senate that he was transferring the res publica to the Senate and people; the Senate begged him to retain a large provincial command, and on 16 January voted him the name Augustus, the oak-leaf corona civica over his door, laurels on his doorposts and a golden shield (clupeus virtutis) in the Curia.",
    "detail": "This was the formal birth of the Principate. Augustus kept his consulship (held every year until 23 BC) and received for ten years a single 'province' comprising Spain, Gaul, Syria and Egypt, where most legions were stationed, governed through legati Augusti pro praetore. Res Gestae 34 claims that after this he 'excelled all in auctoritas but had no more potestas than his colleagues in each magistracy'. The name Augustus, with its religious overtones (augur, augere), was preferred to Romulus. A gold aureus of 28 BC (British Museum, acquired 1995) reading LEGES ET IVRA P(opulo) R(omano) RESTITVIT shows the restoration theme already in play the year before; the Fasti Praenestini record the oak crown 'because he restored the res publica to the Roman people'. Cassius Dio's account (53.2-22) is written in the light of the Severan monarchy and treats the whole as a sham.",
-   "loc": [12.4853, 41.8925], "locName": "Curia Julia, Rome", "locCertainty": "probable",
-   "people": ["augustus", "agrippa"], "polities": ["rome"],
-   "sources": [{"a": "Augustus", "w": "Res Gestae", "r": "34"}, {"a": "Cassius Dio", "w": "Roman History", "r": "53.2-18"}, {"a": "Ovid", "w": "Fasti", "r": "1.587-616"}, {"a": "Velleius Paterculus", "w": "Historiae Romanae", "r": "2.89"}, {"a": "Suetonius", "w": "Augustus", "r": "7.2"}],
-   "scholarship": ["Syme, The Roman Revolution (1939)", "Millar, 'Triumvirate and Principate', JRS 63 (1973)", "Rich and Williams, 'Leges et iura p.R. restituit', Numismatic Chronicle 159 (1999)"],
+   "loc": [
+    12.4853,
+    41.8925
+   ],
+   "locName": "Curia Julia, Rome",
+   "locCertainty": "probable",
+   "people": [
+    "augustus",
+    "agrippa"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Augustus",
+     "w": "Res Gestae",
+     "r": "34"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "53.2-18"
+    },
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "1.587-616"
+    },
+    {
+     "a": "Velleius Paterculus",
+     "w": "Historiae Romanae",
+     "r": "2.89"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Augustus",
+     "r": "7.2"
+    }
+   ],
+   "scholarship": [
+    "Syme, The Roman Revolution (1939)",
+    "Millar, 'Triumvirate and Principate', JRS 63 (1973)",
+    "Rich and Williams, 'Leges et iura p.R. restituit', Numismatic Chronicle 159 (1999)"
+   ],
    "debate": "Whether 'res publica restituta' meant restoration of the Republic or simply of constitutional normality after the triumviral period is much debated; the term itself appears in the Laudatio Turiae and the Fasti Praenestini, not in the Res Gestae.",
-   "certainty": "certain", "tags": ["principate", "res publica restituta", "auctoritas"]},
-
-  {"id": "division_of_the_provinces_27bc", "year": -27, "month": 1, "title": "Division of the provinces between princeps and Senate", "type": "administrative", "cats": ["administrative", "constitutional"], "importance": 4,
+   "certainty": "certain",
+   "tags": [
+    "principate",
+    "res publica restituta",
+    "auctoritas"
+   ]
+  },
+  {
+   "id": "division_of_the_provinces_27bc",
+   "year": -27,
+   "month": 1,
+   "title": "Division of the provinces between princeps and Senate",
+   "type": "administrative",
+   "cats": [
+    "administrative",
+    "constitutional"
+   ],
+   "importance": 4,
    "summary": "The settlement of 27 BC divided provinces into those of the princeps (Hispania Tarraconensis and Lusitania, the Gauls, Syria, Cyprus and Egypt) and 'public' provinces assigned by lot to proconsuls (Africa, Asia, Achaea, Macedonia, Illyricum, Crete-Cyrene, Bithynia-Pontus, Sardinia, Baetica, Sicily).",
    "detail": "Imperial provinces were governed by legati Augusti of senatorial rank (Egypt by an equestrian prefect, from which senators were barred even from visiting without permission), public provinces by ex-consuls (Africa, Asia) or ex-praetors serving a year. Dio says the arrangement was designed to keep the armed provinces under Augustus while appearing to share power; but Africa and Illyricum, both proconsular, still had legions. In 22 BC Augustus returned Cyprus and Gallia Narbonensis to the Senate as pacified; Illyricum passed to him c. 11 BC when it became a war zone, and Dalmatia and Pannonia stayed imperial. The ten-year term was renewed in 18 BC (five years), 13 BC, 8 BC, AD 3 and AD 13, producing the decennalia festivals.",
-   "loc": [12.4853, 41.8925], "locName": "Rome", "locCertainty": "certain",
-   "people": ["augustus"], "polities": ["rome"],
-   "sources": [{"a": "Cassius Dio", "w": "Roman History", "r": "53.12-15"}, {"a": "Strabo", "w": "Geography", "r": "17.3.25"}, {"a": "Suetonius", "w": "Augustus", "r": "47"}],
-   "scholarship": ["Millar, 'The emperor, the Senate and the provinces', JRS 56 (1966)"],
-   "certainty": "certain", "tags": ["provinciae Caesaris", "public provinces", "legati Augusti"]},
-
-  {"id": "triumph_of_crassus_27bc", "year": -27, "month": 7, "day": 4, "title": "Triumph of Marcus Licinius Crassus and the spolia opima controversy", "type": "political", "cats": ["political", "religious", "military"], "importance": 2,
+   "loc": [
+    12.4853,
+    41.8925
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "people": [
+    "augustus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "53.12-15"
+    },
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "17.3.25"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Augustus",
+     "r": "47"
+    }
+   ],
+   "scholarship": [
+    "Millar, 'The emperor, the Senate and the provinces', JRS 56 (1966)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "provinciae Caesaris",
+    "public provinces",
+    "legati Augusti"
+   ]
+  },
+  {
+   "id": "triumph_of_crassus_27bc",
+   "year": -27,
+   "month": 7,
+   "day": 4,
+   "title": "Triumph of Marcus Licinius Crassus and the spolia opima controversy",
+   "type": "political",
+   "cats": [
+    "political",
+    "religious",
+    "military"
+   ],
+   "importance": 2,
    "summary": "Crassus, grandson of the triumvir, triumphed 'ex Thraecia et Geteis' after campaigns of 29-28 BC in which he killed Deldo, king of the Bastarnae, with his own hand. His claim to dedicate the spolia opima in the temple of Jupiter Feretrius was blocked on the ground that he had not fought under his own auspices.",
    "detail": "Livy (4.20.5-11) records that Augustus told him he had seen, in the restored temple of Jupiter Feretrius, the linen corslet of Aulus Cornelius Cossus inscribed to show that Cossus had won the spolia as consul, not military tribune, which would establish that only a commander with his own auspices could dedicate them. Crassus also took the title imperator, a privilege then being restricted to the princeps and his family. Crassus disappears from the record afterwards. Dessau and Syme saw a deliberate snub to a rival; Rich (1996) argues the issue was invented later or exaggerated.",
-   "loc": [12.4823, 41.8933], "locName": "Capitol, Rome", "locCertainty": "certain",
-   "people": ["marcus_licinius_crassus_cos30", "augustus"], "polities": ["rome", "bastarnae", "getae"],
-   "sources": [{"a": "Cassius Dio", "w": "Roman History", "r": "51.23-27"}, {"a": "Livy", "w": "Ab Urbe Condita", "r": "4.20.5-11"}, {"a": "Fasti Triumphales Capitolini"}],
-   "scholarship": ["Rich, 'Augustus and the spolia opima', Chiron 26 (1996)"],
+   "loc": [
+    12.4823,
+    41.8933
+   ],
+   "locName": "Capitol, Rome",
+   "locCertainty": "certain",
+   "people": [
+    "marcus_licinius_crassus_cos30",
+    "augustus"
+   ],
+   "polities": [
+    "rome",
+    "bastarnae"
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "51.23-27"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "4.20.5-11"
+    },
+    {
+     "a": "Fasti Triumphales Capitolini"
+    }
+   ],
+   "scholarship": [
+    "Rich, 'Augustus and the spolia opima', Chiron 26 (1996)"
+   ],
    "debate": "How far the Cossus episode was manufactured to block Crassus is contested.",
-   "certainty": "certain", "tags": ["spolia opima", "triumph", "Jupiter Feretrius"]},
-
-  {"id": "census_of_gaul_27bc", "year": -27, "title": "Augustus holds a census of the Gauls at Narbo", "type": "administrative", "cats": ["administrative", "economic"], "importance": 2,
+   "certainty": "certain",
+   "tags": [
+    "spolia opima",
+    "triumph",
+    "Jupiter Feretrius"
+   ]
+  },
+  {
+   "id": "census_of_gaul_27bc",
+   "year": -27,
+   "title": "Augustus holds a census of the Gauls at Narbo",
+   "type": "administrative",
+   "cats": [
+    "administrative",
+    "economic"
+   ],
+   "importance": 2,
    "summary": "On his way to Spain Augustus convened an assembly at Narbo and ordered a census of the Three Gauls, the first systematic registration of persons and property for tribute in the lands conquered by Caesar.",
    "detail": "Livy's Periocha 134 reports the conventus at Narbo and the census; Dio adds that Augustus organised the Gauls administratively, a task completed by the division into Aquitania, Lugdunensis and Belgica, usually dated 16-13 BC. Later censuses in Gaul (12 BC under Drusus, AD 14-16 under Germanicus, AD 61 and 83) were moments of tension; the census of 12 BC coincided with unrest and the dedication of the altar at Lugdunum.",
-   "loc": [3.0039, 43.1843], "locName": "Narbo Martius (Narbonne)", "locCertainty": "certain",
-   "people": ["augustus"], "polities": ["rome"],
-   "sources": [{"a": "Livy", "w": "Periochae", "r": "134"}, {"a": "Cassius Dio", "w": "Roman History", "r": "53.22.5"}],
-   "certainty": "probable", "tags": ["census", "Tres Galliae"]},
-
-  {"id": "battle_of_vellica", "year": -26, "title": "Battle of Vellica", "type": "battle", "cats": ["military"], "importance": 2,
+   "loc": [
+    3.0039,
+    43.1843
+   ],
+   "locName": "Narbo Martius (Narbonne)",
+   "locCertainty": "certain",
+   "people": [
+    "augustus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Periochae",
+     "r": "134"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "53.22.5"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "census",
+    "Tres Galliae"
+   ]
+  },
+  {
+   "id": "battle_of_vellica",
+   "year": -26,
+   "title": "Battle of Vellica",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
    "summary": "Opening victory of Augustus's Cantabrian campaign, fought 'under the walls of Vellica' after the Cantabri descended from their hill forts to meet the Roman columns.",
    "detail": "Florus says the Cantabri were defeated beneath Vellica and fled to the 'very lofty' Mons Vindius, believing the ocean would rise to it before Roman arms, where they were besieged into starvation. Augustus may not have commanded in person on the day; Suetonius (Aug. 20) says he conducted only two wars personally after Actium, the Dalmatian and Cantabrian, and Dio records a thunderbolt narrowly missing his litter during a night march, which led him to dedicate the temple of Jupiter Tonans on the Capitol (22 BC).",
-   "loc": [-4.24, 42.83], "locName": "Vellica, near Aguilar de Campoo (Monte Cildá?)", "locCertainty": "disputed",
-   "war": "cantabrian_wars", "people": ["augustus"], "polities": ["rome", "cantabri_astures"],
-   "battle": {"sides": [{"polity": "rome", "commanders": ["augustus"], "strength": "Several legions in three columns (numbers unknown)", "losses": "unknown"}, {"polity": "cantabri_astures", "commanders": [], "strength": "unknown", "losses": "heavy; survivors fled to Mons Vindius"}], "victor": "rome", "kind": "field", "significance": "Broke Cantabrian field resistance and drove them into hill-top refuges that the Romans then blockaded."},
-   "sources": [{"a": "Florus", "w": "Epitome", "r": "2.33.48-49"}, {"a": "Orosius", "w": "Historiae adversus paganos", "r": "6.21.5"}],
+   "loc": [
+    -4.24,
+    42.83
+   ],
+   "locName": "Vellica, near Aguilar de Campoo (Monte Cildá?)",
+   "locCertainty": "disputed",
+   "war": "cantabrian_wars",
+   "people": [
+    "augustus"
+   ],
+   "polities": [
+    "rome",
+    "cantabri_astures"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "augustus"
+      ],
+      "strength": "Several legions in three columns (numbers unknown)",
+      "losses": "unknown"
+     },
+     {
+      "polity": "cantabri_astures",
+      "commanders": [],
+      "strength": "unknown",
+      "losses": "heavy; survivors fled to Mons Vindius"
+     }
+    ],
+    "victor": "rome",
+    "kind": "field",
+    "significance": "Broke Cantabrian field resistance and drove them into hill-top refuges that the Romans then blockaded."
+   },
+   "sources": [
+    {
+     "a": "Florus",
+     "w": "Epitome",
+     "r": "2.33.48-49"
+    },
+    {
+     "a": "Orosius",
+     "w": "Historiae adversus paganos",
+     "r": "6.21.5"
+    }
+   ],
    "debate": "Vellica is usually placed at Monte Cildá near Olleros de Pisuerga, but this is not secure.",
-   "certainty": "probable", "tags": ["Cantabria", "Mons Vindius"]},
-
-  {"id": "siege_of_aracillum", "year": -26, "title": "Siege of Aracillum", "type": "siege", "cats": ["military"], "importance": 2,
+   "certainty": "probable",
+   "tags": [
+    "Cantabria",
+    "Mons Vindius"
+   ]
+  },
+  {
+   "id": "siege_of_aracillum",
+   "year": -26,
+   "title": "Siege of Aracillum",
+   "type": "siege",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
    "summary": "Cantabrian stronghold besieged by the Roman columns in 26 BC and taken after a long resistance; it became the type-site for Roman siege archaeology in the Cantabrian war.",
    "detail": "Florus calls it Aracelium and says it resisted strongly; Orosius gives Racilium. Archaeologists have identified Roman siege works around the Iron Age hillfort of La Espina del Gallego (Cantabria), with three Roman camps (El Cildá, Cueto del Avellanosa, El Cincho), which many now equate with Aracillum, though the older candidate Aradillos near Reinosa still has supporters.",
-   "loc": [-3.98, 43.15], "locName": "La Espina del Gallego?, Cantabria", "locCertainty": "disputed",
-   "war": "cantabrian_wars", "people": ["augustus"], "polities": ["rome", "cantabri_astures"],
-   "battle": {"sides": [{"polity": "rome", "commanders": ["augustus"], "strength": "Probably more than one legion with auxiliaries", "losses": "unknown"}, {"polity": "cantabri_astures", "commanders": [], "strength": "Hillfort garrison and refugees", "losses": "town taken"}], "victor": "rome", "kind": "siege", "significance": "Consolidated the Roman hold on the upper Besaya valley, the main north-south route through Cantabria."},
-   "sources": [{"a": "Florus", "w": "Epitome", "r": "2.33.50"}, {"a": "Orosius", "w": "Historiae adversus paganos", "r": "6.21.5"}],
-   "scholarship": ["Peralta Labrador, Los cántabros antes de Roma (2003)"],
-   "certainty": "probable", "tags": ["Cantabria", "siege archaeology"]},
-
-  {"id": "downfall_of_cornelius_gallus", "year": -26, "title": "Downfall and suicide of Cornelius Gallus", "type": "political", "cats": ["political"], "importance": 2,
+   "loc": [
+    -3.98,
+    43.15
+   ],
+   "locName": "La Espina del Gallego?, Cantabria",
+   "locCertainty": "disputed",
+   "war": "cantabrian_wars",
+   "people": [
+    "augustus"
+   ],
+   "polities": [
+    "rome",
+    "cantabri_astures"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "augustus"
+      ],
+      "strength": "Probably more than one legion with auxiliaries",
+      "losses": "unknown"
+     },
+     {
+      "polity": "cantabri_astures",
+      "commanders": [],
+      "strength": "Hillfort garrison and refugees",
+      "losses": "town taken"
+     }
+    ],
+    "victor": "rome",
+    "kind": "siege",
+    "significance": "Consolidated the Roman hold on the upper Besaya valley, the main north-south route through Cantabria."
+   },
+   "sources": [
+    {
+     "a": "Florus",
+     "w": "Epitome",
+     "r": "2.33.50"
+    },
+    {
+     "a": "Orosius",
+     "w": "Historiae adversus paganos",
+     "r": "6.21.5"
+    }
+   ],
+   "scholarship": [
+    "Peralta Labrador, Los cántabros antes de Roma (2003)"
+   ],
+   "certainty": "probable",
+   "tags": [
+    "Cantabria",
+    "siege archaeology"
+   ]
+  },
+  {
+   "id": "downfall_of_cornelius_gallus",
+   "year": -26,
+   "title": "Downfall and suicide of Cornelius Gallus",
+   "type": "political",
+   "cats": [
+    "political"
+   ],
+   "importance": 2,
    "summary": "Gaius Cornelius Gallus, poet, friend of Virgil and first prefect of Egypt, was renounced by Augustus for boastful self-promotion and indiscreet talk; after the Senate voted his condemnation and exile he killed himself.",
    "detail": "Gallus had suppressed a revolt in the Thebaid and set up a trilingual stele at Philae (dated 15 April 29 BC; ILS 8995) claiming to have taken an army beyond the First Cataract 'where neither the Roman people nor the kings of Egypt had borne arms', and inscribed his deeds on the pyramids. The renuntiatio amicitiae by the princeps was followed by prosecutions in the Senate, showing how imperial disfavour could translate into legal ruin. A papyrus from Qasr Ibrim, published in 1979, preserves lines of his love-elegies, previously known only from one pentameter.",
-   "loc": [32.8844, 24.0251], "locName": "Philae (stele) / Rome", "locCertainty": "approx",
-   "people": ["cornelius_gallus", "augustus"], "polities": ["rome"],
-   "sources": [{"a": "Cassius Dio", "w": "Roman History", "r": "53.23.5-7"}, {"a": "Suetonius", "w": "Augustus", "r": "66.1-2"}, {"a": "Ammianus Marcellinus", "w": "Res Gestae", "r": "17.4.5"}],
-   "scholarship": ["Anderson, Parsons and Nisbet, 'Elegiacs by Gallus from Qasr Ibrîm', JRS 69 (1979)"],
+   "loc": [
+    32.8844,
+    24.0251
+   ],
+   "locName": "Philae (stele) / Rome",
+   "locCertainty": "approx",
+   "people": [
+    "cornelius_gallus",
+    "augustus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "53.23.5-7"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Augustus",
+     "r": "66.1-2"
+    },
+    {
+     "a": "Ammianus Marcellinus",
+     "w": "Res Gestae",
+     "r": "17.4.5"
+    }
+   ],
+   "scholarship": [
+    "Anderson, Parsons and Nisbet, 'Elegiacs by Gallus from Qasr Ibrîm', JRS 69 (1979)"
+   ],
    "debate": "Jerome dates his death to 27 BC; Dio places it in 26.",
-   "certainty": "probable", "tags": ["Egypt", "renuntiatio amicitiae", "elegy"]},
-
-  {"id": "siege_of_marib", "year": -25, "title": "Siege of Marib (Marsiaba)", "type": "siege", "cats": ["military"], "importance": 2,
+   "certainty": "probable",
+   "tags": [
+    "Egypt",
+    "renuntiatio amicitiae",
+    "elegy"
+   ]
+  },
+  {
+   "id": "siege_of_marib",
+   "year": -25,
+   "title": "Siege of Marib (Marsiaba)",
+   "type": "siege",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
    "summary": "Climax of Aelius Gallus's expedition to Arabia Felix: the Roman army besieged the Sabaean capital for six days and withdrew for lack of water, two days' march from the 'land of aromatics'.",
    "detail": "Strabo reports that in the only real battle the Romans lost two men against 10,000 Arabs, and that the expedition's losses came from disease, heat and thirst, blaming the treachery of the Nabataean vizier Syllaeus. Augustus's Res Gestae (26.5) claims the army reached Mariba in the land of the Sabaeans. The expedition yielded geographical knowledge and showed that conquest of South Arabia was impractical; Rome turned to controlling the Red Sea trade instead, which boomed after Egypt's annexation (Strabo saw 120 ships a year sailing from Myos Hormos to India).",
-   "loc": [45.33, 15.43], "locName": "Marib, Yemen", "locCertainty": "probable",
-   "people": ["aelius_gallus"], "polities": ["rome", "saba", "nabataea", "judaea_herodian"],
-   "battle": {"sides": [{"polity": "rome", "commanders": ["aelius_gallus"], "strength": "c. 10,000 at the start, much reduced by disease", "losses": "few in battle; many to disease"}, {"polity": "saba", "commanders": [], "strength": "city garrison", "losses": "unknown"}], "victor": "saba", "kind": "siege", "significance": "Ended Roman ambitions to conquer the incense lands; no Roman army returned to South Arabia."},
-   "sources": [{"a": "Strabo", "w": "Geography", "r": "16.4.22-24"}, {"a": "Pliny the Elder", "w": "Natural History", "r": "6.160-161"}, {"a": "Augustus", "w": "Res Gestae", "r": "26.5"}, {"a": "Cassius Dio", "w": "Roman History", "r": "53.29.3-8"}],
+   "loc": [
+    45.33,
+    15.43
+   ],
+   "locName": "Marib, Yemen",
+   "locCertainty": "probable",
+   "people": [
+    "aelius_gallus"
+   ],
+   "polities": [
+    "rome",
+    "saba",
+    "nabataea",
+    "judaea_herodian"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "aelius_gallus"
+      ],
+      "strength": "c. 10,000 at the start, much reduced by disease",
+      "losses": "few in battle; many to disease"
+     },
+     {
+      "polity": "saba",
+      "commanders": [],
+      "strength": "city garrison",
+      "losses": "unknown"
+     }
+    ],
+    "victor": "saba",
+    "kind": "siege",
+    "significance": "Ended Roman ambitions to conquer the incense lands; no Roman army returned to South Arabia."
+   },
+   "sources": [
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "16.4.22-24"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Natural History",
+     "r": "6.160-161"
+    },
+    {
+     "a": "Augustus",
+     "w": "Res Gestae",
+     "r": "26.5"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "53.29.3-8"
+    }
+   ],
    "debate": "Whether Syllaeus truly sabotaged the expedition or became Strabo's scapegoat is debated; Syllaeus was executed in Rome c. 6 BC for other crimes.",
-   "certainty": "probable", "tags": ["Arabia Felix", "incense", "Sabaeans"]},
-
-  {"id": "siege_of_lancia", "year": -25, "title": "Siege of Lancia", "type": "siege", "cats": ["military"], "importance": 2,
+   "certainty": "probable",
+   "tags": [
+    "Arabia Felix",
+    "incense",
+    "Sabaeans"
+   ]
+  },
+  {
+   "id": "siege_of_lancia",
+   "year": -25,
+   "title": "Siege of Lancia",
+   "type": "siege",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
    "summary": "The Astures, descending in three columns along the Astura (Esla) to attack Roman camps, were betrayed by the Brigaecini; Publius Carisius pre-empted them and besieged the survivors in Lancia, which he took but spared.",
    "detail": "Florus says Carisius had to restrain his soldiers from burning the town, keeping it intact 'as a better monument of Roman victory'. Lancia lies at Villasabariego (León), where excavations have found a Roman town overlying the Asturian oppidum. Carisius founded Emerita and struck coins at a mint in the north-west showing captured Cantabro-Asturian weapons (caetra shields, double-axes).",
-   "loc": [-5.42, 42.56], "locName": "Lancia (Villasabariego, León)", "locCertainty": "probable",
-   "war": "cantabrian_wars", "people": ["publius_carisius"], "polities": ["rome", "cantabri_astures"],
-   "battle": {"sides": [{"polity": "rome", "commanders": ["publius_carisius"], "strength": "Army of Lusitania (legions V Alaudae and X Gemina probable)", "losses": "unknown"}, {"polity": "cantabri_astures", "commanders": [], "strength": "Asturian host in three columns", "losses": "heavy"}], "victor": "rome", "kind": "siege", "significance": "Broke Asturian resistance in the plains; Augustus closed the temple of Janus for the second time."},
-   "sources": [{"a": "Florus", "w": "Epitome", "r": "2.33.54-59"}, {"a": "Orosius", "w": "Historiae adversus paganos", "r": "6.21.10"}, {"a": "Cassius Dio", "w": "Roman History", "r": "53.25.8"}],
-   "certainty": "probable", "tags": ["Astures", "Esla"]},
-
-  {"id": "subjugation_of_the_salassi", "year": -25, "title": "Destruction of the Salassi and foundation of Augusta Praetoria", "type": "campaign", "cats": ["military", "administrative"], "importance": 2,
+   "loc": [
+    -5.42,
+    42.56
+   ],
+   "locName": "Lancia (Villasabariego, León)",
+   "locCertainty": "probable",
+   "war": "cantabrian_wars",
+   "people": [
+    "publius_carisius"
+   ],
+   "polities": [
+    "rome",
+    "cantabri_astures"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "publius_carisius"
+      ],
+      "strength": "Army of Lusitania (legions V Alaudae and X Gemina probable)",
+      "losses": "unknown"
+     },
+     {
+      "polity": "cantabri_astures",
+      "commanders": [],
+      "strength": "Asturian host in three columns",
+      "losses": "heavy"
+     }
+    ],
+    "victor": "rome",
+    "kind": "siege",
+    "significance": "Broke Asturian resistance in the plains; Augustus closed the temple of Janus for the second time."
+   },
+   "sources": [
+    {
+     "a": "Florus",
+     "w": "Epitome",
+     "r": "2.33.54-59"
+    },
+    {
+     "a": "Orosius",
+     "w": "Historiae adversus paganos",
+     "r": "6.21.10"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "53.25.8"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "Astures",
+    "Esla"
+   ]
+  },
+  {
+   "id": "subjugation_of_the_salassi",
+   "year": -25,
+   "title": "Destruction of the Salassi and foundation of Augusta Praetoria",
+   "type": "campaign",
+   "cats": [
+    "military",
+    "administrative"
+   ],
+   "importance": 2,
    "summary": "Aulus Terentius Varro Murena crushed the Salassi of the Val d'Aosta, who had controlled the Alpine passes and gold-washing for generations; 36,000 were sold at auction at Eporedia, and the colony of Augusta Praetoria was founded with 3,000 praetorian veterans.",
    "detail": "Strabo says 8,000 of those sold were men of fighting age and that the buyers were forbidden to free them for 20 years. The colony (Aosta) retains its Augustan walls, gate (Porta Praetoria) and arch. Control of the Great and Little St Bernard opened direct routes to the Rhone and upper Rhine, indispensable for the coming German wars.",
-   "loc": [7.3206, 45.7372], "locName": "Augusta Praetoria (Aosta)", "locCertainty": "certain",
-   "war": "alpine_wars_augustan", "people": ["aulus_terentius_varro_murena"], "polities": ["rome", "salassi"],
-   "sources": [{"a": "Cassius Dio", "w": "Roman History", "r": "53.25.3-5"}, {"a": "Strabo", "w": "Geography", "r": "4.6.7"}],
-   "certainty": "certain", "tags": ["Alps", "colonia", "enslavement"]},
-
-  {"id": "founding_of_augusta_emerita", "year": -25, "title": "Foundation of Augusta Emerita", "type": "founding", "cats": ["administrative", "military"], "importance": 2,
+   "loc": [
+    7.3206,
+    45.7372
+   ],
+   "locName": "Augusta Praetoria (Aosta)",
+   "locCertainty": "certain",
+   "war": "alpine_wars_augustan",
+   "people": [
+    "aulus_terentius_varro_murena"
+   ],
+   "polities": [
+    "rome",
+    "salassi"
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "53.25.3-5"
+    },
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "4.6.7"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Alps",
+    "colonia",
+    "enslavement"
+   ]
+  },
+  {
+   "id": "founding_of_augusta_emerita",
+   "year": -25,
+   "title": "Foundation of Augusta Emerita",
+   "type": "founding",
+   "cats": [
+    "administrative",
+    "military"
+   ],
+   "importance": 2,
    "summary": "Publius Carisius settled discharged veterans (emeriti) of legions V Alaudae and X Gemina on the Anas (Guadiana), creating the colony that became capital of Lusitania.",
    "detail": "Mérida preserves one of the best ensembles of Roman architecture in the West: the theatre (dedicated by Agrippa, 16-15 BC), amphitheatre (8 BC), the 60-arch Guadiana bridge, two aqueducts (Los Milagros, San Lázaro) and the Proserpina reservoir. Its coinage under Carisius depicts the city gate.",
-   "loc": [-6.3434, 38.9161], "locName": "Augusta Emerita (Mérida)", "locCertainty": "certain",
-   "war": "cantabrian_wars", "people": ["publius_carisius", "augustus"], "polities": ["rome"],
-   "sources": [{"a": "Cassius Dio", "w": "Roman History", "r": "53.26.1"}],
-   "certainty": "certain", "tags": ["colonia", "veterans", "Lusitania"]},
-
-  {"id": "annexation_of_galatia", "year": -25, "title": "Annexation of Galatia", "type": "administrative", "cats": ["administrative", "political"], "importance": 3,
+   "loc": [
+    -6.3434,
+    38.9161
+   ],
+   "locName": "Augusta Emerita (Mérida)",
+   "locCertainty": "certain",
+   "war": "cantabrian_wars",
+   "people": [
+    "publius_carisius",
+    "augustus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "53.26.1"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "colonia",
+    "veterans",
+    "Lusitania"
+   ]
+  },
+  {
+   "id": "annexation_of_galatia",
+   "year": -25,
+   "title": "Annexation of Galatia",
+   "type": "administrative",
+   "cats": [
+    "administrative",
+    "political"
+   ],
+   "importance": 3,
    "summary": "When king Amyntas was killed fighting the Homonadenses of the Taurus, Augustus did not appoint a successor but turned his large kingdom (Galatia, Lycaonia, Pisidia, parts of Pamphylia) into a province under a legate at Ancyra.",
    "detail": "Galatia was the first of the great Augustan annexations of client kingdoms, setting a pattern of absorbing them on the death of the ruler. It was expanded with Paphlagonia (6/5 BC) and Pontus Galaticus (3/2 BC) and colonised with veteran colonies in Pisidia (Antioch, Lystra, Cremna, Comama, Olbasa, Parlais), linked by the Via Sebaste (6 BC). The best-preserved copy of the Res Gestae, in Latin and Greek, survives on the temple of Rome and Augustus at Ancyra (Monumentum Ancyranum).",
-   "loc": [32.8597, 39.9334], "locName": "Ancyra (Ankara)", "locCertainty": "certain",
-   "people": ["amyntas_of_galatia", "augustus"], "polities": ["rome", "galatia", "homonadenses"],
-   "sources": [{"a": "Cassius Dio", "w": "Roman History", "r": "53.26.3"}, {"a": "Strabo", "w": "Geography", "r": "12.5.1; 12.6.3-5"}],
-   "scholarship": ["Mitchell, Anatolia I (1993)"],
-   "certainty": "certain", "tags": ["client kingdom", "provincialisation", "Via Sebaste"]},
-
-  {"id": "agrippas_pantheon", "year": -25, "title": "Agrippa dedicates the first Pantheon", "type": "building", "cats": ["cultural", "religious"], "importance": 3,
+   "loc": [
+    32.8597,
+    39.9334
+   ],
+   "locName": "Ancyra (Ankara)",
+   "locCertainty": "certain",
+   "people": [
+    "amyntas_of_galatia",
+    "augustus"
+   ],
+   "polities": [
+    "rome",
+    "galatia",
+    "homonadenses"
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "53.26.3"
+    },
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "12.5.1; 12.6.3-5"
+    }
+   ],
+   "scholarship": [
+    "Mitchell, Anatolia I (1993)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "client kingdom",
+    "provincialisation",
+    "Via Sebaste"
+   ]
+  },
+  {
+   "id": "agrippas_pantheon",
+   "year": -25,
+   "title": "Agrippa dedicates the first Pantheon",
+   "type": "building",
+   "cats": [
+    "cultural",
+    "religious"
+   ],
+   "importance": 3,
    "summary": "Marcus Agrippa completed the Pantheon on the Campus Martius as part of a complex with the Saepta Julia (dedicated 26 BC) and the Baths of Agrippa. The inscription still on Hadrian's rebuilding, M. AGRIPPA L.F. COS. TERTIUM FECIT, refers to his third consulship in 27 BC.",
    "detail": "Dio says Agrippa wished to install a statue of Augustus inside and name the building after him; Augustus declined, so statues of Julius Caesar stood inside and of Augustus and Agrippa in the porch. The original was rebuilt after fires of 80 and c. 110, and Hadrian's version (c. 118-128) is the building that survives. Excavations by Beltrami in the 1890s were taken to show a south-facing Agrippan temple; work in 1996-97 suggests the original faced north on the same axis, though its plan (rectangular or circular) is still debated.",
-   "loc": [12.4769, 41.8986], "locName": "Campus Martius, Rome", "locCertainty": "certain",
-   "people": ["agrippa", "augustus"], "polities": ["rome"],
-   "sources": [{"a": "Cassius Dio", "w": "Roman History", "r": "53.23.1-2; 53.27.1-4"}, {"a": "Pliny the Elder", "w": "Natural History", "r": "36.38"}],
-   "scholarship": ["Marder and Wilson Jones (eds), The Pantheon: From Antiquity to the Present (2015)"],
-   "certainty": "certain", "tags": ["Campus Martius", "Agrippa", "building programme"]},
-
-  {"id": "battle_of_pselchis", "year": -24, "title": "Battle of Pselchis", "type": "battle", "cats": ["military"], "importance": 2,
+   "loc": [
+    12.4769,
+    41.8986
+   ],
+   "locName": "Campus Martius, Rome",
+   "locCertainty": "certain",
+   "people": [
+    "agrippa",
+    "augustus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "53.23.1-2; 53.27.1-4"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Natural History",
+     "r": "36.38"
+    }
+   ],
+   "scholarship": [
+    "Marder and Wilson Jones (eds), The Pantheon: From Antiquity to the Present (2015)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Campus Martius",
+    "Agrippa",
+    "building programme"
+   ]
+  },
+  {
+   "id": "battle_of_pselchis",
+   "year": -24,
+   "title": "Battle of Pselchis",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
    "summary": "Gaius Petronius, prefect of Egypt, routed a Kushite army three times his size near Pselchis (Dakka) in Lower Nubia, reversing the Kushite capture of Syene, Elephantine and Philae.",
    "detail": "Strabo says the Kushites were poorly armed, with large oxhide shields, axes, pikes and swords; some fled into the town, others into the desert, others swam to an island. Petronius then stormed Primis and marched on Napata, the residence of the queen's son, which he razed. He sent a thousand captives to Augustus. The Meroë head of Augustus, buried beneath the threshold of a victory shrine, is the Kushite counter-memorial of the same war.",
-   "loc": [32.75, 23.18], "locName": "Pselchis (Dakka), Lower Nubia", "locCertainty": "approx",
-   "war": "roman_kushite_war", "people": ["gaius_petronius_prefect", "amanirenas"], "polities": ["rome", "kush_meroe"],
-   "battle": {"sides": [{"polity": "rome", "commanders": ["gaius_petronius_prefect"], "strength": "Fewer than 10,000 infantry and 800 cavalry", "losses": "light"}, {"polity": "kush_meroe", "commanders": ["amanirenas"], "strength": "c. 30,000 (Strabo)", "losses": "heavy; many captured"}], "victor": "rome", "kind": "field", "significance": "Restored the southern frontier of Egypt and led to the peace of Samos."},
-   "sources": [{"a": "Strabo", "w": "Geography", "r": "17.1.54"}, {"a": "Cassius Dio", "w": "Roman History", "r": "54.5.4-5"}],
+   "loc": [
+    32.75,
+    23.18
+   ],
+   "locName": "Pselchis (Dakka), Lower Nubia",
+   "locCertainty": "approx",
+   "war": "roman_kushite_war",
+   "people": [
+    "gaius_petronius_prefect",
+    "amanirenas"
+   ],
+   "polities": [
+    "rome",
+    "kush_meroe"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "gaius_petronius_prefect"
+      ],
+      "strength": "Fewer than 10,000 infantry and 800 cavalry",
+      "losses": "light"
+     },
+     {
+      "polity": "kush_meroe",
+      "commanders": [
+       "amanirenas"
+      ],
+      "strength": "c. 30,000 (Strabo)",
+      "losses": "heavy; many captured"
+     }
+    ],
+    "victor": "rome",
+    "kind": "field",
+    "significance": "Restored the southern frontier of Egypt and led to the peace of Samos."
+   },
+   "sources": [
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "17.1.54"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "54.5.4-5"
+    }
+   ],
    "debate": "Whether the battle belongs to late 25 or 24 BC is uncertain; Petronius's prefecture is usually dated 25-21 BC.",
-   "certainty": "probable", "tags": ["Nubia", "Kush", "Candace"]},
-
-  {"id": "conspiracy_of_caepio_and_murena", "year": -23, "title": "Conspiracy of Fannius Caepio and Murena", "type": "political", "cats": ["political", "law"], "importance": 2,
+   "certainty": "probable",
+   "tags": [
+    "Nubia",
+    "Kush",
+    "Candace"
+   ]
+  },
+  {
+   "id": "conspiracy_of_caepio_and_murena",
+   "year": -23,
+   "title": "Conspiracy of Fannius Caepio and Murena",
+   "type": "political",
+   "cats": [
+    "political",
+    "law"
+   ],
+   "importance": 2,
    "summary": "Following the trial of Marcus Primus, governor of Macedonia, who claimed he had attacked the Odrysians on Augustus's or Marcellus's orders, a plot against Augustus was alleged; Fannius Caepio and a Murena (probably Varro Murena, Primus's advocate) were condemned in absence and killed.",
    "detail": "Augustus appeared uninvited at Primus's trial and denied giving instructions; Murena's insolent questioning ('What are you doing here, who summoned you?') was remembered. Several jurors voted for acquittal of the conspirators, and Augustus responded with a law that votes in such cases be open. Caepio's slave who betrayed him was paraded with a placard; another who defended him was rewarded. The episode is commonly linked to the political crisis and constitutional reshaping of 23 BC.",
-   "loc": [12.4853, 41.8925], "locName": "Rome", "locCertainty": "certain",
-   "people": ["augustus", "aulus_terentius_varro_murena", "marcellus_nephew_of_augustus", "maecenas"], "polities": ["rome"],
-   "sources": [{"a": "Cassius Dio", "w": "Roman History", "r": "54.3"}, {"a": "Velleius Paterculus", "w": "Historiae Romanae", "r": "2.91.2"}, {"a": "Suetonius", "w": "Augustus", "r": "19; 66.3"}],
-   "scholarship": ["Swan, 'The consular fasti of 23 B.C. and the conspiracy of Varro Murena', HSCP 71 (1966)"],
+   "loc": [
+    12.4853,
+    41.8925
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "people": [
+    "augustus",
+    "aulus_terentius_varro_murena",
+    "marcellus_nephew_of_augustus",
+    "maecenas"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "54.3"
+    },
+    {
+     "a": "Velleius Paterculus",
+     "w": "Historiae Romanae",
+     "r": "2.91.2"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Augustus",
+     "r": "19; 66.3"
+    }
+   ],
+   "scholarship": [
+    "Swan, 'The consular fasti of 23 B.C. and the conspiracy of Varro Murena', HSCP 71 (1966)"
+   ],
    "debate": "Dio dates it to 22 BC; many scholars prefer 23. Whether the consul of 23 BC, who disappears from the Fasti, was the conspirator Murena is disputed. Maecenas reportedly leaked the danger to his wife Terentia, Murena's sister, cooling his relationship with Augustus.",
-   "certainty": "disputed", "tags": ["conspiracy", "maiestas"]},
-
-  {"id": "second_settlement_23bc", "year": -23, "month": 7, "day": 1, "title": "Second constitutional settlement: tribunicia potestas and imperium maius", "type": "constitutional", "cats": ["constitutional", "political"], "importance": 5,
+   "certainty": "disputed",
+   "tags": [
+    "conspiracy",
+    "maiestas"
+   ]
+  },
+  {
+   "id": "second_settlement_23bc",
+   "year": -23,
+   "month": 7,
+   "day": 1,
+   "title": "Second constitutional settlement: tribunicia potestas and imperium maius",
+   "type": "constitutional",
+   "cats": [
+    "constitutional",
+    "political"
+   ],
+   "importance": 5,
    "summary": "After a near-fatal illness (when he handed his signet ring to Agrippa and state papers to his consular colleague Piso), Augustus resigned the consulship on 1 July 23 BC and received instead the tribunician power for life, numbered annually, and a proconsular imperium overriding that of governors in all provinces.",
    "detail": "The tribunicia potestas gave him the right to convene Senate and assemblies, propose laws, veto and protect citizens, without holding the office (as a patrician he could not be tribune). It became the dating system of the reign and the core power of every later emperor. He also obtained the right to bring the first motion at any Senate meeting and retained his imperium inside the pomerium. Giving up continuous consulships doubled the number of consular places available to senators. Augustus's physician Antonius Musa cured him by cold baths and was rewarded with a statue and gold ring; the same cure failed to save Marcellus months later.",
-   "loc": [12.6995, 41.7472], "locName": "Mons Albanus (resignation) / Rome", "locCertainty": "approx",
-   "people": ["augustus", "agrippa", "marcellus_nephew_of_augustus"], "polities": ["rome"],
-   "sources": [{"a": "Cassius Dio", "w": "Roman History", "r": "53.30-32"}, {"a": "Augustus", "w": "Res Gestae", "r": "10.1"}, {"a": "Tacitus", "w": "Annals", "r": "3.56"}, {"a": "Suetonius", "w": "Augustus", "r": "59; 81"}],
-   "scholarship": ["Rich, Cassius Dio: The Augustan Settlement (1990)", "Crook, CAH X2 (1996), ch. 2"],
+   "loc": [
+    12.6995,
+    41.7472
+   ],
+   "locName": "Mons Albanus (resignation) / Rome",
+   "locCertainty": "approx",
+   "people": [
+    "augustus",
+    "agrippa",
+    "marcellus_nephew_of_augustus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "53.30-32"
+    },
+    {
+     "a": "Augustus",
+     "w": "Res Gestae",
+     "r": "10.1"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "3.56"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Augustus",
+     "r": "59; 81"
+    }
+   ],
+   "scholarship": [
+    "Rich, Cassius Dio: The Augustan Settlement (1990)",
+    "Crook, CAH X2 (1996), ch. 2"
+   ],
    "debate": "Whether Augustus received imperium maius in 23 BC (Dio) or only later is debated; the edicts of Cyrene (7-6 BC) show him intervening in a public province. Tacitus called tribunicia potestas the 'summi fastigii vocabulum' devised by Augustus.",
-   "certainty": "certain", "tags": ["tribunicia potestas", "imperium maius", "principate"]},
-
-  {"id": "death_of_marcellus", "year": -23, "title": "Death of Marcellus", "type": "death", "cats": ["political", "literature"], "importance": 3,
+   "certainty": "certain",
+   "tags": [
+    "tribunicia potestas",
+    "imperium maius",
+    "principate"
+   ]
+  },
+  {
+   "id": "death_of_marcellus",
+   "year": -23,
+   "title": "Death of Marcellus",
+   "type": "death",
+   "cats": [
+    "political",
+    "literature"
+   ],
+   "importance": 3,
    "summary": "Marcus Claudius Marcellus, Augustus's nephew and son-in-law (married to Julia in 25 BC) and presumed heir, died at Baiae aged 19, the first to be buried in the Mausoleum of Augustus.",
    "detail": "Marcellus had been allowed to stand for office ten years early and gave lavish games as aedile in 23 BC. Rumour blamed Livia; Dio rejects this given the epidemic of that year. Virgil's lament at the end of Aeneid 6 ('tu Marcellus eris') reportedly made Octavia faint when he recited it before her (Donatus, Vita Vergilii 32). Augustus named the theatre near the Circus Flaminius after him and Octavia built a library in his memory. Julia was then married to Agrippa.",
-   "loc": [14.0726, 40.8197], "locName": "Baiae", "locCertainty": "certain",
-   "people": ["marcellus_nephew_of_augustus", "augustus", "julia_the_elder", "livia", "virgil"], "polities": ["rome"],
-   "sources": [{"a": "Cassius Dio", "w": "Roman History", "r": "53.30.4-6; 53.33.4"}, {"a": "Virgil", "w": "Aeneid", "r": "6.860-886"}, {"a": "Propertius", "w": "Elegies", "r": "3.18"}],
-   "certainty": "certain", "tags": ["succession", "Mausoleum of Augustus"]},
-
-  {"id": "augustan_coinage_reform", "year": -23, "title": "Augustan reform of the base-metal coinage", "type": "economic", "cats": ["economic"], "importance": 3,
+   "loc": [
+    14.0726,
+    40.8197
+   ],
+   "locName": "Baiae",
+   "locCertainty": "certain",
+   "people": [
+    "marcellus_nephew_of_augustus",
+    "augustus",
+    "julia_the_elder",
+    "livia",
+    "virgil"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "53.30.4-6; 53.33.4"
+    },
+    {
+     "a": "Virgil",
+     "w": "Aeneid",
+     "r": "6.860-886"
+    },
+    {
+     "a": "Propertius",
+     "w": "Elegies",
+     "r": "3.18"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "succession",
+    "Mausoleum of Augustus"
+   ]
+  },
+  {
+   "id": "augustan_coinage_reform",
+   "year": -23,
+   "title": "Augustan reform of the base-metal coinage",
+   "type": "economic",
+   "cats": [
+    "economic"
+   ],
+   "importance": 3,
    "summary": "Around 23 BC the mint at Rome resumed production under the tresviri monetales and introduced a new token coinage: brass (orichalcum) sestertii and dupondii and copper asses and quadrantes, alongside the gold aureus and silver denarius.",
    "detail": "The system (1 aureus = 25 denarii = 100 sestertii = 400 asses) lasted, with modifications, until the third century. Brass, a zinc-copper alloy, was valued above copper, so sestertius and dupondius (yellow) were distinguished from the as (red) by colour, the dupondius later by a radiate crown. The SC on base-metal issues probably acknowledges senatorial authorisation. Precious-metal production soon shifted to Lugdunum (from c. 15 BC), close to the Rhine armies. Moneyers' names disappear from coins after c. 4 BC.",
-   "loc": [12.4924, 41.8902], "locName": "Mint of Rome", "locCertainty": "approx",
-   "people": ["augustus"], "polities": ["rome"],
-   "sources": [{"a": "Pliny the Elder", "w": "Natural History", "r": "34.4"}],
-   "scholarship": ["Sutherland, Roman Imperial Coinage I2 (1984)", "Burnett, Coinage in the Roman World (1987)"],
+   "loc": [
+    12.4924,
+    41.8902
+   ],
+   "locName": "Mint of Rome",
+   "locCertainty": "approx",
+   "people": [
+    "augustus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Natural History",
+     "r": "34.4"
+    }
+   ],
+   "scholarship": [
+    "Sutherland, Roman Imperial Coinage I2 (1984)",
+    "Burnett, Coinage in the Roman World (1987)"
+   ],
    "debate": "The exact date (23 or 19 BC) and the meaning of SC on bronze are debated.",
-   "certainty": "approx", "tags": ["coinage", "orichalcum", "sestertius"]},
-
-  {"id": "cura_annonae_22bc", "year": -22, "title": "Augustus refuses the dictatorship and takes the cura annonae", "type": "political", "cats": ["political", "economic"], "importance": 2,
+   "certainty": "approx",
+   "tags": [
+    "coinage",
+    "orichalcum",
+    "sestertius"
+   ]
+  },
+  {
+   "id": "cura_annonae_22bc",
+   "year": -22,
+   "title": "Augustus refuses the dictatorship and takes the cura annonae",
+   "type": "political",
+   "cats": [
+    "political",
+    "economic"
+   ],
+   "importance": 2,
    "summary": "During famine, plague and floods in 23-22 BC the Roman crowd tried to force the dictatorship and a perpetual consulship on Augustus. He knelt and bared his breast in refusal but accepted charge of the grain supply, ending the shortage within days at his own expense.",
    "detail": "Res Gestae 5 records both the refusal and the cura annonae. In the same year Augustus had censors elected, Paullus Aemilius Lepidus and Lucius Munatius Plancus, the last pair of private citizens to hold the office; the platform collapsed on the first day, an omen. The grain supply was later placed under an equestrian praefectus annonae (by AD 14), one of the great prefectures.",
-   "loc": [12.4853, 41.8925], "locName": "Rome", "locCertainty": "certain",
-   "people": ["augustus"], "polities": ["rome"],
-   "sources": [{"a": "Augustus", "w": "Res Gestae", "r": "5"}, {"a": "Cassius Dio", "w": "Roman History", "r": "54.1-2"}, {"a": "Velleius Paterculus", "w": "Historiae Romanae", "r": "2.89.5"}],
-   "certainty": "certain", "tags": ["grain supply", "dictatorship refused", "censorship"]},
-
-  {"id": "return_of_the_parthian_standards", "year": -20, "title": "Return of the Parthian standards", "type": "diplomacy", "cats": ["diplomatic", "political"], "importance": 4,
+   "loc": [
+    12.4853,
+    41.8925
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "people": [
+    "augustus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Augustus",
+     "w": "Res Gestae",
+     "r": "5"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "54.1-2"
+    },
+    {
+     "a": "Velleius Paterculus",
+     "w": "Historiae Romanae",
+     "r": "2.89.5"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "grain supply",
+    "dictatorship refused",
+    "censorship"
+   ]
+  },
+  {
+   "id": "return_of_the_parthian_standards",
+   "year": -20,
+   "title": "Return of the Parthian standards",
+   "type": "diplomacy",
+   "cats": [
+    "diplomatic",
+    "political"
+   ],
+   "importance": 4,
    "summary": "Under threat of Tiberius's army in Armenia and Augustus's presence in Syria, Phraates IV returned the standards and surviving prisoners taken from Crassus at Carrhae (53 BC), from Decidius Saxa (40 BC) and from Antony (36 BC). The diplomatic success was trumpeted as a military victory.",
    "detail": "Simultaneously Tiberius crowned Tigranes III king of Armenia. The standards were first placed in a small temple of Mars Ultor on the Capitol and later in the temple of Mars Ultor in the Forum of Augustus (2 BC). The scene of a Parthian handing a standard to a Roman figure occupies the centre of the cuirass of the Prima Porta statue, and coins of 19-16 BC proclaim SIGNIS RECEPTIS with a kneeling Parthian; Horace and Propertius celebrated it. Around 10 BC Phraates sent four sons with their families to Rome as hostages, partly to protect himself from his queen Musa, an Italian slave-girl gifted by Augustus, who later had him murdered (2 BC) to enthrone her son Phraataces.",
-   "loc": [38.0, 37.0], "locName": "Euphrates frontier (Syria/Armenia)", "locCertainty": "approx",
-   "people": ["augustus", "tiberius", "phraates_iv"], "polities": ["rome", "parthia", "armenia"],
-   "sources": [{"a": "Augustus", "w": "Res Gestae", "r": "29.2; 32.2"}, {"a": "Cassius Dio", "w": "Roman History", "r": "54.8"}, {"a": "Suetonius", "w": "Tiberius", "r": "9.1"}, {"a": "Horace", "w": "Odes", "r": "4.15.6-8"}, {"a": "Strabo", "w": "Geography", "r": "16.1.28"}],
-   "scholarship": ["Rich, 'The Parthian Honours', PBSR 66 (1998)"],
+   "loc": [
+    38.0,
+    37.0
+   ],
+   "locName": "Euphrates frontier (Syria/Armenia)",
+   "locCertainty": "approx",
+   "people": [
+    "augustus",
+    "tiberius",
+    "phraates_iv"
+   ],
+   "polities": [
+    "rome",
+    "parthia",
+    "armenia"
+   ],
+   "sources": [
+    {
+     "a": "Augustus",
+     "w": "Res Gestae",
+     "r": "29.2; 32.2"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "54.8"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Tiberius",
+     "r": "9.1"
+    },
+    {
+     "a": "Horace",
+     "w": "Odes",
+     "r": "4.15.6-8"
+    },
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "16.1.28"
+    }
+   ],
+   "scholarship": [
+    "Rich, 'The Parthian Honours', PBSR 66 (1998)"
+   ],
    "debate": "Whether a Parthian arch was built in the Forum, and where, remains disputed.",
-   "certainty": "certain", "tags": ["Carrhae", "Prima Porta", "signis receptis"]},
-
-  {"id": "treaty_of_samos_kush", "year": -20, "title": "Peace of Samos with Kush", "type": "treaty", "cats": ["diplomatic"], "importance": 2,
+   "certainty": "certain",
+   "tags": [
+    "Carrhae",
+    "Prima Porta",
+    "signis receptis"
+   ]
+  },
+  {
+   "id": "treaty_of_samos_kush",
+   "year": -20,
+   "title": "Peace of Samos with Kush",
+   "type": "treaty",
+   "cats": [
+    "diplomatic"
+   ],
+   "importance": 2,
    "summary": "Kushite envoys, escorted by Petronius's officers to Augustus wintering on Samos, obtained everything they asked, including remission of the tribute Petronius had imposed.",
    "detail": "The frontier was fixed at Hiera Sykaminos (Maharraqa), with the Dodekaschoinos as a Roman military zone. The generosity reflects Augustus's preference for stable frontiers and the low value of Lower Nubia. The peace held, with minor exceptions (a Neronian exploration party reached Meroë and the Sudd c. 61-63), until the Blemmyes troubles of the third century.",
-   "loc": [26.9426, 37.6917], "locName": "Samos", "locCertainty": "certain",
-   "war": "roman_kushite_war", "people": ["augustus", "gaius_petronius_prefect", "amanirenas"], "polities": ["rome", "kush_meroe"],
-   "sources": [{"a": "Strabo", "w": "Geography", "r": "17.1.54"}],
-   "certainty": "probable", "tags": ["Kush", "frontier", "Dodekaschoinos"]},
-
-  {"id": "herods_temple_begun", "year": -20, "title": "Herod begins rebuilding the Jerusalem Temple", "type": "building", "cats": ["religious", "cultural"], "importance": 3,
+   "loc": [
+    26.9426,
+    37.6917
+   ],
+   "locName": "Samos",
+   "locCertainty": "certain",
+   "war": "roman_kushite_war",
+   "people": [
+    "augustus",
+    "gaius_petronius_prefect",
+    "amanirenas"
+   ],
+   "polities": [
+    "rome",
+    "kush_meroe"
+   ],
+   "sources": [
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "17.1.54"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "Kush",
+    "frontier",
+    "Dodekaschoinos"
+   ]
+  },
+  {
+   "id": "herods_temple_begun",
+   "year": -20,
+   "title": "Herod begins rebuilding the Jerusalem Temple",
+   "type": "building",
+   "cats": [
+    "religious",
+    "cultural"
+   ],
+   "importance": 3,
    "summary": "In the eighteenth year of his reign (20/19 BC) Herod began the reconstruction of the Second Temple, doubling the Temple Mount platform with vast retaining walls (including the Western Wall) to about 144,000 square metres.",
    "detail": "To avoid profaning the sanctuary, 1,000 priests were trained as masons; the shrine itself took 18 months, the porticoes eight years, and work continued until c. AD 63, only seven years before its destruction. The Royal Stoa ran along the southern edge. A Greek warning inscription forbidding Gentiles to pass the balustrade on pain of death was found in 1871 (OGIS 598), confirming Josephus's description. Some ashlars of the retaining walls weigh over 500 tonnes.",
-   "loc": [35.2354, 31.7781], "locName": "Temple Mount, Jerusalem", "locCertainty": "certain",
-   "people": ["herod_the_great"], "polities": ["judaea_herodian"],
-   "sources": [{"a": "Josephus", "w": "Antiquitates Judaicae", "r": "15.380-425; 20.219"}, {"a": "Josephus", "w": "Bellum Judaicum", "r": "5.184-247"}],
-   "certainty": "certain", "tags": ["Second Temple", "Herod", "Western Wall"]},
-
-  {"id": "conspiracy_of_egnatius_rufus", "year": -19, "title": "Execution of Egnatius Rufus", "type": "political", "cats": ["political"], "importance": 2,
+   "loc": [
+    35.2354,
+    31.7781
+   ],
+   "locName": "Temple Mount, Jerusalem",
+   "locCertainty": "certain",
+   "people": [
+    "herod_the_great"
+   ],
+   "polities": [
+    "judaea_herodian"
+   ],
+   "sources": [
+    {
+     "a": "Josephus",
+     "w": "Antiquitates Judaicae",
+     "r": "15.380-425; 20.219"
+    },
+    {
+     "a": "Josephus",
+     "w": "Bellum Judaicum",
+     "r": "5.184-247"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Second Temple",
+    "Herod",
+    "Western Wall"
+   ]
+  },
+  {
+   "id": "conspiracy_of_egnatius_rufus",
+   "year": -19,
+   "title": "Execution of Egnatius Rufus",
+   "type": "political",
+   "cats": [
+    "political"
+   ],
+   "importance": 2,
    "summary": "Marcus Egnatius Rufus, who had won popularity as aedile by running a private fire brigade of his slaves, tried to stand for the consulship of 19 BC illegally; when the consul Sentius Saturninus refused his candidacy he was accused of plotting against Augustus and executed.",
    "detail": "Velleius, deeply hostile, presents him as a gladiator rather than a senator. The affair, during Augustus's absence in the East, and riots over consular elections led the Senate to send for Augustus; on his return Dio says he received consular power for life (54.10.5), a passage whose reliability is debated. Fire-fighting remained a political issue until Augustus created the vigiles in AD 6.",
-   "loc": [12.4853, 41.8925], "locName": "Rome", "locCertainty": "certain",
-   "people": ["augustus"], "polities": ["rome"],
-   "sources": [{"a": "Velleius Paterculus", "w": "Historiae Romanae", "r": "2.91.3-92.4"}, {"a": "Cassius Dio", "w": "Roman History", "r": "53.24.4-6; 54.10.1-5"}],
-   "certainty": "probable", "tags": ["conspiracy", "fire brigade", "elections"]},
-
-  {"id": "triumph_of_cornelius_balbus", "year": -19, "month": 3, "day": 27, "title": "Triumph of Cornelius Balbus over the Garamantes", "type": "political", "cats": ["military", "political"], "importance": 2,
+   "loc": [
+    12.4853,
+    41.8925
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "people": [
+    "augustus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Velleius Paterculus",
+     "w": "Historiae Romanae",
+     "r": "2.91.3-92.4"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "53.24.4-6; 54.10.1-5"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "conspiracy",
+    "fire brigade",
+    "elections"
+   ]
+  },
+  {
+   "id": "triumph_of_cornelius_balbus",
+   "year": -19,
+   "month": 3,
+   "day": 27,
+   "title": "Triumph of Cornelius Balbus over the Garamantes",
+   "type": "political",
+   "cats": [
+    "military",
+    "political"
+   ],
+   "importance": 2,
    "summary": "Lucius Cornelius Balbus the Younger, proconsul of Africa, triumphed over the Garamantes after capturing their capital Garama in the Fezzan. He was the first man born outside Italy (at Gades) to triumph, and the last person outside the imperial family ever to do so.",
    "detail": "Pliny lists the names of towns and peoples carried in the procession, including Cidamus (Ghadames) and Garama, and notes that the route over the mountains was unknown before. Balbus used his spoils to build the Theatre of Balbus and its crypta in the Campus Martius (dedicated 13 BC). After this, generals received only triumphal ornaments (ornamenta triumphalia); the Fasti Triumphales on the Arch of Augustus end with Balbus.",
-   "loc": [13.07, 26.55], "locName": "Garama (Germa, Fezzan)", "locCertainty": "probable",
-   "people": ["lucius_cornelius_balbus_minor"], "polities": ["rome", "garamantes"],
-   "sources": [{"a": "Pliny the Elder", "w": "Natural History", "r": "5.35-37"}, {"a": "Fasti Triumphales Capitolini"}, {"a": "Velleius Paterculus", "w": "Historiae Romanae", "r": "2.51.3"}],
-   "certainty": "certain", "tags": ["last triumph", "Sahara", "Fezzan"]},
-
-  {"id": "aqua_virgo", "year": -19, "month": 6, "day": 9, "title": "Agrippa opens the Aqua Virgo", "type": "building", "cats": ["cultural", "technology"], "importance": 2,
+   "loc": [
+    13.07,
+    26.55
+   ],
+   "locName": "Garama (Germa, Fezzan)",
+   "locCertainty": "probable",
+   "people": [
+    "lucius_cornelius_balbus_minor"
+   ],
+   "polities": [
+    "rome",
+    "garamantes"
+   ],
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Natural History",
+     "r": "5.35-37"
+    },
+    {
+     "a": "Fasti Triumphales Capitolini"
+    },
+    {
+     "a": "Velleius Paterculus",
+     "w": "Historiae Romanae",
+     "r": "2.51.3"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "last triumph",
+    "Sahara",
+    "Fezzan"
+   ]
+  },
+  {
+   "id": "aqua_virgo",
+   "year": -19,
+   "month": 6,
+   "day": 9,
+   "title": "Agrippa opens the Aqua Virgo",
+   "type": "building",
+   "cats": [
+    "cultural",
+    "technology"
+   ],
+   "importance": 2,
    "summary": "Agrippa's aqueduct, about 21 km long and almost entirely underground, brought spring water to the Campus Martius to supply his baths. It still feeds the Trevi Fountain.",
    "detail": "Frontinus says the name came from a young girl who showed the source to soldiers searching for water. It is the only ancient Roman aqueduct to have functioned almost continuously to the present (restored by Pope Nicholas V in 1453 as the Acqua Vergine). Agrippa as aedile in 33 BC had already overhauled Rome's water system, creating 700 basins, 500 fountains and 130 reservoirs, and his slave water-gang of 240 was bequeathed to Augustus and then made public.",
-   "loc": [12.4833, 41.9009], "locName": "Rome (Trevi terminus)", "locCertainty": "certain",
-   "people": ["agrippa"], "polities": ["rome"],
-   "sources": [{"a": "Frontinus", "w": "De aquaeductu", "r": "1.10; 2.98"}, {"a": "Cassius Dio", "w": "Roman History", "r": "54.11.7"}],
-   "certainty": "certain", "tags": ["aqueduct", "water supply"]},
-
-  {"id": "end_of_the_cantabrian_wars", "year": -19, "title": "Agrippa ends the Cantabrian War", "type": "campaign", "cats": ["military"], "importance": 3,
+   "loc": [
+    12.4833,
+    41.9009
+   ],
+   "locName": "Rome (Trevi terminus)",
+   "locCertainty": "certain",
+   "people": [
+    "agrippa"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Frontinus",
+     "w": "De aquaeductu",
+     "r": "1.10; 2.98"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "54.11.7"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "aqueduct",
+    "water supply"
+   ]
+  },
+  {
+   "id": "end_of_the_cantabrian_wars",
+   "year": -19,
+   "title": "Agrippa ends the Cantabrian War",
+   "type": "campaign",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
    "summary": "A last revolt by Cantabrian slaves who had escaped from Roman owners and killed them was crushed by Agrippa, who had to overcome his own soldiers' reluctance; virtually all men of military age were killed and the rest forced from their mountains into the plains.",
    "detail": "Dio notes that Agrippa declined a triumph and did not even report his success to the Senate, a sign of the new etiquette that triumphal honours belonged to the princeps. He degraded legio I Augusta, stripping it of its title. The pacified north-west was reorganised around new towns, Asturica Augusta (Astorga), Lucus Augusti (Lugo) and Bracara Augusta (Braga), and its gold fields were exploited by hydraulic mining (ruina montium) on a massive scale.",
-   "loc": [-4.5, 43.1], "locName": "Cantabrian mountains", "locCertainty": "approx",
-   "war": "cantabrian_wars", "people": ["agrippa"], "polities": ["rome", "cantabri_astures"],
-   "sources": [{"a": "Cassius Dio", "w": "Roman History", "r": "54.11.2-6"}, {"a": "Pliny the Elder", "w": "Natural History", "r": "33.70-78"}],
-   "certainty": "certain", "tags": ["Cantabria", "gold mining", "Las Médulas"]},
-
-  {"id": "death_of_virgil", "year": -19, "month": 9, "day": 21, "title": "Death of Virgil", "type": "literary", "cats": ["literature", "cultural"], "importance": 3,
+   "loc": [
+    -4.5,
+    43.1
+   ],
+   "locName": "Cantabrian mountains",
+   "locCertainty": "approx",
+   "war": "cantabrian_wars",
+   "people": [
+    "agrippa"
+   ],
+   "polities": [
+    "rome",
+    "cantabri_astures"
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "54.11.2-6"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Natural History",
+     "r": "33.70-78"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Cantabria",
+    "gold mining",
+    "Las Médulas"
+   ]
+  },
+  {
+   "id": "death_of_virgil",
+   "year": -19,
+   "month": 9,
+   "day": 21,
+   "title": "Death of Virgil",
+   "type": "literary",
+   "cats": [
+    "literature",
+    "cultural"
+   ],
+   "importance": 3,
    "summary": "Publius Vergilius Maro died at Brundisium after falling ill in Greece, where he had met Augustus at Athens. He asked that the unfinished Aeneid be burned; Augustus ordered Varius Rufus and Plotius Tucca to publish it without additions.",
    "detail": "The Aeneid's half-lines and inconsistencies betray its incomplete state. Its epitaph, supposedly composed by Virgil himself, ran 'Mantua me genuit, Calabri rapuere, tenent nunc Parthenope; cecini pascua rura duces'. The poem became the school text of the Latin West for the rest of antiquity and was quoted on graffiti at Pompeii and on writing tablets at Vindolanda.",
-   "loc": [17.9398, 40.6380], "locName": "Brundisium", "locCertainty": "certain",
-   "people": ["virgil", "augustus"], "polities": ["rome"],
-   "sources": [{"a": "Donatus", "w": "Vita Vergilii", "r": "35-41"}, {"a": "Jerome", "w": "Chronicle", "r": "Ol. 190"}],
-   "certainty": "certain", "tags": ["Aeneid", "Augustan literature"]},
-
-  {"id": "augustan_marriage_laws_18bc", "year": -18, "title": "Lex Julia de maritandis ordinibus and Lex Julia de adulteriis coercendis", "type": "law", "cats": ["law", "social"], "importance": 4,
+   "loc": [
+    17.9398,
+    40.638
+   ],
+   "locName": "Brundisium",
+   "locCertainty": "certain",
+   "people": [
+    "virgil",
+    "augustus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Donatus",
+     "w": "Vita Vergilii",
+     "r": "35-41"
+    },
+    {
+     "a": "Jerome",
+     "w": "Chronicle",
+     "r": "Ol. 190"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Aeneid",
+    "Augustan literature"
+   ]
+  },
+  {
+   "id": "augustan_marriage_laws_18bc",
+   "year": -18,
+   "title": "Lex Julia de maritandis ordinibus and Lex Julia de adulteriis coercendis",
+   "type": "law",
+   "cats": [
+    "law",
+    "social"
+   ],
+   "importance": 4,
    "summary": "Augustus used his tribunician power to carry laws penalising celibacy and childlessness among the propertied classes and making adultery a public crime tried before a standing court (quaestio).",
    "detail": "The marriage law required men aged 25-60 and women aged 20-50 to be married, restricted the capacity of the unmarried to inherit, forbade senators and their descendants to marry freedwomen, actresses or prostitutes, and rewarded parents of three children (ius trium liberorum) with privileges such as faster careers and, for women, freedom from guardianship. The adultery law obliged a husband to divorce an adulterous wife on pain of prosecution for pimping (lenocinium), allowed a father to kill a daughter and her lover caught in his house, and imposed relegation to separate islands and confiscations. Horace's Carmen Saeculare (17 BC) prays for the success of the 'patrum decreta super iugandis feminis'. The laws were revised by the lex Papia Poppaea in AD 9. Both Augustus's daughter and granddaughter were later exiled under the adultery law.",
-   "loc": [12.4853, 41.8925], "locName": "Rome", "locCertainty": "certain",
-   "people": ["augustus", "horace"], "polities": ["rome"],
-   "sources": [{"a": "Augustus", "w": "Res Gestae", "r": "6.2; 8.5"}, {"a": "Cassius Dio", "w": "Roman History", "r": "54.16.1-7"}, {"a": "Suetonius", "w": "Augustus", "r": "34"}, {"a": "Digest", "w": "Digesta", "r": "48.5"}, {"a": "Horace", "w": "Carmen Saeculare", "r": "17-20"}],
-   "scholarship": ["Treggiari, Roman Marriage (1991)", "Edwards, The Politics of Immorality in Ancient Rome (1993)"],
+   "loc": [
+    12.4853,
+    41.8925
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "people": [
+    "augustus",
+    "horace"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Augustus",
+     "w": "Res Gestae",
+     "r": "6.2; 8.5"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "54.16.1-7"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Augustus",
+     "r": "34"
+    },
+    {
+     "a": "Digest",
+     "w": "Digesta",
+     "r": "48.5"
+    },
+    {
+     "a": "Horace",
+     "w": "Carmen Saeculare",
+     "r": "17-20"
+    }
+   ],
+   "scholarship": [
+    "Treggiari, Roman Marriage (1991)",
+    "Edwards, The Politics of Immorality in Ancient Rome (1993)"
+   ],
    "debate": "Propertius 2.7 celebrates the withdrawal of a law that would have forced him to marry, often taken as evidence of a failed attempt c. 28 BC, though this is contested. The demographic effectiveness of the laws was doubted already by Tacitus (Ann. 3.25).",
-   "certainty": "certain", "tags": ["moral legislation", "ius trium liberorum", "adultery"]},
-
-  {"id": "lectio_senatus_18bc", "year": -18, "title": "Lectio senatus of 18 BC", "type": "reform", "cats": ["political", "constitutional"], "importance": 2,
+   "certainty": "certain",
+   "tags": [
+    "moral legislation",
+    "ius trium liberorum",
+    "adultery"
+   ]
+  },
+  {
+   "id": "lectio_senatus_18bc",
+   "year": -18,
+   "title": "Lectio senatus of 18 BC",
+   "type": "reform",
+   "cats": [
+    "political",
+    "constitutional"
+   ],
+   "importance": 2,
    "summary": "Augustus purged the Senate from about 800 to 600 members after a chaotic system of co-optation failed; Suetonius says he presided wearing a breastplate under his toga and a sword, with ten senators around his chair.",
    "detail": "This was the second Augustan purge after that of 29-28 BC (from about 1,000 to 800). A minimum census for senators was fixed, probably at 1 million sesterces, with Augustus subsidising worthy but poor members. A third revision followed in 11 BC and a committee of three (tresviri legendi senatus) in AD 4.",
-   "loc": [12.4853, 41.8925], "locName": "Curia Julia, Rome", "locCertainty": "certain",
-   "people": ["augustus"], "polities": ["rome"],
-   "sources": [{"a": "Cassius Dio", "w": "Roman History", "r": "54.13-14"}, {"a": "Suetonius", "w": "Augustus", "r": "35"}],
-   "certainty": "probable", "tags": ["Senate", "senatorial census"]},
-
-  {"id": "ludi_saeculares_17bc", "year": -17, "month": 5, "day": 31, "endYear": -17, "title": "Secular Games of 17 BC", "type": "religious", "cats": ["religious", "cultural"], "importance": 3,
+   "loc": [
+    12.4853,
+    41.8925
+   ],
+   "locName": "Curia Julia, Rome",
+   "locCertainty": "certain",
+   "people": [
+    "augustus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "54.13-14"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Augustus",
+     "r": "35"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "Senate",
+    "senatorial census"
+   ]
+  },
+  {
+   "id": "ludi_saeculares_17bc",
+   "year": -17,
+   "month": 5,
+   "day": 31,
+   "endYear": -17,
+   "title": "Secular Games of 17 BC",
+   "type": "religious",
+   "cats": [
+    "religious",
+    "cultural"
+   ],
+   "importance": 3,
    "summary": "Augustus and Agrippa, as magistri of the quindecimviri sacris faciundis, celebrated the Ludi Saeculares over three nights and days (31 May-3 June), proclaiming the beginning of a new age. Horace's Carmen Saeculare was sung by 27 boys and 27 girls on the Palatine and the Capitol.",
    "detail": "A long inscription recording the protocol (the Acta of the games, CIL VI 32323) was found in 1890 near the Tiber at the site of the Tarentum, giving prayers to the Moirai, Ilithyiae, Terra Mater, Jupiter, Juno, Apollo and Diana and naming 110 matrons. The calculation of a 110-year saeculum was itself a scholarly construction of the jurist Ateius Capito. Shortly afterwards Augustus adopted Agrippa's sons Gaius and the newborn Lucius as his own, signalling the dynastic purpose of the new age.",
-   "loc": [12.468, 41.899], "locName": "Tarentum, Campus Martius, Rome", "locCertainty": "approx",
-   "people": ["augustus", "agrippa", "horace", "gaius_caesar", "lucius_caesar"], "polities": ["rome"],
-   "sources": [{"a": "Horace", "w": "Carmen Saeculare"}, {"a": "Augustus", "w": "Res Gestae", "r": "22.2"}, {"a": "Cassius Dio", "w": "Roman History", "r": "54.18.2"}, {"a": "Zosimus", "w": "Historia Nova", "r": "2.5-6"}],
-   "scholarship": ["Feeney, Literature and Religion at Rome (1998)", "Schnegg-Köhler, Die augusteischen Säkularspiele (2002)"],
-   "certainty": "certain", "tags": ["saeculum", "Carmen Saeculare", "epigraphy"]},
-
-  {"id": "clades_lolliana", "year": -16, "title": "Clades Lolliana", "type": "battle", "cats": ["military"], "importance": 3,
+   "loc": [
+    12.468,
+    41.899
+   ],
+   "locName": "Tarentum, Campus Martius, Rome",
+   "locCertainty": "approx",
+   "people": [
+    "augustus",
+    "agrippa",
+    "horace",
+    "gaius_caesar",
+    "lucius_caesar"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Horace",
+     "w": "Carmen Saeculare"
+    },
+    {
+     "a": "Augustus",
+     "w": "Res Gestae",
+     "r": "22.2"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "54.18.2"
+    },
+    {
+     "a": "Zosimus",
+     "w": "Historia Nova",
+     "r": "2.5-6"
+    }
+   ],
+   "scholarship": [
+    "Feeney, Literature and Religion at Rome (1998)",
+    "Schnegg-Köhler, Die augusteischen Säkularspiele (2002)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "saeculum",
+    "Carmen Saeculare",
+    "epigraphy"
+   ]
+  },
+  {
+   "id": "clades_lolliana",
+   "year": -16,
+   "title": "Clades Lolliana",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
    "summary": "The Sugambri, Usipetes and Tencteri crucified Roman traders in their territory, crossed the Rhine, ambushed Roman cavalry and routed the legate Marcus Lollius, capturing the eagle of legio V Alaudae.",
    "detail": "Velleius calls it a defeat 'of greater disgrace than damage'; Suetonius pairs it with the Varian disaster as Augustus's only two serious and ignominious defeats, both in Germany. Augustus came to Gaul in person (16-13 BC), the Germans withdrew and gave hostages, and the episode led directly to Drusus's offensives across the Rhine from 12 BC. Lollius later served as guardian to Gaius Caesar in the East and was disgraced for taking bribes from the Parthians (AD 2).",
-   "loc": [6.4, 51.4], "locName": "Lower Rhine, Gaul", "locCertainty": "disputed",
-   "war": "augustan_germanic_wars", "people": ["marcus_lollius", "augustus"], "polities": ["rome", "sugambri", "usipetes_tencteri"],
-   "battle": {"sides": [{"polity": "rome", "commanders": ["marcus_lollius"], "strength": "Legio V Alaudae and auxiliaries", "losses": "Unknown; the eagle of V Alaudae captured"}, {"polity": "sugambri", "commanders": ["maelo"], "strength": "Sugambri, Usipetes and Tencteri", "losses": "unknown"}], "victor": "sugambri", "kind": "ambush", "significance": "Triggered the Augustan offensive into Germany and Augustus's three-year stay in Gaul."},
-   "sources": [{"a": "Cassius Dio", "w": "Roman History", "r": "54.20.4-6"}, {"a": "Velleius Paterculus", "w": "Historiae Romanae", "r": "2.97.1"}, {"a": "Suetonius", "w": "Augustus", "r": "23.1"}, {"a": "Tacitus", "w": "Annals", "r": "1.10.4"}],
+   "loc": [
+    6.4,
+    51.4
+   ],
+   "locName": "Lower Rhine, Gaul",
+   "locCertainty": "disputed",
+   "war": "augustan_germanic_wars",
+   "people": [
+    "marcus_lollius",
+    "augustus"
+   ],
+   "polities": [
+    "rome",
+    "sugambri",
+    "usipetes_tencteri"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "marcus_lollius"
+      ],
+      "strength": "Legio V Alaudae and auxiliaries",
+      "losses": "Unknown; the eagle of V Alaudae captured"
+     },
+     {
+      "polity": "sugambri",
+      "commanders": [
+       "maelo"
+      ],
+      "strength": "Sugambri, Usipetes and Tencteri",
+      "losses": "unknown"
+     }
+    ],
+    "victor": "sugambri",
+    "kind": "ambush",
+    "significance": "Triggered the Augustan offensive into Germany and Augustus's three-year stay in Gaul."
+   },
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "54.20.4-6"
+    },
+    {
+     "a": "Velleius Paterculus",
+     "w": "Historiae Romanae",
+     "r": "2.97.1"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Augustus",
+     "r": "23.1"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "1.10.4"
+    }
+   ],
    "debate": "Dio dates it to 16 BC; the Livian tradition (Obsequens) may imply 17. Site unknown.",
-   "certainty": "probable", "tags": ["lost eagle", "Rhine"]},
-
-  {"id": "annexation_of_noricum", "year": -15, "title": "Incorporation of Noricum", "type": "administrative", "cats": ["administrative", "military"], "importance": 2,
+   "certainty": "probable",
+   "tags": [
+    "lost eagle",
+    "Rhine"
+   ]
+  },
+  {
+   "id": "annexation_of_noricum",
+   "year": -15,
+   "title": "Incorporation of Noricum",
+   "type": "administrative",
+   "cats": [
+    "administrative",
+    "military"
+   ],
+   "importance": 2,
    "summary": "The Celtic kingdom of Noricum, long a trading partner of Rome, was absorbed in 16-15 BC after the Norici joined Pannonians in raiding Istria; it was governed by an equestrian prefect and from Claudius as a procuratorial province.",
    "detail": "The hill-town on the Magdalensberg, with its Roman traders' quarter and inscriptions recording the export of Noric iron and steel (ferrum Noricum, praised by Ovid and Horace), was the centre of the region until Claudius founded Virunum in the plain below. Velleius treats the annexation as part of the Alpine war of 15 BC. Noricum received no legion until the Marcomannic Wars (legio II Italica, at Lauriacum).",
-   "loc": [14.43, 46.73], "locName": "Magdalensberg, Noricum", "locCertainty": "probable",
-   "war": "alpine_wars_augustan", "people": ["publius_silius_nerva"], "polities": ["rome", "norici"],
-   "sources": [{"a": "Cassius Dio", "w": "Roman History", "r": "54.20.2"}, {"a": "Velleius Paterculus", "w": "Historiae Romanae", "r": "2.39.3"}],
-   "certainty": "probable", "tags": ["Noric steel", "Magdalensberg"]},
-
-  {"id": "conquest_of_raetia", "year": -15, "month": 8, "day": 1, "title": "Drusus and Tiberius conquer the Raeti and Vindelici", "type": "campaign", "cats": ["military"], "importance": 3,
+   "loc": [
+    14.43,
+    46.73
+   ],
+   "locName": "Magdalensberg, Noricum",
+   "locCertainty": "probable",
+   "war": "alpine_wars_augustan",
+   "people": [
+    "publius_silius_nerva"
+   ],
+   "polities": [
+    "rome",
+    "norici"
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "54.20.2"
+    },
+    {
+     "a": "Velleius Paterculus",
+     "w": "Historiae Romanae",
+     "r": "2.39.3"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "Noric steel",
+    "Magdalensberg"
+   ]
+  },
+  {
+   "id": "conquest_of_raetia",
+   "year": -15,
+   "month": 8,
+   "day": 1,
+   "title": "Drusus and Tiberius conquer the Raeti and Vindelici",
+   "type": "campaign",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
    "summary": "In a pincer campaign Drusus advanced from Italy up the Adige valley and over the Alps while Tiberius came from Gaul, fought a naval battle on Lake Constance and joined his brother near the source of the Danube, subduing the Raeti and Vindelici in a single summer.",
    "detail": "Horace (Odes 4.14) dates the decisive victory to the anniversary of the fall of Alexandria (1 August); Odes 4.4 compares Drusus to an eagle. Dio says the Romans deported most of the strongest men, leaving enough to farm. The Augustan legionary base at Dangstetten on the upper Rhine and the early camp at Augsburg-Oberhausen belong to this phase. Raetia was later governed by an equestrian prefect and procurator with its capital at Augusta Vindelicum.",
-   "loc": [10.9, 47.5], "locName": "Raetia (Alpine foreland)", "locCertainty": "approx",
-   "war": "alpine_wars_augustan", "people": ["drusus_the_elder", "tiberius"], "polities": ["rome", "raeti"],
-   "sources": [{"a": "Cassius Dio", "w": "Roman History", "r": "54.22"}, {"a": "Strabo", "w": "Geography", "r": "4.6.8-9; 7.1.5"}, {"a": "Velleius Paterculus", "w": "Historiae Romanae", "r": "2.95"}, {"a": "Horace", "w": "Odes", "r": "4.4; 4.14"}],
-   "certainty": "certain", "tags": ["Alps", "Lake Constance", "pincer"]},
-
-  {"id": "agrippa_bosporan_settlement", "year": -14, "title": "Agrippa settles the Bosporan Kingdom", "type": "diplomacy", "cats": ["diplomatic", "military"], "importance": 2,
+   "loc": [
+    10.9,
+    47.5
+   ],
+   "locName": "Raetia (Alpine foreland)",
+   "locCertainty": "approx",
+   "war": "alpine_wars_augustan",
+   "people": [
+    "drusus_the_elder",
+    "tiberius"
+   ],
+   "polities": [
+    "rome",
+    "raeti"
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "54.22"
+    },
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "4.6.8-9; 7.1.5"
+    },
+    {
+     "a": "Velleius Paterculus",
+     "w": "Historiae Romanae",
+     "r": "2.95"
+    },
+    {
+     "a": "Horace",
+     "w": "Odes",
+     "r": "4.4; 4.14"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Alps",
+    "Lake Constance",
+    "pincer"
+   ]
+  },
+  {
+   "id": "agrippa_bosporan_settlement",
+   "year": -14,
+   "title": "Agrippa settles the Bosporan Kingdom",
+   "type": "diplomacy",
+   "cats": [
+    "diplomatic",
+    "military"
+   ],
+   "importance": 2,
    "summary": "Agrippa brought a fleet to Sinope to dislodge the usurper Scribonius from the Bosporan throne and installed Polemon I of Pontus as king, married to the Bosporan queen Dynamis.",
    "detail": "On this eastern tour (16-13 BC) Agrippa visited Jerusalem with Herod (15 BC), sacrificing a hecatomb in the Temple, and in 14 BC heard the complaints of Ionian Jews, confirming their privileges, a speech Nicolaus of Damascus preserved through Josephus. Dynamis soon broke with Polemon and ruled alone, issuing gold staters with Augustus's portrait. Agrippa declined the triumph voted for the Bosporan success.",
-   "loc": [35.15, 42.03], "locName": "Sinope", "locCertainty": "certain",
-   "people": ["agrippa", "herod_the_great"], "polities": ["rome", "bosporan_kingdom", "pontus_polemonian"],
-   "sources": [{"a": "Cassius Dio", "w": "Roman History", "r": "54.24.4-7"}, {"a": "Josephus", "w": "Antiquitates Judaicae", "r": "16.12-65"}],
-   "certainty": "probable", "tags": ["client kingdom", "Black Sea"]},
-
-  {"id": "ara_pacis", "year": -13, "month": 7, "day": 4, "endYear": -9, "title": "Ara Pacis Augustae", "type": "building", "cats": ["religious", "cultural"], "importance": 4,
+   "loc": [
+    35.15,
+    42.03
+   ],
+   "locName": "Sinope",
+   "locCertainty": "certain",
+   "people": [
+    "agrippa",
+    "herod_the_great"
+   ],
+   "polities": [
+    "rome",
+    "bosporan_kingdom",
+    "pontus_polemonian"
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "54.24.4-7"
+    },
+    {
+     "a": "Josephus",
+     "w": "Antiquitates Judaicae",
+     "r": "16.12-65"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "client kingdom",
+    "Black Sea"
+   ]
+  },
+  {
+   "id": "ara_pacis",
+   "year": -13,
+   "month": 7,
+   "day": 4,
+   "endYear": -9,
+   "title": "Ara Pacis Augustae",
+   "type": "building",
+   "cats": [
+    "religious",
+    "cultural"
+   ],
+   "importance": 4,
    "summary": "The Senate voted the Altar of Augustan Peace on 4 July 13 BC to mark Augustus's return from Gaul and Spain; it was dedicated on 30 January 9 BC, Livia's birthday, on the Campus Martius beside the Via Flaminia.",
    "detail": "Its marble precinct walls carry the most famous relief programme of the age: a procession of the imperial family, priests and magistrates (including Agrippa, Livia, Tiberius, Antonia and the children Gaius and Lucius), mythological panels (Aeneas or Numa sacrificing, Romulus and Remus, Roma, and the so-called Tellus panel), and a lower register of acanthus scrolls teeming with small animals. Fragments were found in 1568 and 1859; the monument was excavated in 1903 and in 1937-38 using ground-freezing beneath the Palazzo Fiano, then reassembled for Mussolini's Augustan bimillennium beside the Mausoleum. Richard Meier's pavilion replaced the fascist shelter in 2006.",
-   "loc": [12.4797, 41.9029], "locName": "Campus Martius, Rome (original site under Palazzo Fiano)", "locCertainty": "certain",
-   "people": ["augustus", "livia", "agrippa", "tiberius", "drusus_the_elder", "antonia_minor"], "polities": ["rome"],
-   "sources": [{"a": "Augustus", "w": "Res Gestae", "r": "12.2"}, {"a": "Ovid", "w": "Fasti", "r": "1.709-722"}, {"a": "Cassius Dio", "w": "Roman History", "r": "54.25.3"}],
-   "scholarship": ["Zanker, The Power of Images in the Age of Augustus (1988)", "Rossini, Ara Pacis (2006)"],
+   "loc": [
+    12.4797,
+    41.9029
+   ],
+   "locName": "Campus Martius, Rome (original site under Palazzo Fiano)",
+   "locCertainty": "certain",
+   "people": [
+    "augustus",
+    "livia",
+    "agrippa",
+    "tiberius",
+    "drusus_the_elder",
+    "antonia_minor"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Augustus",
+     "w": "Res Gestae",
+     "r": "12.2"
+    },
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "1.709-722"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "54.25.3"
+    }
+   ],
+   "scholarship": [
+    "Zanker, The Power of Images in the Age of Augustus (1988)",
+    "Rossini, Ara Pacis (2006)"
+   ],
    "debate": "The identity of the female figure on the 'Tellus' panel (Tellus, Italia, Pax or Venus) and of the sacrificer (Aeneas or Numa) are classic debates.",
-   "certainty": "certain", "tags": ["Pax Augusta", "relief sculpture", "imperial family"]},
-
-  {"id": "theatre_of_marcellus", "year": -13, "title": "Dedication of the Theatre of Marcellus", "type": "building", "cats": ["cultural"], "importance": 2,
+   "certainty": "certain",
+   "tags": [
+    "Pax Augusta",
+    "relief sculpture",
+    "imperial family"
+   ]
+  },
+  {
+   "id": "theatre_of_marcellus",
+   "year": -13,
+   "title": "Dedication of the Theatre of Marcellus",
+   "type": "building",
+   "cats": [
+    "cultural"
+   ],
+   "importance": 2,
    "summary": "Augustus dedicated the stone theatre begun by Julius Caesar near the Circus Flaminius in the name of his dead nephew Marcellus; it held perhaps 11,000-20,000 spectators.",
    "detail": "Its superimposed Doric and Ionic arcades on a radial concrete substructure anticipated the Colosseum. Pliny says a tame tiger was exhibited in a cage at its dedication, the first in Rome. In the Middle Ages it became a fortress of the Pierleoni and Savelli, and Baldassare Peruzzi built the Palazzo Orsini (Savelli) into its upper cavea in the 1520s.",
-   "loc": [12.4797, 41.8919], "locName": "Campus Martius, Rome", "locCertainty": "certain",
-   "people": ["augustus", "marcellus_nephew_of_augustus"], "polities": ["rome"],
-   "sources": [{"a": "Cassius Dio", "w": "Roman History", "r": "54.26.1"}, {"a": "Pliny the Elder", "w": "Natural History", "r": "8.65"}, {"a": "Augustus", "w": "Res Gestae", "r": "21.1"}],
+   "loc": [
+    12.4797,
+    41.8919
+   ],
+   "locName": "Campus Martius, Rome",
+   "locCertainty": "certain",
+   "people": [
+    "augustus",
+    "marcellus_nephew_of_augustus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "54.26.1"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Natural History",
+     "r": "8.65"
+    },
+    {
+     "a": "Augustus",
+     "w": "Res Gestae",
+     "r": "21.1"
+    }
+   ],
    "debate": "Dio places the dedication in 13 BC, Pliny's evidence implies 11 BC.",
-   "certainty": "probable", "tags": ["theatre", "building programme"]},
-
-  {"id": "augustus_pontifex_maximus", "year": -12, "month": 3, "day": 6, "title": "Augustus becomes pontifex maximus", "type": "religious", "cats": ["religious", "political"], "importance": 3,
+   "certainty": "probable",
+   "tags": [
+    "theatre",
+    "building programme"
+   ]
+  },
+  {
+   "id": "augustus_pontifex_maximus",
+   "year": -12,
+   "month": 3,
+   "day": 6,
+   "title": "Augustus becomes pontifex maximus",
+   "type": "religious",
+   "cats": [
+    "religious",
+    "political"
+   ],
+   "importance": 3,
    "summary": "On the death of the former triumvir Lepidus, who had kept the chief pontificate in exile at Circeii since 36 BC, Augustus was elected pontifex maximus by a crowd that Res Gestae claims was larger than any ever seen in Rome.",
    "detail": "Rather than live in the official domus publica on the Via Sacra, he made part of his Palatine house public and dedicated a shrine of Vesta there (28 April 12 BC), joining the cult of the hearth of the state to his own household. As pontifex maximus he had over 2,000 anonymous prophetic books burned and deposited an edited set of Sibylline books in the temple of Apollo Palatinus. Every emperor until Gratian held the office.",
-   "loc": [12.4875, 41.8892], "locName": "Palatine, Rome", "locCertainty": "certain",
-   "people": ["augustus", "lepidus_triumvir"], "polities": ["rome"],
-   "sources": [{"a": "Augustus", "w": "Res Gestae", "r": "10.2"}, {"a": "Ovid", "w": "Fasti", "r": "3.415-428; 4.949-954"}, {"a": "Suetonius", "w": "Augustus", "r": "31.1"}],
-   "certainty": "certain", "tags": ["Vesta", "pontificate", "Sibylline books"]},
-
-  {"id": "death_of_agrippa", "year": -12, "month": 3, "title": "Death of Agrippa", "type": "death", "cats": ["political"], "importance": 4,
+   "loc": [
+    12.4875,
+    41.8892
+   ],
+   "locName": "Palatine, Rome",
+   "locCertainty": "certain",
+   "people": [
+    "augustus",
+    "lepidus_triumvir"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Augustus",
+     "w": "Res Gestae",
+     "r": "10.2"
+    },
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "3.415-428; 4.949-954"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Augustus",
+     "r": "31.1"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Vesta",
+    "pontificate",
+    "Sibylline books"
+   ]
+  },
+  {
+   "id": "death_of_agrippa",
+   "year": -12,
+   "month": 3,
+   "title": "Death of Agrippa",
+   "type": "death",
+   "cats": [
+    "political"
+   ],
+   "importance": 4,
    "summary": "Marcus Vipsanius Agrippa died in Campania shortly after returning from Pannonia, aged about 51. Augustus delivered the funeral oration and buried him in his own Mausoleum.",
    "detail": "Agrippa had held the tribunician power and imperium since 18 BC, a virtual co-regent. A Greek translation of part of Augustus's laudatio survives on a papyrus (P.Köln VI 249), published in 1970, which mentions the grant to him of imperium greater than that of any provincial governor. His posthumous son Agrippa Postumus was born weeks later. His death forced Augustus to rely on his stepsons; Tiberius was compelled to divorce Vipsania Agrippina, whom he loved, and marry the widowed Julia (11 BC).",
-   "loc": [14.25, 40.85], "locName": "Campania", "locCertainty": "approx",
-   "people": ["agrippa", "augustus", "julia_the_elder", "tiberius"], "polities": ["rome"],
-   "sources": [{"a": "Cassius Dio", "w": "Roman History", "r": "54.28-29"}, {"a": "Velleius Paterculus", "w": "Historiae Romanae", "r": "2.96.1"}],
-   "scholarship": ["Koenen, 'Die Laudatio Funebris des Augustus für Agrippa auf einem neuen Papyrus', ZPE 5 (1970)"],
-   "certainty": "certain", "tags": ["succession", "papyrus", "laudatio funebris"]},
-
-  {"id": "altar_of_lugdunum", "year": -12, "month": 8, "day": 1, "title": "Altar of Rome and Augustus at Lugdunum", "type": "religious", "cats": ["religious", "administrative"], "importance": 3,
+   "loc": [
+    14.25,
+    40.85
+   ],
+   "locName": "Campania",
+   "locCertainty": "approx",
+   "people": [
+    "agrippa",
+    "augustus",
+    "julia_the_elder",
+    "tiberius"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "54.28-29"
+    },
+    {
+     "a": "Velleius Paterculus",
+     "w": "Historiae Romanae",
+     "r": "2.96.1"
+    }
+   ],
+   "scholarship": [
+    "Koenen, 'Die Laudatio Funebris des Augustus für Agrippa auf einem neuen Papyrus', ZPE 5 (1970)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "succession",
+    "papyrus",
+    "laudatio funebris"
+   ]
+  },
+  {
+   "id": "altar_of_lugdunum",
+   "year": -12,
+   "month": 8,
+   "day": 1,
+   "title": "Altar of Rome and Augustus at Lugdunum",
+   "type": "religious",
+   "cats": [
+    "religious",
+    "administrative"
+   ],
+   "importance": 3,
    "summary": "Drusus dedicated an altar of Rome and Augustus at the confluence of the Rhône and Saône outside Lugdunum, where delegates of the sixty civitates of the Three Gauls met each year on 1 August under an elected Gallic priest.",
    "detail": "The first priest was the Aeduan Gaius Julius Vercondaridubnus. The concilium Galliarum became a forum for provincial elites, who later built an amphitheatre on the site (AD 19); the martyrs of 177 died there. The altar appears on the 'ROM ET AVG' asses minted at Lugdunum. It was a model for an altar of the Ubii at Cologne (Ara Ubiorum) intended for the future province of Germany.",
-   "loc": [4.8306, 45.7705], "locName": "Condate, Lugdunum (Lyon)", "locCertainty": "certain",
-   "people": ["drusus_the_elder", "augustus"], "polities": ["rome"],
-   "sources": [{"a": "Livy", "w": "Periochae", "r": "139"}, {"a": "Cassius Dio", "w": "Roman History", "r": "54.32.1"}, {"a": "Suetonius", "w": "Claudius", "r": "2.1"}, {"a": "Strabo", "w": "Geography", "r": "4.3.2"}],
+   "loc": [
+    4.8306,
+    45.7705
+   ],
+   "locName": "Condate, Lugdunum (Lyon)",
+   "locCertainty": "certain",
+   "people": [
+    "drusus_the_elder",
+    "augustus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Periochae",
+     "r": "139"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "54.32.1"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Claudius",
+     "r": "2.1"
+    },
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "4.3.2"
+    }
+   ],
    "debate": "Livy's Periocha and Dio date the dedication to 12 BC, but Suetonius says Claudius was born at Lugdunum on 1 August 10 BC, the very day the altar was dedicated. Solutions include a two-stage inauguration.",
-   "certainty": "probable", "tags": ["imperial cult", "concilium Galliarum"]},
-
-  {"id": "battle_of_arbalo", "year": -11, "title": "Battle of Arbalo", "type": "battle", "cats": ["military"], "importance": 2,
+   "certainty": "probable",
+   "tags": [
+    "imperial cult",
+    "concilium Galliarum"
+   ]
+  },
+  {
+   "id": "battle_of_arbalo",
+   "year": -11,
+   "title": "Battle of Arbalo",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
    "summary": "Returning from the Weser in 11 BC, Drusus's army was trapped by the Germans in a narrow defile at Arbalo and nearly destroyed, but the overconfident attackers came to close quarters in disorder and were beaten.",
    "detail": "Pliny the Elder cites the battle as a case where an evil omen (a swarm of bees settling on a tent-rope in Drusus's camp) proved false, for the battle was 'most fortunate'. After it Drusus built a fort at the confluence of the Lippe and Eliso (Aliso) and another among the Chatti on the Rhine. It is the only named battle of Drusus's campaigns.",
-   "loc": [8.6, 51.8], "locName": "Arbalo, between Weser and Lippe", "locCertainty": "disputed",
-   "war": "augustan_germanic_wars", "people": ["drusus_the_elder"], "polities": ["rome", "cherusci", "sugambri"],
-   "battle": {"sides": [{"polity": "rome", "commanders": ["drusus_the_elder"], "strength": "Several legions", "losses": "unknown"}, {"polity": "cherusci", "commanders": [], "strength": "Cherusci, Sugambri and Suebi coalition", "losses": "heavy"}], "victor": "rome", "kind": "ambush", "significance": "Allowed Drusus to extricate his army and fortify the Lippe line."},
-   "sources": [{"a": "Pliny the Elder", "w": "Natural History", "r": "11.55"}, {"a": "Cassius Dio", "w": "Roman History", "r": "54.33.2-4"}, {"a": "Julius Obsequens", "w": "Liber prodigiorum", "r": "72"}],
-   "certainty": "probable", "tags": ["Germany", "omens"]},
-
-  {"id": "death_of_drusus_the_elder", "year": -9, "month": 9, "title": "Death of Drusus the Elder", "type": "death", "cats": ["military", "political"], "importance": 3,
+   "loc": [
+    8.6,
+    51.8
+   ],
+   "locName": "Arbalo, between Weser and Lippe",
+   "locCertainty": "disputed",
+   "war": "augustan_germanic_wars",
+   "people": [
+    "drusus_the_elder"
+   ],
+   "polities": [
+    "rome",
+    "cherusci",
+    "sugambri"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "drusus_the_elder"
+      ],
+      "strength": "Several legions",
+      "losses": "unknown"
+     },
+     {
+      "polity": "cherusci",
+      "commanders": [],
+      "strength": "Cherusci, Sugambri and Suebi coalition",
+      "losses": "heavy"
+     }
+    ],
+    "victor": "rome",
+    "kind": "ambush",
+    "significance": "Allowed Drusus to extricate his army and fortify the Lippe line."
+   },
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Natural History",
+     "r": "11.55"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "54.33.2-4"
+    },
+    {
+     "a": "Julius Obsequens",
+     "w": "Liber prodigiorum",
+     "r": "72"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "Germany",
+    "omens"
+   ]
+  },
+  {
+   "id": "death_of_drusus_the_elder",
+   "year": -9,
+   "month": 9,
+   "title": "Death of Drusus the Elder",
+   "type": "death",
+   "cats": [
+    "military",
+    "political"
+   ],
+   "importance": 3,
    "summary": "After reaching the Elbe, Drusus was injured when his horse fell on his leg and died about 30 days later in his summer camp, aged 29. Tiberius rode some 200 miles in a day and a night from Ticinum to reach him before he died.",
    "detail": "Tiberius walked before the body all the way to Rome. Drusus was cremated on the Campus Martius and buried in the Mausoleum; the Senate granted him and his descendants the hereditary cognomen Germanicus, and erected a marble arch with trophies on the Via Appia. A cenotaph (tumulus honorarius) was raised at Mogontiacum, around which the legions held annual ceremonies; the 'Drususstein' in Mainz citadel is traditionally identified with it. Dio reports that at the Elbe a superhuman woman told him in Latin to turn back as the end of his deeds and life was near. The pseudo-Ovidian Consolatio ad Liviam laments him.",
-   "loc": [10.3, 51.4], "locName": "Germany between Saale and Rhine", "locCertainty": "approx",
-   "war": "augustan_germanic_wars", "people": ["drusus_the_elder", "tiberius", "livia", "augustus"], "polities": ["rome"],
-   "sources": [{"a": "Cassius Dio", "w": "Roman History", "r": "55.1-2"}, {"a": "Suetonius", "w": "Claudius", "r": "1"}, {"a": "Valerius Maximus", "w": "Facta et dicta memorabilia", "r": "5.5.3"}, {"a": "Pliny the Elder", "w": "Natural History", "r": "7.84"}],
-   "certainty": "certain", "tags": ["Elbe", "Germanicus cognomen", "Drususstein"]}
+   "loc": [
+    10.3,
+    51.4
+   ],
+   "locName": "Germany between Saale and Rhine",
+   "locCertainty": "approx",
+   "war": "augustan_germanic_wars",
+   "people": [
+    "drusus_the_elder",
+    "tiberius",
+    "livia",
+    "augustus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "55.1-2"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Claudius",
+     "r": "1"
+    },
+    {
+     "a": "Valerius Maximus",
+     "w": "Facta et dicta memorabilia",
+     "r": "5.5.3"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Natural History",
+     "r": "7.84"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Elbe",
+    "Germanicus cognomen",
+    "Drususstein"
+   ]
+  }
  ]
 }

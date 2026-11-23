@@ -1,323 +1,2040 @@
 {
  "events": [
-  {"id": "deportation_of_the_sugambri", "year": -8, "title": "Tiberius deports 40,000 Sugambri across the Rhine", "type": "migration", "cats": ["military", "social"], "importance": 2,
+  {
+   "id": "deportation_of_the_sugambri",
+   "year": -8,
+   "title": "Tiberius deports 40,000 Sugambri across the Rhine",
+   "type": "migration",
+   "cats": [
+    "military",
+    "social"
+   ],
+   "importance": 2,
    "summary": "Succeeding his dead brother in Germany, Tiberius forced the Sugambri to submit; their envoys, including leading nobles, were arrested and killed themselves, and some 40,000 Sugambri and Suebi were transplanted to the left bank of the Rhine.",
    "detail": "The resettled Sugambri became the Cugerni around Vetera (Xanten). Suetonius records the deportation as an example of Augustan practice. Augustus himself came to the Rhine, and Tiberius received a triumph (celebrated 1 January 7 BC) and a second consulship. Dio says Augustus refused to treat with the Sugambri unless they sent envoys, then detained them.",
-   "loc": [6.45, 51.66], "locName": "Lower Rhine (Xanten region)", "locCertainty": "approx",
-   "war": "augustan_germanic_wars", "people": ["tiberius", "augustus"], "polities": ["rome", "sugambri"],
-   "sources": [{"a": "Suetonius", "w": "Augustus", "r": "21.1"}, {"a": "Suetonius", "w": "Tiberius", "r": "9.2"}, {"a": "Cassius Dio", "w": "Roman History", "r": "55.6.1-3"}, {"a": "Augustus", "w": "Res Gestae", "r": "32.1"}],
-   "certainty": "certain", "tags": ["deportation", "Cugerni"]},
-
-  {"id": "month_of_augustus", "year": -8, "title": "Sextilis renamed Augustus; calendar error corrected", "type": "reform", "cats": ["religious", "administrative"], "importance": 2,
+   "loc": [
+    6.45,
+    51.66
+   ],
+   "locName": "Lower Rhine (Xanten region)",
+   "locCertainty": "approx",
+   "war": "augustan_germanic_wars",
+   "people": [
+    "tiberius",
+    "augustus"
+   ],
+   "polities": [
+    "rome",
+    "sugambri"
+   ],
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Augustus",
+     "r": "21.1"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Tiberius",
+     "r": "9.2"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "55.6.1-3"
+    },
+    {
+     "a": "Augustus",
+     "w": "Res Gestae",
+     "r": "32.1"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "deportation",
+    "Cugerni"
+   ]
+  },
+  {
+   "id": "month_of_augustus",
+   "year": -8,
+   "title": "Sextilis renamed Augustus; calendar error corrected",
+   "type": "reform",
+   "cats": [
+    "religious",
+    "administrative"
+   ],
+   "importance": 2,
    "summary": "A senatus consultum renamed the month Sextilis 'Augustus' because Augustus had begun his first consulship and conquered Egypt in it. Augustus also corrected the Julian calendar, which the pontiffs had misapplied by intercalating every third year instead of every fourth.",
    "detail": "Macrobius preserves the text of the decree (Sat. 1.12.35). Since 45 BC the pontiffs, using inclusive counting, had inserted twelve leap days in 36 years instead of nine; Augustus suspended intercalation for about twelve years so that the calendar was back in step by AD 8. The exact years of the triennial leap days are reconstructed differently by modern chronologers, which affects the conversion of some Roman dates of 45-9 BC.",
-   "loc": [12.4853, 41.8925], "locName": "Rome", "locCertainty": "certain",
-   "people": ["augustus"], "polities": ["rome"],
-   "sources": [{"a": "Macrobius", "w": "Saturnalia", "r": "1.12.35; 1.14.13-15"}, {"a": "Cassius Dio", "w": "Roman History", "r": "55.6.6-7"}, {"a": "Pliny the Elder", "w": "Natural History", "r": "18.211"}, {"a": "Suetonius", "w": "Augustus", "r": "31.2"}],
-   "scholarship": ["Bennett, 'The Early Augustan Calendars in Rome and Egypt', ZPE 142-147 (2003-2004)"],
-   "certainty": "certain", "tags": ["calendar", "Julian calendar", "leap year"]},
-
-  {"id": "regions_and_vici_of_rome", "year": -7, "title": "Division of Rome into 14 regions and the vici", "type": "administrative", "cats": ["administrative", "religious", "social"], "importance": 3,
+   "loc": [
+    12.4853,
+    41.8925
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "people": [
+    "augustus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Macrobius",
+     "w": "Saturnalia",
+     "r": "1.12.35; 1.14.13-15"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "55.6.6-7"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Natural History",
+     "r": "18.211"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Augustus",
+     "r": "31.2"
+    }
+   ],
+   "scholarship": [
+    "Bennett, 'The Early Augustan Calendars in Rome and Egypt', ZPE 142-147 (2003-2004)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "calendar",
+    "Julian calendar",
+    "leap year"
+   ]
+  },
+  {
+   "id": "regions_and_vici_of_rome",
+   "year": -7,
+   "title": "Division of Rome into 14 regions and the vici",
+   "type": "administrative",
+   "cats": [
+    "administrative",
+    "religious",
+    "social"
+   ],
+   "importance": 3,
    "summary": "Augustus reorganised the city of Rome into fourteen regiones subdivided into vici (265 by AD 73), each under four annually elected vicomagistri, mostly freedmen, who tended the crossroads shrines of the Lares Augusti and the Genius of Augustus.",
    "detail": "The reform turned neighbourhood cult into a vehicle of loyalty and gave freedmen honoured public roles; surviving compital altars, such as that of the vicus Sandaliarius (2 BC) in the Uffizi, show the Lares holding laurel branches. The regions also structured fire-fighting (two per cohort of vigiles from AD 6), grain distribution and later the fourth-century Regionary Catalogues. Augustus also enlarged the city's boundary with the regions extending beyond the Servian wall.",
-   "loc": [12.4924, 41.8902], "locName": "Rome", "locCertainty": "certain",
-   "people": ["augustus"], "polities": ["rome"],
-   "sources": [{"a": "Cassius Dio", "w": "Roman History", "r": "55.8.6-7"}, {"a": "Suetonius", "w": "Augustus", "r": "30.1"}, {"a": "Pliny the Elder", "w": "Natural History", "r": "3.66"}],
-   "scholarship": ["Lott, The Neighborhoods of Augustan Rome (2004)"],
-   "certainty": "certain", "tags": ["urban administration", "Lares Augusti", "freedmen"]},
-
-  {"id": "tropaeum_alpium", "year": -6, "title": "Tropaeum Alpium at La Turbie", "type": "building", "cats": ["military", "cultural"], "importance": 2,
+   "loc": [
+    12.4924,
+    41.8902
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "people": [
+    "augustus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "55.8.6-7"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Augustus",
+     "r": "30.1"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Natural History",
+     "r": "3.66"
+    }
+   ],
+   "scholarship": [
+    "Lott, The Neighborhoods of Augustan Rome (2004)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "urban administration",
+    "Lares Augusti",
+    "freedmen"
+   ]
+  },
+  {
+   "id": "tropaeum_alpium",
+   "year": -6,
+   "title": "Tropaeum Alpium at La Turbie",
+   "type": "building",
+   "cats": [
+    "military",
+    "cultural"
+   ],
+   "importance": 2,
    "summary": "The Senate and people erected a monumental trophy on the Via Julia Augusta above Monaco, recording that under Augustus's leadership and auspices all the Alpine peoples from the Adriatic to the Tyrrhenian had been brought under Roman rule; 45 peoples are named.",
    "detail": "The inscription is dated by Augustus's seventeenth acclamation and fourteenth tribunician power (7/6 BC). Pliny copied the full text (NH 3.136-137), allowing its reconstruction from fragments; the list begins with the Triumpilini and Camunni and ends with the peoples of the Maritime Alps. The monument, about 35 m high, was quarried in the Middle Ages and partly restored in 1929-1933 by Jules Formigé with funds from the American Edward Tuck.",
-   "loc": [7.4006, 43.7454], "locName": "La Turbie (Alpes-Maritimes)", "locCertainty": "certain",
-   "war": "alpine_wars_augustan", "people": ["augustus"], "polities": ["rome", "raeti"],
-   "sources": [{"a": "Pliny the Elder", "w": "Natural History", "r": "3.136-137"}, {"a": "CIL", "w": "Corpus Inscriptionum Latinarum", "r": "V 7817"}],
-   "certainty": "certain", "tags": ["trophy", "epigraphy", "Alps"]},
-
-  {"id": "edicts_of_cyrene", "year": -7, "endYear": -4, "title": "Edicts of Augustus at Cyrene", "type": "law", "cats": ["law", "administrative"], "importance": 2,
+   "loc": [
+    7.4006,
+    43.7454
+   ],
+   "locName": "La Turbie (Alpes-Maritimes)",
+   "locCertainty": "certain",
+   "war": "alpine_wars_augustan",
+   "people": [
+    "augustus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Natural History",
+     "r": "3.136-137"
+    },
+    {
+     "a": "CIL",
+     "w": "Corpus Inscriptionum Latinarum",
+     "r": "V 7817"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "trophy",
+    "epigraphy",
+    "Alps"
+   ]
+  },
+  {
+   "id": "edicts_of_cyrene",
+   "year": -7,
+   "endYear": -4,
+   "title": "Edicts of Augustus at Cyrene",
+   "type": "law",
+   "cats": [
+    "law",
+    "administrative"
+   ],
+   "importance": 2,
    "summary": "A marble stele found in the agora of Cyrene in 1926 preserves five edicts of Augustus (7/6-4 BC) regulating juries, citizen privileges and provincial justice in this senatorial province, ending with the senatus consultum Calvisianum on extortion trials.",
    "detail": "The edicts set up mixed juries of Greeks and Romans for capital cases involving Greeks, require Greek holders of Roman citizenship to continue performing local liturgies, and send cases of treason to the governor. The SC Calvisianum (4 BC) created a fast procedure in which five senators chosen by lot could assess restitution for provincials claiming extortion by a governor, without a full criminal trial. They show the princeps intervening in a public province, the practical meaning of his imperium maius.",
-   "loc": [21.858, 32.825], "locName": "Cyrene", "locCertainty": "certain",
-   "people": ["augustus"], "polities": ["rome"],
-   "sources": [{"a": "SEG", "w": "Supplementum Epigraphicum Graecum", "r": "IX 8"}],
-   "scholarship": ["Oliver, 'On the edicts of Augustus at Cyrene', Historia 18 (1969)", "Sherk, Roman Documents from the Greek East (1969) no. 31"],
-   "certainty": "certain", "tags": ["epigraphy", "repetundae", "provincial administration"]},
-
-  {"id": "tiberius_retires_to_rhodes", "year": -6, "title": "Tiberius withdraws to Rhodes", "type": "political", "cats": ["political"], "importance": 3,
+   "loc": [
+    21.858,
+    32.825
+   ],
+   "locName": "Cyrene",
+   "locCertainty": "certain",
+   "people": [
+    "augustus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "SEG",
+     "w": "Supplementum Epigraphicum Graecum",
+     "r": "IX 8"
+    }
+   ],
+   "scholarship": [
+    "Oliver, 'On the edicts of Augustus at Cyrene', Historia 18 (1969)",
+    "Sherk, Roman Documents from the Greek East (1969) no. 31"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "epigraphy",
+    "repetundae",
+    "provincial administration"
+   ]
+  },
+  {
+   "id": "tiberius_retires_to_rhodes",
+   "year": -6,
+   "title": "Tiberius withdraws to Rhodes",
+   "type": "political",
+   "cats": [
+    "political"
+   ],
+   "importance": 3,
    "summary": "Just after receiving the tribunician power for five years and a mission to Armenia, Tiberius insisted on retiring to Rhodes, where he spent nearly eight years as a private scholar, alienated from Augustus.",
    "detail": "Motives were debated even in antiquity: disgust with his wife Julia, resentment at the rapid promotion of Gaius and Lucius, a wish to avoid seeming their rival, or exhaustion (Suetonius gives several). Augustus complained publicly of desertion; Tiberius's tribunician power lapsed in 1 BC and he came close to danger when Gaius's entourage suggested killing him. He returned in AD 2 with Augustus's permission on condition he take no part in public affairs. On Rhodes he befriended the astrologer Thrasyllus, who remained his confidant until 36.",
-   "loc": [28.2278, 36.4341], "locName": "Rhodes", "locCertainty": "certain",
-   "people": ["tiberius", "augustus", "julia_the_elder", "gaius_caesar"], "polities": ["rome"],
-   "sources": [{"a": "Suetonius", "w": "Tiberius", "r": "10-14"}, {"a": "Velleius Paterculus", "w": "Historiae Romanae", "r": "2.99"}, {"a": "Cassius Dio", "w": "Roman History", "r": "55.9.4-8"}, {"a": "Tacitus", "w": "Annals", "r": "1.4; 6.20-21"}],
-   "certainty": "certain", "tags": ["succession", "self-exile"]},
-
-  {"id": "gaius_and_lucius_principes_iuventutis", "year": -5, "endYear": -2, "title": "Gaius and Lucius Caesar hailed principes iuventutis", "type": "political", "cats": ["political"], "importance": 2,
+   "loc": [
+    28.2278,
+    36.4341
+   ],
+   "locName": "Rhodes",
+   "locCertainty": "certain",
+   "people": [
+    "tiberius",
+    "augustus",
+    "julia_the_elder",
+    "gaius_caesar"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Tiberius",
+     "r": "10-14"
+    },
+    {
+     "a": "Velleius Paterculus",
+     "w": "Historiae Romanae",
+     "r": "2.99"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "55.9.4-8"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "1.4; 6.20-21"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "succession",
+    "self-exile"
+   ]
+  },
+  {
+   "id": "gaius_and_lucius_principes_iuventutis",
+   "year": -5,
+   "endYear": -2,
+   "title": "Gaius and Lucius Caesar hailed principes iuventutis",
+   "type": "political",
+   "cats": [
+    "political"
+   ],
+   "importance": 2,
    "summary": "Augustus held his twelfth and thirteenth consulships (5 and 2 BC) to introduce his adopted sons to public life. Each was designated consul at fourteen to take office five years later, and the equestrian order hailed each as princeps iuventutis with silver shields and spears.",
    "detail": "The Lugdunum denarius showing the two youths with shields, spears and priestly implements (C L CAESARES AVGVSTI F COS DESIG PRINC IVVENT) is one of the commonest Roman silver coins. The Maison Carrée at Nîmes was rededicated to them as 'principes iuventutis'. Res Gestae 14 records the honours. Their deaths in AD 2 and 4 wrecked Augustus's succession plans.",
-   "loc": [12.4853, 41.8925], "locName": "Rome", "locCertainty": "certain",
-   "people": ["gaius_caesar", "lucius_caesar", "augustus"], "polities": ["rome"],
-   "sources": [{"a": "Augustus", "w": "Res Gestae", "r": "14"}, {"a": "Cassius Dio", "w": "Roman History", "r": "55.9.9-10"}, {"a": "Suetonius", "w": "Augustus", "r": "26.2; 64.1"}],
-   "certainty": "certain", "tags": ["succession", "coinage", "equites"]},
-
-  {"id": "death_of_herod_the_great", "year": -4, "title": "Death of Herod and partition of his kingdom", "type": "death", "cats": ["political", "religious"], "importance": 3,
+   "loc": [
+    12.4853,
+    41.8925
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "people": [
+    "gaius_caesar",
+    "lucius_caesar",
+    "augustus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Augustus",
+     "w": "Res Gestae",
+     "r": "14"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "55.9.9-10"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Augustus",
+     "r": "26.2; 64.1"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "succession",
+    "coinage",
+    "equites"
+   ]
+  },
+  {
+   "id": "death_of_herod_the_great",
+   "year": -4,
+   "title": "Death of Herod and partition of his kingdom",
+   "type": "death",
+   "cats": [
+    "political",
+    "religious"
+   ],
+   "importance": 3,
    "summary": "Herod died at Jericho in spring 4 BC, after executing three of his sons. Augustus largely confirmed his will: Archelaus became ethnarch of Judaea, Samaria and Idumaea, Herod Antipas tetrarch of Galilee and Perea, and Philip tetrarch of the north-eastern territories.",
    "detail": "Josephus dates the death shortly after a lunar eclipse and before Passover; the partial eclipse of 13 March 4 BC fits, though some argue for the total eclipse of 10 January 1 BC, a debate that also bears on the chronology of Jesus's birth. Risings across the kingdom on Herod's death were crushed by Publius Quinctilius Varus, governor of Syria, who crucified 2,000 rebels. Macrobius reports Augustus's quip that it was better to be Herod's pig than his son.",
-   "loc": [35.444, 31.857], "locName": "Jericho", "locCertainty": "certain",
-   "people": ["herod_the_great", "augustus", "publius_quinctilius_varus"], "polities": ["judaea_herodian", "rome"],
-   "sources": [{"a": "Josephus", "w": "Antiquitates Judaicae", "r": "17.167-323"}, {"a": "Josephus", "w": "Bellum Judaicum", "r": "1.647-2.100"}, {"a": "Macrobius", "w": "Saturnalia", "r": "2.4.11"}],
+   "loc": [
+    35.444,
+    31.857
+   ],
+   "locName": "Jericho",
+   "locCertainty": "certain",
+   "people": [
+    "herod_the_great",
+    "augustus",
+    "publius_quinctilius_varus"
+   ],
+   "polities": [
+    "judaea_herodian",
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Josephus",
+     "w": "Antiquitates Judaicae",
+     "r": "17.167-323"
+    },
+    {
+     "a": "Josephus",
+     "w": "Bellum Judaicum",
+     "r": "1.647-2.100"
+    },
+    {
+     "a": "Macrobius",
+     "w": "Saturnalia",
+     "r": "2.4.11"
+    }
+   ],
    "debate": "Date of Herod's death (4 BC conventional; 1 BC minority view).",
-   "certainty": "probable", "tags": ["client kingdom", "eclipse dating", "Varus"]},
-
-  {"id": "homonadensian_war", "year": -5, "title": "Quirinius's war against the Homonadenses", "type": "campaign", "cats": ["military"], "importance": 2,
+   "certainty": "probable",
+   "tags": [
+    "client kingdom",
+    "eclipse dating",
+    "Varus"
+   ]
+  },
+  {
+   "id": "homonadensian_war",
+   "year": -5,
+   "title": "Quirinius's war against the Homonadenses",
+   "type": "campaign",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
    "summary": "Publius Sulpicius Quirinius, probably as legate of Galatia or Syria, reduced the Homonadenses of the Taurus, who had killed king Amyntas, starving out 44 strongholds and settling 4,000 captives in nearby towns; he received triumphal ornaments.",
    "detail": "Strabo describes their homeland as a fertile hollow surrounded by cliffs. The war secured the new Pisidian colonies and the Via Sebaste. Its date (between c. 12 BC and AD 1) and Quirinius's province at the time are disputed, a question entangled with the census of Luke 2.",
-   "loc": [32.0, 37.3], "locName": "Taurus mountains (Isauria/Pisidia)", "locCertainty": "approx",
-   "people": ["publius_sulpicius_quirinius"], "polities": ["rome", "homonadenses"],
-   "sources": [{"a": "Strabo", "w": "Geography", "r": "12.6.5"}, {"a": "Tacitus", "w": "Annals", "r": "3.48"}],
-   "certainty": "disputed", "tags": ["Taurus", "ornamenta triumphalia"]},
-
-  {"id": "waldgirmes_town", "year": -4, "endYear": 9, "title": "Roman town at Waldgirmes on the Lahn", "type": "founding", "cats": ["administrative", "economic"], "importance": 2,
+   "loc": [
+    32.0,
+    37.3
+   ],
+   "locName": "Taurus mountains (Isauria/Pisidia)",
+   "locCertainty": "approx",
+   "people": [
+    "publius_sulpicius_quirinius"
+   ],
+   "polities": [
+    "rome",
+    "homonadenses"
+   ],
+   "sources": [
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "12.6.5"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "3.48"
+    }
+   ],
+   "certainty": "disputed",
+   "tags": [
+    "Taurus",
+    "ornamenta triumphalia"
+   ]
+  },
+  {
+   "id": "waldgirmes_town",
+   "year": -4,
+   "endYear": 9,
+   "title": "Roman town at Waldgirmes on the Lahn",
+   "type": "founding",
+   "cats": [
+    "administrative",
+    "economic"
+   ],
+   "importance": 2,
    "summary": "A civilian Roman town with stone-founded forum and basilica was laid out around 4 BC at Lahnau-Waldgirmes, 100 km east of the Rhine, and abandoned peacefully around AD 9. It is the clearest archaeological proof that a province of Germania was being built.",
    "detail": "Excavations from 1993 found a forum with a gilded bronze equestrian statue of Augustus, whose life-size horse head was recovered from a well in 2009; native Germanic potters and Roman houses coexisted. Dendrochronology dates the wells to 4/3 BC. The finds confirm Dio's statement (56.18) that the Romans held parts of Germany, that cities were being founded and the barbarians adapting to Roman ways, before Varus's attempt to impose tribute too quickly.",
-   "loc": [8.497, 50.582], "locName": "Lahnau-Waldgirmes, Hesse", "locCertainty": "certain",
-   "war": "augustan_germanic_wars", "people": ["augustus"], "polities": ["rome", "chatti"],
-   "sources": [{"a": "Cassius Dio", "w": "Roman History", "r": "56.18.1-3"}],
-   "scholarship": ["Becker and Rasbach, Waldgirmes (2015)"],
-   "certainty": "certain", "tags": ["archaeology", "Germania province", "dendrochronology"]},
-
-  {"id": "pater_patriae", "year": -2, "month": 2, "day": 5, "title": "Augustus hailed Pater Patriae", "type": "political", "cats": ["political"], "importance": 3,
+   "loc": [
+    8.497,
+    50.582
+   ],
+   "locName": "Lahnau-Waldgirmes, Hesse",
+   "locCertainty": "certain",
+   "war": "augustan_germanic_wars",
+   "people": [
+    "augustus"
+   ],
+   "polities": [
+    "rome",
+    "chatti"
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "56.18.1-3"
+    }
+   ],
+   "scholarship": [
+    "Becker and Rasbach, Waldgirmes (2015)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "archaeology",
+    "Germania province",
+    "dendrochronology"
+   ]
+  },
+  {
+   "id": "pater_patriae",
+   "year": -2,
+   "month": 2,
+   "day": 5,
+   "title": "Augustus hailed Pater Patriae",
+   "type": "political",
+   "cats": [
+    "political"
+   ],
+   "importance": 3,
    "summary": "On 5 February 2 BC the Senate, equites and whole people, on a motion by Valerius Messalla Corvinus, saluted Augustus as Father of his Country; he answered in tears that his prayers were fulfilled.",
    "detail": "Res Gestae 35, the culminating chapter, records that the title was inscribed in the vestibule of his house, in the Curia Julia and in the Forum of Augustus beneath the quadriga erected to him by decree of the Senate. Suetonius quotes Messalla's formula and Augustus's reply. The title had been given informally before (Cicero, Caesar) and became standard for emperors, who usually accepted it after an interval.",
-   "loc": [12.4853, 41.8925], "locName": "Curia Julia, Rome", "locCertainty": "certain",
-   "people": ["augustus"], "polities": ["rome"],
-   "sources": [{"a": "Augustus", "w": "Res Gestae", "r": "35"}, {"a": "Suetonius", "w": "Augustus", "r": "58"}, {"a": "Ovid", "w": "Fasti", "r": "2.119-144"}],
-   "certainty": "certain", "tags": ["titulature"]},
-
-  {"id": "forum_of_augustus_dedicated", "year": -2, "month": 8, "day": 1, "title": "Dedication of the Forum of Augustus and Temple of Mars Ultor", "type": "building", "cats": ["religious", "cultural", "political"], "importance": 4,
+   "loc": [
+    12.4853,
+    41.8925
+   ],
+   "locName": "Curia Julia, Rome",
+   "locCertainty": "certain",
+   "people": [
+    "augustus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Augustus",
+     "w": "Res Gestae",
+     "r": "35"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Augustus",
+     "r": "58"
+    },
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "2.119-144"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "titulature"
+   ]
+  },
+  {
+   "id": "forum_of_augustus_dedicated",
+   "year": -2,
+   "month": 8,
+   "day": 1,
+   "title": "Dedication of the Forum of Augustus and Temple of Mars Ultor",
+   "type": "building",
+   "cats": [
+    "religious",
+    "cultural",
+    "political"
+   ],
+   "importance": 4,
    "summary": "Augustus dedicated his forum, built on private land bought from war booty, with the temple of Mars the Avenger vowed at Philippi. Its colonnades held statues of Aeneas, Romulus, the Julian ancestors and the 'summi viri' of the Republic with elogia.",
    "detail": "Here the Senate debated war and triumphs, governors set out for their provinces and youths assumed the toga virilis; the recovered Parthian standards were deposited in the temple. Caryatids copying the Erechtheion and a 33-metre fire wall separating it from the Subura survive. The celebrations included a naumachia in a basin across the Tiber (1,800 by 1,200 Roman feet) in which 3,000 men refought Salamis, and the slaughter of 260 lions in the Circus. Gaius Caesar was sent east about this time.",
-   "loc": [12.4876, 41.8941], "locName": "Forum of Augustus, Rome", "locCertainty": "certain",
-   "people": ["augustus", "gaius_caesar"], "polities": ["rome"],
-   "sources": [{"a": "Augustus", "w": "Res Gestae", "r": "21.1; 22-23"}, {"a": "Cassius Dio", "w": "Roman History", "r": "55.10.1-8"}, {"a": "Ovid", "w": "Fasti", "r": "5.545-598"}, {"a": "Velleius Paterculus", "w": "Historiae Romanae", "r": "2.100.2"}, {"a": "Suetonius", "w": "Augustus", "r": "29; 31.5"}],
-   "scholarship": ["Zanker, Forum Augustum (1968)", "Spannagel, Exemplaria principis (1999)"],
+   "loc": [
+    12.4876,
+    41.8941
+   ],
+   "locName": "Forum of Augustus, Rome",
+   "locCertainty": "certain",
+   "people": [
+    "augustus",
+    "gaius_caesar"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Augustus",
+     "w": "Res Gestae",
+     "r": "21.1; 22-23"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "55.10.1-8"
+    },
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "5.545-598"
+    },
+    {
+     "a": "Velleius Paterculus",
+     "w": "Historiae Romanae",
+     "r": "2.100.2"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Augustus",
+     "r": "29; 31.5"
+    }
+   ],
+   "scholarship": [
+    "Zanker, Forum Augustum (1968)",
+    "Spannagel, Exemplaria principis (1999)"
+   ],
    "debate": "Ovid places the dies natalis of Mars Ultor on 12 May; Velleius and Dio imply 1 August 2 BC. One view takes 12 May as the date of the earlier Capitoline shrine of 20 BC.",
-   "certainty": "probable", "tags": ["imperial fora", "summi viri", "naumachia"]},
-
-  {"id": "exile_of_julia_the_elder", "year": -2, "title": "Exile of Julia, daughter of Augustus", "type": "political", "cats": ["political", "law"], "importance": 3,
+   "certainty": "probable",
+   "tags": [
+    "imperial fora",
+    "summi viri",
+    "naumachia"
+   ]
+  },
+  {
+   "id": "exile_of_julia_the_elder",
+   "year": -2,
+   "title": "Exile of Julia, daughter of Augustus",
+   "type": "political",
+   "cats": [
+    "political",
+    "law"
+   ],
+   "importance": 3,
    "summary": "Augustus denounced his daughter Julia to the Senate by letter for adulteries and sent her to the island of Pandateria; her mother Scribonia went with her. Iullus Antonius, son of Mark Antony, was forced to suicide, and other noble lovers were exiled.",
    "detail": "Those named include Sempronius Gracchus, Appius Claudius Pulcher, Quinctius Crispinus and a Scipio. Pliny the Elder mentions a plot against Augustus's life in connection with Julia, and many scholars (Syme, Levick) argue the scandal concealed a political conspiracy around her and Iullus in favour of her sons and against Tiberius. She was moved to Rhegium after five years and died there in AD 14, shortly after Tiberius cut her allowance.",
-   "loc": [13.43, 40.795], "locName": "Pandateria (Ventotene)", "locCertainty": "certain",
-   "people": ["julia_the_elder", "augustus", "tiberius"], "polities": ["rome"],
-   "sources": [{"a": "Velleius Paterculus", "w": "Historiae Romanae", "r": "2.100.3-5"}, {"a": "Cassius Dio", "w": "Roman History", "r": "55.10.12-16"}, {"a": "Seneca", "w": "De beneficiis", "r": "6.32"}, {"a": "Pliny the Elder", "w": "Natural History", "r": "7.149"}, {"a": "Tacitus", "w": "Annals", "r": "1.53"}],
-   "scholarship": ["Levick, 'The fall of Julia the Younger', Latomus 35 (1976)"],
+   "loc": [
+    13.43,
+    40.795
+   ],
+   "locName": "Pandateria (Ventotene)",
+   "locCertainty": "certain",
+   "people": [
+    "julia_the_elder",
+    "augustus",
+    "tiberius"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Velleius Paterculus",
+     "w": "Historiae Romanae",
+     "r": "2.100.3-5"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "55.10.12-16"
+    },
+    {
+     "a": "Seneca",
+     "w": "De beneficiis",
+     "r": "6.32"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Natural History",
+     "r": "7.149"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "1.53"
+    }
+   ],
+   "scholarship": [
+    "Levick, 'The fall of Julia the Younger', Latomus 35 (1976)"
+   ],
    "debate": "Moral scandal versus political conspiracy.",
-   "certainty": "certain", "tags": ["adultery law", "imperial women", "exile"]},
-
-  {"id": "augustan_manumission_laws", "year": -2, "endYear": 4, "title": "Lex Fufia Caninia and Lex Aelia Sentia", "type": "law", "cats": ["law", "social"], "importance": 2,
+   "certainty": "certain",
+   "tags": [
+    "adultery law",
+    "imperial women",
+    "exile"
+   ]
+  },
+  {
+   "id": "augustan_manumission_laws",
+   "year": -2,
+   "endYear": 4,
+   "title": "Lex Fufia Caninia and Lex Aelia Sentia",
+   "type": "law",
+   "cats": [
+    "law",
+    "social"
+   ],
+   "importance": 2,
    "summary": "Two laws restricted manumission: the lex Fufia Caninia (2 BC) capped the number of slaves freed by will on a sliding scale to a maximum of 100; the lex Aelia Sentia (AD 4) required a master to be 20 and the slave 30 for a formal manumission conferring citizenship, unless justified before a council.",
    "detail": "Aelia Sentia also created the degraded status of dediticii for freed slaves who had been chained, branded or tortured, barring them from citizenship and from living near Rome, and annulled manumissions in fraud of creditors. Gaius's Institutes (1.13-46) are the main source. The laws aimed at controlling the influx of new citizens rather than stopping manumission, which remained common.",
-   "loc": [12.4853, 41.8925], "locName": "Rome", "locCertainty": "certain",
-   "people": ["augustus"], "polities": ["rome"],
-   "sources": [{"a": "Gaius", "w": "Institutes", "r": "1.13-46"}, {"a": "Suetonius", "w": "Augustus", "r": "40.3-4"}, {"a": "Cassius Dio", "w": "Roman History", "r": "55.13.7"}],
-   "certainty": "certain", "tags": ["slavery", "manumission", "citizenship"]},
-
-  {"id": "gaius_caesar_meets_phraataces", "year": 2, "title": "Gaius Caesar meets Phraataces on the Euphrates", "type": "diplomacy", "cats": ["diplomatic"], "importance": 2,
+   "loc": [
+    12.4853,
+    41.8925
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "people": [
+    "augustus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Gaius",
+     "w": "Institutes",
+     "r": "1.13-46"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Augustus",
+     "r": "40.3-4"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "55.13.7"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "slavery",
+    "manumission",
+    "citizenship"
+   ]
+  },
+  {
+   "id": "gaius_caesar_meets_phraataces",
+   "year": 2,
+   "title": "Gaius Caesar meets Phraataces on the Euphrates",
+   "type": "diplomacy",
+   "cats": [
+    "diplomatic"
+   ],
+   "importance": 2,
    "summary": "Augustus's grandson and heir met the Parthian king Phraataces (Phraates V) on an island in the Euphrates; the Parthian renounced claims to Armenia, and the two dined on each bank in turn.",
    "detail": "Velleius Paterculus, serving as a military tribune, witnessed it. At the meeting Phraataces revealed that Gaius's guardian Marcus Lollius had taken bribes from eastern kings; Lollius died soon after, perhaps by suicide, and Tiberius's partisan Sulpicius Quirinius replaced him. Gaius then installed Ariobarzanes of Media as king of Armenia, leading to the siege of Artagira where he was wounded.",
-   "loc": [38.0, 37.0], "locName": "Island in the Euphrates", "locCertainty": "approx",
-   "people": ["gaius_caesar", "marcus_lollius", "velleius_paterculus", "publius_sulpicius_quirinius"], "polities": ["rome", "parthia"],
-   "sources": [{"a": "Velleius Paterculus", "w": "Historiae Romanae", "r": "2.101-102"}, {"a": "Cassius Dio", "w": "Roman History", "r": "55.10a.4"}],
-   "certainty": "probable", "tags": ["summit diplomacy", "Armenia"]},
-
-  {"id": "death_of_lucius_caesar", "year": 2, "month": 8, "day": 20, "title": "Death of Lucius Caesar", "type": "death", "cats": ["political"], "importance": 2,
+   "loc": [
+    38.0,
+    37.0
+   ],
+   "locName": "Island in the Euphrates",
+   "locCertainty": "approx",
+   "people": [
+    "gaius_caesar",
+    "marcus_lollius",
+    "velleius_paterculus",
+    "publius_sulpicius_quirinius"
+   ],
+   "polities": [
+    "rome",
+    "parthia"
+   ],
+   "sources": [
+    {
+     "a": "Velleius Paterculus",
+     "w": "Historiae Romanae",
+     "r": "2.101-102"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "55.10a.4"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "summit diplomacy",
+    "Armenia"
+   ]
+  },
+  {
+   "id": "death_of_lucius_caesar",
+   "year": 2,
+   "month": 8,
+   "day": 20,
+   "title": "Death of Lucius Caesar",
+   "type": "death",
+   "cats": [
+    "political"
+   ],
+   "importance": 2,
    "summary": "Lucius Caesar, Augustus's younger adopted son, died at Massilia of a sudden illness while on his way to the Spanish armies, aged 18.",
    "detail": "His death, and that of Gaius 18 months later, produced the Pisan decrees (cenotaphia Pisana, ILS 139-140), which preserve the honours voted by the colony of Pisa, including annual rites and the closing of temples on the anniversary, a rich source for municipal loyalism. Tacitus reports rumours that Livia was responsible.",
-   "loc": [5.3698, 43.2965], "locName": "Massilia (Marseille)", "locCertainty": "certain",
-   "people": ["lucius_caesar", "augustus", "livia"], "polities": ["rome"],
-   "sources": [{"a": "Cassius Dio", "w": "Roman History", "r": "55.10a.9"}, {"a": "Tacitus", "w": "Annals", "r": "1.3"}, {"a": "ILS", "w": "Inscriptiones Latinae Selectae", "r": "139-140"}],
-   "certainty": "certain", "tags": ["succession", "Pisan decrees"]},
-
-  {"id": "death_of_gaius_caesar", "year": 4, "month": 2, "day": 21, "title": "Death of Gaius Caesar", "type": "death", "cats": ["political"], "importance": 3,
+   "loc": [
+    5.3698,
+    43.2965
+   ],
+   "locName": "Massilia (Marseille)",
+   "locCertainty": "certain",
+   "people": [
+    "lucius_caesar",
+    "augustus",
+    "livia"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "55.10a.9"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "1.3"
+    },
+    {
+     "a": "ILS",
+     "w": "Inscriptiones Latinae Selectae",
+     "r": "139-140"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "succession",
+    "Pisan decrees"
+   ]
+  },
+  {
+   "id": "death_of_gaius_caesar",
+   "year": 4,
+   "month": 2,
+   "day": 21,
+   "title": "Death of Gaius Caesar",
+   "type": "death",
+   "cats": [
+    "political"
+   ],
+   "importance": 3,
    "summary": "Gaius Caesar, wounded by treachery at the siege of Artagira in Armenia on 9 September AD 3, lost heart, asked to retire to private life, and died at Limyra in Lycia on his way back to Italy, aged 23.",
    "detail": "His cenotaph at Limyra survives. The deaths of both grandsons left Augustus with no alternative to Tiberius; within four months he adopted him. Pisa decreed annual mourning on 21 February. Velleius blames Gaius's flatterers for his decline.",
-   "loc": [30.17, 36.34], "locName": "Limyra, Lycia", "locCertainty": "certain",
-   "people": ["gaius_caesar", "augustus"], "polities": ["rome", "armenia"],
-   "sources": [{"a": "Cassius Dio", "w": "Roman History", "r": "55.10a.6-9"}, {"a": "Velleius Paterculus", "w": "Historiae Romanae", "r": "2.102"}, {"a": "Florus", "w": "Epitome", "r": "2.32.42-45"}, {"a": "ILS", "w": "Inscriptiones Latinae Selectae", "r": "140"}],
-   "certainty": "certain", "tags": ["succession", "Armenia"]},
-
-  {"id": "adoption_of_tiberius", "year": 4, "month": 6, "day": 26, "title": "Augustus adopts Tiberius and Agrippa Postumus", "type": "political", "cats": ["political", "constitutional"], "importance": 4,
+   "loc": [
+    30.17,
+    36.34
+   ],
+   "locName": "Limyra, Lycia",
+   "locCertainty": "certain",
+   "people": [
+    "gaius_caesar",
+    "augustus"
+   ],
+   "polities": [
+    "rome",
+    "armenia"
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "55.10a.6-9"
+    },
+    {
+     "a": "Velleius Paterculus",
+     "w": "Historiae Romanae",
+     "r": "2.102"
+    },
+    {
+     "a": "Florus",
+     "w": "Epitome",
+     "r": "2.32.42-45"
+    },
+    {
+     "a": "ILS",
+     "w": "Inscriptiones Latinae Selectae",
+     "r": "140"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "succession",
+    "Armenia"
+   ]
+  },
+  {
+   "id": "adoption_of_tiberius",
+   "year": 4,
+   "month": 6,
+   "day": 26,
+   "title": "Augustus adopts Tiberius and Agrippa Postumus",
+   "type": "political",
+   "cats": [
+    "political",
+    "constitutional"
+   ],
+   "importance": 4,
    "summary": "Augustus adopted Tiberius, saying 'I do this for the sake of the state', and on the same day his last grandson Agrippa Postumus. Tiberius in turn was required to adopt his nephew Germanicus, though he had a son of his own, Drusus.",
    "detail": "Tiberius received tribunician power for ten years and command in Germany. The formula 'hoc rei publicae causa facio' was read by hostile writers as a sign of Augustus's reluctance. The arrangement fixed the double line of succession (Claudian through Tiberius, Julian through Germanicus, husband of Augustus's granddaughter Agrippina) that shaped dynastic politics until Nero.",
-   "loc": [12.4853, 41.8925], "locName": "Rome", "locCertainty": "certain",
-   "people": ["augustus", "tiberius", "agrippa_postumus", "germanicus", "drusus_the_younger"], "polities": ["rome"],
-   "sources": [{"a": "Velleius Paterculus", "w": "Historiae Romanae", "r": "2.103-104"}, {"a": "Suetonius", "w": "Tiberius", "r": "21.3; 15.2"}, {"a": "Cassius Dio", "w": "Roman History", "r": "55.13.1-2"}, {"a": "Tacitus", "w": "Annals", "r": "1.3"}],
-   "certainty": "certain", "tags": ["succession", "adoption"]},
-
-  {"id": "immensum_bellum", "year": 4, "endYear": 5, "title": "Tiberius's immensum bellum in Germany", "type": "campaign", "cats": ["military"], "importance": 3,
+   "loc": [
+    12.4853,
+    41.8925
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "people": [
+    "augustus",
+    "tiberius",
+    "agrippa_postumus",
+    "germanicus",
+    "drusus_the_younger"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Velleius Paterculus",
+     "w": "Historiae Romanae",
+     "r": "2.103-104"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Tiberius",
+     "r": "21.3; 15.2"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "55.13.1-2"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "1.3"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "succession",
+    "adoption"
+   ]
+  },
+  {
+   "id": "immensum_bellum",
+   "year": 4,
+   "endYear": 5,
+   "title": "Tiberius's immensum bellum in Germany",
+   "type": "campaign",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
    "summary": "Tiberius's campaigns of AD 4-5 subdued the Cananefates, Chattuarii, Bructeri and Cherusci, wintered the army at the source of the Lippe, then crushed the Langobardi and reached the Elbe, where a fleet that had sailed round from the Rhine through the North Sea met the army.",
    "detail": "Velleius, an eyewitness, calls it an 'immense war' and describes an old German who paddled across the Elbe in a dugout to touch Tiberius and declare it the happiest day of his life. Res Gestae 26.4 claims the fleet sailed east from the Rhine mouth to the land of the Cimbri (Jutland), 'where no Roman had gone before', and that the Cimbri, Charydes and Semnones sent envoys. The legionary base at Anreppen on the upper Lippe, built of timber in AD 4-5, matches the winter quarters.",
-   "loc": [10.57, 53.37], "locName": "Lower Elbe", "locCertainty": "approx",
-   "war": "augustan_germanic_wars", "people": ["tiberius", "velleius_paterculus"], "polities": ["rome", "langobardi", "cherusci", "bructeri", "chauci"],
-   "sources": [{"a": "Velleius Paterculus", "w": "Historiae Romanae", "r": "2.104-107"}, {"a": "Augustus", "w": "Res Gestae", "r": "26.4"}, {"a": "Cassius Dio", "w": "Roman History", "r": "55.28.5-6"}],
-   "certainty": "probable", "tags": ["Elbe", "fleet", "Anreppen"]},
-
-  {"id": "aerarium_militare", "year": 6, "title": "Creation of the aerarium militare", "type": "reform", "cats": ["military", "economic"], "importance": 4,
+   "loc": [
+    10.57,
+    53.37
+   ],
+   "locName": "Lower Elbe",
+   "locCertainty": "approx",
+   "war": "augustan_germanic_wars",
+   "people": [
+    "tiberius",
+    "velleius_paterculus"
+   ],
+   "polities": [
+    "rome",
+    "langobardi",
+    "cherusci",
+    "bructeri",
+    "chauci"
+   ],
+   "sources": [
+    {
+     "a": "Velleius Paterculus",
+     "w": "Historiae Romanae",
+     "r": "2.104-107"
+    },
+    {
+     "a": "Augustus",
+     "w": "Res Gestae",
+     "r": "26.4"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "55.28.5-6"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "Elbe",
+    "fleet",
+    "Anreppen"
+   ]
+  },
+  {
+   "id": "aerarium_militare",
+   "year": 6,
+   "title": "Creation of the aerarium militare",
+   "type": "reform",
+   "cats": [
+    "military",
+    "economic"
+   ],
+   "importance": 4,
    "summary": "Augustus created a military treasury to pay discharge bonuses to veterans, endowing it with 170 million sesterces of his own money and funding it permanently from a new 5% tax on inheritances (vicesima hereditatium) and a 1% sales tax.",
    "detail": "The previous year service terms were set at 20 years (plus reserve) for legionaries and 16 for praetorians, with cash discharge bonuses of 12,000 sesterces for legionaries and 20,000 for praetorians replacing land grants, which had driven the confiscations of the triumviral age. The inheritance tax, levied only on citizens and exempting close kin and small estates, provoked strong senatorial opposition; Augustus invited alternative proposals and threatened a property tax instead. Three ex-praetors (praefecti aerarii militaris) administered the fund. The cost of the standing army, perhaps half of state revenue, was now institutionalised.",
-   "loc": [12.4853, 41.8925], "locName": "Rome", "locCertainty": "certain",
-   "people": ["augustus"], "polities": ["rome"],
-   "sources": [{"a": "Augustus", "w": "Res Gestae", "r": "17.2"}, {"a": "Cassius Dio", "w": "Roman History", "r": "55.23.1; 55.24.9-25.6"}, {"a": "Suetonius", "w": "Augustus", "r": "49.2"}],
-   "scholarship": ["Corbier, L'aerarium Saturni et l'aerarium militare (1974)"],
-   "certainty": "certain", "tags": ["army finance", "taxation", "veterans"]},
-
-  {"id": "annexation_of_judaea", "year": 6, "title": "Judaea becomes a Roman province; census of Quirinius", "type": "administrative", "cats": ["administrative", "political", "religious"], "importance": 4,
+   "loc": [
+    12.4853,
+    41.8925
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "people": [
+    "augustus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Augustus",
+     "w": "Res Gestae",
+     "r": "17.2"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "55.23.1; 55.24.9-25.6"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Augustus",
+     "r": "49.2"
+    }
+   ],
+   "scholarship": [
+    "Corbier, L'aerarium Saturni et l'aerarium militare (1974)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "army finance",
+    "taxation",
+    "veterans"
+   ]
+  },
+  {
+   "id": "annexation_of_judaea",
+   "year": 6,
+   "title": "Judaea becomes a Roman province; census of Quirinius",
+   "type": "administrative",
+   "cats": [
+    "administrative",
+    "political",
+    "religious"
+   ],
+   "importance": 4,
    "summary": "After Jewish and Samaritan complaints against Archelaus, Augustus deposed him and exiled him to Vienne in Gaul; Judaea, Samaria and Idumaea were placed under an equestrian prefect, Coponius, while Quirinius, legate of Syria, took a census for tribute.",
    "detail": "The census provoked the resistance of Judas the Galilean and a Pharisee named Saddok, who taught that paying tribute to Rome meant accepting slavery and acknowledging a master other than God; Josephus calls their movement the 'fourth philosophy' and traces the later Zealots and Sicarii to it. The prefects resided at Caesarea, commanded auxiliary troops recruited from Caesarea and Sebaste, and appointed high priests. Luke 2.1-2 dates the birth of Jesus to this census 'when Quirinius was governing Syria', which conflicts with Matthew's dating under Herod, who died in 4 BC; attempts to harmonise the two remain unconvincing to most historians.",
-   "loc": [34.8903, 32.5], "locName": "Caesarea Maritima, Judaea", "locCertainty": "certain",
-   "people": ["publius_sulpicius_quirinius", "augustus"], "polities": ["rome", "judaea_herodian"],
-   "sources": [{"a": "Josephus", "w": "Antiquitates Judaicae", "r": "17.342-355; 18.1-10; 18.23-25"}, {"a": "Josephus", "w": "Bellum Judaicum", "r": "2.111-118"}, {"a": "Cassius Dio", "w": "Roman History", "r": "55.27.6"}, {"a": "Luke", "w": "Gospel", "r": "2.1-2"}],
+   "loc": [
+    34.8903,
+    32.5
+   ],
+   "locName": "Caesarea Maritima, Judaea",
+   "locCertainty": "certain",
+   "people": [
+    "publius_sulpicius_quirinius",
+    "augustus"
+   ],
+   "polities": [
+    "rome",
+    "judaea_herodian"
+   ],
+   "sources": [
+    {
+     "a": "Josephus",
+     "w": "Antiquitates Judaicae",
+     "r": "17.342-355; 18.1-10; 18.23-25"
+    },
+    {
+     "a": "Josephus",
+     "w": "Bellum Judaicum",
+     "r": "2.111-118"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "55.27.6"
+    },
+    {
+     "a": "Luke",
+     "w": "Gospel",
+     "r": "2.1-2"
+    }
+   ],
    "debate": "Historicity and date of the Lucan census.",
-   "certainty": "certain", "tags": ["provincialisation", "census", "Judas the Galilean"]},
-
-  {"id": "vigiles_created", "year": 6, "title": "Creation of the vigiles", "type": "reform", "cats": ["administrative", "military"], "importance": 3,
+   "certainty": "certain",
+   "tags": [
+    "provincialisation",
+    "census",
+    "Judas the Galilean"
+   ]
+  },
+  {
+   "id": "vigiles_created",
+   "year": 6,
+   "title": "Creation of the vigiles",
+   "type": "reform",
+   "cats": [
+    "administrative",
+    "military"
+   ],
+   "importance": 3,
    "summary": "After a serious fire Augustus established seven cohorts of vigiles, recruited from freedmen, each responsible for two of the fourteen regions, under an equestrian praefectus vigilum. They fought fires and patrolled the streets at night.",
    "detail": "Each cohort had about 500 men (later 1,000) with specialists such as siphonarii (pump operators), aquarii, centonarii (with fire blankets) and doctors. Service in the vigiles brought freedmen of Junian Latin status full citizenship after six years (later three, under a lex Visellia of AD 24). The excubitorium of the seventh cohort in Trastevere, with its graffiti, survives. The same year saw famine, the expulsion of gladiators and slaves for sale to 100 miles from Rome, and Augustus's appointment of two consulars to oversee the grain supply.",
-   "loc": [12.4924, 41.8902], "locName": "Rome", "locCertainty": "certain",
-   "people": ["augustus"], "polities": ["rome"],
-   "sources": [{"a": "Cassius Dio", "w": "Roman History", "r": "55.26.4-5"}, {"a": "Suetonius", "w": "Augustus", "r": "25.2; 30.1"}, {"a": "Digest", "w": "Digesta", "r": "1.15.3"}],
-   "scholarship": ["Rainbird, 'The fire stations of imperial Rome', PBSR 54 (1986)"],
-   "certainty": "certain", "tags": ["fire brigade", "freedmen", "urban administration"]},
-
-  {"id": "outbreak_of_the_illyrian_revolt", "year": 6, "title": "Outbreak of the Great Illyrian Revolt", "type": "revolt", "cats": ["military", "political"], "importance": 4,
+   "loc": [
+    12.4924,
+    41.8902
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "people": [
+    "augustus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "55.26.4-5"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Augustus",
+     "r": "25.2; 30.1"
+    },
+    {
+     "a": "Digest",
+     "w": "Digesta",
+     "r": "1.15.3"
+    }
+   ],
+   "scholarship": [
+    "Rainbird, 'The fire stations of imperial Rome', PBSR 54 (1986)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "fire brigade",
+    "freedmen",
+    "urban administration"
+   ]
+  },
+  {
+   "id": "outbreak_of_the_illyrian_revolt",
+   "year": 6,
+   "title": "Outbreak of the Great Illyrian Revolt",
+   "type": "revolt",
+   "cats": [
+    "military",
+    "political"
+   ],
+   "importance": 4,
    "summary": "As Tiberius advanced from Carnuntum with twelve legions to attack Maroboduus's Marcomannic kingdom in Bohemia, the Daesitiates of Dalmatia, mustered as auxiliaries, rose under Bato, and the Breuci of Pannonia under another Bato and Pinnes marched on Sirmium. Tiberius had to abandon the Bohemian war and make peace with Maroboduus.",
    "detail": "The planned pincer (Sentius Saturninus from Mainz, Tiberius from the Danube) was within days of contact when the revolt broke out; Velleius claims Maroboduus was saved only by it. Roman traders and veterans were massacred, Salona was attacked (the Daesitiate Bato was wounded there), and raids reached Macedonia. Rome enrolled freedmen as soldiers, levied extraordinary taxes, and Augustus told the Senate the enemy could be at Rome in ten days.",
-   "loc": [18.26, 44.02], "locName": "Central Dalmatia (Daesitiate territory)", "locCertainty": "approx",
-   "war": "great_illyrian_revolt", "people": ["bato_the_daesitiate", "tiberius", "maroboduus", "gaius_sentius_saturninus"], "polities": ["rome", "dalmatae", "pannonians", "marcomanni"],
-   "sources": [{"a": "Velleius Paterculus", "w": "Historiae Romanae", "r": "2.108-111"}, {"a": "Cassius Dio", "w": "Roman History", "r": "55.28.7-30.6"}, {"a": "Tacitus", "w": "Annals", "r": "2.46"}],
-   "certainty": "certain", "tags": ["Maroboduus", "levy of freedmen"]},
-
-  {"id": "battle_of_sirmium_6", "year": 6, "title": "Battle near Sirmium", "type": "battle", "cats": ["military"], "importance": 2,
+   "loc": [
+    18.26,
+    44.02
+   ],
+   "locName": "Central Dalmatia (Daesitiate territory)",
+   "locCertainty": "approx",
+   "war": "great_illyrian_revolt",
+   "people": [
+    "bato_the_daesitiate",
+    "tiberius",
+    "maroboduus",
+    "gaius_sentius_saturninus"
+   ],
+   "polities": [
+    "rome",
+    "dalmatae",
+    "pannonians",
+    "marcomanni"
+   ],
+   "sources": [
+    {
+     "a": "Velleius Paterculus",
+     "w": "Historiae Romanae",
+     "r": "2.108-111"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "55.28.7-30.6"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "2.46"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Maroboduus",
+    "levy of freedmen"
+   ]
+  },
+  {
+   "id": "battle_of_sirmium_6",
+   "year": 6,
+   "title": "Battle near Sirmium",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
    "summary": "Aulus Caecina Severus, governor of Moesia, marched to save Sirmium and defeated the Breuci near the city, but with heavy losses, and soon had to return to Moesia to repel Dacian and Sarmatian raids.",
    "detail": "Dio's brief account is the only source. The relief of Sirmium kept the key crossing of the Sava in Roman hands; the rebels then joined forces on Mons Almus (Fruška Gora) north of the city, where Rhoemetalces's Thracian cavalry skirmished with them.",
-   "loc": [19.61, 44.97], "locName": "Sirmium (Sremska Mitrovica)", "locCertainty": "approx",
-   "war": "great_illyrian_revolt", "people": ["aulus_caecina_severus", "bato_the_breucian"], "polities": ["rome", "pannonians"],
-   "battle": {"sides": [{"polity": "rome", "commanders": ["aulus_caecina_severus"], "strength": "Moesian army, perhaps two legions", "losses": "heavy"}, {"polity": "pannonians", "commanders": ["bato_the_breucian"], "strength": "Breucian host", "losses": "unknown"}], "victor": "rome", "kind": "field", "significance": "Saved Sirmium for Rome in the first weeks of the revolt."},
-   "sources": [{"a": "Cassius Dio", "w": "Roman History", "r": "55.29.3-30.4"}],
-   "certainty": "probable", "tags": ["Sirmium", "Breuci"]},
-
-  {"id": "battle_of_the_volcaean_marshes", "year": 7, "title": "Battle of the Volcaean Marshes", "type": "battle", "cats": ["military"], "importance": 2,
+   "loc": [
+    19.61,
+    44.97
+   ],
+   "locName": "Sirmium (Sremska Mitrovica)",
+   "locCertainty": "approx",
+   "war": "great_illyrian_revolt",
+   "people": [
+    "aulus_caecina_severus",
+    "bato_the_breucian"
+   ],
+   "polities": [
+    "rome",
+    "pannonians"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "aulus_caecina_severus"
+      ],
+      "strength": "Moesian army, perhaps two legions",
+      "losses": "heavy"
+     },
+     {
+      "polity": "pannonians",
+      "commanders": [
+       "bato_the_breucian"
+      ],
+      "strength": "Breucian host",
+      "losses": "unknown"
+     }
+    ],
+    "victor": "rome",
+    "kind": "field",
+    "significance": "Saved Sirmium for Rome in the first weeks of the revolt."
+   },
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "55.29.3-30.4"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "Sirmium",
+    "Breuci"
+   ]
+  },
+  {
+   "id": "battle_of_the_volcaean_marshes",
+   "year": 7,
+   "title": "Battle of the Volcaean Marshes",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
    "summary": "Caecina Severus and Plautius Silvanus, bringing five legions with auxiliaries and Thracian cavalry from the east to join Tiberius, were ambushed by the two Batos near the Volcaean marshes; the cavalry and auxiliaries broke but the legions rallied and won.",
    "detail": "Velleius, who served in the war, says the legions saved the day 'by their own courage' after the Thracian cavalry of king Rhoemetalces was routed, the alae fled and cohorts turned; several senior officers, including a camp prefect and military tribunes, were killed. After the battle Tiberius had ten legions, more than 70 auxiliary cohorts, 14 alae, more than 10,000 veteran reservists and many volunteers at Siscia, which Velleius says was the largest army assembled since the civil wars; Tiberius judged it too large to supply and sent part away.",
-   "loc": [18.8, 45.25], "locName": "Volcaean marshes, between the Sava and Drava (near Cibalae?)", "locCertainty": "disputed",
-   "war": "great_illyrian_revolt", "people": ["aulus_caecina_severus", "marcus_plautius_silvanus", "bato_the_daesitiate", "bato_the_breucian", "rhoemetalces_i"], "polities": ["rome", "odrysian_kingdom", "pannonians", "dalmatae"],
-   "battle": {"sides": [{"polity": "rome", "commanders": ["aulus_caecina_severus", "marcus_plautius_silvanus"], "strength": "5 legions, auxiliaries and Thracian cavalry", "losses": "considerable, including senior officers"}, {"polity": "pannonians", "commanders": ["bato_the_daesitiate", "bato_the_breucian"], "strength": "Combined Pannonian and Dalmatian forces", "losses": "heavy"}], "victor": "rome", "kind": "ambush", "significance": "Allowed the eastern army to join Tiberius at Siscia, concentrating overwhelming Roman forces."},
-   "sources": [{"a": "Velleius Paterculus", "w": "Historiae Romanae", "r": "2.112.4-6"}, {"a": "Cassius Dio", "w": "Roman History", "r": "55.32.3-4"}],
-   "certainty": "probable", "tags": ["ambush", "legionary discipline"]},
-
-  {"id": "exile_of_agrippa_postumus", "year": 7, "title": "Exile of Agrippa Postumus", "type": "political", "cats": ["political"], "importance": 2,
+   "loc": [
+    18.8,
+    45.25
+   ],
+   "locName": "Volcaean marshes, between the Sava and Drava (near Cibalae?)",
+   "locCertainty": "disputed",
+   "war": "great_illyrian_revolt",
+   "people": [
+    "aulus_caecina_severus",
+    "marcus_plautius_silvanus",
+    "bato_the_daesitiate",
+    "bato_the_breucian",
+    "rhoemetalces_i"
+   ],
+   "polities": [
+    "rome",
+    "odrysian_kingdom",
+    "pannonians",
+    "dalmatae"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "aulus_caecina_severus",
+       "marcus_plautius_silvanus"
+      ],
+      "strength": "5 legions, auxiliaries and Thracian cavalry",
+      "losses": "considerable, including senior officers"
+     },
+     {
+      "polity": "pannonians",
+      "commanders": [
+       "bato_the_daesitiate",
+       "bato_the_breucian"
+      ],
+      "strength": "Combined Pannonian and Dalmatian forces",
+      "losses": "heavy"
+     }
+    ],
+    "victor": "rome",
+    "kind": "ambush",
+    "significance": "Allowed the eastern army to join Tiberius at Siscia, concentrating overwhelming Roman forces."
+   },
+   "sources": [
+    {
+     "a": "Velleius Paterculus",
+     "w": "Historiae Romanae",
+     "r": "2.112.4-6"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "55.32.3-4"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "ambush",
+    "legionary discipline"
+   ]
+  },
+  {
+   "id": "exile_of_agrippa_postumus",
+   "year": 7,
+   "title": "Exile of Agrippa Postumus",
+   "type": "political",
+   "cats": [
+    "political"
+   ],
+   "importance": 2,
    "summary": "Augustus disowned his last grandson, Agrippa Postumus, for his 'savage' and unmanageable character, banishing him first to Surrentum and then, by senatorial decree, permanently to the island of Planasia under military guard.",
    "detail": "The ancient sources describe him as brutish but not criminal; modern historians suspect political motives, perhaps connected to the conspiracies around his sister Julia the Younger (exiled in AD 8) and her husband Aemilius Paullus. Tacitus reports a rumour that Augustus secretly visited him on Planasia shortly before his death. He was killed immediately after Augustus died in AD 14.",
-   "loc": [10.08, 42.585], "locName": "Planasia (Pianosa)", "locCertainty": "certain",
-   "people": ["agrippa_postumus", "augustus"], "polities": ["rome"],
-   "sources": [{"a": "Tacitus", "w": "Annals", "r": "1.3-6"}, {"a": "Suetonius", "w": "Augustus", "r": "65"}, {"a": "Cassius Dio", "w": "Roman History", "r": "55.32.1-2"}, {"a": "Velleius Paterculus", "w": "Historiae Romanae", "r": "2.112.7"}],
-   "certainty": "certain", "tags": ["succession", "exile"]},
-
-  {"id": "exile_of_ovid", "year": 8, "title": "Relegation of Ovid to Tomis", "type": "literary", "cats": ["literature", "political"], "importance": 3,
+   "loc": [
+    10.08,
+    42.585
+   ],
+   "locName": "Planasia (Pianosa)",
+   "locCertainty": "certain",
+   "people": [
+    "agrippa_postumus",
+    "augustus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "1.3-6"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Augustus",
+     "r": "65"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "55.32.1-2"
+    },
+    {
+     "a": "Velleius Paterculus",
+     "w": "Historiae Romanae",
+     "r": "2.112.7"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "succession",
+    "exile"
+   ]
+  },
+  {
+   "id": "exile_of_ovid",
+   "year": 8,
+   "title": "Relegation of Ovid to Tomis",
+   "type": "literary",
+   "cats": [
+    "literature",
+    "political"
+   ],
+   "importance": 3,
    "summary": "Augustus relegated the poet Ovid by personal edict to Tomis on the Black Sea, for 'a poem and a mistake' (carmen et error). The poem was the Ars Amatoria; the mistake has never been identified.",
    "detail": "Ovid's exile poetry (Tristia, Epistulae ex Ponto) gives a vivid, if literary, picture of a frontier town raided by Getae and Sarmatians across the frozen Danube. He kept his property and citizenship (relegatio, not exilium) and died at Tomis c. AD 17, his appeals to Augustus and Tiberius unanswered. The same year Julia the Younger was banished to Trimerus for adultery with Decimus Junius Silanus; many link Ovid's 'error' to her circle. No contemporary source other than Ovid mentions the exile, and a minority has even doubted it took place.",
-   "loc": [28.6348, 44.1733], "locName": "Tomis (Constanța)", "locCertainty": "certain",
-   "people": ["ovid", "augustus", "julia_the_younger"], "polities": ["rome", "getae"],
-   "sources": [{"a": "Ovid", "w": "Tristia", "r": "2.207-212; 4.10"}, {"a": "Ovid", "w": "Epistulae ex Ponto"}, {"a": "Tacitus", "w": "Annals", "r": "4.71"}],
+   "loc": [
+    28.6348,
+    44.1733
+   ],
+   "locName": "Tomis (Constanța)",
+   "locCertainty": "certain",
+   "people": [
+    "ovid",
+    "augustus",
+    "julia_the_younger"
+   ],
+   "polities": [
+    "rome",
+    "sarmatians"
+   ],
+   "sources": [
+    {
+     "a": "Ovid",
+     "w": "Tristia",
+     "r": "2.207-212; 4.10"
+    },
+    {
+     "a": "Ovid",
+     "w": "Epistulae ex Ponto"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "4.71"
+    }
+   ],
    "debate": "The nature of Ovid's error; the authenticity of the exile (Fitton Brown 1985) is a fringe but persistent question.",
-   "certainty": "certain", "tags": ["exile poetry", "Ars Amatoria", "censorship"]},
-
-  {"id": "surrender_of_the_breuci", "year": 8, "month": 8, "day": 3, "title": "Surrender of the Breuci at the Bathinus river", "type": "treaty", "cats": ["military", "diplomatic"], "importance": 2,
+   "certainty": "certain",
+   "tags": [
+    "exile poetry",
+    "Ars Amatoria",
+    "censorship"
+   ]
+  },
+  {
+   "id": "surrender_of_the_breuci",
+   "year": 8,
+   "month": 8,
+   "day": 3,
+   "title": "Surrender of the Breuci at the Bathinus river",
+   "type": "treaty",
+   "cats": [
+    "military",
+    "diplomatic"
+   ],
+   "importance": 2,
    "summary": "Worn down by famine and Tiberius's devastation, the Pannonians laid down their arms at the river Bathinus. The Breucian Bato, who had betrayed his colleague Pinnes to the Romans and been rewarded, was captured and executed soon after by the Daesitiate Bato.",
    "detail": "The Fasti record 3 August as the day of a victory of Tiberius in Illyricum, often linked to this surrender. Only the Dalmatian highlands remained in revolt into AD 9.",
-   "loc": [18.2, 44.8], "locName": "River Bathinus (Bosna?)", "locCertainty": "disputed",
-   "war": "great_illyrian_revolt", "people": ["tiberius", "bato_the_breucian", "bato_the_daesitiate"], "polities": ["rome", "pannonians"],
-   "sources": [{"a": "Velleius Paterculus", "w": "Historiae Romanae", "r": "2.114.4"}, {"a": "Cassius Dio", "w": "Roman History", "r": "55.34.4-7"}],
-   "certainty": "probable", "tags": ["surrender", "Pannonia"]},
-
-  {"id": "siege_of_raetinium", "year": 9, "title": "Siege of Raetinium", "type": "siege", "cats": ["military"], "importance": 1,
+   "loc": [
+    18.2,
+    44.8
+   ],
+   "locName": "River Bathinus (Bosna?)",
+   "locCertainty": "disputed",
+   "war": "great_illyrian_revolt",
+   "people": [
+    "tiberius",
+    "bato_the_breucian",
+    "bato_the_daesitiate"
+   ],
+   "polities": [
+    "rome",
+    "pannonians"
+   ],
+   "sources": [
+    {
+     "a": "Velleius Paterculus",
+     "w": "Historiae Romanae",
+     "r": "2.114.4"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "55.34.4-7"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "surrender",
+    "Pannonia"
+   ]
+  },
+  {
+   "id": "siege_of_raetinium",
+   "year": 9,
+   "title": "Siege of Raetinium",
+   "type": "siege",
+   "cats": [
+    "military"
+   ],
+   "importance": 1,
    "summary": "Germanicus besieged the Dalmatian stronghold of Raetinium; the defenders set fire to the outer town as the Romans broke in, trapping many attackers, and withdrew to the citadel, which later fell.",
    "detail": "Dio describes the stratagem in detail. Germanicus then took Seretium and Splonum; at Arduba the women, refusing surrender, threw their children and themselves into the flames or the river.",
-   "loc": [15.9, 44.82], "locName": "Raetinium (near Bihać?)", "locCertainty": "disputed",
-   "war": "great_illyrian_revolt", "people": ["germanicus"], "polities": ["rome", "dalmatae"],
-   "battle": {"sides": [{"polity": "rome", "commanders": ["germanicus"], "strength": "Part of Germanicus's army", "losses": "many caught in the fire"}, {"polity": "dalmatae", "commanders": [], "strength": "town garrison", "losses": "town destroyed"}], "victor": "rome", "kind": "siege", "significance": "Part of the methodical reduction of the Dalmatian hill-forts in AD 9."},
-   "sources": [{"a": "Cassius Dio", "w": "Roman History", "r": "56.11.1-12.1"}],
-   "certainty": "probable", "tags": ["Dalmatia", "Germanicus"]},
-
-  {"id": "siege_of_andetrium", "year": 9, "title": "Siege of Andetrium and surrender of Bato", "type": "siege", "cats": ["military"], "importance": 2,
+   "loc": [
+    15.9,
+    44.82
+   ],
+   "locName": "Raetinium (near Bihać?)",
+   "locCertainty": "disputed",
+   "war": "great_illyrian_revolt",
+   "people": [
+    "germanicus"
+   ],
+   "polities": [
+    "rome",
+    "dalmatae"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "germanicus"
+      ],
+      "strength": "Part of Germanicus's army",
+      "losses": "many caught in the fire"
+     },
+     {
+      "polity": "dalmatae",
+      "commanders": [],
+      "strength": "town garrison",
+      "losses": "town destroyed"
+     }
+    ],
+    "victor": "rome",
+    "kind": "siege",
+    "significance": "Part of the methodical reduction of the Dalmatian hill-forts in AD 9."
+   },
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "56.11.1-12.1"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "Dalmatia",
+    "Germanicus"
+   ]
+  },
+  {
+   "id": "siege_of_andetrium",
+   "year": 9,
+   "title": "Siege of Andetrium and surrender of Bato",
+   "type": "siege",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
    "summary": "Tiberius besieged the Daesitiate Bato in the rock fortress of Andetrium near Salona. Bato negotiated his own surrender; the garrison fought on and was stormed, ending the Great Illyrian Revolt.",
    "detail": "Asked by Tiberius why his people had rebelled, Bato replied that Rome sent 'wolves, not dogs or shepherds' to guard its flocks. Tiberius spared him and he lived out his life at Ravenna. The victory was announced in Rome only days before news arrived of Varus's disaster in Germany, which overshadowed the celebrations.",
-   "loc": [16.47, 43.69], "locName": "Andetrium (Gornji Muć, near Split)", "locCertainty": "probable",
-   "war": "great_illyrian_revolt", "people": ["tiberius", "bato_the_daesitiate", "germanicus"], "polities": ["rome", "dalmatae"],
-   "battle": {"sides": [{"polity": "rome", "commanders": ["tiberius"], "strength": "Tiberius's main army", "losses": "unknown"}, {"polity": "dalmatae", "commanders": ["bato_the_daesitiate"], "strength": "Fortress garrison", "losses": "stormed after Bato's surrender"}], "victor": "rome", "kind": "siege", "significance": "Ended the most dangerous revolt of Augustus's reign."},
-   "sources": [{"a": "Cassius Dio", "w": "Roman History", "r": "56.12.2-16.4"}, {"a": "Velleius Paterculus", "w": "Historiae Romanae", "r": "2.115"}],
-   "certainty": "probable", "tags": ["Dalmatia", "surrender"]},
-
-  {"id": "lex_papia_poppaea", "year": 9, "title": "Lex Papia Poppaea", "type": "law", "cats": ["law", "social"], "importance": 3,
+   "loc": [
+    16.47,
+    43.69
+   ],
+   "locName": "Andetrium (Gornji Muć, near Split)",
+   "locCertainty": "probable",
+   "war": "great_illyrian_revolt",
+   "people": [
+    "tiberius",
+    "bato_the_daesitiate",
+    "germanicus"
+   ],
+   "polities": [
+    "rome",
+    "dalmatae"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "tiberius"
+      ],
+      "strength": "Tiberius's main army",
+      "losses": "unknown"
+     },
+     {
+      "polity": "dalmatae",
+      "commanders": [
+       "bato_the_daesitiate"
+      ],
+      "strength": "Fortress garrison",
+      "losses": "stormed after Bato's surrender"
+     }
+    ],
+    "victor": "rome",
+    "kind": "siege",
+    "significance": "Ended the most dangerous revolt of Augustus's reign."
+   },
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "56.12.2-16.4"
+    },
+    {
+     "a": "Velleius Paterculus",
+     "w": "Historiae Romanae",
+     "r": "2.115"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "Dalmatia",
+    "surrender"
+   ]
+  },
+  {
+   "id": "lex_papia_poppaea",
+   "year": 9,
+   "title": "Lex Papia Poppaea",
+   "type": "law",
+   "cats": [
+    "law",
+    "social"
+   ],
+   "importance": 3,
    "summary": "The consuls Marcus Papius Mutilus and Quintus Poppaeus Secundus, both themselves unmarried and childless as Dio wryly notes, carried a law revising the Augustan marriage legislation of 18 BC, refining the incentives for parenthood and the inheritance penalties for the unmarried and childless.",
    "detail": "Lapsed legacies (caduca) of those incapable of inheriting went first to heirs with children and ultimately to the treasury, making the law a source of revenue and of informers (delatores). Before its passage Augustus harangued the unmarried and married equites in separate assemblies (Dio 56.1-10). Juristic commentaries on 'the lex Julia et Papia' fill whole books of the Digest; Constantine repealed the penalties on celibacy in 320.",
-   "loc": [12.4853, 41.8925], "locName": "Rome", "locCertainty": "certain",
-   "people": ["augustus"], "polities": ["rome"],
-   "sources": [{"a": "Cassius Dio", "w": "Roman History", "r": "56.1-10"}, {"a": "Tacitus", "w": "Annals", "r": "3.25-28"}, {"a": "Gaius", "w": "Institutes", "r": "2.111; 2.206-208"}],
-   "certainty": "certain", "tags": ["moral legislation", "caduca", "delatores"]},
-
-  {"id": "battle_of_the_teutoburg_forest", "year": 9, "month": 9, "title": "Battle of the Teutoburg Forest (Varian Disaster)", "type": "battle", "cats": ["military"], "importance": 5,
+   "loc": [
+    12.4853,
+    41.8925
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "people": [
+    "augustus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "56.1-10"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "3.25-28"
+    },
+    {
+     "a": "Gaius",
+     "w": "Institutes",
+     "r": "2.111; 2.206-208"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "moral legislation",
+    "caduca",
+    "delatores"
+   ]
+  },
+  {
+   "id": "battle_of_the_teutoburg_forest",
+   "year": 9,
+   "month": 9,
+   "title": "Battle of the Teutoburg Forest (Varian Disaster)",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 5,
    "summary": "Publius Quinctilius Varus, leading legions XVII, XVIII and XIX with auxiliaries and a long baggage train to winter quarters, was lured by the Cheruscan Arminius, a Roman citizen and equestrian commanding auxiliaries, into a multi-day running fight in forest and bog where the army was annihilated.",
    "detail": "Segestes had warned Varus of Arminius's plans the night before. Rain, broken terrain and the column's strung-out baggage favoured the Germans. Varus and senior officers killed themselves; the cavalry commander Numonius Vala fled and was cut down; the camp prefect Ceionius surrendered. Prisoners were sacrificed in groves, tribunes and centurions on altars, and the three eagles taken. Varus's head was sent to Maroboduus, who forwarded it to Augustus. Augustus dismissed his German bodyguard, let his hair and beard grow for months and cried 'Quinctilius Varus, give back my legions!'; the three legion numbers were never used again. The Kalkriese site, discovered by the amateur Tony Clunn in 1987, has yielded over 6,000 military finds, a turf rampart with drainage, mule bones and the silver face-mask of a cavalry helmet; coins end about AD 9 and many carry the VAR countermark. At Xanten the cenotaph of the centurion Marcus Caelius of legio XVIII (CIL XIII 8648) records that he 'fell in the Varian war'.",
-   "loc": [8.1294, 52.4083], "locName": "Kalkriese, near Osnabrück", "locCertainty": "probable",
-   "war": "augustan_germanic_wars", "people": ["publius_quinctilius_varus", "arminius", "segestes", "augustus"], "polities": ["rome", "cherusci", "bructeri", "marsi_germanic", "chatti"],
-   "battle": {"sides": [{"polity": "rome", "commanders": ["publius_quinctilius_varus"], "strength": "3 legions, 3 alae, 6 cohorts: c. 15,000-20,000 soldiers plus camp followers", "losses": "near-total"}, {"polity": "cherusci", "commanders": ["arminius"], "strength": "Cherusci, Bructeri, Marsi, Chatti and others; unknown", "losses": "unknown"}], "victor": "cherusci", "kind": "ambush", "significance": "Ended Augustus's attempt to make Germany between Rhine and Elbe a province; fixed the Rhine as the frontier and became a founding myth of German nationalism (Hermannsdenkmal, 1875)."},
-   "sources": [{"a": "Cassius Dio", "w": "Roman History", "r": "56.18-24"}, {"a": "Velleius Paterculus", "w": "Historiae Romanae", "r": "2.117-120"}, {"a": "Tacitus", "w": "Annals", "r": "1.55-62"}, {"a": "Florus", "w": "Epitome", "r": "2.30.29-39"}, {"a": "Suetonius", "w": "Augustus", "r": "23"}],
-   "scholarship": ["Wells, The Battle That Stopped Rome (2003)", "Wolters, Die Schlacht im Teutoburger Wald (2008)"],
+   "loc": [
+    8.1294,
+    52.4083
+   ],
+   "locName": "Kalkriese, near Osnabrück",
+   "locCertainty": "probable",
+   "war": "augustan_germanic_wars",
+   "people": [
+    "publius_quinctilius_varus",
+    "arminius",
+    "segestes",
+    "augustus"
+   ],
+   "polities": [
+    "rome",
+    "cherusci",
+    "bructeri",
+    "marsi_germanic",
+    "chatti"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "publius_quinctilius_varus"
+      ],
+      "strength": "3 legions, 3 alae, 6 cohorts: c. 15,000-20,000 soldiers plus camp followers",
+      "losses": "near-total"
+     },
+     {
+      "polity": "cherusci",
+      "commanders": [
+       "arminius"
+      ],
+      "strength": "Cherusci, Bructeri, Marsi, Chatti and others; unknown",
+      "losses": "unknown"
+     }
+    ],
+    "victor": "cherusci",
+    "kind": "ambush",
+    "significance": "Ended Augustus's attempt to make Germany between Rhine and Elbe a province; fixed the Rhine as the frontier and became a founding myth of German nationalism (Hermannsdenkmal, 1875)."
+   },
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "56.18-24"
+    },
+    {
+     "a": "Velleius Paterculus",
+     "w": "Historiae Romanae",
+     "r": "2.117-120"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "1.55-62"
+    },
+    {
+     "a": "Florus",
+     "w": "Epitome",
+     "r": "2.30.29-39"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Augustus",
+     "r": "23"
+    }
+   ],
+   "scholarship": [
+    "Wells, The Battle That Stopped Rome (2003)",
+    "Wolters, Die Schlacht im Teutoburger Wald (2008)"
+   ],
    "debate": "Kalkriese as the site of the final stage is widely but not universally accepted; some argue it was a battle of Germanicus's campaigns (AD 15-16) instead. Dio's multi-day narrative and Tacitus's description of successive camps are hard to fit to one site.",
-   "certainty": "certain", "tags": ["lost eagles", "Kalkriese", "Arminius"]},
-
-  {"id": "siege_of_aliso", "year": 9, "month": 10, "title": "Siege of Aliso", "type": "siege", "cats": ["military"], "importance": 2,
+   "certainty": "certain",
+   "tags": [
+    "lost eagles",
+    "Kalkriese",
+    "Arminius"
+   ]
+  },
+  {
+   "id": "siege_of_aliso",
+   "year": 9,
+   "month": 10,
+   "title": "Siege of Aliso",
+   "type": "siege",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
    "summary": "After the Varian disaster the Germans besieged the Lippe fortress of Aliso. Its commander, the camp prefect Lucius Caedicius, held out until supplies failed, then broke out on a stormy night with soldiers, women and children and reached the Rhine.",
    "detail": "Dio says the defenders' archers repulsed assaults and the Germans tried to starve them; the garrison slipped past two German posts but was detected at the third, and was saved by trumpeters sounding the signal for a relief force, which made the Germans fall back. Lucius Asprenas, Varus's nephew, secured the Rhine crossings with two legions and prevented a German advance into Gaul.",
-   "loc": [7.18, 51.74], "locName": "Aliso (Haltern?) on the Lippe", "locCertainty": "disputed",
-   "war": "augustan_germanic_wars", "people": ["lucius_caedicius", "lucius_nonius_asprenas"], "polities": ["rome", "cherusci"],
-   "battle": {"sides": [{"polity": "rome", "commanders": ["lucius_caedicius"], "strength": "Fort garrison with refugees", "losses": "unknown; many non-combatants lost"}, {"polity": "cherusci", "commanders": ["arminius"], "strength": "Victorious German coalition", "losses": "unknown"}], "victor": "indecisive", "kind": "siege", "significance": "The breakout preserved a remnant and denied the Germans a second triumph."},
-   "sources": [{"a": "Velleius Paterculus", "w": "Historiae Romanae", "r": "2.120.4"}, {"a": "Cassius Dio", "w": "Roman History", "r": "56.22.2a-4"}, {"a": "Frontinus", "w": "Strategemata", "r": "3.15.4; 4.7.8"}],
+   "loc": [
+    7.18,
+    51.74
+   ],
+   "locName": "Aliso (Haltern?) on the Lippe",
+   "locCertainty": "disputed",
+   "war": "augustan_germanic_wars",
+   "people": [
+    "lucius_caedicius",
+    "lucius_nonius_asprenas"
+   ],
+   "polities": [
+    "rome",
+    "cherusci"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "lucius_caedicius"
+      ],
+      "strength": "Fort garrison with refugees",
+      "losses": "unknown; many non-combatants lost"
+     },
+     {
+      "polity": "cherusci",
+      "commanders": [
+       "arminius"
+      ],
+      "strength": "Victorious German coalition",
+      "losses": "unknown"
+     }
+    ],
+    "victor": "indecisive",
+    "kind": "siege",
+    "significance": "The breakout preserved a remnant and denied the Germans a second triumph."
+   },
+   "sources": [
+    {
+     "a": "Velleius Paterculus",
+     "w": "Historiae Romanae",
+     "r": "2.120.4"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "56.22.2a-4"
+    },
+    {
+     "a": "Frontinus",
+     "w": "Strategemata",
+     "r": "3.15.4; 4.7.8"
+    }
+   ],
    "debate": "Aliso has been identified with Haltern, Oberaden, Anreppen and other Lippe sites.",
-   "certainty": "probable", "tags": ["breakout", "Lippe"]},
-
-  {"id": "tiberius_pannonian_triumph", "year": 12, "month": 10, "day": 23, "title": "Tiberius's Pannonian and Dalmatian triumph", "type": "political", "cats": ["military", "political"], "importance": 2,
+   "certainty": "probable",
+   "tags": [
+    "breakout",
+    "Lippe"
+   ]
+  },
+  {
+   "id": "tiberius_pannonian_triumph",
+   "year": 12,
+   "month": 10,
+   "day": 23,
+   "title": "Tiberius's Pannonian and Dalmatian triumph",
+   "type": "political",
+   "cats": [
+    "military",
+    "political"
+   ],
+   "importance": 2,
    "summary": "Tiberius celebrated his postponed triumph over the Pannonians and Dalmatians; before mounting the Capitol he dismounted and knelt before Augustus. He spared the rebel leader Bato and gave him a residence at Ravenna.",
    "detail": "The Gemma Augustea, a sardonyx cameo in Vienna, is often interpreted as showing Tiberius stepping from a chariot before an enthroned Augustus and Roma, above Roman soldiers raising a trophy over captives, and may commemorate this triumph. Tiberius fed the people at 1,000 tables and gave each citizen 300 sesterces. In 13 his tribunician power was renewed and he received imperium equal to Augustus's in the provinces.",
-   "loc": [12.4823, 41.8933], "locName": "Capitol, Rome", "locCertainty": "certain",
-   "war": "great_illyrian_revolt", "people": ["tiberius", "augustus", "bato_the_daesitiate", "germanicus"], "polities": ["rome"],
-   "sources": [{"a": "Suetonius", "w": "Tiberius", "r": "20"}, {"a": "Velleius Paterculus", "w": "Historiae Romanae", "r": "2.121.2-3"}, {"a": "Fasti Praenestini"}],
-   "certainty": "certain", "tags": ["triumph", "Gemma Augustea"]},
-
-  {"id": "res_gestae_divi_augusti", "year": 14, "title": "Res Gestae Divi Augusti", "type": "literary", "cats": ["literature", "political"], "importance": 4,
+   "loc": [
+    12.4823,
+    41.8933
+   ],
+   "locName": "Capitol, Rome",
+   "locCertainty": "certain",
+   "war": "great_illyrian_revolt",
+   "people": [
+    "tiberius",
+    "augustus",
+    "bato_the_daesitiate",
+    "germanicus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Tiberius",
+     "r": "20"
+    },
+    {
+     "a": "Velleius Paterculus",
+     "w": "Historiae Romanae",
+     "r": "2.121.2-3"
+    },
+    {
+     "a": "Fasti Praenestini"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "triumph",
+    "Gemma Augustea"
+   ]
+  },
+  {
+   "id": "res_gestae_divi_augusti",
+   "year": 14,
+   "title": "Res Gestae Divi Augusti",
+   "type": "literary",
+   "cats": [
+    "literature",
+    "political"
+   ],
+   "importance": 4,
    "summary": "Augustus's own account of his achievements, completed in his 76th year and deposited with his will at the house of the Vestal Virgins, was inscribed on bronze pillars before his Mausoleum. Copies survive at Ancyra (Latin and Greek), Apollonia and Antioch in Pisidia.",
    "detail": "In 35 terse chapters the text lists honours, expenditures (some 600 million denarii on largesse, games, building and veterans), conquests and diplomacy, ending with the title pater patriae. It reports three censuses of Roman citizens: 4,063,000 (28 BC), 4,233,000 (8 BC) and 4,937,000 (AD 14). Whether these counts include women and children or only adult males is the central question of Roman demography (the 'high count' versus 'low count' debate). With it were deposited instructions for his funeral and a breviarium of the empire's troops, finances and taxes, which Tiberius read to the Senate. The Ancyra copy was first published fully by Mommsen in 1865.",
-   "loc": [32.8597, 39.9334], "locName": "Temple of Rome and Augustus, Ancyra (best surviving copy)", "locCertainty": "certain",
-   "people": ["augustus", "tiberius"], "polities": ["rome"],
-   "sources": [{"a": "Augustus", "w": "Res Gestae"}, {"a": "Suetonius", "w": "Augustus", "r": "101.4"}, {"a": "Cassius Dio", "w": "Roman History", "r": "56.33"}],
-   "scholarship": ["Cooley, Res Gestae Divi Augusti: Text, Translation and Commentary (2009)", "Scheidel, 'Roman population size: the logic of the debate' (2008)"],
+   "loc": [
+    32.8597,
+    39.9334
+   ],
+   "locName": "Temple of Rome and Augustus, Ancyra (best surviving copy)",
+   "locCertainty": "certain",
+   "people": [
+    "augustus",
+    "tiberius"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Augustus",
+     "w": "Res Gestae"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Augustus",
+     "r": "101.4"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "56.33"
+    }
+   ],
+   "scholarship": [
+    "Cooley, Res Gestae Divi Augusti: Text, Translation and Commentary (2009)",
+    "Scheidel, 'Roman population size: the logic of the debate' (2008)"
+   ],
    "debate": "Census figures and the high/low count controversy; the intended audience of the provincial copies.",
-   "certainty": "certain", "tags": ["epigraphy", "Monumentum Ancyranum", "census"]},
-
-  {"id": "death_of_augustus", "year": 14, "month": 8, "day": 19, "title": "Death of Augustus", "type": "death", "cats": ["political"], "importance": 5,
+   "certainty": "certain",
+   "tags": [
+    "epigraphy",
+    "Monumentum Ancyranum",
+    "census"
+   ]
+  },
+  {
+   "id": "death_of_augustus",
+   "year": 14,
+   "month": 8,
+   "day": 19,
+   "title": "Death of Augustus",
+   "type": "death",
+   "cats": [
+    "political"
+   ],
+   "importance": 5,
    "summary": "Augustus died at Nola, in the room where his father had died, aged 75, after a journey to Campania and Beneventum with Tiberius. Suetonius gives his last words to friends as asking whether he had played the comedy of life well, and to Livia: 'Livia, live mindful of our marriage, and farewell.'",
    "detail": "Tacitus and Dio relay rumours that Livia poisoned him with figs to forestall a reconciliation with Agrippa Postumus, rumours modern scholars generally dismiss. His body was carried by the decurions of the towns along the route to Bovillae and by equites to Rome. The funeral on the Campus Martius was preceded by eulogies from Tiberius and his son Drusus; his ashes were placed in the Mausoleum. He had ruled alone for 44 years since Actium.",
-   "loc": [14.5276, 40.9262], "locName": "Nola, Campania", "locCertainty": "certain",
-   "people": ["augustus", "livia", "tiberius", "agrippa_postumus"], "polities": ["rome"],
-   "sources": [{"a": "Suetonius", "w": "Augustus", "r": "97-100"}, {"a": "Tacitus", "w": "Annals", "r": "1.5-10"}, {"a": "Cassius Dio", "w": "Roman History", "r": "56.29-42"}, {"a": "Velleius Paterculus", "w": "Historiae Romanae", "r": "2.123"}],
-   "certainty": "certain", "tags": ["death of emperor", "succession"]},
-
-  {"id": "deification_of_augustus", "year": 14, "month": 9, "day": 17, "title": "Deification of Augustus", "type": "religious", "cats": ["religious", "political"], "importance": 3,
+   "loc": [
+    14.5276,
+    40.9262
+   ],
+   "locName": "Nola, Campania",
+   "locCertainty": "certain",
+   "people": [
+    "augustus",
+    "livia",
+    "tiberius",
+    "agrippa_postumus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Augustus",
+     "r": "97-100"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "1.5-10"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "56.29-42"
+    },
+    {
+     "a": "Velleius Paterculus",
+     "w": "Historiae Romanae",
+     "r": "2.123"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "death of emperor",
+    "succession"
+   ]
+  },
+  {
+   "id": "deification_of_augustus",
+   "year": 14,
+   "month": 9,
+   "day": 17,
+   "title": "Deification of Augustus",
+   "type": "religious",
+   "cats": [
+    "religious",
+    "political"
+   ],
+   "importance": 3,
    "summary": "The Senate voted Augustus divine honours as Divus Augustus, with a temple, priests and a new sodality of the sodales Augustales; Livia became his priestess and was adopted into the Julian family as Julia Augusta.",
    "detail": "An ex-praetor, Numerius Atticus, swore he had seen Augustus ascending to heaven from the pyre, and Dio claims Livia paid him a million sesterces. The decree set the model for the consecratio of later emperors, voted by the Senate after death and represented on coins with eagles and pyres. The Senate's act on the same day (17 September) also began the formal transfer of power to Tiberius.",
-   "loc": [12.4853, 41.8925], "locName": "Rome", "locCertainty": "certain",
-   "people": ["augustus", "livia", "tiberius"], "polities": ["rome"],
-   "sources": [{"a": "Tacitus", "w": "Annals", "r": "1.10.8"}, {"a": "Cassius Dio", "w": "Roman History", "r": "56.46"}, {"a": "Suetonius", "w": "Augustus", "r": "100.4"}],
-   "certainty": "certain", "tags": ["imperial cult", "consecratio", "divus"]}
+   "loc": [
+    12.4853,
+    41.8925
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "people": [
+    "augustus",
+    "livia",
+    "tiberius"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "1.10.8"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "56.46"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Augustus",
+     "r": "100.4"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "imperial cult",
+    "consecratio",
+    "divus"
+   ]
+  }
  ]
 }

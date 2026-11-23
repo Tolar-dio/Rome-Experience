@@ -24,7 +24,7 @@ export function colorFor(polityIdx, statusName) {
   const p = D.polities[polityIdx];
   if (!p) return C.unsettled;
   if (statusName === 'unsettled') return C.unsettled;
-  if (ROMAN.has(p.id) || (p.family === 'roman' && statusName === 'direct')) {
+  if (ROMAN.has(p.id)) {
     if (statusName === 'direct' || statusName === 'occupied') return p.id === 'rome_east' ? '#9C2F45' : p.id === 'rome_west' ? '#B84A33' : C.rome;
   }
   if (statusName === 'ally') return mix(p.color, C.romeAlly, ROMAN.has(p.id) ? 1 : 0.35);
@@ -239,7 +239,7 @@ function addLayers() {
     'text-color': C.ink, 'text-halo-color': 'rgba(244,239,230,.88)', 'text-halo-width': 1.5,
     'text-opacity': ['step', ['zoom'], ['case', ['>=', ['get', 'imp'], 5], 1, 0], 4, ['case', ['>=', ['get', 'imp'], 4], 1, 0], 5.2, ['case', ['>=', ['get', 'imp'], 3], 1, 0], 6.5, 1],
   } });
-  L({ id: 'polity-labels', type: 'symbol', source: 'polityLabels', layout: {
+  L({ id: 'polity-labels', type: 'symbol', source: 'polityLabels', filter: ['!', ['get', 'rome']], layout: {
     'text-field': ['get', 'label'], 'text-font': SERIF_B, 'text-transform': 'uppercase', 'text-letter-spacing': 0.22,
     'text-size': ['interpolate', ['linear'], ['zoom'], 3, ['*', ['get', 'sz'], 0.75], 7, ['*', ['get', 'sz'], 1.5]],
     'text-max-width': 12, 'symbol-sort-key': ['-', 0, ['get', 'sz']], 'text-padding': 2,
@@ -266,6 +266,12 @@ function addLayers() {
     'text-variable-anchor': ['top', 'bottom', 'right', 'left'], 'text-radial-offset': 1.25, 'text-max-width': 11, 'text-optional': true,
     'symbol-sort-key': ['-', 10, ['get', 'imp']],
   }, paint: { 'text-color': '#3B0A0A', 'text-halo-color': 'rgba(244,239,230,.92)', 'text-halo-width': 1.6 } });
+  L({ id: 'polity-labels-rome', type: 'symbol', source: 'polityLabels', filter: ['get', 'rome'], layout: {
+    'text-allow-overlap': true, 'text-ignore-placement': false,
+    'text-field': ['get', 'label'], 'text-font': SERIF_B, 'text-transform': 'uppercase', 'text-letter-spacing': 0.22,
+    'text-size': ['interpolate', ['linear'], ['zoom'], 3, ['*', ['get', 'sz'], 0.75], 7, ['*', ['get', 'sz'], 1.5]],
+    'text-max-width': 12, 'symbol-sort-key': ['-', 0, ['get', 'sz']], 'text-padding': 2,
+  }, paint: { 'text-color': ['case', ['get', 'rome'], '#3B0A0A', 'rgba(42,33,28,.85)'], 'text-halo-color': 'rgba(244,239,230,.75)', 'text-halo-width': 1.6 } });
   L({ id: 'march-head', type: 'circle', source: 'marchHead', paint: { 'circle-radius': 8, 'circle-color': '#6B2346', 'circle-stroke-color': '#F4EFE6', 'circle-stroke-width': 3 } });
   L({ id: 'march-head-label', type: 'symbol', source: 'marchHead', layout: { 'text-field': ['get', 't'], 'text-font': SERIF_B, 'text-size': 14, 'text-offset': [0, -1.6], 'text-anchor': 'bottom', 'text-max-width': 14 }, paint: { 'text-color': '#3B0A0A', 'text-halo-color': 'rgba(244,239,230,.95)', 'text-halo-width': 2 } });
   L({ id: 'sel-ring', type: 'circle', source: 'selection', filter: ['==', ['geometry-type'], 'Point'], paint: { 'circle-radius': 18, 'circle-color': 'rgba(0,0,0,0)', 'circle-stroke-color': '#F4EFE6', 'circle-stroke-width': 3 } });
@@ -331,7 +337,7 @@ export function updateYear(y, force = false) {
     const cx = g.cx / g.area, cy = g.cy / g.area;
     let bd = Infinity;
     for (const r of g.regs) {
-      if ((r.area || 0) < g.bestArea * 0.2) continue;
+      if ((r.area || 0) < g.bestArea * (ROMAN.has(g.pol.id) ? 0.45 : 0.2)) continue;
       const d = (r.labelPt[0] - cx) ** 2 + (r.labelPt[1] - cy) ** 2;
       if (d < bd) { bd = d; g.best = r; }
     }
@@ -451,6 +457,7 @@ export function applyLayerVisibility() {
   ['territory', 'terr-ally', 'terr-client', 'terr-contested', 'terr-occupied'].forEach((id) => vis(id, L.territory));
   vis('borders', L.borders && L.territory);
   vis('polity-labels', L.polityLabels);
+  vis('polity-labels-rome', L.polityLabels);
   vis('region-labels', L.regionNames);
   vis('ancient-labels', L.ancientLabels);
   ['events-glow', 'events-label', 'battle-victor', 'battles'].forEach((id) => vis(id, L.events));
