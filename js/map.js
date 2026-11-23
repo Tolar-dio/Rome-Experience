@@ -159,6 +159,7 @@ export async function initMap(onReady) {
   map.addControl(new maplibregl.AttributionControl({ compact: true, customAttribution: 'Natural Earth · <a href="https://awmc.unc.edu/">AWMC</a> (ODbL)' }), 'bottom-right');
 
   map.on('load', () => {
+    document.querySelector('.maplibregl-ctrl-attrib')?.classList.remove('maplibregl-compact-show');
     for (const k of ['hatch', 'dots', 'cross', 'stripes']) map.addImage('pat-' + k, patternImage(k), { pixelRatio: 2 });
     map.addImage('ic-swords', iconImage('swords'), { pixelRatio: 2 });
     map.addImage('ic-siege', iconImage('siege'), { pixelRatio: 2 });
@@ -191,7 +192,7 @@ function addLayers() {
   L({ id: 'sea-mask', type: 'fill', source: 'sea', paint: { 'fill-color': C.sea } });
   L({ id: 'territory', type: 'fill', source: 'regions', paint: {
     'fill-color': ['coalesce', ['feature-state', 'c'], C.unsettled],
-    'fill-opacity': ['case', ['==', ['feature-state', 'st'], 'unsettled'], 0.12, ['boolean', ['feature-state', 'hl'], false], 0.88, 0.66],
+    'fill-opacity': ['case', ['==', ['feature-state', 'st'], 'unsettled'], 0.1, ['boolean', ['feature-state', 'hl'], false], 0.85, 0.6],
   } });
   for (const [st, pat] of [['ally', 'hatch'], ['client', 'dots'], ['contested', 'cross'], ['occupied', 'stripes']]) {
     L({ id: 'terr-' + st, type: 'fill', source: 'regions', paint: { 'fill-pattern': 'pat-' + pat, 'fill-opacity': ['case', ['==', ['feature-state', 'st'], st], 0.55, 0] } });
@@ -334,10 +335,11 @@ export function updateYear(y, force = false) {
   for (const g of groups.values()) {
     if (g.area < 1200) continue;
     // label at the sizeable region nearest the polity's area-weighted centre
-    const cx = g.cx / g.area, cy = g.cy / g.area;
+    let cx = g.cx / g.area, cy = g.cy / g.area;
+    if (g.pol.id === 'rome' && g.area < 1.2e6) { cx = 13.0; cy = 42.3; } // keep the Republic's name on Italy
     let bd = Infinity;
     for (const r of g.regs) {
-      if ((r.area || 0) < g.bestArea * (ROMAN.has(g.pol.id) ? 0.45 : 0.2)) continue;
+      if ((r.area || 0) < g.bestArea * (g.pol.id === 'rome' && g.area < 1.2e6 ? 0 : ROMAN.has(g.pol.id) ? 0.45 : 0.2)) continue;
       const d = (r.labelPt[0] - cx) ** 2 + (r.labelPt[1] - cy) ** 2;
       if (d < bd) { bd = d; g.best = r; }
     }
@@ -477,7 +479,7 @@ export function applyLayerVisibility() {
   ['ext-lines', 'ext60-lines', 'ext200-lines'].forEach((id) => vis(id, L.extents));
   vis('prov-lines', L.provinces);
   vis('prov-dioc', L.provinces);
-  map.setPaintProperty('territory', 'fill-opacity', ['case', ['==', ['feature-state', 'st'], 'unsettled'], L.dare ? 0 : 0.12, ['boolean', ['feature-state', 'hl'], false], 0.88, L.dare ? 0.32 : 0.66]);
+  map.setPaintProperty('territory', 'fill-opacity', ['case', ['==', ['feature-state', 'st'], 'unsettled'], L.dare ? 0 : 0.12, ['boolean', ['feature-state', 'hl'], false], 0.85, L.dare ? 0.32 : 0.6]);
   vis('marine', !L.dare);
 }
 
@@ -567,7 +569,9 @@ function showSelection(sel) {
 const pt = (c) => ({ type: 'Feature', geometry: { type: 'Point', coordinates: c }, properties: {} });
 function padding() {
   const det = document.getElementById('detail');
-  return { top: 120, bottom: 60, left: 60, right: det && !det.hidden ? det.offsetWidth + 40 : 60 };
+  const pan = document.getElementById('panel');
+  const panOpen = pan && !document.getElementById('app').classList.contains('panel-closed') && window.innerWidth > 760;
+  return { top: 80, bottom: 40, left: panOpen ? pan.offsetWidth + 40 : 50, right: det && !det.hidden ? det.offsetWidth + 40 : 50 };
 }
 export function fit(coords) {
   if (!coords.length) return;

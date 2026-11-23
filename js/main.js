@@ -50,8 +50,7 @@ function renderYearplate() {
   else if (f?.consuls?.length) line = `In the consulship of <b>${esc(f.consuls.map(shortName).join(' and '))}</b>`;
   else if (f?.tribunes?.length) line = `<b>Consular tribunes</b>, ${f.tribunes.length} elected`;
   else if (f?.note) line = esc(f.note);
-  $('yearplate').innerHTML = `<div class="yp-year">${y < 0 ? -y : y}<small>${y < 0 ? 'bc' : 'ad'}</small></div>
-    <div class="yp-auc">${auc(y)} AUC</div>${line ? `<div class="yp-line">${line}</div>` : ''}<span class="yp-era">${esc(eraOf(y).name)}</span>`;
+  $('yearplate').innerHTML = `<div class="yp-row"><div class="yp-year">${y < 0 ? -y : y}<small>${y < 0 ? 'bc' : 'ad'}</small></div><div class="yp-auc">${auc(y)} AUC<br>${esc(eraOf(y).name)}</div></div>${line ? `<div class="yp-line">${line}</div>` : ''}`;
 }
 function shortName(n) {
   // "Lucius Aemilius Paullus" -> "L. Aemilius Paullus"
@@ -62,7 +61,7 @@ function shortName(n) {
 }
 
 // ---------------- legend
-let legendMin = false;
+let legendMin = true;
 let lastGroups = null;
 function renderLegend(arg) {
   const groups = (arg && arg.groups) || lastGroups;
@@ -82,7 +81,7 @@ function renderLegend(arg) {
   const dots = 'radial-gradient(rgba(255,255,255,.85) 1.2px, transparent 1.4px)';
   const cross = 'repeating-linear-gradient(45deg, rgba(40,20,15,.45) 0 1px, transparent 1px 5px), repeating-linear-gradient(-45deg, rgba(40,20,15,.45) 0 1px, transparent 1px 5px)';
   $('legend').className = 'legend' + (legendMin ? ' min' : '');
-  $('legend').innerHTML = `<button class="lg-min" aria-label="Collapse legend">${legendMin ? '+' : '–'}</button><div class="lg-title">${esc(fmtYear(S.year, { ad: true }))}</div><div class="lg-body">
+  $('legend').innerHTML = `<button class="lg-min" aria-label="Collapse legend">${legendMin ? '+' : '–'}</button><div class="lg-title">${legendMin ? 'Legend' : 'Key and powers in view'}</div><div class="lg-body">
     <div class="lg-row">${pat('#B03A2E')} Roman rule</div>
     <div class="lg-row">${pat('#D27A62', hatch)} allies, federates</div>
     <div class="lg-row">${pat('#C99A72', dots + ';background-size:6px 6px')} client kingdoms</div>

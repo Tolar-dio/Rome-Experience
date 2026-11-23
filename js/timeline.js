@@ -41,8 +41,9 @@ export function initTimeline() {
 }
 
 function lanes() {
-  const top = 4;
-  return { era: [top, 16], hist: [top + 20, 34], area: [top + 58, 24], wars: [top + 86, 7 * (warRows.rows || 1)], axis: H - 18 };
+  const top = 3;
+  const rows = Math.min(warRows.rows || 1, 4);
+  return { era: [top, 13], hist: [top + 15, 22], area: [top + 39, 14], wars: [top + 55, 5 * rows], axis: H - 17, rows };
 }
 
 function draw() {
@@ -59,7 +60,7 @@ function draw() {
     .attr('x', (d) => x(yearToIdx(d.from))).attr('width', (d) => Math.max(0, x(yearToIdx(d.to) + 1) - x(yearToIdx(d.from))))
     .attr('y', L.era[0]).attr('height', L.era[1]).attr('fill', (d) => d.color).attr('opacity', 0.9);
   g.append('g').selectAll('text').data(ERAS).join('text').attr('class', 'era-label')
-    .attr('x', (d) => Math.max(x(yearToIdx(d.from)), 10) + 6).attr('y', L.era[0] + 12)
+    .attr('x', (d) => Math.max(x(yearToIdx(d.from)), 10) + 6).attr('y', L.era[0] + 10)
     .text((d) => (x(yearToIdx(d.to)) - x(yearToIdx(d.from)) > d.name.length * 6.2 ? d.name : ''));
   // histogram
   const n = counts.length;
@@ -73,7 +74,7 @@ function draw() {
   const maxS = d3.max(bins, (d) => d.s) || 1;
   const hy = d3.scaleSqrt().domain([0, maxS]).range([0, L.hist[1]]);
   const bw = Math.max(1, x(step) - x(0) - 0.5);
-  g.append('text').attr('class', 'lane-label').attr('x', 12).attr('y', L.hist[0] + 9).text('events');
+  
   g.append('g').selectAll('rect').data(bins).join('rect')
     .attr('x', (d) => x(d.i)).attr('width', bw).attr('y', (d) => L.hist[0] + L.hist[1] - hy(d.s)).attr('height', (d) => hy(d.s)).attr('fill', '#8D7F72');
   g.append('g').selectAll('rect').data(bins.filter((d) => d.b)).join('rect')
@@ -89,12 +90,12 @@ function draw() {
     const ay = d3.scaleLinear().domain([0, maxA]).range([L.area[0] + L.area[1], L.area[0]]);
     g.append('path').datum(pts).attr('fill', '#D27A62').attr('opacity', 0.55).attr('d', d3.area().x((d) => x(d.i)).y0(ay(0)).y1((d) => ay(d.a)).curve(d3.curveStepAfter));
     g.append('path').datum(pts).attr('fill', '#B03A2E').attr('d', d3.area().x((d) => x(d.i)).y0(ay(0)).y1((d) => ay(d.d)).curve(d3.curveStepAfter));
-    g.append('text').attr('class', 'lane-label').attr('x', 12).attr('y', L.area[0] + 9).text('Roman land');
+    
   }
   // wars
   const wg = g.append('g');
-  wg.selectAll('rect').data(warRows.filter((d) => d.e >= dom[0] && d.s <= dom[1])).join('rect').attr('class', 'war-bar')
-    .attr('x', (d) => x(d.s)).attr('width', (d) => Math.max(2, x(d.e) - x(d.s))).attr('y', (d) => L.wars[0] + d.r * 7).attr('height', 5).attr('rx', 2)
+  wg.selectAll('rect').data(warRows.filter((d) => d.r < L.rows && d.e >= dom[0] && d.s <= dom[1])).join('rect').attr('class', 'war-bar')
+    .attr('x', (d) => x(d.s)).attr('width', (d) => Math.max(2, x(d.e) - x(d.s))).attr('y', (d) => L.wars[0] + d.r * 5).attr('height', 4).attr('rx', 1.5)
     .attr('fill', (d) => warColor(d.w))
     .on('click', (ev, d) => { ev.stopPropagation(); select('war', d.w.id); if (S.year < d.w.start || S.year > (d.w.end ?? d.w.start)) setYear(d.w.start); })
     .append('title').text((d) => `${d.w.name} (${fmtRange(d.w.start, d.w.end)})`);

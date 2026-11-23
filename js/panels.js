@@ -17,10 +17,10 @@ let initialised = false;
 export function initPanels() {
   document.querySelectorAll('.rail button').forEach((b) => b.addEventListener('click', () => {
     const app = document.getElementById('app');
-    if (b.dataset.tab === S.tab && !app.classList.contains('panel-closed') && window.innerWidth <= 760) { app.classList.add('panel-closed'); return; }
+    if (b.dataset.tab === S.tab && !app.classList.contains('panel-closed')) { closePanel(); return; }
     showTab(b.dataset.tab);
   }));
-  if (window.innerWidth <= 760) document.getElementById('app').classList.add('panel-closed');
+  document.getElementById('app').classList.add('panel-closed');
   panel().addEventListener('click', (e) => {
     const t = e.target.closest('[data-id]');
     if (t && !t.closest('[data-noopen]')) { openId(t.dataset.id, t.dataset.kind); return; }
@@ -31,9 +31,14 @@ export function initPanels() {
   showTab(S.tab);
 }
 
+export function closePanel() {
+  document.getElementById('app').classList.add('panel-closed');
+  document.querySelectorAll('.rail button').forEach((b) => b.classList.remove('active'));
+}
+
 export function showTab(tab) {
   S.tab = tab;
-  document.querySelectorAll('.rail button').forEach((b) => b.classList.toggle('active', b.dataset.tab === tab));
+  if (initialised) document.querySelectorAll('.rail button').forEach((b) => b.classList.toggle('active', b.dataset.tab === tab));
   if (initialised) document.getElementById('app').classList.remove('panel-closed');
   initialised = true;
   render();
@@ -44,7 +49,8 @@ export function showTab(tab) {
 function render() {
   const fn = TABS[S.tab] || TABS.year;
   const html = fn();
-  if (html !== null) panel().innerHTML = `<div class="panel-inner">${html}</div>`;
+  if (html !== null) panel().innerHTML = `<button class="panel-close" aria-label="Close panel">×</button><div class="panel-inner">${html}</div>`;
+  panel().querySelector('.panel-close')?.addEventListener('click', closePanel);
   AFTER[S.tab]?.();
 }
 
