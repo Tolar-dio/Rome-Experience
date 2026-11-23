@@ -1,0 +1,3369 @@
+{
+ "sites": [
+  {
+   "id": "mine_rio_tinto",
+   "name": "Rio Tinto copper and silver mines",
+   "loc": [
+    -6.595,
+    37.7
+   ],
+   "kind": "mine",
+   "theme": "economy",
+   "from": -200,
+   "to": 400,
+   "commodity": "copper, silver",
+   "place": "rio_tinto",
+   "summary": "The richest workings of the Iberian pyrite belt, already exploited by Tartessos. Roman production peaked under the Flavians and Antonines: deep galleries were drained by staircases of reversed wooden water-wheels (one, lifting water about 30 m in eight stages, is in the British Museum), and some 16 million tonnes of Roman-era slag survived into the 19th century, when the Rio Tinto Company reopened the mines.",
+   "importance": 4,
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "33.96"
+    },
+    {
+     "a": "Diodorus Siculus",
+     "w": "Bibliotheca Historica",
+     "r": "5.35-38"
+    }
+   ]
+  },
+  {
+   "id": "mine_tharsis",
+   "name": "Tharsis mines",
+   "loc": [
+    -7.117,
+    37.596
+   ],
+   "kind": "mine",
+   "theme": "economy",
+   "from": -150,
+   "to": 350,
+   "commodity": "copper, silver",
+   "summary": "Copper and silver workings in the western pyrite belt of Huelva, with Roman shafts and open-cuts and around 5 million tonnes of slag. Part of the mining belt that, with Rio Tinto and Aljustrel, made southwest Iberia the empire's main source of silver in the 1st and 2nd centuries AD.",
+   "importance": 2
+  },
+  {
+   "id": "mine_vipasca",
+   "name": "Vipasca (Aljustrel)",
+   "loc": [
+    -8.165,
+    37.877
+   ],
+   "kind": "mine",
+   "theme": "economy",
+   "from": 1,
+   "to": 300,
+   "commodity": "copper, silver",
+   "summary": "Imperial copper and silver district in Lusitania whose two bronze tablets (Vipasca I and II, Hadrianic) are the only surviving Roman mining regulations. They set out how a procurator metallorum leased shafts to private occupatores for half the ore, and how concessions covered the village's baths, barber, cobbler and auctioneer. Theft of ore by slaves was punished by flogging and sale with a ban on working in mines.",
+   "importance": 4,
+   "scholarship": [
+    "Domergue, Les mines de la péninsule ibérique dans l'antiquité romaine (1990)"
+   ]
+  },
+  {
+   "id": "mine_las_medulas",
+   "name": "Las Médulas gold workings",
+   "loc": [
+    -6.77,
+    42.47
+   ],
+   "kind": "mine",
+   "theme": "economy",
+   "from": 25,
+   "to": 250,
+   "commodity": "gold",
+   "place": "las_medulas",
+   "summary": "The largest Roman open-cast gold mine. Water was brought from the Cabrera mountains by over 100 km of channels and released from tanks to collapse mountainsides (Pliny's ruina montium), washing the debris through sluices with gorse to trap the gold. Pliny, procurator in Hispania c. AD 73, says Asturia, Callaecia and Lusitania yielded 20,000 Roman pounds of gold a year. Work faded in the early 3rd century.",
+   "importance": 5,
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "33.70-78"
+    }
+   ]
+  },
+  {
+   "id": "mine_tres_minas",
+   "name": "Três Minas",
+   "loc": [
+    -7.484,
+    41.565
+   ],
+   "kind": "mine",
+   "theme": "economy",
+   "from": 30,
+   "to": 250,
+   "commodity": "gold",
+   "summary": "Gold mine in northern Lusitania/Callaecia with three huge open-cuts (the largest 480 m long, 100 m deep) and long adits cut to drain and work them. A key comparison site to Las Médulas for hard-rock rather than alluvial gold extraction under military and procuratorial control.",
+   "importance": 2
+  },
+  {
+   "id": "mine_carthago_nova",
+   "name": "Silver mines of Carthago Nova",
+   "loc": [
+    -0.86,
+    37.61
+   ],
+   "kind": "mine",
+   "theme": "economy",
+   "from": -209,
+   "to": 100,
+   "commodity": "silver, lead",
+   "place": "carthago_nova",
+   "summary": "The Sierra de Cartagena-La Unión silver-lead mines, taken by Scipio with New Carthage in 209 BC. Polybius, quoted by Strabo, says 40,000 workers produced 25,000 drachmas a day for the Roman people in his time (mid-2nd century BC). Production passed to publicani and then private societates; lead ingots stamped with Italian family names (Planii, Aquinii, Pontilieni) are found in wrecks across the western Mediterranean. Decline by the later 1st century AD.",
+   "importance": 4,
+   "sources": [
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "3.2.10"
+    },
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "34.9.8-11"
+    }
+   ]
+  },
+  {
+   "id": "mine_sisapo",
+   "name": "Sisapo cinnabar mines (Almadén)",
+   "loc": [
+    -4.84,
+    38.77
+   ],
+   "kind": "mine",
+   "theme": "economy",
+   "from": -150,
+   "to": 400,
+   "commodity": "cinnabar (mercury)",
+   "place": "sisapo",
+   "summary": "The world's largest mercury deposit. Pliny says the cinnabar (minium) was shipped sealed to Rome, about 2,000 pounds a year, and refined there by a societas; the law fixed its sale price at 70 sesterces a pound. Used for red pigment, gilding and the mercury amalgam process. Cicero mentions the Sisaponenses publicani (Phil. 2.48).",
+   "importance": 3,
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "33.118-121"
+    }
+   ]
+  },
+  {
+   "id": "mine_castulo",
+   "name": "Castulo silver-lead district",
+   "loc": [
+    -3.68,
+    38.08
+   ],
+   "kind": "mine",
+   "theme": "economy",
+   "from": -230,
+   "to": 200,
+   "commodity": "silver, lead",
+   "place": "castulo",
+   "summary": "Mines of the eastern Sierra Morena around Castulo and Linares. Pliny records Hannibal's mine Baebelo yielding 300 pounds of silver a day, its galleries driven 1,500 paces into the mountain and drained by bucket-chains of Aquitanian slaves. Roman lead ingots from here carry the stamps of private societates.",
+   "importance": 3,
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "33.96-97"
+    }
+   ]
+  },
+  {
+   "id": "mine_mons_marianus",
+   "name": "Mons Marianus copper (aes Marianum)",
+   "loc": [
+    -4.77,
+    38.0
+   ],
+   "kind": "mine",
+   "theme": "economy",
+   "from": -50,
+   "to": 300,
+   "commodity": "copper",
+   "summary": "Copper-bearing hills of the Sierra Morena north of Corduba, owned by Sextus Marius, 'the richest man in Spain', until Tiberius had him thrown from the Tarpeian rock in AD 33 and confiscated the mines for himself. Pliny calls aes Marianum (also Cordubense) the best copper for brass coinage. Cerro Muriano is the likeliest centre.",
+   "certainty": "probable",
+   "importance": 3,
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "6.19"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "34.4"
+    }
+   ]
+  },
+  {
+   "id": "mine_laurion",
+   "name": "Laurion silver mines",
+   "loc": [
+    23.987,
+    37.724
+   ],
+   "kind": "mine",
+   "theme": "economy",
+   "from": -509,
+   "to": 300,
+   "commodity": "silver, lead",
+   "place": "laurion",
+   "summary": "The Athenian silver mines that paid for the fleet of Salamis. Under Rome they were in decline: the slave miners revolted around 104-100 BC, seizing the fort at Sounion, and Strabo reports the veins exhausted, with only old slag and tailings reworked. Ancient workings include over 2,000 shafts and the ore-washeries of Thorikos.",
+   "importance": 3,
+   "sources": [
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "9.1.23"
+    },
+    {
+     "a": "Athenaeus",
+     "w": "Deipnosophistae",
+     "r": "6.272e-f"
+    }
+   ]
+  },
+  {
+   "id": "mine_pangaion",
+   "name": "Pangaion and the Macedonian mines",
+   "loc": [
+    24.07,
+    40.92
+   ],
+   "kind": "mine",
+   "theme": "economy",
+   "from": -167,
+   "to": 300,
+   "commodity": "gold, silver",
+   "summary": "Gold and silver mines of eastern Macedonia that funded Philip II. After Pydna the Senate closed the Macedonian royal gold and silver mines in 167 BC, ostensibly so neither publicani nor locals could abuse them; they were reopened in 158 BC (Cassiodorus' Chronicle), when the Macedonian tetradrachm coinage resumed.",
+   "importance": 3,
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "45.18.3-4"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "45.29.11"
+    }
+   ]
+  },
+  {
+   "id": "mine_dolaucothi",
+   "name": "Dolaucothi gold mine",
+   "loc": [
+    -3.95,
+    52.045
+   ],
+   "kind": "mine",
+   "theme": "economy",
+   "from": 75,
+   "to": 250,
+   "commodity": "gold",
+   "summary": "The only proven Roman gold mine in Britain. Open-cuts and adits were fed by leats from the Cothi and Annell (one channel about 11 km long) used for hushing and ore-washing; a fort at Pumsaint guarded the site. Probably operated by the army in the Flavian and Trajanic periods, then leased.",
+   "importance": 3,
+   "scholarship": [
+    "Burnham & Burnham, Dolaucothi-Pumsaint (2004)"
+   ]
+  },
+  {
+   "id": "mine_mendip",
+   "name": "Mendip lead-silver mines (Charterhouse)",
+   "loc": [
+    -2.72,
+    51.3
+   ],
+   "kind": "mine",
+   "theme": "economy",
+   "from": 49,
+   "to": 400,
+   "commodity": "lead, silver",
+   "summary": "Worked within six years of the invasion: a lead pig from the Mendips carries Claudius' titles of AD 49 and the mark DE BRITAN, and others the name of Britannicus. Charterhouse had a fortlet and small amphitheatre. Silver was cupelled out before export, as the stamp EX ARG ('from the silver works') shows. Later pigs bear names of lessees and imperial societates.",
+   "importance": 3
+  },
+  {
+   "id": "mine_lutudarum",
+   "name": "Lutudarum (Derbyshire lead field)",
+   "loc": [
+    -1.57,
+    53.08
+   ],
+   "kind": "mine",
+   "theme": "economy",
+   "from": 80,
+   "to": 350,
+   "commodity": "lead",
+   "summary": "Lead district in the Peak named on pigs stamped LVTVD or METAL LVTVDARES; the centre is unlocated, probably near Wirksworth or Matlock. Pliny notes that in Britain lead lay so near the surface that a law limited how much could be extracted.",
+   "certainty": "probable",
+   "importance": 2,
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "34.164"
+    }
+   ]
+  },
+  {
+   "id": "mine_deceangli",
+   "name": "Lead mines of the Deceangli (Flintshire)",
+   "loc": [
+    -3.2,
+    53.24
+   ],
+   "kind": "mine",
+   "theme": "economy",
+   "from": 74,
+   "to": 300,
+   "commodity": "lead",
+   "summary": "Lead field of Halkyn Mountain. A pig found at Chester carries the consular date of Vespasian and Titus (AD 74) and the tribal name DECEANGL, showing exploitation within a few years of conquest, perhaps directed from the legionary base at Deva.",
+   "importance": 2
+  },
+  {
+   "id": "mine_cornish_tin",
+   "name": "Cornish tin and Ictis",
+   "loc": [
+    -5.3,
+    50.2
+   ],
+   "kind": "mine",
+   "theme": "economy",
+   "from": -320,
+   "to": 450,
+   "commodity": "tin",
+   "summary": "Tin of Belerion, shipped in the Hellenistic period from an island called Ictis (often identified with St Michael's Mount) and carried across Gaul on horseback in 30 days to the Rhône mouth, as Diodorus reports from Pytheas via Posidonius. Under Rome Spanish tin dominated until the 3rd century; Cornish output then revived, with tin ingots and pewter workshops and a milestone series of the later 3rd century in Cornwall.",
+   "importance": 3,
+   "sources": [
+    {
+     "a": "Diodorus Siculus",
+     "w": "Bibliotheca Historica",
+     "r": "5.22"
+    },
+    {
+     "a": "Diodorus Siculus",
+     "w": "Bibliotheca Historica",
+     "r": "5.38"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "34.156"
+    }
+   ]
+  },
+  {
+   "id": "mine_weald",
+   "name": "Weald iron and the Classis Britannica",
+   "loc": [
+    0.554,
+    50.884
+   ],
+   "kind": "mine",
+   "theme": "economy",
+   "from": 50,
+   "to": 250,
+   "commodity": "iron",
+   "summary": "Iron-smelting region of the Weald. At Beauport Park a bath-house was roofed with tiles stamped CL BR, showing that the British fleet ran the bloomery sites; the slag heap there was perhaps 30,000 tonnes before modern quarrying. Production fell off in the mid-3rd century as the fleet disappears from the record.",
+   "importance": 2,
+   "scholarship": [
+    "Cleere & Crossley, The Iron Industry of the Weald (1995)"
+   ]
+  },
+  {
+   "id": "mine_noricum",
+   "name": "Noric iron (Hüttenberg)",
+   "loc": [
+    14.55,
+    46.94
+   ],
+   "kind": "mine",
+   "theme": "economy",
+   "from": -100,
+   "to": 450,
+   "commodity": "iron, steel",
+   "summary": "Erzberg of Hüttenberg in Carinthia, source of the steel of the ferrum Noricum, praised for its hardness ('Noricus ensis', Horace). Roman merchants traded it at the Magdalensberg before annexation in 15 BC; under the empire the iron mines were farmed by conductores ferrariarum Noricarum. Roman and pre-Roman shaft furnaces survive.",
+   "importance": 3,
+   "sources": [
+    {
+     "a": "Horace",
+     "w": "Odes",
+     "r": "1.16.9"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "34.145"
+    },
+    {
+     "a": "Ovid",
+     "w": "Metamorphoses",
+     "r": "14.712"
+    }
+   ]
+  },
+  {
+   "id": "mine_alburnus_maior",
+   "name": "Alburnus Maior (Roșia Montană)",
+   "loc": [
+    23.13,
+    46.3
+   ],
+   "kind": "mine",
+   "theme": "economy",
+   "from": 106,
+   "to": 260,
+   "commodity": "gold",
+   "summary": "Gold district of the Apuseni mountains opened after Trajan's conquest. Some 7 km of Roman galleries survive, and 25 wax tablets found in old workings (dated 131-167) record labour contracts, loans, a slave sale and the dissolution of a burial club. Many miners were Pirustae brought from Dalmatia. The tablets were hidden at the start of the Marcomannic Wars, c. 167.",
+   "importance": 4,
+   "scholarship": [
+    "CIL III pp. 921-960",
+    "Wollmann, Mineritul metalifer (1996)"
+   ]
+  },
+  {
+   "id": "mine_dardania",
+   "name": "Metalla Dardanica",
+   "loc": [
+    20.9,
+    42.93
+   ],
+   "kind": "mine",
+   "theme": "economy",
+   "from": 100,
+   "to": 400,
+   "commodity": "silver, lead",
+   "summary": "Silver and lead mines of Dardania around Ulpiana and the Kopaonik massif. Trajan and Hadrian struck small token coins with the legend METALLI DARDANICI or METAL DELM for use in imperial mining districts, an unusual window onto how the fiscus ran its mines.",
+   "certainty": "probable",
+   "importance": 2
+  },
+  {
+   "id": "mine_domavia",
+   "name": "Domavia (Srebrenica)",
+   "loc": [
+    19.33,
+    44.1
+   ],
+   "kind": "mine",
+   "theme": "economy",
+   "from": 100,
+   "to": 350,
+   "commodity": "silver",
+   "summary": "Silver mining town in eastern Dalmatia, seat of the procurator argentariarum Pannonicarum et Dalmaticarum, who oversaw the silver mines of both provinces. Inscriptions of procurators and a curia building survive; the medieval name Srebrenica ('silver') preserves the tradition.",
+   "importance": 2
+  },
+  {
+   "id": "mine_dalmatian_gold",
+   "name": "Dalmatian gold of the Bosnian rivers",
+   "loc": [
+    17.9,
+    44.3
+   ],
+   "kind": "mine",
+   "theme": "economy",
+   "from": 9,
+   "to": 300,
+   "commodity": "gold",
+   "summary": "Pliny says gold was found in Dalmatia so near the surface that under Nero 50 pounds a day were collected; Florus has Vibius Postumus forcing the defeated Dalmatians to dig for gold after AD 9. The workings lay in the river valleys of central Bosnia; exact sites are uncertain.",
+   "certainty": "uncertain",
+   "importance": 2,
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "33.67"
+    },
+    {
+     "a": "Florus",
+     "w": "Epitome",
+     "r": "2.25.12"
+    }
+   ]
+  },
+  {
+   "id": "mine_cyprus",
+   "name": "Copper of Cyprus (Soli and Skouriotissa)",
+   "loc": [
+    32.88,
+    35.09
+   ],
+   "kind": "mine",
+   "theme": "economy",
+   "from": -58,
+   "to": 641,
+   "commodity": "copper",
+   "summary": "Cyprus gave copper its name (aes Cyprium). Augustus leased half the island's copper output to Herod for 300 talents. Galen visited the mines above Soli c. 166 to collect minerals and saw the workings and a procurator's operation. Skouriotissa's slag heaps, some 2 million tonnes, are dated by radiocarbon largely to the Roman period.",
+   "importance": 3,
+   "sources": [
+    {
+     "a": "Josephus",
+     "w": "Jewish Antiquities",
+     "r": "16.128"
+    },
+    {
+     "a": "Galen",
+     "w": "De simplicium medicamentorum temperamentis",
+     "r": "9.3.21-34"
+    }
+   ]
+  },
+  {
+   "id": "mine_phaeno",
+   "name": "Phaeno (Wadi Faynan)",
+   "loc": [
+    35.49,
+    30.63
+   ],
+   "kind": "mine",
+   "theme": "economy",
+   "from": 1,
+   "to": 600,
+   "commodity": "copper",
+   "summary": "Copper mines south of the Dead Sea where Christians condemned ad metalla were sent during the Great Persecution: Eusebius describes 97 Egyptian confessors, mutilated in the left foot and right eye, and Bishop Silvanus of Gaza beheaded there with 39 others in 311. The slag heaps, field systems and a large church survive.",
+   "importance": 3,
+   "sources": [
+    {
+     "a": "Eusebius",
+     "w": "Martyrs of Palestine",
+     "r": "7.2-4"
+    },
+    {
+     "a": "Eusebius",
+     "w": "Martyrs of Palestine",
+     "r": "13.1-5"
+    }
+   ]
+  },
+  {
+   "id": "mine_umm_fawakhir",
+   "name": "Bir Umm Fawakhir",
+   "loc": [
+    33.6,
+    26.02
+   ],
+   "kind": "mine",
+   "theme": "economy",
+   "from": 400,
+   "to": 600,
+   "commodity": "gold",
+   "summary": "Late Roman gold-mining settlement in the Eastern Desert on the Coptos-Myos Hormos road, with over 200 drystone houses for a population of perhaps 1,000 in the 5th-6th centuries; a rare excavated mining town of the early Byzantine state.",
+   "importance": 2,
+   "scholarship": [
+    "Meyer, Bir Umm Fawakhir Survey Project (1997)"
+   ]
+  },
+  {
+   "id": "mine_mons_smaragdus",
+   "name": "Mons Smaragdus (Wadi Sikait)",
+   "loc": [
+    34.81,
+    24.65
+   ],
+   "kind": "mine",
+   "theme": "economy",
+   "from": 1,
+   "to": 550,
+   "commodity": "emeralds",
+   "summary": "The only emerald source in the Roman world, in the hills behind Berenike. Rock-cut temples and the settlement of Sikait survive; Olympiodorus says the Blemmyes controlled the mines in the early 5th century. Emeralds were set in Roman and Byzantine jewellery throughout the empire.",
+   "importance": 2,
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "37.65-69"
+    }
+   ]
+  },
+  {
+   "id": "mine_populonia",
+   "name": "Populonia and the iron of Elba",
+   "loc": [
+    10.49,
+    42.99
+   ],
+   "kind": "mine",
+   "theme": "economy",
+   "from": -509,
+   "to": -50,
+   "commodity": "iron",
+   "summary": "The Etruscan port where hematite from Aethalia (Elba) was smelted; Diodorus describes the furnaces and the sponge-like blooms sold to merchants. In 205 BC Populonia supplied iron for Scipio's fleet. By Strabo's day the town was in decline, though the furnaces still worked; iron slag beaches lasted into the 20th century, when they were remined.",
+   "importance": 3,
+   "sources": [
+    {
+     "a": "Diodorus Siculus",
+     "w": "Bibliotheca Historica",
+     "r": "5.13"
+    },
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "5.2.6"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "28.45.15"
+    }
+   ]
+  },
+  {
+   "id": "mine_montagne_noire",
+   "name": "Les Martys (Montagne Noire)",
+   "loc": [
+    2.33,
+    43.42
+   ],
+   "kind": "mine",
+   "theme": "economy",
+   "from": -100,
+   "to": 100,
+   "commodity": "iron",
+   "summary": "Large iron-making district north of Narbo, the best excavated in Gaul: dozens of slag heaps, furnaces and an industrial settlement producing iron on a scale suggesting state or societas exploitation for the late Republican and early imperial army.",
+   "importance": 2
+  },
+  {
+   "id": "mine_sardinia_metalla",
+   "name": "Metalla of Sardinia (Iglesiente)",
+   "loc": [
+    8.53,
+    39.31
+   ],
+   "kind": "mine",
+   "theme": "economy",
+   "from": -238,
+   "to": 600,
+   "commodity": "silver, lead",
+   "summary": "Silver-lead mines of southwest Sardinia, centred on the station called Metalla. Sardinian mines became a place of penal exile: Pope Pontian and the presbyter Hippolytus were deported there in 235, and Christian confessors under Commodus, including the future pope Callistus, were released through Marcia's intercession.",
+   "importance": 2,
+   "sources": [
+    {
+     "a": "Hippolytus",
+     "w": "Refutatio",
+     "r": "9.12.10"
+    }
+   ]
+  },
+  {
+   "id": "quarry_luna",
+   "name": "Luna (Carrara) marble quarries",
+   "loc": [
+    10.14,
+    44.09
+   ],
+   "kind": "quarry",
+   "theme": "economy",
+   "from": -48,
+   "to": 450,
+   "commodity": "marble",
+   "summary": "White and grey marble from the Apuan Alps, shipped from the port of Luna. Pliny names Mamurra, Caesar's engineer, as the first to marble his house; large-scale quarrying began in the 40s BC and fed Augustus' boast that he left Rome marble. Quarry faces at Fantiscritti preserve Roman wedge holes and a relief of Jupiter, Hercules and Bacchus.",
+   "importance": 4,
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "36.48"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Divus Augustus",
+     "r": "28.3"
+    },
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "5.2.5"
+    }
+   ]
+  },
+  {
+   "id": "quarry_proconnesus",
+   "name": "Proconnesus marble quarries",
+   "loc": [
+    27.62,
+    40.62
+   ],
+   "kind": "quarry",
+   "theme": "economy",
+   "from": -100,
+   "to": 641,
+   "commodity": "marble",
+   "summary": "White, blue-veined marble from the island in the Propontis, the commonest marble of the empire by volume. Sarcophagi, capitals and column shafts were roughed out here and shipped half-finished; it became the standard marble of Constantinople and Justinian's churches, and was exported to Ravenna and Africa as prefabricated church kits.",
+   "importance": 4,
+   "scholarship": [
+    "Asgari, in Herz & Waelkens, Classical Marble (1988)"
+   ]
+  },
+  {
+   "id": "quarry_mons_claudianus",
+   "name": "Mons Claudianus",
+   "loc": [
+    33.488,
+    26.809
+   ],
+   "kind": "quarry",
+   "theme": "economy",
+   "from": 50,
+   "to": 250,
+   "commodity": "granodiorite",
+   "place": "mons_claudianus",
+   "summary": "Imperial quarry of grey granodiorite in the Eastern Desert, used for the Pantheon portico, Trajan's Forum and Hadrian's Villa. Some 9,000 ostraca record water rations, letters, and pay for a workforce of up to 1,000 including skilled paid quarrymen, not convicts. An abandoned 18 m column still lies in the quarry. Stone was dragged 120 km to the Nile at Kaine.",
+   "importance": 4,
+   "scholarship": [
+    "Peacock & Maxfield, Mons Claudianus (1997-2001)"
+   ]
+  },
+  {
+   "id": "quarry_mons_porphyrites",
+   "name": "Mons Porphyrites",
+   "loc": [
+    33.35,
+    27.25
+   ],
+   "kind": "quarry",
+   "theme": "economy",
+   "from": 18,
+   "to": 450,
+   "commodity": "porphyry",
+   "place": "mons_porphyrites",
+   "summary": "The only source of imperial purple porphyry. An inscription records its discovery by Gaius Cominius Leugas on 29 July AD 18. Used for imperial statues, the Tetrarchs, the sarcophagi of Helena and Constantina, and the porphyry room of the Byzantine palace that gave the title porphyrogennetos. Worked until around the 5th century; later porphyry was recycled.",
+   "importance": 4
+  },
+  {
+   "id": "quarry_simitthus",
+   "name": "Simitthus (Chemtou) quarries",
+   "loc": [
+    8.578,
+    36.492
+   ],
+   "kind": "quarry",
+   "theme": "economy",
+   "from": -150,
+   "to": 400,
+   "commodity": "marble (giallo antico)",
+   "summary": "Source of giallo antico (marmor Numidicum), first worked by the Numidian kings, who built a hilltop temple. Under Augustus an imperial quarry with a walled labour camp; blocks went by a road to Thabraca and by sea to Rome. Numidian yellow was a luxury emblem in late Republican houses (Lepidus' doorsteps, 78 BC).",
+   "importance": 3,
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "36.49"
+    }
+   ]
+  },
+  {
+   "id": "quarry_docimium",
+   "name": "Docimium quarries",
+   "loc": [
+    30.75,
+    38.86
+   ],
+   "kind": "quarry",
+   "theme": "economy",
+   "from": -50,
+   "to": 450,
+   "commodity": "marble (pavonazzetto)",
+   "summary": "Phrygian quarries of pavonazzetto (purple-veined white, 'Synnadic' marble) and white marble, under imperial control from Augustus or Tiberius, with blocks carrying elaborate quarry inscriptions (consular dates, caesura, officinae). Pavonazzetto was used for the Barbarian statues of Trajan's Forum.",
+   "importance": 3,
+   "sources": [
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "12.8.14"
+    }
+   ]
+  },
+  {
+   "id": "quarry_paros",
+   "name": "Paros (Marathi) quarries",
+   "loc": [
+    25.18,
+    37.07
+   ],
+   "kind": "quarry",
+   "theme": "economy",
+   "from": -509,
+   "to": 300,
+   "commodity": "marble",
+   "summary": "Underground quarries of translucent lychnites marble, so called because it was mined by lamplight. Pliny says it was quarried with lamps. Used for the finest statuary throughout the Hellenistic and Roman periods; galleries at Marathi run some 100 m into the hill.",
+   "importance": 3,
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "36.14"
+    }
+   ]
+  },
+  {
+   "id": "quarry_pentelikon",
+   "name": "Mount Pentelikon quarries",
+   "loc": [
+    23.885,
+    38.085
+   ],
+   "kind": "quarry",
+   "theme": "economy",
+   "from": -509,
+   "to": 300,
+   "commodity": "marble",
+   "summary": "Fine white Attic marble of the Parthenon, exported under the empire as blocks and as finished sculpture and sarcophagi. Herodes Atticus rebuilt the Panathenaic Stadium in Pentelic marble c. 140-144.",
+   "importance": 2,
+   "sources": [
+    {
+     "a": "Pausanias",
+     "w": "Description of Greece",
+     "r": "1.19.6"
+    }
+   ]
+  },
+  {
+   "id": "quarry_hymettus",
+   "name": "Hymettus quarries",
+   "loc": [
+    23.82,
+    37.94
+   ],
+   "kind": "quarry",
+   "theme": "economy",
+   "from": -150,
+   "to": 300,
+   "commodity": "marble",
+   "summary": "Grey-blue Attic marble. Pliny says Lucius Crassus was mocked as 'the Palatine Venus' for putting six Hymettian columns in his house (before 91 BC), the first foreign marble columns in a private house in Rome.",
+   "importance": 2,
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "36.7"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "17.6"
+    }
+   ]
+  },
+  {
+   "id": "quarry_carystus",
+   "name": "Carystus (cipollino) quarries",
+   "loc": [
+    24.42,
+    38.02
+   ],
+   "kind": "quarry",
+   "theme": "economy",
+   "from": -50,
+   "to": 450,
+   "commodity": "marble (cipollino)",
+   "summary": "Green-veined marmor Carystium of southern Euboea, worked by the imperial fiscus. Hundreds of abandoned column drums and shafts lie on the slopes of Mount Ochi. The columns of the Temple of Antoninus and Faustina in the Forum are cipollino.",
+   "importance": 2,
+   "sources": [
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "10.1.6"
+    }
+   ]
+  },
+  {
+   "id": "quarry_teos",
+   "name": "Teos (africano) quarries",
+   "loc": [
+    26.78,
+    38.18
+   ],
+   "kind": "quarry",
+   "theme": "economy",
+   "from": -50,
+   "to": 300,
+   "commodity": "marble (africano)",
+   "summary": "Source of marmor Luculleum, the black-and-red brecciated 'africano', despite the modern name an Ionian stone. Lucius Lucullus first brought it to Rome; Pliny says it was named after him.",
+   "importance": 2,
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "36.49-50"
+    }
+   ]
+  },
+  {
+   "id": "quarry_chios",
+   "name": "Chios (portasanta) quarries",
+   "loc": [
+    26.13,
+    38.38
+   ],
+   "kind": "quarry",
+   "theme": "economy",
+   "from": -50,
+   "to": 400,
+   "commodity": "marble (portasanta)",
+   "summary": "Quarries of the pinkish, mottled marmor Chium, called portasanta from its use for the Holy Door of St Peter's. Pliny says the Chians were the first to use it, for their walls.",
+   "importance": 1,
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "36.46"
+    }
+   ]
+  },
+  {
+   "id": "quarry_thasos",
+   "name": "Thasian marble quarries (Aliki)",
+   "loc": [
+    24.74,
+    40.6
+   ],
+   "kind": "quarry",
+   "theme": "economy",
+   "from": -509,
+   "to": 500,
+   "commodity": "marble",
+   "summary": "Coastal quarries of pure white dolomitic marble on Thasos, cut directly into the sea cliffs at Aliki so blocks could be loaded onto ships. The Byzantine church inside the quarry shows work continued into late antiquity.",
+   "importance": 2
+  },
+  {
+   "id": "quarry_syene",
+   "name": "Aswan granite quarries",
+   "loc": [
+    32.9,
+    24.08
+   ],
+   "kind": "quarry",
+   "theme": "economy",
+   "from": -30,
+   "to": 400,
+   "commodity": "granite",
+   "place": "syene",
+   "summary": "Red granite of Syene, cut since pharaonic times. Under Rome it supplied columns and the obelisks moved to Rome, Constantinople and Alexandria; the unfinished obelisk still lies in the northern quarry. Pliny describes the 'Syenite' stone.",
+   "importance": 2,
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "36.63"
+    }
+   ]
+  },
+  {
+   "id": "quarry_krokeai",
+   "name": "Krokeai (lapis Lacedaemonius)",
+   "loc": [
+    22.62,
+    36.83
+   ],
+   "kind": "quarry",
+   "theme": "economy",
+   "from": -50,
+   "to": 400,
+   "commodity": "porphyry (serpentino)",
+   "summary": "Green porphyry of Laconia, flecked with pale crystals, quarried in small blocks for inlay and opus sectile floors. Pausanias describes the stone as hard to work but beautiful.",
+   "importance": 1,
+   "sources": [
+    {
+     "a": "Pausanias",
+     "w": "Description of Greece",
+     "r": "3.21.4"
+    }
+   ]
+  },
+  {
+   "id": "quarry_taenarum",
+   "name": "Cape Taenarum (rosso antico)",
+   "loc": [
+    22.48,
+    36.43
+   ],
+   "kind": "quarry",
+   "theme": "economy",
+   "from": -50,
+   "to": 400,
+   "commodity": "marble (rosso antico)",
+   "summary": "Deep red marble from the Mani peninsula, quarried mostly in small blocks for inlay, statues of satyrs and Marsyas, and imperial decor. Its use expanded under Hadrian.",
+   "importance": 1
+  },
+  {
+   "id": "quarry_tibur",
+   "name": "Tiburtine travertine quarries",
+   "loc": [
+    12.76,
+    41.96
+   ],
+   "kind": "quarry",
+   "theme": "economy",
+   "from": -150,
+   "to": 400,
+   "commodity": "travertine",
+   "summary": "Lapis Tiburtinus quarries at Bagni di Tivoli, linked to Rome by the Anio and the Via Tiburtina. Some 100,000 cubic metres of travertine went into the Colosseum's outer ring; Vitruvius notes it withstands weather but splits in fire.",
+   "importance": 3,
+   "sources": [
+    {
+     "a": "Vitruvius",
+     "w": "De Architectura",
+     "r": "2.7.2"
+    },
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "5.3.11"
+    }
+   ]
+  },
+  {
+   "id": "quarry_grotta_oscura",
+   "name": "Grotta Oscura tufa quarries",
+   "loc": [
+    12.47,
+    42.02
+   ],
+   "kind": "quarry",
+   "theme": "economy",
+   "from": -396,
+   "to": -100,
+   "commodity": "tufa",
+   "summary": "Yellow tufa quarries in the territory of Veii, taken over by Rome after 396 BC. The 'Servian' wall of the 370s BC was built mainly of Grotta Oscura blocks, the archaeological signature of the post-Gallic rebuilding of Rome.",
+   "importance": 2,
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "6.32.1"
+    }
+   ]
+  },
+  {
+   "id": "quarry_pozzuoli",
+   "name": "Pulvis Puteolanus (Pozzuoli ash)",
+   "loc": [
+    14.12,
+    40.83
+   ],
+   "kind": "quarry",
+   "theme": "economy",
+   "from": -200,
+   "to": 500,
+   "commodity": "pozzolana",
+   "summary": "Volcanic ash from the Phlegraean Fields that made Roman hydraulic concrete set underwater. Vitruvius describes its properties; it was shipped as far as Caesarea Maritima, where Herod's harbour moles of 22-10 BC used Italian pozzolana.",
+   "importance": 3,
+   "sources": [
+    {
+     "a": "Vitruvius",
+     "w": "De Architectura",
+     "r": "2.6.1"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "35.166"
+    }
+   ]
+  },
+  {
+   "id": "quarry_purbeck",
+   "name": "Purbeck marble quarries",
+   "loc": [
+    -2.03,
+    50.61
+   ],
+   "kind": "quarry",
+   "theme": "economy",
+   "from": 43,
+   "to": 300,
+   "commodity": "marble",
+   "summary": "Fossil-rich limestone of Dorset, taking a polish like marble, cut for inscriptions, mortars and veneers soon after the conquest. It was used in the Neronian palace at Fishbourne and for the dedication slab of the temple of Neptune and Minerva at Chichester.",
+   "importance": 1
+  },
+  {
+   "id": "quarry_aurisina",
+   "name": "Aurisina limestone quarries",
+   "loc": [
+    13.67,
+    45.75
+   ],
+   "kind": "quarry",
+   "theme": "economy",
+   "from": -100,
+   "to": 450,
+   "commodity": "limestone",
+   "summary": "Quarries of the Karst above Tergeste, supplying the building stone and statue bases of Aquileia and Venetia et Histria; the 'Cava Romana' has Roman cut faces.",
+   "importance": 1
+  },
+  {
+   "id": "quarry_wadi_hammamat",
+   "name": "Wadi Hammamat (Bekhen) quarries",
+   "loc": [
+    33.6,
+    25.97
+   ],
+   "kind": "quarry",
+   "theme": "economy",
+   "from": -30,
+   "to": 250,
+   "commodity": "basanite",
+   "summary": "Greywacke and basanite quarries on the Coptos-Myos Hormos road, worked since the Old Kingdom. Rock inscriptions include Roman visitors; the dark stone was used for imperial portraits and basins.",
+   "importance": 1
+  },
+  {
+   "id": "grain_egypt",
+   "name": "Grain lands of Egypt (Arsinoite nome)",
+   "loc": [
+    30.85,
+    29.4
+   ],
+   "kind": "grain",
+   "theme": "economy",
+   "from": -30,
+   "to": 618,
+   "commodity": "wheat",
+   "summary": "The Nile valley and Fayum were the empire's surest granary. The Epitome de Caesaribus credits Augustus with 20 million modii a year from Egypt; Josephus has Egypt feeding Rome four months a year to Africa's eight. Villages like Karanis and Soknopaiou Nesos, with their tax receipts on papyrus, show the machinery. From 330 the Egyptian annona went to Constantinople (8 million artabas under Justinian's Edict 13) until the Persian conquest of 618-619 ended the free bread ration there.",
+   "importance": 5,
+   "sources": [
+    {
+     "a": "Josephus",
+     "w": "Jewish War",
+     "r": "2.386"
+    },
+    {
+     "a": "Epitome de Caesaribus",
+     "w": "Epitome",
+     "r": "1.6"
+    },
+    {
+     "a": "Justinian",
+     "w": "Edict 13",
+     "r": "8"
+    }
+   ]
+  },
+  {
+   "id": "grain_bagradas",
+   "name": "Imperial estates of the Bagradas valley",
+   "loc": [
+    9.2,
+    36.55
+   ],
+   "kind": "grain",
+   "theme": "economy",
+   "from": -146,
+   "to": 640,
+   "commodity": "wheat",
+   "summary": "The Medjerda valley, heart of Africa Proconsularis, was carved into vast estates, many confiscated by Nero, who Pliny says executed six men who owned half of Africa. Inscriptions record the rules for tenant coloni: the lex Manciana and its Trajanic application at Henchir Mettich (116-117), Hadrian's law on uncultivated land, and the petition of the coloni of the saltus Burunitanus to Commodus (c. 181) against illegal labour demands by the conductor.",
+   "importance": 4,
+   "scholarship": [
+    "Kehoe, The Economics of Agriculture on Roman Imperial Estates in North Africa (1988)"
+   ],
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "18.35"
+    },
+    {
+     "a": "CIL",
+     "w": "VIII",
+     "r": "25902 (Henchir Mettich)"
+    },
+    {
+     "a": "CIL",
+     "w": "VIII",
+     "r": "10570 (saltus Burunitanus)"
+    }
+   ]
+  },
+  {
+   "id": "grain_sicily",
+   "name": "Sicilian grain (Campi Leontini)",
+   "loc": [
+    14.95,
+    37.35
+   ],
+   "kind": "grain",
+   "theme": "economy",
+   "from": -241,
+   "to": 640,
+   "commodity": "wheat",
+   "summary": "Cato called Sicily the Republic's storeroom (cella penaria). Under the lex Hieronica the cities paid a tithe in kind, and Rome bought a second tenth; Cicero's Verrines (70 BC) detail how Verres squeezed the farmers of Leontini, whose plain had 84 registered cultivators in his first year and 32 in his third. In late antiquity the papal patrimony of Sicily, as Gregory the Great's letters show, was a major grain source for Rome.",
+   "importance": 4,
+   "sources": [
+    {
+     "a": "Cicero",
+     "w": "In Verrem",
+     "r": "2.2.5"
+    },
+    {
+     "a": "Cicero",
+     "w": "In Verrem",
+     "r": "2.3.120-121"
+    }
+   ]
+  },
+  {
+   "id": "grain_sardinia",
+   "name": "Sardinian grain (Campidano)",
+   "loc": [
+    8.85,
+    39.45
+   ],
+   "kind": "grain",
+   "theme": "economy",
+   "from": -238,
+   "to": 640,
+   "commodity": "wheat",
+   "summary": "With Sicily and Africa one of the 'three granaries of the Republic' (Cicero, Pro lege Manilia 34). Sardinia paid a tithe; Pompey's cura annonae in 57 BC sent him there in person, and the island's supply was a weapon in civil wars (Caesar seized it in 49, Sextus Pompey blockaded it).",
+   "importance": 3,
+   "sources": [
+    {
+     "a": "Cicero",
+     "w": "Pro lege Manilia",
+     "r": "34"
+    }
+   ]
+  },
+  {
+   "id": "grain_ager_campanus",
+   "name": "Ager Campanus",
+   "loc": [
+    14.25,
+    41.05
+   ],
+   "kind": "grain",
+   "theme": "economy",
+   "from": -211,
+   "to": 100,
+   "commodity": "wheat, spelt",
+   "summary": "The most fertile land in Italy, confiscated after the revolt of Capua in 211 BC and leased by the censors as ager publicus, a steady revenue source until Caesar's lex Iulia agraria of 59 BC distributed it to 20,000 fathers of three or more children. Cicero had fought the Rullan bill of 63 that would have sold it.",
+   "importance": 3,
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "26.16"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Divus Iulius",
+     "r": "20.3"
+    },
+    {
+     "a": "Cicero",
+     "w": "De lege agraria",
+     "r": "2.76-84"
+    }
+   ]
+  },
+  {
+   "id": "grain_bosporus",
+   "name": "Bosporan grain (Panticapaeum)",
+   "loc": [
+    36.47,
+    45.35
+   ],
+   "kind": "grain",
+   "theme": "economy",
+   "from": -63,
+   "to": 400,
+   "commodity": "wheat",
+   "summary": "The client kingdom of the Cimmerian Bosporus, whose grain fed Athens in the classical period and, under Rome, the armies of Cappadocia and the Danube. Its kings received Roman subsidies and kept a garrison; Strabo describes its huge exports from Theodosia and Panticapaeum.",
+   "importance": 2,
+   "sources": [
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "7.4.6"
+    }
+   ]
+  },
+  {
+   "id": "grain_cyrenaica_silphium",
+   "name": "Cyrenaic silphium",
+   "loc": [
+    21.86,
+    32.82
+   ],
+   "kind": "grain",
+   "theme": "economy",
+   "from": -509,
+   "to": 60,
+   "commodity": "silphium",
+   "summary": "The resinous plant that made Cyrene rich and appeared on its coins. In 49 BC Caesar took 1,500 pounds of laserpicium from the treasury. Pliny says it had disappeared in his time, overgrazed by flocks of tax-farmers, and only one stalk had been found in living memory, sent to Nero.",
+   "importance": 2,
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "19.38-40"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "22.100-106"
+    }
+   ]
+  },
+  {
+   "id": "wine_falernian",
+   "name": "Ager Falernus",
+   "loc": [
+    14.0,
+    41.15
+   ],
+   "kind": "wine",
+   "theme": "economy",
+   "from": -200,
+   "to": 500,
+   "commodity": "wine",
+   "summary": "The slopes of Mons Massicus in northern Campania, the most prized wine district of Italy. Pliny ranks Falernian second only to Setinum and Caecuban; the Opimian vintage of 121 BC was still drunk, as a bitter honey-like residue, nearly 200 years later. Graffiti at Pompeii price it at four asses a measure against one for ordinary wine.",
+   "importance": 4,
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "14.55"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "14.62-63"
+    },
+    {
+     "a": "CIL",
+     "w": "IV",
+     "r": "1679"
+    }
+   ]
+  },
+  {
+   "id": "wine_caecuban",
+   "name": "Caecubum",
+   "loc": [
+    13.4,
+    41.3
+   ],
+   "kind": "wine",
+   "theme": "economy",
+   "from": -100,
+   "to": 70,
+   "commodity": "wine",
+   "summary": "Wine of the marshy poplar groves around Amyclae and Fundi, Horace's emblem of the luxury Cleopatra threatened. Pliny says the vineyard was destroyed in his day by neglect and by Nero's unfinished canal from Lake Avernus to Ostia.",
+   "importance": 2,
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "14.61"
+    },
+    {
+     "a": "Horace",
+     "w": "Odes",
+     "r": "1.37.5"
+    }
+   ]
+  },
+  {
+   "id": "wine_setinum",
+   "name": "Setia",
+   "loc": [
+    13.03,
+    41.53
+   ],
+   "kind": "wine",
+   "theme": "economy",
+   "from": -100,
+   "to": 200,
+   "commodity": "wine",
+   "summary": "Hill town above the Pomptine plain whose wine Augustus preferred, Pliny says, because it did not upset his digestion. A standard name in Martial's lists of the finest wines.",
+   "importance": 1,
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "14.61"
+    },
+    {
+     "a": "Martial",
+     "w": "Epigrams",
+     "r": "13.112"
+    }
+   ]
+  },
+  {
+   "id": "wine_vesuvius",
+   "name": "Vesuvian vineyards (Boscoreale)",
+   "loc": [
+    14.48,
+    40.77
+   ],
+   "kind": "wine",
+   "theme": "economy",
+   "from": -150,
+   "to": 79,
+   "commodity": "wine",
+   "summary": "The slopes of Vesuvius were covered with villae rusticae producing wine for export in Dressel 2-4 amphorae; the Pisanella villa at Boscoreale had a press room and 84 dolia. Pompeii's own wine exports reached Gaul and Spain. The eruption of 79 destroyed the district; Martial laments the green vines now under ash.",
+   "importance": 3,
+   "sources": [
+    {
+     "a": "Martial",
+     "w": "Epigrams",
+     "r": "4.44"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "14.70"
+    }
+   ]
+  },
+  {
+   "id": "wine_cosa_sestius",
+   "name": "Ager Cosanus and the Sestius estates",
+   "loc": [
+    11.29,
+    42.43
+   ],
+   "kind": "wine",
+   "theme": "economy",
+   "from": -150,
+   "to": 50,
+   "commodity": "wine",
+   "summary": "The territory of Cosa, where the Sestii (including Cicero's friend Publius Sestius) produced wine in amphorae stamped SES and exported them to Gaul in vast numbers: the Grand Congloué wreck off Marseille carried around 1,200 of them. The nearby villa of Settefinestre, excavated 1976-81, became the textbook case of the slave-run villa and its decline in the 2nd century AD.",
+   "scholarship": [
+    "Carandini (ed.), Settefinestre (1985)",
+    "Manacorda, JRS 68 (1978)"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "wine_baeterrae",
+   "name": "Narbonensian vineyards (Baeterrae)",
+   "loc": [
+    3.22,
+    43.34
+   ],
+   "kind": "wine",
+   "theme": "economy",
+   "from": -30,
+   "to": 300,
+   "commodity": "wine",
+   "summary": "Gaulish wine production expanded rapidly under Augustus: Pliny praises the wine of Baeterrae. Gauloise 4 flat-bottomed amphorae from kilns like Sallèles d'Aude carried Narbonensian wine to Rome, where they are common at Ostia in the 2nd century. Domitian's edict of c. 92 ordering half the provincial vineyards uprooted was not enforced.",
+   "importance": 3,
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "14.68"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Domitian",
+     "r": "7.2"
+    }
+   ]
+  },
+  {
+   "id": "wine_salleles",
+   "name": "Sallèles d'Aude amphora works",
+   "loc": [
+    2.95,
+    43.27
+   ],
+   "kind": "wine",
+   "theme": "economy",
+   "from": 10,
+   "to": 300,
+   "commodity": "wine amphorae",
+   "summary": "Excavated pottery complex on the canalised Aude producing Gauloise 4 wine amphorae, tiles and tablewares across three centuries, with kilns, clay pits, drying sheds and a workers' cemetery. It gives the clearest picture of an industrial amphora workshop serving a wine region.",
+   "scholarship": [
+    "Laubenheimer, Sallèles d'Aude (1990)"
+   ],
+   "importance": 2
+  },
+  {
+   "id": "wine_burdigala",
+   "name": "Burdigala and the vitis Biturica",
+   "loc": [
+    -0.58,
+    44.84
+   ],
+   "kind": "wine",
+   "theme": "economy",
+   "from": 40,
+   "to": 500,
+   "commodity": "wine",
+   "place": "burdigala",
+   "summary": "Pliny notes a hardy vine, Biturica, suited to wet and windy conditions; the Bituriges Vivisci of Burdigala were growing it by the mid-1st century, the beginning of Bordeaux wine. Ausonius (4th century) speaks of his own vineyards near the city.",
+   "importance": 2,
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "14.27"
+    },
+    {
+     "a": "Columella",
+     "w": "De Re Rustica",
+     "r": "3.2.19"
+    }
+   ]
+  },
+  {
+   "id": "wine_moselle",
+   "name": "Moselle vineyards (Piesport)",
+   "loc": [
+    6.92,
+    49.88
+   ],
+   "kind": "wine",
+   "theme": "economy",
+   "from": 250,
+   "to": 500,
+   "commodity": "wine",
+   "summary": "Ausonius' Mosella (c. 371) describes vine-clad slopes above the river serving the imperial court at Trier. At Piesport an excavated 4th-century press complex with six presses is the largest Roman wine press north of the Alps.",
+   "importance": 2,
+   "sources": [
+    {
+     "a": "Ausonius",
+     "w": "Mosella",
+     "r": "152-168"
+    }
+   ]
+  },
+  {
+   "id": "wine_vienna_picatum",
+   "name": "Allobrogian resin wine of Vienna",
+   "loc": [
+    4.87,
+    45.52
+   ],
+   "kind": "wine",
+   "theme": "economy",
+   "from": 30,
+   "to": 300,
+   "commodity": "wine",
+   "place": "vienna",
+   "summary": "The Allobroges developed a vine (Allobrogica) that ripened in cold, and a pitch-flavoured wine (picatum) of Vienna that sold, Pliny says, at high prices. Its success marks the spread of viticulture north up the Rhône valley.",
+   "importance": 1,
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "14.18"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "14.57"
+    },
+    {
+     "a": "Martial",
+     "w": "Epigrams",
+     "r": "13.107"
+    }
+   ]
+  },
+  {
+   "id": "wine_laietania",
+   "name": "Laietanian wine (Tarraconensis)",
+   "loc": [
+    2.2,
+    41.5
+   ],
+   "kind": "wine",
+   "theme": "economy",
+   "from": -40,
+   "to": 120,
+   "commodity": "wine",
+   "summary": "Coastal Catalonia produced wine in quantity rather than quality (Pliny), exported in Pascual 1 and Dressel 2-4 amphorae to Gaul, Rome and Britain; kilns at sites like El Collet de Sant Antoni and villas such as Torre Llauder line the coast.",
+   "importance": 2,
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "14.71"
+    },
+    {
+     "a": "Martial",
+     "w": "Epigrams",
+     "r": "1.26.9"
+    }
+   ]
+  },
+  {
+   "id": "wine_chios",
+   "name": "Chian wine",
+   "loc": [
+    26.13,
+    38.37
+   ],
+   "kind": "wine",
+   "theme": "economy",
+   "from": -509,
+   "to": 641,
+   "commodity": "wine",
+   "summary": "The most prized Greek wine at Rome, especially the Ariusian. Caesar served Chian and Falernian at his triumphal banquets. Chian amphorae with their distinctive bulging necks are found from the Black Sea to Italy.",
+   "importance": 2,
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "14.73"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "14.97"
+    }
+   ]
+  },
+  {
+   "id": "wine_gaza",
+   "name": "Gaza and Ascalon wine",
+   "loc": [
+    34.45,
+    31.5
+   ],
+   "kind": "wine",
+   "theme": "economy",
+   "from": 300,
+   "to": 640,
+   "commodity": "wine",
+   "summary": "Late antique Palestine exported wine in Late Roman Amphora 4 (Gaza amphora) across the Mediterranean as far as Gaul and Britain. Gregory of Tours and Sidonius mention 'Gaza wine' as a luxury in Gaul, and monastic estates in the Negev and around Gaza produced it.",
+   "importance": 3,
+   "sources": [
+    {
+     "a": "Gregory of Tours",
+     "w": "Histories",
+     "r": "7.29"
+    },
+    {
+     "a": "Sidonius Apollinaris",
+     "w": "Carmina",
+     "r": "17.15-16"
+    }
+   ]
+  },
+  {
+   "id": "wine_cilicia_lra1",
+   "name": "Cilician and Cypriot amphora production (LRA 1)",
+   "loc": [
+    34.18,
+    36.48
+   ],
+   "kind": "wine",
+   "theme": "economy",
+   "from": 350,
+   "to": 640,
+   "commodity": "wine, oil",
+   "summary": "Coastal Cilicia and Cyprus manufactured Late Roman Amphora 1, the standard container for wine and oil shipped to the Danube armies under the annona militaris, organised after 536 through Justinian's quaestura exercitus linking Moesia and Scythia with Cyprus, Caria and the Cyclades. Kilns are known around Elaiussa Sebaste.",
+   "importance": 2,
+   "sources": [
+    {
+     "a": "Justinian",
+     "w": "Novels",
+     "r": "41"
+    },
+    {
+     "a": "Justinian",
+     "w": "Novels",
+     "r": "50"
+    }
+   ]
+  },
+  {
+   "id": "wine_mareotis",
+   "name": "Lake Mareotis vineyards",
+   "loc": [
+    29.8,
+    30.95
+   ],
+   "kind": "wine",
+   "theme": "economy",
+   "from": -300,
+   "to": 640,
+   "commodity": "wine",
+   "summary": "Vineyards and amphora kilns ringing Lake Mareotis behind Alexandria. Horace's Cleopatra is 'maddened by Mareotic wine'; Strabo praises it. In late antiquity the district supplied the pilgrims of Abu Mena and the Alexandrian market.",
+   "importance": 2,
+   "sources": [
+    {
+     "a": "Horace",
+     "w": "Odes",
+     "r": "1.37.14"
+    },
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "17.1.14"
+    }
+   ]
+  },
+  {
+   "id": "wine_pucinum",
+   "name": "Pucinum",
+   "loc": [
+    13.62,
+    45.77
+   ],
+   "kind": "wine",
+   "theme": "economy",
+   "from": -30,
+   "to": 200,
+   "commodity": "wine",
+   "summary": "Rocky hill on the Adriatic near the Timavus whose wine Livia credited for her long life (she died at 86). Pliny tells the story; the site lies near Duino.",
+   "certainty": "probable",
+   "importance": 1,
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "14.60"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "17.31"
+    }
+   ]
+  },
+  {
+   "id": "oil_baetica",
+   "name": "Baetican oil and the Guadalquivir kilns",
+   "loc": [
+    -5.53,
+    37.66
+   ],
+   "kind": "oil",
+   "theme": "economy",
+   "from": -30,
+   "to": 300,
+   "commodity": "olive oil",
+   "summary": "Estates along the Baetis and Singilis between Corduba and Hispalis shipped olive oil in globular Dressel 20 amphorae, made at over 100 riverside kiln sites. These amphorae make up most of Monte Testaccio in Rome and reached every legionary base on the Rhine and in Britain. Painted labels (tituli picti) record weight, shipper and fiscal control at Hispalis; under the Severans many estates were confiscated and the oil became fiscal property.",
+   "importance": 5,
+   "scholarship": [
+    "Remesal Rodríguez, La annona militaris y la exportación de aceite bético a Germania (1986)"
+   ],
+   "sources": [
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "3.2.6"
+    }
+   ]
+  },
+  {
+   "id": "oil_tripolitania",
+   "name": "Tripolitanian olive belt",
+   "loc": [
+    13.6,
+    32.45
+   ],
+   "kind": "oil",
+   "theme": "economy",
+   "from": -46,
+   "to": 450,
+   "commodity": "olive oil",
+   "place": "leptis_magna",
+   "summary": "The Tarhuna plateau and the wadis behind Leptis held hundreds of olive farms with multiple presses. In 46 BC Caesar fined Leptis 3 million pounds of oil a year for backing the Pompeians, a measure of its capacity. Septimius Severus, a Leptitanian, is said to have endowed a free oil distribution at Rome.",
+   "importance": 4,
+   "sources": [
+    {
+     "a": "[Caesar]",
+     "w": "Bellum Africum",
+     "r": "97.3"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Severus",
+     "r": "18.3"
+    }
+   ]
+  },
+  {
+   "id": "oil_byzacena",
+   "name": "Olive country of Byzacena",
+   "loc": [
+    9.9,
+    35.3
+   ],
+   "kind": "oil",
+   "theme": "economy",
+   "from": 100,
+   "to": 640,
+   "commodity": "olive oil",
+   "place": "thysdrus",
+   "summary": "Central Tunisia around Sufetula and Thysdrus became, from the 2nd century, the empire's oil field, its African amphorae replacing Baetican ones at Rome. The prosperity paid for Thysdrus' amphitheatre for 35,000. Oil production continued under Vandal and Byzantine rule until the Arab raid on Sufetula in 647.",
+   "importance": 4,
+   "scholarship": [
+    "Mattingly, JRA 1 (1988)"
+   ]
+  },
+  {
+   "id": "oil_limestone_massif",
+   "name": "Limestone Massif (\"Dead Cities\")",
+   "loc": [
+    36.7,
+    36.2
+   ],
+   "kind": "oil",
+   "theme": "economy",
+   "from": 300,
+   "to": 610,
+   "commodity": "olive oil",
+   "summary": "Hundreds of villages in the hills between Antioch and Aleppo, with stone houses, churches and oil presses, flourished on olive monoculture in the 4th-6th centuries. Georges Tchalenko argued they were oil exporters; later work emphasises mixed farming. Decline began before the Arab conquest.",
+   "scholarship": [
+    "Tchalenko, Villages antiques de la Syrie du Nord (1953-58)",
+    "Tate, Les campagnes de la Syrie du Nord (1992)"
+   ],
+   "importance": 3
+  },
+  {
+   "id": "oil_istria",
+   "name": "Istrian oil (Fažana)",
+   "loc": [
+    13.8,
+    44.93
+   ],
+   "kind": "oil",
+   "theme": "economy",
+   "from": -30,
+   "to": 250,
+   "commodity": "olive oil",
+   "summary": "Pliny ranks Istrian oil with that of Baetica, second to Venafrum. At Fažana the kilns of the senator Gaius Laecanius Bassus (cos. 64) made Dressel 6B oil amphorae; after his line died out the works passed to the emperor.",
+   "importance": 2,
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "15.8"
+    }
+   ]
+  },
+  {
+   "id": "oil_venafrum",
+   "name": "Venafrum",
+   "loc": [
+    14.04,
+    41.48
+   ],
+   "kind": "oil",
+   "theme": "economy",
+   "from": -200,
+   "to": 300,
+   "commodity": "olive oil",
+   "summary": "Town of the upper Volturnus whose oil Pliny and Varro rank first in Italy. Cato lists Venafrum as a place to buy presses and buckets. An aqueduct edict of Augustus from the town survives.",
+   "importance": 2,
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "15.8"
+    },
+    {
+     "a": "Cato the Elder",
+     "w": "De Agricultura",
+     "r": "135.2"
+    },
+    {
+     "a": "Varro",
+     "w": "De Re Rustica",
+     "r": "1.2.6"
+    }
+   ]
+  },
+  {
+   "id": "garum_baelo",
+   "name": "Baelo Claudia salting works",
+   "loc": [
+    -5.774,
+    36.09
+   ],
+   "kind": "garum",
+   "theme": "economy",
+   "from": -100,
+   "to": 500,
+   "commodity": "garum, salt fish",
+   "place": "baelo_claudia",
+   "summary": "Town on the Strait of Gibraltar built around fish-salting vats for the tuna that pass through in spring; the factory quarter lies between forum and beach. Baelo had municipal status under Claudius. A Roman-period garum residue was recovered from one vat.",
+   "importance": 3,
+   "sources": [
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "3.1.8"
+    }
+   ]
+  },
+  {
+   "id": "garum_carthago_nova",
+   "name": "Garum sociorum of Carthago Nova",
+   "loc": [
+    -0.99,
+    37.6
+   ],
+   "kind": "garum",
+   "theme": "economy",
+   "from": -100,
+   "to": 200,
+   "commodity": "garum",
+   "summary": "Pliny says the finest garum, the 'garum of the allies', came from the fish works of Carthago Nova, selling at 1,000 sesterces for two congii (about 6.5 litres), more than any perfume.",
+   "importance": 2,
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "31.94"
+    },
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "3.4.6"
+    }
+   ]
+  },
+  {
+   "id": "garum_lixus",
+   "name": "Lixus salting complex",
+   "loc": [
+    -6.12,
+    35.2
+   ],
+   "kind": "garum",
+   "theme": "economy",
+   "from": -50,
+   "to": 400,
+   "commodity": "garum",
+   "place": "lixus",
+   "summary": "Mauretanian port with the largest known fish-salting installations of the western Mediterranean, over 140 vats in several factories. Tied to the tuna migrations of the Atlantic coast.",
+   "importance": 2
+  },
+  {
+   "id": "garum_cotta",
+   "name": "Cotta (Tangier)",
+   "loc": [
+    -5.92,
+    35.77
+   ],
+   "kind": "garum",
+   "theme": "economy",
+   "from": 1,
+   "to": 300,
+   "commodity": "garum",
+   "summary": "Small fish-salting factory near Cape Spartel with 15 vats and a tower, a well preserved example of the many Atlantic-Mauretanian salting sites.",
+   "importance": 1
+  },
+  {
+   "id": "garum_troia",
+   "name": "Tróia (Setúbal)",
+   "loc": [
+    -8.88,
+    38.48
+   ],
+   "kind": "garum",
+   "theme": "economy",
+   "from": 1,
+   "to": 450,
+   "commodity": "garum",
+   "summary": "On the sand spit across from Caetobriga, the largest fish-salting complex known in the Roman world by vat volume, with over 25 factories, baths and an early Christian basilica.",
+   "importance": 2
+  },
+  {
+   "id": "garum_pompeii_scaurus",
+   "name": "House of Umbricius Scaurus, Pompeii",
+   "loc": [
+    14.484,
+    40.748
+   ],
+   "kind": "garum",
+   "theme": "economy",
+   "from": 50,
+   "to": 79,
+   "commodity": "garum",
+   "summary": "Home of Pompeii's leading garum maker, whose atrium mosaic shows four urcei labelled with his brands: 'flower of garum', 'best liquamen from the workshop of Scaurus'. His jars are found across Campania.",
+   "importance": 2,
+   "scholarship": [
+    "Curtis, AJA 88 (1984)"
+   ]
+  },
+  {
+   "id": "garum_neapolis_nabeul",
+   "name": "Neapolis (Nabeul) salting works",
+   "loc": [
+    10.73,
+    36.45
+   ],
+   "kind": "garum",
+   "theme": "economy",
+   "from": 100,
+   "to": 450,
+   "commodity": "garum",
+   "summary": "Fish-salting factory of Africa Proconsularis on Cape Bon, one of a string of African coastal installations that grew as Spanish production declined in the 3rd century.",
+   "importance": 1
+  },
+  {
+   "id": "pottery_arretium",
+   "name": "Arretine terra sigillata",
+   "loc": [
+    11.88,
+    43.46
+   ],
+   "kind": "pottery",
+   "theme": "economy",
+   "from": -40,
+   "to": 70,
+   "commodity": "terra sigillata",
+   "place": "arretium",
+   "summary": "The glossy red tableware made at Arretium by firms like Marcus Perennius and Gnaeus Ateius, stamped with the potter's name, was the first truly empire-wide product. Branch workshops at Pisa and Lyon (La Muette) served the Rhine armies; the precise dating of stamps makes sigillata a key archaeological clock.",
+   "importance": 4,
+   "scholarship": [
+    "Oxé, Comfort & Kenrick, Corpus Vasorum Arretinorum (2nd ed. 2000)"
+   ],
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "35.160"
+    }
+   ]
+  },
+  {
+   "id": "pottery_la_graufesenque",
+   "name": "La Graufesenque (Condatomagus)",
+   "loc": [
+    3.09,
+    44.09
+   ],
+   "kind": "pottery",
+   "theme": "economy",
+   "from": 10,
+   "to": 120,
+   "commodity": "terra sigillata",
+   "summary": "South Gaulish sigillata centre near Millau. Graffiti firing lists record kiln loads of up to 30,000 vessels shared by several potters. Its wares displaced Italian sigillata across the West by AD 40; an unopened crate of 90 South Gaulish bowls and 37 lamps was found at Pompeii in 1881.",
+   "importance": 4,
+   "scholarship": [
+    "Marichal, Les graffites de La Graufesenque (1988)"
+   ]
+  },
+  {
+   "id": "pottery_lezoux",
+   "name": "Lezoux",
+   "loc": [
+    3.38,
+    45.83
+   ],
+   "kind": "pottery",
+   "theme": "economy",
+   "from": 40,
+   "to": 260,
+   "commodity": "terra sigillata",
+   "summary": "Central Gaulish sigillata centre in the Auvergne, dominant in the 2nd century under potters such as Cinnamus, Paternus and Divixtus, whose decorated bowls fill British and Rhineland sites. Over 200 kilns are known.",
+   "importance": 3
+  },
+  {
+   "id": "pottery_rheinzabern",
+   "name": "Rheinzabern (Tabernae)",
+   "loc": [
+    8.28,
+    49.12
+   ],
+   "kind": "pottery",
+   "theme": "economy",
+   "from": 150,
+   "to": 280,
+   "commodity": "terra sigillata",
+   "summary": "Largest East Gaulish sigillata centre, supplying the Rhine and Danube frontiers until the crises of the 3rd century; over 100 kilns and moulds of known potters (Comitialis, Ianu) survive.",
+   "importance": 2
+  },
+  {
+   "id": "pottery_ars",
+   "name": "African Red Slip workshops (El Mahrine)",
+   "loc": [
+    9.83,
+    36.8
+   ],
+   "kind": "pottery",
+   "theme": "economy",
+   "from": 100,
+   "to": 650,
+   "commodity": "fine tableware",
+   "summary": "Northern and central Tunisia produced African Red Slip ware from the late 1st century to the mid-7th, the dominant fine ware of the Mediterranean after c. 200. Workshops at El Mahrine and Sidi Marzouk Tounsi stamped Christian motifs in late antiquity. John Hayes' 1972 typology is the foundation of late Roman ceramic dating.",
+   "importance": 4,
+   "scholarship": [
+    "Hayes, Late Roman Pottery (1972)",
+    "Bonifay, Etudes sur la céramique romaine tardive d'Afrique (2004)"
+   ]
+  },
+  {
+   "id": "pottery_phocaea",
+   "name": "Phocaean Red Slip (Late Roman C)",
+   "loc": [
+    26.75,
+    38.67
+   ],
+   "kind": "pottery",
+   "theme": "economy",
+   "from": 350,
+   "to": 650,
+   "commodity": "fine tableware",
+   "summary": "Eastern competitor to African Red Slip, made at Phocaea from the late 4th to the 7th century and traded through the Aegean and Black Sea to Britain and Spain in the late 5th and 6th centuries.",
+   "importance": 2
+  },
+  {
+   "id": "pottery_mutina_lamps",
+   "name": "Mutina lamp workshops (FORTIS)",
+   "loc": [
+    10.93,
+    44.65
+   ],
+   "kind": "pottery",
+   "theme": "economy",
+   "from": 50,
+   "to": 200,
+   "commodity": "oil lamps",
+   "place": "mutina",
+   "summary": "North Italian 'factory lamps' (Firmalampen) stamped FORTIS, STROBILI and other names were made around Mutina and imitated across the northern provinces, a well studied case of brand copying.",
+   "importance": 1,
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "35.161"
+    }
+   ]
+  },
+  {
+   "id": "pottery_tiber_figlinae",
+   "name": "Brickworks of the middle Tiber",
+   "loc": [
+    12.4,
+    42.4
+   ],
+   "kind": "pottery",
+   "theme": "economy",
+   "from": 50,
+   "to": 350,
+   "commodity": "bricks",
+   "summary": "Clay beds and brickyards (figlinae) of the Tiber valley north of Rome supplied the capital. Many belonged to senatorial families and then the imperial house: Domitia Lucilla, mother of Marcus Aurelius, was a major owner. Stamps of AD 123 carry consular dates, giving architects a precise dating tool for Hadrianic buildings like the Pantheon.",
+   "certainty": "probable",
+   "importance": 2,
+   "scholarship": [
+    "Bloch, I bolli laterizi e la storia edilizia romana (1947)",
+    "Steinby, Lateres signati Ostienses (1977-78)"
+   ]
+  },
+  {
+   "id": "port_portus",
+   "name": "Portus (harbours of Claudius and Trajan)",
+   "loc": [
+    12.26,
+    41.78
+   ],
+   "kind": "port",
+   "theme": "economy",
+   "from": 42,
+   "to": 600,
+   "commodity": "grain, everything",
+   "place": "portus",
+   "summary": "Claudius began a deep-water harbour north of the Tiber mouth in 42, with moles and a lighthouse set on the sunk hull of the ship that had brought Caligula's Vatican obelisk; it was dedicated by Nero in 64, but 200 ships sank inside it in a storm in 62. Trajan added the inner hexagonal basin (32 ha) c. 112 and a canal to the Tiber. Portus became the city's main port, gained its own walls and bishop, and was the key to Rome in the Gothic sieges of 408-410 and 537.",
+   "importance": 5,
+   "scholarship": [
+    "Keay, Millett, Paroli & Strutt, Portus (2005)"
+   ],
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Divus Claudius",
+     "r": "20.3"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "15.18"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "60.11"
+    },
+    {
+     "a": "Juvenal",
+     "w": "Satires",
+     "r": "12.75-81"
+    }
+   ]
+  },
+  {
+   "id": "port_ostia",
+   "name": "Ostia river port and horrea",
+   "loc": [
+    12.289,
+    41.754
+   ],
+   "kind": "port",
+   "theme": "economy",
+   "from": -338,
+   "to": 450,
+   "commodity": "grain",
+   "place": "ostia",
+   "summary": "Rome's original port at the Tiber mouth, seat from 267 BC of a quaestor Ostiensis for the grain supply. Its warehouses (Horrea of Hortensius, Grandi Horrea, Horrea Epagathiana) stored the annona before barges (naves caudicariae) towed it 35 km upstream. After Portus took the seaborne trade, Ostia remained the administrative and residential town of the guilds until its decline in the 4th-5th centuries.",
+   "importance": 4,
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "1.33.9"
+    },
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "5.3.5"
+    }
+   ]
+  },
+  {
+   "id": "port_puteoli",
+   "name": "Puteoli",
+   "loc": [
+    14.12,
+    40.82
+   ],
+   "kind": "port",
+   "theme": "economy",
+   "from": -194,
+   "to": 400,
+   "commodity": "grain, eastern goods",
+   "place": "puteoli",
+   "summary": "Citizen colony of 194 BC and Rome's chief port for eastern trade until Portus was finished. Seneca describes crowds on the mole watching for the Alexandrian grain ships, recognisable by their topsails. Paul landed here in 60. The Tyrian traders' letter of 174 (OGIS 595) shows a foreign merchant community struggling to pay for its station. Bradyseism has drowned much of the harbour.",
+   "importance": 4,
+   "sources": [
+    {
+     "a": "Seneca",
+     "w": "Epistulae Morales",
+     "r": "77.1-2"
+    },
+    {
+     "a": "New Testament",
+     "w": "Acts of the Apostles",
+     "r": "28.13"
+    },
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "5.4.6"
+    }
+   ]
+  },
+  {
+   "id": "port_alexandria",
+   "name": "Great Harbour of Alexandria",
+   "loc": [
+    29.89,
+    31.205
+   ],
+   "kind": "port",
+   "theme": "economy",
+   "from": -509,
+   "to": 641,
+   "commodity": "grain, papyrus, Indian goods",
+   "place": "alexandria",
+   "summary": "The largest port of the eastern Mediterranean, marked by the Pharos lighthouse and linked by canal to the Nile and Lake Mareotis. Grain, papyrus, glass, linen and the goods of the India trade passed through it. The grain fleet sailed each spring from here; the city's own grain store on the Neapolis quay held the annona before shipment.",
+   "importance": 5,
+   "sources": [
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "17.1.6-10"
+    },
+    {
+     "a": "Achilles Tatius",
+     "w": "Leucippe and Clitophon",
+     "r": "5.1"
+    }
+   ]
+  },
+  {
+   "id": "port_carthage",
+   "name": "Ports of Carthage",
+   "loc": [
+    10.323,
+    36.843
+   ],
+   "kind": "port",
+   "theme": "economy",
+   "from": -509,
+   "to": 698,
+   "commodity": "grain, oil",
+   "place": "carthago",
+   "summary": "The famous double harbour, a rectangular merchant basin and a circular naval cothon for 220 warships, as Appian describes it before 146 BC. Rebuilt by the Roman colony, the circular harbour got a central hexagonal building and the rectangular harbour was the loading point for the African grain fleet to Rome.",
+   "importance": 4,
+   "sources": [
+    {
+     "a": "Appian",
+     "w": "Punica",
+     "r": "96"
+    }
+   ]
+  },
+  {
+   "id": "port_narbo",
+   "name": "Narbo Martius",
+   "loc": [
+    3.0,
+    43.18
+   ],
+   "kind": "port",
+   "theme": "economy",
+   "from": -118,
+   "to": 450,
+   "commodity": "wine, metals",
+   "place": "narbo_martius",
+   "summary": "The first Roman colony in Gaul (118 BC), connected by lagoons to the sea and by the Aude to the Garonne route to the Atlantic. Strabo calls it the greatest emporium of Gaul. Wine went out to Italy, metals and slaves came in; the port's lagoons are now silted.",
+   "importance": 3,
+   "sources": [
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "4.1.6"
+    },
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "4.1.12"
+    }
+   ]
+  },
+  {
+   "id": "port_arelate",
+   "name": "Arelate river port",
+   "loc": [
+    4.63,
+    43.68
+   ],
+   "kind": "port",
+   "theme": "economy",
+   "from": -46,
+   "to": 600,
+   "commodity": "transhipment",
+   "place": "arelate",
+   "summary": "Caesar's veteran colony at the head of the Rhône delta, port of transhipment between seagoing ships and river barges, with guilds of navicularii marini, nautae and utricularii (raft-men on inflated skins). The Arles-Rhône 3 barge, recovered complete in 2011, is a 31 m flat-bottomed river vessel of c. AD 50. In late antiquity Arles was the seat of the Gallic prefecture and, Ausonius says, 'the little Rome of Gaul'.",
+   "importance": 3,
+   "sources": [
+    {
+     "a": "Ausonius",
+     "w": "Ordo Urbium Nobilium",
+     "r": "73-80"
+    }
+   ]
+  },
+  {
+   "id": "port_aquileia",
+   "name": "Aquileia river port",
+   "loc": [
+    13.37,
+    45.77
+   ],
+   "kind": "port",
+   "theme": "economy",
+   "from": -181,
+   "to": 452,
+   "commodity": "amber, wine, iron",
+   "place": "aquileia",
+   "summary": "Latin colony of 181 BC on the Natiso, with riverside quays 300 m long. Strabo says it traded wine and oil to the Illyrians for slaves, cattle and hides. It was the southern terminus of the Amber Road, where Baltic amber was carved, and a major glass-making centre. Sacked by Attila in 452.",
+   "importance": 4,
+   "sources": [
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "5.1.8"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "40.34.2"
+    }
+   ]
+  },
+  {
+   "id": "port_delos",
+   "name": "Delos free port",
+   "loc": [
+    25.267,
+    37.4
+   ],
+   "kind": "port",
+   "theme": "economy",
+   "from": -166,
+   "to": -69,
+   "commodity": "slaves",
+   "place": "delos",
+   "summary": "Declared a free port by Rome in 166 BC to punish Rhodes. Italian negotiatores (the Italici) built an agora and guild houses; Strabo says 10,000 slaves could be sold in a day. Sacked by Mithridates' forces in 88 BC (Appian puts the dead at 20,000, mostly Italians) and by pirates in 69, after which it never recovered.",
+   "importance": 4,
+   "sources": [
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "14.5.2"
+    },
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "10.5.4"
+    },
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "30.31.10-12"
+    },
+    {
+     "a": "Appian",
+     "w": "Mithridatic Wars",
+     "r": "28"
+    }
+   ]
+  },
+  {
+   "id": "port_rhodos",
+   "name": "Rhodes",
+   "loc": [
+    28.23,
+    36.45
+   ],
+   "kind": "port",
+   "theme": "economy",
+   "from": -509,
+   "to": 641,
+   "commodity": "wine, transit",
+   "place": "rhodos",
+   "summary": "The great Hellenistic trading city. Rhodian amphora stamps, naming eponymous priests by year, date Hellenistic deposits across the Mediterranean. After Rome made Delos a free port in 166, Rhodes' harbour dues fell from 1 million to 150,000 drachmas a year, Polybius reports. Cassius sacked it in 43 BC.",
+   "importance": 3,
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "30.31.12"
+    },
+    {
+     "a": "Appian",
+     "w": "Civil Wars",
+     "r": "4.72-74"
+    }
+   ]
+  },
+  {
+   "id": "port_gades",
+   "name": "Gades",
+   "loc": [
+    -6.29,
+    36.53
+   ],
+   "kind": "port",
+   "theme": "economy",
+   "from": -206,
+   "to": 500,
+   "commodity": "salt fish, oil",
+   "place": "gades",
+   "summary": "The Phoenician city on its island beyond the Pillars, allied to Rome from 206 BC. Strabo says it had 500 equites, a number matched only by Patavium in Italy, and its ships were the largest that sailed to Italy. Hub for salt fish, Atlantic tin and Baetican exports. Pliny gives the record crossing from Gades to Ostia as seven days.",
+   "importance": 3,
+   "sources": [
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "3.5.3"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "19.4"
+    }
+   ]
+  },
+  {
+   "id": "port_hispalis",
+   "name": "Hispalis river port",
+   "loc": [
+    -5.99,
+    37.39
+   ],
+   "kind": "port",
+   "theme": "economy",
+   "from": -45,
+   "to": 600,
+   "commodity": "olive oil",
+   "place": "hispalis",
+   "summary": "Highest point on the Baetis navigable by seagoing ships (Strabo). Baetican oil was checked and labelled here before shipment: tituli picti on Dressel 20 amphorae carry controls written at Hispalis. A guild of scapharii (lighter men) is attested.",
+   "importance": 3,
+   "sources": [
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "3.2.3"
+    }
+   ]
+  },
+  {
+   "id": "port_luna",
+   "name": "Portus Lunae",
+   "loc": [
+    10.03,
+    44.07
+   ],
+   "kind": "port",
+   "theme": "economy",
+   "from": -177,
+   "to": 450,
+   "commodity": "marble",
+   "place": "luna",
+   "summary": "Colony of 177 BC on the Gulf of La Spezia and loading point of Carrara marble. Strabo calls the harbour large and beautiful, enclosing several harbours. Blocks were brought down from the Apuan quarries on sledges and shipped to Ostia and Portus.",
+   "importance": 2,
+   "sources": [
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "5.2.5"
+    }
+   ]
+  },
+  {
+   "id": "port_caesarea",
+   "name": "Sebastos, harbour of Caesarea Maritima",
+   "loc": [
+    34.887,
+    32.503
+   ],
+   "kind": "port",
+   "theme": "economy",
+   "from": -22,
+   "to": 600,
+   "commodity": "transit",
+   "place": "caesarea_maritima",
+   "summary": "Herod's harbour (22-10 BC), the first large harbour built in open sea with hydraulic concrete cast underwater in wooden forms, using pozzolana shipped from Italy. Josephus compares it to the Piraeus. Subsidence wrecked the moles by the 2nd century, but the city remained the Roman capital of Judaea and Palaestina.",
+   "importance": 3,
+   "sources": [
+    {
+     "a": "Josephus",
+     "w": "Jewish Antiquities",
+     "r": "15.331-341"
+    },
+    {
+     "a": "Josephus",
+     "w": "Jewish War",
+     "r": "1.408-415"
+    }
+   ]
+  },
+  {
+   "id": "port_seleucia_pieria",
+   "name": "Seleucia Pieria",
+   "loc": [
+    35.93,
+    36.12
+   ],
+   "kind": "port",
+   "theme": "economy",
+   "from": -64,
+   "to": 526,
+   "commodity": "transit",
+   "place": "seleucia_pieria",
+   "summary": "Port of Antioch and base of the Syrian fleet. To divert the torrent that silted it, Vespasian and Titus had a channel cut through rock (the Titus tunnel, about 1.3 km) by legionaries and Jewish prisoners. Earthquakes in 526 and 528 ended the port's effectiveness.",
+   "importance": 2,
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "5.59"
+    }
+   ]
+  },
+  {
+   "id": "port_classe",
+   "name": "Classe",
+   "loc": [
+    12.23,
+    44.38
+   ],
+   "kind": "port",
+   "theme": "economy",
+   "from": -30,
+   "to": 700,
+   "commodity": "transit",
+   "place": "classe",
+   "summary": "Augustan base of the Ravenna fleet, rebuilt as Ravenna's commercial port in the 5th-6th centuries when the city was an imperial capital, with warehouses full of African amphorae. Jordanes says the harbour held 250 ships; it silted in the early middle ages.",
+   "importance": 2,
+   "sources": [
+    {
+     "a": "Jordanes",
+     "w": "Getica",
+     "r": "150-151"
+    }
+   ]
+  },
+  {
+   "id": "port_lepcis",
+   "name": "Severan harbour of Leptis Magna",
+   "loc": [
+    14.3,
+    32.64
+   ],
+   "kind": "port",
+   "theme": "economy",
+   "from": 200,
+   "to": 500,
+   "commodity": "olive oil",
+   "place": "leptis_magna",
+   "summary": "Septimius Severus rebuilt the harbour of his home town with stone quays, a lighthouse and warehouses, but the Wadi Lebda silted it quickly. Its mooring blocks show little wear, a famous case of prestige building.",
+   "importance": 2
+  },
+  {
+   "id": "port_ephesus",
+   "name": "Harbour of Ephesus",
+   "loc": [
+    27.335,
+    37.943
+   ],
+   "kind": "port",
+   "theme": "economy",
+   "from": -133,
+   "to": 641,
+   "commodity": "transit",
+   "place": "ephesus",
+   "summary": "Asia's chief port, fighting the silt of the Cayster from the start: Strabo blames Attalus II's mole for worsening it, and Domitian, Hadrian and later emperors dredged. The Arcadiane, a colonnaded street of 400, led from the harbour to the theatre.",
+   "importance": 2,
+   "sources": [
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "14.1.24"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "16.23"
+    }
+   ]
+  },
+  {
+   "id": "port_corinth",
+   "name": "Lechaion, Cenchreae and the diolkos",
+   "loc": [
+    22.93,
+    37.94
+   ],
+   "kind": "port",
+   "theme": "economy",
+   "from": -44,
+   "to": 600,
+   "commodity": "transit",
+   "place": "corinthus",
+   "summary": "Caesar's colony of 44 BC had harbours on both gulfs: Lechaion on the Corinthian gulf and Cenchreae on the Saronic, where Paul's church had its deacon Phoebe. Ships and cargoes crossed the isthmus on the paved diolkos. Nero inaugurated a canal in 67 that was abandoned at his death.",
+   "importance": 3,
+   "sources": [
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "8.6.20-22"
+    },
+    {
+     "a": "Paul",
+     "w": "Romans",
+     "r": "16.1"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Nero",
+     "r": "19.2"
+    }
+   ]
+  },
+  {
+   "id": "port_constantinople",
+   "name": "Harbours of Constantinople",
+   "loc": [
+    28.965,
+    41.003
+   ],
+   "kind": "port",
+   "theme": "economy",
+   "from": 330,
+   "to": 641,
+   "commodity": "grain",
+   "place": "constantinopolis",
+   "summary": "The New Rome had harbours on the Golden Horn (Prosphorion, Neorion) and on the Propontis shore (Julian's harbour, and the harbour of Theodosius at Yenikapı, where excavations from 2004 found 37 shipwrecks). Egyptian grain landed here and was stored in the horrea Alexandrina; Justinian's Edict 13 fixes the Egyptian quota at 8 million artabas.",
+   "importance": 4,
+   "sources": [
+    {
+     "a": "Justinian",
+     "w": "Edict 13",
+     "r": "8"
+    },
+    {
+     "a": "Notitia Urbis Constantinopolitanae",
+     "w": "Notitia",
+     "r": "regions 5-6"
+    }
+   ]
+  },
+  {
+   "id": "port_gesoriacum",
+   "name": "Gesoriacum (Boulogne)",
+   "loc": [
+    1.6,
+    50.73
+   ],
+   "kind": "port",
+   "theme": "economy",
+   "from": 40,
+   "to": 450,
+   "commodity": "transit",
+   "place": "gesoriacum",
+   "summary": "Main Channel port and headquarters of the Classis Britannica. Caligula built a lighthouse here (Tour d'Odre) during his abortive invasion of 40; Claudius sailed from here in 43. Carausius made it his base in 286; Constantius retook it in 293.",
+   "importance": 2,
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Divus Claudius",
+     "r": "17.2"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Caligula",
+     "r": "46"
+    }
+   ]
+  },
+  {
+   "id": "port_londinium",
+   "name": "Waterfront of Londinium",
+   "loc": [
+    -0.088,
+    51.509
+   ],
+   "kind": "port",
+   "theme": "economy",
+   "from": 50,
+   "to": 410,
+   "commodity": "imports",
+   "place": "londinium",
+   "summary": "Tacitus calls Londinium in 60 a place famous for its many merchants. Timber quays were built forward into the Thames in stages through the 1st-3rd centuries. Imports included Baetican oil, Gaulish wine and samian.",
+   "importance": 2,
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "14.33"
+    }
+   ]
+  },
+  {
+   "id": "port_myos_hormos",
+   "name": "Myos Hormos (Quseir al-Qadim)",
+   "loc": [
+    34.24,
+    26.155
+   ],
+   "kind": "port",
+   "theme": "economy",
+   "from": -30,
+   "to": 250,
+   "commodity": "Indian goods",
+   "place": "myos_hormos",
+   "summary": "Red Sea port for Egypt's India trade. Strabo saw up to 120 ships a year sailing from here to India, against barely 20 under the Ptolemies. Excavations from 1999 found Indian pottery, peppercorns, and ostraca. Goods went overland to Coptos on the Nile in six or seven days.",
+   "importance": 4,
+   "sources": [
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "2.5.12"
+    },
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "17.1.45"
+    },
+    {
+     "a": "Anonymous",
+     "w": "Periplus Maris Erythraei",
+     "r": "1"
+    }
+   ]
+  },
+  {
+   "id": "port_berenike",
+   "name": "Berenike Troglodytica",
+   "loc": [
+    35.47,
+    23.91
+   ],
+   "kind": "port",
+   "theme": "economy",
+   "from": -30,
+   "to": 550,
+   "commodity": "pepper, Indian goods",
+   "place": "berenice_troglodytica",
+   "summary": "Southern Red Sea port, closer to the monsoon routes. Excavations have found black peppercorns stored in an Indian jar (7.5 kg), teak, Indian coins, a Sanskrit-Tamil inscription and Buddhist statuary. Pliny gives the Coptos-Berenike road as 257 miles, done in 12 days by night stages. Still active in the 5th-6th centuries.",
+   "importance": 4,
+   "scholarship": [
+    "Sidebotham, Berenike and the Ancient Maritime Spice Route (2011)"
+   ],
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "6.102-103"
+    },
+    {
+     "a": "Anonymous",
+     "w": "Periplus Maris Erythraei",
+     "r": "1"
+    }
+   ]
+  },
+  {
+   "id": "port_muziris",
+   "name": "Muziris (Pattanam)",
+   "loc": [
+    76.21,
+    10.15
+   ],
+   "kind": "port",
+   "theme": "economy",
+   "from": -20,
+   "to": 300,
+   "commodity": "pepper",
+   "summary": "Chief pepper port of the Chera kingdom on the Malabar coast, reached directly on the southwest monsoon. The Vienna Muziris papyrus (mid-2nd century) records a loan for a cargo shipped on the Hermapollon worth nearly 7 million sesterces. Tamil poetry speaks of yavana ships bringing gold and leaving with pepper. Pattanam excavations since 2007 have found amphorae and Roman glass.",
+   "importance": 4,
+   "scholarship": [
+    "Rathbone, BSAA 46 (2000)",
+    "De Romanis, The Indian Ocean and Rome (2020)"
+   ],
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "6.104"
+    },
+    {
+     "a": "Anonymous",
+     "w": "Periplus Maris Erythraei",
+     "r": "53-56"
+    }
+   ]
+  },
+  {
+   "id": "port_arikamedu",
+   "name": "Arikamedu (Poduke)",
+   "loc": [
+    79.82,
+    11.9
+   ],
+   "kind": "port",
+   "theme": "economy",
+   "from": -100,
+   "to": 200,
+   "commodity": "textiles, beads",
+   "summary": "Trading site on the Coromandel coast south of Pondicherry, identified with the Periplus' Poduke. Wheeler's excavations (1945) found Arretine sigillata and amphorae, giving the first archaeological proof of Roman goods reaching India and the date of the trade.",
+   "importance": 2,
+   "sources": [
+    {
+     "a": "Anonymous",
+     "w": "Periplus Maris Erythraei",
+     "r": "60"
+    }
+   ]
+  },
+  {
+   "id": "port_barygaza",
+   "name": "Barygaza (Bharuch)",
+   "loc": [
+    72.98,
+    21.7
+   ],
+   "kind": "port",
+   "theme": "economy",
+   "from": -50,
+   "to": 300,
+   "commodity": "textiles, gems",
+   "summary": "Port of the Narmada estuary in the Western Kshatrapa kingdom. The Periplus lists Italian wine, copper, coral and Roman gold and silver coin going in, and onyx, cotton, pepper and silk going out, and describes the dangerous tidal bore and royal pilots.",
+   "importance": 2,
+   "sources": [
+    {
+     "a": "Anonymous",
+     "w": "Periplus Maris Erythraei",
+     "r": "41-49"
+    }
+   ]
+  },
+  {
+   "id": "port_adulis",
+   "name": "Adulis",
+   "loc": [
+    39.66,
+    15.27
+   ],
+   "kind": "port",
+   "theme": "economy",
+   "from": 1,
+   "to": 640,
+   "commodity": "ivory",
+   "summary": "Port of the kingdom of Aksum on the Red Sea, exporting ivory, tortoiseshell and rhinoceros horn. Cosmas Indicopleustes copied the Monumentum Adulitanum there c. 520; in 525 it was the base for Kaleb's invasion of Himyar, supported by Justin I.",
+   "importance": 2,
+   "sources": [
+    {
+     "a": "Anonymous",
+     "w": "Periplus Maris Erythraei",
+     "r": "4"
+    },
+    {
+     "a": "Cosmas Indicopleustes",
+     "w": "Christian Topography",
+     "r": "2.54-63"
+    }
+   ]
+  },
+  {
+   "id": "port_qana",
+   "name": "Qana (Bir Ali)",
+   "loc": [
+    48.34,
+    14.02
+   ],
+   "kind": "port",
+   "theme": "economy",
+   "from": -50,
+   "to": 600,
+   "commodity": "frankincense",
+   "summary": "Port of the Hadramawt incense kingdom, where frankincense was collected for shipment to Egypt and India. The Periplus describes it under King Eleazos; excavations found Roman amphorae and an incense warehouse.",
+   "importance": 2,
+   "sources": [
+    {
+     "a": "Anonymous",
+     "w": "Periplus Maris Erythraei",
+     "r": "27-28"
+    }
+   ]
+  },
+  {
+   "id": "port_clysma",
+   "name": "Clysma (Suez)",
+   "loc": [
+    32.55,
+    29.97
+   ],
+   "kind": "port",
+   "theme": "economy",
+   "from": 100,
+   "to": 640,
+   "commodity": "Indian goods",
+   "summary": "Port at the head of the Gulf of Suez, linked to the Nile by Trajan's canal (Amnis Traianus, re-dug c. 112). In late antiquity it replaced Berenike and Myos Hormos as Egypt's Red Sea gateway; the pilgrim of Piacenza (c. 570) saw Indian ships there.",
+   "importance": 2,
+   "sources": [
+    {
+     "a": "Anonymous of Piacenza",
+     "w": "Itinerarium",
+     "r": "41"
+    }
+   ]
+  },
+  {
+   "id": "port_charax",
+   "name": "Charax Spasinou",
+   "loc": [
+    47.7,
+    30.95
+   ],
+   "kind": "port",
+   "theme": "economy",
+   "from": -100,
+   "to": 300,
+   "commodity": "Indian goods",
+   "summary": "Capital of Characene at the head of the Persian Gulf and the eastern terminus of the Palmyrene caravan trade; Palmyrene inscriptions honour caravan leaders returning from Charax. Trajan reached it in 116 and, Dio says, watched a ship leave for India, wishing he were young enough to follow Alexander.",
+   "certainty": "probable",
+   "importance": 2,
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "68.28-29"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "6.138-140"
+    }
+   ]
+  },
+  {
+   "id": "market_piazzale_corporazioni",
+   "name": "Piazzale delle Corporazioni, Ostia",
+   "loc": [
+    12.2906,
+    41.7547
+   ],
+   "kind": "market",
+   "theme": "economy",
+   "from": 10,
+   "to": 300,
+   "commodity": "shipping agencies",
+   "place": "ostia",
+   "summary": "Colonnade behind the theatre of Ostia with some 61 small offices of shippers and traders, each identified by a floor mosaic: navicularii of Carthage, Sabratha, Narbo, Alexandria, Turris Libisonis and others, with ships, lighthouses and elephants. A snapshot of the network that fed Rome.",
+   "importance": 3,
+   "scholarship": [
+    "Meiggs, Roman Ostia (2nd ed. 1973)"
+   ]
+  },
+  {
+   "id": "market_monte_testaccio",
+   "name": "Monte Testaccio",
+   "loc": [
+    12.4757,
+    41.8757
+   ],
+   "kind": "market",
+   "theme": "economy",
+   "from": 1,
+   "to": 260,
+   "commodity": "olive oil",
+   "summary": "Artificial hill 35 m high behind the Emporium of Rome made of the sherds of an estimated 53 million oil amphorae, about 85% Baetican Dressel 20 and the rest mostly African and Tripolitanian. The painted labels (tituli picti) record weights, shippers and fiscal controls, a unique archive of the state oil supply between about 140 and 257.",
+   "importance": 4,
+   "scholarship": [
+    "Blázquez & Remesal (eds.), Estudios sobre el Monte Testaccio (1999-)"
+   ]
+  },
+  {
+   "id": "market_palmyra_tariff",
+   "name": "Palmyrene Tax Law",
+   "loc": [
+    38.27,
+    34.55
+   ],
+   "kind": "market",
+   "theme": "economy",
+   "from": 137,
+   "to": 273,
+   "commodity": "caravan goods",
+   "place": "palmyra",
+   "summary": "Bilingual Greek-Palmyrene inscription of 18 April 137, nearly 5 m long, setting the tolls on slaves, purple wool, oil, salt, perfumes and prostitutes entering the city, and resolving disputes with the tax-farmers by citing earlier rulings of Germanicus and Corbulo. Found by Prince Abamelek-Lazarev in 1881, now in the Hermitage.",
+   "importance": 3,
+   "scholarship": [
+    "Matthews, JRS 74 (1984)"
+   ],
+   "sources": [
+    {
+     "a": "OGIS",
+     "w": "Orientis Graeci Inscriptiones Selectae",
+     "r": "629"
+    }
+   ]
+  },
+  {
+   "id": "market_coptos_tariff",
+   "name": "Coptos tariff",
+   "loc": [
+    32.81,
+    26.0
+   ],
+   "kind": "market",
+   "theme": "economy",
+   "from": 90,
+   "to": 300,
+   "commodity": "desert passes",
+   "place": "coptos",
+   "summary": "Inscription of AD 90 listing the fees for passes to travel on the desert roads from Coptos to the Red Sea: 8 drachmas for a Red Sea helmsman, 10 for a bow officer or guard, 5 for a sailor, 20 for a soldier's wife, and 108 for women 'for prostitution'. Coptos was the river terminus where Indian goods were loaded onto Nile boats.",
+   "importance": 3,
+   "sources": [
+    {
+     "a": "OGIS",
+     "w": "Orientis Graeci Inscriptiones Selectae",
+     "r": "674"
+    }
+   ]
+  },
+  {
+   "id": "market_zarai_tariff",
+   "name": "Zarai customs tariff",
+   "loc": [
+    5.68,
+    35.8
+   ],
+   "kind": "market",
+   "theme": "economy",
+   "from": 202,
+   "to": 300,
+   "commodity": "frontier customs",
+   "summary": "Customs tariff of the portorium of the Numidian frontier, set up at Zarai in 202 when the cohort garrison left, listing duties on slaves (1.5 denarii), horses, cattle, wine, dates, garum and sponges entering from the Saharan fringe.",
+   "importance": 2,
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VIII",
+     "r": "4508"
+    }
+   ]
+  },
+  {
+   "id": "market_batnae_fair",
+   "name": "Batnae fair",
+   "loc": [
+    38.425,
+    36.976
+   ],
+   "kind": "market",
+   "theme": "economy",
+   "from": 300,
+   "to": 500,
+   "commodity": "Indian and Chinese goods",
+   "summary": "Town in Osrhoene near the Euphrates where, Ammianus says, a great annual fair in early September drew crowds of every rank to buy goods sent by the Indians and Chinese. Julian passed through in 363.",
+   "importance": 2,
+   "sources": [
+    {
+     "a": "Ammianus Marcellinus",
+     "w": "Res Gestae",
+     "r": "14.3.3"
+    },
+    {
+     "a": "Ammianus Marcellinus",
+     "w": "Res Gestae",
+     "r": "23.2.7"
+    }
+   ]
+  },
+  {
+   "id": "market_cremona_fair",
+   "name": "Cremona fair",
+   "loc": [
+    10.02,
+    45.13
+   ],
+   "kind": "market",
+   "theme": "economy",
+   "from": -218,
+   "to": 400,
+   "commodity": "fair",
+   "place": "cremona",
+   "summary": "Latin colony of 218 BC whose market fair drew all of Italy. Tacitus notes that the fair was in progress when the Flavian army sacked the city in 69, swelling the number of victims.",
+   "importance": 1,
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Histories",
+     "r": "3.32-33"
+    }
+   ]
+  },
+  {
+   "id": "market_campi_macri",
+   "name": "Campi Macri",
+   "loc": [
+    10.85,
+    44.58
+   ],
+   "kind": "market",
+   "theme": "economy",
+   "from": -150,
+   "to": 100,
+   "commodity": "wool, livestock",
+   "summary": "Plain near Mutina where a great annual sheep and wool fair was held, mentioned by Varro and Strabo; the Po valley produced the fine wool of Mutina and Parma.",
+   "certainty": "probable",
+   "importance": 1,
+   "sources": [
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "5.1.11"
+    },
+    {
+     "a": "Varro",
+     "w": "De Re Rustica",
+     "r": "2.pr.6"
+    }
+   ]
+  },
+  {
+   "id": "market_mamre",
+   "name": "Mamre (Terebinthus) fair",
+   "loc": [
+    35.1,
+    31.55
+   ],
+   "kind": "market",
+   "theme": "economy",
+   "from": 135,
+   "to": 640,
+   "commodity": "fair, captives",
+   "summary": "Annual summer fair at Abraham's oak near Hebron, attended by Jews, Christians and pagans. Jerome and the Chronicon Paschale say Hadrian sold Jewish captives here after the Bar Kokhba war. Constantine ordered the pagan altars removed and built a basilica c. 330; Sozomen describes the festival.",
+   "importance": 2,
+   "sources": [
+    {
+     "a": "Eusebius",
+     "w": "Vita Constantini",
+     "r": "3.51-53"
+    },
+    {
+     "a": "Sozomen",
+     "w": "Historia Ecclesiastica",
+     "r": "2.4"
+    },
+    {
+     "a": "Jerome",
+     "w": "Commentary on Jeremiah",
+     "r": "6.18"
+    }
+   ]
+  },
+  {
+   "id": "market_magdalensberg",
+   "name": "Magdalensberg emporium",
+   "loc": [
+    14.43,
+    46.73
+   ],
+   "kind": "market",
+   "theme": "economy",
+   "from": -100,
+   "to": 45,
+   "commodity": "iron, gold",
+   "place": "magdalensberg",
+   "summary": "Hilltop trading town in Noricum where Italian merchants, many from Aquileia, bought Noric iron and gold before the annexation of 15 BC; graffiti record iron bars and gold ingots for the imperial house. Abandoned under Claudius for Virunum.",
+   "importance": 2
+  },
+  {
+   "id": "market_carnuntum_amber",
+   "name": "Carnuntum amber market",
+   "loc": [
+    16.88,
+    48.11
+   ],
+   "kind": "market",
+   "theme": "economy",
+   "from": 50,
+   "to": 400,
+   "commodity": "amber",
+   "place": "carnuntum",
+   "summary": "Danube fortress where the Amber Road crossed the frontier. Pliny records that an eques under Nero travelled 600 miles from Carnuntum to the Baltic coast and brought back so much amber that the nets of the arena were knotted with it, including a lump of 13 pounds.",
+   "importance": 2,
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "37.45"
+    }
+   ]
+  },
+  {
+   "id": "salt_ostia_salinae",
+   "name": "Salinae at the Tiber mouth",
+   "loc": [
+    12.3,
+    41.77
+   ],
+   "kind": "mine",
+   "theme": "economy",
+   "from": -509,
+   "to": 450,
+   "commodity": "salt",
+   "summary": "Salt pans on both banks of the Tiber mouth, which tradition said Ancus Marcius took from Veii; the road that carried their salt inland was the Via Salaria. In 204 BC the censors Livius Salinator and Claudius Nero fixed the salt price, earning Livius his mocking cognomen.",
+   "importance": 3,
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "1.33.9"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "29.37.3"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "31.89"
+    }
+   ]
+  },
+  {
+   "id": "salt_droitwich",
+   "name": "Salinae (Droitwich)",
+   "loc": [
+    -2.15,
+    52.27
+   ],
+   "kind": "mine",
+   "theme": "economy",
+   "from": 50,
+   "to": 400,
+   "commodity": "salt",
+   "summary": "Brine springs worked into salt in Iron Age and Roman Britain; the Ravenna Cosmography names a Salinae here. Evaporation hearths and lead pans have been excavated.",
+   "importance": 1
+  },
+  {
+   "id": "salt_hallstatt",
+   "name": "Hallstatt salt mine",
+   "loc": [
+    13.64,
+    47.56
+   ],
+   "kind": "mine",
+   "theme": "economy",
+   "from": -509,
+   "to": 400,
+   "commodity": "salt",
+   "summary": "The prehistoric salt mine that gave its name to the Early Iron Age; a Roman settlement in the valley below continued salt production under Noricum.",
+   "importance": 1
+  },
+  {
+   "id": "salt_venetia",
+   "name": "Salt pans of maritime Venetia",
+   "loc": [
+    12.28,
+    45.22
+   ],
+   "kind": "mine",
+   "theme": "economy",
+   "from": 400,
+   "to": 641,
+   "commodity": "salt",
+   "summary": "Cassiodorus' letter of 537-538 to the tribunes of the maritime Venetians describes them living like water birds, bound to their boats, everyone eating alike, and growing rich on salt pans where 'instead of ploughs they roll cylinders'.",
+   "importance": 2,
+   "sources": [
+    {
+     "a": "Cassiodorus",
+     "w": "Variae",
+     "r": "12.24"
+    }
+   ]
+  },
+  {
+   "id": "salt_tatta",
+   "name": "Lake Tatta (Tuz Gölü)",
+   "loc": [
+    33.4,
+    38.8
+   ],
+   "kind": "mine",
+   "theme": "economy",
+   "from": -509,
+   "to": 641,
+   "commodity": "salt",
+   "summary": "Salt lake of central Anatolia. Strabo says it crusts salt so readily that a bird dipping its wings is dragged down, and that its salt was a source of revenue for the Galatian kings.",
+   "importance": 1,
+   "sources": [
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "12.5.4"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "31.84"
+    }
+   ]
+  }
+ ]
+}

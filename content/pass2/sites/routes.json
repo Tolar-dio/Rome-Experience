@@ -1,0 +1,3201 @@
+{
+ "routes": [
+  {
+   "id": "alexandria_ostia_grain",
+   "name": "Alexandria to Puteoli and Portus: the grain fleet",
+   "kind": "sea",
+   "commodity": "grain",
+   "from": -30,
+   "to": 618,
+   "days": "50-70 westbound against the etesian winds; 9-20 eastbound (record 6 days Messina strait to Alexandria)",
+   "line": [
+    [
+     29.89,
+     31.21
+    ],
+    [
+     30.6,
+     32.6
+    ],
+    [
+     31.2,
+     34.4
+    ],
+    [
+     30.2,
+     36.0
+    ],
+    [
+     29.3,
+     36.05
+    ],
+    [
+     28.0,
+     35.85
+    ],
+    [
+     27.6,
+     35.25
+    ],
+    [
+     26.4,
+     34.95
+    ],
+    [
+     25.4,
+     34.75
+    ],
+    [
+     24.6,
+     34.75
+    ],
+    [
+     23.6,
+     35.0
+    ],
+    [
+     19.5,
+     35.9
+    ],
+    [
+     16.0,
+     36.6
+    ],
+    [
+     15.45,
+     37.05
+    ],
+    [
+     15.62,
+     38.0
+    ],
+    [
+     15.63,
+     38.25
+    ],
+    [
+     15.4,
+     38.6
+    ],
+    [
+     14.6,
+     40.3
+    ],
+    [
+     14.12,
+     40.78
+    ],
+    [
+     13.8,
+     40.7
+    ],
+    [
+     13.0,
+     41.05
+    ],
+    [
+     12.6,
+     41.45
+    ],
+    [
+     12.24,
+     41.77
+    ]
+   ],
+   "summary": "The annona's lifeline. Ships of 340 tonnes and more (Lucian's Isis was about 55 m long, carrying grain for a year for Athens) left Alexandria in spring, beat north to Lycia (Paul's ship at Myra) and crept west along Crete before the open crossing to Sicily, reaching Puteoli, and after 64 Portus. Seneca describes Puteoli turning out for their topsails. Return voyages ran before the wind: Pliny records Galerius reaching Alexandria from the Sicilian strait in 7 days and Balbillus in 6. Claudius guaranteed shippers against storm losses and gave privileges to those building ships of 10,000 modii.",
+   "scholarship": [
+    "Casson, Ships and Seamanship in the Ancient World (1971)"
+   ],
+   "stops": [
+    "alexandria",
+    "puteoli",
+    "portus"
+   ],
+   "sources": [
+    {
+     "a": "Lucian",
+     "w": "Navigium",
+     "r": "5-9"
+    },
+    {
+     "a": "New Testament",
+     "w": "Acts of the Apostles",
+     "r": "27.5-6"
+    },
+    {
+     "a": "Seneca",
+     "w": "Epistulae Morales",
+     "r": "77.1-2"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "19.3"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Divus Claudius",
+     "r": "18-19"
+    }
+   ]
+  },
+  {
+   "id": "alexandria_constantinople_grain",
+   "name": "Alexandria to Constantinople grain run",
+   "kind": "sea",
+   "commodity": "grain",
+   "from": 332,
+   "to": 618,
+   "days": "15-25 northbound through the Aegean, subject to the Hellespont current",
+   "line": [
+    [
+     29.89,
+     31.21
+    ],
+    [
+     30.6,
+     32.6
+    ],
+    [
+     31.2,
+     34.4
+    ],
+    [
+     29.6,
+     36.0
+    ],
+    [
+     28.5,
+     36.05
+    ],
+    [
+     28.35,
+     36.5
+    ],
+    [
+     27.6,
+     36.52
+    ],
+    [
+     27.1,
+     36.67
+    ],
+    [
+     26.75,
+     36.75
+    ],
+    [
+     26.4,
+     37.4
+    ],
+    [
+     26.45,
+     37.68
+    ],
+    [
+     26.25,
+     38.25
+    ],
+    [
+     26.22,
+     38.6
+    ],
+    [
+     25.7,
+     39.0
+    ],
+    [
+     25.7,
+     39.45
+    ],
+    [
+     25.95,
+     39.85
+    ],
+    [
+     26.2,
+     40.03
+    ],
+    [
+     26.4,
+     40.16
+    ],
+    [
+     26.55,
+     40.27
+    ],
+    [
+     26.7,
+     40.4
+    ],
+    [
+     26.9,
+     40.5
+    ],
+    [
+     27.5,
+     40.72
+    ],
+    [
+     28.5,
+     40.88
+    ],
+    [
+     28.97,
+     41.0
+    ]
+   ],
+   "summary": "From 332 the Egyptian grain went to the New Rome; Justinian's Edict 13 fixes the quota at 8 million artabas (about 240,000 tonnes). Fleets wintered if delayed: Justinian built a granary on Tenedos so ships held up by the north wind at the Hellespont could unload. The Persian conquest of Egypt in 618-619 ended the free bread ration in Constantinople.",
+   "stops": [
+    "alexandria",
+    "constantinopolis"
+   ],
+   "sources": [
+    {
+     "a": "Justinian",
+     "w": "Edict 13",
+     "r": "8"
+    },
+    {
+     "a": "Procopius",
+     "w": "Buildings",
+     "r": "5.1.7-16"
+    },
+    {
+     "a": "Chronicon Paschale",
+     "w": "Chronicle",
+     "r": "a. 618"
+    }
+   ]
+  },
+  {
+   "id": "carthage_ostia_grain",
+   "name": "Carthage to Portus: the African grain fleet",
+   "kind": "sea",
+   "commodity": "grain, oil",
+   "from": -146,
+   "to": 439,
+   "days": "2-4 (Pliny: Ostia to Africa in 2 days)",
+   "line": [
+    [
+     10.33,
+     36.85
+    ],
+    [
+     10.6,
+     37.12
+    ],
+    [
+     11.1,
+     37.45
+    ],
+    [
+     11.9,
+     38.45
+    ],
+    [
+     12.3,
+     39.6
+    ],
+    [
+     12.35,
+     40.6
+    ],
+    [
+     12.2,
+     41.45
+    ],
+    [
+     12.24,
+     41.77
+    ]
+   ],
+   "summary": "The shortest of the annona runs. Josephus has Africa feeding Rome for eight months of the year. The navicularii of Africa had offices at Ostia's Piazzale delle Corporazioni. Gildo's revolt of 397-398 and the Vandal capture of Carthage in 439 showed how fragile Rome's dependence was.",
+   "stops": [
+    "carthago",
+    "portus"
+   ],
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "19.4"
+    },
+    {
+     "a": "Josephus",
+     "w": "Jewish War",
+     "r": "2.383-386"
+    },
+    {
+     "a": "Claudian",
+     "w": "De bello Gildonico",
+     "r": "1.52-65"
+    }
+   ]
+  },
+  {
+   "id": "italy_gaul_wine",
+   "name": "Italian wine to Gaul (Dressel 1)",
+   "kind": "sea",
+   "commodity": "wine",
+   "from": -150,
+   "to": -20,
+   "days": "7-12",
+   "line": [
+    [
+     14.12,
+     40.78
+    ],
+    [
+     13.6,
+     40.7
+    ],
+    [
+     12.6,
+     41.45
+    ],
+    [
+     11.5,
+     42.2
+    ],
+    [
+     11.25,
+     42.36
+    ],
+    [
+     11.05,
+     42.25
+    ],
+    [
+     10.6,
+     42.5
+    ],
+    [
+     10.0,
+     42.65
+    ],
+    [
+     9.95,
+     43.1
+    ],
+    [
+     9.5,
+     43.3
+    ],
+    [
+     8.5,
+     43.4
+    ],
+    [
+     7.0,
+     43.2
+    ],
+    [
+     6.2,
+     42.95
+    ],
+    [
+     5.9,
+     42.98
+    ],
+    [
+     5.5,
+     43.15
+    ],
+    [
+     5.32,
+     43.26
+    ],
+    [
+     5.25,
+     43.2
+    ],
+    [
+     4.6,
+     43.25
+    ],
+    [
+     3.6,
+     43.1
+    ],
+    [
+     3.1,
+     43.05
+    ]
+   ],
+   "summary": "In the late Republic tens of millions of Dressel 1 amphorae of Campanian and Etruscan wine went to Gaul via Massalia and Narbo, many on to the Atlantic by the Aude-Garonne route. Diodorus says the Gauls traded a slave for a jar of wine. Wrecks like the Grand Congloué and Madrague de Giens (c. 70-50 BC, 6,000-7,000 amphorae) map the trade.",
+   "scholarship": [
+    "Tchernia, Le vin de l'Italie romaine (1986)",
+    "Tchernia, Pomey & Hesnard, L'épave romaine de la Madrague de Giens (1978)"
+   ],
+   "stops": [
+    "puteoli",
+    "cosa",
+    "massalia",
+    "narbo_martius"
+   ],
+   "sources": [
+    {
+     "a": "Diodorus Siculus",
+     "w": "Bibliotheca Historica",
+     "r": "5.26.3"
+    }
+   ]
+  },
+  {
+   "id": "aude_garonne_isthmus",
+   "name": "Narbo to Burdigala: the Gallic isthmus",
+   "kind": "land",
+   "commodity": "wine, tin",
+   "from": -120,
+   "to": 450,
+   "days": "8-12 by river and road",
+   "line": [
+    [
+     3.0,
+     43.18
+    ],
+    [
+     2.35,
+     43.21
+    ],
+    [
+     1.95,
+     43.33
+    ],
+    [
+     1.44,
+     43.6
+    ],
+    [
+     0.62,
+     44.2
+    ],
+    [
+     -0.1,
+     44.5
+    ],
+    [
+     -0.58,
+     44.84
+    ]
+   ],
+   "summary": "Strabo's isthmus: goods went up the Aude from Narbo, overland to Tolosa and down the Garonne to the Atlantic, avoiding the voyage around Spain. Toulouse's rivers yielded Dressel 1 amphorae by the thousand, and Tolosa's sacred gold (aurum Tolosanum) was what Caepio stole in 106 BC.",
+   "stops": [
+    "narbo_martius",
+    "tolosa",
+    "burdigala"
+   ],
+   "sources": [
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "4.1.14"
+    },
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "4.2.1"
+    }
+   ]
+  },
+  {
+   "id": "arelate_ostia",
+   "name": "Arelate and Narbo to Ostia",
+   "kind": "sea",
+   "commodity": "wine, transhipped goods",
+   "from": -30,
+   "to": 500,
+   "days": "3-5 (Pliny: Ostia to Narbonensis in 3 days)",
+   "line": [
+    [
+     4.63,
+     43.68
+    ],
+    [
+     4.7,
+     43.5
+    ],
+    [
+     4.83,
+     43.35
+    ],
+    [
+     5.6,
+     43.05
+    ],
+    [
+     6.3,
+     42.9
+    ],
+    [
+     7.0,
+     43.05
+    ],
+    [
+     8.5,
+     43.3
+    ],
+    [
+     9.5,
+     43.3
+    ],
+    [
+     9.8,
+     42.8
+    ],
+    [
+     10.55,
+     42.15
+    ],
+    [
+     11.8,
+     41.75
+    ],
+    [
+     12.24,
+     41.77
+    ]
+   ],
+   "summary": "Gaulish wine in Gauloise 4 amphorae, and goods brought down the Rhône, reached Ostia in a few days with the mistral behind them. The Arles-Rhône 3 barge and river guilds handled the transfer at Arelate. In 418 Honorius made Arles the seat of the council of the Seven Provinces partly because, as the edict says, everything the world produces came there by sea and river.",
+   "seaSegments": [
+    [
+     2,
+     11
+    ]
+   ],
+   "stops": [
+    "arelate",
+    "portus"
+   ],
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "19.4"
+    },
+    {
+     "a": "Honorius",
+     "w": "Edict of 418 (Epistulae Arelatenses 8)",
+     "r": ""
+    }
+   ]
+  },
+  {
+   "id": "baetica_oil_rome",
+   "name": "Baetican oil to Rome",
+   "kind": "sea",
+   "commodity": "olive oil",
+   "from": -30,
+   "to": 300,
+   "days": "7-10 (Pliny: Gades to Ostia in 7 days)",
+   "line": [
+    [
+     -5.99,
+     37.39
+    ],
+    [
+     -6.15,
+     37.1
+    ],
+    [
+     -6.37,
+     36.8
+    ],
+    [
+     -6.55,
+     36.6
+    ],
+    [
+     -6.1,
+     36.15
+    ],
+    [
+     -5.75,
+     35.98
+    ],
+    [
+     -5.3,
+     36.0
+    ],
+    [
+     -4.5,
+     36.3
+    ],
+    [
+     -2.6,
+     36.55
+    ],
+    [
+     -1.9,
+     36.6
+    ],
+    [
+     -0.4,
+     37.4
+    ],
+    [
+     0.6,
+     38.6
+    ],
+    [
+     1.2,
+     38.45
+    ],
+    [
+     2.2,
+     38.75
+    ],
+    [
+     4.5,
+     39.2
+    ],
+    [
+     8.4,
+     38.7
+    ],
+    [
+     9.6,
+     38.85
+    ],
+    [
+     11.5,
+     40.4
+    ],
+    [
+     12.24,
+     41.77
+    ]
+   ],
+   "summary": "Dressel 20 amphorae of oil, stamped at the kilns and labelled at Hispalis, went down the Baetis and along the Spanish coast to Portus, then up the Tiber to the Emporium, where the empties built Monte Testaccio. An alternative route ran through the Strait of Bonifacio. Under the Severans the trade became largely fiscal, managed by the prefect of the annona.",
+   "seaSegments": [
+    [
+     2,
+     18
+    ]
+   ],
+   "stops": [
+    "hispalis",
+    "portus"
+   ],
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "19.4"
+    },
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "3.2.4-6"
+    }
+   ]
+  },
+  {
+   "id": "baetica_atlantic_rhine",
+   "name": "The Atlantic route: Baetica to Britain and the Rhine",
+   "kind": "sea",
+   "commodity": "olive oil, garum",
+   "from": 1,
+   "to": 300,
+   "days": "25-40",
+   "line": [
+    [
+     -6.55,
+     36.6
+    ],
+    [
+     -7.8,
+     36.75
+    ],
+    [
+     -9.2,
+     36.8
+    ],
+    [
+     -9.7,
+     38.6
+    ],
+    [
+     -9.3,
+     40.5
+    ],
+    [
+     -9.4,
+     42.5
+    ],
+    [
+     -9.5,
+     43.3
+    ],
+    [
+     -8.4,
+     43.65
+    ],
+    [
+     -5.5,
+     44.6
+    ],
+    [
+     -4.0,
+     46.0
+    ],
+    [
+     -3.6,
+     47.4
+    ],
+    [
+     -5.0,
+     47.8
+    ],
+    [
+     -5.4,
+     48.6
+    ],
+    [
+     -3.5,
+     49.3
+    ],
+    [
+     -1.0,
+     50.1
+    ],
+    [
+     1.2,
+     50.6
+    ],
+    [
+     1.4,
+     50.95
+    ],
+    [
+     2.3,
+     51.25
+    ],
+    [
+     3.6,
+     51.8
+    ],
+    [
+     3.95,
+     51.98
+    ]
+   ],
+   "summary": "How Baetican oil reached the armies of Britain and the Rhine is debated: up the Rhône-Rhine corridor or round Iberia by sea. Wrecks and the lighthouse of Brigantium (Tower of Hercules, A Coruña, 2nd century) support an Atlantic leg, at least to Britain and the Rhine mouth.",
+   "debate": "Atlantic versus Rhône-Rhine supply of the northern armies (Remesal versus Carreras and others).",
+   "stops": [
+    "gades",
+    "gesoriacum"
+   ],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "II",
+     "r": "2559 (Tower of Hercules)"
+    }
+   ]
+  },
+  {
+   "id": "rhone_rhine_corridor",
+   "name": "Rhône-Saône-Moselle-Rhine corridor",
+   "kind": "river",
+   "commodity": "army supply, wine, oil",
+   "from": -20,
+   "to": 450,
+   "days": "30-45 upstream to the Rhine army; downstream much faster",
+   "line": [
+    [
+     4.63,
+     43.68
+    ],
+    [
+     4.81,
+     43.95
+    ],
+    [
+     4.72,
+     44.5
+    ],
+    [
+     4.89,
+     44.93
+    ],
+    [
+     4.85,
+     45.3
+    ],
+    [
+     4.87,
+     45.52
+    ],
+    [
+     4.83,
+     45.76
+    ],
+    [
+     4.83,
+     46.31
+    ],
+    [
+     4.85,
+     46.78
+    ],
+    [
+     5.2,
+     47.5
+    ],
+    [
+     5.89,
+     48.68
+    ],
+    [
+     6.18,
+     49.12
+    ],
+    [
+     6.64,
+     49.75
+    ],
+    [
+     7.0,
+     50.05
+    ],
+    [
+     7.6,
+     50.36
+    ],
+    [
+     7.1,
+     50.73
+    ],
+    [
+     6.96,
+     50.94
+    ],
+    [
+     6.7,
+     51.2
+    ],
+    [
+     6.45,
+     51.66
+    ],
+    [
+     5.86,
+     51.84
+    ],
+    [
+     5.12,
+     52.09
+    ],
+    [
+     4.4,
+     52.21
+    ]
+   ],
+   "summary": "The great internal artery of Gaul: Rhône barges to Lugdunum, the Saône to Cabillonum, a portage to the Moselle and down to the Rhine. In AD 58 the legate Lucius Antistius Vetus planned a canal linking Saône and Moselle so that ships could go from the Mediterranean to the North Sea; jealousy of the governor of Belgica stopped it. Guilds of nautae of the Rhône and Saône were among the richest men of Lugdunum.",
+   "stops": [
+    "arelate",
+    "lugdunum",
+    "augusta_treverorum",
+    "colonia_agrippina"
+   ],
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "13.53"
+    },
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "4.1.14"
+    }
+   ]
+  },
+  {
+   "id": "danube_river",
+   "name": "The Danube",
+   "kind": "river",
+   "commodity": "army supply",
+   "from": 15,
+   "to": 600,
+   "days": "40-60 upstream; c. 25 downstream from Regensburg to the delta",
+   "line": [
+    [
+     12.1,
+     49.02
+    ],
+    [
+     13.46,
+     48.57
+    ],
+    [
+     14.47,
+     48.22
+    ],
+    [
+     15.6,
+     48.38
+    ],
+    [
+     16.37,
+     48.21
+    ],
+    [
+     16.88,
+     48.11
+    ],
+    [
+     17.6,
+     47.85
+    ],
+    [
+     18.17,
+     47.74
+    ],
+    [
+     18.9,
+     47.8
+    ],
+    [
+     19.04,
+     47.56
+    ],
+    [
+     18.9,
+     46.8
+    ],
+    [
+     18.9,
+     46.0
+    ],
+    [
+     18.9,
+     45.55
+    ],
+    [
+     19.3,
+     45.25
+    ],
+    [
+     20.0,
+     45.2
+    ],
+    [
+     20.46,
+     44.82
+    ],
+    [
+     21.22,
+     44.74
+    ],
+    [
+     21.6,
+     44.65
+    ],
+    [
+     22.3,
+     44.63
+    ],
+    [
+     22.66,
+     44.63
+    ],
+    [
+     22.9,
+     44.0
+    ],
+    [
+     23.6,
+     43.8
+    ],
+    [
+     24.48,
+     43.72
+    ],
+    [
+     25.4,
+     43.62
+    ],
+    [
+     26.5,
+     44.0
+    ],
+    [
+     27.26,
+     44.12
+    ],
+    [
+     28.0,
+     44.6
+    ],
+    [
+     28.2,
+     45.15
+    ],
+    [
+     28.6,
+     45.27
+    ],
+    [
+     29.6,
+     45.2
+    ]
+   ],
+   "summary": "Frontier and highway, patrolled by the Pannonian and Moesian fleets. Tiberius' and Trajan's engineers cut a towpath into the cliffs of the Iron Gates (Tabula Traiana, AD 100) and a canal to bypass the cataracts (101); Apollodorus' bridge at Drobeta (105) was the longest of the ancient world. In late antiquity Valentinian I and Justinian rebuilt the river forts.",
+   "stops": [
+    "castra_regina",
+    "vindobona",
+    "aquincum",
+    "singidunum",
+    "drobeta",
+    "durostorum"
+   ],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "III",
+     "r": "8267 (Tabula Traiana)"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "68.13"
+    },
+    {
+     "a": "Procopius",
+     "w": "Buildings",
+     "r": "4.5-6"
+    }
+   ]
+  },
+  {
+   "id": "berenike_muziris",
+   "name": "Berenike to Muziris: the monsoon run",
+   "kind": "sea",
+   "commodity": "pepper, spices, textiles, gems",
+   "from": -20,
+   "to": 300,
+   "days": "30 to Ocelis, then 40 across the open sea; return from December on the northeast monsoon",
+   "line": [
+    [
+     35.47,
+     23.91
+    ],
+    [
+     36.4,
+     23.0
+    ],
+    [
+     37.5,
+     21.0
+    ],
+    [
+     38.9,
+     19.0
+    ],
+    [
+     40.8,
+     16.8
+    ],
+    [
+     42.0,
+     14.5
+    ],
+    [
+     42.85,
+     13.35
+    ],
+    [
+     43.3,
+     12.6
+    ],
+    [
+     44.5,
+     12.3
+    ],
+    [
+     46.5,
+     12.4
+    ],
+    [
+     51.6,
+     12.25
+    ],
+    [
+     56.0,
+     12.0
+    ],
+    [
+     62.0,
+     11.5
+    ],
+    [
+     70.0,
+     10.9
+    ],
+    [
+     75.6,
+     10.3
+    ],
+    [
+     76.15,
+     10.15
+    ]
+   ],
+   "summary": "Pliny gives the itinerary: Coptos to Berenike in 12 days, then about 30 days to Ocelis or Cane, then 40 days with the Hippalus wind to Muziris, leaving in July and returning in December or January. He complains that India drains 50 million sesterces a year from the empire. The Muziris papyrus shows a single ship's cargo valued at nearly 7 million sesterces, on which the 25% import tax (tetarte) was paid at Alexandria.",
+   "scholarship": [
+    "Rathbone, BSAA 46 (2000)",
+    "McLaughlin, Rome and the Distant East (2010)"
+   ],
+   "stops": [
+    "berenice_troglodytica",
+    "muziris"
+   ],
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "6.101-106"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "12.84"
+    },
+    {
+     "a": "Anonymous",
+     "w": "Periplus Maris Erythraei",
+     "r": "57"
+    }
+   ]
+  },
+  {
+   "id": "myos_hormos_barygaza",
+   "name": "Myos Hormos to Barygaza along Arabia",
+   "kind": "sea",
+   "commodity": "Indian goods",
+   "from": -30,
+   "to": 250,
+   "days": "60-90 including coastal stages",
+   "line": [
+    [
+     34.24,
+     26.155
+    ],
+    [
+     34.6,
+     26.0
+    ],
+    [
+     35.8,
+     24.6
+    ],
+    [
+     36.6,
+     23.0
+    ],
+    [
+     37.5,
+     21.0
+    ],
+    [
+     38.9,
+     19.0
+    ],
+    [
+     40.8,
+     16.8
+    ],
+    [
+     42.0,
+     14.5
+    ],
+    [
+     42.85,
+     13.35
+    ],
+    [
+     43.3,
+     12.6
+    ],
+    [
+     44.5,
+     12.3
+    ],
+    [
+     48.3,
+     13.7
+    ],
+    [
+     52.0,
+     15.0
+    ],
+    [
+     55.5,
+     16.8
+    ],
+    [
+     57.8,
+     18.6
+    ],
+    [
+     59.5,
+     21.3
+    ],
+    [
+     61.5,
+     22.0
+    ],
+    [
+     66.0,
+     22.0
+    ],
+    [
+     68.5,
+     21.0
+    ],
+    [
+     70.5,
+     20.4
+    ],
+    [
+     72.0,
+     20.9
+    ],
+    [
+     72.45,
+     21.4
+    ],
+    [
+     72.62,
+     21.62
+    ]
+   ],
+   "summary": "Strabo saw up to 120 ships a year leave Myos Hormos for India. The Periplus describes the route along the incense coast past Cane, the Gulf of Oman and across to Barygaza, where royal pilots met ships at the Narmada estuary and guided them through the tidal bore.",
+   "stops": [
+    "myos_hormos"
+   ],
+   "sources": [
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "2.5.12"
+    },
+    {
+     "a": "Anonymous",
+     "w": "Periplus Maris Erythraei",
+     "r": "27-49"
+    }
+   ]
+  },
+  {
+   "id": "coptos_myos_hormos",
+   "name": "Coptos to Myos Hormos desert road",
+   "kind": "land",
+   "commodity": "Indian goods",
+   "from": -30,
+   "to": 300,
+   "days": "6-7 by camel caravan, travelling at night",
+   "line": [
+    [
+     32.81,
+     26.0
+    ],
+    [
+     33.1,
+     25.92
+    ],
+    [
+     33.45,
+     25.98
+    ],
+    [
+     33.6,
+     25.97
+    ],
+    [
+     33.6,
+     26.02
+    ],
+    [
+     33.95,
+     26.08
+    ],
+    [
+     34.24,
+     26.155
+    ]
+   ],
+   "summary": "Road of about 180 km through the Wadi Hammamat with watered forts (hydreumata) every 30 km, guarded by soldiers; the ostraca from the forts record passes, rations and attacks by desert raiders. The Coptos tariff of AD 90 priced the passes.",
+   "stops": [
+    "coptos",
+    "myos_hormos"
+   ],
+   "sources": [
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "17.1.45"
+    },
+    {
+     "a": "OGIS",
+     "w": "Orientis Graeci Inscriptiones Selectae",
+     "r": "674"
+    }
+   ]
+  },
+  {
+   "id": "coptos_berenike",
+   "name": "Coptos to Berenike desert road",
+   "kind": "land",
+   "commodity": "pepper, Indian goods",
+   "from": -30,
+   "to": 550,
+   "days": "12 (Pliny), by night stages",
+   "line": [
+    [
+     32.81,
+     26.0
+    ],
+    [
+     33.1,
+     25.9
+    ],
+    [
+     33.5,
+     25.4
+    ],
+    [
+     34.0,
+     24.95
+    ],
+    [
+     34.55,
+     24.45
+    ],
+    [
+     35.05,
+     24.1
+    ],
+    [
+     35.47,
+     23.91
+    ]
+   ],
+   "summary": "Pliny lists the water stations on the 257-mile road and says most travel was by night because of the heat. The forts of Didymoi and Dios have yielded thousands of ostraca on army logistics, prostitutes and escorts.",
+   "stops": [
+    "coptos",
+    "berenice_troglodytica"
+   ],
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "6.102-103"
+    }
+   ]
+  },
+  {
+   "id": "nile_alexandria_coptos",
+   "name": "The Nile: Alexandria to Coptos",
+   "kind": "river",
+   "commodity": "grain, Indian goods",
+   "from": -30,
+   "to": 641,
+   "days": "12-20 upstream with the north wind; 8-12 downstream with the current",
+   "line": [
+    [
+     29.92,
+     31.19
+    ],
+    [
+     30.33,
+     31.13
+    ],
+    [
+     30.6,
+     30.8
+    ],
+    [
+     31.0,
+     30.35
+    ],
+    [
+     31.23,
+     30.0
+    ],
+    [
+     31.25,
+     29.6
+    ],
+    [
+     31.05,
+     29.1
+    ],
+    [
+     30.85,
+     28.5
+    ],
+    [
+     30.75,
+     28.1
+    ],
+    [
+     30.88,
+     27.8
+    ],
+    [
+     31.18,
+     27.18
+    ],
+    [
+     31.5,
+     26.85
+    ],
+    [
+     31.7,
+     26.56
+    ],
+    [
+     32.05,
+     26.25
+    ],
+    [
+     32.3,
+     26.05
+    ],
+    [
+     32.72,
+     26.16
+    ],
+    [
+     32.81,
+     26.0
+    ]
+   ],
+   "summary": "Grain moved down from the nomes to Alexandria by state barges; Indian cargoes moved down from Coptos. The north wind let boats sail upstream while the current carried them down. The canal from Schedia linked the Canopic branch to Alexandria, where every cargo paid duty.",
+   "stops": [
+    "alexandria",
+    "memphis",
+    "coptos"
+   ],
+   "sources": [
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "17.1.16"
+    },
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "17.1.45"
+    }
+   ]
+  },
+  {
+   "id": "incense_road",
+   "name": "The Incense Road: Hadramawt to Gaza",
+   "kind": "caravan",
+   "commodity": "frankincense, myrrh",
+   "from": -509,
+   "to": 300,
+   "days": "65 stages (Pliny), about 70-90 days",
+   "line": [
+    [
+     48.34,
+     14.02
+    ],
+    [
+     47.01,
+     15.37
+    ],
+    [
+     45.9,
+     15.0
+    ],
+    [
+     45.33,
+     15.43
+    ],
+    [
+     44.24,
+     17.5
+    ],
+    [
+     42.6,
+     19.8
+    ],
+    [
+     40.4,
+     22.4
+    ],
+    [
+     39.61,
+     24.47
+    ],
+    [
+     37.95,
+     26.79
+    ],
+    [
+     36.9,
+     28.4
+    ],
+    [
+     35.7,
+     29.8
+    ],
+    [
+     35.44,
+     30.33
+    ],
+    [
+     34.8,
+     30.9
+    ],
+    [
+     34.46,
+     31.5
+    ]
+   ],
+   "summary": "Frankincense from Dhofar and the Hadramawt went by camel through Shabwa (where a tenth was taken for the god), Timna, Marib and Najran, up the Hijaz to Dedan and Hegra and through Nabataean Petra to Gaza. Pliny gives 65 camel stages from Thomna to Gaza and says the cost was multiplied by fees and payments at every stop. Aelius Gallus' expedition of 26-25 BC to seize the source failed.",
+   "stops": [
+    "petra",
+    "gaza"
+   ],
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "12.63-65"
+    },
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "16.4.4"
+    },
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "16.4.22-24"
+    }
+   ]
+  },
+  {
+   "id": "palmyra_caravan",
+   "name": "Palmyrene caravan route to the Gulf",
+   "kind": "caravan",
+   "commodity": "Indian goods, silk",
+   "from": 19,
+   "to": 273,
+   "days": "30-40 across the desert and down the Euphrates",
+   "line": [
+    [
+     38.27,
+     34.55
+    ],
+    [
+     39.6,
+     34.2
+    ],
+    [
+     41.0,
+     33.85
+    ],
+    [
+     42.82,
+     33.64
+    ],
+    [
+     43.7,
+     33.0
+    ],
+    [
+     44.4,
+     32.5
+    ],
+    [
+     45.5,
+     31.7
+    ],
+    [
+     46.5,
+     31.2
+    ],
+    [
+     47.7,
+     30.95
+    ]
+   ],
+   "summary": "Palmyrene merchants organised caravans from the Euphrates to Vologesias and Spasinou Charax, where their agents shipped goods to India. Dozens of honorific inscriptions, dated 19-266, thank caravan leaders (synodiarchs) for protecting the convoys. Zenobia's revolt and Aurelian's sack of 273 ended the system.",
+   "scholarship": [
+    "Young, Rome's Eastern Trade (2001)"
+   ],
+   "stops": [
+    "palmyra"
+   ],
+   "sources": [
+    {
+     "a": "OGIS",
+     "w": "Orientis Graeci Inscriptiones Selectae",
+     "r": "629"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "5.88"
+    }
+   ]
+  },
+  {
+   "id": "amber_road",
+   "name": "The Amber Road",
+   "kind": "land",
+   "commodity": "amber",
+   "from": -50,
+   "to": 450,
+   "days": "about 30 from Carnuntum to the Baltic",
+   "line": [
+    [
+     13.37,
+     45.77
+    ],
+    [
+     14.51,
+     46.05
+    ],
+    [
+     15.26,
+     46.23
+    ],
+    [
+     15.87,
+     46.42
+    ],
+    [
+     16.62,
+     47.23
+    ],
+    [
+     16.59,
+     47.68
+    ],
+    [
+     16.88,
+     48.11
+    ],
+    [
+     17.3,
+     48.9
+    ],
+    [
+     17.7,
+     49.6
+    ],
+    [
+     18.1,
+     50.6
+    ],
+    [
+     18.09,
+     51.76
+    ],
+    [
+     18.6,
+     53.1
+    ],
+    [
+     19.3,
+     54.2
+    ],
+    [
+     20.2,
+     54.85
+    ]
+   ],
+   "summary": "Baltic amber travelled from the Sambian coast up the Vistula and through Moravia to the Danube at Carnuntum and down to Aquileia, whose workshops carved it. Pliny records a Neronian expedition 600 miles from Carnuntum to the amber coast. Ptolemy names Calisia (Kalisz) on the route.",
+   "stops": [
+    "aquileia",
+    "poetovio",
+    "savaria",
+    "carnuntum"
+   ],
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "37.43-45"
+    },
+    {
+     "a": "Ptolemy",
+     "w": "Geography",
+     "r": "2.11.13"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Germania",
+     "r": "45"
+    }
+   ]
+  },
+  {
+   "id": "silk_road_west",
+   "name": "Western Silk Road: Antioch to Bactra",
+   "kind": "caravan",
+   "commodity": "silk, spices",
+   "from": -100,
+   "to": 641,
+   "days": "150-200 from Antioch to Bactra",
+   "line": [
+    [
+     36.16,
+     36.2
+    ],
+    [
+     36.9,
+     36.45
+    ],
+    [
+     37.88,
+     37.06
+    ],
+    [
+     38.79,
+     37.15
+    ],
+    [
+     39.9,
+     37.0
+    ],
+    [
+     41.21,
+     37.07
+    ],
+    [
+     42.4,
+     36.9
+    ],
+    [
+     43.15,
+     36.36
+    ],
+    [
+     43.6,
+     35.2
+    ],
+    [
+     44.2,
+     34.0
+    ],
+    [
+     44.55,
+     33.1
+    ],
+    [
+     46.0,
+     34.3
+    ],
+    [
+     47.1,
+     34.35
+    ],
+    [
+     48.52,
+     34.8
+    ],
+    [
+     50.0,
+     35.2
+    ],
+    [
+     51.43,
+     35.59
+    ],
+    [
+     53.0,
+     35.9
+    ],
+    [
+     54.4,
+     36.1
+    ],
+    [
+     57.0,
+     37.0
+    ],
+    [
+     59.5,
+     37.3
+    ],
+    [
+     61.83,
+     37.66
+    ],
+    [
+     64.0,
+     37.5
+    ],
+    [
+     66.9,
+     36.76
+    ]
+   ],
+   "summary": "The Roman end of the overland silk trade, through Zeugma or Nisibis to Seleucia-Ctesiphon and the Iranian plateau, with the Parthians and then Sasanians as middlemen. Isidore of Charax listed the Parthian stations. After 298 trade with Persia was channelled through Nisibis; a law of 408/9 limited exchange to Nisibis, Callinicum and Artaxata. Justinian tried to bypass Persia via Aksum, and c. 552 monks smuggled silkworm eggs to Constantinople.",
+   "stops": [
+    "antiochia",
+    "zeugma",
+    "edessa",
+    "nisibis",
+    "ctesiphon"
+   ],
+   "sources": [
+    {
+     "a": "Isidore of Charax",
+     "w": "Parthian Stations",
+     "r": "1-19"
+    },
+    {
+     "a": "Justinian",
+     "w": "Codex Iustinianus",
+     "r": "4.63.4"
+    },
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "8.17.1-8"
+    },
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "1.20.9-12"
+    }
+   ]
+  },
+  {
+   "id": "cursus_rome_constantinople_egnatia",
+   "name": "Rome to Constantinople by the Via Appia, Traiana and Egnatia",
+   "kind": "land",
+   "commodity": "official travel",
+   "from": 109,
+   "to": 641,
+   "days": "25-35 for an official with the cursus publicus; couriers 10-14",
+   "line": [
+    [
+     12.49,
+     41.89
+    ],
+    [
+     12.65,
+     41.74
+    ],
+    [
+     13.25,
+     41.29
+    ],
+    [
+     13.7,
+     41.26
+    ],
+    [
+     14.25,
+     41.08
+    ],
+    [
+     14.77,
+     41.13
+    ],
+    [
+     15.07,
+     41.24
+    ],
+    [
+     15.62,
+     41.32
+    ],
+    [
+     16.07,
+     41.22
+    ],
+    [
+     16.87,
+     41.13
+    ],
+    [
+     17.4,
+     40.89
+    ],
+    [
+     17.94,
+     40.64
+    ],
+    [
+     18.6,
+     40.95
+    ],
+    [
+     19.45,
+     41.31
+    ],
+    [
+     19.9,
+     41.15
+    ],
+    [
+     20.8,
+     41.12
+    ],
+    [
+     21.33,
+     41.01
+    ],
+    [
+     22.05,
+     40.8
+    ],
+    [
+     22.52,
+     40.76
+    ],
+    [
+     22.95,
+     40.64
+    ],
+    [
+     23.85,
+     40.82
+    ],
+    [
+     24.28,
+     41.01
+    ],
+    [
+     25.0,
+     40.98
+    ],
+    [
+     25.9,
+     40.93
+    ],
+    [
+     26.6,
+     40.95
+    ],
+    [
+     27.4,
+     40.95
+    ],
+    [
+     27.96,
+     40.97
+    ],
+    [
+     28.25,
+     41.08
+    ],
+    [
+     28.97,
+     41.01
+    ]
+   ],
+   "summary": "The trunk route of the eastern empire: the Via Appia and Trajan's Via Traiana (109) to Brundisium, a day's crossing of the Adriatic to Dyrrachium, then the Via Egnatia (built c. 146-120 BC) across Macedonia and Thrace. The cursus publicus provided changes of animals every 8-12 miles and lodging every 25-35; normal official travel was about 50 Roman miles a day. Tiberius once covered 200 miles in a day and a night to reach his dying brother.",
+   "seaSegments": [
+    [
+     11,
+     13
+    ]
+   ],
+   "stops": [
+    "roma",
+    "brundisium",
+    "dyrrachium",
+    "thessalonica",
+    "constantinopolis"
+   ],
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "7.84"
+    },
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "7.7.4"
+    },
+    {
+     "a": "Procopius",
+     "w": "Secret History",
+     "r": "30.1-11"
+    }
+   ]
+  },
+  {
+   "id": "cursus_rome_constantinople_danube",
+   "name": "Rome to Constantinople by the Danubian diagonal",
+   "kind": "land",
+   "commodity": "official travel, armies",
+   "from": 100,
+   "to": 641,
+   "days": "30-40 for officials; Itinerarium Burdigalense counts about 1,300 Roman miles from Aquileia to Constantinople",
+   "line": [
+    [
+     12.49,
+     41.89
+    ],
+    [
+     12.52,
+     42.52
+    ],
+    [
+     12.7,
+     43.2
+    ],
+    [
+     13.02,
+     43.84
+    ],
+    [
+     12.57,
+     44.06
+    ],
+    [
+     12.2,
+     44.42
+    ],
+    [
+     12.1,
+     45.0
+    ],
+    [
+     12.4,
+     45.55
+    ],
+    [
+     12.84,
+     45.76
+    ],
+    [
+     13.37,
+     45.77
+    ],
+    [
+     14.51,
+     46.05
+    ],
+    [
+     15.26,
+     46.23
+    ],
+    [
+     15.87,
+     46.42
+    ],
+    [
+     17.2,
+     46.2
+    ],
+    [
+     18.69,
+     45.55
+    ],
+    [
+     18.8,
+     45.29
+    ],
+    [
+     19.61,
+     44.97
+    ],
+    [
+     20.46,
+     44.82
+    ],
+    [
+     21.1,
+     44.7
+    ],
+    [
+     21.6,
+     43.9
+    ],
+    [
+     21.9,
+     43.32
+    ],
+    [
+     22.3,
+     43.2
+    ],
+    [
+     23.32,
+     42.7
+    ],
+    [
+     24.0,
+     42.4
+    ],
+    [
+     24.75,
+     42.15
+    ],
+    [
+     25.6,
+     41.95
+    ],
+    [
+     26.56,
+     41.68
+    ],
+    [
+     27.4,
+     41.4
+    ],
+    [
+     27.96,
+     40.97
+    ],
+    [
+     28.97,
+     41.01
+    ]
+   ],
+   "summary": "The military highway of the late empire, linking Italy with the Danube capitals Sirmium, Naissus and Serdica. The Bordeaux pilgrim of 333 recorded every change station (mutatio) and night stop (mansio) along it. Constantius II, Julian and Theodosius moved armies along this road, and Attila's campaigns of 441-447 devastated it.",
+   "stops": [
+    "roma",
+    "aquileia",
+    "sirmium",
+    "naissus",
+    "serdica",
+    "constantinopolis"
+   ],
+   "sources": [
+    {
+     "a": "Anonymous",
+     "w": "Itinerarium Burdigalense",
+     "r": "562-571"
+    },
+    {
+     "a": "Anonymous",
+     "w": "Itinerarium Antonini",
+     "r": "124-138"
+    }
+   ]
+  },
+  {
+   "id": "black_sea_grain",
+   "name": "Bosporan and Pontic grain to Constantinople",
+   "kind": "sea",
+   "commodity": "grain, salt fish, slaves",
+   "from": -63,
+   "to": 641,
+   "days": "8-12",
+   "line": [
+    [
+     36.55,
+     45.3
+    ],
+    [
+     36.55,
+     45.15
+    ],
+    [
+     36.6,
+     44.95
+    ],
+    [
+     35.5,
+     44.55
+    ],
+    [
+     34.0,
+     44.1
+    ],
+    [
+     31.5,
+     42.8
+    ],
+    [
+     29.6,
+     41.5
+    ],
+    [
+     29.12,
+     41.24
+    ],
+    [
+     29.06,
+     41.12
+    ],
+    [
+     28.99,
+     41.02
+    ]
+   ],
+   "summary": "The northern Black Sea exported grain, salt fish and slaves through Panticapaeum and Chersonesus. Arrian's Periplus (c. 131) describes the coast for Hadrian. In late antiquity Chersonesus and the Bosporus remained imperial outposts supplying Constantinople.",
+   "stops": [
+    "constantinopolis"
+   ],
+   "sources": [
+    {
+     "a": "Arrian",
+     "w": "Periplus Ponti Euxini",
+     "r": "19-20"
+    },
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "7.4.6"
+    },
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "4.38"
+    }
+   ]
+  },
+  {
+   "id": "channel_crossing",
+   "name": "Gesoriacum to Rutupiae",
+   "kind": "sea",
+   "commodity": "troops, goods",
+   "from": 43,
+   "to": 410,
+   "days": "1 (about 12 hours)",
+   "line": [
+    [
+     1.58,
+     50.73
+    ],
+    [
+     1.45,
+     50.95
+    ],
+    [
+     1.48,
+     51.18
+    ],
+    [
+     1.4,
+     51.3
+    ]
+   ],
+   "summary": "The standard crossing to Britain, used by Claudius' invasion fleet of 43 and the Classis Britannica. A monumental arch at Richborough greeted arrivals. Caligula's lighthouse at Boulogne and the pharos at Dover marked the route.",
+   "stops": [
+    "gesoriacum",
+    "rutupiae"
+   ],
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Divus Claudius",
+     "r": "17.2"
+    },
+    {
+     "a": "Ammianus Marcellinus",
+     "w": "Res Gestae",
+     "r": "20.1.3"
+    }
+   ]
+  },
+  {
+   "id": "britain_rhine_grain",
+   "name": "British grain to the Rhine",
+   "kind": "sea",
+   "commodity": "grain, pottery, salt",
+   "from": 150,
+   "to": 400,
+   "days": "3-6",
+   "line": [
+    [
+     -0.09,
+     51.505
+    ],
+    [
+     0.1,
+     51.49
+    ],
+    [
+     0.37,
+     51.45
+    ],
+    [
+     0.7,
+     51.48
+    ],
+    [
+     1.2,
+     51.5
+    ],
+    [
+     2.0,
+     51.5
+    ],
+    [
+     2.8,
+     51.6
+    ],
+    [
+     3.6,
+     51.8
+    ],
+    [
+     3.95,
+     51.98
+    ]
+   ],
+   "summary": "Traders who sailed between the Rhine-Scheldt mouths and Britain set up altars to Nehalennia at Colijnsplaat and Domburg. In 359 Julian built 600 ships to carry British grain up the Rhine to feed the cities of Gaul devastated by the Alamanni.",
+   "seaSegments": [
+    [
+     3,
+     8
+    ]
+   ],
+   "stops": [
+    "londinium"
+   ],
+   "sources": [
+    {
+     "a": "Ammianus Marcellinus",
+     "w": "Res Gestae",
+     "r": "18.2.3"
+    },
+    {
+     "a": "Zosimus",
+     "w": "New History",
+     "r": "3.5.2"
+    }
+   ]
+  },
+  {
+   "id": "puteoli_delos",
+   "name": "Puteoli to Delos: the Republican slave route",
+   "kind": "sea",
+   "commodity": "slaves, eastern luxuries",
+   "from": -166,
+   "to": -69,
+   "days": "10-15",
+   "line": [
+    [
+     14.12,
+     40.78
+    ],
+    [
+     14.2,
+     40.55
+    ],
+    [
+     15.4,
+     38.65
+    ],
+    [
+     15.63,
+     38.25
+    ],
+    [
+     15.6,
+     38.0
+    ],
+    [
+     15.6,
+     37.85
+    ],
+    [
+     16.3,
+     37.75
+    ],
+    [
+     19.0,
+     37.4
+    ],
+    [
+     21.0,
+     36.7
+    ],
+    [
+     22.5,
+     36.15
+    ],
+    [
+     23.15,
+     36.05
+    ],
+    [
+     23.7,
+     36.35
+    ],
+    [
+     24.5,
+     36.5
+    ],
+    [
+     24.95,
+     36.9
+    ],
+    [
+     24.98,
+     37.25
+    ],
+    [
+     25.22,
+     37.38
+    ]
+   ],
+   "summary": "Italian negotiatores at Delos supplied the slaves that worked Italian estates; Lucilius called Puteoli a 'little Delos'. Strabo says the slave market of Delos could take in and dispatch 10,000 slaves in a day, fed by Cilician pirates. The trade collapsed after the sacks of 88 and 69 BC and Pompey's pirate war of 67.",
+   "stops": [
+    "puteoli",
+    "delos"
+   ],
+   "sources": [
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "14.5.2"
+    },
+    {
+     "a": "Festus",
+     "w": "De verborum significatu",
+     "r": "s.v. minorem Delum"
+    }
+   ]
+  },
+  {
+   "id": "luna_portus_marble",
+   "name": "Luna to Portus: the marble ships",
+   "kind": "sea",
+   "commodity": "marble",
+   "from": -40,
+   "to": 450,
+   "days": "3-5",
+   "line": [
+    [
+     10.0,
+     44.05
+    ],
+    [
+     9.95,
+     43.9
+    ],
+    [
+     10.1,
+     43.4
+    ],
+    [
+     10.0,
+     42.95
+    ],
+    [
+     10.25,
+     42.48
+    ],
+    [
+     10.8,
+     42.2
+    ],
+    [
+     11.7,
+     41.85
+    ],
+    [
+     12.24,
+     41.77
+    ]
+   ],
+   "summary": "Carrara marble came down to the beach at Luna and was shipped on heavy lapidariae naves to Portus and up the Tiber to the marble wharf (Marmorata) below the Aventine, where unfinished blocks and columns were stockpiled.",
+   "stops": [
+    "luna",
+    "portus"
+   ],
+   "sources": [
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "5.2.5"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "36.48"
+    }
+   ]
+  },
+  {
+   "id": "proconnesus_ravenna_marble",
+   "name": "Proconnesus to Ravenna: prefabricated churches",
+   "kind": "sea",
+   "commodity": "marble",
+   "from": 400,
+   "to": 641,
+   "days": "25-35",
+   "line": [
+    [
+     27.55,
+     40.555
+    ],
+    [
+     27.2,
+     40.48
+    ],
+    [
+     26.7,
+     40.4
+    ],
+    [
+     26.55,
+     40.27
+    ],
+    [
+     26.4,
+     40.16
+    ],
+    [
+     26.2,
+     40.03
+    ],
+    [
+     25.95,
+     39.85
+    ],
+    [
+     25.7,
+     39.45
+    ],
+    [
+     25.6,
+     38.9
+    ],
+    [
+     24.65,
+     38.07
+    ],
+    [
+     24.5,
+     37.75
+    ],
+    [
+     24.1,
+     37.35
+    ],
+    [
+     23.4,
+     36.3
+    ],
+    [
+     23.15,
+     36.0
+    ],
+    [
+     22.4,
+     36.2
+    ],
+    [
+     21.6,
+     36.55
+    ],
+    [
+     20.4,
+     37.5
+    ],
+    [
+     20.0,
+     38.6
+    ],
+    [
+     19.55,
+     39.55
+    ],
+    [
+     19.05,
+     40.25
+    ],
+    [
+     18.6,
+     41.0
+    ],
+    [
+     17.0,
+     42.2
+    ],
+    [
+     15.0,
+     43.3
+    ],
+    [
+     13.3,
+     44.1
+    ],
+    [
+     12.3,
+     44.38
+    ]
+   ],
+   "summary": "Proconnesian capitals, column shafts, chancel screens and ambos were made in standard sizes and shipped as kits for churches across the Mediterranean; Ravenna's San Vitale and Sant'Apollinare in Classe used them, and the Marzamemi wreck off Sicily (6th century) carried a whole church's furnishings.",
+   "scholarship": [
+    "Kapitän, The Church Wreck off Marzamemi (1969)"
+   ],
+   "stops": [
+    "classe"
+   ]
+  },
+  {
+   "id": "mons_claudianus_road",
+   "name": "Mons Claudianus to the Nile",
+   "kind": "land",
+   "commodity": "granodiorite",
+   "from": 50,
+   "to": 250,
+   "days": "5-7 hauling columns on wagons",
+   "line": [
+    [
+     33.488,
+     26.809
+    ],
+    [
+     33.3,
+     26.7
+    ],
+    [
+     33.05,
+     26.45
+    ],
+    [
+     32.85,
+     26.25
+    ],
+    [
+     32.72,
+     26.16
+    ]
+   ],
+   "summary": "Columns of up to 200 tonnes were hauled 120 km from the quarry to the Nile at Kaine on huge wagons pulled by teams of animals; a papyrus letter asks the prefect for fodder for the animals moving a 50-foot column. Then by river barge to Alexandria and by special ship to Portus.",
+   "stops": [
+    "mons_claudianus"
+   ]
+  },
+  {
+   "id": "via_hadriana",
+   "name": "Via Hadriana: Antinoopolis to Berenike",
+   "kind": "land",
+   "commodity": "trade, official travel",
+   "from": 137,
+   "to": 400,
+   "days": "25-30",
+   "line": [
+    [
+     30.88,
+     27.81
+    ],
+    [
+     31.5,
+     27.62
+    ],
+    [
+     32.5,
+     27.45
+    ],
+    [
+     33.4,
+     27.5
+    ],
+    [
+     33.75,
+     27.2
+    ],
+    [
+     34.24,
+     26.155
+    ],
+    [
+     34.6,
+     25.6
+    ],
+    [
+     34.9,
+     25.0
+    ],
+    [
+     35.2,
+     24.4
+    ],
+    [
+     35.47,
+     23.91
+    ]
+   ],
+   "summary": "Built by Hadrian in 137 from his new city of Antinoopolis to the Red Sea and south along the coast to Berenike, with cisterns, stations and forts, as its foundation inscription records.",
+   "stops": [
+    "antinoopolis",
+    "myos_hormos",
+    "berenice_troglodytica"
+   ],
+   "sources": [
+    {
+     "a": "IGRR",
+     "w": "Inscriptiones Graecae ad res Romanas pertinentes",
+     "r": "I 1142"
+    }
+   ]
+  },
+  {
+   "id": "garamantes_route",
+   "name": "Oea to Garama: the Garamantian road",
+   "kind": "caravan",
+   "commodity": "slaves, gemstones, ivory",
+   "from": -19,
+   "to": 500,
+   "days": "30 (Ptolemy: Julius Maternus reached the Garamantes from Leptis)",
+   "line": [
+    [
+     13.18,
+     32.9
+    ],
+    [
+     13.0,
+     32.0
+    ],
+    [
+     12.98,
+     31.44
+    ],
+    [
+     13.3,
+     30.2
+    ],
+    [
+     13.6,
+     29.0
+    ],
+    [
+     13.4,
+     27.6
+    ],
+    [
+     13.07,
+     26.55
+    ]
+   ],
+   "summary": "Lucius Cornelius Balbus triumphed over the Garamantes in 19 BC; Septimius Flaccus and Julius Maternus later travelled from Leptis to Garama and beyond. Roman amphorae, glass and fine wares are found in Garamantian tombs, and the Garamantes supplied slaves and 'carbuncle' stones.",
+   "scholarship": [
+    "Mattingly (ed.), The Archaeology of Fazzan (2003-2013)"
+   ],
+   "stops": [
+    "oea"
+   ],
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "5.35-38"
+    },
+    {
+     "a": "Ptolemy",
+     "w": "Geography",
+     "r": "1.8.4"
+    }
+   ]
+  },
+  {
+   "id": "tin_route",
+   "name": "The tin route: Ictis to Massalia",
+   "kind": "sea",
+   "commodity": "tin",
+   "from": -320,
+   "to": -50,
+   "days": "about 30 overland from the Atlantic coast to the Rhône mouth (Diodorus)",
+   "line": [
+    [
+     -5.47,
+     50.1
+    ],
+    [
+     -5.2,
+     49.6
+    ],
+    [
+     -5.4,
+     48.55
+    ],
+    [
+     -5.0,
+     47.9
+    ],
+    [
+     -3.6,
+     47.45
+    ],
+    [
+     -2.6,
+     47.15
+    ],
+    [
+     -2.2,
+     47.26
+    ],
+    [
+     -1.55,
+     47.21
+    ],
+    [
+     0.69,
+     47.39
+    ],
+    [
+     3.16,
+     46.99
+    ],
+    [
+     4.07,
+     46.04
+    ],
+    [
+     4.83,
+     45.76
+    ],
+    [
+     4.87,
+     45.52
+    ],
+    [
+     4.89,
+     44.93
+    ],
+    [
+     4.63,
+     43.68
+    ],
+    [
+     5.37,
+     43.3
+    ]
+   ],
+   "summary": "Diodorus, drawing on Pytheas via Posidonius, says the Britons brought tin to the island of Ictis at low tide; merchants carried it to Gaul and then on horseback across the country in 30 days to the mouth of the Rhône and Massalia. Strabo mentions Corbilo on the Loire as an emporium. The route lost importance once Spanish tin and Roman Britain took over.",
+   "seaSegments": [
+    [
+     0,
+     6
+    ]
+   ],
+   "stops": [
+    "massalia"
+   ],
+   "sources": [
+    {
+     "a": "Diodorus Siculus",
+     "w": "Bibliotheca Historica",
+     "r": "5.22"
+    },
+    {
+     "a": "Diodorus Siculus",
+     "w": "Bibliotheca Historica",
+     "r": "5.38.5"
+    },
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "4.2.1"
+    }
+   ]
+  },
+  {
+   "id": "via_nova_traiana",
+   "name": "Via Nova Traiana: Bostra to Aila",
+   "kind": "land",
+   "commodity": "incense, army supply",
+   "from": 111,
+   "to": 641,
+   "days": "12-15",
+   "line": [
+    [
+     36.48,
+     32.52
+    ],
+    [
+     36.2,
+     32.28
+    ],
+    [
+     35.93,
+     31.95
+    ],
+    [
+     35.8,
+     31.4
+    ],
+    [
+     35.7,
+     30.9
+    ],
+    [
+     35.6,
+     30.6
+    ],
+    [
+     35.44,
+     30.33
+    ],
+    [
+     35.25,
+     29.95
+    ],
+    [
+     35.0,
+     29.53
+    ]
+   ],
+   "summary": "Paved road built in 111-114 by Claudius Severus after the annexation of Arabia, running 'from the borders of Syria to the Red Sea', as its milestones say. It channelled the incense trade and supplied the frontier forts.",
+   "stops": [
+    "bostra",
+    "philadelphia_arabia",
+    "petra",
+    "aila"
+   ],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "III",
+     "r": "14149 (milestones)"
+    }
+   ]
+  },
+  {
+   "id": "trajans_canal",
+   "name": "Trajan's Canal: the Nile to the Red Sea",
+   "kind": "river",
+   "commodity": "Indian goods, grain",
+   "from": 112,
+   "to": 640,
+   "days": "4-6",
+   "line": [
+    [
+     31.23,
+     30.0
+    ],
+    [
+     31.45,
+     30.35
+    ],
+    [
+     31.8,
+     30.55
+    ],
+    [
+     32.1,
+     30.55
+    ],
+    [
+     32.3,
+     30.4
+    ],
+    [
+     32.45,
+     30.2
+    ],
+    [
+     32.55,
+     29.97
+    ]
+   ],
+   "summary": "The old pharaonic and Ptolemaic canal through the Wadi Tumilat and the Bitter Lakes was re-dug by Trajan from Babylon (Old Cairo) to Clysma. It was used in late antiquity and reopened by Amr ibn al-As c. 641-643 to ship Egyptian grain to Arabia.",
+   "stops": [
+    "babylon_egypt"
+   ],
+   "sources": [
+    {
+     "a": "Ptolemy",
+     "w": "Geography",
+     "r": "4.5.54"
+    }
+   ]
+  },
+  {
+   "id": "tiber_portus_rome",
+   "name": "Up the Tiber: Portus to the Emporium",
+   "kind": "river",
+   "commodity": "grain, oil, marble",
+   "from": -193,
+   "to": 537,
+   "days": "2-3 towed upstream (35 km)",
+   "line": [
+    [
+     12.26,
+     41.78
+    ],
+    [
+     12.3,
+     41.765
+    ],
+    [
+     12.33,
+     41.78
+    ],
+    [
+     12.37,
+     41.795
+    ],
+    [
+     12.42,
+     41.83
+    ],
+    [
+     12.46,
+     41.86
+    ],
+    [
+     12.474,
+     41.877
+    ]
+   ],
+   "summary": "Barges (naves caudicariae) were hauled upriver by teams of oxen and men along towpaths to the Emporium and Porticus Aemilia (193 BC) below the Aventine. Procopius describes the towpath still in use in 537, when Vitigis' Goths cut Rome off from Portus.",
+   "stops": [
+    "portus",
+    "ostia",
+    "roma"
+   ],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "5.26.10-13"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "35.10.12"
+    }
+   ]
+  },
+  {
+   "id": "constantinople_rome_sea",
+   "name": "Constantinople to Sicily and Rome by sea",
+   "kind": "sea",
+   "commodity": "officials, troops, letters",
+   "from": 330,
+   "to": 641,
+   "days": "20-40 westbound",
+   "line": [
+    [
+     28.97,
+     41.0
+    ],
+    [
+     28.5,
+     40.88
+    ],
+    [
+     27.5,
+     40.72
+    ],
+    [
+     26.9,
+     40.5
+    ],
+    [
+     26.7,
+     40.4
+    ],
+    [
+     26.55,
+     40.27
+    ],
+    [
+     26.4,
+     40.16
+    ],
+    [
+     26.2,
+     40.03
+    ],
+    [
+     25.95,
+     39.85
+    ],
+    [
+     25.7,
+     39.45
+    ],
+    [
+     25.6,
+     38.9
+    ],
+    [
+     24.65,
+     38.07
+    ],
+    [
+     24.5,
+     37.75
+    ],
+    [
+     24.1,
+     37.35
+    ],
+    [
+     23.4,
+     36.3
+    ],
+    [
+     23.15,
+     36.0
+    ],
+    [
+     22.4,
+     36.2
+    ],
+    [
+     21.6,
+     36.55
+    ],
+    [
+     18.5,
+     37.0
+    ],
+    [
+     15.45,
+     37.05
+    ],
+    [
+     15.62,
+     38.0
+    ],
+    [
+     15.63,
+     38.25
+    ],
+    [
+     15.4,
+     38.6
+    ],
+    [
+     14.6,
+     40.3
+    ],
+    [
+     13.0,
+     41.05
+    ],
+    [
+     12.6,
+     41.45
+    ],
+    [
+     12.24,
+     41.77
+    ]
+   ],
+   "summary": "The sea route that linked the two capitals: Belisarius' fleet of 533 took this way to Sicily and Africa, and Pope Vigilius was brought along it to Constantinople in 545-547. Procopius describes the 533 fleet's stops at Abydos, Methone and Zacynthus.",
+   "stops": [
+    "constantinopolis",
+    "syracusae",
+    "portus"
+   ],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "3.12-13"
+    }
+   ]
+  }
+ ]
+}

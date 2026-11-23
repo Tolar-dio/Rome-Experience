@@ -92,7 +92,7 @@ const active = (from, to, y) => (from ?? -9999) <= y && (to ?? 9999) >= y;
 export function updateExtras(y) {
   if (!map?.getSource('provinceLabels')) return;
   const L = S.layers;
-  const pv = L.provinces ? D.provinces.filter((p) => p.labelLoc && active(p.created, p.ended, y)).map((p) => ({ type: 'Feature', geometry: { type: 'Point', coordinates: p.labelLoc }, properties: { id: p.id, name: p.name, type: p.type || 'province' } })) : [];
+  const pv = L.provinces ? D.provinces.filter((p) => p.labelLoc && active(p.created, p.ended, y)).map((p) => ({ type: 'Feature', geometry: { type: 'Point', coordinates: p.labelLoc }, properties: { id: p.id, name: p.name.replace(/\s*\([^)]*\)/g, '').trim(), type: p.type || 'province' } })) : [];
   map.getSource('provinceLabels').setData(fc(pv));
   const mons = [], foot = [];
   if (L.monuments) {

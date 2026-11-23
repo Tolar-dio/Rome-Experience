@@ -237,11 +237,12 @@ const R = {
     return html + '</div>';
   },
   province(pv) {
-    let html = head(`${esc(pv.type || 'province')} · ${esc(fmtYear(pv.created))}${pv.ended ? ' to ' + esc(fmtYear(pv.ended)) : ''}`, pv.name, [pv.capital ? `capital ${link(pv.capital, null, 'place')}` : '', pv.diocese ? `diocese ${esc(pv.diocese)}` : '', pv.prefecture ? `prefecture ${esc(pv.prefecture)}` : ''].filter(Boolean).join(' · '),
+    let html = head(`${esc(pv.type || 'province')} · ${esc(fmtYear(pv.created))}${pv.ended ? ' to ' + esc(fmtYear(pv.ended)) : ''}`, pv.name, [pv.capital ? `capital ${link(pv.capital, pv.capitalName, 'place')}` : pv.capitalName ? `capital ${esc(pv.capitalName)}` : '', pv.diocese ? `diocese ${esc(pv.diocese)}` : '', pv.prefecture ? `prefecture ${esc(pv.prefecture)}` : ''].filter(Boolean).join(' · '),
       `<button data-action="year" data-y="${pv.created}">Go to its creation</button>`);
     html += `<div class="d-body"><p class="summary">${richText(pv.summary, exists)}</p>`;
     if (pv.createdNote) html += `<p class="meta">${esc(pv.createdNote)}</p>`;
     if (pv.governor) html += `<p><b>Governor.</b> ${esc(pv.governor)}</p>`;
+    if (pv.garrison) html += `<p><b>Garrison.</b> ${richText(pv.garrison, exists)}</p>`;
     if (pv.phases?.length) html += `<h4>Status over time</h4><dl class="kv">${pv.phases.map((p) => `<dt>${esc(fmtRange(p.from, p.to))}</dt><dd>${richText(p.t, exists)}</dd>`).join('')}</dl>`;
     const kids = D.provinces.filter((x) => x.parent === pv.id || (pv.type === 'diocese' && x.diocese && pv.name.includes(x.diocese)));
     if (kids.length) html += `<h4>Provinces within</h4><p>${kids.map((k) => link(k.id, k.name, 'province')).join(', ')}</p>`;
