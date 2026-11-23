@@ -1,0 +1,2660 @@
+{
+ "events": [
+  {
+   "id": "siege_of_saguntum",
+   "year": -219,
+   "title": "Siege of Saguntum",
+   "type": "siege",
+   "cats": [
+    "military",
+    "diplomatic"
+   ],
+   "importance": 5,
+   "summary": "Hannibal besieged Saguntum, an Iberian town south of the Ebro in friendship with Rome, and took it by storm after eight months. Rome, which had sent envoys but no help, treated the attack as the casus belli of the Second Punic War.",
+   "detail": "Hannibal was wounded in the thigh by a javelin early in the siege. Many Saguntines burned themselves and their property in the final assault; the booty financed his army and was sent home to bind Carthage to the war. Polybius (3.17) stresses the city's wealth. Rome's failure to help its friend for eight months was an embarrassment that Roman historians (followed by Livy) tried to obscure by compressing the chronology.",
+   "loc": [
+    -0.2667,
+    39.6795
+   ],
+   "locName": "Saguntum (Sagunto)",
+   "locCertainty": "certain",
+   "war": "second_punic_war",
+   "people": [
+    "hannibal_barca"
+   ],
+   "polities": [
+    "carthage",
+    "saguntum"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "carthage",
+      "commanders": [
+       "hannibal_barca"
+      ],
+      "strength": "c. 150,000 (Livy; inflated)"
+     },
+     {
+      "polity": "saguntum",
+      "commanders": [],
+      "strength": "citizens and defenders",
+      "losses": "city sacked, adult males killed"
+     }
+    ],
+    "victor": "carthage",
+    "kind": "siege",
+    "significance": "Precipitated war with Rome; supplied Hannibal's war chest."
+   },
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "3.17"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "21.6-15"
+    },
+    {
+     "a": "Appian",
+     "w": "Iberica",
+     "r": "10-12"
+    }
+   ],
+   "scholarship": [
+    "Hoyos, Unplanned Wars (1998)",
+    "Rich, Declaring War in the Roman Republic (1976)"
+   ],
+   "debate": "Livy himself (21.15.3-6) notes that his sources' dates do not fit: an eight-month siege ending late 219 cannot be squared with the claim that Hannibal reached Italy only five months after leaving New Carthage in 218 if the war was declared immediately. Whether Saguntum's Roman friendship predated the Ebro treaty, and thus whether Hannibal violated any treaty, remains disputed.",
+   "certainty": "certain",
+   "tags": [
+    "casus belli",
+    "Saguntum"
+   ]
+  },
+  {
+   "id": "declaration_of_war_218",
+   "year": -218,
+   "month": 3,
+   "title": "Roman embassy to Carthage and declaration of war",
+   "type": "diplomacy",
+   "cats": [
+    "diplomatic",
+    "political"
+   ],
+   "importance": 5,
+   "summary": "A Roman embassy headed by Quintus Fabius demanded the surrender of Hannibal. When the Carthaginian senate defended Hannibal, Fabius held up a fold of his toga and said it held peace or war; told to give whichever he chose, he let it fall and declared war.",
+   "detail": "Polybius (3.20-21, 33) gives the scene and a summary of the Carthaginian legal argument, that Hasdrubal's Ebro treaty had never been ratified and that Saguntum was not a Roman ally under the Lutatius treaty. He scorns writers (Chaereas, Sosylus) who invented a Senate debate in Rome. The formal procedure, with the comitia centuriata voting war, followed the fetial-derived practice of res repetitae.",
+   "loc": [
+    10.3233,
+    36.8528
+   ],
+   "locName": "Carthage",
+   "locCertainty": "certain",
+   "war": "second_punic_war",
+   "people": [],
+   "polities": [
+    "rome",
+    "carthage"
+   ],
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "3.20-21"
+    },
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "3.33"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "21.18"
+    }
+   ],
+   "scholarship": [
+    "Rich, Declaring War in the Roman Republic (1976)",
+    "Walbank, A Historical Commentary on Polybius I (1957)"
+   ],
+   "debate": "The ambassador's identity (Q. Fabius Maximus or M. Fabius Buteo) is disputed; the toga gesture may be dramatised.",
+   "certainty": "certain",
+   "tags": [
+    "fetiales",
+    "toga"
+   ]
+  },
+  {
+   "id": "lex_claudia_218",
+   "year": -218,
+   "title": "Lex Claudia de nave senatorum",
+   "type": "law",
+   "cats": [
+    "law",
+    "economic",
+    "political"
+   ],
+   "importance": 4,
+   "summary": "The tribune Quintus Claudius carried a plebiscite forbidding senators and their sons to own seagoing ships of more than 300 amphorae capacity, enough to ship produce from their estates but not to engage in large-scale trade. Livy says only Gaius Flaminius among senators supported it, which won him popularity and senatorial hatred.",
+   "detail": "The law shaped the social ideology of the Roman elite, who were to derive their wealth from land rather than commerce, though in practice senators traded through freedmen and agents. Cicero (Verrines 2.5.45) shows it was still technically in force, though a dead letter, in the 70s BC, and Caesar's Lex Julia de repetundis renewed it.",
+   "loc": [
+    12.4924,
+    41.8902
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "people": [
+    "gaius_flaminius"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "21.63.3-4"
+    },
+    {
+     "a": "Cicero",
+     "w": "In Verrem",
+     "r": "2.5.45"
+    }
+   ],
+   "scholarship": [
+    "D'Arms, Commerce and Social Standing in Ancient Rome (1981)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "plebiscite",
+    "senatorial class",
+    "trade"
+   ]
+  },
+  {
+   "id": "boian_revolt_218",
+   "year": -218,
+   "month": 5,
+   "title": "Colonies of Placentia and Cremona; the Boian revolt",
+   "type": "founding",
+   "cats": [
+    "military",
+    "administrative"
+   ],
+   "importance": 3,
+   "summary": "Rome founded two Latin colonies of 6,000 settlers each at Placentia and Cremona on the Po. Hearing of Hannibal's approach the Boii and Insubres rose, drove the colonists to Mutina, seized the three land commissioners at a parley, and twice ambushed the praetor Lucius Manlius Vulso, whose army took refuge at Tannetum.",
+   "loc": [
+    9.6929,
+    45.0526
+   ],
+   "locName": "Placentia (Piacenza)",
+   "locCertainty": "certain",
+   "war": "second_punic_war",
+   "people": [],
+   "polities": [
+    "rome",
+    "boii",
+    "insubres"
+   ],
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "3.40"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "21.25-26"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "colony",
+    "Latin colony",
+    "Cremona"
+   ]
+  },
+  {
+   "id": "battle_of_the_rhone_crossing",
+   "year": -218,
+   "month": 9,
+   "title": "Crossing of the Rhône",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "Hannibal forced the crossing of the Rhône against the Volcae, sending Hanno son of Bomilcar upstream to cross at night and attack the defenders from behind. Thirty-seven elephants were ferried on earth-covered rafts. Publius Scipio, landing at Massalia, arrived three days too late.",
+   "detail": "Polybius (3.43-46) and Livy (21.27-28) agree closely here, with the elephant rafts described in detail. Scipio sent his army on to Spain under his brother Gnaeus and returned to Italy himself, a decision Polybius (3.49) praises as the key to the war.",
+   "loc": [
+    4.75,
+    44.02
+   ],
+   "locName": "Rhône crossing (near Roquemaure or Fourques?)",
+   "locCertainty": "disputed",
+   "war": "second_punic_war",
+   "people": [
+    "hannibal_barca",
+    "hanno_son_of_bomilcar",
+    "publius_cornelius_scipio_cos218"
+   ],
+   "polities": [
+    "carthage",
+    "volcae"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "carthage",
+      "commanders": [
+       "hannibal_barca",
+       "hanno_son_of_bomilcar"
+      ],
+      "strength": "38,000 foot, 8,000 horse, 37 elephants (Polybius 3.60)"
+     },
+     {
+      "polity": "volcae",
+      "commanders": [],
+      "strength": "unknown"
+     }
+    ],
+    "victor": "carthage",
+    "kind": "field",
+    "significance": "Opened the route to the Alps; Scipio's decision to send his army to Spain anyway shaped the whole war."
+   },
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "3.42-46"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "21.26-29"
+    }
+   ],
+   "debate": "The crossing site is placed anywhere between Fourques (near Arles) and Roquemaure/Orange, depending on how Polybius' 'four days' march from the sea' is read.",
+   "certainty": "certain"
+  },
+  {
+   "id": "hannibal_crosses_the_alps",
+   "year": -218,
+   "month": 10,
+   "title": "Hannibal crosses the Alps",
+   "type": "campaign",
+   "cats": [
+    "military"
+   ],
+   "importance": 5,
+   "summary": "In about fifteen days in October-November 218 Hannibal took his army over the Alps, fighting off ambushes by Alpine tribes, losing men and animals on icy paths, and cutting a new track where a landslide had destroyed the road. He descended into the territory of the Taurini with 20,000 foot and 6,000 horse, according to his own inscription at Cape Lacinium.",
+   "detail": "Polybius (3.47-56) walked the route himself and ridicules historians who brought in gods to guide Hannibal. Livy (21.32-38) adds the story of the rock split by fire and vinegar, absent from Polybius. Hannibal arrived in Italy as the Pleiades set (early November) and sacked the chief town of the Taurini (Turin) within three days.",
+   "loc": [
+    6.93,
+    45.24
+   ],
+   "locName": "Alpine pass (Col du Clapier, Mont Cenis, Traversette or Little St Bernard)",
+   "locCertainty": "disputed",
+   "war": "second_punic_war",
+   "people": [
+    "hannibal_barca"
+   ],
+   "polities": [
+    "carthage",
+    "allobroges",
+    "taurini"
+   ],
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "3.47-56"
+    },
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "3.60"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "21.31-38"
+    },
+    {
+     "a": "Appian",
+     "w": "Hannibalica",
+     "r": "4"
+    }
+   ],
+   "scholarship": [
+    "Proctor, Hannibal's March in History (1971)",
+    "de Beer, Alps and Elephants (1955)",
+    "Mahaney et al., 'Biostratigraphic evidence relating to the age-old question of Hannibal's invasion of Italy', Archaeometry 59 (2017)",
+    "Lazenby, Hannibal's War (1978)"
+   ],
+   "debate": "The pass is one of antiquity's great puzzles. Candidates include the Col de la Traversette (de Beer; Mahaney's team argued for a disturbed manure layer below it), Col du Clapier, Mont Cenis, Mont Genèvre and the Little St Bernard (Mommsen). Livy's L. Cincius Alimentus, a prisoner of Hannibal, heard that 80,000 foot and 10,000 horse reached Italy, but that figure includes Gauls and Ligurians recruited later.",
+   "certainty": "certain",
+   "tags": [
+    "Alps",
+    "elephants",
+    "Lacinian inscription"
+   ]
+  },
+  {
+   "id": "battle_of_cissa",
+   "year": -218,
+   "month": 11,
+   "title": "Battle of Cissa",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "Gnaeus Cornelius Scipio, landing at Emporiae with the Roman army sent from the Rhône, defeated the Carthaginian commander north of the Ebro, Hanno, near Cissa, capturing him and the Ilergetan chief Indibilis.",
+   "detail": "This first Roman success in Spain established a base at Tarraco and began the Scipios' seven-year campaign that kept reinforcements from reaching Hannibal.",
+   "loc": [
+    1.25,
+    41.12
+   ],
+   "locName": "Cissa/Kesse (near Tarraco)",
+   "locCertainty": "disputed",
+   "war": "second_punic_war",
+   "people": [
+    "gnaeus_cornelius_scipio_calvus",
+    "indibilis"
+   ],
+   "polities": [
+    "rome",
+    "carthage",
+    "ilergetes"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "gnaeus_cornelius_scipio_calvus"
+      ],
+      "strength": "2 legions and allies, c. 25,000"
+     },
+     {
+      "polity": "carthage",
+      "commanders": [],
+      "strength": "10,000 foot, 1,000 horse under Hanno",
+      "losses": "6,000 killed, 2,000 captured (Livy)"
+     }
+    ],
+    "victor": "rome",
+    "kind": "field",
+    "significance": "Gave Rome a foothold north of the Ebro."
+   },
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "3.76"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "21.60-61"
+    }
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "battle_of_ticinus",
+   "year": -218,
+   "month": 11,
+   "title": "Battle of the Ticinus",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "In the first clash in Italy, Hannibal's Numidian and Spanish cavalry routed Publius Cornelius Scipio's cavalry and light troops near the Ticinus. Scipio was badly wounded and, by the most famous account, rescued by his 17-year-old son, the future Africanus.",
+   "detail": "Polybius (10.3) had the rescue story from Gaius Laelius; Livy (21.46) notes that Coelius Antipater attributed the rescue to a Ligurian slave. The defeat persuaded the Gauls of the Po valley to join Hannibal in numbers.",
+   "loc": [
+    8.88,
+    45.18
+   ],
+   "locName": "west of the Ticinus (near Lomello-Pavia)",
+   "locCertainty": "disputed",
+   "war": "second_punic_war",
+   "people": [
+    "hannibal_barca",
+    "publius_cornelius_scipio_cos218",
+    "scipio_africanus",
+    "maharbal"
+   ],
+   "polities": [
+    "carthage",
+    "rome"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "publius_cornelius_scipio_cos218"
+      ],
+      "strength": "cavalry and velites, perhaps 3,000-4,000"
+     },
+     {
+      "polity": "carthage",
+      "commanders": [
+       "hannibal_barca"
+      ],
+      "strength": "c. 6,000 cavalry"
+     }
+    ],
+    "victor": "carthage",
+    "kind": "skirmish",
+    "significance": "Exposed Roman cavalry inferiority; brought Gallic support to Hannibal."
+   },
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "3.64-65"
+    },
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "10.3.3-6"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "21.45-46"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "cavalry",
+    "Laelius"
+   ]
+  },
+  {
+   "id": "battle_of_the_trebia",
+   "year": -218,
+   "month": 12,
+   "title": "Battle of the Trebia",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 5,
+   "summary": "On a snowy morning around the winter solstice, Hannibal's Numidians lured the consul Tiberius Sempronius Longus across the icy, swollen Trebia before breakfast. Hannibal's cavalry and elephants routed the Roman wings while his brother Mago burst from an ambush in a watercourse onto the Roman rear. Only 10,000 Romans cut their way through the centre to Placentia.",
+   "detail": "Polybius (3.70-74) presents Sempronius as reckless, eager for glory before his term ended, overruling the wounded Scipio. Sempronius, Livy says, reported to Rome that a storm had cost him victory. Most of Hannibal's elephants died in the following cold.",
+   "loc": [
+    9.58,
+    44.99
+   ],
+   "locName": "River Trebia, west of Placentia",
+   "locCertainty": "probable",
+   "war": "second_punic_war",
+   "people": [
+    "hannibal_barca",
+    "tiberius_sempronius_longus",
+    "publius_cornelius_scipio_cos218",
+    "mago_barca"
+   ],
+   "polities": [
+    "carthage",
+    "rome",
+    "insubres",
+    "boii"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "tiberius_sempronius_longus"
+      ],
+      "strength": "16,000 Romans, 20,000 allies, 4,000 cavalry (Polybius 3.72)",
+      "losses": "perhaps 20,000-30,000 killed or captured; 10,000 broke out"
+     },
+     {
+      "polity": "carthage",
+      "commanders": [
+       "hannibal_barca",
+       "mago_barca"
+      ],
+      "strength": "c. 20,000 infantry, 10,000 cavalry, elephants (Polybius)",
+      "losses": "light, mostly Celts"
+     }
+    ],
+    "victor": "carthage",
+    "kind": "field",
+    "significance": "First great Roman defeat of the war; brought the whole Po valley over to Hannibal."
+   },
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "3.68-74"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "21.52-56"
+    },
+    {
+     "a": "Appian",
+     "w": "Hannibalica",
+     "r": "6-7"
+    }
+   ],
+   "scholarship": [
+    "Lazenby, Hannibal's War (1978)",
+    "Goldsworthy, The Punic Wars (2000)"
+   ],
+   "debate": "Livy's account diverges from Polybius on which bank the battle was fought; Polybius' version is generally preferred. Polybius gives no Roman loss figure.",
+   "certainty": "certain",
+   "tags": [
+    "ambush",
+    "winter battle"
+   ]
+  },
+  {
+   "id": "battle_of_lake_trasimene",
+   "year": -217,
+   "month": 6,
+   "day": 21,
+   "title": "Battle of Lake Trasimene",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 5,
+   "summary": "Hannibal concealed his army in the hills above the narrow north shore of Lake Trasimene and, on a misty morning, ambushed the column of the consul Gaius Flaminius as it marched into the defile. About 15,000 Romans died, many driven into the lake; Flaminius was killed by an Insubrian horseman. It was the largest ambush in Roman history.",
+   "detail": "Polybius (3.82-84) blames Flaminius' rashness and contempt for omens, a tradition derived from Fabius Pictor that Livy (22.3-7) amplifies with prodigies and the earthquake no one felt during the battle. Six thousand men of the vanguard escaped but surrendered next day to Maharbal. Days later Maharbal destroyed the 4,000 cavalry of the other consul, Servilius Geminus, near Plestia.",
+   "loc": [
+    12.075,
+    43.205
+   ],
+   "locName": "north shore of Lake Trasimene (Tuoro)",
+   "locCertainty": "probable",
+   "war": "second_punic_war",
+   "people": [
+    "hannibal_barca",
+    "gaius_flaminius",
+    "maharbal"
+   ],
+   "polities": [
+    "carthage",
+    "rome"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "gaius_flaminius"
+      ],
+      "strength": "c. 25,000",
+      "losses": "c. 15,000 killed, 15,000 captured (Polybius); Livy (from Fabius Pictor) 15,000 killed, 10,000 scattered"
+     },
+     {
+      "polity": "carthage",
+      "commanders": [
+       "hannibal_barca",
+       "maharbal"
+      ],
+      "strength": "c. 50,000",
+      "losses": "c. 1,500 (Polybius), 2,500 (Livy)"
+     }
+    ],
+    "victor": "carthage",
+    "kind": "ambush",
+    "significance": "Opened central Italy to Hannibal and led to the dictatorship of Fabius."
+   },
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "3.80-85"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "22.3-8"
+    },
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "6.765-768"
+    }
+   ],
+   "scholarship": [
+    "Goldsworthy, The Punic Wars (2000)"
+   ],
+   "debate": "The battlefield is disputed between the Tuoro plain and a site near Passignano or the Sanguineto valley; Ovid's date (21 or 23 June) is in the unreformed Roman calendar. Hannibal released Italian prisoners without ransom to undermine Rome's alliance system.",
+   "certainty": "certain",
+   "tags": [
+    "ambush",
+    "Flaminius",
+    "prodigies"
+   ]
+  },
+  {
+   "id": "fabius_dictator_217",
+   "year": -217,
+   "title": "Fabius Maximus dictator: the strategy of delay",
+   "type": "political",
+   "cats": [
+    "political",
+    "military",
+    "constitutional"
+   ],
+   "importance": 4,
+   "summary": "After Trasimene the people elected Quintus Fabius Maximus dictator, the first dictator since 249 to take the field. He refused battle and shadowed Hannibal through the hills, harassing foragers. The strategy was deeply unpopular and earned him the nickname Cunctator ('Delayer'), later a title of honour.",
+   "detail": "Because the surviving consul was out of contact, Livy (22.8.6, 22.31.8-11) says Fabius was elected by the people as 'prodictator', a constitutional irregularity; Polybius (3.87) simply calls him dictator. Ennius' line 'unus homo nobis cunctando restituit rem' became his epitaph in Roman memory.",
+   "loc": [
+    12.4924,
+    41.8902
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "war": "second_punic_war",
+   "people": [
+    "quintus_fabius_maximus",
+    "marcus_minucius_rufus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "3.87-90"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "22.8-18"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Fabius Maximus",
+     "r": "3-10"
+    },
+    {
+     "a": "Ennius",
+     "w": "Annales",
+     "r": "fr. 363 Skutsch"
+    }
+   ],
+   "debate": "Whether Fabius' strategy was a coherent plan or a gradual adaptation is debated; Polybius regarded it as the only sensible policy.",
+   "certainty": "certain",
+   "tags": [
+    "Cunctator",
+    "dictatorship"
+   ]
+  },
+  {
+   "id": "religious_measures_217",
+   "year": -217,
+   "title": "Religious response to Trasimene",
+   "type": "religious",
+   "cats": [
+    "religious"
+   ],
+   "importance": 3,
+   "summary": "On Fabius' advice the Sibylline Books were consulted: Rome vowed a ver sacrum (all animals born in one spring), Ludi Magni, and temples to Venus Erycina and Mens, and held a Greek-style lectisternium with the twelve great gods on six couches.",
+   "detail": "The temples of Venus Erycina and Mens were dedicated on the Capitol in 215. The importation of the Sicilian Venus of Eryx, revered as mother of Aeneas, was a step in the Trojan legend's political use. The ver sacrum was finally performed in 195 and, being flawed, repeated in 194 (Livy 34.44).",
+   "loc": [
+    12.4823,
+    41.893
+   ],
+   "locName": "Capitol, Rome",
+   "locCertainty": "certain",
+   "war": "second_punic_war",
+   "people": [
+    "quintus_fabius_maximus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "22.9-10"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "23.31.9"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "34.44.1-3"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "ver sacrum",
+    "lectisternium",
+    "Venus Erycina",
+    "Sibylline Books"
+   ]
+  },
+  {
+   "id": "battle_of_ager_falernus",
+   "year": -217,
+   "title": "Escape from the Ager Falernus",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "Hannibal ravaged the rich Falernian plain of Campania to provoke Fabius, who then blocked the passes out. At night Hannibal tied torches to the horns of 2,000 oxen and drove them up a ridge; the Roman guard on the pass rushed to the lights and the army slipped through.",
+   "loc": [
+    14.15,
+    41.17
+   ],
+   "locName": "Pass of Callicula, Campania",
+   "locCertainty": "disputed",
+   "war": "second_punic_war",
+   "people": [
+    "hannibal_barca",
+    "quintus_fabius_maximus"
+   ],
+   "polities": [
+    "carthage",
+    "rome"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "carthage",
+      "commanders": [
+       "hannibal_barca"
+      ],
+      "strength": "whole army"
+     },
+     {
+      "polity": "rome",
+      "commanders": [
+       "quintus_fabius_maximus"
+      ],
+      "strength": "4,000 guarding the pass",
+      "losses": "c. 1,000 light troops killed"
+     }
+    ],
+    "victor": "carthage",
+    "kind": "skirmish",
+    "significance": "Humiliated Fabius and strengthened the critics of delay."
+   },
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "3.92-94"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "22.13-18"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Fabius Maximus",
+     "r": "6-7"
+    },
+    {
+     "a": "Frontinus",
+     "w": "Strategemata",
+     "r": "1.5.28"
+    }
+   ],
+   "debate": "The location of Callicula is uncertain (perhaps Monte Maggiore). Livy's tale that Hannibal's guide misheard 'Casinum' for 'Casilinum' is probably invented.",
+   "certainty": "certain",
+   "tags": [
+    "oxen stratagem",
+    "ruse"
+   ]
+  },
+  {
+   "id": "lex_metilia_217",
+   "year": -217,
+   "title": "Lex Metilia and the battle of Gerunium",
+   "type": "battle",
+   "cats": [
+    "military",
+    "constitutional"
+   ],
+   "importance": 3,
+   "summary": "After a small success near Gerunium, the master of horse Marcus Minucius Rufus was given imperium equal to the dictator Fabius by a plebiscite of the tribune Metilius, an unprecedented step. Minucius then took half the army, was lured into an ambush and was saved only by Fabius' intervention, after which he placed himself again under Fabius' command.",
+   "detail": "An inscribed altar to Hercules from Rome (CIL I² 607) names 'M. Minucius C. f. dictator', confirming that Minucius was formally styled dictator. The story of his repentance was elaborated by Livy and Plutarch into a set-piece of Roman virtue.",
+   "loc": [
+    14.85,
+    41.74
+   ],
+   "locName": "Gerunium (near Casacalenda), Apulia",
+   "locCertainty": "approx",
+   "war": "second_punic_war",
+   "people": [
+    "quintus_fabius_maximus",
+    "marcus_minucius_rufus",
+    "hannibal_barca"
+   ],
+   "polities": [
+    "rome",
+    "carthage"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "marcus_minucius_rufus",
+       "quintus_fabius_maximus"
+      ],
+      "strength": "half the Roman army, rescued by the other half",
+      "losses": "heavy among Minucius' troops"
+     },
+     {
+      "polity": "carthage",
+      "commanders": [
+       "hannibal_barca"
+      ],
+      "strength": "unknown, with 500 horse and 5,000 foot in ambush"
+     }
+    ],
+    "victor": "carthage",
+    "kind": "ambush",
+    "significance": "Seemed to vindicate Fabius; confirmed Hannibal's mastery of ambush."
+   },
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "3.101-105"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "22.23-30"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Fabius Maximus",
+     "r": "8-13"
+    },
+    {
+     "a": "Inscription",
+     "w": "Altar of Minucius",
+     "r": "CIL I² 607 = ILLRP 118"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "co-dictatorship",
+    "plebiscite",
+    "epigraphy"
+   ]
+  },
+  {
+   "id": "battle_of_the_ebro_river",
+   "year": -217,
+   "title": "Naval battle at the mouth of the Ebro",
+   "type": "naval",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "Gnaeus Scipio, with 35 Roman and Massaliot ships, surprised the Carthaginian fleet of 40 ships under Himilco at the mouth of the Ebro and captured 25, giving Rome command of the Spanish coast.",
+   "loc": [
+    0.88,
+    40.7
+   ],
+   "locName": "mouth of the Ebro",
+   "locCertainty": "probable",
+   "war": "second_punic_war",
+   "people": [
+    "gnaeus_cornelius_scipio_calvus"
+   ],
+   "polities": [
+    "rome",
+    "massalia",
+    "carthage"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "gnaeus_cornelius_scipio_calvus"
+      ],
+      "strength": "35 ships incl. Massaliot"
+     },
+     {
+      "polity": "carthage",
+      "commanders": [],
+      "strength": "40 ships under Himilco",
+      "losses": "25 captured, 2 sunk"
+     }
+    ],
+    "victor": "rome",
+    "kind": "naval",
+    "significance": "Gave Rome control of the sea off Spain; Publius Scipio soon joined his brother with reinforcements."
+   },
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "3.95-96"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "22.19-20"
+    }
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "battle_of_raphia",
+   "year": -217,
+   "month": 6,
+   "day": 22,
+   "title": "Battle of Raphia",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 4,
+   "summary": "Ptolemy IV defeated Antiochus III near Raphia on the Egyptian-Syrian border in one of the largest battles of the Hellenistic age, ending the Fourth Syrian War and saving Coele-Syria for Egypt. Antiochus' Indian elephants beat Ptolemy's smaller African ones, but Ptolemy's phalanx, with 20,000 newly trained Egyptians, won the centre.",
+   "detail": "Polybius (5.79-86) gives Ptolemy 70,000 foot, 5,000 horse and 73 elephants; Antiochus 62,000 foot, 6,000 horse and 102 elephants. Antiochus lost about 10,000 foot, 300 horse and 4,000 prisoners. Polybius (5.107) argues that arming Egyptians gave them the confidence to rebel, and the Great Revolt in the Thebaid followed from 206. The trilingual Raphia decree of the Egyptian priests (Pithom stele) commemorates the victory and dates it to 22 June 217.",
+   "loc": [
+    34.245,
+    31.287
+   ],
+   "locName": "Raphia (Rafah)",
+   "locCertainty": "probable",
+   "war": "fourth_syrian_war",
+   "people": [
+    "ptolemy_iv",
+    "antiochus_iii"
+   ],
+   "polities": [
+    "ptolemaic",
+    "seleucid"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "ptolemaic",
+      "commanders": [
+       "ptolemy_iv"
+      ],
+      "strength": "70,000 foot, 5,000 horse, 73 African elephants",
+      "losses": "1,500 foot, 700 horse, 16 elephants"
+     },
+     {
+      "polity": "seleucid",
+      "commanders": [
+       "antiochus_iii"
+      ],
+      "strength": "62,000 foot, 6,000 horse, 102 Indian elephants",
+      "losses": "c. 10,000 foot, 300 horse killed, 4,000 captured"
+     }
+    ],
+    "victor": "ptolemaic",
+    "kind": "field",
+    "significance": "Preserved Ptolemaic Coele-Syria for 17 years, but arming native Egyptians destabilised the dynasty; Antiochus turned east to his anabasis."
+   },
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "5.79-86"
+    },
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "5.107"
+    },
+    {
+     "a": "Inscription",
+     "w": "Raphia decree (Pithom stele)",
+     "r": "Thissen, Studien zum Raphiadekret (1966)"
+    },
+    {
+     "a": "Bible",
+     "w": "Daniel",
+     "r": "11.10-12"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "elephants",
+    "Hellenistic",
+    "machimoi"
+   ]
+  },
+  {
+   "id": "peace_of_naupactus",
+   "year": -217,
+   "month": 8,
+   "title": "Peace of Naupactus and the 'cloud in the west'",
+   "type": "treaty",
+   "cats": [
+    "diplomatic"
+   ],
+   "importance": 4,
+   "summary": "Philip V ended the Social War against the Aetolians at Naupactus. Polybius has the Aetolian Agelaus warn the Greeks that whoever won the war in Italy would turn east, a 'cloud rising in the west'; Polybius makes this moment, when the affairs of Italy, Africa and Greece became intertwined (symploke), the true start of his universal history.",
+   "detail": "Philip, advised by Demetrius of Pharos and excited by news of Trasimene, turned his attention to Illyria and Italy. The speech is Polybius' composition but expresses a real Greek perception.",
+   "loc": [
+    21.829,
+    38.394
+   ],
+   "locName": "Naupactus",
+   "locCertainty": "certain",
+   "war": "social_war_220",
+   "people": [
+    "philip_v",
+    "demetrius_of_pharos"
+   ],
+   "polities": [
+    "macedon_antigonid",
+    "aetolian_league",
+    "achaean_league"
+   ],
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "5.101-105"
+    }
+   ],
+   "scholarship": [
+    "Walbank, Philip V of Macedon (1940)",
+    "Eckstein, Rome Enters the Greek East (2008)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "symploke",
+    "Agelaus",
+    "universal history"
+   ]
+  },
+  {
+   "id": "battle_of_cannae",
+   "year": -216,
+   "month": 8,
+   "day": 2,
+   "title": "Battle of Cannae",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 5,
+   "summary": "On the plain by the Aufidus, Hannibal's thin crescent of Gauls and Spaniards drew the massed Roman infantry forward while his African veterans on either side turned inwards and his cavalry, having routed the Roman horse, struck the Roman rear. The largest army Rome had ever fielded was surrounded and destroyed. The consul Lucius Aemilius Paullus, the previous year's consul Servilius Geminus, Minucius Rufus and some 80 senators were among the dead.",
+   "detail": "Polybius (3.107-117) says the Romans fielded eight legions with allies, about 80,000 infantry and over 6,000 cavalry, deliberately deepening the maniples to smash the centre. Hasdrubal led the heavy cavalry on the left, the Numidians on the right. Polybius gives 70,000 Roman dead and 10,000 captured from the camps; Livy (22.49) gives 45,500 infantry and 2,700 cavalry killed and 19,300 captured. Hannibal lost about 5,700 (4,000 Celts). Livy has Maharbal tell Hannibal, who declined to march on Rome, 'you know how to win a victory, not how to use one'. The consul Varro escaped to Venusia with 50 horsemen and was thanked by the Senate for not despairing of the Republic. Survivors formed the legiones Cannenses, exiled to Sicily for the rest of the war.",
+   "loc": [
+    16.1322,
+    41.3062
+   ],
+   "locName": "Cannae, Apulia (on the Aufidus/Ofanto)",
+   "locCertainty": "probable",
+   "war": "second_punic_war",
+   "people": [
+    "hannibal_barca",
+    "lucius_aemilius_paullus_cos216",
+    "gaius_terentius_varro",
+    "hasdrubal_cavalry_commander",
+    "maharbal",
+    "mago_barca",
+    "marcus_minucius_rufus"
+   ],
+   "polities": [
+    "rome",
+    "carthage"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "lucius_aemilius_paullus_cos216",
+       "gaius_terentius_varro"
+      ],
+      "strength": "c. 80,000 infantry and 6,000 cavalry (Polybius); modern estimates 50,000-86,000",
+      "losses": "c. 48,000 (Livy) to 70,000 (Polybius) killed; 10,000-20,000 captured"
+     },
+     {
+      "polity": "carthage",
+      "commanders": [
+       "hannibal_barca",
+       "hasdrubal_cavalry_commander",
+       "maharbal"
+      ],
+      "strength": "c. 40,000 infantry, 10,000 cavalry",
+      "losses": "c. 5,700 (Polybius) to 8,000 (Livy)"
+     }
+    ],
+    "victor": "carthage",
+    "kind": "field",
+    "significance": "The archetypal battle of annihilation. It triggered the defection of Capua, much of the south and (soon) Syracuse and Macedon, yet Rome refused to negotiate and won the war of attrition."
+   },
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "3.107-118"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "22.40-52"
+    },
+    {
+     "a": "Appian",
+     "w": "Hannibalica",
+     "r": "17-26"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Fabius Maximus",
+     "r": "15-16"
+    },
+    {
+     "a": "Aulus Gellius",
+     "w": "Noctes Atticae",
+     "r": "5.17.5"
+    }
+   ],
+   "scholarship": [
+    "Goldsworthy, Cannae (2001)",
+    "Daly, Cannae: The Experience of Battle in the Second Punic War (2002)",
+    "Lazenby, Hannibal's War (1978)",
+    "Brunt, Italian Manpower (1971)"
+   ],
+   "debate": "Size of the Roman army: Polybius' 80,000 infantry assumes legions of 5,000 and equal allies; Daly and others argue for c. 50,000-55,000 actually in line after camp guards. The site (left or right bank of the Aufidus) is disputed; a medieval cemetery once claimed as the battle's mass grave proved to be later. The calendar date (2 August, Roman calendar, from Quadrigarius via Gellius) may correspond to a solar date in early summer. Polybius' and Livy's loss figures differ by over 20,000.",
+   "certainty": "certain",
+   "tags": [
+    "double envelopment",
+    "annihilation",
+    "legiones Cannenses"
+   ]
+  },
+  {
+   "id": "rome_after_cannae_216",
+   "year": -216,
+   "title": "Rome after Cannae",
+   "type": "religious",
+   "cats": [
+    "religious",
+    "military",
+    "political"
+   ],
+   "importance": 4,
+   "summary": "Rome responded to Cannae with mobilisation and expiation: Quintus Fabius Pictor was sent to consult Delphi; two Vestals, Opimia and Floronia, convicted of unchastity, died (one buried alive); a Gallic and a Greek couple were again buried alive in the Forum Boarium; 8,000 slaves bought by the state were armed as volones; the Senate refused to ransom the prisoners held by Hannibal.",
+   "detail": "Marcus Junius Pera was named dictator and armed even 6,000 debtors and criminals, using spoils from the temples of Gallic victories. The refusal to ransom 8,000 prisoners (Livy 22.58-61) became a lesson in severity. Mourning women were limited to 30 days so that the rites of Ceres could be held.",
+   "loc": [
+    12.4924,
+    41.8902
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "war": "second_punic_war",
+   "people": [
+    "quintus_fabius_pictor"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "22.57-61"
+    },
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "6.58"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Fabius Maximus",
+     "r": "18"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "volones",
+    "Vestal Virgins",
+    "human sacrifice",
+    "Delphi"
+   ]
+  },
+  {
+   "id": "lectio_senatus_buteo_216",
+   "year": -216,
+   "title": "Two dictators at once: Fabius Buteo refills the Senate",
+   "type": "constitutional",
+   "cats": [
+    "constitutional"
+   ],
+   "importance": 2,
+   "summary": "With Cannae having killed so many senators and no censors in office, Marcus Fabius Buteo, the senior ex-censor, was named a second dictator, sole purpose to revise the Senate, while Junius Pera held the military dictatorship. Buteo enrolled 177 new senators by strict seniority of office and valour, then resigned the same day.",
+   "detail": "The only case of two dictators simultaneously and the only dictator without a master of horse. His fair and transparent criteria (Livy 23.22-23) won applause.",
+   "loc": [
+    12.4924,
+    41.8902
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "war": "second_punic_war",
+   "people": [],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "23.22-23"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "dictatorship",
+    "Senate",
+    "lectio senatus"
+   ]
+  },
+  {
+   "id": "defection_of_capua_216",
+   "year": -216,
+   "title": "Defection of Capua",
+   "type": "political",
+   "cats": [
+    "political",
+    "military"
+   ],
+   "importance": 4,
+   "summary": "Capua, the second city of Italy, went over to Hannibal on the promise that it would remain self-governing and become the leading city of Italy. Arpi, Salapia, most of the Samnites, the Lucanians and the Bruttians also defected in 216-215.",
+   "detail": "Livy (23.2-10) describes the political manoeuvres of Pacuvius Calavius and the resistance of Decius Magius, sent in chains to Carthage. Capua's elite was linked to Rome by intermarriage; its defection shows the strain on Rome's alliance network, but the Latin colonies remained loyal, which decided the war.",
+   "loc": [
+    14.253,
+    41.083
+   ],
+   "locName": "Capua (Santa Maria Capua Vetere)",
+   "locCertainty": "certain",
+   "war": "second_punic_war",
+   "people": [
+    "hannibal_barca"
+   ],
+   "polities": [
+    "campanians",
+    "carthage",
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "23.2-10"
+    },
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "3.118"
+    },
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "7.1"
+    }
+   ],
+   "scholarship": [
+    "Fronda, Between Rome and Carthage (2010)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Italian allies",
+    "defection"
+   ]
+  },
+  {
+   "id": "battle_of_nola_216",
+   "year": -216,
+   "title": "First battle of Nola",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "Marcus Claudius Marcellus, holding Nola, sallied from three gates and repulsed Hannibal's assault, the first check Hannibal suffered after Cannae. Livy says 2,800 Carthaginians fell for fewer than 500 Romans.",
+   "detail": "Livy (23.16) admits that some writers exaggerated the victory. Hannibal attacked Nola again in 215 and 214 without success.",
+   "loc": [
+    14.5272,
+    40.9263
+   ],
+   "locName": "Nola, Campania",
+   "locCertainty": "certain",
+   "war": "second_punic_war",
+   "people": [
+    "marcus_claudius_marcellus",
+    "hannibal_barca"
+   ],
+   "polities": [
+    "rome",
+    "carthage"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "marcus_claudius_marcellus"
+      ],
+      "strength": "garrison of a few thousand"
+     },
+     {
+      "polity": "carthage",
+      "commanders": [
+       "hannibal_barca"
+      ],
+      "strength": "part of army",
+      "losses": "2,800 (Livy; doubtful)"
+     }
+    ],
+    "victor": "rome",
+    "kind": "field",
+    "significance": "Morale-restoring success; made Marcellus 'the sword of Rome' beside Fabius 'the shield' (Posidonius in Plutarch)."
+   },
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "23.14-16"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Marcellus",
+     "r": "10-11"
+    }
+   ],
+   "debate": "Livy's casualty figures are inflated; the 'battle' may have been a repulsed assault.",
+   "certainty": "probable"
+  },
+  {
+   "id": "battle_of_silva_litana",
+   "year": -216,
+   "title": "Ambush in the Litana forest",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "The consul-designate Lucius Postumius Albinus, marching through the Litana forest in Boian territory, was ambushed when the Boii, having sawn through the trees along the road, toppled them onto his column. His army of 25,000 was destroyed; his gilded skull became a libation cup in a Boian temple.",
+   "loc": [
+    11.0,
+    44.4
+   ],
+   "locName": "Silva Litana (Boian territory, Emilia)",
+   "locCertainty": "disputed",
+   "war": "second_punic_war",
+   "people": [],
+   "polities": [
+    "boii",
+    "rome"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [],
+      "strength": "2 legions and allies, 25,000 (Livy) under L. Postumius Albinus",
+      "losses": "almost all killed; 10 survivors (Livy)"
+     },
+     {
+      "polity": "boii",
+      "commanders": [],
+      "strength": "unknown"
+     }
+    ],
+    "victor": "boii",
+    "kind": "ambush",
+    "significance": "Ended Roman operations in Cisalpine Gaul for years."
+   },
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "23.24.6-13"
+    },
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "3.118.6"
+    },
+    {
+     "a": "Frontinus",
+     "w": "Strategemata",
+     "r": "1.6.4"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "ambush",
+    "skull cup",
+    "Boii"
+   ]
+  },
+  {
+   "id": "siege_of_casilinum",
+   "year": -216,
+   "endYear": -215,
+   "title": "Siege of Casilinum",
+   "type": "siege",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "A garrison of about 500 Praenestines and 460 Perusians held the Volturnus crossing at Casilinum against Hannibal through the winter of 216/215, eating leather and roots. Livy and Pliny say a mouse sold for 200 denarii. Starved out, the survivors were allowed to ransom themselves.",
+   "loc": [
+    14.214,
+    41.107
+   ],
+   "locName": "Casilinum (modern Capua)",
+   "locCertainty": "certain",
+   "war": "second_punic_war",
+   "people": [
+    "hannibal_barca"
+   ],
+   "polities": [
+    "rome",
+    "carthage"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [],
+      "strength": "c. 1,000 Latin allies"
+     },
+     {
+      "polity": "carthage",
+      "commanders": [
+       "hannibal_barca"
+      ],
+      "strength": "part of army"
+     }
+    ],
+    "victor": "carthage",
+    "kind": "siege",
+    "significance": "Tied Hannibal down for months; became an exemplum of allied loyalty."
+   },
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "23.17-20"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "8.222"
+    },
+    {
+     "a": "Frontinus",
+     "w": "Strategemata",
+     "r": "4.5.20"
+    }
+   ],
+   "debate": "The reference to denarii is an anachronism if the denarius dates to c. 211.",
+   "certainty": "certain"
+  },
+  {
+   "id": "lex_oppia_215",
+   "year": -215,
+   "title": "Lex Oppia",
+   "type": "law",
+   "cats": [
+    "law",
+    "social",
+    "economic"
+   ],
+   "importance": 3,
+   "summary": "The tribune Gaius Oppius carried a sumptuary law forbidding any woman to possess more than half an ounce of gold, to wear multi-coloured clothing or to ride in a carriage in Rome or within a mile of it except for religious festivals.",
+   "detail": "An emergency measure when women's wealth was being tapped for the war (widows' and orphans' funds were deposited in the treasury in 214). It was repealed in 195 after a famous demonstration by Roman women.",
+   "loc": [
+    12.4924,
+    41.8902
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "war": "second_punic_war",
+   "people": [],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "34.1.3"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "3.33-34"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "sumptuary law",
+    "women"
+   ]
+  },
+  {
+   "id": "treaty_hannibal_philip_215",
+   "year": -215,
+   "title": "Treaty between Hannibal and Philip V",
+   "type": "treaty",
+   "cats": [
+    "diplomatic"
+   ],
+   "importance": 4,
+   "summary": "Philip V sent Xenophanes of Athens to Hannibal and concluded an alliance. Polybius preserves the oath text, sworn before Zeus, Hera, Apollo, the daimon of Carthage, Heracles, Iolaus and other gods: mutual help, and if Rome made peace it must give up Corcyra, Apollonia, Epidamnus, Pharos, Dimale, the Parthini and Atintania, and restore Demetrius of Pharos' friends.",
+   "detail": "The envoys were captured by the Roman fleet on their way back, revealing the treaty. Rome kept a fleet in the Adriatic under Marcus Valerius Laevinus, leading to the First Macedonian War. Livy's version (23.33), in which Philip promised to invade Italy and receive Greece, is generally considered annalistic exaggeration.",
+   "loc": [
+    15.8,
+    41.0
+   ],
+   "locName": "Hannibal's camp, southern Italy",
+   "locCertainty": "approx",
+   "war": "first_macedonian_war",
+   "people": [
+    "hannibal_barca",
+    "philip_v"
+   ],
+   "polities": [
+    "carthage",
+    "macedon_antigonid"
+   ],
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "7.9"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "23.33-34"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "23.38-39"
+    }
+   ],
+   "scholarship": [
+    "Walbank, A Historical Commentary on Polybius II (1967)",
+    "Barré, The God-List in the Treaty between Hannibal and Philip V (1983)"
+   ],
+   "debate": "The oath's god list appears to be a Greek rendering of a Punic formula and is valuable evidence for Carthaginian religion. Polybius' and Livy's terms differ substantially.",
+   "certainty": "certain",
+   "tags": [
+    "oath",
+    "Punic religion"
+   ]
+  },
+  {
+   "id": "death_of_hiero_215",
+   "year": -215,
+   "title": "Death of Hiero II; Syracuse turns to Carthage",
+   "type": "death",
+   "cats": [
+    "political"
+   ],
+   "importance": 3,
+   "summary": "Hiero II died at over ninety after 54 years of rule, his loyalty to Rome unshaken. His fifteen-year-old grandson Hieronymus switched to Carthage, was assassinated in 214 at Leontini, and in the turmoil the pro-Carthaginian Hippocrates and Epicydes, Syracusans born in Carthage, seized power.",
+   "loc": [
+    15.2866,
+    37.0755
+   ],
+   "locName": "Syracuse",
+   "locCertainty": "certain",
+   "war": "second_punic_war",
+   "people": [
+    "hiero_ii"
+   ],
+   "polities": [
+    "syracuse",
+    "carthage",
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "7.2-8"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "24.4-7"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "24.21-32"
+    }
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "battle_of_dertosa",
+   "year": -215,
+   "title": "Battle of Dertosa (Ibera)",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 4,
+   "summary": "The Scipio brothers defeated Hasdrubal Barca near Ibera on the Ebro as he prepared to march to Italy. Hasdrubal used Hannibal's Cannae formation, but his weak Spanish centre broke first and the battle was a rout.",
+   "detail": "Livy (23.28-29) is the only source. The victory prevented reinforcements reaching Hannibal for eight years and kept the Spanish front alive, one of the turning points of the war.",
+   "loc": [
+    0.521,
+    40.8125
+   ],
+   "locName": "Ibera, near Dertosa (Tortosa)",
+   "locCertainty": "probable",
+   "war": "second_punic_war",
+   "people": [
+    "publius_cornelius_scipio_cos218",
+    "gnaeus_cornelius_scipio_calvus",
+    "hasdrubal_barca"
+   ],
+   "polities": [
+    "rome",
+    "carthage"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "publius_cornelius_scipio_cos218",
+       "gnaeus_cornelius_scipio_calvus"
+      ],
+      "strength": "c. 30,000"
+     },
+     {
+      "polity": "carthage",
+      "commanders": [
+       "hasdrubal_barca"
+      ],
+      "strength": "c. 25,000 with 20 elephants",
+      "losses": "heavy"
+     }
+    ],
+    "victor": "rome",
+    "kind": "field",
+    "significance": "Stopped Hasdrubal's first attempt to join Hannibal."
+   },
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "23.28-29"
+    }
+   ],
+   "debate": "Date (215 or 216) and details rest only on Livy.",
+   "certainty": "probable"
+  },
+  {
+   "id": "battle_of_cornus",
+   "year": -215,
+   "title": "Hampsicora's revolt in Sardinia",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "Sardinian chieftains under Hampsicora rose with Carthaginian help. Titus Manlius Torquatus defeated them and a Carthaginian force under Hasdrubal the Bald near Cornus; Hampsicora's son Hiostus was killed and Hampsicora took his own life.",
+   "loc": [
+    8.444,
+    40.115
+   ],
+   "locName": "Cornus, Sardinia",
+   "locCertainty": "probable",
+   "war": "second_punic_war",
+   "people": [],
+   "polities": [
+    "rome",
+    "sardinians",
+    "carthage"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [],
+      "strength": "c. 22,000 foot, 1,200 horse under T. Manlius Torquatus"
+     },
+     {
+      "polity": "sardinians",
+      "commanders": [],
+      "strength": "Sardinians and a Carthaginian expeditionary force",
+      "losses": "12,000 killed, 3,700 captured (Livy)"
+     }
+    ],
+    "victor": "rome",
+    "kind": "field",
+    "significance": "Kept Sardinia, a grain source, in Roman hands."
+   },
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "23.32.7-12"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "23.40-41"
+    }
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "battle_of_beneventum_214",
+   "year": -214,
+   "title": "Battle of Beneventum and the freeing of the volones",
+   "type": "battle",
+   "cats": [
+    "military",
+    "social"
+   ],
+   "importance": 3,
+   "summary": "Tiberius Sempronius Gracchus, commanding legions largely of slave volunteers (volones), defeated Hanno near Beneventum after promising freedom to any who brought back an enemy head. He freed them all on the field; the feast that followed was painted on the walls of the temple of Libertas on the Aventine.",
+   "loc": [
+    14.782,
+    41.1297
+   ],
+   "locName": "Beneventum, Samnium",
+   "locCertainty": "probable",
+   "war": "second_punic_war",
+   "people": [
+    "tiberius_sempronius_gracchus_cos215",
+    "hanno_son_of_bomilcar"
+   ],
+   "polities": [
+    "rome",
+    "carthage"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "tiberius_sempronius_gracchus_cos215"
+      ],
+      "strength": "c. 2 legions, mostly volones"
+     },
+     {
+      "polity": "carthage",
+      "commanders": [
+       "hanno_son_of_bomilcar"
+      ],
+      "strength": "17,000 foot, 1,200 horse (Livy)",
+      "losses": "all but 2,000 killed (Livy; exaggerated)"
+     }
+    ],
+    "victor": "rome",
+    "kind": "field",
+    "significance": "Showed that slave soldiers could fight; Livy's moralising set-piece on Roman freedom."
+   },
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "24.14-16"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "volones",
+    "slave soldiers",
+    "temple of Libertas"
+   ]
+  },
+  {
+   "id": "battle_of_apollonia_214",
+   "year": -214,
+   "title": "Philip V's failure at Apollonia",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "Philip V sailed into the Adriatic with 120 lembi, took Oricum and besieged Apollonia. The praetor Marcus Valerius Laevinus retook Oricum and sent Quintus Naevius Crista into Apollonia, who surprised Philip's camp at night. Philip burned his ships at the mouth of the Aous and retreated overland, half-naked.",
+   "loc": [
+    19.47,
+    40.723
+   ],
+   "locName": "Apollonia, Illyria",
+   "locCertainty": "certain",
+   "war": "first_macedonian_war",
+   "people": [
+    "philip_v",
+    "marcus_valerius_laevinus"
+   ],
+   "polities": [
+    "rome",
+    "macedon_antigonid"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "marcus_valerius_laevinus"
+      ],
+      "strength": "2,000 men under Q. Naevius Crista plus fleet"
+     },
+     {
+      "polity": "macedon_antigonid",
+      "commanders": [
+       "philip_v"
+      ],
+      "strength": "army with 120 lembi",
+      "losses": "3,000 killed or captured (Livy); fleet burned"
+     }
+    ],
+    "victor": "rome",
+    "kind": "field",
+    "significance": "Ended Philip's hopes of crossing to Italy."
+   },
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "24.40"
+    }
+   ],
+   "debate": "Only Livy narrates this; Polybius' account is lost.",
+   "certainty": "probable"
+  },
+  {
+   "id": "siege_of_syracuse_213",
+   "year": -213,
+   "endYear": -212,
+   "title": "Siege of Syracuse",
+   "type": "siege",
+   "cats": [
+    "military",
+    "technology",
+    "cultural"
+   ],
+   "importance": 5,
+   "summary": "Marcellus and Appius Claudius Pulcher besieged Syracuse by land and sea. Archimedes' engines, catapults graded for range, cranes that lifted ships by the bow and dropped them, and the 'claw', repelled every assault. Marcellus settled for a blockade and in 212, during a festival of Artemis, scaled a weakly guarded stretch of the Epipolae walls. The island citadel of Ortygia fell later that year; Archimedes was killed by a Roman soldier in the sack.",
+   "detail": "Polybius (8.3-7) and Plutarch (Marcellus 14-19) describe the engines; the legend that Archimedes burned Roman ships with mirrors first appears in much later writers (Lucian, Galen, Zonaras) and is doubted. Cicero found Archimedes' neglected tomb, marked with a sphere and cylinder, when quaestor in 75. Marcellus shipped the city's art to Rome, which Livy (25.40) calls the beginning of Roman admiration for Greek art and of the plundering of temples.",
+   "loc": [
+    15.2866,
+    37.0755
+   ],
+   "locName": "Syracuse",
+   "locCertainty": "certain",
+   "war": "second_punic_war",
+   "people": [
+    "marcus_claudius_marcellus",
+    "archimedes"
+   ],
+   "polities": [
+    "rome",
+    "syracuse",
+    "carthage"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "marcus_claudius_marcellus"
+      ],
+      "strength": "c. 4 legions and 60 quinqueremes"
+     },
+     {
+      "polity": "syracuse",
+      "commanders": [
+       "archimedes"
+      ],
+      "strength": "city militia, mercenaries and Carthaginian reinforcements under Himilco",
+      "losses": "city sacked"
+     }
+    ],
+    "victor": "rome",
+    "kind": "siege",
+    "significance": "Removed the last independent Greek power in Sicily and made the whole island Roman; began the flood of Greek art into Rome."
+   },
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "8.3-7"
+    },
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "8.37"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "24.33-34"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "25.23-31"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Marcellus",
+     "r": "14-21"
+    },
+    {
+     "a": "Cicero",
+     "w": "Tusculan Disputations",
+     "r": "5.64-66"
+    }
+   ],
+   "debate": "Livy dates the start of the siege to 214, Polybius' sequence implies 213. The burning mirrors are almost certainly legend; experiments have produced mixed results.",
+   "certainty": "certain",
+   "tags": [
+    "Archimedes",
+    "claw",
+    "Greek art",
+    "looting"
+   ]
+  },
+  {
+   "id": "tarentum_betrayed_212",
+   "year": -212,
+   "title": "Tarentum betrayed to Hannibal",
+   "type": "siege",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "Young Tarentine nobles, angered by the execution of Tarentine hostages who had tried to escape from Rome, let Hannibal into the city at night. The Roman garrison under Marcus Livius held the citadel for the next three years, and with it the harbour mouth.",
+   "detail": "Polybius (8.24-34) gives a detailed narrative of the stratagem (the conspirators went out 'hunting' and returned with game each night to accustom the guards to opening the gate). Hannibal had his ships hauled across the city on wagons to get them out of the blocked harbour.",
+   "loc": [
+    17.24,
+    40.47
+   ],
+   "locName": "Tarentum (Taranto)",
+   "locCertainty": "certain",
+   "war": "second_punic_war",
+   "people": [
+    "hannibal_barca"
+   ],
+   "polities": [
+    "carthage",
+    "rome",
+    "tarentum"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "carthage",
+      "commanders": [
+       "hannibal_barca"
+      ],
+      "strength": "c. 10,000"
+     },
+     {
+      "polity": "rome",
+      "commanders": [],
+      "strength": "garrison",
+      "losses": "garrison confined to the citadel"
+     }
+    ],
+    "victor": "carthage",
+    "kind": "siege",
+    "significance": "Hannibal's greatest gain in the south, but he never took the citadel."
+   },
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "8.24-34"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "25.7-11"
+    }
+   ],
+   "debate": "Polybius implies 213, Livy 212.",
+   "certainty": "certain"
+  },
+  {
+   "id": "ludi_apollinares_212",
+   "year": -212,
+   "month": 7,
+   "title": "Institution of the Ludi Apollinares",
+   "type": "religious",
+   "cats": [
+    "religious",
+    "cultural"
+   ],
+   "importance": 2,
+   "summary": "Following the prophecies of the seer Marcius (carmina Marciana), which were said to have predicted Cannae, the Senate instituted games for Apollo to drive the enemy from Italy. They became annual in 208, held in July.",
+   "loc": [
+    12.4924,
+    41.8902
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "war": "second_punic_war",
+   "people": [],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "25.12"
+    },
+    {
+     "a": "Macrobius",
+     "w": "Saturnalia",
+     "r": "1.17.25-30"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Apollo",
+    "games",
+    "prophecy"
+   ]
+  },
+  {
+   "id": "publicani_fraud_212",
+   "year": -212,
+   "title": "Fraud of the war contractors",
+   "type": "political",
+   "cats": [
+    "economic",
+    "law"
+   ],
+   "importance": 2,
+   "summary": "Contractors supplying the armies in Spain under a state guarantee against loss at sea sank old hulks loaded with worthless goods and claimed compensation. When tribunes prosecuted the ringleader Marcus Postumius of Pyrgi, the publicani rioted in the assembly; he and others went into exile.",
+   "detail": "The episode (Livy 25.3-4) is the first known scandal of the companies of publicani, whose role expanded enormously as the state contracted out supply on credit in 215.",
+   "loc": [
+    12.4924,
+    41.8902
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "war": "second_punic_war",
+   "people": [],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "23.48-49"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "25.3-4"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "publicani",
+    "contractors",
+    "insurance fraud"
+   ]
+  },
+  {
+   "id": "battle_of_the_silarus",
+   "year": -212,
+   "title": "Battle of the Silarus",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "Marcus Centenius Paenula, an ex-centurion who boasted he could beat Hannibal and was given 8,000 men, gathered as many volunteers and attacked Hannibal in Lucania. Fewer than 1,000 escaped.",
+   "loc": [
+    15.0,
+    40.53
+   ],
+   "locName": "River Silarus (Sele), Lucania",
+   "locCertainty": "approx",
+   "war": "second_punic_war",
+   "people": [
+    "hannibal_barca"
+   ],
+   "polities": [
+    "carthage",
+    "rome"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [],
+      "strength": "c. 16,000 under M. Centenius Paenula",
+      "losses": "almost all"
+     },
+     {
+      "polity": "carthage",
+      "commanders": [
+       "hannibal_barca"
+      ],
+      "strength": "main army"
+     }
+    ],
+    "victor": "carthage",
+    "kind": "field",
+    "significance": "Minor, but illustrates Roman overconfidence and the Senate's willingness to try anyone."
+   },
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "25.19.9-17"
+    }
+   ],
+   "certainty": "probable"
+  },
+  {
+   "id": "battle_of_herdonia_212",
+   "year": -212,
+   "title": "First battle of Herdonia",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "Hannibal surprised the praetor Gnaeus Fulvius Flaccus near Herdonia in Apulia; of 18,000 Romans barely 2,000 escaped. Fulvius, accused of fleeing first, was later prosecuted and went into exile.",
+   "loc": [
+    15.625,
+    41.317
+   ],
+   "locName": "Herdonia (Ordona), Apulia",
+   "locCertainty": "probable",
+   "war": "second_punic_war",
+   "people": [
+    "hannibal_barca"
+   ],
+   "polities": [
+    "carthage",
+    "rome"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [],
+      "strength": "c. 18,000 under praetor Cn. Fulvius Flaccus",
+      "losses": "c. 16,000"
+     },
+     {
+      "polity": "carthage",
+      "commanders": [
+       "hannibal_barca"
+      ],
+      "strength": "main army"
+     }
+    ],
+    "victor": "carthage",
+    "kind": "field",
+    "significance": "Another Roman disaster; Hannibal's last great field victory in open battle against a large army."
+   },
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "25.21"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "26.2-3"
+    }
+   ],
+   "debate": "The two battles of Herdonia (212 and 210) are suspiciously similar; De Sanctis and others suspected a doublet, though most now accept both.",
+   "certainty": "disputed"
+  },
+  {
+   "id": "siege_of_capua_211",
+   "year": -211,
+   "endYear": -211,
+   "title": "Siege and fall of Capua",
+   "type": "siege",
+   "cats": [
+    "military",
+    "political"
+   ],
+   "importance": 4,
+   "summary": "Three Roman armies surrounded Capua with a double line of works. Hannibal failed to break the siege and marched on Rome to draw the besiegers off; they stayed. Capua surrendered in 211. Twenty-seven senators led by Vibius Virrius poisoned themselves at a last banquet; the proconsul Quintus Fulvius Flaccus executed 53 others. Capua lost its civic institutions and its land became ager publicus.",
+   "detail": "For nearly two centuries Capua was administered by a prefect sent from Rome. The punishment was a terrible warning to Hannibal's other allies, whose defections now stalled.",
+   "loc": [
+    14.253,
+    41.083
+   ],
+   "locName": "Capua",
+   "locCertainty": "certain",
+   "war": "second_punic_war",
+   "people": [
+    "quintus_fulvius_flaccus_cos237",
+    "hannibal_barca"
+   ],
+   "polities": [
+    "rome",
+    "campanians",
+    "carthage"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "quintus_fulvius_flaccus_cos237"
+      ],
+      "strength": "3 armies, c. 60,000"
+     },
+     {
+      "polity": "campanians",
+      "commanders": [],
+      "strength": "Campanian forces and a Carthaginian garrison",
+      "losses": "city surrendered; leaders executed"
+     }
+    ],
+    "victor": "rome",
+    "kind": "siege",
+    "significance": "Decisive turning point in Italy; Hannibal's inability to protect his allies became plain."
+   },
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "26.1-16"
+    },
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "9.3-9"
+    },
+    {
+     "a": "Appian",
+     "w": "Hannibalica",
+     "r": "36-43"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "deditio",
+    "ager Campanus",
+    "punishment"
+   ]
+  },
+  {
+   "id": "hannibal_march_on_rome_211",
+   "year": -211,
+   "title": "Hannibal at the gates",
+   "type": "campaign",
+   "cats": [
+    "military"
+   ],
+   "importance": 4,
+   "summary": "Hannibal marched on Rome and camped by the Anio three miles from the city; he rode with cavalry up to the Colline Gate. Two consular armies plus the troops from Capua faced him and he withdrew. Livy says the land on which he was camped was sold at auction in Rome at full price during his stay.",
+   "detail": "Polybius (9.5-7) says the march was a feint to relieve Capua and gives a direct route through Samnium; Livy (26.7-11), following Coelius, gives a different route by the Via Latina and adds a twice-repeated hailstorm that prevented battle. 'Hannibal ad portas' became a proverb.",
+   "loc": [
+    12.53,
+    41.95
+   ],
+   "locName": "Anio, three miles from Rome",
+   "locCertainty": "probable",
+   "war": "second_punic_war",
+   "people": [
+    "hannibal_barca"
+   ],
+   "polities": [
+    "carthage",
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "9.5-7"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "26.7-11"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "15.76"
+    }
+   ],
+   "debate": "Polybius and Livy disagree on the route and on Hannibal's purpose; Livy reflects the dramatising Roman tradition.",
+   "certainty": "certain",
+   "tags": [
+    "Hannibal ad portas",
+    "Colline Gate"
+   ]
+  },
+  {
+   "id": "battle_of_the_upper_baetis",
+   "year": -211,
+   "title": "Battle of the Upper Baetis: death of the Scipios",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 4,
+   "summary": "The Scipio brothers divided their forces to attack three Carthaginian armies. Publius was overwhelmed near Castulo by Mago and Hasdrubal son of Gisco, joined by Numidian cavalry under the young Masinissa; 29 days later Gnaeus, deserted by his 20,000 Celtiberian mercenaries, was killed near Ilorci. Rome lost all of Spain south of the Ebro.",
+   "detail": "The equestrian Lucius Marcius Septimus rallied the survivors north of the Ebro and, Livy says, won a night victory that may be largely invention. The lesson that Celtiberian mercenaries could be bought was not lost on Rome.",
+   "loc": [
+    -3.63,
+    38.04
+   ],
+   "locName": "Upper Baetis (near Castulo and Ilorci)",
+   "locCertainty": "disputed",
+   "war": "second_punic_war",
+   "people": [
+    "publius_cornelius_scipio_cos218",
+    "gnaeus_cornelius_scipio_calvus",
+    "hasdrubal_barca",
+    "hasdrubal_gisco",
+    "mago_barca",
+    "masinissa"
+   ],
+   "polities": [
+    "carthage",
+    "rome",
+    "celtiberians",
+    "numidia_massylii"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "publius_cornelius_scipio_cos218",
+       "gnaeus_cornelius_scipio_calvus"
+      ],
+      "strength": "c. 30,000 Romans plus 20,000 Celtiberian mercenaries",
+      "losses": "both commanders and most of both armies"
+     },
+     {
+      "polity": "carthage",
+      "commanders": [
+       "hasdrubal_barca",
+       "hasdrubal_gisco",
+       "mago_barca",
+       "masinissa"
+      ],
+      "strength": "three armies"
+     }
+    ],
+    "victor": "carthage",
+    "kind": "field",
+    "significance": "Collapse of Roman Spain; led to the appointment of the younger Scipio in 210."
+   },
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "25.32-39"
+    },
+    {
+     "a": "Appian",
+     "w": "Iberica",
+     "r": "16"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "3.9"
+    }
+   ],
+   "debate": "Livy dates the disaster to 212; 211 is generally preferred. Ilorci is placed near Lorca by Pliny but may lie nearer Castulo. Marcius' victories as told by Livy (from Claudius Quadrigarius and Valerius Antias) are doubted.",
+   "certainty": "certain"
+  },
+  {
+   "id": "introduction_of_the_denarius",
+   "year": -211,
+   "title": "Introduction of the denarius",
+   "type": "economic",
+   "cats": [
+    "economic",
+    "technology"
+   ],
+   "importance": 4,
+   "summary": "At the height of the war crisis Rome reformed its coinage, introducing the silver denarius (originally about 4.5 g, tariffed at 10 asses), with the quinarius and sestertius, a gold coinage and the victoriatus. The denarius became the standard silver coin of Rome for 450 years.",
+   "detail": "Pliny (33.44) dated the first Roman silver to 269, and some scholars put the denarius in the 260s or 187. Excavations at Morgantina in Sicily found early denarii in a destruction layer associated with the Roman sack of 211, which with hoard evidence persuaded most numismatists (Crawford, RRC 44/5) to date the system to c. 211. The as was reduced to the sextantal standard (2 ounces) at about the same time.",
+   "loc": [
+    12.4924,
+    41.8902
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "war": "second_punic_war",
+   "people": [],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "33.42-47"
+    }
+   ],
+   "scholarship": [
+    "Crawford, Roman Republican Coinage (1974)",
+    "Buttrey, 'The Morgantina Excavations and the Date of the Roman Denarius', Congresso Internazionale di Numismatica (1961)"
+   ],
+   "debate": "Date contested for a century (269, 187, c. 211); the Morgantina stratigraphy now makes c. 214-211 the consensus. The retariffing to 16 asses came c. 141.",
+   "certainty": "probable",
+   "tags": [
+    "coinage",
+    "denarius",
+    "Morgantina"
+   ]
+  },
+  {
+   "id": "roman_aetolian_treaty_211",
+   "year": -211,
+   "title": "Roman-Aetolian alliance",
+   "type": "treaty",
+   "cats": [
+    "diplomatic"
+   ],
+   "importance": 4,
+   "summary": "Marcus Valerius Laevinus allied Rome with the Aetolian League against Philip V. The terms divided the spoils: captured cities and land would go to the Aetolians, movable property and captives to the Romans. Neither party could make a separate peace.",
+   "detail": "A fragmentary copy of the treaty survives on a stone found at Thyrrheion in Acarnania (IG IX 1² 241), confirming Livy's summary (26.24). Greek opinion was shocked: Polybius (9.37-39, 11.5) records speeches condemning the Aetolians for selling Greeks to barbarians.",
+   "loc": [
+    21.5,
+    38.6
+   ],
+   "locName": "Aetolia (copy found at Thyrrheion)",
+   "locCertainty": "approx",
+   "war": "first_macedonian_war",
+   "people": [
+    "marcus_valerius_laevinus"
+   ],
+   "polities": [
+    "rome",
+    "aetolian_league",
+    "macedon_antigonid"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "26.24"
+    },
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "9.39.2-3"
+    },
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "11.5"
+    },
+    {
+     "a": "Inscription",
+     "w": "Treaty of Rome and Aetolia",
+     "r": "IG IX 1² 241 = Staatsverträge III 536"
+    }
+   ],
+   "scholarship": [
+    "Eckstein, Rome Enters the Greek East (2008)",
+    "Gruen, The Hellenistic World and the Coming of Rome (1984)"
+   ],
+   "debate": "The date (212 or 211) and whether Attalus, Sparta and Elis were original signatories are disputed.",
+   "certainty": "certain",
+   "tags": [
+    "epigraphy",
+    "treaty",
+    "Thyrrheion"
+   ]
+  },
+  {
+   "id": "ovation_of_marcellus_211",
+   "year": -211,
+   "title": "Marcellus' ovation and the Syracusan spoils",
+   "type": "cultural",
+   "cats": [
+    "cultural",
+    "religious"
+   ],
+   "importance": 3,
+   "summary": "Denied a full triumph because his army remained in Sicily, Marcellus triumphed on the Alban Mount and celebrated an ovation in Rome, displaying paintings, statues and the riches of Syracuse. Livy says this began the Roman craze for Greek art and the despoiling of sacred and profane buildings alike.",
+   "detail": "Marcellus dedicated much of the art in his temple of Honos and Virtus at the Porta Capena. Polybius (9.10) argues that Rome was wrong to strip conquered cities of art, which created envy and hatred. Marcellus kept only Archimedes' celestial globe for himself.",
+   "loc": [
+    12.495,
+    41.882
+   ],
+   "locName": "Rome (Porta Capena)",
+   "locCertainty": "probable",
+   "war": "second_punic_war",
+   "people": [
+    "marcus_claudius_marcellus",
+    "archimedes"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "25.40.1-3"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "26.21"
+    },
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "9.10"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Marcellus",
+     "r": "21"
+    },
+    {
+     "a": "Cicero",
+     "w": "De re publica",
+     "r": "1.21"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "looting",
+    "Greek art",
+    "Honos and Virtus",
+    "ovatio"
+   ]
+  },
+  {
+   "id": "anabasis_of_antiochus_iii",
+   "year": -212,
+   "endYear": -205,
+   "title": "Anabasis of Antiochus III",
+   "type": "campaign",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "Antiochus III led a seven-year expedition to the eastern satrapies, forcing Armenia, Parthia under Arsaces II and the Graeco-Bactrian king Euthydemus (after a two-year siege of Bactra) to acknowledge his supremacy, and renewing friendship with the Indian king Sophagasenus. He returned in 205/204 with 150 elephants and the title Megas, 'the Great'.",
+   "detail": "Polybius (11.34.15-16) says the expedition made him seem worthy of royal power to Greeks as well as Asiatics. The prestige won here underlay his later confrontation with Rome.",
+   "loc": [
+    66.9,
+    36.76
+   ],
+   "locName": "Bactra (Balkh) and the upper satrapies",
+   "locCertainty": "approx",
+   "people": [
+    "antiochus_iii"
+   ],
+   "polities": [
+    "seleucid",
+    "parthia"
+   ],
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "10.27-31"
+    },
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "10.48-49"
+    },
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "11.34"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Hellenistic",
+    "Bactria",
+    "elephants"
+   ]
+  }
+ ]
+}

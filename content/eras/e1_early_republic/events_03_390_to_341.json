@@ -1,0 +1,2052 @@
+{
+ "events": [
+  {
+   "id": "battle_of_the_allia",
+   "year": -390,
+   "month": 7,
+   "day": 18,
+   "title": "Battle of the Allia",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 5,
+   "summary": "A Gallic war band of Senones under Brennus routed the Roman army at the Allia stream, 11 Roman miles north of Rome, on 18 July; most survivors fled to Veii rather than Rome, leaving the city undefended.",
+   "detail": "The Roman left, on the plain, collapsed at the first Gallic charge; the right on high ground retreated to Rome. The dies Alliensis remained a black day (dies ater) in the calendar for the rest of antiquity. Roman numbers are unknown (Plutarch's 40,000 is a guess). Polybius dates the capture of Rome to the year of the King's Peace and Dionysius I's siege of Rhegium, 387/386 BC, while Varronian reckoning gives 390; the difference arises from the Varronian fasti's inflation, including the four 'dictator years' and the five-year anarchy of the 370s. The site lay where the Allia (probably the Fosso della Bettina or Fosso Maestro) joins the Tiber on the left bank near Crustumerium; Diodorus puts the battle on the right bank, a minority view.",
+   "loc": [
+    12.56,
+    42.02
+   ],
+   "locName": "Allia stream at its confluence with the Tiber, near Crustumerium",
+   "locCertainty": "approx",
+   "war": "gallic_war_390",
+   "people": [
+    "brennus"
+   ],
+   "polities": [
+    "rome",
+    "senones"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [],
+      "strength": "unknown (Plutarch says 40,000)",
+      "losses": "heavy; most survivors fled to Veii"
+     },
+     {
+      "polity": "senones",
+      "commanders": [
+       "brennus"
+      ],
+      "strength": "Gallic war band, perhaps 30,000 (Diodorus, guess)",
+      "losses": "light"
+     }
+    ],
+    "victor": "senones",
+    "kind": "field",
+    "significance": "Leaves Rome open to capture; the greatest humiliation of early Roman history and a lasting Roman fear of Gauls (metus Gallicus)."
+   },
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "5.37-38"
+    },
+    {
+     "a": "Diodorus Siculus",
+     "w": "Bibliotheca Historica",
+     "r": "14.114"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Camillus",
+     "r": "18"
+    },
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "1.6.2-3, 2.18.2"
+    }
+   ],
+   "scholarship": [
+    "Ogilvie, A Commentary on Livy Books 1-5 (1965) 715-722",
+    "Williams, Beyond the Rubicon (2001) 140-184",
+    "Cornell, The Beginnings of Rome (1995) 313-318"
+   ],
+   "debate": "Varronian 390 vs Polybian 387/386; which bank of the Tiber.",
+   "certainty": "certain",
+   "tags": [
+    "dies Alliensis",
+    "Gauls",
+    "Varronian chronology"
+   ]
+  },
+  {
+   "id": "siege_of_rome_390",
+   "year": -390,
+   "title": "Gallic sack of Rome and siege of the Capitol",
+   "type": "siege",
+   "cats": [
+    "military",
+    "religious"
+   ],
+   "importance": 5,
+   "summary": "The Gauls entered undefended Rome three days after the Allia, massacred the old senators sitting in their curule chairs, and besieged the Capitol for seven months; after Juno's geese warned M. Manlius of a night assault, the defenders bought them off with 1,000 pounds of gold.",
+   "detail": "Livy's version has Camillus, recalled from exile at Ardea and named dictator, arrive as the gold was weighed, as Brennus threw his sword on the scales with 'vae victis', and drive the Gauls out ('non auro, sed ferro'). Polybius knows nothing of this: the Gauls left with the gold because the Veneti invaded their lands. Diodorus and Strabo say the Caeretans later defeated the Gauls returning laden and recovered the gold; Suetonius (Tib. 3) has a Livius Drusus recover it in Gaul. The Vestals and the flamen Quirinalis escaped to Caere with the sacra in the cart of the plebeian L. Albinius. Aristotle (via Plutarch) knew that 'a Lucius' saved Rome, and Heraclides Ponticus reported that an army of Hyperboreans had taken a Greek city called Rome: the earliest Greek notices of Rome. Archaeologically, the burnt layer once ascribed to the sack in the Comitium is now dated earlier; damage may have been limited, though the trauma was lasting and Rome built the 'Servian' wall in 378.",
+   "loc": [
+    12.4823,
+    41.8933
+   ],
+   "locName": "Rome and the Capitol",
+   "locCertainty": "certain",
+   "war": "gallic_war_390",
+   "people": [
+    "brennus",
+    "marcus_manlius_capitolinus",
+    "marcus_furius_camillus"
+   ],
+   "polities": [
+    "rome",
+    "senones",
+    "caere"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "marcus_manlius_capitolinus",
+       "marcus_furius_camillus"
+      ],
+      "strength": "garrison of the Capitol (men of military age)",
+      "losses": "city sacked; heavy civilian losses"
+     },
+     {
+      "polity": "senones",
+      "commanders": [
+       "brennus"
+      ],
+      "strength": "Gallic army",
+      "losses": "disease in the summer heat (Livy); Gauls left with ransom"
+     }
+    ],
+    "victor": "senones",
+    "kind": "siege",
+    "significance": "Only capture of Rome by a foreign enemy until 410 AD. Roman recovery was rapid: within a generation Rome dominated southern Etruria and Latium."
+   },
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "5.39-55"
+    },
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "2.18.2-3, 2.22.4-5"
+    },
+    {
+     "a": "Diodorus Siculus",
+     "w": "Bibliotheca Historica",
+     "r": "14.115-117"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Camillus",
+     "r": "19-32"
+    },
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "5.2.3"
+    }
+   ],
+   "scholarship": [
+    "Williams, Beyond the Rubicon (2001) 142-184",
+    "Cornell, The Beginnings of Rome (1995) 313-318",
+    "Ogilvie, A Commentary on Livy Books 1-5 (1965) 719-748"
+   ],
+   "debate": "Camillus' rescue is fiction; whether Caere defeated the Gauls; the scale of destruction; date 390 vs 387/386.",
+   "certainty": "certain",
+   "tags": [
+    "vae victis",
+    "geese of Juno",
+    "Brennus",
+    "Caere"
+   ]
+  },
+  {
+   "id": "rebuilding_of_rome_389",
+   "year": -389,
+   "title": "Rejection of the move to Veii and rebuilding of Rome",
+   "type": "political",
+   "cats": [
+    "political",
+    "building"
+   ],
+   "importance": 2,
+   "summary": "Tribunes proposed moving the population to empty Veii; Camillus' speech and an omen (a centurion's 'Standard-bearer, plant the standard; here we shall best remain') kept Rome on its site, and the city was rebuilt in haste with state-supplied tiles and free quarrying.",
+   "detail": "Livy blames the haste for Rome's irregular street plan, with sewers running under private houses; this is probably an etiological explanation of the city's archaic layout. The pontifical records were believed lost in the fire, Livy's explanation for the obscurity of earlier history (6.1.2), though much survived.",
+   "loc": [
+    12.4924,
+    41.8902
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "war": "gallic_war_390",
+   "people": [
+    "marcus_furius_camillus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "5.49-55; 6.1"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Camillus",
+     "r": "31-32"
+    }
+   ],
+   "certainty": "traditional",
+   "tags": [
+    "Camillus",
+    "urban plan",
+    "annales"
+   ]
+  },
+  {
+   "id": "battle_of_maecium_389",
+   "year": -389,
+   "title": "Battle of Maecium",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 1,
+   "summary": "Camillus as dictator relieved a Roman army surrounded by Volsci at Maecium near Lanuvium, burned the Volscian camp and subdued the Volsci after 70 years of war; he then defeated the Aequi at Bolae and the Etruscans at Sutrium, triumphing three times in one year.",
+   "detail": "Livy's triple victory is patriotic inflation. Yet the period 389-358 does see Volscian, Aequian, Etruscan and Latin enemies probing a weakened Rome and Rome reasserting control.",
+   "loc": [
+    12.7,
+    41.68
+   ],
+   "locName": "Maecium, near Lanuvium",
+   "locCertainty": "approx",
+   "war": "volscian_wars",
+   "people": [
+    "marcus_furius_camillus"
+   ],
+   "polities": [
+    "rome",
+    "volsci"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "marcus_furius_camillus"
+      ],
+      "strength": "dictatorial levy",
+      "losses": "unknown"
+     },
+     {
+      "polity": "volsci",
+      "commanders": [],
+      "strength": "Volscian army with Latin and Hernican volunteers",
+      "losses": "camp burned"
+     }
+    ],
+    "victor": "rome",
+    "kind": "field",
+    "significance": "Rome reasserts itself after the sack."
+   },
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "6.2"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Camillus",
+     "r": "33-35"
+    },
+    {
+     "a": "Diodorus Siculus",
+     "w": "Bibliotheca Historica",
+     "r": "14.117.1-4"
+    }
+   ],
+   "scholarship": [
+    "Oakley, A Commentary on Livy Books VI-X, vol. I (1997) 395-420"
+   ],
+   "certainty": "traditional",
+   "tags": [
+    "Camillus",
+    "Volsci"
+   ]
+  },
+  {
+   "id": "four_new_tribes_387",
+   "year": -387,
+   "title": "Four new tribes on Veientine land",
+   "type": "administrative",
+   "cats": [
+    "administrative",
+    "social"
+   ],
+   "importance": 2,
+   "summary": "The territory of Veii, Capena and Falerii was organised into four new rural tribes, Stellatina, Tromentina, Sabatina and Arnensis, bringing the total to 25.",
+   "detail": "Livy reports that Veientine, Capenate and Faliscan deserters were given citizenship and land, a precedent for absorption of defeated peoples. Tribes were the units of the census, levy and the tribal assemblies; their creation registers Rome's territorial growth, ending with 35 in 241.",
+   "loc": [
+    12.38,
+    42.05
+   ],
+   "locName": "Former territory of Veii",
+   "locCertainty": "approx",
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "6.4.4, 6.5.8"
+    }
+   ],
+   "scholarship": [
+    "Taylor, The Voting Districts of the Roman Republic (1960; rev. 2013)"
+   ],
+   "certainty": "probable",
+   "tags": [
+    "tribes",
+    "Veii",
+    "ager Romanus"
+   ]
+  },
+  {
+   "id": "colony_at_satricum",
+   "year": -385,
+   "title": "Colony at Satricum",
+   "type": "founding",
+   "cats": [
+    "military",
+    "administrative"
+   ],
+   "importance": 1,
+   "summary": "Two thousand Roman citizens were sent to Satricum, each with two and a half iugera, but the site was repeatedly lost to the Volsci and Latins and burned in 377 and 346.",
+   "detail": "Satricum, with its temple of Mater Matuta (findspot of the Lapis Satricanus), was the hinge between the Alban hills and the Pontine plain.",
+   "loc": [
+    12.784,
+    41.55
+   ],
+   "locName": "Satricum",
+   "locCertainty": "certain",
+   "war": "volscian_wars",
+   "polities": [
+    "rome",
+    "volsci"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "6.16.6"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "colony",
+    "Volsci"
+   ]
+  },
+  {
+   "id": "colonies_sutrium_nepet",
+   "year": -383,
+   "title": "Latin colonies at Sutrium and Nepet",
+   "type": "founding",
+   "cats": [
+    "military",
+    "administrative"
+   ],
+   "importance": 2,
+   "summary": "Sutrium and Nepet, 'the gates of Etruria' on the edge of the Ciminian hills, were made Latin colonies to guard the newly won Veientine territory.",
+   "detail": "Velleius dates Sutrium to seven years after the Gallic sack and Nepet ten years later (373); Livy places Nepet's colony in 383. Sutrium was besieged by the Etruscans in 311-310 and became the base for Fabius Rullianus' march through the Ciminian forest.",
+   "loc": [
+    12.216,
+    42.246
+   ],
+   "locName": "Sutrium (Sutri) and Nepet (Nepi)",
+   "locCertainty": "certain",
+   "polities": [
+    "rome",
+    "latin_league",
+    "etruscans"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "6.21.4"
+    },
+    {
+     "a": "Velleius Paterculus",
+     "w": "Historiae Romanae",
+     "r": "1.14.2"
+    }
+   ],
+   "scholarship": [
+    "Salmon, Roman Colonization under the Republic (1969)"
+   ],
+   "debate": "Velleius and Livy disagree on Nepet's date.",
+   "certainty": "probable",
+   "tags": [
+    "Latin colony",
+    "claustra Etruriae"
+   ]
+  },
+  {
+   "id": "trial_of_manlius_capitolinus",
+   "year": -384,
+   "title": "Trial and execution of M. Manlius Capitolinus",
+   "type": "political",
+   "cats": [
+    "political",
+    "social"
+   ],
+   "importance": 3,
+   "summary": "M. Manlius, the saviour of the Capitol, championed indebted plebeians, paying off a centurion's debt with his own money; accused of aiming at kingship, he was condemned and thrown from the Tarpeian Rock, and the gens Manlia banned the praenomen Marcus.",
+   "detail": "Livy notes the first trial was abandoned because the jury could see the Capitol he had saved, so it was moved to the Peteline grove outside the Porta Flumentana. His house on the Capitol was razed and the site later given to the temple of Juno Moneta (344). The episode belongs to the debt crisis that produced the Licinio-Sextian laws; the template of the ambitious patrician 'popularis' killed for regnum (Cassius, Maelius, Manlius) is suspiciously regular.",
+   "loc": [
+    12.4818,
+    41.8937
+   ],
+   "locName": "Tarpeian Rock, Capitol",
+   "locCertainty": "approx",
+   "people": [
+    "marcus_manlius_capitolinus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "6.11-20"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Camillus",
+     "r": "36"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "fr. 26"
+    }
+   ],
+   "scholarship": [
+    "Oakley, A Commentary on Livy Books VI-X, vol. I (1997) 476-567"
+   ],
+   "certainty": "probable",
+   "tags": [
+    "adfectatio regni",
+    "debt",
+    "Tarpeian Rock"
+   ]
+  },
+  {
+   "id": "dionysius_sack_of_pyrgi",
+   "year": -384,
+   "title": "Dionysius I sacks the sanctuary of Pyrgi",
+   "type": "military",
+   "cats": [
+    "military",
+    "religious"
+   ],
+   "importance": 2,
+   "summary": "A Syracusan fleet of 60 triremes under Dionysius I raided Pyrgi, port of Caere, looting at least 1,000 talents from the temple of Leucothea/Ilithyia and defeating a Caeretan relief force.",
+   "detail": "The raid funded Dionysius' war against Carthage. It may explain why Caere, weakened, sought Roman friendship, sheltering Rome's sacra in 390 and receiving hospitium publicum.",
+   "loc": [
+    11.959,
+    42.016
+   ],
+   "locName": "Pyrgi (Santa Severa)",
+   "locCertainty": "certain",
+   "people": [
+    "dionysius_i"
+   ],
+   "polities": [
+    "syracuse",
+    "caere"
+   ],
+   "sources": [
+    {
+     "a": "Diodorus Siculus",
+     "w": "Bibliotheca Historica",
+     "r": "15.14.3-4"
+    },
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "5.2.8"
+    },
+    {
+     "a": "Aristotle (Pseudo-)",
+     "w": "Oeconomica",
+     "r": "2.1349b"
+    }
+   ],
+   "scholarship": [
+    "Caven, Dionysius I (1990)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Pyrgi",
+    "Caere",
+    "neighbours"
+   ]
+  },
+  {
+   "id": "tusculum_incorporation_381",
+   "year": -381,
+   "title": "Tusculum incorporated with Roman citizenship",
+   "type": "administrative",
+   "cats": [
+    "administrative",
+    "political"
+   ],
+   "importance": 3,
+   "summary": "When Camillus marched on Tusculum for aiding the Volsci, the town met him with open gates and business as usual; Rome granted it full citizenship, making Tusculum the first municipium.",
+   "detail": "The incorporation of a whole community, retaining its own magistrates (the Tusculan dictator, later aediles), was a decisive innovation, the model for 338. Tusculum produced many noble families (Mamilii, Fulvii, Porcii, Juventii, Coruncanii) who reached the consulship.",
+   "loc": [
+    12.708,
+    41.798
+   ],
+   "locName": "Tusculum",
+   "locCertainty": "certain",
+   "people": [
+    "marcus_furius_camillus"
+   ],
+   "polities": [
+    "rome",
+    "latin_league"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "6.25-26"
+    },
+    {
+     "a": "Cicero",
+     "w": "Pro Plancio",
+     "r": "19"
+    }
+   ],
+   "scholarship": [
+    "Oakley, A Commentary on Livy Books VI-X, vol. I (1997) 650-668",
+    "Sherwin-White, The Roman Citizenship (2nd ed. 1973) 29-31"
+   ],
+   "debate": "Some see the 381 grant as civitas sine suffragio upgraded later; most accept full citizenship.",
+   "certainty": "probable",
+   "tags": [
+    "municipium",
+    "citizenship"
+   ]
+  },
+  {
+   "id": "battle_of_the_allia_380",
+   "year": -380,
+   "title": "Battle at the Allia against Praeneste",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "Praeneste, leading the rebel Latins, marched to the Allia hoping the ill-omened site would unnerve Rome; the dictator T. Quinctius Cincinnatus Capitolinus routed them, took eight towns subject to Praeneste and brought back a statue of Jupiter Imperator.",
+   "detail": "The statue was placed on the Capitol with an inscription claiming he had taken nine towns, a boast corrected by Livy and Festus. Praeneste, with its huge territory and later the great sanctuary of Fortuna Primigenia, remained a rival until 338.",
+   "loc": [
+    12.56,
+    42.02
+   ],
+   "locName": "River Allia",
+   "locCertainty": "approx",
+   "polities": [
+    "rome",
+    "praeneste"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [],
+      "strength": "dictator's army",
+      "losses": "unknown"
+     },
+     {
+      "polity": "praeneste",
+      "commanders": [],
+      "strength": "Praenestine army",
+      "losses": "routed; eight dependent towns lost"
+     }
+    ],
+    "victor": "rome",
+    "kind": "field",
+    "significance": "Breaks the Praenestine-led Latin revolt of the 380s."
+   },
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "6.28-29"
+    },
+    {
+     "a": "Festus",
+     "w": "De verborum significatu",
+     "r": "p. 498 L (trientem tertium)"
+    }
+   ],
+   "scholarship": [
+    "Oakley, A Commentary on Livy Books VI-X, vol. I (1997) 669-686"
+   ],
+   "certainty": "probable",
+   "tags": [
+    "Praeneste",
+    "Jupiter Imperator"
+   ]
+  },
+  {
+   "id": "servian_wall_378",
+   "year": -378,
+   "title": "Construction of the 'Servian' Wall",
+   "type": "building",
+   "cats": [
+    "military",
+    "building",
+    "technology"
+   ],
+   "importance": 4,
+   "summary": "The censors let contracts for a stone wall of squared tufa blocks enclosing c. 426 hectares and about 11 km of circuit, the largest city wall in Italy at the time.",
+   "detail": "The wall uses Grotta Oscura tufa from quarries in the newly conquered territory of Veii, and blocks carry Greek-style quarry marks, suggesting Greek contractors (perhaps Syracusan). Sections survive outside Termini station and on the Aventine; the Aventine stretch includes a later arch for a catapult. Tradition attributed the wall to Servius Tullius, and an earlier 6th-century cappellaccio rampart (agger) on the Esquiline may lie beneath parts of it.",
+   "loc": [
+    12.502,
+    41.901
+   ],
+   "locName": "Rome (surviving section at Termini)",
+   "locCertainty": "certain",
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "6.32.1"
+    }
+   ],
+   "scholarship": [
+    "Säflund, Le mura di Roma repubblicana (1932)",
+    "Cornell, The Beginnings of Rome (1995) 331-332",
+    "Oakley, A Commentary on Livy Books VI-X, vol. I (1997)"
+   ],
+   "certainty": "probable",
+   "tags": [
+    "Servian Wall",
+    "Grotta Oscura tufa",
+    "fortification"
+   ]
+  },
+  {
+   "id": "solitudo_magistratuum",
+   "year": -375,
+   "endYear": -371,
+   "title": "The 'anarchy' of 375-371",
+   "type": "constitutional",
+   "cats": [
+    "constitutional",
+    "political"
+   ],
+   "importance": 3,
+   "summary": "Livy says the tribunes Licinius and Sextius, re-elected every year, blocked the election of curule magistrates for five years ('solitudo magistratuum'), leaving only plebeian officers.",
+   "detail": "Diodorus records only one year of anarchy, and many scholars see the five years as an artifice of chronographers padding the list to synchronise with Greek dates (like the dictator years of 333, 324, 309 and 301). The fasti for 376-367 are among the most manipulated in the record.",
+   "loc": [
+    12.4924,
+    41.8902
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "people": [
+    "gaius_licinius_stolo",
+    "lucius_sextius_lateranus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "6.35.10"
+    },
+    {
+     "a": "Diodorus Siculus",
+     "w": "Bibliotheca Historica",
+     "r": "15.75.1"
+    }
+   ],
+   "scholarship": [
+    "Oakley, A Commentary on Livy Books VI-X, vol. I (1997) 645-661",
+    "Forsythe, A Critical History of Early Rome (2005) 262-264"
+   ],
+   "debate": "One year (Diodorus) or five (Livy); relevance to Varronian chronology.",
+   "certainty": "disputed",
+   "tags": [
+    "anarchy",
+    "Varronian chronology",
+    "Licinio-Sextian"
+   ]
+  },
+  {
+   "id": "gallic_incursion_367",
+   "year": -367,
+   "title": "Gallic incursion to the Alban Hills",
+   "type": "military",
+   "cats": [
+    "military"
+   ],
+   "importance": 1,
+   "summary": "Livy has Camillus, in his fifth dictatorship at about 80, defeat Gauls in the Alban territory; Polybius says that thirty years after the sack the Gauls came to Alba and the Romans, surprised, did not dare meet them.",
+   "detail": "A good case of Polybius' sober Gallic chronology (2.18) against Livy's glorifying annalists. Gallic bands raided Latium repeatedly in the 360s-350s (Livy has battles in 367, 361, 360, 358, 350, 349), probably reduced to a few real incursions, perhaps some of them mercenaries in the service of Dionysius I.",
+   "loc": [
+    12.65,
+    41.747
+   ],
+   "locName": "Alban Hills",
+   "locCertainty": "approx",
+   "war": "gallic_wars_367_349",
+   "people": [
+    "marcus_furius_camillus"
+   ],
+   "polities": [
+    "rome",
+    "gauls"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "6.42.4-8"
+    },
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "2.18.6"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Camillus",
+     "r": "40-41"
+    }
+   ],
+   "scholarship": [
+    "Oakley, A Commentary on Livy Books VI-X, vol. I (1997) 727-735",
+    "Walbank, A Historical Commentary on Polybius I (1957) 184-186"
+   ],
+   "debate": "Livy vs Polybius.",
+   "certainty": "disputed",
+   "tags": [
+    "Gauls",
+    "Polybius"
+   ]
+  },
+  {
+   "id": "licinio_sextian_laws",
+   "year": -367,
+   "title": "Licinio-Sextian laws",
+   "type": "law",
+   "cats": [
+    "law",
+    "constitutional",
+    "social",
+    "economic"
+   ],
+   "importance": 5,
+   "summary": "After ten years of agitation the tribunes C. Licinius Stolo and L. Sextius Lateranus carried three laws: one consulship to be open to (or reserved for) a plebeian, interest already paid to be deducted from debt principal with the rest payable in three years, and no one to hold more than 500 iugera of public land.",
+   "detail": "The decemviri sacris faciundis (half plebeian) replaced the duoviri as keepers of the Sibylline Books. L. Sextius became the first plebeian consul in 366, and the consular tribunate disappeared. The consulship was not regularly shared until after 342 (patricians held both posts in several years of the 350s). The 500-iugera limit is widely regarded as a retrojection of Gracchan-era rules (Tiberius Gracchus' law reaffirmed it in 133), though Cato's speech for the Rhodians (167) refers to a law on land holdings 'more than 500 iugera', showing it existed by then. Livy adds that Licinius himself was fined in 357 for exceeding his own limit by holding land in his son's name. Cornell sees the laws as creating the patricio-plebeian nobility that ruled thereafter.",
+   "loc": [
+    12.4853,
+    41.8925
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "people": [
+    "gaius_licinius_stolo",
+    "lucius_sextius_lateranus",
+    "marcus_furius_camillus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "6.35, 6.42.9-14; 7.16.9"
+    },
+    {
+     "a": "Gellius",
+     "w": "Noctes Atticae",
+     "r": "6.3.37 (Cato)"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Camillus",
+     "r": "39, 42"
+    }
+   ],
+   "scholarship": [
+    "Oakley, A Commentary on Livy Books VI-X, vol. I (1997) 645-661",
+    "Cornell, The Beginnings of Rome (1995) 327-340",
+    "Hölkeskamp, Die Entstehung der Nobilität (1987)",
+    "Forsythe, A Critical History of Early Rome (2005) 262-267"
+   ],
+   "debate": "Whether the 500-iugera law is authentic; whether the consulship law required or merely permitted a plebeian consul.",
+   "certainty": "probable",
+   "tags": [
+    "Struggle of the Orders",
+    "nobilitas",
+    "debt",
+    "ager publicus"
+   ]
+  },
+  {
+   "id": "temple_of_concord_367",
+   "year": -367,
+   "title": "Camillus' vow of a Temple of Concord",
+   "type": "religious",
+   "cats": [
+    "religious",
+    "political"
+   ],
+   "importance": 2,
+   "summary": "Ovid and Plutarch say Camillus vowed a temple to Concordia to mark the reconciliation of the orders in 367; Livy is silent.",
+   "detail": "Momigliano argued the story was invented to give a respectable pedigree to the Temple of Concord rebuilt by L. Opimius in 121 after the murder of Gaius Gracchus, an act of 'concord' through bloodshed. Gnaeus Flavius dedicated a small bronze shrine of Concord in 304, the first securely attested.",
+   "loc": [
+    12.484,
+    41.893
+   ],
+   "locName": "Forum, foot of the Capitol",
+   "locCertainty": "approx",
+   "people": [
+    "marcus_furius_camillus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "1.641-644"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Camillus",
+     "r": "42.4"
+    }
+   ],
+   "scholarship": [
+    "Momigliano, 'Camillus and Concord', CQ 36 (1942)"
+   ],
+   "debate": "Probably later invention.",
+   "certainty": "disputed",
+   "tags": [
+    "Concordia",
+    "Camillus"
+   ]
+  },
+  {
+   "id": "praetorship_and_curule_aediles_366",
+   "year": -366,
+   "title": "First praetor and curule aediles; first plebeian consul",
+   "type": "constitutional",
+   "cats": [
+    "constitutional"
+   ],
+   "importance": 3,
+   "summary": "In 366 L. Sextius took office as the first plebeian consul, while the patricians secured a new magistracy, the praetor, with imperium for jurisdiction, and two curule aediles, initially patrician only.",
+   "detail": "Sp. Furius Camillus, son of the dictator, was the first praetor. The ludi Romani were extended by a day. The curule aedileship alternated between patricians and plebeians within a few years. The praetorship was opened to plebeians in 337 (Q. Publilius Philo).",
+   "loc": [
+    12.4924,
+    41.8902
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "people": [
+    "lucius_sextius_lateranus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "6.42.11-14; 7.1.1-6"
+    }
+   ],
+   "scholarship": [
+    "Brennan, The Praetorship in the Roman Republic (2000) I 58-69",
+    "Broughton, MRR I 114"
+   ],
+   "certainty": "probable",
+   "tags": [
+    "praetor",
+    "curule aediles",
+    "plebeian consul"
+   ]
+  },
+  {
+   "id": "plague_and_ludi_scaenici_364",
+   "year": -364,
+   "title": "Plague, death of Camillus, and the first stage performances",
+   "type": "cultural",
+   "cats": [
+    "cultural",
+    "religious",
+    "disaster"
+   ],
+   "importance": 2,
+   "summary": "A plague in 365-363 killed Camillus among many; to appease the gods Rome held a second lectisternium and, for the first time, stage performances by Etruscan ludiones dancing to the pipe, the origin of Roman drama in Livy's famous sketch.",
+   "detail": "Livy traces a development from Etruscan dance to Fescennine-style improvised verse, saturae with music, and finally Livius Andronicus' plays with plot in 240. The word histrio came from Etruscan ister. In 363 a dictator was appointed solely to drive the annual nail into the temple of Jupiter as a plague remedy.",
+   "loc": [
+    12.485,
+    41.886
+   ],
+   "locName": "Circus Maximus, Rome",
+   "locCertainty": "approx",
+   "people": [
+    "marcus_furius_camillus"
+   ],
+   "polities": [
+    "rome",
+    "etruscans"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "7.1.7-3.9"
+    },
+    {
+     "a": "Valerius Maximus",
+     "w": "Facta et Dicta Memorabilia",
+     "r": "2.4.4"
+    }
+   ],
+   "scholarship": [
+    "Oakley, A Commentary on Livy Books VI-X, vol. II (1998) 40-72"
+   ],
+   "certainty": "probable",
+   "tags": [
+    "ludi scaenici",
+    "drama",
+    "histrio",
+    "clavus"
+   ]
+  },
+  {
+   "id": "battle_against_hernici_362",
+   "year": -362,
+   "title": "Defeat by the Hernici; first plebeian consul to command killed",
+   "type": "battle",
+   "cats": [
+    "military",
+    "political"
+   ],
+   "importance": 1,
+   "summary": "L. Genucius, the first plebeian consul to conduct a war under his own auspices, was ambushed and killed by the rebel Hernici; patricians cried that the gods had punished the plebeian auspices.",
+   "detail": "The dictator Ap. Claudius restored the situation. The Hernican revolt (362-358) shows that the alliance of 486 frayed as Rome grew stronger.",
+   "loc": [
+    13.159,
+    41.743
+   ],
+   "locName": "Hernican territory",
+   "locCertainty": "approx",
+   "polities": [
+    "rome",
+    "hernici"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [],
+      "strength": "consular army under L. Genucius",
+      "losses": "consul killed"
+     },
+     {
+      "polity": "hernici",
+      "commanders": [],
+      "strength": "Hernican army",
+      "losses": "unknown"
+     }
+    ],
+    "victor": "hernici",
+    "kind": "ambush",
+    "significance": "Ammunition for patrician arguments against plebeian auspices."
+   },
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "7.6.7-8.7"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "Hernici",
+    "auspices"
+   ]
+  },
+  {
+   "id": "battle_of_the_anio_361",
+   "year": -361,
+   "title": "Duel of Manlius Torquatus at the Anio bridge",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "With Gallic and Roman armies facing each other across the Anio, a giant Gaul challenged any Roman to single combat; the young T. Manlius killed him, took his torque and earned the cognomen Torquatus.",
+   "detail": "The earliest version, by Claudius Quadrigarius (preserved verbatim by Gellius), is a vivid piece of Sullan-era prose and dates the duel to 361 (Livy) or 357. The torque motif appears on coins of the Manlii Torquati. The Gauls withdrew toward Tibur and Campania.",
+   "loc": [
+    12.507,
+    41.937
+   ],
+   "locName": "Pons Salarius over the Anio",
+   "locCertainty": "probable",
+   "war": "gallic_wars_367_349",
+   "people": [
+    "titus_manlius_torquatus"
+   ],
+   "polities": [
+    "rome",
+    "gauls"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "titus_manlius_torquatus"
+      ],
+      "strength": "dictator T. Quinctius Pennus' army",
+      "losses": "none"
+     },
+     {
+      "polity": "gauls",
+      "commanders": [],
+      "strength": "Gallic army",
+      "losses": "champion killed; army withdrew"
+     }
+    ],
+    "victor": "rome",
+    "kind": "skirmish",
+    "significance": "Founding legend of the Manlii Torquati."
+   },
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "7.9-10"
+    },
+    {
+     "a": "Gellius",
+     "w": "Noctes Atticae",
+     "r": "9.13 (Claudius Quadrigarius)"
+    }
+   ],
+   "scholarship": [
+    "Oakley, A Commentary on Livy Books VI-X, vol. II (1998) 113-148",
+    "Oakley, 'Single combat in the Roman Republic', CQ 35 (1985)"
+   ],
+   "certainty": "traditional",
+   "tags": [
+    "single combat",
+    "torque",
+    "Manlii"
+   ]
+  },
+  {
+   "id": "battle_of_pedum_358",
+   "year": -358,
+   "title": "Battle of Pedum against the Gauls",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "The dictator C. Sulpicius Peticus defeated a Gallic army near Pedum after a long delay, using camp followers mounted on mules as a mock cavalry to frighten the Gauls; he dedicated gold from the spoils on the Capitol.",
+   "detail": "Livy's report of the camp-follower ruse resembles stratagems told elsewhere. Rome's renewed treaty with the Latins this year is linked to the Gallic danger.",
+   "loc": [
+    12.82,
+    41.872
+   ],
+   "locName": "Pedum (near Gallicano nel Lazio)",
+   "locCertainty": "approx",
+   "war": "gallic_wars_367_349",
+   "polities": [
+    "rome",
+    "gauls"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [],
+      "strength": "dictator's army",
+      "losses": "unknown"
+     },
+     {
+      "polity": "gauls",
+      "commanders": [],
+      "strength": "Gallic war band",
+      "losses": "routed"
+     }
+    ],
+    "victor": "rome",
+    "kind": "field",
+    "significance": "Restores Roman prestige in Latium."
+   },
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "7.12.8-15.8"
+    },
+    {
+     "a": "Frontinus",
+     "w": "Strategemata",
+     "r": "2.4.1"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "Gauls",
+    "stratagem"
+   ]
+  },
+  {
+   "id": "renewal_of_latin_treaty_358",
+   "year": -358,
+   "title": "Renewal of the treaty with the Latins and Hernici",
+   "type": "treaty",
+   "cats": [
+    "diplomatic"
+   ],
+   "importance": 2,
+   "summary": "Under pressure from the Gauls the Latins renewed their alliance with Rome and sent troops 'in accordance with the treaty'; the Hernici were forced back into alliance after their revolt.",
+   "detail": "Livy's language implies the Foedus Cassianum had lapsed. The renewed treaty may have been less equal, with Rome now taking the lead; resentments built toward the war of 340.",
+   "loc": [
+    12.4924,
+    41.8902
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "polities": [
+    "rome",
+    "latin_league",
+    "hernici"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "7.12.7"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "Latin League",
+    "treaty"
+   ]
+  },
+  {
+   "id": "tribes_pomptina_publilia_358",
+   "year": -358,
+   "title": "Tribus Pomptina and Publilia created",
+   "type": "administrative",
+   "cats": [
+    "administrative"
+   ],
+   "importance": 1,
+   "summary": "Two new tribes were formed on conquered Volscian land in the Pontine plain (Pomptina) and Hernican land (Publilia), making 27.",
+   "detail": "The same year the tribune C. Poetelius carried the first law on electoral malpractice (lex Poetelia de ambitu), aimed against 'new men' canvassing at markets.",
+   "loc": [
+    13.0,
+    41.45
+   ],
+   "locName": "Pontine plain",
+   "locCertainty": "approx",
+   "polities": [
+    "rome",
+    "volsci",
+    "hernici"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "7.15.11-13"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "tribes",
+    "ambitus"
+   ]
+  },
+  {
+   "id": "tarquinii_sacrifice_of_prisoners_358",
+   "year": -358,
+   "title": "Tarquinii sacrifices 307 Roman prisoners",
+   "type": "military",
+   "cats": [
+    "military",
+    "religious"
+   ],
+   "importance": 2,
+   "summary": "The army of Tarquinii defeated the consul C. Fabius and sacrificed 307 Roman prisoners in its forum; in 354 Rome retaliated by flogging and beheading 358 noble Tarquinienses in the Roman Forum.",
+   "detail": "The ritual killing has been linked to Etruscan funerary iconography and the François Tomb fresco of Achilles slaughtering Trojan prisoners. The Elogia Tarquiniensia (inscriptions of the Spurinna family) may commemorate Etruscan leaders of these wars. Truce of 40 years in 351.",
+   "loc": [
+    11.795,
+    42.249
+   ],
+   "locName": "Tarquinii",
+   "locCertainty": "certain",
+   "war": "tarquinian_war_358",
+   "polities": [
+    "rome",
+    "tarquinii"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "7.15.10, 7.19.2-3"
+    }
+   ],
+   "scholarship": [
+    "Torelli, Elogia Tarquiniensia (1975)",
+    "Oakley, A Commentary on Livy Books VI-X, vol. II (1998)"
+   ],
+   "certainty": "probable",
+   "tags": [
+    "human sacrifice",
+    "Etruscans",
+    "Spurinna"
+   ]
+  },
+  {
+   "id": "lex_manlia_de_vicesima",
+   "year": -357,
+   "title": "Lex Manlia de vicesima manumissionum",
+   "type": "law",
+   "cats": [
+    "law",
+    "economic"
+   ],
+   "importance": 2,
+   "summary": "The consul Cn. Manlius had his soldiers in camp at Sutrium vote, by tribes, a 5% tax on the value of manumitted slaves; the tribunes then made it a capital offence to convene an assembly away from Rome.",
+   "detail": "The vicesima libertatis endured into the Empire, and its revenue (aurum vicesimarium) was stored as a reserve in the aerarium sanctius, opened in 209 during the Hannibalic war. The tax implies a significant slave population and frequent manumission already by the mid-4th century.",
+   "loc": [
+    12.216,
+    42.246
+   ],
+   "locName": "Roman camp at Sutrium",
+   "locCertainty": "approx",
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "7.16.7-8; 27.10.11-12"
+    }
+   ],
+   "scholarship": [
+    "Oakley, A Commentary on Livy Books VI-X, vol. II (1998) 181-185"
+   ],
+   "certainty": "probable",
+   "tags": [
+    "manumission tax",
+    "slavery",
+    "aerarium sanctius"
+   ]
+  },
+  {
+   "id": "lex_duilia_menenia_357",
+   "year": -357,
+   "title": "Lex Duilia Menenia: interest capped at one-twelfth",
+   "type": "law",
+   "cats": [
+    "law",
+    "economic"
+   ],
+   "importance": 1,
+   "summary": "A tribunician law fixed the maximum rate of interest at one-twelfth (fenus unciarium), probably 8 1/3 % a year (or per ten-month year); in 347 it was halved to semunciarium.",
+   "detail": "Tacitus says the Twelve Tables had already fixed the uncial rate, which complicates the tradition. A lex Genucia of 342 then banned interest altogether, a law impossible to enforce.",
+   "loc": [
+    12.4924,
+    41.8902
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "7.16.1; 7.27.3"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "6.16"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "interest",
+    "debt"
+   ]
+  },
+  {
+   "id": "first_plebeian_dictator_356",
+   "year": -356,
+   "title": "First plebeian dictator",
+   "type": "constitutional",
+   "cats": [
+    "constitutional",
+    "military"
+   ],
+   "importance": 3,
+   "summary": "C. Marcius Rutilus became the first plebeian dictator, named his own plebeian master of horse, and defeated the Etruscans who had raided to the salt-works at the Tiber mouth; the people voted him a triumph over senatorial objections.",
+   "detail": "Marcius went on to be the first plebeian censor (351) and held four consulships, a model of the plebeian noble whom the Licinio-Sextian settlement produced.",
+   "loc": [
+    12.292,
+    41.755
+   ],
+   "locName": "Salinae at the Tiber mouth",
+   "locCertainty": "approx",
+   "war": "tarquinian_war_358",
+   "people": [
+    "gaius_marcius_rutilus"
+   ],
+   "polities": [
+    "rome",
+    "tarquinii",
+    "falisci"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "7.17.6-9"
+    }
+   ],
+   "scholarship": [
+    "Broughton, MRR I 123"
+   ],
+   "certainty": "probable",
+   "tags": [
+    "dictator",
+    "plebeians",
+    "salt"
+   ]
+  },
+  {
+   "id": "rise_of_the_bruttii",
+   "year": -356,
+   "title": "Emergence of the Bruttii",
+   "type": "migration",
+   "cats": [
+    "military",
+    "social"
+   ],
+   "importance": 1,
+   "summary": "Diodorus dates to 356 the formation of the Bruttii in the toe of Italy, a people he describes as runaway slaves and herdsmen of the Lucanians, who took Terina, Hipponium and other Greek towns.",
+   "detail": "The name was interpreted as 'rebels' in Lucanian (Strabo). The Bruttian confederacy, centred on Consentia, fought Alexander of Epirus in 331 and later allied with Pyrrhus and Hannibal.",
+   "loc": [
+    16.25,
+    39.3
+   ],
+   "locName": "Bruttium (Consentia)",
+   "locCertainty": "approx",
+   "polities": [
+    "bruttii",
+    "lucanians"
+   ],
+   "sources": [
+    {
+     "a": "Diodorus Siculus",
+     "w": "Bibliotheca Historica",
+     "r": "16.15"
+    },
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "6.1.4"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "Bruttii",
+    "neighbours"
+   ]
+  },
+  {
+   "id": "treaty_with_samnites_354",
+   "year": -354,
+   "title": "First treaty between Rome and the Samnites",
+   "type": "treaty",
+   "cats": [
+    "diplomatic"
+   ],
+   "importance": 3,
+   "summary": "Livy and Diodorus record a treaty of friendship (foedus) between Rome and the Samnite League in 354, probably fixing the Liris valley as the boundary between their spheres.",
+   "detail": "The treaty reflects Rome's arrival on the borders of Campania after subduing the Volsci, Hernici and Aurunci. It was renewed in 341 after the First Samnite War. Tibur and Praeneste submitted to Rome the same year.",
+   "loc": [
+    13.6,
+    41.5
+   ],
+   "locName": "Liris valley frontier",
+   "locCertainty": "approx",
+   "polities": [
+    "rome",
+    "samnites"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "7.19.4"
+    },
+    {
+     "a": "Diodorus Siculus",
+     "w": "Bibliotheca Historica",
+     "r": "16.45.8"
+    }
+   ],
+   "scholarship": [
+    "Salmon, Samnium and the Samnites (1967) 187-193",
+    "Oakley, A Commentary on Livy Books VI-X, vol. II (1998)"
+   ],
+   "certainty": "probable",
+   "tags": [
+    "Samnites",
+    "treaty"
+   ]
+  },
+  {
+   "id": "truce_with_caere_353",
+   "year": -353,
+   "title": "Hundred-year truce with Caere",
+   "type": "treaty",
+   "cats": [
+    "diplomatic"
+   ],
+   "importance": 2,
+   "summary": "Caere, having joined Tarquinii, sued for peace and in memory of its help in 390 received a hundred-year truce.",
+   "detail": "Gellius and Strabo say Caere was the first community to receive citizenship without the vote (civitas sine suffragio), and that the 'tabulae Caerites' (list of citizens without vote) took its name; whether this was a privilege of hospitium after 390 or a penalty imposed in 353 or 273 (when Caere lost half its territory) is debated.",
+   "loc": [
+    12.1,
+    41.994
+   ],
+   "locName": "Caere (Cerveteri)",
+   "locCertainty": "certain",
+   "war": "tarquinian_war_358",
+   "polities": [
+    "rome",
+    "caere"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "7.20"
+    },
+    {
+     "a": "Gellius",
+     "w": "Noctes Atticae",
+     "r": "16.13.7"
+    },
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "5.2.3"
+    }
+   ],
+   "scholarship": [
+    "Sherwin-White, The Roman Citizenship (2nd ed. 1973) 53-58",
+    "Humbert, Municipium et civitas sine suffragio (1978)"
+   ],
+   "debate": "Date and character of Caere's civitas sine suffragio.",
+   "certainty": "probable",
+   "tags": [
+    "civitas sine suffragio",
+    "tabulae Caerites"
+   ]
+  },
+  {
+   "id": "quinqueviri_mensarii_352",
+   "year": -352,
+   "title": "Five-man debt commission (quinqueviri mensarii)",
+   "type": "economic",
+   "cats": [
+    "economic",
+    "social"
+   ],
+   "importance": 1,
+   "summary": "Five commissioners set up tables in the Forum and settled debts by advancing state money against security or by valuing property for transfer to creditors.",
+   "detail": "A pragmatic response to the debt crisis that the Licinio-Sextian laws had not resolved; Livy praises its fairness. It anticipates the triumviri mensarii of the Hannibalic war.",
+   "loc": [
+    12.4853,
+    41.8925
+   ],
+   "locName": "Forum Romanum",
+   "locCertainty": "certain",
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "7.21.5-8"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "debt relief"
+   ]
+  },
+  {
+   "id": "first_plebeian_censor_351",
+   "year": -351,
+   "title": "First plebeian censor",
+   "type": "constitutional",
+   "cats": [
+    "constitutional"
+   ],
+   "importance": 2,
+   "summary": "C. Marcius Rutilus was elected the first plebeian censor despite patrician opposition; Tarquinii and Falerii received 40-year truces the same year.",
+   "detail": "The lex Publilia of 339 later required one censor to be plebeian.",
+   "loc": [
+    12.4924,
+    41.8902
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "people": [
+    "gaius_marcius_rutilus"
+   ],
+   "polities": [
+    "rome",
+    "tarquinii",
+    "falisci"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "7.22"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "censor",
+    "plebeians"
+   ]
+  },
+  {
+   "id": "battle_of_the_pomptine_plain_349",
+   "year": -349,
+   "title": "Valerius Corvus and the raven: battle against the Gauls",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "In the Pomptine territory the military tribune M. Valerius fought a Gallic champion; a raven landed on his helmet and attacked the Gaul's face, and Valerius (henceforth Corvus) won; the consul L. Furius Camillus then routed the Gauls, who scattered to Apulia.",
+   "detail": "Like the Torquatus duel, this is a family legend (the Valerii Corvini). In 350 M. Popillius Laenas had already defeated Gauls. Polybius (2.18.7-9) says that in this period the Gauls came again, the Romans met them, and the Gauls fled by night, after which there was peace for 13 years and then a formal peace treaty. The Latins refused troops this year, a sign of strain.",
+   "loc": [
+    12.95,
+    41.45
+   ],
+   "locName": "Ager Pomptinus",
+   "locCertainty": "approx",
+   "war": "gallic_wars_367_349",
+   "people": [
+    "marcus_valerius_corvus"
+   ],
+   "polities": [
+    "rome",
+    "gauls"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "marcus_valerius_corvus"
+      ],
+      "strength": "consular army of L. Furius Camillus",
+      "losses": "unknown"
+     },
+     {
+      "polity": "gauls",
+      "commanders": [],
+      "strength": "Gallic war band",
+      "losses": "fled to Apulia"
+     }
+    ],
+    "victor": "rome",
+    "kind": "field",
+    "significance": "End of the series of 4th-century Gallic raids on Latium."
+   },
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "7.25-26"
+    },
+    {
+     "a": "Gellius",
+     "w": "Noctes Atticae",
+     "r": "9.11"
+    },
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "2.18.7-9"
+    }
+   ],
+   "scholarship": [
+    "Oakley, A Commentary on Livy Books VI-X, vol. II (1998) 237-255"
+   ],
+   "certainty": "traditional",
+   "tags": [
+    "single combat",
+    "raven",
+    "Valerii"
+   ]
+  },
+  {
+   "id": "greek_fleet_raid_349",
+   "year": -349,
+   "title": "Greek fleet raids the coast of Latium",
+   "type": "military",
+   "cats": [
+    "military"
+   ],
+   "importance": 1,
+   "summary": "A Greek fleet harried the Laurentine coast and the mouth of the Tiber, skirmishing with the Gauls who also roamed the region; Livy guesses the ships came from Syracusan tyrants.",
+   "detail": "Probably a Syracusan expedition under Dionysius II; Antium itself was a notorious pirate base until 338, and Strabo says complaints from Alexander and Demetrius Poliorcetes reached Rome about Antiate pirates.",
+   "loc": [
+    12.35,
+    41.65
+   ],
+   "locName": "Laurentine coast",
+   "locCertainty": "approx",
+   "polities": [
+    "rome",
+    "syracuse"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "7.25.4, 7.26.13-15"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "piracy",
+    "Syracuse"
+   ]
+  },
+  {
+   "id": "second_treaty_rome_carthage",
+   "year": -348,
+   "title": "Second treaty between Rome and Carthage",
+   "type": "treaty",
+   "cats": [
+    "diplomatic",
+    "economic"
+   ],
+   "importance": 3,
+   "summary": "A new treaty, in which Tyre and Utica joined Carthage, extended the forbidden zone to Mastia Tarseion in Spain and banned Romans from trading or founding cities in Sardinia and Libya, while Carthage might raid Latin towns not subject to Rome but must hand them over to Rome.",
+   "detail": "Polybius gives the text without a date; Livy (7.27.2) and Diodorus (16.69.1) record a treaty in 348, the first known to them. Carthaginian Sicily and Carthage itself remained open to Roman traders. The clause allowing Carthage to keep captives and movables but surrender captured Latin towns to Rome reveals a Rome still claiming hegemony in Latium yet unable to protect it at sea. Mastia is usually placed near later Cartagena.",
+   "loc": [
+    10.323,
+    36.853
+   ],
+   "locName": "Carthage / Rome",
+   "locCertainty": "approx",
+   "polities": [
+    "rome",
+    "carthage",
+    "latin_league"
+   ],
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "3.24"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "7.27.2"
+    },
+    {
+     "a": "Diodorus Siculus",
+     "w": "Bibliotheca Historica",
+     "r": "16.69.1"
+    }
+   ],
+   "scholarship": [
+    "Walbank, A Historical Commentary on Polybius I (1957) 345-349",
+    "Scardigli, I trattati romano-cartaginesi (1991)"
+   ],
+   "certainty": "probable",
+   "tags": [
+    "treaties with Carthage",
+    "Mastia Tarseion",
+    "Tyre",
+    "Utica"
+   ]
+  },
+  {
+   "id": "deditio_of_capua_343",
+   "year": -343,
+   "title": "Capua surrenders itself to Rome",
+   "type": "diplomacy",
+   "cats": [
+    "diplomatic",
+    "military"
+   ],
+   "importance": 3,
+   "summary": "Attacked by the Samnites after Capua aided the Sidicini of Teanum, the Campanians appealed to Rome; when the Senate refused to break its treaty with the Samnites, the envoys made an unconditional deditio of Capua and its people, obliging Rome to defend its new property.",
+   "detail": "Livy's story of a deditio is widely doubted as a pretext invented to excuse Rome's breach of the 354 treaty; but the appeal and Roman intervention began the century of Samnite wars. The Campanian aristocracy's links with Roman nobles (later intermarriage, the equites Campani) are a recurring factor.",
+   "loc": [
+    14.253,
+    41.083
+   ],
+   "locName": "Capua",
+   "locCertainty": "certain",
+   "war": "first_samnite_war",
+   "polities": [
+    "rome",
+    "campanians",
+    "samnites",
+    "sidicini"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "7.29-31"
+    }
+   ],
+   "scholarship": [
+    "Oakley, A Commentary on Livy Books VI-X, vol. II (1998) 283-307",
+    "Salmon, Samnium and the Samnites (1967) 197-200"
+   ],
+   "debate": "Historicity of the deditio and of the whole war (Adcock and others doubted the First Samnite War entirely).",
+   "certainty": "disputed",
+   "tags": [
+    "deditio",
+    "Campania",
+    "Samnites"
+   ]
+  },
+  {
+   "id": "battle_of_mount_gaurus",
+   "year": -343,
+   "title": "Battle of Mount Gaurus",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "The consul M. Valerius Corvus defeated the Samnites in a hard-fought battle at Mount Gaurus above Cumae, the first battle between Rome and the Samnites.",
+   "detail": "Livy's narrative (Samnites asking what fire burned in Roman eyes) is rhetorical; the victory nonetheless saved Campania for the Romans. The Fasti Triumphales record triumphs of both consuls over the Samnites in 343.",
+   "loc": [
+    14.1,
+    40.86
+   ],
+   "locName": "Mount Gaurus (Monte Barbaro), near Puteoli",
+   "locCertainty": "probable",
+   "war": "first_samnite_war",
+   "people": [
+    "marcus_valerius_corvus"
+   ],
+   "polities": [
+    "rome",
+    "samnites"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "marcus_valerius_corvus"
+      ],
+      "strength": "consular army",
+      "losses": "unknown"
+     },
+     {
+      "polity": "samnites",
+      "commanders": [],
+      "strength": "Samnite army",
+      "losses": "routed"
+     }
+    ],
+    "victor": "rome",
+    "kind": "field",
+    "significance": "First Roman-Samnite battle; secures Campania."
+   },
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "7.32-33"
+    }
+   ],
+   "scholarship": [
+    "Oakley, A Commentary on Livy Books VI-X, vol. II (1998) 307-330"
+   ],
+   "certainty": "probable",
+   "tags": [
+    "Samnites",
+    "Valerius Corvus"
+   ]
+  },
+  {
+   "id": "battle_of_saticula_343",
+   "year": -343,
+   "title": "Decius Mus saves the army near Saticula",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "The consul A. Cornelius Cossus' army was trapped in a valley near Saticula; the military tribune P. Decius Mus seized a height with a detachment, drew off the Samnites and broke out at night, enabling a Roman victory.",
+   "detail": "Decius received the corona obsidionalis (grass crown) from the rescued army and an ox with gilded horns. The episode resembles later stories (the Caudine Forks reversed; the tribune Calpurnius Flamma in Sicily in 258).",
+   "loc": [
+    14.5,
+    41.09
+   ],
+   "locName": "Near Saticula (Sant'Agata de' Goti)",
+   "locCertainty": "approx",
+   "war": "first_samnite_war",
+   "people": [
+    "publius_decius_mus_cos340"
+   ],
+   "polities": [
+    "rome",
+    "samnites"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "publius_decius_mus_cos340"
+      ],
+      "strength": "consular army",
+      "losses": "unknown"
+     },
+     {
+      "polity": "samnites",
+      "commanders": [],
+      "strength": "Samnite army",
+      "losses": "30,000 (Livy, inflated)"
+     }
+    ],
+    "victor": "rome",
+    "kind": "field",
+    "significance": "Makes the reputation of Decius Mus."
+   },
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "7.34-37"
+    }
+   ],
+   "certainty": "traditional",
+   "tags": [
+    "Decius Mus",
+    "grass crown"
+   ]
+  },
+  {
+   "id": "battle_of_suessula",
+   "year": -343,
+   "title": "Battle of Suessula",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "Valerius Corvus surprised and destroyed the Samnite camp near Suessula; Livy claims 40,000 shields were collected and Carthage sent congratulations and a 25-pound gold crown for the Capitol.",
+   "detail": "The Carthaginian embassy is often taken to reflect real diplomatic contact around the time of the 348 treaty. Faliscans asked to convert their truce into a treaty and the Latins turned their arms on the Paeligni.",
+   "loc": [
+    14.43,
+    40.996
+   ],
+   "locName": "Suessula, Campania",
+   "locCertainty": "probable",
+   "war": "first_samnite_war",
+   "people": [
+    "marcus_valerius_corvus"
+   ],
+   "polities": [
+    "rome",
+    "samnites"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "marcus_valerius_corvus"
+      ],
+      "strength": "consular army",
+      "losses": "unknown"
+     },
+     {
+      "polity": "samnites",
+      "commanders": [],
+      "strength": "Samnite army",
+      "losses": "camp taken; 40,000 shields captured (Livy, inflated)"
+     }
+    ],
+    "victor": "rome",
+    "kind": "field",
+    "significance": "Ends the active campaigning of the First Samnite War."
+   },
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "7.37.4-38.2"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "Samnites",
+    "Carthaginian embassy"
+   ]
+  },
+  {
+   "id": "mutiny_of_342_and_lex_genucia",
+   "year": -342,
+   "title": "Mutiny of the Campanian garrison and the Genucian laws",
+   "type": "law",
+   "cats": [
+    "law",
+    "military",
+    "constitutional"
+   ],
+   "importance": 3,
+   "summary": "Roman troops wintering in Campania plotted to seize Capua and marched on Rome; the dictator Valerius Corvus reconciled them, and the tribune L. Genucius carried laws banning interest, forbidding re-election to the same office within ten years and holding two offices at once, and allowing both consuls to be plebeian.",
+   "detail": "Livy confesses his sources disagree violently on the mutiny. From 342 one consul was regularly plebeian (both plebeian first in 172). The ten-year interval rule was often waived during the Samnite wars, and the Genucian package marks the effective end of the 'Struggle of the Orders' over the consulship.",
+   "loc": [
+    12.4924,
+    41.8902
+   ],
+   "locName": "Rome / Campania",
+   "locCertainty": "approx",
+   "people": [
+    "marcus_valerius_corvus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "7.38.4-42.7"
+    },
+    {
+     "a": "Appian",
+     "w": "Samnite History",
+     "r": "fr. 1"
+    }
+   ],
+   "scholarship": [
+    "Oakley, A Commentary on Livy Books VI-X, vol. II (1998) 361-392"
+   ],
+   "certainty": "disputed",
+   "tags": [
+    "lex Genucia",
+    "mutiny",
+    "interest ban"
+   ]
+  },
+  {
+   "id": "peace_with_samnites_341",
+   "year": -341,
+   "title": "Peace and renewal of the Samnite treaty",
+   "type": "treaty",
+   "cats": [
+    "diplomatic"
+   ],
+   "importance": 2,
+   "summary": "Rome renewed its 354 treaty with the Samnites and left them free to attack the Sidicini, effectively abandoning the cause for which it had fought; the Latins and Campanians, alarmed, prepared for war against Rome.",
+   "detail": "The diplomatic about-turn is the strongest evidence that the 'First Samnite War' was a short, limited conflict.",
+   "loc": [
+    14.253,
+    41.083
+   ],
+   "locName": "Campania",
+   "locCertainty": "approx",
+   "war": "first_samnite_war",
+   "polities": [
+    "rome",
+    "samnites",
+    "sidicini"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "8.1.7-2.4"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "Samnites",
+    "treaty"
+   ]
+  }
+ ]
+}

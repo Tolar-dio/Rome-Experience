@@ -1,0 +1,1372 @@
+{
+ "polities": [
+  {
+   "id": "rome",
+   "name": "Rome (Republic & Empire)",
+   "type": "republic",
+   "family": "roman",
+   "start": -509,
+   "end": 641
+  },
+  {
+   "id": "rome_west",
+   "name": "Western Roman Empire",
+   "type": "empire",
+   "family": "roman",
+   "start": 395,
+   "end": 476
+  },
+  {
+   "id": "rome_east",
+   "name": "Eastern Roman Empire",
+   "type": "empire",
+   "family": "roman",
+   "start": 395,
+   "end": 641
+  },
+  {
+   "id": "gallic_empire",
+   "name": "Gallic Empire",
+   "type": "breakaway",
+   "family": "roman",
+   "start": 260,
+   "end": 274
+  },
+  {
+   "id": "palmyrene_empire",
+   "name": "Palmyrene Empire",
+   "type": "breakaway",
+   "family": "semitic_arab",
+   "start": 270,
+   "end": 273
+  },
+  {
+   "id": "britannic_empire",
+   "name": "Britannic Empire (Carausius & Allectus)",
+   "type": "breakaway",
+   "family": "roman",
+   "start": 286,
+   "end": 296
+  },
+  {
+   "id": "domain_of_soissons",
+   "name": "Domain of Soissons",
+   "type": "breakaway",
+   "family": "roman",
+   "start": 457,
+   "end": 486
+  },
+  {
+   "id": "mauro_roman_kingdoms",
+   "name": "Mauro-Roman kingdoms",
+   "type": "kingdom",
+   "family": "berber",
+   "start": 430,
+   "end": 641
+  },
+  {
+   "id": "dalmatia_julius_nepos",
+   "name": "Dalmatia of Marcellinus and Julius Nepos",
+   "type": "breakaway",
+   "family": "roman",
+   "start": 454,
+   "end": 480
+  },
+  {
+   "id": "latin_league",
+   "name": "Latin League",
+   "type": "league",
+   "family": "italic",
+   "start": -600,
+   "end": -338
+  },
+  {
+   "id": "veii",
+   "name": "Veii",
+   "type": "city_state",
+   "family": "etruscan",
+   "start": -800,
+   "end": -396
+  },
+  {
+   "id": "etruscans",
+   "name": "Etruscan city-states",
+   "type": "league",
+   "family": "etruscan",
+   "start": -800,
+   "end": -264
+  },
+  {
+   "id": "tarquinii",
+   "name": "Tarquinii",
+   "type": "city_state",
+   "family": "etruscan",
+   "start": -800,
+   "end": -280
+  },
+  {
+   "id": "volsinii",
+   "name": "Volsinii",
+   "type": "city_state",
+   "family": "etruscan",
+   "start": -800,
+   "end": -264
+  },
+  {
+   "id": "caere",
+   "name": "Caere",
+   "type": "city_state",
+   "family": "etruscan",
+   "start": -800,
+   "end": -273
+  },
+  {
+   "id": "clusium",
+   "name": "Clusium",
+   "type": "city_state",
+   "family": "etruscan",
+   "start": -800,
+   "end": -280
+  },
+  {
+   "id": "volsci",
+   "name": "Volsci",
+   "type": "tribe",
+   "family": "italic",
+   "start": -600,
+   "end": -304
+  },
+  {
+   "id": "aequi",
+   "name": "Aequi",
+   "type": "tribe",
+   "family": "italic",
+   "start": -600,
+   "end": -304
+  },
+  {
+   "id": "hernici",
+   "name": "Hernici",
+   "type": "league",
+   "family": "italic",
+   "start": -600,
+   "end": -306
+  },
+  {
+   "id": "sabines",
+   "name": "Sabines",
+   "type": "tribe",
+   "family": "italic",
+   "start": -800,
+   "end": -290
+  },
+  {
+   "id": "umbrians",
+   "name": "Umbrians",
+   "type": "tribe",
+   "family": "italic",
+   "start": -800,
+   "end": -266
+  },
+  {
+   "id": "picentes",
+   "name": "Picentes",
+   "type": "tribe",
+   "family": "italic",
+   "start": -800,
+   "end": -268
+  },
+  {
+   "id": "marsi_paeligni",
+   "name": "Marsi, Paeligni and Vestini",
+   "type": "confederation",
+   "family": "italic",
+   "start": -600,
+   "end": -302
+  },
+  {
+   "id": "samnites",
+   "name": "Samnite League",
+   "type": "league",
+   "family": "italic",
+   "start": -600,
+   "end": -290
+  },
+  {
+   "id": "campanians",
+   "name": "Campanians (Capua)",
+   "type": "city_state",
+   "family": "italic",
+   "start": -450,
+   "end": -211
+  },
+  {
+   "id": "lucanians",
+   "name": "Lucanians",
+   "type": "confederation",
+   "family": "italic",
+   "start": -450,
+   "end": -272
+  },
+  {
+   "id": "bruttii",
+   "name": "Bruttii",
+   "type": "confederation",
+   "family": "italic",
+   "start": -356,
+   "end": -272
+  },
+  {
+   "id": "apulians",
+   "name": "Apulians (Daunians and Peucetians)",
+   "type": "confederation",
+   "family": "italic",
+   "start": -800,
+   "end": -300
+  },
+  {
+   "id": "messapians",
+   "name": "Messapians and Sallentini",
+   "type": "confederation",
+   "family": "italic",
+   "start": -800,
+   "end": -266
+  },
+  {
+   "id": "italiote_league",
+   "name": "Italiote League (Greek cities of Italy)",
+   "type": "league",
+   "family": "greek",
+   "start": -430,
+   "end": -270
+  },
+  {
+   "id": "tarentum",
+   "name": "Tarentum",
+   "type": "city_state",
+   "family": "greek",
+   "start": -706,
+   "end": -272
+  },
+  {
+   "id": "neapolis",
+   "name": "Neapolis",
+   "type": "city_state",
+   "family": "greek",
+   "start": -470,
+   "end": -326
+  },
+  {
+   "id": "senones",
+   "name": "Senones",
+   "type": "tribe",
+   "family": "gallic",
+   "start": -400,
+   "end": -283
+  },
+  {
+   "id": "boii",
+   "name": "Boii",
+   "type": "tribe",
+   "family": "gallic",
+   "start": -400,
+   "end": -191
+  },
+  {
+   "id": "insubres",
+   "name": "Insubres",
+   "type": "tribe",
+   "family": "gallic",
+   "start": -600,
+   "end": -194
+  },
+  {
+   "id": "cenomani",
+   "name": "Cenomani",
+   "type": "tribe",
+   "family": "gallic",
+   "start": -400,
+   "end": -197
+  },
+  {
+   "id": "ligures",
+   "name": "Ligurians",
+   "type": "confederation",
+   "family": "other",
+   "start": -800,
+   "end": -155
+  },
+  {
+   "id": "veneti",
+   "name": "Veneti",
+   "type": "tribe",
+   "family": "italic",
+   "start": -800,
+   "end": -181
+  },
+  {
+   "id": "syracuse",
+   "name": "Syracuse",
+   "type": "city_state",
+   "family": "greek",
+   "start": -733,
+   "end": -212
+  },
+  {
+   "id": "carthage",
+   "name": "Carthage",
+   "type": "republic",
+   "family": "punic",
+   "start": -814,
+   "end": -146
+  },
+  {
+   "id": "sardinians",
+   "name": "Nuragic Sardinians",
+   "type": "tribe",
+   "family": "other",
+   "start": -1500,
+   "end": -111
+  },
+  {
+   "id": "numidia",
+   "name": "Numidia",
+   "type": "kingdom",
+   "family": "berber",
+   "start": -202,
+   "end": -46
+  },
+  {
+   "id": "numidia_massylii",
+   "name": "Massylii (Eastern Numidia)",
+   "type": "kingdom",
+   "family": "berber",
+   "start": -300,
+   "end": -202
+  },
+  {
+   "id": "masaesylii",
+   "name": "Masaesylii (Western Numidia)",
+   "type": "kingdom",
+   "family": "berber",
+   "start": -300,
+   "end": -202
+  },
+  {
+   "id": "mauretania",
+   "name": "Kingdom of Mauretania",
+   "type": "kingdom",
+   "family": "berber",
+   "start": -300,
+   "end": 40
+  },
+  {
+   "id": "gaetuli",
+   "name": "Gaetuli",
+   "type": "tribe",
+   "family": "berber",
+   "start": -500,
+   "end": 641
+  },
+  {
+   "id": "garamantes",
+   "name": "Garamantes",
+   "type": "kingdom",
+   "family": "berber",
+   "start": -500,
+   "end": 641
+  },
+  {
+   "id": "moors",
+   "name": "Mauri (Moorish tribes)",
+   "type": "confederation",
+   "family": "berber",
+   "start": 40,
+   "end": 641
+  },
+  {
+   "id": "vandal_kingdom",
+   "name": "Vandal Kingdom",
+   "type": "kingdom",
+   "family": "germanic",
+   "start": 429,
+   "end": 534
+  },
+  {
+   "id": "macedon_antigonid",
+   "name": "Antigonid Macedon",
+   "type": "kingdom",
+   "family": "hellenistic",
+   "start": -306,
+   "end": -168
+  },
+  {
+   "id": "seleucid",
+   "name": "Seleucid Empire",
+   "type": "empire",
+   "family": "hellenistic",
+   "start": -312,
+   "end": -63
+  },
+  {
+   "id": "ptolemaic",
+   "name": "Ptolemaic Egypt",
+   "type": "kingdom",
+   "family": "hellenistic",
+   "start": -305,
+   "end": -30
+  },
+  {
+   "id": "aetolian_league",
+   "name": "Aetolian League",
+   "type": "league",
+   "family": "greek",
+   "start": -370,
+   "end": -189
+  },
+  {
+   "id": "achaean_league",
+   "name": "Achaean League",
+   "type": "league",
+   "family": "greek",
+   "start": -280,
+   "end": -146
+  },
+  {
+   "id": "sparta",
+   "name": "Sparta",
+   "type": "city_state",
+   "family": "greek",
+   "start": -900,
+   "end": -192
+  },
+  {
+   "id": "athens",
+   "name": "Athens",
+   "type": "city_state",
+   "family": "greek",
+   "start": -900,
+   "end": -86
+  },
+  {
+   "id": "rhodes",
+   "name": "Rhodes",
+   "type": "city_state",
+   "family": "greek",
+   "start": -408,
+   "end": -43
+  },
+  {
+   "id": "epirus",
+   "name": "Epirus",
+   "type": "kingdom",
+   "family": "greek",
+   "start": -330,
+   "end": -167
+  },
+  {
+   "id": "pergamon",
+   "name": "Kingdom of Pergamon",
+   "type": "kingdom",
+   "family": "hellenistic",
+   "start": -282,
+   "end": -133
+  },
+  {
+   "id": "bithynia",
+   "name": "Kingdom of Bithynia",
+   "type": "kingdom",
+   "family": "anatolian",
+   "start": -297,
+   "end": -74
+  },
+  {
+   "id": "pontus",
+   "name": "Kingdom of Pontus",
+   "type": "kingdom",
+   "family": "anatolian",
+   "start": -281,
+   "end": -62
+  },
+  {
+   "id": "pontus_polemonian",
+   "name": "Pontus (Polemonid client kingdom)",
+   "type": "client_kingdom",
+   "family": "anatolian",
+   "start": -37,
+   "end": 64
+  },
+  {
+   "id": "cappadocia",
+   "name": "Kingdom of Cappadocia",
+   "type": "kingdom",
+   "family": "anatolian",
+   "start": -331,
+   "end": 17
+  },
+  {
+   "id": "galatia",
+   "name": "Galatians",
+   "type": "confederation",
+   "family": "gallic",
+   "start": -278,
+   "end": -25
+  },
+  {
+   "id": "paphlagonia",
+   "name": "Paphlagonia",
+   "type": "kingdom",
+   "family": "anatolian",
+   "start": -280,
+   "end": -6
+  },
+  {
+   "id": "commagene",
+   "name": "Kingdom of Commagene",
+   "type": "kingdom",
+   "family": "hellenistic",
+   "start": -163,
+   "end": 72
+  },
+  {
+   "id": "cilician_pirates",
+   "name": "Cilician pirates",
+   "type": "other",
+   "family": "anatolian",
+   "start": -140,
+   "end": -67
+  },
+  {
+   "id": "armenia",
+   "name": "Kingdom of Armenia",
+   "type": "kingdom",
+   "family": "iranian",
+   "start": -331,
+   "end": 428
+  },
+  {
+   "id": "lesser_armenia",
+   "name": "Lesser Armenia",
+   "type": "kingdom",
+   "family": "iranian",
+   "start": -300,
+   "end": 72
+  },
+  {
+   "id": "iberia_kartli",
+   "name": "Kingdom of Iberia (Kartli)",
+   "type": "kingdom",
+   "family": "caucasian",
+   "start": -299,
+   "end": 580
+  },
+  {
+   "id": "caucasian_albania",
+   "name": "Caucasian Albania",
+   "type": "kingdom",
+   "family": "caucasian",
+   "start": -200,
+   "end": 641
+  },
+  {
+   "id": "colchis",
+   "name": "Colchis / Lazica",
+   "type": "kingdom",
+   "family": "caucasian",
+   "start": -600,
+   "end": 641
+  },
+  {
+   "id": "bosporan_kingdom",
+   "name": "Bosporan Kingdom",
+   "type": "client_kingdom",
+   "family": "greek",
+   "start": -438,
+   "end": 370
+  },
+  {
+   "id": "scythians",
+   "name": "Scythians",
+   "type": "nomadic",
+   "family": "steppe",
+   "start": -700,
+   "end": -100
+  },
+  {
+   "id": "sarmatians",
+   "name": "Sarmatians",
+   "type": "nomadic",
+   "family": "steppe",
+   "start": -400,
+   "end": 400
+  },
+  {
+   "id": "iazyges",
+   "name": "Iazyges",
+   "type": "tribe",
+   "family": "steppe",
+   "start": -100,
+   "end": 400
+  },
+  {
+   "id": "roxolani",
+   "name": "Roxolani",
+   "type": "tribe",
+   "family": "steppe",
+   "start": -100,
+   "end": 400
+  },
+  {
+   "id": "alans",
+   "name": "Alans",
+   "type": "nomadic",
+   "family": "steppe",
+   "start": 0,
+   "end": 641
+  },
+  {
+   "id": "getae",
+   "name": "Getae",
+   "type": "tribe",
+   "family": "thracian_dacian",
+   "start": -600,
+   "end": -50
+  },
+  {
+   "id": "dacia_kingdom",
+   "name": "Dacian Kingdom",
+   "type": "kingdom",
+   "family": "thracian_dacian",
+   "start": -82,
+   "end": 106
+  },
+  {
+   "id": "free_dacians",
+   "name": "Free Dacians (Carpi, Costoboci)",
+   "type": "tribe",
+   "family": "thracian_dacian",
+   "start": 106,
+   "end": 300
+  },
+  {
+   "id": "thracians",
+   "name": "Thracian tribes",
+   "type": "confederation",
+   "family": "thracian_dacian",
+   "start": -800,
+   "end": -46
+  },
+  {
+   "id": "odrysian_kingdom",
+   "name": "Odrysian Kingdom",
+   "type": "client_kingdom",
+   "family": "thracian_dacian",
+   "start": -480,
+   "end": 46
+  },
+  {
+   "id": "illyrians",
+   "name": "Illyrian Kingdom (Ardiaei)",
+   "type": "kingdom",
+   "family": "illyrian",
+   "start": -260,
+   "end": -167
+  },
+  {
+   "id": "dalmatae",
+   "name": "Dalmatae",
+   "type": "tribe",
+   "family": "illyrian",
+   "start": -300,
+   "end": 9
+  },
+  {
+   "id": "pannonians",
+   "name": "Pannonian tribes",
+   "type": "confederation",
+   "family": "illyrian",
+   "start": -400,
+   "end": 9
+  },
+  {
+   "id": "scordisci",
+   "name": "Scordisci",
+   "type": "tribe",
+   "family": "gallic",
+   "start": -279,
+   "end": -15
+  },
+  {
+   "id": "norici",
+   "name": "Kingdom of Noricum",
+   "type": "kingdom",
+   "family": "gallic",
+   "start": -200,
+   "end": -15
+  },
+  {
+   "id": "raeti",
+   "name": "Raeti and Vindelici",
+   "type": "tribe",
+   "family": "other",
+   "start": -500,
+   "end": -15
+  },
+  {
+   "id": "hasmonean",
+   "name": "Hasmonean Judaea",
+   "type": "kingdom",
+   "family": "semitic_arab",
+   "start": -140,
+   "end": -37
+  },
+  {
+   "id": "judaea_herodian",
+   "name": "Herodian Judaea",
+   "type": "client_kingdom",
+   "family": "semitic_arab",
+   "start": -37,
+   "end": 92
+  },
+  {
+   "id": "nabataea",
+   "name": "Nabataean Kingdom",
+   "type": "kingdom",
+   "family": "semitic_arab",
+   "start": -300,
+   "end": 106
+  },
+  {
+   "id": "ituraea",
+   "name": "Ituraea",
+   "type": "kingdom",
+   "family": "semitic_arab",
+   "start": -100,
+   "end": 93
+  },
+  {
+   "id": "emesa",
+   "name": "Emesene dynasty",
+   "type": "client_kingdom",
+   "family": "semitic_arab",
+   "start": -64,
+   "end": 72
+  },
+  {
+   "id": "osroene",
+   "name": "Osroene (Edessa)",
+   "type": "client_kingdom",
+   "family": "semitic_arab",
+   "start": -132,
+   "end": 242
+  },
+  {
+   "id": "hatra",
+   "name": "Hatra",
+   "type": "kingdom",
+   "family": "semitic_arab",
+   "start": 50,
+   "end": 241
+  },
+  {
+   "id": "palmyra",
+   "name": "Palmyra",
+   "type": "city_state",
+   "family": "semitic_arab",
+   "start": -50,
+   "end": 273
+  },
+  {
+   "id": "parthia",
+   "name": "Parthian (Arsacid) Empire",
+   "type": "empire",
+   "family": "iranian",
+   "start": -247,
+   "end": 224
+  },
+  {
+   "id": "characene",
+   "name": "Characene",
+   "type": "client_kingdom",
+   "family": "iranian",
+   "start": -141,
+   "end": 222
+  },
+  {
+   "id": "adiabene",
+   "name": "Adiabene",
+   "type": "client_kingdom",
+   "family": "iranian",
+   "start": -100,
+   "end": 380
+  },
+  {
+   "id": "sasanian",
+   "name": "Sasanian Empire",
+   "type": "empire",
+   "family": "iranian",
+   "start": 224,
+   "end": 651
+  },
+  {
+   "id": "kushan",
+   "name": "Kushan Empire",
+   "type": "empire",
+   "family": "iranian",
+   "start": 30,
+   "end": 375
+  },
+  {
+   "id": "hephthalites",
+   "name": "Hephthalites",
+   "type": "nomadic",
+   "family": "steppe",
+   "start": 440,
+   "end": 560
+  },
+  {
+   "id": "himyar",
+   "name": "Himyar",
+   "type": "kingdom",
+   "family": "semitic_arab",
+   "start": -110,
+   "end": 570
+  },
+  {
+   "id": "aksum",
+   "name": "Kingdom of Aksum",
+   "type": "kingdom",
+   "family": "other",
+   "start": 50,
+   "end": 641
+  },
+  {
+   "id": "lakhmids",
+   "name": "Lakhmids",
+   "type": "client_kingdom",
+   "family": "semitic_arab",
+   "start": 300,
+   "end": 602
+  },
+  {
+   "id": "ghassanids",
+   "name": "Ghassanids",
+   "type": "client_kingdom",
+   "family": "semitic_arab",
+   "start": 470,
+   "end": 638
+  },
+  {
+   "id": "rashidun",
+   "name": "Rashidun Caliphate",
+   "type": "empire",
+   "family": "semitic_arab",
+   "start": 632,
+   "end": 661
+  },
+  {
+   "id": "arab_tribes",
+   "name": "Arab tribes",
+   "type": "confederation",
+   "family": "semitic_arab",
+   "start": -800,
+   "end": 641
+  },
+  {
+   "id": "blemmyes",
+   "name": "Blemmyes",
+   "type": "tribe",
+   "family": "other",
+   "start": 250,
+   "end": 641
+  },
+  {
+   "id": "kush_meroe",
+   "name": "Kingdom of Kush (Meroë)",
+   "type": "kingdom",
+   "family": "egyptian",
+   "start": -800,
+   "end": 350
+  },
+  {
+   "id": "nobatia",
+   "name": "Nobatia",
+   "type": "kingdom",
+   "family": "other",
+   "start": 350,
+   "end": 641
+  },
+  {
+   "id": "celtiberians",
+   "name": "Celtiberians",
+   "type": "confederation",
+   "family": "iberian",
+   "start": -500,
+   "end": -72
+  },
+  {
+   "id": "lusitanians",
+   "name": "Lusitanians",
+   "type": "tribe",
+   "family": "iberian",
+   "start": -500,
+   "end": -19
+  },
+  {
+   "id": "iberians",
+   "name": "Iberian peoples",
+   "type": "confederation",
+   "family": "iberian",
+   "start": -600,
+   "end": -133
+  },
+  {
+   "id": "turdetani",
+   "name": "Turdetani",
+   "type": "tribe",
+   "family": "iberian",
+   "start": -500,
+   "end": -197
+  },
+  {
+   "id": "vaccaei_vettones",
+   "name": "Vaccaei and Vettones",
+   "type": "tribe",
+   "family": "iberian",
+   "start": -500,
+   "end": -133
+  },
+  {
+   "id": "cantabri_astures",
+   "name": "Cantabri and Astures",
+   "type": "tribe",
+   "family": "iberian",
+   "start": -500,
+   "end": -19
+  },
+  {
+   "id": "callaeci",
+   "name": "Callaeci",
+   "type": "tribe",
+   "family": "iberian",
+   "start": -500,
+   "end": -19
+  },
+  {
+   "id": "vascones",
+   "name": "Vascones",
+   "type": "tribe",
+   "family": "iberian",
+   "start": -300,
+   "end": 641
+  },
+  {
+   "id": "balearic",
+   "name": "Balearic islanders",
+   "type": "tribe",
+   "family": "other",
+   "start": -600,
+   "end": -123
+  },
+  {
+   "id": "arverni",
+   "name": "Arverni",
+   "type": "tribe",
+   "family": "gallic",
+   "start": -400,
+   "end": -52
+  },
+  {
+   "id": "aedui",
+   "name": "Aedui",
+   "type": "tribe",
+   "family": "gallic",
+   "start": -400,
+   "end": -52
+  },
+  {
+   "id": "allobroges",
+   "name": "Allobroges",
+   "type": "tribe",
+   "family": "gallic",
+   "start": -300,
+   "end": -121
+  },
+  {
+   "id": "helvetii",
+   "name": "Helvetii",
+   "type": "tribe",
+   "family": "gallic",
+   "start": -300,
+   "end": -58
+  },
+  {
+   "id": "sequani",
+   "name": "Sequani",
+   "type": "tribe",
+   "family": "gallic",
+   "start": -300,
+   "end": -52
+  },
+  {
+   "id": "belgae",
+   "name": "Belgic tribes",
+   "type": "confederation",
+   "family": "gallic",
+   "start": -300,
+   "end": -51
+  },
+  {
+   "id": "armoricans",
+   "name": "Armorican tribes",
+   "type": "confederation",
+   "family": "gallic",
+   "start": -300,
+   "end": -51
+  },
+  {
+   "id": "aquitani",
+   "name": "Aquitani",
+   "type": "confederation",
+   "family": "iberian",
+   "start": -300,
+   "end": -27
+  },
+  {
+   "id": "gauls",
+   "name": "Gallic tribes",
+   "type": "confederation",
+   "family": "gallic",
+   "start": -600,
+   "end": -50
+  },
+  {
+   "id": "massalia",
+   "name": "Massalia",
+   "type": "city_state",
+   "family": "greek",
+   "start": -600,
+   "end": -49
+  },
+  {
+   "id": "britons",
+   "name": "British tribes",
+   "type": "confederation",
+   "family": "british",
+   "start": -600,
+   "end": 43
+  },
+  {
+   "id": "brigantes",
+   "name": "Brigantes",
+   "type": "client_kingdom",
+   "family": "british",
+   "start": -50,
+   "end": 71
+  },
+  {
+   "id": "caledonians",
+   "name": "Caledonians and Picts",
+   "type": "confederation",
+   "family": "british",
+   "start": -100,
+   "end": 641
+  },
+  {
+   "id": "hibernians",
+   "name": "Irish (Scotti)",
+   "type": "confederation",
+   "family": "british",
+   "start": -600,
+   "end": 641
+  },
+  {
+   "id": "britons_sub_roman",
+   "name": "Sub-Roman Britons",
+   "type": "kingdom",
+   "family": "british",
+   "start": 410,
+   "end": 641
+  },
+  {
+   "id": "anglo_saxons",
+   "name": "Anglo-Saxons",
+   "type": "confederation",
+   "family": "germanic",
+   "start": 430,
+   "end": 641
+  },
+  {
+   "id": "germani",
+   "name": "Germanic tribes",
+   "type": "confederation",
+   "family": "germanic",
+   "start": -200,
+   "end": 641
+  },
+  {
+   "id": "cimbri_teutones",
+   "name": "Cimbri and Teutones",
+   "type": "nomadic",
+   "family": "germanic",
+   "start": -120,
+   "end": -101
+  },
+  {
+   "id": "suebi",
+   "name": "Suebi",
+   "type": "confederation",
+   "family": "germanic",
+   "start": -100,
+   "end": 400
+  },
+  {
+   "id": "cherusci",
+   "name": "Cherusci",
+   "type": "tribe",
+   "family": "germanic",
+   "start": -50,
+   "end": 100
+  },
+  {
+   "id": "chatti",
+   "name": "Chatti",
+   "type": "tribe",
+   "family": "germanic",
+   "start": -50,
+   "end": 260
+  },
+  {
+   "id": "frisii",
+   "name": "Frisii",
+   "type": "tribe",
+   "family": "germanic",
+   "start": -100,
+   "end": 641
+  },
+  {
+   "id": "marcomanni",
+   "name": "Marcomanni",
+   "type": "tribe",
+   "family": "germanic",
+   "start": -100,
+   "end": 400
+  },
+  {
+   "id": "quadi",
+   "name": "Quadi",
+   "type": "tribe",
+   "family": "germanic",
+   "start": -50,
+   "end": 400
+  },
+  {
+   "id": "alamanni",
+   "name": "Alamanni",
+   "type": "confederation",
+   "family": "germanic",
+   "start": 213,
+   "end": 641
+  },
+  {
+   "id": "franks",
+   "name": "Franks",
+   "type": "confederation",
+   "family": "germanic",
+   "start": 240,
+   "end": 481
+  },
+  {
+   "id": "frankish_kingdom",
+   "name": "Frankish Kingdom (Merovingian)",
+   "type": "kingdom",
+   "family": "germanic",
+   "start": 481,
+   "end": 641
+  },
+  {
+   "id": "saxons",
+   "name": "Saxons",
+   "type": "confederation",
+   "family": "germanic",
+   "start": 280,
+   "end": 641
+  },
+  {
+   "id": "burgundians",
+   "name": "Burgundians",
+   "type": "kingdom",
+   "family": "germanic",
+   "start": 250,
+   "end": 534
+  },
+  {
+   "id": "goths",
+   "name": "Goths",
+   "type": "confederation",
+   "family": "germanic",
+   "start": 200,
+   "end": 376
+  },
+  {
+   "id": "thervingi",
+   "name": "Thervingi",
+   "type": "tribe",
+   "family": "germanic",
+   "start": 250,
+   "end": 376
+  },
+  {
+   "id": "greuthungi",
+   "name": "Greuthungi",
+   "type": "tribe",
+   "family": "germanic",
+   "start": 250,
+   "end": 376
+  },
+  {
+   "id": "visigoths",
+   "name": "Visigoths",
+   "type": "confederation",
+   "family": "germanic",
+   "start": 376,
+   "end": 418
+  },
+  {
+   "id": "visigothic_kingdom",
+   "name": "Visigothic Kingdom",
+   "type": "kingdom",
+   "family": "germanic",
+   "start": 418,
+   "end": 641
+  },
+  {
+   "id": "ostrogoths",
+   "name": "Ostrogoths",
+   "type": "confederation",
+   "family": "germanic",
+   "start": 376,
+   "end": 489
+  },
+  {
+   "id": "ostrogothic_kingdom",
+   "name": "Ostrogothic Kingdom",
+   "type": "kingdom",
+   "family": "germanic",
+   "start": 493,
+   "end": 553
+  },
+  {
+   "id": "odoacer_kingdom",
+   "name": "Kingdom of Odoacer",
+   "type": "kingdom",
+   "family": "germanic",
+   "start": 476,
+   "end": 493
+  },
+  {
+   "id": "gepids",
+   "name": "Gepids",
+   "type": "kingdom",
+   "family": "germanic",
+   "start": 260,
+   "end": 567
+  },
+  {
+   "id": "heruli",
+   "name": "Heruli",
+   "type": "tribe",
+   "family": "germanic",
+   "start": 260,
+   "end": 550
+  },
+  {
+   "id": "rugii",
+   "name": "Rugii",
+   "type": "kingdom",
+   "family": "germanic",
+   "start": 400,
+   "end": 487
+  },
+  {
+   "id": "lombards",
+   "name": "Lombards",
+   "type": "kingdom",
+   "family": "germanic",
+   "start": 500,
+   "end": 641
+  },
+  {
+   "id": "suebic_kingdom",
+   "name": "Suebic Kingdom of Gallaecia",
+   "type": "kingdom",
+   "family": "germanic",
+   "start": 409,
+   "end": 585
+  },
+  {
+   "id": "huns",
+   "name": "Huns",
+   "type": "nomadic",
+   "family": "steppe",
+   "start": 370,
+   "end": 469
+  },
+  {
+   "id": "avars",
+   "name": "Avars",
+   "type": "nomadic",
+   "family": "steppe",
+   "start": 558,
+   "end": 641
+  },
+  {
+   "id": "bulgars",
+   "name": "Bulgars",
+   "type": "nomadic",
+   "family": "steppe",
+   "start": 480,
+   "end": 641
+  },
+  {
+   "id": "kutrigurs_utigurs",
+   "name": "Kutrigurs and Utigurs",
+   "type": "nomadic",
+   "family": "steppe",
+   "start": 450,
+   "end": 600
+  },
+  {
+   "id": "slavs",
+   "name": "Slavs (Sclaveni and Antes)",
+   "type": "confederation",
+   "family": "slavic",
+   "start": 500,
+   "end": 641
+  },
+  {
+   "id": "baltic_peoples",
+   "name": "Baltic peoples",
+   "type": "tribe",
+   "family": "other",
+   "start": -800,
+   "end": 641
+  },
+  {
+   "id": "finnic_peoples",
+   "name": "Finnic peoples",
+   "type": "tribe",
+   "family": "other",
+   "start": -800,
+   "end": 641
+  },
+  {
+   "id": "scandinavians",
+   "name": "Scandinavian peoples",
+   "type": "tribe",
+   "family": "germanic",
+   "start": -800,
+   "end": 641
+  }
+ ]
+}

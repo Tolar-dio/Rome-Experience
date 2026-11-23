@@ -1,0 +1,328 @@
+{
+ "campaigns": [
+  {"id": "augustus_cantabrian_campaign_26bc", "name": "Augustus in Cantabria", "war": "cantabrian_wars", "polity": "rome", "commander": "augustus", "start": -26, "end": -25,
+   "strength": "Perhaps seven legions in the peninsula, with a fleet from Aquitania; numbers in the main column unknown",
+   "summary": "Augustus's only personal campaign as princeps. From Segisama three columns pushed north into the Cantabrian mountains while a seaborne force landed on the coast; the emperor fell ill and withdrew to Tarraco, leaving his legates to finish the blockade of Aracillum.",
+   "path": [
+    {"loc": [1.2445, 41.1189], "t": "Tarraco", "y": -26, "m": 1, "note": "Augustus enters his eighth consulship here; winter headquarters"},
+    {"loc": [-1.6432, 42.8125], "t": "Pompaelo region (march through the upper Ebro)", "y": -26, "m": 4},
+    {"loc": [-4.0446, 42.3747], "t": "Segisama (Sasamón), base camp", "y": -26, "m": 5, "note": "Florus 2.33.48"},
+    {"loc": [-4.24, 42.83], "t": "Vellica", "y": -26, "m": 6, "event": "battle_of_vellica"},
+    {"loc": [-3.98, 43.15], "t": "Aracillum blockaded", "y": -26, "m": 8, "event": "siege_of_aracillum"},
+    {"loc": [-4.0428, 43.4295], "t": "Cantabrian coast (Portus Blendium?), seaborne landing links up", "y": -26, "m": 8, "note": "Fleet from Aquitania"},
+    {"loc": [1.2445, 41.1189], "t": "Augustus returns ill to Tarraco", "y": -25, "m": 1, "note": "Dio 53.25.7"}
+   ],
+   "certainty": "disputed", "note": "Order of operations and identification of Vellica and Aracillum are debated; recent archaeology of Roman siege lines at La Espina del Gallego, El Cincho and La Loma supports a campaign in the upper Pisuerga and Besaya valleys."},
+
+  {"id": "aelius_gallus_arabia", "name": "Aelius Gallus's expedition to Arabia Felix", "war": null, "polity": "rome", "commander": "aelius_gallus", "start": -26, "end": -25,
+   "strength": "c. 10,000 Roman and allied troops, including 500 Jews from Herod and 1,000 Nabataeans under Syllaeus; 130 transports",
+   "summary": "Augustus's attempt to seize the incense lands of South Arabia. Misled (so Strabo claims) by the Nabataean minister Syllaeus, the army took six months to reach Marib, failed to take it, and returned in sixty days, having lost most of its men to disease rather than battle.",
+   "path": [
+    {"loc": [32.55, 29.97], "t": "Cleopatris (near Suez), fleet built", "y": -26, "m": 5},
+    {"loc": [35.13, 28.08], "t": "Leuke Kome, Nabataean port", "y": -26, "m": 7, "sea": true, "note": "Wintered here due to scurvy and disease"},
+    {"loc": [37.95, 26.79], "t": "Through Nabataean territory (Hegra region)", "y": -25, "m": 3},
+    {"loc": [44.13, 17.49], "t": "Negrana (Najran) taken", "y": -25, "m": 5},
+    {"loc": [44.8, 16.3], "t": "Battle at a river; 10,000 Arabs killed for 2 Romans (Strabo)", "y": -25, "m": 6},
+    {"loc": [45.33, 15.43], "t": "Marsiaba (Marib) besieged six days", "y": -25, "m": 6, "event": "siege_of_marib"},
+    {"loc": [44.13, 17.49], "t": "Retreat to Negrana", "y": -25, "m": 7},
+    {"loc": [37.95, 26.79], "t": "Egra (Hegra) on the coast", "y": -25, "m": 8},
+    {"loc": [34.24, 26.16], "t": "Crosses the Red Sea to Myos Hormos", "y": -25, "m": 9, "sea": true},
+    {"loc": [32.82, 26.0], "t": "Coptos, then down the Nile to Alexandria", "y": -25, "m": 10}
+   ],
+   "certainty": "probable", "note": "Strabo (16.4.22-24) was Gallus's friend and companion in Egypt and blames Syllaeus; Res Gestae 26.5 claims the army reached Mariba. Exact inland route and the location of Leuke Kome (Aynunah or al-Wajh) are debated."},
+
+  {"id": "petronius_kush_campaign", "name": "Petronius's campaign in Kush", "war": "roman_kushite_war", "polity": "rome", "commander": "gaius_petronius_prefect", "start": -24, "end": -22,
+   "strength": "Fewer than 10,000 infantry and 800 cavalry (Strabo)",
+   "summary": "Counteroffensive by the prefect of Egypt after the Kushite sack of Syene: victory at Pselchis, capture of Primis, and the razing of Napata, the old religious capital of Kush.",
+   "path": [
+    {"loc": [32.8994, 24.0889], "t": "Syene (Aswan)", "y": -24, "m": 1},
+    {"loc": [32.75, 23.18], "t": "Pselchis (Dakka)", "y": -24, "m": 2, "event": "battle_of_pselchis"},
+    {"loc": [32.05, 22.65], "t": "Primis (Qasr Ibrim) stormed", "y": -24, "m": 3},
+    {"loc": [31.828, 18.536], "t": "Napata (Jebel Barkal) razed", "y": -24, "m": 5},
+    {"loc": [32.05, 22.65], "t": "Garrison of 400 left at Primis", "y": -24, "m": 7},
+    {"loc": [32.05, 22.65], "t": "Relief of Primis against the Candace", "y": -22, "m": 6},
+    {"loc": [32.8994, 24.0889], "t": "Return to Syene", "y": -22, "m": 8}
+   ],
+   "certainty": "probable", "note": "Strabo 17.1.54; Dio 54.5. Pliny NH 6.181 lists towns taken. Archaeology at Qasr Ibrim confirms a Roman occupation phase."},
+
+  {"id": "drusus_german_campaigns", "name": "Drusus's German campaigns", "war": "augustan_germanic_wars", "polity": "rome", "commander": "drusus_the_elder", "start": -12, "end": -9,
+   "strength": "Perhaps 5-6 legions on the Rhine plus auxiliaries and a fleet",
+   "summary": "Four seasons of offensives that took Roman arms from the Rhine to the Elbe: the North Sea expedition and the fossa Drusiana (12 BC), the Lippe-Weser drive and the Arbalo ambush (11 BC), the Chatti (10 BC), and the great march to the Elbe (9 BC), on the return from which Drusus died after a fall from his horse.",
+   "path": [
+    {"loc": [6.47, 51.65], "t": "Vetera; repulses Sugambri and Usipetes", "y": -12, "m": 4},
+    {"loc": [5.98, 51.92], "t": "Fossa Drusiana, Rhine-IJssel canal", "y": -12, "m": 5},
+    {"loc": [5.91, 52.56], "t": "Lacus Flevo; Frisii won over", "y": -12, "m": 6, "sea": true},
+    {"loc": [7.21, 53.37], "t": "Ems estuary; fleet stranded among the Chauci", "y": -12, "m": 7, "sea": true},
+    {"loc": [7.18, 51.74], "t": "Up the Lippe (Haltern)", "y": -11, "m": 4},
+    {"loc": [8.48, 51.72], "t": "Upper Lippe (Anreppen area)", "y": -11, "m": 5},
+    {"loc": [9.08, 52.1], "t": "Reaches the Weser in Cheruscan territory", "y": -11, "m": 6},
+    {"loc": [8.6, 51.8], "t": "Ambush at Arbalo on the return", "y": -11, "m": 8, "event": "battle_of_arbalo"},
+    {"loc": [8.2711, 49.9929], "t": "Mogontiacum, base against the Chatti", "y": -10, "m": 4},
+    {"loc": [8.77, 50.36], "t": "Wetterau, Chatti campaign", "y": -10, "m": 6},
+    {"loc": [9.45, 51.0], "t": "Through Chattan territory", "y": -9, "m": 5},
+    {"loc": [10.6, 51.6], "t": "Through Cheruscan lands to the Harz", "y": -9, "m": 6},
+    {"loc": [11.63, 52.12], "t": "The Elbe; apparition of a giant woman warns him back (Dio)", "y": -9, "m": 7},
+    {"loc": [10.3, 51.4], "t": "Fall from horse between Saale and Rhine; dies in camp 30 days later", "y": -9, "m": 9, "event": "death_of_drusus_the_elder"}
+   ],
+   "certainty": "approx", "note": "Routes are reconstructed from Dio 54.32-33 and 55.1, Florus 2.30 and the distribution of Augustan camps (Oberaden, Haltern, Anreppen, Hedemünden); the camp where Drusus died (castra scelerata) is unlocated."},
+
+  {"id": "varus_ad9", "name": "Varus's last march", "war": "augustan_germanic_wars", "polity": "rome", "commander": "publius_quinctilius_varus", "start": 9, "end": 9,
+   "strength": "Legions XVII, XVIII, XIX, three alae and six cohorts with camp followers; c. 15,000-20,000 soldiers",
+   "summary": "Varus left his summer camp near the Weser for winter quarters on the Rhine and was diverted, on Arminius's report of a rising, into difficult country where the army was destroyed over several days.",
+   "path": [
+    {"loc": [8.92, 52.28], "t": "Summer camp near the Weser (Porta Westfalica area?)", "y": 9, "m": 9},
+    {"loc": [8.55, 52.33], "t": "Diversion west towards the reported rising", "y": 9, "m": 9},
+    {"loc": [8.33, 52.38], "t": "First attacks; marching camp with three legions' worth of entrenchment (Tac. Ann. 1.61)", "y": 9, "m": 9},
+    {"loc": [8.1294, 52.4083], "t": "Kalkriese: the trap between Kalkrieser Berg and the Great Moor", "y": 9, "m": 9, "event": "battle_of_the_teutoburg_forest"},
+    {"loc": [7.18, 51.74], "t": "Survivors reach Aliso (Haltern?)", "y": 9, "m": 10, "event": "siege_of_aliso"},
+    {"loc": [6.47, 51.65], "t": "Garrison breaks out to the Rhine (Vetera)", "y": 9, "m": 11}
+   ],
+   "certainty": "disputed", "note": "The identification of Kalkriese with the final stage is widely but not universally accepted (coins stop c. AD 9; Varus countermarks VAR). Older theories placed the battle in the Teutoburger Wald near Detmold. The location of the summer camp and of Aliso are uncertain."},
+
+  {"id": "germanicus_campaigns_14_16", "name": "Germanicus's campaigns beyond the Rhine", "war": "augustan_germanic_wars", "polity": "rome", "commander": "germanicus", "start": 14, "end": 16,
+   "strength": "8 legions of the Rhine armies (c. 40,000) plus 26 auxiliary cohorts and 8 alae; in 16 a fleet of 1,000 ships",
+   "summary": "Three campaigns to avenge Varus: the massacre of the Marsi (14), the raid on the Chatti and visit to the Varian battlefield followed by the near-disaster of Caecina at Pontes Longi (15), and the amphibious invasion via the Ems that won Idistaviso and the Angrivarian Wall but lost much of the fleet to a North Sea storm (16).",
+   "path": [
+    {"loc": [6.47, 51.65], "t": "Vetera; after the mutiny the army crosses the Rhine", "y": 14, "m": 9},
+    {"loc": [8.3, 51.45], "t": "Marsi massacred at a festival; shrine of Tanfana razed", "y": 14, "m": 10, "event": "massacre_of_the_marsi"},
+    {"loc": [8.2711, 49.9929], "t": "Mogontiacum; spring raid on the Chatti", "y": 15, "m": 3},
+    {"loc": [9.31, 51.21], "t": "Mattium, Chattan centre, burned", "y": 15, "m": 4},
+    {"loc": [5.98, 51.92], "t": "Fleet via the fossa Drusiana", "y": 15, "m": 5, "sea": true},
+    {"loc": [7.3, 52.95], "t": "Rendezvous on the Ems", "y": 15, "m": 6},
+    {"loc": [8.1294, 52.4083], "t": "Varian battlefield visited; bones buried", "y": 15, "m": 6},
+    {"loc": [7.2, 52.4], "t": "Caecina's column at Pontes Longi", "y": 15, "m": 7, "event": "battle_of_pontes_longi"},
+    {"loc": [5.9, 51.85], "t": "Fleet of 1,000 ships assembles at the Insula Batavorum", "y": 16, "m": 5},
+    {"loc": [7.21, 53.37], "t": "Sails to the Ems", "y": 16, "m": 6, "sea": true},
+    {"loc": [8.95, 52.25], "t": "Idistaviso on the Weser", "y": 16, "m": 7, "event": "battle_of_idistaviso"},
+    {"loc": [9.1, 52.48], "t": "Angrivarian Wall", "y": 16, "m": 7, "event": "battle_of_the_angrivarian_wall"},
+    {"loc": [7.3, 53.6], "t": "Return by sea; fleet wrecked by storm, Germanicus's trireme driven to the Chauci", "y": 16, "m": 8, "sea": true},
+    {"loc": [6.47, 51.65], "t": "Winter quarters; Germanicus recalled", "y": 16, "m": 11}
+   ],
+   "certainty": "approx", "note": "Tacitus Annals 1.49-71 and 2.5-26 is the only detailed source; topography is vague and site identifications (Idistaviso near Minden or Rinteln, the Angrivarian wall near Leese) are conjectural."},
+
+  {"id": "aulus_plautius_43", "name": "Aulus Plautius's invasion of Britain", "war": "roman_conquest_of_britain", "polity": "rome", "commander": "aulus_plautius", "start": 43, "end": 43,
+   "strength": "Four legions (II Augusta, IX Hispana, XIV Gemina, XX) and auxiliaries, c. 40,000; Claudius brought elephants and the praetorians",
+   "summary": "The Claudian invasion: delayed by a mutiny of troops who refused to campaign 'outside the known world', the army crossed in three divisions, defeated Togodumnus and Caratacus in a two-day battle at a river (the Medway), forced the Thames, and waited for Claudius to lead the final advance on Camulodunum.",
+   "path": [
+    {"loc": [1.6, 50.73], "t": "Gesoriacum (Boulogne); mutiny quelled by Narcissus", "y": 43, "m": 5},
+    {"loc": [1.324, 51.293], "t": "Landing at Rutupiae (Richborough)", "y": 43, "m": 6, "sea": true, "note": "Alternative landing theories favour Chichester/Fishbourne"},
+    {"loc": [0.49, 51.35], "t": "River battle on the Medway", "y": 43, "m": 7, "event": "battle_of_the_medway"},
+    {"loc": [-0.09, 51.5], "t": "Thames crossing; Togodumnus dies", "y": 43, "m": 7},
+    {"loc": [-0.09, 51.5], "t": "Waits for Claudius", "y": 43, "m": 8},
+    {"loc": [0.903, 51.889], "t": "Camulodunum taken with Claudius present", "y": 43, "m": 9, "event": "claudius_in_britain"}
+   ],
+   "certainty": "disputed", "note": "Dio 60.19-22 is the only narrative and names no rivers; the Medway and Richborough are inferences. A landing near Fishbourne in friendly Atrebatic territory has been argued (Hind, Manley)."},
+
+  {"id": "vespasian_in_britain_43_47", "name": "Vespasian and legio II Augusta in southern Britain", "war": "roman_conquest_of_britain", "polity": "rome", "commander": "vespasian", "start": 43, "end": 47,
+   "strength": "Legio II Augusta with auxiliaries, c. 10,000",
+   "summary": "As legate of II Augusta, the future emperor fought 30 battles, subdued two powerful peoples, took more than 20 oppida and the Isle of Wight (Suet. Vesp. 4), conventionally identified with the Durotriges and Belgae and the Dorset hillforts.",
+   "path": [
+    {"loc": [0.49, 51.35], "t": "Medway battle", "y": 43, "m": 7},
+    {"loc": [-0.81, 50.84], "t": "Noviomagus (Chichester), friendly territory of Togidubnus", "y": 43, "m": 10},
+    {"loc": [-1.3, 50.68], "t": "Vectis (Isle of Wight)", "y": 44, "m": 5, "sea": true},
+    {"loc": [-2.23, 50.89], "t": "Hod Hill: ballista bolts concentrated on the chieftain's hut; Roman fort built in the corner", "y": 44, "m": 7},
+    {"loc": [-2.469, 50.695], "t": "Maiden Castle", "y": 44, "m": 8, "event": "siege_of_maiden_castle"},
+    {"loc": [-2.3, 51.1], "t": "Hillforts of south Somerset (South Cadbury?)", "y": 45, "m": 6},
+    {"loc": [-3.53, 50.72], "t": "Towards the Exe (later fortress of Isca)", "y": 47, "m": 6}
+   ],
+   "certainty": "approx", "note": "Suetonius gives no place-names; the route is inferred from archaeology (Hod Hill, Lake Farm, Waddon Hill) and the later base of II Augusta at Exeter (c. 55)."},
+
+  {"id": "suetonius_paullinus_60_61", "name": "Suetonius Paullinus: Mona and the Boudican war", "war": "boudican_revolt", "polity": "rome", "commander": "suetonius_paullinus", "start": 60, "end": 61,
+   "strength": "For the final battle legio XIV Gemina, vexillations of XX and nearby auxiliaries, almost 10,000 men (Tac. Ann. 14.34)",
+   "summary": "Paullinus was storming the Druidic island of Mona when news of Boudica's revolt came. He rode ahead to Londinium, judged it indefensible and abandoned it, then fell back up Watling Street to choose his ground, where he destroyed the British host.",
+   "path": [
+    {"loc": [-4.27, 53.15], "t": "Flat-bottomed boats and cavalry fording the Menai Strait", "y": 60, "m": 5},
+    {"loc": [-4.3, 53.2], "t": "Mona: Druids and sacred groves destroyed", "y": 60, "m": 5, "event": "battle_of_mona"},
+    {"loc": [-2.65, 52.67], "t": "Back along Watling Street (Wroxeter area)", "y": 60, "m": 6},
+    {"loc": [-0.09, 51.51], "t": "Londinium reached and abandoned", "y": 60, "m": 6, "event": "sack_of_londinium"},
+    {"loc": [-1.0, 52.15], "t": "Withdrawal north-west along Watling Street", "y": 60, "m": 7},
+    {"loc": [-1.52, 52.57], "t": "Battle site, perhaps near Mancetter", "y": 60, "m": 7, "event": "battle_of_watling_street"}
+   ],
+   "certainty": "disputed", "note": "Tacitus does not name the battlefield; Mancetter (Manduessedum) is the favourite of many, but High Cross, Church Stowe and sites near Towcester have been proposed. The year is 60 in Tacitus but often corrected to 61."},
+
+  {"id": "corbulo_armenia_58_60", "name": "Corbulo's conquest of Armenia", "war": "roman_parthian_war_58", "polity": "rome", "commander": "corbulo", "start": 58, "end": 60,
+   "strength": "Legiones III Gallica and VI Ferrata, plus X Fretensis or IV Scythica in part, auxiliaries and allied kings' contingents",
+   "summary": "After a winter in tents in the Armenian highlands, Corbulo stormed fortresses with exemplary severity, took and razed Artaxata, marched across the Mesopotamian edge to Tigranocerta, which surrendered, and installed Rome's candidate Tigranes VI.",
+   "path": [
+    {"loc": [35.4787, 38.7205], "t": "Cappadocia (Caesarea), assembly of the army", "y": 57, "m": 9},
+    {"loc": [39.66, 40.03], "t": "Upper Euphrates (Satala region), winter under canvas", "y": 58, "m": 1},
+    {"loc": [41.27, 39.9], "t": "Erzurum plain; fortress of Volandum stormed", "y": 58, "m": 5},
+    {"loc": [44.57, 39.88], "t": "Artaxata surrenders and is burned", "y": 58, "m": 7, "event": "capture_of_artaxata_58"},
+    {"loc": [42.9, 39.0], "t": "March south through the Mardi country, suffering thirst", "y": 59, "m": 5},
+    {"loc": [41.0, 38.15], "t": "Tigranocerta opens its gates", "y": 59, "m": 7},
+    {"loc": [41.0, 38.15], "t": "Tigranes VI installed", "y": 60, "m": 5}
+   ],
+   "certainty": "approx", "note": "Tacitus Annals 13.35-41 and 14.23-26; the site of Tigranocerta is disputed (Arzan near Silvan is favoured)."},
+
+  {"id": "vespasian_titus_judaea_67_70", "name": "Vespasian and Titus in Judaea", "war": "first_jewish_roman_war", "polity": "rome", "commander": "vespasian", "start": 67, "end": 70,
+   "strength": "Legiones V Macedonica, X Fretensis, XV Apollinaris (from 67) with 23 auxiliary cohorts, 6 alae and allied kings' troops, c. 60,000 (Josephus BJ 3.64-69); XII Fulminata added for Jerusalem",
+   "summary": "Vespasian's methodical reconquest of Galilee in 67, Perea and the Judaean lowlands in 68, followed after his proclamation by Titus's siege of Jerusalem in 70.",
+   "path": [
+    {"loc": [36.1611, 36.2021], "t": "Antioch; Vespasian takes command", "y": 67, "m": 2},
+    {"loc": [35.07, 32.92], "t": "Ptolemais; Titus joins with XV Apollinaris", "y": 67, "m": 4},
+    {"loc": [35.28, 32.75], "t": "Sepphoris garrisoned", "y": 67, "m": 5},
+    {"loc": [35.24, 32.84], "t": "Jotapata (47 days)", "y": 67, "m": 7, "event": "siege_of_jotapata"},
+    {"loc": [35.27, 32.69], "t": "Japha taken by Trajan (father of the emperor)", "y": 67, "m": 7},
+    {"loc": [35.52, 32.82], "t": "Tarichaeae and the battle on the Lake of Gennesaret", "y": 67, "m": 9},
+    {"loc": [35.74, 32.9], "t": "Gamla", "y": 67, "m": 10, "event": "siege_of_gamla"},
+    {"loc": [35.45, 33.02], "t": "Gischala surrenders to Titus", "y": 67, "m": 11},
+    {"loc": [34.89, 32.5], "t": "Winter at Caesarea", "y": 68, "m": 1},
+    {"loc": [35.68, 32.65], "t": "Gadara in Perea", "y": 68, "m": 3},
+    {"loc": [35.44, 31.87], "t": "Jericho; X Fretensis camps there", "y": 68, "m": 6, "note": "Operations halt on news of Nero's death"},
+    {"loc": [34.89, 32.5], "t": "Caesarea; Titus assembles four legions", "y": 70, "m": 3},
+    {"loc": [35.2354, 31.7781], "t": "Jerusalem besieged and destroyed", "y": 70, "m": 9, "event": "siege_of_jerusalem_70"}
+   ],
+   "certainty": "probable", "note": "Josephus BJ 3-6, an eyewitness for most of it (first as rebel commander, then as Roman captive and interpreter)."},
+
+  {"id": "caecina_march_69", "name": "Caecina's march on Italy", "war": "civil_war_68", "polity": "rome", "commander": "aulus_caecina_alienus", "start": 69, "end": 69,
+   "strength": "c. 30,000 from the upper German army, legio XXI Rapax as core",
+   "summary": "Caecina led the Vitellian southern column from Vindonissa, crushed the Helvetii en route, crossed the Great St Bernard in late winter and reached the Po before Valens.",
+   "path": [
+    {"loc": [8.211, 47.481], "t": "Vindonissa", "y": 69, "m": 1},
+    {"loc": [7.07, 46.94], "t": "Helvetii massacred near Mons Vocetius; Aventicum submits", "y": 69, "m": 2},
+    {"loc": [7.17, 45.87], "t": "Crosses the Great St Bernard (Poeninus) in snow", "y": 69, "m": 3},
+    {"loc": [9.97, 45.05], "t": "Fails before Placentia, whose amphitheatre burns", "y": 69, "m": 3},
+    {"loc": [10.02, 45.13], "t": "Cremona; joins Valens", "y": 69, "m": 4},
+    {"loc": [10.2, 45.13], "t": "First battle of Bedriacum", "y": 69, "m": 4, "event": "first_battle_of_bedriacum"}
+   ],
+   "certainty": "probable", "note": "Tacitus Histories 1.61-70; 2.17-45."},
+
+  {"id": "valens_march_69", "name": "Fabius Valens's march on Italy", "war": "civil_war_68", "polity": "rome", "commander": "fabius_valens", "start": 69, "end": 69,
+   "strength": "c. 40,000 from the lower German army, core of legio V Alaudae",
+   "summary": "Valens's larger column marched from Cologne through Gaul, terrorising Divodurum (where 4,000 were massacred) and extorting money from Vienne, crossed the Mont Genèvre and joined Caecina at Cremona days before the battle with Otho.",
+   "path": [
+    {"loc": [6.958, 50.941], "t": "Colonia Agrippinensis", "y": 69, "m": 1},
+    {"loc": [6.6414, 49.7497], "t": "Treveri", "y": 69, "m": 1},
+    {"loc": [6.1757, 49.1193], "t": "Divodurum (Metz): massacre of 4,000", "y": 69, "m": 2},
+    {"loc": [4.8277, 45.7597], "t": "Lugdunum", "y": 69, "m": 2},
+    {"loc": [4.874, 45.525], "t": "Vienna (Vienne) spared for a bribe", "y": 69, "m": 3},
+    {"loc": [6.72, 44.93], "t": "Crosses the Cottian Alps (Mont Genèvre)", "y": 69, "m": 3},
+    {"loc": [9.16, 45.19], "t": "Ticinum", "y": 69, "m": 4},
+    {"loc": [10.02, 45.13], "t": "Cremona", "y": 69, "m": 4}
+   ],
+   "certainty": "probable", "note": "Tacitus Histories 1.62-66; 2.27-30."},
+
+  {"id": "antonius_primus_advance_69", "name": "Antonius Primus's Flavian offensive", "war": "civil_war_68", "polity": "rome", "commander": "marcus_antonius_primus", "start": 69, "end": 69,
+   "strength": "Five Danubian legions (VII Galbiana, XIII Gemina, VII Claudia, VIII Augusta, III Gallica) with auxiliaries, c. 30,000-40,000",
+   "summary": "Ignoring orders to wait for Mucianus, the legate of legio VII Galbiana led the Danube legions into Italy in a lightning campaign, won the second battle of Bedriacum, sacked Cremona and forced his way into Rome.",
+   "path": [
+    {"loc": [15.87, 46.42], "t": "Poetovio war council", "y": 69, "m": 8},
+    {"loc": [13.37, 45.77], "t": "Aquileia", "y": 69, "m": 9},
+    {"loc": [11.88, 45.41], "t": "Patavium and Ateste", "y": 69, "m": 9},
+    {"loc": [10.99, 45.44], "t": "Verona, base", "y": 69, "m": 10},
+    {"loc": [10.44, 45.13], "t": "Bedriacum", "y": 69, "m": 10},
+    {"loc": [10.15, 45.13], "t": "Night battle before Cremona", "y": 69, "m": 10, "event": "second_battle_of_bedriacum"},
+    {"loc": [10.02, 45.13], "t": "Cremona sacked four days", "y": 69, "m": 10},
+    {"loc": [13.02, 43.84], "t": "Fanum Fortunae; over the Apennines in snow", "y": 69, "m": 11},
+    {"loc": [12.52, 42.52], "t": "Narnia; Vitellian army surrenders", "y": 69, "m": 12},
+    {"loc": [12.4924, 41.8902], "t": "Rome stormed", "y": 69, "m": 12, "event": "death_of_vitellius"}
+   ],
+   "certainty": "probable", "note": "Tacitus Histories 3.1-35; 3.41-63; 3.78-86."},
+
+  {"id": "agricola_77_84", "name": "Agricola's campaigns in Wales and Caledonia", "war": "roman_conquest_of_britain", "polity": "rome", "commander": "gnaeus_julius_agricola", "start": 77, "end": 84,
+   "strength": "Up to four legions (II Adiutrix, IX Hispana, XX, II Augusta in part); 8,000 auxiliary infantry and 3,000 cavalry in the battle line at Mons Graupius",
+   "summary": "Seven seasons of campaigning that took a Roman army to the Moray Firth: Ordovices and Mona (77/78), the Brigantes and the north (79), the Tay (80), consolidation on the Forth-Clyde isthmus (81), the south-west facing Ireland (82), and the push up the east coast to Mons Graupius (83 or 84), with the fleet circumnavigating Britain.",
+   "path": [
+    {"loc": [-2.89, 53.19], "t": "Deva; campaign against the Ordovices", "y": 77, "m": 8},
+    {"loc": [-4.3, 53.2], "t": "Mona taken by auxiliaries swimming beside their horses", "y": 77, "m": 9},
+    {"loc": [-2.93, 54.89], "t": "Carlisle; advance into the north", "y": 79, "m": 6},
+    {"loc": [-3.43, 56.4], "t": "Reaches the Taus (Tay)", "y": 80, "m": 7},
+    {"loc": [-3.95, 56.0], "t": "Forts across the Forth-Clyde isthmus", "y": 81, "m": 7},
+    {"loc": [-4.6, 54.9], "t": "South-west Scotland; Ireland in view, 'could be taken with one legion'", "y": 82, "m": 7},
+    {"loc": [-3.33, 56.15], "t": "Night attack on legio IX in camp beyond the Forth", "y": 83, "m": 7},
+    {"loc": [-3.426, 56.539], "t": "Inchtuthil region; Tay crossing", "y": 83, "m": 8},
+    {"loc": [-2.52, 57.29], "t": "Mons Graupius", "y": 83, "m": 9, "event": "battle_of_mons_graupius"},
+    {"loc": [-3.1, 59.0], "t": "Fleet reaches the Orcades", "y": 84, "m": 9, "sea": true, "event": "agricolas_fleet_circumnavigates_britain"}
+   ],
+   "certainty": "approx", "note": "Tacitus Agricola 18-38 gives seasons but almost no place-names; reconstruction depends on marching-camp series. Whether Mons Graupius was in 83 or 84 depends on whether Agricola arrived in 77 or 78."},
+
+  {"id": "trajan_dacia_101_102", "name": "Trajan's First Dacian campaign", "war": "first_dacian_war", "polity": "rome", "commander": "trajan", "start": 101, "end": 102,
+   "strength": "Perhaps 9-12 legions in whole or part and as many auxiliaries; c. 100,000-150,000 in the theatre",
+   "summary": "Trajan crossed the Danube on pontoon bridges at Lederata, fought a bloody battle at Tapae, returned to meet a Dacian and Roxolanian counterattack in Lower Moesia over the winter, and in 102 converged on Decebalus's mountain fortresses, forcing a peace.",
+   "path": [
+    {"loc": [12.4924, 41.8902], "t": "Departs Rome (25 March 101, Arval acts)", "y": 101, "m": 3},
+    {"loc": [21.21, 44.74], "t": "Viminacium, assembly", "y": 101, "m": 5},
+    {"loc": [21.33, 44.79], "t": "Pontoon crossing at Lederata", "y": 101, "m": 5},
+    {"loc": [21.88, 45.13], "t": "Arcidava and Berzobis (Trajan's Dacica fragment)", "y": 101, "m": 6},
+    {"loc": [22.18, 45.47], "t": "Tibiscum", "y": 101, "m": 7},
+    {"loc": [22.66, 45.48], "t": "Tapae", "y": 101, "m": 9, "event": "battle_of_tapae_101"},
+    {"loc": [27.95, 44.09], "t": "Winter counterattack in Lower Moesia", "y": 102, "m": 1, "event": "battle_of_adamclisi"},
+    {"loc": [23.12, 45.7], "t": "Assault on the Orăștie forts (Costești)", "y": 102, "m": 7},
+    {"loc": [23.31, 45.62], "t": "Decebalus submits near Sarmizegetusa", "y": 102, "m": 9, "event": "peace_with_decebalus_102"}
+   ],
+   "certainty": "approx", "note": "Reconstruction depends on Dio 68.8-9, the Column, and archaeology; the Column's scenes cannot be mapped onto a single itinerary with confidence."},
+
+  {"id": "trajan_dacia_105_106", "name": "Trajan's Second Dacian campaign", "war": "second_dacian_war", "polity": "rome", "commander": "trajan", "start": 105, "end": 106,
+   "strength": "Some 14 legions were on the Danube by 105-106; perhaps 100,000+ in the field",
+   "summary": "Trajan left Rome in June 105, crossed the Adriatic, inspected his Drobeta bridge and in 106 besieged Sarmizegetusa Regia; Decebalus fled north and killed himself as Roman cavalry closed in.",
+   "path": [
+    {"loc": [12.4924, 41.8902], "t": "Departs Rome (4 June 105)", "y": 105, "m": 6},
+    {"loc": [13.517, 43.621], "t": "Ancona; embarks (Column scene LXXIX)", "y": 105, "m": 6},
+    {"loc": [15.23, 44.12], "t": "Dalmatian coast", "y": 105, "m": 7, "sea": true},
+    {"loc": [22.66, 44.624], "t": "Drobeta bridge", "y": 105, "m": 9, "event": "trajans_bridge"},
+    {"loc": [22.18, 45.47], "t": "Advance through the Banat", "y": 106, "m": 5},
+    {"loc": [23.31, 45.62], "t": "Siege of Sarmizegetusa Regia", "y": 106, "m": 7, "event": "siege_of_sarmizegetusa"},
+    {"loc": [23.56, 46.13], "t": "Pursuit of Decebalus to the north", "y": 106, "m": 8, "event": "death_of_decebalus"}
+   ],
+   "certainty": "approx", "note": "The place of Decebalus's death (Ranisstorum on the Philippi tombstone of Ti. Claudius Maximus) is unlocated."},
+
+  {"id": "trajan_parthia_114_117", "name": "Trajan's Parthian campaign", "war": "roman_parthian_war_114", "polity": "rome", "commander": "trajan", "start": 114, "end": 117,
+   "strength": "Up to 11 legions in whole or part, with Moorish cavalry of Lusius Quietus",
+   "summary": "From Antioch through Armenia (114), across Mesopotamia (115), down the Euphrates and Tigris to Ctesiphon and the head of the Persian Gulf (116), and back to a failed siege of Hatra (117) before Trajan, stricken by a stroke, died at Selinus.",
+   "path": [
+    {"loc": [23.7275, 37.9838], "t": "Athens; refuses Parthian embassy", "y": 113, "m": 11},
+    {"loc": [36.1611, 36.2021], "t": "Antioch", "y": 114, "m": 1},
+    {"loc": [38.36, 38.4], "t": "Melitene", "y": 114, "m": 4},
+    {"loc": [39.66, 40.03], "t": "Satala", "y": 114, "m": 5},
+    {"loc": [41.1, 39.95], "t": "Elegeia: Parthamasiris refused", "y": 114, "m": 6, "event": "annexation_of_armenia_114"},
+    {"loc": [38.79, 37.16], "t": "Edessa; Abgar VII submits", "y": 115, "m": 3},
+    {"loc": [41.22, 37.07], "t": "Nisibis", "y": 115, "m": 5},
+    {"loc": [43.1, 36.4], "t": "Tigris crossed into Adiabene on a boat bridge", "y": 115, "m": 9},
+    {"loc": [36.1611, 36.2021], "t": "Antioch earthquake", "y": 115, "m": 12, "event": "antioch_earthquake_115"},
+    {"loc": [40.73, 34.75], "t": "Down the Euphrates (Dura)", "y": 116, "m": 3},
+    {"loc": [44.42, 32.54], "t": "Babylon", "y": 116, "m": 5},
+    {"loc": [44.58, 33.09], "t": "Ctesiphon taken", "y": 116, "m": 6, "event": "capture_of_ctesiphon_116"},
+    {"loc": [47.6, 30.8], "t": "Charax and the Persian Gulf", "y": 116, "m": 8},
+    {"loc": [44.42, 32.54], "t": "Babylon; sacrifices in the room where Alexander died", "y": 116, "m": 10},
+    {"loc": [42.72, 35.59], "t": "Hatra", "y": 117, "m": 4, "event": "siege_of_hatra_117"},
+    {"loc": [36.1611, 36.2021], "t": "Antioch; Hadrian left in command", "y": 117, "m": 6},
+    {"loc": [32.29, 36.27], "t": "Selinus in Cilicia: death", "y": 117, "m": 8, "event": "death_of_trajan"}
+   ],
+   "certainty": "approx", "note": "Chronology of 115-116 (and whether Mesopotamia was taken in 115 or 116) is debated: Lepper, Trajan's Parthian War (1948), versus Bennett and others."},
+
+  {"id": "verus_generals_162_166", "name": "Avidius Cassius's Mesopotamian offensive", "war": "roman_parthian_war_161", "polity": "rome", "commander": "avidius_cassius", "start": 162, "end": 166,
+   "strength": "Syrian legions (III Gallica, IV Scythica, XVI Flavia) with reinforcements from the Danube and Rhine (I Minervia, II Adiutrix, V Macedonica)",
+   "summary": "While Statius Priscus retook Armenia, Avidius Cassius, a Syrian disciplinarian, led the main army from the Euphrates crossing at Zeugma down to Dura, Seleucia and Ctesiphon, and in 166 into Media.",
+   "path": [
+    {"loc": [36.1611, 36.2021], "t": "Antioch; Verus's headquarters", "y": 162, "m": 9},
+    {"loc": [37.88, 37.06], "t": "Zeugma; Euphrates crossing", "y": 164, "m": 5},
+    {"loc": [38.0, 36.9], "t": "Battle of Europos on the Euphrates", "y": 165, "m": 4, "note": "Lucian mentions Europos; often identified as Carchemish/Jerablus area"},
+    {"loc": [38.72, 36.0], "t": "Sura", "y": 165, "m": 5},
+    {"loc": [40.73, 34.75], "t": "Dura-Europos taken; Roman garrison thereafter", "y": 165, "m": 6},
+    {"loc": [44.52, 33.1], "t": "Seleucia on the Tigris sacked", "y": 165, "m": 11, "event": "sack_of_seleucia_165"},
+    {"loc": [44.58, 33.09], "t": "Ctesiphon palace burned", "y": 165, "m": 12},
+    {"loc": [46.5, 34.4], "t": "Into Media across the Zagros", "y": 166, "m": 5},
+    {"loc": [36.1611, 36.2021], "t": "Return to Syria; plague among the troops", "y": 166, "m": 8}
+   ],
+   "certainty": "approx", "note": "Fragmentary sources (Dio 71.2, HA Verus 7-8, Lucian, Fronto); the order of Dura and Seleucia and the identification of 'Europos' are uncertain."},
+
+  {"id": "marcus_aurelius_danube_168_180", "name": "Marcus Aurelius on the Danube", "war": "marcomannic_wars", "polity": "rome", "commander": "marcus_aurelius", "start": 168, "end": 180,
+   "strength": "Up to 16 legions along the Danube, plus the new II and III Italica",
+   "summary": "Marcus's long presence on the northern frontier: from Aquileia (168) through headquarters at Carnuntum (171-173), operations among the Quadi on the Gran (Hron), the war against the Iazyges from Sirmium (173-175), the eastern interruption of 175-176, and the second expedition based at Vindobona (178-180).",
+   "path": [
+    {"loc": [12.4924, 41.8902], "t": "Departs Rome with Verus", "y": 168, "m": 3},
+    {"loc": [13.37, 45.77], "t": "Aquileia; Verus dies at Altinum on the way back (169)", "y": 168, "m": 5},
+    {"loc": [12.4924, 41.8902], "t": "Rome: funeral, auction of treasures", "y": 169, "m": 3},
+    {"loc": [16.92, 48.11], "t": "Carnuntum headquarters", "y": 171, "m": 4},
+    {"loc": [18.6, 47.95], "t": "Among the Quadi on the Granua (Meditations Book 1 colophon)", "y": 172, "m": 7},
+    {"loc": [19.61, 44.97], "t": "Sirmium; war against the Iazyges", "y": 174, "m": 5},
+    {"loc": [36.1611, 36.2021], "t": "East after Cassius's revolt (Antioch, Alexandria)", "y": 175, "m": 9},
+    {"loc": [23.5426, 38.0413], "t": "Athens and Eleusis: initiation", "y": 176, "m": 9},
+    {"loc": [12.4924, 41.8902], "t": "Rome: triumph", "y": 176, "m": 12},
+    {"loc": [16.37, 48.21], "t": "Second expedition, Vindobona", "y": 178, "m": 9},
+    {"loc": [18.044, 48.894], "t": "Legionary winter camp at Laugaricio (Trenčín)", "y": 179, "m": 12, "event": "laugaricio_inscription"},
+    {"loc": [16.37, 48.21], "t": "Death at Vindobona (or Sirmium)", "y": 180, "m": 3, "event": "death_of_marcus_aurelius"}
+   ],
+   "certainty": "approx", "note": "Chronology of the Marcomannic Wars is notoriously uncertain; this path follows Birley, Marcus Aurelius (rev. 1987)."}
+ ]
+}

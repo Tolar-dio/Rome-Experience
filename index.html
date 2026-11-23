@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Orbis: an atlas of Rome, 509 BC to AD 641</title>
+<meta name="description" content="An interactive atlas, encyclopedia and history of Rome from the Republic to Heraclius: territory year by year, wars, battles, campaigns, legions, people, sources.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%236B2346'/%3E%3Ctext x='16' y='23' font-family='Georgia' font-size='20' text-anchor='middle' fill='%23F2F1ED'%3ER%3C/text%3E%3C/svg%3E">
+<link href="vendor/maplibre-gl.css" rel="stylesheet">
+<link href="css/app.css" rel="stylesheet">
+</head>
+<body>
+<div id="app" class="loading">
+  <header class="topbar">
+    <button class="rail-toggle" id="railToggle" aria-label="Toggle side panel">
+      <svg viewBox="0 0 24 24" width="20" height="20"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="1.8" fill="none"/></svg>
+    </button>
+    <a class="wordmark" href="#" id="home">
+      <span class="wm-main">Orbis</span>
+      <span class="wm-sub">an atlas of Rome, 509 BC to AD 641</span>
+    </a>
+    <div class="omnibox">
+      <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" stroke="currentColor" stroke-width="1.8" fill="none"/><path d="M15.5 15.5L21 21" stroke="currentColor" stroke-width="1.8"/></svg>
+      <input id="search" type="search" placeholder="Search people, battles, places, legions, laws, years…" autocomplete="off" spellcheck="false" aria-label="Search the atlas">
+      <kbd>/</kbd>
+      <div class="search-results" id="searchResults" role="listbox"></div>
+    </div>
+    <div class="top-actions">
+      <button class="chip" id="layersBtn" aria-haspopup="true" aria-expanded="false">Layers</button>
+      <button class="chip" id="helpBtn">Guide</button>
+    </div>
+  </header>
+
+  <nav class="rail" aria-label="Sections">
+    <button data-tab="year" class="active" title="The year"><span class="ri">Annus</span><span class="rl">Year</span></button>
+    <button data-tab="chronicle" title="Chronicle of events"><span class="ri">Chron.</span><span class="rl">Events</span></button>
+    <button data-tab="wars" title="Wars and campaigns"><span class="ri">Bella</span><span class="rl">Wars</span></button>
+    <button data-tab="codex" title="Encyclopedia"><span class="ri">Codex</span><span class="rl">Index</span></button>
+    <button data-tab="text" title="History chapters"><span class="ri">Historia</span><span class="rl">Read</span></button>
+    <button data-tab="army" title="Legions and frontiers"><span class="ri">Legio</span><span class="rl">Army</span></button>
+    <button data-tab="rulers" title="Rulers and magistrates"><span class="ri">Fasti</span><span class="rl">Rulers</span></button>
+    <button data-tab="sources" title="Ancient sources"><span class="ri">Fontes</span><span class="rl">Sources</span></button>
+    <button data-tab="data" title="Charts"><span class="ri">Tabulae</span><span class="rl">Data</span></button>
+  </nav>
+
+  <aside class="panel" id="panel" aria-live="polite"></aside>
+
+  <main class="stage">
+    <div id="map"></div>
+    <div class="yearplate" id="yearplate"></div>
+    <div class="legend" id="legend"></div>
+    <div class="hoverinfo" id="hoverinfo"></div>
+    <div class="layers-pop" id="layersPop" hidden></div>
+    <div class="march" id="march" hidden></div>
+  </main>
+
+  <aside class="detail" id="detail" aria-live="polite" hidden></aside>
+
+  <footer class="timeline" id="timeline">
+    <div class="tl-controls">
+      <button id="stepBack10" title="Back 10 years (Shift+←)">−10</button>
+      <button id="stepBack" title="Back 1 year (←)">−1</button>
+      <button id="play" class="play" title="Play (Space)" aria-label="Play">
+        <svg viewBox="0 0 24 24" width="18" height="18"><path id="playIcon" d="M7 4l13 8-13 8z" fill="currentColor"/></svg>
+      </button>
+      <button id="stepFwd" title="Forward 1 year (→)">+1</button>
+      <button id="stepFwd10" title="Forward 10 years (Shift+→)">+10</button>
+      <select id="speed" title="Playback speed" aria-label="Playback speed">
+        <option value="1">1 yr/s</option>
+        <option value="3" selected>3 yr/s</option>
+        <option value="8">8 yr/s</option>
+        <option value="20">20 yr/s</option>
+      </select>
+      <label class="tl-follow" title="During playback, pan to each year's most important event"><input type="checkbox" id="follow"> follow</label>
+    </div>
+    <div class="tl-canvas" id="tlCanvas"></div>
+  </footer>
+
+  <div class="boot" id="boot">
+    <div class="boot-inner">
+      <div class="boot-title">Orbis</div>
+      <div class="boot-msg" id="bootMsg">Unrolling the map</div>
+    </div>
+  </div>
+  <div class="modal" id="guide" hidden></div>
+</div>
+<script src="vendor/maplibre-gl.js"></script>
+<script src="vendor/d3.min.js"></script>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
