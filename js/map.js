@@ -2,6 +2,7 @@
 import { D, controlAt, lookup } from './data.js';
 import { S, on, select, emit } from './state.js';
 import { fmtYear, fmtRange, esc, STATUS_LABEL, yearToIdx } from './util.js';
+import { initExtras, EXTRA_CLICKABLE } from './extras.js';
 
 const BASE = new URL('.', location.href).href;
 export let map;
@@ -114,7 +115,7 @@ export async function initMap(onReady) {
   map = new maplibregl.Map({
     container: 'map',
     attributionControl: false,
-    center: [12.5, 41.9], zoom: window.innerWidth < 760 ? 4.2 : 5.2, minZoom: 2.6, maxZoom: 11, renderWorldCopies: false,
+    center: [12.5, 41.9], zoom: window.innerWidth < 760 ? 4.2 : 5.2, minZoom: 2.6, maxZoom: 16.5, renderWorldCopies: false,
     maxBounds: [[-40, -5], [100, 75]],
     dragRotate: false, pitchWithRotate: false,
     style: {
@@ -167,6 +168,7 @@ export async function initMap(onReady) {
     map.addImage('ic-eagle', iconImage('eagle'), { pixelRatio: 2 });
     map.addImage('ic-arrow', iconImage('arrow', '#2A211C'), { pixelRatio: 2, sdf: false });
     addLayers();
+    initExtras(map);
     staticData();
     bindInteractions();
     updateYear(S.year, true);
@@ -192,7 +194,7 @@ function addLayers() {
   L({ id: 'sea-mask', type: 'fill', source: 'sea', paint: { 'fill-color': C.sea } });
   L({ id: 'territory', type: 'fill', source: 'regions', paint: {
     'fill-color': ['coalesce', ['feature-state', 'c'], C.unsettled],
-    'fill-opacity': ['case', ['==', ['feature-state', 'st'], 'unsettled'], 0.1, ['boolean', ['feature-state', 'hl'], false], 0.85, 0.6],
+    'fill-opacity': ['interpolate', ['linear'], ['zoom'], 9.5, ['case', ['==', ['feature-state', 'st'], 'unsettled'], 0.1, ['boolean', ['feature-state', 'hl'], false], 0.85, 0.6], 12, ['case', ['==', ['feature-state', 'st'], 'unsettled'], 0, 0.12]],
   } });
   for (const [st, pat] of [['ally', 'hatch'], ['client', 'dots'], ['contested', 'cross'], ['occupied', 'stripes']]) {
     L({ id: 'terr-' + st, type: 'fill', source: 'regions', paint: { 'fill-pattern': 'pat-' + pat, 'fill-opacity': ['case', ['==', ['feature-state', 'st'], st], 0.55, 0] } });
@@ -205,6 +207,7 @@ function addLayers() {
     'line-width': ['interpolate', ['linear'], ['zoom'], 3, ['case', ['boolean', ['feature-state', 'rf'], false], 1.1, ['boolean', ['feature-state', 'd'], false], 0.6, 0.3], 7, ['case', ['boolean', ['feature-state', 'rf'], false], 2.4, ['boolean', ['feature-state', 'd'], false], 1.3, 0.4]],
     'line-opacity': ['case', ['boolean', ['feature-state', 'rf'], false], 0.9, ['boolean', ['feature-state', 'd'], false], 0.55, 0.12],
   } });
+  L({ id: 'ghost', type: 'line', source: 'edges', paint: { 'line-color': '#F4EFE6', 'line-width': ['interpolate', ['linear'], ['zoom'], 3, 1.6, 8, 3.2], 'line-dasharray': [2, 1.5], 'line-opacity': ['case', ['boolean', ['feature-state', 'g'], false], 0.95, 0] } });
   L({ id: 'ext-lines', type: 'line', source: 'ext117', paint: { 'line-color': '#2A211C', 'line-dasharray': [3, 2], 'line-width': 1.2, 'line-opacity': 0.7 } });
   L({ id: 'ext60-lines', type: 'line', source: 'ext60', paint: { 'line-color': '#5A1414', 'line-dasharray': [1, 2], 'line-width': 1.2, 'line-opacity': 0.7 } });
   L({ id: 'ext200-lines', type: 'line', source: 'ext200', paint: { 'line-color': '#1E3B4E', 'line-dasharray': [4, 2], 'line-width': 1, 'line-opacity': 0.7 } });
@@ -318,6 +321,7 @@ export function updateYear(y, force = false) {
     const d = a.pid !== b.pid || (a.st !== b.st && (romanA || romanB));
     map.setFeatureState({ source: 'edges', id: e.eid }, { d, rf: romanA !== romanB });
   }
+  applyGhost();
   // polity labels
   const groups = new Map();
   for (const reg of D.regions) {
@@ -351,6 +355,25 @@ export function updateYear(y, force = false) {
   updateCampaigns(y);
   updateDated(y);
   emit('mapStats', { groups });
+}
+
+let ghostDone = null;
+export function applyGhost(force) {
+  const gy = S.ghostYear;
+  if (!force && ghostDone === gy) return;
+  ghostDone = gy;
+  const st = [];
+  if (gy !== null && gy !== undefined) {
+    for (const reg of D.regions) {
+      if (reg.rid === undefined) continue;
+      const c = controlAt(reg, gy);
+      st[reg.rid] = c ? { pid: c[2], st: D.statuses[c[3]] } : null;
+    }
+  }
+  for (const e of edgesById) {
+    const g = gy !== null && gy !== undefined && isRomanRule(st[e.a]) !== isRomanRule(st[e.b]);
+    map.setFeatureState({ source: 'edges', id: e.eid }, { g });
+  }
 }
 
 function isRomanRule(s) {
@@ -409,13 +432,14 @@ function updateCampaigns(y) {
   const feats = [];
   for (const c of D.campaigns) {
     if (!c.path || c.path.length < 2) continue;
+    if (c.kind === 'journey' && !S.layers.journeys) continue;
     const end = c.end ?? c.start;
     if (y < c.start || y > end + 1) continue;
     let pts = c.path;
     if (y < end) pts = c.path.filter((p) => (p.y ?? c.start) <= y);
     if (pts.length < 2) continue;
     const o = y > end ? 0.35 : 1;
-    feats.push({ type: 'Feature', geometry: { type: 'LineString', coordinates: pts.map((p) => p.loc) }, properties: { id: c.id, color: polityColor(c.polity), o, name: c.name } });
+    feats.push({ type: 'Feature', geometry: { type: 'LineString', coordinates: pts.map((p) => p.loc) }, properties: { id: c.id, color: c.kind === 'journey' ? '#2E6B8A' : polityColor(c.polity), o, name: c.name } });
   }
   map.getSource('campaigns').setData(fc(feats));
 }
@@ -479,7 +503,7 @@ export function applyLayerVisibility() {
   ['ext-lines', 'ext60-lines', 'ext200-lines'].forEach((id) => vis(id, L.extents));
   vis('prov-lines', L.provinces);
   vis('prov-dioc', L.provinces);
-  map.setPaintProperty('territory', 'fill-opacity', ['case', ['==', ['feature-state', 'st'], 'unsettled'], L.dare ? 0 : 0.12, ['boolean', ['feature-state', 'hl'], false], 0.85, L.dare ? 0.32 : 0.6]);
+  map.setPaintProperty('territory', 'fill-opacity', ['interpolate', ['linear'], ['zoom'], 9.5, ['case', ['==', ['feature-state', 'st'], 'unsettled'], L.dare ? 0 : 0.1, ['boolean', ['feature-state', 'hl'], false], 0.85, L.dare ? 0.32 : 0.6], 12, ['case', ['==', ['feature-state', 'st'], 'unsettled'], 0, 0.12]]);
   vis('marine', !L.dare);
 }
 
@@ -511,6 +535,8 @@ function bindInteractions() {
   });
   map.on('mouseout', () => { hi.style.display = 'none'; });
   map.on('click', (ev) => {
+    const extraLayers = EXTRA_CLICKABLE.filter((l) => map.getLayer(l) && map.getLayoutProperty(l, 'visibility') !== 'none');
+    if (extraLayers.length && map.queryRenderedFeatures(ev.point, { layers: extraLayers }).length) return;
     const feats = map.queryRenderedFeatures(ev.point, { layers: [...clickable, 'territory'].filter((l) => map.getLayer(l) && map.getLayoutProperty(l, 'visibility') !== 'none') });
     const top = feats.find((f) => f.layer.id !== 'territory');
     if (top) {

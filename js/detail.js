@@ -1,9 +1,11 @@
 // Right-hand article drawer for any entity.
-import { D, lookup, nameOf, exists, controlAt } from './data.js';
+import { D, lookup, nameOf, exists, controlAt, loadTactics } from './data.js';
 import { S, on, select, setYear } from './state.js';
 import { esc, fmtYear, fmtRange, fmtDate, paragraphs, richText, impDots, STATUS_LABEL, KIND_LABEL, MIN_YEAR, MAX_YEAR, yearToIdx, monthName } from './util.js';
 import { polityColor, colorFor, playMarch, stopMarch, fit, legionShort } from './map.js';
 import { focusRange } from './timeline.js';
+import { renderTactic } from './tactics.js';
+import { showLifePath, clearLifePath, MON_COLORS } from './extras.js';
 
 const box = () => document.getElementById('detail');
 const history = [];
@@ -41,6 +43,7 @@ function action(act, ds) {
   if (act === 'march' && r) startMarch(r.obj);
   if (act === 'range' && r) { focusRange(parseInt(ds.a, 10), parseInt(ds.b, 10)); setYear(parseInt(ds.a, 10)); }
   if (act === 'fly') fit([[parseFloat(ds.lon), parseFloat(ds.lat)]]);
+  if (act === 'life' && r) { const evs = showLifePath(r.obj); if (evs.length) fit(evs.map((e) => e.loc)); }
   if (act === 'adjacent' && r) {
     const i = D.events.indexOf(r.obj);
     const e = D.events[i + (ds.dir === 'next' ? 1 : -1)];
@@ -102,6 +105,10 @@ function controlStrip(reg) {
 }
 
 // ---------- renderers
+export function coinCard(c) {
+  return `<div class="coin-card"><h5>${esc(c.t || '')}</h5>${c.standard ? `<p class="meta">${esc(c.standard)}</p>` : ''}${(c.denominations || []).length ? `<p class="meta">${c.denominations.map((d) => `<span class="mark">${esc(d)}</span>`).join(' ')}</p>` : ''}${paragraphs(c.text, exists)}</div>`;
+}
+
 const R = {
   event(e) {
     const b = e.battle;
@@ -114,6 +121,7 @@ const R = {
         ${s.commanders?.length ? `<div class="bc-k">Commanders</div>${s.commanders.map((c) => link(c, null, 'person')).join(', ')}` : ''}
         ${s.strength ? `<div class="bc-k">Strength</div>${esc(s.strength)}` : ''}${s.losses ? `<div class="bc-k">Losses</div>${esc(s.losses)}` : ''}</div>`).join('')}</div>`;
       if (b.significance) html += `<p><b>Significance.</b> ${richText(b.significance, exists)}</p>`;
+      html += `<div id="tacticHost"></div>`;
     }
     if (e.detail) html += paragraphs(e.detail, exists);
     if (e.debate) html += `<h4>What is disputed</h4><div class="debate">${richText(e.debate, exists)}</div>`;
@@ -127,12 +135,15 @@ const R = {
   },
   person(p) {
     const life = `${p.born ? fmtYear(p.born) : '?'} to ${p.died ? fmtYear(p.died) : '?'}`;
+    const nEv = (D.rev.person.get(p.id) || []).filter((e) => Array.isArray(e.loc)).length;
     let html = head(`Person · ${esc((p.kind || []).join(', '))}`, p.name, `${esc(p.fullName && p.fullName !== p.name ? p.fullName + ' · ' : '')}${esc(life)}`,
-      p.born || p.died ? `<button data-action="year" data-y="${p.roles?.[0]?.from ?? p.born ?? p.died}">Go to their time</button>` : '');
+      (p.born || p.died ? `<button data-action="year" data-y="${p.roles?.[0]?.from ?? p.born ?? p.died}">Go to their time</button>` : '') + (nEv > 1 ? `<button data-action="life">Map their life (${nEv} places)</button>` : ''));
     html += `<div class="d-body"><p class="summary">${richText(p.summary, exists)} ${cert(p.bornCertainty === 'approx' ? '' : p.certainty)}</p>`;
     if (p.roles?.length) html += `<h4>Offices and roles</h4><dl class="kv">${p.roles.map((r) => `<dt>${esc(fmtRange(r.from, r.to))}</dt><dd>${esc(r.t)}</dd>`).join('')}</dl>`;
     if (p.detail) html += paragraphs(p.detail, exists);
     if (p.death) html += `<p><b>Death.</b> ${esc(p.death)}</p>`;
+    const coins = D.coinageByIssuer?.get(p.id) || [];
+    if (coins.length) html += `<h4>Coinage</h4>${coins.map(coinCard).join('')}`;
     const evs = D.rev.person.get(p.id) || [];
     if (evs.length) html += `<h4>In the chronicle (${evs.length})</h4>${eventRows(evs)}`;
     if (p.related?.length) html += `<h4>Connected people</h4><p>${p.related.map((r) => link(r, null, 'person')).join(', ')}</p>`;
@@ -225,6 +236,51 @@ const R = {
     if (g.related?.length) html += `<h4>Related</h4><p>${g.related.map((r) => link(r)).join(', ')}</p>`;
     return html + '</div>';
   },
+  province(pv) {
+    let html = head(`${esc(pv.type || 'province')} · ${esc(fmtYear(pv.created))}${pv.ended ? ' to ' + esc(fmtYear(pv.ended)) : ''}`, pv.name, [pv.capital ? `capital ${link(pv.capital, null, 'place')}` : '', pv.diocese ? `diocese ${esc(pv.diocese)}` : '', pv.prefecture ? `prefecture ${esc(pv.prefecture)}` : ''].filter(Boolean).join(' · '),
+      `<button data-action="year" data-y="${pv.created}">Go to its creation</button>`);
+    html += `<div class="d-body"><p class="summary">${richText(pv.summary, exists)}</p>`;
+    if (pv.createdNote) html += `<p class="meta">${esc(pv.createdNote)}</p>`;
+    if (pv.governor) html += `<p><b>Governor.</b> ${esc(pv.governor)}</p>`;
+    if (pv.phases?.length) html += `<h4>Status over time</h4><dl class="kv">${pv.phases.map((p) => `<dt>${esc(fmtRange(p.from, p.to))}</dt><dd>${richText(p.t, exists)}</dd>`).join('')}</dl>`;
+    const kids = D.provinces.filter((x) => x.parent === pv.id || (pv.type === 'diocese' && x.diocese && pv.name.includes(x.diocese)));
+    if (kids.length) html += `<h4>Provinces within</h4><p>${kids.map((k) => link(k.id, k.name, 'province')).join(', ')}</p>`;
+    if (pv.successors?.length) html += `<h4>Succeeded by</h4><p>${pv.successors.map((k) => link(k, null, 'province')).join(', ')}</p>`;
+    return html + sourcesBlock(pv.sources) + '</div>';
+  },
+  monument(m) {
+    const city = m.city === 'constantinople' ? 'Constantinople' : 'Rome';
+    let html = head(`${city} · ${esc(m.type || 'monument')}`, m.name, [m.begun && m.begun !== m.built ? `begun ${esc(fmtYear(m.begun))}` : '', m.built !== undefined && m.built !== null ? `dedicated ${esc(fmtYear(m.built))}` : '', m.builder ? link(m.builder, null, 'person') : ''].filter(Boolean).join(' · '),
+      m.built !== undefined && m.built !== null ? `<button data-action="year" data-y="${m.built}">Go to its dedication</button>` : '');
+    html += `<div class="d-body"><p class="summary"><span class="swatch" style="background:${MON_COLORS[m.type] || '#777'}"></span>${richText(m.summary, exists)}</p>`;
+    if (m.phases?.length) html += `<h4>History</h4><dl class="kv">${m.phases.map((p) => `<dt><a class="ent" data-action="year" data-y="${p.y}">${esc(fmtYear(p.y))}</a></dt><dd>${richText(p.t, exists)}</dd>`).join('')}</dl>`;
+    if (m.destroyed) html += `<p><b>End.</b> ${esc(fmtYear(m.destroyed))}</p>`;
+    return html + sourcesBlock(m.sources) + '</div>';
+  },
+  mint(m) {
+    let html = head('Mint', m.name, (m.periods || []).map((p) => esc(fmtRange(p[0], p[1]))).join(', '));
+    html += `<div class="d-body">${(m.marks || []).length ? `<p>${m.marks.map((k) => `<span class="mark">${esc(k)}</span>`).join(' ')}</p>` : ''}<p class="summary">${richText(m.notes || m.summary, exists)}</p>`;
+    if (m.issuers?.length) html += `<h4>Struck for</h4><p>${m.issuers.map((i) => link(i, null, 'person')).join(', ')}</p>`;
+    return html + '</div>';
+  },
+  hoard(h) {
+    let html = head('Coin hoard', h.name, `deposited ${esc(fmtYear(h.deposited))}${h.found ? ` · found ${esc(String(h.found))}` : ''}${h.where ? ` · ${esc(h.where)}` : ''}`);
+    html += `<div class="d-body"><p class="summary">${richText(h.contents, exists)}</p>${h.significance ? `<p>${richText(h.significance, exists)}</p>` : ''}</div>`;
+    return html;
+  },
+  site(s) {
+    let html = head(`${esc(s.theme || '')} · ${esc(s.kind || '')}`, s.name, `${s.from !== undefined ? esc(fmtYear(s.from)) : ''}${s.to !== undefined && s.to !== null ? ' to ' + esc(fmtYear(s.to)) : ''}${s.commodity ? ' · ' + esc(s.commodity) : ''}`,
+      s.from !== undefined ? `<button data-action="year" data-y="${s.from}">Go to ${esc(fmtYear(s.from))}</button>` : '');
+    return html + `<div class="d-body"><p class="summary">${richText(s.summary, exists)}</p>${sourcesBlock(s.sources)}</div>`;
+  },
+  route(r) {
+    let html = head(`Route · ${esc(r.kind || '')}`, r.name, `${r.commodity ? esc(r.commodity) + ' · ' : ''}${esc(fmtRange(r.from, r.to))}${r.days ? ' · ' + esc(r.days) : ''}`);
+    return html + `<div class="d-body"><p class="summary">${richText(r.summary, exists)}</p></div>`;
+  },
+  coinage(c) {
+    let html = head(`Coinage · ${esc(c.kind || '')}`, c.t, `${esc(fmtYear(c.year))}${c.endYear ? ' to ' + esc(fmtYear(c.endYear)) : ''}`, `<button data-action="year" data-y="${c.year}">Go to ${esc(fmtYear(c.year))}</button>`);
+    return html + `<div class="d-body">${coinCard(c)}</div>`;
+  },
   region(r) {
     const c = controlAt(r, S.year);
     let html = head('Region', r.name, c ? `${fmtYear(S.year)}: ${polityLink(D.polities[c[2]]?.id)} · ${esc(STATUS_LABEL[D.statuses[c[3]]])}` : '');
@@ -243,6 +299,19 @@ function render(sel) {
   if (history.length > 40) history.shift();
   const b = box();
   b.innerHTML = R[r.kind](r.obj);
+  clearLifePath();
+  if (r.kind === 'event' && r.obj.battle) {
+    loadTactics().then((t) => {
+      const tac = t.get(r.obj.id);
+      const hostEl = document.getElementById('tacticHost');
+      if (!tac || !hostEl || S.selected?.id !== r.obj.id) return;
+      const sides = r.obj.battle.sides || [];
+      const cols = [polityColor(sides[0]?.polity), polityColor(sides[1]?.polity)];
+      if (cols[0] === cols[1]) cols[1] = '#2E6B8A';
+      hostEl.insertAdjacentHTML('beforebegin', '<h4>The battle, phase by phase</h4>');
+      renderTactic(hostEl, tac, cols);
+    });
+  }
   b.hidden = false;
   b.scrollTop = 0;
   const app = document.getElementById('app');

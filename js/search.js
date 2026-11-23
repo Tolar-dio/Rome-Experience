@@ -24,6 +24,12 @@ export function initSearch() {
   D.sources.forEach((s) => add('source', s, s.name, (s.works || []).map((w) => w.t).join(', '), s.latin || ''));
   D.glossary.forEach((g) => add('glossary', g, g.term, (g.def || '').slice(0, 80)));
   D.regions.forEach((r) => add('region', r, r.name, 'map region'));
+  (D.provinces || []).forEach((p) => add('province', p, p.name, `${p.type || 'province'} · ${fmtRange(p.created, p.ended)}`));
+  (D.monuments || []).forEach((m) => add('monument', m, m.name, `${m.city} · ${m.type}`));
+  (D.sites || []).forEach((x) => add('site', x, x.name, `${x.theme} · ${x.kind}`, x.commodity || ''));
+  (D.mints || []).forEach((m) => add('mint', m, m.name, (m.marks || []).join(' '), (m.marks || []).join(' ')));
+  (D.hoards || []).forEach((h) => add('hoard', h, h.name, `hoard · ${fmtYear(h.deposited)}`));
+  (D.coinage || []).forEach((c) => add('coinage', c, c.t, `coinage · ${fmtYear(c.year)}`));
 
   const input = document.getElementById('search');
   const box = document.getElementById('searchResults');

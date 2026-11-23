@@ -14,8 +14,10 @@ export const S = {
     territory: true, borders: true, polityLabels: true, regionNames: false, ancientLabels: true,
     events: true, battles: true, campaigns: true, cities: true, legions: false, frontiers: true,
     roads: true, namedRoads: true, aqueducts: false, ancientWater: true, rivers: true, relief: true, dare: false,
-    extents: false, provinces: false,
+    extents: false, provinces: false, monuments: true, cityBase: true, mints: false, hoards: false,
+    economy: false, religion: false, culture: false, routes: false, heat: false, journeys: true,
   },
+  ghostYear: null,
   eventFilter: { cats: new Set(), minImp: 1 },
 };
 

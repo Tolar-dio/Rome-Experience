@@ -6,6 +6,9 @@ import { eventRows, openId } from './detail.js';
 import { polityColor, colorFor, legionShort } from './map.js';
 import { focusRange, resetRange } from './timeline.js';
 import { renderCharts } from './charts.js';
+import { flyToCity, MON_COLORS } from './extras.js';
+import { startTour } from './tours.js';
+import { coinCard } from './detail.js';
 
 const panel = () => document.getElementById('panel');
 const CATS = ['military', 'political', 'constitutional', 'law', 'religious', 'cultural', 'economic', 'social', 'administrative', 'diplomatic', 'disaster', 'literature', 'technology'];
@@ -27,7 +30,7 @@ export function initPanels() {
     const y = e.target.closest('[data-year]');
     if (y) setYear(parseInt(y.dataset.year, 10));
   });
-  on('year', debounce(() => { if (['year', 'army', 'rulers'].includes(S.tab)) render(); if (S.tab === 'chronicle') scrollChronicle(); if (S.tab === 'sources') renderSourcesHead(); }, 120));
+  on('year', debounce(() => { if (['year', 'army', 'rulers', 'city', 'coins', 'data'].includes(S.tab) && !document.getElementById('app').classList.contains('panel-closed')) render(); if (S.tab === 'chronicle') scrollChronicle(); if (S.tab === 'sources') renderSourcesHead(); }, 120));
   showTab(S.tab);
 }
 
@@ -128,7 +131,7 @@ const TABS = {
 
   wars() {
     const sorted = D.wars.slice().sort((a, b) => a.start - b.start);
-    let h = `<h2>Wars and campaigns</h2><p class="lede">${D.wars.length} wars and ${D.campaigns.length} mapped campaigns. Campaign routes animate on the map in their years; open one and choose "Follow the march".</p>`;
+    let h = `<h2>Wars and campaigns</h2><p class="lede">${D.wars.length} wars and ${D.campaigns.filter((c) => c.kind !== 'journey').length} mapped campaigns. Campaign routes animate on the map in their years; open one and choose "Follow the march".</p>`;
     const byEra = ERAS.map((er) => ({ er, wars: sorted.filter((w) => w.start >= er.from && w.start <= er.to) }));
     for (const { er, wars } of byEra) {
       if (!wars.length) continue;
@@ -138,14 +141,14 @@ const TABS = {
         <div class="what"><div class="ttl">${esc(w.name)}</div><div class="sum">${esc(w.outcome || '')}</div>${camps.length ? `<div class="tags">${camps.map((c) => `<span class="tag" data-id="${esc(c.id)}" data-kind="campaign">${esc(c.name)}</span>`).join('')}</div>` : ''}</div></li>`;
       }).join('')}</ul>`;
     }
-    const orphans = D.campaigns.filter((c) => !c.war || !exists(c.war));
+    const orphans = D.campaigns.filter((c) => c.kind !== 'journey' && (!c.war || !exists(c.war)));
     if (orphans.length) h += `<h3>Other campaigns</h3><ul class="rows">${orphans.map((c) => `<li class="row" data-id="${esc(c.id)}" data-kind="campaign"><div class="when">${esc(fmtYear(c.start))}</div><div class="what"><div class="ttl">${esc(c.name)}</div></div></li>`).join('')}</ul>`;
     return h;
   },
 
   codex() {
     const cs = codexState;
-    const kinds = [['person', 'People', D.people], ['place', 'Places', D.places], ['polity', 'States and peoples', D.polities], ['glossary', 'Terms', D.glossary], ['region', 'Regions', D.regions], ['event', 'Events', D.events]];
+    const kinds = [['person', 'People', D.people], ['place', 'Places', D.places], ['polity', 'States and peoples', D.polities], ['province', 'Provinces', D.provinces], ['glossary', 'Terms', D.glossary], ['site', 'Sites', D.sites], ['monument', 'Monuments', D.monuments], ['region', 'Map regions', D.regions], ['event', 'Events', D.events]].filter((k) => k[2].length);
     let h = `<h2>Codex</h2><p class="lede">The encyclopedia: ${D.people.length} people, ${D.places.length} places, ${D.polities.length} states and peoples, ${D.glossary.length} terms, ${D.regions.length} map regions.</p>`;
     h += `<div class="filters" id="cxKinds">${kinds.map(([k, l]) => `<button data-k="${k}" class="${cs.kind === k ? 'on' : ''}">${l}</button>`).join('')}</div>`;
     h += `<input class="textfilter" id="cxQ" placeholder="Filter" value="${esc(cs.q)}">`;
@@ -160,6 +163,9 @@ const TABS = {
       if (cs.kind === 'polity') return `${fmtRange(o.start, o.end)} · ${o.type || ''}`;
       if (cs.kind === 'glossary') return (o.def || '').slice(0, 110);
       if (cs.kind === 'event') return fmtYear(o.year);
+      if (cs.kind === 'province') return `${o.type || 'province'} · ${fmtRange(o.created, o.ended)}`;
+      if (cs.kind === 'site') return `${o.theme} · ${o.kind}${o.from !== undefined ? ' · from ' + fmtYear(o.from) : ''}`;
+      if (cs.kind === 'monument') return `${o.city} · ${o.type}${o.built !== undefined ? ' · ' + fmtYear(o.built) : ''}`;
       return '';
     };
     h += `<p class="meta">${items.length} entries</p><ul class="rows">${items.slice(0, 600).map((o) => `<li class="row" style="grid-template-columns:1fr" data-id="${esc(o.id)}" data-kind="${cs.kind}"><div class="what"><div class="ttl">${cs.kind === 'polity' ? `<span class="swatch" style="background:${o.color}"></span>` : ''}${esc(label(o))}</div><div class="sum">${esc(sub(o))}</div></div></li>`).join('')}</ul>`;
@@ -223,6 +229,48 @@ const TABS = {
     return h;
   },
 
+  city() {
+    const y = S.year;
+    const standing = (m) => { const st = m.begun ?? m.built; return (st === undefined || st === null || st <= y) && !(m.destroyed && m.destroyed < y); };
+    let h = `<h2>Urbs</h2><p class="lede">The cities themselves. Zoom in and the monuments standing in ${esc(fmtYear(y))} appear on a faint modern street plan, with the AWMC city walls and aqueducts. Buildings under construction are pale.</p>
+      <div class="filters"><button class="on" id="goRome">Fly to Rome</button><button id="goConst">Fly to Constantinople</button></div>`;
+    for (const [city, label] of [['rome', 'Rome'], ['constantinople', 'Constantinople']]) {
+      const list = D.monuments.filter((m) => (m.city || 'rome') === city && standing(m)).sort((a, b) => (a.built ?? -9999) - (b.built ?? -9999));
+      if (!list.length) continue;
+      h += `<h3>${label}: ${list.length} monuments standing</h3><ul class="rows">${list.map((m) => `<li class="row" data-id="${esc(m.id)}" data-kind="monument"><div class="when">${m.built !== undefined && m.built !== null ? esc(fmtYear(m.built)) : ''}</div><div class="what"><div class="ttl"><span class="swatch" style="background:${MON_COLORS[m.type] || '#777'}"></span>${esc(m.name)}</div><div class="sum">${esc(m.type || '')}${m.builder ? ' · ' + esc(nameOf(m.builder, 'person')) : ''}</div></div></li>`).join('')}</ul>`;
+    }
+    if (!D.monuments.length) h += '<p class="muted">The monuments gazetteer is still being compiled.</p>';
+    return h;
+  },
+
+  coins() {
+    const y = S.year;
+    let h = `<h2>Nummi</h2><p class="lede">Coinage, mints and hoards in ${esc(fmtYear(y))}. <label><input type="checkbox" id="mintToggle" ${S.layers.mints ? 'checked' : ''}> show mints</label> <label><input type="checkbox" id="hoardToggle" ${S.layers.hoards ? 'checked' : ''}> show hoards</label></p>`;
+    h += `<input class="textfilter" id="markQ" placeholder="Decode a mintmark, e.g. TR, SMANT, CONOB, SIS, PLON">`;
+    h += `<div id="markOut"></div>`;
+    const rul = rulersAt(y).filter((g) => ['emperor', 'emperor_west', 'emperor_east'].includes(g.office)).flatMap((g) => g.list);
+    for (const r of rul) {
+      for (const c of D.coinageByIssuer.get(r.id) || []) h += coinCard(c);
+    }
+    const reforms = D.coinage.filter((c) => c.kind !== 'issuer').sort((a, b) => a.year - b.year);
+    const near = reforms.filter((c) => Math.abs(c.year - y) <= 40);
+    if (near.length) h += `<h3>Monetary history around ${esc(fmtYear(y))}</h3><ul class="rows">${near.map((c) => `<li class="row" data-id="${esc(c.id)}" data-kind="coinage"><div class="when">${esc(fmtYear(c.year))}</div><div class="what"><div class="ttl">${esc(c.t)}</div><div class="sum">${esc((c.text || '').slice(0, 140))}</div></div></li>`).join('')}</ul>`;
+    const mints = D.mints.filter((m) => (m.periods || []).some((p) => p[0] <= y && p[1] >= y));
+    if (mints.length) h += `<h3>Mints striking in ${esc(fmtYear(y))}</h3><ul class="rows">${mints.map((m) => `<li class="row" data-id="${esc(m.id)}" data-kind="mint"><div class="when">${(m.marks || []).slice(0, 2).map((k) => `<span class="mark">${esc(k)}</span>`).join('')}</div><div class="what"><div class="ttl">${esc(m.name)}</div></div></li>`).join('')}</ul>`;
+    if (reforms.length) h += `<h3>All reforms and milestones</h3><ul class="rows">${reforms.map((c) => `<li class="row" data-id="${esc(c.id)}" data-kind="coinage"><div class="when">${esc(fmtYear(c.year))}</div><div class="what"><div class="ttl">${esc(c.t)}</div></div></li>`).join('')}</ul>`;
+    if (D.hoards.length) h += `<h3>Hoards</h3><ul class="rows">${D.hoards.slice().sort((a, b) => a.deposited - b.deposited).map((x) => `<li class="row" data-id="${esc(x.id)}" data-kind="hoard"><div class="when">${esc(fmtYear(x.deposited))}</div><div class="what"><div class="ttl">${esc(x.name)}</div><div class="sum">${esc((x.contents || '').slice(0, 110))}</div></div></li>`).join('')}</ul>`;
+    return h;
+  },
+
+  tours() {
+    let h = `<h2>Itinera</h2><p class="lede">Guided tours move the map and the timeline for you, stop by stop. Journeys trace a person's travels; open one and choose "Follow the march".</p>`;
+    if (D.tours.length) h += `<h3>Guided tours</h3><ul class="ch-list">${D.tours.map((t) => `<li data-tour="${esc(t.id)}"><span class="ch-num">${t.stops?.length || 0} stops · ${esc(fmtRange(t.stops?.[0]?.year, t.stops?.[t.stops.length - 1]?.year))}</span><br><b>${esc(t.title)}</b></li>`).join('')}</ul>`;
+    const js = D.journeys || [];
+    if (js.length) h += `<h3>Journeys</h3><ul class="rows">${js.slice().sort((a, b) => a.start - b.start).map((c) => `<li class="row" data-id="${esc(c.id)}" data-kind="campaign"><div class="when">${esc(fmtYear(c.start))}</div><div class="what"><div class="ttl">${esc(c.name)}</div><div class="sum">${esc(nameOf(c.person, 'person'))}</div></div></li>`).join('')}</ul>`;
+    if (!D.tours.length && !js.length) h += '<p class="muted">Tours are still being written.</p>';
+    return h;
+  },
+
   sources() {
     return `<h2>Fontes</h2><p class="lede">What survives. Bars show each work's span: solid where the text is extant, pale where it is lost or known from fragments and epitomes. The red line is the current year.</p><div id="srcGantt"></div>`;
   },
@@ -268,6 +316,28 @@ AFTER.army = () => {
   document.getElementById('armyToggle')?.addEventListener('change', (e) => setLayer('legions', e.target.checked));
 };
 AFTER.sources = () => renderGantt();
+AFTER.city = () => {
+  document.getElementById('goRome')?.addEventListener('click', () => flyToCity('rome'));
+  document.getElementById('goConst')?.addEventListener('click', () => flyToCity('constantinople'));
+};
+AFTER.coins = () => {
+  document.getElementById('mintToggle')?.addEventListener('change', (e) => setLayer('mints', e.target.checked));
+  document.getElementById('hoardToggle')?.addEventListener('change', (e) => setLayer('hoards', e.target.checked));
+  const q = document.getElementById('markQ');
+  q?.addEventListener('input', () => {
+    const v = q.value.trim().toUpperCase();
+    const out = document.getElementById('markOut');
+    if (v.length < 2) { out.innerHTML = ''; return; }
+    const hits = D.mints.filter((m) => (m.marks || []).some((k) => v.includes(k.toUpperCase().replace(/[^A-Z]/g, '')) || k.toUpperCase().includes(v)));
+    out.innerHTML = hits.length ? `<ul class="rows">${hits.map((m) => `<li class="row" data-id="${esc(m.id)}" data-kind="mint"><div class="when">${(m.marks || []).filter((k) => v.includes(k.toUpperCase().replace(/[^A-Z]/g, '')) || k.toUpperCase().includes(v)).map((k) => `<span class="mark">${esc(k)}</span>`).join('')}</div><div class="what"><div class="ttl">${esc(m.name)}</div><div class="sum">${(m.periods || []).map((p) => esc(fmtRange(p[0], p[1]))).join(', ')}</div></div></li>`).join('')}</ul>` : '<p class="muted">No mint matches that mark. Marks often add P/S/T/Q (officina) or SM (sacra moneta) around the mint letters: try the core letters.</p>';
+  });
+};
+AFTER.tours = () => {
+  panel().querySelectorAll('[data-tour]').forEach((el) => el.addEventListener('click', () => {
+    const t = D.tours.find((x) => x.id === el.dataset.tour);
+    if (t) { document.getElementById('app').classList.add('panel-closed'); startTour(t); }
+  }));
+};
 AFTER.data = () => renderCharts(document.getElementById('charts'));
 
 function renderGantt() {

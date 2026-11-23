@@ -5,10 +5,11 @@ export const D = {
   polities: [], polity: new Map(), regions: [], events: [], people: [], wars: [], campaigns: [], places: [], legions: [],
   frontiers: [], roads: [], sources: [], rulers: [], fasti: [], glossary: [], series: [], chapters: null,
   byKind: {}, eventsByYear: new Map(), fastiByYear: new Map(), stats: null, statuses: [],
+  provinces: [], monuments: [], mints: [], hoards: [], coinage: [], sites: [], routes: [], tours: [], tactics: null,
 };
 
-const KINDS = ['event', 'person', 'war', 'campaign', 'place', 'polity', 'legion', 'frontier', 'road', 'source', 'glossary', 'region'];
-const KIND_PREF = ['event', 'person', 'war', 'campaign', 'legion', 'polity', 'place', 'region', 'frontier', 'road', 'source', 'glossary'];
+const KINDS = ['event', 'person', 'war', 'campaign', 'place', 'polity', 'legion', 'frontier', 'road', 'source', 'glossary', 'region', 'province', 'monument', 'mint', 'hoard', 'site', 'route', 'coinage'];
+const KIND_PREF = ['event', 'person', 'war', 'campaign', 'legion', 'polity', 'place', 'province', 'monument', 'site', 'mint', 'hoard', 'route', 'region', 'frontier', 'road', 'source', 'glossary', 'coinage'];
 
 async function getJSON(url) {
   const r = await fetch(url);
@@ -18,8 +19,9 @@ async function getJSON(url) {
 
 export async function loadAll(onMsg = () => {}) {
   onMsg('Reading the fasti');
-  const [atlas, codex] = await Promise.all([getJSON('data/atlas.json'), getJSON('data/codex.json')]);
+  const [atlas, codex, extra] = await Promise.all([getJSON('data/atlas.json'), getJSON('data/codex.json'), getJSON('data/extra.json').catch(() => ({}))]);
   Object.assign(D, codex);
+  Object.assign(D, extra);
   D.polities = atlas.polities;
   D.regions = atlas.regions;
   D.statuses = atlas.statuses;
@@ -29,6 +31,10 @@ export async function loadAll(onMsg = () => {}) {
   put('event', D.events); put('person', D.people); put('war', D.wars); put('campaign', D.campaigns);
   put('place', D.places); put('polity', D.polities); put('legion', D.legions); put('frontier', D.frontiers);
   put('road', D.roads); put('source', D.sources); put('glossary', D.glossary); put('region', D.regions);
+  put('province', D.provinces); put('monument', D.monuments); put('mint', D.mints); put('hoard', D.hoards); put('site', D.sites); put('route', D.routes); put('coinage', D.coinage);
+  D.journeys = D.campaigns.filter((c) => c.kind === 'journey');
+  D.coinageByIssuer = new Map();
+  for (const c of D.coinage) if (c.issuer) { if (!D.coinageByIssuer.has(c.issuer)) D.coinageByIssuer.set(c.issuer, []); D.coinageByIssuer.get(c.issuer).push(c); }
   D.polities.forEach((p, i) => { p.idx = i; D.polity.set(p.id, p); });
   for (const e of D.events) {
     if (!D.eventsByYear.has(e.year)) D.eventsByYear.set(e.year, []);
@@ -50,6 +56,14 @@ export async function loadAll(onMsg = () => {}) {
   for (const c of D.campaigns) { if (!D.campaignsByWar.has(c.war)) D.campaignsByWar.set(c.war, []); D.campaignsByWar.get(c.war).push(c); }
   computeStats();
   return D;
+}
+
+export async function loadTactics() {
+  if (!D.tactics) {
+    const t = await getJSON('data/tactics.json').catch(() => ({ tactics: [] }));
+    D.tactics = new Map(t.tactics.map((x) => [x.event, x]));
+  }
+  return D.tactics;
 }
 
 export async function loadChapters() {

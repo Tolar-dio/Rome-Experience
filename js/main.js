@@ -7,6 +7,7 @@ import { initTimeline } from './timeline.js';
 import { initPanels, showTab } from './panels.js';
 import { initDetail } from './detail.js';
 import { initSearch } from './search.js';
+import { startTour, startQuiz, toggleCompare } from './tours.js';
 
 const $ = (id) => document.getElementById(id);
 
@@ -93,7 +94,9 @@ function renderLegend(arg) {
 // ---------------- layers popover
 const LAYER_GROUPS = [
   ['Territory', [['territory', 'Who rules where'], ['borders', 'Borders and the Roman frontier'], ['polityLabels', 'Names of states'], ['regionNames', 'Region names'], ['extents', 'AWMC extents (60 BC, AD 117, 200)'], ['provinces', 'Province lines (AD 200, Diocletian)']]],
-  ['History', [['events', 'Events of the year'], ['battles', 'Battles and sieges'], ['campaigns', 'Campaign routes'], ['legions', 'Legion bases'], ['frontiers', 'Frontier works and walls']]],
+  ['History', [['events', 'Events of the year'], ['battles', 'Battles and sieges'], ['heat', 'Battle density, last 100 years'], ['campaigns', 'Campaign routes'], ['journeys', 'Journeys and travels'], ['legions', 'Legion bases'], ['frontiers', 'Frontier works and walls'], ['provinces', 'Provinces, dioceses, prefectures']]],
+  ['Society', [['religion', 'Religion: sanctuaries, bishoprics, councils'], ['economy', 'Economy: mines, quarries, production, ports'], ['culture', 'Culture: libraries, schools, villas'], ['routes', 'Trade routes'], ['mints', 'Mints'], ['hoards', 'Coin hoards']]],
+  ['The city', [['monuments', 'Monuments of Rome and Constantinople (zoom in)'], ['cityBase', 'Modern street plan under the city']]],
   ['Ancient landscape', [['cities', 'Cities, colonies, fortresses'], ['namedRoads', 'Named roads (dated)'], ['roads', 'Road network (Barrington)'], ['aqueducts', 'Aqueducts (zoom in)'], ['ancientLabels', 'Ancient regions and peoples (labels)'], ['ancientWater', 'Ancient lakes and marshes'], ['rivers', 'Rivers']]],
   ['Base map', [['relief', 'Terrain relief'], ['dare', 'DARE Roman Empire map']]],
 ];
@@ -151,6 +154,8 @@ function bindControls() {
   $('layersPop').addEventListener('change', (e) => { if (e.target.dataset.l) setLayer(e.target.dataset.l, e.target.checked); });
   document.addEventListener('click', (e) => { if (!e.target.closest('#layersPop') && !e.target.closest('#layersBtn')) { $('layersPop').hidden = true; $('layersBtn').setAttribute('aria-expanded', 'false'); } });
   $('helpBtn').onclick = openGuide;
+  $('compareBtn').onclick = () => { toggleCompare(); $('compareBtn').classList.toggle('on'); };
+  $('quizBtn').onclick = () => startQuiz();
   document.addEventListener('keydown', (e) => {
     if (['INPUT', 'SELECT', 'TEXTAREA'].includes(document.activeElement.tagName)) return;
     if (e.key === ' ') { e.preventDefault(); setPlaying(!S.playing); }
@@ -183,12 +188,15 @@ function openGuide() {
     <h2>Orbis</h2><p class="lede">An atlas, encyclopedia and history of Rome from the first consuls to the death of Heraclius: 1,150 years, year by year.</p>
     <p>The map shows who held every region in the selected year: Roman rule in cinnabar, allies hatched, client kingdoms dotted, contested land cross-hatched, and every rival state in its own colour. Drag the timeline at the bottom, press <kbd>Space</kbd> to play, <kbd>←</kbd> <kbd>→</kbd> to step a year (<kbd>Shift</kbd> for ten), <kbd>/</kbd> to search. Scroll on the timeline to zoom it.</p>
     <p>The left rail opens the year's state of the world, the full chronicle, wars and campaign routes you can follow on the map, the encyclopedia, a narrative history in chapters, the army and its frontiers, the fasti and dynasties, the surviving ancient sources and the numbers.</p>
-    <h3>Start somewhere</h3><ul class="rows">${TOURS.map((t, i) => `<li class="row" data-tour="${i}"><div class="when">${esc(fmtYear(t.y))}</div><div class="what"><div class="ttl">${esc(t.t)}</div></div></li>`).join('')}</ul>
+    ${D.tours.length ? `<h3>Take a guided tour</h3><ul class="rows">${D.tours.map((t) => `<li class="row" data-gtour="${esc(t.id)}"><div class="when">${t.stops?.length || 0} stops</div><div class="what"><div class="ttl">${esc(t.title)}</div></div></li>`).join('')}</ul>` : ''}
+    <h3>Or jump to a moment</h3><ul class="rows">${TOURS.map((t, i) => `<li class="row" data-tour="${i}"><div class="when">${esc(fmtYear(t.y))}</div><div class="what"><div class="ttl">${esc(t.t)}</div></div></li>`).join('')}</ul>
     <p class="meta" style="margin-top:14px">Territory is reconstructed region by region from standard scholarship and is approximate, especially for tribal peoples, the early Republic and the steppe. Uncertain items are marked. Geography: Natural Earth; Ancient World Mapping Center (ODbL); optional DARE and Esri tiles.</p></div>`;
   const close = () => { g.hidden = true; try { localStorage.setItem('orbis.seenGuide', '1'); } catch (e) { /* */ } };
   $('gClose').onclick = close;
   g.onclick = (e) => {
     if (e.target === g) close();
+    const gt = e.target.closest('[data-gtour]');
+    if (gt) { close(); const tour = D.tours.find((x) => x.id === gt.dataset.gtour); if (tour) startTour(tour); return; }
     const t = e.target.closest('[data-tour]');
     if (t) {
       const tour = TOURS[+t.dataset.tour];

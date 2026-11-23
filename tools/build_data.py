@@ -126,6 +126,16 @@ def strip(o):
 def main():
     strict = '--strict' in sys.argv
     C = load_all()
+    # region corrections replace whole control arrays before anything else
+    reg_by_id = {r.get('id'): r for r in C['regions']}
+    for c in C['corrections']:
+        if c.get('kind') == 'region' and c.get('control') and c.get('id') in reg_by_id:
+            reg_by_id[c['id']]['control'] = c['control']
+            warnings['applied: region correction'] += 1
+    # journeys are drawn like campaigns
+    for j in C['journeys']:
+        j['kind'] = 'journey'
+        C['campaigns'].append(j)
     # ---- polities
     pols = dedupe(C['polities'], 'polity')
     pol_ids = {p['id'] for p in pols}
@@ -307,11 +317,80 @@ def main():
     chapters = dedupe(C['chapters'], 'chapter')
     chapters.sort(key=lambda c: (year(c.get('from')) or 0, year(c.get('to')) or 0))
 
+    # ---- patches, then corrections
+    lists = {'event': evs, 'person': people, 'war': wars, 'campaign': camps, 'place': places, 'legion': legions,
+             'polity': pols, 'glossary': glossary, 'source': sources, 'frontier': frontiers, 'road': roads}
+    index = {k: {o.get('id'): o for o in v} for k, v in lists.items()}
+    for kind_key, label in (('patches', 'patch'), ('corrections', 'correction')):
+        for pt in C[kind_key]:
+            k = pt.get('kind')
+            if k == 'region':
+                continue
+            if k == 'ruler':
+                for g in rulers:
+                    if g['office'] == pt.get('office'):
+                        for r in g['list']:
+                            if r.get('name') == pt.get('name') or (pt.get('id') and r.get('id') == pt.get('id')):
+                                r.update(pt.get('set', {}))
+                                warnings[f'applied: {label}'] += 1
+                continue
+            o = index.get(k, {}).get(pt.get('id'))
+            if not o:
+                warn(f'{label}: target missing', f"{k}:{pt.get('id')}")
+                continue
+            for f, v in (pt.get('set') or {}).items():
+                if f in ('year', 'endYear', 'born', 'died', 'start', 'end', 'founded'):
+                    v = year(v)
+                if f == 'loc' and not good_loc(v):
+                    warn(f'{label}: bad loc', pt.get('id'))
+                    continue
+                o[f] = v
+            for f, v in (pt.get('append') or {}).items():
+                cur = o.get(f) or []
+                if isinstance(cur, list) and isinstance(v, list):
+                    o[f] = cur + [x for x in v if x not in cur]
+                elif isinstance(cur, str) and isinstance(v, str):
+                    o[f] = (cur + '\n\n' + v).strip()
+            warnings[f'applied: {label}'] += 1
+    evs.sort(key=lambda e: (e['year'], e.get('month') or 13, e.get('day') or 0))
+
+    # ---- second-pass collections
+    def locs_ok(lst, kind, key='loc'):
+        out = []
+        for o in lst:
+            if key in o and not good_loc(o[key]):
+                warn(f'{kind}: bad loc', o.get('id'))
+                o.pop(key)
+            out.append(o)
+        return out
+    provinces = dedupe(C['provinces'], 'province')
+    for pv in provinces:
+        for k in ('created', 'ended'):
+            if pv.get(k) is not None:
+                pv[k] = year(pv[k])
+        if pv.get('labelLoc') and not good_loc(pv['labelLoc']):
+            warn('province: bad labelLoc', pv['id'])
+            pv.pop('labelLoc')
+    monuments = locs_ok(dedupe(C['monuments'], 'monument'), 'monument')
+    mints = dedupe(C['mints'], 'mint')
+    hoards = locs_ok(dedupe(C['hoards'], 'hoard'), 'hoard')
+    coinage = dedupe(C['coinage'], 'coinage')
+    for c in coinage:
+        c['year'] = year(c.get('year'))
+    sites = locs_ok(dedupe(C['sites'], 'site'), 'site')
+    routes = dedupe(C['routes'], 'route')
+    for r in routes:
+        r['line'] = [pt for pt in r.get('line', []) if good_loc(pt)]
+    tours = dedupe(C['tours'], 'tour')
+    tactics = dedupe(C['tactics'], 'tactic', key=lambda o: o.get('event'))
+
     # cross-reference checks, with alias repair for near-miss ids
     ids = set()
     for lst in (evs, people, wars, camps, places, legions, frontiers, roads, sources, glossary):
         ids |= {o['id'] for o in lst if o.get('id')}
     ids |= pol_ids | {r['id'] for r in out_regions}
+    for lst in (provinces, monuments, mints, hoards, sites, routes):
+        ids |= {o['id'] for o in lst if o.get('id')}
     alias_cache = {'battle_of_aegates_islands': 'battle_of_the_aegates', 'battle_of_philippi': 'battle_of_philippi_second', 'dacian_wars': 'first_dacian_war'}
 
     def resolve(i):
@@ -355,6 +434,20 @@ def main():
     for p in people:
         if p.get('related'):
             p['related'] = [resolve(r) for r in p['related']]
+    for t in tactics:
+        t['event'] = resolve(t['event'])
+        if t['event'] not in ids:
+            warn('tactic: unknown event', t['event'])
+    for t in tours:
+        for st in t.get('stops', []):
+            if st.get('select'):
+                st['select'] = resolve(st['select'])
+    for c in coinage:
+        if c.get('issuer'):
+            c['issuer'] = resolve(c['issuer'])
+    for pv in provinces:
+        if pv.get('capital'):
+            pv['capital'] = resolve(pv['capital'])
     print('aliases repaired:', sum(1 for k, v in alias_cache.items() if k != v))
     for e in evs:
         for p in e.get('people', []) or []:
@@ -371,11 +464,14 @@ def main():
                                                      frontiers=frontiers, roads=roads, sources=sources, glossary=glossary, series=series).items()}
     codex['rulers'] = rulers
     codex['fasti'] = [fasti[y] for y in sorted(fasti)]
-    for k, v in (('atlas', atlas), ('codex', codex), ('chapters', {'chapters': [strip(c) for c in chapters]})):
+    extra = {k: [strip(o) for o in v] for k, v in dict(provinces=provinces, monuments=monuments, mints=mints, hoards=hoards, coinage=coinage,
+                                                     sites=sites, routes=routes, tours=tours).items()}
+    for k, v in (('atlas', atlas), ('codex', codex), ('chapters', {'chapters': [strip(c) for c in chapters]}), ('extra', extra), ('tactics', {'tactics': [strip(t) for t in tactics]})):
         with open(os.path.join(DATA, f'{k}.json'), 'w', encoding='utf-8') as f:
             json.dump(v, f, ensure_ascii=False, separators=(',', ':'))
     build_edges()
     build_sea()
+    print('extra:', {k: len(v) for k, v in extra.items()}, 'tactics', len(tactics))
     print('counts:', {k: len(v) for k, v in codex.items()}, 'polities', len(pols), 'regions', len(out_regions), 'chapters', len(chapters))
     for k in sorted(warnings):
         print(f'  warn {warnings[k]:4d}  {k}: {", ".join(map(str, warn_examples[k][:6]))}')

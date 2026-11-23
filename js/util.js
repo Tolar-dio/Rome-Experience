@@ -89,4 +89,5 @@ export const STATUS_LABEL = {
 export const KIND_LABEL = {
   event: 'Event', person: 'Person', war: 'War', campaign: 'Campaign', place: 'Place', polity: 'State / people',
   legion: 'Legion', frontier: 'Frontier', road: 'Road', source: 'Ancient source', glossary: 'Term', region: 'Region', chapter: 'Chapter',
+  province: 'Province', monument: 'Monument', mint: 'Mint', hoard: 'Hoard', site: 'Site', route: 'Route', coinage: 'Coinage',
 };
