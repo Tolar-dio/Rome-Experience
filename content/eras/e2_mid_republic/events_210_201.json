@@ -1,0 +1,1960 @@
+{
+ "events": [
+  {
+   "id": "scipio_command_in_spain_210",
+   "year": -210,
+   "title": "Scipio given the Spanish command as a privatus",
+   "type": "constitutional",
+   "cats": [
+    "constitutional",
+    "military",
+    "political"
+   ],
+   "importance": 4,
+   "summary": "When no experienced commander would take the Spanish command, the people elected the 25-year-old Publius Cornelius Scipio, who had held only the aedileship, as proconsul with imperium. It was the first grant of consular imperium to a man who had never been consul or praetor.",
+   "detail": "Livy (26.18-19) describes the comitia and Scipio's carefully cultivated aura of divine inspiration (daily visits alone to the Capitoline temple, rumours of a serpent father). Polybius (10.2-5) insists on his rational calculation instead. The appointment was a precedent for the extraordinary commands of the late Republic.",
+   "loc": [
+    12.4924,
+    41.8902
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "war": "second_punic_war",
+   "people": [
+    "scipio_africanus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "26.18-19"
+    },
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "10.2-5"
+    },
+    {
+     "a": "Appian",
+     "w": "Iberica",
+     "r": "18"
+    }
+   ],
+   "scholarship": [
+    "Scullard, Scipio Africanus: Soldier and Politician (1970)"
+   ],
+   "debate": "Polybius rejects the legends of divine favour, arguing Scipio exploited religion deliberately; Livy is ambivalent. Some scholars doubt the dramatic scene of no candidates coming forward.",
+   "certainty": "certain",
+   "tags": [
+    "privatus cum imperio",
+    "extraordinary command"
+   ]
+  },
+  {
+   "id": "battle_of_herdonia_210",
+   "year": -210,
+   "title": "Second battle of Herdonia",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "Hannibal destroyed the army of the proconsul Gnaeus Fulvius Centumalus near Herdonia; Fulvius and eleven military tribunes were killed. Hannibal then burned Herdonia and moved its people to Metapontum and Thurii, a sign that he could no longer defend his Apulian allies.",
+   "loc": [
+    15.625,
+    41.317
+   ],
+   "locName": "Herdonia (Ordona), Apulia",
+   "locCertainty": "probable",
+   "war": "second_punic_war",
+   "people": [
+    "hannibal_barca"
+   ],
+   "polities": [
+    "carthage",
+    "rome"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [],
+      "strength": "c. 2 legions under Cn. Fulvius Centumalus",
+      "losses": "7,000 or 13,000 killed (Livy gives both)"
+     },
+     {
+      "polity": "carthage",
+      "commanders": [
+       "hannibal_barca"
+      ],
+      "strength": "main army"
+     }
+    ],
+    "victor": "carthage",
+    "kind": "field",
+    "significance": "Tactical victory but strategic retreat: Hannibal was abandoning the cities he could not hold."
+   },
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "27.1.3-15"
+    }
+   ],
+   "debate": "Possible doublet of the battle of 212; Livy himself gives two casualty figures.",
+   "certainty": "disputed"
+  },
+  {
+   "id": "aegina_sold_to_attalus_210",
+   "year": -210,
+   "title": "The sack of Aegina",
+   "type": "siege",
+   "cats": [
+    "military",
+    "diplomatic"
+   ],
+   "importance": 2,
+   "summary": "The Roman fleet under Publius Sulpicius Galba, with Aetolian allies, captured Aegina and enslaved its people. Under the treaty of 211 the island went to the Aetolians, who sold it to Attalus I of Pergamon for 30 talents.",
+   "detail": "Polybius (9.42) records the Aeginetans begging to be allowed to ransom themselves and the Roman reply that they should have thought of that before. The episode became an argument in Greek debates on Roman brutality and the Aetolian 'betrayal' of Greeks.",
+   "loc": [
+    23.43,
+    37.746
+   ],
+   "locName": "Aegina",
+   "locCertainty": "certain",
+   "war": "first_macedonian_war",
+   "people": [
+    "publius_sulpicius_galba_maximus",
+    "attalus_i"
+   ],
+   "polities": [
+    "rome",
+    "aetolian_league",
+    "pergamon"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "publius_sulpicius_galba_maximus"
+      ],
+      "strength": "Roman fleet with Aetolians"
+     },
+     {
+      "polity": "macedon_antigonid",
+      "commanders": [],
+      "strength": "Macedonian-aligned city",
+      "losses": "population enslaved"
+     }
+    ],
+    "victor": "rome",
+    "kind": "siege",
+    "significance": "Brought Pergamon an Aegean base and cemented its alliance with Rome."
+   },
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "9.42.5-8"
+    },
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "22.8.9-10"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "27.30.5-7"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "enslavement",
+    "Attalus I"
+   ]
+  },
+  {
+   "id": "latin_colonies_refuse_209",
+   "year": -209,
+   "title": "Twelve Latin colonies refuse troops",
+   "type": "political",
+   "cats": [
+    "political",
+    "military"
+   ],
+   "importance": 3,
+   "summary": "Twelve of the thirty Latin colonies (Ardea, Nepete, Sutrium, Alba, Carseoli, Sora, Suessa, Circeii, Setia, Cales, Narnia and Interamna) told the consuls they had neither men nor money left. The other eighteen, led by Fregellae, declared their loyalty and the Senate thanked them publicly.",
+   "detail": "Livy (27.9-10) lists the colonies, a rare documentary-seeming passage. In 204 the twelve were punished with double levies and a new census on Roman lines. The episode shows how close Rome's manpower system came to breaking.",
+   "loc": [
+    12.4924,
+    41.8902
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "war": "second_punic_war",
+   "people": [],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "27.9-10"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "29.15"
+    }
+   ],
+   "scholarship": [
+    "Brunt, Italian Manpower (1971)"
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Latin colonies",
+    "manpower crisis",
+    "Fregellae"
+   ]
+  },
+  {
+   "id": "aurum_vicesimarium_209",
+   "year": -209,
+   "title": "The sacred reserve of gold opened",
+   "type": "economic",
+   "cats": [
+    "economic"
+   ],
+   "importance": 1,
+   "summary": "The state opened the sanctius aerarium, the reserve built from the 5 percent tax on manumissions (vicesima libertatis) since 357, and drew out about 4,000 pounds of gold to pay for the war.",
+   "loc": [
+    12.484,
+    41.892
+   ],
+   "locName": "Aerarium, temple of Saturn, Rome",
+   "locCertainty": "probable",
+   "war": "second_punic_war",
+   "people": [],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "27.10.11-13"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "aerarium",
+    "manumission tax"
+   ]
+  },
+  {
+   "id": "siege_of_new_carthage",
+   "year": -209,
+   "title": "Capture of New Carthage",
+   "type": "siege",
+   "cats": [
+    "military"
+   ],
+   "importance": 5,
+   "summary": "Scipio marched from the Ebro to New Carthage in a week and stormed the Punic capital of Spain in a single day. While the walls were assaulted from the isthmus, a picked force waded across the lagoon at ebb, which Scipio had told his men Neptune had promised him, and climbed the undefended north wall.",
+   "detail": "Polybius (10.8-15) explains that Scipio had learned from fishermen that the lagoon drained in the evening and insists the plan was rational, the Neptune story a morale device. The booty included 18 warships, the Carthaginian treasury and arsenal, 300 Spanish hostages whom Scipio returned to their families, and 2,000 artisans made public slaves to work in the arsenal. Scipio's restoration of a beautiful captive to her fiancé Allucius became a celebrated 'continence of Scipio'.",
+   "loc": [
+    -0.9864,
+    37.6
+   ],
+   "locName": "New Carthage (Cartagena)",
+   "locCertainty": "certain",
+   "war": "second_punic_war",
+   "people": [
+    "scipio_africanus",
+    "gaius_laelius"
+   ],
+   "polities": [
+    "rome",
+    "carthage"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "scipio_africanus",
+       "gaius_laelius"
+      ],
+      "strength": "25,000 foot, 2,500 horse, 35 ships (Polybius)"
+     },
+     {
+      "polity": "carthage",
+      "commanders": [],
+      "strength": "c. 1,000 soldiers under Mago plus 2,000 armed citizens",
+      "losses": "city taken"
+     }
+    ],
+    "victor": "rome",
+    "kind": "siege",
+    "significance": "Gave Scipio the enemy's base, treasury and hostages, and won over many Iberian peoples."
+   },
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "10.6-20"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "26.41-51"
+    },
+    {
+     "a": "Appian",
+     "w": "Iberica",
+     "r": "19-23"
+    }
+   ],
+   "scholarship": [
+    "Scullard, Scipio Africanus: Soldier and Politician (1970)",
+    "Lazenby, Hannibal's War (1978)"
+   ],
+   "debate": "Polybius dates it 209, Livy 210. The lagoon's tidal behaviour (the Mediterranean has negligible tides) has been explained by wind-driven seiche or a sluice.",
+   "certainty": "certain",
+   "tags": [
+    "Neptune",
+    "lagoon",
+    "continence of Scipio"
+   ]
+  },
+  {
+   "id": "siege_of_tarentum_209",
+   "year": -209,
+   "title": "Fabius recaptures Tarentum",
+   "type": "siege",
+   "cats": [
+    "military",
+    "cultural"
+   ],
+   "importance": 3,
+   "summary": "Quintus Fabius Maximus, consul for the fifth time, recovered Tarentum through the treachery of the Bruttian garrison commander, who was in love with the sister of one of Fabius' soldiers. 30,000 Tarentines were enslaved and 3,000 talents of gold and silver taken; but Fabius left the statues of the gods, saying 'let us leave the Tarentines their angry gods'.",
+   "detail": "Fabius did take a colossal bronze Heracles by Lysippus for the Capitol, beside which he set an equestrian statue of himself.",
+   "loc": [
+    17.24,
+    40.47
+   ],
+   "locName": "Tarentum (Taranto)",
+   "locCertainty": "certain",
+   "war": "second_punic_war",
+   "people": [
+    "quintus_fabius_maximus",
+    "hannibal_barca"
+   ],
+   "polities": [
+    "rome",
+    "tarentum",
+    "carthage"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "quintus_fabius_maximus"
+      ],
+      "strength": "consular army and the citadel garrison"
+     },
+     {
+      "polity": "carthage",
+      "commanders": [],
+      "strength": "Bruttian and Carthaginian garrison",
+      "losses": "garrison killed; 30,000 enslaved"
+     }
+    ],
+    "victor": "rome",
+    "kind": "siege",
+    "significance": "Hannibal arrived too late; his grip on the south was weakening."
+   },
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "27.15-16"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Fabius Maximus",
+     "r": "21-22"
+    },
+    {
+     "a": "Strabo",
+     "w": "Geographica",
+     "r": "6.3.1"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Lysippus",
+    "looting"
+   ]
+  },
+  {
+   "id": "battle_of_baecula",
+   "year": -208,
+   "title": "Battle of Baecula",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 4,
+   "summary": "Scipio attacked Hasdrubal Barca on a two-level plateau near Baecula, pinning him with light troops in front while he and Laelius led the heavy infantry up both flanks. Hasdrubal, judging the position lost, withdrew with his elephants, treasury and most of his army and marched for Italy.",
+   "detail": "Livy (27.18) gives 8,000 enemy killed and 12,000 captured, probably exaggerated. Scipio's failure to stop Hasdrubal was criticised (Fabius made it a charge in 205). Scipio released Masinissa's nephew Massiva, a first contact with the Numidian. Since 2014 Spanish archaeologists have identified the battlefield at the Cerro de las Albahacas near Santo Tomé (Jaén) from scatters of sling bullets, nails and coins.",
+   "loc": [
+    -3.08,
+    38.03
+   ],
+   "locName": "Baecula (Cerro de las Albahacas, Santo Tomé, Jaén?)",
+   "locCertainty": "probable",
+   "war": "second_punic_war",
+   "people": [
+    "scipio_africanus",
+    "hasdrubal_barca",
+    "gaius_laelius"
+   ],
+   "polities": [
+    "rome",
+    "carthage"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "scipio_africanus"
+      ],
+      "strength": "c. 35,000-40,000"
+     },
+     {
+      "polity": "carthage",
+      "commanders": [
+       "hasdrubal_barca"
+      ],
+      "strength": "c. 25,000-30,000",
+      "losses": "8,000 killed, 12,000 captured (Livy; inflated)"
+     }
+    ],
+    "victor": "rome",
+    "kind": "field",
+    "significance": "Tactical success but failed to prevent Hasdrubal's march to Italy, which ended at the Metaurus."
+   },
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "10.38-40"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "27.17-20"
+    }
+   ],
+   "scholarship": [
+    "Bellón Ruiz et al., 'Baecula: arqueología de una batalla' (2015)"
+   ],
+   "debate": "Earlier candidates for the site lay near Bailén; the Santo Tomé identification rests on battlefield archaeology and is now widely accepted.",
+   "certainty": "certain"
+  },
+  {
+   "id": "death_of_marcellus_208",
+   "year": -208,
+   "title": "Death of Marcellus",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "The consuls Marcus Claudius Marcellus and Titus Quinctius Crispinus rode out with 220 horsemen to reconnoitre a hill between their camps near Venusia and were ambushed by Numidians. Marcellus, aged about sixty and consul for the fifth time, was killed; Crispinus died of his wounds.",
+   "detail": "Polybius (10.32) condemns Marcellus for behaving like a junior officer. Hannibal gave the body an honourable funeral and tried to use Marcellus' signet ring to trick Salapia with a forged letter, but Crispinus had warned the cities.",
+   "loc": [
+    15.9,
+    40.92
+   ],
+   "locName": "between Venusia and Bantia",
+   "locCertainty": "approx",
+   "war": "second_punic_war",
+   "people": [
+    "marcus_claudius_marcellus",
+    "hannibal_barca"
+   ],
+   "polities": [
+    "carthage",
+    "rome"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "marcus_claudius_marcellus"
+      ],
+      "strength": "220 horsemen",
+      "losses": "Marcellus killed, Crispinus mortally wounded, c. 40 killed"
+     },
+     {
+      "polity": "carthage",
+      "commanders": [],
+      "strength": "Numidian cavalry in ambush"
+     }
+    ],
+    "victor": "carthage",
+    "kind": "ambush",
+    "significance": "Both consuls lost in one year, a unique Roman calamity."
+   },
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "10.32-33"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "27.26-28"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Marcellus",
+     "r": "29-30"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "ambush",
+    "signet ring"
+   ]
+  },
+  {
+   "id": "hymn_of_livius_andronicus_207",
+   "year": -207,
+   "title": "Livius Andronicus' hymn to Juno and the guild of poets",
+   "type": "religious",
+   "cats": [
+    "religious",
+    "literature"
+   ],
+   "importance": 2,
+   "summary": "After prodigies, the pontiffs ordered 27 maidens to process through the city singing a hymn to Juno Regina composed by Livius Andronicus. In his honour the state recognised a college of writers and actors (scribae et histriones) meeting at the temple of Minerva on the Aventine.",
+   "detail": "Livy (27.37) notes the hymn might have seemed admirable to rough minds then but would be 'unpleasing and uncouth' if quoted now. The collegium is the first official recognition of literary professionals in Rome.",
+   "loc": [
+    12.479,
+    41.884
+   ],
+   "locName": "Temple of Minerva, Aventine",
+   "locCertainty": "probable",
+   "war": "second_punic_war",
+   "people": [
+    "livius_andronicus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "27.37.7-15"
+    },
+    {
+     "a": "Festus",
+     "w": "De verborum significatu",
+     "r": "p. 446 L"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "hymn",
+    "collegium scribarum",
+    "Juno Regina"
+   ]
+  },
+  {
+   "id": "battle_of_grumentum",
+   "year": -207,
+   "title": "Battle of Grumentum",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "The consul Gaius Claudius Nero fought an inconclusive but bloody action against Hannibal near Grumentum in Lucania, keeping him in the south as Hasdrubal descended into Italy.",
+   "detail": "Livy (27.41-42) claims 8,000 Carthaginians killed; Polybius' account is lost. Hannibal then moved to Canusium to await news of his brother, which Nero intercepted.",
+   "loc": [
+    15.93,
+    40.283
+   ],
+   "locName": "Grumentum, Lucania",
+   "locCertainty": "probable",
+   "war": "second_punic_war",
+   "people": [
+    "gaius_claudius_nero",
+    "hannibal_barca"
+   ],
+   "polities": [
+    "rome",
+    "carthage"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "gaius_claudius_nero"
+      ],
+      "strength": "c. 40,000"
+     },
+     {
+      "polity": "carthage",
+      "commanders": [
+       "hannibal_barca"
+      ],
+      "strength": "main army",
+      "losses": "8,000 killed (Livy; inflated)"
+     }
+    ],
+    "victor": "rome",
+    "kind": "field",
+    "significance": "Pinned Hannibal in the south."
+   },
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "27.41-42"
+    }
+   ],
+   "debate": "Livy's figures are probably exaggerated by annalists.",
+   "certainty": "probable"
+  },
+  {
+   "id": "battle_of_the_metaurus",
+   "year": -207,
+   "title": "Battle of the Metaurus",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 5,
+   "summary": "Capturing Hasdrubal's dispatch to Hannibal, the consul Gaius Claudius Nero secretly marched 7,000 picked men from Apulia to join his colleague Marcus Livius Salinator at Sena Gallica, about 400 km in six or seven days. Hasdrubal, realising from the double trumpet call that two consuls faced him, tried to withdraw, was caught at the Metaurus and killed with most of his army.",
+   "detail": "Nero swung troops from the inactive Roman right round behind the line to fall on the Carthaginian right flank. He had Hasdrubal's head thrown in front of Hannibal's outposts; Livy has Hannibal say he recognised the fortune of Carthage. The victory ended any real chance of Carthaginian success in Italy. Horace (Odes 4.4) celebrates it as the salvation of Rome by the Claudii Nerones.",
+   "loc": [
+    12.9,
+    43.71
+   ],
+   "locName": "River Metaurus (near Fossombrone or San Silvestro?)",
+   "locCertainty": "disputed",
+   "war": "second_punic_war",
+   "people": [
+    "gaius_claudius_nero",
+    "marcus_livius_salinator",
+    "hasdrubal_barca"
+   ],
+   "polities": [
+    "rome",
+    "carthage",
+    "boii",
+    "ligures"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "gaius_claudius_nero",
+       "marcus_livius_salinator"
+      ],
+      "strength": "c. 40,000 (two consular armies plus praetor's)",
+      "losses": "2,000 (Polybius) or 8,000 (Livy)"
+     },
+     {
+      "polity": "carthage",
+      "commanders": [
+       "hasdrubal_barca"
+      ],
+      "strength": "c. 30,000 incl. Gauls, Ligurians and 10 elephants",
+      "losses": "c. 10,000 killed (Polybius); 56,000 killed and 5,400 captured (Livy, absurd)"
+     }
+    ],
+    "victor": "rome",
+    "kind": "field",
+    "significance": "Decisive: Hannibal withdrew into Bruttium and never again threatened central Italy."
+   },
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "11.1-3"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "27.43-51"
+    },
+    {
+     "a": "Appian",
+     "w": "Hannibalica",
+     "r": "52-53"
+    },
+    {
+     "a": "Horace",
+     "w": "Odes",
+     "r": "4.4.37-72"
+    }
+   ],
+   "scholarship": [
+    "Lazenby, Hannibal's War (1978)",
+    "Goldsworthy, The Punic Wars (2000)"
+   ],
+   "debate": "Livy's 56,000 Carthaginian dead is a notorious example of annalistic inflation, exceeding the size of Hasdrubal's army. The battle site along the lower Metauro valley is disputed.",
+   "certainty": "certain",
+   "tags": [
+    "forced march",
+    "inflated figures",
+    "Hasdrubal's head"
+   ]
+  },
+  {
+   "id": "battle_of_ilipa",
+   "year": -206,
+   "title": "Battle of Ilipa",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 5,
+   "summary": "After days of drawn-up armies facing each other with the same dispositions, Scipio suddenly reversed his line one dawn, placing his Roman legions on the wings and his unreliable Spanish allies in the centre, and attacked before the enemy had eaten. His wings executed a complex wheeling manoeuvre and crushed the Carthaginian flanks while the Libyan centre stood idle. Carthaginian power in Spain collapsed.",
+   "detail": "Polybius (11.20-24) admires the manoeuvre in detail; its exact drill is much debated by tacticians. A storm saved the routed Carthaginians from total annihilation. Hasdrubal son of Gisco fled to Gades and then to Africa.",
+   "loc": [
+    -5.98,
+    37.518
+   ],
+   "locName": "Ilipa (Alcalá del Río), near Seville",
+   "locCertainty": "probable",
+   "war": "second_punic_war",
+   "people": [
+    "scipio_africanus",
+    "hasdrubal_gisco",
+    "mago_barca",
+    "masinissa"
+   ],
+   "polities": [
+    "rome",
+    "carthage"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "scipio_africanus"
+      ],
+      "strength": "45,000 foot, 3,000 horse (Polybius)",
+      "losses": "light"
+     },
+     {
+      "polity": "carthage",
+      "commanders": [
+       "hasdrubal_gisco",
+       "mago_barca"
+      ],
+      "strength": "70,000 foot, 4,000 horse, 32 elephants (Polybius); 50,000 foot, 4,500 horse (Livy)",
+      "losses": "almost the whole army"
+     }
+    ],
+    "victor": "rome",
+    "kind": "field",
+    "significance": "Ended Carthaginian rule in Spain; Gades surrendered later that year."
+   },
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "11.20-24"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "28.12-16"
+    },
+    {
+     "a": "Appian",
+     "w": "Iberica",
+     "r": "25-28"
+    }
+   ],
+   "scholarship": [
+    "Scullard, Scipio Africanus: Soldier and Politician (1970)",
+    "Lazenby, Hannibal's War (1978)"
+   ],
+   "debate": "Polybius' and Livy's Carthaginian numbers differ; Polybius' figure is generally thought high. Livy dates it to 207.",
+   "certainty": "certain",
+   "tags": [
+    "reverse deployment",
+    "tactics"
+   ]
+  },
+  {
+   "id": "mutiny_at_sucro",
+   "year": -206,
+   "title": "Mutiny at Sucro and the Ilergetan revolt",
+   "type": "revolt",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "While Scipio lay ill, 8,000 Roman soldiers at Sucro, unpaid and idle, mutinied and drove out their tribunes. Scipio paid them, summoned them to New Carthage, and executed the 35 ringleaders while the rest stood surrounded by loyal troops. Indibilis and Mandonius of the Ilergetes, who had rebelled on news of his illness, were crushed; Indibilis was killed in a renewed revolt in 205.",
+   "loc": [
+    -0.43,
+    39.15
+   ],
+   "locName": "Sucro (on the Júcar), Spain",
+   "locCertainty": "approx",
+   "war": "second_punic_war",
+   "people": [
+    "scipio_africanus",
+    "indibilis"
+   ],
+   "polities": [
+    "rome",
+    "ilergetes"
+   ],
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "11.25-33"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "28.24-34"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "29.1-3"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "mutiny",
+    "Ilergetes"
+   ]
+  },
+  {
+   "id": "founding_of_italica",
+   "year": -206,
+   "title": "Founding of Italica",
+   "type": "founding",
+   "cats": [
+    "administrative",
+    "military"
+   ],
+   "importance": 3,
+   "summary": "After Ilipa, Scipio settled wounded veterans at a town he named Italica near the Baetis, the first Roman settlement in Spain and, centuries later, the home town of the families of Trajan and Hadrian.",
+   "detail": "Appian (Iberica 38) is the source. Italica became a municipium and, under Hadrian, a colonia; its grand Hadrianic quarter and amphitheatre survive at Santiponce.",
+   "loc": [
+    -6.0445,
+    37.443
+   ],
+   "locName": "Italica (Santiponce, Seville)",
+   "locCertainty": "certain",
+   "war": "second_punic_war",
+   "people": [
+    "scipio_africanus"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Appian",
+     "w": "Iberica",
+     "r": "38"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "veterans",
+    "Trajan",
+    "Hadrian"
+   ]
+  },
+  {
+   "id": "surrender_of_gades_206",
+   "year": -206,
+   "title": "Surrender of Gades; Mago to the Balearics",
+   "type": "political",
+   "cats": [
+    "military",
+    "diplomatic"
+   ],
+   "importance": 3,
+   "summary": "Mago Barca, ordered to take his fleet to Italy, failed in a raid on New Carthage, found Gades closed to him, and sailed for the Balearics, where he wintered at the harbour on Minorca that still bears his name (Portus Magonis, Mahón). Gades surrendered to Rome on terms that made it a federate ally (foedus Gaditanum).",
+   "loc": [
+    -6.2886,
+    36.5271
+   ],
+   "locName": "Gades (Cádiz)",
+   "locCertainty": "certain",
+   "war": "second_punic_war",
+   "people": [
+    "mago_barca"
+   ],
+   "polities": [
+    "rome",
+    "carthage",
+    "balearic"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "28.36-37"
+    },
+    {
+     "a": "Cicero",
+     "w": "Pro Balbo",
+     "r": "34-39"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "Mahón",
+    "foedus"
+   ]
+  },
+  {
+   "id": "aetolian_separate_peace_206",
+   "year": -206,
+   "title": "Aetolians make a separate peace with Philip",
+   "type": "treaty",
+   "cats": [
+    "diplomatic"
+   ],
+   "importance": 2,
+   "summary": "Abandoned by Rome, which sent no forces after 208, and having seen Philip sack their federal sanctuary at Thermum a second time (207), the Aetolians made peace with Philip on his terms. Rome regarded this as a breach of the 211 treaty, a grievance it remembered.",
+   "loc": [
+    21.665,
+    38.555
+   ],
+   "locName": "Aetolia (Thermum)",
+   "locCertainty": "approx",
+   "war": "first_macedonian_war",
+   "people": [
+    "philip_v"
+   ],
+   "polities": [
+    "aetolian_league",
+    "macedon_antigonid"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "29.12.1"
+    },
+    {
+     "a": "Appian",
+     "w": "Macedonica",
+     "r": "3"
+    }
+   ],
+   "certainty": "probable"
+  },
+  {
+   "id": "treaty_of_phoenice",
+   "year": -205,
+   "title": "Peace of Phoenice",
+   "type": "treaty",
+   "cats": [
+    "diplomatic"
+   ],
+   "importance": 4,
+   "summary": "Rome and Philip V ended the First Macedonian War at Phoenice in Epirus. Rome kept the Parthini, Dimale, Bargullum and Eugenium; Philip kept Atintania. Each side listed allies (adscripti) included in the peace.",
+   "detail": "Livy's list (29.12) includes on the Roman side Ilium and Athens; many scholars regard these as later annalistic additions to justify the Second Macedonian War, though others defend them. The peace freed Rome to concentrate on Africa and left Philip free to turn to the Aegean.",
+   "loc": [
+    20.089,
+    39.913
+   ],
+   "locName": "Phoenice, Epirus",
+   "locCertainty": "certain",
+   "war": "first_macedonian_war",
+   "people": [
+    "philip_v"
+   ],
+   "polities": [
+    "rome",
+    "macedon_antigonid",
+    "epirus"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "29.12"
+    }
+   ],
+   "scholarship": [
+    "Gruen, The Hellenistic World and the Coming of Rome (1984)",
+    "Eckstein, Rome Enters the Greek East (2008)"
+   ],
+   "debate": "Authenticity of the adscripti list (especially Ilium, Athens, Nabis of Sparta) is disputed.",
+   "certainty": "certain",
+   "tags": [
+    "adscripti",
+    "peace treaty"
+   ]
+  },
+  {
+   "id": "pleminius_scandal_locri",
+   "year": -204,
+   "title": "Recapture of Locri and the Pleminius scandal",
+   "type": "political",
+   "cats": [
+    "political",
+    "religious",
+    "military"
+   ],
+   "importance": 3,
+   "summary": "Scipio recovered Locri in 205 and left Quintus Pleminius in command. Pleminius and his troops plundered the treasury of Persephone's temple and committed atrocities; when two tribunes flogged him, he had them tortured to death. A Locrian embassy complained to the Senate in 204.",
+   "detail": "Scipio's enemies, led by Fabius and Cato, used the affair to attack his command and his Hellenising lifestyle in Syracuse (Greek cloak and sandals, the gymnasium). A senatorial commission visited Sicily, found his army in excellent order and allowed him to proceed to Africa. Pleminius died in prison. Polybius cannot be checked here; Livy's narrative is long and dramatic.",
+   "loc": [
+    16.254,
+    38.235
+   ],
+   "locName": "Locri Epizephyrii",
+   "locCertainty": "certain",
+   "war": "second_punic_war",
+   "people": [
+    "scipio_africanus",
+    "quintus_fabius_maximus",
+    "cato_the_elder"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "29.6-9"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "29.16-22"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Cato Maior",
+     "r": "3"
+    },
+    {
+     "a": "Diodorus Siculus",
+     "w": "Bibliotheca Historica",
+     "r": "27.4"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "sacrilege",
+    "Persephone",
+    "Hellenism"
+   ]
+  },
+  {
+   "id": "mago_lands_at_genua",
+   "year": -205,
+   "title": "Mago lands at Genua",
+   "type": "campaign",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "Mago sailed from Minorca with about 12,000 foot and 2,000 horse, took Genua and tried to raise the Ligurians and Gauls against Rome. Two years of manoeuvres in the north tied down several Roman armies.",
+   "loc": [
+    8.934,
+    44.407
+   ],
+   "locName": "Genua (Genoa)",
+   "locCertainty": "certain",
+   "war": "second_punic_war",
+   "people": [
+    "mago_barca"
+   ],
+   "polities": [
+    "carthage",
+    "ligures"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "28.46.7-13"
+    },
+    {
+     "a": "Appian",
+     "w": "Hannibalica",
+     "r": "54"
+    }
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "arrival_of_magna_mater",
+   "year": -204,
+   "month": 4,
+   "title": "Arrival of the Magna Mater",
+   "type": "religious",
+   "cats": [
+    "religious",
+    "diplomatic"
+   ],
+   "importance": 4,
+   "summary": "Following a Sibylline oracle that a foreign enemy would be driven from Italy if the Idaean Mother were brought to Rome, an embassy obtained from Attalus I the black meteoric stone of Cybele from Pessinus (or Pergamon). It was received at Ostia in April 204 by Publius Cornelius Scipio Nasica, chosen as the best man in Rome, and carried by matrons to the temple of Victoria on the Palatine.",
+   "detail": "Legend says the ship ran aground in the Tiber and was freed by Claudia Quinta, whose chastity had been doubted. The cult's ecstatic Phrygian eunuch priests (galli) shocked Romans, who were forbidden to become galli; the Megalesia games began in 204, and the temple was dedicated in 191. The embassy also cemented the alliance with Pergamon that would shape Roman policy in Asia.",
+   "loc": [
+    12.4855,
+    41.889
+   ],
+   "locName": "Palatine, Rome (via Ostia)",
+   "locCertainty": "certain",
+   "war": "second_punic_war",
+   "people": [
+    "scipio_nasica_cos191",
+    "attalus_i"
+   ],
+   "polities": [
+    "rome",
+    "pergamon"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "29.10-11"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "29.14.5-14"
+    },
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "4.247-348"
+    },
+    {
+     "a": "Varro",
+     "w": "De lingua latina",
+     "r": "6.15"
+    },
+    {
+     "a": "Cicero",
+     "w": "De haruspicum responso",
+     "r": "27"
+    }
+   ],
+   "scholarship": [
+    "Beard, North & Price, Religions of Rome (1998)",
+    "Gruen, Studies in Greek Culture and Roman Policy (1990)"
+   ],
+   "debate": "Livy says the stone came from Pessinus; Varro says Pergamon, and Pessinus was not then under Attalus' control. Gruen reads the import as a Roman claim on Trojan ancestry and Hellenistic standing.",
+   "certainty": "certain",
+   "tags": [
+    "Cybele",
+    "Sibylline Books",
+    "Claudia Quinta",
+    "galli"
+   ]
+  },
+  {
+   "id": "lex_cincia_204",
+   "year": -204,
+   "title": "Lex Cincia de donis et muneribus",
+   "type": "law",
+   "cats": [
+    "law",
+    "political"
+   ],
+   "importance": 2,
+   "summary": "The tribune Marcus Cincius Alimentus carried a law forbidding advocates to accept fees or gifts for pleading cases and restricting large gifts generally except between close kin. Cato spoke for it in his youth.",
+   "detail": "The law was still invoked under the emperors; Augustus and Claudius tried to enforce it (Tacitus, Annals 11.5-7).",
+   "loc": [
+    12.4924,
+    41.8902
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "people": [],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "34.4.9"
+    },
+    {
+     "a": "Cicero",
+     "w": "De senectute",
+     "r": "10"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "11.5"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "advocates",
+    "gifts",
+    "patronage"
+   ]
+  },
+  {
+   "id": "censorship_nero_salinator_204",
+   "year": -204,
+   "title": "Censorship of Claudius Nero and Livius Salinator",
+   "type": "administrative",
+   "cats": [
+    "administrative",
+    "political",
+    "economic"
+   ],
+   "importance": 2,
+   "summary": "The victors of the Metaurus, bitter personal enemies, held the censorship together. Each removed the other's public horse; Livius made aerarii of 34 of the 35 tribes for having first condemned and then elected him. A new tax on salt earned Livius the mocking cognomen Salinator.",
+   "detail": "The farce (Livy 29.37) shows how personal enmities (inimicitiae) were fought out through office. They also let contracts for a salt monopoly at a fixed price, the first such regulation.",
+   "loc": [
+    12.4924,
+    41.8902
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "war": "second_punic_war",
+   "people": [
+    "gaius_claudius_nero",
+    "marcus_livius_salinator"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "29.37"
+    },
+    {
+     "a": "Valerius Maximus",
+     "w": "Facta et Dicta Memorabilia",
+     "r": "2.9.6"
+    }
+   ],
+   "debate": "The cognomen Salinator may in fact be older; Livy's etymology is suspect.",
+   "certainty": "certain",
+   "tags": [
+    "censorship",
+    "salt tax",
+    "inimicitiae"
+   ]
+  },
+  {
+   "id": "ennius_and_cato_204",
+   "year": -204,
+   "title": "Cato brings Ennius to Rome",
+   "type": "literary",
+   "cats": [
+    "literature",
+    "cultural"
+   ],
+   "importance": 2,
+   "summary": "Marcus Porcius Cato, returning from his quaestorship in Sicily and Africa by way of Sardinia, brought to Rome the Oscan-speaking, Greek-educated poet Quintus Ennius, who had been serving there as a centurion.",
+   "detail": "Ennius became the father of Latin epic with the Annales in hexameters and the client of the Scipios and Fulvius Nobilior. Cato, ironically, later attacked Nobilior for taking poets on campaign.",
+   "loc": [
+    9.0,
+    40.0
+   ],
+   "locName": "Sardinia / Rome",
+   "locCertainty": "approx",
+   "people": [
+    "cato_the_elder",
+    "ennius"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Cornelius Nepos",
+     "w": "Cato",
+     "r": "1.4"
+    },
+    {
+     "a": "Aulus Gellius",
+     "w": "Noctes Atticae",
+     "r": "17.21.43"
+    }
+   ],
+   "certainty": "probable",
+   "tags": [
+    "Ennius",
+    "Latin literature"
+   ]
+  },
+  {
+   "id": "scipio_lands_in_africa",
+   "year": -204,
+   "title": "Scipio lands in Africa; siege of Utica",
+   "type": "campaign",
+   "cats": [
+    "military"
+   ],
+   "importance": 4,
+   "summary": "Scipio sailed from Lilybaeum with perhaps 25,000-35,000 men, including the disgraced legions of Cannae, and landed near the Fair Promontory west of Carthage. Masinissa joined him with a few hundred horsemen. A Carthaginian cavalry force under Hanno was destroyed, but a 40-day siege of Utica failed and Scipio wintered on a headland, the Castra Cornelia.",
+   "loc": [
+    10.1,
+    37.1
+   ],
+   "locName": "Castra Cornelia, near Utica",
+   "locCertainty": "probable",
+   "war": "second_punic_war",
+   "people": [
+    "scipio_africanus",
+    "masinissa",
+    "gaius_laelius"
+   ],
+   "polities": [
+    "rome",
+    "carthage",
+    "numidia_massylii"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "29.24-35"
+    },
+    {
+     "a": "Appian",
+     "w": "Libyca",
+     "r": "13-16"
+    },
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "14.1"
+    }
+   ],
+   "debate": "Livy records divergent figures for Scipio's army, from 10,000 foot and 2,200 horse to 35,000 in all.",
+   "certainty": "certain",
+   "tags": [
+    "invasion of Africa",
+    "legiones Cannenses"
+   ]
+  },
+  {
+   "id": "battle_of_utica_203",
+   "year": -203,
+   "month": 3,
+   "title": "Burning of the camps",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 4,
+   "summary": "While pretending to negotiate peace, Scipio sent spies disguised as slaves into the camps of Syphax and Hasdrubal son of Gisco near Utica. One night Laelius and Masinissa set fire to Syphax's camp of reed huts; as the Carthaginians ran out unarmed to help, Scipio fired their camp too. The two armies were destroyed.",
+   "detail": "Polybius (14.1-6) praises the operation as the most brilliant of Scipio's career; modern readers note the bad faith in breaking off negotiations he had encouraged. Polybius gives Hasdrubal 30,000 foot and 3,000 horse and Syphax 50,000 foot and 10,000 horse; Livy (30.6) claims 40,000 killed and 5,000 captured.",
+   "loc": [
+    10.03,
+    37.03
+   ],
+   "locName": "camps near Utica",
+   "locCertainty": "approx",
+   "war": "second_punic_war",
+   "people": [
+    "scipio_africanus",
+    "syphax",
+    "hasdrubal_gisco",
+    "masinissa",
+    "gaius_laelius"
+   ],
+   "polities": [
+    "rome",
+    "carthage",
+    "masaesylii"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "scipio_africanus",
+       "gaius_laelius",
+       "masinissa"
+      ],
+      "strength": "c. 30,000"
+     },
+     {
+      "polity": "carthage",
+      "commanders": [
+       "hasdrubal_gisco"
+      ],
+      "strength": "30,000 foot, 3,000 horse (Polybius)",
+      "losses": "most killed or burned"
+     },
+     {
+      "polity": "masaesylii",
+      "commanders": [
+       "syphax"
+      ],
+      "strength": "50,000 foot, 10,000 horse (Polybius)",
+      "losses": "camp destroyed"
+     }
+    ],
+    "victor": "rome",
+    "kind": "massacre",
+    "significance": "Destroyed the field armies of Carthage and Syphax at one stroke."
+   },
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "14.1-6"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "30.3-6"
+    },
+    {
+     "a": "Appian",
+     "w": "Libyca",
+     "r": "19-23"
+    }
+   ],
+   "debate": "Ancient army sizes are inflated; the ethics of the ruse were debated already in antiquity.",
+   "certainty": "certain",
+   "tags": [
+    "night attack",
+    "ruse",
+    "fire"
+   ]
+  },
+  {
+   "id": "battle_of_the_great_plains",
+   "year": -203,
+   "title": "Battle of the Great Plains",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "Hasdrubal and Syphax raised a new army, stiffened by 4,000 newly arrived Celtiberian mercenaries, on the Great Plains of the Bagradas. Scipio's Roman and Italian cavalry and Masinissa's Numidians routed both wings; the Celtiberians, with no hope of pardon, died fighting where they stood.",
+   "loc": [
+    9.2,
+    36.55
+   ],
+   "locName": "Campi Magni (Great Plains), Bagradas valley",
+   "locCertainty": "approx",
+   "war": "second_punic_war",
+   "people": [
+    "scipio_africanus",
+    "hasdrubal_gisco",
+    "syphax",
+    "masinissa"
+   ],
+   "polities": [
+    "rome",
+    "carthage",
+    "masaesylii",
+    "celtiberians"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "scipio_africanus",
+       "masinissa"
+      ],
+      "strength": "c. 20,000-25,000"
+     },
+     {
+      "polity": "carthage",
+      "commanders": [
+       "hasdrubal_gisco",
+       "syphax"
+      ],
+      "strength": "c. 30,000 incl. 4,000 Celtiberians",
+      "losses": "Celtiberians annihilated"
+     }
+    ],
+    "victor": "rome",
+    "kind": "field",
+    "significance": "Led Carthage to recall Hannibal and Mago."
+   },
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "14.7-8"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "30.8"
+    }
+   ],
+   "certainty": "probable"
+  },
+  {
+   "id": "capture_of_syphax_203",
+   "year": -203,
+   "title": "Capture of Syphax; Sophonisba",
+   "type": "battle",
+   "cats": [
+    "military",
+    "political"
+   ],
+   "importance": 3,
+   "summary": "Laelius and Masinissa pursued Syphax into his kingdom and defeated him; his horse was wounded and he was captured. Cirta opened its gates. Masinissa married Syphax's wife Sophonisba, daughter of Hasdrubal son of Gisco, but when Scipio demanded her surrender as a captive, Masinissa sent her poison, which she drank.",
+   "detail": "The Sophonisba story (Livy 30.12-15, Appian, Diodorus) became a favourite of Renaissance and later tragedians. Masinissa was rewarded with a crown, ivory sceptre and the title of king, and later took Syphax's realm.",
+   "loc": [
+    6.6147,
+    36.365
+   ],
+   "locName": "near Cirta (Constantine)",
+   "locCertainty": "approx",
+   "war": "second_punic_war",
+   "people": [
+    "syphax",
+    "masinissa",
+    "gaius_laelius",
+    "sophonisba"
+   ],
+   "polities": [
+    "rome",
+    "numidia_massylii",
+    "masaesylii"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "gaius_laelius",
+       "masinissa"
+      ],
+      "strength": "Roman and Numidian forces"
+     },
+     {
+      "polity": "masaesylii",
+      "commanders": [
+       "syphax"
+      ],
+      "strength": "new army of Masaesylii",
+      "losses": "Syphax captured"
+     }
+    ],
+    "victor": "rome",
+    "kind": "field",
+    "significance": "Removed Carthage's chief African ally and made Masinissa master of Numidia."
+   },
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "30.11-15"
+    },
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "14.9"
+    },
+    {
+     "a": "Appian",
+     "w": "Libyca",
+     "r": "26-28"
+    },
+    {
+     "a": "Diodorus Siculus",
+     "w": "Bibliotheca Historica",
+     "r": "27.7"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "Sophonisba",
+    "poison"
+   ]
+  },
+  {
+   "id": "mago_defeated_in_insubria_203",
+   "year": -203,
+   "title": "Mago defeated in Insubrian territory",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "The praetor Publius Quinctilius Varus and the proconsul Marcus Cornelius Cethegus defeated Mago's army in Insubrian territory. Mago, wounded in the thigh, withdrew to the Ligurian coast and sailed for Africa on the recall order, dying of his wound off Sardinia.",
+   "loc": [
+    9.2,
+    45.3
+   ],
+   "locName": "Insubrian territory",
+   "locCertainty": "approx",
+   "war": "second_punic_war",
+   "people": [
+    "mago_barca"
+   ],
+   "polities": [
+    "rome",
+    "carthage",
+    "insubres"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [],
+      "strength": "4 legions under P. Quinctilius Varus and M. Cornelius Cethegus",
+      "losses": "2,300 (Livy)"
+     },
+     {
+      "polity": "carthage",
+      "commanders": [
+       "mago_barca"
+      ],
+      "strength": "Carthaginians, Gauls and Ligurians",
+      "losses": "5,000 (Livy)"
+     }
+    ],
+    "victor": "rome",
+    "kind": "field",
+    "significance": "Ended the Carthaginian presence in northern Italy."
+   },
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "30.18-19"
+    }
+   ],
+   "debate": "Some sources (Nepos, Zonaras) say Mago survived; Livy reports he died at sea.",
+   "certainty": "probable"
+  },
+  {
+   "id": "hannibal_recalled_203",
+   "year": -203,
+   "title": "Hannibal leaves Italy",
+   "type": "campaign",
+   "cats": [
+    "military"
+   ],
+   "importance": 4,
+   "summary": "Recalled to defend Carthage, Hannibal sailed from Croton in autumn 203 after fifteen years in Italy, landing at Leptis Minor. Before leaving he set up at the temple of Hera Lacinia a bronze tablet in Punic and Greek recording his deeds and army numbers, which Polybius read.",
+   "detail": "Livy (30.20) says Hannibal left in a rage, cursing himself for not marching on Rome after Cannae, and Diodorus claims he massacred Italian soldiers who refused to follow him; the massacre story is probably Roman propaganda.",
+   "loc": [
+    17.203,
+    39.027
+   ],
+   "locName": "Croton / Cape Lacinium",
+   "locCertainty": "certain",
+   "war": "second_punic_war",
+   "people": [
+    "hannibal_barca"
+   ],
+   "polities": [
+    "carthage"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "30.19-20"
+    },
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "3.33.18"
+    },
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "3.56.4"
+    },
+    {
+     "a": "Diodorus Siculus",
+     "w": "Bibliotheca Historica",
+     "r": "27.9"
+    }
+   ],
+   "debate": "The massacre at the temple of Hera is widely doubted.",
+   "certainty": "certain",
+   "tags": [
+    "Lacinian inscription"
+   ]
+  },
+  {
+   "id": "armistice_broken_202",
+   "year": -202,
+   "title": "The armistice broken",
+   "type": "diplomacy",
+   "cats": [
+    "diplomatic"
+   ],
+   "importance": 2,
+   "summary": "During an armistice while a Carthaginian embassy was in Rome, a Roman supply convoy was driven ashore by a storm in the Gulf of Carthage and the Carthaginians seized it. When Roman envoys protested, their ship was attacked on the way back. Scipio resumed the war.",
+   "loc": [
+    10.3233,
+    36.8528
+   ],
+   "locName": "Gulf of Carthage",
+   "locCertainty": "approx",
+   "war": "second_punic_war",
+   "people": [
+    "scipio_africanus"
+   ],
+   "polities": [
+    "rome",
+    "carthage"
+   ],
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "15.1-2"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "30.24-25"
+    },
+    {
+     "a": "Appian",
+     "w": "Libyca",
+     "r": "34-35"
+    }
+   ],
+   "certainty": "certain"
+  },
+  {
+   "id": "battle_of_zama",
+   "year": -202,
+   "month": 10,
+   "title": "Battle of Zama",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 5,
+   "summary": "In the final battle of the war, Scipio arranged his maniples in columns with lanes through which Hannibal's 80 elephants were funnelled harmlessly. Laelius and Masinissa drove off the Carthaginian cavalry. The Roman infantry broke Hannibal's first two lines; the decisive struggle with his third line of Italian veterans was ended when the Roman and Numidian cavalry returned and fell on its rear.",
+   "detail": "Polybius (15.5-16) is the main source; he records the meeting of Hannibal and Scipio before the battle, in speeches that are his own compositions. Carthaginian losses were about 20,000 killed and nearly as many captured; Roman losses about 1,500. Hannibal escaped to Hadrumetum and advised Carthage to accept peace. The name 'Zama' comes from Nepos and later writers; Polybius places the battle near 'Margaron' and Livy near Naraggara.",
+   "loc": [
+    9.1,
+    36.1
+   ],
+   "locName": "near Zama Regia (exact site unknown)",
+   "locCertainty": "disputed",
+   "war": "second_punic_war",
+   "people": [
+    "scipio_africanus",
+    "hannibal_barca",
+    "masinissa",
+    "gaius_laelius"
+   ],
+   "polities": [
+    "rome",
+    "carthage",
+    "numidia_massylii"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome",
+      "commanders": [
+       "scipio_africanus",
+       "gaius_laelius",
+       "masinissa"
+      ],
+      "strength": "c. 29,000 Romans and Italians plus Masinissa's 6,000 foot and 4,000 horse",
+      "losses": "c. 1,500 (Polybius); 2,500 (Appian)"
+     },
+     {
+      "polity": "carthage",
+      "commanders": [
+       "hannibal_barca"
+      ],
+      "strength": "c. 36,000-40,000 infantry, 3,000-4,000 cavalry, 80 elephants",
+      "losses": "c. 20,000 killed and as many captured (Polybius)"
+     }
+    ],
+    "victor": "rome",
+    "kind": "field",
+    "significance": "Ended the Second Punic War and Carthage's career as a great power."
+   },
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "15.5-16"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "30.29-35"
+    },
+    {
+     "a": "Appian",
+     "w": "Libyca",
+     "r": "39-48"
+    },
+    {
+     "a": "Cornelius Nepos",
+     "w": "Hannibal",
+     "r": "6.3"
+    }
+   ],
+   "scholarship": [
+    "Lazenby, Hannibal's War (1978)",
+    "Lancel, Hannibal (1995)",
+    "Goldsworthy, The Punic Wars (2000)"
+   ],
+   "debate": "Site disputed (Polybius' Margaron, Livy's Naraggara, Nepos' Zama; Zama Regia itself is placed at Jama or Seba Biar). Conventional date 19 October rests on Livy's mention of an eclipse and is uncertain. Some scholars doubt that Hannibal's third line consisted of Italian veterans.",
+   "certainty": "certain",
+   "tags": [
+    "elephants",
+    "decisive battle",
+    "Margaron"
+   ]
+  },
+  {
+   "id": "peace_of_201",
+   "year": -201,
+   "title": "Peace treaty ending the Second Punic War",
+   "type": "treaty",
+   "cats": [
+    "diplomatic"
+   ],
+   "importance": 5,
+   "summary": "Carthage kept its African territory within the 'Phoenician trenches' and its own laws, but surrendered all warships except ten triremes, all elephants, and all prisoners and deserters; paid 10,000 talents over fifty years; gave 100 hostages chosen by Scipio; agreed to wage no war outside Africa and none in Africa without Roman permission; and restored to Masinissa all that had belonged to him or his ancestors.",
+   "detail": "The open-ended Masinissa clause was a time bomb: it gave the Numidian king licence to nibble Carthaginian territory for fifty years, ultimately provoking the Third Punic War. Five hundred Punic warships were towed out and burned, a sight Livy says moved the Carthaginians like the burning of the city itself. Deserters were executed, Latin ones beheaded, Roman ones crucified.",
+   "loc": [
+    10.3233,
+    36.8528
+   ],
+   "locName": "Carthage",
+   "locCertainty": "certain",
+   "war": "second_punic_war",
+   "people": [
+    "scipio_africanus",
+    "hannibal_barca",
+    "masinissa"
+   ],
+   "polities": [
+    "rome",
+    "carthage",
+    "numidia"
+   ],
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "15.18"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "30.37"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "30.43"
+    },
+    {
+     "a": "Appian",
+     "w": "Libyca",
+     "r": "54"
+    }
+   ],
+   "certainty": "certain",
+   "tags": [
+    "indemnity",
+    "Masinissa clause",
+    "Phoenician trenches"
+   ]
+  },
+  {
+   "id": "triumph_of_scipio_africanus_201",
+   "year": -201,
+   "title": "Scipio's triumph; the cognomen Africanus",
+   "type": "cultural",
+   "cats": [
+    "cultural",
+    "military"
+   ],
+   "importance": 3,
+   "summary": "Scipio returned and celebrated a magnificent triumph, depositing 123,000 pounds of silver in the treasury and giving each soldier 400 asses. He was the first Roman general to take a cognomen from a conquered land, Africanus, whether given by his soldiers, his friends or popular favour.",
+   "detail": "Polybius (16.23) says Syphax was led in the procession and died soon after; Livy says he died at Tibur before the triumph. Scipio refused, Livy says, offers of perpetual consulship and dictatorship and statues in the Comitium and on the Capitol.",
+   "loc": [
+    12.4823,
+    41.893
+   ],
+   "locName": "Rome, Capitol",
+   "locCertainty": "certain",
+   "war": "second_punic_war",
+   "people": [
+    "scipio_africanus",
+    "syphax"
+   ],
+   "polities": [
+    "rome"
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "30.45"
+    },
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "16.23"
+    },
+    {
+     "a": "Appian",
+     "w": "Libyca",
+     "r": "66"
+    }
+   ],
+   "debate": "Polybius and Livy disagree on whether Syphax walked in the triumph.",
+   "certainty": "certain",
+   "tags": [
+    "triumph",
+    "cognomen ex virtute"
+   ]
+  }
+ ]
+}

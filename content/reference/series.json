@@ -1,0 +1,1794 @@
+{
+ "series": [
+  {
+   "id": "denarius_silver",
+   "group": "silver_coinage",
+   "kind": "line",
+   "title": "Silver content of the denarius (traditional Walker figures)",
+   "unit": "% silver",
+   "note": "Rounded mean fineness as established by D. R. Walker's surface XRF analyses (1976-78) and widely reproduced (e.g. Harl 1996). Republican issues c. 95-98%. Walker's method measured silver-enriched surfaces, so post-64 values are now thought too high (see denarius_silver_bp). Key steps: Nero's reform of 64 (weight from 1/84 to 1/96 lb and fineness cut); Domitian's restoration of 82 and retreat of 85; Trajan's reform; Severus' heavy debasement from 194; the denarius gives way to the antoninianus in the 240s.",
+   "points": [
+    [
+     -211,
+     97
+    ],
+    [
+     -150,
+     97
+    ],
+    [
+     -44,
+     97
+    ],
+    [
+     -27,
+     97.5
+    ],
+    [
+     14,
+     97.5
+    ],
+    [
+     37,
+     97.5
+    ],
+    [
+     54,
+     97.5
+    ],
+    [
+     64,
+     93.5
+    ],
+    [
+     70,
+     90
+    ],
+    [
+     81,
+     90
+    ],
+    [
+     82,
+     98
+    ],
+    [
+     85,
+     93.5
+    ],
+    [
+     98,
+     93
+    ],
+    [
+     107,
+     89
+    ],
+    [
+     117,
+     87
+    ],
+    [
+     138,
+     87
+    ],
+    [
+     148,
+     83.5
+    ],
+    [
+     161,
+     79
+    ],
+    [
+     180,
+     76
+    ],
+    [
+     185,
+     74
+    ],
+    [
+     192,
+     70
+    ],
+    [
+     193,
+     87
+    ],
+    [
+     194,
+     78.5
+    ],
+    [
+     197,
+     56.5
+    ],
+    [
+     211,
+     51.5
+    ],
+    [
+     218,
+     58
+    ],
+    [
+     219,
+     46.5
+    ],
+    [
+     228,
+     43
+    ],
+    [
+     241,
+     48
+    ]
+   ],
+   "labels": {
+    "64": "Nero's reform",
+    "82": "Domitian restores Augustan standard",
+    "85": "Domitian retreats",
+    "107": "Trajan's reform (now dated c. 100)",
+    "193": "Pertinax's brief restoration",
+    "194": "Severus' debasement",
+    "218": "Macrinus' improvement"
+   },
+   "sources": [
+    "Walker, The Metrology of the Roman Silver Coinage I-III (BAR 1976-78)",
+    "Harl, Coinage in the Roman Economy, 300 B.C. to A.D. 700 (1996)",
+    "Duncan-Jones, Money and Government in the Roman Empire (1994)"
+   ]
+  },
+  {
+   "id": "denarius_silver_bp",
+   "group": "silver_coinage",
+   "kind": "line",
+   "title": "Silver content of the denarius, AD 54-117 (Butcher & Ponting revision)",
+   "unit": "% silver bullion (Ag+Au+Bi+Pb)",
+   "note": "Butcher and Ponting drilled cores and analysed the interior metal rather than the enriched surface. Their findings: pre-reform Neronian denarii were essentially pure; the reform of 64 cut fineness to c. 80%, a far sharper debasement than Walker's 93.5% (late Neronian issues c. 90%); Rome kept c. 80% under Vespasian and Titus while western and Syrian mints struck finer coin; Domitian's 82 reform restored pure silver and his 85 retreat set c. 90%, maintained by Nerva; Trajan reduced to c. 80% in a reform they date c. AD 100 (following Woytek) rather than 107. Values are bullion, not elemental silver, so not strictly comparable with Walker.",
+   "points": [
+    [
+     54,
+     98.5
+    ],
+    [
+     63,
+     98.5
+    ],
+    [
+     64,
+     80
+    ],
+    [
+     67,
+     80
+    ],
+    [
+     68,
+     90
+    ],
+    [
+     69,
+     90
+    ],
+    [
+     70,
+     80
+    ],
+    [
+     79,
+     80
+    ],
+    [
+     81,
+     80
+    ],
+    [
+     82,
+     100
+    ],
+    [
+     85,
+     90
+    ],
+    [
+     96,
+     90
+    ],
+    [
+     98,
+     90
+    ],
+    [
+     100,
+     80
+    ],
+    [
+     110,
+     80
+    ]
+   ],
+   "sources": [
+    "Butcher & Ponting, The Metallurgy of Roman Silver Coinage: From the Reform of Nero to the Reform of Trajan (Cambridge 2014)",
+    "Woytek et al., 'The Denarius under Trajan', NC 2007"
+   ]
+  },
+  {
+   "id": "antoninianus_silver",
+   "group": "silver_coinage",
+   "kind": "line",
+   "title": "Silver content of the antoninianus (radiate), 215-294",
+   "unit": "% silver",
+   "note": "Introduced by Caracalla in 215 as a double denarius containing only about 1.5-1.6 times the silver of one; dropped by Elagabalus c. 219, revived by Pupienus and Balbinus in 238, it became the main silver coin. Collapse under Valerian and Gallienus (financial strain, loss of mines and the Persian ransom/military crises) to a silver-washed bronze. Aurelian's reform of 274 marked coins XXI/KA, usually read as 1 part silver in 20 (5%). Diocletian's reform of c. 294 replaced it with the argenteus (c. 90% silver) and the silvered nummus. Figures are indicative means from several analytical programmes and vary by mint.",
+   "points": [
+    [
+     215,
+     52
+    ],
+    [
+     219,
+     47
+    ],
+    [
+     238,
+     48
+    ],
+    [
+     241,
+     46
+    ],
+    [
+     244,
+     42
+    ],
+    [
+     249,
+     40
+    ],
+    [
+     251,
+     36
+    ],
+    [
+     253,
+     30
+    ],
+    [
+     257,
+     20
+    ],
+    [
+     260,
+     15
+    ],
+    [
+     263,
+     8
+    ],
+    [
+     266,
+     4
+    ],
+    [
+     268,
+     2.5
+    ],
+    [
+     270,
+     2.5
+    ],
+    [
+     274,
+     5
+    ],
+    [
+     276,
+     4.5
+    ],
+    [
+     284,
+     4
+    ],
+    [
+     293,
+     4
+    ]
+   ],
+   "sources": [
+    "Walker, Metrology III (to 253)",
+    "Cope et al., analyses of radiate coinage",
+    "Harl, Coinage in the Roman Economy (1996)",
+    "Estiot, 'The Later Third Century', in Metcalf (ed.), Oxford Handbook of Greek and Roman Coinage (2012)"
+   ]
+  },
+  {
+   "id": "republican_census",
+   "kind": "bar",
+   "title": "Census returns of Roman citizens, 508 BC - AD 47",
+   "unit": "citizens counted",
+   "note": "Figures as transmitted (mostly Livy and the Periochae, with Dionysius, Pliny, Eusebius-Jerome, Phlegon, the Res Gestae and Tacitus); the early 5th-century numbers are probably annalistic constructions. Republican figures count adult male citizens (iuniores and seniores, or capita civium), owners of property, possibly excluding proletarii in some periods. Dips track war losses (209 BC after Cannae: 137,108) and enfranchisement drives jumps (70 BC: 910,000 after the Social War grants). The leap from 910,000 (70 BC) to 4,063,000 (28 BC) is the central crux of Roman demography: the 'low count' (Beloch, Brunt) holds that Augustus counted women and children, giving Italy c. 6-7 million free people; the 'high count' (Frank, Lo Cascio, Kehoe) holds that the method was unchanged and Republican censuses were badly incomplete, giving Italy 12-14 million or more. Scheidel and Hin propose intermediate solutions.",
+   "points": [
+    [
+     -508,
+     130000
+    ],
+    [
+     -503,
+     120000
+    ],
+    [
+     -498,
+     150700
+    ],
+    [
+     -493,
+     110000
+    ],
+    [
+     -474,
+     103000
+    ],
+    [
+     -465,
+     104714
+    ],
+    [
+     -459,
+     117319
+    ],
+    [
+     -392,
+     152573
+    ],
+    [
+     -340,
+     165000
+    ],
+    [
+     -323,
+     150000
+    ],
+    [
+     -294,
+     262321
+    ],
+    [
+     -289,
+     272000
+    ],
+    [
+     -280,
+     287222
+    ],
+    [
+     -276,
+     271224
+    ],
+    [
+     -265,
+     292234
+    ],
+    [
+     -252,
+     297797
+    ],
+    [
+     -247,
+     241712
+    ],
+    [
+     -241,
+     260000
+    ],
+    [
+     -234,
+     270713
+    ],
+    [
+     -209,
+     137108
+    ],
+    [
+     -204,
+     214000
+    ],
+    [
+     -194,
+     143704
+    ],
+    [
+     -189,
+     258318
+    ],
+    [
+     -179,
+     258794
+    ],
+    [
+     -174,
+     269015
+    ],
+    [
+     -169,
+     312805
+    ],
+    [
+     -164,
+     337022
+    ],
+    [
+     -159,
+     328316
+    ],
+    [
+     -154,
+     324000
+    ],
+    [
+     -147,
+     322000
+    ],
+    [
+     -142,
+     328442
+    ],
+    [
+     -136,
+     317933
+    ],
+    [
+     -131,
+     318823
+    ],
+    [
+     -125,
+     394736
+    ],
+    [
+     -115,
+     394336
+    ],
+    [
+     -86,
+     463000
+    ],
+    [
+     -70,
+     910000
+    ],
+    [
+     -28,
+     4063000
+    ],
+    [
+     -8,
+     4233000
+    ],
+    [
+     14,
+     4937000
+    ],
+    [
+     47,
+     5984072
+    ]
+   ],
+   "refs": {
+    "-508": "Dion. Hal. 5.20",
+    "-498": "Dion. Hal. 5.75",
+    "-493": "Dion. Hal. 6.96",
+    "-474": "Dion. Hal. 9.36",
+    "-465": "Livy 3.3.9",
+    "-459": "Livy 3.24.10",
+    "-392": "Pliny NH 33.16",
+    "-294": "Livy 10.47.2",
+    "-209": "Livy 27.36.7",
+    "-204": "Livy 29.37.6",
+    "-194": "Livy 35.9.2",
+    "-189": "Livy 38.36.10",
+    "-174": "Livy 42.10.1",
+    "-164": "Per. 46 (Plut. Aem. 38: 337,452)",
+    "-142": "Per. 54",
+    "-131": "Per. 59",
+    "-125": "Per. 60",
+    "-115": "Per. 63",
+    "-86": "Jerome, Chron.",
+    "-70": "Phlegon fr. 12 (Per. 98: 900,000)",
+    "-28": "RG 8.2",
+    "-8": "RG 8.3",
+    "14": "RG 8.4",
+    "47": "Tac. Ann. 11.25"
+   },
+   "sources": [
+    "Brunt, Italian Manpower 225 B.C.-A.D. 14 (1971), App. IV",
+    "Lo Cascio, 'The Size of the Roman Population', JRS 84 (1994)",
+    "Scheidel, 'Roman population size: the logic of the debate' (2008)",
+    "Hin, The Demography of Roman Italy (2013)"
+   ]
+  },
+  {
+   "id": "legions_count",
+   "kind": "line",
+   "title": "Number of legions under arms",
+   "unit": "legions",
+   "note": "Republican figures are modern reconstructions (Brunt) from Livy's annual dispositions; the early figures are schematic (two consular legions, four from 311 BC per Livy 9.30). Civil-war peaks combine both sides. Imperial counts follow attested creations and losses: 3 lost with Varus (AD 9); XV and XXII Primigenia (Caligula); I Italica (Nero); the legions of 68-69; Vespasian's cassation of four Rhine legions and creation of IV and XVI Flavia (70); I Minervia (83); losses of V Alaudae (86?) and XXI Rapax (92); II Traiana and XXX Ulpia; disappearance of IX Hispana and XXII Deiotariana under Hadrian or later; II and III Italica (165); I-III Parthica (197). After Diocletian legions multiplied but shrank to c. 1,000-3,000 men, and the Notitia lists over 150 units styled legio, so the count is not comparable.",
+   "points": [
+    [
+     -500,
+     2
+    ],
+    [
+     -311,
+     4
+    ],
+    [
+     -264,
+     4
+    ],
+    [
+     -218,
+     6
+    ],
+    [
+     -217,
+     11
+    ],
+    [
+     -216,
+     14
+    ],
+    [
+     -214,
+     20
+    ],
+    [
+     -212,
+     25
+    ],
+    [
+     -211,
+     25
+    ],
+    [
+     -207,
+     23
+    ],
+    [
+     -204,
+     19
+    ],
+    [
+     -202,
+     16
+    ],
+    [
+     -200,
+     8
+    ],
+    [
+     -190,
+     13
+    ],
+    [
+     -180,
+     10
+    ],
+    [
+     -168,
+     10
+    ],
+    [
+     -150,
+     7
+    ],
+    [
+     -90,
+     20
+    ],
+    [
+     -49,
+     40
+    ],
+    [
+     -42,
+     60
+    ],
+    [
+     -31,
+     60
+    ],
+    [
+     -25,
+     28
+    ],
+    [
+     9,
+     25
+    ],
+    [
+     39,
+     27
+    ],
+    [
+     66,
+     28
+    ],
+    [
+     69,
+     31
+    ],
+    [
+     70,
+     29
+    ],
+    [
+     83,
+     30
+    ],
+    [
+     86,
+     29
+    ],
+    [
+     92,
+     28
+    ],
+    [
+     106,
+     30
+    ],
+    [
+     135,
+     28
+    ],
+    [
+     165,
+     30
+    ],
+    [
+     197,
+     33
+    ],
+    [
+     235,
+     33
+    ]
+   ],
+   "sources": [
+    "Brunt, Italian Manpower (1971), Table XIII and ch. 22-26",
+    "Keppie, The Making of the Roman Army (1984)",
+    "Farnum, The Positioning of the Roman Imperial Legions (2005)",
+    "Le Bohec, The Imperial Roman Army (1994)"
+   ]
+  },
+  {
+   "id": "army_size",
+   "kind": "line",
+   "title": "Estimated total size of the Roman army, Augustus to Heraclius",
+   "unit": "soldiers",
+   "note": "Points are central estimates; 'range' gives scholarly low/high. Principate totals combine legions (paper strength c. 5,000-5,500) and auxilia (Tac. Ann. 4.5 implies roughly equal numbers in AD 23). Diocletian: John Lydus (De mens. 1.27) gives 389,704 soldiers and 45,562 in the fleets. c. 395: Notitia Dignitatum paper strengths; Agathias' 'old' figure of 645,000 is taken by Treadgold as the late 4th-century establishment, while Elton, Whitby and Coello argue for much lower real strengths. 559: Agathias (5.13) says Justinian's army had fallen to 150,000. 641: Treadgold's reconstruction after the Arab conquests; Haldon prefers lower figures.",
+   "points": [
+    [
+     14,
+     255000
+    ],
+    [
+     130,
+     375000
+    ],
+    [
+     211,
+     440000
+    ],
+    [
+     300,
+     435266
+    ],
+    [
+     395,
+     500000
+    ],
+    [
+     559,
+     150000
+    ],
+    [
+     641,
+     109000
+    ]
+   ],
+   "range": [
+    [
+     14,
+     250000,
+     300000
+    ],
+    [
+     130,
+     350000,
+     400000
+    ],
+    [
+     211,
+     400000,
+     450000
+    ],
+    [
+     300,
+     389704,
+     435266
+    ],
+    [
+     395,
+     400000,
+     645000
+    ],
+    [
+     559,
+     150000,
+     300000
+    ],
+    [
+     641,
+     80000,
+     130000
+    ]
+   ],
+   "sources": [
+    "MacMullen, 'How big was the Roman imperial army?', Klio 62 (1980)",
+    "Holder, 'Auxiliary deployment in the reign of Hadrian' (2003)",
+    "Treadgold, Byzantium and Its Army 284-1081 (1995)",
+    "Elton, Warfare in Roman Europe AD 350-425 (1996)",
+    "Whitby, 'Recruitment in Roman armies from Justinian to Heraclius' (1995)",
+    "John Lydus, De mensibus 1.27",
+    "Agathias, Histories 5.13"
+   ]
+  },
+  {
+   "id": "population_empire_beloch",
+   "group": "population_empire",
+   "kind": "line",
+   "title": "Population of the Roman Empire: Beloch",
+   "unit": "millions",
+   "note": "Karl Julius Beloch's pioneering estimate for the empire at Augustus' death (Italy c. 6 million on the low count).",
+   "points": [
+    [
+     14,
+     54
+    ]
+   ],
+   "sources": [
+    "Beloch, Die Bevölkerung der griechisch-römischen Welt (1886)"
+   ]
+  },
+  {
+   "id": "population_empire_frier",
+   "group": "population_empire",
+   "kind": "line",
+   "title": "Population of the Roman Empire: Frier",
+   "unit": "millions",
+   "note": "Bruce Frier's regional table in the Cambridge Ancient History: 45.5 million in AD 14 rising to 61.4 million by 164, on the eve of the Antonine plague.",
+   "points": [
+    [
+     14,
+     45.5
+    ],
+    [
+     164,
+     61.4
+    ]
+   ],
+   "sources": [
+    "Frier, 'Demography', CAH XI (2nd ed. 2000) 811-816"
+   ]
+  },
+  {
+   "id": "population_empire_scheidel",
+   "group": "population_empire",
+   "kind": "line",
+   "title": "Population of the Roman Empire: Scheidel and successors",
+   "unit": "millions",
+   "note": "Scheidel accepts c. 45 million for AD 14 on the low count and argues for growth to roughly 60-75 million by the mid-2nd century (Scheidel and Friesen use c. 70 million for c. 150-165; Harper c. 75 million). The Antonine plague (from 165) and the 3rd-century crisis cut this; the eastern empire under Justinian is put at c. 26-27 million before the plague of 541.",
+   "points": [
+    [
+     14,
+     45
+    ],
+    [
+     150,
+     70
+    ],
+    [
+     165,
+     75
+    ],
+    [
+     540,
+     26.5
+    ]
+   ],
+   "range": [
+    [
+     14,
+     45,
+     60
+    ],
+    [
+     150,
+     60,
+     75
+    ],
+    [
+     165,
+     60,
+     75
+    ],
+    [
+     540,
+     24,
+     30
+    ]
+   ],
+   "sources": [
+    "Scheidel, 'Demography', in Scheidel, Morris and Saller (eds.), Cambridge Economic History of the Greco-Roman World (2007)",
+    "Scheidel and Friesen, 'The size of the economy and the distribution of income in the Roman Empire', JRS 99 (2009)",
+    "Harper, The Fate of Rome (2017)",
+    "Treadgold, A History of the Byzantine State and Society (1997)"
+   ]
+  },
+  {
+   "id": "population_rome_city",
+   "kind": "line",
+   "title": "Population of the city of Rome (estimates)",
+   "unit": "inhabitants",
+   "note": "All figures are modern estimates with wide uncertainty; 'range' gives the spread. Archaic and early Republican figures rest on the area within the walls (c. 285-427 ha). The Augustan 'million' is inferred from the 200,000+ grain recipients plus women, children, slaves, foreigners and the elite households (Lo Cascio argues higher, Storey lower). Late-antique estimates use the pork-dole figures of 419 and 452 (Durliat). After the Gothic War (535-554) the city may have fallen below 50,000.",
+   "points": [
+    [
+     -500,
+     30000
+    ],
+    [
+     -300,
+     90000
+    ],
+    [
+     -200,
+     200000
+    ],
+    [
+     -130,
+     375000
+    ],
+    [
+     -20,
+     900000
+    ],
+    [
+     100,
+     1000000
+    ],
+    [
+     300,
+     750000
+    ],
+    [
+     419,
+     450000
+    ],
+    [
+     452,
+     300000
+    ],
+    [
+     530,
+     90000
+    ],
+    [
+     552,
+     35000
+    ],
+    [
+     600,
+     50000
+    ]
+   ],
+   "range": [
+    [
+     -500,
+     20000,
+     40000
+    ],
+    [
+     -300,
+     60000,
+     150000
+    ],
+    [
+     -200,
+     150000,
+     250000
+    ],
+    [
+     -130,
+     300000,
+     450000
+    ],
+    [
+     -20,
+     750000,
+     1200000
+    ],
+    [
+     100,
+     800000,
+     1200000
+    ],
+    [
+     300,
+     500000,
+     900000
+    ],
+    [
+     419,
+     300000,
+     600000
+    ],
+    [
+     452,
+     200000,
+     400000
+    ],
+    [
+     530,
+     60000,
+     150000
+    ],
+    [
+     552,
+     20000,
+     50000
+    ],
+    [
+     600,
+     30000,
+     90000
+    ]
+   ],
+   "sources": [
+    "Ampolo, in La formazione della città nel Lazio (1980)",
+    "Cornell, The Beginnings of Rome (1995)",
+    "Hopkins, Conquerors and Slaves (1978)",
+    "Morley, Metropolis and Hinterland (1996)",
+    "Lo Cascio, 'Le procedure di recensus' (1997)",
+    "Durliat, De la ville antique à la ville byzantine: le problème des subsistances (1990)",
+    "Krautheimer, Rome: Profile of a City 312-1308 (1980)"
+   ]
+  },
+  {
+   "id": "grain_dole",
+   "kind": "bar",
+   "title": "Recipients of the Roman grain dole (frumentationes)",
+   "unit": "recipients",
+   "note": "Gaius Gracchus' lex frumentaria (123 BC) introduced monthly sales at 6 1/3 asses per modius (numbers unknown). The lex Terentia Cassia (73 BC) fixed 5 modii a month; c. 40,000 recipients is inferred from Cicero's figures. Cato's law of 62 widened the list at a cost Plutarch gives as 1,250 talents a year. Clodius' law (58) made the grain free, and numbers swelled to 320,000 before Caesar's recensus cut them to 150,000 (Suet. Iul. 41.3). In 5 BC 320,000 of the plebs urbana took Augustus' cash gift (RG 15); in 2 BC he fixed the list at 'a little over 200,000' (RG 15; Dio 55.10.1), the approximate level for the next two centuries. Severus added oil, Aurelian baked bread, pork and wine. The 419 figure is for pork recipients (CTh 14.4.10) and is not strictly comparable.",
+   "points": [
+    [
+     -73,
+     40000
+    ],
+    [
+     -46,
+     320000
+    ],
+    [
+     -45,
+     150000
+    ],
+    [
+     -5,
+     320000
+    ],
+    [
+     -2,
+     200000
+    ],
+    [
+     419,
+     120000
+    ]
+   ],
+   "sources": [
+    "Suetonius, Divus Iulius 41.3",
+    "Res Gestae 15",
+    "Cassius Dio 55.10.1",
+    "Rickman, The Corn Supply of Ancient Rome (1980)",
+    "Garnsey, Famine and Food Supply in the Graeco-Roman World (1988)",
+    "Erdkamp, The Grain Market in the Roman Empire (2005)"
+   ]
+  },
+  {
+   "id": "emperor_reign_lengths",
+   "kind": "bar",
+   "title": "Length of emperors' reigns",
+   "unit": "years",
+   "note": "Derived from rulers.json: point = [accession year, length in years, name, how the reign ended, office]. Reigns that began and ended in the same year are shown as 0.5. Co-emperors are counted from their elevation to Augustus. Note the 3rd-century trough: between 235 and 284 the median reign is under three years and most ended in murder or battle.",
+   "points": [
+    [
+     -27,
+     40,
+     "Augustus",
+     "natural",
+     "emperor"
+    ],
+    [
+     14,
+     23,
+     "Tiberius",
+     "natural",
+     "emperor"
+    ],
+    [
+     37,
+     4,
+     "Caligula",
+     "murdered",
+     "emperor"
+    ],
+    [
+     41,
+     13,
+     "Claudius",
+     "murdered",
+     "emperor"
+    ],
+    [
+     54,
+     14,
+     "Nero",
+     "suicide",
+     "emperor"
+    ],
+    [
+     68,
+     1,
+     "Galba",
+     "murdered",
+     "emperor"
+    ],
+    [
+     69,
+     0.5,
+     "Otho",
+     "suicide",
+     "emperor"
+    ],
+    [
+     69,
+     10,
+     "Vespasian",
+     "natural",
+     "emperor"
+    ],
+    [
+     69,
+     0.5,
+     "Vitellius",
+     "murdered",
+     "emperor"
+    ],
+    [
+     79,
+     2,
+     "Titus",
+     "natural",
+     "emperor"
+    ],
+    [
+     81,
+     15,
+     "Domitian",
+     "murdered",
+     "emperor"
+    ],
+    [
+     96,
+     2,
+     "Nerva",
+     "natural",
+     "emperor"
+    ],
+    [
+     98,
+     19,
+     "Trajan",
+     "natural",
+     "emperor"
+    ],
+    [
+     117,
+     21,
+     "Hadrian",
+     "natural",
+     "emperor"
+    ],
+    [
+     138,
+     23,
+     "Antoninus Pius",
+     "natural",
+     "emperor"
+    ],
+    [
+     161,
+     8,
+     "Lucius Verus",
+     "natural",
+     "emperor"
+    ],
+    [
+     161,
+     19,
+     "Marcus Aurelius",
+     "natural",
+     "emperor"
+    ],
+    [
+     177,
+     15,
+     "Commodus",
+     "murdered",
+     "emperor"
+    ],
+    [
+     193,
+     0.5,
+     "Didius Julianus",
+     "executed",
+     "emperor"
+    ],
+    [
+     193,
+     0.5,
+     "Pertinax",
+     "murdered",
+     "emperor"
+    ],
+    [
+     193,
+     18,
+     "Septimius Severus",
+     "natural",
+     "emperor"
+    ],
+    [
+     198,
+     19,
+     "Caracalla",
+     "murdered",
+     "emperor"
+    ],
+    [
+     209,
+     2,
+     "Geta",
+     "murdered",
+     "emperor"
+    ],
+    [
+     217,
+     1,
+     "Macrinus",
+     "executed",
+     "emperor"
+    ],
+    [
+     218,
+     0.5,
+     "Diadumenian",
+     "executed",
+     "emperor"
+    ],
+    [
+     218,
+     4,
+     "Elagabalus",
+     "murdered",
+     "emperor"
+    ],
+    [
+     222,
+     13,
+     "Severus Alexander",
+     "murdered",
+     "emperor"
+    ],
+    [
+     235,
+     3,
+     "Maximinus Thrax",
+     "murdered",
+     "emperor"
+    ],
+    [
+     238,
+     0.5,
+     "Balbinus",
+     "murdered",
+     "emperor"
+    ],
+    [
+     238,
+     0.5,
+     "Gordian I",
+     "suicide",
+     "emperor"
+    ],
+    [
+     238,
+     0.5,
+     "Gordian II",
+     "killed in battle",
+     "emperor"
+    ],
+    [
+     238,
+     6,
+     "Gordian III",
+     "unknown",
+     "emperor"
+    ],
+    [
+     238,
+     0.5,
+     "Pupienus",
+     "murdered",
+     "emperor"
+    ],
+    [
+     244,
+     5,
+     "Philip the Arab",
+     "killed in battle",
+     "emperor"
+    ],
+    [
+     247,
+     2,
+     "Philip II",
+     "murdered",
+     "emperor"
+    ],
+    [
+     249,
+     2,
+     "Decius",
+     "killed in battle",
+     "emperor"
+    ],
+    [
+     251,
+     0.5,
+     "Herennius Etruscus",
+     "killed in battle",
+     "emperor"
+    ],
+    [
+     251,
+     0.5,
+     "Hostilian",
+     "natural",
+     "emperor"
+    ],
+    [
+     251,
+     2,
+     "Trebonianus Gallus",
+     "murdered",
+     "emperor"
+    ],
+    [
+     251,
+     2,
+     "Volusianus",
+     "murdered",
+     "emperor"
+    ],
+    [
+     253,
+     0.5,
+     "Aemilianus",
+     "murdered",
+     "emperor"
+    ],
+    [
+     253,
+     15,
+     "Gallienus",
+     "murdered",
+     "emperor"
+    ],
+    [
+     253,
+     7,
+     "Valerian",
+     "deposed",
+     "emperor"
+    ],
+    [
+     260,
+     0.5,
+     "Saloninus",
+     "murdered",
+     "emperor"
+    ],
+    [
+     268,
+     2,
+     "Claudius II Gothicus",
+     "natural",
+     "emperor"
+    ],
+    [
+     270,
+     5,
+     "Aurelian",
+     "murdered",
+     "emperor"
+    ],
+    [
+     270,
+     0.5,
+     "Quintillus",
+     "unknown",
+     "emperor"
+    ],
+    [
+     275,
+     1,
+     "Tacitus (emperor)",
+     "unknown",
+     "emperor"
+    ],
+    [
+     276,
+     0.5,
+     "Florianus",
+     "murdered",
+     "emperor"
+    ],
+    [
+     276,
+     6,
+     "Probus",
+     "murdered",
+     "emperor"
+    ],
+    [
+     282,
+     1,
+     "Carus",
+     "unknown",
+     "emperor"
+    ],
+    [
+     283,
+     2,
+     "Carinus",
+     "killed in battle",
+     "emperor"
+    ],
+    [
+     283,
+     1,
+     "Numerian",
+     "murdered",
+     "emperor"
+    ],
+    [
+     284,
+     21,
+     "Diocletian",
+     "abdicated",
+     "emperor"
+    ],
+    [
+     286,
+     19,
+     "Maximian",
+     "abdicated",
+     "emperor"
+    ],
+    [
+     305,
+     1,
+     "Constantius I",
+     "natural",
+     "emperor"
+    ],
+    [
+     305,
+     6,
+     "Galerius",
+     "natural",
+     "emperor"
+    ],
+    [
+     306,
+     31,
+     "Constantine I",
+     "natural",
+     "emperor"
+    ],
+    [
+     306,
+     6,
+     "Maxentius",
+     "killed in battle",
+     "emperor"
+    ],
+    [
+     306,
+     1,
+     "Severus II",
+     "executed",
+     "emperor"
+    ],
+    [
+     308,
+     16,
+     "Licinius",
+     "deposed",
+     "emperor"
+    ],
+    [
+     310,
+     3,
+     "Maximinus Daza",
+     "suicide",
+     "emperor"
+    ],
+    [
+     337,
+     13,
+     "Constans",
+     "murdered",
+     "emperor"
+    ],
+    [
+     337,
+     3,
+     "Constantine II",
+     "killed in battle",
+     "emperor"
+    ],
+    [
+     337,
+     24,
+     "Constantius II",
+     "natural",
+     "emperor"
+    ],
+    [
+     360,
+     3,
+     "Julian",
+     "killed in battle",
+     "emperor"
+    ],
+    [
+     363,
+     1,
+     "Jovian",
+     "accident",
+     "emperor"
+    ],
+    [
+     364,
+     14,
+     "Valens",
+     "killed in battle",
+     "emperor"
+    ],
+    [
+     364,
+     11,
+     "Valentinian I",
+     "natural",
+     "emperor"
+    ],
+    [
+     367,
+     16,
+     "Gratian",
+     "murdered",
+     "emperor"
+    ],
+    [
+     375,
+     17,
+     "Valentinian II",
+     "unknown",
+     "emperor"
+    ],
+    [
+     379,
+     16,
+     "Theodosius I",
+     "natural",
+     "emperor"
+    ],
+    [
+     395,
+     13,
+     "Arcadius",
+     "natural",
+     "emperor_east"
+    ],
+    [
+     395,
+     28,
+     "Honorius",
+     "natural",
+     "emperor_west"
+    ],
+    [
+     408,
+     42,
+     "Theodosius II",
+     "accident",
+     "emperor_east"
+    ],
+    [
+     421,
+     0.5,
+     "Constantius III",
+     "natural",
+     "emperor_west"
+    ],
+    [
+     425,
+     30,
+     "Valentinian III",
+     "murdered",
+     "emperor_west"
+    ],
+    [
+     450,
+     7,
+     "Marcian",
+     "natural",
+     "emperor_east"
+    ],
+    [
+     455,
+     1,
+     "Avitus",
+     "deposed",
+     "emperor_west"
+    ],
+    [
+     455,
+     0.5,
+     "Petronius Maximus",
+     "murdered",
+     "emperor_west"
+    ],
+    [
+     457,
+     17,
+     "Leo I",
+     "natural",
+     "emperor_east"
+    ],
+    [
+     457,
+     4,
+     "Majorian",
+     "executed",
+     "emperor_west"
+    ],
+    [
+     461,
+     4,
+     "Libius Severus",
+     "natural",
+     "emperor_west"
+    ],
+    [
+     467,
+     5,
+     "Anthemius",
+     "executed",
+     "emperor_west"
+    ],
+    [
+     472,
+     0.5,
+     "Olybrius",
+     "natural",
+     "emperor_west"
+    ],
+    [
+     473,
+     1,
+     "Glycerius",
+     "deposed",
+     "emperor_west"
+    ],
+    [
+     474,
+     6,
+     "Julius Nepos",
+     "murdered",
+     "emperor_west"
+    ],
+    [
+     474,
+     0.5,
+     "Leo II",
+     "natural",
+     "emperor_east"
+    ],
+    [
+     474,
+     17,
+     "Zeno",
+     "natural",
+     "emperor_east"
+    ],
+    [
+     475,
+     1,
+     "Romulus Augustulus",
+     "deposed",
+     "emperor_west"
+    ],
+    [
+     491,
+     27,
+     "Anastasius I",
+     "natural",
+     "emperor_east"
+    ],
+    [
+     518,
+     9,
+     "Justin I",
+     "natural",
+     "emperor_east"
+    ],
+    [
+     527,
+     38,
+     "Justinian I",
+     "natural",
+     "emperor_east"
+    ],
+    [
+     565,
+     13,
+     "Justin II",
+     "natural",
+     "emperor_east"
+    ],
+    [
+     578,
+     4,
+     "Tiberius II Constantine",
+     "natural",
+     "emperor_east"
+    ],
+    [
+     582,
+     20,
+     "Maurice",
+     "executed",
+     "emperor_east"
+    ],
+    [
+     602,
+     8,
+     "Phocas",
+     "executed",
+     "emperor_east"
+    ],
+    [
+     610,
+     31,
+     "Heraclius",
+     "natural",
+     "emperor_east"
+    ],
+    [
+     641,
+     27,
+     "Constans II",
+     "murdered",
+     "emperor_east"
+    ],
+    [
+     641,
+     0.5,
+     "Constantine III",
+     "natural",
+     "emperor_east"
+    ],
+    [
+     641,
+     0.5,
+     "Heraclonas",
+     "deposed",
+     "emperor_east"
+    ]
+   ],
+   "sources": [
+    "Derived from rulers.json (Kienast, Römische Kaisertabelle; PLRE)"
+   ]
+  },
+  {
+   "id": "empire_area",
+   "kind": "line",
+   "title": "Area of the Roman state (Taagepera)",
+   "unit": "million km²",
+   "note": "Rein Taagepera's estimates of territory under control. 326 BC: Rome with its Latin and Campanian holdings; 200 BC after the Second Punic War; 146 BC after Carthage and Corinth; 50 BC after Pompey and Caesar; 25 BC; peak under Trajan (117); 250-350 roughly 4.4; western empire c. 2.0 at 395; eastern empire 2.7-2.8 (c. 450 and again under Justinian c. 555). The 641 value is a rough estimate after the loss of Syria, Palestine and most of Egypt, not Taagepera's.",
+   "points": [
+    [
+     -326,
+     0.01
+    ],
+    [
+     -200,
+     0.36
+    ],
+    [
+     -146,
+     0.8
+    ],
+    [
+     -100,
+     1.2
+    ],
+    [
+     -50,
+     1.95
+    ],
+    [
+     -25,
+     2.75
+    ],
+    [
+     117,
+     5.0
+    ],
+    [
+     250,
+     4.4
+    ],
+    [
+     350,
+     4.4
+    ],
+    [
+     395,
+     4.4
+    ],
+    [
+     450,
+     2.7
+    ],
+    [
+     555,
+     2.7
+    ],
+    [
+     641,
+     1.2
+    ]
+   ],
+   "sources": [
+    "Taagepera, 'Size and duration of empires: growth-decline curves, 600 B.C. to 600 A.D.', Social Science History 3 (1979) 115-138",
+    "Taagepera, 'Expansion and contraction patterns of large polities', International Studies Quarterly 41 (1997)"
+   ]
+  }
+ ]
+}
