@@ -614,6 +614,7 @@ export function playMarch(c, onStep) {
   stopMarch();
   const pts = (c.path || []).filter((p) => Array.isArray(p.loc));
   if (pts.length < 2) return;
+  const named = pts.filter((p) => !p.marine);
   // densify for smooth motion
   const seg = [];
   for (let i = 0; i < pts.length - 1; i++) {
@@ -633,9 +634,9 @@ export function playMarch(c, onStep) {
     const s = seg[i];
     map.getSource('march').setData(fc([{ type: 'Feature', geometry: { type: 'LineString', coordinates: seg.slice(0, i + 1).map((q) => q.c).concat(i === 0 ? [s.c] : []) }, properties: {} }]));
     const wpIdx = s.wp;
-    const lastWp = seg.slice(0, i + 1).filter((q) => q.wp !== null).pop().wp;
+    const lastWp = seg.slice(0, i + 1).filter((q) => q.wp !== null && !pts[q.wp].marine).pop()?.wp ?? 0;
     map.getSource('marchHead').setData(fc([{ type: 'Feature', geometry: { type: 'Point', coordinates: s.c }, properties: { t: pts[lastWp].t || '' } }]));
-    if (wpIdx !== null) { onStep?.(wpIdx, pts[wpIdx], pts.length); pause = 22; }
+    if (wpIdx !== null && !pts[wpIdx].marine) { onStep?.(named.indexOf(pts[wpIdx]), pts[wpIdx], named.length); pause = 22; }
     i++;
     if (i >= seg.length) { clearInterval(marchTimer); marchTimer = null; onStep?.(-1); }
   }, 45);

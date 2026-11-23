@@ -164,12 +164,12 @@ const R = {
     return html + sourcesBlock(w.sources, w.scholarship) + '</div>';
   },
   campaign(c) {
-    let html = head(`Campaign · ${fmtRange(c.start, c.end)}`, c.name, [c.commander ? link(c.commander, null, 'person') : '', c.war ? link(c.war, null, 'war') : ''].filter(Boolean).join(' · '),
-      `<button data-action="march">Follow the march</button>`);
+    let html = head(`${c.kind === 'journey' ? 'Journey' : 'Campaign'} · ${fmtRange(c.start, c.end)}`, c.name, [c.commander || c.person ? link(c.commander || c.person, null, 'person') : '', c.war ? link(c.war, null, 'war') : ''].filter(Boolean).join(' · '),
+      `<button data-action="march">${c.kind === 'journey' ? 'Follow the journey' : 'Follow the march'}</button>`);
     html += `<div class="d-body"><p class="summary">${richText(c.summary, exists)} ${cert(c.certainty)}</p>`;
     if (c.strength) html += `<p><b>Forces.</b> ${esc(c.strength)}</p>`;
     if (c.note) html += `<div class="debate">${richText(c.note, exists)}</div>`;
-    html += `<h4>Route</h4><dl class="kv">${(c.path || []).map((p) => `<dt>${esc([p.d, p.m ? monthName(p.m).slice(0, 3) : '', p.y !== undefined ? fmtYear(p.y) : ''].filter(Boolean).join(' '))}</dt><dd><a class="ent" data-action="fly" data-lon="${p.loc?.[0]}" data-lat="${p.loc?.[1]}">${esc(p.t || '')}</a>${p.note ? ` <span class="muted">${richText(p.note, exists)}</span>` : ''}${p.event && exists(p.event) ? ` ${link(p.event, '→ event', 'event')}` : ''}</dd>`).join('')}</dl>`;
+    html += `<h4>Route</h4><dl class="kv">${(c.path || []).filter((p) => !p.marine).map((p) => `<dt>${esc([p.d, p.m ? monthName(p.m).slice(0, 3) : '', p.y !== undefined ? fmtYear(p.y) : ''].filter(Boolean).join(' '))}</dt><dd><a class="ent" data-action="fly" data-lon="${p.loc?.[0]}" data-lat="${p.loc?.[1]}">${esc(p.t || '')}</a>${p.note ? ` <span class="muted">${richText(p.note, exists)}</span>` : ''}${p.event && exists(p.event) ? ` ${link(p.event, '→ event', 'event')}` : ''}</dd>`).join('')}</dl>`;
     return html + '</div>';
   },
   place(p) {

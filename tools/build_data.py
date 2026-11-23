@@ -390,6 +390,7 @@ def main():
     for r in routes:
         r['line'] = [pt for pt in r.get('line', []) if good_loc(pt)]
     tours = dedupe(C['tours'], 'tour')
+    tours.sort(key=lambda t: year((t.get('stops') or [{}])[0].get('year')) or 0)
     tactics = dedupe(C['tactics'], 'tactic', key=lambda o: o.get('event'))
 
     # cross-reference checks, with alias repair for near-miss ids
