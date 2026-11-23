@@ -85,7 +85,7 @@ def load_all():
 
 
 def good_loc(loc):
-    return isinstance(loc, list) and len(loc) == 2 and all(isinstance(v, (int, float)) for v in loc) and -25 <= loc[0] <= 90 and -5 <= loc[1] <= 70
+    return isinstance(loc, list) and len(loc) == 2 and all(isinstance(v, (int, float)) for v in loc) and -25 <= loc[0] <= 130 and -12 <= loc[1] <= 70
 
 
 def year(v):

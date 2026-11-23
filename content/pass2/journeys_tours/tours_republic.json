@@ -1,0 +1,656 @@
+{"tours": [
+{
+ "id": "tour_city_state_italy",
+ "title": "How a city-state took Italy",
+ "summary": "From the expulsion of the kings to the first army sent outside Italy: how one Latin town out of dozens became master of the peninsula in 245 years, by war, colonies, roads and a uniquely flexible system of alliances.",
+ "stops": [
+  {
+   "year": -509,
+   "center": [
+    12.492,
+    41.89
+   ],
+   "zoom": 8.5,
+   "title": "A middling city loses its kings",
+   "text": "Start here, on the Tiber ford, around 509 BC by the Varronian reckoning. Rome is already the largest city of Latium, perhaps 25,000 to 40,000 people, and its territory of roughly 800 square kilometres is about a third of Old Latium. The first treaty with Carthage, which Polybius copied from a bronze tablet, shows Rome speaking for the coastal towns of Ardea, Antium, Circeii and Tarracina. Now the Tarquins are driven out and replaced by two annually elected magistrates, and the enormous Temple of Jupiter on the Capitol, one of the largest in the Mediterranean, is dedicated by a consul instead of a king. Keep that number in mind: two magistrates, one year. Rome will conquer Italy with commanders who change every twelve months, and its institutions will be shaped by that constraint at every step.",
+   "select": "expulsion_of_the_kings",
+   "layers": {
+    "territory": true,
+    "borders": true,
+    "events": true,
+    "battles": true,
+    "campaigns": true,
+    "journeys": false,
+    "legions": false,
+    "frontiers": true,
+    "extents": false,
+    "provinces": false,
+    "heat": false,
+    "namedRoads": true,
+    "cities": true
+   }
+  },
+  {
+   "year": -493,
+   "center": [
+    12.485,
+    41.892
+   ],
+   "zoom": 8,
+   "title": "Partners, not masters: the Latin treaty",
+   "text": "After the battle at Lake Regillus in 496, where legend put Castor and Pollux in the Roman line, Rome made peace with the Latin League. The Foedus Cassianum, inscribed on a bronze column that Cicero could still read in the Forum, promised peace 'as long as heaven and earth remain where they are', mutual military aid, and equal shares of booty. For a century Rome fought as one partner among many, against the Aequi on Mount Algidus and the Volsci in the southern hills, and new 'Latin colonies' were founded jointly. Notice the logic, because it never disappears: allies supplied soldiers, not tribute, and were paid in land and plunder. Rome's power would always be measured in men it could call to arms rather than in money it could collect.",
+   "select": "foedus_cassianum",
+   "layers": {}
+  },
+  {
+   "year": -396,
+   "center": [
+    12.404,
+    42.024
+   ],
+   "zoom": 9,
+   "title": "Veii: doubling the state",
+   "text": "Fifteen kilometres north of Rome stood Veii, an Etruscan city as large as Rome, which controlled the right bank of the Tiber and the salt road. The wars with Veii lasted most of the 5th century and ended, tradition says, with a ten-year siege modelled suspiciously on Troy. Livy has Camillus take the city through a tunnel and 'invite' Veii's goddess Juno Regina to a new temple on the Aventine. What is not legendary is the result: Rome annexed the whole territory, roughly doubling its land, and created four new voting tribes on it in 387. The long siege also forced a change that would matter for centuries: soldiers were paid a stipendium for the first time, so that citizen farmers could stay in the field through winter.",
+   "select": "siege_of_veii",
+   "layers": {}
+  },
+  {
+   "year": -390,
+   "center": [
+    12.482,
+    41.893
+   ],
+   "zoom": 8.5,
+   "title": "The Gauls in the Forum",
+   "text": "Six years after Veii, a Gallic war band of Senones crushed the Roman army at the Allia on 18 July, a date kept as a day of ill omen for ever after. The city was sacked; only the Capitol held, saved in the story by Juno's sacred geese. The Gauls left after receiving a ransom of a thousand pounds of gold, with Brennus throwing his sword on the scales and saying 'vae victis'. Polybius dates the sack to 387/386. The damage was severe but brief, and the response was revealing. Within a decade Rome built a circuit wall of nearly 11 kilometres in tufa from the quarries of conquered Veii, enclosing about 426 hectares, the largest fortified city in Italy. Rome recovered faster than its neighbours, and the trauma of 390 made the Gauls Rome's nightmare for three centuries.",
+   "select": "siege_of_rome_390",
+   "layers": {}
+  },
+  {
+   "year": -338,
+   "center": [
+    12.492,
+    41.89
+   ],
+   "zoom": 7.5,
+   "title": "The settlement of 338: a new kind of empire",
+   "text": "The Latins rose against Rome's growing dominance in 340 and lost. The peace of 338 is the single most important constitutional act in the conquest of Italy. Rome dissolved the Latin League and treated each city separately. Some, like Lanuvium, Aricia and Nomentum, were absorbed with full Roman citizenship. Others, like Tibur and Praeneste, stayed nominally independent allies bound to Rome alone, forbidden to trade or intermarry with one another. The Campanian cities received 'citizenship without the vote', a halfway status that gave Rome their soldiers. The bronze rams of Antium's warships were mounted on the speakers' platform in the Forum, which is why it was called the Rostra. Divide, bind each community separately, offer a ladder towards citizenship: that formula would carry Rome through the rest of Italy.",
+   "select": "settlement_of_338",
+   "layers": {
+    "cities": true
+   }
+  },
+  {
+   "year": -321,
+   "center": [
+    14.58,
+    41.04
+   ],
+   "zoom": 8,
+   "title": "Humiliation in the mountains",
+   "text": "Rome's next opponents were the Samnites, a federation of hill peoples in the central Apennines who were at least as numerous as the Romans. In 321 both consular armies marched into a defile near Caudium and found it blocked at both ends. Gavius Pontius let them go after they had passed under a yoke of spears, stripped to their tunics, leaving 600 knights as hostages. The Senate repudiated the treaty. The lesson was military and logistical: the old phalanx was useless in mountain valleys, and Roman armies needed bases. The more flexible manipular legion is usually dated to these wars, and Rome began to ring Samnium with fortified colonies, at Luceria in 314, Saticula, Interamna and later Venusia, each of several thousand settlers.",
+   "select": "battle_of_the_caudine_forks",
+   "layers": {}
+  },
+  {
+   "year": -312,
+   "center": [
+    12.495,
+    41.883
+   ],
+   "zoom": 7,
+   "title": "The first great road",
+   "text": "In 312 the censor [[appius_claudius_caecus|Appius Claudius]] began two works that made the Roman way of conquest visible: Rome's first aqueduct, and a road 132 Roman miles long from the Porta Capena to Capua. The Via Appia ran straight across the Pontine marshes on embankments and was later extended to Beneventum, Venusia, Tarentum and Brundisium. It was a military artery, letting legions reach Campania in a week and supplying the colonies planted along it, but it also tied Campania, the richest region of Italy, to Rome. Watch the named roads on the map from here on: Via Valeria, Flaminia, Aurelia, Aemilia. Each was built to hold newly conquered ground, and almost every one carries the name of the magistrate who built it during his term of office.",
+   "select": "via_appia",
+   "layers": {
+    "namedRoads": true,
+    "roads": true
+   }
+  },
+  {
+   "year": -295,
+   "center": [
+    12.859,
+    43.431
+   ],
+   "zoom": 7,
+   "title": "Sentinum: the battle for Italy",
+   "text": "In 295 the Samnites, Etruscans, Umbrians and Senonian Gauls finally combined against Rome. The decisive clash came at Sentinum in Umbria, with perhaps 36,000 Romans and allies against a still larger coalition, the largest battle yet fought in Italy. The Etruscans and Umbrians had been drawn off by a diversion, but the Gauls' chariots broke the Roman left. There the consul Publius Decius Mus, like his father in 340, performed the devotio: he dedicated himself and the enemy to the gods of the underworld and rode to his death in the Gallic ranks. Livy gives 25,000 enemy dead; the Greek historian Duris of Samos, writing within living memory, gave 100,000. After Sentinum no coalition could stop Rome from finishing the war, and the Samnites made peace in 290.",
+   "select": "battle_of_sentinum",
+   "layers": {}
+  },
+  {
+   "year": -280,
+   "center": [
+    16.66,
+    40.21
+   ],
+   "zoom": 7,
+   "title": "Pyrrhus and the price of victory",
+   "text": "Tarentum, the richest Greek city of the south, invited the best general of the age to fight Rome. [[pyrrhus|Pyrrhus]] of Epirus landed with about 25,000 men and 20 elephants, the first the Romans had seen, and won at Heraclea in 280 and at Ausculum in 279. His losses at Ausculum gave the language 'Pyrrhic victory'. His envoy Cineas reported that the Senate was 'an assembly of kings' and that fighting Rome was like fighting a hydra, because the citizen levy simply replaced every army destroyed. When the Senate wavered, the old, blind Appius Claudius had himself carried into the Curia and declared that Rome would not negotiate while a foreign army stood in Italy. That refusal to accept a peace after a lost battle became a Roman principle.",
+   "select": "battle_of_heraclea",
+   "layers": {}
+  },
+  {
+   "year": -275,
+   "center": [
+    14.78,
+    41.12
+   ],
+   "zoom": 7,
+   "title": "Beneventum: the south falls",
+   "text": "Pyrrhus spent three years in Sicily fighting Carthage and returned to Italy weakened. In 275 Manius Curius Dentatus met him near Maleventum in Samnium, and this time the elephants panicked and trampled their own side. Pyrrhus sailed home, and Rome renamed the place Beneventum, 'good result' instead of 'bad result', and settled a Latin colony there in 268. Tarentum surrendered in 272 with its Epirote garrison. Look at the map now: everything south of a line from Pisa to Ariminum belongs to a single system, about 150 communities bound to Rome by separate treaties. Ptolemy II of Egypt sent an embassy in 273 to establish friendly relations. The Hellenistic world had noticed that a new great power existed in the west.",
+   "select": "battle_of_beneventum",
+   "layers": {
+    "cities": true
+   }
+  },
+  {
+   "year": -264,
+   "center": [
+    15.554,
+    38.194
+   ],
+   "zoom": 7,
+   "title": "Across the strait",
+   "text": "In 264 a band of Campanian mercenaries who had seized Messina, the Mamertines, asked Rome for help against Syracuse and Carthage. Polybius says the Senate hesitated and the people, hoping for plunder, voted for war. For the first time a Roman army crossed the sea. Rome had no fleet, no provinces and no experience of overseas war, but it had the manpower of all Italy. Polybius' figures for 225 show what that meant: about 700,000 infantry and 70,000 cavalry liable for service among Romans and allies. The system built since 338, which turned defeated enemies into soldiers, was about to be tested against the richest state in the western Mediterranean. Continue with the tour 'Rome against Carthage'.",
+   "select": "mamertine_appeal_264",
+   "layers": {}
+  }
+ ]
+},
+{
+ "id": "tour_carthage",
+ "title": "Rome against Carthage",
+ "summary": "A century of war between the land power of Italy and the sea power of North Africa, from the first Roman fleet to the burning of Carthage.",
+ "stops": [
+  {
+   "year": -260,
+   "center": [
+    15.27,
+    38.32
+   ],
+   "zoom": 7.5,
+   "title": "A fleet from nothing",
+   "text": "Four years into the war, Rome realised it could not take Sicily while Carthage ruled the sea. According to Polybius it built 100 quinqueremes and 20 triremes in sixty days, copied from a Carthaginian warship that had run aground, and trained the rowers on benches set up on the beach. Knowing their crews could not out-manoeuvre the Carthaginians, the Romans fitted a boarding bridge with a spike, the corvus, which turned a sea battle into an infantry fight. At Mylae in 260 the consul Gaius Duilius captured or sank around 50 ships. He received the first naval triumph, a column decorated with the bronze rams of the captured ships in the Forum, and the lifelong right to be escorted home at night by a torch-bearer and a flute player.",
+   "select": "battle_of_mylae",
+   "layers": {
+    "territory": true,
+    "borders": true,
+    "events": true,
+    "battles": true,
+    "campaigns": true,
+    "journeys": false,
+    "legions": false,
+    "frontiers": true,
+    "extents": false,
+    "provinces": false,
+    "heat": false,
+    "namedRoads": true
+   }
+  },
+  {
+   "year": -256,
+   "center": [
+    13.95,
+    37.02
+   ],
+   "zoom": 7,
+   "title": "The largest sea battle of antiquity",
+   "text": "In 256 Rome went for Africa itself. Off Cape Ecnomus on the south coast of Sicily, 330 Roman ships carrying perhaps 140,000 men met 350 Carthaginian ships; by the number of men engaged it may be the largest naval battle ever fought. Rome won and the consul Regulus landed near Carthage, which sued for peace. Regulus offered terms so harsh that Carthage hired a Spartan mercenary, Xanthippus, who used elephants and cavalry to destroy the Roman army on the plain near Tunis in 255. Then the sea took its share: the fleet that evacuated the survivors was caught by a storm off Camarina, and Polybius says 284 of 364 ships were lost. Roman admirals lost more men to weather in this war than to the enemy.",
+   "select": "battle_of_ecnomus",
+   "layers": {}
+  },
+  {
+   "year": -241,
+   "center": [
+    12.3,
+    38.04
+   ],
+   "zoom": 8,
+   "title": "The Aegates: victory on borrowed money",
+   "text": "By 242 the treasury was empty and the war in Sicily was stalled around the Carthaginian strongholds of Lilybaeum and Drepana and Hamilcar Barca's mountain base at Eryx. Rich citizens lent the state the money for 200 new quinqueremes, built on a captured fast Rhodian design, to be repaid only if the war was won. In March 241 Lutatius Catulus caught a Carthaginian supply fleet off the Aegates islands, weighed down with grain for Hamilcar, and destroyed it. Carthage gave up Sicily and agreed to pay 3,200 talents over ten years. Sicily became Rome's first overseas province. Three years later, while Carthage fought its own mutinous mercenaries, Rome seized Sardinia too. Polybius thought that act of opportunism, more than anything, made a second war inevitable.",
+   "select": "battle_of_the_aegates",
+   "layers": {}
+  },
+  {
+   "year": -219,
+   "center": [
+    -0.267,
+    39.679
+   ],
+   "zoom": 7.5,
+   "title": "Saguntum",
+   "text": "Carthage rebuilt its power in Spain. Hamilcar, his son-in-law Hasdrubal and then his son Hannibal turned the silver mines and peoples of the south into a Barcid kingdom, with New Carthage as its capital. A treaty of 226 fixed the Ebro as the limit of Carthaginian expansion, but Saguntum, south of the Ebro, had become a friend of Rome. In 219 Hannibal besieged it for eight months and took it. In 218 a Roman embassy in the Carthaginian senate made the famous gesture: its leader, a Fabius, held up a fold of his toga and said that in it he carried peace and war, and they could choose. The Carthaginians said he could give whichever he liked. He shook out war. The legal case on both sides has been argued ever since.",
+   "select": "siege_of_saguntum",
+   "layers": {}
+  },
+  {
+   "year": -218,
+   "center": [
+    6.8,
+    45.0
+   ],
+   "zoom": 6,
+   "title": "Over the Alps",
+   "text": "Rome planned to fight in Spain and Africa. Hannibal took the war to Italy instead. He left New Carthage in spring 218 with, Polybius says, 90,000 infantry and 12,000 cavalry and 37 elephants, crossed the Pyrenees, the Rhône and in October the Alps, losing men to Gallic ambushes, snow and falls on the icy descent. He reached the Po valley with 20,000 infantry and 6,000 cavalry, figures Polybius took from an inscription Hannibal himself set up at Cape Lacinium. Which pass he used is one of the oldest arguments in ancient history: Col de la Traversette, Col du Clapier, Mont Cenis and the Little St Bernard all have defenders. Turn on the campaign layer to follow his route, then watch what happened to the first Roman armies that met him.",
+   "select": "hannibal_crosses_the_alps",
+   "layers": {
+    "campaigns": true
+   }
+  },
+  {
+   "year": -217,
+   "center": [
+    12.075,
+    43.205
+   ],
+   "zoom": 9,
+   "title": "Trasimene: an army vanishes in the fog",
+   "text": "After beating the Romans at the Ticinus and the Trebia in 218, Hannibal crossed the Apennines through the flooded Arno marshes, losing an eye to infection. In June 217 the consul Gaius Flaminius followed him along the north shore of Lake Trasimene in the morning mist. Hannibal had hidden his whole army on the hills above the narrow road. About 15,000 Romans died, many driven into the lake, and Flaminius was killed by a Gallic horseman. Rome appointed a dictator, Quintus Fabius Maximus, who refused battle and shadowed Hannibal, wearing him down and protecting the allies. Romans called him Cunctator, the delayer, first as an insult and later as the highest praise. Ennius wrote that 'one man, by delaying, restored the state'.",
+   "select": "battle_of_lake_trasimene",
+   "layers": {}
+  },
+  {
+   "year": -216,
+   "center": [
+    16.132,
+    41.306
+   ],
+   "zoom": 9,
+   "title": "Cannae",
+   "text": "Impatient with delay, Rome raised the largest army in its history, eight double-strength legions and as many allies, perhaps 86,000 men, and sent both consuls against Hannibal in Apulia. On 2 August 216, near the village of Cannae on the Aufidus, Hannibal let his centre of Gauls and Spaniards fall back while his African infantry closed in from the flanks and his cavalry sealed the rear. Polybius says 70,000 Romans died; Livy gives 48,200. The consul Aemilius Paullus and some 80 senators were among them. It became the textbook double envelopment, studied by Schlieffen. Then look at what did not happen: Capua and much of the south went over to Hannibal, but not one Latin colony did. Rome refused to ransom its prisoners and kept fighting.",
+   "select": "battle_of_cannae",
+   "layers": {}
+  },
+  {
+   "year": -213,
+   "center": [
+    15.287,
+    37.075
+   ],
+   "zoom": 9,
+   "title": "Syracuse and the engineer",
+   "text": "Hiero II of Syracuse had been Rome's loyal ally for half a century. When he died in 215 the city went over to Carthage, and in 213 Marcus Claudius Marcellus attacked by land and sea. He met the most ingenious defence in ancient history. Archimedes' machines dropped stones on the ships, and his iron claw lifted their prows out of the water and dropped them. The famous burning mirrors are a much later legend. Marcellus took the city in 212 when the guards on the Epipolae plateau were drunk at a festival of Artemis; Archimedes, absorbed in a geometric problem, was killed by a soldier. Marcellus shipped the city's statues and paintings to Rome. Cato and Polybius saw the beginning of a fatal Roman taste for Greek art in that plunder.",
+   "select": "siege_of_syracuse_213",
+   "layers": {}
+  },
+  {
+   "year": -209,
+   "center": [
+    -0.986,
+    37.6
+   ],
+   "zoom": 9,
+   "title": "Scipio takes New Carthage",
+   "text": "After his father and uncle were killed in Spain in 211, the 25-year-old Publius Cornelius Scipio was given a proconsular command by the people although he had held no senior office. In 209 he marched on New Carthage, the Barcid capital, in a single dash. He knew from local fishermen that the lagoon behind the city became fordable when the evening wind drove the water out, and told his men Neptune had promised him help. While the walls were attacked from the isthmus, a party waded across the lagoon and found the wall unguarded. Scipio captured the arsenal, the mint, the treasury and the Spanish hostages, whom he sent home with gifts. The war in Spain turned, and at Ilipa in 206 Carthage lost the peninsula.",
+   "select": "siege_of_new_carthage",
+   "layers": {}
+  },
+  {
+   "year": -207,
+   "center": [
+    12.9,
+    43.71
+   ],
+   "zoom": 8.5,
+   "title": "The Metaurus: the march that saved Rome",
+   "text": "In 207 Hannibal's brother Hasdrubal crossed the Alps with a second army. His letter announcing the rendezvous was captured. The consul Gaius Claudius Nero, watching Hannibal in the south, did something no consul was supposed to do: he left his province without orders, took 7,000 picked men and marched north, perhaps 400 kilometres in about a week, while the towns along the road fed his men. He slipped into his colleague's camp at night. On the Metaurus river Hasdrubal realised from the doubled trumpet calls that both consuls faced him, tried to retreat and was trapped and killed. Nero rode back south and had Hasdrubal's head thrown in front of Hannibal's outposts. Hannibal is said to have recognised in it the fate of Carthage.",
+   "select": "battle_of_the_metaurus",
+   "layers": {}
+  },
+  {
+   "year": -202,
+   "center": [
+    9.1,
+    36.1
+   ],
+   "zoom": 7,
+   "title": "Zama",
+   "text": "Scipio invaded Africa in 204, burned the Carthaginian camps, won the Numidian prince [[masinissa|Masinissa]] to his side and forced Carthage to recall Hannibal after fifteen years in Italy. They met near Zama in 202, the exact site still unknown. Hannibal opened with 80 elephants; Scipio arranged his maniples in columns with lanes for the beasts to run through. The battle was decided when Masinissa's and Laelius' cavalry returned to strike Hannibal's last line from behind. The peace of 201 left Carthage independent but harmless: 10,000 talents over fifty years, a fleet of only ten triremes, no war anywhere without Rome's permission. Rome kept Spain, which would cost it two centuries of fighting, and Scipio took the name Africanus.",
+   "select": "battle_of_zama",
+   "layers": {}
+  },
+  {
+   "year": -146,
+   "center": [
+    10.323,
+    36.853
+   ],
+   "zoom": 9,
+   "title": "Carthago delenda est",
+   "text": "Carthage recovered so well that it offered to pay off its indemnity early. [[cato_the_elder|Cato]] ended every speech by saying that Carthage must be destroyed, and once showed the Senate fresh figs picked in Carthage three days before. When Carthage defended itself against Masinissa in 150, Rome declared war. The Carthaginians surrendered their weapons, 200,000 sets of armour and 2,000 catapults, and were then ordered to abandon their city and move ten miles from the sea. They refused and held out for three years. In spring 146 Scipio Aemilianus broke in and fought six days through the streets. About 50,000 survivors were sold. The territory became the province of Africa. The ploughing of the ruins with salt is a modern invention.",
+   "select": "destruction_of_carthage",
+   "layers": {}
+  }
+ ]
+},
+{
+ "id": "tour_greek_east",
+ "title": "Conquering the Greek East",
+ "summary": "How Rome, drawn across the Adriatic by Illyrian pirates, broke the Hellenistic kingdoms in seventy years and inherited Alexander's world.",
+ "stops": [
+  {
+   "year": -229,
+   "center": [
+    19.92,
+    39.624
+   ],
+   "zoom": 6.5,
+   "title": "First steps across the Adriatic",
+   "text": "Rome's first military venture east of Italy was a police action. Illyrian ships under Queen [[teuta|Teuta]] were raiding Italian traders, and in 230 a Roman envoy was murdered. In 229 both consuls crossed the Adriatic with 200 ships and 22,000 men. Corcyra, Apollonia, Epidamnus and the Illyrian tribes of the coast placed themselves under Roman protection. What happened next matters more than the fighting: Roman envoys travelled to the Aetolian and Achaean leagues, to Athens and to Corinth to explain the war, and Romans were admitted to the Isthmian Games in 228. For the Greeks, Rome had stepped onto their stage. For Philip V of Macedon, a Roman protectorate on his western coast was an intolerable intrusion.",
+   "select": "roman_crossing_to_illyria_229",
+   "layers": {
+    "territory": true,
+    "borders": true,
+    "events": true,
+    "battles": true,
+    "campaigns": true,
+    "journeys": false,
+    "legions": false,
+    "frontiers": true,
+    "extents": false,
+    "provinces": false,
+    "heat": false,
+    "namedRoads": true
+   }
+  },
+  {
+   "year": -211,
+   "center": [
+    21.5,
+    38.6
+   ],
+   "zoom": 6.5,
+   "title": "A treaty that shocked the Greeks",
+   "text": "When Philip V allied with Hannibal after Cannae, Rome fought him cheaply, by finding Greek allies. The treaty of 211 with the Aetolian League survives in part on a stone from Thyrrheion in Acarnania. Its terms were brutal: any city taken jointly would go to the Aetolians, but its movable property and people would go to Rome. The sack of Aegina in 210 showed what that meant, as its inhabitants were sold as slaves. Greek opinion never forgot it, and Polybius treats Roman conduct in this war as barbarous. The war ended with the Peace of Phoenice in 205, a draw that left Philip intact. Rome had learned that it could manage the Greek East through local allies who would ask it to intervene again.",
+   "select": "roman_aetolian_treaty_211",
+   "layers": {}
+  },
+  {
+   "year": -197,
+   "center": [
+    22.55,
+    39.43
+   ],
+   "zoom": 8,
+   "title": "The legion meets the phalanx",
+   "text": "Rome went back to war with Philip in 200, scarcely recovered from Hannibal, at the request of Pergamon and Rhodes. The young consul Titus Quinctius Flamininus brought Philip to battle in 197 on the 'dog's head' hills of Thessaly, in fog. Polybius uses the battle to compare the two systems. On level ground the Macedonian phalanx, sixteen ranks deep with pikes over five metres long, was irresistible from the front. But it could not turn or cross broken ground. An unnamed military tribune took twenty maniples from the victorious Roman right and struck the advancing Macedonian right in the rear. The phalanx could not respond and was destroyed. Philip kept his throne but lost his fleet, his garrisons in Greece and his freedom to make war.",
+   "select": "battle_of_cynoscephalae",
+   "layers": {}
+  },
+  {
+   "year": -196,
+   "center": [
+    22.993,
+    37.916
+   ],
+   "zoom": 8,
+   "title": "The freedom of the Greeks",
+   "text": "At the Isthmian Games of 196, before a crowd from every Greek state, a herald read out the Senate's decision: the Greeks formerly ruled by Philip were to be free, without garrisons, without tribute, under their own laws. The crowd, Plutarch says, shouted so loudly that crows flying overhead fell dead. In 194 Flamininus withdrew every Roman soldier from Greece. This was not altruism. 'Freedom of the Greeks' was the standard slogan of Hellenistic kings, and Rome used it to deny Greece to Philip and to [[antiochus_iii|Antiochus III]]. It also created a world of cities that saw Rome as their patron and appealed to it in every dispute. Freedom granted by Rome could be defined, and withdrawn, by Rome.",
+   "select": "isthmian_declaration",
+   "layers": {}
+  },
+  {
+   "year": -190,
+   "center": [
+    27.5,
+    38.68
+   ],
+   "zoom": 8,
+   "title": "Magnesia: the Seleucid giant falls",
+   "text": "Antiochus III, who had marched to India and back, crossed to Greece in 192 at the invitation of the Aetolians. The Romans drove him out at Thermopylae, followed him into Asia, and in late 190 met him near Magnesia under Mount Sipylus. Lucius Scipio was the nominal commander, his brother Africanus the real adviser, and King Eumenes II of Pergamon the hero of the day. The Seleucid army, perhaps 70,000 strong with scythed chariots, war elephants and a phalanx of 16,000, was larger than the Roman force. Eumenes' cavalry and archers stampeded the chariots back into their own lines, and the phalanx, surrounded, was shot down. Antiochus' son Antiochus IV spent fourteen years as a hostage in Rome.",
+   "select": "battle_of_magnesia",
+   "layers": {}
+  },
+  {
+   "year": -188,
+   "center": [
+    30.16,
+    38.07
+   ],
+   "zoom": 7,
+   "title": "Apamea: Asia Minor redrawn",
+   "text": "The peace signed at Apamea in Phrygia in 188 is one of the harshest of antiquity. Antiochus surrendered everything north of the Taurus mountains, paid 15,000 talents over twelve years, gave up his elephants and all but ten warships, and handed over twenty hostages. Rome took no territory. It gave the lands to its friends: most of western Asia Minor went to Pergamon, Lycia and Caria to Rhodes. This was the pattern for the next half-century: Rome won the war, then left behind client states, swollen by its gifts, which competed for its favour. The indemnity money began to flow into Rome; in 187 Manlius Vulso's army returned from Asia with, Livy complained, bronze couches, female lute players and the first professional cooks.",
+   "select": "treaty_of_apamea",
+   "layers": {}
+  },
+  {
+   "year": -168,
+   "center": [
+    22.56,
+    40.32
+   ],
+   "zoom": 8,
+   "title": "Pydna: the end of Macedon",
+   "text": "Philip's son Perseus was a capable king who rebuilt Macedonian strength and popularity in Greece, and Rome decided to finish the kingdom. On 22 June 168, the day after a lunar eclipse that allows the date to be fixed, Lucius Aemilius Paullus met him at Pydna near Mount Olympus. Paullus later admitted that the advancing phalanx was the most frightening sight of his life. But on the uneven ground near the river the line opened gaps, Roman maniples worked into them, and in about an hour 20,000 Macedonians were dead. Perseus was led in Paullus' triumph and died in custody. Macedon was split into four republics forbidden to trade or intermarry with one another. The dynasty of Philip II and Alexander was over.",
+   "select": "battle_of_pydna",
+   "layers": {}
+  },
+  {
+   "year": -168,
+   "center": [
+    29.92,
+    31.2
+   ],
+   "zoom": 8,
+   "title": "The circle in the sand",
+   "text": "In the same summer, Antiochus IV invaded Ptolemaic Egypt and stood at Eleusis, a suburb of Alexandria, with the kingdom in his grasp. A Roman envoy, Gaius Popillius Laenas, met him there and handed him a tablet with the Senate's demand that he leave Egypt. When the king asked for time to consult his advisers, Popillius drew a circle around him in the sand with his vine stick and told him to answer before he stepped out of it. Antiochus agreed. The news of Pydna had arrived a few days before. Without a single Roman soldier present, the greatest king in Asia withdrew. Polybius, who tells the story, makes it the moment at which Roman power over the whole Mediterranean became plain to everyone.",
+   "select": "day_of_eleusis",
+   "layers": {}
+  },
+  {
+   "year": -167,
+   "center": [
+    20.75,
+    39.5
+   ],
+   "zoom": 7.5,
+   "title": "The year of terror",
+   "text": "After Pydna Rome changed tone. In 167 the Senate ordered Paullus to punish Epirus, which had sided with Perseus. In a single day his soldiers sacked seventy towns, and 150,000 people were sold into slavery, perhaps the largest single enslavement recorded in antiquity. Rhodes, which had tried to mediate, lost its territories in Asia and was ruined commercially when Rome made Delos a free port. A thousand leading Achaeans suspected of disloyalty were deported to Italy, among them [[polybius|Polybius]], who would spend seventeen years in Rome and write the history of how all this had happened. Booty from Macedon was so great that Roman citizens paid no direct tax, the tributum, from 167 until 43 BC.",
+   "select": "sack_of_epirus_167",
+   "layers": {}
+  },
+  {
+   "year": -146,
+   "center": [
+    22.88,
+    37.905
+   ],
+   "zoom": 8.5,
+   "title": "Corinth",
+   "text": "In 146 the Achaean League, misjudging both its strength and Roman patience, went to war against Rome over its right to coerce Sparta. The consul Lucius Mummius defeated the Achaeans at Leucopetra and entered Corinth, one of the richest cities in Greece. The men were killed, the women and children sold, and the city razed, in the same year as Carthage. Polybius, who arrived soon after, saw soldiers playing dice on famous paintings thrown on the ground. Mummius was so ignorant of art that he warned the shippers that if they lost the statues they would have to replace them with new ones. Macedonia became a province, Greece was placed under its governor, and Corinth stayed empty for a century until Caesar refounded it.",
+   "select": "sack_of_corinth",
+   "layers": {}
+  },
+  {
+   "year": -133,
+   "center": [
+    27.184,
+    39.132
+   ],
+   "zoom": 7.5,
+   "title": "A kingdom by will",
+   "text": "In 133 Attalus III of Pergamon died and left his kingdom to the Roman people. The motive is unclear: perhaps to forestall a civil war, perhaps because he expected Rome to take it anyway. Aristonicus, a claimant who promised freedom to slaves and the poor in a 'City of the Sun', resisted until 129. The province of Asia that followed was the richest Rome had acquired, and its revenues became a political prize at once. Tiberius Gracchus proposed to use the royal treasure to fund his land reform, and his brother Gaius later gave the collection of Asia's tithe to Roman tax-farming companies, the publicani. Their greed would make Rome hated across the Aegean, a hatred that exploded under Mithridates in 88.",
+   "select": "pergamon_bequest",
+   "layers": {}
+  },
+  {
+   "year": -63,
+   "center": [
+    36.33,
+    41.29
+   ],
+   "zoom": 5.5,
+   "title": "Pompey reorders the East",
+   "text": "The conquest ended with one man. Given extraordinary commands against the pirates in 67 and against Mithridates in 66, [[pompey|Pompey]] swept through the East, ended the Seleucid dynasty, took Jerusalem and entered the Holy of Holies, and in 63 redrew the map. New provinces of Bithynia-Pontus and Syria were created, Cilicia enlarged, and a ring of client kings, from Galatia to Judaea to Armenia, was bound to Rome and to Pompey personally. He claimed to have raised the annual revenues of the state from 50 to 85 million denarii. Egypt alone remained, nominally independent until Octavian took it in 30 BC. Alexander's world was now Rome's, and it had been won as much by Roman politicians competing for glory as by any plan.",
+   "select": "pompeys_eastern_settlement",
+   "layers": {}
+  }
+ ]
+},
+{
+ "id": "tour_fall_republic",
+ "title": "The fall of the Republic",
+ "summary": "A century of escalating violence, from the murder of a tribune in 133 to the battle that left one man in control of the Roman world.",
+ "stops": [
+  {
+   "year": -133,
+   "center": [
+    12.483,
+    41.892
+   ],
+   "zoom": 10,
+   "title": "The first blood",
+   "text": "The empire had made Rome rich and its peasant soldiers poor. Long service abroad ruined small farms, the rich bought up or simply occupied public land worked by slaves, and the census showed fewer men qualified for the legions. In 133 the tribune [[tiberius_gracchus|Tiberius Gracchus]] passed a law to reclaim public land above 500 iugera and distribute it in small lots. To do it he deposed a fellow tribune who vetoed him, and proposed to use the Pergamene bequest to fund the scheme. When he stood for a second tribunate, his cousin Scipio Nasica, the chief priest, led senators armed with chair legs out of the Temple of Fides and clubbed him and about 300 supporters to death. It was the first political killing in Rome's assembly in nearly four centuries.",
+   "select": "murder_of_tiberius_gracchus",
+   "layers": {
+    "territory": true,
+    "borders": true,
+    "events": true,
+    "battles": true,
+    "campaigns": true,
+    "journeys": false,
+    "legions": false,
+    "frontiers": true,
+    "extents": false,
+    "provinces": false,
+    "heat": false,
+    "namedRoads": true
+   }
+  },
+  {
+   "year": -121,
+   "center": [
+    12.48,
+    41.884
+   ],
+   "zoom": 10,
+   "title": "Gaius Gracchus and the emergency decree",
+   "text": "Ten years later Tiberius' younger brother [[gaius_gracchus|Gaius]] came back with a full programme: subsidised grain for citizens, new colonies including one on the site of Carthage, roads, a jury law that gave the courts for extortion to the equestrian class, and a plan to give the Latins citizenship. When rioting broke out in 121, the Senate for the first time passed what came to be called the senatus consultum ultimum, urging the consul Opimius to see that the state came to no harm. Opimius attacked Gracchus' followers on the Aventine with archers from Crete. Gaius had a slave kill him in a sacred grove; his head was paid for with its weight in gold. Some 3,000 of his supporters were executed. Opimius then rebuilt the Temple of Concord.",
+   "select": "death_of_gaius_gracchus",
+   "layers": {}
+  },
+  {
+   "year": -107,
+   "center": [
+    9.0,
+    38.5
+   ],
+   "zoom": 6,
+   "title": "Marius opens the legions",
+   "text": "The war against Jugurtha in Numidia exposed the Senate as corrupt and incompetent; Jugurtha is supposed to have called Rome 'a city for sale'. In 107 the people elected a new man, Gaius Marius, consul and gave him the command by law, overriding the Senate. Marius enlisted volunteers from the capite censi, citizens too poor to meet the property qualification. It was not quite a revolution, since the qualification had been falling for a century, but it changed the relationship between soldier and state. Poor volunteers looked to their general for land when they were discharged, and generals needed political power to get it for them. Marius went on to destroy the Cimbri and Teutones and to hold five consecutive consulships, a thing without precedent.",
+   "select": "marian_recruitment_107",
+   "layers": {}
+  },
+  {
+   "year": -91,
+   "center": [
+    13.575,
+    42.854
+   ],
+   "zoom": 7.5,
+   "title": "The allies revolt",
+   "text": "Rome's Italian allies had supplied half or more of its soldiers for two centuries without a vote in its decisions. When the tribune Livius Drusus, who promised them citizenship, was murdered in 91, the Marsi, Samnites and others rose. The war began at Asculum in Picenum, where the people killed a Roman praetor and every Roman in the town. The rebels founded a state called Italia, with a capital at Corfinium, a senate, consuls and coins showing the Italian bull goring the Roman wolf. It was a ferocious war fought between men trained in the same army. Rome won it by giving way: the lex Julia of 90 and later laws offered citizenship to all who stayed loyal or laid down their arms. Italy south of the Po became Roman.",
+   "select": "massacre_at_asculum_91",
+   "layers": {}
+  },
+  {
+   "year": -88,
+   "center": [
+    12.505,
+    41.896
+   ],
+   "zoom": 8,
+   "title": "Sulla marches on Rome",
+   "text": "In 88 the consul [[sulla|Sulla]] was given the command against [[mithridates_vi|Mithridates]] of Pontus, who had just ordered the massacre of perhaps 80,000 Romans and Italians in the province of Asia. A tribune transferred the command to Marius by a vote of the people. Sulla went to his six legions in Campania, told them they would lose the rich eastern campaign, and marched them on Rome. All his officers but one quaestor refused to follow. It was the first time a Roman army had taken the city by force. Sulla outlawed Marius, passed his laws and left for Greece. The rule that had held since the kings, that armed soldiers did not enter the pomerium, was broken, and it would be broken again within a year.",
+   "select": "sullas_march_on_rome",
+   "layers": {}
+  },
+  {
+   "year": -82,
+   "center": [
+    12.485,
+    41.893
+   ],
+   "zoom": 10,
+   "title": "The proscriptions",
+   "text": "After three years in the East, Sulla came back and fought his way to Rome through a civil war that ended at the Colline Gate in November 82. He then did something new: he posted lists in the Forum of men who could be killed by anyone, with a reward of two talents, and whose property would be sold at auction. The sons and grandsons of the proscribed were barred from office. Perhaps 520 names appeared on the first lists, and thousands of men died before the killings stopped, many for their estates rather than their politics; the young [[crassus|Crassus]] made a fortune buying confiscated property. Sulla made himself dictator, enlarged the Senate to about 600, crippled the tribunate, and settled his veterans on land taken from Italian towns.",
+   "select": "sullan_proscriptions",
+   "layers": {}
+  },
+  {
+   "year": -63,
+   "center": [
+    12.485,
+    41.893
+   ],
+   "zoom": 10,
+   "title": "Cicero and the conspirators",
+   "text": "In 63 the consul was [[cicero|Cicero]], a new man from Arpinum. His rival Catiline, a bankrupt patrician twice defeated at the polls, planned an armed rising with discontented veterans and the indebted. Cicero exposed him in the Senate with the speech that begins 'How long, Catiline, will you abuse our patience?' Five conspirators who stayed in Rome were arrested after envoys of the Allobroges handed over incriminating letters. On 5 December the Senate debated their fate. Caesar argued for life imprisonment; Cato for death. Cicero had them strangled that night in the Tullianum and announced 'vixerunt': they have lived. He called himself the saviour of the country, but executing citizens without trial would drive him into exile five years later.",
+   "select": "execution_of_the_catilinarians",
+   "layers": {}
+  },
+  {
+   "year": -60,
+   "center": [
+    12.485,
+    41.892
+   ],
+   "zoom": 10,
+   "title": "Three men and the state",
+   "text": "Pompey returned from the East in 62, disbanded his army, and found the Senate refusing to ratify his settlement or give his veterans land. Crassus wanted relief for the tax-farmers of Asia. [[julius_caesar|Caesar]] wanted a consulship and a great command. In 60 they made a private pact. As consul in 59 Caesar passed their programme by violence and ignored his colleague's religious obstruction, and the law of Vatinius gave him Illyricum and Cisalpine Gaul for five years, with Transalpine Gaul added by the Senate. The scholar Varro called it 'Trikaranos', the three-headed monster. The triumvirate showed that three determined men with money, veterans and popularity could run Rome around the institutions.",
+   "select": "formation_of_the_first_triumvirate",
+   "layers": {}
+  },
+  {
+   "year": -49,
+   "center": [
+    12.397,
+    44.093
+   ],
+   "zoom": 8.5,
+   "title": "The Rubicon",
+   "text": "Caesar spent nine years conquering Gaul, gaining a battle-hardened army devoted to him, a fortune, and enemies in Rome who planned to prosecute him the moment he became a private citizen. Crassus died at Carrhae in 53, and Pompey drew closer to the Senate. In January 49 the Senate ordered Caesar to give up his army and passed the emergency decree against him. On the night of 10 January he crossed the Rubicon, the small river that marked the boundary of his province, with a single legion. Suetonius and Plutarch report the words 'the die is cast', which Plutarch says he spoke in Greek, quoting the playwright Menander. Pompey, with no army ready in Italy, abandoned Rome and then the peninsula.",
+   "select": "crossing_of_the_rubicon",
+   "layers": {}
+  },
+  {
+   "year": -48,
+   "center": [
+    22.38,
+    39.32
+   ],
+   "zoom": 8.5,
+   "title": "Pharsalus",
+   "text": "Caesar secured Spain, then crossed to Greece in winter, was nearly destroyed at Dyrrachium, and followed Pompey into Thessaly. On 9 August 48 at Pharsalus, Pompey had perhaps 45,000 infantry and 7,000 cavalry against Caesar's 22,000 and 1,000. Pompey planned to crush Caesar's right with his cavalry. Caesar had foreseen it and placed a fourth line of six cohorts behind his cavalry, with orders to strike upward at the riders' faces with their javelins. The cavalry fled and the Pompeian line was rolled up. Caesar, looking at the dead senators, said: 'They wanted it'. Pompey fled to Egypt, where he was murdered on the beach. Caesar would win more battles at Thapsus and Munda, and be killed by his own senators on the Ides of March 44.",
+   "select": "battle_of_pharsalus",
+   "layers": {}
+  },
+  {
+   "year": -44,
+   "center": [
+    12.477,
+    41.895
+   ],
+   "zoom": 10,
+   "title": "The Ides of March",
+   "text": "Dictator for life from February 44, Caesar had reformed the calendar, enlarged the Senate to 900, planned a war against Parthia and filled the city with building projects. About sixty senators, led by Brutus and Cassius, many of them men he had pardoned, decided that the Republic could only be restored by killing him. On 15 March he was stabbed 23 times in the meeting hall of the Senate in Pompey's theatre complex, at the foot of Pompey's statue. The assassins had made no plan for what came next. Antony used Caesar's funeral to turn the crowd against them, and Caesar's will named as his heir an 18-year-old great-nephew, Gaius Octavius, who took the name Caesar at once.",
+   "select": "ides_of_march",
+   "layers": {}
+  },
+  {
+   "year": -31,
+   "center": [
+    20.7,
+    38.95
+   ],
+   "zoom": 8.5,
+   "title": "Actium",
+   "text": "The heirs of Caesar destroyed the assassins at Philippi in 42 and then turned on each other. Octavian held the West; Antony held the East, with Cleopatra as his partner and queen. Octavian made the war a crusade of Italy against a foreign queen. On 2 September 31, at the mouth of the Ambracian Gulf, Antony's fleet, blockaded and wasting from disease and desertion, tried to break out. Agrippa's lighter ships pressed it, and in the afternoon Cleopatra's squadron of sixty ships hoisted sail and broke through to the open sea; Antony followed. The rest of the fleet surrendered, and the land army went over to Octavian a week later. Both lovers killed themselves at Alexandria the following summer. Continue with 'Augustus builds an empire'.",
+   "select": "battle_of_actium",
+   "layers": {}
+  }
+ ]
+}
+]}

@@ -116,7 +116,7 @@ export async function initMap(onReady) {
     container: 'map',
     attributionControl: false,
     center: [12.5, 41.9], zoom: window.innerWidth < 760 ? 4.2 : 5.2, minZoom: 2.6, maxZoom: 16.5, renderWorldCopies: false,
-    maxBounds: [[-40, -5], [100, 75]],
+    maxBounds: [[-40, -15], [135, 75]],
     dragRotate: false, pitchWithRotate: false,
     style: {
       version: 8,
@@ -340,10 +340,13 @@ export function updateYear(y, force = false) {
     if (g.area < 1200) continue;
     // label at the sizeable region nearest the polity's area-weighted centre
     let cx = g.cx / g.area, cy = g.cy / g.area;
-    if (g.pol.id === 'rome' && g.area < 1.2e6) { cx = 13.0; cy = 42.3; } // keep the Republic's name on Italy
+    // fixed anchors keep Rome's name on land near the heart of the state rather than in the desert
+    const ANCHOR = { rome: g.area < 1.2e6 ? [13.0, 42.3] : [21.5, 41.8], rome_west: [4.5, 46.5], rome_east: [32.5, 39.2] };
+    const anchored = ANCHOR[g.pol.id];
+    if (anchored) [cx, cy] = anchored;
     let bd = Infinity;
     for (const r of g.regs) {
-      if ((r.area || 0) < g.bestArea * (g.pol.id === 'rome' && g.area < 1.2e6 ? 0 : ROMAN.has(g.pol.id) ? 0.45 : 0.2)) continue;
+      if ((r.area || 0) < g.bestArea * (anchored ? (g.area < 1.2e6 ? 0 : 0.08) : 0.2)) continue;
       const d = (r.labelPt[0] - cx) ** 2 + (r.labelPt[1] - cy) ** 2;
       if (d < bd) { bd = d; g.best = r; }
     }

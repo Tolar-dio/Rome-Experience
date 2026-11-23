@@ -52,7 +52,7 @@ export function initExtras(m) {
     'text-field': ['get', 'name'], 'text-font': SERIF, 'text-size': ['interpolate', ['linear'], ['zoom'], 12.5, 11, 16, 14], 'text-variable-anchor': ['top', 'bottom', 'left', 'right'], 'text-radial-offset': 0.8, 'text-max-width': 9, 'text-optional': true,
   }, paint: { 'text-color': '#2A211C', 'text-halo-color': 'rgba(244,239,230,.92)', 'text-halo-width': 1.5 } });
   map.addLayer({ id: 'sites', type: 'circle', source: 'sites', minzoom: 3.5, paint: {
-    'circle-radius': ['interpolate', ['linear'], ['zoom'], 3.5, 2.6, 9, 6], 'circle-color': ['get', 'color'], 'circle-stroke-color': '#F4EFE6', 'circle-stroke-width': 1.2,
+    'circle-radius': ['interpolate', ['linear'], ['zoom'], 3.5, 3.4, 9, 7], 'circle-color': ['get', 'color'], 'circle-stroke-color': '#F4EFE6', 'circle-stroke-width': 1.4,
     'circle-opacity': ['case', ['get', 'fresh'], 1, 0.85],
   } });
   map.addLayer({ id: 'sites-new', type: 'circle', source: 'sites', filter: ['get', 'fresh'], paint: { 'circle-radius': ['interpolate', ['linear'], ['zoom'], 3.5, 9, 9, 16], 'circle-color': 'rgba(0,0,0,0)', 'circle-stroke-color': ['get', 'color'], 'circle-stroke-width': 2 } });

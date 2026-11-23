@@ -1,0 +1,694 @@
+{"tours": [
+{
+ "id": "tour_augustus",
+ "title": "Augustus builds an empire",
+ "summary": "How Octavian, sole master of the Roman world at 33, turned a military dictatorship into a durable monarchy disguised as a restored Republic, and pushed the empire to the Danube, the Elbe and the Atlantic.",
+ "stops": [
+  {
+   "year": -30,
+   "center": [
+    29.91,
+    31.2
+   ],
+   "zoom": 7,
+   "title": "The treasure of the Ptolemies",
+   "text": "Start in Alexandria in August 30 BC. With Antony and Cleopatra dead, Octavian took Egypt not as an ordinary province but as a personal possession. It was governed by an equestrian prefect, and no senator could enter it without his permission. Egypt's grain fed Rome for about four months of the year, and the treasury of the Ptolemies paid for everything that followed. Octavian used it to settle perhaps 120,000 veterans in colonies in Italy and the provinces, buying land instead of confiscating it as in 41. He also kept a standing army for the first time: 28 legions, about 150,000 citizen soldiers, with a similar number of auxiliaries. Interest rates in Rome reportedly fell from 12 to 4 per cent when the gold arrived.",
+   "select": "annexation_of_egypt",
+   "layers": {
+    "territory": true,
+    "borders": true,
+    "events": true,
+    "battles": true,
+    "campaigns": true,
+    "journeys": false,
+    "legions": false,
+    "frontiers": true,
+    "extents": false,
+    "provinces": false,
+    "heat": false,
+    "namedRoads": true
+   }
+  },
+  {
+   "year": -27,
+   "center": [
+    12.485,
+    41.892
+   ],
+   "zoom": 10,
+   "title": "The Republic restored",
+   "text": "On 13 January 27 Octavian handed the state back to the Senate and people. The Senate immediately gave much of it back to him: a ten-year command over the provinces with armies, Spain, Gaul, Syria, Egypt, and on 16 January the name Augustus, 'the revered one', together with a golden shield listing his virtues and laurels for his door. The Senate kept the peaceful provinces, governed by proconsuls chosen by lot. Augustus remained consul every year. Contemporaries understood the reality perfectly well. The genius of the arrangement was that it allowed senators to keep their honours, their careers and their self-respect while one man controlled the armies, the money and the appointments that mattered.",
+   "select": "settlement_of_27",
+   "layers": {}
+  },
+  {
+   "year": -26,
+   "center": [
+    -3.98,
+    43.15
+   ],
+   "zoom": 7.5,
+   "title": "The last conquest of Spain",
+   "text": "Augustus went to Spain himself in 26 to finish a war begun two centuries earlier. The Cantabri and Astures of the northern mountains held out in hillforts like Aracillum, whose siege earthworks have been excavated near Reinosa. The emperor fell ill and retired to Tarraco, leaving the fighting to his legates; the war dragged on until Agrippa crushed the last revolt in 19, after troops in Spain had become so demoralised that he stripped a legion of its name. The reward was the gold of the northwest, worked on a colossal scale at mines like Las Médulas, where whole mountains were brought down by water channelled from the hills. Augusta Emerita was founded for the veterans in 25, and the peninsula was finally reorganised into three provinces.",
+   "select": "siege_of_aracillum",
+   "layers": {}
+  },
+  {
+   "year": -23,
+   "center": [
+    12.485,
+    41.892
+   ],
+   "zoom": 10,
+   "title": "The settlement of 23",
+   "text": "In 23 Augustus nearly died of illness and handed his signet ring to Agrippa, and a conspiracy was uncovered among the elite. He responded with a second settlement that defined the principate for three centuries. He gave up the annual consulship, freeing a place for senators. In exchange he received tribunician power for life, which gave him the right to propose laws, veto any act and claim the tribunes' sacrosanctity, and a greater proconsular power (imperium maius) over all provincial governors. Emperors would count their years by tribunician power from now on, as you can see on their coins as TR P. It was a typically Augustan solution: no new office, just a combination of old powers held by one man without the offices that went with them.",
+   "select": "second_settlement_23bc",
+   "layers": {}
+  },
+  {
+   "year": -20,
+   "center": [
+    38.0,
+    37.0
+   ],
+   "zoom": 6,
+   "title": "Victory without a battle",
+   "text": "During his eastern tour Augustus achieved the propaganda coup of his reign. Phraates IV of Parthia, facing a Roman army in Armenia under Tiberius and a rival claimant at Roman disposal, returned the legionary standards lost by Crassus at Carrhae in 53 and by Antony's generals, together with surviving prisoners. No battle was fought. Augustus celebrated it as if it were a conquest: coins showed a kneeling Parthian offering a standard, an arch was built in the Forum, and the breastplate of the Prima Porta statue shows the handover at its centre. The standards were later deposited in the temple of Mars Ultor. Rome and Parthia would compete for Armenia for centuries, but the Euphrates had been accepted as a practical border.",
+   "select": "return_of_the_parthian_standards",
+   "layers": {
+    "journeys": true
+   }
+  },
+  {
+   "year": -17,
+   "center": [
+    12.47,
+    41.9
+   ],
+   "zoom": 10,
+   "title": "A new age",
+   "text": "In June 17 Augustus held the Secular Games, a festival supposed to happen once every saeculum, the longest human lifespan, which the priests calculated at 110 years. The ritual protocol has survived in an inscription found by the Tiber in 1890. Over three nights and days there were sacrifices to the Moirai, to the goddesses of childbirth, to Mother Earth, and then to Jupiter, Juno, Apollo and Diana. On the last day a chorus of 27 boys and 27 girls sang a hymn written for the occasion by Horace, the Carmen Saeculare, which survives. It marked the start of a new golden age, and it came a year after the Julian laws on marriage and adultery, which penalised the unmarried and childless among the upper classes.",
+   "select": "ludi_saeculares_17bc",
+   "layers": {}
+  },
+  {
+   "year": -15,
+   "center": [
+    10.9,
+    47.5
+   ],
+   "zoom": 6,
+   "title": "To the Danube",
+   "text": "Augustus' stepsons Tiberius and Drusus completed the conquest of the Alps in a single campaign in 15. Drusus came up the Adige valley from Italy, Tiberius from Gaul via Lake Constance, where he fought a naval battle; together they reached the upper Danube. The trophy at La Turbie above Monaco, erected in 7-6 BC, lists 45 Alpine peoples conquered. For the first time land communication between Italy and Gaul and the Danube lands was secure. In the following years Tiberius conquered Pannonia, and Drusus led armies from the Rhine as far as the Elbe, where he died in 9 BC after a fall from his horse. A province between the Rhine and the Elbe seemed only a matter of time.",
+   "select": "conquest_of_raetia",
+   "layers": {
+    "campaigns": true
+   }
+  },
+  {
+   "year": -13,
+   "center": [
+    12.476,
+    41.906
+   ],
+   "zoom": 11,
+   "title": "The altar of peace",
+   "text": "When Augustus returned from Gaul and Spain in 13 BC, the Senate voted an altar to the Augustan Peace on the Campus Martius; it was dedicated on 30 January 9 BC. Its marble screens are the most sophisticated statement of the new order. A procession of the imperial family moves along the sides, Agrippa, Livia, the children; this is the first time Roman state art shows children and women of a ruling house. On the front panels, a goddess, perhaps Tellus, Italia or Pax, nurses twins among plants and animals, and Aeneas sacrifices on arriving in Latium. The lower register is covered with acanthus scrolls full of insects, lizards and birds. The altar was rebuilt in the 1930s from fragments, some recovered from beneath a palazzo.",
+   "select": "ara_pacis",
+   "layers": {}
+  },
+  {
+   "year": -2,
+   "center": [
+    12.488,
+    41.894
+   ],
+   "zoom": 11,
+   "title": "The Forum of Augustus",
+   "text": "On 5 February 2 BC Augustus was named 'father of his country', and in the same year he dedicated his forum and the Temple of Mars Ultor, vowed forty years earlier at Philippi. The forum, closed by a firewall 30 metres high, was a lesson in history. In the exedrae stood statues of Aeneas and the Alban kings on one side, Romulus and the great men of the Republic on the other, each with an inscription describing his career, and in the centre a four-horse chariot dedicated to Augustus. The message was that Augustus was the culmination of Roman history. Here the Senate met to decide on war and triumphs, and boys put on the toga of manhood. Augustus' own grandsons and heirs were dead within six years.",
+   "select": "forum_of_augustus_dedicated",
+   "layers": {}
+  },
+  {
+   "year": 6,
+   "center": [
+    12.485,
+    41.892
+   ],
+   "zoom": 10,
+   "title": "Paying for the army",
+   "text": "The great unsolved problem was money for veterans. After 13 BC soldiers received cash instead of land, and in AD 6 Augustus created a military treasury, the aerarium militare, starting it with 170 million sesterces of his own. It was funded thereafter by a 5 per cent tax on inheritances and a 1 per cent tax on auction sales, paid by Roman citizens, who had paid no direct tax since 167 BC. Service was fixed at sixteen, then twenty years for legionaries, with a discharge bonus of 12,000 sesterces. The army was now a professional standing force, recruited increasingly in the provinces. That same year a revolt broke out in Pannonia and Illyricum that took three years and half the army to suppress.",
+   "select": "aerarium_militare",
+   "layers": {}
+  },
+  {
+   "year": 9,
+   "center": [
+    8.129,
+    52.408
+   ],
+   "zoom": 7,
+   "title": "Varus, give me back my legions",
+   "text": "In September AD 9, Publius Quinctilius Varus, governor of the new territory between the Rhine and the Elbe, was led into a trap by [[arminius|Arminius]], a Cheruscan prince who held Roman citizenship and equestrian rank. Over several days of rain, on forest tracks and along a turf rampart at the foot of the Kalkriese hill, three legions, the XVII, XVIII and XIX, with six cohorts and three cavalry wings were destroyed. Their numbers were never used again. Suetonius says Augustus beat his head against a door, crying 'Quinctilius Varus, give me back my legions!' Germanicus avenged the defeat in AD 14-16, but Rome never again tried to rule east of the Rhine. Augustus advised his successor to keep the empire within its existing bounds.",
+   "select": "battle_of_the_teutoburg_forest",
+   "layers": {}
+  },
+  {
+   "year": 14,
+   "center": [
+    32.86,
+    39.94
+   ],
+   "zoom": 7,
+   "title": "The record of his achievements",
+   "text": "Augustus died at Nola on 19 August AD 14, a month short of 76. His last words to his friends, according to Suetonius, were a line from a comedy: if he had played his part well, they should applaud. He left a text to be inscribed on bronze pillars in front of his mausoleum, the Res Gestae, 'things accomplished'. The best surviving copy is on the temple of Rome and Augustus in Ancyra, in Latin and Greek. It lists his honours, his donations, his building and his conquests, and ends with the claim that after 27 BC he 'excelled all in authority, but had no more power than his colleagues in each office'. It is the most brilliant piece of political misdirection in Roman history. His successor, Tiberius, was already in power.",
+   "select": "res_gestae_divi_augusti",
+   "layers": {}
+  }
+ ]
+},
+{
+ "id": "tour_frontier",
+ "title": "Life on the frontier",
+ "summary": "Soldiers, walls, letters and sieges: what it meant to garrison the edge of the Roman world, from the mutinies of AD 14 to Diocletian's eastern forts.",
+ "stops": [
+  {
+   "year": 14,
+   "center": [
+    6.958,
+    50.941
+   ],
+   "zoom": 7,
+   "title": "The soldiers' complaint",
+   "text": "When Augustus died, the three legions in summer camp in Pannonia mutinied. Tacitus gives their spokesman, a former theatre claqueur named Percennius, a speech that is our best summary of a soldier's grievances. Men were kept thirty or forty years under the standards, many maimed, and discharged to swampy or mountain land. Pay was ten asses a day, out of which they bought their clothing, weapons and tents, and bribed centurions for leave. One centurion was nicknamed 'Bring me another' for the vine sticks he broke on soldiers' backs. The German legions mutinied too. The mutiny in Pannonia collapsed when a lunar eclipse frightened the men. The crisis shows the frontier army as a community with its own interests, and a power emperors would always have to buy.",
+   "select": "mutinies_of_14",
+   "layers": {
+    "territory": true,
+    "borders": true,
+    "events": true,
+    "battles": true,
+    "campaigns": true,
+    "journeys": false,
+    "legions": true,
+    "frontiers": true,
+    "extents": false,
+    "provinces": false,
+    "heat": false,
+    "namedRoads": true
+   }
+  },
+  {
+   "year": 69,
+   "center": [
+    6.47,
+    51.65
+   ],
+   "zoom": 8,
+   "title": "Revolt on the Rhine",
+   "text": "In the civil wars of 69 the Rhine frontier collapsed from within. Julius Civilis, a Batavian noble and commander of auxiliaries, led his people and their neighbours in revolt. The Batavians, a small tribe in the Rhine delta, paid no taxes but supplied about 5,000 men to the Roman army, including the emperor's mounted bodyguard; they knew the army from the inside. Two understrength legions held out in the fortress of Vetera near Xanten through the winter, eating their horses and mules, before surrendering in March 70; they were massacred after leaving the camp. Other legions swore allegiance to an 'empire of the Gauls'. The lesson Rome drew was to stop stationing auxiliary units in their homelands and to keep legions apart.",
+   "select": "siege_of_vetera",
+   "layers": {
+    "legions": true
+   }
+  },
+  {
+   "year": 83,
+   "center": [
+    -2.52,
+    57.29
+   ],
+   "zoom": 6.5,
+   "title": "At the end of the world",
+   "text": "In 83 the governor Agricola, Tacitus' father-in-law, brought the Caledonians to battle at Mons Graupius, somewhere in northeast Scotland, possibly near Bennachie. Tacitus gives the Caledonian leader Calgacus the most famous anti-Roman speech in Latin: 'they make a desert and call it peace'. Note how the battle was fought. Agricola placed his 8,000 auxiliary infantry in front and kept the legions in reserve behind the line: 'a great glory if the victory could be won without shedding Roman blood'. Batavian and Tungrian cohorts fought their way uphill with short swords. Tacitus claims 10,000 Caledonians killed for 360 Romans. Agricola's fleet sailed around the north of Scotland, proving Britain an island. Within four years most of Scotland was given up.",
+   "select": "battle_of_mons_graupius",
+   "layers": {}
+  },
+  {
+   "year": 87,
+   "center": [
+    -3.426,
+    56.539
+   ],
+   "zoom": 7,
+   "title": "A fortress left unfinished",
+   "text": "At Inchtuthil on the Tay, legio XX began a full legionary fortress of about 22 hectares around 82-83, with barracks for a whole legion, a hospital, workshops and granaries, but no headquarters building yet. Around 87, before it was finished, troops were withdrawn from Britain for the Danube wars of Domitian, and the fortress was dismantled. The army left nothing useful to the enemy. Excavators in the 1950s found a pit containing about 875,000 iron nails, around ten tonnes, buried deep so the Caledonians could not forge them into weapons. The nails, the largest over 35 cm long, were sold to the public and are now in museums around the world. Inchtuthil shows how fast frontier policy could change when the emperor needed soldiers elsewhere.",
+   "select": "inchtuthil_abandoned",
+   "layers": {
+    "legions": true
+   }
+  },
+  {
+   "year": 92,
+   "center": [
+    -2.361,
+    54.991
+   ],
+   "zoom": 8,
+   "title": "Letters from Vindolanda",
+   "text": "At the fort of Vindolanda, south of the later Wall, waterlogged rubbish preserved hundreds of wooden writing tablets from about 90 to 120. They are the most intimate source for life on any Roman frontier. Claudia Severa, wife of a fort commander, invites her friend Sulpicia Lepidina to her birthday, adding in her own hand the earliest known writing in Latin by a woman. Someone sends socks, two pairs of sandals and underpants. A merchant complains that he was beaten. Officers order beer for the men. An intelligence report notes that the Britons, whom it calls 'Brittunculi', little Brits, fight without armour and the cavalry do not use swords. A strength report shows that of 752 men of the First Cohort of Tungrians only 296 were present.",
+   "select": "vindolanda_tablets",
+   "layers": {
+    "frontiers": true
+   }
+  },
+  {
+   "year": 103,
+   "center": [
+    22.66,
+    44.624
+   ],
+   "zoom": 8,
+   "title": "A bridge over the Danube",
+   "text": "For his second war against Decebalus, Trajan had his architect Apollodorus of Damascus build a bridge across the Danube at Drobeta, below the Iron Gates. It had twenty masonry piers carrying a timber superstructure over a river more than a kilometre wide, and was the longest arch bridge in the world for a thousand years. Cassius Dio, who saw the piers, could hardly believe it had been built. In the gorge upstream, a road was cut into the cliff face and carried on cantilevered beams, and the Tabula Traiana inscription still records it, moved above the waters of a modern dam. Trajan's Column shows the bridge in the background of a sacrifice. Hadrian reportedly removed the superstructure to stop barbarians using it.",
+   "select": "trajans_bridge",
+   "layers": {
+    "frontiers": true,
+    "legions": true
+   }
+  },
+  {
+   "year": 106,
+   "center": [
+    36.48,
+    32.518
+   ],
+   "zoom": 6.5,
+   "title": "The desert frontier",
+   "text": "In 106, while Trajan finished off Dacia, the governor of Syria annexed the Nabataean kingdom with almost no fighting. The new province of Arabia was garrisoned by legio III Cyrenaica at Bostra, and between 111 and 114 the governor built the Via Nova Traiana, as its milestones proclaim, 'from the borders of Syria to the Red Sea', from Bostra to Aila on the Gulf of Aqaba. This frontier did not face an organised enemy across a river. It watched nomads, protected caravan routes and water sources, and collected customs. Papyri from soldiers in Arabia survive: one, Julius Apollinaris, writes home in 107 that he has a cushy job as a clerk in headquarters while others cut stones all day.",
+   "select": "annexation_of_arabia",
+   "layers": {
+    "frontiers": true,
+    "namedRoads": true
+   }
+  },
+  {
+   "year": 122,
+   "center": [
+    -2.331,
+    55.013
+   ],
+   "zoom": 7,
+   "title": "The Wall",
+   "text": "Hadrian visited Britain in 122 and, in the words of his biographer, 'was the first to build a wall, 80 miles long, to separate Romans from barbarians'. The first plan was a stone wall 10 Roman feet wide from Newcastle to the Irthing, a turf wall beyond it to the Solway, with a small fort every Roman mile and two turrets between. The forts for whole units were added on the line only later, and the plan was changed several times. South of the wall ran the Vallum, a ditch with mounds, marking a military zone. The Wall was a barrier with gates, a way of controlling movement and taxing trade, rather than a fighting platform. Three legions built it, and their building stones still carry the names of their centuries.",
+   "select": "hadrians_wall_begun",
+   "layers": {
+    "frontiers": true,
+    "legions": true
+   }
+  },
+  {
+   "year": 128,
+   "center": [
+    6.258,
+    35.489
+   ],
+   "zoom": 8,
+   "title": "The emperor inspects the troops",
+   "text": "On 1 July 128 Hadrian watched the exercises of legio III Augusta and its auxiliaries at Lambaesis in Numidia. His speeches, inscribed on a monument on the parade ground, survive in part, and they read like the remarks of a demanding drill instructor. He praises the legion for its performance although one cohort is detached and the unit sends men every year to other legions. He criticises cavalry for chasing too fast and failing to keep formation. He compliments one unit for building in a single day a stone wall that would normally take much longer. Hadrian made a cult of discipline: Dio says he inspected weapons, food and the soldiers' private lives. Lambaesis became the permanent base of the African legion and the capital of Numidia.",
+   "select": "lambaesis_address",
+   "layers": {
+    "legions": true,
+    "frontiers": true
+   }
+  },
+  {
+   "year": 142,
+   "center": [
+    -4.1,
+    55.95
+   ],
+   "zoom": 7,
+   "title": "The turf wall in Scotland",
+   "text": "Antoninus Pius, who never left Italy as emperor, still wanted a military victory, and in 142 his governor Lollius Urbicus advanced into Scotland and built a new wall between the Forth and the Clyde, about 40 Roman miles long. It was made of turf on a stone base, with forts much closer together than on Hadrian's Wall. The legions that built it set up 'distance slabs' recording the length each had completed, carved with scenes of victory and sacrifice; about twenty are known, most in the Hunterian Museum in Glasgow. The Antonine Wall was held for barely twenty years before the army returned to Hadrian's line, around 160. Pius took the title imperator for the campaign, the only time in his reign.",
+   "select": "antonine_wall",
+   "layers": {
+    "frontiers": true
+   }
+  },
+  {
+   "year": 256,
+   "center": [
+    40.73,
+    34.747
+   ],
+   "zoom": 7,
+   "title": "Dura-Europos: a siege frozen in time",
+   "text": "Dura-Europos on the Euphrates was a frontier town of the Roman East, garrisoned by the Cohors XX Palmyrenorum, whose duty rosters and records survive on papyrus. Around 256 the Sasanian Persians besieged it. To strengthen the walls, the defenders filled the streets behind them with earth, burying houses, a church with the earliest datable Christian paintings, a synagogue with painted walls of biblical scenes, and a Mithraeum. The Persians dug mines under the walls; the Romans dug countermines. In one tunnel archaeologists found about twenty Roman soldiers and one Persian, and the evidence suggests that the Persians burned bitumen and sulphur to fill the tunnel with toxic smoke: possibly the earliest archaeological evidence of chemical warfare. The town fell and was never reoccupied.",
+   "select": "siege_of_dura_europos_256",
+   "layers": {
+    "frontiers": true
+   }
+  },
+  {
+   "year": 293,
+   "center": [
+    37.6,
+    34.0
+   ],
+   "zoom": 6,
+   "title": "Diocletian's eastern road",
+   "text": "After the crisis of the third century, Diocletian rebuilt the eastern frontier on a new plan. The Strata Diocletiana was a military road running from the Euphrates through Palmyra to Damascus and south to Arabia, lined with forts about a day's march apart, many of them square enclosures of around 50 to 70 metres with corner towers. Legions were now smaller, perhaps 1,000 to 2,000 men, and the army had grown much larger overall. Soldiers on such frontiers were increasingly settled troops, the limitanei, with families and land around the forts. At Palmyra a legion camp was built over part of Zenobia's city. Many of these forts are still visible in the Syrian and Jordanian desert, like Qasr Bshir, whose building inscription dates it to 293-305.",
+   "select": "strata_diocletiana",
+   "layers": {
+    "frontiers": true,
+    "legions": true,
+    "namedRoads": true
+   }
+  }
+ ]
+},
+{
+ "id": "tour_height_117",
+ "title": "The empire at its height (AD 117)",
+ "summary": "Trajan's reign and the year of his death: the largest extent the empire ever reached, what held it together, and why his successor gave part of it back at once.",
+ "stops": [
+  {
+   "year": 101,
+   "center": [
+    9.75,
+    44.75
+   ],
+   "zoom": 7,
+   "title": "Feeding the children of Italy",
+   "text": "Start in an Italian country town. Trajan expanded a scheme begun by Nerva, the alimenta, under which the state lent money to Italian landowners at about 5 per cent interest, secured on their estates, and the interest paid monthly allowances to poor children. The great bronze tablet from Veleia near Piacenza, the largest Latin inscription on bronze to survive, lists 51 mortgaged estates and payments for 263 boys and 35 girls; boys got 16 sesterces a month, girls 12. Historians argue whether the aim was charity, raising future soldiers, or propping up Italian agriculture against provincial competition. Either way it is a sign of the confidence and the paternalism of the age. Trajan was awarded the title Optimus, 'the best', by the Senate in 114.",
+   "select": "alimenta",
+   "layers": {
+    "territory": true,
+    "borders": true,
+    "events": true,
+    "battles": true,
+    "campaigns": true,
+    "journeys": false,
+    "legions": false,
+    "frontiers": true,
+    "extents": false,
+    "provinces": false,
+    "heat": false,
+    "namedRoads": true
+   }
+  },
+  {
+   "year": 106,
+   "center": [
+    22.79,
+    45.51
+   ],
+   "zoom": 6.5,
+   "title": "Dacia: the last great conquest",
+   "text": "Trajan fought two wars against the Dacian king [[decebalus|Decebalus]], in 101-102 and 105-106. In 106 the royal capital of Sarmizegetusa in the Orăştie mountains fell, Decebalus cut his own throat to avoid capture, and his head was displayed on the steps of the Capitol. A treasure the king had hidden under the bed of a diverted river was betrayed to the Romans; the Byzantine writer Lydus, quoting Trajan's doctor Crito, claims five million pounds of gold and ten million of silver, certainly a gross exaggeration. Dacia became a province, garrisoned by legions at Apulum and colonised by settlers 'from the whole Roman world', according to Eutropius. The gold mines of the Apuseni mountains were run by Dalmatian miners, whose wax tablets survive at Alburnus Maior.",
+   "select": "province_of_dacia_created",
+   "layers": {
+    "campaigns": true,
+    "legions": true
+   }
+  },
+  {
+   "year": 110,
+   "center": [
+    29.92,
+    40.77
+   ],
+   "zoom": 7,
+   "title": "A governor writes to the emperor",
+   "text": "Around 110 Trajan sent the senator Pliny the Younger to sort out the finances of Bithynia and Pontus. The 120 letters between the two in Book 10 of Pliny's correspondence are the best evidence for how the empire was actually run. Pliny asks whether Nicomedia may form a fire brigade of 150 men (no: such clubs become political), how to finish a theatre at Nicaea that is already cracking, whether a canal can be dug to the sea, and what to do with Christians denounced to him. Trajan's replies are brisk: do not hunt Christians, ignore anonymous accusations, but punish those who refuse to sacrifice. The letters show a governor with few staff, cities competing in expensive buildings, and an emperor expected to decide everything.",
+   "select": "pliny_in_bithynia",
+   "layers": {}
+  },
+  {
+   "year": 112,
+   "center": [
+    12.484,
+    41.896
+   ],
+   "zoom": 11,
+   "title": "The Forum of Trajan",
+   "text": "With the spoils of Dacia, Trajan's architect Apollodorus of Damascus built the last and largest of the imperial fora, cutting away the saddle of land between the Capitol and the Quirinal. It contained a colonnaded square with a gilded equestrian statue of Trajan, the Basilica Ulpia, the largest basilica in Rome, two libraries, one Greek and one Latin, and, beyond, the Column. On the hillside behind rose Trajan's Markets, a terraced complex of about 150 rooms used for offices and shops. When the emperor Constantius II visited Rome in 357, Ammianus says, he was struck dumb by the Forum of Trajan, 'a construction unique under the heavens', and said all he could copy was the horse.",
+   "select": "forum_of_trajan",
+   "layers": {}
+  },
+  {
+   "year": 113,
+   "center": [
+    12.484,
+    41.896
+   ],
+   "zoom": 12,
+   "title": "A war in a spiral",
+   "text": "Dedicated in May 113, the column is 100 Roman feet high and its height marked how much of the hill had been cut away. A frieze about 200 metres long winds 23 times around it, with some 2,500 figures narrating the Dacian wars: river crossings, fort building, the emperor addressing troops, sacrifices, Dacian women torturing prisoners, the suicide of Decebalus. The soldiers spend more time building than fighting. The reliefs were originally painted and probably impossible to read from the ground beyond the lowest turns, which has led scholars to debate who they were meant for. Trajan's ashes were placed in the base in a golden urn. A statue of Saint Peter has stood on top since 1587.",
+   "select": "trajans_column",
+   "layers": {}
+  },
+  {
+   "year": 113,
+   "center": [
+    12.264,
+    41.779
+   ],
+   "zoom": 11,
+   "title": "The harbour that fed Rome",
+   "text": "A city of perhaps a million people needed roughly 200,000 to 400,000 tonnes of grain a year, mostly shipped from Egypt and Africa. Claudius began a harbour at Portus, north of the Tiber mouth, but its huge basin was exposed: Tacitus records 200 ships sunk in a storm inside it in 62. Around 110-113 Trajan added an inner basin in the shape of a hexagon, each side about 358 metres, surrounded by warehouses, and linked to the Tiber by a canal. The hexagon is still visible as a lake on aerial photographs near Fiumicino airport. From here barges were hauled upriver to Rome's warehouses below the Aventine, where the broken oil amphorae were dumped in a hill of sherds, Monte Testaccio, built from some 53 million vessels.",
+   "select": "portus_begun",
+   "layers": {}
+  },
+  {
+   "year": 114,
+   "center": [
+    41.1,
+    39.95
+   ],
+   "zoom": 6,
+   "title": "Into Armenia",
+   "text": "In 114 Trajan used a Parthian intervention in Armenia as the pretext for war. At Elegeia, the Armenian king Parthamasiris laid his diadem at Trajan's feet expecting to be crowned again, as in Nero's time. Trajan refused and annexed the kingdom. Parthamasiris was killed by his escort shortly after. Armenia was made a province, and Trajan's armies went on into northern Mesopotamia, taking Nisibis and Edessa. The Senate voted him the title Optimus and then Parthicus. The war was a break with a century of Roman policy, which had kept Armenia as a buffer under a Parthian prince with a Roman crown. Watch the empire's borders on the map grow to their widest point over the next two years.",
+   "select": "annexation_of_armenia_114",
+   "layers": {
+    "campaigns": true
+   }
+  },
+  {
+   "year": 115,
+   "center": [
+    21.858,
+    32.825
+   ],
+   "zoom": 6,
+   "title": "The revolt of the Diaspora",
+   "text": "While Trajan was in Mesopotamia, Jewish communities rose against their gentile neighbours and Roman authorities in Cyrenaica, Egypt and Cyprus in 115-117. Under a leader called Lukuas or Andreas, Cyrene's temples were destroyed; papyri from Egypt mention battles near Hermopolis and estates ruined, and the Jewish quarter of Alexandria was devastated. Dio gives casualty figures of 220,000 in Cyrene and 240,000 in Cyprus, impossible numbers that show the terror the revolt caused. Jews were afterwards banned from Cyprus on pain of death. Trajan sent Marcius Turbo with land and sea forces to crush it. The revolt destroyed the great Jewish community of Alexandria, and it drew troops away from the eastern conquests at the decisive moment.",
+   "select": "diaspora_revolt_cyrene",
+   "layers": {}
+  },
+  {
+   "year": 116,
+   "center": [
+    44.58,
+    33.09
+   ],
+   "zoom": 5.5,
+   "title": "To the Persian Gulf",
+   "text": "In 116 Trajan sailed down the Euphrates, crossed to the Tigris and took the Parthian winter capital of Ctesiphon, capturing the king's daughter and his golden throne. He went on to the head of the Persian Gulf at Charax, where, Dio says, he watched a ship leaving for India and said that if he were younger he would have gone on to India like Alexander. New provinces of Mesopotamia and Assyria were declared and coins proclaimed 'Parthia captured'. This is the moment of the empire's greatest extent, about five million square kilometres from the Tyne to the Gulf. It lasted months. Revolts broke out across the conquered territory, a Roman general was killed, and Trajan failed to take the desert city of Hatra. He crowned a Parthian client king, Parthamaspates, and turned back.",
+   "select": "capture_of_ctesiphon_116",
+   "layers": {
+    "extents": true
+   }
+  },
+  {
+   "year": 117,
+   "center": [
+    32.29,
+    36.27
+   ],
+   "zoom": 8,
+   "title": "Death at Selinus",
+   "text": "Trajan fell ill in Syria, probably from a stroke, and set off for Rome. He died at Selinus on the Cilician coast in early August 117, aged 63. His wife Plotina announced that he had adopted Hadrian, the governor of Syria and his cousin's son, on his deathbed; the letter of adoption was signed by Plotina, and the servant who could have confirmed it died suddenly days later. Dio's father, governor of Cilicia in 117, believed the adoption was faked. Trajan's ashes were taken to Rome and buried in the base of his Column, the first emperor buried inside the city boundary. Later senates acclaimed new emperors with the wish that they might be 'luckier than Augustus and better than Trajan'.",
+   "select": "death_of_trajan",
+   "layers": {}
+  },
+  {
+   "year": 117,
+   "center": [
+    36.161,
+    36.202
+   ],
+   "zoom": 5,
+   "title": "Hadrian gives it back",
+   "text": "[[hadrian|Hadrian]]'s first decision was to abandon Mesopotamia and Assyria, which were in revolt, and to give Armenia back to a client king. His biographer says he followed Cato's advice on Macedon: let what cannot be held go free. He was attacked for it; four senior consulars associated with Trajan were executed in 118 for an alleged plot, and Hadrian never fully won back the Senate. But the decision set the pattern of his reign: consolidation behind defined frontiers, palisades in Germany and the Wall in Britain, long tours of inspection, and investment in the cities. The empire of AD 117 was a high-water mark. From here the question was not how far Rome could expand but how much it could afford to defend.",
+   "select": "hadrian_abandons_eastern_conquests",
+   "layers": {
+    "extents": true,
+    "frontiers": true
+   }
+  }
+ ]
+},
+{
+ "id": "tour_crisis_recovery",
+ "title": "Crisis and recovery (235-305)",
+ "summary": "Fifty years of military anarchy, invasion, plague and inflation, and the reconstruction of the state by soldier-emperors from the Balkans.",
+ "stops": [
+  {
+   "year": 235,
+   "center": [
+    8.271,
+    49.993
+   ],
+   "zoom": 7,
+   "title": "The end of the Severans",
+   "text": "In March 235 soldiers at Mogontiacum on the Rhine murdered the young emperor Severus Alexander and his mother Julia Mamaea, whom they despised for preferring to buy off the Germans rather than fight them. They proclaimed Maximinus, a giant Thracian of humble origin who had risen through the ranks; he was the first emperor never to set foot in Rome. Over the next fifty years there would be about twenty recognised emperors and many more usurpers, and only one or two died in their beds. The underlying problem was structural: wars on two fronts at once, against the new Sasanian dynasty in Persia from 224 and against stronger Germanic confederations on the Rhine and Danube, and an army that made and unmade emperors.",
+   "select": "assassination_of_severus_alexander_235",
+   "layers": {
+    "territory": true,
+    "borders": true,
+    "events": true,
+    "battles": true,
+    "campaigns": true,
+    "journeys": false,
+    "legions": true,
+    "frontiers": true,
+    "extents": false,
+    "provinces": false,
+    "heat": false,
+    "namedRoads": true
+   }
+  },
+  {
+   "year": 238,
+   "center": [
+    13.368,
+    45.769
+   ],
+   "zoom": 8,
+   "title": "The year of six emperors",
+   "text": "Maximinus' heavy taxation provoked a revolt among the landowners of Africa, who proclaimed the elderly proconsul Gordian and his son in early 238. The Senate backed them. Within three weeks the governor of Numidia had crushed them at Carthage. The Senate then chose two of its own, Pupienus and Balbinus. Maximinus marched on Italy, but the city of Aquileia closed its gates and held out; the townspeople, it was said, cut off the women's hair for bowstrings. His starving army murdered him and his son in their tents. In Rome the praetorian guard then killed Pupienus and Balbinus and made the 13-year-old [[gordian_iii|Gordian III]] emperor. Six emperors in one year: the Senate's last serious attempt to choose a ruler had failed.",
+   "select": "siege_of_aquileia_238",
+   "layers": {}
+  },
+  {
+   "year": 244,
+   "center": [
+    43.6,
+    33.38
+   ],
+   "zoom": 6,
+   "title": "A Roman emperor on a Persian rock",
+   "text": "Gordian III marched against the Sasanian king [[shapur_i|Shapur I]] and died in 244 near Misiche on the Euphrates. Roman sources say he was murdered by his own officers, perhaps on the orders of his praetorian prefect Philip, who succeeded him. Shapur's great inscription at Naqsh-e Rustam, carved in Middle Persian, Parthian and Greek, says that Gordian was killed in battle and that Philip came to beg for peace, paying 500,000 denarii. Shapur renamed Misiche Peroz-Shapur, 'victorious is Shapur'. Rock reliefs show the Roman emperors in submission before the mounted king. For the first time, we can compare Roman accounts with an enemy's official version, and they disagree on almost everything.",
+   "select": "battle_of_misiche_244",
+   "layers": {}
+  },
+  {
+   "year": 250,
+   "center": [
+    12.485,
+    41.892
+   ],
+   "zoom": 10,
+   "title": "A certificate of sacrifice",
+   "text": "In 249 Philip's general Decius was proclaimed emperor and killed him. Decius ordered that every inhabitant of the empire sacrifice to the gods for the welfare of the state, in the presence of commissioners who issued a certificate, a libellus. About 45 such certificates survive on papyrus from Egypt, one issued to a priestess of the crocodile god. The edict was perhaps intended as a renewal of piety for Rome's thousand-year anniversary just celebrated in 248, rather than as an attack on Christians, but it forced every Christian to choose. Many sacrificed or bought certificates; some were executed, including Fabian, the bishop of Rome. The question of whether the lapsed could be readmitted split the churches of Rome and Carthage for a generation.",
+   "select": "decian_persecution_250",
+   "layers": {}
+  },
+  {
+   "year": 251,
+   "center": [
+    26.524,
+    43.522
+   ],
+   "zoom": 7,
+   "title": "An emperor killed by the Goths",
+   "text": "Goths under Cniva crossed the Danube in 250, sacked Philippopolis in Thrace and carried off huge numbers of captives. In June 251 Decius caught them at Abritus in the marshy lands of Moesia. The Goths drew the Roman army into a swamp, and Decius and his son were killed, the first Roman emperor to die in battle against a foreign enemy. His body was never found. His successor Trebonianus Gallus let the Goths go home with their plunder and paid them to stay away. Then the plague named after Cyprian, the bishop of Carthage who described it, began to spread: bloody diarrhoea, fever, vomiting, perhaps a haemorrhagic virus. At its height, according to a later source, 5,000 people died each day in Rome.",
+   "select": "battle_of_abritus",
+   "layers": {
+    "campaigns": true
+   }
+  },
+  {
+   "year": 260,
+   "center": [
+    38.795,
+    37.159
+   ],
+   "zoom": 7,
+   "title": "An emperor in chains",
+   "text": "In 260 the emperor [[valerian|Valerian]] fought Shapur near Edessa and was captured with his praetorian prefect, senators and soldiers; according to Shapur's inscription, 70,000 men. No Roman emperor had ever been taken alive by an enemy. Christian writers later claimed that Shapur used him as a footstool for mounting his horse, and that his skin was flayed and hung in a temple. More reliably, Roman prisoners were settled in Persia and built cities, dams and bridges, such as the Band-e Kaisar, 'Caesar's dam', at Shushtar. Valerian died in captivity. His son [[gallienus|Gallienus]], ruling alone, faced the near-total breakup of the empire.",
+   "select": "battle_of_edessa_260",
+   "layers": {}
+  },
+  {
+   "year": 260,
+   "center": [
+    7.0,
+    48.0
+   ],
+   "zoom": 5,
+   "title": "The empire breaks in three",
+   "text": "In the same year, the commander on the Rhine, Postumus, killed Gallienus' young son at Cologne and was proclaimed emperor. His Gallic empire, with its capital first at Cologne and later at Trier, controlled Gaul, Britain and for a time Spain, and lasted until 274; it had its own consuls, praetorian guard and good silver-washed coins. It did not claim Rome, but defended the Rhine itself. In the East, Odaenathus of Palmyra fought off the Persians in Rome's name, and after his murder in 267 his widow [[zenobia|Zenobia]] took Egypt and much of Asia Minor for her son. By 270 the empire was split into three blocks. Gallienus, often vilified by senatorial writers, held the centre, built a mobile cavalry force, and excluded senators from army commands.",
+   "select": "postumus_founds_gallic_empire_260",
+   "layers": {
+    "territory": true
+   }
+  },
+  {
+   "year": 267,
+   "center": [
+    23.723,
+    37.975
+   ],
+   "zoom": 9,
+   "title": "Athens sacked",
+   "text": "In 267-268 Gothic and Herulian raiders came out of the Black Sea in hundreds of ships, sacked cities around the Aegean and took Athens. The historian Dexippus, a senior Athenian, organised 2,000 men who ambushed the raiders in the countryside; fragments of his speech to them survive. Athens did not recover its old extent: the inhabitants built a much smaller wall, the post-Herulian wall, from the debris of public buildings, enclosing just the area north of the Acropolis. The same story is visible all over the empire. Cities that had been open for two centuries now walled themselves in, often with column drums, inscriptions and statues built into the foundations. In 268-269 Claudius II crushed the Goths at Naissus and took the name Gothicus.",
+   "select": "siege_of_athens_267",
+   "layers": {}
+  },
+  {
+   "year": 271,
+   "center": [
+    12.491,
+    41.884
+   ],
+   "zoom": 11,
+   "title": "Walls for Rome",
+   "text": "In 270-271 Juthungi and Alamanni invaded Italy, defeated the new emperor [[aurelian|Aurelian]] near Placentia and caused panic in Rome before he destroyed them. Aurelian then did something that would have been unthinkable a generation earlier: he gave Rome a wall. Built in about five years, partly by the city's guilds, it was 19 kilometres long, about 6 metres high at first, with a square tower every 100 Roman feet, and it incorporated existing buildings such as the Pyramid of Cestius and an aqueduct. It was a wall against raiders, not armies; under Honorius in 401-403 it was raised to roughly twice its height. It defined the city for sixteen centuries. Most of it still stands, the longest surviving Roman city wall anywhere.",
+   "select": "aurelian_walls_271",
+   "layers": {}
+  },
+  {
+   "year": 272,
+   "center": [
+    38.268,
+    34.551
+   ],
+   "zoom": 7,
+   "title": "Zenobia's fall",
+   "text": "In 272 Aurelian marched east, beat Zenobia's armored cavalry at Immae and Emesa by feigning retreat until the heavy horsemen tired, and besieged Palmyra. Zenobia fled on a camel towards the Euphrates, hoping for Persian help, and was caught at the river. The city surrendered. When Palmyra rebelled again in 273, Aurelian sacked it, and the caravan city never recovered its wealth. In 274 he recovered the Gallic empire after its last emperor, Tetricus, surrendered on the battlefield. Aurelian celebrated a triumph in which Zenobia walked in golden chains; she ended her days in a villa at Tibur. He took the title 'restorer of the world' and built a great temple to the Unconquered Sun. He was murdered in 275 by officers who believed a forged list of names to be executed.",
+   "select": "siege_of_palmyra_272",
+   "layers": {
+    "campaigns": true
+   }
+  },
+  {
+   "year": 293,
+   "center": [
+    9.19,
+    45.464
+   ],
+   "zoom": 5,
+   "title": "Four emperors",
+   "text": "[[diocletian|Diocletian]], a Dalmatian officer proclaimed in 284, solved the problem of an empire too large for one ruler with more rulers. He made his comrade [[maximian|Maximian]] Augustus in the West in 286, and in 293 each Augustus adopted a junior Caesar, Galerius in the East, Constantius in the West, who married into their families. Each had his own court, army and capital close to a frontier: Nicomedia, Milan, Sirmium or Thessalonica, Trier. The famous porphyry group of four embracing tetrarchs, now built into the corner of San Marco in Venice, shows them as interchangeable soldiers. The provinces were split into about a hundred smaller units grouped in twelve dioceses, and civil and military commands were separated. Turn on the province layer to see the new map.",
+   "select": "formation_of_the_tetrarchy_293",
+   "layers": {
+    "provinces": true
+   }
+  },
+  {
+   "year": 301,
+   "center": [
+    28.72,
+    37.71
+   ],
+   "zoom": 8,
+   "title": "Fixing the price of everything",
+   "text": "Decades of debased coinage had driven prices up enormously. In 301 the tetrarchs issued an edict setting maximum prices for over a thousand goods and services across the empire, with death as the penalty for overcharging. The preface, in characteristic tetrarchic language, rants against the 'unbridled avarice' of profiteers. Fragments of over forty copies have been found, mostly in the Greek East, so we know that a pound of pork was capped at 12 denarii, a pair of soldier's boots at 100, a farm labourer's daily wage at 25 plus food, and a teacher of rhetoric at 250 per pupil per month. The edict failed: Lactantius says goods disappeared from the markets. But it remains the most detailed price list from the ancient world.",
+   "select": "edict_on_maximum_prices_301",
+   "layers": {}
+  }
+ ]
+}
+]}

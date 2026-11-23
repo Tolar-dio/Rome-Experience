@@ -272,7 +272,7 @@ const R = {
   site(s) {
     let html = head(`${esc(s.theme || '')} · ${esc(s.kind || '')}`, s.name, `${s.from !== undefined ? esc(fmtYear(s.from)) : ''}${s.to !== undefined && s.to !== null ? ' to ' + esc(fmtYear(s.to)) : ''}${s.commodity ? ' · ' + esc(s.commodity) : ''}`,
       s.from !== undefined ? `<button data-action="year" data-y="${s.from}">Go to ${esc(fmtYear(s.from))}</button>` : '');
-    return html + `<div class="d-body"><p class="summary">${richText(s.summary, exists)}</p>${sourcesBlock(s.sources)}</div>`;
+    return html + `<div class="d-body">${s.bishop ? `<p><b>First attested bishop.</b> ${esc(s.bishop)}</p>` : ''}<p class="summary">${richText(s.summary, exists)} ${cert(s.certainty)}</p>${s.place && exists(s.place) ? `<p class="meta">Place: ${link(s.place, null, 'place')}</p>` : ''}${s.event && exists(s.event) ? `<p class="meta">Event: ${link(s.event, null, 'event')}</p>` : ''}${sourcesBlock(s.sources, s.scholarship)}</div>`;
   },
   route(r) {
     let html = head(`Route · ${esc(r.kind || '')}`, r.name, `${r.commodity ? esc(r.commodity) + ' · ' : ''}${esc(fmtRange(r.from, r.to))}${r.days ? ' · ' + esc(r.days) : ''}`);
