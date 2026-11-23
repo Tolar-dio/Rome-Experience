@@ -325,11 +325,27 @@ AFTER.coins = () => {
   document.getElementById('hoardToggle')?.addEventListener('change', (e) => setLayer('hoards', e.target.checked));
   const q = document.getElementById('markQ');
   q?.addEventListener('input', () => {
-    const v = q.value.trim().toUpperCase();
+    const norm = (x) => x.toUpperCase().replace(/[^\p{L}]/gu, '');
+    const v = norm(q.value);
     const out = document.getElementById('markOut');
     if (v.length < 2) { out.innerHTML = ''; return; }
-    const hits = D.mints.filter((m) => (m.marks || []).some((k) => v.includes(k.toUpperCase().replace(/[^A-Z]/g, '')) || k.toUpperCase().includes(v)));
-    out.innerHTML = hits.length ? `<ul class="rows">${hits.map((m) => `<li class="row" data-id="${esc(m.id)}" data-kind="mint"><div class="when">${(m.marks || []).filter((k) => v.includes(k.toUpperCase().replace(/[^A-Z]/g, '')) || k.toUpperCase().includes(v)).map((k) => `<span class="mark">${esc(k)}</span>`).join('')}</div><div class="what"><div class="ttl">${esc(m.name)}</div><div class="sum">${(m.periods || []).map((p) => esc(fmtRange(p[0], p[1]))).join(', ')}</div></div></li>`).join('')}</ul>` : '<p class="muted">No mint matches that mark. Marks often add P/S/T/Q (officina) or SM (sacra moneta) around the mint letters: try the core letters.</p>';
+    const scored = [];
+    for (const m of D.mints) {
+      let best = 0, hit = [];
+      for (const k of m.marks || []) {
+        const n = norm(k);
+        if (!n || (n.length < 2 && v.length > 2)) continue;
+        let sc = 0;
+        if (n === v) sc = 100;
+        else if (v.includes(n)) sc = n.length * 10;
+        else if (v.length >= 3 && n.includes(v)) sc = v.length * 8;
+        if (sc > best) { best = sc; hit = [k]; } else if (sc && sc === best) hit.push(k);
+      }
+      if (best) scored.push({ m, best, hit });
+    }
+    scored.sort((a, b) => b.best - a.best);
+    const top = scored.filter((x) => x.best >= scored[0]?.best * 0.6).slice(0, 5);
+    out.innerHTML = top.length ? `<ul class="rows">${top.map(({ m, hit }) => `<li class="row" data-id="${esc(m.id)}" data-kind="mint"><div class="when">${hit.slice(0, 2).map((k) => `<span class="mark">${esc(k)}</span>`).join(' ')}</div><div class="what"><div class="ttl">${esc(m.name)}</div><div class="sum">${(m.periods || []).map((p) => esc(fmtRange(p[0], p[1]))).join(', ')}</div></div></li>`).join('')}</ul>` : '<p class="muted">No mint matches that mark. Marks wrap the mint letters in SM (sacra moneta) and officina letters (P, S, T, Q or Greek numerals): try the core letters, such as ANT, TR or CON.</p>';
   });
 };
 AFTER.tours = () => {

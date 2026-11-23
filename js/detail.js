@@ -106,7 +106,22 @@ function controlStrip(reg) {
 
 // ---------- renderers
 export function coinCard(c) {
-  return `<div class="coin-card"><h5>${esc(c.t || '')}</h5>${c.standard ? `<p class="meta">${esc(c.standard)}</p>` : ''}${(c.denominations || []).length ? `<p class="meta">${c.denominations.map((d) => `<span class="mark">${esc(d)}</span>`).join(' ')}</p>` : ''}${paragraphs(c.text, exists)}</div>`;
+  const list = (arr) => (arr || []).map((x) => `<span class="mark">${esc(x)}</span>`).join(' ');
+  const mintNames = (c.mints || []).map((m) => (exists(m) ? link(m, null, 'mint') : esc(m))).join(', ');
+  let h = `<div class="coin-card"><h5>${esc(c.t || '')}</h5>`;
+  if (c.standard) h += `<p class="meta">${esc(c.standard)}</p>`;
+  if ((c.denominations || []).length) h += `<p class="meta">${list(c.denominations)}</p>`;
+  h += paragraphs(c.text, exists);
+  const kv = [];
+  if (c.legends?.length) kv.push(['Legends', c.legends.map((l) => `<span style="font-family:var(--ui);letter-spacing:.04em">${esc(l)}</span>`).join('<br>')]);
+  if (c.keyTypes?.length) kv.push(['Key types', c.keyTypes.map(esc).join('; ')]);
+  if (mintNames) kv.push(['Mints', mintNames]);
+  if (c.rarity) kv.push(['Rarity', esc(c.rarity)]);
+  if (c.dating) kv.push(['Dating', esc(c.dating)]);
+  if (c.confusions) kv.push(['Watch for', esc(c.confusions)]);
+  if (kv.length) h += `<dl class="kv">${kv.map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join('')}</dl>`;
+  if (c.sources?.length) h += `<p class="meta">${c.sources.map((x) => `${esc(x.a || '')}${x.w ? ', ' + esc(x.w) : ''}${x.r ? ' ' + esc(x.r) : ''}`).join('; ')}</p>`;
+  return h + '</div>';
 }
 
 const R = {
