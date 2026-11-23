@@ -1,0 +1,1669 @@
+{
+"monuments": [
+{
+"id": "servian_wall_mon",
+"name": "Servian Wall",
+"city": "rome",
+"loc": [
+12.5017,
+41.9018
+],
+"built": -378,
+"begun": -378,
+"builder": null,
+"builderName": "traditionally Servius Tullius; Republican rebuilding from 378 BC",
+"phases": [
+{
+"y": -211,
+"t": "Hannibal before the walls"
+},
+{
+"y": -87,
+"t": "refortified with artillery emplacements in the civil war"
+},
+{
+"y": -82,
+"t": "battle of the Colline Gate"
+}
+],
+"destroyed": null,
+"type": "wall",
+"summary": "Attributed by tradition to Servius Tullius, the surviving circuit of squared Grotta Oscura tufa from Veii's quarries was built after the Gallic sack, from 378 BC (Livy 6.32), about 11 km long enclosing some 426 hectares, the largest city wall in 4th-century Italy. On the flat Esquiline plateau it was reinforced by the agger, an earth rampart with a ditch 30 m wide. It was refortified with artillery embrasures in the civil war of 87 BC. By the Principate the city had spilled far beyond it and it was built over, though its gates survived as landmarks. The longest stretch stands outside Termini station.",
+"event": "servian_wall_378"
+},
+{
+"id": "porta_capena",
+"name": "Porta Capena",
+"city": "rome",
+"loc": [
+12.4899,
+41.8843
+],
+"built": -378,
+"begun": null,
+"builder": null,
+"phases": [
+{
+"y": 1867,
+"t": "remains found"
+}
+],
+"destroyed": null,
+"type": "gate",
+"summary": "The Servian gate where the Via Appia and Via Latina began, near the grove of the Camenae. Here, Livy says, the surviving Horatius killed his sister for mourning a slain Curiatius. An aqueduct branch passing over it kept it wet, so Juvenal calls it 'dripping Capena'. Marcellus' Temple of Honos et Virtus stood just outside. Remains were found in 1867.",
+"event": "servian_wall_378",
+"certainty": "location approximate"
+},
+{
+"id": "porta_esquilina",
+"name": "Porta Esquilina (Arch of Gallienus)",
+"city": "rome",
+"loc": [
+12.5014,
+41.8958
+],
+"built": -378,
+"begun": null,
+"builder": null,
+"phases": [
+{
+"y": 10,
+"t": "Augustan arch"
+},
+{
+"y": 262,
+"t": "rededicated to Gallienus and Salonina"
+}
+],
+"destroyed": null,
+"type": "gate",
+"summary": "The Servian gate on the Esquiline through which the Via Labicana and Praenestina left the city; beyond it lay the paupers' burial ground that Maecenas turned into gardens. An Augustan arch replaced it, rededicated in 262 by M. Aurelius Victor to Gallienus and his empress Salonina, whose inscription survives on the 'Arch of Gallienus'."
+},
+{
+"id": "porta_collina",
+"name": "Porta Collina",
+"city": "rome",
+"loc": [
+12.4974,
+41.9063
+],
+"built": -378,
+"begun": null,
+"builder": null,
+"phases": [
+{
+"y": -211,
+"t": "Hannibal at the gate"
+},
+{
+"y": -82,
+"t": "battle of the Colline Gate"
+}
+],
+"destroyed": null,
+"type": "gate",
+"summary": "The northern Servian gate at the end of the Quirinal, where the Via Salaria and Nomentana began. In 211 BC Hannibal rode up to it with 2,000 cavalry. On 1 November 82 BC Sulla won the battle of the Colline Gate against the Samnites of Pontius Telesinus and the Marians, the bloodiest fight of the civil war. Just inside lay the Campus Sceleratus where unchaste Vestals were buried alive.",
+"event": "hannibal_march_on_rome_211",
+"certainty": "location approximate"
+},
+{
+"id": "porta_viminalis",
+"name": "Porta Viminalis",
+"city": "rome",
+"loc": [
+12.5004,
+41.9021
+],
+"built": -378,
+"begun": null,
+"builder": null,
+"phases": [],
+"destroyed": null,
+"type": "gate",
+"summary": "A Servian gate through the agger on the Viminal, its remains preserved in the wall stretch facing Termini station.",
+"event": "servian_wall_378",
+"certainty": "location approximate"
+},
+{
+"id": "porta_fontinalis",
+"name": "Porta Fontinalis",
+"city": "rome",
+"loc": [
+12.4833,
+41.8951
+],
+"built": -378,
+"begun": null,
+"builder": null,
+"phases": [
+{
+"y": -193,
+"t": "portico to the Altar of Mars"
+}
+],
+"destroyed": null,
+"type": "gate",
+"summary": "The Servian gate at the foot of the Capitol's Arx, leading from the Forum to the Campus Martius and the start of the Via Flaminia, named for a spring. The censors of 193 BC built a portico from it to the Altar of Mars.",
+"certainty": "location approximate"
+},
+{
+"id": "porta_carmentalis",
+"name": "Porta Carmentalis",
+"city": "rome",
+"loc": [
+12.4812,
+41.8913
+],
+"built": -378,
+"begun": null,
+"builder": null,
+"phases": [
+{
+"y": -477,
+"t": "the Fabii march out to the Cremera"
+}
+],
+"destroyed": null,
+"type": "gate",
+"summary": "The Servian gate between the Capitol and the river near the shrine of Carmenta. One of its passages, the Porta Scelerata, was avoided because the 306 Fabii had marched through it to their annihilation at the Cremera in 477 BC.",
+"certainty": "location approximate"
+},
+{
+"id": "porta_trigemina",
+"name": "Porta Trigemina",
+"city": "rome",
+"loc": [
+12.4806,
+41.8873
+],
+"built": -378,
+"begun": null,
+"builder": null,
+"phases": [
+{
+"y": -193,
+"t": "Emporium developed outside it"
+}
+],
+"destroyed": null,
+"type": "gate",
+"summary": "The triple Servian gate between the Aventine and the river by the Forum Boarium, near where the Aqua Appia ended and the salt store stood. Outside it the Emporium and Porticus Aemilia developed from 193 BC.",
+"certainty": "location approximate"
+},
+{
+"id": "porta_caelimontana",
+"name": "Porta Caelimontana (Arch of Dolabella)",
+"city": "rome",
+"loc": [
+12.4951,
+41.8857
+],
+"built": 10,
+"begun": null,
+"builder": "publius_cornelius_dolabella_cos10",
+"phases": [
+{
+"y": 64,
+"t": "Neronian aqueduct carried over it"
+}
+],
+"destroyed": null,
+"type": "gate",
+"summary": "The Servian gate on the Caelian, rebuilt in AD 10 as a travertine arch by the consuls P. Cornelius Dolabella and C. Iunius Silanus; Nero's branch of the Aqua Claudia was later carried over it."
+},
+{
+"id": "aurelian_wall",
+"name": "Aurelian Wall",
+"city": "rome",
+"loc": [
+12.51,
+41.888
+],
+"built": 275,
+"begun": 271,
+"builder": "aurelian",
+"phases": [
+{
+"y": 279,
+"t": "completed under Probus"
+},
+{
+"y": 310,
+"t": "raised by Maxentius"
+},
+{
+"y": 403,
+"t": "height doubled under Honorius"
+},
+{
+"y": 410,
+"t": "Alaric enters by the Porta Salaria"
+},
+{
+"y": 537,
+"t": "siege of Witigis repulsed"
+},
+{
+"y": 546,
+"t": "Totila breaches it"
+},
+{
+"y": 547,
+"t": "Belisarius' rapid repairs"
+}
+],
+"destroyed": null,
+"type": "wall",
+"summary": "Begun by Aurelian in 271 after Alamannic raids reached Italy, and finished under Probus, a brick-faced concrete circuit of about 19 km enclosing 1,370 hectares including Trastevere, with towers every 100 Roman feet; the 8th-century Einsiedeln itinerary counts 383 towers, 7,020 battlements and 116 latrines. Existing structures, the Castra Praetoria, Amphitheatrum Castrense and Pyramid of Cestius among them, were absorbed. Maxentius raised it; Honorius and Arcadius, under Stilicho, doubled its height to about 15 m in 401-403, as inscriptions on the gates record. Alaric entered it in 410 and Gaiseric in 455; Belisarius held it against Witigis in 537-538; Totila breached a third of it in 546 and Belisarius rebuilt it in weeks. It remained Rome's defence until the breach at Porta Pia in 1870.",
+"event": "aurelian_walls_271"
+},
+{
+"id": "porta_flaminia",
+"name": "Porta Flaminia (Porta del Popolo)",
+"city": "rome",
+"loc": [
+12.4761,
+41.9115
+],
+"built": 275,
+"begun": null,
+"builder": "aurelian",
+"phases": [
+{
+"y": 537,
+"t": "walled up by Belisarius"
+},
+{
+"y": 1565,
+"t": "rebuilt as Porta del Popolo"
+}
+],
+"destroyed": null,
+"type": "gate",
+"summary": "The northern gate of the Aurelian Wall on the Via Flaminia, flanked by round towers. Belisarius blocked it with masonry during the siege of 537-538 because the Goths' main camp lay before it. Rebuilt by Pius IV in 1561-65 as the Porta del Popolo."
+},
+{
+"id": "porta_pinciana",
+"name": "Porta Pinciana",
+"city": "rome",
+"loc": [
+12.4882,
+41.9095
+],
+"built": 275,
+"begun": null,
+"builder": "aurelian",
+"phases": [
+{
+"y": 403,
+"t": "rebuilt under Honorius"
+},
+{
+"y": 537,
+"t": "Belisarius' command post"
+}
+],
+"destroyed": null,
+"type": "gate",
+"summary": "A secondary gate of the Aurelian Wall on the Pincian, refashioned under Honorius with flanking towers. Belisarius commanded from here during the siege of 537-538, and the medieval legend that the blinded general begged at this gate ('date obolum Belisario') attached itself to it."
+},
+{
+"id": "porta_salaria",
+"name": "Porta Salaria",
+"city": "rome",
+"loc": [
+12.499,
+41.91
+],
+"built": 275,
+"begun": null,
+"builder": "aurelian",
+"phases": [
+{
+"y": 410,
+"t": "Alaric enters Rome"
+},
+{
+"y": 1921,
+"t": "demolished"
+}
+],
+"destroyed": 1921,
+"type": "gate",
+"summary": "The gate of the Via Salaria where Alaric's Goths entered Rome on the night of 24 August 410, through treachery or, as Procopius alternatively reports, opened by the servants of the noblewoman Proba out of pity for the starving. Damaged in the 1870 bombardment and demolished in 1921. Its Honorian towers contained the tomb of the eleven-year-old poet Q. Sulpicius Maximus, who competed in the Capitoline contest of 94.",
+"event": "sack_of_rome_410",
+"certainty": "location approximate"
+},
+{
+"id": "porta_nomentana",
+"name": "Porta Nomentana",
+"city": "rome",
+"loc": [
+12.5034,
+41.9096
+],
+"built": 275,
+"begun": null,
+"builder": "aurelian",
+"phases": [
+{
+"y": 1564,
+"t": "closed and replaced by Porta Pia"
+}
+],
+"destroyed": null,
+"type": "gate",
+"summary": "The Aurelian gate of the Via Nomentana, leading to the basilica of Sant'Agnese. Pius IV closed it when Michelangelo's Porta Pia was built nearby (1561); one Honorian tower survives.",
+"certainty": "location approximate"
+},
+{
+"id": "porta_tiburtina",
+"name": "Porta Tiburtina",
+"city": "rome",
+"loc": [
+12.5103,
+41.8975
+],
+"built": 275,
+"begun": null,
+"builder": "aurelian",
+"phases": [
+{
+"y": -5,
+"t": "aqueduct arch built by Augustus"
+},
+{
+"y": 402,
+"t": "Honorian rebuilding"
+}
+],
+"destroyed": null,
+"type": "gate",
+"summary": "Built round the Augustan arch (5 BC) that carried the Marcia, Tepula and Julia over the Via Tiburtina, which therefore bears inscriptions of Augustus, Titus and Caracalla, with an Honorian inscription of 402 on the outer gate. The road led to the shrine of San Lorenzo."
+},
+{
+"id": "porta_praenestina",
+"name": "Porta Praenestina-Labicana (Porta Maggiore)",
+"city": "rome",
+"loc": [
+12.5153,
+41.8914
+],
+"built": 52,
+"begun": null,
+"builder": "claudius",
+"phases": [
+{
+"y": 271,
+"t": "incorporated into the Aurelian Wall"
+},
+{
+"y": 403,
+"t": "Honorian bastion"
+},
+{
+"y": 1838,
+"t": "bastion demolished"
+}
+],
+"destroyed": null,
+"type": "gate",
+"summary": "Claudius' double arch of rusticated travertine carrying the Aqua Claudia and Anio Novus over the forking Via Praenestina and Labicana (52), made into a city gate when the Aurelian Wall incorporated it in 271. Honorius added a bastion, demolished in 1838 to reveal the tomb of Eurysaces."
+},
+{
+"id": "porta_asinaria",
+"name": "Porta Asinaria",
+"city": "rome",
+"loc": [
+12.5088,
+41.8857
+],
+"built": 275,
+"begun": null,
+"builder": "aurelian",
+"phases": [
+{
+"y": 546,
+"t": "Isaurian guards admit Totila"
+},
+{
+"y": 1574,
+"t": "closed"
+}
+],
+"destroyed": null,
+"type": "gate",
+"summary": "A gate of the Aurelian Wall near the Lateran, enlarged under Honorius. On the night of 17 December 546 Isaurian guards opened it to Totila, who took Rome after a long siege. Replaced by Porta San Giovanni in 1574.",
+"event": "totila_takes_rome_546"
+},
+{
+"id": "porta_appia",
+"name": "Porta Appia (Porta San Sebastiano)",
+"city": "rome",
+"loc": [
+12.5015,
+41.8734
+],
+"built": 275,
+"begun": null,
+"builder": "aurelian",
+"phases": [
+{
+"y": 403,
+"t": "rebuilt under Honorius"
+},
+{
+"y": 1990,
+"t": "Museo delle Mura"
+}
+],
+"destroyed": null,
+"type": "gate",
+"summary": "The largest and best-preserved gate of the Aurelian Wall, on the Via Appia, rebuilt under Honorius with two massive semicircular towers on square bases. It houses the Museo delle Mura."
+},
+{
+"id": "porta_ostiensis",
+"name": "Porta Ostiensis (Porta San Paolo)",
+"city": "rome",
+"loc": [
+12.4815,
+41.8766
+],
+"built": 275,
+"begun": null,
+"builder": "aurelian",
+"phases": [
+{
+"y": 403,
+"t": "rebuilt under Honorius"
+},
+{
+"y": 550,
+"t": "opened to Totila by the garrison"
+}
+],
+"destroyed": null,
+"type": "gate",
+"summary": "The gate of the Via Ostiensis beside the Pyramid of Cestius, with a double outer arch replaced by a single one with two towers under Honorius. In 550 Isaurian troops of the garrison opened it to Totila, who retook Rome.",
+"event": "totila_retakes_rome_550"
+},
+{
+"id": "porta_aurelia",
+"name": "Porta Aurelia (Porta San Pancrazio)",
+"city": "rome",
+"loc": [
+12.4615,
+41.8884
+],
+"built": 275,
+"begun": null,
+"builder": "aurelian",
+"phases": [
+{
+"y": 537,
+"t": "assaulted by the Goths"
+},
+{
+"y": 1648,
+"t": "rebuilt"
+}
+],
+"destroyed": null,
+"type": "gate",
+"summary": "The Trastevere gate on the Janiculum where the Via Aurelia left the city, the highest point of the circuit. Procopius says the Goths attacked it in 537. Rebuilt in 1648 and again in 1854."
+},
+{
+"id": "emporium",
+"name": "Emporium",
+"city": "rome",
+"loc": [
+12.4755,
+41.8826
+],
+"built": -193,
+"begun": null,
+"builder": "marcus_aemilius_lepidus_cos187",
+"builderName": "aediles M. Aemilius Lepidus and L. Aemilius Paullus",
+"phases": [
+{
+"y": -174,
+"t": "paved by the censors"
+}
+],
+"destroyed": null,
+"type": "harbour",
+"summary": "The river port below the Aventine, laid out in 193 BC by the aediles M. Aemilius Lepidus and L. Aemilius Paullus and paved and stepped by the censors of 174 BC, with a quay about 500 m long and mooring stones still visible along the Lungotevere Testaccio. Goods shipped up from Ostia and Portus, above all grain, oil and wine, were unloaded here into the Porticus Aemilia and the horrea.",
+"event": "porticus_aemilia_193"
+},
+{
+"id": "porticus_aemilia",
+"name": "Porticus Aemilia",
+"city": "rome",
+"loc": [
+12.4736,
+41.8796
+],
+"built": -193,
+"begun": null,
+"builder": "lucius_aemilius_paullus_macedonicus",
+"builderName": "aediles M. Aemilius Lepidus and L. Aemilius Paullus",
+"phases": [
+{
+"y": -174,
+"t": "rebuilt by the censors"
+}
+],
+"destroyed": null,
+"type": "market",
+"summary": "Built by the same aediles in 193 BC and rebuilt in 174, traditionally the great warehouse of the Emporium: about 487 by 60 m, divided into 50 barrel-vaulted bays stepping up the slope, in opus incertum, one of the earliest large concrete buildings. Since 2006 Cozza and Tucci have argued that the identification on the Severan marble plan was mistaken and that the building is the Navalia, the Republican naval dockyard. Remains survive in Via Branca, Via Florio and Via Rubattino.",
+"event": "porticus_aemilia_193",
+"certainty": "identification debated (warehouse or Navalia)",
+"footprint": [
+[
+12.4753,
+41.8814
+],
+[
+12.4747,
+41.8817
+],
+[
+12.4719,
+41.8778
+],
+[
+12.4725,
+41.8775
+],
+[
+12.4753,
+41.8814
+]
+]
+},
+{
+"id": "horrea_galbana",
+"name": "Horrea Galbana",
+"city": "rome",
+"loc": [
+12.4762,
+41.879
+],
+"built": -100,
+"begun": null,
+"builder": null,
+"builderName": "Sulpicii Galbae; imperial from 69",
+"phases": [
+{
+"y": 69,
+"t": "pass to imperial ownership"
+}
+],
+"destroyed": null,
+"type": "market",
+"summary": "The largest warehouses of Rome, on three courtyards with about 140 rooms, south of the Emporium. They began as the property of the Sulpicii Galbae (Ser. Sulpicius Galba, consul 108 BC, whose tomb lies nearby) and became imperial after the emperor Galba's fall in 69. They stored grain, oil, wine and other goods for the annona.",
+"certainty": "outline approximate",
+"footprint": [
+[
+12.4776,
+41.8793
+],
+[
+12.4759,
+41.8801
+],
+[
+12.4748,
+41.8787
+],
+[
+12.4765,
+41.8779
+],
+[
+12.4776,
+41.8793
+]
+]
+},
+{
+"id": "monte_testaccio",
+"name": "Monte Testaccio",
+"city": "rome",
+"loc": [
+12.4751,
+41.8759
+],
+"built": 250,
+"begun": 1,
+"builder": null,
+"phases": [
+{
+"y": 140,
+"t": "peak deposition"
+},
+{
+"y": 260,
+"t": "dumping ends"
+}
+],
+"destroyed": null,
+"type": "other",
+"summary": "An artificial hill about 35 m high and roughly 1 km round, made entirely of the sherds of some 50 million broken olive-oil amphorae dumped in orderly terraces between the Augustan period and about 260. About 80 percent are Dressel 20 globular jars from Baetica (Guadalquivir valley), the rest from Tripolitania and Byzacena. Their painted inscriptions (tituli picti) record weight, shippers and the fiscal controls of the annona, making the hill an archive of the imperial oil supply, studied by Dressel, Rodríguez Almeida, and Blázquez and Remesal.",
+"footprint": [
+[
+12.4739,
+41.8762
+],
+[
+12.4741,
+41.8755
+],
+[
+12.4749,
+41.8751
+],
+[
+12.4754,
+41.8746
+],
+[
+12.4758,
+41.8746
+],
+[
+12.4762,
+41.8747
+],
+[
+12.4765,
+41.8754
+],
+[
+12.4759,
+41.8773
+],
+[
+12.4739,
+41.8765
+],
+[
+12.4739,
+41.8762
+]
+]
+},
+{
+"id": "castra_praetoria_mon",
+"name": "Castra Praetoria",
+"city": "rome",
+"loc": [
+12.5052,
+41.9067
+],
+"built": 23,
+"begun": null,
+"builder": "tiberius",
+"builderName": "Sejanus under Tiberius",
+"phases": [
+{
+"y": 41,
+"t": "Claudius acclaimed"
+},
+{
+"y": 193,
+"t": "empire auctioned to Didius Julianus"
+},
+{
+"y": 271,
+"t": "incorporated into the Aurelian Wall"
+},
+{
+"y": 312,
+"t": "Praetorians disbanded by Constantine"
+}
+],
+"destroyed": null,
+"type": "other",
+"summary": "The camp of the Praetorian Guard, built by Sejanus around 23 to concentrate the nine cohorts previously scattered round the city: about 440 by 380 m, the shape of a legionary fortress, on the NE edge of Rome. Here Claudius was acclaimed in 41, paying a donative of 15,000 sesterces a man, and here the empire was auctioned to Didius Julianus in 193. Aurelian made its north and east walls part of his city wall. After the Milvian Bridge Constantine disbanded the guard and demolished the camp's inner wall.",
+"event": "castra_praetoria",
+"footprint": [
+[
+12.5075,
+41.9087
+],
+[
+12.5029,
+41.9087
+],
+[
+12.5029,
+41.9047
+],
+[
+12.5075,
+41.9047
+],
+[
+12.5075,
+41.9087
+]
+]
+},
+{
+"id": "moneta_caesaris",
+"name": "Imperial Mint (Moneta)",
+"city": "rome",
+"loc": [
+12.497,
+41.8892
+],
+"built": 80,
+"begun": null,
+"builder": "domitian",
+"phases": [
+{
+"y": 271,
+"t": "revolt of the mint workers under Felicissimus"
+}
+],
+"destroyed": null,
+"type": "other",
+"summary": "From Domitian onwards the imperial mint operated on the Caelian near the Colosseum, by San Clemente, where a dedication of the mint workers (officinatores monetae) was found. In 271 the mint workers under the rationalis Felicissimus rose against Aurelian; the fighting on the Caelian is said to have cost 7,000 soldiers.",
+"certainty": "location approximate"
+},
+{
+"id": "lateran_basilica",
+"name": "Lateran Basilica (Basilica Constantiniana)",
+"city": "rome",
+"loc": [
+12.5056,
+41.8858
+],
+"built": 318,
+"begun": 312,
+"builder": "constantine_i",
+"phases": [
+{
+"y": 313,
+"t": "council under Miltiades"
+},
+{
+"y": 455,
+"t": "looted by the Vandals"
+},
+{
+"y": 896,
+"t": "earthquake collapse"
+},
+{
+"y": 1650,
+"t": "Borromini's nave"
+}
+],
+"destroyed": null,
+"type": "church",
+"summary": "Constantine's first church in Rome, founded around 312-313 on the site of the barracks of the equites singulares, the horse guard that had fought for Maxentius, levelled for the purpose. A five-aisled basilica about 100 m long dedicated to Christ the Saviour, with the bishop's residence in the adjoining Lateran palace (the Domus Faustae, where a council met under Miltiades in October 313 against the Donatists). Its gold and silver fittings are listed in the Liber Pontificalis. Looted by the Vandals in 455, it collapsed in the earthquake of 896 and has been rebuilt many times; Borromini remodelled the nave in 1646-50. It remains the cathedral of Rome.",
+"event": "lateran_basilica_founded",
+"footprint": [
+[
+12.5046,
+41.886
+],
+[
+12.5048,
+41.8854
+],
+[
+12.5052,
+41.8855
+],
+[
+12.5053,
+41.8851
+],
+[
+12.5061,
+41.8853
+],
+[
+12.5061,
+41.8855
+],
+[
+12.5064,
+41.8855
+],
+[
+12.5065,
+41.8857
+],
+[
+12.5064,
+41.8863
+],
+[
+12.5061,
+41.8864
+],
+[
+12.5057,
+41.8862
+],
+[
+12.5046,
+41.886
+]
+]
+},
+{
+"id": "lateran_baptistery",
+"name": "Lateran Baptistery",
+"city": "rome",
+"loc": [
+12.5043,
+41.8862
+],
+"built": 440,
+"begun": null,
+"builder": "constantine_i",
+"builderName": "Constantine; rebuilt by Sixtus III",
+"phases": [
+{
+"y": 468,
+"t": "chapels of Hilarus"
+}
+],
+"destroyed": null,
+"type": "church",
+"summary": "The octagonal baptistery next to the Lateran, built under Constantine and rebuilt by Sixtus III (432-440) with porphyry columns and an inscription on the theology of rebirth. The model for later octagonal baptisteries; chapels were added by Hilarus (461-468)."
+},
+{
+"id": "old_st_peters",
+"name": "Old St Peter's",
+"city": "rome",
+"loc": [
+12.4535,
+41.9022
+],
+"built": 333,
+"begun": 319,
+"builder": "constantine_i",
+"phases": [
+{
+"y": 360,
+"t": "completed under Constantius II"
+},
+{
+"y": 800,
+"t": "coronation of Charlemagne"
+},
+{
+"y": 1506,
+"t": "demolition and rebuilding begin"
+},
+{
+"y": 1949,
+"t": "necropolis excavations completed"
+}
+],
+"destroyed": null,
+"type": "church",
+"summary": "A five-aisled basilica about 120 m long built by Constantine on a terrace cut into the Vatican hill over a 2nd-century monument (the Tropaion of Gaius, c. 160) marking the apostle's tomb in a pagan cemetery, which had to be partly filled in. Begun around 319-322 and probably completed after Constantine's death under Constantius II; the atrium and Pine Cone fountain followed. It became the great pilgrimage church of the West; Charlemagne was crowned here in 800. Julius II began its replacement in 1506; the excavations of 1939-49 under the present basilica revealed the necropolis and shrine.",
+"event": "old_st_peters_basilica",
+"footprint": [
+[
+12.4542,
+41.9019
+],
+[
+12.4542,
+41.9025
+],
+[
+12.4528,
+41.9025
+],
+[
+12.4528,
+41.9019
+],
+[
+12.4542,
+41.9019
+]
+]
+},
+{
+"id": "st_pauls_outside_the_walls",
+"name": "San Paolo fuori le mura",
+"city": "rome",
+"loc": [
+12.4768,
+41.8586
+],
+"built": 402,
+"begun": 386,
+"builder": "theodosius_i",
+"builderName": "Valentinian II, Theodosius and Arcadius; completed under Honorius",
+"phases": [
+{
+"y": 324,
+"t": "first Constantinian church"
+},
+{
+"y": 450,
+"t": "triumphal arch mosaic funded by Galla Placidia"
+},
+{
+"y": 1823,
+"t": "destroyed by fire"
+},
+{
+"y": 1854,
+"t": "rebuilt and reconsecrated"
+}
+],
+"destroyed": null,
+"type": "church",
+"summary": "A small Constantinian church on the Via Ostiensis over Paul's tomb was replaced by the 'basilica of the three emperors' ordered by Valentinian II, Theodosius and Arcadius in a rescript to the urban prefect Sallustius in 384-386 and completed under Honorius; it was reversed to face the road. With five aisles and 80 columns it rivalled St Peter's, and Galla Placidia paid for the triumphal arch mosaic under Leo I. Most of it burned on 15 July 1823 and was rebuilt to the old plan. A marble slab inscribed PAULO APOSTOLO MART lies over the tomb.",
+"footprint": [
+[
+12.4758,
+41.8586
+],
+[
+12.4759,
+41.8585
+],
+[
+12.4774,
+41.8582
+],
+[
+12.4776,
+41.8583
+],
+[
+12.4778,
+41.8586
+],
+[
+12.4777,
+41.8586
+],
+[
+12.4776,
+41.859
+],
+[
+12.4772,
+41.8591
+],
+[
+12.4772,
+41.859
+],
+[
+12.4761,
+41.8591
+],
+[
+12.4758,
+41.8586
+]
+]
+},
+{
+"id": "santa_maria_maggiore",
+"name": "Santa Maria Maggiore",
+"city": "rome",
+"loc": [
+12.4985,
+41.8975
+],
+"built": 440,
+"begun": 432,
+"builder": null,
+"builderName": "Sixtus III",
+"phases": [
+{
+"y": 366,
+"t": "Damasus-Ursinus riot at a nearby basilica"
+},
+{
+"y": 1743,
+"t": "façade by Fuga"
+}
+],
+"destroyed": null,
+"type": "church",
+"summary": "Built by Sixtus III (432-440) after the Council of Ephesus had proclaimed Mary Theotokos in 431, the best-preserved great basilica of 5th-century Rome, with its Ionic colonnades and original mosaics of Old Testament stories in the nave and the infancy of Christ on the triumphal arch. A medieval legend ties its foundation to a summer snowfall under Pope Liberius (352-366); the 'basilica of Sicininus' where 137 bodies were left after the battle between the partisans of Damasus and Ursinus in 366 (Ammianus 27.3.13) is sometimes identified with its predecessor.",
+"footprint": [
+[
+12.4978,
+41.8976
+],
+[
+12.4985,
+41.8971
+],
+[
+12.4992,
+41.8976
+],
+[
+12.4989,
+41.8978
+],
+[
+12.4988,
+41.8977
+],
+[
+12.4986,
+41.8978
+],
+[
+12.4987,
+41.8979
+],
+[
+12.4983,
+41.8981
+],
+[
+12.498,
+41.8979
+],
+[
+12.4978,
+41.8976
+]
+]
+},
+{
+"id": "santa_sabina",
+"name": "Santa Sabina",
+"city": "rome",
+"loc": [
+12.4799,
+41.8845
+],
+"built": 432,
+"begun": 422,
+"builder": null,
+"builderName": "Peter of Illyria under Celestine I",
+"phases": [
+{
+"y": 1222,
+"t": "given to the Dominicans"
+}
+],
+"destroyed": null,
+"type": "church",
+"summary": "Built on the Aventine about 422-432 by Peter, a priest from Illyria, under Pope Celestine I, as the dedicatory mosaic inscription records. Its 24 fluted Corinthian columns are reused from a 2nd-century building, and its carved cypress doors include one of the earliest depictions of the Crucifixion. It was given to the Dominicans in 1222."
+},
+{
+"id": "santo_stefano_rotondo",
+"name": "Santo Stefano Rotondo",
+"city": "rome",
+"loc": [
+12.4966,
+41.8845
+],
+"built": 483,
+"begun": null,
+"builder": null,
+"builderName": "Pope Simplicius",
+"phases": [
+{
+"y": 645,
+"t": "mosaic of Primus and Felicianus"
+},
+{
+"y": 1453,
+"t": "outer ring abandoned under Nicholas V"
+}
+],
+"destroyed": null,
+"type": "church",
+"summary": "A circular church on the Caelian dedicated by Pope Simplicius (468-483), 66 m in diameter with concentric rings of columns and a Greek-cross arrangement of chapels, perhaps inspired by the Holy Sepulchre. It stands over the Castra Peregrina, whose mithraeum was found beneath. Theodore I (642-649) added the mosaic of Saints Primus and Felicianus.",
+"footprint": [
+[
+12.4966,
+41.8848
+],
+[
+12.4968,
+41.8847
+],
+[
+12.497,
+41.8846
+],
+[
+12.497,
+41.8844
+],
+[
+12.4968,
+41.8843
+],
+[
+12.4966,
+41.8842
+],
+[
+12.4964,
+41.8843
+],
+[
+12.4962,
+41.8844
+],
+[
+12.4962,
+41.8846
+],
+[
+12.4964,
+41.8847
+],
+[
+12.4966,
+41.8848
+]
+]
+},
+{
+"id": "santa_croce_in_gerusalemme",
+"name": "Santa Croce in Gerusalemme",
+"city": "rome",
+"loc": [
+12.5158,
+41.8882
+],
+"built": 330,
+"begun": null,
+"builder": "helena",
+"phases": [
+{
+"y": 1144,
+"t": "rebuilt"
+},
+{
+"y": 1743,
+"t": "Baroque façade"
+}
+],
+"destroyed": null,
+"type": "church",
+"summary": "A hall of the Sessorian palace, the residence of the empress Helena, converted into a church around 325-330 to house the relics of the True Cross she brought from Jerusalem; earth from Calvary was supposedly spread under the floor. Rebuilt in 1144 and in 1743."
+},
+{
+"id": "san_lorenzo_fuori_le_mura",
+"name": "San Lorenzo fuori le mura",
+"city": "rome",
+"loc": [
+12.5209,
+41.9024
+],
+"built": 590,
+"begun": null,
+"builder": "constantine_i",
+"builderName": "Constantine; Pelagius II",
+"phases": [
+{
+"y": 330,
+"t": "Constantinian funerary basilica"
+},
+{
+"y": 590,
+"t": "basilica of Pelagius II"
+},
+{
+"y": 1220,
+"t": "the churches combined"
+},
+{
+"y": 1943,
+"t": "bomb damage"
+}
+],
+"destroyed": null,
+"type": "church",
+"summary": "Constantine built a large circus-shaped funerary basilica beside the catacomb of the deacon Lawrence (martyred 258) on the Via Tiburtina; Pelagius II (579-590) built a separate church directly over the tomb, whose mosaic shows him offering the model. In the 13th century the two were joined. Allied bombs struck it in 1943."
+},
+{
+"id": "sant_agnese_fuori_le_mura",
+"name": "Sant'Agnese fuori le mura",
+"city": "rome",
+"loc": [
+12.5189,
+41.9229
+],
+"built": 638,
+"begun": null,
+"builder": null,
+"builderName": "Constantina; Honorius I",
+"phases": [
+{
+"y": 345,
+"t": "Constantina's funerary basilica"
+},
+{
+"y": 638,
+"t": "Honorius I's church"
+}
+],
+"destroyed": null,
+"type": "church",
+"summary": "A large circus-shaped funerary basilica was built by Constantina in the 340s near the tomb of the martyr Agnes on the Via Nomentana; Honorius I (625-638) built the present church directly over the tomb, half underground, with an apse mosaic of Agnes between two popes."
+},
+{
+"id": "basilica_apostolorum",
+"name": "Basilica Apostolorum (San Sebastiano)",
+"city": "rome",
+"loc": [
+12.5154,
+41.8556
+],
+"built": 340,
+"begun": null,
+"builder": null,
+"phases": [
+{
+"y": 258,
+"t": "cult of Peter and Paul begins at the site"
+},
+{
+"y": 1612,
+"t": "rebuilt"
+}
+],
+"destroyed": null,
+"type": "church",
+"summary": "A circus-shaped funerary basilica of the early 4th century on the Via Appia over the Memoria Apostolorum, a courtyard where from 258 Christians held funeral banquets invoking Peter and Paul, leaving hundreds of graffiti. Later rededicated to the martyr Sebastian."
+},
+{
+"id": "santa_maria_in_trastevere",
+"name": "Santa Maria in Trastevere",
+"city": "rome",
+"loc": [
+12.4696,
+41.8894
+],
+"built": 350,
+"begun": null,
+"builder": null,
+"builderName": "Julius I",
+"phases": [
+{
+"y": 1143,
+"t": "rebuilt by Innocent II"
+}
+],
+"destroyed": null,
+"type": "church",
+"summary": "The titulus Callisti, by tradition founded by Pope Callixtus (217-222) on a site the Historia Augusta says Severus Alexander awarded to the Christians against the tavern keepers; it was rebuilt by Julius I (337-352) and is among the oldest churches dedicated to Mary. The present church dates from the 1140s.",
+"certainty": "early history largely traditional"
+},
+{
+"id": "san_clemente",
+"name": "San Clemente",
+"city": "rome",
+"loc": [
+12.4975,
+41.8894
+],
+"built": 390,
+"begun": null,
+"builder": null,
+"phases": [
+{
+"y": 417,
+"t": "council of Zosimus"
+},
+{
+"y": 1108,
+"t": "upper church built"
+},
+{
+"y": 1857,
+"t": "lower church rediscovered"
+}
+],
+"destroyed": null,
+"type": "church",
+"summary": "A three-level site: a 1st-century building and a house with a 2nd-3rd century mithraeum, under a 4th-century basilica mentioned by Jerome in 392, under the 12th-century church. Pope Zosimus held a council here in 417 to hear Caelestius the Pelagian. The lower basilica has an 11th-century fresco with one of the earliest written Italian vernacular captions."
+},
+{
+"id": "santi_giovanni_e_paolo",
+"name": "Santi Giovanni e Paolo",
+"city": "rome",
+"loc": [
+12.4922,
+41.8865
+],
+"built": 410,
+"begun": null,
+"builder": null,
+"builderName": "Pammachius",
+"phases": [
+{
+"y": 1887,
+"t": "Roman houses excavated"
+}
+],
+"destroyed": null,
+"type": "church",
+"summary": "Built around 398-410 by the senator Pammachius, friend of Jerome, over Roman houses (the Case Romane del Celio) where legend placed the martyrdom of two court officials, John and Paul, under Julian. Excavations from 1887 revealed the houses' frescoes including an early Christian confessio. It stands against the Temple of Divus Claudius."
+},
+{
+"id": "san_pietro_in_vincoli",
+"name": "San Pietro in Vincoli (Basilica Eudoxiana)",
+"city": "rome",
+"loc": [
+12.4931,
+41.8938
+],
+"built": 440,
+"begun": null,
+"builder": "licinia_eudoxia",
+"phases": [
+{
+"y": 1545,
+"t": "tomb of Julius II with Michelangelo's Moses"
+}
+],
+"destroyed": null,
+"type": "church",
+"summary": "Rebuilt by Sixtus III around 439 with funds from the empress Licinia Eudoxia to house the chains of Peter, the Jerusalem chain having by legend fused with the Roman one. It contains Michelangelo's Moses for the tomb of Julius II."
+},
+{
+"id": "santa_pudenziana",
+"name": "Santa Pudenziana",
+"city": "rome",
+"loc": [
+12.4955,
+41.8984
+],
+"built": 400,
+"begun": null,
+"builder": null,
+"builderName": "Pope Siricius",
+"phases": [],
+"destroyed": null,
+"type": "church",
+"summary": "A church built in the late 4th century within a 2nd-century bath hall under Pope Siricius (384-399), whose apse mosaic of about 390-417, Christ enthroned among the apostles before a jewelled Jerusalem, is the oldest surviving apse mosaic in Rome."
+},
+{
+"id": "santi_cosma_e_damiano",
+"name": "Santi Cosma e Damiano",
+"city": "rome",
+"loc": [
+12.4875,
+41.8921
+],
+"built": 530,
+"begun": null,
+"builder": null,
+"builderName": "Pope Felix IV",
+"phases": [
+{
+"y": 1632,
+"t": "floor raised by Urban VIII"
+}
+],
+"destroyed": null,
+"type": "church",
+"summary": "The first church in the Forum, created by Felix IV (526-530) in a hall of the Templum Pacis, the gift of the Ostrogothic court of Amalasuntha, with the so-called Temple of Romulus as its vestibule. Its apse mosaic of Christ descending on clouds with the apostles and the eastern doctor-saints is a landmark of 6th-century art. The marble plan of Rome hung on the outer wall of this hall."
+},
+{
+"id": "santa_maria_antiqua",
+"name": "Santa Maria Antiqua",
+"city": "rome",
+"loc": [
+12.4856,
+41.891
+],
+"built": 560,
+"begun": null,
+"builder": null,
+"phases": [
+{
+"y": 649,
+"t": "frescoes under Martin I"
+},
+{
+"y": 706,
+"t": "decoration of John VII"
+},
+{
+"y": 847,
+"t": "buried by earthquake"
+},
+{
+"y": 1900,
+"t": "rediscovered"
+}
+],
+"destroyed": null,
+"type": "church",
+"summary": "A church installed in the mid-6th century in a Domitianic vestibule at the foot of the Palatine, serving the Byzantine administration on the hill. Its 'palimpsest wall' carries up to six layers of fresco from the 6th to the 8th century; Pope John VII (705-707), son of a Byzantine official, painted much of it. The earthquake of 847 buried it; it was rediscovered in 1900."
+},
+{
+"id": "sant_agata_dei_goti",
+"name": "Sant'Agata dei Goti",
+"city": "rome",
+"loc": [
+12.4893,
+41.8964
+],
+"built": 470,
+"begun": null,
+"builder": "ricimer",
+"phases": [
+{
+"y": 593,
+"t": "reconsecrated by Gregory the Great"
+}
+],
+"destroyed": null,
+"type": "church",
+"summary": "An Arian church for Rome's Gothic soldiers built about 460-470 by the general Ricimer, whose lost apse mosaic inscription named him as Fl. Ricimer, magister utriusque militiae, patrician and ex-consul. Gregory the Great reconsecrated it for Catholic worship in 592-593."
+},
+{
+"id": "basilica_iunii_bassi",
+"name": "Basilica of Junius Bassus",
+"city": "rome",
+"loc": [
+12.4988,
+41.8986
+],
+"built": 331,
+"begun": null,
+"builder": null,
+"builderName": "Junius Bassus (cos. 331)",
+"phases": [
+{
+"y": 470,
+"t": "converted into Sant'Andrea Catabarbara"
+},
+{
+"y": 1686,
+"t": "demolished"
+}
+],
+"destroyed": 1686,
+"type": "basilica",
+"summary": "An aristocratic reception hall built by Junius Bassus, consul in 331, on the Esquiline, famous for its opus sectile wall panels of coloured marble showing Hylas and the nymphs and a consul driving his chariot at the games. Pope Simplicius made it the church of Sant'Andrea Catabarbara (468-483); it was demolished in the 17th century."
+},
+{
+"id": "catacomb_of_callixtus",
+"name": "Catacomb of Callixtus",
+"city": "rome",
+"loc": [
+12.5108,
+41.8589
+],
+"built": 200,
+"begun": null,
+"builder": null,
+"builderName": "Bishop Zephyrinus and the deacon Callixtus",
+"phases": [
+{
+"y": 258,
+"t": "martyrdom of Sixtus II"
+},
+{
+"y": 370,
+"t": "Damasus' inscriptions"
+},
+{
+"y": 1854,
+"t": "Crypt of the Popes rediscovered"
+}
+],
+"destroyed": null,
+"type": "tomb",
+"summary": "The first official cemetery of the Roman church, entrusted around 200 by Bishop Zephyrinus to the deacon Callixtus (later pope). It held the Crypt of the Popes with the tombs of nine bishops of the 3rd century, including Pontian, Fabian (martyred 250) and Sixtus II, beheaded with his deacons in 258, and the crypt of Cecilia. Pope Damasus decorated it with verse inscriptions. Rediscovered by Giovanni Battista de Rossi in 1849-54."
+},
+{
+"id": "catacomb_of_san_sebastiano",
+"name": "Catacomb of San Sebastiano",
+"city": "rome",
+"loc": [
+12.5158,
+41.8559
+],
+"built": 250,
+"begun": null,
+"builder": null,
+"phases": [
+{
+"y": 258,
+"t": "Peter and Paul venerated here"
+}
+],
+"destroyed": null,
+"type": "tomb",
+"summary": "The cemetery 'ad catacumbas' (by the hollows) on the Via Appia, which gave all catacombs their name. Beneath the basilica lie pagan mausolea and the Memoria Apostolorum where Peter and Paul were venerated from 258, perhaps because their relics were temporarily moved here during Valerian's persecution."
+},
+{
+"id": "catacomb_of_domitilla",
+"name": "Catacomb of Domitilla",
+"city": "rome",
+"loc": [
+12.5056,
+41.8588
+],
+"built": 250,
+"begun": null,
+"builder": null,
+"phases": [
+{
+"y": 395,
+"t": "basilica of Nereus and Achilleus"
+}
+],
+"destroyed": null,
+"type": "tomb",
+"summary": "One of the largest catacombs, about 15 km of galleries on the Via Ardeatina, on land associated with Flavia Domitilla, the Flavian princess exiled by Domitian in 95, perhaps for Christian or Jewish sympathies. A semi-subterranean basilica of Saints Nereus and Achilleus was built into it in the 390s."
+},
+{
+"id": "catacomb_of_priscilla",
+"name": "Catacomb of Priscilla",
+"city": "rome",
+"loc": [
+12.5088,
+41.9297
+],
+"built": 230,
+"begun": null,
+"builder": null,
+"phases": [
+{
+"y": 230,
+"t": "Virgin and Child painting"
+},
+{
+"y": 1578,
+"t": "rediscovered"
+}
+],
+"destroyed": null,
+"type": "tomb",
+"summary": "A catacomb on the Via Salaria growing from a hypogeum of the Acilii Glabriones, with the 'Greek Chapel' and a painting of about 230 of a woman with a child beside a prophet pointing to a star, often called the earliest image of the Virgin and Child. Several 4th-century popes were buried here."
+},
+{
+"id": "catacomb_of_marcellinus_and_peter",
+"name": "Catacomb of Marcellinus and Peter",
+"city": "rome",
+"loc": [
+12.5485,
+41.8784
+],
+"built": 250,
+"begun": null,
+"builder": null,
+"phases": [
+{
+"y": 328,
+"t": "Constantinian basilica and Mausoleum of Helena built over it"
+},
+{
+"y": 2010,
+"t": "mass burials excavated"
+}
+],
+"destroyed": null,
+"type": "tomb",
+"summary": "A large catacomb on the imperial estate ad duas lauros on the Via Labicana, known for its banquet scenes, beside the Mausoleum of Helena. Excavations in 2003-10 found chambers holding thousands of bodies laid out in a short time, probably victims of an epidemic of the 2nd or 3rd century."
+},
+{
+"id": "catacomb_villa_torlonia",
+"name": "Jewish Catacomb of Villa Torlonia",
+"city": "rome",
+"loc": [
+12.5115,
+41.9135
+],
+"built": 150,
+"begun": null,
+"builder": null,
+"phases": [
+{
+"y": 1918,
+"t": "discovered"
+}
+],
+"destroyed": null,
+"type": "tomb",
+"summary": "One of the Jewish catacombs of Rome, with painted rooms showing the menorah and the Ark of the Covenant. Radiocarbon dates published in 2005 put its first use no later than the 2nd century, before most Christian catacombs, which revived the case that Jews pioneered this form of burial in Rome."
+},
+{
+"id": "hypogeum_via_latina",
+"name": "Hypogeum of Via Latina (Via Dino Compagni)",
+"city": "rome",
+"loc": [
+12.5345,
+41.8665
+],
+"built": 350,
+"begun": null,
+"builder": null,
+"phases": [
+{
+"y": 1955,
+"t": "discovered"
+}
+],
+"destroyed": null,
+"type": "tomb",
+"summary": "A small private catacomb of about 320-360 found in 1955, whose paintings mix Old Testament scenes with Hercules and Alcestis, showing pagan and Christian imagery used side by side by related families.",
+"certainty": "location approximate"
+}
+]
+}

@@ -266,11 +266,13 @@ const R = {
   },
   monument(m) {
     const city = m.city === 'constantinople' ? 'Constantinople' : 'Rome';
-    let html = head(`${city} · ${esc(m.type || 'monument')}`, m.name, [m.begun && m.begun !== m.built ? `begun ${esc(fmtYear(m.begun))}` : '', m.built !== undefined && m.built !== null ? `dedicated ${esc(fmtYear(m.built))}` : '', m.builder ? link(m.builder, null, 'person') : ''].filter(Boolean).join(' · '),
+    let html = head(`${city} · ${esc(m.type || 'monument')}`, m.name, [m.begun && m.begun !== m.built ? `begun ${esc(fmtYear(m.begun))}` : '', m.built !== undefined && m.built !== null ? `dedicated ${esc(fmtYear(m.built))}` : '', m.builder ? link(m.builder, m.builderName, 'person') : m.builderName ? esc(m.builderName) : ''].filter(Boolean).join(' · '),
       m.built !== undefined && m.built !== null ? `<button data-action="year" data-y="${m.built}">Go to its dedication</button>` : '');
     html += `<div class="d-body"><p class="summary"><span class="swatch" style="background:${MON_COLORS[m.type] || '#777'}"></span>${richText(m.summary, exists)}</p>`;
     if (m.phases?.length) html += `<h4>History</h4><dl class="kv">${m.phases.map((p) => `<dt><a class="ent" data-action="year" data-y="${p.y}">${esc(fmtYear(p.y))}</a></dt><dd>${richText(p.t, exists)}</dd>`).join('')}</dl>`;
     if (m.destroyed) html += `<p><b>End.</b> ${esc(fmtYear(m.destroyed))}</p>`;
+    if (m.event && exists(m.event)) html += `<p class="meta">In the chronicle: ${link(m.event, null, 'event')}</p>`;
+    if (m.certainty) html += `<p class="meta">${cert(m.certainty.length < 14 ? m.certainty : 'disputed')} ${m.certainty.length >= 14 ? esc(m.certainty) : ''}</p>`;
     return html + sourcesBlock(m.sources) + '</div>';
   },
   mint(m) {

@@ -14,7 +14,7 @@ export const MON_COLORS = {
 };
 const THEME = { economy: '#8A6A2E', religion: '#5D3C6E', culture: '#2E6B8A' };
 
-export const EXTRA_CLICKABLE = ['province-labels', 'monuments', 'mon-foot', 'mints', 'hoards', 'sites', 'routes'];
+export const EXTRA_CLICKABLE = ['province-labels', 'monuments', 'mon-foot', 'mon-line', 'mints', 'hoards', 'sites', 'routes'];
 
 export function initExtras(m) {
   map = m;
@@ -23,6 +23,7 @@ export function initExtras(m) {
   add('provinceLabels', fc([]));
   add('monuments', fc([]));
   add('monFoot', fc([]));
+  add('monLine', fc([]));
   add('mints', fc([]));
   add('hoards', fc([]));
   add('sites', fc([]));
@@ -44,6 +45,7 @@ export function initExtras(m) {
   map.addLayer({ id: 'routes-label', type: 'symbol', source: 'routes', minzoom: 4, layout: { 'symbol-placement': 'line', 'text-field': ['get', 'name'], 'text-font': SERIF_I, 'text-size': 11.5, 'symbol-spacing': 500 }, paint: { 'text-color': '#F4EFE6', 'text-halo-color': 'rgba(30,59,78,.9)', 'text-halo-width': 1.4 } }, before);
   map.addLayer({ id: 'walls', type: 'line', source: 'walls', minzoom: 10, paint: { 'line-color': '#3B0E0E', 'line-width': ['interpolate', ['linear'], ['zoom'], 10, 1.2, 15, 4], 'line-opacity': 0.8 } });
   map.addLayer({ id: 'mon-foot', type: 'fill', source: 'monFoot', minzoom: 12, paint: { 'fill-color': ['get', 'color'], 'fill-opacity': ['case', ['get', 'building'], 0.35, 0.75], 'fill-outline-color': '#2A211C' } });
+  map.addLayer({ id: 'mon-line', type: 'line', source: 'monLine', minzoom: 11, paint: { 'line-color': ['get', 'color'], 'line-width': ['interpolate', ['linear'], ['zoom'], 11, 1.5, 16, 4], 'line-opacity': ['case', ['get', 'building'], 0.4, 0.85] } });
   map.addLayer({ id: 'monuments', type: 'circle', source: 'monuments', minzoom: 11, paint: {
     'circle-radius': ['interpolate', ['linear'], ['zoom'], 11, 3, 16, 8], 'circle-color': ['get', 'color'], 'circle-stroke-color': '#F4EFE6', 'circle-stroke-width': 1.5,
     'circle-opacity': ['case', ['get', 'building'], 0.45, 1],
@@ -76,7 +78,7 @@ export function initExtras(m) {
   on('year', (y) => updateExtras(y));
   on('layers', () => { applyExtrasVisibility(); updateExtras(S.year); });
 
-  const clickable = { 'province-labels': 'province', monuments: 'monument', 'mon-foot': 'monument', mints: 'mint', hoards: 'hoard', sites: 'site', routes: 'route' };
+  const clickable = { 'province-labels': 'province', monuments: 'monument', 'mon-foot': 'monument', 'mon-line': 'monument', mints: 'mint', hoards: 'hoard', sites: 'site', routes: 'route' };
   map.on('click', (ev) => {
     const layers = Object.keys(clickable).filter((l) => map.getLayer(l) && map.getLayoutProperty(l, 'visibility') !== 'none');
     const f = map.queryRenderedFeatures(ev.point, { layers })[0];
@@ -94,7 +96,7 @@ export function updateExtras(y) {
   const L = S.layers;
   const pv = L.provinces ? D.provinces.filter((p) => p.labelLoc && active(p.created, p.ended, y)).map((p) => ({ type: 'Feature', geometry: { type: 'Point', coordinates: p.labelLoc }, properties: { id: p.id, name: p.name.replace(/\s*\([^)]*\)/g, '').trim(), type: p.type || 'province' } })) : [];
   map.getSource('provinceLabels').setData(fc(pv));
-  const mons = [], foot = [];
+  const mons = [], foot = [], lines = [];
   if (L.monuments) {
     for (const m of D.monuments) {
       const start = m.begun ?? m.built;
@@ -103,6 +105,7 @@ export function updateExtras(y) {
       const building = m.built !== undefined && m.built !== null && m.built > y;
       const color = MON_COLORS[m.type] || MON_COLORS.other;
       if (Array.isArray(m.loc)) mons.push({ type: 'Feature', geometry: { type: 'Point', coordinates: m.loc }, properties: { id: m.id, name: m.name, color, building } });
+      if (Array.isArray(m.line) && m.line.length >= 2) lines.push({ type: 'Feature', geometry: { type: 'LineString', coordinates: m.line }, properties: { id: m.id, color, building } });
       if (Array.isArray(m.footprint) && m.footprint.length >= 3) {
         const ring = m.footprint.slice();
         if (ring[0][0] !== ring[ring.length - 1][0] || ring[0][1] !== ring[ring.length - 1][1]) ring.push(ring[0]);
@@ -112,6 +115,7 @@ export function updateExtras(y) {
   }
   map.getSource('monuments').setData(fc(mons));
   map.getSource('monFoot').setData(fc(foot));
+  map.getSource('monLine').setData(fc(lines));
   map.setFilter('mints', L.mints ? ['in', ['get', 'id'], ['literal', D.mints.filter((m) => (m.periods || []).some((p) => p[0] <= y && p[1] >= y)).map((m) => m.id)]] : ['in', ['get', 'id'], ['literal', []]]);
   map.setFilter('mints-label', map.getFilter('mints'));
   map.getSource('hoards').setData(fc(L.hoards ? D.hoards.filter((h) => Array.isArray(h.loc) && (h.deposited ?? -9999) <= y).map((h) => ({ type: 'Feature', geometry: { type: 'Point', coordinates: h.loc }, properties: { id: h.id } })) : []));
@@ -127,7 +131,7 @@ export function applyExtrasVisibility() {
   const L = S.layers;
   const vis = (id, v) => map.getLayer(id) && map.setLayoutProperty(id, 'visibility', v ? 'visible' : 'none');
   vis('province-labels', L.provinces);
-  ['monuments', 'monuments-label', 'mon-foot', 'walls'].forEach((id) => vis(id, L.monuments));
+  ['monuments', 'monuments-label', 'mon-foot', 'mon-line', 'walls'].forEach((id) => vis(id, L.monuments));
   vis('city-base', L.cityBase);
   ['mints', 'mints-label'].forEach((id) => vis(id, L.mints));
   vis('hoards', L.hoards);
