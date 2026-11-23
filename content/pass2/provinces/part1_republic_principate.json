@@ -1,0 +1,3847 @@
+{
+ "provinces": [
+  {
+   "id": "prov_sicilia",
+   "name": "Sicilia",
+   "type": "province",
+   "created": -241,
+   "createdNote": "peace of Lutatius 241 BC gave Rome western Sicily; first annual praetor C. Flaminius in 227 BC (Solinus 5.1)",
+   "ended": null,
+   "endedNote": "still Roman in 641; lost to the Aghlabids only from 827 (Syracuse 878)",
+   "capital": "syracusae",
+   "capitalName": "Syracusae (second quaestor at Lilybaeum)",
+   "labelLoc": [
+    14.2,
+    37.5
+   ],
+   "governor": "praetor (from 227 BC); from 27 BC proconsul of praetorian rank; corrector, then consularis (4th c.); praetor from 537 (Justinian, Novel 104)",
+   "phases": [
+    {
+     "from": -241,
+     "to": -227,
+     "t": "western Sicily ceded by the peace of Lutatius; supervised by a quaestor and ad hoc commanders"
+    },
+    {
+     "from": -227,
+     "to": -27,
+     "t": "praetorian province; Hiero II's kingdom of Syracuse annexed after the siege of 213-211; two quaestors (Syracuse, Lilybaeum)"
+    },
+    {
+     "from": -27,
+     "to": 293,
+     "t": "senatorial province under a proconsul of praetorian rank"
+    },
+    {
+     "from": 293,
+     "to": 440,
+     "t": "province of the diocese of Italia Suburbicaria, corrector then consularis"
+    },
+    {
+     "from": 440,
+     "to": 476,
+     "t": "Vandal raids from 440; much of the island occupied by Gaiseric after the failed expedition of 468"
+    },
+    {
+     "from": 476,
+     "to": 535,
+     "t": "ceded by Gaiseric to Odoacer for tribute (476), Lilybaeum excepted; Ostrogothic from 491, Roman civil administration intact"
+    },
+    {
+     "from": 535,
+     "to": null,
+     "t": "taken by Belisarius in 535 without resistance except at Panormus; governed by a praetor reporting to Constantinople rather than to the prefect of Italy"
+    }
+   ],
+   "diocese": "Italia Suburbicaria",
+   "prefecture": "Italia",
+   "parent": null,
+   "successors": [],
+   "summary": "Rome's first overseas province and the Republic's granary: the lex Hieronica, inherited from Hiero II, took a tithe (decuma) of grain from the cities, auctioned to contractors in Sicily itself. It produced the two great slave wars (135-132 and 104-100 BC) and the most famous extortion case in Roman history, Cicero's prosecution of Verres (governor 73-71). Under the empire it became a land of vast estates; by the 6th century the Roman church's Sicilian patrimony was its richest, and in 641 the island was still securely Roman.",
+   "sources": [
+    {
+     "a": "Cicero",
+     "w": "In Verrem",
+     "r": "2.3.12-15"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "Periochae 20"
+    },
+    {
+     "a": "Diodorus Siculus",
+     "w": "Library",
+     "r": "34/35.2; 36.1-11"
+    }
+   ]
+  },
+  {
+   "id": "prov_sardinia",
+   "name": "Sardinia (et Corsica)",
+   "type": "province",
+   "created": -238,
+   "createdNote": "occupied 238/237 BC; first praetor M. Valerius in 227 BC",
+   "ended": null,
+   "endedNote": "still Roman in 641",
+   "capital": "carales",
+   "capitalName": "Carales",
+   "labelLoc": [
+    9.0,
+    40.0
+   ],
+   "governor": "praetor (from 227 BC); senatorial proconsul or imperial praefectus/procurator in alternation; praeses (late); praeses and dux under the prefecture of Africa (from 534)",
+   "phases": [
+    {
+     "from": -238,
+     "to": -227,
+     "t": "seized from Carthage during the Mercenary War; war with the Sardinian tribes"
+    },
+    {
+     "from": -227,
+     "to": -27,
+     "t": "praetorian province of Sardinia with Corsica; revolt of Hampsicora 215; Ti. Gracchus' war 177-176 claimed 80,000 Sards killed or enslaved"
+    },
+    {
+     "from": -27,
+     "to": 6,
+     "t": "senatorial"
+    },
+    {
+     "from": 6,
+     "to": 67,
+     "t": "imperial, under an equestrian praefectus because of brigandage (Dio 55.28.1)"
+    },
+    {
+     "from": 67,
+     "to": 293,
+     "t": "senatorial again in exchange for Nero's freeing of Achaea (Pausanias 7.17.3), then alternating between senatorial and equestrian governors"
+    },
+    {
+     "from": 293,
+     "to": 456,
+     "t": "province of Italia Suburbicaria under a praeses"
+    },
+    {
+     "from": 456,
+     "to": 533,
+     "t": "Vandal (seized c. 456-466); Godas' revolt 533 gave Justinian his opening"
+    },
+    {
+     "from": 533,
+     "to": null,
+     "t": "recovered 533-534; province of the praetorian prefecture of Africa, a dux at Forum Traiani watching the Barbaricini of the interior"
+    }
+   ],
+   "diocese": "Italia Suburbicaria; Africa (534)",
+   "prefecture": "Italia; Africa (534)",
+   "parent": null,
+   "successors": [],
+   "summary": "A malarial, grain-rich island that Rome took by sharp practice in 238 while Carthage was fighting its mercenaries. It was a place of exile and forced labour: Tiberius sent 4,000 freedmen 'infected with Jewish and Egyptian rites' there in AD 19 to fight brigands (Tac. Ann. 2.85), and bishops Pontianus and Hippolytus were deported to its mines in 235. Under Justinian it was run from Carthage, and Gregory the Great's letters show the pagan Barbaricini still unconverted in the 590s.",
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "1.88"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "23.32-41; 41.6-28"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annales",
+     "r": "2.85"
+    }
+   ]
+  },
+  {
+   "id": "prov_corsica",
+   "name": "Corsica",
+   "type": "province",
+   "created": 6,
+   "createdNote": "separated from Sardinia under Augustus or soon after; exact date uncertain",
+   "ended": null,
+   "endedNote": "still Roman in 641",
+   "capital": "aleria",
+   "capitalName": "Aleria",
+   "labelLoc": [
+    9.1,
+    42.1
+   ],
+   "governor": "equestrian praefectus/procurator; praeses (late)",
+   "phases": [
+    {
+     "from": -238,
+     "to": 6,
+     "t": "administered with Sardinia; Sullan colony at Aleria and Marian colony at Mariana"
+    },
+    {
+     "from": 6,
+     "to": 293,
+     "t": "separate equestrian province (date of separation uncertain, AD 6 or soon after)"
+    },
+    {
+     "from": 293,
+     "to": 456,
+     "t": "province of Italia Suburbicaria under a praeses"
+    },
+    {
+     "from": 456,
+     "to": 534,
+     "t": "Vandal; a place of exile for Catholic clergy under Huneric"
+    },
+    {
+     "from": 534,
+     "to": null,
+     "t": "recovered with Sardinia; under the prefecture of Africa"
+    }
+   ],
+   "diocese": "Italia Suburbicaria; Africa (534)",
+   "prefecture": "Italia; Africa (534)",
+   "parent": null,
+   "successors": [],
+   "summary": "A poor, mountainous island exporting timber, wax, honey and slaves; Seneca spent his exile there (41-49) and complained of it in verse. Its separation from Sardinia under the early Principate is inferred from equestrian governors attested from the 1st century AD. It remained in Roman hands after 641.",
+   "certainty": "approx",
+   "sources": [
+    {
+     "a": "Seneca",
+     "w": "Ad Helviam",
+     "r": "6-9"
+    }
+   ]
+  },
+  {
+   "id": "prov_hispania_citerior",
+   "name": "Hispania Citerior (Tarraconensis)",
+   "type": "province",
+   "created": -197,
+   "createdNote": "six praetors elected for 197 BC, two for Spain with their boundary fixed (Livy 32.27.6, 32.28.11); first holder C. Sempronius Tuditanus",
+   "ended": 293,
+   "endedNote": "divided c. 293 into Tarraconensis, Carthaginiensis and Gallaecia",
+   "capital": "tarraco",
+   "capitalName": "Tarraco (also Carthago Nova in the Republic)",
+   "labelLoc": [
+    -2.5,
+    41.5
+   ],
+   "governor": "praetor, usually with proconsular imperium; from 27 BC legatus Augusti pro praetore of consular rank, with three legati iuridici",
+   "phases": [
+    {
+     "from": -218,
+     "to": -197,
+     "t": "Scipionic war zone against Carthage (provincia without fixed borders)"
+    },
+    {
+     "from": -197,
+     "to": -27,
+     "t": "praetorian province; Celtiberian wars 181-179 and 153-133 (Numantia 133); Sertorius 80-72"
+    },
+    {
+     "from": -27,
+     "to": 293,
+     "t": "imperial Hispania Tarraconensis, enlarged by the northwest after the Cantabrian wars (29-19 BC); legio VII Gemina at Legio from 74"
+    }
+   ],
+   "diocese": null,
+   "prefecture": null,
+   "parent": null,
+   "successors": [
+    "prov_tarraconensis",
+    "prov_carthaginiensis",
+    "prov_gallaecia"
+   ],
+   "summary": "The largest province of the empire after 19 BC, stretching from the Pyrenees to Galicia. The Republic's longest wars were fought here (the Celtiberians and Numantia, then Sertorius), and its gold, above all the hydraulic mines of Las Medulas, financed the early empire. Seven conventus courts and a provincial cult at Tarraco organised it; Galba was governor when he rose against Nero in 68. Diocletian split it into Tarraconensis, Carthaginiensis and Gallaecia.",
+   "garrison": "2-3 legions under Augustus; VII Gemina alone from 74",
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "32.27-28"
+    },
+    {
+     "a": "Appian",
+     "w": "Iberike",
+     "r": "38-98"
+    },
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "17.3.25"
+    }
+   ]
+  },
+  {
+   "id": "prov_hispania_ulterior",
+   "name": "Hispania Ulterior",
+   "type": "province",
+   "created": -197,
+   "createdNote": "created with Citerior in 197 BC; first praetor M. Helvius",
+   "ended": -27,
+   "endedNote": "divided under Augustus (27 BC or during 16-13 BC) into Baetica and Lusitania",
+   "capital": "corduba",
+   "capitalName": "Corduba",
+   "labelLoc": [
+    -5.0,
+    37.8
+   ],
+   "governor": "praetor, often with proconsular imperium",
+   "phases": [
+    {
+     "from": -197,
+     "to": -27,
+     "t": "praetorian province of the Guadalquivir valley and the Atlantic west; Lusitanian war 155-139 (Viriathus)"
+    }
+   ],
+   "diocese": null,
+   "prefecture": null,
+   "parent": null,
+   "successors": [
+    "prov_baetica",
+    "prov_lusitania"
+   ],
+   "summary": "The rich south: the silver of the Sierra Morena and Rio Tinto, the Phoenician port of Gades, and the Baetis valley. Its governors fought the Lusitanian wars, including the treacherous massacre by Ser. Sulpicius Galba (150) and the war against Viriathus, murdered in 139 by men bribed by Q. Servilius Caepio. Caesar governed it as propraetor in 61-60. Augustus split it into Baetica and Lusitania.",
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "32.28.11"
+    },
+    {
+     "a": "Appian",
+     "w": "Iberike",
+     "r": "56-75"
+    }
+   ]
+  },
+  {
+   "id": "prov_baetica",
+   "name": "Hispania Baetica",
+   "type": "province",
+   "created": -27,
+   "createdNote": "Augustan division of Ulterior, 27 BC or 16-13 BC",
+   "ended": 441,
+   "endedNote": "Roman government ended with the Suevic capture of Hispalis in 441; Visigothic later; the coast partly Byzantine (Spania) 552-c.624",
+   "capital": "corduba",
+   "capitalName": "Corduba (Hispalis rose in late antiquity)",
+   "labelLoc": [
+    -5.0,
+    37.6
+   ],
+   "governor": "proconsul of praetorian rank (senatorial); consularis (4th c.)",
+   "phases": [
+    {
+     "from": -27,
+     "to": 293,
+     "t": "senatorial province without a legion; four conventus (Gades, Corduba, Astigi, Hispalis)"
+    },
+    {
+     "from": 293,
+     "to": 411,
+     "t": "province of the diocese of Hispaniae under a consularis"
+    },
+    {
+     "from": 411,
+     "to": 441,
+     "t": "Siling Vandals (411-418), Hasding Vandals (to 429), then Sueves (Hispalis 441)"
+    }
+   ],
+   "diocese": "Hispaniae",
+   "prefecture": "Galliae",
+   "parent": null,
+   "successors": [],
+   "summary": "The most Romanised part of Spain, an exporter of olive oil on an industrial scale: the Dressel 20 amphorae that built Rome's Monte Testaccio came overwhelmingly from the Baetis valley. It produced Trajan and Hadrian (from Italica) and the Senecas (from Corduba), and its Flavian municipal laws (Malaca, Salpensa, Irni) are the best evidence for Roman town charters. Moorish raids in the 170s were its only serious military crisis before the 5th-century invasions.",
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "3.7-17"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "53.12-15"
+    }
+   ]
+  },
+  {
+   "id": "prov_lusitania",
+   "name": "Lusitania",
+   "type": "province",
+   "created": -27,
+   "createdNote": "Augustan division of Ulterior; formalised by 16-13 BC",
+   "ended": 439,
+   "endedNote": "lost when the Sueves under Rechila took Emerita in 439",
+   "capital": "emerita_augusta",
+   "capitalName": "Emerita Augusta",
+   "labelLoc": [
+    -7.3,
+    39.3
+   ],
+   "governor": "legatus Augusti pro praetore of praetorian rank; consularis (4th c.)",
+   "phases": [
+    {
+     "from": -27,
+     "to": 293,
+     "t": "imperial province without a legion after the Cantabrian wars; conventus Emeritensis, Pacensis, Scallabitanus"
+    },
+    {
+     "from": 293,
+     "to": 409,
+     "t": "province of the diocese of Hispaniae; Emerita also seat of the vicarius Hispaniarum"
+    },
+    {
+     "from": 409,
+     "to": 439,
+     "t": "Alans (411-418), then Sueves; Rechila took Emerita in 439"
+    }
+   ],
+   "diocese": "Hispaniae",
+   "prefecture": "Galliae",
+   "parent": null,
+   "successors": [],
+   "summary": "Western Iberia, organised round the veteran colony of Emerita Augusta (25 BC). Its mines (the bronze tablets of Vipasca record the imperial mining code) and the Trajanic bridge at Alcantara are its best-known monuments. Otho governed it for ten years (58-68) as a polite exile after Nero took Poppaea. Emerita was the administrative capital of all Spain in the 4th century.",
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "4.113-118"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Otho",
+     "r": "3"
+    }
+   ]
+  },
+  {
+   "id": "prov_gallia_narbonensis",
+   "name": "Gallia Transalpina / Narbonensis",
+   "type": "province",
+   "created": -121,
+   "createdNote": "campaigns of 122-121 BC; Narbo founded 118 BC; continuous governorship well attested only from the 70s (M. Fonteius c. 75-73)",
+   "ended": 293,
+   "endedNote": "divided by Diocletian into Narbonensis I, Narbonensis II and Viennensis",
+   "capital": "narbo_martius",
+   "capitalName": "Narbo Martius",
+   "labelLoc": [
+    3.8,
+    43.8
+   ],
+   "governor": "proconsul in the Republic (often held with Cisalpina); imperial legate 27-22 BC; then proconsul of praetorian rank",
+   "phases": [
+    {
+     "from": -121,
+     "to": -27,
+     "t": "Gallia Transalpina, conquered after the defeat of the Allobroges and Arverni (121); Via Domitia; colony at Narbo 118"
+    },
+    {
+     "from": -27,
+     "to": -22,
+     "t": "imperial"
+    },
+    {
+     "from": -22,
+     "to": 293,
+     "t": "senatorial Gallia Narbonensis (Dio 54.4.1)"
+    }
+   ],
+   "diocese": null,
+   "prefecture": null,
+   "parent": null,
+   "successors": [
+    "prov_narbonensis_prima",
+    "prov_narbonensis_secunda",
+    "prov_viennensis"
+   ],
+   "summary": "The 'Provincia' (Provence): the land link between Italy and Spain, secured by Cn. Domitius Ahenobarbus' road. The Cimbri and Teutones destroyed two Roman armies at Arausio here in 105 before Marius destroyed the Teutones at Aquae Sextiae in 102. Caesar's base for the conquest of Gaul; in Pliny's phrase 'more truly Italy than a province' (NH 3.31), with veteran colonies at Arelate, Forum Iulii, Baeterrae and Arausio. Massilia remained a free ally until Caesar took it in 49.",
+   "certainty": "probable",
+   "sources": [
+    {
+     "a": "Cicero",
+     "w": "Pro Fonteio",
+     "r": "11-14"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "3.31"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "54.4.1"
+    }
+   ]
+  },
+  {
+   "id": "prov_gallia_cisalpina",
+   "name": "Gallia Cisalpina",
+   "type": "province",
+   "created": -81,
+   "createdNote": "regular province conventionally dated to Sulla (c. 81 BC); earlier a frequent but not continuous command; the date is debated",
+   "ended": -42,
+   "endedNote": "absorbed into Italy by the triumvirs in 42 BC, effective 41",
+   "capital": null,
+   "capitalName": "no fixed seat (Placentia, Mutina, Ravenna used)",
+   "labelLoc": [
+    10.3,
+    45.0
+   ],
+   "governor": "proconsul (Caesar 59-49 BC, with Illyricum and Transalpina)",
+   "phases": [
+    {
+     "from": -222,
+     "to": -81,
+     "t": "Gallic war zone and recurrent praetorian provincia; Latin colonies Placentia and Cremona 218, Bononia 189"
+    },
+    {
+     "from": -81,
+     "to": -49,
+     "t": "regular province, usually dated to Sulla; Transpadanes Latin after the lex Pompeia of 89"
+    },
+    {
+     "from": -49,
+     "to": -42,
+     "t": "citizenship for the Transpadanes (lex Roscia 49); merged into Italy, effective 41"
+    }
+   ],
+   "diocese": null,
+   "prefecture": null,
+   "parent": null,
+   "successors": [],
+   "summary": "The Po valley, the Republic's great colonial frontier and later its recruiting ground: Caesar raised most of his Gallic legions here. Its southern boundary on the Rubicon made a river crossing in January 49 an act of war. The Mutina campaign of 43 was fought on its roads. After 42 it simply became part of Italy.",
+   "certainty": "disputed",
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "2.14-35"
+    },
+    {
+     "a": "Asconius",
+     "w": "In Pisonem",
+     "r": "3C"
+    }
+   ]
+  },
+  {
+   "id": "prov_gallia_comata",
+   "name": "Gallia Comata (Caesar's conquest)",
+   "type": "province",
+   "created": -51,
+   "createdNote": "conquest complete after Uxellodunum, 51 BC",
+   "ended": -27,
+   "endedNote": "organised into Aquitania, Lugdunensis and Belgica (27 BC; completed 16-13 BC)",
+   "capital": null,
+   "capitalName": "none; Augustus held a conventus at Narbo in 27 BC",
+   "labelLoc": [
+    2.5,
+    47.0
+   ],
+   "governor": "proconsul of Transalpina and his legates",
+   "phases": [
+    {
+     "from": -58,
+     "to": -51,
+     "t": "conquered by Caesar"
+    },
+    {
+     "from": -51,
+     "to": -27,
+     "t": "administered loosely from Narbonensis; tribute fixed at 40 million sesterces a year (Suetonius, Iul. 25)"
+    }
+   ],
+   "diocese": null,
+   "prefecture": null,
+   "parent": null,
+   "successors": [
+    "prov_aquitania",
+    "prov_lugdunensis",
+    "prov_belgica"
+   ],
+   "summary": "'Long-haired Gaul', the territory Caesar conquered between 58 and 51. It paid a light tribute and was governed almost informally until Augustus' census of 27 BC and his long stay of 16-13 BC organised it into three provinces, crowned by the Altar of Rome and Augustus at Lugdunum (12 BC).",
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Divus Iulius",
+     "r": "25"
+    },
+    {
+     "a": "Caesar",
+     "w": "De Bello Gallico",
+     "r": "8.49"
+    }
+   ]
+  },
+  {
+   "id": "prov_illyricum",
+   "name": "Illyricum",
+   "type": "province",
+   "created": -59,
+   "createdNote": "as a regular command from 59 BC; its earlier status as a province is debated",
+   "ended": 9,
+   "endedNote": "divided c. AD 9 into Dalmatia and Pannonia",
+   "capital": "salona",
+   "capitalName": "Salona",
+   "labelLoc": [
+    17.0,
+    44.3
+   ],
+   "governor": "proconsul (Caesar 59-49 BC); senatorial proconsul 27-11 BC; imperial legate from 11 BC",
+   "phases": [
+    {
+     "from": -229,
+     "to": -59,
+     "t": "Roman protectorate along the Adriatic coast after the Illyrian wars (229, 219, 168)"
+    },
+    {
+     "from": -59,
+     "to": -27,
+     "t": "provincia of Caesar by the lex Vatinia; Octavian's Illyrian war 35-33 (wounded at Metulum)"
+    },
+    {
+     "from": -27,
+     "to": -11,
+     "t": "senatorial province"
+    },
+    {
+     "from": -11,
+     "to": 9,
+     "t": "imperial; Tiberius' Pannonian war 12-9 BC; Great Illyrian Revolt (Bato) AD 6-9"
+    }
+   ],
+   "diocese": null,
+   "prefecture": null,
+   "parent": null,
+   "successors": [
+    "prov_dalmatia",
+    "prov_pannonia"
+   ],
+   "summary": "The Adriatic coast and its hinterland, a provincia long before it was an organised province. The great revolt of AD 6-9, which Suetonius called the most serious foreign war since Hannibal, tied down ten legions under Tiberius. After it the region was split into Dalmatia (Illyricum Superius) and Pannonia (Illyricum Inferius).",
+   "certainty": "disputed",
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Tiberius",
+     "r": "16"
+    },
+    {
+     "a": "Velleius Paterculus",
+     "w": "Historiae Romanae",
+     "r": "2.110-116"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "54.34; 55.29-34"
+    }
+   ]
+  },
+  {
+   "id": "prov_macedonia",
+   "name": "Macedonia",
+   "type": "province",
+   "created": -146,
+   "createdNote": "defeat of Andriscus by Q. Caecilius Metellus Macedonicus 148 BC; settlement by ten commissioners 146 BC",
+   "ended": null,
+   "endedNote": "Thessalonica and the coast still Roman in 641; much of the interior under Slav sklaviniai from c. 580-620",
+   "capital": "thessalonica",
+   "capitalName": "Thessalonica",
+   "labelLoc": [
+    22.5,
+    40.9
+   ],
+   "governor": "proconsul (Republic); senatorial proconsul of praetorian rank; under the legate of Moesia AD 15-44; consularis (late)",
+   "phases": [
+    {
+     "from": -167,
+     "to": -148,
+     "t": "four autonomous merides after Pydna"
+    },
+    {
+     "from": -146,
+     "to": -27,
+     "t": "province after Andriscus' defeat by Metellus (148); front against Thracians, Scordisci and Dardani; Via Egnatia built c. 146-120"
+    },
+    {
+     "from": -27,
+     "to": 15,
+     "t": "senatorial"
+    },
+    {
+     "from": 15,
+     "to": 44,
+     "t": "imperial, joined with Achaea and Moesia under one legate (Poppaeus Sabinus 15-35)"
+    },
+    {
+     "from": 44,
+     "to": 293,
+     "t": "senatorial again (Claudius)"
+    },
+    {
+     "from": 293,
+     "to": null,
+     "t": "Macedonia (Prima), diocese of Moesiae then Macedonia; Thessalonica seat of the prefect of Illyricum from the 5th century"
+    }
+   ],
+   "diocese": "Moesiae; Macedonia (from c. 327)",
+   "prefecture": "Illyricum",
+   "parent": null,
+   "successors": [
+    "prov_macedonia_salutaris"
+   ],
+   "summary": "The Republic's eastern bastion, with the Via Egnatia running from Dyrrachium to Thessalonica. Its governors fought endless border wars and some were notorious, like L. Calpurnius Piso (57-55), whom Cicero savaged in In Pisonem. Brutus and Cassius made their last stand at Philippi in 42. In late antiquity Thessalonica became the capital of eastern Illyricum and survived the Avar and Slav sieges of 586 and 615-618 under the protection, its citizens believed, of St Demetrius.",
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "45.29-32"
+    },
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "7.7.4"
+    },
+    {
+     "a": "Cicero",
+     "w": "In Pisonem",
+     "r": ""
+    }
+   ]
+  },
+  {
+   "id": "prov_achaea",
+   "name": "Achaea",
+   "type": "province",
+   "created": -27,
+   "createdNote": "supervised from Macedonia after 146 BC; separate province 27 BC",
+   "ended": null,
+   "endedNote": "still Roman in 641, though much of the Peloponnese interior was settled by Slavs from the 580s (Chronicle of Monemvasia)",
+   "capital": "corinthus",
+   "capitalName": "Corinthus (Colonia Laus Iulia Corinthiensis)",
+   "labelLoc": [
+    22.3,
+    37.6
+   ],
+   "governor": "proconsul of praetorian rank; proconsul (late, outside the vicar's control)",
+   "phases": [
+    {
+     "from": -146,
+     "to": -27,
+     "t": "Greece supervised by the governor of Macedonia after Mummius' sack of Corinth; many free and allied cities"
+    },
+    {
+     "from": -27,
+     "to": 15,
+     "t": "senatorial province"
+    },
+    {
+     "from": 15,
+     "to": 44,
+     "t": "imperial, with Macedonia and Moesia"
+    },
+    {
+     "from": 44,
+     "to": 67,
+     "t": "senatorial"
+    },
+    {
+     "from": 67,
+     "to": 74,
+     "t": "declared free by Nero at the Isthmus (28 Nov 67); freedom revoked by Vespasian"
+    },
+    {
+     "from": 74,
+     "to": 293,
+     "t": "senatorial; Hadrian's Panhellenion (131/2) centred on Athens"
+    },
+    {
+     "from": 293,
+     "to": null,
+     "t": "proconsular province of the diocese of Macedonia; Heruli 267, Alaric 395-396, Slav settlement from the 580s"
+    }
+   ],
+   "diocese": "Moesiae; Macedonia (from c. 327)",
+   "prefecture": "Illyricum",
+   "parent": null,
+   "successors": [],
+   "summary": "Old Greece south of Thessaly, run from Caesar's colony at Corinth rather than from Athens. Its proconsul L. Iunius Gallio (51-52), Seneca's brother, dismissed the Jews' case against Paul; the Delphi inscription naming him anchors Pauline chronology. Nero's theatrical grant of freedom in 67 lasted only a few years. In late antiquity it was one of only three provinces under a proconsul, a mark of prestige rather than power.",
+   "sources": [
+    {
+     "a": "Pausanias",
+     "w": "Description of Greece",
+     "r": "7.16-17"
+    },
+    {
+     "a": "Acts of the Apostles",
+     "w": "Acts",
+     "r": "18.12-17"
+    },
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "17.3.25"
+    }
+   ]
+  },
+  {
+   "id": "prov_epirus_vetus",
+   "name": "Epirus (Vetus)",
+   "type": "province",
+   "created": 108,
+   "createdNote": "separated from Achaea under Trajan (c. 103-114)",
+   "ended": null,
+   "endedNote": "still Roman in 641 along the coast; interior affected by Slav settlement",
+   "capital": "nicopolis_epirus",
+   "capitalName": "Nicopolis",
+   "labelLoc": [
+    20.7,
+    39.4
+   ],
+   "governor": "procurator (2nd-3rd c.); praeses (late)",
+   "phases": [
+    {
+     "from": -167,
+     "to": -27,
+     "t": "devastated by Aemilius Paullus in 167 (70 towns sacked, 150,000 enslaved); under Macedonia"
+    },
+    {
+     "from": -27,
+     "to": 108,
+     "t": "part of Achaea"
+    },
+    {
+     "from": 108,
+     "to": 293,
+     "t": "separate procuratorial province, created under Trajan (date approximate)"
+    },
+    {
+     "from": 293,
+     "to": null,
+     "t": "Epirus Vetus, diocese of Moesiae then Macedonia; Epirus Nova split off to the north"
+    }
+   ],
+   "diocese": "Moesiae; Macedonia",
+   "prefecture": "Illyricum",
+   "parent": null,
+   "successors": [],
+   "summary": "A land never recovered from Rome's punitive enslavement of 167 BC, when on a single day the Senate's order was carried out across seventy towns. Octavian's victory city of Nicopolis (founded after Actium, 31 BC) became its capital and the home of Epictetus' school. It became a separate equestrian province under Trajan, and in late antiquity a modest Greek province on the edge of the Slav settlements.",
+   "certainty": "approx",
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "30.15"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "45.34"
+    }
+   ]
+  },
+  {
+   "id": "prov_asia",
+   "name": "Asia",
+   "type": "province",
+   "created": -129,
+   "createdNote": "Attalus III died 133 BC; province organised 129-126 BC",
+   "ended": 293,
+   "endedNote": "divided c. 293 into Asia (proconsularis), Hellespontus, Lydia, Caria, Phrygia I-II and Insulae",
+   "capital": "ephesus",
+   "capitalName": "Ephesus (Pergamum the Attalid capital)",
+   "labelLoc": [
+    28.6,
+    38.6
+   ],
+   "governor": "praetor or proconsul (Republic); proconsul of consular rank (senatorial)",
+   "phases": [
+    {
+     "from": -133,
+     "to": -129,
+     "t": "bequeathed by Attalus III; war against Aristonicus"
+    },
+    {
+     "from": -129,
+     "to": -88,
+     "t": "organised by M'. Aquillius 129-126; tithe farmed out in Rome by the lex Sempronia of 123"
+    },
+    {
+     "from": -88,
+     "to": -85,
+     "t": "overrun by Mithridates VI; the 'Asian Vespers' killed 80,000 Romans and Italians"
+    },
+    {
+     "from": -85,
+     "to": -27,
+     "t": "Sulla's indemnity of 20,000 talents; publicani and debt crisis; Lucullus' relief measures"
+    },
+    {
+     "from": -27,
+     "to": 250,
+     "t": "senatorial, the most prestigious proconsulship with Africa"
+    },
+    {
+     "from": 250,
+     "to": 293,
+     "t": "reduced: Caria et Phrygia separated (c. 250)"
+    }
+   ],
+   "diocese": null,
+   "prefecture": null,
+   "parent": null,
+   "successors": [
+    "prov_asia_proconsularis",
+    "prov_hellespontus",
+    "prov_lydia",
+    "prov_caria",
+    "prov_phrygia_pacatiana",
+    "prov_phrygia_salutaris",
+    "prov_insulae"
+   ],
+   "summary": "The richest province of the Republic and the jewel of the senatorial career: Josephus speaks of its five hundred cities. Gaius Gracchus' tax law turned it into a hunting ground for equestrian publicani, which helps explain why in 88 the cities joined Mithridates in killing every Italian they could find. Under the empire it was a world of competitive civic building, imperial cult (the koinon of Asia, the calendar decree of 9 BC) and rhetoric. Diocletian cut it into seven provinces.",
+   "sources": [
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "14.1.38"
+    },
+    {
+     "a": "Appian",
+     "w": "Mithridatica",
+     "r": "22-23; 62"
+    },
+    {
+     "a": "Josephus",
+     "w": "Bellum Iudaicum",
+     "r": "2.366"
+    }
+   ]
+  },
+  {
+   "id": "prov_bithynia_et_pontus",
+   "name": "Bithynia et Pontus",
+   "type": "province",
+   "created": -74,
+   "createdNote": "bequest of Nicomedes IV (died late 75 or 74 BC)",
+   "ended": 293,
+   "endedNote": "divided c. 293 into Bithynia, Paphlagonia and Diospontus",
+   "capital": "nicomedia",
+   "capitalName": "Nicomedia (Nicaea its rival)",
+   "labelLoc": [
+    30.8,
+    40.7
+   ],
+   "governor": "proconsul; special imperial legates under Trajan; imperial legate from Hadrian",
+   "phases": [
+    {
+     "from": -74,
+     "to": -63,
+     "t": "Bithynia, bequeathed by Nicomedes IV; Third Mithridatic War"
+    },
+    {
+     "from": -63,
+     "to": -27,
+     "t": "Bithynia et Pontus, organised by the lex Pompeia with eleven city territories in western Pontus"
+    },
+    {
+     "from": -27,
+     "to": 135,
+     "t": "senatorial; Pliny the Younger sent as special consular legate c. 110-112"
+    },
+    {
+     "from": 135,
+     "to": 293,
+     "t": "imperial, Hadrian taking it in exchange for Lycia-Pamphylia (Dio 69.14.4)"
+    }
+   ],
+   "diocese": null,
+   "prefecture": null,
+   "parent": null,
+   "successors": [
+    "prov_bithynia",
+    "prov_paphlagonia",
+    "prov_helenopontus"
+   ],
+   "summary": "A province of quarrelsome, overspending Greek cities, made famous by Pliny's tenth book of letters: Trajan forbade Nicomedia a 150-man fire brigade for fear of political clubs, and Pliny asked how to treat Christians. Pompey's law of 63 fixed its civic constitutions for centuries. Diocletian made Nicomedia an imperial capital, and the Great Persecution began there in 303.",
+   "sources": [
+    {
+     "a": "Pliny the Younger",
+     "w": "Epistulae",
+     "r": "10.33-34; 10.96-97"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "69.14.4"
+    }
+   ]
+  },
+  {
+   "id": "prov_cilicia",
+   "name": "Cilicia",
+   "type": "province",
+   "created": -102,
+   "createdNote": "M. Antonius received Cilicia as a provincia in 102 BC; a territorial province from c. 80 BC",
+   "ended": 293,
+   "endedNote": "split under Diocletian into Cilicia and Isauria",
+   "capital": "tarsus",
+   "capitalName": "Tarsus",
+   "labelLoc": [
+    34.6,
+    37.1
+   ],
+   "governor": "praetor/proconsul (Republic); part of Syria under Augustus; imperial legate of praetorian rank from 72",
+   "phases": [
+    {
+     "from": -102,
+     "to": -64,
+     "t": "anti-pirate command of M. Antonius (102), then a territorial province of Pamphylia, Pisidia and Lycaonia (Dolabella 80-79; Servilius Isauricus 78-74)"
+    },
+    {
+     "from": -64,
+     "to": -27,
+     "t": "enlarged by Pompey with Cilicia Pedias; Cicero governor 51-50, also over Cyprus and three Phrygian assize districts"
+    },
+    {
+     "from": -27,
+     "to": 72,
+     "t": "plain Cilicia attached to Syria; Rough Cilicia left to client kings (Archelaus, Antiochus IV of Commagene)"
+    },
+    {
+     "from": 72,
+     "to": 293,
+     "t": "separate imperial province created by Vespasian, including Rough Cilicia; later its governor also had Isauria and Lycaonia"
+    }
+   ],
+   "diocese": null,
+   "prefecture": null,
+   "parent": null,
+   "successors": [
+    "prov_cilicia_prima",
+    "prov_isauria"
+   ],
+   "summary": "Born as a pirate war, Cilicia became a territorial province by stages. Cicero's governorship (51-50) is documented day by day in his letters: he took Pindenissus, was hailed imperator, and refused to help Brutus collect a loan at 48 percent from Salamis on Cyprus. Paul was a citizen of Tarsus. Vespasian made it a province in its own right in 72.",
+   "certainty": "probable",
+   "sources": [
+    {
+     "a": "Cicero",
+     "w": "Ad Atticum",
+     "r": "5.20-21; 6.1"
+    },
+    {
+     "a": "Cicero",
+     "w": "Ad Familiares",
+     "r": "15.4"
+    }
+   ]
+  },
+  {
+   "id": "prov_cyrene",
+   "name": "Cyrene",
+   "type": "province",
+   "created": -74,
+   "createdNote": "bequest 96 BC; province 74 BC (Sallust, Histories 2.43)",
+   "ended": -27,
+   "endedNote": "joined with Crete as Creta et Cyrenaica (by 27 BC)",
+   "capital": "cyrene",
+   "capitalName": "Cyrene",
+   "labelLoc": [
+    21.8,
+    32.6
+   ],
+   "governor": "quaestor pro praetore (74 BC); later proconsul",
+   "phases": [
+    {
+     "from": -96,
+     "to": -74,
+     "t": "bequeathed by Ptolemy Apion; Rome took the royal lands, the cities left free"
+    },
+    {
+     "from": -74,
+     "to": -27,
+     "t": "organised as a province by P. Cornelius Lentulus Marcellinus; Antony gave it to Cleopatra Selene 34-30"
+    }
+   ],
+   "diocese": null,
+   "prefecture": null,
+   "parent": null,
+   "successors": [
+    "prov_creta_et_cyrenaica"
+   ],
+   "summary": "Ptolemy Apion's bequest of 96 was accepted but neglected for two decades; only the grain crisis and pirate war of the 70s led Rome to send a quaestor in 74. Cyrenaica's famous export, silphium, was nearly extinct by the 1st century AD (Pliny says the last stalk was sent to Nero).",
+   "sources": [
+    {
+     "a": "Sallust",
+     "w": "Historiae",
+     "r": "2.43 M"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "19.39"
+    }
+   ]
+  },
+  {
+   "id": "prov_creta",
+   "name": "Creta",
+   "type": "province",
+   "created": -67,
+   "createdNote": "conquest completed 67 BC",
+   "ended": null,
+   "endedNote": "still Roman in 641; lost to Andalusian Arabs c. 824-827",
+   "capital": "gortyn",
+   "capitalName": "Gortyn",
+   "labelLoc": [
+    24.9,
+    35.2
+   ],
+   "governor": "proconsul (with Cyrene); consularis (late)",
+   "phases": [
+    {
+     "from": -67,
+     "to": -27,
+     "t": "conquered by Q. Caecilius Metellus Creticus 69-67; administered with Cyrene"
+    },
+    {
+     "from": -27,
+     "to": 297,
+     "t": "part of the senatorial province of Creta et Cyrenaica"
+    },
+    {
+     "from": 297,
+     "to": null,
+     "t": "separate province of the diocese of Moesiae, then Macedonia; the great earthquake of 21 July 365 wrecked Gortyn"
+    }
+   ],
+   "diocese": "Moesiae; Macedonia",
+   "prefecture": "Illyricum",
+   "parent": null,
+   "successors": [],
+   "summary": "The pirates' island, whose archers served every Hellenistic army. M. Antonius Creticus (father of the triumvir) lost a fleet to the Cretans in 72-71; Metellus needed three years of sieges to subdue them. Gortyn, with its archaic law code and a large Roman praetorium, was the capital. The island stayed Roman until the Andalusian Arab conquest of the 820s.",
+   "sources": [
+    {
+     "a": "Florus",
+     "w": "Epitome",
+     "r": "1.42"
+    },
+    {
+     "a": "Velleius Paterculus",
+     "w": "Historiae Romanae",
+     "r": "2.34; 2.38"
+    }
+   ]
+  },
+  {
+   "id": "prov_creta_et_cyrenaica",
+   "name": "Creta et Cyrenaica",
+   "type": "province",
+   "created": -27,
+   "createdNote": "combined by 27 BC (possibly arranged earlier)",
+   "ended": 297,
+   "endedNote": "divided c. 297 into Creta, Libya Superior and Libya Inferior",
+   "capital": "gortyn",
+   "capitalName": "Gortyn (proconsul alternated with Cyrene)",
+   "labelLoc": [
+    22.0,
+    32.4
+   ],
+   "governor": "proconsul of praetorian rank, with a legate and a quaestor",
+   "phases": [
+    {
+     "from": -27,
+     "to": 115,
+     "t": "senatorial; Augustus' Cyrene edicts (7/6 and 4 BC) regulate juries and extortion trials"
+    },
+    {
+     "from": 115,
+     "to": 117,
+     "t": "Jewish diaspora revolt (Lukuas/Andreas) devastates Cyrene"
+    },
+    {
+     "from": 117,
+     "to": 297,
+     "t": "Hadrianic restoration of Cyrene; refoundation of the city's temples and colonists sent"
+    }
+   ],
+   "diocese": null,
+   "prefecture": null,
+   "parent": null,
+   "successors": [
+    "prov_creta",
+    "prov_libya_superior",
+    "prov_libya_inferior"
+   ],
+   "summary": "An awkward pairing of two regions separated by 300 km of sea. The five Cyrene edicts of Augustus, found in 1926, are a key text for provincial justice, including the senatus consultum Calvisianum of 4 BC on extortion procedure. The revolt of 115-117 is recorded in inscriptions of Hadrian rebuilding roads and baths 'destroyed in the Jewish tumult'.",
+   "sources": [
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "17.3.25"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "68.32"
+    }
+   ]
+  },
+  {
+   "id": "prov_syria",
+   "name": "Syria",
+   "type": "province",
+   "created": -64,
+   "createdNote": "Pompey deposed Antiochus XIII in 64 BC; first governor M. Aemilius Scaurus",
+   "ended": 194,
+   "endedNote": "split by Septimius Severus in 194 into Syria Coele and Syria Phoenice",
+   "capital": "antiochia",
+   "capitalName": "Antiochia",
+   "labelLoc": [
+    37.0,
+    35.5
+   ],
+   "governor": "proconsul (Republic; first consular governor Gabinius 57-54); imperial legate of consular rank",
+   "phases": [
+    {
+     "from": -64,
+     "to": -27,
+     "t": "annexed by Pompey; Crassus destroyed at Carrhae 53; Parthian invasion of Pacorus and Labienus 41-38"
+    },
+    {
+     "from": -27,
+     "to": 194,
+     "t": "imperial, the senior eastern command with 3-4 legions; client states (Commagene, Emesa, Ituraea) absorbed in the 1st century"
+    }
+   ],
+   "diocese": null,
+   "prefecture": null,
+   "parent": null,
+   "successors": [
+    "prov_syria_coele",
+    "prov_syria_phoenice"
+   ],
+   "summary": "The great eastern command, facing Parthia from Antioch. Its legate was the most powerful man in the East: Quirinius ran the census of AD 6, Corbulo and Mucianus made and unmade emperors, and Avidius Cassius proclaimed himself emperor in 175. After Pescennius Niger's bid in 193-194 Septimius Severus split it in two so that no single governor would command so many legions.",
+   "garrison": "III Gallica, IV Scythica, VI Ferrata, X Fretensis (to 66), XII Fulminata (to 70), XVI Flavia Firma (from 72)",
+   "sources": [
+    {
+     "a": "Appian",
+     "w": "Syriaca",
+     "r": "49-50"
+    },
+    {
+     "a": "Josephus",
+     "w": "Antiquitates Iudaicae",
+     "r": "14.79-80; 18.1-2"
+    },
+    {
+     "a": "Herodian",
+     "w": "History",
+     "r": "3.5"
+    }
+   ]
+  },
+  {
+   "id": "prov_cyprus",
+   "name": "Cyprus",
+   "type": "province",
+   "created": -58,
+   "createdNote": "lex Clodia 58 BC; annexation by M. Porcius Cato 58-56 BC",
+   "ended": null,
+   "endedNote": "still Roman in 641; first Arab invasion 649",
+   "capital": null,
+   "capitalName": "Paphos (early empire); Salamis-Constantia (late)",
+   "labelLoc": [
+    33.2,
+    35.0
+   ],
+   "governor": "attached to Cilicia (Republic); imperial 30-22 BC; proconsul of praetorian rank; consularis (late)",
+   "phases": [
+    {
+     "from": -58,
+     "to": -47,
+     "t": "annexed under the lex Clodia; Cato liquidated the royal treasure (7,000 talents)"
+    },
+    {
+     "from": -47,
+     "to": -30,
+     "t": "returned to Ptolemaic rule by Caesar and Antony"
+    },
+    {
+     "from": -30,
+     "to": -22,
+     "t": "imperial"
+    },
+    {
+     "from": -22,
+     "to": 293,
+     "t": "senatorial; Jewish revolt 116-117"
+    },
+    {
+     "from": 293,
+     "to": 536,
+     "t": "province of the diocese of Oriens; church autocephalous after Ephesus 431"
+    },
+    {
+     "from": 536,
+     "to": null,
+     "t": "part of Justinian's quaestura exercitus (Novel 41)"
+    }
+   ],
+   "diocese": "Oriens",
+   "prefecture": "Oriens",
+   "parent": null,
+   "successors": [],
+   "summary": "Annexed in 58 so that Clodius could pay for free grain, Cyprus was run by Cato, who shipped the treasure of Ptolemy of Cyprus to Rome. Its copper mines (Soli) were leased by Herod the Great. Sergius Paullus, proconsul, met Paul and Barnabas at Paphos (Acts 13). In the revolt of 116-117 Dio claims 240,000 Greeks were killed and Jews were afterwards barred from the island.",
+   "sources": [
+    {
+     "a": "Plutarch",
+     "w": "Cato Minor",
+     "r": "34-38"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "68.32.2"
+    },
+    {
+     "a": "Acts of the Apostles",
+     "w": "Acts",
+     "r": "13.4-12"
+    }
+   ]
+  },
+  {
+   "id": "prov_africa",
+   "name": "Africa (Vetus, then Proconsularis)",
+   "type": "province",
+   "created": -146,
+   "createdNote": "Carthage destroyed by Scipio Aemilianus 146 BC",
+   "ended": 293,
+   "endedNote": "divided c. 293-303 into Africa Proconsularis (Zeugitana), Byzacena and Tripolitania",
+   "capital": "carthago",
+   "capitalName": "Utica (Republic); Carthago (from Augustus)",
+   "labelLoc": [
+    9.8,
+    35.6
+   ],
+   "governor": "praetor/proconsul (Republic); proconsul of consular rank (senatorial)",
+   "phases": [
+    {
+     "from": -146,
+     "to": -46,
+     "t": "Africa (Vetus) behind the Fossa Regia, governed from Utica; Gracchan colony Iunonia (122); Jugurthine War 111-105"
+    },
+    {
+     "from": -46,
+     "to": -27,
+     "t": "beside Africa Nova; Caesar's colony at Carthage (44)"
+    },
+    {
+     "from": -27,
+     "to": 39,
+     "t": "senatorial, the only senatorial province with a legion (III Augusta); war with Tacfarinas 17-24"
+    },
+    {
+     "from": 39,
+     "to": 293,
+     "t": "the legion's legate takes over military command (Caligula); Gordian I proclaimed at Thysdrus 238"
+    }
+   ],
+   "diocese": null,
+   "prefecture": null,
+   "parent": null,
+   "successors": [
+    "prov_africa_proconsularis",
+    "prov_byzacena",
+    "prov_tripolitania"
+   ],
+   "summary": "Carthage's territory, annexed after its destruction in 146 and expanded into the grain and olive belt of the Maghreb. By Nero's day Josephus says Africa fed Rome for eight months of the year. It was the last senatorial province to command a legion, until Caligula transferred the legion to an imperial legate in 39. Diocletian reduced it to the hinterland of Carthage.",
+   "sources": [
+    {
+     "a": "Appian",
+     "w": "Libyca",
+     "r": "135"
+    },
+    {
+     "a": "Josephus",
+     "w": "Bellum Iudaicum",
+     "r": "2.383"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Historiae",
+     "r": "4.48"
+    }
+   ]
+  },
+  {
+   "id": "prov_africa_nova",
+   "name": "Africa Nova",
+   "type": "province",
+   "created": -46,
+   "createdNote": "after Thapsus, April 46 BC",
+   "ended": -27,
+   "endedNote": "merged with Africa Vetus into Africa Proconsularis between c. 36 and 27 BC",
+   "capital": null,
+   "capitalName": "seat uncertain (Zama Regia or Cirta)",
+   "labelLoc": [
+    8.6,
+    36.0
+   ],
+   "governor": "proconsul (Sallust 46-45 BC)",
+   "phases": [
+    {
+     "from": -46,
+     "to": -27,
+     "t": "the eastern kingdom of Juba I, annexed after Thapsus; Cirta and its district given to P. Sittius"
+    }
+   ],
+   "diocese": null,
+   "prefecture": null,
+   "parent": null,
+   "successors": [
+    "prov_africa"
+   ],
+   "summary": "Caesar's annexation of Juba I's kingdom after Thapsus. Its first governor was the historian Sallust, who enriched himself so blatantly (Dio 43.9) that he retired to build the Horti Sallustiani and write about other men's corruption.",
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "43.9"
+    },
+    {
+     "a": "Bellum Africum",
+     "w": "Bellum Africum",
+     "r": "97"
+    }
+   ]
+  },
+  {
+   "id": "prov_aegyptus",
+   "name": "Aegyptus",
+   "type": "province",
+   "created": -30,
+   "createdNote": "Octavian took Alexandria on 1 August 30 BC",
+   "ended": 297,
+   "endedNote": "divided c. 297-314 into Aegyptus Iovia, Aegyptus Herculia and Thebais (with the Libyas)",
+   "capital": "alexandria",
+   "capitalName": "Alexandria",
+   "labelLoc": [
+    30.8,
+    28.5
+   ],
+   "governor": "praefectus Aegypti (equestrian); senators barred from entering without imperial leave",
+   "phases": [
+    {
+     "from": -30,
+     "to": 200,
+     "t": "prefecture; Cornelius Gallus first prefect (30-26); nomes under strategoi, three or four epistrategiai"
+    },
+    {
+     "from": 200,
+     "to": 297,
+     "t": "Severus grants councils to Alexandria and the nome capitals (200/201); revolts of Firmus (272) and Domitius Domitianus (297-298)"
+    }
+   ],
+   "diocese": null,
+   "prefecture": null,
+   "parent": null,
+   "successors": [
+    "prov_aegyptus_iovia",
+    "prov_augustamnica",
+    "prov_thebais"
+   ],
+   "summary": "Egypt was the emperor's own preserve, governed by an equestrian prefect and closed to senators (Tac. Ann. 2.59), because whoever held it held Rome's bread. The papyri make it the best-documented province of the empire, from tax receipts to village lawsuits. The first prefect, the poet Cornelius Gallus, boasted of his deeds on a trilingual stele at Philae and was forced to suicide in 26 BC. Diocletian besieged Alexandria for eight months in 297-298 and then divided the country.",
+   "garrison": "3 legions under Augustus; then III Cyrenaica and XXII Deiotariana; II Traiana alone from the 120s",
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Annales",
+     "r": "2.59"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Historiae",
+     "r": "1.11"
+    },
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "17.3.25"
+    }
+   ]
+  },
+  {
+   "id": "prov_galatia",
+   "name": "Galatia",
+   "type": "province",
+   "created": -25,
+   "createdNote": "death of Amyntas, 25 BC",
+   "ended": 293,
+   "endedNote": "Diocletian reduced it to the old Galatian heartland; Pisidia, Lycaonia (later), Paphlagonia separated",
+   "capital": "ancyra",
+   "capitalName": "Ancyra",
+   "labelLoc": [
+    32.5,
+    39.2
+   ],
+   "governor": "imperial legate of praetorian rank; consular legate when joined with Cappadocia (72-c.113)",
+   "phases": [
+    {
+     "from": -25,
+     "to": 72,
+     "t": "the kingdom of Amyntas, enlarged with Pisidia, Lycaonia, Paphlagonia (6 BC), Pontus Galaticus and (64) Pontus Polemoniacus"
+    },
+    {
+     "from": 72,
+     "to": 113,
+     "t": "part of the combined Galatia-Cappadocia"
+    },
+    {
+     "from": 113,
+     "to": 293,
+     "t": "separate again under a praetorian legate"
+    }
+   ],
+   "diocese": null,
+   "prefecture": null,
+   "parent": null,
+   "successors": [
+    "prov_galatia_prima",
+    "prov_pisidia",
+    "prov_paphlagonia"
+   ],
+   "summary": "A vast composite province built from the kingdom of Amyntas after he died fighting the Homonadeis in 25 BC. The Augustan colonies at Pisidian Antioch, Lystra and elsewhere were planted to police the Taurus. The temple of Rome and Augustus at Ancyra preserves the fullest text of Augustus' Res Gestae in Latin and Greek. Paul's 'Galatians' may be the Celts of the north or the cities of the southern province.",
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "53.26.3"
+    },
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "12.5.1; 12.6.5"
+    }
+   ]
+  },
+  {
+   "id": "prov_galatia_cappadocia",
+   "name": "Galatia-Cappadocia (Flavian combined command)",
+   "type": "province",
+   "created": 72,
+   "createdNote": "Vespasian, AD 72 (Suetonius, Vesp. 8)",
+   "ended": 113,
+   "endedNote": "Trajan split it, between c. 107 and 113",
+   "capital": null,
+   "capitalName": "Ancyra and Caesarea",
+   "labelLoc": [
+    35.0,
+    39.5
+   ],
+   "governor": "legatus Augusti pro praetore of consular rank",
+   "phases": [
+    {
+     "from": 72,
+     "to": 113,
+     "t": "Vespasian's combined eastern command, with legions at Satala and Melitene"
+    }
+   ],
+   "diocese": null,
+   "prefecture": null,
+   "parent": null,
+   "successors": [
+    "prov_galatia",
+    "prov_cappadocia"
+   ],
+   "summary": "After Corbulo's Armenian wars Vespasian created a new consular command on the upper Euphrates, uniting Galatia, Cappadocia, Pontus and Armenia Minor under one legate with two legions (XII Fulminata at Melitene, XVI Flavia Firma at Satala, later XV Apollinaris). Trajan separated Galatia again around the time of his Parthian war.",
+   "certainty": "probable",
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Divus Vespasianus",
+     "r": "8.4"
+    }
+   ]
+  },
+  {
+   "id": "prov_cappadocia",
+   "name": "Cappadocia",
+   "type": "province",
+   "created": 17,
+   "createdNote": "death of Archelaus, AD 17",
+   "ended": 293,
+   "endedNote": "reduced and divided under Diocletian; Pontic and Armenian districts separated",
+   "capital": "caesarea_mazaca",
+   "capitalName": "Caesarea (Mazaca)",
+   "labelLoc": [
+    37.0,
+    39.0
+   ],
+   "governor": "equestrian procurator (17-72); consular legate with two legions (from c. 113)",
+   "phases": [
+    {
+     "from": 17,
+     "to": 72,
+     "t": "procuratorial province after the death of king Archelaus in Rome"
+    },
+    {
+     "from": 72,
+     "to": 113,
+     "t": "part of Galatia-Cappadocia"
+    },
+    {
+     "from": 113,
+     "to": 293,
+     "t": "consular legate on the Euphrates frontier; Armenia Minor and Pontus Polemoniacus attached; Arrian governor 131-137"
+    }
+   ],
+   "diocese": null,
+   "prefecture": null,
+   "parent": null,
+   "successors": [
+    "prov_cappadocia_prima",
+    "prov_armenia_minor",
+    "prov_pontus_polemoniacus"
+   ],
+   "summary": "Tiberius summoned old king Archelaus to Rome, where he died, and annexed his kingdom in 17, halving the 1 percent sales tax at Rome on the strength of its revenue (Tac. Ann. 2.42). Later the consular legate of Cappadocia guarded the upper Euphrates: Arrian's Periplus of the Black Sea and his order of battle against the Alans (135) are reports from this post. Shapur I took Caesarea in 260.",
+   "garrison": "XII Fulminata (Melitene), XV Apollinaris or XVI Flavia Firma (Satala)",
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Annales",
+     "r": "2.42"
+    },
+    {
+     "a": "Arrian",
+     "w": "Periplus Ponti Euxini",
+     "r": "1-11"
+    },
+    {
+     "a": "Arrian",
+     "w": "Ektaxis kata Alanon",
+     "r": ""
+    }
+   ]
+  },
+  {
+   "id": "prov_lycia_et_pamphylia",
+   "name": "Lycia et Pamphylia",
+   "type": "province",
+   "created": 43,
+   "createdNote": "Lycia annexed AD 43; Pamphylia joined to it under Vespasian (c. 74)",
+   "ended": 293,
+   "endedNote": "divided c. 300 into Lycia and Pamphylia",
+   "capital": null,
+   "capitalName": "no single seat (Patara and Xanthos in Lycia; Perge and Attaleia in Pamphylia)",
+   "labelLoc": [
+    30.3,
+    36.8
+   ],
+   "governor": "imperial legate (Lycia from 43; combined from c. 74); proconsul from c. 135",
+   "phases": [
+    {
+     "from": 43,
+     "to": 74,
+     "t": "Lycia annexed by Claudius after civil strife (Dio 60.17.3); Q. Veranius first legate"
+    },
+    {
+     "from": 74,
+     "to": 135,
+     "t": "Lycia et Pamphylia, imperial (Vespasian)"
+    },
+    {
+     "from": 135,
+     "to": 293,
+     "t": "senatorial, exchanged for Bithynia"
+    }
+   ],
+   "diocese": null,
+   "prefecture": null,
+   "parent": null,
+   "successors": [
+    "prov_lycia",
+    "prov_pamphylia"
+   ],
+   "summary": "Claudius ended the independence of the Lycian League, whose federal constitution with cities voting by size (three, two or one votes) Strabo admired. The Stadiasmus Patarensis, a pillar listing the roads Veranius built across Lycia in 45-46, is the oldest Roman road inventory in Asia Minor. In the 2nd century Lycian benefactors like Opramoas of Rhodiapolis rebuilt whole cities after the earthquake of 141.",
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "60.17.3"
+    },
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "14.3.3"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Claudius",
+     "r": "25.3"
+    }
+   ]
+  },
+  {
+   "id": "prov_aquitania",
+   "name": "Gallia Aquitania",
+   "type": "province",
+   "created": -27,
+   "createdNote": "Augustan organisation, 27 BC (completed 16-13 BC)",
+   "ended": 293,
+   "endedNote": "divided under Diocletian into Aquitanica I, Aquitanica II and Novempopulana",
+   "capital": "mediolanum_santonum",
+   "capitalName": "Mediolanum Santonum (Saintes), later Burdigala",
+   "labelLoc": [
+    0.0,
+    45.3
+   ],
+   "governor": "legatus Augusti pro praetore of praetorian rank",
+   "phases": [
+    {
+     "from": -27,
+     "to": 293,
+     "t": "imperial province from the Pyrenees to the Loire; no legion"
+    }
+   ],
+   "diocese": null,
+   "prefecture": null,
+   "parent": null,
+   "successors": [
+    "prov_aquitanica_prima",
+    "prov_aquitanica_secunda",
+    "prov_novempopulana"
+   ],
+   "summary": "Augustus deliberately joined the Iberian-speaking Aquitani of the southwest with fourteen Celtic peoples up to the Loire. A wealthy, unwarlike province of villas, it is best known for the Hasparren inscription in which a local notable boasts of getting the Nine Peoples separated from the Gauls, the origin of Novempopulana.",
+   "sources": [
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "4.1.1; 4.2.1"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "4.108"
+    }
+   ]
+  },
+  {
+   "id": "prov_lugdunensis",
+   "name": "Gallia Lugdunensis",
+   "type": "province",
+   "created": -27,
+   "createdNote": "Augustan organisation, 27 BC (completed 16-13 BC)",
+   "ended": 293,
+   "endedNote": "divided under Diocletian into Lugdunensis I and II; later III and Senonia",
+   "capital": "lugdunum",
+   "capitalName": "Lugdunum",
+   "labelLoc": [
+    1.5,
+    47.8
+   ],
+   "governor": "legatus Augusti pro praetore of praetorian rank",
+   "phases": [
+    {
+     "from": -27,
+     "to": 293,
+     "t": "imperial province from Lugdunum to Armorica; urban cohort (XIII Urbana) guarding the mint at Lugdunum"
+    }
+   ],
+   "diocese": null,
+   "prefecture": null,
+   "parent": null,
+   "successors": [
+    "prov_lugdunensis_prima",
+    "prov_lugdunensis_secunda",
+    "prov_lugdunensis_tertia",
+    "prov_lugdunensis_senonia"
+   ],
+   "summary": "Lugdunum was the de facto capital of all three Gauls: the Altar of Rome and Augustus at the confluence (12 BC) hosted the annual council of sixty Gallic civitates, and the city held an imperial mint. Claudius, born there, made his speech for admitting Gallic nobles to the Senate in 48 (the Lyon Tablet). C. Iulius Vindex, governor in 68, began the rising that brought down Nero, and at the battle of Lugdunum (197) between Severus and Clodius Albinus Dio puts 150,000 men on each side.",
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Annales",
+     "r": "11.23-25"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "75.6-7"
+    }
+   ]
+  },
+  {
+   "id": "prov_belgica",
+   "name": "Gallia Belgica",
+   "type": "province",
+   "created": -27,
+   "createdNote": "Augustan organisation, 27 BC (completed 16-13 BC)",
+   "ended": 293,
+   "endedNote": "divided under Diocletian into Belgica I and II",
+   "capital": "durocortorum",
+   "capitalName": "Durocortorum (Reims); financial procurator at Augusta Treverorum",
+   "labelLoc": [
+    4.5,
+    49.7
+   ],
+   "governor": "legatus Augusti pro praetore of praetorian rank",
+   "phases": [
+    {
+     "from": -27,
+     "to": 85,
+     "t": "imperial; the Rhine army districts formally within it"
+    },
+    {
+     "from": 85,
+     "to": 293,
+     "t": "after the creation of the two Germanies, the civilian hinterland of the Rhine"
+    }
+   ],
+   "diocese": null,
+   "prefecture": null,
+   "parent": null,
+   "successors": [
+    "prov_belgica_prima",
+    "prov_belgica_secunda"
+   ],
+   "summary": "The supply base of the Rhine armies, whose procurator at Trier also handled the finances of both Germanies. In 70 the Treveran nobles Classicus and Tutor joined Civilis to proclaim an 'Empire of the Gauls', which collapsed within months. In the 3rd century Trier became the capital of the Gallic Empire and later of Constantius I.",
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Historiae",
+     "r": "4.54-79"
+    },
+    {
+     "a": "Caesar",
+     "w": "De Bello Gallico",
+     "r": "1.1"
+    }
+   ]
+  },
+  {
+   "id": "prov_germania_augustan",
+   "name": "Germania (Augustan province east of the Rhine)",
+   "type": "province",
+   "created": -7,
+   "createdNote": "Velleius 2.97 and 2.117-118; Dio 56.18 describe provincial organisation after Tiberius' campaigns of 8-7 BC",
+   "ended": 9,
+   "endedNote": "abandoned after the Varian disaster, September AD 9",
+   "capital": "colonia_agrippina",
+   "capitalName": "Ara Ubiorum (Oppidum Ubiorum) as cult centre",
+   "labelLoc": [
+    8.6,
+    51.0
+   ],
+   "governor": "legatus Augusti (Varus AD 7-9)",
+   "phases": [
+    {
+     "from": -12,
+     "to": -7,
+     "t": "conquest by Drusus (12-9 BC) and Tiberius (8-7 BC)"
+    },
+    {
+     "from": -7,
+     "to": 9,
+     "t": "province in the making: markets, a civil settlement with forum at Waldgirmes, tribute and Roman jurisdiction under Varus"
+    }
+   ],
+   "diocese": null,
+   "prefecture": null,
+   "parent": null,
+   "successors": [],
+   "summary": "Velleius and Dio describe a Germany being turned into a province, and the excavation of Waldgirmes (Lahn valley), a planned town with a forum and a gilded bronze equestrian statue of Augustus, proved them right. Varus' imposition of tribute and courts provoked Arminius' ambush in the Teutoburg Forest (AD 9), destroying legions XVII, XVIII and XIX. Germanicus' campaigns (14-16) avenged it but Tiberius never tried to restore the province.",
+   "certainty": "disputed",
+   "sources": [
+    {
+     "a": "Velleius Paterculus",
+     "w": "Historiae Romanae",
+     "r": "2.97; 2.117-118"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "56.18-24"
+    }
+   ]
+  },
+  {
+   "id": "prov_germania_superior",
+   "name": "Germania Superior",
+   "type": "province",
+   "created": 85,
+   "createdNote": "formally a province by c. 83-90 (Domitian); its legate is attested as provincial governor from the 90s",
+   "ended": 297,
+   "endedNote": "divided under Diocletian into Germania I and Maxima Sequanorum",
+   "capital": "mogontiacum",
+   "capitalName": "Mogontiacum",
+   "labelLoc": [
+    8.2,
+    48.5
+   ],
+   "governor": "legatus Augusti pro praetore of consular rank",
+   "phases": [
+    {
+     "from": -13,
+     "to": 85,
+     "t": "military district of the exercitus Germanicus superior within Belgica"
+    },
+    {
+     "from": 85,
+     "to": 260,
+     "t": "province; Saturninus' revolt at Mogontiacum (January 89); Upper German-Raetian limes advanced c. 160"
+    },
+    {
+     "from": 260,
+     "to": 297,
+     "t": "the Agri Decumates beyond the Rhine lost under Gallienus"
+    }
+   ],
+   "diocese": null,
+   "prefecture": null,
+   "parent": null,
+   "successors": [
+    "prov_germania_prima",
+    "prov_maxima_sequanorum"
+   ],
+   "summary": "Domitian turned the two Rhine army commands into provinces after his Chattan war. The upper province included the Agri Decumates and, from the 160s, the Odenwald-Neckar and outer limes with their palisade and ditch. The appendix to the Verona List records the civitates lost beyond the Rhine under Gallienus around 260.",
+   "garrison": "XXII Primigenia (Mogontiacum), VIII Augusta (Argentorate); XI Claudia at Vindonissa to 101",
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Domitianus",
+     "r": "6-7"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "67.11"
+    }
+   ]
+  },
+  {
+   "id": "prov_germania_inferior",
+   "name": "Germania Inferior",
+   "type": "province",
+   "created": 85,
+   "createdNote": "formally a province by c. 83-90 (Domitian)",
+   "ended": 297,
+   "endedNote": "became Germania II under Diocletian",
+   "capital": "colonia_agrippina",
+   "capitalName": "Colonia Claudia Ara Agrippinensium",
+   "labelLoc": [
+    6.3,
+    51.4
+   ],
+   "governor": "legatus Augusti pro praetore of consular rank",
+   "phases": [
+    {
+     "from": -13,
+     "to": 85,
+     "t": "military district of the exercitus Germanicus inferior within Belgica; Batavian revolt 69-70"
+    },
+    {
+     "from": 85,
+     "to": 260,
+     "t": "province with the Lower Rhine fleet (classis Germanica)"
+    },
+    {
+     "from": 260,
+     "to": 274,
+     "t": "heartland of the Gallic Empire (Postumus proclaimed at Cologne, 260)"
+    }
+   ],
+   "diocese": null,
+   "prefecture": null,
+   "parent": null,
+   "successors": [
+    "prov_germania_secunda"
+   ],
+   "summary": "The Lower Rhine command, where Vitellius was proclaimed emperor in January 69 and where the Batavian revolt of Civilis besieged Vetera in 69-70. The Lower Rhine never had a wall: the river itself, with its forts and fleet, was the frontier. Postumus created the Gallic Empire here in 260.",
+   "garrison": "XXX Ulpia Victrix (Vetera), I Minervia (Bonna); four legions before 70",
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Historiae",
+     "r": "1.52-57; 4.12-37"
+    }
+   ]
+  },
+  {
+   "id": "prov_britannia",
+   "name": "Britannia",
+   "type": "province",
+   "created": 43,
+   "createdNote": "Claudian invasion under A. Plautius, AD 43",
+   "ended": 213,
+   "endedNote": "divided into Superior and Inferior (Herodian dates it to 197; epigraphy suggests completion c. 213)",
+   "capital": "londinium",
+   "capitalName": "Camulodunum (43-60), then Londinium",
+   "labelLoc": [
+    -1.8,
+    52.6
+   ],
+   "governor": "legatus Augusti pro praetore of consular rank",
+   "phases": [
+    {
+     "from": 43,
+     "to": 61,
+     "t": "Claudian conquest; Camulodunum colony (49); Boudica's revolt destroys Camulodunum, Londinium and Verulamium (60/61)"
+    },
+    {
+     "from": 61,
+     "to": 122,
+     "t": "Flavian advance to Scotland; Agricola's victory at Mons Graupius (83 or 84); Inchtuthil abandoned c. 87"
+    },
+    {
+     "from": 122,
+     "to": 213,
+     "t": "Hadrian's Wall (122); Antonine Wall (142-c.160); Clodius Albinus' bid for empire 193-197"
+    }
+   ],
+   "diocese": null,
+   "prefecture": null,
+   "parent": null,
+   "successors": [
+    "prov_britannia_superior",
+    "prov_britannia_inferior"
+   ],
+   "summary": "A province that cost more than it paid, Strabo had predicted, and held a garrison out of all proportion to its size: three legions and perhaps 50,000 troops. Tacitus' Agricola is a biography of one of its governors and a meditation on what conquest meant ('they make a desert and call it peace'). Its governors were dangerous because of their armies, which is why Severus or Caracalla split it.",
+   "garrison": "II Augusta, IX Hispana (to c. 108+), XIV Gemina (to 66), XX Valeria Victrix, II Adiutrix (c. 71-87), VI Victrix (from 122)",
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Agricola",
+     "r": "14-38"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "60.19-23; 62.1-12"
+    },
+    {
+     "a": "Herodian",
+     "w": "History",
+     "r": "3.8.2"
+    }
+   ]
+  },
+  {
+   "id": "prov_britannia_superior",
+   "name": "Britannia Superior",
+   "type": "province",
+   "created": 213,
+   "createdNote": "Herodian 3.8.2 places the division in 197; dated by many to c. 213-216",
+   "ended": 296,
+   "endedNote": "reorganised after Constantius I recovered Britain in 296",
+   "capital": "londinium",
+   "capitalName": "Londinium",
+   "labelLoc": [
+    -1.6,
+    51.8
+   ],
+   "governor": "legatus Augusti pro praetore of consular rank",
+   "phases": [
+    {
+     "from": 213,
+     "to": 286,
+     "t": "southern province with legions at Isca and Deva"
+    },
+    {
+     "from": 286,
+     "to": 296,
+     "t": "under Carausius and Allectus"
+    }
+   ],
+   "diocese": null,
+   "prefecture": null,
+   "parent": null,
+   "successors": [
+    "prov_maxima_caesariensis",
+    "prov_britannia_prima"
+   ],
+   "summary": "The southern half of the divided island, with two legions, II Augusta at Isca and XX Valeria Victrix at Deva. Its coast received the first forts of what became the Saxon Shore system in the later 3rd century.",
+   "certainty": "disputed",
+   "sources": [
+    {
+     "a": "Herodian",
+     "w": "History",
+     "r": "3.8.2"
+    }
+   ]
+  },
+  {
+   "id": "prov_britannia_inferior",
+   "name": "Britannia Inferior",
+   "type": "province",
+   "created": 213,
+   "createdNote": "see Britannia Superior",
+   "ended": 296,
+   "endedNote": "reorganised after 296",
+   "capital": "eboracum",
+   "capitalName": "Eboracum",
+   "labelLoc": [
+    -1.9,
+    54.4
+   ],
+   "governor": "legatus Augusti pro praetore of praetorian rank (also legate of VI Victrix)",
+   "phases": [
+    {
+     "from": 213,
+     "to": 286,
+     "t": "northern province, Hadrian's Wall and VI Victrix at Eboracum"
+    },
+    {
+     "from": 286,
+     "to": 296,
+     "t": "under Carausius and Allectus"
+    }
+   ],
+   "diocese": null,
+   "prefecture": null,
+   "parent": null,
+   "successors": [
+    "prov_britannia_secunda",
+    "prov_flavia_caesariensis"
+   ],
+   "summary": "The northern province, garrisoning Hadrian's Wall; Septimius Severus died at York in February 211 after his Caledonian campaigns. Its governor commanded only one legion, by design.",
+   "certainty": "disputed",
+   "sources": [
+    {
+     "a": "Herodian",
+     "w": "History",
+     "r": "3.8.2"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "77.15"
+    }
+   ]
+  },
+  {
+   "id": "prov_raetia",
+   "name": "Raetia (et Vindelicia)",
+   "type": "province",
+   "created": -15,
+   "createdNote": "Alpine campaign of 15 BC",
+   "ended": 290,
+   "endedNote": "divided c. 290-300 into Raetia I and II",
+   "capital": "augusta_vindelicum",
+   "capitalName": "Augusta Vindelicum",
+   "labelLoc": [
+    10.6,
+    48.0
+   ],
+   "governor": "praefectus, then equestrian procurator; praetorian legate commanding III Italica from c. 179",
+   "phases": [
+    {
+     "from": -15,
+     "to": 179,
+     "t": "conquered by Drusus and Tiberius in 15 BC; procuratorial, auxiliary garrison; Raetian limes"
+    },
+    {
+     "from": 179,
+     "to": 260,
+     "t": "legio III Italica at Castra Regina; Raetian limes rebuilt as a stone wall c. 200-210; Alamannic invasions 213, 233, 260"
+    },
+    {
+     "from": 260,
+     "to": 290,
+     "t": "the limes abandoned for the Danube-Iller-Rhine line"
+    }
+   ],
+   "diocese": null,
+   "prefecture": null,
+   "parent": null,
+   "successors": [
+    "prov_raetia_prima",
+    "prov_raetia_secunda"
+   ],
+   "summary": "The Alpine conquest of 15 BC is commemorated by the Tropaeum Alpium at La Turbie, listing forty-five subdued peoples. In 1992 an altar found at Augsburg recorded the governor's victory on 24-25 April 260 over the Semnones or Iuthungi, who were returning from Italy with thousands of captives, a rare dated document of the 3rd-century crisis.",
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "54.22"
+    },
+    {
+     "a": "Horace",
+     "w": "Odes",
+     "r": "4.4; 4.14"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "3.136-137"
+    }
+   ]
+  },
+  {
+   "id": "prov_noricum",
+   "name": "Noricum",
+   "type": "province",
+   "created": -16,
+   "createdNote": "annexed 16 BC after the Norici joined a raid on Istria (Dio 54.20.2)",
+   "ended": 293,
+   "endedNote": "divided c. 293-300 into Noricum Ripense and Noricum Mediterraneum",
+   "capital": "virunum",
+   "capitalName": "Virunum (Magdalensberg earlier); Ovilava from c. 170s",
+   "labelLoc": [
+    14.0,
+    47.3
+   ],
+   "governor": "equestrian procurator; praetorian legate commanding II Italica from the 170s",
+   "phases": [
+    {
+     "from": -16,
+     "to": 170,
+     "t": "the Celtic regnum Noricum absorbed peacefully (16 BC); procuratorial; Claudian municipia"
+    },
+    {
+     "from": 170,
+     "to": 293,
+     "t": "Marcomannic wars; legio II Italica at Lauriacum; governor's seat at Ovilava"
+    }
+   ],
+   "diocese": null,
+   "prefecture": null,
+   "parent": null,
+   "successors": [
+    "prov_noricum_ripense",
+    "prov_noricum_mediterraneum"
+   ],
+   "summary": "A client kingdom long tied to Roman merchants through its iron (ferrum Noricum, the best steel of antiquity) and gold, absorbed without a war. The Magdalensberg trading post, whose walls bear Latin graffiti listing iron shipments, predates the province. The Marcomannic wars brought it a legion and a senatorial governor.",
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "54.20.2"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "34.145"
+    }
+   ]
+  },
+  {
+   "id": "prov_alpes_maritimae",
+   "name": "Alpes Maritimae",
+   "type": "province",
+   "created": -14,
+   "createdNote": "conquest of the Ligurian Alpine peoples, 14 BC",
+   "ended": 476,
+   "endedNote": "ceded with Provence to the Visigoth Euric (476); northern districts Burgundian",
+   "capital": null,
+   "capitalName": "Cemenelum (Cimiez); Ebrodunum (Embrun) in late antiquity",
+   "labelLoc": [
+    6.8,
+    44.1
+   ],
+   "governor": "praefectus, then equestrian procurator; praeses (late)",
+   "phases": [
+    {
+     "from": -14,
+     "to": 293,
+     "t": "procuratorial; Latin rights granted by Nero in 63 (Tac. Ann. 15.32)"
+    },
+    {
+     "from": 293,
+     "to": 476,
+     "t": "province of the diocese of Viennensis (Septem Provinciae)"
+    }
+   ],
+   "diocese": "Viennensis (Septem Provinciae)",
+   "prefecture": "Galliae",
+   "parent": null,
+   "successors": [],
+   "summary": "The mountain hinterland of Nice and the Via Iulia Augusta, conquered in 14 BC and celebrated by the Tropaeum Alpium (7/6 BC) above Monaco. In 69 its procurator Marius Maturus armed the mountaineers for Vitellius against Otho's fleet (Tac. Hist. 2.12-15).",
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "54.24.3"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Historiae",
+     "r": "2.12-15"
+    }
+   ]
+  },
+  {
+   "id": "prov_alpes_cottiae",
+   "name": "Alpes Cottiae (Alpine province)",
+   "type": "province",
+   "created": 63,
+   "createdNote": "annexed by Nero, c. 63",
+   "ended": 300,
+   "endedNote": "name transferred under Diocletian to a province of Italia Annonaria",
+   "capital": null,
+   "capitalName": "Segusio (Susa)",
+   "labelLoc": [
+    7.0,
+    45.1
+   ],
+   "governor": "equestrian procurator",
+   "phases": [
+    {
+     "from": -13,
+     "to": 63,
+     "t": "client realm of Cottius, made praefectus civitatium; arch at Segusio (9/8 BC); Claudius restored the royal title to Cottius II"
+    },
+    {
+     "from": 63,
+     "to": 300,
+     "t": "procuratorial province annexed by Nero on the death of Cottius II"
+    }
+   ],
+   "diocese": null,
+   "prefecture": null,
+   "parent": null,
+   "successors": [
+    "prov_alpes_cottiae_late"
+   ],
+   "summary": "Cottius kept his mountain kingdom by building the road over the Mont Genevre and accepting a Roman title; his arch at Susa lists the fourteen communities he ruled. Nero annexed it in 63 (Suet. Nero 18). Diocletian moved the name to a new Italian province in the Ligurian Apennines.",
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Nero",
+     "r": "18"
+    },
+    {
+     "a": "Ammianus Marcellinus",
+     "w": "Res Gestae",
+     "r": "15.10.2-7"
+    }
+   ]
+  },
+  {
+   "id": "prov_alpes_poeninae",
+   "name": "Alpes Poeninae (Vallis Poenina)",
+   "type": "province",
+   "created": 45,
+   "createdNote": "Claudian organisation; exact date unknown",
+   "ended": 180,
+   "endedNote": "joined with Alpes Graiae under one procurator by the later 2nd century",
+   "capital": null,
+   "capitalName": "Forum Claudii Vallensium (Octodurus, Martigny)",
+   "labelLoc": [
+    7.4,
+    46.2
+   ],
+   "governor": "equestrian procurator",
+   "phases": [
+    {
+     "from": -15,
+     "to": 45,
+     "t": "the Valais, attached to Raetia"
+    },
+    {
+     "from": 45,
+     "to": 180,
+     "t": "separate procuratorial district under Claudius (date approximate)"
+    }
+   ],
+   "diocese": null,
+   "prefecture": null,
+   "parent": null,
+   "successors": [
+    "prov_alpes_graiae_poeninae"
+   ],
+   "summary": "The upper Rhone valley and the Great St Bernard pass (Summus Poeninus), turned by Claudius into a procuratorial district with a new market town at Martigny. Joined with the Alpes Graiae under one procurator by the later 2nd century.",
+   "certainty": "approx",
+   "sources": []
+  },
+  {
+   "id": "prov_alpes_graiae",
+   "name": "Alpes Graiae (Atrectianae)",
+   "type": "province",
+   "created": 45,
+   "createdNote": "Claudian; date approximate",
+   "ended": 180,
+   "endedNote": "merged into Alpes Graiae et Poeninae",
+   "capital": null,
+   "capitalName": "Axima (Aime)",
+   "labelLoc": [
+    6.6,
+    45.55
+   ],
+   "governor": "equestrian procurator",
+   "phases": [
+    {
+     "from": 45,
+     "to": 180,
+     "t": "procuratorial district of the Ceutrones of the Tarentaise (Claudian)"
+    }
+   ],
+   "diocese": null,
+   "prefecture": null,
+   "parent": null,
+   "successors": [
+    "prov_alpes_graiae_poeninae"
+   ],
+   "summary": "The Tarentaise valley and the Little St Bernard pass (Alpis Graia), home of the Ceutrones; a small procuratorial district, merged with the Valais under one procurator by the later 2nd century.",
+   "certainty": "approx",
+   "sources": []
+  },
+  {
+   "id": "prov_alpes_graiae_poeninae",
+   "name": "Alpes Graiae et Poeninae",
+   "type": "province",
+   "created": 180,
+   "createdNote": "the two districts under one procurator by c. 180 (approximate)",
+   "ended": 470,
+   "endedNote": "absorbed by the Burgundian kingdom in the 460s-470s",
+   "capital": null,
+   "capitalName": "Darantasia (Moutiers) in late antiquity",
+   "labelLoc": [
+    6.9,
+    45.8
+   ],
+   "governor": "equestrian procurator; praeses (late)",
+   "phases": [
+    {
+     "from": 180,
+     "to": 293,
+     "t": "single procuratorial province"
+    },
+    {
+     "from": 293,
+     "to": 470,
+     "t": "province of the diocese of Galliae (Verona List)"
+    }
+   ],
+   "diocese": "Galliae",
+   "prefecture": "Galliae",
+   "parent": null,
+   "successors": [],
+   "summary": "Two Alpine passes, the Great and Little St Bernard, joined as one small province commanding the routes from Italy into Gaul. The Burgundians, settled in Sapaudia in 443, absorbed it in the later 5th century.",
+   "certainty": "approx",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Occidentis",
+     "r": "1-3"
+    }
+   ]
+  },
+  {
+   "id": "prov_dalmatia",
+   "name": "Dalmatia",
+   "type": "province",
+   "created": 9,
+   "createdNote": "split from Illyricum after AD 9",
+   "ended": 614,
+   "endedNote": "Salona fell to Avars and Slavs c. 614 (traditional date; perhaps 620s); coastal towns (Iader, Tragurium, Spalatum) remained Roman",
+   "capital": "salona",
+   "capitalName": "Salona",
+   "labelLoc": [
+    17.5,
+    43.9
+   ],
+   "governor": "consular legate (two legions until 86); praeses (late)",
+   "phases": [
+    {
+     "from": 9,
+     "to": 86,
+     "t": "Illyricum Superius, later Dalmatia; legions VII and XI (Claudia pia fidelis after refusing Scribonianus' revolt, 42)"
+    },
+    {
+     "from": 86,
+     "to": 293,
+     "t": "unarmed province; rich silver and gold mines in the interior"
+    },
+    {
+     "from": 293,
+     "to": 461,
+     "t": "province of the diocese of Pannoniae/Illyricum; Praevalitana separated; Diocletian's palace at Spalatum"
+    },
+    {
+     "from": 461,
+     "to": 481,
+     "t": "semi-independent under Marcellinus and then Julius Nepos (died 480)"
+    },
+    {
+     "from": 481,
+     "to": 535,
+     "t": "Odoacer, then the Ostrogoths (from 493)"
+    },
+    {
+     "from": 535,
+     "to": 614,
+     "t": "recovered by Justinian (535-537); overwhelmed by Avars and Slavs in the early 7th century"
+    }
+   ],
+   "diocese": "Pannoniae (Illyricum)",
+   "prefecture": "Italia",
+   "parent": null,
+   "successors": [],
+   "summary": "After the great revolt of AD 6-9 Dalmatia was held by two legions until Domitian moved them to the Danube. It was a reservoir of soldiers and emperors (Diocletian retired to his palace at Split in 305). In the 460s-470s Marcellinus and his nephew Julius Nepos ruled it as a Roman principality; Nepos, the last western emperor recognised by Constantinople, was murdered near Salona in 480.",
+   "certainty": "probable",
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "55.29-34; 60.15"
+    },
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "5.5.2; 5.7.1-10"
+    }
+   ]
+  },
+  {
+   "id": "prov_pannonia",
+   "name": "Pannonia",
+   "type": "province",
+   "created": 9,
+   "createdNote": "split from Illyricum after AD 9",
+   "ended": 106,
+   "endedNote": "divided by Trajan between c. 103 and 107",
+   "capital": "carnuntum",
+   "capitalName": "legate's seat probably Carnuntum (Poetovio and Siscia earlier)",
+   "labelLoc": [
+    17.8,
+    46.6
+   ],
+   "governor": "consular legate",
+   "phases": [
+    {
+     "from": 9,
+     "to": 106,
+     "t": "Illyricum Inferius, then Pannonia; three legions on the middle Danube; Pannonian mutiny of AD 14"
+    }
+   ],
+   "diocese": null,
+   "prefecture": null,
+   "parent": null,
+   "successors": [
+    "prov_pannonia_superior",
+    "prov_pannonia_inferior"
+   ],
+   "summary": "The middle Danube basin, conquered by Tiberius in 12-9 BC and again in the revolt of 6-9. The mutiny of the Pannonian legions at Tiberius' accession (AD 14), quelled by Drusus with the help of a lunar eclipse, is one of Tacitus' great set pieces. Colonies at Emona, Savaria (Claudius), Siscia and Sirmium (Flavian) Romanised the Amber Road and the Sava valley.",
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Annales",
+     "r": "1.16-30"
+    }
+   ]
+  },
+  {
+   "id": "prov_pannonia_superior",
+   "name": "Pannonia Superior",
+   "type": "province",
+   "created": 106,
+   "createdNote": "Trajan, c. 103-107",
+   "ended": 296,
+   "endedNote": "divided by Diocletian into Pannonia I and Savia",
+   "capital": "carnuntum",
+   "capitalName": "Carnuntum",
+   "labelLoc": [
+    16.6,
+    47.2
+   ],
+   "governor": "legatus Augusti pro praetore of consular rank",
+   "phases": [
+    {
+     "from": 106,
+     "to": 214,
+     "t": "three legions; headquarters of Marcus Aurelius in the Marcomannic wars (Meditations, book 2 'at Carnuntum')"
+    },
+    {
+     "from": 214,
+     "to": 296,
+     "t": "Brigetio transferred to Inferior by Caracalla, leaving two legions"
+    }
+   ],
+   "diocese": null,
+   "prefecture": null,
+   "parent": null,
+   "successors": [
+    "prov_pannonia_prima",
+    "prov_savia"
+   ],
+   "summary": "One of the most heavily garrisoned provinces of the empire, facing the Marcomanni and Quadi. Septimius Severus, its governor, was proclaimed emperor at Carnuntum on 9 April 193; the tetrarchs met there in November 308 to settle the succession.",
+   "garrison": "X Gemina (Vindobona), XIV Gemina (Carnuntum), I Adiutrix (Brigetio, to 214)",
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "72.3; 74.14"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Severus",
+     "r": "5.1"
+    }
+   ]
+  },
+  {
+   "id": "prov_pannonia_inferior",
+   "name": "Pannonia Inferior",
+   "type": "province",
+   "created": 106,
+   "createdNote": "Trajan, c. 103-107",
+   "ended": 296,
+   "endedNote": "divided by Diocletian into Pannonia II and Valeria",
+   "capital": "aquincum",
+   "capitalName": "Aquincum",
+   "labelLoc": [
+    18.8,
+    46.2
+   ],
+   "governor": "praetorian legate; consular from 214",
+   "phases": [
+    {
+     "from": 106,
+     "to": 214,
+     "t": "one legion (II Adiutrix at Aquincum); Hadrian governor 107"
+    },
+    {
+     "from": 214,
+     "to": 296,
+     "t": "consular after Caracalla added Brigetio and I Adiutrix"
+    }
+   ],
+   "diocese": null,
+   "prefecture": null,
+   "parent": null,
+   "successors": [
+    "prov_pannonia_secunda",
+    "prov_valeria_pannonia"
+   ],
+   "summary": "Facing the Sarmatian Iazyges across the Danube bend, Lower Pannonia was a stepping stone for great careers: Hadrian governed it in 107, and Aquincum was the base for wars against the Iazyges in the 170s. Caracalla moved the boundary in 214 to give it a second legion.",
+   "garrison": "II Adiutrix (Aquincum); I Adiutrix (Brigetio, from 214)",
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Hadrianus",
+     "r": "3.9"
+    }
+   ]
+  },
+  {
+   "id": "prov_moesia",
+   "name": "Moesia",
+   "type": "province",
+   "created": 15,
+   "createdNote": "formally a province by AD 15 at the latest",
+   "ended": 86,
+   "endedNote": "split by Domitian in 86",
+   "capital": null,
+   "capitalName": "no fixed seat known",
+   "labelLoc": [
+    24.0,
+    43.6
+   ],
+   "governor": "consular legate (also over Macedonia and Achaea AD 15-44)",
+   "phases": [
+    {
+     "from": 6,
+     "to": 15,
+     "t": "military command on the lower Danube (Caecina Severus, AD 6)"
+    },
+    {
+     "from": 15,
+     "to": 86,
+     "t": "province; Tiberius' road through the Iron Gates (33/34); Plautius Silvanus Aelianus resettles 100,000 transdanubians (ILS 986)"
+    }
+   ],
+   "diocese": null,
+   "prefecture": null,
+   "parent": null,
+   "successors": [
+    "prov_moesia_superior",
+    "prov_moesia_inferior"
+   ],
+   "summary": "The lower Danube command, formalised by AD 15 when Poppaeus Sabinus became legate of Moesia with Macedonia and Achaea, a post he held for 20 years. Its 1st-century history is one of raids across the frozen river by Dacians, Sarmatians and Roxolani. In 85 or 86 the Dacians killed its governor Oppius Sabinus, and Domitian split it.",
+   "certainty": "probable",
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Annales",
+     "r": "1.80"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "55.29.3"
+    }
+   ]
+  },
+  {
+   "id": "prov_moesia_superior",
+   "name": "Moesia Superior",
+   "type": "province",
+   "created": 86,
+   "createdNote": "Domitian's division of Moesia, 86",
+   "ended": 285,
+   "endedNote": "dismembered under Aurelian and Diocletian into Dacia (Aureliana), Moesia I and Dardania",
+   "capital": "viminacium",
+   "capitalName": "Viminacium (Singidunum also a legionary seat)",
+   "labelLoc": [
+    21.5,
+    43.8
+   ],
+   "governor": "legatus Augusti pro praetore of consular rank",
+   "phases": [
+    {
+     "from": 86,
+     "to": 106,
+     "t": "base for Trajan's Dacian wars; Trajan's bridge at Drobeta (Apollodorus, 103-105)"
+    },
+    {
+     "from": 106,
+     "to": 285,
+     "t": "mining district (Dardanian and Kosmaj silver); battle of Naissus against the Goths (268 or 269)"
+    }
+   ],
+   "diocese": null,
+   "prefecture": null,
+   "parent": null,
+   "successors": [
+    "prov_dacia_aureliana",
+    "prov_moesia_prima",
+    "prov_dardania"
+   ],
+   "summary": "The middle Danube from Singidunum to the Timok, with the Iron Gates gorge where Trajan's road, carved into the cliff and recorded by the Tabula Traiana, carried his armies to Dacia. Its legionary towns grew into the Balkan cities of late antiquity, and Constantine was born at Naissus.",
+   "garrison": "IV Flavia Felix (Singidunum), VII Claudia (Viminacium)",
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "68.13"
+    }
+   ]
+  },
+  {
+   "id": "prov_moesia_inferior",
+   "name": "Moesia Inferior",
+   "type": "province",
+   "created": 86,
+   "createdNote": "Domitian's division of Moesia, 86",
+   "ended": 293,
+   "endedNote": "divided by Diocletian into Moesia II and Scythia",
+   "capital": "tomis",
+   "capitalName": "governor's seat disputed (Tomis, Novae or Marcianopolis)",
+   "labelLoc": [
+    26.5,
+    43.8
+   ],
+   "governor": "legatus Augusti pro praetore of consular rank",
+   "phases": [
+    {
+     "from": 86,
+     "to": 167,
+     "t": "three legions on the lower Danube and the Greek cities of the Pontic coast"
+    },
+    {
+     "from": 167,
+     "to": 293,
+     "t": "two legions after V Macedonica moved to Dacia; Gothic invasions 238-271; Decius killed at Abritus (251)"
+    }
+   ],
+   "diocese": null,
+   "prefecture": null,
+   "parent": null,
+   "successors": [
+    "prov_moesia_secunda",
+    "prov_scythia"
+   ],
+   "summary": "The lower Danube and the Dobruja, with the Greek Pentapolis of the Black Sea coast (Tomis, Histria, Callatis, Odessos, Mesembria). Trajan's victory monument at Adamclisi (Tropaeum Traiani, 109) stands here. In the 3rd century it took the full weight of the Gothic invasions, culminating in the death of Decius and his son in the marshes at Abritus in 251.",
+   "garrison": "I Italica (Novae), XI Claudia (Durostorum), V Macedonica (Troesmis, to 167)",
+   "sources": [
+    {
+     "a": "Jordanes",
+     "w": "Getica",
+     "r": "101-103"
+    },
+    {
+     "a": "Zosimus",
+     "w": "Historia Nova",
+     "r": "1.23"
+    }
+   ]
+  },
+  {
+   "id": "prov_dacia",
+   "name": "Dacia",
+   "type": "province",
+   "created": 106,
+   "createdNote": "annexed after the second Dacian war, 106",
+   "ended": 119,
+   "endedNote": "divided by Hadrian c. 119 after the Sarmatian crisis of 117-118",
+   "capital": "ulpia_traiana_sarmizegetusa",
+   "capitalName": "Colonia Ulpia Traiana Sarmizegetusa",
+   "labelLoc": [
+    23.5,
+    46.0
+   ],
+   "governor": "consular legate",
+   "phases": [
+    {
+     "from": 106,
+     "to": 119,
+     "t": "Trajan's conquest; colonists brought 'from the whole Roman world' (Eutropius 8.6)"
+    }
+   ],
+   "diocese": null,
+   "prefecture": null,
+   "parent": null,
+   "successors": [
+    "prov_dacia_superior",
+    "prov_dacia_inferior"
+   ],
+   "summary": "Conquered in two wars (101-102, 105-106) that ended with Decebalus' suicide, Dacia gave Trajan a gold windfall that paid for his forum. Eutropius says Hadrian thought of giving it up but kept it because so many Roman citizens had been settled there. The gold mines of Alburnus Maior, run by Illyrian miners, left wax tablet contracts dated 131-167.",
+   "sources": [
+    {
+     "a": "Eutropius",
+     "w": "Breviarium",
+     "r": "8.2; 8.6"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "68.6-14"
+    }
+   ]
+  },
+  {
+   "id": "prov_dacia_superior",
+   "name": "Dacia Superior / Dacia Apulensis",
+   "type": "province",
+   "created": 119,
+   "createdNote": "Hadrianic division c. 119",
+   "ended": 271,
+   "endedNote": "evacuated under Aurelian (c. 271-275)",
+   "capital": "apulum",
+   "capitalName": "Apulum (legionary base); Sarmizegetusa the colonia and seat of the concilium",
+   "labelLoc": [
+    23.3,
+    45.9
+   ],
+   "governor": "praetorian legate commanding XIII Gemina",
+   "phases": [
+    {
+     "from": 119,
+     "to": 168,
+     "t": "Dacia Superior"
+    },
+    {
+     "from": 168,
+     "to": 271,
+     "t": "renamed Dacia Apulensis within the Tres Daciae"
+    }
+   ],
+   "diocese": null,
+   "prefecture": null,
+   "parent": "prov_tres_daciae",
+   "successors": [
+    "prov_dacia_aureliana"
+   ],
+   "summary": "The core of Roman Transylvania and the Banat, with the gold districts and the colony of Sarmizegetusa, where the council of the Three Dacias met at the altar of the emperor.",
+   "sources": [
+    {
+     "a": "Eutropius",
+     "w": "Breviarium",
+     "r": "9.15"
+    }
+   ]
+  },
+  {
+   "id": "prov_dacia_inferior",
+   "name": "Dacia Inferior / Dacia Malvensis",
+   "type": "province",
+   "created": 119,
+   "createdNote": "Hadrianic division c. 119",
+   "ended": 271,
+   "endedNote": "evacuated under Aurelian",
+   "capital": "romula",
+   "capitalName": "Romula",
+   "labelLoc": [
+    24.3,
+    44.5
+   ],
+   "governor": "equestrian procurator",
+   "phases": [
+    {
+     "from": 119,
+     "to": 168,
+     "t": "Dacia Inferior (Oltenia)"
+    },
+    {
+     "from": 168,
+     "to": 271,
+     "t": "Dacia Malvensis within the Tres Daciae"
+    }
+   ],
+   "diocese": null,
+   "prefecture": null,
+   "parent": "prov_tres_daciae",
+   "successors": [
+    "prov_dacia_aureliana"
+   ],
+   "summary": "The Olt valley and Oltenia, guarded by the limes Alutanus and later the limes Transalutanus. A procuratorial province of auxiliary forts and small towns.",
+   "certainty": "probable",
+   "sources": []
+  },
+  {
+   "id": "prov_dacia_porolissensis",
+   "name": "Dacia Porolissensis",
+   "type": "province",
+   "created": 124,
+   "createdNote": "c. 123-124",
+   "ended": 271,
+   "endedNote": "evacuated under Aurelian",
+   "capital": "napoca",
+   "capitalName": "Napoca",
+   "labelLoc": [
+    23.8,
+    47.0
+   ],
+   "governor": "equestrian procurator",
+   "phases": [
+    {
+     "from": 124,
+     "to": 168,
+     "t": "carved from Superior in the north of Transylvania"
+    },
+    {
+     "from": 168,
+     "to": 271,
+     "t": "part of the Tres Daciae"
+    }
+   ],
+   "diocese": null,
+   "prefecture": null,
+   "parent": "prov_tres_daciae",
+   "successors": [
+    "prov_dacia_aureliana"
+   ],
+   "summary": "Northern Transylvania with the frontier fortress of Porolissum, a customs post on the Meses gate into barbaricum. Legio V Macedonica came to Potaissa in 168.",
+   "certainty": "probable",
+   "sources": []
+  },
+  {
+   "id": "prov_tres_daciae",
+   "name": "Tres Daciae",
+   "type": "province",
+   "created": 168,
+   "createdNote": "c. 168",
+   "ended": 271,
+   "endedNote": "abandoned by Aurelian, 271 or 274/275 (Eutropius 9.15; Historia Augusta, Aurelian 39.7)",
+   "capital": "apulum",
+   "capitalName": "Apulum",
+   "labelLoc": [
+    23.6,
+    46.2
+   ],
+   "governor": "consular legate over the three Dacian provinces, with procurators under him",
+   "phases": [
+    {
+     "from": 168,
+     "to": 271,
+     "t": "unified command created during the Marcomannic wars; two legions (XIII Gemina at Apulum, V Macedonica at Potaissa)"
+    }
+   ],
+   "diocese": null,
+   "prefecture": null,
+   "parent": null,
+   "successors": [
+    "prov_dacia_aureliana"
+   ],
+   "summary": "Marcus Aurelius united the three Dacian provinces under one consular legate when the Marcomannic wars threatened them; the first holder, M. Claudius Fronto, died fighting in 170. The province contracted under the 3rd-century invasions, and coin finds thin out after the 250s.",
+   "certainty": "probable",
+   "sources": [
+    {
+     "a": "Eutropius",
+     "w": "Breviarium",
+     "r": "9.15"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Aurelianus",
+     "r": "39.7"
+    }
+   ]
+  },
+  {
+   "id": "prov_dacia_aureliana",
+   "name": "Dacia (Aureliana)",
+   "type": "province",
+   "created": 271,
+   "createdNote": "Aurelian, 271 or 274/275",
+   "ended": 285,
+   "endedNote": "divided (by Diocletian at the latest) into Ripensis and Mediterranea",
+   "capital": "serdica",
+   "capitalName": "Serdica (probable)",
+   "labelLoc": [
+    23.3,
+    43.3
+   ],
+   "governor": "praeses",
+   "phases": [
+    {
+     "from": 271,
+     "to": 285,
+     "t": "new Dacia carved out of the two Moesias south of the Danube to save face after the evacuation"
+    }
+   ],
+   "diocese": null,
+   "prefecture": null,
+   "parent": null,
+   "successors": [
+    "prov_dacia_ripensis",
+    "prov_dacia_mediterranea"
+   ],
+   "summary": "When Aurelian withdrew from Trajan's Dacia he created a new 'Dacia' south of the river in the middle of the Moesias, settling the evacuated provincials there. It was soon split into Dacia Ripensis and Dacia Mediterranea.",
+   "certainty": "probable",
+   "sources": [
+    {
+     "a": "Eutropius",
+     "w": "Breviarium",
+     "r": "9.15"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Aurelianus",
+     "r": "39.7"
+    }
+   ]
+  },
+  {
+   "id": "prov_thracia",
+   "name": "Thracia",
+   "type": "province",
+   "created": 46,
+   "createdNote": "Claudius, AD 46",
+   "ended": 293,
+   "endedNote": "divided under Diocletian into Thracia, Europa, Rhodope and Haemimontus",
+   "capital": "perinthus",
+   "capitalName": "Perinthus",
+   "labelLoc": [
+    25.6,
+    42.2
+   ],
+   "governor": "equestrian procurator; praetorian legate from Trajan",
+   "phases": [
+    {
+     "from": 46,
+     "to": 106,
+     "t": "the Odrysian kingdom annexed after the murder of Rhoemetalces III; strategiai retained"
+    },
+    {
+     "from": 106,
+     "to": 293,
+     "t": "praetorian legate; Trajanic city foundations (Augusta Traiana, Traianopolis, Plotinopolis, Nicopolis ad Nestum); Goths sack Philippopolis 250/251"
+    }
+   ],
+   "diocese": null,
+   "prefecture": null,
+   "parent": null,
+   "successors": [
+    "prov_thracia_late",
+    "prov_europa",
+    "prov_rhodope",
+    "prov_haemimontus"
+   ],
+   "summary": "Rome ran Thrace through Odrysian client kings for almost two centuries before Claudius annexed it in 46. Its 1st-century administration kept the old royal districts; Trajan and Hadrian urbanised it with new cities. Thracians were the empire's great recruiting pool, above all for the praetorian guard and the cavalry.",
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Annales",
+     "r": "4.46-51"
+    },
+    {
+     "a": "Ammianus Marcellinus",
+     "w": "Res Gestae",
+     "r": "27.4"
+    }
+   ]
+  },
+  {
+   "id": "prov_judaea",
+   "name": "Judaea / Syria Palaestina",
+   "type": "province",
+   "created": 6,
+   "createdNote": "Archelaus deposed AD 6",
+   "ended": 390,
+   "endedNote": "divided c. 390-409 into Palaestina I and II (Salutaris already c. 357-358)",
+   "capital": "caesarea_maritima",
+   "capitalName": "Caesarea Maritima",
+   "labelLoc": [
+    35.1,
+    31.7
+   ],
+   "governor": "equestrian prefect (6-41), procurator (44-66); praetorian legate (from 70), consular (from c. 120); praeses (4th c.)",
+   "phases": [
+    {
+     "from": 6,
+     "to": 41,
+     "t": "prefecture after Archelaus was deposed; census of Quirinius; Pontius Pilate 26-36 (Caesarea inscription)"
+    },
+    {
+     "from": 41,
+     "to": 44,
+     "t": "kingdom of Agrippa I"
+    },
+    {
+     "from": 44,
+     "to": 66,
+     "t": "procurators (Felix, Festus, Florus)"
+    },
+    {
+     "from": 66,
+     "to": 74,
+     "t": "First Jewish Revolt; Jerusalem destroyed 70; Masada 73/74"
+    },
+    {
+     "from": 74,
+     "to": 135,
+     "t": "legate commanding X Fretensis at Jerusalem; second legion and consular rank under Hadrian; Bar Kokhba revolt 132-135"
+    },
+    {
+     "from": 135,
+     "to": 390,
+     "t": "renamed Syria Palaestina; Aelia Capitolina founded on Jerusalem; southern Arabia (Petra, Negev) added under Diocletian"
+    }
+   ],
+   "diocese": null,
+   "prefecture": null,
+   "parent": null,
+   "successors": [
+    "prov_palaestina_prima",
+    "prov_palaestina_secunda",
+    "prov_palaestina_salutaris"
+   ],
+   "summary": "The province where Roman rule failed most spectacularly. Equestrian governors of a small subprovince of Syria provoked two great revolts; after the second, Hadrian erased the name Judaea, refounded Jerusalem as Aelia Capitolina and barred Jews from it. Under the later empire its rabbinic academies produced the Mishnah (c. 200) and the Jerusalem Talmud.",
+   "garrison": "auxiliaries (6-66); X Fretensis (from 70); II Traiana then VI Ferrata at Legio-Caparcotna (from c. 120)",
+   "sources": [
+    {
+     "a": "Josephus",
+     "w": "Bellum Iudaicum",
+     "r": "2.117-118; 2.169-177"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "69.12-14"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Historiae",
+     "r": "5.1-13"
+    }
+   ]
+  },
+  {
+   "id": "prov_arabia",
+   "name": "Arabia (Petraea)",
+   "type": "province",
+   "created": 106,
+   "createdNote": "annexed in 106 on the death of Rabbel II",
+   "ended": 636,
+   "endedNote": "Arab conquest, 634-636",
+   "capital": "bostra",
+   "capitalName": "Bostra (Petra metropolis)",
+   "labelLoc": [
+    36.1,
+    32.0
+   ],
+   "governor": "praetorian legate commanding III Cyrenaica; praeses and dux (late); moderator (Justinian, Novel 102, 536)",
+   "phases": [
+    {
+     "from": 106,
+     "to": 293,
+     "t": "Nabataean kingdom annexed by Cornelius Palma; Via Nova Traiana from Bostra to Aila (111-114)"
+    },
+    {
+     "from": 293,
+     "to": 358,
+     "t": "southern districts (Petra, Negev, Aila) transferred to Palaestina; Arabia extended north into the Hauran"
+    },
+    {
+     "from": 358,
+     "to": 634,
+     "t": "province of the diocese of Oriens; Ghassanid phylarchs (al-Harith, supreme phylarch 529) as allies"
+    },
+    {
+     "from": 634,
+     "to": 636,
+     "t": "Bostra surrendered to Khalid ibn al-Walid (634)"
+    }
+   ],
+   "diocese": "Oriens",
+   "prefecture": "Oriens",
+   "parent": null,
+   "successors": [],
+   "summary": "Trajan annexed Nabataea on the death of king Rabbel II, and the coins say 'Arabia adquisita', not 'capta'. The Babatha archive from the Cave of Letters shows Jewish families going to Roman courts here in the 120s. Philip the Arab came from Shahba in the Hauran and rebuilt it as Philippopolis. In the 6th century the Ghassanid kings guarded its desert frontier for Rome.",
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "68.14.5"
+    },
+    {
+     "a": "Ammianus Marcellinus",
+     "w": "Res Gestae",
+     "r": "14.8.13"
+    }
+   ]
+  },
+  {
+   "id": "prov_numidia",
+   "name": "Numidia",
+   "type": "province",
+   "created": 198,
+   "createdNote": "de facto from 39 (Tac. Hist. 4.48; Dio 59.20.7); a separate province by c. 198",
+   "ended": 698,
+   "endedNote": "lost in the Arab conquest of the Maghreb (c. 680s-698); Byzantine control in 641 limited to the cities and forts",
+   "capital": "lambaesis",
+   "capitalName": "Lambaesis (Cirta-Constantina from the 4th century)",
+   "labelLoc": [
+    6.4,
+    35.7
+   ],
+   "governor": "legate of III Augusta (praetorian) as governor; consularis (late); praeses under Justinian",
+   "phases": [
+    {
+     "from": 39,
+     "to": 198,
+     "t": "military district of the legate of III Augusta within Africa Proconsularis (Caligula's reform)"
+    },
+    {
+     "from": 198,
+     "to": 303,
+     "t": "formal province (Severus); Hadrian's address to the army at Lambaesis (128); III Augusta disbanded 238, restored 253"
+    },
+    {
+     "from": 303,
+     "to": 314,
+     "t": "split into Numidia Cirtensis and Numidia Militiana"
+    },
+    {
+     "from": 314,
+     "to": 430,
+     "t": "reunited; Cirta renamed Constantina; Donatist heartland"
+    },
+    {
+     "from": 430,
+     "to": 534,
+     "t": "Vandal and Moorish control (partial Roman recovery 442-455)"
+    },
+    {
+     "from": 534,
+     "to": 698,
+     "t": "Justinianic province; Solomon's campaigns in the Aures (535, 539)"
+    }
+   ],
+   "diocese": "Africa",
+   "prefecture": "Italia; Africa (534)",
+   "parent": null,
+   "successors": [
+    "prov_numidia_cirtensis",
+    "prov_numidia_militiana"
+   ],
+   "summary": "The army province of Roman Africa, born when Caligula took the legion from the senatorial proconsul in 39. Its legionary fortress at Lambaesis and Trajan's veteran colony of Thamugadi (100) are among the best-preserved Roman sites anywhere; Hadrian's address to the troops there in 128 survives on stone. In late antiquity it was the stronghold of the Donatist church.",
+   "certainty": "probable",
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Historiae",
+     "r": "4.48"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "59.20.7"
+    },
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    }
+   ]
+  },
+  {
+   "id": "prov_mauretania_caesariensis",
+   "name": "Mauretania Caesariensis",
+   "type": "province",
+   "created": 42,
+   "createdNote": "Claudius, 42 (Dio 60.9.5)",
+   "ended": null,
+   "endedNote": "status in 641 obscure; only Caesarea and coastal points were held after 534",
+   "capital": "caesarea_mauretaniae",
+   "capitalName": "Caesarea (Iol)",
+   "labelLoc": [
+    2.4,
+    35.6
+   ],
+   "governor": "equestrian procurator; praeses (late)",
+   "phases": [
+    {
+     "from": 40,
+     "to": 42,
+     "t": "Caligula has Ptolemy of Mauretania killed; revolt of Aedemon"
+    },
+    {
+     "from": 42,
+     "to": 293,
+     "t": "procuratorial province; Moorish wars under Antoninus Pius and in the 250s"
+    },
+    {
+     "from": 293,
+     "to": 430,
+     "t": "province of the diocese of Africa; Sitifensis split off; revolts of Firmus (372-375) and Gildo (397-398)"
+    },
+    {
+     "from": 430,
+     "to": 534,
+     "t": "Vandal, then Moorish kingdoms (Masuna 'king of the Moorish and Roman peoples', 508)"
+    },
+    {
+     "from": 534,
+     "to": null,
+     "t": "Byzantine hold limited to Caesarea and coastal points (Mauretania II)"
+    }
+   ],
+   "diocese": "Africa",
+   "prefecture": "Italia; Africa (534)",
+   "parent": null,
+   "successors": [],
+   "summary": "Juba II's capital at Caesarea, a showcase of Hellenistic-Roman culture, became the seat of a procurator when Claudius annexed the kingdom of the murdered Ptolemy. Firmus' revolt of 372-375, put down by Theodosius the Elder, showed how Moorish princes could become Roman generals and rebels at once.",
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "60.8-9"
+    },
+    {
+     "a": "Ammianus Marcellinus",
+     "w": "Res Gestae",
+     "r": "29.5"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "5.11-14"
+    }
+   ]
+  },
+  {
+   "id": "prov_mauretania_tingitana",
+   "name": "Mauretania Tingitana",
+   "type": "province",
+   "created": 42,
+   "createdNote": "Claudius, 42",
+   "ended": 429,
+   "endedNote": "overrun by the Vandals from 429",
+   "capital": "tingis",
+   "capitalName": "Tingis (Volubilis the largest inland city)",
+   "labelLoc": [
+    -5.7,
+    34.9
+   ],
+   "governor": "equestrian procurator; praeses under the diocese of Hispaniae (late)",
+   "phases": [
+    {
+     "from": 42,
+     "to": 285,
+     "t": "procuratorial; peace treaties with the Baquates recorded on altars at Volubilis (140-280)"
+    },
+    {
+     "from": 285,
+     "to": 293,
+     "t": "southern districts including Volubilis and Sala abandoned"
+    },
+    {
+     "from": 293,
+     "to": 429,
+     "t": "attached to the diocese of Hispaniae; comes Tingitaniae commanding the field units"
+    },
+    {
+     "from": 429,
+     "to": 534,
+     "t": "Vandals cross from Spain (May 429); Septem (Ceuta) later held by Justinian"
+    }
+   ],
+   "diocese": "Hispaniae",
+   "prefecture": "Galliae",
+   "parent": null,
+   "successors": [],
+   "summary": "Separated from Caesariensis by the Moulouya and wild country, Tingitana looked to Spain, to whose diocese it was attached in the 4th century. Its frontier was managed by treaty: the 'altars of peace' at Volubilis record conferences between procurators and Baquates chiefs. The Vandal crossing of 429 began at its coast.",
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "5.1-2"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "60.9.5"
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Occidentis",
+     "r": "1-3"
+    }
+   ]
+  },
+  {
+   "id": "prov_armenia_trajan",
+   "name": "Armenia (Trajanic)",
+   "type": "province",
+   "created": 114,
+   "createdNote": "Trajan, 114",
+   "ended": 117,
+   "endedNote": "given up by Hadrian, 117-118",
+   "capital": "artaxata",
+   "capitalName": "Artaxata",
+   "labelLoc": [
+    43.0,
+    39.5
+   ],
+   "governor": "consular legate (L. Catilius Severus, legate of Cappadocia and Armenia Maior)",
+   "phases": [
+    {
+     "from": 114,
+     "to": 117,
+     "t": "annexed after the killing of Parthamasiris at Elegeia; abandoned by Hadrian"
+    }
+   ],
+   "diocese": null,
+   "prefecture": null,
+   "parent": null,
+   "successors": [],
+   "summary": "Trajan's annexation of Armenia in 114, after he refused to accept the Parthian candidate Parthamasiris, opened his great eastern war. The province lasted only until Hadrian restored a client king in 117-118.",
+   "certainty": "probable",
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "68.19-20"
+    },
+    {
+     "a": "Eutropius",
+     "w": "Breviarium",
+     "r": "8.3"
+    }
+   ]
+  },
+  {
+   "id": "prov_mesopotamia_trajan",
+   "name": "Mesopotamia (Trajanic)",
+   "type": "province",
+   "created": 116,
+   "createdNote": "Trajan, 116",
+   "ended": 117,
+   "endedNote": "abandoned by Hadrian, 117",
+   "capital": null,
+   "capitalName": "unknown",
+   "labelLoc": [
+    41.3,
+    36.4
+   ],
+   "governor": "unknown",
+   "phases": [
+    {
+     "from": 116,
+     "to": 117,
+     "t": "Trajan's conquest between Euphrates and Tigris"
+    }
+   ],
+   "diocese": null,
+   "prefecture": null,
+   "parent": null,
+   "successors": [],
+   "summary": "Eutropius and Festus say Trajan made Armenia, Mesopotamia and Assyria provinces. The Mesopotamian province was swept away by the general revolt of 116-117 and abandoned by Hadrian.",
+   "certainty": "disputed",
+   "sources": [
+    {
+     "a": "Eutropius",
+     "w": "Breviarium",
+     "r": "8.3"
+    },
+    {
+     "a": "Festus",
+     "w": "Breviarium",
+     "r": "14; 20"
+    }
+   ]
+  },
+  {
+   "id": "prov_assyria",
+   "name": "Assyria (Trajanic)",
+   "type": "province",
+   "created": 116,
+   "createdNote": "Trajan, 116",
+   "ended": 117,
+   "endedNote": "abandoned by Hadrian, 117",
+   "capital": null,
+   "capitalName": "unknown",
+   "labelLoc": [
+    43.8,
+    36.2
+   ],
+   "governor": "unknown",
+   "phases": [
+    {
+     "from": 116,
+     "to": 117,
+     "t": "probably Adiabene beyond the Tigris"
+    }
+   ],
+   "diocese": null,
+   "prefecture": null,
+   "parent": null,
+   "successors": [],
+   "summary": "Known only from Eutropius and Festus; most scholars think it meant Adiabene east of the Tigris, and some doubt that it was ever organised.",
+   "certainty": "disputed",
+   "sources": [
+    {
+     "a": "Eutropius",
+     "w": "Breviarium",
+     "r": "8.3"
+    },
+    {
+     "a": "Festus",
+     "w": "Breviarium",
+     "r": "14"
+    }
+   ]
+  },
+  {
+   "id": "prov_mesopotamia",
+   "name": "Mesopotamia",
+   "type": "province",
+   "created": 198,
+   "createdNote": "Severan conquest 195-198",
+   "ended": 640,
+   "endedNote": "Arab conquest 639-640",
+   "capital": "nisibis",
+   "capitalName": "Nisibis (to 363), then Amida",
+   "labelLoc": [
+    40.7,
+    37.4
+   ],
+   "governor": "equestrian prefect with two legions (Severan); praeses and dux Mesopotamiae (late)",
+   "phases": [
+    {
+     "from": 198,
+     "to": 363,
+     "t": "Severan province; Nisibis lost and regained in the 230s-240s and 250s-260s; Galerius' peace of Nisibis (298); Shapur II's three sieges of Nisibis (338, 346, 350)"
+    },
+    {
+     "from": 363,
+     "to": 602,
+     "t": "after Jovian ceded Nisibis and Singara, capital at Amida (sieges of 359, 502-503); Dara built 505-507"
+    },
+    {
+     "from": 602,
+     "to": 628,
+     "t": "Persian conquest under Khosrow II (Dara 604)"
+    },
+    {
+     "from": 628,
+     "to": 640,
+     "t": "restored; conquered by the Arabs under Iyad ibn Ghanm (639-640)"
+    }
+   ],
+   "diocese": "Oriens",
+   "prefecture": "Oriens",
+   "parent": null,
+   "successors": [],
+   "summary": "Severus' new province after his Parthian wars, deliberately governed like Egypt by an equestrian prefect commanding the new I and III Parthica. Cassius Dio thought it a costly mistake that dragged Rome into endless wars, and for four centuries this was the front line with Persia. The fortress of Dara, built by Anastasius to replace lost Nisibis, was the scene of Belisarius' victory in 530.",
+   "garrison": "I Parthica (Singara), III Parthica (Rhesaena?); late: legions at Amida, Constantia, Cefa",
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "75.3.2-3"
+    },
+    {
+     "a": "Ammianus Marcellinus",
+     "w": "Res Gestae",
+     "r": "18.9; 19.1-9; 25.7.9"
+    },
+    {
+     "a": "Procopius",
+     "w": "Buildings",
+     "r": "2.1-3"
+    }
+   ]
+  },
+  {
+   "id": "prov_osrhoene",
+   "name": "Osrhoene",
+   "type": "province",
+   "created": 214,
+   "createdNote": "partial annexation 195; full province 214 (and definitively 242)",
+   "ended": 639,
+   "endedNote": "Arab conquest 638-639",
+   "capital": "edessa",
+   "capitalName": "Edessa",
+   "labelLoc": [
+    38.9,
+    36.9
+   ],
+   "governor": "equestrian procurator/praeses; praeses and dux (late)",
+   "phases": [
+    {
+     "from": 195,
+     "to": 214,
+     "t": "most of the kingdom annexed by Severus; Abgar VIII left in Edessa as client"
+    },
+    {
+     "from": 214,
+     "to": 239,
+     "t": "Caracalla deposes Abgar IX; Caracalla murdered near Carrhae (217)"
+    },
+    {
+     "from": 239,
+     "to": 242,
+     "t": "Abgar X restored by Gordian III"
+    },
+    {
+     "from": 242,
+     "to": 609,
+     "t": "Roman province; Edessa a centre of Syriac Christianity; Persian sieges (544)"
+    },
+    {
+     "from": 609,
+     "to": 628,
+     "t": "Persian occupation"
+    },
+    {
+     "from": 628,
+     "to": 639,
+     "t": "restored; Edessa surrendered to Iyad ibn Ghanm (638/639)"
+    }
+   ],
+   "diocese": "Oriens",
+   "prefecture": "Oriens",
+   "parent": null,
+   "successors": [],
+   "summary": "The kingdom of the Abgarids of Edessa, absorbed in stages between 195 and 242. Edessa became the cradle of Syriac literature and of the legend of king Abgar's letter from Christ and his miraculous portrait; Procopius says the city believed it could never be taken, and in 544 Khosrow I failed to take it.",
+   "certainty": "probable",
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "78.12"
+    },
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "2.12; 2.26-27"
+    }
+   ]
+  },
+  {
+   "id": "prov_syria_coele",
+   "name": "Syria Coele",
+   "type": "province",
+   "created": 194,
+   "createdNote": "Severus, 194",
+   "ended": 293,
+   "endedNote": "reorganised under Diocletian; Augusta Euphratensis separated",
+   "capital": "antiochia",
+   "capitalName": "Antiochia (briefly subordinated to Laodicea as punishment)",
+   "labelLoc": [
+    37.4,
+    36.0
+   ],
+   "governor": "consular legate",
+   "phases": [
+    {
+     "from": 194,
+     "to": 293,
+     "t": "northern Syria with two legions; Shapur I sacks Antioch (253 or 256)"
+    }
+   ],
+   "diocese": null,
+   "prefecture": null,
+   "parent": null,
+   "successors": [
+    "prov_syria_prima",
+    "prov_euphratensis"
+   ],
+   "summary": "The northern half of Severus' divided Syria, keeping Antioch and two legions (IV Scythica at Zeugma, XVI Flavia Firma at Sura). Severus punished Antioch for backing Niger by making Laodicea the metropolis for a time.",
+   "sources": [
+    {
+     "a": "Herodian",
+     "w": "History",
+     "r": "3.6.9"
+    }
+   ]
+  },
+  {
+   "id": "prov_syria_phoenice",
+   "name": "Syria Phoenice",
+   "type": "province",
+   "created": 194,
+   "createdNote": "Severus, 194",
+   "ended": 293,
+   "endedNote": "divided under Diocletian into Phoenice and Augusta Libanensis",
+   "capital": "tyrus",
+   "capitalName": "Tyrus",
+   "labelLoc": [
+    35.8,
+    33.8
+   ],
+   "governor": "praetorian legate commanding III Gallica",
+   "phases": [
+    {
+     "from": 194,
+     "to": 293,
+     "t": "southern Syria with Tyre, Emesa, Damascus and Palmyra; legio III Gallica at Raphanea"
+    }
+   ],
+   "diocese": null,
+   "prefecture": null,
+   "parent": null,
+   "successors": [
+    "prov_phoenice",
+    "prov_phoenice_libanensis"
+   ],
+   "summary": "Severus' southern Syrian province. Its legion, III Gallica at Raphanea, proclaimed the 14-year-old Elagabalus emperor in 218 at the instigation of his grandmother Julia Maesa of the priestly family of Emesa. Palmyra lay within it until Odaenathus and Zenobia turned the city into an empire.",
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "79.31-34"
+    },
+    {
+     "a": "Herodian",
+     "w": "History",
+     "r": "5.3"
+    }
+   ]
+  },
+  {
+   "id": "prov_hispania_nova_citerior",
+   "name": "Hispania Nova Citerior Antoniniana",
+   "type": "province",
+   "created": 214,
+   "createdNote": "Caracalla, c. 214 (CIL II 2661)",
+   "ended": 235,
+   "endedNote": "reabsorbed into Tarraconensis, probably by c. 235-238",
+   "capital": "legio",
+   "capitalName": "probably Legio (or Asturica Augusta)",
+   "labelLoc": [
+    -6.4,
+    42.6
+   ],
+   "governor": "legatus Augusti pro praetore",
+   "phases": [
+    {
+     "from": 214,
+     "to": 235,
+     "t": "northwestern Spain separated from Tarraconensis by Caracalla"
+    }
+   ],
+   "diocese": null,
+   "prefecture": null,
+   "parent": null,
+   "successors": [
+    "prov_gallaecia"
+   ],
+   "summary": "A short-lived province known from inscriptions of its first legate, C. Iulius Cerealis, carved out of the northwest of Tarraconensis around the mining districts and legio VII Gemina. It was reabsorbed within a generation; Diocletian's Gallaecia revived the idea.",
+   "certainty": "probable",
+   "sources": []
+  },
+  {
+   "id": "prov_caria_et_phrygia",
+   "name": "Caria et Phrygia",
+   "type": "province",
+   "created": 250,
+   "createdNote": "c. 250 (attested under Decius or Valerian)",
+   "ended": 301,
+   "endedNote": "divided under Diocletian into Caria and Phrygia I-II",
+   "capital": "aphrodisias",
+   "capitalName": "Aphrodisias",
+   "labelLoc": [
+    28.8,
+    37.8
+   ],
+   "governor": "praeses (equestrian or senatorial)",
+   "phases": [
+    {
+     "from": 250,
+     "to": 301,
+     "t": "carved out of Asia in the mid-3rd century"
+    }
+   ],
+   "diocese": null,
+   "prefecture": null,
+   "parent": null,
+   "successors": [
+    "prov_caria",
+    "prov_phrygia_pacatiana",
+    "prov_phrygia_salutaris"
+   ],
+   "summary": "A province separated from Asia around 250, known chiefly from inscriptions at Aphrodisias, which became its capital and thereby joined the rank of governors' seats. It was the forerunner of Diocletian's further subdivision of Asia.",
+   "certainty": "probable",
+   "sources": [],
+   "scholarship": [
+    "Roueche, Aphrodisias in Late Antiquity (1989)"
+   ]
+  },
+  {
+   "id": "prov_moesia_macedonia_achaea",
+   "name": "Moesia with Macedonia and Achaea (Tiberian combined command)",
+   "type": "province",
+   "created": 15,
+   "createdNote": "AD 15 (Tacitus, Annales 1.76.2, 1.80)",
+   "ended": 44,
+   "endedNote": "dissolved by Claudius, 44 (Dio 60.24.1)",
+   "capital": null,
+   "capitalName": "no fixed seat known",
+   "labelLoc": [
+    22.8,
+    41.6
+   ],
+   "governor": "one consular legate (C. Poppaeus Sabinus 15-35; P. Memmius Regulus 35-44)",
+   "phases": [
+    {
+     "from": 15,
+     "to": 44,
+     "t": "the senatorial provinces of Macedonia and Achaea placed under the imperial legate of Moesia"
+    }
+   ],
+   "diocese": null,
+   "prefecture": null,
+   "parent": "prov_moesia",
+   "successors": [
+    "prov_macedonia",
+    "prov_achaea"
+   ],
+   "summary": "In AD 15 the Greek provinces asked to be relieved of the expense of proconsuls, and Tiberius put them under the legate of Moesia (Tac. Ann. 1.76.2). Poppaeus Sabinus held the combined command for twenty years until his death in 35, a typical example of Tiberius' long tenures. Claudius returned Macedonia and Achaea to the Senate in 44.",
+   "certainty": "probable",
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Annales",
+     "r": "1.76.2; 1.80; 6.39"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "60.24.1"
+    }
+   ]
+  }
+ ]
+}

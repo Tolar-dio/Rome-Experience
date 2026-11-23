@@ -1,0 +1,3448 @@
+{
+ "tactics": [
+  {
+   "event": "battle_of_cynoscephalae",
+   "title": "Cynoscephalae: the phalanx on broken ground",
+   "terrain": [
+    {
+     "kind": "ridge",
+     "pts": [
+      [
+       6,
+       28
+      ],
+      [
+       24,
+       26
+      ],
+      [
+       44,
+       29
+      ],
+      [
+       62,
+       26
+      ],
+      [
+       80,
+       28
+      ],
+      [
+       96,
+       26
+      ]
+     ],
+     "label": "Cynoscephalae ridge ('Dog's Heads')"
+    },
+    {
+     "kind": "hill",
+     "cx": 30,
+     "cy": 27,
+     "r": 6,
+     "label": "summit"
+    },
+    {
+     "kind": "hill",
+     "cx": 70,
+     "cy": 27,
+     "r": 6,
+     "label": "summit"
+    },
+    {
+     "kind": "camp",
+     "cx": 50,
+     "cy": 57,
+     "r": 3,
+     "label": "Roman camp"
+    }
+   ],
+   "north": 0,
+   "scaleNote": "ridge perhaps 3 km; schematic",
+   "units": [
+    {
+     "id": "m_cover",
+     "side": 1,
+     "label": "Macedonian covering force",
+     "kind": "light",
+     "w": 12,
+     "h": 3
+    },
+    {
+     "id": "m_right",
+     "side": 1,
+     "label": "Philip: right wing of the phalanx (c. 8,000)",
+     "kind": "infantry",
+     "w": 20,
+     "h": 6
+    },
+    {
+     "id": "m_cav",
+     "side": 1,
+     "label": "Thracians, mercenaries, cavalry",
+     "kind": "cavalry",
+     "w": 8,
+     "h": 4
+    },
+    {
+     "id": "m_left",
+     "side": 1,
+     "label": "Nicanor: left wing of the phalanx, still in column",
+     "kind": "infantry",
+     "w": 20,
+     "h": 4
+    },
+    {
+     "id": "r_cover",
+     "side": 0,
+     "label": "Roman covering force (velites, cavalry)",
+     "kind": "light",
+     "w": 12,
+     "h": 3
+    },
+    {
+     "id": "r_aet",
+     "side": 0,
+     "label": "Aetolian cavalry",
+     "kind": "cavalry",
+     "w": 8,
+     "h": 3
+    },
+    {
+     "id": "r_left",
+     "side": 0,
+     "label": "Roman left wing",
+     "kind": "infantry",
+     "w": 18,
+     "h": 5
+    },
+    {
+     "id": "r_right",
+     "side": 0,
+     "label": "Roman right wing (Flamininus)",
+     "kind": "infantry",
+     "w": 18,
+     "h": 5
+    },
+    {
+     "id": "r_el",
+     "side": 0,
+     "label": "Elephants (20)",
+     "kind": "elephants",
+     "w": 8,
+     "h": 3
+    },
+    {
+     "id": "r_trib",
+     "side": 0,
+     "label": "Unnamed tribune with 20 maniples",
+     "kind": "infantry",
+     "w": 10,
+     "h": 3
+    }
+   ],
+   "phases": [
+    {
+     "t": "Collision in the fog",
+     "text": "The armies had been marching on parallel courses either side of a line of hills in Thessaly, out of sight of each other, in rain and fog. Philip sent a covering force to hold the crest of the Cynoscephalae ridge; Flamininus sent cavalry and velites to find the enemy. They collided on the ridge. Polybius (18.21) describes a seesaw skirmish: the Romans were driven back, Flamininus sent the Aetolian cavalry and more infantry, and they in turn pushed the Macedonians to the summit until Philip, against his own judgment, decided to commit the army.",
+     "pos": {
+      "m_cover": [
+       40,
+       28,
+       0
+      ],
+      "m_right": [
+       28,
+       10,
+       0
+      ],
+      "m_cav": [
+       14,
+       14,
+       0
+      ],
+      "m_left": [
+       76,
+       12,
+       70
+      ],
+      "r_cover": [
+       42,
+       33,
+       0
+      ],
+      "r_aet": [
+       52,
+       36,
+       0
+      ],
+      "r_left": [
+       30,
+       47,
+       0
+      ],
+      "r_right": [
+       68,
+       47,
+       0
+      ],
+      "r_el": [
+       68,
+       41,
+       0
+      ],
+      "r_trib": [
+       68,
+       53,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        44,
+        36
+       ],
+       "to": [
+        42,
+        31
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        52,
+        40
+       ],
+       "to": [
+        52,
+        37
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        40,
+        22
+       ],
+       "to": [
+        40,
+        26
+       ],
+       "side": 1
+      }
+     ],
+     "hidden": [
+      "r_trib"
+     ]
+    },
+    {
+     "t": "Philip's right charges downhill",
+     "text": "Philip led the right half of the phalanx, about 8,000 men, onto the ridge, doubled its depth and closed it to the right, and charged down with sarissas levelled. The Roman left could not stand against it on the slope and was driven back. Polybius says that Philip, seeing his success, believed the battle won.",
+     "pos": {
+      "m_cover": [
+       40,
+       28,
+       0
+      ],
+      "m_right": [
+       30,
+       36,
+       0
+      ],
+      "m_cav": [
+       14,
+       34,
+       0
+      ],
+      "m_left": [
+       74,
+       18,
+       40
+      ],
+      "r_cover": [
+       44,
+       50,
+       0
+      ],
+      "r_aet": [
+       56,
+       50,
+       0
+      ],
+      "r_left": [
+       30,
+       44,
+       0
+      ],
+      "r_right": [
+       68,
+       47,
+       0
+      ],
+      "r_el": [
+       68,
+       41,
+       0
+      ],
+      "r_trib": [
+       68,
+       53,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        30,
+        20
+       ],
+       "to": [
+        30,
+        32
+       ],
+       "side": 1
+      },
+      {
+       "from": [
+        30,
+        42
+       ],
+       "to": [
+        30,
+        47
+       ],
+       "side": 0,
+       "kind": "retreat"
+      }
+     ],
+     "hidden": [
+      "r_trib",
+      "m_cover"
+     ]
+    },
+    {
+     "t": "Flamininus strikes the unformed left",
+     "text": "Flamininus saw that his left was losing and rode to his right wing. Facing him, Nicanor's half of the phalanx was still coming over the ridge in column, not yet in line. Flamininus sent the elephants straight at it and followed with the infantry. The Macedonians, caught on the move on uneven ground and unable to form, broke before they could fight.",
+     "pos": {
+      "m_cover": [
+       40,
+       28,
+       0
+      ],
+      "m_right": [
+       30,
+       36,
+       0
+      ],
+      "m_cav": [
+       14,
+       34,
+       0
+      ],
+      "m_left": [
+       72,
+       24,
+       15
+      ],
+      "r_cover": [
+       44,
+       50,
+       0
+      ],
+      "r_aet": [
+       56,
+       50,
+       0
+      ],
+      "r_left": [
+       30,
+       44,
+       0
+      ],
+      "r_right": [
+       72,
+       36,
+       0
+      ],
+      "r_el": [
+       72,
+       30,
+       0
+      ],
+      "r_trib": [
+       68,
+       53,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        68,
+        40
+       ],
+       "to": [
+        72,
+        32
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        72,
+        22
+       ],
+       "to": [
+        76,
+        10
+       ],
+       "side": 1,
+       "kind": "retreat"
+      }
+     ],
+     "hidden": [
+      "r_trib",
+      "m_cover"
+     ]
+    },
+    {
+     "t": "The tribune's twenty maniples",
+     "text": "Polybius (18.26) names no names: one of the tribunes with the victorious right wing took about twenty maniples, turned them, and fell on the rear of Philip's phalanx, which was still pressing the Roman left down the hill. The phalanx could not turn about. Its men raised their sarissas, the Macedonian sign of surrender, but the Romans, not knowing the custom, cut them down. Philip escaped. Polybius gives 8,000 Macedonians killed and 5,000 captured against about 700 Romans, and uses the battle to explain why the phalanx, irresistible on its own ground, fails when the ground or the enemy breaks its order.",
+     "pos": {
+      "m_cover": [
+       40,
+       28,
+       0
+      ],
+      "m_right": [
+       30,
+       38,
+       0
+      ],
+      "m_cav": [
+       14,
+       34,
+       0
+      ],
+      "m_left": [
+       76,
+       6,
+       0
+      ],
+      "r_cover": [
+       44,
+       50,
+       0
+      ],
+      "r_aet": [
+       56,
+       50,
+       0
+      ],
+      "r_left": [
+       30,
+       45,
+       0
+      ],
+      "r_right": [
+       74,
+       16,
+       0
+      ],
+      "r_el": [
+       88,
+       9,
+       0
+      ],
+      "r_trib": [
+       32,
+       31,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        66,
+        30
+       ],
+       "to": [
+        38,
+        31
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        32,
+        33
+       ],
+       "to": [
+        31,
+        35
+       ],
+       "side": 0
+      }
+     ],
+     "hidden": [
+      "m_cover"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "18.18-27"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "33.6-10"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Flamininus",
+     "r": "7-8"
+    }
+   ],
+   "note": "Reconstruction after Polybius 18.19-27 (Livy follows him). The ridge lies in the hills between Pharsalus and Scotussa; Hammond and Pritchett identified slightly different positions. Polybius gives no direction for the armies' approach; the drawing shows the Macedonians coming over the ridge from the north. Unit frontages are schematic.",
+   "scholarship": [
+    "Walbank, A Historical Commentary on Polybius II (1967)",
+    "Hammond, 'The Campaign and the Battle of Cynoscephalae in 197 BC', JHS 108 (1988)"
+   ]
+  },
+  {
+   "event": "battle_of_magnesia",
+   "title": "Magnesia: scythed chariots and cataphracts",
+   "terrain": [
+    {
+     "kind": "river",
+     "pts": [
+      [
+       5,
+       0
+      ],
+      [
+       3,
+       20
+      ],
+      [
+       6,
+       40
+      ],
+      [
+       4,
+       60
+      ]
+     ],
+     "label": "Phrygius (Kumçay)"
+    },
+    {
+     "kind": "town",
+     "cx": 94,
+     "cy": 3,
+     "r": 2,
+     "label": "towards Magnesia ad Sipylum"
+    }
+   ],
+   "north": 0,
+   "scaleNote": "front perhaps 4 km; schematic",
+   "units": [
+    {
+     "id": "r_leg",
+     "side": 0,
+     "label": "Four legions and Latin allies",
+     "kind": "infantry",
+     "w": 34,
+     "h": 6
+    },
+    {
+     "id": "r_lcav",
+     "side": 0,
+     "label": "Four turmae of cavalry",
+     "kind": "cavalry",
+     "w": 6,
+     "h": 3
+    },
+    {
+     "id": "r_eum",
+     "side": 0,
+     "label": "Eumenes II: Pergamene and Roman cavalry",
+     "kind": "cavalry",
+     "w": 12,
+     "h": 4
+    },
+    {
+     "id": "r_light",
+     "side": 0,
+     "label": "Cretan and Trallian light troops, Achaeans",
+     "kind": "light",
+     "w": 14,
+     "h": 2
+    },
+    {
+     "id": "r_el",
+     "side": 0,
+     "label": "African elephants (16) in reserve",
+     "kind": "elephants",
+     "w": 8,
+     "h": 3
+    },
+    {
+     "id": "r_camp",
+     "side": 0,
+     "label": "Roman camp (M. Aemilius)",
+     "kind": "camp",
+     "w": 8,
+     "h": 5
+    },
+    {
+     "id": "s_phal",
+     "side": 1,
+     "label": "Phalanx (16,000, 32 deep) with elephants",
+     "kind": "infantry",
+     "w": 30,
+     "h": 7
+    },
+    {
+     "id": "s_cav_r",
+     "side": 1,
+     "label": "Antiochus: cataphracts and agema",
+     "kind": "cavalry",
+     "w": 12,
+     "h": 5
+    },
+    {
+     "id": "s_inf_r",
+     "side": 1,
+     "label": "Galatian foot, light troops",
+     "kind": "light",
+     "w": 8,
+     "h": 4
+    },
+    {
+     "id": "s_cav_l",
+     "side": 1,
+     "label": "Cataphracts, Galatian and Cappadocian horse",
+     "kind": "cavalry",
+     "w": 12,
+     "h": 5
+    },
+    {
+     "id": "s_camels",
+     "side": 1,
+     "label": "Arab camel archers",
+     "kind": "cavalry",
+     "w": 8,
+     "h": 3
+    },
+    {
+     "id": "s_chariots",
+     "side": 1,
+     "label": "Scythed chariots",
+     "kind": "light",
+     "w": 12,
+     "h": 2
+    }
+   ],
+   "phases": [
+    {
+     "t": "Deployment",
+     "text": "Livy (37.40) gives the Seleucid order in detail. The phalanx of 16,000 stood in ten divisions, 50 men wide and 32 deep, with two elephants in each interval. Antiochus commanded the right with cataphracts and his guard cavalry; on the left stood more cataphracts, Galatian and Cappadocian horse and Arab archers on camels, with scythed chariots in front. Livy and Appian give about 70,000 men. L. Scipio, advised by his brother Africanus who was ill at Elaea, rested his left on the river with only four squadrons of cavalry, kept his 16 African elephants in reserve because they could not face the larger Indian ones, and massed Eumenes' cavalry and the light troops on the right.",
+     "pos": {
+      "r_leg": [
+       46,
+       42,
+       0
+      ],
+      "r_lcav": [
+       24,
+       42,
+       0
+      ],
+      "r_eum": [
+       78,
+       42,
+       0
+      ],
+      "r_light": [
+       78,
+       37,
+       0
+      ],
+      "r_el": [
+       46,
+       51,
+       0
+      ],
+      "r_camp": [
+       12,
+       55,
+       0
+      ],
+      "s_phal": [
+       46,
+       18,
+       0
+      ],
+      "s_cav_r": [
+       20,
+       18,
+       0
+      ],
+      "s_inf_r": [
+       10,
+       24,
+       0
+      ],
+      "s_cav_l": [
+       82,
+       16,
+       0
+      ],
+      "s_camels": [
+       68,
+       20,
+       0
+      ],
+      "s_chariots": [
+       80,
+       24,
+       0
+      ]
+     }
+    },
+    {
+     "t": "The chariots turned back",
+     "text": "It was a damp, misty morning, which Livy says loosened the bowstrings and blurred the long Seleucid line, so that the wings could not see each other. Eumenes sent his Cretan archers, slingers and javelinmen against the scythed chariots. Wounded horses bolted and the chariots swung back into their own left wing, throwing the camels and the cataphracts behind them into confusion.",
+     "pos": {
+      "r_leg": [
+       46,
+       42,
+       0
+      ],
+      "r_lcav": [
+       24,
+       42,
+       0
+      ],
+      "r_eum": [
+       78,
+       42,
+       0
+      ],
+      "r_light": [
+       78,
+       30,
+       0
+      ],
+      "r_el": [
+       46,
+       51,
+       0
+      ],
+      "r_camp": [
+       12,
+       55,
+       0
+      ],
+      "s_phal": [
+       46,
+       18,
+       0
+      ],
+      "s_cav_r": [
+       20,
+       18,
+       0
+      ],
+      "s_inf_r": [
+       10,
+       24,
+       0
+      ],
+      "s_cav_l": [
+       82,
+       16,
+       0
+      ],
+      "s_camels": [
+       68,
+       22,
+       20
+      ],
+      "s_chariots": [
+       88,
+       26,
+       30
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        78,
+        35
+       ],
+       "to": [
+        80,
+        28
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        82,
+        24
+       ],
+       "to": [
+        86,
+        20
+       ],
+       "side": 1,
+       "kind": "retreat"
+      }
+     ]
+    },
+    {
+     "t": "Eumenes breaks the left; Antiochus breaks the right",
+     "text": "Eumenes charged into the disorder and routed the whole Seleucid left. At the other end of the line, Antiochus himself led his cataphracts against the weak Roman left by the river, broke through and chased the fugitives back to the Roman camp. Each army had now lost a wing.",
+     "pos": {
+      "r_leg": [
+       46,
+       42,
+       0
+      ],
+      "r_lcav": [
+       14,
+       49,
+       0
+      ],
+      "r_eum": [
+       80,
+       22,
+       0
+      ],
+      "r_light": [
+       78,
+       30,
+       0
+      ],
+      "r_el": [
+       46,
+       51,
+       0
+      ],
+      "r_camp": [
+       12,
+       55,
+       0
+      ],
+      "s_phal": [
+       46,
+       18,
+       0
+      ],
+      "s_cav_r": [
+       22,
+       48,
+       0
+      ],
+      "s_inf_r": [
+       10,
+       24,
+       0
+      ],
+      "s_cav_l": [
+       90,
+       6,
+       0
+      ],
+      "s_camels": [
+       68,
+       22,
+       20
+      ],
+      "s_chariots": [
+       88,
+       26,
+       30
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        78,
+        38
+       ],
+       "to": [
+        80,
+        25
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        20,
+        22
+       ],
+       "to": [
+        22,
+        45
+       ],
+       "side": 1
+      },
+      {
+       "from": [
+        22,
+        44
+       ],
+       "to": [
+        14,
+        47
+       ],
+       "side": 0,
+       "kind": "retreat"
+      }
+     ],
+     "hidden": [
+      "s_camels",
+      "s_chariots"
+     ]
+    },
+    {
+     "t": "Repulse at the camp; the phalanx destroyed",
+     "text": "At the camp the tribune M. Aemilius Lepidus turned back the fugitives and Attalus, Eumenes' brother, brought cavalry from the right; Antiochus, who had lost time pursuing, withdrew. Meanwhile the phalanx, its flanks bare, formed a square and stood. The legions and Eumenes' cavalry did not charge it but showered it with missiles. The elephants in its intervals panicked and broke the ranks, and the phalanx dissolved. Livy's figure of 50,000 Seleucid foot and 3,000 horse killed against about 350 Romans is surely inflated. At Apamea in 188 Antiochus gave up everything west of the Taurus and agreed to pay 15,000 talents.",
+     "pos": {
+      "r_leg": [
+       46,
+       30,
+       0
+      ],
+      "r_lcav": [
+       24,
+       46,
+       0
+      ],
+      "r_eum": [
+       76,
+       18,
+       0
+      ],
+      "r_light": [
+       74,
+       27,
+       0
+      ],
+      "r_el": [
+       46,
+       40,
+       0
+      ],
+      "r_camp": [
+       12,
+       55,
+       0
+      ],
+      "s_phal": [
+       46,
+       20,
+       0
+      ],
+      "s_cav_r": [
+       10,
+       34,
+       0
+      ],
+      "s_inf_r": [
+       24,
+       28,
+       0
+      ],
+      "s_cav_l": [
+       90,
+       6,
+       0
+      ],
+      "s_camels": [
+       68,
+       22,
+       20
+      ],
+      "s_chariots": [
+       88,
+       26,
+       30
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        22,
+        48
+       ],
+       "to": [
+        12,
+        36
+       ],
+       "side": 1,
+       "kind": "retreat"
+      },
+      {
+       "from": [
+        46,
+        36
+       ],
+       "to": [
+        46,
+        33
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        74,
+        20
+       ],
+       "to": [
+        64,
+        20
+       ],
+       "side": 0
+      }
+     ],
+     "hidden": [
+      "s_camels",
+      "s_chariots"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "37.37-44"
+    },
+    {
+     "a": "Appian",
+     "w": "Syriaca",
+     "r": "30-36"
+    },
+    {
+     "a": "Justin",
+     "w": "Epitome",
+     "r": "31.8"
+    }
+   ],
+   "note": "Reconstruction after Livy 37.38-44, who drew on Polybius' lost account, with Appian. Numbers on both sides are inflated in the sources. The order of the Seleucid wings is clear in outline; the precise placement of minor contingents and of the elephants within the phalanx is schematic.",
+   "scholarship": [
+    "Bar-Kochva, The Seleucid Army (1976)",
+    "Grainger, The Roman War of Antiochos the Great (2002)"
+   ]
+  },
+  {
+   "event": "battle_of_pydna",
+   "title": "Pydna: the phalanx comes apart",
+   "terrain": [
+    {
+     "kind": "river",
+     "pts": [
+      [
+       0,
+       30
+      ],
+      [
+       30,
+       28
+      ],
+      [
+       55,
+       31
+      ],
+      [
+       80,
+       28
+      ],
+      [
+       100,
+       30
+      ]
+     ],
+     "label": "stream between the camps (Leukos?)"
+    },
+    {
+     "kind": "hill",
+     "cx": 50,
+     "cy": 58,
+     "r": 6,
+     "label": "foothills of Olocrus; Roman camp"
+    },
+    {
+     "kind": "camp",
+     "cx": 50,
+     "cy": 3,
+     "r": 3,
+     "label": "Macedonian camp"
+    }
+   ],
+   "north": 0,
+   "scaleNote": "front perhaps 3 km; schematic",
+   "units": [
+    {
+     "id": "m_thr",
+     "side": 1,
+     "label": "Thracians and mercenaries",
+     "kind": "light",
+     "w": 14,
+     "h": 4
+    },
+    {
+     "id": "m_ph1",
+     "side": 1,
+     "label": "Phalanx, first division",
+     "kind": "infantry",
+     "w": 18,
+     "h": 6
+    },
+    {
+     "id": "m_ph2",
+     "side": 1,
+     "label": "Phalanx, second division",
+     "kind": "infantry",
+     "w": 18,
+     "h": 6
+    },
+    {
+     "id": "m_left",
+     "side": 1,
+     "label": "Macedonian left: light troops and allies",
+     "kind": "light",
+     "w": 12,
+     "h": 4
+    },
+    {
+     "id": "m_cav",
+     "side": 1,
+     "label": "Perseus' cavalry",
+     "kind": "cavalry",
+     "w": 8,
+     "h": 4
+    },
+    {
+     "id": "r_pel",
+     "side": 0,
+     "label": "Paeligni and Marrucini",
+     "kind": "infantry",
+     "w": 12,
+     "h": 4
+    },
+    {
+     "id": "r_leg1",
+     "side": 0,
+     "label": "Legion",
+     "kind": "infantry",
+     "w": 14,
+     "h": 5
+    },
+    {
+     "id": "r_leg2",
+     "side": 0,
+     "label": "Legion",
+     "kind": "infantry",
+     "w": 14,
+     "h": 5
+    },
+    {
+     "id": "r_lat",
+     "side": 0,
+     "label": "Latin allies",
+     "kind": "infantry",
+     "w": 10,
+     "h": 4
+    },
+    {
+     "id": "r_el",
+     "side": 0,
+     "label": "Elephants",
+     "kind": "elephants",
+     "w": 6,
+     "h": 3
+    }
+   ],
+   "phases": [
+    {
+     "t": "A skirmish at the stream",
+     "text": "The night before, a lunar eclipse had been predicted to the troops by the military tribune C. Sulpicius Gallus (21 June 168 by the Julian calendar). The next afternoon a fight began at the stream between the camps, by tradition over a runaway pack animal. Plutarch (Aemilius 18) says Thracians and other light troops were first into the fight, and Perseus, rather than call it off, brought out his whole army about the ninth hour.",
+     "pos": {
+      "m_thr": [
+       24,
+       16,
+       0
+      ],
+      "m_ph1": [
+       44,
+       16,
+       0
+      ],
+      "m_ph2": [
+       64,
+       16,
+       0
+      ],
+      "m_left": [
+       82,
+       16,
+       0
+      ],
+      "m_cav": [
+       94,
+       10,
+       0
+      ],
+      "r_pel": [
+       30,
+       46,
+       0
+      ],
+      "r_leg1": [
+       48,
+       46,
+       0
+      ],
+      "r_leg2": [
+       66,
+       46,
+       0
+      ],
+      "r_lat": [
+       84,
+       46,
+       0
+      ],
+      "r_el": [
+       84,
+       40,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        30,
+        20
+       ],
+       "to": [
+        30,
+        27
+       ],
+       "side": 1
+      },
+      {
+       "from": [
+        30,
+        42
+       ],
+       "to": [
+        30,
+        33
+       ],
+       "side": 0
+      }
+     ]
+    },
+    {
+     "t": "The phalanx crosses the plain",
+     "text": "The phalanx came on fast and in good order. Plutarch quotes Aemilius saying later that it was the most terrifying sight he had ever seen. The Paeligni and Marrucini met it first: their commander Salvius threw a standard into the enemy ranks, and his men tried to hack at the sarissas or push them aside, but were skewered or driven back. The whole Roman front gave ground towards the hill.",
+     "pos": {
+      "m_thr": [
+       24,
+       34,
+       0
+      ],
+      "m_ph1": [
+       44,
+       34,
+       0
+      ],
+      "m_ph2": [
+       64,
+       34,
+       0
+      ],
+      "m_left": [
+       82,
+       34,
+       0
+      ],
+      "m_cav": [
+       94,
+       10,
+       0
+      ],
+      "r_pel": [
+       30,
+       44,
+       0
+      ],
+      "r_leg1": [
+       48,
+       44,
+       0
+      ],
+      "r_leg2": [
+       66,
+       44,
+       0
+      ],
+      "r_lat": [
+       84,
+       44,
+       0
+      ],
+      "r_el": [
+       84,
+       39,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        44,
+        20
+       ],
+       "to": [
+        44,
+        30
+       ],
+       "side": 1
+      },
+      {
+       "from": [
+        64,
+        20
+       ],
+       "to": [
+        64,
+        30
+       ],
+       "side": 1
+      },
+      {
+       "from": [
+        30,
+        42
+       ],
+       "to": [
+        30,
+        48
+       ],
+       "side": 0,
+       "kind": "retreat"
+      }
+     ]
+    },
+    {
+     "t": "Gaps open; the maniples go in",
+     "text": "As the phalanx advanced over uneven ground and the Romans fell back unevenly, its line began to bend and break into sections, opening gaps. Aemilius ordered his maniples to go for every gap and get in among the pikemen, where the long sarissa was useless against the sword. On the Roman right the elephants and Latin allies drove back the Macedonian left.",
+     "pos": {
+      "m_thr": [
+       24,
+       34,
+       0
+      ],
+      "m_ph1": [
+       42,
+       36,
+       -6
+      ],
+      "m_ph2": [
+       66,
+       35,
+       8
+      ],
+      "m_left": [
+       84,
+       24,
+       0
+      ],
+      "m_cav": [
+       94,
+       10,
+       0
+      ],
+      "r_pel": [
+       30,
+       44,
+       0
+      ],
+      "r_leg1": [
+       54,
+       38,
+       0
+      ],
+      "r_leg2": [
+       66,
+       42,
+       0
+      ],
+      "r_lat": [
+       84,
+       36,
+       0
+      ],
+      "r_el": [
+       84,
+       30,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        54,
+        44
+       ],
+       "to": [
+        54,
+        40
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        84,
+        36
+       ],
+       "to": [
+        84,
+        32
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        84,
+        22
+       ],
+       "to": [
+        86,
+        14
+       ],
+       "side": 1,
+       "kind": "retreat"
+      }
+     ]
+    },
+    {
+     "t": "Collapse",
+     "text": "Once broken up, the phalanx was massacred. Perseus' cavalry left the field almost unhurt, and the king fled to Pella and then Samothrace, where he surrendered. Plutarch and Livy give about 20,000 Macedonians killed and 11,000 captured; P. Scipio Nasica, who fought in the battle and is quoted by Plutarch, put Roman losses at about 100. The battle is said to have lasted less than an hour. The kingdom was divided into four republics in 167, and Perseus walked in Aemilius' triumph.",
+     "pos": {
+      "m_thr": [
+       22,
+       16,
+       0
+      ],
+      "m_ph1": [
+       40,
+       18,
+       0
+      ],
+      "m_ph2": [
+       64,
+       16,
+       0
+      ],
+      "m_left": [
+       78,
+       8,
+       0
+      ],
+      "m_cav": [
+       96,
+       4,
+       0
+      ],
+      "r_pel": [
+       28,
+       28,
+       0
+      ],
+      "r_leg1": [
+       46,
+       26,
+       0
+      ],
+      "r_leg2": [
+       66,
+       26,
+       0
+      ],
+      "r_lat": [
+       84,
+       22,
+       0
+      ],
+      "r_el": [
+       88,
+       16,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        46,
+        30
+       ],
+       "to": [
+        44,
+        22
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        92,
+        10
+       ],
+       "to": [
+        98,
+        4
+       ],
+       "side": 1,
+       "kind": "retreat"
+      }
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "a": "Plutarch",
+     "w": "Aemilius Paullus",
+     "r": "16-22"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab Urbe Condita",
+     "r": "44.36-42"
+    },
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "29.17"
+    },
+    {
+     "a": "Frontinus",
+     "w": "Strategemata",
+     "r": "2.3.20"
+    }
+   ],
+   "note": "Livy's narrative breaks off in a lacuna at the climax; Plutarch, using Nasica and Polybius, is the main source. The order of the Macedonian line beyond the two phalanx divisions is uncertain and is labelled generically here. The site on the plain south of Pydna (near Katerini) and the stream are after Hammond; positions are schematic.",
+   "scholarship": [
+    "Hammond, 'The Battle of Pydna', JHS 104 (1984)",
+    "Walbank, A Historical Commentary on Polybius III (1979)"
+   ]
+  },
+  {
+   "event": "battle_of_aquae_sextiae",
+   "title": "Aquae Sextiae: two days and an ambush",
+   "terrain": [
+    {
+     "kind": "hill",
+     "cx": 50,
+     "cy": 9,
+     "r": 10,
+     "label": "Marius' hill"
+    },
+    {
+     "kind": "river",
+     "pts": [
+      [
+       0,
+       52
+      ],
+      [
+       30,
+       54
+      ],
+      [
+       60,
+       51
+      ],
+      [
+       100,
+       54
+      ]
+     ],
+     "label": "Arc"
+    },
+    {
+     "kind": "forest",
+     "pts": [
+      [
+       84,
+       30
+      ],
+      [
+       100,
+       28
+      ],
+      [
+       100,
+       50
+      ],
+      [
+       86,
+       48
+      ]
+     ],
+     "label": "wooded ravines"
+    }
+   ],
+   "north": 0,
+   "scaleNote": "ground perhaps 5 km across; schematic",
+   "units": [
+    {
+     "id": "r_leg",
+     "side": 0,
+     "label": "Marius' legions",
+     "kind": "infantry",
+     "w": 26,
+     "h": 5
+    },
+    {
+     "id": "r_camp",
+     "side": 0,
+     "label": "Roman camp",
+     "kind": "camp",
+     "w": 12,
+     "h": 4
+    },
+    {
+     "id": "r_lig",
+     "side": 0,
+     "label": "Ligurian auxiliaries",
+     "kind": "infantry",
+     "w": 10,
+     "h": 4
+    },
+    {
+     "id": "r_cav",
+     "side": 0,
+     "label": "Roman cavalry",
+     "kind": "cavalry",
+     "w": 8,
+     "h": 3
+    },
+    {
+     "id": "r_marc",
+     "side": 0,
+     "label": "Claudius Marcellus: 3,000 men",
+     "kind": "infantry",
+     "w": 8,
+     "h": 4
+    },
+    {
+     "id": "t_amb",
+     "side": 1,
+     "label": "Ambrones",
+     "kind": "infantry",
+     "w": 18,
+     "h": 5
+    },
+    {
+     "id": "t_teut",
+     "side": 1,
+     "label": "Teutones",
+     "kind": "infantry",
+     "w": 34,
+     "h": 7
+    },
+    {
+     "id": "t_wagons",
+     "side": 1,
+     "label": "Wagons",
+     "kind": "baggage",
+     "w": 16,
+     "h": 3
+    }
+   ],
+   "phases": [
+    {
+     "t": "Day one: the Ambrones at the river",
+     "text": "Marius had refused battle while the Teutones and Ambrones marched past his fortified camp on the Rhône towards Italy, then followed them and camped on a hill near Aquae Sextiae, with poor water. Plutarch (Marius 19) says the fight started when Roman servants went down to the river for water and met Ambrones bathing and eating. The Ambrones, about 30,000, came on in disorder across the stream. The Ligurians attacked them first as they crossed, and the Romans came down from the heights to join in. The Ambrones were cut to pieces at the river and pursued to their wagons, where their women fought with swords and axes.",
+     "pos": {
+      "r_leg": [
+       50,
+       14,
+       0
+      ],
+      "r_camp": [
+       50,
+       5,
+       0
+      ],
+      "r_lig": [
+       30,
+       40,
+       0
+      ],
+      "r_cav": [
+       66,
+       22,
+       0
+      ],
+      "r_marc": [
+       88,
+       40,
+       0
+      ],
+      "t_amb": [
+       30,
+       50,
+       0
+      ],
+      "t_teut": [
+       50,
+       46,
+       0
+      ],
+      "t_wagons": [
+       14,
+       57,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        30,
+        36
+       ],
+       "to": [
+        30,
+        46
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        44,
+        18
+       ],
+       "to": [
+        36,
+        36
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        30,
+        52
+       ],
+       "to": [
+        18,
+        56
+       ],
+       "side": 1,
+       "kind": "retreat"
+      }
+     ],
+     "hidden": [
+      "r_marc",
+      "t_teut"
+     ]
+    },
+    {
+     "t": "Day two: Marcellus sent into the woods",
+     "text": "The Romans spent an anxious night on their hill, which had no rampart, listening to the Teutones lament. Next day Marius sent Claudius Marcellus with 3,000 men to hide in the wooded ravines above the enemy's line of approach, with orders to attack the rear once the battle was joined. He posted the main army on the hill and sent his cavalry down onto the plain to provoke the Teutones.",
+     "pos": {
+      "r_leg": [
+       50,
+       18,
+       0
+      ],
+      "r_camp": [
+       50,
+       5,
+       0
+      ],
+      "r_lig": [
+       30,
+       40,
+       0
+      ],
+      "r_cav": [
+       50,
+       30,
+       0
+      ],
+      "r_marc": [
+       92,
+       40,
+       0
+      ],
+      "t_amb": [
+       30,
+       50,
+       0
+      ],
+      "t_teut": [
+       50,
+       42,
+       0
+      ],
+      "t_wagons": [
+       14,
+       57,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        60,
+        14
+       ],
+       "to": [
+        90,
+        36
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        50,
+        26
+       ],
+       "to": [
+        50,
+        32
+       ],
+       "side": 0
+      }
+     ],
+     "hidden": [
+      "t_amb",
+      "r_lig"
+     ]
+    },
+    {
+     "t": "The charge up the hill",
+     "text": "The Teutones charged uphill. Marius had told his men to stand, throw their pila at close range, and then shove the enemy back with their shields while the enemy footing was bad. Plutarch says the Teutones, finding the slope against them, were pushed back step by step to the level ground.",
+     "pos": {
+      "r_leg": [
+       50,
+       23,
+       0
+      ],
+      "r_camp": [
+       50,
+       5,
+       0
+      ],
+      "r_lig": [
+       30,
+       40,
+       0
+      ],
+      "r_cav": [
+       74,
+       22,
+       0
+      ],
+      "r_marc": [
+       92,
+       40,
+       0
+      ],
+      "t_amb": [
+       30,
+       50,
+       0
+      ],
+      "t_teut": [
+       50,
+       30,
+       0
+      ],
+      "t_wagons": [
+       14,
+       57,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        50,
+        38
+       ],
+       "to": [
+        50,
+        32
+       ],
+       "side": 1
+      },
+      {
+       "from": [
+        50,
+        25
+       ],
+       "to": [
+        50,
+        28
+       ],
+       "side": 0
+      }
+     ],
+     "hidden": [
+      "t_amb",
+      "r_lig"
+     ]
+    },
+    {
+     "t": "Marcellus in the rear",
+     "text": "As the Teutones were forming again on the plain, Marcellus' men burst out of the ravines behind them with a shout. Attacked front and rear, they broke. Plutarch gives more than 100,000 killed or captured, Livy's epitome 200,000 killed and 90,000 captured; these figures are not credible, but the Teutones ceased to exist as a people. The people of Massilia were said to have fenced their vineyards with the bones. Marius was consul for the fifth time the next year.",
+     "pos": {
+      "r_leg": [
+       48,
+       30,
+       0
+      ],
+      "r_camp": [
+       50,
+       5,
+       0
+      ],
+      "r_lig": [
+       30,
+       40,
+       0
+      ],
+      "r_cav": [
+       74,
+       34,
+       0
+      ],
+      "r_marc": [
+       64,
+       46,
+       0
+      ],
+      "t_amb": [
+       30,
+       50,
+       0
+      ],
+      "t_teut": [
+       48,
+       38,
+       0
+      ],
+      "t_wagons": [
+       14,
+       57,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        88,
+        42
+       ],
+       "to": [
+        68,
+        46
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        50,
+        33
+       ],
+       "to": [
+        50,
+        35
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        40,
+        40
+       ],
+       "to": [
+        22,
+        52
+       ],
+       "side": 1,
+       "kind": "retreat"
+      }
+     ],
+     "hidden": [
+      "t_amb",
+      "r_lig"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "a": "Plutarch",
+     "w": "Marius",
+     "r": "15-21"
+    },
+    {
+     "a": "Livy",
+     "w": "Periochae",
+     "r": "68"
+    },
+    {
+     "a": "Velleius Paterculus",
+     "w": "Roman History",
+     "r": "2.12.4"
+    },
+    {
+     "a": "Frontinus",
+     "w": "Strategemata",
+     "r": "2.4.6"
+    }
+   ],
+   "note": "Plutarch's narrative is vivid but topographically vague. The site east of Aix-en-Provence (Pourrières and the Arc valley, below Mont Sainte-Victoire) is traditional. The two days are shown in one frame; the position of Marcellus' ambush and of the wagons is inferred. Ancient enemy numbers are impossible.",
+   "scholarship": [
+    "Evans, Gaius Marius: A Political Biography (1994)"
+   ]
+  },
+  {
+   "event": "battle_of_vercellae",
+   "title": "Vercellae (Campi Raudii): heat, dust and the laager",
+   "terrain": [
+    {
+     "kind": "plain",
+     "pts": [
+      [
+       0,
+       0
+      ],
+      [
+       100,
+       0
+      ],
+      [
+       100,
+       60
+      ],
+      [
+       0,
+       60
+      ]
+     ],
+     "label": "Raudine Plain"
+    }
+   ],
+   "north": 90,
+   "scaleNote": "front perhaps 5 km; schematic",
+   "units": [
+    {
+     "id": "r_mar_l",
+     "side": 0,
+     "label": "Marius: wing (c. 16,000)",
+     "kind": "infantry",
+     "w": 22,
+     "h": 5
+    },
+    {
+     "id": "r_cat",
+     "side": 0,
+     "label": "Catulus and Sulla: centre (20,300)",
+     "kind": "infantry",
+     "w": 24,
+     "h": 6
+    },
+    {
+     "id": "r_mar_r",
+     "side": 0,
+     "label": "Marius: wing (c. 16,000)",
+     "kind": "infantry",
+     "w": 22,
+     "h": 5
+    },
+    {
+     "id": "r_cav",
+     "side": 0,
+     "label": "Roman cavalry",
+     "kind": "cavalry",
+     "w": 10,
+     "h": 3
+    },
+    {
+     "id": "c_inf",
+     "side": 1,
+     "label": "Cimbric infantry in a great square",
+     "kind": "infantry",
+     "w": 40,
+     "h": 12
+    },
+    {
+     "id": "c_cav",
+     "side": 1,
+     "label": "Cimbric cavalry (15,000)",
+     "kind": "cavalry",
+     "w": 14,
+     "h": 4
+    },
+    {
+     "id": "c_wagons",
+     "side": 1,
+     "label": "Wagon laager with the women",
+     "kind": "baggage",
+     "w": 40,
+     "h": 4
+    }
+   ],
+   "phases": [
+    {
+     "t": "Deployment",
+     "text": "The Cimbri, who had crossed the Brenner and wintered in the Po valley, asked Marius to fix a day and place to fight for the land of Italy; he chose the Raudine Plain near Vercellae for the end of July 101. Plutarch (Marius 25), using the memoirs of Sulla and Catulus, says Marius put Catulus' 20,300 men in the centre and divided his own 32,000 between the wings. The Cimbric infantry formed a square said to be 30 stades on each side, with the front ranks linked by chains; their 15,000 cavalry wore helmets shaped like the jaws of beasts and carried white shields. Marius had arranged the army so the Cimbri faced into the morning sun.",
+     "pos": {
+      "r_mar_l": [
+       16,
+       44,
+       0
+      ],
+      "r_cat": [
+       50,
+       44,
+       0
+      ],
+      "r_mar_r": [
+       84,
+       44,
+       0
+      ],
+      "r_cav": [
+       50,
+       52,
+       0
+      ],
+      "c_inf": [
+       50,
+       16,
+       0
+      ],
+      "c_cav": [
+       22,
+       26,
+       0
+      ],
+      "c_wagons": [
+       50,
+       3,
+       0
+      ]
+     }
+    },
+    {
+     "t": "The cavalry feint and the dust",
+     "text": "The Cimbric cavalry did not charge straight but swung away to its right, to draw the Romans on between itself and the infantry. Plutarch says the generals saw the trick but could not stop the men, who shouted that the enemy was running. A huge cloud of dust rose. Marius' wings, advancing, lost sight of the enemy in it and marched on across the plain for a long time without finding anyone.",
+     "pos": {
+      "r_mar_l": [
+       20,
+       36,
+       20
+      ],
+      "r_cat": [
+       50,
+       44,
+       0
+      ],
+      "r_mar_r": [
+       84,
+       34,
+       -20
+      ],
+      "r_cav": [
+       50,
+       52,
+       0
+      ],
+      "c_inf": [
+       50,
+       22,
+       0
+      ],
+      "c_cav": [
+       8,
+       32,
+       0
+      ],
+      "c_wagons": [
+       50,
+       3,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        22,
+        28
+       ],
+       "to": [
+        10,
+        32
+       ],
+       "side": 1
+      },
+      {
+       "from": [
+        16,
+        40
+       ],
+       "to": [
+        18,
+        38
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        84,
+        40
+       ],
+       "to": [
+        86,
+        36
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        50,
+        20
+       ],
+       "to": [
+        50,
+        26
+       ],
+       "side": 1
+      }
+     ]
+    },
+    {
+     "t": "The battle falls on Catulus",
+     "text": "The main Cimbric mass met Catulus' centre. Sulla, who served with Catulus, made sure posterity knew it. Plutarch says the Cimbri, northerners who could stand cold but not heat, sweated and held their shields over their faces against the sun of a summer noon, and that the Romans, fit and hardened, did not see the size of the enemy until they were already at close quarters because of the dust.",
+     "pos": {
+      "r_mar_l": [
+       11,
+       18,
+       40
+      ],
+      "r_cat": [
+       50,
+       42,
+       0
+      ],
+      "r_mar_r": [
+       89,
+       18,
+       -30
+      ],
+      "r_cav": [
+       50,
+       52,
+       0
+      ],
+      "c_inf": [
+       50,
+       30,
+       0
+      ],
+      "c_cav": [
+       6,
+       46,
+       90
+      ],
+      "c_wagons": [
+       50,
+       3,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        50,
+        26
+       ],
+       "to": [
+        50,
+        34
+       ],
+       "side": 1
+      },
+      {
+       "from": [
+        18,
+        30
+       ],
+       "to": [
+        12,
+        24
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        84,
+        28
+       ],
+       "to": [
+        88,
+        24
+       ],
+       "side": 0
+      }
+     ]
+    },
+    {
+     "t": "Rout to the wagons",
+     "text": "The Cimbri broke and fled to their laager. There, Plutarch says, the women in black killed fugitives, including their own husbands and fathers, strangled their children and then themselves; one hanged herself from a wagon pole with a child at each ankle. He gives 120,000 dead and 60,000 captured. The credit was disputed at once: Catulus' men said the spoils and the standards brought to their camp proved the victory was theirs. Both generals triumphed together, but the people called Marius the third founder of Rome.",
+     "pos": {
+      "r_mar_l": [
+       20,
+       18,
+       0
+      ],
+      "r_cat": [
+       50,
+       26,
+       0
+      ],
+      "r_mar_r": [
+       80,
+       18,
+       0
+      ],
+      "r_cav": [
+       50,
+       34,
+       0
+      ],
+      "c_inf": [
+       50,
+       12,
+       0
+      ],
+      "c_cav": [
+       6,
+       52,
+       90
+      ],
+      "c_wagons": [
+       50,
+       3,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        50,
+        30
+       ],
+       "to": [
+        50,
+        20
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        14,
+        24
+       ],
+       "to": [
+        24,
+        18
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        86,
+        24
+       ],
+       "to": [
+        76,
+        18
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        50,
+        14
+       ],
+       "to": [
+        50,
+        8
+       ],
+       "side": 1,
+       "kind": "retreat"
+      }
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "a": "Plutarch",
+     "w": "Marius",
+     "r": "24-27"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Sulla",
+     "r": "4"
+    },
+    {
+     "a": "Velleius Paterculus",
+     "w": "Roman History",
+     "r": "2.12.5"
+    },
+    {
+     "a": "Florus",
+     "w": "Epitome",
+     "r": "1.38.14-18"
+    },
+    {
+     "a": "Orosius",
+     "w": "Histories against the Pagans",
+     "r": "5.16.14-21"
+    }
+   ],
+   "note": "Plutarch's account depends on the memoirs of Catulus and Sulla, both hostile to Marius, which explains the stress on the centre. The site (Campi Raudii) is probably near Vercelli but has also been placed near Rovigo in the eastern Po plain. The drawing is rotated: the Romans face west, so north is to the right. Positions are schematic and the enemy numbers impossible.",
+   "scholarship": [
+    "Evans, Gaius Marius: A Political Biography (1994)"
+   ]
+  },
+  {
+   "event": "battle_of_chaeronea_86",
+   "title": "Chaeronea: stakes, ditches and chariots",
+   "terrain": [
+    {
+     "kind": "hill",
+     "cx": 12,
+     "cy": 30,
+     "r": 7,
+     "label": "Thurium"
+    },
+    {
+     "kind": "river",
+     "pts": [
+      [
+       40,
+       0
+      ],
+      [
+       70,
+       4
+      ],
+      [
+       100,
+       2
+      ]
+     ],
+     "label": "Cephissus"
+    },
+    {
+     "kind": "ditch",
+     "pts": [
+      [
+       19,
+       38
+      ],
+      [
+       19,
+       58
+      ]
+     ],
+     "label": "Sulla's flank ditch"
+    },
+    {
+     "kind": "ditch",
+     "pts": [
+      [
+       88,
+       38
+      ],
+      [
+       88,
+       58
+      ]
+     ],
+     "label": "Sulla's flank ditch"
+    },
+    {
+     "kind": "stakes",
+     "pts": [
+      [
+       38,
+       39
+      ],
+      [
+       62,
+       39
+      ]
+     ],
+     "label": "stakes in front of the centre"
+    },
+    {
+     "kind": "town",
+     "cx": 6,
+     "cy": 56,
+     "r": 2,
+     "label": "Chaeronea"
+    }
+   ],
+   "north": 0,
+   "scaleNote": "front perhaps 2 km; schematic",
+   "units": [
+    {
+     "id": "r_mur",
+     "side": 0,
+     "label": "Murena (left)",
+     "kind": "infantry",
+     "w": 16,
+     "h": 5
+    },
+    {
+     "id": "r_centre",
+     "side": 0,
+     "label": "Legions (centre)",
+     "kind": "infantry",
+     "w": 18,
+     "h": 5
+    },
+    {
+     "id": "r_sulla",
+     "side": 0,
+     "label": "Right wing legions",
+     "kind": "infantry",
+     "w": 14,
+     "h": 5
+    },
+    {
+     "id": "r_cav",
+     "side": 0,
+     "label": "Sulla with the cavalry",
+     "kind": "cavalry",
+     "w": 6,
+     "h": 3
+    },
+    {
+     "id": "r_hort",
+     "side": 0,
+     "label": "Hortensius' cohorts on the heights",
+     "kind": "reserve",
+     "w": 8,
+     "h": 3
+    },
+    {
+     "id": "r_thur",
+     "side": 0,
+     "label": "Detachment guided by two Chaeroneans",
+     "kind": "light",
+     "w": 6,
+     "h": 3
+    },
+    {
+     "id": "p_thur",
+     "side": 1,
+     "label": "Pontic troops on Thurium",
+     "kind": "light",
+     "w": 8,
+     "h": 3
+    },
+    {
+     "id": "p_char",
+     "side": 1,
+     "label": "Scythed chariots",
+     "kind": "light",
+     "w": 30,
+     "h": 2
+    },
+    {
+     "id": "p_phal",
+     "side": 1,
+     "label": "Phalanx, with freed slaves in front",
+     "kind": "infantry",
+     "w": 36,
+     "h": 6
+    },
+    {
+     "id": "p_cav_r",
+     "side": 1,
+     "label": "Archelaus' cavalry (right)",
+     "kind": "cavalry",
+     "w": 10,
+     "h": 4
+    },
+    {
+     "id": "p_left",
+     "side": 1,
+     "label": "Pontic left wing",
+     "kind": "infantry",
+     "w": 14,
+     "h": 5
+    }
+   ],
+   "phases": [
+    {
+     "t": "Thurium cleared",
+     "text": "Sulla had dug ditches on both flanks of his position to stop the far larger Pontic army (Plutarch gives 120,000, modern estimates around 60,000) from enveloping his fewer than 15,000 foot and 1,500 horse, and planted stakes in front of his centre. Archelaus had posted a detachment on the height of Thurium. Two men of Chaeronea led a Roman detachment by a hidden path above it; attacked from above, the Pontic troops fled down the slope, colliding with their own army and losing about 3,000 men.",
+     "pos": {
+      "r_mur": [
+       28,
+       44,
+       0
+      ],
+      "r_centre": [
+       50,
+       44,
+       0
+      ],
+      "r_sulla": [
+       74,
+       44,
+       0
+      ],
+      "r_cav": [
+       84,
+       50,
+       0
+      ],
+      "r_hort": [
+       10,
+       48,
+       0
+      ],
+      "r_thur": [
+       6,
+       22,
+       0
+      ],
+      "p_thur": [
+       12,
+       30,
+       0
+      ],
+      "p_char": [
+       50,
+       30,
+       0
+      ],
+      "p_phal": [
+       50,
+       18,
+       0
+      ],
+      "p_cav_r": [
+       20,
+       16,
+       0
+      ],
+      "p_left": [
+       80,
+       18,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        6,
+        24
+       ],
+       "to": [
+        10,
+        28
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        14,
+        30
+       ],
+       "to": [
+        24,
+        22
+       ],
+       "side": 1,
+       "kind": "retreat"
+      }
+     ]
+    },
+    {
+     "t": "The chariots",
+     "text": "Archelaus sent in his scythed chariots, about 60 of them, while the panic from Thurium was still spreading. The distance between the lines was too short for them to build up speed. Plutarch says the Romans' front ranks stepped back behind the stakes, the chariots crashed into them, and the soldiers laughed and called for more, as spectators did at the races in the Circus.",
+     "pos": {
+      "r_mur": [
+       28,
+       44,
+       0
+      ],
+      "r_centre": [
+       50,
+       44,
+       0
+      ],
+      "r_sulla": [
+       74,
+       44,
+       0
+      ],
+      "r_cav": [
+       84,
+       50,
+       0
+      ],
+      "r_hort": [
+       10,
+       48,
+       0
+      ],
+      "r_thur": [
+       8,
+       36,
+       0
+      ],
+      "p_thur": [
+       12,
+       30,
+       0
+      ],
+      "p_char": [
+       50,
+       37,
+       0
+      ],
+      "p_phal": [
+       50,
+       18,
+       0
+      ],
+      "p_cav_r": [
+       20,
+       16,
+       0
+      ],
+      "p_left": [
+       80,
+       18,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        50,
+        31
+       ],
+       "to": [
+        50,
+        36
+       ],
+       "side": 1
+      }
+     ],
+     "hidden": [
+      "p_thur"
+     ]
+    },
+    {
+     "t": "Phalanx against legions; the threat to the left",
+     "text": "The phalanx came on, with freed slaves (Plutarch says 15,000) in its front ranks, and was received by the legions behind the stakes. Archelaus extended his right to envelop the Roman left, and his cavalry attacked Hortensius' cohorts as they came down from the heights. Sulla rode across from the right wing with his cavalry and drove them off, which drew Archelaus to shift troops from his own left.",
+     "pos": {
+      "r_mur": [
+       28,
+       44,
+       0
+      ],
+      "r_centre": [
+       50,
+       44,
+       0
+      ],
+      "r_sulla": [
+       74,
+       44,
+       0
+      ],
+      "r_cav": [
+       16,
+       54,
+       0
+      ],
+      "r_hort": [
+       12,
+       46,
+       0
+      ],
+      "r_thur": [
+       8,
+       36,
+       0
+      ],
+      "p_thur": [
+       12,
+       30,
+       0
+      ],
+      "p_char": [
+       50,
+       37,
+       0
+      ],
+      "p_phal": [
+       50,
+       36,
+       0
+      ],
+      "p_cav_r": [
+       10,
+       38,
+       0
+      ],
+      "p_left": [
+       80,
+       18,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        20,
+        18
+       ],
+       "to": [
+        10,
+        34
+       ],
+       "side": 1
+      },
+      {
+       "from": [
+        84,
+        52
+       ],
+       "to": [
+        20,
+        54
+       ],
+       "side": 0
+      }
+     ],
+     "hidden": [
+      "p_thur",
+      "p_char",
+      "r_thur"
+     ]
+    },
+    {
+     "t": "Sulla breaks the Pontic left",
+     "text": "Sulla rode back to the right, where his wing, now facing a weakened enemy, attacked and broke the Pontic left. The rout spread along the line. Archelaus' camp was overrun; Plutarch says only 10,000 of his army reached Chalcis. Sulla claimed that only 14 or 15 of his men were missing, two of whom turned up that evening. He set up trophies; Plutarch says the one on Thurium named the two Chaeroneans, Homoloichus and Anaxidamus, and remains of a Sullan trophy were found near Chaeronea in 1990.",
+     "pos": {
+      "r_mur": [
+       28,
+       32,
+       0
+      ],
+      "r_centre": [
+       50,
+       30,
+       0
+      ],
+      "r_sulla": [
+       80,
+       28,
+       0
+      ],
+      "r_cav": [
+       92,
+       24,
+       0
+      ],
+      "r_hort": [
+       12,
+       40,
+       0
+      ],
+      "r_thur": [
+       8,
+       36,
+       0
+      ],
+      "p_thur": [
+       12,
+       30,
+       0
+      ],
+      "p_char": [
+       50,
+       37,
+       0
+      ],
+      "p_phal": [
+       50,
+       20,
+       0
+      ],
+      "p_cav_r": [
+       10,
+       26,
+       0
+      ],
+      "p_left": [
+       84,
+       10,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        22,
+        54
+       ],
+       "to": [
+        88,
+        30
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        80,
+        36
+       ],
+       "to": [
+        80,
+        31
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        84,
+        14
+       ],
+       "to": [
+        90,
+        6
+       ],
+       "side": 1,
+       "kind": "retreat"
+      }
+     ],
+     "hidden": [
+      "p_thur",
+      "p_char",
+      "r_thur"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "a": "Plutarch",
+     "w": "Sulla",
+     "r": "16-19"
+    },
+    {
+     "a": "Appian",
+     "w": "Mithridatica",
+     "r": "42-45"
+    },
+    {
+     "a": "Frontinus",
+     "w": "Strategemata",
+     "r": "2.3.17"
+    },
+    {
+     "a": "Pausanias",
+     "w": "Description of Greece",
+     "r": "9.40.7"
+    }
+   ],
+   "note": "Plutarch drew on Sulla's own memoirs, which minimise Roman losses and enlarge the enemy. The terrain between Thurium and the Cephissus is identified, but the exact lines are not; the ditches and stakes follow Plutarch and Frontinus. The trophy remains found in 1990 (Camp et al., AJA 1992) support the topography of the Thurium episode.",
+   "scholarship": [
+    "Keaveney, Sulla: The Last Republican (2nd ed. 2005)",
+    "Camp, Ierardi, McInerney, Morgan and Umholtz, 'A Trophy from the Battle of Chaironeia of 86 BC', AJA 96 (1992)"
+   ]
+  },
+  {
+   "event": "battle_of_orchomenus",
+   "title": "Orchomenus: trenches into the marsh",
+   "terrain": [
+    {
+     "kind": "marsh",
+     "pts": [
+      [
+       40,
+       60
+      ],
+      [
+       55,
+       50
+      ],
+      [
+       75,
+       46
+      ],
+      [
+       92,
+       40
+      ],
+      [
+       100,
+       30
+      ],
+      [
+       100,
+       60
+      ]
+     ],
+     "label": "marshes of Lake Copais"
+    },
+    {
+     "kind": "town",
+     "cx": 8,
+     "cy": 6,
+     "r": 3,
+     "label": "Orchomenus"
+    },
+    {
+     "kind": "river",
+     "pts": [
+      [
+       0,
+       14
+      ],
+      [
+       30,
+       20
+      ],
+      [
+       60,
+       30
+      ],
+      [
+       90,
+       40
+      ]
+     ],
+     "label": "Melas / Cephissus channels"
+    },
+    {
+     "kind": "ditch",
+     "pts": [
+      [
+       22,
+       30
+      ],
+      [
+       40,
+       40
+      ],
+      [
+       56,
+       50
+      ]
+     ],
+     "label": "Sulla's trenches"
+    },
+    {
+     "kind": "ditch",
+     "pts": [
+      [
+       40,
+       8
+      ],
+      [
+       62,
+       18
+      ],
+      [
+       80,
+       30
+      ]
+     ],
+     "label": "Sulla's trenches"
+    }
+   ],
+   "north": 0,
+   "scaleNote": "ground perhaps 5 km across; schematic",
+   "units": [
+    {
+     "id": "r_dig",
+     "side": 0,
+     "label": "Roman working parties and legions",
+     "kind": "infantry",
+     "w": 20,
+     "h": 4
+    },
+    {
+     "id": "r_sulla",
+     "side": 0,
+     "label": "Sulla with his guard",
+     "kind": "infantry",
+     "w": 5,
+     "h": 3
+    },
+    {
+     "id": "r_res",
+     "side": 0,
+     "label": "Cohorts from the right wing",
+     "kind": "reserve",
+     "w": 10,
+     "h": 3
+    },
+    {
+     "id": "r_cav",
+     "side": 0,
+     "label": "Roman cavalry",
+     "kind": "cavalry",
+     "w": 8,
+     "h": 3
+    },
+    {
+     "id": "p_cav",
+     "side": 1,
+     "label": "Pontic cavalry (c. 10,000)",
+     "kind": "cavalry",
+     "w": 22,
+     "h": 5
+    },
+    {
+     "id": "p_inf",
+     "side": 1,
+     "label": "Pontic infantry and archers",
+     "kind": "infantry",
+     "w": 20,
+     "h": 5
+    },
+    {
+     "id": "p_camp",
+     "side": 1,
+     "label": "Archelaus' camp",
+     "kind": "camp",
+     "w": 14,
+     "h": 6
+    }
+   ],
+   "phases": [
+    {
+     "t": "Digging",
+     "text": "Archelaus, reinforced from Asia with perhaps 80,000 men, chose the flat ground near Orchomenus where his cavalry could work. Sulla's answer was the spade: he dug trenches out across the plain to cut it up and push the enemy back onto the marshes of Lake Copais. Archelaus attacked the working parties with his cavalry.",
+     "pos": {
+      "r_dig": [
+       38,
+       30,
+       0
+      ],
+      "r_sulla": [
+       22,
+       38,
+       0
+      ],
+      "r_res": [
+       18,
+       46,
+       0
+      ],
+      "r_cav": [
+       24,
+       20,
+       0
+      ],
+      "p_cav": [
+       66,
+       22,
+       0
+      ],
+      "p_inf": [
+       70,
+       34,
+       0
+      ],
+      "p_camp": [
+       82,
+       46,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        60,
+        24
+       ],
+       "to": [
+        46,
+        28
+       ],
+       "side": 1
+      }
+     ]
+    },
+    {
+     "t": "Panic and the general's standard",
+     "text": "The diggers and the troops covering them broke and ran. Plutarch (Sulla 21) says Sulla leapt from his horse, snatched a standard and pushed through the fugitives towards the enemy shouting: 'For me it is a noble thing to die here; but you, when you are asked where you betrayed your general, remember to say: at Orchomenus.'",
+     "pos": {
+      "r_dig": [
+       24,
+       30,
+       0
+      ],
+      "r_sulla": [
+       40,
+       28,
+       0
+      ],
+      "r_res": [
+       18,
+       46,
+       0
+      ],
+      "r_cav": [
+       24,
+       20,
+       0
+      ],
+      "p_cav": [
+       50,
+       24,
+       0
+      ],
+      "p_inf": [
+       70,
+       34,
+       0
+      ],
+      "p_camp": [
+       82,
+       46,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        38,
+        30
+       ],
+       "to": [
+        26,
+        30
+       ],
+       "side": 0,
+       "kind": "retreat"
+      },
+      {
+       "from": [
+        26,
+        36
+       ],
+       "to": [
+        38,
+        29
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        60,
+        24
+       ],
+       "to": [
+        52,
+        24
+       ],
+       "side": 1
+      }
+     ]
+    },
+    {
+     "t": "The rally",
+     "text": "Shamed, the men turned back. Two cohorts from the right wing came up, and the Pontic cavalry was driven off with loss; Archelaus' stepson Diogenes fell fighting bravely, and the Pontic archers, pressed too close to draw their bows, used their arrows as daggers. The Pontic army withdrew to its camp by the marsh.",
+     "pos": {
+      "r_dig": [
+       44,
+       30,
+       0
+      ],
+      "r_sulla": [
+       48,
+       26,
+       0
+      ],
+      "r_res": [
+       40,
+       36,
+       0
+      ],
+      "r_cav": [
+       44,
+       20,
+       0
+      ],
+      "p_cav": [
+       72,
+       22,
+       0
+      ],
+      "p_inf": [
+       74,
+       36,
+       0
+      ],
+      "p_camp": [
+       82,
+       46,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        20,
+        44
+       ],
+       "to": [
+        38,
+        37
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        50,
+        24
+       ],
+       "to": [
+        64,
+        22
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        60,
+        22
+       ],
+       "to": [
+        70,
+        22
+       ],
+       "side": 1,
+       "kind": "retreat"
+      }
+     ]
+    },
+    {
+     "t": "The camp stormed",
+     "text": "Next day Sulla carried his trenches right round the Pontic camp and stormed it. Many of the defenders were driven into the marshes and the lake and killed or drowned. Plutarch says that almost 200 years later bows, helmets, pieces of iron armour and swords were still being found in the mud. Archelaus hid in the marsh for two days and escaped to Chalcis; within months he was negotiating with Sulla at Delium, leading to the Peace of Dardanus in 85.",
+     "pos": {
+      "r_dig": [
+       66,
+       38,
+       0
+      ],
+      "r_sulla": [
+       62,
+       44,
+       0
+      ],
+      "r_res": [
+       72,
+       30,
+       0
+      ],
+      "r_cav": [
+       58,
+       24,
+       0
+      ],
+      "p_cav": [
+       86,
+       14,
+       0
+      ],
+      "p_inf": [
+       88,
+       54,
+       0
+      ],
+      "p_camp": [
+       82,
+       46,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        56,
+        34
+       ],
+       "to": [
+        70,
+        42
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        82,
+        49
+       ],
+       "to": [
+        88,
+        52
+       ],
+       "side": 1,
+       "kind": "retreat"
+      }
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "a": "Plutarch",
+     "w": "Sulla",
+     "r": "20-21"
+    },
+    {
+     "a": "Appian",
+     "w": "Mithridatica",
+     "r": "49-50"
+    },
+    {
+     "a": "Frontinus",
+     "w": "Strategemata",
+     "r": "2.8.12"
+    }
+   ],
+   "note": "The topography of the Copais basin has been transformed by drainage since the 1880s, so the line of Sulla's trenches and the camp positions are conjectural. The narrative follows Plutarch (from Sulla's memoirs) and Appian; Pontic numbers are inflated.",
+   "scholarship": [
+    "Keaveney, Sulla: The Last Republican (2nd ed. 2005)"
+   ]
+  }
+ ]
+}

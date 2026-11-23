@@ -1,0 +1,2169 @@
+{
+ "tactics": [
+  {
+   "event": "battle_of_philippi_second",
+   "title": "Second Philippi: Brutus' line rolled up",
+   "terrain": [
+    {
+     "kind": "marsh",
+     "pts": [
+      [
+       0,
+       48
+      ],
+      [
+       40,
+       46
+      ],
+      [
+       70,
+       48
+      ],
+      [
+       100,
+       46
+      ],
+      [
+       100,
+       60
+      ],
+      [
+       0,
+       60
+      ]
+     ],
+     "label": "marsh"
+    },
+    {
+     "kind": "ridge",
+     "pts": [
+      [
+       0,
+       4
+      ],
+      [
+       40,
+       6
+      ],
+      [
+       70,
+       3
+      ],
+      [
+       100,
+       6
+      ]
+     ],
+     "label": "foothills"
+    },
+    {
+     "kind": "road",
+     "pts": [
+      [
+       0,
+       26
+      ],
+      [
+       50,
+       26
+      ],
+      [
+       100,
+       25
+      ]
+     ],
+     "label": "Via Egnatia"
+    },
+    {
+     "kind": "town",
+     "cx": 96,
+     "cy": 20,
+     "r": 2.5,
+     "label": "Philippi"
+    },
+    {
+     "kind": "wall",
+     "pts": [
+      [
+       76,
+       8
+      ],
+      [
+       76,
+       30
+      ],
+      [
+       80,
+       46
+      ]
+     ],
+     "label": "Brutus' extended line of forts"
+    }
+   ],
+   "north": 0,
+   "scaleNote": "ground c. 6 km across; schematic",
+   "units": [
+    {
+     "id": "t_oct",
+     "side": 0,
+     "label": "Octavian's legions",
+     "kind": "infantry",
+     "w": 14,
+     "h": 5
+    },
+    {
+     "id": "t_ant",
+     "side": 0,
+     "label": "Antony's legions",
+     "kind": "infantry",
+     "w": 14,
+     "h": 5
+    },
+    {
+     "id": "t_flank",
+     "side": 0,
+     "label": "Antony's flanking legions",
+     "kind": "infantry",
+     "w": 8,
+     "h": 4
+    },
+    {
+     "id": "r_bn",
+     "side": 1,
+     "label": "Brutus' own wing",
+     "kind": "infantry",
+     "w": 14,
+     "h": 5
+    },
+    {
+     "id": "r_bs",
+     "side": 1,
+     "label": "Brutus' southern wing",
+     "kind": "infantry",
+     "w": 14,
+     "h": 5
+    },
+    {
+     "id": "r_camp",
+     "side": 1,
+     "label": "Brutus' camp",
+     "kind": "camp",
+     "w": 8,
+     "h": 6
+    },
+    {
+     "id": "r_reserve",
+     "side": 1,
+     "label": "Cassius' former legions",
+     "kind": "reserve",
+     "w": 8,
+     "h": 4
+    }
+   ],
+   "phases": [
+    {
+     "t": "Three weeks of waiting",
+     "text": "After the first battle Brutus held the strong position, with the fleet supplying him; the triumvirs, short of food in an autumn plain, needed a decision. Antony pushed troops south and east past Cassius' old camp to threaten Brutus' communications, and Brutus extended his line of forts southward to match. Plutarch and Appian say Brutus' officers and Cassius' former soldiers, restless and unwilling to be thought afraid, forced him to offer battle on 23 October 42, which was exactly what his enemies wanted.",
+     "pos": {
+      "t_oct": [
+       52,
+       16,
+       90
+      ],
+      "t_ant": [
+       52,
+       36,
+       90
+      ],
+      "t_flank": [
+       64,
+       52,
+       0
+      ],
+      "r_bn": [
+       70,
+       16,
+       90
+      ],
+      "r_bs": [
+       72,
+       36,
+       90
+      ],
+      "r_camp": [
+       86,
+       16,
+       0
+      ],
+      "r_reserve": [
+       86,
+       36,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        54,
+        50
+       ],
+       "to": [
+        64,
+        52
+       ],
+       "side": 0
+      }
+     ]
+    },
+    {
+     "t": "Brutus' wing advances; the other is outflanked",
+     "text": "Brutus led his own wing forward and drove back the troops opposite. Plutarch says the other wing, stretched thin to avoid being outflanked, was taken in the flank by Antony's men and broken, and that this happened because Cassius' veterans did not fight with conviction.",
+     "pos": {
+      "t_oct": [
+       50,
+       16,
+       90
+      ],
+      "t_ant": [
+       62,
+       36,
+       90
+      ],
+      "t_flank": [
+       78,
+       50,
+       0
+      ],
+      "r_bn": [
+       60,
+       16,
+       90
+      ],
+      "r_bs": [
+       68,
+       36,
+       90
+      ],
+      "r_camp": [
+       86,
+       16,
+       0
+      ],
+      "r_reserve": [
+       86,
+       36,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        72,
+        16
+       ],
+       "to": [
+        62,
+        16
+       ],
+       "side": 1
+      },
+      {
+       "from": [
+        66,
+        50
+       ],
+       "to": [
+        76,
+        46
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        54,
+        36
+       ],
+       "to": [
+        60,
+        36
+       ],
+       "side": 0
+      }
+     ]
+    },
+    {
+     "t": "The line pushed back to the gates",
+     "text": "Appian describes Octavian's legions pressing Brutus' centre back step by step 'like men moving a heavy machine', until the line broke. The triumvirs' troops seized the gates of Brutus' camp, cutting the fugitives off from it.",
+     "pos": {
+      "t_oct": [
+       62,
+       16,
+       90
+      ],
+      "t_ant": [
+       74,
+       36,
+       90
+      ],
+      "t_flank": [
+       86,
+       46,
+       0
+      ],
+      "r_bn": [
+       70,
+       16,
+       90
+      ],
+      "r_bs": [
+       82,
+       34,
+       90
+      ],
+      "r_camp": [
+       86,
+       16,
+       0
+      ],
+      "r_reserve": [
+       92,
+       26,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        54,
+        16
+       ],
+       "to": [
+        60,
+        16
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        76,
+        34
+       ],
+       "to": [
+        80,
+        34
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        70,
+        20
+       ],
+       "to": [
+        82,
+        22
+       ],
+       "side": 0
+      }
+     ]
+    },
+    {
+     "t": "Brutus' death",
+     "text": "Brutus escaped to the hills with about four legions' worth of men, but they would not try another battle. That night he killed himself, according to Plutarch with the help of his friend Strato of Aegeae. About 14,000 of his men surrendered and were enrolled in the triumvirs' armies. Plutarch says Antony covered the body with his own purple cloak. With Brutus and Cassius dead, organised republican resistance on land ended; Antony took the East, Octavian the task of settling veterans in Italy.",
+     "pos": {
+      "t_oct": [
+       76,
+       16,
+       90
+      ],
+      "t_ant": [
+       80,
+       32,
+       90
+      ],
+      "t_flank": [
+       90,
+       46,
+       0
+      ],
+      "r_bn": [
+       90,
+       8,
+       0
+      ],
+      "r_bs": [
+       96,
+       26,
+       90
+      ],
+      "r_camp": [
+       86,
+       16,
+       0
+      ],
+      "r_reserve": [
+       92,
+       26,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        78,
+        14
+       ],
+       "to": [
+        88,
+        9
+       ],
+       "side": 1,
+       "kind": "retreat"
+      }
+     ],
+     "hidden": [
+      "r_reserve"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "a": "Appian",
+     "w": "Civil Wars",
+     "r": "4.121-131"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Brutus",
+     "r": "47-53"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "47.47-49"
+    },
+    {
+     "a": "Velleius Paterculus",
+     "w": "Roman History",
+     "r": "2.70"
+    }
+   ],
+   "note": "The second battle is described in outline only, and the extended line of forts is placed schematically. Plutarch and Appian disagree on the decisive point: Plutarch stresses the collapse of Brutus' outflanked wing, Appian the frontal push of Octavian's legions. Both are shown.",
+   "scholarship": [
+    "Collart, Philippes, ville de Macédoine (1937)",
+    "Pelling, Plutarch: Life of Antony (1988)"
+   ]
+  },
+  {
+   "event": "battle_of_dara",
+   "title": "Dara: Belisarius' ditch",
+   "terrain": [
+    {
+     "kind": "ditch",
+     "pts": [
+      [
+       4,
+       34
+      ],
+      [
+       40,
+       34
+      ],
+      [
+       40,
+       42
+      ],
+      [
+       60,
+       42
+      ],
+      [
+       60,
+       34
+      ],
+      [
+       96,
+       34
+      ]
+     ],
+     "label": "Belisarius' ditch, with crossings"
+    },
+    {
+     "kind": "hill",
+     "cx": 7,
+     "cy": 25,
+     "r": 5,
+     "label": "hill on the left"
+    },
+    {
+     "kind": "town",
+     "cx": 50,
+     "cy": 58,
+     "r": 3,
+     "label": "Dara (Anastasiopolis)"
+    }
+   ],
+   "north": 0,
+   "scaleNote": "front perhaps 2.5 km; schematic",
+   "units": [
+    {
+     "id": "r_bouzes",
+     "side": 0,
+     "label": "Bouzes: cavalry (left)",
+     "kind": "cavalry",
+     "w": 14,
+     "h": 3
+    },
+    {
+     "id": "r_heruli",
+     "side": 0,
+     "label": "Pharas: 300 Heruli",
+     "kind": "cavalry",
+     "w": 5,
+     "h": 3
+    },
+    {
+     "id": "r_hun_l",
+     "side": 0,
+     "label": "Sunicas and Aigan: 600 Huns",
+     "kind": "cavalry",
+     "w": 8,
+     "h": 3
+    },
+    {
+     "id": "r_inf",
+     "side": 0,
+     "label": "Infantry behind the central ditch",
+     "kind": "infantry",
+     "w": 20,
+     "h": 3
+    },
+    {
+     "id": "r_bel",
+     "side": 0,
+     "label": "Belisarius and Hermogenes with the bucellarii",
+     "kind": "reserve",
+     "w": 10,
+     "h": 3
+    },
+    {
+     "id": "r_hun_r",
+     "side": 0,
+     "label": "Simmas and Ascan: 600 Huns",
+     "kind": "cavalry",
+     "w": 8,
+     "h": 3
+    },
+    {
+     "id": "r_right",
+     "side": 0,
+     "label": "John son of Nicetas and others: cavalry (right)",
+     "kind": "cavalry",
+     "w": 18,
+     "h": 3
+    },
+    {
+     "id": "p_right",
+     "side": 1,
+     "label": "Pityaxes: Persian right",
+     "kind": "cavalry",
+     "w": 18,
+     "h": 5
+    },
+    {
+     "id": "p_centre",
+     "side": 1,
+     "label": "Perozes (the mirranes): centre",
+     "kind": "cavalry",
+     "w": 20,
+     "h": 5
+    },
+    {
+     "id": "p_left",
+     "side": 1,
+     "label": "Baresmanes with the Immortals (left)",
+     "kind": "cavalry",
+     "w": 18,
+     "h": 5
+    },
+    {
+     "id": "p_second",
+     "side": 1,
+     "label": "Second line, relieving the first",
+     "kind": "reserve",
+     "w": 30,
+     "h": 3
+    }
+   ],
+   "phases": [
+    {
+     "t": "The ditch",
+     "text": "Belisarius, still under 30 and newly magister militum per Orientem, faced a Persian army that Procopius (Wars 1.13-14), his secretary and an eyewitness, puts at 40,000 and then 50,000, with about 25,000 Romans. He dug a ditch in front of Dara with several crossings: a central stretch set back, with cross-trenches at right angles at each end running forward to two straight wing ditches. The infantry stood behind the central ditch; the cavalry stood behind the wings; two bodies of 600 Huns waited in the angles, where they could strike sideways at any enemy who attacked either wing. On the first day there was only skirmishing and two single combats won by Andreas, a wrestling instructor from Byzantium.",
+     "pos": {
+      "r_bouzes": [
+       20,
+       38,
+       0
+      ],
+      "r_heruli": [
+       6,
+       31,
+       0
+      ],
+      "r_hun_l": [
+       33,
+       38,
+       0
+      ],
+      "r_inf": [
+       50,
+       46,
+       0
+      ],
+      "r_bel": [
+       50,
+       51,
+       0
+      ],
+      "r_hun_r": [
+       67,
+       38,
+       0
+      ],
+      "r_right": [
+       82,
+       38,
+       0
+      ],
+      "p_right": [
+       24,
+       14,
+       0
+      ],
+      "p_centre": [
+       50,
+       12,
+       0
+      ],
+      "p_left": [
+       76,
+       14,
+       0
+      ],
+      "p_second": [
+       50,
+       4,
+       0
+      ]
+     }
+    },
+    {
+     "t": "The Persian right is caught",
+     "text": "On the second day, after the morning exchange of archery, the Persian right attacked Bouzes' cavalry, who gave ground. Pharas' 300 Heruli, posted at their own suggestion behind the hill on the left, came out and fell on the Persian rear, and Sunicas and Aigan's Huns charged in from the angle. The Persian right broke and lost about 3,000 men.",
+     "pos": {
+      "r_bouzes": [
+       20,
+       42,
+       0
+      ],
+      "r_heruli": [
+       12,
+       20,
+       0
+      ],
+      "r_hun_l": [
+       30,
+       32,
+       70
+      ],
+      "r_inf": [
+       50,
+       46,
+       0
+      ],
+      "r_bel": [
+       50,
+       51,
+       0
+      ],
+      "r_hun_r": [
+       67,
+       38,
+       0
+      ],
+      "r_right": [
+       82,
+       38,
+       0
+      ],
+      "p_right": [
+       22,
+       28,
+       0
+      ],
+      "p_centre": [
+       50,
+       12,
+       0
+      ],
+      "p_left": [
+       76,
+       14,
+       0
+      ],
+      "p_second": [
+       50,
+       4,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        24,
+        18
+       ],
+       "to": [
+        22,
+        25
+       ],
+       "side": 1
+      },
+      {
+       "from": [
+        6,
+        28
+       ],
+       "to": [
+        10,
+        21
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        12,
+        20
+       ],
+       "to": [
+        18,
+        25
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        33,
+        36
+       ],
+       "to": [
+        30,
+        31
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        22,
+        24
+       ],
+       "to": [
+        16,
+        10
+       ],
+       "side": 1,
+       "kind": "retreat"
+      }
+     ]
+    },
+    {
+     "t": "The Immortals on the left",
+     "text": "The mirranes had secretly moved the Immortals to his left. Baresmanes led them with the Persian left against John's cavalry, which could not hold and fell back.",
+     "pos": {
+      "r_bouzes": [
+       20,
+       38,
+       0
+      ],
+      "r_heruli": [
+       8,
+       18,
+       0
+      ],
+      "r_hun_l": [
+       30,
+       32,
+       70
+      ],
+      "r_inf": [
+       50,
+       46,
+       0
+      ],
+      "r_bel": [
+       50,
+       51,
+       0
+      ],
+      "r_hun_r": [
+       67,
+       38,
+       0
+      ],
+      "r_right": [
+       82,
+       44,
+       0
+      ],
+      "p_right": [
+       16,
+       8,
+       0
+      ],
+      "p_centre": [
+       50,
+       12,
+       0
+      ],
+      "p_left": [
+       78,
+       32,
+       0
+      ],
+      "p_second": [
+       50,
+       4,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        76,
+        18
+       ],
+       "to": [
+        78,
+        29
+       ],
+       "side": 1
+      },
+      {
+       "from": [
+        82,
+        41
+       ],
+       "to": [
+        82,
+        46
+       ],
+       "side": 0,
+       "kind": "retreat"
+      }
+     ]
+    },
+    {
+     "t": "The Persian left cut in two",
+     "text": "Belisarius and Hermogenes now sent Sunicas and Aigan's Huns across from the left angle to join Simmas and Ascan, together with many of Belisarius' own guardsmen, and threw them at the flank of the advancing Persian left. It was cut in two. Sunicas killed Baresmanes' standard-bearer and then Baresmanes himself, and 5,000 Persians died. The Roman commanders stopped the pursuit short, fearing a rally. Procopius notes that it was the first Persian defeat in battle in a long time.",
+     "pos": {
+      "r_bouzes": [
+       20,
+       38,
+       0
+      ],
+      "r_heruli": [
+       8,
+       18,
+       0
+      ],
+      "r_hun_l": [
+       64,
+       30,
+       0
+      ],
+      "r_inf": [
+       50,
+       46,
+       0
+      ],
+      "r_bel": [
+       67,
+       46,
+       0
+      ],
+      "r_hun_r": [
+       70,
+       34,
+       70
+      ],
+      "r_right": [
+       84,
+       40,
+       0
+      ],
+      "p_right": [
+       16,
+       8,
+       0
+      ],
+      "p_centre": [
+       50,
+       8,
+       0
+      ],
+      "p_left": [
+       82,
+       26,
+       0
+      ],
+      "p_second": [
+       50,
+       3,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        34,
+        37
+       ],
+       "to": [
+        62,
+        30
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        67,
+        36
+       ],
+       "to": [
+        74,
+        30
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        67,
+        44
+       ],
+       "to": [
+        68,
+        38
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        82,
+        24
+       ],
+       "to": [
+        88,
+        10
+       ],
+       "side": 1,
+       "kind": "retreat"
+      }
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "1.13.9-1.14.55"
+    },
+    {
+     "a": "Zachariah of Mytilene (Ps.-)",
+     "w": "Chronicle",
+     "r": "9.3"
+    },
+    {
+     "a": "John Malalas",
+     "w": "Chronicle",
+     "r": "18.50"
+    }
+   ],
+   "note": "Procopius' description of the ditch is precise but has been drawn in several ways; this reconstruction (after Haldon and Greatrex) puts the wing ditches forward of the centre. Where the hill stood relative to the ditch is not stated. Unit sizes are schematic; Persian numbers are probably inflated.",
+   "scholarship": [
+    "Greatrex, Rome and Persia at War, 502-532 (1998)",
+    "Haldon, The Byzantine Wars (2001)"
+   ]
+  },
+  {
+   "event": "battle_of_taginae",
+   "title": "Busta Gallorum: the crescent of archers",
+   "terrain": [
+    {
+     "kind": "hill",
+     "cx": 14,
+     "cy": 30,
+     "r": 5,
+     "label": "small hill on the Roman left"
+    },
+    {
+     "kind": "plain",
+     "pts": [
+      [
+       0,
+       0
+      ],
+      [
+       100,
+       0
+      ],
+      [
+       100,
+       60
+      ],
+      [
+       0,
+       60
+      ]
+     ],
+     "label": "plain of Busta Gallorum (Apennines near Gualdo Tadino)"
+    }
+   ],
+   "north": 0,
+   "scaleNote": "front perhaps 2 km; schematic",
+   "units": [
+    {
+     "id": "r_centre",
+     "side": 0,
+     "label": "Dismounted Lombards, Heruli and other federates",
+     "kind": "infantry",
+     "w": 20,
+     "h": 5
+    },
+    {
+     "id": "r_arch_l",
+     "side": 0,
+     "label": "4,000 foot archers",
+     "kind": "archers",
+     "w": 15,
+     "h": 3
+    },
+    {
+     "id": "r_arch_r",
+     "side": 0,
+     "label": "4,000 foot archers",
+     "kind": "archers",
+     "w": 15,
+     "h": 3
+    },
+    {
+     "id": "r_left",
+     "side": 0,
+     "label": "Narses and John: picked Roman troops",
+     "kind": "infantry",
+     "w": 10,
+     "h": 4
+    },
+    {
+     "id": "r_right",
+     "side": 0,
+     "label": "Valerian, John the Glutton, Dagisthaeus",
+     "kind": "infantry",
+     "w": 12,
+     "h": 4
+    },
+    {
+     "id": "r_cav500",
+     "side": 0,
+     "label": "500 horse to support any wing",
+     "kind": "cavalry",
+     "w": 6,
+     "h": 3
+    },
+    {
+     "id": "r_cav1000",
+     "side": 0,
+     "label": "1,000 horse to strike the Gothic rear",
+     "kind": "cavalry",
+     "w": 8,
+     "h": 3
+    },
+    {
+     "id": "r_hill",
+     "side": 0,
+     "label": "50 infantry on the hill",
+     "kind": "light",
+     "w": 4,
+     "h": 2
+    },
+    {
+     "id": "g_cav",
+     "side": 1,
+     "label": "Gothic cavalry",
+     "kind": "cavalry",
+     "w": 40,
+     "h": 4
+    },
+    {
+     "id": "g_inf",
+     "side": 1,
+     "label": "Gothic infantry",
+     "kind": "infantry",
+     "w": 40,
+     "h": 4
+    },
+    {
+     "id": "g_hill",
+     "side": 1,
+     "label": "Gothic cavalry attacking the hill",
+     "kind": "cavalry",
+     "w": 8,
+     "h": 3
+    },
+    {
+     "id": "g_teias",
+     "side": 1,
+     "label": "2,000 Gothic horse arriving",
+     "kind": "cavalry",
+     "w": 8,
+     "h": 3
+    }
+   ],
+   "phases": [
+    {
+     "t": "Deployment and the hill",
+     "text": "Narses, with an army of perhaps 20,000-30,000 including 5,500 Lombards and 3,000 Heruli, met Totila on the plain of Busta Gallorum in the Apennines. Procopius (Wars 8.31) describes his order: the Lombards, Heruli and other barbarians dismounted in the centre, so that they could not easily run away; Roman troops on the wings, with Narses and John on the left; 4,000 foot archers at each end of the line, angled forward in a crescent. On the far left, 1,500 horsemen: 500 to help any part of the line in trouble, 1,000 to get behind the Gothic infantry once it engaged. Before the battle 50 Roman infantry occupied a small hill on the left; Gothic cavalry charged them again and again, and the 50, packed shield to shield and rattling their weapons to frighten the horses, held.",
+     "pos": {
+      "r_centre": [
+       50,
+       44,
+       0
+      ],
+      "r_arch_l": [
+       30,
+       40,
+       23
+      ],
+      "r_arch_r": [
+       70,
+       40,
+       -23
+      ],
+      "r_left": [
+       16,
+       44,
+       0
+      ],
+      "r_right": [
+       86,
+       44,
+       0
+      ],
+      "r_cav500": [
+       14,
+       52,
+       0
+      ],
+      "r_cav1000": [
+       5,
+       52,
+       0
+      ],
+      "r_hill": [
+       14,
+       30,
+       0
+      ],
+      "g_cav": [
+       50,
+       20,
+       0
+      ],
+      "g_inf": [
+       50,
+       12,
+       0
+      ],
+      "g_hill": [
+       20,
+       25,
+       0
+      ],
+      "g_teias": [
+       92,
+       4,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        22,
+        22
+       ],
+       "to": [
+        16,
+        28
+       ],
+       "side": 1
+      }
+     ],
+     "hidden": [
+      "g_teias"
+     ]
+    },
+    {
+     "t": "Totila plays for time",
+     "text": "Totila was waiting for 2,000 horsemen under Teias. To delay, he rode out alone between the armies in gilded armour with purple streamers, and performed a display of horsemanship, throwing his lance in the air and catching it, wheeling his horse. Procopius notes that the Romans had eaten while standing in their ranks; the Goths went back to their camp for a meal when the reinforcements arrived, and Totila changed into the armour of an ordinary soldier.",
+     "pos": {
+      "r_centre": [
+       50,
+       44,
+       0
+      ],
+      "r_arch_l": [
+       30,
+       40,
+       23
+      ],
+      "r_arch_r": [
+       70,
+       40,
+       -23
+      ],
+      "r_left": [
+       16,
+       44,
+       0
+      ],
+      "r_right": [
+       86,
+       44,
+       0
+      ],
+      "r_cav500": [
+       14,
+       52,
+       0
+      ],
+      "r_cav1000": [
+       5,
+       52,
+       0
+      ],
+      "r_hill": [
+       14,
+       30,
+       0
+      ],
+      "g_cav": [
+       50,
+       20,
+       0
+      ],
+      "g_inf": [
+       50,
+       12,
+       0
+      ],
+      "g_hill": [
+       28,
+       16,
+       0
+      ],
+      "g_teias": [
+       80,
+       6,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        92,
+        4
+       ],
+       "to": [
+        82,
+        6
+       ],
+       "side": 1
+      },
+      {
+       "from": [
+        20,
+        25
+       ],
+       "to": [
+        26,
+        18
+       ],
+       "side": 1,
+       "kind": "retreat"
+      }
+     ]
+    },
+    {
+     "t": "Lance charge into the crossfire",
+     "text": "Totila had ordered his men to fight with the lance alone, without bows or other weapons. The Gothic cavalry charged straight at the Roman centre, leaving its infantry behind, and rode into the crescent: the archers on both wings shot into its flanks. Procopius says the Goths lost many men and horses before they even reached the Roman line, and could not break the dismounted federates.",
+     "pos": {
+      "r_centre": [
+       50,
+       44,
+       0
+      ],
+      "r_arch_l": [
+       30,
+       40,
+       23
+      ],
+      "r_arch_r": [
+       70,
+       40,
+       -23
+      ],
+      "r_left": [
+       16,
+       44,
+       0
+      ],
+      "r_right": [
+       86,
+       44,
+       0
+      ],
+      "r_cav500": [
+       14,
+       52,
+       0
+      ],
+      "r_cav1000": [
+       5,
+       52,
+       0
+      ],
+      "r_hill": [
+       14,
+       30,
+       0
+      ],
+      "g_cav": [
+       50,
+       36,
+       0
+      ],
+      "g_inf": [
+       50,
+       12,
+       0
+      ],
+      "g_hill": [
+       28,
+       16,
+       0
+      ],
+      "g_teias": [
+       80,
+       10,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        50,
+        22
+       ],
+       "to": [
+        50,
+        33
+       ],
+       "side": 1
+      },
+      {
+       "from": [
+        32,
+        38
+       ],
+       "to": [
+        42,
+        36
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        68,
+        38
+       ],
+       "to": [
+        58,
+        36
+       ],
+       "side": 0
+      }
+     ],
+     "hidden": [
+      "g_hill"
+     ]
+    },
+    {
+     "t": "Recoil and rout",
+     "text": "Late in the day the Gothic cavalry broke and fell back onto its own infantry, which was carried away in the flight. The Roman line advanced and the 1,000 horsemen worked round behind. About 6,000 Goths died. Totila escaped with a few companions but was overtaken and mortally wounded by the Gepid Asbad, and died at Caprae; Procopius also records a version in which he was hit by an arrow early in the battle. Narses had the Lombards, who burned houses and raped women on the way, sent home with an escort. Teias, elected king, was killed at Mons Lactarius in October.",
+     "pos": {
+      "r_centre": [
+       50,
+       30,
+       0
+      ],
+      "r_arch_l": [
+       30,
+       28,
+       23
+      ],
+      "r_arch_r": [
+       70,
+       28,
+       -23
+      ],
+      "r_left": [
+       16,
+       30,
+       0
+      ],
+      "r_right": [
+       86,
+       30,
+       0
+      ],
+      "r_cav500": [
+       16,
+       20,
+       0
+      ],
+      "r_cav1000": [
+       10,
+       8,
+       0
+      ],
+      "r_hill": [
+       14,
+       30,
+       0
+      ],
+      "g_cav": [
+       50,
+       14,
+       0
+      ],
+      "g_inf": [
+       50,
+       8,
+       0
+      ],
+      "g_hill": [
+       28,
+       16,
+       0
+      ],
+      "g_teias": [
+       70,
+       4,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        50,
+        32
+       ],
+       "to": [
+        50,
+        18
+       ],
+       "side": 1,
+       "kind": "retreat"
+      },
+      {
+       "from": [
+        5,
+        48
+       ],
+       "to": [
+        8,
+        12
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        50,
+        40
+       ],
+       "to": [
+        50,
+        33
+       ],
+       "side": 0
+      }
+     ],
+     "hidden": [
+      "g_hill",
+      "r_hill"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "8.29-32"
+    },
+    {
+     "a": "Agathias",
+     "w": "Histories",
+     "r": "1.1"
+    }
+   ],
+   "note": "Procopius was not present (he was in Constantinople) but wrote from good informants. The site near Gualdo Tadino on the Via Flaminia is likely; the hill's position, the crescent's shape and the cavalry reserve's location follow his text schematically.",
+   "scholarship": [
+    "Haldon, The Byzantine Wars (2001)",
+    "Rance, 'Narses and the Battle of Taginae (Busta Gallorum) 552', Historia 54 (2005)"
+   ]
+  },
+  {
+   "event": "battle_of_the_yarmuk",
+   "title": "The Yarmuk: cavalry stripped away, infantry into the ravine",
+   "terrain": [
+    {
+     "kind": "ravine",
+     "pts": [
+      [
+       8,
+       0
+      ],
+      [
+       10,
+       20
+      ],
+      [
+       7,
+       40
+      ],
+      [
+       9,
+       56
+      ]
+     ],
+     "label": "Wadi al-Ruqqad"
+    },
+    {
+     "kind": "ravine",
+     "pts": [
+      [
+       0,
+       56
+      ],
+      [
+       40,
+       57
+      ],
+      [
+       70,
+       55
+      ],
+      [
+       100,
+       57
+      ]
+     ],
+     "label": "Yarmuk gorge"
+    },
+    {
+     "kind": "bridge",
+     "cx": 10,
+     "cy": 18,
+     "r": 1.5,
+     "label": "bridge at Ayn Dhakar"
+    },
+    {
+     "kind": "ravine",
+     "pts": [
+      [
+       30,
+       56
+      ],
+      [
+       28,
+       48
+      ],
+      [
+       32,
+       40
+      ]
+     ],
+     "label": "Wadi al-Allan (approx.)"
+    },
+    {
+     "kind": "plain",
+     "pts": [
+      [
+       12,
+       0
+      ],
+      [
+       100,
+       0
+      ],
+      [
+       100,
+       54
+      ],
+      [
+       12,
+       54
+      ]
+     ],
+     "label": "Jabiya-Yaqusa plateau"
+    }
+   ],
+   "north": 0,
+   "scaleNote": "plateau c. 15 km across; not to scale",
+   "units": [
+    {
+     "id": "m_rw",
+     "side": 0,
+     "label": "Right wing",
+     "kind": "infantry",
+     "w": 12,
+     "h": 4
+    },
+    {
+     "id": "m_rc",
+     "side": 0,
+     "label": "Right centre",
+     "kind": "infantry",
+     "w": 12,
+     "h": 4
+    },
+    {
+     "id": "m_lc",
+     "side": 0,
+     "label": "Left centre",
+     "kind": "infantry",
+     "w": 12,
+     "h": 4
+    },
+    {
+     "id": "m_lw",
+     "side": 0,
+     "label": "Left wing",
+     "kind": "infantry",
+     "w": 12,
+     "h": 4
+    },
+    {
+     "id": "m_khalid",
+     "side": 0,
+     "label": "Khalid ibn al-Walid: mobile cavalry",
+     "kind": "cavalry",
+     "w": 10,
+     "h": 4
+    },
+    {
+     "id": "m_dirar",
+     "side": 0,
+     "label": "Dirar ibn al-Azwar: 500 horse",
+     "kind": "cavalry",
+     "w": 5,
+     "h": 2
+    },
+    {
+     "id": "b_lw",
+     "side": 1,
+     "label": "Byzantine left",
+     "kind": "infantry",
+     "w": 12,
+     "h": 4
+    },
+    {
+     "id": "b_lc",
+     "side": 1,
+     "label": "Byzantine left centre",
+     "kind": "infantry",
+     "w": 12,
+     "h": 4
+    },
+    {
+     "id": "b_rc",
+     "side": 1,
+     "label": "Byzantine right centre",
+     "kind": "infantry",
+     "w": 12,
+     "h": 4
+    },
+    {
+     "id": "b_rw",
+     "side": 1,
+     "label": "Byzantine right (Armenians?)",
+     "kind": "infantry",
+     "w": 12,
+     "h": 4
+    },
+    {
+     "id": "b_cav",
+     "side": 1,
+     "label": "Byzantine cavalry",
+     "kind": "cavalry",
+     "w": 12,
+     "h": 4
+    },
+    {
+     "id": "b_ghass",
+     "side": 1,
+     "label": "Jabala's Ghassanid Arabs (skirmishers)",
+     "kind": "light",
+     "w": 24,
+     "h": 2
+    },
+    {
+     "id": "b_camp",
+     "side": 1,
+     "label": "Byzantine camp",
+     "kind": "camp",
+     "w": 8,
+     "h": 6
+    }
+   ],
+   "phases": [
+    {
+     "t": "After days of fighting",
+     "text": "In summer 636 a large Roman army, commanded by the Armenian Vahan with Theodore Trithyrios, Ghassanid and Armenian contingents, faced the Muslim forces that had withdrawn from Damascus and Emesa to the plateau east of the Wadi al-Ruqqad above the Yarmuk gorge. Numbers are unknowable: the Arabic tradition's 100,000-240,000 Romans are impossible, and modern estimates for each side range from 15,000 to 40,000. The armies had been facing each other for weeks, perhaps months, with sporadic fighting. The Arabic sources compress the battle into several days of hard combat in which Roman attacks almost broke the Muslim line and women at the Muslim camp drove fugitives back into the fight.",
+     "pos": {
+      "m_rw": [
+       72,
+       14,
+       90
+      ],
+      "m_rc": [
+       72,
+       26,
+       90
+      ],
+      "m_lc": [
+       72,
+       38,
+       90
+      ],
+      "m_lw": [
+       72,
+       50,
+       90
+      ],
+      "m_khalid": [
+       84,
+       30,
+       90
+      ],
+      "m_dirar": [
+       90,
+       8,
+       0
+      ],
+      "b_lw": [
+       48,
+       14,
+       90
+      ],
+      "b_lc": [
+       48,
+       26,
+       90
+      ],
+      "b_rc": [
+       48,
+       38,
+       90
+      ],
+      "b_rw": [
+       48,
+       50,
+       90
+      ],
+      "b_cav": [
+       38,
+       22,
+       90
+      ],
+      "b_ghass": [
+       58,
+       30,
+       90
+      ],
+      "b_camp": [
+       20,
+       30,
+       0
+      ]
+     },
+     "hidden": [
+      "m_dirar"
+     ]
+    },
+    {
+     "t": "The bridge seized",
+     "text": "In the tradition followed by most modern reconstructions, the Muslim commanders sent a cavalry detachment, often named as 500 men under Dirar ibn al-Azwar, round the north end of the Roman position by night to seize the bridge over the Wadi al-Ruqqad at Ayn Dhakar, the Roman army's main line of retreat to the west.",
+     "pos": {
+      "m_rw": [
+       72,
+       14,
+       90
+      ],
+      "m_rc": [
+       72,
+       26,
+       90
+      ],
+      "m_lc": [
+       72,
+       38,
+       90
+      ],
+      "m_lw": [
+       72,
+       50,
+       90
+      ],
+      "m_khalid": [
+       84,
+       30,
+       90
+      ],
+      "m_dirar": [
+       12,
+       22,
+       0
+      ],
+      "b_lw": [
+       48,
+       14,
+       90
+      ],
+      "b_lc": [
+       48,
+       26,
+       90
+      ],
+      "b_rc": [
+       48,
+       38,
+       90
+      ],
+      "b_rw": [
+       48,
+       50,
+       90
+      ],
+      "b_cav": [
+       38,
+       22,
+       90
+      ],
+      "b_ghass": [
+       58,
+       30,
+       90
+      ],
+      "b_camp": [
+       20,
+       30,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        90,
+        8
+       ],
+       "to": [
+        20,
+        4
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        20,
+        4
+       ],
+       "to": [
+        12,
+        18
+       ],
+       "side": 0
+      }
+     ],
+     "hidden": [
+      "b_ghass"
+     ]
+    },
+    {
+     "t": "Khalid strips away the cavalry",
+     "text": "On the last day Khalid's mobile cavalry attacked the Roman cavalry on the northern flank, separated it from the infantry and drove it off northwards out of the battle. The Arabic accounts also tell of a hot south wind blowing dust into the Romans' faces. The Roman infantry, now without cavalry support, was attacked in front by the Muslim infantry and in flank and rear by Khalid's horse.",
+     "pos": {
+      "m_rw": [
+       62,
+       14,
+       90
+      ],
+      "m_rc": [
+       62,
+       26,
+       90
+      ],
+      "m_lc": [
+       62,
+       38,
+       90
+      ],
+      "m_lw": [
+       62,
+       50,
+       90
+      ],
+      "m_khalid": [
+       40,
+       6,
+       0
+      ],
+      "m_dirar": [
+       12,
+       22,
+       0
+      ],
+      "b_lw": [
+       44,
+       14,
+       90
+      ],
+      "b_lc": [
+       48,
+       26,
+       90
+      ],
+      "b_rc": [
+       48,
+       38,
+       90
+      ],
+      "b_rw": [
+       48,
+       50,
+       90
+      ],
+      "b_cav": [
+       28,
+       3,
+       0
+      ],
+      "b_ghass": [
+       58,
+       30,
+       90
+      ],
+      "b_camp": [
+       20,
+       30,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        84,
+        24
+       ],
+       "to": [
+        46,
+        6
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        36,
+        10
+       ],
+       "to": [
+        24,
+        3
+       ],
+       "side": 1,
+       "kind": "retreat"
+      },
+      {
+       "from": [
+        70,
+        30
+       ],
+       "to": [
+        64,
+        30
+       ],
+       "side": 0
+      }
+     ],
+     "hidden": [
+      "b_ghass"
+     ]
+    },
+    {
+     "t": "Into the ravine",
+     "text": "The Roman infantry was pushed west into the angle of the ravines. With the bridge held, there was no way out: the Arabic tradition says that many were killed or fell into the Wadi al-Ruqqad, giving the name al-Waqusa to the scene. Theodore Trithyrios was killed; Vahan's fate is uncertain. The date usually given is August 636. Heraclius, at Antioch, is said to have bidden farewell to Syria ('Peace unto thee, Syria, and what an excellent country this is for the enemy') and withdrew to Constantinople. Jerusalem surrendered in 637 or 638.",
+     "pos": {
+      "m_rw": [
+       36,
+       12,
+       90
+      ],
+      "m_rc": [
+       36,
+       26,
+       90
+      ],
+      "m_lc": [
+       34,
+       38,
+       90
+      ],
+      "m_lw": [
+       46,
+       50,
+       90
+      ],
+      "m_khalid": [
+       14,
+       6,
+       0
+      ],
+      "m_dirar": [
+       12,
+       22,
+       0
+      ],
+      "b_lw": [
+       26,
+       16,
+       90
+      ],
+      "b_lc": [
+       26,
+       28,
+       90
+      ],
+      "b_rc": [
+       22,
+       40,
+       90
+      ],
+      "b_rw": [
+       36,
+       50,
+       90
+      ],
+      "b_cav": [
+       28,
+       3,
+       0
+      ],
+      "b_ghass": [
+       58,
+       30,
+       90
+      ],
+      "b_camp": [
+       16,
+       50,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        60,
+        26
+       ],
+       "to": [
+        40,
+        26
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        24,
+        28
+       ],
+       "to": [
+        12,
+        28
+       ],
+       "side": 1,
+       "kind": "retreat"
+      },
+      {
+       "from": [
+        22,
+        40
+       ],
+       "to": [
+        12,
+        40
+       ],
+       "side": 1,
+       "kind": "retreat"
+      }
+     ],
+     "hidden": [
+      "b_ghass",
+      "b_cav"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "a": "al-Baladhuri",
+     "w": "Futuh al-Buldan",
+     "r": "section on the Yarmuk"
+    },
+    {
+     "a": "al-Tabari",
+     "w": "Ta'rikh al-rusul wa'l-muluk",
+     "r": "years 13 and 15 AH"
+    },
+    {
+     "a": "Theophanes",
+     "w": "Chronographia",
+     "r": "AM 6126"
+    },
+    {
+     "a": "Nikephoros",
+     "w": "Short History",
+     "r": "20"
+    },
+    {
+     "a": "Sebeos",
+     "w": "History",
+     "r": "42"
+    }
+   ],
+   "note": "This is the most uncertain diagram in the set. The Arabic narratives are late, partly legendary and contradictory (the 'days' of the battle are a literary scheme), and the Greek and Armenian sources are brief. The topography (Wadi al-Ruqqad, Yarmuk gorge, Ayn Dhakar) is real; the orientation of the lines, the bridge episode and Khalid's flank attack follow modern reconstructions (Kaegi; Nicolle) built on the Arabic tradition and should be read as plausible, not established.",
+   "scholarship": [
+    "Kaegi, Byzantium and the Early Islamic Conquests (1992)",
+    "Donner, The Early Islamic Conquests (1981)",
+    "Nicolle, Yarmuk AD 636 (1994)"
+   ]
+  }
+ ]
+}

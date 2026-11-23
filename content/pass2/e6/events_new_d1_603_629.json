@@ -1,0 +1,2047 @@
+{
+ "events": [
+  {
+   "id": "revolt_of_narses_603",
+   "year": 603,
+   "endYear": 605,
+   "title": "Revolt of Narses at Edessa",
+   "type": "revolt",
+   "cats": [
+    "military",
+    "political"
+   ],
+   "importance": 3,
+   "summary": "Narses, Maurice's veteran magister militum per Orientem and the victor of the Blarathon, refused to recognise Phocas, seized Edessa in 603 and appealed to Khosrow II. Khosrow relieved the city and defeated the besieging general Germanus, who died of his wounds. Narses was later persuaded by Domentziolus to surrender under a safe-conduct and was burned alive in Constantinople.",
+   "loc": [
+    38.793,
+    37.159
+   ],
+   "locName": "Edessa",
+   "locCertainty": "certain",
+   "war": "roman_sasanian_war_602",
+   "people": [
+    "narses_magister_605",
+    "phocas",
+    "khosrow_ii"
+   ],
+   "polities": [
+    "rome_east",
+    "sasanian"
+   ],
+   "sources": [
+    {
+     "a": "Theophanes",
+     "w": "Chronicle",
+     "r": "AM 6095-6097"
+    },
+    {
+     "a": "Sebeos",
+     "w": "History",
+     "r": "107"
+    }
+   ],
+   "certainty": "probable",
+   "tags": []
+  },
+  {
+   "id": "baptism_of_adaloald_603",
+   "year": 603,
+   "endYear": null,
+   "title": "Catholic baptism of the Lombard heir Adaloald",
+   "type": "religious",
+   "cats": [
+    "religious",
+    "political"
+   ],
+   "importance": 2,
+   "summary": "Agilulf and Theodelinda's son Adaloald was baptised a Catholic at Monza at Easter 603, Gregory the Great sending gifts preserved in the Monza treasury. It marked a step in the gradual conversion of the Arian Lombard elite, though the next kings Arioald and Rothari were Arians.",
+   "loc": [
+    9.274,
+    45.5845
+   ],
+   "locName": "Modicia (Monza)",
+   "locCertainty": "certain",
+   "people": [
+    "agilulf",
+    "theodelinda",
+    "gregory_the_great"
+   ],
+   "polities": [
+    "lombards"
+   ],
+   "sources": [
+    {
+     "a": "Paul the Deacon",
+     "w": "History of the Lombards",
+     "r": "4.27"
+    },
+    {
+     "a": "Gregory the Great",
+     "w": "Register of Letters",
+     "r": "14.12"
+    }
+   ],
+   "certainty": "certain",
+   "tags": []
+  },
+  {
+   "id": "agilulf_takes_cremona_603",
+   "year": 603,
+   "month": 8,
+   "day": 21,
+   "endYear": null,
+   "title": "Agilulf takes Cremona and Mantua",
+   "type": "siege",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "After the truce with the exarch lapsed and the Romans seized Agilulf's daughter at Parma, the Lombard king took Padua (601), then Cremona on 21 August 603, which he razed, and Mantua on 13 September 603 after breaching its walls with rams. Roman territory in the Po valley was reduced to the coastal strip around Ravenna and the Venetian lagoons.",
+   "loc": [
+    10.0227,
+    45.1333
+   ],
+   "locName": "Cremona",
+   "locCertainty": "certain",
+   "war": "roman_lombard_wars",
+   "people": [
+    "agilulf"
+   ],
+   "polities": [
+    "lombards",
+    "rome_east"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "lombards",
+      "commanders": [
+       "agilulf"
+      ],
+      "strength": "unknown",
+      "losses": "unknown"
+     },
+     {
+      "polity": "rome_east",
+      "commanders": [],
+      "strength": "garrisons",
+      "losses": "cities taken"
+     }
+    ],
+    "victor": "lombards",
+    "kind": "siege",
+    "significance": "Last major Lombard gains of the period."
+   },
+   "sources": [
+    {
+     "a": "Paul the Deacon",
+     "w": "History of the Lombards",
+     "r": "4.28"
+    }
+   ],
+   "certainty": "certain",
+   "tags": []
+  },
+  {
+   "id": "phocas_raises_avar_tribute_604",
+   "year": 604,
+   "endYear": null,
+   "title": "Phocas buys peace from the Avars",
+   "type": "treaty",
+   "cats": [
+    "diplomatic"
+   ],
+   "importance": 2,
+   "summary": "To free the Balkan army for the Persian war, Phocas increased the annual payment to the Avars in 604 and transferred troops from Thrace to Asia. The decision effectively ended the Roman counter-offensive of Maurice's reign on the Danube and left the provinces south of it open to Slav settlement.",
+   "loc": [
+    28.9784,
+    41.0082
+   ],
+   "locName": "Constantinople",
+   "locCertainty": "certain",
+   "war": "balkan_wars_of_maurice",
+   "people": [
+    "phocas"
+   ],
+   "polities": [
+    "rome_east",
+    "avars"
+   ],
+   "sources": [
+    {
+     "a": "Theophanes",
+     "w": "Chronicle",
+     "r": "AM 6096"
+    }
+   ],
+   "certainty": "probable",
+   "tags": []
+  },
+  {
+   "id": "battle_of_arxamoun_604",
+   "year": 604,
+   "endYear": null,
+   "title": "Battle of Arxamoun",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "Khosrow II, campaigning in person in Mesopotamia, defeated a Roman army under the eunuch Leontius at Arxamoun near Dara, taking many prisoners, and then besieged and took Dara itself after nine months. Phocas had Leontius arrested.",
+   "loc": [
+    40.6,
+    37.1
+   ],
+   "locName": "Arxamoun, near Dara",
+   "locCertainty": "approx",
+   "war": "roman_sasanian_war_602",
+   "people": [
+    "khosrow_ii",
+    "phocas"
+   ],
+   "polities": [
+    "sasanian",
+    "rome_east"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "sasanian",
+      "commanders": [
+       "khosrow_ii"
+      ],
+      "strength": "unknown",
+      "losses": "unknown"
+     },
+     {
+      "polity": "rome_east",
+      "commanders": [],
+      "strength": "unknown",
+      "losses": "unknown"
+     }
+    ],
+    "victor": "sasanian",
+    "kind": "field",
+    "significance": "Opened the way to Dara."
+   },
+   "sources": [
+    {
+     "a": "Theophanes",
+     "w": "Chronicle",
+     "r": "AM 6096"
+    }
+   ],
+   "certainty": "probable",
+   "tags": []
+  },
+  {
+   "id": "death_of_gregory_the_great_604",
+   "year": 604,
+   "month": 3,
+   "day": 12,
+   "endYear": null,
+   "title": "Death of Gregory the Great",
+   "type": "death",
+   "cats": [
+    "religious"
+   ],
+   "importance": 3,
+   "summary": "Gregory died on 12 March 604 after fourteen years as pope, crippled by gout. He left some 850 letters in his Register, the Pastoral Rule, Moralia, Dialogues and homilies, the English mission and a papacy that managed estates from Sicily to Gaul and functioned as Rome's government. His epitaph called him God's consul.",
+   "loc": [
+    12.4924,
+    41.8902
+   ],
+   "locName": "Rome",
+   "locCertainty": "certain",
+   "people": [
+    "gregory_the_great"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "Liber Pontificalis",
+     "r": "66"
+    },
+    {
+     "a": "Bede",
+     "w": "Ecclesiastical History of the English People",
+     "r": "2.1"
+    }
+   ],
+   "certainty": "certain",
+   "tags": []
+  },
+  {
+   "id": "execution_of_empress_constantina_605",
+   "year": 605,
+   "endYear": 607,
+   "title": "Execution of Maurice's widow and daughters",
+   "type": "assassination",
+   "cats": [
+    "political"
+   ],
+   "importance": 2,
+   "summary": "Maurice's widow Constantina and her three daughters, confined in a monastery, were implicated in a conspiracy with the patrician Germanus, whose daughter had married Maurice's son Theodosius. Tortured by Phocas's agents, Constantina named accomplices; she and her daughters were beheaded at the harbour of Eutropius at Chalcedon, where Maurice had died.",
+   "loc": [
+    29.027,
+    40.985
+   ],
+   "locName": "Harbour of Eutropius, Chalcedon",
+   "locCertainty": "probable",
+   "people": [
+    "constantina_empress",
+    "phocas"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Chronicon Paschale",
+     "w": "Chronicon Paschale",
+     "r": "s.a. 605"
+    },
+    {
+     "a": "Theophanes",
+     "w": "Chronicle",
+     "r": "AM 6098-6099"
+    }
+   ],
+   "debate": "The Chronicon Paschale dates the conspiracy to 605; Theophanes's chronology places the executions c. 607.",
+   "certainty": "probable",
+   "tags": []
+  },
+  {
+   "id": "persian_conquest_of_mesopotamia_609",
+   "year": 609,
+   "endYear": 610,
+   "title": "Persian conquest of Roman Mesopotamia",
+   "type": "campaign",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "After Dara (604), Persian armies took Mardin, Amida, Theodosiopolis in Armenia (with the aid of the pretender 'Theodosius', supposedly Maurice's son), Rhesaina and finally Edessa in 609. In 610 they crossed the Euphrates. The whole frontier system built since Diocletian had collapsed before Heraclius took power.",
+   "loc": [
+    38.793,
+    37.159
+   ],
+   "locName": "Edessa and Mesopotamia",
+   "locCertainty": "approx",
+   "war": "roman_sasanian_war_602",
+   "people": [
+    "khosrow_ii",
+    "shahrbaraz"
+   ],
+   "polities": [
+    "sasanian",
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Sebeos",
+     "w": "History",
+     "r": "108-112"
+    },
+    {
+     "a": "Theophanes",
+     "w": "Chronicle",
+     "r": "AM 6097-6101"
+    },
+    {
+     "a": "Chronicle of Khuzistan",
+     "w": "Chronicle of Khuzistan"
+    }
+   ],
+   "certainty": "probable",
+   "tags": []
+  },
+  {
+   "id": "nicetas_takes_egypt_609",
+   "year": 609,
+   "endYear": 610,
+   "title": "Nicetas wins Egypt for the Heraclians",
+   "type": "campaign",
+   "cats": [
+    "military",
+    "civil_war"
+   ],
+   "importance": 3,
+   "summary": "While Heraclius prepared the fleet, his cousin Nicetas marched from Cyrenaica into Egypt in 608-609 with Moorish and Roman troops, won over the Alexandrians and the Greens, and defeated Phocas's commander Bonosus outside Alexandria. Control of the Egyptian grain fleet doomed Phocas.",
+   "loc": [
+    29.9187,
+    31.2001
+   ],
+   "locName": "Alexandria",
+   "locCertainty": "certain",
+   "war": "heraclian_revolt",
+   "people": [
+    "nicetas_cousin_of_heraclius",
+    "bonosus"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome_east",
+      "commanders": [
+       "nicetas_cousin_of_heraclius"
+      ],
+      "strength": "Heraclian army with Moorish auxiliaries",
+      "losses": "unknown"
+     },
+     {
+      "polity": "rome_east",
+      "commanders": [
+       "bonosus"
+      ],
+      "strength": "loyalist army",
+      "losses": "unknown"
+     }
+    ],
+    "victor": "rome_east",
+    "kind": "field",
+    "significance": "Cut Constantinople's grain supply."
+   },
+   "sources": [
+    {
+     "a": "John of Nikiu",
+     "w": "Chronicle",
+     "r": "107-109"
+    },
+    {
+     "a": "Theophanes",
+     "w": "Chronicle",
+     "r": "AM 6100"
+    }
+   ],
+   "certainty": "probable",
+   "tags": []
+  },
+  {
+   "id": "battle_of_dhi_qar",
+   "year": 609,
+   "endYear": null,
+   "title": "Battle of Dhi Qar",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "After Khosrow II killed the Lakhmid king al-Nu'man III, the tribe of Bakr ibn Wa'il refused to surrender his property and defeated a Persian army with Arab allies at Dhi Qar near Kufa. Arabic tradition remembered it as the first time Arabs beat the Persians; it showed the frontier was now unguarded.",
+   "loc": [
+    45.6,
+    31.4
+   ],
+   "locName": "Dhi Qar, lower Iraq",
+   "locCertainty": "approx",
+   "people": [
+    "khosrow_ii"
+   ],
+   "polities": [
+    "arab_tribes",
+    "sasanian",
+    "lakhmids"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "arab_tribes",
+      "commanders": [],
+      "strength": "Bakr ibn Wa'il",
+      "losses": "unknown"
+     },
+     {
+      "polity": "sasanian",
+      "commanders": [],
+      "strength": "Persian cavalry and Arab allies",
+      "losses": "unknown"
+     }
+    ],
+    "victor": "arab_tribes",
+    "kind": "field",
+    "significance": "Symbolic Arab victory over Persia."
+   },
+   "sources": [
+    {
+     "a": "Tabari",
+     "w": "History",
+     "r": "I 1015-1037"
+    }
+   ],
+   "debate": "Dated anywhere from 604 to 611.",
+   "certainty": "approx",
+   "tags": []
+  },
+  {
+   "id": "pantheon_consecrated_609",
+   "year": 609,
+   "month": 5,
+   "day": 13,
+   "endYear": null,
+   "title": "The Pantheon becomes Santa Maria ad Martyres",
+   "type": "religious",
+   "cats": [
+    "religious",
+    "cultural"
+   ],
+   "importance": 3,
+   "summary": "With the permission of Phocas, Pope Boniface IV converted Hadrian's Pantheon into a church dedicated to the Virgin and all martyrs, consecrated on 13 May 609. It was the first pagan temple in Rome to be Christianised, which is why it survives with its dome and bronze doors intact; the feast of All Saints derives from its dedication.",
+   "loc": [
+    12.4768,
+    41.8986
+   ],
+   "locName": "Pantheon, Rome",
+   "locCertainty": "certain",
+   "people": [
+    "phocas"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "Liber Pontificalis",
+     "r": "69 (Boniface IV)"
+    },
+    {
+     "a": "Bede",
+     "w": "Ecclesiastical History of the English People",
+     "r": "2.4"
+    }
+   ],
+   "certainty": "certain",
+   "tags": []
+  },
+  {
+   "id": "riots_of_antioch_609",
+   "year": 609,
+   "month": 9,
+   "endYear": null,
+   "title": "Riots in Antioch and the murder of Patriarch Anastasius",
+   "type": "revolt",
+   "cats": [
+    "political",
+    "religious",
+    "social"
+   ],
+   "importance": 2,
+   "summary": "In September 609 Antioch erupted; the Chalcedonian patriarch Anastasius II was murdered, his body dragged through the streets. Theophanes blames the Jews; the comes Orientis Bonosus and Kottanas restored order with exemplary brutality. Similar factional violence between Blues and Greens shook Palestine, Syria and Egypt in Phocas's last years.",
+   "loc": [
+    36.16,
+    36.2
+   ],
+   "locName": "Antioch",
+   "locCertainty": "certain",
+   "people": [
+    "bonosus",
+    "phocas"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Theophanes",
+     "w": "Chronicle",
+     "r": "AM 6101"
+    },
+    {
+     "a": "Chronicon Paschale",
+     "w": "Chronicon Paschale",
+     "r": "s.a. 610"
+    },
+    {
+     "a": "John of Nikiu",
+     "w": "Chronicle",
+     "r": "104"
+    }
+   ],
+   "debate": "Modern scholars doubt a specifically Jewish uprising and see circus-faction and anti-Phocas violence.",
+   "certainty": "probable",
+   "tags": []
+  },
+  {
+   "id": "revolt_of_comentiolus_610",
+   "year": 610,
+   "endYear": 611,
+   "title": "Revolt of Phocas's brother Comentiolus",
+   "type": "revolt",
+   "cats": [
+    "military",
+    "political"
+   ],
+   "importance": 2,
+   "summary": "Phocas's brother Comentiolus, commanding in Asia Minor, refused to recognise Heraclius and held Ancyra with eastern troops through the winter of 610-611 before being murdered by the patrician Justin. The diversion of forces helped the Persians cross the Euphrates and enter Anatolia.",
+   "loc": [
+    32.8597,
+    39.9334
+   ],
+   "locName": "Ancyra",
+   "locCertainty": "certain",
+   "war": "heraclian_revolt",
+   "people": [
+    "heraclius",
+    "phocas"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Nikephoros",
+     "w": "Short History",
+     "r": "2"
+    },
+    {
+     "a": "Theophanes",
+     "w": "Chronicle",
+     "r": "AM 6103"
+    }
+   ],
+   "certainty": "probable",
+   "tags": []
+  },
+  {
+   "id": "persians_take_caesarea_611",
+   "year": 611,
+   "endYear": 612,
+   "title": "Shahin takes Caesarea in Cappadocia",
+   "type": "siege",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "Shahin's army took Caesarea, the capital of Cappadocia, in 611. Priscus, Phocas's former son-in-law now serving Heraclius, besieged the Persians in the city for a year but could not prevent them breaking out in 612 and burning it. Heraclius came in person and quarrelled with Priscus, whom he soon removed.",
+   "loc": [
+    35.4826,
+    38.7205
+   ],
+   "locName": "Caesarea Mazaca",
+   "locCertainty": "certain",
+   "war": "roman_sasanian_war_602",
+   "people": [
+    "shahin",
+    "priscus_general",
+    "heraclius"
+   ],
+   "polities": [
+    "sasanian",
+    "rome_east"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "sasanian",
+      "commanders": [
+       "shahin"
+      ],
+      "strength": "unknown",
+      "losses": "unknown"
+     },
+     {
+      "polity": "rome_east",
+      "commanders": [
+       "priscus_general"
+      ],
+      "strength": "unknown",
+      "losses": "city burned"
+     }
+    ],
+    "victor": "sasanian",
+    "kind": "siege",
+    "significance": "First deep Persian penetration of Anatolia in the war."
+   },
+   "sources": [
+    {
+     "a": "Sebeos",
+     "w": "History",
+     "r": "112-113"
+    },
+    {
+     "a": "Nikephoros",
+     "w": "Short History",
+     "r": "2"
+    },
+    {
+     "a": "Theophanes",
+     "w": "Chronicle",
+     "r": "AM 6103"
+    }
+   ],
+   "certainty": "certain",
+   "tags": []
+  },
+  {
+   "id": "forced_baptism_of_jews_in_spain_612",
+   "year": 612,
+   "endYear": null,
+   "title": "Sisebut orders the conversion of the Jews",
+   "type": "religious",
+   "cats": [
+    "religious",
+    "law",
+    "social"
+   ],
+   "importance": 3,
+   "summary": "Early in his reign Sisebut ordered the Jews of his kingdom to accept baptism or leave. Isidore commented that he acted 'with zeal, but not according to knowledge'; the Fourth Council of Toledo (633) condemned forced conversion yet insisted that those baptised must remain Christians, setting the pattern of Visigothic anti-Jewish legislation.",
+   "loc": [
+    -4.0273,
+    39.8628
+   ],
+   "locName": "Toletum (Toledo)",
+   "locCertainty": "certain",
+   "people": [
+    "sisebut",
+    "isidore_of_seville"
+   ],
+   "polities": [
+    "visigothic_kingdom"
+   ],
+   "sources": [
+    {
+     "a": "Isidore of Seville",
+     "w": "History of the Goths",
+     "r": "60"
+    },
+    {
+     "a": "Councils of Toledo",
+     "w": "Concilios visigóticos e hispano-romanos (ed. Vives)",
+     "r": "Toledo IV c. 57"
+    }
+   ],
+   "certainty": "certain",
+   "tags": []
+  },
+  {
+   "id": "disgrace_of_priscus_612",
+   "year": 612,
+   "month": 12,
+   "endYear": null,
+   "title": "Heraclius removes Priscus",
+   "type": "political",
+   "cats": [
+    "political"
+   ],
+   "importance": 2,
+   "summary": "In December 612 Heraclius summoned Priscus to Constantinople, accused him before the senate of insulting the emperor, and had him tonsured and confined in the monastery of Chora, where he died in 613. His bucellarii were absorbed into the imperial army. It removed the last great general of Maurice's generation.",
+   "loc": [
+    28.9784,
+    41.0082
+   ],
+   "locName": "Constantinople",
+   "locCertainty": "certain",
+   "people": [
+    "priscus_general",
+    "heraclius"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Nikephoros",
+     "w": "Short History",
+     "r": "2"
+    },
+    {
+     "a": "Chronicon Paschale",
+     "w": "Chronicon Paschale",
+     "r": "s.a. 612"
+    }
+   ],
+   "certainty": "certain",
+   "tags": []
+  },
+  {
+   "id": "heraclius_marries_martina",
+   "year": 613,
+   "endYear": null,
+   "title": "Heraclius marries his niece Martina",
+   "type": "political",
+   "cats": [
+    "political",
+    "religious"
+   ],
+   "importance": 3,
+   "summary": "Heraclius married Martina, daughter of his sister Maria, against the protests of Patriarch Sergius and popular opinion, which saw the deformities and early deaths of several of their children as divine punishment. Martina accompanied him on his campaigns and her ambitions for her son Heraclonas shaped the succession crisis of 641.",
+   "loc": [
+    28.9784,
+    41.0082
+   ],
+   "locName": "Constantinople",
+   "locCertainty": "certain",
+   "people": [
+    "heraclius",
+    "martina",
+    "sergius_of_constantinople",
+    "heraclonas"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Nikephoros",
+     "w": "Short History",
+     "r": "11"
+    },
+    {
+     "a": "Theophanes",
+     "w": "Chronicle",
+     "r": "AM 6105"
+    }
+   ],
+   "debate": "Nikephoros implies c. 613-614; some scholars prefer c. 622-623.",
+   "certainty": "approx",
+   "tags": []
+  },
+  {
+   "id": "persians_take_damascus_613",
+   "year": 613,
+   "endYear": null,
+   "title": "Persians take Damascus",
+   "type": "siege",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "After defeating Heraclius near Antioch in 613, Shahrbaraz split Roman Syria in two, occupied Damascus and pushed into Cilicia, taking Tarsus. Damascus surrendered with little fighting, a pattern repeated by many Syrian cities that preferred terms to sack.",
+   "loc": [
+    36.3065,
+    33.5112
+   ],
+   "locName": "Damascus",
+   "locCertainty": "certain",
+   "war": "roman_sasanian_war_602",
+   "people": [
+    "shahrbaraz"
+   ],
+   "polities": [
+    "sasanian",
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Sebeos",
+     "w": "History",
+     "r": "114-115"
+    },
+    {
+     "a": "Theophanes",
+     "w": "Chronicle",
+     "r": "AM 6105"
+    }
+   ],
+   "certainty": "certain",
+   "tags": []
+  },
+  {
+   "id": "death_of_brunhild_613",
+   "year": 613,
+   "endYear": null,
+   "title": "Execution of Brunhild; Chlothar II reunites Francia",
+   "type": "assassination",
+   "cats": [
+    "political"
+   ],
+   "importance": 3,
+   "summary": "Betrayed by the Austrasian nobles led by Pippin and Arnulf, the queen Brunhild, nearly seventy, was handed to Chlothar II, son of her enemy Fredegund. Charged with the deaths of ten kings, she was tortured for three days, paraded on a camel and torn apart tied to a wild horse. Chlothar became sole king of all the Franks.",
+   "loc": [
+    5.31,
+    47.41
+   ],
+   "locName": "Renève, Burgundy",
+   "locCertainty": "probable",
+   "people": [
+    "brunhild",
+    "chlothar_ii"
+   ],
+   "polities": [
+    "frankish_kingdom"
+   ],
+   "sources": [
+    {
+     "a": "Fredegar",
+     "w": "Chronicle",
+     "r": "4.42"
+    },
+    {
+     "a": "Jonas of Bobbio",
+     "w": "Life of Columbanus",
+     "r": "1.29"
+    }
+   ],
+   "certainty": "certain",
+   "tags": []
+  },
+  {
+   "id": "coronation_of_constantine_iii_613",
+   "year": 613,
+   "month": 1,
+   "day": 22,
+   "endYear": null,
+   "title": "Coronation of Constantine III",
+   "type": "accession",
+   "cats": [
+    "political"
+   ],
+   "importance": 2,
+   "summary": "Heraclius's first wife Fabia-Eudokia died in August 612, three months after bearing a son, Heraclius Constantine. The infant was crowned co-emperor on 22 January 613, securing the dynasty during the darkest years of the Persian war.",
+   "loc": [
+    28.9784,
+    41.0082
+   ],
+   "locName": "Constantinople",
+   "locCertainty": "certain",
+   "people": [
+    "constantine_iii_heraclius",
+    "heraclius",
+    "fabia_eudokia"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Chronicon Paschale",
+     "w": "Chronicon Paschale",
+     "r": "s.a. 613"
+    },
+    {
+     "a": "Nikephoros",
+     "w": "Short History",
+     "r": "3"
+    }
+   ],
+   "certainty": "certain",
+   "tags": []
+  },
+  {
+   "id": "jewish_rule_in_jerusalem_614",
+   "year": 614,
+   "endYear": 617,
+   "title": "Jewish administration of Jerusalem under the Persians",
+   "type": "political",
+   "cats": [
+    "political",
+    "religious"
+   ],
+   "importance": 3,
+   "summary": "After the capture of Jerusalem the Persians entrusted the city to its Jewish population, apparently led by a figure known from apocalyptic texts as Nehemiah ben Hushiel, and expelled Christians. Around 617 the Persians reversed course, restored Christian control under the abbot Modestus, who rebuilt the Holy Sepulchre, and expelled the Jews, a reversal that fuelled messianic literature such as the Sefer Zerubbabel.",
+   "loc": [
+    35.2297,
+    31.7767
+   ],
+   "locName": "Jerusalem",
+   "locCertainty": "certain",
+   "war": "roman_sasanian_war_602",
+   "people": [
+    "shahrbaraz"
+   ],
+   "polities": [
+    "sasanian",
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Sebeos",
+     "w": "History",
+     "r": "115-116"
+    },
+    {
+     "a": "Antiochus Strategos",
+     "w": "The Capture of Jerusalem by the Persians"
+    }
+   ],
+   "debate": "Christian sources accuse Jews of massacres in 614; the scale is debated and the name Nehemiah comes from apocalyptic, not historical, texts.",
+   "certainty": "disputed",
+   "tags": []
+  },
+  {
+   "id": "foundation_of_bobbio_614",
+   "year": 614,
+   "endYear": null,
+   "title": "Columbanus founds Bobbio",
+   "type": "religious",
+   "cats": [
+    "religious",
+    "cultural"
+   ],
+   "importance": 2,
+   "summary": "Expelled from Burgundy by Brunhild and Theuderic II, Columbanus crossed to Lombard Italy and in 614 received from Agilulf the site of Bobbio in the Apennines, where he died on 23 November 615. Bobbio's library became one of the great repositories of late antique texts, preserving palimpsests of Cicero's De re publica and Fronto.",
+   "loc": [
+    9.386,
+    44.77
+   ],
+   "locName": "Bobbio",
+   "locCertainty": "certain",
+   "people": [
+    "columbanus",
+    "agilulf",
+    "theodelinda"
+   ],
+   "polities": [
+    "lombards"
+   ],
+   "sources": [
+    {
+     "a": "Jonas of Bobbio",
+     "w": "Life of Columbanus",
+     "r": "1.30"
+    }
+   ],
+   "certainty": "certain",
+   "tags": []
+  },
+  {
+   "id": "sisebut_campaigns_against_spania_614",
+   "year": 614,
+   "endYear": null,
+   "title": "Sisebut's campaigns against Roman Spania",
+   "type": "campaign",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "The scholarly Visigothic king Sisebut (612-621) waged two campaigns against the Byzantine province around 614-615, taking Malaga and other cities. Isidore praises his clemency in ransoming captives. His Latin correspondence with the Roman patrician Caesarius over a peace settlement survives in the Epistolae Wisigoticae.",
+   "loc": [
+    -4.4214,
+    36.7213
+   ],
+   "locName": "Malaca (Málaga)",
+   "locCertainty": "probable",
+   "war": "spanish_war_552",
+   "people": [
+    "sisebut"
+   ],
+   "polities": [
+    "visigothic_kingdom",
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Isidore of Seville",
+     "w": "History of the Goths",
+     "r": "61"
+    },
+    {
+     "a": "Epistolae Wisigoticae",
+     "w": "Epistolae Wisigoticae",
+     "r": "3-6"
+    }
+   ],
+   "certainty": "probable",
+   "tags": []
+  },
+  {
+   "id": "edict_of_paris_614",
+   "year": 614,
+   "month": 10,
+   "day": 18,
+   "endYear": null,
+   "title": "Edict of Paris",
+   "type": "law",
+   "cats": [
+    "law",
+    "political"
+   ],
+   "importance": 3,
+   "summary": "Issued by Chlothar II on 18 October 614 after a council of 79 bishops, the edict confirmed canonical election of bishops, forbade appointment of royal judges from outside the region they governed, and abolished unjust new tolls. Historians long read it as a Merovingian Magna Carta for the aristocracy; recent work stresses continuity with royal practice.",
+   "loc": [
+    2.349,
+    48.853
+   ],
+   "locName": "Paris",
+   "locCertainty": "certain",
+   "people": [
+    "chlothar_ii"
+   ],
+   "polities": [
+    "frankish_kingdom"
+   ],
+   "sources": [
+    {
+     "a": "Edictum Chlotharii",
+     "w": "Capitularia regum Francorum",
+     "r": "I 20-23"
+    }
+   ],
+   "certainty": "certain",
+   "tags": []
+  },
+  {
+   "id": "siege_of_thessalonica_615",
+   "year": 615,
+   "endYear": null,
+   "title": "Slav siege of Thessalonica under Chatzon",
+   "type": "siege",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "A coalition of Slav tribes settled in Macedonia, the Drogubites, Sagudates, Belegezites, Baiunetes and Berzetes, attacked Thessalonica by land and sea with dugout boats lashed together around 615. Their leader Chatzon was captured and, according to the Miracles of St Demetrius, stoned to death by the city's women. The city held, credited to its patron saint.",
+   "loc": [
+    22.9444,
+    40.6401
+   ],
+   "locName": "Thessalonica",
+   "locCertainty": "certain",
+   "war": "balkan_wars_of_maurice",
+   "people": [],
+   "polities": [
+    "slavs",
+    "rome_east"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "slavs",
+      "commanders": [],
+      "strength": "coalition of five tribes with monoxyla",
+      "losses": "unknown"
+     },
+     {
+      "polity": "rome_east",
+      "commanders": [],
+      "strength": "citizens and garrison",
+      "losses": "unknown"
+     }
+    ],
+    "victor": "rome_east",
+    "kind": "siege",
+    "significance": "Shows Slav settlement as far as the Aegean coast."
+   },
+   "sources": [
+    {
+     "a": "Miracles of St Demetrius",
+     "w": "Miracula S. Demetrii",
+     "r": "2.1"
+    }
+   ],
+   "debate": "Dated between 614 and 616.",
+   "certainty": "approx",
+   "tags": []
+  },
+  {
+   "id": "persian_raids_across_anatolia_616",
+   "year": 616,
+   "endYear": 622,
+   "title": "Persian raids across Anatolia",
+   "type": "campaign",
+   "cats": [
+    "military",
+    "disaster"
+   ],
+   "importance": 3,
+   "summary": "Between 615 and the early 620s Persian armies repeatedly crossed Asia Minor: Shahin reached Chalcedon in 615, and destruction layers at Sardis (with coins ending in 615-616), Pergamon, Ephesus and Ancyra (said to fall in 622) have been linked to these raids. They mark the beginning of the end of classical urban life in much of Anatolia.",
+   "loc": [
+    28.04,
+    38.488
+   ],
+   "locName": "Sardis and western Asia Minor",
+   "locCertainty": "approx",
+   "war": "roman_sasanian_war_602",
+   "people": [
+    "shahin"
+   ],
+   "polities": [
+    "sasanian",
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Sebeos",
+     "w": "History",
+     "r": "116"
+    },
+    {
+     "a": "Theophanes",
+     "w": "Chronicle",
+     "r": "AM 6107"
+    }
+   ],
+   "debate": "Clive Foss's attribution of widespread urban destruction to the Persians has been challenged; some layers may belong to earthquakes or the Arab raids of the 640s-660s.",
+   "certainty": "disputed",
+   "tags": []
+  },
+  {
+   "id": "siege_of_thessalonica_618",
+   "year": 618,
+   "endYear": null,
+   "title": "Avar siege of Thessalonica",
+   "type": "siege",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "Encouraged by the Slavs after Chatzon's failure, the Avar khagan besieged Thessalonica with a large army and siege engines for 33 days around 617-618 before accepting gifts and withdrawing. The Miracles of St Demetrius describe refugees from Naissus, Serdica and other inland cities already sheltering inside.",
+   "loc": [
+    22.9444,
+    40.6401
+   ],
+   "locName": "Thessalonica",
+   "locCertainty": "certain",
+   "war": "balkan_wars_of_maurice",
+   "people": [],
+   "polities": [
+    "avars",
+    "slavs",
+    "rome_east"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "avars",
+      "commanders": [],
+      "strength": "Avar army with Slav allies and siege engines",
+      "losses": "unknown"
+     },
+     {
+      "polity": "rome_east",
+      "commanders": [],
+      "strength": "unknown",
+      "losses": "unknown"
+     }
+    ],
+    "victor": "rome_east",
+    "kind": "siege",
+    "significance": "The Danubian cities were already lost."
+   },
+   "sources": [
+    {
+     "a": "Miracles of St Demetrius",
+     "w": "Miracula S. Demetrii",
+     "r": "2.2"
+    }
+   ],
+   "certainty": "approx",
+   "tags": []
+  },
+  {
+   "id": "heraclius_plans_move_to_carthage_618",
+   "year": 618,
+   "endYear": null,
+   "title": "Heraclius plans to move the capital to Carthage",
+   "type": "political",
+   "cats": [
+    "political"
+   ],
+   "importance": 2,
+   "summary": "With Egypt falling, the grain dole abolished and plague and famine in the capital, Heraclius loaded treasure onto ships bound for Carthage in 618-619. Nikephoros says the people and Patriarch Sergius persuaded him to swear in Hagia Sophia never to abandon the city; a storm sank the treasure ships.",
+   "loc": [
+    28.9784,
+    41.0082
+   ],
+   "locName": "Constantinople",
+   "locCertainty": "certain",
+   "people": [
+    "heraclius",
+    "sergius_of_constantinople"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Nikephoros",
+     "w": "Short History",
+     "r": "8"
+    }
+   ],
+   "certainty": "probable",
+   "tags": []
+  },
+  {
+   "id": "revolt_of_eleutherius_619",
+   "year": 619,
+   "endYear": null,
+   "title": "Revolt of the exarch Eleutherius",
+   "type": "usurpation",
+   "cats": [
+    "political",
+    "military"
+   ],
+   "importance": 2,
+   "summary": "After the exarch John was murdered in Ravenna in 615, the eunuch Eleutherius punished the killers and crushed the revolt of John of Conza at Naples. In 619 he proclaimed himself emperor and set out to be crowned in Rome, but his own soldiers killed him at Castrum Luceoli and sent his head to Heraclius.",
+   "loc": [
+    12.199,
+    44.418
+   ],
+   "locName": "Ravenna",
+   "locCertainty": "certain",
+   "people": [
+    "eleutherius_exarch",
+    "heraclius"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "Liber Pontificalis",
+     "r": "70-71"
+    }
+   ],
+   "certainty": "certain",
+   "tags": []
+  },
+  {
+   "id": "church_plate_coined_622",
+   "year": 622,
+   "endYear": null,
+   "title": "Heraclius borrows the church treasures",
+   "type": "economic",
+   "cats": [
+    "economic",
+    "religious"
+   ],
+   "importance": 3,
+   "summary": "To finance the counter-offensive, Patriarch Sergius lent Heraclius the treasures of the churches; candelabra and plate were melted into gold nomismata and silver hexagrams, and pay was halved. The loan, a precedent for church-state crisis finance, was repaid after victory by the restoration of revenues.",
+   "loc": [
+    28.9784,
+    41.0082
+   ],
+   "locName": "Constantinople",
+   "locCertainty": "certain",
+   "war": "roman_sasanian_war_602",
+   "people": [
+    "heraclius",
+    "sergius_of_constantinople"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Theophanes",
+     "w": "Chronicle",
+     "r": "AM 6113"
+    },
+    {
+     "a": "Chronicon Paschale",
+     "w": "Chronicon Paschale",
+     "r": "s.a. 615"
+    }
+   ],
+   "certainty": "probable",
+   "tags": []
+  },
+  {
+   "id": "kingdom_of_samo_623",
+   "year": 623,
+   "endYear": 658,
+   "title": "Samo and the revolt of the Wends",
+   "type": "revolt",
+   "cats": [
+    "military",
+    "political"
+   ],
+   "importance": 3,
+   "summary": "Fredegar relates that the Frankish merchant Samo joined the Wends (western Slavs), who were rebelling against Avar exploitation, led them to victory and was made their king around 623, reigning 35 years with twelve Slav wives. His kingdom, probably centred in Moravia or Bohemia, is the first recorded Slavic polity.",
+   "loc": [
+    17.0,
+    49.0
+   ],
+   "locName": "Moravia or Bohemia",
+   "locCertainty": "approx",
+   "people": [
+    "samo"
+   ],
+   "polities": [
+    "slavs",
+    "avars"
+   ],
+   "sources": [
+    {
+     "a": "Fredegar",
+     "w": "Chronicle",
+     "r": "4.48"
+    }
+   ],
+   "certainty": "probable",
+   "tags": []
+  },
+  {
+   "id": "heraclius_winters_in_albania_624",
+   "year": 624,
+   "endYear": null,
+   "title": "Heraclius winters in Caucasian Albania",
+   "type": "campaign",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "After sacking Ganzak and Takht-i Suleiman, Heraclius withdrew north into Caucasian Albania for the winter of 624-625 rather than retreating home. Theophanes says he released 50,000 captives there; Movses Daskhurantsi describes his army's presence. From Albania he summoned allies from Lazica, Abasgia and Iberia.",
+   "loc": [
+    47.1,
+    40.4
+   ],
+   "locName": "Caucasian Albania (Partaw region)",
+   "locCertainty": "approx",
+   "war": "roman_sasanian_war_602",
+   "people": [
+    "heraclius"
+   ],
+   "polities": [
+    "rome_east",
+    "caucasian_albania",
+    "sasanian"
+   ],
+   "sources": [
+    {
+     "a": "Theophanes",
+     "w": "Chronicle",
+     "r": "AM 6114"
+    },
+    {
+     "a": "Movses Daskhurantsi",
+     "w": "History of the Caucasian Albanians",
+     "r": "2.10"
+    }
+   ],
+   "certainty": "probable",
+   "tags": []
+  },
+  {
+   "id": "isidore_history_of_the_goths_624",
+   "year": 624,
+   "endYear": null,
+   "title": "Isidore's History of the Goths",
+   "type": "literary",
+   "cats": [
+    "literature"
+   ],
+   "importance": 2,
+   "summary": "Isidore wrote his History of the Goths, Vandals and Suebi in a longer version ending with Suintila's expulsion of the Romans in 624-625. Its prefatory Laus Spaniae, praising Spain as the fairest of lands now wedded to the Goths, is a founding text of Spanish identity.",
+   "loc": [
+    -5.9845,
+    37.3891
+   ],
+   "locName": "Hispalis (Seville)",
+   "locCertainty": "certain",
+   "people": [
+    "isidore_of_seville",
+    "suintila"
+   ],
+   "polities": [
+    "visigothic_kingdom"
+   ],
+   "sources": [
+    {
+     "a": "Isidore of Seville",
+     "w": "History of the Goths",
+     "r": "Laus Spaniae, 62"
+    }
+   ],
+   "certainty": "certain",
+   "tags": []
+  },
+  {
+   "id": "battle_of_badr",
+   "year": 624,
+   "month": 3,
+   "endYear": null,
+   "title": "Battle of Badr",
+   "type": "battle",
+   "cats": [
+    "military",
+    "religious"
+   ],
+   "importance": 3,
+   "summary": "In March 624 (Ramadan 2 AH) about 313 Muslims from Medina, intending to intercept a Meccan caravan, defeated a relief force of around 950 Quraysh at the wells of Badr. Abu Jahl and other Meccan leaders were killed. The Qur'an (8) presents the victory as divine vindication, and it made Muhammad the leading power of the Hijaz.",
+   "loc": [
+    38.776,
+    23.78
+   ],
+   "locName": "Badr",
+   "locCertainty": "probable",
+   "people": [
+    "muhammad"
+   ],
+   "polities": [
+    "medinan_state",
+    "arab_tribes"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "medinan_state",
+      "commanders": [
+       "muhammad"
+      ],
+      "strength": "c. 313",
+      "losses": "c. 14"
+     },
+     {
+      "polity": "arab_tribes",
+      "commanders": [],
+      "strength": "c. 950 Quraysh",
+      "losses": "c. 70 killed, 70 captured"
+     }
+    ],
+    "victor": "medinan_state",
+    "kind": "field",
+    "significance": "Established the military credibility of the Medinan community."
+   },
+   "sources": [
+    {
+     "a": "Ibn Ishaq",
+     "w": "Sira (via Ibn Hisham)"
+    },
+    {
+     "a": "al-Waqidi",
+     "w": "Kitab al-Maghazi"
+    },
+    {
+     "a": "Qur'an",
+     "w": "Qur'an",
+     "r": "8"
+    }
+   ],
+   "certainty": "traditional",
+   "tags": []
+  },
+  {
+   "id": "heraclius_defeats_three_persian_armies_625",
+   "year": 625,
+   "endYear": null,
+   "title": "Heraclius defeats three Persian armies",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "In spring 625 Khosrow sent Shahrbaraz, Shahin and Shahraplakan to trap Heraclius in the Caucasus. Heraclius beat Shahraplakan, who was killed, then Shahrbaraz, and evaded Shahin, before marching through Syunik and Arzanene and crossing the Taurus to the decisive encounter on the Sarus.",
+   "loc": [
+    45.5,
+    39.5
+   ],
+   "locName": "Persarmenia and Syunik",
+   "locCertainty": "approx",
+   "war": "roman_sasanian_war_602",
+   "people": [
+    "heraclius",
+    "shahrbaraz",
+    "shahin"
+   ],
+   "polities": [
+    "rome_east",
+    "sasanian"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome_east",
+      "commanders": [
+       "heraclius"
+      ],
+      "strength": "unknown",
+      "losses": "unknown"
+     },
+     {
+      "polity": "sasanian",
+      "commanders": [
+       "shahrbaraz",
+       "shahin"
+      ],
+      "strength": "three field armies",
+      "losses": "Shahraplakan killed"
+     }
+    ],
+    "victor": "rome_east",
+    "kind": "field",
+    "significance": "Heraclius kept his army intact deep in enemy territory."
+   },
+   "sources": [
+    {
+     "a": "Theophanes",
+     "w": "Chronicle",
+     "r": "AM 6115"
+    },
+    {
+     "a": "Movses Daskhurantsi",
+     "w": "History of the Caucasian Albanians",
+     "r": "2.11"
+    }
+   ],
+   "certainty": "probable",
+   "tags": []
+  },
+  {
+   "id": "isidore_etymologies",
+   "year": 625,
+   "endYear": 636,
+   "title": "Isidore's Etymologies",
+   "type": "literary",
+   "cats": [
+    "literature"
+   ],
+   "importance": 4,
+   "summary": "Isidore of Seville's Etymologiae, an encyclopaedia in 20 books (as divided by his editor Braulio of Zaragoza) covering grammar, medicine, law, theology, animals, geography, warfare and agriculture through the supposed origins of words, was left unfinished at his death in 636. It became after the Bible the most copied book of the early Middle Ages, transmitting fragments of lost Roman learning.",
+   "loc": [
+    -5.9845,
+    37.3891
+   ],
+   "locName": "Hispalis (Seville)",
+   "locCertainty": "certain",
+   "people": [
+    "isidore_of_seville"
+   ],
+   "polities": [
+    "visigothic_kingdom"
+   ],
+   "sources": [
+    {
+     "a": "Isidore of Seville",
+     "w": "Etymologies"
+    },
+    {
+     "a": "Braulio of Zaragoza",
+     "w": "Renotatio librorum Isidori"
+    }
+   ],
+   "certainty": "certain",
+   "tags": []
+  },
+  {
+   "id": "battle_of_uhud",
+   "year": 625,
+   "month": 3,
+   "endYear": null,
+   "title": "Battle of Uhud",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "A Meccan army of some 3,000 under Abu Sufyan attacked Medina in March 625. The Muslims held the slope of Mount Uhud until archers left their post to plunder and the Meccan cavalry under Khalid ibn al-Walid broke their rear. Muhammad was wounded and his uncle Hamza killed, but the Meccans did not exploit their victory.",
+   "loc": [
+    39.613,
+    24.504
+   ],
+   "locName": "Mount Uhud, Medina",
+   "locCertainty": "certain",
+   "people": [
+    "muhammad",
+    "khalid_ibn_al_walid"
+   ],
+   "polities": [
+    "medinan_state",
+    "arab_tribes"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "medinan_state",
+      "commanders": [
+       "muhammad"
+      ],
+      "strength": "c. 700",
+      "losses": "c. 70"
+     },
+     {
+      "polity": "arab_tribes",
+      "commanders": [
+       "khalid_ibn_al_walid"
+      ],
+      "strength": "c. 3,000",
+      "losses": "c. 22"
+     }
+    ],
+    "victor": "arab_tribes",
+    "kind": "field",
+    "significance": "Khalid's first appearance as a cavalry commander."
+   },
+   "sources": [
+    {
+     "a": "Ibn Ishaq",
+     "w": "Sira (via Ibn Hisham)"
+    },
+    {
+     "a": "al-Waqidi",
+     "w": "Kitab al-Maghazi"
+    },
+    {
+     "a": "Qur'an",
+     "w": "Qur'an",
+     "r": "3"
+    }
+   ],
+   "certainty": "traditional",
+   "tags": []
+  },
+  {
+   "id": "theodore_defeats_shahin_626",
+   "year": 626,
+   "endYear": null,
+   "title": "Theodore defeats Shahin",
+   "type": "battle",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "While Shahrbaraz waited at Chalcedon for the Avar assault, Heraclius sent his brother Theodore against Shahin's army, which was defeated in 626, Theophanes says with help from a hailstorm. Shahin died soon afterwards, and Khosrow, enraged, had his body preserved in salt to abuse it. Constantinople was thus spared a second Persian army on the Asian shore.",
+   "loc": [
+    39.0,
+    40.0
+   ],
+   "locName": "Northern Anatolia",
+   "locCertainty": "approx",
+   "war": "roman_sasanian_war_602",
+   "people": [
+    "theodore_brother_of_heraclius",
+    "shahin"
+   ],
+   "polities": [
+    "rome_east",
+    "sasanian"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "rome_east",
+      "commanders": [
+       "theodore_brother_of_heraclius"
+      ],
+      "strength": "unknown",
+      "losses": "unknown"
+     },
+     {
+      "polity": "sasanian",
+      "commanders": [
+       "shahin"
+      ],
+      "strength": "unknown",
+      "losses": "unknown"
+     }
+    ],
+    "victor": "rome_east",
+    "kind": "field",
+    "significance": "Removed one of the two Persian armies converging on Constantinople."
+   },
+   "sources": [
+    {
+     "a": "Theophanes",
+     "w": "Chronicle",
+     "r": "AM 6117"
+    }
+   ],
+   "certainty": "probable",
+   "tags": []
+  },
+  {
+   "id": "battle_of_the_trench",
+   "year": 627,
+   "endYear": null,
+   "title": "Siege of Medina: the Battle of the Trench",
+   "type": "siege",
+   "cats": [
+    "military"
+   ],
+   "importance": 2,
+   "summary": "In 627 a confederacy of Quraysh and Bedouin allies, perhaps 10,000 strong, besieged Medina, which Muhammad had protected with a trench, a stratagem tradition credits to the Persian convert Salman. After two weeks of stalemate and bad weather the coalition dispersed; the Jewish tribe of Qurayza, accused of treason, was then destroyed.",
+   "loc": [
+    39.598,
+    24.48
+   ],
+   "locName": "Medina",
+   "locCertainty": "certain",
+   "people": [
+    "muhammad"
+   ],
+   "polities": [
+    "medinan_state",
+    "arab_tribes"
+   ],
+   "battle": {
+    "sides": [
+     {
+      "polity": "medinan_state",
+      "commanders": [
+       "muhammad"
+      ],
+      "strength": "c. 3,000",
+      "losses": "unknown"
+     },
+     {
+      "polity": "arab_tribes",
+      "commanders": [],
+      "strength": "c. 10,000 (tradition)",
+      "losses": "unknown"
+     }
+    ],
+    "victor": "medinan_state",
+    "kind": "siege",
+    "significance": "Last Meccan offensive."
+   },
+   "sources": [
+    {
+     "a": "Ibn Ishaq",
+     "w": "Sira (via Ibn Hisham)"
+    },
+    {
+     "a": "al-Waqidi",
+     "w": "Kitab al-Maghazi"
+    },
+    {
+     "a": "Qur'an",
+     "w": "Qur'an",
+     "r": "33"
+    }
+   ],
+   "certainty": "traditional",
+   "tags": []
+  },
+  {
+   "id": "sack_of_dastagird_628",
+   "year": 628,
+   "month": 1,
+   "endYear": null,
+   "title": "Heraclius sacks Dastagird",
+   "type": "campaign",
+   "cats": [
+    "military"
+   ],
+   "importance": 3,
+   "summary": "After Nineveh, Heraclius marched on Khosrow's favourite residence at Dastagird, which Khosrow abandoned. The Romans plundered its treasures, menageries and paradises, freed captives including Edessenes, and recovered 300 Roman standards taken over the previous decades before burning the palace in January 628. Khosrow's flight destroyed his prestige and precipitated his fall.",
+   "loc": [
+    44.83,
+    33.93
+   ],
+   "locName": "Dastagird",
+   "locCertainty": "approx",
+   "war": "roman_sasanian_war_602",
+   "people": [
+    "heraclius",
+    "khosrow_ii"
+   ],
+   "polities": [
+    "rome_east",
+    "sasanian"
+   ],
+   "sources": [
+    {
+     "a": "Theophanes",
+     "w": "Chronicle",
+     "r": "AM 6118"
+    },
+    {
+     "a": "Chronicon Paschale",
+     "w": "Chronicon Paschale",
+     "r": "s.a. 628"
+    }
+   ],
+   "certainty": "certain",
+   "tags": []
+  },
+  {
+   "id": "treaty_of_hudaybiyya_628",
+   "year": 628,
+   "month": 3,
+   "endYear": null,
+   "title": "Treaty of al-Hudaybiyya",
+   "type": "treaty",
+   "cats": [
+    "diplomatic",
+    "religious"
+   ],
+   "importance": 3,
+   "summary": "In March 628 Muhammad led about 1,400 followers toward Mecca for pilgrimage and, halted at al-Hudaybiyya, concluded a ten-year truce with the Quraysh allowing pilgrimage the following year. Although the terms disappointed his followers, the truce freed him to conquer the Jewish oasis of Khaybar and attract tribes to his cause.",
+   "loc": [
+    39.615,
+    21.443
+   ],
+   "locName": "al-Hudaybiyya (al-Shumaysi)",
+   "locCertainty": "probable",
+   "people": [
+    "muhammad",
+    "umar"
+   ],
+   "polities": [
+    "medinan_state",
+    "arab_tribes"
+   ],
+   "sources": [
+    {
+     "a": "Ibn Ishaq",
+     "w": "Sira (via Ibn Hisham)"
+    },
+    {
+     "a": "al-Waqidi",
+     "w": "Kitab al-Maghazi"
+    },
+    {
+     "a": "Qur'an",
+     "w": "Qur'an",
+     "r": "48"
+    }
+   ],
+   "certainty": "traditional",
+   "tags": []
+  },
+  {
+   "id": "death_of_kavad_ii_628",
+   "year": 628,
+   "month": 9,
+   "endYear": null,
+   "title": "Death of Kavad II and the Persian plague",
+   "type": "death",
+   "cats": [
+    "political",
+    "disaster"
+   ],
+   "importance": 3,
+   "summary": "Kavad II (Sheroe), who had killed his father and some seventeen brothers to secure his throne, died in September 628 after a reign of about seven months, apparently during a plague that ravaged Mesopotamia. His seven-year-old son Ardashir III succeeded under the regent Mah-Adhur Gushnasp, inaugurating four years of chaos in which at least eight rulers claimed the throne.",
+   "loc": [
+    44.58,
+    33.093
+   ],
+   "locName": "Ctesiphon",
+   "locCertainty": "certain",
+   "people": [
+    "kavad_ii",
+    "ardashir_iii"
+   ],
+   "polities": [
+    "sasanian"
+   ],
+   "sources": [
+    {
+     "a": "Tabari",
+     "w": "History",
+     "r": "I 1060-1061"
+    },
+    {
+     "a": "Sebeos",
+     "w": "History",
+     "r": "127"
+    },
+    {
+     "a": "Chronicle of Khuzistan",
+     "w": "Chronicle of Khuzistan"
+    }
+   ],
+   "certainty": "certain",
+   "tags": []
+  },
+  {
+   "id": "heraclius_returns_to_constantinople_628",
+   "year": 628,
+   "month": 9,
+   "endYear": null,
+   "title": "Heraclius's triumphant return to Constantinople",
+   "type": "political",
+   "cats": [
+    "political",
+    "military",
+    "religious"
+   ],
+   "importance": 3,
+   "summary": "In September 628 Heraclius returned from six years of campaigning and was met at Hieria on the Asian shore by his son Constantine and the people of the capital with olive branches and candles. Theophanes says four elephants, perhaps from the Persian royal stables, were paraded in the Hippodrome.",
+   "loc": [
+    28.9784,
+    41.0082
+   ],
+   "locName": "Constantinople",
+   "locCertainty": "certain",
+   "war": "roman_sasanian_war_602",
+   "people": [
+    "heraclius",
+    "constantine_iii_heraclius"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "Theophanes",
+     "w": "Chronicle",
+     "r": "AM 6119"
+    },
+    {
+     "a": "Nikephoros",
+     "w": "Short History",
+     "r": "19"
+    }
+   ],
+   "debate": "Some place the triumph in 629.",
+   "certainty": "probable",
+   "tags": []
+  },
+  {
+   "id": "dagobert_sole_king_629",
+   "year": 629,
+   "endYear": null,
+   "title": "Dagobert I sole king of the Franks",
+   "type": "accession",
+   "cats": [
+    "political"
+   ],
+   "importance": 2,
+   "summary": "On the death of Chlothar II in 629, his son Dagobert, already king of Austrasia since 623, took Neustria and Burgundy and moved to Paris. The last Merovingian to rule effectively, he patronised Saint-Denis, issued coinage at many mints, and appears in Fredegar receiving Heraclius's warning about a circumcised people.",
+   "loc": [
+    2.349,
+    48.853
+   ],
+   "locName": "Paris",
+   "locCertainty": "certain",
+   "people": [
+    "dagobert_i",
+    "chlothar_ii"
+   ],
+   "polities": [
+    "frankish_kingdom"
+   ],
+   "sources": [
+    {
+     "a": "Fredegar",
+     "w": "Chronicle",
+     "r": "4.56-60, 4.65"
+    }
+   ],
+   "certainty": "certain",
+   "tags": []
+  },
+  {
+   "id": "heraclias_of_george_of_pisidia",
+   "year": 629,
+   "endYear": null,
+   "title": "George of Pisidia's Heraclias",
+   "type": "literary",
+   "cats": [
+    "literature"
+   ],
+   "importance": 2,
+   "summary": "The deacon George of Pisidia, a court poet in Patriarch Sergius's circle, composed the Heraclias in 628-629 celebrating the victory over Khosrow as Heraclius's labours of Hercules. With his earlier Expeditio Persica and Bellum Avaricum, these classicising iambic poems are contemporary witnesses to the war.",
+   "loc": [
+    28.9784,
+    41.0082
+   ],
+   "locName": "Constantinople",
+   "locCertainty": "certain",
+   "people": [
+    "george_of_pisidia",
+    "heraclius"
+   ],
+   "polities": [
+    "rome_east"
+   ],
+   "sources": [
+    {
+     "a": "George of Pisidia",
+     "w": "Heraclias"
+    }
+   ],
+   "certainty": "certain",
+   "tags": []
+  }
+ ]
+}

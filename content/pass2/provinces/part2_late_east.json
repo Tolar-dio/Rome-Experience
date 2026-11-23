@@ -1,0 +1,2960 @@
+{
+ "provinces": [
+  {
+   "id": "prov_syria_prima",
+   "name": "Syria (Coele), later Syria Prima",
+   "type": "province",
+   "created": 293,
+   "createdNote": "Diocletianic Syria (Coele), attested in the Verona List",
+   "ended": 637,
+   "endedNote": "Arab conquest 636-637",
+   "capital": "antiochia",
+   "capitalName": "Antiochia",
+   "labelLoc": [
+    36.8,
+    36.1
+   ],
+   "governor": "consularis (Notitia); the comes Orientis resided at Antioch",
+   "phases": [
+    {
+     "from": 293,
+     "to": 400,
+     "t": "Syria (Coele) of the diocese of Oriens; Julian's quarrel with Antioch (Misopogon, 363); Riot of the Statues (387)"
+    },
+    {
+     "from": 400,
+     "to": 528,
+     "t": "Syria Prima after Syria Salutaris was separated; earthquake and fire of May 526"
+    },
+    {
+     "from": 528,
+     "to": 611,
+     "t": "Theodorias carved from its coast (528); Khosrow I sacks Antioch (540) and deports its people to Veh-Antiok-Khosrow"
+    },
+    {
+     "from": 611,
+     "to": 630,
+     "t": "Persian occupation"
+    },
+    {
+     "from": 630,
+     "to": 637,
+     "t": "restored; Antioch surrendered to the Arabs after the Yarmuk"
+    }
+   ],
+   "diocese": "Oriens",
+   "prefecture": "Oriens",
+   "parent": "prov_syria_coele",
+   "successors": [
+    "prov_syria_salutaris",
+    "prov_theodorias"
+   ],
+   "summary": "Antioch was the third city of the empire and seat of the comes Orientis and the magister militum per Orientem, so its governor was overshadowed by great men. The Riot of the Statues in 387 produced John Chrysostom's homilies; the earthquake of 526, said by Malalas to have killed 250,000, and Khosrow's sack of 540 broke the city. The limestone massif to the east, with Simeon the Stylite's pillar at Telanissos, preserves hundreds of late Roman olive-growing villages.",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Orientis",
+     "r": "1-2"
+    },
+    {
+     "a": "Libanius",
+     "w": "Orationes",
+     "r": "19-23"
+    },
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "2.8-10"
+    }
+   ]
+  },
+  {
+   "id": "prov_syria_salutaris",
+   "name": "Syria Salutaris (Syria Secunda)",
+   "type": "province",
+   "created": 400,
+   "createdNote": "by c. 400 (listed in the Notitia Dignitatum); often dated c. 415",
+   "ended": 637,
+   "endedNote": "Arab conquest 636-637",
+   "capital": "apamea_syria",
+   "capitalName": "Apamea",
+   "labelLoc": [
+    36.6,
+    35.3
+   ],
+   "governor": "praeses (Notitia); consularis later",
+   "phases": [
+    {
+     "from": 400,
+     "to": 540,
+     "t": "province of the Orontes valley: Apamea, Epiphania, Larissa, Arethusa, Raphanea"
+    },
+    {
+     "from": 540,
+     "to": 611,
+     "t": "Khosrow I at Apamea (540); sacked by the Persian general Adarmahan (573)"
+    },
+    {
+     "from": 611,
+     "to": 630,
+     "t": "Persian occupation"
+    },
+    {
+     "from": 630,
+     "to": 637,
+     "t": "restored; Arab conquest"
+    }
+   ],
+   "diocese": "Oriens",
+   "prefecture": "Oriens",
+   "parent": "prov_syria_prima",
+   "successors": [],
+   "summary": "The middle Orontes, centred on Apamea, the Seleucid cavalry depot and later a centre of Neoplatonism. Procopius tells how in 540 bishop Thomas paraded the city's relic of the True Cross, which flamed without burning, and Khosrow contented himself with plunder. The Persian sack of 573 carried off much of its population.",
+   "certainty": "probable",
+   "sources": [
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Orientis",
+     "r": "1-2"
+    },
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "2.11"
+    },
+    {
+     "a": "Evagrius",
+     "w": "Historia Ecclesiastica",
+     "r": "4.26; 5.9"
+    }
+   ]
+  },
+  {
+   "id": "prov_theodorias",
+   "name": "Theodorias",
+   "type": "province",
+   "created": 528,
+   "createdNote": "Justinian, 528 (Malalas 18)",
+   "ended": 638,
+   "endedNote": "Arab conquest 637-638",
+   "capital": "laodicea_syria",
+   "capitalName": "Laodicea ad Mare",
+   "labelLoc": [
+    35.95,
+    35.4
+   ],
+   "governor": "praeses",
+   "phases": [
+    {
+     "from": 528,
+     "to": 611,
+     "t": "created by Justinian from the coast of Syria I and named for Theodora"
+    },
+    {
+     "from": 611,
+     "to": 630,
+     "t": "Persian occupation"
+    },
+    {
+     "from": 630,
+     "to": 638,
+     "t": "restored; Arab conquest of the coast"
+    }
+   ],
+   "diocese": "Oriens",
+   "prefecture": "Oriens",
+   "parent": "prov_syria_prima",
+   "successors": [],
+   "summary": "A small coastal province named for the empress Theodora, created in 528 out of Laodicea, Gabala, Paltos and Balaneae, partly as relief after the earthquakes of 526 and 528 at Antioch. It is a good example of Justinian's habit of naming cities and provinces after himself and his wife.",
+   "certainty": "probable",
+   "sources": [
+    {
+     "a": "John Malalas",
+     "w": "Chronographia",
+     "r": "18"
+    },
+    {
+     "a": "Hierocles",
+     "w": "Synecdemus",
+     "r": ""
+    }
+   ]
+  },
+  {
+   "id": "prov_euphratensis",
+   "name": "Augusta Euphratensis",
+   "type": "province",
+   "created": 314,
+   "createdNote": "listed in the Verona List (c. 314)",
+   "ended": 637,
+   "endedNote": "Arab conquest 637-638",
+   "capital": "hierapolis_bambyce",
+   "capitalName": "Hierapolis (Mabbug)",
+   "labelLoc": [
+    38.0,
+    36.6
+   ],
+   "governor": "praeses",
+   "phases": [
+    {
+     "from": 314,
+     "to": 540,
+     "t": "Commagene and Cyrrhestice: Samosata, Zeugma, Cyrrhus, Germanicia, Sergiopolis"
+    },
+    {
+     "from": 540,
+     "to": 611,
+     "t": "Hierapolis ransoms itself from Khosrow I (540); Sergiopolis a Ghassanid and imperial pilgrimage centre"
+    },
+    {
+     "from": 611,
+     "to": 630,
+     "t": "Persian occupation"
+    },
+    {
+     "from": 630,
+     "to": 637,
+     "t": "restored; Hierapolis surrendered to the Arabs (637)"
+    }
+   ],
+   "diocese": "Oriens",
+   "prefecture": "Oriens",
+   "parent": "prov_syria_coele",
+   "successors": [],
+   "summary": "The Euphrates crossings of north Syria, including old Commagene (Lucian came from Samosata). Theodoret, bishop of Cyrrhus 423-c. 457, describes its holy men in his Religious History. Sergiopolis (Resafa) in the steppe, with the shrine of St Sergius, drew gifts from Justinian and from Khosrow II alike and was the meeting place of the Ghassanid confederation.",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Orientis",
+     "r": "1-2"
+    },
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "2.6; 2.20"
+    },
+    {
+     "a": "Theodoret",
+     "w": "Historia Religiosa",
+     "r": ""
+    }
+   ]
+  },
+  {
+   "id": "prov_phoenice",
+   "name": "Phoenice",
+   "type": "province",
+   "created": 293,
+   "createdNote": "Diocletianic; listed in the Verona List",
+   "ended": 637,
+   "endedNote": "Arab conquest 635-637",
+   "capital": "tyrus",
+   "capitalName": "Tyrus",
+   "labelLoc": [
+    35.4,
+    33.4
+   ],
+   "governor": "consularis (Notitia)",
+   "phases": [
+    {
+     "from": 293,
+     "to": 551,
+     "t": "coastal Phoenicia: Tyre, Sidon, Berytus, Byblos, Tripolis, Paneas"
+    },
+    {
+     "from": 551,
+     "to": 611,
+     "t": "Berytus wrecked by the earthquake and tsunami of 9 July 551, ending its law school"
+    },
+    {
+     "from": 611,
+     "to": 630,
+     "t": "Persian occupation"
+    },
+    {
+     "from": 630,
+     "to": 637,
+     "t": "restored; Arab conquest"
+    }
+   ],
+   "diocese": "Oriens",
+   "prefecture": "Oriens",
+   "parent": "prov_syria_phoenice",
+   "successors": [],
+   "summary": "The Phoenician coast, famous for Tyrian purple, silk weaving and the law school of Berytus, where future lawyers of the eastern empire studied for five years; two of Justinian's Digest commissioners, Dorotheus and Anatolius, taught there. The 551 earthquake destroyed Berytus and the school moved to Sidon.",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Orientis",
+     "r": "1-2"
+    },
+    {
+     "a": "Agathias",
+     "w": "Histories",
+     "r": "2.15"
+    },
+    {
+     "a": "Justinian",
+     "w": "Constitutio Omnem",
+     "r": "7"
+    }
+   ]
+  },
+  {
+   "id": "prov_phoenice_libanensis",
+   "name": "Augusta Libanensis / Phoenice Libanensis",
+   "type": "province",
+   "created": 314,
+   "createdNote": "Verona List (Augusta Libanensis); Phoenice Libanensis in the Notitia",
+   "ended": 636,
+   "endedNote": "Arab conquest 635-636",
+   "capital": "emesa",
+   "capitalName": "Emesa (Damascus co-metropolis)",
+   "labelLoc": [
+    37.2,
+    34.3
+   ],
+   "governor": "praeses; dux Phoenices at Palmyra",
+   "phases": [
+    {
+     "from": 314,
+     "to": 611,
+     "t": "the inland province: Emesa, Damascus, Heliopolis, Palmyra (Diocletian's camp with legio I Illyricorum)"
+    },
+    {
+     "from": 611,
+     "to": 630,
+     "t": "Persian occupation"
+    },
+    {
+     "from": 630,
+     "to": 636,
+     "t": "restored; Damascus fell in September 635, Emesa in 636"
+    }
+   ],
+   "diocese": "Oriens",
+   "prefecture": "Oriens",
+   "parent": "prov_syria_phoenice",
+   "successors": [],
+   "summary": "Inland Syria behind Lebanon, including the desert frontier of the Strata Diocletiana, whose road and forts ran from Palmyra to Damascus. Heliopolis (Baalbek) kept its great pagan sanctuary until Theodosius I. The Verona List calls it Augusta Libanensis; it may have been abolished and recreated before c. 400.",
+   "certainty": "probable",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Orientis",
+     "r": "1-2"
+    }
+   ]
+  },
+  {
+   "id": "prov_palaestina_prima",
+   "name": "Palaestina Prima",
+   "type": "province",
+   "created": 390,
+   "createdNote": "created c. 390-400 when Palaestina was divided (tres Palaestinae attested 409)",
+   "ended": 640,
+   "endedNote": "Arab conquest 634-640/641",
+   "capital": "caesarea_maritima",
+   "capitalName": "Caesarea Maritima",
+   "labelLoc": [
+    35.0,
+    31.9
+   ],
+   "governor": "consularis; proconsul from 536 (Novel 103)",
+   "phases": [
+    {
+     "from": 390,
+     "to": 536,
+     "t": "Judaea, Samaria and the coast with Jerusalem and Gaza; Samaritan revolts (484, 529-530)"
+    },
+    {
+     "from": 536,
+     "to": 614,
+     "t": "proconsul of Palaestina (Novel 103), with authority over the troops in emergencies; Samaritan revolt of 556"
+    },
+    {
+     "from": 614,
+     "to": 628,
+     "t": "Persian conquest; Jerusalem sacked in May 614 and the True Cross taken to Ctesiphon"
+    },
+    {
+     "from": 628,
+     "to": 640,
+     "t": "restored; Heraclius returned the Cross to Jerusalem (March 630); Arab conquest (Ajnadayn 634, Jerusalem 637/638, Caesarea 640/641)"
+    }
+   ],
+   "diocese": "Oriens",
+   "prefecture": "Oriens",
+   "parent": "prov_judaea",
+   "successors": [],
+   "summary": "The Holy Land of the Christian empire: Constantine's Church of the Holy Sepulchre (dedicated 335), the empress Eudocia's residence in Jerusalem, a patriarchate from 451, and the rhetorical school of Gaza. Its Samaritan revolts were crushed with great slaughter, and Justinian's Novel 103 gave its governor proconsular rank in response. Jerusalem's surrender to Umar was negotiated by the patriarch Sophronius.",
+   "certainty": "probable",
+   "sources": [
+    {
+     "a": "Justinian",
+     "w": "Novellae",
+     "r": "103"
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Orientis",
+     "r": "1-2"
+    },
+    {
+     "a": "Procopius",
+     "w": "Buildings",
+     "r": "5.7"
+    },
+    {
+     "a": "Antiochus Strategos",
+     "w": "Capture of Jerusalem",
+     "r": ""
+    }
+   ]
+  },
+  {
+   "id": "prov_palaestina_secunda",
+   "name": "Palaestina Secunda",
+   "type": "province",
+   "created": 390,
+   "createdNote": "c. 390-400",
+   "ended": 636,
+   "endedNote": "Arab conquest 635-636",
+   "capital": "scythopolis",
+   "capitalName": "Scythopolis",
+   "labelLoc": [
+    35.5,
+    32.6
+   ],
+   "governor": "praeses (Notitia); later consularis",
+   "phases": [
+    {
+     "from": 390,
+     "to": 614,
+     "t": "Galilee, the Golan and the western Decapolis; the Jewish patriarchate at Tiberias until c. 425"
+    },
+    {
+     "from": 614,
+     "to": 628,
+     "t": "Persian occupation"
+    },
+    {
+     "from": 628,
+     "to": 636,
+     "t": "restored; Arab victories at Pella/Fahl (635) and the Yarmuk (636)"
+    }
+   ],
+   "diocese": "Oriens",
+   "prefecture": "Oriens",
+   "parent": "prov_judaea",
+   "successors": [],
+   "summary": "The north of Palestine, with Scythopolis and the lake of Tiberias, where the Jerusalem Talmud was completed and the patriarchs of the Jewish community sat until the office lapsed c. 425. The decisive Arab victory on the Yarmuk (August 636) was fought on its eastern edge.",
+   "certainty": "probable",
+   "sources": [
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Orientis",
+     "r": "1-2"
+    }
+   ]
+  },
+  {
+   "id": "prov_palaestina_salutaris",
+   "name": "Palaestina Salutaris (Tertia)",
+   "type": "province",
+   "created": 358,
+   "createdNote": "c. 357-358, from parts of Arabia and Palaestina",
+   "ended": 636,
+   "endedNote": "lost 630-636",
+   "capital": "petra",
+   "capitalName": "Petra",
+   "labelLoc": [
+    35.0,
+    30.5
+   ],
+   "governor": "praeses; dux Palaestinae commanded the troops",
+   "phases": [
+    {
+     "from": 358,
+     "to": 409,
+     "t": "Palaestina Salutaris: the Negev, southern Transjordan, Sinai, Aila (legio X Fretensis)"
+    },
+    {
+     "from": 409,
+     "to": 630,
+     "t": "renamed Palaestina Tertia; Justinian's fortified monastery on Sinai (548-565)"
+    },
+    {
+     "from": 630,
+     "to": 636,
+     "t": "Aila submitted to Muhammad at Tabuk (630); the rest lost by 636"
+    }
+   ],
+   "diocese": "Oriens",
+   "prefecture": "Oriens",
+   "parent": "prov_judaea",
+   "successors": [],
+   "summary": "The desert south: the Negev towns of Elusa, Nessana and Shivta (whose papyri record taxes, camels and soldiers' pay), Petra, whose carbonised 6th-century papyri were found in 1993, and Sinai, where Justinian built the walled monastery now called St Catherine's. Aila on the Red Sea was the first Roman town to make terms with Muhammad, in 630.",
+   "certainty": "probable",
+   "sources": [
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Orientis",
+     "r": "1-2"
+    },
+    {
+     "a": "Procopius",
+     "w": "Buildings",
+     "r": "5.8"
+    }
+   ]
+  },
+  {
+   "id": "prov_cilicia_prima",
+   "name": "Cilicia (Prima)",
+   "type": "province",
+   "created": 293,
+   "createdNote": "Diocletianic; Verona List",
+   "ended": null,
+   "endedNote": "still Roman in 641; lost to the Arabs in the later 7th century",
+   "capital": "tarsus",
+   "capitalName": "Tarsus",
+   "labelLoc": [
+    34.9,
+    37.0
+   ],
+   "governor": "consularis (Notitia)",
+   "phases": [
+    {
+     "from": 293,
+     "to": 400,
+     "t": "Cilicia of the diocese of Oriens; Julian buried at Tarsus (363)"
+    },
+    {
+     "from": 400,
+     "to": 613,
+     "t": "Cilicia Prima after the creation of Cilicia II; Justinian's flood works on the Cydnus at Tarsus"
+    },
+    {
+     "from": 613,
+     "to": 628,
+     "t": "Persian occupation (Tarsus taken 613)"
+    },
+    {
+     "from": 628,
+     "to": null,
+     "t": "restored; became the Arab-Byzantine frontier zone after 641"
+    }
+   ],
+   "diocese": "Oriens",
+   "prefecture": "Oriens",
+   "parent": "prov_cilicia",
+   "successors": [
+    "prov_cilicia_secunda"
+   ],
+   "summary": "The western Cilician plain with Tarsus, Adana and Pompeiopolis. Julian was buried outside Tarsus after his Persian campaign. In the decades after 641 Cilicia became a no-man's-land between the caliphate and Byzantium.",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Orientis",
+     "r": "1-2"
+    },
+    {
+     "a": "Ammianus Marcellinus",
+     "w": "Res Gestae",
+     "r": "25.10.5"
+    }
+   ]
+  },
+  {
+   "id": "prov_cilicia_secunda",
+   "name": "Cilicia Secunda",
+   "type": "province",
+   "created": 400,
+   "createdNote": "by c. 400 (Notitia); often dated c. 408",
+   "ended": null,
+   "endedNote": "still Roman in 641",
+   "capital": null,
+   "capitalName": "Anazarbus",
+   "labelLoc": [
+    35.9,
+    37.3
+   ],
+   "governor": "praeses",
+   "phases": [
+    {
+     "from": 400,
+     "to": 613,
+     "t": "eastern Cilicia: Anazarbus, Mopsuestia, Aegeae, Epiphania; Anazarbus rebuilt after earthquakes and renamed after Justin I"
+    },
+    {
+     "from": 613,
+     "to": 628,
+     "t": "Persian occupation"
+    },
+    {
+     "from": 628,
+     "to": null,
+     "t": "restored"
+    }
+   ],
+   "diocese": "Oriens",
+   "prefecture": "Oriens",
+   "parent": "prov_cilicia_prima",
+   "successors": [],
+   "summary": "Eastern Cilicia, with Anazarbus and Mopsuestia, home of Theodore of Mopsuestia, whose writings Justinian had condemned in the Three Chapters controversy (553).",
+   "certainty": "probable",
+   "sources": [
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Orientis",
+     "r": "1-2"
+    },
+    {
+     "a": "Hierocles",
+     "w": "Synecdemus",
+     "r": ""
+    }
+   ]
+  },
+  {
+   "id": "prov_isauria",
+   "name": "Isauria",
+   "type": "province",
+   "created": 293,
+   "createdNote": "Diocletianic; Verona List",
+   "ended": null,
+   "endedNote": "still Roman in 641",
+   "capital": null,
+   "capitalName": "Seleucia ad Calycadnum",
+   "labelLoc": [
+    33.4,
+    36.7
+   ],
+   "governor": "praeses with a comes rei militaris; praetor combining civil and military power (Novel 27, 535)",
+   "phases": [
+    {
+     "from": 293,
+     "to": 372,
+     "t": "Rough Cilicia and the Isaurian highlands, including Lycaonia"
+    },
+    {
+     "from": 372,
+     "to": 535,
+     "t": "Lycaonia separated; Isaurian raids (353-354, 404-408); Zeno emperor 474-491; Isaurian war 492-497"
+    },
+    {
+     "from": 535,
+     "to": null,
+     "t": "praetor Iustinianus"
+    }
+   ],
+   "diocese": "Oriens",
+   "prefecture": "Oriens",
+   "parent": null,
+   "successors": [
+    "prov_lycaonia"
+   ],
+   "summary": "Rome never fully tamed the Isaurian highlanders, who raided their neighbours and terrorised Asia Minor in 404-408. Their chieftains became imperial generals: one of them, Tarasicodissa, renamed himself Zeno and became emperor (474-491). Anastasius fought a five-year war (492-497) to break their power and deported many to Thrace.",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Justinian",
+     "w": "Novellae",
+     "r": "27"
+    },
+    {
+     "a": "Ammianus Marcellinus",
+     "w": "Res Gestae",
+     "r": "14.2"
+    },
+    {
+     "a": "Evagrius",
+     "w": "Historia Ecclesiastica",
+     "r": "3.35"
+    }
+   ]
+  },
+  {
+   "id": "prov_aegyptus_iovia",
+   "name": "Aegyptus Iovia / Aegyptus (later I and II)",
+   "type": "province",
+   "created": 314,
+   "createdNote": "Verona List lists Aegyptus Iovia (c. 314)",
+   "ended": 642,
+   "endedNote": "Arab conquest; last Roman troops left Alexandria in September 642",
+   "capital": "alexandria",
+   "capitalName": "Alexandria",
+   "labelLoc": [
+    30.3,
+    30.9
+   ],
+   "governor": "praeses, then governed directly by the praefectus Augustalis; dux et augustalis (Edict 13, c. 539)",
+   "phases": [
+    {
+     "from": 314,
+     "to": 341,
+     "t": "Aegyptus Iovia (western Delta and Alexandria)"
+    },
+    {
+     "from": 341,
+     "to": 539,
+     "t": "Aegyptus; Alexandrian riots, Serapeum destroyed (391/392), Hypatia killed (415); later divided into Aegyptus I and II"
+    },
+    {
+     "from": 539,
+     "to": 619,
+     "t": "Justinian's Edict 13 fuses civil and military command in each Egyptian unit"
+    },
+    {
+     "from": 619,
+     "to": 629,
+     "t": "Persian occupation"
+    },
+    {
+     "from": 629,
+     "to": 642,
+     "t": "restored; Arab conquest (Babylon April 641, treaty of Alexandria November 641, evacuation September 642)"
+    }
+   ],
+   "diocese": "Aegyptus (Oriens before c. 380)",
+   "prefecture": "Oriens",
+   "parent": "prov_aegyptus",
+   "successors": [],
+   "summary": "Alexandria and the western Delta. The province's governor counted for little beside the Augustal prefect and the patriarch, the most powerful bishop of the East, who could fill the streets with monks. Edict 13 fixed the grain tax shipped to Constantinople at 8 million artabae a year. The patriarch Cyrus negotiated the surrender of Alexandria to Amr ibn al-As.",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Justinian",
+     "w": "Edicta",
+     "r": "13"
+    },
+    {
+     "a": "John of Nikiu",
+     "w": "Chronicle",
+     "r": "115-121"
+    }
+   ]
+  },
+  {
+   "id": "prov_augustamnica",
+   "name": "Aegyptus Herculia / Augustamnica",
+   "type": "province",
+   "created": 314,
+   "createdNote": "Herculia in the Verona List; renamed Augustamnica c. 341",
+   "ended": 641,
+   "endedNote": "Arab conquest 640-641",
+   "capital": "pelusium",
+   "capitalName": "Pelusium",
+   "labelLoc": [
+    31.8,
+    30.8
+   ],
+   "governor": "praeses; corrector (Notitia)",
+   "phases": [
+    {
+     "from": 314,
+     "to": 341,
+     "t": "Aegyptus Herculia (eastern Delta and Heptanomia)"
+    },
+    {
+     "from": 341,
+     "to": 619,
+     "t": "Augustamnica; divided into Augustamnica I (Pelusium) and II in the 5th century"
+    },
+    {
+     "from": 619,
+     "to": 629,
+     "t": "Persian occupation"
+    },
+    {
+     "from": 629,
+     "to": 641,
+     "t": "restored; Pelusium taken by Amr ibn al-As after a siege (early 640)"
+    }
+   ],
+   "diocese": "Aegyptus (Oriens before c. 380)",
+   "prefecture": "Oriens",
+   "parent": "prov_aegyptus",
+   "successors": [],
+   "summary": "The eastern Delta and the Sinai coast, guarding the land route from Syria. Pelusium was the door of Egypt: the Persian invasion of 618-619 and Amr's of 639-640 both came that way, and the plague of 541 first appeared there.",
+   "certainty": "probable",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "2.22.6"
+    }
+   ]
+  },
+  {
+   "id": "prov_arcadia",
+   "name": "Arcadia",
+   "type": "province",
+   "created": 386,
+   "createdNote": "between c. 386 and 395",
+   "ended": 641,
+   "endedNote": "Arab conquest 641",
+   "capital": "oxyrhynchus",
+   "capitalName": "Oxyrhynchus",
+   "labelLoc": [
+    30.7,
+    28.8
+   ],
+   "governor": "praeses",
+   "phases": [
+    {
+     "from": 386,
+     "to": 619,
+     "t": "Middle Egypt (Heptanomia) including the Fayum, named for the emperor Arcadius"
+    },
+    {
+     "from": 619,
+     "to": 629,
+     "t": "Persian occupation"
+    },
+    {
+     "from": 629,
+     "to": 641,
+     "t": "restored; Arab conquest"
+    }
+   ],
+   "diocese": "Aegyptus (Oriens before c. 380)",
+   "prefecture": "Oriens",
+   "parent": "prov_aegyptus",
+   "successors": [],
+   "summary": "Middle Egypt, named after Arcadius. Oxyrhynchus has given us more papyri than any other site, from lost Greek literature to the accounts of the great Apion family, whose estates in the 6th century employed thousands and maintained their own postal service, bath-heating and police.",
+   "sources": [
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Orientis",
+     "r": "1-2"
+    }
+   ],
+   "scholarship": [
+    "Sarris, Economy and Society in the Age of Justinian (2006)"
+   ]
+  },
+  {
+   "id": "prov_thebais",
+   "name": "Thebais",
+   "type": "province",
+   "created": 297,
+   "createdNote": "Diocletianic (Verona List)",
+   "ended": 641,
+   "endedNote": "Arab conquest 641",
+   "capital": "antinoopolis",
+   "capitalName": "Antinoopolis (Ptolemais Hermiou in the Upper Thebaid)",
+   "labelLoc": [
+    32.6,
+    26.0
+   ],
+   "governor": "praeses; dux Thebaidos; under Justinian a dux et augustalis",
+   "phases": [
+    {
+     "from": 297,
+     "to": 450,
+     "t": "Upper Egypt; Diocletian withdraws the frontier from the Dodecaschoenus to Philae (298)"
+    },
+    {
+     "from": 450,
+     "to": 619,
+     "t": "divided into Lower and Upper Thebaid; Narses closes the temples of Philae (c. 535-537)"
+    },
+    {
+     "from": 619,
+     "to": 629,
+     "t": "Persian occupation"
+    },
+    {
+     "from": 629,
+     "to": 641,
+     "t": "restored; Arab conquest"
+    }
+   ],
+   "diocese": "Aegyptus (Oriens before c. 380)",
+   "prefecture": "Oriens",
+   "parent": "prov_aegyptus",
+   "successors": [],
+   "summary": "Upper Egypt, the land of Pachomian monasticism and of Shenoute's White Monastery. Diocletian pulled the frontier back to Philae and paid the Nobatae and Blemmyes subsidies; Philae's Isis temple, the last functioning pagan temple of the empire, was closed under Justinian. The 6th-century archive of Dioscorus of Aphrodito, notary and poet, shows village life under its dukes.",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Orientis",
+     "r": "1-2"
+    },
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "1.19.27-37"
+    }
+   ]
+  },
+  {
+   "id": "prov_libya_superior",
+   "name": "Libya Superior (Pentapolis)",
+   "type": "province",
+   "created": 297,
+   "createdNote": "Diocletianic (Verona List)",
+   "ended": 643,
+   "endedNote": "Arab conquest 642-643",
+   "capital": "ptolemais_cyrenaica",
+   "capitalName": "Ptolemais",
+   "labelLoc": [
+    21.5,
+    32.4
+   ],
+   "governor": "praeses; dux Libyarum",
+   "phases": [
+    {
+     "from": 297,
+     "to": 405,
+     "t": "Cyrenaica (Pentapolis); capital moved from Cyrene to Ptolemais"
+    },
+    {
+     "from": 405,
+     "to": 619,
+     "t": "raids of the Austuriani (405-412); Justinian's fortifications"
+    },
+    {
+     "from": 619,
+     "to": 629,
+     "t": "Persian occupation"
+    },
+    {
+     "from": 629,
+     "to": 643,
+     "t": "restored; Amr ibn al-As takes Barca (642/643)"
+    }
+   ],
+   "diocese": "Aegyptus (Oriens before c. 380)",
+   "prefecture": "Oriens",
+   "parent": "prov_creta_et_cyrenaica",
+   "successors": [],
+   "summary": "Cyrenaica in decline: the letters of Synesius, philosopher-bishop of Ptolemais (c. 410-413), describe how he organised the defence of his city against desert raiders when the imperial troops failed. Cyrene itself never recovered from the revolt of 115-117 and the earthquake of 365.",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Synesius",
+     "w": "Epistulae",
+     "r": ""
+    }
+   ]
+  },
+  {
+   "id": "prov_libya_inferior",
+   "name": "Libya Inferior (Libya Sicca, Marmarica)",
+   "type": "province",
+   "created": 297,
+   "createdNote": "Diocletianic (Verona List)",
+   "ended": 642,
+   "endedNote": "Arab conquest 642",
+   "capital": null,
+   "capitalName": "Paraetonium",
+   "labelLoc": [
+    26.5,
+    31.2
+   ],
+   "governor": "praeses",
+   "phases": [
+    {
+     "from": 297,
+     "to": 642,
+     "t": "the desert coast between the Delta and Cyrenaica"
+    }
+   ],
+   "diocese": "Aegyptus (Oriens before c. 380)",
+   "prefecture": "Oriens",
+   "parent": "prov_creta_et_cyrenaica",
+   "successors": [],
+   "summary": "The dry coast west of Alexandria, with the port of Paraetonium and the desert road to the oracle of Ammon at Siwa. A poor province of nomads and small garrisons.",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Orientis",
+     "r": "1-2"
+    }
+   ]
+  },
+  {
+   "id": "prov_bithynia",
+   "name": "Bithynia",
+   "type": "province",
+   "created": 293,
+   "createdNote": "Diocletianic (Verona List)",
+   "ended": null,
+   "endedNote": "still Roman in 641",
+   "capital": "nicomedia",
+   "capitalName": "Nicomedia",
+   "labelLoc": [
+    30.2,
+    40.4
+   ],
+   "governor": "consularis (Notitia)",
+   "phases": [
+    {
+     "from": 293,
+     "to": 384,
+     "t": "Diocletian's capital at Nicomedia; Great Persecution begins there (23-24 February 303); Council of Nicaea (325); earthquake of 358"
+    },
+    {
+     "from": 384,
+     "to": null,
+     "t": "reduced by the creation of Honorias; Council of Chalcedon (451)"
+    }
+   ],
+   "diocese": "Pontica",
+   "prefecture": "Oriens",
+   "parent": "prov_bithynia_et_pontus",
+   "successors": [
+    "prov_honorias"
+   ],
+   "summary": "The hinterland of Constantinople. Nicomedia was Diocletian's capital, where his palace overlooked the church he had demolished to start the Great Persecution; Constantine died nearby in 337. Two ecumenical councils met in the province, at Nicaea in 325 and Chalcedon in 451.",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Orientis",
+     "r": "1-2"
+    },
+    {
+     "a": "Lactantius",
+     "w": "De mortibus persecutorum",
+     "r": "7.4"
+    },
+    {
+     "a": "Lactantius",
+     "w": "De mortibus persecutorum",
+     "r": "12"
+    }
+   ]
+  },
+  {
+   "id": "prov_honorias",
+   "name": "Honorias",
+   "type": "province",
+   "created": 384,
+   "createdNote": "between 384 and 395",
+   "ended": 535,
+   "endedNote": "merged with Paphlagonia by Novel 29 (535)",
+   "capital": null,
+   "capitalName": "Claudiopolis",
+   "labelLoc": [
+    31.8,
+    41.0
+   ],
+   "governor": "praeses",
+   "phases": [
+    {
+     "from": 384,
+     "to": 535,
+     "t": "created from eastern Bithynia and western Paphlagonia under Theodosius I, named for Honorius"
+    }
+   ],
+   "diocese": "Pontica",
+   "prefecture": "Oriens",
+   "parent": "prov_bithynia",
+   "successors": [
+    "prov_paphlagonia"
+   ],
+   "summary": "A small province between Bithynia and Paphlagonia, with Claudiopolis (birthplace of Hadrian's favourite Antinous as Bithynium), Heraclea Pontica, Tium and Prusias ad Hypium. Justinian merged it with Paphlagonia in 535 as a cost-saving measure.",
+   "sources": [
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Orientis",
+     "r": "1-2"
+    },
+    {
+     "a": "Justinian",
+     "w": "Novellae",
+     "r": "29"
+    }
+   ]
+  },
+  {
+   "id": "prov_paphlagonia",
+   "name": "Paphlagonia",
+   "type": "province",
+   "created": 293,
+   "createdNote": "Diocletianic (Verona List)",
+   "ended": null,
+   "endedNote": "still Roman in 641",
+   "capital": null,
+   "capitalName": "Gangra",
+   "labelLoc": [
+    33.5,
+    41.2
+   ],
+   "governor": "corrector (Notitia); praetor of Paphlagonia and Honorias (Novel 29, 535)",
+   "phases": [
+    {
+     "from": 293,
+     "to": 535,
+     "t": "Diocletianic province; Council of Gangra (c. 340) condemns extreme asceticism"
+    },
+    {
+     "from": 535,
+     "to": null,
+     "t": "merged with Honorias under a praetor"
+    }
+   ],
+   "diocese": "Pontica",
+   "prefecture": "Oriens",
+   "parent": "prov_galatia",
+   "successors": [],
+   "summary": "A rugged land of horse-breeding and small cities on the Black Sea coast. The Council of Gangra condemned the followers of Eustathius of Sebasteia for denouncing marriage and encouraging slaves to leave their masters.",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Orientis",
+     "r": "1-2"
+    },
+    {
+     "a": "Justinian",
+     "w": "Novellae",
+     "r": "29"
+    }
+   ]
+  },
+  {
+   "id": "prov_galatia_prima",
+   "name": "Galatia (Prima)",
+   "type": "province",
+   "created": 293,
+   "createdNote": "Diocletianic",
+   "ended": null,
+   "endedNote": "still Roman in 641",
+   "capital": "ancyra",
+   "capitalName": "Ancyra",
+   "labelLoc": [
+    33.2,
+    40.2
+   ],
+   "governor": "consularis (Notitia)",
+   "phases": [
+    {
+     "from": 293,
+     "to": 390,
+     "t": "reduced Galatia; Council of Ancyra (314); Julian at Ancyra (362)"
+    },
+    {
+     "from": 390,
+     "to": 620,
+     "t": "Galatia Prima after Galatia Salutaris was separated"
+    },
+    {
+     "from": 620,
+     "to": null,
+     "t": "Persian raid on Ancyra (c. 620-622)"
+    }
+   ],
+   "diocese": "Pontica",
+   "prefecture": "Oriens",
+   "parent": "prov_galatia",
+   "successors": [
+    "prov_galatia_salutaris"
+   ],
+   "summary": "The Celtic heartland round Ancyra, now an important road junction between Constantinople and the eastern frontier. Its council of 314 is one of the earliest sources of canon law on the lapsed.",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Orientis",
+     "r": "1-2"
+    }
+   ]
+  },
+  {
+   "id": "prov_galatia_salutaris",
+   "name": "Galatia Salutaris (Secunda)",
+   "type": "province",
+   "created": 390,
+   "createdNote": "between c. 386 and 395",
+   "ended": null,
+   "endedNote": "still Roman in 641",
+   "capital": "pessinus",
+   "capitalName": "Pessinus",
+   "labelLoc": [
+    31.5,
+    39.3
+   ],
+   "governor": "praeses",
+   "phases": [
+    {
+     "from": 390,
+     "to": null,
+     "t": "western Galatia, separated under Theodosius I"
+    }
+   ],
+   "diocese": "Pontica",
+   "prefecture": "Oriens",
+   "parent": "prov_galatia_prima",
+   "successors": [],
+   "summary": "Western Galatia with Pessinus, whose sacred stone of the Mother of the Gods was brought to Rome in 204 BC; Julian worshipped there on his way east in 362 and found the cult nearly deserted.",
+   "certainty": "probable",
+   "sources": [
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Orientis",
+     "r": "1-2"
+    },
+    {
+     "a": "Julian",
+     "w": "Epistulae",
+     "r": "84 (to Arsacius)"
+    }
+   ]
+  },
+  {
+   "id": "prov_cappadocia_prima",
+   "name": "Cappadocia (Prima)",
+   "type": "province",
+   "created": 293,
+   "createdNote": "Diocletianic",
+   "ended": null,
+   "endedNote": "still Roman in 641",
+   "capital": "caesarea_mazaca",
+   "capitalName": "Caesarea",
+   "labelLoc": [
+    35.7,
+    38.9
+   ],
+   "governor": "consularis (Notitia); proconsul (Novel 30, 536)",
+   "phases": [
+    {
+     "from": 293,
+     "to": 372,
+     "t": "reduced Cappadocia; huge imperial estates (domus divina)"
+    },
+    {
+     "from": 372,
+     "to": 536,
+     "t": "Cappadocia Prima after Valens' division"
+    },
+    {
+     "from": 536,
+     "to": null,
+     "t": "proconsul with authority over the agents of the imperial estates (Novel 30); Persians hold Caesarea 611-612"
+    }
+   ],
+   "diocese": "Pontica",
+   "prefecture": "Oriens",
+   "parent": "prov_cappadocia",
+   "successors": [
+    "prov_cappadocia_secunda"
+   ],
+   "summary": "The land of the Cappadocian Fathers, with Basil as bishop of Caesarea (370-379) building his hospital complex, the Basileias. Its imperial horse-studs and crown estates were so extensive that Justinian complained their managers terrorised the province, and gave its governor proconsular rank to control them.",
+   "sources": [
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Orientis",
+     "r": "1-2"
+    },
+    {
+     "a": "Justinian",
+     "w": "Novellae",
+     "r": "30"
+    },
+    {
+     "a": "Basil of Caesarea",
+     "w": "Epistulae",
+     "r": "74-76"
+    }
+   ]
+  },
+  {
+   "id": "prov_cappadocia_secunda",
+   "name": "Cappadocia Secunda",
+   "type": "province",
+   "created": 372,
+   "createdNote": "Valens, 371/372",
+   "ended": null,
+   "endedNote": "still Roman in 641",
+   "capital": null,
+   "capitalName": "Tyana",
+   "labelLoc": [
+    34.7,
+    38.0
+   ],
+   "governor": "praeses",
+   "phases": [
+    {
+     "from": 372,
+     "to": null,
+     "t": "created by Valens from southwestern Cappadocia"
+    }
+   ],
+   "diocese": "Pontica",
+   "prefecture": "Oriens",
+   "parent": "prov_cappadocia_prima",
+   "successors": [],
+   "summary": "Valens' division of Cappadocia in 371/372 made Tyana a provincial capital and its bishop Anthimus a metropolitan, provoking Basil to create new sees, including the wretched post-station of Sasima, where he consecrated his friend Gregory of Nazianzus. The province controlled the road to the Cilician Gates.",
+   "sources": [
+    {
+     "a": "Gregory of Nazianzus",
+     "w": "Orationes",
+     "r": "43.58-59"
+    },
+    {
+     "a": "Basil of Caesarea",
+     "w": "Epistulae",
+     "r": "74-76"
+    }
+   ]
+  },
+  {
+   "id": "prov_helenopontus",
+   "name": "Diospontus / Helenopontus",
+   "type": "province",
+   "created": 293,
+   "createdNote": "Diocletianic (Verona List, as Diospontus)",
+   "ended": null,
+   "endedNote": "still Roman in 641",
+   "capital": null,
+   "capitalName": "Amaseia",
+   "labelLoc": [
+    35.9,
+    40.9
+   ],
+   "governor": "praeses; moderator (Novel 28, 535)",
+   "phases": [
+    {
+     "from": 293,
+     "to": 330,
+     "t": "Diospontus (Verona List)"
+    },
+    {
+     "from": 330,
+     "to": 535,
+     "t": "renamed Helenopontus after Constantine's mother"
+    },
+    {
+     "from": 535,
+     "to": null,
+     "t": "moderator, with cities of Pontus Polemoniacus added (Novel 28)"
+    }
+   ],
+   "diocese": "Pontica",
+   "prefecture": "Oriens",
+   "parent": "prov_bithynia_et_pontus",
+   "successors": [],
+   "summary": "The western Pontus with Amaseia (birthplace of Strabo), Amisus and Sinope, home of Diogenes the Cynic and of the heretic Marcion. Constantine renamed it for his mother Helena, whose birthplace Drepanum in Bithynia had already become Helenopolis.",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Orientis",
+     "r": "1-2"
+    },
+    {
+     "a": "Justinian",
+     "w": "Novellae",
+     "r": "28"
+    }
+   ]
+  },
+  {
+   "id": "prov_pontus_polemoniacus",
+   "name": "Pontus Polemoniacus",
+   "type": "province",
+   "created": 293,
+   "createdNote": "annexed 64; separate province c. 293",
+   "ended": 536,
+   "endedNote": "divided by Novels 28 and 31 (535-536)",
+   "capital": null,
+   "capitalName": "Neocaesarea",
+   "labelLoc": [
+    37.6,
+    40.7
+   ],
+   "governor": "praeses",
+   "phases": [
+    {
+     "from": 64,
+     "to": 293,
+     "t": "the kingdom of Polemon II annexed by Nero (64), attached to Galatia then Cappadocia"
+    },
+    {
+     "from": 293,
+     "to": 536,
+     "t": "separate province (Verona List) with Neocaesarea, Comana Pontica, Polemonium, Cerasus and Trapezus"
+    }
+   ],
+   "diocese": "Pontica",
+   "prefecture": "Oriens",
+   "parent": "prov_cappadocia",
+   "successors": [
+    "prov_helenopontus",
+    "prov_armenia_prima_536"
+   ],
+   "summary": "The eastern Pontic coast and its hinterland. Trapezus was the base of legio I Pontica and the Pontic fleet. Gregory the Wonderworker, bishop of Neocaesarea in the 3rd century, was credited with converting the region. Justinian divided it between Helenopontus and the new Armenia I.",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Justinian",
+     "w": "Novellae",
+     "r": "28"
+    },
+    {
+     "a": "Justinian",
+     "w": "Novellae",
+     "r": "31"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Nero",
+     "r": "18"
+    }
+   ]
+  },
+  {
+   "id": "prov_armenia_minor",
+   "name": "Armenia (Minor)",
+   "type": "province",
+   "created": 293,
+   "createdNote": "Diocletianic (Verona List)",
+   "ended": 386,
+   "endedNote": "divided c. 386",
+   "capital": null,
+   "capitalName": "Sebasteia (probable)",
+   "labelLoc": [
+    37.8,
+    39.5
+   ],
+   "governor": "praeses",
+   "phases": [
+    {
+     "from": 293,
+     "to": 386,
+     "t": "Lesser Armenia and Melitene, formerly districts of Cappadocia"
+    }
+   ],
+   "diocese": "Pontica",
+   "prefecture": "Oriens",
+   "parent": "prov_cappadocia",
+   "successors": [
+    "prov_armenia_prima",
+    "prov_armenia_secunda"
+   ],
+   "summary": "Lesser Armenia west of the upper Euphrates, a client kingdom until 72 and thereafter part of Cappadocia, made a province by Diocletian. Its legionary bases at Satala and Melitene anchored the northern frontier with Persia. It was divided into Armenia I and II under Theodosius I.",
+   "certainty": "probable",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    }
+   ]
+  },
+  {
+   "id": "prov_armenia_prima",
+   "name": "Armenia Prima (Armenia Secunda from 536)",
+   "type": "province",
+   "created": 386,
+   "createdNote": "c. 386 (Notitia)",
+   "ended": null,
+   "endedNote": "still Roman in 641",
+   "capital": null,
+   "capitalName": "Sebasteia",
+   "labelLoc": [
+    37.6,
+    39.9
+   ],
+   "governor": "praeses",
+   "phases": [
+    {
+     "from": 386,
+     "to": 536,
+     "t": "Armenia Prima: Sebasteia, Nicopolis, Satala (legio XV Apollinaris), Colonia"
+    },
+    {
+     "from": 536,
+     "to": null,
+     "t": "renumbered Armenia Secunda by Novel 31, losing Satala and Nicopolis to the new Armenia I"
+    }
+   ],
+   "diocese": "Pontica",
+   "prefecture": "Oriens",
+   "parent": "prov_armenia_minor",
+   "successors": [],
+   "summary": "Sebasteia, scene of the martyrdom of the Forty Martyrs on a frozen lake (c. 320) and seat of the ascetic bishop Eustathius, was its capital. Satala's legion guarded the route into Armenia proper.",
+   "certainty": "probable",
+   "sources": [
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Orientis",
+     "r": "1-2"
+    },
+    {
+     "a": "Justinian",
+     "w": "Novellae",
+     "r": "31"
+    }
+   ]
+  },
+  {
+   "id": "prov_armenia_secunda",
+   "name": "Armenia Secunda (Armenia Tertia from 536)",
+   "type": "province",
+   "created": 386,
+   "createdNote": "c. 386",
+   "ended": null,
+   "endedNote": "still Roman in 641",
+   "capital": "melitene",
+   "capitalName": "Melitene",
+   "labelLoc": [
+    37.5,
+    38.5
+   ],
+   "governor": "praeses; comes Iustinianus from 536",
+   "phases": [
+    {
+     "from": 386,
+     "to": 536,
+     "t": "Armenia Secunda: Melitene (legio XII Fulminata), Arca, Arabissus, Cucusus, Comana"
+    },
+    {
+     "from": 536,
+     "to": null,
+     "t": "renumbered Armenia Tertia under a comes (Novel 31); Roman victory over Khosrow I near Melitene (576)"
+    }
+   ],
+   "diocese": "Pontica",
+   "prefecture": "Oriens",
+   "parent": "prov_armenia_minor",
+   "successors": [],
+   "summary": "The Melitene district, base of XII Fulminata since Vespasian. John Chrysostom spent his exile (404-407) in the mountain village of Cucusus here. In 576 Khosrow I, retreating after burning Melitene, was defeated nearby by the general Justinian, one of the few Roman victories over a Persian king in person.",
+   "certainty": "probable",
+   "sources": [
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Orientis",
+     "r": "1-2"
+    },
+    {
+     "a": "Justinian",
+     "w": "Novellae",
+     "r": "31"
+    },
+    {
+     "a": "Evagrius",
+     "w": "Historia Ecclesiastica",
+     "r": "5.14"
+    }
+   ]
+  },
+  {
+   "id": "prov_armenia_interior",
+   "name": "Armenia Interior (Roman Armenia)",
+   "type": "province",
+   "created": 387,
+   "createdNote": "partition of Armenia c. 387",
+   "ended": 536,
+   "endedNote": "became the core of Armenia I (Novel 31, 536)",
+   "capital": "theodosiopolis",
+   "capitalName": "Theodosiopolis (fortified c. 420s)",
+   "labelLoc": [
+    40.8,
+    39.8
+   ],
+   "governor": "Arsacid king until c. 390; then comes Armeniae; magister militum per Armeniam from 528",
+   "phases": [
+    {
+     "from": 387,
+     "to": 528,
+     "t": "Roman share of the partition of Armenia (c. 387); Theodosiopolis fortified under Theodosius II"
+    },
+    {
+     "from": 528,
+     "to": 536,
+     "t": "Justinian creates the magister militum per Armeniam (Sittas)"
+    }
+   ],
+   "diocese": "Pontica",
+   "prefecture": "Oriens",
+   "parent": null,
+   "successors": [
+    "prov_armenia_prima_536"
+   ],
+   "summary": "When Theodosius I and Shapur III partitioned Armenia around 387, Rome took the smaller western share, first under an Arsacid king and then under a count. Theodosiopolis (Erzurum) became the key fortress facing Persarmenia. Justinian folded it into his new Armenia I in 536.",
+   "certainty": "probable",
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Buildings",
+     "r": "3.1-5"
+    },
+    {
+     "a": "Moses Khorenatsi",
+     "w": "History of the Armenians",
+     "r": "3.42-50"
+    }
+   ]
+  },
+  {
+   "id": "prov_armenia_prima_536",
+   "name": "Armenia Prima (Justinianic)",
+   "type": "province",
+   "created": 536,
+   "createdNote": "Novel 31 (18 March 536)",
+   "ended": null,
+   "endedNote": "still Roman in 641",
+   "capital": null,
+   "capitalName": "Justinianopolis (formerly Bazanis)",
+   "labelLoc": [
+    40.3,
+    40.0
+   ],
+   "governor": "proconsul (Novel 31)",
+   "phases": [
+    {
+     "from": 536,
+     "to": 591,
+     "t": "Armenia Interior with Theodosiopolis, Satala, Nicopolis, Colonia, Trapezus and Cerasus"
+    },
+    {
+     "from": 591,
+     "to": null,
+     "t": "enlarged after Maurice's peace with Khosrow II (591) brought most of Persarmenia under Rome; Arab raids from 640 (Dvin sacked October 640)"
+    }
+   ],
+   "diocese": "Pontica",
+   "prefecture": "Oriens",
+   "parent": "prov_armenia_interior",
+   "successors": [],
+   "summary": "Justinian's reorganisation of 536 created four Armenian provinces in place of the old military district, putting Roman Armenia under normal civil government for the first time. Its proconsul's province reached from the Black Sea at Trapezus to Theodosiopolis.",
+   "certainty": "probable",
+   "sources": [
+    {
+     "a": "Justinian",
+     "w": "Novellae",
+     "r": "31"
+    }
+   ]
+  },
+  {
+   "id": "prov_armenia_quarta",
+   "name": "Armenia Quarta",
+   "type": "province",
+   "created": 536,
+   "createdNote": "Novel 31 (536)",
+   "ended": null,
+   "endedNote": "still Roman in 641",
+   "capital": null,
+   "capitalName": "Martyropolis",
+   "labelLoc": [
+    40.0,
+    38.6
+   ],
+   "governor": "consularis (Novel 31)",
+   "phases": [
+    {
+     "from": 484,
+     "to": 536,
+     "t": "the Armenian satrapies (Sophene, Anzitene, Ingilene, Asthianene, Balabitene), whose hereditary satraps lost their privileges after backing Illus' revolt (484)"
+    },
+    {
+     "from": 536,
+     "to": null,
+     "t": "province under Novel 31; Martyropolis betrayed to the Persians (589), returned 591"
+    }
+   ],
+   "diocese": "Pontica",
+   "prefecture": "Oriens",
+   "parent": null,
+   "successors": [],
+   "summary": "The old Armenian satrapies south of the Euphrates, ruled by local dynasts under Roman suzerainty until Zeno stripped them after 484. Martyropolis (Mayyafariqin), filled with the relics gathered by its bishop Marutha, was its capital and a frequent Persian target.",
+   "certainty": "probable",
+   "sources": [
+    {
+     "a": "Justinian",
+     "w": "Novellae",
+     "r": "31"
+    },
+    {
+     "a": "Procopius",
+     "w": "Buildings",
+     "r": "3.1-2"
+    }
+   ]
+  },
+  {
+   "id": "prov_asia_proconsularis",
+   "name": "Asia (proconsularis, late)",
+   "type": "province",
+   "created": 293,
+   "createdNote": "Diocletianic division of Asia",
+   "ended": null,
+   "endedNote": "still Roman in 641",
+   "capital": "ephesus",
+   "capitalName": "Ephesus",
+   "labelLoc": [
+    27.5,
+    38.1
+   ],
+   "governor": "proconsul, outside the authority of the vicar of Asiana",
+   "phases": [
+    {
+     "from": 293,
+     "to": null,
+     "t": "the coast from the Troad to the Maeander; Councils of Ephesus (431, 449)"
+    }
+   ],
+   "diocese": "Asiana (proconsul outside the vicariate)",
+   "prefecture": "Oriens",
+   "parent": "prov_asia",
+   "successors": [],
+   "summary": "The reduced Asia of late antiquity, still under a proconsul of high rank. Ephesus hosted the councils of 431 (which condemned Nestorius) and 449 (the 'Robber Council'), and Justinian rebuilt the basilica of St John on a monumental scale. It became the core of the Thrakesion theme in the 7th century.",
+   "sources": [
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Orientis",
+     "r": "1-2"
+    },
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    }
+   ]
+  },
+  {
+   "id": "prov_hellespontus",
+   "name": "Hellespontus",
+   "type": "province",
+   "created": 293,
+   "createdNote": "Diocletianic (Verona List)",
+   "ended": null,
+   "endedNote": "still Roman in 641",
+   "capital": "cyzicus",
+   "capitalName": "Cyzicus",
+   "labelLoc": [
+    27.8,
+    40.1
+   ],
+   "governor": "consularis (Notitia)",
+   "phases": [
+    {
+     "from": 293,
+     "to": null,
+     "t": "the Troad and the Asian shore of the Hellespont and Propontis"
+    }
+   ],
+   "diocese": "Asiana",
+   "prefecture": "Oriens",
+   "parent": "prov_asia",
+   "successors": [],
+   "summary": "The Asian side of the straits: Cyzicus with its colossal temple of Hadrian and imperial mint, Ilium, Lampsacus, and Abydos, where Justinian set up a customs station to tax shipping through the Hellespont.",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Orientis",
+     "r": "1-2"
+    },
+    {
+     "a": "Procopius",
+     "w": "Anecdota",
+     "r": "25.2-6"
+    }
+   ]
+  },
+  {
+   "id": "prov_lydia",
+   "name": "Lydia",
+   "type": "province",
+   "created": 293,
+   "createdNote": "Diocletianic (Verona List)",
+   "ended": null,
+   "endedNote": "still Roman in 641",
+   "capital": "sardis",
+   "capitalName": "Sardis",
+   "labelLoc": [
+    28.5,
+    38.6
+   ],
+   "governor": "consularis (Notitia)",
+   "phases": [
+    {
+     "from": 293,
+     "to": 616,
+     "t": "inland western Anatolia: Sardis, Philadelphia, Thyatira"
+    },
+    {
+     "from": 616,
+     "to": null,
+     "t": "Sardis devastated, probably in a Persian raid (c. 616)"
+    }
+   ],
+   "diocese": "Asiana",
+   "prefecture": "Oriens",
+   "parent": "prov_asia",
+   "successors": [],
+   "summary": "The old Lydian kingdom, its capital Sardis rich enough to house the largest synagogue known from antiquity, attached to the city's bath-gymnasium complex. The destruction layer of c. 616 at Sardis marks the end of classical urban life there.",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Orientis",
+     "r": "1-2"
+    }
+   ],
+   "scholarship": [
+    "Foss, Byzantine and Turkish Sardis (1976)"
+   ]
+  },
+  {
+   "id": "prov_caria",
+   "name": "Caria",
+   "type": "province",
+   "created": 301,
+   "createdNote": "c. 301",
+   "ended": null,
+   "endedNote": "still Roman in 641",
+   "capital": "aphrodisias",
+   "capitalName": "Aphrodisias (renamed Stauropolis)",
+   "labelLoc": [
+    28.3,
+    37.4
+   ],
+   "governor": "praeses; under the quaestura exercitus from 536",
+   "phases": [
+    {
+     "from": 301,
+     "to": 536,
+     "t": "separated from Caria et Phrygia"
+    },
+    {
+     "from": 536,
+     "to": null,
+     "t": "part of the quaestura exercitus (Novel 41), appeals later referred to Constantinople (Novel 50)"
+    }
+   ],
+   "diocese": "Asiana",
+   "prefecture": "Oriens",
+   "parent": "prov_caria_et_phrygia",
+   "successors": [],
+   "summary": "Aphrodisias, the capital, preserves the most complete copies of Diocletian's Price Edict and Currency Edict (301) and an outstanding school of sculpture; its late antique inscriptions are a major source for provincial government. Justinian attached Caria to the quaestor of the army to feed the Danube troops.",
+   "sources": [
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Orientis",
+     "r": "1-2"
+    },
+    {
+     "a": "Justinian",
+     "w": "Novellae",
+     "r": "41"
+    },
+    {
+     "a": "Justinian",
+     "w": "Novellae",
+     "r": "50"
+    }
+   ],
+   "scholarship": [
+    "Roueche, Aphrodisias in Late Antiquity (1989)"
+   ]
+  },
+  {
+   "id": "prov_insulae",
+   "name": "Insulae (the Islands)",
+   "type": "province",
+   "created": 293,
+   "createdNote": "Diocletianic (Verona List)",
+   "ended": null,
+   "endedNote": "still Roman in 641",
+   "capital": "rhodos",
+   "capitalName": "Rhodus",
+   "labelLoc": [
+    28.0,
+    36.25
+   ],
+   "governor": "praeses; under the quaestura exercitus from 536",
+   "phases": [
+    {
+     "from": 293,
+     "to": 536,
+     "t": "Rhodes, Cos, Samos, Chios, Lesbos, Tenedos and the Cyclades"
+    },
+    {
+     "from": 536,
+     "to": 622,
+     "t": "part of the quaestura exercitus"
+    },
+    {
+     "from": 622,
+     "to": null,
+     "t": "Persian raid on Rhodes (c. 622-623)"
+    }
+   ],
+   "diocese": "Asiana",
+   "prefecture": "Oriens",
+   "parent": "prov_asia",
+   "successors": [],
+   "summary": "An island province whose maritime resources Justinian harnessed in 536 by joining it to Moesia II and Scythia under the quaestor of the army, so that ships could carry supplies to the Danube.",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Orientis",
+     "r": "1-2"
+    },
+    {
+     "a": "Justinian",
+     "w": "Novellae",
+     "r": "41"
+    }
+   ]
+  },
+  {
+   "id": "prov_phrygia_pacatiana",
+   "name": "Phrygia Prima / Pacatiana",
+   "type": "province",
+   "created": 301,
+   "createdNote": "Diocletianic (Verona List, as Phrygia Prima)",
+   "ended": null,
+   "endedNote": "still Roman in 641",
+   "capital": "laodicea_ad_lycum",
+   "capitalName": "Laodicea ad Lycum",
+   "labelLoc": [
+    29.5,
+    38.3
+   ],
+   "governor": "praeses",
+   "phases": [
+    {
+     "from": 301,
+     "to": null,
+     "t": "western Phrygia: Laodicea, Hierapolis, Colossae, Eumeneia"
+    }
+   ],
+   "diocese": "Asiana",
+   "prefecture": "Oriens",
+   "parent": "prov_caria_et_phrygia",
+   "successors": [],
+   "summary": "Western Phrygia, with Laodicea and Hierapolis, where the martyrium of the apostle Philip drew pilgrims. Its 3rd-century tombstones with the formula 'Christians for Christians' are among the earliest public Christian inscriptions.",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Orientis",
+     "r": "1-2"
+    }
+   ]
+  },
+  {
+   "id": "prov_phrygia_salutaris",
+   "name": "Phrygia Secunda / Salutaris",
+   "type": "province",
+   "created": 301,
+   "createdNote": "Diocletianic (Verona List, as Phrygia Secunda)",
+   "ended": null,
+   "endedNote": "still Roman in 641",
+   "capital": null,
+   "capitalName": "Synnada",
+   "labelLoc": [
+    30.6,
+    38.9
+   ],
+   "governor": "praeses",
+   "phases": [
+    {
+     "from": 301,
+     "to": null,
+     "t": "eastern Phrygia: Synnada, Docimium, Nacoleia, Dorylaeum"
+    }
+   ],
+   "diocese": "Asiana",
+   "prefecture": "Oriens",
+   "parent": "prov_caria_et_phrygia",
+   "successors": [],
+   "summary": "Eastern Phrygia, home of the imperial quarries of Docimium, source of the purple-veined pavonazzetto marble. Valens defeated the usurper Procopius at Nacoleia in 366.",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Orientis",
+     "r": "1-2"
+    },
+    {
+     "a": "Ammianus Marcellinus",
+     "w": "Res Gestae",
+     "r": "26.9"
+    }
+   ]
+  },
+  {
+   "id": "prov_pisidia",
+   "name": "Pisidia",
+   "type": "province",
+   "created": 293,
+   "createdNote": "Diocletianic (Verona List)",
+   "ended": null,
+   "endedNote": "still Roman in 641",
+   "capital": "antiochia_pisidiae",
+   "capitalName": "Antiochia Pisidiae",
+   "labelLoc": [
+    30.9,
+    37.9
+   ],
+   "governor": "praeses; praetor (Novel 24, 535)",
+   "phases": [
+    {
+     "from": 293,
+     "to": 535,
+     "t": "Pisidian highlands with Antioch, Sagalassos, Termessos"
+    },
+    {
+     "from": 535,
+     "to": null,
+     "t": "praetor Iustinianus against brigandage"
+    }
+   ],
+   "diocese": "Asiana",
+   "prefecture": "Oriens",
+   "parent": "prov_galatia",
+   "successors": [
+    "prov_lycaonia"
+   ],
+   "summary": "A highland province of fortified cities and bandits. Sagalassos, excavated since 1990, flourished until earthquakes and plague in the 6th-7th centuries. Justinian gave its governor military powers to deal with the brigands.",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Justinian",
+     "w": "Novellae",
+     "r": "24"
+    }
+   ]
+  },
+  {
+   "id": "prov_lycaonia",
+   "name": "Lycaonia",
+   "type": "province",
+   "created": 372,
+   "createdNote": "c. 371-373",
+   "ended": null,
+   "endedNote": "still Roman in 641",
+   "capital": "iconium",
+   "capitalName": "Iconium",
+   "labelLoc": [
+    32.8,
+    37.9
+   ],
+   "governor": "praeses; praetor (Novel 25, 535)",
+   "phases": [
+    {
+     "from": 372,
+     "to": 535,
+     "t": "created by Valens from Pisidia and Isauria"
+    },
+    {
+     "from": 535,
+     "to": null,
+     "t": "praetor Iustinianus"
+    }
+   ],
+   "diocese": "Asiana",
+   "prefecture": "Oriens",
+   "parent": "prov_isauria",
+   "successors": [],
+   "summary": "The plain round Iconium, carved out around 371-373 when Basil's correspondence shows the new province forming. Amphilochius, bishop of Iconium from 373, was one of the champions of Nicene orthodoxy.",
+   "certainty": "probable",
+   "sources": [
+    {
+     "a": "Justinian",
+     "w": "Novellae",
+     "r": "25"
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Orientis",
+     "r": "1-2"
+    }
+   ]
+  },
+  {
+   "id": "prov_pamphylia",
+   "name": "Pamphylia",
+   "type": "province",
+   "created": 300,
+   "createdNote": "separated from Lycia by the early 4th century",
+   "ended": null,
+   "endedNote": "still Roman in 641",
+   "capital": "perge",
+   "capitalName": "Perge (Side later metropolis)",
+   "labelLoc": [
+    31.2,
+    36.9
+   ],
+   "governor": "consularis (Notitia)",
+   "phases": [
+    {
+     "from": 300,
+     "to": null,
+     "t": "the Pamphylian plain: Perge, Side, Aspendos, Attaleia"
+    }
+   ],
+   "diocese": "Asiana",
+   "prefecture": "Oriens",
+   "parent": "prov_lycia_et_pamphylia",
+   "successors": [],
+   "summary": "A coastal plain of rich cities with some of the best-preserved theatres and aqueducts of Asia Minor (Aspendos, Side). Attaleia was the port for the sea route from the Aegean to Syria and Egypt.",
+   "certainty": "probable",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Orientis",
+     "r": "1-2"
+    }
+   ]
+  },
+  {
+   "id": "prov_lycia",
+   "name": "Lycia",
+   "type": "province",
+   "created": 300,
+   "createdNote": "separated from Pamphylia by the early 4th century",
+   "ended": null,
+   "endedNote": "still Roman in 641",
+   "capital": null,
+   "capitalName": "Myra",
+   "labelLoc": [
+    29.8,
+    36.5
+   ],
+   "governor": "praeses",
+   "phases": [
+    {
+     "from": 300,
+     "to": null,
+     "t": "the Lycian peninsula: Myra, Xanthos, Patara, Limyra"
+    }
+   ],
+   "diocese": "Asiana",
+   "prefecture": "Oriens",
+   "parent": "prov_lycia_et_pamphylia",
+   "successors": [],
+   "summary": "In 392 the prefect Rufinus, persecuting the family of his predecessor Tatianus, had all Lycians barred from public office; the ban was lifted in 396. The bishop Nicholas of Myra became the most popular saint of the Christian world, and the Sion treasure of church silver from a Lycian monastery is a rare survival of 6th-century liturgical plate.",
+   "certainty": "probable",
+   "sources": [
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Orientis",
+     "r": "1-2"
+    },
+    {
+     "a": "Zosimus",
+     "w": "Historia Nova",
+     "r": "4.52"
+    }
+   ]
+  },
+  {
+   "id": "prov_europa",
+   "name": "Europa",
+   "type": "province",
+   "created": 293,
+   "createdNote": "Diocletianic (Verona List)",
+   "ended": null,
+   "endedNote": "still Roman in 641",
+   "capital": "perinthus",
+   "capitalName": "Heraclea (Perinthus)",
+   "labelLoc": [
+    27.8,
+    41.2
+   ],
+   "governor": "consularis (Notitia)",
+   "phases": [
+    {
+     "from": 293,
+     "to": 330,
+     "t": "the European shore of the Propontis"
+    },
+    {
+     "from": 330,
+     "to": null,
+     "t": "Constantinople founded within it (dedicated 11 May 330), under its own urban prefect from 359; Long Walls of Anastasius"
+    }
+   ],
+   "diocese": "Thracia",
+   "prefecture": "Oriens",
+   "parent": "prov_thracia",
+   "successors": [],
+   "summary": "The province in which Constantine founded his new Rome. Its governor sat at Heraclea, since Constantinople had its own urban prefect. Anastasius' Long Walls, running some 56 km from the Black Sea to the Propontis, made the hinterland of the capital a fortified enclave; the Avars and Persians besieged the city itself in 626.",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Orientis",
+     "r": "1-2"
+    },
+    {
+     "a": "Procopius",
+     "w": "Buildings",
+     "r": "4.9"
+    }
+   ]
+  },
+  {
+   "id": "prov_thracia_late",
+   "name": "Thracia (late province)",
+   "type": "province",
+   "created": 293,
+   "createdNote": "Diocletianic",
+   "ended": null,
+   "endedNote": "still Roman in 641, though much of the countryside was insecure",
+   "capital": "philippopolis",
+   "capitalName": "Philippopolis",
+   "labelLoc": [
+    25.0,
+    42.2
+   ],
+   "governor": "consularis; praetor combining the vicariate (Novel 26, 535)",
+   "phases": [
+    {
+     "from": 293,
+     "to": 535,
+     "t": "the upper Hebrus valley; Gothic war (376-382), Hunnic invasions (441-447)"
+    },
+    {
+     "from": 535,
+     "to": null,
+     "t": "praetor Iustinianus Thraciae with military powers"
+    }
+   ],
+   "diocese": "Thracia",
+   "prefecture": "Oriens",
+   "parent": "prov_thracia",
+   "successors": [],
+   "summary": "The Thracian plain round Philippopolis, repeatedly devastated by Goths, Huns, Bulgars and Slavs. Justinian abolished the vicar of Thrace and gave the governor of this province his powers and a military role.",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Orientis",
+     "r": "1-2"
+    },
+    {
+     "a": "Justinian",
+     "w": "Novellae",
+     "r": "26"
+    }
+   ]
+  },
+  {
+   "id": "prov_haemimontus",
+   "name": "Haemimontus",
+   "type": "province",
+   "created": 293,
+   "createdNote": "Diocletianic (Verona List)",
+   "ended": null,
+   "endedNote": "still Roman in 641",
+   "capital": "hadrianopolis",
+   "capitalName": "Hadrianopolis",
+   "labelLoc": [
+    26.8,
+    42.3
+   ],
+   "governor": "praeses",
+   "phases": [
+    {
+     "from": 293,
+     "to": null,
+     "t": "from Hadrianopolis to the Black Sea ports of Anchialus and Mesembria"
+    }
+   ],
+   "diocese": "Thracia",
+   "prefecture": "Oriens",
+   "parent": "prov_thracia",
+   "successors": [],
+   "summary": "The province of Adrianople, where on 9 August 378 the Goths destroyed Valens and two-thirds of the eastern field army, the worst Roman defeat since Cannae in Ammianus' judgement.",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Orientis",
+     "r": "1-2"
+    },
+    {
+     "a": "Ammianus Marcellinus",
+     "w": "Res Gestae",
+     "r": "31.12-13"
+    }
+   ]
+  },
+  {
+   "id": "prov_rhodope",
+   "name": "Rhodope",
+   "type": "province",
+   "created": 293,
+   "createdNote": "Diocletianic (Verona List)",
+   "ended": null,
+   "endedNote": "still Roman in 641",
+   "capital": null,
+   "capitalName": "Traianopolis",
+   "labelLoc": [
+    25.3,
+    41.2
+   ],
+   "governor": "praeses",
+   "phases": [
+    {
+     "from": 293,
+     "to": null,
+     "t": "the Aegean coast of Thrace: Aenus, Maroneia, Traianopolis, Maximianopolis"
+    }
+   ],
+   "diocese": "Thracia",
+   "prefecture": "Oriens",
+   "parent": "prov_thracia",
+   "successors": [],
+   "summary": "The Aegean coast of Thrace along the Via Egnatia, a quieter province sheltered by the Rhodope mountains.",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Orientis",
+     "r": "1-2"
+    }
+   ]
+  },
+  {
+   "id": "prov_moesia_secunda",
+   "name": "Moesia Secunda",
+   "type": "province",
+   "created": 293,
+   "createdNote": "Diocletianic (Verona List)",
+   "ended": 680,
+   "endedNote": "Roman hold collapsed in the early 7th century; the Bulgar state was founded here in 680-681",
+   "capital": "marcianopolis",
+   "capitalName": "Marcianopolis",
+   "labelLoc": [
+    26.3,
+    43.5
+   ],
+   "governor": "praeses; dux Moesiae secundae; under the quaestura exercitus from 536",
+   "phases": [
+    {
+     "from": 293,
+     "to": 376,
+     "t": "lower Danube between the Iskar and the Dobruja; Valens' Gothic war base (367-369)"
+    },
+    {
+     "from": 376,
+     "to": 536,
+     "t": "Goths admitted (376); Ulfila's 'lesser Goths' settled near Nicopolis ad Istrum"
+    },
+    {
+     "from": 536,
+     "to": 600,
+     "t": "part of the quaestura exercitus"
+    },
+    {
+     "from": 600,
+     "to": 680,
+     "t": "Roman control collapses under Avar and Slav pressure"
+    }
+   ],
+   "diocese": "Thracia",
+   "prefecture": "Oriens",
+   "parent": "prov_moesia_inferior",
+   "successors": [],
+   "summary": "The province where the Gothic crisis began: the Tervingi crossed into it in 376, and Lupicinus' botched banquet at Marcianopolis turned refugees into rebels. Ulfila, translator of the Gothic Bible, led his community to settle near Nicopolis ad Istrum.",
+   "certainty": "probable",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Justinian",
+     "w": "Novellae",
+     "r": "41"
+    },
+    {
+     "a": "Ammianus Marcellinus",
+     "w": "Res Gestae",
+     "r": "31.4-5"
+    },
+    {
+     "a": "Jordanes",
+     "w": "Getica",
+     "r": "267"
+    }
+   ]
+  },
+  {
+   "id": "prov_scythia",
+   "name": "Scythia (Minor)",
+   "type": "province",
+   "created": 293,
+   "createdNote": "Diocletianic (Verona List)",
+   "ended": 680,
+   "endedNote": "Roman control lost in the early 7th century",
+   "capital": "tomis",
+   "capitalName": "Tomis",
+   "labelLoc": [
+    28.4,
+    44.5
+   ],
+   "governor": "praeses; dux Scythiae; under the quaestura exercitus from 536",
+   "phases": [
+    {
+     "from": 293,
+     "to": 536,
+     "t": "the Dobruja; Tropaeum Traiani rebuilt by Constantine and Licinius (316); revolt of Vitalian (513-515)"
+    },
+    {
+     "from": 536,
+     "to": 600,
+     "t": "part of the quaestura exercitus"
+    },
+    {
+     "from": 600,
+     "to": 680,
+     "t": "Danube forts abandoned in the early 7th century"
+    }
+   ],
+   "diocese": "Thracia",
+   "prefecture": "Oriens",
+   "parent": "prov_moesia_inferior",
+   "successors": [],
+   "summary": "The Dobruja between the Danube delta and the sea, a militarised province of fortress towns. Its 'Scythian monks' stirred the theopaschite controversy at Constantinople and Rome in 519-520, and its comes foederatorum Vitalian marched on the capital three times against Anastasius.",
+   "certainty": "probable",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Orientis",
+     "r": "1-2"
+    },
+    {
+     "a": "Justinian",
+     "w": "Novellae",
+     "r": "41"
+    }
+   ]
+  },
+  {
+   "id": "prov_dacia_ripensis",
+   "name": "Dacia Ripensis",
+   "type": "province",
+   "created": 285,
+   "createdNote": "Aurelian or Diocletian (Verona List)",
+   "ended": 615,
+   "endedNote": "lost in the Avar-Slav invasions of the early 7th century (date approximate)",
+   "capital": "ratiaria",
+   "capitalName": "Ratiaria",
+   "labelLoc": [
+    23.5,
+    43.7
+   ],
+   "governor": "praeses; dux Daciae ripensis",
+   "phases": [
+    {
+     "from": 285,
+     "to": 441,
+     "t": "Danube bank of Aurelian's Dacia; legio XIII Gemina at Ratiaria, V Macedonica at Oescus; Constantine's bridge at Oescus (328)"
+    },
+    {
+     "from": 441,
+     "to": 535,
+     "t": "Hunnic destruction of Ratiaria (441-447)"
+    },
+    {
+     "from": 535,
+     "to": 615,
+     "t": "Justinianic restoration; Avar and Slav invasions"
+    }
+   ],
+   "diocese": "Dacia (Moesiae before c. 327)",
+   "prefecture": "Illyricum",
+   "parent": "prov_dacia_aureliana",
+   "successors": [],
+   "summary": "The riverbank half of Aurelian's Dacia. Constantine built a stone bridge across the Danube from Oescus to Sucidava in 328, the last Roman bridge over the river. Ratiaria, with its arms factory, was sacked by Attila.",
+   "certainty": "approx",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Orientis",
+     "r": "1-2"
+    },
+    {
+     "a": "Priscus",
+     "w": "History",
+     "r": "fragments on the Hunnic wars"
+    }
+   ]
+  },
+  {
+   "id": "prov_dacia_mediterranea",
+   "name": "Dacia Mediterranea",
+   "type": "province",
+   "created": 285,
+   "createdNote": "Aurelian or Diocletian (Verona List)",
+   "ended": 615,
+   "endedNote": "lost in the early 7th century (date approximate)",
+   "capital": "serdica",
+   "capitalName": "Serdica",
+   "labelLoc": [
+    23.0,
+    42.8
+   ],
+   "governor": "consularis (Notitia)",
+   "phases": [
+    {
+     "from": 285,
+     "to": 441,
+     "t": "Serdica and Naissus; Galerius' edict of toleration issued at Serdica (311); Council of Serdica (343)"
+    },
+    {
+     "from": 441,
+     "to": 535,
+     "t": "Attila takes Naissus and Serdica (441-443)"
+    },
+    {
+     "from": 535,
+     "to": 615,
+     "t": "restored by Justinian; overrun by Avars and Slavs"
+    }
+   ],
+   "diocese": "Dacia (Moesiae before c. 327)",
+   "prefecture": "Illyricum",
+   "parent": "prov_dacia_aureliana",
+   "successors": [],
+   "summary": "The interior of Aurelian's Dacia, with Serdica (Constantine's 'my Rome') and Naissus, Constantine's birthplace and site of the imperial villa at Mediana. The Council of Serdica (343) split along East-West lines over Athanasius.",
+   "certainty": "approx",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Orientis",
+     "r": "1-2"
+    },
+    {
+     "a": "Lactantius",
+     "w": "De mortibus persecutorum",
+     "r": "34-35"
+    }
+   ]
+  },
+  {
+   "id": "prov_moesia_prima",
+   "name": "Moesia Prima (Moesia Superior Margensis)",
+   "type": "province",
+   "created": 293,
+   "createdNote": "Diocletianic (Verona List)",
+   "ended": 615,
+   "endedNote": "lost in the early 7th century (date approximate)",
+   "capital": "viminacium",
+   "capitalName": "Viminacium",
+   "labelLoc": [
+    21.3,
+    44.4
+   ],
+   "governor": "praeses; dux Moesiae primae",
+   "phases": [
+    {
+     "from": 293,
+     "to": 441,
+     "t": "the Danube from Singidunum to the Iron Gates"
+    },
+    {
+     "from": 441,
+     "to": 535,
+     "t": "Huns destroy Viminacium (441); later Gepid and Ostrogothic control of Singidunum"
+    },
+    {
+     "from": 535,
+     "to": 615,
+     "t": "Justinianic restoration; Avars take Singidunum (584); Priscus' campaigns beyond the Danube (599-602)"
+    }
+   ],
+   "diocese": "Dacia (Moesiae before c. 327)",
+   "prefecture": "Illyricum",
+   "parent": "prov_moesia_superior",
+   "successors": [],
+   "summary": "The Verona List calls it Moesia Superior Margensis, after the Margus (Morava). The treaty of Margus with the Huns (435 or 439) and the fall of Viminacium to Attila in 441 began the destruction of the Danube cities.",
+   "certainty": "approx",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Orientis",
+     "r": "1-2"
+    },
+    {
+     "a": "Priscus",
+     "w": "History",
+     "r": "fragment on the treaty of Margus"
+    }
+   ]
+  },
+  {
+   "id": "prov_dardania",
+   "name": "Dardania",
+   "type": "province",
+   "created": 293,
+   "createdNote": "Diocletianic (Verona List)",
+   "ended": 615,
+   "endedNote": "abandoned in the early 7th century (date approximate)",
+   "capital": null,
+   "capitalName": "Scupi",
+   "labelLoc": [
+    21.2,
+    42.5
+   ],
+   "governor": "praeses",
+   "phases": [
+    {
+     "from": 293,
+     "to": 535,
+     "t": "upland mining province; Scupi destroyed by earthquake (518)"
+    },
+    {
+     "from": 535,
+     "to": 615,
+     "t": "Justiniana Prima founded near Justinian's birthplace, with an archbishopric (Novel 11, 535)"
+    }
+   ],
+   "diocese": "Dacia (Moesiae before c. 327)",
+   "prefecture": "Illyricum",
+   "parent": "prov_moesia_superior",
+   "successors": [],
+   "summary": "A province of mines (metalla Dardanica) and hill-country recruits. Justinian, born at nearby Tauresium, built the new city of Justiniana Prima (Caricin Grad) and made its archbishop head of the church in northern Illyricum.",
+   "certainty": "approx",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Justinian",
+     "w": "Novellae",
+     "r": "11"
+    },
+    {
+     "a": "Procopius",
+     "w": "Buildings",
+     "r": "4.1"
+    }
+   ]
+  },
+  {
+   "id": "prov_praevalitana",
+   "name": "Praevalitana",
+   "type": "province",
+   "created": 293,
+   "createdNote": "Diocletianic (Verona List)",
+   "ended": 615,
+   "endedNote": "lost in the early 7th century (date approximate)",
+   "capital": "scodra",
+   "capitalName": "Scodra",
+   "labelLoc": [
+    19.5,
+    42.4
+   ],
+   "governor": "praeses",
+   "phases": [
+    {
+     "from": 293,
+     "to": 615,
+     "t": "carved from southern Dalmatia: Scodra, Doclea, Lissus"
+    }
+   ],
+   "diocese": "Dacia (Moesiae before c. 327)",
+   "prefecture": "Illyricum",
+   "parent": "prov_dalmatia",
+   "successors": [],
+   "summary": "Split off from Dalmatia by Diocletian, perhaps because tradition made Doclea his birthplace. It sat in the eastern empire after 395 although it bordered western Dalmatia.",
+   "certainty": "approx",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Orientis",
+     "r": "1-2"
+    }
+   ]
+  },
+  {
+   "id": "prov_thessalia",
+   "name": "Thessalia",
+   "type": "province",
+   "created": 293,
+   "createdNote": "Diocletianic (Verona List)",
+   "ended": null,
+   "endedNote": "Larisa and the coast still Roman in 641",
+   "capital": null,
+   "capitalName": "Larisa",
+   "labelLoc": [
+    22.2,
+    39.5
+   ],
+   "governor": "praeses",
+   "phases": [
+    {
+     "from": 293,
+     "to": 559,
+     "t": "the Thessalian plain"
+    },
+    {
+     "from": 559,
+     "to": null,
+     "t": "Kotrigur raid reaches Thermopylae (559); Slav settlement (Belegezitai) from c. 600"
+    }
+   ],
+   "diocese": "Macedonia (Moesiae before c. 327)",
+   "prefecture": "Illyricum",
+   "parent": "prov_macedonia",
+   "successors": [],
+   "summary": "The Thessalian plain, separated from Macedonia by Diocletian. Justinian rebuilt the walls at Thermopylae and garrisoned the pass. By the early 7th century Slav groups were settled around its cities.",
+   "certainty": "probable",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Orientis",
+     "r": "1-2"
+    },
+    {
+     "a": "Procopius",
+     "w": "Buildings",
+     "r": "4.2"
+    }
+   ]
+  },
+  {
+   "id": "prov_epirus_nova",
+   "name": "Epirus Nova",
+   "type": "province",
+   "created": 293,
+   "createdNote": "Diocletianic (Verona List)",
+   "ended": null,
+   "endedNote": "Dyrrachium still Roman in 641",
+   "capital": "dyrrachium",
+   "capitalName": "Dyrrachium",
+   "labelLoc": [
+    20.0,
+    41.0
+   ],
+   "governor": "praeses",
+   "phases": [
+    {
+     "from": 293,
+     "to": null,
+     "t": "the Adriatic end of the Via Egnatia: Dyrrachium, Apollonia, Lychnidus"
+    }
+   ],
+   "diocese": "Macedonia (Moesiae before c. 327)",
+   "prefecture": "Illyricum",
+   "parent": "prov_macedonia",
+   "successors": [],
+   "summary": "The western end of the Via Egnatia, with Dyrrachium, birthplace of the emperor Anastasius, who gave it new walls. Theoderic the Amal seized it in 479 during his wanderings in the Balkans.",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Orientis",
+     "r": "1-2"
+    },
+    {
+     "a": "Malchus",
+     "w": "History",
+     "r": "fragments on Theoderic Strabo and the Amal"
+    }
+   ]
+  },
+  {
+   "id": "prov_macedonia_salutaris",
+   "name": "Macedonia Salutaris (Secunda)",
+   "type": "province",
+   "created": 386,
+   "createdNote": "by c. 386-400 (Notitia); later called Macedonia II",
+   "ended": 610,
+   "endedNote": "abandoned by the early 7th century (date approximate)",
+   "capital": "stobi",
+   "capitalName": "Stobi",
+   "labelLoc": [
+    21.9,
+    41.5
+   ],
+   "governor": "praeses",
+   "phases": [
+    {
+     "from": 386,
+     "to": 610,
+     "t": "upper Axios valley: Stobi, Heraclea Lyncestis; the Notitia places part of it in the diocese of Dacia"
+    }
+   ],
+   "diocese": "Macedonia (Moesiae before c. 327)",
+   "prefecture": "Illyricum",
+   "parent": "prov_macedonia",
+   "successors": [],
+   "summary": "A small province of the upper Vardar. Theodosius I issued laws from Stobi in 388; Theoderic the Amal sacked it in 479. Stobi was abandoned by the early 7th century amid Slav settlement.",
+   "certainty": "approx",
+   "sources": [
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Orientis",
+     "r": "1-2"
+    },
+    {
+     "a": "Hierocles",
+     "w": "Synecdemus",
+     "r": ""
+    }
+   ]
+  }
+ ]
+}

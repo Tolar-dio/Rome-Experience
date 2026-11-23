@@ -1,0 +1,2507 @@
+{
+ "provinces": [
+  {
+   "id": "prov_pannonia_prima",
+   "name": "Pannonia Prima",
+   "type": "province",
+   "created": 296,
+   "createdNote": "Diocletianic (Verona List: Pannonia superior)",
+   "ended": 433,
+   "endedNote": "ceded to or occupied by the Huns c. 433 (disputed)",
+   "capital": "savaria",
+   "capitalName": "Savaria",
+   "labelLoc": [
+    16.6,
+    47.3
+   ],
+   "governor": "praeses; dux Pannoniae primae et Norici ripensis",
+   "phases": [
+    {
+     "from": 296,
+     "to": 375,
+     "t": "northwestern Pannonia: Savaria, Scarbantia, Carnuntum, Vindobona"
+    },
+    {
+     "from": 375,
+     "to": 433,
+     "t": "Quadic and Sarmatian invasions; federate settlements after 380"
+    }
+   ],
+   "diocese": "Pannoniae (Illyricum)",
+   "prefecture": "Italia",
+   "parent": "prov_pannonia_superior",
+   "successors": [],
+   "summary": "The western half of Upper Pannonia. Martin of Tours was born at Savaria around 316; by Ammianus' day Carnuntum was 'a deserted town'. Aetius is generally thought to have ceded Pannonian territory to the Huns around 433 in return for their support.",
+   "certainty": "probable",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Occidentis",
+     "r": "1-3"
+    },
+    {
+     "a": "Ammianus Marcellinus",
+     "w": "Res Gestae",
+     "r": "30.5.2"
+    },
+    {
+     "a": "Sulpicius Severus",
+     "w": "Vita Martini",
+     "r": "2.1"
+    }
+   ]
+  },
+  {
+   "id": "prov_savia",
+   "name": "Savia (Pannonia Savensis)",
+   "type": "province",
+   "created": 296,
+   "createdNote": "Diocletianic (Verona List: Savensis)",
+   "ended": 568,
+   "endedNote": "lost after the Avar arrival of 568 (date approximate)",
+   "capital": "siscia",
+   "capitalName": "Siscia",
+   "labelLoc": [
+    16.2,
+    45.5
+   ],
+   "governor": "corrector (Notitia)",
+   "phases": [
+    {
+     "from": 296,
+     "to": 493,
+     "t": "the Sava valley with Siscia and its mint"
+    },
+    {
+     "from": 493,
+     "to": 537,
+     "t": "Ostrogothic: Cassiodorus' Variae include letters to its governor (4.49; 5.14)"
+    },
+    {
+     "from": 537,
+     "to": 568,
+     "t": "contested by Lombards, Gepids and the empire; Avars after 568"
+    }
+   ],
+   "diocese": "Pannoniae (Illyricum)",
+   "prefecture": "Italia",
+   "parent": "prov_pannonia_superior",
+   "successors": [],
+   "summary": "The Sava valley, with the mint and martyr-shrine of Siscia (Quirinus, martyred 309). Unusually, Theoderic's administration kept governing it as a Roman province, and Cassiodorus' letters deal with its tax abuses.",
+   "certainty": "approx",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Occidentis",
+     "r": "1-3"
+    },
+    {
+     "a": "Cassiodorus",
+     "w": "Variae",
+     "r": "4.49; 5.14"
+    }
+   ]
+  },
+  {
+   "id": "prov_pannonia_secunda",
+   "name": "Pannonia Secunda",
+   "type": "province",
+   "created": 296,
+   "createdNote": "Diocletianic (Verona List: Pannonia inferior)",
+   "ended": 582,
+   "endedNote": "Sirmium surrendered to the Avars in 582",
+   "capital": "sirmium",
+   "capitalName": "Sirmium",
+   "labelLoc": [
+    19.2,
+    45.2
+   ],
+   "governor": "consularis (Notitia)",
+   "phases": [
+    {
+     "from": 296,
+     "to": 441,
+     "t": "Sirmium an imperial residence; battles of Cibalae (316) and Mursa (351)"
+    },
+    {
+     "from": 441,
+     "to": 504,
+     "t": "Hunnic capture of Sirmium (441), then Gepids"
+    },
+    {
+     "from": 504,
+     "to": 567,
+     "t": "Ostrogothic, then Gepid"
+    },
+    {
+     "from": 567,
+     "to": 582,
+     "t": "Roman again under Justin II; Sirmium surrendered to the Avars after a siege of 580-582"
+    }
+   ],
+   "diocese": "Pannoniae (Illyricum)",
+   "prefecture": "Italia",
+   "parent": "prov_pannonia_inferior",
+   "successors": [],
+   "summary": "Sirmium was one of the tetrarchic capitals and the birthplace of several emperors (Probus among them); Constantius II held councils there. Two of the bloodiest battles of the civil wars were fought in the province, at Cibalae (316) and Mursa (351). Its fall to the Avars in 582 broke the Danube frontier.",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Occidentis",
+     "r": "1-3"
+    },
+    {
+     "a": "Menander Protector",
+     "w": "History",
+     "r": "fragments on the siege of Sirmium"
+    }
+   ]
+  },
+  {
+   "id": "prov_valeria_pannonia",
+   "name": "Valeria (Pannonian)",
+   "type": "province",
+   "created": 296,
+   "createdNote": "Galerius, c. 296-300",
+   "ended": 433,
+   "endedNote": "given up to the Huns c. 433 (disputed)",
+   "capital": null,
+   "capitalName": "Sopianae",
+   "labelLoc": [
+    18.6,
+    46.7
+   ],
+   "governor": "praeses; dux Valeriae ripensis",
+   "phases": [
+    {
+     "from": 296,
+     "to": 374,
+     "t": "named after Galerius' wife Valeria; the Danube bend with Aquincum"
+    },
+    {
+     "from": 374,
+     "to": 433,
+     "t": "Quadi and Sarmatians invade (374); Valentinian I dies of a stroke while receiving Quadic envoys (375)"
+    }
+   ],
+   "diocese": "Pannoniae (Illyricum)",
+   "prefecture": "Italia",
+   "parent": "prov_pannonia_inferior",
+   "successors": [],
+   "summary": "Galerius drained Lake Pelso and cleared forests here and named the new province after his wife, Diocletian's daughter Galeria Valeria (Aurelius Victor 40.10). Valentinian I fortified its riverbank heavily; he died in 375 in a fit of rage at Quadic envoys at Brigetio.",
+   "certainty": "probable",
+   "sources": [
+    {
+     "a": "Aurelius Victor",
+     "w": "De Caesaribus",
+     "r": "40.9-10"
+    },
+    {
+     "a": "Ammianus Marcellinus",
+     "w": "Res Gestae",
+     "r": "29.6; 30.6"
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Occidentis",
+     "r": "1-3"
+    }
+   ]
+  },
+  {
+   "id": "prov_noricum_ripense",
+   "name": "Noricum Ripense",
+   "type": "province",
+   "created": 300,
+   "createdNote": "c. 300 (Verona List: Noricus ripariensis)",
+   "ended": 488,
+   "endedNote": "evacuated by order of Odoacer, 488",
+   "capital": "lauriacum",
+   "capitalName": "Lauriacum (Ovilava earlier)",
+   "labelLoc": [
+    14.4,
+    48.2
+   ],
+   "governor": "praeses; dux Pannoniae primae et Norici ripensis",
+   "phases": [
+    {
+     "from": 300,
+     "to": 450,
+     "t": "the Danube bank of Noricum with Lauriacum, Favianis and Batavis"
+    },
+    {
+     "from": 450,
+     "to": 488,
+     "t": "the world of St Severinus: garrisons unpaid, towns defended by their bishops and citizens"
+    }
+   ],
+   "diocese": "Pannoniae (Illyricum)",
+   "prefecture": "Italia",
+   "parent": "prov_noricum",
+   "successors": [],
+   "summary": "Eugippius' Life of Severinus (511) is the most vivid account of a Roman frontier province dying: unpaid soldiers walking to Italy for their wages, towns paying tribute to the Rugi, and finally Odoacer ordering the evacuation of the Roman population to Italy in 488, carrying Severinus' body with them.",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Occidentis",
+     "r": "1-3"
+    },
+    {
+     "a": "Eugippius",
+     "w": "Vita Severini",
+     "r": "20; 44"
+    }
+   ]
+  },
+  {
+   "id": "prov_noricum_mediterraneum",
+   "name": "Noricum Mediterraneum",
+   "type": "province",
+   "created": 300,
+   "createdNote": "c. 300 (Verona List)",
+   "ended": 536,
+   "endedNote": "Frankish overlordship from c. 536-539; Slav settlement from c. 590",
+   "capital": "virunum",
+   "capitalName": "Virunum (Teurnia in the 5th century)",
+   "labelLoc": [
+    14.0,
+    46.8
+   ],
+   "governor": "praeses",
+   "phases": [
+    {
+     "from": 300,
+     "to": 493,
+     "t": "inland Noricum (Carinthia)"
+    },
+    {
+     "from": 493,
+     "to": 536,
+     "t": "Ostrogothic"
+    }
+   ],
+   "diocese": "Pannoniae (Illyricum)",
+   "prefecture": "Italia",
+   "parent": "prov_noricum",
+   "successors": [],
+   "summary": "The mountain valleys of Carinthia, more sheltered than the Danube bank; Teurnia with its bishop's church became the provincial centre in the 5th century. It passed from the Ostrogoths to Frankish overlordship in the 530s and was settled by Slavs from the 590s.",
+   "certainty": "approx",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Occidentis",
+     "r": "1-3"
+    },
+    {
+     "a": "Eugippius",
+     "w": "Vita Severini",
+     "r": "17; 21"
+    }
+   ]
+  },
+  {
+   "id": "prov_venetia_et_histria",
+   "name": "Venetia et Histria",
+   "type": "province",
+   "created": 293,
+   "createdNote": "Diocletianic (Verona List)",
+   "ended": null,
+   "endedNote": "Byzantine maritime Venetia and Istria still Roman in 641",
+   "capital": "aquileia",
+   "capitalName": "Aquileia",
+   "labelLoc": [
+    12.6,
+    45.7
+   ],
+   "governor": "corrector, then consularis",
+   "phases": [
+    {
+     "from": 293,
+     "to": 452,
+     "t": "Aquileia one of the great cities of the West; its mosaic cathedral of Bishop Theodore (after 313)"
+    },
+    {
+     "from": 452,
+     "to": 568,
+     "t": "Attila sacks Aquileia (452); refugees in the lagoons"
+    },
+    {
+     "from": 568,
+     "to": null,
+     "t": "Lombard invasion; Byzantine control reduced to the lagoons (Grado, later Venice) and Istria"
+    }
+   ],
+   "diocese": "Italia Annonaria",
+   "prefecture": "Italia",
+   "parent": null,
+   "successors": [],
+   "summary": "The northeastern gateway to Italy. Attila's destruction of Aquileia in 452 drove refugees into the lagoons, and Cassiodorus' letter of 537-538 to the 'tribunes of the maritime people' describes the lagoon dwellers and their salt-pans. When the Lombards entered Italy in 568 at Forum Iulii, the patriarch fled to Grado, and Byzantine Venetia began.",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Occidentis",
+     "r": "1-3"
+    },
+    {
+     "a": "Cassiodorus",
+     "w": "Variae",
+     "r": "12.24"
+    },
+    {
+     "a": "Paul the Deacon",
+     "w": "Historia Langobardorum",
+     "r": "2.9-10"
+    }
+   ]
+  },
+  {
+   "id": "prov_aemilia",
+   "name": "Aemilia",
+   "type": "province",
+   "created": 293,
+   "createdNote": "Diocletianic",
+   "ended": null,
+   "endedNote": "eastern part still Roman (exarchate) in 641",
+   "capital": null,
+   "capitalName": "uncertain (Placentia or Bononia)",
+   "labelLoc": [
+    10.8,
+    44.7
+   ],
+   "governor": "corrector, then consularis",
+   "phases": [
+    {
+     "from": 293,
+     "to": 569,
+     "t": "the Via Aemilia from Placentia to Bononia"
+    },
+    {
+     "from": 569,
+     "to": null,
+     "t": "partly Lombard after 569; Bononia and the eastern towns held from Ravenna"
+    }
+   ],
+   "diocese": "Italia Annonaria",
+   "prefecture": "Italia",
+   "parent": null,
+   "successors": [],
+   "summary": "The towns of the Via Aemilia, many of which Ambrose described in 387 as 'corpses of half-ruined cities'. Divided between Lombards and the exarchate after 568.",
+   "certainty": "probable",
+   "sources": [
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Occidentis",
+     "r": "1-3"
+    },
+    {
+     "a": "Ambrose",
+     "w": "Epistulae",
+     "r": "39.3"
+    }
+   ]
+  },
+  {
+   "id": "prov_liguria",
+   "name": "Liguria (late, with Milan)",
+   "type": "province",
+   "created": 293,
+   "createdNote": "Diocletianic (Verona List)",
+   "ended": 569,
+   "endedNote": "Lombard conquest 569",
+   "capital": "mediolanum",
+   "capitalName": "Mediolanum",
+   "labelLoc": [
+    8.9,
+    45.3
+   ],
+   "governor": "consularis (Notitia)",
+   "phases": [
+    {
+     "from": 293,
+     "to": 402,
+     "t": "Mediolanum an imperial capital (from Maximian); Constantine and Licinius' agreement at Milan (313); Ambrose bishop (374-397)"
+    },
+    {
+     "from": 402,
+     "to": 569,
+     "t": "court moves to Ravenna (402); Milan sacked by the Goths in 539; Ticinum the Ostrogothic second capital"
+    },
+    {
+     "from": 569,
+     "to": 569,
+     "t": "Milan taken by the Lombards (September 569)"
+    }
+   ],
+   "diocese": "Italia Annonaria",
+   "prefecture": "Italia",
+   "parent": null,
+   "successors": [],
+   "summary": "Late antique 'Liguria' was the northwest of the Po plain, not the Riviera: Milan, Ticinum, Augusta Taurinorum and Comum. Milan was the western capital for a century, the city of Ambrose and of Augustine's conversion. In 539 the Goths and Burgundians sacked it after it went over to Belisarius, killing, Procopius says, all the men.",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Occidentis",
+     "r": "1-3"
+    },
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "6.21.38-39"
+    },
+    {
+     "a": "Augustine",
+     "w": "Confessiones",
+     "r": "8"
+    }
+   ]
+  },
+  {
+   "id": "prov_flaminia_et_picenum",
+   "name": "Flaminia et Picenum (Annonarium)",
+   "type": "province",
+   "created": 293,
+   "createdNote": "Diocletianic (Verona List)",
+   "ended": null,
+   "endedNote": "still Roman (exarchate) in 641; Ravenna fell to the Lombards in 751",
+   "capital": "ravenna",
+   "capitalName": "Ravenna",
+   "labelLoc": [
+    12.6,
+    43.9
+   ],
+   "governor": "corrector, then consularis",
+   "phases": [
+    {
+     "from": 293,
+     "to": 402,
+     "t": "the Adriatic coast from Ravenna to Ancona"
+    },
+    {
+     "from": 402,
+     "to": 584,
+     "t": "Ravenna the western capital (402-476), then Odoacer's and Theoderic's, then seat of the praetorian prefect"
+    },
+    {
+     "from": 584,
+     "to": null,
+     "t": "core of the exarchate (Ravenna and the Pentapolis)"
+    }
+   ],
+   "diocese": "Italia Annonaria",
+   "prefecture": "Italia",
+   "parent": null,
+   "successors": [],
+   "summary": "Honorius moved the court to Ravenna in 402, protected by marshes and with a fleet base at Classe. The province's monuments, from Galla Placidia's mausoleum to Theoderic's tomb and Justinian's San Vitale, are the best surviving ensemble of late antique art. It remained the heart of Byzantine Italy until 751.",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Occidentis",
+     "r": "1-3"
+    },
+    {
+     "a": "Jordanes",
+     "w": "Getica",
+     "r": "148-151"
+    }
+   ]
+  },
+  {
+   "id": "prov_raetia_prima",
+   "name": "Raetia Prima",
+   "type": "province",
+   "created": 290,
+   "createdNote": "c. 290-300 (split of Raetia; possibly Diocletianic)",
+   "ended": 536,
+   "endedNote": "ceded to the Franks by Vitiges, 536-537",
+   "capital": null,
+   "capitalName": "Curia (Chur)",
+   "labelLoc": [
+    9.6,
+    46.8
+   ],
+   "governor": "praeses; dux Raetiae primae et secundae",
+   "phases": [
+    {
+     "from": 290,
+     "to": 476,
+     "t": "the Alpine Rhine and the Grisons passes"
+    },
+    {
+     "from": 476,
+     "to": 536,
+     "t": "under Odoacer and the Ostrogoths (Cassiodorus' letters to the dux Raetiarum)"
+    }
+   ],
+   "diocese": "Italia Annonaria",
+   "prefecture": "Italia",
+   "parent": "prov_raetia",
+   "successors": [],
+   "summary": "The Alpine part of Raetia with Chur, controlling the passes between Italy and the upper Rhine. Theoderic treated it as 'the bulwark of Italy' (Variae 7.4). Vitiges ceded it to the Franks in 536-537.",
+   "certainty": "approx",
+   "sources": [
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Occidentis",
+     "r": "1-3"
+    },
+    {
+     "a": "Cassiodorus",
+     "w": "Variae",
+     "r": "7.4"
+    }
+   ]
+  },
+  {
+   "id": "prov_raetia_secunda",
+   "name": "Raetia Secunda",
+   "type": "province",
+   "created": 290,
+   "createdNote": "c. 290-300",
+   "ended": 476,
+   "endedNote": "Roman administration lapsed in the later 5th century",
+   "capital": "augusta_vindelicum",
+   "capitalName": "Augusta Vindelicum",
+   "labelLoc": [
+    10.9,
+    48.2
+   ],
+   "governor": "praeses; dux Raetiae primae et secundae",
+   "phases": [
+    {
+     "from": 290,
+     "to": 430,
+     "t": "the Danube-Iller-Rhine frontier"
+    },
+    {
+     "from": 430,
+     "to": 476,
+     "t": "Alamannic and Iuthungian pressure; Roman control fades"
+    }
+   ],
+   "diocese": "Italia Annonaria",
+   "prefecture": "Italia",
+   "parent": "prov_raetia",
+   "successors": [],
+   "summary": "The Bavarian plain between the Iller and the Inn behind the late Roman Danube-Iller-Rhine line, defended by Valentinian's forts. Roman authority dissolved in the later 5th century.",
+   "certainty": "approx",
+   "sources": [
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Occidentis",
+     "r": "1-3"
+    }
+   ]
+  },
+  {
+   "id": "prov_alpes_cottiae_late",
+   "name": "Alpes Cottiae (late, Ligurian)",
+   "type": "province",
+   "created": 293,
+   "createdNote": "Diocletianic (Verona List)",
+   "ended": 643,
+   "endedNote": "conquered by the Lombard king Rothari, c. 643",
+   "capital": null,
+   "capitalName": "Segusio in the 4th century; Genua the main city later",
+   "labelLoc": [
+    8.4,
+    44.4
+   ],
+   "governor": "praeses",
+   "phases": [
+    {
+     "from": 293,
+     "to": 569,
+     "t": "Italian province; by the 6th century it lay along the Ligurian Apennines and coast"
+    },
+    {
+     "from": 569,
+     "to": 643,
+     "t": "Genua and the Riviera held by the empire after the Lombard invasion"
+    }
+   ],
+   "diocese": "Italia Annonaria",
+   "prefecture": "Italia",
+   "parent": "prov_alpes_cottiae",
+   "successors": [],
+   "summary": "Paul the Deacon defines the Cottian Alps as the Ligurian Apennines with Genua, Savona and Bobbio; the archbishop of Milan took refuge at Genua from the Lombards. Rothari conquered the coast around 643.",
+   "certainty": "approx",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Occidentis",
+     "r": "1-3"
+    },
+    {
+     "a": "Paul the Deacon",
+     "w": "Historia Langobardorum",
+     "r": "2.16; 4.45"
+    }
+   ]
+  },
+  {
+   "id": "prov_tuscia_et_umbria",
+   "name": "Tuscia et Umbria",
+   "type": "province",
+   "created": 293,
+   "createdNote": "Diocletianic (Verona List)",
+   "ended": null,
+   "endedNote": "Perusia corridor and south Etruria still Roman in 641",
+   "capital": "florentia",
+   "capitalName": "Florentia",
+   "labelLoc": [
+    11.8,
+    43.1
+   ],
+   "governor": "corrector, then consularis",
+   "phases": [
+    {
+     "from": 293,
+     "to": 570,
+     "t": "Etruria and Umbria; battle of Busta Gallorum (Taginae) in 552"
+    },
+    {
+     "from": 570,
+     "to": null,
+     "t": "mostly Lombard after c. 570; the Byzantine corridor through Perusia linked Rome to Ravenna"
+    }
+   ],
+   "diocese": "Italia Suburbicaria",
+   "prefecture": "Italia",
+   "parent": null,
+   "successors": [],
+   "summary": "Etruria and Umbria, the hinterland of Rome. Narses destroyed Totila at Busta Gallorum in the Apennines in 552. After the Lombard invasion only the corridor along the Via Amerina through Perusia kept Rome in contact with Ravenna.",
+   "certainty": "probable",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Occidentis",
+     "r": "1-3"
+    },
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "8.29-32"
+    }
+   ]
+  },
+  {
+   "id": "prov_picenum_suburbicarium",
+   "name": "Picenum Suburbicarium",
+   "type": "province",
+   "created": 375,
+   "createdNote": "later 4th century",
+   "ended": 580,
+   "endedNote": "absorbed by the Lombard duchy of Spoleto, c. 570s-580s",
+   "capital": "asculum",
+   "capitalName": "Asculum (probable)",
+   "labelLoc": [
+    13.6,
+    42.9
+   ],
+   "governor": "consularis (Notitia)",
+   "phases": [
+    {
+     "from": 375,
+     "to": 580,
+     "t": "southern Picenum, separated from Flaminia"
+    }
+   ],
+   "diocese": "Italia Suburbicaria",
+   "prefecture": "Italia",
+   "parent": null,
+   "successors": [],
+   "summary": "Southern Picenum, separated from Flaminia et Picenum in the later 4th century and assigned to the vicar of Rome. Ravaged in the Gothic war (Auximum besieged 539) and absorbed by the Lombard duchy of Spoleto.",
+   "certainty": "approx",
+   "sources": [
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Occidentis",
+     "r": "1-3"
+    }
+   ]
+  },
+  {
+   "id": "prov_campania",
+   "name": "Campania",
+   "type": "province",
+   "created": 293,
+   "createdNote": "Diocletianic (Verona List)",
+   "ended": null,
+   "endedNote": "Naples and the coast still Roman in 641",
+   "capital": "capua",
+   "capitalName": "Capua",
+   "labelLoc": [
+    14.3,
+    41.0
+   ],
+   "governor": "corrector, then consularis",
+   "phases": [
+    {
+     "from": 293,
+     "to": 536,
+     "t": "the richest part of Italia Suburbicaria: Capua, Neapolis, Puteoli; Vesuvius erupts (472)"
+    },
+    {
+     "from": 536,
+     "to": 570,
+     "t": "Belisarius takes Naples through an aqueduct (536); Totila retakes it (543)"
+    },
+    {
+     "from": 570,
+     "to": null,
+     "t": "inland Campania Lombard (duchy of Benevento); Naples, Cumae and the coast Byzantine"
+    }
+   ],
+   "diocese": "Italia Suburbicaria",
+   "prefecture": "Italia",
+   "parent": null,
+   "successors": [],
+   "summary": "The Bay of Naples remained a playground of the Roman aristocracy into the 5th century; the last western emperor, Romulus, was pensioned off to the Castellum Lucullanum at Naples in 476. Belisarius took Naples in 536 by sending men through a disused aqueduct. The duchy of Naples survived as a Byzantine enclave.",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Occidentis",
+     "r": "1-3"
+    },
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "5.8-10"
+    },
+    {
+     "a": "Marcellinus Comes",
+     "w": "Chronicon",
+     "r": "472"
+    }
+   ]
+  },
+  {
+   "id": "prov_samnium",
+   "name": "Samnium",
+   "type": "province",
+   "created": 350,
+   "createdNote": "mid-4th century",
+   "ended": 571,
+   "endedNote": "Lombard duchy of Benevento founded c. 570-571",
+   "capital": null,
+   "capitalName": "uncertain (Saepinum or Beneventum)",
+   "labelLoc": [
+    14.6,
+    41.5
+   ],
+   "governor": "praeses",
+   "phases": [
+    {
+     "from": 350,
+     "to": 571,
+     "t": "separated from Campania; earthquake of 346 and rebuilding"
+    }
+   ],
+   "diocese": "Italia Suburbicaria",
+   "prefecture": "Italia",
+   "parent": null,
+   "successors": [],
+   "summary": "The Samnite uplands, separated from Campania in the mid-4th century. Inscriptions record the rebuilding of its towns after the great earthquake of 346. It became the core of the Lombard duchy of Benevento.",
+   "certainty": "approx",
+   "sources": [
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Occidentis",
+     "r": "1-3"
+    }
+   ]
+  },
+  {
+   "id": "prov_valeria_italia",
+   "name": "Valeria (Italian)",
+   "type": "province",
+   "created": 375,
+   "createdNote": "later 4th century",
+   "ended": 576,
+   "endedNote": "absorbed by the Lombard duchy of Spoleto, c. 570s",
+   "capital": null,
+   "capitalName": "uncertain (Reate or Corfinium)",
+   "labelLoc": [
+    13.3,
+    42.2
+   ],
+   "governor": "praeses",
+   "phases": [
+    {
+     "from": 375,
+     "to": 576,
+     "t": "the central Apennines: Reate, Nursia, Alba Fucens, Corfinium"
+    }
+   ],
+   "diocese": "Italia Suburbicaria",
+   "prefecture": "Italia",
+   "parent": null,
+   "successors": [],
+   "summary": "A mountain province carved from Picenum and Samnium in the later 4th century. Benedict was born at Nursia around 480. Gregory the Great's Dialogues are full of its hermits and its sufferings at the hands of the Lombards.",
+   "certainty": "approx",
+   "sources": [
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Occidentis",
+     "r": "1-3"
+    },
+    {
+     "a": "Gregory the Great",
+     "w": "Dialogi",
+     "r": ""
+    }
+   ]
+  },
+  {
+   "id": "prov_apulia_et_calabria",
+   "name": "Apulia et Calabria",
+   "type": "province",
+   "created": 293,
+   "createdNote": "Diocletianic (Verona List)",
+   "ended": null,
+   "endedNote": "the Salento ports still Roman in 641",
+   "capital": null,
+   "capitalName": "Canusium",
+   "labelLoc": [
+    16.6,
+    40.9
+   ],
+   "governor": "corrector (Notitia)",
+   "phases": [
+    {
+     "from": 293,
+     "to": 570,
+     "t": "Apulia and the Salento (ancient Calabria)"
+    },
+    {
+     "from": 570,
+     "to": null,
+     "t": "Lombard expansion from Benevento; Tarentum, Brundisium, Hydruntum and Gallipolis remain Byzantine"
+    }
+   ],
+   "diocese": "Italia Suburbicaria",
+   "prefecture": "Italia",
+   "parent": null,
+   "successors": [],
+   "summary": "Grain and wool country of southeast Italy, with the Adriatic crossing at Brundisium and Hydruntum. The Salento ports remained in Byzantine hands, and the name Calabria later migrated to the toe of Italy.",
+   "certainty": "probable",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Occidentis",
+     "r": "1-3"
+    }
+   ]
+  },
+  {
+   "id": "prov_lucania_et_bruttii",
+   "name": "Lucania et Bruttii",
+   "type": "province",
+   "created": 293,
+   "createdNote": "Diocletianic (Verona List)",
+   "ended": null,
+   "endedNote": "still largely Roman in 641",
+   "capital": "rhegium",
+   "capitalName": "Rhegium (probable)",
+   "labelLoc": [
+    16.2,
+    39.6
+   ],
+   "governor": "corrector (Notitia)",
+   "phases": [
+    {
+     "from": 293,
+     "to": 410,
+     "t": "the toe of Italy"
+    },
+    {
+     "from": 410,
+     "to": null,
+     "t": "Alaric dies at Consentia (410); Cassiodorus' Vivarium at Scyllaceum (c. 554); largely Byzantine after the Lombard advance"
+    }
+   ],
+   "diocese": "Italia Suburbicaria",
+   "prefecture": "Italia",
+   "parent": null,
+   "successors": [],
+   "summary": "The far south, a land of pastoralism and great estates. Alaric died at Consentia in 410 and, Jordanes says, was buried in the bed of the Busentus. Cassiodorus retired to his estate at Scyllaceum and founded the monastery of Vivarium, a key link in the copying of classical texts.",
+   "certainty": "probable",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Occidentis",
+     "r": "1-3"
+    },
+    {
+     "a": "Jordanes",
+     "w": "Getica",
+     "r": "158"
+    },
+    {
+     "a": "Cassiodorus",
+     "w": "Institutiones",
+     "r": "1.29"
+    }
+   ]
+  },
+  {
+   "id": "prov_africa_proconsularis",
+   "name": "Africa Proconsularis (Zeugitana)",
+   "type": "province",
+   "created": 293,
+   "createdNote": "Diocletianic division of Africa",
+   "ended": 698,
+   "endedNote": "Carthage fell to Hassan ibn al-Numan in 698",
+   "capital": "carthago",
+   "capitalName": "Carthago",
+   "labelLoc": [
+    9.8,
+    36.4
+   ],
+   "governor": "proconsul (outside the vicar's authority); consularis under Justinian's prefect",
+   "phases": [
+    {
+     "from": 293,
+     "to": 429,
+     "t": "the hinterland of Carthage; Donatist schism and Augustine's polemics; Conference of Carthage (411)"
+    },
+    {
+     "from": 429,
+     "to": 439,
+     "t": "Vandal invasion"
+    },
+    {
+     "from": 439,
+     "to": 533,
+     "t": "Vandal kingdom; Carthage taken on 19 October 439"
+    },
+    {
+     "from": 534,
+     "to": 591,
+     "t": "Justinianic province under the praetorian prefect of Africa"
+    },
+    {
+     "from": 591,
+     "to": 698,
+     "t": "under the exarch of Carthage"
+    }
+   ],
+   "diocese": "Africa",
+   "prefecture": "Italia; Africa (534)",
+   "parent": "prov_africa",
+   "successors": [],
+   "summary": "The reduced proconsular province of Carthage, still the second city of the West in 400. The Conference of Carthage (411) brought 286 Catholic and 279 Donatist bishops face to face and ended with an imperial ban on Donatism. Gaiseric's capture of Carthage in 439 was the greatest single blow to the western empire's finances.",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Occidentis",
+     "r": "1-3"
+    },
+    {
+     "a": "Gesta Collationis Carthaginiensis",
+     "w": "Gesta",
+     "r": ""
+    },
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "3.5"
+    }
+   ]
+  },
+  {
+   "id": "prov_byzacena",
+   "name": "Byzacena (Byzacium)",
+   "type": "province",
+   "created": 293,
+   "createdNote": "c. 293-303 (Verona List: Byzacium)",
+   "ended": 670,
+   "endedNote": "Arab conquest 647-670",
+   "capital": "hadrumetum",
+   "capitalName": "Hadrumetum",
+   "labelLoc": [
+    10.4,
+    35.3
+   ],
+   "governor": "consularis (Notitia)",
+   "phases": [
+    {
+     "from": 293,
+     "to": 439,
+     "t": "the olive belt of southern Tunisia"
+    },
+    {
+     "from": 439,
+     "to": 533,
+     "t": "Vandal; Moorish revolts from the 480s"
+    },
+    {
+     "from": 534,
+     "to": 647,
+     "t": "Justinianic; Moorish wars of Solomon and John Troglita (546-548)"
+    },
+    {
+     "from": 647,
+     "to": 670,
+     "t": "Arab invasion; exarch Gregory killed at Sufetula (647); Kairouan founded (670)"
+    }
+   ],
+   "diocese": "Africa",
+   "prefecture": "Italia; Africa (534)",
+   "parent": "prov_africa",
+   "successors": [],
+   "summary": "The great olive-oil country, whose amphorae fed Rome and later Constantinople. The Moorish wars of the 540s are told in Corippus' Latin epic Iohannis. The exarch Gregory, who had rebelled against Constans II, died fighting the Arabs at Sufetula in 647.",
+   "certainty": "probable",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Occidentis",
+     "r": "1-3"
+    },
+    {
+     "a": "Corippus",
+     "w": "Iohannis",
+     "r": ""
+    }
+   ]
+  },
+  {
+   "id": "prov_tripolitania",
+   "name": "Tripolitania",
+   "type": "province",
+   "created": 303,
+   "createdNote": "c. 303 (Verona List)",
+   "ended": 643,
+   "endedNote": "Arab conquest 643",
+   "capital": "leptis_magna",
+   "capitalName": "Leptis Magna",
+   "labelLoc": [
+    13.5,
+    32.3
+   ],
+   "governor": "praeses; comes limitis Tripolitani",
+   "phases": [
+    {
+     "from": 303,
+     "to": 439,
+     "t": "the three cities (Leptis, Oea, Sabratha); Austurian raids of 363-365 and the scandal of the comes Romanus"
+    },
+    {
+     "from": 439,
+     "to": 533,
+     "t": "Vandal and Moorish control"
+    },
+    {
+     "from": 533,
+     "to": 643,
+     "t": "recovered by the local revolt of Pudentius (533); Amr ibn al-As takes Tripoli (643)"
+    }
+   ],
+   "diocese": "Africa",
+   "prefecture": "Italia; Africa (534)",
+   "parent": "prov_africa",
+   "successors": [],
+   "summary": "Septimius Severus' homeland. Ammianus tells how the comes Romanus refused to defend Leptis against the Austuriani unless supplied with 4,000 camels, then covered up his failure at court. Justinian's Leptis shrank behind a new wall enclosing a fraction of the old city.",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Ammianus Marcellinus",
+     "w": "Res Gestae",
+     "r": "28.6"
+    },
+    {
+     "a": "Procopius",
+     "w": "Buildings",
+     "r": "6.4"
+    }
+   ]
+  },
+  {
+   "id": "prov_mauretania_sitifensis",
+   "name": "Mauretania Sitifensis (Mauretania Prima)",
+   "type": "province",
+   "created": 293,
+   "createdNote": "c. 293-303 (Verona List)",
+   "ended": 698,
+   "endedNote": "Arab conquest, late 7th century (approximate)",
+   "capital": "sitifis",
+   "capitalName": "Sitifis",
+   "labelLoc": [
+    5.4,
+    36.2
+   ],
+   "governor": "praeses",
+   "phases": [
+    {
+     "from": 293,
+     "to": 429,
+     "t": "eastern part of Caesariensis"
+    },
+    {
+     "from": 429,
+     "to": 442,
+     "t": "Vandal"
+    },
+    {
+     "from": 442,
+     "to": 455,
+     "t": "returned to Rome by the treaty of 442"
+    },
+    {
+     "from": 455,
+     "to": 534,
+     "t": "Vandal and Moorish"
+    },
+    {
+     "from": 534,
+     "to": 698,
+     "t": "Byzantine Mauretania Prima"
+    }
+   ],
+   "diocese": "Africa",
+   "prefecture": "Italia; Africa (534)",
+   "parent": "prov_mauretania_caesariensis",
+   "successors": [],
+   "summary": "The high plains round Sitifis, separated from Caesariensis by Diocletian (the Verona List garbles its name). It changed hands repeatedly in the 5th century; under Justinian it was the westernmost securely held province of Africa.",
+   "certainty": "approx",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Occidentis",
+     "r": "1-3"
+    }
+   ]
+  },
+  {
+   "id": "prov_numidia_cirtensis",
+   "name": "Numidia Cirtensis",
+   "type": "province",
+   "created": 303,
+   "createdNote": "c. 303",
+   "ended": 314,
+   "endedNote": "reunited by c. 314; Cirta renamed Constantina",
+   "capital": "cirta",
+   "capitalName": "Cirta",
+   "labelLoc": [
+    6.7,
+    36.3
+   ],
+   "governor": "praeses",
+   "phases": [
+    {
+     "from": 303,
+     "to": 314,
+     "t": "northern, civilian Numidia"
+    }
+   ],
+   "diocese": "Africa",
+   "prefecture": "Italia; Africa (534)",
+   "parent": "prov_numidia",
+   "successors": [
+    "prov_numidia"
+   ],
+   "summary": "One half of Diocletian's divided Numidia, attested in the Verona List. The Great Persecution's surrender of scriptures at Cirta (303), recorded in the Gesta apud Zenophilum, fed the Donatist schism.",
+   "certainty": "probable",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Optatus",
+     "w": "Appendix",
+     "r": "1 (Gesta apud Zenophilum)"
+    }
+   ]
+  },
+  {
+   "id": "prov_numidia_militiana",
+   "name": "Numidia Militiana",
+   "type": "province",
+   "created": 303,
+   "createdNote": "c. 303",
+   "ended": 314,
+   "endedNote": "reunited by c. 314",
+   "capital": "lambaesis",
+   "capitalName": "Lambaesis",
+   "labelLoc": [
+    6.2,
+    35.4
+   ],
+   "governor": "praeses (military zone)",
+   "phases": [
+    {
+     "from": 303,
+     "to": 314,
+     "t": "southern, military Numidia with Lambaesis"
+    }
+   ],
+   "diocese": "Africa",
+   "prefecture": "Italia; Africa (534)",
+   "parent": "prov_numidia",
+   "successors": [
+    "prov_numidia"
+   ],
+   "summary": "The southern half of Diocletian's Numidia, centred on the legionary base at Lambaesis. Its name advertised its military character.",
+   "certainty": "probable",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    }
+   ]
+  },
+  {
+   "id": "prov_tarraconensis",
+   "name": "Tarraconensis (late)",
+   "type": "province",
+   "created": 293,
+   "createdNote": "Diocletianic",
+   "ended": 475,
+   "endedNote": "Visigothic conquest 472-475",
+   "capital": "tarraco",
+   "capitalName": "Tarraco",
+   "labelLoc": [
+    0.5,
+    41.8
+   ],
+   "governor": "praeses",
+   "phases": [
+    {
+     "from": 293,
+     "to": 409,
+     "t": "the Ebro valley and the northeast"
+    },
+    {
+     "from": 409,
+     "to": 475,
+     "t": "Bagaudae (440s-450s); last Roman province in Spain, taken by Euric (472-475)"
+    }
+   ],
+   "diocese": "Hispaniae",
+   "prefecture": "Galliae",
+   "parent": "prov_hispania_citerior",
+   "successors": [],
+   "summary": "The northeast of Spain, the last part of the peninsula under Roman government. Hydatius records Bagaudic risings in the Ebro valley in the 440s-450s. Euric's generals took Pamplona, Caesaraugusta and Tarraco in 472-475.",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Occidentis",
+     "r": "1-3"
+    },
+    {
+     "a": "Hydatius",
+     "w": "Chronicle",
+     "r": ""
+    },
+    {
+     "a": "Chronica Gallica a. 511",
+     "w": "Chronica Gallica",
+     "r": ""
+    }
+   ]
+  },
+  {
+   "id": "prov_carthaginiensis",
+   "name": "Carthaginiensis",
+   "type": "province",
+   "created": 293,
+   "createdNote": "Diocletianic (Verona List)",
+   "ended": 460,
+   "endedNote": "Roman government effectively ended by c. 460 (approximate)",
+   "capital": "carthago_nova",
+   "capitalName": "Carthago Nova (Toletum rising)",
+   "labelLoc": [
+    -2.5,
+    39.3
+   ],
+   "governor": "praeses",
+   "phases": [
+    {
+     "from": 293,
+     "to": 385,
+     "t": "the centre and southeast, including the Balearics"
+    },
+    {
+     "from": 385,
+     "to": 409,
+     "t": "Balearics separated"
+    },
+    {
+     "from": 409,
+     "to": 460,
+     "t": "Vandals sack Carthago Nova (425); Majorian's invasion fleet destroyed at Portus Illicitanus (460)"
+    }
+   ],
+   "diocese": "Hispaniae",
+   "prefecture": "Galliae",
+   "parent": "prov_hispania_citerior",
+   "successors": [],
+   "summary": "Central and southeastern Spain. Majorian assembled his fleet here in 460 for an invasion of Vandal Africa, only to have it captured by Gaiseric through treachery. Toledo, in its interior, became the Visigothic capital, while the coast round Cartagena was Byzantine Spania from 552.",
+   "certainty": "approx",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Hydatius",
+     "w": "Chronicle",
+     "r": ""
+    }
+   ]
+  },
+  {
+   "id": "prov_gallaecia",
+   "name": "Gallaecia",
+   "type": "province",
+   "created": 293,
+   "createdNote": "Diocletianic (Verona List)",
+   "ended": 411,
+   "endedNote": "Suevic kingdom from 411",
+   "capital": "bracara_augusta",
+   "capitalName": "Bracara Augusta",
+   "labelLoc": [
+    -7.8,
+    42.3
+   ],
+   "governor": "consularis (Notitia)",
+   "phases": [
+    {
+     "from": 293,
+     "to": 411,
+     "t": "the northwest with its gold districts and legio VII Gemina"
+    },
+    {
+     "from": 411,
+     "to": 411,
+     "t": "allotted to the Sueves and Hasding Vandals (411)"
+    }
+   ],
+   "diocese": "Hispaniae",
+   "prefecture": "Galliae",
+   "parent": "prov_hispania_citerior",
+   "successors": [],
+   "summary": "The northwest, home of the ascetic movement of Priscillian, the first Christian executed for heresy (Trier, 385), and of the chronicler Hydatius, bishop of Aquae Flaviae, who recorded the Suevic kingdom that replaced Roman rule from 411.",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Occidentis",
+     "r": "1-3"
+    },
+    {
+     "a": "Hydatius",
+     "w": "Chronicle",
+     "r": ""
+    },
+    {
+     "a": "Sulpicius Severus",
+     "w": "Chronica",
+     "r": "2.46-51"
+    }
+   ]
+  },
+  {
+   "id": "prov_insulae_balearum",
+   "name": "Insulae Balearum",
+   "type": "province",
+   "created": 385,
+   "createdNote": "between 369 and 385",
+   "ended": null,
+   "endedNote": "still Roman in 641",
+   "capital": null,
+   "capitalName": "uncertain (Pollentia or Palma)",
+   "labelLoc": [
+    2.9,
+    39.6
+   ],
+   "governor": "praeses",
+   "phases": [
+    {
+     "from": 385,
+     "to": 455,
+     "t": "separated from Carthaginiensis"
+    },
+    {
+     "from": 455,
+     "to": 534,
+     "t": "Vandal"
+    },
+    {
+     "from": 534,
+     "to": null,
+     "t": "recovered by Apollinaris for Justinian (534); attached to Africa, later to Spania"
+    }
+   ],
+   "diocese": "Hispaniae",
+   "prefecture": "Galliae",
+   "parent": "prov_carthaginiensis",
+   "successors": [],
+   "summary": "The Balearic Islands, separated from Carthaginiensis between 369 and 385. Bishop Severus' letter on the forced conversion of the Jews of Minorca (418) is a rare document of island life. They remained Byzantine long after Spania was lost.",
+   "certainty": "probable",
+   "sources": [
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Occidentis",
+     "r": "1-3"
+    },
+    {
+     "a": "Severus of Minorca",
+     "w": "Epistula de conversione Iudaeorum",
+     "r": ""
+    },
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "4.5.7"
+    }
+   ]
+  },
+  {
+   "id": "prov_lugdunensis_prima",
+   "name": "Lugdunensis Prima",
+   "type": "province",
+   "created": 293,
+   "createdNote": "Diocletianic (Verona List)",
+   "ended": 470,
+   "endedNote": "Burgundian from the 460s-470s (approximate)",
+   "capital": "lugdunum",
+   "capitalName": "Lugdunum",
+   "labelLoc": [
+    4.5,
+    46.8
+   ],
+   "governor": "consularis (Notitia)",
+   "phases": [
+    {
+     "from": 293,
+     "to": 457,
+     "t": "Lyon, Autun, Langres, Chalon"
+    },
+    {
+     "from": 457,
+     "to": 470,
+     "t": "Burgundian control from the 460s"
+    }
+   ],
+   "diocese": "Galliae",
+   "prefecture": "Galliae",
+   "parent": "prov_lugdunensis",
+   "successors": [],
+   "summary": "Lyon and Burgundy. Autun's panegyrics to Constantius I and Constantine (c. 297-312) are the voice of a Gallic city rebuilding after the 3rd-century crisis. The Burgundians made Lyon one of their capitals in the 460s-470s.",
+   "certainty": "probable",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Occidentis",
+     "r": "1-3"
+    },
+    {
+     "a": "Panegyrici Latini",
+     "w": "Panegyrici",
+     "r": "9 (4); 5 (8)"
+    }
+   ]
+  },
+  {
+   "id": "prov_lugdunensis_secunda",
+   "name": "Lugdunensis Secunda",
+   "type": "province",
+   "created": 293,
+   "createdNote": "Diocletianic (Verona List)",
+   "ended": 486,
+   "endedNote": "absorbed into the Frankish kingdom by c. 486 (approximate)",
+   "capital": null,
+   "capitalName": "Rotomagus (Rouen)",
+   "labelLoc": [
+    0.2,
+    49.2
+   ],
+   "governor": "praeses",
+   "phases": [
+    {
+     "from": 293,
+     "to": 486,
+     "t": "Normandy; Saxon Shore forts on the Channel coast"
+    }
+   ],
+   "diocese": "Galliae",
+   "prefecture": "Galliae",
+   "parent": "prov_lugdunensis",
+   "successors": [],
+   "summary": "Coastal Normandy, part of the Channel defence against Saxon raiders (the litus Saxonicum per tractum Gallicanum). Its Roman administration merged into the Frankish world by the 480s.",
+   "certainty": "approx",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Occidentis",
+     "r": "1-3"
+    }
+   ]
+  },
+  {
+   "id": "prov_lugdunensis_tertia",
+   "name": "Lugdunensis Tertia",
+   "type": "province",
+   "created": 385,
+   "createdNote": "split from Lugdunensis II in the later 4th century",
+   "ended": 486,
+   "endedNote": "Roman administration gone by the 480s (approximate)",
+   "capital": "caesarodunum",
+   "capitalName": "Caesarodunum (Tours)",
+   "labelLoc": [
+    -1.5,
+    47.6
+   ],
+   "governor": "praeses",
+   "phases": [
+    {
+     "from": 385,
+     "to": 486,
+     "t": "Touraine, Anjou and Armorica; the tractus Armoricanus command"
+    }
+   ],
+   "diocese": "Galliae",
+   "prefecture": "Galliae",
+   "parent": "prov_lugdunensis",
+   "successors": [],
+   "summary": "Tours, Angers and the Armorican peninsula. Martin, bishop of Tours (371-397), made the city the religious centre of Gaul. Armorica was repeatedly in revolt against Roman officials in the 5th century and received British settlers who made it Brittany.",
+   "certainty": "approx",
+   "sources": [
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Occidentis",
+     "r": "1-3"
+    },
+    {
+     "a": "Sulpicius Severus",
+     "w": "Vita Martini",
+     "r": ""
+    },
+    {
+     "a": "Zosimus",
+     "w": "Historia Nova",
+     "r": "6.5"
+    }
+   ]
+  },
+  {
+   "id": "prov_lugdunensis_senonia",
+   "name": "Lugdunensis Senonia",
+   "type": "province",
+   "created": 385,
+   "createdNote": "later 4th century",
+   "ended": 486,
+   "endedNote": "Frankish conquest, 486 onwards",
+   "capital": null,
+   "capitalName": "Agedincum (Sens)",
+   "labelLoc": [
+    2.6,
+    48.2
+   ],
+   "governor": "praeses",
+   "phases": [
+    {
+     "from": 385,
+     "to": 486,
+     "t": "Sens, Paris, Orleans, Auxerre, Chartres"
+    }
+   ],
+   "diocese": "Galliae",
+   "prefecture": "Galliae",
+   "parent": "prov_lugdunensis",
+   "successors": [],
+   "summary": "The Paris basin. Julian was proclaimed Augustus at Lutetia in 360, and in 451 bishop Anianus held Orleans against Attila until Aetius arrived. It belonged to the realm of Aegidius and Syagrius until Clovis conquered it.",
+   "certainty": "approx",
+   "sources": [
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Occidentis",
+     "r": "1-3"
+    },
+    {
+     "a": "Ammianus Marcellinus",
+     "w": "Res Gestae",
+     "r": "20.4"
+    },
+    {
+     "a": "Gregory of Tours",
+     "w": "Historiae",
+     "r": "2.7"
+    }
+   ]
+  },
+  {
+   "id": "prov_belgica_prima",
+   "name": "Belgica Prima",
+   "type": "province",
+   "created": 293,
+   "createdNote": "Diocletianic (Verona List)",
+   "ended": 475,
+   "endedNote": "Frankish by the 470s-480s (approximate)",
+   "capital": "augusta_treverorum",
+   "capitalName": "Augusta Treverorum",
+   "labelLoc": [
+    6.5,
+    49.5
+   ],
+   "governor": "consularis (Notitia)",
+   "phases": [
+    {
+     "from": 293,
+     "to": 395,
+     "t": "Trier an imperial capital (Constantius I, Constantine, Valentinian I, Gratian)"
+    },
+    {
+     "from": 395,
+     "to": 475,
+     "t": "court and prefecture leave for Italy and Arles; Trier sacked repeatedly in the 410s-440s"
+    }
+   ],
+   "diocese": "Galliae",
+   "prefecture": "Galliae",
+   "parent": "prov_belgica",
+   "successors": [],
+   "summary": "Trier was the capital of the West for most of the 4th century, its Aula Palatina and imperial baths still standing. Ausonius' Mosella celebrates its river landscape c. 371. Salvian says Trier was sacked four times in his lifetime; Arbogast, a Frankish count of Trier, still governed it in Roman style around 470.",
+   "certainty": "approx",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Occidentis",
+     "r": "1-3"
+    },
+    {
+     "a": "Ausonius",
+     "w": "Mosella",
+     "r": ""
+    },
+    {
+     "a": "Salvian",
+     "w": "De gubernatione Dei",
+     "r": "6.39"
+    }
+   ]
+  },
+  {
+   "id": "prov_belgica_secunda",
+   "name": "Belgica Secunda",
+   "type": "province",
+   "created": 293,
+   "createdNote": "Diocletianic (Verona List)",
+   "ended": 486,
+   "endedNote": "Clovis defeats Syagrius, 486",
+   "capital": "durocortorum",
+   "capitalName": "Durocortorum (Reims)",
+   "labelLoc": [
+    3.6,
+    49.9
+   ],
+   "governor": "consularis (Notitia)",
+   "phases": [
+    {
+     "from": 293,
+     "to": 460,
+     "t": "Reims, Soissons, Amiens, Tournai"
+    },
+    {
+     "from": 460,
+     "to": 486,
+     "t": "kingdom of Aegidius and Syagrius at Soissons beside the Frankish kingdom of Tournai"
+    }
+   ],
+   "diocese": "Galliae",
+   "prefecture": "Galliae",
+   "parent": "prov_belgica",
+   "successors": [],
+   "summary": "Reims and Soissons. The Frankish king Childeric, buried at Tournai around 481 with a Roman general's brooch and a signet ring, was in effect a federate ruler within this province. Syagrius, 'king of the Romans' at Soissons, was defeated by Clovis in 486.",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Occidentis",
+     "r": "1-3"
+    },
+    {
+     "a": "Gregory of Tours",
+     "w": "Historiae",
+     "r": "2.27"
+    }
+   ]
+  },
+  {
+   "id": "prov_germania_prima",
+   "name": "Germania Prima",
+   "type": "province",
+   "created": 297,
+   "createdNote": "Diocletianic (Verona List)",
+   "ended": 455,
+   "endedNote": "Alamannic and Frankish control by the mid-5th century (approximate)",
+   "capital": "mogontiacum",
+   "capitalName": "Mogontiacum",
+   "labelLoc": [
+    7.9,
+    49.6
+   ],
+   "governor": "consularis (Notitia); dux Mogontiacensis",
+   "phases": [
+    {
+     "from": 297,
+     "to": 406,
+     "t": "the Upper Rhine frontier"
+    },
+    {
+     "from": 406,
+     "to": 455,
+     "t": "Rhine crossing of Vandals, Alans and Sueves (31 December 406); Burgundian kingdom at Worms (413-436)"
+    }
+   ],
+   "diocese": "Galliae",
+   "prefecture": "Galliae",
+   "parent": "prov_germania_superior",
+   "successors": [],
+   "summary": "The Upper Rhine from Mainz to Strasbourg. The great crossing of 406 began here (Jerome lists Mainz among the cities destroyed). The Burgundian kingdom at Worms, destroyed by Aetius' Huns in 436, is the historical kernel of the Nibelungenlied.",
+   "certainty": "approx",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Occidentis",
+     "r": "1-3"
+    },
+    {
+     "a": "Jerome",
+     "w": "Epistulae",
+     "r": "123.15"
+    },
+    {
+     "a": "Prosper of Aquitaine",
+     "w": "Epitoma Chronicon",
+     "r": "1230; 1322"
+    }
+   ]
+  },
+  {
+   "id": "prov_germania_secunda",
+   "name": "Germania Secunda",
+   "type": "province",
+   "created": 297,
+   "createdNote": "Diocletianic (Verona List)",
+   "ended": 459,
+   "endedNote": "Frankish by c. 459 (approximate)",
+   "capital": "colonia_agrippina",
+   "capitalName": "Colonia Agrippina",
+   "labelLoc": [
+    6.3,
+    51.0
+   ],
+   "governor": "consularis (Notitia)",
+   "phases": [
+    {
+     "from": 297,
+     "to": 355,
+     "t": "the Lower Rhine; Constantine's bridge and fort at Deutz (c. 310)"
+    },
+    {
+     "from": 355,
+     "to": 406,
+     "t": "Cologne taken by the Franks (355) and recovered by Julian (356)"
+    },
+    {
+     "from": 406,
+     "to": 459,
+     "t": "Frankish settlement; Cologne Frankish by c. 459"
+    }
+   ],
+   "diocese": "Galliae",
+   "prefecture": "Galliae",
+   "parent": "prov_germania_inferior",
+   "successors": [],
+   "summary": "The Lower Rhine, where Franks had been settled within the frontier since the 3rd century. Julian's recovery of Cologne in 356 was his first success as Caesar. By the mid-5th century the city was the seat of a Rhineland Frankish king.",
+   "certainty": "approx",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Occidentis",
+     "r": "1-3"
+    },
+    {
+     "a": "Ammianus Marcellinus",
+     "w": "Res Gestae",
+     "r": "15.8.19; 16.3"
+    }
+   ]
+  },
+  {
+   "id": "prov_maxima_sequanorum",
+   "name": "Maxima Sequanorum",
+   "type": "province",
+   "created": 297,
+   "createdNote": "Diocletianic (Verona List: Sequania)",
+   "ended": 470,
+   "endedNote": "Burgundian and Alamannic by the 470s (approximate)",
+   "capital": "vesontio",
+   "capitalName": "Vesontio",
+   "labelLoc": [
+    6.5,
+    47.2
+   ],
+   "governor": "praeses",
+   "phases": [
+    {
+     "from": 297,
+     "to": 470,
+     "t": "the Jura and the Swiss plateau: Besancon, Aventicum, Augusta Raurica, Vindonissa"
+    }
+   ],
+   "diocese": "Galliae",
+   "prefecture": "Galliae",
+   "parent": "prov_germania_superior",
+   "successors": [],
+   "summary": "The Swiss plateau and the Jura, behind the late Roman Rhine forts from Basel to Lake Constance. Julian describes Besancon as a small town rebuilt within its old walls. The Burgundians absorbed it in the later 5th century.",
+   "certainty": "approx",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Occidentis",
+     "r": "1-3"
+    }
+   ]
+  },
+  {
+   "id": "prov_viennensis",
+   "name": "Viennensis",
+   "type": "province",
+   "created": 293,
+   "createdNote": "Diocletianic (Verona List)",
+   "ended": 476,
+   "endedNote": "Arles taken by Euric, 476",
+   "capital": "vienna",
+   "capitalName": "Vienna (Arelate rose to rival it)",
+   "labelLoc": [
+    5.0,
+    44.8
+   ],
+   "governor": "consularis (Notitia)",
+   "phases": [
+    {
+     "from": 293,
+     "to": 407,
+     "t": "the Rhone valley: Vienne, Arles, Valence, Geneva, Grenoble"
+    },
+    {
+     "from": 407,
+     "to": 476,
+     "t": "Arles seat of the prefecture of the Gauls and of the Council of the Seven Provinces (418); Burgundians take Vienne (c. 470)"
+    }
+   ],
+   "diocese": "Viennensis (Septem Provinciae)",
+   "prefecture": "Galliae",
+   "parent": "prov_gallia_narbonensis",
+   "successors": [],
+   "summary": "The Rhone valley. Arles, Constantine's favourite residence in Gaul, became the seat of the Gallic prefecture around 407, and Honorius' edict of 418 ordered an annual council of the Seven Provinces to meet there. The rival claims of the bishops of Vienne and Arles were adjudicated by Pope Leo in 450.",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Occidentis",
+     "r": "1-3"
+    },
+    {
+     "a": "Epistolae Arelatenses",
+     "w": "Epistula",
+     "r": "8 (edict of 418)"
+    }
+   ]
+  },
+  {
+   "id": "prov_narbonensis_prima",
+   "name": "Narbonensis Prima",
+   "type": "province",
+   "created": 293,
+   "createdNote": "Diocletianic (Verona List)",
+   "ended": 462,
+   "endedNote": "Narbonne ceded to the Visigoths, 462",
+   "capital": "narbo_martius",
+   "capitalName": "Narbo Martius",
+   "labelLoc": [
+    2.8,
+    43.4
+   ],
+   "governor": "praeses",
+   "phases": [
+    {
+     "from": 293,
+     "to": 413,
+     "t": "Narbonne and Toulouse"
+    },
+    {
+     "from": 413,
+     "to": 462,
+     "t": "Ataulf marries Galla Placidia at Narbonne (414); Toulouse the Visigothic capital (418); Narbonne surrendered to Theoderic II (462)"
+    }
+   ],
+   "diocese": "Viennensis (Septem Provinciae)",
+   "prefecture": "Galliae",
+   "parent": "prov_gallia_narbonensis",
+   "successors": [],
+   "summary": "Languedoc. Ataulf married Galla Placidia at Narbonne in January 414 in a Roman ceremony, wearing Roman dress. Toulouse became the Visigothic capital after 418, and the count Agrippinus handed Narbonne to the Goths in 462.",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Occidentis",
+     "r": "1-3"
+    },
+    {
+     "a": "Olympiodorus",
+     "w": "History",
+     "r": "fragment on Ataulf's wedding"
+    },
+    {
+     "a": "Hydatius",
+     "w": "Chronicle",
+     "r": ""
+    }
+   ]
+  },
+  {
+   "id": "prov_narbonensis_secunda",
+   "name": "Narbonensis Secunda",
+   "type": "province",
+   "created": 293,
+   "createdNote": "Diocletianic (Verona List)",
+   "ended": 476,
+   "endedNote": "ceded to the Visigoths, 476",
+   "capital": "aquae_sextiae",
+   "capitalName": "Aquae Sextiae",
+   "labelLoc": [
+    6.1,
+    43.6
+   ],
+   "governor": "praeses",
+   "phases": [
+    {
+     "from": 293,
+     "to": 476,
+     "t": "eastern Provence: Aix, Forum Iulii, Antipolis, Apt; monastery of Lerins (c. 410)"
+    }
+   ],
+   "diocese": "Viennensis (Septem Provinciae)",
+   "prefecture": "Galliae",
+   "parent": "prov_gallia_narbonensis",
+   "successors": [],
+   "summary": "Eastern Provence. The monastery founded by Honoratus on the island of Lerins around 410 produced a generation of Gallic bishops, including Hilary of Arles and Faustus of Riez. Ceded to Euric in 476.",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Occidentis",
+     "r": "1-3"
+    }
+   ]
+  },
+  {
+   "id": "prov_novempopulana",
+   "name": "Novempopulana",
+   "type": "province",
+   "created": 293,
+   "createdNote": "by the early 4th century (Verona List: Novem populi)",
+   "ended": 470,
+   "endedNote": "Visigothic by the 470s (approximate)",
+   "capital": null,
+   "capitalName": "Elusa (Eauze)",
+   "labelLoc": [
+    0.0,
+    43.7
+   ],
+   "governor": "praeses",
+   "phases": [
+    {
+     "from": 293,
+     "to": 418,
+     "t": "the Nine Peoples between the Garonne and the Pyrenees"
+    },
+    {
+     "from": 418,
+     "to": 470,
+     "t": "partly within the Visigothic settlement of 418; Roman administration lapsed by the 470s"
+    }
+   ],
+   "diocese": "Viennensis (Septem Provinciae)",
+   "prefecture": "Galliae",
+   "parent": "prov_aquitania",
+   "successors": [],
+   "summary": "The southwest corner of Gaul, whose separation from the Gauls was obtained by the delegate commemorated in the Hasparren inscription. Partly assigned to the Visigoths in 418.",
+   "certainty": "approx",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Occidentis",
+     "r": "1-3"
+    }
+   ]
+  },
+  {
+   "id": "prov_aquitanica_prima",
+   "name": "Aquitanica Prima",
+   "type": "province",
+   "created": 293,
+   "createdNote": "Diocletianic (Verona List)",
+   "ended": 475,
+   "endedNote": "ceded to the Visigoths, 475",
+   "capital": "avaricum",
+   "capitalName": "Avaricum (Bourges)",
+   "labelLoc": [
+    2.4,
+    45.9
+   ],
+   "governor": "praeses",
+   "phases": [
+    {
+     "from": 293,
+     "to": 471,
+     "t": "Bourges, Clermont, Limoges, Cahors, Rodez"
+    },
+    {
+     "from": 471,
+     "to": 475,
+     "t": "Clermont, led by Sidonius Apollinaris and Ecdicius, holds out against Euric; ceded by Julius Nepos (475)"
+    }
+   ],
+   "diocese": "Viennensis (Septem Provinciae)",
+   "prefecture": "Galliae",
+   "parent": "prov_aquitania",
+   "successors": [],
+   "summary": "The Massif Central, the land of the Arverni. Sidonius Apollinaris, bishop of Clermont and son-in-law of the emperor Avitus, led its resistance to the Visigoths in 471-474, and wrote bitterly when Nepos' envoys ceded the Auvergne to Euric in 475.",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Occidentis",
+     "r": "1-3"
+    },
+    {
+     "a": "Sidonius Apollinaris",
+     "w": "Epistulae",
+     "r": "7.7"
+    }
+   ]
+  },
+  {
+   "id": "prov_aquitanica_secunda",
+   "name": "Aquitanica Secunda",
+   "type": "province",
+   "created": 293,
+   "createdNote": "Diocletianic (Verona List)",
+   "ended": 418,
+   "endedNote": "Visigothic settlement of 418",
+   "capital": "burdigala",
+   "capitalName": "Burdigala",
+   "labelLoc": [
+    -0.3,
+    45.6
+   ],
+   "governor": "praeses",
+   "phases": [
+    {
+     "from": 293,
+     "to": 418,
+     "t": "Bordeaux, Poitiers, Saintes, Angouleme, Perigueux, Agen"
+    },
+    {
+     "from": 418,
+     "to": 418,
+     "t": "assigned to the Visigoths of Wallia as federates"
+    }
+   ],
+   "diocese": "Viennensis (Septem Provinciae)",
+   "prefecture": "Galliae",
+   "parent": "prov_aquitania",
+   "successors": [],
+   "summary": "The Atlantic southwest, a land of great villas and rhetorical schools: Ausonius, teacher of Gratian and consul in 379, came from Bordeaux. It became the core of the Visigothic federate settlement of 418, the first barbarian kingdom on Roman soil.",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Occidentis",
+     "r": "1-3"
+    },
+    {
+     "a": "Prosper of Aquitaine",
+     "w": "Epitoma Chronicon",
+     "r": "1271"
+    },
+    {
+     "a": "Hydatius",
+     "w": "Chronicle",
+     "r": ""
+    }
+   ]
+  },
+  {
+   "id": "prov_maxima_caesariensis",
+   "name": "Maxima Caesariensis",
+   "type": "province",
+   "created": 296,
+   "createdNote": "Diocletianic or Constantinian (Verona List)",
+   "ended": 409,
+   "endedNote": "Roman administration ended in 409-410",
+   "capital": "londinium",
+   "capitalName": "Londinium (Augusta)",
+   "labelLoc": [
+    0.0,
+    51.6
+   ],
+   "governor": "consularis (Notitia)",
+   "phases": [
+    {
+     "from": 296,
+     "to": 409,
+     "t": "the southeast with London and the Saxon Shore forts"
+    }
+   ],
+   "diocese": "Britanniae",
+   "prefecture": "Galliae",
+   "parent": "prov_britannia_superior",
+   "successors": [],
+   "summary": "The southeast of Britain, with London, renamed Augusta in the 4th century (Ammianus 27.8.7), seat of the vicarius. Its coast was defended by the forts of the Saxon Shore under their own count.",
+   "certainty": "probable",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Occidentis",
+     "r": "1-3"
+    },
+    {
+     "a": "Ammianus Marcellinus",
+     "w": "Res Gestae",
+     "r": "27.8.7"
+    }
+   ]
+  },
+  {
+   "id": "prov_britannia_prima",
+   "name": "Britannia Prima",
+   "type": "province",
+   "created": 296,
+   "createdNote": "Diocletianic (Verona List)",
+   "ended": 409,
+   "endedNote": "Roman administration ended in 409-410",
+   "capital": "corinium",
+   "capitalName": "Corinium Dobunnorum",
+   "labelLoc": [
+    -2.8,
+    52.0
+   ],
+   "governor": "praeses",
+   "phases": [
+    {
+     "from": 296,
+     "to": 409,
+     "t": "the west: Cirencester, Gloucester, Wroxeter, Wales"
+    }
+   ],
+   "diocese": "Britanniae",
+   "prefecture": "Galliae",
+   "parent": "prov_britannia_superior",
+   "successors": [],
+   "summary": "The west of Britain, its capital fixed by an inscription from Cirencester naming L. Septimius, governor of Britannia Prima, who restored a Jupiter column. Villa life in the Cotswolds peaked in the 4th century.",
+   "certainty": "probable",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Occidentis",
+     "r": "1-3"
+    }
+   ]
+  },
+  {
+   "id": "prov_flavia_caesariensis",
+   "name": "Flavia Caesariensis",
+   "type": "province",
+   "created": 296,
+   "createdNote": "Diocletianic (Verona List)",
+   "ended": 409,
+   "endedNote": "Roman administration ended in 409-410",
+   "capital": "lindum",
+   "capitalName": "Lindum (probable)",
+   "labelLoc": [
+    -0.6,
+    53.0
+   ],
+   "governor": "praeses",
+   "phases": [
+    {
+     "from": 296,
+     "to": 409,
+     "t": "the east Midlands and Lincolnshire"
+    }
+   ],
+   "diocese": "Britanniae",
+   "prefecture": "Galliae",
+   "parent": "prov_britannia_inferior",
+   "successors": [],
+   "summary": "Probably the east Midlands with Lincoln, whose bishop attended the Council of Arles in 314. The name honours the Flavian dynasty of Constantius I.",
+   "certainty": "disputed",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Occidentis",
+     "r": "1-3"
+    }
+   ]
+  },
+  {
+   "id": "prov_britannia_secunda",
+   "name": "Britannia Secunda",
+   "type": "province",
+   "created": 296,
+   "createdNote": "Diocletianic (Verona List)",
+   "ended": 409,
+   "endedNote": "Roman administration ended in 409-410",
+   "capital": "eboracum",
+   "capitalName": "Eboracum",
+   "labelLoc": [
+    -1.7,
+    54.5
+   ],
+   "governor": "praeses; dux Britanniarum at York",
+   "phases": [
+    {
+     "from": 296,
+     "to": 409,
+     "t": "the north with Hadrian's Wall"
+    }
+   ],
+   "diocese": "Britanniae",
+   "prefecture": "Galliae",
+   "parent": "prov_britannia_inferior",
+   "successors": [],
+   "summary": "The north of Britain, held by the dux Britanniarum and the garrisons of Hadrian's Wall, which the Notitia lists fort by fort. Constantine was proclaimed emperor at York in July 306.",
+   "certainty": "probable",
+   "sources": [
+    {
+     "a": "Laterculus Veronensis",
+     "w": "Nomina provinciarum omnium",
+     "r": ""
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Occidentis",
+     "r": "1-3"
+    }
+   ]
+  },
+  {
+   "id": "prov_valentia",
+   "name": "Valentia",
+   "type": "province",
+   "created": 369,
+   "createdNote": "369 (Ammianus 28.3.7)",
+   "ended": 409,
+   "endedNote": "Roman administration ended in 409-410",
+   "capital": null,
+   "capitalName": "unknown",
+   "labelLoc": [
+    -2.9,
+    54.6
+   ],
+   "governor": "consularis (Notitia)",
+   "phases": [
+    {
+     "from": 369,
+     "to": 409,
+     "t": "named for Valens by Theodosius the Elder after the 'barbarian conspiracy' of 367"
+    }
+   ],
+   "diocese": "Britanniae",
+   "prefecture": "Galliae",
+   "parent": null,
+   "successors": [],
+   "summary": "Ammianus says Theodosius the Elder recovered a province and renamed it Valentia in honour of Valens after the barbarian conspiracy of 367-368. Its location is unknown: the Wall zone, Wales, or a renamed existing province have all been proposed.",
+   "certainty": "disputed",
+   "sources": [
+    {
+     "a": "Ammianus Marcellinus",
+     "w": "Res Gestae",
+     "r": "28.3.7"
+    },
+    {
+     "a": "Notitia Dignitatum",
+     "w": "pars Occidentis",
+     "r": "1-3"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,3514 @@
+{
+ "tactics": [
+  {
+   "event": "battle_of_actium",
+   "title": "Actium: the breakout",
+   "terrain": [
+    {
+     "kind": "land",
+     "pts": [
+      [
+       80,
+       0
+      ],
+      [
+       100,
+       0
+      ],
+      [
+       100,
+       27
+      ],
+      [
+       88,
+       28
+      ],
+      [
+       84,
+       20
+      ],
+      [
+       80,
+       10
+      ]
+     ],
+     "label": "Preveza peninsula (Octavian's camp to the north)"
+    },
+    {
+     "kind": "land",
+     "pts": [
+      [
+       86,
+       33
+      ],
+      [
+       100,
+       33
+      ],
+      [
+       100,
+       60
+      ],
+      [
+       72,
+       60
+      ],
+      [
+       78,
+       48
+      ],
+      [
+       84,
+       40
+      ]
+     ],
+     "label": "Actium promontory (Antony's camp)"
+    },
+    {
+     "kind": "strait",
+     "pts": [
+      [
+       88,
+       28
+      ],
+      [
+       100,
+       30
+      ],
+      [
+       86,
+       33
+      ]
+     ],
+     "label": "mouth of the Ambracian Gulf"
+    },
+    {
+     "kind": "sea",
+     "pts": [
+      [
+       0,
+       0
+      ],
+      [
+       78,
+       0
+      ],
+      [
+       78,
+       60
+      ],
+      [
+       0,
+       60
+      ]
+     ],
+     "label": "Ionian Sea"
+    }
+   ],
+   "north": 0,
+   "scaleNote": "sea area c. 8 km across; schematic",
+   "units": [
+    {
+     "id": "a_right",
+     "side": 1,
+     "label": "Antony and Gellius Publicola (right)",
+     "kind": "ships",
+     "w": 14,
+     "h": 4
+    },
+    {
+     "id": "a_centre",
+     "side": 1,
+     "label": "M. Octavius and M. Insteius (centre)",
+     "kind": "ships",
+     "w": 12,
+     "h": 4
+    },
+    {
+     "id": "a_left",
+     "side": 1,
+     "label": "Sosius (left)",
+     "kind": "ships",
+     "w": 12,
+     "h": 4
+    },
+    {
+     "id": "a_cleo",
+     "side": 1,
+     "label": "Cleopatra's squadron (60) with the treasure",
+     "kind": "ships",
+     "w": 6,
+     "h": 3
+    },
+    {
+     "id": "a_army",
+     "side": 1,
+     "label": "Canidius' army ashore (19 legions)",
+     "kind": "camp",
+     "w": 8,
+     "h": 4
+    },
+    {
+     "id": "o_agrippa",
+     "side": 0,
+     "label": "Agrippa (left)",
+     "kind": "ships",
+     "w": 14,
+     "h": 4
+    },
+    {
+     "id": "o_arr",
+     "side": 0,
+     "label": "Arruntius (centre)",
+     "kind": "ships",
+     "w": 12,
+     "h": 4
+    },
+    {
+     "id": "o_lurius",
+     "side": 0,
+     "label": "Octavian and M. Lurius (right)",
+     "kind": "ships",
+     "w": 12,
+     "h": 4
+    },
+    {
+     "id": "o_army",
+     "side": 0,
+     "label": "Octavian's army camp",
+     "kind": "camp",
+     "w": 8,
+     "h": 4
+    }
+   ],
+   "phases": [
+    {
+     "t": "Blockaded",
+     "text": "Antony's fleet and army had spent the summer of 31 trapped at the mouth of the Ambracian Gulf. Agrippa had taken Methone, Leucas and Patrae and cut the supply routes from Egypt; disease and desertion had thinned the crews. Antony burned the ships he could not man and came out on 2 September with about 230, carrying sails, which was unusual for a battle and suggests that a breakout was planned. He formed close to the strait, with Cleopatra's 60 ships behind the centre. Octavian, with about 400 lighter ships under Agrippa, waited about a mile offshore.",
+     "pos": {
+      "a_right": [
+       70,
+       14,
+       90
+      ],
+      "a_centre": [
+       70,
+       28,
+       90
+      ],
+      "a_left": [
+       70,
+       42,
+       90
+      ],
+      "a_cleo": [
+       78,
+       29,
+       90
+      ],
+      "a_army": [
+       92,
+       46,
+       0
+      ],
+      "o_agrippa": [
+       52,
+       12,
+       90
+      ],
+      "o_arr": [
+       52,
+       28,
+       90
+      ],
+      "o_lurius": [
+       52,
+       44,
+       90
+      ],
+      "o_army": [
+       92,
+       8,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        86,
+        30
+       ],
+       "to": [
+        78,
+        30
+       ],
+       "side": 1
+      }
+     ]
+    },
+    {
+     "t": "The wings extend",
+     "text": "Both fleets waited through the morning. Around midday, when the usual north-westerly sea breeze rose, Antony's left wing moved out, and Agrippa began to extend his left to the north to outflank Antony's right. Publicola extended to match him, and the two wings drew away from the centre, opening gaps in Antony's line. Plutarch (Antony 66) describes the fighting as like a land battle or the storming of a city: three or four of Octavian's small ships around each of Antony's big ones, with fire, missiles and grapnels.",
+     "pos": {
+      "a_right": [
+       58,
+       10,
+       90
+      ],
+      "a_centre": [
+       66,
+       30,
+       90
+      ],
+      "a_left": [
+       64,
+       46,
+       90
+      ],
+      "a_cleo": [
+       78,
+       29,
+       90
+      ],
+      "a_army": [
+       92,
+       46,
+       0
+      ],
+      "o_agrippa": [
+       46,
+       9,
+       90
+      ],
+      "o_arr": [
+       54,
+       30,
+       90
+      ],
+      "o_lurius": [
+       50,
+       48,
+       90
+      ],
+      "o_army": [
+       92,
+       8,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        52,
+        18
+       ],
+       "to": [
+        46,
+        4
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        70,
+        18
+       ],
+       "to": [
+        58,
+        4
+       ],
+       "side": 1
+      },
+      {
+       "from": [
+        70,
+        40
+       ],
+       "to": [
+        64,
+        50
+       ],
+       "side": 1
+      }
+     ]
+    },
+    {
+     "t": "Cleopatra sails through",
+     "text": "Cleopatra's squadron suddenly raised sail and went out through the centre of the line, then turned south with the wind towards the Peloponnese. Antony left his flagship for a quinquereme and followed her with a few ships. Plutarch saw this as abandonment of his men for a woman; many modern scholars think the breakout of the squadron carrying the war chest was the plan all along, and that what failed was the rest of the fleet's attempt to follow.",
+     "pos": {
+      "a_right": [
+       58,
+       10,
+       90
+      ],
+      "a_centre": [
+       66,
+       28,
+       90
+      ],
+      "a_left": [
+       64,
+       46,
+       90
+      ],
+      "a_cleo": [
+       40,
+       50,
+       200
+      ],
+      "a_army": [
+       92,
+       46,
+       0
+      ],
+      "o_agrippa": [
+       46,
+       9,
+       90
+      ],
+      "o_arr": [
+       54,
+       30,
+       90
+      ],
+      "o_lurius": [
+       50,
+       48,
+       90
+      ],
+      "o_army": [
+       92,
+       8,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        76,
+        30
+       ],
+       "to": [
+        60,
+        22
+       ],
+       "side": 1
+      },
+      {
+       "from": [
+        60,
+        22
+       ],
+       "to": [
+        42,
+        48
+       ],
+       "side": 1
+      }
+     ]
+    },
+    {
+     "t": "Surrender",
+     "text": "The rest of Antony's fleet fought on until late afternoon; many ships were burned and the rest surrendered. Plutarch says no more than 5,000 died. Canidius' army ashore waited a week for Antony and then, deserted by its commander, went over to Octavian. Octavian dedicated the site of his camp to Neptune and Mars, decorating the monument with the bronze rams of captured ships, and founded Nicopolis, 'Victory City', nearby. The war ended with the deaths of Antony and Cleopatra at Alexandria the following August.",
+     "pos": {
+      "a_right": [
+       54,
+       12,
+       90
+      ],
+      "a_centre": [
+       62,
+       30,
+       90
+      ],
+      "a_left": [
+       58,
+       46,
+       90
+      ],
+      "a_cleo": [
+       8,
+       56,
+       200
+      ],
+      "a_army": [
+       92,
+       46,
+       0
+      ],
+      "o_agrippa": [
+       44,
+       14,
+       90
+      ],
+      "o_arr": [
+       50,
+       30,
+       90
+      ],
+      "o_lurius": [
+       48,
+       48,
+       90
+      ],
+      "o_army": [
+       92,
+       8,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        36,
+        52
+       ],
+       "to": [
+        12,
+        56
+       ],
+       "side": 1
+      },
+      {
+       "from": [
+        50,
+        30
+       ],
+       "to": [
+        56,
+        30
+       ],
+       "side": 0
+      }
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "a": "Plutarch",
+     "w": "Antony",
+     "r": "61-68"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "50.11-35"
+    },
+    {
+     "a": "Velleius Paterculus",
+     "w": "Roman History",
+     "r": "2.84-85"
+    },
+    {
+     "a": "Florus",
+     "w": "Epitome",
+     "r": "2.21"
+    },
+    {
+     "a": "Orosius",
+     "w": "Histories against the Pagans",
+     "r": "6.19"
+    }
+   ],
+   "note": "Reconstruction after Plutarch and Dio, both writing from a pro-Augustan tradition. Ship numbers vary widely in the sources. The positions just outside the strait between Preveza and Aktio follow the excavations at the Actian victory monument (Murray and Petsas 1989) and the usual reading of Plutarch. Whether Cleopatra's departure was planned flight or desertion remains disputed.",
+   "scholarship": [
+    "Murray and Petsas, Octavian's Campsite Memorial for the Actian War (1989)",
+    "Lange, 'The Battle of Actium: A Reconsideration', CQ 61 (2011)",
+    "Pelling, Plutarch: Life of Antony (1988)"
+   ]
+  },
+  {
+   "event": "battle_of_the_teutoburg_forest",
+   "title": "Teutoburg: the Kalkriese gap",
+   "terrain": [
+    {
+     "kind": "marsh",
+     "pts": [
+      [
+       0,
+       0
+      ],
+      [
+       100,
+       0
+      ],
+      [
+       100,
+       14
+      ],
+      [
+       60,
+       18
+      ],
+      [
+       30,
+       16
+      ],
+      [
+       0,
+       14
+      ]
+     ],
+     "label": "Great Bog (Grosses Moor)"
+    },
+    {
+     "kind": "hill",
+     "cx": 50,
+     "cy": 56,
+     "r": 14,
+     "label": "Kalkrieser Berg (wooded)"
+    },
+    {
+     "kind": "wall",
+     "pts": [
+      [
+       22,
+       40
+      ],
+      [
+       36,
+       38
+      ],
+      [
+       48,
+       37
+      ],
+      [
+       60,
+       38
+      ],
+      [
+       72,
+       40
+      ]
+     ],
+     "label": "Germanic turf wall (Oberesch)"
+    },
+    {
+     "kind": "road",
+     "pts": [
+      [
+       100,
+       28
+      ],
+      [
+       50,
+       28
+      ],
+      [
+       0,
+       28
+      ]
+     ],
+     "label": "sandy corridor, c. 1 km wide"
+    }
+   ],
+   "north": 0,
+   "scaleNote": "corridor c. 1 km wide; ground c. 3 km across",
+   "units": [
+    {
+     "id": "r_cav",
+     "side": 0,
+     "label": "Numonius Vala: cavalry",
+     "kind": "cavalry",
+     "w": 8,
+     "h": 3
+    },
+    {
+     "id": "r_van",
+     "side": 0,
+     "label": "Leading legion",
+     "kind": "infantry",
+     "w": 14,
+     "h": 3
+    },
+    {
+     "id": "r_mid",
+     "side": 0,
+     "label": "Main column with Varus",
+     "kind": "infantry",
+     "w": 16,
+     "h": 3
+    },
+    {
+     "id": "r_bag",
+     "side": 0,
+     "label": "Baggage and camp followers",
+     "kind": "baggage",
+     "w": 14,
+     "h": 3
+    },
+    {
+     "id": "r_rear",
+     "side": 0,
+     "label": "Rearguard",
+     "kind": "infantry",
+     "w": 6,
+     "h": 3
+    },
+    {
+     "id": "g_wall1",
+     "side": 1,
+     "label": "Germans behind the wall",
+     "kind": "infantry",
+     "w": 14,
+     "h": 4
+    },
+    {
+     "id": "g_wall2",
+     "side": 1,
+     "label": "Germans behind the wall",
+     "kind": "infantry",
+     "w": 14,
+     "h": 4
+    },
+    {
+     "id": "g_bog",
+     "side": 1,
+     "label": "Germans along the bog edge",
+     "kind": "light",
+     "w": 20,
+     "h": 3
+    },
+    {
+     "id": "g_west",
+     "side": 1,
+     "label": "Arminius' blocking force",
+     "kind": "infantry",
+     "w": 12,
+     "h": 4
+    },
+    {
+     "id": "g_rear",
+     "side": 1,
+     "label": "Warriors following the column",
+     "kind": "infantry",
+     "w": 10,
+     "h": 4
+    }
+   ],
+   "phases": [
+    {
+     "t": "The column enters the gap",
+     "text": "Varus, leading three legions (XVII, XVIII, XIX), three cavalry alae and six cohorts from summer quarters towards the Rhine, had turned aside on Arminius' advice to crush a reported rising. Dio (56.20-21) describes the march through forest and ravines in torrential rain, the column strung out with wagons and non-combatants, attacked from all sides; the Romans built a fortified camp, burned most of their wagons and pushed on. If the Kalkriese site is right, at some point the column entered a corridor about a kilometre wide between the hill and the bog, where the Germans had built a turf wall along the foot of the hill.",
+     "pos": {
+      "r_cav": [
+       30,
+       26,
+       0
+      ],
+      "r_van": [
+       46,
+       28,
+       0
+      ],
+      "r_mid": [
+       66,
+       28,
+       0
+      ],
+      "r_bag": [
+       84,
+       29,
+       0
+      ],
+      "r_rear": [
+       96,
+       29,
+       0
+      ],
+      "g_wall1": [
+       40,
+       44,
+       0
+      ],
+      "g_wall2": [
+       60,
+       44,
+       0
+      ],
+      "g_bog": [
+       60,
+       12,
+       0
+      ],
+      "g_west": [
+       8,
+       28,
+       90
+      ],
+      "g_rear": [
+       94,
+       40,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        60,
+        28
+       ],
+       "to": [
+        40,
+        28
+       ],
+       "side": 0
+      }
+     ],
+     "hidden": [
+      "g_rear"
+     ]
+    },
+    {
+     "t": "Attack from the wall",
+     "text": "Attacked from behind the wall and from the bog edge, with no room to deploy, the column compressed and stopped. Excavation at the Oberesch has found the wall, about 400 m long, of turf and sand faced with timber and with drainage gaps, built in a zigzag, and thousands of objects from Roman equipment along its foot, among them the silvered iron face mask of a cavalry helmet.",
+     "pos": {
+      "r_cav": [
+       30,
+       26,
+       0
+      ],
+      "r_van": [
+       42,
+       28,
+       0
+      ],
+      "r_mid": [
+       60,
+       29,
+       0
+      ],
+      "r_bag": [
+       76,
+       29,
+       0
+      ],
+      "r_rear": [
+       90,
+       29,
+       0
+      ],
+      "g_wall1": [
+       40,
+       36.5,
+       0
+      ],
+      "g_wall2": [
+       60,
+       37,
+       0
+      ],
+      "g_bog": [
+       60,
+       20,
+       0
+      ],
+      "g_west": [
+       8,
+       28,
+       90
+      ],
+      "g_rear": [
+       94,
+       40,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        40,
+        42
+       ],
+       "to": [
+        40,
+        32
+       ],
+       "side": 1
+      },
+      {
+       "from": [
+        60,
+        42
+       ],
+       "to": [
+        60,
+        33
+       ],
+       "side": 1
+      },
+      {
+       "from": [
+        60,
+        15
+       ],
+       "to": [
+        60,
+        25
+       ],
+       "side": 1
+      }
+     ]
+    },
+    {
+     "t": "Breakout attempts; the cavalry flees",
+     "text": "Parts of the wall collapsed, and the archaeologists found the skeleton of a mule buried under the debris, still with its bell; some Romans may have broken through. But the army did not escape. Velleius (2.119) says the cavalry commander Numonius Vala abandoned the infantry and rode for the Rhine, and was killed in flight. Arminius' men held the western exit.",
+     "pos": {
+      "r_cav": [
+       6,
+       12,
+       0
+      ],
+      "r_van": [
+       36,
+       30,
+       0
+      ],
+      "r_mid": [
+       60,
+       29,
+       0
+      ],
+      "r_bag": [
+       76,
+       29,
+       0
+      ],
+      "r_rear": [
+       90,
+       29,
+       0
+      ],
+      "g_wall1": [
+       38,
+       37,
+       0
+      ],
+      "g_wall2": [
+       60,
+       37,
+       0
+      ],
+      "g_bog": [
+       60,
+       20,
+       0
+      ],
+      "g_west": [
+       10,
+       30,
+       90
+      ],
+      "g_rear": [
+       90,
+       38,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        30,
+        26
+       ],
+       "to": [
+        8,
+        14
+       ],
+       "side": 0,
+       "kind": "retreat"
+      },
+      {
+       "from": [
+        42,
+        32
+       ],
+       "to": [
+        40,
+        35
+       ],
+       "side": 0
+      }
+     ]
+    },
+    {
+     "t": "The end",
+     "text": "Varus and his senior officers, wounded, killed themselves. Of the two camp prefects, Ceionius surrendered and L. Eggius died fighting. The legions' eagles were taken. Tacitus (Annals 1.61) describes Germanicus' visit to the field six years later: a camp with a full rampart, then a half-collapsed one where the survivors had made their last stand, whitening bones lying as men had fallen, skulls nailed to tree trunks, and altars in the groves where tribunes and centurions had been sacrificed. Augustus never replaced the three legion numbers.",
+     "pos": {
+      "r_cav": [
+       6,
+       12,
+       0
+      ],
+      "r_van": [
+       40,
+       29,
+       0
+      ],
+      "r_mid": [
+       58,
+       29,
+       0
+      ],
+      "r_bag": [
+       74,
+       30,
+       0
+      ],
+      "r_rear": [
+       88,
+       30,
+       0
+      ],
+      "g_wall1": [
+       40,
+       34,
+       0
+      ],
+      "g_wall2": [
+       58,
+       34,
+       0
+      ],
+      "g_bog": [
+       58,
+       23,
+       0
+      ],
+      "g_west": [
+       24,
+       29,
+       90
+      ],
+      "g_rear": [
+       96,
+       34,
+       90
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        12,
+        28
+       ],
+       "to": [
+        22,
+        28
+       ],
+       "side": 1
+      },
+      {
+       "from": [
+        96,
+        40
+       ],
+       "to": [
+        96,
+        36
+       ],
+       "side": 1
+      }
+     ],
+     "hidden": [
+      "r_cav"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "56.18-24"
+    },
+    {
+     "a": "Velleius Paterculus",
+     "w": "Roman History",
+     "r": "2.117-120"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "1.60-62"
+    },
+    {
+     "a": "Florus",
+     "w": "Epitome",
+     "r": "2.30.29-39"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Augustus",
+     "r": "23"
+    }
+   ],
+   "note": "The ancient accounts describe a running fight over three or four days; this diagram shows only the final stage at Kalkriese near Osnabrück, discovered in 1987 (Clunn) and excavated since 1989. Its identification as the place of Varus' defeat is accepted by most scholars, though some argue it belongs to Germanicus' campaign of 15-16 or covers only part of the battle. Unit positions are schematic.",
+   "scholarship": [
+    "Wells, The Battle that Stopped Rome (2003)",
+    "Wolters, Die Schlacht im Teutoburger Wald (2008)"
+   ]
+  },
+  {
+   "event": "battle_of_watling_street",
+   "title": "The defeat of Boudica",
+   "terrain": [
+    {
+     "kind": "forest",
+     "pts": [
+      [
+       0,
+       0
+      ],
+      [
+       30,
+       0
+      ],
+      [
+       30,
+       8
+      ],
+      [
+       14,
+       26
+      ],
+      [
+       0,
+       30
+      ]
+     ],
+     "label": "woods"
+    },
+    {
+     "kind": "forest",
+     "pts": [
+      [
+       70,
+       0
+      ],
+      [
+       100,
+       0
+      ],
+      [
+       100,
+       30
+      ],
+      [
+       86,
+       26
+      ],
+      [
+       70,
+       8
+      ]
+     ],
+     "label": "woods"
+    },
+    {
+     "kind": "plain",
+     "pts": [
+      [
+       0,
+       30
+      ],
+      [
+       100,
+       30
+      ],
+      [
+       100,
+       60
+      ],
+      [
+       0,
+       60
+      ]
+     ],
+     "label": "open plain"
+    }
+   ],
+   "north": 0,
+   "scaleNote": "front perhaps 1 km; schematic",
+   "units": [
+    {
+     "id": "r_leg",
+     "side": 0,
+     "label": "Legio XIV and vexillation of XX",
+     "kind": "infantry",
+     "w": 16,
+     "h": 5
+    },
+    {
+     "id": "r_aux_l",
+     "side": 0,
+     "label": "Auxiliary infantry",
+     "kind": "infantry",
+     "w": 12,
+     "h": 4
+    },
+    {
+     "id": "r_aux_r",
+     "side": 0,
+     "label": "Auxiliary infantry",
+     "kind": "infantry",
+     "w": 12,
+     "h": 4
+    },
+    {
+     "id": "r_cav_l",
+     "side": 0,
+     "label": "Cavalry",
+     "kind": "cavalry",
+     "w": 8,
+     "h": 3
+    },
+    {
+     "id": "r_cav_r",
+     "side": 0,
+     "label": "Cavalry",
+     "kind": "cavalry",
+     "w": 8,
+     "h": 3
+    },
+    {
+     "id": "b_main",
+     "side": 1,
+     "label": "Iceni and Trinovantes (main mass)",
+     "kind": "infantry",
+     "w": 36,
+     "h": 8
+    },
+    {
+     "id": "b_w",
+     "side": 1,
+     "label": "British war bands",
+     "kind": "infantry",
+     "w": 16,
+     "h": 6
+    },
+    {
+     "id": "b_e",
+     "side": 1,
+     "label": "British war bands",
+     "kind": "infantry",
+     "w": 16,
+     "h": 6
+    },
+    {
+     "id": "b_char",
+     "side": 1,
+     "label": "Boudica and the chariots",
+     "kind": "cavalry",
+     "w": 14,
+     "h": 3
+    },
+    {
+     "id": "b_wagons",
+     "side": 1,
+     "label": "Wagons with families",
+     "kind": "baggage",
+     "w": 76,
+     "h": 3
+    }
+   ],
+   "phases": [
+    {
+     "t": "Paullinus chooses his ground",
+     "text": "After the sack of Camulodunum, Londinium and Verulamium, C. Suetonius Paullinus, back from Anglesey with legio XIV, a detachment of XX and auxiliaries, almost 10,000 men in all, chose a defile with woods behind and on either side and an open plain in front, so that he could be attacked only from the front (Tacitus, Annals 14.34). The legionaries stood in close order in the centre, light-armed auxiliaries on either side, cavalry on the wings. The Britons came in loose bands, far more numerous, and parked their wagons in an arc around the edge of the plain so their families could watch.",
+     "pos": {
+      "r_leg": [
+       50,
+       14,
+       0
+      ],
+      "r_aux_l": [
+       35,
+       14,
+       0
+      ],
+      "r_aux_r": [
+       65,
+       14,
+       0
+      ],
+      "r_cav_l": [
+       24,
+       12,
+       0
+      ],
+      "r_cav_r": [
+       76,
+       12,
+       0
+      ],
+      "b_main": [
+       50,
+       40,
+       0
+      ],
+      "b_w": [
+       22,
+       42,
+       0
+      ],
+      "b_e": [
+       78,
+       42,
+       0
+      ],
+      "b_char": [
+       50,
+       48,
+       0
+      ],
+      "b_wagons": [
+       50,
+       56,
+       0
+      ]
+     }
+    },
+    {
+     "t": "The charge into the narrows",
+     "text": "Tacitus gives Boudica a speech from her chariot with her daughters beside her, and Paullinus a short one: ignore their noise and empty threats, keep close order, throw your javelins, then carry on with shield and sword. The Britons charged up the narrowing ground. The legion held its position until they were close and then threw its pila in two volleys into the crowded mass.",
+     "pos": {
+      "r_leg": [
+       50,
+       14,
+       0
+      ],
+      "r_aux_l": [
+       35,
+       14,
+       0
+      ],
+      "r_aux_r": [
+       65,
+       14,
+       0
+      ],
+      "r_cav_l": [
+       24,
+       12,
+       0
+      ],
+      "r_cav_r": [
+       76,
+       12,
+       0
+      ],
+      "b_main": [
+       50,
+       24,
+       0
+      ],
+      "b_w": [
+       26,
+       32,
+       0
+      ],
+      "b_e": [
+       74,
+       32,
+       0
+      ],
+      "b_char": [
+       50,
+       33,
+       0
+      ],
+      "b_wagons": [
+       50,
+       56,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        50,
+        36
+       ],
+       "to": [
+        50,
+        28
+       ],
+       "side": 1
+      },
+      {
+       "from": [
+        50,
+        17
+       ],
+       "to": [
+        50,
+        20
+       ],
+       "side": 0
+      }
+     ]
+    },
+    {
+     "t": "The wedge",
+     "text": "Then the legion advanced in wedge formation (cuneus), with the auxiliaries keeping pace and the cavalry, lances levelled, breaking any resistance on the flanks. The Britons, pressed back across the plain, found the way out blocked by their own wagons.",
+     "pos": {
+      "r_leg": [
+       50,
+       28,
+       0
+      ],
+      "r_aux_l": [
+       34,
+       30,
+       0
+      ],
+      "r_aux_r": [
+       66,
+       30,
+       0
+      ],
+      "r_cav_l": [
+       16,
+       34,
+       0
+      ],
+      "r_cav_r": [
+       84,
+       34,
+       0
+      ],
+      "b_main": [
+       50,
+       38,
+       0
+      ],
+      "b_w": [
+       24,
+       44,
+       0
+      ],
+      "b_e": [
+       76,
+       44,
+       0
+      ],
+      "b_char": [
+       50,
+       47,
+       0
+      ],
+      "b_wagons": [
+       50,
+       56,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        50,
+        20
+       ],
+       "to": [
+        50,
+        26
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        22,
+        16
+       ],
+       "to": [
+        16,
+        32
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        78,
+        16
+       ],
+       "to": [
+        84,
+        32
+       ],
+       "side": 0
+      }
+     ]
+    },
+    {
+     "t": "Against the wagons",
+     "text": "Tacitus says the soldiers spared neither women nor pack animals, and gives the British dead as nearly 80,000 against about 400 Romans; the figure is not credible but the slaughter was real. Boudica, he says, took poison; Dio says she fell ill and died. Poenius Postumus, camp prefect of legio II Augusta, which had refused to march, fell on his sword. Nero considered abandoning Britain; instead the province was punished, then treated more gently under the procurator Julius Classicianus, whose tombstone is in the British Museum.",
+     "pos": {
+      "r_leg": [
+       50,
+       40,
+       0
+      ],
+      "r_aux_l": [
+       32,
+       42,
+       0
+      ],
+      "r_aux_r": [
+       68,
+       42,
+       0
+      ],
+      "r_cav_l": [
+       12,
+       48,
+       0
+      ],
+      "r_cav_r": [
+       88,
+       48,
+       0
+      ],
+      "b_main": [
+       50,
+       50,
+       0
+      ],
+      "b_w": [
+       22,
+       51,
+       0
+      ],
+      "b_e": [
+       78,
+       51,
+       0
+      ],
+      "b_char": [
+       50,
+       47,
+       0
+      ],
+      "b_wagons": [
+       50,
+       56,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        50,
+        32
+       ],
+       "to": [
+        50,
+        38
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        14,
+        40
+       ],
+       "to": [
+        14,
+        46
+       ],
+       "side": 0
+      }
+     ],
+     "hidden": [
+      "b_char"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "14.31-39"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Agricola",
+     "r": "15-16"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "62.1-12"
+    }
+   ],
+   "note": "Reconstruction after Tacitus, Annals 14.34-37. The site is unknown: the conventional label 'Watling Street' reflects the likelihood that Paullinus fell back along the road towards the north-west; Mancetter, High Cross and sites in Northamptonshire have been proposed. The defile layout follows Tacitus' description only.",
+   "scholarship": [
+    "Webster, Boudica: The British Revolt against Rome AD 60 (1978)",
+    "Hingley and Unwin, Boudica: Iron Age Warrior Queen (2005)"
+   ]
+  },
+  {
+   "event": "battle_of_mons_graupius",
+   "title": "Mons Graupius: auxiliaries uphill",
+   "terrain": [
+    {
+     "kind": "hill",
+     "cx": 50,
+     "cy": 8,
+     "r": 14,
+     "label": "Mons Graupius (terraced slope)"
+    },
+    {
+     "kind": "camp",
+     "cx": 50,
+     "cy": 58,
+     "r": 3,
+     "label": "Roman camp rampart"
+    },
+    {
+     "kind": "forest",
+     "pts": [
+      [
+       0,
+       0
+      ],
+      [
+       12,
+       0
+      ],
+      [
+       10,
+       20
+      ],
+      [
+       0,
+       24
+      ]
+     ],
+     "label": "woods"
+    },
+    {
+     "kind": "forest",
+     "pts": [
+      [
+       88,
+       0
+      ],
+      [
+       100,
+       0
+      ],
+      [
+       100,
+       24
+      ],
+      [
+       90,
+       20
+      ]
+     ],
+     "label": "woods"
+    }
+   ],
+   "north": 0,
+   "scaleNote": "front perhaps 2 km; schematic",
+   "units": [
+    {
+     "id": "r_bat",
+     "side": 0,
+     "label": "Batavian and Tungrian cohorts",
+     "kind": "infantry",
+     "w": 16,
+     "h": 4
+    },
+    {
+     "id": "r_aux",
+     "side": 0,
+     "label": "Other auxiliary infantry",
+     "kind": "infantry",
+     "w": 16,
+     "h": 4
+    },
+    {
+     "id": "r_cav_l",
+     "side": 0,
+     "label": "Cavalry",
+     "kind": "cavalry",
+     "w": 10,
+     "h": 4
+    },
+    {
+     "id": "r_cav_r",
+     "side": 0,
+     "label": "Cavalry",
+     "kind": "cavalry",
+     "w": 10,
+     "h": 4
+    },
+    {
+     "id": "r_res",
+     "side": 0,
+     "label": "Four reserve alae",
+     "kind": "reserve",
+     "w": 16,
+     "h": 3
+    },
+    {
+     "id": "r_leg",
+     "side": 0,
+     "label": "Legions before the rampart",
+     "kind": "infantry",
+     "w": 24,
+     "h": 3
+    },
+    {
+     "id": "c_front",
+     "side": 1,
+     "label": "Caledonian front ranks on the level",
+     "kind": "infantry",
+     "w": 40,
+     "h": 4
+    },
+    {
+     "id": "c_char",
+     "side": 1,
+     "label": "Chariots",
+     "kind": "cavalry",
+     "w": 30,
+     "h": 2
+    },
+    {
+     "id": "c_slope",
+     "side": 1,
+     "label": "Caledonians on the slopes",
+     "kind": "infantry",
+     "w": 50,
+     "h": 6
+    },
+    {
+     "id": "c_top",
+     "side": 1,
+     "label": "Caledonian reserve on the summit",
+     "kind": "infantry",
+     "w": 24,
+     "h": 4
+    }
+   ],
+   "phases": [
+    {
+     "t": "Deployment",
+     "text": "In his seventh season Agricola brought the Caledonians to battle at Mons Graupius, somewhere in north-east Scotland. Tacitus (Agricola 35) gives more than 30,000 Caledonians under Calgacus, whom he credits with the famous speech ending 'they make a desert and call it peace'. Their front ranks stood on the level ground and the rest rose in tiers up the slope; chariots filled the space between the armies. Agricola put his 8,000 auxiliary infantry in the centre and 3,000 cavalry on the wings, with the legions held back in front of the camp rampart: a victory without Roman blood would be glorious, and the legions would be there if the auxiliaries failed.",
+     "pos": {
+      "r_bat": [
+       40,
+       40,
+       0
+      ],
+      "r_aux": [
+       60,
+       40,
+       0
+      ],
+      "r_cav_l": [
+       22,
+       40,
+       0
+      ],
+      "r_cav_r": [
+       78,
+       40,
+       0
+      ],
+      "r_res": [
+       50,
+       48,
+       0
+      ],
+      "r_leg": [
+       50,
+       54,
+       0
+      ],
+      "c_front": [
+       50,
+       28,
+       0
+      ],
+      "c_char": [
+       50,
+       33,
+       0
+      ],
+      "c_slope": [
+       50,
+       18,
+       0
+      ],
+      "c_top": [
+       50,
+       6,
+       0
+      ]
+     }
+    },
+    {
+     "t": "Swords at close quarters",
+     "text": "The battle opened with an exchange of missiles, which the Caledonians, with their long swords and small shields, parried skilfully. Agricola ordered four Batavian and two Tungrian cohorts to close and fight hand to hand, which suited their short swords and large shields. They struck with their shield bosses and stabbed at faces, cut down the men on the level ground and began to climb the slope; the other cohorts joined in. The Roman cavalry drove off the chariots.",
+     "pos": {
+      "r_bat": [
+       40,
+       30,
+       0
+      ],
+      "r_aux": [
+       60,
+       31,
+       0
+      ],
+      "r_cav_l": [
+       24,
+       30,
+       0
+      ],
+      "r_cav_r": [
+       76,
+       30,
+       0
+      ],
+      "r_res": [
+       50,
+       48,
+       0
+      ],
+      "r_leg": [
+       50,
+       54,
+       0
+      ],
+      "c_front": [
+       50,
+       25,
+       0
+      ],
+      "c_char": [
+       50,
+       33,
+       0
+      ],
+      "c_slope": [
+       50,
+       18,
+       0
+      ],
+      "c_top": [
+       50,
+       6,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        40,
+        36
+       ],
+       "to": [
+        40,
+        32
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        24,
+        36
+       ],
+       "to": [
+        30,
+        32
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        76,
+        36
+       ],
+       "to": [
+        70,
+        32
+       ],
+       "side": 0
+      }
+     ],
+     "hidden": [
+      "c_char"
+     ]
+    },
+    {
+     "t": "The summit force tries to outflank",
+     "text": "The Caledonians on the hilltop, who had not yet fought, began to come down and work round the Roman rear, scornful of how few the Romans were. As the auxiliaries pressed uphill, Tacitus says, the cavalry had become tangled in the fight on rough ground among the enemy ranks.",
+     "pos": {
+      "r_bat": [
+       40,
+       24,
+       0
+      ],
+      "r_aux": [
+       60,
+       25,
+       0
+      ],
+      "r_cav_l": [
+       24,
+       30,
+       0
+      ],
+      "r_cav_r": [
+       76,
+       30,
+       0
+      ],
+      "r_res": [
+       50,
+       48,
+       0
+      ],
+      "r_leg": [
+       50,
+       54,
+       0
+      ],
+      "c_front": [
+       50,
+       19,
+       0
+      ],
+      "c_char": [
+       50,
+       33,
+       0
+      ],
+      "c_slope": [
+       50,
+       12,
+       0
+      ],
+      "c_top": [
+       12,
+       32,
+       60
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        40,
+        6
+       ],
+       "to": [
+        14,
+        28
+       ],
+       "side": 1
+      }
+     ],
+     "hidden": [
+      "c_char"
+     ]
+    },
+    {
+     "t": "The reserve alae",
+     "text": "Agricola had kept four alae back for exactly this. He threw them at the outflanking Caledonians, who were routed as quickly as they had come on, and then sent the cavalry round from the wings into the enemy rear. The Caledonian army broke and fled into the woods, where groups turned on careless pursuers until Agricola organised the pursuit like a hunt. Tacitus gives 10,000 Caledonians killed and 360 Romans, among them Aulus Atticus, prefect of a cohort. The site has never been found; candidates include Bennachie and Raedykes.",
+     "pos": {
+      "r_bat": [
+       40,
+       20,
+       0
+      ],
+      "r_aux": [
+       60,
+       21,
+       0
+      ],
+      "r_cav_l": [
+       14,
+       12,
+       0
+      ],
+      "r_cav_r": [
+       86,
+       12,
+       0
+      ],
+      "r_res": [
+       16,
+       40,
+       0
+      ],
+      "r_leg": [
+       50,
+       54,
+       0
+      ],
+      "c_front": [
+       50,
+       15,
+       0
+      ],
+      "c_char": [
+       50,
+       33,
+       0
+      ],
+      "c_slope": [
+       50,
+       8,
+       0
+      ],
+      "c_top": [
+       9,
+       24,
+       60
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        40,
+        48
+       ],
+       "to": [
+        18,
+        42
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        24,
+        26
+       ],
+       "to": [
+        14,
+        14
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        76,
+        26
+       ],
+       "to": [
+        86,
+        14
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        50,
+        6
+       ],
+       "to": [
+        50,
+        2
+       ],
+       "side": 1,
+       "kind": "retreat"
+      }
+     ],
+     "hidden": [
+      "c_char"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Agricola",
+     "r": "29-38"
+    }
+   ],
+   "note": "Tacitus, Agricola's son-in-law, is the only source, and his account is shaped by praise of Agricola; the numbers are his. The site is unidentified, and the drawing follows his description of a slope with the Caledonian army in tiers. Positions are schematic.",
+   "scholarship": [
+    "Ogilvie and Richmond (eds.), Cornelii Taciti De Vita Agricolae (1967)",
+    "Maxwell, A Battle Lost: Romans and Caledonians at Mons Graupius (1990)",
+    "Woolliscroft and Hoffmann, Rome's First Frontier (2006)"
+   ]
+  },
+  {
+   "event": "battle_of_argentoratum",
+   "title": "Strasbourg: the Primani hold",
+   "terrain": [
+    {
+     "kind": "river",
+     "pts": [
+      [
+       0,
+       3
+      ],
+      [
+       40,
+       1
+      ],
+      [
+       70,
+       4
+      ],
+      [
+       100,
+       2
+      ]
+     ],
+     "label": "Rhine"
+    },
+    {
+     "kind": "ditch",
+     "pts": [
+      [
+       12,
+       28
+      ],
+      [
+       30,
+       30
+      ]
+     ],
+     "label": "ditches and reeds (ambush)"
+    },
+    {
+     "kind": "hill",
+     "cx": 50,
+     "cy": 58,
+     "r": 5,
+     "label": "low rise; Roman approach from Tres Tabernae"
+    }
+   ],
+   "north": 270,
+   "scaleNote": "front perhaps 2.5 km; schematic",
+   "units": [
+    {
+     "id": "r_cav",
+     "side": 0,
+     "label": "Cavalry with cataphracts",
+     "kind": "cavalry",
+     "w": 14,
+     "h": 4
+    },
+    {
+     "id": "r_cornuti",
+     "side": 0,
+     "label": "Cornuti and Bracchiati",
+     "kind": "infantry",
+     "w": 12,
+     "h": 4
+    },
+    {
+     "id": "r_front",
+     "side": 0,
+     "label": "Front line, left and centre",
+     "kind": "infantry",
+     "w": 22,
+     "h": 4
+    },
+    {
+     "id": "r_severus",
+     "side": 0,
+     "label": "Severus: left wing",
+     "kind": "infantry",
+     "w": 14,
+     "h": 4
+    },
+    {
+     "id": "r_batavi",
+     "side": 0,
+     "label": "Batavi and Reges",
+     "kind": "infantry",
+     "w": 12,
+     "h": 3
+    },
+    {
+     "id": "r_primani",
+     "side": 0,
+     "label": "Primani legion (centre reserve)",
+     "kind": "reserve",
+     "w": 12,
+     "h": 3
+    },
+    {
+     "id": "r_julian",
+     "side": 0,
+     "label": "Julian and 200 guard cavalry",
+     "kind": "cavalry",
+     "w": 5,
+     "h": 3
+    },
+    {
+     "id": "a_chnod",
+     "side": 1,
+     "label": "Chnodomar: cavalry with light infantry",
+     "kind": "cavalry",
+     "w": 14,
+     "h": 5
+    },
+    {
+     "id": "a_main",
+     "side": 1,
+     "label": "Alamannic infantry",
+     "kind": "infantry",
+     "w": 40,
+     "h": 6
+    },
+    {
+     "id": "a_nobles",
+     "side": 1,
+     "label": "Nobles' column",
+     "kind": "infantry",
+     "w": 12,
+     "h": 4
+    },
+    {
+     "id": "a_serapio",
+     "side": 1,
+     "label": "Serapio: right wing",
+     "kind": "infantry",
+     "w": 14,
+     "h": 5
+    },
+    {
+     "id": "a_ambush",
+     "side": 1,
+     "label": "Men hidden in the ditches",
+     "kind": "light",
+     "w": 10,
+     "h": 3
+    }
+   ],
+   "phases": [
+    {
+     "t": "Deployment after a 21-mile march",
+     "text": "Julian, Caesar in Gaul, marched out with about 13,000 men to meet an Alamannic confederation under Chnodomar, which had crossed the Rhine near Argentoratum after Barbatio's army had been driven off. Ammianus (16.12), who knew officers present, gives 35,000 Alamanni. The Romans arrived after a 21-mile march; Julian wanted to camp, but his officers and men insisted on fighting. Chnodomar commanded the Alamannic left, opposite the Roman cavalry, and mixed light infantry among his horsemen to stab at the armoured cavalry's horses. Serapio commanded the right. On the Roman left, Severus halted, suspecting men hidden in ditches and reeds ahead.",
+     "pos": {
+      "r_cav": [
+       84,
+       42,
+       0
+      ],
+      "r_cornuti": [
+       66,
+       42,
+       0
+      ],
+      "r_front": [
+       46,
+       42,
+       0
+      ],
+      "r_severus": [
+       24,
+       42,
+       0
+      ],
+      "r_batavi": [
+       66,
+       50,
+       0
+      ],
+      "r_primani": [
+       46,
+       50,
+       0
+      ],
+      "r_julian": [
+       56,
+       56,
+       0
+      ],
+      "a_chnod": [
+       84,
+       18,
+       0
+      ],
+      "a_main": [
+       50,
+       18,
+       0
+      ],
+      "a_nobles": [
+       50,
+       9,
+       0
+      ],
+      "a_serapio": [
+       18,
+       18,
+       0
+      ],
+      "a_ambush": [
+       21,
+       32,
+       0
+      ]
+     }
+    },
+    {
+     "t": "The cavalry breaks",
+     "text": "When the lines met, the Roman cavalry on the right gave way: a commander was wounded, a cataphract fell when his horse went down, and the rest turned and fled. Julian rode across with his guard and stopped them; Ammianus compares him to Sulla rallying his men at Orchomenus, and says the fugitives knew him by the purple dragon standard of his guard. The cavalry formed again behind the infantry.",
+     "pos": {
+      "r_cav": [
+       88,
+       54,
+       0
+      ],
+      "r_cornuti": [
+       66,
+       42,
+       0
+      ],
+      "r_front": [
+       46,
+       42,
+       0
+      ],
+      "r_severus": [
+       24,
+       42,
+       0
+      ],
+      "r_batavi": [
+       66,
+       50,
+       0
+      ],
+      "r_primani": [
+       46,
+       50,
+       0
+      ],
+      "r_julian": [
+       78,
+       50,
+       0
+      ],
+      "a_chnod": [
+       84,
+       32,
+       0
+      ],
+      "a_main": [
+       50,
+       18,
+       0
+      ],
+      "a_nobles": [
+       50,
+       9,
+       0
+      ],
+      "a_serapio": [
+       18,
+       18,
+       0
+      ],
+      "a_ambush": [
+       21,
+       32,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        84,
+        38
+       ],
+       "to": [
+        88,
+        50
+       ],
+       "side": 0,
+       "kind": "retreat"
+      },
+      {
+       "from": [
+        58,
+        56
+       ],
+       "to": [
+        76,
+        51
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        84,
+        22
+       ],
+       "to": [
+        84,
+        29
+       ],
+       "side": 1
+      }
+     ]
+    },
+    {
+     "t": "The infantry fight; the nobles break into the centre",
+     "text": "The Alamannic infantry charged with a roar and fell on the Roman front. The Cornuti and Bracchiati, veterans, raised the barritus, a war cry that swells from a murmur to a roar, and held, and the Batavi and Reges came up in support. A column of Alamannic nobles and chiefs, including kings, forced its way through the Roman front into the centre, where it met the Primani legion standing in reserve 'like a tower', and was stopped and destroyed.",
+     "pos": {
+      "r_cav": [
+       86,
+       52,
+       0
+      ],
+      "r_cornuti": [
+       66,
+       41,
+       0
+      ],
+      "r_front": [
+       39,
+       44,
+       0
+      ],
+      "r_severus": [
+       20,
+       42,
+       0
+      ],
+      "r_batavi": [
+       70,
+       48,
+       0
+      ],
+      "r_primani": [
+       52,
+       51.5,
+       0
+      ],
+      "r_julian": [
+       72,
+       55,
+       0
+      ],
+      "a_chnod": [
+       84,
+       36,
+       0
+      ],
+      "a_main": [
+       50,
+       34,
+       0
+      ],
+      "a_nobles": [
+       54,
+       46,
+       0
+      ],
+      "a_serapio": [
+       18,
+       18,
+       0
+      ],
+      "a_ambush": [
+       21,
+       32,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        50,
+        30
+       ],
+       "to": [
+        54,
+        43
+       ],
+       "side": 1
+      },
+      {
+       "from": [
+        70,
+        50
+       ],
+       "to": [
+        68,
+        46
+       ],
+       "side": 0
+      }
+     ]
+    },
+    {
+     "t": "Rout to the Rhine",
+     "text": "The Alamanni broke. Severus' wing, having cleared the ambush, came forward, and the whole army pursued the fugitives to the Rhine, where many drowned trying to swim under a hail of missiles. Ammianus gives 6,000 Alamanni dead on the field and countless more in the river, against 243 soldiers and four tribunes on the Roman side. Chnodomar was taken hiding in a wood with his retinue and sent to Constantius, who claimed the victory in his own name. The army hailed Julian as Augustus; he refused, for now.",
+     "pos": {
+      "r_cav": [
+       84,
+       22,
+       0
+      ],
+      "r_cornuti": [
+       64,
+       20,
+       0
+      ],
+      "r_front": [
+       40,
+       20,
+       0
+      ],
+      "r_severus": [
+       20,
+       22,
+       0
+      ],
+      "r_batavi": [
+       70,
+       30,
+       0
+      ],
+      "r_primani": [
+       50,
+       30,
+       0
+      ],
+      "r_julian": [
+       58,
+       36,
+       0
+      ],
+      "a_chnod": [
+       84,
+       8,
+       0
+      ],
+      "a_main": [
+       50,
+       8,
+       0
+      ],
+      "a_nobles": [
+       54,
+       46,
+       0
+      ],
+      "a_serapio": [
+       18,
+       8,
+       0
+      ],
+      "a_ambush": [
+       21,
+       32,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        46,
+        26
+       ],
+       "to": [
+        46,
+        12
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        50,
+        6
+       ],
+       "to": [
+        50,
+        3
+       ],
+       "side": 1,
+       "kind": "retreat"
+      },
+      {
+       "from": [
+        22,
+        36
+       ],
+       "to": [
+        20,
+        26
+       ],
+       "side": 0
+      }
+     ],
+     "hidden": [
+      "a_nobles",
+      "a_ambush"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "a": "Ammianus Marcellinus",
+     "w": "Res Gestae",
+     "r": "16.12"
+    },
+    {
+     "a": "Libanius",
+     "w": "Oration",
+     "r": "18.53-62"
+    },
+    {
+     "a": "Julian",
+     "w": "Letter to the Athenians",
+     "r": "279"
+    }
+   ],
+   "note": "Ammianus' account is the most detailed narrative of any late Roman battle and is followed closely. The site lay on the plain north-west of Strasbourg, perhaps near Oberhausbergen; the Rhine is placed at the top of the drawing, which is rotated so that north is to the left. The ambush on the left is reported, not proven; positions are schematic.",
+   "scholarship": [
+    "Elton, Warfare in Roman Europe AD 350-425 (1996)",
+    "Drinkwater, The Alamanni and Rome 213-496 (2007)",
+    "Matthews, The Roman Empire of Ammianus (1989)"
+   ]
+  },
+  {
+   "event": "battle_of_adrianople_378",
+   "title": "Adrianople: the Gothic cavalry returns",
+   "terrain": [
+    {
+     "kind": "hill",
+     "cx": 50,
+     "cy": 10,
+     "r": 12,
+     "label": "hill with the Gothic wagon circle"
+    },
+    {
+     "kind": "road",
+     "pts": [
+      [
+       100,
+       60
+      ],
+      [
+       70,
+       56
+      ],
+      [
+       40,
+       58
+      ],
+      [
+       0,
+       60
+      ]
+     ],
+     "label": "road from Adrianople (8 Roman miles)"
+    },
+    {
+     "kind": "fire",
+     "pts": [
+      [
+       30,
+       28
+      ],
+      [
+       70,
+       28
+      ],
+      [
+       70,
+       30
+      ],
+      [
+       30,
+       30
+      ]
+     ],
+     "label": "burning fields"
+    }
+   ],
+   "north": 0,
+   "scaleNote": "ground perhaps 4 km across; schematic",
+   "units": [
+    {
+     "id": "r_rcav",
+     "side": 0,
+     "label": "Right wing cavalry",
+     "kind": "cavalry",
+     "w": 12,
+     "h": 4
+    },
+    {
+     "id": "r_inf",
+     "side": 0,
+     "label": "Infantry of the field army",
+     "kind": "infantry",
+     "w": 30,
+     "h": 6
+    },
+    {
+     "id": "r_lcav",
+     "side": 0,
+     "label": "Left wing cavalry, still arriving",
+     "kind": "cavalry",
+     "w": 12,
+     "h": 4
+    },
+    {
+     "id": "r_scut",
+     "side": 0,
+     "label": "Scutarii and archers (Bacurius, Cassio)",
+     "kind": "light",
+     "w": 8,
+     "h": 3
+    },
+    {
+     "id": "r_valens",
+     "side": 0,
+     "label": "Valens with the Lanciarii and Mattiarii",
+     "kind": "infantry",
+     "w": 8,
+     "h": 3
+    },
+    {
+     "id": "r_batavi",
+     "side": 0,
+     "label": "Batavi (reserve)",
+     "kind": "reserve",
+     "w": 10,
+     "h": 3
+    },
+    {
+     "id": "g_laager",
+     "side": 1,
+     "label": "Wagon circle",
+     "kind": "camp",
+     "w": 20,
+     "h": 6
+    },
+    {
+     "id": "g_terv",
+     "side": 1,
+     "label": "Tervingi under Fritigern",
+     "kind": "infantry",
+     "w": 24,
+     "h": 4
+    },
+    {
+     "id": "g_cav",
+     "side": 1,
+     "label": "Greuthungi and Alan cavalry (Alatheus, Saphrax)",
+     "kind": "cavalry",
+     "w": 12,
+     "h": 5
+    }
+   ],
+   "phases": [
+    {
+     "t": "Arrival in the heat",
+     "text": "On 9 August 378 Valens, unwilling to wait for his nephew Gratian and told that the Goths numbered only about 10,000, marched from Adrianople at dawn, leaving his baggage and treasury behind. After eight miles in the summer heat the army found the Gothic wagon circle on a hill. Ammianus (31.12) says the right-wing cavalry arrived first and deployed, while the left was still strung out along the road. The Goths set the fields on fire and sent envoys to negotiate, partly to gain time: their cavalry under Alatheus and Saphrax was away foraging and had been sent for. Richomeres volunteered to go to the Goths as a hostage.",
+     "pos": {
+      "r_rcav": [
+       80,
+       34,
+       0
+      ],
+      "r_inf": [
+       50,
+       40,
+       0
+      ],
+      "r_lcav": [
+       16,
+       52,
+       20
+      ],
+      "r_scut": [
+       66,
+       34,
+       0
+      ],
+      "r_valens": [
+       44,
+       48,
+       0
+      ],
+      "r_batavi": [
+       60,
+       50,
+       0
+      ],
+      "g_laager": [
+       50,
+       10,
+       0
+      ],
+      "g_terv": [
+       50,
+       18,
+       0
+      ],
+      "g_cav": [
+       4,
+       24,
+       90
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        40,
+        58
+       ],
+       "to": [
+        20,
+        54
+       ],
+       "side": 0
+      }
+     ],
+     "hidden": [
+      "g_cav"
+     ]
+    },
+    {
+     "t": "An attack without orders",
+     "text": "Before the talks could end, the scutarii under the Iberian Bacurius and Cassio attacked on their own initiative, went too far and were driven back. The left-wing cavalry, now up, pressed forward all the way to the wagons, but without support.",
+     "pos": {
+      "r_rcav": [
+       80,
+       34,
+       0
+      ],
+      "r_inf": [
+       50,
+       36,
+       0
+      ],
+      "r_lcav": [
+       34,
+       21,
+       0
+      ],
+      "r_scut": [
+       62,
+       24,
+       0
+      ],
+      "r_valens": [
+       44,
+       48,
+       0
+      ],
+      "r_batavi": [
+       60,
+       50,
+       0
+      ],
+      "g_laager": [
+       50,
+       10,
+       0
+      ],
+      "g_terv": [
+       50,
+       18,
+       0
+      ],
+      "g_cav": [
+       4,
+       24,
+       90
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        66,
+        32
+       ],
+       "to": [
+        62,
+        26
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        20,
+        48
+       ],
+       "to": [
+        32,
+        24
+       ],
+       "side": 0
+      }
+     ],
+     "hidden": [
+      "g_cav"
+     ]
+    },
+    {
+     "t": "The thunderbolt from the hills",
+     "text": "At that moment the Gothic cavalry returned with a band of Alans and, in Ammianus' words, burst from the high ground like a thunderbolt and swept down on the Roman left. The left-wing cavalry, isolated and exposed, was overwhelmed. The Tervingi came out from the wagons. The infantry, its left flank now bare, was pushed together.",
+     "pos": {
+      "r_rcav": [
+       80,
+       34,
+       0
+      ],
+      "r_inf": [
+       52,
+       38,
+       0
+      ],
+      "r_lcav": [
+       34,
+       21,
+       0
+      ],
+      "r_scut": [
+       66,
+       30,
+       0
+      ],
+      "r_valens": [
+       44,
+       48,
+       0
+      ],
+      "r_batavi": [
+       60,
+       50,
+       0
+      ],
+      "g_laager": [
+       50,
+       10,
+       0
+      ],
+      "g_terv": [
+       50,
+       26,
+       0
+      ],
+      "g_cav": [
+       22,
+       24,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        4,
+        14
+       ],
+       "to": [
+        20,
+        22
+       ],
+       "side": 1
+      },
+      {
+       "from": [
+        34,
+        23
+       ],
+       "to": [
+        36,
+        48
+       ],
+       "side": 0,
+       "kind": "retreat"
+      },
+      {
+       "from": [
+        50,
+        21
+       ],
+       "to": [
+        50,
+        24
+       ],
+       "side": 1
+      }
+     ],
+     "hidden": [
+      "r_lcav"
+     ]
+    },
+    {
+     "t": "Encirclement; the emperor killed",
+     "text": "The Roman infantry was packed so tightly, Ammianus says, that men could not draw their swords or pull back their arms, and the dust hid the sky. The right-wing cavalry fled. Valens took refuge with the Lanciarii and Mattiarii, who held for a while. Victor went to bring up the Batavi in reserve and found they had vanished. Valens was killed, either by an arrow among his soldiers or burned in a farmhouse where he had been carried wounded; his body was never found. Two-thirds of the army died, including the generals Trajanus and Sebastianus and 35 tribunes. Ammianus compares the defeat only to Cannae.",
+     "pos": {
+      "r_rcav": [
+       92,
+       52,
+       0
+      ],
+      "r_inf": [
+       52,
+       39,
+       0
+      ],
+      "r_lcav": [
+       34,
+       21,
+       0
+      ],
+      "r_scut": [
+       74,
+       44,
+       0
+      ],
+      "r_valens": [
+       52,
+       46,
+       0
+      ],
+      "r_batavi": [
+       60,
+       50,
+       0
+      ],
+      "g_laager": [
+       50,
+       10,
+       0
+      ],
+      "g_terv": [
+       50,
+       30,
+       0
+      ],
+      "g_cav": [
+       30,
+       46,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        24,
+        30
+       ],
+       "to": [
+        30,
+        43
+       ],
+       "side": 1
+      },
+      {
+       "from": [
+        84,
+        36
+       ],
+       "to": [
+        92,
+        48
+       ],
+       "side": 0,
+       "kind": "retreat"
+      }
+     ],
+     "hidden": [
+      "r_lcav",
+      "r_batavi"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "a": "Ammianus Marcellinus",
+     "w": "Res Gestae",
+     "r": "31.12-13"
+    },
+    {
+     "a": "Orosius",
+     "w": "Histories against the Pagans",
+     "r": "7.33.13-15"
+    },
+    {
+     "a": "Socrates Scholasticus",
+     "w": "Ecclesiastical History",
+     "r": "4.38"
+    },
+    {
+     "a": "Zosimus",
+     "w": "New History",
+     "r": "4.24"
+    }
+   ],
+   "note": "Ammianus is the only detailed source, and his account of the deployment is impressionistic. The site north of Edirne is unlocated, and the Gothic numbers are unknown. Directions are schematic; the Gothic cavalry is shown returning on the Roman left as Ammianus implies.",
+   "scholarship": [
+    "Lenski, Failure of Empire: Valens and the Roman State (2002)",
+    "Burns, 'The Battle of Adrianople: A Reconsideration', Historia 22 (1973)",
+    "Heather, Goths and Romans 332-489 (1991)"
+   ]
+  },
+  {
+   "event": "battle_of_the_catalaunian_plains",
+   "title": "Catalaunian Plains: the fight for the crest",
+   "terrain": [
+    {
+     "kind": "ridge",
+     "pts": [
+      [
+       4,
+       30
+      ],
+      [
+       30,
+       32
+      ],
+      [
+       60,
+       29
+      ],
+      [
+       96,
+       31
+      ]
+     ],
+     "label": "sloping ridge"
+    },
+    {
+     "kind": "hill",
+     "cx": 74,
+     "cy": 30,
+     "r": 6,
+     "label": "crest"
+    },
+    {
+     "kind": "plain",
+     "pts": [
+      [
+       0,
+       0
+      ],
+      [
+       100,
+       0
+      ],
+      [
+       100,
+       60
+      ],
+      [
+       0,
+       60
+      ]
+     ],
+     "label": "Campi Catalaunici (Mauriac plain)"
+    }
+   ],
+   "north": 0,
+   "scaleNote": "unknown; schematic",
+   "units": [
+    {
+     "id": "co_aetius",
+     "side": 0,
+     "label": "Aetius: Romans, Franks, Burgundians, others",
+     "kind": "infantry",
+     "w": 18,
+     "h": 5
+    },
+    {
+     "id": "co_alans",
+     "side": 0,
+     "label": "Sangiban's Alans",
+     "kind": "infantry",
+     "w": 16,
+     "h": 5
+    },
+    {
+     "id": "co_visi",
+     "side": 0,
+     "label": "Theodoric I: Visigoths",
+     "kind": "infantry",
+     "w": 22,
+     "h": 5
+    },
+    {
+     "id": "co_thor",
+     "side": 0,
+     "label": "Thorismund's horsemen",
+     "kind": "cavalry",
+     "w": 8,
+     "h": 3
+    },
+    {
+     "id": "h_gep",
+     "side": 1,
+     "label": "Gepids (Ardaric) and other subjects",
+     "kind": "infantry",
+     "w": 18,
+     "h": 5
+    },
+    {
+     "id": "h_huns",
+     "side": 1,
+     "label": "Attila and the Huns",
+     "kind": "cavalry",
+     "w": 20,
+     "h": 6
+    },
+    {
+     "id": "h_ostro",
+     "side": 1,
+     "label": "Ostrogoths (Valamir, Theodemir, Vidimir)",
+     "kind": "infantry",
+     "w": 22,
+     "h": 5
+    },
+    {
+     "id": "h_ridge",
+     "side": 1,
+     "label": "Hunnic detachment sent to the crest",
+     "kind": "cavalry",
+     "w": 8,
+     "h": 3
+    },
+    {
+     "id": "h_laager",
+     "side": 1,
+     "label": "Hunnic wagon laager",
+     "kind": "camp",
+     "w": 24,
+     "h": 4
+    }
+   ],
+   "phases": [
+    {
+     "t": "Deployment",
+     "text": "Attila, having failed to take Orléans, fell back towards Troyes, and the coalition of Aetius and the Visigothic king Theodoric I caught him on the Catalaunian Plains in June 451. Jordanes (Getica 197-217), drawing on Priscus and Cassiodorus, describes a field rising to a ridge whose crest neither side held. Theodoric commanded the coalition right, Aetius the left, and Sangiban's Alans, whose loyalty was doubted, were put in the centre where they could be watched. Attila took the centre with the Huns, with his Germanic subjects on the wings: the Ostrogoths opposite the Visigoths, the Gepids under Ardaric and others opposite Aetius. The fighting began only at the ninth hour, Jordanes says, because Attila's diviners had foretold disaster.",
+     "pos": {
+      "co_aetius": [
+       22,
+       46,
+       0
+      ],
+      "co_alans": [
+       46,
+       46,
+       0
+      ],
+      "co_visi": [
+       74,
+       46,
+       0
+      ],
+      "co_thor": [
+       88,
+       52,
+       0
+      ],
+      "h_gep": [
+       22,
+       16,
+       0
+      ],
+      "h_huns": [
+       46,
+       16,
+       0
+      ],
+      "h_ostro": [
+       74,
+       16,
+       0
+      ],
+      "h_ridge": [
+       60,
+       22,
+       0
+      ],
+      "h_laager": [
+       46,
+       4,
+       0
+      ]
+     }
+    },
+    {
+     "t": "The crest won",
+     "text": "Thorismund, Theodoric's son, and Aetius got to the crest first, and the Hunnic detachment sent to take it was thrown back down the slope. Then the main lines met. Jordanes calls it a battle 'fierce, confused, monstrous, unrelenting', with a stream on the field running with blood.",
+     "pos": {
+      "co_aetius": [
+       22,
+       34,
+       0
+      ],
+      "co_alans": [
+       46,
+       35,
+       0
+      ],
+      "co_visi": [
+       74,
+       40,
+       0
+      ],
+      "co_thor": [
+       74,
+       32,
+       0
+      ],
+      "h_gep": [
+       22,
+       28,
+       0
+      ],
+      "h_huns": [
+       46,
+       27,
+       0
+      ],
+      "h_ostro": [
+       74,
+       24,
+       0
+      ],
+      "h_ridge": [
+       62,
+       18,
+       0
+      ],
+      "h_laager": [
+       46,
+       4,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        86,
+        48
+       ],
+       "to": [
+        76,
+        34
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        62,
+        24
+       ],
+       "to": [
+        62,
+        20
+       ],
+       "side": 1,
+       "kind": "retreat"
+      },
+      {
+       "from": [
+        46,
+        20
+       ],
+       "to": [
+        46,
+        23
+       ],
+       "side": 1
+      }
+     ]
+    },
+    {
+     "t": "Theodoric falls; the Visigoths break the Ostrogoths",
+     "text": "The old king Theodoric was killed, either thrown from his horse and trampled by his own men or, as some said, by a spear thrown by the Ostrogoth Andag. The Visigoths fought on, separated from the Alans, routed the Ostrogoths opposite them and almost reached Attila himself, who withdrew to the wagon laager.",
+     "pos": {
+      "co_aetius": [
+       22,
+       34,
+       0
+      ],
+      "co_alans": [
+       46,
+       35,
+       0
+      ],
+      "co_visi": [
+       74,
+       24,
+       0
+      ],
+      "co_thor": [
+       66,
+       18,
+       0
+      ],
+      "h_gep": [
+       22,
+       28,
+       0
+      ],
+      "h_huns": [
+       46,
+       12,
+       0
+      ],
+      "h_ostro": [
+       80,
+       10,
+       0
+      ],
+      "h_ridge": [
+       60,
+       6,
+       0
+      ],
+      "h_laager": [
+       46,
+       4,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        74,
+        36
+       ],
+       "to": [
+        74,
+        27
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        74,
+        20
+       ],
+       "to": [
+        80,
+        13
+       ],
+       "side": 1,
+       "kind": "retreat"
+      },
+      {
+       "from": [
+        46,
+        14
+       ],
+       "to": [
+        46,
+        8
+       ],
+       "side": 1,
+       "kind": "retreat"
+      }
+     ]
+    },
+    {
+     "t": "Night and the saddle pyre",
+     "text": "Night fell on a confused field. Thorismund, returning in the dark, blundered into the Hunnic wagons and was wounded; Aetius, separated from his men, spent the night among the Visigoths. Next morning Attila stayed behind his wagons, and Jordanes says he had a pyre of horse saddles built so that he could burn himself rather than be captured. The coalition did not attack. Aetius advised Thorismund to return to Toulouse and secure his throne, and Attila was allowed to retreat. Jordanes' figure of 165,000 dead is fantasy, but the losses were heavy, and Attila invaded Italy the next year.",
+     "pos": {
+      "co_aetius": [
+       24,
+       26,
+       0
+      ],
+      "co_alans": [
+       46,
+       26,
+       0
+      ],
+      "co_visi": [
+       74,
+       22,
+       0
+      ],
+      "co_thor": [
+       60,
+       14,
+       0
+      ],
+      "h_gep": [
+       22,
+       14,
+       0
+      ],
+      "h_huns": [
+       46,
+       8,
+       0
+      ],
+      "h_ostro": [
+       80,
+       10,
+       0
+      ],
+      "h_ridge": [
+       60,
+       6,
+       0
+      ],
+      "h_laager": [
+       46,
+       4,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        64,
+        18
+       ],
+       "to": [
+        58,
+        10
+       ],
+       "side": 0
+      }
+     ],
+     "hidden": [
+      "h_ridge"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "a": "Jordanes",
+     "w": "Getica",
+     "r": "36-41 (184-218)"
+    },
+    {
+     "a": "Hydatius",
+     "w": "Chronicle",
+     "r": "s.a. 451"
+    },
+    {
+     "a": "Prosper of Aquitaine",
+     "w": "Epitoma Chronicon",
+     "r": "s.a. 451"
+    },
+    {
+     "a": "Gregory of Tours",
+     "w": "Histories",
+     "r": "2.7"
+    }
+   ],
+   "note": "Jordanes, writing a century later from Priscus and Cassiodorus with a strongly Gothic slant, is the only narrative. The site, somewhere between Châlons-en-Champagne and Troyes (Campus Mauriacus in some sources), is not located, and the ridge cannot be placed. This drawing is a schematic rendering of Jordanes' order of battle.",
+   "scholarship": [
+    "Kelly, Attila the Hun (2008)",
+    "Heather, The Fall of the Roman Empire (2005)",
+    "Hughes, Aetius: Attila's Nemesis (2012)"
+   ]
+  }
+ ]
+}

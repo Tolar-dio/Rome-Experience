@@ -1,0 +1,3899 @@
+{
+ "tactics": [
+  {
+   "event": "battle_of_carrhae",
+   "title": "Carrhae: the square under the arrows",
+   "terrain": [
+    {
+     "kind": "river",
+     "pts": [
+      [
+       70,
+       0
+      ],
+      [
+       74,
+       8
+      ],
+      [
+       72,
+       16
+      ]
+     ],
+     "label": "Balissus (Balikh)"
+    },
+    {
+     "kind": "town",
+     "cx": 6,
+     "cy": 5,
+     "r": 2.5,
+     "label": "Carrhae (Harran)"
+    },
+    {
+     "kind": "hill",
+     "cx": 85,
+     "cy": 47,
+     "r": 5,
+     "label": "sandy hillock"
+    },
+    {
+     "kind": "plain",
+     "pts": [
+      [
+       0,
+       20
+      ],
+      [
+       100,
+       20
+      ],
+      [
+       100,
+       60
+      ],
+      [
+       0,
+       60
+      ]
+     ],
+     "label": "open steppe"
+    }
+   ],
+   "north": 0,
+   "scaleNote": "ground perhaps 8 km across; schematic",
+   "units": [
+    {
+     "id": "r_square",
+     "side": 0,
+     "label": "Crassus: legions in hollow square (12 cohorts a side)",
+     "kind": "infantry",
+     "w": 20,
+     "h": 20
+    },
+    {
+     "id": "r_cass",
+     "side": 0,
+     "label": "Cassius: cavalry",
+     "kind": "cavalry",
+     "w": 6,
+     "h": 5
+    },
+    {
+     "id": "r_pub",
+     "side": 0,
+     "label": "P. Crassus: 1,300 horse, 500 archers, 8 cohorts",
+     "kind": "cavalry",
+     "w": 8,
+     "h": 6
+    },
+    {
+     "id": "p_cat",
+     "side": 1,
+     "label": "Cataphracts (c. 1,000) with Surena",
+     "kind": "cavalry",
+     "w": 14,
+     "h": 3
+    },
+    {
+     "id": "p_ha1",
+     "side": 1,
+     "label": "Horse archers",
+     "kind": "archers",
+     "w": 14,
+     "h": 3
+    },
+    {
+     "id": "p_ha2",
+     "side": 1,
+     "label": "Horse archers",
+     "kind": "archers",
+     "w": 14,
+     "h": 3
+    },
+    {
+     "id": "p_ha3",
+     "side": 1,
+     "label": "Horse archers",
+     "kind": "archers",
+     "w": 14,
+     "h": 3
+    },
+    {
+     "id": "p_camels",
+     "side": 1,
+     "label": "Camel train with spare arrows",
+     "kind": "baggage",
+     "w": 10,
+     "h": 2
+    }
+   ],
+   "phases": [
+    {
+     "t": "Contact south of the Balissus",
+     "text": "Crassus, misled about the enemy's whereabouts by the Arab chief Abgar (Ariamnes in Plutarch), marched from the Balissus into open steppe in the heat. Cassius advised a broad line to avoid envelopment; Crassus first extended his line, then changed to a hollow square with twelve cohorts on each side, each cohort paired with a squadron of cavalry, his son Publius on one wing and Cassius on the other. Surena showed only a small force at first, with the cataphracts' armour hidden under cloaks and hides, then sounded the kettledrums and revealed them.",
+     "pos": {
+      "r_square": [
+       50,
+       24,
+       0
+      ],
+      "r_cass": [
+       36,
+       28,
+       0
+      ],
+      "r_pub": [
+       64,
+       28,
+       0
+      ],
+      "p_cat": [
+       50,
+       46,
+       0
+      ],
+      "p_ha1": [
+       36,
+       50,
+       0
+      ],
+      "p_ha2": [
+       64,
+       50,
+       0
+      ],
+      "p_ha3": [
+       50,
+       54,
+       0
+      ],
+      "p_camels": [
+       50,
+       58,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        50,
+        8
+       ],
+       "to": [
+        50,
+        13
+       ],
+       "side": 0
+      }
+     ]
+    },
+    {
+     "t": "Envelopment",
+     "text": "The cataphracts tested the square and found it too deep to break, and withdrew. The 9,000 horse archers then spread round all four sides and shot into the packed ranks. Plutarch (Crassus 24-25) says the Romans waited for the arrows to run out, until they saw a train of camels bringing fresh supplies. The light troops could not drive the archers off, and the legionaries could neither reach the enemy nor escape the arrows, which pinned shields to hands and feet to the ground.",
+     "pos": {
+      "r_square": [
+       50,
+       24,
+       0
+      ],
+      "r_cass": [
+       36,
+       28,
+       0
+      ],
+      "r_pub": [
+       64,
+       28,
+       0
+      ],
+      "p_cat": [
+       50,
+       42,
+       0
+      ],
+      "p_ha1": [
+       24,
+       24,
+       90
+      ],
+      "p_ha2": [
+       80,
+       26,
+       90
+      ],
+      "p_ha3": [
+       50,
+       40,
+       0
+      ],
+      "p_camels": [
+       50,
+       56,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        36,
+        48
+       ],
+       "to": [
+        26,
+        32
+       ],
+       "side": 1
+      },
+      {
+       "from": [
+        64,
+        48
+       ],
+       "to": [
+        80,
+        34
+       ],
+       "side": 1
+      },
+      {
+       "from": [
+        50,
+        52
+       ],
+       "to": [
+        50,
+        43
+       ],
+       "side": 1
+      }
+     ],
+     "hidden": [
+      "p_cat"
+     ]
+    },
+    {
+     "t": "Publius' sortie",
+     "text": "Crassus sent Publius to break the ring with 1,300 cavalry, including 1,000 Gauls from Caesar, 500 archers and 8 cohorts. The Parthians in front of him gave way as if fleeing, drew him far from the square, then turned on him with the cataphracts. The Gauls fought desperately, seizing lances and dragging riders down and stabbing horses from beneath. Driven onto a sandy hillock, Publius' men were shot down; he had his shield-bearer kill him. Of the 6,000 or so only 500 were captured.",
+     "pos": {
+      "r_square": [
+       50,
+       24,
+       0
+      ],
+      "r_cass": [
+       36,
+       28,
+       0
+      ],
+      "r_pub": [
+       84,
+       44,
+       0
+      ],
+      "p_cat": [
+       84,
+       54,
+       0
+      ],
+      "p_ha1": [
+       24,
+       24,
+       90
+      ],
+      "p_ha2": [
+       93,
+       46,
+       90
+      ],
+      "p_ha3": [
+       72,
+       46,
+       90
+      ],
+      "p_camels": [
+       50,
+       56,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        66,
+        32
+       ],
+       "to": [
+        82,
+        42
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        80,
+        38
+       ],
+       "to": [
+        90,
+        48
+       ],
+       "side": 1,
+       "kind": "retreat"
+      },
+      {
+       "from": [
+        60,
+        52
+       ],
+       "to": [
+        80,
+        54
+       ],
+       "side": 1
+      }
+     ]
+    },
+    {
+     "t": "Night retreat to Carrhae",
+     "text": "The Parthians came back with Publius' head on a lance and pressed the square until dark. They did not fight at night, and Crassus, who had collapsed in despair, was persuaded by his officers to retreat under cover of darkness to Carrhae, leaving about 4,000 wounded to be killed. Some days later, in a parley Surena forced on him, Crassus was killed. Plutarch gives 20,000 dead and 10,000 captured; the captured standards were recovered only by Augustus' diplomacy in 20 BC.",
+     "pos": {
+      "r_square": [
+       30,
+       16,
+       0
+      ],
+      "r_cass": [
+       16,
+       12,
+       0
+      ],
+      "r_pub": [
+       84,
+       44,
+       0
+      ],
+      "p_cat": [
+       60,
+       40,
+       0
+      ],
+      "p_ha1": [
+       20,
+       34,
+       0
+      ],
+      "p_ha2": [
+       70,
+       24,
+       90
+      ],
+      "p_ha3": [
+       46,
+       34,
+       0
+      ],
+      "p_camels": [
+       50,
+       56,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        44,
+        22
+       ],
+       "to": [
+        12,
+        8
+       ],
+       "side": 0,
+       "kind": "retreat"
+      },
+      {
+       "from": [
+        80,
+        44
+       ],
+       "to": [
+        62,
+        28
+       ],
+       "side": 1
+      }
+     ],
+     "hidden": [
+      "r_pub"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "a": "Plutarch",
+     "w": "Crassus",
+     "r": "20-31"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "40.16-27"
+    },
+    {
+     "a": "Justin",
+     "w": "Epitome",
+     "r": "42.4"
+    }
+   ],
+   "note": "Plutarch is the main source and drew on a well-informed eyewitness tradition, possibly through Cassius. The battlefield lay somewhere south of Carrhae near the Balikh and is not located. Parthian numbers (1,000 cataphracts, 9,000 horse archers) follow Plutarch's implication; positions are schematic.",
+   "scholarship": [
+    "Sampson, The Defeat of Rome: Crassus, Carrhae and the Invasion of the East (2008)",
+    "Sherwin-White, Roman Foreign Policy in the East (1984)"
+   ]
+  },
+  {
+   "event": "battle_of_the_sabis",
+   "title": "The Sabis: surprise attack on an army building camp",
+   "terrain": [
+    {
+     "kind": "river",
+     "pts": [
+      [
+       0,
+       31
+      ],
+      [
+       30,
+       33
+      ],
+      [
+       60,
+       30
+      ],
+      [
+       100,
+       32
+      ]
+     ],
+     "label": "Sabis (Selle or Sambre)"
+    },
+    {
+     "kind": "forest",
+     "pts": [
+      [
+       0,
+       0
+      ],
+      [
+       100,
+       0
+      ],
+      [
+       100,
+       20
+      ],
+      [
+       0,
+       22
+      ]
+     ],
+     "label": "woods on the far slope"
+    },
+    {
+     "kind": "hill",
+     "cx": 55,
+     "cy": 50,
+     "r": 12,
+     "label": "camp hill"
+    }
+   ],
+   "north": 0,
+   "scaleNote": "front perhaps 2 km; schematic",
+   "units": [
+    {
+     "id": "r_9_10",
+     "side": 0,
+     "label": "Legions IX and X (Labienus)",
+     "kind": "infantry",
+     "w": 14,
+     "h": 4
+    },
+    {
+     "id": "r_8_11",
+     "side": 0,
+     "label": "Legions VIII and XI",
+     "kind": "infantry",
+     "w": 14,
+     "h": 4
+    },
+    {
+     "id": "r_7",
+     "side": 0,
+     "label": "Legion VII",
+     "kind": "infantry",
+     "w": 8,
+     "h": 4
+    },
+    {
+     "id": "r_12",
+     "side": 0,
+     "label": "Legion XII",
+     "kind": "infantry",
+     "w": 8,
+     "h": 4
+    },
+    {
+     "id": "r_13_14",
+     "side": 0,
+     "label": "Legions XIII and XIV with the baggage",
+     "kind": "baggage",
+     "w": 16,
+     "h": 3
+    },
+    {
+     "id": "r_cav",
+     "side": 0,
+     "label": "Cavalry and light troops",
+     "kind": "cavalry",
+     "w": 12,
+     "h": 3
+    },
+    {
+     "id": "r_camp",
+     "side": 0,
+     "label": "Camp under construction",
+     "kind": "camp",
+     "w": 16,
+     "h": 6
+    },
+    {
+     "id": "b_atr",
+     "side": 1,
+     "label": "Atrebates",
+     "kind": "infantry",
+     "w": 14,
+     "h": 5
+    },
+    {
+     "id": "b_vir",
+     "side": 1,
+     "label": "Viromandui",
+     "kind": "infantry",
+     "w": 14,
+     "h": 5
+    },
+    {
+     "id": "b_ner",
+     "side": 1,
+     "label": "Nervii (Boduognatus)",
+     "kind": "infantry",
+     "w": 18,
+     "h": 6
+    },
+    {
+     "id": "b_ner2",
+     "side": 1,
+     "label": "Nervii column",
+     "kind": "infantry",
+     "w": 10,
+     "h": 4
+    }
+   ],
+   "phases": [
+    {
+     "t": "The camp is marked out",
+     "text": "The Nervii had learned from deserters that each of Caesar's legions marched separated by a long baggage train, and planned to attack the first legion to arrive. Caesar, warned, changed the order: six legions in light order first, then the baggage, then the two new legions XIII and XIV. The six began entrenching the camp on a hill above the Sabis while the cavalry and light troops crossed to skirmish with enemy horsemen at the edge of the woods. The Nervii, Atrebates and Viromandui were hidden in the woods (Caesar's figure is 60,000).",
+     "pos": {
+      "r_9_10": [
+       24,
+       42,
+       0
+      ],
+      "r_8_11": [
+       46,
+       42,
+       0
+      ],
+      "r_7": [
+       68,
+       42,
+       0
+      ],
+      "r_12": [
+       80,
+       42,
+       0
+      ],
+      "r_13_14": [
+       30,
+       57,
+       0
+      ],
+      "r_cav": [
+       50,
+       27,
+       0
+      ],
+      "r_camp": [
+       58,
+       50,
+       0
+      ],
+      "b_atr": [
+       24,
+       12,
+       0
+      ],
+      "b_vir": [
+       48,
+       12,
+       0
+      ],
+      "b_ner": [
+       76,
+       12,
+       0
+      ],
+      "b_ner2": [
+       92,
+       12,
+       0
+      ]
+     }
+    },
+    {
+     "t": "The rush across the river",
+     "text": "When the baggage came into sight, the signal agreed in the woods, the whole Belgic army burst out, scattered the cavalry and came across the river and up the slope so fast, Caesar says, that they seemed to be in the woods, in the river and on top of the Romans at almost the same moment (BG 2.19). There was no time to form properly or even put on helmets. Men fell in under the nearest standard, and the line formed by legions where they had been digging.",
+     "pos": {
+      "r_9_10": [
+       24,
+       42,
+       0
+      ],
+      "r_8_11": [
+       46,
+       42,
+       0
+      ],
+      "r_7": [
+       68,
+       42,
+       0
+      ],
+      "r_12": [
+       80,
+       42,
+       0
+      ],
+      "r_13_14": [
+       30,
+       57,
+       0
+      ],
+      "r_cav": [
+       50,
+       50,
+       0
+      ],
+      "r_camp": [
+       58,
+       50,
+       0
+      ],
+      "b_atr": [
+       24,
+       37,
+       0
+      ],
+      "b_vir": [
+       46,
+       37,
+       0
+      ],
+      "b_ner": [
+       74,
+       37,
+       0
+      ],
+      "b_ner2": [
+       90,
+       30,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        24,
+        18
+       ],
+       "to": [
+        24,
+        34
+       ],
+       "side": 1
+      },
+      {
+       "from": [
+        46,
+        18
+       ],
+       "to": [
+        46,
+        34
+       ],
+       "side": 1
+      },
+      {
+       "from": [
+        74,
+        18
+       ],
+       "to": [
+        74,
+        34
+       ],
+       "side": 1
+      },
+      {
+       "from": [
+        50,
+        30
+       ],
+       "to": [
+        50,
+        46
+       ],
+       "side": 0,
+       "kind": "retreat"
+      }
+     ]
+    },
+    {
+     "t": "Three separate fights",
+     "text": "On the left, IX and X routed the Atrebates, drove them into the river, followed them across and took their camp on the far slope. In the centre VIII and XI pushed the Viromandui back to the riverbank. That left the camp and the right flank open. The Nervii, in a dense column, went for the exposed right, where VII and XII were crowded together; part of them swept round to the top of the hill and into the half-built camp. Camp servants fled, and the Treveran cavalry rode home to report that the Romans were beaten.",
+     "pos": {
+      "r_9_10": [
+       24,
+       14,
+       0
+      ],
+      "r_8_11": [
+       46,
+       33,
+       0
+      ],
+      "r_7": [
+       70,
+       44,
+       0
+      ],
+      "r_12": [
+       80,
+       44,
+       0
+      ],
+      "r_13_14": [
+       30,
+       57,
+       0
+      ],
+      "r_cav": [
+       50,
+       50,
+       0
+      ],
+      "r_camp": [
+       58,
+       50,
+       0
+      ],
+      "b_atr": [
+       22,
+       5,
+       0
+      ],
+      "b_vir": [
+       46,
+       27,
+       0
+      ],
+      "b_ner": [
+       76,
+       38,
+       0
+      ],
+      "b_ner2": [
+       74,
+       52,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        24,
+        38
+       ],
+       "to": [
+        24,
+        17
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        90,
+        34
+       ],
+       "to": [
+        76,
+        50
+       ],
+       "side": 1
+      },
+      {
+       "from": [
+        76,
+        36
+       ],
+       "to": [
+        76,
+        40
+       ],
+       "side": 1
+      }
+     ],
+     "hidden": [
+      "r_cav"
+     ]
+    },
+    {
+     "t": "Caesar on foot; the Tenth comes back",
+     "text": "In XII, all the centurions of the fourth cohort were dead and the standard lost; the men were bunched so tightly they could not use their swords. Caesar took a shield from a soldier at the rear, went into the front line, called the centurions by name and had the ranks open out. He had VII and XII close up and face outwards so they could not be taken in the rear. Then XIII and XIV appeared on the crest, and Labienus, seeing the camp from across the river, sent X back at the run. The Nervii fought on standing on their own dead. Caesar says that of 600 senators 3 survived, and of 60,000 men barely 500.",
+     "pos": {
+      "r_9_10": [
+       76,
+       30,
+       0
+      ],
+      "r_8_11": [
+       50,
+       36,
+       0
+      ],
+      "r_7": [
+       80,
+       47,
+       0
+      ],
+      "r_12": [
+       80,
+       42,
+       0
+      ],
+      "r_13_14": [
+       60,
+       57,
+       0
+      ],
+      "r_cav": [
+       50,
+       50,
+       0
+      ],
+      "r_camp": [
+       58,
+       50,
+       0
+      ],
+      "b_atr": [
+       22,
+       5,
+       0
+      ],
+      "b_vir": [
+       46,
+       27,
+       0
+      ],
+      "b_ner": [
+       76,
+       37,
+       0
+      ],
+      "b_ner2": [
+       90,
+       52,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        30,
+        20
+       ],
+       "to": [
+        70,
+        30
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        44,
+        57
+       ],
+       "to": [
+        54,
+        57
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        62,
+        55
+       ],
+       "to": [
+        84,
+        52
+       ],
+       "side": 0
+      }
+     ],
+     "hidden": [
+      "r_cav"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "a": "Julius Caesar",
+     "w": "Bellum Gallicum",
+     "r": "2.15-28"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Caesar",
+     "r": "20"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "39.3"
+    }
+   ],
+   "note": "Caesar's own account is the only one and is written to show his calm and the soldiers' courage. The river is usually identified as the Selle near Saulzoir, though the Sambre has supporters. Relative positions of the legion pairs follow BG 2.23-25; distances are schematic.",
+   "scholarship": [
+    "Rice Holmes, Caesar's Conquest of Gaul (2nd ed. 1911)",
+    "Goldsworthy, Caesar: Life of a Colossus (2006)"
+   ]
+  },
+  {
+   "event": "siege_of_alesia",
+   "title": "Alesia: the double lines",
+   "terrain": [
+    {
+     "kind": "hill",
+     "cx": 50,
+     "cy": 30,
+     "r": 9,
+     "label": "Mont Auxois (Alesia)"
+    },
+    {
+     "kind": "river",
+     "pts": [
+      [
+       100,
+       17
+      ],
+      [
+       70,
+       17
+      ],
+      [
+       40,
+       18
+      ],
+      [
+       10,
+       20
+      ]
+     ],
+     "label": "Ose"
+    },
+    {
+     "kind": "river",
+     "pts": [
+      [
+       100,
+       43
+      ],
+      [
+       70,
+       42
+      ],
+      [
+       40,
+       42
+      ],
+      [
+       10,
+       40
+      ]
+     ],
+     "label": "Oserain"
+    },
+    {
+     "kind": "river",
+     "pts": [
+      [
+       8,
+       0
+      ],
+      [
+       10,
+       30
+      ],
+      [
+       8,
+       60
+      ]
+     ],
+     "label": "Brenne"
+    },
+    {
+     "kind": "wall",
+     "pts": [
+      [
+       72.0,
+       30.0
+      ],
+      [
+       71.3,
+       33.9
+      ],
+      [
+       69.1,
+       37.5
+      ],
+      [
+       65.6,
+       40.6
+      ],
+      [
+       61.0,
+       43.0
+      ],
+      [
+       55.7,
+       44.5
+      ],
+      [
+       50.0,
+       45.0
+      ],
+      [
+       44.3,
+       44.5
+      ],
+      [
+       39.0,
+       43.0
+      ],
+      [
+       34.4,
+       40.6
+      ],
+      [
+       30.9,
+       37.5
+      ],
+      [
+       28.7,
+       33.9
+      ],
+      [
+       28.0,
+       30.0
+      ],
+      [
+       28.7,
+       26.1
+      ],
+      [
+       30.9,
+       22.5
+      ],
+      [
+       34.4,
+       19.4
+      ],
+      [
+       39.0,
+       17.0
+      ],
+      [
+       44.3,
+       15.5
+      ],
+      [
+       50.0,
+       15.0
+      ],
+      [
+       55.7,
+       15.5
+      ],
+      [
+       61.0,
+       17.0
+      ],
+      [
+       65.6,
+       19.4
+      ],
+      [
+       69.1,
+       22.5
+      ],
+      [
+       71.3,
+       26.1
+      ],
+      [
+       72.0,
+       30.0
+      ]
+     ],
+     "label": "contravallation (11 Roman miles)"
+    },
+    {
+     "kind": "wall",
+     "pts": [
+      [
+       88.0,
+       30.0
+      ],
+      [
+       86.8,
+       36.0
+      ],
+      [
+       83.2,
+       41.5
+      ],
+      [
+       77.5,
+       46.3
+      ],
+      [
+       70.0,
+       49.9
+      ],
+      [
+       61.3,
+       52.2
+      ],
+      [
+       52.0,
+       53.0
+      ],
+      [
+       42.7,
+       52.2
+      ],
+      [
+       34.0,
+       49.9
+      ],
+      [
+       26.5,
+       46.3
+      ],
+      [
+       20.8,
+       41.5
+      ],
+      [
+       17.2,
+       36.0
+      ],
+      [
+       16.0,
+       30.0
+      ],
+      [
+       17.2,
+       24.0
+      ],
+      [
+       20.8,
+       18.5
+      ],
+      [
+       26.5,
+       13.7
+      ],
+      [
+       34.0,
+       10.1
+      ],
+      [
+       42.7,
+       7.8
+      ],
+      [
+       52.0,
+       7.0
+      ],
+      [
+       61.3,
+       7.8
+      ],
+      [
+       70.0,
+       10.1
+      ],
+      [
+       77.5,
+       13.7
+      ],
+      [
+       83.2,
+       18.5
+      ],
+      [
+       86.8,
+       24.0
+      ],
+      [
+       88.0,
+       30.0
+      ]
+     ],
+     "label": "circumvallation (14 Roman miles)"
+    },
+    {
+     "kind": "hill",
+     "cx": 22,
+     "cy": 9,
+     "r": 6,
+     "label": "Mont Réa"
+    },
+    {
+     "kind": "plain",
+     "pts": [
+      [
+       0,
+       22
+      ],
+      [
+       14,
+       22
+      ],
+      [
+       14,
+       46
+      ],
+      [
+       0,
+       46
+      ]
+     ],
+     "label": "Plaine des Laumes"
+    }
+   ],
+   "north": 0,
+   "scaleNote": "outer line c. 21 km round; ground c. 9 km across",
+   "units": [
+    {
+     "id": "g_garr",
+     "side": 1,
+     "label": "Vercingetorix: the garrison (c. 80,000)",
+     "kind": "infantry",
+     "w": 12,
+     "h": 6
+    },
+    {
+     "id": "g_cav",
+     "side": 1,
+     "label": "Relief army cavalry (8,000)",
+     "kind": "cavalry",
+     "w": 8,
+     "h": 6
+    },
+    {
+     "id": "g_relief",
+     "side": 1,
+     "label": "Relief army infantry",
+     "kind": "infantry",
+     "w": 10,
+     "h": 6
+    },
+    {
+     "id": "g_verc",
+     "side": 1,
+     "label": "Vercassivellaunus: 60,000 picked men",
+     "kind": "infantry",
+     "w": 12,
+     "h": 4
+    },
+    {
+     "id": "r_rea",
+     "side": 0,
+     "label": "Camp of Reginus and Rebilus (2 legions)",
+     "kind": "camp",
+     "w": 8,
+     "h": 4
+    },
+    {
+     "id": "r_lab",
+     "side": 0,
+     "label": "Labienus with 6 cohorts",
+     "kind": "reserve",
+     "w": 8,
+     "h": 3
+    },
+    {
+     "id": "r_caesar",
+     "side": 0,
+     "label": "Caesar with cohorts and cavalry",
+     "kind": "cavalry",
+     "w": 6,
+     "h": 3
+    },
+    {
+     "id": "r_germ",
+     "side": 0,
+     "label": "German cavalry",
+     "kind": "cavalry",
+     "w": 6,
+     "h": 3
+    },
+    {
+     "id": "r_legs",
+     "side": 0,
+     "label": "Legions in the camps and forts",
+     "kind": "infantry",
+     "w": 8,
+     "h": 4
+    }
+   ],
+   "phases": [
+    {
+     "t": "The works and the first relief battle",
+     "text": "Vercingetorix shut himself into Alesia with about 80,000 men and sent his cavalry out to raise all Gaul. Caesar enclosed the hill with an inner line of about 11 Roman miles and, when he learned that a relief army was coming, an outer line of 14 miles facing outwards, with ditches, a rampart, towers every 80 feet and fields of obstacles: buried stakes (cippi), pits with sharpened stakes (lilia) and iron spikes (stimuli) (BG 7.72-74). The relief army arrived (Caesar's numbers, 250,000 foot and 8,000 horse, are inflated). Its cavalry fought on the plain to the west under the eyes of both armies, until Caesar's German horsemen charged in a mass and routed it.",
+     "pos": {
+      "g_garr": [
+       50,
+       30,
+       0
+      ],
+      "g_cav": [
+       6,
+       34,
+       0
+      ],
+      "g_relief": [
+       6,
+       50,
+       0
+      ],
+      "g_verc": [
+       24,
+       3,
+       0
+      ],
+      "r_rea": [
+       24,
+       19,
+       0
+      ],
+      "r_lab": [
+       44,
+       48,
+       0
+      ],
+      "r_caesar": [
+       62,
+       48,
+       0
+      ],
+      "r_germ": [
+       12,
+       26,
+       0
+      ],
+      "r_legs": [
+       74,
+       22,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        18,
+        26
+       ],
+       "to": [
+        14,
+        26
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        12,
+        26
+       ],
+       "to": [
+        9,
+        31
+       ],
+       "side": 0
+      }
+     ],
+     "hidden": [
+      "g_verc"
+     ]
+    },
+    {
+     "t": "The night attack on the plain",
+     "text": "A day later the relief army attacked the outer line across the plain at midnight, with hurdles, ladders and grappling hooks, while Vercingetorix, hearing the shouts, led the garrison against the inner line. In the dark the obstacles did their work, and the Gauls were shot down from the towers. Antony and Trebonius brought troops from forts not under attack. By dawn the Gauls had failed on both sides.",
+     "pos": {
+      "g_garr": [
+       36,
+       32,
+       0
+      ],
+      "g_cav": [
+       5,
+       30,
+       0
+      ],
+      "g_relief": [
+       11,
+       44,
+       0
+      ],
+      "g_verc": [
+       24,
+       3,
+       0
+      ],
+      "r_rea": [
+       24,
+       19,
+       0
+      ],
+      "r_lab": [
+       28,
+       44,
+       0
+      ],
+      "r_caesar": [
+       62,
+       48,
+       0
+      ],
+      "r_germ": [
+       22,
+       36,
+       0
+      ],
+      "r_legs": [
+       74,
+       22,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        8,
+        50
+       ],
+       "to": [
+        16,
+        42
+       ],
+       "side": 1
+      },
+      {
+       "from": [
+        44,
+        30
+       ],
+       "to": [
+        32,
+        32
+       ],
+       "side": 1
+      },
+      {
+       "from": [
+        44,
+        48
+       ],
+       "to": [
+        30,
+        44
+       ],
+       "side": 0
+      }
+     ],
+     "hidden": [
+      "g_verc"
+     ]
+    },
+    {
+     "t": "Mont Réa",
+     "text": "Scouts found the weak point: on the north-west, Mont Réa was too large to include in the lines, so a camp of two legions under C. Antistius Reginus and C. Caninius Rebilus had been built on its lower slope, on poor ground. Vercassivellaunus, a cousin of Vercingetorix, marched 60,000 picked men round by night, hid them behind the hill, and attacked at noon, while the relief cavalry demonstrated on the plain and Vercingetorix attacked the inner works opposite. The attackers filled the ditches and climbed the rampart in relays.",
+     "pos": {
+      "g_garr": [
+       36,
+       25,
+       0
+      ],
+      "g_cav": [
+       6,
+       34,
+       0
+      ],
+      "g_relief": [
+       6,
+       50,
+       0
+      ],
+      "g_verc": [
+       24,
+       10,
+       0
+      ],
+      "r_rea": [
+       24,
+       19,
+       0
+      ],
+      "r_lab": [
+       44,
+       48,
+       0
+      ],
+      "r_caesar": [
+       62,
+       48,
+       0
+      ],
+      "r_germ": [
+       24,
+       36,
+       0
+      ],
+      "r_legs": [
+       74,
+       22,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        22,
+        4
+       ],
+       "to": [
+        24,
+        15
+       ],
+       "side": 1
+      },
+      {
+       "from": [
+        40,
+        27
+       ],
+       "to": [
+        32,
+        23
+       ],
+       "side": 1
+      }
+     ]
+    },
+    {
+     "t": "Labienus, then Caesar outside the lines",
+     "text": "Caesar sent Labienus with six cohorts to Mont Réa, with orders to sally if he could not hold. He himself went to the inner works where Vercingetorix was attacking, then brought more cohorts and sent cavalry round outside the outer line. The defenders saw his scarlet cloak as he came. With the Roman cavalry suddenly behind them, the Gauls broke. Vercassivellaunus was captured and 74 standards taken. The relief army dispersed that night. Next day Vercingetorix surrendered; Plutarch and Dio describe him riding out in his finest armour. He was kept for six years and executed after Caesar's triumph in 46.",
+     "pos": {
+      "g_garr": [
+       50,
+       30,
+       0
+      ],
+      "g_cav": [
+       6,
+       34,
+       0
+      ],
+      "g_relief": [
+       6,
+       50,
+       0
+      ],
+      "g_verc": [
+       22,
+       7,
+       0
+      ],
+      "r_rea": [
+       24,
+       19,
+       0
+      ],
+      "r_lab": [
+       35,
+       17,
+       0
+      ],
+      "r_caesar": [
+       8,
+       8,
+       0
+      ],
+      "r_germ": [
+       14,
+       18,
+       0
+      ],
+      "r_legs": [
+       74,
+       22,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        44,
+        46
+       ],
+       "to": [
+        34,
+        20
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        60,
+        50
+       ],
+       "to": [
+        20,
+        57
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        14,
+        56
+       ],
+       "to": [
+        8,
+        12
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        24,
+        26
+       ],
+       "to": [
+        16,
+        20
+       ],
+       "side": 0
+      }
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "a": "Julius Caesar",
+     "w": "Bellum Gallicum",
+     "r": "7.68-90"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Caesar",
+     "r": "27"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "40.39-41"
+    },
+    {
+     "a": "Velleius Paterculus",
+     "w": "Roman History",
+     "r": "2.47.1"
+    }
+   ],
+   "note": "Siege lines after Caesar BG 7.69-74 and the excavations at Alise-Sainte-Reine under Napoleon III (1861-65) and the Franco-German campaigns of 1991-97 (Reddé and von Schnurbein), which confirmed the double lines, the camps and the Mont Réa sector, though the works were not uniform. Both lines are drawn as simplified ellipses; the real lines followed the terrain. Camps and units are schematic.",
+   "scholarship": [
+    "Reddé and von Schnurbein (eds.), Alésia: fouilles et recherches franco-allemandes 1991-1997 (2001)",
+    "Le Bohec, Alésia, 52 avant J.-C. (2012)"
+   ]
+  },
+  {
+   "event": "battle_of_pharsalus",
+   "title": "Pharsalus: the fourth line",
+   "terrain": [
+    {
+     "kind": "river",
+     "pts": [
+      [
+       6,
+       0
+      ],
+      [
+       4,
+       20
+      ],
+      [
+       7,
+       40
+      ],
+      [
+       5,
+       60
+      ]
+     ],
+     "label": "Enipeus"
+    },
+    {
+     "kind": "hill",
+     "cx": 50,
+     "cy": 3,
+     "r": 5,
+     "label": "Pompey's camp on the slope"
+    },
+    {
+     "kind": "camp",
+     "cx": 50,
+     "cy": 58,
+     "r": 3,
+     "label": "Caesar's camp"
+    }
+   ],
+   "north": 0,
+   "scaleNote": "front c. 4 km; schematic",
+   "units": [
+    {
+     "id": "c_left",
+     "side": 0,
+     "label": "Antony: legions IX and VIII",
+     "kind": "infantry",
+     "w": 16,
+     "h": 5
+    },
+    {
+     "id": "c_centre",
+     "side": 0,
+     "label": "Domitius Calvinus: centre",
+     "kind": "infantry",
+     "w": 20,
+     "h": 5
+    },
+    {
+     "id": "c_x",
+     "side": 0,
+     "label": "Legion X (P. Sulla on the right)",
+     "kind": "infantry",
+     "w": 14,
+     "h": 5
+    },
+    {
+     "id": "c_cav",
+     "side": 0,
+     "label": "Caesar's cavalry (1,000) with light foot",
+     "kind": "cavalry",
+     "w": 8,
+     "h": 4
+    },
+    {
+     "id": "c_fourth",
+     "side": 0,
+     "label": "Fourth line: 6 cohorts",
+     "kind": "reserve",
+     "w": 10,
+     "h": 3
+    },
+    {
+     "id": "c_third",
+     "side": 0,
+     "label": "Third line",
+     "kind": "reserve",
+     "w": 50,
+     "h": 2
+    },
+    {
+     "id": "p_right",
+     "side": 1,
+     "label": "Pompeian right: Cilician legion, Spanish cohorts",
+     "kind": "infantry",
+     "w": 16,
+     "h": 6
+    },
+    {
+     "id": "p_centre",
+     "side": 1,
+     "label": "Metellus Scipio: Syrian legions",
+     "kind": "infantry",
+     "w": 20,
+     "h": 6
+    },
+    {
+     "id": "p_left",
+     "side": 1,
+     "label": "Pompey: legions I and III",
+     "kind": "infantry",
+     "w": 14,
+     "h": 6
+    },
+    {
+     "id": "p_cav",
+     "side": 1,
+     "label": "Labienus: cavalry (7,000)",
+     "kind": "cavalry",
+     "w": 12,
+     "h": 6
+    },
+    {
+     "id": "p_arch",
+     "side": 1,
+     "label": "Archers and slingers",
+     "kind": "archers",
+     "w": 10,
+     "h": 2
+    },
+    {
+     "id": "p_camp",
+     "side": 1,
+     "label": "Pompey's camp",
+     "kind": "camp",
+     "w": 10,
+     "h": 4
+    }
+   ],
+   "phases": [
+    {
+     "t": "Deployment",
+     "text": "Caesar (BC 3.88-89) gives Pompey 110 cohorts, about 45,000 men, and 7,000 cavalry, against his own 80 cohorts, 22,000 men, and 1,000 horse. Pompey's right rested on the Enipeus; his left, where he stood with the two legions Caesar had handed over in 50, was open, and there he massed the whole cavalry under Labienus with the archers and slingers, to sweep round Caesar's right. Caesar saw it and took one cohort from the third line of each legion to form a fourth line of six cohorts, angled behind his right, with orders to wait for the signal. He told the third line not to move without orders.",
+     "pos": {
+      "c_left": [
+       24,
+       42,
+       0
+      ],
+      "c_centre": [
+       46,
+       42,
+       0
+      ],
+      "c_x": [
+       66,
+       42,
+       0
+      ],
+      "c_cav": [
+       82,
+       42,
+       0
+      ],
+      "c_fourth": [
+       78,
+       50,
+       30
+      ],
+      "c_third": [
+       45,
+       50,
+       0
+      ],
+      "p_right": [
+       24,
+       18,
+       0
+      ],
+      "p_centre": [
+       46,
+       18,
+       0
+      ],
+      "p_left": [
+       66,
+       18,
+       0
+      ],
+      "p_cav": [
+       84,
+       18,
+       0
+      ],
+      "p_arch": [
+       84,
+       26,
+       0
+      ],
+      "p_camp": [
+       50,
+       4,
+       0
+      ]
+     }
+    },
+    {
+     "t": "The charge and the cavalry attack",
+     "text": "Pompey ordered his infantry to stand and receive the charge, expecting the Caesarians to arrive tired and disordered. Caesar criticised this (BC 3.92). His veterans, seeing the enemy not move, halted halfway on their own, recovered their breath and dressing, then charged, threw their pila and drew swords. The first to charge was the reenlisted centurion Crastinus, who died in the battle. At the same time Labienus' cavalry drove back Caesar's horse and began to wheel round the open flank.",
+     "pos": {
+      "c_left": [
+       24,
+       25,
+       0
+      ],
+      "c_centre": [
+       46,
+       25,
+       0
+      ],
+      "c_x": [
+       66,
+       25,
+       0
+      ],
+      "c_cav": [
+       91,
+       54,
+       0
+      ],
+      "c_fourth": [
+       78,
+       50,
+       30
+      ],
+      "c_third": [
+       45,
+       33,
+       0
+      ],
+      "p_right": [
+       24,
+       18,
+       0
+      ],
+      "p_centre": [
+       46,
+       18,
+       0
+      ],
+      "p_left": [
+       66,
+       18,
+       0
+      ],
+      "p_cav": [
+       84,
+       38,
+       0
+      ],
+      "p_arch": [
+       86,
+       30,
+       0
+      ],
+      "p_camp": [
+       50,
+       4,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        46,
+        38
+       ],
+       "to": [
+        46,
+        28
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        84,
+        22
+       ],
+       "to": [
+        84,
+        34
+       ],
+       "side": 1
+      },
+      {
+       "from": [
+        84,
+        40
+       ],
+       "to": [
+        90,
+        50
+       ],
+       "side": 0,
+       "kind": "retreat"
+      }
+     ]
+    },
+    {
+     "t": "The fourth line routs the cavalry",
+     "text": "At Caesar's signal the six cohorts ran forward against the cavalry. Plutarch and Appian say Caesar told them to thrust their pila upward at the riders' faces rather than throw them; the young aristocrats, the story goes, could not bear it. The cavalry broke and fled towards the hills. The archers and slingers, left without cover, were cut down.",
+     "pos": {
+      "c_left": [
+       24,
+       25,
+       0
+      ],
+      "c_centre": [
+       46,
+       25,
+       0
+      ],
+      "c_x": [
+       66,
+       25,
+       0
+      ],
+      "c_cav": [
+       91,
+       54,
+       0
+      ],
+      "c_fourth": [
+       82,
+       44,
+       0
+      ],
+      "c_third": [
+       45,
+       33,
+       0
+      ],
+      "p_right": [
+       24,
+       18,
+       0
+      ],
+      "p_centre": [
+       46,
+       18,
+       0
+      ],
+      "p_left": [
+       66,
+       18,
+       0
+      ],
+      "p_cav": [
+       94,
+       6,
+       0
+      ],
+      "p_arch": [
+       88,
+       30,
+       0
+      ],
+      "p_camp": [
+       50,
+       4,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        78,
+        48
+       ],
+       "to": [
+        82,
+        46
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        84,
+        36
+       ],
+       "to": [
+        94,
+        10
+       ],
+       "side": 1,
+       "kind": "retreat"
+      }
+     ],
+     "hidden": [
+      "p_arch"
+     ]
+    },
+    {
+     "t": "Flank attack and collapse",
+     "text": "The fourth line swung round onto the flank and rear of Pompey's left, and Caesar committed his fresh third line through the first two. The Pompeian army broke. Pompey rode back to his camp, then, when the Caesarians stormed it, escaped towards Larissa and the sea. Caesar claims 15,000 Pompeians killed and 24,000 captured against his own loss of 200 men and 30 centurions; Asinius Pollio, who fought there, put the Pompeian dead at 6,000. In the camp Caesar's men found tables laid and arbours of myrtle. Pompey was murdered in Egypt seven weeks later.",
+     "pos": {
+      "c_left": [
+       24,
+       20,
+       0
+      ],
+      "c_centre": [
+       46,
+       20,
+       0
+      ],
+      "c_x": [
+       64,
+       20,
+       0
+      ],
+      "c_cav": [
+       86,
+       30,
+       0
+      ],
+      "c_fourth": [
+       78,
+       18,
+       90
+      ],
+      "c_third": [
+       45,
+       29,
+       0
+      ],
+      "p_right": [
+       24,
+       12,
+       0
+      ],
+      "p_centre": [
+       46,
+       12,
+       0
+      ],
+      "p_left": [
+       64,
+       12,
+       0
+      ],
+      "p_cav": [
+       94,
+       6,
+       0
+      ],
+      "p_arch": [
+       88,
+       30,
+       0
+      ],
+      "p_camp": [
+       50,
+       4,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        82,
+        40
+       ],
+       "to": [
+        79,
+        26
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        76,
+        16
+       ],
+       "to": [
+        72,
+        14
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        56,
+        10
+       ],
+       "to": [
+        52,
+        5
+       ],
+       "side": 1,
+       "kind": "retreat"
+      }
+     ],
+     "hidden": [
+      "p_arch",
+      "p_cav"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "a": "Julius Caesar",
+     "w": "Bellum Civile",
+     "r": "3.84-99"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Caesar",
+     "r": "42-45"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Pompey",
+     "r": "68-72"
+    },
+    {
+     "a": "Appian",
+     "w": "Civil Wars",
+     "r": "2.68-82"
+    },
+    {
+     "a": "Frontinus",
+     "w": "Strategemata",
+     "r": "2.3.22"
+    }
+   ],
+   "note": "Reconstruction after Caesar's own account, supplemented by Plutarch and Appian (who used Pollio). Whether the battle was fought north or south of the Enipeus is disputed; the drawing follows the common view with Pompey's right on the river. Caesar's figures for Pompeian strength and losses are inflated.",
+   "scholarship": [
+    "Morgan, 'Palaepharsalus: the battle and the town', AJA 87 (1983)",
+    "Goldsworthy, Caesar: Life of a Colossus (2006)"
+   ]
+  },
+  {
+   "event": "battle_of_thapsus",
+   "title": "Thapsus: elephants and an unordered charge",
+   "terrain": [
+    {
+     "kind": "lake",
+     "pts": [
+      [
+       0,
+       0
+      ],
+      [
+       10,
+       0
+      ],
+      [
+       12,
+       30
+      ],
+      [
+       8,
+       60
+      ],
+      [
+       0,
+       60
+      ]
+     ],
+     "label": "salt lagoon (Sebkha de Moknine)"
+    },
+    {
+     "kind": "sea",
+     "pts": [
+      [
+       90,
+       0
+      ],
+      [
+       100,
+       0
+      ],
+      [
+       100,
+       60
+      ],
+      [
+       92,
+       60
+      ],
+      [
+       88,
+       30
+      ]
+     ],
+     "label": "sea"
+    },
+    {
+     "kind": "town",
+     "cx": 86,
+     "cy": 4,
+     "r": 3,
+     "label": "Thapsus (besieged)"
+    }
+   ],
+   "north": 0,
+   "scaleNote": "isthmus c. 2.5 km wide; schematic",
+   "units": [
+    {
+     "id": "c_wr",
+     "side": 0,
+     "label": "Veteran legions (right)",
+     "kind": "infantry",
+     "w": 16,
+     "h": 4
+    },
+    {
+     "id": "c_c",
+     "side": 0,
+     "label": "Legions (centre)",
+     "kind": "infantry",
+     "w": 18,
+     "h": 4
+    },
+    {
+     "id": "c_wl",
+     "side": 0,
+     "label": "Veteran legions (left)",
+     "kind": "infantry",
+     "w": 16,
+     "h": 4
+    },
+    {
+     "id": "c_v1",
+     "side": 0,
+     "label": "5 cohorts of V Alaudae",
+     "kind": "infantry",
+     "w": 6,
+     "h": 3
+    },
+    {
+     "id": "c_v2",
+     "side": 0,
+     "label": "5 cohorts of V Alaudae",
+     "kind": "infantry",
+     "w": 6,
+     "h": 3
+    },
+    {
+     "id": "c_sling",
+     "side": 0,
+     "label": "Archers and slingers",
+     "kind": "light",
+     "w": 64,
+     "h": 2
+    },
+    {
+     "id": "s_el_w",
+     "side": 1,
+     "label": "Elephants",
+     "kind": "elephants",
+     "w": 10,
+     "h": 3
+    },
+    {
+     "id": "s_el_e",
+     "side": 1,
+     "label": "Elephants",
+     "kind": "elephants",
+     "w": 10,
+     "h": 3
+    },
+    {
+     "id": "s_leg",
+     "side": 1,
+     "label": "Metellus Scipio's legions",
+     "kind": "infantry",
+     "w": 50,
+     "h": 6
+    },
+    {
+     "id": "s_cav",
+     "side": 1,
+     "label": "Numidian cavalry and light troops",
+     "kind": "cavalry",
+     "w": 10,
+     "h": 4
+    },
+    {
+     "id": "s_camp",
+     "side": 1,
+     "label": "Scipio's camp (unfinished)",
+     "kind": "camp",
+     "w": 12,
+     "h": 4
+    }
+   ],
+   "phases": [
+    {
+     "t": "Caesar's bait",
+     "text": "Caesar laid siege to Thapsus, on the coast between the sea and a salt lagoon, knowing that Scipio would have to come to its relief along the narrow strips of land on either side of the lagoon. Scipio came down the coastal strip and began a camp; Juba and Afranius camped some miles away. Caesar drew up facing south with veteran legions on the wings and five cohorts of the V legion on each wing to face the elephants, with archers and slingers in front (Bellum Africum 81).",
+     "pos": {
+      "c_wr": [
+       24,
+       18,
+       0
+      ],
+      "c_c": [
+       46,
+       18,
+       0
+      ],
+      "c_wl": [
+       68,
+       18,
+       0
+      ],
+      "c_v1": [
+       12,
+       20,
+       0
+      ],
+      "c_v2": [
+       82,
+       20,
+       0
+      ],
+      "c_sling": [
+       47,
+       24,
+       0
+      ],
+      "s_el_w": [
+       16,
+       40,
+       0
+      ],
+      "s_el_e": [
+       78,
+       40,
+       0
+      ],
+      "s_leg": [
+       47,
+       46,
+       0
+      ],
+      "s_cav": [
+       32,
+       55,
+       0
+      ],
+      "s_camp": [
+       66,
+       56,
+       0
+      ]
+     }
+    },
+    {
+     "t": "The trumpeter on the right",
+     "text": "Seeing the enemy disordered and busy with the camp, Caesar's officers begged him to attack; he hesitated. Then, says the author of the Bellum Africum, a trumpeter on the right wing, pressed by the soldiers, sounded the advance without orders, and the whole line went forward. Caesar, unable to stop it, gave the word 'Good luck' (Felicitas) and rode at the enemy. The slingers and archers shot at the elephants, which turned and trampled their own men, and stampeded through the half-built gates of the camp.",
+     "pos": {
+      "c_wr": [
+       24,
+       32,
+       0
+      ],
+      "c_c": [
+       46,
+       32,
+       0
+      ],
+      "c_wl": [
+       68,
+       32,
+       0
+      ],
+      "c_v1": [
+       12,
+       34,
+       0
+      ],
+      "c_v2": [
+       82,
+       34,
+       0
+      ],
+      "c_sling": [
+       47,
+       37,
+       0
+      ],
+      "s_el_w": [
+       18,
+       52,
+       30
+      ],
+      "s_el_e": [
+       72,
+       54,
+       -20
+      ],
+      "s_leg": [
+       47,
+       46,
+       0
+      ],
+      "s_cav": [
+       32,
+       55,
+       0
+      ],
+      "s_camp": [
+       66,
+       56,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        24,
+        22
+       ],
+       "to": [
+        24,
+        30
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        16,
+        42
+       ],
+       "to": [
+        18,
+        50
+       ],
+       "side": 1,
+       "kind": "retreat"
+      },
+      {
+       "from": [
+        78,
+        42
+       ],
+       "to": [
+        72,
+        52
+       ],
+       "side": 1,
+       "kind": "retreat"
+      }
+     ]
+    },
+    {
+     "t": "Collapse",
+     "text": "On the left a wounded elephant seized a camp follower; a soldier of the V legion attacked it until it let go, and the legion later carried an elephant on its shields. Scipio's line broke almost at once. The Moorish cavalry fled first. The fugitives ran first to their camp and then to Juba's, and found both abandoned or hostile.",
+     "pos": {
+      "c_wr": [
+       24,
+       44,
+       0
+      ],
+      "c_c": [
+       46,
+       44,
+       0
+      ],
+      "c_wl": [
+       68,
+       44,
+       0
+      ],
+      "c_v1": [
+       12,
+       34,
+       0
+      ],
+      "c_v2": [
+       82,
+       34,
+       0
+      ],
+      "c_sling": [
+       47,
+       37,
+       0
+      ],
+      "s_el_w": [
+       18,
+       52,
+       30
+      ],
+      "s_el_e": [
+       72,
+       54,
+       -20
+      ],
+      "s_leg": [
+       47,
+       52,
+       0
+      ],
+      "s_cav": [
+       12,
+       58,
+       0
+      ],
+      "s_camp": [
+       66,
+       56,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        46,
+        36
+       ],
+       "to": [
+        46,
+        46
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        40,
+        54
+       ],
+       "to": [
+        30,
+        58
+       ],
+       "side": 1,
+       "kind": "retreat"
+      }
+     ],
+     "hidden": [
+      "c_sling",
+      "s_el_w",
+      "s_el_e"
+     ]
+    },
+    {
+     "t": "Massacre",
+     "text": "When the fugitives tried to surrender, Caesar's veterans, sick of a war they had thought finished at Pharsalus, killed them, and even attacked their own officers who tried to stop them (Bellum Africum 85). The author gives 10,000 enemy dead and 50 Caesarians; Plutarch's figure is 50,000. Scipio drowned trying to reach Spain, Juba and Petreius killed each other, and Cato killed himself at Utica. Plutarch also preserves a story that Caesar had an epileptic fit at the start and took no part, which the Bellum Africum does not mention.",
+     "pos": {
+      "c_wr": [
+       24,
+       52,
+       0
+      ],
+      "c_c": [
+       52,
+       50,
+       0
+      ],
+      "c_wl": [
+       72,
+       50,
+       0
+      ],
+      "c_v1": [
+       12,
+       48,
+       0
+      ],
+      "c_v2": [
+       84,
+       46,
+       0
+      ],
+      "c_sling": [
+       47,
+       37,
+       0
+      ],
+      "s_el_w": [
+       18,
+       52,
+       30
+      ],
+      "s_el_e": [
+       72,
+       54,
+       -20
+      ],
+      "s_leg": [
+       40,
+       56,
+       0
+      ],
+      "s_cav": [
+       12,
+       58,
+       0
+      ],
+      "s_camp": [
+       66,
+       57,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        60,
+        48
+       ],
+       "to": [
+        66,
+        54
+       ],
+       "side": 0
+      }
+     ],
+     "hidden": [
+      "c_sling",
+      "s_el_w",
+      "s_el_e",
+      "s_cav"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "a": "Anonymous",
+     "w": "Bellum Africum",
+     "r": "79-86"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Caesar",
+     "r": "53"
+    },
+    {
+     "a": "Appian",
+     "w": "Civil Wars",
+     "r": "2.96-97"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "43.7-9"
+    }
+   ],
+   "note": "The Bellum Africum, by an officer in Caesar's army, gives the order of battle in outline; the assignment of individual legions to the wings is uncertain, so they are labelled generically. The ancient coastline and lagoon around Ras Dimass have changed. Scipio's camp and line positions are schematic.",
+   "scholarship": [
+    "Goldsworthy, Caesar: Life of a Colossus (2006)",
+    "Bouvet (ed.), Bellum Africum (Budé, 1949)"
+   ]
+  },
+  {
+   "event": "battle_of_munda",
+   "title": "Munda: fighting for his life",
+   "terrain": [
+    {
+     "kind": "hill",
+     "cx": 50,
+     "cy": 12,
+     "r": 14,
+     "label": "Pompeian ridge"
+    },
+    {
+     "kind": "town",
+     "cx": 50,
+     "cy": 3,
+     "r": 2.5,
+     "label": "Munda"
+    },
+    {
+     "kind": "marsh",
+     "pts": [
+      [
+       10,
+       32
+      ],
+      [
+       90,
+       32
+      ],
+      [
+       90,
+       36
+      ],
+      [
+       10,
+       36
+      ]
+     ],
+     "label": "stream and soft ground"
+    }
+   ],
+   "north": 0,
+   "scaleNote": "front perhaps 3 km; schematic",
+   "units": [
+    {
+     "id": "c_bogud",
+     "side": 0,
+     "label": "Bogud: Mauretanian cavalry",
+     "kind": "cavalry",
+     "w": 8,
+     "h": 3
+    },
+    {
+     "id": "c_left",
+     "side": 0,
+     "label": "Legions III and V",
+     "kind": "infantry",
+     "w": 16,
+     "h": 5
+    },
+    {
+     "id": "c_centre",
+     "side": 0,
+     "label": "Caesar's centre",
+     "kind": "infantry",
+     "w": 24,
+     "h": 5
+    },
+    {
+     "id": "c_x",
+     "side": 0,
+     "label": "Legion X",
+     "kind": "infantry",
+     "w": 14,
+     "h": 5
+    },
+    {
+     "id": "c_cav_r",
+     "side": 0,
+     "label": "Caesarian cavalry",
+     "kind": "cavalry",
+     "w": 8,
+     "h": 3
+    },
+    {
+     "id": "p_right",
+     "side": 1,
+     "label": "Pompeian right",
+     "kind": "infantry",
+     "w": 10,
+     "h": 6
+    },
+    {
+     "id": "p_shift",
+     "side": 1,
+     "label": "Legion moved from the right",
+     "kind": "infantry",
+     "w": 8,
+     "h": 6
+    },
+    {
+     "id": "p_centre",
+     "side": 1,
+     "label": "Pompeian centre",
+     "kind": "infantry",
+     "w": 24,
+     "h": 6
+    },
+    {
+     "id": "p_left",
+     "side": 1,
+     "label": "Pompeian left",
+     "kind": "infantry",
+     "w": 14,
+     "h": 6
+    },
+    {
+     "id": "p_lab",
+     "side": 1,
+     "label": "Labienus' 5 cohorts",
+     "kind": "reserve",
+     "w": 8,
+     "h": 3
+    },
+    {
+     "id": "p_light",
+     "side": 1,
+     "label": "Light troops and cavalry",
+     "kind": "light",
+     "w": 40,
+     "h": 2
+    }
+   ],
+   "phases": [
+    {
+     "t": "The Pompeians wait on the slope",
+     "text": "Gnaeus Pompeius had 13 legions, many of them raw or ex-Caesarian, with 6,000 cavalry and as many light troops; Caesar had 8 legions and 8,000 cavalry (Bellum Hispaniense 30). The Pompeians formed on a ridge in front of Munda, with a stream and soft ground at its foot. Caesar expected them to come down to the plain; they did not, so he had to attack uphill. X legion held his right, III and V his left.",
+     "pos": {
+      "c_bogud": [
+       8,
+       46,
+       0
+      ],
+      "c_left": [
+       26,
+       46,
+       0
+      ],
+      "c_centre": [
+       50,
+       46,
+       0
+      ],
+      "c_x": [
+       74,
+       46,
+       0
+      ],
+      "c_cav_r": [
+       90,
+       46,
+       0
+      ],
+      "p_right": [
+       22,
+       18,
+       0
+      ],
+      "p_shift": [
+       32,
+       18,
+       0
+      ],
+      "p_centre": [
+       50,
+       18,
+       0
+      ],
+      "p_left": [
+       74,
+       18,
+       0
+      ],
+      "p_lab": [
+       14,
+       10,
+       0
+      ],
+      "p_light": [
+       50,
+       26,
+       0
+      ]
+     }
+    },
+    {
+     "t": "The fight on the slope",
+     "text": "The Caesarians crossed the soft ground and attacked up the slope. The fighting was even for hours, and at one point the Caesarians began to give ground. The sources say Caesar dismounted, went into the front rank and shamed his men, and later said that he had often fought for victory but at Munda for the first time for his life (Plutarch, Caesar 56; Appian 2.104).",
+     "pos": {
+      "c_bogud": [
+       8,
+       38,
+       0
+      ],
+      "c_left": [
+       26,
+       30,
+       0
+      ],
+      "c_centre": [
+       50,
+       30,
+       0
+      ],
+      "c_x": [
+       74,
+       30,
+       0
+      ],
+      "c_cav_r": [
+       90,
+       38,
+       0
+      ],
+      "p_right": [
+       22,
+       24,
+       0
+      ],
+      "p_shift": [
+       32,
+       24,
+       0
+      ],
+      "p_centre": [
+       50,
+       24,
+       0
+      ],
+      "p_left": [
+       74,
+       24,
+       0
+      ],
+      "p_lab": [
+       14,
+       10,
+       0
+      ],
+      "p_light": [
+       50,
+       26,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        50,
+        42
+       ],
+       "to": [
+        50,
+        33
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        50,
+        21
+       ],
+       "to": [
+        50,
+        26
+       ],
+       "side": 1
+      }
+     ],
+     "hidden": [
+      "p_light"
+     ]
+    },
+    {
+     "t": "The Tenth presses; Gnaeus shifts a legion",
+     "text": "Legion X began to push back the Pompeian left. To stop it, Gnaeus took a legion from his right and marched it across behind his line, weakening the right just as Caesar's cavalry on that side began to threaten it. King Bogud's Mauretanian horse rode round the Pompeian right towards the camp.",
+     "pos": {
+      "c_bogud": [
+       6,
+       22,
+       0
+      ],
+      "c_left": [
+       24,
+       29,
+       0
+      ],
+      "c_centre": [
+       50,
+       30,
+       0
+      ],
+      "c_x": [
+       74,
+       26,
+       0
+      ],
+      "c_cav_r": [
+       90,
+       38,
+       0
+      ],
+      "p_right": [
+       22,
+       24,
+       0
+      ],
+      "p_shift": [
+       84,
+       12,
+       0
+      ],
+      "p_centre": [
+       50,
+       24,
+       0
+      ],
+      "p_left": [
+       74,
+       20,
+       0
+      ],
+      "p_lab": [
+       14,
+       10,
+       0
+      ],
+      "p_light": [
+       50,
+       26,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        32,
+        20
+       ],
+       "to": [
+        82,
+        12
+       ],
+       "side": 1
+      },
+      {
+       "from": [
+        8,
+        36
+       ],
+       "to": [
+        6,
+        26
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        74,
+        30
+       ],
+       "to": [
+        74,
+        28
+       ],
+       "side": 0
+      }
+     ],
+     "hidden": [
+      "p_light"
+     ]
+    },
+    {
+     "t": "Labienus' move is mistaken for flight",
+     "text": "Labienus led five cohorts away from the line to meet Bogud's cavalry. The Pompeians took the movement for the start of a retreat, and their line gave way. Caesar's men broke through. The Bellum Hispaniense gives 30,000 Pompeian dead, including Labienus and Attius Varus, against about 1,000 Caesarians; the survivors were besieged in Munda, whose ramparts, the author says, were built of corpses and weapons. Gnaeus escaped and was hunted down and killed weeks later; his brother Sextus survived to fight on for ten years.",
+     "pos": {
+      "c_bogud": [
+       6,
+       18,
+       0
+      ],
+      "c_left": [
+       24,
+       22,
+       0
+      ],
+      "c_centre": [
+       50,
+       20,
+       0
+      ],
+      "c_x": [
+       76,
+       20,
+       0
+      ],
+      "c_cav_r": [
+       92,
+       22,
+       0
+      ],
+      "p_right": [
+       22,
+       14,
+       0
+      ],
+      "p_shift": [
+       88,
+       14,
+       0
+      ],
+      "p_centre": [
+       50,
+       12,
+       0
+      ],
+      "p_left": [
+       76,
+       12,
+       0
+      ],
+      "p_lab": [
+       8,
+       12,
+       0
+      ],
+      "p_light": [
+       50,
+       26,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        14,
+        10
+       ],
+       "to": [
+        10,
+        12
+       ],
+       "side": 1
+      },
+      {
+       "from": [
+        50,
+        26
+       ],
+       "to": [
+        50,
+        22
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        50,
+        10
+       ],
+       "to": [
+        50,
+        6
+       ],
+       "side": 1,
+       "kind": "retreat"
+      }
+     ],
+     "hidden": [
+      "p_light"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "a": "Anonymous",
+     "w": "Bellum Hispaniense",
+     "r": "27-32"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Caesar",
+     "r": "56"
+    },
+    {
+     "a": "Appian",
+     "w": "Civil Wars",
+     "r": "2.103-105"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "43.35-40"
+    }
+   ],
+   "note": "The Bellum Hispaniense is badly written and textually corrupt; Dio supplies the Labienus and Bogud episode in a somewhat different form. The site of Munda is disputed (near Montilla, Osuna or La Lantejuela). The shifting of a legion and the cavalry movement are reconstructed from Dio 43.38 and Bell. Hisp. 31; the phases are schematic.",
+   "scholarship": [
+    "Goldsworthy, Caesar: Life of a Colossus (2006)",
+    "Pascucci (ed.), Bellum Hispaniense (1965)"
+   ]
+  },
+  {
+   "event": "battle_of_philippi_first",
+   "title": "First Philippi: each side takes a camp",
+   "terrain": [
+    {
+     "kind": "marsh",
+     "pts": [
+      [
+       0,
+       46
+      ],
+      [
+       40,
+       44
+      ],
+      [
+       70,
+       46
+      ],
+      [
+       100,
+       44
+      ],
+      [
+       100,
+       60
+      ],
+      [
+       0,
+       60
+      ]
+     ],
+     "label": "marsh"
+    },
+    {
+     "kind": "ridge",
+     "pts": [
+      [
+       0,
+       4
+      ],
+      [
+       40,
+       6
+      ],
+      [
+       70,
+       3
+      ],
+      [
+       100,
+       6
+      ]
+     ],
+     "label": "Pangaion and Lekani foothills"
+    },
+    {
+     "kind": "road",
+     "pts": [
+      [
+       0,
+       26
+      ],
+      [
+       50,
+       26
+      ],
+      [
+       100,
+       25
+      ]
+     ],
+     "label": "Via Egnatia"
+    },
+    {
+     "kind": "town",
+     "cx": 96,
+     "cy": 20,
+     "r": 2.5,
+     "label": "Philippi"
+    },
+    {
+     "kind": "wall",
+     "pts": [
+      [
+       74,
+       8
+      ],
+      [
+       74,
+       44
+      ]
+     ],
+     "label": "Republican fortified line"
+    }
+   ],
+   "north": 0,
+   "scaleNote": "ground c. 6 km across; schematic",
+   "units": [
+    {
+     "id": "t_oct",
+     "side": 0,
+     "label": "Octavian's legions",
+     "kind": "infantry",
+     "w": 12,
+     "h": 5
+    },
+    {
+     "id": "t_ant",
+     "side": 0,
+     "label": "Antony's legions",
+     "kind": "infantry",
+     "w": 10,
+     "h": 6
+    },
+    {
+     "id": "t_causeway",
+     "side": 0,
+     "label": "Antony's causeway party",
+     "kind": "infantry",
+     "w": 10,
+     "h": 3
+    },
+    {
+     "id": "t_oct_camp",
+     "side": 0,
+     "label": "Octavian's camp",
+     "kind": "camp",
+     "w": 8,
+     "h": 6
+    },
+    {
+     "id": "t_ant_camp",
+     "side": 0,
+     "label": "Antony's camp",
+     "kind": "camp",
+     "w": 8,
+     "h": 6
+    },
+    {
+     "id": "r_brutus",
+     "side": 1,
+     "label": "Brutus' legions",
+     "kind": "infantry",
+     "w": 12,
+     "h": 5
+    },
+    {
+     "id": "r_cassius",
+     "side": 1,
+     "label": "Cassius' legions",
+     "kind": "infantry",
+     "w": 12,
+     "h": 5
+    },
+    {
+     "id": "r_wall",
+     "side": 1,
+     "label": "Cassius' cross-wall party",
+     "kind": "infantry",
+     "w": 8,
+     "h": 3
+    },
+    {
+     "id": "r_b_camp",
+     "side": 1,
+     "label": "Brutus' camp",
+     "kind": "camp",
+     "w": 8,
+     "h": 6
+    },
+    {
+     "id": "r_c_camp",
+     "side": 1,
+     "label": "Cassius' camp",
+     "kind": "camp",
+     "w": 8,
+     "h": 6
+    }
+   ],
+   "phases": [
+    {
+     "t": "Positions and the causeway",
+     "text": "The Liberators had chosen strong ground west of Philippi: Brutus' camp on a hill north of the Via Egnatia, Cassius' on a hill to the south, joined by a fortified line running from the mountains to the marsh. They had the sea and their fleet behind them; the triumvirs, camped on the open plain to the west, were short of supplies. Antony, opposite Cassius, spent ten days secretly building a causeway through the reeds of the marsh to get round Cassius' southern flank and cut him from the sea (Appian 4.107-109).",
+     "pos": {
+      "t_oct": [
+       52,
+       16,
+       90
+      ],
+      "t_ant": [
+       52,
+       36,
+       90
+      ],
+      "t_causeway": [
+       58,
+       50,
+       0
+      ],
+      "t_oct_camp": [
+       36,
+       16,
+       0
+      ],
+      "t_ant_camp": [
+       36,
+       36,
+       0
+      ],
+      "r_brutus": [
+       68,
+       16,
+       90
+      ],
+      "r_cassius": [
+       68,
+       36,
+       90
+      ],
+      "r_wall": [
+       80,
+       50,
+       0
+      ],
+      "r_b_camp": [
+       84,
+       16,
+       0
+      ],
+      "r_c_camp": [
+       84,
+       36,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        48,
+        50
+       ],
+       "to": [
+        70,
+        52
+       ],
+       "side": 0
+      }
+     ],
+     "hidden": [
+      "r_wall"
+     ]
+    },
+    {
+     "t": "Cassius' cross-wall; two attacks begin",
+     "text": "When Cassius discovered the causeway he built a cross-wall through the marsh to cut it. Antony attacked the cross-wall and then made straight for the fortifications in front of Cassius' camp. At the same moment Brutus' legions, without orders, threw themselves on Octavian's army opposite them.",
+     "pos": {
+      "t_oct": [
+       52,
+       16,
+       90
+      ],
+      "t_ant": [
+       62,
+       38,
+       90
+      ],
+      "t_causeway": [
+       62,
+       50,
+       0
+      ],
+      "t_oct_camp": [
+       36,
+       16,
+       0
+      ],
+      "t_ant_camp": [
+       36,
+       36,
+       0
+      ],
+      "r_brutus": [
+       60,
+       16,
+       90
+      ],
+      "r_cassius": [
+       68,
+       38,
+       90
+      ],
+      "r_wall": [
+       70,
+       50,
+       0
+      ],
+      "r_b_camp": [
+       84,
+       16,
+       0
+      ],
+      "r_c_camp": [
+       84,
+       36,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        54,
+        36
+       ],
+       "to": [
+        60,
+        38
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        70,
+        16
+       ],
+       "to": [
+        62,
+        16
+       ],
+       "side": 1
+      }
+     ]
+    },
+    {
+     "t": "Brutus takes Octavian's camp; Antony takes Cassius'",
+     "text": "Brutus' men routed three of Octavian's legions and plundered his camp. Octavian was not there: by his own account he was ill and had been warned in a dream to leave; Pliny says he hid in the marsh for three days. Meanwhile Antony broke through the defences, scattered Cassius' troops and stormed his camp. Each army had won on one wing and lost on the other.",
+     "pos": {
+      "t_oct": [
+       20,
+       10,
+       90
+      ],
+      "t_ant": [
+       79,
+       38,
+       90
+      ],
+      "t_causeway": [
+       70,
+       46,
+       0
+      ],
+      "t_oct_camp": [
+       36,
+       16,
+       0
+      ],
+      "t_ant_camp": [
+       36,
+       36,
+       0
+      ],
+      "r_brutus": [
+       45,
+       16,
+       90
+      ],
+      "r_cassius": [
+       90,
+       32,
+       90
+      ],
+      "r_wall": [
+       76,
+       52,
+       0
+      ],
+      "r_b_camp": [
+       84,
+       16,
+       0
+      ],
+      "r_c_camp": [
+       84,
+       36,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        58,
+        16
+       ],
+       "to": [
+        48,
+        16
+       ],
+       "side": 1
+      },
+      {
+       "from": [
+        48,
+        16
+       ],
+       "to": [
+        24,
+        10
+       ],
+       "side": 0,
+       "kind": "retreat"
+      },
+      {
+       "from": [
+        64,
+        38
+       ],
+       "to": [
+        76,
+        38
+       ],
+       "side": 0
+      },
+      {
+       "from": [
+        80,
+        36
+       ],
+       "to": [
+        88,
+        32
+       ],
+       "side": 1,
+       "kind": "retreat"
+      }
+     ],
+     "hidden": [
+      "r_wall"
+     ]
+    },
+    {
+     "t": "The death of Cassius",
+     "text": "Cassius, who had retreated with a few men to a hill near Philippi and could not see clearly through the dust (Plutarch says he was short-sighted), saw horsemen approaching. They were cavalry sent by Brutus under Titinius, but he took them for the enemy and had his freedman Pindarus kill him. Plutarch puts the losses at 8,000 on the Liberators' side and twice as many on the triumvirs'. Both armies went back to their camps. On the same day the Liberators' fleet destroyed triumviral reinforcements crossing the Adriatic, but Brutus did not learn of it in time. He fought and lost the second battle three weeks later.",
+     "pos": {
+      "t_oct": [
+       44,
+       16,
+       90
+      ],
+      "t_ant": [
+       54,
+       36,
+       90
+      ],
+      "t_causeway": [
+       60,
+       50,
+       0
+      ],
+      "t_oct_camp": [
+       36,
+       16,
+       0
+      ],
+      "t_ant_camp": [
+       36,
+       36,
+       0
+      ],
+      "r_brutus": [
+       66,
+       16,
+       90
+      ],
+      "r_cassius": [
+       92,
+       28,
+       90
+      ],
+      "r_wall": [
+       76,
+       52,
+       0
+      ],
+      "r_b_camp": [
+       84,
+       16,
+       0
+      ],
+      "r_c_camp": [
+       84,
+       36,
+       0
+      ]
+     },
+     "arrows": [
+      {
+       "from": [
+        78,
+        18
+       ],
+       "to": [
+        90,
+        26
+       ],
+       "side": 1
+      },
+      {
+       "from": [
+        40,
+        16
+       ],
+       "to": [
+        64,
+        16
+       ],
+       "side": 1
+      },
+      {
+       "from": [
+        76,
+        36
+       ],
+       "to": [
+        58,
+        36
+       ],
+       "side": 0
+      }
+     ],
+     "hidden": [
+      "r_wall"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "a": "Appian",
+     "w": "Civil Wars",
+     "r": "4.105-114"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Brutus",
+     "r": "38-45"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Antony",
+     "r": "22"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "47.42-46"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Natural History",
+     "r": "7.148"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Augustus",
+     "r": "13, 91"
+    }
+   ],
+   "note": "Reconstruction after Appian, who gives the clearest topography, with Plutarch (who used Messalla and Volumnius, both with Brutus). The camps west of Philippi astride the Via Egnatia are located; the line of the causeway and cross-wall is not. The drawing faces north, with the triumvirs to the west (left). The second battle of Philippi (23 October 42) is a separate event.",
+   "scholarship": [
+    "Collart, Philippes, ville de Macédoine (1937)",
+    "Pelling, Plutarch: Life of Antony (1988)"
+   ]
+  }
+ ]
+}
