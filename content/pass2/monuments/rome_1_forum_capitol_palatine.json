@@ -1,2262 +1,2262 @@
 {
-"monuments": [
-{
-"id": "forum_romanum",
-"name": "Forum Romanum",
-"city": "rome",
-"loc": [
-12.4853,
-41.8925
-],
-"built": -600,
-"begun": -650,
-"builder": null,
-"builderName": "communal; repaved by Sulla and Augustus",
-"phases": [
-{
-"y": -80,
-"t": "Sulla raises and repaves the square"
-},
-{
-"y": -44,
-"t": "Caesar reorganises the NW end around a new Curia and Rostra"
-},
-{
-"y": 283,
-"t": "fire under Carinus; Diocletianic rebuilding with honorific columns"
-},
-{
-"y": 608,
-"t": "Column of Phocas, last monument erected"
-}
-],
-"destroyed": null,
-"type": "forum",
-"summary": "A marshy valley between Palatine and Capitol, drained by the Cloaca and first paved in beaten earth and then pebbles in the late 7th century BC, when the huts gave way to a public square. Every phase of Roman politics happened here: the comitia met in the Comitium at its NW corner, triumphs climbed the Sacra Via, the plebs rioted round the Rostra, and Clodius' body was burned in the Curia. Sulla raised and repaved it in travertine; Caesar reoriented it on a new Curia and moved the Rostra, and Augustus finished the job, framing the square with the Basilicae Aemilia and Julia and closing its SE end with the temple of his deified father. The fire of 283 under Carinus led to a Diocletianic rebuilding (the five honorific columns along the south side), and the last monument added was the Column of Phocas in 608. The square itself was never larger than about 120 by 50 m.",
-"event": "draining_of_the_forum",
-"footprint": [
-[
-12.4858,
-41.892
-],
-[
-12.4861,
-41.8924
-],
-[
-12.4848,
-41.893
-],
-[
-12.4845,
-41.8926
-],
-[
-12.4858,
-41.892
-]
-]
-},
-{
-"id": "comitium",
-"name": "Comitium",
-"city": "rome",
-"loc": [
-12.485,
-41.8929
-],
-"built": -600,
-"begun": -650,
-"builder": null,
-"phases": [
-{
-"y": -338,
-"t": "Rostra decorated with the beaks of Antium"
-},
-{
-"y": -145,
-"t": "tribune C. Licinius Crassus first turns to address the people in the Forum instead of the Comitium"
-},
-{
-"y": -44,
-"t": "covered by Caesar's new Curia and Forum layout"
-}
-],
-"destroyed": null,
-"type": "other",
-"summary": "The consecrated assembly space in front of the Senate house where the curiate and early tribal assemblies met, magistrates spoke from the Rostra, and the Twelve Tables were displayed on bronze. Boni's excavations found more than twenty superimposed pavements from the 7th century BC onward. Coarelli reconstructs a 3rd-century BC circular stepped arena like the ekklesiasteria of Paestum and Agrigento; Carafa and Amici argue the steps were straight. Here stood the fig tree Ruminalis (moved by Attus Navius), the statue of Marsyas, the column of Maenius and the Graecostasis for foreign envoys. Caesar's rebuilding of the Curia from 44 BC buried most of it, and voting moved to the Saepta in the Campus Martius.",
-"event": "rostra_and_column_of_maenius"
-},
-{
-"id": "lapis_niger",
-"name": "Lapis Niger and Volcanal",
-"city": "rome",
-"loc": [
-12.4849,
-41.893
-],
-"built": -570,
-"begun": null,
-"builder": null,
-"phases": [
-{
-"y": -80,
-"t": "archaic shrine buried and marked with black marble during repaving"
-},
-{
-"y": 1899,
-"t": "excavated by Boni"
-}
-],
-"destroyed": null,
-"type": "other",
-"summary": "A square of black marble set into the Comitium pavement in the late Republic over an archaic sanctuary that Festus calls a place of ill omen, said to be the tomb of Romulus, of Faustulus or of Hostus Hostilius. Giacomo Boni found beneath it in 1899 an altar, a truncated cone and a tufa cippus with the oldest substantial Latin inscription (c. 570-550 BC), written boustrophedon, that mentions a RECEI (king) and a kalator (herald), likely a sacred law. The complex was ritually buried, probably in the Sullan or Caesarian repaving, which is when the black stone was laid to mark it."
-},
-{
-"id": "curia_hostilia",
-"name": "Curia Hostilia",
-"city": "rome",
-"loc": [
-12.4851,
-41.8932
-],
-"built": -600,
-"begun": null,
-"builder": null,
-"builderName": "traditionally Tullus Hostilius; enlarged by Sulla",
-"phases": [
-{
-"y": -80,
-"t": "enlarged by Sulla"
-},
-{
-"y": -52,
-"t": "burned with Clodius' corpse"
-},
-{
-"y": -44,
-"t": "demolished by Caesar"
-}
-],
-"destroyed": -44,
-"type": "other",
-"summary": "The old Senate house, attributed to King Tullus Hostilius, facing south onto the Comitium. Sulla enlarged it in 80 BC when he doubled the Senate to 600. In January 52 BC the supporters of the murdered Clodius carried his body inside and burned it on a pyre of benches and records, destroying the building and the adjoining Basilica Porcia. Faustus Sulla rebuilt it, but Caesar demolished it within a few years to make way for the temple of Felicitas and his own new Curia on a different alignment. Its exact footprint is unknown; it probably lay under the church of Santi Luca e Martina.",
-"event": "murder_of_clodius",
-"certainty": "location approximate"
-},
-{
-"id": "curia_iulia",
-"name": "Curia Iulia",
-"city": "rome",
-"loc": [
-12.4853,
-41.8932
-],
-"built": -29,
-"begun": -44,
-"builder": "julius_caesar",
-"builderName": "Caesar; completed by Augustus; rebuilt by Diocletian",
-"phases": [
-{
-"y": 94,
-"t": "restored by Domitian"
-},
-{
-"y": 283,
-"t": "burned under Carinus"
-},
-{
-"y": 300,
-"t": "rebuilt by Diocletian (present building)"
-},
-{
-"y": 357,
-"t": "Altar of Victory removed by Constantius II"
-},
-{
-"y": 382,
-"t": "Altar removed again by Gratian"
-},
-{
-"y": 384,
-"t": "Symmachus' Relatio III pleads for its return"
-},
-{
-"y": 630,
-"t": "converted into the church of Sant'Adriano by Honorius I"
-}
-],
-"destroyed": null,
-"type": "other",
-"summary": "The Senate house begun by Caesar in 44 BC and dedicated by Octavian on 28 August 29 BC, when he installed the Altar and statue of Victory taken from Tarentum. The present brick building, about 25 by 18 m and 21 m high inside, is the rebuilding by Diocletian after the fire of 283 under Carinus, with its original marble floor of opus sectile and the stepped platforms for about 300 senators' chairs. The Altar of Victory became the flashpoint of late paganism: removed by Constantius II in 357, restored, removed again by Gratian in 382, and defended in vain by Symmachus in his third Relatio of 384 against Ambrose. Pope Honorius I made it the church of Sant'Adriano around 630, which is why it survived; Mussolini's restorers stripped the church away in 1930-36.",
-"footprint": [
-[
-12.4852,
-41.893
-],
-[
-12.4854,
-41.8928
-],
-[
-12.4856,
-41.8929
-],
-[
-12.4856,
-41.893
-],
-[
-12.4854,
-41.8931
-],
-[
-12.4853,
-41.893
-],
-[
-12.4852,
-41.893
-]
-]
-},
-{
-"id": "rostra",
-"name": "Rostra",
-"city": "rome",
-"loc": [
-12.4847,
-41.8927
-],
-"built": -338,
-"begun": null,
-"builder": "julius_caesar",
-"builderName": "Republican Rostra from 338 BC; moved by Caesar 44 BC",
-"phases": [
-{
-"y": -338,
-"t": "beaks of Antium attached"
-},
-{
-"y": -44,
-"t": "rebuilt by Caesar at the NW end of the Forum"
-},
-{
-"y": -43,
-"t": "Cicero's head and hands displayed"
-},
-{
-"y": 470,
-"t": "Rostra Vandalica extension by Junius Valentinus"
-}
-],
-"destroyed": null,
-"type": "other",
-"summary": "The speakers' platform, named for the bronze beaks (rostra) of the Antiate fleet nailed to it by C. Maenius in 338 BC. The Republican Rostra stood on the edge of the Comitium; Caesar moved it in 44 BC to the NW end of the Forum on the axis of the square, and it was finished after his death (Rostra Augusti), 24 m long and 3 m high with a curved rear stair. Cicero's head and hands were nailed here in December 43 BC on Antony's order. The northern extension added about 470 by the urban prefect Junius Valentinus to celebrate a naval victory over the Vandals is called the Rostra Vandalica. Statues of honour crowded it until late antiquity.",
-"event": "rostra_and_column_of_maenius"
-},
-{
-"id": "carcer_tullianum",
-"name": "Carcer Tullianum",
-"city": "rome",
-"loc": [
-12.4846,
-41.8933
-],
-"built": -600,
-"begun": null,
-"builder": null,
-"phases": [
-{
-"y": -104,
-"t": "death of Jugurtha"
-},
-{
-"y": -63,
-"t": "execution of the Catilinarians"
-},
-{
-"y": -46,
-"t": "execution of Vercingetorix"
-},
-{
-"y": 22,
-"t": "façade rebuilt (consuls Vibius Rufinus and Cocceius Nerva)"
-},
-{
-"y": 71,
-"t": "execution of Simon bar Giora"
-}
-],
-"destroyed": null,
-"type": "other",
-"summary": "Rome's state prison under the Capitol: an upper trapezoidal chamber and below it the Tullianum, a circular chamber originally reached only through a hole in the floor, probably an archaic cistern or spring house (tullius = spring). It was a place of execution, not detention: Jugurtha starved to death here in 104 BC, the Catilinarian conspirators were strangled on 5 December 63 BC, Vercingetorix was killed after Caesar's triumph of 46 BC, and Simon bar Giora after the Flavian triumph of 71. The façade inscription names the consuls C. Vibius Rufinus and M. Cocceius Nerva (suffect AD 21 or 22). Medieval legend placed St Peter's imprisonment here, and it became San Pietro in Carcere."
-},
-{
-"id": "temple_of_saturn",
-"name": "Temple of Saturn",
-"city": "rome",
-"loc": [
-12.4842,
-41.8925
-],
-"built": -497,
-"begun": null,
-"builder": null,
-"builderName": "consul of 497 BC (tradition varies); rebuilt by L. Munatius Plancus",
-"phases": [
-{
-"y": -49,
-"t": "Caesar seizes the treasury"
-},
-{
-"y": -42,
-"t": "rebuilt by Munatius Plancus"
-},
-{
-"y": 283,
-"t": "damaged in the fire under Carinus"
-},
-{
-"y": 380,
-"t": "restored after a fire (inscription; date c. 360-390)"
-}
-],
-"destroyed": null,
-"type": "temple",
-"summary": "One of the oldest temples in Rome, dedicated in 498 or 497 BC (the sources disagree on the dedicator). Its high podium housed the aerarium Saturni, the state treasury and archive, where in 49 BC Caesar forced the doors against the tribune L. Metellus and took 15,000 gold bars, 30,000 silver bars and 30 million sesterces (Pliny NH 33.56). L. Munatius Plancus rebuilt it from his Alpine spoils in 42 BC. The eight surviving columns, granite shafts of unequal length set on recycled bases, belong to a late-4th-century restoration recorded by the frieze: Senatus populusque Romanus incendio consumptum restituit. The Saturnalia began here on 17 December, when the woollen bonds on the cult statue's feet were loosed.",
-"event": "temple_of_saturn_497",
-"footprint": [
-[
-12.4838,
-41.8923
-],
-[
-12.4841,
-41.8922
-],
-[
-12.4843,
-41.8925
-],
-[
-12.4842,
-41.8925
-],
-[
-12.4841,
-41.8926
-],
-[
-12.4839,
-41.8924
-],
-[
-12.4838,
-41.8923
-]
-]
-},
-{
-"id": "temple_of_concord",
-"name": "Temple of Concord",
-"city": "rome",
-"loc": [
-12.4843,
-41.893
-],
-"built": -367,
-"begun": null,
-"builder": "marcus_furius_camillus",
-"builderName": "vowed by Camillus; rebuilt by Opimius and by Tiberius",
-"phases": [
-{
-"y": -121,
-"t": "rebuilt by Opimius after the death of Gaius Gracchus"
-},
-{
-"y": -63,
-"t": "Senate debates the fate of the Catilinarians"
-},
-{
-"y": 10,
-"t": "rededicated by Tiberius as Concordia Augusta"
-},
-{
-"y": 1450,
-"t": "burned for lime"
-}
-],
-"destroyed": 1450,
-"type": "temple",
-"summary": "Vowed, according to Ovid and Plutarch, by Camillus in 367 BC to mark the Licinio-Sextian compromise between patricians and plebeians, though the early temple is archaeologically elusive. L. Opimius rebuilt it in 121 BC after massacring Gaius Gracchus and 3,000 followers, and someone scrawled on it at night 'the work of madness makes the temple of concord'. Cicero convened the Senate here on 5 December 63 BC for the debate on the Catilinarians. Tiberius rebuilt it from German spoils as the Aedes Concordiae Augustae, dedicated 16 January AD 10, with an unusual transverse cella 45 m wide that became a museum of Greek masterpieces. Its marble was burned for lime in the 1450s.",
-"event": "temple_of_concord_367"
-},
-{
-"id": "temple_of_vespasian",
-"name": "Temple of Divus Vespasianus",
-"city": "rome",
-"loc": [
-12.484,
-41.8928
-],
-"built": 87,
-"begun": 79,
-"builder": "titus",
-"builderName": "Titus and Domitian",
-"phases": [
-{
-"y": 205,
-"t": "restored by Septimius Severus and Caracalla"
-},
-{
-"y": 1811,
-"t": "columns consolidated by Valadier"
-}
-],
-"destroyed": null,
-"type": "temple",
-"summary": "Begun by Titus after his father's death in 79 and finished by Domitian, who added Titus to the dedication; it was squeezed between the Temple of Concord and the Tabularium, so its staircase had to run inside the columns. Three Corinthian columns with an entablature carved with sacrificial instruments survive. The surviving fragment of inscription [rest]ITVER[unt] records a restoration by Septimius Severus and Caracalla. The columns were consolidated by Valadier in 1811-12 when they were buried to two thirds of their height."
-},
-{
-"id": "porticus_deorum_consentium",
-"name": "Porticus Deorum Consentium",
-"city": "rome",
-"loc": [
-12.4838,
-41.8926
-],
-"built": 90,
-"begun": null,
-"builder": null,
-"phases": [
-{
-"y": 367,
-"t": "restored by Vettius Agorius Praetextatus"
-},
-{
-"y": 1858,
-"t": "columns re-erected"
-}
-],
-"destroyed": null,
-"type": "temple",
-"summary": "A colonnaded shrine at the foot of the Tabularium housing gilded statues of the twelve Di Consentes, the Etruscan-Roman council of gods (six male, six female) listed by Ennius. The Flavian structure was restored in 367 by the urban prefect Vettius Agorius Praetextatus, the leading pagan senator of his day, as the inscription proudly states: the last public restoration of a pagan cult monument in Rome, a decade before Gratian's anti-pagan measures. Nine columns were re-erected in 1858."
-},
-{
-"id": "tabularium",
-"name": "Tabularium",
-"city": "rome",
-"loc": [
-12.4837,
-41.8929
-],
-"built": -78,
-"begun": null,
-"builder": null,
-"builderName": "Q. Lutatius Catulus (cos. 78 BC)",
-"phases": [
-{
-"y": 1143,
-"t": "Palazzo Senatorio built over it"
-}
-],
-"destroyed": null,
-"type": "other",
-"summary": "The massive substructure closing the Forum's west end against the Capitoline saddle, built after the fire of 83 BC by Q. Lutatius Catulus (consul 78) and inscribed as substructio et tabularium (CIL VI 1314). Its function is debated: the traditional view is the state record office for bronze laws; others see a monumental terrace for Capitoline temples (Veiovis lay partly within it). Its Doric arcade framed with half columns is an early example of the Roman arch-and-order system. The Palazzo Senatorio was built on top from the 12th century and refaced by Michelangelo, making it the seat of Rome's city government ever since."
-},
-{
-"id": "temple_of_veiovis",
-"name": "Temple of Veiovis",
-"city": "rome",
-"loc": [
-12.4831,
-41.8929
-],
-"built": -192,
-"begun": null,
-"builder": null,
-"builderName": "L. Furius Purpureus",
-"phases": [
-{
-"y": -78,
-"t": "rebuilt with the Tabularium"
-},
-{
-"y": 1939,
-"t": "cult statue found in situ"
-}
-],
-"destroyed": null,
-"type": "temple",
-"summary": "Vowed in 200 BC by the praetor L. Furius Purpureus during the battle against the Gauls at Cremona and dedicated in 192 BC in the hollow between the two peaks of the Capitol (inter duos lucos), the old asylum of Romulus. Veiovis was a young, sinister Jupiter, shown with arrows and a goat. The temple was rebuilt around 78 BC with the Tabularium and has an unusual transverse cella. Excavations in 1939 found the headless marble cult statue in place.",
-"certainty": "dating of the vow and dedication follows Livy 31.21 and 35.41"
-},
-{
-"id": "basilica_aemilia",
-"name": "Basilica Aemilia (Fulvia)",
-"city": "rome",
-"loc": [
-12.4861,
-41.8926
-],
-"built": -179,
-"begun": null,
-"builder": "marcus_aemilius_lepidus_cos187",
-"builderName": "censors M. Aemilius Lepidus and M. Fulvius Nobilior",
-"phases": [
-{
-"y": -55,
-"t": "rebuilt by L. Aemilius Paullus with Caesar's money"
-},
-{
-"y": -34,
-"t": "dedicated by Paullus Aemilius Lepidus"
-},
-{
-"y": -14,
-"t": "fire; Augustan rebuilding with the Porticus of Gaius and Lucius"
-},
-{
-"y": 22,
-"t": "restored by M. Aemilius Lepidus (Tac. Ann. 3.72)"
-},
-{
-"y": 410,
-"t": "burned in Alaric's sack"
-}
-],
-"destroyed": 410,
-"type": "basilica",
-"summary": "Built in 179 BC by the censors M. Aemilius Lepidus and M. Fulvius Nobilior behind a row of shops on the north side of the Forum, it became a family monument of the Aemilii. L. Aemilius Paullus (consul 50) rebuilt it from 55 BC with Caesar's Gallic money (the bribe that bought his neutrality), and his son dedicated it in 34 BC. After a fire in 14 BC Augustus rebuilt it with a two-storey façade named the Porticus of Gaius and Lucius; Pliny ranked it among the three most beautiful buildings in the world. It burned in Alaric's sack of 410: bronze coins melted into the pavement are still visible. A Corinthian portico was set up in front after 410, and the basilica was stripped in the Renaissance.",
-"event": "censorship_of_lepidus_and_nobilior",
-"footprint": [
-[
-12.4855,
-41.8928
-],
-[
-12.4855,
-41.8927
-],
-[
-12.486,
-41.8925
-],
-[
-12.4865,
-41.8923
-],
-[
-12.4867,
-41.8925
-],
-[
-12.4857,
-41.8929
-],
-[
-12.4855,
-41.8928
-]
-]
-},
-{
-"id": "basilica_iulia",
-"name": "Basilica Julia",
-"city": "rome",
-"loc": [
-12.4847,
-41.892
-],
-"built": -46,
-"begun": -54,
-"builder": "julius_caesar",
-"builderName": "Caesar; completed by Augustus",
-"phases": [
-{
-"y": -46,
-"t": "dedicated unfinished"
-},
-{
-"y": 12,
-"t": "rebuilt and rededicated by Augustus"
-},
-{
-"y": 283,
-"t": "fire under Carinus; Diocletianic rebuilding"
-},
-{
-"y": 377,
-"t": "statues added by Gabinius Vettius Probianus"
-}
-],
-"destroyed": null,
-"type": "basilica",
-"summary": "Begun by Caesar in 54 BC over the Basilica Sempronia and dedicated unfinished in 46 BC; burned soon after, it was rebuilt and enlarged by Augustus, who in the Res Gestae (20) named it for his grandsons Gaius and Lucius and completed by AD 12. At 101 by 49 m with a central hall surrounded by double aisles, it housed the centumviral court, sitting in four sections; Pliny the Younger describes pleading here to packed galleries. Gaming boards and sketches scratched by idlers survive on its steps. Burned again in 283, it was restored by Diocletian and again in 377 by the urban prefect Gabinius Vettius Probianus, who set up statues on its front.",
-"footprint": [
-[
-12.4841,
-41.892
-],
-[
-12.4852,
-41.8915
-],
-[
-12.4855,
-41.892
-],
-[
-12.4843,
-41.8924
-],
-[
-12.4841,
-41.892
-]
-]
-},
-{
-"id": "basilica_sempronia",
-"name": "Basilica Sempronia",
-"city": "rome",
-"loc": [
-12.4847,
-41.892
-],
-"built": -169,
-"begun": null,
-"builder": "tiberius_sempronius_gracchus_cos177",
-"phases": [
-{
-"y": -54,
-"t": "demolished for the Basilica Julia"
-}
-],
-"destroyed": -54,
-"type": "basilica",
-"summary": "Built in 169 BC by the censor Ti. Sempronius Gracchus, father of the tribunes, who bought and demolished the house of Scipio Africanus behind the Tabernae Veteres. It was replaced by Caesar's Basilica Julia; remains of its tufa pavement and earlier houses were found under the later floor."
-},
-{
-"id": "basilica_porcia_mon",
-"name": "Basilica Porcia",
-"city": "rome",
-"loc": [
-12.4847,
-41.8934
-],
-"built": -184,
-"begun": null,
-"builder": "cato_the_elder",
-"phases": [
-{
-"y": -52,
-"t": "burned with the Curia"
-}
-],
-"destroyed": -52,
-"type": "basilica",
-"summary": "Rome's first basilica, built by Cato the Elder as censor in 184 BC on land bought from two private owners beside the Curia, against opposition from the Senate. The tribunes of the plebs used it as their seat. It burned with the Curia Hostilia during Clodius' funeral in January 52 BC and was not rebuilt.",
-"event": "basilica_porcia",
-"certainty": "location approximate"
-},
-{
-"id": "basilica_opimia",
-"name": "Basilica Opimia",
-"city": "rome",
-"loc": [
-12.4846,
-41.8933
-],
-"built": -121,
-"begun": null,
-"builder": "opimius",
-"phases": [],
-"destroyed": null,
-"type": "basilica",
-"summary": "Built by L. Opimius in 121 BC next to his rebuilt Temple of Concord, probably on the site later absorbed by Tiberius' enlargement of that temple. Known only from Varro and a few mentions.",
-"certainty": "location approximate; probably absorbed by Tiberius' rebuilding of the Temple of Concord"
-},
-{
-"id": "temple_of_castor",
-"name": "Temple of Castor and Pollux",
-"city": "rome",
-"loc": [
-12.4856,
-41.8917
-],
-"built": -484,
-"begun": null,
-"builder": "aulus_postumius_albus_regillensis",
-"builderName": "vowed by A. Postumius, dedicated by his son",
-"phases": [
-{
-"y": -117,
-"t": "rebuilt by L. Caecilius Metellus Dalmaticus"
-},
-{
-"y": -75,
-"t": "Verres' fraudulent repair contract"
-},
-{
-"y": 6,
-"t": "rebuilt by Tiberius"
-},
-{
-"y": 39,
-"t": "Caligula makes it the vestibule of the palace"
-}
-],
-"destroyed": null,
-"type": "temple",
-"summary": "Vowed by the dictator A. Postumius at Lake Regillus, where the Dioscuri fought for Rome and then watered their horses at the nearby spring of Juturna, and dedicated by his son in 484 BC. L. Caecilius Metellus Dalmaticus rebuilt it in 117 BC; Verres embezzled a repair contract on its columns in 75 BC. Its podium served as a tribunal for speakers, held the office of weights and measures, and had strongrooms rented as bank deposits. Tiberius rebuilt it in Luna marble, dedicated in AD 6 in his and his brother Drusus' names. Caligula turned it into the vestibule of his palace. The three surviving columns, about 12.5 m tall, have been a landmark of the Forum since the Middle Ages.",
-"event": "temple_of_castor_484",
-"footprint": [
-[
-12.4853,
-41.8915
-],
-[
-12.4857,
-41.8914
-],
-[
-12.4857,
-41.8915
-],
-[
-12.4858,
-41.8914
-],
-[
-12.4858,
-41.8915
-],
-[
-12.4858,
-41.8916
-],
-[
-12.486,
-41.8918
-],
-[
-12.4859,
-41.8918
-],
-[
-12.4858,
-41.8919
-],
-[
-12.4856,
-41.8919
-],
-[
-12.4856,
-41.892
-],
-[
-12.4853,
-41.8915
-]
-]
-},
-{
-"id": "lacus_iuturnae",
-"name": "Lacus Iuturnae",
-"city": "rome",
-"loc": [
-12.486,
-41.8916
-],
-"built": -484,
-"begun": null,
-"builder": null,
-"phases": [
-{
-"y": -117,
-"t": "rebuilt with the temple of Castor"
-},
-{
-"y": 328,
-"t": "statio aquarum installed"
-}
-],
-"destroyed": null,
-"type": "other",
-"summary": "The spring and basin of the nymph Juturna where the Dioscuri were seen watering their horses after Lake Regillus (496) and again after Pydna (168), each time announcing the victory. Rebuilt in the 2nd century BC and under Trajan, it became in the 4th century the office of the water administration (statio aquarum). Pagan statues of the twins were found in the basin, possibly hidden in late antiquity."
-},
-{
-"id": "temple_of_divus_iulius",
-"name": "Temple of Divus Iulius",
-"city": "rome",
-"loc": [
-12.4861,
-41.892
-],
-"built": -29,
-"begun": -42,
-"builder": "augustus",
-"builderName": "voted by the triumvirs; dedicated by Octavian",
-"phases": [
-{
-"y": -44,
-"t": "cremation of Caesar; column and altar"
-},
-{
-"y": -29,
-"t": "dedication"
-}
-],
-"destroyed": null,
-"type": "temple",
-"summary": "Built where Caesar's body was cremated by the crowd on 20 March 44 BC. A column and altar were set up first and removed by Dolabella; the triumvirs voted the temple in 42 BC and Octavian dedicated it on 18 August 29 BC, the first temple in Rome to a deified Roman statesman. The platform in front, decorated with the beaks of ships from Actium, was the Rostra Aedis Divi Iuli, from which Augustus and Tiberius delivered funeral orations. The semicircular niche in the podium front marks the altar on the cremation site; visitors still leave flowers there on the Ides of March."
-},
-{
-"id": "arch_of_augustus_forum",
-"name": "Arch of Augustus (Parthian Arch)",
-"city": "rome",
-"loc": [
-12.4861,
-41.8917
-],
-"built": -19,
-"begun": null,
-"builder": "augustus",
-"phases": [
-{
-"y": -29,
-"t": "Actian arch voted"
-},
-{
-"y": 1546,
-"t": "Fasti fragments found nearby"
-}
-],
-"destroyed": null,
-"type": "arch",
-"summary": "A triple arch between the Temples of Divus Iulius and Castor voted for the diplomatic recovery of the standards lost by Crassus at Carrhae, returned by Phraates IV in 20 BC. Dio also records a single arch voted for Actium in 29 BC; whether it was replaced or rebuilt is debated. Coarelli and others place the Fasti consulares and triumphales (the Fasti Capitolini, found nearby in 1546) on its walls; Degrassi preferred the Regia.",
-"certainty": "identification of the foundations and the Fasti placement debated"
-},
-{
-"id": "temple_of_vesta",
-"name": "Temple of Vesta",
-"city": "rome",
-"loc": [
-12.4865,
-41.8917
-],
-"built": -600,
-"begun": null,
-"builder": null,
-"builderName": "traditionally Numa",
-"phases": [
-{
-"y": -241,
-"t": "fire; Metellus saves the Palladium"
-},
-{
-"y": -210,
-"t": "fire"
-},
-{
-"y": 64,
-"t": "Great Fire"
-},
-{
-"y": 191,
-"t": "fire; rebuilt by Julia Domna"
-},
-{
-"y": 394,
-"t": "closed under Theodosius"
-},
-{
-"y": 1930,
-"t": "partial reconstruction"
-}
-],
-"destroyed": null,
-"type": "temple",
-"summary": "A small round temple housing the eternal flame and, in an inner penus no man could enter, the Palladium and other pignora imperii. Its form recalled the archaic hut. It burned repeatedly: in 241 BC the pontifex maximus L. Caecilius Metellus rescued the Palladium and was said to have lost his sight; in 210 BC slaves saved it; in 14 BC and AD 64; and in 191 under Commodus, after which Julia Domna rebuilt it (the present remains). Theodosius closed it in 394 and the flame was extinguished; Coelia Concordia (c. 385) is the last known Virgo Maxima. Part of the Severan rotunda was reconstructed in 1930."
-},
-{
-"id": "atrium_vestae",
-"name": "Atrium Vestae (House of the Vestals)",
-"city": "rome",
-"loc": [
-12.4868,
-41.8914
-],
-"built": -600,
-"begun": null,
-"builder": null,
-"phases": [
-{
-"y": 64,
-"t": "rebuilt after the Great Fire"
-},
-{
-"y": 191,
-"t": "Severan rebuilding"
-},
-{
-"y": 394,
-"t": "abandoned by the Vestals"
-}
-],
-"destroyed": null,
-"type": "palace",
-"summary": "Residence of the six Vestal Virgins, rebuilt after the fire of 64 and repeatedly under Trajan and Septimius Severus into a two-storey courtyard house of about 50 rooms around pools and gardens. Statues of the Virgines Maximae with honorific bases line the court; one base of 364 has the name chiselled out, possibly that of a Vestal who converted to Christianity (traditionally identified as Claudia). After 394 it was taken over by imperial and later papal officials."
-},
-{
-"id": "regia",
-"name": "Regia",
-"city": "rome",
-"loc": [
-12.4865,
-41.8919
-],
-"built": -600,
-"begun": null,
-"builder": null,
-"builderName": "traditionally Numa; rebuilt by Cn. Domitius Calvinus",
-"phases": [
-{
-"y": -36,
-"t": "rebuilt in marble by Domitius Calvinus"
-}
-],
-"destroyed": null,
-"type": "other",
-"summary": "Traditionally the house of King Numa and afterwards the office of the pontifex maximus and the rex sacrorum, a small irregular building on the Sacra Via. Excavation has revealed successive phases from the late 7th century BC. It held the sacrarium of Mars with the sacred shields (ancilia) and spears, whose spontaneous movement was a prodigy, and the shrine of Ops Consiva. Cn. Domitius Calvinus rebuilt it in marble in 36 BC from Spanish spoils; the Fasti consulares may have been inscribed on its walls."
-},
-{
-"id": "domus_publica",
-"name": "Domus Publica",
-"city": "rome",
-"loc": [
-12.4869,
-41.8915
-],
-"built": -500,
-"begun": null,
-"builder": null,
-"phases": [
-{
-"y": -63,
-"t": "Caesar takes up residence"
-},
-{
-"y": -62,
-"t": "Bona Dea scandal"
-},
-{
-"y": -12,
-"t": "given to the Vestals by Augustus"
-}
-],
-"destroyed": null,
-"type": "palace",
-"summary": "The official residence of the pontifex maximus beside the Atrium Vestae. Caesar lived here from his election as pontifex maximus in 63 BC until the Ides of March; the Bona Dea scandal of December 62 BC, when Clodius entered disguised as a woman, happened in this house. Augustus, elected pontifex maximus in 12 BC, gave it to the Vestals and made part of his Palatine house public instead.",
-"certainty": "location approximate"
-},
-{
-"id": "temple_of_antoninus_and_faustina",
-"name": "Temple of Antoninus and Faustina",
-"city": "rome",
-"loc": [
-12.4868,
-41.8922
-],
-"built": 141,
-"begun": null,
-"builder": "antoninus_pius",
-"phases": [
-{
-"y": 161,
-"t": "rededicated to Antoninus and Faustina"
-},
-{
-"y": 1602,
-"t": "church façade"
-}
-],
-"destroyed": null,
-"type": "temple",
-"summary": "Dedicated by Antoninus Pius in 141 to his deified wife Faustina the Elder; after his own death in 161 the Senate added his name in a second line of the inscription. Its ten cipollino columns, 17 m high, survive because the temple became the church of San Lorenzo in Miranda (attested by the 11th century; façade of 1602). Deep grooves at the top of the columns are traces of a failed medieval attempt to pull them down with ropes. Next to it Boni excavated in 1902 the archaic Sepolcreto with Iron Age cremation and inhumation graves."
-},
-{
-"id": "temple_of_divus_romulus",
-"name": "'Temple of Divus Romulus'",
-"city": "rome",
-"loc": [
-12.4873,
-41.892
-],
-"built": 309,
-"begun": null,
-"builder": "maxentius",
-"phases": [
-{
-"y": 527,
-"t": "incorporated into Santi Cosma e Damiano"
-}
-],
-"destroyed": null,
-"type": "temple",
-"summary": "A domed brick rotunda on the Sacra Via with its original bronze doors still working in their lock. Traditionally the shrine of Maxentius' son Romulus, deified at his death in 309, on the evidence of coins; others identify it as the temples of the Penates or of Jupiter Stator, or as a monumental vestibule of the Templum Pacis rebuilt by Constantine. In 527 Pope Felix IV made it the vestibule of Santi Cosma e Damiano.",
-"certainty": "identification debated"
-},
-{
-"id": "basilica_nova",
-"name": "Basilica Nova (Basilica of Maxentius and Constantine)",
-"city": "rome",
-"loc": [
-12.4885,
-41.8918
-],
-"built": 313,
-"begun": 307,
-"builder": "maxentius",
-"builderName": "Maxentius; completed by Constantine",
-"phases": [
-{
-"y": 313,
-"t": "completed by Constantine with new entrance and apse"
-},
-{
-"y": 626,
-"t": "bronze roof tiles removed for St Peter's"
-},
-{
-"y": 847,
-"t": "nave and south aisle collapse in earthquake"
-},
-{
-"y": 1486,
-"t": "colossus fragments found"
-}
-],
-"destroyed": null,
-"type": "basilica",
-"summary": "The last and largest basilica in Rome, begun by Maxentius around 307-308 on the site of the Horrea Piperataria and finished by Constantine, who added a south entrance on the Sacra Via and a northern apse. The central nave, 80 m long and 35 m high under three cross vaults, was modelled on the frigidaria of the imperial baths; the north aisle's three coffered barrel vaults (spans 23 m) still stand. A seated acrolithic colossus of Constantine, perhaps recut from Maxentius, stood in the west apse; its head, hand and feet (found 1486) are in the Capitoline Museums. Honorius I removed its gilded bronze roof tiles for St Peter's in 626, and the south aisle and nave collapsed, probably in the earthquake of 847.",
-"event": "basilica_of_maxentius",
-"footprint": [
-[
-12.4875,
-41.8917
-],
-[
-12.4887,
-41.8914
-],
-[
-12.4892,
-41.8919
-],
-[
-12.4885,
-41.8922
-],
-[
-12.488,
-41.8923
-],
-[
-12.4879,
-41.8921
-],
-[
-12.4877,
-41.892
-],
-[
-12.4877,
-41.8917
-],
-[
-12.4875,
-41.8917
-]
-]
-},
-{
-"id": "arch_of_titus",
-"name": "Arch of Titus",
-"city": "rome",
-"loc": [
-12.4886,
-41.8908
-],
-"built": 82,
-"begun": null,
-"builder": "domitian",
-"phases": [
-{
-"y": 1100,
-"t": "incorporated into the Frangipane fortress"
-},
-{
-"y": 1821,
-"t": "restored by Valadier"
-}
-],
-"destroyed": null,
-"type": "arch",
-"summary": "A single-bay arch at the summit of the Sacra Via erected by Domitian to his deified brother after 81 (inscription SENATVS POPVLVSQVE ROMANVS DIVO TITO). The passage reliefs show the triumph of 71: the spoils of the Jerusalem Temple, including the menorah, table and trumpets, carried by laurelled soldiers, and Titus in the triumphal chariot crowned by Victory; the vault shows his apotheosis on an eagle. It survived inside the Frangipane fortress and was restored by Valadier in 1821, who rebuilt the missing parts in travertine so they could be told from the original marble.",
-"event": "flavian_triumph_71"
-},
-{
-"id": "temple_of_venus_and_roma_mon",
-"name": "Temple of Venus and Roma",
-"city": "rome",
-"loc": [
-12.4897,
-41.8909
-],
-"built": 135,
-"begun": 121,
-"builder": "hadrian",
-"phases": [
-{
-"y": 141,
-"t": "completed under Antoninus Pius"
-},
-{
-"y": 307,
-"t": "fire; rebuilt by Maxentius"
-},
-{
-"y": 625,
-"t": "bronze roof tiles removed by Honorius I"
-},
-{
-"y": 847,
-"t": "earthquake"
-}
-],
-"destroyed": null,
-"type": "temple",
-"summary": "Hadrian's own design, founded on the Parilia (21 April) 121 on the site of Nero's vestibule, dedicated about 135 and finished under Antoninus Pius. It was the largest temple in Rome: a 145 by 100 m platform carrying a decastyle Greek-style temple 110 by 53 m with two cellae back to back, Venus facing the Colosseum and Roma the Forum (Amor is Roma reversed). Dio says Apollodorus mocked the design, noting that the seated goddesses would bang their heads if they stood up, and was exiled and killed. After a fire in 307 Maxentius rebuilt the cellae with coffered apses. Honorius I took its bronze tiles in 625, and the church of Santa Maria Nova (Santa Francesca Romana) was built in its western part.",
-"event": "temple_of_venus_and_roma",
-"footprint": [
-[
-12.4886,
-41.8908
-],
-[
-12.489,
-41.8906
-],
-[
-12.4903,
-41.8902
-],
-[
-12.4907,
-41.8909
-],
-[
-12.4904,
-41.8912
-],
-[
-12.4895,
-41.8914
-],
-[
-12.4895,
-41.8912
-],
-[
-12.4897,
-41.8912
-],
-[
-12.4894,
-41.891
-],
-[
-12.4894,
-41.8908
-],
-[
-12.4888,
-41.8911
-],
-[
-12.4886,
-41.8908
-]
-]
-},
-{
-"id": "meta_sudans",
-"name": "Meta Sudans",
-"city": "rome",
-"loc": [
-12.4906,
-41.8901
-],
-"built": 90,
-"begun": null,
-"builder": "domitian",
-"phases": [
-{
-"y": 1936,
-"t": "demolished"
-}
-],
-"destroyed": 1936,
-"type": "other",
-"summary": "A conical fountain, 17 m tall, shaped like a circus turning post, built by Domitian at the junction of four Augustan regions and the triumphal route; an earlier Augustan fountain lay nearby. Its brick core stood until 1936, when Mussolini demolished it for the Via dell'Impero parade route; the foundations were re-excavated in the 1980s-90s."
-},
-{
-"id": "colossus_neronis",
-"name": "Colossus of Nero",
-"city": "rome",
-"loc": [
-12.491,
-41.8907
-],
-"built": 75,
-"begun": 64,
-"builder": "nero",
-"builderName": "Zenodorus for Nero; rededicated by Vespasian",
-"phases": [
-{
-"y": 128,
-"t": "moved by Hadrian"
-},
-{
-"y": 192,
-"t": "recast as Commodus-Hercules"
-},
-{
-"y": 354,
-"t": "last mention"
-},
-{
-"y": 1936,
-"t": "base demolished"
-}
-],
-"destroyed": null,
-"type": "other",
-"summary": "A bronze statue some 30-35 m high (Suetonius: 120 feet) by Zenodorus, made for the vestibule of the Domus Aurea with Nero's features. Vespasian made it the Sun god (Dio dates the rededication to 75). Hadrian moved it with 24 elephants, his architect Decrianus keeping it upright, to clear the site of Venus and Roma; Commodus recut the head as himself as Hercules, restored after his death. It is last mentioned in the Chronograph of 354; the amphitheatre took its medieval name from it. Its concrete base was demolished in 1936.",
-"certainty": "statue's end undocumented"
-},
-{
-"id": "arch_of_constantine_mon",
-"name": "Arch of Constantine",
-"city": "rome",
-"loc": [
-12.4907,
-41.8898
-],
-"built": 315,
-"begun": null,
-"builder": "constantine_i",
-"builderName": "Senate and people of Rome for Constantine",
-"phases": [
-{
-"y": 1733,
-"t": "restored under Clement XII"
-}
-],
-"destroyed": null,
-"type": "arch",
-"summary": "Dedicated by the Senate on 25 July 315 for Constantine's decennalia and his victory over Maxentius, 'by divine inspiration' (instinctu divinitatis), a phrase that commits to no particular god. At 21 m it is the largest surviving Roman arch. Much of its sculpture is reused: Trajanic battle friezes, Hadrianic hunting tondi and Antonine panels from a lost arch of Marcus Aurelius, with the emperors' heads recut as Constantine and Licinius, alongside a new Constantinian frieze of the siege of Verona, Milvian Bridge and the emperor's oratio and largitio in Rome. Some argue the arch itself is a reworked Hadrianic monument; most date its core to 312-315.",
-"event": "arch_of_constantine"
-},
-{
-"id": "colosseum",
-"name": "Amphitheatrum Flavium (Colosseum)",
-"city": "rome",
-"loc": [
-12.4922,
-41.8902
-],
-"built": 80,
-"begun": 70,
-"builder": "vespasian",
-"builderName": "Vespasian; inaugurated by Titus; completed by Domitian",
-"phases": [
-{
-"y": 80,
-"t": "inauguration with 100 days of games"
-},
-{
-"y": 90,
-"t": "hypogeum added by Domitian"
-},
-{
-"y": 217,
-"t": "fire after lightning strike"
-},
-{
-"y": 240,
-"t": "repairs completed under Gordian III"
-},
-{
-"y": 443,
-"t": "earthquake damage and restoration"
-},
-{
-"y": 508,
-"t": "restoration by Decius Marius Venantius Basilius"
-},
-{
-"y": 523,
-"t": "last recorded venatio"
-},
-{
-"y": 1349,
-"t": "earthquake destroys the south side"
-}
-],
-"destroyed": null,
-"type": "entertainment",
-"summary": "Begun by Vespasian around 70-72 on the drained lake of Nero's Domus Aurea, an explicit return of Nero's park to the people, and paid for (per a reconstructed dedicatory inscription) from the Jewish War spoils. Titus inaugurated it in 80 with 100 days of games in which Dio says 9,000 animals died; Domitian completed it and added the hypogeum. The ellipse measures 188 by 156 m, 48 m high, holding about 50,000 spectators by rank in four tiers. Lightning set it ablaze in 217 and repairs ran into the 240s. Earthquakes in 443 and 484 or 508 brought restorations by urban prefects. Gladiatorial combat faded out in the 430s; the last recorded venatio was in 523, given by the consul Anicius Maximus under Theodoric. The 1349 earthquake brought down the south side, which became a quarry.",
-"event": "inauguration_of_the_colosseum",
-"footprint": [
-[
-12.4913,
-41.8906
-],
-[
-12.4915,
-41.89
-],
-[
-12.492,
-41.8897
-],
-[
-12.4928,
-41.8896
-],
-[
-12.4931,
-41.8898
-],
-[
-12.4933,
-41.8901
-],
-[
-12.4934,
-41.8901
-],
-[
-12.4934,
-41.89
-],
-[
-12.4933,
-41.8905
-],
-[
-12.4927,
-41.8908
-],
-[
-12.4919,
-41.8909
-],
-[
-12.4913,
-41.8906
-]
-]
-},
-{
-"id": "ludus_magnus",
-"name": "Ludus Magnus",
-"city": "rome",
-"loc": [
-12.495,
-41.89
-],
-"built": 90,
-"begun": null,
-"builder": "domitian",
-"phases": [
-{
-"y": 110,
-"t": "rebuilt by Trajan"
-}
-],
-"destroyed": null,
-"type": "entertainment",
-"summary": "The largest of the four imperial gladiatorial schools, built by Domitian east of the Colosseum and rebuilt by Trajan, with a training arena (63 by 42 m) ringed by seating for about 3,000 and cells for the fighters on two floors. A tunnel linked it to the Colosseum's hypogeum. The northern half is visible in Via Labicana."
-},
-{
-"id": "column_of_phocas",
-"name": "Column of Phocas",
-"city": "rome",
-"loc": [
-12.4849,
-41.8924
-],
-"built": 608,
-"begun": null,
-"builder": null,
-"builderName": "exarch Smaragdus for Phocas",
-"phases": [
-{
-"y": 610,
-"t": "Phocas overthrown; name erased"
-},
-{
-"y": 1813,
-"t": "base excavated"
-}
-],
-"destroyed": null,
-"type": "column",
-"summary": "The last monument erected in the Forum: a 13.6 m fluted column, reused from a 2nd-century building, on a brick stepped base, crowned on 1 August 608 with a gilded statue of the emperor Phocas by the exarch Smaragdus, probably in thanks for Phocas' gift of the Pantheon to Pope Boniface IV. Phocas was overthrown and killed by Heraclius in 610 and his name was erased from the inscription. The base was excavated in 1813 by the Duchess of Devonshire.",
-"event": "column_of_phocas_608"
-},
-{
-"id": "lacus_curtius",
-"name": "Lacus Curtius",
-"city": "rome",
-"loc": [
-12.4852,
-41.8924
-],
-"built": -362,
-"begun": null,
-"builder": null,
-"phases": [
-{
-"y": -445,
-"t": "fenced by the consul C. Curtius (one tradition)"
-},
-{
-"y": -362,
-"t": "leap of M. Curtius (one tradition)"
-}
-],
-"destroyed": null,
-"type": "other",
-"summary": "A paved, fenced pit in the middle of the Forum, the last trace of the original marsh. Livy gives three explanations: the Sabine Mettius Curtius whose horse floundered there in Romulus' war; the young knight M. Curtius who in 362 BC leapt fully armed into a chasm that opened in the Forum to save the city; or a lightning-struck place fenced by the consul C. Curtius in 445 BC. Romans threw coins into it for Augustus' health. A relief of the knight's leap (a copy) marks the spot."
-},
-{
-"id": "temple_of_janus_geminus",
-"name": "Ianus Geminus",
-"city": "rome",
-"loc": [
-12.4855,
-41.8933
-],
-"built": -700,
-"begun": null,
-"builder": null,
-"builderName": "traditionally Numa",
-"phases": [
-{
-"y": -235,
-"t": "closed after the First Punic War"
-},
-{
-"y": -29,
-"t": "closed by Augustus"
-},
-{
-"y": 66,
-"t": "closed by Nero"
-},
-{
-"y": 537,
-"t": "attempt to open its doors during the Gothic siege"
-}
-],
-"destroyed": null,
-"type": "temple",
-"summary": "A small bronze double-gated shrine on the Argiletum, whose doors were closed only when Rome was at peace: under Numa, after the First Punic War in 235 BC, three times under Augustus (first in 29 BC), by Nero in 66 and by Vespasian in 71. Procopius saw the bronze shrine still standing in 537 and reports that during the Gothic siege someone secretly tried to force its doors open, a revival of old ritual. It has never been found.",
-"event": "janus_closed_235",
-"certainty": "location unknown; placed near the Argiletum"
-},
-{
-"id": "arch_of_tiberius",
-"name": "Arch of Tiberius",
-"city": "rome",
-"loc": [
-12.4845,
-41.8926
-],
-"built": 16,
-"begun": null,
-"builder": "tiberius",
-"phases": [],
-"destroyed": null,
-"type": "arch",
-"summary": "Voted in AD 16 beside the Temple of Saturn on the Clivus Capitolinus for Germanicus' recovery of the eagles lost with Varus in the Teutoburg Forest, credited to Tiberius' auspices (Tac. Ann. 2.41). Only foundations survive; it appears on the Constantinian frieze of the Arch of Constantine in the oratio scene.",
-"certainty": "only foundations survive"
-},
-{
-"id": "arch_of_septimius_severus",
-"name": "Arch of Septimius Severus",
-"city": "rome",
-"loc": [
-12.4847,
-41.8929
-],
-"built": 203,
-"begun": null,
-"builder": "septimius_severus",
-"phases": [
-{
-"y": 212,
-"t": "Geta's name erased"
-},
-{
-"y": 1803,
-"t": "excavated by Pius VII"
-}
-],
-"destroyed": null,
-"type": "arch",
-"summary": "A triple arch 23 m high dedicated in 203 to Septimius Severus and his sons for the Parthian victories of 195 and 197-198, with four large panels narrating the sieges of Nisibis, Edessa, Seleucia and Ctesiphon in a dense, bird's-eye style. After Caracalla murdered Geta in 211 Geta's name was erased from the fourth line of the inscription and replaced with OPTIMIS FORTISSIMISQUE PRINCIPIBUS; the dowel holes show the original wording. In the Middle Ages a barber's shop and a church tower leaned against it, which saved it.",
-"event": "arch_of_septimius_severus_203"
-},
-{
-"id": "miliarium_aureum",
-"name": "Miliarium Aureum",
-"city": "rome",
-"loc": [
-12.4846,
-41.8926
-],
-"built": -20,
-"begun": null,
-"builder": "augustus",
-"phases": [],
-"destroyed": null,
-"type": "other",
-"summary": "A column sheathed in gilded bronze set up by Augustus in 20 BC as curator viarum near the Temple of Saturn, listing the distances to the major cities of the empire. It was a symbolic centre rather than a measuring point, since Roman roads were measured from the city gates. Its pendant, the Umbilicus Urbis, stood at the other end of the Rostra. Constantinople's Milion copied the idea."
-},
-{
-"id": "columna_rostrata_duilii",
-"name": "Columna Rostrata of Duilius",
-"city": "rome",
-"loc": [
-12.4848,
-41.8928
-],
-"built": -260,
-"begun": null,
-"builder": "gaius_duilius",
-"phases": [],
-"destroyed": null,
-"type": "column",
-"summary": "A column decorated with ship beaks set up for C. Duilius' victory at Mylae in 260 BC, the first Roman naval triumph. Duilius was also granted a torch-bearer and flute player to escort him home from dinner. An archaising copy of the inscription recut under Augustus or Claudius (Capitoline Museums) lists the ships taken and the bullion captured. Quintilian and Servius mention a second rostral column near the Circus.",
-"event": "triumph_of_duilius_260",
-"certainty": "exact site in the Forum unknown; end undocumented"
-},
-{
-"id": "fornix_fabianus",
-"name": "Fornix Fabianus",
-"city": "rome",
-"loc": [
-12.4866,
-41.8921
-],
-"built": -121,
-"begun": null,
-"builder": null,
-"builderName": "Q. Fabius Maximus Allobrogicus",
-"phases": [
-{
-"y": -57,
-"t": "restored by Q. Fabius Maximus (aedile)"
-},
-{
-"y": 1540,
-"t": "inscription fragments found"
-}
-],
-"destroyed": null,
-"type": "arch",
-"summary": "The first arch in the Forum, built at the east end of the Sacra Via near the Regia by Q. Fabius Maximus Allobrogicus after his triumph over the Allobroges and Arverni in 121 BC. His grandson restored it as curule aedile in 57 BC, adding statues of ancestors (including Aemilius Paullus and Scipio Aemilianus). Fragments of the inscription were found in 1540-46.",
-"certainty": "foundations not securely identified"
-},
-{
-"id": "temple_of_jupiter_optimus_maximus",
-"name": "Temple of Jupiter Optimus Maximus (Capitolium)",
-"city": "rome",
-"loc": [
-12.4813,
-41.8923
-],
-"built": -509,
-"begun": -535,
-"builder": "tarquinius_superbus",
-"builderName": "begun by the Tarquins; dedicated by M. Horatius Pulvillus",
-"phases": [
-{
-"y": -83,
-"t": "burned in the civil war"
-},
-{
-"y": -69,
-"t": "Sullan rebuilding dedicated by Catulus"
-},
-{
-"y": 69,
-"t": "burned in the Vitellian assault"
-},
-{
-"y": 75,
-"t": "rebuilt by Vespasian"
-},
-{
-"y": 80,
-"t": "burned"
-},
-{
-"y": 82,
-"t": "rebuilt by Domitian with gilded tiles"
-},
-{
-"y": 455,
-"t": "Vandals remove half the gilded roof tiles"
-}
-],
-"destroyed": null,
-"type": "temple",
-"summary": "The temple of the Capitoline triad (Jupiter, Juno, Minerva) begun by the Tarquins and dedicated in the first year of the Republic by the consul M. Horatius Pulvillus on 13 September 509 BC. Its tufa podium, about 62 by 54 m (some reconstructions make it 74 by 54 m), is one of the largest of archaic Italy; the terracotta cult statue and roof quadriga were by Vulca of Veii. Consuls took office and generals ended their triumphs here. It burned on 6 July 83 BC with the Sibylline Books; Sulla and Catulus rebuilt it (dedicated 69 BC). It burned again in December 69 AD when Vitellians stormed the hill and killed Flavius Sabinus, and in the fire of 80; Domitian's rebuilding (82) had gilded bronze tiles said to have cost 12,000 talents. Stilicho stripped gold from its doors and Gaiseric took half the tiles in 455. Remains of the podium are visible in the Capitoline Museums.",
-"event": "dedication_temple_jupiter_capitolinus",
-"footprint": [
-[
-12.4811,
-41.892
-],
-[
-12.4817,
-41.8921
-],
-[
-12.4815,
-41.8926
-],
-[
-12.4809,
-41.8925
-],
-[
-12.4811,
-41.892
-]
-]
-},
-{
-"id": "temple_of_juno_moneta",
-"name": "Temple of Juno Moneta",
-"city": "rome",
-"loc": [
-12.4831,
-41.894
-],
-"built": -344,
-"begun": null,
-"builder": null,
-"builderName": "L. Furius Camillus (dictator 345 BC)",
-"phases": [
-{
-"y": -269,
-"t": "mint attested ad Monetam"
-},
-{
-"y": 80,
-"t": "mint moved to the Caelian under Domitian"
-}
-],
-"destroyed": null,
-"type": "temple",
-"summary": "On the Arx, the northern summit of the Capitol, vowed in 345 BC by the dictator L. Furius Camillus during war with the Aurunci and dedicated in 344 on the site of the house of M. Manlius Capitolinus, razed after his execution. The sacred geese of Juno warned Manlius of the Gauls in 390. The state mint operated beside it from the 3rd century BC, which gave 'money' its name; Juno Moneta was explained as the 'warner'. Its site lies under the church of Santa Maria in Aracoeli.",
-"certainty": "location under Aracoeli generally accepted; no remains identified"
-},
-{
-"id": "temple_of_fides",
-"name": "Temple of Fides",
-"city": "rome",
-"loc": [
-12.4821,
-41.893
-],
-"built": -254,
-"begun": null,
-"builder": "aulus_atilius_calatinus",
-"phases": [
-{
-"y": -133,
-"t": "Senate meeting on the day of Tiberius Gracchus' death"
-},
-{
-"y": -115,
-"t": "restored by M. Aemilius Scaurus"
-}
-],
-"destroyed": null,
-"type": "temple",
-"summary": "Built by A. Atilius Calatinus during the First Punic War next to the Capitoline temple, probably around 254 BC, and restored by M. Aemilius Scaurus in 115 BC. Bronze treaties and grants of friendship to foreign states were posted on and around it, and Flavian military diplomas found across the provinces cite their originals as fixed 'on the Capitol, on the wall behind the temple of the Fides of the Roman people'. The Senate met here on the day Tiberius Gracchus was killed in 133 BC, and Scipio Nasica led the senators out from it to the assembly.",
-"certainty": "location on the Capitoline approximate"
-},
-{
-"id": "temple_of_jupiter_feretrius",
-"name": "Temple of Jupiter Feretrius",
-"city": "rome",
-"loc": [
-12.4818,
-41.893
-],
-"built": -750,
-"begun": null,
-"builder": "romulus",
-"builderName": "traditionally Romulus; restored by Augustus",
-"phases": [
-{
-"y": -222,
-"t": "Marcellus dedicates the spolia opima"
-},
-{
-"y": -32,
-"t": "restored by Augustus"
-},
-{
-"y": -29,
-"t": "Crassus' claim to the spolia refused"
-}
-],
-"destroyed": null,
-"type": "temple",
-"summary": "Rome's oldest temple in Livy's account, founded by Romulus to house the spolia opima he stripped from King Acron of Caenina. Only two other Romans won them: A. Cornelius Cossus (437 or 426 BC) and M. Claudius Marcellus, who killed Viridomarus in 222 BC. Augustus restored the ruined shrine on Atticus' advice around 32 BC; when M. Licinius Crassus claimed the spolia in 29 BC, Augustus produced a linen corselet in this temple supposedly proving Cossus had been consul, which barred Crassus (Livy 4.20).",
-"certainty": "location unknown on the Capitoline"
-},
-{
-"id": "temple_of_jupiter_tonans",
-"name": "Temple of Jupiter Tonans",
-"city": "rome",
-"loc": [
-12.4818,
-41.892
-],
-"built": -22,
-"begun": null,
-"builder": "augustus",
-"phases": [],
-"destroyed": null,
-"type": "temple",
-"summary": "Vowed by Augustus after lightning killed the slave carrying a torch before his litter during the Cantabrian campaign of 26 BC, and dedicated on 1 September 22 BC at the entrance to the Area Capitolina. Built of solid marble, it drew so many visitors that Augustus dreamed Capitoline Jupiter complained, and hung bells on its pediment to make Tonans the gatekeeper of the greater god (Suet. Aug. 29, 91).",
-"certainty": "location approximate"
-},
-{
-"id": "temple_of_venus_erycina_capitol",
-"name": "Temple of Venus Erycina (Capitol)",
-"city": "rome",
-"loc": [
-12.4819,
-41.8926
-],
-"built": -215,
-"begun": null,
-"builder": "quintus_fabius_maximus",
-"phases": [],
-"destroyed": null,
-"type": "temple",
-"summary": "Vowed by Q. Fabius Maximus after Trasimene on the advice of the Sibylline Books and dedicated in 215 BC on the Capitol, importing the cult of Aphrodite of Eryx in Sicily, then held by Rome. A second temple of Venus Erycina outside the Porta Collina followed in 181 BC, where prostitutes worshipped her.",
-"event": "religious_measures_217",
-"certainty": "location unknown"
-},
-{
-"id": "insula_aracoeli",
-"name": "Insula dell'Aracoeli",
-"city": "rome",
-"loc": [
-12.4824,
-41.8941
-],
-"built": 125,
-"begun": null,
-"builder": null,
-"phases": [
-{
-"y": 1930,
-"t": "exposed by demolitions"
-}
-],
-"destroyed": null,
-"type": "other",
-"summary": "The best-preserved Roman apartment block in the city, built in the 2nd century at the foot of the Capitol: ground-floor shops with mezzanines and at least four upper storeys of flats, the type that housed most of Rome's population. It survived because a medieval church (San Biagio de Mercato) was built into it; it was exposed in the 1930s when its neighbourhood was demolished."
-},
-{
-"id": "casa_romuli",
-"name": "Casa Romuli",
-"city": "rome",
-"loc": [
-12.4845,
-41.8892
-],
-"built": -750,
-"begun": null,
-"builder": "romulus",
-"phases": [
-{
-"y": -38,
-"t": "burned"
-},
-{
-"y": -12,
-"t": "burned"
-},
-{
-"y": 1948,
-"t": "Iron Age post holes excavated"
-}
-],
-"destroyed": null,
-"type": "other",
-"summary": "A thatched hut on the Cermalus, the SW corner of the Palatine, maintained as Romulus' dwelling and rebuilt in the old style whenever it burned (Dio records fires in 38 and 12 BC). Excavations in 1946-48 found post holes of Iron Age huts cut into the tufa nearby, dating from the 8th century BC, giving archaeological substance to the tradition of the earliest settlement.",
-"certainty": "the venerated hut itself is not identified"
-},
-{
-"id": "temple_of_magna_mater",
-"name": "Temple of Magna Mater",
-"city": "rome",
-"loc": [
-12.485,
-41.8895
-],
-"built": -191,
-"begun": null,
-"builder": null,
-"builderName": "M. Junius Brutus (praetor 191 BC)",
-"phases": [
-{
-"y": -204,
-"t": "the stone arrives and is housed in the Temple of Victory"
-},
-{
-"y": -111,
-"t": "fire; restored by a Caecilius Metellus"
-},
-{
-"y": 3,
-"t": "fire; rebuilt by Augustus"
-}
-],
-"destroyed": null,
-"type": "temple",
-"summary": "The black meteoric stone of Cybele was brought from Pessinus in 204 BC on Sibylline advice during the Hannibalic war, received at Ostia by P. Scipio Nasica as 'best man in the state', and housed in the Temple of Victory until this temple was dedicated by the praetor M. Junius Brutus on 11 April 191 BC. Roman citizens were barred from her eunuch priesthood. The Ludi Megalenses were staged before its steps; Terence's plays premiered there. It burned in 111 BC and was restored by a Metellus, burned again in AD 3 and was rebuilt by Augustus. The podium survives on the Cermalus.",
-"event": "temple_of_magna_mater_191"
-},
-{
-"id": "temple_of_victoria",
-"name": "Temple of Victoria",
-"city": "rome",
-"loc": [
-12.4853,
-41.8892
-],
-"built": -294,
-"begun": null,
-"builder": "lucius_postumius_megellus",
-"phases": [],
-"destroyed": null,
-"type": "temple",
-"summary": "Built by L. Postumius Megellus from fines he collected as aedile, and dedicated as consul on 1 August 294 BC during the Third Samnite War. It sheltered the stone of Magna Mater from 204 to 191 BC; Cato the Elder later added a shrine of Victoria Virgo. Its podium lies next to that of Magna Mater.",
-"event": "temple_of_victoria_294",
-"certainty": "identification of the podium probable"
-},
-{
-"id": "temple_of_apollo_palatinus",
-"name": "Temple of Apollo Palatinus",
-"city": "rome",
-"loc": [
-12.4857,
-41.8888
-],
-"built": -28,
-"begun": -36,
-"builder": "augustus",
-"phases": [
-{
-"y": -12,
-"t": "Sibylline Books transferred here"
-},
-{
-"y": 363,
-"t": "destroyed by fire"
-}
-],
-"destroyed": 363,
-"type": "temple",
-"summary": "Vowed by Octavian in 36 BC after Naulochus, built on land struck by lightning next to his house, and dedicated on 9 October 28 BC. Of solid Luna marble with ivory doors, it held statues by Scopas, Cephisodotus and Timotheus, a portico with the fifty Danaids, and Greek and Latin libraries where the Senate sometimes met; in 12 BC Augustus moved the edited Sibylline Books into the cult statue's base. On 18 March 363 it burned (Ammianus 23.3.3), though the Books were saved. Its identification with the podium next to the House of Augustus, made by Lugli and reaffirmed by Zink, is now generally accepted."
-},
-{
-"id": "house_of_augustus",
-"name": "House of Augustus and House of Livia",
-"city": "rome",
-"loc": [
-12.4853,
-41.8887
-],
-"built": -36,
-"begun": null,
-"builder": "augustus",
-"phases": [
-{
-"y": -36,
-"t": "lightning strike; part of the site made public"
-},
-{
-"y": 3,
-"t": "fire; rebuilt by subscription"
-},
-{
-"y": 1961,
-"t": "Carettoni's excavations"
-}
-],
-"destroyed": null,
-"type": "palace",
-"summary": "Augustus bought the modest house of the orator Hortensius and adjoining properties on the Palatine; after lightning struck part of the site in 36 BC he made it public for the temple of Apollo and lived, Suetonius says, more than forty years in the same bedroom. Excavations by Carettoni from 1961 revealed rooms with Second Style paintings of the 30s BC, including the 'Room of the Masks' and a small study (Augustus' 'Syracuse'). The adjacent 'House of Livia' has lead pipes stamped IVLIAE AVG and fine frescoes. When the house burned in AD 3 it was rebuilt by public subscription. A ramp linked it to the temple."
-},
-{
-"id": "domus_tiberiana",
-"name": "Domus Tiberiana",
-"city": "rome",
-"loc": [
-12.486,
-41.8903
-],
-"built": 70,
-"begun": 40,
-"builder": "nero",
-"builderName": "Tiberius and Caligula (early phases); Nero; Domitian; Hadrian",
-"phases": [
-{
-"y": 39,
-"t": "Caligula extends the palace to the Forum"
-},
-{
-"y": 90,
-"t": "Domitianic extensions"
-},
-{
-"y": 125,
-"t": "Hadrianic additions"
-},
-{
-"y": 705,
-"t": "papal residence of John VII"
-},
-{
-"y": 1550,
-"t": "Farnese Gardens laid out on top"
-}
-],
-"destroyed": null,
-"type": "palace",
-"summary": "The palace occupying the NW Palatine above the Forum. Despite the name, recent excavation dates the great platform (about 150 by 120 m) mainly to Nero after 64, with Domitianic and Hadrianic extensions down to the Forum, where Caligula had earlier extended the palace to make the Temple of Castor his vestibule. In the 7th century it housed the Byzantine curator of the palace, and Pope John VII established his residence here about 705. The Farnese Gardens were laid out on top in the 16th century; the site reopened in 2023 after long restoration.",
-"footprint": [
-[
-12.4848,
-41.8899
-],
-[
-12.4859,
-41.8893
-],
-[
-12.4869,
-41.8901
-],
-[
-12.4868,
-41.8902
-],
-[
-12.4872,
-41.8904
-],
-[
-12.4875,
-41.8908
-],
-[
-12.4863,
-41.8912
-],
-[
-12.4862,
-41.8911
-],
-[
-12.4862,
-41.8912
-],
-[
-12.4848,
-41.8899
-]
-]
-},
-{
-"id": "domus_flavia",
-"name": "Domus Flavia (Flavian Palace, official wing)",
-"city": "rome",
-"loc": [
-12.4866,
-41.8889
-],
-"built": 92,
-"begun": 81,
-"builder": "domitian",
-"builderName": "Domitian; architect Rabirius",
-"phases": [
-{
-"y": 92,
-"t": "dedication"
-},
-{
-"y": 200,
-"t": "Severan extensions"
-},
-{
-"y": 500,
-"t": "repairs under Theodoric"
-}
-],
-"destroyed": null,
-"type": "palace",
-"summary": "Domitian's state palace designed by the architect Rabirius and dedicated in 92, the building that turned the hill's name into the word 'palace'. Its huge reception halls included the Aula Regia (about 30 by 39 m), a basilica for judgments, a lararium, a peristyle with a labyrinthine fountain, and the Cenatio Iovis dining hall flanked by nymphaea. Martial compared it to the heavens. It remained the official seat of emperors in Rome and later of Odoacer and Theodoric, whose brick stamps record repairs; Byzantine officials still used parts of it in the 7th century.",
-"event": "domus_flavia_dedicated",
-"footprint": [
-[
-12.4857,
-41.8886
-],
-[
-12.4863,
-41.8881
-],
-[
-12.4865,
-41.8882
-],
-[
-12.4864,
-41.8883
-],
-[
-12.4865,
-41.8885
-],
-[
-12.4867,
-41.8883
-],
-[
-12.4873,
-41.8888
-],
-[
-12.4875,
-41.8891
-],
-[
-12.4868,
-41.8895
-],
-[
-12.4859,
-41.8889
-],
-[
-12.486,
-41.8888
-],
-[
-12.4857,
-41.8886
-]
-]
-},
-{
-"id": "domus_augustana",
-"name": "Domus Augustana (Flavian Palace, residential wing)",
-"city": "rome",
-"loc": [
-12.4871,
-41.8881
-],
-"built": 92,
-"begun": 81,
-"builder": "domitian",
-"builderName": "Domitian; architect Rabirius",
-"phases": [
-{
-"y": 200,
-"t": "Severan extension and baths"
-}
-],
-"destroyed": null,
-"type": "palace",
-"summary": "The private wing of Domitian's palace, on two levels: an upper peristyle at the level of the Domus Flavia and a lower peristyle with a fountain 10 m below, opening south onto a curved façade overlooking the Circus Maximus, from which the emperor could watch races. East of it lies the so-called Stadium, a sunken garden-hippodrome 160 m long. Septimius Severus extended the palace south-eastwards on vast arched substructures with baths.",
-"event": "domus_flavia_dedicated",
-"footprint": [
-[
-12.4858,
-41.8877
-],
-[
-12.4859,
-41.8877
-],
-[
-12.4861,
-41.8876
-],
-[
-12.486,
-41.8876
-],
-[
-12.4863,
-41.8875
-],
-[
-12.4865,
-41.8871
-],
-[
-12.4882,
-41.8885
-],
-[
-12.488,
-41.8888
-],
-[
-12.4875,
-41.889
-],
-[
-12.4864,
-41.8879
-],
-[
-12.4863,
-41.888
-],
-[
-12.4858,
-41.8877
-]
-]
-},
-{
-"id": "septizodium",
-"name": "Septizodium",
-"city": "rome",
-"loc": [
-12.4889,
-41.8868
-],
-"built": 203,
-"begun": null,
-"builder": "septimius_severus",
-"phases": [
-{
-"y": 1589,
-"t": "demolished by Sixtus V"
-}
-],
-"destroyed": 1589,
-"type": "other",
-"summary": "A free-standing three-storey columnar façade some 90 m long and 30 m high at the SE corner of the Palatine, built by Septimius Severus in 203 so that, the Historia Augusta says, travellers from Africa arriving by the Via Appia would see the palace of their compatriot emperor. Its name evokes the seven planetary gods. Three bays survived until Sixtus V had them demolished in 1588-89 and used the stone for his projects."
-},
-{
-"id": "temple_of_elagabalus",
-"name": "Elagabalium (Temple of Sol Invictus Elagabal)",
-"city": "rome",
-"loc": [
-12.489,
-41.8899
-],
-"built": 221,
-"begun": 218,
-"builder": "elagabalus",
-"phases": [
-{
-"y": 222,
-"t": "rededicated to Jupiter Ultor"
-}
-],
-"destroyed": null,
-"type": "temple",
-"summary": "A temple built by Elagabalus on the NE corner of the Palatine (the Vigna Barberini terrace) for the sacred black stone of Emesa, to which he wanted all Rome's holiest objects, including the Palladium and the shields of the Salii, transferred. After his murder in 222 Severus Alexander returned the stone to Syria and rededicated the temple to Jupiter Ultor. French excavations identified its platform under the Vigna Barberini.",
-"certainty": "identification by the École française excavations"
-},
-{
-"id": "temple_of_jupiter_stator_palatine",
-"name": "Temple of Jupiter Stator (Palatine)",
-"city": "rome",
-"loc": [
-12.4882,
-41.8903
-],
-"built": -294,
-"begun": null,
-"builder": null,
-"builderName": "M. Atilius Regulus (cos. 294 BC)",
-"phases": [
-{
-"y": -63,
-"t": "Cicero's First Catilinarian"
-}
-],
-"destroyed": null,
-"type": "temple",
-"summary": "Romulus was said to have vowed a shrine here to Jupiter 'the stayer' when the Romans fled before the Sabines; the temple was actually vowed by the consul M. Atilius Regulus at Luceria in 294 BC. It stood by the old Porta Mugonia. On 8 November 63 BC Cicero convened the Senate here and delivered his First Catilinarian with Catiline present.",
-"certainty": "location near the Arch of Titus debated"
-},
-{
-"id": "lupercal",
-"name": "Lupercal",
-"city": "rome",
-"loc": [
-12.4849,
-41.8884
-],
-"built": -750,
-"begun": null,
-"builder": null,
-"phases": [
-{
-"y": -28,
-"t": "restored by Augustus"
-},
-{
-"y": 494,
-"t": "Lupercalia suppressed by Gelasius I"
-},
-{
-"y": 2007,
-"t": "possible identification announced"
-}
-],
-"destroyed": null,
-"type": "other",
-"summary": "The cave at the foot of the Palatine where the she-wolf suckled Romulus and Remus and where the Luperci began their run on 15 February. Augustus restored it (Res Gestae 19). A richly decorated vaulted chamber detected 16 m below the House of Augustus in 2007 was announced as the Lupercal; La Rocca, Coarelli and others argue it is a Neronian nymphaeum. Pope Gelasius I suppressed the Lupercalia about 494.",
-"certainty": "identification disputed"
-}
-]
+ "monuments": [
+  {
+   "id": "forum_romanum",
+   "name": "Forum Romanum",
+   "city": "rome",
+   "loc": [
+    12.4853,
+    41.8925
+   ],
+   "built": -600,
+   "begun": -650,
+   "builder": null,
+   "builderName": "communal; repaved by Sulla and Augustus",
+   "phases": [
+    {
+     "y": -80,
+     "t": "Sulla raises and repaves the square"
+    },
+    {
+     "y": -44,
+     "t": "Caesar reorganises the NW end around a new Curia and Rostra"
+    },
+    {
+     "y": 283,
+     "t": "fire under Carinus; Diocletianic rebuilding with honorific columns"
+    },
+    {
+     "y": 608,
+     "t": "Column of Phocas, last monument erected"
+    }
+   ],
+   "destroyed": null,
+   "type": "forum",
+   "summary": "A marshy valley between Palatine and Capitol, drained by the Cloaca and first paved in beaten earth and then pebbles in the late 7th century BC, when the huts gave way to a public square. Every phase of Roman politics happened here: the comitia met in the Comitium at its NW corner, triumphs climbed the Sacra Via, the plebs rioted round the Rostra, and Clodius' body was burned in the Curia. Sulla raised and repaved it in travertine; Caesar reoriented it on a new Curia and moved the Rostra, and Augustus finished the job, framing the square with the Basilicae Aemilia and Julia and closing its SE end with the temple of his deified father. The fire of 283 under Carinus led to a Diocletianic rebuilding (the five honorific columns along the south side), and the last monument added was the Column of Phocas in 608. The square itself was never larger than about 120 by 50 m.",
+   "event": "draining_of_the_forum",
+   "footprint": [
+    [
+     12.4858,
+     41.892
+    ],
+    [
+     12.4861,
+     41.8924
+    ],
+    [
+     12.4848,
+     41.893
+    ],
+    [
+     12.4845,
+     41.8926
+    ],
+    [
+     12.4858,
+     41.892
+    ]
+   ]
+  },
+  {
+   "id": "comitium",
+   "name": "Comitium",
+   "city": "rome",
+   "loc": [
+    12.485,
+    41.8929
+   ],
+   "built": -600,
+   "begun": -650,
+   "builder": null,
+   "phases": [
+    {
+     "y": -338,
+     "t": "Rostra decorated with the beaks of Antium"
+    },
+    {
+     "y": -145,
+     "t": "tribune C. Licinius Crassus first turns to address the people in the Forum instead of the Comitium"
+    },
+    {
+     "y": -44,
+     "t": "covered by Caesar's new Curia and Forum layout"
+    }
+   ],
+   "destroyed": null,
+   "type": "other",
+   "summary": "The consecrated assembly space in front of the Senate house where the curiate and early tribal assemblies met, magistrates spoke from the Rostra, and the Twelve Tables were displayed on bronze. Boni's excavations found more than twenty superimposed pavements from the 7th century BC onward. Coarelli reconstructs a 3rd-century BC circular stepped arena like the ekklesiasteria of Paestum and Agrigento; Carafa and Amici argue the steps were straight. Here stood the fig tree Ruminalis (moved by Attus Navius), the statue of Marsyas, the column of Maenius and the Graecostasis for foreign envoys. Caesar's rebuilding of the Curia from 44 BC buried most of it, and voting moved to the Saepta in the Campus Martius.",
+   "event": "rostra_and_column_of_maenius"
+  },
+  {
+   "id": "lapis_niger",
+   "name": "Lapis Niger and Volcanal",
+   "city": "rome",
+   "loc": [
+    12.4849,
+    41.893
+   ],
+   "built": -570,
+   "begun": null,
+   "builder": null,
+   "phases": [
+    {
+     "y": -80,
+     "t": "archaic shrine buried and marked with black marble during repaving"
+    },
+    {
+     "y": 1899,
+     "t": "excavated by Boni"
+    }
+   ],
+   "destroyed": null,
+   "type": "other",
+   "summary": "A square of black marble set into the Comitium pavement in the late Republic over an archaic sanctuary that Festus calls a place of ill omen, said to be the tomb of Romulus, of Faustulus or of Hostus Hostilius. Giacomo Boni found beneath it in 1899 an altar, a truncated cone and a tufa cippus with the oldest substantial Latin inscription (c. 570-550 BC), written boustrophedon, that mentions a RECEI (king) and a kalator (herald), likely a sacred law. The complex was ritually buried, probably in the Sullan or Caesarian repaving, which is when the black stone was laid to mark it."
+  },
+  {
+   "id": "curia_hostilia",
+   "name": "Curia Hostilia",
+   "city": "rome",
+   "loc": [
+    12.4851,
+    41.8932
+   ],
+   "built": -600,
+   "begun": null,
+   "builder": null,
+   "builderName": "traditionally Tullus Hostilius; enlarged by Sulla",
+   "phases": [
+    {
+     "y": -80,
+     "t": "enlarged by Sulla"
+    },
+    {
+     "y": -52,
+     "t": "burned with Clodius' corpse"
+    },
+    {
+     "y": -44,
+     "t": "demolished by Caesar"
+    }
+   ],
+   "destroyed": -44,
+   "type": "other",
+   "summary": "The old Senate house, attributed to King Tullus Hostilius, facing south onto the Comitium. Sulla enlarged it in 80 BC when he doubled the Senate to 600. In January 52 BC the supporters of the murdered Clodius carried his body inside and burned it on a pyre of benches and records, destroying the building and the adjoining Basilica Porcia. Faustus Sulla rebuilt it, but Caesar demolished it within a few years to make way for the temple of Felicitas and his own new Curia on a different alignment. Its exact footprint is unknown; it probably lay under the church of Santi Luca e Martina.",
+   "event": "murder_of_clodius",
+   "certainty": "location approximate"
+  },
+  {
+   "id": "curia_iulia",
+   "name": "Curia Iulia",
+   "city": "rome",
+   "loc": [
+    12.4853,
+    41.8932
+   ],
+   "built": -29,
+   "begun": -44,
+   "builder": "julius_caesar",
+   "builderName": "Caesar; completed by Augustus; rebuilt by Diocletian",
+   "phases": [
+    {
+     "y": 94,
+     "t": "restored by Domitian"
+    },
+    {
+     "y": 283,
+     "t": "burned under Carinus"
+    },
+    {
+     "y": 300,
+     "t": "rebuilt by Diocletian (present building)"
+    },
+    {
+     "y": 357,
+     "t": "Altar of Victory removed by Constantius II"
+    },
+    {
+     "y": 382,
+     "t": "Altar removed again by Gratian"
+    },
+    {
+     "y": 384,
+     "t": "Symmachus' Relatio III pleads for its return"
+    },
+    {
+     "y": 630,
+     "t": "converted into the church of Sant'Adriano by Honorius I"
+    }
+   ],
+   "destroyed": null,
+   "type": "other",
+   "summary": "The Senate house begun by Caesar in 44 BC and dedicated by Octavian on 28 August 29 BC, when he installed the Altar and statue of Victory taken from Tarentum. The present brick building, about 25 by 18 m and 21 m high inside, is the rebuilding by Diocletian after the fire of 283 under Carinus, with its original marble floor of opus sectile and the stepped platforms for about 300 senators' chairs. The Altar of Victory became the flashpoint of late paganism: removed by Constantius II in 357, restored, removed again by Gratian in 382, and defended in vain by Symmachus in his third Relatio of 384 against Ambrose. Pope Honorius I made it the church of Sant'Adriano around 630, which is why it survived; Mussolini's restorers stripped the church away in 1930-36.",
+   "footprint": [
+    [
+     12.4852,
+     41.893
+    ],
+    [
+     12.4854,
+     41.8928
+    ],
+    [
+     12.4856,
+     41.8929
+    ],
+    [
+     12.4856,
+     41.893
+    ],
+    [
+     12.4854,
+     41.8931
+    ],
+    [
+     12.4853,
+     41.893
+    ],
+    [
+     12.4852,
+     41.893
+    ]
+   ]
+  },
+  {
+   "id": "rostra",
+   "name": "Rostra",
+   "city": "rome",
+   "loc": [
+    12.4847,
+    41.8927
+   ],
+   "built": -338,
+   "begun": null,
+   "builder": "julius_caesar",
+   "builderName": "Republican Rostra from 338 BC; moved by Caesar 44 BC",
+   "phases": [
+    {
+     "y": -338,
+     "t": "beaks of Antium attached"
+    },
+    {
+     "y": -44,
+     "t": "rebuilt by Caesar at the NW end of the Forum"
+    },
+    {
+     "y": -43,
+     "t": "Cicero's head and hands displayed"
+    },
+    {
+     "y": 470,
+     "t": "Rostra Vandalica extension by Junius Valentinus"
+    }
+   ],
+   "destroyed": null,
+   "type": "other",
+   "summary": "The speakers' platform, named for the bronze beaks (rostra) of the Antiate fleet nailed to it by C. Maenius in 338 BC. The Republican Rostra stood on the edge of the Comitium; Caesar moved it in 44 BC to the NW end of the Forum on the axis of the square, and it was finished after his death (Rostra Augusti), 24 m long and 3 m high with a curved rear stair. Cicero's head and hands were nailed here in December 43 BC on Antony's order. The northern extension added about 470 by the urban prefect Junius Valentinus to celebrate a naval victory over the Vandals is called the Rostra Vandalica. Statues of honour crowded it until late antiquity.",
+   "event": "rostra_and_column_of_maenius"
+  },
+  {
+   "id": "carcer_tullianum",
+   "name": "Carcer Tullianum",
+   "city": "rome",
+   "loc": [
+    12.4846,
+    41.8933
+   ],
+   "built": -600,
+   "begun": null,
+   "builder": null,
+   "phases": [
+    {
+     "y": -104,
+     "t": "death of Jugurtha"
+    },
+    {
+     "y": -63,
+     "t": "execution of the Catilinarians"
+    },
+    {
+     "y": -46,
+     "t": "execution of Vercingetorix"
+    },
+    {
+     "y": 22,
+     "t": "façade rebuilt (consuls Vibius Rufinus and Cocceius Nerva)"
+    },
+    {
+     "y": 71,
+     "t": "execution of Simon bar Giora"
+    }
+   ],
+   "destroyed": null,
+   "type": "other",
+   "summary": "Rome's state prison under the Capitol: an upper trapezoidal chamber and below it the Tullianum, a circular chamber originally reached only through a hole in the floor, probably an archaic cistern or spring house (tullius = spring). It was a place of execution, not detention: Jugurtha starved to death here in 104 BC, the Catilinarian conspirators were strangled on 5 December 63 BC, Vercingetorix was killed after Caesar's triumph of 46 BC, and Simon bar Giora after the Flavian triumph of 71. The façade inscription names the consuls C. Vibius Rufinus and M. Cocceius Nerva (suffect AD 21 or 22). Medieval legend placed St Peter's imprisonment here, and it became San Pietro in Carcere."
+  },
+  {
+   "id": "temple_of_saturn",
+   "name": "Temple of Saturn",
+   "city": "rome",
+   "loc": [
+    12.4842,
+    41.8925
+   ],
+   "built": -497,
+   "begun": null,
+   "builder": null,
+   "builderName": "consul of 497 BC (tradition varies); rebuilt by L. Munatius Plancus",
+   "phases": [
+    {
+     "y": -49,
+     "t": "Caesar seizes the treasury"
+    },
+    {
+     "y": -42,
+     "t": "rebuilt by Munatius Plancus"
+    },
+    {
+     "y": 283,
+     "t": "damaged in the fire under Carinus"
+    },
+    {
+     "y": 380,
+     "t": "restored after a fire (inscription; date c. 360-390)"
+    }
+   ],
+   "destroyed": null,
+   "type": "temple",
+   "summary": "One of the oldest temples in Rome, dedicated in 498 or 497 BC (the sources disagree on the dedicator). Its high podium housed the aerarium Saturni, the state treasury and archive, where in 49 BC Caesar forced the doors against the tribune L. Metellus and took 15,000 gold bars, 30,000 silver bars and 30 million sesterces (Pliny NH 33.56). L. Munatius Plancus rebuilt it from his Alpine spoils in 42 BC. The eight surviving columns, granite shafts of unequal length set on recycled bases, belong to a late-4th-century restoration recorded by the frieze: Senatus populusque Romanus incendio consumptum restituit. The Saturnalia began here on 17 December, when the woollen bonds on the cult statue's feet were loosed.",
+   "event": "temple_of_saturn_497",
+   "footprint": [
+    [
+     12.4838,
+     41.8923
+    ],
+    [
+     12.4841,
+     41.8922
+    ],
+    [
+     12.4843,
+     41.8925
+    ],
+    [
+     12.4842,
+     41.8925
+    ],
+    [
+     12.4841,
+     41.8926
+    ],
+    [
+     12.4839,
+     41.8924
+    ],
+    [
+     12.4838,
+     41.8923
+    ]
+   ]
+  },
+  {
+   "id": "temple_of_concord",
+   "name": "Temple of Concord",
+   "city": "rome",
+   "loc": [
+    12.4843,
+    41.893
+   ],
+   "built": -367,
+   "begun": null,
+   "builder": "marcus_furius_camillus",
+   "builderName": "vowed by Camillus; rebuilt by Opimius and by Tiberius",
+   "phases": [
+    {
+     "y": -121,
+     "t": "rebuilt by Opimius after the death of Gaius Gracchus"
+    },
+    {
+     "y": -63,
+     "t": "Senate debates the fate of the Catilinarians"
+    },
+    {
+     "y": 10,
+     "t": "rededicated by Tiberius as Concordia Augusta"
+    },
+    {
+     "y": 1450,
+     "t": "burned for lime"
+    }
+   ],
+   "destroyed": 1450,
+   "type": "temple",
+   "summary": "Vowed, according to Ovid and Plutarch, by Camillus in 367 BC to mark the Licinio-Sextian compromise between patricians and plebeians, though the early temple is archaeologically elusive. L. Opimius rebuilt it in 121 BC after massacring Gaius Gracchus and 3,000 followers, and someone scrawled on it at night 'the work of madness makes the temple of concord'. Cicero convened the Senate here on 5 December 63 BC for the debate on the Catilinarians. Tiberius rebuilt it from German spoils as the Aedes Concordiae Augustae, dedicated 16 January AD 10, with an unusual transverse cella 45 m wide that became a museum of Greek masterpieces. Its marble was burned for lime in the 1450s.",
+   "event": "temple_of_concord_367"
+  },
+  {
+   "id": "temple_of_vespasian",
+   "name": "Temple of Divus Vespasianus",
+   "city": "rome",
+   "loc": [
+    12.484,
+    41.8928
+   ],
+   "built": 87,
+   "begun": 79,
+   "builder": "titus",
+   "builderName": "Titus and Domitian",
+   "phases": [
+    {
+     "y": 205,
+     "t": "restored by Septimius Severus and Caracalla"
+    },
+    {
+     "y": 1811,
+     "t": "columns consolidated by Valadier"
+    }
+   ],
+   "destroyed": null,
+   "type": "temple",
+   "summary": "Begun by Titus after his father's death in 79 and finished by Domitian, who added Titus to the dedication; it was squeezed between the Temple of Concord and the Tabularium, so its staircase had to run inside the columns. Three Corinthian columns with an entablature carved with sacrificial instruments survive. The surviving fragment of inscription [rest]ITVER[unt] records a restoration by Septimius Severus and Caracalla. The columns were consolidated by Valadier in 1811-12 when they were buried to two thirds of their height."
+  },
+  {
+   "id": "porticus_deorum_consentium",
+   "name": "Porticus Deorum Consentium",
+   "city": "rome",
+   "loc": [
+    12.4838,
+    41.8926
+   ],
+   "built": 90,
+   "begun": null,
+   "builder": null,
+   "phases": [
+    {
+     "y": 367,
+     "t": "restored by Vettius Agorius Praetextatus"
+    },
+    {
+     "y": 1858,
+     "t": "columns re-erected"
+    }
+   ],
+   "destroyed": null,
+   "type": "temple",
+   "summary": "A colonnaded shrine at the foot of the Tabularium housing gilded statues of the twelve Di Consentes, the Etruscan-Roman council of gods (six male, six female) listed by Ennius. The Flavian structure was restored in 367 by the urban prefect Vettius Agorius Praetextatus, the leading pagan senator of his day, as the inscription proudly states: the last public restoration of a pagan cult monument in Rome, a decade before Gratian's anti-pagan measures. Nine columns were re-erected in 1858."
+  },
+  {
+   "id": "tabularium",
+   "name": "Tabularium",
+   "city": "rome",
+   "loc": [
+    12.4837,
+    41.8929
+   ],
+   "built": -78,
+   "begun": null,
+   "builder": null,
+   "builderName": "Q. Lutatius Catulus (cos. 78 BC)",
+   "phases": [
+    {
+     "y": 1143,
+     "t": "Palazzo Senatorio built over it"
+    }
+   ],
+   "destroyed": null,
+   "type": "other",
+   "summary": "The massive substructure closing the Forum's west end against the Capitoline saddle, built after the fire of 83 BC by Q. Lutatius Catulus (consul 78) and inscribed as substructio et tabularium (CIL VI 1314). Its function is debated: the traditional view is the state record office for bronze laws; others see a monumental terrace for Capitoline temples (Veiovis lay partly within it). Its Doric arcade framed with half columns is an early example of the Roman arch-and-order system. The Palazzo Senatorio was built on top from the 12th century and refaced by Michelangelo, making it the seat of Rome's city government ever since."
+  },
+  {
+   "id": "temple_of_veiovis",
+   "name": "Temple of Veiovis",
+   "city": "rome",
+   "loc": [
+    12.4831,
+    41.8929
+   ],
+   "built": -192,
+   "begun": null,
+   "builder": null,
+   "builderName": "L. Furius Purpureus",
+   "phases": [
+    {
+     "y": -78,
+     "t": "rebuilt with the Tabularium"
+    },
+    {
+     "y": 1939,
+     "t": "cult statue found in situ"
+    }
+   ],
+   "destroyed": null,
+   "type": "temple",
+   "summary": "Vowed in 200 BC by the praetor L. Furius Purpureus during the battle against the Gauls at Cremona and dedicated in 192 BC in the hollow between the two peaks of the Capitol (inter duos lucos), the old asylum of Romulus. Veiovis was a young, sinister Jupiter, shown with arrows and a goat. The temple was rebuilt around 78 BC with the Tabularium and has an unusual transverse cella. Excavations in 1939 found the headless marble cult statue in place.",
+   "certainty": "dating of the vow and dedication follows Livy 31.21 and 35.41"
+  },
+  {
+   "id": "basilica_aemilia",
+   "name": "Basilica Aemilia (Fulvia)",
+   "city": "rome",
+   "loc": [
+    12.4861,
+    41.8926
+   ],
+   "built": -179,
+   "begun": null,
+   "builder": "marcus_aemilius_lepidus_cos187",
+   "builderName": "censors M. Aemilius Lepidus and M. Fulvius Nobilior",
+   "phases": [
+    {
+     "y": -55,
+     "t": "rebuilt by L. Aemilius Paullus with Caesar's money"
+    },
+    {
+     "y": -34,
+     "t": "dedicated by Paullus Aemilius Lepidus"
+    },
+    {
+     "y": -14,
+     "t": "fire; Augustan rebuilding with the Porticus of Gaius and Lucius"
+    },
+    {
+     "y": 22,
+     "t": "restored by M. Aemilius Lepidus (Tac. Ann. 3.72)"
+    },
+    {
+     "y": 410,
+     "t": "burned in Alaric's sack"
+    }
+   ],
+   "destroyed": 410,
+   "type": "basilica",
+   "summary": "Built in 179 BC by the censors M. Aemilius Lepidus and M. Fulvius Nobilior behind a row of shops on the north side of the Forum, it became a family monument of the Aemilii. L. Aemilius Paullus (consul 50) rebuilt it from 55 BC with Caesar's Gallic money (the bribe that bought his neutrality), and his son dedicated it in 34 BC. After a fire in 14 BC Augustus rebuilt it with a two-storey façade named the Porticus of Gaius and Lucius; Pliny ranked it among the three most beautiful buildings in the world. It burned in Alaric's sack of 410: bronze coins melted into the pavement are still visible. A Corinthian portico was set up in front after 410, and the basilica was stripped in the Renaissance.",
+   "event": "censorship_of_lepidus_and_nobilior",
+   "footprint": [
+    [
+     12.4855,
+     41.8928
+    ],
+    [
+     12.4855,
+     41.8927
+    ],
+    [
+     12.486,
+     41.8925
+    ],
+    [
+     12.4865,
+     41.8923
+    ],
+    [
+     12.4867,
+     41.8925
+    ],
+    [
+     12.4857,
+     41.8929
+    ],
+    [
+     12.4855,
+     41.8928
+    ]
+   ]
+  },
+  {
+   "id": "basilica_iulia",
+   "name": "Basilica Julia",
+   "city": "rome",
+   "loc": [
+    12.4847,
+    41.892
+   ],
+   "built": -46,
+   "begun": -54,
+   "builder": "julius_caesar",
+   "builderName": "Caesar; completed by Augustus",
+   "phases": [
+    {
+     "y": -46,
+     "t": "dedicated unfinished"
+    },
+    {
+     "y": 12,
+     "t": "rebuilt and rededicated by Augustus"
+    },
+    {
+     "y": 283,
+     "t": "fire under Carinus; Diocletianic rebuilding"
+    },
+    {
+     "y": 377,
+     "t": "statues added by Gabinius Vettius Probianus"
+    }
+   ],
+   "destroyed": null,
+   "type": "basilica",
+   "summary": "Begun by Caesar in 54 BC over the Basilica Sempronia and dedicated unfinished in 46 BC; burned soon after, it was rebuilt and enlarged by Augustus, who in the Res Gestae (20) named it for his grandsons Gaius and Lucius and completed by AD 12. At 101 by 49 m with a central hall surrounded by double aisles, it housed the centumviral court, sitting in four sections; Pliny the Younger describes pleading here to packed galleries. Gaming boards and sketches scratched by idlers survive on its steps. Burned again in 283, it was restored by Diocletian and again in 377 by the urban prefect Gabinius Vettius Probianus, who set up statues on its front.",
+   "footprint": [
+    [
+     12.4841,
+     41.892
+    ],
+    [
+     12.4852,
+     41.8915
+    ],
+    [
+     12.4855,
+     41.892
+    ],
+    [
+     12.4843,
+     41.8924
+    ],
+    [
+     12.4841,
+     41.892
+    ]
+   ]
+  },
+  {
+   "id": "basilica_sempronia",
+   "name": "Basilica Sempronia",
+   "city": "rome",
+   "loc": [
+    12.4847,
+    41.892
+   ],
+   "built": -169,
+   "begun": null,
+   "builder": "tiberius_sempronius_gracchus_cos177",
+   "phases": [
+    {
+     "y": -54,
+     "t": "demolished for the Basilica Julia"
+    }
+   ],
+   "destroyed": -54,
+   "type": "basilica",
+   "summary": "Built in 169 BC by the censor Ti. Sempronius Gracchus, father of the tribunes, who bought and demolished the house of Scipio Africanus behind the Tabernae Veteres. It was replaced by Caesar's Basilica Julia; remains of its tufa pavement and earlier houses were found under the later floor."
+  },
+  {
+   "id": "basilica_porcia_mon",
+   "name": "Basilica Porcia",
+   "city": "rome",
+   "loc": [
+    12.4847,
+    41.8934
+   ],
+   "built": -184,
+   "begun": null,
+   "builder": "cato_the_elder",
+   "phases": [
+    {
+     "y": -52,
+     "t": "burned with the Curia"
+    }
+   ],
+   "destroyed": -52,
+   "type": "basilica",
+   "summary": "Rome's first basilica, built by Cato the Elder as censor in 184 BC on land bought from two private owners beside the Curia, against opposition from the Senate. The tribunes of the plebs used it as their seat. It burned with the Curia Hostilia during Clodius' funeral in January 52 BC and was not rebuilt.",
+   "event": "basilica_porcia",
+   "certainty": "location approximate"
+  },
+  {
+   "id": "basilica_opimia",
+   "name": "Basilica Opimia",
+   "city": "rome",
+   "loc": [
+    12.4846,
+    41.8933
+   ],
+   "built": -121,
+   "begun": null,
+   "builder": "opimius",
+   "phases": [],
+   "destroyed": null,
+   "type": "basilica",
+   "summary": "Built by L. Opimius in 121 BC next to his rebuilt Temple of Concord, probably on the site later absorbed by Tiberius' enlargement of that temple. Known only from Varro and a few mentions.",
+   "certainty": "location approximate; probably absorbed by Tiberius' rebuilding of the Temple of Concord"
+  },
+  {
+   "id": "temple_of_castor",
+   "name": "Temple of Castor and Pollux",
+   "city": "rome",
+   "loc": [
+    12.4856,
+    41.8917
+   ],
+   "built": -484,
+   "begun": null,
+   "builder": "aulus_postumius_albus_regillensis",
+   "builderName": "vowed by A. Postumius, dedicated by his son",
+   "phases": [
+    {
+     "y": -117,
+     "t": "rebuilt by L. Caecilius Metellus Dalmaticus"
+    },
+    {
+     "y": -75,
+     "t": "Verres' fraudulent repair contract"
+    },
+    {
+     "y": 6,
+     "t": "rebuilt by Tiberius"
+    },
+    {
+     "y": 39,
+     "t": "Caligula makes it the vestibule of the palace"
+    }
+   ],
+   "destroyed": null,
+   "type": "temple",
+   "summary": "Vowed by the dictator A. Postumius at Lake Regillus, where the Dioscuri fought for Rome and then watered their horses at the nearby spring of Juturna, and dedicated by his son in 484 BC. L. Caecilius Metellus Dalmaticus rebuilt it in 117 BC; Verres embezzled a repair contract on its columns in 75 BC. Its podium served as a tribunal for speakers, held the office of weights and measures, and had strongrooms rented as bank deposits. Tiberius rebuilt it in Luna marble, dedicated in AD 6 in his and his brother Drusus' names. Caligula turned it into the vestibule of his palace. The three surviving columns, about 12.5 m tall, have been a landmark of the Forum since the Middle Ages.",
+   "event": "temple_of_castor_484",
+   "footprint": [
+    [
+     12.4853,
+     41.8915
+    ],
+    [
+     12.4857,
+     41.8914
+    ],
+    [
+     12.4857,
+     41.8915
+    ],
+    [
+     12.4858,
+     41.8914
+    ],
+    [
+     12.4858,
+     41.8915
+    ],
+    [
+     12.4858,
+     41.8916
+    ],
+    [
+     12.486,
+     41.8918
+    ],
+    [
+     12.4859,
+     41.8918
+    ],
+    [
+     12.4858,
+     41.8919
+    ],
+    [
+     12.4856,
+     41.8919
+    ],
+    [
+     12.4856,
+     41.892
+    ],
+    [
+     12.4853,
+     41.8915
+    ]
+   ]
+  },
+  {
+   "id": "lacus_iuturnae",
+   "name": "Lacus Iuturnae",
+   "city": "rome",
+   "loc": [
+    12.486,
+    41.8916
+   ],
+   "built": -484,
+   "begun": null,
+   "builder": null,
+   "phases": [
+    {
+     "y": -117,
+     "t": "rebuilt with the temple of Castor"
+    },
+    {
+     "y": 328,
+     "t": "statio aquarum installed"
+    }
+   ],
+   "destroyed": null,
+   "type": "other",
+   "summary": "The spring and basin of the nymph Juturna where the Dioscuri were seen watering their horses after Lake Regillus (496) and again after Pydna (168), each time announcing the victory. Rebuilt in the 2nd century BC and under Trajan, it became in the 4th century the office of the water administration (statio aquarum). Pagan statues of the twins were found in the basin, possibly hidden in late antiquity."
+  },
+  {
+   "id": "temple_of_divus_iulius",
+   "name": "Temple of Divus Iulius",
+   "city": "rome",
+   "loc": [
+    12.4861,
+    41.892
+   ],
+   "built": -29,
+   "begun": -42,
+   "builder": "augustus",
+   "builderName": "voted by the triumvirs; dedicated by Octavian",
+   "phases": [
+    {
+     "y": -44,
+     "t": "cremation of Caesar; column and altar"
+    },
+    {
+     "y": -29,
+     "t": "dedication"
+    }
+   ],
+   "destroyed": null,
+   "type": "temple",
+   "summary": "Built where Caesar's body was cremated by the crowd on 20 March 44 BC. A column and altar were set up first and removed by Dolabella; the triumvirs voted the temple in 42 BC and Octavian dedicated it on 18 August 29 BC, the first temple in Rome to a deified Roman statesman. The platform in front, decorated with the beaks of ships from Actium, was the Rostra Aedis Divi Iuli, from which Augustus and Tiberius delivered funeral orations. The semicircular niche in the podium front marks the altar on the cremation site; visitors still leave flowers there on the Ides of March."
+  },
+  {
+   "id": "arch_of_augustus_forum",
+   "name": "Arch of Augustus (Parthian Arch)",
+   "city": "rome",
+   "loc": [
+    12.4861,
+    41.8917
+   ],
+   "built": -19,
+   "begun": null,
+   "builder": "augustus",
+   "phases": [
+    {
+     "y": -29,
+     "t": "Actian arch voted"
+    },
+    {
+     "y": 1546,
+     "t": "Fasti fragments found nearby"
+    }
+   ],
+   "destroyed": null,
+   "type": "arch",
+   "summary": "A triple arch between the Temples of Divus Iulius and Castor voted for the diplomatic recovery of the standards lost by Crassus at Carrhae, returned by Phraates IV in 20 BC. Dio also records a single arch voted for Actium in 29 BC; whether it was replaced or rebuilt is debated. Coarelli and others place the Fasti consulares and triumphales (the Fasti Capitolini, found nearby in 1546) on its walls; Degrassi preferred the Regia.",
+   "certainty": "identification of the foundations and the Fasti placement debated"
+  },
+  {
+   "id": "temple_of_vesta",
+   "name": "Temple of Vesta",
+   "city": "rome",
+   "loc": [
+    12.4865,
+    41.8917
+   ],
+   "built": -600,
+   "begun": null,
+   "builder": null,
+   "builderName": "traditionally Numa",
+   "phases": [
+    {
+     "y": -241,
+     "t": "fire; Metellus saves the Palladium"
+    },
+    {
+     "y": -210,
+     "t": "fire"
+    },
+    {
+     "y": 64,
+     "t": "Great Fire"
+    },
+    {
+     "y": 191,
+     "t": "fire; rebuilt by Julia Domna"
+    },
+    {
+     "y": 394,
+     "t": "closed under Theodosius"
+    },
+    {
+     "y": 1930,
+     "t": "partial reconstruction"
+    }
+   ],
+   "destroyed": null,
+   "type": "temple",
+   "summary": "A small round temple housing the eternal flame and, in an inner penus no man could enter, the Palladium and other pignora imperii. Its form recalled the archaic hut. It burned repeatedly: in 241 BC the pontifex maximus L. Caecilius Metellus rescued the Palladium and was said to have lost his sight; in 210 BC slaves saved it; in 14 BC and AD 64; and in 191 under Commodus, after which Julia Domna rebuilt it (the present remains). Theodosius closed it in 394 and the flame was extinguished; Coelia Concordia (c. 385) is the last known Virgo Maxima. Part of the Severan rotunda was reconstructed in 1930."
+  },
+  {
+   "id": "atrium_vestae",
+   "name": "Atrium Vestae (House of the Vestals)",
+   "city": "rome",
+   "loc": [
+    12.4868,
+    41.8914
+   ],
+   "built": -600,
+   "begun": null,
+   "builder": null,
+   "phases": [
+    {
+     "y": 64,
+     "t": "rebuilt after the Great Fire"
+    },
+    {
+     "y": 191,
+     "t": "Severan rebuilding"
+    },
+    {
+     "y": 394,
+     "t": "abandoned by the Vestals"
+    }
+   ],
+   "destroyed": null,
+   "type": "palace",
+   "summary": "Residence of the six Vestal Virgins, rebuilt after the fire of 64 and repeatedly under Trajan and Septimius Severus into a two-storey courtyard house of about 50 rooms around pools and gardens. Statues of the Virgines Maximae with honorific bases line the court; one base of 364 has the name chiselled out, possibly that of a Vestal who converted to Christianity (traditionally identified as Claudia). After 394 it was taken over by imperial and later papal officials."
+  },
+  {
+   "id": "regia",
+   "name": "Regia",
+   "city": "rome",
+   "loc": [
+    12.4865,
+    41.8919
+   ],
+   "built": -600,
+   "begun": null,
+   "builder": null,
+   "builderName": "traditionally Numa; rebuilt by Cn. Domitius Calvinus",
+   "phases": [
+    {
+     "y": -36,
+     "t": "rebuilt in marble by Domitius Calvinus"
+    }
+   ],
+   "destroyed": null,
+   "type": "other",
+   "summary": "Traditionally the house of King Numa and afterwards the office of the pontifex maximus and the rex sacrorum, a small irregular building on the Sacra Via. Excavation has revealed successive phases from the late 7th century BC. It held the sacrarium of Mars with the sacred shields (ancilia) and spears, whose spontaneous movement was a prodigy, and the shrine of Ops Consiva. Cn. Domitius Calvinus rebuilt it in marble in 36 BC from Spanish spoils; the Fasti consulares may have been inscribed on its walls."
+  },
+  {
+   "id": "domus_publica",
+   "name": "Domus Publica",
+   "city": "rome",
+   "loc": [
+    12.4869,
+    41.8915
+   ],
+   "built": -500,
+   "begun": null,
+   "builder": null,
+   "phases": [
+    {
+     "y": -63,
+     "t": "Caesar takes up residence"
+    },
+    {
+     "y": -62,
+     "t": "Bona Dea scandal"
+    },
+    {
+     "y": -12,
+     "t": "given to the Vestals by Augustus"
+    }
+   ],
+   "destroyed": null,
+   "type": "palace",
+   "summary": "The official residence of the pontifex maximus beside the Atrium Vestae. Caesar lived here from his election as pontifex maximus in 63 BC until the Ides of March; the Bona Dea scandal of December 62 BC, when Clodius entered disguised as a woman, happened in this house. Augustus, elected pontifex maximus in 12 BC, gave it to the Vestals and made part of his Palatine house public instead.",
+   "certainty": "location approximate"
+  },
+  {
+   "id": "temple_of_antoninus_and_faustina",
+   "name": "Temple of Antoninus and Faustina",
+   "city": "rome",
+   "loc": [
+    12.4868,
+    41.8922
+   ],
+   "built": 141,
+   "begun": null,
+   "builder": "antoninus_pius",
+   "phases": [
+    {
+     "y": 161,
+     "t": "rededicated to Antoninus and Faustina"
+    },
+    {
+     "y": 1602,
+     "t": "church façade"
+    }
+   ],
+   "destroyed": null,
+   "type": "temple",
+   "summary": "Dedicated by Antoninus Pius in 141 to his deified wife Faustina the Elder; after his own death in 161 the Senate added his name in a second line of the inscription. Its ten cipollino columns, 17 m high, survive because the temple became the church of San Lorenzo in Miranda (attested by the 11th century; façade of 1602). Deep grooves at the top of the columns are traces of a failed medieval attempt to pull them down with ropes. Next to it Boni excavated in 1902 the archaic Sepolcreto with Iron Age cremation and inhumation graves."
+  },
+  {
+   "id": "temple_of_divus_romulus",
+   "name": "'Temple of Divus Romulus'",
+   "city": "rome",
+   "loc": [
+    12.4873,
+    41.892
+   ],
+   "built": 309,
+   "begun": null,
+   "builder": "maxentius",
+   "phases": [
+    {
+     "y": 527,
+     "t": "incorporated into Santi Cosma e Damiano"
+    }
+   ],
+   "destroyed": null,
+   "type": "temple",
+   "summary": "A domed brick rotunda on the Sacra Via with its original bronze doors still working in their lock. Traditionally the shrine of Maxentius' son Romulus, deified at his death in 309, on the evidence of coins; others identify it as the temples of the Penates or of Jupiter Stator, or as a monumental vestibule of the Templum Pacis rebuilt by Constantine. In 527 Pope Felix IV made it the vestibule of Santi Cosma e Damiano.",
+   "certainty": "identification debated"
+  },
+  {
+   "id": "basilica_nova",
+   "name": "Basilica Nova (Basilica of Maxentius and Constantine)",
+   "city": "rome",
+   "loc": [
+    12.4885,
+    41.8918
+   ],
+   "built": 313,
+   "begun": 307,
+   "builder": "maxentius",
+   "builderName": "Maxentius; completed by Constantine",
+   "phases": [
+    {
+     "y": 313,
+     "t": "completed by Constantine with new entrance and apse"
+    },
+    {
+     "y": 626,
+     "t": "bronze roof tiles removed for St Peter's"
+    },
+    {
+     "y": 847,
+     "t": "nave and south aisle collapse in earthquake"
+    },
+    {
+     "y": 1486,
+     "t": "colossus fragments found"
+    }
+   ],
+   "destroyed": null,
+   "type": "basilica",
+   "summary": "The last and largest basilica in Rome, begun by Maxentius around 307-308 on the site of the Horrea Piperataria and finished by Constantine, who added a south entrance on the Sacra Via and a northern apse. The central nave, 80 m long and 35 m high under three cross vaults, was modelled on the frigidaria of the imperial baths; the north aisle's three coffered barrel vaults (spans 23 m) still stand. A seated acrolithic colossus of Constantine, perhaps recut from Maxentius, stood in the west apse; its head, hand and feet (found 1486) are in the Capitoline Museums. Honorius I removed its gilded bronze roof tiles for St Peter's in 626, and the south aisle and nave collapsed, probably in the earthquake of 847.",
+   "event": "basilica_of_maxentius",
+   "footprint": [
+    [
+     12.4875,
+     41.8917
+    ],
+    [
+     12.4887,
+     41.8914
+    ],
+    [
+     12.4892,
+     41.8919
+    ],
+    [
+     12.4885,
+     41.8922
+    ],
+    [
+     12.488,
+     41.8923
+    ],
+    [
+     12.4879,
+     41.8921
+    ],
+    [
+     12.4877,
+     41.892
+    ],
+    [
+     12.4877,
+     41.8917
+    ],
+    [
+     12.4875,
+     41.8917
+    ]
+   ]
+  },
+  {
+   "id": "arch_of_titus",
+   "name": "Arch of Titus",
+   "city": "rome",
+   "loc": [
+    12.4886,
+    41.8908
+   ],
+   "built": 82,
+   "begun": null,
+   "builder": "domitian",
+   "phases": [
+    {
+     "y": 1100,
+     "t": "incorporated into the Frangipane fortress"
+    },
+    {
+     "y": 1821,
+     "t": "restored by Valadier"
+    }
+   ],
+   "destroyed": null,
+   "type": "arch",
+   "summary": "A single-bay arch at the summit of the Sacra Via erected by Domitian to his deified brother after 81 (inscription SENATVS POPVLVSQVE ROMANVS DIVO TITO). The passage reliefs show the triumph of 71: the spoils of the Jerusalem Temple, including the menorah, table and trumpets, carried by laurelled soldiers, and Titus in the triumphal chariot crowned by Victory; the vault shows his apotheosis on an eagle. It survived inside the Frangipane fortress and was restored by Valadier in 1821, who rebuilt the missing parts in travertine so they could be told from the original marble.",
+   "event": "flavian_triumph_71"
+  },
+  {
+   "id": "temple_of_venus_and_roma_mon",
+   "name": "Temple of Venus and Roma",
+   "city": "rome",
+   "loc": [
+    12.4897,
+    41.8909
+   ],
+   "built": 135,
+   "begun": 121,
+   "builder": "hadrian",
+   "phases": [
+    {
+     "y": 141,
+     "t": "completed under Antoninus Pius"
+    },
+    {
+     "y": 307,
+     "t": "fire; rebuilt by Maxentius"
+    },
+    {
+     "y": 625,
+     "t": "bronze roof tiles removed by Honorius I"
+    },
+    {
+     "y": 847,
+     "t": "earthquake"
+    }
+   ],
+   "destroyed": null,
+   "type": "temple",
+   "summary": "Hadrian's own design, founded on the Parilia (21 April) 121 on the site of Nero's vestibule, dedicated about 135 and finished under Antoninus Pius. It was the largest temple in Rome: a 145 by 100 m platform carrying a decastyle Greek-style temple 110 by 53 m with two cellae back to back, Venus facing the Colosseum and Roma the Forum (Amor is Roma reversed). Dio says Apollodorus mocked the design, noting that the seated goddesses would bang their heads if they stood up, and was exiled and killed. After a fire in 307 Maxentius rebuilt the cellae with coffered apses. Honorius I took its bronze tiles in 625, and the church of Santa Maria Nova (Santa Francesca Romana) was built in its western part.",
+   "event": "temple_of_venus_and_roma",
+   "footprint": [
+    [
+     12.4886,
+     41.8908
+    ],
+    [
+     12.489,
+     41.8906
+    ],
+    [
+     12.4903,
+     41.8902
+    ],
+    [
+     12.4907,
+     41.8909
+    ],
+    [
+     12.4904,
+     41.8912
+    ],
+    [
+     12.4895,
+     41.8914
+    ],
+    [
+     12.4895,
+     41.8912
+    ],
+    [
+     12.4897,
+     41.8912
+    ],
+    [
+     12.4894,
+     41.891
+    ],
+    [
+     12.4894,
+     41.8908
+    ],
+    [
+     12.4888,
+     41.8911
+    ],
+    [
+     12.4886,
+     41.8908
+    ]
+   ]
+  },
+  {
+   "id": "meta_sudans",
+   "name": "Meta Sudans",
+   "city": "rome",
+   "loc": [
+    12.4906,
+    41.8901
+   ],
+   "built": 90,
+   "begun": null,
+   "builder": "domitian",
+   "phases": [
+    {
+     "y": 1936,
+     "t": "demolished"
+    }
+   ],
+   "destroyed": 1936,
+   "type": "other",
+   "summary": "A conical fountain, 17 m tall, shaped like a circus turning post, built by Domitian at the junction of four Augustan regions and the triumphal route; an earlier Augustan fountain lay nearby. Its brick core stood until 1936, when Mussolini demolished it for the Via dell'Impero parade route; the foundations were re-excavated in the 1980s-90s."
+  },
+  {
+   "id": "colossus_neronis",
+   "name": "Colossus of Nero",
+   "city": "rome",
+   "loc": [
+    12.491,
+    41.8907
+   ],
+   "built": 75,
+   "begun": 64,
+   "builder": "nero",
+   "builderName": "Zenodorus for Nero; rededicated by Vespasian",
+   "phases": [
+    {
+     "y": 128,
+     "t": "moved by Hadrian"
+    },
+    {
+     "y": 192,
+     "t": "recast as Commodus-Hercules"
+    },
+    {
+     "y": 354,
+     "t": "last mention"
+    },
+    {
+     "y": 1936,
+     "t": "base demolished"
+    }
+   ],
+   "destroyed": null,
+   "type": "other",
+   "summary": "A bronze statue some 30-35 m high (Suetonius: 120 feet) by Zenodorus, made for the vestibule of the Domus Aurea with Nero's features. Vespasian made it the Sun god (Dio dates the rededication to 75). Hadrian moved it with 24 elephants, his architect Decrianus keeping it upright, to clear the site of Venus and Roma; Commodus recut the head as himself as Hercules, restored after his death. It is last mentioned in the Chronograph of 354; the amphitheatre took its medieval name from it. Its concrete base was demolished in 1936.",
+   "certainty": "statue's end undocumented"
+  },
+  {
+   "id": "arch_of_constantine_mon",
+   "name": "Arch of Constantine",
+   "city": "rome",
+   "loc": [
+    12.4907,
+    41.8898
+   ],
+   "built": 315,
+   "begun": null,
+   "builder": "constantine_i",
+   "builderName": "Senate and people of Rome for Constantine",
+   "phases": [
+    {
+     "y": 1733,
+     "t": "restored under Clement XII"
+    }
+   ],
+   "destroyed": null,
+   "type": "arch",
+   "summary": "Dedicated by the Senate on 25 July 315 for Constantine's decennalia and his victory over Maxentius, 'by divine inspiration' (instinctu divinitatis), a phrase that commits to no particular god. At 21 m it is the largest surviving Roman arch. Much of its sculpture is reused: Trajanic battle friezes, Hadrianic hunting tondi and Antonine panels from a lost arch of Marcus Aurelius, with the emperors' heads recut as Constantine and Licinius, alongside a new Constantinian frieze of the siege of Verona, Milvian Bridge and the emperor's oratio and largitio in Rome. Some argue the arch itself is a reworked Hadrianic monument; most date its core to 312-315.",
+   "event": "arch_of_constantine"
+  },
+  {
+   "id": "colosseum",
+   "name": "Amphitheatrum Flavium (Colosseum)",
+   "city": "rome",
+   "loc": [
+    12.4922,
+    41.8902
+   ],
+   "built": 80,
+   "begun": 70,
+   "builder": "vespasian",
+   "builderName": "Vespasian; inaugurated by Titus; completed by Domitian",
+   "phases": [
+    {
+     "y": 80,
+     "t": "inauguration with 100 days of games"
+    },
+    {
+     "y": 90,
+     "t": "hypogeum added by Domitian"
+    },
+    {
+     "y": 217,
+     "t": "fire after lightning strike"
+    },
+    {
+     "y": 240,
+     "t": "repairs completed under Gordian III"
+    },
+    {
+     "y": 443,
+     "t": "earthquake damage and restoration"
+    },
+    {
+     "y": 508,
+     "t": "restoration by Decius Marius Venantius Basilius"
+    },
+    {
+     "y": 523,
+     "t": "last recorded venatio"
+    },
+    {
+     "y": 1349,
+     "t": "earthquake destroys the south side"
+    }
+   ],
+   "destroyed": null,
+   "type": "entertainment",
+   "summary": "Begun by Vespasian around 70-72 on the drained lake of Nero's Domus Aurea, an explicit return of Nero's park to the people, and paid for (per a reconstructed dedicatory inscription) from the Jewish War spoils. Titus inaugurated it in 80 with 100 days of games in which Dio says 9,000 animals died; Domitian completed it and added the hypogeum. The ellipse measures 188 by 156 m, 48 m high, holding about 50,000 spectators by rank in four tiers. Lightning set it ablaze in 217 and repairs ran into the 240s. Earthquakes in 443 and 484 or 508 brought restorations by urban prefects. Gladiatorial combat faded out in the 430s; the last recorded venatio was in 523, given by the consul Anicius Maximus under Theodoric. The 1349 earthquake brought down the south side, which became a quarry.",
+   "event": "inauguration_of_the_colosseum",
+   "footprint": [
+    [
+     12.4913,
+     41.8906
+    ],
+    [
+     12.4915,
+     41.89
+    ],
+    [
+     12.492,
+     41.8897
+    ],
+    [
+     12.4928,
+     41.8896
+    ],
+    [
+     12.4931,
+     41.8898
+    ],
+    [
+     12.4933,
+     41.8901
+    ],
+    [
+     12.4934,
+     41.8901
+    ],
+    [
+     12.4934,
+     41.89
+    ],
+    [
+     12.4933,
+     41.8905
+    ],
+    [
+     12.4927,
+     41.8908
+    ],
+    [
+     12.4919,
+     41.8909
+    ],
+    [
+     12.4913,
+     41.8906
+    ]
+   ]
+  },
+  {
+   "id": "ludus_magnus",
+   "name": "Ludus Magnus",
+   "city": "rome",
+   "loc": [
+    12.495,
+    41.89
+   ],
+   "built": 90,
+   "begun": null,
+   "builder": "domitian",
+   "phases": [
+    {
+     "y": 110,
+     "t": "rebuilt by Trajan"
+    }
+   ],
+   "destroyed": null,
+   "type": "entertainment",
+   "summary": "The largest of the four imperial gladiatorial schools, built by Domitian east of the Colosseum and rebuilt by Trajan, with a training arena (63 by 42 m) ringed by seating for about 3,000 and cells for the fighters on two floors. A tunnel linked it to the Colosseum's hypogeum. The northern half is visible in Via Labicana."
+  },
+  {
+   "id": "column_of_phocas",
+   "name": "Column of Phocas",
+   "city": "rome",
+   "loc": [
+    12.4849,
+    41.8924
+   ],
+   "built": 608,
+   "begun": null,
+   "builder": null,
+   "builderName": "exarch Smaragdus for Phocas",
+   "phases": [
+    {
+     "y": 610,
+     "t": "Phocas overthrown; name erased"
+    },
+    {
+     "y": 1813,
+     "t": "base excavated"
+    }
+   ],
+   "destroyed": null,
+   "type": "column",
+   "summary": "The last monument erected in the Forum: a 13.6 m fluted column, reused from a 2nd-century building, on a brick stepped base, crowned on 1 August 608 with a gilded statue of the emperor Phocas by the exarch Smaragdus, probably in thanks for Phocas' gift of the Pantheon to Pope Boniface IV. Phocas was overthrown and killed by Heraclius in 610 and his name was erased from the inscription. The base was excavated in 1813 by the Duchess of Devonshire.",
+   "event": "column_of_phocas_608"
+  },
+  {
+   "id": "lacus_curtius",
+   "name": "Lacus Curtius",
+   "city": "rome",
+   "loc": [
+    12.4852,
+    41.8924
+   ],
+   "built": -362,
+   "begun": null,
+   "builder": null,
+   "phases": [
+    {
+     "y": -445,
+     "t": "fenced by the consul C. Curtius (one tradition)"
+    },
+    {
+     "y": -362,
+     "t": "leap of M. Curtius (one tradition)"
+    }
+   ],
+   "destroyed": null,
+   "type": "other",
+   "summary": "A paved, fenced pit in the middle of the Forum, the last trace of the original marsh. Livy gives three explanations: the Sabine Mettius Curtius whose horse floundered there in Romulus' war; the young knight M. Curtius who in 362 BC leapt fully armed into a chasm that opened in the Forum to save the city; or a lightning-struck place fenced by the consul C. Curtius in 445 BC. Romans threw coins into it for Augustus' health. A relief of the knight's leap (a copy) marks the spot."
+  },
+  {
+   "id": "temple_of_janus_geminus",
+   "name": "Ianus Geminus",
+   "city": "rome",
+   "loc": [
+    12.4855,
+    41.8933
+   ],
+   "built": -700,
+   "begun": null,
+   "builder": null,
+   "builderName": "traditionally Numa",
+   "phases": [
+    {
+     "y": -235,
+     "t": "closed after the First Punic War"
+    },
+    {
+     "y": -29,
+     "t": "closed by Augustus"
+    },
+    {
+     "y": 66,
+     "t": "closed by Nero"
+    },
+    {
+     "y": 537,
+     "t": "attempt to open its doors during the Gothic siege"
+    }
+   ],
+   "destroyed": null,
+   "type": "temple",
+   "summary": "A small bronze double-gated shrine on the Argiletum, whose doors were closed only when Rome was at peace: under Numa, after the First Punic War in 235 BC, three times under Augustus (first in 29 BC), by Nero in 66 and by Vespasian in 71. Procopius saw the bronze shrine still standing in 537 and reports that during the Gothic siege someone secretly tried to force its doors open, a revival of old ritual. It has never been found.",
+   "event": "janus_closed_235",
+   "certainty": "location unknown; placed near the Argiletum"
+  },
+  {
+   "id": "arch_of_tiberius",
+   "name": "Arch of Tiberius",
+   "city": "rome",
+   "loc": [
+    12.4845,
+    41.8926
+   ],
+   "built": 16,
+   "begun": null,
+   "builder": "tiberius",
+   "phases": [],
+   "destroyed": null,
+   "type": "arch",
+   "summary": "Voted in AD 16 beside the Temple of Saturn on the Clivus Capitolinus for Germanicus' recovery of the eagles lost with Varus in the Teutoburg Forest, credited to Tiberius' auspices (Tac. Ann. 2.41). Only foundations survive; it appears on the Constantinian frieze of the Arch of Constantine in the oratio scene.",
+   "certainty": "only foundations survive"
+  },
+  {
+   "id": "arch_of_septimius_severus",
+   "name": "Arch of Septimius Severus",
+   "city": "rome",
+   "loc": [
+    12.4847,
+    41.8929
+   ],
+   "built": 203,
+   "begun": null,
+   "builder": "septimius_severus",
+   "phases": [
+    {
+     "y": 212,
+     "t": "Geta's name erased"
+    },
+    {
+     "y": 1803,
+     "t": "excavated by Pius VII"
+    }
+   ],
+   "destroyed": null,
+   "type": "arch",
+   "summary": "A triple arch 23 m high dedicated in 203 to Septimius Severus and his sons for the Parthian victories of 195 and 197-198, with four large panels narrating the sieges of Nisibis, Edessa, Seleucia and Ctesiphon in a dense, bird's-eye style. After Caracalla murdered Geta in 211 Geta's name was erased from the fourth line of the inscription and replaced with OPTIMIS FORTISSIMISQUE PRINCIPIBUS; the dowel holes show the original wording. In the Middle Ages a barber's shop and a church tower leaned against it, which saved it.",
+   "event": "arch_of_septimius_severus_203"
+  },
+  {
+   "id": "miliarium_aureum",
+   "name": "Miliarium Aureum",
+   "city": "rome",
+   "loc": [
+    12.4846,
+    41.8926
+   ],
+   "built": -20,
+   "begun": null,
+   "builder": "augustus",
+   "phases": [],
+   "destroyed": null,
+   "type": "other",
+   "summary": "A column sheathed in gilded bronze set up by Augustus in 20 BC as curator viarum near the Temple of Saturn, listing the distances to the major cities of the empire. It was a symbolic centre rather than a measuring point, since Roman roads were measured from the city gates. Its pendant, the Umbilicus Urbis, stood at the other end of the Rostra. Constantinople's Milion copied the idea."
+  },
+  {
+   "id": "columna_rostrata_duilii",
+   "name": "Columna Rostrata of Duilius",
+   "city": "rome",
+   "loc": [
+    12.4848,
+    41.8928
+   ],
+   "built": -260,
+   "begun": null,
+   "builder": "gaius_duilius",
+   "phases": [],
+   "destroyed": null,
+   "type": "column",
+   "summary": "A column decorated with ship beaks set up for C. Duilius' victory at Mylae in 260 BC, the first Roman naval triumph. Duilius was also granted a torch-bearer and flute player to escort him home from dinner. An archaising copy of the inscription recut under Augustus or Claudius (Capitoline Museums) lists the ships taken and the bullion captured. Quintilian and Servius mention a second rostral column near the Circus.",
+   "event": "triumph_of_duilius_260",
+   "certainty": "exact site in the Forum unknown; end undocumented"
+  },
+  {
+   "id": "fornix_fabianus",
+   "name": "Fornix Fabianus",
+   "city": "rome",
+   "loc": [
+    12.4866,
+    41.8921
+   ],
+   "built": -121,
+   "begun": null,
+   "builder": null,
+   "builderName": "Q. Fabius Maximus Allobrogicus",
+   "phases": [
+    {
+     "y": -57,
+     "t": "restored by Q. Fabius Maximus (aedile)"
+    },
+    {
+     "y": 1540,
+     "t": "inscription fragments found"
+    }
+   ],
+   "destroyed": null,
+   "type": "arch",
+   "summary": "The first arch in the Forum, built at the east end of the Sacra Via near the Regia by Q. Fabius Maximus Allobrogicus after his triumph over the Allobroges and Arverni in 121 BC. His grandson restored it as curule aedile in 57 BC, adding statues of ancestors (including Aemilius Paullus and Scipio Aemilianus). Fragments of the inscription were found in 1540-46.",
+   "certainty": "foundations not securely identified"
+  },
+  {
+   "id": "temple_of_jupiter_optimus_maximus",
+   "name": "Temple of Jupiter Optimus Maximus (Capitolium)",
+   "city": "rome",
+   "loc": [
+    12.48195,
+    41.89235
+   ],
+   "built": -509,
+   "begun": -535,
+   "builder": "tarquinius_superbus",
+   "builderName": "begun by the Tarquins; dedicated by M. Horatius Pulvillus",
+   "phases": [
+    {
+     "y": -83,
+     "t": "burned in the civil war"
+    },
+    {
+     "y": -69,
+     "t": "Sullan rebuilding dedicated by Catulus"
+    },
+    {
+     "y": 69,
+     "t": "burned in the Vitellian assault"
+    },
+    {
+     "y": 75,
+     "t": "rebuilt by Vespasian"
+    },
+    {
+     "y": 80,
+     "t": "burned"
+    },
+    {
+     "y": 82,
+     "t": "rebuilt by Domitian with gilded tiles"
+    },
+    {
+     "y": 455,
+     "t": "Vandals remove half the gilded roof tiles"
+    }
+   ],
+   "destroyed": null,
+   "type": "temple",
+   "summary": "The temple of the Capitoline triad (Jupiter, Juno, Minerva) begun by the Tarquins and dedicated in the first year of the Republic by the consul M. Horatius Pulvillus on 13 September 509 BC. Its tufa podium, about 62 by 54 m (some reconstructions make it 74 by 54 m), is one of the largest of archaic Italy; the terracotta cult statue and roof quadriga were by Vulca of Veii. Consuls took office and generals ended their triumphs here. It burned on 6 July 83 BC with the Sibylline Books; Sulla and Catulus rebuilt it (dedicated 69 BC). It burned again in December 69 AD when Vitellians stormed the hill and killed Flavius Sabinus, and in the fire of 80; Domitian's rebuilding (82) had gilded bronze tiles said to have cost 12,000 talents. Stilicho stripped gold from its doors and Gaiseric took half the tiles in 455. Remains of the podium are visible in the Capitoline Museums.",
+   "event": "dedication_temple_jupiter_capitolinus",
+   "footprint": [
+    [
+     12.4811,
+     41.892
+    ],
+    [
+     12.4817,
+     41.8921
+    ],
+    [
+     12.4815,
+     41.8926
+    ],
+    [
+     12.4809,
+     41.8925
+    ],
+    [
+     12.4811,
+     41.892
+    ]
+   ]
+  },
+  {
+   "id": "temple_of_juno_moneta",
+   "name": "Temple of Juno Moneta",
+   "city": "rome",
+   "loc": [
+    12.4831,
+    41.894
+   ],
+   "built": -344,
+   "begun": null,
+   "builder": null,
+   "builderName": "L. Furius Camillus (dictator 345 BC)",
+   "phases": [
+    {
+     "y": -269,
+     "t": "mint attested ad Monetam"
+    },
+    {
+     "y": 80,
+     "t": "mint moved to the Caelian under Domitian"
+    }
+   ],
+   "destroyed": null,
+   "type": "temple",
+   "summary": "On the Arx, the northern summit of the Capitol, vowed in 345 BC by the dictator L. Furius Camillus during war with the Aurunci and dedicated in 344 on the site of the house of M. Manlius Capitolinus, razed after his execution. The sacred geese of Juno warned Manlius of the Gauls in 390. The state mint operated beside it from the 3rd century BC, which gave 'money' its name; Juno Moneta was explained as the 'warner'. Its site lies under the church of Santa Maria in Aracoeli.",
+   "certainty": "location under Aracoeli generally accepted; no remains identified"
+  },
+  {
+   "id": "temple_of_fides",
+   "name": "Temple of Fides",
+   "city": "rome",
+   "loc": [
+    12.4821,
+    41.893
+   ],
+   "built": -254,
+   "begun": null,
+   "builder": "aulus_atilius_calatinus",
+   "phases": [
+    {
+     "y": -133,
+     "t": "Senate meeting on the day of Tiberius Gracchus' death"
+    },
+    {
+     "y": -115,
+     "t": "restored by M. Aemilius Scaurus"
+    }
+   ],
+   "destroyed": null,
+   "type": "temple",
+   "summary": "Built by A. Atilius Calatinus during the First Punic War next to the Capitoline temple, probably around 254 BC, and restored by M. Aemilius Scaurus in 115 BC. Bronze treaties and grants of friendship to foreign states were posted on and around it, and Flavian military diplomas found across the provinces cite their originals as fixed 'on the Capitol, on the wall behind the temple of the Fides of the Roman people'. The Senate met here on the day Tiberius Gracchus was killed in 133 BC, and Scipio Nasica led the senators out from it to the assembly.",
+   "certainty": "location on the Capitoline approximate"
+  },
+  {
+   "id": "temple_of_jupiter_feretrius",
+   "name": "Temple of Jupiter Feretrius",
+   "city": "rome",
+   "loc": [
+    12.4818,
+    41.893
+   ],
+   "built": -750,
+   "begun": null,
+   "builder": "romulus",
+   "builderName": "traditionally Romulus; restored by Augustus",
+   "phases": [
+    {
+     "y": -222,
+     "t": "Marcellus dedicates the spolia opima"
+    },
+    {
+     "y": -32,
+     "t": "restored by Augustus"
+    },
+    {
+     "y": -29,
+     "t": "Crassus' claim to the spolia refused"
+    }
+   ],
+   "destroyed": null,
+   "type": "temple",
+   "summary": "Rome's oldest temple in Livy's account, founded by Romulus to house the spolia opima he stripped from King Acron of Caenina. Only two other Romans won them: A. Cornelius Cossus (437 or 426 BC) and M. Claudius Marcellus, who killed Viridomarus in 222 BC. Augustus restored the ruined shrine on Atticus' advice around 32 BC; when M. Licinius Crassus claimed the spolia in 29 BC, Augustus produced a linen corselet in this temple supposedly proving Cossus had been consul, which barred Crassus (Livy 4.20).",
+   "certainty": "location unknown on the Capitoline"
+  },
+  {
+   "id": "temple_of_jupiter_tonans",
+   "name": "Temple of Jupiter Tonans",
+   "city": "rome",
+   "loc": [
+    12.4818,
+    41.892
+   ],
+   "built": -22,
+   "begun": null,
+   "builder": "augustus",
+   "phases": [],
+   "destroyed": null,
+   "type": "temple",
+   "summary": "Vowed by Augustus after lightning killed the slave carrying a torch before his litter during the Cantabrian campaign of 26 BC, and dedicated on 1 September 22 BC at the entrance to the Area Capitolina. Built of solid marble, it drew so many visitors that Augustus dreamed Capitoline Jupiter complained, and hung bells on its pediment to make Tonans the gatekeeper of the greater god (Suet. Aug. 29, 91).",
+   "certainty": "location approximate"
+  },
+  {
+   "id": "temple_of_venus_erycina_capitol",
+   "name": "Temple of Venus Erycina (Capitol)",
+   "city": "rome",
+   "loc": [
+    12.4819,
+    41.8926
+   ],
+   "built": -215,
+   "begun": null,
+   "builder": "quintus_fabius_maximus",
+   "phases": [],
+   "destroyed": null,
+   "type": "temple",
+   "summary": "Vowed by Q. Fabius Maximus after Trasimene on the advice of the Sibylline Books and dedicated in 215 BC on the Capitol, importing the cult of Aphrodite of Eryx in Sicily, then held by Rome. A second temple of Venus Erycina outside the Porta Collina followed in 181 BC, where prostitutes worshipped her.",
+   "event": "religious_measures_217",
+   "certainty": "location unknown"
+  },
+  {
+   "id": "insula_aracoeli",
+   "name": "Insula dell'Aracoeli",
+   "city": "rome",
+   "loc": [
+    12.4824,
+    41.8941
+   ],
+   "built": 125,
+   "begun": null,
+   "builder": null,
+   "phases": [
+    {
+     "y": 1930,
+     "t": "exposed by demolitions"
+    }
+   ],
+   "destroyed": null,
+   "type": "other",
+   "summary": "The best-preserved Roman apartment block in the city, built in the 2nd century at the foot of the Capitol: ground-floor shops with mezzanines and at least four upper storeys of flats, the type that housed most of Rome's population. It survived because a medieval church (San Biagio de Mercato) was built into it; it was exposed in the 1930s when its neighbourhood was demolished."
+  },
+  {
+   "id": "casa_romuli",
+   "name": "Casa Romuli",
+   "city": "rome",
+   "loc": [
+    12.4845,
+    41.8892
+   ],
+   "built": -750,
+   "begun": null,
+   "builder": "romulus",
+   "phases": [
+    {
+     "y": -38,
+     "t": "burned"
+    },
+    {
+     "y": -12,
+     "t": "burned"
+    },
+    {
+     "y": 1948,
+     "t": "Iron Age post holes excavated"
+    }
+   ],
+   "destroyed": null,
+   "type": "other",
+   "summary": "A thatched hut on the Cermalus, the SW corner of the Palatine, maintained as Romulus' dwelling and rebuilt in the old style whenever it burned (Dio records fires in 38 and 12 BC). Excavations in 1946-48 found post holes of Iron Age huts cut into the tufa nearby, dating from the 8th century BC, giving archaeological substance to the tradition of the earliest settlement.",
+   "certainty": "the venerated hut itself is not identified"
+  },
+  {
+   "id": "temple_of_magna_mater",
+   "name": "Temple of Magna Mater",
+   "city": "rome",
+   "loc": [
+    12.485,
+    41.8895
+   ],
+   "built": -191,
+   "begun": null,
+   "builder": null,
+   "builderName": "M. Junius Brutus (praetor 191 BC)",
+   "phases": [
+    {
+     "y": -204,
+     "t": "the stone arrives and is housed in the Temple of Victory"
+    },
+    {
+     "y": -111,
+     "t": "fire; restored by a Caecilius Metellus"
+    },
+    {
+     "y": 3,
+     "t": "fire; rebuilt by Augustus"
+    }
+   ],
+   "destroyed": null,
+   "type": "temple",
+   "summary": "The black meteoric stone of Cybele was brought from Pessinus in 204 BC on Sibylline advice during the Hannibalic war, received at Ostia by P. Scipio Nasica as 'best man in the state', and housed in the Temple of Victory until this temple was dedicated by the praetor M. Junius Brutus on 11 April 191 BC. Roman citizens were barred from her eunuch priesthood. The Ludi Megalenses were staged before its steps; Terence's plays premiered there. It burned in 111 BC and was restored by a Metellus, burned again in AD 3 and was rebuilt by Augustus. The podium survives on the Cermalus.",
+   "event": "temple_of_magna_mater_191"
+  },
+  {
+   "id": "temple_of_victoria",
+   "name": "Temple of Victoria",
+   "city": "rome",
+   "loc": [
+    12.4853,
+    41.8892
+   ],
+   "built": -294,
+   "begun": null,
+   "builder": "lucius_postumius_megellus",
+   "phases": [],
+   "destroyed": null,
+   "type": "temple",
+   "summary": "Built by L. Postumius Megellus from fines he collected as aedile, and dedicated as consul on 1 August 294 BC during the Third Samnite War. It sheltered the stone of Magna Mater from 204 to 191 BC; Cato the Elder later added a shrine of Victoria Virgo. Its podium lies next to that of Magna Mater.",
+   "event": "temple_of_victoria_294",
+   "certainty": "identification of the podium probable"
+  },
+  {
+   "id": "temple_of_apollo_palatinus",
+   "name": "Temple of Apollo Palatinus",
+   "city": "rome",
+   "loc": [
+    12.4857,
+    41.8888
+   ],
+   "built": -28,
+   "begun": -36,
+   "builder": "augustus",
+   "phases": [
+    {
+     "y": -12,
+     "t": "Sibylline Books transferred here"
+    },
+    {
+     "y": 363,
+     "t": "destroyed by fire"
+    }
+   ],
+   "destroyed": 363,
+   "type": "temple",
+   "summary": "Vowed by Octavian in 36 BC after Naulochus, built on land struck by lightning next to his house, and dedicated on 9 October 28 BC. Of solid Luna marble with ivory doors, it held statues by Scopas, Cephisodotus and Timotheus, a portico with the fifty Danaids, and Greek and Latin libraries where the Senate sometimes met; in 12 BC Augustus moved the edited Sibylline Books into the cult statue's base. On 18 March 363 it burned (Ammianus 23.3.3), though the Books were saved. Its identification with the podium next to the House of Augustus, made by Lugli and reaffirmed by Zink, is now generally accepted."
+  },
+  {
+   "id": "house_of_augustus",
+   "name": "House of Augustus and House of Livia",
+   "city": "rome",
+   "loc": [
+    12.4853,
+    41.8887
+   ],
+   "built": -36,
+   "begun": null,
+   "builder": "augustus",
+   "phases": [
+    {
+     "y": -36,
+     "t": "lightning strike; part of the site made public"
+    },
+    {
+     "y": 3,
+     "t": "fire; rebuilt by subscription"
+    },
+    {
+     "y": 1961,
+     "t": "Carettoni's excavations"
+    }
+   ],
+   "destroyed": null,
+   "type": "palace",
+   "summary": "Augustus bought the modest house of the orator Hortensius and adjoining properties on the Palatine; after lightning struck part of the site in 36 BC he made it public for the temple of Apollo and lived, Suetonius says, more than forty years in the same bedroom. Excavations by Carettoni from 1961 revealed rooms with Second Style paintings of the 30s BC, including the 'Room of the Masks' and a small study (Augustus' 'Syracuse'). The adjacent 'House of Livia' has lead pipes stamped IVLIAE AVG and fine frescoes. When the house burned in AD 3 it was rebuilt by public subscription. A ramp linked it to the temple."
+  },
+  {
+   "id": "domus_tiberiana",
+   "name": "Domus Tiberiana",
+   "city": "rome",
+   "loc": [
+    12.486,
+    41.8903
+   ],
+   "built": 70,
+   "begun": 40,
+   "builder": "nero",
+   "builderName": "Tiberius and Caligula (early phases); Nero; Domitian; Hadrian",
+   "phases": [
+    {
+     "y": 39,
+     "t": "Caligula extends the palace to the Forum"
+    },
+    {
+     "y": 90,
+     "t": "Domitianic extensions"
+    },
+    {
+     "y": 125,
+     "t": "Hadrianic additions"
+    },
+    {
+     "y": 705,
+     "t": "papal residence of John VII"
+    },
+    {
+     "y": 1550,
+     "t": "Farnese Gardens laid out on top"
+    }
+   ],
+   "destroyed": null,
+   "type": "palace",
+   "summary": "The palace occupying the NW Palatine above the Forum. Despite the name, recent excavation dates the great platform (about 150 by 120 m) mainly to Nero after 64, with Domitianic and Hadrianic extensions down to the Forum, where Caligula had earlier extended the palace to make the Temple of Castor his vestibule. In the 7th century it housed the Byzantine curator of the palace, and Pope John VII established his residence here about 705. The Farnese Gardens were laid out on top in the 16th century; the site reopened in 2023 after long restoration.",
+   "footprint": [
+    [
+     12.4848,
+     41.8899
+    ],
+    [
+     12.4859,
+     41.8893
+    ],
+    [
+     12.4869,
+     41.8901
+    ],
+    [
+     12.4868,
+     41.8902
+    ],
+    [
+     12.4872,
+     41.8904
+    ],
+    [
+     12.4875,
+     41.8908
+    ],
+    [
+     12.4863,
+     41.8912
+    ],
+    [
+     12.4862,
+     41.8911
+    ],
+    [
+     12.4862,
+     41.8912
+    ],
+    [
+     12.4848,
+     41.8899
+    ]
+   ]
+  },
+  {
+   "id": "domus_flavia",
+   "name": "Domus Flavia (Flavian Palace, official wing)",
+   "city": "rome",
+   "loc": [
+    12.4866,
+    41.8889
+   ],
+   "built": 92,
+   "begun": 81,
+   "builder": "domitian",
+   "builderName": "Domitian; architect Rabirius",
+   "phases": [
+    {
+     "y": 92,
+     "t": "dedication"
+    },
+    {
+     "y": 200,
+     "t": "Severan extensions"
+    },
+    {
+     "y": 500,
+     "t": "repairs under Theodoric"
+    }
+   ],
+   "destroyed": null,
+   "type": "palace",
+   "summary": "Domitian's state palace designed by the architect Rabirius and dedicated in 92, the building that turned the hill's name into the word 'palace'. Its huge reception halls included the Aula Regia (about 30 by 39 m), a basilica for judgments, a lararium, a peristyle with a labyrinthine fountain, and the Cenatio Iovis dining hall flanked by nymphaea. Martial compared it to the heavens. It remained the official seat of emperors in Rome and later of Odoacer and Theodoric, whose brick stamps record repairs; Byzantine officials still used parts of it in the 7th century.",
+   "event": "domus_flavia_dedicated",
+   "footprint": [
+    [
+     12.4857,
+     41.8886
+    ],
+    [
+     12.4863,
+     41.8881
+    ],
+    [
+     12.4865,
+     41.8882
+    ],
+    [
+     12.4864,
+     41.8883
+    ],
+    [
+     12.4865,
+     41.8885
+    ],
+    [
+     12.4867,
+     41.8883
+    ],
+    [
+     12.4873,
+     41.8888
+    ],
+    [
+     12.4875,
+     41.8891
+    ],
+    [
+     12.4868,
+     41.8895
+    ],
+    [
+     12.4859,
+     41.8889
+    ],
+    [
+     12.486,
+     41.8888
+    ],
+    [
+     12.4857,
+     41.8886
+    ]
+   ]
+  },
+  {
+   "id": "domus_augustana",
+   "name": "Domus Augustana (Flavian Palace, residential wing)",
+   "city": "rome",
+   "loc": [
+    12.4871,
+    41.8881
+   ],
+   "built": 92,
+   "begun": 81,
+   "builder": "domitian",
+   "builderName": "Domitian; architect Rabirius",
+   "phases": [
+    {
+     "y": 200,
+     "t": "Severan extension and baths"
+    }
+   ],
+   "destroyed": null,
+   "type": "palace",
+   "summary": "The private wing of Domitian's palace, on two levels: an upper peristyle at the level of the Domus Flavia and a lower peristyle with a fountain 10 m below, opening south onto a curved façade overlooking the Circus Maximus, from which the emperor could watch races. East of it lies the so-called Stadium, a sunken garden-hippodrome 160 m long. Septimius Severus extended the palace south-eastwards on vast arched substructures with baths.",
+   "event": "domus_flavia_dedicated",
+   "footprint": [
+    [
+     12.4858,
+     41.8877
+    ],
+    [
+     12.4859,
+     41.8877
+    ],
+    [
+     12.4861,
+     41.8876
+    ],
+    [
+     12.486,
+     41.8876
+    ],
+    [
+     12.4863,
+     41.8875
+    ],
+    [
+     12.4865,
+     41.8871
+    ],
+    [
+     12.4882,
+     41.8885
+    ],
+    [
+     12.488,
+     41.8888
+    ],
+    [
+     12.4875,
+     41.889
+    ],
+    [
+     12.4864,
+     41.8879
+    ],
+    [
+     12.4863,
+     41.888
+    ],
+    [
+     12.4858,
+     41.8877
+    ]
+   ]
+  },
+  {
+   "id": "septizodium",
+   "name": "Septizodium",
+   "city": "rome",
+   "loc": [
+    12.4889,
+    41.8868
+   ],
+   "built": 203,
+   "begun": null,
+   "builder": "septimius_severus",
+   "phases": [
+    {
+     "y": 1589,
+     "t": "demolished by Sixtus V"
+    }
+   ],
+   "destroyed": 1589,
+   "type": "other",
+   "summary": "A free-standing three-storey columnar façade some 90 m long and 30 m high at the SE corner of the Palatine, built by Septimius Severus in 203 so that, the Historia Augusta says, travellers from Africa arriving by the Via Appia would see the palace of their compatriot emperor. Its name evokes the seven planetary gods. Three bays survived until Sixtus V had them demolished in 1588-89 and used the stone for his projects."
+  },
+  {
+   "id": "temple_of_elagabalus",
+   "name": "Elagabalium (Temple of Sol Invictus Elagabal)",
+   "city": "rome",
+   "loc": [
+    12.489,
+    41.8899
+   ],
+   "built": 221,
+   "begun": 218,
+   "builder": "elagabalus",
+   "phases": [
+    {
+     "y": 222,
+     "t": "rededicated to Jupiter Ultor"
+    }
+   ],
+   "destroyed": null,
+   "type": "temple",
+   "summary": "A temple built by Elagabalus on the NE corner of the Palatine (the Vigna Barberini terrace) for the sacred black stone of Emesa, to which he wanted all Rome's holiest objects, including the Palladium and the shields of the Salii, transferred. After his murder in 222 Severus Alexander returned the stone to Syria and rededicated the temple to Jupiter Ultor. French excavations identified its platform under the Vigna Barberini.",
+   "certainty": "identification by the École française excavations"
+  },
+  {
+   "id": "temple_of_jupiter_stator_palatine",
+   "name": "Temple of Jupiter Stator (Palatine)",
+   "city": "rome",
+   "loc": [
+    12.4882,
+    41.8903
+   ],
+   "built": -294,
+   "begun": null,
+   "builder": null,
+   "builderName": "M. Atilius Regulus (cos. 294 BC)",
+   "phases": [
+    {
+     "y": -63,
+     "t": "Cicero's First Catilinarian"
+    }
+   ],
+   "destroyed": null,
+   "type": "temple",
+   "summary": "Romulus was said to have vowed a shrine here to Jupiter 'the stayer' when the Romans fled before the Sabines; the temple was actually vowed by the consul M. Atilius Regulus at Luceria in 294 BC. It stood by the old Porta Mugonia. On 8 November 63 BC Cicero convened the Senate here and delivered his First Catilinarian with Catiline present.",
+   "certainty": "location near the Arch of Titus debated"
+  },
+  {
+   "id": "lupercal",
+   "name": "Lupercal",
+   "city": "rome",
+   "loc": [
+    12.4849,
+    41.8884
+   ],
+   "built": -750,
+   "begun": null,
+   "builder": null,
+   "phases": [
+    {
+     "y": -28,
+     "t": "restored by Augustus"
+    },
+    {
+     "y": 494,
+     "t": "Lupercalia suppressed by Gelasius I"
+    },
+    {
+     "y": 2007,
+     "t": "possible identification announced"
+    }
+   ],
+   "destroyed": null,
+   "type": "other",
+   "summary": "The cave at the foot of the Palatine where the she-wolf suckled Romulus and Remus and where the Luperci began their run on 15 February. Augustus restored it (Res Gestae 19). A richly decorated vaulted chamber detected 16 m below the House of Augustus in 2007 was announced as the Lupercal; La Rocca, Coarelli and others argue it is a Neronian nymphaeum. Pope Gelasius I suppressed the Lupercalia about 494.",
+   "certainty": "identification disputed"
+  }
+ ]
 }
