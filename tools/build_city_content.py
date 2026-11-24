@@ -316,7 +316,7 @@ def build(C, meta, base):
             'events': events, 'places': places, 'routes': routes, 'hills': hills,
             'tours': [{'id': t.get('id'), 'title': t.get('title'), 'sub': t.get('sub'), 'stops': [dict(st, x=round(to_local(*ll(st['loc']))[0], 1), z=round(to_local(*ll(st['loc']))[1], 1)) for st in t.get('stops', []) if ll(st.get('loc'))]} for t in C.get('cityTours', [])],
             'tiber': [q[:2] for q in line_local((C['terrain'].get('tiber') or {}).get('centerline'))],
-            'population': C.get('population') or [], 'fires': [{'y': yr(f.get('year'), 0), 'n': f.get('name'), 'poly': [q[:2] for q in line_local(f.get('polygon'))]} for f in (C.get('fires') or []) if isinstance(f, dict)]}
+            'population': C.get('population') or [], 'fires': [{'y': yr(f.get('year'), 0), 'n': f.get('name'), 'polys': [[q[:2] for q in line_local(pg)] for pg in ([f.get('polygon')] if f.get('polygon') else (f.get('polygons') or [])) if pg]} for f in (C.get('fires') or []) if isinstance(f, dict)]}
     city['meta']['counts'] = {k: len(v) for k, v in city.items() if isinstance(v, list)}
     with open(os.path.join(OUT, 'city.json'), 'w') as fh:
         json.dump(city, fh, separators=(',', ':'), ensure_ascii=False)

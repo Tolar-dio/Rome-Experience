@@ -141,12 +141,14 @@ function terrainMaterial(waterLevel) {
     s.uniforms.uGround = TERRAIN_U.uGround;
     s.uniforms.uGroundOn = TERRAIN_U.uGroundOn;
     s.uniforms.uGroundBox = TERRAIN_U.uGroundBox;
+    s.uniforms.uFires = TERRAIN_U.uFires;
+    s.uniforms.uFireBit = TERRAIN_U.uFireBit;
     s.vertexShader = s.vertexShader
       .replace('#include <common>', '#include <common>\nvarying vec3 vTW; varying vec3 vTN;')
       .replace('#include <worldpos_vertex>', '#include <worldpos_vertex>\nvTW = (modelMatrix * vec4(transformed,1.0)).xyz; vTN = normal;');
     s.fragmentShader = s.fragmentShader
       .replace('#include <common>', `#include <common>
-varying vec3 vTW; varying vec3 vTN; uniform float uWater; uniform sampler2D uGround; uniform float uGroundOn; uniform vec4 uGroundBox;
+varying vec3 vTW; varying vec3 vTN; uniform float uWater; uniform sampler2D uGround; uniform float uGroundOn; uniform vec4 uGroundBox; uniform sampler2D uFires; uniform float uFireBit;
 float th21(vec2 p){ p = fract(p*vec2(123.34,456.21)); p += dot(p,p+45.32); return fract(p.x*p.y); }
 float tn(vec2 p){ vec2 i=floor(p), f=fract(p); f=f*f*(3.0-2.0*f); return mix(mix(th21(i),th21(i+vec2(1,0)),f.x),mix(th21(i+vec2(0,1)),th21(i+vec2(1,1)),f.x),f.y); }
 float tfbm(vec2 p){ return tn(p)*0.5+tn(p*2.1)*0.28+tn(p*4.3)*0.14+tn(p*9.1)*0.08; }`)
@@ -172,6 +174,11 @@ float tfbm(vec2 p){ return tn(p)*0.5+tn(p*2.1)*0.28+tn(p*4.3)*0.14+tn(p*9.1)*0.0
     c = mix(c, mix(vec3(0.50, 0.43, 0.34), vec3(0.44, 0.40, 0.35), n2), gt.r * 0.85);
     c = mix(c, vec3(0.36, 0.44, 0.22) * (0.8 + 0.4 * n2), gt.g * 0.8);
     c = mix(c, vec3(0.16, 0.13, 0.11), gt.b * 0.85);
+    if (uFireBit >= 0.0) {
+      vec3 fb = texture2D(uFires, g).rgb * 255.0;
+      int bits = (int(fb.r + 0.5) << 16) | (int(fb.g + 0.5) << 8) | int(fb.b + 0.5);
+      if (((bits >> int(uFireBit)) & 1) == 1) c = mix(c, vec3(0.13, 0.11, 0.10), 0.82 * (0.7 + 0.3 * n2));
+    }
   }
   diffuseColor.rgb = c * (0.95 + 0.08 * n2);
 }`);
@@ -181,11 +188,11 @@ float tfbm(vec2 p){ return tn(p)*0.5+tn(p*2.1)*0.28+tn(p*4.3)*0.14+tn(p*9.1)*0.0
 }
 
 export const TERRAIN_U = {
-  uGround: { value: null }, uGroundOn: { value: 0 }, uGroundBox: { value: new THREE.Vector4(-4670, -4720, 9440, 9440) },
+  uGround: { value: null }, uGroundOn: { value: 0 }, uFires: { value: null }, uFireBit: { value: -1 }, uGroundBox: { value: new THREE.Vector4(-4670, -4720, 9440, 9440) },
 };
 
 export function waterMesh(meta) {
-  const g = new THREE.PlaneGeometry(meta.size + 2000, meta.size + 2000, 1, 1);
+  const g = new THREE.PlaneGeometry(meta.size - 20, meta.size - 20, 1, 1);
   g.rotateX(-Math.PI / 2);
   const m = new THREE.MeshStandardMaterial({ color: 0x3f6470, roughness: 0.15, metalness: 0.1, transparent: true, opacity: 0.92 });
   const mesh = new THREE.Mesh(g, m);

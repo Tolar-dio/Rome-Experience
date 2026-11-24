@@ -159,7 +159,7 @@ def main():
         mid = np.c_[(seg[:, 0] + seg[:, 2]) / 2, (seg[:, 1] + seg[:, 3]) / 2]
         from scipy.spatial import cKDTree
         tree = cKDTree(mid)
-    step = 26.0
+    step = 21.0
     xs = np.arange(TX0 + 200, TX0 + TSIZE - 200, step)
     zs = np.arange(TZ0 + 200, TZ0 + TSIZE - 200, step)
     for z in zs:
@@ -173,7 +173,7 @@ def main():
             else:
                 ang = 0.12
             cx = x + rnd.uniform(-5, 5); cz = z + rnd.uniform(-5, 5)
-            w = rnd.choice([12, 15, 18, 21]); l = rnd.choice([14, 18, 22])
+            w = rnd.choice([14, 16, 18, 19]); l = rnd.choice([15, 17, 19])
             try_lot(cx, cz, ang, w, l, 'infill')
     print('lots', len(lots))
 
@@ -217,6 +217,17 @@ def main():
         for y, *_ in fb['radial']:
             years_all.add(y)
 
+    from shapely.geometry import Point
+    firepolys = []
+    for f in city.get('fires', []):
+        for pg in f.get('polys') or []:
+            if len(pg) >= 3:
+                try:
+                    firepolys.append((f['y'], Polygon(pg).buffer(0)))
+                except Exception:
+                    pass
+    for fy, _ in firepolys:
+        years_all.add(fy); years_all.add(fy + 2)
     recs = []
     for li, L in enumerate(lots):
         cx, cz = L['x'], L['z']
@@ -231,6 +242,8 @@ def main():
                 if bpolys[k].intersects(lp):
                     hits.append(bspan[k])
         zi = [k for k, p in enumerate(zpaths) if p.contains_point((cx, cz))]
+        pt = Point(cx, cz)
+        burnt = [fy for fy, pg in firepolys if pg.contains(pt)]
         ys = set(years_all)
         for (f, t, tp) in hits:
             ys.add(f); ys.add(t + 1)
@@ -239,7 +252,7 @@ def main():
         for a, b2 in zip(ys[:-1], ys[1:]):
             y = a
             # blocked by a monument?
-            if any(f <= y <= t for (f, t, tp) in hits):
+            if any(f <= y <= t for (f, t, tp) in hits) or any(fy <= y <= fy + 1 for fy in burnt):
                 kind = None
             else:
                 kind, dens, st = None, 0, (2, 4)
@@ -265,11 +278,11 @@ def main():
                     dens = d0 * max(0.0, 1 - (dist / R) ** 2.2) if dist < R else 0
                     kind = typ
                     st = (3, 6) if typ == 'insulae' else (1, 3)
-                if dens <= L['r']:
+                if min(1.0, dens * 1.3) <= L['r']:
                     kind = None
             if kind:
                 kind = {'insulae': 'insula', 'houses': 'house', 'huts': 'hut', 'mixed': 'insula' if L['seed'] < 0.6 else 'domus', 'domus': 'domus', 'villas': 'villa',
-                        'horti': None, 'abandoned': None, 'shops': 'shops', 'tombs': 'tomb', 'cemetery': 'tomb', 'workshops': 'shed', 'warehouses': 'shed'}.get(kind, 'house')
+                        'horti': None, 'abandoned': None, 'public': None, 'cemetery': 'tomb', 'palace': None, 'monumental': None, 'shops': 'shops', 'tombs': 'tomb', 'cemetery': 'tomb', 'workshops': 'shed', 'warehouses': 'shed'}.get(kind, 'house')
             if kind:
                 s0, s1 = (int(st[0]), int(st[-1])) if isinstance(st, (list, tuple)) and st else (2, 4)
                 if kind == 'insula':
@@ -353,7 +366,22 @@ def ground(city, lots, recs):
         fn = f'ground_{y}.png'
         out.save(os.path.join(OUT, fn), optimize=True)
         meta.append({'y': y, 'f': fn})
-    json.dump({'size': S, 'x0': TX0, 'z0': TZ0, 'extent': TSIZE, 'snapshots': meta}, open(os.path.join(OUT, 'ground.json'), 'w'))
+    # fire masks: up to 24 fires as bits of an RGB texture
+    fires = [f for f in city.get('fires', []) if f.get('polys')][:24]
+    bits = np.zeros((S, S), np.uint32)
+    fmeta = []
+    for n, f in enumerate(fires):
+        m = Image.new('L', (S, S), 0)
+        d = ImageDraw.Draw(m)
+        for pg in f['polys']:
+            if len(pg) >= 3:
+                d.polygon([((q[0] - TX0) * k, (q[1] - TZ0) * k) for q in pg], fill=255)
+        a = np.asarray(m.filter(ImageFilter.GaussianBlur(1.5))) > 100
+        bits[a] |= (1 << n)
+        fmeta.append({'y': f['y'], 'bit': n, 'n': f.get('n')})
+    rgb = np.stack([(bits >> 16) & 255, (bits >> 8) & 255, bits & 255], -1).astype(np.uint8)
+    Image.fromarray(rgb, 'RGB').save(os.path.join(OUT, 'fires.png'), optimize=True)
+    json.dump({'size': S, 'x0': TX0, 'z0': TZ0, 'extent': TSIZE, 'snapshots': meta, 'fires': fmeta}, open(os.path.join(OUT, 'ground.json'), 'w'))
     print('ground snapshots', len(meta))
 
 

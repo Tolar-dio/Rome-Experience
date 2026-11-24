@@ -191,6 +191,12 @@ export class City3D {
 
   updateGround(y) {
     const g = this.ground; if (!g || !g.snapshots.length) return;
+    if (g.fires && g.fires.length) {
+      if (!this.fireTex) { this.fireTex = new THREE.TextureLoader().load('data/city/fires.png', () => { this.dirty = true; }); this.fireTex.colorSpace = THREE.NoColorSpace; this.fireTex.minFilter = this.fireTex.magFilter = THREE.NearestFilter; this.fireTex.generateMipmaps = false; TERRAIN_U.uFires.value = this.fireTex; }
+      const f = g.fires.filter((x) => y >= x.y && y <= x.y + 1).sort((a, b) => b.y - a.y)[0];
+      TERRAIN_U.uFireBit.value = f ? f.bit : -1;
+      this.activeFire = f || null;
+    }
     let best = g.snapshots[0];
     for (const sn of g.snapshots) if (Math.abs(sn.y - y) < Math.abs(best.y - y)) best = sn;
     if (this._groundY === best.y) return;
