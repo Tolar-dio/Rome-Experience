@@ -189,6 +189,82 @@
    "note": "Height above the low river level about 6 m."
   },
   {
+   "id": "statio_marmorum_v1",
+   "monument": "statio_marmorum",
+   "name": "Statio Marmorum (marble wharf and yard)",
+   "from": 50,
+   "to": 9999,
+   "builder": null,
+   "template": "compound",
+   "loc": [
+    12.4765,
+    41.883
+   ],
+   "rot": 316,
+   "w": 60.0,
+   "l": 40.0,
+   "h": 3.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": -15,
+      "y": -5,
+      "w": 6,
+      "l": 3,
+      "h": 1.5,
+      "mat": "marble_white"
+     },
+     {
+      "shape": "box",
+      "x": -5,
+      "y": -1,
+      "w": 6,
+      "l": 3,
+      "h": 2.0,
+      "mat": "marble_white"
+     },
+     {
+      "shape": "box",
+      "x": 5,
+      "y": -5,
+      "w": 6,
+      "l": 3,
+      "h": 2.5,
+      "mat": "marble_white"
+     },
+     {
+      "shape": "box",
+      "x": 15,
+      "y": -1,
+      "w": 6,
+      "l": 3,
+      "h": 1.5,
+      "mat": "marble_white"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 12,
+      "w": 30,
+      "l": 10,
+      "h": 6,
+      "mat": "brick"
+     }
+    ]
+   },
+   "importance": 1,
+   "certainty": "reconstructed",
+   "summary": "The yard where imperial marble blocks and column shafts from Luna, Greece, Asia Minor and Egypt were landed and stored, giving the modern Via della Marmorata its name; hundreds of rough-cut blocks, some with quarry marks, were found along the bank in the 19th century.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Maischberger, Marmor in Rom (1997)",
+    "Richardson (1992) 369"
+   ],
+   "note": "Generic stacks of blocks at the north end of the Emporium; position approximate."
+  },
+  {
    "id": "porticus_aemilia_v1",
    "monument": "porticus_aemilia",
    "name": "Porticus Aemilia (193 BC)",
@@ -1158,8 +1234,7 @@
     "stepped": true,
     "terraces": 1,
     "mat": {
-     "surface": "terracotta_sherds",
-     "fallback": "roof_tile"
+     "surface": "roof_tile"
     }
    },
    "importance": 3,
@@ -1322,8 +1397,7 @@
     "stepped": true,
     "terraces": 1,
     "mat": {
-     "surface": "terracotta_sherds",
-     "fallback": "roof_tile"
+     "surface": "roof_tile"
     }
    },
    "importance": 3,
@@ -1486,8 +1560,7 @@
     "stepped": true,
     "terraces": 2,
     "mat": {
-     "surface": "terracotta_sherds",
-     "fallback": "roof_tile"
+     "surface": "roof_tile"
     }
    },
    "importance": 3,
@@ -1650,8 +1723,7 @@
     "stepped": true,
     "terraces": 4,
     "mat": {
-     "surface": "terracotta_sherds",
-     "fallback": "roof_tile"
+     "surface": "roof_tile"
     }
    },
    "importance": 3,
@@ -1814,8 +1886,7 @@
     "stepped": true,
     "terraces": 5,
     "mat": {
-     "surface": "terracotta_sherds",
-     "fallback": "roof_tile"
+     "surface": "roof_tile"
     }
    },
    "importance": 3,
@@ -1978,8 +2049,7 @@
     "stepped": true,
     "terraces": 6,
     "mat": {
-     "surface": "grass",
-     "fallback": "roof_tile"
+     "surface": "grass"
     }
    },
    "importance": 4,

@@ -1572,7 +1572,7 @@
   },
   {
    "id": "san_lorenzo_basilica_maior_v1",
-   "monument": "san_lorenzo_fuori_le_mura",
+   "monument": "san_lorenzo_basilica_maior",
    "name": "San Lorenzo: Constantinian basilica maior",
    "from": 330,
    "to": 9999,
@@ -1675,7 +1675,7 @@
   },
   {
    "id": "sant_agnese_basilica_constantiniana_v1",
-   "monument": "sant_agnese_fuori_le_mura",
+   "monument": "sant_agnese_basilica_constantiniana",
    "name": "Sant'Agnese: Constantinian ambulatory basilica",
    "from": 345,
    "to": 9999,
@@ -2246,47 +2246,6 @@
    "note": "OSM footprint 59 x 30, axis 127; facade SE."
   },
   {
-   "id": "sant_anastasia_v1",
-   "monument": "sant_anastasia",
-   "name": "Sant'Anastasia (titulus Anastasiae)",
-   "from": 360,
-   "to": 9999,
-   "begun": 330,
-   "builder": null,
-   "template": "church",
-   "loc": [
-    12.484326,
-    41.88804
-   ],
-   "rot": 307,
-   "w": 20.0,
-   "l": 45.0,
-   "h": 14.0,
-   "params": {
-    "nave": 14,
-    "aisles": 0,
-    "transept": true,
-    "apse": true,
-    "atrium": null,
-    "narthex": false,
-    "mat": {
-     "walls": "brick",
-     "columns": "marble_white",
-     "roof": "roof_tile"
-    }
-   },
-   "importance": 3,
-   "certainty": "excavated",
-   "summary": "Built in the fourth century at the NW foot of the Palatine by the Circus Maximus, perhaps by Pope Damasus' circle, as a cross-shaped hall; the court church of the Byzantine officials on the Palatine. Its foundations stand on Roman insulae and shops.",
-   "phases": [],
-   "sources": [],
-   "scholarship": [
-    "Krautheimer, Corpus Basilicarum Christianarum Romae (1937-1977) I (1937) 42-61",
-    "Brandenburg, Ancient Churches of Rome from the Fourth to the Seventh Century (2005) 110"
-   ],
-   "note": "OSM footprint; facade faces NW to the piazza (OSM door at 320 deg)."
-  },
-  {
    "id": "sant_agata_dei_goti_v1",
    "monument": "sant_agata_dei_goti",
    "name": "Sant'Agata dei Goti",
@@ -2798,46 +2757,6 @@
    "note": "Probably just after 641; included at the end of the range as conjectural."
   },
   {
-   "id": "san_teodoro_v1",
-   "monument": "san_teodoro",
-   "name": "San Teodoro (diaconia)",
-   "from": 550,
-   "to": 9999,
-   "begun": 530,
-   "builder": null,
-   "template": "centralplan",
-   "loc": [
-    12.484688,
-    41.890478
-   ],
-   "rot": 290,
-   "w": 17.0,
-   "l": 20.0,
-   "h": 12.0,
-   "params": {
-    "diameter": 17,
-    "drumH": 10,
-    "domeH": 2,
-    "sides": 0,
-    "oculus": 0,
-    "apse": true,
-    "portico": null,
-    "mat": {
-     "walls": "brick",
-     "roof": "roof_tile"
-    }
-   },
-   "importance": 2,
-   "certainty": "reconstructed",
-   "summary": "A small round church with an apse at the foot of the Palatine on the Vicus Tuscus, with a sixth-century apse mosaic of Christ with Theodore; an early diaconia near the Horrea Agrippiana.",
-   "phases": [],
-   "sources": [],
-   "scholarship": [
-    "Krautheimer, Corpus Basilicarum Christianarum Romae (1937-1977) IV (1970) 279-288"
-   ],
-   "note": "OSM footprint; entrance WNW to Via di S. Teodoro (OSM door 296 deg)."
-  },
-  {
    "id": "san_giovanni_a_porta_latina_v1",
    "monument": "san_giovanni_a_porta_latina",
    "name": "San Giovanni a Porta Latina",
@@ -3198,6 +3117,189 @@
     "Krautheimer, Corpus Basilicarum Christianarum Romae (1937-1977) V (1977)"
    ],
    "note": "Behind the apse of Old St Peter's, facing west."
+  },
+  {
+   "id": "san_matteo_in_merulana_v1",
+   "monument": "san_matteo_in_merulana",
+   "name": "San Matteo in Merulana (titulus Matthaei)",
+   "from": 450,
+   "to": 9999,
+   "begun": null,
+   "builder": null,
+   "template": "church",
+   "loc": [
+    12.5003,
+    41.8935
+   ],
+   "rot": 315,
+   "w": 16.0,
+   "l": 30.0,
+   "h": 11.0,
+   "params": {
+    "nave": 8,
+    "aisles": 1,
+    "transept": false,
+    "apse": true,
+    "atrium": null,
+    "narthex": false,
+    "mat": {
+     "walls": "brick",
+     "columns": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "Titular church of St Matthew on the Via Merulana, attested at the synod of 499; demolished in 1810.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Acts of the Roman synod of 499",
+     "w": ""
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Corpus Basilicarum Christianarum Romae (1937-1977) III (1967) 125-128"
+   ],
+   "note": "Site on Via Merulana between S. Maria Maggiore and the Lateran approximate; date before 499 assumed."
+  },
+  {
+   "id": "santa_felicita_salaria_v1",
+   "monument": "santa_felicita_salaria",
+   "name": "Basilica of Santa Felicita (Via Salaria Nova)",
+   "from": 420,
+   "to": 9999,
+   "begun": null,
+   "builder": null,
+   "template": "church",
+   "loc": [
+    12.5058,
+    41.9193
+   ],
+   "rot": 90,
+   "w": 15.0,
+   "l": 25.0,
+   "h": 10.0,
+   "params": {
+    "nave": 8,
+    "aisles": 1,
+    "transept": false,
+    "apse": true,
+    "atrium": null,
+    "narthex": false,
+    "mat": {
+     "walls": "brick",
+     "columns": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "Funerary basilica over the grave of the martyr Felicitas in the cemetery of Maximus on the Via Salaria Nova, where Boniface I took refuge in 419 and was later buried.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "",
+     "r": "44.2"
+    }
+   ],
+   "scholarship": [
+    "Brandenburg, Ancient Churches of Rome from the Fourth to the Seventh Century (2005) 130"
+   ],
+   "note": "Coordinates approximate (catacomb of Maximus near Via Simeto)."
+  },
+  {
+   "id": "sant_ippolito_tiburtina_v1",
+   "monument": "sant_ippolito_tiburtina",
+   "name": "Basilica of Sant'Ippolito (Via Tiburtina)",
+   "from": 400,
+   "to": 9999,
+   "begun": null,
+   "builder": null,
+   "template": "church",
+   "loc": [
+    12.518,
+    41.9058
+   ],
+   "rot": 100,
+   "w": 14.0,
+   "l": 24.0,
+   "h": 9.0,
+   "params": {
+    "nave": 7,
+    "aisles": 1,
+    "transept": false,
+    "apse": true,
+    "atrium": null,
+    "narthex": false,
+    "mat": {
+     "walls": "brick",
+     "columns": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "Semi-subterranean basilica built in the catacomb of Hippolytus on the Via Tiburtina near San Lorenzo, described by Prudentius around 400.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Prudentius",
+     "w": "Peristephanon",
+     "r": "11.153-230"
+    }
+   ],
+   "scholarship": [
+    "Brandenburg, Ancient Churches of Rome from the Fourth to the Seventh Century (2005) 125-128"
+   ],
+   "note": "Coordinates approximate (Viale Regina Margherita / Via dei Canneti)."
+  },
+  {
+   "id": "santo_stefano_maggiore_vatican_v1",
+   "monument": "santo_stefano_maggiore_vatican",
+   "name": "Santo Stefano Maggiore (Vatican)",
+   "from": 450,
+   "to": 9999,
+   "begun": 440,
+   "builder": null,
+   "template": "church",
+   "loc": [
+    12.45232,
+    41.901944
+   ],
+   "rot": 90,
+   "w": 12.0,
+   "l": 25.0,
+   "h": 10.0,
+   "params": {
+    "nave": 6,
+    "aisles": 1,
+    "transept": false,
+    "apse": true,
+    "atrium": null,
+    "narthex": false,
+    "mat": {
+     "walls": "brick",
+     "columns": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "A small basilica of St Stephen behind the apse of St Peter's, traditionally founded by Leo I (440-461) and serving a monastery of the basilica; the present Santo Stefano degli Abissini preserves its site.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "",
+     "r": "47 (tradition)"
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Corpus Basilicarum Christianarum Romae (1937-1977) IV (1970) 178-198"
+   ],
+   "note": "Position from Santo Stefano degli Abissini behind the apse of St Peter's, approximate."
   },
   {
    "id": "tomb_of_annia_regilla_v1",

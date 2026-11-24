@@ -90,7 +90,7 @@
     "mat": {
      "carceres": "timber",
      "tiers": "timber",
-     "track": "paving_sand"
+     "track": "paving_travertine"
     }
    },
    "importance": 5,
@@ -148,7 +148,7 @@
     "mat": {
      "carceres": "timber",
      "tiers": "timber",
-     "track": "paving_sand"
+     "track": "paving_travertine"
     }
    },
    "importance": 5,
@@ -207,7 +207,7 @@
      "carceres": "tufa",
      "tiers": "timber",
      "spina": "tufa",
-     "track": "paving_sand"
+     "track": "paving_travertine"
     }
    },
    "importance": 5,
@@ -276,7 +276,7 @@
      "tiers": "tufa",
      "upper": "timber",
      "euripus": "water",
-     "track": "paving_sand"
+     "track": "paving_travertine"
     }
    },
    "importance": 5,
@@ -349,7 +349,7 @@
      "carceres": "tufa",
      "tiers": "tufa",
      "upper": "timber",
-     "track": "paving_sand"
+     "track": "paving_travertine"
     },
     "pulvinarSide": "+x (Palatine side)"
    },
@@ -421,7 +421,7 @@
      "tiers": "tufa",
      "upper": "timber",
      "spina": "marble_white",
-     "track": "paving_sand"
+     "track": "paving_travertine"
     },
     "pulvinarSide": "+x (Palatine side)"
    },
@@ -503,7 +503,7 @@
      "tiers": "tufa",
      "upper": "timber",
      "spina": "marble_white",
-     "track": "paving_sand"
+     "track": "paving_travertine"
     },
     "pulvinarSide": "+x (Palatine side)"
    },
@@ -575,7 +575,7 @@
      "tiers": "concrete_faced",
      "upper": "timber",
      "spina": "marble_white",
-     "track": "paving_sand"
+     "track": "paving_travertine"
     },
     "pulvinarSide": "+x (Palatine side)"
    },
@@ -648,7 +648,7 @@
      "tiers": "concrete_faced",
      "seats": "marble_white",
      "spina": "marble_white",
-     "track": "paving_sand"
+     "track": "paving_travertine"
     },
     "pulvinarSide": "+x (Palatine side)"
    },
@@ -731,7 +731,7 @@
      "tiers": "concrete_faced",
      "seats": "marble_white",
      "spina": "marble_white",
-     "track": "paving_sand"
+     "track": "paving_travertine"
     },
     "pulvinarSide": "+x (Palatine side)"
    },
@@ -842,8 +842,8 @@
    "builder": null,
    "template": "arch",
    "loc": [
-    12.4885,
-    41.88435
+    12.488651,
+    41.884263
    ],
    "rot": 126,
    "w": 8.0,
@@ -888,8 +888,8 @@
    "builder": "titus",
    "template": "arch",
    "loc": [
-    12.4885,
-    41.88435
+    12.488651,
+    41.884263
    ],
    "rot": 126,
    "w": 17.0,
@@ -1189,7 +1189,7 @@
      "columns": "stucco",
      "walls": "stucco",
      "roof": "roof_tile",
-     "pediment": "terracotta"
+     "pediment": "roof_tile"
     }
    },
    "importance": 4,
@@ -1608,8 +1608,8 @@
    "builder": "marcus_livius_salinator",
    "template": "temple",
    "loc": [
-    12.4832,
-    41.8878
+    12.483873,
+    41.887836
    ],
    "rot": 216,
    "w": 12.0,
@@ -1661,8 +1661,8 @@
    "builder": "augustus",
    "template": "temple",
    "loc": [
-    12.4832,
-    41.8878
+    12.483873,
+    41.887836
    ],
    "rot": 216,
    "w": 12.0,
@@ -1709,8 +1709,8 @@
    "builder": null,
    "template": "temple",
    "loc": [
-    12.4841,
-    41.8876
+    12.484589,
+    41.887499
    ],
    "rot": 216,
    "w": 12.0,
@@ -3004,6 +3004,154 @@
    "note": "Location in the valley between the Aventine and the Little Aventine north of the Baths of Caracalla; dates conjectural."
   },
   {
+   "id": "temple_of_venus_verticordia_v1",
+   "monument": "temple_of_venus_verticordia",
+   "name": "Temple of Venus Verticordia",
+   "from": -114,
+   "to": 9999,
+   "begun": null,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.48444,
+    41.885508
+   ],
+   "rot": 36,
+   "w": 11.0,
+   "l": 17.0,
+   "h": 11.0,
+   "params": {
+    "order": "tuscan",
+    "plan": "tuscan_alae",
+    "front": 4,
+    "side": 3,
+    "podium": 2.0,
+    "colH": 6.0,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "Built by order of the Sibylline books in 114 BC after three Vestals were convicted of unchastity, to Venus 'who turns hearts' toward virtue; in the valley of the Murcia.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "4.155-160"
+    },
+    {
+     "a": "Valerius Maximus",
+     "w": "Facta et dicta",
+     "r": "8.15.12"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 411"
+   ],
+   "note": "Placed on the Aventine flank of the circus valley near Venus Obsequens; site unknown."
+  },
+  {
+   "id": "temple_of_iuppiter_liber_aventine_v1",
+   "monument": "temple_of_iuppiter_liber_aventine",
+   "name": "Temple of Iuppiter Liber (Aventine)",
+   "from": -238,
+   "to": 9999,
+   "begun": null,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.4815,
+    41.8829
+   ],
+   "rot": 45,
+   "w": 12.0,
+   "l": 18.0,
+   "h": 11.0,
+   "params": {
+    "order": "tuscan",
+    "plan": "tuscan_alae",
+    "front": 4,
+    "side": 3,
+    "podium": 2.0,
+    "colH": 6.0,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "Temple of Jupiter Liber on the Aventine, founded in the third century BC (perhaps together with Libertas by Ti. Sempronius Gracchus) and restored by Augustus.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Augustus",
+     "w": "Res Gestae",
+     "r": "19"
+    },
+    {
+     "a": "Fasti Arvalium",
+     "w": "1 Sept."
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 221"
+   ],
+   "note": "Possibly the same building as the Temple of Libertas; site unknown."
+  },
+  {
+   "id": "columbarium_libertorum_liviae_v1",
+   "monument": "columbarium_libertorum_liviae",
+   "name": "Columbarium of the freedmen of Livia",
+   "from": 10,
+   "to": 9999,
+   "builder": null,
+   "template": "tomb",
+   "loc": [
+    12.5,
+    41.8744
+   ],
+   "rot": 231,
+   "w": 10.0,
+   "l": 18.0,
+   "h": 5.0,
+   "params": {
+    "kind": "house",
+    "w": 10,
+    "h": 5,
+    "hypogeum": true,
+    "niches": 1100,
+    "mat": {
+     "walls": "reticulate"
+    }
+   },
+   "importance": 1,
+   "certainty": "documented",
+   "summary": "Large columbarium for the slaves and freedmen of Livia's household on the Via Appia, found in 1726 and destroyed after its many inscriptions (doctors, hairdressers, wardrobe staff) had been copied.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "3926-4326"
+    }
+   ],
+   "scholarship": [
+    "Treggiari, 'Jobs in the household of Livia', PBSR 43 (1975)",
+    "Richardson (1992) 93"
+   ],
+   "note": "Destroyed; position near the Vigna Codini approximate."
+  },
+  {
    "id": "septizodium_v1",
    "monument": "septizodium",
    "name": "Septizodium",
@@ -4207,7 +4355,7 @@
      "walls": "concrete_faced",
      "towers": "brick",
      "spina": "marble_white",
-     "track": "paving_sand"
+     "track": "paving_travertine"
     }
    },
    "ruin": {

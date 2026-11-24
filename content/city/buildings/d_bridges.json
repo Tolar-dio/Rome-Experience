@@ -1,0 +1,701 @@
+{
+ "buildings": [
+  {
+   "id": "pons_sublicius_v1",
+   "monument": "pons_sublicius",
+   "name": "Pons Sublicius",
+   "from": -509,
+   "to": 399,
+   "begun": null,
+   "builder": null,
+   "template": "bridge",
+   "loc": [
+    12.4793,
+    41.8877
+   ],
+   "rot": 286.0,
+   "w": 5.0,
+   "l": 120.7,
+   "h": 7.0,
+   "params": {
+    "line": [
+     [
+      12.48,
+      41.88755
+     ],
+     [
+      12.4786,
+      41.88785
+     ]
+    ],
+    "arches": 0,
+    "deckW": 5.0,
+    "mat": {
+     "deck": "timber",
+     "piles": "timber"
+    }
+   },
+   "importance": 4,
+   "certainty": "conjectural",
+   "summary": "Rome's oldest bridge, built of wood on piles without any iron by Ancus Marcius below the Forum Boarium, defended by Horatius Cocles against Porsenna. Kept in timber for religious reasons and repaired by the pontifices after every flood.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "1.33.6; 2.10"
+    },
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Roman Antiquities",
+     "r": "3.45.2; 9.68.2"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "36.100"
+    }
+   ],
+   "scholarship": [
+    "Galliazzo, I ponti romani (1994)",
+    "Richardson (1992) 296-301",
+    "Le Gall, Le Tibre, fleuve de Rome dans l'antiquite (1953)"
+   ],
+   "note": "Exact site unknown; commonly placed just downstream of the Pons Aemilius near the Porta Trigemina. Last attested in the Regionary Catalogues. Placed in district D (Tiber Island / river plain); drop if another district covers the bridges."
+  },
+  {
+   "id": "pons_aemilius_v1",
+   "monument": "pons_aemilius",
+   "name": "Pons Aemilius (stone piers, timber deck)",
+   "from": -179,
+   "to": -143,
+   "begun": -179,
+   "builder": "marcus_aemilius_lepidus_cos187",
+   "template": "bridge",
+   "loc": [
+    12.47955,
+    41.889375
+   ],
+   "rot": 282.5,
+   "w": 8.0,
+   "l": 127.3,
+   "h": 9.0,
+   "params": {
+    "line": [
+     [
+      12.4803,
+      41.88925
+     ],
+     [
+      12.4788,
+      41.8895
+     ]
+    ],
+    "arches": 0,
+    "deckW": 8.0,
+    "mat": {
+     "piers": "tufa",
+     "deck": "timber"
+    }
+   },
+   "importance": 3,
+   "certainty": "documented",
+   "summary": "The censors M. Aemilius Lepidus and M. Fulvius Nobilior set stone piers in the river in 179 BC for the first stone bridge of Rome, with a timber superstructure.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "40.51.4"
+    }
+   ],
+   "scholarship": [
+    "Galliazzo, I ponti romani (1994)",
+    "Richardson (1992) 296-301",
+    "Le Gall, Le Tibre, fleuve de Rome dans l'antiquite (1953)"
+   ],
+   "note": "Ponte Rotto site. Placed in district D (Tiber Island / river plain); drop if another district covers the bridges."
+  },
+  {
+   "id": "pons_aemilius_v2",
+   "monument": "pons_aemilius",
+   "name": "Pons Aemilius (arched, 142 BC)",
+   "from": -142,
+   "to": -13,
+   "begun": null,
+   "builder": "scipio_aemilianus",
+   "template": "bridge",
+   "loc": [
+    12.47955,
+    41.889375
+   ],
+   "rot": 282.5,
+   "w": 8.0,
+   "l": 127.3,
+   "h": 12.0,
+   "params": {
+    "line": [
+     [
+      12.4803,
+      41.88925
+     ],
+     [
+      12.4788,
+      41.8895
+     ]
+    ],
+    "arches": 6,
+    "deckW": 8.0,
+    "mat": {
+     "piers": "tufa",
+     "arches": "tufa",
+     "deck": "paving_basalt"
+    }
+   },
+   "importance": 4,
+   "certainty": "documented",
+   "summary": "The censors Scipio Aemilianus and L. Mummius vaulted the bridge in stone in 142 BC.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "40.51.4"
+    }
+   ],
+   "scholarship": [
+    "Galliazzo, I ponti romani (1994)",
+    "Richardson (1992) 296-301",
+    "Le Gall, Le Tibre, fleuve de Rome dans l'antiquite (1953)"
+   ],
+   "note": " Placed in district D (Tiber Island / river plain); drop if another district covers the bridges."
+  },
+  {
+   "id": "pons_aemilius_v3",
+   "monument": "pons_aemilius",
+   "name": "Pons Aemilius (Augustan)",
+   "from": -12,
+   "to": 9999,
+   "begun": null,
+   "builder": null,
+   "template": "bridge",
+   "loc": [
+    12.47955,
+    41.889375
+   ],
+   "rot": 282.5,
+   "w": 8.0,
+   "l": 127.3,
+   "h": 12.0,
+   "params": {
+    "line": [
+     [
+      12.4803,
+      41.88925
+     ],
+     [
+      12.4788,
+      41.8895
+     ]
+    ],
+    "arches": 6,
+    "deckW": 8.0,
+    "mat": {
+     "piers": "travertine",
+     "arches": "travertine",
+     "deck": "paving_basalt"
+    }
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "Restored by Augustus in travertine; one arch (Ponte Rotto) survives from later rebuildings of the same bridge.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "878"
+    }
+   ],
+   "scholarship": [
+    "Galliazzo, I ponti romani (1994)",
+    "Richardson (1992) 296-301",
+    "Le Gall, Le Tibre, fleuve de Rome dans l'antiquite (1953)"
+   ],
+   "note": " Placed in district D (Tiber Island / river plain); drop if another district covers the bridges."
+  },
+  {
+   "id": "pons_fabricius_v1",
+   "monument": "pons_fabricius",
+   "name": "Pons Fabricius",
+   "from": -62,
+   "to": 9999,
+   "begun": null,
+   "builder": null,
+   "template": "bridge",
+   "loc": [
+    12.478333,
+    41.891111
+   ],
+   "rot": 219.5,
+   "w": 5.5,
+   "l": 57.3,
+   "h": 12.0,
+   "params": {
+    "line": [
+     [
+      12.478553,
+      41.891311
+     ],
+     [
+      12.478113,
+      41.890911
+     ]
+    ],
+    "arches": 2,
+    "deckW": 5.5,
+    "mat": {
+     "arches": "tufa",
+     "facing": "brick",
+     "deck": "paving_basalt"
+    }
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "Built in 62 BC by the curator viarum L. Fabricius to join the Campus Martius bank to the Tiber Island: two arches of 24.5 m with a small flood arch over the central pier; still in use, the oldest bridge in Rome.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "37.45.3"
+    },
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "1305"
+    }
+   ],
+   "scholarship": [
+    "Galliazzo, I ponti romani (1994)",
+    "Richardson (1992) 296-301",
+    "Le Gall, Le Tibre, fleuve de Rome dans l'antiquite (1953)"
+   ],
+   "note": "Endpoints around the OSM/Wikipedia centre (12.478333, 41.891111); length ~57 m. Placed in district D (Tiber Island / river plain); drop if another district covers the bridges."
+  },
+  {
+   "id": "pons_cestius_v1",
+   "monument": "pons_cestius",
+   "name": "Pons Cestius",
+   "from": -46,
+   "to": 369,
+   "begun": null,
+   "builder": null,
+   "template": "bridge",
+   "loc": [
+    12.477222,
+    41.890222
+   ],
+   "rot": 223.1,
+   "w": 8.0,
+   "l": 48.5,
+   "h": 10.0,
+   "params": {
+    "line": [
+     [
+      12.477422,
+      41.890382
+     ],
+     [
+      12.477022,
+      41.890062
+     ]
+    ],
+    "arches": 1,
+    "deckW": 8.0,
+    "mat": {
+     "arches": "tufa",
+     "deck": "paving_basalt"
+    }
+   },
+   "importance": 3,
+   "certainty": "documented",
+   "summary": "Bridge from the Tiber Island to Trastevere, probably built by L. Cestius in the 40s BC with one large arch and two small ones.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Galliazzo, I ponti romani (1994)",
+    "Richardson (1992) 296-301",
+    "Le Gall, Le Tibre, fleuve de Rome dans l'antiquite (1953)"
+   ],
+   "note": "Endpoints around the Wikipedia centre (12.477222, 41.890222). Placed in district D (Tiber Island / river plain); drop if another district covers the bridges."
+  },
+  {
+   "id": "pons_cestius_v2",
+   "monument": "pons_cestius",
+   "name": "Pons Gratiani",
+   "from": 370,
+   "to": 9999,
+   "begun": 365,
+   "builder": null,
+   "template": "bridge",
+   "loc": [
+    12.477222,
+    41.890222
+   ],
+   "rot": 223.1,
+   "w": 8.0,
+   "l": 48.5,
+   "h": 10.0,
+   "params": {
+    "line": [
+     [
+      12.477422,
+      41.890382
+     ],
+     [
+      12.477022,
+      41.890062
+     ]
+    ],
+    "arches": 3,
+    "deckW": 8.0,
+    "mat": {
+     "arches": "travertine",
+     "deck": "paving_basalt"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "Rebuilt in travertine in 365-370 by the emperors Valentinian, Valens and Gratian, whose inscription names it Pons Gratiani; demolished and rebuilt in 1888-1892 reusing its stones.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "1175-1176"
+    }
+   ],
+   "scholarship": [
+    "Galliazzo, I ponti romani (1994)",
+    "Richardson (1992) 296-301",
+    "Le Gall, Le Tibre, fleuve de Rome dans l'antiquite (1953)"
+   ],
+   "note": " Placed in district D (Tiber Island / river plain); drop if another district covers the bridges."
+  },
+  {
+   "id": "pons_probi_v1",
+   "monument": "pons_probi",
+   "name": "Pons Probi (Pons Theodosii)",
+   "from": 280,
+   "to": 9999,
+   "begun": null,
+   "builder": null,
+   "template": "bridge",
+   "loc": [
+    12.47595,
+    41.88185
+   ],
+   "rot": 323.1,
+   "w": 8.0,
+   "l": 96.7,
+   "h": 10.0,
+   "params": {
+    "line": [
+     [
+      12.4763,
+      41.8815
+     ],
+     [
+      12.4756,
+      41.8822
+     ]
+    ],
+    "arches": 5,
+    "deckW": 8.0,
+    "mat": {
+     "arches": "travertine",
+     "deck": "paving_basalt"
+    }
+   },
+   "importance": 2,
+   "certainty": "documented",
+   "summary": "Bridge near the Emporium attributed to Probus (or Aurelian) and restored under Theodosius; ruined in the 11th century, its remains removed in 1878-1884.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Notitia",
+     "w": "Regio XIII"
+    }
+   ],
+   "scholarship": [
+    "Galliazzo, I ponti romani (1994)",
+    "Richardson (1992) 296-301",
+    "Le Gall, Le Tibre, fleuve de Rome dans l'antiquite (1953)"
+   ],
+   "note": "Position near the modern Ponte Sublicio approximate. Placed in district D (Tiber Island / river plain); drop if another district covers the bridges."
+  },
+  {
+   "id": "pons_aurelius_v1",
+   "monument": "pons_aurelius",
+   "name": "Pons Agrippae / Aurelius",
+   "from": -20,
+   "to": 364,
+   "begun": null,
+   "builder": null,
+   "template": "bridge",
+   "loc": [
+    12.4706,
+    41.8922
+   ],
+   "rot": 226.5,
+   "w": 8.0,
+   "l": 102.8,
+   "h": 11.0,
+   "params": {
+    "line": [
+     [
+      12.47105,
+      41.89252
+     ],
+     [
+      12.47015,
+      41.89188
+     ]
+    ],
+    "arches": 4,
+    "deckW": 8.0,
+    "mat": {
+     "arches": "travertine",
+     "deck": "paving_basalt"
+    }
+   },
+   "importance": 3,
+   "certainty": "conjectural",
+   "summary": "A bridge linking the southern Campus Martius with Trastevere, perhaps built by Agrippa and rebuilt under the Antonines as Pons Aurelius; Agrippa's bridge may have stood a little upstream.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "31545"
+    }
+   ],
+   "scholarship": [
+    "Galliazzo, I ponti romani (1994)",
+    "Richardson (1992) 296-301",
+    "Le Gall, Le Tibre, fleuve de Rome dans l'antiquite (1953)"
+   ],
+   "note": "Ponte Sisto site. Placed in district D (Tiber Island / river plain); drop if another district covers the bridges."
+  },
+  {
+   "id": "pons_aurelius_v2",
+   "monument": "pons_aurelius",
+   "name": "Pons Valentiniani (Pons Aurelius rebuilt)",
+   "from": 365,
+   "to": 9999,
+   "begun": null,
+   "builder": "valentinian_i",
+   "template": "bridge",
+   "loc": [
+    12.4706,
+    41.8922
+   ],
+   "rot": 226.5,
+   "w": 8.0,
+   "l": 102.8,
+   "h": 11.0,
+   "params": {
+    "line": [
+     [
+      12.47105,
+      41.89252
+     ],
+     [
+      12.47015,
+      41.89188
+     ]
+    ],
+    "arches": 4,
+    "deckW": 8.0,
+    "mat": {
+     "arches": "travertine",
+     "deck": "paving_basalt"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "Rebuilt in 365-367 by Valentinian I with a triumphal arch at its end; fragments of its statues and inscriptions were found in the river in 1878. Ponte Sisto (1473-1479) stands on its piers.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "31402-31412"
+    }
+   ],
+   "scholarship": [
+    "Galliazzo, I ponti romani (1994)",
+    "Richardson (1992) 296-301",
+    "Le Gall, Le Tibre, fleuve de Rome dans l'antiquite (1953)"
+   ],
+   "note": " Placed in district D (Tiber Island / river plain); drop if another district covers the bridges."
+  },
+  {
+   "id": "pons_neronianus_v1",
+   "monument": "pons_neronianus",
+   "name": "Pons Neronianus",
+   "from": 60,
+   "to": 399,
+   "begun": null,
+   "builder": null,
+   "template": "bridge",
+   "loc": [
+    12.4652,
+    41.9001
+   ],
+   "rot": 257.5,
+   "w": 7.0,
+   "l": 101.9,
+   "h": 10.0,
+   "params": {
+    "line": [
+     [
+      12.4658,
+      41.9002
+     ],
+     [
+      12.4646,
+      41.9
+     ]
+    ],
+    "arches": 4,
+    "deckW": 7.0,
+    "mat": {
+     "arches": "tufa",
+     "deck": "paving_basalt"
+    }
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "Bridge leading from the Campus Martius to the Vatican plain and Nero's gardens, probably built by Caligula or Nero; already in ruins by the fourth century, and its piers still show at low water by Ponte Vittorio Emanuele II.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Galliazzo, I ponti romani (1994)",
+    "Richardson (1992) 296-301",
+    "Le Gall, Le Tibre, fleuve de Rome dans l'antiquite (1953)"
+   ],
+   "note": " Placed in district D (Tiber Island / river plain); drop if another district covers the bridges."
+  },
+  {
+   "id": "pons_neronianus_v2",
+   "monument": "pons_neronianus",
+   "name": "Pons Neronianus (ruined)",
+   "from": 400,
+   "to": 9999,
+   "begun": null,
+   "builder": null,
+   "template": "bridge",
+   "loc": [
+    12.4652,
+    41.9001
+   ],
+   "rot": 257.5,
+   "w": 7.0,
+   "l": 101.9,
+   "h": 3.0,
+   "params": {
+    "line": [
+     [
+      12.4658,
+      41.9002
+     ],
+     [
+      12.4646,
+      41.9
+     ]
+    ],
+    "arches": 4,
+    "deckW": 7.0,
+    "mat": {
+     "piers": "tufa"
+    }
+   },
+   "ruin": {
+    "from": 400,
+    "state": "foundations"
+   },
+   "importance": 1,
+   "certainty": "excavated",
+   "summary": "The bridge stood broken from late antiquity (pilgrims used the Pons Aelius).",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Galliazzo, I ponti romani (1994)",
+    "Richardson (1992) 296-301",
+    "Le Gall, Le Tibre, fleuve de Rome dans l'antiquite (1953)"
+   ],
+   "note": " Placed in district D (Tiber Island / river plain); drop if another district covers the bridges."
+  },
+  {
+   "id": "pons_aelius_v1",
+   "monument": "pons_aelius",
+   "name": "Pons Aelius",
+   "from": 134,
+   "to": 9999,
+   "begun": null,
+   "builder": "hadrian",
+   "template": "bridge",
+   "loc": [
+    12.466475,
+    41.9018
+   ],
+   "rot": 185.8,
+   "w": 10.5,
+   "l": 122.3,
+   "h": 12.0,
+   "params": {
+    "line": [
+     [
+      12.46655,
+      41.90235
+     ],
+     [
+      12.4664,
+      41.90125
+     ]
+    ],
+    "arches": 7,
+    "deckW": 10.5,
+    "mat": {
+     "arches": "travertine",
+     "deck": "paving_basalt",
+     "parapet": "marble_white"
+    }
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "Hadrian's bridge to his mausoleum, dedicated in 134: three main arches of 18 m with ramps on smaller arches, faced in travertine. From the fifth century the pilgrims' route to St Peter's; its three central arches survive in Ponte Sant'Angelo.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "973"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Hadrianus",
+     "r": "19.11"
+    }
+   ],
+   "scholarship": [
+    "Galliazzo, I ponti romani (1994)",
+    "Richardson (1992) 296-301",
+    "Le Gall, Le Tibre, fleuve de Rome dans l'antiquite (1953)"
+   ],
+   "note": " Placed in district D (Tiber Island / river plain); drop if another district covers the bridges."
+  }
+ ]
+}
