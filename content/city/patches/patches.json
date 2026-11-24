@@ -1,6 +1,20 @@
-{"note": "Coordinator fixes applied after the research passes. 'set' merges fields into the record with that id in any collection.",
+{
+ "note": "Coordinator fixes applied after the research passes. 'set' merges fields into the record with that id in any collection.",
  "set": {
-  "sant_andrea_catabarbara_v1": {"loc": [12.500254, 41.897309], "note": "Church installed c. 470 in the hall of the Basilica of Junius Bassus (cos. 331); placed on the basilica's Pleiades position so the two records chain on one site."},
-  "porta_praenestina_labicana": {"noGeom": true, "note": "Drawn by the building record porta_maggiore (district B), which models the aqueduct arches and the Honorian gate."}
+  "sant_andrea_catabarbara_v1": {
+   "loc": [
+    12.500254,
+    41.897309
+   ],
+   "note": "Church installed c. 470 in the hall of the Basilica of Junius Bassus (cos. 331); placed on the basilica's Pleiades position so the two records chain on one site."
+  },
+  "porta_praenestina_labicana": {
+   "noGeom": true,
+   "note": "Drawn by the building record porta_maggiore (district B), which models the aqueduct arches and the Honorian gate."
+  },
+  "circus_of_gaius_and_nero_v2": {
+   "to": 319,
+   "note": "Coordinator: the derelict circus is ended when Constantine's builders levelled the Vatican slope for St Peter's (c. 320); the rotundas and the obelisk then stood on its former spina line."
+  }
  }
 }
