@@ -1,0 +1,3510 @@
+{
+ "buildings": [
+  {
+   "id": "lateran_basilica_v1",
+   "monument": "lateran_basilica",
+   "name": "Lateran Basilica (Basilica Salvatoris, Constantinian)",
+   "from": 320,
+   "to": 454,
+   "begun": 312,
+   "builder": "constantine_i",
+   "template": "church",
+   "loc": [
+    12.505899,
+    41.885798
+   ],
+   "rot": 77.5,
+   "w": 56.0,
+   "l": 98.0,
+   "h": 30.0,
+   "params": {
+    "nave": 19.0,
+    "aisles": 2,
+    "transept": false,
+    "apse": true,
+    "atrium": null,
+    "narthex": false,
+    "mat": {
+     "walls": "brick",
+     "columns": "granite",
+     "roof": "roof_tile",
+     "apse": "gilded"
+    },
+    "wings": true
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "The first great church of Rome and cathedral of its bishop, built by Constantine from late 312 on the levelled barracks of the Equites Singulares, Maxentius' horse guard: a five-aisled timber-roofed basilica about 98 x 56 m with a nave 19 m wide flanked by columns of red granite and verde antico, short projecting wings at the west end and an apse to the west. Occidented: the facade faced east. Endowed with a gold and silver fastigium and seven silver altars.",
+   "phases": [
+    {
+     "y": 313,
+     "t": "council against the Donatists in the Lateran (Domus Faustae)"
+    },
+    {
+     "y": 324,
+     "t": "probable completion and dedication to the Saviour"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "",
+     "r": "34.9-10"
+    },
+    {
+     "a": "Optatus",
+     "w": "Contra Parmenianum Donatistam",
+     "r": "1.23"
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Corpus Basilicarum Christianarum Romae (1937-1977) V (1977) 1-92",
+    "Brandenburg, Ancient Churches of Rome from the Fourth to the Seventh Century (2005) 20-37",
+    "Krautheimer, Rome: Profile of a City, 312-1308 (1980) 21-24"
+   ],
+   "note": "Centre placed 24 m east of the OSM centroid of the present basilica (the 1880s apse extension and the medieval transept lengthen it westward); axis 77.5 deg, facade ENE as today (OSM main entrance on the east front). The Council of 313 met in the adjacent Domus Faustae."
+  },
+  {
+   "id": "lateran_basilica_v2",
+   "monument": "lateran_basilica",
+   "name": "Lateran Basilica (after the Vandal sack, restored)",
+   "from": 455,
+   "to": 9999,
+   "begun": null,
+   "builder": "pope_leo_i",
+   "template": "church",
+   "loc": [
+    12.505899,
+    41.885798
+   ],
+   "rot": 77.5,
+   "w": 56.0,
+   "l": 98.0,
+   "h": 30.0,
+   "params": {
+    "nave": 19.0,
+    "aisles": 2,
+    "transept": false,
+    "apse": true,
+    "atrium": null,
+    "narthex": false,
+    "mat": {
+     "walls": "brick",
+     "columns": "granite",
+     "roof": "roof_tile",
+     "apse": "gilded"
+    },
+    "wings": true
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "Stripped by Gaiseric's Vandals in 455, restored by Leo I and Hilarus; repaired again after damage in the Gothic war. The fabric remained Constantine's until the earthquake of 896.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "",
+     "r": "47.6; 48.2-6"
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Corpus Basilicarum Christianarum Romae (1937-1977) V (1977) 1-92",
+    "Brandenburg, Ancient Churches of Rome from the Fourth to the Seventh Century (2005) 20-37"
+   ],
+   "note": "Same structure, restored furnishings; version split at the 455 sack."
+  },
+  {
+   "id": "lateran_baptistery_v1",
+   "monument": "lateran_baptistery",
+   "name": "Lateran Baptistery (Constantinian)",
+   "from": 324,
+   "to": 431,
+   "begun": null,
+   "builder": "constantine_i",
+   "template": "centralplan",
+   "loc": [
+    12.504293,
+    41.886145
+   ],
+   "rot": 0,
+   "w": 20.0,
+   "l": 20.0,
+   "h": 14.0,
+   "params": {
+    "diameter": 20,
+    "drumH": 12,
+    "domeH": 2,
+    "sides": 0,
+    "oculus": 0,
+    "portico": null,
+    "mat": {
+     "walls": "brick",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "Constantine's baptistery beside the cathedral, a round or octagonal room around a sunken font where, the Liber Pontificalis says, gold and silver stags poured water; built over a bath of the Lateran villa.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "",
+     "r": "34.13"
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Corpus Basilicarum Christianarum Romae (1937-1977) V (1977) 1-92",
+    "Brandenburg, Ancient Churches of Rome from the Fourth to the Seventh Century (2005) 37-54"
+   ],
+   "note": "Excavations show a first round(ed) building on the same site under the Sixtine octagon."
+  },
+  {
+   "id": "lateran_baptistery_v2",
+   "monument": "lateran_baptistery",
+   "name": "Lateran Baptistery (Sixtus III)",
+   "from": 440,
+   "to": 9999,
+   "begun": 432,
+   "builder": null,
+   "template": "centralplan",
+   "loc": [
+    12.504293,
+    41.886145
+   ],
+   "rot": 170,
+   "w": 22.0,
+   "l": 24.0,
+   "h": 20.0,
+   "params": {
+    "diameter": 21,
+    "drumH": 16,
+    "domeH": 4,
+    "sides": 8,
+    "oculus": 0,
+    "portico": {
+     "front": 2,
+     "side": 1,
+     "colH": 7,
+     "w": 12,
+     "l": 5
+    },
+    "mat": {
+     "walls": "brick",
+     "columns": "porphyry",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "Sixtus III (432-440) rebuilt it as the octagon still standing: eight porphyry columns in two orders around the font, an ambulatory, an octagonal clerestory drum, and a porch with two porphyry columns; the lintel carries his verses on rebirth through baptism. The model for baptisteries throughout the West. Hilarus added three oratories around it (461-468).",
+   "phases": [
+    {
+     "y": 440,
+     "t": "completed by Sixtus III"
+    },
+    {
+     "y": 465,
+     "t": "oratories of Hilarus added"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "",
+     "r": "46.7; 48.2-3"
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Corpus Basilicarum Christianarum Romae (1937-1977) V (1977) 1-92",
+    "Brandenburg, Ancient Churches of Rome from the Fourth to the Seventh Century (2005) 37-54",
+    "Pelliccioni, Le nuove scoperte sulle origini del Battistero Lateranense (1973)"
+   ],
+   "note": "Centre from OSM. The entrance porch (later the narthex of SS. Rufina e Seconda) lies on the south side; rot 170 assumed. Octagon ~20 m across, drum ~20 m high."
+  },
+  {
+   "id": "lateran_oratory_1_v1",
+   "monument": "lateran_oratory_baptist",
+   "name": "Oratory of St John the Baptist (Lateran)",
+   "from": 468,
+   "to": 9999,
+   "begun": 461,
+   "builder": null,
+   "template": "compound",
+   "loc": [
+    12.504459,
+    41.886167
+   ],
+   "rot": 260,
+   "w": 9.0,
+   "l": 12.0,
+   "h": 8.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 9,
+      "l": 9,
+      "h": 8,
+      "mat": "brick"
+     },
+     {
+      "shape": "apse",
+      "x": 0,
+      "y": -4.5,
+      "w": 4,
+      "l": 2,
+      "h": 6,
+      "mat": "brick"
+     }
+    ],
+    "plan": "rectangular_apsed"
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "Pope Hilarus (461-468) added three chapels to the baptistery in thanks for his escape from the 'Robber Council' of Ephesus (449): two to the two Johns, opening off the octagon, and a cross-shaped oratory of the Holy Cross behind it.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "",
+     "r": "48.2-3"
+    }
+   ],
+   "scholarship": [
+    "Brandenburg, Ancient Churches of Rome from the Fourth to the Seventh Century (2005) 37-54"
+   ],
+   "note": "Positions relative to the baptistery approximate."
+  },
+  {
+   "id": "lateran_oratory_2_v1",
+   "monument": "lateran_oratory_evangelist",
+   "name": "Oratory of St John the Evangelist (Lateran)",
+   "from": 468,
+   "to": 9999,
+   "begun": 461,
+   "builder": null,
+   "template": "compound",
+   "loc": [
+    12.504127,
+    41.886123
+   ],
+   "rot": 80,
+   "w": 9.0,
+   "l": 12.0,
+   "h": 8.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 9,
+      "l": 9,
+      "h": 8,
+      "mat": "brick"
+     },
+     {
+      "shape": "apse",
+      "x": 0,
+      "y": -4.5,
+      "w": 4,
+      "l": 2,
+      "h": 6,
+      "mat": "brick"
+     }
+    ],
+    "plan": "rectangular_apsed"
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "Pope Hilarus (461-468) added three chapels to the baptistery in thanks for his escape from the 'Robber Council' of Ephesus (449): two to the two Johns, opening off the octagon, and a cross-shaped oratory of the Holy Cross behind it.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "",
+     "r": "48.2-3"
+    }
+   ],
+   "scholarship": [
+    "Brandenburg, Ancient Churches of Rome from the Fourth to the Seventh Century (2005) 37-54"
+   ],
+   "note": "Positions relative to the baptistery approximate."
+  },
+  {
+   "id": "lateran_oratory_3_v1",
+   "monument": "lateran_oratory_holy_cross",
+   "name": "Oratory of the Holy Cross (Lateran)",
+   "from": 468,
+   "to": 9999,
+   "begun": 461,
+   "builder": null,
+   "template": "compound",
+   "loc": [
+    12.504247,
+    41.886341
+   ],
+   "rot": 350,
+   "w": 14.0,
+   "l": 17.0,
+   "h": 8.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 14,
+      "l": 14,
+      "h": 8,
+      "mat": "brick"
+     },
+     {
+      "shape": "apse",
+      "x": 0,
+      "y": -7.0,
+      "w": 4,
+      "l": 2,
+      "h": 6,
+      "mat": "brick"
+     }
+    ],
+    "plan": "cross"
+   },
+   "importance": 2,
+   "certainty": "documented",
+   "summary": "Pope Hilarus (461-468) added three chapels to the baptistery in thanks for his escape from the 'Robber Council' of Ephesus (449): two to the two Johns, opening off the octagon, and a cross-shaped oratory of the Holy Cross behind it. The cross-shaped oratory was demolished in 1588.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "",
+     "r": "48.2-3"
+    }
+   ],
+   "scholarship": [
+    "Brandenburg, Ancient Churches of Rome from the Fourth to the Seventh Century (2005) 37-54"
+   ],
+   "note": "Positions relative to the baptistery approximate."
+  },
+  {
+   "id": "san_venanzio_lateran_v1",
+   "monument": "san_venanzio_lateran",
+   "name": "Oratory of San Venanzio (Lateran)",
+   "from": 641,
+   "to": 9999,
+   "begun": 640,
+   "builder": null,
+   "template": "church",
+   "loc": [
+    12.504387,
+    41.886268
+   ],
+   "rot": 260,
+   "w": 10.0,
+   "l": 18.0,
+   "h": 10.0,
+   "params": {
+    "nave": 9,
+    "aisles": 0,
+    "transept": false,
+    "apse": true,
+    "atrium": null,
+    "narthex": false,
+    "mat": {
+     "walls": "brick",
+     "columns": "marble_white",
+     "roof": "roof_tile"
+    },
+    "apse_mosaic": true
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "Pope John IV (640-642), a Dalmatian, built a chapel against the baptistery for the relics of martyrs of Salona brought from his homeland, with an apse mosaic finished under Theodore I.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "",
+     "r": "74.2"
+    }
+   ],
+   "scholarship": [
+    "Brandenburg, Ancient Churches of Rome from the Fourth to the Seventh Century (2005) 37-54"
+   ],
+   "note": "Begun 640; just inside the model's end date."
+  },
+  {
+   "id": "lateran_episcopium_v1",
+   "monument": "lateran_episcopium",
+   "name": "Lateran Episcopium (Domus Faustae)",
+   "from": 313,
+   "to": 449,
+   "begun": null,
+   "builder": null,
+   "template": "compound",
+   "loc": [
+    12.506,
+    41.8869
+   ],
+   "rot": 180,
+   "w": 60.0,
+   "l": 80.0,
+   "h": 14.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "court",
+      "x": 0,
+      "y": 0,
+      "w": 60,
+      "l": 80,
+      "h": 12,
+      "ringDepth": 12,
+      "mat": "brick"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": -30,
+      "w": 30,
+      "l": 16,
+      "h": 14,
+      "mat": "brick"
+     }
+    ]
+   },
+   "importance": 3,
+   "certainty": "conjectural",
+   "summary": "The palace of the Laterani, later of the empress Fausta, handed to Bishop Miltiades in 313, became the residence and administration of the bishops of Rome on the north side of the cathedral.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Optatus",
+     "w": "Contra Parmenianum Donatistam",
+     "r": "1.23"
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Rome: Profile of a City, 312-1308 (1980) 21-24",
+    "Lauer, Le palais de Latran (1911)"
+   ],
+   "note": "Layout unknown; a courtyard house block north of the basilica facade is modelled."
+  },
+  {
+   "id": "lateran_episcopium_v2",
+   "monument": "lateran_episcopium",
+   "name": "Lateran Patriarchium",
+   "from": 450,
+   "to": 9999,
+   "begun": null,
+   "builder": null,
+   "template": "compound",
+   "loc": [
+    12.506,
+    41.8869
+   ],
+   "rot": 180,
+   "w": 80.0,
+   "l": 110.0,
+   "h": 16.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "court",
+      "x": 0,
+      "y": 0,
+      "w": 80,
+      "l": 110,
+      "h": 14,
+      "ringDepth": 14,
+      "mat": "brick"
+     },
+     {
+      "shape": "box",
+      "x": -20,
+      "y": -45,
+      "w": 40,
+      "l": 18,
+      "h": 16,
+      "mat": "brick"
+     },
+     {
+      "shape": "box",
+      "x": 30,
+      "y": 30,
+      "w": 20,
+      "l": 30,
+      "h": 15,
+      "mat": "brick"
+     }
+    ]
+   },
+   "importance": 3,
+   "certainty": "conjectural",
+   "summary": "Expanded through the fifth to seventh centuries into the papal palace (patriarchium) with halls, chapels, a library and the vestiarium; Gregory the Great governed Rome from here. Medieval and Sixtine rebuilding erased it.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "",
+     "r": "53.8; 66.4"
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Rome: Profile of a City, 312-1308 (1980) 21-24",
+    "Lauer (1911)"
+   ],
+   "note": "Footprint conjectural."
+  },
+  {
+   "id": "santa_croce_in_gerusalemme_v1",
+   "monument": "santa_croce_in_gerusalemme",
+   "name": "Santa Croce in Gerusalemme (Basilica Sessoriana)",
+   "from": 325,
+   "to": 9999,
+   "begun": 320,
+   "builder": "helena",
+   "template": "church",
+   "loc": [
+    12.515882,
+    41.888213
+   ],
+   "rot": 294,
+   "w": 22.0,
+   "l": 40.0,
+   "h": 22.0,
+   "params": {
+    "nave": 21.7,
+    "aisles": 0,
+    "transept": false,
+    "apse": true,
+    "atrium": null,
+    "narthex": false,
+    "mat": {
+     "walls": "brick",
+     "roof": "roof_tile"
+    },
+    "hall": true,
+    "diaphragm_arches": 2
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "In the Sessorian palace of Constantine's mother Helena a large rectangular hall, about 36.5 x 21.7 m, was turned into a church to house the relic of the True Cross: an apse was added at the east and two transverse arcades divided the space. It became one of the stational churches, 'Hierusalem'.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "",
+     "r": "34.22"
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Corpus Basilicarum Christianarum Romae (1937-1977) I (1937) 165-195",
+    "Brandenburg, Ancient Churches of Rome from the Fourth to the Seventh Century (2005) 103-108"
+   ],
+   "note": "Present church footprint from OSM; facade faces WNW toward the Lateran (OSM main entrance at 296 deg). Hall dimensions from Krautheimer."
+  },
+  {
+   "id": "basilica_liberiana_v1",
+   "monument": "basilica_liberiana",
+   "name": "Basilica Liberiana (Sicininum?)",
+   "from": 360,
+   "to": 431,
+   "begun": null,
+   "builder": null,
+   "template": "church",
+   "loc": [
+    12.498438,
+    41.897613
+   ],
+   "rot": 130,
+   "w": 25.0,
+   "l": 45.0,
+   "h": 16.0,
+   "params": {
+    "nave": 12,
+    "aisles": 1,
+    "transept": false,
+    "apse": true,
+    "atrium": null,
+    "narthex": false,
+    "mat": {
+     "walls": "brick",
+     "columns": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Pope Liberius (352-366) is said to have built a basilica 'iuxta macellum Liviae'; later legend tied it to the August snowfall that marked the site of Santa Maria Maggiore. Some identify it with the Basilica Sicinini where the rival factions of Damasus and Ursinus fought in 366, leaving 137 dead.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "",
+     "r": "37.7"
+    },
+    {
+     "a": "Ammianus Marcellinus",
+     "w": "Res Gestae",
+     "r": "27.3.13"
+    }
+   ],
+   "scholarship": [
+    "Brandenburg, Ancient Churches of Rome from the Fourth to the Seventh Century (2005) 176-189",
+    "De Blaauw, Cultus et decor (1994) 335-339"
+   ],
+   "note": "Its site is uncertain and excavations under S. Maria Maggiore found no church predecessor; placed on the later church site as a hypothesis."
+  },
+  {
+   "id": "santa_maria_maggiore_v1",
+   "monument": "santa_maria_maggiore",
+   "name": "Santa Maria Maggiore",
+   "from": 440,
+   "to": 9999,
+   "begun": 432,
+   "builder": null,
+   "template": "church",
+   "loc": [
+    12.498438,
+    41.897613
+   ],
+   "rot": 130,
+   "w": 35.0,
+   "l": 79.0,
+   "h": 25.0,
+   "params": {
+    "nave": 17.5,
+    "aisles": 1,
+    "transept": false,
+    "apse": true,
+    "atrium": null,
+    "narthex": true,
+    "mat": {
+     "walls": "brick",
+     "columns": "marble_white",
+     "roof": "roof_tile",
+     "nave_mosaic": "gilded"
+    },
+    "columns": 40,
+    "order": "ionic"
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "Sixtus III's church of the Mother of God, built just after the Council of Ephesus (431): a three-aisled basilica with Ionic colonnades of 36 marble columns carrying a straight entablature, a classical revival in brick and marble. Its nave mosaics of Old Testament stories and the triumphal arch with the childhood of Christ survive; the apse was moved in the 13th century.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "",
+     "r": "46.3"
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Corpus Basilicarum Christianarum Romae (1937-1977) III (1967) 1-60",
+    "Brandenburg, Ancient Churches of Rome from the Fourth to the Seventh Century (2005) 176-189",
+    "Krautheimer, Rome: Profile of a City, 312-1308 (1980) 46-49"
+   ],
+   "note": "Centre and axis from OSM (the Sistine and Pauline chapels widen the modern outline). Facade faces SE (OSM entrances at 123-139 deg)."
+  },
+  {
+   "id": "santo_stefano_rotondo_v1",
+   "monument": "santo_stefano_rotondo",
+   "name": "Santo Stefano Rotondo",
+   "from": 483,
+   "to": 9999,
+   "begun": 468,
+   "builder": null,
+   "template": "compound",
+   "loc": [
+    12.496719,
+    41.884679
+   ],
+   "rot": 40,
+   "w": 66.0,
+   "l": 66.0,
+   "h": 22.5,
+   "params": {
+    "blocks": [
+     {
+      "shape": "cylinder",
+      "x": 0,
+      "y": 0,
+      "w": 66,
+      "l": 66,
+      "h": 7,
+      "mat": "brick"
+     },
+     {
+      "shape": "cylinder",
+      "x": 0,
+      "y": 0,
+      "w": 42,
+      "l": 42,
+      "h": 11,
+      "mat": "brick"
+     },
+     {
+      "shape": "cylinder",
+      "x": 0,
+      "y": 0,
+      "w": 22.5,
+      "l": 22.5,
+      "h": 22.5,
+      "mat": "brick"
+     },
+     {
+      "shape": "dome",
+      "x": 0,
+      "y": 0,
+      "w": 22.5,
+      "l": 22.5,
+      "h": 2.5,
+      "z": 22.5,
+      "mat": "roof_tile"
+     }
+    ],
+    "plan": "cross-in-circle"
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "A unique round church dedicated to St Stephen by Pope Simplicius (468-483), probably inspired by the Holy Sepulchre: a tall central cylinder 22 m across on 22 Ionic columns, an ambulatory, and an outer ring cut into four arms forming a Greek cross with four lower courtyards between, 66 m across overall. Pope John I and Felix IV added marble revetments; the outer ring was demolished in the 12th century.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "",
+     "r": "49.1"
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Corpus Basilicarum Christianarum Romae (1937-1977) IV (1970) 199-240",
+    "Brandenburg and Pal, Santo Stefano Rotondo in Roma (2000)",
+    "Brandenburg, Ancient Churches of Rome from the Fourth to the Seventh Century (2005) 199-211"
+   ],
+   "note": "Centre from OSM. The main entrance today is on the NE (OSM main entrance at 40 deg); the original had entrances on several axes."
+  },
+  {
+   "id": "san_clemente_v1",
+   "monument": "san_clemente",
+   "name": "San Clemente (lower basilica)",
+   "from": 390,
+   "to": 9999,
+   "begun": 380,
+   "builder": null,
+   "template": "church",
+   "loc": [
+    12.497479,
+    41.889368
+   ],
+   "rot": 104.7,
+   "w": 30.0,
+   "l": 45.0,
+   "h": 15.0,
+   "params": {
+    "nave": 13,
+    "aisles": 1,
+    "transept": false,
+    "apse": true,
+    "atrium": {
+     "w": 30,
+     "l": 25
+    },
+    "narthex": true,
+    "mat": {
+     "walls": "brick",
+     "columns": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "The titulus Clementis, built in the late fourth century over a Roman warehouse-like building and a house with a Mithraeum; Jerome mentions it in 392 and councils met in it in 417. A three-aisled basilica with a narthex and atrium to the east, buried in the 12th century under the present church.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Jerome",
+     "w": "De viris illustribus",
+     "r": "15"
+    },
+    {
+     "a": "Collectio Avellana",
+     "w": "45"
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Corpus Basilicarum Christianarum Romae (1937-1977) I (1937) 117-136",
+    "Guidobaldi, San Clemente: gli edifici romani, la basilica paleocristiana (1992)"
+   ],
+   "note": "Atrium and entrance to the east as today (OSM entrance 107 deg); centre 14 m west of the OSM centroid, which includes the atrium. Abandoned 1084-1100."
+  },
+  {
+   "id": "santi_giovanni_e_paolo_v1",
+   "monument": "santi_giovanni_e_paolo",
+   "name": "Santi Giovanni e Paolo (titulus Pammachii)",
+   "from": 410,
+   "to": 9999,
+   "begun": 398,
+   "builder": null,
+   "template": "church",
+   "loc": [
+    12.492095,
+    41.886561
+   ],
+   "rot": 97,
+   "w": 28.0,
+   "l": 48.0,
+   "h": 18.0,
+   "params": {
+    "nave": 12,
+    "aisles": 1,
+    "transept": false,
+    "apse": true,
+    "atrium": null,
+    "narthex": true,
+    "mat": {
+     "walls": "brick",
+     "columns": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "The senator Pammachius, Jerome's friend, built a basilica on the Clivus Scauri over Roman houses in which a domestic shrine of martyrs (later identified as John and Paul) had been venerated; its arcaded facade on the street partly survives behind the medieval portico.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "",
+     "r": "42"
+    },
+    {
+     "a": "Jerome",
+     "w": "Epistulae",
+     "r": "66"
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Corpus Basilicarum Christianarum Romae (1937-1977) I (1937) 267-303",
+    "Brandenburg, Ancient Churches of Rome from the Fourth to the Seventh Century (2005) 155-162"
+   ],
+   "note": "OSM footprint and main entrance (100 deg): facade faces east onto the piazza."
+  },
+  {
+   "id": "san_pietro_in_vincoli_v1",
+   "monument": "san_pietro_in_vincoli",
+   "name": "Titulus Apostolorum (first church on the Oppian)",
+   "from": 380,
+   "to": 431,
+   "begun": null,
+   "builder": null,
+   "template": "church",
+   "loc": [
+    12.493197,
+    41.893905
+   ],
+   "rot": 243,
+   "w": 22.0,
+   "l": 40.0,
+   "h": 14.0,
+   "params": {
+    "nave": 11,
+    "aisles": 1,
+    "transept": false,
+    "apse": true,
+    "atrium": null,
+    "narthex": false,
+    "mat": {
+     "walls": "brick",
+     "columns": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "An earlier church of the Apostles built in the later fourth century over Roman houses on the Oppian; its apse was found under the present one.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Krautheimer, Corpus Basilicarum Christianarum Romae (1937-1977) III (1967) 178-231",
+    "Brandenburg, Ancient Churches of Rome from the Fourth to the Seventh Century (2005) 191-194"
+   ],
+   "note": "Dimensions approximate."
+  },
+  {
+   "id": "san_pietro_in_vincoli_v2",
+   "monument": "san_pietro_in_vincoli",
+   "name": "San Pietro in Vincoli (Basilica Eudoxiana)",
+   "from": 440,
+   "to": 9999,
+   "begun": 432,
+   "builder": null,
+   "template": "church",
+   "loc": [
+    12.493197,
+    41.893905
+   ],
+   "rot": 243,
+   "w": 30.0,
+   "l": 64.0,
+   "h": 20.0,
+   "params": {
+    "nave": 15,
+    "aisles": 1,
+    "transept": false,
+    "apse": true,
+    "atrium": null,
+    "narthex": true,
+    "mat": {
+     "walls": "brick",
+     "columns": "marble_white",
+     "roof": "roof_tile"
+    },
+    "order": "doric",
+    "columns": 20
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "Rebuilt by Sixtus III with the help of the empress Licinia Eudoxia, who gave the chains of Peter brought from Jerusalem: a broad three-aisled basilica on twenty fluted Doric columns of Greek marble, with an apse to the east and its facade facing west over the Esquiline slope.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "",
+     "r": "46.9"
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Corpus Basilicarum Christianarum Romae (1937-1977) III (1967) 178-231",
+    "Brandenburg, Ancient Churches of Rome from the Fourth to the Seventh Century (2005) 191-194"
+   ],
+   "note": "OSM footprint; main entrance faces WSW (OSM 248 deg)."
+  },
+  {
+   "id": "santa_pudenziana_v1",
+   "monument": "santa_pudenziana",
+   "name": "Santa Pudenziana (titulus Pudentis)",
+   "from": 390,
+   "to": 9999,
+   "begun": 384,
+   "builder": null,
+   "template": "church",
+   "loc": [
+    12.495433,
+    41.898437
+   ],
+   "rot": 124,
+   "w": 24.0,
+   "l": 42.0,
+   "h": 16.0,
+   "params": {
+    "nave": 12,
+    "aisles": 1,
+    "transept": false,
+    "apse": true,
+    "atrium": null,
+    "narthex": false,
+    "mat": {
+     "walls": "brick",
+     "columns": "marble_white",
+     "roof": "roof_tile"
+    },
+    "apse_mosaic": true
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "A second-century bath hall on the Vicus Patricius converted into a church under Pope Siricius (384-399); its apse mosaic of Christ enthroned among the apostles before the heavenly Jerusalem (c. 410) is the oldest surviving apse mosaic in Rome.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "1765 (mosaic inscription)"
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Corpus Basilicarum Christianarum Romae (1937-1977) III (1967) 277-302",
+    "Brandenburg, Ancient Churches of Rome from the Fourth to the Seventh Century (2005) 137-142"
+   ],
+   "note": "Conversion of a bath hall, assigned here by the brief. OSM main entrance at 117 deg: facade faces SE to Via Urbana (the Vicus Patricius)."
+  },
+  {
+   "id": "santa_sabina_v1",
+   "monument": "santa_sabina",
+   "name": "Santa Sabina",
+   "from": 432,
+   "to": 9999,
+   "begun": 422,
+   "builder": null,
+   "template": "church",
+   "loc": [
+    12.479777,
+    41.884503
+   ],
+   "rot": 225,
+   "w": 25.0,
+   "l": 53.0,
+   "h": 20.0,
+   "params": {
+    "nave": 13.5,
+    "aisles": 1,
+    "transept": false,
+    "apse": true,
+    "atrium": null,
+    "narthex": true,
+    "mat": {
+     "walls": "brick",
+     "columns": "marble_white",
+     "roof": "roof_tile"
+    },
+    "columns": 24,
+    "order": "corinthian",
+    "windows": "selenite"
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "Built by the Illyrian priest Peter under Pope Celestine I (422-432) on the Aventine: the best preserved early Christian basilica in Rome, 53 x 25 m, with 24 fluted Corinthian columns of Proconnesian marble (a matched set from one second-century building), wide arcades, large clerestory windows with selenite grilles, opus sectile in the spandrels, the dedicatory mosaic inscription over the door and carved cypress doors with one of the earliest Crucifixion scenes.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Dedicatory mosaic inscription",
+     "w": "CIL VI 31227 / ICUR"
+    },
+    {
+     "a": "Liber Pontificalis",
+     "w": "",
+     "r": "45"
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Corpus Basilicarum Christianarum Romae (1937-1977) IV (1970) 72-98",
+    "Brandenburg, Ancient Churches of Rome from the Fourth to the Seventh Century (2005) 167-176",
+    "Krautheimer, Rome: Profile of a City, 312-1308 (1980) 47"
+   ],
+   "note": "OSM footprint (62.5 x 35.9 incl. narthex and side chapels), axis 45 deg. The narthex and original front are at the SW end next to the convent; apse NE. rot 225."
+  },
+  {
+   "id": "santa_prisca_v1",
+   "monument": "santa_prisca",
+   "name": "Santa Prisca (titulus Priscae)",
+   "from": 400,
+   "to": 9999,
+   "begun": 395,
+   "builder": null,
+   "template": "church",
+   "loc": [
+    12.483981,
+    41.883078
+   ],
+   "rot": 250,
+   "w": 20.0,
+   "l": 35.0,
+   "h": 14.0,
+   "params": {
+    "nave": 10,
+    "aisles": 1,
+    "transept": false,
+    "apse": true,
+    "atrium": null,
+    "narthex": false,
+    "mat": {
+     "walls": "brick",
+     "columns": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "Titular church built around 400 over the house with the Mithraeum, which was smashed and filled in; legend made Prisca a convert of Peter. Rebuilt after the Norman sack of 1084 and in the 17th century, keeping the ancient columns.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Krautheimer, Corpus Basilicarum Christianarum Romae (1937-1977) III (1967) 260-276",
+    "Vermaseren and van Essen (1965)"
+   ],
+   "note": "OSM footprint 34.6 x 19.8, axis 70.5; facade faces WSW toward Piazza S. Prisca (assumed, no OSM entrance)."
+  },
+  {
+   "id": "san_vitale_v1",
+   "monument": "san_vitale",
+   "name": "San Vitale (titulus Vestinae)",
+   "from": 402,
+   "to": 9999,
+   "begun": 401,
+   "builder": null,
+   "template": "church",
+   "loc": [
+    12.490709,
+    41.899757
+   ],
+   "rot": 302,
+   "w": 25.0,
+   "l": 47.0,
+   "h": 16.0,
+   "params": {
+    "nave": 12,
+    "aisles": 1,
+    "transept": false,
+    "apse": true,
+    "atrium": null,
+    "narthex": true,
+    "mat": {
+     "walls": "brick",
+     "columns": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "Founded by the matron Vestina and dedicated by Innocent I (401-417) to the Milanese martyrs Gervasius and Protasius, later to Vitalis: a three-aisled basilica fronted by a five-arched portico whose columns survive, in the valley between Quirinal and Viminal (now below Via Nazionale).",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "",
+     "r": "42.3-6"
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Corpus Basilicarum Christianarum Romae (1937-1977) IV (1970) 299-316",
+    "Brandenburg, Ancient Churches of Rome from the Fourth to the Seventh Century (2005) 162-166"
+   ],
+   "note": "OSM footprint; facade with portico faces NW toward Via Nazionale."
+  },
+  {
+   "id": "santa_maria_in_trastevere_v1",
+   "monument": "santa_maria_in_trastevere",
+   "name": "Santa Maria in Trastevere (titulus Iulii et Callisti)",
+   "from": 345,
+   "to": 9999,
+   "begun": 340,
+   "builder": "pope_julius_i",
+   "template": "church",
+   "loc": [
+    12.469489,
+    41.889426
+   ],
+   "rot": 92,
+   "w": 30.0,
+   "l": 52.0,
+   "h": 18.0,
+   "params": {
+    "nave": 14,
+    "aisles": 1,
+    "transept": false,
+    "apse": true,
+    "atrium": null,
+    "narthex": true,
+    "mat": {
+     "walls": "brick",
+     "columns": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 4,
+   "certainty": "reconstructed",
+   "summary": "Pope Julius I (337-352) built a basilica 'iuxta Callistum' in Trastevere, on a site the community associated with Pope Callistus (died 222) and with the miraculous fountain of oil of 38 BC. The 4th-century church lies under Innocent II's rebuilding of 1140, which probably kept its plan.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "",
+     "r": "36.2"
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Corpus Basilicarum Christianarum Romae (1937-1977) III (1967) 65-71",
+    "Brandenburg, Ancient Churches of Rome from the Fourth to the Seventh Century (2005) 112-113"
+   ],
+   "note": "OSM footprint (74 x 39 includes later chapels); facade faces east onto the piazza. Dimensions of the first church approximate."
+  },
+  {
+   "id": "santa_cecilia_v1",
+   "monument": "santa_cecilia",
+   "name": "Santa Cecilia in Trastevere (titulus Caeciliae)",
+   "from": 430,
+   "to": 9999,
+   "begun": 420,
+   "builder": null,
+   "template": "church",
+   "loc": [
+    12.475833,
+    41.887572
+   ],
+   "rot": 118,
+   "w": 24.0,
+   "l": 40.0,
+   "h": 16.0,
+   "params": {
+    "nave": 12,
+    "aisles": 1,
+    "transept": false,
+    "apse": true,
+    "atrium": {
+     "w": 24,
+     "l": 20
+    },
+    "narthex": false,
+    "mat": {
+     "walls": "brick",
+     "columns": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "Titular church of the fifth century built over Roman houses and a tannery, venerated as the house of the martyr Cecilia; rebuilt by Paschal I in 817-824, whose basilica probably followed the earlier plan.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Krautheimer, Corpus Basilicarum Christianarum Romae (1937-1977) I (1937) 95-112",
+    "Brandenburg, Ancient Churches of Rome from the Fourth to the Seventh Century (2005) 223-224"
+   ],
+   "note": "OSM footprint; main entrance on the ESE (121 deg) through the forecourt."
+  },
+  {
+   "id": "domus_santa_cecilia_v1",
+   "monument": "domus_santa_cecilia",
+   "name": "Roman houses and tannery under Santa Cecilia",
+   "from": 100,
+   "to": 429,
+   "begun": null,
+   "builder": null,
+   "template": "domus",
+   "loc": [
+    12.475833,
+    41.887572
+   ],
+   "rot": 118,
+   "w": 25.0,
+   "l": 40.0,
+   "h": 8.0,
+   "params": {
+    "atrium": true,
+    "peristyle": null,
+    "storeys": 2,
+    "mat": {
+     "walls": "brick",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 1,
+   "certainty": "excavated",
+   "summary": "Excavations under the church found a Republican house rebuilt in the second century, an insula and a tannery with vats (coriaria), part of the industrial fabric of Trastevere.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Parmegiani and Pronti, S. Cecilia in Trastevere: nuovi scavi e ricerche (2004)"
+   ],
+   "note": "Under the church footprint."
+  },
+  {
+   "id": "san_crisogono_v1",
+   "monument": "san_crisogono",
+   "name": "San Crisogono (titulus Chrysogoni)",
+   "from": 320,
+   "to": 9999,
+   "begun": 310,
+   "builder": null,
+   "template": "church",
+   "loc": [
+    12.473512,
+    41.889116
+   ],
+   "rot": 96,
+   "w": 17.0,
+   "l": 35.0,
+   "h": 13.0,
+   "params": {
+    "nave": 17,
+    "aisles": 0,
+    "transept": false,
+    "apse": true,
+    "atrium": null,
+    "narthex": false,
+    "mat": {
+     "walls": "brick",
+     "columns": "marble_white",
+     "roof": "roof_tile"
+    },
+    "hall": true
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "One of the oldest tituli: an early fourth-century hall church about 35 x 17 m, later given an apse and an annular crypt, excavated under the 12th-century basilica beside the Via Aurelia (Viale Trastevere).",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Krautheimer, Corpus Basilicarum Christianarum Romae (1937-1977) I (1937) 144-164",
+    "Brandenburg, Ancient Churches of Rome from the Fourth to the Seventh Century (2005) 110-112"
+   ],
+   "note": "Placed at the OSM footprint of the present church; the old hall is slightly offset beneath it. Facade east to Viale Trastevere."
+  },
+  {
+   "id": "san_marco_v1",
+   "monument": "san_marco",
+   "name": "San Marco (titulus Marci)",
+   "from": 336,
+   "to": 499,
+   "begun": 336,
+   "builder": null,
+   "template": "church",
+   "loc": [
+    12.481526,
+    41.896046
+   ],
+   "rot": 160,
+   "w": 20.0,
+   "l": 40.0,
+   "h": 14.0,
+   "params": {
+    "nave": 10,
+    "aisles": 1,
+    "transept": false,
+    "apse": true,
+    "atrium": null,
+    "narthex": false,
+    "mat": {
+     "walls": "brick",
+     "columns": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "Founded by Pope Mark in 336 near the Pallacinae, at the foot of the Capitol; excavations under the present church found its apse and floors.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "",
+     "r": "35.3"
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Corpus Basilicarum Christianarum Romae (1937-1977) II (1962) 216-247",
+    "Brandenburg, Ancient Churches of Rome from the Fourth to the Seventh Century (2005) 113-114"
+   ],
+   "note": "OSM footprint of the present church (inside Palazzo Venezia); facade toward the SSE (OSM door at 155 deg). The first church was slightly smaller."
+  },
+  {
+   "id": "san_marco_v2",
+   "monument": "san_marco",
+   "name": "San Marco (rebuilt, 6th century)",
+   "from": 500,
+   "to": 9999,
+   "begun": null,
+   "builder": null,
+   "template": "church",
+   "loc": [
+    12.481526,
+    41.896046
+   ],
+   "rot": 160,
+   "w": 22.0,
+   "l": 44.0,
+   "h": 15.0,
+   "params": {
+    "nave": 11,
+    "aisles": 1,
+    "transept": false,
+    "apse": true,
+    "atrium": null,
+    "narthex": false,
+    "mat": {
+     "walls": "brick",
+     "columns": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "A second, raised church replaced Mark's around 500, before the Carolingian rebuilding of 833.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Krautheimer, Corpus Basilicarum Christianarum Romae (1937-1977) II (1962) 216-247"
+   ],
+   "note": "Date of the second phase approximate."
+  },
+  {
+   "id": "san_lorenzo_in_damaso_v1",
+   "monument": "san_lorenzo_in_damaso",
+   "name": "San Lorenzo in Damaso (titulus Damasi)",
+   "from": 384,
+   "to": 9999,
+   "begun": 380,
+   "builder": "damasus_i",
+   "template": "church",
+   "loc": [
+    12.471535,
+    41.896632
+   ],
+   "rot": 106,
+   "w": 26.0,
+   "l": 50.0,
+   "h": 16.0,
+   "params": {
+    "nave": 13,
+    "aisles": 1,
+    "transept": false,
+    "apse": true,
+    "atrium": null,
+    "narthex": true,
+    "mat": {
+     "walls": "brick",
+     "columns": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "Pope Damasus (366-384) built a basilica to St Lawrence beside his family house near the Theatre of Pompey, with an archive; its remains, a three-aisled basilica with a portico, were found in 1988-1993 under the courtyard of the Palazzo della Cancelleria.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "",
+     "r": "39.2"
+    }
+   ],
+   "scholarship": [
+    "Frommel and Pentiricci, L'antica basilica di San Lorenzo in Damaso (2009)",
+    "Brandenburg, Ancient Churches of Rome from the Fourth to the Seventh Century (2005) 132-134"
+   ],
+   "note": "Placed under the Cancelleria courtyard (OSM palace centroid); orientation from the excavated plan roughly parallel to the palace, entrance assumed ESE."
+  },
+  {
+   "id": "santi_quattro_coronati_v1",
+   "monument": "santi_quattro_coronati",
+   "name": "Santi Quattro Coronati (titulus Aemilianae)",
+   "from": 400,
+   "to": 624,
+   "begun": null,
+   "builder": null,
+   "template": "church",
+   "loc": [
+    12.498097,
+    41.888246
+   ],
+   "rot": 275,
+   "w": 24.0,
+   "l": 45.0,
+   "h": 15.0,
+   "params": {
+    "nave": 12,
+    "aisles": 1,
+    "transept": false,
+    "apse": true,
+    "atrium": null,
+    "narthex": false,
+    "mat": {
+     "walls": "brick",
+     "columns": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "A titular church of the late fourth or early fifth century on the Caelian, recorded among the presbyters at the synod of 499 as titulus Aemilianae.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Acts of the Roman synod of 499",
+     "w": ""
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Corpus Basilicarum Christianarum Romae (1937-1977) IV (1970) 1-35"
+   ],
+   "note": "First church's form unknown; placed on the later site."
+  },
+  {
+   "id": "santi_quattro_coronati_v2",
+   "monument": "santi_quattro_coronati",
+   "name": "Santi Quattro Coronati (Honorius I)",
+   "from": 630,
+   "to": 9999,
+   "begun": 625,
+   "builder": "pope_honorius_i",
+   "template": "church",
+   "loc": [
+    12.498097,
+    41.888246
+   ],
+   "rot": 275,
+   "w": 30.0,
+   "l": 50.0,
+   "h": 18.0,
+   "params": {
+    "nave": 14,
+    "aisles": 1,
+    "transept": false,
+    "apse": true,
+    "atrium": null,
+    "narthex": false,
+    "mat": {
+     "walls": "brick",
+     "columns": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "Pope Honorius I (625-638) built a large basilica for the four crowned martyrs, broader than the 12th-century church that later occupied only its nave; its wide apse survives. The church faces west, with the apse at the east end of the walled complex.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "",
+     "r": "72.4"
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Corpus Basilicarum Christianarum Romae (1937-1977) IV (1970) 1-35",
+    "Brandenburg, Ancient Churches of Rome from the Fourth to the Seventh Century (2005) 236-237"
+   ],
+   "note": "OSM footprint of the present church (36 x 18) is smaller than the Honorian basilica, which extended over the present inner courtyard; centre shifted 0 m, dimensions from Krautheimer. Facade bearing 275 (west)."
+  },
+  {
+   "id": "san_lorenzo_basilica_maior_v1",
+   "monument": "san_lorenzo_fuori_le_mura",
+   "name": "San Lorenzo: Constantinian basilica maior",
+   "from": 330,
+   "to": 9999,
+   "begun": 325,
+   "builder": "constantine_i",
+   "template": "church",
+   "loc": [
+    12.5212,
+    41.9019
+   ],
+   "rot": 76,
+   "w": 35.5,
+   "l": 98.6,
+   "h": 16.0,
+   "params": {
+    "nave": 17,
+    "aisles": 1,
+    "transept": false,
+    "apse": true,
+    "atrium": null,
+    "narthex": false,
+    "mat": {
+     "walls": "brick",
+     "roof": "roof_tile"
+    },
+    "plan": "ambulatory"
+   },
+   "ruin": {
+    "from": 600,
+    "state": "half"
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "Constantine built a funerary basilica next to the catacomb of St Lawrence on the Via Tiburtina: an ambulatory (circus-shaped) basilica about 98.6 x 35.5 m whose floor was packed with graves, found in the 1950s under the Campo Verano south of the present church.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "",
+     "r": "34.24"
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Corpus Basilicarum Christianarum Romae (1937-1977) II (1962) 1-144",
+    "Brandenburg, Ancient Churches of Rome from the Fourth to the Seventh Century (2005) 86-90"
+   ],
+   "note": "Placed ~70 m SSE of the present church under the Verano; orientation parallel, entrance at the straight east end assumed; the apse ambulatory at the west."
+  },
+  {
+   "id": "san_lorenzo_fuori_le_mura_v1",
+   "monument": "san_lorenzo_fuori_le_mura",
+   "name": "San Lorenzo fuori le Mura (Pelagius II)",
+   "from": 590,
+   "to": 9999,
+   "begun": 579,
+   "builder": null,
+   "template": "church",
+   "loc": [
+    12.52132,
+    41.902561
+   ],
+   "rot": 76.4,
+   "w": 20.0,
+   "l": 36.0,
+   "h": 18.0,
+   "params": {
+    "nave": 10,
+    "aisles": 1,
+    "transept": false,
+    "apse": true,
+    "atrium": null,
+    "narthex": false,
+    "mat": {
+     "walls": "brick",
+     "columns": "marble_white",
+     "roof": "roof_tile"
+    },
+    "galleries": true
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "Pelagius II (579-590) cut away the hillside to build a basilica directly over Lawrence's tomb, with galleries over the aisles reached from the higher ground; its triumphal arch mosaic shows the pope offering the church. In the 1220s Honorius III added a nave to the west, turning this church into the raised choir.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "",
+     "r": "65.2"
+    },
+    {
+     "a": "Mosaic inscription",
+     "w": "triumphal arch"
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Corpus Basilicarum Christianarum Romae (1937-1977) II (1962) 1-144",
+    "Brandenburg, Ancient Churches of Rome from the Fourth to the Seventh Century (2005) 239-245"
+   ],
+   "note": "Occupies the eastern part of the present church (OSM); original entrance at the east end (rot 76), apse west."
+  },
+  {
+   "id": "sant_agnese_basilica_constantiniana_v1",
+   "monument": "sant_agnese_fuori_le_mura",
+   "name": "Sant'Agnese: Constantinian ambulatory basilica",
+   "from": 345,
+   "to": 9999,
+   "begun": 337,
+   "builder": "constantina",
+   "template": "church",
+   "loc": [
+    12.517257,
+    41.923156
+   ],
+   "rot": 128,
+   "w": 40.0,
+   "l": 98.0,
+   "h": 16.0,
+   "params": {
+    "nave": 18,
+    "aisles": 1,
+    "transept": false,
+    "apse": true,
+    "atrium": null,
+    "narthex": false,
+    "mat": {
+     "walls": "brick",
+     "columns": "marble_white",
+     "roof": "roof_tile"
+    },
+    "plan": "ambulatory"
+   },
+   "ruin": {
+    "from": 630,
+    "state": "roofless"
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "Constantina, daughter of Constantine, built a vast ambulatory basilica beside the catacomb of St Agnes on the Via Nomentana, about 98 x 40 m, its floor and surroundings packed with graves; her own mausoleum adjoined its flank. Ruined by the seventh century; the outer walls still stand.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "",
+     "r": "34.23"
+    },
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "17 (dedicatory verses)"
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Corpus Basilicarum Christianarum Romae (1937-1977) I (1937) 14-39",
+    "Brandenburg, Ancient Churches of Rome from the Fourth to the Seventh Century (2005) 69-73"
+   ],
+   "note": "Centre and axis from the OSM outline of the ruined basilica (78 x 41 visible); entrance at the SE straight end toward the Via Nomentana.",
+   "event": "sant_agnese_and_santa_costanza"
+  },
+  {
+   "id": "sant_agnese_fuori_le_mura_v1",
+   "monument": "sant_agnese_fuori_le_mura",
+   "name": "Sant'Agnese fuori le Mura (Honorius I)",
+   "from": 638,
+   "to": 9999,
+   "begun": 625,
+   "builder": "pope_honorius_i",
+   "template": "church",
+   "loc": [
+    12.518893,
+    41.922935
+   ],
+   "rot": 127,
+   "w": 18.0,
+   "l": 32.0,
+   "h": 18.0,
+   "params": {
+    "nave": 9,
+    "aisles": 1,
+    "transept": false,
+    "apse": true,
+    "atrium": null,
+    "narthex": false,
+    "mat": {
+     "walls": "brick",
+     "columns": "marble_white",
+     "roof": "roof_tile"
+    },
+    "galleries": true,
+    "apse_mosaic": true
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "Pope Honorius I (625-638) built a new basilica sunk into the hill directly over Agnes' tomb, with galleries opening at the level of the road and an apse mosaic of Agnes between two popes, still intact.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "",
+     "r": "72.3"
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Corpus Basilicarum Christianarum Romae (1937-1977) I (1937) 14-39",
+    "Brandenburg, Ancient Churches of Rome from the Fourth to the Seventh Century (2005) 237-239"
+   ],
+   "note": "OSM footprint; apse NW, entrance SE as assumed for the older basilica."
+  },
+  {
+   "id": "santa_costanza_v1",
+   "monument": "mausoleum_of_constantina",
+   "name": "Mausoleum of Constantina (Santa Costanza)",
+   "from": 350,
+   "to": 9999,
+   "begun": 337,
+   "builder": null,
+   "template": "compound",
+   "loc": [
+    12.517369,
+    41.922604
+   ],
+   "rot": 308,
+   "w": 30.0,
+   "l": 36.0,
+   "h": 22.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "cylinder",
+      "x": 0,
+      "y": 0,
+      "w": 40,
+      "l": 40,
+      "h": 5,
+      "mat": "marble_white"
+     },
+     {
+      "shape": "cylinder",
+      "x": 0,
+      "y": 0,
+      "w": 29,
+      "l": 29,
+      "h": 10,
+      "mat": "brick"
+     },
+     {
+      "shape": "cylinder",
+      "x": 0,
+      "y": 0,
+      "w": 13.5,
+      "l": 13.5,
+      "h": 19,
+      "mat": "brick"
+     },
+     {
+      "shape": "dome",
+      "x": 0,
+      "y": 0,
+      "w": 13.5,
+      "l": 13.5,
+      "h": 3.5,
+      "z": 19,
+      "mat": "roof_tile"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 18,
+      "w": 20,
+      "l": 6,
+      "h": 9,
+      "mat": "brick"
+     }
+    ]
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "Rotunda for Constantina (died 354) and her sister Helena, wife of Julian: a domed central space on twelve pairs of granite columns, a barrel-vaulted ambulatory with vine-harvest mosaics, an outer colonnade and a narthex; her porphyry sarcophagus is in the Vatican. Later a baptistery and a church.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Ammianus Marcellinus",
+     "w": "Res Gestae",
+     "r": "21.1.5"
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Corpus Basilicarum Christianarum Romae (1937-1977) I (1937) 14-39",
+    "Stanley, 'New discoveries at Santa Costanza', DOP 48 (1994)",
+    "Brandenburg, Ancient Churches of Rome from the Fourth to the Seventh Century (2005) 69-80"
+   ],
+   "note": "Centre from OSM (30 x 29 m). Narthex side assumed WNW; the original outer colonnade (diameter ~40 m) is gone."
+  },
+  {
+   "id": "memoria_apostolorum_v1",
+   "monument": "basilica_apostolorum",
+   "name": "Memoria Apostolorum (triclia)",
+   "from": 258,
+   "to": 311,
+   "begun": null,
+   "builder": null,
+   "template": "compound",
+   "loc": [
+    12.515569,
+    41.855695
+   ],
+   "rot": 49,
+   "w": 15.0,
+   "l": 20.0,
+   "h": 5.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "court",
+      "x": 0,
+      "y": 0,
+      "w": 15,
+      "l": 20,
+      "h": 4,
+      "ringDepth": 3,
+      "mat": "stucco"
+     },
+     {
+      "shape": "colonnade",
+      "x": 0,
+      "y": -8,
+      "w": 12,
+      "l": 3,
+      "h": 4,
+      "mat": "brick"
+     }
+    ]
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "From 258 Christians met on a terrace 'ad catacumbas' on the Via Appia for funerary banquets in honour of Peter and Paul, scratching hundreds of invocations on the walls of a covered loggia (triclia).",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Depositio martyrum",
+     "w": "29 June: Petri in Catacumbas et Pauli Ostense, Tusco et Basso cons. (258)"
+    }
+   ],
+   "scholarship": [
+    "Styger, Die romischen Katakomben (1933)",
+    "Brandenburg, Ancient Churches of Rome from the Fourth to the Seventh Century (2005) 61-64"
+   ],
+   "note": "Under the nave of S. Sebastiano."
+  },
+  {
+   "id": "basilica_apostolorum_v1",
+   "monument": "basilica_apostolorum",
+   "name": "Basilica Apostolorum (San Sebastiano)",
+   "from": 340,
+   "to": 9999,
+   "begun": 312,
+   "builder": null,
+   "template": "church",
+   "loc": [
+    12.515478,
+    41.855636
+   ],
+   "rot": 49,
+   "w": 30.0,
+   "l": 75.0,
+   "h": 15.0,
+   "params": {
+    "nave": 14,
+    "aisles": 1,
+    "transept": false,
+    "apse": true,
+    "atrium": null,
+    "narthex": false,
+    "mat": {
+     "walls": "brick",
+     "columns": "marble_white",
+     "roof": "roof_tile"
+    },
+    "plan": "ambulatory"
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "An ambulatory basilica of the Constantinian period built over the memoria of the apostles on the Via Appia, about 75 x 30 m, surrounded by mausolea; from the fifth century centred on the tomb of the martyr Sebastian. The present church occupies its nave.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Krautheimer, Corpus Basilicarum Christianarum Romae (1937-1977) IV (1970) 99-147",
+    "Brandenburg, Ancient Churches of Rome from the Fourth to the Seventh Century (2005) 61-69"
+   ],
+   "note": "OSM centre and axis; entrance NE toward the Via Appia (OSM main door at 53 deg), ambulatory apse SW. Inside the model bbox (the brief suggested skipping it)."
+  },
+  {
+   "id": "basilica_of_marcus_v1",
+   "monument": "basilica_of_marcus",
+   "name": "Basilica of Pope Mark (Via Ardeatina)",
+   "from": 336,
+   "to": 9999,
+   "begun": 336,
+   "builder": null,
+   "template": "church",
+   "loc": [
+    12.505911,
+    41.861244
+   ],
+   "rot": 17,
+   "w": 28.0,
+   "l": 66.0,
+   "h": 14.0,
+   "params": {
+    "nave": 13,
+    "aisles": 1,
+    "transept": false,
+    "apse": true,
+    "atrium": null,
+    "narthex": false,
+    "mat": {
+     "walls": "brick",
+     "columns": "marble_white",
+     "roof": "roof_tile"
+    },
+    "plan": "ambulatory"
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "Funerary ambulatory basilica built by Pope Mark in 336 on the Via Ardeatina and found in 1991-1993 near the catacomb of Callixtus; Mark himself was buried in it.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "",
+     "r": "35.3"
+    }
+   ],
+   "scholarship": [
+    "Fiocchi Nicolai, 'La nuova basilica circiforme della via Ardeatina', Rendiconti PARA 68 (1995-1996)"
+   ],
+   "note": "OSM building centroid (excavated remains); long axis 17 deg; entrance direction assumed NNE."
+  },
+  {
+   "id": "basilica_nereo_achilleo_domitilla_v1",
+   "monument": "basilica_nereo_achilleo_domitilla",
+   "name": "Basilica of Saints Nereus and Achilleus (Domitilla catacomb)",
+   "from": 395,
+   "to": 9999,
+   "begun": 390,
+   "builder": null,
+   "template": "church",
+   "loc": [
+    12.50558,
+    41.858728
+   ],
+   "rot": 115,
+   "w": 20.0,
+   "l": 30.0,
+   "h": 10.0,
+   "params": {
+    "nave": 10,
+    "aisles": 1,
+    "transept": false,
+    "apse": true,
+    "atrium": null,
+    "narthex": false,
+    "mat": {
+     "walls": "brick",
+     "columns": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "A semi-subterranean basilica cut into the catacomb of Domitilla over the graves of the martyrs Nereus and Achilleus and of Petronilla, built under Pope Siricius (384-399).",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Damasus",
+     "w": "Epigrammata",
+     "r": "8"
+    }
+   ],
+   "scholarship": [
+    "Brandenburg, Ancient Churches of Rome from the Fourth to the Seventh Century (2005) 129-131"
+   ],
+   "note": "Centre from the OSM catacomb outline; partly underground."
+  },
+  {
+   "id": "san_valentino_v1",
+   "monument": "san_valentino",
+   "name": "Basilica of San Valentino (Via Flaminia)",
+   "from": 345,
+   "to": 9999,
+   "begun": 340,
+   "builder": "pope_julius_i",
+   "template": "church",
+   "loc": [
+    12.4747,
+    41.9238
+   ],
+   "rot": 90,
+   "w": 20.0,
+   "l": 40.0,
+   "h": 14.0,
+   "params": {
+    "nave": 10,
+    "aisles": 1,
+    "transept": false,
+    "apse": true,
+    "atrium": null,
+    "narthex": false,
+    "mat": {
+     "walls": "brick",
+     "columns": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Pope Julius I built a basilica at the second milestone of the Via Flaminia over the grave of the martyr Valentine; Honorius I rebuilt it in the seventh century. Pilgrims coming from the north passed it before the Milvian bridge.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "",
+     "r": "36.3"
+    }
+   ],
+   "scholarship": [
+    "Brandenburg, Ancient Churches of Rome from the Fourth to the Seventh Century (2005) 112"
+   ],
+   "note": "Remains seen in 1888 near the catacomb (Via Flaminia/Viale Pilsudski); coordinates approximate."
+  },
+  {
+   "id": "santo_stefano_via_latina_v1",
+   "monument": "santo_stefano_via_latina",
+   "name": "Basilica of Santo Stefano on the Via Latina",
+   "from": 450,
+   "to": 9999,
+   "begun": 440,
+   "builder": "pope_leo_i",
+   "template": "church",
+   "loc": [
+    12.538,
+    41.8628
+   ],
+   "rot": 90,
+   "w": 20.0,
+   "l": 40.0,
+   "h": 12.0,
+   "params": {
+    "nave": 9,
+    "aisles": 1,
+    "transept": false,
+    "apse": true,
+    "atrium": null,
+    "narthex": false,
+    "mat": {
+     "walls": "brick",
+     "columns": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "ruin": {
+    "from": 600,
+    "state": "roofless"
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "Funded by the noble widow Demetrias of the Anicii and completed by Leo I, a basilica with a baptistery at the third milestone of the Via Latina; ruins survive among the tombs of the Via Latina park.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "",
+     "r": "47.1"
+    }
+   ],
+   "scholarship": [
+    "Brandenburg, Ancient Churches of Rome from the Fourth to the Seventh Century (2005) 189-191"
+   ],
+   "note": "Coordinates approximate within the Parco delle Tombe di Via Latina."
+  },
+  {
+   "id": "san_pancrazio_v1",
+   "monument": "san_pancrazio",
+   "name": "San Pancrazio (Symmachus)",
+   "from": 505,
+   "to": 629,
+   "begun": 498,
+   "builder": null,
+   "template": "church",
+   "loc": [
+    12.453937,
+    41.884956
+   ],
+   "rot": 127,
+   "w": 18.0,
+   "l": 35.0,
+   "h": 13.0,
+   "params": {
+    "nave": 9,
+    "aisles": 1,
+    "transept": false,
+    "apse": true,
+    "atrium": null,
+    "narthex": false,
+    "mat": {
+     "walls": "brick",
+     "columns": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "documented",
+   "summary": "Pope Symmachus (498-514) built a basilica over the grave of the boy martyr Pancras on the Via Aurelia, outside the Porta Aurelia.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "",
+     "r": "53.9"
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Corpus Basilicarum Christianarum Romae (1937-1977) III (1967) 153-174"
+   ],
+   "note": "Placed at the present church (OSM)."
+  },
+  {
+   "id": "san_pancrazio_v2",
+   "monument": "san_pancrazio",
+   "name": "San Pancrazio (Honorius I)",
+   "from": 630,
+   "to": 9999,
+   "begun": 625,
+   "builder": "pope_honorius_i",
+   "template": "church",
+   "loc": [
+    12.453937,
+    41.884956
+   ],
+   "rot": 127,
+   "w": 30.0,
+   "l": 50.0,
+   "h": 16.0,
+   "params": {
+    "nave": 13,
+    "aisles": 1,
+    "transept": false,
+    "apse": true,
+    "atrium": null,
+    "narthex": false,
+    "mat": {
+     "walls": "brick",
+     "columns": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "Honorius I rebuilt the church larger, moving the altar directly over the tomb and adding a semicircular crypt, as recorded on his dedicatory inscription.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "",
+     "r": "72.4"
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Corpus Basilicarum Christianarum Romae (1937-1977) III (1967) 153-174",
+    "Brandenburg, Ancient Churches of Rome from the Fourth to the Seventh Century (2005) 236"
+   ],
+   "note": "OSM footprint 59 x 30, axis 127; facade SE."
+  },
+  {
+   "id": "sant_anastasia_v1",
+   "monument": "sant_anastasia",
+   "name": "Sant'Anastasia (titulus Anastasiae)",
+   "from": 360,
+   "to": 9999,
+   "begun": 330,
+   "builder": null,
+   "template": "church",
+   "loc": [
+    12.484326,
+    41.88804
+   ],
+   "rot": 307,
+   "w": 20.0,
+   "l": 45.0,
+   "h": 14.0,
+   "params": {
+    "nave": 14,
+    "aisles": 0,
+    "transept": true,
+    "apse": true,
+    "atrium": null,
+    "narthex": false,
+    "mat": {
+     "walls": "brick",
+     "columns": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "Built in the fourth century at the NW foot of the Palatine by the Circus Maximus, perhaps by Pope Damasus' circle, as a cross-shaped hall; the court church of the Byzantine officials on the Palatine. Its foundations stand on Roman insulae and shops.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Krautheimer, Corpus Basilicarum Christianarum Romae (1937-1977) I (1937) 42-61",
+    "Brandenburg, Ancient Churches of Rome from the Fourth to the Seventh Century (2005) 110"
+   ],
+   "note": "OSM footprint; facade faces NW to the piazza (OSM door at 320 deg)."
+  },
+  {
+   "id": "sant_agata_dei_goti_v1",
+   "monument": "sant_agata_dei_goti",
+   "name": "Sant'Agata dei Goti",
+   "from": 470,
+   "to": 9999,
+   "begun": 460,
+   "builder": null,
+   "template": "church",
+   "loc": [
+    12.489311,
+    41.896417
+   ],
+   "rot": 242,
+   "w": 20.0,
+   "l": 32.0,
+   "h": 13.0,
+   "params": {
+    "nave": 9,
+    "aisles": 1,
+    "transept": false,
+    "apse": true,
+    "atrium": null,
+    "narthex": false,
+    "mat": {
+     "walls": "brick",
+     "columns": "marble_white",
+     "roof": "roof_tile"
+    },
+    "columns": 12
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "The church of the Arian Goths, founded by the patrician Ricimer around 460-470, with an apse mosaic of Christ and the apostles bearing his dedication (lost 1589); reconsecrated to Catholic use by Gregory the Great in 592-593.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "1195"
+    },
+    {
+     "a": "Gregory the Great",
+     "w": "Dialogi",
+     "r": "3.30"
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Corpus Basilicarum Christianarum Romae (1937-1977) I (1937) 2-12",
+    "Brandenburg, Ancient Churches of Rome from the Fourth to the Seventh Century (2005) 213-214"
+   ],
+   "note": "OSM footprint; facade WSW assumed (entrance from Via Mazzarino through a forecourt)."
+  },
+  {
+   "id": "santa_balbina_v1",
+   "monument": "santa_balbina",
+   "name": "Santa Balbina",
+   "from": 595,
+   "to": 9999,
+   "begun": 500,
+   "builder": null,
+   "template": "church",
+   "loc": [
+    12.489671,
+    41.880525
+   ],
+   "rot": 61,
+   "w": 16.0,
+   "l": 40.0,
+   "h": 15.0,
+   "params": {
+    "nave": 16,
+    "aisles": 0,
+    "transept": false,
+    "apse": true,
+    "atrium": null,
+    "narthex": false,
+    "mat": {
+     "walls": "brick",
+     "columns": "marble_white",
+     "roof": "roof_tile"
+    },
+    "hall": true
+   },
+   "importance": 2,
+   "certainty": "reconstructed",
+   "summary": "A large single-naved hall on the Little Aventine, probably built inside a Roman mansion (perhaps the Domus Cilonis) and consecrated by Gregory the Great; listed as titulus by 595.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Acts of the Roman synod of 595",
+     "w": ""
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Corpus Basilicarum Christianarum Romae (1937-1977) I (1937) 82-93"
+   ],
+   "note": "OSM footprint; facade ENE onto the piazza."
+  },
+  {
+   "id": "santa_bibiana_v1",
+   "monument": "santa_bibiana",
+   "name": "Santa Bibiana",
+   "from": 480,
+   "to": 9999,
+   "begun": 468,
+   "builder": null,
+   "template": "church",
+   "loc": [
+    12.509242,
+    41.895544
+   ],
+   "rot": 19,
+   "w": 18.0,
+   "l": 25.0,
+   "h": 12.0,
+   "params": {
+    "nave": 8,
+    "aisles": 1,
+    "transept": false,
+    "apse": true,
+    "atrium": null,
+    "narthex": false,
+    "mat": {
+     "walls": "brick",
+     "columns": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "documented",
+   "summary": "Built by Pope Simplicius (468-483) on the Esquiline, at the palace of the Licinii, for the martyr Bibiana.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "",
+     "r": "49.1"
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Corpus Basilicarum Christianarum Romae (1937-1977) I (1937) 94"
+   ],
+   "note": "OSM footprint is the 1624 Bernini rebuilding on the same site; facade faces NNE toward Via Giolitti."
+  },
+  {
+   "id": "san_giorgio_in_velabro_v1",
+   "monument": "san_giorgio_in_velabro",
+   "name": "San Giorgio in Velabro (diaconia)",
+   "from": 635,
+   "to": 9999,
+   "begun": 600,
+   "builder": null,
+   "template": "church",
+   "loc": [
+    12.483162,
+    41.889622
+   ],
+   "rot": 179,
+   "w": 20.0,
+   "l": 35.0,
+   "h": 12.0,
+   "params": {
+    "nave": 10,
+    "aisles": 1,
+    "transept": false,
+    "apse": true,
+    "atrium": null,
+    "narthex": false,
+    "mat": {
+     "walls": "brick",
+     "columns": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "A diaconia (welfare station) beside the Arcus Argentariorum in the Velabrum, probably of the seventh century, dedicated to St George by Leo II (682) and rebuilt in the ninth century.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "",
+     "r": "82.5"
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Corpus Basilicarum Christianarum Romae (1937-1977) I (1937) 244-263"
+   ],
+   "note": "Date before 641 uncertain. OSM footprint; facade assumed to face south with the arch at its west corner."
+  },
+  {
+   "id": "santi_apostoli_v1",
+   "monument": "santi_apostoli",
+   "name": "Santi Apostoli",
+   "from": 570,
+   "to": 9999,
+   "begun": 560,
+   "builder": null,
+   "template": "church",
+   "loc": [
+    12.483484,
+    41.898119
+   ],
+   "rot": 260,
+   "w": 30.0,
+   "l": 60.0,
+   "h": 20.0,
+   "params": {
+    "nave": 15,
+    "aisles": 1,
+    "transept": false,
+    "apse": true,
+    "atrium": null,
+    "narthex": false,
+    "mat": {
+     "walls": "brick",
+     "columns": "marble_white",
+     "roof": "roof_tile"
+    },
+    "triconch": true
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "Begun by Pelagius I and finished by John III (560-574) with Narses' support after the Gothic war, for relics of the apostles Philip and James: a broad basilica with a trefoil (triconch) sanctuary on the Byzantine model.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "",
+     "r": "62.1; 63.1"
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Corpus Basilicarum Christianarum Romae (1937-1977) I (1937) 76-81",
+    "Brandenburg, Ancient Churches of Rome from the Fourth to the Seventh Century (2005) 228-231"
+   ],
+   "note": "OSM footprint; facade faces west onto Piazza SS. Apostoli."
+  },
+  {
+   "id": "sant_andrea_catabarbara_v1",
+   "monument": "sant_andrea_catabarbara",
+   "name": "Sant'Andrea Catabarbara",
+   "from": 471,
+   "to": 9999,
+   "begun": 468,
+   "builder": null,
+   "template": "church",
+   "loc": [
+    12.4988,
+    41.8986
+   ],
+   "rot": 0,
+   "w": 18.0,
+   "l": 36.0,
+   "h": 15.0,
+   "params": {
+    "nave": 18,
+    "aisles": 0,
+    "transept": false,
+    "apse": true,
+    "atrium": null,
+    "narthex": false,
+    "mat": {
+     "walls": "brick",
+     "columns": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "documented",
+   "summary": "The Gothic general Flavius Valila left the hall of the Basilica of Junius Bassus to the church; Pope Simplicius dedicated it to St Andrew around 470, adding a Christian apse mosaic to the fourth-century opus sectile walls.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "32104 (Valila's donation)"
+    },
+    {
+     "a": "Liber Pontificalis",
+     "w": "",
+     "r": "49.1"
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Corpus Basilicarum Christianarum Romae (1937-1977) I (1937) 64-65",
+    "Brandenburg, Ancient Churches of Rome from the Fourth to the Seventh Century (2005) 214"
+   ],
+   "note": "Conversion of the Basilica of Junius Bassus (gazetteer loc); orientation assumed. The pagan hall itself belongs to another district's record."
+  },
+  {
+   "id": "santa_susanna_v1",
+   "monument": "santa_susanna",
+   "name": "Santa Susanna (titulus Gaii)",
+   "from": 400,
+   "to": 9999,
+   "begun": null,
+   "builder": null,
+   "template": "church",
+   "loc": [
+    12.493606,
+    41.904325
+   ],
+   "rot": 317,
+   "w": 15.0,
+   "l": 30.0,
+   "h": 12.0,
+   "params": {
+    "nave": 15,
+    "aisles": 0,
+    "transept": false,
+    "apse": true,
+    "atrium": null,
+    "narthex": false,
+    "mat": {
+     "walls": "brick",
+     "columns": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "reconstructed",
+   "summary": "A titular church on the Quirinal built into a Roman house, attested as titulus Gaii in 499, rebuilt by Leo III in 795.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Acts of the Roman synod of 499",
+     "w": ""
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Corpus Basilicarum Christianarum Romae (1937-1977) IV (1970) 254-264"
+   ],
+   "note": "OSM footprint is mixed with the convent; facade assumed NW onto Via XX Settembre."
+  },
+  {
+   "id": "san_sisto_vecchio_v1",
+   "monument": "san_sisto_vecchio",
+   "name": "San Sisto Vecchio (titulus Tigridae)",
+   "from": 400,
+   "to": 9999,
+   "begun": null,
+   "builder": null,
+   "template": "church",
+   "loc": [
+    12.495797,
+    41.880556
+   ],
+   "rot": 136,
+   "w": 22.0,
+   "l": 45.0,
+   "h": 14.0,
+   "params": {
+    "nave": 11,
+    "aisles": 1,
+    "transept": false,
+    "apse": true,
+    "atrium": null,
+    "narthex": false,
+    "mat": {
+     "walls": "brick",
+     "columns": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "reconstructed",
+   "summary": "Titular church on the Via Appia near the Baths of Caracalla, attested as titulus Tigridae in 499.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Acts of the Roman synod of 499",
+     "w": ""
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Corpus Basilicarum Christianarum Romae (1937-1977) IV (1970) 165-175"
+   ],
+   "note": "OSM footprint; orientation of the facade uncertain."
+  },
+  {
+   "id": "santi_nereo_e_achilleo_v1",
+   "monument": "santi_nereo_e_achilleo",
+   "name": "Santi Nereo e Achilleo (titulus Fasciolae)",
+   "from": 377,
+   "to": 9999,
+   "begun": null,
+   "builder": null,
+   "template": "church",
+   "loc": [
+    12.494769,
+    41.880176
+   ],
+   "rot": 46,
+   "w": 20.0,
+   "l": 34.0,
+   "h": 13.0,
+   "params": {
+    "nave": 10,
+    "aisles": 1,
+    "transept": false,
+    "apse": true,
+    "atrium": null,
+    "narthex": false,
+    "mat": {
+     "walls": "brick",
+     "columns": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "reconstructed",
+   "summary": "The titulus Fasciolae on the Via Appia, named after the bandage Peter lost here in legend, attested by an epitaph of 377; rebuilt by Leo III around 800.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "ICUR",
+     "w": "I 262 (epitaph of 377)"
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Corpus Basilicarum Christianarum Romae (1937-1977) III (1967) 135-152"
+   ],
+   "note": "OSM footprint; facade NE toward the Via Appia (Viale delle Terme di Caracalla)."
+  },
+  {
+   "id": "sant_eusebio_v1",
+   "monument": "sant_eusebio",
+   "name": "Sant'Eusebio (titulus Eusebii)",
+   "from": 400,
+   "to": 9999,
+   "begun": null,
+   "builder": null,
+   "template": "church",
+   "loc": [
+    12.503805,
+    41.896348
+   ],
+   "rot": 31,
+   "w": 20.0,
+   "l": 45.0,
+   "h": 13.0,
+   "params": {
+    "nave": 10,
+    "aisles": 1,
+    "transept": false,
+    "apse": true,
+    "atrium": null,
+    "narthex": false,
+    "mat": {
+     "walls": "brick",
+     "columns": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "reconstructed",
+   "summary": "Titular church on the Esquiline named after a priest martyred under Constantius II, attested in 474.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "ICUR",
+     "w": "epitaph of 474"
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Corpus Basilicarum Christianarum Romae (1937-1977) I (1937) 210-216"
+   ],
+   "note": "OSM footprint; orientation of facade uncertain."
+  },
+  {
+   "id": "san_saba_v1",
+   "monument": "san_saba",
+   "name": "Oratory of the Cella Nova (San Saba)",
+   "from": 640,
+   "to": 9999,
+   "begun": 630,
+   "builder": null,
+   "template": "church",
+   "loc": [
+    12.485534,
+    41.878617
+   ],
+   "rot": 151,
+   "w": 10.0,
+   "l": 20.0,
+   "h": 8.0,
+   "params": {
+    "nave": 10,
+    "aisles": 0,
+    "transept": false,
+    "apse": true,
+    "atrium": null,
+    "narthex": false,
+    "mat": {
+     "walls": "brick",
+     "columns": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "Monks from the monastery of St Sabas near Jerusalem, fleeing the Persian and Arab invasions, settled on the Little Aventine in the house traditionally of St Silvia, building an oratory now under the left aisle of the church.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Krautheimer, Corpus Basilicarum Christianarum Romae (1937-1977) IV (1970) 51-71"
+   ],
+   "note": "Probably just after 641; included at the end of the range as conjectural."
+  },
+  {
+   "id": "san_teodoro_v1",
+   "monument": "san_teodoro",
+   "name": "San Teodoro (diaconia)",
+   "from": 550,
+   "to": 9999,
+   "begun": 530,
+   "builder": null,
+   "template": "centralplan",
+   "loc": [
+    12.484688,
+    41.890478
+   ],
+   "rot": 290,
+   "w": 17.0,
+   "l": 20.0,
+   "h": 12.0,
+   "params": {
+    "diameter": 17,
+    "drumH": 10,
+    "domeH": 2,
+    "sides": 0,
+    "oculus": 0,
+    "apse": true,
+    "portico": null,
+    "mat": {
+     "walls": "brick",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "reconstructed",
+   "summary": "A small round church with an apse at the foot of the Palatine on the Vicus Tuscus, with a sixth-century apse mosaic of Christ with Theodore; an early diaconia near the Horrea Agrippiana.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Krautheimer, Corpus Basilicarum Christianarum Romae (1937-1977) IV (1970) 279-288"
+   ],
+   "note": "OSM footprint; entrance WNW to Via di S. Teodoro (OSM door 296 deg)."
+  },
+  {
+   "id": "san_giovanni_a_porta_latina_v1",
+   "monument": "san_giovanni_a_porta_latina",
+   "name": "San Giovanni a Porta Latina",
+   "from": 500,
+   "to": 9999,
+   "begun": null,
+   "builder": null,
+   "template": "church",
+   "loc": [
+    12.501963,
+    41.877224
+   ],
+   "rot": 305,
+   "w": 17.0,
+   "l": 32.0,
+   "h": 12.0,
+   "params": {
+    "nave": 8,
+    "aisles": 1,
+    "transept": false,
+    "apse": true,
+    "atrium": null,
+    "narthex": false,
+    "mat": {
+     "walls": "brick",
+     "columns": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "reconstructed",
+   "summary": "A small basilica near the Porta Latina built around 500 (Gelasius I is credited) and rebuilt in 720; its columns and apse with selenite windows are original.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Krautheimer, Corpus Basilicarum Christianarum Romae (1937-1977) I (1937) 304-319"
+   ],
+   "note": "OSM footprint; facade with portico assumed WNW."
+  },
+  {
+   "id": "san_martino_ai_monti_v1",
+   "monument": "san_martino_ai_monti",
+   "name": "Titulus Equitii (Roman hall)",
+   "from": 314,
+   "to": 499,
+   "begun": null,
+   "builder": null,
+   "template": "compound",
+   "loc": [
+    12.498202,
+    41.894624
+   ],
+   "rot": 140,
+   "w": 15.0,
+   "l": 30.0,
+   "h": 9.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "vault",
+      "x": 0,
+      "y": 0,
+      "w": 15,
+      "l": 30,
+      "h": 8,
+      "mat": "brick"
+     }
+    ]
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "A third-century Roman hall on the Esquiline, used as the meeting place of the titulus Equitii under Pope Silvester (314-335); preserved beneath the church.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "",
+     "r": "34.3"
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Corpus Basilicarum Christianarum Romae (1937-1977) III (1967) 87-124"
+   ],
+   "note": "Conversion of an existing building; below the present church."
+  },
+  {
+   "id": "san_martino_ai_monti_v2",
+   "monument": "san_martino_ai_monti",
+   "name": "San Martino ai Monti (Symmachus)",
+   "from": 505,
+   "to": 9999,
+   "begun": 498,
+   "builder": null,
+   "template": "church",
+   "loc": [
+    12.498202,
+    41.894624
+   ],
+   "rot": 140,
+   "w": 25.0,
+   "l": 45.0,
+   "h": 16.0,
+   "params": {
+    "nave": 13,
+    "aisles": 1,
+    "transept": false,
+    "apse": true,
+    "atrium": null,
+    "narthex": false,
+    "mat": {
+     "walls": "brick",
+     "columns": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "Pope Symmachus (498-514) built a basilica dedicated to St Martin beside the old titulus; rebuilt in the ninth century.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "",
+     "r": "53.9"
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Corpus Basilicarum Christianarum Romae (1937-1977) III (1967) 87-124"
+   ],
+   "note": "OSM footprint; facade SE (OSM main entrance 136 deg)."
+  },
+  {
+   "id": "san_lorenzo_in_lucina_v1",
+   "monument": "san_lorenzo_in_lucina",
+   "name": "Titulus Lucinae (house church)",
+   "from": 366,
+   "to": 431,
+   "begun": null,
+   "builder": null,
+   "template": "compound",
+   "loc": [
+    12.4787,
+    41.903269
+   ],
+   "rot": 343,
+   "w": 15.0,
+   "l": 30.0,
+   "h": 10.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 15,
+      "l": 30,
+      "h": 10,
+      "mat": "brick"
+     }
+    ]
+   },
+   "importance": 2,
+   "certainty": "documented",
+   "summary": "A meeting place of the community in a Roman building on the Via Lata near the Horologium of Augustus; Damasus was elected here in 366.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Collectio Avellana",
+     "w": "1.5"
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Corpus Basilicarum Christianarum Romae (1937-1977) II (1962) 159-184"
+   ],
+   "note": "Location under the present church."
+  },
+  {
+   "id": "san_lorenzo_in_lucina_v2",
+   "monument": "san_lorenzo_in_lucina",
+   "name": "San Lorenzo in Lucina (Sixtus III)",
+   "from": 440,
+   "to": 9999,
+   "begun": 432,
+   "builder": null,
+   "template": "church",
+   "loc": [
+    12.4787,
+    41.903269
+   ],
+   "rot": 343,
+   "w": 23.0,
+   "l": 50.0,
+   "h": 17.0,
+   "params": {
+    "nave": 12,
+    "aisles": 1,
+    "transept": false,
+    "apse": true,
+    "atrium": null,
+    "narthex": false,
+    "mat": {
+     "walls": "brick",
+     "columns": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "Sixtus III built a basilica to St Lawrence on the site; it has a baptistery recently excavated. Rebuilt in 1112-1130 on its plan.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "",
+     "r": "46.6"
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Corpus Basilicarum Christianarum Romae (1937-1977) II (1962) 159-184",
+    "Brandenburg, Ancient Churches of Rome from the Fourth to the Seventh Century (2005) 194-197"
+   ],
+   "note": "OSM footprint; facade faces N to the piazza (OSM door at 345 deg)."
+  },
+  {
+   "id": "san_marcello_v1",
+   "monument": "san_marcello",
+   "name": "San Marcello (titulus Marcelli)",
+   "from": 418,
+   "to": 9999,
+   "begun": 400,
+   "builder": null,
+   "template": "church",
+   "loc": [
+    12.482002,
+    41.898681
+   ],
+   "rot": 254,
+   "w": 15.0,
+   "l": 35.0,
+   "h": 12.0,
+   "params": {
+    "nave": 10,
+    "aisles": 1,
+    "transept": false,
+    "apse": true,
+    "atrium": null,
+    "narthex": false,
+    "mat": {
+     "walls": "brick",
+     "columns": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "Titular church on the Via Lata, attested in 418 when Boniface I was elected in it; remains of the early church and its baptistery were found beneath the present one.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Collectio Avellana",
+     "w": "14"
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Corpus Basilicarum Christianarum Romae (1937-1977) II (1962) 207-215"
+   ],
+   "note": "OSM footprint; facade faces W to Via del Corso; the early church's orientation is debated."
+  },
+  {
+   "id": "santi_marcellino_e_pietro_v1",
+   "monument": "santi_marcellino_e_pietro",
+   "name": "Santi Marcellino e Pietro (Via Labicana)",
+   "from": 400,
+   "to": 9999,
+   "begun": null,
+   "builder": null,
+   "template": "church",
+   "loc": [
+    12.503018,
+    41.889029
+   ],
+   "rot": 247,
+   "w": 18.0,
+   "l": 32.0,
+   "h": 12.0,
+   "params": {
+    "nave": 9,
+    "aisles": 1,
+    "transept": false,
+    "apse": true,
+    "atrium": null,
+    "narthex": false,
+    "mat": {
+     "walls": "brick",
+     "columns": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "Titular church of the martyrs Marcellinus and Peter inside the walls on the road to their cemetery basilica on the Via Labicana, known from the fifth century and rebuilt by Gregory III.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "",
+     "r": "92.10"
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Corpus Basilicarum Christianarum Romae (1937-1977) II (1962) 305-312"
+   ],
+   "note": "OSM footprint of the 1751 church; early form unknown."
+  },
+  {
+   "id": "mausoleum_of_probus_v1",
+   "monument": "mausoleum_of_probus",
+   "name": "Mausoleum of Petronius Probus (Anicii) at St Peter's",
+   "from": 395,
+   "to": 9999,
+   "begun": null,
+   "builder": "petronius_probus",
+   "template": "church",
+   "loc": [
+    12.453067,
+    41.902155
+   ],
+   "rot": 270,
+   "w": 14.0,
+   "l": 20.0,
+   "h": 12.0,
+   "params": {
+    "nave": 7,
+    "aisles": 0,
+    "transept": false,
+    "apse": true,
+    "atrium": null,
+    "narthex": false,
+    "mat": {
+     "walls": "brick",
+     "columns": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "documented",
+   "summary": "Sextus Petronius Probus (died c. 390), four times praetorian prefect and head of the Anicii, was buried in a small apsed basilica against the apse of St Peter's, with his sarcophagus now in the Vatican grottoes.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "1756"
+    }
+   ],
+   "scholarship": [
+    "Johnson, The Roman Imperial Mausoleum in Late Antiquity (2009)",
+    "Krautheimer, Corpus Basilicarum Christianarum Romae (1937-1977) V (1977)"
+   ],
+   "note": "Behind the apse of Old St Peter's, facing west."
+  },
+  {
+   "id": "tomb_of_annia_regilla_v1",
+   "monument": "tomb_of_annia_regilla",
+   "name": "Tomb of Annia Regilla ('Temple of Rediculus')",
+   "from": 161,
+   "to": 9999,
+   "builder": null,
+   "template": "tomb",
+   "loc": [
+    12.516459,
+    41.865155
+   ],
+   "rot": 200,
+   "w": 8.7,
+   "l": 9.2,
+   "h": 12.0,
+   "params": {
+    "kind": "house",
+    "w": 8.7,
+    "h": 12,
+    "podium": 3,
+    "pilasters": true,
+    "mat": {
+     "walls": "brick",
+     "decoration": "brick"
+    }
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "A temple-shaped tomb of finely carved red and yellow brick in the valley of the Almo, traditionally the tomb that Herodes Atticus built for his wife Annia Regilla (died c. 160) on their estate, the Triopion; long misnamed the temple of the god Rediculus.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "IG",
+     "w": "XIV",
+     "r": "1389-1390 (Triopion inscriptions)"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 332",
+    "Gregory, 'Tiberius Claudius Herodes Atticus and the Triopion', in Hesperia (1994)"
+   ],
+   "note": "OSM footprint 9.2 x 8.7; orientation of the facade assumed."
+  },
+  {
+   "id": "temple_of_ceres_and_faustina_triopion_v1",
+   "monument": "temple_of_ceres_and_faustina_triopion",
+   "name": "Temple of Ceres and Faustina in the Triopion (Sant'Urbano)",
+   "from": 161,
+   "to": 9999,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.5263,
+    41.8662
+   ],
+   "rot": 300,
+   "w": 12.0,
+   "l": 18.0,
+   "h": 12.0,
+   "params": {
+    "order": "corinthian",
+    "plan": "prostyle",
+    "front": 4,
+    "side": 2,
+    "podium": 2.5,
+    "colH": 7.5,
+    "steps": "front",
+    "mat": {
+     "podium": "brick",
+     "columns": "marble_white",
+     "walls": "brick",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "Brick prostyle temple on the hill of the Caffarella built by Herodes Atticus in his Triopion estate, probably for Ceres and the deified Faustina the Elder; converted into the church of Sant'Urbano in the Middle Ages, which preserved it.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "IG",
+     "w": "XIV",
+     "r": "1389-1390"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 401"
+   ],
+   "note": "Coordinates approximate (Sant'Urbano alla Caffarella), not matched in OSM."
+  },
+  {
+   "id": "nymphaeum_of_egeria_v1",
+   "monument": "nymphaeum_of_egeria",
+   "name": "Nymphaeum of Egeria (Caffarella)",
+   "from": 161,
+   "to": 9999,
+   "builder": null,
+   "template": "fountain",
+   "loc": [
+    12.5222,
+    41.8665
+   ],
+   "rot": 90,
+   "w": 10.0,
+   "l": 20.0,
+   "h": 7.0,
+   "params": {
+    "kind": "nymphaeum",
+    "diameter": 0,
+    "facade": {
+     "w": 10,
+     "h": 7
+    },
+    "mat": {
+     "walls": "reticulate",
+     "water": "water"
+    }
+   },
+   "importance": 1,
+   "certainty": "excavated",
+   "summary": "A vaulted grotto nymphaeum with a reclining river god, part of Herodes Atticus' Triopion, built over the springs of the Almo valley; Renaissance antiquarians identified it with the grove of Egeria.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Richardson (1992) 10"
+   ],
+   "note": "Coordinates approximate (Valle della Caffarella)."
+  },
+  {
+   "id": "mausoleum_of_hadrian_v1",
+   "monument": "mausoleum_of_hadrian",
+   "name": "Mausoleum of Hadrian",
+   "from": 139,
+   "to": 270,
+   "begun": 130,
+   "builder": "hadrian",
+   "template": "mausoleum",
+   "loc": [
+    12.466358,
+    41.903044
+   ],
+   "rot": 174,
+   "w": 89.0,
+   "l": 89.0,
+   "h": 48.0,
+   "params": {
+    "diameter": 64,
+    "drumH": 21,
+    "tumulusH": 10,
+    "tiers": 2,
+    "base": {
+     "w": 89,
+     "h": 10
+    },
+    "statue": true,
+    "quadriga": true,
+    "mat": {
+     "drum": "marble_white",
+     "base": "marble_white",
+     "core": "concrete",
+     "tumulus": "grass"
+    }
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "Hadrian's dynastic tomb on the right bank, linked to the Campus Martius by his Pons Aelius: a square podium about 89 m across faced in Parian marble, a drum 64 m in diameter and 21 m high, an earth mound planted with trees and a central tower crowned by a bronze quadriga. Antoninus Pius completed it in 139; emperors were buried in it to Caracalla.",
+   "phases": [
+    {
+     "y": 139,
+     "t": "completed by Antoninus Pius; Hadrian's ashes placed"
+    },
+    {
+     "y": 217,
+     "t": "Caracalla's ashes interred, the last"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "69.23.1; 76.15.4"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Hadrianus",
+     "r": "19.11"
+    },
+    {
+     "a": "Procopius",
+     "w": "De bellis",
+     "r": "5.22.12-25"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 249-251",
+    "Claridge, Rome (2010) 249-253",
+    "Pierce, 'The Mausoleum of Hadrian and the Pons Aelius', JRS 15 (1925)"
+   ],
+   "note": "Centre from OSM (Mausoleo di Adriano). The entrance and dromos face the Pons Aelius to the south (rot 174 from the OSM axis 84 deg + 90). This record is placed in district D as part of the Vatican plain; drop it if another district also covers it."
+  },
+  {
+   "id": "mausoleum_of_hadrian_v2",
+   "monument": "mausoleum_of_hadrian",
+   "name": "Mausoleum of Hadrian (bridgehead fort of the Aurelian Wall)",
+   "from": 271,
+   "to": 536,
+   "builder": null,
+   "template": "mausoleum",
+   "loc": [
+    12.466358,
+    41.903044
+   ],
+   "rot": 174,
+   "w": 89.0,
+   "l": 89.0,
+   "h": 48.0,
+   "params": {
+    "diameter": 64,
+    "drumH": 21,
+    "tumulusH": 10,
+    "tiers": 2,
+    "base": {
+     "w": 89,
+     "h": 10
+    },
+    "statue": true,
+    "inWall": true,
+    "mat": {
+     "drum": "marble_white",
+     "base": "marble_white",
+     "core": "concrete"
+    }
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "Linked to the Aurelian Wall by a walled bridgehead across the Pons Aelius, the mausoleum became a fortress guarding the river crossing.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "De bellis",
+     "r": "5.22.12-15"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 249-251",
+    "Claridge, Rome (2010) 249-253",
+    "Pierce, 'The Mausoleum of Hadrian and the Pons Aelius', JRS 15 (1925)"
+   ],
+   "note": ""
+  },
+  {
+   "id": "mausoleum_of_hadrian_v3",
+   "monument": "mausoleum_of_hadrian",
+   "name": "Mausoleum of Hadrian (fortress after the siege of 537)",
+   "from": 537,
+   "to": 9999,
+   "builder": null,
+   "template": "mausoleum",
+   "loc": [
+    12.466358,
+    41.903044
+   ],
+   "rot": 174,
+   "w": 89.0,
+   "l": 89.0,
+   "h": 46.0,
+   "params": {
+    "diameter": 64,
+    "drumH": 21,
+    "tumulusH": 8,
+    "tiers": 2,
+    "base": {
+     "w": 89,
+     "h": 10
+    },
+    "statue": false,
+    "inWall": true,
+    "mat": {
+     "drum": "marble_white",
+     "base": "marble_white",
+     "core": "concrete"
+    }
+   },
+   "ruin": {
+    "from": 537,
+    "state": "half"
+   },
+   "importance": 5,
+   "certainty": "documented",
+   "summary": "During Vitiges' assault of 537 the defenders broke up the marble statues on the mausoleum and hurled them down on the Goths. Legend tells that in 590 Gregory the Great saw the archangel Michael sheathing his sword above it, ending the plague, whence its later name Castel Sant'Angelo.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "De bellis",
+     "r": "5.22.20-22"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 249-251",
+    "Claridge, Rome (2010) 249-253",
+    "Pierce, 'The Mausoleum of Hadrian and the Pons Aelius', JRS 15 (1925)"
+   ],
+   "note": "Statues removed; marble facing still largely in place."
+  }
+ ]
+}

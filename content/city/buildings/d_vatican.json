@@ -1,0 +1,1099 @@
+{
+ "buildings": [
+  {
+   "id": "circus_of_gaius_and_nero_v1",
+   "monument": "circus_of_gaius_and_nero",
+   "name": "Circus of Gaius and Nero (Vatican)",
+   "from": 40,
+   "to": 200,
+   "begun": 37,
+   "builder": "caligula",
+   "template": "circus",
+   "loc": [
+    12.455,
+    41.9012
+   ],
+   "rot": 90,
+   "w": 100.0,
+   "l": 540.0,
+   "h": 12.0,
+   "params": {
+    "l": 540,
+    "w": 100,
+    "spina": {
+     "l": 300,
+     "w": 6
+    },
+    "obelisks": [
+     -149
+    ],
+    "carceres": 12,
+    "tiers": 12,
+    "pulvinar": false,
+    "mat": {
+     "tiers": "concrete_faced",
+     "upper": "timber",
+     "spina": "marble_white",
+     "track": "paving_sand"
+    }
+   },
+   "importance": 4,
+   "certainty": "reconstructed",
+   "summary": "Private circus laid out by Caligula in the gardens of his mother Agrippina on the Vatican plain, with a 25.5 m obelisk from Heliopolis (dedicated by Cornelius Gallus, rededicated to Augustus and Tiberius) on its spina. Nero raced here and in 64 had Christians put to death in it and in the gardens; tradition places Peter's martyrdom here.",
+   "phases": [
+    {
+     "y": 37,
+     "t": "obelisk brought from Alexandria in a giant ship (Pliny 16.201)"
+    },
+    {
+     "y": 64,
+     "t": "Christians executed in Nero's gardens and circus (Tac. Ann. 15.44)"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "16.201; 36.74"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Claudius",
+     "r": "21.2"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annales",
+     "r": "14.14; 15.44"
+    }
+   ],
+   "scholarship": [
+    "Liverani, La topografia antica del Vaticano (1999)",
+    "Castagnoli, Il Vaticano nell'antichita classica (1992)",
+    "Humphrey, Roman Circuses (1986) 545-552"
+   ],
+   "note": "Axis parallel to Old St Peter's, whose south wall rested on the circus' north side; curved end west, carceres east (rot 90). Length ~540 m after the brief; Castagnoli and Liverani reconstruct 500-560 m. The obelisk stood at the plaque in Piazza dei Protomartiri Romani, ~149 m west of the assumed centre.",
+   "event": "neronian_persecution"
+  },
+  {
+   "id": "circus_of_gaius_and_nero_v2",
+   "monument": "circus_of_gaius_and_nero",
+   "name": "Circus of Gaius and Nero (disused)",
+   "from": 201,
+   "to": 9999,
+   "builder": null,
+   "template": "circus",
+   "loc": [
+    12.455,
+    41.9012
+   ],
+   "rot": 90,
+   "w": 100.0,
+   "l": 540.0,
+   "h": 8.0,
+   "params": {
+    "l": 540,
+    "w": 100,
+    "spina": {
+     "l": 300,
+     "w": 6
+    },
+    "obelisks": [
+     -149
+    ],
+    "carceres": 0,
+    "tiers": 8,
+    "mat": {
+     "tiers": "concrete_faced",
+     "track": "grass"
+    }
+   },
+   "ruin": {
+    "from": 201,
+    "state": "half"
+   },
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "By the second and third centuries tombs encroached on the circus, which went out of use; its north side was buried under the terrace of Old St Peter's from 319. The obelisk stayed standing on the spina line until Sixtus V moved it to Piazza San Pietro in 1586.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Liverani, La topografia antica del Vaticano (1999)",
+    "Castagnoli, Il Vaticano nell'antichita classica (1992)",
+    "Humphrey, Roman Circuses (1986) 545-552"
+   ],
+   "note": ""
+  },
+  {
+   "id": "vatican_necropolis_v1",
+   "monument": "vatican_necropolis",
+   "name": "Vatican necropolis (street of tombs)",
+   "from": 120,
+   "to": 318,
+   "builder": null,
+   "template": "compound",
+   "loc": [
+    12.453791,
+    41.902155
+   ],
+   "rot": 180,
+   "w": 20.0,
+   "l": 80.0,
+   "h": 7.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": 0,
+      "y": -30.0,
+      "w": 7,
+      "l": 7.5,
+      "h": 6.5,
+      "mat": "brick",
+      "rot": 0
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": -21.5,
+      "w": 7,
+      "l": 7.5,
+      "h": 6.5,
+      "mat": "brick",
+      "rot": 0
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": -13.0,
+      "w": 7,
+      "l": 7.5,
+      "h": 6.5,
+      "mat": "brick",
+      "rot": 0
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": -4.5,
+      "w": 7,
+      "l": 7.5,
+      "h": 6.5,
+      "mat": "brick",
+      "rot": 0
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 4.0,
+      "w": 7,
+      "l": 7.5,
+      "h": 6.5,
+      "mat": "brick",
+      "rot": 0
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 12.5,
+      "w": 7,
+      "l": 7.5,
+      "h": 6.5,
+      "mat": "brick",
+      "rot": 0
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 21.0,
+      "w": 7,
+      "l": 7.5,
+      "h": 6.5,
+      "mat": "brick",
+      "rot": 0
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 29.5,
+      "w": 7,
+      "l": 7.5,
+      "h": 6.5,
+      "mat": "brick",
+      "rot": 0
+     },
+     {
+      "shape": "box",
+      "x": -12,
+      "y": -30.0,
+      "w": 6,
+      "l": 7.5,
+      "h": 6,
+      "mat": "brick"
+     },
+     {
+      "shape": "box",
+      "x": -12,
+      "y": -21.5,
+      "w": 6,
+      "l": 7.5,
+      "h": 6,
+      "mat": "brick"
+     },
+     {
+      "shape": "box",
+      "x": -12,
+      "y": -13.0,
+      "w": 6,
+      "l": 7.5,
+      "h": 6,
+      "mat": "brick"
+     },
+     {
+      "shape": "box",
+      "x": -12,
+      "y": -4.5,
+      "w": 6,
+      "l": 7.5,
+      "h": 6,
+      "mat": "brick"
+     },
+     {
+      "shape": "box",
+      "x": -12,
+      "y": 4.0,
+      "w": 6,
+      "l": 7.5,
+      "h": 6,
+      "mat": "brick"
+     },
+     {
+      "shape": "box",
+      "x": -12,
+      "y": 12.5,
+      "w": 6,
+      "l": 7.5,
+      "h": 6,
+      "mat": "brick"
+     }
+    ],
+    "orientation_note": "two rows of house tombs along an E-W lane"
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "Two rows of brick house-tombs of the second and early third centuries lining a lane on the Vatican slope north of the circus, belonging to well-off freedman families (Caetennii, Valerii, Julii with the Christ-Helios mosaic). Excavated 1940-1949 under the Vatican basilica.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Toynbee and Ward-Perkins, The Shrine of St Peter and the Vatican Excavations (1956)",
+    "Liverani and Spinola, The Vatican Necropoles (2010)"
+   ],
+   "note": "The lane ran east-west under the nave of the basilica, east of the tomb of Peter; the local frame uses rot 180 so the rows run along the E-W axis. Buried when Constantine's builders levelled the slope in 319-322."
+  },
+  {
+   "id": "tropaion_of_gaius_v1",
+   "monument": "tropaion_of_gaius",
+   "name": "Tropaion of Gaius (aedicula over Peter's grave)",
+   "from": 160,
+   "to": 318,
+   "builder": null,
+   "template": "tomb",
+   "loc": [
+    12.453369,
+    41.902155
+   ],
+   "rot": 90,
+   "w": 2.4,
+   "l": 1.5,
+   "h": 2.6,
+   "params": {
+    "kind": "aedicula",
+    "w": 2.4,
+    "h": 2.6,
+    "redWall": {
+     "w": 8,
+     "h": 2.5
+    },
+    "mat": {
+     "walls": "stucco_red",
+     "columns": "marble_white"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "Around 160 a small two-storey niche with a travertine slab on two marble colonnettes was set against the 'Red Wall' of Campo P over a simple grave revered as Peter's; the priest Gaius named it 'the trophy' of the apostle around 200.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Eusebius",
+     "w": "Historia ecclesiastica",
+     "r": "2.25.7 (quoting Gaius)"
+    }
+   ],
+   "scholarship": [
+    "Toynbee and Ward-Perkins (1956) 135-167",
+    "Liverani and Spinola (2010)"
+   ],
+   "note": "At the papal altar under the dome (St Peter's tomb location); faces east."
+  },
+  {
+   "id": "tropaion_of_gaius_v2",
+   "monument": "tropaion_of_gaius",
+   "name": "Constantinian monument of St Peter",
+   "from": 319,
+   "to": 9999,
+   "builder": "constantine_i",
+   "template": "tomb",
+   "loc": [
+    12.453369,
+    41.902155
+   ],
+   "rot": 90,
+   "w": 4.0,
+   "l": 6.0,
+   "h": 6.0,
+   "params": {
+    "kind": "aedicula",
+    "w": 4,
+    "h": 6,
+    "pergola": {
+     "columns": 6,
+     "twisted": true
+    },
+    "mat": {
+     "walls": "marble_color",
+     "columns": "marble_white"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "Constantine encased the aedicula in a marble and porphyry box under a canopy of twisted vine-scroll columns at the chord of the apse, the focus of the new basilica; Gregory the Great raised the floor around it to make a crypt.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "Silvester",
+     "r": "34.16"
+    }
+   ],
+   "scholarship": [
+    "Toynbee and Ward-Perkins (1956) 195-210",
+    "Krautheimer, Corpus V (1977) 165-279"
+   ],
+   "note": "Inside the basilica."
+  },
+  {
+   "id": "old_st_peters_v1",
+   "monument": "old_st_peters",
+   "name": "Old St Peter's (under construction, without atrium)",
+   "from": 333,
+   "to": 359,
+   "begun": 319,
+   "builder": "constantine_i",
+   "template": "church",
+   "loc": [
+    12.453942,
+    41.902155
+   ],
+   "rot": 89.4,
+   "w": 64.0,
+   "l": 119.0,
+   "h": 32.0,
+   "params": {
+    "nave": 23.6,
+    "aisles": 2,
+    "transept": true,
+    "transeptW": 90,
+    "apse": true,
+    "atrium": null,
+    "narthex": false,
+    "columns": 88,
+    "mat": {
+     "walls": "brick",
+     "columns": "marble_color",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 5,
+   "certainty": "documented",
+   "summary": "Constantine built the funerary basilica over Peter's grave from about 319, cutting into the Vatican hill and burying the necropolis on a vast terrace. Five aisles separated by 88 reused columns, a nave about 90 m long, a continuous transept with the shrine at the chord of the apse: about 119 m from apse to facade and 64 m wide. Occidented: the apse west, the entrance facing east toward the city.",
+   "phases": [
+    {
+     "y": 319,
+     "t": "construction begins (dendro/coin evidence c. 319-322)"
+    },
+    {
+     "y": 329,
+     "t": "transept and apse in use"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "Silvester",
+     "r": "34.16"
+    },
+    {
+     "a": "Eusebius",
+     "w": "Vita Constantini",
+     "r": "3.48"
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Corpus Basilicarum Christianarum Romae V (1977) 165-279",
+    "Westall, 'Constantius II and the basilica of St Peter', Historia 64 (2015)",
+    "Brandenburg, Ancient Churches of Rome (2005) 91-102"
+   ],
+   "note": "Apse chord at Peter's tomb (under the present dome, OSM); axis from the present basilica (89.4 deg); centre 47.5 m east of the tomb. Alfarano's plan (1571) gives the dimensions.",
+   "event": "old_st_peters_basilica"
+  },
+  {
+   "id": "old_st_peters_v2",
+   "monument": "old_st_peters",
+   "name": "Old St Peter's",
+   "from": 360,
+   "to": 9999,
+   "builder": null,
+   "template": "church",
+   "loc": [
+    12.453942,
+    41.902155
+   ],
+   "rot": 89.4,
+   "w": 64.0,
+   "l": 119.0,
+   "h": 32.0,
+   "params": {
+    "nave": 23.6,
+    "aisles": 2,
+    "transept": true,
+    "transeptW": 90,
+    "apse": true,
+    "atrium": {
+     "w": 62,
+     "l": 56
+    },
+    "atriumOffset": 90,
+    "narthex": true,
+    "columns": 88,
+    "fountain": "pinecone (Symmachus)",
+    "mat": {
+     "walls": "brick",
+     "columns": "marble_color",
+     "roof": "roof_tile",
+     "facade": "gilded"
+    }
+   },
+   "importance": 5,
+   "certainty": "documented",
+   "summary": "Finished under Constantius II around 360 with the nave and the colonnaded atrium (the 'Paradise') in front of the facade, where Pope Symmachus later set the bronze pinecone fountain. The richest shrine of the West: the Goths spared it in 410, Leo I and Symmachus embellished it, and around it grew mausolea, monasteries and hostels.",
+   "phases": [
+    {
+     "y": 360,
+     "t": "completed (dedicatory inscription of Constantius II)"
+    },
+    {
+     "y": 500,
+     "t": "Symmachus: atrium fountain, stairs, episcopia (LP 53)"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "Symmachus",
+     "r": "53.7"
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Corpus V (1977) 165-279",
+    "Westall (2015)"
+   ],
+   "note": "Church l=119 excludes the atrium (~56 x 62 m east of the facade)."
+  },
+  {
+   "id": "vatican_rotunda_v1",
+   "monument": "vatican_rotunda",
+   "name": "Vatican Rotunda (mausoleum on the circus spina)",
+   "from": 200,
+   "to": 499,
+   "builder": null,
+   "template": "centralplan",
+   "loc": [
+    12.45345,
+    41.90145
+   ],
+   "rot": 0,
+   "w": 30.0,
+   "l": 30.0,
+   "h": 22.0,
+   "params": {
+    "diameter": 30,
+    "drumH": 16,
+    "domeH": 6,
+    "sides": 0,
+    "oculus": 0,
+    "niches": 8,
+    "portico": null,
+    "mat": {
+     "drum": "brick",
+     "dome": "concrete"
+    }
+   },
+   "importance": 2,
+   "certainty": "documented",
+   "summary": "A brick rotunda with eight niches built on the line of the old circus spina, probably a third-century imperial-class mausoleum; it appears on a third-century gem and was drawn before its demolition in 1776.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Liverani (1999) 133-137",
+    "Johnson, The Roman Imperial Mausoleum in Late Antiquity (2009) 167-174"
+   ],
+   "note": "Positions of the two rotundas south of the basilica's south transept from Alfarano's plan; the obelisk stood just south of this one. Entrance assumed on the north toward the basilica."
+  },
+  {
+   "id": "vatican_rotunda_v2",
+   "monument": "vatican_rotunda",
+   "name": "Sant'Andrea (Vatican Rotunda as church)",
+   "from": 500,
+   "to": 9999,
+   "builder": null,
+   "template": "centralplan",
+   "loc": [
+    12.45345,
+    41.90145
+   ],
+   "rot": 0,
+   "w": 30.0,
+   "l": 30.0,
+   "h": 22.0,
+   "params": {
+    "diameter": 30,
+    "drumH": 16,
+    "domeH": 6,
+    "sides": 0,
+    "oculus": 0,
+    "niches": 8,
+    "mat": {
+     "drum": "brick",
+     "dome": "concrete"
+    }
+   },
+   "importance": 2,
+   "certainty": "documented",
+   "summary": "Pope Symmachus (498-514) turned the rotunda into the church of St Andrew; later called S. Maria della Febbre, it served as the sacristy of St Peter's until 1776.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "Symmachus",
+     "r": "53.6"
+    }
+   ],
+   "scholarship": [
+    "Liverani (1999) 133-137"
+   ],
+   "note": "Conversion of an existing building; the brief assigns it here."
+  },
+  {
+   "id": "mausoleum_of_honorius_v1",
+   "monument": "mausoleum_of_honorius",
+   "name": "Mausoleum of Honorius (later Santa Petronilla)",
+   "from": 408,
+   "to": 9999,
+   "begun": 400,
+   "builder": "honorius",
+   "template": "centralplan",
+   "loc": [
+    12.45305,
+    41.9015
+   ],
+   "rot": 0,
+   "w": 28.0,
+   "l": 34.0,
+   "h": 24.0,
+   "params": {
+    "diameter": 28,
+    "drumH": 17,
+    "domeH": 7,
+    "sides": 0,
+    "oculus": 0,
+    "niches": 8,
+    "portico": {
+     "front": 0,
+     "side": 0,
+     "colH": 0,
+     "w": 12,
+     "l": 6
+    },
+    "buttresses": true,
+    "mat": {
+     "drum": "brick",
+     "dome": "concrete"
+    }
+   },
+   "importance": 3,
+   "certainty": "documented",
+   "summary": "Dynastic mausoleum of the Theodosian house built against the south transept of St Peter's, entered from it through a vestibule. The empress Maria (died c. 407/408) and later probably Thermantia, Honorius himself (423) and members of Galla Placidia's family were buried here; Maria's sarcophagus with its jewels was found in 1544. Made a chapel of St Petronilla in 757; demolished 1519.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Paul the Deacon",
+     "w": "Historia Langobardorum",
+     "r": "6.58 (later tradition)"
+    }
+   ],
+   "scholarship": [
+    "Johnson (2009) 156-167",
+    "Koethe, 'Das Mausoleum der Honorius', Jahrbuch des DAI 46 (1931)"
+   ],
+   "note": "West of the Vatican Rotunda on the spina line, joined to the south arm of the transept; faces north (rot 0) into the basilica. Size similar to the Vatican Rotunda per the Anonimo Fiorentino plan."
+  },
+  {
+   "id": "phrygianum_v1",
+   "monument": "phrygianum",
+   "name": "Phrygianum (Vatican sanctuary of Magna Mater)",
+   "from": 150,
+   "to": 394,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.4559,
+    41.9025
+   ],
+   "rot": 90,
+   "w": 12.0,
+   "l": 18.0,
+   "h": 10.0,
+   "params": {
+    "order": "corinthian",
+    "plan": "prostyle",
+    "front": 4,
+    "side": 2,
+    "podium": 2.0,
+    "colH": 6.0,
+    "steps": "front",
+    "precinct": {
+     "w": 30,
+     "l": 40,
+     "h": 3
+    },
+    "mat": {
+     "podium": "concrete_faced",
+     "columns": "marble_white",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Sanctuary of Cybele and Attis 'in Vaticano', where taurobolia were performed; altars dedicated by senators between 295 and 390 were found in 1609 under the facade of the new St Peter's, making it a stronghold of the last pagan aristocracy next door to the apostle's shrine.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "497-504"
+    }
+   ],
+   "scholarship": [
+    "Liverani (1999) 25-27",
+    "Richardson (1992) 300",
+    "Roger Pearse, 'Old St Peter's, the Circus of Caligula and the Phrygianum' (2014)"
+   ],
+   "note": "Location from the find-spot of the taurobolium altars near the facade of the present basilica; form unknown, a small precinct temple modelled. End date after the last dated altar (390) and the anti-pagan laws."
+  },
+  {
+   "id": "meta_romuli_v1",
+   "monument": "meta_romuli",
+   "name": "Meta Romuli (pyramid of the Vatican)",
+   "from": -20,
+   "to": 9999,
+   "builder": null,
+   "template": "pyramid",
+   "loc": [
+    12.4636,
+    41.90266
+   ],
+   "rot": 90,
+   "w": 25.0,
+   "l": 25.0,
+   "h": 40.0,
+   "params": {
+    "w": 25,
+    "h": 40,
+    "chamber": {
+     "w": 7,
+     "l": 7,
+     "h": 10.5
+    },
+    "paving": {
+     "w": 31,
+     "l": 31
+    },
+    "mat": {
+     "walls": "marble_white",
+     "core": "concrete"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "A marble-faced pyramid tomb, larger than that of Cestius, at the junction of the Via Cornelia and Via Triumphalis, perhaps of Cornelius Gallus, prefect of Egypt; medieval Romans called it the tomb of Romulus. Pope Donus stripped its marble for the paving of St Peter's in the 670s; Alexander VI demolished it in 1499. Its foundations lie under the north side of Via della Conciliazione.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Mirabilia Urbis Romae",
+     "w": "20"
+    }
+   ],
+   "scholarship": [
+    "Castagnoli (1992) 23-25",
+    "Platner-Ashby (1929) 340",
+    "Verzar-Bass, in Horti Romani (1998) 401-424"
+   ],
+   "note": "Coordinates from Wikipedia (foundations under the Auditorium della Conciliazione block); base 25 m square from 15th-century accounts, height 32-50 m, 40 used. Augustan date assumed."
+  },
+  {
+   "id": "terebinthus_neronis_v1",
+   "monument": "terebinthus_neronis",
+   "name": "Terebinthus Neronis",
+   "from": 50,
+   "to": 9999,
+   "builder": null,
+   "template": "mausoleum",
+   "loc": [
+    12.4618,
+    41.9032
+   ],
+   "rot": 90,
+   "w": 22.0,
+   "l": 22.0,
+   "h": 24.0,
+   "params": {
+    "diameter": 18,
+    "drumH": 12,
+    "tumulusH": 0,
+    "tiers": 2,
+    "base": {
+     "w": 22,
+     "h": 6
+    },
+    "mat": {
+     "drum": "travertine",
+     "core": "concrete"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "A tall round tomb on a square base near the Meta Romuli, called the 'Terebinth of Nero' in medieval sources and shown in Filarete's bronze doors; demolished in the Middle Ages.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Acta Petri et Pauli",
+     "w": "(medieval tradition)"
+    }
+   ],
+   "scholarship": [
+    "Liverani (1999) 74-77",
+    "Castagnoli (1992) 25"
+   ],
+   "note": "Position between the Meta Romuli and the Mausoleum of Hadrian conjectural; form from Filarete and Cimabue's views."
+  },
+  {
+   "id": "naumachia_vaticana_v1",
+   "monument": "naumachia_vaticana",
+   "name": "Naumachia Vaticana (Naumachia of Trajan)",
+   "from": 109,
+   "to": 9999,
+   "builder": "trajan",
+   "template": "pool",
+   "loc": [
+    12.4623,
+    41.9053
+   ],
+   "rot": 90,
+   "w": 120.0,
+   "l": 300.0,
+   "h": 1.5,
+   "params": {
+    "depth": 1.5,
+    "tiers": {
+     "h": 10,
+     "w": 15
+    },
+    "mat": {
+     "water": "water",
+     "tiers": "brick"
+    }
+   },
+   "ruin": {
+    "from": 300,
+    "state": "foundations"
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "An artificial lake for naval battles with brick-built seating, dedicated by Trajan in 109 (Fasti Ostienses) and probably fed by the Aqua Traiana; its remains were seen in 1743 near Via Crescenzio and Piazza Cavour and in 1904.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Fasti Ostienses",
+     "w": "109"
+    }
+   ],
+   "scholarship": [
+    "Liverani (1999) 104-108",
+    "Richardson (1992) 266"
+   ],
+   "note": "Extent and orientation approximate (long axis E-W ~300 m)."
+  },
+  {
+   "id": "gaianum_v1",
+   "monument": "gaianum",
+   "name": "Gaianum (Caligula's chariot training ground)",
+   "from": 38,
+   "to": 200,
+   "builder": "caligula",
+   "template": "stadium",
+   "loc": [
+    12.4605,
+    41.9045
+   ],
+   "rot": 90,
+   "w": 60.0,
+   "l": 300.0,
+   "h": 2.0,
+   "params": {
+    "l": 300,
+    "w": 60,
+    "tiers": 2,
+    "mat": {
+     "track": "paving_sand",
+     "tiers": "timber"
+    }
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "An open training track for charioteers laid out by Caligula on the Vatican plain, still named in the Regionary Catalogues (Gaianum) and in Dio.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "59.14.6"
+    },
+    {
+     "a": "Notitia",
+     "w": "Regio XIV",
+     "r": "Gaianum"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 159",
+    "Liverani (1999) 116"
+   ],
+   "note": "Location in the plain between the Mausoleum of Hadrian and St Peter's (medieval Prata Neronis) conjectural."
+  },
+  {
+   "id": "necropolis_via_triumphalis_v1",
+   "monument": "necropolis_via_triumphalis",
+   "name": "Necropolis of the Via Triumphalis (Autoparco and Santa Rosa)",
+   "from": -30,
+   "to": 330,
+   "builder": null,
+   "template": "compound",
+   "loc": [
+    12.4533,
+    41.9048
+   ],
+   "rot": 0,
+   "w": 40.0,
+   "l": 100.0,
+   "h": 4.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": -12,
+      "y": -40,
+      "w": 5,
+      "l": 5,
+      "h": 3.5,
+      "mat": "reticulate"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": -33,
+      "w": 5,
+      "l": 5,
+      "h": 3.5,
+      "mat": "brick"
+     },
+     {
+      "shape": "box",
+      "x": 12,
+      "y": -26,
+      "w": 5,
+      "l": 5,
+      "h": 3.5,
+      "mat": "reticulate"
+     },
+     {
+      "shape": "box",
+      "x": -12,
+      "y": -19,
+      "w": 5,
+      "l": 5,
+      "h": 3.5,
+      "mat": "brick"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": -12,
+      "w": 5,
+      "l": 5,
+      "h": 3.5,
+      "mat": "reticulate"
+     },
+     {
+      "shape": "box",
+      "x": 12,
+      "y": -5,
+      "w": 5,
+      "l": 5,
+      "h": 3.5,
+      "mat": "brick"
+     },
+     {
+      "shape": "box",
+      "x": -12,
+      "y": 2,
+      "w": 5,
+      "l": 5,
+      "h": 3.5,
+      "mat": "reticulate"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 9,
+      "w": 5,
+      "l": 5,
+      "h": 3.5,
+      "mat": "brick"
+     },
+     {
+      "shape": "box",
+      "x": 12,
+      "y": 16,
+      "w": 5,
+      "l": 5,
+      "h": 3.5,
+      "mat": "reticulate"
+     },
+     {
+      "shape": "box",
+      "x": -12,
+      "y": 23,
+      "w": 5,
+      "l": 5,
+      "h": 3.5,
+      "mat": "brick"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 30,
+      "w": 5,
+      "l": 5,
+      "h": 3.5,
+      "mat": "reticulate"
+     },
+     {
+      "shape": "box",
+      "x": 12,
+      "y": 37,
+      "w": 5,
+      "l": 5,
+      "h": 3.5,
+      "mat": "brick"
+     }
+    ]
+   },
+   "importance": 1,
+   "certainty": "excavated",
+   "summary": "Terraced cemetery of slaves, freedmen and ordinary Romans along the Via Triumphalis on the Vatican hillside, with small tombs and columbaria of the late first century BC to the early fourth century AD; excavated 1956-2009 inside Vatican City.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Steinby, La necropoli della Via Triumphalis (2003)",
+    "Liverani and Spinola (2010)"
+   ],
+   "note": "Cluster centred between the Autoparco and Santa Rosa sectors; schematic."
+  },
+  {
+   "id": "porticus_sancti_petri_v1",
+   "monument": "porticus_sancti_petri",
+   "name": "Portico of St Peter (Pons Aelius to St Peter's)",
+   "from": 450,
+   "to": 9999,
+   "builder": null,
+   "template": "colonnade",
+   "loc": [
+    12.461,
+    41.9022
+   ],
+   "rot": 270,
+   "w": 5.0,
+   "l": 900.0,
+   "h": 6.0,
+   "params": {
+    "line": [
+     [
+      12.4663,
+      41.9019
+     ],
+     [
+      12.464,
+      41.9021
+     ],
+     [
+      12.461,
+      41.9022
+     ],
+     [
+      12.458,
+      41.90225
+     ],
+     [
+      12.456,
+      41.9022
+     ]
+    ],
+    "depth": 5.0,
+    "colH": 4.5,
+    "roofed": true,
+    "mat": {
+     "columns": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "documented",
+   "summary": "A covered colonnade, the porticus maior, sheltering pilgrims from the Pons Aelius to the atrium of St Peter's, mentioned by Procopius in 537.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "De bellis",
+     "r": "6.2.10"
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Rome: Profile of a City (1980) 24",
+    "Liverani (1999) 140"
+   ],
+   "note": "Course approximate along Via della Conciliazione/Borgo; construction date uncertain (5th century)."
+  }
+ ]
+}

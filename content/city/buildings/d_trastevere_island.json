@@ -1,0 +1,1174 @@
+{
+ "buildings": [
+  {
+   "id": "naumachia_augusti_v1",
+   "monument": "naumachia_augusti",
+   "name": "Naumachia of Augustus",
+   "from": -2,
+   "to": 249,
+   "builder": "augustus",
+   "template": "pool",
+   "loc": [
+    12.4705,
+    41.8852
+   ],
+   "rot": 340,
+   "w": 357.0,
+   "l": 536.0,
+   "h": 1.5,
+   "params": {
+    "depth": 1.5,
+    "island": {
+     "w": 60,
+     "l": 100
+    },
+    "bridge": true,
+    "grove": "Nemus Caesarum",
+    "mat": {
+     "water": "water",
+     "rim": "tufa",
+     "ground": "grass"
+    }
+   },
+   "importance": 4,
+   "certainty": "conjectural",
+   "summary": "Augustus dug a basin 1,800 by 1,200 Roman feet (about 536 x 357 m) across the Tiber for a staged naval battle of Athenians and Persians at the dedication of Mars Ultor in 2 BC: thirty beaked ships and 3,000 fighters. Fed by the new Aqua Alsietina, it had an island reached by a bridge and was surrounded by the grove of the Caesars. Titus staged battles in it again in 80.",
+   "phases": [
+    {
+     "y": -2,
+     "t": "naval battle for the dedication of the Temple of Mars Ultor"
+    },
+    {
+     "y": 80,
+     "t": "Titus' naval shows (Dio 66.25.3)"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Augustus",
+     "w": "Res Gestae",
+     "r": "23"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "55.10.7; 66.25.3"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "16.190"
+    },
+    {
+     "a": "Frontinus",
+     "w": "De aquaeductu",
+     "r": "1.11"
+    }
+   ],
+   "scholarship": [
+    "Taylor, 'Torrent or trickle? The Aqua Alsietina, the Naumachia Augusti, and the Transtiberim', AJA 101 (1997) 465-492",
+    "Richardson (1992) 265",
+    "Liberati, LTUR III (1996) 337"
+   ],
+   "note": "No remains found. Placed near S. Cosimato between S. Maria in Trastevere, S. Francesco a Ripa and the river (Taylor), long axis assumed NNW-SSE (340/160) parallel to the river; position, orientation and end date all conjectural (out of use by the 3rd century).",
+   "event": "naumachia_of_augustus"
+  },
+  {
+   "id": "nemus_caesarum_v1",
+   "monument": "naumachia_augusti",
+   "name": "Grove of the Caesars (site of the Naumachia)",
+   "from": 250,
+   "to": 9999,
+   "builder": null,
+   "template": "garden",
+   "loc": [
+    12.4705,
+    41.8852
+   ],
+   "rot": 340,
+   "w": 357.0,
+   "l": 536.0,
+   "h": 8.0,
+   "params": {
+    "trees": 0.8,
+    "kind": "grove",
+    "mat": {
+     "ground": "grass"
+    }
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "With the basin drained and partly built over, the area of the naumachia survived as gardens and scattered building; the name Naumachia still clung to the district in the Middle Ages.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Taylor (1997)"
+   ],
+   "note": "Placeholder for the abandoned site."
+  },
+  {
+   "id": "horti_caesaris_pavilion_v1",
+   "monument": "horti_caesaris",
+   "name": "Pavilion in the Gardens of Caesar (Transtiberim)",
+   "from": -46,
+   "to": 200,
+   "builder": "julius_caesar",
+   "template": "compound",
+   "loc": [
+    12.4743,
+    41.8798
+   ],
+   "rot": 45,
+   "w": 40.0,
+   "l": 30.0,
+   "h": 10.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 22,
+      "l": 16,
+      "h": 10,
+      "mat": "stucco"
+     },
+     {
+      "shape": "colonnade",
+      "x": 0,
+      "y": 11,
+      "w": 40,
+      "l": 6,
+      "h": 6,
+      "mat": "marble_white"
+     },
+     {
+      "shape": "colonnade",
+      "x": 0,
+      "y": -11,
+      "w": 40,
+      "l": 6,
+      "h": 6,
+      "mat": "marble_white"
+     }
+    ]
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Caesar's suburban gardens on the right bank along the Via Portuensis, where Cleopatra stayed in 46-44 BC; Caesar left them to the Roman people in his will. A residential pavilion facing the river is modelled here.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Divus Iulius",
+     "r": "83.2"
+    },
+    {
+     "a": "Cicero",
+     "w": "Ad Atticum",
+     "r": "15.15.2"
+    },
+    {
+     "a": "Horace",
+     "w": "Satires",
+     "r": "1.9.18"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 200",
+    "Papi, LTUR III (1996) 55-56"
+   ],
+   "note": "The gardens' extent (see gardens collection) lay south of Porta Portese near the first milestone of the Via Portuensis; buildings unknown."
+  },
+  {
+   "id": "temple_of_fors_fortuna_v1",
+   "monument": "temple_of_fors_fortuna",
+   "name": "Temple of Fors Fortuna (Via Portuensis, first mile)",
+   "from": -293,
+   "to": 15,
+   "builder": "spurius_carvilius_maximus",
+   "template": "temple",
+   "loc": [
+    12.4735,
+    41.8786
+   ],
+   "rot": 45,
+   "w": 14.0,
+   "l": 22.0,
+   "h": 12.0,
+   "params": {
+    "order": "tuscan",
+    "plan": "tuscan_alae",
+    "front": 4,
+    "side": 3,
+    "podium": 2.0,
+    "colH": 6.5,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Sp. Carvilius built a temple of Fors Fortuna near the old Servian shrine at the first milestone of the Via Portuensis from the spoils of the Samnite war (293 BC). On 24 June the people sailed down the river in garlanded boats to her festival.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "10.46.14"
+    },
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "6.773-784"
+    },
+    {
+     "a": "Varro",
+     "w": "De lingua Latina",
+     "r": "6.17"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 154-155"
+   ],
+   "note": "Site in the Horti Caesaris area, position conjectural."
+  },
+  {
+   "id": "temple_of_fors_fortuna_v2",
+   "monument": "temple_of_fors_fortuna",
+   "name": "Temple of Fors Fortuna (Tiberian)",
+   "from": 16,
+   "to": 9999,
+   "builder": "tiberius",
+   "template": "temple",
+   "loc": [
+    12.4735,
+    41.8786
+   ],
+   "rot": 45,
+   "w": 16.0,
+   "l": 26.0,
+   "h": 14.0,
+   "params": {
+    "order": "corinthian",
+    "plan": "prostyle",
+    "front": 6,
+    "side": 3,
+    "podium": 2.5,
+    "colH": 9.0,
+    "steps": "front",
+    "mat": {
+     "podium": "concrete_faced",
+     "columns": "marble_white",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Tiberius dedicated a temple of Fors Fortuna in the Gardens of Caesar in AD 16 near the Tiber, from Germanicus' victories.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Annales",
+     "r": "2.41"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 155"
+   ],
+   "note": "Treated as the successor on the same site; the sources may refer to a separate building."
+  },
+  {
+   "id": "lucus_furrinae_v1",
+   "monument": "syrian_sanctuary_janiculum",
+   "name": "Lucus Furrinae (grove and spring)",
+   "from": -509,
+   "to": 99,
+   "builder": null,
+   "template": "garden",
+   "loc": [
+    12.4659,
+    41.8853
+   ],
+   "rot": 90,
+   "w": 60.0,
+   "l": 60.0,
+   "h": 10.0,
+   "params": {
+    "trees": 1.5,
+    "kind": "grove",
+    "spring": true,
+    "altar": true,
+    "mat": {
+     "ground": "grass"
+    }
+   },
+   "importance": 2,
+   "certainty": "reconstructed",
+   "summary": "Sacred grove and spring of the old goddess Furrina on the slope of the Janiculum, where Gaius Gracchus had himself killed by his slave in 121 BC.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Plutarch",
+     "w": "Gaius Gracchus",
+     "r": "17.2"
+    },
+    {
+     "a": "Varro",
+     "w": "De lingua Latina",
+     "r": "6.19"
+    },
+    {
+     "a": "Cicero",
+     "w": "De natura deorum",
+     "r": "3.46"
+    }
+   ],
+   "scholarship": [
+    "Goddard, 'The Syrian sanctuary on the Janiculum', in Papers of the British School at Rome 76 (2008)",
+    "Calzini Gysens and Duthoy, LTUR III (1996) 138-143",
+    "Richardson (1992) 223"
+   ],
+   "note": "Location at the springs below Villa Sciarra (Via Dandolo) where dedications to the Nymphae Furrinae were found."
+  },
+  {
+   "id": "syrian_sanctuary_janiculum_v1",
+   "monument": "syrian_sanctuary_janiculum",
+   "name": "Syrian Sanctuary on the Janiculum (second-century phase)",
+   "from": 100,
+   "to": 339,
+   "builder": null,
+   "template": "compound",
+   "loc": [
+    12.4659,
+    41.8853
+   ],
+   "rot": 90,
+   "w": 30.0,
+   "l": 45.0,
+   "h": 8.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "court",
+      "x": 0,
+      "y": 0,
+      "w": 30,
+      "l": 30,
+      "h": 5,
+      "ringDepth": 4,
+      "mat": "brick"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": -18,
+      "w": 14,
+      "l": 10,
+      "h": 8,
+      "mat": "brick"
+     },
+     {
+      "shape": "pool",
+      "x": 0,
+      "y": 0,
+      "w": 8,
+      "l": 5,
+      "h": 0.5,
+      "mat": "water"
+     }
+    ]
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "In the second century merchants and devotees of Syrian gods, notably the Syrian M. Antonius Gaionas, built a sanctuary of Jupiter Heliopolitanus (Hadad) and the Nymphs of Furrina around the spring, known from dedications of about 176.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "36791-36793; 420"
+    }
+   ],
+   "scholarship": [
+    "Goddard, 'The Syrian sanctuary on the Janiculum', in Papers of the British School at Rome 76 (2008)",
+    "Calzini Gysens and Duthoy, LTUR III (1996) 138-143",
+    "Richardson (1992) 223"
+   ],
+   "note": "Excavated 1906-1909 at Villa Wurts (Via Dandolo 47)."
+  },
+  {
+   "id": "syrian_sanctuary_janiculum_v2",
+   "monument": "syrian_sanctuary_janiculum",
+   "name": "Syrian Sanctuary on the Janiculum (late-antique temple)",
+   "from": 340,
+   "to": 400,
+   "builder": null,
+   "template": "compound",
+   "loc": [
+    12.4659,
+    41.8853
+   ],
+   "rot": 90,
+   "w": 24.0,
+   "l": 56.0,
+   "h": 10.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": 0,
+      "y": -18,
+      "w": 24,
+      "l": 20,
+      "h": 10,
+      "mat": "brick"
+     },
+     {
+      "shape": "apse",
+      "x": 0,
+      "y": -28,
+      "w": 8,
+      "l": 4,
+      "h": 8,
+      "mat": "brick"
+     },
+     {
+      "shape": "court",
+      "x": 0,
+      "y": 2,
+      "w": 20,
+      "l": 20,
+      "h": 4,
+      "ringDepth": 3,
+      "mat": "brick"
+     },
+     {
+      "shape": "dome",
+      "x": 0,
+      "y": 20,
+      "w": 14,
+      "l": 14,
+      "h": 10,
+      "mat": "brick"
+     }
+    ],
+    "sides_east": 8
+   },
+   "ruin": {
+    "from": 400,
+    "state": "foundations"
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "Rebuilt in the fourth century as a three-part building on an east-west axis: a western basilical hall with an apse, a central court, and an eastern octagonal room with a triangular altar under which a bronze statuette of a god wrapped by a serpent and eggs were buried; a late pagan cult centre abandoned around 400.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Goddard, 'The Syrian sanctuary on the Janiculum', in Papers of the British School at Rome 76 (2008)",
+    "Calzini Gysens and Duthoy, LTUR III (1996) 138-143",
+    "Richardson (1992) 223"
+   ],
+   "note": "Plan from Gauckler's excavation; the entrance was on the east side (rot 90) with the basilical sanctuary to the west."
+  },
+  {
+   "id": "janiculum_mills_v1",
+   "monument": "janiculum_mills",
+   "name": "Water mills of the Janiculum (Aqua Traiana)",
+   "from": 110,
+   "to": 536,
+   "builder": null,
+   "template": "compound",
+   "loc": [
+    12.463,
+    41.8895
+   ],
+   "rot": 110,
+   "w": 20.0,
+   "l": 120.0,
+   "h": 6.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": 0,
+      "y": -40,
+      "w": 12,
+      "l": 10,
+      "h": 6,
+      "mat": "brick"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": -15,
+      "w": 12,
+      "l": 10,
+      "h": 6,
+      "mat": "brick"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 10,
+      "w": 12,
+      "l": 10,
+      "h": 6,
+      "mat": "brick"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 35,
+      "w": 12,
+      "l": 10,
+      "h": 6,
+      "mat": "brick"
+     },
+     {
+      "shape": "wall",
+      "x": 0,
+      "y": 0,
+      "w": 2,
+      "l": 120,
+      "h": 4,
+      "mat": "concrete"
+     }
+    ],
+    "millrace": true
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "Flour mills driven by the outflow of the Aqua Traiana as it ran down the Janiculum slope, a chain of millhouses on a stepped millrace. Excavated under the American Academy and Via Garibaldi; the excavated mill phases run from the early third century to the sixth. They ground the city's bread until Vitiges cut the aqueduct in 537, when Belisarius moved the mills onto boats in the Tiber.",
+   "phases": [
+    {
+     "y": 110,
+     "t": "Aqua Traiana opened (109); mills along its terminal run"
+    },
+    {
+     "y": 398,
+     "t": "law protecting the Janiculum mills (CTh 14.15.4)"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "De bellis",
+     "r": "5.19.8-22"
+    },
+    {
+     "a": "Codex Theodosianus",
+     "w": "14.15.4"
+    }
+   ],
+   "scholarship": [
+    "Wilson, 'The water-mills on the Janiculum', MAAR 45 (2000) 219-246",
+    "Bell, 'An archaeologist's revenge', in Archeologia Laziale 12 (1995)"
+   ],
+   "note": "Line of mills along the course of the aqueduct inside the Aurelian Wall near Porta Aurelia; dated here from the aqueduct (109) as the brief calls them Trajanic, though the excavated mills are early third century onward."
+  },
+  {
+   "id": "janiculum_mills_v2",
+   "monument": "janiculum_mills",
+   "name": "Water mills of the Janiculum (cut off)",
+   "from": 537,
+   "to": 9999,
+   "builder": null,
+   "template": "compound",
+   "loc": [
+    12.463,
+    41.8895
+   ],
+   "rot": 110,
+   "w": 20.0,
+   "l": 120.0,
+   "h": 4.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": 0,
+      "y": -40,
+      "w": 12,
+      "l": 10,
+      "h": 4,
+      "mat": "brick"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": -15,
+      "w": 12,
+      "l": 10,
+      "h": 4,
+      "mat": "brick"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 10,
+      "w": 12,
+      "l": 10,
+      "h": 4,
+      "mat": "brick"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 35,
+      "w": 12,
+      "l": 10,
+      "h": 4,
+      "mat": "brick"
+     }
+    ]
+   },
+   "ruin": {
+    "from": 537,
+    "state": "roofless"
+   },
+   "importance": 1,
+   "certainty": "excavated",
+   "summary": "Idle after the Goths cut the aqueduct in 537; later restorations of the Traiana (7th-8th century) may have revived some.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "De bellis",
+     "r": "5.19.8"
+    }
+   ],
+   "scholarship": [
+    "Wilson (2000)"
+   ],
+   "note": ""
+  },
+  {
+   "id": "villa_farnesina_roman_v1",
+   "monument": "villa_farnesina_roman",
+   "name": "Roman villa under the Farnesina",
+   "from": -19,
+   "to": 60,
+   "builder": null,
+   "template": "compound",
+   "loc": [
+    12.4682,
+    41.8931
+   ],
+   "rot": 135,
+   "w": 60.0,
+   "l": 80.0,
+   "h": 10.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "hemicycle",
+      "x": 0,
+      "y": 30,
+      "radius": 30,
+      "depth": 18,
+      "angle": 180,
+      "h": 7,
+      "mat": "stucco"
+     },
+     {
+      "shape": "court",
+      "x": 0,
+      "y": -5,
+      "w": 50,
+      "l": 40,
+      "h": 8,
+      "ringDepth": 8,
+      "mat": "stucco"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": -32,
+      "w": 30,
+      "l": 16,
+      "h": 10,
+      "mat": "stucco_red"
+     }
+    ]
+   },
+   "ruin": {
+    "from": 61,
+    "state": "foundations"
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "Luxurious riverside villa of the early Augustan age, probably of Agrippa and Julia, found in 1879 while building the Tiber embankment: a great hemicycle corridor facing the river and rooms with famous Third Style paintings and stuccoes, now in the Palazzo Massimo.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Bragantini and de Vos, Le decorazioni della villa romana della Farnesina (1982)",
+    "Richardson (1992) 425"
+   ],
+   "note": "Excavated under the Lungotevere east of Villa Farnesina and destroyed by the embankment; position approximate. The hemicycle faced the river (SE)."
+  },
+  {
+   "id": "castra_ravennatium_v1",
+   "monument": "castra_ravennatium",
+   "name": "Castra Ravennatium (fleet barracks)",
+   "from": 120,
+   "to": 400,
+   "builder": null,
+   "template": "compound",
+   "loc": [
+    12.4691,
+    41.8883
+   ],
+   "rot": 0,
+   "w": 90.0,
+   "l": 120.0,
+   "h": 9.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "court",
+      "x": 0,
+      "y": 0,
+      "w": 90,
+      "l": 120,
+      "h": 9,
+      "ringDepth": 12,
+      "mat": "brick"
+     }
+    ]
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "Barracks of the detachment of the Ravenna fleet stationed in Rome, listed in Regio XIV; the marines worked the awnings and the naval shows.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Notitia",
+     "w": "Regio XIV",
+     "r": "Castra Ravennatium"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 78"
+   ],
+   "note": "Placed near S. Callisto / S. Maria in Trastevere where it is usually located; plan generic."
+  },
+  {
+   "id": "tiber_island_ship_v1",
+   "monument": "tiber_island_ship",
+   "name": "Tiber Island travertine ship facing",
+   "from": -60,
+   "to": 9999,
+   "builder": null,
+   "template": "ship_island",
+   "loc": [
+    12.476986,
+    41.890772
+   ],
+   "rot": 111.7,
+   "w": 67.0,
+   "l": 270.0,
+   "h": 8.0,
+   "params": {
+    "l": 270,
+    "h": 8.0,
+    "prow": {
+     "at": "ESE tip",
+     "relief": "bust of Aesculapius and staff with serpent"
+    },
+    "mat": {
+     "walls": "travertine",
+     "core": "tufa"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "In the first century BC the downstream end of the island was faced with travertine blocks carved as the prow of a ship, recalling the vessel that brought Aesculapius' serpent from Epidaurus; an obelisk in the middle served as mast. A section with the bust of the god and his staff survives at the SE point.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Richardson (1992) 209",
+    "Claridge, Rome (2010) 252-253"
+   ],
+   "note": "Island centre and axis (111.7 deg) from OSM; length 270 m, width 67 m. rot = bow bearing, downstream (ESE). Date approximate, often linked to the Pons Fabricius (62 BC)."
+  },
+  {
+   "id": "temple_of_aesculapius_v1",
+   "monument": "temple_of_aesculapius",
+   "name": "Temple of Aesculapius (Tiber Island)",
+   "from": -291,
+   "to": 9999,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.478343,
+    41.890257
+   ],
+   "rot": 300.6,
+   "w": 16.0,
+   "l": 28.0,
+   "h": 13.0,
+   "params": {
+    "order": "ionic",
+    "plan": "prostyle",
+    "front": 4,
+    "side": 3,
+    "podium": 3.0,
+    "colH": 8.0,
+    "steps": "front",
+    "precinct": {
+     "w": 40,
+     "l": 60,
+     "h": 5,
+     "porticoes": "incubation"
+    },
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 4,
+   "certainty": "reconstructed",
+   "summary": "After a plague in 293 BC an embassy brought the sacred serpent of Asclepius from Epidaurus; it slipped ashore on the island, where the temple was dedicated on 1 January 291. Porticoes around it served as a sanatorium where the sick slept for healing dreams; Claudius ruled that slaves abandoned there became free.",
+   "phases": [
+    {
+     "y": -291,
+     "t": "dedication (Livy Per. 11)"
+    },
+    {
+     "y": 50,
+     "t": "Claudius' edict on abandoned sick slaves (Suet. Claud. 25.2)"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Periochae",
+     "r": "11"
+    },
+    {
+     "a": "Valerius Maximus",
+     "w": "Facta et dicta",
+     "r": "1.8.2"
+    },
+    {
+     "a": "Ovid",
+     "w": "Metamorphoses",
+     "r": "15.622-744"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Divus Claudius",
+     "r": "25.2"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 3",
+    "Degrassi, LTUR I (1993) 21-22"
+   ],
+   "note": "Under S. Bartolomeo (OSM centre); orientation assumed the same as the church, whose door faces WNW onto the piazza (OSM main entrance at 303 deg).",
+   "event": "aesculapius_comes_to_rome"
+  },
+  {
+   "id": "obelisk_tiber_island_v1",
+   "monument": "obelisk_tiber_island",
+   "name": "Obelisk of the Tiber Island",
+   "from": -60,
+   "to": 9999,
+   "builder": null,
+   "template": "obelisk",
+   "loc": [
+    12.477897,
+    41.890461
+   ],
+   "rot": 0,
+   "w": 1.5,
+   "l": 1.5,
+   "h": 12.0,
+   "params": {
+    "h": 10.0,
+    "base": 2.0,
+    "mat": {
+     "shaft": "granite"
+    }
+   },
+   "importance": 2,
+   "certainty": "documented",
+   "summary": "A small obelisk set in the middle of the island as the 'mast' of the stone ship; fragments are in Naples and Munich, and its place is marked by the column in Piazza di S. Bartolomeo.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Richardson (1992) 209",
+    "D'Onofrio, Gli obelischi di Roma (1992)"
+   ],
+   "note": "Height estimated from the surviving fragments."
+  },
+  {
+   "id": "temple_of_faunus_island_v1",
+   "monument": "temple_of_faunus_island",
+   "name": "Temple of Faunus (Tiber Island)",
+   "from": -194,
+   "to": 9999,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.4763,
+    41.891
+   ],
+   "rot": 290,
+   "w": 12.0,
+   "l": 18.0,
+   "h": 10.0,
+   "params": {
+    "order": "tuscan",
+    "plan": "prostyle",
+    "front": 4,
+    "side": 3,
+    "podium": 2.0,
+    "colH": 5.5,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Built by the plebeian aediles Cn. Domitius Ahenobarbus and C. Scribonius Curio from fines on graziers, dedicated in 194 BC at the upstream end of the island; Vitruvius cites it with its neighbour as prostyle.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "33.42.10; 34.53.4"
+    },
+    {
+     "a": "Vitruvius",
+     "w": "De architectura",
+     "r": "3.2.3"
+    },
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "2.193-194"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 209-210",
+    "Degrassi, LTUR (1993-2000) s.v."
+   ],
+   "note": "Placed at the upstream (WNW) end of the island; exact site unknown."
+  },
+  {
+   "id": "temple_of_veiovis_island_v1",
+   "monument": "temple_of_veiovis_island",
+   "name": "Temple of Veiovis (Tiber Island)",
+   "from": -194,
+   "to": 9999,
+   "builder": "lucius_furius_purpurio",
+   "template": "temple",
+   "loc": [
+    12.4767,
+    41.8911
+   ],
+   "rot": 290,
+   "w": 12.0,
+   "l": 18.0,
+   "h": 10.0,
+   "params": {
+    "order": "tuscan",
+    "plan": "prostyle",
+    "front": 4,
+    "side": 3,
+    "podium": 2.0,
+    "colH": 5.5,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Vowed by L. Furius Purpureo in 200 BC in Cisalpine Gaul and dedicated in 194 BC on the island; Vitruvius pairs it with the temple of Faunus as prostyle.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "31.21.12; 34.53.7"
+    },
+    {
+     "a": "Vitruvius",
+     "w": "De architectura",
+     "r": "3.2.3"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 209-210",
+    "Degrassi, LTUR (1993-2000) s.v."
+   ],
+   "note": "Often identified with Vitruvius' 'aedes Iovis' on the island; position next to Faunus conjectural."
+  },
+  {
+   "id": "shrine_of_tiberinus_v1",
+   "monument": "shrine_of_tiberinus",
+   "name": "Shrine of Tiberinus (Tiber Island)",
+   "from": -300,
+   "to": 9999,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.477,
+    41.8905
+   ],
+   "rot": 200,
+   "w": 7.0,
+   "l": 10.0,
+   "h": 6.0,
+   "params": {
+    "order": "tuscan",
+    "plan": "prostyle",
+    "front": 2,
+    "side": 3,
+    "podium": 2.0,
+    "colH": 3.3,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "Shrine of the river god Tiberinus on the island, honoured on 8 December.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Fasti Amiternini",
+     "w": "8 Dec.: Tiberino in insula"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 209-210",
+    "Degrassi, LTUR (1993-2000) s.v."
+   ],
+   "note": "Small shrine near the south bank of the island; date and form conjectural."
+  },
+  {
+   "id": "shrine_of_iuppiter_iurarius_v1",
+   "monument": "shrine_of_iuppiter_iurarius",
+   "name": "Shrine of Iuppiter Iurarius (Tiber Island)",
+   "from": -150,
+   "to": 9999,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.477676,
+    41.890863
+   ],
+   "rot": 20,
+   "w": 8.0,
+   "l": 12.0,
+   "h": 7.0,
+   "params": {
+    "order": "ionic",
+    "plan": "prostyle",
+    "front": 2,
+    "side": 3,
+    "podium": 2.0,
+    "colH": 3.9,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 1,
+   "certainty": "documented",
+   "summary": "Sanctuary of Jupiter of Oaths, known from a mosaic inscription of the late Republic found under the church of S. Giovanni Calibita.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "379"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 209-210",
+    "Degrassi, LTUR (1993-2000) s.v."
+   ],
+   "note": "Located by the mosaic found at S. Giovanni Calibita (OSM)."
+  },
+  {
+   "id": "shrine_of_semo_sancus_island_v1",
+   "monument": "shrine_of_semo_sancus_island",
+   "name": "Shrine of Semo Sancus Dius Fidius (Tiber Island)",
+   "from": -200,
+   "to": 9999,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.4773,
+    41.891
+   ],
+   "rot": 20,
+   "w": 7.0,
+   "l": 10.0,
+   "h": 6.0,
+   "params": {
+    "order": "tuscan",
+    "plan": "prostyle",
+    "front": 2,
+    "side": 3,
+    "podium": 2.0,
+    "colH": 3.3,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "A shrine of Semo Sancus on the island, known from the base dedicated 'Semoni Sanco deo fidio' found in 1574, which early Christian writers misread as a statue of Simon Magus.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "567"
+    },
+    {
+     "a": "Justin Martyr",
+     "w": "Apology",
+     "r": "1.26"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 209-210",
+    "Degrassi, LTUR (1993-2000) s.v."
+   ],
+   "note": "Find-spot near S. Bartolomeo; form conjectural."
+  }
+ ]
+}

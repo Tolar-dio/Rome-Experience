@@ -1,0 +1,1796 @@
+{
+ "buildings": [
+  {
+   "id": "column_phocas_v1",
+   "monument": "column_of_phocas",
+   "name": "Honorific column (later Column of Phocas)",
+   "from": 300,
+   "to": 607,
+   "builder": null,
+   "template": "column",
+   "loc": [
+    12.484849,
+    41.892445
+   ],
+   "rot": 114,
+   "w": 4.5,
+   "l": 4.5,
+   "h": 17.5,
+   "params": {
+    "pedestal": 3.9,
+    "shaft": 13.6,
+    "diameter": 1.4,
+    "spiral": false,
+    "statue": true,
+    "mat": {
+     "columns": "marble_white"
+    }
+   },
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "A fluted Corinthian column of the 2nd century, re-erected on a brick base in front of the Rostra, probably as one of the late-antique honorific columns of the square.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 95",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) I s.v. Columna Phocae (Giuliani and Verduchi)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": "Earlier use of the column disputed; OSM position."
+  },
+  {
+   "id": "column_phocas_v2",
+   "monument": "column_of_phocas",
+   "name": "Column of Phocas",
+   "from": 608,
+   "to": 9999,
+   "builder": "phocas",
+   "template": "column",
+   "loc": [
+    12.484849,
+    41.892445
+   ],
+   "rot": 114,
+   "w": 7.5,
+   "l": 7.5,
+   "h": 19.5,
+   "params": {
+    "pedestal": 5.5,
+    "shaft": 13.6,
+    "diameter": 1.4,
+    "spiral": false,
+    "statue": true,
+    "mat": {
+     "columns": "marble_white"
+    }
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "On 1 August 608 the exarch Smaragdus set a gilded statue of the emperor Phocas on the column and rebuilt its base as a stepped pyramid; the last monument erected in the Forum, put up for the emperor who had given the Pantheon to the pope.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "1200"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 95",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": "Column 13.6 m on a stepped base; statue removed after Phocas fell in 610."
+  },
+  {
+   "id": "equus_domitiani",
+   "monument": "equus_domitiani",
+   "name": "Equus Domitiani",
+   "from": 91,
+   "to": 96,
+   "builder": "domitian",
+   "template": "statue",
+   "loc": [
+    12.48512,
+    41.89238
+   ],
+   "rot": 114,
+   "w": 11.8,
+   "l": 5.9,
+   "h": 15.0,
+   "params": {
+    "base": 4.5,
+    "figure": 10.5,
+    "equestrian": true
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "The colossal gilded bronze equestrian statue of Domitian set up in 91 in the middle of the square, described at length by Statius; its concrete base 11.8 x 5.9 m with travertine foundation blocks was found by Boni. Destroyed after Domitian's murder and damnatio.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Statius",
+     "w": "Silvae",
+     "r": "1.1"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 144",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) II s.v. Equus Domitiani (Giuliani)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": "Horse assumed facing ESE along the square; Statius places Concord behind it."
+  },
+  {
+   "id": "equus_constantini",
+   "monument": "equus_constantini",
+   "name": "Equus Constantini",
+   "from": 334,
+   "to": 9999,
+   "builder": "constantine_i",
+   "template": "statue",
+   "loc": [
+    12.48497,
+    41.89256
+   ],
+   "rot": 114,
+   "w": 6.0,
+   "l": 3.0,
+   "h": 9.0,
+   "params": {
+    "base": 3.5,
+    "figure": 5.5,
+    "equestrian": true
+   },
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "Gilded equestrian statue of Constantine dedicated in 334 near the Rostra; the Regionary catalogues list it among the sights of Region VIII.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "1141"
+    },
+    {
+     "a": "Notitia",
+     "w": "Regio VIII"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 144",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) II s.v. Equus Constantini"
+   ],
+   "note": "Base location near the Arch of Septimius Severus approximate."
+  },
+  {
+   "id": "honorific_column_1",
+   "monument": "honorific_columns_sacra_via",
+   "name": "Honorific column 1 on the Sacra Via",
+   "from": 303,
+   "to": 9999,
+   "builder": "diocletian",
+   "template": "column",
+   "loc": [
+    12.484526,
+    41.892424
+   ],
+   "rot": 24.4,
+   "w": 3.0,
+   "l": 3.0,
+   "h": 17.0,
+   "params": {
+    "pedestal": 4.0,
+    "shaft": 11.5,
+    "diameter": 1.2,
+    "spiral": false,
+    "statue": true,
+    "mat": {
+     "columns": "granite"
+    }
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "One of seven columns of grey and pink granite on tall brick bases lining the south side of the square in front of the Basilica Julia, set up in the Tetrarchic rebuilding after the fire of 283 and carrying statues of emperors and dignitaries.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Digitales Forum Romanum (Humboldt-Universitat zu Berlin), phase reconstructions",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) I s.v. Columnae honorariae"
+   ],
+   "note": "Bases in a row c. 13 m apart; position computed from the Basilica Julia outline and the two re-erected shafts (OSM \"Colonne Onorarie\")."
+  },
+  {
+   "id": "honorific_column_2",
+   "monument": "honorific_columns_sacra_via",
+   "name": "Honorific column 2 on the Sacra Via",
+   "from": 303,
+   "to": 9999,
+   "builder": "diocletian",
+   "template": "column",
+   "loc": [
+    12.484669,
+    41.892375
+   ],
+   "rot": 24.4,
+   "w": 3.0,
+   "l": 3.0,
+   "h": 17.0,
+   "params": {
+    "pedestal": 4.0,
+    "shaft": 11.5,
+    "diameter": 1.2,
+    "spiral": false,
+    "statue": true,
+    "mat": {
+     "columns": "granite"
+    }
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "One of seven columns of grey and pink granite on tall brick bases lining the south side of the square in front of the Basilica Julia, set up in the Tetrarchic rebuilding after the fire of 283 and carrying statues of emperors and dignitaries.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Digitales Forum Romanum (Humboldt-Universitat zu Berlin), phase reconstructions",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) I s.v. Columnae honorariae"
+   ],
+   "note": "Bases in a row c. 13 m apart; position computed from the Basilica Julia outline and the two re-erected shafts (OSM \"Colonne Onorarie\")."
+  },
+  {
+   "id": "honorific_column_3",
+   "monument": "honorific_columns_sacra_via",
+   "name": "Honorific column 3 on the Sacra Via",
+   "from": 303,
+   "to": 9999,
+   "builder": "diocletian",
+   "template": "column",
+   "loc": [
+    12.484812,
+    41.892326
+   ],
+   "rot": 24.4,
+   "w": 3.0,
+   "l": 3.0,
+   "h": 17.0,
+   "params": {
+    "pedestal": 4.0,
+    "shaft": 11.5,
+    "diameter": 1.2,
+    "spiral": false,
+    "statue": true,
+    "mat": {
+     "columns": "granite"
+    }
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "One of seven columns of grey and pink granite on tall brick bases lining the south side of the square in front of the Basilica Julia, set up in the Tetrarchic rebuilding after the fire of 283 and carrying statues of emperors and dignitaries.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Digitales Forum Romanum (Humboldt-Universitat zu Berlin), phase reconstructions",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) I s.v. Columnae honorariae"
+   ],
+   "note": "Bases in a row c. 13 m apart; position computed from the Basilica Julia outline and the two re-erected shafts (OSM \"Colonne Onorarie\")."
+  },
+  {
+   "id": "honorific_column_4",
+   "monument": "honorific_columns_sacra_via",
+   "name": "Honorific column 4 on the Sacra Via",
+   "from": 303,
+   "to": 9999,
+   "builder": "diocletian",
+   "template": "column",
+   "loc": [
+    12.484955,
+    41.892278
+   ],
+   "rot": 24.4,
+   "w": 3.0,
+   "l": 3.0,
+   "h": 17.0,
+   "params": {
+    "pedestal": 4.0,
+    "shaft": 11.5,
+    "diameter": 1.2,
+    "spiral": false,
+    "statue": true,
+    "mat": {
+     "columns": "granite"
+    }
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "One of seven columns of grey and pink granite on tall brick bases lining the south side of the square in front of the Basilica Julia, set up in the Tetrarchic rebuilding after the fire of 283 and carrying statues of emperors and dignitaries.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Digitales Forum Romanum (Humboldt-Universitat zu Berlin), phase reconstructions",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) I s.v. Columnae honorariae"
+   ],
+   "note": "Bases in a row c. 13 m apart; position computed from the Basilica Julia outline and the two re-erected shafts (OSM \"Colonne Onorarie\")."
+  },
+  {
+   "id": "honorific_column_5",
+   "monument": "honorific_columns_sacra_via",
+   "name": "Honorific column 5 on the Sacra Via",
+   "from": 303,
+   "to": 9999,
+   "builder": "diocletian",
+   "template": "column",
+   "loc": [
+    12.485098,
+    41.892229
+   ],
+   "rot": 24.4,
+   "w": 3.0,
+   "l": 3.0,
+   "h": 17.0,
+   "params": {
+    "pedestal": 4.0,
+    "shaft": 11.5,
+    "diameter": 1.2,
+    "spiral": false,
+    "statue": true,
+    "mat": {
+     "columns": "granite"
+    }
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "One of seven columns of grey and pink granite on tall brick bases lining the south side of the square in front of the Basilica Julia, set up in the Tetrarchic rebuilding after the fire of 283 and carrying statues of emperors and dignitaries.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Digitales Forum Romanum (Humboldt-Universitat zu Berlin), phase reconstructions",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) I s.v. Columnae honorariae"
+   ],
+   "note": "Bases in a row c. 13 m apart; position computed from the Basilica Julia outline and the two re-erected shafts (OSM \"Colonne Onorarie\")."
+  },
+  {
+   "id": "honorific_column_6",
+   "monument": "honorific_columns_sacra_via",
+   "name": "Honorific column 6 on the Sacra Via",
+   "from": 303,
+   "to": 9999,
+   "builder": "diocletian",
+   "template": "column",
+   "loc": [
+    12.485241,
+    41.892181
+   ],
+   "rot": 24.4,
+   "w": 3.0,
+   "l": 3.0,
+   "h": 17.0,
+   "params": {
+    "pedestal": 4.0,
+    "shaft": 11.5,
+    "diameter": 1.2,
+    "spiral": false,
+    "statue": true,
+    "mat": {
+     "columns": "granite"
+    }
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "One of seven columns of grey and pink granite on tall brick bases lining the south side of the square in front of the Basilica Julia, set up in the Tetrarchic rebuilding after the fire of 283 and carrying statues of emperors and dignitaries.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Digitales Forum Romanum (Humboldt-Universitat zu Berlin), phase reconstructions",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) I s.v. Columnae honorariae"
+   ],
+   "note": "Bases in a row c. 13 m apart; position computed from the Basilica Julia outline and the two re-erected shafts (OSM \"Colonne Onorarie\")."
+  },
+  {
+   "id": "honorific_column_7",
+   "monument": "honorific_columns_sacra_via",
+   "name": "Honorific column 7 on the Sacra Via",
+   "from": 303,
+   "to": 9999,
+   "builder": "diocletian",
+   "template": "column",
+   "loc": [
+    12.485384,
+    41.892132
+   ],
+   "rot": 24.4,
+   "w": 3.0,
+   "l": 3.0,
+   "h": 17.0,
+   "params": {
+    "pedestal": 4.0,
+    "shaft": 11.5,
+    "diameter": 1.2,
+    "spiral": false,
+    "statue": true,
+    "mat": {
+     "columns": "granite"
+    }
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "One of seven columns of grey and pink granite on tall brick bases lining the south side of the square in front of the Basilica Julia, set up in the Tetrarchic rebuilding after the fire of 283 and carrying statues of emperors and dignitaries.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Digitales Forum Romanum (Humboldt-Universitat zu Berlin), phase reconstructions",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) I s.v. Columnae honorariae"
+   ],
+   "note": "Bases in a row c. 13 m apart; position computed from the Basilica Julia outline and the two re-erected shafts (OSM \"Colonne Onorarie\")."
+  },
+  {
+   "id": "decennalia_monument",
+   "monument": "decennalia_monument",
+   "name": "Five-column monument of the Tetrarchs (Decennalia)",
+   "from": 303,
+   "to": 9999,
+   "builder": "diocletian",
+   "template": "compound",
+   "loc": [
+    12.484636,
+    41.892615
+   ],
+   "rot": 115,
+   "w": 24.0,
+   "l": 4.0,
+   "h": 20.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "cylinder",
+      "x": -10,
+      "y": 0,
+      "w": 1.4,
+      "l": 1.4,
+      "h": 14,
+      "z": 3.6,
+      "mat": "granite"
+     },
+     {
+      "shape": "cylinder",
+      "x": -5,
+      "y": 0,
+      "w": 1.4,
+      "l": 1.4,
+      "h": 14,
+      "z": 3.6,
+      "mat": "granite"
+     },
+     {
+      "shape": "cylinder",
+      "x": 0,
+      "y": 0,
+      "w": 1.4,
+      "l": 1.4,
+      "h": 14,
+      "z": 3.6,
+      "mat": "marble_white"
+     },
+     {
+      "shape": "cylinder",
+      "x": 5,
+      "y": 0,
+      "w": 1.4,
+      "l": 1.4,
+      "h": 14,
+      "z": 3.6,
+      "mat": "granite"
+     },
+     {
+      "shape": "cylinder",
+      "x": 10,
+      "y": 0,
+      "w": 1.4,
+      "l": 1.4,
+      "h": 14,
+      "z": 3.6,
+      "mat": "granite"
+     }
+    ]
+   },
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "For the tenth anniversary of the Caesars and the twentieth of the Augusti in 303, five columns were raised on the Rostra: four carrying statues of the Tetrarchs and a taller central one with Jupiter. The 'Decennalia base' with sacrifice reliefs survives; the monument is shown on the Arch of Constantine.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "31262"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 95",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Kahler, Das Funfsaulendenkmal fur die Tetrarchen auf dem Forum Romanum (1964)"
+   ],
+   "note": "Columns placed on top of the Augustan Rostra (z 3.6 m)."
+  },
+  {
+   "id": "base_constantius_ii",
+   "monument": "base_constantius_ii",
+   "name": "Statue base of Constantius II",
+   "from": 353,
+   "to": 9999,
+   "builder": null,
+   "template": "statue",
+   "loc": [
+    12.484908,
+    41.892839
+   ],
+   "rot": 114,
+   "w": 3.1,
+   "l": 5.0,
+   "h": 8.0,
+   "params": {
+    "base": 3.0,
+    "figure": 5.0,
+    "equestrian": true
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "Base of an equestrian statue of Constantius II, set up after his victory over Magnentius, beside the Arch of Septimius Severus.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "1158"
+    }
+   ],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": "OSM outline."
+  },
+  {
+   "id": "columna_rostrata_duilii",
+   "monument": "columna_rostrata_duilii",
+   "name": "Columna Rostrata of C. Duilius",
+   "from": -260,
+   "to": 9999,
+   "builder": "gaius_duilius",
+   "template": "column",
+   "loc": [
+    12.48499,
+    41.89262
+   ],
+   "rot": 114,
+   "w": 2.0,
+   "l": 2.0,
+   "h": 10.0,
+   "params": {
+    "pedestal": 2.0,
+    "shaft": 8.0,
+    "diameter": 0.9,
+    "spiral": false,
+    "statue": true
+   },
+   "importance": 2,
+   "certainty": "documented",
+   "summary": "Column hung with the bronze prows of the Carthaginian ships captured by C. Duilius at Mylae in 260 BC, Rome's first naval victory; the inscription was recut under Claudius.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis historia",
+     "r": "34.20"
+    },
+    {
+     "a": "Quintilian",
+     "w": "Institutio oratoria",
+     "r": "1.7.12"
+    },
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "1300"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 95"
+   ],
+   "note": "Placed near the Rostra; exact site unknown."
+  },
+  {
+   "id": "columna_maenia",
+   "monument": "columna_maenia",
+   "name": "Columna Maenia",
+   "from": -338,
+   "to": -45,
+   "builder": "gaius_maenius",
+   "template": "column",
+   "loc": [
+    12.48476,
+    41.89302
+   ],
+   "rot": 114,
+   "w": 1.5,
+   "l": 1.5,
+   "h": 8.0,
+   "params": {
+    "pedestal": 1.5,
+    "shaft": 6.5,
+    "diameter": 0.8,
+    "spiral": false,
+    "statue": true
+   },
+   "importance": 2,
+   "certainty": "documented",
+   "summary": "Honorific column for C. Maenius, victor over the Latins in 338 BC, at the west end of the Comitium near the Carcer; petty criminals were tried in front of it by the tresviri capitales.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis historia",
+     "r": "7.212"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis historia",
+     "r": "34.20"
+    },
+    {
+     "a": "Cicero",
+     "w": "Pro Sestio",
+     "r": "124"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 96"
+   ],
+   "note": "Probably removed in the Caesarian works; site approximate."
+  },
+  {
+   "id": "lacus_curtius_v1",
+   "monument": "lacus_curtius",
+   "name": "Lacus Curtius (sacred pit)",
+   "from": -509,
+   "to": -81,
+   "builder": null,
+   "template": "altar",
+   "loc": [
+    12.485088,
+    41.892342
+   ],
+   "rot": 24,
+   "w": 7.0,
+   "l": 12.0,
+   "h": 1.0,
+   "params": {
+    "enclosure": {
+     "w": 7,
+     "l": 12,
+     "h": 0.6
+    },
+    "altar": null
+   },
+   "importance": 2,
+   "certainty": "reconstructed",
+   "summary": "A sacred pool or pit in the middle of the square, a relic of the marsh drained by the Cloaca, explained by stories of the Sabine Mettius Curtius or of the young Marcus Curtius who leapt into a chasm in 362 BC; coins were thrown into it for the emperor's health.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "7.6.1-6"
+    },
+    {
+     "a": "Varro",
+     "w": "De lingua Latina",
+     "r": "5.148-150"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Augustus",
+     "r": "57.1"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 229-230",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) III s.v. Lacus Curtius (Giuliani)"
+   ],
+   "note": "OSM outline."
+  },
+  {
+   "id": "lacus_curtius_v2",
+   "monument": "lacus_curtius",
+   "name": "Lacus Curtius (paved enclosure)",
+   "from": -80,
+   "to": 9999,
+   "builder": null,
+   "template": "altar",
+   "loc": [
+    12.485088,
+    41.892342
+   ],
+   "rot": 24,
+   "w": 7.0,
+   "l": 12.0,
+   "h": 1.0,
+   "params": {
+    "enclosure": {
+     "w": 7,
+     "l": 12,
+     "h": 0.9
+    },
+    "altar": {
+     "w": 1.2,
+     "l": 1.2,
+     "h": 1.0
+    }
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "Paved over in the Sullan and Augustan repavings as a trapezoidal enclosure with a balustrade and an altar; a relief of Curtius on horseback was found here.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "7.6.1-6"
+    },
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "6.403-404"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 230",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": ""
+  },
+  {
+   "id": "sacellum_cloacinae",
+   "monument": "sacellum_cloacinae",
+   "name": "Shrine of Venus Cloacina",
+   "from": -509,
+   "to": 9999,
+   "builder": null,
+   "template": "tholos",
+   "loc": [
+    12.485444,
+    41.892559
+   ],
+   "rot": 212.5,
+   "w": 4.0,
+   "l": 4.0,
+   "h": 3.0,
+   "params": {
+    "diameter": 4.0,
+    "columns": 0,
+    "colH": 1.2,
+    "podium": 1.5,
+    "roof": "flat",
+    "order": "tuscan"
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "The small round shrine of Venus of the Cloaca where the great drain entered the Forum, a balustraded platform with two cult statues shown on coins of 42 BC; the Romans and Sabines were said to have purified themselves here with myrtle.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis historia",
+     "r": "15.119"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "3.48.5"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 92",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) I s.v. Cloacina, sacrum"
+   ],
+   "note": "OSM outline in front of the Basilica Aemilia."
+  },
+  {
+   "id": "umbilicus_urbis",
+   "monument": "umbilicus_urbis",
+   "name": "Umbilicus Urbis Romae",
+   "from": 203,
+   "to": 9999,
+   "builder": "septimius_severus",
+   "template": "mausoleum",
+   "loc": [
+    12.484589,
+    41.892721
+   ],
+   "rot": 114,
+   "w": 4.4,
+   "l": 4.4,
+   "h": 4.0,
+   "params": {
+    "diameter": 4.4,
+    "drumH": 3.0,
+    "tumulusH": 0,
+    "tiers": 3,
+    "base": null,
+    "statue": false
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "A round brick monument in three tiers beside the Arch of Septimius Severus, marking the notional centre of the city; it may cover the older mundus, the pit opened three days a year to the underworld.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Notitia",
+     "w": "Regio VIII"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 400",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) V s.v. Umbilicus Romae (Verduchi)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": "OSM outline; Severan date from its relation to the arch."
+  },
+  {
+   "id": "miliarium_aureum",
+   "monument": "miliarium_aureum",
+   "name": "Miliarium Aureum",
+   "from": -20,
+   "to": 9999,
+   "builder": "augustus",
+   "template": "column",
+   "loc": [
+    12.484382,
+    41.892578
+   ],
+   "rot": 114,
+   "w": 1.2,
+   "l": 1.2,
+   "h": 4.5,
+   "params": {
+    "pedestal": 1.5,
+    "shaft": 3.0,
+    "diameter": 1.2,
+    "spiral": false,
+    "statue": false,
+    "mat": {
+     "columns": "gilded"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "The Golden Milestone set up by Augustus in 20 BC as curator of roads at the head of the Forum near the Temple of Saturn: a marble column sheathed in gilt bronze listing the distances to the main cities of the empire.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "54.8.4"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis historia",
+     "r": "3.66"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Historiae",
+     "r": "1.27"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 254",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) III s.v. Miliarium Aureum",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": "OSM marks the base fragments at the S end of the Rostra."
+  },
+  {
+   "id": "ianus_geminus",
+   "monument": "temple_of_janus_geminus",
+   "name": "Ianus Geminus",
+   "from": -509,
+   "to": 9999,
+   "builder": "numa_pompilius",
+   "template": "arch",
+   "loc": [
+    12.48558,
+    41.89288
+   ],
+   "rot": 122,
+   "w": 4.5,
+   "l": 6.5,
+   "h": 6.5,
+   "params": {
+    "bays": 1,
+    "depth": 6.5,
+    "atticH": 1.0,
+    "columns": "none",
+    "quadriga": false,
+    "mat": {
+     "walls": "bronze"
+    }
+   },
+   "importance": 3,
+   "certainty": "documented",
+   "summary": "The small bronze shrine of Janus at the entrance of the Argiletum, a double gateway whose doors stood open in war and were shut in peace: closed only twice before Augustus, who shut it three times. Procopius saw it still standing, all of bronze, in the 6th century.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "1.19.2"
+    },
+    {
+     "a": "Augustus",
+     "w": "Res Gestae",
+     "r": "13"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Nero",
+     "r": "13.2"
+    },
+    {
+     "a": "Procopius",
+     "w": "De bello Gothico",
+     "r": "1.25.18-23"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 207-208",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) III s.v. Ianus Geminus, aedes (Tortorici)"
+   ],
+   "note": "Position between the Curia and the Basilica Aemilia at the mouth of the Argiletum; form from Neronian coins."
+  },
+  {
+   "id": "domitianic_vestibule",
+   "monument": "domitianic_vestibule",
+   "name": "Domitianic vestibule hall and ramp to the Palatine",
+   "from": 90,
+   "to": 9999,
+   "builder": "domitian",
+   "template": "compound",
+   "loc": [
+    12.485294,
+    41.891399
+   ],
+   "rot": 25,
+   "w": 45.0,
+   "l": 65.0,
+   "h": 28.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 24.5,
+      "l": 32.5,
+      "h": 28,
+      "z": 0,
+      "mat": "brick"
+     },
+     {
+      "shape": "box",
+      "x": -20,
+      "y": -15,
+      "w": 9,
+      "l": 60,
+      "h": 18,
+      "z": 0,
+      "mat": "brick"
+     }
+    ]
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "Domitian built a monumental entrance to the palace at the Forum level: a huge brick hall (once called the Temple of Augustus) with walls still over 20 m high, and beside it a covered ramp climbing in seven flights to the Domus Tiberiana.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Martial",
+     "w": "Epigrammata",
+     "r": "4.5"
+    }
+   ],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) II s.v. Domus Tiberiana (Krause)",
+    "Hurst, in Papers of the British School at Rome (2006)"
+   ],
+   "note": "Hall position from the OSM label \"Tempio di Augusto\"; ramp block to its west along the Palatine slope."
+  },
+  {
+   "id": "santa_maria_antiqua_v1",
+   "monument": "santa_maria_antiqua",
+   "name": "Domitianic atrium hall (later Santa Maria Antiqua)",
+   "from": 90,
+   "to": 549,
+   "builder": "domitian",
+   "template": "compound",
+   "loc": [
+    12.485569,
+    41.890918
+   ],
+   "rot": 25.8,
+   "w": 26.0,
+   "l": 38.0,
+   "h": 15.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "court",
+      "x": 0,
+      "y": 8,
+      "w": 26,
+      "l": 18,
+      "h": 12,
+      "ringDepth": 5,
+      "z": 0,
+      "mat": "brick"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": -10,
+      "w": 26,
+      "l": 18,
+      "h": 15,
+      "z": 0,
+      "mat": "brick"
+     }
+    ]
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "Part of Domitian's Forum vestibule to the palace: a quadriporticus atrium and an inner hall with rooms, perhaps a guard station.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Osborne, Brandt and Morganti (eds.), Santa Maria Antiqua al Foro Romano cento anni dopo (2004)"
+   ],
+   "note": "OSM outline; entrance on the Forum side (NNE)."
+  },
+  {
+   "id": "santa_maria_antiqua_v2",
+   "monument": "santa_maria_antiqua",
+   "name": "Santa Maria Antiqua",
+   "from": 550,
+   "to": 9999,
+   "builder": null,
+   "template": "church",
+   "loc": [
+    12.485569,
+    41.890918
+   ],
+   "rot": 25.8,
+   "w": 26.0,
+   "l": 38.0,
+   "h": 15.0,
+   "params": {
+    "nave": 10,
+    "aisles": 1,
+    "transept": false,
+    "apse": true,
+    "atrium": {
+     "w": 26,
+     "l": 14
+    },
+    "narthex": false
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "In the mid 6th century the Domitianic hall was converted into a church, the oldest Marian church in the Forum, with a cut apse and layer upon layer of frescoes (the 'palimpsest wall') from the 6th to the 8th century. It was buried by an earthquake in 847.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "John VII"
+    }
+   ],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2nd ed. 2014)",
+    "Osborne, Brandt and Morganti (eds.), Santa Maria Antiqua al Foro Romano cento anni dopo (2004)"
+   ],
+   "note": "Conversion date c. 550 approximate (Byzantine administration after the Gothic War)."
+  },
+  {
+   "id": "oratory_forty_martyrs",
+   "monument": "oratory_forty_martyrs",
+   "name": "Oratory of the Forty Martyrs",
+   "from": 600,
+   "to": 9999,
+   "builder": null,
+   "template": "compound",
+   "loc": [
+    12.485908,
+    41.891331
+   ],
+   "rot": 25,
+   "w": 16.0,
+   "l": 15.0,
+   "h": 10.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 16,
+      "l": 15,
+      "h": 10,
+      "z": 0,
+      "mat": "brick"
+     }
+    ]
+   },
+   "importance": 2,
+   "certainty": "reconstructed",
+   "summary": "A room of the imperial buildings at the foot of the Palatine beside the Lacus Iuturnae turned into an oratory painted with the martyrs of Sebaste freezing in the lake.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": "OSM outline; conversion date in the 6th-7th century approximate."
+  },
+  {
+   "id": "horrea_agrippiana",
+   "monument": "horrea_agrippiana",
+   "name": "Horrea Agrippiana",
+   "from": -20,
+   "to": 9999,
+   "begun": -33,
+   "builder": "agrippa",
+   "template": "horrea",
+   "loc": [
+    12.485017,
+    41.890829
+   ],
+   "rot": 43.6,
+   "w": 46.8,
+   "l": 52.4,
+   "h": 14.0,
+   "footprint": [
+    [
+     12.485103,
+     41.890553
+    ],
+    [
+     12.485048,
+     41.890515
+    ],
+    [
+     12.484866,
+     41.890694
+    ],
+    [
+     12.484797,
+     41.890741
+    ],
+    [
+     12.484778,
+     41.890848
+    ],
+    [
+     12.484714,
+     41.890871
+    ],
+    [
+     12.484692,
+     41.890907
+    ],
+    [
+     12.48498,
+     41.891144
+    ],
+    [
+     12.485441,
+     41.890819
+    ],
+    [
+     12.485103,
+     41.890553
+    ]
+   ],
+   "params": {
+    "court": {
+     "w": 24,
+     "l": 30
+    },
+    "storeys": 3,
+    "mat": {
+     "walls": "tufa",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "Warehouse built by Agrippa on the Vicus Tuscus between the Forum and the Velabrum: three storeys of rooms around a courtyard with a shrine to the genius of the horrea, of travertine and tufa with later brick rebuildings.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "10026"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 192",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) III s.v. Horrea Agrippiana (Astolfi)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": "OSM outline; entrance assumed on the Vicus Tuscus."
+  },
+  {
+   "id": "porticus_margaritaria",
+   "monument": "porticus_margaritaria",
+   "name": "Porticus Margaritaria",
+   "from": 90,
+   "to": 9999,
+   "builder": null,
+   "template": "porticus",
+   "loc": [
+    12.487567,
+    41.891083
+   ],
+   "rot": 22.9,
+   "w": 73.0,
+   "l": 54.0,
+   "h": 10.0,
+   "footprint": [
+    [
+     12.487112,
+     41.890962
+    ],
+    [
+     12.487845,
+     41.890728
+    ],
+    [
+     12.48789,
+     41.890806
+    ],
+    [
+     12.487852,
+     41.890816
+    ],
+    [
+     12.48792,
+     41.890949
+    ],
+    [
+     12.48776,
+     41.891001
+    ],
+    [
+     12.48779,
+     41.891045
+    ],
+    [
+     12.487729,
+     41.891068
+    ],
+    [
+     12.487824,
+     41.891224
+    ],
+    [
+     12.487605,
+     41.891298
+    ],
+    [
+     12.487585,
+     41.891276
+    ],
+    [
+     12.487478,
+     41.891308
+    ],
+    [
+     12.487504,
+     41.891352
+    ],
+    [
+     12.487307,
+     41.891432
+    ],
+    [
+     12.487274,
+     41.891415
+    ],
+    [
+     12.487171,
+     41.891233
+    ],
+    [
+     12.487201,
+     41.891225
+    ],
+    [
+     12.487049,
+     41.89098
+    ],
+    [
+     12.487112,
+     41.890962
+    ]
+   ],
+   "params": {
+    "depth": 6,
+    "colH": 7.0,
+    "double": true,
+    "garden": false
+   },
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "The pearl-sellers' market on the Sacra Via: a courtyard building with shops behind double porticoes, identified by Coarelli with the large structure south of the Sacra Via east of the House of the Vestals (on maps the 'Horrea Vespasiani').",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Notitia",
+     "w": "Regio VIII"
+    },
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "9207"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 314",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) IV s.v. Porticus Margaritaria (Coarelli)"
+   ],
+   "note": "Identification and date conjectural; footprint from the OSM excavated outline."
+  },
+  {
+   "id": "temple_jupiter_stator_v1",
+   "monument": "temple_of_jupiter_stator_palatine",
+   "name": "Temple of Jupiter Stator",
+   "from": -294,
+   "to": 64,
+   "builder": "marcus_atilius_regulus_cos294",
+   "template": "temple",
+   "loc": [
+    12.48812,
+    41.89042
+   ],
+   "rot": 22.9,
+   "w": 14.0,
+   "l": 24.0,
+   "h": 14.8,
+   "params": {
+    "order": "tuscan",
+    "plan": "prostyle",
+    "front": 4,
+    "side": 3,
+    "podium": 3.0,
+    "colH": 8.0,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "conjectural",
+   "summary": "The temple of Jupiter the Stayer, on the spot where Romulus vowed it when the Romans fled before the Sabines, built by M. Atilius Regulus in 294 BC at the old Mugonian gate of the Palatine. Cicero delivered the First Catilinarian here in 63 BC.",
+   "phases": [
+    {
+     "y": -63,
+     "t": "Cicero's First Catilinarian"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "1.12.3-6"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "10.37.15"
+    },
+    {
+     "a": "Cicero",
+     "w": "In Catilinam",
+     "r": "1.11"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annales",
+     "r": "15.41"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 225",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) III s.v. Iuppiter Stator, aedes (Coarelli)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2nd ed. 2014)"
+   ],
+   "note": "Coarelli places it on the podium SW of the Arch of Titus at the start of the Clivus Palatinus; others identify it with the \"Temple of Romulus\". Burned in 64."
+  },
+  {
+   "id": "temple_jupiter_stator_v2",
+   "monument": "temple_of_jupiter_stator_palatine",
+   "name": "Temple of Jupiter Stator (rebuilt)",
+   "from": 70,
+   "to": 9999,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.48812,
+    41.89042
+   ],
+   "rot": 22.9,
+   "w": 15.0,
+   "l": 25.0,
+   "h": 17.4,
+   "params": {
+    "order": "corinthian",
+    "plan": "prostyle",
+    "front": 6,
+    "side": 3,
+    "podium": 3.0,
+    "colH": 10.0,
+    "steps": "front",
+    "mat": {
+     "podium": "concrete_faced",
+     "columns": "marble_white",
+     "walls": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "conjectural",
+   "summary": "Rebuilt after the fire of 64; it appears in the Regionary catalogues of Region IV.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Notitia",
+     "w": "Regio IV"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 225"
+   ],
+   "note": ""
+  },
+  {
+   "id": "aedes_larum_v1",
+   "monument": "aedes_larum",
+   "name": "Temple of the Lares (summa Sacra Via)",
+   "from": -509,
+   "to": -5,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.48838,
+    41.8909
+   ],
+   "rot": 292.6,
+   "w": 6.0,
+   "l": 9.0,
+   "h": 6.0,
+   "params": {
+    "order": "tuscan",
+    "plan": "in_antis",
+    "front": 2,
+    "side": 1,
+    "podium": 1.2,
+    "colH": 3.5,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Shrine of the Lares Praestites at the top of the Sacra Via.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Solinus",
+     "w": "Collectanea",
+     "r": "1.23"
+    },
+    {
+     "a": "Varro",
+     "w": "De lingua Latina",
+     "r": "5.54"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 231"
+   ],
+   "note": "Site near the later Arch of Titus conjectural."
+  },
+  {
+   "id": "aedes_larum_v2",
+   "monument": "aedes_larum",
+   "name": "Temple of the Lares (Augustan)",
+   "from": -4,
+   "to": 9999,
+   "builder": "augustus",
+   "template": "temple",
+   "loc": [
+    12.48838,
+    41.8909
+   ],
+   "rot": 292.6,
+   "w": 8.0,
+   "l": 12.0,
+   "h": 8.0,
+   "params": {
+    "order": "corinthian",
+    "plan": "prostyle",
+    "front": 4,
+    "side": 2,
+    "podium": 1.5,
+    "colH": 5.0,
+    "steps": "front",
+    "mat": {
+     "podium": "travertine",
+     "columns": "marble_white",
+     "walls": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Rebuilt by Augustus, who lists the 'aedes Larum in summa sacra via' among his works.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Augustus",
+     "w": "Res Gestae",
+     "r": "19"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 231"
+   ],
+   "note": ""
+  },
+  {
+   "id": "archaic_houses_sacra_via",
+   "monument": "archaic_houses_sacra_via",
+   "name": "Archaic aristocratic houses on the Sacra Via",
+   "from": -509,
+   "to": -211,
+   "builder": null,
+   "template": "domus",
+   "loc": [
+    12.4878,
+    41.89085
+   ],
+   "rot": 22.9,
+   "w": 25.0,
+   "l": 35.0,
+   "h": 7.0,
+   "params": {
+    "atrium": true,
+    "peristyle": null,
+    "storeys": 1,
+    "mat": {
+     "walls": "mudbrick",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "reconstructed",
+   "summary": "Carandini's excavations on the north slope of the Palatine found four large atrium houses of about 530 BC along the Sacra Via below the old Palatine wall, rebuilt repeatedly until the late Republic: the earliest known Roman domus.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Carandini (ed.), The Atlas of Ancient Rome (2017)",
+    "Carandini and Carafa (eds.), Palatium e Sacra Via I (1995)"
+   ],
+   "note": "One representative house; the group stretched between the Atrium Vestae and the Arch of Titus."
+  },
+  {
+   "id": "house_of_scaurus",
+   "monument": "house_of_scaurus",
+   "name": "House of M. Aemilius Scaurus",
+   "from": -58,
+   "to": 64,
+   "builder": null,
+   "template": "domus",
+   "loc": [
+    12.488205,
+    41.890801
+   ],
+   "rot": 22.8,
+   "w": 41.0,
+   "l": 45.0,
+   "h": 10.0,
+   "params": {
+    "atrium": true,
+    "peristyle": {
+     "w": 20,
+     "l": 16
+    },
+    "storeys": 2
+   },
+   "importance": 2,
+   "certainty": "reconstructed",
+   "summary": "The great house of the aedile of 58 BC on the north slope of the Palatine, whose atrium had four columns of Lucullan marble 38 feet high taken from his temporary theatre; Clodius later bought it. Its basement slave quarters were excavated.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis historia",
+     "r": "36.6"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis historia",
+     "r": "36.113-115"
+    },
+    {
+     "a": "Asconius",
+     "w": "In Scaurianam",
+     "r": "27C"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 125",
+    "Carandini (ed.), The Atlas of Ancient Rome (2017)"
+   ],
+   "note": "OSM \"Casa di Marco Emilio Scauro\"."
+  },
+  {
+   "id": "house_of_cicero_v1",
+   "monument": "house_of_cicero",
+   "name": "House of Cicero",
+   "from": -62,
+   "to": -58,
+   "builder": null,
+   "template": "domus",
+   "loc": [
+    12.48745,
+    41.89055
+   ],
+   "rot": 22.9,
+   "w": 25.0,
+   "l": 35.0,
+   "h": 9.0,
+   "params": {
+    "atrium": true,
+    "peristyle": {
+     "w": 14,
+     "l": 12
+    },
+    "storeys": 2
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Bought by Cicero from Crassus in 62 BC for 3.5 million sesterces, on the slope of the Palatine above the Forum 'in view of almost the whole city'. Clodius demolished it in 58 BC when Cicero went into exile.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Cicero",
+     "w": "Ad familiares",
+     "r": "5.6.2"
+    },
+    {
+     "a": "Cicero",
+     "w": "De domo sua",
+     "r": "100-116"
+    },
+    {
+     "a": "Velleius Paterculus",
+     "w": "Historia Romana",
+     "r": "2.14.3"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 123",
+    "Carandini (ed.), The Atlas of Ancient Rome (2017)"
+   ],
+   "note": "Carandini places it on the N slope near the House of Scaurus; site conjectural."
+  },
+  {
+   "id": "shrine_libertas_clodius",
+   "monument": "shrine_libertas_clodius",
+   "name": "Shrine of Libertas of Clodius",
+   "from": -58,
+   "to": -57,
+   "builder": "clodius",
+   "template": "temple",
+   "loc": [
+    12.487539,
+    41.890522
+   ],
+   "rot": 22.9,
+   "w": 8.0,
+   "l": 12.0,
+   "h": 7.0,
+   "params": {
+    "order": "ionic",
+    "plan": "prostyle",
+    "front": 4,
+    "side": 2,
+    "podium": 1.5,
+    "colH": 4.5,
+    "steps": "front"
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "Clodius consecrated part of Cicero's site to Liberty with a statue said to be a Tanagran courtesan's tomb figure; the pontiffs annulled the dedication in 57 BC after Cicero's speech De domo sua.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Cicero",
+     "w": "De domo sua",
+     "r": "108-112"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "38.17.6"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 233"
+   ],
+   "note": ""
+  },
+  {
+   "id": "house_of_cicero_v2",
+   "monument": "house_of_cicero",
+   "name": "House of Cicero (rebuilt)",
+   "from": -57,
+   "to": -43,
+   "builder": null,
+   "template": "domus",
+   "loc": [
+    12.48745,
+    41.89055
+   ],
+   "rot": 22.9,
+   "w": 25.0,
+   "l": 35.0,
+   "h": 9.0,
+   "params": {
+    "atrium": true,
+    "peristyle": {
+     "w": 14,
+     "l": 12
+    },
+    "storeys": 2
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Rebuilt at public expense after Cicero's return; confiscated after his murder in 43 BC.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Cicero",
+     "w": "Ad Atticum",
+     "r": "4.2.5"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 123"
+   ],
+   "note": ""
+  }
+ ]
+}

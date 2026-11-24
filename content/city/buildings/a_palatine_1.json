@@ -1,0 +1,2330 @@
+{
+ "buildings": [
+  {
+   "id": "casa_romuli",
+   "monument": "casa_romuli",
+   "name": "Casa Romuli (Hut of Romulus)",
+   "from": -509,
+   "to": 400,
+   "builder": "romulus",
+   "template": "hut",
+   "loc": [
+    12.484868,
+    41.889267
+   ],
+   "rot": 42,
+   "w": 4.9,
+   "l": 3.6,
+   "h": 4.5,
+   "params": {
+    "diameter": 4.9,
+    "w": 4.9,
+    "l": 3.6,
+    "mat": {
+     "walls": "mudbrick",
+     "roof": "thatch"
+    }
+   },
+   "importance": 4,
+   "certainty": "reconstructed",
+   "summary": "A wattle-and-daub hut with a thatched roof on the Germalus, kept up and rebuilt in the same form as the house of Romulus; burned in 38 and 12 BC and renewed each time, still listed in the 4th-century Regionary catalogue. Postholes of three Iron Age huts of the 8th century BC were found beside the Scalae Caci.",
+   "phases": [
+    {
+     "y": -38,
+     "t": "burned during a sacrifice and rebuilt"
+    },
+    {
+     "y": -12,
+     "t": "burned again and rebuilt"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Antiquitates Romanae",
+     "r": "1.79.11"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "48.43.4"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "54.29.8"
+    },
+    {
+     "a": "Notitia",
+     "w": "Regio X"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 74",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) I s.v. Casa Romuli (Balland)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2nd ed. 2014)",
+    "Carandini (ed.), The Atlas of Ancient Rome (2017)",
+    "Tomei, Il Palatino (1997)"
+   ],
+   "note": "Hut A of the excavated group (4.9 x 3.6 m) used for the dimensions; OSM \"Capanne Romulee\"."
+  },
+  {
+   "id": "lupercal_v1",
+   "monument": "lupercal",
+   "name": "Lupercal",
+   "from": -509,
+   "to": -31,
+   "builder": null,
+   "template": "altar",
+   "loc": [
+    12.4849,
+    41.8884
+   ],
+   "rot": 225,
+   "w": 8.0,
+   "l": 6.0,
+   "h": 3.0,
+   "params": {
+    "enclosure": {
+     "w": 8,
+     "l": 6,
+     "h": 3
+    },
+    "altar": {
+     "w": 1.5,
+     "l": 1.5,
+     "h": 1
+    }
+   },
+   "importance": 3,
+   "certainty": "conjectural",
+   "summary": "The cave at the foot of the SW Palatine where the she-wolf suckled the twins, with a spring and a sacred fig, starting point of the Lupercalia run; a bronze wolf with the twins was set up here by the Ogulnii in 296 BC.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Antiquitates Romanae",
+     "r": "1.32.3-5"
+    },
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Antiquitates Romanae",
+     "r": "1.79.8"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "10.23.12"
+    },
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "2.381-424"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 238",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) III s.v. Lupercal (Coarelli)"
+   ],
+   "note": "Exact site unknown; the vaulted nymphaeum found in 2007 below the House of Augustus is disputed."
+  },
+  {
+   "id": "lupercal_v2",
+   "monument": "lupercal",
+   "name": "Lupercal (Augustan)",
+   "from": -30,
+   "to": 9999,
+   "builder": "augustus",
+   "template": "altar",
+   "loc": [
+    12.4849,
+    41.8884
+   ],
+   "rot": 225,
+   "w": 8.0,
+   "l": 6.0,
+   "h": 3.5,
+   "params": {
+    "enclosure": {
+     "w": 8,
+     "l": 6,
+     "h": 3.5
+    },
+    "altar": {
+     "w": 1.5,
+     "l": 1.5,
+     "h": 1
+    }
+   },
+   "importance": 3,
+   "certainty": "conjectural",
+   "summary": "Restored by Augustus as part of his Palatine programme. The Lupercalia were celebrated until Pope Gelasius suppressed them in 494.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Augustus",
+     "w": "Res Gestae",
+     "r": "19"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 238"
+   ],
+   "note": ""
+  },
+  {
+   "id": "temple_victoria_v1",
+   "monument": "temple_of_victoria",
+   "name": "Temple of Victoria",
+   "from": -294,
+   "to": -31,
+   "begun": -307,
+   "builder": "lucius_postumius_megellus",
+   "template": "temple",
+   "loc": [
+    12.48525,
+    41.88924
+   ],
+   "rot": 215,
+   "w": 19.0,
+   "l": 33.0,
+   "h": 17.7,
+   "params": {
+    "order": "tuscan",
+    "plan": "peripteros_sine_postico",
+    "front": 6,
+    "side": 7,
+    "podium": 4.0,
+    "colH": 9.0,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "tufa",
+     "walls": "tufa",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 4,
+   "certainty": "reconstructed",
+   "summary": "Built by L. Postumius Megellus from fines collected as aedile and dedicated on 1 August 294 BC as consul: the first hexastyle temple with lateral colonnades since the Capitoline temple, perhaps the first with stone columns and a closed sculpted pediment, on a podium 33 x 19 m at the brow of the hill above the Lupercal, the Palatine counterpart of Jupiter on the Capitol. The black stone of the Magna Mater was kept in it from 204 to 191 BC.",
+   "phases": [
+    {
+     "y": -204,
+     "t": "sacred stone of Magna Mater housed here"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "10.33.9"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "29.14.13"
+    },
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Antiquitates Romanae",
+     "r": "1.32.5"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 420",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) V s.v. Victoria, aedes (Pensabene)",
+    "Pensabene, in Archeologia Laziale 9 (1988)",
+    "Haselberger et al., Mapping Augustan Rome (2002) / Digital Augustan Rome"
+   ],
+   "note": "Position SE of the Magna Mater temple on the basis of Pensabene's plan; independent orientation estimated. Location approximate."
+  },
+  {
+   "id": "temple_victoria_v2",
+   "monument": "temple_of_victoria",
+   "name": "Temple of Victoria (late Republican restoration)",
+   "from": -30,
+   "to": 9999,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.48525,
+    41.88924
+   ],
+   "rot": 215,
+   "w": 19.0,
+   "l": 33.0,
+   "h": 19.0,
+   "params": {
+    "order": "corinthian",
+    "plan": "peripteros_sine_postico",
+    "front": 6,
+    "side": 7,
+    "podium": 4.0,
+    "colH": 10.0,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "travertine",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "Restored in the third quarter of the 1st century BC with travertine Corinthian columns and an internal colonnade in the cella, on the old plan.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "10.33.9"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "29.14.13"
+    },
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Antiquitates Romanae",
+     "r": "1.32.5"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 420",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) V s.v. Victoria, aedes (Pensabene)",
+    "Pensabene, in Archeologia Laziale 9 (1988)",
+    "Haselberger et al., Mapping Augustan Rome (2002) / Digital Augustan Rome"
+   ],
+   "note": ""
+  },
+  {
+   "id": "temple_victoria_virgo",
+   "monument": "temple_of_victoria_virgo",
+   "name": "Shrine of Victoria Virgo",
+   "from": -193,
+   "to": 9999,
+   "builder": "cato_the_elder",
+   "template": "temple",
+   "loc": [
+    12.485211,
+    41.889498
+   ],
+   "rot": 209.5,
+   "w": 10.0,
+   "l": 17.0,
+   "h": 10.8,
+   "params": {
+    "order": "tuscan",
+    "plan": "prostyle",
+    "front": 4,
+    "side": 2,
+    "podium": 2.0,
+    "colH": 6.0,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "reconstructed",
+   "summary": "Shrine dedicated by Cato the Elder in 193 BC next to the temple of Victory; Coarelli identified it with the small building long called the Auguratorium, aligned with the Magna Mater.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "35.9.6"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 421",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) V s.v. Victoria Virgo (Coarelli)"
+   ],
+   "note": "OSM \"Auguratorium\" outline."
+  },
+  {
+   "id": "temple_magna_mater_v1",
+   "monument": "temple_of_magna_mater",
+   "name": "Temple of Magna Mater",
+   "from": -191,
+   "to": -112,
+   "begun": -204,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.484978,
+    41.889492
+   ],
+   "rot": 203.1,
+   "w": 17.0,
+   "l": 33.0,
+   "h": 20.1,
+   "params": {
+    "order": "tuscan",
+    "plan": "prostyle",
+    "front": 6,
+    "side": 3,
+    "podium": 6.0,
+    "colH": 9.5,
+    "steps": "front_full",
+    "mat": {
+     "podium": "tufa",
+     "columns": "tufa",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "Begun in 204 BC for the black stone of the Phrygian Mother brought from Pessinus at the Sibyl's bidding to drive Hannibal from Italy, and dedicated by M. Iunius Brutus on 10 April 191; its broad stair served as seating for the plays of the Megalesia performed on the platform below.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "29.37.2"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "36.36.3-5"
+    },
+    {
+     "a": "Valerius Maximus",
+     "w": "Facta et dicta",
+     "r": "1.8.11"
+    },
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "4.347-348"
+    },
+    {
+     "a": "Augustus",
+     "w": "Res Gestae",
+     "r": "19"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 242-243",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) III s.v. Magna Mater, aedes (Pensabene)",
+    "Pensabene, in Archeologia Laziale (1985, 1988)",
+    "Haselberger et al., Mapping Augustan Rome (2002) / Digital Augustan Rome"
+   ],
+   "note": "OSM outline; facade toward the SW piazza (203)."
+  },
+  {
+   "id": "temple_magna_mater_v2",
+   "monument": "temple_of_magna_mater",
+   "name": "Temple of Magna Mater (rebuilt after 111 BC)",
+   "from": -110,
+   "to": 3,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.484978,
+    41.889492
+   ],
+   "rot": 203.1,
+   "w": 17.0,
+   "l": 33.0,
+   "h": 21.2,
+   "params": {
+    "order": "corinthian",
+    "plan": "prostyle",
+    "front": 6,
+    "side": 3,
+    "podium": 6.0,
+    "colH": 10,
+    "steps": "front_full",
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "Burned in 111 BC and rebuilt on a higher concrete podium, with a basin for ritual ablutions at the foot of the stair.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "29.37.2"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "36.36.3-5"
+    },
+    {
+     "a": "Valerius Maximus",
+     "w": "Facta et dicta",
+     "r": "1.8.11"
+    },
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "4.347-348"
+    },
+    {
+     "a": "Augustus",
+     "w": "Res Gestae",
+     "r": "19"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 242-243",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) III s.v. Magna Mater, aedes (Pensabene)",
+    "Pensabene, in Archeologia Laziale (1985, 1988)",
+    "Haselberger et al., Mapping Augustan Rome (2002) / Digital Augustan Rome"
+   ],
+   "note": "Rebuilding date after 111 BC approximate."
+  },
+  {
+   "id": "temple_magna_mater_v3",
+   "monument": "temple_of_magna_mater",
+   "name": "Temple of Magna Mater (Augustan)",
+   "from": 4,
+   "to": 9999,
+   "builder": "augustus",
+   "template": "temple",
+   "loc": [
+    12.484978,
+    41.889492
+   ],
+   "rot": 203.1,
+   "w": 17.0,
+   "l": 33.0,
+   "h": 22.5,
+   "params": {
+    "order": "corinthian",
+    "plan": "prostyle",
+    "front": 6,
+    "side": 3,
+    "podium": 6.0,
+    "colH": 11,
+    "steps": "front_full",
+    "mat": {
+     "podium": "concrete_faced",
+     "columns": "marble_white",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "Burned again in AD 3 and rebuilt by Augustus as a hexastyle Corinthian prostyle temple, shown on the Villa Medici relief with the goddess' throne in the pediment; the cult lasted to the end of paganism.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "29.37.2"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "36.36.3-5"
+    },
+    {
+     "a": "Valerius Maximus",
+     "w": "Facta et dicta",
+     "r": "1.8.11"
+    },
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "4.347-348"
+    },
+    {
+     "a": "Augustus",
+     "w": "Res Gestae",
+     "r": "19"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 242-243",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) III s.v. Magna Mater, aedes (Pensabene)",
+    "Pensabene, in Archeologia Laziale (1985, 1988)",
+    "Haselberger et al., Mapping Augustan Rome (2002) / Digital Augustan Rome"
+   ],
+   "note": ""
+  },
+  {
+   "id": "house_of_livia",
+   "monument": "house_of_livia",
+   "name": "House of Livia",
+   "from": -75,
+   "to": 92,
+   "builder": null,
+   "template": "domus",
+   "loc": [
+    12.485739,
+    41.889211
+   ],
+   "rot": 41.6,
+   "w": 40.0,
+   "l": 23.0,
+   "h": 8.0,
+   "footprint": [
+    [
+     12.485852,
+     41.88927
+    ],
+    [
+     12.485998,
+     41.889178
+    ],
+    [
+     12.485956,
+     41.889144
+    ],
+    [
+     12.485848,
+     41.889209
+    ],
+    [
+     12.485809,
+     41.889176
+    ],
+    [
+     12.485926,
+     41.889099
+    ],
+    [
+     12.485824,
+     41.889014
+    ],
+    [
+     12.485467,
+     41.889251
+    ],
+    [
+     12.485643,
+     41.889398
+    ],
+    [
+     12.485852,
+     41.88927
+    ]
+   ],
+   "params": {
+    "atrium": true,
+    "peristyle": null,
+    "storeys": 1
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "A late Republican house of about 75-50 BC entered down a sloping corridor, with an atrium and painted rooms in the Second Style; part of Augustus' residence and identified with Livia from a lead pipe naming Iulia Augusta. Later preserved beneath the raised levels of the imperial palace.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "XV",
+     "r": "7264"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 130",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2nd ed. 2014)",
+    "Carandini (ed.), The Atlas of Ancient Rome (2017)",
+    "Tomei, Il Palatino (1997)"
+   ],
+   "note": "OSM outline; end date marks its burial under the Flavian levels."
+  },
+  {
+   "id": "house_of_augustus_v1",
+   "monument": "house_of_augustus",
+   "name": "House of Augustus (first house)",
+   "from": -42,
+   "to": -37,
+   "builder": "augustus",
+   "template": "domus",
+   "loc": [
+    12.48535,
+    41.888567
+   ],
+   "rot": 318.7,
+   "w": 31.0,
+   "l": 38.0,
+   "h": 9.0,
+   "params": {
+    "atrium": true,
+    "peristyle": {
+     "w": 14,
+     "l": 16
+    },
+    "storeys": 2
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "Octavian bought the house of the orator Hortensius and neighbouring properties on the Palatine; Carettoni's excavations uncovered rooms of this first house with Second Style paintings, partly filled in when the Apollo terrace was built.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Augustus",
+     "r": "72.1"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "49.15.5"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 123",
+    "Carettoni, Das Haus des Augustus auf dem Palatin (1983)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": "OSM outline \"Casa di Augusto\"; orientation of the entrance uncertain."
+  },
+  {
+   "id": "house_of_augustus_v2",
+   "monument": "house_of_augustus",
+   "name": "House of Augustus",
+   "from": -36,
+   "to": 80,
+   "builder": "augustus",
+   "template": "domus",
+   "loc": [
+    12.48535,
+    41.888567
+   ],
+   "rot": 318.7,
+   "w": 31.0,
+   "l": 38.0,
+   "h": 10.0,
+   "params": {
+    "atrium": true,
+    "peristyle": {
+     "w": 14,
+     "l": 16
+    },
+    "storeys": 2
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "After lightning struck part of the property in 36 BC Augustus dedicated it to Apollo and rebuilt his house beside the temple, modest in decoration (the 'Room of the Masks', the 'studiolo'), with laurels and the civic crown over its door from 27 BC; part was made public when he became pontifex maximus in 12 BC.",
+   "phases": [
+    {
+     "y": -27,
+     "t": "laurels and corona civica on the doorposts"
+    },
+    {
+     "y": -12,
+     "t": "a shrine of Vesta set up in the house"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Augustus",
+     "r": "72-73"
+    },
+    {
+     "a": "Augustus",
+     "w": "Res Gestae",
+     "r": "34.2"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "53.16.4"
+    },
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "4.949-954"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 123"
+   ],
+   "note": ""
+  },
+  {
+   "id": "aedes_vestae_palatina",
+   "monument": "aedes_vestae_palatina",
+   "name": "Shrine of Vesta on the Palatine",
+   "from": -12,
+   "to": 9999,
+   "builder": "augustus",
+   "template": "tholos",
+   "loc": [
+    12.4855,
+    41.8888
+   ],
+   "rot": 228,
+   "w": 6.0,
+   "l": 6.0,
+   "h": 7.0,
+   "params": {
+    "diameter": 6.0,
+    "columns": 8,
+    "colH": 4.0,
+    "podium": 1.2,
+    "roof": "cone",
+    "order": "corinthian"
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "When Augustus became pontifex maximus on 6 March 12 BC he set up a shrine of Vesta in his house so that he need not live in the Domus Publica.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "4.949-954"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "54.27.3"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 413"
+   ],
+   "note": "Site in the House of Augustus unknown."
+  },
+  {
+   "id": "house_of_griffins",
+   "monument": "house_of_griffins",
+   "name": "House of the Griffins",
+   "from": -100,
+   "to": 80,
+   "builder": null,
+   "template": "domus",
+   "loc": [
+    12.487195,
+    41.888996
+   ],
+   "rot": 42.8,
+   "w": 20.0,
+   "l": 26.0,
+   "h": 7.0,
+   "params": {
+    "atrium": true,
+    "peristyle": null,
+    "storeys": 2
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "A house of about 100 BC with some of the earliest Second Style paintings and a stucco lunette of two griffins, buried under the Domus Flavia.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2nd ed. 2014)",
+    "Carandini (ed.), The Atlas of Ancient Rome (2017)",
+    "Tomei, Il Palatino (1997)"
+   ],
+   "note": "Inside the OSM \"Casa dei Grifi\" area; dimensions of the house estimated."
+  },
+  {
+   "id": "aula_isiaca",
+   "monument": "aula_isiaca",
+   "name": "Aula Isiaca",
+   "from": -30,
+   "to": 80,
+   "builder": null,
+   "template": "compound",
+   "loc": [
+    12.486853,
+    41.889272
+   ],
+   "rot": 43,
+   "w": 10.0,
+   "l": 17.0,
+   "h": 7.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "apse",
+      "x": 0,
+      "y": 0,
+      "w": 10,
+      "l": 17,
+      "h": 7,
+      "z": 0,
+      "mat": "stucco"
+     }
+    ]
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "An apsed hall of the 20s BC painted with Egyptian cult symbols, buried by the basilica of Domitian's palace; the paintings are now in the Loggia Mattei.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2nd ed. 2014)",
+    "Carandini (ed.), The Atlas of Ancient Rome (2017)",
+    "Tomei, Il Palatino (1997)"
+   ],
+   "note": "Inside the OSM \"Aula Isiaca\" area."
+  },
+  {
+   "id": "curiae_veteres_v1",
+   "monument": "curiae_veteres",
+   "name": "Curiae Veteres",
+   "from": -509,
+   "to": -31,
+   "builder": "romulus",
+   "template": "compound",
+   "loc": [
+    12.489933,
+    41.889484
+   ],
+   "rot": 347,
+   "w": 30.0,
+   "l": 35.0,
+   "h": 5.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "court",
+      "x": 0,
+      "y": 0,
+      "w": 30,
+      "l": 35,
+      "h": 5,
+      "ringDepth": 5,
+      "z": 0,
+      "mat": "tufa"
+     }
+    ]
+   },
+   "importance": 2,
+   "certainty": "reconstructed",
+   "summary": "The old meeting places of the thirty curiae at the NE corner of the Palatine, where the curiate priests held their common meals; archaic votive deposits (temenoi) have been found here under the Vigna Barberini slope.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Varro",
+     "w": "De lingua Latina",
+     "r": "5.155"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annales",
+     "r": "12.24"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 104",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) I s.v. Curiae Veteres (Panella)"
+   ],
+   "note": "OSM \"Curiae Veteres\" excavation; form schematic."
+  },
+  {
+   "id": "curiae_veteres_v2",
+   "monument": "curiae_veteres",
+   "name": "Curiae Veteres (Augustan-Claudian)",
+   "from": -30,
+   "to": 64,
+   "builder": null,
+   "template": "compound",
+   "loc": [
+    12.489933,
+    41.889484
+   ],
+   "rot": 347,
+   "w": 30.0,
+   "l": 35.0,
+   "h": 6.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "court",
+      "x": 0,
+      "y": 0,
+      "w": 30,
+      "l": 35,
+      "h": 6,
+      "ringDepth": 5,
+      "z": 0,
+      "mat": "tufa"
+     }
+    ]
+   },
+   "importance": 2,
+   "certainty": "reconstructed",
+   "summary": "Rebuilt in the early Empire; swept away by Nero's works after 64.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Annales",
+     "r": "12.24"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 104"
+   ],
+   "note": ""
+  },
+  {
+   "id": "temple_apollo_palatinus",
+   "monument": "temple_of_apollo_palatinus",
+   "name": "Temple of Apollo Palatinus",
+   "from": -28,
+   "to": 9999,
+   "begun": -36,
+   "builder": "augustus",
+   "template": "temple",
+   "loc": [
+    12.485687,
+    41.888795
+   ],
+   "rot": 228.2,
+   "w": 24.0,
+   "l": 44.0,
+   "h": 24.4,
+   "params": {
+    "order": "corinthian",
+    "plan": "pseudoperipteral",
+    "front": 6,
+    "side": 9,
+    "podium": 5.0,
+    "colH": 13.0,
+    "steps": "front",
+    "cella": {
+     "w": 20.5,
+     "l": 19
+    },
+    "quadriga": true,
+    "mat": {
+     "podium": "concrete_faced",
+     "columns": "marble_white",
+     "walls": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "ruin": {
+    "from": 363,
+    "state": "roofless"
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "Vowed after Naulochus, built on land of Augustus' house struck by lightning and dedicated on 9 October 28 BC as the thank-offering for Actium: solid Luna marble on a high podium, hexastyle with a gilded chariot of the Sun on the roof, ivory doors carved with the Niobids and the Gauls at Delphi, and statues by Scopas, Cephisodotus and Timotheus. The Sibylline Books were kept under the cult statue. It burned on the night of 18-19 March 363.",
+   "phases": [
+    {
+     "y": -28,
+     "t": "dedicated 9 October"
+    },
+    {
+     "y": -12,
+     "t": "Sibylline Books moved here"
+    },
+    {
+     "y": 363,
+     "t": "burned; the Sibylline Books saved"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Augustus",
+     "w": "Res Gestae",
+     "r": "19"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Augustus",
+     "r": "29.3"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "49.15.5"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "53.1.3"
+    },
+    {
+     "a": "Propertius",
+     "w": "Elegiae",
+     "r": "2.31"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis historia",
+     "r": "36.24-32"
+    },
+    {
+     "a": "Ammianus Marcellinus",
+     "w": "Res gestae",
+     "r": "23.3.3"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 14",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) I s.v. Apollo Palatinus (Gros)",
+    "Zink, in Journal of Roman Archaeology 21 (2008)",
+    "Haselberger et al., Mapping Augustan Rome (2002) / Digital Augustan Rome",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": "OSM outline; most scholars make it face SW toward the Circus Maximus (228), Claridge NE. Podium c. 24 x 44 m; column height estimated."
+  },
+  {
+   "id": "porticus_danaidum",
+   "monument": "porticus_danaidum",
+   "name": "Portico of the Danaids",
+   "from": -28,
+   "to": 363,
+   "builder": "augustus",
+   "template": "porticus",
+   "loc": [
+    12.485687,
+    41.888795
+   ],
+   "rot": 228.2,
+   "w": 70.0,
+   "l": 90.0,
+   "h": 9.0,
+   "params": {
+    "depth": 7,
+    "colH": 7.5,
+    "double": false,
+    "garden": false
+   },
+   "importance": 3,
+   "certainty": "conjectural",
+   "summary": "Colonnades of giallo antico around the temple precinct with statues of the fifty daughters of Danaus between the columns and their husbands as equestrian figures in front; Myron's four bronze cattle stood round the altar.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Propertius",
+     "w": "Elegiae",
+     "r": "2.31.1-4"
+    },
+    {
+     "a": "Ovid",
+     "w": "Tristia",
+     "r": "3.1.59-62"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "53.1.3"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 14",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) I s.v. Apollo Palatinus (Gros)",
+    "Zink, in Journal of Roman Archaeology 21 (2008)",
+    "Haselberger et al., Mapping Augustan Rome (2002) / Digital Augustan Rome",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": "Precinct drawn around the temple; its true extent is debated."
+  },
+  {
+   "id": "bibliothecae_apollinis",
+   "monument": "bibliothecae_apollinis",
+   "name": "Libraries of Apollo (Latin and Greek)",
+   "from": -28,
+   "to": 363,
+   "builder": "augustus",
+   "template": "compound",
+   "loc": [
+    12.48605,
+    41.88852
+   ],
+   "rot": 228.2,
+   "w": 44.0,
+   "l": 26.0,
+   "h": 15.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "apse",
+      "x": -11,
+      "y": 0,
+      "w": 20,
+      "l": 26,
+      "h": 15,
+      "z": 0,
+      "mat": "brick"
+     },
+     {
+      "shape": "apse",
+      "x": 11,
+      "y": 0,
+      "w": 20,
+      "l": 26,
+      "h": 15,
+      "z": 0,
+      "mat": "brick"
+     }
+    ]
+   },
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "Twin apsed halls for Latin and Greek books beside the temple, where the Senate also met in Augustus' old age; restored after 64 and again by Domitian, they appear on the Marble Plan.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Augustus",
+     "r": "29.3"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "53.1.3"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annales",
+     "r": "2.37"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 59",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) I s.v. Bibliotheca Apollinis Palatini"
+   ],
+   "note": "Identified with the two apsed halls SE of the temple next to the Domus Augustana."
+  },
+  {
+   "id": "domus_tiberiana_v1",
+   "monument": "domus_tiberiana",
+   "name": "Domus Tiberiana (Tiberian palace)",
+   "from": 14,
+   "to": 36,
+   "builder": "tiberius",
+   "template": "compound",
+   "loc": [
+    12.486183,
+    41.890318
+   ],
+   "rot": 40.6,
+   "w": 100.0,
+   "l": 120.0,
+   "h": 16.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "court",
+      "x": 0,
+      "y": -40,
+      "w": 90,
+      "l": 100,
+      "h": 14,
+      "ringDepth": 16,
+      "z": 0,
+      "mat": "reticulate"
+     }
+    ]
+   },
+   "importance": 4,
+   "certainty": "reconstructed",
+   "summary": "The first imperial palace proper, built for Tiberius on the NW Palatine over late Republican houses; Tacitus calls it the 'domus Tiberiana'. Recent excavation shows that little of the visible platform belongs to him.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Historiae",
+     "r": "1.27"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Caligula",
+     "r": "22.2"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Vitellius",
+     "r": "15.3"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Galba",
+     "r": "24"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Antoninus Pius",
+     "r": "10.4"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 136-137",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) II s.v. Domus Tiberiana (Krause)",
+    "Krause, in Tomei and Filetici (eds.), Domus Tiberiana: scavi e restauri (2011)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": "Front toward the Forum (NE, 40.6) as given by the OSM outline of the whole complex; Tiberian extent conjectural."
+  },
+  {
+   "id": "domus_tiberiana_v2",
+   "monument": "domus_tiberiana",
+   "name": "Domus Tiberiana with Caligula's extension to the Forum",
+   "from": 37,
+   "to": 64,
+   "builder": "caligula",
+   "template": "compound",
+   "loc": [
+    12.486183,
+    41.890318
+   ],
+   "rot": 40.6,
+   "w": 110.0,
+   "l": 200.0,
+   "h": 22.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "terrace",
+      "x": 0,
+      "y": -30,
+      "w": 120,
+      "l": 120,
+      "h": 8,
+      "z": 0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "court",
+      "x": 0,
+      "y": -35,
+      "w": 100,
+      "l": 110,
+      "h": 14,
+      "ringDepth": 16,
+      "z": 8,
+      "mat": "brick"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 78,
+      "w": 110,
+      "l": 60,
+      "h": 20,
+      "z": 0,
+      "mat": "brick"
+     }
+    ]
+   },
+   "importance": 4,
+   "certainty": "reconstructed",
+   "summary": "Caligula extended the palace down to the Forum, making the Temple of Castor its vestibule so that he could stand between the twin gods to be worshipped, and was murdered in a passage of the palace in January 41.",
+   "phases": [
+    {
+     "y": 41,
+     "t": "Caligula killed in a cryptoporticus of the palace"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Historiae",
+     "r": "1.27"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Caligula",
+     "r": "22.2"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Vitellius",
+     "r": "15.3"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Galba",
+     "r": "24"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Antoninus Pius",
+     "r": "10.4"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Caligula",
+     "r": "58"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 136-137",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) II s.v. Domus Tiberiana (Krause)",
+    "Krause, in Tomei and Filetici (eds.), Domus Tiberiana: scavi e restauri (2011)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": "Extension modelled as a block on the Forum slope toward the Nova Via."
+  },
+  {
+   "id": "domus_tiberiana_v3",
+   "monument": "domus_tiberiana",
+   "name": "Domus Tiberiana (Neronian platform)",
+   "from": 65,
+   "to": 80,
+   "begun": 64,
+   "builder": "nero",
+   "template": "compound",
+   "loc": [
+    12.486183,
+    41.890318
+   ],
+   "rot": 40.6,
+   "w": 120.0,
+   "l": 219.0,
+   "h": 24.0,
+   "footprint": [
+    [
+     12.485612,
+     41.890647
+    ],
+    [
+     12.485247,
+     41.890323
+    ],
+    [
+     12.485326,
+     41.890268
+    ],
+    [
+     12.48528,
+     41.890229
+    ],
+    [
+     12.485296,
+     41.890217
+    ],
+    [
+     12.485219,
+     41.890174
+    ],
+    [
+     12.485135,
+     41.890074
+    ],
+    [
+     12.485118,
+     41.890083
+    ],
+    [
+     12.484839,
+     41.889874
+    ],
+    [
+     12.485026,
+     41.889754
+    ],
+    [
+     12.485051,
+     41.889763
+    ],
+    [
+     12.485219,
+     41.889681
+    ],
+    [
+     12.485201,
+     41.889665
+    ],
+    [
+     12.48525,
+     41.889658
+    ],
+    [
+     12.48523,
+     41.889636
+    ],
+    [
+     12.485264,
+     41.889651
+    ],
+    [
+     12.485433,
+     41.889536
+    ],
+    [
+     12.485457,
+     41.889484
+    ],
+    [
+     12.485519,
+     41.889538
+    ],
+    [
+     12.48589,
+     41.889304
+    ],
+    [
+     12.486326,
+     41.889614
+    ],
+    [
+     12.486871,
+     41.890086
+    ],
+    [
+     12.486827,
+     41.890161
+    ],
+    [
+     12.487113,
+     41.890415
+    ],
+    [
+     12.487199,
+     41.890394
+    ],
+    [
+     12.487318,
+     41.890615
+    ],
+    [
+     12.487386,
+     41.890591
+    ],
+    [
+     12.487504,
+     41.890768
+    ],
+    [
+     12.487447,
+     41.890789
+    ],
+    [
+     12.487457,
+     41.890806
+    ],
+    [
+     12.487437,
+     41.890793
+    ],
+    [
+     12.487388,
+     41.89081
+    ],
+    [
+     12.487397,
+     41.890827
+    ],
+    [
+     12.486611,
+     41.891072
+    ],
+    [
+     12.486585,
+     41.891032
+    ],
+    [
+     12.486539,
+     41.891064
+    ],
+    [
+     12.486333,
+     41.891113
+    ],
+    [
+     12.486372,
+     41.891149
+    ],
+    [
+     12.486337,
+     41.891161
+    ],
+    [
+     12.486319,
+     41.891117
+    ],
+    [
+     12.486277,
+     41.891131
+    ],
+    [
+     12.486315,
+     41.891169
+    ],
+    [
+     12.486291,
+     41.891177
+    ],
+    [
+     12.486248,
+     41.891112
+    ],
+    [
+     12.486192,
+     41.89113
+    ],
+    [
+     12.486264,
+     41.891187
+    ],
+    [
+     12.486236,
+     41.891196
+    ],
+    [
+     12.485612,
+     41.890647
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "terrace",
+      "x": 0,
+      "y": -30,
+      "w": 120,
+      "l": 150,
+      "h": 8,
+      "z": 0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "court",
+      "x": 0,
+      "y": -35,
+      "w": 100,
+      "l": 110,
+      "h": 16,
+      "ringDepth": 16,
+      "z": 8,
+      "mat": "brick"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 78,
+      "w": 110,
+      "l": 60,
+      "h": 20,
+      "z": 0,
+      "mat": "brick"
+     }
+    ]
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "After the fire of 64 the palace was rebuilt on a vast vaulted platform about 150 x 120 m with a central peristyle and an encircling cryptoporticus, the structure under the later Farnese gardens; Galba was killed in 69 after leaving from here.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Historiae",
+     "r": "1.27"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Caligula",
+     "r": "22.2"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Vitellius",
+     "r": "15.3"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Galba",
+     "r": "24"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Antoninus Pius",
+     "r": "10.4"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 136-137",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) II s.v. Domus Tiberiana (Krause)",
+    "Krause, in Tomei and Filetici (eds.), Domus Tiberiana: scavi e restauri (2011)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": "Footprint from the OSM outline of the whole complex."
+  },
+  {
+   "id": "domus_tiberiana_v4",
+   "monument": "domus_tiberiana",
+   "name": "Domus Tiberiana (Domitianic)",
+   "from": 81,
+   "to": 117,
+   "builder": "domitian",
+   "template": "compound",
+   "loc": [
+    12.486183,
+    41.890318
+   ],
+   "rot": 40.6,
+   "w": 120.0,
+   "l": 219.0,
+   "h": 28.0,
+   "footprint": [
+    [
+     12.485612,
+     41.890647
+    ],
+    [
+     12.485247,
+     41.890323
+    ],
+    [
+     12.485326,
+     41.890268
+    ],
+    [
+     12.48528,
+     41.890229
+    ],
+    [
+     12.485296,
+     41.890217
+    ],
+    [
+     12.485219,
+     41.890174
+    ],
+    [
+     12.485135,
+     41.890074
+    ],
+    [
+     12.485118,
+     41.890083
+    ],
+    [
+     12.484839,
+     41.889874
+    ],
+    [
+     12.485026,
+     41.889754
+    ],
+    [
+     12.485051,
+     41.889763
+    ],
+    [
+     12.485219,
+     41.889681
+    ],
+    [
+     12.485201,
+     41.889665
+    ],
+    [
+     12.48525,
+     41.889658
+    ],
+    [
+     12.48523,
+     41.889636
+    ],
+    [
+     12.485264,
+     41.889651
+    ],
+    [
+     12.485433,
+     41.889536
+    ],
+    [
+     12.485457,
+     41.889484
+    ],
+    [
+     12.485519,
+     41.889538
+    ],
+    [
+     12.48589,
+     41.889304
+    ],
+    [
+     12.486326,
+     41.889614
+    ],
+    [
+     12.486871,
+     41.890086
+    ],
+    [
+     12.486827,
+     41.890161
+    ],
+    [
+     12.487113,
+     41.890415
+    ],
+    [
+     12.487199,
+     41.890394
+    ],
+    [
+     12.487318,
+     41.890615
+    ],
+    [
+     12.487386,
+     41.890591
+    ],
+    [
+     12.487504,
+     41.890768
+    ],
+    [
+     12.487447,
+     41.890789
+    ],
+    [
+     12.487457,
+     41.890806
+    ],
+    [
+     12.487437,
+     41.890793
+    ],
+    [
+     12.487388,
+     41.89081
+    ],
+    [
+     12.487397,
+     41.890827
+    ],
+    [
+     12.486611,
+     41.891072
+    ],
+    [
+     12.486585,
+     41.891032
+    ],
+    [
+     12.486539,
+     41.891064
+    ],
+    [
+     12.486333,
+     41.891113
+    ],
+    [
+     12.486372,
+     41.891149
+    ],
+    [
+     12.486337,
+     41.891161
+    ],
+    [
+     12.486319,
+     41.891117
+    ],
+    [
+     12.486277,
+     41.891131
+    ],
+    [
+     12.486315,
+     41.891169
+    ],
+    [
+     12.486291,
+     41.891177
+    ],
+    [
+     12.486248,
+     41.891112
+    ],
+    [
+     12.486192,
+     41.89113
+    ],
+    [
+     12.486264,
+     41.891187
+    ],
+    [
+     12.486236,
+     41.891196
+    ],
+    [
+     12.485612,
+     41.890647
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "terrace",
+      "x": 0,
+      "y": -30,
+      "w": 120,
+      "l": 150,
+      "h": 8,
+      "z": 0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "court",
+      "x": 0,
+      "y": -35,
+      "w": 100,
+      "l": 110,
+      "h": 16,
+      "ringDepth": 16,
+      "z": 8,
+      "mat": "brick"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 78,
+      "w": 110,
+      "l": 60,
+      "h": 26,
+      "z": 0,
+      "mat": "brick"
+     }
+    ]
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "Domitian added the multi-storey arcaded substructures along the Nova Via and linked the palace to his Forum vestibule by the covered ramp.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Historiae",
+     "r": "1.27"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Caligula",
+     "r": "22.2"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Vitellius",
+     "r": "15.3"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Galba",
+     "r": "24"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Antoninus Pius",
+     "r": "10.4"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 136-137",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) II s.v. Domus Tiberiana (Krause)",
+    "Krause, in Tomei and Filetici (eds.), Domus Tiberiana: scavi e restauri (2011)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": ""
+  },
+  {
+   "id": "domus_tiberiana_v5",
+   "monument": "domus_tiberiana",
+   "name": "Domus Tiberiana (Hadrianic)",
+   "from": 118,
+   "to": 9999,
+   "builder": "hadrian",
+   "template": "compound",
+   "loc": [
+    12.486183,
+    41.890318
+   ],
+   "rot": 40.6,
+   "w": 120.0,
+   "l": 219.0,
+   "h": 30.0,
+   "footprint": [
+    [
+     12.485612,
+     41.890647
+    ],
+    [
+     12.485247,
+     41.890323
+    ],
+    [
+     12.485326,
+     41.890268
+    ],
+    [
+     12.48528,
+     41.890229
+    ],
+    [
+     12.485296,
+     41.890217
+    ],
+    [
+     12.485219,
+     41.890174
+    ],
+    [
+     12.485135,
+     41.890074
+    ],
+    [
+     12.485118,
+     41.890083
+    ],
+    [
+     12.484839,
+     41.889874
+    ],
+    [
+     12.485026,
+     41.889754
+    ],
+    [
+     12.485051,
+     41.889763
+    ],
+    [
+     12.485219,
+     41.889681
+    ],
+    [
+     12.485201,
+     41.889665
+    ],
+    [
+     12.48525,
+     41.889658
+    ],
+    [
+     12.48523,
+     41.889636
+    ],
+    [
+     12.485264,
+     41.889651
+    ],
+    [
+     12.485433,
+     41.889536
+    ],
+    [
+     12.485457,
+     41.889484
+    ],
+    [
+     12.485519,
+     41.889538
+    ],
+    [
+     12.48589,
+     41.889304
+    ],
+    [
+     12.486326,
+     41.889614
+    ],
+    [
+     12.486871,
+     41.890086
+    ],
+    [
+     12.486827,
+     41.890161
+    ],
+    [
+     12.487113,
+     41.890415
+    ],
+    [
+     12.487199,
+     41.890394
+    ],
+    [
+     12.487318,
+     41.890615
+    ],
+    [
+     12.487386,
+     41.890591
+    ],
+    [
+     12.487504,
+     41.890768
+    ],
+    [
+     12.487447,
+     41.890789
+    ],
+    [
+     12.487457,
+     41.890806
+    ],
+    [
+     12.487437,
+     41.890793
+    ],
+    [
+     12.487388,
+     41.89081
+    ],
+    [
+     12.487397,
+     41.890827
+    ],
+    [
+     12.486611,
+     41.891072
+    ],
+    [
+     12.486585,
+     41.891032
+    ],
+    [
+     12.486539,
+     41.891064
+    ],
+    [
+     12.486333,
+     41.891113
+    ],
+    [
+     12.486372,
+     41.891149
+    ],
+    [
+     12.486337,
+     41.891161
+    ],
+    [
+     12.486319,
+     41.891117
+    ],
+    [
+     12.486277,
+     41.891131
+    ],
+    [
+     12.486315,
+     41.891169
+    ],
+    [
+     12.486291,
+     41.891177
+    ],
+    [
+     12.486248,
+     41.891112
+    ],
+    [
+     12.486192,
+     41.89113
+    ],
+    [
+     12.486264,
+     41.891187
+    ],
+    [
+     12.486236,
+     41.891196
+    ],
+    [
+     12.485612,
+     41.890647
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "terrace",
+      "x": 0,
+      "y": -30,
+      "w": 120,
+      "l": 150,
+      "h": 8,
+      "z": 0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "court",
+      "x": 0,
+      "y": -35,
+      "w": 100,
+      "l": 110,
+      "h": 18,
+      "ringDepth": 16,
+      "z": 8,
+      "mat": "brick"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 78,
+      "w": 110,
+      "l": 60,
+      "h": 28,
+      "z": 0,
+      "mat": "brick"
+     }
+    ]
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "Hadrian extended the arcades on the Forum side toward the Clivus Victoriae; Antoninus Pius lived here before his accession. In the 7th century the Forum-side halls served Byzantine officials and later the popes.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Historiae",
+     "r": "1.27"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Caligula",
+     "r": "22.2"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Vitellius",
+     "r": "15.3"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Galba",
+     "r": "24"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Antoninus Pius",
+     "r": "10.4"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 136-137",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) II s.v. Domus Tiberiana (Krause)",
+    "Krause, in Tomei and Filetici (eds.), Domus Tiberiana: scavi e restauri (2011)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": ""
+  },
+  {
+   "id": "domus_transitoria",
+   "monument": "domus_transitoria",
+   "name": "Domus Transitoria",
+   "from": 60,
+   "to": 64,
+   "builder": "nero",
+   "template": "compound",
+   "loc": [
+    12.4865,
+    41.8889
+   ],
+   "rot": 44.6,
+   "w": 70.0,
+   "l": 50.0,
+   "h": 10.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "court",
+      "x": 0,
+      "y": 0,
+      "w": 70,
+      "l": 50,
+      "h": 10,
+      "ringDepth": 10,
+      "z": 0,
+      "mat": "reticulate"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 20,
+      "l": 14,
+      "h": 5,
+      "z": 0,
+      "mat": "marble_color"
+     }
+    ]
+   },
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "Nero's first palace, linking the Palatine to the gardens of Maecenas on the Esquiline; under the Domus Flavia survive a sunken court with a nymphaeum of cascading water and marble-inlaid pavilions with painted vaults. Destroyed in the fire of 64.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Nero",
+     "r": "31.1"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annales",
+     "r": "15.39"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 138",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) II s.v. Domus Transitoria (De Vos)"
+   ],
+   "note": "Placed under the centre of the later Domus Flavia; form schematic."
+  },
+  {
+   "id": "domus_aurea_cenatio_rotunda",
+   "monument": "domus_aurea",
+   "name": "Rotating dining hall of the Domus Aurea (Vigna Barberini)",
+   "from": 65,
+   "to": 80,
+   "begun": 64,
+   "builder": "nero",
+   "template": "centralplan",
+   "loc": [
+    12.48935,
+    41.88985
+   ],
+   "rot": 290,
+   "w": 16.0,
+   "l": 16.0,
+   "h": 18.0,
+   "params": {
+    "diameter": 16,
+    "drumH": 14,
+    "domeH": 4,
+    "sides": 0,
+    "oculus": 0,
+    "portico": null,
+    "intermediate": null
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "A tower-like round structure with a central pillar 4 m thick found in 2009 at the NE corner of the Vigna Barberini, identified with the main dining room of the Golden House that 'turned day and night like the heavens'. Buried under the Flavian terrace.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Nero",
+     "r": "31.2"
+    }
+   ],
+   "scholarship": [
+    "Villedieu, in Neronia Electronica 1 (2011)",
+    "Carandini (ed.), The Atlas of Ancient Rome (2017)"
+   ],
+   "note": "Position at the NE edge of the Vigna Barberini terrace approximate."
+  }
+ ]
+}

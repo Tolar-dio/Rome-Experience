@@ -1,0 +1,4231 @@
+{
+ "buildings": [
+  {
+   "id": "temple_castor_v1",
+   "monument": "temple_of_castor",
+   "name": "Temple of Castor (early Republican)",
+   "from": -484,
+   "to": -118,
+   "begun": -495,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.485644,
+    41.891673
+   ],
+   "rot": 24.7,
+   "w": 27.5,
+   "l": 37.0,
+   "h": 20.6,
+   "params": {
+    "order": "tuscan",
+    "plan": "peripteros_sine_postico",
+    "front": 6,
+    "side": 6,
+    "podium": 4.5,
+    "colH": 10.0,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "Vowed by the dictator A. Postumius at Lake Regillus, where the Dioscuri were seen fighting for Rome and then watering their horses at the spring of Juturna, and dedicated by his son in 484 BC. Danish excavations found its cappellaccio podium, about 27.5 x 37 m.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "2.20.12"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "2.42.5"
+    },
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Antiquitates Romanae",
+     "r": "6.13"
+    },
+    {
+     "a": "Cicero",
+     "w": "In Verrem",
+     "r": "2.1.129-154"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Tiberius",
+     "r": "20"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Caligula",
+     "r": "22.2"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "55.27.4"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "59.28.5"
+    }
+   ],
+   "scholarship": [
+    "Platner and Ashby, A Topographical Dictionary of Ancient Rome (1929) 102-105",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 74-75",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) I s.v. Castor, aedes, templum (Nielsen)",
+    "Nielsen and Poulsen, The Temple of Castor and Pollux I (1992)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Digitales Forum Romanum (Humboldt-Universitat zu Berlin), phase reconstructions"
+   ],
+   "note": "Facade toward the square (NNE, c. 25), parallel to the Basilica Julia front; centre and axis from the OSM outline. The schema example bearing 335 is not supported by the remains: the long axis runs 25/205 like the Vicus Tuscus."
+  },
+  {
+   "id": "temple_castor_v2",
+   "monument": "temple_of_castor",
+   "name": "Temple of Castor (Metellan)",
+   "from": -117,
+   "to": -15,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.485644,
+    41.891673
+   ],
+   "rot": 24.7,
+   "w": 30.0,
+   "l": 46.0,
+   "h": 25.5,
+   "params": {
+    "order": "corinthian",
+    "plan": "peripteral",
+    "front": 8,
+    "side": 11,
+    "podium": 6.0,
+    "colH": 12.5,
+    "steps": "front_lateral",
+    "mat": {
+     "podium": "tufa",
+     "columns": "travertine",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "L. Caecilius Metellus Dalmaticus rebuilt the temple in 117 BC after his Dalmatian triumph on a high podium with a speakers' tribunal in its front, used in the political battles of the late Republic; Verres' notorious contract for its columns (73 BC) is the subject of a speech of Cicero.",
+   "phases": [
+    {
+     "y": -73,
+     "t": "repairs contracted under Verres"
+    },
+    {
+     "y": -59,
+     "t": "Caesar and Bibulus clash on its tribunal"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "2.20.12"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "2.42.5"
+    },
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Antiquitates Romanae",
+     "r": "6.13"
+    },
+    {
+     "a": "Cicero",
+     "w": "In Verrem",
+     "r": "2.1.129-154"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Tiberius",
+     "r": "20"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Caligula",
+     "r": "22.2"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "55.27.4"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "59.28.5"
+    }
+   ],
+   "scholarship": [
+    "Platner and Ashby, A Topographical Dictionary of Ancient Rome (1929) 102-105",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 74-75",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) I s.v. Castor, aedes, templum (Nielsen)",
+    "Nielsen and Poulsen, The Temple of Castor and Pollux I (1992)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Digitales Forum Romanum (Humboldt-Universitat zu Berlin), phase reconstructions"
+   ],
+   "note": ""
+  },
+  {
+   "id": "temple_castor_v3",
+   "monument": "temple_of_castor",
+   "name": "Temple of Castor and Pollux (Tiberian)",
+   "from": 6,
+   "to": 9999,
+   "begun": -7,
+   "builder": "tiberius",
+   "template": "temple",
+   "loc": [
+    12.485644,
+    41.891673
+   ],
+   "rot": 24.7,
+   "w": 32.0,
+   "l": 49.5,
+   "h": 31.0,
+   "params": {
+    "order": "corinthian",
+    "plan": "peripteral",
+    "front": 8,
+    "side": 11,
+    "podium": 7.0,
+    "colH": 14.8,
+    "steps": "front_lateral",
+    "mat": {
+     "podium": "concrete_faced",
+     "columns": "marble_white",
+     "walls": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "Rebuilt by Tiberius after the fire of 14 BC and dedicated in AD 6 in his name and his brother Drusus': octastyle and peripteral with eleven Corinthian columns on the flanks, on a 7 m podium of concrete faced with tufa that held small strongrooms for weights and valuables. Caligula made it the vestibule of his palace. Three columns with their entablature still stand.",
+   "phases": [
+    {
+     "y": 37,
+     "t": "Caligula breaks through the cella to make it his vestibule"
+    },
+    {
+     "y": 41,
+     "t": "Claudius restores it"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "2.20.12"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "2.42.5"
+    },
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Antiquitates Romanae",
+     "r": "6.13"
+    },
+    {
+     "a": "Cicero",
+     "w": "In Verrem",
+     "r": "2.1.129-154"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Tiberius",
+     "r": "20"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Caligula",
+     "r": "22.2"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "55.27.4"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "59.28.5"
+    }
+   ],
+   "scholarship": [
+    "Platner and Ashby, A Topographical Dictionary of Ancient Rome (1929) 102-105",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 74-75",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) I s.v. Castor, aedes, templum (Nielsen)",
+    "Nielsen and Poulsen, The Temple of Castor and Pollux I (1992)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Digitales Forum Romanum (Humboldt-Universitat zu Berlin), phase reconstructions"
+   ],
+   "note": "Podium 32 x 49.5 x 7 m (Nielsen and Poulsen)."
+  },
+  {
+   "id": "lacus_iuturnae_v1",
+   "monument": "lacus_iuturnae",
+   "name": "Lacus Iuturnae (spring basin)",
+   "from": -484,
+   "to": -118,
+   "builder": null,
+   "template": "pool",
+   "loc": [
+    12.485884,
+    41.891563
+   ],
+   "rot": 25,
+   "w": 5.0,
+   "l": 5.0,
+   "h": 1.2,
+   "params": {
+    "depth": 2.0
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "The sacred spring of Juturna below the Palatine, where the Dioscuri watered their horses after Lake Regillus; a tufa-lined basin.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Antiquitates Romanae",
+     "r": "6.13.2"
+    },
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "1.705-708"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 230",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) III s.v. Lacus Iuturnae (Steinby)"
+   ],
+   "note": ""
+  },
+  {
+   "id": "lacus_iuturnae_v2",
+   "monument": "lacus_iuturnae",
+   "name": "Lacus Iuturnae (marble basin)",
+   "from": -117,
+   "to": 9999,
+   "builder": null,
+   "template": "pool",
+   "loc": [
+    12.485884,
+    41.891563
+   ],
+   "rot": 25,
+   "w": 5.0,
+   "l": 5.0,
+   "h": 1.5,
+   "params": {
+    "depth": 2.0
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "Rebuilt with the Metellan temple and re-lined in marble under the Empire, with a central pedestal for statues of the twins and their horses.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Antiquitates Romanae",
+     "r": "6.13.2"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 230",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": ""
+  },
+  {
+   "id": "aedicula_iuturnae",
+   "monument": "aedicula_iuturnae",
+   "name": "Shrine of Juturna",
+   "from": -10,
+   "to": 9999,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.485982,
+    41.891529
+   ],
+   "rot": 25,
+   "w": 3.0,
+   "l": 4.0,
+   "h": 4.5,
+   "params": {
+    "order": "corinthian",
+    "plan": "in_antis",
+    "front": 2,
+    "side": 1,
+    "podium": 0.8,
+    "colH": 2.8,
+    "steps": "front",
+    "mat": {
+     "podium": "marble_white",
+     "columns": "marble_white",
+     "walls": "brick",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 1,
+   "certainty": "excavated",
+   "summary": "Small aedicula beside the basin with an altar showing Juturna and Turnus; the brick shrine is Trajanic, replacing an Augustan one.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "1.463-464"
+    }
+   ],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": ""
+  },
+  {
+   "id": "statio_aquarum",
+   "monument": "statio_aquarum",
+   "name": "Statio Aquarum",
+   "from": 328,
+   "to": 9999,
+   "builder": null,
+   "template": "compound",
+   "loc": [
+    12.485823,
+    41.891465
+   ],
+   "rot": 25,
+   "w": 16.0,
+   "l": 10.0,
+   "h": 6.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 16,
+      "l": 10,
+      "h": 6,
+      "z": 0,
+      "mat": "brick"
+     }
+    ]
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "Offices of the water administration moved here in 328 under Constantine, in rooms beside the spring of Juturna.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "36951"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 368",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": ""
+  },
+  {
+   "id": "altar_of_caesar",
+   "monument": "altar_of_caesar",
+   "name": "Altar and column of Caesar",
+   "from": -44,
+   "to": -44,
+   "builder": null,
+   "template": "altar",
+   "loc": [
+    12.485874,
+    41.892091
+   ],
+   "rot": 300.5,
+   "w": 4.0,
+   "l": 4.0,
+   "h": 6.0,
+   "params": {
+    "enclosure": null,
+    "altar": {
+     "w": 3,
+     "l": 3,
+     "h": 1.5
+    }
+   },
+   "importance": 2,
+   "certainty": "documented",
+   "summary": "Where the crowd cremated Caesar's body on 20 March 44 BC an altar and a 20-foot column of Numidian marble inscribed PARENTI PATRIAE were set up; the consul Dolabella removed them within weeks.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Iulius",
+     "r": "85"
+    },
+    {
+     "a": "Cicero",
+     "w": "Philippicae",
+     "r": "1.5"
+    },
+    {
+     "a": "Appian",
+     "w": "Bella civilia",
+     "r": "3.2-3"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 214"
+   ],
+   "note": ""
+  },
+  {
+   "id": "temple_divus_iulius",
+   "monument": "temple_of_divus_iulius",
+   "name": "Temple of Divus Iulius",
+   "from": -29,
+   "to": 9999,
+   "begun": -42,
+   "builder": "augustus",
+   "template": "temple",
+   "loc": [
+    12.48602,
+    41.892027
+   ],
+   "rot": 300.5,
+   "w": 26.0,
+   "l": 30.0,
+   "h": 23.3,
+   "params": {
+    "order": "corinthian",
+    "plan": "prostyle",
+    "front": 6,
+    "side": 3,
+    "podium": 5.5,
+    "colH": 11.5,
+    "steps": "lateral",
+    "mat": {
+     "podium": "concrete_faced",
+     "columns": "marble_white",
+     "walls": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "Decreed by the triumvirs in 42 BC on the spot of Caesar's cremation and dedicated by Octavian on 18 August 29 BC, closing the SE end of the square. A pycnostyle hexastyle front looked down the Forum to the Rostra; in its front a podium with the ship beaks from Actium (the Rostra ad Divi Iuli) enclosed a niche with the round altar on the cremation site.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "47.18.4"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "51.19.2"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Iulius",
+     "r": "84-85"
+    },
+    {
+     "a": "Vitruvius",
+     "w": "De architectura",
+     "r": "3.3.2"
+    },
+    {
+     "a": "Augustus",
+     "w": "Res Gestae",
+     "r": "19"
+    },
+    {
+     "a": "Appian",
+     "w": "Bella civilia",
+     "r": "2.148"
+    }
+   ],
+   "scholarship": [
+    "Platner and Ashby, A Topographical Dictionary of Ancient Rome (1929) 286-288",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 213-214",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) III s.v. Iulius, divus, aedes (Gros)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Digitales Forum Romanum (Humboldt-Universitat zu Berlin), phase reconstructions",
+    "Montagna Pasquinucci, in Monumenti Antichi (1973)"
+   ],
+   "note": "OSM outline; facade bearing 300 (WNW down the square). Podium c. 26 x 30 m including the Rostra front."
+  },
+  {
+   "id": "rostra_divi_iulii",
+   "monument": "rostra_divi_iulii",
+   "name": "Rostra ad Divi Iulii",
+   "from": -29,
+   "to": 9999,
+   "builder": "augustus",
+   "template": "platform",
+   "loc": [
+    12.485761,
+    41.892192
+   ],
+   "rot": 300.5,
+   "w": 26.0,
+   "l": 6.0,
+   "h": 3.5,
+   "params": {
+    "facade": "plain",
+    "mat": {
+     "walls": "marble_white"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "The speakers' platform in front of the Temple of Divus Iulius, decorated with prows from Actium, with a central hemicycle around Caesar's altar; it faced the Augustan Rostra across the square.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "51.19.2"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "56.34.4"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 335",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": "Position from the OSM label point."
+  },
+  {
+   "id": "arch_augustus_actian",
+   "monument": "arch_of_augustus_forum",
+   "name": "Actian Arch of Augustus",
+   "from": -29,
+   "to": -20,
+   "builder": "augustus",
+   "template": "arch",
+   "loc": [
+    12.486252,
+    41.891926
+   ],
+   "rot": 304.4,
+   "w": 9.0,
+   "l": 4.0,
+   "h": 11.0,
+   "params": {
+    "bays": 1,
+    "depth": 4.0,
+    "atticH": 2.5,
+    "columns": "engaged",
+    "quadriga": true
+   },
+   "importance": 3,
+   "certainty": "conjectural",
+   "summary": "A single-bay arch voted to Octavian after Actium and set up beside the Temple of Divus Iulius; replaced by the Parthian arch.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "51.19.1"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 23",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) I s.v. Arcus Augusti (Nedergaard)"
+   ],
+   "note": "Assumed on the site of the later arch."
+  },
+  {
+   "id": "arch_augustus_parthian",
+   "monument": "arch_of_augustus_forum",
+   "name": "Arch of Augustus (Parthian Arch)",
+   "from": -19,
+   "to": 9999,
+   "builder": "augustus",
+   "template": "arch",
+   "loc": [
+    12.486252,
+    41.891926
+   ],
+   "rot": 304.4,
+   "w": 17.6,
+   "l": 5.5,
+   "h": 14.0,
+   "params": {
+    "bays": 3,
+    "depth": 5.5,
+    "atticH": 3.0,
+    "columns": "engaged",
+    "quadriga": true
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "Triple arch voted in 19 BC for the return of the standards lost by Crassus to Parthia, spanning the way between the Temple of Divus Iulius and the Temple of Castor; the Fasti consulares and triumphales were probably inscribed on its piers.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "54.8.3"
+    },
+    {
+     "a": "Scholia Veronensia",
+     "w": "ad Aen.",
+     "r": "7.606"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 23-24",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) I s.v. Arcus Augusti (Nedergaard)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Digitales Forum Romanum (Humboldt-Universitat zu Berlin), phase reconstructions"
+   ],
+   "note": "Foundations S of Divus Iulius (OSM pier); centre shifted 5.5 m from the mapped pier to the arch axis."
+  },
+  {
+   "id": "regia_v1",
+   "monument": "regia",
+   "name": "Regia (archaic)",
+   "from": -509,
+   "to": -391,
+   "builder": "numa_pompilius",
+   "template": "compound",
+   "loc": [
+    12.486431,
+    41.891882
+   ],
+   "rot": 18,
+   "w": 26.0,
+   "l": 28.0,
+   "h": 6.0,
+   "footprint": [
+    [
+     12.486327,
+     41.891985
+    ],
+    [
+     12.486323,
+     41.891999
+    ],
+    [
+     12.486362,
+     41.892041
+    ],
+    [
+     12.48662,
+     41.891892
+    ],
+    [
+     12.486574,
+     41.891785
+    ],
+    [
+     12.486321,
+     41.891777
+    ],
+    [
+     12.486241,
+     41.891786
+    ],
+    [
+     12.486271,
+     41.89194
+    ],
+    [
+     12.486291,
+     41.89194
+    ],
+    [
+     12.486327,
+     41.891985
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "court",
+      "x": 0,
+      "y": -4,
+      "w": 26,
+      "l": 20,
+      "h": 6,
+      "ringDepth": 6,
+      "z": 0,
+      "mat": "tufa"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 9,
+      "w": 22,
+      "l": 8,
+      "h": 6,
+      "z": 0,
+      "mat": "tufa"
+     }
+    ]
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "The 'king's house' traditionally founded by Numa, by the Republic the seat of the rex sacrorum and then of the pontifex maximus: a trapezoidal building with a courtyard and three rooms, one the shrine of Mars with the sacred shields (ancilia) and spears, another the shrine of Ops Consiva. Rebuilt in the same plan many times.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Ovid",
+     "w": "Tristia",
+     "r": "3.1.30"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis historia",
+     "r": "34.48"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "48.42.4-6"
+    },
+    {
+     "a": "Servius",
+     "w": "ad Aen.",
+     "r": "8.363"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Numa",
+     "r": "14.1"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 328-329",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) IV s.v. Regia (Scott)",
+    "Brown, in Rendiconti della Pontificia Accademia 47 (1974-75)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Digitales Forum Romanum (Humboldt-Universitat zu Berlin), phase reconstructions"
+   ],
+   "note": "Footprint from the OSM outline; entrance toward the Sacra Via (18). Frank Brown identified successive phases from c. 620 BC."
+  },
+  {
+   "id": "regia_v2",
+   "monument": "regia",
+   "name": "Regia (mid-Republican)",
+   "from": -389,
+   "to": -149,
+   "builder": null,
+   "template": "compound",
+   "loc": [
+    12.486431,
+    41.891882
+   ],
+   "rot": 18,
+   "w": 26.0,
+   "l": 28.0,
+   "h": 6.5,
+   "footprint": [
+    [
+     12.486327,
+     41.891985
+    ],
+    [
+     12.486323,
+     41.891999
+    ],
+    [
+     12.486362,
+     41.892041
+    ],
+    [
+     12.48662,
+     41.891892
+    ],
+    [
+     12.486574,
+     41.891785
+    ],
+    [
+     12.486321,
+     41.891777
+    ],
+    [
+     12.486241,
+     41.891786
+    ],
+    [
+     12.486271,
+     41.89194
+    ],
+    [
+     12.486291,
+     41.89194
+    ],
+    [
+     12.486327,
+     41.891985
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "court",
+      "x": 0,
+      "y": -4,
+      "w": 26,
+      "l": 20,
+      "h": 6.5,
+      "ringDepth": 6,
+      "z": 0,
+      "mat": "tufa"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 9,
+      "w": 22,
+      "l": 8,
+      "h": 6.5,
+      "z": 0,
+      "mat": "tufa"
+     }
+    ]
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "Rebuilt after the Gallic sack on the old plan.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Ovid",
+     "w": "Tristia",
+     "r": "3.1.30"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis historia",
+     "r": "34.48"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "48.42.4-6"
+    },
+    {
+     "a": "Servius",
+     "w": "ad Aen.",
+     "r": "8.363"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Numa",
+     "r": "14.1"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 328-329",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) IV s.v. Regia (Scott)",
+    "Brown, in Rendiconti della Pontificia Accademia 47 (1974-75)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Digitales Forum Romanum (Humboldt-Universitat zu Berlin), phase reconstructions"
+   ],
+   "note": ""
+  },
+  {
+   "id": "regia_v3",
+   "monument": "regia",
+   "name": "Regia (after the fire of 148 BC)",
+   "from": -148,
+   "to": -37,
+   "builder": null,
+   "template": "compound",
+   "loc": [
+    12.486431,
+    41.891882
+   ],
+   "rot": 18,
+   "w": 26.0,
+   "l": 28.0,
+   "h": 7.0,
+   "footprint": [
+    [
+     12.486327,
+     41.891985
+    ],
+    [
+     12.486323,
+     41.891999
+    ],
+    [
+     12.486362,
+     41.892041
+    ],
+    [
+     12.48662,
+     41.891892
+    ],
+    [
+     12.486574,
+     41.891785
+    ],
+    [
+     12.486321,
+     41.891777
+    ],
+    [
+     12.486241,
+     41.891786
+    ],
+    [
+     12.486271,
+     41.89194
+    ],
+    [
+     12.486291,
+     41.89194
+    ],
+    [
+     12.486327,
+     41.891985
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "court",
+      "x": 0,
+      "y": -4,
+      "w": 26,
+      "l": 20,
+      "h": 7,
+      "ringDepth": 6,
+      "z": 0,
+      "mat": "tufa"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 9,
+      "w": 22,
+      "l": 8,
+      "h": 7,
+      "z": 0,
+      "mat": "tufa"
+     }
+    ]
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "Rebuilt after a fire in 148 BC; the official residence of Caesar as pontifex maximus lay next door in the Domus Publica.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Ovid",
+     "w": "Tristia",
+     "r": "3.1.30"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis historia",
+     "r": "34.48"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "48.42.4-6"
+    },
+    {
+     "a": "Servius",
+     "w": "ad Aen.",
+     "r": "8.363"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Numa",
+     "r": "14.1"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 328-329",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) IV s.v. Regia (Scott)",
+    "Brown, in Rendiconti della Pontificia Accademia 47 (1974-75)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Digitales Forum Romanum (Humboldt-Universitat zu Berlin), phase reconstructions"
+   ],
+   "note": ""
+  },
+  {
+   "id": "regia_v4",
+   "monument": "regia",
+   "name": "Regia (marble rebuilding of Domitius Calvinus)",
+   "from": -36,
+   "to": 9999,
+   "builder": null,
+   "template": "compound",
+   "loc": [
+    12.486431,
+    41.891882
+   ],
+   "rot": 18,
+   "w": 26.0,
+   "l": 28.0,
+   "h": 8.0,
+   "footprint": [
+    [
+     12.486327,
+     41.891985
+    ],
+    [
+     12.486323,
+     41.891999
+    ],
+    [
+     12.486362,
+     41.892041
+    ],
+    [
+     12.48662,
+     41.891892
+    ],
+    [
+     12.486574,
+     41.891785
+    ],
+    [
+     12.486321,
+     41.891777
+    ],
+    [
+     12.486241,
+     41.891786
+    ],
+    [
+     12.486271,
+     41.89194
+    ],
+    [
+     12.486291,
+     41.89194
+    ],
+    [
+     12.486327,
+     41.891985
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "court",
+      "x": 0,
+      "y": -4,
+      "w": 26,
+      "l": 20,
+      "h": 8,
+      "ringDepth": 6,
+      "z": 0,
+      "mat": "marble_white"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 9,
+      "w": 22,
+      "l": 8,
+      "h": 8,
+      "z": 0,
+      "mat": "marble_white"
+     }
+    ]
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "Cn. Domitius Calvinus rebuilt the Regia in marble after his Spanish triumph of 36 BC; its walls carried the inscribed Fasti consulares and triumphales according to one view. Restored after the fire of 191.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Ovid",
+     "w": "Tristia",
+     "r": "3.1.30"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis historia",
+     "r": "34.48"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "48.42.4-6"
+    },
+    {
+     "a": "Servius",
+     "w": "ad Aen.",
+     "r": "8.363"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Numa",
+     "r": "14.1"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 328-329",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) IV s.v. Regia (Scott)",
+    "Brown, in Rendiconti della Pontificia Accademia 47 (1974-75)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Digitales Forum Romanum (Humboldt-Universitat zu Berlin), phase reconstructions"
+   ],
+   "note": ""
+  },
+  {
+   "id": "temple_vesta_v1",
+   "monument": "temple_of_vesta",
+   "name": "Temple of Vesta (archaic)",
+   "from": -509,
+   "to": -391,
+   "builder": "numa_pompilius",
+   "template": "tholos",
+   "loc": [
+    12.486197,
+    41.891694
+   ],
+   "rot": 114,
+   "w": 10.0,
+   "l": 10.0,
+   "h": 7.0,
+   "params": {
+    "diameter": 10.0,
+    "columns": 0,
+    "colH": 0,
+    "podium": 1.0,
+    "roof": "cone",
+    "order": "tuscan",
+    "mat": {
+     "podium": "tufa",
+     "columns": "timber",
+     "walls": "stucco",
+     "roof": "thatch"
+    }
+   },
+   "importance": 4,
+   "certainty": "conjectural",
+   "summary": "The round shrine of the sacred hearth, said to recall the huts of early Latium: wattle, timber and thatch around the eternal fire tended by the Vestal Virgins; inside no statue, only the fire and the penus with the Palladium.",
+   "phases": [
+    {
+     "y": -390,
+     "t": "Vestals flee with the sacra to Caere; temple burned by the Gauls"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "6.257-282"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "5.39-40"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "26.27.14"
+    },
+    {
+     "a": "Valerius Maximus",
+     "w": "Facta et dicta",
+     "r": "1.4.5"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "54.24.2"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annales",
+     "r": "15.41"
+    },
+    {
+     "a": "Herodian",
+     "w": "Historia",
+     "r": "1.14.4"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Numa",
+     "r": "11"
+    }
+   ],
+   "scholarship": [
+    "Platner and Ashby, A Topographical Dictionary of Ancient Rome (1929) 557-559",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 412-413",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) V s.v. Vesta, aedes (Scott)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Scott, Excavations in the Area Sacra of Vesta (2009)",
+    "Digitales Forum Romanum (Humboldt-Universitat zu Berlin), phase reconstructions"
+   ],
+   "note": "Round temple at the W end of the Atrium Vestae (OSM outline); door toward the east as the sources say, set on the Forum grid at 114."
+  },
+  {
+   "id": "temple_vesta_v2",
+   "monument": "temple_of_vesta",
+   "name": "Temple of Vesta (mid-Republican)",
+   "from": -389,
+   "to": -242,
+   "builder": null,
+   "template": "tholos",
+   "loc": [
+    12.486197,
+    41.891694
+   ],
+   "rot": 114,
+   "w": 11.0,
+   "l": 11.0,
+   "h": 8.0,
+   "params": {
+    "diameter": 11.0,
+    "columns": 0,
+    "colH": 0,
+    "podium": 1.5,
+    "roof": "cone",
+    "order": "tuscan",
+    "mat": {
+     "podium": "tufa",
+     "columns": "timber",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 4,
+   "certainty": "conjectural",
+   "summary": "Rebuilt after the Gallic sack.",
+   "phases": [
+    {
+     "y": -241,
+     "t": "fire; the pontifex L. Caecilius Metellus rescues the Palladium and is blinded"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "6.257-282"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "5.39-40"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "26.27.14"
+    },
+    {
+     "a": "Valerius Maximus",
+     "w": "Facta et dicta",
+     "r": "1.4.5"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "54.24.2"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annales",
+     "r": "15.41"
+    },
+    {
+     "a": "Herodian",
+     "w": "Historia",
+     "r": "1.14.4"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Numa",
+     "r": "11"
+    }
+   ],
+   "scholarship": [
+    "Platner and Ashby, A Topographical Dictionary of Ancient Rome (1929) 557-559",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 412-413",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) V s.v. Vesta, aedes (Scott)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Scott, Excavations in the Area Sacra of Vesta (2009)",
+    "Digitales Forum Romanum (Humboldt-Universitat zu Berlin), phase reconstructions"
+   ],
+   "note": "Round temple at the W end of the Atrium Vestae (OSM outline); door toward the east as the sources say, set on the Forum grid at 114."
+  },
+  {
+   "id": "temple_vesta_v3",
+   "monument": "temple_of_vesta",
+   "name": "Temple of Vesta (late Republican)",
+   "from": -240,
+   "to": -15,
+   "builder": null,
+   "template": "tholos",
+   "loc": [
+    12.486197,
+    41.891694
+   ],
+   "rot": 114,
+   "w": 13.0,
+   "l": 13.0,
+   "h": 12.0,
+   "params": {
+    "diameter": 13.0,
+    "columns": 18,
+    "colH": 7.5,
+    "podium": 2.0,
+    "roof": "cone",
+    "order": "corinthian",
+    "mat": {
+     "podium": "tufa",
+     "columns": "tufa",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 4,
+   "certainty": "conjectural",
+   "summary": "Rebuilt after the fire of 241 BC; saved by slaves in the fire of 210 BC.",
+   "phases": [
+    {
+     "y": -210,
+     "t": "fire in the Forum; temple saved"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "6.257-282"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "5.39-40"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "26.27.14"
+    },
+    {
+     "a": "Valerius Maximus",
+     "w": "Facta et dicta",
+     "r": "1.4.5"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "54.24.2"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annales",
+     "r": "15.41"
+    },
+    {
+     "a": "Herodian",
+     "w": "Historia",
+     "r": "1.14.4"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Numa",
+     "r": "11"
+    }
+   ],
+   "scholarship": [
+    "Platner and Ashby, A Topographical Dictionary of Ancient Rome (1929) 557-559",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 412-413",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) V s.v. Vesta, aedes (Scott)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Scott, Excavations in the Area Sacra of Vesta (2009)",
+    "Digitales Forum Romanum (Humboldt-Universitat zu Berlin), phase reconstructions"
+   ],
+   "note": "Round temple at the W end of the Atrium Vestae (OSM outline); door toward the east as the sources say, set on the Forum grid at 114."
+  },
+  {
+   "id": "temple_vesta_v4",
+   "monument": "temple_of_vesta",
+   "name": "Temple of Vesta (Augustan)",
+   "from": -13,
+   "to": 63,
+   "builder": "augustus",
+   "template": "tholos",
+   "loc": [
+    12.486197,
+    41.891694
+   ],
+   "rot": 114,
+   "w": 14.0,
+   "l": 14.0,
+   "h": 14.0,
+   "params": {
+    "diameter": 14.0,
+    "columns": 20,
+    "colH": 8.5,
+    "podium": 2.5,
+    "roof": "cone",
+    "order": "corinthian",
+    "mat": {
+     "podium": "concrete_faced",
+     "columns": "marble_white",
+     "walls": "marble_white",
+     "roof": "bronze"
+    }
+   },
+   "importance": 4,
+   "certainty": "reconstructed",
+   "summary": "Restored after the fire of 14 BC, when the Vestals carried the sacra to the Palatine; Augustus, as pontifex maximus from 12 BC, also set up a shrine of Vesta in his house.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "6.257-282"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "5.39-40"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "26.27.14"
+    },
+    {
+     "a": "Valerius Maximus",
+     "w": "Facta et dicta",
+     "r": "1.4.5"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "54.24.2"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annales",
+     "r": "15.41"
+    },
+    {
+     "a": "Herodian",
+     "w": "Historia",
+     "r": "1.14.4"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Numa",
+     "r": "11"
+    }
+   ],
+   "scholarship": [
+    "Platner and Ashby, A Topographical Dictionary of Ancient Rome (1929) 557-559",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 412-413",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) V s.v. Vesta, aedes (Scott)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Scott, Excavations in the Area Sacra of Vesta (2009)",
+    "Digitales Forum Romanum (Humboldt-Universitat zu Berlin), phase reconstructions"
+   ],
+   "note": "Round temple at the W end of the Atrium Vestae (OSM outline); door toward the east as the sources say, set on the Forum grid at 114."
+  },
+  {
+   "id": "temple_vesta_v5",
+   "monument": "temple_of_vesta",
+   "name": "Temple of Vesta (Neronian-Flavian)",
+   "from": 68,
+   "to": 190,
+   "begun": 65,
+   "builder": null,
+   "template": "tholos",
+   "loc": [
+    12.486197,
+    41.891694
+   ],
+   "rot": 114,
+   "w": 15.0,
+   "l": 15.0,
+   "h": 15.0,
+   "params": {
+    "diameter": 15.0,
+    "columns": 20,
+    "colH": 9.0,
+    "podium": 3.0,
+    "roof": "cone",
+    "order": "corinthian",
+    "mat": {
+     "podium": "concrete_faced",
+     "columns": "marble_white",
+     "walls": "marble_white",
+     "roof": "bronze"
+    }
+   },
+   "importance": 4,
+   "certainty": "reconstructed",
+   "summary": "Rebuilt after the fire of 64, which reached the temple of Vesta with the penates of the Roman people.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "6.257-282"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "5.39-40"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "26.27.14"
+    },
+    {
+     "a": "Valerius Maximus",
+     "w": "Facta et dicta",
+     "r": "1.4.5"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "54.24.2"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annales",
+     "r": "15.41"
+    },
+    {
+     "a": "Herodian",
+     "w": "Historia",
+     "r": "1.14.4"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Numa",
+     "r": "11"
+    }
+   ],
+   "scholarship": [
+    "Platner and Ashby, A Topographical Dictionary of Ancient Rome (1929) 557-559",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 412-413",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) V s.v. Vesta, aedes (Scott)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Scott, Excavations in the Area Sacra of Vesta (2009)",
+    "Digitales Forum Romanum (Humboldt-Universitat zu Berlin), phase reconstructions"
+   ],
+   "note": "Round temple at the W end of the Atrium Vestae (OSM outline); door toward the east as the sources say, set on the Forum grid at 114."
+  },
+  {
+   "id": "temple_vesta_v6",
+   "monument": "temple_of_vesta",
+   "name": "Temple of Vesta (Severan)",
+   "from": 192,
+   "to": 9999,
+   "begun": 191,
+   "builder": "julia_domna",
+   "template": "tholos",
+   "loc": [
+    12.486197,
+    41.891694
+   ],
+   "rot": 114,
+   "w": 15.05,
+   "l": 15.05,
+   "h": 16.0,
+   "params": {
+    "diameter": 15.05,
+    "columns": 20,
+    "colH": 9.4,
+    "podium": 3.0,
+    "roof": "cone",
+    "order": "corinthian",
+    "mat": {
+     "podium": "concrete_faced",
+     "columns": "marble_white",
+     "walls": "marble_white",
+     "roof": "bronze"
+    }
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "Julia Domna's rebuilding after the fire of 191 (the Palladium was carried to the Palatine): a podium 15 m across, twenty Corinthian columns with a frieze of cult implements, and a conical bronze roof with a smoke vent. Closed by Theodosius in 394; part was re-erected in 1930.",
+   "phases": [
+    {
+     "y": 191,
+     "t": "fire under Commodus"
+    },
+    {
+     "y": 394,
+     "t": "Vestal cult abolished, fire extinguished"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "6.257-282"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "5.39-40"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "26.27.14"
+    },
+    {
+     "a": "Valerius Maximus",
+     "w": "Facta et dicta",
+     "r": "1.4.5"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "54.24.2"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annales",
+     "r": "15.41"
+    },
+    {
+     "a": "Herodian",
+     "w": "Historia",
+     "r": "1.14.4"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Numa",
+     "r": "11"
+    }
+   ],
+   "scholarship": [
+    "Platner and Ashby, A Topographical Dictionary of Ancient Rome (1929) 557-559",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 412-413",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) V s.v. Vesta, aedes (Scott)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Scott, Excavations in the Area Sacra of Vesta (2009)",
+    "Digitales Forum Romanum (Humboldt-Universitat zu Berlin), phase reconstructions"
+   ],
+   "note": "Round temple at the W end of the Atrium Vestae (OSM outline); door toward the east as the sources say, set on the Forum grid at 114."
+  },
+  {
+   "id": "atrium_vestae_v1",
+   "monument": "atrium_vestae",
+   "name": "Atrium Vestae (Republican)",
+   "from": -509,
+   "to": -13,
+   "builder": null,
+   "template": "compound",
+   "loc": [
+    12.486262,
+    41.891512
+   ],
+   "rot": 294.6,
+   "w": 22.0,
+   "l": 30.0,
+   "h": 7.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "court",
+      "x": 0,
+      "y": 0,
+      "w": 22.0,
+      "l": 30.0,
+      "h": 7.0,
+      "ringDepth": 8,
+      "z": 0,
+      "mat": "tufa"
+     }
+    ]
+   },
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "The Republican house of the six Vestal Virgins, a modest atrium house beside the temple and the Regia, on a different orientation from the later palace.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Aulus Gellius",
+     "w": "Noctes Atticae",
+     "r": "1.12.9"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "54.27.3"
+    },
+    {
+     "a": "Pliny the Younger",
+     "w": "Epistulae",
+     "r": "7.19"
+    },
+    {
+     "a": "Symmachus",
+     "w": "Epistulae",
+     "r": "9.147-148"
+    }
+   ],
+   "scholarship": [
+    "Platner and Ashby, A Topographical Dictionary of Ancient Rome (1929) 58-60",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 42-44",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) I s.v. Atrium Vestae (Scott)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Scott, Excavations in the Area Sacra of Vesta (2009)",
+    "Digitales Forum Romanum (Humboldt-Universitat zu Berlin), phase reconstructions"
+   ],
+   "note": "Front (entrance) toward the Temple of Vesta, WNW (294.6), along the long axis of the excavated house (OSM outline 104 x 54.5 m)."
+  },
+  {
+   "id": "atrium_vestae_v2",
+   "monument": "atrium_vestae",
+   "name": "Atrium Vestae (Augustan)",
+   "from": -12,
+   "to": 64,
+   "builder": "augustus",
+   "template": "compound",
+   "loc": [
+    12.486394,
+    41.891467
+   ],
+   "rot": 294.6,
+   "w": 32.0,
+   "l": 62.0,
+   "h": 9.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "court",
+      "x": 0,
+      "y": 0,
+      "w": 32.0,
+      "l": 62.0,
+      "h": 9.0,
+      "ringDepth": 10,
+      "z": 0,
+      "mat": "tufa"
+     }
+    ]
+   },
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "When Augustus became pontifex maximus in 12 BC he gave the Domus Publica to the Vestals, and the house was enlarged.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Aulus Gellius",
+     "w": "Noctes Atticae",
+     "r": "1.12.9"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "54.27.3"
+    },
+    {
+     "a": "Pliny the Younger",
+     "w": "Epistulae",
+     "r": "7.19"
+    },
+    {
+     "a": "Symmachus",
+     "w": "Epistulae",
+     "r": "9.147-148"
+    }
+   ],
+   "scholarship": [
+    "Platner and Ashby, A Topographical Dictionary of Ancient Rome (1929) 58-60",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 42-44",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) I s.v. Atrium Vestae (Scott)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Scott, Excavations in the Area Sacra of Vesta (2009)",
+    "Digitales Forum Romanum (Humboldt-Universitat zu Berlin), phase reconstructions"
+   ],
+   "note": "Front (entrance) toward the Temple of Vesta, WNW (294.6), along the long axis of the excavated house (OSM outline 104 x 54.5 m)."
+  },
+  {
+   "id": "atrium_vestae_v3",
+   "monument": "atrium_vestae",
+   "name": "Atrium Vestae (Neronian-Flavian)",
+   "from": 68,
+   "to": 112,
+   "begun": 65,
+   "builder": null,
+   "template": "compound",
+   "loc": [
+    12.486525,
+    41.891422
+   ],
+   "rot": 294.6,
+   "w": 45.0,
+   "l": 85.0,
+   "h": 10.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "court",
+      "x": 0,
+      "y": 0,
+      "w": 45.0,
+      "l": 85.0,
+      "h": 10.0,
+      "ringDepth": 10,
+      "z": 0,
+      "mat": "brick"
+     }
+    ]
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "Rebuilt after the fire of 64 on the new orientation of the Neronian Sacra Via, around a long courtyard with pools.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Aulus Gellius",
+     "w": "Noctes Atticae",
+     "r": "1.12.9"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "54.27.3"
+    },
+    {
+     "a": "Pliny the Younger",
+     "w": "Epistulae",
+     "r": "7.19"
+    },
+    {
+     "a": "Symmachus",
+     "w": "Epistulae",
+     "r": "9.147-148"
+    }
+   ],
+   "scholarship": [
+    "Platner and Ashby, A Topographical Dictionary of Ancient Rome (1929) 58-60",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 42-44",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) I s.v. Atrium Vestae (Scott)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Scott, Excavations in the Area Sacra of Vesta (2009)",
+    "Digitales Forum Romanum (Humboldt-Universitat zu Berlin), phase reconstructions"
+   ],
+   "note": "Front (entrance) toward the Temple of Vesta, WNW (294.6), along the long axis of the excavated house (OSM outline 104 x 54.5 m)."
+  },
+  {
+   "id": "atrium_vestae_v4",
+   "monument": "atrium_vestae",
+   "name": "Atrium Vestae (Trajanic-Hadrianic)",
+   "from": 113,
+   "to": 191,
+   "builder": null,
+   "template": "compound",
+   "loc": [
+    12.486613,
+    41.891392
+   ],
+   "rot": 294.6,
+   "w": 54.5,
+   "l": 104.0,
+   "h": 12.0,
+   "footprint": [
+    [
+     12.486764,
+     41.891071
+    ],
+    [
+     12.487049,
+     41.89098
+    ],
+    [
+     12.487201,
+     41.891225
+    ],
+    [
+     12.487171,
+     41.891233
+    ],
+    [
+     12.487279,
+     41.891425
+    ],
+    [
+     12.48696,
+     41.891532
+    ],
+    [
+     12.486955,
+     41.891546
+    ],
+    [
+     12.486949,
+     41.891536
+    ],
+    [
+     12.486894,
+     41.891555
+    ],
+    [
+     12.486866,
+     41.891511
+    ],
+    [
+     12.486814,
+     41.891528
+    ],
+    [
+     12.486834,
+     41.891562
+    ],
+    [
+     12.486822,
+     41.891565
+    ],
+    [
+     12.486802,
+     41.891532
+    ],
+    [
+     12.486756,
+     41.891548
+    ],
+    [
+     12.486775,
+     41.891578
+    ],
+    [
+     12.486763,
+     41.891582
+    ],
+    [
+     12.486745,
+     41.891551
+    ],
+    [
+     12.486695,
+     41.891568
+    ],
+    [
+     12.486731,
+     41.891621
+    ],
+    [
+     12.486713,
+     41.891628
+    ],
+    [
+     12.486683,
+     41.891572
+    ],
+    [
+     12.486637,
+     41.891587
+    ],
+    [
+     12.486672,
+     41.891643
+    ],
+    [
+     12.486655,
+     41.891648
+    ],
+    [
+     12.486626,
+     41.891591
+    ],
+    [
+     12.486576,
+     41.891608
+    ],
+    [
+     12.486613,
+     41.891663
+    ],
+    [
+     12.486597,
+     41.891669
+    ],
+    [
+     12.486566,
+     41.891611
+    ],
+    [
+     12.486519,
+     41.891627
+    ],
+    [
+     12.48654,
+     41.89166
+    ],
+    [
+     12.486527,
+     41.891665
+    ],
+    [
+     12.486465,
+     41.891557
+    ],
+    [
+     12.486305,
+     41.89161
+    ],
+    [
+     12.486283,
+     41.891572
+    ],
+    [
+     12.486139,
+     41.891626
+    ],
+    [
+     12.486115,
+     41.891612
+    ],
+    [
+     12.486092,
+     41.89162
+    ],
+    [
+     12.486104,
+     41.891659
+    ],
+    [
+     12.486089,
+     41.891664
+    ],
+    [
+     12.486045,
+     41.891517
+    ],
+    [
+     12.486023,
+     41.891357
+    ],
+    [
+     12.486705,
+     41.891123
+    ],
+    [
+     12.486706,
+     41.89109
+    ],
+    [
+     12.486764,
+     41.891071
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "court",
+      "x": 0,
+      "y": 0,
+      "w": 54.5,
+      "l": 104.0,
+      "h": 12.0,
+      "ringDepth": 11,
+      "z": 0,
+      "mat": "brick"
+     }
+    ]
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "Enlarged under Trajan and Hadrian into a palace of some fifty rooms on two or more floors around a colonnaded court 69 m long with gardens and three pools, with the tablinum and six rooms for the Vestals at the east end.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Aulus Gellius",
+     "w": "Noctes Atticae",
+     "r": "1.12.9"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "54.27.3"
+    },
+    {
+     "a": "Pliny the Younger",
+     "w": "Epistulae",
+     "r": "7.19"
+    },
+    {
+     "a": "Symmachus",
+     "w": "Epistulae",
+     "r": "9.147-148"
+    }
+   ],
+   "scholarship": [
+    "Platner and Ashby, A Topographical Dictionary of Ancient Rome (1929) 58-60",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 42-44",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) I s.v. Atrium Vestae (Scott)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Scott, Excavations in the Area Sacra of Vesta (2009)",
+    "Digitales Forum Romanum (Humboldt-Universitat zu Berlin), phase reconstructions"
+   ],
+   "note": "Front (entrance) toward the Temple of Vesta, WNW (294.6), along the long axis of the excavated house (OSM outline 104 x 54.5 m)."
+  },
+  {
+   "id": "atrium_vestae_v5",
+   "monument": "atrium_vestae",
+   "name": "Atrium Vestae (Severan)",
+   "from": 192,
+   "to": 393,
+   "begun": 191,
+   "builder": null,
+   "template": "compound",
+   "loc": [
+    12.486613,
+    41.891392
+   ],
+   "rot": 294.6,
+   "w": 54.5,
+   "l": 104.0,
+   "h": 15.0,
+   "footprint": [
+    [
+     12.486764,
+     41.891071
+    ],
+    [
+     12.487049,
+     41.89098
+    ],
+    [
+     12.487201,
+     41.891225
+    ],
+    [
+     12.487171,
+     41.891233
+    ],
+    [
+     12.487279,
+     41.891425
+    ],
+    [
+     12.48696,
+     41.891532
+    ],
+    [
+     12.486955,
+     41.891546
+    ],
+    [
+     12.486949,
+     41.891536
+    ],
+    [
+     12.486894,
+     41.891555
+    ],
+    [
+     12.486866,
+     41.891511
+    ],
+    [
+     12.486814,
+     41.891528
+    ],
+    [
+     12.486834,
+     41.891562
+    ],
+    [
+     12.486822,
+     41.891565
+    ],
+    [
+     12.486802,
+     41.891532
+    ],
+    [
+     12.486756,
+     41.891548
+    ],
+    [
+     12.486775,
+     41.891578
+    ],
+    [
+     12.486763,
+     41.891582
+    ],
+    [
+     12.486745,
+     41.891551
+    ],
+    [
+     12.486695,
+     41.891568
+    ],
+    [
+     12.486731,
+     41.891621
+    ],
+    [
+     12.486713,
+     41.891628
+    ],
+    [
+     12.486683,
+     41.891572
+    ],
+    [
+     12.486637,
+     41.891587
+    ],
+    [
+     12.486672,
+     41.891643
+    ],
+    [
+     12.486655,
+     41.891648
+    ],
+    [
+     12.486626,
+     41.891591
+    ],
+    [
+     12.486576,
+     41.891608
+    ],
+    [
+     12.486613,
+     41.891663
+    ],
+    [
+     12.486597,
+     41.891669
+    ],
+    [
+     12.486566,
+     41.891611
+    ],
+    [
+     12.486519,
+     41.891627
+    ],
+    [
+     12.48654,
+     41.89166
+    ],
+    [
+     12.486527,
+     41.891665
+    ],
+    [
+     12.486465,
+     41.891557
+    ],
+    [
+     12.486305,
+     41.89161
+    ],
+    [
+     12.486283,
+     41.891572
+    ],
+    [
+     12.486139,
+     41.891626
+    ],
+    [
+     12.486115,
+     41.891612
+    ],
+    [
+     12.486092,
+     41.89162
+    ],
+    [
+     12.486104,
+     41.891659
+    ],
+    [
+     12.486089,
+     41.891664
+    ],
+    [
+     12.486045,
+     41.891517
+    ],
+    [
+     12.486023,
+     41.891357
+    ],
+    [
+     12.486705,
+     41.891123
+    ],
+    [
+     12.486706,
+     41.89109
+    ],
+    [
+     12.486764,
+     41.891071
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "court",
+      "x": 0,
+      "y": 0,
+      "w": 54.5,
+      "l": 104.0,
+      "h": 15.0,
+      "ringDepth": 11,
+      "z": 0,
+      "mat": "brick"
+     }
+    ]
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "Restored after the fire of 191 with an upper floor; statues of the chief Vestals (Vestales Maximae) with honorific inscriptions lined the court.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Aulus Gellius",
+     "w": "Noctes Atticae",
+     "r": "1.12.9"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "54.27.3"
+    },
+    {
+     "a": "Pliny the Younger",
+     "w": "Epistulae",
+     "r": "7.19"
+    },
+    {
+     "a": "Symmachus",
+     "w": "Epistulae",
+     "r": "9.147-148"
+    }
+   ],
+   "scholarship": [
+    "Platner and Ashby, A Topographical Dictionary of Ancient Rome (1929) 58-60",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 42-44",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) I s.v. Atrium Vestae (Scott)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Scott, Excavations in the Area Sacra of Vesta (2009)",
+    "Digitales Forum Romanum (Humboldt-Universitat zu Berlin), phase reconstructions"
+   ],
+   "note": "Front (entrance) toward the Temple of Vesta, WNW (294.6), along the long axis of the excavated house (OSM outline 104 x 54.5 m)."
+  },
+  {
+   "id": "atrium_vestae_v6",
+   "monument": "atrium_vestae",
+   "name": "Atrium Vestae (after the Vestals)",
+   "from": 394,
+   "to": 9999,
+   "builder": null,
+   "template": "compound",
+   "loc": [
+    12.486613,
+    41.891392
+   ],
+   "rot": 294.6,
+   "w": 54.5,
+   "l": 104.0,
+   "h": 15.0,
+   "footprint": [
+    [
+     12.486764,
+     41.891071
+    ],
+    [
+     12.487049,
+     41.89098
+    ],
+    [
+     12.487201,
+     41.891225
+    ],
+    [
+     12.487171,
+     41.891233
+    ],
+    [
+     12.487279,
+     41.891425
+    ],
+    [
+     12.48696,
+     41.891532
+    ],
+    [
+     12.486955,
+     41.891546
+    ],
+    [
+     12.486949,
+     41.891536
+    ],
+    [
+     12.486894,
+     41.891555
+    ],
+    [
+     12.486866,
+     41.891511
+    ],
+    [
+     12.486814,
+     41.891528
+    ],
+    [
+     12.486834,
+     41.891562
+    ],
+    [
+     12.486822,
+     41.891565
+    ],
+    [
+     12.486802,
+     41.891532
+    ],
+    [
+     12.486756,
+     41.891548
+    ],
+    [
+     12.486775,
+     41.891578
+    ],
+    [
+     12.486763,
+     41.891582
+    ],
+    [
+     12.486745,
+     41.891551
+    ],
+    [
+     12.486695,
+     41.891568
+    ],
+    [
+     12.486731,
+     41.891621
+    ],
+    [
+     12.486713,
+     41.891628
+    ],
+    [
+     12.486683,
+     41.891572
+    ],
+    [
+     12.486637,
+     41.891587
+    ],
+    [
+     12.486672,
+     41.891643
+    ],
+    [
+     12.486655,
+     41.891648
+    ],
+    [
+     12.486626,
+     41.891591
+    ],
+    [
+     12.486576,
+     41.891608
+    ],
+    [
+     12.486613,
+     41.891663
+    ],
+    [
+     12.486597,
+     41.891669
+    ],
+    [
+     12.486566,
+     41.891611
+    ],
+    [
+     12.486519,
+     41.891627
+    ],
+    [
+     12.48654,
+     41.89166
+    ],
+    [
+     12.486527,
+     41.891665
+    ],
+    [
+     12.486465,
+     41.891557
+    ],
+    [
+     12.486305,
+     41.89161
+    ],
+    [
+     12.486283,
+     41.891572
+    ],
+    [
+     12.486139,
+     41.891626
+    ],
+    [
+     12.486115,
+     41.891612
+    ],
+    [
+     12.486092,
+     41.89162
+    ],
+    [
+     12.486104,
+     41.891659
+    ],
+    [
+     12.486089,
+     41.891664
+    ],
+    [
+     12.486045,
+     41.891517
+    ],
+    [
+     12.486023,
+     41.891357
+    ],
+    [
+     12.486705,
+     41.891123
+    ],
+    [
+     12.486706,
+     41.89109
+    ],
+    [
+     12.486764,
+     41.891071
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "court",
+      "x": 0,
+      "y": 0,
+      "w": 54.5,
+      "l": 104.0,
+      "h": 15.0,
+      "ringDepth": 11,
+      "z": 0,
+      "mat": "brick"
+     }
+    ]
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "After the Vestal order was abolished in 394 the palace was taken over by imperial and later papal officials; a hoard of Anglo-Saxon coins of the 10th century was found in it.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Aulus Gellius",
+     "w": "Noctes Atticae",
+     "r": "1.12.9"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "54.27.3"
+    },
+    {
+     "a": "Pliny the Younger",
+     "w": "Epistulae",
+     "r": "7.19"
+    },
+    {
+     "a": "Symmachus",
+     "w": "Epistulae",
+     "r": "9.147-148"
+    }
+   ],
+   "scholarship": [
+    "Platner and Ashby, A Topographical Dictionary of Ancient Rome (1929) 58-60",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 42-44",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) I s.v. Atrium Vestae (Scott)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Scott, Excavations in the Area Sacra of Vesta (2009)",
+    "Digitales Forum Romanum (Humboldt-Universitat zu Berlin), phase reconstructions"
+   ],
+   "note": "Front (entrance) toward the Temple of Vesta, WNW (294.6), along the long axis of the excavated house (OSM outline 104 x 54.5 m)."
+  },
+  {
+   "id": "domus_publica_v1",
+   "monument": "domus_publica",
+   "name": "Domus Publica",
+   "from": -509,
+   "to": -149,
+   "builder": null,
+   "template": "domus",
+   "loc": [
+    12.487142,
+    41.891601
+   ],
+   "rot": 25,
+   "w": 20.0,
+   "l": 27.0,
+   "h": 7.0,
+   "params": {
+    "atrium": true,
+    "peristyle": null,
+    "storeys": 1
+   },
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "The official house of the pontifex maximus beside the Regia and the house of the Vestals.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Iulius",
+     "r": "46"
+    },
+    {
+     "a": "Cicero",
+     "w": "De haruspicum responso",
+     "r": "12"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 132",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) II s.v. Domus Publica (Scott)",
+    "Digitales Forum Romanum (Humboldt-Universitat zu Berlin), phase reconstructions"
+   ],
+   "note": "Position from the OSM outline; plan schematic."
+  },
+  {
+   "id": "domus_publica_v2",
+   "monument": "domus_publica",
+   "name": "Domus Publica (late Republican)",
+   "from": -148,
+   "to": -13,
+   "builder": null,
+   "template": "domus",
+   "loc": [
+    12.487142,
+    41.891601
+   ],
+   "rot": 25,
+   "w": 20.0,
+   "l": 27.0,
+   "h": 8.0,
+   "params": {
+    "atrium": true,
+    "peristyle": null,
+    "storeys": 2
+   },
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "Rebuilt after 148 BC; Caesar lived here as pontifex maximus from 63 BC and left from it on the Ides of March. The Bona Dea scandal of 62 BC took place in it. Augustus gave it to the Vestals in 12 BC.",
+   "phases": [
+    {
+     "y": -62,
+     "t": "Clodius profanes the Bona Dea rites"
+    },
+    {
+     "y": -44,
+     "t": "Caesar leaves for the Senate on 15 March"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Iulius",
+     "r": "46"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "54.27.3"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Caesar",
+     "r": "9-10"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 132",
+    "Digitales Forum Romanum (Humboldt-Universitat zu Berlin), phase reconstructions"
+   ],
+   "note": ""
+  },
+  {
+   "id": "temple_antoninus_faustina",
+   "monument": "temple_of_antoninus_and_faustina",
+   "name": "Temple of Antoninus and Faustina",
+   "from": 141,
+   "to": 9999,
+   "begun": 141,
+   "builder": "antoninus_pius",
+   "template": "temple",
+   "loc": [
+    12.486596,
+    41.892035
+   ],
+   "rot": 212.9,
+   "w": 20.5,
+   "l": 33.0,
+   "h": 28.9,
+   "params": {
+    "order": "corinthian",
+    "plan": "prostyle",
+    "front": 6,
+    "side": 3,
+    "podium": 5.0,
+    "colH": 17.0,
+    "steps": "front",
+    "mat": {
+     "podium": "concrete_faced",
+     "columns": "marble_color",
+     "walls": "peperino",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "Built by Antoninus Pius for his deified wife Faustina in 141, and rededicated to both after his death in 161: a hexastyle porch of monolithic cipollino columns 17 m high, with a frieze of griffins and candelabra, facing the Sacra Via. Medieval rope grooves mark the columns; the church of San Lorenzo in Miranda was built into it after 641.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Antoninus Pius",
+     "r": "6.7"
+    },
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "1005"
+    }
+   ],
+   "scholarship": [
+    "Platner and Ashby, A Topographical Dictionary of Ancient Rome (1929) 13-14",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 11",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) I s.v. Antoninus, divus, et Faustina, diva, aedes (Cerutti)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": "Facade on the Sacra Via (SSW, 213); centre moved 5 m toward the porch from the OSM outline, which covers only the church-cella."
+  },
+  {
+   "id": "temple_romulus_v1",
+   "monument": "temple_of_divus_romulus",
+   "name": "So-called Temple of Divus Romulus",
+   "from": 309,
+   "to": 526,
+   "builder": "maxentius",
+   "template": "compound",
+   "loc": [
+    12.48721,
+    41.891869
+   ],
+   "rot": 203.9,
+   "w": 32.0,
+   "l": 20.0,
+   "h": 16.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "cylinder",
+      "x": 0,
+      "y": 0,
+      "w": 15,
+      "l": 15,
+      "h": 11,
+      "z": 0,
+      "mat": "brick"
+     },
+     {
+      "shape": "dome",
+      "x": 0,
+      "y": 0,
+      "w": 15,
+      "l": 15,
+      "h": 5,
+      "z": 11,
+      "mat": "lead"
+     },
+     {
+      "shape": "box",
+      "x": -12,
+      "y": 1,
+      "w": 8,
+      "l": 12,
+      "h": 9,
+      "z": 0,
+      "mat": "brick"
+     },
+     {
+      "shape": "box",
+      "x": 12,
+      "y": 1,
+      "w": 8,
+      "l": 12,
+      "h": 9,
+      "z": 0,
+      "mat": "brick"
+     },
+     {
+      "shape": "hemicycle",
+      "x": 0,
+      "y": 6.5,
+      "radius": 10,
+      "depth": 1.5,
+      "angle": 120,
+      "h": 9,
+      "z": 0,
+      "mat": "stucco"
+     }
+    ]
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "A domed brick rotunda on the Sacra Via with a concave facade and two flanking apsed halls, entered through bronze doors between porphyry columns that still turn on their ancient hinges. Traditionally Maxentius' shrine for his deified son Romulus (died 309); it may instead be the temple of the Penates or of Jupiter Stator, or a vestibule of the Urban Prefecture.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Codex-Calendar of 354",
+     "w": "Notitia",
+     "r": "Regio IV"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 333-334",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) IV s.v. Romulus, divus, templum (Fiore)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2nd ed. 2014)"
+   ],
+   "note": "OSM outline; facade on the Sacra Via (204). Rotunda c. 15 m across."
+  },
+  {
+   "id": "temple_romulus_v2",
+   "monument": "temple_of_divus_romulus",
+   "name": "Rotunda as vestibule of Santi Cosma e Damiano",
+   "from": 527,
+   "to": 9999,
+   "builder": null,
+   "template": "compound",
+   "loc": [
+    12.48721,
+    41.891869
+   ],
+   "rot": 203.9,
+   "w": 32.0,
+   "l": 20.0,
+   "h": 16.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "cylinder",
+      "x": 0,
+      "y": 0,
+      "w": 15,
+      "l": 15,
+      "h": 11,
+      "z": 0,
+      "mat": "brick"
+     },
+     {
+      "shape": "dome",
+      "x": 0,
+      "y": 0,
+      "w": 15,
+      "l": 15,
+      "h": 5,
+      "z": 11,
+      "mat": "lead"
+     },
+     {
+      "shape": "box",
+      "x": -12,
+      "y": 1,
+      "w": 8,
+      "l": 12,
+      "h": 9,
+      "z": 0,
+      "mat": "brick"
+     },
+     {
+      "shape": "box",
+      "x": 12,
+      "y": 1,
+      "w": 8,
+      "l": 12,
+      "h": 9,
+      "z": 0,
+      "mat": "brick"
+     },
+     {
+      "shape": "hemicycle",
+      "x": 0,
+      "y": 6.5,
+      "radius": 10,
+      "depth": 1.5,
+      "angle": 120,
+      "h": 9,
+      "z": 0,
+      "mat": "stucco"
+     }
+    ]
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "From 527 the rotunda served as the vestibule to the church of Santi Cosma e Damiano behind it.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "Felix IV"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 333"
+   ],
+   "note": ""
+  },
+  {
+   "id": "santi_cosma_e_damiano_church",
+   "monument": "santi_cosma_e_damiano",
+   "name": "Santi Cosma e Damiano",
+   "from": 527,
+   "to": 9999,
+   "builder": null,
+   "template": "church",
+   "loc": [
+    12.48749,
+    41.892058
+   ],
+   "rot": 229,
+   "w": 26.0,
+   "l": 44.0,
+   "h": 22.0,
+   "params": {
+    "nave": 20,
+    "aisles": 1,
+    "transept": false,
+    "apse": true,
+    "atrium": null,
+    "narthex": false
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "Pope Felix IV, with gifts from Theodoric's daughter Amalasuntha, turned a hall of the Templum Pacis (perhaps the library or the hall of the city survey with the Marble Plan on its wall) into the first church in the Forum, with the great apse mosaic of Christ arriving on clouds between Peter, Paul and the two physician saints.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "Felix IV"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 287",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2nd ed. 2014)"
+   ],
+   "note": "OSM outline of the church (hall of the Templum Pacis); entrance originally through the rotunda on the Sacra Via."
+  },
+  {
+   "id": "basilica_nova_v1",
+   "monument": "basilica_nova",
+   "name": "Basilica of Maxentius",
+   "from": 310,
+   "to": 312,
+   "begun": 307,
+   "builder": "maxentius",
+   "template": "basilica",
+   "loc": [
+    12.488348,
+    41.891823
+   ],
+   "rot": 121.2,
+   "w": 65.0,
+   "l": 100.0,
+   "h": 39.0,
+   "footprint": [
+    [
+     12.489002,
+     41.891689
+    ],
+    [
+     12.489016,
+     41.891711
+    ],
+    [
+     12.489067,
+     41.891718
+    ],
+    [
+     12.489144,
+     41.891827
+    ],
+    [
+     12.489122,
+     41.891848
+    ],
+    [
+     12.489171,
+     41.891925
+    ],
+    [
+     12.48865,
+     41.892088
+    ],
+    [
+     12.488574,
+     41.892193
+    ],
+    [
+     12.488476,
+     41.892234
+    ],
+    [
+     12.488338,
+     41.892234
+    ],
+    [
+     12.488227,
+     41.892179
+    ],
+    [
+     12.487975,
+     41.892263
+    ],
+    [
+     12.487943,
+     41.892245
+    ],
+    [
+     12.487916,
+     41.892059
+    ],
+    [
+     12.487867,
+     41.892078
+    ],
+    [
+     12.487834,
+     41.892025
+    ],
+    [
+     12.487762,
+     41.89205
+    ],
+    [
+     12.487688,
+     41.891981
+    ],
+    [
+     12.48769,
+     41.891928
+    ],
+    [
+     12.487739,
+     41.891889
+    ],
+    [
+     12.487659,
+     41.891722
+    ],
+    [
+     12.48755,
+     41.891761
+    ],
+    [
+     12.48748,
+     41.891742
+    ],
+    [
+     12.487939,
+     41.891584
+    ],
+    [
+     12.48791,
+     41.891546
+    ],
+    [
+     12.488131,
+     41.891474
+    ],
+    [
+     12.488155,
+     41.891504
+    ],
+    [
+     12.488521,
+     41.891382
+    ],
+    [
+     12.488529,
+     41.891396
+    ],
+    [
+     12.488656,
+     41.891384
+    ],
+    [
+     12.488876,
+     41.891729
+    ],
+    [
+     12.489002,
+     41.891689
+    ]
+   ],
+   "params": {
+    "nave": 25,
+    "aisles": 1,
+    "storeys": 1,
+    "facade": "closed",
+    "apses": "end",
+    "clerestory": true,
+    "vaulted": true,
+    "colH": 14.5
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "Maxentius began the largest vaulted hall in Rome about 307 on the site of the Horrea Piperataria: a central nave 80 m long and 35 m high under three groin vaults resting on eight marble columns, flanked by three huge coffered barrel-vaulted bays on each side, entered from the east end facing the Colosseum valley with an apse at the west.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Aurelius Victor",
+     "w": "De Caesaribus",
+     "r": "40.26"
+    },
+    {
+     "a": "Chronographus anni 354",
+     "w": "Chronica urbis Romae"
+    }
+   ],
+   "scholarship": [
+    "Platner and Ashby, A Topographical Dictionary of Ancient Rome (1929) 76-78",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 51-52",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) I s.v. Basilica Constantiniana (Amici)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Giavarini (ed.), La Basilica di Massenzio (2005)"
+   ],
+   "note": "OSM outline (c. 100 x 65 m); original entrance on the ESE short side (121). Finished by Constantine after 312."
+  },
+  {
+   "id": "basilica_nova_v2",
+   "monument": "basilica_nova",
+   "name": "Basilica of Constantine (Basilica Nova)",
+   "from": 313,
+   "to": 9999,
+   "builder": "constantine_i",
+   "template": "basilica",
+   "loc": [
+    12.488348,
+    41.891823
+   ],
+   "rot": 211.2,
+   "w": 100.0,
+   "l": 65.0,
+   "h": 39.0,
+   "footprint": [
+    [
+     12.489002,
+     41.891689
+    ],
+    [
+     12.489016,
+     41.891711
+    ],
+    [
+     12.489067,
+     41.891718
+    ],
+    [
+     12.489144,
+     41.891827
+    ],
+    [
+     12.489122,
+     41.891848
+    ],
+    [
+     12.489171,
+     41.891925
+    ],
+    [
+     12.48865,
+     41.892088
+    ],
+    [
+     12.488574,
+     41.892193
+    ],
+    [
+     12.488476,
+     41.892234
+    ],
+    [
+     12.488338,
+     41.892234
+    ],
+    [
+     12.488227,
+     41.892179
+    ],
+    [
+     12.487975,
+     41.892263
+    ],
+    [
+     12.487943,
+     41.892245
+    ],
+    [
+     12.487916,
+     41.892059
+    ],
+    [
+     12.487867,
+     41.892078
+    ],
+    [
+     12.487834,
+     41.892025
+    ],
+    [
+     12.487762,
+     41.89205
+    ],
+    [
+     12.487688,
+     41.891981
+    ],
+    [
+     12.48769,
+     41.891928
+    ],
+    [
+     12.487739,
+     41.891889
+    ],
+    [
+     12.487659,
+     41.891722
+    ],
+    [
+     12.48755,
+     41.891761
+    ],
+    [
+     12.48748,
+     41.891742
+    ],
+    [
+     12.487939,
+     41.891584
+    ],
+    [
+     12.48791,
+     41.891546
+    ],
+    [
+     12.488131,
+     41.891474
+    ],
+    [
+     12.488155,
+     41.891504
+    ],
+    [
+     12.488521,
+     41.891382
+    ],
+    [
+     12.488529,
+     41.891396
+    ],
+    [
+     12.488656,
+     41.891384
+    ],
+    [
+     12.488876,
+     41.891729
+    ],
+    [
+     12.489002,
+     41.891689
+    ]
+   ],
+   "params": {
+    "nave": 25,
+    "aisles": 1,
+    "storeys": 1,
+    "facade": "closed",
+    "apses": "both",
+    "clerestory": true,
+    "vaulted": true,
+    "colH": 14.5
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "Constantine completed the hall, added a porphyry-columned entrance on the Sacra Via side and a second apse opposite it, and placed his colossal seated statue in the west apse (the head and hand are in the Capitoline Museums). Pope Honorius I took its bronze roof tiles for St Peter's in the 7th century.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Aurelius Victor",
+     "w": "De Caesaribus",
+     "r": "40.26"
+    },
+    {
+     "a": "Chronographus anni 354",
+     "w": "Chronica urbis Romae"
+    },
+    {
+     "a": "Liber Pontificalis",
+     "w": "Honorius I"
+    }
+   ],
+   "scholarship": [
+    "Platner and Ashby, A Topographical Dictionary of Ancient Rome (1929) 76-78",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 51-52",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) I s.v. Basilica Constantiniana (Amici)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Giavarini (ed.), La Basilica di Massenzio (2005)"
+   ],
+   "note": "New main entrance from the Sacra Via (SSW, 211)."
+  },
+  {
+   "id": "horrea_piperataria",
+   "monument": "horrea_piperataria",
+   "name": "Horrea Piperataria",
+   "from": 92,
+   "to": 306,
+   "builder": "domitian",
+   "template": "horrea",
+   "loc": [
+    12.4882,
+    41.89165
+   ],
+   "rot": 211.2,
+   "w": 60.0,
+   "l": 50.0,
+   "h": 12.0,
+   "params": {
+    "court": {
+     "w": 30,
+     "l": 22
+    },
+    "storeys": 2,
+    "mat": {
+     "walls": "brick",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "Domitian's warehouses for pepper and spices from the East on the Sacra Via, burned in 191 when Galen lost his books stored there, and demolished for the Basilica of Maxentius.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Chronographus anni 354",
+     "w": "Chronica urbis Romae"
+    },
+    {
+     "a": "Galen",
+     "w": "De indolentia",
+     "r": "8"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 193",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) III s.v. Horrea Piperataria (Santangeli Valenzani)"
+   ],
+   "note": "Under the Basilica Nova; outline schematic."
+  },
+  {
+   "id": "domus_aurea_vestibule",
+   "monument": "domus_aurea",
+   "name": "Vestibule of the Domus Aurea on the Velia",
+   "from": 68,
+   "to": 120,
+   "begun": 64,
+   "builder": "nero",
+   "template": "porticus",
+   "loc": [
+    12.489657,
+    41.890894
+   ],
+   "rot": 290.4,
+   "w": 110.0,
+   "l": 150.0,
+   "h": 12.0,
+   "params": {
+    "depth": 9,
+    "colH": 9,
+    "double": true,
+    "garden": true
+   },
+   "importance": 4,
+   "certainty": "reconstructed",
+   "summary": "Nero's entrance court to the Golden House on the Velia summit, a vast colonnaded atrium approached by porticoed avenues from the Forum, with the 35 m bronze Colossus of the emperor standing in it. Hadrian cleared it for the Temple of Venus and Rome and moved the Colossus with 24 elephants.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Nero",
+     "r": "31.1"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annales",
+     "r": "15.42"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Hadrianus",
+     "r": "19.12"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 119-121",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) II s.v. Domus Aurea: vestibulum (Panella)",
+    "Carandini (ed.), The Atlas of Ancient Rome (2017)"
+   ],
+   "note": "Assumed to occupy the later temple platform."
+  },
+  {
+   "id": "venus_roma_precinct",
+   "monument": "temple_of_venus_and_roma_mon",
+   "name": "Precinct of the Temple of Venus and Rome",
+   "from": 135,
+   "to": 9999,
+   "begun": 121,
+   "builder": "hadrian",
+   "template": "porticus",
+   "loc": [
+    12.489657,
+    41.890894
+   ],
+   "rot": 290.4,
+   "w": 100.0,
+   "l": 145.0,
+   "h": 8.0,
+   "footprint": [
+    [
+     12.490409,
+     41.891172
+    ],
+    [
+     12.489456,
+     41.891433
+    ],
+    [
+     12.489433,
+     41.891395
+    ],
+    [
+     12.489524,
+     41.891367
+    ],
+    [
+     12.489499,
+     41.891227
+    ],
+    [
+     12.489707,
+     41.89115
+    ],
+    [
+     12.489602,
+     41.891016
+    ],
+    [
+     12.489529,
+     41.891041
+    ],
+    [
+     12.489515,
+     41.891015
+    ],
+    [
+     12.489447,
+     41.891036
+    ],
+    [
+     12.489357,
+     41.890889
+    ],
+    [
+     12.489392,
+     41.890878
+    ],
+    [
+     12.489361,
+     41.890814
+    ],
+    [
+     12.488981,
+     41.890922
+    ],
+    [
+     12.488905,
+     41.890957
+    ],
+    [
+     12.488934,
+     41.891021
+    ],
+    [
+     12.488751,
+     41.891081
+    ],
+    [
+     12.48863,
+     41.890832
+    ],
+    [
+     12.488682,
+     41.890794
+    ],
+    [
+     12.488674,
+     41.890741
+    ],
+    [
+     12.489059,
+     41.890635
+    ],
+    [
+     12.489037,
+     41.890581
+    ],
+    [
+     12.490308,
+     41.890226
+    ],
+    [
+     12.490396,
+     41.890444
+    ],
+    [
+     12.490656,
+     41.890898
+    ],
+    [
+     12.490599,
+     41.890913
+    ],
+    [
+     12.49064,
+     41.890994
+    ],
+    [
+     12.490587,
+     41.891008
+    ],
+    [
+     12.490604,
+     41.891044
+    ],
+    [
+     12.490376,
+     41.891106
+    ],
+    [
+     12.490409,
+     41.891172
+    ]
+   ],
+   "params": {
+    "depth": 7,
+    "colH": 7.5,
+    "double": false,
+    "garden": false,
+    "sides": [
+     "e",
+     "w"
+    ]
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "The terrace 145 x 100 m raised on the Velia over the Neronian vestibule, with colonnades of grey granite along its long sides and propylaea toward the Colosseum.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "69.4.3-5"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Hadrianus",
+     "r": "19.12"
+    },
+    {
+     "a": "Aurelius Victor",
+     "w": "De Caesaribus",
+     "r": "40.26"
+    },
+    {
+     "a": "Prudentius",
+     "w": "Contra Symmachum",
+     "r": "1.214-221"
+    },
+    {
+     "a": "Liber Pontificalis",
+     "w": "Honorius I"
+    },
+    {
+     "a": "Ammianus Marcellinus",
+     "w": "Res gestae",
+     "r": "16.10.14"
+    }
+   ],
+   "scholarship": [
+    "Platner and Ashby, A Topographical Dictionary of Ancient Rome (1929) 552-554",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 409-411",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) V s.v. Venus et Roma, aedes, templum (Cassatella)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Cassatella and Panella, in Archeologia Laziale 10 (1990)"
+   ],
+   "note": "Footprint from the OSM outline of the archaeological area."
+  },
+  {
+   "id": "temple_venus_roma_v1",
+   "monument": "temple_of_venus_and_roma_mon",
+   "name": "Temple of Venus and Rome (Hadrianic)",
+   "from": 135,
+   "to": 306,
+   "begun": 121,
+   "builder": "hadrian",
+   "template": "temple",
+   "loc": [
+    12.489657,
+    41.890894
+   ],
+   "rot": 290.4,
+   "w": 53.0,
+   "l": 110.0,
+   "h": 32.0,
+   "params": {
+    "order": "corinthian",
+    "plan": "peripteral",
+    "front": 10,
+    "side": 20,
+    "podium": 2.5,
+    "colH": 17.7,
+    "steps": "front_full",
+    "cella": {
+     "w": 33,
+     "l": 90
+    },
+    "mat": {
+     "podium": "marble_white",
+     "columns": "marble_white",
+     "walls": "marble_white",
+     "roof": "gilded"
+    }
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "Hadrian's own design, founded on the Parilia of 121 and dedicated about 135, the largest temple in Rome: a Greek-style decastyle peripteral temple 110 x 53 m on a stepped base, with two cellae back to back, Venus Felix facing the Colosseum and Roma Aeterna facing the Forum. Apollodorus' criticism of its proportions reputedly cost him his life.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "69.4.3-5"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Hadrianus",
+     "r": "19.12"
+    },
+    {
+     "a": "Aurelius Victor",
+     "w": "De Caesaribus",
+     "r": "40.26"
+    },
+    {
+     "a": "Prudentius",
+     "w": "Contra Symmachum",
+     "r": "1.214-221"
+    },
+    {
+     "a": "Liber Pontificalis",
+     "w": "Honorius I"
+    },
+    {
+     "a": "Ammianus Marcellinus",
+     "w": "Res gestae",
+     "r": "16.10.14"
+    }
+   ],
+   "scholarship": [
+    "Platner and Ashby, A Topographical Dictionary of Ancient Rome (1929) 552-554",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 409-411",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) V s.v. Venus et Roma, aedes, templum (Cassatella)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Cassatella and Panella, in Archeologia Laziale 10 (1990)"
+   ],
+   "note": "Bearing given for the Roma cella facing the Forum (WNW, 290); the Venus cella faced the opposite way (110). Column height c. 17.7 m (estimated from 1.8 m diameter)."
+  },
+  {
+   "id": "temple_venus_roma_v2",
+   "monument": "temple_of_venus_and_roma_mon",
+   "name": "Temple of Venus and Rome (Maxentian)",
+   "from": 312,
+   "to": 9999,
+   "begun": 307,
+   "builder": "maxentius",
+   "template": "temple",
+   "loc": [
+    12.489657,
+    41.890894
+   ],
+   "rot": 290.4,
+   "w": 53.0,
+   "l": 110.0,
+   "h": 32.0,
+   "params": {
+    "order": "corinthian",
+    "plan": "peripteral",
+    "front": 10,
+    "side": 20,
+    "podium": 2.5,
+    "colH": 17.7,
+    "steps": "front_full",
+    "cella": {
+     "w": 33,
+     "l": 90
+    },
+    "mat": {
+     "podium": "marble_white",
+     "columns": "marble_white",
+     "walls": "marble_white",
+     "roof": "gilded"
+    }
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "After a fire in 307 Maxentius rebuilt the cellae with back-to-back apses and coffered vaults, walls of brick faced with porphyry and other coloured marbles; the Roma apse survives in the convent of Santa Francesca Romana. Pope Honorius I removed its gilded bronze tiles for St Peter's around 630.",
+   "phases": [
+    {
+     "y": 307,
+     "t": "fire"
+    },
+    {
+     "y": 357,
+     "t": "admired by Constantius II on his visit"
+    },
+    {
+     "y": 630,
+     "t": "bronze roof tiles removed by Honorius I"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "69.4.3-5"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Hadrianus",
+     "r": "19.12"
+    },
+    {
+     "a": "Aurelius Victor",
+     "w": "De Caesaribus",
+     "r": "40.26"
+    },
+    {
+     "a": "Prudentius",
+     "w": "Contra Symmachum",
+     "r": "1.214-221"
+    },
+    {
+     "a": "Liber Pontificalis",
+     "w": "Honorius I"
+    },
+    {
+     "a": "Ammianus Marcellinus",
+     "w": "Res gestae",
+     "r": "16.10.14"
+    }
+   ],
+   "scholarship": [
+    "Platner and Ashby, A Topographical Dictionary of Ancient Rome (1929) 552-554",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 409-411",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) V s.v. Venus et Roma, aedes, templum (Cassatella)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Cassatella and Panella, in Archeologia Laziale 10 (1990)"
+   ],
+   "note": ""
+  },
+  {
+   "id": "neronian_porticoes_sacra_via_s",
+   "monument": "neronian_porticoes_sacra_via",
+   "name": "Neronian porticoes of the Sacra Via (south side)",
+   "from": 68,
+   "to": 9999,
+   "begun": 64,
+   "builder": "nero",
+   "template": "colonnade",
+   "loc": [
+    12.48795,
+    41.89125
+   ],
+   "rot": 292.6,
+   "w": 6.0,
+   "l": 240.0,
+   "h": 9.0,
+   "params": {
+    "line": [
+     [
+      12.48705,
+      41.89164
+     ],
+     [
+      12.4875,
+      41.8915
+     ],
+     [
+      12.488,
+      41.89133
+     ],
+     [
+      12.48845,
+      41.89113
+     ],
+     [
+      12.48856,
+      41.89074
+     ]
+    ],
+    "depth": 6,
+    "colH": 8.0
+   },
+   "importance": 2,
+   "certainty": "reconstructed",
+   "summary": "After the fire of 64 Nero straightened and widened the Sacra Via up the Velia as a colonnaded avenue to the vestibule of the Golden House, lined by porticoes over rows of shops; the brick piers remain along the south side.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Annales",
+     "r": "15.43"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Nero",
+     "r": "31"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 339",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) IV s.v. Sacra Via (Coarelli)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": "Line along the south edge of the Sacra Via from the Atrium Vestae to the Arch of Titus."
+  },
+  {
+   "id": "neronian_porticoes_sacra_via_n",
+   "monument": "neronian_porticoes_sacra_via",
+   "name": "Neronian porticoes of the Sacra Via (north side)",
+   "from": 68,
+   "to": 306,
+   "begun": 64,
+   "builder": "nero",
+   "template": "colonnade",
+   "loc": [
+    12.488,
+    41.8916
+   ],
+   "rot": 292.6,
+   "w": 6.0,
+   "l": 200.0,
+   "h": 9.0,
+   "params": {
+    "line": [
+     [
+      12.4874,
+      41.89186
+     ],
+     [
+      12.4879,
+      41.8917
+     ],
+     [
+      12.4884,
+      41.8915
+     ],
+     [
+      12.4888,
+      41.8912
+     ]
+    ],
+    "depth": 6,
+    "colH": 8.0
+   },
+   "importance": 2,
+   "certainty": "reconstructed",
+   "summary": "The northern portico of Nero's Sacra Via, later replaced by the Horrea Piperataria and the Basilica of Maxentius.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Annales",
+     "r": "15.43"
+    }
+   ],
+   "scholarship": [
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) IV s.v. Sacra Via"
+   ],
+   "note": "Conjectural line."
+  },
+  {
+   "id": "arch_of_titus",
+   "monument": "arch_of_titus",
+   "name": "Arch of Titus",
+   "from": 82,
+   "to": 9999,
+   "begun": 81,
+   "builder": "domitian",
+   "template": "arch",
+   "loc": [
+    12.488584,
+    41.890672
+   ],
+   "rot": 292.6,
+   "w": 13.5,
+   "l": 4.75,
+   "h": 15.4,
+   "params": {
+    "bays": 1,
+    "depth": 4.75,
+    "atticH": 4.4,
+    "columns": "engaged",
+    "quadriga": true,
+    "mat": {
+     "walls": "marble_white"
+    }
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "Single-bay marble arch set up by Domitian after 81 on the summit of the Sacra Via in honour of his deified brother, with the passage reliefs of the triumph of 71 showing the spoils of the Jerusalem Temple, the menorah among them, and Titus' apotheosis in the vault. The first dated use of the Composite order. Later built into the Frangipane fortress.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "945"
+    }
+   ],
+   "scholarship": [
+    "Platner and Ashby, A Topographical Dictionary of Ancient Rome (1929) 45-47",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 30",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) I s.v. Arcus Titi (Via Sacra) (Arce)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": "OSM outline; facade bearing 293 toward the Forum along the Sacra Via."
+  },
+  {
+   "id": "arch_of_septimius_severus",
+   "monument": "arch_of_septimius_severus",
+   "name": "Arch of Septimius Severus",
+   "from": 203,
+   "to": 9999,
+   "builder": "septimius_severus",
+   "template": "arch",
+   "loc": [
+    12.484739,
+    41.892834
+   ],
+   "rot": 126.4,
+   "w": 23.3,
+   "l": 11.2,
+   "h": 20.9,
+   "params": {
+    "bays": 3,
+    "depth": 11.2,
+    "atticH": 5.6,
+    "columns": "freestanding",
+    "quadriga": true,
+    "mat": {
+     "walls": "marble_white"
+    }
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "Triple arch of Proconnesian marble dedicated in 203 to Septimius Severus and his sons for the Parthian victories, with four large panels of the campaigns and a bronze six-horse chariot on top; Geta's name was erased from the attic after his murder in 212. It stood at the head of the Sacra Via beside the Rostra.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "1033"
+    },
+    {
+     "a": "Herodian",
+     "w": "Historia",
+     "r": "3.9"
+    }
+   ],
+   "scholarship": [
+    "Platner and Ashby, A Topographical Dictionary of Ancient Rome (1929) 43-44",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 28",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) I s.v. Arcus Septimii Severi (Forum) (Gergel)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Brilliant, The Arch of Septimius Severus in the Roman Forum (1967)"
+   ],
+   "note": "OSM outline (pier footprint); dimensions from published survey. Facade bearing 126 toward the square."
+  },
+  {
+   "id": "arch_of_tiberius",
+   "monument": "arch_of_tiberius",
+   "name": "Arch of Tiberius",
+   "from": 16,
+   "to": 9999,
+   "builder": "tiberius",
+   "template": "arch",
+   "loc": [
+    12.484376,
+    41.892405
+   ],
+   "rot": 114.4,
+   "w": 9.0,
+   "l": 5.0,
+   "h": 12.0,
+   "params": {
+    "bays": 1,
+    "depth": 5.0,
+    "atticH": 2.8,
+    "columns": "engaged",
+    "quadriga": true
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "Arch voted in AD 16 for the recovery by Germanicus of the standards lost with Varus, spanning the Sacra Via between the Basilica Julia and the Rostra at the foot of the Clivus Capitolinus; a relief on the Arch of Constantine shows it behind the Rostra.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Annales",
+     "r": "2.41"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 31",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) I s.v. Arcus Tiberii (Forum) (Kleiner)",
+    "Digitales Forum Romanum (Humboldt-Universitat zu Berlin), phase reconstructions"
+   ],
+   "note": "Foundations at the NW corner of the Basilica Julia; position computed from the basilica outline."
+  },
+  {
+   "id": "fornix_fabianus",
+   "monument": "fornix_fabianus",
+   "name": "Fornix Fabianus",
+   "from": -121,
+   "to": 9999,
+   "builder": null,
+   "template": "arch",
+   "loc": [
+    12.48642,
+    41.892
+   ],
+   "rot": 300.0,
+   "w": 7.0,
+   "l": 4.0,
+   "h": 9.0,
+   "params": {
+    "bays": 1,
+    "depth": 4.0,
+    "atticH": 2.0,
+    "columns": "none",
+    "quadriga": false,
+    "mat": {
+     "walls": "travertine"
+    }
+   },
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "The first honorific arch in the Forum, built in 121 BC by Q. Fabius Maximus Allobrogicus over the Sacra Via near the Regia, and restored in 57 BC by his grandson with statues of the family.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Cicero",
+     "w": "In Verrem",
+     "r": "2.1.19"
+    },
+    {
+     "a": "Cicero",
+     "w": "De oratore",
+     "r": "2.267"
+    },
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "1303-1304"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 152",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) II s.v. Fornix Fabianus (Chioffi)"
+   ],
+   "note": "Fragments found near the Regia; placed on the Sacra Via between the Regia and the later Temple of Antoninus and Faustina."
+  }
+ ]
+}

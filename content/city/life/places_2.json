@@ -1,0 +1,3598 @@
+{
+ "cityPlaces": [
+  {
+   "id": "paedagogium_palatinum",
+   "name": "Paedagogium of the Palatine",
+   "kind": "school",
+   "subkind": "pages_school",
+   "loc": [
+    12.4859,
+    41.8876
+   ],
+   "from": 100,
+   "to": 300,
+   "certainty": "excavated",
+   "summary": "Building on the south-west slope of the Palatine above the Circus Maximus where the imperial slave pages were trained. Its walls carry hundreds of graffiti, among them the Alexamenos graffito mocking a Christian who worships a crucified donkey-headed figure.",
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) s.v. Paedagogium"
+   ]
+  },
+  {
+   "id": "auditorium_maecenatis",
+   "name": "Auditorium of Maecenas",
+   "kind": "school",
+   "subkind": "auditorium",
+   "loc": [
+    12.5026,
+    41.8942
+   ],
+   "from": -30,
+   "to": 200,
+   "certainty": "excavated",
+   "summary": "Semi-sunken apsidal hall with tiered steps and garden frescoes in the Horti Maecenatis, found in 1874. Long called an auditorium for readings, it was probably a summer dining room with a water display; Horace and Virgil read in Maecenas' house.",
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) s.v. Auditorium Maecenatis"
+   ]
+  },
+  {
+   "id": "school_forum_traiani",
+   "name": "Schools of rhetoric in the Forum of Trajan",
+   "kind": "school",
+   "subkind": "rhetoric",
+   "loc": [
+    12.4847,
+    41.8955
+   ],
+   "from": 300,
+   "to": 600,
+   "certainty": "documented",
+   "summary": "In late antiquity the Forum of Trajan with the Athenaeum nearby became the main teaching and recital place of the city: grammarians and rhetors taught here and poets recited before the Senate.",
+   "sources": [
+    {
+     "a": "Venantius Fortunatus",
+     "w": "Carmina",
+     "r": "3.18.7-8"
+    },
+    {
+     "a": "Sidonius Apollinaris",
+     "w": "Letters",
+     "r": "9.16.3"
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Rome: Profile of a City, 312-1308 (1980)",
+    "Marrou, A History of Education in Antiquity (1956)"
+   ],
+   "monument": "forum_of_trajan_mon"
+  },
+  {
+   "id": "school_justin_martyr",
+   "name": "School of Justin Martyr",
+   "kind": "school",
+   "subkind": "philosophy",
+   "loc": [
+    12.495,
+    41.8995
+   ],
+   "from": 150,
+   "to": 165,
+   "certainty": "conjectural",
+   "summary": "Justin told the urban prefect Rusticus that he lived and taught 'above the baths of Myrtinus' during his stays in Rome; he was beheaded about 165.",
+   "sources": [
+    {
+     "a": "Acta Iustini",
+     "w": "Recension A",
+     "r": "3"
+    }
+   ],
+   "scholarship": [
+    "Lampe, From Paul to Valentinus (2003)"
+   ],
+   "note": "Bath unidentified; placed on the Viminal by convention."
+  },
+  {
+   "id": "moneta_capitolina",
+   "name": "Mint of Juno Moneta on the Arx",
+   "kind": "mint",
+   "subkind": "mint",
+   "loc": [
+    12.4831,
+    41.894
+   ],
+   "from": -269,
+   "to": 80,
+   "certainty": "documented",
+   "summary": "The Republican mint, in or beside the Temple of Juno Moneta on the Arx, from which our word money comes. Silver denarii were struck here from 211 BC under the tresviri monetales until production moved to the Caelian-Oppian valley under the Flavians.",
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "History",
+     "r": "6.20.13"
+    },
+    {
+     "a": "Livy",
+     "w": "History",
+     "r": "7.28.4-6"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) s.v. Moneta",
+    "Platner and Ashby, A Topographical Dictionary of Ancient Rome (1929)",
+    "Crawford, Roman Republican Coinage (1974)"
+   ],
+   "monument": "temple_of_juno_moneta",
+   "event": "aes_grave_and_tresviri_monetales"
+  },
+  {
+   "id": "moneta_caesaris",
+   "name": "Imperial Mint (Moneta Caesaris)",
+   "kind": "mint",
+   "subkind": "mint",
+   "loc": [
+    12.497,
+    41.8892
+   ],
+   "from": 90,
+   "to": 9999,
+   "certainty": "documented",
+   "summary": "The imperial mint in Region III by the Via Labicana near San Clemente, where dedications of the mint officials of AD 115 were found. In 271 the moneyers led by Felicissimus revolted against Aurelian's reform and fought on the Caelian, with 7,000 soldiers killed. Coins were struck at Rome under the Ostrogoths and Byzantines.",
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "42-44"
+    },
+    {
+     "a": "Aurelius Victor",
+     "w": "De Caesaribus",
+     "r": "35.6"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Aurelian",
+     "r": "38.2-4"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) s.v. Moneta",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)"
+   ],
+   "monument": "moneta_caesaris",
+   "event": "revolt_of_the_mint_workers_271",
+   "note": "The large tufa building under San Clemente has been identified with it but this is uncertain."
+  },
+  {
+   "id": "subura_lupanaria",
+   "name": "Brothels of the Subura",
+   "kind": "brothel",
+   "subkind": "lupanaria",
+   "loc": [
+    12.493,
+    41.8955
+   ],
+   "from": -200,
+   "to": 500,
+   "certainty": "documented",
+   "summary": "The crowded valley between the Viminal and Esquiline had a reputation for brothels and night life; Martial and Juvenal use the 'wet' and noisy Subura as the image of vice, and the emperor's slaves and senators slummed here.",
+   "sources": [
+    {
+     "a": "Martial",
+     "w": "Epigrams",
+     "r": "6.66, 11.61.3"
+    },
+    {
+     "a": "Juvenal",
+     "w": "Satires",
+     "r": "11.51"
+    },
+    {
+     "a": "Persius",
+     "w": "Satires",
+     "r": "5.32-33"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) s.v. Subura",
+    "McGinn, The Economy of Prostitution in the Roman World (2004)"
+   ],
+   "note": "The Regionary Catalogues count 45 or 46 lupanaria in the city."
+  },
+  {
+   "id": "summemmium",
+   "name": "Summemmium",
+   "kind": "brothel",
+   "subkind": "lupanaria",
+   "loc": [
+    12.4955,
+    41.8935
+   ],
+   "from": 80,
+   "to": 120,
+   "certainty": "conjectural",
+   "summary": "District of cheap prostitution named several times by Martial; its location is unknown, though it is usually looked for near the Subura or the Esquiline.",
+   "sources": [
+    {
+     "a": "Martial",
+     "w": "Epigrams",
+     "r": "1.34.6, 3.82.2, 11.61.3, 12.32.22"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) s.v. Summemmium",
+    "Platner and Ashby, A Topographical Dictionary of Ancient Rome (1929)",
+    "McGinn, The Economy of Prostitution in the Roman World (2004)"
+   ],
+   "note": "Location unknown."
+  },
+  {
+   "id": "circus_fornices",
+   "name": "Arches of the Circus Maximus (fornices)",
+   "kind": "brothel",
+   "subkind": "lupanaria",
+   "loc": [
+    12.487,
+    41.8856
+   ],
+   "from": -50,
+   "to": 400,
+   "certainty": "documented",
+   "summary": "Prostitutes, fortune-tellers and food sellers worked in the arcades under the seating of the Circus Maximus; the word fornix (arch) gave 'fornication'. Juvenal sends the foreign girls 'ordered to stand by the Circus'.",
+   "sources": [
+    {
+     "a": "Juvenal",
+     "w": "Satires",
+     "r": "3.65"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Elagabalus",
+     "r": "26.3"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "McGinn, The Economy of Prostitution in the Roman World (2004)"
+   ],
+   "monument": "circus_maximus"
+  },
+  {
+   "id": "venus_erycina_collina_festival",
+   "name": "Temple of Venus Erycina outside the Colline Gate",
+   "kind": "shrine",
+   "subkind": "temple_cult",
+   "loc": [
+    12.499,
+    41.9078
+   ],
+   "from": -181,
+   "to": 400,
+   "certainty": "documented",
+   "summary": "Temple outside the Porta Collina (vowed 184, dedicated 181 BC) where on 23 April the prostitutes of the city offered myrtle, roses and incense to Venus.",
+   "sources": [
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "4.865-872"
+    },
+    {
+     "a": "Livy",
+     "w": "History",
+     "r": "40.34.4"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) s.v. Venus Erucina, Aedes"
+   ],
+   "note": "Near the later Horti Sallustiani."
+  },
+  {
+   "id": "taberna_meritoria",
+   "name": "Taberna Meritoria (Trastevere)",
+   "kind": "tavern",
+   "subkind": "hostel",
+   "loc": [
+    12.4698,
+    41.8893
+   ],
+   "from": -50,
+   "to": 222,
+   "certainty": "documented",
+   "summary": "A hostel for veteran soldiers in Trastevere where in 38 BC oil was said to have gushed from the ground for a whole day (Fons Olei). The Historia Augusta has Severus Alexander award the site to the Christians rather than the tavern-keepers; Santa Maria in Trastevere stands here.",
+   "sources": [
+    {
+     "a": "Orosius",
+     "w": "Histories",
+     "r": "6.18.34"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Severus Alexander",
+     "r": "49.6"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) s.v. Taberna Meritoria",
+    "Krautheimer, Rome: Profile of a City, 312-1308 (1980)"
+   ]
+  },
+  {
+   "id": "tabernae_circi_maximi",
+   "name": "Shops of the Circus Maximus (start of the fire of 64)",
+   "kind": "shop_district",
+   "subkind": "shops",
+   "loc": [
+    12.4888,
+    41.8859
+   ],
+   "from": -50,
+   "to": 400,
+   "certainty": "documented",
+   "summary": "Shops and stalls under the arcades of the Circus Maximus at the end facing the Palatine and Caelian, full of flammable goods, where the Great Fire broke out on the night of 18-19 July 64.",
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "15.38.2"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "event": "great_fire_of_rome",
+   "monument": "circus_maximus"
+  },
+  {
+   "id": "velabrum_shops",
+   "name": "Velabrum food shops",
+   "kind": "shop_district",
+   "subkind": "food_shops",
+   "loc": [
+    12.4833,
+    41.8898
+   ],
+   "from": -250,
+   "to": 500,
+   "certainty": "documented",
+   "summary": "The Velabrum between the Forum and the river was a quarter of bakers, butchers, oil-sellers and wine shops. Plautus sends his characters there for food and Martial praises the cheese smoked in the Velabrum.",
+   "sources": [
+    {
+     "a": "Plautus",
+     "w": "Curculio",
+     "r": "483"
+    },
+    {
+     "a": "Plautus",
+     "w": "Captivi",
+     "r": "489"
+    },
+    {
+     "a": "Martial",
+     "w": "Epigrams",
+     "r": "11.52.10, 13.32"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) s.v. Velabrum",
+    "Holleran, Shopping in Ancient Rome (2012)"
+   ]
+  },
+  {
+   "id": "bookshops_argiletum",
+   "name": "Bookshops of the Argiletum",
+   "kind": "shop_district",
+   "subkind": "booksellers",
+   "loc": [
+    12.487,
+    41.894
+   ],
+   "from": -50,
+   "to": 300,
+   "certainty": "documented",
+   "summary": "The street from the Forum to the Subura beside the Curia was lined with cobblers and booksellers whose doorposts listed the titles on sale. Martial's publishers had shops here.",
+   "sources": [
+    {
+     "a": "Martial",
+     "w": "Epigrams",
+     "r": "1.3.1, 1.117.9-12"
+    },
+    {
+     "a": "Horace",
+     "w": "Ars Poetica",
+     "r": "345"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) s.v. Argiletum",
+    "Holleran, Shopping in Ancient Rome (2012)"
+   ]
+  },
+  {
+   "id": "bookshop_atrectus",
+   "name": "Bookshop of Atrectus",
+   "kind": "shop_district",
+   "subkind": "booksellers",
+   "loc": [
+    12.4858,
+    41.8935
+   ],
+   "from": 85,
+   "to": 100,
+   "certainty": "documented",
+   "summary": "Martial tells a friend not to send a slave to his house for his poems but to go to Atrectus' shop opposite the Forum of Caesar, its doorposts covered with advertisements, where a polished copy costs five denarii.",
+   "sources": [
+    {
+     "a": "Martial",
+     "w": "Epigrams",
+     "r": "1.117.10-17"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Holleran, Shopping in Ancient Rome (2012)"
+   ]
+  },
+  {
+   "id": "bookshop_secundus",
+   "name": "Bookshop of Secundus",
+   "kind": "shop_district",
+   "subkind": "booksellers",
+   "loc": [
+    12.4878,
+    41.8935
+   ],
+   "from": 85,
+   "to": 100,
+   "certainty": "documented",
+   "summary": "Martial advertises a pocket parchment edition of his poems at the shop of Secundus, freedman of the learned Lucensis, 'behind the threshold of Peace and the Forum of Pallas'.",
+   "sources": [
+    {
+     "a": "Martial",
+     "w": "Epigrams",
+     "r": "1.2.7-8"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Holleran, Shopping in Ancient Rome (2012)"
+   ],
+   "note": "Between the Templum Pacis and the Forum Transitorium."
+  },
+  {
+   "id": "bookshops_vicus_sandaliarius",
+   "name": "Booksellers of the Vicus Sandaliarius",
+   "kind": "shop_district",
+   "subkind": "booksellers",
+   "loc": [
+    12.4895,
+    41.8937
+   ],
+   "from": 100,
+   "to": 300,
+   "certainty": "documented",
+   "summary": "Gellius describes a group of learned men gathered in the booksellers' quarter of the Vicus Sandaliarius when a self-styled expert on Sallust was exposed. The street also housed the sandal-makers.",
+   "sources": [
+    {
+     "a": "Aulus Gellius",
+     "w": "Attic Nights",
+     "r": "18.4.1"
+    },
+    {
+     "a": "Notitia Regionum XIV / Curiosum Urbis",
+     "w": "Regio IV"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) s.v. Vicus Sandaliarius",
+    "Holleran, Shopping in Ancient Rome (2012)"
+   ],
+   "regio": 4
+  },
+  {
+   "id": "bookshop_sosii",
+   "name": "Bookstall of the Sosii by Vertumnus",
+   "kind": "shop_district",
+   "subkind": "booksellers",
+   "loc": [
+    12.4846,
+    41.8912
+   ],
+   "from": -30,
+   "to": 0,
+   "certainty": "documented",
+   "summary": "Horace's publishers the Sosii brothers sold his books beside the statue of Vertumnus and the Ianus at the mouth of the Vicus Tuscus; Horace imagines his book eager to be 'on display, smoothed with the Sosii's pumice'.",
+   "sources": [
+    {
+     "a": "Horace",
+     "w": "Epistles",
+     "r": "1.20.1-2"
+    },
+    {
+     "a": "Horace",
+     "w": "Ars Poetica",
+     "r": "345"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Holleran, Shopping in Ancient Rome (2012)"
+   ]
+  },
+  {
+   "id": "sigillaria",
+   "name": "Sigillaria (market of statuettes and books)",
+   "kind": "shop_district",
+   "subkind": "market",
+   "loc": [
+    12.495,
+    41.8922
+   ],
+   "from": 50,
+   "to": 400,
+   "certainty": "conjectural",
+   "summary": "Market where clay figurines and small gifts were sold for the Saturnalia, and where Gellius found an old manuscript for sale in a bookshop. Often placed in the porticoes near the Baths of Trajan.",
+   "sources": [
+    {
+     "a": "Aulus Gellius",
+     "w": "Attic Nights",
+     "r": "5.4.1"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Claudius",
+     "r": "16.4"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) s.v. Sigillaria",
+    "Holleran, Shopping in Ancient Rome (2012)"
+   ],
+   "note": "Site disputed."
+  },
+  {
+   "id": "saepta_market",
+   "name": "Saepta Julia luxury market",
+   "kind": "shop_district",
+   "subkind": "luxury_market",
+   "loc": [
+    12.4785,
+    41.8975
+   ],
+   "from": 40,
+   "to": 400,
+   "certainty": "documented",
+   "summary": "Once voting stopped, the enormous colonnaded voting enclosure became Rome's luxury bazaar. Martial's Mamurra spends a day here inspecting slave boys, tortoiseshell couches, Corinthian bronzes, crystal cups and murrhine ware, and buys two cheap cups.",
+   "sources": [
+    {
+     "a": "Martial",
+     "w": "Epigrams",
+     "r": "9.59, 2.14.5, 10.80.4"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) s.v. Saepta Iulia",
+    "Holleran, Shopping in Ancient Rome (2012)",
+    "Haselberger et al., Mapping Augustan Rome (2002)"
+   ],
+   "monument": "saepta_julia"
+  },
+  {
+   "id": "slave_market_castor",
+   "name": "Slave dealers by the Temple of Castor",
+   "kind": "shop_district",
+   "subkind": "slave_market",
+   "loc": [
+    12.486,
+    41.8916
+   ],
+   "from": -200,
+   "to": 300,
+   "certainty": "documented",
+   "summary": "Slave dealers (venalicii) displayed their merchandise near the Temple of Castor, the newcomers with chalked feet and a label round the neck; other dealers worked in the Saepta.",
+   "sources": [
+    {
+     "a": "Seneca",
+     "w": "De constantia sapientis",
+     "r": "13.4"
+    },
+    {
+     "a": "Plautus",
+     "w": "Curculio",
+     "r": "481"
+    }
+   ],
+   "scholarship": [
+    "Holleran, Shopping in Ancient Rome (2012)",
+    "Bodel, 'Slave labour and Roman society' (2011)"
+   ]
+  },
+  {
+   "id": "vicus_tuscus_market",
+   "name": "Vicus Tuscus: silk, perfume and incense",
+   "kind": "shop_district",
+   "subkind": "luxury_shops",
+   "loc": [
+    12.4842,
+    41.8906
+   ],
+   "from": -200,
+   "to": 500,
+   "certainty": "documented",
+   "summary": "The street from the Forum to the Circus Maximus was Rome's luxury shopping street: perfumers and incense sellers (vicus turarius), silk dealers whose 'Tuscan' silks Martial mentions, and fashionable shoppers, but also shady characters Plautus places 'in Tusco vico'.",
+   "sources": [
+    {
+     "a": "Plautus",
+     "w": "Curculio",
+     "r": "482"
+    },
+    {
+     "a": "Horace",
+     "w": "Epistles",
+     "r": "2.1.269"
+    },
+    {
+     "a": "Martial",
+     "w": "Epigrams",
+     "r": "11.27.11"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) s.v. Vicus Tuscus",
+    "Holleran, Shopping in Ancient Rome (2012)"
+   ]
+  },
+  {
+   "id": "porticus_margaritaria",
+   "name": "Porticus Margaritaria (pearl sellers)",
+   "kind": "shop_district",
+   "subkind": "jewellers",
+   "loc": [
+    12.488,
+    41.8919
+   ],
+   "from": 100,
+   "to": 450,
+   "certainty": "conjectural",
+   "summary": "Arcade of pearl and jewel dealers (margaritarii) on the Sacra Via, listed in Region VIII; inscriptions of margaritarii 'de Sacra Via' confirm the trade there.",
+   "sources": [
+    {
+     "a": "Notitia Regionum XIV / Curiosum Urbis",
+     "w": "Regio VIII"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) s.v. Porticus Margaritaria",
+    "Holleran, Shopping in Ancient Rome (2012)"
+   ],
+   "regio": 8,
+   "note": "Placed on the Sacra Via below the Velia."
+  },
+  {
+   "id": "tabernae_novae",
+   "name": "Tabernae Novae (bankers' shops, north side)",
+   "kind": "shop_district",
+   "subkind": "bankers",
+   "loc": [
+    12.4862,
+    41.89255
+   ],
+   "from": -300,
+   "to": -55,
+   "certainty": "documented",
+   "summary": "Row of shops on the north side of the Forum, first butchers' stalls and then bankers' offices (argentariae), rebuilt after the fire of 210 BC and incorporated into the Basilica Aemilia's façade.",
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "History",
+     "r": "26.27.2, 40.51.5"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) s.v. Tabernae Novae"
+   ]
+  },
+  {
+   "id": "tabernae_veteres",
+   "name": "Tabernae Veteres (shops, south side)",
+   "kind": "shop_district",
+   "subkind": "shops",
+   "loc": [
+    12.485,
+    41.892
+   ],
+   "from": -400,
+   "to": -170,
+   "certainty": "documented",
+   "summary": "The old row of shops on the south side of the Forum, cleared in 169 BC when Ti. Sempronius Gracchus bought Scipio Africanus' house and the shops behind for the Basilica Sempronia.",
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "History",
+     "r": "44.16.10"
+    },
+    {
+     "a": "Plautus",
+     "w": "Curculio",
+     "r": "480"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) s.v. Tabernae Veteres"
+   ]
+  },
+  {
+   "id": "auction_halls",
+   "name": "Atrium Auctionarium and the Atria Licinia (auction halls)",
+   "kind": "shop_district",
+   "subkind": "auctions",
+   "loc": [
+    12.4872,
+    41.8931
+   ],
+   "from": -100,
+   "to": 400,
+   "certainty": "conjectural",
+   "summary": "Halls near the Forum where public and private auctions were held under the auctioneers (praecones); Cicero speaks of the Atria Licinia and the atria auctionaria, and an Atrium Auctionarium is listed among the sights of late-antique Rome.",
+   "sources": [
+    {
+     "a": "Cicero",
+     "w": "Pro Quinctio",
+     "r": "25"
+    },
+    {
+     "a": "Cicero",
+     "w": "De lege agraria",
+     "r": "1.7"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) s.v. Atria Licinia",
+    "Rauh, 'Auctioneers and the Roman economy', Historia 38 (1989)"
+   ],
+   "note": "Locations unknown; placed off the Argiletum."
+  },
+  {
+   "id": "atrium_sutorium",
+   "name": "Atrium Sutorium (shoemakers' hall)",
+   "kind": "shop_district",
+   "subkind": "guild_hall",
+   "loc": [
+    12.4905,
+    41.894
+   ],
+   "from": -100,
+   "to": 400,
+   "certainty": "conjectural",
+   "summary": "Hall of the shoemakers where the trumpets of the priests were purified at the Tubilustrium on 23 March and 23 May.",
+   "sources": [
+    {
+     "a": "Varro",
+     "w": "De lingua Latina",
+     "r": "6.14"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) s.v. Atrium Sutorium",
+    "Platner and Ashby, A Topographical Dictionary of Ancient Rome (1929)"
+   ],
+   "note": "Site unknown; placed near the sandal-makers' Vicus Sandaliarius."
+  },
+  {
+   "id": "subura_market",
+   "name": "Subura market streets",
+   "kind": "shop_district",
+   "subkind": "market",
+   "loc": [
+    12.4938,
+    41.8951
+   ],
+   "from": -200,
+   "to": 500,
+   "certainty": "documented",
+   "summary": "The Subura was also Rome's great everyday market: Martial lists the farm produce, eggs, fowl and vegetables his friend can buy there, and Juvenal's Umbricius complains of its din, carts and crowds.",
+   "sources": [
+    {
+     "a": "Martial",
+     "w": "Epigrams",
+     "r": "7.31.12, 10.94.5-6, 12.18.2"
+    },
+    {
+     "a": "Juvenal",
+     "w": "Satires",
+     "r": "3.5, 3.232-248"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) s.v. Subura",
+    "Holleran, Shopping in Ancient Rome (2012)"
+   ]
+  },
+  {
+   "id": "clivus_argentarius_bankers",
+   "name": "Bankers of the Clivus Argentarius",
+   "kind": "shop_district",
+   "subkind": "bankers",
+   "loc": [
+    12.4842,
+    41.8942
+   ],
+   "from": -100,
+   "to": 400,
+   "certainty": "documented",
+   "summary": "The street from the Forum round the Capitol to the Campus Martius, named after the silversmiths and bankers who kept shops along it; the Basilica Argentaria of the Forum of Caesar opened onto it.",
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) s.v. Clivus Argentarius",
+    "Platner and Ashby, A Topographical Dictionary of Ancient Rome (1929)"
+   ]
+  },
+  {
+   "id": "statio_marmorum_emporium",
+   "name": "Statio Marmorum (Marmorata)",
+   "kind": "workshop",
+   "subkind": "marble_yard",
+   "loc": [
+    12.4768,
+    41.8808
+   ],
+   "from": -150,
+   "to": 450,
+   "certainty": "excavated",
+   "summary": "The state marble depot on the river bank below the Aventine where imported blocks and columns from the imperial quarries were landed, registered with quarry marks and dressed; the riverside is still called Marmorata. Hundreds of abandoned blocks were found here in the 19th century.",
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) s.v. Statio Marmorum",
+    "Fant, Cavum antrum Phrygiae (1989)",
+    "Maischberger, Marmor in Rom (1997)"
+   ]
+  },
+  {
+   "id": "marble_yard_campus_martius",
+   "name": "Marble yard of the Campus Martius",
+   "kind": "workshop",
+   "subkind": "marble_yard",
+   "loc": [
+    12.4705,
+    41.9012
+   ],
+   "from": 50,
+   "to": 450,
+   "certainty": "documented",
+   "summary": "Second marble landing and workshop zone on the Tiber in the north-west Campus Martius near Tor di Nona and Sant'Apollinare, where large deposits of unworked marble and sculptors' workshops were found when the embankments were built.",
+   "scholarship": [
+    "Maischberger, Marmor in Rom (1997)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)"
+   ],
+   "note": "Extent uncertain."
+  },
+  {
+   "id": "figlinae_vaticanae",
+   "name": "Potteries of the Vatican plain",
+   "kind": "workshop",
+   "subkind": "pottery",
+   "loc": [
+    12.459,
+    41.906
+   ],
+   "from": -100,
+   "to": 400,
+   "certainty": "documented",
+   "summary": "The clay of the ager Vaticanus supplied potters and brickmakers; poets mock 'fragile Vatican plates' and the cheap wine of the Vatican slopes.",
+   "sources": [
+    {
+     "a": "Juvenal",
+     "w": "Satires",
+     "r": "6.344"
+    },
+    {
+     "a": "Martial",
+     "w": "Epigrams",
+     "r": "1.18.2, 6.92.3"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) s.v. Vaticanus Ager"
+   ],
+   "note": "Representative point; kilns were scattered along the valley below Monte Mario."
+  },
+  {
+   "id": "fullonica_casal_bertone",
+   "name": "Fullonica and tannery of Casal Bertone",
+   "kind": "workshop",
+   "subkind": "fullonica",
+   "loc": [
+    12.539,
+    41.8995
+   ],
+   "from": 100,
+   "to": 300,
+   "certainty": "excavated",
+   "summary": "The largest fullery-tannery complex known in the Roman world, excavated in 2006-2007 east of the city between the Via Praenestina and Tiburtina: over 1,000 square metres with about 100 vats for washing, dyeing and tanning, fed by an aqueduct branch.",
+   "scholarship": [
+    "Musco and others, Le fullonicae di Casal Bertone (excavation reports, 2008)",
+    "Flohr, The World of the Fullo (2013)"
+   ]
+  },
+  {
+   "id": "coraria_septimiana",
+   "name": "Coraria Septimiana (tanneries)",
+   "kind": "workshop",
+   "subkind": "tannery",
+   "loc": [
+    12.468,
+    41.8918
+   ],
+   "from": 200,
+   "to": 450,
+   "certainty": "conjectural",
+   "summary": "Tanneries listed in Region XIV, presumably by the Porta Septimiana where the smell and the river water suited the trade, outside the main city across the Tiber.",
+   "sources": [
+    {
+     "a": "Notitia Regionum XIV / Curiosum Urbis",
+     "w": "Regio XIV"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) s.v. Coraria Septimiana",
+    "Platner and Ashby, A Topographical Dictionary of Ancient Rome (1929)"
+   ],
+   "regio": 14
+  },
+  {
+   "id": "tannery_s_cecilia",
+   "name": "Tannery under Santa Cecilia",
+   "kind": "workshop",
+   "subkind": "tannery",
+   "loc": [
+    12.4762,
+    41.8874
+   ],
+   "from": 100,
+   "to": 400,
+   "certainty": "excavated",
+   "summary": "Under Santa Cecilia in Trastevere excavations found a Republican house later converted to a tannery, with seven circular vats set in the floor, part of the industrial character of Trastevere.",
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ]
+  },
+  {
+   "id": "officinae_minii",
+   "name": "Officinae Minii (cinnabar works)",
+   "kind": "workshop",
+   "subkind": "pigment",
+   "loc": [
+    12.4895,
+    41.9008
+   ],
+   "from": -100,
+   "to": 100,
+   "certainty": "documented",
+   "summary": "Workshops where cinnabar from the Spanish mines at Sisapo was refined into vermilion pigment, located between the temples of Flora and Quirinus on the Quirinal.",
+   "sources": [
+    {
+     "a": "Vitruvius",
+     "w": "De architectura",
+     "r": "7.9.4"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Natural History",
+     "r": "33.118"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) s.v. Officinae Minii"
+   ]
+  },
+  {
+   "id": "workshops_crypta_balbi",
+   "name": "Workshops of the Crypta Balbi exedra",
+   "kind": "workshop",
+   "subkind": "metal_glass",
+   "loc": [
+    12.4785,
+    41.8946
+   ],
+   "from": 600,
+   "to": 9999,
+   "certainty": "excavated",
+   "summary": "In the ruined exedra of the Crypta Balbi, workshops of the late 6th-7th century produced belt fittings, glass, bone combs and metalwork for Roman and Lombard clients, one of the best-known industrial sites of early medieval Rome.",
+   "scholarship": [
+    "Bertoldi and others in Manacorda (ed.), Museo Nazionale Romano Crypta Balbi (2000)",
+    "Ricci, 'Relazioni culturali e scambi commerciali nell'Italia centrale romano-longobarda' (1997)"
+   ]
+  },
+  {
+   "id": "spolia_lime_kilns",
+   "name": "Lime kilns and spolia yards (late antique)",
+   "kind": "workshop",
+   "subkind": "lime_kiln",
+   "loc": [
+    12.4775,
+    41.8952
+   ],
+   "from": 500,
+   "to": 9999,
+   "certainty": "conjectural",
+   "summary": "As the population fell, marble from abandoned buildings was burned for lime and columns stripped for reuse. Majorian's law of 458 forbade the demolition of public buildings for materials; kilns later concentrated around Largo Argentina and the Crypta Balbi (the medieval Calcarario).",
+   "sources": [
+    {
+     "a": "Novels of Majorian",
+     "r": "4"
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Rome: Profile of a City, 312-1308 (1980)",
+    "Bertoldi and others in Manacorda (ed.), Museo Nazionale Romano Crypta Balbi (2000)"
+   ],
+   "note": "Most kilns found are 8th century or later; earlier dismantling is documented by laws."
+  },
+  {
+   "id": "portus_tiberinus",
+   "name": "Portus Tiberinus",
+   "kind": "port",
+   "subkind": "river_port",
+   "loc": [
+    12.48,
+    41.8898
+   ],
+   "from": -600,
+   "to": 400,
+   "certainty": "documented",
+   "summary": "The old river harbour of Rome on the left bank between the Pons Aemilius and the Forum Boarium, where barges unloaded before the Emporium below the Aventine was built in 193 BC. The Temple of Portunus guarded it.",
+   "sources": [
+    {
+     "a": "Varro",
+     "w": "De lingua Latina",
+     "r": "6.19"
+    },
+    {
+     "a": "Notitia Regionum XIV / Curiosum Urbis",
+     "w": "Regio XI"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) s.v. Portus Tiberinus",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)"
+   ],
+   "monument": "temple_of_portunus"
+  },
+  {
+   "id": "navalia",
+   "name": "Navalia (shipsheds)",
+   "kind": "port",
+   "subkind": "dockyard",
+   "loc": [
+    12.4695,
+    41.895
+   ],
+   "from": -338,
+   "to": 100,
+   "certainty": "conjectural",
+   "summary": "The state dockyards and shipsheds for the war fleet, where the ships of Perseus were displayed in 167 BC. Older scholarship placed them in the Campus Martius by Via Giulia; many now identify the great building at Testaccio long called the Porticus Aemilia as the Navalia.",
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "History",
+     "r": "3.26.8, 45.42.12"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Cato Minor",
+     "r": "39.2"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) s.v. Navalia",
+    "Cozza and Tucci, 'Navalia', ArchCl 57 (2006)"
+   ],
+   "note": "Placed at the Campus Martius hypothesis; see porticus_aemilia for the alternative."
+  },
+  {
+   "id": "ludus_matutinus",
+   "name": "Ludus Matutinus",
+   "kind": "other",
+   "subkind": "ludus",
+   "loc": [
+    12.4948,
+    41.8898
+   ],
+   "from": 80,
+   "to": 400,
+   "certainty": "documented",
+   "summary": "Training school for the beast-hunters (venatores) who fought in the morning shows of the Colosseum, listed in Region II near the amphitheatre.",
+   "sources": [
+    {
+     "a": "Notitia Regionum XIV / Curiosum Urbis",
+     "w": "Regio II"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) s.v. Ludus Matutinus",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000)"
+   ],
+   "note": "Position south-east of the Ludus Magnus."
+  },
+  {
+   "id": "ludus_dacicus",
+   "name": "Ludus Dacicus",
+   "kind": "other",
+   "subkind": "ludus",
+   "loc": [
+    12.4945,
+    41.891
+   ],
+   "from": 110,
+   "to": 400,
+   "certainty": "conjectural",
+   "summary": "Gladiatorial school probably founded by Trajan for prisoners from his Dacian wars, listed in Region III near the Colosseum.",
+   "sources": [
+    {
+     "a": "Notitia Regionum XIV / Curiosum Urbis",
+     "w": "Regio III"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) s.v. Ludus Dacicus",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000)"
+   ]
+  },
+  {
+   "id": "ludus_gallicus",
+   "name": "Ludus Gallicus",
+   "kind": "other",
+   "subkind": "ludus",
+   "loc": [
+    12.4955,
+    41.8907
+   ],
+   "from": 80,
+   "to": 400,
+   "certainty": "conjectural",
+   "summary": "Gladiatorial school for fighters of the Gallic type, listed among the schools around the Colosseum.",
+   "sources": [
+    {
+     "a": "Notitia Regionum XIV / Curiosum Urbis",
+     "w": "Regio III"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) s.v. Ludus Gallicus"
+   ]
+  },
+  {
+   "id": "summum_choragium",
+   "name": "Summum Choragium",
+   "kind": "other",
+   "subkind": "games_store",
+   "loc": [
+    12.4945,
+    41.8915
+   ],
+   "from": 80,
+   "to": 400,
+   "certainty": "documented",
+   "summary": "Central store and workshop for stage scenery and machinery of the imperial games, in Region III near the Baths of Titus, with its own procurator.",
+   "sources": [
+    {
+     "a": "Notitia Regionum XIV / Curiosum Urbis",
+     "w": "Regio III"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) s.v. Summum Choragium",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000)"
+   ]
+  },
+  {
+   "id": "armamentarium",
+   "name": "Armamentarium",
+   "kind": "other",
+   "subkind": "games_store",
+   "loc": [
+    12.496,
+    41.89
+   ],
+   "from": 80,
+   "to": 400,
+   "certainty": "conjectural",
+   "summary": "Armoury of the gladiatorial schools near the Colosseum.",
+   "sources": [
+    {
+     "a": "Notitia Regionum XIV / Curiosum Urbis",
+     "w": "Regio III"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) s.v. Armamentarium"
+   ]
+  },
+  {
+   "id": "spoliarium_saniarium",
+   "name": "Spoliarium and Saniarium",
+   "kind": "other",
+   "subkind": "games_store",
+   "loc": [
+    12.494,
+    41.8896
+   ],
+   "from": 80,
+   "to": 400,
+   "certainty": "conjectural",
+   "summary": "Rooms near the amphitheatre where dead gladiators were stripped (spoliarium) and the wounded treated (saniarium), listed in Region II.",
+   "sources": [
+    {
+     "a": "Notitia Regionum XIV / Curiosum Urbis",
+     "w": "Regio II"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) s.v. Spoliarium"
+   ]
+  },
+  {
+   "id": "stabula_factionum",
+   "name": "Stabula IIII Factionum (stables of the circus factions)",
+   "kind": "other",
+   "subkind": "stables",
+   "loc": [
+    12.4705,
+    41.8948
+   ],
+   "from": 0,
+   "to": 500,
+   "certainty": "documented",
+   "summary": "Headquarters and stables of the four racing factions, the Whites, Reds, Greens and Blues, in the south-west Campus Martius near the later Palazzo Farnese and Via Giulia, with their own clubhouses, staff and horses.",
+   "sources": [
+    {
+     "a": "Notitia Regionum XIV / Curiosum Urbis",
+     "w": "Regio IX"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Caligula",
+     "r": "55.2"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) s.v. Stabula IIII Factionum",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)"
+   ],
+   "note": "Caligula dined and spent nights in the Greens' stable."
+  },
+  {
+   "id": "trigarium",
+   "name": "Trigarium",
+   "kind": "other",
+   "subkind": "training_ground",
+   "loc": [
+    12.469,
+    41.897
+   ],
+   "from": -100,
+   "to": 400,
+   "certainty": "conjectural",
+   "summary": "Open ground in the western Campus Martius where racehorses were exercised, near the factions' stables and the Tiber.",
+   "sources": [
+    {
+     "a": "Notitia Regionum XIV / Curiosum Urbis",
+     "w": "Regio IX"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) s.v. Trigarium",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)"
+   ]
+  },
+  {
+   "id": "balneum_surae",
+   "name": "Balneum Surae",
+   "kind": "other",
+   "subkind": "balneum",
+   "loc": [
+    12.4802,
+    41.8832
+   ],
+   "from": 100,
+   "to": 400,
+   "certainty": "documented",
+   "summary": "Baths built on the Aventine by L. Licinius Sura, Trajan's marshal, next to his house; a fragment of the Marble Plan shows them.",
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "68.15.3"
+    },
+    {
+     "a": "Notitia Regionum XIV / Curiosum Urbis",
+     "w": "Regio XIII"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) s.v. Thermae Suranae"
+   ],
+   "regio": 13
+  },
+  {
+   "id": "thermae_novatianae",
+   "name": "Thermae Novatianae (baths under Santa Pudenziana)",
+   "kind": "other",
+   "subkind": "balneum",
+   "loc": [
+    12.4953,
+    41.8986
+   ],
+   "from": 140,
+   "to": 390,
+   "certainty": "excavated",
+   "summary": "Private bath of the 2nd century on the Vicus Patricius whose hall was converted into the church of Santa Pudenziana around 390; tradition linked it to the senator Pudens who hosted St Peter.",
+   "scholarship": [
+    "Krautheimer, Rome: Profile of a City, 312-1308 (1980)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "monument": "santa_pudenziana"
+  },
+  {
+   "id": "balnea_neratii_cerealis",
+   "name": "Baths of Neratius Cerealis",
+   "kind": "other",
+   "subkind": "balneum",
+   "loc": [
+    12.4995,
+    41.898
+   ],
+   "from": 350,
+   "to": 450,
+   "certainty": "documented",
+   "summary": "Baths built on the Esquiline in the mid-4th century by the consul Neratius Cerealis, near Santa Maria Maggiore, known from inscriptions.",
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Guidobaldi, 'Le domus tardoantiche di Roma', in Lavan and Bowden (eds), Theory and Practice in Late Antique Archaeology (2003)"
+   ],
+   "note": "Location approximate."
+  },
+  {
+   "id": "lavacrum_agrippinae",
+   "name": "Lavacrum Agrippinae",
+   "kind": "other",
+   "subkind": "balneum",
+   "loc": [
+    12.497,
+    41.8998
+   ],
+   "from": 50,
+   "to": 400,
+   "certainty": "conjectural",
+   "summary": "Bath on the Viminal named after Agrippina, listed in late sources and inscriptions concerning the water supply.",
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) s.v. Lavacrum Agrippinae"
+   ]
+  },
+  {
+   "id": "thermae_severianae",
+   "name": "Thermae Septimianae",
+   "kind": "other",
+   "subkind": "balneum",
+   "loc": [
+    12.469,
+    41.891
+   ],
+   "from": 200,
+   "to": 400,
+   "certainty": "conjectural",
+   "summary": "Baths that the Historia Augusta says Septimius Severus built in Trastevere near the gate named after him, the later Porta Settimiana.",
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Severus",
+     "r": "19.5"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) s.v. Thermae Severianae"
+   ]
+  },
+  {
+   "id": "mithraeum_santa_prisca",
+   "name": "Mithraeum of Santa Prisca",
+   "kind": "shrine",
+   "subkind": "mithraeum",
+   "loc": [
+    12.4825,
+    41.8825
+   ],
+   "from": 195,
+   "to": 400,
+   "certainty": "excavated",
+   "summary": "Mithraeum in the basement of a house on the Aventine, excavated by Vermaseren and van Essen in 1952-1966 under Santa Prisca. Painted processions of the seven grades of initiates and verses on its walls, one dated by the consuls of 202, make it the best documented Mithraic text in Rome. Christians smashed it around 400.",
+   "scholarship": [
+    "Vermaseren, Corpus Inscriptionum et Monumentorum Religionis Mithriacae (1956-1960)",
+    "Clauss, The Roman Cult of Mithras (2000)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Vermaseren and van Essen, The Excavations in the Mithraeum of the Church of Santa Prisca (1965)"
+   ]
+  },
+  {
+   "id": "mithraeum_san_clemente",
+   "name": "Mithraeum of San Clemente",
+   "kind": "shrine",
+   "subkind": "mithraeum",
+   "loc": [
+    12.4975,
+    41.8892
+   ],
+   "from": 180,
+   "to": 395,
+   "certainty": "excavated",
+   "summary": "Mithraeum in the courtyard of a 1st-century house next to the tufa building under San Clemente, with benches, a ceiling imitating a cave and an altar showing Mithras killing the bull. It was filled in when the first church was built over the neighbouring building in the late 4th century.",
+   "scholarship": [
+    "Vermaseren, Corpus Inscriptionum et Monumentorum Religionis Mithriacae (1956-1960)",
+    "Clauss, The Roman Cult of Mithras (2000)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Guidobaldi, San Clemente: gli edifici romani (1992)"
+   ],
+   "monument": "san_clemente"
+  },
+  {
+   "id": "mithraeum_circus_maximus",
+   "name": "Mithraeum of the Circus Maximus",
+   "kind": "shrine",
+   "subkind": "mithraeum",
+   "loc": [
+    12.4823,
+    41.8879
+   ],
+   "from": 200,
+   "to": 390,
+   "certainty": "excavated",
+   "summary": "Mithraeum found in 1931 in the ground floor of a large public building near the starting gates of the Circus Maximus (under the former Pantanella pasta factory), with a marble relief of the bull-slaying still in place.",
+   "scholarship": [
+    "Vermaseren, Corpus Inscriptionum et Monumentorum Religionis Mithriacae (1956-1960)",
+    "Clauss, The Roman Cult of Mithras (2000)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ]
+  },
+  {
+   "id": "mithraeum_baths_caracalla",
+   "name": "Mithraeum of the Baths of Caracalla",
+   "kind": "shrine",
+   "subkind": "mithraeum",
+   "loc": [
+    12.4899,
+    41.88
+   ],
+   "from": 215,
+   "to": 400,
+   "certainty": "excavated",
+   "summary": "The largest known mithraeum of Rome, in the vaulted service tunnels under the north-west corner of the Baths of Caracalla, found in 1912, with a pit perhaps used for initiation rites.",
+   "scholarship": [
+    "Vermaseren, Corpus Inscriptionum et Monumentorum Religionis Mithriacae (1956-1960)",
+    "Clauss, The Roman Cult of Mithras (2000)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "DeLaine, The Baths of Caracalla (1997)"
+   ],
+   "monument": "baths_of_caracalla"
+  },
+  {
+   "id": "mithraeum_castra_peregrina",
+   "name": "Mithraeum of the Castra Peregrina",
+   "kind": "shrine",
+   "subkind": "mithraeum",
+   "loc": [
+    12.4967,
+    41.8846
+   ],
+   "from": 180,
+   "to": 390,
+   "certainty": "excavated",
+   "summary": "Mithraeum of the soldiers of the Castra Peregrina, found in 1973 under Santo Stefano Rotondo with painted and stucco decoration and marble reliefs.",
+   "scholarship": [
+    "Vermaseren, Corpus Inscriptionum et Monumentorum Religionis Mithriacae (1956-1960)",
+    "Clauss, The Roman Cult of Mithras (2000)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ]
+  },
+  {
+   "id": "mithraeum_barberini",
+   "name": "Mithraeum of Palazzo Barberini",
+   "kind": "shrine",
+   "subkind": "mithraeum",
+   "loc": [
+    12.4895,
+    41.9037
+   ],
+   "from": 180,
+   "to": 390,
+   "certainty": "excavated",
+   "summary": "Mithraeum found in 1936 in the gardens of Palazzo Barberini on the Quirinal slope, with a large painted bull-slaying scene framed by the signs of the zodiac.",
+   "scholarship": [
+    "Vermaseren, Corpus Inscriptionum et Monumentorum Religionis Mithriacae (1956-1960)",
+    "Clauss, The Roman Cult of Mithras (2000)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ]
+  },
+  {
+   "id": "mithraeum_crypta_balbi",
+   "name": "Mithraeum of the Crypta Balbi",
+   "kind": "shrine",
+   "subkind": "mithraeum",
+   "loc": [
+    12.4783,
+    41.8944
+   ],
+   "from": 150,
+   "to": 390,
+   "certainty": "excavated",
+   "summary": "Mithraeum installed in a building next to the Crypta Balbi in the 2nd century, found during the excavations of the 1980s-1990s.",
+   "scholarship": [
+    "Vermaseren, Corpus Inscriptionum et Monumentorum Religionis Mithriacae (1956-1960)",
+    "Clauss, The Roman Cult of Mithras (2000)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Bertoldi and others in Manacorda (ed.), Museo Nazionale Romano Crypta Balbi (2000)"
+   ]
+  },
+  {
+   "id": "mithraeum_via_lanza",
+   "name": "Mithraeum of Via Giovanni Lanza",
+   "kind": "shrine",
+   "subkind": "mithraeum",
+   "loc": [
+    12.4965,
+    41.8935
+   ],
+   "from": 200,
+   "to": 390,
+   "certainty": "documented",
+   "summary": "Mithraeum discovered in 1885 on the Esquiline during the building of the new quarter, with sculpture and inscriptions now in the Capitoline collections.",
+   "scholarship": [
+    "Vermaseren, Corpus Inscriptionum et Monumentorum Religionis Mithriacae (1956-1960)",
+    "Clauss, The Roman Cult of Mithras (2000)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": "Exact position on the street approximate."
+  },
+  {
+   "id": "phrygianum_vatican",
+   "name": "Phrygianum (Vatican sanctuary of Magna Mater)",
+   "kind": "shrine",
+   "subkind": "magna_mater",
+   "loc": [
+    12.4543,
+    41.9022
+   ],
+   "from": 160,
+   "to": 395,
+   "certainty": "documented",
+   "summary": "Sanctuary of Cybele and Attis on the Vatican plain where taurobolia were performed; altars dated 295-390 recording the bull-sacrifices of leading pagan senators were found in 1609 under the façade of St Peter's.",
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "497-504"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) s.v. Phrygianum",
+    "Salzman, The Making of a Christian Aristocracy (2002)"
+   ]
+  },
+  {
+   "id": "dolichenum_aventine",
+   "name": "Dolichenum of the Aventine",
+   "kind": "shrine",
+   "subkind": "dolichenum",
+   "loc": [
+    12.4795,
+    41.883
+   ],
+   "from": 150,
+   "to": 300,
+   "certainty": "excavated",
+   "summary": "Sanctuary of Jupiter Dolichenus, the Syrian god of soldiers, found in 1935 near Sant'Alessio, with many dedications and statues.",
+   "scholarship": [
+    "Chini, Il santuario di Iuppiter Dolichenus sull'Aventino (1997)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ]
+  },
+  {
+   "id": "syrian_sanctuary_janiculum",
+   "name": "Syrian Sanctuary of the Janiculum (Lucus Furrinae)",
+   "kind": "shrine",
+   "subkind": "syrian_gods",
+   "loc": [
+    12.4664,
+    41.8848
+   ],
+   "from": -100,
+   "to": 400,
+   "certainty": "excavated",
+   "summary": "Sanctuary on the Janiculum at Villa Sciarra, first the grove of the nymph Furrina where Gaius Gracchus died in 121 BC, then in the 2nd-4th centuries a temple of Syrian gods (Hadad and Atargatis) with a bronze-gilt statue of a mummy-like figure wrapped by a snake.",
+   "sources": [
+    {
+     "a": "Plutarch",
+     "w": "Gaius Gracchus",
+     "r": "17.2"
+    },
+    {
+     "a": "Cicero",
+     "w": "De natura deorum",
+     "r": "3.46"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) s.v. Lucus Furrinae",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Goddard, 'The tomb of the Syrian gods', excavation reports (2008)"
+   ],
+   "event": "death_of_gaius_gracchus"
+  },
+  {
+   "id": "iseum_metellinum",
+   "name": "Iseum Metellinum",
+   "kind": "shrine",
+   "subkind": "isis",
+   "loc": [
+    12.499,
+    41.8898
+   ],
+   "from": -70,
+   "to": 400,
+   "certainty": "conjectural",
+   "summary": "Temple of Isis in Region III, from which the region took its name 'Isis et Serapis', probably on the slope of the Oppian along the Via Labicana; the name suggests a founder of the Metellus family.",
+   "sources": [
+    {
+     "a": "Notitia Regionum XIV / Curiosum Urbis",
+     "w": "Regio III"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Tyranni triginta",
+     "r": "25.4"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) s.v. Isis, Aedes (Metellina)",
+    "Platner and Ashby, A Topographical Dictionary of Ancient Rome (1929)"
+   ]
+  },
+  {
+   "id": "jewish_quarter_trastevere",
+   "name": "Jewish quarter of Trastevere",
+   "kind": "other",
+   "subkind": "jewish_quarter",
+   "loc": [
+    12.4735,
+    41.887
+   ],
+   "from": -60,
+   "to": 9999,
+   "certainty": "documented",
+   "summary": "Philo, who came to Rome in 40, says the Jews of Rome lived mostly across the Tiber, most of them freedmen brought as captives by Pompey, with their own prayer houses. The Monteverde catacomb above the Via Portuensis served them.",
+   "sources": [
+    {
+     "a": "Philo",
+     "w": "Legatio ad Gaium",
+     "r": "155-157"
+    }
+   ],
+   "scholarship": [
+    "Rutgers, The Jews in Late Ancient Rome (1995)",
+    "Noy, Jewish Inscriptions of Western Europe II: The City of Rome (1995)"
+   ]
+  },
+  {
+   "id": "jewish_porta_capena",
+   "name": "Jewish community at the Porta Capena",
+   "kind": "other",
+   "subkind": "jewish_quarter",
+   "loc": [
+    12.491,
+    41.8826
+   ],
+   "from": 80,
+   "to": 400,
+   "certainty": "documented",
+   "summary": "Juvenal complains that the sacred grove of Egeria by the Porta Capena had been let to Jews 'whose furniture is a basket and some hay'.",
+   "sources": [
+    {
+     "a": "Juvenal",
+     "w": "Satires",
+     "r": "3.12-16, 6.542-547"
+    }
+   ],
+   "scholarship": [
+    "Rutgers, The Jews in Late Ancient Rome (1995)"
+   ]
+  },
+  {
+   "id": "synagogue_siburesians",
+   "name": "Synagogue of the Siburesians (Subura)",
+   "kind": "shrine",
+   "subkind": "synagogue",
+   "loc": [
+    12.4925,
+    41.8958
+   ],
+   "from": 150,
+   "to": 400,
+   "certainty": "conjectural",
+   "summary": "One of at least eleven synagogue congregations named in the Jewish catacomb epitaphs of Rome; the Siburesians took their name from the Subura.",
+   "scholarship": [
+    "Noy, Jewish Inscriptions of Western Europe II: The City of Rome (1995)",
+    "Rutgers, The Jews in Late Ancient Rome (1995)"
+   ],
+   "note": "No synagogue building has been found in Rome; placed in the Subura from the name."
+  },
+  {
+   "id": "synagogue_campesians",
+   "name": "Synagogue of the Campesians (Campus Martius)",
+   "kind": "shrine",
+   "subkind": "synagogue",
+   "loc": [
+    12.475,
+    41.896
+   ],
+   "from": 150,
+   "to": 400,
+   "certainty": "conjectural",
+   "summary": "Congregation named in catacomb epitaphs after the Campus Martius district.",
+   "scholarship": [
+    "Noy, Jewish Inscriptions of Western Europe II: The City of Rome (1995)",
+    "Rutgers, The Jews in Late Ancient Rome (1995)"
+   ],
+   "note": "Placed in the Campus Martius from the name."
+  },
+  {
+   "id": "synagogue_augustesians",
+   "name": "Synagogue of the Augustesians",
+   "kind": "shrine",
+   "subkind": "synagogue",
+   "loc": [
+    12.4733,
+    41.8868
+   ],
+   "from": 0,
+   "to": 400,
+   "certainty": "conjectural",
+   "summary": "Congregation named after Augustus, perhaps of imperial freedmen, attested in epitaphs; with the Agrippesians and Volumnesians among the oldest synagogues of Rome.",
+   "scholarship": [
+    "Noy, Jewish Inscriptions of Western Europe II: The City of Rome (1995)",
+    "Rutgers, The Jews in Late Ancient Rome (1995)"
+   ],
+   "note": "Unlocated; placed in the Trastevere quarter."
+  },
+  {
+   "id": "synagogue_agrippesians",
+   "name": "Synagogue of the Agrippesians",
+   "kind": "shrine",
+   "subkind": "synagogue",
+   "loc": [
+    12.4739,
+    41.8873
+   ],
+   "from": 0,
+   "to": 400,
+   "certainty": "conjectural",
+   "summary": "Congregation named after Agrippa (Marcus Agrippa or Herod Agrippa), attested in epitaphs.",
+   "scholarship": [
+    "Noy, Jewish Inscriptions of Western Europe II: The City of Rome (1995)",
+    "Rutgers, The Jews in Late Ancient Rome (1995)"
+   ],
+   "note": "Unlocated; placed in the Trastevere quarter."
+  },
+  {
+   "id": "titulus_aemilianae",
+   "name": "Titulus Aemilianae (Santi Quattro Coronati)",
+   "kind": "shrine",
+   "subkind": "titulus",
+   "loc": [
+    12.498,
+    41.8879
+   ],
+   "from": 400,
+   "to": 9999,
+   "certainty": "documented",
+   "summary": "Named in the synod of 595; the church of the Four Crowned Martyrs on the Caelian, rebuilt in the 9th century. One of the 25 titular churches, the parish churches of Rome whose priests signed the synod of 499.",
+   "sources": [
+    {
+     "a": "Acts of the Roman synod of 499",
+     "r": "subscriptions"
+    },
+    {
+     "a": "Liber Pontificalis",
+     "r": "passim"
+    }
+   ],
+   "scholarship": [
+    "Hülsen, Le chiese di Roma nel medio evo (1927)",
+    "Pietri, Roma Christiana (1976)",
+    "Krautheimer, Rome: Profile of a City, 312-1308 (1980)"
+   ],
+   "note": "From-date is the first secure attestation or building date; many tituli began as halls in private houses whose dates are unknown."
+  },
+  {
+   "id": "titulus_anastasiae",
+   "name": "Titulus Anastasiae (Sant'Anastasia)",
+   "kind": "shrine",
+   "subkind": "titulus",
+   "loc": [
+    12.4836,
+    41.8883
+   ],
+   "from": 340,
+   "to": 9999,
+   "certainty": "documented",
+   "summary": "Church at the foot of the Palatine by the Circus Maximus, built in the 4th century over a house and shops; later the church of the Byzantine court on the Palatine. One of the 25 titular churches, the parish churches of Rome whose priests signed the synod of 499.",
+   "sources": [
+    {
+     "a": "Acts of the Roman synod of 499",
+     "r": "subscriptions"
+    },
+    {
+     "a": "Liber Pontificalis",
+     "r": "passim"
+    }
+   ],
+   "scholarship": [
+    "Hülsen, Le chiese di Roma nel medio evo (1927)",
+    "Pietri, Roma Christiana (1976)",
+    "Krautheimer, Rome: Profile of a City, 312-1308 (1980)"
+   ],
+   "note": "From-date is the first secure attestation or building date; many tituli began as halls in private houses whose dates are unknown."
+  },
+  {
+   "id": "titulus_eudoxiae",
+   "name": "Titulus Apostolorum / Eudoxiae (San Pietro in Vincoli)",
+   "kind": "shrine",
+   "subkind": "titulus",
+   "loc": [
+    12.4931,
+    41.8938
+   ],
+   "from": 380,
+   "to": 9999,
+   "certainty": "documented",
+   "summary": "Church of the Apostles on the Oppian, rebuilt around 439 by Sixtus III with the empress Eudoxia's support to house the chains of Peter. One of the 25 titular churches, the parish churches of Rome whose priests signed the synod of 499.",
+   "sources": [
+    {
+     "a": "Acts of the Roman synod of 499",
+     "r": "subscriptions"
+    },
+    {
+     "a": "Liber Pontificalis",
+     "r": "passim"
+    }
+   ],
+   "scholarship": [
+    "Hülsen, Le chiese di Roma nel medio evo (1927)",
+    "Pietri, Roma Christiana (1976)",
+    "Krautheimer, Rome: Profile of a City, 312-1308 (1980)"
+   ],
+   "monument": "san_pietro_in_vincoli",
+   "note": "From-date is the first secure attestation or building date; many tituli began as halls in private houses whose dates are unknown."
+  },
+  {
+   "id": "titulus_byzantis_pammachii",
+   "name": "Titulus Byzantis / Pammachii (Santi Giovanni e Paolo)",
+   "kind": "shrine",
+   "subkind": "titulus",
+   "loc": [
+    12.4922,
+    41.8865
+   ],
+   "from": 410,
+   "to": 9999,
+   "certainty": "documented",
+   "summary": "Basilica built about 410 by the senator Pammachius over the houses on the Clivus Scauri where tradition placed the martyrdom of John and Paul. One of the 25 titular churches, the parish churches of Rome whose priests signed the synod of 499.",
+   "sources": [
+    {
+     "a": "Acts of the Roman synod of 499",
+     "r": "subscriptions"
+    },
+    {
+     "a": "Liber Pontificalis",
+     "r": "passim"
+    }
+   ],
+   "scholarship": [
+    "Hülsen, Le chiese di Roma nel medio evo (1927)",
+    "Pietri, Roma Christiana (1976)",
+    "Krautheimer, Rome: Profile of a City, 312-1308 (1980)"
+   ],
+   "monument": "santi_giovanni_e_paolo",
+   "note": "From-date is the first secure attestation or building date; many tituli began as halls in private houses whose dates are unknown."
+  },
+  {
+   "id": "titulus_caeciliae",
+   "name": "Titulus Caeciliae (Santa Cecilia)",
+   "kind": "shrine",
+   "subkind": "titulus",
+   "loc": [
+    12.476,
+    41.8876
+   ],
+   "from": 450,
+   "to": 9999,
+   "certainty": "documented",
+   "summary": "Church in Trastevere over a Roman house said to be that of the martyr Cecilia. One of the 25 titular churches, the parish churches of Rome whose priests signed the synod of 499.",
+   "sources": [
+    {
+     "a": "Acts of the Roman synod of 499",
+     "r": "subscriptions"
+    },
+    {
+     "a": "Liber Pontificalis",
+     "r": "passim"
+    }
+   ],
+   "scholarship": [
+    "Hülsen, Le chiese di Roma nel medio evo (1927)",
+    "Pietri, Roma Christiana (1976)",
+    "Krautheimer, Rome: Profile of a City, 312-1308 (1980)"
+   ],
+   "note": "From-date is the first secure attestation or building date; many tituli began as halls in private houses whose dates are unknown."
+  },
+  {
+   "id": "titulus_iulii_callisti",
+   "name": "Titulus Iulii et Callisti (Santa Maria in Trastevere)",
+   "kind": "shrine",
+   "subkind": "titulus",
+   "loc": [
+    12.4696,
+    41.8894
+   ],
+   "from": 340,
+   "to": 9999,
+   "certainty": "documented",
+   "summary": "Basilica of Pope Julius I (337-352) on the site of the Taberna Meritoria, linked by tradition to Pope Callixtus. One of the 25 titular churches, the parish churches of Rome whose priests signed the synod of 499.",
+   "sources": [
+    {
+     "a": "Acts of the Roman synod of 499",
+     "r": "subscriptions"
+    },
+    {
+     "a": "Liber Pontificalis",
+     "r": "passim"
+    }
+   ],
+   "scholarship": [
+    "Hülsen, Le chiese di Roma nel medio evo (1927)",
+    "Pietri, Roma Christiana (1976)",
+    "Krautheimer, Rome: Profile of a City, 312-1308 (1980)"
+   ],
+   "monument": "santa_maria_in_trastevere",
+   "note": "From-date is the first secure attestation or building date; many tituli began as halls in private houses whose dates are unknown."
+  },
+  {
+   "id": "titulus_clementis",
+   "name": "Titulus Clementis (San Clemente)",
+   "kind": "shrine",
+   "subkind": "titulus",
+   "loc": [
+    12.4975,
+    41.8894
+   ],
+   "from": 390,
+   "to": 9999,
+   "certainty": "documented",
+   "summary": "Basilica built in the late 4th century over a 1st-century building and the adjoining mithraeum, named after Clement, third successor of Peter. One of the 25 titular churches, the parish churches of Rome whose priests signed the synod of 499.",
+   "sources": [
+    {
+     "a": "Acts of the Roman synod of 499",
+     "r": "subscriptions"
+    },
+    {
+     "a": "Liber Pontificalis",
+     "r": "passim"
+    }
+   ],
+   "scholarship": [
+    "Hülsen, Le chiese di Roma nel medio evo (1927)",
+    "Pietri, Roma Christiana (1976)",
+    "Krautheimer, Rome: Profile of a City, 312-1308 (1980)"
+   ],
+   "monument": "san_clemente",
+   "note": "From-date is the first secure attestation or building date; many tituli began as halls in private houses whose dates are unknown."
+  },
+  {
+   "id": "titulus_crescentianae",
+   "name": "Titulus Crescentianae (San Sisto Vecchio)",
+   "kind": "shrine",
+   "subkind": "titulus",
+   "loc": [
+    12.495,
+    41.8787
+   ],
+   "from": 400,
+   "to": 9999,
+   "certainty": "documented",
+   "summary": "Titulus on the Via Appia near the Baths of Caracalla, later dedicated to Pope Sixtus II. One of the 25 titular churches, the parish churches of Rome whose priests signed the synod of 499.",
+   "sources": [
+    {
+     "a": "Acts of the Roman synod of 499",
+     "r": "subscriptions"
+    },
+    {
+     "a": "Liber Pontificalis",
+     "r": "passim"
+    }
+   ],
+   "scholarship": [
+    "Hülsen, Le chiese di Roma nel medio evo (1927)",
+    "Pietri, Roma Christiana (1976)",
+    "Krautheimer, Rome: Profile of a City, 312-1308 (1980)"
+   ],
+   "note": "From-date is the first secure attestation or building date; many tituli began as halls in private houses whose dates are unknown."
+  },
+  {
+   "id": "titulus_cyriaci",
+   "name": "Titulus Cyriaci",
+   "kind": "shrine",
+   "subkind": "titulus",
+   "loc": [
+    12.4985,
+    41.9025
+   ],
+   "from": 400,
+   "to": 9999,
+   "certainty": "documented",
+   "summary": "Lost titulus near the Baths of Diocletian, named after a founder Cyriacus; abandoned in the Middle Ages. One of the 25 titular churches, the parish churches of Rome whose priests signed the synod of 499.",
+   "sources": [
+    {
+     "a": "Acts of the Roman synod of 499",
+     "r": "subscriptions"
+    },
+    {
+     "a": "Liber Pontificalis",
+     "r": "passim"
+    }
+   ],
+   "scholarship": [
+    "Hülsen, Le chiese di Roma nel medio evo (1927)",
+    "Pietri, Roma Christiana (1976)",
+    "Krautheimer, Rome: Profile of a City, 312-1308 (1980)"
+   ],
+   "note": "From-date is the first secure attestation or building date; many tituli began as halls in private houses whose dates are unknown."
+  },
+  {
+   "id": "titulus_damasi",
+   "name": "Titulus Damasi (San Lorenzo in Damaso)",
+   "kind": "shrine",
+   "subkind": "titulus",
+   "loc": [
+    12.4718,
+    41.8964
+   ],
+   "from": 380,
+   "to": 9999,
+   "certainty": "documented",
+   "summary": "Church built by Pope Damasus (366-384) in the Campus Martius near the Theatre of Pompey, dedicated to St Lawrence, with the archive of the Roman church. One of the 25 titular churches, the parish churches of Rome whose priests signed the synod of 499.",
+   "sources": [
+    {
+     "a": "Acts of the Roman synod of 499",
+     "r": "subscriptions"
+    },
+    {
+     "a": "Liber Pontificalis",
+     "r": "passim"
+    }
+   ],
+   "scholarship": [
+    "Hülsen, Le chiese di Roma nel medio evo (1927)",
+    "Pietri, Roma Christiana (1976)",
+    "Krautheimer, Rome: Profile of a City, 312-1308 (1980)"
+   ],
+   "note": "From-date is the first secure attestation or building date; many tituli began as halls in private houses whose dates are unknown."
+  },
+  {
+   "id": "titulus_equitii",
+   "name": "Titulus Equitii / Silvestri (San Martino ai Monti)",
+   "kind": "shrine",
+   "subkind": "titulus",
+   "loc": [
+    12.4983,
+    41.8952
+   ],
+   "from": 310,
+   "to": 9999,
+   "certainty": "documented",
+   "summary": "Titulus on the Esquiline whose 3rd-century hall survives under the church; tradition named it after the priest Equitius and Pope Silvester. One of the 25 titular churches, the parish churches of Rome whose priests signed the synod of 499.",
+   "sources": [
+    {
+     "a": "Acts of the Roman synod of 499",
+     "r": "subscriptions"
+    },
+    {
+     "a": "Liber Pontificalis",
+     "r": "passim"
+    }
+   ],
+   "scholarship": [
+    "Hülsen, Le chiese di Roma nel medio evo (1927)",
+    "Pietri, Roma Christiana (1976)",
+    "Krautheimer, Rome: Profile of a City, 312-1308 (1980)"
+   ],
+   "note": "From-date is the first secure attestation or building date; many tituli began as halls in private houses whose dates are unknown."
+  },
+  {
+   "id": "titulus_fasciolae",
+   "name": "Titulus Fasciolae (Santi Nereo e Achilleo)",
+   "kind": "shrine",
+   "subkind": "titulus",
+   "loc": [
+    12.4936,
+    41.8793
+   ],
+   "from": 377,
+   "to": 9999,
+   "certainty": "documented",
+   "summary": "Titulus on the Via Appia opposite the Baths of Caracalla, attested in an epitaph of 377; the name recalls the 'bandage' Peter lost there while fleeing Rome. One of the 25 titular churches, the parish churches of Rome whose priests signed the synod of 499.",
+   "sources": [
+    {
+     "a": "Acts of the Roman synod of 499",
+     "r": "subscriptions"
+    },
+    {
+     "a": "Liber Pontificalis",
+     "r": "passim"
+    }
+   ],
+   "scholarship": [
+    "Hülsen, Le chiese di Roma nel medio evo (1927)",
+    "Pietri, Roma Christiana (1976)",
+    "Krautheimer, Rome: Profile of a City, 312-1308 (1980)"
+   ],
+   "note": "From-date is the first secure attestation or building date; many tituli began as halls in private houses whose dates are unknown."
+  },
+  {
+   "id": "titulus_gai",
+   "name": "Titulus Gai / Susannae (Santa Susanna)",
+   "kind": "shrine",
+   "subkind": "titulus",
+   "loc": [
+    12.4945,
+    41.9042
+   ],
+   "from": 330,
+   "to": 9999,
+   "certainty": "documented",
+   "summary": "Titulus on the Quirinal by the Baths of Diocletian, built over a Roman house. One of the 25 titular churches, the parish churches of Rome whose priests signed the synod of 499.",
+   "sources": [
+    {
+     "a": "Acts of the Roman synod of 499",
+     "r": "subscriptions"
+    },
+    {
+     "a": "Liber Pontificalis",
+     "r": "passim"
+    }
+   ],
+   "scholarship": [
+    "Hülsen, Le chiese di Roma nel medio evo (1927)",
+    "Pietri, Roma Christiana (1976)",
+    "Krautheimer, Rome: Profile of a City, 312-1308 (1980)"
+   ],
+   "note": "From-date is the first secure attestation or building date; many tituli began as halls in private houses whose dates are unknown."
+  },
+  {
+   "id": "titulus_chrysogoni",
+   "name": "Titulus Chrysogoni (San Crisogono)",
+   "kind": "shrine",
+   "subkind": "titulus",
+   "loc": [
+    12.4724,
+    41.8886
+   ],
+   "from": 320,
+   "to": 9999,
+   "certainty": "documented",
+   "summary": "One of the oldest churches of Trastevere, a hall church of the early 4th century whose remains lie under the present church. One of the 25 titular churches, the parish churches of Rome whose priests signed the synod of 499.",
+   "sources": [
+    {
+     "a": "Acts of the Roman synod of 499",
+     "r": "subscriptions"
+    },
+    {
+     "a": "Liber Pontificalis",
+     "r": "passim"
+    }
+   ],
+   "scholarship": [
+    "Hülsen, Le chiese di Roma nel medio evo (1927)",
+    "Pietri, Roma Christiana (1976)",
+    "Krautheimer, Rome: Profile of a City, 312-1308 (1980)"
+   ],
+   "note": "From-date is the first secure attestation or building date; many tituli began as halls in private houses whose dates are unknown."
+  },
+  {
+   "id": "titulus_lucinae",
+   "name": "Titulus Lucinae (San Lorenzo in Lucina)",
+   "kind": "shrine",
+   "subkind": "titulus",
+   "loc": [
+    12.4793,
+    41.9037
+   ],
+   "from": 366,
+   "to": 9999,
+   "certainty": "documented",
+   "summary": "Church in the northern Campus Martius on a site near the Horologium of Augustus; Pope Damasus was elected here in 366, and Sixtus III rebuilt it. One of the 25 titular churches, the parish churches of Rome whose priests signed the synod of 499.",
+   "sources": [
+    {
+     "a": "Acts of the Roman synod of 499",
+     "r": "subscriptions"
+    },
+    {
+     "a": "Liber Pontificalis",
+     "r": "passim"
+    }
+   ],
+   "scholarship": [
+    "Hülsen, Le chiese di Roma nel medio evo (1927)",
+    "Pietri, Roma Christiana (1976)",
+    "Krautheimer, Rome: Profile of a City, 312-1308 (1980)"
+   ],
+   "note": "From-date is the first secure attestation or building date; many tituli began as halls in private houses whose dates are unknown."
+  },
+  {
+   "id": "titulus_marcelli",
+   "name": "Titulus Marcelli (San Marcello)",
+   "kind": "shrine",
+   "subkind": "titulus",
+   "loc": [
+    12.4821,
+    41.8988
+   ],
+   "from": 400,
+   "to": 9999,
+   "certainty": "documented",
+   "summary": "Church on the Via Lata whose earliest phase, with a baptistery, lies under the present church. One of the 25 titular churches, the parish churches of Rome whose priests signed the synod of 499.",
+   "sources": [
+    {
+     "a": "Acts of the Roman synod of 499",
+     "r": "subscriptions"
+    },
+    {
+     "a": "Liber Pontificalis",
+     "r": "passim"
+    }
+   ],
+   "scholarship": [
+    "Hülsen, Le chiese di Roma nel medio evo (1927)",
+    "Pietri, Roma Christiana (1976)",
+    "Krautheimer, Rome: Profile of a City, 312-1308 (1980)"
+   ],
+   "note": "From-date is the first secure attestation or building date; many tituli began as halls in private houses whose dates are unknown."
+  },
+  {
+   "id": "titulus_marci",
+   "name": "Titulus Marci (San Marco)",
+   "kind": "shrine",
+   "subkind": "titulus",
+   "loc": [
+    12.4819,
+    41.8962
+   ],
+   "from": 336,
+   "to": 9999,
+   "certainty": "documented",
+   "summary": "Church founded by Pope Mark in 336 near the Capitol, rebuilt in the 8th and 9th centuries. One of the 25 titular churches, the parish churches of Rome whose priests signed the synod of 499.",
+   "sources": [
+    {
+     "a": "Acts of the Roman synod of 499",
+     "r": "subscriptions"
+    },
+    {
+     "a": "Liber Pontificalis",
+     "r": "passim"
+    }
+   ],
+   "scholarship": [
+    "Hülsen, Le chiese di Roma nel medio evo (1927)",
+    "Pietri, Roma Christiana (1976)",
+    "Krautheimer, Rome: Profile of a City, 312-1308 (1980)"
+   ],
+   "note": "From-date is the first secure attestation or building date; many tituli began as halls in private houses whose dates are unknown."
+  },
+  {
+   "id": "titulus_matthaei",
+   "name": "Titulus Matthaei",
+   "kind": "shrine",
+   "subkind": "titulus",
+   "loc": [
+    12.501,
+    41.8915
+   ],
+   "from": 450,
+   "to": 9999,
+   "certainty": "documented",
+   "summary": "Lost titulus of St Matthew on the Via Merulana, on the Esquiline. One of the 25 titular churches, the parish churches of Rome whose priests signed the synod of 499.",
+   "sources": [
+    {
+     "a": "Acts of the Roman synod of 499",
+     "r": "subscriptions"
+    },
+    {
+     "a": "Liber Pontificalis",
+     "r": "passim"
+    }
+   ],
+   "scholarship": [
+    "Hülsen, Le chiese di Roma nel medio evo (1927)",
+    "Pietri, Roma Christiana (1976)",
+    "Krautheimer, Rome: Profile of a City, 312-1308 (1980)"
+   ],
+   "note": "From-date is the first secure attestation or building date; many tituli began as halls in private houses whose dates are unknown."
+  },
+  {
+   "id": "titulus_pudentis",
+   "name": "Titulus Pudentis (Santa Pudenziana)",
+   "kind": "shrine",
+   "subkind": "titulus",
+   "loc": [
+    12.4956,
+    41.8984
+   ],
+   "from": 390,
+   "to": 9999,
+   "certainty": "documented",
+   "summary": "Church made around 390 inside the hall of a 2nd-century bath on the Vicus Patricius, with the oldest apse mosaic in Rome (c. 400). One of the 25 titular churches, the parish churches of Rome whose priests signed the synod of 499.",
+   "sources": [
+    {
+     "a": "Acts of the Roman synod of 499",
+     "r": "subscriptions"
+    },
+    {
+     "a": "Liber Pontificalis",
+     "r": "passim"
+    }
+   ],
+   "scholarship": [
+    "Hülsen, Le chiese di Roma nel medio evo (1927)",
+    "Pietri, Roma Christiana (1976)",
+    "Krautheimer, Rome: Profile of a City, 312-1308 (1980)"
+   ],
+   "monument": "santa_pudenziana",
+   "note": "From-date is the first secure attestation or building date; many tituli began as halls in private houses whose dates are unknown."
+  },
+  {
+   "id": "titulus_praxedis",
+   "name": "Titulus Praxedis (Santa Prassede)",
+   "kind": "shrine",
+   "subkind": "titulus",
+   "loc": [
+    12.4983,
+    41.8963
+   ],
+   "from": 491,
+   "to": 9999,
+   "certainty": "documented",
+   "summary": "Titulus on the Esquiline named in an epitaph of 491, rebuilt by Paschal I in 817. One of the 25 titular churches, the parish churches of Rome whose priests signed the synod of 499.",
+   "sources": [
+    {
+     "a": "Acts of the Roman synod of 499",
+     "r": "subscriptions"
+    },
+    {
+     "a": "Liber Pontificalis",
+     "r": "passim"
+    }
+   ],
+   "scholarship": [
+    "Hülsen, Le chiese di Roma nel medio evo (1927)",
+    "Pietri, Roma Christiana (1976)",
+    "Krautheimer, Rome: Profile of a City, 312-1308 (1980)"
+   ],
+   "note": "From-date is the first secure attestation or building date; many tituli began as halls in private houses whose dates are unknown."
+  },
+  {
+   "id": "titulus_priscae",
+   "name": "Titulus Priscae (Santa Prisca)",
+   "kind": "shrine",
+   "subkind": "titulus",
+   "loc": [
+    12.4827,
+    41.8828
+   ],
+   "from": 400,
+   "to": 9999,
+   "certainty": "documented",
+   "summary": "Titulus on the Aventine built over a house with a mithraeum; tradition connected it with Aquila and Prisca, St Paul's hosts. One of the 25 titular churches, the parish churches of Rome whose priests signed the synod of 499.",
+   "sources": [
+    {
+     "a": "Acts of the Roman synod of 499",
+     "r": "subscriptions"
+    },
+    {
+     "a": "Liber Pontificalis",
+     "r": "passim"
+    }
+   ],
+   "scholarship": [
+    "Hülsen, Le chiese di Roma nel medio evo (1927)",
+    "Pietri, Roma Christiana (1976)",
+    "Krautheimer, Rome: Profile of a City, 312-1308 (1980)"
+   ],
+   "note": "From-date is the first secure attestation or building date; many tituli began as halls in private houses whose dates are unknown."
+  },
+  {
+   "id": "titulus_sabinae",
+   "name": "Titulus Sabinae (Santa Sabina)",
+   "kind": "shrine",
+   "subkind": "titulus",
+   "loc": [
+    12.4799,
+    41.8845
+   ],
+   "from": 432,
+   "to": 9999,
+   "certainty": "documented",
+   "summary": "Basilica built in 422-432 by the priest Peter of Illyria on the Aventine, the best-preserved early Christian basilica in Rome. One of the 25 titular churches, the parish churches of Rome whose priests signed the synod of 499.",
+   "sources": [
+    {
+     "a": "Acts of the Roman synod of 499",
+     "r": "subscriptions"
+    },
+    {
+     "a": "Liber Pontificalis",
+     "r": "passim"
+    }
+   ],
+   "scholarship": [
+    "Hülsen, Le chiese di Roma nel medio evo (1927)",
+    "Pietri, Roma Christiana (1976)",
+    "Krautheimer, Rome: Profile of a City, 312-1308 (1980)"
+   ],
+   "monument": "santa_sabina",
+   "note": "From-date is the first secure attestation or building date; many tituli began as halls in private houses whose dates are unknown."
+  },
+  {
+   "id": "titulus_tigridae",
+   "name": "Titulus Tigridae (Santa Balbina?)",
+   "kind": "shrine",
+   "subkind": "titulus",
+   "loc": [
+    12.4908,
+    41.8805
+   ],
+   "from": 450,
+   "to": 9999,
+   "certainty": "documented",
+   "summary": "Titulus probably identical with Santa Balbina on the Piccolo Aventino, built in a hall of a Roman house associated with the Domus Cilonis. One of the 25 titular churches, the parish churches of Rome whose priests signed the synod of 499.",
+   "sources": [
+    {
+     "a": "Acts of the Roman synod of 499",
+     "r": "subscriptions"
+    },
+    {
+     "a": "Liber Pontificalis",
+     "r": "passim"
+    }
+   ],
+   "scholarship": [
+    "Hülsen, Le chiese di Roma nel medio evo (1927)",
+    "Pietri, Roma Christiana (1976)",
+    "Krautheimer, Rome: Profile of a City, 312-1308 (1980)"
+   ],
+   "note": "From-date is the first secure attestation or building date; many tituli began as halls in private houses whose dates are unknown."
+  },
+  {
+   "id": "titulus_vestinae",
+   "name": "Titulus Vestinae (San Vitale)",
+   "kind": "shrine",
+   "subkind": "titulus",
+   "loc": [
+    12.492,
+    41.8995
+   ],
+   "from": 402,
+   "to": 9999,
+   "certainty": "documented",
+   "summary": "Basilica founded by the matron Vestina under Pope Innocent I (401-417), dedicated to Gervasius and Protasius; it was the gathering church of the monks in Gregory's litany of 590. One of the 25 titular churches, the parish churches of Rome whose priests signed the synod of 499.",
+   "sources": [
+    {
+     "a": "Acts of the Roman synod of 499",
+     "r": "subscriptions"
+    },
+    {
+     "a": "Liber Pontificalis",
+     "r": "passim"
+    }
+   ],
+   "scholarship": [
+    "Hülsen, Le chiese di Roma nel medio evo (1927)",
+    "Pietri, Roma Christiana (1976)",
+    "Krautheimer, Rome: Profile of a City, 312-1308 (1980)"
+   ],
+   "note": "From-date is the first secure attestation or building date; many tituli began as halls in private houses whose dates are unknown."
+  },
+  {
+   "id": "titulus_eusebii",
+   "name": "Titulus Eusebii (Sant'Eusebio)",
+   "kind": "shrine",
+   "subkind": "titulus",
+   "loc": [
+    12.5045,
+    41.8962
+   ],
+   "from": 400,
+   "to": 9999,
+   "certainty": "documented",
+   "summary": "Titulus on the Esquiline near the Arch of Gallienus. One of the 25 titular churches, the parish churches of Rome whose priests signed the synod of 499.",
+   "sources": [
+    {
+     "a": "Acts of the Roman synod of 499",
+     "r": "subscriptions"
+    },
+    {
+     "a": "Liber Pontificalis",
+     "r": "passim"
+    }
+   ],
+   "scholarship": [
+    "Hülsen, Le chiese di Roma nel medio evo (1927)",
+    "Pietri, Roma Christiana (1976)",
+    "Krautheimer, Rome: Profile of a City, 312-1308 (1980)"
+   ],
+   "note": "From-date is the first secure attestation or building date; many tituli began as halls in private houses whose dates are unknown."
+  },
+  {
+   "id": "diaconia_s_maria_antiqua",
+   "name": "Diaconia of Santa Maria Antiqua",
+   "kind": "other",
+   "subkind": "diaconia",
+   "loc": [
+    12.4856,
+    41.891
+   ],
+   "from": 600,
+   "to": 9999,
+   "certainty": "conjectural",
+   "summary": "Church in the Augustan hall at the foot of the Palatine, converted in the mid-6th century, perhaps serving the Byzantine officials on the Palatine. It had become a diaconia, a welfare station distributing food, by the 7th century.",
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "John VII",
+     "r": "88"
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Rome: Profile of a City, 312-1308 (1980)",
+    "Osborne, Brandt and Morganti (eds), Santa Maria Antiqua al Foro Romano (2004)"
+   ],
+   "monument": "santa_maria_antiqua",
+   "note": "Diaconia status before 641 conjectural."
+  },
+  {
+   "id": "diaconia_s_maria_cosmedin",
+   "name": "Diaconia of Santa Maria in Cosmedin",
+   "kind": "other",
+   "subkind": "diaconia",
+   "loc": [
+    12.4818,
+    41.8882
+   ],
+   "from": 580,
+   "to": 9999,
+   "certainty": "conjectural",
+   "summary": "The Statio Annonae by the Forum Boarium was turned into a diaconia in the late 6th century, continuing in church hands the food distribution once run by the state.",
+   "scholarship": [
+    "Krautheimer, Rome: Profile of a City, 312-1308 (1980)",
+    "Durliat, De la ville antique à la ville byzantine (1990)"
+   ]
+  },
+  {
+   "id": "diaconia_s_teodoro",
+   "name": "Diaconia of San Teodoro",
+   "kind": "other",
+   "subkind": "diaconia",
+   "loc": [
+    12.4847,
+    41.8906
+   ],
+   "from": 600,
+   "to": 9999,
+   "certainty": "conjectural",
+   "summary": "Round church at the foot of the Palatine on the old Horrea Agrippiana, with a 6th-7th century apse mosaic; later a diaconia.",
+   "scholarship": [
+    "Krautheimer, Rome: Profile of a City, 312-1308 (1980)",
+    "Hülsen, Le chiese di Roma nel medio evo (1927)"
+   ]
+  },
+  {
+   "id": "diaconia_s_maria_via_lata",
+   "name": "Diaconia of Santa Maria in Via Lata",
+   "kind": "other",
+   "subkind": "diaconia",
+   "loc": [
+    12.4816,
+    41.8979
+   ],
+   "from": 600,
+   "to": 9999,
+   "certainty": "conjectural",
+   "summary": "Welfare station installed in the ground floor of the late Roman warehouse on the Via Lata, with 7th-century paintings.",
+   "scholarship": [
+    "Krautheimer, Rome: Profile of a City, 312-1308 (1980)"
+   ]
+  },
+  {
+   "id": "diaconia_s_maria_domnica",
+   "name": "Diaconia of Santa Maria in Domnica",
+   "kind": "other",
+   "subkind": "diaconia",
+   "loc": [
+    12.4949,
+    41.8854
+   ],
+   "from": 630,
+   "to": 9999,
+   "certainty": "conjectural",
+   "summary": "Diaconia on the Caelian over the station of the fifth cohort of vigiles, rebuilt by Paschal I in the 9th century.",
+   "scholarship": [
+    "Krautheimer, Rome: Profile of a City, 312-1308 (1980)",
+    "Hülsen, Le chiese di Roma nel medio evo (1927)"
+   ]
+  },
+  {
+   "id": "xenodochium_belisarii",
+   "name": "Xenodochium of Belisarius (Via Lata)",
+   "kind": "other",
+   "subkind": "xenodochium",
+   "loc": [
+    12.4838,
+    41.9003
+   ],
+   "from": 537,
+   "to": 9999,
+   "certainty": "documented",
+   "summary": "Hostel for travellers and the poor founded by Belisarius on the Via Lata during the Gothic siege, with the church of Santa Maria in Trivio, according to the Liber Pontificalis as penance for deposing Pope Silverius.",
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "Vigilius",
+     "r": "61"
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Rome: Profile of a City, 312-1308 (1980)"
+   ],
+   "people": [
+    "belisarius"
+   ],
+   "event": "deposition_of_silverius_537"
+  },
+  {
+   "id": "xenodochium_valerii",
+   "name": "Xenodochium Valerii (Caelian)",
+   "kind": "other",
+   "subkind": "xenodochium",
+   "loc": [
+    12.4988,
+    41.8852
+   ],
+   "from": 600,
+   "to": 9999,
+   "certainty": "conjectural",
+   "summary": "Hospice on the Caelian on the site of the great Domus Valeriorum, which Melania the Younger had been unable to sell before 410; it is attested later as the 'xenodochium Valerii'.",
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "r": "8th-century lives"
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Rome: Profile of a City, 312-1308 (1980)",
+    "Guidobaldi, 'Le domus tardoantiche di Roma', in Lavan and Bowden (eds), Theory and Practice in Late Antique Archaeology (2003)"
+   ],
+   "note": "Pre-641 existence conjectural."
+  },
+  {
+   "id": "hospice_symmachus_st_peter",
+   "name": "Pope Symmachus' hospice at St Peter's",
+   "kind": "other",
+   "subkind": "xenodochium",
+   "loc": [
+    12.4545,
+    41.9027
+   ],
+   "from": 500,
+   "to": 9999,
+   "certainty": "documented",
+   "summary": "Pope Symmachus (498-514) built lodgings for the poor beside the basilicas of St Peter, St Paul and St Lawrence, the first papal charitable buildings at the great shrines.",
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "Symmachus",
+     "r": "53.10"
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Rome: Profile of a City, 312-1308 (1980)"
+   ],
+   "monument": "old_st_peters"
+  },
+  {
+   "id": "hospice_symmachus_st_paul",
+   "name": "Pope Symmachus' hospice at St Paul's",
+   "kind": "other",
+   "subkind": "xenodochium",
+   "loc": [
+    12.477,
+    41.859
+   ],
+   "from": 500,
+   "to": 9999,
+   "certainty": "documented",
+   "summary": "Lodgings for the poor built by Symmachus beside San Paolo fuori le mura.",
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "Symmachus",
+     "r": "53.10"
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Rome: Profile of a City, 312-1308 (1980)"
+   ],
+   "monument": "st_pauls_outside_the_walls"
+  },
+  {
+   "id": "hospice_symmachus_st_lawrence",
+   "name": "Pope Symmachus' hospice at St Lawrence's",
+   "kind": "other",
+   "subkind": "xenodochium",
+   "loc": [
+    12.5205,
+    41.9025
+   ],
+   "from": 500,
+   "to": 9999,
+   "certainty": "documented",
+   "summary": "Lodgings for the poor built by Symmachus beside San Lorenzo fuori le mura on the Via Tiburtina.",
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "Symmachus",
+     "r": "53.10"
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Rome: Profile of a City, 312-1308 (1980)"
+   ],
+   "monument": "san_lorenzo_fuori_le_mura"
+  },
+  {
+   "id": "nosocomium_fabiolae",
+   "name": "Nosocomium of Fabiola",
+   "kind": "other",
+   "subkind": "hospital",
+   "loc": [
+    12.503,
+    41.888
+   ],
+   "from": 390,
+   "to": 410,
+   "certainty": "conjectural",
+   "summary": "The noble widow Fabiola founded the first Christian hospital in Rome in the 390s, gathering the sick from the streets and nursing them herself, as Jerome records in his obituary letter.",
+   "sources": [
+    {
+     "a": "Jerome",
+     "w": "Letters",
+     "r": "77.6"
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Rome: Profile of a City, 312-1308 (1980)"
+   ],
+   "people": [
+    "jerome"
+   ],
+   "note": "Location unknown; placed near the Lateran by convention."
+  },
+  {
+   "id": "tiber_island_sickhouse",
+   "name": "Sanctuary-hospital of Aesculapius on the Tiber Island",
+   "kind": "other",
+   "subkind": "hospital",
+   "loc": [
+    12.4776,
+    41.8904
+   ],
+   "from": -291,
+   "to": 400,
+   "certainty": "documented",
+   "summary": "The sick slept in the porticoes of the Temple of Aesculapius hoping for a healing dream; masters abandoned sick slaves here, and Claudius ruled that slaves so abandoned who recovered were free.",
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Claudius",
+     "r": "25.2"
+    },
+    {
+     "a": "Livy",
+     "w": "Periochae",
+     "r": "11"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) s.v. Aesculapius, Aedes",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "monument": "temple_of_aesculapius"
+  },
+  {
+   "id": "monastery_st_andrew",
+   "name": "Monastery of St Andrew on the Clivus Scauri",
+   "kind": "other",
+   "subkind": "monastery",
+   "loc": [
+    12.4917,
+    41.886
+   ],
+   "from": 575,
+   "to": 9999,
+   "certainty": "documented",
+   "summary": "Gregory the Great turned his family house on the Clivus Scauri into a monastery dedicated to St Andrew in about 575 and lived there as a monk; from here Augustine and his companions left in 596 for the mission to England.",
+   "sources": [
+    {
+     "a": "Gregory the Great",
+     "w": "Dialogues",
+     "r": "4.57"
+    },
+    {
+     "a": "John the Deacon",
+     "w": "Life of Gregory",
+     "r": "1.6"
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Rome: Profile of a City, 312-1308 (1980)",
+    "Markus, Gregory the Great and his World (1997)"
+   ],
+   "people": [
+    "gregory_the_great"
+   ],
+   "note": "Now San Gregorio Magno al Celio."
+  },
+  {
+   "id": "esquiline_necropolis",
+   "name": "Esquiline necropolis and the puticuli",
+   "kind": "cemetery",
+   "subkind": "necropolis",
+   "loc": [
+    12.503,
+    41.8958
+   ],
+   "from": -800,
+   "to": -35,
+   "certainty": "excavated",
+   "summary": "The great cemetery outside the Esquiline gate, used from the Iron Age. By the late Republic it included the puticuli, open pits into which the bodies of slaves and the destitute were thrown with rubbish; Lanciani found pits full of bones and refuse in the 1870s. Maecenas covered it with earth and laid out his gardens around 35 BC.",
+   "sources": [
+    {
+     "a": "Varro",
+     "w": "De lingua Latina",
+     "r": "5.25"
+    },
+    {
+     "a": "Horace",
+     "w": "Satires",
+     "r": "1.8.8-16"
+    }
+   ],
+   "scholarship": [
+    "Lanciani, Forma Urbis Romae (1893-1901)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) s.v. Esquiliae",
+    "Graham, Death, Disposal and the Destitute (2006)"
+   ]
+  },
+  {
+   "id": "esquiline_fresco_tomb",
+   "name": "Esquiline tomb of the historical fresco",
+   "kind": "cemetery",
+   "subkind": "tomb",
+   "loc": [
+    12.5045,
+    41.895
+   ],
+   "from": -290,
+   "to": -100,
+   "certainty": "excavated",
+   "summary": "Chamber tomb on the Esquiline found in 1875 with the earliest Roman historical painting (c. 300-250 BC): Q. Fabius and M. Fannius parleying in scenes of the Samnite wars, perhaps from the tomb of the Fabii.",
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Coarelli, 'Il sepolcro degli Scipioni' and studies on the Esquiline fresco (1976)"
+   ],
+   "event": "esquiline_historical_fresco",
+   "note": "Find-spot approximate."
+  },
+  {
+   "id": "vatican_necropolis",
+   "name": "Vatican necropolis",
+   "kind": "cemetery",
+   "subkind": "necropolis",
+   "loc": [
+    12.4536,
+    41.9023
+   ],
+   "from": 100,
+   "to": 324,
+   "certainty": "excavated",
+   "summary": "Street of mausolea of freedmen and Christians on the slope of the Vatican hill north of the Circus of Gaius and Nero, excavated under St Peter's in 1940-1949. Its focus is the 2nd-century aedicula (Trophy of Gaius) over a poor grave revered as Peter's. Constantine filled it in to build the basilica.",
+   "sources": [
+    {
+     "a": "Eusebius",
+     "w": "Ecclesiastical History",
+     "r": "2.25.7"
+    }
+   ],
+   "scholarship": [
+    "Toynbee and Ward-Perkins, The Shrine of St Peter and the Vatican Excavations (1956)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "monument": "old_st_peters"
+  },
+  {
+   "id": "via_triumphalis_necropolis",
+   "name": "Via Triumphalis necropolis",
+   "kind": "cemetery",
+   "subkind": "necropolis",
+   "loc": [
+    12.4525,
+    41.9047
+   ],
+   "from": -30,
+   "to": 300,
+   "certainty": "excavated",
+   "summary": "Cemetery of slaves, freedmen and craftsmen along the Via Triumphalis on the Vatican slope, excavated under the Vatican car park and the Santa Rosa area (2003-2006), with hundreds of modest graves and small tombs.",
+   "scholarship": [
+    "Liverani and Spinola, The Vatican Necropoles (2010)"
+   ]
+  },
+  {
+   "id": "via_ostiensis_necropolis",
+   "name": "Via Ostiensis necropolis",
+   "kind": "cemetery",
+   "subkind": "necropolis",
+   "loc": [
+    12.479,
+    41.864
+   ],
+   "from": -100,
+   "to": 400,
+   "certainty": "excavated",
+   "summary": "Cemetery along the road to Ostia, of which a stretch with columbaria and tombs survives near San Paolo; Paul was buried in it and Constantine's basilica rose over his grave.",
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Liverani and Spinola, The Vatican Necropoles (2010)"
+   ]
+  },
+  {
+   "id": "via_salaria_necropolis",
+   "name": "Via Salaria necropolis",
+   "kind": "cemetery",
+   "subkind": "necropolis",
+   "loc": [
+    12.5005,
+    41.9135
+   ],
+   "from": -50,
+   "to": 300,
+   "certainty": "excavated",
+   "summary": "Tombs along the Salaria and Pinciana outside the Aurelian Wall, including the drum mausoleum of Lucilius Paetus and his daughter (c. 10 BC) and the tomb of the boy poet Q. Sulpicius Maximus by the Porta Salaria.",
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ]
+  },
+  {
+   "id": "via_flaminia_necropolis",
+   "name": "Via Flaminia necropolis",
+   "kind": "cemetery",
+   "subkind": "necropolis",
+   "loc": [
+    12.476,
+    41.9125
+   ],
+   "from": -100,
+   "to": 300,
+   "certainty": "excavated",
+   "summary": "Tombs lining the Via Flaminia beyond the Porta Flaminia, among them the family tomb of the Domitii on the Pincian slope where Nero's ashes were laid.",
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Nero",
+     "r": "50"
+    }
+   ],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ]
+  },
+  {
+   "id": "via_latina_necropolis",
+   "name": "Via Latina necropolis",
+   "kind": "cemetery",
+   "subkind": "necropolis",
+   "loc": [
+    12.534,
+    41.862
+   ],
+   "from": -50,
+   "to": 400,
+   "certainty": "excavated",
+   "summary": "Archaeological park of tombs along the Via Latina, including the painted and stuccoed tombs of the Valerii and the Pancratii (2nd century).",
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ]
+  },
+  {
+   "id": "via_portuensis_necropolis",
+   "name": "Via Portuensis necropolis",
+   "kind": "cemetery",
+   "subkind": "necropolis",
+   "loc": [
+    12.465,
+    41.873
+   ],
+   "from": -50,
+   "to": 400,
+   "certainty": "documented",
+   "summary": "Cemeteries along the Via Portuensis and the slopes of Monteverde, with columbaria, the Jewish catacomb and the Christian catacomb of Pontianus.",
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": "Representative point."
+  },
+  {
+   "id": "sepulcretum_statiliorum",
+   "name": "Columbaria of the Statilii",
+   "kind": "cemetery",
+   "subkind": "columbarium",
+   "loc": [
+    12.5125,
+    41.8925
+   ],
+   "from": -30,
+   "to": 100,
+   "certainty": "excavated",
+   "summary": "Burial chambers of the slaves and freedmen of the Statilii Tauri on the Esquiline near the Porta Maggiore, found in 1875 with hundreds of epitaphs and a painted frieze of Rome's foundation legends.",
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ]
+  },
+  {
+   "id": "columbaria_vigna_codini",
+   "name": "Columbaria of Vigna Codini",
+   "kind": "cemetery",
+   "subkind": "columbarium",
+   "loc": [
+    12.4987,
+    41.8749
+   ],
+   "from": 10,
+   "to": 100,
+   "certainty": "excavated",
+   "summary": "Three large underground columbaria of the early empire near the Porta San Sebastiano, one with niches for some 500 urns of imperial slaves and freedmen.",
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ]
+  },
+  {
+   "id": "columbarium_pomponius_hylas",
+   "name": "Columbarium of Pomponius Hylas",
+   "kind": "cemetery",
+   "subkind": "columbarium",
+   "loc": [
+    12.4996,
+    41.876
+   ],
+   "from": 20,
+   "to": 120,
+   "certainty": "excavated",
+   "summary": "Small columbarium of the early 1st century near the Tomb of the Scipios, with a glass mosaic panel naming Pomponius Hylas and his wife Vitalis, and fine paintings.",
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "monument": "tomb_of_the_scipios"
+  },
+  {
+   "id": "columbarium_liviae",
+   "name": "Columbarium of the freedmen of Livia",
+   "kind": "cemetery",
+   "subkind": "columbarium",
+   "loc": [
+    12.4993,
+    41.8742
+   ],
+   "from": 10,
+   "to": 100,
+   "certainty": "documented",
+   "summary": "Columbarium of the household of Livia found in 1726 on the Via Appia inside the later Aurelian Wall, with over 1,000 urns and epitaphs listing slave jobs from hairdressers to accountants.",
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "3926-4326"
+    }
+   ],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Treggiari, 'Jobs in the household of Livia', PBSR 43 (1975)"
+   ],
+   "note": "Destroyed after excavation; position approximate."
+  },
+  {
+   "id": "hypogeum_aurelii",
+   "name": "Hypogeum of the Aurelii",
+   "kind": "cemetery",
+   "subkind": "hypogeum",
+   "loc": [
+    12.5085,
+    41.8916
+   ],
+   "from": 220,
+   "to": 270,
+   "certainty": "excavated",
+   "summary": "Underground family tomb of the 3rd century on Viale Manzoni, found in 1919, with paintings mixing Christian, Gnostic and classical imagery.",
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Fiocchi Nicolai, Bisconti and Mazzoleni, The Christian Catacombs of Rome (1999)"
+   ]
+  },
+  {
+   "id": "basilica_porta_maggiore",
+   "name": "Underground basilica of Porta Maggiore",
+   "kind": "shrine",
+   "subkind": "hypogeum",
+   "loc": [
+    12.5195,
+    41.8912
+   ],
+   "from": 30,
+   "to": 60,
+   "certainty": "excavated",
+   "summary": "Three-aisled underground hall of the 1st century with white stucco reliefs of myths of the soul, found in 1917 under the railway. Its use (Neopythagorean sect, funerary hall of the Statilii) is debated; it seems to have been filled in soon after building.",
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Carcopino, La basilique pythagoricienne de la Porte Majeure (1926)"
+   ]
+  },
+  {
+   "id": "catacomb_priscilla",
+   "name": "Catacomb of Priscilla",
+   "kind": "catacomb",
+   "subkind": "catacomb",
+   "loc": [
+    12.5088,
+    41.9297
+   ],
+   "from": 200,
+   "to": 9999,
+   "certainty": "excavated",
+   "summary": "One of the oldest Christian cemeteries, developed from a quarry and a hypogeum of the Acilii Glabriones; it holds the earliest image of the Virgin and Child (early 3rd century) and the 'Greek chapel'. Seven popes were buried here.",
+   "sources": [
+    {
+     "a": "Notitia ecclesiarum urbis Romae",
+     "w": "7th-century pilgrim itinerary"
+    },
+    {
+     "a": "Damasus",
+     "w": "Epigrammata"
+    }
+   ],
+   "scholarship": [
+    "Fiocchi Nicolai, Bisconti and Mazzoleni, The Christian Catacombs of Rome (1999)",
+    "Nestori, Repertorio topografico delle pitture delle catacombe romane (1993)"
+   ],
+   "road": "Via Salaria Nova",
+   "monument": "catacomb_of_priscilla",
+   "note": "Coordinates approximate to the main entrance. Burials ceased in the early 5th century but martyr shrines were visited by pilgrims through the 7th century."
+  },
+  {
+   "id": "catacomb_domitilla",
+   "name": "Catacomb of Domitilla",
+   "kind": "catacomb",
+   "subkind": "catacomb",
+   "loc": [
+    12.5056,
+    41.8588
+   ],
+   "from": 200,
+   "to": 9999,
+   "certainty": "excavated",
+   "summary": "Vast catacomb on land of Flavia Domitilla, with the semi-subterranean basilica of Nereus and Achilleus (late 4th century) and some 15 km of galleries.",
+   "sources": [
+    {
+     "a": "Notitia ecclesiarum urbis Romae",
+     "w": "7th-century pilgrim itinerary"
+    },
+    {
+     "a": "Damasus",
+     "w": "Epigrammata"
+    }
+   ],
+   "scholarship": [
+    "Fiocchi Nicolai, Bisconti and Mazzoleni, The Christian Catacombs of Rome (1999)",
+    "Nestori, Repertorio topografico delle pitture delle catacombe romane (1993)"
+   ],
+   "road": "Via Ardeatina",
+   "monument": "catacomb_of_domitilla",
+   "note": "Coordinates approximate to the main entrance. Burials ceased in the early 5th century but martyr shrines were visited by pilgrims through the 7th century."
+  },
+  {
+   "id": "catacomb_callixtus",
+   "name": "Catacomb of Callixtus",
+   "kind": "catacomb",
+   "subkind": "catacomb",
+   "loc": [
+    12.5108,
+    41.8589
+   ],
+   "from": 200,
+   "to": 9999,
+   "certainty": "excavated",
+   "summary": "The official cemetery of the Roman church from about 200, entrusted to the deacon Callixtus; its Crypt of the Popes held nine 3rd-century bishops of Rome.",
+   "sources": [
+    {
+     "a": "Notitia ecclesiarum urbis Romae",
+     "w": "7th-century pilgrim itinerary"
+    },
+    {
+     "a": "Damasus",
+     "w": "Epigrammata"
+    }
+   ],
+   "scholarship": [
+    "Fiocchi Nicolai, Bisconti and Mazzoleni, The Christian Catacombs of Rome (1999)",
+    "Nestori, Repertorio topografico delle pitture delle catacombe romane (1993)"
+   ],
+   "road": "Via Appia",
+   "monument": "catacomb_of_callixtus",
+   "note": "Coordinates approximate to the main entrance. Burials ceased in the early 5th century but martyr shrines were visited by pilgrims through the 7th century."
+  },
+  {
+   "id": "catacomb_san_sebastiano",
+   "name": "Catacomb of San Sebastiano (ad Catacumbas)",
+   "kind": "catacomb",
+   "subkind": "catacomb",
+   "loc": [
+    12.5158,
+    41.8559
+   ],
+   "from": 250,
+   "to": 9999,
+   "certainty": "excavated",
+   "summary": "The place 'ad catacumbas' that gave catacombs their name; graffiti of about 260 invoking Peter and Paul (the Memoria Apostolorum) lie under the Constantinian basilica.",
+   "sources": [
+    {
+     "a": "Notitia ecclesiarum urbis Romae",
+     "w": "7th-century pilgrim itinerary"
+    },
+    {
+     "a": "Damasus",
+     "w": "Epigrammata"
+    }
+   ],
+   "scholarship": [
+    "Fiocchi Nicolai, Bisconti and Mazzoleni, The Christian Catacombs of Rome (1999)",
+    "Nestori, Repertorio topografico delle pitture delle catacombe romane (1993)"
+   ],
+   "road": "Via Appia",
+   "monument": "catacomb_of_san_sebastiano",
+   "note": "Coordinates approximate to the main entrance. Burials ceased in the early 5th century but martyr shrines were visited by pilgrims through the 7th century."
+  },
+  {
+   "id": "catacomb_praetextatus",
+   "name": "Catacomb of Praetextatus",
+   "kind": "catacomb",
+   "subkind": "catacomb",
+   "loc": [
+    12.516,
+    41.8615
+   ],
+   "from": 200,
+   "to": 9999,
+   "certainty": "excavated",
+   "summary": "Cemetery between the Appia and Ardeatina with the 'spelunca magna' and tombs of martyrs including Januarius, son of Felicitas.",
+   "sources": [
+    {
+     "a": "Notitia ecclesiarum urbis Romae",
+     "w": "7th-century pilgrim itinerary"
+    },
+    {
+     "a": "Damasus",
+     "w": "Epigrammata"
+    }
+   ],
+   "scholarship": [
+    "Fiocchi Nicolai, Bisconti and Mazzoleni, The Christian Catacombs of Rome (1999)",
+    "Nestori, Repertorio topografico delle pitture delle catacombe romane (1993)"
+   ],
+   "road": "Via Appia Pignatelli",
+   "note": "Coordinates approximate to the main entrance. Burials ceased in the early 5th century but martyr shrines were visited by pilgrims through the 7th century."
+  },
+  {
+   "id": "catacomb_vigna_randanini",
+   "name": "Jewish catacomb of Vigna Randanini",
+   "kind": "catacomb",
+   "subkind": "catacomb",
+   "loc": [
+    12.5152,
+    41.8596
+   ],
+   "from": 200,
+   "to": 9999,
+   "certainty": "excavated",
+   "summary": "Jewish catacomb of the 3rd-4th centuries with painted rooms and Greek epitaphs naming synagogue officials.",
+   "scholarship": [
+    "Rutgers, The Jews in Late Ancient Rome (1995)",
+    "Noy, Jewish Inscriptions of Western Europe II: The City of Rome (1995)"
+   ],
+   "road": "Via Appia",
+   "note": "Coordinates approximate to the main entrance. Burials ceased in the early 5th century but martyr shrines were visited by pilgrims through the 7th century."
+  },
+  {
+   "id": "hypogeum_vibia",
+   "name": "Hypogeum of Vibia",
+   "kind": "catacomb",
+   "subkind": "catacomb",
+   "loc": [
+    12.5158,
+    41.8603
+   ],
+   "from": 300,
+   "to": 9999,
+   "certainty": "excavated",
+   "summary": "Mixed pagan-Christian hypogeum with paintings of Vibia's judgment and banquet in the afterlife under Sabazius.",
+   "sources": [
+    {
+     "a": "Notitia ecclesiarum urbis Romae",
+     "w": "7th-century pilgrim itinerary"
+    },
+    {
+     "a": "Damasus",
+     "w": "Epigrammata"
+    }
+   ],
+   "scholarship": [
+    "Fiocchi Nicolai, Bisconti and Mazzoleni, The Christian Catacombs of Rome (1999)",
+    "Nestori, Repertorio topografico delle pitture delle catacombe romane (1993)"
+   ],
+   "road": "Via Appia",
+   "note": "Coordinates approximate to the main entrance. Burials ceased in the early 5th century but martyr shrines were visited by pilgrims through the 7th century."
+  },
+  {
+   "id": "catacomb_vigna_cimarra",
+   "name": "Jewish catacomb of Vigna Cimarra",
+   "kind": "catacomb",
+   "subkind": "catacomb",
+   "loc": [
+    12.5135,
+    41.8635
+   ],
+   "from": 250,
+   "to": 9999,
+   "certainty": "documented",
+   "summary": "Small Jewish catacomb on the Via Appia, explored in the 19th century.",
+   "scholarship": [
+    "Rutgers, The Jews in Late Ancient Rome (1995)",
+    "Noy, Jewish Inscriptions of Western Europe II: The City of Rome (1995)"
+   ],
+   "road": "Via Appia",
+   "note": "Coordinates approximate to the main entrance. Burials ceased in the early 5th century but martyr shrines were visited by pilgrims through the 7th century."
+  },
+  {
+   "id": "catacomb_commodilla",
+   "name": "Catacomb of Commodilla",
+   "kind": "catacomb",
+   "subkind": "catacomb",
+   "loc": [
+    12.484,
+    41.86
+   ],
+   "from": 300,
+   "to": 9999,
+   "certainty": "excavated",
+   "summary": "Catacomb near the Via Ostiensis with the semi-subterranean basilica of Felix and Adauctus and some of the earliest images of Christ with a beard and of Peter and Paul (late 4th century).",
+   "sources": [
+    {
+     "a": "Notitia ecclesiarum urbis Romae",
+     "w": "7th-century pilgrim itinerary"
+    },
+    {
+     "a": "Damasus",
+     "w": "Epigrammata"
+    }
+   ],
+   "scholarship": [
+    "Fiocchi Nicolai, Bisconti and Mazzoleni, The Christian Catacombs of Rome (1999)",
+    "Nestori, Repertorio topografico delle pitture delle catacombe romane (1993)"
+   ],
+   "road": "Via delle Sette Chiese (Ostiensis)",
+   "note": "Coordinates approximate to the main entrance. Burials ceased in the early 5th century but martyr shrines were visited by pilgrims through the 7th century."
+  },
+  {
+   "id": "catacomb_tecla",
+   "name": "Catacomb of Santa Tecla",
+   "kind": "catacomb",
+   "subkind": "catacomb",
+   "loc": [
+    12.4793,
+    41.8614
+   ],
+   "from": 300,
+   "to": 9999,
+   "certainty": "excavated",
+   "summary": "Catacomb near San Paolo where in 2009 the earliest known icons of the apostles Paul, Peter, Andrew and John were found.",
+   "sources": [
+    {
+     "a": "Notitia ecclesiarum urbis Romae",
+     "w": "7th-century pilgrim itinerary"
+    },
+    {
+     "a": "Damasus",
+     "w": "Epigrammata"
+    }
+   ],
+   "scholarship": [
+    "Fiocchi Nicolai, Bisconti and Mazzoleni, The Christian Catacombs of Rome (1999)",
+    "Nestori, Repertorio topografico delle pitture delle catacombe romane (1993)"
+   ],
+   "road": "Via Ostiensis",
+   "note": "Coordinates approximate to the main entrance. Burials ceased in the early 5th century but martyr shrines were visited by pilgrims through the 7th century."
+  },
+  {
+   "id": "catacomb_balbina",
+   "name": "Catacomb of Balbina",
+   "kind": "catacomb",
+   "subkind": "catacomb",
+   "loc": [
+    12.503,
+    41.8582
+   ],
+   "from": 300,
+   "to": 9999,
+   "certainty": "documented",
+   "summary": "Cemetery of the martyr Balbina with a funerary basilica built by Pope Mark in 336.",
+   "sources": [
+    {
+     "a": "Notitia ecclesiarum urbis Romae",
+     "w": "7th-century pilgrim itinerary"
+    },
+    {
+     "a": "Damasus",
+     "w": "Epigrammata"
+    }
+   ],
+   "scholarship": [
+    "Fiocchi Nicolai, Bisconti and Mazzoleni, The Christian Catacombs of Rome (1999)",
+    "Nestori, Repertorio topografico delle pitture delle catacombe romane (1993)"
+   ],
+   "road": "Via Ardeatina",
+   "note": "Coordinates approximate to the main entrance. Burials ceased in the early 5th century but martyr shrines were visited by pilgrims through the 7th century."
+  },
+  {
+   "id": "catacomb_marcus_marcellianus",
+   "name": "Catacomb of Marcus and Marcellianus",
+   "kind": "catacomb",
+   "subkind": "catacomb",
+   "loc": [
+    12.5075,
+    41.8592
+   ],
+   "from": 300,
+   "to": 9999,
+   "certainty": "documented",
+   "summary": "Catacomb of the twin martyrs Marcus and Marcellianus, near the tomb of Pope Damasus.",
+   "sources": [
+    {
+     "a": "Notitia ecclesiarum urbis Romae",
+     "w": "7th-century pilgrim itinerary"
+    },
+    {
+     "a": "Damasus",
+     "w": "Epigrammata"
+    }
+   ],
+   "scholarship": [
+    "Fiocchi Nicolai, Bisconti and Mazzoleni, The Christian Catacombs of Rome (1999)",
+    "Nestori, Repertorio topografico delle pitture delle catacombe romane (1993)"
+   ],
+   "road": "Via Ardeatina",
+   "note": "Coordinates approximate to the main entrance. Burials ceased in the early 5th century but martyr shrines were visited by pilgrims through the 7th century."
+  },
+  {
+   "id": "catacomb_gordian_epimachus",
+   "name": "Catacomb of Gordian and Epimachus",
+   "kind": "catacomb",
+   "subkind": "catacomb",
+   "loc": [
+    12.5225,
+    41.866
+   ],
+   "from": 300,
+   "to": 9999,
+   "certainty": "documented",
+   "summary": "Catacomb on the Via Latina with a basilica over the martyrs Gordian and Epimachus.",
+   "sources": [
+    {
+     "a": "Notitia ecclesiarum urbis Romae",
+     "w": "7th-century pilgrim itinerary"
+    },
+    {
+     "a": "Damasus",
+     "w": "Epigrammata"
+    }
+   ],
+   "scholarship": [
+    "Fiocchi Nicolai, Bisconti and Mazzoleni, The Christian Catacombs of Rome (1999)",
+    "Nestori, Repertorio topografico delle pitture delle catacombe romane (1993)"
+   ],
+   "road": "Via Latina",
+   "note": "Coordinates approximate to the main entrance. Burials ceased in the early 5th century but martyr shrines were visited by pilgrims through the 7th century."
+  },
+  {
+   "id": "hypogeum_trebius_justus",
+   "name": "Hypogeum of Trebius Justus",
+   "kind": "catacomb",
+   "subkind": "catacomb",
+   "loc": [
+    12.5232,
+    41.8668
+   ],
+   "from": 300,
+   "to": 9999,
+   "certainty": "excavated",
+   "summary": "Small 4th-century hypogeum with paintings of the building trade and farm life of the family of Trebius Justus.",
+   "sources": [
+    {
+     "a": "Notitia ecclesiarum urbis Romae",
+     "w": "7th-century pilgrim itinerary"
+    },
+    {
+     "a": "Damasus",
+     "w": "Epigrammata"
+    }
+   ],
+   "scholarship": [
+    "Fiocchi Nicolai, Bisconti and Mazzoleni, The Christian Catacombs of Rome (1999)",
+    "Nestori, Repertorio topografico delle pitture delle catacombe romane (1993)"
+   ],
+   "road": "Via Latina",
+   "note": "Coordinates approximate to the main entrance. Burials ceased in the early 5th century but martyr shrines were visited by pilgrims through the 7th century."
+  },
+  {
+   "id": "catacomb_apronianus",
+   "name": "Catacomb of Apronianus",
+   "kind": "catacomb",
+   "subkind": "catacomb",
+   "loc": [
+    12.519,
+    41.87
+   ],
+   "from": 300,
+   "to": 9999,
+   "certainty": "documented",
+   "summary": "Catacomb near the start of the Via Latina outside the Porta Latina.",
+   "sources": [
+    {
+     "a": "Notitia ecclesiarum urbis Romae",
+     "w": "7th-century pilgrim itinerary"
+    },
+    {
+     "a": "Damasus",
+     "w": "Epigrammata"
+    }
+   ],
+   "scholarship": [
+    "Fiocchi Nicolai, Bisconti and Mazzoleni, The Christian Catacombs of Rome (1999)",
+    "Nestori, Repertorio topografico delle pitture delle catacombe romane (1993)"
+   ],
+   "road": "Via Latina",
+   "note": "Coordinates approximate to the main entrance. Burials ceased in the early 5th century but martyr shrines were visited by pilgrims through the 7th century."
+  }
+ ]
+}

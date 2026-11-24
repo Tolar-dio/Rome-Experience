@@ -1,0 +1,4414 @@
+{
+ "buildings": [
+  {
+   "id": "circus_maximus_v1",
+   "monument": "circus_maximus",
+   "name": "Circus Maximus (archaic track with wooden stands)",
+   "from": -509,
+   "to": -330,
+   "begun": -600,
+   "builder": null,
+   "template": "circus",
+   "loc": [
+    12.485701,
+    41.885881
+   ],
+   "rot": 306.2,
+   "w": 80,
+   "l": 520,
+   "h": 4.0,
+   "params": {
+    "l": 520,
+    "w": 80,
+    "spina": null,
+    "obelisks": [],
+    "carceres": 0,
+    "tiers": 4.0,
+    "pulvinar": false,
+    "mat": {
+     "tiers": "timber",
+     "track": "grass"
+    }
+   },
+   "importance": 5,
+   "certainty": "conjectural",
+   "summary": "The long valley of the Murcia between Palatine and Aventine, used for races since the regal period. Tarquinius Priscus is said to have marked out the course and let senators and knights build wooden stands (fori) on posts 12 feet high on the slopes. The brook ran down the middle, the turning points were wooden posts, and there were no permanent starting gates.",
+   "phases": [
+    {
+     "y": -509,
+     "t": "Ludi Romani held in the valley with temporary wooden stands"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "1.35.8-9"
+    },
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Roman Antiquities",
+     "r": "3.68.1"
+    }
+   ],
+   "scholarship": [
+    "Humphrey, Roman Circuses: Arenas for Chariot Racing (1986) 56-294",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 84-87",
+    "Ciancio Rossetto, LTUR I (1993) 272-277 s.v. Circus Maximus",
+    "Coarelli, Rome and Environs (2007) 327-330"
+   ],
+   "note": "Dimensions are the natural valley floor, not a built structure; the stream channel stood in for the later spina. Axis and centre from the outline of the Circo Massimo archaeological area (OSM relation 11384819): long axis bearing 126/306 deg; rot 306 = from the curved ESE end toward the WNW carceres. Obelisk offsets are metres from the spina centre, positive toward the carceres (along rot)."
+  },
+  {
+   "id": "circus_maximus_v2",
+   "monument": "circus_maximus",
+   "name": "Circus Maximus (first carceres, 329 BC)",
+   "from": -329,
+   "to": -197,
+   "begun": null,
+   "builder": null,
+   "template": "circus",
+   "loc": [
+    12.485701,
+    41.885881
+   ],
+   "rot": 306.2,
+   "w": 85,
+   "l": 540,
+   "h": 5.0,
+   "params": {
+    "l": 540,
+    "w": 85,
+    "spina": {
+     "l": 0,
+     "w": 0
+    },
+    "obelisks": [],
+    "carceres": 12,
+    "tiers": 5.0,
+    "pulvinar": false,
+    "mat": {
+     "carceres": "timber",
+     "tiers": "timber",
+     "track": "paving_sand"
+    }
+   },
+   "importance": 5,
+   "certainty": "conjectural",
+   "summary": "In 329 BC the first starting gates (carceres) were built, of wood and painted, at the western (Forum Boarium) end. Stands were still largely private timber scaffolding on the slopes.",
+   "phases": [
+    {
+     "y": -329,
+     "t": "carceres erected (Livy 8.20.1)"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "8.20.1"
+    }
+   ],
+   "scholarship": [
+    "Humphrey, Roman Circuses: Arenas for Chariot Racing (1986) 56-294",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 84-87",
+    "Ciancio Rossetto, LTUR I (1993) 272-277 s.v. Circus Maximus",
+    "Coarelli, Rome and Environs (2007) 327-330"
+   ],
+   "note": "Twelve gates assumed by analogy with the later circus; the number in 329 BC is not attested. Axis and centre from the outline of the Circo Massimo archaeological area (OSM relation 11384819): long axis bearing 126/306 deg; rot 306 = from the curved ESE end toward the WNW carceres. Obelisk offsets are metres from the spina centre, positive toward the carceres (along rot)."
+  },
+  {
+   "id": "circus_maximus_v3",
+   "monument": "circus_maximus",
+   "name": "Circus Maximus (with the Fornix of Stertinius, 196 BC)",
+   "from": -196,
+   "to": -175,
+   "begun": null,
+   "builder": null,
+   "template": "circus",
+   "loc": [
+    12.485701,
+    41.885881
+   ],
+   "rot": 306.2,
+   "w": 85,
+   "l": 540,
+   "h": 5.0,
+   "params": {
+    "l": 540,
+    "w": 85,
+    "spina": {
+     "l": 0,
+     "w": 0
+    },
+    "obelisks": [],
+    "carceres": 12,
+    "tiers": 5.0,
+    "pulvinar": false,
+    "mat": {
+     "carceres": "timber",
+     "tiers": "timber",
+     "track": "paving_sand"
+    }
+   },
+   "importance": 5,
+   "certainty": "conjectural",
+   "summary": "In 196 BC L. Stertinius, back from Spain, set up an arch carrying gilded statues in the Circus Maximus out of his spoils, the first monumental ornament of the course.",
+   "phases": [
+    {
+     "y": -196,
+     "t": "Fornix of L. Stertinius erected in the circus (see fornix_stertinii_circus record)"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "33.27.4"
+    }
+   ],
+   "scholarship": [
+    "Humphrey, Roman Circuses: Arenas for Chariot Racing (1986) 56-294",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 84-87",
+    "Ciancio Rossetto, LTUR I (1993) 272-277 s.v. Circus Maximus",
+    "Coarelli, Rome and Environs (2007) 327-330"
+   ],
+   "note": "The arch is given its own record; this version otherwise repeats v2. Axis and centre from the outline of the Circo Massimo archaeological area (OSM relation 11384819): long axis bearing 126/306 deg; rot 306 = from the curved ESE end toward the WNW carceres. Obelisk offsets are metres from the spina centre, positive toward the carceres (along rot)."
+  },
+  {
+   "id": "circus_maximus_v4",
+   "monument": "circus_maximus",
+   "name": "Circus Maximus (censorial rebuilding of 174 BC)",
+   "from": -174,
+   "to": -47,
+   "begun": null,
+   "builder": null,
+   "template": "circus",
+   "loc": [
+    12.485701,
+    41.885881
+   ],
+   "rot": 306.2,
+   "w": 90,
+   "l": 560,
+   "h": 7.0,
+   "params": {
+    "l": 560,
+    "w": 90,
+    "spina": {
+     "l": 300,
+     "w": 4
+    },
+    "obelisks": [],
+    "carceres": 12,
+    "tiers": 7.0,
+    "pulvinar": false,
+    "mat": {
+     "carceres": "tufa",
+     "tiers": "timber",
+     "spina": "tufa",
+     "track": "paving_sand"
+    }
+   },
+   "importance": 5,
+   "certainty": "conjectural",
+   "summary": "The censors Q. Fulvius Flaccus and A. Postumius Albinus rebuilt the carceres, set up the metae and the seven wooden eggs (ova) used to count the laps. A low central barrier of separate monuments began to take shape along the old stream line.",
+   "phases": [
+    {
+     "y": -174,
+     "t": "carceres, metae and lap-counting eggs (Livy 41.27.6)"
+    },
+    {
+     "y": -55,
+     "t": "elephant hunt at Pompey's games breaks the iron railings, prompting Caesar's euripus"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "41.27.6"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "8.21"
+    }
+   ],
+   "scholarship": [
+    "Humphrey, Roman Circuses: Arenas for Chariot Racing (1986) 56-294",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 84-87",
+    "Ciancio Rossetto, LTUR I (1993) 272-277 s.v. Circus Maximus",
+    "Coarelli, Rome and Environs (2007) 327-330"
+   ],
+   "note": "Livy does not say the carceres were stone; tufa assumed for the gates, timber for the seats. Axis and centre from the outline of the Circo Massimo archaeological area (OSM relation 11384819): long axis bearing 126/306 deg; rot 306 = from the curved ESE end toward the WNW carceres. Obelisk offsets are metres from the spina centre, positive toward the carceres (along rot)."
+  },
+  {
+   "id": "circus_maximus_v5",
+   "monument": "circus_maximus",
+   "name": "Circus Maximus (Caesar's rebuilding)",
+   "from": -46,
+   "to": -32,
+   "begun": -50,
+   "builder": "julius_caesar",
+   "template": "circus",
+   "loc": [
+    12.485701,
+    41.885881
+   ],
+   "rot": 306.2,
+   "w": 118,
+   "l": 600,
+   "h": 14.0,
+   "params": {
+    "l": 600,
+    "w": 118,
+    "spina": {
+     "l": 330,
+     "w": 8
+    },
+    "obelisks": [],
+    "carceres": 12,
+    "tiers": 14.0,
+    "pulvinar": false,
+    "mat": {
+     "carceres": "tufa",
+     "tiers": "tufa",
+     "upper": "timber",
+     "euripus": "water",
+     "track": "paving_sand"
+    }
+   },
+   "importance": 5,
+   "certainty": "reconstructed",
+   "summary": "Julius Caesar enlarged the circus to roughly its final size, about 3.5 stades long, cut a water channel (euripus) 10 feet wide and deep around the arena to protect spectators, and gave it a lower tier of masonry seating with timber stands above. Agrippa added the bronze dolphins as a second lap counter in 33 BC.",
+   "phases": [
+    {
+     "y": -46,
+     "t": "rebuilt and lengthened for Caesar's triumphal games"
+    },
+    {
+     "y": -33,
+     "t": "Agrippa adds dolphin lap counters (Dio 49.43.2)"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Divus Iulius",
+     "r": "39.2"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "8.21; 36.102"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "49.43.2"
+    }
+   ],
+   "scholarship": [
+    "Humphrey, Roman Circuses: Arenas for Chariot Racing (1986) 56-294",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 84-87",
+    "Ciancio Rossetto, LTUR I (1993) 272-277 s.v. Circus Maximus",
+    "Coarelli, Rome and Environs (2007) 327-330"
+   ],
+   "note": "Length ~600 m as instructed by the brief and Dionysius' 3.5 stades (~621 m) for the Augustan state. Axis and centre from the outline of the Circo Massimo archaeological area (OSM relation 11384819): long axis bearing 126/306 deg; rot 306 = from the curved ESE end toward the WNW carceres. Obelisk offsets are metres from the spina centre, positive toward the carceres (along rot)."
+  },
+  {
+   "id": "circus_maximus_v6",
+   "monument": "circus_maximus",
+   "name": "Circus Maximus (Augustan restoration after the fire of 31 BC)",
+   "from": -30,
+   "to": -11,
+   "begun": -31,
+   "builder": "augustus",
+   "template": "circus",
+   "loc": [
+    12.485701,
+    41.885881
+   ],
+   "rot": 306.2,
+   "w": 118,
+   "l": 610,
+   "h": 18.0,
+   "params": {
+    "l": 610,
+    "w": 118,
+    "spina": {
+     "l": 335,
+     "w": 8
+    },
+    "obelisks": [],
+    "carceres": 12,
+    "tiers": 18.0,
+    "pulvinar": true,
+    "mat": {
+     "carceres": "tufa",
+     "tiers": "tufa",
+     "upper": "timber",
+     "track": "paving_sand"
+    },
+    "pulvinarSide": "+x (Palatine side)"
+   },
+   "importance": 5,
+   "certainty": "reconstructed",
+   "summary": "A fire in 31 BC burned much of the circus. Augustus restored it and built the pulvinar, the imperial box on the Palatine side opposite the finish line, from which the gods' images and the emperor watched the races.",
+   "phases": [
+    {
+     "y": -31,
+     "t": "fire destroys part of the circus (Dio 50.10.3)"
+    },
+    {
+     "y": -28,
+     "t": "pulvinar built by Augustus (RG 19)"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "50.10.3"
+    },
+    {
+     "a": "Augustus",
+     "w": "Res Gestae",
+     "r": "19"
+    }
+   ],
+   "scholarship": [
+    "Humphrey, Roman Circuses: Arenas for Chariot Racing (1986) 56-294",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 84-87",
+    "Ciancio Rossetto, LTUR I (1993) 272-277 s.v. Circus Maximus",
+    "Coarelli, Rome and Environs (2007) 327-330"
+   ],
+   "note": " Axis and centre from the outline of the Circo Massimo archaeological area (OSM relation 11384819): long axis bearing 126/306 deg; rot 306 = from the curved ESE end toward the WNW carceres. Obelisk offsets are metres from the spina centre, positive toward the carceres (along rot)."
+  },
+  {
+   "id": "circus_maximus_v7",
+   "monument": "circus_maximus",
+   "name": "Circus Maximus (with the obelisk of Ramesses II)",
+   "from": -10,
+   "to": 36,
+   "begun": null,
+   "builder": "augustus",
+   "template": "circus",
+   "loc": [
+    12.485701,
+    41.885881
+   ],
+   "rot": 306.2,
+   "w": 118,
+   "l": 621,
+   "h": 18.0,
+   "params": {
+    "l": 621,
+    "w": 118,
+    "spina": {
+     "l": 335,
+     "w": 8
+    },
+    "obelisks": [
+     0
+    ],
+    "carceres": 12,
+    "tiers": 18.0,
+    "pulvinar": true,
+    "mat": {
+     "carceres": "tufa",
+     "tiers": "tufa",
+     "upper": "timber",
+     "spina": "marble_white",
+     "track": "paving_sand"
+    },
+    "pulvinarSide": "+x (Palatine side)"
+   },
+   "importance": 5,
+   "certainty": "documented",
+   "summary": "In 10 BC Augustus set up on the spina the obelisk of Ramesses II (and Seti I) brought from Heliopolis, 23.3 m tall, dedicated to the Sun after the conquest of Egypt. Dionysius describes the circus of this date: three and a half stades long, four plethra wide, three storeys of seating, the lowest of stone, the upper of wood, holding 150,000.",
+   "phases": [
+    {
+     "y": -10,
+     "t": "obelisk (now in Piazza del Popolo) erected on the spina (CIL VI 701)"
+    },
+    {
+     "y": 36,
+     "t": "fire on the Aventine side of the circus (Tac. Ann. 6.45)"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Roman Antiquities",
+     "r": "3.68.1-4"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "36.71"
+    },
+    {
+     "a": "Ammianus Marcellinus",
+     "w": "Res Gestae",
+     "r": "17.4.12"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annales",
+     "r": "6.45"
+    }
+   ],
+   "scholarship": [
+    "Humphrey, Roman Circuses: Arenas for Chariot Racing (1986) 56-294",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 84-87",
+    "Ciancio Rossetto, LTUR I (1993) 272-277 s.v. Circus Maximus",
+    "Coarelli, Rome and Environs (2007) 327-330"
+   ],
+   "note": "Obelisk placed at the spina centre; it was found in three pieces in 1587 near the middle of the spina. Axis and centre from the outline of the Circo Massimo archaeological area (OSM relation 11384819): long axis bearing 126/306 deg; rot 306 = from the curved ESE end toward the WNW carceres. Obelisk offsets are metres from the spina centre, positive toward the carceres (along rot)."
+  },
+  {
+   "id": "circus_maximus_v8",
+   "monument": "circus_maximus",
+   "name": "Circus Maximus (restored after AD 36; Claudian marble carceres)",
+   "from": 37,
+   "to": 64,
+   "begun": 36,
+   "builder": "claudius",
+   "template": "circus",
+   "loc": [
+    12.485701,
+    41.885881
+   ],
+   "rot": 306.2,
+   "w": 118,
+   "l": 621,
+   "h": 18.0,
+   "params": {
+    "l": 621,
+    "w": 118,
+    "spina": {
+     "l": 335,
+     "w": 8
+    },
+    "obelisks": [
+     0
+    ],
+    "carceres": 12,
+    "tiers": 18.0,
+    "pulvinar": true,
+    "mat": {
+     "carceres": "marble_white",
+     "tiers": "tufa",
+     "upper": "timber",
+     "spina": "marble_white",
+     "track": "paving_sand"
+    },
+    "pulvinarSide": "+x (Palatine side)"
+   },
+   "importance": 5,
+   "certainty": "documented",
+   "summary": "Tiberius paid for the damage of the fire of 36. Claudius replaced the tufa carceres with marble and the wooden metae with gilded bronze ones and reserved seats for senators. The Great Fire of July 64 broke out in the shops built against the circus on the Palatine side.",
+   "phases": [
+    {
+     "y": 41,
+     "t": "Claudius: marble carceres, gilded metae, senatorial seats (Suet. Claud. 21.3)"
+    },
+    {
+     "y": 64,
+     "t": "Great Fire starts in the tabernae of the circus (Tac. Ann. 15.38)"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Divus Claudius",
+     "r": "21.3"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annales",
+     "r": "15.38"
+    }
+   ],
+   "scholarship": [
+    "Humphrey, Roman Circuses: Arenas for Chariot Racing (1986) 56-294",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 84-87",
+    "Ciancio Rossetto, LTUR I (1993) 272-277 s.v. Circus Maximus",
+    "Coarelli, Rome and Environs (2007) 327-330"
+   ],
+   "note": " Axis and centre from the outline of the Circo Massimo archaeological area (OSM relation 11384819): long axis bearing 126/306 deg; rot 306 = from the curved ESE end toward the WNW carceres. Obelisk offsets are metres from the spina centre, positive toward the carceres (along rot)."
+  },
+  {
+   "id": "circus_maximus_v9",
+   "monument": "circus_maximus",
+   "name": "Circus Maximus (Neronian and Flavian)",
+   "from": 66,
+   "to": 102,
+   "begun": 64,
+   "builder": "nero",
+   "template": "circus",
+   "loc": [
+    12.485701,
+    41.885881
+   ],
+   "rot": 306.2,
+   "w": 118,
+   "l": 621,
+   "h": 22.0,
+   "params": {
+    "l": 621,
+    "w": 118,
+    "spina": {
+     "l": 335,
+     "w": 8
+    },
+    "obelisks": [
+     0
+    ],
+    "carceres": 12,
+    "tiers": 22.0,
+    "pulvinar": true,
+    "mat": {
+     "carceres": "marble_white",
+     "tiers": "concrete_faced",
+     "upper": "timber",
+     "spina": "marble_white",
+     "track": "paving_sand"
+    },
+    "pulvinarSide": "+x (Palatine side)"
+   },
+   "importance": 5,
+   "certainty": "reconstructed",
+   "summary": "Rebuilt quickly after 64: Nero's triumph of 67-68 passed through it. In 81 the Senate set a triple arch to Titus across the entrance in the curved end. Damaged again by fire under Domitian, who began a full rebuilding.",
+   "phases": [
+    {
+     "y": 81,
+     "t": "Arch of Titus built at the curved end (CIL VI 944)"
+    },
+    {
+     "y": 95,
+     "t": "Domitian begins rebuilding after a fire"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Nero",
+     "r": "25.2"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "68.7.2"
+    }
+   ],
+   "scholarship": [
+    "Humphrey, Roman Circuses: Arenas for Chariot Racing (1986) 56-294",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 84-87",
+    "Ciancio Rossetto, LTUR I (1993) 272-277 s.v. Circus Maximus",
+    "Coarelli, Rome and Environs (2007) 327-330"
+   ],
+   "note": " Axis and centre from the outline of the Circo Massimo archaeological area (OSM relation 11384819): long axis bearing 126/306 deg; rot 306 = from the curved ESE end toward the WNW carceres. Obelisk offsets are metres from the spina centre, positive toward the carceres (along rot)."
+  },
+  {
+   "id": "circus_maximus_v10",
+   "monument": "circus_maximus",
+   "name": "Circus Maximus (Trajanic rebuilding)",
+   "from": 103,
+   "to": 356,
+   "begun": 95,
+   "builder": "trajan",
+   "template": "circus",
+   "loc": [
+    12.485701,
+    41.885881
+   ],
+   "rot": 306.2,
+   "w": 118,
+   "l": 621,
+   "h": 28.0,
+   "params": {
+    "l": 621,
+    "w": 118,
+    "spina": {
+     "l": 335,
+     "w": 11
+    },
+    "obelisks": [
+     0
+    ],
+    "carceres": 12,
+    "tiers": 28.0,
+    "pulvinar": true,
+    "mat": {
+     "carceres": "marble_white",
+     "facade": "travertine",
+     "tiers": "concrete_faced",
+     "seats": "marble_white",
+     "spina": "marble_white",
+     "track": "paving_sand"
+    },
+    "pulvinarSide": "+x (Palatine side)"
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "Trajan completed the rebuilding in masonry around AD 103: an arcaded three-storey facade with shops, concrete vaults carrying the cavea, some 621 x 118 m overall with an arena about 580 x 79 m, seating at least 150,000 (Pliny claims 250,000, the Regionary Catalogues 385,000 places). The spina carried the obelisk, shrines, the egg and dolphin counters and the gilded metae. Under Antoninus Pius a collapse killed 1,112 people; another collapse under Diocletian killed some 13,000.",
+   "phases": [
+    {
+     "y": 103,
+     "t": "rebuilding finished by Trajan (Pliny Pan. 51; CIL VI 955)"
+    },
+    {
+     "y": 150,
+     "t": "partial collapse of the stands under Antoninus Pius (SHA Ant. 9.1)"
+    },
+    {
+     "y": 300,
+     "t": "collapse during Diocletian's reign (Chron. 354)"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Pliny the Younger",
+     "w": "Panegyricus",
+     "r": "51.3-5"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "68.7.2"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "36.102"
+    }
+   ],
+   "scholarship": [
+    "Humphrey, Roman Circuses: Arenas for Chariot Racing (1986) 56-294",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 84-87",
+    "Ciancio Rossetto, LTUR I (1993) 272-277 s.v. Circus Maximus",
+    "Coarelli, Rome and Environs (2007) 327-330"
+   ],
+   "note": "Overall size after Humphrey's reconstruction; outer facade height ~28 m for three arcaded storeys. Axis and centre from the outline of the Circo Massimo archaeological area (OSM relation 11384819): long axis bearing 126/306 deg; rot 306 = from the curved ESE end toward the WNW carceres. Obelisk offsets are metres from the spina centre, positive toward the carceres (along rot)."
+  },
+  {
+   "id": "circus_maximus_v11",
+   "monument": "circus_maximus",
+   "name": "Circus Maximus (with the obelisk of Thutmose III)",
+   "from": 357,
+   "to": 549,
+   "begun": null,
+   "builder": "constantius_ii",
+   "template": "circus",
+   "loc": [
+    12.485701,
+    41.885881
+   ],
+   "rot": 306.2,
+   "w": 118,
+   "l": 621,
+   "h": 28.0,
+   "params": {
+    "l": 621,
+    "w": 118,
+    "spina": {
+     "l": 335,
+     "w": 11
+    },
+    "obelisks": [
+     0,
+     -60
+    ],
+    "carceres": 12,
+    "tiers": 28.0,
+    "pulvinar": true,
+    "mat": {
+     "carceres": "marble_white",
+     "facade": "travertine",
+     "tiers": "concrete_faced",
+     "seats": "marble_white",
+     "spina": "marble_white",
+     "track": "paving_sand"
+    },
+    "pulvinarSide": "+x (Palatine side)"
+   },
+   "importance": 5,
+   "certainty": "documented",
+   "summary": "In 357 Constantius II, on his only visit to Rome, raised on the spina the obelisk of Thutmose III from Karnak, 32.2 m, the tallest in the city, which Constantine had meant for Constantinople. The circus kept running through the fifth century and under Theodoric; the last races recorded were given by the Gothic king Totila in 549.",
+   "phases": [
+    {
+     "y": 357,
+     "t": "second obelisk raised (Amm. Marc. 17.4.12-17)"
+    },
+    {
+     "y": 549,
+     "t": "last chariot races in Rome, under Totila (Procopius, Goth. 3.37.4)"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Ammianus Marcellinus",
+     "w": "Res Gestae",
+     "r": "17.4.12-17"
+    },
+    {
+     "a": "Procopius",
+     "w": "De bellis",
+     "r": "7.37.4"
+    }
+   ],
+   "scholarship": [
+    "Humphrey, Roman Circuses: Arenas for Chariot Racing (1986) 56-294",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 84-87",
+    "Ciancio Rossetto, LTUR I (1993) 272-277 s.v. Circus Maximus",
+    "Coarelli, Rome and Environs (2007) 327-330"
+   ],
+   "note": "The Lateran obelisk was found in 1587 east of the Flaminio obelisk; offset -60 m is an estimate. Axis and centre from the outline of the Circo Massimo archaeological area (OSM relation 11384819): long axis bearing 126/306 deg; rot 306 = from the curved ESE end toward the WNW carceres. Obelisk offsets are metres from the spina centre, positive toward the carceres (along rot)."
+  },
+  {
+   "id": "circus_maximus_v12",
+   "monument": "circus_maximus",
+   "name": "Circus Maximus (abandoned)",
+   "from": 550,
+   "to": 9999,
+   "begun": null,
+   "builder": null,
+   "template": "circus",
+   "loc": [
+    12.485701,
+    41.885881
+   ],
+   "rot": 306.2,
+   "w": 118,
+   "l": 621,
+   "h": 22.0,
+   "params": {
+    "l": 621,
+    "w": 118,
+    "spina": {
+     "l": 335,
+     "w": 11
+    },
+    "obelisks": [
+     0,
+     -60
+    ],
+    "carceres": 12,
+    "tiers": 22.0,
+    "pulvinar": false,
+    "mat": {
+     "facade": "travertine",
+     "tiers": "concrete_faced",
+     "track": "grass"
+    }
+   },
+   "ruin": {
+    "from": 550,
+    "state": "half"
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "After 549 the circus fell out of use. The stands were quarried and the valley slowly silted up; the obelisks fell and were buried, to be dug up in 1587.",
+   "phases": [
+    {
+     "y": 550,
+     "t": "no further games recorded"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "De bellis",
+     "r": "7.37.4"
+    }
+   ],
+   "scholarship": [
+    "Humphrey, Roman Circuses: Arenas for Chariot Racing (1986) 56-294",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 84-87",
+    "Ciancio Rossetto, LTUR I (1993) 272-277 s.v. Circus Maximus",
+    "Coarelli, Rome and Environs (2007) 327-330"
+   ],
+   "note": "Stands left standing as a shell; height reduced for stripped upper tiers. Axis and centre from the outline of the Circo Massimo archaeological area (OSM relation 11384819): long axis bearing 126/306 deg; rot 306 = from the curved ESE end toward the WNW carceres. Obelisk offsets are metres from the spina centre, positive toward the carceres (along rot)."
+  },
+  {
+   "id": "fornix_stertinii_circus",
+   "monument": "fornix_stertinii_circus",
+   "name": "Fornix of L. Stertinius (Circus Maximus)",
+   "from": -196,
+   "to": 80,
+   "builder": null,
+   "template": "arch",
+   "loc": [
+    12.4885,
+    41.88435
+   ],
+   "rot": 126,
+   "w": 8.0,
+   "l": 4.0,
+   "h": 10.0,
+   "params": {
+    "bays": 1,
+    "depth": 4.0,
+    "atticH": 2.0,
+    "columns": "none",
+    "quadriga": false,
+    "statues": "gilded",
+    "mat": {
+     "walls": "tufa",
+     "statues": "gilded"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Arch built by L. Stertinius in 196 BC from Spanish spoils, carrying gilded statues; one of three he set up, the others in the Forum Boarium.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "33.27.4"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 154 s.v. Fornix Stertinii",
+    "Humphrey (1986) 97"
+   ],
+   "note": "Its place in the circus is unknown; put at the curved end where the later Arch of Titus stood, a common hypothesis. Ended at 80 on the assumption that the Titus arch replaced it."
+  },
+  {
+   "id": "arch_of_titus_circus_maximus_v1",
+   "monument": "arch_of_titus_circus_maximus",
+   "name": "Arch of Titus (Circus Maximus)",
+   "from": 81,
+   "to": 9999,
+   "begun": 80,
+   "builder": "titus",
+   "template": "arch",
+   "loc": [
+    12.4885,
+    41.88435
+   ],
+   "rot": 126,
+   "w": 17.0,
+   "l": 15.0,
+   "h": 20.0,
+   "params": {
+    "bays": 3,
+    "depth": 15.0,
+    "atticH": 4.5,
+    "columns": "freestanding",
+    "quadriga": true,
+    "mat": {
+     "walls": "marble_white",
+     "columns": "marble_white",
+     "quadriga": "bronze"
+    }
+   },
+   "ruin": {
+    "from": 600,
+    "state": "half"
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "Triple arch voted by the Senate in 81 to Titus for the capture of Jerusalem, standing as the monumental entrance in the middle of the curved end of the circus. Its inscription was copied in the Einsiedeln itinerary; foundations and column fragments were excavated in 2014-2015.",
+   "phases": [
+    {
+     "y": 81,
+     "t": "dedicated by Senate and People to Titus (CIL VI 944)"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Itinerarium Einsiedlense",
+     "w": "inscription copy CIL VI 944"
+    }
+   ],
+   "scholarship": [
+    "Humphrey (1986) 97-100",
+    "Buonfiglio, Pergola and Zanzi, excavation reports on the Arch of Titus in the Circus Maximus (2015-2017)"
+   ],
+   "note": "Footprint about 17 x 15 m from the excavated foundations; height estimated with quadriga. rot points out of the circus (ESE); the arch is two-faced. Survived as a ruin into the Middle Ages."
+  },
+  {
+   "id": "pulvinar_circus_maximus_v1",
+   "monument": "pulvinar_circus_maximus",
+   "name": "Pulvinar of the Circus Maximus",
+   "from": -28,
+   "to": 9999,
+   "builder": "augustus",
+   "template": "compound",
+   "loc": [
+    12.48578,
+    41.88642
+   ],
+   "rot": 216,
+   "w": 24.0,
+   "l": 14.0,
+   "h": 16.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": 0,
+      "y": -2,
+      "w": 24,
+      "l": 10,
+      "h": 10,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "gable",
+      "x": 0,
+      "y": 0,
+      "w": 16,
+      "l": 8,
+      "h": 6,
+      "z": 10,
+      "mat": "marble_white"
+     }
+    ]
+   },
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "Augustus' shrine-like box on the Palatine side of the cavea where the images of the gods carried in the pompa circensis were set on cushions and where the emperor sat. Rebuilt with the cavea under Trajan.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Augustus",
+     "w": "Res Gestae",
+     "r": "19"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Divus Augustus",
+     "r": "45.1"
+    }
+   ],
+   "scholarship": [
+    "Humphrey (1986) 78-83",
+    "Richardson (1992) 322"
+   ],
+   "note": "Placed on the Palatine (+x) side about 30 m toward the carceres from the arena midpoint, opposite the finish line; faces SW into the arena."
+  },
+  {
+   "id": "temple_of_sol_circus_maximus_v1",
+   "monument": "temple_of_sol_circus_maximus",
+   "name": "Temple of Sol (and Luna) in the Circus Maximus",
+   "from": -30,
+   "to": 9999,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.485345,
+    41.885516
+   ],
+   "rot": 36,
+   "w": 10.0,
+   "l": 16.0,
+   "h": 12.0,
+   "params": {
+    "order": "corinthian",
+    "plan": "prostyle",
+    "front": 4,
+    "side": 2,
+    "podium": 2.0,
+    "colH": 7.0,
+    "steps": "front",
+    "mat": {
+     "podium": "concrete_faced",
+     "columns": "marble_white",
+     "walls": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "reconstructed",
+   "summary": "An old shrine of the Sun, patron of the circus, set into the seating on the Aventine side opposite the pulvinar; reliefs and mosaics of the circus show a small temple there, crowned by a statue of Sol. After Nero's escape from the Pisonian conspiracy in 65 offerings were made to Sol 'who has an old temple in the circus'.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Annales",
+     "r": "15.74"
+    },
+    {
+     "a": "Tertullian",
+     "w": "De spectaculis",
+     "r": "8.1"
+    }
+   ],
+   "scholarship": [
+    "Humphrey (1986) 91-95",
+    "Richardson (1992) 363"
+   ],
+   "note": "Form from depictions (Foligno relief, Piazza Armerina mosaic); size estimated. Luna shared the cult in late sources."
+  },
+  {
+   "id": "ara_consi_v1",
+   "monument": "ara_consi",
+   "name": "Ara Consi (underground altar of Consus)",
+   "from": -509,
+   "to": 9999,
+   "builder": null,
+   "template": "altar",
+   "loc": [
+    12.487376,
+    41.884962
+   ],
+   "rot": 306.2,
+   "w": 4.0,
+   "l": 4.0,
+   "h": 1.2,
+   "params": {
+    "altar": {
+     "w": 3,
+     "l": 3,
+     "h": 1.2
+    },
+    "enclosure": null,
+    "underground": true,
+    "mat": {
+     "altar": "tufa"
+    }
+   },
+   "importance": 2,
+   "certainty": "documented",
+   "summary": "The buried altar of Consus at the first turning post, uncovered only on the Consualia (21 August and 15 December) when races and mule-races were held; tied to the legend of the rape of the Sabine women.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Tertullian",
+     "w": "De spectaculis",
+     "r": "5.7"
+    },
+    {
+     "a": "Varro",
+     "w": "De lingua Latina",
+     "r": "6.20"
+    },
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Roman Antiquities",
+     "r": "2.31.2"
+    }
+   ],
+   "scholarship": [
+    "Humphrey (1986) 60-62",
+    "Richardson (1992) 100"
+   ],
+   "note": "'ad primas metas': placed at the eastern meta, following Humphrey's view that the first meta was the one at the curved end. Rendered as a low altar since it was normally covered."
+  },
+  {
+   "id": "sacellum_murciae_v1",
+   "monument": "sacellum_murciae",
+   "name": "Shrine of Murcia",
+   "from": -509,
+   "to": 9999,
+   "builder": null,
+   "template": "altar",
+   "loc": [
+    12.487162,
+    41.88508
+   ],
+   "rot": 306.2,
+   "w": 5.0,
+   "l": 5.0,
+   "h": 3.0,
+   "params": {
+    "altar": {
+     "w": 2,
+     "l": 2,
+     "h": 1.2
+    },
+    "enclosure": {
+     "w": 5,
+     "l": 5,
+     "h": 3
+    },
+    "mat": {
+     "enclosure": "tufa",
+     "altar": "tufa"
+    }
+   },
+   "importance": 1,
+   "certainty": "reconstructed",
+   "summary": "Ancient shrine of Murcia, later identified with Venus, that gave the valley (Vallis Murcia) and the eastern turning post (meta Murcia) their names; incorporated into the spina.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Varro",
+     "w": "De lingua Latina",
+     "r": "5.154"
+    },
+    {
+     "a": "Tertullian",
+     "w": "De spectaculis",
+     "r": "8.6"
+    }
+   ],
+   "scholarship": [
+    "Humphrey (1986) 95-97",
+    "Richardson (1992) 262"
+   ],
+   "note": "Placed near the eastern end of the spina."
+  },
+  {
+   "id": "temple_of_ceres_v1",
+   "monument": "temple_of_ceres_liber_libera_mon",
+   "name": "Temple of Ceres, Liber and Libera",
+   "from": -493,
+   "to": -32,
+   "begun": -496,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.4824,
+    41.8868
+   ],
+   "rot": 36,
+   "w": 24.0,
+   "l": 30.0,
+   "h": 17.0,
+   "params": {
+    "order": "tuscan",
+    "plan": "tuscan_alae",
+    "front": 4,
+    "side": 3,
+    "podium": 3.5,
+    "colH": 8.5,
+    "steps": "front",
+    "cella": {
+     "triple": true
+    },
+    "araeostyle": true,
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "stucco",
+     "roof": "roof_tile",
+     "pediment": "terracotta"
+    }
+   },
+   "importance": 4,
+   "certainty": "reconstructed",
+   "summary": "Vowed in 496 BC by the dictator A. Postumius during a famine and dedicated in 493 by Sp. Cassius to the plebeian triad Ceres, Liber and Libera. Vitruvius cites it as the type of the wide-spaced (araeostyle) Tuscan temple with terracotta pediment statues; the Greek artists Damophilos and Gorgasos decorated it. Seat of the plebeian aediles and their archive, and a refuge for the poor. Burned in 31 BC.",
+   "phases": [
+    {
+     "y": -493,
+     "t": "dedicated by Sp. Cassius"
+    },
+    {
+     "y": -31,
+     "t": "burned in the fire of 31 BC (Dio 50.10.3)"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Roman Antiquities",
+     "r": "6.17.2-4; 6.94.3"
+    },
+    {
+     "a": "Vitruvius",
+     "w": "De architectura",
+     "r": "3.3.5"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "35.154"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "3.55.13"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 80-81",
+    "Coarelli, Il Foro Boario (1988) 67-77",
+    "Spera, LTUR I (1993) 260-261"
+   ],
+   "note": "Dionysius (6.94.3) puts it 'directly above the carceres', i.e. at the western (Forum Boarium) end of the circus on the Aventine slope near S. Maria in Cosmedin, not at the curved end; placed accordingly. Facing NE toward the Palatine is assumed."
+  },
+  {
+   "id": "temple_of_ceres_v2",
+   "monument": "temple_of_ceres_liber_libera_mon",
+   "name": "Temple of Ceres, Liber and Libera (Augustan-Tiberian)",
+   "from": 17,
+   "to": 9999,
+   "begun": -28,
+   "builder": "tiberius",
+   "template": "temple",
+   "loc": [
+    12.4824,
+    41.8868
+   ],
+   "rot": 36,
+   "w": 24.0,
+   "l": 30.0,
+   "h": 18.0,
+   "params": {
+    "order": "tuscan",
+    "plan": "tuscan_alae",
+    "front": 4,
+    "side": 3,
+    "podium": 3.5,
+    "colH": 9.0,
+    "steps": "front",
+    "cella": {
+     "triple": true
+    },
+    "mat": {
+     "podium": "concrete_faced",
+     "columns": "stucco",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "Rebuilt by Augustus after the fire and dedicated by Tiberius in AD 17, keeping the old Tuscan form. Still standing in the Regionary Catalogues.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Annales",
+     "r": "2.49"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 81"
+   ],
+   "note": "Same site and form assumed."
+  },
+  {
+   "id": "temple_of_flora_v1",
+   "monument": "temple_of_flora",
+   "name": "Temple of Flora",
+   "from": -240,
+   "to": 16,
+   "begun": -241,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.48295,
+    41.88625
+   ],
+   "rot": 36,
+   "w": 14.0,
+   "l": 22.0,
+   "h": 13.0,
+   "params": {
+    "order": "tuscan",
+    "plan": "tuscan_alae",
+    "front": 4,
+    "side": 3,
+    "podium": 2.5,
+    "colH": 7.0,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Built after consulting the Sibylline books by the plebeian aediles L. and M. Publicius Malleolus, near the circus, home of the licentious Floralia games.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Velleius Paterculus",
+     "w": "Historia Romana",
+     "r": "1.14.8"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annales",
+     "r": "2.49"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "18.286"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 152"
+   ],
+   "note": "Tacitus: 'iuxta circum maximum'. Placed on the Aventine slope next to the Temple of Ceres; form and size conjectural."
+  },
+  {
+   "id": "temple_of_flora_v2",
+   "monument": "temple_of_flora",
+   "name": "Temple of Flora (Tiberian restoration)",
+   "from": 17,
+   "to": 9999,
+   "begun": null,
+   "builder": "tiberius",
+   "template": "temple",
+   "loc": [
+    12.48295,
+    41.88625
+   ],
+   "rot": 36,
+   "w": 14.0,
+   "l": 22.0,
+   "h": 13.0,
+   "params": {
+    "order": "tuscan",
+    "plan": "tuscan_alae",
+    "front": 4,
+    "side": 3,
+    "podium": 2.5,
+    "colH": 7.0,
+    "steps": "front",
+    "mat": {
+     "podium": "concrete_faced",
+     "columns": "stucco",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Restored by Augustus and dedicated by Tiberius in AD 17 together with the Temple of Ceres.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Annales",
+     "r": "2.49"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 152"
+   ],
+   "note": ""
+  },
+  {
+   "id": "temple_of_venus_obsequens_v1",
+   "monument": "temple_of_venus_obsequens",
+   "name": "Temple of Venus Obsequens",
+   "from": -295,
+   "to": 9999,
+   "begun": null,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.4836,
+    41.8857
+   ],
+   "rot": 36,
+   "w": 13.0,
+   "l": 20.0,
+   "h": 12.0,
+   "params": {
+    "order": "tuscan",
+    "plan": "tuscan_alae",
+    "front": 4,
+    "side": 3,
+    "podium": 2.5,
+    "colH": 6.5,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Built by Q. Fabius Gurges from fines levied on matrons convicted of adultery, the oldest temple of Venus in Rome, near the Circus Maximus.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "10.31.9"
+    },
+    {
+     "a": "Servius",
+     "w": "In Aeneidem",
+     "r": "1.720"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 409"
+   ],
+   "note": "'ad Circum Maximum'; position along the Aventine flank of the circus and form conjectural."
+  },
+  {
+   "id": "temple_of_mercury_v1",
+   "monument": "temple_of_mercury",
+   "name": "Temple of Mercury",
+   "from": -495,
+   "to": 64,
+   "begun": -496,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.4848,
+    41.8849
+   ],
+   "rot": 36,
+   "w": 12.0,
+   "l": 18.0,
+   "h": 11.0,
+   "params": {
+    "order": "tuscan",
+    "plan": "tuscan_alae",
+    "front": 4,
+    "side": 3,
+    "podium": 2.0,
+    "colH": 6.0,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Dedicated in 495 BC by the centurion M. Laetorius, chosen by the people over the consuls, as seat of the merchants' guild (mercatores) overlooking the circus valley.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "2.21.7; 2.27.5-6"
+    },
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "5.669-670"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 251"
+   ],
+   "note": "Ovid: 'templa spectantia Circum'. Position on the Aventine slope above the middle of the circus; presumably burned in 64."
+  },
+  {
+   "id": "temple_of_mercury_v2",
+   "monument": "temple_of_mercury",
+   "name": "Temple of Mercury (imperial rebuilding)",
+   "from": 70,
+   "to": 9999,
+   "begun": null,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.4848,
+    41.8849
+   ],
+   "rot": 36,
+   "w": 12.0,
+   "l": 18.0,
+   "h": 12.0,
+   "params": {
+    "order": "corinthian",
+    "plan": "prostyle",
+    "front": 4,
+    "side": 2,
+    "podium": 2.5,
+    "colH": 8.0,
+    "steps": "front",
+    "mat": {
+     "podium": "concrete_faced",
+     "columns": "marble_white",
+     "walls": "brick",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Rebuilt after the Neronian fire; a medallion of Marcus Aurelius showing a temple of Mercury with herm columns is often referred to a restoration.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "5.669-670"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 251"
+   ],
+   "note": "Date of rebuilding unknown."
+  },
+  {
+   "id": "temple_of_luna_aventine_v1",
+   "monument": "temple_of_luna_aventine",
+   "name": "Temple of Luna (Aventine)",
+   "from": -509,
+   "to": 64,
+   "begun": null,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.4812,
+    41.8852
+   ],
+   "rot": 36,
+   "w": 12.0,
+   "l": 20.0,
+   "h": 11.0,
+   "params": {
+    "order": "tuscan",
+    "plan": "tuscan_alae",
+    "front": 4,
+    "side": 3,
+    "podium": 2.0,
+    "colH": 6.0,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Ancient temple of the Moon on the Aventine above the circus, ascribed to Servius Tullius; in 182 BC a gale blew its doors against the Temple of Ceres. Destroyed in the Great Fire of 64 and not heard of again.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "40.2.2"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annales",
+     "r": "15.41"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 238"
+   ],
+   "note": "Livy's anecdote implies it stood above and close to the Temple of Ceres, near the top of the Clivus Publicius."
+  },
+  {
+   "id": "temple_of_iuventas_v1",
+   "monument": "temple_of_iuventas",
+   "name": "Temple of Iuventas",
+   "from": -191,
+   "to": -16,
+   "begun": null,
+   "builder": "marcus_livius_salinator",
+   "template": "temple",
+   "loc": [
+    12.4832,
+    41.8878
+   ],
+   "rot": 216,
+   "w": 12.0,
+   "l": 18.0,
+   "h": 11.0,
+   "params": {
+    "order": "tuscan",
+    "plan": "tuscan_alae",
+    "front": 4,
+    "side": 3,
+    "podium": 2.0,
+    "colH": 6.0,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Vowed by M. Livius Salinator at the Metaurus (207) and dedicated in 191 BC 'ad Circum Maximum'. Burned in 16 BC.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "36.36.5-6"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "54.19.7"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 228"
+   ],
+   "note": "Placed on the Palatine flank near the carceres end; site unknown."
+  },
+  {
+   "id": "temple_of_iuventas_v2",
+   "monument": "temple_of_iuventas",
+   "name": "Temple of Iuventas (Augustan)",
+   "from": -15,
+   "to": 9999,
+   "begun": null,
+   "builder": "augustus",
+   "template": "temple",
+   "loc": [
+    12.4832,
+    41.8878
+   ],
+   "rot": 216,
+   "w": 12.0,
+   "l": 18.0,
+   "h": 11.0,
+   "params": {
+    "order": "tuscan",
+    "plan": "tuscan_alae",
+    "front": 4,
+    "side": 3,
+    "podium": 2.0,
+    "colH": 6.0,
+    "steps": "front",
+    "mat": {
+     "podium": "concrete_faced",
+     "columns": "stucco",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "Restored by Augustus after the fire of 16 BC.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Augustus",
+     "w": "Res Gestae",
+     "r": "19"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 228"
+   ],
+   "note": ""
+  },
+  {
+   "id": "temple_of_summanus_v1",
+   "monument": "temple_of_summanus",
+   "name": "Temple of Summanus",
+   "from": -276,
+   "to": 9999,
+   "begun": null,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.4841,
+    41.8876
+   ],
+   "rot": 216,
+   "w": 12.0,
+   "l": 18.0,
+   "h": 11.0,
+   "params": {
+    "order": "tuscan",
+    "plan": "tuscan_alae",
+    "front": 4,
+    "side": 3,
+    "podium": 2.0,
+    "colH": 6.0,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "Temple of the god of nocturnal thunder, dedicated during the war with Pyrrhus near the Circus Maximus; its terracotta statue on the pediment was struck by lightning in 278 BC.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "6.731-732"
+    },
+    {
+     "a": "Cicero",
+     "w": "De divinatione",
+     "r": "1.16"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "29.57"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 376"
+   ],
+   "note": "'ad Circum Maximum', side not known; placed on the Palatine flank."
+  },
+  {
+   "id": "temple_of_diana_aventine_v1",
+   "monument": "temple_of_diana_aventine",
+   "name": "Temple of Diana Aventina (archaic)",
+   "from": -509,
+   "to": -34,
+   "begun": -540,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.4819,
+    41.8837
+   ],
+   "rot": 315,
+   "w": 22.0,
+   "l": 36.0,
+   "h": 15.0,
+   "params": {
+    "order": "tuscan",
+    "plan": "tuscan_alae",
+    "front": 4,
+    "side": 4,
+    "podium": 3.0,
+    "colH": 8.0,
+    "steps": "front",
+    "precinct": {
+     "w": 70,
+     "l": 95,
+     "h": 3
+    },
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 4,
+   "certainty": "conjectural",
+   "summary": "The federal sanctuary of Diana of the Latins, ascribed to Servius Tullius in imitation of the Artemision of Ephesus; asylum, slaves' festival on the Ides of August, and archive of the Icilian law on the public land of the Aventine (456 BC) on a bronze pillar.",
+   "phases": [
+    {
+     "y": -456,
+     "t": "lex Icilia de Aventino publicando set up here"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "1.45.2-6"
+    },
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Roman Antiquities",
+     "r": "4.26; 10.32.4"
+    },
+    {
+     "a": "Varro",
+     "w": "De lingua Latina",
+     "r": "5.43"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 108",
+    "Vendittelli, LTUR II (1995) 11-13",
+    "Platner-Ashby (1929) 149-150"
+   ],
+   "note": "Location from Marble Plan fragment 22 as placed between S. Sabina and S. Prisca beside the Balneum Surae fragment (Digital Augustan Rome); Vendittelli's alternative site under S. Alessio rejected. Archaic form conjectural."
+  },
+  {
+   "id": "temple_of_diana_aventine_v2",
+   "monument": "temple_of_diana_aventine",
+   "name": "Temple of Diana Cornificiana",
+   "from": -33,
+   "to": 9999,
+   "begun": -34,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.4819,
+    41.8837
+   ],
+   "rot": 315,
+   "w": 28.0,
+   "l": 44.0,
+   "h": 22.0,
+   "params": {
+    "order": "corinthian",
+    "plan": "dipteral",
+    "front": 8,
+    "side": 15,
+    "podium": 3.5,
+    "colH": 14.0,
+    "steps": "front",
+    "precinct": {
+     "w": 75,
+     "l": 100,
+     "h": 7,
+     "portico": "double"
+    },
+    "mat": {
+     "podium": "concrete_faced",
+     "columns": "marble_white",
+     "walls": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "ruin": {
+    "from": 410,
+    "state": "roofless"
+   },
+   "importance": 4,
+   "certainty": "documented",
+   "summary": "Rebuilt by L. Cornificius (consul 35 BC) after his triumph from Africa: an octastyle temple shown on the Severan Marble Plan inside a precinct with a double colonnade, labelled CORNIFICIA. Listed with Minerva in Regio XIII in the Regionary Catalogues; the Aventine was sacked in 410.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Divus Augustus",
+     "r": "29.5"
+    },
+    {
+     "a": "Martial",
+     "w": "Epigrams",
+     "r": "6.64.13"
+    },
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "4305"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 108",
+    "Rodriguez Almeida, Forma Urbis Marmorea (1981) pl. 15",
+    "Haselberger et al., Mapping Augustan Rome (2002) 108"
+   ],
+   "note": "Plan from FUR fragment 22a-b (octastyle; dipteral form is one reading); size scaled from the fragment. Orientation conjectural."
+  },
+  {
+   "id": "temple_of_juno_regina_aventine_v1",
+   "monument": "temple_of_juno_regina_aventine_mon",
+   "name": "Temple of Juno Regina (Aventine)",
+   "from": -392,
+   "to": -17,
+   "begun": -395,
+   "builder": "marcus_furius_camillus",
+   "template": "temple",
+   "loc": [
+    12.4805,
+    41.8842
+   ],
+   "rot": 45,
+   "w": 18.0,
+   "l": 30.0,
+   "h": 14.0,
+   "params": {
+    "order": "tuscan",
+    "plan": "tuscan_alae",
+    "front": 4,
+    "side": 3,
+    "podium": 3.0,
+    "colH": 7.5,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "conjectural",
+   "summary": "Vowed by M. Furius Camillus at the siege of Veii in 396 BC for Juno, Queen of Veii, whose cult statue was 'evoked' and carried to Rome; dedicated 1 September 392. Starting point of the matrons' procession of 207 BC with the hymn of Livius Andronicus.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "5.21.3; 5.22.3-7; 5.23.7; 5.31.3; 27.37.7-15"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 216",
+    "Andreussi, LTUR III (1996) 125-126"
+   ],
+   "note": "Near the top of the Clivus Publicius by S. Sabina, where two inscriptions to Juno Regina (CIL VI 364-365) were found; exact site unknown."
+  },
+  {
+   "id": "temple_of_juno_regina_aventine_v2",
+   "monument": "temple_of_juno_regina_aventine_mon",
+   "name": "Temple of Juno Regina (Augustan)",
+   "from": -16,
+   "to": 9999,
+   "begun": null,
+   "builder": "augustus",
+   "template": "temple",
+   "loc": [
+    12.4805,
+    41.8842
+   ],
+   "rot": 45,
+   "w": 18.0,
+   "l": 30.0,
+   "h": 15.0,
+   "params": {
+    "order": "ionic",
+    "plan": "prostyle",
+    "front": 4,
+    "side": 3,
+    "podium": 3.0,
+    "colH": 9.0,
+    "steps": "front",
+    "mat": {
+     "podium": "concrete_faced",
+     "columns": "marble_white",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "ruin": {
+    "from": 410,
+    "state": "roofless"
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Restored by Augustus (Res Gestae 19); not mentioned afterwards.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Augustus",
+     "w": "Res Gestae",
+     "r": "19"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 216"
+   ],
+   "note": ""
+  },
+  {
+   "id": "temple_of_minerva_aventine_v1",
+   "monument": "temple_of_minerva_aventine",
+   "name": "Temple of Minerva (Aventine)",
+   "from": -250,
+   "to": -17,
+   "begun": null,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.4813,
+    41.8843
+   ],
+   "rot": 315,
+   "w": 14.0,
+   "l": 22.0,
+   "h": 12.0,
+   "params": {
+    "order": "tuscan",
+    "plan": "tuscan_alae",
+    "front": 4,
+    "side": 3,
+    "podium": 2.5,
+    "colH": 6.5,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Seat of the guild of scribes and actors, honoured in 207 BC after Livius Andronicus' hymn; on the Aventine next to Diana.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Festus",
+     "w": "De verborum significatu",
+     "r": "446 L"
+    },
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "6.728"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 255"
+   ],
+   "note": "Shown next to Diana on FUR fragment 22 (Digital Augustan Rome); placed NE of Diana. Founding date unknown, before 207 BC."
+  },
+  {
+   "id": "temple_of_minerva_aventine_v2",
+   "monument": "temple_of_minerva_aventine",
+   "name": "Temple of Minerva (Aventine, Augustan)",
+   "from": -16,
+   "to": 9999,
+   "begun": null,
+   "builder": "augustus",
+   "template": "temple",
+   "loc": [
+    12.4813,
+    41.8843
+   ],
+   "rot": 315,
+   "w": 14.0,
+   "l": 22.0,
+   "h": 12.0,
+   "params": {
+    "order": "ionic",
+    "plan": "prostyle",
+    "front": 4,
+    "side": 3,
+    "podium": 2.5,
+    "colH": 8.0,
+    "steps": "front",
+    "mat": {
+     "podium": "concrete_faced",
+     "columns": "marble_white",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "ruin": {
+    "from": 410,
+    "state": "roofless"
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Restored by Augustus; the Regionary Catalogues list a 'templum Dianae et Minervae' in Regio XIII.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Augustus",
+     "w": "Res Gestae",
+     "r": "19"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 255"
+   ],
+   "note": ""
+  },
+  {
+   "id": "temple_of_consus_aventine_v1",
+   "monument": "temple_of_consus_aventine",
+   "name": "Temple of Consus (Aventine)",
+   "from": -272,
+   "to": 9999,
+   "begun": null,
+   "builder": "lucius_papirius_cursor_cos293",
+   "template": "temple",
+   "loc": [
+    12.4833,
+    41.8844
+   ],
+   "rot": 36,
+   "w": 10.0,
+   "l": 16.0,
+   "h": 10.0,
+   "params": {
+    "order": "tuscan",
+    "plan": "tuscan_alae",
+    "front": 4,
+    "side": 3,
+    "podium": 2.0,
+    "colH": 5.5,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "Built by L. Papirius Cursor, triumphing over the Tarentines; his triumphal portrait in a toga picta was painted inside.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Festus",
+     "w": "De verborum significatu",
+     "r": "228 L"
+    },
+    {
+     "a": "Fasti Amiternini",
+     "w": "21 Aug: Conso in Aventino"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 100"
+   ],
+   "note": "Site on the Aventine unknown."
+  },
+  {
+   "id": "temple_of_vortumnus_v1",
+   "monument": "temple_of_vortumnus",
+   "name": "Temple of Vortumnus (Aventine)",
+   "from": -264,
+   "to": 9999,
+   "begun": null,
+   "builder": "marcus_fulvius_flaccus_cos264",
+   "template": "temple",
+   "loc": [
+    12.4826,
+    41.8826
+   ],
+   "rot": 315,
+   "w": 12.0,
+   "l": 18.0,
+   "h": 11.0,
+   "params": {
+    "order": "tuscan",
+    "plan": "tuscan_alae",
+    "front": 4,
+    "side": 3,
+    "podium": 2.0,
+    "colH": 6.0,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "Built by M. Fulvius Flaccus after the capture of Volsinii in 264 BC, the Etruscan god having been 'evoked' from the city; a painting of the triumphator in toga picta decorated it.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Festus",
+     "w": "De verborum significatu",
+     "r": "228 L"
+    },
+    {
+     "a": "Propertius",
+     "w": "Elegies",
+     "r": "4.2"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 432"
+   ],
+   "note": "'in vico Loreti Maioris', near the Diana precinct; exact site unknown."
+  },
+  {
+   "id": "temple_of_libertas_aventine_v1",
+   "monument": "temple_of_libertas_aventine",
+   "name": "Temple of Libertas (Aventine)",
+   "from": -238,
+   "to": 9999,
+   "begun": null,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.4808,
+    41.8833
+   ],
+   "rot": 45,
+   "w": 12.0,
+   "l": 18.0,
+   "h": 11.0,
+   "params": {
+    "order": "tuscan",
+    "plan": "tuscan_alae",
+    "front": 4,
+    "side": 3,
+    "podium": 2.0,
+    "colH": 6.0,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "Built by Ti. Sempronius Gracchus from fines, with paintings celebrating his father's victory at Beneventum; restored by Augustus.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "24.16.19"
+    },
+    {
+     "a": "Augustus",
+     "w": "Res Gestae",
+     "r": "19"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 233"
+   ],
+   "note": "Site on the Aventine unknown."
+  },
+  {
+   "id": "temple_of_bona_dea_subsaxana_v1",
+   "monument": "temple_of_bona_dea_subsaxana",
+   "name": "Temple of Bona Dea Subsaxana",
+   "from": -270,
+   "to": -11,
+   "begun": null,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.485,
+    41.8817
+   ],
+   "rot": 60,
+   "w": 10.0,
+   "l": 16.0,
+   "h": 9.0,
+   "params": {
+    "order": "tuscan",
+    "plan": "tuscan_alae",
+    "front": 4,
+    "side": 3,
+    "podium": 1.5,
+    "colH": 5.0,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Sanctuary of the women's goddess 'below the Rock' (Saxum) on the eastern slope of the Aventine, with medicinal herbs and tame snakes; men were barred.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "5.148-158"
+    },
+    {
+     "a": "Macrobius",
+     "w": "Saturnalia",
+     "r": "1.12.25-26"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 59-60"
+   ],
+   "note": "Founding date unknown (tradition names a Vestal Claudia). Placed on the NE flank of the Aventine above the Piscina Publica area."
+  },
+  {
+   "id": "temple_of_bona_dea_subsaxana_v2",
+   "monument": "temple_of_bona_dea_subsaxana",
+   "name": "Temple of Bona Dea Subsaxana (Livia, Hadrian)",
+   "from": -10,
+   "to": 9999,
+   "begun": null,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.485,
+    41.8817
+   ],
+   "rot": 60,
+   "w": 10.0,
+   "l": 16.0,
+   "h": 9.0,
+   "params": {
+    "order": "ionic",
+    "plan": "prostyle",
+    "front": 4,
+    "side": 2,
+    "podium": 1.5,
+    "colH": 6.0,
+    "steps": "front",
+    "precinct": {
+     "w": 30,
+     "l": 35,
+     "h": 4
+    },
+    "mat": {
+     "podium": "concrete_faced",
+     "columns": "marble_white",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "Restored by Livia and later by Hadrian, whose works the Regionary Catalogues and the Historia Augusta record.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "5.157-158"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Hadrianus",
+     "r": "19.11"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 60"
+   ],
+   "note": ""
+  },
+  {
+   "id": "armilustrium_v1",
+   "monument": "armilustrium",
+   "name": "Armilustrium",
+   "from": -509,
+   "to": 9999,
+   "builder": null,
+   "template": "altar",
+   "loc": [
+    12.4799,
+    41.883
+   ],
+   "rot": 45,
+   "w": 60.0,
+   "l": 40.0,
+   "h": 2.0,
+   "params": {
+    "enclosure": {
+     "w": 60,
+     "l": 40,
+     "h": 2
+    },
+    "altar": {
+     "w": 4,
+     "l": 3,
+     "h": 1.5
+    },
+    "mat": {
+     "enclosure": "tufa",
+     "altar": "tufa",
+     "ground": "grass"
+    }
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "Open sacred area on the Aventine where the arms of the army were purified on 19 October at the end of the campaign season; said to hold the tomb of King Titus Tatius. Gave its name to the Vicus Armilustri.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Varro",
+     "w": "De lingua Latina",
+     "r": "5.153; 6.22"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Romulus",
+     "r": "23.3"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 44"
+   ],
+   "note": "Placed near S. Sabina and S. Alessio along the street under Via di S. Sabina (Vicus Armilustri)."
+  },
+  {
+   "id": "privata_traiani_v1",
+   "monument": "privata_traiani",
+   "name": "Privata Traiani (house of Trajan on the Aventine)",
+   "from": 95,
+   "to": 249,
+   "builder": null,
+   "template": "domus",
+   "loc": [
+    12.4817,
+    41.8827
+   ],
+   "rot": 315,
+   "w": 40.0,
+   "l": 55.0,
+   "h": 10.0,
+   "params": {
+    "atrium": false,
+    "peristyle": {
+     "w": 18,
+     "l": 22
+    },
+    "storeys": 2,
+    "mat": {
+     "walls": "brick",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Trajan's private house on the Aventine before his accession, listed in the Regionary Catalogues (Regio XIII). Rooms with early second-century paintings and mosaics found under Piazza del Tempio di Diana and the Casale Torlonia are the leading candidate; they were buried by the foundations of the Baths of Decius.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Notitia",
+     "w": "Regio XIII",
+     "r": "Privata Traiani"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 320",
+    "Coarelli, Rome and Environs (2007) 353"
+   ],
+   "note": "Identification with the remains under the Decian baths is one of two hypotheses (the other is the house under S. Prisca)."
+  },
+  {
+   "id": "baths_of_decius_v1",
+   "monument": "baths_of_decius",
+   "name": "Baths of Decius (Thermae Decianae)",
+   "from": 252,
+   "to": 409,
+   "begun": 249,
+   "builder": "decius",
+   "template": "baths",
+   "loc": [
+    12.4817,
+    41.8827
+   ],
+   "rot": 225,
+   "w": 70.0,
+   "l": 35.0,
+   "h": 18.0,
+   "params": {
+    "core": {
+     "w": 70,
+     "l": 35,
+     "h": 14
+    },
+    "frigidarium": {
+     "w": 20,
+     "l": 16,
+     "h": 18
+    },
+    "caldarium": {
+     "radius": 7,
+     "h": 14
+    },
+    "precinct": null,
+    "natatio": {
+     "w": 20,
+     "l": 10
+    },
+    "mat": {
+     "walls": "brick",
+     "vaults": "concrete",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "Small luxurious bath building for the aristocratic Aventine, built by the emperor Decius. Palladio drew its symmetrical plan, about 70 x 35 m with a central hall and an apsed room at the south corner; remains survive in the Casale Torlonia and under Piazza del Tempio di Diana.",
+   "phases": [
+    {
+     "y": 350,
+     "t": "restored under Constantius and Constans"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Eutropius",
+     "w": "Breviarium",
+     "r": "9.4"
+    },
+    {
+     "a": "Chronographer of 354",
+     "w": "Chronica urbis Romae",
+     "r": "Decius"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 391",
+    "Coarelli, Rome and Environs (2007) 353",
+    "Palladio's drawing (Chatsworth), published by Lanciani"
+   ],
+   "note": "Location between Piazza del Tempio di Diana and Via del Tempio di Diana from the Nolli map and inscriptions; the Wikipedia point (12.4843, 41.8833) lies too far east. Caldarium on the SW side for the afternoon sun; rot 225 = facing SW."
+  },
+  {
+   "id": "baths_of_decius_v2",
+   "monument": "baths_of_decius",
+   "name": "Baths of Decius (restored 414)",
+   "from": 414,
+   "to": 9999,
+   "builder": null,
+   "template": "baths",
+   "loc": [
+    12.4817,
+    41.8827
+   ],
+   "rot": 225,
+   "w": 70.0,
+   "l": 35.0,
+   "h": 18.0,
+   "params": {
+    "core": {
+     "w": 70,
+     "l": 35,
+     "h": 14
+    },
+    "frigidarium": {
+     "w": 20,
+     "l": 16,
+     "h": 18
+    },
+    "caldarium": {
+     "radius": 7,
+     "h": 14
+    },
+    "natatio": {
+     "w": 20,
+     "l": 10
+    },
+    "mat": {
+     "walls": "brick",
+     "vaults": "concrete",
+     "roof": "roof_tile"
+    }
+   },
+   "ruin": {
+    "from": 550,
+    "state": "roofless"
+   },
+   "importance": 2,
+   "certainty": "documented",
+   "summary": "Restored after Alaric's sack by the urban prefect Caecina Decius Acinatius Albinus in 414, as an inscription records; later fate unknown.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "1703"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 391"
+   ],
+   "note": "Damaged in 410; gap 410-413."
+  },
+  {
+   "id": "baths_of_sura_v1",
+   "monument": "baths_of_sura",
+   "name": "Baths of Sura (Balneum Surae)",
+   "from": 105,
+   "to": 409,
+   "builder": "lucius_licinius_sura",
+   "template": "baths",
+   "loc": [
+    12.483,
+    41.8836
+   ],
+   "rot": 315,
+   "w": 45.0,
+   "l": 40.0,
+   "h": 14.0,
+   "params": {
+    "core": {
+     "w": 45,
+     "l": 40,
+     "h": 12
+    },
+    "frigidarium": {
+     "w": 16,
+     "l": 12,
+     "h": 14
+    },
+    "caldarium": {
+     "radius": 6,
+     "h": 12
+    },
+    "mat": {
+     "walls": "brick",
+     "vaults": "concrete",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "reconstructed",
+   "summary": "Baths built by or for L. Licinius Sura, Trajan's marshal, next to his house on the Aventine and dedicated to Trajan; shown on the Severan Marble Plan (BALNEVM SVRAE) beside the Temple of Diana. Restored under Gordian III.",
+   "phases": [
+    {
+     "y": 240,
+     "t": "restored under Gordian III"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Martial",
+     "w": "Epigrams",
+     "r": "6.64.13"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "68.15.3"
+    },
+    {
+     "a": "Aurelius Victor",
+     "w": "Epitome de Caesaribus",
+     "r": "13.6"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 395",
+    "Rodriguez Almeida, Forma Urbis Marmorea (1981) frag. 21"
+   ],
+   "note": "Placed NW of S. Prisca, along the street under Via di S. Prisca, per the traditional setting of FUR fragments 21-22; remains reported near the Accademia di Danza."
+  },
+  {
+   "id": "baths_of_sura_v2",
+   "monument": "baths_of_sura",
+   "name": "Baths of Sura (restored 414)",
+   "from": 414,
+   "to": 9999,
+   "builder": null,
+   "template": "baths",
+   "loc": [
+    12.483,
+    41.8836
+   ],
+   "rot": 315,
+   "w": 45.0,
+   "l": 40.0,
+   "h": 14.0,
+   "params": {
+    "core": {
+     "w": 45,
+     "l": 40,
+     "h": 12
+    },
+    "frigidarium": {
+     "w": 16,
+     "l": 12,
+     "h": 14
+    },
+    "caldarium": {
+     "radius": 6,
+     "h": 12
+    },
+    "mat": {
+     "walls": "brick",
+     "vaults": "concrete",
+     "roof": "roof_tile"
+    }
+   },
+   "ruin": {
+    "from": 550,
+    "state": "roofless"
+   },
+   "importance": 1,
+   "certainty": "documented",
+   "summary": "Repaired in 414 after the Gothic sack by Caecina Decius Acinatius Albinus.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "1703"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 395"
+   ],
+   "note": ""
+  },
+  {
+   "id": "domus_santa_prisca_v1",
+   "monument": "domus_santa_prisca",
+   "name": "House under Santa Prisca (Domus of Licinius Sura?)",
+   "from": 95,
+   "to": 399,
+   "builder": null,
+   "template": "domus",
+   "loc": [
+    12.483981,
+    41.883078
+   ],
+   "rot": 250,
+   "w": 30.0,
+   "l": 40.0,
+   "h": 10.0,
+   "params": {
+    "atrium": false,
+    "peristyle": {
+     "w": 12,
+     "l": 16
+    },
+    "storeys": 2,
+    "mat": {
+     "walls": "brick",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "A late first-century house with a nymphaeum and later a cult room, excavated under the church of S. Prisca in 1934-1966; variously identified with the house of Licinius Sura or with Trajan's private residence.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Vermaseren and van Essen, The Excavations in the Mithraeum of the Church of Santa Prisca (1965)",
+    "Richardson (1992) 129"
+   ],
+   "note": "Same footprint as the church above, which reused its walls."
+  },
+  {
+   "id": "mithraeum_santa_prisca_v1",
+   "monument": "mithraeum_santa_prisca",
+   "name": "Mithraeum of Santa Prisca",
+   "from": 202,
+   "to": 219,
+   "builder": null,
+   "template": "compound",
+   "loc": [
+    12.483981,
+    41.883078
+   ],
+   "rot": 250,
+   "w": 7.0,
+   "l": 12.0,
+   "h": 4.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "vault",
+      "x": 0,
+      "y": 0,
+      "w": 7,
+      "l": 12,
+      "h": 4,
+      "mat": "stucco"
+     }
+    ],
+    "underground": true
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "A Mithraic cave installed in the basement of the house under S. Prisca; a graffito gives the date of the founding as 20 November 202.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Graffito in the mithraeum",
+     "w": "dated 20 Nov. 202"
+    }
+   ],
+   "scholarship": [
+    "Vermaseren and van Essen (1965)"
+   ],
+   "note": "Below ground; rendered as a small vault under the church site."
+  },
+  {
+   "id": "mithraeum_santa_prisca_v2",
+   "monument": "mithraeum_santa_prisca",
+   "name": "Mithraeum of Santa Prisca (enlarged)",
+   "from": 220,
+   "to": 400,
+   "builder": null,
+   "template": "compound",
+   "loc": [
+    12.483981,
+    41.883078
+   ],
+   "rot": 250,
+   "w": 7.0,
+   "l": 18.0,
+   "h": 4.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "vault",
+      "x": 0,
+      "y": 0,
+      "w": 7,
+      "l": 18,
+      "h": 4,
+      "mat": "stucco"
+     }
+    ],
+    "underground": true
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "Enlarged around 220 and repainted with the famous procession of the seven grades of initiates and their verses. Destroyed and filled in around 400, when the church was built above.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Vermaseren and van Essen (1965)",
+    "Coarelli, Rome and Environs (2007) 352"
+   ],
+   "note": ""
+  },
+  {
+   "id": "dolichenum_aventine_v1",
+   "monument": "dolichenum_aventine",
+   "name": "Dolichenum (sanctuary of Jupiter Dolichenus on the Aventine)",
+   "from": 150,
+   "to": 400,
+   "builder": null,
+   "template": "compound",
+   "loc": [
+    12.4803,
+    41.8818
+   ],
+   "rot": 315,
+   "w": 15.0,
+   "l": 25.0,
+   "h": 7.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "court",
+      "x": 0,
+      "y": -4,
+      "w": 15,
+      "l": 14,
+      "h": 5,
+      "ringDepth": 3,
+      "mat": "brick"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 8,
+      "w": 10,
+      "l": 8,
+      "h": 7,
+      "mat": "brick"
+     }
+    ]
+   },
+   "importance": 1,
+   "certainty": "excavated",
+   "summary": "Sanctuary of the Syrian Jupiter Dolichenus excavated in 1935 near Via di S. Domenico, with a rich deposit of sculpture and inscriptions of the second and third centuries.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "30758"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 221",
+    "Colini, Bullettino Comunale 63 (1935)"
+   ],
+   "note": "Exact position approximate (Largo Arrigo VII / Via di S. Domenico area); plan generic."
+  },
+  {
+   "id": "domus_cilonis_v1",
+   "monument": "domus_cilonis",
+   "name": "Domus Cilonis",
+   "from": 200,
+   "to": 409,
+   "builder": null,
+   "template": "domus",
+   "loc": [
+    12.4908,
+    41.8814
+   ],
+   "rot": 0,
+   "w": 40.0,
+   "l": 50.0,
+   "h": 10.0,
+   "params": {
+    "atrium": false,
+    "peristyle": {
+     "w": 16,
+     "l": 20
+    },
+    "storeys": 2,
+    "mat": {
+     "walls": "brick",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "Mansion given by Septimius Severus to his friend L. Fabius Cilo, city prefect, on the Little Aventine near the later Baths of Caracalla; listed in the Regionary Catalogues.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Notitia",
+     "w": "Regio XII",
+     "r": "Domus Cilonis"
+    },
+    {
+     "a": "Aurelius Victor",
+     "w": "Epitome de Caesaribus",
+     "r": "20.6"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 129"
+   ],
+   "note": "Remains under or near S. Balbina have been suggested."
+  },
+  {
+   "id": "piscina_publica_v1",
+   "monument": "piscina_publica",
+   "name": "Piscina Publica",
+   "from": -312,
+   "to": -50,
+   "builder": null,
+   "template": "pool",
+   "loc": [
+    12.4878,
+    41.8818
+   ],
+   "rot": 36,
+   "w": 40.0,
+   "l": 70.0,
+   "h": 1.0,
+   "params": {
+    "depth": 1.5,
+    "mat": {
+     "water": "water",
+     "rim": "tufa"
+    }
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "A public swimming pool fed probably by the Aqua Appia, where the people went to swim and exercise; it gave its name to Regio XII but had disappeared by Festus' day.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Festus",
+     "w": "De verborum significatu",
+     "r": "232 L"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "23.32.4"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 297"
+   ],
+   "note": "Location in the valley between the Aventine and the Little Aventine north of the Baths of Caracalla; dates conjectural."
+  },
+  {
+   "id": "septizodium_v1",
+   "monument": "septizodium",
+   "name": "Septizodium",
+   "from": 203,
+   "to": 9999,
+   "builder": "septimius_severus",
+   "template": "compound",
+   "loc": [
+    12.4889,
+    41.8855
+   ],
+   "rot": 150,
+   "w": 89.6,
+   "l": 11.0,
+   "h": 32.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": 0,
+      "y": -3,
+      "w": 89.6,
+      "l": 6,
+      "h": 3.5,
+      "mat": "travertine"
+     },
+     {
+      "shape": "hemicycle",
+      "x": -29.9,
+      "y": -2,
+      "radius": 10,
+      "depth": 8,
+      "angle": 180,
+      "h": 28,
+      "mat": "brick"
+     },
+     {
+      "shape": "hemicycle",
+      "x": 0,
+      "y": -2,
+      "radius": 10,
+      "depth": 8,
+      "angle": 180,
+      "h": 28,
+      "mat": "brick"
+     },
+     {
+      "shape": "hemicycle",
+      "x": 29.9,
+      "y": -2,
+      "radius": 10,
+      "depth": 8,
+      "angle": 180,
+      "h": 28,
+      "mat": "brick"
+     },
+     {
+      "shape": "colonnade",
+      "x": 0,
+      "y": 2,
+      "w": 89.6,
+      "l": 4,
+      "h": 9.5,
+      "z": 3.5,
+      "colH": 9.5,
+      "mat": "marble_color"
+     },
+     {
+      "shape": "colonnade",
+      "x": 0,
+      "y": 2,
+      "w": 89.6,
+      "l": 4,
+      "h": 8.5,
+      "z": 14,
+      "colH": 8.0,
+      "mat": "marble_color"
+     },
+     {
+      "shape": "colonnade",
+      "x": 0,
+      "y": 2,
+      "w": 89.6,
+      "l": 4,
+      "h": 7.5,
+      "z": 23.5,
+      "colH": 7.0,
+      "mat": "marble_color"
+     }
+    ],
+    "storeys": 3,
+    "exedrae": 3,
+    "mat": {
+     "columns": "marble_color",
+     "walls": "brick"
+    }
+   },
+   "importance": 4,
+   "certainty": "reconstructed",
+   "summary": "A towering free-standing nymphaeum facade built by Septimius Severus in 203 at the SE corner of the Palatine, so that travellers arriving from Africa by the Via Appia would see the emperor's palace first. Three storeys of coloured-marble columns over three apsidal exedrae, about 90 m long; part survived until Sixtus V demolished it in 1588-1589.",
+   "phases": [
+    {
+     "y": 203,
+     "t": "dedicated (CIL VI 1032)"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Severus",
+     "r": "24.3"
+    },
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "1032"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 350-351",
+    "Claridge, Rome (2010) 147",
+    "Lusnia, 'Urban planning and sculptural display in Severan Rome: reconstructing the Septizodium', AJA 108 (2004)"
+   ],
+   "note": "Position at the corner of Via dei Cerchi and Via di S. Gregorio (Wikipedia 41.8854, 12.4889; foundations seen in 2010s). Facade bearing ~150 (SSE, toward the Via Appia and Porta Capena) is inferred from its purpose and FUR fragment 8; height ~32 m estimated from Renaissance drawings of the surviving three-storey section."
+  },
+  {
+   "id": "baths_of_caracalla_v1",
+   "monument": "baths_of_caracalla",
+   "name": "Baths of Caracalla (Thermae Antoninianae, bath block)",
+   "from": 216,
+   "to": 234,
+   "begun": 211,
+   "builder": "caracalla",
+   "template": "baths",
+   "loc": [
+    12.4922,
+    41.879
+   ],
+   "rot": 44.3,
+   "w": 214.0,
+   "l": 110.0,
+   "h": 44.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 25,
+      "w": 214,
+      "l": 110,
+      "h": 30,
+      "mat": "brick"
+     },
+     {
+      "shape": "vault",
+      "x": 0,
+      "y": 25,
+      "w": 58,
+      "l": 24,
+      "h": 38,
+      "mat": "brick"
+     },
+     {
+      "shape": "dome",
+      "x": 0,
+      "y": -38,
+      "w": 36,
+      "l": 36,
+      "h": 44,
+      "mat": "brick"
+     },
+     {
+      "shape": "box",
+      "x": -74,
+      "y": 25,
+      "w": 50,
+      "l": 34,
+      "h": 2,
+      "mat": "paving_basalt"
+     },
+     {
+      "shape": "box",
+      "x": 74,
+      "y": 25,
+      "w": 50,
+      "l": 34,
+      "h": 2,
+      "mat": "paving_basalt"
+     },
+     {
+      "shape": "pool",
+      "x": 0,
+      "y": 68,
+      "w": 54,
+      "l": 22,
+      "h": 1,
+      "mat": "water"
+     }
+    ],
+    "core": {
+     "w": 214,
+     "l": 110,
+     "h": 30
+    },
+    "frigidarium": {
+     "w": 58,
+     "l": 24,
+     "h": 38
+    },
+    "caldarium": {
+     "radius": 18,
+     "h": 44
+    },
+    "natatio": {
+     "w": 54,
+     "l": 22
+    },
+    "mat": {
+     "walls": "brick",
+     "vaults": "concrete",
+     "columns": "granite",
+     "floors": "marble_color",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "Begun by Septimius Severus and dedicated by Caracalla in 216: a symmetrical bath block 214 x 110 m with the cold pool (natatio), the vaulted frigidarium hall and the domed caldarium on the main axis, twin palaestrae at the sides, and room for about 1,600 bathers. The outer enclosure was still unfinished.",
+   "phases": [
+    {
+     "y": 212,
+     "t": "construction under way after Geta's murder"
+    },
+    {
+     "y": 216,
+     "t": "dedicated by Caracalla"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Caracalla",
+     "r": "9.4-9"
+    },
+    {
+     "a": "Aurelius Victor",
+     "w": "De Caesaribus",
+     "r": "21.4"
+    },
+    {
+     "a": "Eutropius",
+     "w": "Breviarium",
+     "r": "8.20"
+    }
+   ],
+   "scholarship": [
+    "DeLaine, The Baths of Caracalla (JRA Suppl. 25, 1997)",
+    "Richardson (1992) 387-389",
+    "Claridge, Rome (2010) 359-365"
+   ],
+   "note": "Precinct centre from the OSM site outline (axis 134/44 deg); bath block offset ~25 m NE of precinct centre; main entrances on the NE side toward the Via Nova, hence rot 44. Caldarium dome ~36 m span, ~44 m to the top (DeLaine).",
+   "event": "baths_of_caracalla_216"
+  },
+  {
+   "id": "baths_of_caracalla_v2",
+   "monument": "baths_of_caracalla",
+   "name": "Baths of Caracalla (Thermae Antoninianae)",
+   "from": 235,
+   "to": 536,
+   "begun": 217,
+   "builder": null,
+   "template": "baths",
+   "loc": [
+    12.4922,
+    41.879
+   ],
+   "rot": 44.3,
+   "w": 337.0,
+   "l": 328.0,
+   "h": 44.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "court",
+      "x": 0,
+      "y": 0,
+      "w": 337,
+      "l": 328,
+      "h": 10,
+      "ringDepth": 12,
+      "mat": "brick"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 25,
+      "w": 214,
+      "l": 110,
+      "h": 30,
+      "mat": "brick"
+     },
+     {
+      "shape": "vault",
+      "x": 0,
+      "y": 25,
+      "w": 58,
+      "l": 24,
+      "h": 38,
+      "mat": "brick"
+     },
+     {
+      "shape": "dome",
+      "x": 0,
+      "y": -38,
+      "w": 36,
+      "l": 36,
+      "h": 44,
+      "mat": "brick"
+     },
+     {
+      "shape": "box",
+      "x": -74,
+      "y": 25,
+      "w": 50,
+      "l": 34,
+      "h": 2,
+      "mat": "paving_basalt"
+     },
+     {
+      "shape": "box",
+      "x": 74,
+      "y": 25,
+      "w": 50,
+      "l": 34,
+      "h": 2,
+      "mat": "paving_basalt"
+     },
+     {
+      "shape": "pool",
+      "x": 0,
+      "y": 68,
+      "w": 54,
+      "l": 22,
+      "h": 1,
+      "mat": "water"
+     },
+     {
+      "shape": "hemicycle",
+      "x": -150,
+      "y": 0,
+      "radius": 25,
+      "depth": 30,
+      "angle": 180,
+      "h": 14,
+      "mat": "brick"
+     },
+     {
+      "shape": "hemicycle",
+      "x": 150,
+      "y": 0,
+      "radius": 25,
+      "depth": 30,
+      "angle": 180,
+      "h": 14,
+      "mat": "brick"
+     },
+     {
+      "shape": "stepped",
+      "x": 0,
+      "y": -150,
+      "w": 160,
+      "l": 28,
+      "h": 12,
+      "mat": "brick"
+     }
+    ],
+    "core": {
+     "w": 214,
+     "l": 110,
+     "h": 30
+    },
+    "frigidarium": {
+     "w": 58,
+     "l": 24,
+     "h": 38
+    },
+    "caldarium": {
+     "radius": 18,
+     "h": 44
+    },
+    "precinct": {
+     "w": 337,
+     "l": 328,
+     "h": 10
+    },
+    "exedrae": 2,
+    "natatio": {
+     "w": 54,
+     "l": 22
+    },
+    "mat": {
+     "walls": "brick",
+     "vaults": "concrete",
+     "columns": "granite",
+     "floors": "marble_color",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "The enclosure (peribolos) of 337 x 328 m was completed under Elagabalus and Severus Alexander: shops on the street front, two great exedrae with halls on the flanks, libraries and the stepped stadium-seating facing a running track over the vast cisterns on the SW side. Fed by the Aqua Antoniniana branch of the Marcia. Restored under Aurelian and by Theodoric, it worked until the Goths cut the aqueducts in 537.",
+   "phases": [
+    {
+     "y": 235,
+     "t": "porticoes of the enclosure finished (HA Elag. 17.8-9; Alex. Sev. 25.6)"
+    },
+    {
+     "y": 275,
+     "t": "repairs under Aurelian"
+    },
+    {
+     "y": 510,
+     "t": "Theodoric restores the baths (Cassiodorus Var. 3.31)"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Heliogabalus",
+     "r": "17.8-9"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Severus Alexander",
+     "r": "25.6"
+    },
+    {
+     "a": "Olympiodorus",
+     "w": "fr.",
+     "r": "41.2"
+    }
+   ],
+   "scholarship": [
+    "DeLaine (1997)",
+    "Richardson (1992) 387-389"
+   ],
+   "note": "Precinct footprint from DeLaine; height of precinct ranges 10-14 m."
+  },
+  {
+   "id": "baths_of_caracalla_v3",
+   "monument": "baths_of_caracalla",
+   "name": "Baths of Caracalla (out of use)",
+   "from": 537,
+   "to": 9999,
+   "builder": null,
+   "template": "baths",
+   "loc": [
+    12.4922,
+    41.879
+   ],
+   "rot": 44.3,
+   "w": 337.0,
+   "l": 328.0,
+   "h": 44.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "court",
+      "x": 0,
+      "y": 0,
+      "w": 337,
+      "l": 328,
+      "h": 10,
+      "ringDepth": 12,
+      "mat": "brick"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 25,
+      "w": 214,
+      "l": 110,
+      "h": 30,
+      "mat": "brick"
+     },
+     {
+      "shape": "vault",
+      "x": 0,
+      "y": 25,
+      "w": 58,
+      "l": 24,
+      "h": 38,
+      "mat": "brick"
+     },
+     {
+      "shape": "dome",
+      "x": 0,
+      "y": -38,
+      "w": 36,
+      "l": 36,
+      "h": 44,
+      "mat": "brick"
+     },
+     {
+      "shape": "box",
+      "x": -74,
+      "y": 25,
+      "w": 50,
+      "l": 34,
+      "h": 2,
+      "mat": "paving_basalt"
+     },
+     {
+      "shape": "box",
+      "x": 74,
+      "y": 25,
+      "w": 50,
+      "l": 34,
+      "h": 2,
+      "mat": "paving_basalt"
+     },
+     {
+      "shape": "pool",
+      "x": 0,
+      "y": 68,
+      "w": 54,
+      "l": 22,
+      "h": 1,
+      "mat": "water"
+     },
+     {
+      "shape": "hemicycle",
+      "x": -150,
+      "y": 0,
+      "radius": 25,
+      "depth": 30,
+      "angle": 180,
+      "h": 14,
+      "mat": "brick"
+     },
+     {
+      "shape": "hemicycle",
+      "x": 150,
+      "y": 0,
+      "radius": 25,
+      "depth": 30,
+      "angle": 180,
+      "h": 14,
+      "mat": "brick"
+     },
+     {
+      "shape": "stepped",
+      "x": 0,
+      "y": -150,
+      "w": 160,
+      "l": 28,
+      "h": 12,
+      "mat": "brick"
+     }
+    ],
+    "core": {
+     "w": 214,
+     "l": 110,
+     "h": 30
+    },
+    "precinct": {
+     "w": 337,
+     "l": 328,
+     "h": 8
+    },
+    "mat": {
+     "walls": "brick",
+     "vaults": "concrete"
+    }
+   },
+   "ruin": {
+    "from": 537,
+    "state": "roofless"
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "When Vitiges' Goths cut the aqueducts in 537 the baths went dry for good; the shell stood, roofs failing over the following centuries.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "De bellis",
+     "r": "5.19.13"
+    }
+   ],
+   "scholarship": [
+    "DeLaine (1997)"
+   ],
+   "note": ""
+  },
+  {
+   "id": "temple_of_honos_et_virtus_v1",
+   "monument": "temple_of_honos_et_virtus",
+   "name": "Temple of Honos et Virtus (Porta Capena)",
+   "from": -205,
+   "to": 69,
+   "begun": null,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.4908,
+    41.8832
+   ],
+   "rot": 321,
+   "w": 16.0,
+   "l": 26.0,
+   "h": 13.0,
+   "params": {
+    "order": "ionic",
+    "plan": "prostyle",
+    "front": 4,
+    "side": 3,
+    "podium": 2.5,
+    "colH": 8.5,
+    "steps": "front",
+    "cella": {
+     "double": true
+    },
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "M. Claudius Marcellus, conqueror of Syracuse, rebuilt an older temple of Honos outside the Porta Capena as twin shrines of Honour and Virtue, filled with Syracusan art; his son dedicated it in 205.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "27.25.7-9; 29.11.13"
+    },
+    {
+     "a": "Cicero",
+     "w": "In Verrem",
+     "r": "2.4.121"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 190"
+   ],
+   "note": "Outside the Porta Capena by the Via Appia, facing the road toward the city (NW); site unknown."
+  },
+  {
+   "id": "temple_of_honos_et_virtus_v2",
+   "monument": "temple_of_honos_et_virtus",
+   "name": "Temple of Honos et Virtus (Vespasianic)",
+   "from": 70,
+   "to": 9999,
+   "begun": null,
+   "builder": "vespasian",
+   "template": "temple",
+   "loc": [
+    12.4908,
+    41.8832
+   ],
+   "rot": 321,
+   "w": 16.0,
+   "l": 26.0,
+   "h": 13.0,
+   "params": {
+    "order": "corinthian",
+    "plan": "prostyle",
+    "front": 4,
+    "side": 3,
+    "podium": 2.5,
+    "colH": 9.0,
+    "steps": "front",
+    "mat": {
+     "podium": "concrete_faced",
+     "columns": "marble_white",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "Restored by Vespasian, whose painters Cornelius Pinus and Attius Priscus decorated it.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "35.120"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 190"
+   ],
+   "note": ""
+  },
+  {
+   "id": "temple_of_tempestates_v1",
+   "monument": "temple_of_tempestates",
+   "name": "Temple of the Tempestates",
+   "from": -259,
+   "to": 9999,
+   "begun": null,
+   "builder": "lucius_cornelius_scipio_cos259",
+   "template": "temple",
+   "loc": [
+    12.4945,
+    41.8805
+   ],
+   "rot": 321,
+   "w": 9.0,
+   "l": 14.0,
+   "h": 9.0,
+   "params": {
+    "order": "tuscan",
+    "plan": "tuscan_alae",
+    "front": 4,
+    "side": 3,
+    "podium": 1.5,
+    "colH": 5.0,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "Vowed by L. Cornelius Scipio after his fleet escaped a storm off Corsica in 259 BC, as his epitaph in the Tomb of the Scipios records; near the Porta Capena.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "1287 (Elogium of L. Scipio)"
+    },
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "6.193-194"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 378"
+   ],
+   "note": "Placed by the Via Appia between Porta Capena and the Scipio tomb."
+  },
+  {
+   "id": "temple_of_mars_via_appia_v1",
+   "monument": "temple_of_mars_via_appia",
+   "name": "Temple of Mars (Via Appia)",
+   "from": -388,
+   "to": 9999,
+   "begun": null,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.5032,
+    41.8714
+   ],
+   "rot": 321,
+   "w": 16.0,
+   "l": 26.0,
+   "h": 13.0,
+   "params": {
+    "order": "tuscan",
+    "plan": "tuscan_alae",
+    "front": 4,
+    "side": 3,
+    "podium": 2.5,
+    "colH": 7.5,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "conjectural",
+   "summary": "Temple of Mars between the first and second milestones of the Via Appia, vowed in the Gallic war and dedicated in 388 BC; the army assembled here before marching south, and the Transvectio equitum set out from it on 15 July. The road leading to it was paved in 296 BC.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "6.5.8; 10.23.12"
+    },
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "6.191-192"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 244-245"
+   ],
+   "note": "Commonly placed just outside the later Porta Appia near the Almo crossing; position conjectural."
+  },
+  {
+   "id": "tomb_of_the_scipios_v1",
+   "monument": "tomb_of_the_scipios",
+   "name": "Tomb of the Scipios (hypogeum)",
+   "from": -280,
+   "to": -151,
+   "builder": "lucius_cornelius_scipio_barbatus",
+   "template": "tomb",
+   "loc": [
+    12.500531,
+    41.875958
+   ],
+   "rot": 324,
+   "w": 20.0,
+   "l": 30.0,
+   "h": 4.0,
+   "params": {
+    "kind": "house",
+    "w": 20,
+    "h": 4,
+    "hypogeum": true,
+    "mat": {
+     "walls": "tufa"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "Family tomb of the Cornelii Scipiones cut into the tufa on a side road between the Via Appia and Via Latina; the first burial is L. Cornelius Scipio Barbatus (consul 298), whose peperino sarcophagus is now in the Vatican.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "38.56.4"
+    },
+    {
+     "a": "Cicero",
+     "w": "Tusculanae disputationes",
+     "r": "1.13"
+    },
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "1284-1294"
+    }
+   ],
+   "scholarship": [
+    "Coarelli, 'Il sepolcro degli Scipioni', Dialoghi di Archeologia 6 (1972) 36-106",
+    "Richardson (1992) 359-360"
+   ],
+   "note": "Centre from OSM (Sepolcro degli Scipioni); the facade faced NW onto the side road (Coarelli)."
+  },
+  {
+   "id": "tomb_of_the_scipios_v2",
+   "monument": "tomb_of_the_scipios",
+   "name": "Tomb of the Scipios (monumental facade)",
+   "from": -150,
+   "to": 9999,
+   "builder": null,
+   "template": "tomb",
+   "loc": [
+    12.500531,
+    41.875958
+   ],
+   "rot": 324,
+   "w": 22.0,
+   "l": 30.0,
+   "h": 9.0,
+   "params": {
+    "kind": "house",
+    "w": 22,
+    "h": 9,
+    "facade": {
+     "podium": 3.5,
+     "storeys": 2,
+     "niches": 3,
+     "statues": [
+      "Scipio Africanus",
+      "L. Scipio Asiaticus",
+      "Ennius"
+     ]
+    },
+    "mat": {
+     "walls": "tufa",
+     "facade": "stucco_red"
+    }
+   },
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "Around the mid-second century, probably under Scipio Aemilianus, a second chamber was cut and a painted facade added: a rusticated podium with an arched entrance and an upper storey of half-columns framing three niches with statues of Africanus, Asiaticus and the poet Ennius. Burials continued into the first century AD; in the third century a house was built over it.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "38.56.4"
+    },
+    {
+     "a": "Cicero",
+     "w": "Pro Archia",
+     "r": "22"
+    }
+   ],
+   "scholarship": [
+    "Coarelli (1972)",
+    "Claridge, Rome (2010) 375-377"
+   ],
+   "note": ""
+  },
+  {
+   "id": "columbarium_pomponius_hylas_v1",
+   "monument": "columbarium_pomponius_hylas",
+   "name": "Columbarium of Pomponius Hylas",
+   "from": 14,
+   "to": 9999,
+   "builder": null,
+   "template": "tomb",
+   "loc": [
+    12.502141,
+    41.876392
+   ],
+   "rot": 212,
+   "w": 6.0,
+   "l": 8.0,
+   "h": 4.0,
+   "params": {
+    "kind": "house",
+    "w": 6,
+    "h": 4,
+    "hypogeum": true,
+    "mat": {
+     "walls": "reticulate"
+    }
+   },
+   "importance": 1,
+   "certainty": "excavated",
+   "summary": "Small underground columbarium of the early first century AD near the Porta Latina, with a mosaic panel naming Pomponius Hylas and Pomponia Vitalinis and some of the best preserved stucco and painting of any Roman columbarium.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Claridge, Rome (2010) 377-378",
+    "Richardson (1992) 93"
+   ],
+   "note": "Centre from OSM; mostly below ground, entrance stair to the SW assumed."
+  },
+  {
+   "id": "columbarium_vigna_codini_1_v1",
+   "monument": "columbarium_vigna_codini_1",
+   "name": "Columbarium 1 of the Vigna Codini",
+   "from": -10,
+   "to": 9999,
+   "builder": null,
+   "template": "tomb",
+   "loc": [
+    12.500469,
+    41.875302
+   ],
+   "rot": 231,
+   "w": 10.0,
+   "l": 15.0,
+   "h": 4.0,
+   "params": {
+    "kind": "house",
+    "w": 10,
+    "h": 4,
+    "hypogeum": true,
+    "niches": 500,
+    "mat": {
+     "walls": "reticulate"
+    }
+   },
+   "importance": 1,
+   "certainty": "excavated",
+   "summary": "One of three sunken columbaria in the former Vigna Codini between the Via Appia and Via Latina, for the freedmen and slaves of the Julio-Claudian household (some 500 niches).",
+   "phases": [],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "4881-5678"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 93",
+    "Claridge, Rome (2010) 378"
+   ],
+   "note": "Positions of the three columbaria within the vineyard approximate (about 80 m S of the Pomponius Hylas columbarium)."
+  },
+  {
+   "id": "columbarium_vigna_codini_2_v1",
+   "monument": "columbarium_vigna_codini_2",
+   "name": "Columbarium 2 of the Vigna Codini",
+   "from": 10,
+   "to": 9999,
+   "builder": null,
+   "template": "tomb",
+   "loc": [
+    12.5003,
+    41.8752
+   ],
+   "rot": 231,
+   "w": 9.0,
+   "l": 14.0,
+   "h": 4.0,
+   "params": {
+    "kind": "house",
+    "w": 9,
+    "h": 4,
+    "hypogeum": true,
+    "niches": 450,
+    "mat": {
+     "walls": "reticulate"
+    }
+   },
+   "importance": 1,
+   "certainty": "excavated",
+   "summary": "One of three sunken columbaria in the former Vigna Codini between the Via Appia and Via Latina, for the freedmen and slaves of the Julio-Claudian household (some 450 niches).",
+   "phases": [],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "4881-5678"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 93",
+    "Claridge, Rome (2010) 378"
+   ],
+   "note": "Positions of the three columbaria within the vineyard approximate (about 80 m S of the Pomponius Hylas columbarium)."
+  },
+  {
+   "id": "columbarium_vigna_codini_3_v1",
+   "monument": "columbarium_vigna_codini_3",
+   "name": "Columbarium 3 of the Vigna Codini",
+   "from": 25,
+   "to": 9999,
+   "builder": null,
+   "template": "tomb",
+   "loc": [
+    12.500131,
+    41.875098
+   ],
+   "rot": 231,
+   "w": 7.0,
+   "l": 8.0,
+   "h": 4.0,
+   "params": {
+    "kind": "house",
+    "w": 7,
+    "h": 4,
+    "hypogeum": true,
+    "niches": 300,
+    "mat": {
+     "walls": "reticulate"
+    }
+   },
+   "importance": 1,
+   "certainty": "excavated",
+   "summary": "One of three sunken columbaria in the former Vigna Codini between the Via Appia and Via Latina, for the freedmen and slaves of the Julio-Claudian household (some 300 niches).",
+   "phases": [],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "4881-5678"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 93",
+    "Claridge, Rome (2010) 378"
+   ],
+   "note": "Positions of the three columbaria within the vineyard approximate (about 80 m S of the Pomponius Hylas columbarium)."
+  },
+  {
+   "id": "arch_of_drusus_v1",
+   "monument": "arch_of_drusus",
+   "name": "'Arch of Drusus' (Aqua Antoniniana arch)",
+   "from": 212,
+   "to": 9999,
+   "builder": "caracalla",
+   "template": "arch",
+   "loc": [
+    12.501437,
+    41.873774
+   ],
+   "rot": 348,
+   "w": 11.0,
+   "l": 5.1,
+   "h": 14.0,
+   "params": {
+    "bays": 1,
+    "depth": 5.1,
+    "atticH": 4.0,
+    "columns": "engaged",
+    "aqueduct": true,
+    "mat": {
+     "walls": "travertine",
+     "columns": "marble_color"
+    }
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "Arch carrying the Aqua Antoniniana, the branch of the Marcia built for the Baths of Caracalla, across the Via Appia, decorated with columns of giallo antico; in the Renaissance wrongly named after Drusus. From 271 it stood just inside the Porta Appia.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Richardson (1992) 23",
+    "Claridge, Rome (2010) 379"
+   ],
+   "note": "Footprint 11 x 5.1 m from OSM; the road passes through it on a bearing ~348/168. Attic carried the specus."
+  },
+  {
+   "id": "tomb_of_caecilia_metella_v1",
+   "monument": "tomb_of_caecilia_metella",
+   "name": "Tomb of Caecilia Metella",
+   "from": -20,
+   "to": 9999,
+   "begun": -30,
+   "builder": null,
+   "template": "mausoleum",
+   "loc": [
+    12.520876,
+    41.852185
+   ],
+   "rot": 222,
+   "w": 29.5,
+   "l": 29.5,
+   "h": 21.0,
+   "params": {
+    "diameter": 29.5,
+    "drumH": 11.0,
+    "tumulusH": 3.0,
+    "tiers": 1,
+    "base": {
+     "w": 30,
+     "h": 7.5
+    },
+    "frieze": "bucrania and garlands",
+    "statue": false,
+    "mat": {
+     "drum": "travertine",
+     "base": "travertine",
+     "core": "concrete"
+    }
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "The great drum tomb of Caecilia Metella, daughter of Q. Metellus Creticus and daughter-in-law of Crassus, at the third milestone of the Via Appia: a travertine-faced cylinder 29.5 m across on a square base, with a frieze of ox-skulls and garlands that gave the area its name Capo di Bove.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "1274"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 353",
+    "Gerding, The Tomb of Caecilia Metella (2002)"
+   ],
+   "note": "Centre from OSM. Inscription faces the road (SW); the road runs at bearing ~132 here. The medieval battlements are post-641."
+  },
+  {
+   "id": "circus_of_maxentius_v1",
+   "monument": "circus_of_maxentius",
+   "name": "Circus of Maxentius",
+   "from": 309,
+   "to": 9999,
+   "begun": 306,
+   "builder": "maxentius",
+   "template": "circus",
+   "loc": [
+    12.522508,
+    41.854671
+   ],
+   "rot": 273,
+   "w": 92.0,
+   "l": 513.0,
+   "h": 10.0,
+   "params": {
+    "l": 513,
+    "w": 92,
+    "spina": {
+     "l": 296,
+     "w": 6
+    },
+    "obelisks": [
+     0
+    ],
+    "carceres": 12,
+    "tiers": 10,
+    "pulvinar": true,
+    "pulvinarSide": "-x (north side, linked to the villa)",
+    "mat": {
+     "walls": "concrete_faced",
+     "towers": "brick",
+     "spina": "marble_white",
+     "track": "paving_sand"
+    }
+   },
+   "ruin": {
+    "from": 400,
+    "state": "half"
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "The best-preserved Roman circus, built by Maxentius beside his villa and his son Romulus' mausoleum on the Via Appia: about 513 x 92 m with twelve carceres between two towers, a spina carrying the obelisk Domitian had made (now in Piazza Navona), and about 10,000 seats. It may have been used only for the inaugural games before Maxentius fell in 312.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "1138"
+    }
+   ],
+   "scholarship": [
+    "Pisani Sartorio and Calza, La villa di Massenzio sulla Via Appia (1976)",
+    "Humphrey (1986) 582-602"
+   ],
+   "note": "Centre and axis (93/273) from OSM; carceres at the western end toward the Via Appia, curved end east, so rot 273.",
+   "event": "maxentius_villa_and_circus"
+  },
+  {
+   "id": "mausoleum_of_romulus_v1",
+   "monument": "mausoleum_of_romulus",
+   "name": "Mausoleum of Romulus (Valerius Romulus)",
+   "from": 309,
+   "to": 9999,
+   "begun": 307,
+   "builder": "maxentius",
+   "template": "centralplan",
+   "loc": [
+    12.518465,
+    41.85513
+   ],
+   "rot": 222,
+   "w": 33.0,
+   "l": 45.0,
+   "h": 24.0,
+   "params": {
+    "diameter": 33,
+    "drumH": 16,
+    "domeH": 8,
+    "sides": 0,
+    "oculus": 0,
+    "portico": {
+     "front": 6,
+     "side": 2,
+     "colH": 9,
+     "w": 33,
+     "l": 12
+    },
+    "crypt": true,
+    "quadriporticus": {
+     "w": 107,
+     "l": 121,
+     "h": 6
+    },
+    "mat": {
+     "drum": "brick",
+     "dome": "concrete",
+     "portico": "marble_white"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "Rotunda with a pronaos like a small Pantheon, inside a quadriporticus 107 x 121 m fronting the Via Appia, probably built by Maxentius for his son Valerius Romulus, who died in 309. The circular crypt with a central pier survives below a later farmhouse.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "1138"
+    }
+   ],
+   "scholarship": [
+    "Pisani Sartorio and Calza (1976)",
+    "Johnson, The Roman Imperial Mausoleum in Late Antiquity (2009) 86-93"
+   ],
+   "note": "Centre from OSM (Mausoleo di Romolo). The complex lies NE of the Via Appia and faces it (SW, rot 222)."
+  },
+  {
+   "id": "villa_of_maxentius_palace_v1",
+   "monument": "villa_of_maxentius",
+   "name": "Palace of the Villa of Maxentius",
+   "from": 309,
+   "to": 9999,
+   "begun": 306,
+   "builder": "maxentius",
+   "template": "compound",
+   "loc": [
+    12.5213,
+    41.8562
+   ],
+   "rot": 183,
+   "w": 120.0,
+   "l": 90.0,
+   "h": 16.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 10,
+      "w": 33,
+      "l": 20,
+      "h": 16,
+      "mat": "brick"
+     },
+     {
+      "shape": "apse",
+      "x": 0,
+      "y": -2,
+      "w": 14,
+      "l": 7,
+      "h": 14,
+      "mat": "brick"
+     },
+     {
+      "shape": "court",
+      "x": -40,
+      "y": 0,
+      "w": 40,
+      "l": 60,
+      "h": 8,
+      "ringDepth": 8,
+      "mat": "brick"
+     },
+     {
+      "shape": "colonnade",
+      "x": 20,
+      "y": -40,
+      "w": 115,
+      "l": 6,
+      "h": 7,
+      "mat": "brick"
+     }
+    ]
+   },
+   "ruin": {
+    "from": 400,
+    "state": "roofless"
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "Maxentius rebuilt an older villa on the hill north of the circus as a residence with an apsed audience hall (aula) and a long portico linking it to the imperial box of the circus.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Pisani Sartorio and Calza (1976)",
+    "De Franceschini, Ville dell'Agro Romano (2005)"
+   ],
+   "note": "Position and layout approximate from published plans; the villa occupies the rise between the circus and the Via Appia Pignatelli."
+  },
+  {
+   "id": "tomb_of_priscilla_v1",
+   "monument": "tomb_of_priscilla",
+   "name": "Tomb of Priscilla",
+   "from": 90,
+   "to": 9999,
+   "builder": null,
+   "template": "mausoleum",
+   "loc": [
+    12.5142,
+    41.8658
+   ],
+   "rot": 50,
+   "w": 24.0,
+   "l": 24.0,
+   "h": 16.0,
+   "params": {
+    "diameter": 20,
+    "drumH": 8,
+    "tumulusH": 3,
+    "base": {
+     "w": 24,
+     "h": 5
+    },
+    "statue": false,
+    "mat": {
+     "drum": "travertine",
+     "core": "concrete"
+    }
+   },
+   "importance": 2,
+   "certainty": "reconstructed",
+   "summary": "Drum tomb on a square base built by Domitian's freedman T. Flavius Abascantus for his wife Priscilla, near the fork of the Via Appia and Via Ardeatina; Statius describes its statues of the deceased as Ceres, Ariadne, Maia and Venus.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Statius",
+     "w": "Silvae",
+     "r": "5.1.222-246"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 357"
+   ],
+   "note": "Coordinates approximate (Via Appia at the Quo Vadis fork); not matched in OSM. Inside the model bbox, so included although the brief marked it as possibly out of range."
+  }
+ ]
+}

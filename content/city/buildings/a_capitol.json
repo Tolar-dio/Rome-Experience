@@ -1,0 +1,1888 @@
+{
+ "buildings": [
+  {
+   "id": "temple_jupiter_om_v1",
+   "monument": "temple_of_jupiter_optimus_maximus",
+   "name": "Temple of Jupiter Optimus Maximus (archaic)",
+   "from": -509,
+   "to": -83,
+   "begun": -535,
+   "builder": "tarquinius_superbus",
+   "template": "temple",
+   "loc": [
+    12.48195,
+    41.89235
+   ],
+   "rot": 154,
+   "w": 53.5,
+   "l": 62.3,
+   "h": 31.0,
+   "params": {
+    "order": "tuscan",
+    "plan": "tuscan_alae",
+    "front": 6,
+    "side": 6,
+    "podium": 4.0,
+    "colH": 14.0,
+    "steps": "front",
+    "cella": {
+     "w": 40,
+     "l": 28
+    },
+    "quadriga": true,
+    "acroteria": true,
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "mudbrick",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 5,
+   "certainty": "reconstructed",
+   "summary": "The great Etruscan-plan temple of the Capitoline Triad, vowed by Tarquinius Priscus, built by Tarquinius Superbus and dedicated by the consul M. Horatius Pulvillus on 13 September 509 BC. The largest temple of its age in Italy: a cappellaccio podium about 53 x 62 m carrying a deep porch of three rows of six widely spaced tufa columns, three cellae (Jupiter in the wider central one, flanked by Juno and Minerva) and a timber superstructure clad in painted terracottas by Vulca of Veii, crowned by a terracotta quadriga (bronze from 296 BC).",
+   "phases": [
+    {
+     "y": -509,
+     "t": "dedicated by M. Horatius Pulvillus on the Ides of September"
+    },
+    {
+     "y": -390,
+     "t": "survives the Gallic sack while the Capitol holds out"
+    },
+    {
+     "y": -296,
+     "t": "the Ogulnii replace the terracotta quadriga with bronze"
+    },
+    {
+     "y": -179,
+     "t": "columns and walls whitened with stucco by the censors"
+    },
+    {
+     "y": -83,
+     "t": "burns on 6 July with the Sibylline Books"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "1.38.7"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "1.55-56"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "2.8.6-8"
+    },
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Antiquitates Romanae",
+     "r": "4.61"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Historiae",
+     "r": "3.72"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis historia",
+     "r": "36.45"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis historia",
+     "r": "33.57"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Vespasianus",
+     "r": "8.5"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Domitianus",
+     "r": "5"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis historia",
+     "r": "35.157"
+    }
+   ],
+   "scholarship": [
+    "Platner and Ashby, A Topographical Dictionary of Ancient Rome (1929) 297-302",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 221-224",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) III s.v. Iuppiter O.M. Capitolinus (De Angeli; Mura Sommella)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2nd ed. 2014)",
+    "Haselberger et al., Mapping Augustan Rome (2002) / Digital Augustan Rome",
+    "Mura Sommella, in Bullettino Comunale 101 (2000)"
+   ],
+   "note": "Centre and bearing derived from the excavated podium: the east flank exposed in the Esedra di Marco Aurelio (c. 12.48226, 41.89268) and the SE corner visible in Via del Tempio di Giove (c. 12.48253, 41.89223) give a flank bearing of c. 156; Platner-Ashby give the axis as 26.5 deg east of N-S, fronting south, i.e. a facade bearing of c. 154. Wikipedia's point (12.48167, 41.89222) lies c. 25 m WSW of this centre and probably marks the museum area. Podium 53.5 x 62.25 m (Mura Sommella); Etruscan plan with triple cella and three rows of six columns in the pronaos, colonnades down the flanks, blind rear wall."
+  },
+  {
+   "id": "temple_jupiter_om_v2",
+   "monument": "temple_of_jupiter_optimus_maximus",
+   "name": "Temple of Jupiter Optimus Maximus (Sullan-Catulan)",
+   "from": -69,
+   "to": 69,
+   "begun": -82,
+   "builder": "sulla",
+   "template": "temple",
+   "loc": [
+    12.48195,
+    41.89235
+   ],
+   "rot": 154,
+   "w": 53.5,
+   "l": 62.3,
+   "h": 35.0,
+   "params": {
+    "order": "corinthian",
+    "plan": "tuscan_alae",
+    "front": 6,
+    "side": 6,
+    "podium": 4.0,
+    "colH": 16.0,
+    "steps": "front",
+    "quadriga": true,
+    "acroteria": true,
+    "mat": {
+     "podium": "tufa",
+     "columns": "marble_white",
+     "walls": "stucco",
+     "roof": "gilded"
+    }
+   },
+   "importance": 5,
+   "certainty": "reconstructed",
+   "summary": "Rebuilt on the archaic foundations after the fire of 83 BC: Sulla began it, using marble column elements brought from the Olympieion at Athens, and Q. Lutatius Catulus dedicated it in 69 BC with gilded bronze roof tiles. Augustus restored it at great expense. It burned when the Vitellians stormed the Capitol in December 69.",
+   "phases": [
+    {
+     "y": -82,
+     "t": "Sulla begins reconstruction"
+    },
+    {
+     "y": -69,
+     "t": "dedicated by Q. Lutatius Catulus"
+    },
+    {
+     "y": -26,
+     "t": "Augustan restoration (RG 20)"
+    },
+    {
+     "y": 69,
+     "t": "burned on 19 December in the fighting between Vitellians and Flavians"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "1.38.7"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "1.55-56"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "2.8.6-8"
+    },
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Antiquitates Romanae",
+     "r": "4.61"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Historiae",
+     "r": "3.72"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis historia",
+     "r": "36.45"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis historia",
+     "r": "33.57"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Vespasianus",
+     "r": "8.5"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Domitianus",
+     "r": "5"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis historia",
+     "r": "35.157"
+    },
+    {
+     "a": "Augustus",
+     "w": "Res Gestae",
+     "r": "20.1"
+    }
+   ],
+   "scholarship": [
+    "Platner and Ashby, A Topographical Dictionary of Ancient Rome (1929) 297-302",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 221-224",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) III s.v. Iuppiter O.M. Capitolinus (De Angeli; Mura Sommella)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2nd ed. 2014)",
+    "Haselberger et al., Mapping Augustan Rome (2002) / Digital Augustan Rome",
+    "Mura Sommella, in Bullettino Comunale 101 (2000)"
+   ],
+   "note": "Centre and bearing derived from the excavated podium: the east flank exposed in the Esedra di Marco Aurelio (c. 12.48226, 41.89268) and the SE corner visible in Via del Tempio di Giove (c. 12.48253, 41.89223) give a flank bearing of c. 156; Platner-Ashby give the axis as 26.5 deg east of N-S, fronting south, i.e. a facade bearing of c. 154. Wikipedia's point (12.48167, 41.89222) lies c. 25 m WSW of this centre and probably marks the museum area. Podium 53.5 x 62.25 m (Mura Sommella); Etruscan plan with triple cella and three rows of six columns in the pronaos, colonnades down the flanks, blind rear wall. Catulus is catulus_cos78 in the people index; builder set to Sulla who began the work."
+  },
+  {
+   "id": "temple_jupiter_om_v3",
+   "monument": "temple_of_jupiter_optimus_maximus",
+   "name": "Temple of Jupiter Optimus Maximus (Vespasianic)",
+   "from": 75,
+   "to": 80,
+   "begun": 70,
+   "builder": "vespasian",
+   "template": "temple",
+   "loc": [
+    12.48195,
+    41.89235
+   ],
+   "rot": 154,
+   "w": 53.5,
+   "l": 62.3,
+   "h": 37.0,
+   "params": {
+    "order": "corinthian",
+    "plan": "tuscan_alae",
+    "front": 6,
+    "side": 6,
+    "podium": 4.0,
+    "colH": 17.0,
+    "steps": "front",
+    "quadriga": true,
+    "acroteria": true,
+    "mat": {
+     "podium": "tufa",
+     "columns": "marble_white",
+     "walls": "marble_white",
+     "roof": "gilded"
+    }
+   },
+   "importance": 5,
+   "certainty": "reconstructed",
+   "summary": "Vespasian cleared the ruins himself, carrying the first basket of rubble, and rebuilt the temple on the same plan but taller, the only change the haruspices allowed. It stood only a few years before the fire of 80 under Titus.",
+   "phases": [
+    {
+     "y": 70,
+     "t": "lustration of the site on 21 June"
+    },
+    {
+     "y": 80,
+     "t": "destroyed in the three-day fire under Titus"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "1.38.7"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "1.55-56"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "2.8.6-8"
+    },
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Antiquitates Romanae",
+     "r": "4.61"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Historiae",
+     "r": "3.72"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis historia",
+     "r": "36.45"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis historia",
+     "r": "33.57"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Vespasianus",
+     "r": "8.5"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Domitianus",
+     "r": "5"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis historia",
+     "r": "35.157"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Historiae",
+     "r": "4.53"
+    }
+   ],
+   "scholarship": [
+    "Platner and Ashby, A Topographical Dictionary of Ancient Rome (1929) 297-302",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 221-224",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) III s.v. Iuppiter O.M. Capitolinus (De Angeli; Mura Sommella)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2nd ed. 2014)",
+    "Haselberger et al., Mapping Augustan Rome (2002) / Digital Augustan Rome",
+    "Mura Sommella, in Bullettino Comunale 101 (2000)"
+   ],
+   "note": "Centre and bearing derived from the excavated podium: the east flank exposed in the Esedra di Marco Aurelio (c. 12.48226, 41.89268) and the SE corner visible in Via del Tempio di Giove (c. 12.48253, 41.89223) give a flank bearing of c. 156; Platner-Ashby give the axis as 26.5 deg east of N-S, fronting south, i.e. a facade bearing of c. 154. Wikipedia's point (12.48167, 41.89222) lies c. 25 m WSW of this centre and probably marks the museum area. Podium 53.5 x 62.25 m (Mura Sommella); Etruscan plan with triple cella and three rows of six columns in the pronaos, colonnades down the flanks, blind rear wall."
+  },
+  {
+   "id": "temple_jupiter_om_v4",
+   "monument": "temple_of_jupiter_optimus_maximus",
+   "name": "Temple of Jupiter Optimus Maximus (Domitianic)",
+   "from": 82,
+   "to": 9999,
+   "begun": 80,
+   "builder": "domitian",
+   "template": "temple",
+   "loc": [
+    12.48195,
+    41.89235
+   ],
+   "rot": 154,
+   "w": 53.5,
+   "l": 62.3,
+   "h": 40.0,
+   "params": {
+    "order": "corinthian",
+    "plan": "tuscan_alae",
+    "front": 6,
+    "side": 6,
+    "podium": 4.0,
+    "colH": 20.0,
+    "steps": "front",
+    "quadriga": true,
+    "acroteria": true,
+    "mat": {
+     "podium": "tufa",
+     "columns": "marble_white",
+     "walls": "marble_white",
+     "roof": "gilded"
+    }
+   },
+   "ruin": {
+    "from": 455,
+    "state": "half"
+   },
+   "importance": 5,
+   "certainty": "reconstructed",
+   "summary": "Domitian's rebuilding, said to have cost over 12,000 talents for the gilding alone, with fluted Pentelic marble columns about 2.1 m in diameter (a drum and an Attic base survive), gilded bronze roof tiles and gold-plated doors. Closed after 392; Stilicho stripped gold from the doors, Gaiseric carried off half the gilded tiles in 455, and it decayed into a quarry.",
+   "phases": [
+    {
+     "y": 82,
+     "t": "dedicated by Domitian"
+    },
+    {
+     "y": 392,
+     "t": "pagan cult ends"
+    },
+    {
+     "y": 455,
+     "t": "Vandals remove half the gilded roof tiles"
+    },
+    {
+     "y": 571,
+     "t": "Narses reportedly removes statues"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "1.38.7"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "1.55-56"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "2.8.6-8"
+    },
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Antiquitates Romanae",
+     "r": "4.61"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Historiae",
+     "r": "3.72"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis historia",
+     "r": "36.45"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis historia",
+     "r": "33.57"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Vespasianus",
+     "r": "8.5"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Domitianus",
+     "r": "5"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis historia",
+     "r": "35.157"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis historia",
+     "r": "36.45"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Publicola",
+     "r": "15"
+    },
+    {
+     "a": "Procopius",
+     "w": "De bello Vandalico",
+     "r": "1.5.4"
+    }
+   ],
+   "scholarship": [
+    "Platner and Ashby, A Topographical Dictionary of Ancient Rome (1929) 297-302",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 221-224",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) III s.v. Iuppiter O.M. Capitolinus (De Angeli; Mura Sommella)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2nd ed. 2014)",
+    "Haselberger et al., Mapping Augustan Rome (2002) / Digital Augustan Rome",
+    "Mura Sommella, in Bullettino Comunale 101 (2000)"
+   ],
+   "note": "Centre and bearing derived from the excavated podium: the east flank exposed in the Esedra di Marco Aurelio (c. 12.48226, 41.89268) and the SE corner visible in Via del Tempio di Giove (c. 12.48253, 41.89223) give a flank bearing of c. 156; Platner-Ashby give the axis as 26.5 deg east of N-S, fronting south, i.e. a facade bearing of c. 154. Wikipedia's point (12.48167, 41.89222) lies c. 25 m WSW of this centre and probably marks the museum area. Podium 53.5 x 62.25 m (Mura Sommella); Etruscan plan with triple cella and three rows of six columns in the pronaos, colonnades down the flanks, blind rear wall. Column height from the 2.1 m drum (ratio c. 1:9.5)."
+  },
+  {
+   "id": "area_capitolina_v1",
+   "monument": "area_capitolina",
+   "name": "Area Capitolina (archaic precinct)",
+   "from": -509,
+   "to": -389,
+   "builder": null,
+   "template": "forum",
+   "loc": [
+    12.482013,
+    41.892252
+   ],
+   "rot": 154,
+   "w": 100,
+   "l": 112,
+   "h": 4.0,
+   "footprint": [
+    [
+     12.482259,
+     41.892905
+    ],
+    [
+     12.481174,
+     41.892509
+    ],
+    [
+     12.481767,
+     41.891599
+    ],
+    [
+     12.482852,
+     41.891995
+    ],
+    [
+     12.482259,
+     41.892905
+    ]
+   ],
+   "params": {
+    "wallH": 2.5,
+    "colonnades": 0,
+    "exedrae": null,
+    "paving": "tufa"
+   },
+   "importance": 3,
+   "certainty": "conjectural",
+   "summary": "The leveled summit precinct in front of the Capitoline temple, enclosed by a temenos wall whose foundation runs parallel to the temple rear.",
+   "phases": [
+    {
+     "y": -509,
+     "t": "leveling and terracing of the Capitolium"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "6.4.12"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "25.3.14"
+    },
+    {
+     "a": "Aulus Gellius",
+     "w": "Noctes Atticae",
+     "r": "2.10.2"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 31",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) I s.v. Area Capitolina",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2nd ed. 2014)"
+   ],
+   "note": "Precinct drawn as a 100 x 112 m rectangle on the temple axis, from the rear temenos foundation to the brow of the Tarpeian cliff; the real outline followed the hilltop and is not known."
+  },
+  {
+   "id": "area_capitolina_v2",
+   "monument": "area_capitolina",
+   "name": "Area Capitolina (Republican precinct)",
+   "from": -388,
+   "to": -70,
+   "builder": null,
+   "template": "forum",
+   "loc": [
+    12.482013,
+    41.892252
+   ],
+   "rot": 154,
+   "w": 100,
+   "l": 112,
+   "h": 4.0,
+   "footprint": [
+    [
+     12.482259,
+     41.892905
+    ],
+    [
+     12.481174,
+     41.892509
+    ],
+    [
+     12.481767,
+     41.891599
+    ],
+    [
+     12.482852,
+     41.891995
+    ],
+    [
+     12.482259,
+     41.892905
+    ]
+   ],
+   "params": {
+    "wallH": 4.0,
+    "colonnades": 0,
+    "exedrae": null,
+    "paving": "tufa"
+   },
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "After the Gallic sack the Capitol was walled with massive squared-stone substructures (Livy 6.4.12) and the area filled with temples, altars, statues and trophies.",
+   "phases": [
+    {
+     "y": -388,
+     "t": "substructio saxo quadrato"
+    },
+    {
+     "y": -133,
+     "t": "Tiberius Gracchus killed by senators near the temple"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "6.4.12"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "25.3.14"
+    },
+    {
+     "a": "Aulus Gellius",
+     "w": "Noctes Atticae",
+     "r": "2.10.2"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 31",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) I s.v. Area Capitolina",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2nd ed. 2014)"
+   ],
+   "note": "Precinct drawn as a 100 x 112 m rectangle on the temple axis, from the rear temenos foundation to the brow of the Tarpeian cliff; the real outline followed the hilltop and is not known."
+  },
+  {
+   "id": "area_capitolina_v3",
+   "monument": "area_capitolina",
+   "name": "Area Capitolina (imperial precinct)",
+   "from": -69,
+   "to": 9999,
+   "builder": null,
+   "template": "forum",
+   "loc": [
+    12.482013,
+    41.892252
+   ],
+   "rot": 154,
+   "w": 100,
+   "l": 112,
+   "h": 4.0,
+   "footprint": [
+    [
+     12.482259,
+     41.892905
+    ],
+    [
+     12.481174,
+     41.892509
+    ],
+    [
+     12.481767,
+     41.891599
+    ],
+    [
+     12.482852,
+     41.891995
+    ],
+    [
+     12.482259,
+     41.892905
+    ]
+   ],
+   "params": {
+    "wallH": 4.0,
+    "colonnades": 0,
+    "exedrae": null,
+    "paving": "paving_travertine"
+   },
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "The Sullan-Catulan reconstruction re-laid the precinct; under the Empire it was crowded with dedications and dynastic statues. Abandoned after the 4th century.",
+   "phases": [
+    {
+     "y": -69,
+     "t": "re-dedication with the temple"
+    },
+    {
+     "y": 69,
+     "t": "scene of the Vitellian assault"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "6.4.12"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "25.3.14"
+    },
+    {
+     "a": "Aulus Gellius",
+     "w": "Noctes Atticae",
+     "r": "2.10.2"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 31",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) I s.v. Area Capitolina",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2nd ed. 2014)"
+   ],
+   "note": "Precinct drawn as a 100 x 112 m rectangle on the temple axis, from the rear temenos foundation to the brow of the Tarpeian cliff; the real outline followed the hilltop and is not known."
+  },
+  {
+   "id": "casa_romuli_capitol",
+   "monument": "casa_romuli_capitol",
+   "name": "Hut of Romulus on the Capitol",
+   "from": -509,
+   "to": 400,
+   "builder": null,
+   "template": "hut",
+   "loc": [
+    12.48185,
+    41.89198
+   ],
+   "rot": 154,
+   "w": 5.0,
+   "l": 4.0,
+   "h": 4.5,
+   "params": {
+    "diameter": 5.0,
+    "mat": {
+     "walls": "mudbrick",
+     "roof": "thatch"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "A thatched hut kept and renewed on the Capitol as a relic of Romulus, a twin of the better known Casa Romuli on the Palatine.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Vitruvius",
+     "w": "De architectura",
+     "r": "2.1.5"
+    },
+    {
+     "a": "Seneca the Elder",
+     "w": "Controversiae",
+     "r": "2.1.5"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 74"
+   ],
+   "note": "Exact site unknown; placed in the Area Capitolina SW of the temple."
+  },
+  {
+   "id": "temple_juno_moneta_v1",
+   "monument": "temple_of_juno_moneta",
+   "name": "Temple of Juno Moneta",
+   "from": -344,
+   "to": 9999,
+   "begun": -345,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.48322,
+    41.89387
+   ],
+   "rot": 200,
+   "w": 20.0,
+   "l": 32.0,
+   "h": 17.4,
+   "params": {
+    "order": "tuscan",
+    "plan": "prostyle",
+    "front": 4,
+    "side": 3,
+    "podium": 3.5,
+    "colH": 9.0,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 4,
+   "certainty": "conjectural",
+   "summary": "Vowed by L. Furius Camillus against the Aurunci in 345 BC and dedicated on 1 June 344 on the Arx, on the traditional site of the house of M. Manlius Capitolinus. The Roman mint was set up beside it in 269 BC, so that 'moneta' came to mean money.",
+   "phases": [
+    {
+     "y": -344,
+     "t": "dedicated 1 June"
+    },
+    {
+     "y": -269,
+     "t": "silver coinage minted in the adjoining workshops"
+    },
+    {
+     "y": -173,
+     "t": "roof damaged by a storm"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "7.28.4-6"
+    },
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "6.183-186"
+    },
+    {
+     "a": "Cicero",
+     "w": "De divinatione",
+     "r": "1.101"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 215",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) III s.v. Iuno Moneta (Giannelli)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2nd ed. 2014)",
+    "Tucci, in Papers of the British School at Rome (2005)"
+   ],
+   "note": "Remains under the Aracoeli garden and the Vittoriano are fragmentary and disputed; size and orientation estimated for a mid-4th c. Tuscan temple facing the Asylum saddle."
+  },
+  {
+   "id": "moneta_mint_capitol",
+   "monument": "moneta_mint_capitol",
+   "name": "Mint at the Temple of Juno Moneta",
+   "from": -269,
+   "to": 80,
+   "builder": null,
+   "template": "compound",
+   "loc": [
+    12.48342,
+    41.89372
+   ],
+   "rot": 200,
+   "w": 24.0,
+   "l": 18.0,
+   "h": 8.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "court",
+      "x": 0,
+      "y": 0,
+      "w": 24,
+      "l": 18,
+      "h": 7,
+      "ringDepth": 5,
+      "mat": "tufa"
+     }
+    ]
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Workshops of the Republican mint beside the temple of Juno Moneta; the mint moved to the Caelian (Moneta Caesaris) under the Flavians.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "6.20.13"
+    },
+    {
+     "a": "Suda",
+     "w": "s.v. Moneta"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 260",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2nd ed. 2014)"
+   ],
+   "note": "Location only broadly implied by the sources."
+  },
+  {
+   "id": "auguraculum_arx",
+   "monument": "auguraculum_arx",
+   "name": "Auguraculum on the Arx",
+   "from": -509,
+   "to": 9999,
+   "builder": null,
+   "template": "altar",
+   "loc": [
+    12.48342,
+    41.8942
+   ],
+   "rot": 180,
+   "w": 10.0,
+   "l": 10.0,
+   "h": 1.5,
+   "params": {
+    "enclosure": {
+     "w": 10,
+     "l": 10,
+     "h": 1.2
+    },
+    "altar": {
+     "w": 1.5,
+     "l": 1.5,
+     "h": 1.0
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "The augurs' observation post on the northern summit of the Capitol, a consecrated open square from which they watched the birds over the Campus Martius and the Quirinal.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Festus",
+     "w": "De verborum significatu",
+     "r": "s.v. auguraculum"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "1.18.6"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 46",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2nd ed. 2014)"
+   ],
+   "note": "Conjectural position on the Arx summit near the Aracoeli."
+  },
+  {
+   "id": "asylum_v1",
+   "monument": "asylum",
+   "name": "Asylum (grove between the two summits)",
+   "from": -509,
+   "to": -79,
+   "builder": null,
+   "template": "garden",
+   "loc": [
+    12.48297,
+    41.89328
+   ],
+   "rot": 124,
+   "w": 70.0,
+   "l": 75.0,
+   "h": 10.0,
+   "footprint": [
+    [
+     12.482831,
+     41.893732
+    ],
+    [
+     12.482359,
+     41.893207
+    ],
+    [
+     12.483109,
+     41.892828
+    ],
+    [
+     12.483581,
+     41.893353
+    ],
+    [
+     12.482831,
+     41.893732
+    ]
+   ],
+   "params": {
+    "trees": 1.5,
+    "kind": "grove"
+   },
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "The saddle between Arx and Capitolium, 'inter duos lucos', where Romulus was said to have opened an asylum for fugitives to people his city. A sacred grove covered it through the Republic.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "1.8.5-6"
+    },
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Antiquitates Romanae",
+     "r": "2.15.4"
+    },
+    {
+     "a": "Vergil",
+     "w": "Aeneid",
+     "r": "8.342"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 40",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2nd ed. 2014)"
+   ],
+   "note": "Area of the modern Piazza del Campidoglio."
+  },
+  {
+   "id": "asylum_v2",
+   "monument": "asylum",
+   "name": "Asylum (grove after the Tabularium)",
+   "from": -78,
+   "to": 9999,
+   "builder": null,
+   "template": "garden",
+   "loc": [
+    12.48297,
+    41.89328
+   ],
+   "rot": 124,
+   "w": 60.0,
+   "l": 55.0,
+   "h": 9.0,
+   "footprint": [
+    [
+     12.482817,
+     41.893684
+    ],
+    [
+     12.482412,
+     41.893234
+    ],
+    [
+     12.482963,
+     41.892956
+    ],
+    [
+     12.483368,
+     41.893406
+    ],
+    [
+     12.482817,
+     41.893684
+    ]
+   ],
+   "params": {
+    "trees": 0.6,
+    "kind": "grove"
+   },
+   "importance": 2,
+   "certainty": "reconstructed",
+   "summary": "After the Tabularium closed the saddle on the Forum side the grove survived as a smaller sacred area around the temple of Veiovis.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "1.8.5-6"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 40"
+   ],
+   "note": ""
+  },
+  {
+   "id": "tabularium_v1",
+   "monument": "tabularium",
+   "name": "Tabularium",
+   "from": -78,
+   "to": 9999,
+   "begun": -80,
+   "builder": "catulus_cos78",
+   "template": "platform",
+   "loc": [
+    12.483629,
+    41.892918
+   ],
+   "rot": 123.7,
+   "w": 72.0,
+   "l": 44.0,
+   "h": 20.0,
+   "params": {
+    "facade": "arcade",
+    "mat": {
+     "walls": "peperino",
+     "columns": "travertine"
+    }
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "The great substructure building closing the Forum at the foot of the Capitol, built by Q. Lutatius Catulus in 78 BC after the fire of 83: a sheer peperino and tufa wall with small windows supporting an arcaded gallery framed by Doric half-columns, with a lost upper storey. Long identified as the state record office; it more likely carried a monumental passage between Arx and Capitolium.",
+   "phases": [
+    {
+     "y": -78,
+     "t": "inscription of Catulus (CIL VI 1314)"
+    },
+    {
+     "y": 1143,
+     "t": "later becomes the base of the Palazzo Senatorio"
+    }
+   ],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "1313-1314"
+    },
+    {
+     "a": "Polybius",
+     "w": "Histories",
+     "r": "3.26.1"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 376-377",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) V s.v. Tabularium (Purcell)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2nd ed. 2014)",
+    "Tucci, in JRA (2005)"
+   ],
+   "note": "Centre and bearing from the OSM outline of Palazzo Senatorio, which stands on the Tabularium (front toward the Forum = 124). Facade c. 72 m long; height above the Forum-side ground to the gallery top estimated at 20 m."
+  },
+  {
+   "id": "temple_veiovis_v1",
+   "monument": "temple_of_veiovis",
+   "name": "Temple of Veiovis (first)",
+   "from": -192,
+   "to": -79,
+   "begun": -196,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.48335,
+    41.89303
+   ],
+   "rot": 304,
+   "w": 11.0,
+   "l": 16.0,
+   "h": 12.1,
+   "params": {
+    "order": "tuscan",
+    "plan": "prostyle",
+    "front": 4,
+    "side": 2,
+    "podium": 2.5,
+    "colH": 6.5,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "Vowed by L. Furius Purpurio at the battle of Cremona in 200/198 BC and dedicated in 192 'inter duos lucos', the god's second temple in Rome after the one on the Tiber island.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "31.21.12"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "35.41.8"
+    },
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "3.429-430"
+    },
+    {
+     "a": "Vitruvius",
+     "w": "De architectura",
+     "r": "4.8.4"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 406",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) V s.v. Veiovis (Albertoni)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2nd ed. 2014)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": "Remains of the first phase under the later temple; form estimated."
+  },
+  {
+   "id": "temple_veiovis_v2",
+   "monument": "temple_of_veiovis",
+   "name": "Temple of Veiovis (Sullan)",
+   "from": -78,
+   "to": 80,
+   "begun": -80,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.48335,
+    41.89303
+   ],
+   "rot": 304,
+   "w": 15.0,
+   "l": 15.0,
+   "h": 13.3,
+   "params": {
+    "order": "corinthian",
+    "plan": "prostyle",
+    "front": 4,
+    "side": 2,
+    "podium": 2.6,
+    "colH": 7.0,
+    "steps": "lateral",
+    "cella": {
+     "w": 15,
+     "l": 9
+    },
+    "mat": {
+     "podium": "tufa",
+     "columns": "travertine",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "Rebuilt with the Tabularium after 83 BC with a transverse cella about 15 x 9 m and a narrow tetrastyle porch, a plan forced by the cramped site; the cult statue of Veiovis was found in the cella.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "31.21.12"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "35.41.8"
+    },
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "3.429-430"
+    },
+    {
+     "a": "Vitruvius",
+     "w": "De architectura",
+     "r": "4.8.4"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 406",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) V s.v. Veiovis (Albertoni)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2nd ed. 2014)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": "Under the NW part of Palazzo Senatorio, facing the Piazza (Asylum). Transverse plan as at the temple of Concord."
+  },
+  {
+   "id": "temple_veiovis_v3",
+   "monument": "temple_of_veiovis",
+   "name": "Temple of Veiovis (Domitianic)",
+   "from": 81,
+   "to": 9999,
+   "begun": 80,
+   "builder": "domitian",
+   "template": "temple",
+   "loc": [
+    12.48335,
+    41.89303
+   ],
+   "rot": 304,
+   "w": 15.0,
+   "l": 15.0,
+   "h": 13.3,
+   "params": {
+    "order": "corinthian",
+    "plan": "prostyle",
+    "front": 4,
+    "side": 2,
+    "podium": 2.6,
+    "colH": 7.0,
+    "steps": "lateral",
+    "cella": {
+     "w": 15,
+     "l": 9
+    },
+    "mat": {
+     "podium": "concrete_faced",
+     "columns": "marble_white",
+     "walls": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "Restored after the fire of 80, with marble revetment and a new floor.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "31.21.12"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "35.41.8"
+    },
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "3.429-430"
+    },
+    {
+     "a": "Vitruvius",
+     "w": "De architectura",
+     "r": "4.8.4"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 406",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) V s.v. Veiovis (Albertoni)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2nd ed. 2014)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": ""
+  },
+  {
+   "id": "temple_fides_v1",
+   "monument": "temple_of_fides",
+   "name": "Temple of Fides (first)",
+   "from": -254,
+   "to": -116,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.4826,
+    41.89223
+   ],
+   "rot": 244,
+   "w": 14.0,
+   "l": 24.0,
+   "h": 14.8,
+   "params": {
+    "order": "tuscan",
+    "plan": "prostyle",
+    "front": 4,
+    "side": 3,
+    "podium": 3.0,
+    "colH": 8.0,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "conjectural",
+   "summary": "Temple of Good Faith dedicated by A. Atilius Calatinus during the First Punic War next to the Capitoline temple; treaties and diplomatic bronzes were posted on its walls and the Senate sometimes met there.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Cicero",
+     "w": "De natura deorum",
+     "r": "2.61"
+    },
+    {
+     "a": "Appian",
+     "w": "Bella civilia",
+     "r": "1.16"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 151",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) II s.v. Fides (Reusser)"
+   ],
+   "note": "Position in the east part of the Area Capitolina conjectural."
+  },
+  {
+   "id": "temple_fides_v2",
+   "monument": "temple_of_fides",
+   "name": "Temple of Fides (Scaurus)",
+   "from": -115,
+   "to": 9999,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.4826,
+    41.89223
+   ],
+   "rot": 244,
+   "w": 16.0,
+   "l": 27.0,
+   "h": 17.0,
+   "params": {
+    "order": "corinthian",
+    "plan": "prostyle",
+    "front": 6,
+    "side": 3,
+    "podium": 3.0,
+    "colH": 9.5,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "travertine",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "conjectural",
+   "summary": "Rebuilt by M. Aemilius Scaurus in 115 BC; architectural fragments found in the Area Capitolina have been attributed to it.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Cicero",
+     "w": "De natura deorum",
+     "r": "2.61"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 151",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) II s.v. Fides"
+   ],
+   "note": ""
+  },
+  {
+   "id": "temple_jupiter_feretrius_v1",
+   "monument": "temple_of_jupiter_feretrius",
+   "name": "Temple of Jupiter Feretrius (archaic)",
+   "from": -509,
+   "to": -32,
+   "builder": "romulus",
+   "template": "temple",
+   "loc": [
+    12.4815,
+    41.89242
+   ],
+   "rot": 154,
+   "w": 3.5,
+   "l": 4.5,
+   "h": 4.5,
+   "params": {
+    "order": "tuscan",
+    "plan": "in_antis",
+    "front": 2,
+    "side": 1,
+    "podium": 0.8,
+    "colH": 2.6,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "timber",
+     "walls": "mudbrick",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "conjectural",
+   "summary": "The oldest shrine on the Capitol, said to have been founded by Romulus to house the spolia opima; Dionysius says its longer sides were under 15 feet.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "1.10.5-7"
+    },
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Antiquitates Romanae",
+     "r": "2.34.4"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Romulus",
+     "r": "16"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 219",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) III s.v. Iuppiter Feretrius"
+   ],
+   "note": "Site unknown; placed W of the Capitoline temple."
+  },
+  {
+   "id": "temple_jupiter_feretrius_v2",
+   "monument": "temple_of_jupiter_feretrius",
+   "name": "Temple of Jupiter Feretrius (Augustan)",
+   "from": -31,
+   "to": 9999,
+   "builder": "augustus",
+   "template": "temple",
+   "loc": [
+    12.4815,
+    41.89242
+   ],
+   "rot": 154,
+   "w": 5.0,
+   "l": 7.0,
+   "h": 6.5,
+   "params": {
+    "order": "tuscan",
+    "plan": "prostyle",
+    "front": 4,
+    "side": 1,
+    "podium": 1.2,
+    "colH": 3.6,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Restored by Octavian at Atticus' suggestion when roofless and falling down; a denarius of 50 BC shows it as a tetrastyle shrine.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Augustus",
+     "w": "Res Gestae",
+     "r": "19"
+    },
+    {
+     "a": "Cornelius Nepos",
+     "w": "Atticus",
+     "r": "20.3"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "4.20.7"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 219"
+   ],
+   "note": ""
+  },
+  {
+   "id": "temple_jupiter_tonans",
+   "monument": "temple_of_jupiter_tonans",
+   "name": "Temple of Jupiter Tonans",
+   "from": -22,
+   "to": 9999,
+   "begun": -26,
+   "builder": "augustus",
+   "template": "temple",
+   "loc": [
+    12.4827,
+    41.892
+   ],
+   "rot": 64,
+   "w": 12.0,
+   "l": 20.0,
+   "h": 17.1,
+   "params": {
+    "order": "corinthian",
+    "plan": "prostyle",
+    "front": 6,
+    "side": 2,
+    "podium": 3.0,
+    "colH": 10.0,
+    "steps": "front",
+    "mat": {
+     "podium": "concrete_faced",
+     "columns": "marble_white",
+     "walls": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "conjectural",
+   "summary": "Vowed by Augustus after lightning killed a slave in front of his litter in Cantabria and dedicated on 1 September 22 BC at the entrance to the Capitoline precinct; built of solid marble, it drew crowds away from Jupiter Optimus Maximus.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Augustus",
+     "r": "29.3"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Augustus",
+     "r": "91.2"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "54.4.2-4"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis historia",
+     "r": "36.50"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 226",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) III s.v. Iuppiter Tonans"
+   ],
+   "note": "Placed at the head of the Clivus Capitolinus facing down it; exact site unknown."
+  },
+  {
+   "id": "temple_venus_erycina_capitol",
+   "monument": "temple_of_venus_erycina_capitol",
+   "name": "Temple of Venus Erycina (Capitol)",
+   "from": -215,
+   "to": 9999,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.48168,
+    41.89192
+   ],
+   "rot": 64,
+   "w": 11.0,
+   "l": 18.0,
+   "h": 13.3,
+   "params": {
+    "order": "tuscan",
+    "plan": "prostyle",
+    "front": 4,
+    "side": 2,
+    "podium": 2.5,
+    "colH": 7.5,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Vowed by Q. Fabius Maximus after Trasimene and dedicated in 215 BC on the Capitol, beside the twin temple of Mens, separated from it by a water channel.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "22.10.10"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "23.31.9"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 408"
+   ],
+   "note": "Pair placed in the SW part of the Area Capitolina; positions conjectural."
+  },
+  {
+   "id": "temple_mens_capitol",
+   "monument": "temple_of_mens",
+   "name": "Temple of Mens",
+   "from": -215,
+   "to": 9999,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.48182,
+    41.89185
+   ],
+   "rot": 64,
+   "w": 10.0,
+   "l": 16.0,
+   "h": 12.6,
+   "params": {
+    "order": "tuscan",
+    "plan": "prostyle",
+    "front": 4,
+    "side": 2,
+    "podium": 2.5,
+    "colH": 7.0,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Temple of Right Thinking vowed by T. Otacilius Crassus after Trasimene and dedicated in 215 BC next to Venus Erycina; restored by M. Aemilius Scaurus in 107 BC.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "22.10.10"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "23.31.9"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 250"
+   ],
+   "note": ""
+  },
+  {
+   "id": "temple_ops_capitol",
+   "monument": "temple_of_ops_capitol",
+   "name": "Temple of Ops (Capitol)",
+   "from": -250,
+   "to": 9999,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.48235,
+    41.8926
+   ],
+   "rot": 244,
+   "w": 10.0,
+   "l": 16.0,
+   "h": 12.6,
+   "params": {
+    "order": "tuscan",
+    "plan": "prostyle",
+    "front": 4,
+    "side": 2,
+    "podium": 2.5,
+    "colH": 7.0,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Temple of Ops Opifera near the Capitoline temple, where Caesar kept the state reserve; Antony seized 700 million sesterces from it after the Ides of March.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Cicero",
+     "w": "Philippicae",
+     "r": "1.17"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis historia",
+     "r": "11.174"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 277",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) III s.v. Ops"
+   ],
+   "note": "Foundation date before 186 BC unknown; position conjectural."
+  },
+  {
+   "id": "temple_jupiter_custos",
+   "monument": "temple_of_jupiter_custos",
+   "name": "Temple of Jupiter Custos",
+   "from": 82,
+   "to": 9999,
+   "builder": "domitian",
+   "template": "temple",
+   "loc": [
+    12.4816,
+    41.89275
+   ],
+   "rot": 154,
+   "w": 14.0,
+   "l": 22.0,
+   "h": 17.3,
+   "params": {
+    "order": "corinthian",
+    "plan": "prostyle",
+    "front": 4,
+    "side": 2,
+    "podium": 3.0,
+    "colH": 10.0,
+    "steps": "front",
+    "mat": {
+     "podium": "concrete_faced",
+     "columns": "marble_white",
+     "walls": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Domitian replaced the little shrine of Jupiter Conservator, built on the site of the house of the aedituus where he had hidden in December 69, with a large temple of Jupiter the Guardian showing himself in the god's lap.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Historiae",
+     "r": "3.74"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Domitianus",
+     "r": "5"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 218"
+   ],
+   "note": "Site unknown; placed NW of the Capitoline temple."
+  },
+  {
+   "id": "insula_aracoeli",
+   "monument": "insula_aracoeli",
+   "name": "Insula dell Aracoeli",
+   "from": 125,
+   "to": 9999,
+   "builder": null,
+   "template": "insula",
+   "loc": [
+    12.48223,
+    41.894122
+   ],
+   "rot": 275.5,
+   "w": 32.0,
+   "l": 39.0,
+   "h": 22.0,
+   "params": {
+    "storeys": 6,
+    "shops": true,
+    "mat": {
+     "walls": "brick",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "A Hadrianic apartment block at the foot of the Arx, preserved to its fifth storey against the cliff: shops on the street, mezzanines above and small flats on the upper floors. A rare surviving insula of the imperial city; the church of San Biagio de Mercato was later built into it.",
+   "phases": [
+    {
+     "y": 125,
+     "t": "built (brick stamps)"
+    },
+    {
+     "y": 1100,
+     "t": "church of San Biagio installed on the upper floors"
+    }
+   ],
+   "sources": [],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2nd ed. 2014)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 210"
+   ],
+   "note": "Outline and orientation from the OSM archaeological area; street front assumed toward the west."
+  }
+ ]
+}

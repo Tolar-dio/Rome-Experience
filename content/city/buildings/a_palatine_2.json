@@ -1,0 +1,2212 @@
+{
+ "buildings": [
+  {
+   "id": "domus_flavia",
+   "monument": "domus_flavia",
+   "name": "Domus Flavia (Flavian palace, state wing)",
+   "from": 92,
+   "to": 9999,
+   "begun": 81,
+   "builder": "domitian",
+   "template": "compound",
+   "loc": [
+    12.486603,
+    41.888796
+   ],
+   "rot": 44.6,
+   "w": 100.0,
+   "l": 152.0,
+   "h": 30.0,
+   "footprint": [
+    [
+     12.486339,
+     41.888109
+    ],
+    [
+     12.486207,
+     41.888183
+    ],
+    [
+     12.48618,
+     41.888159
+    ],
+    [
+     12.48613,
+     41.888192
+    ],
+    [
+     12.485892,
+     41.888354
+    ],
+    [
+     12.485897,
+     41.888395
+    ],
+    [
+     12.485665,
+     41.888559
+    ],
+    [
+     12.485754,
+     41.888618
+    ],
+    [
+     12.485722,
+     41.888643
+    ],
+    [
+     12.485992,
+     41.888829
+    ],
+    [
+     12.485899,
+     41.888904
+    ],
+    [
+     12.4864,
+     41.889258
+    ],
+    [
+     12.486422,
+     41.889242
+    ],
+    [
+     12.4868,
+     41.889537
+    ],
+    [
+     12.486936,
+     41.889444
+    ],
+    [
+     12.486961,
+     41.889465
+    ],
+    [
+     12.487016,
+     41.889429
+    ],
+    [
+     12.486989,
+     41.889407
+    ],
+    [
+     12.487149,
+     41.889299
+    ],
+    [
+     12.487176,
+     41.889322
+    ],
+    [
+     12.487248,
+     41.889274
+    ],
+    [
+     12.48731,
+     41.889232
+    ],
+    [
+     12.48728,
+     41.889208
+    ],
+    [
+     12.487414,
+     41.889118
+    ],
+    [
+     12.48744,
+     41.88914
+    ],
+    [
+     12.487494,
+     41.889104
+    ],
+    [
+     12.487472,
+     41.889083
+    ],
+    [
+     12.487523,
+     41.889054
+    ],
+    [
+     12.487492,
+     41.889029
+    ],
+    [
+     12.487519,
+     41.888981
+    ],
+    [
+     12.487398,
+     41.888893
+    ],
+    [
+     12.487326,
+     41.888754
+    ],
+    [
+     12.486989,
+     41.888447
+    ],
+    [
+     12.486749,
+     41.888265
+    ],
+    [
+     12.486586,
+     41.888378
+    ],
+    [
+     12.486622,
+     41.888408
+    ],
+    [
+     12.486532,
+     41.888468
+    ],
+    [
+     12.48638,
+     41.888344
+    ],
+    [
+     12.486518,
+     41.888246
+    ],
+    [
+     12.486339,
+     41.888109
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 52,
+      "w": 30.5,
+      "l": 38.7,
+      "h": 30,
+      "z": 0,
+      "mat": "brick"
+     },
+     {
+      "shape": "apse",
+      "x": -27,
+      "y": 54,
+      "w": 20,
+      "l": 32,
+      "h": 24,
+      "z": 0,
+      "mat": "brick"
+     },
+     {
+      "shape": "box",
+      "x": 24,
+      "y": 58,
+      "w": 13,
+      "l": 28,
+      "h": 18,
+      "z": 0,
+      "mat": "brick"
+     },
+     {
+      "shape": "colonnade",
+      "x": 0,
+      "y": 74,
+      "w": 92,
+      "l": 5,
+      "h": 10,
+      "z": 0,
+      "colH": 9,
+      "mat": "marble_color"
+     },
+     {
+      "shape": "court",
+      "x": 0,
+      "y": 6,
+      "w": 60,
+      "l": 58,
+      "h": 11,
+      "ringDepth": 7,
+      "z": 0,
+      "mat": "brick"
+     },
+     {
+      "shape": "apse",
+      "x": 0,
+      "y": -40,
+      "w": 29,
+      "l": 32,
+      "h": 22,
+      "z": 0,
+      "mat": "brick"
+     },
+     {
+      "shape": "box",
+      "x": -26,
+      "y": -40,
+      "w": 12,
+      "l": 24,
+      "h": 8,
+      "z": 0,
+      "mat": "marble_white"
+     },
+     {
+      "shape": "box",
+      "x": 26,
+      "y": -40,
+      "w": 12,
+      "l": 24,
+      "h": 8,
+      "z": 0,
+      "mat": "marble_white"
+     },
+     {
+      "shape": "terrace",
+      "x": 0,
+      "y": -66,
+      "w": 96,
+      "l": 20,
+      "h": 6,
+      "z": 0,
+      "mat": "brick"
+     }
+    ]
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "The state wing of Domitian's palace by the architect Rabirius, dedicated in 92: a colonnaded front to the Area Palatina with the Aula Regia (about 30.5 x 38.7 m, its walls once some 30 m high) in the centre between the apsed Basilica and the so-called Lararium; behind them a great peristyle with an octagonal maze-fountain, and at the rear the Cenatio Iovis, the vast dining hall with a heated floor flanked by oval nymphaea. Martial thought it touched the stars.",
+   "phases": [
+    {
+     "y": 92,
+     "t": "dedication"
+    },
+    {
+     "y": 193,
+     "t": "Pertinax killed in the palace"
+    },
+    {
+     "y": 500,
+     "t": "Theodoric restores the palace"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Martial",
+     "w": "Epigrammata",
+     "r": "8.36"
+    },
+    {
+     "a": "Statius",
+     "w": "Silvae",
+     "r": "4.2.18-31"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Domitianus",
+     "r": "14.4"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Publicola",
+     "r": "15.5"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 114-117",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) II s.v. Domus Augustana (Wataghin Cantino), Domus Flavia",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Gibson, DeLaine and Claridge, in Papers of the British School at Rome 62 (1994)",
+    "Wulf-Rheidt, in Sojc et al. (eds.), Palast und Stadt im severischen Rom (2013)"
+   ],
+   "note": "Footprint from the OSM outline; front (Aula Regia) faces NE (44.6). Blocks in the local frame follow published plans."
+  },
+  {
+   "id": "domus_augustana",
+   "monument": "domus_augustana",
+   "name": "Domus Augustana (Flavian palace, residential wing)",
+   "from": 92,
+   "to": 9999,
+   "begun": 81,
+   "builder": "domitian",
+   "template": "compound",
+   "loc": [
+    12.487038,
+    41.888063
+   ],
+   "rot": 224.4,
+   "w": 86.0,
+   "l": 224.0,
+   "h": 30.0,
+   "footprint": [
+    [
+     12.486705,
+     41.888126
+    ],
+    [
+     12.486727,
+     41.888109
+    ],
+    [
+     12.486787,
+     41.888187
+    ],
+    [
+     12.48684,
+     41.888202
+    ],
+    [
+     12.486749,
+     41.888265
+    ],
+    [
+     12.486989,
+     41.888447
+    ],
+    [
+     12.487326,
+     41.888754
+    ],
+    [
+     12.487398,
+     41.888893
+    ],
+    [
+     12.487519,
+     41.888981
+    ],
+    [
+     12.487782,
+     41.8889
+    ],
+    [
+     12.48792,
+     41.888833
+    ],
+    [
+     12.488165,
+     41.888477
+    ],
+    [
+     12.486638,
+     41.887199
+    ],
+    [
+     12.486628,
+     41.887214
+    ],
+    [
+     12.486473,
+     41.887087
+    ],
+    [
+     12.486448,
+     41.88708
+    ],
+    [
+     12.486398,
+     41.887118
+    ],
+    [
+     12.486434,
+     41.887135
+    ],
+    [
+     12.486369,
+     41.887276
+    ],
+    [
+     12.486207,
+     41.887436
+    ],
+    [
+     12.48626,
+     41.887471
+    ],
+    [
+     12.486235,
+     41.887486
+    ],
+    [
+     12.486218,
+     41.887469
+    ],
+    [
+     12.486224,
+     41.887495
+    ],
+    [
+     12.486192,
+     41.887461
+    ],
+    [
+     12.48599,
+     41.887555
+    ],
+    [
+     12.486058,
+     41.887628
+    ],
+    [
+     12.486028,
+     41.887647
+    ],
+    [
+     12.485966,
+     41.887613
+    ],
+    [
+     12.485989,
+     41.887658
+    ],
+    [
+     12.485953,
+     41.887669
+    ],
+    [
+     12.485945,
+     41.887622
+    ],
+    [
+     12.485915,
+     41.88763
+    ],
+    [
+     12.485946,
+     41.887682
+    ],
+    [
+     12.485897,
+     41.887693
+    ],
+    [
+     12.485887,
+     41.887637
+    ],
+    [
+     12.485863,
+     41.887643
+    ],
+    [
+     12.485878,
+     41.887683
+    ],
+    [
+     12.48584,
+     41.887683
+    ],
+    [
+     12.485839,
+     41.887648
+    ],
+    [
+     12.48579,
+     41.887665
+    ],
+    [
+     12.485901,
+     41.887712
+    ],
+    [
+     12.486023,
+     41.887829
+    ],
+    [
+     12.486068,
+     41.887819
+    ],
+    [
+     12.486156,
+     41.887897
+    ],
+    [
+     12.4862,
+     41.887862
+    ],
+    [
+     12.486321,
+     41.887959
+    ],
+    [
+     12.486431,
+     41.887881
+    ],
+    [
+     12.48651,
+     41.887948
+    ],
+    [
+     12.486447,
+     41.88799
+    ],
+    [
+     12.486576,
+     41.888107
+    ],
+    [
+     12.486633,
+     41.888081
+    ],
+    [
+     12.486705,
+     41.888126
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": 0,
+      "y": -70,
+      "w": 80,
+      "l": 60,
+      "h": 14,
+      "z": 0,
+      "mat": "brick"
+     },
+     {
+      "shape": "court",
+      "x": 0,
+      "y": 0,
+      "w": 76,
+      "l": 62,
+      "h": 11,
+      "ringDepth": 9,
+      "z": 0,
+      "mat": "brick"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 12,
+      "l": 16,
+      "h": 8,
+      "z": 0,
+      "mat": "marble_white"
+     },
+     {
+      "shape": "court",
+      "x": 0,
+      "y": 66,
+      "w": 56,
+      "l": 52,
+      "h": 22,
+      "ringDepth": 12,
+      "z": 0,
+      "mat": "brick"
+     },
+     {
+      "shape": "hemicycle",
+      "x": 0,
+      "y": 99,
+      "radius": 24,
+      "depth": 8,
+      "angle": 180,
+      "h": 22,
+      "z": 0,
+      "mat": "brick"
+     }
+    ]
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "The private wing of the palace, built on two levels: an upper peristyle at the level of the Domus Flavia with a pool and an island shrine, and 10 m below a lower peristyle with a fountain of Amazon shields, surrounded by vaulted suites, opening to the Circus Maximus through a great curved facade. The name derives from 'Augustus', the title of the reigning emperor.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Martial",
+     "w": "Epigrammata",
+     "r": "8.36"
+    },
+    {
+     "a": "Statius",
+     "w": "Silvae",
+     "r": "4.2.18-31"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Domitianus",
+     "r": "14.4"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Publicola",
+     "r": "15.5"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 114-117",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) II s.v. Domus Augustana (Wataghin Cantino), Domus Flavia",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Gibson, DeLaine and Claridge, in Papers of the British School at Rome 62 (1994)",
+    "Wulf-Rheidt, in Sojc et al. (eds.), Palast und Stadt im severischen Rom (2013)"
+   ],
+   "note": "Footprint from the OSM outline; the curved facade faces the Circus (SW, 224). Heights measured above the lower (Circus-side) level."
+  },
+  {
+   "id": "palatine_imperial_loggia",
+   "monument": "palatine_imperial_loggia",
+   "name": "Imperial loggia of the Domus Augustana over the Circus",
+   "from": 92,
+   "to": 9999,
+   "builder": "domitian",
+   "template": "compound",
+   "loc": [
+    12.486135,
+    41.887372
+   ],
+   "rot": 224.4,
+   "w": 50.0,
+   "l": 12.0,
+   "h": 24.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "hemicycle",
+      "x": 0,
+      "y": 0,
+      "radius": 25,
+      "depth": 6,
+      "angle": 180,
+      "h": 24,
+      "z": 0,
+      "mat": "brick"
+     },
+     {
+      "shape": "colonnade",
+      "x": 0,
+      "y": 4,
+      "w": 40,
+      "l": 4,
+      "h": 8,
+      "z": 16,
+      "colH": 7,
+      "mat": "marble_white"
+     }
+    ]
+   },
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "The curved, colonnaded front of the palace above the Circus Maximus, from whose upper level the emperor and his household could watch the races; the formal imperial box (pulvinar) lay below in the Circus seating.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Augustus",
+     "r": "45.1"
+    },
+    {
+     "a": "Pliny the Younger",
+     "w": "Panegyricus",
+     "r": "51.4-5"
+    }
+   ],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2nd ed. 2014)"
+   ],
+   "note": "Exedra position computed on the Domus Augustana axis; the pulvinar belongs to the Circus district."
+  },
+  {
+   "id": "palatine_stadium_v1",
+   "monument": "palatine_stadium",
+   "name": "Palatine Stadium (Hippodromus Palatii)",
+   "from": 92,
+   "to": 499,
+   "begun": 81,
+   "builder": "domitian",
+   "template": "stadium",
+   "loc": [
+    12.487549,
+    41.887504
+   ],
+   "rot": 41.6,
+   "w": 48.0,
+   "l": 160.0,
+   "h": 12.0,
+   "footprint": [
+    [
+     12.488346,
+     41.887969
+    ],
+    [
+     12.487906,
+     41.888276
+    ],
+    [
+     12.486638,
+     41.887199
+    ],
+    [
+     12.48674,
+     41.887042
+    ],
+    [
+     12.486853,
+     41.886958
+    ],
+    [
+     12.487045,
+     41.886906
+    ],
+    [
+     12.487555,
+     41.887301
+    ],
+    [
+     12.487601,
+     41.887309
+    ],
+    [
+     12.487681,
+     41.887257
+    ],
+    [
+     12.487874,
+     41.887307
+    ],
+    [
+     12.487924,
+     41.887364
+    ],
+    [
+     12.487939,
+     41.887443
+    ],
+    [
+     12.487856,
+     41.887552
+    ],
+    [
+     12.488346,
+     41.887969
+    ]
+   ],
+   "params": {
+    "l": 160,
+    "w": 48,
+    "tiers": 12
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "A sunken garden 160 x 48 m in the shape of a stadium along the east side of the Domus Augustana, curved at its south end, surrounded by a two-storey portico with a large semicircular viewing exedra on the east side; restored by Hadrian and Septimius Severus. Martyr acts set the death of St Sebastian in the 'Hippodromus Palatii'.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Acta Sanctorum",
+     "w": "Passio S. Sebastiani"
+    },
+    {
+     "a": "Pliny the Younger",
+     "w": "Epistulae",
+     "r": "5.6.32-33"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 368",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) IV s.v. Stadium Palatinum (Wataghin Cantino)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": "OSM outline; rot = bearing from the curved (S) end toward the straight (N) end, 41.6."
+  },
+  {
+   "id": "palatine_stadium_v2",
+   "monument": "palatine_stadium",
+   "name": "Palatine Stadium with Theodoric's oval enclosure",
+   "from": 500,
+   "to": 9999,
+   "builder": null,
+   "template": "stadium",
+   "loc": [
+    12.487549,
+    41.887504
+   ],
+   "rot": 41.6,
+   "w": 48.0,
+   "l": 160.0,
+   "h": 12.0,
+   "footprint": [
+    [
+     12.488346,
+     41.887969
+    ],
+    [
+     12.487906,
+     41.888276
+    ],
+    [
+     12.486638,
+     41.887199
+    ],
+    [
+     12.48674,
+     41.887042
+    ],
+    [
+     12.486853,
+     41.886958
+    ],
+    [
+     12.487045,
+     41.886906
+    ],
+    [
+     12.487555,
+     41.887301
+    ],
+    [
+     12.487601,
+     41.887309
+    ],
+    [
+     12.487681,
+     41.887257
+    ],
+    [
+     12.487874,
+     41.887307
+    ],
+    [
+     12.487924,
+     41.887364
+    ],
+    [
+     12.487939,
+     41.887443
+    ],
+    [
+     12.487856,
+     41.887552
+    ],
+    [
+     12.488346,
+     41.887969
+    ]
+   ],
+   "params": {
+    "l": 160,
+    "w": 48,
+    "tiers": 12
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "About 500 Theodoric, restoring the palace, built a small oval enclosure inside the southern part of the stadium, perhaps a riding ring or garden.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Cassiodorus",
+     "w": "Variae",
+     "r": "1.25"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 368",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) IV s.v. Stadium Palatinum (Wataghin Cantino)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": ""
+  },
+  {
+   "id": "palatine_stadium_exedra",
+   "monument": "palatine_stadium",
+   "name": "Imperial exedra of the Palatine Stadium",
+   "from": 92,
+   "to": 9999,
+   "builder": "domitian",
+   "template": "compound",
+   "loc": [
+    12.487792,
+    41.887368
+   ],
+   "rot": 131.6,
+   "w": 37.0,
+   "l": 19.0,
+   "h": 20.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "hemicycle",
+      "x": 0,
+      "y": 0,
+      "radius": 18,
+      "depth": 9,
+      "angle": 180,
+      "h": 20,
+      "z": 0,
+      "mat": "brick"
+     }
+    ]
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "The three-storey semicircular grandstand on the east side of the stadium, crowned by a belvedere.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 368",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) IV s.v. Stadium Palatinum (Wataghin Cantino)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": "OSM \"Esedra\"; opens WSW onto the garden."
+  },
+  {
+   "id": "palatine_baths_v1",
+   "monument": "palatine_baths",
+   "name": "Baths of the Domus Augustana (Domitianic)",
+   "from": 92,
+   "to": 192,
+   "begun": 81,
+   "builder": "domitian",
+   "template": "baths",
+   "loc": [
+    12.487804,
+    41.886868
+   ],
+   "rot": 216,
+   "w": 60.0,
+   "l": 70.0,
+   "h": 15.0,
+   "params": {
+    "core": {
+     "w": 50,
+     "l": 60,
+     "h": 14
+    }
+   },
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "Bath suites at the SE end of the palace beside the stadium, begun under Domitian.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2nd ed. 2014)",
+    "Carandini (ed.), The Atlas of Ancient Rome (2017)",
+    "Tomei, Il Palatino (1997)"
+   ],
+   "note": "Extent of the Domitianic phase uncertain."
+  },
+  {
+   "id": "domus_severiana",
+   "monument": "domus_severiana",
+   "name": "Severan palace extension and baths (Domus Severiana)",
+   "from": 203,
+   "to": 9999,
+   "begun": 193,
+   "builder": "septimius_severus",
+   "template": "compound",
+   "loc": [
+    12.487804,
+    41.886868
+   ],
+   "rot": 216,
+   "w": 77.0,
+   "l": 96.0,
+   "h": 32.0,
+   "footprint": [
+    [
+     12.487141,
+     41.886977
+    ],
+    [
+     12.487555,
+     41.887301
+    ],
+    [
+     12.487601,
+     41.887309
+    ],
+    [
+     12.487746,
+     41.887233
+    ],
+    [
+     12.487841,
+     41.887252
+    ],
+    [
+     12.487883,
+     41.887285
+    ],
+    [
+     12.488273,
+     41.887013
+    ],
+    [
+     12.488293,
+     41.886928
+    ],
+    [
+     12.488362,
+     41.886881
+    ],
+    [
+     12.48834,
+     41.886864
+    ],
+    [
+     12.488362,
+     41.886828
+    ],
+    [
+     12.488343,
+     41.886843
+    ],
+    [
+     12.488289,
+     41.886802
+    ],
+    [
+     12.488325,
+     41.886787
+    ],
+    [
+     12.488217,
+     41.886666
+    ],
+    [
+     12.488301,
+     41.886662
+    ],
+    [
+     12.488301,
+     41.886629
+    ],
+    [
+     12.488222,
+     41.886626
+    ],
+    [
+     12.488179,
+     41.886589
+    ],
+    [
+     12.488118,
+     41.886576
+    ],
+    [
+     12.488032,
+     41.886577
+    ],
+    [
+     12.487891,
+     41.886443
+    ],
+    [
+     12.48765,
+     41.886583
+    ],
+    [
+     12.487689,
+     41.886643
+    ],
+    [
+     12.487628,
+     41.886679
+    ],
+    [
+     12.487665,
+     41.886641
+    ],
+    [
+     12.48762,
+     41.886599
+    ],
+    [
+     12.487486,
+     41.886687
+    ],
+    [
+     12.487461,
+     41.886648
+    ],
+    [
+     12.487419,
+     41.886662
+    ],
+    [
+     12.487358,
+     41.886718
+    ],
+    [
+     12.48744,
+     41.886795
+    ],
+    [
+     12.487472,
+     41.886768
+    ],
+    [
+     12.487515,
+     41.886816
+    ],
+    [
+     12.487371,
+     41.886879
+    ],
+    [
+     12.487341,
+     41.886855
+    ],
+    [
+     12.487405,
+     41.886828
+    ],
+    [
+     12.487352,
+     41.886817
+    ],
+    [
+     12.487321,
+     41.886862
+    ],
+    [
+     12.487216,
+     41.88691
+    ],
+    [
+     12.487141,
+     41.886977
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "terrace",
+      "x": 0,
+      "y": 0,
+      "w": 77,
+      "l": 96,
+      "h": 20,
+      "z": 0,
+      "mat": "brick"
+     },
+     {
+      "shape": "vault",
+      "x": 0,
+      "y": -10,
+      "w": 50,
+      "l": 40,
+      "h": 12,
+      "z": 20,
+      "mat": "brick"
+     }
+    ]
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "Septimius Severus enlarged the palace at the SE corner of the hill over a huge artificial platform carried on tiers of brick arches, with new bath halls on top, making the palace front visible to travellers arriving by the Via Appia, together with the Septizodium below.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Septimius Severus",
+     "r": "24.3"
+    }
+   ],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2nd ed. 2014)",
+    "Carandini (ed.), The Atlas of Ancient Rome (2017)",
+    "Tomei, Il Palatino (1997)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) II s.v. Domus Severiana"
+   ],
+   "note": "OSM \"Terme Severiane\" outline; heights from the Circus valley floor."
+  },
+  {
+   "id": "severan_arcades",
+   "monument": "domus_severiana",
+   "name": "Severan substructure arcades",
+   "from": 203,
+   "to": 9999,
+   "begun": 193,
+   "builder": "septimius_severus",
+   "template": "platform",
+   "loc": [
+    12.487771,
+    41.886373
+   ],
+   "rot": 216.6,
+   "w": 79.0,
+   "l": 40.0,
+   "h": 32.0,
+   "footprint": [
+    [
+     12.487959,
+     41.886476
+    ],
+    [
+     12.488265,
+     41.886308
+    ],
+    [
+     12.488193,
+     41.886252
+    ],
+    [
+     12.488203,
+     41.886208
+    ],
+    [
+     12.488157,
+     41.886178
+    ],
+    [
+     12.488133,
+     41.886203
+    ],
+    [
+     12.48806,
+     41.886134
+    ],
+    [
+     12.487996,
+     41.886164
+    ],
+    [
+     12.487974,
+     41.886138
+    ],
+    [
+     12.487957,
+     41.886152
+    ],
+    [
+     12.487996,
+     41.886175
+    ],
+    [
+     12.487944,
+     41.886208
+    ],
+    [
+     12.487838,
+     41.88611
+    ],
+    [
+     12.487812,
+     41.886127
+    ],
+    [
+     12.487846,
+     41.886132
+    ],
+    [
+     12.487926,
+     41.88621
+    ],
+    [
+     12.487512,
+     41.886474
+    ],
+    [
+     12.487595,
+     41.886569
+    ],
+    [
+     12.487461,
+     41.886648
+    ],
+    [
+     12.487486,
+     41.886687
+    ],
+    [
+     12.48762,
+     41.886599
+    ],
+    [
+     12.487665,
+     41.886641
+    ],
+    [
+     12.487628,
+     41.886679
+    ],
+    [
+     12.487689,
+     41.886643
+    ],
+    [
+     12.48765,
+     41.886583
+    ],
+    [
+     12.487891,
+     41.886443
+    ],
+    [
+     12.48793,
+     41.886485
+    ],
+    [
+     12.487959,
+     41.886476
+    ]
+   ],
+   "params": {
+    "facade": "arcade",
+    "mat": {
+     "walls": "brick"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "The towering brick arches of the Severan substructures facing the Circus Maximus and the Caelian, still the most prominent ruin of the Palatine from the south.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Septimius Severus",
+     "r": "24.3"
+    }
+   ],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2nd ed. 2014)",
+    "Carandini (ed.), The Atlas of Ancient Rome (2017)",
+    "Tomei, Il Palatino (1997)"
+   ],
+   "note": "OSM \"Arcate severiane\"."
+  },
+  {
+   "id": "baths_of_maxentius_palatine",
+   "monument": "baths_of_maxentius_palatine",
+   "name": "Baths of Maxentius on the Palatine",
+   "from": 310,
+   "to": 9999,
+   "builder": "maxentius",
+   "template": "baths",
+   "loc": [
+    12.487178,
+    41.88659
+   ],
+   "rot": 216,
+   "w": 48.0,
+   "l": 39.0,
+   "h": 20.0,
+   "footprint": [
+    [
+     12.487419,
+     41.886662
+    ],
+    [
+     12.487368,
+     41.886613
+    ],
+    [
+     12.487354,
+     41.886621
+    ],
+    [
+     12.487315,
+     41.886588
+    ],
+    [
+     12.487269,
+     41.886592
+    ],
+    [
+     12.487243,
+     41.886563
+    ],
+    [
+     12.487321,
+     41.886524
+    ],
+    [
+     12.487409,
+     41.886541
+    ],
+    [
+     12.487447,
+     41.886518
+    ],
+    [
+     12.487419,
+     41.886511
+    ],
+    [
+     12.487388,
+     41.886477
+    ],
+    [
+     12.48741,
+     41.886465
+    ],
+    [
+     12.487401,
+     41.886452
+    ],
+    [
+     12.487235,
+     41.886532
+    ],
+    [
+     12.487207,
+     41.886517
+    ],
+    [
+     12.487219,
+     41.886499
+    ],
+    [
+     12.487241,
+     41.886487
+    ],
+    [
+     12.487274,
+     41.886504
+    ],
+    [
+     12.487245,
+     41.88647
+    ],
+    [
+     12.487217,
+     41.886463
+    ],
+    [
+     12.487235,
+     41.886479
+    ],
+    [
+     12.487178,
+     41.886509
+    ],
+    [
+     12.487178,
+     41.886491
+    ],
+    [
+     12.487111,
+     41.886439
+    ],
+    [
+     12.487151,
+     41.886416
+    ],
+    [
+     12.487165,
+     41.886431
+    ],
+    [
+     12.48719,
+     41.886416
+    ],
+    [
+     12.487156,
+     41.886385
+    ],
+    [
+     12.487058,
+     41.886438
+    ],
+    [
+     12.487088,
+     41.886455
+    ],
+    [
+     12.487049,
+     41.886478
+    ],
+    [
+     12.486999,
+     41.886469
+    ],
+    [
+     12.486911,
+     41.886528
+    ],
+    [
+     12.486938,
+     41.886594
+    ],
+    [
+     12.486912,
+     41.886607
+    ],
+    [
+     12.486888,
+     41.886568
+    ],
+    [
+     12.486853,
+     41.886557
+    ],
+    [
+     12.48684,
+     41.886572
+    ],
+    [
+     12.486877,
+     41.886607
+    ],
+    [
+     12.486879,
+     41.886651
+    ],
+    [
+     12.486981,
+     41.886746
+    ],
+    [
+     12.487011,
+     41.886729
+    ],
+    [
+     12.487049,
+     41.886767
+    ],
+    [
+     12.487309,
+     41.886622
+    ],
+    [
+     12.487381,
+     41.886698
+    ],
+    [
+     12.487419,
+     41.886662
+    ]
+   ],
+   "params": {
+    "core": {
+     "w": 40,
+     "l": 32,
+     "h": 18
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "Maxentius, the last emperor to live permanently in Rome, added a bath building on a further vaulted platform at the S corner of the hill.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Chronographus anni 354",
+     "w": "Chronica urbis Romae"
+    }
+   ],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2nd ed. 2014)",
+    "Carandini (ed.), The Atlas of Ancient Rome (2017)",
+    "Tomei, Il Palatino (1997)"
+   ],
+   "note": "OSM \"Terme di Massenzio\"."
+  },
+  {
+   "id": "paedagogium",
+   "monument": "paedagogium",
+   "name": "Paedagogium",
+   "from": 92,
+   "to": 9999,
+   "builder": "domitian",
+   "template": "compound",
+   "loc": [
+    12.485507,
+    41.887653
+   ],
+   "rot": 230.3,
+   "w": 58.7,
+   "l": 45.4,
+   "h": 12.0,
+   "footprint": [
+    [
+     12.485329,
+     41.887493
+    ],
+    [
+     12.485517,
+     41.887372
+    ],
+    [
+     12.48573,
+     41.887447
+    ],
+    [
+     12.485835,
+     41.887517
+    ],
+    [
+     12.48576,
+     41.887567
+    ],
+    [
+     12.485786,
+     41.887598
+    ],
+    [
+     12.485665,
+     41.887703
+    ],
+    [
+     12.485649,
+     41.887712
+    ],
+    [
+     12.485606,
+     41.887686
+    ],
+    [
+     12.485383,
+     41.887876
+    ],
+    [
+     12.485376,
+     41.887858
+    ],
+    [
+     12.485363,
+     41.887868
+    ],
+    [
+     12.485395,
+     41.887911
+    ],
+    [
+     12.485503,
+     41.887978
+    ],
+    [
+     12.485494,
+     41.887985
+    ],
+    [
+     12.485392,
+     41.887926
+    ],
+    [
+     12.485339,
+     41.887884
+    ],
+    [
+     12.485346,
+     41.887875
+    ],
+    [
+     12.48525,
+     41.887809
+    ],
+    [
+     12.485238,
+     41.887816
+    ],
+    [
+     12.485221,
+     41.887788
+    ],
+    [
+     12.485097,
+     41.887701
+    ],
+    [
+     12.485329,
+     41.887493
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "court",
+      "x": 0,
+      "y": 0,
+      "w": 58,
+      "l": 45,
+      "h": 12,
+      "ringDepth": 9,
+      "z": 0,
+      "mat": "brick"
+     }
+    ]
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "Building on the SW slope below the palace usually explained as the training school for the imperial pages; its walls carry graffiti including the Alexamenos caricature of a Christian worshipping a crucified donkey.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "8966-8970"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 281",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": "OSM outline; faces the Circus (SW)."
+  },
+  {
+   "id": "domus_praeconum",
+   "monument": "domus_praeconum",
+   "name": "Domus Praeconum (Schola Praeconum)",
+   "from": 200,
+   "to": 9999,
+   "builder": null,
+   "template": "compound",
+   "loc": [
+    12.485189,
+    41.887458
+   ],
+   "rot": 241.1,
+   "w": 41.0,
+   "l": 15.0,
+   "h": 8.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 41,
+      "l": 15,
+      "h": 8,
+      "z": 0,
+      "mat": "brick"
+     }
+    ]
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "Rooms on the Circus side of the Palatine decorated with paintings of heralds, identified as the headquarters of the praecones who announced the games.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 133",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": "OSM outline; Severan decoration."
+  },
+  {
+   "id": "vigna_barberini_terrace",
+   "monument": "vigna_barberini_terrace",
+   "name": "Vigna Barberini terrace",
+   "from": 92,
+   "to": 9999,
+   "begun": 81,
+   "builder": "domitian",
+   "template": "platform",
+   "loc": [
+    12.488623,
+    41.889367
+   ],
+   "rot": 290.9,
+   "w": 141.0,
+   "l": 180.0,
+   "h": 10.0,
+   "footprint": [
+    [
+     12.488228,
+     41.888609
+    ],
+    [
+     12.488255,
+     41.888648
+    ],
+    [
+     12.488308,
+     41.888611
+    ],
+    [
+     12.488338,
+     41.888628
+    ],
+    [
+     12.488468,
+     41.888589
+    ],
+    [
+     12.488505,
+     41.888654
+    ],
+    [
+     12.489089,
+     41.888495
+    ],
+    [
+     12.489176,
+     41.889067
+    ],
+    [
+     12.48917,
+     41.889152
+    ],
+    [
+     12.489107,
+     41.889198
+    ],
+    [
+     12.489164,
+     41.889293
+    ],
+    [
+     12.489132,
+     41.889295
+    ],
+    [
+     12.489518,
+     41.889944
+    ],
+    [
+     12.488371,
+     41.890309
+    ],
+    [
+     12.488325,
+     41.89023
+    ],
+    [
+     12.488247,
+     41.890253
+    ],
+    [
+     12.487575,
+     41.889097
+    ],
+    [
+     12.488221,
+     41.888884
+    ],
+    [
+     12.48813,
+     41.888639
+    ],
+    [
+     12.488228,
+     41.888609
+    ]
+   ],
+   "params": {
+    "facade": "arcade",
+    "mat": {
+     "walls": "brick"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "The great artificial terrace at the NE corner of the Palatine built by Domitian over Nero's works, facing the Colosseum valley; on the Marble Plan it carries the gardens of the Adonaea.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Villedieu (ed.), La Vigna Barberini II (2007)",
+    "Carandini (ed.), The Atlas of Ancient Rome (2017)"
+   ],
+   "note": "OSM outline of the Vigna Barberini."
+  },
+  {
+   "id": "adonaea",
+   "monument": "adonaea",
+   "name": "Adonaea (gardens of Adonis)",
+   "from": 92,
+   "to": 217,
+   "builder": "domitian",
+   "template": "garden",
+   "loc": [
+    12.488623,
+    41.889367
+   ],
+   "rot": 290.9,
+   "w": 120.0,
+   "l": 150.0,
+   "h": 6.0,
+   "footprint": [
+    [
+     12.488228,
+     41.888609
+    ],
+    [
+     12.488255,
+     41.888648
+    ],
+    [
+     12.488308,
+     41.888611
+    ],
+    [
+     12.488338,
+     41.888628
+    ],
+    [
+     12.488468,
+     41.888589
+    ],
+    [
+     12.488505,
+     41.888654
+    ],
+    [
+     12.489089,
+     41.888495
+    ],
+    [
+     12.489176,
+     41.889067
+    ],
+    [
+     12.48917,
+     41.889152
+    ],
+    [
+     12.489107,
+     41.889198
+    ],
+    [
+     12.489164,
+     41.889293
+    ],
+    [
+     12.489132,
+     41.889295
+    ],
+    [
+     12.489518,
+     41.889944
+    ],
+    [
+     12.488371,
+     41.890309
+    ],
+    [
+     12.488325,
+     41.89023
+    ],
+    [
+     12.488247,
+     41.890253
+    ],
+    [
+     12.487575,
+     41.889097
+    ],
+    [
+     12.488221,
+     41.888884
+    ],
+    [
+     12.48813,
+     41.888639
+    ],
+    [
+     12.488228,
+     41.888609
+    ]
+   ],
+   "params": {
+    "trees": 1.2,
+    "kind": "formal"
+   },
+   "importance": 2,
+   "certainty": "reconstructed",
+   "summary": "Formal gardens with porticoes on the Vigna Barberini terrace, labelled ADONAEA on a fragment of the Severan Marble Plan; Philostratus describes Domitian receiving a sophist in a court of Adonis.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Forma Urbis Romae",
+     "w": "fr. 46"
+    },
+    {
+     "a": "Philostratus",
+     "w": "Vita Apollonii",
+     "r": "7.32"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 2",
+    "Villedieu (ed.), La Vigna Barberini II (2007)"
+   ],
+   "note": ""
+  },
+  {
+   "id": "elagabalium_v1",
+   "monument": "temple_of_elagabalus",
+   "name": "Elagabalium (Temple of Sol Invictus Elagabal)",
+   "from": 221,
+   "to": 222,
+   "begun": 218,
+   "builder": "elagabalus",
+   "template": "temple",
+   "loc": [
+    12.488897,
+    41.889533
+   ],
+   "rot": 293.4,
+   "w": 28.0,
+   "l": 46.0,
+   "h": 25.1,
+   "params": {
+    "order": "corinthian",
+    "plan": "peripteral",
+    "front": 6,
+    "side": 11,
+    "podium": 4.0,
+    "colH": 14.0,
+    "steps": "front",
+    "mat": {
+     "podium": "concrete_faced",
+     "columns": "marble_white",
+     "walls": "marble_white",
+     "roof": "gilded"
+    }
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "Elagabalus' temple for the black conical stone of the sun god of Emesa, on the Vigna Barberini terrace in a colonnaded court, to which he moved the Palladium, the fire of Vesta and the shields of Mars.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Herodian",
+     "w": "Historia",
+     "r": "5.5.8"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Elagabalus",
+     "r": "3.4"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "80.11"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 1",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) II s.v. Elagabalus, templum",
+    "Villedieu (ed.), La Vigna Barberini II (2007)"
+   ],
+   "note": "OSM \"Elagabalium\" outline; facade assumed toward the palace (WNW)."
+  },
+  {
+   "id": "elagabalium_v2",
+   "monument": "temple_of_elagabalus",
+   "name": "Temple of Jupiter Ultor (former Elagabalium)",
+   "from": 223,
+   "to": 9999,
+   "builder": "severus_alexander",
+   "template": "temple",
+   "loc": [
+    12.488897,
+    41.889533
+   ],
+   "rot": 293.4,
+   "w": 28.0,
+   "l": 46.0,
+   "h": 25.1,
+   "params": {
+    "order": "corinthian",
+    "plan": "peripteral",
+    "front": 6,
+    "side": 11,
+    "podium": 4.0,
+    "colH": 14.0,
+    "steps": "front",
+    "mat": {
+     "podium": "concrete_faced",
+     "columns": "marble_white",
+     "walls": "marble_white",
+     "roof": "gilded"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "After Elagabalus' murder in 222 the god was sent back to Emesa and Severus Alexander rededicated the temple to Jupiter Ultor; a medieval church of San Sebastiano later rose on the site.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Elagabalus",
+     "r": "17.8"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 1"
+   ],
+   "note": ""
+  },
+  {
+   "id": "santa_anastasia_v1",
+   "monument": "santa_anastasia",
+   "name": "Sant Anastasia (titulus)",
+   "from": 350,
+   "to": 464,
+   "builder": null,
+   "template": "church",
+   "loc": [
+    12.484339,
+    41.888052
+   ],
+   "rot": 306.7,
+   "w": 22.0,
+   "l": 45.0,
+   "h": 15.0,
+   "params": {
+    "nave": 12,
+    "aisles": 1,
+    "transept": false,
+    "apse": true,
+    "atrium": null,
+    "narthex": false
+   },
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "A titular church at the foot of the Palatine toward the Circus Maximus, built in the 4th century in a converted Roman building; perhaps the palace church of the Byzantine governors later.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "Damasus"
+    }
+   ],
+   "scholarship": [
+    "Coarelli, Rome and Environs: An Archaeological Guide (2nd ed. 2014)",
+    "Krautheimer, Corpus Basilicarum Christianarum Romae I (1937)"
+   ],
+   "note": "OSM outline of the present church; facade WNW."
+  },
+  {
+   "id": "santa_anastasia_v2",
+   "monument": "santa_anastasia",
+   "name": "Sant Anastasia (enlarged)",
+   "from": 465,
+   "to": 9999,
+   "builder": null,
+   "template": "church",
+   "loc": [
+    12.484339,
+    41.888052
+   ],
+   "rot": 306.7,
+   "w": 31.0,
+   "l": 61.0,
+   "h": 18.0,
+   "params": {
+    "nave": 14,
+    "aisles": 1,
+    "transept": true,
+    "apse": true,
+    "atrium": null,
+    "narthex": false
+   },
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "Enlarged with a transept in the later 5th century under Pope Hilarus; in the 6th and 7th centuries it was the court church of the Byzantine officials on the Palatine.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "Hilarus"
+    }
+   ],
+   "scholarship": [
+    "Coarelli, Rome and Environs: An Archaeological Guide (2nd ed. 2014)",
+    "Krautheimer, Corpus Basilicarum Christianarum Romae I (1937)"
+   ],
+   "note": ""
+  }
+ ]
+}

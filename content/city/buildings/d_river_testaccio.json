@@ -1,0 +1,2364 @@
+{
+ "buildings": [
+  {
+   "id": "emporium_quay_v1",
+   "monument": "emporium",
+   "name": "Emporium (river port, 193 BC)",
+   "from": -193,
+   "to": -175,
+   "builder": null,
+   "template": "harbor",
+   "loc": [
+    12.474671,
+    41.882367
+   ],
+   "rot": 316,
+   "w": 500.0,
+   "l": 40.0,
+   "h": 3.0,
+   "params": {
+    "line": [
+     [
+      12.472399,
+      41.880745
+     ],
+     [
+      12.473622,
+      41.881619
+     ],
+     [
+      12.474671,
+      41.882367
+     ],
+     [
+      12.47572,
+      41.883115
+     ],
+     [
+      12.476768,
+      41.883864
+     ]
+    ],
+    "h": 3.0,
+    "mat": {
+     "quay": "timber",
+     "ground": "grass"
+    }
+   },
+   "importance": 4,
+   "certainty": "reconstructed",
+   "summary": "When the old river harbour by the Forum Boarium grew too small, the aediles M. Aemilius Lepidus and L. Aemilius Paullus laid out a new Emporium on the open plain south of the Aventine in 193 BC, about 500 m of river front.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "35.10.12"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 143",
+    "Mocchegiani Carpano, 'Indagini archeologiche nel Tevere', Archeologia Laziale 2 (1979)",
+    "Coarelli, Rome and Environs (2007) 355-358"
+   ],
+   "note": "Line along the left bank following the excavated quay remains on Lungotevere Testaccio (OSM 'Emporium' site, bank bearing 46/226 deg), extended to ~500 m. rot faces the river (NW)."
+  },
+  {
+   "id": "emporium_quay_v2",
+   "monument": "emporium",
+   "name": "Emporium (paved and stepped, 174 BC)",
+   "from": -174,
+   "to": 99,
+   "builder": null,
+   "template": "harbor",
+   "loc": [
+    12.474671,
+    41.882367
+   ],
+   "rot": 316,
+   "w": 500.0,
+   "l": 40.0,
+   "h": 4.0,
+   "params": {
+    "line": [
+     [
+      12.472399,
+      41.880745
+     ],
+     [
+      12.473622,
+      41.881619
+     ],
+     [
+      12.474671,
+      41.882367
+     ],
+     [
+      12.47572,
+      41.883115
+     ],
+     [
+      12.476768,
+      41.883864
+     ]
+    ],
+    "h": 4.0,
+    "stairs": true,
+    "mat": {
+     "quay": "tufa",
+     "ground": "paving_travertine"
+    }
+   },
+   "importance": 4,
+   "certainty": "reconstructed",
+   "summary": "The censors Q. Fulvius Flaccus and A. Postumius Albinus paved the Emporium in stone, fenced it and built stairs down to the river.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "41.27.8"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 143",
+    "Mocchegiani Carpano, 'Indagini archeologiche nel Tevere', Archeologia Laziale 2 (1979)",
+    "Coarelli, Rome and Environs (2007) 355-358"
+   ],
+   "note": ""
+  },
+  {
+   "id": "emporium_quay_v3",
+   "monument": "emporium",
+   "name": "Emporium (Trajanic quay)",
+   "from": 100,
+   "to": 9999,
+   "builder": null,
+   "template": "harbor",
+   "loc": [
+    12.474671,
+    41.882367
+   ],
+   "rot": 316,
+   "w": 500.0,
+   "l": 40.0,
+   "h": 6.0,
+   "params": {
+    "line": [
+     [
+      12.472399,
+      41.880745
+     ],
+     [
+      12.473622,
+      41.881619
+     ],
+     [
+      12.474671,
+      41.882367
+     ],
+     [
+      12.47572,
+      41.883115
+     ],
+     [
+      12.476768,
+      41.883864
+     ]
+    ],
+    "h": 6.0,
+    "stairs": true,
+    "mooring": "travertine blocks with pierced rings",
+    "ramps": true,
+    "mat": {
+     "quay": "brick",
+     "facing": "travertine",
+     "ground": "paving_travertine"
+    }
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "Rebuilt in the late first and early second centuries as a brick-faced embankment with travertine mooring blocks, ramps and stairs, behind which marble blocks, wine, oil and grain were unloaded for the warehouses of the Testaccio plain. The visible stretch on Lungotevere Testaccio belongs to this phase.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Richardson (1992) 143",
+    "Mocchegiani Carpano, 'Indagini archeologiche nel Tevere', Archeologia Laziale 2 (1979)",
+    "Coarelli, Rome and Environs (2007) 355-358"
+   ],
+   "note": "Height above the low river level about 6 m."
+  },
+  {
+   "id": "porticus_aemilia_v1",
+   "monument": "porticus_aemilia",
+   "name": "Porticus Aemilia (193 BC)",
+   "from": -193,
+   "to": -175,
+   "builder": null,
+   "template": "compound",
+   "loc": [
+    12.473327,
+    41.879851
+   ],
+   "rot": 316.7,
+   "w": 487.0,
+   "l": 60.0,
+   "h": 12.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "stepped",
+      "x": 0,
+      "y": 0,
+      "w": 487,
+      "l": 60,
+      "h": 10,
+      "mat": "tufa"
+     }
+    ],
+    "note": "first phase, materials and form uncertain"
+   },
+   "importance": 3,
+   "certainty": "conjectural",
+   "summary": "Built by the same aediles as the Emporium in 193 BC 'extra portam Trigeminam' as the great covered hall behind the new port.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "35.10.12"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 311",
+    "Cozza and Tucci, 'Navalia', Archeologia Classica 57 (2006) 175-202",
+    "Arata and Felici, 'Porticus Aemilia, navalia o horrea?', Archeologia Classica 62 (2011)",
+    "Rodriguez Almeida, Forma Urbis Marmorea (1981) pl. 23"
+   ],
+   "note": "Livy says it was rebuilt in 174 BC; the surviving opus incertum structure is usually assigned to that phase."
+  },
+  {
+   "id": "porticus_aemilia_v2",
+   "monument": "porticus_aemilia",
+   "name": "Porticus Aemilia (or Navalia)",
+   "from": -174,
+   "to": 9999,
+   "builder": null,
+   "template": "compound",
+   "loc": [
+    12.473327,
+    41.879851
+   ],
+   "rot": 316.7,
+   "w": 487.0,
+   "l": 60.0,
+   "h": 12.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "vault",
+      "x": -238.63,
+      "y": 0,
+      "w": 9.0,
+      "l": 60,
+      "h": 12,
+      "z": 0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "vault",
+      "x": -228.89,
+      "y": 0,
+      "w": 9.0,
+      "l": 60,
+      "h": 12,
+      "z": 0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "vault",
+      "x": -219.15,
+      "y": 0,
+      "w": 9.0,
+      "l": 60,
+      "h": 12,
+      "z": 0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "vault",
+      "x": -209.41,
+      "y": 0,
+      "w": 9.0,
+      "l": 60,
+      "h": 12,
+      "z": 0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "vault",
+      "x": -199.67000000000002,
+      "y": 0,
+      "w": 9.0,
+      "l": 60,
+      "h": 12,
+      "z": 0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "vault",
+      "x": -189.93,
+      "y": 0,
+      "w": 9.0,
+      "l": 60,
+      "h": 12,
+      "z": 0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "vault",
+      "x": -180.19,
+      "y": 0,
+      "w": 9.0,
+      "l": 60,
+      "h": 12,
+      "z": 0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "vault",
+      "x": -170.45,
+      "y": 0,
+      "w": 9.0,
+      "l": 60,
+      "h": 12,
+      "z": 0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "vault",
+      "x": -160.70999999999998,
+      "y": 0,
+      "w": 9.0,
+      "l": 60,
+      "h": 12,
+      "z": 0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "vault",
+      "x": -150.97,
+      "y": 0,
+      "w": 9.0,
+      "l": 60,
+      "h": 12,
+      "z": 0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "vault",
+      "x": -141.23000000000002,
+      "y": 0,
+      "w": 9.0,
+      "l": 60,
+      "h": 12,
+      "z": 0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "vault",
+      "x": -131.49,
+      "y": 0,
+      "w": 9.0,
+      "l": 60,
+      "h": 12,
+      "z": 0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "vault",
+      "x": -121.75,
+      "y": 0,
+      "w": 9.0,
+      "l": 60,
+      "h": 12,
+      "z": 0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "vault",
+      "x": -112.00999999999999,
+      "y": 0,
+      "w": 9.0,
+      "l": 60,
+      "h": 12,
+      "z": 0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "vault",
+      "x": -102.27000000000001,
+      "y": 0,
+      "w": 9.0,
+      "l": 60,
+      "h": 12,
+      "z": 0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "vault",
+      "x": -92.53,
+      "y": 0,
+      "w": 9.0,
+      "l": 60,
+      "h": 12,
+      "z": 0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "vault",
+      "x": -82.78999999999999,
+      "y": 0,
+      "w": 9.0,
+      "l": 60,
+      "h": 12,
+      "z": 0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "vault",
+      "x": -73.04999999999998,
+      "y": 0,
+      "w": 9.0,
+      "l": 60,
+      "h": 12,
+      "z": 0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "vault",
+      "x": -63.31,
+      "y": 0,
+      "w": 9.0,
+      "l": 60,
+      "h": 12,
+      "z": 0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "vault",
+      "x": -53.56999999999999,
+      "y": 0,
+      "w": 9.0,
+      "l": 60,
+      "h": 12,
+      "z": 0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "vault",
+      "x": -43.829999999999984,
+      "y": 0,
+      "w": 9.0,
+      "l": 60,
+      "h": 12,
+      "z": 0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "vault",
+      "x": -34.09,
+      "y": 0,
+      "w": 9.0,
+      "l": 60,
+      "h": 12,
+      "z": 0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "vault",
+      "x": -24.349999999999994,
+      "y": 0,
+      "w": 9.0,
+      "l": 60,
+      "h": 12,
+      "z": 0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "vault",
+      "x": -14.609999999999985,
+      "y": 0,
+      "w": 9.0,
+      "l": 60,
+      "h": 12,
+      "z": 0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "vault",
+      "x": -4.8700000000000045,
+      "y": 0,
+      "w": 9.0,
+      "l": 60,
+      "h": 12,
+      "z": 0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "vault",
+      "x": 4.8700000000000045,
+      "y": 0,
+      "w": 9.0,
+      "l": 60,
+      "h": 12,
+      "z": 0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "vault",
+      "x": 14.610000000000014,
+      "y": 0,
+      "w": 9.0,
+      "l": 60,
+      "h": 12,
+      "z": 0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "vault",
+      "x": 24.350000000000023,
+      "y": 0,
+      "w": 9.0,
+      "l": 60,
+      "h": 12,
+      "z": 0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "vault",
+      "x": 34.09000000000003,
+      "y": 0,
+      "w": 9.0,
+      "l": 60,
+      "h": 12,
+      "z": 0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "vault",
+      "x": 43.829999999999984,
+      "y": 0,
+      "w": 9.0,
+      "l": 60,
+      "h": 12,
+      "z": 0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "vault",
+      "x": 53.56999999999999,
+      "y": 0,
+      "w": 9.0,
+      "l": 60,
+      "h": 12,
+      "z": 0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "vault",
+      "x": 63.31,
+      "y": 0,
+      "w": 9.0,
+      "l": 60,
+      "h": 12,
+      "z": 0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "vault",
+      "x": 73.05000000000001,
+      "y": 0,
+      "w": 9.0,
+      "l": 60,
+      "h": 12,
+      "z": 0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "vault",
+      "x": 82.79000000000002,
+      "y": 0,
+      "w": 9.0,
+      "l": 60,
+      "h": 12,
+      "z": 0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "vault",
+      "x": 92.53000000000003,
+      "y": 0,
+      "w": 9.0,
+      "l": 60,
+      "h": 12,
+      "z": 0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "vault",
+      "x": 102.26999999999998,
+      "y": 0,
+      "w": 9.0,
+      "l": 60,
+      "h": 12,
+      "z": 0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "vault",
+      "x": 112.00999999999999,
+      "y": 0,
+      "w": 9.0,
+      "l": 60,
+      "h": 12,
+      "z": 0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "vault",
+      "x": 121.75,
+      "y": 0,
+      "w": 9.0,
+      "l": 60,
+      "h": 12,
+      "z": 0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "vault",
+      "x": 131.49,
+      "y": 0,
+      "w": 9.0,
+      "l": 60,
+      "h": 12,
+      "z": 0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "vault",
+      "x": 141.23000000000002,
+      "y": 0,
+      "w": 9.0,
+      "l": 60,
+      "h": 12,
+      "z": 0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "vault",
+      "x": 150.97000000000003,
+      "y": 0,
+      "w": 9.0,
+      "l": 60,
+      "h": 12,
+      "z": 0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "vault",
+      "x": 160.71000000000004,
+      "y": 0,
+      "w": 9.0,
+      "l": 60,
+      "h": 12,
+      "z": 0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "vault",
+      "x": 170.45,
+      "y": 0,
+      "w": 9.0,
+      "l": 60,
+      "h": 12,
+      "z": 0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "vault",
+      "x": 180.19,
+      "y": 0,
+      "w": 9.0,
+      "l": 60,
+      "h": 12,
+      "z": 0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "vault",
+      "x": 189.93,
+      "y": 0,
+      "w": 9.0,
+      "l": 60,
+      "h": 12,
+      "z": 0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "vault",
+      "x": 199.67000000000002,
+      "y": 0,
+      "w": 9.0,
+      "l": 60,
+      "h": 12,
+      "z": 0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "vault",
+      "x": 209.41000000000003,
+      "y": 0,
+      "w": 9.0,
+      "l": 60,
+      "h": 12,
+      "z": 0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "vault",
+      "x": 219.15000000000003,
+      "y": 0,
+      "w": 9.0,
+      "l": 60,
+      "h": 12,
+      "z": 0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "vault",
+      "x": 228.89,
+      "y": 0,
+      "w": 9.0,
+      "l": 60,
+      "h": 12,
+      "z": 0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "vault",
+      "x": 238.63,
+      "y": 0,
+      "w": 9.0,
+      "l": 60,
+      "h": 12,
+      "z": 0,
+      "mat": "concrete_faced"
+     }
+    ],
+    "piers": 294,
+    "aisles": 50,
+    "stepped_roof": true,
+    "mat": {
+     "walls": "tufa",
+     "facing": "reticulate",
+     "vaults": "concrete",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "A colossal hall 487 x 60 m of opus incertum concrete, its 294 piers carrying 50 parallel barrel-vaulted aisles that stepped down the slope toward the Tiber, the earliest large concrete building in Rome. It appears on the Severan Marble Plan inscribed ...]LIA. Traditionally the Porticus Aemilia warehouse of the Emporium; Cozza and Tucci (2006) identified it instead as the Navalia, the shipsheds of the Republican fleet, an identification still debated.",
+   "phases": [
+    {
+     "y": -174,
+     "t": "rebuilt by the censors Q. Fulvius Flaccus and A. Postumius Albinus (Livy 41.27.8)"
+    },
+    {
+     "y": 100,
+     "t": "used and partly rebuilt as warehouses in the Empire"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "35.10.12; 41.27.8"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 311",
+    "Cozza and Tucci, 'Navalia', Archeologia Classica 57 (2006) 175-202",
+    "Arata and Felici, 'Porticus Aemilia, navalia o horrea?', Archeologia Classica 62 (2011)",
+    "Rodriguez Almeida, Forma Urbis Marmorea (1981) pl. 23"
+   ],
+   "note": "Centre and long-axis bearing (46.7 deg) from OSM (Porticus Aemilia remains, Via Rubattino/Via Branca); front faces the river (NW, 316.7). Aisles run perpendicular to the river; 50 aisles x ~8.3 m plus walls. The excavated segment is near the middle of the length."
+  },
+  {
+   "id": "horrea_galbana_v1",
+   "monument": "horrea_galbana",
+   "name": "Horrea Sulpicia",
+   "from": -100,
+   "to": 67,
+   "builder": null,
+   "template": "horrea",
+   "loc": [
+    12.4763,
+    41.8787
+   ],
+   "rot": 316.7,
+   "w": 150.0,
+   "l": 160.0,
+   "h": 10.0,
+   "params": {
+    "court": {
+     "w": 40,
+     "l": 140
+    },
+    "courts": 2,
+    "storeys": 1,
+    "mat": {
+     "walls": "tufa",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "reconstructed",
+   "summary": "Warehouses of the Sulpicii Galbae behind the Emporium, probably built by Ser. Sulpicius Galba (consul 108 BC), whose tomb stood among them.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Horace",
+     "w": "Odes",
+     "r": "4.12.18"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 193",
+    "Rickman, Roman Granaries and Store Buildings (1971) 97-104"
+   ],
+   "note": "Dates of the Republican phase approximate."
+  },
+  {
+   "id": "horrea_galbana_v2",
+   "monument": "horrea_galbana",
+   "name": "Horrea Galbana",
+   "from": 68,
+   "to": 9999,
+   "builder": null,
+   "template": "horrea",
+   "loc": [
+    12.4763,
+    41.8787
+   ],
+   "rot": 316.7,
+   "w": 167.0,
+   "l": 160.0,
+   "h": 14.0,
+   "params": {
+    "court": {
+     "w": 40,
+     "l": 140
+    },
+    "courts": 3,
+    "storeys": 2,
+    "rooms": 140,
+    "mat": {
+     "walls": "reticulate",
+     "facing": "brick",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "documented",
+   "summary": "Taken into imperial ownership under Galba and rebuilt: three long courtyards surrounded by about 140 storerooms in two storeys, shown on the Marble Plan as HORREA GALBIANA. A main store for oil, wine, foodstuffs and goods for the city; still listed in the fourth-century Regionary Catalogues.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "9801; 33743"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 193",
+    "Rickman (1971) 97-104",
+    "Rodriguez Almeida, Forma Urbis Marmorea (1981)"
+   ],
+   "note": "Placed east of the Porticus Aemilia between Via Marmorata and Via Galvani as on Lanciani's FUR; same alignment as the Porticus."
+  },
+  {
+   "id": "tomb_of_servius_sulpicius_galba_v1",
+   "monument": "tomb_of_servius_sulpicius_galba",
+   "name": "Tomb of Ser. Sulpicius Galba",
+   "from": -100,
+   "to": 9999,
+   "builder": null,
+   "template": "tomb",
+   "loc": [
+    12.4769,
+    41.8783
+   ],
+   "rot": 46.7,
+   "w": 8.0,
+   "l": 6.0,
+   "h": 5.0,
+   "params": {
+    "kind": "altar",
+    "w": 8,
+    "h": 5,
+    "mat": {
+     "walls": "peperino",
+     "facing": "travertine"
+    }
+   },
+   "importance": 1,
+   "certainty": "excavated",
+   "summary": "Altar-shaped tomb of Ser. Sulpicius Galba (consul 108 BC) found in 1885 at Via Giovanni Branca within the Horrea Galbana area; its inscription is in the Vatican.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "31617"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 359"
+   ],
+   "note": "Approximate find-spot."
+  },
+  {
+   "id": "horrea_lolliana_v1",
+   "monument": "horrea_lolliana",
+   "name": "Horrea Lolliana",
+   "from": -50,
+   "to": 9999,
+   "builder": null,
+   "template": "horrea",
+   "loc": [
+    12.4756,
+    41.8811
+   ],
+   "rot": 316.7,
+   "w": 80.0,
+   "l": 100.0,
+   "h": 12.0,
+   "params": {
+    "court": {
+     "w": 30,
+     "l": 70
+    },
+    "storeys": 2,
+    "mat": {
+     "walls": "brick",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Warehouses originally of the Lollii (perhaps M. Lollius, consul 21 BC), later imperial, shown on the Marble Plan as HORREA LOLLIANA near the river; a gate with the name's inscription survived near the Emporium.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "4226; 9467-9470"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 195",
+    "Rickman (1971) 164-166"
+   ],
+   "note": "Usually placed on the riverside north of the Porticus Aemilia, behind the Emporium; date of foundation uncertain."
+  },
+  {
+   "id": "horrea_seiana_v1",
+   "monument": "horrea_seiana",
+   "name": "Horrea Seiana",
+   "from": -20,
+   "to": 9999,
+   "builder": null,
+   "template": "horrea",
+   "loc": [
+    12.4773,
+    41.8802
+   ],
+   "rot": 316.7,
+   "w": 70.0,
+   "l": 80.0,
+   "h": 12.0,
+   "params": {
+    "court": {
+     "w": 25,
+     "l": 55
+    },
+    "storeys": 2,
+    "mat": {
+     "walls": "reticulate",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "Warehouses named after the family of Seius Strabo and Sejanus, attested by inscriptions found in the Testaccio area near the Horrea Galbana.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "238; 9471"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 196"
+   ],
+   "note": "Position near Via Marmorata conjectural."
+  },
+  {
+   "id": "monte_testaccio_v1",
+   "monument": "monte_testaccio",
+   "name": "Monte Testaccio (growing, from 50 BC)",
+   "from": -50,
+   "to": 0,
+   "builder": null,
+   "template": "platform",
+   "loc": [
+    12.475142,
+    41.875844
+   ],
+   "rot": 347,
+   "w": 70.3,
+   "l": 102.9,
+   "h": 3.0,
+   "footprint": [
+    [
+     12.474698,
+     41.87596
+    ],
+    [
+     12.4747,
+     41.875906
+    ],
+    [
+     12.474706,
+     41.875846
+    ],
+    [
+     12.474737,
+     41.875795
+    ],
+    [
+     12.474778,
+     41.875736
+    ],
+    [
+     12.474818,
+     41.875697
+    ],
+    [
+     12.474879,
+     41.87565
+    ],
+    [
+     12.474917,
+     41.875633
+    ],
+    [
+     12.474956,
+     41.875626
+    ],
+    [
+     12.475064,
+     41.875593
+    ],
+    [
+     12.475152,
+     41.875503
+    ],
+    [
+     12.475227,
+     41.875419
+    ],
+    [
+     12.475294,
+     41.875396
+    ],
+    [
+     12.475364,
+     41.875404
+    ],
+    [
+     12.475433,
+     41.875422
+    ],
+    [
+     12.475496,
+     41.875454
+    ],
+    [
+     12.475547,
+     41.875504
+    ],
+    [
+     12.475614,
+     41.875624
+    ],
+    [
+     12.47562,
+     41.875672
+    ],
+    [
+     12.475605,
+     41.875753
+    ],
+    [
+     12.47557,
+     41.875814
+    ],
+    [
+     12.47552,
+     41.87593
+    ],
+    [
+     12.47548,
+     41.876002
+    ],
+    [
+     12.475454,
+     41.876073
+    ],
+    [
+     12.475447,
+     41.876128
+    ],
+    [
+     12.475471,
+     41.876185
+    ],
+    [
+     12.475444,
+     41.876286
+    ],
+    [
+     12.475393,
+     41.876363
+    ],
+    [
+     12.474707,
+     41.876085
+    ],
+    [
+     12.474698,
+     41.87596
+    ]
+   ],
+   "params": {
+    "facade": "plain",
+    "stepped": true,
+    "terraces": 1,
+    "mat": {
+     "surface": "terracotta_sherds",
+     "fallback": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "Dumping of broken oil amphorae from the Emporium's unloading begins on the open ground east of the river, forming a low heap.",
+   "phases": [
+    {
+     "y": -50,
+     "t": "height about 3 m"
+    }
+   ],
+   "sources": [],
+   "scholarship": [
+    "Blazquez Martinez and Remesal Rodriguez, Estudios sobre el Monte Testaccio (1999-2019)",
+    "Rodriguez Almeida, Il Monte Testaccio (1984)",
+    "Richardson (1992) 381-382"
+   ],
+   "note": "Final footprint from the OSM outline of the archaeological area (way 23921018), area ~42,000 m2 including the skirt; earlier versions scaled toward the centre. Heights per version are estimates from the excavated dating of the dumps (most material is Severan). Coordinate with the terrain model: the DEM already contains the hill, so the renderer should not double it after 260."
+  },
+  {
+   "id": "monte_testaccio_v2",
+   "monument": "monte_testaccio",
+   "name": "Monte Testaccio (growing, AD 1)",
+   "from": 1,
+   "to": 99,
+   "builder": null,
+   "template": "platform",
+   "loc": [
+    12.475142,
+    41.875844
+   ],
+   "rot": 347,
+   "w": 110.6,
+   "l": 161.7,
+   "h": 8.0,
+   "footprint": [
+    [
+     12.474444,
+     41.876025
+    ],
+    [
+     12.474447,
+     41.875941
+    ],
+    [
+     12.474456,
+     41.875847
+    ],
+    [
+     12.474506,
+     41.875766
+    ],
+    [
+     12.47457,
+     41.875675
+    ],
+    [
+     12.474633,
+     41.875612
+    ],
+    [
+     12.474729,
+     41.87554
+    ],
+    [
+     12.474788,
+     41.875513
+    ],
+    [
+     12.474851,
+     41.875502
+    ],
+    [
+     12.475019,
+     41.875449
+    ],
+    [
+     12.475157,
+     41.875308
+    ],
+    [
+     12.475276,
+     41.875176
+    ],
+    [
+     12.475381,
+     41.875141
+    ],
+    [
+     12.475491,
+     41.875153
+    ],
+    [
+     12.475599,
+     41.87518
+    ],
+    [
+     12.475698,
+     41.875232
+    ],
+    [
+     12.475778,
+     41.875309
+    ],
+    [
+     12.475884,
+     41.875499
+    ],
+    [
+     12.475894,
+     41.875574
+    ],
+    [
+     12.475869,
+     41.8757
+    ],
+    [
+     12.475815,
+     41.875797
+    ],
+    [
+     12.475735,
+     41.875979
+    ],
+    [
+     12.475673,
+     41.876092
+    ],
+    [
+     12.475632,
+     41.876203
+    ],
+    [
+     12.475622,
+     41.87629
+    ],
+    [
+     12.47566,
+     41.87638
+    ],
+    [
+     12.475617,
+     41.876539
+    ],
+    [
+     12.475536,
+     41.87666
+    ],
+    [
+     12.474458,
+     41.876222
+    ],
+    [
+     12.474444,
+     41.876025
+    ]
+   ],
+   "params": {
+    "facade": "plain",
+    "stepped": true,
+    "terraces": 1,
+    "mat": {
+     "surface": "terracotta_sherds",
+     "fallback": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "Through the first century the heap of sherds grows in deliberately terraced dumps, the empty amphorae being smashed and the pieces stacked, sprinkled with lime against the smell of rancid oil.",
+   "phases": [
+    {
+     "y": 1,
+     "t": "height about 8 m"
+    }
+   ],
+   "sources": [],
+   "scholarship": [
+    "Blazquez Martinez and Remesal Rodriguez, Estudios sobre el Monte Testaccio (1999-2019)",
+    "Rodriguez Almeida, Il Monte Testaccio (1984)",
+    "Richardson (1992) 381-382"
+   ],
+   "note": "Final footprint from the OSM outline of the archaeological area (way 23921018), area ~42,000 m2 including the skirt; earlier versions scaled toward the centre. Heights per version are estimates from the excavated dating of the dumps (most material is Severan). Coordinate with the terrain model: the DEM already contains the hill, so the renderer should not double it after 260."
+  },
+  {
+   "id": "monte_testaccio_v3",
+   "monument": "monte_testaccio",
+   "name": "Monte Testaccio (growing, AD 100)",
+   "from": 100,
+   "to": 149,
+   "builder": null,
+   "template": "platform",
+   "loc": [
+    12.475142,
+    41.875844
+   ],
+   "rot": 347,
+   "w": 144.7,
+   "l": 211.7,
+   "h": 16.0,
+   "footprint": [
+    [
+     12.474228,
+     41.876082
+    ],
+    [
+     12.474233,
+     41.875971
+    ],
+    [
+     12.474244,
+     41.875848
+    ],
+    [
+     12.474309,
+     41.875742
+    ],
+    [
+     12.474393,
+     41.875622
+    ],
+    [
+     12.474476,
+     41.875541
+    ],
+    [
+     12.474601,
+     41.875446
+    ],
+    [
+     12.474679,
+     41.875411
+    ],
+    [
+     12.47476,
+     41.875396
+    ],
+    [
+     12.474981,
+     41.875327
+    ],
+    [
+     12.475162,
+     41.875143
+    ],
+    [
+     12.475318,
+     41.87497
+    ],
+    [
+     12.475455,
+     41.874923
+    ],
+    [
+     12.475598,
+     41.87494
+    ],
+    [
+     12.47574,
+     41.874975
+    ],
+    [
+     12.475869,
+     41.875043
+    ],
+    [
+     12.475974,
+     41.875144
+    ],
+    [
+     12.476113,
+     41.875392
+    ],
+    [
+     12.476126,
+     41.87549
+    ],
+    [
+     12.476094,
+     41.875656
+    ],
+    [
+     12.476023,
+     41.875782
+    ],
+    [
+     12.475919,
+     41.87602
+    ],
+    [
+     12.475838,
+     41.876169
+    ],
+    [
+     12.475784,
+     41.876314
+    ],
+    [
+     12.47577,
+     41.876428
+    ],
+    [
+     12.47582,
+     41.876546
+    ],
+    [
+     12.475763,
+     41.876753
+    ],
+    [
+     12.475658,
+     41.876912
+    ],
+    [
+     12.474246,
+     41.876339
+    ],
+    [
+     12.474228,
+     41.876082
+    ]
+   ],
+   "params": {
+    "facade": "plain",
+    "stepped": true,
+    "terraces": 2,
+    "mat": {
+     "surface": "terracotta_sherds",
+     "fallback": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "Under Trajan and Hadrian the imports of Baetican oil in Dressel 20 globular amphorae, each stamped and painted with shipping data, raise the mound rapidly.",
+   "phases": [
+    {
+     "y": 100,
+     "t": "height about 16 m"
+    }
+   ],
+   "sources": [],
+   "scholarship": [
+    "Blazquez Martinez and Remesal Rodriguez, Estudios sobre el Monte Testaccio (1999-2019)",
+    "Rodriguez Almeida, Il Monte Testaccio (1984)",
+    "Richardson (1992) 381-382"
+   ],
+   "note": "Final footprint from the OSM outline of the archaeological area (way 23921018), area ~42,000 m2 including the skirt; earlier versions scaled toward the centre. Heights per version are estimates from the excavated dating of the dumps (most material is Severan). Coordinate with the terrain model: the DEM already contains the hill, so the renderer should not double it after 260."
+  },
+  {
+   "id": "monte_testaccio_v4",
+   "monument": "monte_testaccio",
+   "name": "Monte Testaccio (growing, AD 150)",
+   "from": 150,
+   "to": 199,
+   "builder": null,
+   "template": "platform",
+   "loc": [
+    12.475142,
+    41.875844
+   ],
+   "rot": 347,
+   "w": 172.9,
+   "l": 252.8,
+   "h": 25.0,
+   "footprint": [
+    [
+     12.474051,
+     41.876128
+    ],
+    [
+     12.474056,
+     41.875995
+    ],
+    [
+     12.47407,
+     41.875849
+    ],
+    [
+     12.474147,
+     41.875723
+    ],
+    [
+     12.474248,
+     41.875579
+    ],
+    [
+     12.474346,
+     41.875482
+    ],
+    [
+     12.474496,
+     41.875368
+    ],
+    [
+     12.474589,
+     41.875326
+    ],
+    [
+     12.474686,
+     41.875309
+    ],
+    [
+     12.47495,
+     41.875227
+    ],
+    [
+     12.475166,
+     41.875006
+    ],
+    [
+     12.475352,
+     41.8748
+    ],
+    [
+     12.475516,
+     41.874744
+    ],
+    [
+     12.475687,
+     41.874764
+    ],
+    [
+     12.475857,
+     41.874806
+    ],
+    [
+     12.476011,
+     41.874887
+    ],
+    [
+     12.476136,
+     41.875008
+    ],
+    [
+     12.476302,
+     41.875304
+    ],
+    [
+     12.476318,
+     41.875422
+    ],
+    [
+     12.476279,
+     41.87562
+    ],
+    [
+     12.476194,
+     41.87577
+    ],
+    [
+     12.47607,
+     41.876055
+    ],
+    [
+     12.475973,
+     41.876232
+    ],
+    [
+     12.475908,
+     41.876406
+    ],
+    [
+     12.475892,
+     41.876541
+    ],
+    [
+     12.475951,
+     41.876683
+    ],
+    [
+     12.475884,
+     41.87693
+    ],
+    [
+     12.475759,
+     41.87712
+    ],
+    [
+     12.474072,
+     41.876436
+    ],
+    [
+     12.474051,
+     41.876128
+    ]
+   ],
+   "params": {
+    "facade": "plain",
+    "stepped": true,
+    "terraces": 4,
+    "mat": {
+     "surface": "terracotta_sherds",
+     "fallback": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "By the later second century the mound is a major hill, built in successive platforms with retaining walls of whole amphorae.",
+   "phases": [
+    {
+     "y": 150,
+     "t": "height about 25 m"
+    }
+   ],
+   "sources": [],
+   "scholarship": [
+    "Blazquez Martinez and Remesal Rodriguez, Estudios sobre el Monte Testaccio (1999-2019)",
+    "Rodriguez Almeida, Il Monte Testaccio (1984)",
+    "Richardson (1992) 381-382"
+   ],
+   "note": "Final footprint from the OSM outline of the archaeological area (way 23921018), area ~42,000 m2 including the skirt; earlier versions scaled toward the centre. Heights per version are estimates from the excavated dating of the dumps (most material is Severan). Coordinate with the terrain model: the DEM already contains the hill, so the renderer should not double it after 260."
+  },
+  {
+   "id": "monte_testaccio_v5",
+   "monument": "monte_testaccio",
+   "name": "Monte Testaccio (growing, AD 200)",
+   "from": 200,
+   "to": 259,
+   "builder": null,
+   "template": "platform",
+   "loc": [
+    12.475142,
+    41.875844
+   ],
+   "rot": 347,
+   "w": 195.0,
+   "l": 285.2,
+   "h": 33.0,
+   "footprint": [
+    [
+     12.473911,
+     41.876164
+    ],
+    [
+     12.473917,
+     41.876015
+    ],
+    [
+     12.473932,
+     41.87585
+    ],
+    [
+     12.47402,
+     41.875707
+    ],
+    [
+     12.474133,
+     41.875545
+    ],
+    [
+     12.474245,
+     41.875436
+    ],
+    [
+     12.474414,
+     41.875308
+    ],
+    [
+     12.474518,
+     41.87526
+    ],
+    [
+     12.474628,
+     41.875241
+    ],
+    [
+     12.474926,
+     41.875148
+    ],
+    [
+     12.475169,
+     41.874899
+    ],
+    [
+     12.475379,
+     41.874666
+    ],
+    [
+     12.475564,
+     41.874603
+    ],
+    [
+     12.475757,
+     41.874626
+    ],
+    [
+     12.475948,
+     41.874673
+    ],
+    [
+     12.476122,
+     41.874764
+    ],
+    [
+     12.476263,
+     41.874901
+    ],
+    [
+     12.476451,
+     41.875235
+    ],
+    [
+     12.476468,
+     41.875368
+    ],
+    [
+     12.476424,
+     41.875591
+    ],
+    [
+     12.476328,
+     41.875761
+    ],
+    [
+     12.476189,
+     41.876082
+    ],
+    [
+     12.476079,
+     41.876281
+    ],
+    [
+     12.476006,
+     41.876477
+    ],
+    [
+     12.475988,
+     41.876631
+    ],
+    [
+     12.476055,
+     41.87679
+    ],
+    [
+     12.475979,
+     41.877069
+    ],
+    [
+     12.475837,
+     41.877283
+    ],
+    [
+     12.473935,
+     41.876511
+    ],
+    [
+     12.473911,
+     41.876164
+    ]
+   ],
+   "params": {
+    "facade": "plain",
+    "stepped": true,
+    "terraces": 5,
+    "mat": {
+     "surface": "terracotta_sherds",
+     "fallback": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "The Severan oil distributions to the plebs bring the peak of dumping; North African amphorae join the Spanish ones.",
+   "phases": [
+    {
+     "y": 200,
+     "t": "height about 33 m"
+    }
+   ],
+   "sources": [],
+   "scholarship": [
+    "Blazquez Martinez and Remesal Rodriguez, Estudios sobre el Monte Testaccio (1999-2019)",
+    "Rodriguez Almeida, Il Monte Testaccio (1984)",
+    "Richardson (1992) 381-382"
+   ],
+   "note": "Final footprint from the OSM outline of the archaeological area (way 23921018), area ~42,000 m2 including the skirt; earlier versions scaled toward the centre. Heights per version are estimates from the excavated dating of the dumps (most material is Severan). Coordinate with the terrain model: the DEM already contains the hill, so the renderer should not double it after 260."
+  },
+  {
+   "id": "monte_testaccio_v6",
+   "monument": "monte_testaccio",
+   "name": "Monte Testaccio",
+   "from": 260,
+   "to": 9999,
+   "builder": null,
+   "template": "platform",
+   "loc": [
+    12.475142,
+    41.875844
+   ],
+   "rot": 347,
+   "w": 201.0,
+   "l": 294.0,
+   "h": 36.0,
+   "footprint": [
+    [
+     12.473873,
+     41.876174
+    ],
+    [
+     12.473879,
+     41.87602
+    ],
+    [
+     12.473895,
+     41.87585
+    ],
+    [
+     12.473985,
+     41.875703
+    ],
+    [
+     12.474102,
+     41.875536
+    ],
+    [
+     12.474217,
+     41.875423
+    ],
+    [
+     12.474391,
+     41.875291
+    ],
+    [
+     12.474499,
+     41.875242
+    ],
+    [
+     12.474612,
+     41.875222
+    ],
+    [
+     12.474919,
+     41.875126
+    ],
+    [
+     12.47517,
+     41.87487
+    ],
+    [
+     12.475386,
+     41.87463
+    ],
+    [
+     12.475577,
+     41.874565
+    ],
+    [
+     12.475776,
+     41.874588
+    ],
+    [
+     12.475973,
+     41.874637
+    ],
+    [
+     12.476152,
+     41.874731
+    ],
+    [
+     12.476298,
+     41.874872
+    ],
+    [
+     12.476491,
+     41.875216
+    ],
+    [
+     12.476509,
+     41.875353
+    ],
+    [
+     12.476464,
+     41.875583
+    ],
+    [
+     12.476365,
+     41.875758
+    ],
+    [
+     12.476221,
+     41.876089
+    ],
+    [
+     12.476108,
+     41.876295
+    ],
+    [
+     12.476033,
+     41.876497
+    ],
+    [
+     12.476014,
+     41.876655
+    ],
+    [
+     12.476083,
+     41.876819
+    ],
+    [
+     12.476005,
+     41.877107
+    ],
+    [
+     12.475859,
+     41.877328
+    ],
+    [
+     12.473898,
+     41.876532
+    ],
+    [
+     12.473873,
+     41.876174
+    ]
+   ],
+   "params": {
+    "facade": "plain",
+    "stepped": true,
+    "terraces": 6,
+    "mat": {
+     "surface": "grass",
+     "fallback": "roof_tile"
+    }
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "Dumping stops around 260. The finished hill is roughly triangular, about 1 km round, 20,000 m2 in area and some 35-36 m high, made of the remains of perhaps 53 million amphorae.",
+   "phases": [
+    {
+     "y": 260,
+     "t": "height about 36 m"
+    }
+   ],
+   "sources": [],
+   "scholarship": [
+    "Blazquez Martinez and Remesal Rodriguez, Estudios sobre el Monte Testaccio (1999-2019)",
+    "Rodriguez Almeida, Il Monte Testaccio (1984)",
+    "Richardson (1992) 381-382"
+   ],
+   "note": "Final footprint from the OSM outline of the archaeological area (way 23921018), area ~42,000 m2 including the skirt; earlier versions scaled toward the centre. Heights per version are estimates from the excavated dating of the dumps (most material is Severan). Coordinate with the terrain model: the DEM already contains the hill, so the renderer should not double it after 260."
+  },
+  {
+   "id": "pyramid_of_cestius_v1",
+   "monument": "pyramid_of_cestius",
+   "name": "Pyramid of Gaius Cestius",
+   "from": -12,
+   "to": 270,
+   "begun": -18,
+   "builder": null,
+   "template": "pyramid",
+   "loc": [
+    12.480854,
+    41.876449
+   ],
+   "rot": 114.3,
+   "w": 29.6,
+   "l": 29.6,
+   "h": 36.4,
+   "params": {
+    "w": 29.6,
+    "h": 36.4,
+    "chamber": {
+     "w": 4,
+     "l": 6,
+     "h": 5
+    },
+    "columns": 4,
+    "mat": {
+     "walls": "marble_white",
+     "core": "concrete"
+    }
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "Tomb of the praetor, tribune and septemvir epulonum C. Cestius Epulo, finished within 330 days according to its inscription: a pyramid 100 Roman feet square and 125 high, of concrete faced with white Luna marble, with a small painted burial chamber. It stood by the Via Ostiensis among other tombs, with two columns and statues at its corners.",
+   "phases": [
+    {
+     "y": -12,
+     "t": "completed by the heirs, including Agrippa (CIL VI 1374-1375)"
+    }
+   ],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "1374; 1375"
+    }
+   ],
+   "scholarship": [
+    "Richardson (1992) 353",
+    "Claridge, Rome (2010) 400-402",
+    "Ridley, 'The pyramid of Gaius Cestius', in Ancient Society 23 (1992)"
+   ],
+   "note": "Centre and alignment (sides at 24/114 deg) from OSM. rot 114 = the inscribed east face toward the Via Ostiensis."
+  },
+  {
+   "id": "pyramid_of_cestius_v2",
+   "monument": "pyramid_of_cestius",
+   "name": "Pyramid of Gaius Cestius (in the Aurelian Wall)",
+   "from": 271,
+   "to": 9999,
+   "builder": null,
+   "template": "pyramid",
+   "loc": [
+    12.480854,
+    41.876449
+   ],
+   "rot": 114.3,
+   "w": 29.6,
+   "l": 29.6,
+   "h": 36.4,
+   "params": {
+    "w": 29.6,
+    "h": 36.4,
+    "inWall": true,
+    "mat": {
+     "walls": "marble_white",
+     "core": "concrete"
+    }
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "Aurelian's builders incorporated the pyramid into the city wall as a bastion next to the Porta Ostiensis, which saved it.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Richardson (1992) 353",
+    "Claridge, Rome (2010) 400-402",
+    "Ridley, 'The pyramid of Gaius Cestius', in Ancient Society 23 (1992)"
+   ],
+   "note": "Same structure; new version for the change of setting (wall built against its flanks)."
+  },
+  {
+   "id": "porticus_sancti_pauli_v1",
+   "monument": "porticus_sancti_pauli",
+   "name": "Portico of St Paul (Via Ostiensis colonnade)",
+   "from": 400,
+   "to": 9999,
+   "builder": null,
+   "template": "colonnade",
+   "loc": [
+    12.4793,
+    41.8678
+   ],
+   "rot": 200,
+   "w": 4.0,
+   "l": 2000.0,
+   "h": 6.0,
+   "params": {
+    "line": [
+     [
+      12.4814,
+      41.8765
+     ],
+     [
+      12.4811,
+      41.873
+     ],
+     [
+      12.48,
+      41.869
+     ],
+     [
+      12.4789,
+      41.865
+     ],
+     [
+      12.4779,
+      41.8615
+     ],
+     [
+      12.4775,
+      41.8596
+     ]
+    ],
+    "depth": 4.0,
+    "colH": 4.5,
+    "roofed": true,
+    "mat": {
+     "columns": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "documented",
+   "summary": "A roofed colonnade some 2 km long that sheltered pilgrims on the road from the Porta Ostiensis to the basilica of St Paul, built around 400; Procopius mentions it during the siege of 537.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "De bellis",
+     "r": "6.4.9"
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Rome: Profile of a City (1980) 24",
+    "Brandenburg, Ancient Churches of Rome (2005) 114-130"
+   ],
+   "note": "Line follows the modern Via Ostiense, which keeps the ancient course; date approximate."
+  },
+  {
+   "id": "necropolis_via_ostiensis_v1",
+   "monument": "necropolis_via_ostiensis",
+   "name": "Necropolis of the Via Ostiensis (Sepolcreto Ostiense)",
+   "from": -80,
+   "to": 9999,
+   "builder": null,
+   "template": "compound",
+   "loc": [
+    12.4797,
+    41.8714
+   ],
+   "rot": 290,
+   "w": 40.0,
+   "l": 90.0,
+   "h": 5.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": -12,
+      "y": -30,
+      "w": 8,
+      "l": 8,
+      "h": 4,
+      "mat": "tufa"
+     },
+     {
+      "shape": "box",
+      "x": -12,
+      "y": -12,
+      "w": 7,
+      "l": 9,
+      "h": 5,
+      "mat": "brick"
+     },
+     {
+      "shape": "box",
+      "x": -12,
+      "y": 6,
+      "w": 9,
+      "l": 7,
+      "h": 4,
+      "mat": "brick"
+     },
+     {
+      "shape": "box",
+      "x": -12,
+      "y": 24,
+      "w": 6,
+      "l": 6,
+      "h": 3,
+      "mat": "brick"
+     },
+     {
+      "shape": "box",
+      "x": 12,
+      "y": -20,
+      "w": 8,
+      "l": 8,
+      "h": 4,
+      "mat": "reticulate"
+     },
+     {
+      "shape": "box",
+      "x": 12,
+      "y": 10,
+      "w": 10,
+      "l": 8,
+      "h": 5,
+      "mat": "brick"
+     }
+    ]
+   },
+   "importance": 1,
+   "certainty": "excavated",
+   "summary": "Tombs of the late Republic to the fourth century lining the Via Ostiensis south of the Porta Ostiensis, excavated near the Centrale Montemartini; the cemetery around Paul's grave lay further south.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Lugli, 'La necropoli Ostiense', Notizie degli Scavi (1919)"
+   ],
+   "note": "Generic tomb cluster at the excavated stretch along Via Ostiense; individual tombs schematic."
+  },
+  {
+   "id": "san_paolo_fuori_le_mura_v1",
+   "monument": "st_pauls_outside_the_walls",
+   "name": "Basilica of St Paul (Constantinian)",
+   "from": 324,
+   "to": 385,
+   "begun": 320,
+   "builder": "constantine_i",
+   "template": "church",
+   "loc": [
+    12.477756,
+    41.858602
+   ],
+   "rot": 100.7,
+   "w": 20.0,
+   "l": 32.0,
+   "h": 12.0,
+   "params": {
+    "nave": 10,
+    "aisles": 1,
+    "transept": false,
+    "apse": true,
+    "atrium": null,
+    "narthex": false,
+    "mat": {
+     "walls": "brick",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "A modest basilica built under Constantine over the tomb of the apostle Paul on the Via Ostiensis, its apse to the west at the grave and its entrance facing the road to the east; part of its apse was found in 1850 under the later transept.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "Silvester",
+     "r": "34.21"
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Corpus Basilicarum Christianarum Romae V (1977) 93-164",
+    "Brandenburg, Ancient Churches of Rome (2005) 114-130",
+    "Filippi, excavations at the tomb of St Paul (2002-2006)"
+   ],
+   "note": "Placed ~75 m east of the present basilica's centroid, east of the tomb under the transept, entrance to the east (rot 100.7). Dimensions approximate."
+  },
+  {
+   "id": "san_paolo_fuori_le_mura_v2",
+   "monument": "st_pauls_outside_the_walls",
+   "name": "Basilica of St Paul (Basilica of the Three Emperors)",
+   "from": 402,
+   "to": 9999,
+   "begun": 386,
+   "builder": "theodosius_i",
+   "template": "church",
+   "loc": [
+    12.476867,
+    41.858728
+   ],
+   "rot": 280.7,
+   "w": 65.0,
+   "l": 128.0,
+   "h": 30.0,
+   "params": {
+    "nave": 24.6,
+    "aisles": 2,
+    "transept": true,
+    "transeptW": 71,
+    "apse": true,
+    "atrium": {
+     "w": 70,
+     "l": 70
+    },
+    "narthex": true,
+    "columns": 80,
+    "mat": {
+     "walls": "brick",
+     "columns": "marble_white",
+     "roof": "roof_tile",
+     "apse": "gilded"
+    }
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "In 386 Valentinian II, Theodosius and Arcadius ordered a basilica to rival St Peter's; to make room the axis was reversed, so the new church faced west toward the Tiber with its apse to the east over Paul's tomb. Five aisles divided by 80 columns, a nave 24.6 m wide and about 30 m high, a transept and a colonnaded atrium: 128 m long and 65 m wide. Completed under Honorius; restored and decorated by Galla Placidia and Leo I. It stood intact until the fire of 1823 and was rebuilt on the same plan.",
+   "phases": [
+    {
+     "y": 386,
+     "t": "imperial rescript to the urban prefect Sallustius (Coll. Avell. 3)"
+    },
+    {
+     "y": 402,
+     "t": "completed under Honorius"
+    },
+    {
+     "y": 445,
+     "t": "mosaic of the triumphal arch, Galla Placidia and Leo I"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Collectio Avellana",
+     "w": "3"
+    },
+    {
+     "a": "Prudentius",
+     "w": "Peristephanon",
+     "r": "12.45-54"
+    }
+   ],
+   "scholarship": [
+    "Krautheimer, Corpus V (1977) 93-164",
+    "Brandenburg (2005) 114-130",
+    "Krautheimer, Rome: Profile of a City (1980) 42-44"
+   ],
+   "note": "Centre and axis from OSM outline of the present basilica, rebuilt 1823-1854 on the ancient plan; facade faces west (rot 280.7) toward the quadriporticus and the river."
+  }
+ ]
+}
