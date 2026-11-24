@@ -1,0 +1,2632 @@
+{
+ "buildings": [
+  {
+   "id": "domus_vedii_pollionis",
+   "monument": "porticus_liviae",
+   "name": "House of Vedius Pollio",
+   "from": -60,
+   "to": -16,
+   "builder": null,
+   "template": "domus",
+   "loc": [
+    12.4975,
+    41.8938
+   ],
+   "rot": 25,
+   "w": 70.0,
+   "l": 100.0,
+   "h": 10.0,
+   "params": {
+    "atrium": true,
+    "peristyle": {
+     "w": 40.0,
+     "l": 50.0
+    },
+    "storeys": 2,
+    "mat": {
+     "walls": "tufa",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "The vast mansion of the equestrian P. Vedius Pollio, notorious for feeding slaves to his lampreys. He left it to Augustus, who in 15 BC razed it to the ground so that no one should live in such luxury, and built the Porticus Liviae on the site.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "6.639-648"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "54.23.1-6"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Haeuber, The Eastern Part of the Mons Oppius in Rome (2014)"
+   ],
+   "note": "Same site as the Porticus Liviae; size and plan invented to fill the plot; from-date arbitrary."
+  },
+  {
+   "id": "porticus_liviae",
+   "monument": "porticus_liviae",
+   "name": "Porticus Liviae",
+   "from": -7,
+   "to": 9999,
+   "begun": -15,
+   "builder": "livia",
+   "template": "porticus",
+   "loc": [
+    12.4975,
+    41.8938
+   ],
+   "rot": 25,
+   "w": 115.0,
+   "l": 75.0,
+   "h": 10.0,
+   "footprint": [
+    [
+     12.49668,
+     41.893713
+    ],
+    [
+     12.497938,
+     41.893275
+    ],
+    [
+     12.49832,
+     41.893887
+    ],
+    [
+     12.497062,
+     41.894325
+    ],
+    [
+     12.49668,
+     41.893713
+    ]
+   ],
+   "params": {
+    "depth": 8.0,
+    "colH": 7.5,
+    "double": true,
+    "garden": true,
+    "sides": [
+     "n",
+     "s",
+     "e",
+     "w"
+    ],
+    "features": "central rectangular shrine (perhaps the aedes Concordiae dedicated by Livia), fountains in the corners, exedrae on the long sides, a famous vine shading the walks",
+    "mat": {
+     "columns": "marble_white",
+     "walls": "brick",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "documented",
+   "summary": "A colonnaded garden square about 115 x 75 m dedicated by Livia and Tiberius in 7 BC on the site of Vedius Pollio's house, on the Oppius along the Clivus Suburanus. Its double colonnade enclosed planted walks shaded by a single enormous vine; the Marble Plan shows the plan with a central shrine. A favourite place for strolling, mentioned by Pliny the Younger.",
+   "phases": [
+    {
+     "y": -7,
+     "t": "dedicated by Livia and Tiberius"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "6.639-648"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "54.23.6"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "55.8.2"
+    },
+    {
+     "a": "Strabo",
+     "w": "Geographica",
+     "r": "5.3.8"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "14.11"
+    },
+    {
+     "a": "Pliny the Younger",
+     "w": "Epistulae",
+     "r": "1.5.9"
+    }
+   ],
+   "scholarship": [
+    "Stanford Digital Forma Urbis Romae Project",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Haeuber, The Eastern Part of the Mons Oppius in Rome (2014)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)"
+   ],
+   "note": "Marble Plan fragment 10. Placed between the Clivus Suburanus and the NE wall of the Baths of Trajan; facing NNE onto the clivus (rot 25)."
+  },
+  {
+   "id": "macellum_liviae_v1",
+   "monument": "macellum_liviae",
+   "name": "Macellum Liviae",
+   "from": -7,
+   "to": 363,
+   "begun": -10,
+   "builder": "augustus",
+   "template": "compound",
+   "loc": [
+    12.50245,
+    41.89605
+   ],
+   "rot": 280,
+   "w": 50.0,
+   "l": 80.0,
+   "h": 10.0,
+   "footprint": [
+    [
+     12.502873,
+     41.895766
+    ],
+    [
+     12.502978,
+     41.896209
+    ],
+    [
+     12.502027,
+     41.896334
+    ],
+    [
+     12.501922,
+     41.895891
+    ],
+    [
+     12.502873,
+     41.895766
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "court",
+      "x": 0,
+      "y": 0,
+      "w": 50.0,
+      "l": 80.0,
+      "h": 9.0,
+      "mat": "brick",
+      "ringDepth": 8.0,
+      "storeys": 2
+     },
+     {
+      "shape": "cylinder",
+      "x": 0,
+      "y": 0,
+      "w": 12.0,
+      "l": 12.0,
+      "h": 7.0,
+      "mat": "travertine"
+     },
+     {
+      "shape": "dome",
+      "x": 0,
+      "y": 0,
+      "w": 12.0,
+      "l": 12.0,
+      "h": 3.0,
+      "z": 7.0,
+      "mat": "roof_tile"
+     }
+    ]
+   },
+   "importance": 2,
+   "certainty": "reconstructed",
+   "summary": "A provisions market on the Esquiline just outside the Porta Esquilina, dedicated together with the Porticus Liviae; a court of shops round a central tholos on the standard macellum plan.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Notitia",
+     "w": "Regio V",
+     "r": "macellum Liviani"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Lanciani, Forma Urbis Romae (1893-1901)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)"
+   ],
+   "note": "Remains reported by Lanciani near San Vito; plan reconstructed on the standard type. Faces W toward the gate."
+  },
+  {
+   "id": "macellum_liviae_v2",
+   "monument": "macellum_liviae",
+   "name": "Macellum Liviae (restored 364-378)",
+   "from": 364,
+   "to": 9999,
+   "begun": 364,
+   "builder": "valentinian_i",
+   "template": "compound",
+   "loc": [
+    12.50245,
+    41.89605
+   ],
+   "rot": 280,
+   "w": 50.0,
+   "l": 80.0,
+   "h": 10.0,
+   "footprint": [
+    [
+     12.502873,
+     41.895766
+    ],
+    [
+     12.502978,
+     41.896209
+    ],
+    [
+     12.502027,
+     41.896334
+    ],
+    [
+     12.501922,
+     41.895891
+    ],
+    [
+     12.502873,
+     41.895766
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "court",
+      "x": 0,
+      "y": 0,
+      "w": 50.0,
+      "l": 80.0,
+      "h": 9.0,
+      "mat": "brick",
+      "ringDepth": 8.0,
+      "storeys": 2
+     },
+     {
+      "shape": "cylinder",
+      "x": 0,
+      "y": 0,
+      "w": 12.0,
+      "l": 12.0,
+      "h": 7.0,
+      "mat": "travertine"
+     },
+     {
+      "shape": "dome",
+      "x": 0,
+      "y": 0,
+      "w": 12.0,
+      "l": 12.0,
+      "h": 3.0,
+      "z": 7.0,
+      "mat": "roof_tile"
+     }
+    ]
+   },
+   "importance": 2,
+   "certainty": "reconstructed",
+   "summary": "Restored by the emperors Valentinian, Valens and Gratian, whose inscription survives; in the 4th century the area around it, the Esquiline market district, was one of the busiest of the late city.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "1178"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)"
+   ]
+  },
+  {
+   "id": "temple_of_tellus",
+   "monument": "temple_of_tellus",
+   "name": "Temple of Tellus (in Carinis)",
+   "from": -268,
+   "to": 9999,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.4908,
+    41.8926
+   ],
+   "rot": 230,
+   "w": 16.0,
+   "l": 28.0,
+   "h": 15.0,
+   "params": {
+    "order": "tuscan",
+    "plan": "prostyle",
+    "front": 4,
+    "side": 3,
+    "podium": 3.0,
+    "colH": 8.0,
+    "steps": "front",
+    "precinct": {
+     "w": 40.0,
+     "l": 50.0,
+     "h": 4.0
+    },
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "tufa",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "conjectural",
+   "summary": "Vowed by P. Sempronius Sophus during an earthquake in battle against the Picentes in 268 BC, on the site of the house of Sp. Cassius, razed after his execution in 485. On its walls hung a painted map of Italy (Varro). The Senate met here on 17 March 44 BC, two days after the Ides, to debate an amnesty for the assassins. Quintus Cicero restored part of the precinct in 54 BC.",
+   "phases": [
+    {
+     "y": -268,
+     "t": "vowed and built"
+    },
+    {
+     "y": -54,
+     "t": "restoration by Quintus Cicero"
+    },
+    {
+     "y": -44,
+     "t": "Senate meeting of 17 March"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Florus",
+     "w": "Epitome",
+     "r": "1.14.2"
+    },
+    {
+     "a": "Varro",
+     "w": "De re rustica",
+     "r": "1.2.1"
+    },
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Antiquitates Romanae",
+     "r": "8.79.3"
+    },
+    {
+     "a": "Cicero",
+     "w": "Ad Quintum fratrem",
+     "r": "3.1.14"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)"
+   ],
+   "note": "Carinae, on the W slope of the Oppius near Via del Colosseo; exact site unknown. Builder P. Sempronius Sophus has no person id."
+  },
+  {
+   "id": "temple_of_juno_lucina",
+   "monument": "temple_of_juno_lucina",
+   "name": "Temple of Juno Lucina (Cispius)",
+   "from": -375,
+   "to": 9999,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.4969,
+    41.8963
+   ],
+   "rot": 210,
+   "w": 14.0,
+   "l": 24.0,
+   "h": 13.0,
+   "params": {
+    "order": "tuscan",
+    "plan": "prostyle",
+    "front": 4,
+    "side": 2,
+    "podium": 2.5,
+    "colH": 7.0,
+    "steps": "front",
+    "precinct": {
+     "w": 50.0,
+     "l": 60.0,
+     "h": 3.0
+    },
+    "lucus": "sacred grove of ancient lotus trees",
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "tufa",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Temple of Juno of childbirth, dedicated on 1 March 375 BC in her ancient grove on the Cispius; the Matronalia was celebrated here, and Pliny says the lotus tree in the grove was older than the temple. A coin was paid into its treasury for every birth.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "16.235"
+    },
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "3.245-258"
+    },
+    {
+     "a": "Varro",
+     "w": "De lingua Latina",
+     "r": "5.49"
+    },
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Antiquitates Romanae",
+     "r": "4.15.5"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000)"
+   ],
+   "note": "Located only as 'on the Cispius'; placed near S. Prassede."
+  },
+  {
+   "id": "esquiline_necropolis",
+   "monument": "esquiline_necropolis",
+   "name": "Esquiline necropolis and puticuli",
+   "from": -509,
+   "to": -36,
+   "builder": null,
+   "template": "compound",
+   "loc": [
+    12.503,
+    41.8945
+   ],
+   "rot": 0,
+   "w": 260.0,
+   "l": 220.0,
+   "h": 4.0,
+   "footprint": [
+    [
+     12.501431,
+     41.893509
+    ],
+    [
+     12.504569,
+     41.893509
+    ],
+    [
+     12.504569,
+     41.895491
+    ],
+    [
+     12.501431,
+     41.895491
+    ],
+    [
+     12.501431,
+     41.893509
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": -45.8,
+      "y": -76.8,
+      "w": 3,
+      "l": 3,
+      "h": 1.5,
+      "mat": "peperino"
+     },
+     {
+      "shape": "box",
+      "x": 21.5,
+      "y": 90.1,
+      "w": 4,
+      "l": 3,
+      "h": 1.5,
+      "mat": "stucco"
+     },
+     {
+      "shape": "box",
+      "x": -21.3,
+      "y": -57.1,
+      "w": 6,
+      "l": 3,
+      "h": 1.5,
+      "mat": "tufa"
+     },
+     {
+      "shape": "box",
+      "x": 34.0,
+      "y": 18.3,
+      "w": 3,
+      "l": 6,
+      "h": 4.0,
+      "mat": "tufa"
+     },
+     {
+      "shape": "box",
+      "x": 123.8,
+      "y": -99.8,
+      "w": 4,
+      "l": 4,
+      "h": 4.0,
+      "mat": "tufa"
+     },
+     {
+      "shape": "box",
+      "x": 10.6,
+      "y": 15.6,
+      "w": 4,
+      "l": 3,
+      "h": 2.0,
+      "mat": "peperino"
+     },
+     {
+      "shape": "box",
+      "x": -104.7,
+      "y": 46.7,
+      "w": 3,
+      "l": 6,
+      "h": 2.0,
+      "mat": "stucco"
+     },
+     {
+      "shape": "box",
+      "x": 46.9,
+      "y": -15.9,
+      "w": 5,
+      "l": 4,
+      "h": 4.0,
+      "mat": "peperino"
+     },
+     {
+      "shape": "box",
+      "x": -52.1,
+      "y": 64.8,
+      "w": 4,
+      "l": 3,
+      "h": 3.0,
+      "mat": "stucco"
+     },
+     {
+      "shape": "box",
+      "x": 97.5,
+      "y": 50.5,
+      "w": 5,
+      "l": 6,
+      "h": 1.5,
+      "mat": "tufa"
+     },
+     {
+      "shape": "box",
+      "x": 3.1,
+      "y": -73.7,
+      "w": 5,
+      "l": 3,
+      "h": 4.0,
+      "mat": "stucco"
+     },
+     {
+      "shape": "box",
+      "x": -119.8,
+      "y": 37.0,
+      "w": 5,
+      "l": 4,
+      "h": 3.0,
+      "mat": "stucco"
+     },
+     {
+      "shape": "box",
+      "x": 20.8,
+      "y": -9.6,
+      "w": 3,
+      "l": 4,
+      "h": 4.0,
+      "mat": "tufa"
+     },
+     {
+      "shape": "box",
+      "x": -114.2,
+      "y": 44.3,
+      "w": 6,
+      "l": 4,
+      "h": 4.0,
+      "mat": "peperino"
+     },
+     {
+      "shape": "box",
+      "x": -124.1,
+      "y": -8.4,
+      "w": 4,
+      "l": 6,
+      "h": 1.5,
+      "mat": "stucco"
+     },
+     {
+      "shape": "box",
+      "x": -114.7,
+      "y": 59.0,
+      "w": 4,
+      "l": 6,
+      "h": 2.0,
+      "mat": "stucco"
+     },
+     {
+      "shape": "box",
+      "x": -28.4,
+      "y": 81.7,
+      "w": 3,
+      "l": 3,
+      "h": 4.0,
+      "mat": "stucco"
+     },
+     {
+      "shape": "box",
+      "x": 12.9,
+      "y": 84.3,
+      "w": 6,
+      "l": 6,
+      "h": 3.0,
+      "mat": "stucco"
+     },
+     {
+      "shape": "box",
+      "x": 126.5,
+      "y": 40.2,
+      "w": 6,
+      "l": 3,
+      "h": 2.0,
+      "mat": "tufa"
+     },
+     {
+      "shape": "box",
+      "x": -84.2,
+      "y": -59.0,
+      "w": 4,
+      "l": 3,
+      "h": 4.0,
+      "mat": "tufa"
+     },
+     {
+      "shape": "box",
+      "x": -61.7,
+      "y": -109.1,
+      "w": 6,
+      "l": 6,
+      "h": 3.0,
+      "mat": "peperino"
+     },
+     {
+      "shape": "box",
+      "x": 117.8,
+      "y": 41.9,
+      "w": 3,
+      "l": 4,
+      "h": 4.0,
+      "mat": "stucco"
+     },
+     {
+      "shape": "box",
+      "x": -110,
+      "y": 60,
+      "w": 30.0,
+      "l": 25.0,
+      "h": 0.5,
+      "mat": "grass",
+      "note": "puticuli pit area"
+     }
+    ],
+    "kind": "cemetery: chamber tombs of the archaic and Republican elite, common burial pits (puticuli) for the poor and slaves"
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "The great cemetery outside the Porta Esquilina, used from the Iron Age: chamber tombs of the archaic and Republican aristocracy (with the famous painted 'Esquiline historical fragment' of Fannius and Fabius), and the puticuli, open pits into which the bodies of the poor, slaves and animals were thrown. Horace recalls the white bones lying about until Maecenas covered the area with 7-8 m of earth for his gardens.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Horace",
+     "w": "Satirae",
+     "r": "1.8.8-16"
+    },
+    {
+     "a": "Varro",
+     "w": "De lingua Latina",
+     "r": "5.25"
+    }
+   ],
+   "scholarship": [
+    "Lanciani, Forma Urbis Romae (1893-1901)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Carandini (ed.), The Atlas of Ancient Rome (2017)",
+    "Haeuber, The Eastern Part of the Mons Oppius in Rome (2014)"
+   ],
+   "note": "Explored by Lanciani in 1870s-80s (around 75 pits). Tomb blocks are scattered placeholders inside the cemetery area, not mapped tombs."
+  },
+  {
+   "id": "horti_maecenatis",
+   "monument": "horti_maecenatis",
+   "name": "Horti Maecenatis (Gardens of Maecenas)",
+   "from": -35,
+   "to": 9999,
+   "builder": "maecenas",
+   "template": "garden",
+   "loc": [
+    12.5022,
+    41.8933
+   ],
+   "rot": 0,
+   "w": 400.0,
+   "l": 500.0,
+   "h": 1.0,
+   "footprint": [
+    [
+     12.5005,
+     41.8958
+    ],
+    [
+     12.504,
+     41.8952
+    ],
+    [
+     12.505,
+     41.8925
+    ],
+    [
+     12.503,
+     41.8905
+    ],
+    [
+     12.4996,
+     41.8915
+    ],
+    [
+     12.4995,
+     41.8945
+    ],
+    [
+     12.5005,
+     41.8958
+    ]
+   ],
+   "params": {
+    "trees": 1.2,
+    "kind": "park",
+    "features": "terraces over the filled cemetery and the Servian agger, the Auditorium, the tower from which Nero watched the fire of 64, pavilions and fountains"
+   },
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "Maecenas laid out his gardens over the old Esquiline cemetery and along the Servian agger after about 35 BC, raising the ground and creating terraces. At his death in 8 BC they passed to Augustus; Tiberius lived here on his return from Rhodes, and Nero linked them to the Palatine with the Domus Transitoria and watched Rome burn from their tower.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Horace",
+     "w": "Satirae",
+     "r": "1.8.14-16"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Nero",
+     "r": "38.2"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Tiberius",
+     "r": "15.1"
+    }
+   ],
+   "scholarship": [
+    "Haeuber, The Eastern Part of the Mons Oppius in Rome (2014)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)"
+   ],
+   "note": "Boundary reconstructed: Servian agger (W), Via Merulana area, toward the Horti Lamiani (E)."
+  },
+  {
+   "id": "turris_maecenatiana",
+   "monument": "turris_maecenatiana",
+   "name": "Turris Maecenatiana",
+   "from": -30,
+   "to": 9999,
+   "builder": "maecenas",
+   "template": "compound",
+   "loc": [
+    12.5019,
+    41.8936
+   ],
+   "rot": 0,
+   "w": 12.0,
+   "l": 12.0,
+   "h": 25.0,
+   "footprint": [
+    [
+     12.501828,
+     41.893546
+    ],
+    [
+     12.501972,
+     41.893546
+    ],
+    [
+     12.501972,
+     41.893654
+    ],
+    [
+     12.501828,
+     41.893654
+    ],
+    [
+     12.501828,
+     41.893546
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "tower",
+      "x": 0,
+      "y": 0,
+      "w": 12.0,
+      "l": 12.0,
+      "h": 25.0,
+      "mat": "concrete_faced"
+     }
+    ]
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "The tall tower of Maecenas' gardens ('molem propinquam nubibus arduis', Horace) from which, Suetonius says, Nero watched the city burn in 64 singing of the sack of Troy.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Horace",
+     "w": "Carmina",
+     "r": "3.29.10"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Nero",
+     "r": "38.2"
+    }
+   ],
+   "scholarship": [
+    "Haeuber, The Eastern Part of the Mons Oppius in Rome (2014)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Site and form conjectural."
+  },
+  {
+   "id": "auditorium_maecenatis",
+   "monument": "auditorium_maecenatis",
+   "name": "Auditorium of Maecenas",
+   "from": -30,
+   "to": 9999,
+   "builder": "maecenas",
+   "template": "compound",
+   "loc": [
+    12.501338,
+    41.894006
+   ],
+   "rot": 135,
+   "w": 10.6,
+   "l": 24.4,
+   "h": 9.0,
+   "footprint": [
+    [
+     12.501279,
+     41.894117
+    ],
+    [
+     12.501189,
+     41.89405
+    ],
+    [
+     12.501397,
+     41.893895
+    ],
+    [
+     12.501487,
+     41.893962
+    ],
+    [
+     12.501279,
+     41.894117
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 10.6,
+      "l": 24.4,
+      "h": 7.0,
+      "z": -2.5,
+      "mat": "reticulate"
+     },
+     {
+      "shape": "stepped",
+      "x": 0,
+      "y": -14,
+      "w": 13.0,
+      "l": 6.5,
+      "h": 6.0,
+      "z": -2.5,
+      "mat": "marble_white",
+      "plan": "exedra",
+      "steps": 7
+     },
+     {
+      "shape": "gable",
+      "x": 0,
+      "y": 0,
+      "w": 10.6,
+      "l": 24.4,
+      "h": 2.5,
+      "z": 4.5,
+      "mat": "roof_tile"
+     }
+    ],
+    "interior": "walls painted with garden scenes in niches; stepped exedra at the NW end, probably a cascade or summer triclinium rather than an auditorium"
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "A half-sunken hall with a stepped exedra at one end and garden paintings in its niches, found in 1874 on the line of the Servian agger. Traditionally the hall where Maecenas' poets recited; more probably a cool garden dining hall with a water cascade over the steps.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Haeuber, The Eastern Part of the Mons Oppius in Rome (2014)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Location from Pleiades. The hall runs NW-SE with the exedra at the NW end; entrance ramp from the SE (rot 135). Floor about 2.5 m below the garden level."
+  },
+  {
+   "id": "horti_lamiani",
+   "monument": "horti_lamiani",
+   "name": "Horti Lamiani et Maiani",
+   "from": 1,
+   "to": 9999,
+   "builder": null,
+   "template": "garden",
+   "loc": [
+    12.5064,
+    41.8946
+   ],
+   "rot": 0,
+   "w": 450.0,
+   "l": 600.0,
+   "h": 1.0,
+   "footprint": [
+    [
+     12.504,
+     41.8975
+    ],
+    [
+     12.5085,
+     41.8968
+    ],
+    [
+     12.5095,
+     41.8935
+    ],
+    [
+     12.506,
+     41.8918
+    ],
+    [
+     12.504,
+     41.893
+    ],
+    [
+     12.5035,
+     41.8955
+    ],
+    [
+     12.504,
+     41.8975
+    ]
+   ],
+   "params": {
+    "trees": 1.0,
+    "kind": "formal",
+    "features": "pavilions with coloured marble floors and walls, a nymphaeum, a vivarium; findspot of the Esquiline Venus and the Lancellotti Discobolus"
+   },
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "Gardens laid out by L. Aelius Lamia (consul AD 3) and soon imperial property: Caligula received the Alexandrian Jewish embassy of Philo here and was briefly buried here after his murder. Excavations at Piazza Vittorio (2006-2015) revealed a luxurious pavilion with coloured marble and an animal park.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Philo",
+     "w": "Legatio ad Gaium",
+     "r": "351"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Caligula",
+     "r": "59"
+    }
+   ],
+   "scholarship": [
+    "Haeuber, The Eastern Part of the Mons Oppius in Rome (2014)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)"
+   ],
+   "note": "Boundary reconstructed around Piazza Vittorio; the Horti Maiani are merged."
+  },
+  {
+   "id": "horti_liciniani",
+   "monument": "horti_liciniani",
+   "name": "Horti Liciniani",
+   "from": 253,
+   "to": 9999,
+   "builder": "gallienus",
+   "template": "garden",
+   "loc": [
+    12.5118,
+    41.8938
+   ],
+   "rot": 0,
+   "w": 400.0,
+   "l": 450.0,
+   "h": 1.0,
+   "footprint": [
+    [
+     12.5095,
+     41.8962
+    ],
+    [
+     12.514,
+     41.8956
+    ],
+    [
+     12.515,
+     41.8925
+    ],
+    [
+     12.511,
+     41.8915
+    ],
+    [
+     12.509,
+     41.893
+    ],
+    [
+     12.5095,
+     41.8962
+    ]
+   ],
+   "params": {
+    "trees": 0.8,
+    "kind": "park",
+    "features": "pavilions including (probably) the decagonal 'Temple of Minerva Medica', a portico 1,000 ft long planned by Gallienus"
+   },
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "The imperial gardens of the emperor Gallienus (P. Licinius Egnatius Gallienus) on the eastern Esquiline near the later Porta Maggiore; the Historia Augusta credits him with planning colonnades there. The decagonal garden pavilion known as the 'Temple of Minerva Medica' is usually assigned to them.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Gallieni duo",
+     "r": "17.8"
+    }
+   ],
+   "scholarship": [
+    "Haeuber, The Eastern Part of the Mons Oppius in Rome (2014)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)"
+   ],
+   "note": "Boundary conjectural."
+  },
+  {
+   "id": "nymphaeum_alexandri_v1",
+   "monument": "nymphaeum_alexandri",
+   "name": "Nymphaeum of Severus Alexander ('Trofei di Mario')",
+   "from": 226,
+   "to": 536,
+   "begun": 222,
+   "builder": "severus_alexander",
+   "template": "fountain",
+   "loc": [
+    12.503681,
+    41.895267
+   ],
+   "rot": 260,
+   "w": 25.0,
+   "l": 22.0,
+   "h": 20.0,
+   "params": {
+    "kind": "nymphaeum",
+    "facade": {
+     "w": 25.0,
+     "h": 20.0
+    },
+    "storeys": 3,
+    "basins": 2,
+    "trophies": "two marble trophies (Domitianic) in the arched niches of the upper storey",
+    "mat": {
+     "walls": "brick",
+     "facing": "marble_white"
+    }
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "A monumental three-storey fountain at the fork of the Via Labicana and the road to Tibur, built by Severus Alexander as the display terminal of an aqueduct branch (Aqua Iulia or Claudia), shown on his coins of 226. Water fell through basins in the central exedra; the upper arches held the two marble trophies (in fact Domitianic) that medieval Romans thought were Marius' trophies over the Cimbri, now on the Capitol balustrade.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Notitia",
+     "w": "Regio V",
+     "r": "nymphaeum divi Alexandri"
+    }
+   ],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Haeuber, The Eastern Part of the Mons Oppius in Rome (2014)"
+   ],
+   "note": "Location from Pleiades. The facade faced W toward the Porta Esquilina and the city (rot 260), derived from the street fork."
+  },
+  {
+   "id": "nymphaeum_alexandri_v2",
+   "monument": "nymphaeum_alexandri",
+   "name": "Nymphaeum of Severus Alexander (dry)",
+   "from": 537,
+   "to": 9999,
+   "builder": null,
+   "template": "fountain",
+   "loc": [
+    12.503681,
+    41.895267
+   ],
+   "rot": 260,
+   "w": 25.0,
+   "l": 22.0,
+   "h": 20.0,
+   "params": {
+    "kind": "nymphaeum",
+    "facade": {
+     "w": 25.0,
+     "h": 20.0
+    },
+    "storeys": 3,
+    "basins": 2,
+    "trophies": "two marble trophies (Domitianic) in the arched niches of the upper storey",
+    "mat": {
+     "walls": "brick",
+     "facing": "marble_white"
+    }
+   },
+   "ruin": {
+    "from": 537,
+    "state": "half"
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "Dry after the aqueducts were cut by the Goths in 537; the brick core still stands in Piazza Vittorio.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)"
+   ]
+  },
+  {
+   "id": "temple_of_minerva_medica_v1",
+   "monument": "temple_of_minerva_medica",
+   "name": "'Temple of Minerva Medica' (garden pavilion)",
+   "from": 320,
+   "to": 349,
+   "begun": 310,
+   "builder": null,
+   "template": "centralplan",
+   "loc": [
+    12.511885,
+    41.893984
+   ],
+   "rot": 160,
+   "w": 24.5,
+   "l": 30.0,
+   "h": 32.5,
+   "params": {
+    "diameter": 24.5,
+    "drumH": 20.0,
+    "domeH": 12.5,
+    "sides": 10,
+    "oculus": 0,
+    "portico": null,
+    "vestibule": "curved narthex with flanking round rooms",
+    "windows": "ten large arched windows in the drum above nine niches",
+    "mat": {
+     "walls": "brick",
+     "dome": "concrete"
+    }
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "A decagonal domed hall about 24.5 m across and 32 m high, its brick walls opened by niches below and large windows above, probably a nymphaeum or dining pavilion of the Horti Liciniani built in the early 4th century. A milestone of late Roman dome construction, with brick ribs in the concrete. The name comes from a misidentified statue.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Haeuber, The Eastern Part of the Mons Oppius in Rome (2014)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Location from Pleiades. The entrance side is uncertain; the vestibule is assumed on the S toward the Via Labicana (rot 160)."
+  },
+  {
+   "id": "temple_of_minerva_medica_v2",
+   "monument": "temple_of_minerva_medica",
+   "name": "'Temple of Minerva Medica' (buttressed)",
+   "from": 350,
+   "to": 9999,
+   "begun": 340,
+   "builder": null,
+   "template": "centralplan",
+   "loc": [
+    12.511885,
+    41.893984
+   ],
+   "rot": 160,
+   "w": 32.0,
+   "l": 36.0,
+   "h": 32.5,
+   "params": {
+    "diameter": 24.5,
+    "drumH": 20.0,
+    "domeH": 12.5,
+    "sides": 10,
+    "oculus": 0,
+    "portico": null,
+    "vestibule": "curved narthex with flanking round rooms",
+    "windows": "ten large arched windows in the drum above nine niches",
+    "mat": {
+     "walls": "brick",
+     "dome": "concrete"
+    },
+    "buttresses": "external buttresses and two apsed exedrae added on the sides after cracks appeared"
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "Soon after construction cracks led to the addition of heavy buttresses and two large apsed side halls to shore up the dome. The dome stood until 1828.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Haeuber, The Eastern Part of the Mons Oppius in Rome (2014)"
+   ]
+  },
+  {
+   "id": "arch_of_gallienus_v1",
+   "monument": "arch_of_gallienus",
+   "name": "Porta Esquilina (Augustan arch)",
+   "from": -10,
+   "to": 261,
+   "begun": -15,
+   "builder": "augustus",
+   "template": "arch",
+   "loc": [
+    12.501357,
+    41.895777
+   ],
+   "rot": 100,
+   "w": 24.0,
+   "l": 3.5,
+   "h": 14.0,
+   "params": {
+    "bays": 3,
+    "depth": 3.5,
+    "atticH": 3.0,
+    "columns": "engaged",
+    "quadriga": false,
+    "pilasters": "Corinthian pilasters",
+    "mat": {
+     "body": "travertine"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "The Servian Porta Esquilina was rebuilt in Augustan times as a triple arch of travertine with Corinthian pilasters, through which the Clivus Suburanus left the city toward the Via Tiburtina and Via Praenestina.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Carandini (ed.), The Atlas of Ancient Rome (2017)"
+   ],
+   "note": "Gate structure itself (Servian circuit) belongs to the walls collection; this is the arch. Road through the arch runs about WNW-ESE; outer face toward the ESE (rot 100)."
+  },
+  {
+   "id": "arch_of_gallienus_v2",
+   "monument": "arch_of_gallienus",
+   "name": "Arch of Gallienus",
+   "from": 262,
+   "to": 9999,
+   "builder": "gallienus",
+   "template": "arch",
+   "loc": [
+    12.501357,
+    41.895777
+   ],
+   "rot": 100,
+   "w": 24.0,
+   "l": 3.5,
+   "h": 14.0,
+   "params": {
+    "bays": 3,
+    "depth": 3.5,
+    "atticH": 3.0,
+    "columns": "engaged",
+    "quadriga": false,
+    "pilasters": "Corinthian pilasters",
+    "mat": {
+     "body": "travertine"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "In 262 the urban official M. Aurelius Victor re-inscribed the Augustan arch in honour of Gallienus and Salonina, 'whose invincible courage is surpassed only by his piety'. Only the central bay survives; the side bays were demolished in the 15th century.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "1106"
+    }
+   ],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ]
+  },
+  {
+   "id": "lacus_orphei",
+   "monument": "lacus_orphei",
+   "name": "Lacus Orphei",
+   "from": 80,
+   "to": 9999,
+   "builder": null,
+   "template": "fountain",
+   "loc": [
+    12.4967,
+    41.89465
+   ],
+   "rot": 0,
+   "w": 8.0,
+   "l": 8.0,
+   "h": 5.0,
+   "params": {
+    "kind": "basin",
+    "diameter": 8.0,
+    "statue": "Orpheus surrounded by animals",
+    "mat": {
+     "basin": "marble_white"
+    }
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "A public fountain at the top of the Clivus Suburanus with a statue of Orpheus charming the beasts, which Martial uses as a landmark on the way to Pliny's house on the Esquiline.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Martial",
+     "w": "Epigrammata",
+     "r": "10.20.6-9"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Near S. Lucia in Selci (S. Lucia in Orphea)."
+  },
+  {
+   "id": "basilica_iunii_bassi",
+   "monument": "basilica_iunii_bassi",
+   "name": "Basilica of Junius Bassus",
+   "from": 331,
+   "to": 470,
+   "begun": 331,
+   "builder": null,
+   "template": "compound",
+   "loc": [
+    12.500254,
+    41.897309
+   ],
+   "rot": 115,
+   "w": 14.3,
+   "l": 31.4,
+   "h": 16.0,
+   "footprint": [
+    [
+     12.500119,
+     41.897427
+    ],
+    [
+     12.500046,
+     41.89731
+    ],
+    [
+     12.500389,
+     41.897191
+    ],
+    [
+     12.500462,
+     41.897308
+    ],
+    [
+     12.500119,
+     41.897427
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 14.3,
+      "l": 31.4,
+      "h": 13.0,
+      "mat": "brick"
+     },
+     {
+      "shape": "gable",
+      "x": 0,
+      "y": 0,
+      "w": 14.3,
+      "l": 31.4,
+      "h": 3.0,
+      "z": 13.0,
+      "mat": "roof_tile"
+     },
+     {
+      "shape": "apse",
+      "x": 0,
+      "y": -17,
+      "w": 9.0,
+      "l": 4.5,
+      "h": 10.0,
+      "mat": "brick"
+     }
+    ],
+    "interior": "opus sectile wall panels of coloured marbles (Hylas and the nymphs, the consul's procession, now in the Palazzo Massimo and Capitoline museums)"
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "An apsed reception hall built by Junius Bassus, consul of 331, famous for its opus sectile wall panels in coloured stone. Pope Simplicius turned it into the church of S. Andrea Catabarbara about 471 (district D).",
+   "phases": [],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "1737"
+    }
+   ],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Location from Pleiades; destroyed in 1686, known from Renaissance drawings. Orientation assumed."
+  },
+  {
+   "id": "iseum_metellinum",
+   "monument": "iseum_metellinum",
+   "name": "Temple of Isis and Serapis in Regio III (Isis Metellina)",
+   "from": -70,
+   "to": 400,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.5008,
+    41.8902
+   ],
+   "rot": 300,
+   "w": 18.0,
+   "l": 32.0,
+   "h": 16.0,
+   "params": {
+    "order": "corinthian",
+    "plan": "prostyle",
+    "front": 4,
+    "side": 3,
+    "podium": 2.5,
+    "colH": 9.0,
+    "steps": "front",
+    "precinct": {
+     "w": 60.0,
+     "l": 80.0,
+     "h": 6.0
+    },
+    "mat": {
+     "podium": "concrete_faced",
+     "columns": "marble_white",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "conjectural",
+   "summary": "The sanctuary of Isis that gave Regio III its name (Isis et Serapis), called Isis Metellina, probably founded in the 1st century BC by a Caecilius Metellus. The Historia Augusta places the house of the Tetrici nearby. Remains of an Isiac sanctuary were recorded around Via Labicana and Piazza Iside.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Tyranni triginta",
+     "r": "25.4"
+    },
+    {
+     "a": "Notitia",
+     "w": "Regio III",
+     "r": "Isis et Serapis"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000)",
+    "Haeuber, The Eastern Part of the Mons Oppius in Rome (2014)"
+   ],
+   "note": "Site and plan conjectural."
+  },
+  {
+   "id": "domus_pompeiana_carinae",
+   "monument": "domus_pompeiana_carinae",
+   "name": "House of Pompey on the Carinae",
+   "from": -80,
+   "to": 63,
+   "builder": "pompey",
+   "template": "domus",
+   "loc": [
+    12.4915,
+    41.893
+   ],
+   "rot": 230,
+   "w": 45.0,
+   "l": 60.0,
+   "h": 11.0,
+   "params": {
+    "atrium": true,
+    "peristyle": {
+     "w": 25.0,
+     "l": 30.0
+    },
+    "storeys": 2,
+    "trophies": "vestibule decorated with ships' beaks (domus rostrata)",
+    "mat": {
+     "walls": "tufa",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Pompey's ancestral house on the fashionable Carinae, its vestibule hung with ships' beaks from his pirate war. Mark Antony bought it at auction after Pharsalus, to Cicero's disgust; later it was imperial property, and Tiberius lived here before moving to the Horti Maecenatis.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Cicero",
+     "w": "Philippicae",
+     "r": "2.68"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Tiberius",
+     "r": "15.1"
+    },
+    {
+     "a": "Velleius Paterculus",
+     "w": "Historiae",
+     "r": "2.77.1"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000)"
+   ],
+   "note": "Site conjectural; probably destroyed in 64."
+  },
+  {
+   "id": "tigillum_sororium",
+   "monument": "tigillum_sororium",
+   "name": "Tigillum Sororium",
+   "from": -509,
+   "to": 9999,
+   "builder": null,
+   "template": "arch",
+   "loc": [
+    12.4915,
+    41.8923
+   ],
+   "rot": 230,
+   "w": 5.0,
+   "l": 1.5,
+   "h": 4.5,
+   "params": {
+    "bays": 1,
+    "depth": 1.0,
+    "atticH": 0.5,
+    "columns": "none",
+    "quadriga": false,
+    "altars": "altars of Ianus Curiatius and Iuno Sororia",
+    "mat": {
+     "body": "timber"
+    }
+   },
+   "importance": 1,
+   "certainty": "documented",
+   "summary": "A wooden beam across a lane of the Carinae under which, by tradition, the surviving Horatius passed in expiation for killing his sister. Maintained at public expense, it still stood in Livy's day and is listed in Regio IV in the 4th century; ritual on 1 October.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "1.26.13"
+    },
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Antiquitates Romanae",
+     "r": "3.22.7-8"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Site conjectural, on the Vicus Cuprius below San Pietro in Vincoli."
+  },
+  {
+   "id": "subura_insula_a_v1",
+   "monument": "subura_insula_a",
+   "name": "Subura insula at the head of the Argiletum (Republican)",
+   "from": -150,
+   "to": 64,
+   "builder": null,
+   "template": "insula",
+   "loc": [
+    12.4886,
+    41.8945
+   ],
+   "rot": 230,
+   "w": 30.0,
+   "l": 40.0,
+   "h": 14.0,
+   "params": {
+    "storeys": 4,
+    "shops": true,
+    "construction": "opus incertum and timber frame (opus craticium) upper floors, tiled roofs, balconies (maeniana)",
+    "mat": {
+     "walls": "tufa",
+     "upper": "timber",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "Representative tenement of the Subura, the crowded, noisy valley between the Viminal, Esquiline and the fora: shops and workshops on the ground floor, rented flats above in three or more storeys, notorious for fires and collapses. Juvenal and Martial complain of its mud and din.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Juvenal",
+     "w": "Satirae",
+     "r": "3.5"
+    },
+    {
+     "a": "Martial",
+     "w": "Epigrammata",
+     "r": "12.18.2"
+    },
+    {
+     "a": "Juvenal",
+     "w": "Satirae",
+     "r": "11.51"
+    }
+   ],
+   "scholarship": [
+    "Carandini (ed.), The Atlas of Ancient Rome (2017)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Generic fabric record, not a mapped building; location chosen in the Subura valley."
+  },
+  {
+   "id": "subura_insula_a_v2",
+   "monument": "subura_insula_a",
+   "name": "Subura insula at the head of the Argiletum (post-64 brick)",
+   "from": 66,
+   "to": 9999,
+   "begun": 65,
+   "builder": null,
+   "template": "insula",
+   "loc": [
+    12.4886,
+    41.8945
+   ],
+   "rot": 230,
+   "w": 30.0,
+   "l": 40.0,
+   "h": 18.0,
+   "params": {
+    "storeys": 5,
+    "shops": true,
+    "porticus": true,
+    "construction": "brick-faced concrete after Nero's building rules of 64 (height limits, porticoes on the street front, fireproof lower floors)",
+    "mat": {
+     "walls": "brick",
+     "roof": "roof_tile"
+    }
+   },
+   "ruin": {
+    "from": 560,
+    "state": "half"
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "After the fire of 64 Nero required brick and stone construction, height limits, setbacks and street porticoes for rebuilt insulae; this is the fabric of the imperial Subura, which stayed densely inhabited into the 5th century before thinning out.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Annales",
+     "r": "15.43"
+    }
+   ],
+   "scholarship": [
+    "Carandini (ed.), The Atlas of Ancient Rome (2017)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Generic fabric record."
+  },
+  {
+   "id": "subura_insula_b_v1",
+   "monument": "subura_insula_b",
+   "name": "Subura insula on the Vicus Patricius approach (Republican)",
+   "from": -150,
+   "to": 64,
+   "builder": null,
+   "template": "insula",
+   "loc": [
+    12.4904,
+    41.8952
+   ],
+   "rot": 210,
+   "w": 30.0,
+   "l": 40.0,
+   "h": 14.0,
+   "params": {
+    "storeys": 4,
+    "shops": true,
+    "construction": "opus incertum and timber frame (opus craticium) upper floors, tiled roofs, balconies (maeniana)",
+    "mat": {
+     "walls": "tufa",
+     "upper": "timber",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "Representative tenement of the Subura, the crowded, noisy valley between the Viminal, Esquiline and the fora: shops and workshops on the ground floor, rented flats above in three or more storeys, notorious for fires and collapses. Juvenal and Martial complain of its mud and din.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Juvenal",
+     "w": "Satirae",
+     "r": "3.5"
+    },
+    {
+     "a": "Martial",
+     "w": "Epigrammata",
+     "r": "12.18.2"
+    },
+    {
+     "a": "Juvenal",
+     "w": "Satirae",
+     "r": "11.51"
+    }
+   ],
+   "scholarship": [
+    "Carandini (ed.), The Atlas of Ancient Rome (2017)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Generic fabric record, not a mapped building; location chosen in the Subura valley."
+  },
+  {
+   "id": "subura_insula_b_v2",
+   "monument": "subura_insula_b",
+   "name": "Subura insula on the Vicus Patricius approach (post-64 brick)",
+   "from": 66,
+   "to": 9999,
+   "begun": 65,
+   "builder": null,
+   "template": "insula",
+   "loc": [
+    12.4904,
+    41.8952
+   ],
+   "rot": 210,
+   "w": 30.0,
+   "l": 40.0,
+   "h": 18.0,
+   "params": {
+    "storeys": 5,
+    "shops": true,
+    "porticus": true,
+    "construction": "brick-faced concrete after Nero's building rules of 64 (height limits, porticoes on the street front, fireproof lower floors)",
+    "mat": {
+     "walls": "brick",
+     "roof": "roof_tile"
+    }
+   },
+   "ruin": {
+    "from": 560,
+    "state": "half"
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "After the fire of 64 Nero required brick and stone construction, height limits, setbacks and street porticoes for rebuilt insulae; this is the fabric of the imperial Subura, which stayed densely inhabited into the 5th century before thinning out.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Annales",
+     "r": "15.43"
+    }
+   ],
+   "scholarship": [
+    "Carandini (ed.), The Atlas of Ancient Rome (2017)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Generic fabric record."
+  },
+  {
+   "id": "subura_insula_c_v1",
+   "monument": "subura_insula_c",
+   "name": "Subura insula below the Viminal (Republican)",
+   "from": -150,
+   "to": 64,
+   "builder": null,
+   "template": "insula",
+   "loc": [
+    12.492,
+    41.8959
+   ],
+   "rot": 200,
+   "w": 30.0,
+   "l": 40.0,
+   "h": 14.0,
+   "params": {
+    "storeys": 4,
+    "shops": true,
+    "construction": "opus incertum and timber frame (opus craticium) upper floors, tiled roofs, balconies (maeniana)",
+    "mat": {
+     "walls": "tufa",
+     "upper": "timber",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "Representative tenement of the Subura, the crowded, noisy valley between the Viminal, Esquiline and the fora: shops and workshops on the ground floor, rented flats above in three or more storeys, notorious for fires and collapses. Juvenal and Martial complain of its mud and din.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Juvenal",
+     "w": "Satirae",
+     "r": "3.5"
+    },
+    {
+     "a": "Martial",
+     "w": "Epigrammata",
+     "r": "12.18.2"
+    },
+    {
+     "a": "Juvenal",
+     "w": "Satirae",
+     "r": "11.51"
+    }
+   ],
+   "scholarship": [
+    "Carandini (ed.), The Atlas of Ancient Rome (2017)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Generic fabric record, not a mapped building; location chosen in the Subura valley."
+  },
+  {
+   "id": "subura_insula_c_v2",
+   "monument": "subura_insula_c",
+   "name": "Subura insula below the Viminal (post-64 brick)",
+   "from": 66,
+   "to": 9999,
+   "begun": 65,
+   "builder": null,
+   "template": "insula",
+   "loc": [
+    12.492,
+    41.8959
+   ],
+   "rot": 200,
+   "w": 30.0,
+   "l": 40.0,
+   "h": 18.0,
+   "params": {
+    "storeys": 5,
+    "shops": true,
+    "porticus": true,
+    "construction": "brick-faced concrete after Nero's building rules of 64 (height limits, porticoes on the street front, fireproof lower floors)",
+    "mat": {
+     "walls": "brick",
+     "roof": "roof_tile"
+    }
+   },
+   "ruin": {
+    "from": 560,
+    "state": "half"
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "After the fire of 64 Nero required brick and stone construction, height limits, setbacks and street porticoes for rebuilt insulae; this is the fabric of the imperial Subura, which stayed densely inhabited into the 5th century before thinning out.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Annales",
+     "r": "15.43"
+    }
+   ],
+   "scholarship": [
+    "Carandini (ed.), The Atlas of Ancient Rome (2017)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Generic fabric record."
+  },
+  {
+   "id": "subura_insula_d_v1",
+   "monument": "subura_insula_d",
+   "name": "Subura insula on the Vicus Patricius (Republican)",
+   "from": -150,
+   "to": 64,
+   "builder": null,
+   "template": "insula",
+   "loc": [
+    12.4935,
+    41.8965
+   ],
+   "rot": 210,
+   "w": 30.0,
+   "l": 40.0,
+   "h": 14.0,
+   "params": {
+    "storeys": 4,
+    "shops": true,
+    "construction": "opus incertum and timber frame (opus craticium) upper floors, tiled roofs, balconies (maeniana)",
+    "mat": {
+     "walls": "tufa",
+     "upper": "timber",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "Representative tenement of the Subura, the crowded, noisy valley between the Viminal, Esquiline and the fora: shops and workshops on the ground floor, rented flats above in three or more storeys, notorious for fires and collapses. Juvenal and Martial complain of its mud and din.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Juvenal",
+     "w": "Satirae",
+     "r": "3.5"
+    },
+    {
+     "a": "Martial",
+     "w": "Epigrammata",
+     "r": "12.18.2"
+    },
+    {
+     "a": "Juvenal",
+     "w": "Satirae",
+     "r": "11.51"
+    }
+   ],
+   "scholarship": [
+    "Carandini (ed.), The Atlas of Ancient Rome (2017)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Generic fabric record, not a mapped building; location chosen in the Subura valley."
+  },
+  {
+   "id": "subura_insula_d_v2",
+   "monument": "subura_insula_d",
+   "name": "Subura insula on the Vicus Patricius (post-64 brick)",
+   "from": 66,
+   "to": 9999,
+   "begun": 65,
+   "builder": null,
+   "template": "insula",
+   "loc": [
+    12.4935,
+    41.8965
+   ],
+   "rot": 210,
+   "w": 30.0,
+   "l": 40.0,
+   "h": 18.0,
+   "params": {
+    "storeys": 5,
+    "shops": true,
+    "porticus": true,
+    "construction": "brick-faced concrete after Nero's building rules of 64 (height limits, porticoes on the street front, fireproof lower floors)",
+    "mat": {
+     "walls": "brick",
+     "roof": "roof_tile"
+    }
+   },
+   "ruin": {
+    "from": 560,
+    "state": "half"
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "After the fire of 64 Nero required brick and stone construction, height limits, setbacks and street porticoes for rebuilt insulae; this is the fabric of the imperial Subura, which stayed densely inhabited into the 5th century before thinning out.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Annales",
+     "r": "15.43"
+    }
+   ],
+   "scholarship": [
+    "Carandini (ed.), The Atlas of Ancient Rome (2017)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Generic fabric record."
+  },
+  {
+   "id": "subura_insula_e_v1",
+   "monument": "subura_insula_e",
+   "name": "Subura insula on the Clivus Suburanus (Republican)",
+   "from": -150,
+   "to": 64,
+   "builder": null,
+   "template": "insula",
+   "loc": [
+    12.4895,
+    41.8962
+   ],
+   "rot": 220,
+   "w": 30.0,
+   "l": 40.0,
+   "h": 14.0,
+   "params": {
+    "storeys": 4,
+    "shops": true,
+    "construction": "opus incertum and timber frame (opus craticium) upper floors, tiled roofs, balconies (maeniana)",
+    "mat": {
+     "walls": "tufa",
+     "upper": "timber",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "Representative tenement of the Subura, the crowded, noisy valley between the Viminal, Esquiline and the fora: shops and workshops on the ground floor, rented flats above in three or more storeys, notorious for fires and collapses. Juvenal and Martial complain of its mud and din.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Juvenal",
+     "w": "Satirae",
+     "r": "3.5"
+    },
+    {
+     "a": "Martial",
+     "w": "Epigrammata",
+     "r": "12.18.2"
+    },
+    {
+     "a": "Juvenal",
+     "w": "Satirae",
+     "r": "11.51"
+    }
+   ],
+   "scholarship": [
+    "Carandini (ed.), The Atlas of Ancient Rome (2017)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Generic fabric record, not a mapped building; location chosen in the Subura valley."
+  },
+  {
+   "id": "subura_insula_e_v2",
+   "monument": "subura_insula_e",
+   "name": "Subura insula on the Clivus Suburanus (post-64 brick)",
+   "from": 66,
+   "to": 9999,
+   "begun": 65,
+   "builder": null,
+   "template": "insula",
+   "loc": [
+    12.4895,
+    41.8962
+   ],
+   "rot": 220,
+   "w": 30.0,
+   "l": 40.0,
+   "h": 18.0,
+   "params": {
+    "storeys": 5,
+    "shops": true,
+    "porticus": true,
+    "construction": "brick-faced concrete after Nero's building rules of 64 (height limits, porticoes on the street front, fireproof lower floors)",
+    "mat": {
+     "walls": "brick",
+     "roof": "roof_tile"
+    }
+   },
+   "ruin": {
+    "from": 560,
+    "state": "half"
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "After the fire of 64 Nero required brick and stone construction, height limits, setbacks and street porticoes for rebuilt insulae; this is the fabric of the imperial Subura, which stayed densely inhabited into the 5th century before thinning out.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Annales",
+     "r": "15.43"
+    }
+   ],
+   "scholarship": [
+    "Carandini (ed.), The Atlas of Ancient Rome (2017)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Generic fabric record."
+  },
+  {
+   "id": "subura_insula_f_v1",
+   "monument": "subura_insula_f",
+   "name": "Subura insula on the Vicus Cuprius (Republican)",
+   "from": -150,
+   "to": 64,
+   "builder": null,
+   "template": "insula",
+   "loc": [
+    12.4915,
+    41.8946
+   ],
+   "rot": 200,
+   "w": 30.0,
+   "l": 40.0,
+   "h": 14.0,
+   "params": {
+    "storeys": 4,
+    "shops": true,
+    "construction": "opus incertum and timber frame (opus craticium) upper floors, tiled roofs, balconies (maeniana)",
+    "mat": {
+     "walls": "tufa",
+     "upper": "timber",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "Representative tenement of the Subura, the crowded, noisy valley between the Viminal, Esquiline and the fora: shops and workshops on the ground floor, rented flats above in three or more storeys, notorious for fires and collapses. Juvenal and Martial complain of its mud and din.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Juvenal",
+     "w": "Satirae",
+     "r": "3.5"
+    },
+    {
+     "a": "Martial",
+     "w": "Epigrammata",
+     "r": "12.18.2"
+    },
+    {
+     "a": "Juvenal",
+     "w": "Satirae",
+     "r": "11.51"
+    }
+   ],
+   "scholarship": [
+    "Carandini (ed.), The Atlas of Ancient Rome (2017)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Generic fabric record, not a mapped building; location chosen in the Subura valley."
+  },
+  {
+   "id": "subura_insula_f_v2",
+   "monument": "subura_insula_f",
+   "name": "Subura insula on the Vicus Cuprius (post-64 brick)",
+   "from": 66,
+   "to": 9999,
+   "begun": 65,
+   "builder": null,
+   "template": "insula",
+   "loc": [
+    12.4915,
+    41.8946
+   ],
+   "rot": 200,
+   "w": 30.0,
+   "l": 40.0,
+   "h": 18.0,
+   "params": {
+    "storeys": 5,
+    "shops": true,
+    "porticus": true,
+    "construction": "brick-faced concrete after Nero's building rules of 64 (height limits, porticoes on the street front, fireproof lower floors)",
+    "mat": {
+     "walls": "brick",
+     "roof": "roof_tile"
+    }
+   },
+   "ruin": {
+    "from": 560,
+    "state": "half"
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "After the fire of 64 Nero required brick and stone construction, height limits, setbacks and street porticoes for rebuilt insulae; this is the fabric of the imperial Subura, which stayed densely inhabited into the 5th century before thinning out.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Annales",
+     "r": "15.43"
+    }
+   ],
+   "scholarship": [
+    "Carandini (ed.), The Atlas of Ancient Rome (2017)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Generic fabric record."
+  },
+  {
+   "id": "turris_mamilia",
+   "monument": "turris_mamilia",
+   "name": "Turris Mamilia",
+   "from": -509,
+   "to": 64,
+   "builder": null,
+   "template": "compound",
+   "loc": [
+    12.49,
+    41.896
+   ],
+   "rot": 0,
+   "w": 8.0,
+   "l": 8.0,
+   "h": 18.0,
+   "footprint": [
+    [
+     12.489952,
+     41.895964
+    ],
+    [
+     12.490048,
+     41.895964
+    ],
+    [
+     12.490048,
+     41.896036
+    ],
+    [
+     12.489952,
+     41.896036
+    ],
+    [
+     12.489952,
+     41.895964
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "tower",
+      "x": 0,
+      "y": 0,
+      "w": 8.0,
+      "l": 8.0,
+      "h": 18.0,
+      "mat": "tufa"
+     }
+    ]
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "An old tower in the Subura belonging to the Mamilii, on which the people of the Subura fixed the head of the October Horse when they won the annual fight for it against the men of the Sacra Via.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Festus",
+     "w": "De verborum significatu",
+     "r": "s.v. October equus"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Site and end date conjectural."
+  },
+  {
+   "id": "domus_caesaris_subura",
+   "monument": "domus_caesaris_subura",
+   "name": "House of Julius Caesar in the Subura",
+   "from": -100,
+   "to": -63,
+   "builder": "julius_caesar",
+   "template": "domus",
+   "loc": [
+    12.4898,
+    41.895
+   ],
+   "rot": 230,
+   "w": 25.0,
+   "l": 35.0,
+   "h": 9.0,
+   "params": {
+    "atrium": true,
+    "peristyle": null,
+    "storeys": 2,
+    "mat": {
+     "walls": "tufa",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Suetonius says Caesar first lived in a modest house in the Subura, moving to the Domus Publica on the Sacra Via when he became pontifex maximus in 63 BC.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Divus Iulius",
+     "r": "46"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Site unknown; record ends when Caesar moved (the house itself is not traced further)."
+  },
+  {
+   "id": "temple_of_spes_vetus",
+   "monument": "temple_of_spes_vetus",
+   "name": "Temple of Spes (Spes Vetus)",
+   "from": -477,
+   "to": 9999,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.5125,
+    41.8905
+   ],
+   "rot": 270,
+   "w": 12.0,
+   "l": 20.0,
+   "h": 11.0,
+   "params": {
+    "order": "tuscan",
+    "plan": "prostyle",
+    "front": 4,
+    "side": 2,
+    "podium": 2.0,
+    "colH": 6.0,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "tufa",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "An ancient temple of Hope on the eastern Esquiline that gave the district near the later Porta Maggiore its name, 'ad Spem Veterem'; the Etruscans camped near it in 477 BC.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "2.51.2"
+    },
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Antiquitates Romanae",
+     "r": "9.24.4"
+    },
+    {
+     "a": "Frontinus",
+     "w": "De aquaeductu",
+     "r": "1.19"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Coates-Stephens, Porta Maggiore: Monument and Landscape (2004)"
+   ],
+   "note": "Site conjectural, W of Porta Maggiore."
+  },
+  {
+   "id": "lucus_libitinae",
+   "monument": "lucus_libitinae",
+   "name": "Lucus Libitinae",
+   "from": -509,
+   "to": 9999,
+   "builder": null,
+   "template": "garden",
+   "loc": [
+    12.5022,
+    41.8975
+   ],
+   "rot": 0,
+   "w": 60.0,
+   "l": 80.0,
+   "h": 1.0,
+   "footprint": [
+    [
+     12.501838,
+     41.89714
+    ],
+    [
+     12.502562,
+     41.89714
+    ],
+    [
+     12.502562,
+     41.89786
+    ],
+    [
+     12.501838,
+     41.89786
+    ],
+    [
+     12.501838,
+     41.89714
+    ]
+   ],
+   "params": {
+    "trees": 2.0,
+    "kind": "grove"
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "The grove of Libitina, goddess of funerals, on the Esquiline, where the undertakers (libitinarii) had their headquarters and every death was registered with a coin paid to the goddess.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Antiquitates Romanae",
+     "r": "4.15.5"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Quaestiones Romanae",
+     "r": "23"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Site conjectural, near the Esquiline cemetery."
+  },
+  {
+   "id": "isis_patricia",
+   "monument": "isis_patricia",
+   "name": "Temple of Isis Patricia (Vicus Patricius)",
+   "from": 50,
+   "to": 400,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.4956,
+    41.8972
+   ],
+   "rot": 300,
+   "w": 14.0,
+   "l": 24.0,
+   "h": 13.0,
+   "params": {
+    "order": "corinthian",
+    "plan": "prostyle",
+    "front": 4,
+    "side": 2,
+    "podium": 2.5,
+    "colH": 8.0,
+    "steps": "front",
+    "precinct": {
+     "w": 40.0,
+     "l": 50.0,
+     "h": 5.0
+    },
+    "mat": {
+     "podium": "concrete_faced",
+     "columns": "marble_white",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "A shrine of Isis named after the Vicus Patricius on the Esquiline, listed in Regio V of the Regionary Catalogues; distinct from the Isis Metellina of Regio III, though the two are often confused.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Notitia",
+     "w": "Regio V",
+     "r": "Isis Patricia"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000)"
+   ],
+   "note": "Site and form conjectural."
+  },
+  {
+   "id": "domus_plinii_esquiliae",
+   "monument": "domus_plinii_esquiliae",
+   "name": "House of Pliny the Younger on the Esquiline",
+   "from": 80,
+   "to": 9999,
+   "builder": null,
+   "template": "domus",
+   "loc": [
+    12.4972,
+    41.8949
+   ],
+   "rot": 25,
+   "w": 30.0,
+   "l": 40.0,
+   "h": 10.0,
+   "params": {
+    "atrium": true,
+    "peristyle": {
+     "w": 15.0,
+     "l": 20.0
+    },
+    "storeys": 2,
+    "mat": {
+     "walls": "brick",
+     "roof": "roof_tile"
+    }
+   },
+   "ruin": {
+    "from": 450,
+    "state": "half"
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "Martial sends his tenth book up the steep Clivus Suburanus past the fountain of Orpheus to the 'eloquent' Pliny's house on the Esquiline, warning it not to knock drunk at his door at the wrong hour.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Martial",
+     "w": "Epigrammata",
+     "r": "10.20"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Site conjectural, just beyond the Lacus Orphei."
+  }
+ ]
+}

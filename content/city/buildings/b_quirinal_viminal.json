@@ -1,0 +1,4270 @@
+{
+ "buildings": [
+  {
+   "id": "baths_of_diocletian_v1",
+   "monument": "baths_of_diocletian_mon",
+   "name": "Baths of Diocletian (Thermae Diocletiani)",
+   "from": 306,
+   "to": 404,
+   "begun": 298,
+   "builder": "maximian",
+   "template": "baths",
+   "loc": [
+    12.4981,
+    41.90365
+   ],
+   "rot": 48,
+   "w": 376.0,
+   "l": 361.0,
+   "h": 30.0,
+   "footprint": [
+    [
+     12.494964,
+     41.90382
+    ],
+    [
+     12.497999,
+     41.901304
+    ],
+    [
+     12.501236,
+     41.90348
+    ],
+    [
+     12.498201,
+     41.905996
+    ],
+    [
+     12.494964,
+     41.90382
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "wall",
+      "x": 0,
+      "y": 0,
+      "w": 376.0,
+      "l": 361.0,
+      "h": 9.0,
+      "mat": "brick",
+      "ring": true,
+      "role": "precinct wall with rooms and halls behind it"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 40,
+      "w": 250.0,
+      "l": 180.0,
+      "h": 20.0,
+      "mat": "brick"
+     },
+     {
+      "shape": "vault",
+      "x": 0,
+      "y": 62,
+      "w": 61.0,
+      "l": 24.0,
+      "h": 28.0,
+      "mat": "concrete",
+      "cross_vaults": 3,
+      "colH": 14.8,
+      "columns": 8
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 115,
+      "w": 90.0,
+      "l": 45.0,
+      "h": 2.0,
+      "mat": "water",
+      "role": "natatio about 3,500 m2"
+     },
+     {
+      "shape": "wall",
+      "x": 0,
+      "y": 138,
+      "w": 90.0,
+      "l": 2.0,
+      "h": 22.0,
+      "mat": "marble_white",
+      "role": "scenographic facade of the natatio"
+     },
+     {
+      "shape": "dome",
+      "x": 0,
+      "y": 30,
+      "w": 20.0,
+      "l": 20.0,
+      "h": 22.0,
+      "mat": "concrete",
+      "role": "tepidarium rotunda"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": -32,
+      "w": 50.0,
+      "l": 28.0,
+      "h": 24.0,
+      "mat": "brick",
+      "role": "rectangular caldarium with three apses"
+     },
+     {
+      "shape": "apse",
+      "x": 0,
+      "y": -48,
+      "w": 20.0,
+      "l": 10.0,
+      "h": 22.0,
+      "mat": "brick"
+     },
+     {
+      "shape": "apse",
+      "x": 25,
+      "y": -32,
+      "w": 14.0,
+      "l": 7.0,
+      "h": 20.0,
+      "rot": 90,
+      "mat": "brick"
+     },
+     {
+      "shape": "apse",
+      "x": -25,
+      "y": -32,
+      "w": 14.0,
+      "l": 7.0,
+      "h": 20.0,
+      "rot": -90,
+      "mat": "brick"
+     },
+     {
+      "shape": "court",
+      "x": 85,
+      "y": 55,
+      "w": 60.0,
+      "l": 70.0,
+      "h": 14.0,
+      "mat": "brick",
+      "ringDepth": 8.0,
+      "role": "palaestra"
+     },
+     {
+      "shape": "court",
+      "x": -85,
+      "y": 55,
+      "w": 60.0,
+      "l": 70.0,
+      "h": 14.0,
+      "mat": "brick",
+      "ringDepth": 8.0,
+      "role": "palaestra"
+     },
+     {
+      "shape": "dome",
+      "x": 52,
+      "y": -28,
+      "w": 22.0,
+      "l": 22.0,
+      "h": 20.0,
+      "mat": "concrete",
+      "role": "octagonal hall (Aula Ottagona type)",
+      "sides": 8
+     },
+     {
+      "shape": "dome",
+      "x": -52,
+      "y": -28,
+      "w": 22.0,
+      "l": 22.0,
+      "h": 20.0,
+      "mat": "concrete",
+      "role": "octagonal hall",
+      "sides": 8
+     },
+     {
+      "shape": "hemicycle",
+      "x": 0,
+      "y": -180,
+      "h": 12.0,
+      "mat": "brick",
+      "radius": 70.0,
+      "depth": 14.0,
+      "angle": 180,
+      "stepped": true,
+      "role": "theatre-shaped exedra (Piazza della Repubblica)"
+     },
+     {
+      "shape": "dome",
+      "x": -170,
+      "y": -170,
+      "w": 22.0,
+      "l": 22.0,
+      "h": 18.0,
+      "mat": "concrete",
+      "role": "round corner hall (San Bernardo alle Terme)"
+     },
+     {
+      "shape": "dome",
+      "x": 170,
+      "y": -170,
+      "w": 22.0,
+      "l": 22.0,
+      "h": 18.0,
+      "mat": "concrete",
+      "role": "round corner hall"
+     },
+     {
+      "shape": "box",
+      "x": 100,
+      "y": -175,
+      "w": 50.0,
+      "l": 20.0,
+      "h": 14.0,
+      "mat": "brick",
+      "role": "library?"
+     },
+     {
+      "shape": "box",
+      "x": -100,
+      "y": -175,
+      "w": 50.0,
+      "l": 20.0,
+      "h": 14.0,
+      "mat": "brick",
+      "role": "library?"
+     },
+     {
+      "shape": "box",
+      "x": 172,
+      "y": 60,
+      "w": 16.0,
+      "l": 91.0,
+      "h": 8.0,
+      "mat": "brick",
+      "role": "cistern ('Botte di Termini'), fed by the Aqua Marcia"
+     },
+     {
+      "shape": "terrace",
+      "x": 0,
+      "y": -95,
+      "w": 340.0,
+      "l": 120.0,
+      "h": 0.5,
+      "mat": "grass"
+     }
+    ],
+    "precinct": {
+     "w": 376.0,
+     "l": 361.0,
+     "h": 9.0
+    },
+    "core": {
+     "w": 250.0,
+     "l": 180.0,
+     "h": 20.0
+    },
+    "frigidarium": {
+     "w": 61.0,
+     "l": 24.0,
+     "h": 28.0
+    },
+    "natatio": {
+     "w": 90.0,
+     "l": 45.0
+    },
+    "exedrae": 1,
+    "capacity": "about 3,000 bathers (Olympiodorus)",
+    "mat": {
+     "walls": "brick",
+     "vaults": "concrete",
+     "columns": "granite",
+     "facing": "marble_white"
+    }
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "The largest baths ever built in Rome, begun by Maximian in 298 on his return from Africa and dedicated in the name of Diocletian between 305 and 306 on the high ground of the Viminal-Quirinal saddle, after demolishing a whole quarter of houses. A walled precinct of some 376 x 361 m enclosed gardens, libraries, round corner halls and a theatre-like exedra; the bath block repeated the Caracallan plan on a larger scale, with a 3,500 m2 open-air natatio, a vast cross-vaulted frigidarium on eight granite columns, a rotunda tepidarium and a rectangular caldarium.",
+   "phases": [
+    {
+     "y": 298,
+     "t": "begun by Maximian"
+    },
+    {
+     "y": 306,
+     "t": "dedication inscription (between May 305 and July 306)"
+    }
+   ],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "1130"
+    }
+   ],
+   "scholarship": [
+    "Yegul, Baths and Bathing in Classical Antiquity (1992)",
+    "Nielsen, Thermae et Balnea (1990)",
+    "DeLaine, The Baths of Caracalla (JRA Suppl. 25, 1997)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Main entrance on the NE, exedra on the SW now traced by Piazza della Repubblica; axis bearing 48 from the exedra centre to Santa Maria degli Angeli (the frigidarium) and the line of Via Nazionale. Precinct 376 x 361 m; core about 250 x 180 m (Wikipedia gives 280 x 160). Frigidarium = transept of S. Maria degli Angeli, columns 14.8 m granite monoliths. Centre reconstructed from the exedra and the Pleiades polygon."
+  },
+  {
+   "id": "baths_of_diocletian_v2",
+   "monument": "baths_of_diocletian_mon",
+   "name": "Baths of Diocletian (early 5th-century restoration)",
+   "from": 405,
+   "to": 536,
+   "begun": 405,
+   "builder": "honorius",
+   "template": "baths",
+   "loc": [
+    12.4981,
+    41.90365
+   ],
+   "rot": 48,
+   "w": 376.0,
+   "l": 361.0,
+   "h": 30.0,
+   "footprint": [
+    [
+     12.494964,
+     41.90382
+    ],
+    [
+     12.497999,
+     41.901304
+    ],
+    [
+     12.501236,
+     41.90348
+    ],
+    [
+     12.498201,
+     41.905996
+    ],
+    [
+     12.494964,
+     41.90382
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "wall",
+      "x": 0,
+      "y": 0,
+      "w": 376.0,
+      "l": 361.0,
+      "h": 9.0,
+      "mat": "brick",
+      "ring": true,
+      "role": "precinct wall with rooms and halls behind it"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 40,
+      "w": 250.0,
+      "l": 180.0,
+      "h": 20.0,
+      "mat": "brick"
+     },
+     {
+      "shape": "vault",
+      "x": 0,
+      "y": 62,
+      "w": 61.0,
+      "l": 24.0,
+      "h": 28.0,
+      "mat": "concrete",
+      "cross_vaults": 3,
+      "colH": 14.8,
+      "columns": 8
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 115,
+      "w": 90.0,
+      "l": 45.0,
+      "h": 2.0,
+      "mat": "water",
+      "role": "natatio about 3,500 m2"
+     },
+     {
+      "shape": "wall",
+      "x": 0,
+      "y": 138,
+      "w": 90.0,
+      "l": 2.0,
+      "h": 22.0,
+      "mat": "marble_white",
+      "role": "scenographic facade of the natatio"
+     },
+     {
+      "shape": "dome",
+      "x": 0,
+      "y": 30,
+      "w": 20.0,
+      "l": 20.0,
+      "h": 22.0,
+      "mat": "concrete",
+      "role": "tepidarium rotunda"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": -32,
+      "w": 50.0,
+      "l": 28.0,
+      "h": 24.0,
+      "mat": "brick",
+      "role": "rectangular caldarium with three apses"
+     },
+     {
+      "shape": "apse",
+      "x": 0,
+      "y": -48,
+      "w": 20.0,
+      "l": 10.0,
+      "h": 22.0,
+      "mat": "brick"
+     },
+     {
+      "shape": "apse",
+      "x": 25,
+      "y": -32,
+      "w": 14.0,
+      "l": 7.0,
+      "h": 20.0,
+      "rot": 90,
+      "mat": "brick"
+     },
+     {
+      "shape": "apse",
+      "x": -25,
+      "y": -32,
+      "w": 14.0,
+      "l": 7.0,
+      "h": 20.0,
+      "rot": -90,
+      "mat": "brick"
+     },
+     {
+      "shape": "court",
+      "x": 85,
+      "y": 55,
+      "w": 60.0,
+      "l": 70.0,
+      "h": 14.0,
+      "mat": "brick",
+      "ringDepth": 8.0,
+      "role": "palaestra"
+     },
+     {
+      "shape": "court",
+      "x": -85,
+      "y": 55,
+      "w": 60.0,
+      "l": 70.0,
+      "h": 14.0,
+      "mat": "brick",
+      "ringDepth": 8.0,
+      "role": "palaestra"
+     },
+     {
+      "shape": "dome",
+      "x": 52,
+      "y": -28,
+      "w": 22.0,
+      "l": 22.0,
+      "h": 20.0,
+      "mat": "concrete",
+      "role": "octagonal hall (Aula Ottagona type)",
+      "sides": 8
+     },
+     {
+      "shape": "dome",
+      "x": -52,
+      "y": -28,
+      "w": 22.0,
+      "l": 22.0,
+      "h": 20.0,
+      "mat": "concrete",
+      "role": "octagonal hall",
+      "sides": 8
+     },
+     {
+      "shape": "hemicycle",
+      "x": 0,
+      "y": -180,
+      "h": 12.0,
+      "mat": "brick",
+      "radius": 70.0,
+      "depth": 14.0,
+      "angle": 180,
+      "stepped": true,
+      "role": "theatre-shaped exedra (Piazza della Repubblica)"
+     },
+     {
+      "shape": "dome",
+      "x": -170,
+      "y": -170,
+      "w": 22.0,
+      "l": 22.0,
+      "h": 18.0,
+      "mat": "concrete",
+      "role": "round corner hall (San Bernardo alle Terme)"
+     },
+     {
+      "shape": "dome",
+      "x": 170,
+      "y": -170,
+      "w": 22.0,
+      "l": 22.0,
+      "h": 18.0,
+      "mat": "concrete",
+      "role": "round corner hall"
+     },
+     {
+      "shape": "box",
+      "x": 100,
+      "y": -175,
+      "w": 50.0,
+      "l": 20.0,
+      "h": 14.0,
+      "mat": "brick",
+      "role": "library?"
+     },
+     {
+      "shape": "box",
+      "x": -100,
+      "y": -175,
+      "w": 50.0,
+      "l": 20.0,
+      "h": 14.0,
+      "mat": "brick",
+      "role": "library?"
+     },
+     {
+      "shape": "box",
+      "x": 172,
+      "y": 60,
+      "w": 16.0,
+      "l": 91.0,
+      "h": 8.0,
+      "mat": "brick",
+      "role": "cistern ('Botte di Termini'), fed by the Aqua Marcia"
+     },
+     {
+      "shape": "terrace",
+      "x": 0,
+      "y": -95,
+      "w": 340.0,
+      "l": 120.0,
+      "h": 0.5,
+      "mat": "grass"
+     }
+    ],
+    "precinct": {
+     "w": 376.0,
+     "l": 361.0,
+     "h": 9.0
+    },
+    "core": {
+     "w": 250.0,
+     "l": 180.0,
+     "h": 20.0
+    },
+    "frigidarium": {
+     "w": 61.0,
+     "l": 24.0,
+     "h": 28.0
+    },
+    "natatio": {
+     "w": 90.0,
+     "l": 45.0
+    },
+    "exedrae": 1,
+    "capacity": "about 3,000 bathers (Olympiodorus)",
+    "mat": {
+     "walls": "brick",
+     "vaults": "concrete",
+     "columns": "granite",
+     "facing": "marble_white"
+    }
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "Restored in the early 5th century and kept in use until the Gothic siege; Olympiodorus counted 3,000 seats in them.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Yegul, Baths and Bathing in Classical Antiquity (1992)"
+   ],
+   "note": "Main entrance on the NE, exedra on the SW now traced by Piazza della Repubblica; axis bearing 48 from the exedra centre to Santa Maria degli Angeli (the frigidarium) and the line of Via Nazionale. Precinct 376 x 361 m; core about 250 x 180 m (Wikipedia gives 280 x 160). Frigidarium = transept of S. Maria degli Angeli, columns 14.8 m granite monoliths. Centre reconstructed from the exedra and the Pleiades polygon."
+  },
+  {
+   "id": "baths_of_diocletian_v3",
+   "monument": "baths_of_diocletian_mon",
+   "name": "Baths of Diocletian (dry)",
+   "from": 537,
+   "to": 9999,
+   "builder": null,
+   "template": "baths",
+   "loc": [
+    12.4981,
+    41.90365
+   ],
+   "rot": 48,
+   "w": 376.0,
+   "l": 361.0,
+   "h": 30.0,
+   "footprint": [
+    [
+     12.494964,
+     41.90382
+    ],
+    [
+     12.497999,
+     41.901304
+    ],
+    [
+     12.501236,
+     41.90348
+    ],
+    [
+     12.498201,
+     41.905996
+    ],
+    [
+     12.494964,
+     41.90382
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "wall",
+      "x": 0,
+      "y": 0,
+      "w": 376.0,
+      "l": 361.0,
+      "h": 9.0,
+      "mat": "brick",
+      "ring": true,
+      "role": "precinct wall with rooms and halls behind it"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 40,
+      "w": 250.0,
+      "l": 180.0,
+      "h": 20.0,
+      "mat": "brick"
+     },
+     {
+      "shape": "vault",
+      "x": 0,
+      "y": 62,
+      "w": 61.0,
+      "l": 24.0,
+      "h": 28.0,
+      "mat": "concrete",
+      "cross_vaults": 3,
+      "colH": 14.8,
+      "columns": 8
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 115,
+      "w": 90.0,
+      "l": 45.0,
+      "h": 2.0,
+      "mat": "water",
+      "role": "natatio about 3,500 m2"
+     },
+     {
+      "shape": "wall",
+      "x": 0,
+      "y": 138,
+      "w": 90.0,
+      "l": 2.0,
+      "h": 22.0,
+      "mat": "marble_white",
+      "role": "scenographic facade of the natatio"
+     },
+     {
+      "shape": "dome",
+      "x": 0,
+      "y": 30,
+      "w": 20.0,
+      "l": 20.0,
+      "h": 22.0,
+      "mat": "concrete",
+      "role": "tepidarium rotunda"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": -32,
+      "w": 50.0,
+      "l": 28.0,
+      "h": 24.0,
+      "mat": "brick",
+      "role": "rectangular caldarium with three apses"
+     },
+     {
+      "shape": "apse",
+      "x": 0,
+      "y": -48,
+      "w": 20.0,
+      "l": 10.0,
+      "h": 22.0,
+      "mat": "brick"
+     },
+     {
+      "shape": "apse",
+      "x": 25,
+      "y": -32,
+      "w": 14.0,
+      "l": 7.0,
+      "h": 20.0,
+      "rot": 90,
+      "mat": "brick"
+     },
+     {
+      "shape": "apse",
+      "x": -25,
+      "y": -32,
+      "w": 14.0,
+      "l": 7.0,
+      "h": 20.0,
+      "rot": -90,
+      "mat": "brick"
+     },
+     {
+      "shape": "court",
+      "x": 85,
+      "y": 55,
+      "w": 60.0,
+      "l": 70.0,
+      "h": 14.0,
+      "mat": "brick",
+      "ringDepth": 8.0,
+      "role": "palaestra"
+     },
+     {
+      "shape": "court",
+      "x": -85,
+      "y": 55,
+      "w": 60.0,
+      "l": 70.0,
+      "h": 14.0,
+      "mat": "brick",
+      "ringDepth": 8.0,
+      "role": "palaestra"
+     },
+     {
+      "shape": "dome",
+      "x": 52,
+      "y": -28,
+      "w": 22.0,
+      "l": 22.0,
+      "h": 20.0,
+      "mat": "concrete",
+      "role": "octagonal hall (Aula Ottagona type)",
+      "sides": 8
+     },
+     {
+      "shape": "dome",
+      "x": -52,
+      "y": -28,
+      "w": 22.0,
+      "l": 22.0,
+      "h": 20.0,
+      "mat": "concrete",
+      "role": "octagonal hall",
+      "sides": 8
+     },
+     {
+      "shape": "hemicycle",
+      "x": 0,
+      "y": -180,
+      "h": 12.0,
+      "mat": "brick",
+      "radius": 70.0,
+      "depth": 14.0,
+      "angle": 180,
+      "stepped": true,
+      "role": "theatre-shaped exedra (Piazza della Repubblica)"
+     },
+     {
+      "shape": "dome",
+      "x": -170,
+      "y": -170,
+      "w": 22.0,
+      "l": 22.0,
+      "h": 18.0,
+      "mat": "concrete",
+      "role": "round corner hall (San Bernardo alle Terme)"
+     },
+     {
+      "shape": "dome",
+      "x": 170,
+      "y": -170,
+      "w": 22.0,
+      "l": 22.0,
+      "h": 18.0,
+      "mat": "concrete",
+      "role": "round corner hall"
+     },
+     {
+      "shape": "box",
+      "x": 100,
+      "y": -175,
+      "w": 50.0,
+      "l": 20.0,
+      "h": 14.0,
+      "mat": "brick",
+      "role": "library?"
+     },
+     {
+      "shape": "box",
+      "x": -100,
+      "y": -175,
+      "w": 50.0,
+      "l": 20.0,
+      "h": 14.0,
+      "mat": "brick",
+      "role": "library?"
+     },
+     {
+      "shape": "box",
+      "x": 172,
+      "y": 60,
+      "w": 16.0,
+      "l": 91.0,
+      "h": 8.0,
+      "mat": "brick",
+      "role": "cistern ('Botte di Termini'), fed by the Aqua Marcia"
+     },
+     {
+      "shape": "terrace",
+      "x": 0,
+      "y": -95,
+      "w": 340.0,
+      "l": 120.0,
+      "h": 0.5,
+      "mat": "grass"
+     }
+    ],
+    "precinct": {
+     "w": 376.0,
+     "l": 361.0,
+     "h": 9.0
+    },
+    "core": {
+     "w": 250.0,
+     "l": 180.0,
+     "h": 20.0
+    },
+    "frigidarium": {
+     "w": 61.0,
+     "l": 24.0,
+     "h": 28.0
+    },
+    "natatio": {
+     "w": 90.0,
+     "l": 45.0
+    },
+    "exedrae": 1,
+    "capacity": "about 3,000 bathers (Olympiodorus)",
+    "mat": {
+     "walls": "brick",
+     "vaults": "concrete",
+     "columns": "granite",
+     "facing": "marble_white"
+    }
+   },
+   "ruin": {
+    "from": 537,
+    "state": "roofless"
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "Out of use after Vitiges cut the aqueducts in 537; the vaults survived so well that in 1561-66 Michelangelo turned the frigidarium into Santa Maria degli Angeli.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)"
+   ],
+   "note": "Main entrance on the NE, exedra on the SW now traced by Piazza della Repubblica; axis bearing 48 from the exedra centre to Santa Maria degli Angeli (the frigidarium) and the line of Via Nazionale. Precinct 376 x 361 m; core about 250 x 180 m (Wikipedia gives 280 x 160). Frigidarium = transept of S. Maria degli Angeli, columns 14.8 m granite monoliths. Centre reconstructed from the exedra and the Pleiades polygon."
+  },
+  {
+   "id": "baths_of_constantine_v1",
+   "monument": "baths_of_constantine",
+   "name": "Baths of Constantine",
+   "from": 315,
+   "to": 442,
+   "begun": 310,
+   "builder": "constantine_i",
+   "template": "baths",
+   "loc": [
+    12.4875,
+    41.89823
+   ],
+   "rot": 50,
+   "w": 100.0,
+   "l": 130.0,
+   "h": 27.0,
+   "footprint": [
+    [
+     12.486511,
+     41.898199
+    ],
+    [
+     12.487287,
+     41.897509
+    ],
+    [
+     12.488489,
+     41.898261
+    ],
+    [
+     12.487713,
+     41.898951
+    ],
+    [
+     12.486511,
+     41.898199
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "terrace",
+      "x": 0,
+      "y": 0,
+      "w": 100.0,
+      "l": 130.0,
+      "h": 5.0,
+      "mat": "brick"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 70.0,
+      "l": 75.0,
+      "h": 16.0,
+      "z": 5.0,
+      "mat": "brick"
+     },
+     {
+      "shape": "vault",
+      "x": 0,
+      "y": 8,
+      "w": 36.0,
+      "l": 18.0,
+      "h": 22.0,
+      "z": 5.0,
+      "mat": "concrete",
+      "cross_vaults": 3
+     },
+     {
+      "shape": "dome",
+      "x": 0,
+      "y": -34,
+      "w": 22.0,
+      "l": 22.0,
+      "h": 20.0,
+      "z": 5.0,
+      "mat": "concrete",
+      "role": "round caldarium"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 38,
+      "w": 36.0,
+      "l": 16.0,
+      "h": 2.0,
+      "z": 5.0,
+      "mat": "water",
+      "role": "natatio"
+     },
+     {
+      "shape": "court",
+      "x": 38,
+      "y": 5,
+      "w": 22.0,
+      "l": 40.0,
+      "h": 10.0,
+      "z": 5.0,
+      "mat": "brick",
+      "ringDepth": 4.0
+     },
+     {
+      "shape": "court",
+      "x": -38,
+      "y": 5,
+      "w": 22.0,
+      "l": 40.0,
+      "h": 10.0,
+      "z": 5.0,
+      "mat": "brick",
+      "ringDepth": 4.0
+     },
+     {
+      "shape": "hemicycle",
+      "x": 0,
+      "y": 62,
+      "h": 10.0,
+      "rot": 180,
+      "mat": "brick",
+      "radius": 30.0,
+      "depth": 8.0,
+      "angle": 180,
+      "role": "curved entrance court"
+     }
+    ],
+    "core": {
+     "w": 70.0,
+     "l": 75.0,
+     "h": 16.0
+    },
+    "frigidarium": {
+     "w": 36.0,
+     "l": 18.0,
+     "h": 22.0
+    },
+    "caldarium": {
+     "radius": 11.0,
+     "h": 20.0
+    },
+    "natatio": {
+     "w": 36.0,
+     "l": 16.0
+    },
+    "mat": {
+     "walls": "brick",
+     "vaults": "concrete"
+    }
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "The last imperial baths of Rome, smaller than their predecessors because of the cramped site on the Quirinal ridge, built for or by Constantine (Aurelius Victor) about 315, perhaps begun by Maxentius. The bronze statues of Constantine and his sons and the Horse Tamers (Dioscuri) now in Piazza del Quirinale came from here.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Aurelius Victor",
+     "w": "De Caesaribus",
+     "r": "40.27"
+    }
+   ],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Yegul, Baths and Bathing in Classical Antiquity (1992)"
+   ],
+   "note": "Plan after Palladio and Du Perac (destroyed for Palazzo Rospigliosi-Pallavicini and the Consulta, 1605-1611). Site from Pleiades (bbox about 100 x 127 m). Orientation conjectural: caldarium projecting SW for the afternoon sun, entrance NE from the Alta Semita (rot 50). Built on a terrace over the W edge of the Quirinal."
+  },
+  {
+   "id": "baths_of_constantine_v2",
+   "monument": "baths_of_constantine",
+   "name": "Baths of Constantine (restored 443)",
+   "from": 443,
+   "to": 536,
+   "begun": 440,
+   "builder": "valentinian_iii",
+   "template": "baths",
+   "loc": [
+    12.4875,
+    41.89823
+   ],
+   "rot": 50,
+   "w": 100.0,
+   "l": 130.0,
+   "h": 27.0,
+   "footprint": [
+    [
+     12.486511,
+     41.898199
+    ],
+    [
+     12.487287,
+     41.897509
+    ],
+    [
+     12.488489,
+     41.898261
+    ],
+    [
+     12.487713,
+     41.898951
+    ],
+    [
+     12.486511,
+     41.898199
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "terrace",
+      "x": 0,
+      "y": 0,
+      "w": 100.0,
+      "l": 130.0,
+      "h": 5.0,
+      "mat": "brick"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 70.0,
+      "l": 75.0,
+      "h": 16.0,
+      "z": 5.0,
+      "mat": "brick"
+     },
+     {
+      "shape": "vault",
+      "x": 0,
+      "y": 8,
+      "w": 36.0,
+      "l": 18.0,
+      "h": 22.0,
+      "z": 5.0,
+      "mat": "concrete",
+      "cross_vaults": 3
+     },
+     {
+      "shape": "dome",
+      "x": 0,
+      "y": -34,
+      "w": 22.0,
+      "l": 22.0,
+      "h": 20.0,
+      "z": 5.0,
+      "mat": "concrete",
+      "role": "round caldarium"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 38,
+      "w": 36.0,
+      "l": 16.0,
+      "h": 2.0,
+      "z": 5.0,
+      "mat": "water",
+      "role": "natatio"
+     },
+     {
+      "shape": "court",
+      "x": 38,
+      "y": 5,
+      "w": 22.0,
+      "l": 40.0,
+      "h": 10.0,
+      "z": 5.0,
+      "mat": "brick",
+      "ringDepth": 4.0
+     },
+     {
+      "shape": "court",
+      "x": -38,
+      "y": 5,
+      "w": 22.0,
+      "l": 40.0,
+      "h": 10.0,
+      "z": 5.0,
+      "mat": "brick",
+      "ringDepth": 4.0
+     },
+     {
+      "shape": "hemicycle",
+      "x": 0,
+      "y": 62,
+      "h": 10.0,
+      "rot": 180,
+      "mat": "brick",
+      "radius": 30.0,
+      "depth": 8.0,
+      "angle": 180,
+      "role": "curved entrance court"
+     }
+    ],
+    "core": {
+     "w": 70.0,
+     "l": 75.0,
+     "h": 16.0
+    },
+    "frigidarium": {
+     "w": 36.0,
+     "l": 18.0,
+     "h": 22.0
+    },
+    "caldarium": {
+     "radius": 11.0,
+     "h": 20.0
+    },
+    "natatio": {
+     "w": 36.0,
+     "l": 16.0
+    },
+    "mat": {
+     "walls": "brick",
+     "vaults": "concrete"
+    }
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "Badly damaged 'by the fury of the fires and the destruction of war' (the sack of 410), the baths were restored in 443 by the urban prefect Petronius Perpenna Magnus Quadratianus.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "1750"
+    }
+   ],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Plan after Palladio and Du Perac (destroyed for Palazzo Rospigliosi-Pallavicini and the Consulta, 1605-1611). Site from Pleiades (bbox about 100 x 127 m). Orientation conjectural: caldarium projecting SW for the afternoon sun, entrance NE from the Alta Semita (rot 50). Built on a terrace over the W edge of the Quirinal."
+  },
+  {
+   "id": "baths_of_constantine_v3",
+   "monument": "baths_of_constantine",
+   "name": "Baths of Constantine (dry)",
+   "from": 537,
+   "to": 9999,
+   "builder": null,
+   "template": "baths",
+   "loc": [
+    12.4875,
+    41.89823
+   ],
+   "rot": 50,
+   "w": 100.0,
+   "l": 130.0,
+   "h": 27.0,
+   "footprint": [
+    [
+     12.486511,
+     41.898199
+    ],
+    [
+     12.487287,
+     41.897509
+    ],
+    [
+     12.488489,
+     41.898261
+    ],
+    [
+     12.487713,
+     41.898951
+    ],
+    [
+     12.486511,
+     41.898199
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "terrace",
+      "x": 0,
+      "y": 0,
+      "w": 100.0,
+      "l": 130.0,
+      "h": 5.0,
+      "mat": "brick"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 70.0,
+      "l": 75.0,
+      "h": 16.0,
+      "z": 5.0,
+      "mat": "brick"
+     },
+     {
+      "shape": "vault",
+      "x": 0,
+      "y": 8,
+      "w": 36.0,
+      "l": 18.0,
+      "h": 22.0,
+      "z": 5.0,
+      "mat": "concrete",
+      "cross_vaults": 3
+     },
+     {
+      "shape": "dome",
+      "x": 0,
+      "y": -34,
+      "w": 22.0,
+      "l": 22.0,
+      "h": 20.0,
+      "z": 5.0,
+      "mat": "concrete",
+      "role": "round caldarium"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 38,
+      "w": 36.0,
+      "l": 16.0,
+      "h": 2.0,
+      "z": 5.0,
+      "mat": "water",
+      "role": "natatio"
+     },
+     {
+      "shape": "court",
+      "x": 38,
+      "y": 5,
+      "w": 22.0,
+      "l": 40.0,
+      "h": 10.0,
+      "z": 5.0,
+      "mat": "brick",
+      "ringDepth": 4.0
+     },
+     {
+      "shape": "court",
+      "x": -38,
+      "y": 5,
+      "w": 22.0,
+      "l": 40.0,
+      "h": 10.0,
+      "z": 5.0,
+      "mat": "brick",
+      "ringDepth": 4.0
+     },
+     {
+      "shape": "hemicycle",
+      "x": 0,
+      "y": 62,
+      "h": 10.0,
+      "rot": 180,
+      "mat": "brick",
+      "radius": 30.0,
+      "depth": 8.0,
+      "angle": 180,
+      "role": "curved entrance court"
+     }
+    ],
+    "core": {
+     "w": 70.0,
+     "l": 75.0,
+     "h": 16.0
+    },
+    "frigidarium": {
+     "w": 36.0,
+     "l": 18.0,
+     "h": 22.0
+    },
+    "caldarium": {
+     "radius": 11.0,
+     "h": 20.0
+    },
+    "natatio": {
+     "w": 36.0,
+     "l": 16.0
+    },
+    "mat": {
+     "walls": "brick",
+     "vaults": "concrete"
+    }
+   },
+   "ruin": {
+    "from": 537,
+    "state": "roofless"
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "Dry from 537; ruins stood to the 17th century.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)"
+   ],
+   "note": "Plan after Palladio and Du Perac (destroyed for Palazzo Rospigliosi-Pallavicini and the Consulta, 1605-1611). Site from Pleiades (bbox about 100 x 127 m). Orientation conjectural: caldarium projecting SW for the afternoon sun, entrance NE from the Alta Semita (rot 50). Built on a terrace over the W edge of the Quirinal."
+  },
+  {
+   "id": "temple_of_serapis_quirinal_v1",
+   "monument": "temple_of_serapis_quirinal",
+   "name": "Temple of Serapis on the Quirinal",
+   "from": 216,
+   "to": 399,
+   "begun": 211,
+   "builder": "caracalla",
+   "template": "temple",
+   "loc": [
+    12.4853,
+    41.8979
+   ],
+   "rot": 70,
+   "w": 46.0,
+   "l": 90.0,
+   "h": 40.0,
+   "params": {
+    "order": "corinthian",
+    "plan": "prostyle",
+    "front": 12,
+    "side": 4,
+    "podium": 6.0,
+    "colH": 21.2,
+    "steps": "front_full",
+    "pediment": true,
+    "precinct": {
+     "w": 98.0,
+     "l": 135.0,
+     "h": 12.0
+    },
+    "stairs": "two monumental flights descending W from behind the temple to the Campus Martius (arches of Via della Pilotta)",
+    "mat": {
+     "podium": "concrete_faced",
+     "columns": "marble_white",
+     "walls": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "The most colossal temple of imperial Rome after the Temple of Venus and Roma, on the W edge of the Quirinal above the Campus Martius. An inscription records that Caracalla built or rebuilt an aedes of Serapis; Lanciani's attribution to Aurelian's Temple of the Sun has been abandoned. Its court lay to the E, and great stairs descended W from behind it to the plain.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "570"
+    }
+   ],
+   "scholarship": [
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Remains in the Colonna gardens SW of Piazza del Quirinale; columns about 21.2 m (lower diameter about 2 m), the cornice block 'Frontispizio di Nerone' among the largest carved blocks in Rome. The temple faced E onto its court toward the Alta Semita, the stairs being at its back (rot 70). Front of 12 columns and size of the precinct conjectural."
+  },
+  {
+   "id": "temple_of_serapis_quirinal_v2",
+   "monument": "temple_of_serapis_quirinal",
+   "name": "Temple of Serapis on the Quirinal (closed)",
+   "from": 400,
+   "to": 9999,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.4853,
+    41.8979
+   ],
+   "rot": 70,
+   "w": 46.0,
+   "l": 90.0,
+   "h": 40.0,
+   "params": {
+    "order": "corinthian",
+    "plan": "prostyle",
+    "front": 12,
+    "side": 4,
+    "podium": 6.0,
+    "colH": 21.2,
+    "steps": "front_full",
+    "pediment": true,
+    "precinct": {
+     "w": 98.0,
+     "l": 135.0,
+     "h": 12.0
+    },
+    "stairs": "two monumental flights descending W from behind the temple to the Campus Martius (arches of Via della Pilotta)",
+    "mat": {
+     "podium": "concrete_faced",
+     "columns": "marble_white",
+     "walls": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "ruin": {
+    "from": 400,
+    "state": "half"
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "Closed with the pagan temples at the end of the 4th century and slowly despoiled; a corner of the entablature stood as the 'Frontispizio di Nerone' until the 1630s.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)"
+   ],
+   "note": "Remains in the Colonna gardens SW of Piazza del Quirinale; columns about 21.2 m (lower diameter about 2 m), the cornice block 'Frontispizio di Nerone' among the largest carved blocks in Rome. The temple faced E onto its court toward the Alta Semita, the stairs being at its back (rot 70). Front of 12 columns and size of the precinct conjectural."
+  },
+  {
+   "id": "temple_of_quirinus_v0",
+   "monument": "temple_of_quirinus",
+   "name": "Sacellum of Quirinus",
+   "from": -509,
+   "to": -294,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.4888,
+    41.9012
+   ],
+   "rot": 315,
+   "w": 8.0,
+   "l": 12.0,
+   "h": 7.0,
+   "params": {
+    "order": "tuscan",
+    "plan": "in_antis",
+    "front": 2,
+    "side": 2,
+    "podium": 1.5,
+    "colH": 4.0,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "timber",
+     "walls": "mudbrick",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Before the temple of 293 Quirinus, the deified Romulus, had an old shrine on the hill that bore his name, mentioned by Varro among the archaic sacella of the Quirinal.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Varro",
+     "w": "De lingua Latina",
+     "r": "5.51-52"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)"
+   ],
+   "note": "Form invented; position as the later temple."
+  },
+  {
+   "id": "temple_of_quirinus_v1",
+   "monument": "temple_of_quirinus",
+   "name": "Temple of Quirinus (293 BC)",
+   "from": -293,
+   "to": -50,
+   "builder": "lucius_papirius_cursor_cos293",
+   "template": "temple",
+   "loc": [
+    12.4888,
+    41.9012
+   ],
+   "rot": 315,
+   "w": 22.0,
+   "l": 34.0,
+   "h": 17.0,
+   "params": {
+    "order": "tuscan",
+    "plan": "prostyle",
+    "front": 6,
+    "side": 3,
+    "podium": 3.0,
+    "colH": 9.0,
+    "steps": "front",
+    "sundial": "first public sundial in Rome set up before it",
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "tufa",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "documented",
+   "summary": "Vowed by L. Papirius Cursor the elder and dedicated in 293 BC by his son, consul that year, after victories over the Samnites, and decorated with their spoils; before it was set up the first sundial in Rome. Two myrtles, patrician and plebeian, grew in front of it.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "10.46.7"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "7.213"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "15.120"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000)"
+   ],
+   "note": "Form of the first temple unknown."
+  },
+  {
+   "id": "temple_of_quirinus_ruin",
+   "monument": "temple_of_quirinus",
+   "name": "Temple of Quirinus (burnt 49 BC)",
+   "from": -49,
+   "to": -17,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.4888,
+    41.9012
+   ],
+   "rot": 315,
+   "w": 22.0,
+   "l": 34.0,
+   "h": 12.0,
+   "params": {
+    "order": "tuscan",
+    "plan": "prostyle",
+    "front": 6,
+    "side": 3,
+    "podium": 3.0,
+    "colH": 9.0,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "tufa",
+     "roof": "roof_tile"
+    }
+   },
+   "ruin": {
+    "from": -49,
+    "state": "roofless"
+   },
+   "importance": 2,
+   "certainty": "documented",
+   "summary": "Struck by lightning and burnt in 49 BC, one of the omens of the civil war; it stood in ruins until Augustus rebuilt it.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "41.14.3"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ]
+  },
+  {
+   "id": "temple_of_quirinus_v2",
+   "monument": "temple_of_quirinus",
+   "name": "Temple of Quirinus (Augustan)",
+   "from": -16,
+   "to": 9999,
+   "begun": -20,
+   "builder": "augustus",
+   "template": "temple",
+   "loc": [
+    12.4888,
+    41.9012
+   ],
+   "rot": 315,
+   "w": 36.0,
+   "l": 70.0,
+   "h": 21.0,
+   "params": {
+    "order": "doric",
+    "plan": "dipteral",
+    "front": 8,
+    "side": 15,
+    "columns_total": 76,
+    "podium": 3.0,
+    "colH": 11.5,
+    "steps": "front",
+    "precinct": {
+     "w": 75.0,
+     "l": 100.0,
+     "h": 8.0
+    },
+    "mat": {
+     "podium": "concrete_faced",
+     "columns": "travertine",
+     "walls": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "ruin": {
+    "from": 450,
+    "state": "half"
+   },
+   "importance": 4,
+   "certainty": "documented",
+   "summary": "Augustus rebuilt the temple in 16 BC as a Doric dipteros octastylos with 76 columns, and Dio remarks that the 76 columns matched the number of years Augustus lived. Vitruvius cites it as his example of a dipteral Doric temple. A fragment of the Marble Plan shows it within a porticus. A Flavian relief in the Museo Nazionale Romano shows its pediment with Romulus and Remus taking the auspices.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "54.19.4"
+    },
+    {
+     "a": "Vitruvius",
+     "w": "De architectura",
+     "r": "3.2.7"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000)",
+    "Stanford Digital Forma Urbis Romae Project"
+   ],
+   "note": "Located in or beside the gardens of the Quirinal Palace (conjectural within about 100 m). Orientation unknown; set facing NW (rot 315), parallel to the Alta Semita ridge. 76 columns = 8 front, 15 per side in two rings."
+  },
+  {
+   "id": "temple_of_salus_v1",
+   "monument": "temple_of_salus",
+   "name": "Temple of Salus (Quirinal)",
+   "from": -302,
+   "to": 49,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.4866,
+    41.8996
+   ],
+   "rot": 225,
+   "w": 18.0,
+   "l": 30.0,
+   "h": 15.0,
+   "params": {
+    "order": "tuscan",
+    "plan": "prostyle",
+    "front": 4,
+    "side": 3,
+    "podium": 3.0,
+    "colH": 8.0,
+    "steps": "front",
+    "paintings": "wall paintings by C. Fabius Pictor",
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "tufa",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "conjectural",
+   "summary": "Vowed by C. Iunius Bubulcus in the Samnite war and dedicated as dictator in 302 BC on the Collis Salutaris. Its walls bore paintings by C. Fabius Pictor, one of the first named Roman painters, which survived until the temple burned under Claudius.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "9.43.25"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "10.1.9"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "35.19"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)"
+   ],
+   "note": "Site on the SW spur of the Quirinal near the Quirinal palace; conjectural."
+  },
+  {
+   "id": "temple_of_salus_v2",
+   "monument": "temple_of_salus",
+   "name": "Temple of Salus (rebuilt after the Claudian fire)",
+   "from": 50,
+   "to": 9999,
+   "begun": 45,
+   "builder": "claudius",
+   "template": "temple",
+   "loc": [
+    12.4866,
+    41.8996
+   ],
+   "rot": 225,
+   "w": 18.0,
+   "l": 30.0,
+   "h": 15.0,
+   "params": {
+    "order": "corinthian",
+    "plan": "prostyle",
+    "front": 4,
+    "side": 3,
+    "podium": 3.0,
+    "colH": 9.0,
+    "steps": "front",
+    "mat": {
+     "podium": "concrete_faced",
+     "columns": "marble_white",
+     "walls": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "ruin": {
+    "from": 450,
+    "state": "half"
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Rebuilt after the fire in the reign of Claudius that destroyed Fabius Pictor's paintings; still standing in the 4th century.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ]
+  },
+  {
+   "id": "temple_of_flora_quirinal",
+   "monument": "temple_of_flora_quirinal",
+   "name": "Temple of Flora (Quirinal)",
+   "from": -509,
+   "to": 9999,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.4905,
+    41.9015
+   ],
+   "rot": 225,
+   "w": 10.0,
+   "l": 16.0,
+   "h": 9.0,
+   "params": {
+    "order": "tuscan",
+    "plan": "prostyle",
+    "front": 4,
+    "side": 2,
+    "podium": 1.5,
+    "colH": 5.0,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "tufa",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "An ancient shrine of Flora on the Quirinal near the Capitolium Vetus, said to go back to the Sabine king Titus Tatius; distinct from the temple of Flora by the Circus Maximus.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Varro",
+     "w": "De lingua Latina",
+     "r": "5.158"
+    },
+    {
+     "a": "Martial",
+     "w": "Epigrammata",
+     "r": "5.22.4"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Site conjectural."
+  },
+  {
+   "id": "capitolium_vetus",
+   "monument": "capitolium_vetus",
+   "name": "Capitolium Vetus",
+   "from": -509,
+   "to": 9999,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.491,
+    41.9019
+   ],
+   "rot": 225,
+   "w": 12.0,
+   "l": 18.0,
+   "h": 10.0,
+   "params": {
+    "order": "tuscan",
+    "plan": "tuscan_alae",
+    "front": 4,
+    "side": 2,
+    "podium": 2.0,
+    "colH": 5.5,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "tufa",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "The 'Old Capitol' on the Quirinal, a shrine of Jupiter, Juno and Minerva believed older than the Capitoline temple; Varro and Martial mention it as a landmark near the Clivus Proximus.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Varro",
+     "w": "De lingua Latina",
+     "r": "5.158"
+    },
+    {
+     "a": "Martial",
+     "w": "Epigrammata",
+     "r": "7.73.4"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)"
+   ],
+   "note": "Site conjectural, near Quattro Fontane."
+  },
+  {
+   "id": "temple_of_fortuna_publica",
+   "monument": "temple_of_fortuna_publica",
+   "name": "Temple of Fortuna Publica (Primigenia) on the Quirinal",
+   "from": -194,
+   "to": 9999,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.4955,
+    41.905
+   ],
+   "rot": 225,
+   "w": 14.0,
+   "l": 24.0,
+   "h": 12.0,
+   "params": {
+    "order": "tuscan",
+    "plan": "prostyle",
+    "front": 4,
+    "side": 3,
+    "podium": 2.5,
+    "colH": 7.0,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "tufa",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "One of three temples of Fortuna on the Quirinal near the Porta Collina; Fortuna Primigenia was vowed in 204 BC by P. Sempronius Tuditanus and dedicated in 194, and Ovid gives 5 April for Fortuna Publica 'in colle'.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "34.53.5-6"
+    },
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "4.375-376"
+    },
+    {
+     "a": "Vitruvius",
+     "w": "De architectura",
+     "r": "3.2.2"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000)"
+   ],
+   "note": "Site conjectural."
+  },
+  {
+   "id": "temple_of_semo_sancus",
+   "monument": "temple_of_semo_sancus",
+   "name": "Temple of Semo Sancus Dius Fidius",
+   "from": -466,
+   "to": 9999,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.486554,
+    41.897296
+   ],
+   "rot": 225,
+   "w": 12.0,
+   "l": 18.0,
+   "h": 10.0,
+   "params": {
+    "order": "tuscan",
+    "plan": "prostyle",
+    "front": 4,
+    "side": 2,
+    "podium": 2.0,
+    "colH": 5.5,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "tufa",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "documented",
+   "summary": "Temple of the Sabine god of oaths on the Quirinal, dedicated on 5 June 466 BC; it kept the treaty with Gabii written on an ox-hide shield and a bronze statue of Tanaquil with her distaff. Inscribed bases were found in 1574 near San Silvestro al Quirinale.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Antiquitates Romanae",
+     "r": "9.60.8"
+    },
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Antiquitates Romanae",
+     "r": "4.58.4"
+    },
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "6.213-218"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000)"
+   ],
+   "note": "Location from Pleiades."
+  },
+  {
+   "id": "domus_flaviorum_malum_punicum",
+   "monument": "templum_gentis_flaviae",
+   "name": "House of the Flavii ad Malum Punicum",
+   "from": -20,
+   "to": 88,
+   "builder": null,
+   "template": "domus",
+   "loc": [
+    12.489441,
+    41.902688
+   ],
+   "rot": 225,
+   "w": 35.0,
+   "l": 45.0,
+   "h": 10.0,
+   "params": {
+    "atrium": true,
+    "peristyle": {
+     "w": 18.0,
+     "l": 22.0
+    },
+    "storeys": 2,
+    "mat": {
+     "walls": "reticulate",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "The family house of the Flavii on the Quirinal at the street 'ad Malum Punicum' (by the pomegranate), where Domitian was born on 24 October 51.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Domitianus",
+     "r": "1.1"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000)"
+   ],
+   "note": "Location from Pleiades (Ad Malum Punicum); from-date arbitrary."
+  },
+  {
+   "id": "templum_gentis_flaviae",
+   "monument": "templum_gentis_flaviae",
+   "name": "Templum Gentis Flaviae",
+   "from": 94,
+   "to": 9999,
+   "begun": 89,
+   "builder": "domitian",
+   "template": "temple",
+   "loc": [
+    12.489441,
+    41.902688
+   ],
+   "rot": 225,
+   "w": 22.0,
+   "l": 32.0,
+   "h": 20.0,
+   "params": {
+    "order": "corinthian",
+    "plan": "prostyle",
+    "front": 6,
+    "side": 3,
+    "podium": 4.0,
+    "colH": 12.0,
+    "steps": "front",
+    "precinct": {
+     "w": 70.0,
+     "l": 80.0,
+     "h": 9.0
+    },
+    "mausoleum": "also the dynastic tomb: the ashes of Julia Titi and Domitian were placed here",
+    "mat": {
+     "podium": "concrete_faced",
+     "columns": "marble_white",
+     "walls": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "ruin": {
+    "from": 450,
+    "state": "half"
+   },
+   "importance": 3,
+   "certainty": "conjectural",
+   "summary": "Domitian turned his birthplace into a temple-mausoleum of the Flavian family, celebrated by Martial and Statius; his nurse secretly placed his ashes here with those of his niece Julia. Its form is unknown: a temple in a portico precinct is assumed. Fragments of Flavian reliefs from the Quirinal (the Hartwig-Kelsey fragments) may come from it.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Domitianus",
+     "r": "17.3"
+    },
+    {
+     "a": "Martial",
+     "w": "Epigrammata",
+     "r": "9.1"
+    },
+    {
+     "a": "Statius",
+     "w": "Silvae",
+     "r": "4.3.18-19"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)"
+   ],
+   "note": "Site debated (near Quattro Fontane or S. Susanna); form conjectural."
+  },
+  {
+   "id": "ara_incendii_neroniani_quirinal",
+   "monument": "ara_incendii_neroniani",
+   "name": "Altar of the Neronian fire (Quirinal)",
+   "from": 90,
+   "to": 9999,
+   "builder": "domitian",
+   "template": "altar",
+   "loc": [
+    12.489317,
+    41.900361
+   ],
+   "rot": 225,
+   "w": 25.0,
+   "l": 32.0,
+   "h": 3.0,
+   "params": {
+    "enclosure": {
+     "w": 25.0,
+     "l": 32.0,
+     "h": 1.5
+    },
+    "altar": {
+     "w": 6.25,
+     "l": 3.25,
+     "h": 1.3
+    },
+    "mat": {
+     "enclosure": "travertine",
+     "altar": "travertine"
+    }
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "One of the altars vowed after the fire of 64 and built by Domitian in each region, on a paved travertine platform with boundary stones; the inscription found here orders annual sacrifices to Vulcan on 23 August and forbids building or trading within the boundary.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "826"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)"
+   ],
+   "note": "Location from Pleiades (Arae incendii Neroniani), Via del Quirinale."
+  },
+  {
+   "id": "castra_praetoria_v1",
+   "monument": "castra_praetoria_mon",
+   "name": "Castra Praetoria",
+   "from": 23,
+   "to": 270,
+   "begun": 21,
+   "builder": "tiberius",
+   "template": "compound",
+   "loc": [
+    12.5058,
+    41.9059
+   ],
+   "rot": 215,
+   "w": 440.0,
+   "l": 380.0,
+   "h": 6.0,
+   "footprint": [
+    [
+     12.50929,
+     41.906165
+    ],
+    [
+     12.50494,
+     41.908438
+    ],
+    [
+     12.50231,
+     41.905635
+    ],
+    [
+     12.50666,
+     41.903362
+    ],
+    [
+     12.50929,
+     41.906165
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "wall",
+      "x": 0,
+      "y": 190,
+      "w": 440.0,
+      "l": 3.0,
+      "h": 4.7,
+      "mat": "brick",
+      "role": "SW front wall with porta praetoria"
+     },
+     {
+      "shape": "wall",
+      "x": 0,
+      "y": -190,
+      "w": 440.0,
+      "l": 3.0,
+      "h": 4.7,
+      "mat": "brick"
+     },
+     {
+      "shape": "wall",
+      "x": 220,
+      "y": 0,
+      "w": 3.0,
+      "l": 380.0,
+      "h": 4.7,
+      "mat": "brick"
+     },
+     {
+      "shape": "wall",
+      "x": -220,
+      "y": 0,
+      "w": 3.0,
+      "l": 380.0,
+      "h": 4.7,
+      "mat": "brick"
+     },
+     {
+      "shape": "tower",
+      "x": 0,
+      "y": 190,
+      "w": 9.0,
+      "l": 9.0,
+      "h": 7.7,
+      "mat": "brick",
+      "role": "gate"
+     },
+     {
+      "shape": "tower",
+      "x": 0,
+      "y": -190,
+      "w": 9.0,
+      "l": 9.0,
+      "h": 7.7,
+      "mat": "brick",
+      "role": "gate"
+     },
+     {
+      "shape": "tower",
+      "x": 220,
+      "y": 0,
+      "w": 9.0,
+      "l": 9.0,
+      "h": 7.7,
+      "mat": "brick",
+      "role": "gate"
+     },
+     {
+      "shape": "tower",
+      "x": -220,
+      "y": 0,
+      "w": 9.0,
+      "l": 9.0,
+      "h": 7.7,
+      "mat": "brick",
+      "role": "gate"
+     },
+     {
+      "shape": "box",
+      "x": -190,
+      "y": -130,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": -190,
+      "y": -60,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": -190,
+      "y": 60,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": -190,
+      "y": 130,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": -152,
+      "y": -130,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": -152,
+      "y": -60,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": -152,
+      "y": 60,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": -152,
+      "y": 130,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": -114,
+      "y": -130,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": -114,
+      "y": -60,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": -114,
+      "y": 60,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": -114,
+      "y": 130,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": -76,
+      "y": -130,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": -76,
+      "y": -60,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": -76,
+      "y": 60,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": -76,
+      "y": 130,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": -38,
+      "y": -130,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": -38,
+      "y": -60,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": -38,
+      "y": 60,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": -38,
+      "y": 130,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": -130,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": -60,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 60,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 130,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": 38,
+      "y": -130,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": 38,
+      "y": -60,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": 38,
+      "y": 60,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": 38,
+      "y": 130,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": 76,
+      "y": -130,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": 76,
+      "y": -60,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": 76,
+      "y": 60,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": 76,
+      "y": 130,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": 114,
+      "y": -130,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": 114,
+      "y": -60,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": 114,
+      "y": 60,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": 114,
+      "y": 130,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": 152,
+      "y": -130,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": 152,
+      "y": -60,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": 152,
+      "y": 60,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": 152,
+      "y": 130,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": 190,
+      "y": -130,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": 190,
+      "y": -60,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": 190,
+      "y": 60,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": 190,
+      "y": 130,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 60.0,
+      "l": 50.0,
+      "h": 12.0,
+      "mat": "brick",
+      "role": "principia"
+     }
+    ],
+    "gates": 4,
+    "corners": "rounded",
+    "mat": {
+     "walls": "brick",
+     "barracks": "brick"
+    }
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "The fortified camp in which Sejanus concentrated the nine (later more) praetorian cohorts on the edge of the Viminal plateau in AD 23, the first permanent military base at Rome and one of the earliest large brick-faced structures. Here Claudius was acclaimed in 41, the empire was auctioned to Didius Julianus in 193, and Elagabalus was murdered in 222; in 238 the people besieged it.",
+   "phases": [
+    {
+     "y": 23,
+     "t": "camp built for Sejanus (Tacitus)"
+    },
+    {
+     "y": 41,
+     "t": "Claudius acclaimed"
+    },
+    {
+     "y": 193,
+     "t": "auction of the empire"
+    },
+    {
+     "y": 238,
+     "t": "siege by the populace"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Annales",
+     "r": "4.2"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Tiberius",
+     "r": "37.1"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "57.19.6"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "74.11"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)"
+   ],
+   "note": "Rectangle 440 x 380 m with rounded corners. Orientation reconstructed from the course of the Aurelian Wall, which follows its NE, SE and NW sides; front (porta praetoria) toward the city on the SW (rot 215). The Aurelian Wall agent may also model the incorporated sides; here they appear as the camp's own walls."
+  },
+  {
+   "id": "castra_praetoria_v2",
+   "monument": "castra_praetoria_mon",
+   "name": "Castra Praetoria (in the Aurelian Wall)",
+   "from": 271,
+   "to": 311,
+   "begun": 271,
+   "builder": "aurelian",
+   "template": "compound",
+   "loc": [
+    12.5058,
+    41.9059
+   ],
+   "rot": 215,
+   "w": 440.0,
+   "l": 380.0,
+   "h": 11.0,
+   "footprint": [
+    [
+     12.50929,
+     41.906165
+    ],
+    [
+     12.50494,
+     41.908438
+    ],
+    [
+     12.50231,
+     41.905635
+    ],
+    [
+     12.50666,
+     41.903362
+    ],
+    [
+     12.50929,
+     41.906165
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "wall",
+      "x": 0,
+      "y": 190,
+      "w": 440.0,
+      "l": 3.0,
+      "h": 10.5,
+      "mat": "brick",
+      "role": "SW front wall with porta praetoria"
+     },
+     {
+      "shape": "wall",
+      "x": 0,
+      "y": -190,
+      "w": 440.0,
+      "l": 3.0,
+      "h": 10.5,
+      "mat": "brick"
+     },
+     {
+      "shape": "wall",
+      "x": 220,
+      "y": 0,
+      "w": 3.0,
+      "l": 380.0,
+      "h": 10.5,
+      "mat": "brick"
+     },
+     {
+      "shape": "wall",
+      "x": -220,
+      "y": 0,
+      "w": 3.0,
+      "l": 380.0,
+      "h": 10.5,
+      "mat": "brick"
+     },
+     {
+      "shape": "tower",
+      "x": 0,
+      "y": 190,
+      "w": 9.0,
+      "l": 9.0,
+      "h": 13.5,
+      "mat": "brick",
+      "role": "gate"
+     },
+     {
+      "shape": "tower",
+      "x": 0,
+      "y": -190,
+      "w": 9.0,
+      "l": 9.0,
+      "h": 13.5,
+      "mat": "brick",
+      "role": "gate"
+     },
+     {
+      "shape": "tower",
+      "x": 220,
+      "y": 0,
+      "w": 9.0,
+      "l": 9.0,
+      "h": 13.5,
+      "mat": "brick",
+      "role": "gate"
+     },
+     {
+      "shape": "tower",
+      "x": -220,
+      "y": 0,
+      "w": 9.0,
+      "l": 9.0,
+      "h": 13.5,
+      "mat": "brick",
+      "role": "gate"
+     },
+     {
+      "shape": "box",
+      "x": -190,
+      "y": -130,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": -190,
+      "y": -60,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": -190,
+      "y": 60,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": -190,
+      "y": 130,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": -152,
+      "y": -130,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": -152,
+      "y": -60,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": -152,
+      "y": 60,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": -152,
+      "y": 130,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": -114,
+      "y": -130,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": -114,
+      "y": -60,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": -114,
+      "y": 60,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": -114,
+      "y": 130,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": -76,
+      "y": -130,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": -76,
+      "y": -60,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": -76,
+      "y": 60,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": -76,
+      "y": 130,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": -38,
+      "y": -130,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": -38,
+      "y": -60,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": -38,
+      "y": 60,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": -38,
+      "y": 130,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": -130,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": -60,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 60,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 130,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": 38,
+      "y": -130,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": 38,
+      "y": -60,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": 38,
+      "y": 60,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": 38,
+      "y": 130,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": 76,
+      "y": -130,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": 76,
+      "y": -60,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": 76,
+      "y": 60,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": 76,
+      "y": 130,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": 114,
+      "y": -130,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": 114,
+      "y": -60,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": 114,
+      "y": 60,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": 114,
+      "y": 130,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": 152,
+      "y": -130,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": 152,
+      "y": -60,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": 152,
+      "y": 60,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": 152,
+      "y": 130,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": 190,
+      "y": -130,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": 190,
+      "y": -60,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": 190,
+      "y": 60,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": 190,
+      "y": 130,
+      "w": 12.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick",
+      "storeys": 2,
+      "role": "barrack block"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 60.0,
+      "l": 50.0,
+      "h": 12.0,
+      "mat": "brick",
+      "role": "principia"
+     }
+    ],
+    "gates": 4,
+    "corners": "rounded",
+    "mat": {
+     "walls": "brick"
+    }
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "Aurelian incorporated three sides of the camp into his new city wall from 271, raising its walls (the original crenellations are visible in the masonry), and Maxentius heightened them again while the guard supported him.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)"
+   ],
+   "note": "Rectangle 440 x 380 m with rounded corners. Orientation reconstructed from the course of the Aurelian Wall, which follows its NE, SE and NW sides; front (porta praetoria) toward the city on the SW (rot 215). The Aurelian Wall agent may also model the incorporated sides; here they appear as the camp's own walls."
+  },
+  {
+   "id": "castra_praetoria_v3",
+   "monument": "castra_praetoria_mon",
+   "name": "Castra Praetoria (dismantled)",
+   "from": 312,
+   "to": 9999,
+   "builder": "constantine_i",
+   "template": "compound",
+   "loc": [
+    12.5058,
+    41.9059
+   ],
+   "rot": 215,
+   "w": 440.0,
+   "l": 380.0,
+   "h": 11.0,
+   "footprint": [
+    [
+     12.50929,
+     41.906165
+    ],
+    [
+     12.50494,
+     41.908438
+    ],
+    [
+     12.50231,
+     41.905635
+    ],
+    [
+     12.50666,
+     41.903362
+    ],
+    [
+     12.50929,
+     41.906165
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "wall",
+      "x": 0,
+      "y": -190,
+      "w": 440.0,
+      "l": 3.0,
+      "h": 10.5,
+      "mat": "brick"
+     },
+     {
+      "shape": "wall",
+      "x": 220,
+      "y": 0,
+      "w": 3.0,
+      "l": 380.0,
+      "h": 10.5,
+      "mat": "brick"
+     },
+     {
+      "shape": "wall",
+      "x": -220,
+      "y": 0,
+      "w": 3.0,
+      "l": 380.0,
+      "h": 10.5,
+      "mat": "brick"
+     },
+     {
+      "shape": "tower",
+      "x": 0,
+      "y": -190,
+      "w": 9.0,
+      "l": 9.0,
+      "h": 13.5,
+      "mat": "brick",
+      "role": "gate"
+     },
+     {
+      "shape": "tower",
+      "x": 220,
+      "y": 0,
+      "w": 9.0,
+      "l": 9.0,
+      "h": 13.5,
+      "mat": "brick",
+      "role": "gate"
+     },
+     {
+      "shape": "tower",
+      "x": -220,
+      "y": 0,
+      "w": 9.0,
+      "l": 9.0,
+      "h": 13.5,
+      "mat": "brick",
+      "role": "gate"
+     }
+    ],
+    "gates": 3,
+    "mat": {
+     "walls": "brick"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "After the Milvian Bridge Constantine abolished the praetorian guard and demolished the inner (city-facing) wall of its camp, leaving the three outer sides as part of the Aurelian Wall.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Aurelius Victor",
+     "w": "De Caesaribus",
+     "r": "40.25"
+    },
+    {
+     "a": "Zosimus",
+     "w": "Historia Nova",
+     "r": "2.17.2"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)"
+   ],
+   "note": "Rectangle 440 x 380 m with rounded corners. Orientation reconstructed from the course of the Aurelian Wall, which follows its NE, SE and NW sides; front (porta praetoria) toward the city on the SW (rot 215). The Aurelian Wall agent may also model the incorporated sides; here they appear as the camp's own walls."
+  },
+  {
+   "id": "thermae_novati",
+   "monument": "thermae_novati",
+   "name": "Baths of Novatus",
+   "from": 150,
+   "to": 389,
+   "builder": null,
+   "template": "baths",
+   "loc": [
+    12.495,
+    41.8979
+   ],
+   "rot": 315,
+   "w": 40.0,
+   "l": 60.0,
+   "h": 14.0,
+   "footprint": [
+    [
+     12.495085,
+     41.897582
+    ],
+    [
+     12.495427,
+     41.897836
+    ],
+    [
+     12.494915,
+     41.898218
+    ],
+    [
+     12.494573,
+     41.897964
+    ],
+    [
+     12.495085,
+     41.897582
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 40.0,
+      "l": 60.0,
+      "h": 12.0,
+      "mat": "brick"
+     },
+     {
+      "shape": "vault",
+      "x": 0,
+      "y": 10,
+      "w": 20.0,
+      "l": 30.0,
+      "h": 14.0,
+      "mat": "concrete"
+     },
+     {
+      "shape": "apse",
+      "x": 0,
+      "y": -28,
+      "w": 12.0,
+      "l": 6.0,
+      "h": 11.0,
+      "mat": "brick"
+     }
+    ],
+    "mat": {
+     "walls": "brick"
+    }
+   },
+   "importance": 2,
+   "certainty": "documented",
+   "summary": "Private baths on the Vicus Patricius named after a Novatus whom the legend of Pudentiana makes her brother. A 2nd-century bath hall here was converted about 390 into the church of S. Pudenziana (district D), whose apse mosaic is the oldest in Rome.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "",
+     "r": "11 (Pius I)"
+    }
+   ],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Placed at the church site (Pleiades puts Thermae Novati 150 m SW)."
+  },
+  {
+   "id": "thermae_olympiadis",
+   "monument": "thermae_olympiadis",
+   "name": "Baths of Olympias",
+   "from": 200,
+   "to": 9999,
+   "builder": null,
+   "template": "baths",
+   "loc": [
+    12.492,
+    41.8973
+   ],
+   "rot": 0,
+   "w": 35.0,
+   "l": 50.0,
+   "h": 12.0,
+   "footprint": [
+    [
+     12.491789,
+     41.897075
+    ],
+    [
+     12.492211,
+     41.897075
+    ],
+    [
+     12.492211,
+     41.897525
+    ],
+    [
+     12.491789,
+     41.897525
+    ],
+    [
+     12.491789,
+     41.897075
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 35.0,
+      "l": 50.0,
+      "h": 10.0,
+      "mat": "brick"
+     },
+     {
+      "shape": "dome",
+      "x": 0,
+      "y": -15,
+      "w": 14.0,
+      "l": 14.0,
+      "h": 12.0,
+      "mat": "concrete"
+     }
+    ]
+   },
+   "ruin": {
+    "from": 537,
+    "state": "roofless"
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "Baths on the Viminal near San Lorenzo in Panisperna, where tradition placed the martyrdom of St Laurence in 258.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Site and plan conjectural."
+  },
+  {
+   "id": "lavacrum_agrippinae",
+   "monument": "lavacrum_agrippinae",
+   "name": "Lavacrum Agrippinae",
+   "from": 50,
+   "to": 9999,
+   "builder": null,
+   "template": "baths",
+   "loc": [
+    12.493,
+    41.8995
+   ],
+   "rot": 0,
+   "w": 35.0,
+   "l": 45.0,
+   "h": 12.0,
+   "footprint": [
+    [
+     12.492789,
+     41.899297
+    ],
+    [
+     12.493211,
+     41.899297
+    ],
+    [
+     12.493211,
+     41.899703
+    ],
+    [
+     12.492789,
+     41.899703
+    ],
+    [
+     12.492789,
+     41.899297
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 35.0,
+      "l": 45.0,
+      "h": 10.0,
+      "mat": "brick"
+     },
+     {
+      "shape": "vault",
+      "x": 0,
+      "y": 0,
+      "w": 18.0,
+      "l": 25.0,
+      "h": 12.0,
+      "mat": "concrete"
+     }
+    ]
+   },
+   "ruin": {
+    "from": 537,
+    "state": "roofless"
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "Baths on the Viminal named after an Agrippina, known from inscriptions and the medieval topography of the Viminal.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Site, date and plan conjectural."
+  },
+  {
+   "id": "balneum_neratii_cerealis",
+   "monument": "balneum_neratii_cerealis",
+   "name": "Balneum of Neratius Cerealis",
+   "from": 352,
+   "to": 9999,
+   "begun": 350,
+   "builder": null,
+   "template": "baths",
+   "loc": [
+    12.4992,
+    41.8987
+   ],
+   "rot": 0,
+   "w": 30.0,
+   "l": 40.0,
+   "h": 11.0,
+   "footprint": [
+    [
+     12.499019,
+     41.89852
+    ],
+    [
+     12.499381,
+     41.89852
+    ],
+    [
+     12.499381,
+     41.89888
+    ],
+    [
+     12.499019,
+     41.89888
+    ],
+    [
+     12.499019,
+     41.89852
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 30.0,
+      "l": 40.0,
+      "h": 9.0,
+      "mat": "brick"
+     },
+     {
+      "shape": "dome",
+      "x": 0,
+      "y": -12,
+      "w": 12.0,
+      "l": 12.0,
+      "h": 11.0,
+      "mat": "concrete"
+     }
+    ]
+   },
+   "ruin": {
+    "from": 537,
+    "state": "roofless"
+   },
+   "importance": 1,
+   "certainty": "documented",
+   "summary": "Public baths built on the Esquiline near Santa Maria Maggiore by Naeratius Cerealis, consul of 358 and urban prefect in 352-353, known from inscribed statue bases found there.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)"
+   ],
+   "note": "Site approximate from the findspot; plan generic."
+  },
+  {
+   "id": "statio_cohortis_iii_vigilum",
+   "monument": "statio_cohortis_iii_vigilum",
+   "name": "Station of the Third Cohort of Vigiles",
+   "from": 100,
+   "to": 9999,
+   "builder": null,
+   "template": "compound",
+   "loc": [
+    12.501,
+    41.902
+   ],
+   "rot": 48,
+   "w": 50.0,
+   "l": 60.0,
+   "h": 10.0,
+   "footprint": [
+    [
+     12.500529,
+     41.901987
+    ],
+    [
+     12.500933,
+     41.901652
+    ],
+    [
+     12.501471,
+     41.902013
+    ],
+    [
+     12.501067,
+     41.902348
+    ],
+    [
+     12.500529,
+     41.901987
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "court",
+      "x": 0,
+      "y": 0,
+      "w": 50.0,
+      "l": 60.0,
+      "h": 10.0,
+      "mat": "brick",
+      "ringDepth": 10.0,
+      "storeys": 2
+     }
+    ]
+   },
+   "ruin": {
+    "from": 450,
+    "state": "roofless"
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "Barracks of the cohort of vigiles serving Regions IV and VI, located near the later Baths of Diocletian.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Site and plan conjectural."
+  },
+  {
+   "id": "domus_attici_tamphiliana",
+   "monument": "domus_attici_tamphiliana",
+   "name": "House of Pomponius Atticus (Domus Tamphiliana)",
+   "from": -70,
+   "to": 64,
+   "builder": null,
+   "template": "domus",
+   "loc": [
+    12.4898,
+    41.9008
+   ],
+   "rot": 225,
+   "w": 30.0,
+   "l": 40.0,
+   "h": 10.0,
+   "params": {
+    "atrium": true,
+    "peristyle": {
+     "w": 15.0,
+     "l": 20.0
+    },
+    "storeys": 2,
+    "mat": {
+     "walls": "tufa",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "Cicero's friend Atticus lived in the house inherited from his uncle Caecilius on the Quirinal near the temple of Salus, modest outside but with a fine wooded garden.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Cornelius Nepos",
+     "w": "Atticus",
+     "r": "13.2"
+    },
+    {
+     "a": "Cicero",
+     "w": "Ad Atticum",
+     "r": "4.1.4"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Site conjectural; end date arbitrary."
+  },
+  {
+   "id": "mithraeum_barberini",
+   "monument": "mithraeum_barberini",
+   "name": "Mithraeum under Palazzo Barberini",
+   "from": 200,
+   "to": 400,
+   "builder": null,
+   "template": "compound",
+   "loc": [
+    12.49125,
+    41.903672
+   ],
+   "rot": 225,
+   "w": 7.0,
+   "l": 12.0,
+   "h": 5.0,
+   "footprint": [
+    [
+     12.491331,
+     41.903688
+    ],
+    [
+     12.491271,
+     41.903732
+    ],
+    [
+     12.491169,
+     41.903656
+    ],
+    [
+     12.491229,
+     41.903612
+    ],
+    [
+     12.491331,
+     41.903688
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "vault",
+      "x": 0,
+      "y": 0,
+      "w": 7.0,
+      "l": 12.0,
+      "h": 5.0,
+      "z": -2.0,
+      "mat": "brick",
+      "role": "vaulted hall with benches; painted tauroctony with zodiac and ten scenes of the Mithras story"
+     }
+    ]
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "A vaulted room of a 2nd-century building on the slope of the Quirinal converted into a mithraeum about 200; its back wall carries one of the best preserved painted tauroctonies, framed by the zodiac and scenes of the god's life.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Location from Pleiades."
+  },
+  {
+   "id": "senaculum_mulierum",
+   "monument": "senaculum_mulierum",
+   "name": "Senaculum of the women (Quirinal)",
+   "from": 218,
+   "to": 222,
+   "builder": "elagabalus",
+   "template": "compound",
+   "loc": [
+    12.4875,
+    41.901
+   ],
+   "rot": 225,
+   "w": 20.0,
+   "l": 30.0,
+   "h": 10.0,
+   "footprint": [
+    [
+     12.487713,
+     41.901032
+    ],
+    [
+     12.487543,
+     41.901159
+    ],
+    [
+     12.487287,
+     41.900968
+    ],
+    [
+     12.487457,
+     41.900841
+    ],
+    [
+     12.487713,
+     41.901032
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 20.0,
+      "l": 30.0,
+      "h": 9.0,
+      "mat": "brick"
+     },
+     {
+      "shape": "gable",
+      "x": 0,
+      "y": 0,
+      "w": 20.0,
+      "l": 30.0,
+      "h": 2.0,
+      "z": 9.0,
+      "mat": "roof_tile"
+     }
+    ]
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "The Historia Augusta claims that Elagabalus set up a 'little senate' of matrons on the Quirinal, on the spot where the conventus matronarum had met, presided over by his mother Soaemias, which legislated on women's dress and precedence.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Heliogabalus",
+     "r": "4.3-4"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Site and building conjectural; the story may be invented."
+  },
+  {
+   "id": "tomb_of_the_sempronii",
+   "monument": "tomb_of_the_sempronii",
+   "name": "Tomb of the Sempronii",
+   "from": -60,
+   "to": 9999,
+   "builder": null,
+   "template": "tomb",
+   "loc": [
+    12.485026,
+    41.899928
+   ],
+   "rot": 270,
+   "w": 6.0,
+   "l": 4.0,
+   "h": 6.0,
+   "params": {
+    "kind": "aedicula",
+    "w": 6.0,
+    "h": 6.0,
+    "mat": {
+     "body": "travertine"
+    }
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "The travertine facade of a late Republican family tomb of the Sempronii, with an arched doorway and inscribed frieze, which stood beside a road at the foot of the Quirinal before the city grew over the area; preserved at Via della Dataria.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Location from Pleiades. Facade orientation assumed (W)."
+  }
+ ]
+}

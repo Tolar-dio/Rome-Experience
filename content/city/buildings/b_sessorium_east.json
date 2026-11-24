@@ -1,0 +1,1754 @@
+{
+ "buildings": [
+  {
+   "id": "porta_maggiore_v1",
+   "monument": "porta_praenestina",
+   "name": "Porta Maggiore (Claudian aqueduct arches)",
+   "from": 52,
+   "to": 270,
+   "begun": 38,
+   "builder": "claudius",
+   "template": "compound",
+   "loc": [
+    12.515242,
+    41.891457
+   ],
+   "rot": 100,
+   "w": 32.0,
+   "l": 8.0,
+   "h": 24.0,
+   "footprint": [
+    [
+     12.515228,
+     41.891605
+    ],
+    [
+     12.515161,
+     41.891321
+    ],
+    [
+     12.515256,
+     41.891309
+    ],
+    [
+     12.515323,
+     41.891593
+    ],
+    [
+     12.515228,
+     41.891605
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 32.0,
+      "l": 8.0,
+      "h": 17.0,
+      "mat": "travertine",
+      "arches": 2,
+      "archW": 6.35,
+      "archH": 14.0,
+      "rustication": true
+     },
+     {
+      "shape": "box",
+      "x": -11,
+      "y": 4.2,
+      "w": 4.5,
+      "l": 1.2,
+      "h": 12.0,
+      "mat": "travertine",
+      "role": "aedicula"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 4.2,
+      "w": 4.5,
+      "l": 1.2,
+      "h": 12.0,
+      "mat": "travertine",
+      "role": "aedicula"
+     },
+     {
+      "shape": "box",
+      "x": 11,
+      "y": 4.2,
+      "w": 4.5,
+      "l": 1.2,
+      "h": 12.0,
+      "mat": "travertine",
+      "role": "aedicula"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 32.0,
+      "l": 6.0,
+      "h": 3.5,
+      "z": 17.0,
+      "mat": "travertine",
+      "role": "channel of the Aqua Claudia (inscription of Claudius, 52)"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 32.0,
+      "l": 6.0,
+      "h": 3.5,
+      "z": 20.5,
+      "mat": "travertine",
+      "role": "channel of the Anio Novus"
+     }
+    ],
+    "mat": {
+     "body": "travertine"
+    }
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "The monumental double arch by which Claudius carried the Aqua Claudia and the Anio Novus, one channel above the other, across the fork of the Via Praenestina and Via Labicana in 52. Built of deliberately rough-dressed (rusticated) travertine, with aediculae on the piers; the attic carries the dedications of Claudius (52) and the restorations of Vespasian (71) and Titus (81).",
+   "phases": [
+    {
+     "y": 52,
+     "t": "dedicated 1 August"
+    },
+    {
+     "y": 71,
+     "t": "Vespasian restores the channels"
+    },
+    {
+     "y": 81,
+     "t": "Titus restores the channels"
+    }
+   ],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "1256"
+    },
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "1257"
+    },
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "1258"
+    },
+    {
+     "a": "Frontinus",
+     "w": "De aquaeductu",
+     "r": "1.13"
+    }
+   ],
+   "scholarship": [
+    "Coates-Stephens, Porta Maggiore: Monument and Landscape (2004)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Location from Wikipedia/Pleiades. The Via Praenestina and Via Labicana pass under the two arches heading E; outer face toward the ESE (rot 100). Arches about 6.35 m wide and 14 m high; total height about 24 m to the top of the upper channel. The aqueduct lines themselves are in the aqueduct collection; the gate also appears in the walls collection as porta_praenestina."
+  },
+  {
+   "id": "porta_maggiore_v2",
+   "monument": "porta_praenestina",
+   "name": "Porta Praenestina (Aurelian gate)",
+   "from": 271,
+   "to": 400,
+   "begun": 271,
+   "builder": "aurelian",
+   "template": "compound",
+   "loc": [
+    12.515242,
+    41.891457
+   ],
+   "rot": 100,
+   "w": 32.0,
+   "l": 8.0,
+   "h": 24.0,
+   "footprint": [
+    [
+     12.515228,
+     41.891605
+    ],
+    [
+     12.515161,
+     41.891321
+    ],
+    [
+     12.515256,
+     41.891309
+    ],
+    [
+     12.515323,
+     41.891593
+    ],
+    [
+     12.515228,
+     41.891605
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 32.0,
+      "l": 8.0,
+      "h": 17.0,
+      "mat": "travertine",
+      "arches": 2,
+      "archW": 6.35,
+      "archH": 14.0,
+      "rustication": true
+     },
+     {
+      "shape": "box",
+      "x": -11,
+      "y": 4.2,
+      "w": 4.5,
+      "l": 1.2,
+      "h": 12.0,
+      "mat": "travertine",
+      "role": "aedicula"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 4.2,
+      "w": 4.5,
+      "l": 1.2,
+      "h": 12.0,
+      "mat": "travertine",
+      "role": "aedicula"
+     },
+     {
+      "shape": "box",
+      "x": 11,
+      "y": 4.2,
+      "w": 4.5,
+      "l": 1.2,
+      "h": 12.0,
+      "mat": "travertine",
+      "role": "aedicula"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 32.0,
+      "l": 6.0,
+      "h": 3.5,
+      "z": 17.0,
+      "mat": "travertine",
+      "role": "channel of the Aqua Claudia (inscription of Claudius, 52)"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 32.0,
+      "l": 6.0,
+      "h": 3.5,
+      "z": 20.5,
+      "mat": "travertine",
+      "role": "channel of the Anio Novus"
+     },
+     {
+      "shape": "wall",
+      "x": -40,
+      "y": 0,
+      "w": 48.0,
+      "l": 3.5,
+      "h": 8.0,
+      "mat": "brick"
+     },
+     {
+      "shape": "wall",
+      "x": 40,
+      "y": 0,
+      "w": 48.0,
+      "l": 3.5,
+      "h": 8.0,
+      "mat": "brick"
+     }
+    ],
+    "mat": {
+     "body": "travertine",
+     "wall": "brick"
+    }
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "Aurelian's wall builders used the aqueduct arches as a ready-made double gate, the Porta Praenestina-Labicana, joining the curtain to both sides.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Coates-Stephens, Porta Maggiore: Monument and Landscape (2004)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)"
+   ],
+   "note": "Location from Wikipedia/Pleiades. The Via Praenestina and Via Labicana pass under the two arches heading E; outer face toward the ESE (rot 100). Arches about 6.35 m wide and 14 m high; total height about 24 m to the top of the upper channel. The aqueduct lines themselves are in the aqueduct collection; the gate also appears in the walls collection as porta_praenestina."
+  },
+  {
+   "id": "porta_maggiore_v3",
+   "monument": "porta_praenestina",
+   "name": "Porta Praenestina (Honorian bastion)",
+   "from": 401,
+   "to": 9999,
+   "begun": 401,
+   "builder": "honorius",
+   "template": "compound",
+   "loc": [
+    12.515242,
+    41.891457
+   ],
+   "rot": 100,
+   "w": 50.0,
+   "l": 30.0,
+   "h": 24.0,
+   "footprint": [
+    [
+     12.515116,
+     41.891702
+    ],
+    [
+     12.515011,
+     41.891259
+    ],
+    [
+     12.515368,
+     41.891212
+    ],
+    [
+     12.515473,
+     41.891655
+    ],
+    [
+     12.515116,
+     41.891702
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 32.0,
+      "l": 8.0,
+      "h": 17.0,
+      "mat": "travertine",
+      "arches": 2,
+      "archW": 6.35,
+      "archH": 14.0,
+      "rustication": true
+     },
+     {
+      "shape": "box",
+      "x": -11,
+      "y": 4.2,
+      "w": 4.5,
+      "l": 1.2,
+      "h": 12.0,
+      "mat": "travertine",
+      "role": "aedicula"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 4.2,
+      "w": 4.5,
+      "l": 1.2,
+      "h": 12.0,
+      "mat": "travertine",
+      "role": "aedicula"
+     },
+     {
+      "shape": "box",
+      "x": 11,
+      "y": 4.2,
+      "w": 4.5,
+      "l": 1.2,
+      "h": 12.0,
+      "mat": "travertine",
+      "role": "aedicula"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 32.0,
+      "l": 6.0,
+      "h": 3.5,
+      "z": 17.0,
+      "mat": "travertine",
+      "role": "channel of the Aqua Claudia (inscription of Claudius, 52)"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 32.0,
+      "l": 6.0,
+      "h": 3.5,
+      "z": 20.5,
+      "mat": "travertine",
+      "role": "channel of the Anio Novus"
+     },
+     {
+      "shape": "wall",
+      "x": -40,
+      "y": 0,
+      "w": 48.0,
+      "l": 3.5,
+      "h": 15.0,
+      "mat": "brick"
+     },
+     {
+      "shape": "wall",
+      "x": 40,
+      "y": 0,
+      "w": 48.0,
+      "l": 3.5,
+      "h": 15.0,
+      "mat": "brick"
+     },
+     {
+      "shape": "wall",
+      "x": 0,
+      "y": 20,
+      "w": 44.0,
+      "l": 4.0,
+      "h": 14.0,
+      "mat": "travertine",
+      "role": "Honorian outer gate front with two passages"
+     },
+     {
+      "shape": "tower",
+      "x": -22,
+      "y": 18,
+      "w": 10.0,
+      "l": 10.0,
+      "h": 18.0,
+      "mat": "brick"
+     },
+     {
+      "shape": "tower",
+      "x": 22,
+      "y": 18,
+      "w": 10.0,
+      "l": 10.0,
+      "h": 18.0,
+      "mat": "brick"
+     },
+     {
+      "shape": "tower",
+      "x": 0,
+      "y": 18,
+      "w": 9.0,
+      "l": 9.0,
+      "h": 18.0,
+      "mat": "brick"
+     },
+     {
+      "shape": "wall",
+      "x": -22,
+      "y": 10,
+      "w": 3.0,
+      "l": 16.0,
+      "h": 14.0,
+      "mat": "brick"
+     },
+     {
+      "shape": "wall",
+      "x": 22,
+      "y": 10,
+      "w": 3.0,
+      "l": 16.0,
+      "h": 14.0,
+      "mat": "brick"
+     }
+    ],
+    "mat": {
+     "body": "travertine",
+     "wall": "brick"
+    }
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "In 401-403 Honorius doubled the walls and added a forward gate-court in front of the arches with a travertine outer front, two passages and towers, swallowing the Tomb of Eurysaces into its central tower. Pulled down in 1838, which revealed the tomb.",
+   "phases": [
+    {
+     "y": 402,
+     "t": "inscription of Arcadius and Honorius on the outer gate"
+    }
+   ],
+   "sources": [],
+   "scholarship": [
+    "Coates-Stephens, Porta Maggiore: Monument and Landscape (2004)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)"
+   ],
+   "note": "Location from Wikipedia/Pleiades. The Via Praenestina and Via Labicana pass under the two arches heading E; outer face toward the ESE (rot 100). Arches about 6.35 m wide and 14 m high; total height about 24 m to the top of the upper channel. The aqueduct lines themselves are in the aqueduct collection; the gate also appears in the walls collection as porta_praenestina."
+  },
+  {
+   "id": "tomb_of_eurysaces",
+   "monument": "tomb_of_eurysaces",
+   "name": "Tomb of Eurysaces the Baker",
+   "from": -30,
+   "to": 400,
+   "begun": -40,
+   "builder": null,
+   "template": "tomb",
+   "loc": [
+    12.515379,
+    41.891466
+   ],
+   "rot": 100,
+   "w": 8.0,
+   "l": 6.0,
+   "h": 10.0,
+   "params": {
+    "kind": "tower",
+    "w": 8.0,
+    "h": 10.0,
+    "plan": "trapezoid fitted into the road fork",
+    "decoration": "horizontal and vertical cylinders like grain measures or dough-kneading bowls; frieze of bread-making from milling to weighing",
+    "mat": {
+     "body": "travertine",
+     "core": "concrete"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "The freedman baker and contractor M. Vergilius Eurysaces built this eccentric tomb for himself and his wife Atistia in the fork of the Via Praenestina and Via Labicana about 30 BC, its walls pierced by rows of cylinders and topped by a frieze showing every stage of bread-making for the state. Encased in a tower of the Honorian gate in 401-403.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "1958"
+    }
+   ],
+   "scholarship": [
+    "Coates-Stephens, Porta Maggiore: Monument and Landscape (2004)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Placed in the fork just outside the arches; after 401 it survives inside the Honorian tower (record ends, see porta_maggiore_v3)."
+  },
+  {
+   "id": "underground_basilica_porta_maggiore",
+   "monument": "underground_basilica_porta_maggiore",
+   "name": "Underground Basilica of Porta Maggiore",
+   "from": 45,
+   "to": 9999,
+   "begun": 40,
+   "builder": null,
+   "template": "compound",
+   "loc": [
+    12.516473,
+    41.891786
+   ],
+   "rot": 265,
+   "w": 9.0,
+   "l": 16.0,
+   "h": 0.5,
+   "footprint": [
+    [
+     12.516574,
+     41.891752
+    ],
+    [
+     12.516564,
+     41.891833
+    ],
+    [
+     12.516372,
+     41.89182
+    ],
+    [
+     12.516382,
+     41.891739
+    ],
+    [
+     12.516574,
+     41.891752
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 9.0,
+      "l": 12.0,
+      "h": 6.5,
+      "z": -13.0,
+      "mat": "stucco",
+      "aisles": 3,
+      "role": "nave and aisles"
+     },
+     {
+      "shape": "apse",
+      "x": 0,
+      "y": -7,
+      "w": 3.5,
+      "l": 2.0,
+      "h": 6.0,
+      "z": -13.0,
+      "mat": "stucco"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 7.5,
+      "w": 3.5,
+      "l": 3.5,
+      "h": 6.0,
+      "z": -13.0,
+      "mat": "stucco",
+      "role": "vestibule"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 25,
+      "w": 2.0,
+      "l": 25.0,
+      "h": 3.0,
+      "z": -11.0,
+      "mat": "concrete",
+      "role": "dromos to the Via Praenestina"
+     }
+    ],
+    "subterranean": true,
+    "interior": "white stucco reliefs: Sappho's leap from the Leucadian rock, myths of salvation, Victories"
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "A three-aisled apsed hall built entirely underground (about 12 m down) by casting concrete into trenches dug in the tufa, its vaults covered in white stucco reliefs; discovered in 1917 by a railway collapse. Probably built by the Statilii for a mystery or Neopythagorean group in the mid-1st century and abandoned soon after, perhaps when T. Statilius Taurus was forced to suicide in 53.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Coates-Stephens, Porta Maggiore: Monument and Landscape (2004)"
+   ],
+   "note": "Location from Pleiades. Entirely below ground; blocks carry negative z. Orientation assumed."
+  },
+  {
+   "id": "via_statilia_tombs",
+   "monument": "via_statilia_tombs",
+   "name": "Republican tombs of Via Statilia",
+   "from": -80,
+   "to": 9999,
+   "builder": null,
+   "template": "compound",
+   "loc": [
+    12.511834,
+    41.890257
+   ],
+   "rot": 355,
+   "w": 25.0,
+   "l": 6.0,
+   "h": 5.0,
+   "footprint": [
+    [
+     12.511687,
+     41.89022
+    ],
+    [
+     12.511987,
+     41.89024
+    ],
+    [
+     12.511981,
+     41.890294
+    ],
+    [
+     12.511681,
+     41.890274
+    ],
+    [
+     12.511687,
+     41.89022
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": -9,
+      "y": 0,
+      "w": 5.0,
+      "l": 5.0,
+      "h": 4.5,
+      "mat": "tufa",
+      "kind": "house tomb"
+     },
+     {
+      "shape": "box",
+      "x": -3,
+      "y": 0,
+      "w": 5.0,
+      "l": 5.0,
+      "h": 4.0,
+      "mat": "tufa"
+     },
+     {
+      "shape": "box",
+      "x": 3,
+      "y": 0,
+      "w": 5.0,
+      "l": 5.0,
+      "h": 5.0,
+      "mat": "travertine",
+      "kind": "tomb with portrait relief"
+     },
+     {
+      "shape": "box",
+      "x": 9,
+      "y": 0,
+      "w": 5.0,
+      "l": 5.0,
+      "h": 4.0,
+      "mat": "tufa"
+     }
+    ]
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "A row of late Republican tombs of tufa and travertine, some house-shaped with portrait reliefs of freedmen couples, lining the ancient road (Via Caelimontana) on the E Esquiline; found in 1916 and preserved below Via Statilia.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Coates-Stephens, Porta Maggiore: Monument and Landscape (2004)"
+   ],
+   "note": "Location from Pleiades."
+  },
+  {
+   "id": "columbaria_statiliorum",
+   "monument": "columbaria_statiliorum",
+   "name": "Columbarium of the Statilii",
+   "from": -20,
+   "to": 9999,
+   "builder": null,
+   "template": "tomb",
+   "loc": [
+    12.5135,
+    41.8905
+   ],
+   "rot": 355,
+   "w": 12.0,
+   "l": 15.0,
+   "h": 4.0,
+   "params": {
+    "kind": "house",
+    "w": 12.0,
+    "h": 4.0,
+    "burials": "about 700 urn niches for the slaves and freedmen of the Statilii Tauri"
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "The great family columbarium of the household of the Statilii Tauri, found in 1875 near Porta Maggiore, with hundreds of inscribed niches recording the jobs of slaves and freedmen.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Coates-Stephens, Porta Maggiore: Monument and Landscape (2004)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Position approximate."
+  },
+  {
+   "id": "sepulcrum_arruntiorum",
+   "monument": "sepulcrum_arruntiorum",
+   "name": "Columbarium of the Arruntii",
+   "from": 10,
+   "to": 9999,
+   "builder": null,
+   "template": "tomb",
+   "loc": [
+    12.5145,
+    41.8918
+   ],
+   "rot": 100,
+   "w": 10.0,
+   "l": 12.0,
+   "h": 4.0,
+   "params": {
+    "kind": "house",
+    "w": 10.0,
+    "h": 4.0
+   },
+   "importance": 1,
+   "certainty": "documented",
+   "summary": "Columbarium of the household of L. Arruntius (consul AD 6), found in 1736 near Porta Maggiore and drawn by Piranesi, since destroyed.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Coates-Stephens, Porta Maggiore: Monument and Landscape (2004)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Position approximate (Pleiades gives the gate's coordinates)."
+  },
+  {
+   "id": "hypogeum_of_the_aurelii",
+   "monument": "hypogeum_of_the_aurelii",
+   "name": "Hypogeum of the Aurelii",
+   "from": 220,
+   "to": 9999,
+   "builder": null,
+   "template": "tomb",
+   "loc": [
+    12.511027,
+    41.897448
+   ],
+   "rot": 0,
+   "w": 6.0,
+   "l": 8.0,
+   "h": 4.0,
+   "params": {
+    "kind": "house",
+    "w": 6.0,
+    "h": 4.0,
+    "subterranean": "two painted chambers below a small above-ground room"
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "A small family tomb of the early 3rd century off the Via Labicana, with enigmatic paintings variously read as Christian, Gnostic or pagan; found in 1919 at Viale Manzoni.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Location from Pleiades."
+  },
+  {
+   "id": "sessorium_v1",
+   "monument": "sessorium",
+   "name": "Sessorium (Severan palace ad Spem Veterem)",
+   "from": 215,
+   "to": 311,
+   "begun": 200,
+   "builder": "elagabalus",
+   "template": "compound",
+   "loc": [
+    12.516316,
+    41.888927
+   ],
+   "rot": 65,
+   "w": 250.0,
+   "l": 260.0,
+   "h": 22.0,
+   "footprint": [
+    [
+     12.514257,
+     41.889452
+    ],
+    [
+     12.515532,
+     41.887412
+    ],
+    [
+     12.518375,
+     41.888402
+    ],
+    [
+     12.5171,
+     41.890442
+    ],
+    [
+     12.514257,
+     41.889452
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "court",
+      "x": 0,
+      "y": 20,
+      "w": 70.0,
+      "l": 60.0,
+      "h": 12.0,
+      "mat": "brick",
+      "ringDepth": 12.0,
+      "storeys": 2,
+      "role": "residential court"
+     },
+     {
+      "shape": "box",
+      "x": 68,
+      "y": -77,
+      "w": 21.7,
+      "l": 36.5,
+      "h": 22.0,
+      "mat": "brick",
+      "role": "great hall (later Santa Croce)"
+     },
+     {
+      "shape": "box",
+      "x": 122,
+      "y": 8,
+      "w": 20.0,
+      "l": 30.0,
+      "h": 18.0,
+      "mat": "brick",
+      "role": "apsed hall"
+     },
+     {
+      "shape": "colonnade",
+      "x": -40,
+      "y": -60,
+      "w": 8.0,
+      "l": 160.0,
+      "h": 8.0,
+      "mat": "brick",
+      "colH": 6.0,
+      "role": "long gallery toward the Amphitheatrum Castrense"
+     },
+     {
+      "shape": "colonnade",
+      "x": 60,
+      "y": 70,
+      "w": 200.0,
+      "l": 8.0,
+      "h": 8.0,
+      "mat": "brick",
+      "colH": 6.0,
+      "role": "gallery toward the Circus Varianus"
+     },
+     {
+      "shape": "box",
+      "x": -60,
+      "y": 40,
+      "w": 40.0,
+      "l": 40.0,
+      "h": 9.0,
+      "mat": "brick"
+     }
+    ]
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "An imperial residence built by the Severans, probably Elagabalus, in the Horti Spei Veteris on the E edge of the city, with its own amphitheatre (the Amphitheatrum Castrense) and circus (the Circus Varianus) linked by long galleries.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Heliogabalus",
+     "r": "13.5"
+    }
+   ],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Coates-Stephens, Porta Maggiore: Monument and Landscape (2004)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Centre from Pleiades (Palatium Sessorianum). Grid assumed parallel to the hall of Santa Croce (rot 65). Block positions of the great hall and apsed hall computed from their Pleiades points."
+  },
+  {
+   "id": "sessorium_v2",
+   "monument": "sessorium",
+   "name": "Palatium Sessorianum (residence of Helena)",
+   "from": 312,
+   "to": 9999,
+   "builder": "helena",
+   "template": "compound",
+   "loc": [
+    12.516316,
+    41.888927
+   ],
+   "rot": 65,
+   "w": 250.0,
+   "l": 260.0,
+   "h": 22.0,
+   "footprint": [
+    [
+     12.514257,
+     41.889452
+    ],
+    [
+     12.515532,
+     41.887412
+    ],
+    [
+     12.518375,
+     41.888402
+    ],
+    [
+     12.5171,
+     41.890442
+    ],
+    [
+     12.514257,
+     41.889452
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "court",
+      "x": 0,
+      "y": 20,
+      "w": 70.0,
+      "l": 60.0,
+      "h": 12.0,
+      "mat": "brick",
+      "ringDepth": 12.0,
+      "storeys": 2,
+      "role": "residential court"
+     },
+     {
+      "shape": "box",
+      "x": 122,
+      "y": 8,
+      "w": 20.0,
+      "l": 30.0,
+      "h": 18.0,
+      "mat": "brick",
+      "role": "apsed hall"
+     },
+     {
+      "shape": "colonnade",
+      "x": -40,
+      "y": -60,
+      "w": 8.0,
+      "l": 160.0,
+      "h": 8.0,
+      "mat": "brick",
+      "colH": 6.0,
+      "role": "long gallery toward the Amphitheatrum Castrense"
+     },
+     {
+      "shape": "colonnade",
+      "x": 60,
+      "y": 70,
+      "w": 200.0,
+      "l": 8.0,
+      "h": 8.0,
+      "mat": "brick",
+      "colH": 6.0,
+      "role": "gallery toward the Circus Varianus"
+     },
+     {
+      "shape": "box",
+      "x": -60,
+      "y": 40,
+      "w": 40.0,
+      "l": 40.0,
+      "h": 9.0,
+      "mat": "brick"
+     }
+    ]
+   },
+   "ruin": {
+    "from": 537,
+    "state": "half"
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "After 312 the palace became the residence of Constantine's mother Helena, who restored the nearby baths; a hall of the palace became the church of Santa Croce in Gerusalemme (district D) to hold the relics of the Cross. Still an imperial residence in the 5th century; Valentinian III and Theodoric's officials used it.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Coates-Stephens, Porta Maggiore: Monument and Landscape (2004)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Centre from Pleiades (Palatium Sessorianum). Grid assumed parallel to the hall of Santa Croce (rot 65). Block positions of the great hall and apsed hall computed from their Pleiades points. The great hall is omitted from this version because it is the church from c. 330 (district D) and is given separately up to 329."
+  },
+  {
+   "id": "sessorium_great_hall",
+   "monument": "sessorium_great_hall",
+   "name": "Great hall of the Sessorium (before Santa Croce)",
+   "from": 215,
+   "to": 329,
+   "begun": 205,
+   "builder": "elagabalus",
+   "template": "compound",
+   "loc": [
+    12.515926,
+    41.888048
+   ],
+   "rot": 65,
+   "w": 21.7,
+   "l": 36.5,
+   "h": 22.0,
+   "footprint": [
+    [
+     12.515671,
+     41.888067
+    ],
+    [
+     12.515782,
+     41.88789
+    ],
+    [
+     12.516181,
+     41.888029
+    ],
+    [
+     12.51607,
+     41.888206
+    ],
+    [
+     12.515671,
+     41.888067
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 21.7,
+      "l": 36.5,
+      "h": 20.0,
+      "mat": "brick",
+      "windows": "two rows of large arched windows"
+     },
+     {
+      "shape": "gable",
+      "x": 0,
+      "y": 0,
+      "w": 21.7,
+      "l": 36.5,
+      "h": 4.0,
+      "z": 20.0,
+      "mat": "roof_tile"
+     }
+    ]
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "A tall rectangular hall of the palace, about 36.5 x 21.7 m, lit by large arched windows; about 325-330 it was converted into the church of Santa Croce in Gerusalemme (district D), whose brick walls still incorporate it.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Location from Pleiades (Santa Croce). Record ends where district D's church begins."
+  },
+  {
+   "id": "sessorium_apsed_hall",
+   "monument": "sessorium_apsed_hall",
+   "name": "Apsed hall of the Sessorium ('Temple of Venus and Cupid')",
+   "from": 312,
+   "to": 9999,
+   "builder": "helena",
+   "template": "compound",
+   "loc": [
+    12.517139,
+    41.888016
+   ],
+   "rot": 65,
+   "w": 20.0,
+   "l": 30.0,
+   "h": 18.0,
+   "footprint": [
+    [
+     12.516924,
+     41.888041
+    ],
+    [
+     12.517026,
+     41.887877
+    ],
+    [
+     12.517354,
+     41.887991
+    ],
+    [
+     12.517252,
+     41.888155
+    ],
+    [
+     12.516924,
+     41.888041
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 20.0,
+      "l": 26.0,
+      "h": 16.0,
+      "mat": "brick"
+     },
+     {
+      "shape": "apse",
+      "x": 0,
+      "y": -15,
+      "w": 16.0,
+      "l": 8.0,
+      "h": 15.0,
+      "mat": "brick"
+     }
+    ]
+   },
+   "ruin": {
+    "from": 537,
+    "state": "roofless"
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "Ruins of a great apsed hall of the Constantinian palace, named after a statue of Venus and Cupid found nearby; it stands beside the Aurelian Wall E of Santa Croce.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)"
+   ],
+   "note": "Location from Pleiades."
+  },
+  {
+   "id": "amphitheatrum_castrense_v1",
+   "monument": "amphitheatrum_castrense",
+   "name": "Amphitheatrum Castrense",
+   "from": 215,
+   "to": 270,
+   "begun": 205,
+   "builder": "elagabalus",
+   "template": "amphitheatre",
+   "loc": [
+    12.515084,
+    41.887648
+   ],
+   "rot": 160,
+   "w": 75.8,
+   "l": 88.0,
+   "h": 25.0,
+   "params": {
+    "a": 88.0,
+    "b": 75.8,
+    "arenaA": 60.0,
+    "arenaB": 47.0,
+    "storeys": 3,
+    "bays": 40,
+    "attic": false,
+    "hypogeum": false,
+    "orders": [
+     "corinthian",
+     "corinthian",
+     "pilasters"
+    ],
+    "walled": false,
+    "mat": {
+     "facade": "brick",
+     "halfcolumns": "brick",
+     "capitals": "travertine"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "A small court amphitheatre of the Sessorium palace, built entirely of brick with Corinthian half-columns and pilasters, for the private entertainment of the court ('castrense' means belonging to the imperial household).",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Notitia",
+     "w": "Regio V",
+     "r": "amphitheatrum castrense"
+    }
+   ],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Location from Pleiades. Outer axes 88 x 75.8 m. Major-axis bearing not measured; set NNW-SSE (160) as it appears on plans. Arena size and bay count estimated."
+  },
+  {
+   "id": "amphitheatrum_castrense_v2",
+   "monument": "amphitheatrum_castrense",
+   "name": "Amphitheatrum Castrense (in the Aurelian Wall)",
+   "from": 271,
+   "to": 9999,
+   "begun": 271,
+   "builder": "aurelian",
+   "template": "amphitheatre",
+   "loc": [
+    12.515084,
+    41.887648
+   ],
+   "rot": 160,
+   "w": 75.8,
+   "l": 88.0,
+   "h": 25.0,
+   "params": {
+    "a": 88.0,
+    "b": 75.8,
+    "arenaA": 60.0,
+    "arenaB": 47.0,
+    "storeys": 3,
+    "bays": 40,
+    "attic": false,
+    "hypogeum": false,
+    "orders": [
+     "corinthian",
+     "corinthian",
+     "pilasters"
+    ],
+    "walled": true,
+    "mat": {
+     "facade": "brick",
+     "halfcolumns": "brick",
+     "capitals": "travertine"
+    }
+   },
+   "ruin": {
+    "from": 271,
+    "state": "half"
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "Incorporated into the Aurelian Wall from 271: its outer arcades were walled up and the ground level outside lowered, so that the amphitheatre became a bastion projecting from the line of the wall.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Location from Pleiades. Outer axes 88 x 75.8 m. Major-axis bearing not measured; set NNW-SSE (160) as it appears on plans. Arena size and bay count estimated."
+  },
+  {
+   "id": "circus_varianus_v1",
+   "monument": "circus_varianus",
+   "name": "Circus Varianus",
+   "from": 220,
+   "to": 270,
+   "begun": 218,
+   "builder": "elagabalus",
+   "template": "circus",
+   "loc": [
+    12.5199,
+    41.88815
+   ],
+   "rot": 256,
+   "w": 125.0,
+   "l": 565.0,
+   "h": 10.0,
+   "params": {
+    "l": 565.0,
+    "w": 125.0,
+    "spina": {
+     "l": 340.0,
+     "w": 9.0
+    },
+    "obelisks": [
+     0.0
+    ],
+    "carceres": 12,
+    "tiers": 10.0,
+    "pulvinar": true,
+    "obelisk": "obelisk of Antinous (9.25 m), now on the Pincio, probably set on the spina"
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "The private circus of the Sessorium, named after Elagabalus' family (the Varii), where the emperor himself drove chariots. About 565 m long, it ran E from the palace; its spina probably carried the obelisk Hadrian had made for Antinous.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Heliogabalus",
+     "r": "14.5"
+    }
+   ],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Coates-Stephens, Porta Maggiore: Monument and Landscape (2004)"
+   ],
+   "note": "Long axis about 76/256 degrees, from the curved end in the E toward the starting gates near the palace in the W (rot 256). Centre from Pleiades and the gazetteer averaged; length about 565 m."
+  },
+  {
+   "id": "circus_varianus_v2",
+   "monument": "circus_varianus",
+   "name": "Circus Varianus (cut by the Aurelian Wall)",
+   "from": 271,
+   "to": 9999,
+   "begun": 271,
+   "builder": "aurelian",
+   "template": "circus",
+   "loc": [
+    12.5199,
+    41.88815
+   ],
+   "rot": 256,
+   "w": 125.0,
+   "l": 565.0,
+   "h": 8.0,
+   "params": {
+    "l": 565.0,
+    "w": 125.0,
+    "spina": {
+     "l": 340.0,
+     "w": 9.0
+    },
+    "obelisks": [
+     0.0
+    ],
+    "carceres": 12,
+    "tiers": 10.0,
+    "pulvinar": true,
+    "obelisk": "obelisk of Antinous (9.25 m), now on the Pincio, probably set on the spina"
+   },
+   "ruin": {
+    "from": 271,
+    "state": "half"
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "Aurelian's wall cut across the circus, leaving its starting gates inside and the curved end outside; it ceased to be used and was quarried.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Coates-Stephens, Porta Maggiore: Monument and Landscape (2004)"
+   ],
+   "note": "Long axis about 76/256 degrees, from the curved end in the E toward the starting gates near the palace in the W (rot 256). Centre from Pleiades and the gazetteer averaged; length about 565 m."
+  },
+  {
+   "id": "baths_of_helena_v1",
+   "monument": "baths_of_helena",
+   "name": "Thermae Helenianae (Severan baths)",
+   "from": 225,
+   "to": 322,
+   "begun": 220,
+   "builder": "severus_alexander",
+   "template": "baths",
+   "loc": [
+    12.514661,
+    41.889222
+   ],
+   "rot": 65,
+   "w": 80.0,
+   "l": 90.0,
+   "h": 16.0,
+   "footprint": [
+    [
+     12.513965,
+     41.889377
+    ],
+    [
+     12.514373,
+     41.888724
+    ],
+    [
+     12.515357,
+     41.889067
+    ],
+    [
+     12.514949,
+     41.88972
+    ],
+    [
+     12.513965,
+     41.889377
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 60.0,
+      "l": 80.0,
+      "h": 12.0,
+      "mat": "brick"
+     },
+     {
+      "shape": "vault",
+      "x": 0,
+      "y": 10,
+      "w": 24.0,
+      "l": 16.0,
+      "h": 16.0,
+      "mat": "concrete"
+     },
+     {
+      "shape": "dome",
+      "x": 0,
+      "y": -25,
+      "w": 16.0,
+      "l": 16.0,
+      "h": 15.0,
+      "mat": "concrete"
+     },
+     {
+      "shape": "court",
+      "x": 40,
+      "y": 0,
+      "w": 20.0,
+      "l": 40.0,
+      "h": 8.0,
+      "mat": "brick",
+      "ringDepth": 4.0
+     }
+    ],
+    "mat": {
+     "walls": "brick"
+    }
+   },
+   "importance": 3,
+   "certainty": "documented",
+   "summary": "Public baths of the Severan period beside the Sessorium, fed by a branch of the Aqua Alexandrina; Renaissance drawings record their plan before they were destroyed under Sixtus V.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Location from Pleiades (point); plan generic after Renaissance drawings."
+  },
+  {
+   "id": "baths_of_helena_v2",
+   "monument": "baths_of_helena",
+   "name": "Thermae Helenianae (restored by Helena)",
+   "from": 323,
+   "to": 9999,
+   "begun": 320,
+   "builder": "helena",
+   "template": "baths",
+   "loc": [
+    12.514661,
+    41.889222
+   ],
+   "rot": 65,
+   "w": 80.0,
+   "l": 90.0,
+   "h": 16.0,
+   "footprint": [
+    [
+     12.513965,
+     41.889377
+    ],
+    [
+     12.514373,
+     41.888724
+    ],
+    [
+     12.515357,
+     41.889067
+    ],
+    [
+     12.514949,
+     41.88972
+    ],
+    [
+     12.513965,
+     41.889377
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 60.0,
+      "l": 80.0,
+      "h": 12.0,
+      "mat": "brick"
+     },
+     {
+      "shape": "vault",
+      "x": 0,
+      "y": 10,
+      "w": 24.0,
+      "l": 16.0,
+      "h": 16.0,
+      "mat": "concrete"
+     },
+     {
+      "shape": "dome",
+      "x": 0,
+      "y": -25,
+      "w": 16.0,
+      "l": 16.0,
+      "h": 15.0,
+      "mat": "concrete"
+     },
+     {
+      "shape": "court",
+      "x": 40,
+      "y": 0,
+      "w": 20.0,
+      "l": 40.0,
+      "h": 8.0,
+      "mat": "brick",
+      "ringDepth": 4.0
+     }
+    ],
+    "mat": {
+     "walls": "brick"
+    }
+   },
+   "ruin": {
+    "from": 537,
+    "state": "roofless"
+   },
+   "importance": 3,
+   "certainty": "documented",
+   "summary": "An inscription records that Helena, 'mother of our lord Constantine', restored the baths after a fire. Dry after 537.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "1136"
+    }
+   ],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ]
+  },
+  {
+   "id": "cistern_baths_of_helena",
+   "monument": "cistern_baths_of_helena",
+   "name": "Cistern of the Baths of Helena",
+   "from": 225,
+   "to": 9999,
+   "begun": 220,
+   "builder": null,
+   "template": "compound",
+   "loc": [
+    12.5165,
+    41.8903
+   ],
+   "rot": 65,
+   "w": 30.0,
+   "l": 95.0,
+   "h": 8.0,
+   "footprint": [
+    [
+     12.515904,
+     41.890242
+    ],
+    [
+     12.516057,
+     41.889997
+    ],
+    [
+     12.517096,
+     41.890358
+    ],
+    [
+     12.516943,
+     41.890603
+    ],
+    [
+     12.515904,
+     41.890242
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 30.0,
+      "l": 95.0,
+      "h": 6.0,
+      "mat": "brick"
+     },
+     {
+      "shape": "vault",
+      "x": 0,
+      "y": 0,
+      "w": 30.0,
+      "l": 95.0,
+      "h": 2.0,
+      "z": 6.0,
+      "mat": "concrete",
+      "chambers": 12
+     }
+    ]
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "A large cistern of twelve vaulted chambers in two rows, still preserved along Via Eleniana, that stored water for the Baths of Helena.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)"
+   ],
+   "note": "Position approximate along Via Eleniana."
+  },
+  {
+   "id": "horti_spei_veteris",
+   "monument": "horti_spei_veteris",
+   "name": "Horti Spei Veteris (Horti Variani)",
+   "from": 200,
+   "to": 9999,
+   "builder": "septimius_severus",
+   "template": "garden",
+   "loc": [
+    12.517,
+    41.8888
+   ],
+   "rot": 0,
+   "w": 600.0,
+   "l": 500.0,
+   "h": 1.0,
+   "footprint": [
+    [
+     12.5135,
+     41.891
+    ],
+    [
+     12.52,
+     41.8905
+    ],
+    [
+     12.521,
+     41.8875
+    ],
+    [
+     12.5155,
+     41.8862
+    ],
+    [
+     12.5132,
+     41.888
+    ],
+    [
+     12.5135,
+     41.891
+    ]
+   ],
+   "params": {
+    "trees": 0.8,
+    "kind": "park"
+   },
+   "importance": 2,
+   "certainty": "reconstructed",
+   "summary": "The imperial gardens 'at the Old Hope' on the eastern edge of Rome, developed by the Severans around the Sessorium palace, its amphitheatre and its circus.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Coates-Stephens, Porta Maggiore: Monument and Landscape (2004)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Boundary conjectural; the palace, circus and amphitheatre are separate records."
+  }
+ ]
+}

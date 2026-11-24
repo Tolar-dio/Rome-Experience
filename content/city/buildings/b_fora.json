@@ -1,0 +1,3666 @@
+{
+ "buildings": [
+  {
+   "id": "forum_iulium_v1",
+   "monument": "forum_iulium",
+   "name": "Forum of Caesar (Caesarian-Augustan)",
+   "from": -46,
+   "to": 84,
+   "begun": -51,
+   "builder": "julius_caesar",
+   "template": "forum",
+   "loc": [
+    12.485188,
+    41.893698
+   ],
+   "rot": 150,
+   "w": 75.0,
+   "l": 160.0,
+   "h": 15.0,
+   "footprint": [
+    [
+     12.485097,
+     41.894491
+    ],
+    [
+     12.484313,
+     41.894153
+    ],
+    [
+     12.485279,
+     41.892905
+    ],
+    [
+     12.486063,
+     41.893243
+    ],
+    [
+     12.485097,
+     41.894491
+    ]
+   ],
+   "params": {
+    "wallH": 15.0,
+    "colonnades": 12.0,
+    "exedrae": null,
+    "paving": "paving_travertine",
+    "porticoes": "double colonnades on the two long sides, single at the SE end; tabernae behind the SW portico opening on the Clivus Argentarius",
+    "mat": {
+     "walls": "tufa",
+     "columns": "marble_white",
+     "paving": "paving_travertine"
+    }
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "The first imperial forum: an enclosed rectangular piazza about 160 x 75 m on land bought from 54 BC by Cicero and Oppius for Caesar (60 million sesterces, later over 100 million). Double porticoes lined the long sides, shops of tufa ashlar opened onto the Clivus Argentarius behind the SW side, and the Temple of Venus Genetrix closed the NW end, with Caesar's equestrian statue in the middle. Caesar dedicated it unfinished on 26 September 46 BC at his quadruple triumph; Octavian completed it.",
+   "phases": [
+    {
+     "y": -54,
+     "t": "land purchases begin (Cicero Att. 4.16.8)"
+    },
+    {
+     "y": -46,
+     "t": "dedicated unfinished, 26 September, at the close of Caesar's triumphs"
+    },
+    {
+     "y": -44,
+     "t": "Caesar receives the Senate seated before the temple, a famous affront"
+    },
+    {
+     "y": -29,
+     "t": "completed by Octavian (RG 20)"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Cicero",
+     "w": "Ad Atticum",
+     "r": "4.16.8"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Divus Iulius",
+     "r": "26.2"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Divus Iulius",
+     "r": "78.1"
+    },
+    {
+     "a": "Augustus",
+     "w": "Res Gestae",
+     "r": "20"
+    },
+    {
+     "a": "Appian",
+     "w": "Bella Civilia",
+     "r": "2.102"
+    }
+   ],
+   "scholarship": [
+    "Ulrich, 'Julius Caesar and the Creation of the Forum Iulium', AJA 97 (1993)",
+    "Meneghini and Santangeli Valenzani, I Fori Imperiali: gli scavi del Comune di Roma 1991-2007 (2007)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Version ends when Domitian began rebuilding the complex (c. 85). Axis from the temple of Venus Genetrix SE down the piazza; bearing 150 derived from the Pleiades centroids of the temple (12.48484, 41.89414) and the forum polygon (12.48515, 41.89369), giving 153, and from the column-basilica axis of Trajan's forum (141), which was laid out on nearly the same grid; it is parallel to the Curia Iulia, which Caesar realigned with his forum."
+  },
+  {
+   "id": "forum_iulium_v2",
+   "monument": "forum_iulium",
+   "name": "Forum of Caesar (Domitianic-Trajanic rebuilding)",
+   "from": 113,
+   "to": 282,
+   "begun": 85,
+   "builder": "trajan",
+   "template": "forum",
+   "loc": [
+    12.485188,
+    41.893698
+   ],
+   "rot": 150,
+   "w": 75.0,
+   "l": 160.0,
+   "h": 16.0,
+   "footprint": [
+    [
+     12.485097,
+     41.894491
+    ],
+    [
+     12.484313,
+     41.894153
+    ],
+    [
+     12.485279,
+     41.892905
+    ],
+    [
+     12.486063,
+     41.893243
+    ],
+    [
+     12.485097,
+     41.894491
+    ]
+   ],
+   "params": {
+    "wallH": 15.0,
+    "colonnades": 12.0,
+    "exedrae": null,
+    "paving": "paving_travertine",
+    "porticoes": "double colonnades on the two long sides, single at the SE end; tabernae behind the SW portico opening on the Clivus Argentarius; second storey of tabernae added in the Trajanic rebuilding",
+    "mat": {
+     "walls": "brick",
+     "columns": "marble_white",
+     "paving": "paving_travertine"
+    }
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "Domitian began, and Trajan completed, a total reconstruction that cut back the Capitol-Quirinal saddle behind the forum, rebuilt the shops in brick on two storeys, added the Basilica Argentaria on the SW flank of the temple and a large latrine, and repaved the square in travertine. Trajan rededicated forum and temple on 12 May 113, a day after the dedication of his own Column.",
+   "phases": [
+    {
+     "y": 85,
+     "t": "Domitianic works begin after the fire of 80 and the cutting of the saddle"
+    },
+    {
+     "y": 113,
+     "t": "rededicated by Trajan, 12 May (Fasti Ostienses)"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Fasti Ostienses",
+     "w": "",
+     "r": "year 113"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "68.16.3"
+    }
+   ],
+   "scholarship": [
+    "Meneghini and Santangeli Valenzani, I Fori Imperiali: gli scavi del Comune di Roma 1991-2007 (2007)",
+    "Ulrich, 'Julius Caesar and the Creation of the Forum Iulium', AJA 97 (1993)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Axis from the temple of Venus Genetrix SE down the piazza; bearing 150 derived from the Pleiades centroids of the temple (12.48484, 41.89414) and the forum polygon (12.48515, 41.89369), giving 153, and from the column-basilica axis of Trajan's forum (141), which was laid out on nearly the same grid; it is parallel to the Curia Iulia, which Caesar realigned with his forum."
+  },
+  {
+   "id": "forum_iulium_v3",
+   "monument": "forum_iulium",
+   "name": "Forum of Caesar (Diocletianic restoration)",
+   "from": 285,
+   "to": 9999,
+   "begun": 284,
+   "builder": "diocletian",
+   "template": "forum",
+   "loc": [
+    12.485188,
+    41.893698
+   ],
+   "rot": 150,
+   "w": 75.0,
+   "l": 160.0,
+   "h": 16.0,
+   "footprint": [
+    [
+     12.485097,
+     41.894491
+    ],
+    [
+     12.484313,
+     41.894153
+    ],
+    [
+     12.485279,
+     41.892905
+    ],
+    [
+     12.486063,
+     41.893243
+    ],
+    [
+     12.485097,
+     41.894491
+    ]
+   ],
+   "params": {
+    "wallH": 15.0,
+    "colonnades": 12.0,
+    "exedrae": null,
+    "paving": "paving_travertine",
+    "porticoes": "double colonnades on the two long sides, single at the SE end; tabernae behind the SW portico opening on the Clivus Argentarius; second storey of tabernae added in the Trajanic rebuilding",
+    "mat": {
+     "walls": "brick",
+     "columns": "marble_white",
+     "paving": "paving_travertine"
+    }
+   },
+   "ruin": {
+    "from": 600,
+    "state": "half"
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "After the great fire of 283 under Carinus, which also gutted the Curia and Basilica Julia, Diocletian restored the forum; the Curia was rebuilt on the forum's grid at the same time. In the late 4th century a secretarium senatus was installed nearby. The square decayed from the 6th century; by the 9th it held houses and gardens.",
+   "phases": [
+    {
+     "y": 283,
+     "t": "fire under Carinus (Chronographer of 354)"
+    },
+    {
+     "y": 600,
+     "t": "porticoes stripped and collapsing"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Chronographer of 354",
+     "w": "Chronica urbis Romae",
+     "r": "Carinus"
+    }
+   ],
+   "scholarship": [
+    "Meneghini and Santangeli Valenzani, I Fori Imperiali: gli scavi del Comune di Roma 1991-2007 (2007)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)"
+   ],
+   "note": "Axis from the temple of Venus Genetrix SE down the piazza; bearing 150 derived from the Pleiades centroids of the temple (12.48484, 41.89414) and the forum polygon (12.48515, 41.89369), giving 153, and from the column-basilica axis of Trajan's forum (141), which was laid out on nearly the same grid; it is parallel to the Curia Iulia, which Caesar realigned with his forum."
+  },
+  {
+   "id": "temple_of_venus_genetrix_v1",
+   "monument": "temple_of_venus_genetrix",
+   "name": "Temple of Venus Genetrix (Caesarian)",
+   "from": -46,
+   "to": 84,
+   "begun": -51,
+   "builder": "julius_caesar",
+   "template": "temple",
+   "loc": [
+    12.484844,
+    41.894143
+   ],
+   "rot": 150,
+   "w": 30.0,
+   "l": 46.0,
+   "h": 28.0,
+   "params": {
+    "order": "corinthian",
+    "plan": "peripteros_sine_postico",
+    "front": 8,
+    "side": 8,
+    "podium": 5.0,
+    "colH": 14.8,
+    "steps": "lateral",
+    "cella": {
+     "w": 18.0,
+     "l": 22.0
+    },
+    "pediment": true,
+    "acroteria": true,
+    "rostra": "speaker's platform across the front of the podium, reached by lateral stairs",
+    "mat": {
+     "podium": "tufa",
+     "columns": "marble_white",
+     "walls": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "Vowed at Pharsalus in 48 BC and dedicated with the forum on 26 September 46 BC to Venus as ancestress of the Julii. It held Arcesilaus' cult statue, two paintings by Timomachus (Ajax and Medea) bought for 80 talents, a cuirass of British pearls, engraved gems, and a gilded statue of Cleopatra set beside the goddess.",
+   "phases": [
+    {
+     "y": -48,
+     "t": "vowed before Pharsalus"
+    },
+    {
+     "y": -46,
+     "t": "dedicated 26 September"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Appian",
+     "w": "Bella Civilia",
+     "r": "2.102"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "35.156"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "7.126"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "9.116"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "43.22.2"
+    }
+   ],
+   "scholarship": [
+    "Ulrich, 'Julius Caesar and the Creation of the Forum Iulium', AJA 97 (1993)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000)"
+   ],
+   "note": "Octastyle peripteral temple without a rear colonnade, its back against the precinct wall; podium about 30 x 46 m faced in marble, front treated as a rostra with lateral stairs (Ulrich). Three Trajanic columns were re-erected in 1932. Column height estimated from the surviving order (about 1.5 m lower diameter). Faces SE down the forum axis (rot 150)."
+  },
+  {
+   "id": "temple_of_venus_genetrix_v2",
+   "monument": "temple_of_venus_genetrix",
+   "name": "Temple of Venus Genetrix (Trajanic)",
+   "from": 113,
+   "to": 282,
+   "begun": 85,
+   "builder": "trajan",
+   "template": "temple",
+   "loc": [
+    12.484844,
+    41.894143
+   ],
+   "rot": 150,
+   "w": 30.0,
+   "l": 46.0,
+   "h": 28.5,
+   "params": {
+    "order": "corinthian",
+    "plan": "peripteros_sine_postico",
+    "front": 8,
+    "side": 8,
+    "podium": 5.0,
+    "colH": 14.8,
+    "steps": "lateral",
+    "cella": {
+     "w": 18.0,
+     "l": 22.0
+    },
+    "pediment": true,
+    "acroteria": true,
+    "rostra": "speaker's platform across the front of the podium, reached by lateral stairs",
+    "mat": {
+     "podium": "concrete_faced",
+     "columns": "marble_white",
+     "walls": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "Rebuilt from the podium up in the Domitianic-Trajanic works and rededicated on 12 May 113. The rich Trajanic entablature with Erotes pouring incense and the three standing Corinthian columns belong to this rebuilding.",
+   "phases": [
+    {
+     "y": 113,
+     "t": "rededicated 12 May"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Fasti Ostienses",
+     "w": "",
+     "r": "year 113"
+    }
+   ],
+   "scholarship": [
+    "Ulrich, 'Julius Caesar and the Creation of the Forum Iulium', AJA 97 (1993)",
+    "Meneghini and Santangeli Valenzani, I Fori Imperiali: gli scavi del Comune di Roma 1991-2007 (2007)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)"
+   ],
+   "note": "Octastyle peripteral temple without a rear colonnade, its back against the precinct wall; podium about 30 x 46 m faced in marble, front treated as a rostra with lateral stairs (Ulrich). Three Trajanic columns were re-erected in 1932. Column height estimated from the surviving order (about 1.5 m lower diameter). Faces SE down the forum axis (rot 150)."
+  },
+  {
+   "id": "temple_of_venus_genetrix_v3",
+   "monument": "temple_of_venus_genetrix",
+   "name": "Temple of Venus Genetrix (Diocletianic)",
+   "from": 285,
+   "to": 9999,
+   "begun": 284,
+   "builder": "diocletian",
+   "template": "temple",
+   "loc": [
+    12.484844,
+    41.894143
+   ],
+   "rot": 150,
+   "w": 30.0,
+   "l": 46.0,
+   "h": 28.5,
+   "params": {
+    "order": "corinthian",
+    "plan": "peripteros_sine_postico",
+    "front": 8,
+    "side": 8,
+    "podium": 5.0,
+    "colH": 14.8,
+    "steps": "lateral",
+    "cella": {
+     "w": 18.0,
+     "l": 22.0
+    },
+    "pediment": true,
+    "acroteria": true,
+    "rostra": "speaker's platform across the front of the podium, reached by lateral stairs",
+    "mat": {
+     "podium": "concrete_faced",
+     "columns": "marble_white",
+     "walls": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "ruin": {
+    "from": 600,
+    "state": "half"
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "Repaired after the fire of 283. Closed with the other temples at the end of the 4th century and gradually despoiled; in the early Middle Ages the podium was cut into for lime kilns.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Meneghini and Santangeli Valenzani, I Fori Imperiali: gli scavi del Comune di Roma 1991-2007 (2007)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)"
+   ],
+   "note": "Octastyle peripteral temple without a rear colonnade, its back against the precinct wall; podium about 30 x 46 m faced in marble, front treated as a rostra with lateral stairs (Ulrich). Three Trajanic columns were re-erected in 1932. Column height estimated from the surviving order (about 1.5 m lower diameter). Faces SE down the forum axis (rot 150)."
+  },
+  {
+   "id": "basilica_argentaria_v1",
+   "monument": "basilica_argentaria",
+   "name": "Basilica Argentaria",
+   "from": 113,
+   "to": 282,
+   "begun": 85,
+   "builder": "trajan",
+   "template": "basilica",
+   "loc": [
+    12.48452,
+    41.894079
+   ],
+   "rot": 60,
+   "w": 52.0,
+   "l": 16.0,
+   "h": 15.0,
+   "params": {
+    "nave": 8.0,
+    "aisles": 1,
+    "storeys": 2,
+    "facade": "arcade",
+    "apses": "none",
+    "clerestory": false,
+    "vaulted": true,
+    "colH": 5.5,
+    "mat": {
+     "walls": "tufa",
+     "piers": "travertine",
+     "facing": "stucco"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "A two-storey hall of tufa piers and vaults behind the SW portico of the Forum of Caesar, beside the temple and along the Clivus Argentarius, built in the Trajanic rebuilding. Named in the Regionary Catalogues, it is usually taken as the bankers' (argentarii) exchange; the piers still carry graffiti of the 2nd century, including a line of Virgil.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Notitia",
+     "w": "Regio VIII",
+     "r": "basilica argentaria"
+    }
+   ],
+   "scholarship": [
+    "Meneghini and Santangeli Valenzani, I Fori Imperiali: gli scavi del Comune di Roma 1991-2007 (2007)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Faces NE into the forum (rot 60). Length along the clivus about 52 m."
+  },
+  {
+   "id": "basilica_argentaria_v2",
+   "monument": "basilica_argentaria",
+   "name": "Basilica Argentaria (after 283)",
+   "from": 285,
+   "to": 9999,
+   "begun": 284,
+   "builder": "diocletian",
+   "template": "basilica",
+   "loc": [
+    12.48452,
+    41.894079
+   ],
+   "rot": 60,
+   "w": 52.0,
+   "l": 16.0,
+   "h": 15.0,
+   "params": {
+    "nave": 8.0,
+    "aisles": 1,
+    "storeys": 2,
+    "facade": "arcade",
+    "apses": "none",
+    "clerestory": false,
+    "vaulted": true,
+    "colH": 5.5,
+    "mat": {
+     "walls": "tufa",
+     "piers": "travertine",
+     "facing": "stucco"
+    }
+   },
+   "ruin": {
+    "from": 600,
+    "state": "half"
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "Restored with the forum by Diocletian after the fire of 283 and still listed in the 4th-century Regionary Catalogues.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Meneghini and Santangeli Valenzani, I Fori Imperiali: gli scavi del Comune di Roma 1991-2007 (2007)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)"
+   ]
+  },
+  {
+   "id": "equus_caesaris",
+   "monument": "equus_caesaris",
+   "name": "Equestrian statue of Caesar (Equus Caesaris)",
+   "from": -46,
+   "to": 410,
+   "builder": "julius_caesar",
+   "template": "statue",
+   "loc": [
+    12.485248,
+    41.89362
+   ],
+   "rot": 150,
+   "w": 3.0,
+   "l": 6.0,
+   "h": 9.0,
+   "params": {
+    "base": 3.5,
+    "figure": 5.5,
+    "equestrian": true,
+    "mat": {
+     "base": "marble_white",
+     "figure": "gilded"
+    }
+   },
+   "importance": 3,
+   "certainty": "documented",
+   "summary": "A bronze equestrian statue of Caesar stood in front of the temple: according to Statius it was Lysippus' statue of Alexander with Caesar's head substituted, and Pliny says the horse had human-like forefeet, like Caesar's own horse.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Statius",
+     "w": "Silvae",
+     "r": "1.1.84-90"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "8.155"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Divus Iulius",
+     "r": "61"
+    }
+   ],
+   "scholarship": [
+    "Ulrich, 'Julius Caesar and the Creation of the Forum Iulium', AJA 97 (1993)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Exact spot in the piazza unknown; placed on the axis in front of the temple. End date arbitrary (last plausible survival)."
+  },
+  {
+   "id": "forica_fori_iulii",
+   "monument": "forica_fori_iulii",
+   "name": "Public latrine of the Forum of Caesar",
+   "from": 113,
+   "to": 9999,
+   "begun": 85,
+   "builder": "trajan",
+   "template": "compound",
+   "loc": [
+    12.484374,
+    41.894016
+   ],
+   "rot": 60,
+   "w": 14.0,
+   "l": 20.0,
+   "h": 7.0,
+   "footprint": [
+    [
+     12.484227,
+     41.894026
+    ],
+    [
+     12.484312,
+     41.893916
+    ],
+    [
+     12.484521,
+     41.894006
+    ],
+    [
+     12.484436,
+     41.894116
+    ],
+    [
+     12.484227,
+     41.894026
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 14.0,
+      "l": 20.0,
+      "h": 7.0,
+      "mat": "brick"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 8.0,
+      "l": 14.0,
+      "h": 0.2,
+      "mat": "marble_white",
+      "role": "open central court with seats round three sides"
+     }
+    ]
+   },
+   "ruin": {
+    "from": 600,
+    "state": "half"
+   },
+   "importance": 1,
+   "certainty": "excavated",
+   "summary": "A large public latrine with marble seats around a central light-well, built behind the Basilica Argentaria in the Trajanic rebuilding of the forum.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Meneghini and Santangeli Valenzani, I Fori Imperiali: gli scavi del Comune di Roma 1991-2007 (2007)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)"
+   ],
+   "note": "Placed behind (SW of) the Basilica Argentaria; exact position approximate."
+  },
+  {
+   "id": "forum_of_augustus_v1",
+   "monument": "forum_of_augustus",
+   "name": "Forum of Augustus",
+   "from": -2,
+   "to": 120,
+   "begun": -37,
+   "builder": "augustus",
+   "template": "forum",
+   "loc": [
+    12.486484,
+    41.894118
+   ],
+   "rot": 237,
+   "w": 90.0,
+   "l": 125.0,
+   "h": 33.0,
+   "footprint": [
+    [
+     12.487412,
+     41.894085
+    ],
+    [
+     12.486821,
+     41.894764
+    ],
+    [
+     12.485556,
+     41.894151
+    ],
+    [
+     12.486147,
+     41.893472
+    ],
+    [
+     12.487412,
+     41.894085
+    ]
+   ],
+   "params": {
+    "wallH": 33.0,
+    "colonnades": 14.0,
+    "exedrae": {
+     "count": 2,
+     "radius": 20.0
+    },
+    "paving": "marble_white",
+    "porticoes": "raised colonnades of giallo antico and cipollino columns, attic with caryatids copied from the Erechtheion alternating with clipei of Jupiter Ammon",
+    "statues": "summi viri in the porticoes, Aeneas and Romulus in the exedrae, Augustus in a quadriga in the centre",
+    "mat": {
+     "walls": "peperino",
+     "columns": "marble_color",
+     "paving": "marble_white"
+    }
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "Vowed with the temple at Philippi in 42 BC and dedicated, unfinished, in 2 BC, the year Augustus became Pater Patriae. A marble piazza flanked by raised colonnades, each opening into a great semicircular exedra beside the temple, with statues of Aeneas and the Julii on one side, Romulus and the summi viri on the other, each with an elogium. A 33 m firewall of peperino and Gabine stone shut out the Subura. Here the Senate debated war and triumphs, and young men assumed the toga virilis.",
+   "phases": [
+    {
+     "y": -42,
+     "t": "vowed at Philippi"
+    },
+    {
+     "y": -20,
+     "t": "standards recovered from Parthia, later placed in the temple"
+    },
+    {
+     "y": -2,
+     "t": "dedicated 1 August (or 12 May)"
+    },
+    {
+     "y": 19,
+     "t": "arches of Drusus and Germanicus added beside the temple"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Divus Augustus",
+     "r": "29.1"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Divus Augustus",
+     "r": "56.2"
+    },
+    {
+     "a": "Augustus",
+     "w": "Res Gestae",
+     "r": "21"
+    },
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "5.545-598"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "55.10"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "36.102"
+    }
+   ],
+   "scholarship": [
+    "Zanker, Forum Augustum (1968)",
+    "Ganzert, Der Mars-Ultor-Tempel auf dem Augustusforum in Rom (1996)",
+    "Meneghini and Santangeli Valenzani, I Fori Imperiali: gli scavi del Comune di Roma 1991-2007 (2007)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Axis perpendicular to the Forum of Caesar: temple at the NE end against the Subura firewall, facing SW (rot 237, derived from the Pleiades centroids of temple and forum, bearing 237). The NE (rear right) corner is irregular because Augustus would not expropriate the houses there (Suet. Aug. 56.2); footprint simplified to a rectangle, with the two great exedrae as params."
+  },
+  {
+   "id": "forum_of_augustus_v2",
+   "monument": "forum_of_augustus",
+   "name": "Forum of Augustus (Hadrianic restoration)",
+   "from": 121,
+   "to": 9999,
+   "begun": 118,
+   "builder": "hadrian",
+   "template": "forum",
+   "loc": [
+    12.486484,
+    41.894118
+   ],
+   "rot": 237,
+   "w": 90.0,
+   "l": 125.0,
+   "h": 33.0,
+   "footprint": [
+    [
+     12.487412,
+     41.894085
+    ],
+    [
+     12.486821,
+     41.894764
+    ],
+    [
+     12.485556,
+     41.894151
+    ],
+    [
+     12.486147,
+     41.893472
+    ],
+    [
+     12.487412,
+     41.894085
+    ]
+   ],
+   "params": {
+    "wallH": 33.0,
+    "colonnades": 14.0,
+    "exedrae": {
+     "count": 2,
+     "radius": 20.0
+    },
+    "paving": "marble_white",
+    "porticoes": "raised colonnades of giallo antico and cipollino columns, attic with caryatids copied from the Erechtheion alternating with clipei of Jupiter Ammon",
+    "statues": "summi viri in the porticoes, Aeneas and Romulus in the exedrae, Augustus in a quadriga in the centre",
+    "mat": {
+     "walls": "peperino",
+     "columns": "marble_color",
+     "paving": "marble_white"
+    }
+   },
+   "ruin": {
+    "from": 530,
+    "state": "half"
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "Restored by Hadrian; still in use for legal hearings in the 4th century (last mentioned 395). Excavation shows systematic dismantling of the marble in the first half of the 6th century; in the 9th century a Basilian monastery occupied the temple podium and the area became the Hortus Mirabilis.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Hadrianus",
+     "r": "19.10"
+    }
+   ],
+   "scholarship": [
+    "Meneghini and Santangeli Valenzani, I Fori Imperiali: gli scavi del Comune di Roma 1991-2007 (2007)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)"
+   ],
+   "note": "Axis perpendicular to the Forum of Caesar: temple at the NE end against the Subura firewall, facing SW (rot 237, derived from the Pleiades centroids of temple and forum, bearing 237). The NE (rear right) corner is irregular because Augustus would not expropriate the houses there (Suet. Aug. 56.2); footprint simplified to a rectangle, with the two great exedrae as params."
+  },
+  {
+   "id": "temple_of_mars_ultor_v1",
+   "monument": "temple_of_mars_ultor",
+   "name": "Temple of Mars Ultor",
+   "from": -2,
+   "to": 120,
+   "begun": -37,
+   "builder": "augustus",
+   "template": "temple",
+   "loc": [
+    12.486863,
+    41.894302
+   ],
+   "rot": 237,
+   "w": 36.0,
+   "l": 50.0,
+   "h": 31.0,
+   "params": {
+    "order": "corinthian",
+    "plan": "peripteros_sine_postico",
+    "front": 8,
+    "side": 8,
+    "podium": 3.55,
+    "colH": 17.7,
+    "steps": "front_full",
+    "cella": {
+     "w": 23.0,
+     "l": 25.0
+    },
+    "pediment": true,
+    "acroteria": true,
+    "apse": "apse in the rear cella wall holding Mars, Venus and Divus Iulius",
+    "mat": {
+     "podium": "concrete_faced",
+     "columns": "marble_white",
+     "walls": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "The temple of Mars the Avenger, vowed for the vengeance on Caesar's murderers and dedicated in 2 BC. It housed the standards recovered from Parthia in 20 BC, the sword of Caesar, and the cult group of Mars, Venus and Divus Iulius in an apse. Magistrates left from here for their provinces, and the Senate met here to decide on war and triumphs.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Divus Augustus",
+     "r": "29.2"
+    },
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "5.551-578"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "55.10.2-5"
+    },
+    {
+     "a": "Velleius Paterculus",
+     "w": "Historiae",
+     "r": "2.100.2"
+    }
+   ],
+   "scholarship": [
+    "Ganzert, Der Mars-Ultor-Tempel auf dem Augustusforum in Rom (1996)",
+    "Zanker, Forum Augustum (1968)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Octastyle peripteral sine postico of Luna marble, columns 17.7 m high (lower diameter 1.76 m); front stairs enclosing an altar. Dimensions after Ganzert. Faces SW (rot 237)."
+  },
+  {
+   "id": "temple_of_mars_ultor_v2",
+   "monument": "temple_of_mars_ultor",
+   "name": "Temple of Mars Ultor (restored)",
+   "from": 121,
+   "to": 9999,
+   "begun": 118,
+   "builder": "hadrian",
+   "template": "temple",
+   "loc": [
+    12.486863,
+    41.894302
+   ],
+   "rot": 237,
+   "w": 36.0,
+   "l": 50.0,
+   "h": 31.0,
+   "params": {
+    "order": "corinthian",
+    "plan": "peripteros_sine_postico",
+    "front": 8,
+    "side": 8,
+    "podium": 3.55,
+    "colH": 17.7,
+    "steps": "front_full",
+    "cella": {
+     "w": 23.0,
+     "l": 25.0
+    },
+    "pediment": true,
+    "acroteria": true,
+    "apse": "apse in the rear cella wall holding Mars, Venus and Divus Iulius",
+    "mat": {
+     "podium": "concrete_faced",
+     "columns": "marble_white",
+     "walls": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "ruin": {
+    "from": 530,
+    "state": "half"
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "Restored with the forum by Hadrian. Despoiled in the 6th century; three columns of the right flank and the podium survive.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Ganzert, Der Mars-Ultor-Tempel auf dem Augustusforum in Rom (1996)",
+    "Meneghini and Santangeli Valenzani, I Fori Imperiali: gli scavi del Comune di Roma 1991-2007 (2007)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)"
+   ],
+   "note": "Octastyle peripteral sine postico of Luna marble, columns 17.7 m high (lower diameter 1.76 m); front stairs enclosing an altar. Dimensions after Ganzert. Faces SW (rot 237)."
+  },
+  {
+   "id": "firewall_forum_augusti",
+   "monument": "firewall_forum_augusti",
+   "name": "Firewall of the Forum of Augustus",
+   "from": -2,
+   "to": 9999,
+   "builder": "augustus",
+   "template": "compound",
+   "loc": [
+    12.486484,
+    41.894118
+   ],
+   "rot": 237,
+   "w": 120.0,
+   "l": 130.0,
+   "h": 33.0,
+   "footprint": [
+    [
+     12.487536,
+     41.893984
+    ],
+    [
+     12.486747,
+     41.89489
+    ],
+    [
+     12.485432,
+     41.894252
+    ],
+    [
+     12.486221,
+     41.893346
+    ],
+    [
+     12.487536,
+     41.893984
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "wall",
+      "x": 0,
+      "y": -64,
+      "w": 70,
+      "l": 1.8,
+      "h": 33.0,
+      "mat": "peperino"
+     },
+     {
+      "shape": "wall",
+      "x": 47,
+      "y": -52,
+      "w": 30,
+      "l": 1.8,
+      "h": 30.0,
+      "rot": -25,
+      "mat": "peperino"
+     },
+     {
+      "shape": "wall",
+      "x": -47,
+      "y": -52,
+      "w": 30,
+      "l": 1.8,
+      "h": 30.0,
+      "rot": 25,
+      "mat": "peperino"
+     },
+     {
+      "shape": "wall",
+      "x": 60,
+      "y": -10,
+      "w": 1.8,
+      "l": 90,
+      "h": 24.0,
+      "mat": "peperino"
+     },
+     {
+      "shape": "wall",
+      "x": -60,
+      "y": -10,
+      "w": 1.8,
+      "l": 90,
+      "h": 24.0,
+      "mat": "peperino"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": -64,
+      "w": 70,
+      "l": 0.6,
+      "h": 1.0,
+      "z": 12.0,
+      "mat": "travertine"
+     }
+    ],
+    "mat": {
+     "walls": "peperino",
+     "courses": "travertine"
+    }
+   },
+   "ruin": {
+    "from": 530,
+    "state": "half"
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "The enclosure wall that separated Augustus' forum from the Subura, built of peperino with bands of travertine and Gabine stone, rising to about 33 m behind the temple and stepping down along the sides. It was both a status display and a protection against the fires of the crowded insulae. Its irregular course on the NE follows property lines Augustus could not buy.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Divus Augustus",
+     "r": "56.2"
+    }
+   ],
+   "scholarship": [
+    "Zanker, Forum Augustum (1968)",
+    "Ganzert, Der Mars-Ultor-Tempel auf dem Augustusforum in Rom (1996)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)"
+   ],
+   "note": "Wall segments in the forum's local frame; heights fall from 33 m at the rear to about 24 m along the flanks (the surviving SE stretch is lower)."
+  },
+  {
+   "id": "hall_of_the_colossus",
+   "monument": "hall_of_the_colossus",
+   "name": "Hall of the Colossus (Forum of Augustus)",
+   "from": -2,
+   "to": 9999,
+   "builder": "augustus",
+   "template": "compound",
+   "loc": [
+    12.48658,
+    41.894702
+   ],
+   "rot": 327,
+   "w": 14.0,
+   "l": 18.0,
+   "h": 16.0,
+   "footprint": [
+    [
+     12.486568,
+     41.8946
+    ],
+    [
+     12.48671,
+     41.894668
+    ],
+    [
+     12.486592,
+     41.894804
+    ],
+    [
+     12.48645,
+     41.894736
+    ],
+    [
+     12.486568,
+     41.8946
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 14.0,
+      "l": 18.0,
+      "h": 16.0,
+      "mat": "marble_color"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": -7.5,
+      "w": 4.0,
+      "l": 2.5,
+      "h": 3.0,
+      "mat": "marble_white"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": -7.5,
+      "w": 3.0,
+      "l": 2.0,
+      "h": 11.0,
+      "z": 3.0,
+      "mat": "gilded"
+     }
+    ],
+    "statue": {
+     "figure": 11.5,
+     "base": 3.0
+    }
+   },
+   "ruin": {
+    "from": 530,
+    "state": "half"
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "A marble-lined hall at the north end of the NW portico, beside the exedra, which held a colossal statue (perhaps the Genius of Augustus) 11-12 m tall on a base whose footprints survive. Pliny records two paintings by Apelles displayed in the most frequented parts of the forum.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "35.93-94"
+    }
+   ],
+   "scholarship": [
+    "Zanker, Forum Augustum (1968)",
+    "Meneghini and Santangeli Valenzani, I Fori Imperiali: gli scavi del Comune di Roma 1991-2007 (2007)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)"
+   ],
+   "note": "Placed at the N corner of the forum (local x +50, y -42 in the forum frame); the hall opens SE onto the portico (rot 327)."
+  },
+  {
+   "id": "arch_of_germanicus_forum_augusti",
+   "monument": "arch_of_germanicus_forum_augusti",
+   "name": "Arch of Germanicus (Forum of Augustus)",
+   "from": 19,
+   "to": 9999,
+   "builder": "tiberius",
+   "template": "arch",
+   "loc": [
+    12.486839,
+    41.894569
+   ],
+   "rot": 237,
+   "w": 9.0,
+   "l": 4.0,
+   "h": 12.0,
+   "params": {
+    "bays": 1,
+    "depth": 4.0,
+    "atticH": 3.0,
+    "columns": "engaged",
+    "quadriga": false,
+    "mat": {
+     "body": "marble_white"
+    }
+   },
+   "ruin": {
+    "from": 530,
+    "state": "foundations"
+   },
+   "importance": 2,
+   "certainty": "reconstructed",
+   "summary": "One of two arches voted by the Senate in AD 19 and set beside the Temple of Mars Ultor, on the passages from the forum to the Subura, honouring Germanicus and Drusus for victories in Germany and Illyricum. Only foundations remain.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Annales",
+     "r": "2.64"
+    }
+   ],
+   "scholarship": [
+    "Zanker, Forum Augustum (1968)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Tacitus: 'circa latera templi Martis Ultoris'. Which arch stood on which side is conventional."
+  },
+  {
+   "id": "arch_of_drusus_forum_augusti",
+   "monument": "arch_of_drusus_forum_augusti",
+   "name": "Arch of Drusus the Younger (Forum of Augustus)",
+   "from": 19,
+   "to": 9999,
+   "builder": "tiberius",
+   "template": "arch",
+   "loc": [
+    12.487181,
+    41.894177
+   ],
+   "rot": 237,
+   "w": 9.0,
+   "l": 4.0,
+   "h": 12.0,
+   "params": {
+    "bays": 1,
+    "depth": 4.0,
+    "atticH": 3.0,
+    "columns": "engaged",
+    "quadriga": false,
+    "mat": {
+     "body": "marble_white"
+    }
+   },
+   "ruin": {
+    "from": 530,
+    "state": "foundations"
+   },
+   "importance": 2,
+   "certainty": "reconstructed",
+   "summary": "One of two arches voted by the Senate in AD 19 and set beside the Temple of Mars Ultor, on the passages from the forum to the Subura, honouring Germanicus and Drusus for victories in Germany and Illyricum. Only foundations remain.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Annales",
+     "r": "2.64"
+    }
+   ],
+   "scholarship": [
+    "Zanker, Forum Augustum (1968)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Tacitus: 'circa latera templi Martis Ultoris'. Which arch stood on which side is conventional."
+  },
+  {
+   "id": "quadriga_augusti",
+   "monument": "quadriga_augusti",
+   "name": "Quadriga of Augustus Pater Patriae",
+   "from": -2,
+   "to": 410,
+   "builder": "augustus",
+   "template": "statue",
+   "loc": [
+    12.486302,
+    41.89403
+   ],
+   "rot": 237,
+   "w": 5.0,
+   "l": 6.0,
+   "h": 8.0,
+   "params": {
+    "base": 3.5,
+    "figure": 4.5,
+    "equestrian": true,
+    "quadriga": true,
+    "mat": {
+     "base": "marble_white",
+     "figure": "gilded"
+    }
+   },
+   "importance": 3,
+   "certainty": "documented",
+   "summary": "In the centre of the forum the Senate set up a gilded quadriga of Augustus inscribed Pater Patriae, as Augustus records in the last chapter of the Res Gestae.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Augustus",
+     "w": "Res Gestae",
+     "r": "35"
+    },
+    {
+     "a": "Velleius Paterculus",
+     "w": "Historiae",
+     "r": "2.39.2"
+    }
+   ],
+   "scholarship": [
+    "Zanker, Forum Augustum (1968)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Exact position and end date unknown."
+  },
+  {
+   "id": "forum_transitorium_v1",
+   "monument": "forum_transitorium",
+   "name": "Forum Transitorium (Forum of Nerva)",
+   "from": 97,
+   "to": 9999,
+   "begun": 85,
+   "builder": "domitian",
+   "template": "forum",
+   "loc": [
+    12.486746,
+    41.893269
+   ],
+   "rot": 230,
+   "w": 45.0,
+   "l": 120.0,
+   "h": 16.0,
+   "footprint": [
+    [
+     12.487475,
+     41.893461
+    ],
+    [
+     12.487126,
+     41.893772
+    ],
+    [
+     12.486017,
+     41.893077
+    ],
+    [
+     12.486366,
+     41.892766
+    ],
+    [
+     12.487475,
+     41.893461
+    ]
+   ],
+   "params": {
+    "wallH": 16.0,
+    "colonnades": 1.5,
+    "exedrae": null,
+    "paving": "marble_white",
+    "colonnade_detail": "no portico: Corinthian columns of pavonazzetto stood just in front of the walls carrying a projecting entablature and attic with reliefs of Minerva and myths of women's crafts (the surviving 'Colonnacce')",
+    "mat": {
+     "walls": "peperino",
+     "columns": "marble_color",
+     "paving": "marble_white"
+    }
+   },
+   "ruin": {
+    "from": 550,
+    "state": "half"
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "Built by Domitian in the narrow space between the Forum of Augustus and the Templum Pacis, along the old Argiletum street, which it monumentalised as a passage (hence Transitorium) from the Forum Romanum to the Subura. Domitian was murdered before its dedication, and Nerva dedicated it in 97. Severus Alexander set colossal statues of deified emperors here.",
+   "phases": [
+    {
+     "y": 97,
+     "t": "dedicated by Nerva"
+    },
+    {
+     "y": 225,
+     "t": "Severus Alexander adds colossal statues of the divi"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Domitianus",
+     "r": "5"
+    },
+    {
+     "a": "Martial",
+     "w": "Epigrammata",
+     "r": "10.28"
+    },
+    {
+     "a": "Statius",
+     "w": "Silvae",
+     "r": "4.3.9-10"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Severus Alexander",
+     "r": "28.6"
+    }
+   ],
+   "scholarship": [
+    "Meneghini and Santangeli Valenzani, I Fori Imperiali: gli scavi del Comune di Roma 1991-2007 (2007)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Long narrow forum (about 120 x 45 m) on the line of the Argiletum, temple at the NE end facing SW (rot 230). Centre from Pleiades shifted 12 m SE so that its SE wall coincides with the NW wall of the Templum Pacis."
+  },
+  {
+   "id": "temple_of_minerva_forum_nerva",
+   "monument": "temple_of_minerva_forum_nerva",
+   "name": "Temple of Minerva (Forum of Nerva)",
+   "from": 97,
+   "to": 9999,
+   "begun": 85,
+   "builder": "domitian",
+   "template": "temple",
+   "loc": [
+    12.487134,
+    41.893512
+   ],
+   "rot": 230,
+   "w": 22.0,
+   "l": 34.0,
+   "h": 27.0,
+   "params": {
+    "order": "corinthian",
+    "plan": "prostyle",
+    "front": 6,
+    "side": 3,
+    "podium": 4.5,
+    "colH": 15.0,
+    "steps": "front",
+    "cella": {
+     "w": 20.0,
+     "l": 20.0
+    },
+    "pediment": true,
+    "mat": {
+     "podium": "concrete_faced",
+     "columns": "marble_white",
+     "walls": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "Hexastyle prostyle Corinthian temple of Domitian's patron goddess, its rear wall bulging into the curved Porticus Absidata. It stood almost intact until Pope Paul V demolished it in 1606 for marble for the Acqua Paola fountain; Renaissance drawings (Palladio, Du Perac) record it.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Martial",
+     "w": "Epigrammata",
+     "r": "1.2.8"
+    },
+    {
+     "a": "Aurelius Victor",
+     "w": "De Caesaribus",
+     "r": "12.2"
+    }
+   ],
+   "scholarship": [
+    "Meneghini and Santangeli Valenzani, I Fori Imperiali: gli scavi del Comune di Roma 1991-2007 (2007)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Podium core survives; dimensions from Renaissance drawings and excavation."
+  },
+  {
+   "id": "porticus_absidata",
+   "monument": "porticus_absidata",
+   "name": "Porticus Absidata",
+   "from": 97,
+   "to": 9999,
+   "begun": 85,
+   "builder": "domitian",
+   "template": "compound",
+   "loc": [
+    12.487408,
+    41.893803
+   ],
+   "rot": 230,
+   "w": 52.0,
+   "l": 30.0,
+   "h": 14.0,
+   "footprint": [
+    [
+     12.487748,
+     41.89371
+    ],
+    [
+     12.487345,
+     41.894069
+    ],
+    [
+     12.487068,
+     41.893896
+    ],
+    [
+     12.487471,
+     41.893537
+    ],
+    [
+     12.487748,
+     41.89371
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "hemicycle",
+      "x": 0,
+      "y": -6,
+      "h": 14.0,
+      "mat": "peperino",
+      "radius": 25.0,
+      "depth": 1.6,
+      "angle": 180
+     },
+     {
+      "shape": "colonnade",
+      "x": 0,
+      "y": -6,
+      "w": 46,
+      "l": 4,
+      "h": 9.0,
+      "mat": "marble_color",
+      "colH": 8.0
+     }
+    ]
+   },
+   "ruin": {
+    "from": 550,
+    "state": "half"
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "A horseshoe-shaped colonnaded court behind the Temple of Minerva, built by Domitian to articulate the junction of the Forum of Augustus, the Forum of Nerva, the Templum Pacis and the street into the Subura. Its outline is shown on the Severan Marble Plan.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Meneghini and Santangeli Valenzani, I Fori Imperiali: gli scavi del Comune di Roma 1991-2007 (2007)",
+    "Stanford Digital Forma Urbis Romae Project",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)"
+   ],
+   "note": "Location from Pleiades; the curved wall opens SW toward the forum."
+  },
+  {
+   "id": "ianus_quadrifrons_forum_nerva",
+   "monument": "ianus_quadrifrons_forum_nerva",
+   "name": "Janus Quadrifrons (Forum of Nerva)",
+   "from": 97,
+   "to": 9999,
+   "builder": "domitian",
+   "template": "arch",
+   "loc": [
+    12.486376,
+    41.893037
+   ],
+   "rot": 230,
+   "w": 10.0,
+   "l": 10.0,
+   "h": 11.0,
+   "params": {
+    "bays": "quadrifrons",
+    "depth": 10.0,
+    "atticH": 2.5,
+    "columns": "engaged",
+    "quadriga": false,
+    "mat": {
+     "body": "marble_white"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Martial celebrates the shrine of Janus with four faces that Domitian set in his new forum, replacing the old two-faced Janus. Its form and exact site are unknown; a four-way arch at the SW end, where the forum met the Forum Romanum, is the usual guess.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Martial",
+     "w": "Epigrammata",
+     "r": "10.28"
+    },
+    {
+     "a": "Servius",
+     "w": "ad Aeneidem",
+     "r": "7.607"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Meneghini and Santangeli Valenzani, I Fori Imperiali: gli scavi del Comune di Roma 1991-2007 (2007)"
+   ],
+   "note": "Position conjectural."
+  },
+  {
+   "id": "templum_pacis_v1",
+   "monument": "templum_pacis",
+   "name": "Templum Pacis (Forum of Vespasian)",
+   "from": 75,
+   "to": 191,
+   "begun": 71,
+   "builder": "vespasian",
+   "template": "forum",
+   "loc": [
+    12.487357,
+    41.892733
+   ],
+   "rot": 320,
+   "w": 135.0,
+   "l": 110.0,
+   "h": 15.0,
+   "footprint": [
+    [
+     12.48716,
+     41.891963
+    ],
+    [
+     12.488408,
+     41.892744
+    ],
+    [
+     12.487554,
+     41.893503
+    ],
+    [
+     12.486306,
+     41.892722
+    ],
+    [
+     12.48716,
+     41.891963
+    ]
+   ],
+   "params": {
+    "wallH": 15.0,
+    "colonnades": 13.0,
+    "exedrae": null,
+    "paving": "grass",
+    "garden": true,
+    "beds": "six long raised beds (euripi) with water channels between rows of flowering shrubs (Gallic roses)",
+    "porticoes": "porticoes on three sides with columns of pink Aswan granite",
+    "mat": {
+     "walls": "peperino",
+     "columns": "granite",
+     "paving": "grass"
+    }
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "Vespasian's precinct of Peace, built from the spoils of the Jewish War on the site of the Republican Macellum burnt in 64 and dedicated in 75. Unlike the other fora it was a garden: porticoes of pink granite enclosed six long planted beds with water channels, around which stood Greek masterpieces by Phidias, Polyclitus, Myron and Leochares. The menorah and table of the Jerusalem Temple were displayed in the cult hall. Pliny ranked it among the three most beautiful buildings in the world.",
+   "phases": [
+    {
+     "y": 71,
+     "t": "begun after the Judaean triumph"
+    },
+    {
+     "y": 75,
+     "t": "dedicated (Cassius Dio)"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Josephus",
+     "w": "Bellum Iudaicum",
+     "r": "7.158-162"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Divus Vespasianus",
+     "r": "9.1"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "66.15.1"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "36.102"
+    }
+   ],
+   "scholarship": [
+    "Meneghini and Santangeli Valenzani, I Fori Imperiali: gli scavi del Comune di Roma 1991-2007 (2007)",
+    "Meneghini, I Fori Imperiali e i Mercati di Traiano (2009)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Precinct about 135 x 110 m. The cult hall stood in the middle of the SE side facing NW across the garden toward the Argiletum (rot 320); the hall reused by SS. Cosma e Damiano lies at the S corner, which fixes the orientation (the computed S-corner point falls on the church). Centre averaged from Pleiades and Wikipedia and moved 12 m NW so its NW wall meets the Forum of Nerva."
+  },
+  {
+   "id": "templum_pacis_v2",
+   "monument": "templum_pacis",
+   "name": "Templum Pacis (Severan reconstruction)",
+   "from": 203,
+   "to": 9999,
+   "begun": 193,
+   "builder": "septimius_severus",
+   "template": "forum",
+   "loc": [
+    12.487357,
+    41.892733
+   ],
+   "rot": 320,
+   "w": 135.0,
+   "l": 110.0,
+   "h": 15.0,
+   "footprint": [
+    [
+     12.48716,
+     41.891963
+    ],
+    [
+     12.488408,
+     41.892744
+    ],
+    [
+     12.487554,
+     41.893503
+    ],
+    [
+     12.486306,
+     41.892722
+    ],
+    [
+     12.48716,
+     41.891963
+    ]
+   ],
+   "params": {
+    "wallH": 15.0,
+    "colonnades": 13.0,
+    "exedrae": null,
+    "paving": "grass",
+    "garden": true,
+    "beds": "six long raised beds (euripi) with water channels between rows of flowering shrubs (Gallic roses)",
+    "porticoes": "porticoes on three sides with columns of pink Aswan granite (Severan replacements)",
+    "mat": {
+     "walls": "brick",
+     "columns": "granite",
+     "paving": "grass"
+    }
+   },
+   "ruin": {
+    "from": 410,
+    "state": "half"
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "Destroyed in the fire of 192, which also burnt Galen's books in the warehouses nearby, and rebuilt by Septimius Severus with the halls repaved in opus sectile. Constantius II admired it in 357; Procopius still saw its bronze statues in the 6th century, though it was by then decaying, and the halls were never repaired after the 5th-century sacks.",
+   "phases": [
+    {
+     "y": 192,
+     "t": "fire under Commodus (Herodian, Galen)"
+    },
+    {
+     "y": 357,
+     "t": "visit of Constantius II"
+    },
+    {
+     "y": 410,
+     "t": "damaged in Alaric's sack"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Herodian",
+     "w": "History",
+     "r": "1.14.2-3"
+    },
+    {
+     "a": "Ammianus Marcellinus",
+     "w": "Res Gestae",
+     "r": "16.10.14"
+    },
+    {
+     "a": "Procopius",
+     "w": "Bella",
+     "r": "8.21.11-14"
+    }
+   ],
+   "scholarship": [
+    "Meneghini and Santangeli Valenzani, I Fori Imperiali: gli scavi del Comune di Roma 1991-2007 (2007)",
+    "Meneghini, I Fori Imperiali e i Mercati di Traiano (2009)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)"
+   ],
+   "note": "Precinct about 135 x 110 m. The cult hall stood in the middle of the SE side facing NW across the garden toward the Argiletum (rot 320); the hall reused by SS. Cosma e Damiano lies at the S corner, which fixes the orientation (the computed S-corner point falls on the church). Centre averaged from Pleiades and Wikipedia and moved 12 m NW so its NW wall meets the Forum of Nerva."
+  },
+  {
+   "id": "aedes_pacis_v1",
+   "monument": "aedes_pacis",
+   "name": "Aedes Pacis (cult hall of the Templum Pacis)",
+   "from": 75,
+   "to": 191,
+   "begun": 71,
+   "builder": "vespasian",
+   "template": "temple",
+   "loc": [
+    12.487729,
+    41.892402
+   ],
+   "rot": 320,
+   "w": 34.0,
+   "l": 30.0,
+   "h": 25.0,
+   "params": {
+    "order": "corinthian",
+    "plan": "prostyle",
+    "front": 6,
+    "side": 2,
+    "podium": 1.8,
+    "colH": 15.5,
+    "steps": "front",
+    "cella": {
+     "w": 34.0,
+     "l": 22.0
+    },
+    "pediment": true,
+    "apse": "rear apse with the statue of Pax on a podium",
+    "mat": {
+     "podium": "marble_white",
+     "columns": "granite",
+     "walls": "brick",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "The shrine of Pax at the centre of the SE side: a broad hall entered through a hexastyle porch, with the statue of the goddess in an apse and the spoils of Jerusalem displayed nearby.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Josephus",
+     "w": "Bellum Iudaicum",
+     "r": "7.158-162"
+    }
+   ],
+   "scholarship": [
+    "Meneghini and Santangeli Valenzani, I Fori Imperiali: gli scavi del Comune di Roma 1991-2007 (2007)",
+    "Meneghini, I Fori Imperiali e i Mercati di Traiano (2009)"
+   ],
+   "note": "Not a free-standing temple but an apsed hall on the line of the SE portico, its hexastyle porch of larger pink granite columns (drums 1.8 m across) projecting into the garden. Width of the hall about 34 m."
+  },
+  {
+   "id": "aedes_pacis_v2",
+   "monument": "aedes_pacis",
+   "name": "Aedes Pacis (Severan)",
+   "from": 203,
+   "to": 9999,
+   "begun": 193,
+   "builder": "septimius_severus",
+   "template": "temple",
+   "loc": [
+    12.487729,
+    41.892402
+   ],
+   "rot": 320,
+   "w": 34.0,
+   "l": 30.0,
+   "h": 25.0,
+   "params": {
+    "order": "corinthian",
+    "plan": "prostyle",
+    "front": 6,
+    "side": 2,
+    "podium": 1.8,
+    "colH": 15.5,
+    "steps": "front",
+    "cella": {
+     "w": 34.0,
+     "l": 22.0
+    },
+    "pediment": true,
+    "apse": "rear apse with the statue of Pax on a podium",
+    "mat": {
+     "podium": "marble_white",
+     "columns": "granite",
+     "walls": "brick",
+     "roof": "roof_tile"
+    }
+   },
+   "ruin": {
+    "from": 410,
+    "state": "half"
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "Rebuilt after 192 with a floor of pavonazzetto, granite, porphyry and giallo antico. Its rear wall survives in the gardens of the Via dei Fori Imperiali.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Meneghini and Santangeli Valenzani, I Fori Imperiali: gli scavi del Comune di Roma 1991-2007 (2007)",
+    "Meneghini, I Fori Imperiali e i Mercati di Traiano (2009)"
+   ],
+   "note": "Not a free-standing temple but an apsed hall on the line of the SE portico, its hexastyle porch of larger pink granite columns (drums 1.8 m across) projecting into the garden. Width of the hall about 34 m."
+  },
+  {
+   "id": "templum_pacis_aula_v1",
+   "monument": "templum_pacis_aula",
+   "name": "Hall of the Templum Pacis (later SS. Cosma e Damiano), Flavian",
+   "from": 75,
+   "to": 191,
+   "begun": 71,
+   "builder": "vespasian",
+   "template": "compound",
+   "loc": [
+    12.48731,
+    41.892186
+   ],
+   "rot": 320,
+   "w": 21.0,
+   "l": 42.0,
+   "h": 22.0,
+   "footprint": [
+    [
+     12.487376,
+     41.89198
+    ],
+    [
+     12.48757,
+     41.892102
+    ],
+    [
+     12.487244,
+     41.892392
+    ],
+    [
+     12.48705,
+     41.89227
+    ],
+    [
+     12.487376,
+     41.89198
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 21.0,
+      "l": 42.0,
+      "h": 18.0,
+      "mat": "brick"
+     },
+     {
+      "shape": "gable",
+      "x": 0,
+      "y": 0,
+      "w": 21.0,
+      "l": 42.0,
+      "h": 4.0,
+      "z": 18.0,
+      "mat": "roof_tile"
+     }
+    ]
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "A large rectangular hall at the S corner of the precinct, one of the rooms flanking the cult hall and probably a library or office of the urban prefecture. Its brick and tufa walls survive inside the church of SS. Cosma e Damiano.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Meneghini and Santangeli Valenzani, I Fori Imperiali: gli scavi del Comune di Roma 1991-2007 (2007)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Stanford Digital Forma Urbis Romae Project"
+   ],
+   "note": "District A covers SS. Cosma e Damiano and the 'Temple of Romulus'; this record stops in 526 before the conversion."
+  },
+  {
+   "id": "templum_pacis_aula_v2",
+   "monument": "templum_pacis_aula",
+   "name": "Hall of the Forma Urbis (Templum Pacis), Severan",
+   "from": 203,
+   "to": 526,
+   "begun": 193,
+   "builder": "septimius_severus",
+   "template": "compound",
+   "loc": [
+    12.48731,
+    41.892186
+   ],
+   "rot": 320,
+   "w": 21.0,
+   "l": 42.0,
+   "h": 22.0,
+   "footprint": [
+    [
+     12.487376,
+     41.89198
+    ],
+    [
+     12.48757,
+     41.892102
+    ],
+    [
+     12.487244,
+     41.892392
+    ],
+    [
+     12.48705,
+     41.89227
+    ],
+    [
+     12.487376,
+     41.89198
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 21.0,
+      "l": 42.0,
+      "h": 18.0,
+      "mat": "brick"
+     },
+     {
+      "shape": "gable",
+      "x": 0,
+      "y": 0,
+      "w": 21.0,
+      "l": 42.0,
+      "h": 4.0,
+      "z": 18.0,
+      "mat": "roof_tile"
+     },
+     {
+      "shape": "wall",
+      "x": 0,
+      "y": 21.2,
+      "w": 18.1,
+      "l": 0.4,
+      "h": 13.0,
+      "z": 2.5,
+      "mat": "marble_white"
+     }
+    ],
+    "map": {
+     "w": 18.1,
+     "h": 13.0,
+     "slabs": 150,
+     "scale": "about 1:240",
+     "wall": "the wall now facing the Via della Salara Vecchia on the convent of SS. Cosma e Damiano"
+    }
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "Rebuilt after the fire of 192. On one wall hung the Severan Marble Plan (Forma Urbis Romae), about 18 x 13 m on some 150 marble slabs at roughly 1:240, drawn between 203 and 211; the clamp holes for its slabs are still visible. In 527 Pope Felix IV converted the hall, with the rotunda on the Via Sacra as vestibule, into the church of SS. Cosma e Damiano.",
+   "phases": [
+    {
+     "y": 203,
+     "t": "Forma Urbis mounted (between 203 and 211)"
+    },
+    {
+     "y": 527,
+     "t": "converted into SS. Cosma e Damiano (see district A)"
+    }
+   ],
+   "sources": [],
+   "scholarship": [
+    "Stanford Digital Forma Urbis Romae Project",
+    "Meneghini and Santangeli Valenzani, I Fori Imperiali: gli scavi del Comune di Roma 1991-2007 (2007)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)"
+   ],
+   "note": "The map wall is modelled as a thin block on the hall's NW face; which face carried the map is debated only in detail."
+  },
+  {
+   "id": "templum_pacis_hall_east_v1",
+   "monument": "templum_pacis_hall_east",
+   "name": "East hall of the Templum Pacis (library?)",
+   "from": 75,
+   "to": 191,
+   "begun": 71,
+   "builder": "vespasian",
+   "template": "compound",
+   "loc": [
+    12.488086,
+    41.892673
+   ],
+   "rot": 320,
+   "w": 21.0,
+   "l": 42.0,
+   "h": 22.0,
+   "footprint": [
+    [
+     12.488152,
+     41.892467
+    ],
+    [
+     12.488346,
+     41.892589
+    ],
+    [
+     12.48802,
+     41.892879
+    ],
+    [
+     12.487826,
+     41.892757
+    ],
+    [
+     12.488152,
+     41.892467
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 21.0,
+      "l": 42.0,
+      "h": 18.0,
+      "mat": "brick"
+     },
+     {
+      "shape": "gable",
+      "x": 0,
+      "y": 0,
+      "w": 21.0,
+      "l": 42.0,
+      "h": 4.0,
+      "z": 18.0,
+      "mat": "roof_tile"
+     }
+    ]
+   },
+   "importance": 2,
+   "certainty": "reconstructed",
+   "summary": "The hall symmetrical to the Forma Urbis hall on the other side of the cult hall, probably the Bibliotheca Pacis where Galen and Aulus Gellius consulted books.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Aulus Gellius",
+     "w": "Noctes Atticae",
+     "r": "16.8.2"
+    }
+   ],
+   "scholarship": [
+    "Meneghini and Santangeli Valenzani, I Fori Imperiali: gli scavi del Comune di Roma 1991-2007 (2007)",
+    "Meneghini, I Fori Imperiali e i Mercati di Traiano (2009)"
+   ],
+   "note": "Symmetry with the SW hall assumed; under Via dei Fori Imperiali, partly excavated."
+  },
+  {
+   "id": "templum_pacis_hall_east_v2",
+   "monument": "templum_pacis_hall_east",
+   "name": "East hall of the Templum Pacis (library?) (Severan)",
+   "from": 203,
+   "to": 9999,
+   "begun": 193,
+   "builder": "septimius_severus",
+   "template": "compound",
+   "loc": [
+    12.488086,
+    41.892673
+   ],
+   "rot": 320,
+   "w": 21.0,
+   "l": 42.0,
+   "h": 22.0,
+   "footprint": [
+    [
+     12.488152,
+     41.892467
+    ],
+    [
+     12.488346,
+     41.892589
+    ],
+    [
+     12.48802,
+     41.892879
+    ],
+    [
+     12.487826,
+     41.892757
+    ],
+    [
+     12.488152,
+     41.892467
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 21.0,
+      "l": 42.0,
+      "h": 18.0,
+      "mat": "brick"
+     },
+     {
+      "shape": "gable",
+      "x": 0,
+      "y": 0,
+      "w": 21.0,
+      "l": 42.0,
+      "h": 4.0,
+      "z": 18.0,
+      "mat": "roof_tile"
+     }
+    ]
+   },
+   "ruin": {
+    "from": 410,
+    "state": "half"
+   },
+   "importance": 2,
+   "certainty": "reconstructed",
+   "summary": "The hall symmetrical to the Forma Urbis hall on the other side of the cult hall, probably the Bibliotheca Pacis where Galen and Aulus Gellius consulted books. Rebuilt after 192; abandoned after the 5th century.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Aulus Gellius",
+     "w": "Noctes Atticae",
+     "r": "16.8.2"
+    }
+   ],
+   "scholarship": [
+    "Meneghini and Santangeli Valenzani, I Fori Imperiali: gli scavi del Comune di Roma 1991-2007 (2007)",
+    "Meneghini, I Fori Imperiali e i Mercati di Traiano (2009)"
+   ],
+   "note": "Symmetry with the SW hall assumed; under Via dei Fori Imperiali, partly excavated."
+  },
+  {
+   "id": "macellum_republican",
+   "monument": "macellum_republican",
+   "name": "Macellum (Republican food market)",
+   "from": -179,
+   "to": 64,
+   "builder": "marcus_fulvius_nobilior_cos189",
+   "template": "compound",
+   "loc": [
+    12.487396,
+    41.892699
+   ],
+   "rot": 230,
+   "w": 60.0,
+   "l": 80.0,
+   "h": 10.0,
+   "footprint": [
+    [
+     12.487998,
+     41.892724
+    ],
+    [
+     12.487533,
+     41.893137
+    ],
+    [
+     12.486794,
+     41.892674
+    ],
+    [
+     12.487259,
+     41.892261
+    ],
+    [
+     12.487998,
+     41.892724
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "court",
+      "x": 0,
+      "y": 0,
+      "w": 60.0,
+      "l": 80.0,
+      "h": 8.0,
+      "mat": "tufa",
+      "ringDepth": 8.0,
+      "storeys": 2
+     },
+     {
+      "shape": "cylinder",
+      "x": 0,
+      "y": 0,
+      "w": 12.0,
+      "l": 12.0,
+      "h": 7.0,
+      "mat": "tufa"
+     },
+     {
+      "shape": "dome",
+      "x": 0,
+      "y": 0,
+      "w": 12.0,
+      "l": 12.0,
+      "h": 3.0,
+      "z": 7.0,
+      "mat": "roof_tile"
+     }
+    ]
+   },
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "Rome's central provisions market, built by the censors M. Fulvius Nobilior and M. Aemilius Lepidus in 179 BC NE of the Forum, absorbing the older fish and delicacy markets (forum piscarium, forum cuppedinis). A courtyard of shops around a central tholos, the type later copied all over Italy. Burnt in 64; Vespasian built the Templum Pacis over it.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "40.51.5"
+    },
+    {
+     "a": "Varro",
+     "w": "De lingua Latina",
+     "r": "5.146-147"
+    }
+   ],
+   "scholarship": [
+    "Meneghini, I Fori Imperiali e i Mercati di Traiano (2009)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)"
+   ],
+   "note": "Remains found under the Templum Pacis; size and plan reconstructed on the standard macellum type."
+  },
+  {
+   "id": "argiletum_tabernae",
+   "monument": "argiletum",
+   "name": "Argiletum shops (booksellers' street)",
+   "from": -300,
+   "to": 84,
+   "builder": null,
+   "template": "colonnade",
+   "loc": [
+    12.487,
+    41.89365
+   ],
+   "rot": 50,
+   "w": 6.0,
+   "l": 150.0,
+   "h": 7.0,
+   "params": {
+    "line": [
+     [
+      12.48555,
+      41.8929
+     ],
+     [
+      12.4866,
+      41.8934
+     ],
+     [
+      12.4876,
+      41.894
+     ],
+     [
+      12.4883,
+      41.8945
+     ]
+    ],
+    "depth": 6.0,
+    "colH": 4.0,
+    "tabernae": true,
+    "storeys": 2,
+    "mat": {
+     "walls": "tufa",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "reconstructed",
+   "summary": "The Argiletum led from the Forum between the Curia and the Basilica Aemilia up into the Subura. Its shops were known for booksellers and cobblers; Martial sends readers here to buy his books. Domitian's Forum Transitorium swallowed its lower course.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Martial",
+     "w": "Epigrammata",
+     "r": "1.3.1"
+    },
+    {
+     "a": "Martial",
+     "w": "Epigrammata",
+     "r": "1.117.9-12"
+    },
+    {
+     "a": "Varro",
+     "w": "De lingua Latina",
+     "r": "5.157"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Meneghini, I Fori Imperiali e i Mercati di Traiano (2009)"
+   ],
+   "note": "Line follows the axis of the later Forum of Nerva; from-date arbitrary (street much older)."
+  },
+  {
+   "id": "forum_of_trajan_mon_v1",
+   "monument": "forum_of_trajan_mon",
+   "name": "Forum of Trajan (Forum Traiani)",
+   "from": 112,
+   "to": 9999,
+   "begun": 106,
+   "builder": "trajan",
+   "template": "forum",
+   "loc": [
+    12.485245,
+    41.894922
+   ],
+   "rot": 141,
+   "w": 148.0,
+   "l": 118.0,
+   "h": 18.0,
+   "footprint": [
+    [
+     12.485491,
+     41.895754
+    ],
+    [
+     12.484103,
+     41.894916
+    ],
+    [
+     12.484999,
+     41.89409
+    ],
+    [
+     12.486387,
+     41.894928
+    ],
+    [
+     12.485491,
+     41.895754
+    ]
+   ],
+   "params": {
+    "wallH": 18.0,
+    "colonnades": 15.0,
+    "exedrae": {
+     "count": 2,
+     "radius": 22.0
+    },
+    "paving": "marble_white",
+    "porticoes": "raised double-aisled porticoes with pavonazzetto columns; attic with statues of captive Dacians and imagines clipeatae",
+    "mat": {
+     "walls": "peperino",
+     "columns": "marble_color",
+     "paving": "marble_white"
+    }
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "The largest and last of the imperial fora, designed by Apollodorus of Damascus and paid for with the Dacian spoils. To make room the saddle between the Capitol and Quirinal was cut away, as the Column's inscription records. A marble piazza about 118 m deep, with porticoes and two great exedrae on its sides, led to the Basilica Ulpia; beyond rose the Column between two libraries. Ammianus describes Constantius II stunned by it in 357. In the 6th century poets still recited Virgil here.",
+   "phases": [
+    {
+     "y": 112,
+     "t": "forum and basilica dedicated 1 January"
+    },
+    {
+     "y": 113,
+     "t": "Column dedicated 12 May"
+    },
+    {
+     "y": 357,
+     "t": "Constantius II admires the forum and the equestrian statue"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "68.16.3"
+    },
+    {
+     "a": "Ammianus Marcellinus",
+     "w": "Res Gestae",
+     "r": "16.10.15-16"
+    },
+    {
+     "a": "Aulus Gellius",
+     "w": "Noctes Atticae",
+     "r": "13.25.1"
+    },
+    {
+     "a": "Venantius Fortunatus",
+     "w": "Carmina",
+     "r": "3.18.7-8"
+    }
+   ],
+   "scholarship": [
+    "Packer, The Forum of Trajan in Rome: A Study of the Monuments (1997)",
+    "Meneghini and Santangeli Valenzani, I Fori Imperiali: gli scavi del Comune di Roma 1991-2007 (2007)",
+    "Meneghini, I Fori Imperiali e i Mercati di Traiano (2009)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Axis NW-SE: from the Pleiades positions of the Column (12.48427, 41.89581) and the Basilica Ulpia (12.48457, 41.89555) the axis bears 320/140; the forum's entrance faces SE (rot 141) toward the Forum of Augustus."
+  },
+  {
+   "id": "equus_traiani",
+   "monument": "equus_traiani",
+   "name": "Equestrian statue of Trajan (Equus Traiani)",
+   "from": 112,
+   "to": 9999,
+   "builder": "trajan",
+   "template": "statue",
+   "loc": [
+    12.485336,
+    41.894838
+   ],
+   "rot": 141,
+   "w": 4.0,
+   "l": 9.0,
+   "h": 12.0,
+   "params": {
+    "base": 4.0,
+    "figure": 8.0,
+    "equestrian": true,
+    "mat": {
+     "base": "marble_white",
+     "figure": "gilded"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "A colossal gilt-bronze equestrian statue of Trajan stood in the piazza; when Constantius II said he would copy it, the Persian prince Hormisdas replied that he should first build a stable like this one. Its foundation was found in the centre of the square.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Ammianus Marcellinus",
+     "w": "Res Gestae",
+     "r": "16.10.15-16"
+    }
+   ],
+   "scholarship": [
+    "Meneghini and Santangeli Valenzani, I Fori Imperiali: gli scavi del Comune di Roma 1991-2007 (2007)",
+    "Packer, The Forum of Trajan in Rome: A Study of the Monuments (1997)"
+   ],
+   "note": "Base foundation found in the piazza (2000s)."
+  },
+  {
+   "id": "arcus_traiani_forum",
+   "monument": "arcus_traiani_forum",
+   "name": "Entrance arch of the Forum of Trajan",
+   "from": 116,
+   "to": 9999,
+   "builder": "trajan",
+   "template": "arch",
+   "loc": [
+    12.485708,
+    41.894495
+   ],
+   "rot": 141,
+   "w": 26.0,
+   "l": 6.0,
+   "h": 20.0,
+   "params": {
+    "bays": 1,
+    "depth": 6.0,
+    "atticH": 5.0,
+    "columns": "freestanding",
+    "quadriga": true,
+    "mat": {
+     "body": "marble_white"
+    }
+   },
+   "importance": 3,
+   "certainty": "conjectural",
+   "summary": "Coins show a single-bayed arch with six columns, statues and a six-horse chariot as the monumental entrance from the Forum of Augustus, voted by the Senate in 116. Recent excavation found a straight wall with a central passage at the SE end; some (La Rocca, Meneghini) now place the Temple of Divus Traianus here instead.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "68.29.3"
+    }
+   ],
+   "scholarship": [
+    "Packer, The Forum of Trajan in Rome: A Study of the Monuments (1997)",
+    "La Rocca, 'Templum Traiani et columna cochlis', Roemische Mitteilungen 111 (2004)",
+    "Meneghini and Santangeli Valenzani, I Fori Imperiali: gli scavi del Comune di Roma 1991-2007 (2007)"
+   ],
+   "note": "Form from coins; dimensions estimated."
+  },
+  {
+   "id": "basilica_ulpia",
+   "monument": "basilica_ulpia",
+   "name": "Basilica Ulpia",
+   "from": 112,
+   "to": 9999,
+   "begun": 106,
+   "builder": "trajan",
+   "template": "basilica",
+   "loc": [
+    12.484569,
+    41.895545
+   ],
+   "rot": 141,
+   "w": 170.0,
+   "l": 60.0,
+   "h": 29.0,
+   "params": {
+    "nave": 25.0,
+    "aisles": 2,
+    "storeys": 2,
+    "facade": "colonnade",
+    "apses": "both",
+    "clerestory": true,
+    "vaulted": false,
+    "colH": 11.0,
+    "porches": 3,
+    "roof": "gilded bronze tiles (Pausanias)",
+    "mat": {
+     "columns": "granite",
+     "walls": "marble_white",
+     "floor": "marble_color",
+     "roof": "bronze"
+    }
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "The largest basilica in Rome when built: 170 m long including the two hemicycles at its ends, 60 m wide, a 25 m nave framed by a double ring of grey granite columns, with galleries above. Its long side formed the NW end of the forum, entered through three projecting columnar porches. Pausanias admired its bronze roof. It served the courts and, by tradition, ceremonies of manumission.",
+   "phases": [
+    {
+     "y": 112,
+     "t": "dedicated 1 January"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Pausanias",
+     "w": "Periegesis",
+     "r": "5.12.6"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "68.16.3"
+    }
+   ],
+   "scholarship": [
+    "Packer, The Forum of Trajan in Rome: A Study of the Monuments (1997)",
+    "Meneghini and Santangeli Valenzani, I Fori Imperiali: gli scavi del Comune di Roma 1991-2007 (2007)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Long axis NE-SW; facade faces SE onto the piazza (rot 141)."
+  },
+  {
+   "id": "column_of_trajan",
+   "monument": "column_of_trajan",
+   "name": "Column of Trajan",
+   "from": 113,
+   "to": 9999,
+   "begun": 107,
+   "builder": "trajan",
+   "template": "column",
+   "loc": [
+    12.484273,
+    41.895808
+   ],
+   "rot": 141,
+   "w": 5.5,
+   "l": 5.5,
+   "h": 38.4,
+   "params": {
+    "pedestal": 6.2,
+    "shaft": 29.78,
+    "diameter": 3.7,
+    "spiral": true,
+    "statue": true,
+    "statueH": 2.4,
+    "mat": {
+     "pedestal": "marble_white",
+     "shaft": "marble_white",
+     "statue": "gilded"
+    }
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "A column 100 Roman feet tall (29.78 m with base and capital) of 29 Luna marble drums, on a pedestal carved with Dacian arms, wrapped by a frieze about 200 m long in 23 turns showing the two Dacian wars. A spiral stair of 185 steps lit by slits leads to the top. Its inscription says it shows how high the hill was that the works removed. A golden urn with Trajan's ashes was placed in the pedestal in 117, the first burial inside the pomerium.",
+   "phases": [
+    {
+     "y": 113,
+     "t": "dedicated 12 May"
+    },
+    {
+     "y": 117,
+     "t": "ashes of Trajan placed in the pedestal"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "68.16.3"
+    },
+    {
+     "a": "Eutropius",
+     "w": "Breviarium",
+     "r": "8.5.2"
+    },
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "960"
+    }
+   ],
+   "scholarship": [
+    "Packer, The Forum of Trajan in Rome: A Study of the Monuments (1997)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Total height including the lost statue base and bronze statue of Trajan about 38-40 m."
+  },
+  {
+   "id": "bibliotheca_ulpia_sw",
+   "monument": "bibliotheca_ulpia_sw",
+   "name": "Bibliotheca Ulpia, SW library",
+   "from": 112,
+   "to": 9999,
+   "begun": 106,
+   "builder": "trajan",
+   "template": "compound",
+   "loc": [
+    12.484034,
+    41.895663
+   ],
+   "rot": 51,
+   "w": 20.0,
+   "l": 27.0,
+   "h": 20.0,
+   "footprint": [
+    [
+     12.483831,
+     41.895656
+    ],
+    [
+     12.483983,
+     41.895517
+    ],
+    [
+     12.484237,
+     41.89567
+    ],
+    [
+     12.484085,
+     41.895809
+    ],
+    [
+     12.483831,
+     41.895656
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 20.0,
+      "l": 27.0,
+      "h": 17.0,
+      "mat": "brick"
+     },
+     {
+      "shape": "vault",
+      "x": 0,
+      "y": 0,
+      "w": 20.0,
+      "l": 27.0,
+      "h": 3.0,
+      "z": 17.0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "colonnade",
+      "x": 0,
+      "y": 11.5,
+      "w": 20.0,
+      "l": 4.0,
+      "h": 10.0,
+      "mat": "marble_color",
+      "colH": 9.0
+     }
+    ],
+    "interior": "two storeys of marble-framed niches for book cupboards, colonnaded gallery, statue niche opposite the door"
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "One of the two libraries, Greek and Latin, flanking the small court of the Column, each a rectangular hall with niches for book presses in two orders. Aulus Gellius read old praetorian edicts in the 'library of the temple of Trajan'; the Historia Augusta claims to cite its linen books.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Aulus Gellius",
+     "w": "Noctes Atticae",
+     "r": "11.17.1"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Divus Aurelianus",
+     "r": "1.7"
+    }
+   ],
+   "scholarship": [
+    "Packer, The Forum of Trajan in Rome: A Study of the Monuments (1997)",
+    "Meneghini and Santangeli Valenzani, I Fori Imperiali: gli scavi del Comune di Roma 1991-2007 (2007)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)"
+   ],
+   "note": "Which hall held Greek and which Latin books is unknown. The library opens onto the column court."
+  },
+  {
+   "id": "bibliotheca_ulpia_ne",
+   "monument": "bibliotheca_ulpia_ne",
+   "name": "Bibliotheca Ulpia, NE library",
+   "from": 112,
+   "to": 9999,
+   "begun": 106,
+   "builder": "trajan",
+   "template": "compound",
+   "loc": [
+    12.484512,
+    41.895953
+   ],
+   "rot": 231,
+   "w": 20.0,
+   "l": 27.0,
+   "h": 20.0,
+   "footprint": [
+    [
+     12.484715,
+     41.89596
+    ],
+    [
+     12.484563,
+     41.896099
+    ],
+    [
+     12.484309,
+     41.895946
+    ],
+    [
+     12.484461,
+     41.895807
+    ],
+    [
+     12.484715,
+     41.89596
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 20.0,
+      "l": 27.0,
+      "h": 17.0,
+      "mat": "brick"
+     },
+     {
+      "shape": "vault",
+      "x": 0,
+      "y": 0,
+      "w": 20.0,
+      "l": 27.0,
+      "h": 3.0,
+      "z": 17.0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "colonnade",
+      "x": 0,
+      "y": 11.5,
+      "w": 20.0,
+      "l": 4.0,
+      "h": 10.0,
+      "mat": "marble_color",
+      "colH": 9.0
+     }
+    ],
+    "interior": "two storeys of marble-framed niches for book cupboards, colonnaded gallery, statue niche opposite the door"
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "One of the two libraries, Greek and Latin, flanking the small court of the Column, each a rectangular hall with niches for book presses in two orders. Aulus Gellius read old praetorian edicts in the 'library of the temple of Trajan'; the Historia Augusta claims to cite its linen books.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Aulus Gellius",
+     "w": "Noctes Atticae",
+     "r": "11.17.1"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Divus Aurelianus",
+     "r": "1.7"
+    }
+   ],
+   "scholarship": [
+    "Packer, The Forum of Trajan in Rome: A Study of the Monuments (1997)",
+    "Meneghini and Santangeli Valenzani, I Fori Imperiali: gli scavi del Comune di Roma 1991-2007 (2007)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)"
+   ],
+   "note": "Which hall held Greek and which Latin books is unknown. The library opens onto the column court."
+  },
+  {
+   "id": "trajan_column_court",
+   "monument": "trajan_column_court",
+   "name": "Court of the Column of Trajan",
+   "from": 112,
+   "to": 9999,
+   "builder": "trajan",
+   "template": "porticus",
+   "loc": [
+    12.484273,
+    41.895808
+   ],
+   "rot": 141,
+   "w": 24.0,
+   "l": 16.0,
+   "h": 14.0,
+   "footprint": [
+    [
+     12.484325,
+     41.895932
+    ],
+    [
+     12.4841,
+     41.895796
+    ],
+    [
+     12.484221,
+     41.895684
+    ],
+    [
+     12.484446,
+     41.89582
+    ],
+    [
+     12.484325,
+     41.895932
+    ]
+   ],
+   "params": {
+    "depth": 4.0,
+    "colH": 9.0,
+    "double": true,
+    "garden": false,
+    "sides": [
+     "n",
+     "s"
+    ],
+    "storeys": 2
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "The small paved court between the Basilica Ulpia and the libraries in which the Column stood, framed by two-storey porticoes from whose upper floors the frieze could be viewed.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Packer, The Forum of Trajan in Rome: A Study of the Monuments (1997)",
+    "Meneghini and Santangeli Valenzani, I Fori Imperiali: gli scavi del Comune di Roma 1991-2007 (2007)"
+   ]
+  },
+  {
+   "id": "temple_of_divus_traianus",
+   "monument": "temple_of_divus_traianus",
+   "name": "Temple of Divus Traianus and Diva Plotina",
+   "from": 125,
+   "to": 9999,
+   "begun": 118,
+   "builder": "hadrian",
+   "template": "temple",
+   "loc": [
+    12.483802,
+    41.896242
+   ],
+   "rot": 141,
+   "w": 38.0,
+   "l": 54.0,
+   "h": 32.0,
+   "params": {
+    "order": "corinthian",
+    "plan": "peripteral",
+    "front": 8,
+    "side": 11,
+    "podium": 4.0,
+    "colH": 17.8,
+    "steps": "front",
+    "pediment": true,
+    "precinct": {
+     "w": 110.0,
+     "l": 90.0,
+     "h": 12.0
+    },
+    "mat": {
+     "podium": "concrete_faced",
+     "columns": "granite",
+     "walls": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 4,
+   "certainty": "conjectural",
+   "summary": "Hadrian built a temple to his deified adoptive parents, the only building in Rome on which he put his own name (an exception). Its location is debated: traditionally NW of the Column under Palazzo Valentini, where colossal grey granite shafts of 50 Roman feet and a giant capital were found; excavations there found houses and baths instead, and La Rocca and Meneghini place it at the SE end of the forum. Modelled here in the traditional position.",
+   "phases": [
+    {
+     "y": 125,
+     "t": "dedication approximate"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Hadrianus",
+     "r": "19.9"
+    },
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "966"
+    }
+   ],
+   "scholarship": [
+    "Packer, The Forum of Trajan in Rome: A Study of the Monuments (1997)",
+    "La Rocca, 'Templum Traiani et columna cochlis', Roemische Mitteilungen 111 (2004)",
+    "Meneghini and Santangeli Valenzani, I Fori Imperiali: gli scavi del Comune di Roma 1991-2007 (2007)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)"
+   ],
+   "note": "Location deliberately flagged as debated (north of the Column vs. the SE end of the forum). Columns: 50-ft grey granite shafts with white marble capitals, so colH about 17.8 m."
+  },
+  {
+   "id": "markets_of_trajan",
+   "monument": "markets_of_trajan",
+   "name": "Markets of Trajan",
+   "from": 110,
+   "to": 9999,
+   "begun": 100,
+   "builder": "trajan",
+   "template": "compound",
+   "loc": [
+    12.486194,
+    41.895611
+   ],
+   "rot": 231,
+   "w": 170.0,
+   "l": 140.0,
+   "h": 42.0,
+   "footprint": [
+    [
+     12.487496,
+     41.895413
+    ],
+    [
+     12.486205,
+     41.896603
+    ],
+    [
+     12.484892,
+     41.895809
+    ],
+    [
+     12.486183,
+     41.894619
+    ],
+    [
+     12.487496,
+     41.895413
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "hemicycle",
+      "x": 0,
+      "y": 0,
+      "h": 16.0,
+      "mat": "brick",
+      "radius": 33.0,
+      "depth": 11.0,
+      "angle": 180,
+      "storeys": 3
+     },
+     {
+      "shape": "hemicycle",
+      "x": 48,
+      "y": 6,
+      "h": 12.0,
+      "mat": "brick",
+      "radius": 12.0,
+      "depth": 8.0,
+      "angle": 180,
+      "storeys": 2
+     },
+     {
+      "shape": "hemicycle",
+      "x": -48,
+      "y": 6,
+      "h": 12.0,
+      "mat": "brick",
+      "radius": 12.0,
+      "depth": 8.0,
+      "angle": 180,
+      "storeys": 2
+     },
+     {
+      "shape": "stepped",
+      "x": 0,
+      "y": -32,
+      "w": 90.0,
+      "l": 22.0,
+      "h": 26.0,
+      "mat": "brick",
+      "storeys": 5
+     },
+     {
+      "shape": "box",
+      "x": -55,
+      "y": -55,
+      "w": 45.0,
+      "l": 40.0,
+      "h": 30.0,
+      "z": 6.0,
+      "mat": "brick",
+      "storeys": 5
+     },
+     {
+      "shape": "box",
+      "x": 45,
+      "y": -50,
+      "w": 40.0,
+      "l": 30.0,
+      "h": 24.0,
+      "z": 10.0,
+      "mat": "brick",
+      "storeys": 4
+     },
+     {
+      "shape": "terrace",
+      "x": 0,
+      "y": -60,
+      "w": 120.0,
+      "l": 30.0,
+      "h": 18.0,
+      "mat": "brick"
+     }
+    ],
+    "levels": 6,
+    "tabernae": "about 150",
+    "mat": {
+     "walls": "brick",
+     "vaults": "concrete"
+    }
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "A brick-and-concrete complex of about 150 rooms terraced into the cut slope of the Quirinal behind the NE exedra of the forum, rising on six levels from the Great Hemicycle at forum level (a curved three-storey facade with arched shopfronts and pedimented windows) to the Via Biberatica and the Great Hall above. Probably offices and stores of the imperial administration as much as shops. Brick stamps date it to about 100-110, before the forum itself.",
+   "phases": [
+    {
+     "y": 110,
+     "t": "substantially complete (brick stamps 100-110)"
+    }
+   ],
+   "sources": [],
+   "scholarship": [
+    "Ungaro (ed.), Il Museo dei Fori Imperiali nei Mercati di Traiano (2007)",
+    "Lancaster, 'Building Trajan's Markets', AJA 102 (1998)",
+    "Meneghini, I Fori Imperiali e i Mercati di Traiano (2009)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)"
+   ],
+   "note": "Hemicycle centre from it.wikipedia; it faces SW (rot 231) concentric with the forum exedra. Block z values approximate the terracing of the hillside (about 25 m difference in level)."
+  },
+  {
+   "id": "aula_grande_markets_of_trajan",
+   "monument": "aula_grande_markets_of_trajan",
+   "name": "Great Hall of Trajan's Markets",
+   "from": 110,
+   "to": 9999,
+   "begun": 100,
+   "builder": "trajan",
+   "template": "compound",
+   "loc": [
+    12.486153,
+    41.89605
+   ],
+   "rot": 231,
+   "w": 9.8,
+   "l": 28.0,
+   "h": 15.0,
+   "footprint": [
+    [
+     12.486321,
+     41.896095
+    ],
+    [
+     12.486247,
+     41.896164
+    ],
+    [
+     12.485985,
+     41.896005
+    ],
+    [
+     12.486059,
+     41.895936
+    ],
+    [
+     12.486321,
+     41.896095
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "vault",
+      "x": 0,
+      "y": 0,
+      "w": 9.8,
+      "l": 28.0,
+      "h": 11.0,
+      "mat": "concrete",
+      "cross_vaults": 6
+     },
+     {
+      "shape": "box",
+      "x": 7.5,
+      "y": 0,
+      "w": 5.0,
+      "l": 28.0,
+      "h": 9.0,
+      "mat": "brick",
+      "storeys": 2
+     },
+     {
+      "shape": "box",
+      "x": -7.5,
+      "y": 0,
+      "w": 5.0,
+      "l": 28.0,
+      "h": 9.0,
+      "mat": "brick",
+      "storeys": 2
+     }
+    ],
+    "elevation": "about 18 m above the forum pavement"
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "A covered hall 28 x 9.8 m roofed by six concrete cross vaults springing from travertine brackets, flanked by two storeys of shops, at the upper level of the markets near the Via Biberatica. One of the earliest surviving large cross-vaulted spaces, ancestor of the frigidaria of the great baths.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Ungaro (ed.), Il Museo dei Fori Imperiali nei Mercati di Traiano (2007)",
+    "Lancaster, 'Building Trajan's Markets', AJA 102 (1998)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)"
+   ],
+   "note": "Placed just inside the modern museum entrance on Via IV Novembre, long axis parallel to that street (NE-SW)."
+  },
+  {
+   "id": "via_biberatica_tabernae",
+   "monument": "via_biberatica",
+   "name": "Via Biberatica and its shops",
+   "from": 110,
+   "to": 9999,
+   "builder": "trajan",
+   "template": "colonnade",
+   "loc": [
+    12.486569,
+    41.895838
+   ],
+   "rot": 0,
+   "w": 6.0,
+   "l": 120.0,
+   "h": 12.0,
+   "params": {
+    "line": [
+     [
+      12.486837,
+      41.895304
+     ],
+     [
+      12.486797,
+      41.895628
+     ],
+     [
+      12.486616,
+      41.895866
+     ],
+     [
+      12.486341,
+      41.896048
+     ],
+     [
+      12.485945,
+      41.896156
+     ]
+    ],
+    "depth": 6.0,
+    "colH": 4.5,
+    "tabernae": true,
+    "storeys": 2,
+    "elevation": 13.0,
+    "mat": {
+     "walls": "brick",
+     "paving": "paving_basalt"
+    }
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "The basalt-paved street that curves through the upper markets behind the Great Hemicycle, lined with brick shopfronts on two storeys. The name (perhaps from bibere, 'to drink') is medieval.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Ungaro (ed.), Il Museo dei Fori Imperiali nei Mercati di Traiano (2007)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)"
+   ],
+   "note": "Line approximates the curve concentric with the hemicycle, about 13 m above forum level."
+  },
+  {
+   "id": "atrium_libertatis_v1",
+   "monument": "atrium_libertatis",
+   "name": "Atrium Libertatis (Republican)",
+   "from": -212,
+   "to": -40,
+   "builder": null,
+   "template": "compound",
+   "loc": [
+    12.4846,
+    41.895
+   ],
+   "rot": 141,
+   "w": 40.0,
+   "l": 50.0,
+   "h": 14.0,
+   "footprint": [
+    [
+     12.484598,
+     41.895288
+    ],
+    [
+     12.484223,
+     41.895062
+    ],
+    [
+     12.484602,
+     41.894712
+    ],
+    [
+     12.484977,
+     41.894938
+    ],
+    [
+     12.484598,
+     41.895288
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "court",
+      "x": 0,
+      "y": 0,
+      "w": 40.0,
+      "l": 50.0,
+      "h": 12.0,
+      "mat": "tufa",
+      "ringDepth": 10.0,
+      "storeys": 2
+     }
+    ]
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "The office of the censors, where their records and the tablets of the census were kept and hostages were held in 212 BC. It probably stood on the saddle between the Capitol and the Quirinal.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "25.7.12"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "43.16.13"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Packer, The Forum of Trajan in Rome: A Study of the Monuments (1997)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)"
+   ],
+   "note": "Location debated (Capitol-Quirinal saddle under Trajan's forum, or N of the Forum of Caesar); size invented to a modest courtyard type."
+  },
+  {
+   "id": "atrium_libertatis_v2",
+   "monument": "atrium_libertatis",
+   "name": "Atrium Libertatis (rebuilt by Asinius Pollio)",
+   "from": -28,
+   "to": 105,
+   "begun": -39,
+   "builder": "asinius_pollio",
+   "template": "compound",
+   "loc": [
+    12.4846,
+    41.895
+   ],
+   "rot": 141,
+   "w": 40.0,
+   "l": 50.0,
+   "h": 14.0,
+   "footprint": [
+    [
+     12.484598,
+     41.895288
+    ],
+    [
+     12.484223,
+     41.895062
+    ],
+    [
+     12.484602,
+     41.894712
+    ],
+    [
+     12.484977,
+     41.894938
+    ],
+    [
+     12.484598,
+     41.895288
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "court",
+      "x": 0,
+      "y": 0,
+      "w": 40.0,
+      "l": 50.0,
+      "h": 12.0,
+      "mat": "peperino",
+      "ringDepth": 10.0,
+      "storeys": 2
+     }
+    ]
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Rebuilt by C. Asinius Pollio from his Dalmatian spoils after 39 BC and fitted with the first public library in Rome, Greek and Latin, adorned with portraits of authors. The site was probably removed when Trajan cut away the saddle; some scholars think its functions passed to the Basilica Ulpia.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "25.7.12"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "43.16.13"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "7.115"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Divus Augustus",
+     "r": "29.5"
+    },
+    {
+     "a": "Ovid",
+     "w": "Tristia",
+     "r": "3.1.71-72"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Packer, The Forum of Trajan in Rome: A Study of the Monuments (1997)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)"
+   ],
+   "note": "Location debated (Capitol-Quirinal saddle under Trajan's forum, or N of the Forum of Caesar); size invented to a modest courtyard type."
+  },
+  {
+   "id": "athenaeum_hadriani",
+   "monument": "athenaeum_hadriani",
+   "name": "Athenaeum of Hadrian (Piazza Venezia halls)",
+   "from": 125,
+   "to": 9999,
+   "begun": 123,
+   "builder": "hadrian",
+   "template": "compound",
+   "loc": [
+    12.483232,
+    41.895864
+   ],
+   "rot": 51,
+   "w": 45.0,
+   "l": 25.0,
+   "h": 14.0,
+   "footprint": [
+    [
+     12.482944,
+     41.895951
+    ],
+    [
+     12.483286,
+     41.895636
+    ],
+    [
+     12.48352,
+     41.895777
+    ],
+    [
+     12.483178,
+     41.896092
+    ],
+    [
+     12.482944,
+     41.895951
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "stepped",
+      "x": -15,
+      "y": 0,
+      "w": 13.0,
+      "l": 23.0,
+      "h": 10.0,
+      "mat": "brick"
+     },
+     {
+      "shape": "stepped",
+      "x": 0,
+      "y": 0,
+      "w": 13.0,
+      "l": 23.0,
+      "h": 12.0,
+      "mat": "brick"
+     },
+     {
+      "shape": "stepped",
+      "x": 15,
+      "y": 0,
+      "w": 13.0,
+      "l": 23.0,
+      "h": 10.0,
+      "mat": "brick"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": -11.5,
+      "w": 45.0,
+      "l": 2.0,
+      "h": 14.0,
+      "mat": "brick"
+     }
+    ]
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "Three parallel halls with steep stepped seating found in 2008-2012 under Piazza Venezia during the Metro C works, identified with the Athenaeum that Hadrian founded for rhetoric and poetry recitals, beside the Forum of Trajan. In the 6th-7th century one hall housed a metal workshop.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Aurelius Victor",
+     "w": "De Caesaribus",
+     "r": "14.3"
+    }
+   ],
+   "scholarship": [
+    "Egidi, Serlorenzi et al., excavation reports on Piazza Venezia (2010s)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)"
+   ],
+   "note": "Location from Pleiades; orientation assumed parallel to the forum grid. Boundary building between districts."
+  }
+ ]
+}

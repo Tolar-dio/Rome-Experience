@@ -1,0 +1,1195 @@
+{
+ "buildings": [
+  {
+   "id": "castra_peregrina",
+   "monument": "castra_peregrina",
+   "name": "Castra Peregrina",
+   "from": 100,
+   "to": 9999,
+   "begun": 90,
+   "builder": null,
+   "template": "compound",
+   "loc": [
+    12.495,
+    41.8843
+   ],
+   "rot": 350,
+   "w": 80.0,
+   "l": 120.0,
+   "h": 10.0,
+   "footprint": [
+    [
+     12.49465,
+     41.883705
+    ],
+    [
+     12.495601,
+     41.88383
+    ],
+    [
+     12.49535,
+     41.884895
+    ],
+    [
+     12.494399,
+     41.88477
+    ],
+    [
+     12.49465,
+     41.883705
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "court",
+      "x": 0,
+      "y": 0,
+      "w": 80.0,
+      "l": 120.0,
+      "h": 9.0,
+      "mat": "brick",
+      "ringDepth": 12.0,
+      "storeys": 2
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": -30,
+      "w": 30.0,
+      "l": 20.0,
+      "h": 11.0,
+      "mat": "brick",
+      "role": "principia"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 30,
+      "w": 50.0,
+      "l": 10.0,
+      "h": 7.0,
+      "mat": "brick"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 10,
+      "w": 50.0,
+      "l": 10.0,
+      "h": 7.0,
+      "mat": "brick"
+     }
+    ]
+   },
+   "ruin": {
+    "from": 450,
+    "state": "roofless"
+   },
+   "importance": 3,
+   "certainty": "documented",
+   "summary": "Headquarters on the Caelian of the frumentarii and other soldiers seconded from the provincial armies (peregrini), who served as couriers, police agents and spies under a princeps peregrinorum. A mithraeum of its soldiers lies under Santo Stefano Rotondo. The Alamannic king Chnodomarius was held here in 357.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Ammianus Marcellinus",
+     "w": "Res Gestae",
+     "r": "16.12.66"
+    },
+    {
+     "a": "Notitia",
+     "w": "Regio II",
+     "r": "castra peregrina"
+    }
+   ],
+   "scholarship": [
+    "Colini, Storia e topografia del Celio nell'antichita (1944)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)"
+   ],
+   "note": "Location from Pleiades (Villa Celimontana, W of Santo Stefano Rotondo); plan and size reconstructed on the type of urban barracks."
+  },
+  {
+   "id": "statio_cohortis_v_vigilum",
+   "monument": "statio_cohortis_v_vigilum",
+   "name": "Station of the Fifth Cohort of Vigiles",
+   "from": 70,
+   "to": 9999,
+   "builder": null,
+   "template": "compound",
+   "loc": [
+    12.4942,
+    41.8855
+   ],
+   "rot": 30,
+   "w": 60.0,
+   "l": 70.0,
+   "h": 11.0,
+   "footprint": [
+    [
+     12.493675,
+     41.885362
+    ],
+    [
+     12.494302,
+     41.885092
+    ],
+    [
+     12.494725,
+     41.885638
+    ],
+    [
+     12.494098,
+     41.885908
+    ],
+    [
+     12.493675,
+     41.885362
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "court",
+      "x": 0,
+      "y": 0,
+      "w": 60.0,
+      "l": 70.0,
+      "h": 10.0,
+      "mat": "brick",
+      "ringDepth": 11.0,
+      "storeys": 2
+     }
+    ]
+   },
+   "ruin": {
+    "from": 450,
+    "state": "roofless"
+   },
+   "importance": 2,
+   "certainty": "documented",
+   "summary": "The barracks of the cohort of firemen-watchmen responsible for Regions I and II, found in 1820 in Villa Mattei near Santa Maria in Domnica with dedications of 205 and 210 to Septimius Severus and Caracalla listing the whole cohort.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "1057"
+    },
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "1058"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Colini, Storia e topografia del Celio nell'antichita (1944)"
+   ],
+   "note": "Located from the findspot of the inscriptions; plan reconstructed (cf. the excubitorium of Cohort VII in Trastevere)."
+  },
+  {
+   "id": "macellum_magnum",
+   "monument": "macellum_magnum",
+   "name": "Macellum Magnum",
+   "from": 59,
+   "to": 467,
+   "begun": 56,
+   "builder": "nero",
+   "template": "compound",
+   "loc": [
+    12.49695,
+    41.8847
+   ],
+   "rot": 0,
+   "w": 80.0,
+   "l": 80.0,
+   "h": 16.0,
+   "footprint": [
+    [
+     12.496467,
+     41.88434
+    ],
+    [
+     12.497433,
+     41.88434
+    ],
+    [
+     12.497433,
+     41.88506
+    ],
+    [
+     12.496467,
+     41.88506
+    ],
+    [
+     12.496467,
+     41.88434
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "court",
+      "x": 0,
+      "y": 0,
+      "w": 80.0,
+      "l": 80.0,
+      "h": 10.0,
+      "mat": "brick",
+      "ringDepth": 10.0,
+      "storeys": 2
+     },
+     {
+      "shape": "cylinder",
+      "x": 0,
+      "y": 0,
+      "w": 18.0,
+      "l": 18.0,
+      "h": 11.0,
+      "mat": "travertine",
+      "colonnade": true,
+      "storeys": 2
+     },
+     {
+      "shape": "dome",
+      "x": 0,
+      "y": 0,
+      "w": 18.0,
+      "l": 18.0,
+      "h": 5.0,
+      "z": 11.0,
+      "mat": "lead"
+     }
+    ]
+   },
+   "importance": 3,
+   "certainty": "documented",
+   "summary": "Nero's great provisions market on the Caelian, dedicated in 59 and shown on his coins as a two-storey colonnaded rotunda with a dome, set in a court of shops. It was still listed in the 4th century. Santo Stefano Rotondo (district D) was built on or beside it about 468-483, and its circular plan has sometimes been explained by the market.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "61.18.3"
+    },
+    {
+     "a": "Notitia",
+     "w": "Regio II",
+     "r": "macellum magnum"
+    }
+   ],
+   "scholarship": [
+    "Colini, Storia e topografia del Celio nell'antichita (1944)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)"
+   ],
+   "note": "Exact site debated: under Santo Stefano Rotondo or just N of it, near the Ospedale Militare. Plan from the coin type."
+  },
+  {
+   "id": "basilica_hilariana",
+   "monument": "basilica_hilariana",
+   "name": "Basilica Hilariana",
+   "from": 150,
+   "to": 400,
+   "builder": null,
+   "template": "compound",
+   "loc": [
+    12.496624,
+    41.88582
+   ],
+   "rot": 0,
+   "w": 30.0,
+   "l": 40.0,
+   "h": 9.0,
+   "footprint": [
+    [
+     12.496443,
+     41.88564
+    ],
+    [
+     12.496805,
+     41.88564
+    ],
+    [
+     12.496805,
+     41.886
+    ],
+    [
+     12.496443,
+     41.886
+    ],
+    [
+     12.496443,
+     41.88564
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "court",
+      "x": 0,
+      "y": 2,
+      "w": 30.0,
+      "l": 30.0,
+      "h": 8.0,
+      "mat": "brick",
+      "ringDepth": 6.0
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": -16,
+      "w": 16.0,
+      "l": 8.0,
+      "h": 9.0,
+      "mat": "brick",
+      "role": "cult room"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 19,
+      "w": 8.0,
+      "l": 4.0,
+      "h": 6.0,
+      "mat": "brick",
+      "role": "vestibule with mosaic of the evil eye"
+     }
+    ]
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "Seat of the college of dendrophori (tree-bearers of the cult of Magna Mater), built in the mid-2nd century by the pearl merchant Manius Poblicius Hilarus, whose statue base was found in 1889; excavated again in 1987 at the Ospedale Militare. The entrance mosaic shows the evil eye attacked by animals.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "30973"
+    }
+   ],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Location from Pleiades; orientation assumed."
+  },
+  {
+   "id": "arch_of_dolabella",
+   "monument": "arch_of_dolabella",
+   "name": "Arch of Dolabella and Silanus",
+   "from": 10,
+   "to": 9999,
+   "builder": "publius_cornelius_dolabella_cos10",
+   "template": "arch",
+   "loc": [
+    12.495178,
+    41.885609
+   ],
+   "rot": 150,
+   "w": 7.8,
+   "l": 3.6,
+   "h": 9.0,
+   "params": {
+    "bays": 1,
+    "depth": 3.6,
+    "atticH": 1.5,
+    "columns": "none",
+    "quadriga": false,
+    "mat": {
+     "body": "travertine"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "A plain travertine arch built in AD 10 by the consuls P. Cornelius Dolabella and C. Iunius Silanus, probably replacing the Servian Porta Caelimontana; Nero used it to carry the Arcus Neroniani branch of the Aqua Claudia across the Caelian.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "1384"
+    }
+   ],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Colini, Storia e topografia del Celio nell'antichita (1944)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Location from Pleiades. The road through it runs NW-SE (Via di S. Paolo della Croce); rot 150 faces SE toward Piazza della Navicella. The aqueduct arches are in the aqueduct collection."
+  },
+  {
+   "id": "case_romane_celio",
+   "monument": "case_romane_celio",
+   "name": "Roman houses under SS. Giovanni e Paolo",
+   "from": 130,
+   "to": 409,
+   "begun": 120,
+   "builder": null,
+   "template": "compound",
+   "loc": [
+    12.491853,
+    41.886351
+   ],
+   "rot": 210,
+   "w": 45.0,
+   "l": 30.0,
+   "h": 14.0,
+   "footprint": [
+    [
+     12.492179,
+     41.886367
+    ],
+    [
+     12.491708,
+     41.886569
+    ],
+    [
+     12.491527,
+     41.886335
+    ],
+    [
+     12.491998,
+     41.886133
+    ],
+    [
+     12.492179,
+     41.886367
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 45.0,
+      "l": 30.0,
+      "h": 12.0,
+      "mat": "brick",
+      "storeys": 3
+     },
+     {
+      "shape": "colonnade",
+      "x": 0,
+      "y": 16,
+      "w": 45.0,
+      "l": 3.0,
+      "h": 5.0,
+      "mat": "brick",
+      "colH": 4.0,
+      "role": "shops on the Clivus Scauri"
+     },
+     {
+      "shape": "gable",
+      "x": 0,
+      "y": 0,
+      "w": 45.0,
+      "l": 30.0,
+      "h": 2.0,
+      "z": 12.0,
+      "mat": "roof_tile"
+     }
+    ],
+    "interior": "3rd-4th century wall paintings: nymphaeum with marine scenes, philosophers, a Christian orant in the confessio"
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "An insula of the 2nd century with shops on the Clivus Scauri, converted in the 3rd century into a wealthy house with painted rooms and a nymphaeum, and in the 4th used by Christians; the church of SS. Giovanni e Paolo (district D) was built over it about 410.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Colini, Storia e topografia del Celio nell'antichita (1944)"
+   ],
+   "note": "Location from Pleiades; facade on the Clivus Scauri (SW, rot 210)."
+  },
+  {
+   "id": "domus_valeriorum",
+   "monument": "domus_valeriorum",
+   "name": "House of the Valerii on the Caelian",
+   "from": 300,
+   "to": 410,
+   "builder": null,
+   "template": "domus",
+   "loc": [
+    12.5008,
+    41.8855
+   ],
+   "rot": 0,
+   "w": 60.0,
+   "l": 80.0,
+   "h": 12.0,
+   "params": {
+    "atrium": false,
+    "peristyle": {
+     "w": 30.0,
+     "l": 40.0
+    },
+    "storeys": 2,
+    "mat": {
+     "walls": "brick",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "documented",
+   "summary": "The palace of the Valerii, the richest senatorial family of late Rome, found under the Ospedale di San Giovanni. Valerius Pinianus and Melania the Younger tried to sell it about 404 when they gave away their wealth, but no one could afford it; it burned in Alaric's sack of 410.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Gerontius",
+     "w": "Vita Melaniae",
+     "r": "14"
+    }
+   ],
+   "scholarship": [
+    "Colini, Storia e topografia del Celio nell'antichita (1944)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Location approximate (Ospedale di S. Giovanni)."
+  },
+  {
+   "id": "domus_symmachorum",
+   "monument": "domus_symmachorum",
+   "name": "House of the Symmachi on the Caelian",
+   "from": 330,
+   "to": 9999,
+   "builder": null,
+   "template": "domus",
+   "loc": [
+    12.4988,
+    41.8866
+   ],
+   "rot": 0,
+   "w": 45.0,
+   "l": 60.0,
+   "h": 11.0,
+   "params": {
+    "atrium": false,
+    "peristyle": {
+     "w": 22.0,
+     "l": 30.0
+    },
+    "storeys": 2,
+    "mat": {
+     "walls": "brick",
+     "roof": "roof_tile"
+    }
+   },
+   "ruin": {
+    "from": 410,
+    "state": "half"
+   },
+   "importance": 2,
+   "certainty": "documented",
+   "summary": "The urban residence of the Symmachi, family of the orator Q. Aurelius Symmachus, identified by inscriptions found at the former Villa Casali on the Caelian.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Colini, Storia e topografia del Celio nell'antichita (1944)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Location approximate; plan generic."
+  },
+  {
+   "id": "domus_tetricorum",
+   "monument": "domus_tetricorum",
+   "name": "House of the Tetrici",
+   "from": 270,
+   "to": 9999,
+   "builder": null,
+   "template": "domus",
+   "loc": [
+    12.4995,
+    41.8885
+   ],
+   "rot": 0,
+   "w": 40.0,
+   "l": 50.0,
+   "h": 11.0,
+   "params": {
+    "atrium": false,
+    "peristyle": {
+     "w": 20.0,
+     "l": 25.0
+    },
+    "storeys": 2,
+    "mat": {
+     "walls": "brick",
+     "roof": "roof_tile"
+    }
+   },
+   "ruin": {
+    "from": 450,
+    "state": "half"
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "The Historia Augusta says the Gallic emperors Tetricus father and son, pardoned by Aurelian, lived in a fine house on the Caelian 'between the two groves, opposite the Isium Metellinum', with a mosaic showing Aurelian investing them.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Tyranni triginta",
+     "r": "25.4"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Placed on the N slope of the Caelian facing the Via Labicana; conjectural."
+  },
+  {
+   "id": "caput_africae",
+   "monument": "caput_africae",
+   "name": "Caput Africae (imperial paedagogium)",
+   "from": 100,
+   "to": 9999,
+   "builder": null,
+   "template": "compound",
+   "loc": [
+    12.4955,
+    41.8875
+   ],
+   "rot": 0,
+   "w": 40.0,
+   "l": 50.0,
+   "h": 10.0,
+   "footprint": [
+    [
+     12.495259,
+     41.887275
+    ],
+    [
+     12.495741,
+     41.887275
+    ],
+    [
+     12.495741,
+     41.887725
+    ],
+    [
+     12.495259,
+     41.887725
+    ],
+    [
+     12.495259,
+     41.887275
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "court",
+      "x": 0,
+      "y": 0,
+      "w": 40.0,
+      "l": 50.0,
+      "h": 10.0,
+      "mat": "brick",
+      "ringDepth": 8.0,
+      "storeys": 2
+     }
+    ]
+   },
+   "ruin": {
+    "from": 450,
+    "state": "roofless"
+   },
+   "importance": 2,
+   "certainty": "documented",
+   "summary": "A street and district on the Caelian named after a monument (perhaps a head of Africa) where the imperial school for page-boys (paedagogium Caput Africae) stood; many epitaphs of its paedagogi survive.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Colini, Storia e topografia del Celio nell'antichita (1944)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Near Piazza Celimontana; plan generic."
+  },
+  {
+   "id": "castra_priora_equitum_singularium",
+   "monument": "castra_priora_equitum_singularium",
+   "name": "Castra Priora Equitum Singularium",
+   "from": 100,
+   "to": 311,
+   "begun": 98,
+   "builder": "trajan",
+   "template": "compound",
+   "loc": [
+    12.5043,
+    41.8888
+   ],
+   "rot": 0,
+   "w": 100.0,
+   "l": 120.0,
+   "h": 10.0,
+   "footprint": [
+    [
+     12.503697,
+     41.88826
+    ],
+    [
+     12.504903,
+     41.88826
+    ],
+    [
+     12.504903,
+     41.88934
+    ],
+    [
+     12.503697,
+     41.88934
+    ],
+    [
+     12.503697,
+     41.88826
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "court",
+      "x": 0,
+      "y": 0,
+      "w": 100.0,
+      "l": 120.0,
+      "h": 9.0,
+      "mat": "brick",
+      "ringDepth": 12.0,
+      "storeys": 2
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": -40,
+      "w": 30.0,
+      "l": 18.0,
+      "h": 11.0,
+      "mat": "brick",
+      "role": "principia"
+     }
+    ]
+   },
+   "importance": 2,
+   "certainty": "documented",
+   "summary": "The first barracks of the emperor's horse guard, the equites singulares Augusti, founded by Trajan; parts with dedications were found in 1885 at Via Tasso. Constantine disbanded the unit, which had fought for Maxentius, and demolished its camps in 312.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Speidel, Die Denkmaeler der Kaiserreiter: Equites singulares Augusti (1994)",
+    "Colini, Storia e topografia del Celio nell'antichita (1944)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Location at Via Tasso; plan and size generic."
+  },
+  {
+   "id": "castra_nova_equitum_singularium",
+   "monument": "castra_nova_equitum_singularium",
+   "name": "Castra Nova Equitum Singularium",
+   "from": 197,
+   "to": 311,
+   "begun": 193,
+   "builder": "septimius_severus",
+   "template": "compound",
+   "loc": [
+    12.5056,
+    41.886
+   ],
+   "rot": 90,
+   "w": 110.0,
+   "l": 160.0,
+   "h": 11.0,
+   "footprint": [
+    [
+     12.504635,
+     41.886495
+    ],
+    [
+     12.504635,
+     41.885505
+    ],
+    [
+     12.506565,
+     41.885505
+    ],
+    [
+     12.506565,
+     41.886495
+    ],
+    [
+     12.504635,
+     41.886495
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "wall",
+      "x": 0,
+      "y": 0,
+      "w": 110.0,
+      "l": 160.0,
+      "h": 6.0,
+      "mat": "brick",
+      "ring": true
+     },
+     {
+      "shape": "box",
+      "x": -38,
+      "y": -40,
+      "w": 12.0,
+      "l": 60.0,
+      "h": 9.0,
+      "mat": "brick",
+      "storeys": 2
+     },
+     {
+      "shape": "box",
+      "x": -38,
+      "y": 40,
+      "w": 12.0,
+      "l": 60.0,
+      "h": 9.0,
+      "mat": "brick",
+      "storeys": 2
+     },
+     {
+      "shape": "box",
+      "x": -18,
+      "y": -40,
+      "w": 12.0,
+      "l": 60.0,
+      "h": 9.0,
+      "mat": "brick",
+      "storeys": 2
+     },
+     {
+      "shape": "box",
+      "x": -18,
+      "y": 40,
+      "w": 12.0,
+      "l": 60.0,
+      "h": 9.0,
+      "mat": "brick",
+      "storeys": 2
+     },
+     {
+      "shape": "box",
+      "x": 18,
+      "y": -40,
+      "w": 12.0,
+      "l": 60.0,
+      "h": 9.0,
+      "mat": "brick",
+      "storeys": 2
+     },
+     {
+      "shape": "box",
+      "x": 18,
+      "y": 40,
+      "w": 12.0,
+      "l": 60.0,
+      "h": 9.0,
+      "mat": "brick",
+      "storeys": 2
+     },
+     {
+      "shape": "box",
+      "x": 38,
+      "y": -40,
+      "w": 12.0,
+      "l": 60.0,
+      "h": 9.0,
+      "mat": "brick",
+      "storeys": 2
+     },
+     {
+      "shape": "box",
+      "x": 38,
+      "y": 40,
+      "w": 12.0,
+      "l": 60.0,
+      "h": 9.0,
+      "mat": "brick",
+      "storeys": 2
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 25.0,
+      "l": 40.0,
+      "h": 11.0,
+      "mat": "brick",
+      "role": "principia"
+     }
+    ]
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "The new camp built by Septimius Severus when he doubled the horse guard. Its barrack blocks, with painted rooms, lie under the nave of the Lateran basilica, which Constantine built on the levelled camp after 312 as a deliberate erasure of Maxentius' cavalry.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Speidel, Die Denkmaeler der Kaiserreiter: Equites singulares Augusti (1994)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Under the Lateran basilica (district D); the camp's grid is assumed parallel to the basilica (E-W). Size reconstructed."
+  },
+  {
+   "id": "domus_laterani_v1",
+   "monument": "domus_laterani",
+   "name": "House of the Plautii Laterani",
+   "from": -20,
+   "to": 196,
+   "builder": null,
+   "template": "domus",
+   "loc": [
+    12.5035,
+    41.8862
+   ],
+   "rot": 90,
+   "w": 50.0,
+   "l": 70.0,
+   "h": 11.0,
+   "params": {
+    "atrium": true,
+    "peristyle": {
+     "w": 25.0,
+     "l": 30.0
+    },
+    "storeys": 2,
+    "mat": {
+     "walls": "reticulate",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "documented",
+   "summary": "The mansion of the Plautii Laterani on the Caelian. Plautius Lateranus, consul designate, was executed for his part in the Pisonian conspiracy of 65 and the house was confiscated; Juvenal names the 'egregias Lateranorum aedes' besieged by soldiers.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Annales",
+     "r": "15.49"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annales",
+     "r": "15.60"
+    },
+    {
+     "a": "Juvenal",
+     "w": "Satirae",
+     "r": "10.15-18"
+    }
+   ],
+   "scholarship": [
+    "Colini, Storia e topografia del Celio nell'antichita (1944)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Remains attributed to the Laterani lie under and W of the basilica; location approximate."
+  },
+  {
+   "id": "domus_laterani_v2",
+   "monument": "domus_laterani",
+   "name": "House of the Laterani (Severan)",
+   "from": 197,
+   "to": 311,
+   "begun": 193,
+   "builder": "septimius_severus",
+   "template": "domus",
+   "loc": [
+    12.5035,
+    41.8862
+   ],
+   "rot": 90,
+   "w": 50.0,
+   "l": 70.0,
+   "h": 11.0,
+   "params": {
+    "atrium": false,
+    "peristyle": {
+     "w": 25.0,
+     "l": 30.0
+    },
+    "storeys": 2,
+    "baths": true,
+    "mat": {
+     "walls": "brick",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "documented",
+   "summary": "Septimius Severus gave the property to his friend T. Sextius Lateranus, and the house was rebuilt with a bath suite. After 312 the imperial estate 'Lateranum' passed to the bishop of Rome; the episcopium (district D) grew over it.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Aurelius Victor (Epitome)",
+     "w": "Epitome de Caesaribus",
+     "r": "20.6"
+    }
+   ],
+   "scholarship": [
+    "Colini, Storia e topografia del Celio nell'antichita (1944)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ]
+  },
+  {
+   "id": "domus_faustae",
+   "monument": "domus_faustae",
+   "name": "Domus Faustae (Lateran)",
+   "from": 300,
+   "to": 9999,
+   "builder": "fausta",
+   "template": "domus",
+   "loc": [
+    12.505,
+    41.8869
+   ],
+   "rot": 90,
+   "w": 50.0,
+   "l": 60.0,
+   "h": 12.0,
+   "params": {
+    "atrium": false,
+    "peristyle": {
+     "w": 25.0,
+     "l": 25.0
+    },
+    "storeys": 2,
+    "mat": {
+     "walls": "brick",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "documented",
+   "summary": "The house of Fausta, Constantine's wife, at the Lateran, where Pope Miltiades held the synod against the Donatists in October 313. It became the core of the bishop's residence, later the Patriarchium.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Optatus",
+     "w": "Contra Parmenianum",
+     "r": "1.23"
+    }
+   ],
+   "scholarship": [
+    "Colini, Storia e topografia del Celio nell'antichita (1944)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Probably N of the basilica under the later Lateran palace; position approximate. The Patriarchium proper is left to district D."
+  },
+  {
+   "id": "domus_anniorum_caelian",
+   "monument": "domus_anniorum_caelian",
+   "name": "House of Annius Verus and Domitia Lucilla (Caelian)",
+   "from": 100,
+   "to": 9999,
+   "builder": null,
+   "template": "domus",
+   "loc": [
+    12.5025,
+    41.8872
+   ],
+   "rot": 0,
+   "w": 45.0,
+   "l": 60.0,
+   "h": 11.0,
+   "params": {
+    "atrium": true,
+    "peristyle": {
+     "w": 25.0,
+     "l": 30.0
+    },
+    "storeys": 2,
+    "gardens": true,
+    "mat": {
+     "walls": "brick",
+     "roof": "roof_tile"
+    }
+   },
+   "ruin": {
+    "from": 450,
+    "state": "half"
+   },
+   "importance": 2,
+   "certainty": "documented",
+   "summary": "Marcus Aurelius was born in 121 in the gardens of his grandfather Annius Verus on the Caelian, near the Lateran; the bronze equestrian statue of Marcus that stood at the Lateran in the Middle Ages may have come from this property.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Marcus Antoninus",
+     "r": "1.5"
+    }
+   ],
+   "scholarship": [
+    "Colini, Storia e topografia del Celio nell'antichita (1944)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Location approximate."
+  },
+  {
+   "id": "domus_vectiliana",
+   "monument": "domus_vectiliana",
+   "name": "Domus Vectiliana",
+   "from": 150,
+   "to": 9999,
+   "builder": null,
+   "template": "domus",
+   "loc": [
+    12.4975,
+    41.8878
+   ],
+   "rot": 0,
+   "w": 45.0,
+   "l": 60.0,
+   "h": 11.0,
+   "params": {
+    "atrium": false,
+    "peristyle": {
+     "w": 25.0,
+     "l": 30.0
+    },
+    "storeys": 2,
+    "mat": {
+     "walls": "brick",
+     "roof": "roof_tile"
+    }
+   },
+   "ruin": {
+    "from": 450,
+    "state": "half"
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "A suburban-style imperial residence on the Caelian to which Commodus moved, saying he could not sleep on the Palatine; he was strangled there by the athlete Narcissus on the last night of 192.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Commodus",
+     "r": "16.3"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Pertinax",
+     "r": "5.7"
+    }
+   ],
+   "scholarship": [
+    "Colini, Storia e topografia del Celio nell'antichita (1944)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Site unknown; placed on the Caelian plateau between the Claudianum and the Lateran."
+  }
+ ]
+}

@@ -1,0 +1,3775 @@
+{
+ "buildings": [
+  {
+   "id": "colosseum_v1",
+   "monument": "colosseum",
+   "name": "Amphitheatrum Flavium (Titus' inauguration)",
+   "from": 80,
+   "to": 84,
+   "begun": 70,
+   "builder": "vespasian",
+   "template": "amphitheatre",
+   "loc": [
+    12.492231,
+    41.89021
+   ],
+   "rot": 75,
+   "w": 156.0,
+   "l": 188.0,
+   "h": 37.0,
+   "params": {
+    "a": 188.0,
+    "b": 156.0,
+    "arenaA": 83.0,
+    "arenaB": 48.0,
+    "storeys": 3,
+    "bays": 80,
+    "attic": false,
+    "hypogeum": false,
+    "orders": [
+     "tuscan",
+     "ionic",
+     "corinthian"
+    ],
+    "velarium": {
+     "masts": 240,
+     "corbels": true,
+     "crew": "sailors of the Misenum fleet"
+    },
+    "entrances": "80 arches: 76 numbered public entrances and 4 axial (2 ceremonial on the minor axis, 2 for performers on the major axis)",
+    "podium": 4.0,
+    "capacity": "about 50,000",
+    "arena": "flat arena that could be flooded for naval displays",
+    "mat": {
+     "facade": "travertine",
+     "piers": "travertine",
+     "radial_walls": "tufa",
+     "vaults": "concrete",
+     "upper": "brick",
+     "seats": "marble_white"
+    },
+    "upperSeating": "timber maenianum summum in ligneis, unfinished"
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "Vespasian began the amphitheatre about 70-72 on the drained site of Nero's lake, paid for with the spoils of Jerusalem; it is the largest amphitheatre ever built, an ellipse 188 x 156 m on 80 radial walls. Titus inaugurated it in 80 with 100 days of games in which 9,000 animals were killed; Dio and Suetonius mention a flooded arena for a mock sea battle. At the inauguration the uppermost tier and attic were not yet finished.",
+   "phases": [
+    {
+     "y": 70,
+     "t": "construction begins on the site of the stagnum of the Domus Aurea"
+    },
+    {
+     "y": 79,
+     "t": "Vespasian dies with three storeys built"
+    },
+    {
+     "y": 80,
+     "t": "inaugural games of Titus, 100 days"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Divus Vespasianus",
+     "r": "9.1"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Divus Titus",
+     "r": "7.3"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "66.25"
+    },
+    {
+     "a": "Martial",
+     "w": "Liber spectaculorum",
+     "r": "2"
+    }
+   ],
+   "scholarship": [
+    "Hopkins and Beard, The Colosseum (2005)",
+    "Rea (ed.), Rota Colisei: la valle del Colosseo attraverso i secoli (2002)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000)"
+   ],
+   "note": "Centre from SCHEMA_CITY.md. Major axis bears about 75 degrees (ENE-WSW), per the coordinator's convention rot = major-axis bearing; w = minor axis (156 m), l = major axis (188 m). Outer wall 48-50 m high: three arcades (Tuscan, Ionic, Corinthian half-columns) and a solid attic with Corinthian pilasters, windows and 240 corbels for the velarium masts. Version 1 shows three arcades only; the Chronographer of 354 credits Domitian with completing the building 'ad clipea'."
+  },
+  {
+   "id": "colosseum_v2",
+   "monument": "colosseum",
+   "name": "Amphitheatrum Flavium (completed by Domitian)",
+   "from": 85,
+   "to": 216,
+   "begun": 81,
+   "builder": "domitian",
+   "template": "amphitheatre",
+   "loc": [
+    12.492231,
+    41.89021
+   ],
+   "rot": 75,
+   "w": 156.0,
+   "l": 188.0,
+   "h": 48.5,
+   "params": {
+    "a": 188.0,
+    "b": 156.0,
+    "arenaA": 83.0,
+    "arenaB": 48.0,
+    "storeys": 4,
+    "bays": 80,
+    "attic": true,
+    "hypogeum": true,
+    "orders": [
+     "tuscan",
+     "ionic",
+     "corinthian",
+     "corinthian_pilasters"
+    ],
+    "velarium": {
+     "masts": 240,
+     "corbels": true,
+     "crew": "sailors of the Misenum fleet"
+    },
+    "entrances": "80 arches: 76 numbered public entrances and 4 axial (2 ceremonial on the minor axis, 2 for performers on the major axis)",
+    "podium": 4.0,
+    "capacity": "about 50,000",
+    "arena": "timber floor over the hypogeum",
+    "mat": {
+     "facade": "travertine",
+     "piers": "travertine",
+     "radial_walls": "tufa",
+     "vaults": "concrete",
+     "upper": "brick",
+     "seats": "marble_white"
+    }
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "Domitian completed the attic storey 'ad clipea' and built the hypogeum, a two-level warren of corridors, cages and some 60 lifts under a timber arena floor, ending water spectacles. Seating was strictly graded: senators on the podium, equestrians above, then citizens by class, with women and slaves at the top. A tunnel led from the imperial box to the Ludus Magnus.",
+   "phases": [
+    {
+     "y": 85,
+     "t": "attic completed and hypogeum built (Chronographer of 354)"
+    },
+    {
+     "y": 107,
+     "t": "Trajan's Dacian triumph games: 11,000 animals, 10,000 gladiators over 123 days"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Divus Vespasianus",
+     "r": "9.1"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Divus Titus",
+     "r": "7.3"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "66.25"
+    },
+    {
+     "a": "Martial",
+     "w": "Liber spectaculorum",
+     "r": "2"
+    },
+    {
+     "a": "Chronographer of 354",
+     "w": "Chronica urbis Romae",
+     "r": "Domitianus"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "68.15.1"
+    }
+   ],
+   "scholarship": [
+    "Hopkins and Beard, The Colosseum (2005)",
+    "Rea (ed.), Rota Colisei: la valle del Colosseo attraverso i secoli (2002)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000)"
+   ],
+   "note": "Centre from SCHEMA_CITY.md. Major axis bears about 75 degrees (ENE-WSW), per the coordinator's convention rot = major-axis bearing; w = minor axis (156 m), l = major axis (188 m). Outer wall 48-50 m high: three arcades (Tuscan, Ionic, Corinthian half-columns) and a solid attic with Corinthian pilasters, windows and 240 corbels for the velarium masts."
+  },
+  {
+   "id": "colosseum_v3",
+   "monument": "colosseum",
+   "name": "Amphitheatrum Flavium (after the fire of 217)",
+   "from": 217,
+   "to": 222,
+   "builder": null,
+   "template": "amphitheatre",
+   "loc": [
+    12.492231,
+    41.89021
+   ],
+   "rot": 75,
+   "w": 156.0,
+   "l": 188.0,
+   "h": 48.5,
+   "params": {
+    "a": 188.0,
+    "b": 156.0,
+    "arenaA": 83.0,
+    "arenaB": 48.0,
+    "storeys": 4,
+    "bays": 80,
+    "attic": true,
+    "hypogeum": true,
+    "orders": [
+     "tuscan",
+     "ionic",
+     "corinthian",
+     "corinthian_pilasters"
+    ],
+    "velarium": {
+     "masts": 240,
+     "corbels": true,
+     "crew": "sailors of the Misenum fleet"
+    },
+    "entrances": "80 arches: 76 numbered public entrances and 4 axial (2 ceremonial on the minor axis, 2 for performers on the major axis)",
+    "podium": 4.0,
+    "capacity": "about 50,000",
+    "arena": "timber floor over the hypogeum",
+    "mat": {
+     "facade": "travertine",
+     "piers": "travertine",
+     "radial_walls": "tufa",
+     "vaults": "concrete",
+     "upper": "brick",
+     "seats": "marble_white"
+    }
+   },
+   "ruin": {
+    "from": 217,
+    "state": "half"
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "On 23 August 217 lightning set fire to the upper parts; the timber upper seating and the attic burned and the arena could not be used, so gladiatorial shows moved to the Stadium for years. Elagabalus and Severus Alexander began repairs.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "79.25.2-3"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Heliogabalus",
+     "r": "17.8"
+    }
+   ],
+   "scholarship": [
+    "Hopkins and Beard, The Colosseum (2005)",
+    "Rea (ed.), Rota Colisei: la valle del Colosseo attraverso i secoli (2002)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000)"
+   ],
+   "note": "Centre from SCHEMA_CITY.md. Major axis bears about 75 degrees (ENE-WSW), per the coordinator's convention rot = major-axis bearing; w = minor axis (156 m), l = major axis (188 m). Outer wall 48-50 m high: three arcades (Tuscan, Ionic, Corinthian half-columns) and a solid attic with Corinthian pilasters, windows and 240 corbels for the velarium masts."
+  },
+  {
+   "id": "colosseum_v4",
+   "monument": "colosseum",
+   "name": "Amphitheatrum Flavium (Severan-Gordianic restoration)",
+   "from": 223,
+   "to": 442,
+   "begun": 218,
+   "builder": "severus_alexander",
+   "template": "amphitheatre",
+   "loc": [
+    12.492231,
+    41.89021
+   ],
+   "rot": 75,
+   "w": 156.0,
+   "l": 188.0,
+   "h": 48.5,
+   "params": {
+    "a": 188.0,
+    "b": 156.0,
+    "arenaA": 83.0,
+    "arenaB": 48.0,
+    "storeys": 4,
+    "bays": 80,
+    "attic": true,
+    "hypogeum": true,
+    "orders": [
+     "tuscan",
+     "ionic",
+     "corinthian",
+     "corinthian_pilasters"
+    ],
+    "velarium": {
+     "masts": 240,
+     "corbels": true,
+     "crew": "sailors of the Misenum fleet"
+    },
+    "entrances": "80 arches: 76 numbered public entrances and 4 axial (2 ceremonial on the minor axis, 2 for performers on the major axis)",
+    "podium": 4.0,
+    "capacity": "about 50,000",
+    "arena": "timber floor over the hypogeum",
+    "mat": {
+     "facade": "travertine",
+     "piers": "travertine",
+     "radial_walls": "tufa",
+     "vaults": "concrete",
+     "upper": "brick",
+     "seats": "marble_white"
+    }
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "Severus Alexander reopened the amphitheatre and the repairs to the upper storeys continued into the reign of Gordian III (coins of 238-244 show it restored). Further repairs followed lightning in 250 and in the 4th century, and the urban prefects recorded them on statue bases and seat inscriptions. Gladiatorial combat lapsed in the early 5th century; beast hunts continued.",
+   "phases": [
+    {
+     "y": 223,
+     "t": "reopened under Severus Alexander"
+    },
+    {
+     "y": 240,
+     "t": "upper parts finished under Gordian III"
+    },
+    {
+     "y": 250,
+     "t": "lightning damage repaired"
+    },
+    {
+     "y": 404,
+     "t": "gladiatorial games end (Theodoret's story of Telemachus)"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Severus Alexander",
+     "r": "24.3"
+    },
+    {
+     "a": "Theodoret",
+     "w": "Historia Ecclesiastica",
+     "r": "5.26"
+    }
+   ],
+   "scholarship": [
+    "Hopkins and Beard, The Colosseum (2005)",
+    "Rea (ed.), Rota Colisei: la valle del Colosseo attraverso i secoli (2002)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000)"
+   ],
+   "note": "Centre from SCHEMA_CITY.md. Major axis bears about 75 degrees (ENE-WSW), per the coordinator's convention rot = major-axis bearing; w = minor axis (156 m), l = major axis (188 m). Outer wall 48-50 m high: three arcades (Tuscan, Ionic, Corinthian half-columns) and a solid attic with Corinthian pilasters, windows and 240 corbels for the velarium masts."
+  },
+  {
+   "id": "colosseum_v5",
+   "monument": "colosseum",
+   "name": "Amphitheatrum Flavium (after the earthquakes of 429 and 443)",
+   "from": 443,
+   "to": 507,
+   "begun": 443,
+   "builder": "valentinian_iii",
+   "template": "amphitheatre",
+   "loc": [
+    12.492231,
+    41.89021
+   ],
+   "rot": 75,
+   "w": 156.0,
+   "l": 188.0,
+   "h": 48.5,
+   "params": {
+    "a": 188.0,
+    "b": 156.0,
+    "arenaA": 83.0,
+    "arenaB": 48.0,
+    "storeys": 4,
+    "bays": 80,
+    "attic": true,
+    "hypogeum": true,
+    "orders": [
+     "tuscan",
+     "ionic",
+     "corinthian",
+     "corinthian_pilasters"
+    ],
+    "velarium": {
+     "masts": 240,
+     "corbels": true,
+     "crew": "sailors of the Misenum fleet"
+    },
+    "entrances": "80 arches: 76 numbered public entrances and 4 axial (2 ceremonial on the minor axis, 2 for performers on the major axis)",
+    "podium": 4.0,
+    "capacity": "about 50,000",
+    "arena": "timber floor over the hypogeum",
+    "mat": {
+     "facade": "travertine",
+     "piers": "travertine",
+     "radial_walls": "tufa",
+     "vaults": "concrete",
+     "upper": "brick",
+     "seats": "marble_white"
+    }
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "Earthquakes in the 5th century (recorded about 429 and 443) damaged the building; the urban prefect Rufius Caecina Felix Lampadius restored the arena, podium and seats, and Decius Marius Venantius Basilius repaired the arena and podium again after a quake around 484. Venationes still drew crowds.",
+   "phases": [
+    {
+     "y": 443,
+     "t": "earthquake; restoration by Lampadius"
+    },
+    {
+     "y": 484,
+     "t": "earthquake repairs by Basilius (date 484 or 508)"
+    }
+   ],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "1716"
+    }
+   ],
+   "scholarship": [
+    "Hopkins and Beard, The Colosseum (2005)",
+    "Rea (ed.), Rota Colisei: la valle del Colosseo attraverso i secoli (2002)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000)"
+   ],
+   "note": "Centre from SCHEMA_CITY.md. Major axis bears about 75 degrees (ENE-WSW), per the coordinator's convention rot = major-axis bearing; w = minor axis (156 m), l = major axis (188 m). Outer wall 48-50 m high: three arcades (Tuscan, Ionic, Corinthian half-columns) and a solid attic with Corinthian pilasters, windows and 240 corbels for the velarium masts. Versions 4 and 5 share form; split to mark the earthquake repairs."
+  },
+  {
+   "id": "colosseum_v6",
+   "monument": "colosseum",
+   "name": "Amphitheatrum Flavium (last games)",
+   "from": 508,
+   "to": 523,
+   "builder": "theodoric_the_great",
+   "template": "amphitheatre",
+   "loc": [
+    12.492231,
+    41.89021
+   ],
+   "rot": 75,
+   "w": 156.0,
+   "l": 188.0,
+   "h": 48.5,
+   "params": {
+    "a": 188.0,
+    "b": 156.0,
+    "arenaA": 83.0,
+    "arenaB": 48.0,
+    "storeys": 4,
+    "bays": 80,
+    "attic": true,
+    "hypogeum": true,
+    "orders": [
+     "tuscan",
+     "ionic",
+     "corinthian",
+     "corinthian_pilasters"
+    ],
+    "velarium": {
+     "masts": 240,
+     "corbels": true,
+     "crew": "sailors of the Misenum fleet"
+    },
+    "entrances": "80 arches: 76 numbered public entrances and 4 axial (2 ceremonial on the minor axis, 2 for performers on the major axis)",
+    "podium": 4.0,
+    "capacity": "about 50,000",
+    "arena": "timber floor over the hypogeum",
+    "mat": {
+     "facade": "travertine",
+     "piers": "travertine",
+     "radial_walls": "tufa",
+     "vaults": "concrete",
+     "upper": "brick",
+     "seats": "marble_white"
+    }
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "Under Theodoric the amphitheatre was patched once more. Cassiodorus deplores the cost and cruelty of the beast hunts; the last recorded venatio was given by the consul Anicius Maximus in 523.",
+   "phases": [
+    {
+     "y": 519,
+     "t": "games of Eutharic"
+    },
+    {
+     "y": 523,
+     "t": "last recorded games"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Cassiodorus",
+     "w": "Variae",
+     "r": "5.42"
+    }
+   ],
+   "scholarship": [
+    "Hopkins and Beard, The Colosseum (2005)",
+    "Rea (ed.), Rota Colisei: la valle del Colosseo attraverso i secoli (2002)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000)"
+   ],
+   "note": "Centre from SCHEMA_CITY.md. Major axis bears about 75 degrees (ENE-WSW), per the coordinator's convention rot = major-axis bearing; w = minor axis (156 m), l = major axis (188 m). Outer wall 48-50 m high: three arcades (Tuscan, Ionic, Corinthian half-columns) and a solid attic with Corinthian pilasters, windows and 240 corbels for the velarium masts."
+  },
+  {
+   "id": "colosseum_v7",
+   "monument": "colosseum",
+   "name": "Amphitheatrum Flavium (disused)",
+   "from": 524,
+   "to": 9999,
+   "builder": null,
+   "template": "amphitheatre",
+   "loc": [
+    12.492231,
+    41.89021
+   ],
+   "rot": 75,
+   "w": 156.0,
+   "l": 188.0,
+   "h": 48.5,
+   "params": {
+    "a": 188.0,
+    "b": 156.0,
+    "arenaA": 83.0,
+    "arenaB": 48.0,
+    "storeys": 4,
+    "bays": 80,
+    "attic": true,
+    "hypogeum": true,
+    "orders": [
+     "tuscan",
+     "ionic",
+     "corinthian",
+     "corinthian_pilasters"
+    ],
+    "velarium": {
+     "masts": 240,
+     "corbels": true,
+     "crew": "sailors of the Misenum fleet"
+    },
+    "entrances": "80 arches: 76 numbered public entrances and 4 axial (2 ceremonial on the minor axis, 2 for performers on the major axis)",
+    "podium": 4.0,
+    "capacity": "about 50,000",
+    "arena": "hypogeum filling with earth and rubbish",
+    "mat": {
+     "facade": "travertine",
+     "piers": "travertine",
+     "radial_walls": "tufa",
+     "vaults": "concrete",
+     "upper": "brick",
+     "seats": "marble_white"
+    }
+   },
+   "ruin": {
+    "from": 524,
+    "state": "half"
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "After the games ended the hypogeum silted up and the arcades began to be used for burials, stables and later houses and workshops. The great southern collapse came only with the earthquake of 847 (or 1349).",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Hopkins and Beard, The Colosseum (2005)",
+    "Rea (ed.), Rota Colisei: la valle del Colosseo attraverso i secoli (2002)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000)"
+   ],
+   "note": "Centre from SCHEMA_CITY.md. Major axis bears about 75 degrees (ENE-WSW), per the coordinator's convention rot = major-axis bearing; w = minor axis (156 m), l = major axis (188 m). Outer wall 48-50 m high: three arcades (Tuscan, Ionic, Corinthian half-columns) and a solid attic with Corinthian pilasters, windows and 240 corbels for the velarium masts."
+  },
+  {
+   "id": "meta_sudans_v1",
+   "monument": "meta_sudans",
+   "name": "Meta Sudans (Augustan)",
+   "from": -7,
+   "to": 64,
+   "builder": "augustus",
+   "template": "fountain",
+   "loc": [
+    12.4906,
+    41.89002
+   ],
+   "rot": 0,
+   "w": 9.0,
+   "l": 9.0,
+   "h": 8.0,
+   "params": {
+    "kind": "cone",
+    "diameter": 9.0,
+    "coneH": 7.0,
+    "mat": {
+     "basin": "travertine",
+     "cone": "concrete_faced"
+    }
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "Panella's excavations found an Augustan conical fountain just SW of the Flavian one, at the point where four or five of Augustus' fourteen regions met; it was destroyed in the fire of 64. Seneca knew a 'sweating meta' near his lodgings in the 60s.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Seneca",
+     "w": "Epistulae",
+     "r": "56.4"
+    }
+   ],
+   "scholarship": [
+    "Panella (ed.), Meta Sudans I (1996)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)"
+   ],
+   "note": "Position a few metres SW of the Flavian fountain; size estimated."
+  },
+  {
+   "id": "meta_sudans_v2",
+   "monument": "meta_sudans",
+   "name": "Meta Sudans (Flavian)",
+   "from": 90,
+   "to": 9999,
+   "begun": 85,
+   "builder": "domitian",
+   "template": "fountain",
+   "loc": [
+    12.490691,
+    41.890081
+   ],
+   "rot": 0,
+   "w": 16.0,
+   "l": 16.0,
+   "h": 17.0,
+   "params": {
+    "kind": "cone",
+    "diameter": 16.0,
+    "coneH": 17.0,
+    "coneBase": 7.5,
+    "mat": {
+     "basin": "marble_white",
+     "cone": "brick"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "Domitian's monumental fountain at the turning point of the triumphal route between the Colosseum, the Arch of Constantine and the Velia: a brick cone about 17 m high, faced with marble and crowned by a finial, water oozing from the top into a circular basin 16 m across. The cone stood to about 9 m until Mussolini demolished it in 1936.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Chronographer of 354",
+     "w": "Chronica urbis Romae",
+     "r": "Domitianus"
+    }
+   ],
+   "scholarship": [
+    "Panella (ed.), Meta Sudans I (1996)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ]
+  },
+  {
+   "id": "colossus_neronis_v1",
+   "monument": "colossus_neronis",
+   "name": "Colossus of Sol (in the vestibule of the Domus Aurea)",
+   "from": 75,
+   "to": 127,
+   "begun": 64,
+   "builder": "vespasian",
+   "template": "statue",
+   "loc": [
+    12.489665,
+    41.890858
+   ],
+   "rot": 257,
+   "w": 9.0,
+   "l": 9.0,
+   "h": 37.5,
+   "params": {
+    "base": 6.0,
+    "figure": 31.5,
+    "equestrian": false,
+    "radiate": true,
+    "mat": {
+     "base": "concrete_faced",
+     "figure": "bronze"
+    }
+   },
+   "importance": 4,
+   "certainty": "documented",
+   "summary": "Zenodorus' bronze colossus, 106.5 (Pliny) or 120 (Suetonius) Roman feet tall, was cast for the vestibule of Nero's Golden House as the emperor in the guise of the Sun. Vespasian completed and erected it in 75 as Sol with seven-rayed crown, its face no longer Nero's.",
+   "phases": [
+    {
+     "y": 75,
+     "t": "erected by Vespasian on the Sacra Via"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "34.45-46"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Nero",
+     "r": "31.1"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "66.15.1"
+    }
+   ],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000)",
+    "Albertson, 'Zenodorus's Colossus of Nero', MAAR 46 (2001)"
+   ],
+   "note": "Placed in the centre of the vestibule court, under the later Temple of Venus and Roma."
+  },
+  {
+   "id": "colossus_neronis_v2",
+   "monument": "colossus_neronis",
+   "name": "Colossus of Sol (moved by Hadrian)",
+   "from": 128,
+   "to": 190,
+   "builder": "hadrian",
+   "template": "statue",
+   "loc": [
+    12.49102,
+    41.89078
+   ],
+   "rot": 255,
+   "w": 14.75,
+   "l": 17.6,
+   "h": 37.5,
+   "params": {
+    "base": 6.0,
+    "figure": 31.5,
+    "equestrian": false,
+    "radiate": true,
+    "mat": {
+     "base": "marble_white",
+     "figure": "bronze"
+    }
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "To clear the site for the Temple of Venus and Roma, Hadrian had the architect Decrianus move the colossus upright, using 24 elephants, to a new base beside the Colosseum, which later took its name from it.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Hadrianus",
+     "r": "19.12-13"
+    }
+   ],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000)",
+    "Albertson, 'Zenodorus's Colossus of Nero', MAAR 46 (2001)"
+   ],
+   "note": "Base footprint 17.6 x 14.75 m, excavated before its demolition in 1936; location from Pleiades."
+  },
+  {
+   "id": "colossus_neronis_v3",
+   "monument": "colossus_neronis",
+   "name": "Colossus as Commodus-Hercules",
+   "from": 191,
+   "to": 192,
+   "builder": "commodus",
+   "template": "statue",
+   "loc": [
+    12.49102,
+    41.89078
+   ],
+   "rot": 255,
+   "w": 14.75,
+   "l": 17.6,
+   "h": 37.5,
+   "params": {
+    "base": 6.0,
+    "figure": 31.5,
+    "equestrian": false,
+    "radiate": false,
+    "mat": {
+     "base": "marble_white",
+     "figure": "bronze"
+    }
+   },
+   "importance": 4,
+   "certainty": "documented",
+   "summary": "Commodus replaced the head with his own portrait, added a club and a lion at its feet and an inscription of his titles as Hercules; after his murder the statue was restored to Sol.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Commodus",
+     "r": "17.9-10"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "73.22.3"
+    }
+   ],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000)",
+    "Albertson, 'Zenodorus's Colossus of Nero', MAAR 46 (2001)"
+   ],
+   "note": "Base footprint 17.6 x 14.75 m, excavated before its demolition in 1936; location from Pleiades."
+  },
+  {
+   "id": "colossus_neronis_v4",
+   "monument": "colossus_neronis",
+   "name": "Colossus of Sol (restored)",
+   "from": 193,
+   "to": 9999,
+   "builder": "pertinax",
+   "template": "statue",
+   "loc": [
+    12.49102,
+    41.89078
+   ],
+   "rot": 255,
+   "w": 14.75,
+   "l": 17.6,
+   "h": 37.5,
+   "params": {
+    "base": 6.0,
+    "figure": 31.5,
+    "equestrian": false,
+    "radiate": true,
+    "mat": {
+     "base": "marble_white",
+     "figure": "bronze"
+    }
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "Restored to the Sun god after 192. The Chronographer of 354 records it garlanded each year on 6 June. Its fate is unknown; the brick-faced base stood until 1936.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Chronographer of 354",
+     "w": "Fasti",
+     "r": "6 June"
+    }
+   ],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000)",
+    "Albertson, 'Zenodorus's Colossus of Nero', MAAR 46 (2001)"
+   ],
+   "note": "Base footprint 17.6 x 14.75 m, excavated before its demolition in 1936; location from Pleiades."
+  },
+  {
+   "id": "ludus_magnus_v1",
+   "monument": "ludus_magnus",
+   "name": "Ludus Magnus (Domitianic)",
+   "from": 88,
+   "to": 109,
+   "begun": 81,
+   "builder": "domitian",
+   "template": "compound",
+   "loc": [
+    12.495094,
+    41.890052
+   ],
+   "rot": 100,
+   "w": 87.0,
+   "l": 107.0,
+   "h": 12.0,
+   "footprint": [
+    [
+     12.494549,
+     41.890521
+    ],
+    [
+     12.494367,
+     41.88975
+    ],
+    [
+     12.495639,
+     41.889583
+    ],
+    [
+     12.495821,
+     41.890354
+    ],
+    [
+     12.494549,
+     41.890521
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "court",
+      "x": 0,
+      "y": 0,
+      "w": 87.0,
+      "l": 107.0,
+      "h": 11.0,
+      "mat": "brick",
+      "ringDepth": 13.0,
+      "storeys": 2
+     },
+     {
+      "shape": "stepped",
+      "x": 0,
+      "y": 0,
+      "w": 52.0,
+      "l": 70.0,
+      "h": 6.0,
+      "mat": "travertine",
+      "plan": "ellipse",
+      "arena": {
+       "a": 62.0,
+       "b": 45.0
+      }
+     },
+     {
+      "shape": "box",
+      "x": 37,
+      "y": 47,
+      "w": 8,
+      "l": 8,
+      "h": 3,
+      "mat": "marble_white"
+     },
+     {
+      "shape": "box",
+      "x": -37,
+      "y": 47,
+      "w": 8,
+      "l": 8,
+      "h": 3,
+      "mat": "marble_white"
+     },
+     {
+      "shape": "box",
+      "x": 37,
+      "y": -47,
+      "w": 8,
+      "l": 8,
+      "h": 3,
+      "mat": "marble_white"
+     },
+     {
+      "shape": "box",
+      "x": -37,
+      "y": -47,
+      "w": 8,
+      "l": 8,
+      "h": 3,
+      "mat": "marble_white"
+     }
+    ],
+    "capacity": "about 3,000 spectators in the practice arena"
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "The largest of the four imperial gladiatorial schools, built by Domitian east of the Colosseum and linked to its hypogeum by a tunnel. Cells for the gladiators on two or three storeys ringed a courtyard with an elliptical practice arena (62 x 45 m) with small stands; fountains stood in the corners.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Notitia",
+     "w": "Regio III",
+     "r": "ludus magnus"
+    }
+   ],
+   "scholarship": [
+    "Colini and Cozza, Ludus Magnus (1962)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Location from Pleiades (bbox of the excavated northern half). Long axis assumed parallel to the Via Labicana (rot 100, along the major axis). Overall size after Colini and Cozza."
+  },
+  {
+   "id": "ludus_magnus_v2",
+   "monument": "ludus_magnus",
+   "name": "Ludus Magnus (Trajanic rebuilding)",
+   "from": 110,
+   "to": 9999,
+   "begun": 104,
+   "builder": "trajan",
+   "template": "compound",
+   "loc": [
+    12.495094,
+    41.890052
+   ],
+   "rot": 100,
+   "w": 87.0,
+   "l": 107.0,
+   "h": 12.0,
+   "footprint": [
+    [
+     12.494549,
+     41.890521
+    ],
+    [
+     12.494367,
+     41.88975
+    ],
+    [
+     12.495639,
+     41.889583
+    ],
+    [
+     12.495821,
+     41.890354
+    ],
+    [
+     12.494549,
+     41.890521
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "court",
+      "x": 0,
+      "y": 0,
+      "w": 87.0,
+      "l": 107.0,
+      "h": 11.0,
+      "mat": "brick",
+      "ringDepth": 13.0,
+      "storeys": 2
+     },
+     {
+      "shape": "stepped",
+      "x": 0,
+      "y": 0,
+      "w": 52.0,
+      "l": 70.0,
+      "h": 6.0,
+      "mat": "travertine",
+      "plan": "ellipse",
+      "arena": {
+       "a": 62.0,
+       "b": 45.0
+      }
+     },
+     {
+      "shape": "box",
+      "x": 37,
+      "y": 47,
+      "w": 8,
+      "l": 8,
+      "h": 3,
+      "mat": "marble_white"
+     },
+     {
+      "shape": "box",
+      "x": -37,
+      "y": 47,
+      "w": 8,
+      "l": 8,
+      "h": 3,
+      "mat": "marble_white"
+     },
+     {
+      "shape": "box",
+      "x": 37,
+      "y": -47,
+      "w": 8,
+      "l": 8,
+      "h": 3,
+      "mat": "marble_white"
+     },
+     {
+      "shape": "box",
+      "x": -37,
+      "y": -47,
+      "w": 8,
+      "l": 8,
+      "h": 3,
+      "mat": "marble_white"
+     }
+    ]
+   },
+   "ruin": {
+    "from": 440,
+    "state": "roofless"
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "Rebuilt under Trajan at a higher level, in the form now visible. Disused once gladiatorial games stopped in the early 5th century.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Colini and Cozza, Ludus Magnus (1962)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)"
+   ],
+   "note": "Location from Pleiades (bbox of the excavated northern half). Long axis assumed parallel to the Via Labicana (rot 100, along the major axis). Overall size after Colini and Cozza."
+  },
+  {
+   "id": "ludus_matutinus",
+   "monument": "ludus_matutinus",
+   "name": "Ludus Matutinus",
+   "from": 90,
+   "to": 9999,
+   "builder": "domitian",
+   "template": "compound",
+   "loc": [
+    12.49495,
+    41.8891
+   ],
+   "rot": 100,
+   "w": 50.0,
+   "l": 60.0,
+   "h": 10.0,
+   "footprint": [
+    [
+     12.494646,
+     41.889369
+    ],
+    [
+     12.494541,
+     41.888925
+    ],
+    [
+     12.495254,
+     41.888831
+    ],
+    [
+     12.495359,
+     41.889275
+    ],
+    [
+     12.494646,
+     41.889369
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "court",
+      "x": 0,
+      "y": 0,
+      "w": 50.0,
+      "l": 60.0,
+      "h": 10.0,
+      "mat": "brick",
+      "ringDepth": 10.0,
+      "storeys": 2
+     },
+     {
+      "shape": "stepped",
+      "x": 0,
+      "y": 0,
+      "w": 22.0,
+      "l": 32.0,
+      "h": 3.0,
+      "mat": "tufa",
+      "plan": "ellipse"
+     }
+    ]
+   },
+   "ruin": {
+    "from": 440,
+    "state": "roofless"
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "The school for the venatores and bestiarii who fought animals in the morning shows (hence 'matutinus'), listed in Regio II. Its site, SE of the Colosseum below the Caelian, is not excavated.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Notitia",
+     "w": "Regio II",
+     "r": "ludus matutinus"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Carandini (ed.), The Atlas of Ancient Rome (2017)"
+   ],
+   "note": "Position conjectural, south of the Via Labicana in Regio II."
+  },
+  {
+   "id": "ludus_gallicus",
+   "monument": "ludus_gallicus",
+   "name": "Ludus Gallicus",
+   "from": 90,
+   "to": 9999,
+   "builder": "domitian",
+   "template": "compound",
+   "loc": [
+    12.4962,
+    41.8886
+   ],
+   "rot": 100,
+   "w": 45.0,
+   "l": 55.0,
+   "h": 10.0,
+   "footprint": [
+    [
+     12.49592,
+     41.888843
+    ],
+    [
+     12.495826,
+     41.888443
+    ],
+    [
+     12.49648,
+     41.888357
+    ],
+    [
+     12.496574,
+     41.888757
+    ],
+    [
+     12.49592,
+     41.888843
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "court",
+      "x": 0,
+      "y": 0,
+      "w": 45.0,
+      "l": 55.0,
+      "h": 10.0,
+      "mat": "brick",
+      "ringDepth": 10.0,
+      "storeys": 2
+     }
+    ]
+   },
+   "ruin": {
+    "from": 440,
+    "state": "roofless"
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "One of the four imperial gladiatorial schools, listed in Regio II with the Ludus Matutinus; probably named after the Gallic style of fighting (murmillones).",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Notitia",
+     "w": "Regio II",
+     "r": "ludus Gallicus"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Carandini (ed.), The Atlas of Ancient Rome (2017)"
+   ],
+   "note": "Position conjectural."
+  },
+  {
+   "id": "ludus_dacicus",
+   "monument": "ludus_dacicus",
+   "name": "Ludus Dacicus",
+   "from": 107,
+   "to": 9999,
+   "builder": "trajan",
+   "template": "compound",
+   "loc": [
+    12.4984,
+    41.89015
+   ],
+   "rot": 100,
+   "w": 50.0,
+   "l": 60.0,
+   "h": 10.0,
+   "footprint": [
+    [
+     12.498096,
+     41.890419
+    ],
+    [
+     12.497991,
+     41.889975
+    ],
+    [
+     12.498704,
+     41.889881
+    ],
+    [
+     12.498809,
+     41.890325
+    ],
+    [
+     12.498096,
+     41.890419
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "court",
+      "x": 0,
+      "y": 0,
+      "w": 50.0,
+      "l": 60.0,
+      "h": 10.0,
+      "mat": "brick",
+      "ringDepth": 10.0,
+      "storeys": 2
+     }
+    ]
+   },
+   "ruin": {
+    "from": 440,
+    "state": "roofless"
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Gladiatorial school in Regio III, presumably founded or renamed by Trajan for Dacian captives after 106. Not located; placed along the Via Labicana beyond San Clemente.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Notitia",
+     "w": "Regio III",
+     "r": "ludus Dacicus"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Carandini (ed.), The Atlas of Ancient Rome (2017)"
+   ],
+   "note": "Position conjectural; date inferred from the name."
+  },
+  {
+   "id": "summum_choragium",
+   "monument": "summum_choragium",
+   "name": "Summum Choragium",
+   "from": 90,
+   "to": 9999,
+   "builder": "domitian",
+   "template": "compound",
+   "loc": [
+    12.4963,
+    41.8899
+   ],
+   "rot": 100,
+   "w": 40.0,
+   "l": 60.0,
+   "h": 12.0,
+   "footprint": [
+    [
+     12.495985,
+     41.890124
+    ],
+    [
+     12.495902,
+     41.88977
+    ],
+    [
+     12.496615,
+     41.889676
+    ],
+    [
+     12.496698,
+     41.89003
+    ],
+    [
+     12.495985,
+     41.890124
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "court",
+      "x": 0,
+      "y": 0,
+      "w": 40.0,
+      "l": 60.0,
+      "h": 12.0,
+      "mat": "brick",
+      "ringDepth": 10.0,
+      "storeys": 2
+     }
+    ]
+   },
+   "ruin": {
+    "from": 440,
+    "state": "roofless"
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "The central store and workshop for the stage machinery and scenery of the amphitheatre games, run by imperial freedmen procuratores summi choragii; listed in Regio III near the Ludus Magnus.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Notitia",
+     "w": "Regio III",
+     "r": "summum choragium"
+    },
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "776"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Carandini (ed.), The Atlas of Ancient Rome (2017)"
+   ],
+   "note": "Position conjectural, N side of the Via Labicana."
+  },
+  {
+   "id": "castra_misenatium",
+   "monument": "castra_misenatium",
+   "name": "Castra Misenatium",
+   "from": 90,
+   "to": 9999,
+   "builder": "domitian",
+   "template": "compound",
+   "loc": [
+    12.4995,
+    41.8907
+   ],
+   "rot": 100,
+   "w": 60.0,
+   "l": 80.0,
+   "h": 12.0,
+   "footprint": [
+    [
+     12.499088,
+     41.891029
+    ],
+    [
+     12.498962,
+     41.890497
+    ],
+    [
+     12.499912,
+     41.890371
+    ],
+    [
+     12.500038,
+     41.890903
+    ],
+    [
+     12.499088,
+     41.891029
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "court",
+      "x": 0,
+      "y": 0,
+      "w": 60.0,
+      "l": 80.0,
+      "h": 12.0,
+      "mat": "brick",
+      "ringDepth": 10.0,
+      "storeys": 2
+     }
+    ]
+   },
+   "ruin": {
+    "from": 440,
+    "state": "roofless"
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Barracks of the detachment of sailors from the fleet at Misenum who rigged the velarium of the Colosseum, listed in Regio III; usually placed near the Via Labicana toward the Via Merulana.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Notitia",
+     "w": "Regio III",
+     "r": "castra Misenatium"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Commodus",
+     "r": "15.6"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Carandini (ed.), The Atlas of Ancient Rome (2017)"
+   ],
+   "note": "Position conjectural."
+  },
+  {
+   "id": "moneta_under_san_clemente",
+   "monument": "moneta_caesaris",
+   "name": "Moneta (warehouse-mint under San Clemente)",
+   "from": 90,
+   "to": 389,
+   "begun": 81,
+   "builder": "domitian",
+   "template": "compound",
+   "loc": [
+    12.4977,
+    41.8893
+   ],
+   "rot": 100,
+   "w": 29.0,
+   "l": 45.0,
+   "h": 12.0,
+   "footprint": [
+    [
+     12.497463,
+     41.889464
+    ],
+    [
+     12.497402,
+     41.889207
+    ],
+    [
+     12.497937,
+     41.889136
+    ],
+    [
+     12.497998,
+     41.889393
+    ],
+    [
+     12.497463,
+     41.889464
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "court",
+      "x": 0,
+      "y": 0,
+      "w": 29.0,
+      "l": 45.0,
+      "h": 12.0,
+      "mat": "tufa",
+      "ringDepth": 6.0,
+      "storeys": 2
+     }
+    ]
+   },
+   "importance": 2,
+   "certainty": "reconstructed",
+   "summary": "A large Flavian building of tufa blocks with small rooms around a court lies under the nave of San Clemente; Coarelli and others identify it with the Moneta, the imperial mint, which the Regionary Catalogues list in Regio III. It became the substructure of the 4th-century church.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Notitia",
+     "w": "Regio III",
+     "r": "moneta"
+    }
+   ],
+   "scholarship": [
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Identification as the mint is debated. The church of San Clemente belongs to district D."
+  },
+  {
+   "id": "domus_mithraeum_san_clemente",
+   "monument": "domus_mithraeum_san_clemente",
+   "name": "House and Mithraeum under San Clemente",
+   "from": 100,
+   "to": 389,
+   "begun": 90,
+   "builder": null,
+   "template": "compound",
+   "loc": [
+    12.49742,
+    41.88928
+   ],
+   "rot": 100,
+   "w": 20.0,
+   "l": 30.0,
+   "h": 10.0,
+   "footprint": [
+    [
+     12.497263,
+     41.889392
+    ],
+    [
+     12.497221,
+     41.889215
+    ],
+    [
+     12.497577,
+     41.889168
+    ],
+    [
+     12.497619,
+     41.889345
+    ],
+    [
+     12.497263,
+     41.889392
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 20.0,
+      "l": 30.0,
+      "h": 10.0,
+      "mat": "brick",
+      "storeys": 2
+     }
+    ],
+    "mithraeum": "vaulted triclinium-shrine inserted on the ground floor in the late 2nd or early 3rd century"
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "An insula or house of the late 1st century across a narrow alley from the Moneta, whose ground floor received a mithraeum about 200; the cult room with its benches and tauroctony altar survives under the apse of San Clemente.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)"
+   ],
+   "note": "Ends when the first church was built over both buildings (c. 390)."
+  },
+  {
+   "id": "domus_transitoria_link",
+   "monument": "domus_transitoria",
+   "name": "Domus Transitoria (Palatine-Esquiline galleries)",
+   "from": 60,
+   "to": 64,
+   "builder": "nero",
+   "template": "colonnade",
+   "loc": [
+    12.494,
+    41.8913
+   ],
+   "rot": 0,
+   "w": 8.0,
+   "l": 1300.0,
+   "h": 7.0,
+   "params": {
+    "line": [
+     [
+      12.4888,
+      41.8898
+     ],
+     [
+      12.4905,
+      41.8905
+     ],
+     [
+      12.4935,
+      41.8911
+     ],
+     [
+      12.4965,
+      41.8923
+     ],
+     [
+      12.5,
+      41.8938
+     ]
+    ],
+    "depth": 8.0,
+    "colH": 6.0,
+    "mat": {
+     "columns": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Before the fire Nero linked the Palatine to the imperial Horti Maecenatis on the Esquiline with a 'house of passage'. Its Palatine parts (the nymphaeum under the Domus Flavia) survive; the connecting galleries across the valley are known only from Suetonius and Tacitus. It burned in July 64.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Nero",
+     "r": "31.1"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annales",
+     "r": "15.39.1"
+    }
+   ],
+   "scholarship": [
+    "Ball, The Domus Aurea and the Roman Architectural Revolution (2003)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)"
+   ],
+   "note": "Line entirely conjectural, from the NE corner of the Palatine across the valley and up the Oppius to the gardens."
+  },
+  {
+   "id": "domus_aurea_oppian_wing",
+   "monument": "domus_aurea_mon",
+   "name": "Domus Aurea (Esquiline wing on the Oppius)",
+   "from": 68,
+   "to": 104,
+   "begun": 64,
+   "builder": "nero",
+   "template": "compound",
+   "loc": [
+    12.4951,
+    41.89139
+   ],
+   "rot": 183,
+   "w": 240.0,
+   "l": 90.0,
+   "h": 16.0,
+   "footprint": [
+    [
+     12.496574,
+     41.891738
+    ],
+    [
+     12.493682,
+     41.891851
+    ],
+    [
+     12.493626,
+     41.891042
+    ],
+    [
+     12.496518,
+     41.890929
+    ],
+    [
+     12.496574,
+     41.891738
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": -75,
+      "y": 0,
+      "w": 90.0,
+      "l": 55.0,
+      "h": 11.0,
+      "mat": "brick"
+     },
+     {
+      "shape": "court",
+      "x": -75,
+      "y": 5,
+      "w": 50.0,
+      "l": 32.0,
+      "h": 11.0,
+      "mat": "brick",
+      "ringDepth": 8.0
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 40.0,
+      "l": 50.0,
+      "h": 11.0,
+      "mat": "brick"
+     },
+     {
+      "shape": "dome",
+      "x": 0,
+      "y": 0,
+      "w": 14.7,
+      "l": 14.7,
+      "h": 5.0,
+      "z": 11.0,
+      "mat": "concrete",
+      "oculus": 6.0
+     },
+     {
+      "shape": "box",
+      "x": 70,
+      "y": 0,
+      "w": 90.0,
+      "l": 60.0,
+      "h": 11.0,
+      "mat": "brick"
+     },
+     {
+      "shape": "court",
+      "x": 55,
+      "y": 18,
+      "w": 40.0,
+      "l": 30.0,
+      "h": 11.0,
+      "mat": "brick",
+      "ringDepth": 6.0
+     },
+     {
+      "shape": "colonnade",
+      "x": 0,
+      "y": 31,
+      "w": 240.0,
+      "l": 6.0,
+      "h": 9.0,
+      "mat": "marble_white",
+      "colH": 8.0
+     },
+     {
+      "shape": "vault",
+      "x": 0,
+      "y": -40,
+      "w": 220.0,
+      "l": 6.0,
+      "h": 6.0,
+      "mat": "concrete"
+     },
+     {
+      "shape": "terrace",
+      "x": 0,
+      "y": -10,
+      "w": 240.0,
+      "l": 70.0,
+      "h": 2.0,
+      "z": 11.0,
+      "mat": "grass"
+     }
+    ],
+    "rooms": "about 150",
+    "ceilings": "painted and gilded vaults (Fabullus); stucco and glass mosaic",
+    "octagon": {
+     "diameter": 14.7,
+     "oculus": 6.0
+    }
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "The surviving pavilion of Nero's Golden House, built after the fire of 64 by Severus and Celer: a single-storey range about 240 m long facing south over the lake, with a portico along its front, a peristyle court on the west, the famous domed octagonal hall with radiating rooms and an oculus at the centre, and a pentagonal court on the east. Suetonius describes ceilings of ivory panels that showered flowers and a round dining room that turned day and night. The Flavians lived in it in part; after the fire of 104 its rooms were filled with earth as foundations for the Baths of Trajan.",
+   "phases": [
+    {
+     "y": 64,
+     "t": "begun after the fire of July 64"
+    },
+    {
+     "y": 68,
+     "t": "Nero's death; 'at last I can live like a human being' (Suetonius)"
+    },
+    {
+     "y": 104,
+     "t": "fire; buried under the Baths of Trajan"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Nero",
+     "r": "31"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annales",
+     "r": "15.42"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "35.120"
+    },
+    {
+     "a": "Martial",
+     "w": "Liber spectaculorum",
+     "r": "2"
+    }
+   ],
+   "scholarship": [
+    "Ball, The Domus Aurea and the Roman Architectural Revolution (2003)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Haeuber, The Eastern Part of the Mons Oppius in Rome (2014)"
+   ],
+   "note": "Centre between the Wikipedia and Pleiades points; facade faces S over the valley, rotated slightly west (rot 183), about 30 degrees off the grid of the Baths of Trajan."
+  },
+  {
+   "id": "domus_aurea_stagnum",
+   "monument": "domus_aurea_stagnum",
+   "name": "Stagnum Neronis (lake of the Domus Aurea)",
+   "from": 68,
+   "to": 69,
+   "begun": 64,
+   "builder": "nero",
+   "template": "pool",
+   "loc": [
+    12.492231,
+    41.89021
+   ],
+   "rot": 75,
+   "w": 150.0,
+   "l": 205.0,
+   "h": 2.0,
+   "footprint": [
+    [
+     12.492465,
+     41.889558
+    ],
+    [
+     12.492766,
+     41.889642
+    ],
+    [
+     12.493031,
+     41.889764
+    ],
+    [
+     12.493241,
+     41.889918
+    ],
+    [
+     12.493383,
+     41.890091
+    ],
+    [
+     12.493446,
+     41.890272
+    ],
+    [
+     12.493426,
+     41.890449
+    ],
+    [
+     12.493324,
+     41.89061
+    ],
+    [
+     12.493148,
+     41.890743
+    ],
+    [
+     12.49291,
+     41.89084
+    ],
+    [
+     12.492625,
+     41.890894
+    ],
+    [
+     12.492314,
+     41.890902
+    ],
+    [
+     12.491997,
+     41.890862
+    ],
+    [
+     12.491696,
+     41.890778
+    ],
+    [
+     12.491431,
+     41.890656
+    ],
+    [
+     12.491221,
+     41.890502
+    ],
+    [
+     12.491079,
+     41.890329
+    ],
+    [
+     12.491016,
+     41.890148
+    ],
+    [
+     12.491036,
+     41.889971
+    ],
+    [
+     12.491138,
+     41.88981
+    ],
+    [
+     12.491314,
+     41.889677
+    ],
+    [
+     12.491552,
+     41.88958
+    ],
+    [
+     12.491837,
+     41.889526
+    ],
+    [
+     12.492148,
+     41.889518
+    ],
+    [
+     12.492465,
+     41.889558
+    ]
+   ],
+   "params": {
+    "depth": 2.0,
+    "banks": "surrounded by buildings 'like cities' (Suetonius)",
+    "mat": {
+     "water": "water",
+     "rim": "travertine"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "An artificial lake filled the valley between the Palatine, Velia, Oppius and Caelian, 'like a sea, surrounded by buildings like cities'. Vespasian drained it and built the Colosseum on its bed; its edge has been found under the Colosseum's foundations.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Nero",
+     "r": "31.1"
+    },
+    {
+     "a": "Martial",
+     "w": "Liber spectaculorum",
+     "r": "2.5-6"
+    }
+   ],
+   "scholarship": [
+    "Ball, The Domus Aurea and the Roman Architectural Revolution (2003)",
+    "Rea (ed.), Rota Colisei: la valle del Colosseo attraverso i secoli (2002)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)"
+   ],
+   "note": "Shape idealised as an ellipse slightly larger than the Colosseum ring."
+  },
+  {
+   "id": "domus_aurea_vestibulum",
+   "monument": "domus_aurea_vestibulum",
+   "name": "Vestibule of the Domus Aurea (Velia)",
+   "from": 68,
+   "to": 79,
+   "begun": 64,
+   "builder": "nero",
+   "template": "porticus",
+   "loc": [
+    12.489665,
+    41.890858
+   ],
+   "rot": 257,
+   "w": 100.0,
+   "l": 145.0,
+   "h": 12.0,
+   "footprint": [
+    [
+     12.490653,
+     41.890566
+    ],
+    [
+     12.490382,
+     41.891444
+    ],
+    [
+     12.488677,
+     41.89115
+    ],
+    [
+     12.488948,
+     41.890272
+    ],
+    [
+     12.490653,
+     41.890566
+    ]
+   ],
+   "params": {
+    "depth": 9.0,
+    "colH": 9.5,
+    "double": true,
+    "garden": false,
+    "triple": "porticus triplex a mile long (Suetonius)"
+   },
+   "importance": 4,
+   "certainty": "reconstructed",
+   "summary": "The monumental entrance court of the Golden House on the Velia, on the axis of the Sacra Via from the Forum, framed by colonnades and centred on the colossal statue of Nero. The Flavians dismantled it; Hadrian built the Temple of Venus and Roma on its platform.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Nero",
+     "r": "31.1"
+    },
+    {
+     "a": "Martial",
+     "w": "Liber spectaculorum",
+     "r": "2.3-4"
+    }
+   ],
+   "scholarship": [
+    "Ball, The Domus Aurea and the Roman Architectural Revolution (2003)",
+    "Rea (ed.), Rota Colisei: la valle del Colosseo attraverso i secoli (2002)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)"
+   ],
+   "note": "Outline taken as the later Venus and Roma platform (about 145 x 100 m), entrance facing WSW down the Sacra Via (rot 257)."
+  },
+  {
+   "id": "nymphaeum_via_annibaldi",
+   "monument": "nymphaeum_via_annibaldi",
+   "name": "Nymphaeum of Via degli Annibaldi",
+   "from": 68,
+   "to": 104,
+   "builder": "nero",
+   "template": "fountain",
+   "loc": [
+    12.492121,
+    41.891664
+   ],
+   "rot": 195,
+   "w": 30.0,
+   "l": 8.0,
+   "h": 10.0,
+   "params": {
+    "kind": "nymphaeum",
+    "facade": {
+     "w": 30.0,
+     "h": 10.0
+    },
+    "mat": {
+     "walls": "brick"
+    }
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "A brick fountain facade with niches on the slope of the Oppius above the lake, part of the landscaped terraces of the Domus Aurea.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Ball, The Domus Aurea and the Roman Architectural Revolution (2003)",
+    "Rea (ed.), Rota Colisei: la valle del Colosseo attraverso i secoli (2002)"
+   ],
+   "note": "Location from Pleiades; facing SSW over the valley."
+  },
+  {
+   "id": "domus_aurea_porticus_stagni",
+   "monument": "domus_aurea_porticus_stagni",
+   "name": "Porticoes on the N shore of the Neronian lake",
+   "from": 68,
+   "to": 79,
+   "begun": 64,
+   "builder": "nero",
+   "template": "colonnade",
+   "loc": [
+    12.4925,
+    41.89115
+   ],
+   "rot": 0,
+   "w": 8.0,
+   "l": 420.0,
+   "h": 8.0,
+   "params": {
+    "line": [
+     [
+      12.4903,
+      41.89085
+     ],
+     [
+      12.492,
+      41.89125
+     ],
+     [
+      12.4938,
+      41.8912
+     ],
+     [
+      12.4953,
+      41.8907
+     ]
+    ],
+    "depth": 8.0,
+    "colH": 6.5,
+    "mat": {
+     "columns": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Colonnades and pavilions lined the lake of the Golden House, linking the vestibule on the Velia with the Esquiline wing; Suetonius' 'buildings like cities' round the stagnum. Swept away by the Flavian works.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Nero",
+     "r": "31.1"
+    }
+   ],
+   "scholarship": [
+    "Ball, The Domus Aurea and the Roman Architectural Revolution (2003)",
+    "Rea (ed.), Rota Colisei: la valle del Colosseo attraverso i secoli (2002)"
+   ],
+   "note": "Line conjectural along the N edge of the lake."
+  },
+  {
+   "id": "colosseum_platea",
+   "monument": "colosseum_platea",
+   "name": "Travertine precinct of the Colosseum (with cippi)",
+   "from": 80,
+   "to": 9999,
+   "begun": 70,
+   "builder": "vespasian",
+   "template": "platform",
+   "loc": [
+    12.492231,
+    41.89021
+   ],
+   "rot": 75,
+   "w": 191.0,
+   "l": 223.0,
+   "h": 0.3,
+   "footprint": [
+    [
+     12.492529,
+     41.889379
+    ],
+    [
+     12.492777,
+     41.889446
+    ],
+    [
+     12.493004,
+     41.889542
+    ],
+    [
+     12.493201,
+     41.889664
+    ],
+    [
+     12.493361,
+     41.889806
+    ],
+    [
+     12.493477,
+     41.889965
+    ],
+    [
+     12.493546,
+     41.890132
+    ],
+    [
+     12.493564,
+     41.890303
+    ],
+    [
+     12.493531,
+     41.89047
+    ],
+    [
+     12.493447,
+     41.890627
+    ],
+    [
+     12.493317,
+     41.890768
+    ],
+    [
+     12.493146,
+     41.890888
+    ],
+    [
+     12.492939,
+     41.890981
+    ],
+    [
+     12.492705,
+     41.891045
+    ],
+    [
+     12.492453,
+     41.891077
+    ],
+    [
+     12.492192,
+     41.891075
+    ],
+    [
+     12.491933,
+     41.891041
+    ],
+    [
+     12.491685,
+     41.890974
+    ],
+    [
+     12.491458,
+     41.890878
+    ],
+    [
+     12.491261,
+     41.890756
+    ],
+    [
+     12.491101,
+     41.890614
+    ],
+    [
+     12.490985,
+     41.890455
+    ],
+    [
+     12.490916,
+     41.890288
+    ],
+    [
+     12.490898,
+     41.890117
+    ],
+    [
+     12.490931,
+     41.88995
+    ],
+    [
+     12.491015,
+     41.889793
+    ],
+    [
+     12.491145,
+     41.889652
+    ],
+    [
+     12.491316,
+     41.889532
+    ],
+    [
+     12.491523,
+     41.889439
+    ],
+    [
+     12.491757,
+     41.889375
+    ],
+    [
+     12.492009,
+     41.889343
+    ],
+    [
+     12.49227,
+     41.889345
+    ],
+    [
+     12.492529,
+     41.889379
+    ]
+   ],
+   "params": {
+    "facade": "plain",
+    "ringWidth": 17.5,
+    "cippi": "travertine bollards round the outer edge, probably to anchor the velarium ropes or control crowds",
+    "mat": {
+     "paving": "paving_travertine"
+    }
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "A travertine pavement about 17.5 m wide encircled the amphitheatre, bounded on the outside by a ring of large travertine cippi, five of which survive on the E side.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Rea (ed.), Rota Colisei: la valle del Colosseo attraverso i secoli (2002)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)"
+   ],
+   "note": "Outer ellipse = building plus 17.5 m on each side."
+  },
+  {
+   "id": "curiae_veteres_v1",
+   "monument": "curiae_veteres",
+   "name": "Curiae Veteres (archaic-Republican)",
+   "from": -509,
+   "to": -11,
+   "builder": null,
+   "template": "compound",
+   "loc": [
+    12.4899,
+    41.88985
+   ],
+   "rot": 45,
+   "w": 30.0,
+   "l": 20.0,
+   "h": 7.0,
+   "footprint": [
+    [
+     12.489687,
+     41.889882
+    ],
+    [
+     12.489943,
+     41.889691
+    ],
+    [
+     12.490113,
+     41.889818
+    ],
+    [
+     12.489857,
+     41.890009
+    ],
+    [
+     12.489687,
+     41.889882
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "court",
+      "x": 0,
+      "y": 0,
+      "w": 30.0,
+      "l": 20.0,
+      "h": 6.0,
+      "mat": "tufa",
+      "ringDepth": 5.0
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": -6,
+      "w": 8.0,
+      "l": 6.0,
+      "h": 7.0,
+      "mat": "tufa"
+     }
+    ]
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "The old meeting houses of the thirty curiae, traditionally founded by Romulus at the NE corner of the Palatine; excavated by Panella's team beside the Meta Sudans, with phases from the 6th century BC.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Varro",
+     "w": "De lingua Latina",
+     "r": "5.155"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annales",
+     "r": "12.24"
+    }
+   ],
+   "scholarship": [
+    "Panella (ed.), Meta Sudans I (1996)",
+    "Carandini (ed.), The Atlas of Ancient Rome (2017)"
+   ],
+   "note": "At the junction of the Palatine and the Colosseum valley (boundary with district A). Plan schematic."
+  },
+  {
+   "id": "curiae_veteres_v2",
+   "monument": "curiae_veteres",
+   "name": "Curiae Veteres (Augustan rebuilding)",
+   "from": -10,
+   "to": 64,
+   "begun": -15,
+   "builder": "augustus",
+   "template": "compound",
+   "loc": [
+    12.4899,
+    41.88985
+   ],
+   "rot": 45,
+   "w": 30.0,
+   "l": 20.0,
+   "h": 7.0,
+   "footprint": [
+    [
+     12.489687,
+     41.889882
+    ],
+    [
+     12.489943,
+     41.889691
+    ],
+    [
+     12.490113,
+     41.889818
+    ],
+    [
+     12.489857,
+     41.890009
+    ],
+    [
+     12.489687,
+     41.889882
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "court",
+      "x": 0,
+      "y": 0,
+      "w": 30.0,
+      "l": 20.0,
+      "h": 6.0,
+      "mat": "reticulate",
+      "ringDepth": 5.0
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": -6,
+      "w": 8.0,
+      "l": 6.0,
+      "h": 7.0,
+      "mat": "tufa"
+     }
+    ]
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "Rebuilt under Augustus, as an inscription of the curiae attests, and destroyed in the fire of 64; the site was then covered by the Neronian and Flavian works of the valley.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Varro",
+     "w": "De lingua Latina",
+     "r": "5.155"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annales",
+     "r": "12.24"
+    }
+   ],
+   "scholarship": [
+    "Panella (ed.), Meta Sudans I (1996)",
+    "Carandini (ed.), The Atlas of Ancient Rome (2017)"
+   ],
+   "note": "At the junction of the Palatine and the Colosseum valley (boundary with district A). Plan schematic."
+  },
+  {
+   "id": "baths_of_titus_v1",
+   "monument": "baths_of_titus",
+   "name": "Baths of Titus (Thermae Titi)",
+   "from": 80,
+   "to": 536,
+   "begun": 79,
+   "builder": "titus",
+   "template": "baths",
+   "loc": [
+    12.494053,
+    41.892556
+   ],
+   "rot": 195,
+   "w": 110.0,
+   "l": 120.0,
+   "h": 26.0,
+   "footprint": [
+    [
+     12.494881,
+     41.89295
+    ],
+    [
+     12.493599,
+     41.893206
+    ],
+    [
+     12.493225,
+     41.892162
+    ],
+    [
+     12.494507,
+     41.891906
+    ],
+    [
+     12.494881,
+     41.89295
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "terrace",
+      "x": 0,
+      "y": 0,
+      "w": 110.0,
+      "l": 120.0,
+      "h": 6.0,
+      "mat": "brick"
+     },
+     {
+      "shape": "stepped",
+      "x": 0,
+      "y": 58,
+      "w": 60.0,
+      "l": 10.0,
+      "h": 6.0,
+      "mat": "travertine"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 80.0,
+      "l": 70.0,
+      "h": 16.0,
+      "z": 6.0,
+      "mat": "brick"
+     },
+     {
+      "shape": "vault",
+      "x": 0,
+      "y": 0,
+      "w": 40.0,
+      "l": 22.0,
+      "h": 20.0,
+      "z": 6.0,
+      "mat": "concrete",
+      "cross_vaults": 3
+     },
+     {
+      "shape": "dome",
+      "x": 0,
+      "y": 32,
+      "w": 22.0,
+      "l": 22.0,
+      "h": 18.0,
+      "z": 6.0,
+      "mat": "concrete"
+     },
+     {
+      "shape": "court",
+      "x": -35,
+      "y": -15,
+      "w": 30.0,
+      "l": 40.0,
+      "h": 10.0,
+      "z": 6.0,
+      "mat": "brick",
+      "ringDepth": 5.0
+     },
+     {
+      "shape": "court",
+      "x": 35,
+      "y": -15,
+      "w": 30.0,
+      "l": 40.0,
+      "h": 10.0,
+      "z": 6.0,
+      "mat": "brick",
+      "ringDepth": 5.0
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": -35,
+      "w": 36.0,
+      "l": 14.0,
+      "h": 2.0,
+      "z": 6.0,
+      "mat": "water"
+     }
+    ],
+    "mat": {
+     "walls": "brick",
+     "vaults": "concrete",
+     "facing": "marble_white"
+    }
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "Built quickly for the inauguration of the Colosseum in 80, on part of the site of the Domus Aurea, on a raised platform reached from the valley by a wide stair. The first imperial baths on the symmetrical plan: a central axis of natatio, cross-vaulted frigidarium, tepidarium and domed caldarium, with mirrored palaestrae on either side, as drawn by Palladio. Largely destroyed; parts of the stair and substructures survive under Via Nicola Salvi.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Divus Titus",
+     "r": "7.3"
+    },
+    {
+     "a": "Martial",
+     "w": "Liber spectaculorum",
+     "r": "2.7"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "66.25.1"
+    }
+   ],
+   "scholarship": [
+    "Nielsen, Thermae et Balnea (1990)",
+    "Yegul, Baths and Bathing in Classical Antiquity (1992)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Plan after Palladio's drawing; dimensions approximate (about 110 x 120 m). Faces SSW toward the Colosseum on the Domus Aurea grid (rot 195)."
+  },
+  {
+   "id": "baths_of_titus_v2",
+   "monument": "baths_of_titus",
+   "name": "Baths of Titus (dry)",
+   "from": 537,
+   "to": 9999,
+   "builder": null,
+   "template": "baths",
+   "loc": [
+    12.494053,
+    41.892556
+   ],
+   "rot": 195,
+   "w": 110.0,
+   "l": 120.0,
+   "h": 26.0,
+   "footprint": [
+    [
+     12.494881,
+     41.89295
+    ],
+    [
+     12.493599,
+     41.893206
+    ],
+    [
+     12.493225,
+     41.892162
+    ],
+    [
+     12.494507,
+     41.891906
+    ],
+    [
+     12.494881,
+     41.89295
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "terrace",
+      "x": 0,
+      "y": 0,
+      "w": 110.0,
+      "l": 120.0,
+      "h": 6.0,
+      "mat": "brick"
+     },
+     {
+      "shape": "stepped",
+      "x": 0,
+      "y": 58,
+      "w": 60.0,
+      "l": 10.0,
+      "h": 6.0,
+      "mat": "travertine"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 80.0,
+      "l": 70.0,
+      "h": 16.0,
+      "z": 6.0,
+      "mat": "brick"
+     },
+     {
+      "shape": "vault",
+      "x": 0,
+      "y": 0,
+      "w": 40.0,
+      "l": 22.0,
+      "h": 20.0,
+      "z": 6.0,
+      "mat": "concrete",
+      "cross_vaults": 3
+     },
+     {
+      "shape": "dome",
+      "x": 0,
+      "y": 32,
+      "w": 22.0,
+      "l": 22.0,
+      "h": 18.0,
+      "z": 6.0,
+      "mat": "concrete"
+     },
+     {
+      "shape": "court",
+      "x": -35,
+      "y": -15,
+      "w": 30.0,
+      "l": 40.0,
+      "h": 10.0,
+      "z": 6.0,
+      "mat": "brick",
+      "ringDepth": 5.0
+     },
+     {
+      "shape": "court",
+      "x": 35,
+      "y": -15,
+      "w": 30.0,
+      "l": 40.0,
+      "h": 10.0,
+      "z": 6.0,
+      "mat": "brick",
+      "ringDepth": 5.0
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": -35,
+      "w": 36.0,
+      "l": 14.0,
+      "h": 2.0,
+      "z": 6.0,
+      "mat": "water"
+     }
+    ],
+    "mat": {
+     "walls": "brick",
+     "vaults": "concrete"
+    }
+   },
+   "ruin": {
+    "from": 537,
+    "state": "roofless"
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "Out of use once the aqueducts were cut in 537; the ruins were drawn by Palladio before being largely destroyed.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Nielsen, Thermae et Balnea (1990)"
+   ]
+  },
+  {
+   "id": "baths_of_trajan_v1",
+   "monument": "baths_of_trajan",
+   "name": "Baths of Trajan (Thermae Traiani)",
+   "from": 109,
+   "to": 536,
+   "begun": 104,
+   "builder": "trajan",
+   "template": "baths",
+   "loc": [
+    12.4965,
+    41.8918
+   ],
+   "rot": 32,
+   "w": 330.0,
+   "l": 340.0,
+   "h": 30.0,
+   "footprint": [
+    [
+     12.493725,
+     41.891289
+    ],
+    [
+     12.497101,
+     41.889714
+    ],
+    [
+     12.499275,
+     41.892311
+    ],
+    [
+     12.495899,
+     41.893886
+    ],
+    [
+     12.493725,
+     41.891289
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "wall",
+      "x": 0,
+      "y": 0,
+      "w": 330.0,
+      "l": 340.0,
+      "h": 8.0,
+      "mat": "brick",
+      "ring": true
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 95,
+      "w": 212.0,
+      "l": 150.0,
+      "h": 18.0,
+      "mat": "brick"
+     },
+     {
+      "shape": "vault",
+      "x": 0,
+      "y": 110,
+      "w": 58.0,
+      "l": 25.0,
+      "h": 30.0,
+      "mat": "concrete",
+      "cross_vaults": 3,
+      "colH": 14.0
+     },
+     {
+      "shape": "dome",
+      "x": 0,
+      "y": 70,
+      "w": 20.0,
+      "l": 20.0,
+      "h": 25.0,
+      "mat": "concrete"
+     },
+     {
+      "shape": "apse",
+      "x": 0,
+      "y": 35,
+      "w": 36.0,
+      "l": 24.0,
+      "h": 28.0,
+      "mat": "concrete"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 150,
+      "w": 70.0,
+      "l": 30.0,
+      "h": 2.0,
+      "mat": "water"
+     },
+     {
+      "shape": "court",
+      "x": 72,
+      "y": 100,
+      "w": 46.0,
+      "l": 60.0,
+      "h": 12.0,
+      "mat": "brick",
+      "ringDepth": 7.0
+     },
+     {
+      "shape": "court",
+      "x": -72,
+      "y": 100,
+      "w": 46.0,
+      "l": 60.0,
+      "h": 12.0,
+      "mat": "brick",
+      "ringDepth": 7.0
+     },
+     {
+      "shape": "hemicycle",
+      "x": 155,
+      "y": 10,
+      "h": 15.0,
+      "rot": -90,
+      "mat": "brick",
+      "radius": 30.0,
+      "depth": 10.0,
+      "angle": 180
+     },
+     {
+      "shape": "hemicycle",
+      "x": -155,
+      "y": 10,
+      "h": 15.0,
+      "rot": 90,
+      "mat": "brick",
+      "radius": 30.0,
+      "depth": 10.0,
+      "angle": 180
+     },
+     {
+      "shape": "hemicycle",
+      "x": 0,
+      "y": -155,
+      "h": 14.0,
+      "mat": "brick",
+      "radius": 50.0,
+      "depth": 14.0,
+      "angle": 180,
+      "stepped": true
+     },
+     {
+      "shape": "box",
+      "x": 110,
+      "y": -150,
+      "w": 40.0,
+      "l": 25.0,
+      "h": 15.0,
+      "mat": "brick"
+     },
+     {
+      "shape": "box",
+      "x": -110,
+      "y": -150,
+      "w": 40.0,
+      "l": 25.0,
+      "h": 15.0,
+      "mat": "brick"
+     },
+     {
+      "shape": "terrace",
+      "x": 0,
+      "y": -60,
+      "w": 300.0,
+      "l": 160.0,
+      "h": 0.5,
+      "mat": "grass"
+     }
+    ],
+    "precinct": {
+     "w": 330.0,
+     "l": 340.0,
+     "h": 8.0
+    },
+    "core": {
+     "w": 212.0,
+     "l": 150.0,
+     "h": 18.0
+    },
+    "frigidarium": {
+     "w": 58.0,
+     "l": 25.0,
+     "h": 30.0
+    },
+    "caldarium": {
+     "radius": 18.0,
+     "h": 28.0
+    },
+    "natatio": {
+     "w": 70.0,
+     "l": 30.0
+    },
+    "exedrae": 3,
+    "mat": {
+     "walls": "brick",
+     "vaults": "concrete",
+     "facing": "marble_white"
+    }
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "The first of the colossal imperial thermae, begun after the fire of 104 that gutted the Domus Aurea and dedicated by Trajan in June 109, designed (says Dio) by Apollodorus. A bath block about 212 x 150 m stood within a walled garden precinct of some 330 x 340 m, with exedrae on the sides housing libraries or lecture halls and a great curved stand on the SW. The model for the later baths of Caracalla and Diocletian; supplied by the Sette Sale cistern. Used into the 5th century.",
+   "phases": [
+    {
+     "y": 104,
+     "t": "fire in the Domus Aurea; works begin"
+    },
+    {
+     "y": 109,
+     "t": "dedicated 22 June (Fasti Ostienses)"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "69.4.1"
+    },
+    {
+     "a": "Fasti Ostienses",
+     "w": "",
+     "r": "year 109"
+    }
+   ],
+   "scholarship": [
+    "Yegul, Baths and Bathing in Classical Antiquity (1992)",
+    "Nielsen, Thermae et Balnea (1990)",
+    "DeLaine, The Baths of Caracalla (JRA Suppl. 25, 1997)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Haeuber, The Eastern Part of the Mons Oppius in Rome (2014)"
+   ],
+   "note": "Axis about 30 degrees off the Domus Aurea grid: main entrance on the NNE (rot 32), caldarium projecting SSW for the afternoon sun (Wikipedia: caldarium on the SW side). Precinct 330 x 340 m; central block placed against the NE side as in the Marble Plan fragments and Renaissance drawings. Centre between the Wikipedia and Pleiades positions."
+  },
+  {
+   "id": "baths_of_trajan_v2",
+   "monument": "baths_of_trajan",
+   "name": "Baths of Trajan (abandoned)",
+   "from": 537,
+   "to": 9999,
+   "builder": null,
+   "template": "baths",
+   "loc": [
+    12.4965,
+    41.8918
+   ],
+   "rot": 32,
+   "w": 330.0,
+   "l": 340.0,
+   "h": 30.0,
+   "footprint": [
+    [
+     12.493725,
+     41.891289
+    ],
+    [
+     12.497101,
+     41.889714
+    ],
+    [
+     12.499275,
+     41.892311
+    ],
+    [
+     12.495899,
+     41.893886
+    ],
+    [
+     12.493725,
+     41.891289
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "wall",
+      "x": 0,
+      "y": 0,
+      "w": 330.0,
+      "l": 340.0,
+      "h": 8.0,
+      "mat": "brick",
+      "ring": true
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 95,
+      "w": 212.0,
+      "l": 150.0,
+      "h": 18.0,
+      "mat": "brick"
+     },
+     {
+      "shape": "vault",
+      "x": 0,
+      "y": 110,
+      "w": 58.0,
+      "l": 25.0,
+      "h": 30.0,
+      "mat": "concrete",
+      "cross_vaults": 3,
+      "colH": 14.0
+     },
+     {
+      "shape": "dome",
+      "x": 0,
+      "y": 70,
+      "w": 20.0,
+      "l": 20.0,
+      "h": 25.0,
+      "mat": "concrete"
+     },
+     {
+      "shape": "apse",
+      "x": 0,
+      "y": 35,
+      "w": 36.0,
+      "l": 24.0,
+      "h": 28.0,
+      "mat": "concrete"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 150,
+      "w": 70.0,
+      "l": 30.0,
+      "h": 2.0,
+      "mat": "water"
+     },
+     {
+      "shape": "court",
+      "x": 72,
+      "y": 100,
+      "w": 46.0,
+      "l": 60.0,
+      "h": 12.0,
+      "mat": "brick",
+      "ringDepth": 7.0
+     },
+     {
+      "shape": "court",
+      "x": -72,
+      "y": 100,
+      "w": 46.0,
+      "l": 60.0,
+      "h": 12.0,
+      "mat": "brick",
+      "ringDepth": 7.0
+     },
+     {
+      "shape": "hemicycle",
+      "x": 155,
+      "y": 10,
+      "h": 15.0,
+      "rot": -90,
+      "mat": "brick",
+      "radius": 30.0,
+      "depth": 10.0,
+      "angle": 180
+     },
+     {
+      "shape": "hemicycle",
+      "x": -155,
+      "y": 10,
+      "h": 15.0,
+      "rot": 90,
+      "mat": "brick",
+      "radius": 30.0,
+      "depth": 10.0,
+      "angle": 180
+     },
+     {
+      "shape": "hemicycle",
+      "x": 0,
+      "y": -155,
+      "h": 14.0,
+      "mat": "brick",
+      "radius": 50.0,
+      "depth": 14.0,
+      "angle": 180,
+      "stepped": true
+     },
+     {
+      "shape": "box",
+      "x": 110,
+      "y": -150,
+      "w": 40.0,
+      "l": 25.0,
+      "h": 15.0,
+      "mat": "brick"
+     },
+     {
+      "shape": "box",
+      "x": -110,
+      "y": -150,
+      "w": 40.0,
+      "l": 25.0,
+      "h": 15.0,
+      "mat": "brick"
+     },
+     {
+      "shape": "terrace",
+      "x": 0,
+      "y": -60,
+      "w": 300.0,
+      "l": 160.0,
+      "h": 0.5,
+      "mat": "grass"
+     }
+    ],
+    "precinct": {
+     "w": 330.0,
+     "l": 340.0,
+     "h": 8.0
+    },
+    "core": {
+     "w": 212.0,
+     "l": 150.0,
+     "h": 18.0
+    },
+    "frigidarium": {
+     "w": 58.0,
+     "l": 25.0,
+     "h": 30.0
+    },
+    "caldarium": {
+     "radius": 18.0,
+     "h": 28.0
+    },
+    "natatio": {
+     "w": 70.0,
+     "l": 30.0
+    },
+    "exedrae": 3,
+    "mat": {
+     "walls": "brick",
+     "vaults": "concrete",
+     "facing": "marble_white"
+    }
+   },
+   "ruin": {
+    "from": 537,
+    "state": "roofless"
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "Out of use by the Gothic siege of 537 when the aqueducts were cut. A cemetery grew in front of the NE exedra from the 5th to the 7th century; later the ruins were quarried by the monks of San Pietro in Vincoli. The Laocoon was found nearby in 1506.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Haeuber, The Eastern Part of the Mons Oppius in Rome (2014)"
+   ],
+   "note": "Axis about 30 degrees off the Domus Aurea grid: main entrance on the NNE (rot 32), caldarium projecting SSW for the afternoon sun (Wikipedia: caldarium on the SW side). Precinct 330 x 340 m; central block placed against the NE side as in the Marble Plan fragments and Renaissance drawings. Centre between the Wikipedia and Pleiades positions."
+  },
+  {
+   "id": "sette_sale",
+   "monument": "sette_sale",
+   "name": "Sette Sale (cistern of the Baths of Trajan)",
+   "from": 109,
+   "to": 9999,
+   "begun": 104,
+   "builder": "trajan",
+   "template": "compound",
+   "loc": [
+    12.499436,
+    41.892681
+   ],
+   "rot": 32,
+   "w": 40.0,
+   "l": 50.0,
+   "h": 10.0,
+   "footprint": [
+    [
+     12.499071,
+     41.892586
+    ],
+    [
+     12.499481,
+     41.892395
+    ],
+    [
+     12.499801,
+     41.892776
+    ],
+    [
+     12.499391,
+     41.892967
+    ],
+    [
+     12.499071,
+     41.892586
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 40.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "brick"
+     },
+     {
+      "shape": "vault",
+      "x": 0,
+      "y": 0,
+      "w": 40.0,
+      "l": 50.0,
+      "h": 2.0,
+      "z": 8.0,
+      "mat": "concrete",
+      "galleries": 9
+     }
+    ],
+    "galleries": {
+     "count": 9,
+     "w": 5.3,
+     "l": 29.5
+    },
+    "capacity_m3": 8000
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "The cistern that fed the Baths of Trajan: nine parallel barrel-vaulted chambers (despite the name 'seven halls'), each about 29.5 x 5.3 m, with staggered openings to keep the water moving, holding up to 8 million litres. In the 4th century a house was built on its roof.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Haeuber, The Eastern Part of the Mons Oppius in Rome (2014)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Location from Pleiades; aligned with the baths."
+  },
+  {
+   "id": "domus_sette_sale",
+   "monument": "domus_sette_sale",
+   "name": "Late antique house on the Sette Sale",
+   "from": 330,
+   "to": 9999,
+   "begun": 320,
+   "builder": null,
+   "template": "compound",
+   "loc": [
+    12.499436,
+    41.892681
+   ],
+   "rot": 32,
+   "w": 40.0,
+   "l": 50.0,
+   "h": 17.0,
+   "footprint": [
+    [
+     12.499071,
+     41.892586
+    ],
+    [
+     12.499481,
+     41.892395
+    ],
+    [
+     12.499801,
+     41.892776
+    ],
+    [
+     12.499391,
+     41.892967
+    ],
+    [
+     12.499071,
+     41.892586
+    ]
+   ],
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 5,
+      "w": 40.0,
+      "l": 35.0,
+      "h": 7.0,
+      "z": 10.0,
+      "mat": "brick",
+      "storeys": 1
+     },
+     {
+      "shape": "apse",
+      "x": 0,
+      "y": -16,
+      "w": 14.0,
+      "l": 7.0,
+      "h": 7.0,
+      "z": 10.0,
+      "mat": "brick",
+      "role": "apsed reception hall"
+     }
+    ]
+   },
+   "ruin": {
+    "from": 550,
+    "state": "half"
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "In the 4th century a wealthy house with an apsed reception hall and mosaic floors was built on the roof of the cistern, a typical late antique reuse of a public structure on the Oppius.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Haeuber, The Eastern Part of the Mons Oppius in Rome (2014)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)"
+   ],
+   "note": "Blocks sit on the cistern roof (z 10)."
+  },
+  {
+   "id": "claudianum_terrace",
+   "monument": "claudianum_terrace",
+   "name": "Claudianum terrace (platform of the Temple of Divus Claudius)",
+   "from": 60,
+   "to": 9999,
+   "begun": 54,
+   "builder": "claudius",
+   "template": "platform",
+   "loc": [
+    12.493,
+    41.8878
+   ],
+   "rot": 265,
+   "w": 180.0,
+   "l": 200.0,
+   "h": 8.0,
+   "footprint": [
+    [
+     12.494297,
+     41.887071
+    ],
+    [
+     12.494107,
+     41.888686
+    ],
+    [
+     12.491703,
+     41.888529
+    ],
+    [
+     12.491893,
+     41.886914
+    ],
+    [
+     12.494297,
+     41.887071
+    ]
+   ],
+   "params": {
+    "facade": "arcade",
+    "arcades": "two storeys of rusticated travertine arcades on the W side (visible under SS. Giovanni e Paolo)",
+    "mat": {
+     "facade": "travertine",
+     "core": "concrete"
+    }
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "A vast artificial terrace about 180 x 200 m on the NW spur of the Caelian, begun by Agrippina for the cult of her deified husband in 54. Its west retaining wall of deliberately rough-cut travertine arcades still stands under the bell tower of SS. Giovanni e Paolo. Nero turned the east side into a fountain facade for the Domus Aurea.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Colini, Storia e topografia del Celio nell'antichita (1944)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Ball, The Domus Aurea and the Roman Architectural Revolution (2003)"
+   ],
+   "note": "Bounded by the Clivus Scauri (S), Via Claudia (E), Via di S. Gregorio (W) and the slope to the Colosseum (N); centre estimated from those streets. Builder field gives Claudius as the honorand; the work was Agrippina's (no person id)."
+  },
+  {
+   "id": "nymphaeum_neronis_caelian",
+   "monument": "nymphaeum_neronis_caelian",
+   "name": "Nymphaeum of Nero (E side of the Claudianum)",
+   "from": 68,
+   "to": 9999,
+   "begun": 64,
+   "builder": "nero",
+   "template": "fountain",
+   "loc": [
+    12.494202,
+    41.887878
+   ],
+   "rot": 85,
+   "w": 167.0,
+   "l": 10.0,
+   "h": 11.0,
+   "params": {
+    "kind": "nymphaeum",
+    "facade": {
+     "w": 167.0,
+     "h": 11.0
+    },
+    "niches": "alternating rectangular and semicircular niches with cascades",
+    "mat": {
+     "walls": "brick",
+     "facing": "marble_white"
+    }
+   },
+   "ruin": {
+    "from": 537,
+    "state": "half"
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "Nero cut back the Claudian temple and turned the east face of its terrace into a 167 m long brick fountain wall with niches and cascades facing the Domus Aurea, fed by the Arcus Neroniani that he extended across the Caelian.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Frontinus",
+     "w": "De aquaeductu",
+     "r": "2.76"
+    }
+   ],
+   "scholarship": [
+    "Colini, Storia e topografia del Celio nell'antichita (1944)",
+    "Ball, The Domus Aurea and the Roman Architectural Revolution (2003)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)"
+   ],
+   "note": "Wall along Via Claudia; the Arcus Neroniani themselves belong to the aqueduct collection."
+  },
+  {
+   "id": "temple_of_divus_claudius_v1",
+   "monument": "temple_of_divus_claudius",
+   "name": "Temple of Divus Claudius (Agrippina's, unfinished)",
+   "from": 60,
+   "to": 63,
+   "begun": 54,
+   "builder": "claudius",
+   "template": "temple",
+   "loc": [
+    12.493,
+    41.8878
+   ],
+   "rot": 265,
+   "w": 22.0,
+   "l": 40.0,
+   "h": 22.0,
+   "params": {
+    "order": "corinthian",
+    "plan": "prostyle",
+    "front": 6,
+    "side": 4,
+    "podium": 5.0,
+    "colH": 14.5,
+    "steps": "front",
+    "pediment": false,
+    "mat": {
+     "podium": "concrete_faced",
+     "columns": "marble_white",
+     "walls": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "ruin": {
+    "from": 60,
+    "state": "half"
+   },
+   "importance": 3,
+   "certainty": "documented",
+   "summary": "Agrippina began a temple to the deified Claudius after 54; Suetonius says Nero almost entirely destroyed it. Shown as an unfinished shell.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Divus Vespasianus",
+     "r": "9.1"
+    }
+   ],
+   "scholarship": [
+    "Colini, Storia e topografia del Celio nell'antichita (1944)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Form unknown; assumed like Vespasian's temple."
+  },
+  {
+   "id": "temple_of_divus_claudius_v2",
+   "monument": "temple_of_divus_claudius",
+   "name": "Temple of Divus Claudius (Vespasianic)",
+   "from": 75,
+   "to": 9999,
+   "begun": 70,
+   "builder": "vespasian",
+   "template": "temple",
+   "loc": [
+    12.493,
+    41.8878
+   ],
+   "rot": 265,
+   "w": 22.0,
+   "l": 40.0,
+   "h": 25.0,
+   "params": {
+    "order": "corinthian",
+    "plan": "prostyle",
+    "front": 6,
+    "side": 4,
+    "podium": 5.0,
+    "colH": 14.5,
+    "steps": "front",
+    "pediment": true,
+    "precinct": {
+     "w": 120.0,
+     "l": 150.0,
+     "h": 8.0
+    },
+    "mat": {
+     "podium": "concrete_faced",
+     "columns": "marble_white",
+     "walls": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "ruin": {
+    "from": 550,
+    "state": "half"
+   },
+   "importance": 4,
+   "certainty": "documented",
+   "summary": "Vespasian rebuilt the temple of Claudius in the centre of the terrace, surrounded by a garden precinct; the Marble Plan shows a hexastyle temple set among rows of trees. Martial notes that its portico spread wide shade.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Divus Vespasianus",
+     "r": "9.1"
+    },
+    {
+     "a": "Martial",
+     "w": "Liber spectaculorum",
+     "r": "2.9-10"
+    }
+   ],
+   "scholarship": [
+    "Colini, Storia e topografia del Celio nell'antichita (1944)",
+    "Stanford Digital Forma Urbis Romae Project",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Temple faces W toward the Palatine (rot 265), following the travertine W front of the terrace. Dimensions estimated from the Marble Plan."
+  },
+  {
+   "id": "arch_of_constantine",
+   "monument": "arch_of_constantine_mon",
+   "name": "Arch of Constantine",
+   "from": 315,
+   "to": 9999,
+   "begun": 312,
+   "builder": "constantine_i",
+   "template": "arch",
+   "loc": [
+    12.490667,
+    41.889762
+   ],
+   "rot": 348,
+   "w": 25.9,
+   "l": 7.4,
+   "h": 21.0,
+   "params": {
+    "bays": 3,
+    "depth": 7.4,
+    "atticH": 6.0,
+    "columns": "freestanding",
+    "quadriga": false,
+    "spolia": "Trajanic frieze and Dacians, Hadrianic tondi, Aurelian attic panels",
+    "mat": {
+     "body": "marble_white",
+     "columns": "marble_color"
+    }
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "The Senate's triple arch for Constantine's victory over Maxentius at the Milvian Bridge in 312, dedicated for his decennalia in 315 'instinctu divinitatis'. It stands on the triumphal route between the Circus Maximus and the Colosseum and reuses sculpture from monuments of Trajan, Hadrian and Marcus Aurelius beside Constantinian friezes. Some argue that its lower part reuses a Hadrianic arch.",
+   "phases": [
+    {
+     "y": 315,
+     "t": "dedicated 25 July for the decennalia"
+    }
+   ],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "1139"
+    }
+   ],
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000)"
+   ],
+   "note": "Location from Pleiades. Its Pleiades bbox (26.3 x 12.4 m) fits a 25.9 x 7.4 m block turned about 10 degrees; facades face NNW toward the Meta Sudans and SSE (rot 348)."
+  }
+ ]
+}
