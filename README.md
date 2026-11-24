@@ -19,7 +19,7 @@ python3 -m http.server 8000
 - **Encyclopedia.** 1,340 people, 416 places (with Pleiades ids), 300+ states and peoples, 208 provinces, dioceses and prefectures, 65 legions with their bases over time, frontier works, named roads, 307 glossary terms.
 - **3D Rome.** The city itself in three dimensions, changing year by year from 509 BC to AD 641 (the "3D Rome" button). It has:
   - The ancient ground, rebuilt from a 10 m bare-earth elevation model with 50 dated corrections: the Forum floor rising by metres, the Velia and the Capitoline-Quirinal saddle restored, Monte Testaccio growing, modern fill removed. The Tiber runs in its reconstructed channel at the water level of the period.
-  - About 600 documented monuments in 924 dated versions. Each version is drawn from its measured size, orientation and form by a library of 35 parametric building types (temples by order and plan, basilicas, theatres, amphitheatres, circuses, baths, palaces as composed blocks). Buildings rise during construction and change through every fire and rebuild.
+  - About 600 documented monuments in 907 dated versions. Each version is drawn from its measured size, orientation and form by a library of 35 parametric building types (temples by order and plan, basilicas, theatres, amphitheatres, circuses, baths, palaces as composed blocks). Buildings rise during construction and change through every fire and rebuild.
   - Walls phase by phase, from the Servian rampart to the Honorian doubling and Totila's breaches. Also 46 gates, 153 streets, the eleven aqueducts with their arcades, the bridges, the fourteen Augustan regions with the Regionary Catalogue, and the gardens.
   - 564 events pinned to the spot where they happened, from the geese on the Arx to the Pantheon's consecration, each with sources and a precision tag. Also 324 places of daily life (fire stations, markets, warehouses, mithraea, synagogues, tituli, catacombs, known houses), 25 processional and assault routes, and the burnt areas of 16 great fires.
   - Ordinary housing generated from researched urbanization zones (density and building type per period) along the known streets. It is labelled as generated wherever you click it.
@@ -69,7 +69,7 @@ Content was compiled with AI assistance from standard scholarship and then given
 
 ### Accuracy of the 3D city
 
-Every 3D record carries a certainty tag. Of 924 versions, 387 are excavated, 105 documented, 171 reconstructed and 261 conjectural. Positions come from excavation outlines in OpenStreetMap, the Pleiades gazetteer, published plans and measurements. Where a building's site or orientation is debated, the record says so and gives the alternatives. Superstructures above surviving remains are reconstructions in the generic forms of their type, not portraits of lost façades. Ordinary housing is generated, not documented.
+Every 3D record carries a certainty tag. Of 907 versions, 384 are excavated, 100 documented, 167 reconstructed and 256 conjectural. Every building and event has been through a source fact-check (about 290 corrections in all). Positions come from excavation outlines in OpenStreetMap, the Pleiades gazetteer, published plans and measurements. Where a building's site or orientation is debated, the record says so and gives the alternatives. Superstructures above surviving remains are reconstructions in the generic forms of their type, not portraits of lost façades. Ordinary housing is generated, not documented.
 
 ## Credits and licences
 
