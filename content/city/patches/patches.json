@@ -15,6 +15,16 @@
   "circus_of_gaius_and_nero_v2": {
    "to": 319,
    "note": "Coordinator: the derelict circus is ended when Constantine's builders levelled the Vatican slope for St Peter's (c. 320); the rotundas and the obelisk then stood on its former spina line."
+  },
+  "temple_vesta_v2": {
+   "to": -241
+  },
+  "tabernae_novae_v1": {
+   "to": -210
+  },
+  "rostra_v2": {
+   "from": -44,
+   "begun": -45
   }
  },
  "delete": [
@@ -25,5 +35,28 @@
   "pons_probi_v1@d_bridges.json",
   "siege_of_rome_537@aqueducts.json"
  ],
- "deleteNote": "Duplicates written by two research passes at different spots; kept the better-evidenced record (excavated remains or the more precise survey)."
+ "deleteNote": "Duplicates written by two research passes at different spots; kept the better-evidenced record (excavated remains or the more precise survey).",
+ "log": [
+  {
+   "id": "temple_vesta_v2",
+   "field": "to",
+   "old": -242,
+   "new": -241,
+   "reason": "The temple burned in 241 BC (Metellus saving the Palladium); the version must stand in that year."
+  },
+  {
+   "id": "tabernae_novae_v1",
+   "field": "to",
+   "old": -211,
+   "new": -210,
+   "reason": "The shops burned in the fire of 210 BC (Livy 26.27)."
+  },
+  {
+   "id": "rostra_v2",
+   "field": "from",
+   "old": -42,
+   "new": -44,
+   "reason": "Caesar's relocated Rostra were in use in 44 BC (Lupercalia, funeral speech); finished later."
+  }
+ ]
 }
