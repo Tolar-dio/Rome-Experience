@@ -208,7 +208,7 @@ float tfbm(vec2 p){ return tn(p)*0.5+tn(p*2.1)*0.28+tn(p*4.3)*0.14+tn(p*9.1)*0.0
       if (((bits >> int(uFireBit)) & 1) == 1) c = mix(c, vec3(0.13, 0.11, 0.10), 0.82 * (0.7 + 0.3 * n2));
     }
   }
-  diffuseColor.rgb = c * (0.95 + 0.08 * n2);
+  diffuseColor.rgb = pow(c * (0.95 + 0.08 * n2), vec3(2.2));
 }`);
   };
   m.customProgramCacheKey = () => 'orbis-terrain-v1';

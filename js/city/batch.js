@@ -37,6 +37,9 @@ export function matOf(name, fallback = 'stucco') {
   return MAT[fallback];
 }
 
+// vertex colours are read as linear by the renderer; the palette is authored in sRGB
+const S2L = new Uint8Array(256).map((_, i) => Math.round(Math.pow(i / 255, 2.2) * 255));
+
 class Grow {
   constructor(Type, n) { this.T = Type; this.a = new Type(n); this.n = 0; }
   need(k) { if (this.n + k > this.a.length) { let m = this.a.length * 2; while (m < this.n + k) m *= 2; const b = new this.T(m); b.set(this.a); this.a = b; } }
@@ -81,7 +84,7 @@ export class Batch {
     const C = this.col; C.need(3);
     let hex = m[0];
     if (this.tint) hex = this.tint(hex);
-    C.a[C.n++] = (hex >> 16) & 255; C.a[C.n++] = (hex >> 8) & 255; C.a[C.n++] = hex & 255;
+    C.a[C.n++] = S2L[(hex >> 16) & 255]; C.a[C.n++] = S2L[(hex >> 8) & 255]; C.a[C.n++] = S2L[hex & 255];
     const U = this.uv; U.need(2); U.a[U.n++] = u; U.a[U.n++] = w;
     const T = this.pat; T.need(1); T.a[T.n++] = m[1];
     const B = this.bid; B.need(1); B.a[B.n++] = this.bidCur;

@@ -579,7 +579,7 @@ function block(B, b, k) {
   switch (sh) {
     case 'gable': box(B, x, z, f, w, h * 0.72, l, m, { rot, top: false }); if (!rot) gable(B, x, z + h * 0.72, f, w, l, h * 0.28, MAT.roof_tile, { pediment: m, axis: w > l ? 'x' : 'f' }); else hip(B, x, z + h * 0.72, f, w, l, h * 0.28, MAT.roof_tile); break;
     case 'vault': box(B, x, z, f, w, h * 0.75, l, m, { rot, top: false }); vault(B, x, z + h * 0.75, f, w, l, h * 0.25, k.roofMat ? matOf(k.roofMat) : MAT.concrete_faced, { ends: m }); break;
-    case 'dome': cyl(B, x, z, f, w / 2, h * 0.55, m, { segs: 20, cap: false }); dome(B, x, z + h * 0.55, f, w / 2, h * 0.45, k.roofMat ? matOf(k.roofMat) : MAT.concrete_faced, { segs: 20, rings: 5, oculus: num(k.oculus, 0) }); break;
+    case 'dome': cyl(B, x, z, f, w / 2, h * 0.55, m, { segs: k.sides >= 6 ? k.sides : 20, cap: false }); dome(B, x, z + h * 0.55, f, w / 2, h * 0.45, k.roofMat ? matOf(k.roofMat) : MAT.concrete_faced, { segs: 20, rings: 5, oculus: num(k.oculus, 0) }); break;
     case 'apse': { const r = w / 2; const a0 = Math.PI + rot * Math.PI / 180; cyl(B, x, z, f, r, h, m, { segs: 12, a0, a1: a0 + Math.PI, cap: false }); break; }
     case 'hemicycle': { const r = num(k.radius, w / 2), dd = num(k.depth, 8); const ang = num(k.angle, 180) * Math.PI / 180; const a0 = Math.PI * 1.5 - ang / 2 + rot * Math.PI / 180; ellipseWall(B, x, f, r, r, z, z + h, arcadeMat(m, false), { a0, a1: a0 + ang, segs: 24, bays: Math.round(ang * r / 6), storeyH: h / Math.max(1, num(k.storeys, 3)) }); ellipseWall(B, x, f, r - dd, r - dd, z, z + h, m, { a0, a1: a0 + ang, segs: 20, inside: true }); ellipseBand(B, x, f, r - dd, r - dd, z + h, r, r, z + h, MAT.roof_tile, { a0, a1: a0 + ang, segs: 20 }); break; }
     case 'court': { const rd = num(k.ringDepth, Math.min(w, l) * 0.22); const hw = w / 2, hl = l / 2; box(B, x, z, f - hl + rd / 2, w, h, rd, m, { rot: 0, top: 'roof_tile' }); box(B, x, z, f + hl - rd / 2, w, h, rd, m, { top: 'roof_tile' }); box(B, x - hw + rd / 2, z, f, rd, h, l - rd * 2, m, { top: 'roof_tile' }); box(B, x + hw - rd / 2, z, f, rd, h, l - rd * 2, m, { top: 'roof_tile' }); if (k.colonnade !== false && w - rd * 2 > 6) T.porticus(B, { p: { depth: 3.5, colH: Math.min(h * 0.6, 8) }, w: w - rd * 2, l: l - rd * 2, h: h, mat: { walls: 'stucco' } }, x, f, z); prism(B, [[x - hw + rd, f - hl + rd], [x + hw - rd, f - hl + rd], [x + hw - rd, f + hl - rd], [x - hw + rd, f + hl - rd]], z, 0.1, k.garden === false ? MAT.paving_travertine : MAT.grass, { walls: false }); break; }
@@ -587,7 +587,14 @@ function block(B, b, k) {
     case 'tower': box(B, x, z, f, w, h, l, m, { rot }); hip(B, x, z + h, f, w, l, Math.min(w, l) * 0.3, MAT.roof_tile); break;
     case 'cylinder': cyl(B, x, z, f, w / 2, h, m, { segs: 20 }); break;
     case 'stepped': { const n = Math.max(2, Math.round(num(k.steps, 3))); for (let i = 0; i < n; i++) box(B, x, z + h * i / n, f, w * (1 - i * 0.6 / n), h / n, l * (1 - i * 0.6 / n), m, { rot }); break; }
-    case 'wall': box(B, x, z, f, w, h, l, m, { rot }); break;
+    case 'wall':
+      if (k.ring) {
+        const t = num(k.thickness, num(k.t, /room|hall|shop|taberna/i.test(k.role || '') ? 12 : 2.5));
+        const hw = w / 2, hl = l / 2;
+        box(B, x, z, f - hl + t / 2, w, h, t, m, { top: 'roof_tile' }); box(B, x, z, f + hl - t / 2, w, h, t, m, { top: 'roof_tile' });
+        box(B, x - hw + t / 2, z, f, t, h, l - 2 * t, m, { top: 'roof_tile' }); box(B, x + hw - t / 2, z, f, t, h, l - 2 * t, m, { top: 'roof_tile' });
+      } else box(B, x, z, f, w, h, l, m, { rot });
+      break;
     case 'terrace': box(B, x, z, f, w, h, l, m, { rot, top: k.top || 'paving_travertine' }); if (k.facade === 'arcade' || !k.facade) arcadeFace(B, x - w / 2, f + l / 2 + 0.03, x + w / 2, f + l / 2 + 0.03, z, h, Math.max(1, Math.round(h / 8)), 5, m, false); break;
     case 'pool': prism(B, [[x - w / 2, f - l / 2], [x + w / 2, f - l / 2], [x + w / 2, f + l / 2], [x - w / 2, f + l / 2]], z, 0.05, MAT.water, { walls: false }); break;
     case 'garden': prism(B, [[x - w / 2, f - l / 2], [x + w / 2, f - l / 2], [x + w / 2, f + l / 2], [x - w / 2, f + l / 2]], z, 0.1, MAT.grass, { walls: false }); break;

@@ -117,7 +117,7 @@ float pRough = 0.85, pMetal = 0.0;
     float wid = h21(vec2(floor(uv.x / 3.2), fl));
     if (fl < 0.5) {
       float sx = fract(uv.x / 4.4);
-      if (sx > 0.12 && sx < 0.88 && sy < 0.78) c = mix(c, vec3(0.28, 0.2, 0.14), 0.85);
+      if (sx > 0.12 && sx < 0.88 && sy < 0.78) c = mix(c, vec3(0.06, 0.03, 0.017), 0.85);
     } else if (bx > 0.36 && bx < 0.64 && sy > 0.32 && sy < 0.72 && wid > 0.15) c *= 0.25;
     if (sy < 0.04 && fl > 0.5) c *= 0.86;
     c *= 0.9 + 0.2 * n;
@@ -153,8 +153,8 @@ float pRough = 0.85, pMetal = 0.0;
   else { c *= 0.94 + 0.12 * n; }
   // fake ambient occlusion near the ground, scaffolding tint during construction
   c *= mix(0.62, 1.0, smoothstep(0.0, 3.0, vH));
-  if (vScaff > 0.5) c = mix(c, vec3(0.45, 0.33, 0.2), 0.7);
-  if (abs(vBid - uSel) < 0.5) c = mix(c, vec3(1.0, 0.78, 0.35), 0.35);
+  if (vScaff > 0.5) c = mix(c, vec3(0.17, 0.09, 0.035), 0.7);
+  if (abs(vBid - uSel) < 0.5) c = mix(c, vec3(1.0, 0.58, 0.1), 0.35);
   else if (abs(vBid - uHover) < 0.5) c = c * 1.18;
   diffuseColor.rgb = c;
 }

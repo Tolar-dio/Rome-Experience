@@ -130,7 +130,7 @@ const FAB_FRAG = /* glsl */`
     if (vFU.y > 0.5 && vFU.y < 2.6 && bx > 0.42 && bx < 0.58 && fh(vec2(floor(vFU.x / 4.0), vSeed)) > 0.6) c *= 0.35;
   }
   c *= mix(0.62, 1.0, smoothstep(0.0, 2.5, vFH));
-  diffuseColor.rgb = c;
+  diffuseColor.rgb = pow(c, vec3(2.2));
 }
 `;
 
