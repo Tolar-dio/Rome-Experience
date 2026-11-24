@@ -331,12 +331,12 @@ T.amphitheatre = (B, b) => {
 
 T.circus = (B, b) => {
   const p = b.p, L = num(p.l, b.l), W = num(p.w, b.w), H = num(p.tiers, b.h);
-  const mF = M(b, 'facade', 'travertine'), mSeat = M(b, 'seats', 'marble_white'), mSand = [0xd5c093, PAT.plain];
+  const mF = M(b, 'facade', 'travertine'), mSeat = M(b, 'seats', 'travertine'), mSand = [0xd5c093, PAT.plain];
   const r = W / 2; // curved end radius
   const straight = L - r - 8; // carceres end is straight
   const fC = -L / 2 + r; // centre of the curved end (at -F)
   const fG = L / 2; // gates
-  const seatD = Math.min(W * 0.32, 38);
+  const seatD = Math.min(W * 0.2, 30);
   // long sides
   for (const s of [-1, 1]) {
     arcadeFace(B, s * W / 2, s > 0 ? fC : fG - 8, s * W / 2, s > 0 ? fG - 8 : fC, 0, H, 3, 4.8, mF, true);

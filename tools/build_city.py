@@ -231,8 +231,8 @@ def load_json_dir(sub):
 
 def gather():
     C = {'terrain': {}, 'buildings': [], 'walls': [], 'gates': [], 'streets': [], 'aqueducts': [], 'regions': [], 'servianRegions': [],
-         'cityEvents': [], 'routes': [], 'cityPlaces': [], 'population': [], 'urbanization': [], 'fires': []}
-    subs = ['terrain', 'framework', 'infra', 'buildings', 'events', 'life']
+         'cityEvents': [], 'routes': [], 'cityPlaces': [], 'population': [], 'urbanization': [], 'fires': [], 'cityTours': []}
+    subs = ['terrain', 'framework', 'infra', 'buildings', 'events', 'life', 'tours']
     extra = os.environ.get('CITY_EXTRA')
     if extra:
         subs.append(os.path.abspath(extra))

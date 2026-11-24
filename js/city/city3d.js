@@ -5,6 +5,7 @@ import { Terrain, waterMesh, TERRAIN_U } from './terrain.js';
 import { buildWorld } from './world.js';
 import { U, blackPickMaterial } from './materials.js';
 import { buildFabric } from './fabric.js';
+import { MiniMap } from './minimap.js';
 
 const ORIGIN = [12.4853, 41.8925];
 const PHI = ORIGIN[1] * Math.PI / 180;
@@ -60,7 +61,7 @@ export class City3D {
     r.setSize(host.clientWidth || 800, host.clientHeight || 600);
     r.outputColorSpace = THREE.SRGBColorSpace;
     r.toneMapping = THREE.ACESFilmicToneMapping;
-    r.toneMappingExposure = 1.18;
+    r.toneMappingExposure = 1.0;
     r.shadowMap.enabled = true;
     r.shadowMap.type = THREE.PCFSoftShadowMap;
     r.shadowMap.autoUpdate = true;
@@ -81,7 +82,7 @@ export class City3D {
     ground.position.y = -20; envScene.add(ground);
     this.envSky = envSky; this.pmrem = pm; this.envScene = envScene;
     scene.environment = pm.fromScene(envScene, 0.02).texture;
-    scene.environmentIntensity = 0.55;
+    scene.environmentIntensity = 0.45;
 
     const cam = this.camera = new THREE.PerspectiveCamera(42, (host.clientWidth || 800) / (host.clientHeight || 600), 2, 40000);
     cam.position.set(900, 950, 1500);
@@ -126,6 +127,7 @@ export class City3D {
     // overlays
     this.labelLayer = document.createElement('div'); this.labelLayer.className = 'c3d-labels'; host.appendChild(this.labelLayer);
     this.tip = document.createElement('div'); this.tip.className = 'c3d-tip'; this.tip.hidden = true; host.appendChild(this.tip);
+    this.mini = new MiniMap(host, this);
     this.bindInput();
     this.resizeObs = new ResizeObserver(() => this.resize());
     this.resizeObs.observe(host);
@@ -142,7 +144,7 @@ export class City3D {
     this.sunDir = new THREE.Vector3(Math.sin(A) * Math.cos(elev), Math.sin(elev), -Math.cos(A) * Math.cos(elev)).normalize();
     const warm = 1 - Math.min(1, elev / 0.6);
     this.sun.color.setRGB(1, 0.95 - warm * 0.25, 0.86 - warm * 0.4);
-    this.sun.intensity = 1.6 + 2.2 * Math.min(1, elev / 0.5);
+    this.sun.intensity = 1.5 + 1.7 * Math.min(1, elev / 0.5);
     this.hemi.intensity = 0.45 + 0.35 * Math.min(1, elev / 0.5);
     if (this.sky) this.sky.material.uniforms.uSun.value.copy(this.sunDir);
     this.dirty = true;
@@ -224,6 +226,7 @@ export class City3D {
     this.sky.position.copy(this.camera.position);
     this.renderer.render(this.scene, this.camera);
     this.updateLabels();
+    if (this.mini && this.layers.minimap !== false) this.mini.draw();
   }
 
   keepAboveGround() {

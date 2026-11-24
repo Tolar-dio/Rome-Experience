@@ -39,10 +39,10 @@ async function ensure() {
         if (rec.kind === 'fabric') { showFabric(rec); return; }
         const id = rec.rec.id;
         const k = { building: 'building', street: 'street', wall: 'wall', gate: 'gate', aqueduct: 'aqueduct' }[rec.kind];
-        if (k && D.byKind[k]?.has(id)) select(k, id);
+        if (k && D.byKind[k]?.has(id)) select(k, id, { fly: false });
       },
-      onSelectEvent: (ev) => select('cityevent', ev.id),
-      onSelectPlace: (p) => select('cityplace', p.id),
+      onSelectEvent: (ev) => { select('cityevent', ev.id, { fly: false }); if (S.year !== ev.y) setYear(ev.y); },
+      onSelectPlace: (p) => select('cityplace', p.id, { fly: false }),
     });
     await c.load((msg, f) => { boot.querySelector('.msg').textContent = msg; boot.querySelector('.bar i').style.width = Math.round(f * 100) + '%'; });
     registerCity(c.city);
@@ -122,6 +122,8 @@ function renderToolbar() {
   tb.innerHTML = `
     <button class="chip" data-a="exit" title="Back to the atlas map">Atlas map</button>
     <select class="chip" data-a="view" aria-label="Viewpoints"><option value="">Go to…</option>${VIEWS.map((v) => `<option value="${v.id}">${esc(v.n)}</option>`).join('')}</select>
+    <select class="chip" data-a="tour" aria-label="Tours"><option value="">Tours…</option>${(c.city.tours || []).map((t) => `<option value="${esc(t.id)}">${esc(t.title)} (${esc(t.sub || '')})</option>`).join('')}</select>
+    <button class="chip" data-a="prevch" title="Jump back to the previous year when a major building began, was finished or disappeared">‹ change</button><button class="chip" data-a="nextch" title="Jump to the next year when a major building began, was finished or disappeared">change ›</button>
     <button class="chip ${c.walk ? 'on' : ''}" data-a="walk" title="Walk at street level (WASD or arrows, drag to look, Shift to run, Esc to stop)">Walk</button>
     <span class="c3d-sep"></span>
     <button class="chip ${L.labels ? 'on' : ''}" data-l="labels">Names</button>
@@ -134,26 +136,78 @@ function renderToolbar() {
   tb.onclick = (e) => {
     const b = e.target.closest('button'); if (!b) return;
     if (b.dataset.a === 'exit') closeCity();
+    else if (b.dataset.a === 'nextch' || b.dataset.a === 'prevch') jumpChange(b.dataset.a === 'nextch' ? 1 : -1);
     else if (b.dataset.a === 'walk') { c.setWalk(!c.walk); renderToolbar(); $('c3dHint').hidden = !c.walk; }
     else if (b.dataset.l) { c.setLayer(b.dataset.l, !c.layers[b.dataset.l]); renderToolbar(); }
   };
   tb.onchange = (e) => {
     const t = e.target;
     if (t.dataset.a === 'view' && t.value) { focusOn(t.value); t.value = ''; }
+    if (t.dataset.a === 'tour' && t.value) { startCityTour(t.value); t.value = ''; }
     if (t.dataset.a === 'win') { c.eventWindow = +t.value; c.refreshLabels = true; c.dirty = true; }
   };
   tb.oninput = (e) => { if (e.target.dataset.a === 'sun') c.setSun(+e.target.value); };
 }
 
+let changeYears = null;
+function jumpChange(dir) {
+  if (!changeYears) {
+    const set = new Set();
+    for (const b of D.city.buildings) { if (b.water || (b.imp || 2) < 3) continue; set.add(b.b); set.add(b.f); if (b.t < 2000) set.add(b.t + 1); }
+    for (const e of D.city.events) set.add(e.y);
+    changeYears = [...set].filter((y) => y >= -509 && y <= 641).sort((a, b) => a - b);
+  }
+  const y = S.year;
+  const next = dir > 0 ? changeYears.find((v) => v > y) : [...changeYears].reverse().find((v) => v < y);
+  if (next !== undefined) setYear(next);
+}
+
+let tour = null;
+export async function startCityTour(id, k = 0) {
+  if (!open) await openCity();
+  const c = city3d; if (!c) return;
+  const t = (c.city.tours || []).find((x) => x.id === id); if (!t) return;
+  tour = { t, k };
+  showStop();
+}
+function showStop() {
+  const c = city3d, { t, k } = tour;
+  const st = t.stops[k];
+  setYear(st.y);
+  c.flyTo({ x: st.x, z: st.z }, st.d || 400, { azimuth: ((st.az ?? 200) * Math.PI) / 180, pitch: ((st.pitch ?? 32) * Math.PI) / 180, dur: 2.2 });
+  const box = $('c3dTour');
+  box.hidden = false;
+  box.innerHTML = `<div class="ct-head"><span class="ct-t">${esc(t.title)}</span><span class="ct-n">${k + 1} / ${t.stops.length}</span><button class="x" aria-label="End tour">×</button></div>
+    <h4>${esc(st.title)} <span class="muted">${esc(fmtYear(st.y))}</span></h4><p>${esc(st.text)}</p>
+    <div class="ct-nav"><button data-d="-1" ${k === 0 ? 'disabled' : ''}>Back</button><button data-d="1" class="primary">${k === t.stops.length - 1 ? 'Finish' : 'Next'}</button></div>`;
+  box.querySelector('.x').onclick = endCityTour;
+  box.querySelectorAll('[data-d]').forEach((b) => (b.onclick = () => {
+    const nk = tour.k + +b.dataset.d;
+    if (nk >= tour.t.stops.length) return endCityTour();
+    tour.k = Math.max(0, nk); showStop();
+  }));
+}
+export function endCityTour() { tour = null; const b = $('c3dTour'); if (b) b.hidden = true; }
+
 export function initCityMount() {
   on('year', () => { if (open && city3d) city3d.setYear(S.year); });
   on('select', (sel) => {
-    if (!open || !city3d || !sel) return;
-    const c = city3d;
-    if (sel.kind === 'building' || sel.kind === 'monument') {
-      const i = c.versionFor(sel.id, S.year);
-      if (i >= 0 && sel.fly !== false) { /* highlight only; flying is explicit */ c.world && (c.dirty = true); }
-    }
+    if (!sel) return;
+    const cityKinds = ['building', 'cityevent', 'cityplace', 'street', 'gate', 'wall', 'aqueduct'];
+    if (!cityKinds.includes(sel.kind) && !(open && sel.kind === 'monument')) return;
+    const go = async () => {
+      if (!open) { if (sel.kind === 'monument') return; await openCity(); }
+      const c = city3d; if (!c) return;
+      const o = D.byKind[sel.kind]?.get(sel.id);
+      if (sel.kind === 'cityevent' && o) { if (S.year !== o.y) setYear(o.y); c.focusXZ(o.x, o.z, 240); }
+      else if (sel.kind === 'building' || sel.kind === 'monument') {
+        const b = D.byKind.building?.get(sel.id);
+        if (b && (S.year < b.b || S.year > b.t)) setYear(b.b < b.f ? b.f : b.b);
+        const i = c.versionFor(sel.id, S.year); if (i >= 0) c.focusRecord(i);
+      } else if (o && o.x !== undefined) c.focusXZ(o.x, o.z, 260);
+      else if (o && o.ln) { const m = o.ln[Math.floor(o.ln.length / 2)]; c.focusXZ(m[0], m[1], 700); }
+    };
+    if (sel.fly !== false) go();
   });
   $('city3dBtn')?.addEventListener('click', () => (open ? closeCity() : openCity()));
   if (/city=1/.test(location.hash)) setTimeout(() => openCity(), 300);

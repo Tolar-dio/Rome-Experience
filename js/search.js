@@ -1,6 +1,6 @@
 // Omnibox search over every entity, plus year jumps.
 import { D } from './data.js';
-import { setYear } from './state.js';
+import { setYear, on } from './state.js';
 import { esc, fmtYear, fmtRange, KIND_LABEL, clampYear } from './util.js';
 import { openId } from './detail.js';
 
@@ -31,6 +31,15 @@ export function initSearch() {
   (D.hoards || []).forEach((h) => add('hoard', h, h.name, `hoard · ${fmtYear(h.deposited)}`));
   (D.coinage || []).forEach((c) => add('coinage', c, c.t, `coinage · ${fmtYear(c.year)}`));
 
+  on('cityLoaded', () => {
+    const c = D.city; if (!c) return;
+    const seen = new Set();
+    c.buildings.forEach((b) => { if (b.water || seen.has(b.m)) return; seen.add(b.m); add('building', { id: b.id, importance: b.imp }, b.n, `Rome in 3D · ${fmtRange(b.b, b.t > 2000 ? 641 : b.t)}`); });
+    c.events.forEach((e) => add('cityevent', { id: e.id, importance: 4 }, e.ti, `${fmtYear(e.y)} · in the city`));
+    (c.places || []).forEach((p) => add('cityplace', { id: p.id, importance: 2 }, p.n, `Rome · ${String(p.k).replace(/_/g, ' ')}`));
+    (c.streets || []).forEach((p) => add('street', { id: p.id, importance: 2 }, p.n, 'Rome · street'));
+    (c.gates || []).forEach((p) => add('gate', { id: p.id, importance: 2 }, p.n, 'Rome · gate'));
+  });
   const input = document.getElementById('search');
   const box = document.getElementById('searchResults');
   input.addEventListener('input', () => run(input.value));
