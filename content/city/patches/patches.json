@@ -25,6 +25,9 @@
   "rostra_v2": {
    "from": -44,
    "begun": -45
+  },
+  "statio_aquarum_argentina": {
+   "monument": "statio_aquarum_area_sacra"
   }
  },
  "delete": [
@@ -55,6 +58,13 @@
    "old": -42,
    "new": -44,
    "reason": "Caesar's relocated Rostra were in use in 44 BC (Lupercalia, funeral speech); finished later."
+  },
+  {
+   "id": "statio_aquarum_argentina",
+   "field": "monument",
+   "old": "statio_aquarum",
+   "new": "statio_aquarum_area_sacra",
+   "reason": "Separate candidate site (Largo Argentina) from the late-antique Statio Aquarum at the Lacus Iuturnae; both stand as distinct structures."
   }
  ]
 }

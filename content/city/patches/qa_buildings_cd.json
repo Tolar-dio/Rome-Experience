@@ -1,195 +1,5 @@
 {
  "set": {
-  "horti_epaphroditiani": {
-   "loc": [
-    12.51214,
-    41.89126
-   ],
-   "footprint": [
-    [
-     12.5105,
-     41.8928
-    ],
-    [
-     12.513,
-     41.8921
-    ],
-    [
-     12.5142,
-     41.8911
-    ],
-    [
-     12.5125,
-     41.8898
-    ],
-    [
-     12.5105,
-     41.8905
-    ]
-   ],
-   "from": 60,
-   "to": 300,
-   "w": 306.6,
-   "l": 333.4
-  },
-  "horti_pallantiani": {
-   "loc": [
-    12.509117,
-    41.89505
-   ],
-   "footprint": [
-    [
-     12.508,
-     41.8938
-    ],
-    [
-     12.51,
-     41.8931
-    ],
-    [
-     12.5104,
-     41.8948
-    ],
-    [
-     12.51,
-     41.8966
-    ],
-    [
-     12.5085,
-     41.8968
-    ],
-    [
-     12.5078,
-     41.8952
-    ]
-   ],
-   "from": 45,
-   "to": 300,
-   "w": 215.5,
-   "l": 411.2
-  },
-  "athenaeum_hadriani": {
-   "loc": [
-    12.483232,
-    41.895864
-   ],
-   "rot": 51,
-   "w": 45.0,
-   "l": 25.0,
-   "footprint": [
-    [
-     12.482944,
-     41.895951
-    ],
-    [
-     12.483286,
-     41.895636
-    ],
-    [
-     12.48352,
-     41.895777
-    ],
-    [
-     12.483178,
-     41.896092
-    ],
-    [
-     12.482944,
-     41.895951
-    ]
-   ],
-   "params": {
-    "blocks": [
-     {
-      "shape": "stepped",
-      "x": -15,
-      "y": 0,
-      "w": 13.0,
-      "l": 23.0,
-      "h": 10.0,
-      "mat": "brick"
-     },
-     {
-      "shape": "stepped",
-      "x": 0,
-      "y": 0,
-      "w": 13.0,
-      "l": 23.0,
-      "h": 12.0,
-      "mat": "brick"
-     },
-     {
-      "shape": "stepped",
-      "x": 15,
-      "y": 0,
-      "w": 13.0,
-      "l": 23.0,
-      "h": 10.0,
-      "mat": "brick"
-     },
-     {
-      "shape": "box",
-      "x": 0,
-      "y": -11.5,
-      "w": 45.0,
-      "l": 2.0,
-      "h": 14.0,
-      "mat": "brick"
-     }
-    ]
-   },
-   "from": 125,
-   "begun": 123,
-   "name": "Athenaeum of Hadrian (Piazza Venezia halls)",
-   "summary": "Three parallel halls with steep stepped seating found in 2008-2012 under Piazza Venezia during the Metro C works, identified with the Athenaeum that Hadrian founded for rhetoric and poetry recitals, beside the Forum of Trajan. In the 6th-7th century one hall housed a metal workshop.",
-   "scholarship": [
-    "Egidi, Serlorenzi et al., excavation reports on Piazza Venezia (2010s)",
-    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)"
-   ],
-   "note": "Location from Pleiades; orientation assumed parallel to the forum grid. Boundary building between districts."
-  },
-  "pons_probi_v1": {
-   "loc": [
-    12.4729,
-    41.8814
-   ],
-   "rot": 136.0,
-   "w": 9.0,
-   "l": 118.1,
-   "h": 15.0,
-   "params": {
-    "line": [
-     [
-      12.472405,
-      41.881782
-     ],
-     [
-      12.473395,
-      41.881018
-     ]
-    ],
-    "arches": 5,
-    "spanMax": 21.0,
-    "deckW": 9.0,
-    "deckElev": 19.0,
-    "mat": {
-     "core": "tufa",
-     "facing": "travertine"
-    }
-   },
-   "to": 380,
-   "begun": 277,
-   "builder": "probus",
-   "name": "Pons Probi",
-   "summary": "Bridge built under Probus (276-282) below the Aventine, linking the Emporium and Marmorata with Transtiberim near the Porta Portuensis.",
-   "certainty": "reconstructed",
-   "note": "Remains seen near the Marmorata (Via Marmorata / Arco di S. Lazzaro) and removed in 1484; crossing placed opposite them, about 180 m downstream of the modern Ponte Sublicio.",
-   "scholarship": [
-    "Richardson, NTDAR (1992) s.v. Pons Probi",
-    "Platner-Ashby (1929) s.v. Pons Probi",
-    "Galliazzo, I ponti romani (1994-95)"
-   ]
-  },
   "temple_of_ceres_and_faustina_triopion_v1": {
    "loc": [
     12.524318,
@@ -228,7 +38,8 @@
     12.47,
     41.8855
    ],
-   "rot": 345
+   "rot": 345,
+   "from": 401
   },
   "nemus_caesarum_a": {
    "note": "A 40 m band around a basin of 1800 x 1200 Roman feet (533 x 355 m) assumed centred near S. Cosimato with the long side running NNW-SSE (345/165 deg), matching the naumachia_augusti_v1 pool; split into two L-shaped halves so each footprint is a simple polygon. Position and orientation of the basin are uncertain.",
@@ -330,7 +141,19 @@
   "pons_fabricius_v1",
   "pons_aelius_v1",
   "horti_lamiani",
-  "horti_tauriani"
+  "horti_tauriani",
+  "horti_epaphroditiani@b_sessorium_east.json",
+  "horti_pallantiani@b_sessorium_east.json",
+  "pons_sublicius_v1@d_bridges.json",
+  "pons_aemilius_v1@d_bridges.json",
+  "pons_aemilius_v2@d_bridges.json",
+  "pons_aemilius_v3@d_bridges.json",
+  "pons_cestius_v1@d_bridges.json",
+  "pons_cestius_v2@d_bridges.json",
+  "pons_aurelius_v1@d_bridges.json",
+  "pons_aurelius_v2@d_bridges.json",
+  "horti_agrippae@c_3.json",
+  "insula_aracoeli@c_3.json"
  ],
  "log": [
   {
@@ -514,597 +337,112 @@
    "source": "Haeuber in LTUR (via gardens.json note); internal cross-check"
   },
   {
-   "id": "horti_epaphroditiani",
-   "field": "loc",
-   "old": [
-    12.5088,
-    41.8946
-   ],
-   "new": [
-    12.51214,
-    41.89126
-   ],
-   "severity": "major",
-   "reason": "Id collision: the same id exists in b_sessorium_east.json and infra/gardens.json with positions 463 m apart, so the model drew two copies. Setting the gardens.json values (Frontinus-based layout around Spes Vetus) on both makes them coincide and the build dedupe keeps one.",
-   "source": "Frontinus, De aquaeductu 1.5, 1.19-20, 1.68; internal cross-check"
-  },
-  {
-   "id": "horti_epaphroditiani",
-   "field": "footprint",
-   "old": [
-    [
-     12.5075,
-     41.8958
-    ],
-    [
-     12.51,
-     41.8956
-    ],
-    [
-     12.5102,
-     41.8935
-    ],
-    [
-     12.5078,
-     41.8935
-    ],
-    [
-     12.5075,
-     41.8958
-    ]
-   ],
-   "new": [
-    [
-     12.5105,
-     41.8928
-    ],
-    [
-     12.513,
-     41.8921
-    ],
-    [
-     12.5142,
-     41.8911
-    ],
-    [
-     12.5125,
-     41.8898
-    ],
-    [
-     12.5105,
-     41.8905
-    ]
-   ],
-   "severity": "minor",
-   "reason": "Id collision: the same id exists in b_sessorium_east.json and infra/gardens.json with positions 463 m apart, so the model drew two copies. Setting the gardens.json values (Frontinus-based layout around Spes Vetus) on both makes them coincide and the build dedupe keeps one.",
-   "source": "Frontinus, De aquaeductu 1.5, 1.19-20, 1.68; internal cross-check"
-  },
-  {
-   "id": "horti_epaphroditiani",
-   "field": "from",
-   "old": 60,
-   "new": 60,
-   "severity": "minor",
-   "reason": "Id collision: the same id exists in b_sessorium_east.json and infra/gardens.json with positions 463 m apart, so the model drew two copies. Setting the gardens.json values (Frontinus-based layout around Spes Vetus) on both makes them coincide and the build dedupe keeps one.",
-   "source": "Frontinus, De aquaeductu 1.5, 1.19-20, 1.68; internal cross-check"
-  },
-  {
-   "id": "horti_epaphroditiani",
-   "field": "to",
-   "old": 9999,
-   "new": 300,
-   "severity": "minor",
-   "reason": "Id collision: the same id exists in b_sessorium_east.json and infra/gardens.json with positions 463 m apart, so the model drew two copies. Setting the gardens.json values (Frontinus-based layout around Spes Vetus) on both makes them coincide and the build dedupe keeps one.",
-   "source": "Frontinus, De aquaeductu 1.5, 1.19-20, 1.68; internal cross-check"
-  },
-  {
-   "id": "horti_epaphroditiani",
-   "field": "w",
-   "old": 250.0,
-   "new": 306.6,
-   "severity": "minor",
-   "reason": "Id collision: the same id exists in b_sessorium_east.json and infra/gardens.json with positions 463 m apart, so the model drew two copies. Setting the gardens.json values (Frontinus-based layout around Spes Vetus) on both makes them coincide and the build dedupe keeps one.",
-   "source": "Frontinus, De aquaeductu 1.5, 1.19-20, 1.68; internal cross-check"
-  },
-  {
-   "id": "horti_epaphroditiani",
-   "field": "l",
-   "old": 250.0,
-   "new": 333.4,
-   "severity": "minor",
-   "reason": "Id collision: the same id exists in b_sessorium_east.json and infra/gardens.json with positions 463 m apart, so the model drew two copies. Setting the gardens.json values (Frontinus-based layout around Spes Vetus) on both makes them coincide and the build dedupe keeps one.",
-   "source": "Frontinus, De aquaeductu 1.5, 1.19-20, 1.68; internal cross-check"
-  },
-  {
-   "id": "horti_pallantiani",
-   "field": "loc",
-   "old": [
-    12.5105,
-    41.8908
-   ],
-   "new": [
-    12.509117,
-    41.89505
-   ],
-   "severity": "major",
-   "reason": "Id collision: the same id exists in b_sessorium_east.json and infra/gardens.json with positions 486 m apart, so the model drew two copies. Setting the gardens.json values (Frontinus-based layout around Spes Vetus) on both makes them coincide and the build dedupe keeps one.",
-   "source": "Frontinus, De aquaeductu 1.5, 1.19-20, 1.68; internal cross-check"
-  },
-  {
-   "id": "horti_pallantiani",
-   "field": "footprint",
-   "old": [
-    [
-     12.509,
-     41.892
-    ],
-    [
-     12.5118,
-     41.8918
-    ],
-    [
-     12.5122,
-     41.8898
-    ],
-    [
-     12.5095,
-     41.8895
-    ],
-    [
-     12.509,
-     41.892
-    ]
-   ],
-   "new": [
-    [
-     12.508,
-     41.8938
-    ],
-    [
-     12.51,
-     41.8931
-    ],
-    [
-     12.5104,
-     41.8948
-    ],
-    [
-     12.51,
-     41.8966
-    ],
-    [
-     12.5085,
-     41.8968
-    ],
-    [
-     12.5078,
-     41.8952
-    ]
-   ],
-   "severity": "minor",
-   "reason": "Id collision: the same id exists in b_sessorium_east.json and infra/gardens.json with positions 486 m apart, so the model drew two copies. Setting the gardens.json values (Frontinus-based layout around Spes Vetus) on both makes them coincide and the build dedupe keeps one.",
-   "source": "Frontinus, De aquaeductu 1.5, 1.19-20, 1.68; internal cross-check"
-  },
-  {
-   "id": "horti_pallantiani",
-   "field": "from",
-   "old": 40,
-   "new": 45,
-   "severity": "minor",
-   "reason": "Id collision: the same id exists in b_sessorium_east.json and infra/gardens.json with positions 486 m apart, so the model drew two copies. Setting the gardens.json values (Frontinus-based layout around Spes Vetus) on both makes them coincide and the build dedupe keeps one.",
-   "source": "Frontinus, De aquaeductu 1.5, 1.19-20, 1.68; internal cross-check"
-  },
-  {
-   "id": "horti_pallantiani",
-   "field": "to",
-   "old": 9999,
-   "new": 300,
-   "severity": "minor",
-   "reason": "Id collision: the same id exists in b_sessorium_east.json and infra/gardens.json with positions 486 m apart, so the model drew two copies. Setting the gardens.json values (Frontinus-based layout around Spes Vetus) on both makes them coincide and the build dedupe keeps one.",
-   "source": "Frontinus, De aquaeductu 1.5, 1.19-20, 1.68; internal cross-check"
-  },
-  {
-   "id": "horti_pallantiani",
-   "field": "w",
-   "old": 250.0,
-   "new": 215.5,
-   "severity": "minor",
-   "reason": "Id collision: the same id exists in b_sessorium_east.json and infra/gardens.json with positions 486 m apart, so the model drew two copies. Setting the gardens.json values (Frontinus-based layout around Spes Vetus) on both makes them coincide and the build dedupe keeps one.",
-   "source": "Frontinus, De aquaeductu 1.5, 1.19-20, 1.68; internal cross-check"
-  },
-  {
-   "id": "horti_pallantiani",
-   "field": "l",
-   "old": 250.0,
-   "new": 411.2,
-   "severity": "minor",
-   "reason": "Id collision: the same id exists in b_sessorium_east.json and infra/gardens.json with positions 486 m apart, so the model drew two copies. Setting the gardens.json values (Frontinus-based layout around Spes Vetus) on both makes them coincide and the build dedupe keeps one.",
-   "source": "Frontinus, De aquaeductu 1.5, 1.19-20, 1.68; internal cross-check"
-  },
-  {
-   "id": "athenaeum_hadriani",
-   "field": "loc",
-   "old": [
-    12.4827,
-    41.8961
-   ],
-   "new": [
-    12.483232,
-    41.895864
-   ],
-   "severity": "major",
-   "reason": "Id collision: athenaeum_hadriani exists in c_3.json and b_fora.json 51 m apart (just beyond the 45 m dedupe radius), so two Athenaeums were drawn. Both now take the b_fora values (Pleiades position on the east side of Piazza Venezia, footprint of the three halls) and merge.",
-   "source": "Pleiades; Egidi/Serlorenzi excavation reports (via b_fora record)"
-  },
-  {
-   "id": "athenaeum_hadriani",
-   "field": "rot",
-   "old": 86.0,
-   "new": 51,
-   "severity": "minor",
-   "reason": "Id collision: athenaeum_hadriani exists in c_3.json and b_fora.json 51 m apart (just beyond the 45 m dedupe radius), so two Athenaeums were drawn. Both now take the b_fora values (Pleiades position on the east side of Piazza Venezia, footprint of the three halls) and merge.",
-   "source": "Pleiades; Egidi/Serlorenzi excavation reports (via b_fora record)"
-  },
-  {
-   "id": "athenaeum_hadriani",
-   "field": "w",
-   "old": 40.0,
-   "new": 45.0,
-   "severity": "minor",
-   "reason": "Id collision: athenaeum_hadriani exists in c_3.json and b_fora.json 51 m apart (just beyond the 45 m dedupe radius), so two Athenaeums were drawn. Both now take the b_fora values (Pleiades position on the east side of Piazza Venezia, footprint of the three halls) and merge.",
-   "source": "Pleiades; Egidi/Serlorenzi excavation reports (via b_fora record)"
-  },
-  {
-   "id": "athenaeum_hadriani",
-   "field": "l",
-   "old": 60.0,
-   "new": 25.0,
-   "severity": "minor",
-   "reason": "Id collision: athenaeum_hadriani exists in c_3.json and b_fora.json 51 m apart (just beyond the 45 m dedupe radius), so two Athenaeums were drawn. Both now take the b_fora values (Pleiades position on the east side of Piazza Venezia, footprint of the three halls) and merge.",
-   "source": "Pleiades; Egidi/Serlorenzi excavation reports (via b_fora record)"
-  },
-  {
-   "id": "athenaeum_hadriani",
-   "field": "footprint",
+   "id": "horti_epaphroditiani@b_sessorium_east.json",
+   "field": "delete",
    "old": null,
-   "new": [
-    [
-     12.482944,
-     41.895951
-    ],
-    [
-     12.483286,
-     41.895636
-    ],
-    [
-     12.48352,
-     41.895777
-    ],
-    [
-     12.483178,
-     41.896092
-    ],
-    [
-     12.482944,
-     41.895951
-    ]
-   ],
-   "severity": "minor",
-   "reason": "Id collision: athenaeum_hadriani exists in c_3.json and b_fora.json 51 m apart (just beyond the 45 m dedupe radius), so two Athenaeums were drawn. Both now take the b_fora values (Pleiades position on the east side of Piazza Venezia, footprint of the three halls) and merge.",
-   "source": "Pleiades; Egidi/Serlorenzi excavation reports (via b_fora record)"
-  },
-  {
-   "id": "athenaeum_hadriani",
-   "field": "params",
-   "old": {
-    "blocks": [
-     {
-      "shape": "stepped",
-      "x": -13.0,
-      "y": 0,
-      "w": 12.0,
-      "l": 22.0,
-      "h": 12.0,
-      "mat": "brick"
-     },
-     {
-      "shape": "stepped",
-      "x": 0,
-      "y": 0,
-      "w": 12.0,
-      "l": 22.0,
-      "h": 14.0,
-      "mat": "brick"
-     },
-     {
-      "shape": "stepped",
-      "x": 13.0,
-      "y": 0,
-      "w": 12.0,
-      "l": 22.0,
-      "h": 12.0,
-      "mat": "brick"
-     }
-    ]
-   },
-   "new": {
-    "blocks": [
-     {
-      "shape": "stepped",
-      "x": -15,
-      "y": 0,
-      "w": 13.0,
-      "l": 23.0,
-      "h": 10.0,
-      "mat": "brick"
-     },
-     {
-      "shape": "stepped",
-      "x": 0,
-      "y": 0,
-      "w": 13.0,
-      "l": 23.0,
-      "h": 12.0,
-      "mat": "brick"
-     },
-     {
-      "shape": "stepped",
-      "x": 15,
-      "y": 0,
-      "w": 13.0,
-      "l": 23.0,
-      "h": 10.0,
-      "mat": "brick"
-     },
-     {
-      "shape": "box",
-      "x": 0,
-      "y": -11.5,
-      "w": 45.0,
-      "l": 2.0,
-      "h": 14.0,
-      "mat": "brick"
-     }
-    ]
-   },
-   "severity": "minor",
-   "reason": "Id collision: athenaeum_hadriani exists in c_3.json and b_fora.json 51 m apart (just beyond the 45 m dedupe radius), so two Athenaeums were drawn. Both now take the b_fora values (Pleiades position on the east side of Piazza Venezia, footprint of the three halls) and merge.",
-   "source": "Pleiades; Egidi/Serlorenzi excavation reports (via b_fora record)"
-  },
-  {
-   "id": "athenaeum_hadriani",
-   "field": "from",
-   "old": 135,
-   "new": 125,
-   "severity": "minor",
-   "reason": "Id collision: athenaeum_hadriani exists in c_3.json and b_fora.json 51 m apart (just beyond the 45 m dedupe radius), so two Athenaeums were drawn. Both now take the b_fora values (Pleiades position on the east side of Piazza Venezia, footprint of the three halls) and merge.",
-   "source": "Pleiades; Egidi/Serlorenzi excavation reports (via b_fora record)"
-  },
-  {
-   "id": "athenaeum_hadriani",
-   "field": "begun",
-   "old": null,
-   "new": 123,
-   "severity": "minor",
-   "reason": "Id collision: athenaeum_hadriani exists in c_3.json and b_fora.json 51 m apart (just beyond the 45 m dedupe radius), so two Athenaeums were drawn. Both now take the b_fora values (Pleiades position on the east side of Piazza Venezia, footprint of the three halls) and merge.",
-   "source": "Pleiades; Egidi/Serlorenzi excavation reports (via b_fora record)"
-  },
-  {
-   "id": "athenaeum_hadriani",
-   "field": "name",
-   "old": "Athenaeum of Hadrian (Piazza Venezia auditoria)",
-   "new": "Athenaeum of Hadrian (Piazza Venezia halls)",
-   "severity": "minor",
-   "reason": "Id collision: athenaeum_hadriani exists in c_3.json and b_fora.json 51 m apart (just beyond the 45 m dedupe radius), so two Athenaeums were drawn. Both now take the b_fora values (Pleiades position on the east side of Piazza Venezia, footprint of the three halls) and merge.",
-   "source": "Pleiades; Egidi/Serlorenzi excavation reports (via b_fora record)"
-  },
-  {
-   "id": "athenaeum_hadriani",
-   "field": "summary",
-   "old": "Three parallel halls with stepped seating, found in 2008-2012 under Piazza Venezia during the Metro C works and identified with Hadrian's Athenaeum, a school for rhetoric and poetry; later reused, damaged by an earthquake.",
-   "new": "Three parallel halls with steep stepped seating found in 2008-2012 under Piazza Venezia during the Metro C works, identified with the Athenaeum that Hadrian founded for rhetoric and poetry recitals, beside the Forum of Trajan. In the 6th-7th century one hall housed a metal workshop.",
-   "severity": "minor",
-   "reason": "Id collision: athenaeum_hadriani exists in c_3.json and b_fora.json 51 m apart (just beyond the 45 m dedupe radius), so two Athenaeums were drawn. Both now take the b_fora values (Pleiades position on the east side of Piazza Venezia, footprint of the three halls) and merge.",
-   "source": "Pleiades; Egidi/Serlorenzi excavation reports (via b_fora record)"
-  },
-  {
-   "id": "athenaeum_hadriani",
-   "field": "scholarship",
-   "old": [
-    "Egidi, in Roma: archeologia e progetto (2012)"
-   ],
-   "new": [
-    "Egidi, Serlorenzi et al., excavation reports on Piazza Venezia (2010s)",
-    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)"
-   ],
-   "severity": "minor",
-   "reason": "Id collision: athenaeum_hadriani exists in c_3.json and b_fora.json 51 m apart (just beyond the 45 m dedupe radius), so two Athenaeums were drawn. Both now take the b_fora values (Pleiades position on the east side of Piazza Venezia, footprint of the three halls) and merge.",
-   "source": "Pleiades; Egidi/Serlorenzi excavation reports (via b_fora record)"
-  },
-  {
-   "id": "athenaeum_hadriani",
-   "field": "note",
-   "old": "Position at Piazza Venezia (east side); orientation and dimensions approximate.",
-   "new": "Location from Pleiades; orientation assumed parallel to the forum grid. Boundary building between districts.",
-   "severity": "minor",
-   "reason": "Id collision: athenaeum_hadriani exists in c_3.json and b_fora.json 51 m apart (just beyond the 45 m dedupe radius), so two Athenaeums were drawn. Both now take the b_fora values (Pleiades position on the east side of Piazza Venezia, footprint of the three halls) and merge.",
-   "source": "Pleiades; Egidi/Serlorenzi excavation reports (via b_fora record)"
-  },
-  {
-   "id": "pons_probi_v1",
-   "field": "loc",
-   "old": [
-    12.4739,
-    41.88226
-   ],
-   "new": [
-    12.4729,
-    41.8814
-   ],
+   "new": null,
    "severity": "major",
-   "reason": "Id collision: pons_probi_v1 exists in d_bridges.json (280..9999) and infra/bridges.json (280..380, followed by pons_probi_v2) at positions 126 m apart; the model drew two Pons Probi and overlapped the Theodosian rebuilding. Both now take the bridges.json values so they merge and the v1/v2 chain holds.",
-   "source": "Internal cross-check; Wikipedia 'Pons Probi' (rebuilt under Theodosius 381-387)"
+   "reason": "Id collision: the same id exists in b_sessorium_east.json and infra/gardens.json with positions 463 m apart, so the model drew two copies. The gardens.json version (Frontinus-based layout around Spes Vetus, with footprint) is kept; the B copy is removed. Coordinator: please reconcile with the B-district QA.",
+   "source": "Frontinus, De aquaeductu 1.5, 1.19-20, 1.68; internal cross-check"
   },
   {
-   "id": "pons_probi_v1",
-   "field": "rot",
-   "old": 316.9,
-   "new": 136.0,
-   "severity": "minor",
-   "reason": "Id collision: pons_probi_v1 exists in d_bridges.json (280..9999) and infra/bridges.json (280..380, followed by pons_probi_v2) at positions 126 m apart; the model drew two Pons Probi and overlapped the Theodosian rebuilding. Both now take the bridges.json values so they merge and the v1/v2 chain holds.",
-   "source": "Internal cross-check; Wikipedia 'Pons Probi' (rebuilt under Theodosius 381-387)"
-  },
-  {
-   "id": "pons_probi_v1",
-   "field": "w",
-   "old": 8.0,
-   "new": 9.0,
-   "severity": "minor",
-   "reason": "Id collision: pons_probi_v1 exists in d_bridges.json (280..9999) and infra/bridges.json (280..380, followed by pons_probi_v2) at positions 126 m apart; the model drew two Pons Probi and overlapped the Theodosian rebuilding. Both now take the bridges.json values so they merge and the v1/v2 chain holds.",
-   "source": "Internal cross-check; Wikipedia 'Pons Probi' (rebuilt under Theodosius 381-387)"
-  },
-  {
-   "id": "pons_probi_v1",
-   "field": "l",
-   "old": 121.2,
-   "new": 118.1,
-   "severity": "minor",
-   "reason": "Id collision: pons_probi_v1 exists in d_bridges.json (280..9999) and infra/bridges.json (280..380, followed by pons_probi_v2) at positions 126 m apart; the model drew two Pons Probi and overlapped the Theodosian rebuilding. Both now take the bridges.json values so they merge and the v1/v2 chain holds.",
-   "source": "Internal cross-check; Wikipedia 'Pons Probi' (rebuilt under Theodosius 381-387)"
-  },
-  {
-   "id": "pons_probi_v1",
-   "field": "h",
-   "old": 10.0,
-   "new": 15.0,
-   "severity": "minor",
-   "reason": "Id collision: pons_probi_v1 exists in d_bridges.json (280..9999) and infra/bridges.json (280..380, followed by pons_probi_v2) at positions 126 m apart; the model drew two Pons Probi and overlapped the Theodosian rebuilding. Both now take the bridges.json values so they merge and the v1/v2 chain holds.",
-   "source": "Internal cross-check; Wikipedia 'Pons Probi' (rebuilt under Theodosius 381-387)"
-  },
-  {
-   "id": "pons_probi_v1",
-   "field": "params",
-   "old": {
-    "line": [
-     [
-      12.4744,
-      41.88186
-     ],
-     [
-      12.4734,
-      41.88266
-     ]
-    ],
-    "arches": 5,
-    "deckW": 8.0,
-    "mat": {
-     "arches": "travertine",
-     "deck": "paving_basalt"
-    }
-   },
-   "new": {
-    "line": [
-     [
-      12.472405,
-      41.881782
-     ],
-     [
-      12.473395,
-      41.881018
-     ]
-    ],
-    "arches": 5,
-    "spanMax": 21.0,
-    "deckW": 9.0,
-    "deckElev": 19.0,
-    "mat": {
-     "core": "tufa",
-     "facing": "travertine"
-    }
-   },
-   "severity": "minor",
-   "reason": "Id collision: pons_probi_v1 exists in d_bridges.json (280..9999) and infra/bridges.json (280..380, followed by pons_probi_v2) at positions 126 m apart; the model drew two Pons Probi and overlapped the Theodosian rebuilding. Both now take the bridges.json values so they merge and the v1/v2 chain holds.",
-   "source": "Internal cross-check; Wikipedia 'Pons Probi' (rebuilt under Theodosius 381-387)"
-  },
-  {
-   "id": "pons_probi_v1",
-   "field": "to",
-   "old": 9999,
-   "new": 380,
+   "id": "horti_pallantiani@b_sessorium_east.json",
+   "field": "delete",
+   "old": null,
+   "new": null,
    "severity": "major",
-   "reason": "Id collision: pons_probi_v1 exists in d_bridges.json (280..9999) and infra/bridges.json (280..380, followed by pons_probi_v2) at positions 126 m apart; the model drew two Pons Probi and overlapped the Theodosian rebuilding. Both now take the bridges.json values so they merge and the v1/v2 chain holds.",
-   "source": "Internal cross-check; Wikipedia 'Pons Probi' (rebuilt under Theodosius 381-387)"
+   "reason": "Id collision: the same id exists in b_sessorium_east.json and infra/gardens.json with positions 486 m apart, so the model drew two copies. The gardens.json version (Frontinus-based layout around Spes Vetus, with footprint) is kept; the B copy is removed. Coordinator: please reconcile with the B-district QA.",
+   "source": "Frontinus, De aquaeductu 1.5, 1.19-20, 1.68; internal cross-check"
   },
   {
-   "id": "pons_probi_v1",
-   "field": "begun",
+   "id": "pons_sublicius_v1@d_bridges.json",
+   "field": "delete",
    "old": null,
-   "new": 277,
+   "new": null,
    "severity": "minor",
-   "reason": "Id collision: pons_probi_v1 exists in d_bridges.json (280..9999) and infra/bridges.json (280..380, followed by pons_probi_v2) at positions 126 m apart; the model drew two Pons Probi and overlapped the Theodosian rebuilding. Both now take the bridges.json values so they merge and the v1/v2 chain holds.",
-   "source": "Internal cross-check; Wikipedia 'Pons Probi' (rebuilt under Theodosius 381-387)"
+   "reason": "Same id duplicated in d_bridges.json and infra/bridges.json; the bridges.json version (OSM deck lines, fuller data) is kept. The build dedupe already drops the d_bridges copy; removed explicitly so later patches on this id touch one record only.",
+   "source": "Internal cross-check"
   },
   {
-   "id": "pons_probi_v1",
-   "field": "builder",
+   "id": "pons_aemilius_v1@d_bridges.json",
+   "field": "delete",
    "old": null,
-   "new": "probus",
+   "new": null,
    "severity": "minor",
-   "reason": "Id collision: pons_probi_v1 exists in d_bridges.json (280..9999) and infra/bridges.json (280..380, followed by pons_probi_v2) at positions 126 m apart; the model drew two Pons Probi and overlapped the Theodosian rebuilding. Both now take the bridges.json values so they merge and the v1/v2 chain holds.",
-   "source": "Internal cross-check; Wikipedia 'Pons Probi' (rebuilt under Theodosius 381-387)"
+   "reason": "Same id duplicated in d_bridges.json and infra/bridges.json; the bridges.json version (OSM deck lines, fuller data) is kept. The build dedupe already drops the d_bridges copy; removed explicitly so later patches on this id touch one record only.",
+   "source": "Internal cross-check"
   },
   {
-   "id": "pons_probi_v1",
-   "field": "name",
-   "old": "Pons Probi (Pons Theodosii)",
-   "new": "Pons Probi",
+   "id": "pons_aemilius_v2@d_bridges.json",
+   "field": "delete",
+   "old": null,
+   "new": null,
    "severity": "minor",
-   "reason": "Id collision: pons_probi_v1 exists in d_bridges.json (280..9999) and infra/bridges.json (280..380, followed by pons_probi_v2) at positions 126 m apart; the model drew two Pons Probi and overlapped the Theodosian rebuilding. Both now take the bridges.json values so they merge and the v1/v2 chain holds.",
-   "source": "Internal cross-check; Wikipedia 'Pons Probi' (rebuilt under Theodosius 381-387)"
+   "reason": "Same id duplicated in d_bridges.json and infra/bridges.json; the bridges.json version (OSM deck lines, fuller data) is kept. The build dedupe already drops the d_bridges copy; removed explicitly so later patches on this id touch one record only.",
+   "source": "Internal cross-check"
   },
   {
-   "id": "pons_probi_v1",
-   "field": "summary",
-   "old": "Bridge near the Emporium attributed to Probus (or Aurelian) and restored under Theodosius; ruined in the 11th century, its remains removed in 1878-1884.",
-   "new": "Bridge built under Probus (276-282) below the Aventine, linking the Emporium and Marmorata with Transtiberim near the Porta Portuensis.",
+   "id": "pons_aemilius_v3@d_bridges.json",
+   "field": "delete",
+   "old": null,
+   "new": null,
    "severity": "minor",
-   "reason": "Id collision: pons_probi_v1 exists in d_bridges.json (280..9999) and infra/bridges.json (280..380, followed by pons_probi_v2) at positions 126 m apart; the model drew two Pons Probi and overlapped the Theodosian rebuilding. Both now take the bridges.json values so they merge and the v1/v2 chain holds.",
-   "source": "Internal cross-check; Wikipedia 'Pons Probi' (rebuilt under Theodosius 381-387)"
+   "reason": "Same id duplicated in d_bridges.json and infra/bridges.json; the bridges.json version (OSM deck lines, fuller data) is kept. The build dedupe already drops the d_bridges copy; removed explicitly so later patches on this id touch one record only.",
+   "source": "Internal cross-check"
   },
   {
-   "id": "pons_probi_v1",
-   "field": "certainty",
-   "old": "documented",
-   "new": "reconstructed",
+   "id": "pons_cestius_v1@d_bridges.json",
+   "field": "delete",
+   "old": null,
+   "new": null,
    "severity": "minor",
-   "reason": "Id collision: pons_probi_v1 exists in d_bridges.json (280..9999) and infra/bridges.json (280..380, followed by pons_probi_v2) at positions 126 m apart; the model drew two Pons Probi and overlapped the Theodosian rebuilding. Both now take the bridges.json values so they merge and the v1/v2 chain holds.",
-   "source": "Internal cross-check; Wikipedia 'Pons Probi' (rebuilt under Theodosius 381-387)"
+   "reason": "Same id duplicated in d_bridges.json and infra/bridges.json; the bridges.json version (OSM deck lines, fuller data) is kept. The build dedupe already drops the d_bridges copy; removed explicitly so later patches on this id touch one record only.",
+   "source": "Internal cross-check"
   },
   {
-   "id": "pons_probi_v1",
-   "field": "note",
-   "old": "Placed ~150 m downstream of the modern Ponte Sublicio, spanning bank to bank; approximate. Placed in district D (Tiber Island / river plain); drop if another district covers the bridges.",
-   "new": "Remains seen near the Marmorata (Via Marmorata / Arco di S. Lazzaro) and removed in 1484; crossing placed opposite them, about 180 m downstream of the modern Ponte Sublicio.",
+   "id": "pons_cestius_v2@d_bridges.json",
+   "field": "delete",
+   "old": null,
+   "new": null,
    "severity": "minor",
-   "reason": "Id collision: pons_probi_v1 exists in d_bridges.json (280..9999) and infra/bridges.json (280..380, followed by pons_probi_v2) at positions 126 m apart; the model drew two Pons Probi and overlapped the Theodosian rebuilding. Both now take the bridges.json values so they merge and the v1/v2 chain holds.",
-   "source": "Internal cross-check; Wikipedia 'Pons Probi' (rebuilt under Theodosius 381-387)"
+   "reason": "Same id duplicated in d_bridges.json and infra/bridges.json; the bridges.json version (OSM deck lines, fuller data) is kept. The build dedupe already drops the d_bridges copy; removed explicitly so later patches on this id touch one record only.",
+   "source": "Internal cross-check"
   },
   {
-   "id": "pons_probi_v1",
-   "field": "scholarship",
-   "old": [
-    "Galliazzo, I ponti romani (1994)",
-    "Richardson (1992)",
-    "Le Gall, Le Tibre, fleuve de Rome dans l'antiquite (1953)"
-   ],
-   "new": [
-    "Richardson, NTDAR (1992) s.v. Pons Probi",
-    "Platner-Ashby (1929) s.v. Pons Probi",
-    "Galliazzo, I ponti romani (1994-95)"
-   ],
+   "id": "pons_aurelius_v1@d_bridges.json",
+   "field": "delete",
+   "old": null,
+   "new": null,
    "severity": "minor",
-   "reason": "Id collision: pons_probi_v1 exists in d_bridges.json (280..9999) and infra/bridges.json (280..380, followed by pons_probi_v2) at positions 126 m apart; the model drew two Pons Probi and overlapped the Theodosian rebuilding. Both now take the bridges.json values so they merge and the v1/v2 chain holds.",
-   "source": "Internal cross-check; Wikipedia 'Pons Probi' (rebuilt under Theodosius 381-387)"
+   "reason": "Same id duplicated in d_bridges.json and infra/bridges.json; the bridges.json version (OSM deck lines, fuller data) is kept. The build dedupe already drops the d_bridges copy; removed explicitly so later patches on this id touch one record only.",
+   "source": "Internal cross-check"
+  },
+  {
+   "id": "pons_aurelius_v2@d_bridges.json",
+   "field": "delete",
+   "old": null,
+   "new": null,
+   "severity": "minor",
+   "reason": "Same id duplicated in d_bridges.json and infra/bridges.json; the bridges.json version (OSM deck lines, fuller data) is kept. The build dedupe already drops the d_bridges copy; removed explicitly so later patches on this id touch one record only.",
+   "source": "Internal cross-check"
+  },
+  {
+   "id": "horti_agrippae@c_3.json",
+   "field": "delete",
+   "old": null,
+   "new": null,
+   "severity": "minor",
+   "reason": "Same id duplicated in c_3.json and gardens.json; the other copy (larger, with footprint/OSM outline) is the one the build dedupe keeps. Removed explicitly.",
+   "source": "Internal cross-check"
+  },
+  {
+   "id": "insula_aracoeli@c_3.json",
+   "field": "delete",
+   "old": null,
+   "new": null,
+   "severity": "minor",
+   "reason": "Same id duplicated in c_3.json and a_capitol.json; the other copy (larger, with footprint/OSM outline) is the one the build dedupe keeps. Removed explicitly.",
+   "source": "Internal cross-check"
   },
   {
    "id": "temple_of_ceres_and_faustina_triopion_v1",
@@ -1276,6 +614,15 @@
    "severity": "minor",
    "reason": "Invalid bearing (>360); normalised to 167 (527-360), along the Via Lata line.",
    "source": "Schema (rot is 0-359)"
+  },
+  {
+   "id": "nemus_caesarum_v1",
+   "field": "from",
+   "old": 250,
+   "new": 401,
+   "severity": "minor",
+   "reason": "Overlapped the Nemus Caesarum band in gardens.json (nemus_caesarum_a/b, -2..400) for 250-400 and, once aligned with it, was dropped by the build dedupe; it now starts when the gardens.json grove ends, so the abandoned site follows the grove instead of duplicating it.",
+   "source": "Internal cross-check (gardens.json)"
   },
   {
    "id": "monte_testaccio_v1",

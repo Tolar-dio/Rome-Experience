@@ -115,6 +115,11 @@ def dedupe(items, warn):
             sim = difflib.SequenceMatcher(None, na, nb).ratio()
             if a.get('template') == 'garden' and b.get('template') == 'garden' and not (same_m or sim > 0.88):
                 continue
+            # names that share only their context ("... of the Area Sacra") are different structures
+            head = lambda n: set(re.sub(r'\(.*?\)|[^a-z ]', ' ', (n or '').lower().split(' of ')[0]).split()) - {'the', 'great', 'temple', 'old', 'new'}
+            ha, hb = head(a.get('name')), head(b.get('name'))
+            if not same_m and ha and hb and not ha & hb:
+                continue
             if not (same_m or (sim > 0.62 and a.get('template') == b.get('template')) or (sim > 0.8)):
                 continue
             score = lambda r: len(json.dumps(r)) + (800 if r.get('footprint') else 0) + (400 if r.get('params') else 0)
