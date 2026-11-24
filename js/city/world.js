@@ -139,8 +139,10 @@ export function buildWorld(city, terrain, onProgress = () => {}) {
         const Bq = getBatch((xa + xb) / 2, (za + zb) / 2);
         const storeys = hgt > 20 ? 2 : 1;
         const len = Math.hypot(xb - xa, zb - za);
-        if (hgt > 3) segBox(Bq, i, xa, za, xb, zb, gmin - 1, hgt + 1 - 1.6, pier + 0.4, [m[0], PAT.arcadeOpen], false, { span: span + pier, storeys, len });
-        else segBox(Bq, i, xa, za, xb, zb, gmin - 1, hgt + 1 - 1.6, pier, m, false);
+        if (!a.stk) {
+          if (hgt > 3) segBox(Bq, i, xa, za, xb, zb, gmin - 1, hgt + 1 - 1.6, pier + 0.4, [m[0], PAT.arcadeOpen], false, { span: span + pier, storeys, len });
+          else segBox(Bq, i, xa, za, xb, zb, gmin - 1, hgt + 1 - 1.6, pier, m, false);
+        }
         // specus (channel) on top, one per channel stacked
         for (let c = 0; c < (a.ch || 1); c++) segBox(Bq, i, xa, za, xb, zb, ch - 1.6 + c * 2.2, 2.1, pier + 0.4, MAT.concrete_faced, true);
       }

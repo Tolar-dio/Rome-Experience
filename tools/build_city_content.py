@@ -102,7 +102,8 @@ def dedupe(items, warn):
                 continue
             d = math.hypot(pts[i][0] - pts[j][0], pts[i][1] - pts[j][1])
             small = {'obelisk', 'column', 'statue', 'altar', 'fountain', 'tomb', 'arch', 'tholos'}
-            if d > (10 if (a.get('template') in small or b.get('template') in small) else 45):
+            lim = 10 if (a.get('template') in small or b.get('template') in small) else 300 if (a.get('template') == 'garden' and b.get('template') == 'garden') else 45
+            if d > lim:
                 continue
             fa, ta = yr(a.get('from'), YMIN), yr(a.get('to'), YMAX)
             fb, tb = yr(b.get('from'), YMIN), yr(b.get('to'), YMAX)
@@ -111,6 +112,8 @@ def dedupe(items, warn):
             same_m = a.get('monument') and a.get('monument') == b.get('monument')
             na, nb = ' '.join(norm(a.get('name'))), ' '.join(norm(b.get('name')))
             sim = difflib.SequenceMatcher(None, na, nb).ratio()
+            if a.get('template') == 'garden' and b.get('template') == 'garden' and not (same_m or sim > 0.88):
+                continue
             if not (same_m or (sim > 0.62 and a.get('template') == b.get('template')) or (sim > 0.8)):
                 continue
             score = lambda r: len(json.dumps(r)) + (800 if r.get('footprint') else 0) + (400 if r.get('params') else 0)
@@ -285,7 +288,8 @@ def build(C, meta, sampler):
         if len(ln) < 2:
             continue
         rec = {'id': aq.get('id'), 'n': aq.get('name'), 'f': yr(aq.get('from'), YMIN), 't': yr(aq.get('to'), YMAX), 'b': yr(aq.get('begun'), yr(aq.get('from'), YMIN)),
-               'ln': ln, 'arc': aq.get('arcade') or [], 'ch': int(num(aq.get('channels'), 1)), 'spec': aq.get('spec') or {}}
+               'ln': ln, 'arc': aq.get('arcade') or [], 'ch': int(num(aq.get('channels'), 1)), 'spec': aq.get('spec') or {},
+               'stk': 1 if (aq.get('stacked') or aq.get('onArcadeOf')) else 0, 'fl': aq.get('flowing')}
         rec['gy'] = [round(layers.height(base, q[0], q[1], max(rec['f'], -800)), 2) for q in ln]
         aqueducts.append(rec)
         stash('a', rec['id'], aq)
@@ -303,8 +307,9 @@ def build(C, meta, sampler):
         poly = line_local(rg.get('polygon'))
         if len(poly) < 3:
             continue
+        cx_ = sum(q[0] for q in poly) / len(poly); cz_ = sum(q[1] for q in poly) / len(poly)
         regions.append({'id': rg.get('id'), 'num': rg.get('num'), 'n': rg.get('name'), 'f': yr(rg.get('from'), -7), 't': yr(rg.get('to'), YMAX),
-                        'poly': [q[:2] for q in poly], 'cat': rg.get('catalogue') or {}})
+                        'poly': [q[:2] for q in poly], 'cat': rg.get('catalogue') or {}, 'catN': rg.get('catalogueNotitia') or {}, 'x': round(cx_, 1), 'z': round(cz_, 1)})
         stash('r', rg.get('id'), rg)
     for rg in C['servianRegions']:
         poly = line_local(rg.get('polygon'))

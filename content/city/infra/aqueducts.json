@@ -1,0 +1,2936 @@
+{
+ "aqueducts": [
+  {
+   "id": "aqua_appia",
+   "monument": "aqua_appia_mon",
+   "name": "Aqua Appia",
+   "from": -312,
+   "to": 9999,
+   "begun": -312,
+   "builder": "appius_claudius_caecus",
+   "flowing": [
+    [
+     -312,
+     537
+    ]
+   ],
+   "line": [
+    [
+     12.5421,
+     41.8933,
+     27.6
+    ],
+    [
+     12.53,
+     41.8925,
+     27.08
+    ],
+    [
+     12.519,
+     41.8916,
+     26.61
+    ],
+    [
+     12.5142,
+     41.891,
+     26.4
+    ],
+    [
+     12.51,
+     41.8896,
+     25.87
+    ],
+    [
+     12.5065,
+     41.8876,
+     25.37
+    ],
+    [
+     12.502,
+     41.8869,
+     24.84
+    ],
+    [
+     12.4962,
+     41.8869,
+     24.18
+    ],
+    [
+     12.4933,
+     41.8856,
+     23.79
+    ],
+    [
+     12.4913,
+     41.8844,
+     23.5
+    ],
+    [
+     12.4904,
+     41.88395,
+     23.4
+    ],
+    [
+     12.4882,
+     41.8829,
+     22.9
+    ],
+    [
+     12.486,
+     41.8818,
+     22.4
+    ],
+    [
+     12.4843,
+     41.8836,
+     21.61
+    ],
+    [
+     12.483,
+     41.8855,
+     20.84
+    ],
+    [
+     12.4814,
+     41.8868,
+     20.2
+    ]
+   ],
+   "arcade": [
+    [
+     9,
+     10
+    ]
+   ],
+   "channels": 1,
+   "spec": {
+    "span": 4.5,
+    "pier": 2.0,
+    "w": 2.2,
+    "mat": "tufa",
+    "specus": {
+     "w": 0.7,
+     "h": 1.6
+    },
+    "underground": true
+   },
+   "castella": [
+    {
+     "loc": [
+      12.4814,
+      41.8868
+     ],
+     "name": "Terminus ad Salinas, foot of the Clivus Publicius by the Porta Trigemina",
+     "kind": "terminal",
+     "certainty": "documented",
+     "note": "Frontinus 5: 'incipit distribui in clivo Publicio ad portam Trigeminam, qui locus Salinae appellantur'. Exact spot unknown; placed at the foot of the clivus behind S. Maria in Cosmedin."
+    }
+   ],
+   "branches": [
+    {
+     "id": "aqua_appia_ramus_augusta",
+     "name": "Ramus Augusta (Appia Augusta)",
+     "from": -11,
+     "to": 9999,
+     "flowing": [
+      [
+       -11,
+       537
+      ]
+     ],
+     "line": [
+      [
+       12.5421,
+       41.9005,
+       27.4
+      ],
+      [
+       12.53,
+       41.8975,
+       26.99
+      ],
+      [
+       12.52,
+       41.894,
+       26.63
+      ],
+      [
+       12.5142,
+       41.891,
+       26.4
+      ]
+     ],
+     "arcade": [],
+     "certainty": "conjectural",
+     "note": "Augustus added springs near the Via Collatina (6380 passus) joining the Appia 'ad Spem Veterem in confinio hortorum Torquatianorum et Epaphroditianorum, ubi ... ad Gemellos' (Frontinus 5). Course inside the model area unknown; drawn as a straight underground run from the north-east. Platner-Ashby doubt the levels allowed it to reach the Appia as described."
+    }
+   ],
+   "phases": [
+    {
+     "y": -312,
+     "t": "Built by the censor Appius Claudius Caecus (with C. Plautius, who found the springs): Rome's first aqueduct, almost wholly underground (11,130 passus), with only 60 passus on substructions and arches near the Porta Capena."
+    },
+    {
+     "y": -144,
+     "t": "Repaired by the praetor Q. Marcius Rex before building the Marcia."
+    },
+    {
+     "y": -33,
+     "t": "Repaired by Agrippa as aedile."
+    },
+    {
+     "y": -11,
+     "t": "Augustus repairs the channel (11-4 BC) and adds the Ramus Augusta at Spes Vetus."
+    },
+    {
+     "y": 97,
+     "t": "Frontinus measures 1825 quinariae (about 73,000 m3 a day) and lists it as the lowest-lying supply except the Alsietina."
+    },
+    {
+     "y": 537,
+     "t": "Cut with all the aqueducts by Witiges' Goths during the siege; never restored in our period."
+    }
+   ],
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "Rome's first aqueduct, built in 312 BC by Appius Claudius Caecus. Its springs lay off the Via Praenestina between the 7th and 8th milestones; it ran underground the whole way except a short arcade of 60 passus near the Porta Capena, passed beneath the Caelian and the Aventine and began distribution at the Salinae by the Porta Trigemina, serving the low-lying Forum Boarium and river port district.",
+   "sources": [
+    {
+     "a": "Frontinus",
+     "w": "De aquaeductu",
+     "r": "1.4-5, 1.18, 1.65"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "9.29.6"
+    },
+    {
+     "a": "Diodorus Siculus",
+     "w": "Bibliotheca",
+     "r": "20.36.1"
+    }
+   ],
+   "scholarship": [
+    "Ashby, The Aqueducts of Ancient Rome (1935)",
+    "Platner-Ashby, A Topographical Dictionary of Ancient Rome (1929) s.v. Aqua Appia",
+    "Richardson, NTDAR (1992) s.v. Aqua Appia",
+    "Evans, Water Distribution in Ancient Rome (1994)"
+   ],
+   "note": "Line inside the city is reconstructed from Frontinus' termini and the finds of 1677 and 1887 near Viale Aventino; a deep channel was also reported in 2017 Metro C works on the Caelian. Channel elevations are estimates (arrival level about 20 m asl), so most of the course lies 10-25 m below ground; only the 60-passus arcade by the Porta Capena is above ground, low (a few metres above the ancient valley floor, which lies well below the modern DEM there).",
+   "event": "aqua_appia",
+   "cutEvent": "siege_of_rome_537"
+  },
+  {
+   "id": "anio_vetus",
+   "monument": "anio_vetus",
+   "name": "Anio Vetus",
+   "from": -269,
+   "to": 9999,
+   "begun": -272,
+   "builder": null,
+   "builderName": "the censor M'. Curius Dentatus (272 BC), completed by M. Fulvius Flaccus",
+   "flowing": [
+    [
+     -269,
+     537
+    ]
+   ],
+   "line": [
+    [
+     12.541108,
+     41.865374,
+     48.4
+    ],
+    [
+     12.540164,
+     41.868123,
+     48.1
+    ],
+    [
+     12.539134,
+     41.872661,
+     47.62
+    ],
+    [
+     12.536559,
+     41.877102,
+     47.11
+    ],
+    [
+     12.533212,
+     41.883397,
+     46.4
+    ],
+    [
+     12.531409,
+     41.886368,
+     46.06
+    ],
+    [
+     12.530122,
+     41.886879,
+     45.94
+    ],
+    [
+     12.526817,
+     41.887167,
+     45.68
+    ],
+    [
+     12.521238,
+     41.887518,
+     45.24
+    ],
+    [
+     12.5175,
+     41.889,
+     44.91
+    ],
+    [
+     12.515245,
+     41.891457,
+     44.6
+    ],
+    [
+     12.512,
+     41.8925,
+     44.44
+    ],
+    [
+     12.5075,
+     41.894,
+     44.21
+    ],
+    [
+     12.501357,
+     41.895783,
+     43.9
+    ],
+    [
+     12.502,
+     41.8985,
+     43.63
+    ],
+    [
+     12.5017,
+     41.9008,
+     43.4
+    ]
+   ],
+   "arcade": [],
+   "channels": 1,
+   "spec": {
+    "span": 0,
+    "pier": 0,
+    "w": 1.9,
+    "mat": "tufa",
+    "specus": {
+     "w": 0.9,
+     "h": 2.3
+    },
+    "underground": true
+   },
+   "castella": [
+    {
+     "loc": [
+      12.5017,
+      41.9008
+     ],
+     "name": "Distribution of the Anio Vetus near the Porta Viminalis",
+     "kind": "castellum",
+     "certainty": "conjectural",
+     "note": "Frontinus says the Anio Vetus entered 'intra portam Esquilinam' and was distributed through the city; the endpoint here follows the line of the channel traced north of the Porta Esquilina."
+    }
+   ],
+   "branches": [
+    {
+     "id": "specus_octavianus",
+     "name": "Specus Octavianus",
+     "from": -20,
+     "to": 9999,
+     "flowing": [
+      [
+       -20,
+       537
+      ]
+     ],
+     "line": [
+      [
+       12.5333,
+       41.8834,
+       46.6
+      ],
+      [
+       12.525,
+       41.881,
+       45.39
+      ],
+      [
+       12.515,
+       41.8785,
+       43.96
+      ],
+      [
+       12.506,
+       41.8756,
+       42.64
+      ],
+      [
+       12.5015,
+       41.875,
+       42.02
+      ],
+      [
+       12.497,
+       41.8762,
+       41.37
+      ],
+      [
+       12.4945,
+       41.877,
+       41.0
+      ]
+     ],
+     "arcade": [],
+     "certainty": "conjectural",
+     "note": "Within the second mile part of the Anio Vetus was diverted into the specus Octavianus, which reached 'regionem viae Novae ad hortos Asinianos' (Frontinus 1.21). Lanciani thought it crossed the Via Appia at the true Arch of Drusus. Course drawn from that hint toward the Via Nova beside the later Baths of Caracalla; date (Augustan, from the name) uncertain."
+    }
+   ],
+   "phases": [
+    {
+     "y": -272,
+     "t": "Begun by the censor M'. Curius Dentatus with the spoils of Pyrrhus; completed 270/269 BC."
+    },
+    {
+     "y": -144,
+     "t": "Repaired by Q. Marcius Rex."
+    },
+    {
+     "y": -33,
+     "t": "Repaired by Agrippa."
+    },
+    {
+     "y": -11,
+     "t": "Augustus' general restoration (cippi of 11-4 BC found along the channel inside the city)."
+    },
+    {
+     "y": 97,
+     "t": "Frontinus measures 4398 quinariae at the intake and reserves the turbid water for gardens and lowly uses."
+    },
+    {
+     "y": 537,
+     "t": "Cut by the Goths; not restored."
+    }
+   ],
+   "importance": 2,
+   "certainty": "reconstructed",
+   "summary": "Second aqueduct of Rome (272-269 BC), drawing turbid water from the Anio above Tibur. It entered the city underground at Spes Vetus, just inside the later Porta Maggiore, and ran beneath the Esquiline to the Porta Esquilina, from where Augustan cippi and a long stretch of channel lead north. A branch, the specus Octavianus, ran toward the Via Nova near the gardens of Asinius.",
+   "sources": [
+    {
+     "a": "Frontinus",
+     "w": "De aquaeductu",
+     "r": "1.6, 1.21, 2.66, 2.80, 2.90-92"
+    },
+    {
+     "a": "Aurelius Victor",
+     "w": "De viris illustribus",
+     "r": "33.10"
+    }
+   ],
+   "scholarship": [
+    "Ashby, The Aqueducts of Ancient Rome (1935)",
+    "Platner-Ashby (1929) s.v. Anio Vetus",
+    "Richardson, NTDAR (1992) s.v. Anio Vetus"
+   ],
+   "note": "Extramural approach inside the model area follows the approximate OSM route for the Anio Vetus; the in-city course follows Platner-Ashby (channel found just inside the Porta Maggiore with intrados at 46.15 m asl, cippi and channel north of the Porta Esquilina). All underground, typically 5-15 m below ground.",
+   "event": "anio_vetus",
+   "cutEvent": "siege_of_rome_537"
+  },
+  {
+   "id": "aqua_marcia",
+   "monument": "aqua_marcia_mon",
+   "name": "Aqua Marcia",
+   "from": -140,
+   "to": 9999,
+   "begun": -144,
+   "builder": "quintus_marcius_rex_pr144",
+   "flowing": [
+    [
+     -140,
+     537
+    ]
+   ],
+   "line": [
+    [
+     12.541767,
+     41.866254,
+     62.6
+    ],
+    [
+     12.541084,
+     41.868215,
+     62.37
+    ],
+    [
+     12.540325,
+     41.869213,
+     62.24
+    ],
+    [
+     12.539275,
+     41.870224,
+     62.09
+    ],
+    [
+     12.538174,
+     41.871261,
+     61.94
+    ],
+    [
+     12.537177,
+     41.872194,
+     61.81
+    ],
+    [
+     12.536161,
+     41.873442,
+     61.64
+    ],
+    [
+     12.535602,
+     41.874716,
+     61.49
+    ],
+    [
+     12.535067,
+     41.875914,
+     61.34
+    ],
+    [
+     12.534252,
+     41.877453,
+     61.16
+    ],
+    [
+     12.533359,
+     41.879399,
+     60.92
+    ],
+    [
+     12.532539,
+     41.880368,
+     60.79
+    ],
+    [
+     12.531914,
+     41.881342,
+     60.67
+    ],
+    [
+     12.531169,
+     41.882412,
+     60.53
+    ],
+    [
+     12.530563,
+     41.883261,
+     60.42
+    ],
+    [
+     12.529215,
+     41.884412,
+     60.25
+    ],
+    [
+     12.527991,
+     41.885328,
+     60.1
+    ],
+    [
+     12.526833,
+     41.88577,
+     59.99
+    ],
+    [
+     12.524985,
+     41.886249,
+     59.83
+    ],
+    [
+     12.523581,
+     41.88661,
+     59.7
+    ],
+    [
+     12.5195,
+     41.8882,
+     59.31
+    ],
+    [
+     12.5172,
+     41.8903,
+     59.0
+    ],
+    [
+     12.51585,
+     41.89215,
+     58.86
+    ],
+    [
+     12.51439,
+     41.89361,
+     58.74
+    ],
+    [
+     12.5127,
+     41.89515,
+     58.6
+    ],
+    [
+     12.51114,
+     41.8966,
+     58.48
+    ],
+    [
+     12.510217,
+     41.897515,
+     58.4
+    ],
+    [
+     12.507,
+     41.8996,
+     58.17
+    ],
+    [
+     12.5038,
+     41.9015,
+     57.94
+    ],
+    [
+     12.5008,
+     41.9037,
+     57.71
+    ],
+    [
+     12.4978,
+     41.9055,
+     57.5
+    ]
+   ],
+   "arcade": [
+    [
+     0,
+     26
+    ]
+   ],
+   "channels": 1,
+   "stacked": {
+    "carries": [
+     "aqua_tepula",
+     "aqua_julia"
+    ],
+    "note": "From -125 the Tepula and from -33 the Julia run in channels above the Marcia on the same arches; their lines repeat these coordinates so the coincident arcades render as one, topped by the highest channel present."
+   },
+   "spec": {
+    "span": 5.4,
+    "pier": 3.0,
+    "w": 2.9,
+    "mat": "tufa",
+    "matRepairs": "brick",
+    "specus": {
+     "w": 0.9,
+     "h": 1.9
+    }
+   },
+   "castella": [
+    {
+     "loc": [
+      12.4978,
+      41.9055
+     ],
+     "name": "Terminal castellum of the Marcia, north angle of the Baths of Diocletian, inside the Porta Collina",
+     "kind": "terminal",
+     "certainty": "reconstructed"
+    },
+    {
+     "loc": [
+      12.51115,
+      41.8962
+     ],
+     "name": "Castellum of the Rivus Herculaneus, in the fifth tower of the Aurelian Wall south of the Porta Tiburtina",
+     "kind": "castellum",
+     "certainty": "documented"
+    },
+    {
+     "loc": [
+      12.510217,
+      41.897515
+     ],
+     "name": "Augustan arch over the Via Tiburtina carrying Marcia, Tepula and Julia (later the Porta Tiburtina)",
+     "kind": "monumental_arch",
+     "certainty": "excavated",
+     "note": "Inscriptions of Augustus (5/4 BC, 'rivos aquarum omnium refecit'), Titus (AD 79) and Caracalla (AD 212). Incorporated in the Aurelian Wall in 271-275 and given a gate by Honorius in 401-403."
+    }
+   ],
+   "branches": [
+    {
+     "id": "rivus_herculaneus",
+     "name": "Rivus Herculaneus",
+     "from": -140,
+     "to": 9999,
+     "flowing": [
+      [
+       -140,
+       537
+      ]
+     ],
+     "line": [
+      [
+       12.51115,
+       41.8962,
+       57.6
+      ],
+      [
+       12.5125,
+       41.8935,
+       47.0
+      ],
+      [
+       12.5123,
+       41.8905,
+       46.55
+      ],
+      [
+       12.509,
+       41.8885,
+       46.07
+      ],
+      [
+       12.5045,
+       41.8872,
+       45.52
+      ],
+      [
+       12.5,
+       41.8864,
+       45.0
+      ],
+      [
+       12.497,
+       41.886,
+       44.62
+      ],
+      [
+       12.4946,
+       41.8853,
+       44.29
+      ],
+      [
+       12.4925,
+       41.8846,
+       44.0
+      ],
+      [
+       12.49035,
+       41.88405,
+       34.0
+      ]
+     ],
+     "arcade": [],
+     "certainty": "conjectural",
+     "castella": [
+      {
+       "loc": [
+        12.49035,
+        41.88405
+       ],
+       "name": "Castellum over the Porta Capena (the 'dripping gate', porta madida)",
+       "kind": "terminal",
+       "certainty": "documented"
+      }
+     ],
+     "note": "Frontinus 1.19: the Marcia sends part of its water 'post hortos Pallantianos' into the Rivus Herculaneus, which runs along the Caelian, too low to serve it, and ends above the Porta Capena (Juvenal 3.11 and Martial 3.47 on the wet gate). Start fixed by the castellum in the Aurelian Wall; course along the Caelian flank conjectural; a cascade is assumed down to the gate."
+    },
+    {
+     "id": "aqua_marcia_capitoline",
+     "name": "Marcia to the Capitol",
+     "from": -140,
+     "to": 9999,
+     "flowing": [
+      [
+       -140,
+       400
+      ]
+     ],
+     "line": [
+      [
+       12.499,
+       41.9048,
+       57.3
+      ],
+      [
+       12.4945,
+       41.903,
+       50.22
+      ],
+      [
+       12.49,
+       41.901,
+       42.95
+      ],
+      [
+       12.4865,
+       41.8994,
+       37.25
+      ],
+      [
+       12.4848,
+       41.8975,
+       33.0
+      ],
+      [
+       12.484,
+       41.896,
+       30.0
+      ],
+      [
+       12.483,
+       41.8942,
+       39.57
+      ],
+      [
+       12.4823,
+       41.893,
+       46.0
+      ]
+     ],
+     "arcade": [],
+     "kind": "siphon",
+     "certainty": "conjectural",
+     "note": "In 144-140 BC Marcius Rex brought the water onto the Capitol despite the Sibylline objection (Frontinus 1.7; Livy Per. 54; Pliny NH 36.121). Platner-Ashby favour a small supply in lead pipes by inverted siphon across the Quirinal-Capitol saddle rather than arches; drawn along the Alta Semita and down across the saddle (later cut by Trajan's Forum, around which the pipe would have been re-laid)."
+    },
+    {
+     "id": "aqua_antoniniana",
+     "name": "Aqua (Marcia) Antoniniana",
+     "from": 212,
+     "to": 9999,
+     "begun": 211,
+     "builder": "caracalla",
+     "flowing": [
+      [
+       212,
+       537
+      ]
+     ],
+     "line": [
+      [
+       12.5415,
+       41.8615,
+       62.3
+      ],
+      [
+       12.533,
+       41.864,
+       55.99
+      ],
+      [
+       12.525,
+       41.8665,
+       50.0
+      ],
+      [
+       12.518,
+       41.869,
+       45.13
+      ],
+      [
+       12.512,
+       41.871,
+       41.0
+      ],
+      [
+       12.506,
+       41.8728,
+       38.98
+      ],
+      [
+       12.501437,
+       41.873775,
+       37.5
+      ],
+      [
+       12.499,
+       41.875,
+       36.78
+      ],
+      [
+       12.496,
+       41.8765,
+       35.89
+      ],
+      [
+       12.493,
+       41.8772,
+       35.12
+      ],
+      [
+       12.4905,
+       41.8774,
+       34.5
+      ]
+     ],
+     "arcade": [
+      [
+       4,
+       10
+      ]
+     ],
+     "spec": {
+      "span": 5.0,
+      "pier": 2.5,
+      "w": 2.4,
+      "mat": "brick"
+     },
+     "certainty": "conjectural",
+     "castella": [
+      {
+       "loc": [
+        12.4905,
+        41.8774
+       ],
+       "name": "Reservoir of the Baths of Caracalla (south-west side)",
+       "kind": "cistern",
+       "certainty": "excavated"
+      }
+     ],
+     "note": "Caracalla's branch of the Marcia for his baths; starting point uncertain (perhaps near the 3rd milestone of the Via Latina), crossing the Via Appia on the so-called Arch of Drusus just inside the Porta Appia and running on arches to the great cistern on the south-west side of the baths. Only the last kilometre is reasonably sure."
+    }
+   ],
+   "phases": [
+    {
+     "y": -144,
+     "t": "The praetor Q. Marcius Rex is commissioned to repair the Appia and Anio Vetus and to bring a new supply; arches from the 7th mile of the Via Latina to Rome."
+    },
+    {
+     "y": -140,
+     "t": "Water reaches the Capitol."
+    },
+    {
+     "y": -33,
+     "t": "Repaired by Agrippa."
+    },
+    {
+     "y": -5,
+     "t": "Augustus repairs 'rivos aquarum omnium' (11-4 BC) and adds the Aqua Augusta springs; the arch over the Via Tiburtina (5/4 BC) carries his inscription."
+    },
+    {
+     "y": 79,
+     "t": "Titus restores the Marcia (inscription on the Porta Tiburtina)."
+    },
+    {
+     "y": 196,
+     "t": "Probable restoration by Septimius Severus."
+    },
+    {
+     "y": 212,
+     "t": "Caracalla clears the springs, adds the fons Antoninianus and builds the branch to his baths (Porta Tiburtina inscription)."
+    },
+    {
+     "y": 271,
+     "t": "Aurelian's wall swallows the arcade between the Porta Maggiore and the Porta Tiburtina."
+    },
+    {
+     "y": 305,
+     "t": "Diocletian increases the supply for his baths (Forma Iovia)."
+    },
+    {
+     "y": 537,
+     "t": "Cut by Witiges' Goths during the siege; Belisarius blocks the channels where they enter the walls."
+    }
+   ],
+   "importance": 4,
+   "certainty": "reconstructed",
+   "summary": "The finest water of Rome, brought 91 km from the upper Anio valley by Q. Marcius Rex in 144-140 BC. Its arches, later shared with the Tepula and Julia, cross the campagna into the city just north of the Porta Maggiore, run along the line later taken by the Aurelian Wall to the Porta Tiburtina, and continue underground to the terminal castellum inside the Porta Collina. Branches fed the Capitol, the Rivus Herculaneus over the Caelian to the Porta Capena, and from 212 Caracalla's baths.",
+   "sources": [
+    {
+     "a": "Frontinus",
+     "w": "De aquaeductu",
+     "r": "1.7, 1.12, 1.19, 2.67, 2.76, 2.87"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis historia",
+     "r": "31.41, 36.121"
+    },
+    {
+     "a": "Livy",
+     "w": "Periochae",
+     "r": "54"
+    },
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "5.19.13-18"
+    }
+   ],
+   "scholarship": [
+    "Ashby, The Aqueducts of Ancient Rome (1935)",
+    "Platner-Ashby (1929) s.v. Aqua Marcia",
+    "Van Deman, The Building of the Roman Aqueducts (1934)",
+    "Richardson, NTDAR (1992) s.v. Aqua Marcia",
+    "Taylor, Public Needs and Private Pleasures (2000)"
+   ],
+   "note": "Extramural line inside the model area follows the Acqua Felice / Marcia line along Via del Mandrione (OSM), offset 22 m south-west of the Claudian arches as on the ground (the road runs between them); the crossing beneath the Claudia before the Porta Maggiore is schematic. Channel levels use the standard arrival figures (Marcia 59, Tepula 61, Julia 64 m asl at the Porta Maggiore, after Lanciani/Ashby); the 1917 Reina levelling gives the Julia specus 57.4 m there, so these may be up to 6 m too high.",
+   "event": "aqua_marcia",
+   "cutEvent": "siege_of_rome_537"
+  },
+  {
+   "id": "aqua_tepula",
+   "monument": "aqua_tepula",
+   "name": "Aqua Tepula",
+   "from": -125,
+   "to": 9999,
+   "begun": -126,
+   "builder": null,
+   "builderName": "the censors Cn. Servilius Caepio and L. Cassius Longinus Ravilla",
+   "flowing": [
+    [
+     -125,
+     537
+    ]
+   ],
+   "line": [
+    [
+     12.541767,
+     41.866254,
+     64.6
+    ],
+    [
+     12.541084,
+     41.868215,
+     64.37
+    ],
+    [
+     12.540325,
+     41.869213,
+     64.24
+    ],
+    [
+     12.539275,
+     41.870224,
+     64.09
+    ],
+    [
+     12.538174,
+     41.871261,
+     63.94
+    ],
+    [
+     12.537177,
+     41.872194,
+     63.81
+    ],
+    [
+     12.536161,
+     41.873442,
+     63.64
+    ],
+    [
+     12.535602,
+     41.874716,
+     63.49
+    ],
+    [
+     12.535067,
+     41.875914,
+     63.34
+    ],
+    [
+     12.534252,
+     41.877453,
+     63.16
+    ],
+    [
+     12.533359,
+     41.879399,
+     62.92
+    ],
+    [
+     12.532539,
+     41.880368,
+     62.79
+    ],
+    [
+     12.531914,
+     41.881342,
+     62.67
+    ],
+    [
+     12.531169,
+     41.882412,
+     62.53
+    ],
+    [
+     12.530563,
+     41.883261,
+     62.42
+    ],
+    [
+     12.529215,
+     41.884412,
+     62.25
+    ],
+    [
+     12.527991,
+     41.885328,
+     62.1
+    ],
+    [
+     12.526833,
+     41.88577,
+     61.99
+    ],
+    [
+     12.524985,
+     41.886249,
+     61.83
+    ],
+    [
+     12.523581,
+     41.88661,
+     61.7
+    ],
+    [
+     12.5195,
+     41.8882,
+     61.31
+    ],
+    [
+     12.5172,
+     41.8903,
+     61.0
+    ],
+    [
+     12.51585,
+     41.89215,
+     60.86
+    ],
+    [
+     12.51439,
+     41.89361,
+     60.74
+    ],
+    [
+     12.5127,
+     41.89515,
+     60.6
+    ],
+    [
+     12.51114,
+     41.8966,
+     60.48
+    ],
+    [
+     12.510217,
+     41.897515,
+     60.4
+    ],
+    [
+     12.507,
+     41.8996,
+     60.11
+    ],
+    [
+     12.5038,
+     41.901,
+     59.86
+    ],
+    [
+     12.50175,
+     41.90175,
+     59.7
+    ]
+   ],
+   "arcade": [
+    [
+     0,
+     26
+    ]
+   ],
+   "channels": 1,
+   "onArcadeOf": "aqua_marcia",
+   "spec": {
+    "span": 5.4,
+    "pier": 3.0,
+    "w": 2.9,
+    "mat": "tufa",
+    "specus": {
+     "w": 0.8,
+     "h": 0.9
+    }
+   },
+   "castella": [
+    {
+     "loc": [
+      12.50175,
+      41.90175
+     ],
+     "name": "Castella of the Tepula and Julia at the Porta Viminalis",
+     "kind": "terminal",
+     "certainty": "documented",
+     "note": "Frontinus 1.19: Julia, Tepula and Marcia 'ad libram collis Viminalis fluentes ad portam usque Viminalem deveniunt; ibi rursus emergunt'."
+    }
+   ],
+   "branches": [],
+   "phases": [
+    {
+     "y": -125,
+     "t": "Built by the censors of 125 BC from warm springs near the Alban hills; channel laid on top of the Marcia's arches."
+    },
+    {
+     "y": -33,
+     "t": "Agrippa merges it with the new Julia at the source and re-divides the water."
+    },
+    {
+     "y": -11,
+     "t": "Augustan restoration."
+    },
+    {
+     "y": 537,
+     "t": "Cut by the Goths."
+    }
+   ],
+   "importance": 2,
+   "certainty": "reconstructed",
+   "summary": "A small aqueduct of tepid water (125 BC) from the Alban hills whose channel rides the arches of the Marcia into Rome, above the Marcia and below the Julia, and emerges again at the Porta Viminalis.",
+   "sources": [
+    {
+     "a": "Frontinus",
+     "w": "De aquaeductu",
+     "r": "1.8, 1.19, 2.68"
+    }
+   ],
+   "scholarship": [
+    "Ashby, The Aqueducts of Ancient Rome (1935)",
+    "Richardson, NTDAR (1992) s.v. Aqua Tepula"
+   ],
+   "note": "Shares the Marcia's line and arcade (coincident geometry). Elevation about 2 m above the Marcia.",
+   "event": null,
+   "cutEvent": "siege_of_rome_537"
+  },
+  {
+   "id": "aqua_julia",
+   "monument": "aqua_julia",
+   "name": "Aqua Julia",
+   "from": -33,
+   "to": 9999,
+   "begun": -33,
+   "builder": "agrippa",
+   "flowing": [
+    [
+     -33,
+     537
+    ]
+   ],
+   "line": [
+    [
+     12.541767,
+     41.866254,
+     67.6
+    ],
+    [
+     12.541084,
+     41.868215,
+     67.37
+    ],
+    [
+     12.540325,
+     41.869213,
+     67.24
+    ],
+    [
+     12.539275,
+     41.870224,
+     67.09
+    ],
+    [
+     12.538174,
+     41.871261,
+     66.94
+    ],
+    [
+     12.537177,
+     41.872194,
+     66.81
+    ],
+    [
+     12.536161,
+     41.873442,
+     66.64
+    ],
+    [
+     12.535602,
+     41.874716,
+     66.49
+    ],
+    [
+     12.535067,
+     41.875914,
+     66.34
+    ],
+    [
+     12.534252,
+     41.877453,
+     66.16
+    ],
+    [
+     12.533359,
+     41.879399,
+     65.92
+    ],
+    [
+     12.532539,
+     41.880368,
+     65.79
+    ],
+    [
+     12.531914,
+     41.881342,
+     65.67
+    ],
+    [
+     12.531169,
+     41.882412,
+     65.53
+    ],
+    [
+     12.530563,
+     41.883261,
+     65.42
+    ],
+    [
+     12.529215,
+     41.884412,
+     65.25
+    ],
+    [
+     12.527991,
+     41.885328,
+     65.1
+    ],
+    [
+     12.526833,
+     41.88577,
+     64.99
+    ],
+    [
+     12.524985,
+     41.886249,
+     64.83
+    ],
+    [
+     12.523581,
+     41.88661,
+     64.7
+    ],
+    [
+     12.5195,
+     41.8882,
+     64.31
+    ],
+    [
+     12.5172,
+     41.8903,
+     64.0
+    ],
+    [
+     12.51585,
+     41.89215,
+     63.86
+    ],
+    [
+     12.51439,
+     41.89361,
+     63.74
+    ],
+    [
+     12.5127,
+     41.89515,
+     63.6
+    ],
+    [
+     12.51114,
+     41.8966,
+     63.48
+    ],
+    [
+     12.510217,
+     41.897515,
+     63.4
+    ],
+    [
+     12.507,
+     41.8996,
+     63.11
+    ],
+    [
+     12.5038,
+     41.901,
+     62.86
+    ],
+    [
+     12.50175,
+     41.90175,
+     62.7
+    ]
+   ],
+   "arcade": [
+    [
+     0,
+     26
+    ]
+   ],
+   "channels": 1,
+   "onArcadeOf": "aqua_marcia",
+   "spec": {
+    "span": 5.4,
+    "pier": 3.0,
+    "w": 2.9,
+    "mat": "tufa",
+    "matUpper": "reticulate",
+    "specus": {
+     "w": 0.7,
+     "h": 1.5
+    }
+   },
+   "castella": [
+    {
+     "loc": [
+      12.50175,
+      41.90175
+     ],
+     "name": "Terminal castellum of the Julia at the Porta Viminalis",
+     "kind": "terminal",
+     "certainty": "documented"
+    },
+    {
+     "loc": [
+      12.503655,
+      41.895223
+     ],
+     "name": "Nymphaeum of Alexander Severus ('Trofei di Mario'), Piazza Vittorio Emanuele II",
+     "kind": "nymphaeum",
+     "from": 226,
+     "to": 9999,
+     "certainty": "excavated",
+     "monument": "nymphaeum_alexandri",
+     "params": {
+      "facade": {
+       "w": 25.0,
+       "h": 20.0
+      },
+      "kind": "nymphaeum",
+      "mat": "brick"
+     },
+     "note": "Monumental brick fountain at the fork of the Via Labicana and Via Praenestina, built under Severus Alexander (coin of 226 showing it); its niches held the marble 'trophies of Marius' moved to the Capitol balustrade in 1590. Fed by a branch on arches (Julia per Lanciani; the 1917 levelling suggests the Claudia or Anio Novus)."
+    }
+   ],
+   "branches": [
+    {
+     "id": "aqua_julia_nymphaeum_branch",
+     "name": "Branch to the Nymphaeum Alexandri",
+     "from": 226,
+     "to": 9999,
+     "flowing": [
+      [
+       226,
+       537
+      ]
+     ],
+     "line": [
+      [
+       12.5158,
+       41.89215,
+       63.9
+      ],
+      [
+       12.512,
+       41.8933,
+       63.76
+      ],
+      [
+       12.5085,
+       41.8945,
+       63.62
+      ],
+      [
+       12.5055,
+       41.895,
+       63.52
+      ],
+      [
+       12.503655,
+       41.895223,
+       63.45
+      ]
+     ],
+     "arcade": [
+      [
+       1,
+       4
+      ]
+     ],
+     "spec": {
+      "span": 5.0,
+      "pier": 2.4,
+      "w": 2.2,
+      "mat": "brick"
+     },
+     "certainty": "reconstructed",
+     "note": "Arches of this branch still stood in Piazza Guglielmo Pepe (Platner-Ashby). Specus bottom said to lie 0.29 m below the Julia's at the Porta Maggiore."
+    },
+    {
+     "id": "aqua_julia_caelian_branch",
+     "name": "Julia to the castella of the Caelian",
+     "from": -33,
+     "to": 51,
+     "flowing": [
+      [
+       -33,
+       51
+      ]
+     ],
+     "line": [
+      [
+       12.5148,
+       41.8914,
+       63.8
+      ],
+      [
+       12.511,
+       41.89,
+       63.5
+      ],
+      [
+       12.5075,
+       41.8878,
+       63.17
+      ],
+      [
+       12.5035,
+       41.8862,
+       62.85
+      ],
+      [
+       12.5,
+       41.886,
+       62.6
+      ]
+     ],
+     "arcade": [
+      [
+       0,
+       4
+      ]
+     ],
+     "spec": {
+      "span": 5.0,
+      "pier": 2.4,
+      "w": 2.2,
+      "mat": "reticulate"
+     },
+     "certainty": "conjectural",
+     "note": "Frontinus 1.19: 'prius tamen pars Iuliae ad Spem Veterem excepta castellis Caeli montis diffunditur'; before the Claudia, the Marcia and Julia served the Caelian and Aventine. Route assumed to anticipate the later Arcus Neroniani; superseded by them (end date conjectural)."
+    }
+   ],
+   "phases": [
+    {
+     "y": -33,
+     "t": "Built by Agrippa as aedile from springs near Grottaferrata, merged at the source with the Tepula and carried above it on the Marcia's arches."
+    },
+    {
+     "y": -11,
+     "t": "Augustan restoration (11-4 BC); a cippus of AD 14 implies another."
+    },
+    {
+     "y": 226,
+     "t": "Branch on arches to the new Nymphaeum of Alexander Severus on the Esquiline."
+    },
+    {
+     "y": 537,
+     "t": "Cut by the Goths."
+    }
+   ],
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "Agrippa's aqueduct of 33 BC, the uppermost of the three channels on the Marcia's arches. It emerged at the Porta Viminalis; a branch at Spes Vetus served the Caelian until the Claudia arrived, and from 226 an arcade branch fed the great Nymphaeum of Alexander on the Esquiline.",
+   "sources": [
+    {
+     "a": "Frontinus",
+     "w": "De aquaeductu",
+     "r": "1.9, 1.19, 2.69, 2.76, 2.83"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "49.42-43"
+    }
+   ],
+   "scholarship": [
+    "Ashby, The Aqueducts of Ancient Rome (1935)",
+    "Platner-Ashby (1929) s.v. Aqua Iulia, Nymphaeum Alexandri",
+    "Richardson, NTDAR (1992)",
+    "Tedeschi Grisanti, I 'Trofei di Mario' (1977)"
+   ],
+   "note": "Specus floor at the Porta Maggiore 63.74 m asl (Lanciani) or 57.38 m (1917 levelling); 64 m used here.",
+   "event": null,
+   "cutEvent": "siege_of_rome_537"
+  },
+  {
+   "id": "aqua_virgo",
+   "monument": "aqua_virgo_mon",
+   "name": "Aqua Virgo",
+   "from": -19,
+   "to": 9999,
+   "begun": -22,
+   "builder": "agrippa",
+   "flowing": [
+    [
+     -19,
+     537
+    ]
+   ],
+   "line": [
+    [
+     12.5421,
+     41.9105,
+     22.9
+    ],
+    [
+     12.53,
+     41.9145,
+     22.69
+    ],
+    [
+     12.518,
+     41.9165,
+     22.5
+    ],
+    [
+     12.506,
+     41.9175,
+     22.32
+    ],
+    [
+     12.496,
+     41.9155,
+     22.15
+    ],
+    [
+     12.489,
+     41.913,
+     22.03
+    ],
+    [
+     12.485,
+     41.9105,
+     21.95
+    ],
+    [
+     12.483,
+     41.9085,
+     21.9
+    ],
+    [
+     12.4842,
+     41.906,
+     21.72
+    ],
+    [
+     12.4848,
+     41.9042,
+     21.6
+    ],
+    [
+     12.48385,
+     41.9033,
+     21.47
+    ],
+    [
+     12.48376,
+     41.90269,
+     21.4
+    ],
+    [
+     12.4828,
+     41.9018,
+     21.15
+    ],
+    [
+     12.4822,
+     41.9008,
+     20.91
+    ],
+    [
+     12.4814,
+     41.9003,
+     20.74
+    ],
+    [
+     12.4806,
+     41.9001,
+     20.6
+    ],
+    [
+     12.4798,
+     41.89965,
+     20.38
+    ],
+    [
+     12.4791,
+     41.8993,
+     20.2
+    ]
+   ],
+   "arcade": [
+    [
+     9,
+     17
+    ]
+   ],
+   "channels": 1,
+   "spec": {
+    "span": 4.5,
+    "pier": 2.6,
+    "w": 3.0,
+    "mat": "travertine",
+    "matUpper": "reticulate",
+    "specus": {
+     "w": 0.7,
+     "h": 1.6
+    }
+   },
+   "castella": [
+    {
+     "loc": [
+      12.4791,
+      41.8993
+     ],
+     "name": "Terminal castellum of the Virgo at the north front of the Saepta (NW angle of S. Ignazio)",
+     "kind": "terminal",
+     "certainty": "reconstructed",
+     "note": "Frontinus 1.22: 'finiuntur in Campo Martio secundum frontem Saeptorum'. From here the water fed the Baths of Agrippa, the Stagnum and the Euripus."
+    },
+    {
+     "loc": [
+      12.4806,
+      41.9001
+     ],
+     "name": "Arcus Claudii (Arch of Claudius) carrying the Virgo over the Via Lata",
+     "kind": "monumental_arch",
+     "from": 51,
+     "to": 9999,
+     "certainty": "documented",
+     "monument": "arch_of_claudius",
+     "note": "Triumphal arch for the conquest of Britain (AD 51/52) built into the aqueduct where it crossed the Via Lata near Piazza Sciarra; fragments of the inscription in the Capitoline Museums."
+    },
+    {
+     "loc": [
+      12.48376,
+      41.90269
+     ],
+     "name": "Arches of the Virgo in Via del Nazareno",
+     "kind": "arcade_remains",
+     "certainty": "excavated",
+     "note": "Three travertine arches with the inscription of Claudius (AD 46) recording the rebuilding of arches 'disturbatos per C. Caesarem'."
+    }
+   ],
+   "branches": [],
+   "phases": [
+    {
+     "y": -19,
+     "t": "Opened by Agrippa on 9 June 19 BC to supply his baths in the Campus Martius; mostly underground, ending on 700 passus of arches."
+    },
+    {
+     "y": 37,
+     "t": "Cippi of Tiberius (AD 36-37) mark the line under the Pincian."
+    },
+    {
+     "y": 46,
+     "t": "Claudius rebuilds the arches wrecked by Caligula's works (inscription in Via del Nazareno)."
+    },
+    {
+     "y": 51,
+     "t": "The aqueduct's crossing of the Via Lata becomes Claudius' British triumphal arch."
+    },
+    {
+     "y": 320,
+     "t": "Constantinian restoration recorded on an inscription (CIL VI 31564)."
+    },
+    {
+     "y": 537,
+     "t": "Goths cut the line and probe its underground channel to get into the city (Procopius); Belisarius has it blocked. Its deep, low course made it the easiest to revive in the Middle Ages (Hadrian I, 8th century)."
+    }
+   ],
+   "importance": 4,
+   "certainty": "reconstructed",
+   "summary": "Agrippa's aqueduct of 19 BC, low and gentle (it falls only a few metres over 21 km), entering the city in a tunnel beneath the Pincian at the Gardens of Lucullus, emerging at Via di Capo le Case and crossing the Campus Martius on 700 passus of arches past Via del Nazareno and over the Via Lata on the Arch of Claudius to its castellum at the front of the Saepta. Its line survives as the modern Acqua Vergine feeding the Trevi Fountain.",
+   "sources": [
+    {
+     "a": "Frontinus",
+     "w": "De aquaeductu",
+     "r": "1.10, 1.22, 2.70, 2.84"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "54.11.7"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis historia",
+     "r": "31.42"
+    },
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "6.9.1-11"
+    }
+   ],
+   "scholarship": [
+    "Ashby, The Aqueducts of Ancient Rome (1935)",
+    "Platner-Ashby (1929) s.v. Aqua Virgo, Arcus Claudii",
+    "Richardson, NTDAR (1992) s.v. Aqua Virgo",
+    "Lanciani, Forma Urbis Romae (1893-1901)"
+   ],
+   "note": "The extramural approach in the north-east of the model area (from Salone via Pietralata, under the Via Nomentana and Salaria and the Villa Borghese) is schematic. The in-city part follows Platner-Ashby. Channel at about 20-22 m asl: the arches stood 6-8 m above the ancient Campus ground (about 13-14 m asl) but are buried 6-8 m by modern fill, so against the modern DEM the channel is at or below street level.",
+   "event": "aqua_virgo",
+   "cutEvent": "siege_of_rome_537"
+  },
+  {
+   "id": "aqua_alsietina",
+   "monument": "aqua_alsietina",
+   "name": "Aqua Alsietina (Aqua Augusta)",
+   "from": -2,
+   "to": 9999,
+   "begun": -4,
+   "builder": "augustus",
+   "flowing": [
+    [
+     -2,
+     537
+    ]
+   ],
+   "line": [
+    [
+     12.43,
+     41.885,
+     21.5
+    ],
+    [
+     12.442,
+     41.8845,
+     20.24
+    ],
+    [
+     12.453,
+     41.8843,
+     19.09
+    ],
+    [
+     12.459,
+     41.8847,
+     18.46
+    ],
+    [
+     12.4625,
+     41.8852,
+     18.08
+    ],
+    [
+     12.466,
+     41.8856,
+     17.71
+    ],
+    [
+     12.468,
+     41.8858,
+     17.5
+    ]
+   ],
+   "arcade": [],
+   "channels": 1,
+   "spec": {
+    "span": 0,
+    "pier": 0,
+    "w": 1.8,
+    "mat": "reticulate",
+    "specus": {
+     "w": 0.8,
+     "h": 1.7
+    },
+    "underground": true
+   },
+   "castella": [
+    {
+     "loc": [
+      12.468,
+      41.8858
+     ],
+     "name": "Terminus 'post naumachiam', behind the Naumachia Augusti",
+     "kind": "terminal",
+     "certainty": "conjectural",
+     "note": "Frontinus 1.11 and 1.22. The Naumachia (2 BC, 1800 x 1200 Roman feet) lay in Transtiberim near S. Cosimato; the outlet is set at its Janiculum (west) side."
+    }
+   ],
+   "branches": [],
+   "phases": [
+    {
+     "y": -2,
+     "t": "Augustus brings the poor water of Lake Alsietinus (Martignano) to fill his Naumachia, inaugurated with the Temple of Mars Ultor; surplus to the gardens of Transtiberim and to the bridges' fountains when the river aqueducts were under repair."
+    },
+    {
+     "y": 537,
+     "t": "Cut by the Goths."
+    }
+   ],
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Augustus' aqueduct of 2 BC from Lake Martignano, built to fill the Naumachia in Transtiberim. Frontinus judged its water unfit to drink and its level the lowest of all; the course near Rome is mostly unknown, a stretch having been found on the Janiculum south of and well below the Aqua Traiana.",
+   "sources": [
+    {
+     "a": "Frontinus",
+     "w": "De aquaeductu",
+     "r": "1.11, 1.22, 2.71"
+    },
+    {
+     "a": "Augustus",
+     "w": "Res Gestae",
+     "r": "23"
+    }
+   ],
+   "scholarship": [
+    "Ashby, The Aqueducts of Ancient Rome (1935)",
+    "Taylor, 'Torrent or trickle? The Aqua Alsietina, the Naumachia Augusti, and the Transtiberim', AJA 101 (1997)",
+    "Taylor, Public Needs and Private Pleasures (2000)",
+    "Platner-Ashby (1929) s.v. Aqua Alsietina"
+   ],
+   "note": "Entirely underground (tunnel beneath the Janiculum). Taylor argues the channel arrived higher than Frontinus' remark suggests; the 17 m terminal level used here follows the common table and is uncertain by 20 m or more.",
+   "event": "naumachia_of_augustus",
+   "cutEvent": "siege_of_rome_537"
+  },
+  {
+   "id": "aqua_claudia",
+   "monument": "aqua_claudia",
+   "name": "Aqua Claudia",
+   "from": 52,
+   "to": 9999,
+   "begun": 38,
+   "builder": "claudius",
+   "flowing": [
+    [
+     52,
+     62
+    ],
+    [
+     71,
+     537
+    ]
+   ],
+   "line": [
+    [
+     12.542064,
+     41.866306,
+     71.4
+    ],
+    [
+     12.541337,
+     41.868291,
+     71.13
+    ],
+    [
+     12.540494,
+     41.869427,
+     70.97
+    ],
+    [
+     12.536638,
+     41.873067,
+     70.37
+    ],
+    [
+     12.535423,
+     41.875846,
+     69.99
+    ],
+    [
+     12.534515,
+     41.877522,
+     69.76
+    ],
+    [
+     12.532316,
+     41.881062,
+     69.25
+    ],
+    [
+     12.531415,
+     41.882511,
+     69.05
+    ],
+    [
+     12.530795,
+     41.88339,
+     68.92
+    ],
+    [
+     12.528644,
+     41.885245,
+     68.6
+    ],
+    [
+     12.527448,
+     41.88583,
+     68.47
+    ],
+    [
+     12.526041,
+     41.886192,
+     68.32
+    ],
+    [
+     12.523679,
+     41.886817,
+     68.08
+    ],
+    [
+     12.518867,
+     41.888736,
+     67.56
+    ],
+    [
+     12.514855,
+     41.890933,
+     67.08
+    ],
+    [
+     12.515245,
+     41.891457,
+     67.0
+    ],
+    [
+     12.51452,
+     41.892095,
+     66.86
+    ],
+    [
+     12.513036,
+     41.893307,
+     66.6
+    ]
+   ],
+   "arcade": [
+    [
+     0,
+     17
+    ]
+   ],
+   "channels": 2,
+   "stacked": {
+    "carries": [
+     "anio_novus"
+    ],
+    "note": "The Anio Novus runs about 3 m above the Claudia on the same arches; its line repeats these coordinates."
+   },
+   "spec": {
+    "span": 5.5,
+    "pier": 3.4,
+    "w": 3.3,
+    "mat": "tufa",
+    "matRepairs": "brick",
+    "specus": {
+     "w": 1.1,
+     "h": 1.75
+    },
+    "note": "Piers of tufa and peperino blocks 3.25-4.0 m long, intercolumniations 5.25-6.7 m (Van Deman; Radicioni 2018), later thickened with brick-faced concrete; over 27 m high in the campagna."
+   },
+   "castella": [
+    {
+     "loc": [
+      12.513036,
+      41.893307
+     ],
+     "name": "Terminal castellum of the Claudia and Anio Novus 'post hortos Pallantianos'",
+     "kind": "terminal",
+     "certainty": "reconstructed",
+     "note": "Frontinus 1.20 and 2.86: the two waters were received in great piscinae behind the gardens of Pallas and distributed to all the hills. Position from the end of the OSM Anio Novus route, about 300 m NW of the Porta Maggiore."
+    },
+    {
+     "loc": [
+      12.515245,
+      41.891457
+     ],
+     "name": "Double arch over the Via Praenestina and Via Labicana (Porta Maggiore)",
+     "kind": "monumental_arch",
+     "certainty": "excavated",
+     "monument": "porta_praenestina",
+     "params": {
+      "w": 32.0,
+      "h": 24.0,
+      "bays": 2,
+      "baySpan": 6.3,
+      "bayH": 14.0,
+      "mat": "travertine"
+     },
+     "note": "Rusticated travertine, two bays about 6 m wide and 14 m high, attic in three bands carrying the Claudia (lower) and Anio Novus (upper) channels and the inscriptions of 52, 71 and 81."
+    },
+    {
+     "loc": [
+      12.4938,
+      41.8862
+     ],
+     "name": "Castellum at the Temple of Claudius (end of Nero's arches)",
+     "kind": "castellum",
+     "certainty": "reconstructed"
+    },
+    {
+     "loc": [
+      12.4878,
+      41.8879
+     ],
+     "name": "Palatine castellum (end of the Domitianic extension)",
+     "kind": "terminal",
+     "certainty": "conjectural"
+    },
+    {
+     "loc": [
+      12.4975,
+      41.8932
+     ],
+     "name": "Sette Sale cistern (Baths of Trajan)",
+     "kind": "cistern",
+     "from": 109,
+     "to": 9999,
+     "certainty": "excavated"
+    }
+   ],
+   "branches": [
+    {
+     "id": "arcus_neroniani",
+     "name": "Arcus Neroniani (Arcus Caelimontani)",
+     "from": 64,
+     "to": 9999,
+     "begun": 62,
+     "builder": "nero",
+     "flowing": [
+      [
+       71,
+       537
+      ]
+     ],
+     "line": [
+      [
+       12.51385,
+       41.89195,
+       65.5
+      ],
+      [
+       12.511,
+       41.89,
+       65.11
+      ],
+      [
+       12.50886,
+       41.88941,
+       64.88
+      ],
+      [
+       12.50724,
+       41.88775,
+       64.6
+      ],
+      [
+       12.506,
+       41.8869,
+       64.44
+      ],
+      [
+       12.5045,
+       41.8865,
+       64.29
+      ],
+      [
+       12.503,
+       41.8862,
+       64.14
+      ],
+      [
+       12.5,
+       41.886,
+       63.86
+      ],
+      [
+       12.4975,
+       41.8858,
+       63.62
+      ],
+      [
+       12.495179,
+       41.885611,
+       63.4
+      ],
+      [
+       12.4945,
+       41.8859,
+       63.2
+      ],
+      [
+       12.4938,
+       41.8862,
+       63.0
+      ]
+     ],
+     "arcade": [
+      [
+       0,
+       11
+      ]
+     ],
+     "spec": {
+      "span": 7.75,
+      "pier": 2.3,
+      "w": 2.1,
+      "mat": "brick",
+      "maxH": 16.0
+     },
+     "certainty": "excavated",
+     "note": "About 2 km from Spes Vetus along Via Statilia, through Villa Wolkonsky, past the Scala Santa and along Via di S. Stefano Rotondo, using the Arch of Dolabella (Porta Caelimontana), to the Temple of Claudius. Arches 7.75 m span on piers 2.30 x 2.10 m, max height 16 m, in very fine brickwork, much of it encased by Severan work (Platner-Ashby). Wider arches where streets crossed (Arcus Basilidis, Arch of Dolabella)."
+    },
+    {
+     "id": "arcus_caelimontani_palatine",
+     "name": "Domitianic extension across the valley to the Palatine",
+     "from": 88,
+     "to": 9999,
+     "begun": 81,
+     "builder": "domitian",
+     "flowing": [
+      [
+       88,
+       537
+      ]
+     ],
+     "line": [
+      [
+       12.4938,
+       41.8862,
+       63.0
+      ],
+      [
+       12.492,
+       41.8864,
+       62.72
+      ],
+      [
+       12.4905,
+       41.8868,
+       62.48
+      ],
+      [
+       12.48925,
+       41.88715,
+       62.27
+      ],
+      [
+       12.4885,
+       41.8876,
+       62.12
+      ],
+      [
+       12.4878,
+       41.8879,
+       62.0
+      ]
+     ],
+     "arcade": [
+      [
+       0,
+       5
+      ]
+     ],
+     "spec": {
+      "span": 6.0,
+      "pier": 3.0,
+      "w": 2.8,
+      "mat": "brick",
+      "tiers": 2
+     },
+     "certainty": "reconstructed",
+     "note": "Crossed the valley of the Via di S. Gregorio on two tiers of arches (remains by the street), reinforced by Septimius Severus; Platner-Ashby considered a siphon in part. With the channel near 62 m asl the valley arches reach 35-40 m above the ancient valley floor."
+    },
+    {
+     "id": "arcus_neroniani_aventine",
+     "name": "Branch toward the Aventine (S. Prisca)",
+     "from": 109,
+     "to": 9999,
+     "flowing": [
+      [
+       109,
+       537
+      ]
+     ],
+     "line": [
+      [
+       12.498,
+       41.8859,
+       63.6
+      ],
+      [
+       12.4955,
+       41.8845,
+       63.22
+      ],
+      [
+       12.4925,
+       41.8837,
+       62.84
+      ],
+      [
+       12.489,
+       41.8832,
+       62.41
+      ],
+      [
+       12.4865,
+       41.883,
+       62.11
+      ],
+      [
+       12.48397,
+       41.88307,
+       61.8
+      ]
+     ],
+     "arcade": [],
+     "kind": "siphon",
+     "certainty": "conjectural",
+     "note": "Near S. Stefano Rotondo the arches divided, one branch running toward the Aventine and ending near S. Prisca (Platner-Ashby); Trajan is credited with bringing water to the Aventine on a monumental structure. Crossing of the Porta Capena valley unknown (siphon assumed, so no arcade drawn)."
+    },
+    {
+     "id": "aqua_claudia_sette_sale",
+     "name": "Supply to the Sette Sale",
+     "from": 109,
+     "to": 9999,
+     "flowing": [
+      [
+       109,
+       537
+      ]
+     ],
+     "line": [
+      [
+       12.513036,
+       41.893307,
+       66.4
+      ],
+      [
+       12.509,
+       41.894,
+       65.63
+      ],
+      [
+       12.505,
+       41.8938,
+       64.89
+      ],
+      [
+       12.501,
+       41.8935,
+       64.15
+      ],
+      [
+       12.4975,
+       41.8932,
+       63.5
+      ]
+     ],
+     "arcade": [],
+     "certainty": "conjectural",
+     "note": "The Sette Sale reservoir of the Baths of Trajan was fed by a branch from the Esquiline; drawn from the Claudian castellum along the Via Labicana. Source aqueduct not established."
+    }
+   ],
+   "phases": [
+    {
+     "y": 38,
+     "t": "Begun by Caligula together with the Anio Novus."
+    },
+    {
+     "y": 52,
+     "t": "Dedicated by Claudius on 1 August (Porta Maggiore inscription: 45 miles, springs Caeruleus and Curtius)."
+    },
+    {
+     "y": 62,
+     "t": "Supply fails after about ten years; out of regular use for nine years."
+    },
+    {
+     "y": 64,
+     "t": "Nero builds the Arcus Neroniani (Caelimontani) from Spes Vetus to the Temple of Claudius for his new palace."
+    },
+    {
+     "y": 71,
+     "t": "Vespasian restores it at his own expense (second Porta Maggiore inscription)."
+    },
+    {
+     "y": 81,
+     "t": "Titus rebuilds it 'a capite' after age had ruined it to its foundations (third inscription)."
+    },
+    {
+     "y": 88,
+     "t": "Domitian completes a tunnel under Mons Aeflanus; the arcade is extended across the valley to the Palatine for the new palace."
+    },
+    {
+     "y": 201,
+     "t": "Septimius Severus and Caracalla restore the arcus Caelimontani 'vetustate conlapsos' (CIL VI 1259); extensive Severan brick reinforcement of the main arcade."
+    },
+    {
+     "y": 271,
+     "t": "Aurelian incorporates the double arch over the Via Praenestina and Labicana as a gate (Porta Praenestina, later Porta Maggiore) and uses the arcade as part of the wall."
+    },
+    {
+     "y": 402,
+     "t": "Honorius rebuilds the gate with towers and a guardhouse; the channels continue to flow above."
+    },
+    {
+     "y": 510,
+     "t": "Theodoric's repairs of the aqueducts (Cassiodorus, Variae)."
+    },
+    {
+     "y": 537,
+     "t": "Cut by Witiges' Goths; Belisarius blocks the channels with masonry where they pass the walls. Not restored before 641 (Hadrian I in the 8th century)."
+    }
+   ],
+   "importance": 5,
+   "certainty": "reconstructed",
+   "summary": "Begun by Caligula in 38 and dedicated by Claudius in 52, the Claudia brought clear spring water 69 km from the upper Anio valley, the Anio Novus riding above it on the same colossal arcade, which crosses the model area along Via del Mandrione to the double arch of the Porta Maggiore and a terminal castellum behind the gardens of Pallas. Nero's brick arches carried part of it across the Caelian to the Temple of Claudius; Domitian took it on to the Palatine.",
+   "sources": [
+    {
+     "a": "Frontinus",
+     "w": "De aquaeductu",
+     "r": "1.13-15, 1.20, 2.76, 2.86-87"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Claudius",
+     "r": "20.1"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis historia",
+     "r": "36.122"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "11.13"
+    },
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "5.19.13-18"
+    }
+   ],
+   "scholarship": [
+    "Ashby, The Aqueducts of Ancient Rome (1935)",
+    "Van Deman, The Building of the Roman Aqueducts (1934)",
+    "Platner-Ashby (1929) s.v. Aqua Claudia, Arcus Neroniani",
+    "Radicioni, Il tratto di Aqua Claudia e Anio Novus tra Porta Furba e Via Frascati (diss. Sapienza 2018)",
+    "Baiocchi et al., 'Geomatic measurement of the Claudia and Anio Novus' (2020)",
+    "Coates-Stephens, 'The walls and aqueducts of Rome in the early Middle Ages' JRS 88 (1998)"
+   ],
+   "note": "Line inside the model area from the OSM 'Acquedotto Anio Novus' route (approximate). Channel levels use the standard arrival figures (Claudia 67, Anio Novus 70 m asl at the Porta Maggiore) with about 1.2 per mille upstream; Baiocchi et al. measured the two specus about 3 m apart. The Porta Maggiore's total height (about 24 m over the ancient pavement) supports values within 2-3 m of these.",
+   "event": "aqua_claudia_and_anio_novus_52",
+   "cutEvent": "siege_of_rome_537"
+  },
+  {
+   "id": "anio_novus",
+   "monument": "aqua_claudia",
+   "name": "Anio Novus",
+   "from": 52,
+   "to": 9999,
+   "begun": 38,
+   "builder": "claudius",
+   "flowing": [
+    [
+     52,
+     537
+    ]
+   ],
+   "line": [
+    [
+     12.542064,
+     41.866306,
+     74.8
+    ],
+    [
+     12.541337,
+     41.868291,
+     74.51
+    ],
+    [
+     12.540494,
+     41.869427,
+     74.33
+    ],
+    [
+     12.536638,
+     41.873067,
+     73.67
+    ],
+    [
+     12.535423,
+     41.875846,
+     73.26
+    ],
+    [
+     12.534515,
+     41.877522,
+     73.01
+    ],
+    [
+     12.532316,
+     41.881062,
+     72.46
+    ],
+    [
+     12.531415,
+     41.882511,
+     72.23
+    ],
+    [
+     12.530795,
+     41.88339,
+     72.09
+    ],
+    [
+     12.528644,
+     41.885245,
+     71.75
+    ],
+    [
+     12.527448,
+     41.88583,
+     71.6
+    ],
+    [
+     12.526041,
+     41.886192,
+     71.44
+    ],
+    [
+     12.523679,
+     41.886817,
+     71.18
+    ],
+    [
+     12.518867,
+     41.888736,
+     70.61
+    ],
+    [
+     12.514855,
+     41.890933,
+     70.08
+    ],
+    [
+     12.515245,
+     41.891457,
+     70.0
+    ],
+    [
+     12.51452,
+     41.892095,
+     69.86
+    ],
+    [
+     12.513036,
+     41.893307,
+     69.6
+    ]
+   ],
+   "arcade": [
+    [
+     0,
+     17
+    ]
+   ],
+   "channels": 1,
+   "onArcadeOf": "aqua_claudia",
+   "spec": {
+    "span": 5.5,
+    "pier": 3.4,
+    "w": 3.3,
+    "mat": "brick",
+    "specus": {
+     "w": 1.15,
+     "h": 1.25
+    }
+   },
+   "castella": [
+    {
+     "loc": [
+      12.513036,
+      41.893307
+     ],
+     "name": "Shared terminal castellum with the Claudia",
+     "kind": "terminal",
+     "certainty": "reconstructed"
+    }
+   ],
+   "branches": [],
+   "phases": [
+    {
+     "y": 38,
+     "t": "Begun by Caligula."
+    },
+    {
+     "y": 52,
+     "t": "Dedicated by Claudius with the Claudia; the highest of all Rome's aqueducts, carried in a brick-faced channel above the Claudia from the 7th mile of the Via Latina."
+    },
+    {
+     "y": 97,
+     "t": "Frontinus has Trajan's predecessor Nerva improve its intake; Trajan later moves the head to the lakes of Nero's Subiaco villa."
+    },
+    {
+     "y": 537,
+     "t": "Cut by the Goths."
+    }
+   ],
+   "importance": 4,
+   "certainty": "reconstructed",
+   "summary": "The longest and highest of Rome's aqueducts (87 km, 52 AD), drawing from the Anio itself. In the model area it is the upper channel on the Claudian arcade and on the attic of the Porta Maggiore, sharing the terminal castellum behind the gardens of Pallas.",
+   "sources": [
+    {
+     "a": "Frontinus",
+     "w": "De aquaeductu",
+     "r": "1.13-15, 1.20, 2.90-93"
+    }
+   ],
+   "scholarship": [
+    "Ashby, The Aqueducts of Ancient Rome (1935)",
+    "Alimonti et al., 'Roman aqueduct flow' ISPRS IJGI 10 (2021)"
+   ],
+   "note": "Coincident with the Claudia's arcade; 3 m higher.",
+   "event": "aqua_claudia_and_anio_novus_52",
+   "cutEvent": "siege_of_rome_537"
+  },
+  {
+   "id": "aqua_traiana",
+   "monument": "aqua_traiana",
+   "name": "Aqua Traiana",
+   "from": 109,
+   "to": 9999,
+   "begun": 104,
+   "builder": "trajan",
+   "flowing": [
+    [
+     109,
+     537
+    ],
+    [
+     630,
+     9999
+    ]
+   ],
+   "line": [
+    [
+     12.43,
+     41.8915,
+     74.6
+    ],
+    [
+     12.435,
+     41.8901,
+     74.11
+    ],
+    [
+     12.43921,
+     41.88888,
+     73.69
+    ],
+    [
+     12.44028,
+     41.88886,
+     73.59
+    ],
+    [
+     12.44942,
+     41.88895,
+     72.75
+    ],
+    [
+     12.4505,
+     41.88889,
+     72.65
+    ],
+    [
+     12.45315,
+     41.88904,
+     72.41
+    ],
+    [
+     12.45501,
+     41.88852,
+     72.23
+    ],
+    [
+     12.45852,
+     41.88754,
+     71.88
+    ],
+    [
+     12.4605,
+     41.8879,
+     71.69
+    ],
+    [
+     12.4615,
+     41.888,
+     71.6
+    ],
+    [
+     12.4628,
+     41.8876,
+     71.2
+    ],
+    [
+     12.4642,
+     41.8872,
+     65.28
+    ],
+    [
+     12.466,
+     41.8869,
+     58.0
+    ],
+    [
+     12.4685,
+     41.887,
+     40.0
+    ]
+   ],
+   "arcade": [],
+   "channels": 1,
+   "spec": {
+    "span": 0,
+    "pier": 0,
+    "w": 2.0,
+    "mat": "reticulate",
+    "specus": {
+     "w": 0.9,
+     "h": 1.9
+    },
+    "underground": true
+   },
+   "castella": [
+    {
+     "loc": [
+      12.4615,
+      41.888
+     ],
+     "name": "Arrival at the Janiculum by the Porta Aurelia",
+     "kind": "castellum",
+     "certainty": "reconstructed"
+    },
+    {
+     "loc": [
+      12.4628,
+      41.8876
+     ],
+     "name": "Janiculum water-mills (excavated under and beside the American Academy, Via Medici)",
+     "kind": "mill",
+     "from": 200,
+     "to": 537,
+     "certainty": "excavated",
+     "note": "Bell (1990-91) and Wilson (1998-99): a mill complex with at least three milling chambers on the north race, driven by the Traiana; channel 0.90 x 1.90 m in reticulate. Deliberately choked with unmortared blocks and spolia with sixth-century pottery, attributed to Belisarius' blocking of 537."
+    },
+    {
+     "loc": [
+      12.4704,
+      41.8924
+     ],
+     "name": "Belisarius' floating mills on the Tiber below the Pons Aurelius",
+     "kind": "mill",
+     "from": 537,
+     "to": 537,
+     "certainty": "documented",
+     "note": "Procopius, Wars 5.19.19-22: with the Janiculum mills stopped, Belisarius moored pairs of boats in the swift current below the bridge joined to the wall, hung mill-wheels between them, and protected them with chains when the Goths sent down logs and corpses. The ancestors of Rome's medieval river mills."
+    }
+   ],
+   "branches": [],
+   "phases": [
+    {
+     "y": 109,
+     "t": "Trajan inaugurates the aqueduct on 24 June from springs around Lake Bracciano, 'tota urbe salientem' (Fasti Ostienses); it reaches the city on the Janiculum."
+    },
+    {
+     "y": 200,
+     "t": "Mills on the Janiculum slope driven by its water (3rd-century phases); by late antiquity they ground the city's bread grain."
+    },
+    {
+     "y": 537,
+     "t": "Witiges cuts the aqueducts in March; the Janiculum mills stop and Belisarius blocks the channel; floating mills on the Tiber replace them."
+    },
+    {
+     "y": 630,
+     "t": "Pope Honorius I (625-638) is credited in the Liber Pontificalis with a mill by the city wall at the place called Traianum and its water channel, implying a partial revival (interpretation debated)."
+    }
+   ],
+   "importance": 4,
+   "certainty": "reconstructed",
+   "summary": "Trajan's aqueduct of 109, 58 km from the springs around Lake Bracciano, the only high-level supply for Transtiberim. It arrived underground on the crest of the Janiculum by the later Porta Aurelia, where its fall drove a chain of water-mills that in late antiquity milled the city's grain; when the Goths cut it in 537 Belisarius moved the mills onto boats in the Tiber. Paul V rebuilt it as the Acqua Paola in 1605-12.",
+   "sources": [
+    {
+     "a": "Fasti Ostienses",
+     "w": "",
+     "r": "AD 109"
+    },
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "5.19.8-29"
+    },
+    {
+     "a": "Liber Pontificalis",
+     "w": "Life of Honorius I",
+     "r": "72"
+    }
+   ],
+   "scholarship": [
+    "Wilson, 'The water-mills on the Janiculum', MAAR 45 (2000)",
+    "Bell, 'An archaeologist's perspective on the Janiculum mills' (1993)",
+    "Ashby, The Aqueducts of Ancient Rome (1935)",
+    "Taylor, Public Needs and Private Pleasures (2000)"
+   ],
+   "note": "Line west of the Janiculum from OSM 'Acquedotto Traiano' segments (tunnel at about lat 41.889); mills and drop toward Transtiberim reconstructed. The second flowing period (from 630) represents only the partial revival for the mill; schematic.",
+   "event": "aqua_traiana",
+   "cutEvent": "siege_of_rome_537"
+  },
+  {
+   "id": "aqua_alexandrina",
+   "monument": "aqua_alexandrina",
+   "name": "Aqua Alexandrina",
+   "from": 226,
+   "to": 9999,
+   "begun": 222,
+   "builder": "severus_alexander",
+   "flowing": [
+    [
+     226,
+     537
+    ]
+   ],
+   "line": [
+    [
+     12.542,
+     41.8752,
+     50.0
+    ],
+    [
+     12.536,
+     41.8787,
+     49.65
+    ],
+    [
+     12.53,
+     41.8822,
+     49.3
+    ],
+    [
+     12.525,
+     41.8852,
+     49.0
+    ],
+    [
+     12.52,
+     41.8885,
+     48.5
+    ],
+    [
+     12.517,
+     41.8905,
+     48.2
+    ],
+    [
+     12.5148,
+     41.8916,
+     48.0
+    ]
+   ],
+   "arcade": [
+    [
+     0,
+     3
+    ]
+   ],
+   "channels": 1,
+   "spec": {
+    "span": 5.0,
+    "pier": 2.6,
+    "w": 2.6,
+    "mat": "brick",
+    "specus": {
+     "w": 0.8,
+     "h": 1.5
+    }
+   },
+   "castella": [
+    {
+     "loc": [
+      12.5148,
+      41.8916
+     ],
+     "name": "Arrival at Spes Vetus by the Porta Maggiore (terminal distribution unknown)",
+     "kind": "terminal",
+     "certainty": "conjectural",
+     "note": "Its water is believed to have supplied Severus Alexander's rebuilding of the Baths of Nero (Thermae Alexandrinae) in the Campus Martius through the city's pipe network; no in-city channel is known."
+    }
+   ],
+   "branches": [],
+   "phases": [
+    {
+     "y": 226,
+     "t": "Built by Severus Alexander from springs at Pantano Borghese (about 22 km), the last of the eleven aqueducts; brick arches through Centocelle and the Alessandrino quarter."
+    },
+    {
+     "y": 537,
+     "t": "Cut by the Goths."
+    }
+   ],
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "The last aqueduct of ancient Rome (226), built by Severus Alexander from the springs of Pantano Borghese to serve his baths. Its brick arcade crosses the eastern suburbs just outside the model area; the final run to the Porta Maggiore along the Via Labicana is conjectural.",
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Severus Alexander",
+     "r": "25.3"
+    }
+   ],
+   "scholarship": [
+    "Ashby, The Aqueducts of Ancient Rome (1935)",
+    "Richardson, NTDAR (1992) s.v. Aqua Alexandrina"
+   ],
+   "note": "Entry point near Viale dell'Acquedotto Alessandrino (Vigne Alessandrine); arches assumed only on the first stretch inside the model area. Arrival level 48-50 m asl (estimates range 43-50).",
+   "event": null,
+   "cutEvent": "siege_of_rome_537"
+  }
+ ],
+ "events": [
+  {
+   "y": 537,
+   "id": "siege_of_rome_537",
+   "t": "In March 537 Witiges' Goths cut all fourteen aqueducts (Procopius counts the branches) to deny Belisarius water; Belisarius blocked the channels with masonry where they entered the walls so that they could not be used as tunnels. The Janiculum mills stopped and were replaced by floating mills on the Tiber. Most aqueducts never flowed again in antiquity; the Virgo and Traiana were the first to be revived (Traiana partially under Honorius I, both under Hadrian I in the 8th century)."
+  }
+ ],
+ "notes": "Channel elevations are metres above sea level at the specus floor. Ground for arcade heights is the model's DEM corrected to the ancient surface. 'flowing' gives the years the channel carried water; structures persist (to 9999) as dry ruins after 537. Coincident lines (Marcia/Tepula/Julia; Claudia/Anio Novus) render one arcade topped by the highest channel present in a given year."
+}

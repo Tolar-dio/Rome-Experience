@@ -443,6 +443,7 @@ export class City3D {
           items.push({ type: 'event', imp: 7, x: ev.x, z: ev.z, yy: this.terrain.heightAt(ev.x, ev.z) + 3, text: ev.ti, ev });
         }
       }
+      if (this.layers.regions) for (const r of this.city.regions || []) { if (y >= r.f && y <= r.t && r.x !== undefined) items.push({ type: 'region', imp: 6.5, x: r.x, z: r.z, yy: this.terrain.heightAt(r.x, r.z) + 60, text: (r.num ? ['', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII', 'XIII', 'XIV'][r.num] + ' ' : '') + r.n, region: r }); }
       if (this.layers.places) for (const p of this.city.places || []) { if (y >= p.f && y <= p.t) items.push({ type: 'place', imp: 1, x: p.x, z: p.z, yy: this.terrain.heightAt(p.x, p.z) + 4, text: p.n, place: p }); }
       // index records for label clicks
       this.labelItems = items;
@@ -471,7 +472,7 @@ export class City3D {
       if (shown >= cap && it.type !== 'event') { it.el.style.display = 'none'; continue; }
       v.set(it.x, it.yy, it.z);
       const dist = camPos.distanceTo(v);
-      const maxD = it.type === 'event' ? 6000 : it.type === 'hill' ? 9000 : it.type === 'subhill' ? 900 : it.type === 'place' ? 400 : it.imp >= 5 ? 4200 : it.imp >= 4 ? 1800 : it.imp >= 3 ? 700 : it.imp >= 2 ? 320 : 160;
+      const maxD = it.type === 'event' ? 6000 : it.type === 'region' ? 12000 : it.type === 'hill' ? 9000 : it.type === 'subhill' ? 900 : it.type === 'place' ? 400 : it.imp >= 5 ? 4200 : it.imp >= 4 ? 1800 : it.imp >= 3 ? 700 : it.imp >= 2 ? 320 : 160;
       v.project(cam);
       if (v.z > 1 || dist > maxD || Math.abs(v.x) > 1.1 || Math.abs(v.y) > 1.1) { it.el.style.display = 'none'; continue; }
       const sx = (v.x + 1) / 2 * w, sy = (1 - v.y) / 2 * h;
@@ -488,6 +489,7 @@ export class City3D {
     if (it.type === 'bld') { const i = this.world.records.findIndex((r) => r.rec === it.building && !r.ruin); U.uSel.value = i; this.dirty = true; this.opts.onSelect && this.opts.onSelect(this.world.records[i], i); }
     else if (it.type === 'event') this.opts.onSelectEvent && this.opts.onSelectEvent(it.ev);
     else if (it.type === 'place') this.opts.onSelectPlace && this.opts.onSelectPlace(it.place);
+    else if (it.type === 'region') this.opts.onSelectRegion && this.opts.onSelectRegion(it.region);
     else if (it.type === 'hill' || it.type === 'subhill') this.focusXZ(it.x, it.z, 900);
   }
 

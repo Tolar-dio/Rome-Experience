@@ -380,7 +380,8 @@ const R = {
     html += `<div class="d-body">${t.character ? `<p class="summary">${richText(t.character, exists)}</p>` : ''}`;
     const cat = r.cat || {};
     const keys = Object.keys(cat);
-    if (keys.length) html += `<h4>Regionary Catalogue (4th century)</h4><dl class="kv">${keys.map((k) => `<dt>${esc(k.replace(/_/g, ' '))}</dt><dd>${esc(String(cat[k]))}</dd>`).join('')}</dl>`;
+    const catN = r.catN || {};
+    if (keys.length) html += `<h4>Regionary Catalogue (4th century)</h4><p class="meta">Curiosum readings; the Notitia's are given where they differ.</p><dl class="kv">${keys.map((k) => `<dt>${esc(k.replace(/_/g, ' '))}</dt><dd>${esc(String(cat[k]))}${catN[k] !== undefined && catN[k] !== cat[k] ? ` <span class="muted">(Notitia ${esc(String(catN[k]))})</span>` : ''}</dd>`).join('')}</dl>`;
     return html + (t.note ? `<p class="muted">${richText(t.note, exists)}</p>` : '') + '</div>';
   },
   region(r) {

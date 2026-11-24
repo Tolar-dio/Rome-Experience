@@ -1,0 +1,4419 @@
+{
+ "buildings": [
+  {
+   "monument": "horti_sallustiani",
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "13.47"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Histories",
+     "r": "3.82"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "66.10.4-5"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Aurelian",
+     "r": "49.1"
+    },
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "3.2.24"
+    }
+   ],
+   "scholarship": [
+    "Richardson, NTDAR (1992) s.v. Horti Sallustiani",
+    "Cima and La Rocca (eds), Horti Romani (1998)",
+    "Hartswick, The Gardens of Sallust: a changing landscape (2004)",
+    "Talamo, in Horti Romani (1998)"
+   ],
+   "id": "horti_sallustiani_v1",
+   "name": "Horti Sallustiani (private)",
+   "from": -44,
+   "to": 19,
+   "builder": "sallust",
+   "h": 12.0,
+   "params": {
+    "trees": 1.2,
+    "kind": "formal",
+    "pavilions": true
+   },
+   "owners": [
+    {
+     "y": -46,
+     "who": "julius_caesar",
+     "t": "land in the valley owned by Caesar"
+    },
+    {
+     "y": -44,
+     "who": "sallust",
+     "t": "the historian Sallust lays out the gardens with the fortune from Africa Nova"
+    },
+    {
+     "y": -35,
+     "who": null,
+     "t": "his great-nephew and heir C. Sallustius Crispus, Augustus' minister"
+    }
+   ],
+   "importance": 4,
+   "certainty": "reconstructed",
+   "summary": "The gardens laid out by the historian Sallust in the valley between the Pincian and the Quirinal, on land once Caesar's, filled with pavilions, porticoes and sculpture (the Ludovisi Throne, the Dying Gaul group and the Niobids are attributed to them).",
+   "note": "Extent from Piazza Sallustio (the surviving domed pavilion) between Via Veneto, the Servian Wall line and the Porta Salaria; boundaries schematic.",
+   "template": "garden",
+   "footprint": [
+    [
+     12.4895,
+     41.9062
+    ],
+    [
+     12.4925,
+     41.9052
+    ],
+    [
+     12.4962,
+     41.906
+    ],
+    [
+     12.499,
+     41.907
+    ],
+    [
+     12.4998,
+     41.9092
+    ],
+    [
+     12.4988,
+     41.9104
+    ],
+    [
+     12.495,
+     41.9106
+    ],
+    [
+     12.4912,
+     41.9098
+    ],
+    [
+     12.4893,
+     41.9082
+    ]
+   ],
+   "loc": [
+    12.494589,
+    41.908067
+   ],
+   "w": 870.1,
+   "l": 600.1,
+   "rot": 0,
+   "areaHa": 38.33
+  },
+  {
+   "monument": "horti_sallustiani",
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "13.47"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Histories",
+     "r": "3.82"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "66.10.4-5"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Aurelian",
+     "r": "49.1"
+    },
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "3.2.24"
+    }
+   ],
+   "scholarship": [
+    "Richardson, NTDAR (1992) s.v. Horti Sallustiani",
+    "Cima and La Rocca (eds), Horti Romani (1998)",
+    "Hartswick, The Gardens of Sallust: a changing landscape (2004)",
+    "Talamo, in Horti Romani (1998)"
+   ],
+   "id": "horti_sallustiani_v2",
+   "name": "Horti Sallustiani (imperial)",
+   "from": 20,
+   "to": 410,
+   "builder": "tiberius",
+   "h": 14.0,
+   "params": {
+    "trees": 1.0,
+    "kind": "formal",
+    "pavilions": true,
+    "obelisk": true
+   },
+   "owners": [
+    {
+     "y": 20,
+     "who": "tiberius",
+     "t": "imperial property on the death of Sallustius Crispus"
+    },
+    {
+     "y": 69,
+     "who": "vespasian",
+     "t": "Vespasian prefers them to the Palatine"
+    },
+    {
+     "y": 98,
+     "who": "nerva",
+     "t": "Nerva dies here"
+    },
+    {
+     "y": 125,
+     "who": "hadrian",
+     "t": "Hadrianic pavilion (the hall at Piazza Sallustio)"
+    },
+    {
+     "y": 272,
+     "who": "aurelian",
+     "t": "Aurelian lives here and builds a portico for riding"
+    }
+   ],
+   "importance": 4,
+   "certainty": "reconstructed",
+   "summary": "Imperial park from AD 20, a favoured residence of Vespasian, Nerva (who died here), Hadrian and Aurelian, with the obelisk now at Trinita dei Monti and the domed Hadrianic pavilion still standing in Piazza Sallustio. Fighting in 69 reached them (Tacitus); in 410 Alaric's Goths, entering by the nearby Porta Salaria, set the house on fire.",
+   "phases": [
+    {
+     "y": 69,
+     "t": "Flavian troops fight their way through the gardens (Tac. Hist. 3.82)."
+    },
+    {
+     "y": 125,
+     "t": "Hadrianic rebuilding of the main pavilion."
+    },
+    {
+     "y": 410,
+     "t": "Burned by Alaric's Goths (Procopius 3.2.24): the half-burned house still stood in Procopius' day."
+    }
+   ],
+   "note": "After 410 continued as a ruinous estate (v3).",
+   "template": "garden",
+   "footprint": [
+    [
+     12.4895,
+     41.9062
+    ],
+    [
+     12.4925,
+     41.9052
+    ],
+    [
+     12.4962,
+     41.906
+    ],
+    [
+     12.499,
+     41.907
+    ],
+    [
+     12.4998,
+     41.9092
+    ],
+    [
+     12.4988,
+     41.9104
+    ],
+    [
+     12.495,
+     41.9106
+    ],
+    [
+     12.4912,
+     41.9098
+    ],
+    [
+     12.4893,
+     41.9082
+    ]
+   ],
+   "loc": [
+    12.494589,
+    41.908067
+   ],
+   "w": 870.1,
+   "l": 600.1,
+   "rot": 0,
+   "areaHa": 38.33
+  },
+  {
+   "monument": "horti_sallustiani",
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "13.47"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Histories",
+     "r": "3.82"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "66.10.4-5"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Aurelian",
+     "r": "49.1"
+    },
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "3.2.24"
+    }
+   ],
+   "scholarship": [
+    "Richardson, NTDAR (1992) s.v. Horti Sallustiani",
+    "Cima and La Rocca (eds), Horti Romani (1998)",
+    "Hartswick, The Gardens of Sallust: a changing landscape (2004)",
+    "Talamo, in Horti Romani (1998)"
+   ],
+   "id": "horti_sallustiani_v3",
+   "name": "Horti Sallustiani (ruined)",
+   "from": 411,
+   "to": 9999,
+   "h": 12.0,
+   "params": {
+    "trees": 0.6,
+    "kind": "park"
+   },
+   "ruin": {
+    "from": 411,
+    "state": "half"
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "The half-burned palace and overgrown grounds after the Gothic sack.",
+   "note": "Planting density reduced to suggest neglect.",
+   "template": "garden",
+   "footprint": [
+    [
+     12.4895,
+     41.9062
+    ],
+    [
+     12.4925,
+     41.9052
+    ],
+    [
+     12.4962,
+     41.906
+    ],
+    [
+     12.499,
+     41.907
+    ],
+    [
+     12.4998,
+     41.9092
+    ],
+    [
+     12.4988,
+     41.9104
+    ],
+    [
+     12.495,
+     41.9106
+    ],
+    [
+     12.4912,
+     41.9098
+    ],
+    [
+     12.4893,
+     41.9082
+    ]
+   ],
+   "loc": [
+    12.494589,
+    41.908067
+   ],
+   "w": 870.1,
+   "l": 600.1,
+   "rot": 0,
+   "areaHa": 38.33
+  },
+  {
+   "monument": "horti_lucullani",
+   "sources": [
+    {
+     "a": "Plutarch",
+     "w": "Lucullus",
+     "r": "39.2"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "11.1, 11.32, 11.37"
+    },
+    {
+     "a": "Frontinus",
+     "w": "De aquaeductu",
+     "r": "1.22"
+    }
+   ],
+   "scholarship": [
+    "Richardson, NTDAR (1992) s.v. Horti Luculliani",
+    "Cima and La Rocca (eds), Horti Romani (1998)",
+    "Broise and Jolivet, in Horti Romani (1998) (excavations at Villa Medici)"
+   ],
+   "id": "horti_lucullani_v1",
+   "name": "Horti Lucullani (Lucullus and Valerius Asiaticus)",
+   "from": -63,
+   "to": 47,
+   "begun": -66,
+   "h": 12.0,
+   "params": {
+    "trees": 1.0,
+    "kind": "formal",
+    "terraces": 3,
+    "exedra": true
+   },
+   "owners": [
+    {
+     "y": -63,
+     "who": null,
+     "t": "L. Licinius Lucullus, after his eastern wars"
+    },
+    {
+     "y": 40,
+     "who": null,
+     "t": "D. Valerius Asiaticus, cos. 46"
+    }
+   ],
+   "importance": 4,
+   "certainty": "reconstructed",
+   "summary": "Lucullus' gardens on the Pincian above the Campus Martius, the first great luxury horti of Rome: terraces stepping down the hill with a monumental exedra-nymphaeum under the Trinita dei Monti and Villa Medici, and a temple-like pavilion at the summit. Messalina coveted them and had Valerius Asiaticus driven to suicide in 47.",
+   "note": "Terraced layout from the excavations of Broise and Jolivet; footprint from the slope between Piazza di Spagna, Via Sistina and the Villa Medici, stopping inside the later Aurelian Wall.",
+   "template": "garden",
+   "footprint": [
+    [
+     12.48,
+     41.9068
+    ],
+    [
+     12.4822,
+     41.9055
+    ],
+    [
+     12.4848,
+     41.905
+    ],
+    [
+     12.4866,
+     41.906
+    ],
+    [
+     12.487,
+     41.9078
+    ],
+    [
+     12.4852,
+     41.9076
+    ],
+    [
+     12.4836,
+     41.9086
+    ],
+    [
+     12.4815,
+     41.9088
+    ],
+    [
+     12.4802,
+     41.908
+    ]
+   ],
+   "loc": [
+    12.483456,
+    41.907122
+   ],
+   "w": 580.1,
+   "l": 422.3,
+   "rot": 0,
+   "areaHa": 16.25
+  },
+  {
+   "monument": "horti_lucullani",
+   "sources": [
+    {
+     "a": "Plutarch",
+     "w": "Lucullus",
+     "r": "39.2"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "11.1, 11.32, 11.37"
+    },
+    {
+     "a": "Frontinus",
+     "w": "De aquaeductu",
+     "r": "1.22"
+    }
+   ],
+   "scholarship": [
+    "Richardson, NTDAR (1992) s.v. Horti Luculliani",
+    "Cima and La Rocca (eds), Horti Romani (1998)",
+    "Broise and Jolivet, in Horti Romani (1998) (excavations at Villa Medici)"
+   ],
+   "id": "horti_lucullani_v2",
+   "name": "Horti Lucullani (imperial)",
+   "from": 48,
+   "to": 9999,
+   "h": 12.0,
+   "params": {
+    "trees": 1.0,
+    "kind": "formal",
+    "terraces": 3
+   },
+   "owners": [
+    {
+     "y": 48,
+     "who": "messalina",
+     "t": "Messalina is killed here in 48 by Claudius' freedman Narcissus"
+    },
+    {
+     "y": 49,
+     "who": "claudius",
+     "t": "imperial property"
+    }
+   ],
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "Imperial property after Messalina was killed here in 48. In late antiquity the Pincian estates passed to the Anicii and Pincii.",
+   "phases": [
+    {
+     "y": 48,
+     "t": "Death of Messalina in the gardens (Tac. Ann. 11.37)."
+    }
+   ],
+   "note": "",
+   "template": "garden",
+   "footprint": [
+    [
+     12.48,
+     41.9068
+    ],
+    [
+     12.4822,
+     41.9055
+    ],
+    [
+     12.4848,
+     41.905
+    ],
+    [
+     12.4866,
+     41.906
+    ],
+    [
+     12.487,
+     41.9078
+    ],
+    [
+     12.4852,
+     41.9076
+    ],
+    [
+     12.4836,
+     41.9086
+    ],
+    [
+     12.4815,
+     41.9088
+    ],
+    [
+     12.4802,
+     41.908
+    ]
+   ],
+   "loc": [
+    12.483456,
+    41.907122
+   ],
+   "w": 580.1,
+   "l": 422.3,
+   "rot": 0,
+   "areaHa": 16.25
+  },
+  {
+   "monument": "horti_aciliorum",
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "5.19.4, 5.23.4"
+    }
+   ],
+   "scholarship": [
+    "Richardson, NTDAR (1992) s.v. Horti Aciliorum",
+    "Platner-Ashby (1929) s.v. Horti Aciliorum",
+    "Cima and La Rocca (eds), Horti Romani (1998)"
+   ],
+   "id": "horti_aciliorum_v1",
+   "name": "Horti Aciliorum",
+   "from": 100,
+   "to": 350,
+   "h": 12.0,
+   "params": {
+    "trees": 1.0,
+    "kind": "formal",
+    "terraces": true
+   },
+   "owners": [
+    {
+     "y": 100,
+     "who": null,
+     "t": "the Acilii Glabriones"
+    }
+   ],
+   "importance": 2,
+   "certainty": "reconstructed",
+   "summary": "Gardens of the Acilii Glabriones on the northern Pincian, with terrace walls that the Aurelian Wall incorporated (the Muro Torto stretch).",
+   "note": "Northern Pincian between the Horti Lucullani and the Muro Torto; dates approximate (2nd-4th century).",
+   "template": "garden",
+   "footprint": [
+    [
+     12.4768,
+     41.9105
+    ],
+    [
+     12.479,
+     41.909
+    ],
+    [
+     12.4802,
+     41.908
+    ],
+    [
+     12.4815,
+     41.9088
+    ],
+    [
+     12.4836,
+     41.9086
+    ],
+    [
+     12.485,
+     41.9078
+    ],
+    [
+     12.48445,
+     41.90849
+    ],
+    [
+     12.48336,
+     41.9092
+    ],
+    [
+     12.48233,
+     41.9098
+    ],
+    [
+     12.48159,
+     41.91044
+    ],
+    [
+     12.48131,
+     41.9112
+    ],
+    [
+     12.4795,
+     41.9118
+    ],
+    [
+     12.4778,
+     41.9116
+    ]
+   ],
+   "loc": [
+    12.481265,
+    41.909633
+   ],
+   "w": 679.5,
+   "l": 444.5,
+   "rot": 0,
+   "areaHa": 12.76
+  },
+  {
+   "monument": "horti_aciliorum",
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "5.19.4, 5.23.4"
+    }
+   ],
+   "scholarship": [
+    "Richardson, NTDAR (1992) s.v. Horti Aciliorum",
+    "Platner-Ashby (1929) s.v. Horti Aciliorum",
+    "Cima and La Rocca (eds), Horti Romani (1998)"
+   ],
+   "id": "horti_aciliorum_v2",
+   "name": "Domus Pinciana gardens",
+   "from": 351,
+   "to": 9999,
+   "h": 12.0,
+   "params": {
+    "trees": 0.8,
+    "kind": "formal"
+   },
+   "owners": [
+    {
+     "y": 351,
+     "who": null,
+     "t": "the Pincii, then imperial (Palatium Pincianum)"
+    },
+    {
+     "y": 537,
+     "who": "belisarius",
+     "t": "Belisarius' headquarters during the Gothic siege"
+    }
+   ],
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "In late antiquity the Pincian estate of the Pincii became the Palatium Pincianum; Belisarius made it his headquarters in the siege of 537-538, commanding the Porta Pinciana and Salaria.",
+   "note": "",
+   "template": "garden",
+   "footprint": [
+    [
+     12.4768,
+     41.9105
+    ],
+    [
+     12.479,
+     41.909
+    ],
+    [
+     12.4802,
+     41.908
+    ],
+    [
+     12.4815,
+     41.9088
+    ],
+    [
+     12.4836,
+     41.9086
+    ],
+    [
+     12.485,
+     41.9078
+    ],
+    [
+     12.48445,
+     41.90849
+    ],
+    [
+     12.48336,
+     41.9092
+    ],
+    [
+     12.48233,
+     41.9098
+    ],
+    [
+     12.48159,
+     41.91044
+    ],
+    [
+     12.48131,
+     41.9112
+    ],
+    [
+     12.4795,
+     41.9118
+    ],
+    [
+     12.4778,
+     41.9116
+    ]
+   ],
+   "loc": [
+    12.481265,
+    41.909633
+   ],
+   "w": 679.5,
+   "l": 444.5,
+   "rot": 0,
+   "areaHa": 12.76
+  },
+  {
+   "id": "horti_pompeiani",
+   "monument": "horti_pompeiani",
+   "name": "Horti Pompeiani (Campus Martius)",
+   "from": -55,
+   "to": 79,
+   "builder": "pompey",
+   "h": 11.0,
+   "params": {
+    "trees": 1.0,
+    "kind": "formal"
+   },
+   "owners": [
+    {
+     "y": -55,
+     "who": "pompey",
+     "t": "Pompey, with a house 'like a tender behind a ship' by his theatre"
+    },
+    {
+     "y": -46,
+     "who": null,
+     "t": "confiscated; occupied by M. Antonius"
+    },
+    {
+     "y": -30,
+     "who": "augustus",
+     "t": "public / imperial"
+    }
+   ],
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Pompey's gardens beside his theatre complex in the Campus Martius, seized after his death and occupied by Antony (Cicero's Second Philippic). Pompey also had 'upper gardens' elsewhere (perhaps on the Pincian or Esquiline), not drawn.",
+   "sources": [
+    {
+     "a": "Plutarch",
+     "w": "Pompey",
+     "r": "40.5, 44.3"
+    },
+    {
+     "a": "Cicero",
+     "w": "Philippics",
+     "r": "2.109"
+    },
+    {
+     "a": "Asconius",
+     "w": "In Milonianam",
+     "r": "37C"
+    }
+   ],
+   "scholarship": [
+    "Richardson, NTDAR (1992) s.v. Horti Pompeiani",
+    "Cima and La Rocca (eds), Horti Romani (1998)"
+   ],
+   "note": "Placed north-west of the theatre's cavea toward the river; extent and end date (absorbed into later building, at the latest after the fire of 80) are conjectural.",
+   "template": "garden",
+   "footprint": [
+    [
+     12.4692,
+     41.8955
+    ],
+    [
+     12.4712,
+     41.8948
+    ],
+    [
+     12.4721,
+     41.8962
+    ],
+    [
+     12.4717,
+     41.8977
+    ],
+    [
+     12.47,
+     41.8982
+    ],
+    [
+     12.4688,
+     41.897
+    ]
+   ],
+   "loc": [
+    12.4705,
+    41.896567
+   ],
+   "w": 273.5,
+   "l": 377.8,
+   "rot": 0,
+   "areaHa": 7.06
+  },
+  {
+   "monument": "horti_maecenatis",
+   "sources": [
+    {
+     "a": "Horace",
+     "w": "Satires",
+     "r": "1.8.7-16"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Tiberius",
+     "r": "15.1"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Nero",
+     "r": "38.2"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "15.39"
+    }
+   ],
+   "scholarship": [
+    "Haeuber, Horti Romani: die Horti Maecenatiani und die Horti Lamiani auf dem Esquilin (1991) and later work",
+    "Cima and La Rocca (eds), Horti Romani (1998)",
+    "Richardson, NTDAR (1992) s.v. Horti Maecenatiani",
+    "Haeuber, 'The Horti of Maecenas', in fortvna-research.org texts (2011-2023)"
+   ],
+   "id": "horti_maecenatis_v1",
+   "name": "Horti Maecenatis",
+   "from": -35,
+   "to": 103,
+   "begun": -38,
+   "builder": "maecenas",
+   "h": 12.0,
+   "params": {
+    "trees": 1.0,
+    "kind": "formal",
+    "tower": true
+   },
+   "owners": [
+    {
+     "y": -35,
+     "who": "maecenas",
+     "t": "Maecenas, over the paupers' cemetery after the law of 38 BC"
+    },
+    {
+     "y": -8,
+     "who": "augustus",
+     "t": "bequeathed to Augustus"
+    },
+    {
+     "y": 2,
+     "who": "tiberius",
+     "t": "Tiberius lives here on his return from Rhodes"
+    },
+    {
+     "y": 64,
+     "who": "nero",
+     "t": "Nero watches the fire from the Turris Maecenatiana"
+    }
+   ],
+   "importance": 4,
+   "certainty": "reconstructed",
+   "summary": "Maecenas' gardens laid over the Servian agger and the Esquiline paupers' cemetery, praised by Horace, with the high tower from which Nero watched Rome burn and the 'Auditorium' (a garden triclinium-nymphaeum) still standing on Largo Leopardi. Bequeathed to Augustus in 8 BC.",
+   "note": "Between the Porta Esquilina and Porta Querquetulana straddling the Servian Wall on the eastern Oppius (Haeuber); east limit at the ancient Via Merulana / Piazza Vittorio.",
+   "template": "garden",
+   "footprint": [
+    [
+     12.4975,
+     41.895
+    ],
+    [
+     12.5,
+     41.896
+    ],
+    [
+     12.502,
+     41.8958
+    ],
+    [
+     12.5035,
+     41.8945
+    ],
+    [
+     12.5032,
+     41.892
+    ],
+    [
+     12.5015,
+     41.8905
+    ],
+    [
+     12.499,
+     41.8902
+    ],
+    [
+     12.4972,
+     41.8918
+    ]
+   ],
+   "loc": [
+    12.500488,
+    41.893225
+   ],
+   "w": 522.1,
+   "l": 644.6,
+   "rot": 0,
+   "areaHa": 26.27
+  },
+  {
+   "monument": "horti_maecenatis",
+   "sources": [
+    {
+     "a": "Horace",
+     "w": "Satires",
+     "r": "1.8.7-16"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Tiberius",
+     "r": "15.1"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Nero",
+     "r": "38.2"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "15.39"
+    }
+   ],
+   "scholarship": [
+    "Haeuber, Horti Romani: die Horti Maecenatiani und die Horti Lamiani auf dem Esquilin (1991) and later work",
+    "Cima and La Rocca (eds), Horti Romani (1998)",
+    "Richardson, NTDAR (1992) s.v. Horti Maecenatiani",
+    "Haeuber, 'The Horti of Maecenas', in fortvna-research.org texts (2011-2023)"
+   ],
+   "id": "horti_maecenatis_v2",
+   "name": "Horti Maecenatis (reduced by the Baths of Trajan)",
+   "from": 104,
+   "to": 400,
+   "h": 12.0,
+   "params": {
+    "trees": 0.9,
+    "kind": "formal"
+   },
+   "owners": [
+    {
+     "y": 104,
+     "who": "trajan",
+     "t": "western edge taken for the Baths of Trajan and Sette Sale"
+    }
+   ],
+   "importance": 3,
+   "certainty": "conjectural",
+   "summary": "Imperial gardens, their western edge absorbed by Trajan's baths and the Sette Sale reservoir.",
+   "note": "End date unknown.",
+   "template": "garden",
+   "footprint": [
+    [
+     12.499,
+     41.8955
+    ],
+    [
+     12.5,
+     41.896
+    ],
+    [
+     12.502,
+     41.8958
+    ],
+    [
+     12.5035,
+     41.8945
+    ],
+    [
+     12.5032,
+     41.892
+    ],
+    [
+     12.5015,
+     41.8905
+    ],
+    [
+     12.4995,
+     41.8903
+    ],
+    [
+     12.499,
+     41.8925
+    ]
+   ],
+   "loc": [
+    12.500962,
+    41.893388
+   ],
+   "w": 372.9,
+   "l": 633.5,
+   "rot": 0,
+   "areaHa": 19.04
+  },
+  {
+   "monument": "horti_lamiani",
+   "sources": [
+    {
+     "a": "Philo",
+     "w": "Legatio ad Gaium",
+     "r": "351"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Caligula",
+     "r": "59"
+    }
+   ],
+   "scholarship": [
+    "Haeuber, Horti Romani: die Horti Maecenatiani und die Horti Lamiani auf dem Esquilin (1991) and later work",
+    "Cima and La Rocca (eds), Horti Romani (1998)",
+    "Barbera et al., excavations under the ENPAM building (2006-09); Museo Ninfeo"
+   ],
+   "id": "horti_lamiani_v1",
+   "name": "Horti Lamiani",
+   "from": -5,
+   "to": 32,
+   "h": 12.0,
+   "params": {
+    "trees": 1.0,
+    "kind": "formal",
+    "cryptoporticus": true
+   },
+   "owners": [
+    {
+     "y": -5,
+     "who": null,
+     "t": "L. Aelius Lamia (cos. AD 3)"
+    }
+   ],
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "Gardens of L. Aelius Lamia south of the Via Labicana around the present Piazza Vittorio, east of Maecenas'.",
+   "note": "North limit the Via Labicana, west limit the ancient Via Merulana; south and east uncertain.",
+   "template": "garden",
+   "footprint": [
+    [
+     12.5035,
+     41.8945
+    ],
+    [
+     12.506,
+     41.8941
+    ],
+    [
+     12.5082,
+     41.8935
+    ],
+    [
+     12.5088,
+     41.8915
+    ],
+    [
+     12.507,
+     41.89
+    ],
+    [
+     12.5045,
+     41.8903
+    ],
+    [
+     12.5032,
+     41.892
+    ]
+   ],
+   "loc": [
+    12.505886,
+    41.892271
+   ],
+   "w": 464.1,
+   "l": 500.1,
+   "rot": 0,
+   "areaHa": 16.91
+  },
+  {
+   "monument": "horti_lamiani",
+   "sources": [
+    {
+     "a": "Philo",
+     "w": "Legatio ad Gaium",
+     "r": "351"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Caligula",
+     "r": "59"
+    }
+   ],
+   "scholarship": [
+    "Haeuber, Horti Romani: die Horti Maecenatiani und die Horti Lamiani auf dem Esquilin (1991) and later work",
+    "Cima and La Rocca (eds), Horti Romani (1998)",
+    "Barbera et al., excavations under the ENPAM building (2006-09); Museo Ninfeo"
+   ],
+   "id": "horti_lamiani_v2",
+   "name": "Horti Lamiani (imperial)",
+   "from": 33,
+   "to": 350,
+   "h": 12.0,
+   "params": {
+    "trees": 1.0,
+    "kind": "formal",
+    "cryptoporticus": true
+   },
+   "owners": [
+    {
+     "y": 33,
+     "who": "tiberius",
+     "t": "left to Tiberius"
+    },
+    {
+     "y": 40,
+     "who": "caligula",
+     "t": "Caligula's residence; he received Philo's Jewish embassy here and was first buried here in 41"
+    },
+    {
+     "y": 45,
+     "who": "claudius",
+     "t": "united with the Horti Maiani under one procurator"
+    },
+    {
+     "y": 200,
+     "who": "septimius_severus",
+     "t": "still imperial (Severan stamped pipe)"
+    }
+   ],
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "Imperial from 33; Caligula lived here, enlarged the pavilions and was hastily buried here after his murder. Finds include the Esquiline Venus, the bust of Commodus as Hercules and the Lancellotti Discobolus.",
+   "phases": [
+    {
+     "y": 40,
+     "t": "Caligula receives the Alexandrian embassies while inspecting the rooms (Philo)."
+    },
+    {
+     "y": 41,
+     "t": "Caligula's body half-burned and buried here (Suet. Cal. 59)."
+    }
+   ],
+   "note": "Out of use by the 4th century (end date approximate).",
+   "template": "garden",
+   "footprint": [
+    [
+     12.5035,
+     41.8945
+    ],
+    [
+     12.506,
+     41.8941
+    ],
+    [
+     12.5082,
+     41.8935
+    ],
+    [
+     12.5088,
+     41.8915
+    ],
+    [
+     12.507,
+     41.89
+    ],
+    [
+     12.5045,
+     41.8903
+    ],
+    [
+     12.5032,
+     41.892
+    ]
+   ],
+   "loc": [
+    12.505886,
+    41.892271
+   ],
+   "w": 464.1,
+   "l": 500.1,
+   "rot": 0,
+   "areaHa": 16.91
+  },
+  {
+   "id": "horti_maiani",
+   "monument": "horti_maiani",
+   "name": "Horti Maiani",
+   "from": -10,
+   "to": 350,
+   "h": 11.0,
+   "params": {
+    "trees": 1.0,
+    "kind": "formal"
+   },
+   "owners": [
+    {
+     "y": -10,
+     "who": null,
+     "t": "a Maius (unknown)"
+    },
+    {
+     "y": 45,
+     "who": "claudius",
+     "t": "united with the Horti Lamiani (procurator hortorum Lamianorum et Maianorum, CIL VI 8668)"
+    }
+   ],
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "Gardens known only from the joint procuratorship with the Horti Lamiani; location unknown, placed adjoining them to the east.",
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "8668"
+    }
+   ],
+   "scholarship": [
+    "Cima and La Rocca (eds), Horti Romani (1998)",
+    "Haeuber, Horti Romani: die Horti Maecenatiani und die Horti Lamiani auf dem Esquilin (1991) and later work"
+   ],
+   "note": "Position conjectural.",
+   "template": "garden",
+   "footprint": [
+    [
+     12.5082,
+     41.8935
+    ],
+    [
+     12.5105,
+     41.8928
+    ],
+    [
+     12.5105,
+     41.8905
+    ],
+    [
+     12.5088,
+     41.8898
+    ],
+    [
+     12.507,
+     41.89
+    ],
+    [
+     12.5088,
+     41.8915
+    ]
+   ],
+   "loc": [
+    12.508967,
+    41.89135
+   ],
+   "w": 290.0,
+   "l": 411.2,
+   "rot": 0,
+   "areaHa": 6.47
+  },
+  {
+   "monument": "horti_tauriani",
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "12.59"
+    }
+   ],
+   "scholarship": [
+    "Cima and La Rocca (eds), Horti Romani (1998)",
+    "Haeuber, Horti Romani: die Horti Maecenatiani und die Horti Lamiani auf dem Esquilin (1991) and later work",
+    "Richardson, NTDAR (1992) s.v. Horti Tauriani"
+   ],
+   "id": "horti_tauriani_v1",
+   "name": "Horti Tauriani",
+   "from": -30,
+   "to": 52,
+   "h": 11.0,
+   "params": {
+    "trees": 1.0,
+    "kind": "formal"
+   },
+   "owners": [
+    {
+     "y": -30,
+     "who": null,
+     "t": "T. Statilius Taurus and his descendants"
+    }
+   ],
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Gardens of the Statilii Tauri north of the Via Labicana-Praenestina, bordering the Lamiani.",
+   "note": "Haeuber: north of the Via Labicana-Praenestina. Extent schematic.",
+   "template": "garden",
+   "footprint": [
+    [
+     12.5035,
+     41.8952
+    ],
+    [
+     12.508,
+     41.8938
+    ],
+    [
+     12.5078,
+     41.8952
+    ],
+    [
+     12.5085,
+     41.8968
+    ],
+    [
+     12.5065,
+     41.8978
+    ],
+    [
+     12.5042,
+     41.897
+    ]
+   ],
+   "loc": [
+    12.506417,
+    41.895967
+   ],
+   "w": 414.3,
+   "l": 444.5,
+   "rot": 0,
+   "areaHa": 11.36
+  },
+  {
+   "monument": "horti_tauriani",
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "12.59"
+    }
+   ],
+   "scholarship": [
+    "Cima and La Rocca (eds), Horti Romani (1998)",
+    "Haeuber, Horti Romani: die Horti Maecenatiani und die Horti Lamiani auf dem Esquilin (1991) and later work",
+    "Richardson, NTDAR (1992) s.v. Horti Tauriani"
+   ],
+   "id": "horti_tauriani_v2",
+   "name": "Horti Tauriani (imperial)",
+   "from": 53,
+   "to": 400,
+   "h": 11.0,
+   "params": {
+    "trees": 1.0,
+    "kind": "formal"
+   },
+   "owners": [
+    {
+     "y": 53,
+     "who": "agrippina_the_younger",
+     "t": "Agrippina, coveting them, has T. Statilius Taurus prosecuted; he kills himself"
+    }
+   ],
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Imperial after Agrippina drove their owner to suicide in 53; frescoed halls of the later 'Horti Tauriani-Vettiani' are in the Capitoline collections.",
+   "note": "",
+   "template": "garden",
+   "footprint": [
+    [
+     12.5035,
+     41.8952
+    ],
+    [
+     12.508,
+     41.8938
+    ],
+    [
+     12.5078,
+     41.8952
+    ],
+    [
+     12.5085,
+     41.8968
+    ],
+    [
+     12.5065,
+     41.8978
+    ],
+    [
+     12.5042,
+     41.897
+    ]
+   ],
+   "loc": [
+    12.506417,
+    41.895967
+   ],
+   "w": 414.3,
+   "l": 444.5,
+   "rot": 0,
+   "areaHa": 11.36
+  },
+  {
+   "id": "horti_pallantiani",
+   "monument": "horti_pallantiani",
+   "name": "Horti Pallantiani",
+   "from": 45,
+   "to": 300,
+   "h": 11.0,
+   "params": {
+    "trees": 1.0,
+    "kind": "formal"
+   },
+   "owners": [
+    {
+     "y": 45,
+     "who": null,
+     "t": "M. Antonius Pallas, Claudius' freedman and a rationibus"
+    },
+    {
+     "y": 62,
+     "who": "nero",
+     "t": "imperial after Nero had Pallas poisoned"
+    }
+   ],
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Gardens of Claudius' powerful freedman Pallas near Spes Vetus; Frontinus places the terminal piscina of the Claudia and Anio Novus and the start of the Rivus Herculaneus 'behind' them.",
+   "sources": [
+    {
+     "a": "Frontinus",
+     "w": "De aquaeductu",
+     "r": "1.19, 1.20"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "14.65"
+    }
+   ],
+   "scholarship": [
+    "Cima and La Rocca (eds), Horti Romani (1998)",
+    "Richardson, NTDAR (1992) s.v. Horti Pallantiani"
+   ],
+   "note": "Placed west of the Horti Liciniani (as in most reconstructions), north of the Via Labicana. Exact position unknown.",
+   "template": "garden",
+   "footprint": [
+    [
+     12.508,
+     41.8938
+    ],
+    [
+     12.51,
+     41.8931
+    ],
+    [
+     12.5104,
+     41.8948
+    ],
+    [
+     12.51,
+     41.8966
+    ],
+    [
+     12.5085,
+     41.8968
+    ],
+    [
+     12.5078,
+     41.8952
+    ]
+   ],
+   "loc": [
+    12.509117,
+    41.89505
+   ],
+   "w": 215.5,
+   "l": 411.2,
+   "rot": 0,
+   "areaHa": 6.58
+  },
+  {
+   "id": "horti_liciniani",
+   "monument": "horti_liciniani",
+   "name": "Horti Liciniani",
+   "from": 255,
+   "to": 9999,
+   "h": 12.0,
+   "params": {
+    "trees": 1.0,
+    "kind": "formal",
+    "nymphaeum": "Minerva Medica (4th century)"
+   },
+   "owners": [
+    {
+     "y": 255,
+     "who": null,
+     "t": "the emperor Gallienus (P. Licinius Egnatius Gallienus) and his court"
+    },
+    {
+     "y": 320,
+     "who": null,
+     "t": "imperial; the decagonal 'Temple of Minerva Medica' pavilion built early 4th century"
+    }
+   ],
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "Gallienus' gardens between the Via Labicana and Via Praenestina near the walls, where his court lived; the great domed decagonal pavilion (the so-called Temple of Minerva Medica, early 4th century) belonged to them.",
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Gallieni duo",
+     "r": "17.8"
+    }
+   ],
+   "scholarship": [
+    "Cima and La Rocca (eds), Horti Romani (1998)",
+    "Richardson, NTDAR (1992) s.v. Horti Liciniani"
+   ],
+   "note": "Extent schematic around the Minerva Medica pavilion; the terminal castellum of the Claudia lies within this footprint.",
+   "template": "garden",
+   "footprint": [
+    [
+     12.51,
+     41.8931
+    ],
+    [
+     12.5125,
+     41.8924
+    ],
+    [
+     12.5142,
+     41.8936
+    ],
+    [
+     12.514,
+     41.8955
+    ],
+    [
+     12.512,
+     41.8968
+    ],
+    [
+     12.51,
+     41.8966
+    ],
+    [
+     12.5104,
+     41.8948
+    ]
+   ],
+   "loc": [
+    12.511871,
+    41.894686
+   ],
+   "w": 348.1,
+   "l": 489.0,
+   "rot": 0,
+   "areaHa": 12.83
+  },
+  {
+   "id": "horti_epaphroditiani",
+   "monument": "horti_epaphroditiani",
+   "name": "Horti Epaphroditiani",
+   "from": 60,
+   "to": 300,
+   "h": 11.0,
+   "params": {
+    "trees": 1.0,
+    "kind": "formal"
+   },
+   "owners": [
+    {
+     "y": 60,
+     "who": null,
+     "t": "Epaphroditus, Nero's freedman a libellis (who helped Nero die in 68)"
+    },
+    {
+     "y": 95,
+     "who": "domitian",
+     "t": "confiscated when Domitian executed Epaphroditus"
+    }
+   ],
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "Gardens of Nero's freedman Epaphroditus at Spes Vetus; Frontinus puts the junction of the Appia and its Augustan branch on their boundary with the Horti Torquatiani.",
+   "sources": [
+    {
+     "a": "Frontinus",
+     "w": "De aquaeductu",
+     "r": "1.5, 1.68"
+    }
+   ],
+   "scholarship": [
+    "Cima and La Rocca (eds), Horti Romani (1998)",
+    "Richardson, NTDAR (1992) s.v. Horti Epaphroditiani"
+   ],
+   "note": "The shared vertex with the Horti Torquatiani is the Appia junction 'ad Spem Veterem'.",
+   "template": "garden",
+   "footprint": [
+    [
+     12.5105,
+     41.8928
+    ],
+    [
+     12.513,
+     41.8921
+    ],
+    [
+     12.5142,
+     41.8911
+    ],
+    [
+     12.5125,
+     41.8898
+    ],
+    [
+     12.5105,
+     41.8905
+    ]
+   ],
+   "loc": [
+    12.51214,
+    41.89126
+   ],
+   "w": 306.6,
+   "l": 333.4,
+   "rot": 0,
+   "areaHa": 6.43
+  },
+  {
+   "id": "horti_torquatiani",
+   "monument": "horti_torquatiani",
+   "name": "Horti Torquatiani",
+   "from": -20,
+   "to": 192,
+   "h": 11.0,
+   "params": {
+    "trees": 1.0,
+    "kind": "formal"
+   },
+   "owners": [
+    {
+     "y": -20,
+     "who": null,
+     "t": "the Manlii Torquati (perhaps D. Iunius Silanus Torquatus, forced to suicide by Nero in 64)"
+    }
+   ],
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "Gardens at Spes Vetus by the later Porta Maggiore, named by Frontinus as bordering the Epaphroditiani at the Appia junction.",
+   "sources": [
+    {
+     "a": "Frontinus",
+     "w": "De aquaeductu",
+     "r": "1.5"
+    }
+   ],
+   "scholarship": [
+    "Cima and La Rocca (eds), Horti Romani (1998)",
+    "Platner-Ashby (1929) s.v. Horti Torquatiani"
+   ],
+   "note": "Later absorbed into the Severan Horti Spei Veteris (end date conjectural).",
+   "template": "garden",
+   "footprint": [
+    [
+     12.5125,
+     41.8898
+    ],
+    [
+     12.5142,
+     41.8911
+    ],
+    [
+     12.515,
+     41.8906
+    ],
+    [
+     12.5148,
+     41.889
+    ],
+    [
+     12.5128,
+     41.8885
+    ]
+   ],
+   "loc": [
+    12.51386,
+    41.8898
+   ],
+   "w": 207.2,
+   "l": 288.9,
+   "rot": 0,
+   "areaHa": 3.9
+  },
+  {
+   "monument": "horti_spei_veteris",
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Heliogabalus",
+     "r": "13.5, 14.5"
+    }
+   ],
+   "scholarship": [
+    "Cima and La Rocca (eds), Horti Romani (1998)",
+    "Colli, 'Il palazzo Sessoriano', MEFRA 108 (1996)",
+    "Richardson, NTDAR (1992) s.v. Horti Spei Veteris"
+   ],
+   "id": "horti_spei_veteris_v1",
+   "name": "Horti Spei Veteris (Horti Variani)",
+   "from": 200,
+   "to": 270,
+   "begun": 195,
+   "builder": "septimius_severus",
+   "h": 12.0,
+   "params": {
+    "trees": 0.8,
+    "kind": "formal",
+    "contains": [
+     "Sessorium palace",
+     "Amphitheatrum Castrense",
+     "Circus Varianus",
+     "baths"
+    ]
+   },
+   "owners": [
+    {
+     "y": 200,
+     "who": "septimius_severus",
+     "t": "imperial residence 'ad Spem Veterem'"
+    },
+    {
+     "y": 212,
+     "who": "caracalla",
+     "t": "Circus Varianus"
+    },
+    {
+     "y": 219,
+     "who": "elagabalus",
+     "t": "Elagabalus' favourite retreat, named from his father Sex. Varius Marcellus; amphitheatre and great hall"
+    }
+   ],
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "Severan imperial villa-garden at Spes Vetus, enlarged by Caracalla (Circus Varianus) and Elagabalus (Amphitheatrum Castrense, the hall later S. Croce).",
+   "note": "Includes the Circus Varianus running east-south-east beyond the line of the later wall.",
+   "template": "garden",
+   "footprint": [
+    [
+     12.512,
+     41.8895
+    ],
+    [
+     12.515,
+     41.8905
+    ],
+    [
+     12.5175,
+     41.8897
+    ],
+    [
+     12.5205,
+     41.888
+    ],
+    [
+     12.5232,
+     41.886
+    ],
+    [
+     12.5218,
+     41.8848
+    ],
+    [
+     12.517,
+     41.8857
+    ],
+    [
+     12.514,
+     41.8862
+    ],
+    [
+     12.5115,
+     41.8875
+    ]
+   ],
+   "loc": [
+    12.516944,
+    41.887544
+   ],
+   "w": 969.6,
+   "l": 633.5,
+   "rot": 0,
+   "areaHa": 34.27
+  },
+  {
+   "monument": "horti_spei_veteris",
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Heliogabalus",
+     "r": "13.5, 14.5"
+    }
+   ],
+   "scholarship": [
+    "Cima and La Rocca (eds), Horti Romani (1998)",
+    "Colli, 'Il palazzo Sessoriano', MEFRA 108 (1996)",
+    "Richardson, NTDAR (1992) s.v. Horti Spei Veteris"
+   ],
+   "id": "horti_spei_veteris_v2",
+   "name": "Sessorium gardens (inside the Aurelian Wall)",
+   "from": 271,
+   "to": 9999,
+   "h": 12.0,
+   "params": {
+    "trees": 0.7,
+    "kind": "formal"
+   },
+   "owners": [
+    {
+     "y": 271,
+     "who": "aurelian",
+     "t": "cut by the Aurelian Wall; the circus severed, the amphitheatre made a bastion"
+    },
+    {
+     "y": 306,
+     "who": "constantine_i",
+     "t": "imperial seat; Helena lives here from 324 to 330"
+    }
+   ],
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "The part of the Severan estate inside the Aurelian Wall: the Palatium Sessorianum, where Helena lived; its hall became the church of S. Croce in Gerusalemme.",
+   "note": "Footprint clipped to the wall (OSM wall vertices).",
+   "template": "garden",
+   "footprint": [
+    [
+     12.512,
+     41.8895
+    ],
+    [
+     12.51498,
+     41.89089
+    ],
+    [
+     12.516,
+     41.89043
+    ],
+    [
+     12.5175,
+     41.88973
+    ],
+    [
+     12.51892,
+     41.88914
+    ],
+    [
+     12.51824,
+     41.88839
+    ],
+    [
+     12.51718,
+     41.88766
+    ],
+    [
+     12.51557,
+     41.88759
+    ],
+    [
+     12.51462,
+     41.88757
+    ],
+    [
+     12.5135,
+     41.8876
+    ],
+    [
+     12.5115,
+     41.888
+    ]
+   ],
+   "loc": [
+    12.515455,
+    41.888773
+   ],
+   "w": 614.9,
+   "l": 369.0,
+   "rot": 0,
+   "areaHa": 14.83
+  },
+  {
+   "id": "horti_agrippae",
+   "monument": "horti_agrippae",
+   "name": "Horti Agrippae",
+   "from": -25,
+   "to": 400,
+   "builder": "agrippa",
+   "h": 11.0,
+   "params": {
+    "trees": 1.2,
+    "kind": "park",
+    "contains": [
+     "Stagnum Agrippae",
+     "Euripus"
+    ]
+   },
+   "owners": [
+    {
+     "y": -25,
+     "who": "agrippa",
+     "t": "laid out with the baths, the Stagnum and the Euripus"
+    },
+    {
+     "y": -12,
+     "who": null,
+     "t": "bequeathed with the baths to the Roman people"
+    }
+   ],
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "Agrippa's park around his baths, the artificial lake (Stagnum) and the canal (Euripus) fed by the Aqua Virgo and running to the Tiber, left to the people in 12 BC; Nero held a notorious banquet on rafts on the Stagnum.",
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "54.29.4"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "15.37"
+    }
+   ],
+   "scholarship": [
+    "Richardson, NTDAR (1992) s.v. Horti Agrippae, Stagnum Agrippae",
+    "Haselberger, Mapping Augustan Rome (2002)"
+   ],
+   "note": "West of the Baths of Agrippa around Corso Vittorio / S. Andrea della Valle; the pool itself belongs in a 'pool' record. Encroached on by later buildings (end date approximate).",
+   "template": "garden",
+   "footprint": [
+    [
+     12.4732,
+     41.8955
+    ],
+    [
+     12.476,
+     41.896
+    ],
+    [
+     12.4768,
+     41.897
+    ],
+    [
+     12.4758,
+     41.8985
+    ],
+    [
+     12.4742,
+     41.899
+    ],
+    [
+     12.4727,
+     41.8982
+    ],
+    [
+     12.4725,
+     41.8964
+    ]
+   ],
+   "loc": [
+    12.474457,
+    41.897229
+   ],
+   "w": 356.3,
+   "l": 389.0,
+   "rot": 0,
+   "areaHa": 9.8
+  },
+  {
+   "id": "horti_scipionis",
+   "monument": "horti_scipionis",
+   "name": "Horti Scipionis",
+   "from": -200,
+   "to": -30,
+   "h": 10.0,
+   "params": {
+    "trees": 1.2,
+    "kind": "orchard"
+   },
+   "owners": [
+    {
+     "y": -200,
+     "who": null,
+     "t": "the Cornelii Scipiones"
+    }
+   ],
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "Gardens of the Scipios just outside the pomerium near the Campus Martius, where in 163 BC the consul Ti. Sempronius Gracchus pitched the augural tent for the elections and later found he had taken the auspices invalidly.",
+   "sources": [
+    {
+     "a": "Cicero",
+     "w": "De natura deorum",
+     "r": "2.11"
+    },
+    {
+     "a": "Cicero",
+     "w": "De divinatione",
+     "r": "1.33, 2.74"
+    }
+   ],
+   "scholarship": [
+    "Richardson, NTDAR (1992) s.v. Horti Scipionis",
+    "Platner-Ashby (1929) s.v. Horti Scipionis"
+   ],
+   "note": "Location unknown beyond 'outside the pomerium, near the Campus'; placed just east of the Via Flaminia at the foot of the Pincian.",
+   "template": "garden",
+   "footprint": [
+    [
+     12.4794,
+     41.904
+    ],
+    [
+     12.4808,
+     41.9036
+    ],
+    [
+     12.4815,
+     41.905
+    ],
+    [
+     12.48,
+     41.9058
+    ],
+    [
+     12.4789,
+     41.9052
+    ]
+   ],
+   "loc": [
+    12.48012,
+    41.90472
+   ],
+   "w": 215.5,
+   "l": 244.5,
+   "rot": 0,
+   "areaHa": 3.24
+  },
+  {
+   "monument": "horti_caesaris",
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Julius",
+     "r": "83.2"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "2.41"
+    },
+    {
+     "a": "Horace",
+     "w": "Satires",
+     "r": "1.9.18"
+    },
+    {
+     "a": "Cicero",
+     "w": "Ad Atticum",
+     "r": "15.15.2"
+    }
+   ],
+   "scholarship": [
+    "Richardson, NTDAR (1992) s.v. Horti Caesaris",
+    "Cima and La Rocca (eds), Horti Romani (1998)"
+   ],
+   "id": "horti_caesaris_v1",
+   "name": "Horti Caesaris (Caesar's villa)",
+   "from": -50,
+   "to": -45,
+   "builder": "julius_caesar",
+   "h": 11.0,
+   "params": {
+    "trees": 1.0,
+    "kind": "formal"
+   },
+   "owners": [
+    {
+     "y": -50,
+     "who": "julius_caesar",
+     "t": "Caesar; Cleopatra stays here 46-44 BC"
+    }
+   ],
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "Caesar's gardens across the Tiber along the Via Portuensis, where Cleopatra lodged in 46-44 BC.",
+   "note": "Along the Via Portuensis around the Temple of Fors Fortuna, partly beyond the line of the later Aurelian Wall.",
+   "template": "garden",
+   "footprint": [
+    [
+     12.4705,
+     41.8822
+    ],
+    [
+     12.4695,
+     41.88
+    ],
+    [
+     12.4682,
+     41.878
+    ],
+    [
+     12.4683,
+     41.875
+    ],
+    [
+     12.4665,
+     41.8728
+    ],
+    [
+     12.464,
+     41.8745
+    ],
+    [
+     12.464,
+     41.879
+    ],
+    [
+     12.4672,
+     41.8815
+    ]
+   ],
+   "loc": [
+    12.467275,
+    41.877875
+   ],
+   "w": 538.7,
+   "l": 1044.6,
+   "rot": 0,
+   "areaHa": 30.95
+  },
+  {
+   "monument": "horti_caesaris",
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Julius",
+     "r": "83.2"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "2.41"
+    },
+    {
+     "a": "Horace",
+     "w": "Satires",
+     "r": "1.9.18"
+    },
+    {
+     "a": "Cicero",
+     "w": "Ad Atticum",
+     "r": "15.15.2"
+    }
+   ],
+   "scholarship": [
+    "Richardson, NTDAR (1992) s.v. Horti Caesaris",
+    "Cima and La Rocca (eds), Horti Romani (1998)"
+   ],
+   "id": "horti_caesaris_v2",
+   "name": "Horti Caesaris (public park)",
+   "from": -44,
+   "to": 9999,
+   "h": 11.0,
+   "params": {
+    "trees": 0.9,
+    "kind": "park"
+   },
+   "owners": [
+    {
+     "y": -44,
+     "who": null,
+     "t": "bequeathed by Caesar's will to the Roman people"
+    },
+    {
+     "y": 16,
+     "who": "tiberius",
+     "t": "Tiberius dedicates a temple of Fors Fortuna in the gardens"
+    }
+   ],
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "Left to the people in Caesar's will (44 BC) and kept as a public park; Tiberius built a temple of Fors Fortuna there in AD 16.",
+   "note": "",
+   "template": "garden",
+   "footprint": [
+    [
+     12.4705,
+     41.8822
+    ],
+    [
+     12.4695,
+     41.88
+    ],
+    [
+     12.4682,
+     41.878
+    ],
+    [
+     12.4683,
+     41.875
+    ],
+    [
+     12.4665,
+     41.8728
+    ],
+    [
+     12.464,
+     41.8745
+    ],
+    [
+     12.464,
+     41.879
+    ],
+    [
+     12.4672,
+     41.8815
+    ]
+   ],
+   "loc": [
+    12.467275,
+    41.877875
+   ],
+   "w": 538.7,
+   "l": 1044.6,
+   "rot": 0,
+   "areaHa": 30.95
+  },
+  {
+   "monument": "horti_domitiae",
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Antoninus Pius",
+     "r": "5.1"
+    },
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "5.22.12"
+    }
+   ],
+   "scholarship": [
+    "Richardson, NTDAR (1992) s.v. Horti Domitiae",
+    "Cima and La Rocca (eds), Horti Romani (1998)"
+   ],
+   "id": "horti_domitiae_v1",
+   "name": "Horti Domitiae",
+   "from": 40,
+   "to": 129,
+   "h": 11.0,
+   "params": {
+    "trees": 1.0,
+    "kind": "formal"
+   },
+   "owners": [
+    {
+     "y": 40,
+     "who": null,
+     "t": "Domitia (Lepida, Nero's aunt, or Domitia Longina, Domitian's wife: debated)"
+    },
+    {
+     "y": 55,
+     "who": "nero",
+     "t": "imperial"
+    }
+   ],
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Imperial gardens on the right bank in the bend of the Tiber, in which Hadrian built his mausoleum.",
+   "note": "Around Castel Sant'Angelo and toward Prati; extent schematic.",
+   "template": "garden",
+   "footprint": [
+    [
+     12.4645,
+     41.9024
+    ],
+    [
+     12.4672,
+     41.9026
+    ],
+    [
+     12.4692,
+     41.9032
+    ],
+    [
+     12.469,
+     41.9056
+    ],
+    [
+     12.466,
+     41.9063
+    ],
+    [
+     12.463,
+     41.9052
+    ],
+    [
+     12.4628,
+     41.9032
+    ]
+   ],
+   "loc": [
+    12.465957,
+    41.904071
+   ],
+   "w": 530.4,
+   "l": 433.4,
+   "rot": 0,
+   "areaHa": 17.97
+  },
+  {
+   "monument": "horti_domitiae",
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Antoninus Pius",
+     "r": "5.1"
+    },
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "5.22.12"
+    }
+   ],
+   "scholarship": [
+    "Richardson, NTDAR (1992) s.v. Horti Domitiae",
+    "Cima and La Rocca (eds), Horti Romani (1998)"
+   ],
+   "id": "horti_domitiae_v2",
+   "name": "Horti Domitiae (with Hadrian's Mausoleum)",
+   "from": 130,
+   "to": 270,
+   "h": 11.0,
+   "params": {
+    "trees": 0.9,
+    "kind": "formal"
+   },
+   "owners": [
+    {
+     "y": 130,
+     "who": "hadrian",
+     "t": "mausoleum built within the gardens; Antoninus Pius buries Hadrian here in 139"
+    }
+   ],
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "The gardens framing Hadrian's Mausoleum until it was made a bridgehead of the Aurelian defences.",
+   "note": "",
+   "template": "garden",
+   "footprint": [
+    [
+     12.4645,
+     41.9024
+    ],
+    [
+     12.4672,
+     41.9026
+    ],
+    [
+     12.4692,
+     41.9032
+    ],
+    [
+     12.469,
+     41.9056
+    ],
+    [
+     12.466,
+     41.9063
+    ],
+    [
+     12.463,
+     41.9052
+    ],
+    [
+     12.4628,
+     41.9032
+    ]
+   ],
+   "loc": [
+    12.465957,
+    41.904071
+   ],
+   "w": 530.4,
+   "l": 433.4,
+   "rot": 0,
+   "areaHa": 17.97
+  },
+  {
+   "monument": "horti_agrippinae",
+   "sources": [
+    {
+     "a": "Seneca",
+     "w": "De ira",
+     "r": "3.18.4"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "15.44"
+    },
+    {
+     "a": "Philo",
+     "w": "Legatio ad Gaium",
+     "r": "181"
+    }
+   ],
+   "scholarship": [
+    "Richardson, NTDAR (1992) s.v. Horti Agrippinae",
+    "Cima and La Rocca (eds), Horti Romani (1998)",
+    "Liverani, La topografia antica del Vaticano (1999)"
+   ],
+   "id": "horti_agrippinae_v1",
+   "name": "Horti Agrippinae",
+   "from": 0,
+   "to": 32,
+   "h": 11.0,
+   "params": {
+    "trees": 1.0,
+    "kind": "formal"
+   },
+   "owners": [
+    {
+     "y": 0,
+     "who": "agrippina_the_elder",
+     "t": "Agrippina the Elder"
+    }
+   ],
+   "importance": 2,
+   "certainty": "reconstructed",
+   "summary": "Gardens of Agrippina the Elder on the Vatican plain.",
+   "note": "Vatican plain around the later St Peter's.",
+   "template": "garden",
+   "footprint": [
+    [
+     12.452,
+     41.901
+    ],
+    [
+     12.458,
+     41.9
+    ],
+    [
+     12.4615,
+     41.901
+    ],
+    [
+     12.4625,
+     41.9035
+    ],
+    [
+     12.46,
+     41.9055
+    ],
+    [
+     12.4545,
+     41.9055
+    ],
+    [
+     12.4515,
+     41.9035
+    ]
+   ],
+   "loc": [
+    12.457143,
+    41.902857
+   ],
+   "w": 911.6,
+   "l": 611.2,
+   "rot": 0,
+   "areaHa": 43.17
+  },
+  {
+   "monument": "horti_agrippinae",
+   "sources": [
+    {
+     "a": "Seneca",
+     "w": "De ira",
+     "r": "3.18.4"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "15.44"
+    },
+    {
+     "a": "Philo",
+     "w": "Legatio ad Gaium",
+     "r": "181"
+    }
+   ],
+   "scholarship": [
+    "Richardson, NTDAR (1992) s.v. Horti Agrippinae",
+    "Cima and La Rocca (eds), Horti Romani (1998)",
+    "Liverani, La topografia antica del Vaticano (1999)"
+   ],
+   "id": "horti_agrippinae_v2",
+   "name": "Horti Agrippinae (Caligula and Nero)",
+   "from": 33,
+   "to": 150,
+   "h": 11.0,
+   "params": {
+    "trees": 0.9,
+    "kind": "formal",
+    "contains": [
+     "Circus Gai et Neronis"
+    ]
+   },
+   "owners": [
+    {
+     "y": 33,
+     "who": "caligula",
+     "t": "inherited by Caligula, who built his circus (with the Vatican obelisk) in them"
+    },
+    {
+     "y": 64,
+     "who": "nero",
+     "t": "Nero opens them for the punishment of the Christians after the fire"
+    }
+   ],
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "Caligula built his circus here and received Philo's embassy; after the fire of 64 Nero opened the gardens for the spectacle of the Christians' execution, the setting of the tradition of St Peter's martyrdom. From the 2nd century the roadside necropolis spread over the area.",
+   "phases": [
+    {
+     "y": 40,
+     "t": "Caligula receives the Alexandrian Jewish embassy here (Philo)."
+    },
+    {
+     "y": 64,
+     "t": "Christians burned as torches in Nero's gardens (Tac. Ann. 15.44)."
+    }
+   ],
+   "note": "End date conjectural (necropolis growth).",
+   "template": "garden",
+   "footprint": [
+    [
+     12.452,
+     41.901
+    ],
+    [
+     12.458,
+     41.9
+    ],
+    [
+     12.4615,
+     41.901
+    ],
+    [
+     12.4625,
+     41.9035
+    ],
+    [
+     12.46,
+     41.9055
+    ],
+    [
+     12.4545,
+     41.9055
+    ],
+    [
+     12.4515,
+     41.9035
+    ]
+   ],
+   "loc": [
+    12.457143,
+    41.902857
+   ],
+   "w": 911.6,
+   "l": 611.2,
+   "rot": 0,
+   "areaHa": 43.17
+  },
+  {
+   "id": "horti_getae",
+   "monument": "horti_getae",
+   "name": "Horti Getae",
+   "from": 200,
+   "to": 400,
+   "h": 11.0,
+   "params": {
+    "trees": 1.0,
+    "kind": "formal"
+   },
+   "owners": [
+    {
+     "y": 200,
+     "who": null,
+     "t": "Geta, son of Septimius Severus"
+    },
+    {
+     "y": 212,
+     "who": "caracalla",
+     "t": "imperial after Geta's murder"
+    }
+   ],
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "Gardens of Geta in Transtiberim near the Severan baths and the Porta Septimiana (Via della Lungara).",
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Septimius Severus",
+     "r": "19.5"
+    }
+   ],
+   "scholarship": [
+    "Richardson, NTDAR (1992) s.v. Horti Getae",
+    "Cima and La Rocca (eds), Horti Romani (1998)"
+   ],
+   "note": "Location from their association with the Porta Septimiana; extent conjectural.",
+   "template": "garden",
+   "footprint": [
+    [
+     12.4668,
+     41.8922
+    ],
+    [
+     12.4685,
+     41.893
+    ],
+    [
+     12.4672,
+     41.8945
+    ],
+    [
+     12.4655,
+     41.8958
+    ],
+    [
+     12.4642,
+     41.895
+    ],
+    [
+     12.4648,
+     41.8933
+    ]
+   ],
+   "loc": [
+    12.466167,
+    41.893967
+   ],
+   "w": 356.3,
+   "l": 400.1,
+   "rot": 0,
+   "areaHa": 7.59
+  },
+  {
+   "id": "lucus_furrinae",
+   "monument": "lucus_furrinae",
+   "name": "Lucus Furrinae",
+   "from": -600,
+   "to": 9999,
+   "h": 14.0,
+   "params": {
+    "trees": 2.0,
+    "kind": "grove",
+    "spring": true
+   },
+   "importance": 2,
+   "certainty": "reconstructed",
+   "summary": "Sacred grove of the old goddess Furrina on the Janiculum slope (Villa Sciarra), with a spring; here Gaius Gracchus had his slave kill him in 121 BC. In the 2nd-4th centuries a Syrian sanctuary (Jupiter Heliopolitanus) rose inside it.",
+   "phases": [
+    {
+     "y": -121,
+     "t": "Death of Gaius Gracchus in the grove (Plut. C. Gracch. 17)."
+    },
+    {
+     "y": 176,
+     "t": "Syrian sanctuary built (rebuilt in the 4th century)."
+    }
+   ],
+   "sources": [
+    {
+     "a": "Plutarch",
+     "w": "Gaius Gracchus",
+     "r": "17.2"
+    },
+    {
+     "a": "Varro",
+     "w": "De lingua Latina",
+     "r": "6.19"
+    }
+   ],
+   "scholarship": [
+    "Richardson, NTDAR (1992) s.v. Lucus Furrinae",
+    "Goddard, in Horti Romani (1998)"
+   ],
+   "note": "Centred on the Syrian sanctuary in Via Dandolo / Villa Sciarra.",
+   "template": "garden",
+   "footprint": [
+    [
+     12.467447,
+     41.884461
+    ],
+    [
+     12.467467,
+     41.884788
+    ],
+    [
+     12.467236,
+     41.885118
+    ],
+    [
+     12.466799,
+     41.885384
+    ],
+    [
+     12.466244,
+     41.885535
+    ],
+    [
+     12.46568,
+     41.88554
+    ],
+    [
+     12.465219,
+     41.885399
+    ],
+    [
+     12.464953,
+     41.885139
+    ],
+    [
+     12.464933,
+     41.884812
+    ],
+    [
+     12.465164,
+     41.884482
+    ],
+    [
+     12.465601,
+     41.884216
+    ],
+    [
+     12.466156,
+     41.884065
+    ],
+    [
+     12.46672,
+     41.88406
+    ],
+    [
+     12.467181,
+     41.884201
+    ]
+   ],
+   "loc": [
+    12.4662,
+    41.8848
+   ],
+   "w": 210.0,
+   "l": 164.5,
+   "rot": 0,
+   "areaHa": 2.67
+  },
+  {
+   "id": "nemus_caesarum_a",
+   "monument": "nemus_caesarum",
+   "name": "Nemus Caesarum (north-east half)",
+   "from": -2,
+   "to": 400,
+   "builder": "augustus",
+   "h": 13.0,
+   "params": {
+    "trees": 1.6,
+    "kind": "grove",
+    "surrounds": "naumachia_augusti",
+    "band": 40
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "The grove Augustus planted around his Naumachia and dedicated to his grandsons Gaius and Lucius Caesar; Nero later held festivities in it.",
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "14.15"
+    },
+    {
+     "a": "Augustus",
+     "w": "Res Gestae",
+     "r": "23"
+    },
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "31566"
+    }
+   ],
+   "scholarship": [
+    "Richardson, NTDAR (1992) s.v. Naumachia Augusti, Nemus Caesarum",
+    "Taylor, AJA 101 (1997)"
+   ],
+   "note": "A 40 m band around a basin of 1800 x 1200 Roman feet (533 x 355 m) assumed centred near S. Cosimato with the long side roughly ENE; split into two L-shaped halves so each footprint is a simple polygon. Position and orientation of the basin are uncertain.",
+   "template": "garden",
+   "footprint": [
+    [
+     12.466508,
+     41.887657
+    ],
+    [
+     12.468422,
+     41.882329
+    ],
+    [
+     12.473492,
+     41.883343
+    ],
+    [
+     12.472901,
+     41.883597
+    ],
+    [
+     12.468763,
+     41.88277
+    ],
+    [
+     12.467099,
+     41.887403
+    ]
+   ],
+   "loc": [
+    12.469531,
+    41.884516
+   ],
+   "w": 578.8,
+   "l": 592.1,
+   "rot": 0,
+   "areaHa": 3.87
+  },
+  {
+   "id": "nemus_caesarum_b",
+   "monument": "nemus_caesarum",
+   "name": "Nemus Caesarum (south-west half)",
+   "from": -2,
+   "to": 400,
+   "builder": "augustus",
+   "h": 13.0,
+   "params": {
+    "trees": 1.6,
+    "kind": "grove",
+    "surrounds": "naumachia_augusti",
+    "band": 40
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "The grove Augustus planted around his Naumachia and dedicated to his grandsons Gaius and Lucius Caesar; Nero later held festivities in it.",
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "14.15"
+    },
+    {
+     "a": "Augustus",
+     "w": "Res Gestae",
+     "r": "23"
+    },
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "31566"
+    }
+   ],
+   "scholarship": [
+    "Richardson, NTDAR (1992) s.v. Naumachia Augusti, Nemus Caesarum",
+    "Taylor, AJA 101 (1997)"
+   ],
+   "note": "A 40 m band around a basin of 1800 x 1200 Roman feet (533 x 355 m) assumed centred near S. Cosimato with the long side roughly ENE; split into two L-shaped halves so each footprint is a simple polygon. Position and orientation of the basin are uncertain.",
+   "template": "garden",
+   "footprint": [
+    [
+     12.473492,
+     41.883343
+    ],
+    [
+     12.471578,
+     41.888671
+    ],
+    [
+     12.466508,
+     41.887657
+    ],
+    [
+     12.467099,
+     41.887403
+    ],
+    [
+     12.471237,
+     41.88823
+    ],
+    [
+     12.472901,
+     41.883597
+    ]
+   ],
+   "loc": [
+    12.470469,
+    41.886484
+   ],
+   "w": 578.8,
+   "l": 592.1,
+   "rot": 0,
+   "areaHa": 3.87
+  },
+  {
+   "id": "lucus_libitinae",
+   "monument": "lucus_libitinae",
+   "name": "Lucus Libitinae",
+   "from": -600,
+   "to": 100,
+   "h": 12.0,
+   "params": {
+    "trees": 1.5,
+    "kind": "grove"
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "Grove of Libitina, goddess of funerals, where the undertakers (libitinarii) kept their equipment and every death was registered with a coin; on the Esquiline by the old necropolis outside the Porta Esquilina.",
+   "sources": [
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Roman Antiquities",
+     "r": "4.15.5"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Roman Questions",
+     "r": "23"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Nero",
+     "r": "39.1"
+    }
+   ],
+   "scholarship": [
+    "Richardson, NTDAR (1992) s.v. Lucus Libitinae",
+    "Bodel, 'Graveyards and groves' AJAH 11 (1994)"
+   ],
+   "note": "Exact site unknown; placed just outside the Porta Esquilina north of the Via Labicana. Its survival after the transformation of the Esquiline is uncertain.",
+   "template": "garden",
+   "footprint": [
+    [
+     12.503343,
+     41.8972
+    ],
+    [
+     12.50327,
+     41.897357
+    ],
+    [
+     12.503072,
+     41.897473
+    ],
+    [
+     12.5028,
+     41.897515
+    ],
+    [
+     12.502528,
+     41.897473
+    ],
+    [
+     12.50233,
+     41.897357
+    ],
+    [
+     12.502257,
+     41.8972
+    ],
+    [
+     12.50233,
+     41.897043
+    ],
+    [
+     12.502528,
+     41.896927
+    ],
+    [
+     12.5028,
+     41.896885
+    ],
+    [
+     12.503072,
+     41.896927
+    ],
+    [
+     12.50327,
+     41.897043
+    ]
+   ],
+   "loc": [
+    12.5028,
+    41.8972
+   ],
+   "w": 90.0,
+   "l": 70.0,
+   "rot": 0,
+   "areaHa": 0.47
+  },
+  {
+   "id": "lucus_fagutalis",
+   "monument": "lucus_fagutalis",
+   "name": "Lucus Fagutalis",
+   "from": -700,
+   "to": 300,
+   "h": 15.0,
+   "params": {
+    "trees": 1.8,
+    "kind": "grove",
+    "species": "beech"
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "The beech grove (fagus) with the shrine of Jupiter Fagutalis that gave the Fagutal its name, on the western Oppius near S. Pietro in Vincoli.",
+   "sources": [
+    {
+     "a": "Varro",
+     "w": "De lingua Latina",
+     "r": "5.152"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis historia",
+     "r": "16.37"
+    },
+    {
+     "a": "Festus",
+     "w": "De verborum significatu",
+     "r": "77L"
+    }
+   ],
+   "scholarship": [
+    "Richardson, NTDAR (1992) s.v. Fagutal, Lucus Fagutalis",
+    "Haeuber, Horti Romani: die Horti Maecenatiani und die Horti Lamiani auf dem Esquilin (1991) and later work"
+   ],
+   "note": "Haeuber argues the name Fagutal applies to the grove, not a hilltop.",
+   "template": "garden",
+   "footprint": [
+    [
+     12.494043,
+     41.8932
+    ],
+    [
+     12.49397,
+     41.893357
+    ],
+    [
+     12.493772,
+     41.893473
+    ],
+    [
+     12.4935,
+     41.893515
+    ],
+    [
+     12.493228,
+     41.893473
+    ],
+    [
+     12.49303,
+     41.893357
+    ],
+    [
+     12.492957,
+     41.8932
+    ],
+    [
+     12.49303,
+     41.893043
+    ],
+    [
+     12.493228,
+     41.892927
+    ],
+    [
+     12.4935,
+     41.892885
+    ],
+    [
+     12.493772,
+     41.892927
+    ],
+    [
+     12.49397,
+     41.893043
+    ]
+   ],
+   "loc": [
+    12.4935,
+    41.8932
+   ],
+   "w": 90.0,
+   "l": 70.0,
+   "rot": 0,
+   "areaHa": 0.47
+  },
+  {
+   "id": "lucus_petelinus",
+   "monument": "lucus_petelinus",
+   "name": "Lucus Petelinus",
+   "from": -509,
+   "to": -180,
+   "h": 12.0,
+   "params": {
+    "trees": 1.5,
+    "kind": "grove"
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "Grove outside the Porta Flumentana where M. Manlius Capitolinus was condemned in 384 BC out of sight of the Capitol he had saved, and where the people met in 342 BC.",
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "6.20.11, 7.41.3"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Camillus",
+     "r": "36.8"
+    }
+   ],
+   "scholarship": [
+    "Richardson, NTDAR (1992) s.v. Lucus Petelinus",
+    "Platner-Ashby (1929) s.v. Lucus Petelinus"
+   ],
+   "note": "Placed on the river plain just north-west of the Porta Flumentana; built over by the 2nd century BC (end date conjectural).",
+   "template": "garden",
+   "footprint": [
+    [
+     12.47847,
+     41.892398
+    ],
+    [
+     12.478498,
+     41.892542
+    ],
+    [
+     12.478392,
+     41.892701
+    ],
+    [
+     12.478181,
+     41.892834
+    ],
+    [
+     12.477922,
+     41.892904
+    ],
+    [
+     12.477683,
+     41.892892
+    ],
+    [
+     12.47753,
+     41.892802
+    ],
+    [
+     12.477502,
+     41.892658
+    ],
+    [
+     12.477608,
+     41.892499
+    ],
+    [
+     12.477819,
+     41.892366
+    ],
+    [
+     12.478078,
+     41.892296
+    ],
+    [
+     12.478317,
+     41.892308
+    ]
+   ],
+   "loc": [
+    12.478,
+    41.8926
+   ],
+   "w": 82.5,
+   "l": 67.6,
+   "rot": 0,
+   "areaHa": 0.41
+  },
+  {
+   "id": "adonaea_vigna_barberini_v1",
+   "monument": "adonaea",
+   "name": "Adonaea (garden terrace of the Vigna Barberini)",
+   "from": 92,
+   "to": 218,
+   "begun": 81,
+   "builder": "domitian",
+   "h": 9.0,
+   "rot": 340,
+   "params": {
+    "trees": 1.4,
+    "kind": "formal",
+    "porticus": true
+   },
+   "importance": 3,
+   "certainty": "conjectural",
+   "summary": "The great artificial terrace of the Flavian palace at the north-east corner of the Palatine (Vigna Barberini), planted as a formal garden with rows of plant beds and a surrounding portico; identified by some with the 'Adonaea' (gardens of Adonis) labelled on the Severan Marble Plan.",
+   "sources": [
+    {
+     "a": "Forma Urbis Romae",
+     "w": "fragment 46",
+     "r": "ADONAEA"
+    },
+    {
+     "a": "Philostratus",
+     "w": "Life of Apollonius",
+     "r": "7.32"
+    }
+   ],
+   "scholarship": [
+    "Villedieu (ed.), La Vigna Barberini I-II (1997-2007)",
+    "Coarelli, Palatium (2012)",
+    "Claridge, Rome (2010) 159"
+   ],
+   "note": "Terrace about 150 x 105 m aligned with the Flavian palace (axis about 340 degrees). Identification with the Adonaea disputed. Replaced in 219-222 by Elagabalus' temple of Sol Invictus Elagabal, whose courtyard garden continued (v2).",
+   "template": "garden",
+   "footprint": [
+    [
+     12.488164,
+     41.888554
+    ],
+    [
+     12.489355,
+     41.888877
+    ],
+    [
+     12.488736,
+     41.890146
+    ],
+    [
+     12.487545,
+     41.889823
+    ]
+   ],
+   "loc": [
+    12.48845,
+    41.88935
+   ],
+   "w": 150.0,
+   "l": 176.9,
+   "areaHa": 1.58
+  },
+  {
+   "id": "adonaea_vigna_barberini_v2",
+   "monument": "adonaea",
+   "name": "Garden court of the Vigna Barberini temple",
+   "from": 223,
+   "to": 9999,
+   "h": 9.0,
+   "rot": 340,
+   "params": {
+    "trees": 0.8,
+    "kind": "formal",
+    "porticus": true
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "After Elagabalus' temple was rededicated to Jupiter Ultor by Severus Alexander, the terrace kept a planted court around the temple.",
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Heliogabalus",
+     "r": "3.4"
+    }
+   ],
+   "scholarship": [
+    "Villedieu (ed.), La Vigna Barberini II (2007)"
+   ],
+   "note": "The temple itself belongs to the buildings collection.",
+   "template": "garden",
+   "footprint": [
+    [
+     12.488164,
+     41.888554
+    ],
+    [
+     12.489355,
+     41.888877
+    ],
+    [
+     12.488736,
+     41.890146
+    ],
+    [
+     12.487545,
+     41.889823
+    ]
+   ],
+   "loc": [
+    12.48845,
+    41.88935
+   ],
+   "w": 150.0,
+   "l": 176.9,
+   "areaHa": 1.58
+  },
+  {
+   "monument": "campus_martius",
+   "params": {
+    "trees": 0.2,
+    "kind": "park",
+    "surface": "grass"
+   },
+   "h": 1.0,
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "2.5.2"
+    },
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "5.3.8"
+    },
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Roman Antiquities",
+     "r": "5.13.2"
+    }
+   ],
+   "scholarship": [
+    "Richardson, NTDAR (1992) s.v. Campus Martius",
+    "Coarelli, Il Campo Marzio (1997)",
+    "Haselberger, Mapping Augustan Rome (2002)",
+    "Wiseman, 'Campus Martius' in LTUR I (1993)"
+   ],
+   "id": "campus_martius_meadow_v1",
+   "name": "Campus Martius (open plain)",
+   "from": -509,
+   "to": -221,
+   "importance": 3,
+   "certainty": "conjectural",
+   "summary": "After the expulsion of the Tarquins their land between the Capitol and the bend of the Tiber was consecrated to Mars (Livy 2.5): an open meadow for the army's musters, the centuriate assembly at the Saepta (Ovile), the Villa Publica and horse races, with the Tarentum altar by the river and only scattered temples near the Capitol.",
+   "event": "campus_martius_and_tiber_island",
+   "note": "Outline of the remaining open ground; buildings occupying the rest belong to the buildings collection. East edge the Via Lata/Flaminia; west edge 45 m inside the Tiber centreline (OSM). Phase boundaries simplified.",
+   "template": "garden",
+   "footprint": [
+    [
+     12.4766,
+     41.9102
+    ],
+    [
+     12.4785,
+     41.9055
+    ],
+    [
+     12.4804,
+     41.9008
+    ],
+    [
+     12.482,
+     41.8962
+    ],
+    [
+     12.4815,
+     41.894
+    ],
+    [
+     12.4806,
+     41.892
+    ],
+    [
+     12.479,
+     41.8918
+    ],
+    [
+     12.471349,
+     41.892577
+    ],
+    [
+     12.47109,
+     41.892767
+    ],
+    [
+     12.470706,
+     41.893042
+    ],
+    [
+     12.46942,
+     41.893984
+    ],
+    [
+     12.466137,
+     41.896603
+    ],
+    [
+     12.466006,
+     41.896724
+    ],
+    [
+     12.465885,
+     41.896843
+    ],
+    [
+     12.464682,
+     41.898419
+    ],
+    [
+     12.464231,
+     41.89908
+    ],
+    [
+     12.464127,
+     41.899231
+    ],
+    [
+     12.464089,
+     41.899363
+    ],
+    [
+     12.464076,
+     41.899473
+    ],
+    [
+     12.464073,
+     41.89964
+    ],
+    [
+     12.464065,
+     41.899698
+    ],
+    [
+     12.46405,
+     41.899849
+    ],
+    [
+     12.464067,
+     41.90002
+    ],
+    [
+     12.464113,
+     41.900162
+    ],
+    [
+     12.464199,
+     41.900355
+    ],
+    [
+     12.46429,
+     41.900482
+    ],
+    [
+     12.464445,
+     41.900684
+    ],
+    [
+     12.464539,
+     41.900791
+    ],
+    [
+     12.465104,
+     41.901157
+    ],
+    [
+     12.46569,
+     41.901432
+    ],
+    [
+     12.465797,
+     41.90144
+    ],
+    [
+     12.466581,
+     41.901488
+    ],
+    [
+     12.468307,
+     41.901645
+    ],
+    [
+     12.470315,
+     41.901932
+    ],
+    [
+     12.472305,
+     41.902532
+    ],
+    [
+     12.47332,
+     41.903096
+    ],
+    [
+     12.473732,
+     41.903496
+    ],
+    [
+     12.474446,
+     41.904306
+    ],
+    [
+     12.474911,
+     41.905328
+    ],
+    [
+     12.474861,
+     41.906898
+    ],
+    [
+     12.474192,
+     41.908132
+    ],
+    [
+     12.473258,
+     41.909209
+    ],
+    [
+     12.472693,
+     41.91029
+    ]
+   ],
+   "loc": [
+    12.469855,
+    41.900295
+   ],
+   "w": 1487.5,
+   "l": 2054.8,
+   "rot": 0,
+   "areaHa": 162.69
+  },
+  {
+   "monument": "campus_martius",
+   "params": {
+    "trees": 0.2,
+    "kind": "park",
+    "surface": "grass"
+   },
+   "h": 1.0,
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "2.5.2"
+    },
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "5.3.8"
+    },
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Roman Antiquities",
+     "r": "5.13.2"
+    }
+   ],
+   "scholarship": [
+    "Richardson, NTDAR (1992) s.v. Campus Martius",
+    "Coarelli, Il Campo Marzio (1997)",
+    "Haselberger, Mapping Augustan Rome (2002)",
+    "Wiseman, 'Campus Martius' in LTUR I (1993)"
+   ],
+   "id": "campus_martius_meadow_v2",
+   "name": "Campus Martius (after the Circus Flaminius)",
+   "from": -220,
+   "to": -56,
+   "importance": 3,
+   "certainty": "conjectural",
+   "summary": "The Circus Flaminius (221 BC) and the triumphal temples of the Forum Holitorium, Largo Argentina and the Porticus Metelli fill the southern end; the open field still runs from there to the river bend.",
+   "event": null,
+   "note": "Outline of the remaining open ground; buildings occupying the rest belong to the buildings collection. East edge the Via Lata/Flaminia; west edge 45 m inside the Tiber centreline (OSM). Phase boundaries simplified.",
+   "template": "garden",
+   "footprint": [
+    [
+     12.4766,
+     41.9102
+    ],
+    [
+     12.4785,
+     41.9055
+    ],
+    [
+     12.4804,
+     41.9008
+    ],
+    [
+     12.4818,
+     41.8965
+    ],
+    [
+     12.479,
+     41.8962
+    ],
+    [
+     12.476,
+     41.8958
+    ],
+    [
+     12.473,
+     41.8955
+    ],
+    [
+     12.466137,
+     41.896603
+    ],
+    [
+     12.466006,
+     41.896724
+    ],
+    [
+     12.465885,
+     41.896843
+    ],
+    [
+     12.464682,
+     41.898419
+    ],
+    [
+     12.464231,
+     41.89908
+    ],
+    [
+     12.464127,
+     41.899231
+    ],
+    [
+     12.464089,
+     41.899363
+    ],
+    [
+     12.464076,
+     41.899473
+    ],
+    [
+     12.464073,
+     41.89964
+    ],
+    [
+     12.464065,
+     41.899698
+    ],
+    [
+     12.46405,
+     41.899849
+    ],
+    [
+     12.464067,
+     41.90002
+    ],
+    [
+     12.464113,
+     41.900162
+    ],
+    [
+     12.464199,
+     41.900355
+    ],
+    [
+     12.46429,
+     41.900482
+    ],
+    [
+     12.464445,
+     41.900684
+    ],
+    [
+     12.464539,
+     41.900791
+    ],
+    [
+     12.465104,
+     41.901157
+    ],
+    [
+     12.46569,
+     41.901432
+    ],
+    [
+     12.465797,
+     41.90144
+    ],
+    [
+     12.466581,
+     41.901488
+    ],
+    [
+     12.468307,
+     41.901645
+    ],
+    [
+     12.470315,
+     41.901932
+    ],
+    [
+     12.472305,
+     41.902532
+    ],
+    [
+     12.47332,
+     41.903096
+    ],
+    [
+     12.473732,
+     41.903496
+    ],
+    [
+     12.474446,
+     41.904306
+    ],
+    [
+     12.474911,
+     41.905328
+    ],
+    [
+     12.474861,
+     41.906898
+    ],
+    [
+     12.474192,
+     41.908132
+    ],
+    [
+     12.473258,
+     41.909209
+    ],
+    [
+     12.472693,
+     41.91029
+    ]
+   ],
+   "loc": [
+    12.469433,
+    41.90129
+   ],
+   "w": 1470.9,
+   "l": 1643.6,
+   "rot": 0,
+   "areaHa": 119.4
+  },
+  {
+   "monument": "campus_martius",
+   "params": {
+    "trees": 0.2,
+    "kind": "park",
+    "surface": "grass"
+   },
+   "h": 1.0,
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "2.5.2"
+    },
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "5.3.8"
+    },
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Roman Antiquities",
+     "r": "5.13.2"
+    }
+   ],
+   "scholarship": [
+    "Richardson, NTDAR (1992) s.v. Campus Martius",
+    "Coarelli, Il Campo Marzio (1997)",
+    "Haselberger, Mapping Augustan Rome (2002)",
+    "Wiseman, 'Campus Martius' in LTUR I (1993)"
+   ],
+   "id": "campus_martius_meadow_v3",
+   "name": "Campus Martius (after Pompey and Caesar)",
+   "from": -55,
+   "to": -26,
+   "importance": 3,
+   "certainty": "conjectural",
+   "summary": "Pompey's theatre and porticus (55 BC) and Caesar's Saepta Iulia project take the central-southern plain.",
+   "event": null,
+   "note": "Outline of the remaining open ground; buildings occupying the rest belong to the buildings collection. East edge the Via Lata/Flaminia; west edge 45 m inside the Tiber centreline (OSM). Phase boundaries simplified.",
+   "template": "garden",
+   "footprint": [
+    [
+     12.4766,
+     41.9102
+    ],
+    [
+     12.4785,
+     41.9055
+    ],
+    [
+     12.4804,
+     41.9008
+    ],
+    [
+     12.4815,
+     41.8975
+    ],
+    [
+     12.4785,
+     41.8975
+    ],
+    [
+     12.475,
+     41.8975
+    ],
+    [
+     12.4725,
+     41.8986
+    ],
+    [
+     12.47,
+     41.899
+    ],
+    [
+     12.464231,
+     41.89908
+    ],
+    [
+     12.464127,
+     41.899231
+    ],
+    [
+     12.464089,
+     41.899363
+    ],
+    [
+     12.464076,
+     41.899473
+    ],
+    [
+     12.464073,
+     41.89964
+    ],
+    [
+     12.464065,
+     41.899698
+    ],
+    [
+     12.46405,
+     41.899849
+    ],
+    [
+     12.464067,
+     41.90002
+    ],
+    [
+     12.464113,
+     41.900162
+    ],
+    [
+     12.464199,
+     41.900355
+    ],
+    [
+     12.46429,
+     41.900482
+    ],
+    [
+     12.464445,
+     41.900684
+    ],
+    [
+     12.464539,
+     41.900791
+    ],
+    [
+     12.465104,
+     41.901157
+    ],
+    [
+     12.46569,
+     41.901432
+    ],
+    [
+     12.465797,
+     41.90144
+    ],
+    [
+     12.466581,
+     41.901488
+    ],
+    [
+     12.468307,
+     41.901645
+    ],
+    [
+     12.470315,
+     41.901932
+    ],
+    [
+     12.472305,
+     41.902532
+    ],
+    [
+     12.47332,
+     41.903096
+    ],
+    [
+     12.473732,
+     41.903496
+    ],
+    [
+     12.474446,
+     41.904306
+    ],
+    [
+     12.474911,
+     41.905328
+    ],
+    [
+     12.474861,
+     41.906898
+    ],
+    [
+     12.474192,
+     41.908132
+    ],
+    [
+     12.473258,
+     41.909209
+    ],
+    [
+     12.472693,
+     41.91029
+    ]
+   ],
+   "loc": [
+    12.469802,
+    41.901884
+   ],
+   "w": 1446.1,
+   "l": 1421.4,
+   "rot": 0,
+   "areaHa": 86.25
+  },
+  {
+   "monument": "campus_martius",
+   "params": {
+    "trees": 0.2,
+    "kind": "park",
+    "surface": "grass"
+   },
+   "h": 1.0,
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "2.5.2"
+    },
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "5.3.8"
+    },
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Roman Antiquities",
+     "r": "5.13.2"
+    }
+   ],
+   "scholarship": [
+    "Richardson, NTDAR (1992) s.v. Campus Martius",
+    "Coarelli, Il Campo Marzio (1997)",
+    "Haselberger, Mapping Augustan Rome (2002)",
+    "Wiseman, 'Campus Martius' in LTUR I (1993)"
+   ],
+   "id": "campus_martius_meadow_v4",
+   "name": "Campus Martius (Augustan open field)",
+   "from": -25,
+   "to": 85,
+   "importance": 3,
+   "certainty": "conjectural",
+   "summary": "After Agrippa's Pantheon, baths, Saepta and Stagnum and the Augustan Mausoleum, Ara Pacis and Horologium, Strabo describes the 'Campus' as a great open grass field for chariot racing, ball games and exercise ringed by porticoes and monuments: the western plain (later the Stadium of Domitian) and the north toward the Mausoleum.",
+   "event": null,
+   "note": "Outline of the remaining open ground; buildings occupying the rest belong to the buildings collection. East edge the Via Lata/Flaminia; west edge 45 m inside the Tiber centreline (OSM). Phase boundaries simplified.",
+   "template": "garden",
+   "footprint": [
+    [
+     12.4766,
+     41.9102
+    ],
+    [
+     12.4785,
+     41.9055
+    ],
+    [
+     12.4797,
+     41.903
+    ],
+    [
+     12.4772,
+     41.9008
+    ],
+    [
+     12.4752,
+     41.8996
+    ],
+    [
+     12.473,
+     41.8992
+    ],
+    [
+     12.4705,
+     41.899
+    ],
+    [
+     12.464231,
+     41.89908
+    ],
+    [
+     12.464127,
+     41.899231
+    ],
+    [
+     12.464089,
+     41.899363
+    ],
+    [
+     12.464076,
+     41.899473
+    ],
+    [
+     12.464073,
+     41.89964
+    ],
+    [
+     12.464065,
+     41.899698
+    ],
+    [
+     12.46405,
+     41.899849
+    ],
+    [
+     12.464067,
+     41.90002
+    ],
+    [
+     12.464113,
+     41.900162
+    ],
+    [
+     12.464199,
+     41.900355
+    ],
+    [
+     12.46429,
+     41.900482
+    ],
+    [
+     12.464445,
+     41.900684
+    ],
+    [
+     12.464539,
+     41.900791
+    ],
+    [
+     12.465104,
+     41.901157
+    ],
+    [
+     12.46569,
+     41.901432
+    ],
+    [
+     12.465797,
+     41.90144
+    ],
+    [
+     12.466581,
+     41.901488
+    ],
+    [
+     12.468307,
+     41.901645
+    ],
+    [
+     12.470315,
+     41.901932
+    ],
+    [
+     12.472305,
+     41.902532
+    ],
+    [
+     12.47332,
+     41.903096
+    ],
+    [
+     12.473732,
+     41.903496
+    ],
+    [
+     12.474446,
+     41.904306
+    ],
+    [
+     12.474911,
+     41.905328
+    ],
+    [
+     12.474861,
+     41.906898
+    ],
+    [
+     12.474192,
+     41.908132
+    ],
+    [
+     12.473258,
+     41.909209
+    ],
+    [
+     12.472693,
+     41.91029
+    ]
+   ],
+   "loc": [
+    12.469445,
+    41.902243
+   ],
+   "w": 1296.9,
+   "l": 1254.7,
+   "rot": 0,
+   "areaHa": 63.07
+  },
+  {
+   "monument": "campus_martius",
+   "params": {
+    "trees": 0.2,
+    "kind": "park",
+    "surface": "grass"
+   },
+   "h": 1.0,
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "2.5.2"
+    },
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "5.3.8"
+    },
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Roman Antiquities",
+     "r": "5.13.2"
+    }
+   ],
+   "scholarship": [
+    "Richardson, NTDAR (1992) s.v. Campus Martius",
+    "Coarelli, Il Campo Marzio (1997)",
+    "Haselberger, Mapping Augustan Rome (2002)",
+    "Wiseman, 'Campus Martius' in LTUR I (1993)"
+   ],
+   "id": "campus_martius_meadow_v5",
+   "name": "Campus Martius (north field)",
+   "from": 86,
+   "to": 199,
+   "importance": 3,
+   "certainty": "conjectural",
+   "summary": "Domitian's Stadium and Odeum (c. 86) and Hadrianic and Antonine temples and columns fill the west and centre; the open ground survives in the north, by the river and the imperial ustrina.",
+   "event": null,
+   "note": "Outline of the remaining open ground; buildings occupying the rest belong to the buildings collection. East edge the Via Lata/Flaminia; west edge 45 m inside the Tiber centreline (OSM). Phase boundaries simplified.",
+   "template": "garden",
+   "footprint": [
+    [
+     12.4766,
+     41.9102
+    ],
+    [
+     12.4785,
+     41.9055
+    ],
+    [
+     12.479,
+     41.9048
+    ],
+    [
+     12.4772,
+     41.903
+    ],
+    [
+     12.4745,
+     41.9022
+    ],
+    [
+     12.4725,
+     41.9012
+    ],
+    [
+     12.465104,
+     41.901157
+    ],
+    [
+     12.46569,
+     41.901432
+    ],
+    [
+     12.465797,
+     41.90144
+    ],
+    [
+     12.466581,
+     41.901488
+    ],
+    [
+     12.468307,
+     41.901645
+    ],
+    [
+     12.470315,
+     41.901932
+    ],
+    [
+     12.472305,
+     41.902532
+    ],
+    [
+     12.47332,
+     41.903096
+    ],
+    [
+     12.473732,
+     41.903496
+    ],
+    [
+     12.474446,
+     41.904306
+    ],
+    [
+     12.474911,
+     41.905328
+    ],
+    [
+     12.474861,
+     41.906898
+    ],
+    [
+     12.474192,
+     41.908132
+    ],
+    [
+     12.473258,
+     41.909209
+    ],
+    [
+     12.472693,
+     41.91029
+    ]
+   ],
+   "loc": [
+    12.472562,
+    41.904251
+   ],
+   "w": 1151.6,
+   "l": 1015.0,
+   "rot": 0,
+   "areaHa": 31.73
+  },
+  {
+   "monument": "campus_martius",
+   "params": {
+    "trees": 0.2,
+    "kind": "park",
+    "surface": "grass"
+   },
+   "h": 1.0,
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "2.5.2"
+    },
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "5.3.8"
+    },
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Roman Antiquities",
+     "r": "5.13.2"
+    }
+   ],
+   "scholarship": [
+    "Richardson, NTDAR (1992) s.v. Campus Martius",
+    "Coarelli, Il Campo Marzio (1997)",
+    "Haselberger, Mapping Augustan Rome (2002)",
+    "Wiseman, 'Campus Martius' in LTUR I (1993)"
+   ],
+   "id": "campus_martius_meadow_v6",
+   "name": "Campus Martius (northern remnant)",
+   "from": 200,
+   "to": 9999,
+   "importance": 3,
+   "certainty": "conjectural",
+   "summary": "Only the northern margin by the Mausoleum of Augustus and the river stays open; from the 5th century the built-up Campus becomes the core of the shrinking medieval city.",
+   "event": null,
+   "note": "Outline of the remaining open ground; buildings occupying the rest belong to the buildings collection. East edge the Via Lata/Flaminia; west edge 45 m inside the Tiber centreline (OSM). Phase boundaries simplified.",
+   "template": "garden",
+   "footprint": [
+    [
+     12.4766,
+     41.9102
+    ],
+    [
+     12.478,
+     41.9068
+    ],
+    [
+     12.476,
+     41.905
+    ],
+    [
+     12.4735,
+     41.9048
+    ],
+    [
+     12.474911,
+     41.905328
+    ],
+    [
+     12.474861,
+     41.906898
+    ],
+    [
+     12.474192,
+     41.908132
+    ],
+    [
+     12.473258,
+     41.909209
+    ]
+   ],
+   "loc": [
+    12.475165,
+    41.907046
+   ],
+   "w": 393.0,
+   "l": 600.1,
+   "rot": 0,
+   "areaHa": 12.89
+  }
+ ],
+ "notes": "Garden footprints are reconstructions (certainty per record). Not included: the Porticus Liviae garden and the Templum Pacis gardens (belong to their buildings); the 'Horti Antoniani' could not be securely identified or located in the sources consulted, so no record was made. Horti Pompeiani 'superiores' (Asconius) not located."
+}

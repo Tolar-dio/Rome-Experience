@@ -29,17 +29,23 @@ export class MiniMap {
     }
     g.strokeStyle = 'rgba(42,33,28,.18)'; g.lineWidth = 1.2;
     for (const s of city.streets || []) { if (year < s.f || year > s.t) continue; g.beginPath(); s.ln.forEach((q, i) => { const [x, y] = this.P(q[0], q[1]); i ? g.lineTo(x, y) : g.moveTo(x, y); }); g.stroke(); }
+    if (this.c.layers.regions) {
+      g.strokeStyle = 'rgba(46,107,138,.55)'; g.lineWidth = 1; g.setLineDash([3, 3]);
+      for (const r of city.regions || []) { if (year < r.f || year > r.t) continue; g.beginPath(); r.poly.forEach((q, i) => { const [x, y] = this.P(q[0], q[1]); i ? g.lineTo(x, y) : g.moveTo(x, y); }); g.closePath(); g.stroke(); }
+      g.setLineDash([]);
+    }
     g.strokeStyle = '#6B2346'; g.lineWidth = 2.2;
     for (const w of city.walls || []) { if (year < w.f || year > w.t) continue; g.beginPath(); w.ln.forEach((q, i) => { const [x, y] = this.P(q[0], q[1]); i ? g.lineTo(x, y) : g.moveTo(x, y); }); g.stroke(); }
     g.fillStyle = 'rgba(42,33,28,.55)';
     for (const bd of city.buildings) { if (bd.imp < 4 || year < bd.f || year > bd.t || bd.water) continue; const [x, y] = this.P(bd.x, bd.z); g.fillRect(x - 1.5, y - 1.5, 3, 3); }
     g.font = 'italic 15px Spectral, Georgia, serif'; g.fillStyle = '#4b3d2f'; g.textAlign = 'center';
     for (const h of city.hills || []) { if (h.sub) continue; const [x, y] = this.P(h.x, h.z); g.fillText(h.n, x, y); }
-    this.base = b; this.baseYear = key;
+    this.base = b;
   }
   draw() {
     const c = this.c; if (!c.city) return;
-    if (this.baseYear !== c.year) this.drawBase(c.year);
+    const bk = c.year + ':' + !!c.layers.regions;
+    if (this.baseYear !== bk) { this.drawBase(c.year); this.baseYear = bk; }
     const g = this.cv.getContext('2d');
     g.drawImage(this.base, 0, 0);
     // camera footprint: project the four screen corners onto the ground plane at target height

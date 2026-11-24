@@ -43,6 +43,7 @@ async function ensure() {
       },
       onSelectEvent: (ev) => { select('cityevent', ev.id, { fly: false }); if (S.year !== ev.y) setYear(ev.y); },
       onSelectPlace: (p) => select('cityplace', p.id, { fly: false }),
+      onSelectRegion: (r) => select('cityregion', r.id, { fly: false }),
     });
     await c.load((msg, f) => { boot.querySelector('.msg').textContent = msg; boot.querySelector('.bar i').style.width = Math.round(f * 100) + '%'; });
     registerCity(c.city);
@@ -129,6 +130,7 @@ function renderToolbar() {
       <label><input type="checkbox" data-l="labels" ${L.labels ? 'checked' : ''}> Building names</label>
       <label><input type="checkbox" data-l="events" ${L.events ? 'checked' : ''}> Events pinned to the spot</label>
       <label class="sub">window <select data-a="win"><option value="0" ${c.eventWindow === 0 ? 'selected' : ''}>this year</option><option value="5" ${c.eventWindow === 5 ? 'selected' : ''}>±5 years</option><option value="25" ${c.eventWindow === 25 ? 'selected' : ''}>±25 years</option><option value="100" ${c.eventWindow === 100 ? 'selected' : ''}>±100 years</option></select></label>
+      <label><input type="checkbox" data-l="regions" ${L.regions ? 'checked' : ''}> The fourteen regions (outlines on the plan)</label>
       <label><input type="checkbox" data-l="places" ${L.places ? 'checked' : ''}> Daily life: shops, baths, stations, houses</label>
       <label><input type="checkbox" data-l="fabric" ${L.fabric ? 'checked' : ''}> Ordinary housing (generated)</label>
       <label><input type="checkbox" data-l="shadows" ${L.shadows ? 'checked' : ''}> Shadows</label>
