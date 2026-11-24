@@ -6,40 +6,68 @@ const CELLS = 72;   // cells per chunk at LOD0 (N - 1 = 1152 = 16 * 72)
 const LODS = [1, 2, 4, 8];
 
 export class Terrain {
-  constructor(meta, baseBuf, layerBuf) {
+  constructor(meta, baseBuf, snapBuf) {
     this.meta = meta;
     this.N = meta.n; this.x0 = meta.x0; this.z0 = meta.z0; this.step = meta.step; this.size = meta.size;
     const u16 = new Uint16Array(baseBuf);
     this.base = new Float32Array(u16.length);
     for (let i = 0; i < u16.length; i++) this.base[i] = u16[i] / 100 - 20;
     this.h = new Float32Array(this.base);
-    this.layerBytes = layerBuf ? new Uint8Array(layerBuf) : new Uint8Array(0);
-    this.layers = meta.layers || [];
-    this.sig = '';
+    this.snapData = snapBuf ? new Int16Array(snapBuf) : new Int16Array(0);
+    this.years = meta.snapYears || [-509];
+    this.snaps = [{ y: this.years[0], map: new Map() }].concat((meta.snaps || []).map((s) => ({ y: s.y, map: new Map(s.tiles.map(([ti, tj, off]) => [ti + ',' + tj, off / 2])) })));
+    this.T = meta.tile || 64;
+    this.key = '';
+    this.dirtyTiles = new Set();
     this.group = new THREE.Group();
     this.group.name = 'terrain';
     this.chunks = [];
     this.material = terrainMaterial(meta.waterLevel);
-    this.depthMat = null;
   }
 
-  // active layer signature for a year
-  signature(y) { return this.layers.map((L) => (y >= L.from && y <= L.to ? '1' : '0')).join(''); }
+  waterLevel(y) {
+    const w = this.meta.water || [];
+    if (!w.length) return this.meta.waterLevel || 5;
+    if (y <= w[0].y) return w[0].wl;
+    for (let k = 0; k < w.length - 1; k++) if (y <= w[k + 1].y) return w[k].wl + (w[k + 1].wl - w[k].wl) * (y - w[k].y) / (w[k + 1].y - w[k].y);
+    return w[w.length - 1].wl;
+  }
 
   applyYear(y) {
-    const sig = this.signature(y);
-    if (sig === this.sig) return false;
-    this.sig = sig;
-    const N = this.N, h = this.h;
-    h.set(this.base);
-    this.layers.forEach((L, k) => {
-      if (sig[k] !== '1') return;
-      for (let j = 0; j < L.h; j++) {
-        const row = (L.j0 + j) * N + L.i0, src = L.off + j * L.w;
-        for (let i = 0; i < L.w; i++) { const m = this.layerBytes[src + i]; if (m) h[row + i] += L.delta * m / 255; }
+    const ys = this.years;
+    let k = 0;
+    while (k < ys.length - 1 && ys[k + 1] <= y) k++;
+    let w = k < ys.length - 1 ? (y - ys[k]) / (ys[k + 1] - ys[k]) : 0;
+    w = Math.max(0, Math.min(1, Math.round(w * 8) / 8));
+    if (w === 1) { k++; w = 0; }
+    const key = k + ':' + w;
+    if (key === this.key) return false;
+    this.key = key;
+    const A = this.snaps[k], B = this.snaps[Math.min(k + 1, this.snaps.length - 1)];
+    const tiles = new Set([...this.dirtyTiles, ...A.map.keys(), ...(w > 0 ? B.map.keys() : [])]);
+    const N = this.N, T = this.T, h = this.h, base = this.base, D = this.snapData;
+    const changed = new Set();
+    for (const key2 of tiles) {
+      const [ti, tj] = key2.split(',').map(Number);
+      const oa = A.map.get(key2), ob = w > 0 ? B.map.get(key2) : undefined;
+      const i0 = ti * T, j0 = tj * T, iw = Math.min(T, N - i0), jh = Math.min(T, N - j0);
+      for (let j = 0; j < jh; j++) for (let i = 0; i < iw; i++) {
+        const g = (j0 + j) * N + i0 + i, l = j * iw + i;
+        const da = oa !== undefined ? D[oa + l] / 100 : 0, db = ob !== undefined ? D[ob + l] / 100 : 0;
+        h[g] = base[g] + da * (1 - w) + db * w;
       }
-    });
-    if (this.chunks.length) this.updateGeometry();
+      changed.add(key2);
+    }
+    this.dirtyTiles = new Set([...A.map.keys(), ...(w > 0 ? B.map.keys() : [])]);
+    if (this.chunks.length) {
+      const C = 72 * this.step;
+      for (const c of this.chunks) {
+        // chunk covers grid cells [ci*72, ci*72+72]; tile covers [ti*T, ti*T+T]
+        let hit = false;
+        for (const key2 of changed) { const [ti, tj] = key2.split(',').map(Number); if (ti * T <= c.ci * 72 + 72 && ti * T + T >= c.ci * 72 && tj * T <= c.cj * 72 + 72 && tj * T + T >= c.cj * 72) { hit = true; break; } }
+        if (hit) for (const g of c.lods) this.fillHeights(g);
+      }
+    }
     return true;
   }
 

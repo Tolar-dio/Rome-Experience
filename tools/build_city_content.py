@@ -101,7 +101,8 @@ def dedupe(items, warn):
             if a.get('_src') == b.get('_src'):
                 continue
             d = math.hypot(pts[i][0] - pts[j][0], pts[i][1] - pts[j][1])
-            if d > 45:
+            small = {'obelisk', 'column', 'statue', 'altar', 'fountain', 'tomb', 'arch', 'tholos'}
+            if d > (10 if (a.get('template') in small or b.get('template') in small) else 45):
                 continue
             fa, ta = yr(a.get('from'), YMIN), yr(a.get('to'), YMAX)
             fb, tb = yr(b.get('from'), YMIN), yr(b.get('to'), YMAX)
@@ -121,8 +122,11 @@ def dedupe(items, warn):
     return [r for k, r in enumerate(items) if k not in drop]
 
 
-def build(C, meta, base):
-    layers = Layers(meta['terrain'])
+def build(C, meta, sampler):
+    class _L:
+        def height(self, _b, x, z, y):
+            return sampler.height(x, z, y)
+    layers = _L(); base = None
     text = {}
     warn = []
 
@@ -372,7 +376,8 @@ def build(C, meta, base):
             cx, cz = to_local(*sm)
         else:
             continue
-        hills.append({'id': hl.get('id'), 'n': hl.get('name'), 'x': round(cx, 1), 'z': round(cz, 1)})
+        nm = re.sub(r'\s*\(.*?\)', '', hl.get('name') or '').strip()
+        hills.append({'id': hl.get('id'), 'n': nm or hl.get('name'), 'x': round(cx, 1), 'z': round(cz, 1), 'sub': 1 if (hl.get('partOf') or hl.get('artificial')) else 0})
 
     city = {'meta': {'origin': [12.4853, 41.8925], 'terrain': meta['terrain'], 'counts': {}},
             'buildings': blds, 'walls': walls, 'gates': gates, 'streets': streets, 'aqueducts': aqueducts, 'regions': regions,

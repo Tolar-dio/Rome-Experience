@@ -287,10 +287,15 @@ if __name__ == '__main__':
     print('content:', {k: (len(v) if isinstance(v, list) else len(v.keys())) for k, v in C.items()})
     meta = {}
     if 'terrain' in stages or 'city' in stages:
-        tmeta, base = build_terrain(C)
+        import build_terrain
+        import pickle
+        cache = os.path.join(SRC, 'terrain_cache.pkl')
+        if 'terrain' in stages or not os.path.exists(cache):
+            tmeta, sampler = build_terrain.build(C['terrain'])
+            pickle.dump((tmeta, sampler), open(cache, 'wb'))
+        else:
+            tmeta, sampler = pickle.load(open(cache, 'rb'))
         meta['terrain'] = tmeta
-        np.save(os.path.join(SRC, 'ancient_base.npy'), base)
-        print('terrain', base.min(), base.max(), len(tmeta['layers']), 'layers')
     if 'city' in stages:
         import build_city_content as bcc
-        bcc.build(C, meta, base)
+        bcc.build(C, meta, sampler)

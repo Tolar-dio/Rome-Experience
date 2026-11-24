@@ -16,7 +16,7 @@ import numpy as np
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, 'data', 'city')
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from build_city import TN, TX0, TZ0, TSTEP, TSIZE, P, to_local
+from build_city import TN, TX0, TZ0, TSTEP, TSIZE, P, to_local, SRC
 
 TYPES = {'hut': 0, 'house': 1, 'domus': 2, 'insula': 3, 'villa': 4, 'shops': 5, 'tomb': 6, 'shed': 7}
 G = 4.0  # occupancy raster resolution (m)
@@ -69,8 +69,8 @@ def phase_at(zone, y):
 def main():
     city = json.load(open(os.path.join(OUT, 'city.json')))
     rnd = random.Random(1729)
-    river = np.fromfile(os.path.join(OUT, 'river.bin'), np.uint8).reshape(TN, TN)
-    terr = np.fromfile(os.path.join(OUT, 'terrain.bin'), '<u2').reshape(TN, TN).astype(np.float32) / 100 - 20
+    river = np.fromfile(os.path.join(SRC, 'river.bin'), np.uint8).reshape(TN, TN)
+    terr = np.fromfile(os.path.join(SRC, 'terrain_base.bin'), '<u2').reshape(TN, TN).astype(np.float32) / 100 - 20
     wl = city['meta']['terrain'].get('waterLevel', 6.5)
     gy, gx = np.gradient(terr, TSTEP)
     slope = np.hypot(gx, gy)

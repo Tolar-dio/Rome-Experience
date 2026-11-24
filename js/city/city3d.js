@@ -15,6 +15,11 @@ export const toLocal = (lon, lat) => [(lon - ORIGIN[0]) * M_LON, -(lat - ORIGIN[
 export const toLonLat = (x, z) => [ORIGIN[0] + x / M_LON, ORIGIN[1] - z / M_LAT];
 
 async function bin(url) { const r = await fetch(url); if (!r.ok) throw new Error(url + ' ' + r.status); return r.arrayBuffer(); }
+async function gzbin(url) {
+  const r = await fetch(url); if (!r.ok) throw new Error(url + ' ' + r.status);
+  if (typeof DecompressionStream === 'undefined') throw new Error('This browser cannot unpack the terrain (needs DecompressionStream)');
+  return new Response(r.body.pipeThrough(new DecompressionStream('gzip'))).arrayBuffer();
+}
 async function json(url) { const r = await fetch(url); if (!r.ok) throw new Error(url + ' ' + r.status); return r.json(); }
 
 const MOBILE = matchMedia('(max-width: 760px), (pointer: coarse)').matches;
@@ -36,8 +41,8 @@ export class City3D {
     const city = await json('data/city/city.json');
     this.city = city;
     const tm = city.meta.terrain;
-    const [tb, lb] = await Promise.all([bin('data/city/terrain.bin'), bin('data/city/terrain_layers.bin').catch(() => null)]);
-    this.terrain = new Terrain(tm, tb, lb);
+    const [tb, sb] = await Promise.all([gzbin('data/city/terrain.bin.gz'), gzbin('data/city/terrain_snaps.bin.gz').catch(() => null)]);
+    this.terrain = new Terrain(tm, tb, sb);
     this.terrain.applyYear(this.year);
     this.terrain.build();
     progress('Raising the buildings', 0.25);
@@ -183,6 +188,7 @@ export class City3D {
     this.year = y;
     U.uYear.value = y;
     if (this.terrain && this.terrain.applyYear(y)) { /* ground moved */ }
+    if (this.water) this.water.position.y = this.terrain.waterLevel(y);
     if (this.fabric) this.fabric.setYear(y);
     this.updateGround(y);
     this.refreshLabels = true;
@@ -428,7 +434,7 @@ export class City3D {
           if (!(y >= b.b && y <= b.t)) continue;
           items.push({ type: 'bld', imp: b.imp || 2, x: b.x, z: b.z, yy: b.y + b.h + 4, text: b.n, i: r.i ?? this.world.records.indexOf(r), building: b, under: y < b.f });
         }
-        for (const g of this.city.hills || []) items.push({ type: 'hill', imp: 6, x: g.x, z: g.z, yy: this.terrain.heightAt(g.x, g.z) + 30, text: g.n });
+        for (const g of this.city.hills || []) items.push({ type: g.sub ? 'subhill' : 'hill', imp: g.sub ? 3 : 6, x: g.x, z: g.z, yy: this.terrain.heightAt(g.x, g.z) + 30, text: g.n });
       }
       if (this.layers.events) {
         const W = this.eventWindow;
@@ -443,7 +449,7 @@ export class City3D {
       this.labelLayer.textContent = '';
       for (const it of items) {
         const d = document.createElement('div');
-        d.className = 'c3d-label t-' + it.type + (it.under ? ' under' : '');
+        d.className = 'c3d-label t-' + (it.type === 'subhill' ? 'hill sub' : it.type) + (it.under ? ' under' : '');
         if (it.type === 'event') {
           d.innerHTML = `<span class="pin"></span><span class="tx"></span>`;
           d.querySelector('.tx').textContent = it.text;
@@ -465,7 +471,7 @@ export class City3D {
       if (shown >= cap && it.type !== 'event') { it.el.style.display = 'none'; continue; }
       v.set(it.x, it.yy, it.z);
       const dist = camPos.distanceTo(v);
-      const maxD = it.type === 'event' ? 6000 : it.type === 'hill' ? 9000 : it.type === 'place' ? 400 : it.imp >= 5 ? 4200 : it.imp >= 4 ? 1800 : it.imp >= 3 ? 700 : it.imp >= 2 ? 320 : 160;
+      const maxD = it.type === 'event' ? 6000 : it.type === 'hill' ? 9000 : it.type === 'subhill' ? 900 : it.type === 'place' ? 400 : it.imp >= 5 ? 4200 : it.imp >= 4 ? 1800 : it.imp >= 3 ? 700 : it.imp >= 2 ? 320 : 160;
       v.project(cam);
       if (v.z > 1 || dist > maxD || Math.abs(v.x) > 1.1 || Math.abs(v.y) > 1.1) { it.el.style.display = 'none'; continue; }
       const sx = (v.x + 1) / 2 * w, sy = (1 - v.y) / 2 * h;
@@ -482,7 +488,7 @@ export class City3D {
     if (it.type === 'bld') { const i = this.world.records.findIndex((r) => r.rec === it.building && !r.ruin); U.uSel.value = i; this.dirty = true; this.opts.onSelect && this.opts.onSelect(this.world.records[i], i); }
     else if (it.type === 'event') this.opts.onSelectEvent && this.opts.onSelectEvent(it.ev);
     else if (it.type === 'place') this.opts.onSelectPlace && this.opts.onSelectPlace(it.place);
-    else if (it.type === 'hill') this.focusXZ(it.x, it.z, 900);
+    else if (it.type === 'hill' || it.type === 'subhill') this.focusXZ(it.x, it.z, 900);
   }
 
   // the record currently standing for a monument id, if any

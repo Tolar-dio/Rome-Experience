@@ -34,7 +34,7 @@ export class MiniMap {
     g.fillStyle = 'rgba(42,33,28,.55)';
     for (const bd of city.buildings) { if (bd.imp < 4 || year < bd.f || year > bd.t || bd.water) continue; const [x, y] = this.P(bd.x, bd.z); g.fillRect(x - 1.5, y - 1.5, 3, 3); }
     g.font = 'italic 15px Spectral, Georgia, serif'; g.fillStyle = '#4b3d2f'; g.textAlign = 'center';
-    for (const h of city.hills || []) { const [x, y] = this.P(h.x, h.z); g.fillText(h.n, x, y); }
+    for (const h of city.hills || []) { if (h.sub) continue; const [x, y] = this.P(h.x, h.z); g.fillText(h.n, x, y); }
     this.base = b; this.baseYear = key;
   }
   draw() {
