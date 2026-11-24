@@ -1,0 +1,17 @@
+{
+ "terrainIndex": {
+  "files": [
+   "terrain_1.json",
+   "terrain_2.json",
+   "terrain_3.json"
+  ],
+  "counts": {
+   "hills": 25,
+   "valleys": 58,
+   "tiberCenterline": 130,
+   "waters": 20,
+   "corrections": 50
+  },
+  "note": "Merge the 'terrain' objects of the parts: terrain_1 = meta, hills, valleys; terrain_2 = tiber, waters; terrain_3 = corrections."
+ }
+}

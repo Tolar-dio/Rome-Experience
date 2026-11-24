@@ -1,0 +1,4323 @@
+{
+ "district": "C",
+ "buildings": [
+  {
+   "id": "circus_flaminius_v1",
+   "monument": "circus_flaminius",
+   "name": "Circus Flaminius (open field)",
+   "from": -221,
+   "to": -30,
+   "builder": "gaius_flaminius",
+   "template": "forum",
+   "loc": [
+    12.477576,
+    41.892426
+   ],
+   "rot": 124.0,
+   "w": 100,
+   "l": 300,
+   "h": 0.3,
+   "footprint": [
+    [
+     12.479414,
+     41.892044
+    ],
+    [
+     12.47874,
+     41.891298
+    ],
+    [
+     12.475738,
+     41.892808
+    ],
+    [
+     12.476412,
+     41.893554
+    ],
+    [
+     12.479414,
+     41.892044
+    ]
+   ],
+   "params": {
+    "wallH": 0,
+    "colonnades": 0,
+    "exedrae": null,
+    "paving": "grass"
+   },
+   "importance": 4,
+   "certainty": "reconstructed",
+   "summary": "Laid out by the censor Gaius Flaminius in 221 BC on the Prata Flaminia: not a racecourse with stands but a long open space used for the plebeian games, for assemblies, for triumphal musters and as the start of the triumphal procession. Victory temples and porticoes lined its edges.",
+   "phases": [
+    {
+     "y": -221,
+     "t": "laid out by the censor C. Flaminius"
+    },
+    {
+     "y": -187,
+     "t": "triumphal games and temples begin to line it"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Periochae",
+     "r": "20"
+    },
+    {
+     "a": "Varro",
+     "w": "De lingua Latina",
+     "r": "5.154"
+    },
+    {
+     "a": "Festus",
+     "w": "De verborum significatu",
+     "r": "p. 79 L"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 83",
+    "Gatti, in Carettoni et al., La pianta marmorea di Roma antica (1960)",
+    "Stanford Digital Forma Urbis Romae Project (formaurbis.stanford.edu), fr. 31ii",
+    "Coarelli, Il Campo Marzio dalle origini alla fine della repubblica (1997)"
+   ],
+   "note": "Following Gatti: an open strip about 300 x 100 m between the Tiber and the joint facade of the Porticus Octaviae and Porticus Philippi, running ESE-WNW parallel to that facade, with its rounded end to the WNW under Monte dei Cenci. rot 124 = from the rounded WNW end toward the open ESE end (the schema's circus convention). Boundaries on the long sides are the Marble Plan lines (fr. 31ii, 31u, 31cc, 31z); length is reasoned from Monte dei Cenci to the Theatre of Marcellus. No seating has ever been found."
+  },
+  {
+   "id": "circus_flaminius_v2",
+   "monument": "circus_flaminius",
+   "name": "Circus Flaminius (paved piazza)",
+   "from": -29,
+   "to": 9999,
+   "template": "forum",
+   "loc": [
+    12.477576,
+    41.892426
+   ],
+   "rot": 124.0,
+   "w": 100,
+   "l": 300,
+   "h": 0.4,
+   "footprint": [
+    [
+     12.479414,
+     41.892044
+    ],
+    [
+     12.47874,
+     41.891298
+    ],
+    [
+     12.475738,
+     41.892808
+    ],
+    [
+     12.476412,
+     41.893554
+    ],
+    [
+     12.479414,
+     41.892044
+    ]
+   ],
+   "params": {
+    "wallH": 0,
+    "colonnades": 0,
+    "exedrae": null,
+    "paving": "paving_travertine"
+   },
+   "importance": 4,
+   "certainty": "reconstructed",
+   "summary": "After the Augustan rebuilding of the Porticus Octaviae and Philippi and the building of the Theatre of Marcellus, which cut into its eastern end, the Circus Flaminius was a monumental paved piazza in front of the porticoes. In 2 BC it was flooded and 36 crocodiles were slaughtered in it. The Regionary Catalogues still name it in the 4th century.",
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "55.10.8"
+    },
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "5.3.8"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 83",
+    "Gatti, in Carettoni et al., La pianta marmorea di Roma antica (1960)",
+    "Stanford Digital Forma Urbis Romae Project (formaurbis.stanford.edu), fr. 31ii",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Circus Flaminius"
+   ],
+   "note": "Gatti suggested the area was paved in the imperial period. Same footprint as v1; the Theatre of Marcellus overlaps its ESE end."
+  },
+  {
+   "id": "temple_apollo_medicus_v1",
+   "monument": "temple_of_apollo_sosianus",
+   "name": "Temple of Apollo Medicus",
+   "from": -431,
+   "to": -180,
+   "builderName": "Gn. Julius Mento (consul 431 BC)",
+   "template": "temple",
+   "loc": [
+    12.47956,
+    41.89249
+   ],
+   "rot": 178.0,
+   "w": 17.0,
+   "l": 30.0,
+   "h": 15.5,
+   "params": {
+    "order": "tuscan",
+    "plan": "prostyle",
+    "front": 4,
+    "side": 3,
+    "podium": 3.0,
+    "colH": 8.5,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    },
+    "acroteria": true
+   },
+   "importance": 3,
+   "certainty": "conjectural",
+   "summary": "Vowed in 433 BC during a plague and dedicated by the consul Gnaeus Julius in 431, the first and for centuries the only temple of Apollo in Rome, outside the pomerium in the Prata Flaminia (the Apollinar). The Senate met here when it had to receive generals and envoys outside the city.",
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "4.25.3"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "4.29.7"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 12",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Apollo, aedes in circo",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)"
+   ],
+   "note": "Form unknown: a tufa podium of an earlier temple was found under the Augustan one. Modelled as a small Tuscan temple on the later footprint and orientation; dimensions are guesses."
+  },
+  {
+   "id": "temple_apollo_medicus_v2",
+   "monument": "temple_of_apollo_sosianus",
+   "name": "Temple of Apollo Medicus (restored 179 BC)",
+   "from": -179,
+   "to": -35,
+   "template": "temple",
+   "loc": [
+    12.47956,
+    41.89249
+   ],
+   "rot": 178.0,
+   "w": 21.0,
+   "l": 38.0,
+   "h": 18.2,
+   "params": {
+    "order": "tuscan",
+    "plan": "prostyle",
+    "front": 6,
+    "side": 3,
+    "podium": 4.0,
+    "colH": 9.5,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "conjectural",
+   "summary": "Restored in the mid-Republican building campaigns; in 179 BC the censor M. Fulvius Nobilior contracted for a porticus running from the temple toward the Tiber. A podium wall attributed by Frank to this phase survives under the Augustan temple.",
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "40.51.6"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 12",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Apollo, aedes in circo"
+   ],
+   "note": "Frank dated much of the surviving podium to 179 BC; others (Delbrueck) to the original. Form conjectural."
+  },
+  {
+   "id": "temple_apollo_sosianus_v3",
+   "monument": "temple_of_apollo_sosianus",
+   "name": "Temple of Apollo Sosianus",
+   "from": -20,
+   "to": 9999,
+   "begun": -34,
+   "builderName": "Gaius Sosius; completed under Augustus",
+   "template": "temple",
+   "loc": [
+    12.47956,
+    41.89249
+   ],
+   "rot": 178.0,
+   "w": 21.3,
+   "l": 40.0,
+   "h": 25.6,
+   "params": {
+    "order": "corinthian",
+    "plan": "pseudoperipteral",
+    "front": 6,
+    "side": 9,
+    "podium": 5.0,
+    "colH": 14.6,
+    "steps": "lateral",
+    "mat": {
+     "podium": "travertine",
+     "columns": "marble_white",
+     "walls": "marble_white",
+     "roof": "roof_tile"
+    },
+    "cella": {
+     "w": 21.3,
+     "l": 26.0
+    },
+    "acroteria": true
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "Rebuilt from 34 BC by Gaius Sosius, Antony's partisan, and completed after Actium as an Augustan monument, dedicated on 23 September, Augustus' birthday. Hexastyle, with Carrara marble columns along the front and pronaos and engaged columns down the cella; the pediment carried a Greek Amazonomachy of the 5th century BC and the cella held famous Greek statuary. Three columns stand re-erected beside the Theatre of Marcellus.",
+   "phases": [
+    {
+     "y": -34,
+     "t": "Sosius begins the rebuilding"
+    },
+    {
+     "y": -20,
+     "t": "dedicated on 23 September as an Augustan monument (date approximate)"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Natural History",
+     "r": "13.53"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Natural History",
+     "r": "36.28"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Natural History",
+     "r": "36.34"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 12-13",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Apollo, aedes in circo",
+    "La Rocca, Amazzonomachia: le sculture frontonali del tempio di Apollo Sosiano (1985)"
+   ],
+   "note": "Oriented almost due south, unlike its neighbours. The frontal stair was replaced by two lateral stairs when the Theatre of Marcellus was built against its front. Column height ~14.6 m from the re-erected columns; podium ~40 x 21 m."
+  },
+  {
+   "id": "temple_bellona_v1",
+   "monument": "temple_of_bellona",
+   "name": "Temple of Bellona",
+   "from": -290,
+   "to": -31,
+   "begun": -296,
+   "builder": "appius_claudius_caecus",
+   "template": "temple",
+   "loc": [
+    12.479885,
+    41.89243
+   ],
+   "rot": 170.0,
+   "w": 20.0,
+   "l": 36.0,
+   "h": 18.7,
+   "params": {
+    "order": "tuscan",
+    "plan": "peripteros_sine_postico",
+    "front": 6,
+    "side": 8,
+    "podium": 4.0,
+    "colH": 10.0,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "Vowed by Appius Claudius Caecus in 296 BC during the battle against Etruscans and Samnites. Outside the pomerium, it was where the Senate received envoys and victorious generals asking for triumphs; before it stood the Columna Bellica, over which the fetial threw the spear that declared war on a distant enemy.",
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "10.19.17"
+    },
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "6.201-208"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Natural History",
+     "r": "35.12"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 57-58",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Bellona, aedes in circo",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)"
+   ],
+   "note": "Identified (Coarelli) with the podium immediately east of Apollo Sosianus, which has a different orientation; rot 170 is approximate. Dedication date c. 290 BC assumed."
+  },
+  {
+   "id": "temple_bellona_v2",
+   "monument": "temple_of_bellona",
+   "name": "Temple of Bellona (Augustan restoration)",
+   "from": -30,
+   "to": 9999,
+   "template": "temple",
+   "loc": [
+    12.479885,
+    41.89243
+   ],
+   "rot": 170.0,
+   "w": 20.0,
+   "l": 36.0,
+   "h": 21.7,
+   "params": {
+    "order": "corinthian",
+    "plan": "peripteros_sine_postico",
+    "front": 6,
+    "side": 8,
+    "podium": 4.5,
+    "colH": 12.0,
+    "steps": "front",
+    "mat": {
+     "podium": "concrete_faced",
+     "columns": "travertine",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "conjectural",
+   "summary": "Restored in the Augustan remodelling of the area around the Theatre of Marcellus, when Bellona, Apollo and the theatre were tied into one architectural group. Still the setting of the Senate's war ceremonies under the emperors; Marcus Aurelius threw the fetial spear from the Columna Bellica in 178.",
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "72.33.3"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 57-58",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)"
+   ],
+   "note": "Augustan restoration inferred from the tight planning of the group; details conjectural."
+  },
+  {
+   "id": "temple_pietas_in_circo",
+   "monument": "temple_of_pietas_in_circo",
+   "name": "Temple of Pietas (in circo Flaminio)",
+   "from": -150,
+   "to": -45,
+   "template": "temple",
+   "loc": [
+    12.47899,
+    41.89161
+   ],
+   "rot": 250.0,
+   "w": 14.0,
+   "l": 22.0,
+   "h": 12.8,
+   "params": {
+    "order": "tuscan",
+    "plan": "prostyle",
+    "front": 4,
+    "side": 2,
+    "podium": 2.5,
+    "colH": 7.0,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "A small temple of Pietas that Pliny says stood on the site later taken by the Theatre of Marcellus; Caesar demolished it with other shrines when he cleared the ground for his theatre.",
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Natural History",
+     "r": "7.121"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "43.49.3"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 290",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Pietas, aedes in circo Flaminio"
+   ],
+   "note": "Location only known as 'where the Theatre of Marcellus is'; placed under the stage area. Form invented from typical small Republican temples."
+  },
+  {
+   "id": "theatre_marcellus_v1",
+   "monument": "theatre_of_marcellus_mon",
+   "name": "Theatre of Marcellus",
+   "from": -13,
+   "to": 69,
+   "begun": -44,
+   "builder": "augustus",
+   "builderName": "begun by Julius Caesar, completed by Augustus",
+   "template": "theatre",
+   "loc": [
+    12.479352,
+    41.8917
+   ],
+   "rot": 258.0,
+   "w": 111.0,
+   "l": 70.0,
+   "h": 32.6,
+   "params": {
+    "diameter": 111.0,
+    "orchestra": 37.0,
+    "storeys": 3,
+    "scaena": {
+     "w": 82.0,
+     "depth": 18.0,
+     "h": 32.6
+    },
+    "templeOnTop": false,
+    "seats": 15000,
+    "mat": {
+     "facade": "travertine",
+     "cavea": "concrete_faced",
+     "scaena": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "Begun by Caesar, who demolished temples to clear the site, and finished by Augustus in the name of his dead nephew and heir Marcellus; dedicated in 13 or 11 BC. A travertine cavea about 111 m across with three tiers of arcades (Doric, Ionic and a Corinthian attic) rising 32.6 m, seating perhaps 15,000. Its stage looked toward the Tiber.",
+   "phases": [
+    {
+     "y": -44,
+     "t": "Caesar clears the site"
+    },
+    {
+     "y": -17,
+     "t": "used, perhaps unfinished, for the scenic games of the Secular Games"
+    },
+    {
+     "y": -13,
+     "t": "dedicated in the name of Marcellus (Dio; Pliny gives 11 BC)"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "43.49.2"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "54.26.1"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Natural History",
+     "r": "8.65"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Augustus",
+     "r": "29.4"
+    },
+    {
+     "a": "Res Gestae Divi Augusti",
+     "w": "",
+     "r": "21"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 382-383",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)",
+    "Fidenzoni, Il teatro di Marcello (1970)",
+    "Ciancio Rossetto, in LTUR V (1999)"
+   ],
+   "note": "Centre fitted to the surviving curve of the facade (radius ~56 m). The curved facade wraps the north and east, so the audience looked WSW toward the stage on the river side; rot 258 is estimated from the arc and could be off by 10 degrees. Height 32.6 m to the top of the attic. Dio dates the dedication to 13 BC, Pliny to 11 BC."
+  },
+  {
+   "id": "theatre_marcellus_v2",
+   "monument": "theatre_of_marcellus_mon",
+   "name": "Theatre of Marcellus (Flavian and Severan restorations)",
+   "from": 70,
+   "to": 369,
+   "builder": "vespasian",
+   "template": "theatre",
+   "loc": [
+    12.479352,
+    41.8917
+   ],
+   "rot": 258.0,
+   "w": 111.0,
+   "l": 70.0,
+   "h": 32.6,
+   "params": {
+    "diameter": 111.0,
+    "orchestra": 37.0,
+    "storeys": 3,
+    "scaena": {
+     "w": 82.0,
+     "depth": 18.0,
+     "h": 32.6
+    },
+    "templeOnTop": false,
+    "seats": 15000,
+    "mat": {
+     "facade": "travertine",
+     "cavea": "concrete_faced",
+     "scaena": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "Vespasian restored the stage building and Severus Alexander repaired the theatre again; it remained one of the three great stone theatres of Rome through the 4th century.",
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Vespasian",
+     "r": "19.1"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Severus Alexander",
+     "r": "44.7"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 383",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Theatrum Marcelli"
+   ],
+   "note": "Same form; restoration dates approximate."
+  },
+  {
+   "id": "theatre_marcellus_v3",
+   "monument": "theatre_of_marcellus_mon",
+   "name": "Theatre of Marcellus (late antique)",
+   "from": 370,
+   "to": 9999,
+   "template": "theatre",
+   "loc": [
+    12.479352,
+    41.8917
+   ],
+   "rot": 258.0,
+   "w": 111.0,
+   "l": 70.0,
+   "h": 32.6,
+   "params": {
+    "diameter": 111.0,
+    "orchestra": 37.0,
+    "storeys": 3,
+    "scaena": {
+     "w": 82.0,
+     "depth": 18.0,
+     "h": 20.0
+    },
+    "templeOnTop": false,
+    "seats": 15000,
+    "mat": {
+     "facade": "travertine",
+     "cavea": "concrete_faced",
+     "scaena": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "ruin": {
+    "from": 550,
+    "state": "half"
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "Travertine blocks were taken from the theatre around 370 to rebuild the Pons Cestius as the Pons Gratiani, a sign that parts of it were already derelict; yet in 421 the prefect Petronius Maximus still set up statues here. After the 6th century it decayed into a quarry and later a fortress of the Pierleoni, Savelli and Orsini.",
+   "sources": [
+    {
+     "a": "Ammianus Marcellinus",
+     "w": "Res Gestae",
+     "r": "27.3.3"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 383",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Theatrum Marcelli",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)"
+   ],
+   "note": "The Ammianus passage concerns the prefect Symmachus and the bridge; the reuse of the theatre's travertine for the Pons Gratiani is inferred by modern scholars. Statues of Petronius Maximus are known from inscriptions. Stage height reduced to show partial dismantling."
+  },
+  {
+   "id": "porticus_metelli",
+   "monument": "porticus_octaviae",
+   "name": "Porticus Metelli",
+   "from": -146,
+   "to": -28,
+   "builder": "quintus_caecilius_metellus_macedonicus",
+   "template": "porticus",
+   "loc": [
+    12.478967,
+    41.893007
+   ],
+   "rot": 214.0,
+   "w": 119.0,
+   "l": 132.0,
+   "h": 9.0,
+   "footprint": [
+    [
+     12.479117,
+     41.892216
+    ],
+    [
+     12.477927,
+     41.892814
+    ],
+    [
+     12.478817,
+     41.893798
+    ],
+    [
+     12.480007,
+     41.8932
+    ],
+    [
+     12.479117,
+     41.892216
+    ]
+   ],
+   "params": {
+    "depth": 10.0,
+    "colH": 7.0,
+    "double": false,
+    "garden": false,
+    "propylon": null,
+    "mat": {
+     "columns": "tufa",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 4,
+   "certainty": "reconstructed",
+   "summary": "Built by Q. Caecilius Metellus Macedonicus after his Macedonian triumph of 146 BC around the temples of Jupiter Stator and Juno Regina. In front of the temples stood Lysippus' bronze group of Alexander's 25 horsemen at the Granicus, taken as booty from Dion in Macedonia.",
+   "sources": [
+    {
+     "a": "Velleius Paterculus",
+     "w": "Roman History",
+     "r": "1.11.3-5"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Natural History",
+     "r": "34.64"
+    },
+    {
+     "a": "Vitruvius",
+     "w": "De architectura",
+     "r": "3.2.5"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 317",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Porticus Metelli",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)",
+    "Stanford Digital Forma Urbis Romae Project (formaurbis.stanford.edu), fr. 31u"
+   ],
+   "note": "Assumed to share the later footprint (Marble Plan shows the Severan state about 119 x 132 m). Facade (and the surviving propylon) faces SW onto the Circus Flaminius; rot 214 from the alignment of the propylon and Via del Portico d'Ottavia."
+  },
+  {
+   "id": "porticus_octaviae_v1",
+   "monument": "porticus_octaviae",
+   "name": "Porticus Octaviae (Augustan)",
+   "from": -23,
+   "to": 79,
+   "begun": -27,
+   "builder": "augustus",
+   "template": "porticus",
+   "loc": [
+    12.478967,
+    41.893007
+   ],
+   "rot": 214.0,
+   "w": 119.0,
+   "l": 132.0,
+   "h": 11.0,
+   "footprint": [
+    [
+     12.479117,
+     41.892216
+    ],
+    [
+     12.477927,
+     41.892814
+    ],
+    [
+     12.478817,
+     41.893798
+    ],
+    [
+     12.480007,
+     41.8932
+    ],
+    [
+     12.479117,
+     41.892216
+    ]
+   ],
+   "params": {
+    "depth": 10.0,
+    "colH": 8.5,
+    "double": true,
+    "garden": false,
+    "propylon": {
+     "w": 28.0,
+     "l": 18.0,
+     "h": 20.0,
+     "columns": 4
+    },
+    "mat": {
+     "columns": "marble_white",
+     "walls": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 4,
+   "certainty": "reconstructed",
+   "summary": "Augustus rebuilt the porticus in his sister Octavia's name, adding a library (Latin and Greek, founded by Octavia in memory of Marcellus), a curia and scholae, and filling it with Greek art: works by Praxiteles, Phidias, Apelles and others. The Senate sometimes met in its curia.",
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Augustus",
+     "r": "29.4"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Natural History",
+     "r": "36.15"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Natural History",
+     "r": "36.22"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Natural History",
+     "r": "36.42-43"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "49.43.8"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 317-318",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Porticus Octaviae",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Haselberger et al., Mapping Augustan Rome (JRA Suppl. 50, 2002)"
+   ],
+   "note": "Dio (49.43.8) dates a dedication to 33 BC, perhaps confusing it with the Porticus Octavia of Cn. Octavius; work is usually placed after 27 BC (from = -23 as a mid-range date)."
+  },
+  {
+   "id": "porticus_octaviae_v2",
+   "monument": "porticus_octaviae",
+   "name": "Porticus Octaviae (Domitianic)",
+   "from": 81,
+   "to": 190,
+   "begun": 80,
+   "builder": "domitian",
+   "template": "porticus",
+   "loc": [
+    12.478967,
+    41.893007
+   ],
+   "rot": 214.0,
+   "w": 119.0,
+   "l": 132.0,
+   "h": 11.0,
+   "footprint": [
+    [
+     12.479117,
+     41.892216
+    ],
+    [
+     12.477927,
+     41.892814
+    ],
+    [
+     12.478817,
+     41.893798
+    ],
+    [
+     12.480007,
+     41.8932
+    ],
+    [
+     12.479117,
+     41.892216
+    ]
+   ],
+   "params": {
+    "depth": 10.0,
+    "colH": 8.5,
+    "double": true,
+    "garden": false,
+    "propylon": {
+     "w": 28.0,
+     "l": 18.0,
+     "h": 20.0,
+     "columns": 4
+    },
+    "mat": {
+     "columns": "marble_white",
+     "walls": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 4,
+   "certainty": "reconstructed",
+   "summary": "The fire of AD 80 destroyed Octavia's buildings and their books (Dio). They were restored, probably under Domitian.",
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "66.24.2"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 318",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Porticus Octaviae"
+   ],
+   "note": "Restoration by Domitian is likely but not attested by inscription."
+  },
+  {
+   "id": "porticus_octaviae_v3",
+   "monument": "porticus_octaviae",
+   "name": "Porticus Octaviae (Severan)",
+   "from": 203,
+   "to": 441,
+   "begun": 191,
+   "builder": "septimius_severus",
+   "template": "porticus",
+   "loc": [
+    12.478967,
+    41.893007
+   ],
+   "rot": 214.0,
+   "w": 119.0,
+   "l": 132.0,
+   "h": 11.0,
+   "footprint": [
+    [
+     12.479117,
+     41.892216
+    ],
+    [
+     12.477927,
+     41.892814
+    ],
+    [
+     12.478817,
+     41.893798
+    ],
+    [
+     12.480007,
+     41.8932
+    ],
+    [
+     12.479117,
+     41.892216
+    ]
+   ],
+   "params": {
+    "depth": 10.0,
+    "colH": 8.5,
+    "double": true,
+    "garden": false,
+    "propylon": {
+     "w": 28.0,
+     "l": 18.0,
+     "h": 20.0,
+     "columns": 4
+    },
+    "mat": {
+     "columns": "marble_white",
+     "walls": "brick",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "After a fire (that of 191) Septimius Severus and Caracalla restored the porticus in 203, as the inscription on the surviving propylon records. The Marble Plan, made in these same years, shows it with its two temples and double colonnades.",
+   "sources": [
+    {
+     "a": "Building inscription",
+     "w": "architrave of the propylon"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 318",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Stanford Digital Forma Urbis Romae Project (formaurbis.stanford.edu), fr. 31u, 31bb"
+   ],
+   "note": "Propylon remains: brick-faced concrete and marble, four columns across the front; dedicatory inscription of 203 on the architrave."
+  },
+  {
+   "id": "porticus_octaviae_v4",
+   "monument": "porticus_octaviae",
+   "name": "Porticus Octaviae (after the earthquake of 442)",
+   "from": 442,
+   "to": 9999,
+   "template": "porticus",
+   "loc": [
+    12.478967,
+    41.893007
+   ],
+   "rot": 214.0,
+   "w": 119.0,
+   "l": 132.0,
+   "h": 11.0,
+   "params": {
+    "depth": 10.0,
+    "colH": 8.5,
+    "double": true,
+    "garden": false,
+    "propylon": {
+     "w": 28.0,
+     "l": 18.0,
+     "h": 20.0,
+     "columns": 2,
+     "arch": true
+    },
+    "mat": {
+     "columns": "marble_white",
+     "walls": "brick",
+     "roof": "roof_tile"
+    }
+   },
+   "ruin": {
+    "from": 560,
+    "state": "half"
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "Two columns of the propylon's front, brought down by the earthquake of 442, were replaced with the brick arch still visible. The porticus became the medieval fish market and the church of Sant'Angelo in Pescheria was built into the propylon in 755.",
+   "sources": [],
+   "scholarship": [
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Porticus Octaviae"
+   ],
+   "note": "The arch is generally attributed to the repair after the earthquake of 442."
+  },
+  {
+   "id": "temple_jupiter_stator_campus_v1",
+   "monument": "temple_of_jupiter_stator_campus",
+   "name": "Temple of Jupiter Stator (Porticus Metelli)",
+   "from": -146,
+   "to": 79,
+   "builder": "quintus_caecilius_metellus_macedonicus",
+   "template": "temple",
+   "loc": [
+    12.479231,
+    41.893025
+   ],
+   "rot": 214.0,
+   "w": 19.0,
+   "l": 34.0,
+   "h": 18.2,
+   "params": {
+    "order": "ionic",
+    "plan": "peripteral",
+    "front": 6,
+    "side": 11,
+    "podium": 3.0,
+    "colH": 10.5,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "marble_white",
+     "walls": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "documented",
+   "summary": "The first temple in Rome built entirely of marble, designed by the Greek architect Hermodoros of Salamis for Metellus Macedonicus. Vitruvius cites it as the model peripteros, six columns by eleven.",
+   "sources": [
+    {
+     "a": "Vitruvius",
+     "w": "De architectura",
+     "r": "3.2.5"
+    },
+    {
+     "a": "Velleius Paterculus",
+     "w": "Roman History",
+     "r": "1.11.5"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 225",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Iuppiter Stator, aedes in circo",
+    "Stanford Digital Forma Urbis Romae Project (formaurbis.stanford.edu), fr. 31u"
+   ],
+   "note": "Position inside the porticus from the Marble Plan: the two temples stand side by side facing the propylon, Jupiter to the south. Order uncertain (Ionic assumed for a Hermodoran temple)."
+  },
+  {
+   "id": "temple_jupiter_stator_campus_v2",
+   "monument": "temple_of_jupiter_stator_campus",
+   "name": "Temple of Jupiter Stator (Domitianic)",
+   "from": 81,
+   "to": 190,
+   "begun": 80,
+   "template": "temple",
+   "loc": [
+    12.479231,
+    41.893025
+   ],
+   "rot": 214.0,
+   "w": 19.0,
+   "l": 34.0,
+   "h": 18.8,
+   "params": {
+    "order": "corinthian",
+    "plan": "peripteral",
+    "front": 6,
+    "side": 11,
+    "podium": 3.0,
+    "colH": 11.0,
+    "steps": "front",
+    "mat": {
+     "podium": "concrete_faced",
+     "columns": "marble_white",
+     "walls": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "documented",
+   "summary": "Restored after the fire of 80 with the rest of the porticus.",
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "66.24.2"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 225"
+   ],
+   "note": "Form as v1."
+  },
+  {
+   "id": "temple_jupiter_stator_campus_v3",
+   "monument": "temple_of_jupiter_stator_campus",
+   "name": "Temple of Jupiter Stator (Severan)",
+   "from": 203,
+   "to": 9999,
+   "begun": 191,
+   "builder": "septimius_severus",
+   "template": "temple",
+   "loc": [
+    12.479231,
+    41.893025
+   ],
+   "rot": 214.0,
+   "w": 19.0,
+   "l": 34.0,
+   "h": 18.8,
+   "params": {
+    "order": "corinthian",
+    "plan": "peripteral",
+    "front": 6,
+    "side": 11,
+    "podium": 3.0,
+    "colH": 11.0,
+    "steps": "front",
+    "mat": {
+     "podium": "concrete_faced",
+     "columns": "marble_white",
+     "walls": "brick",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "documented",
+   "summary": "Rebuilt with the porticus by Septimius Severus and Caracalla in 203; shown on the Marble Plan.",
+   "sources": [
+    {
+     "a": "Building inscription",
+     "w": "architrave of the propylon of the Porticus Octaviae"
+    }
+   ],
+   "scholarship": [
+    "Stanford Digital Forma Urbis Romae Project (formaurbis.stanford.edu), fr. 31u",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 225"
+   ],
+   "note": "Remains of the podium survive in cellars of Via di Sant'Angelo in Pescheria."
+  },
+  {
+   "id": "temple_juno_regina_campus_v1",
+   "monument": "temple_of_juno_regina_campus",
+   "name": "Temple of Juno Regina (in campo)",
+   "from": -179,
+   "to": 79,
+   "builder": "marcus_aemilius_lepidus_cos187",
+   "template": "temple",
+   "loc": [
+    12.478891,
+    41.893197
+   ],
+   "rot": 214.0,
+   "w": 19.0,
+   "l": 31.0,
+   "h": 17.6,
+   "params": {
+    "order": "ionic",
+    "plan": "prostyle",
+    "front": 6,
+    "side": 3,
+    "podium": 3.0,
+    "colH": 10.0,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "documented",
+   "summary": "Vowed by M. Aemilius Lepidus in the Ligurian war of 187 BC and dedicated by him as censor on 23 December 179; later enclosed with Jupiter Stator in the Porticus Metelli.",
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "39.2.11"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "40.52.1-3"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 216",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Iuno Regina, aedes in campo",
+    "Stanford Digital Forma Urbis Romae Project (formaurbis.stanford.edu), fr. 31u"
+   ],
+   "note": "Side by side with Jupiter Stator, to its north, facing the propylon; prostyle hexastyle as on the Marble Plan."
+  },
+  {
+   "id": "temple_juno_regina_campus_v2",
+   "monument": "temple_of_juno_regina_campus",
+   "name": "Temple of Juno Regina (Domitianic)",
+   "from": 81,
+   "to": 190,
+   "begun": 80,
+   "template": "temple",
+   "loc": [
+    12.478891,
+    41.893197
+   ],
+   "rot": 214.0,
+   "w": 19.0,
+   "l": 31.0,
+   "h": 18.8,
+   "params": {
+    "order": "corinthian",
+    "plan": "prostyle",
+    "front": 6,
+    "side": 3,
+    "podium": 3.0,
+    "colH": 11.0,
+    "steps": "front",
+    "mat": {
+     "podium": "concrete_faced",
+     "columns": "marble_white",
+     "walls": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "documented",
+   "summary": "Restored after the fire of 80.",
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "66.24.2"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 216"
+   ]
+  },
+  {
+   "id": "temple_juno_regina_campus_v3",
+   "monument": "temple_of_juno_regina_campus",
+   "name": "Temple of Juno Regina (Severan)",
+   "from": 203,
+   "to": 9999,
+   "begun": 191,
+   "builder": "septimius_severus",
+   "template": "temple",
+   "loc": [
+    12.478891,
+    41.893197
+   ],
+   "rot": 214.0,
+   "w": 19.0,
+   "l": 31.0,
+   "h": 18.8,
+   "params": {
+    "order": "corinthian",
+    "plan": "prostyle",
+    "front": 6,
+    "side": 3,
+    "podium": 3.0,
+    "colH": 11.0,
+    "steps": "front",
+    "mat": {
+     "podium": "concrete_faced",
+     "columns": "marble_white",
+     "walls": "brick",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "documented",
+   "summary": "Rebuilt in 203 with the porticus; columns of its pronaos survive built into houses on Via di Sant'Angelo in Pescheria.",
+   "sources": [
+    {
+     "a": "Building inscription",
+     "w": "architrave of the propylon of the Porticus Octaviae"
+    }
+   ],
+   "scholarship": [
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Stanford Digital Forma Urbis Romae Project (formaurbis.stanford.edu), fr. 31u"
+   ]
+  },
+  {
+   "id": "porticus_philippi_v1",
+   "monument": "porticus_philippi",
+   "name": "Porticus Philippi",
+   "from": -29,
+   "to": 190,
+   "builderName": "L. Marcius Philippus",
+   "template": "porticus",
+   "loc": [
+    12.477685,
+    41.893457
+   ],
+   "rot": 214.0,
+   "w": 110.0,
+   "l": 96.0,
+   "h": 10.0,
+   "footprint": [
+    [
+     12.477911,
+     41.892822
+    ],
+    [
+     12.476811,
+     41.893376
+    ],
+    [
+     12.477459,
+     41.894092
+    ],
+    [
+     12.478559,
+     41.893538
+    ],
+    [
+     12.477911,
+     41.892822
+    ]
+   ],
+   "params": {
+    "depth": 9.0,
+    "colH": 8.0,
+    "double": false,
+    "garden": false,
+    "mat": {
+     "columns": "marble_white",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "L. Marcius Philippus, Augustus' stepfather, rebuilt the Temple of Hercules Musarum and enclosed it in this porticus about 29 BC, part of the Augustan transformation of the Circus Flaminius. It held paintings by Zeuxis, Antiphilus and Theon and became a haunt of Rome's poets and hairdressers alike.",
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Augustus",
+     "r": "29.5"
+    },
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "6.801-812"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Natural History",
+     "r": "35.66"
+    },
+    {
+     "a": "Martial",
+     "w": "Epigrams",
+     "r": "5.49.12"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 318-319",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Porticus Philippi",
+    "Stanford Digital Forma Urbis Romae Project (formaurbis.stanford.edu), fr. 31u, 31cc"
+   ],
+   "note": "Immediately WNW of the Porticus Octaviae, sharing its alignment and facade line onto the Circus (Marble Plan). Depth reduced to 96 m so as not to collide with the Theatre of Balbus; true depth unknown."
+  },
+  {
+   "id": "porticus_philippi_v2",
+   "monument": "porticus_philippi",
+   "name": "Porticus Philippi (Severan)",
+   "from": 203,
+   "to": 9999,
+   "begun": 191,
+   "template": "porticus",
+   "loc": [
+    12.477685,
+    41.893457
+   ],
+   "rot": 214.0,
+   "w": 110.0,
+   "l": 96.0,
+   "h": 10.0,
+   "footprint": [
+    [
+     12.477911,
+     41.892822
+    ],
+    [
+     12.476811,
+     41.893376
+    ],
+    [
+     12.477459,
+     41.894092
+    ],
+    [
+     12.478559,
+     41.893538
+    ],
+    [
+     12.477911,
+     41.892822
+    ]
+   ],
+   "params": {
+    "depth": 9.0,
+    "colH": 8.0,
+    "double": false,
+    "garden": false,
+    "mat": {
+     "columns": "marble_white",
+     "walls": "brick",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "Shown on the Severan Marble Plan beside the Porticus Octaviae; restored with its neighbour after the fire of 191 (assumed).",
+   "sources": [],
+   "scholarship": [
+    "Stanford Digital Forma Urbis Romae Project (formaurbis.stanford.edu), fr. 31u, 31cc",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 319"
+   ],
+   "note": "Severan restoration assumed by analogy with the Porticus Octaviae."
+  },
+  {
+   "id": "temple_hercules_musarum_v1",
+   "monument": "temple_of_hercules_musarum",
+   "name": "Temple of Hercules Musarum",
+   "from": -179,
+   "to": -30,
+   "builder": "marcus_fulvius_nobilior_cos189",
+   "template": "tholos",
+   "loc": [
+    12.477739,
+    41.893517
+   ],
+   "rot": 214.0,
+   "w": 16.0,
+   "l": 22.0,
+   "h": 13.0,
+   "params": {
+    "diameter": 16.0,
+    "columns": 0,
+    "colH": 7.0,
+    "podium": 2.5,
+    "roof": "cone",
+    "order": "ionic",
+    "porch": {
+     "w": 10.0,
+     "l": 6.0
+    },
+    "mat": {
+     "podium": "tufa",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "Built by M. Fulvius Nobilior from the spoils of Ambracia (189 BC), where he took the statues of the nine Muses and of Hercules playing the lyre; the poet Ennius had accompanied him. Fulvius also set up here the Fasti, a calendar with commentary.",
+   "sources": [
+    {
+     "a": "Cicero",
+     "w": "Pro Archia",
+     "r": "27"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Natural History",
+     "r": "35.66"
+    },
+    {
+     "a": "Macrobius",
+     "w": "Saturnalia",
+     "r": "1.12.16"
+    },
+    {
+     "a": "Panegyrici Latini",
+     "w": "",
+     "r": "9(4).7.3"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 187",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Hercules Musarum, aedes",
+    "Stanford Digital Forma Urbis Romae Project (formaurbis.stanford.edu), fr. 31u"
+   ],
+   "note": "The Marble Plan shows a round cella on a rectangular podium with a frontal porch, in the centre of the Porticus Philippi, facing the Circus. Diameter estimated from the plan."
+  },
+  {
+   "id": "temple_hercules_musarum_v2",
+   "monument": "temple_of_hercules_musarum",
+   "name": "Temple of Hercules Musarum (rebuilt by Philippus)",
+   "from": -29,
+   "to": 190,
+   "builderName": "L. Marcius Philippus",
+   "template": "tholos",
+   "loc": [
+    12.477739,
+    41.893517
+   ],
+   "rot": 214.0,
+   "w": 16.0,
+   "l": 22.0,
+   "h": 14.0,
+   "params": {
+    "diameter": 16.0,
+    "columns": 0,
+    "colH": 8.0,
+    "podium": 2.5,
+    "roof": "dome",
+    "order": "corinthian",
+    "porch": {
+     "w": 10.0,
+     "l": 6.0
+    },
+    "mat": {
+     "podium": "concrete_faced",
+     "walls": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "Rebuilt by L. Marcius Philippus within his new porticus; shown on the Marble Plan as a rotunda with porch.",
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Augustus",
+     "r": "29.5"
+    },
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "6.801-812"
+    }
+   ],
+   "scholarship": [
+    "Stanford Digital Forma Urbis Romae Project (formaurbis.stanford.edu), fr. 31u",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 187"
+   ]
+  },
+  {
+   "id": "porticus_octavia_v1",
+   "monument": "porticus_octavia",
+   "name": "Porticus Octavia (of Cn. Octavius)",
+   "from": -167,
+   "to": -34,
+   "builderName": "Gn. Octavius (praetor 168 BC)",
+   "template": "porticus",
+   "loc": [
+    12.476566,
+    41.893749
+   ],
+   "rot": 214.0,
+   "w": 70.0,
+   "l": 60.0,
+   "h": 8.0,
+   "params": {
+    "depth": 8.0,
+    "colH": 6.5,
+    "double": true,
+    "garden": false,
+    "mat": {
+     "columns": "tufa",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "A double porticus built by Gn. Octavius after his naval triumph over Perseus in 167 BC, famous for its bronze Corinthian capitals, hence 'Corinthia'. It stood near the Circus Flaminius.",
+   "sources": [
+    {
+     "a": "Velleius Paterculus",
+     "w": "Roman History",
+     "r": "2.1.2"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Natural History",
+     "r": "34.13"
+    },
+    {
+     "a": "Festus",
+     "w": "De verborum significatu",
+     "r": "p. 188 L"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 317",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Porticus Octavia"
+   ],
+   "note": "Location unknown beyond 'near the Circus Flaminius'; placed WNW of the Porticus Philippi on the same facade line. Size invented."
+  },
+  {
+   "id": "porticus_octavia_v2",
+   "monument": "porticus_octavia",
+   "name": "Porticus Octavia (rebuilt by Octavian)",
+   "from": -33,
+   "to": 9999,
+   "builder": "augustus",
+   "template": "porticus",
+   "loc": [
+    12.476566,
+    41.893749
+   ],
+   "rot": 214.0,
+   "w": 70.0,
+   "l": 60.0,
+   "h": 9.0,
+   "params": {
+    "depth": 8.0,
+    "colH": 7.0,
+    "double": true,
+    "garden": false,
+    "mat": {
+     "columns": "marble_white",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Octavian rebuilt it in 33 BC with the spoils of his Illyrian war, keeping the name of its founder, and placed there the standards recovered from the Dalmatians.",
+   "sources": [
+    {
+     "a": "Res Gestae Divi Augusti",
+     "w": "",
+     "r": "19"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "49.43.8"
+    },
+    {
+     "a": "Appian",
+     "w": "Illyrica",
+     "r": "28"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 317",
+    "Haselberger et al., Mapping Augustan Rome (JRA Suppl. 50, 2002)"
+   ],
+   "note": "Location conjectural as v1."
+  },
+  {
+   "id": "temple_neptune_in_circo_v1",
+   "monument": "temple_of_neptune_in_circo",
+   "name": "Temple of Neptune (in circo Flaminio)",
+   "from": -206,
+   "to": -33,
+   "template": "temple",
+   "loc": [
+    12.47442,
+    41.89372
+   ],
+   "rot": 200.0,
+   "w": 17.0,
+   "l": 30.0,
+   "h": 16.1,
+   "params": {
+    "order": "tuscan",
+    "plan": "prostyle",
+    "front": 6,
+    "side": 3,
+    "podium": 3.0,
+    "colH": 9.0,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "A temple of Neptune 'in circo Flaminio' is attested by 206 BC, when it sweated as a prodigy.",
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "28.11.4"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 267",
+    "Coarelli, Il Campo Marzio dalle origini alla fine della repubblica (1997)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Neptunus, aedes in circo"
+   ],
+   "note": "Coarelli places it at the remains under S. Salvatore in Campo / Palazzo Santacroce, where the so-called Altar of Domitius Ahenobarbus was found. Orientation toward the Circus assumed (rot 200)."
+  },
+  {
+   "id": "temple_neptune_in_circo_v2",
+   "monument": "temple_of_neptune_in_circo",
+   "name": "Temple of Neptune (Gn. Domitius Ahenobarbus)",
+   "from": -32,
+   "to": 79,
+   "template": "temple",
+   "loc": [
+    12.47442,
+    41.89372
+   ],
+   "rot": 200.0,
+   "w": 21.0,
+   "l": 35.0,
+   "h": 20.2,
+   "params": {
+    "order": "corinthian",
+    "plan": "peripteral",
+    "front": 6,
+    "side": 10,
+    "podium": 3.5,
+    "colH": 11.5,
+    "steps": "front",
+    "mat": {
+     "podium": "concrete_faced",
+     "columns": "marble_white",
+     "walls": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Rebuilt by Gn. Domitius Ahenobarbus, Antony's admiral, perhaps around 32 BC, with Scopas' great marine group of Neptune, Thetis, Achilles and Nereids. The 'Altar of Domitius Ahenobarbus' reliefs (census scene and marine thiasos, now in Paris and Munich) probably belonged to its statue base. Burned in 80 and restored.",
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Natural History",
+     "r": "36.26"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "66.24.2"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 267",
+    "Coarelli, Il Campo Marzio dalle origini alla fine della repubblica (1997)",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)"
+   ],
+   "note": "Position conjectural (Coarelli)."
+  },
+  {
+   "id": "temple_mars_in_circo",
+   "monument": "temple_of_mars_in_circo",
+   "name": "Temple of Mars (in circo Flaminio)",
+   "from": -132,
+   "to": 9999,
+   "builder": "decimus_junius_brutus_callaicus",
+   "template": "temple",
+   "loc": [
+    12.4753,
+    41.89345
+   ],
+   "rot": 214.0,
+   "w": 20.0,
+   "l": 34.0,
+   "h": 18.3,
+   "params": {
+    "order": "ionic",
+    "plan": "peripteral",
+    "front": 6,
+    "side": 10,
+    "podium": 3.0,
+    "colH": 10.5,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "marble_white",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Built by D. Junius Brutus Callaicus from his Spanish spoils of 138-133 BC, designed by Hermodoros of Salamis, with a colossal seated Mars and a nude Venus by Scopas Minor; the triumphator inscribed verses by the poet Accius at its entrance.",
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Natural History",
+     "r": "36.26"
+    },
+    {
+     "a": "Valerius Maximus",
+     "w": "Facta et dicta memorabilia",
+     "r": "8.14.2"
+    },
+    {
+     "a": "Cicero",
+     "w": "Pro Archia",
+     "r": "27"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 245",
+    "Coarelli, Il Campo Marzio dalle origini alla fine della repubblica (1997)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Mars, aedes in circo"
+   ],
+   "note": "Site unknown; one hypothesis puts it near the west end of the Circus Flaminius (S. Salvatore in Campo area is claimed for Neptune). Placed on the north side near the rounded end. Form invented."
+  },
+  {
+   "id": "temple_castor_in_circo",
+   "monument": "temple_of_castor_in_circo",
+   "name": "Temple of Castor and Pollux (in circo Flaminio)",
+   "from": -100,
+   "to": 9999,
+   "template": "temple",
+   "loc": [
+    12.47669,
+    41.89209
+   ],
+   "rot": 34.0,
+   "w": 26.0,
+   "l": 18.0,
+   "h": 16.6,
+   "params": {
+    "order": "tuscan",
+    "plan": "prostyle",
+    "front": 6,
+    "side": 2,
+    "podium": 2.5,
+    "colH": 9.0,
+    "steps": "front",
+    "cella": {
+     "w": 26.0,
+     "l": 11.0
+    },
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "A temple of the Dioscuri 'in circo Flaminio', described by Vitruvius as an example of a temple with the cella set transversely, wider than deep, like the Temple of Veiovis. A fragment of a marble plan (the 'Via Anicia' plan) shows it beside the river.",
+   "sources": [
+    {
+     "a": "Vitruvius",
+     "w": "De architectura",
+     "r": "4.8.4"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 74-75",
+    "Conticello de' Spagnolis, Il tempio dei Dioscuri nel Circo Flaminio (1984)",
+    "Coarelli, Il Campo Marzio dalle origini alla fine della repubblica (1997)"
+   ],
+   "note": "Placed between the south side of the Circus and the Tiber, facing the Circus (NE). Date of foundation unknown (late 2nd century BC assumed)."
+  },
+  {
+   "id": "temple_hercules_custos",
+   "monument": "temple_of_hercules_custos",
+   "name": "Temple of Hercules Magnus Custos",
+   "from": -218,
+   "to": 9999,
+   "template": "temple",
+   "loc": [
+    12.477044,
+    41.893367
+   ],
+   "rot": 214.0,
+   "w": 13.0,
+   "l": 20.0,
+   "h": 13.3,
+   "params": {
+    "order": "tuscan",
+    "plan": "prostyle",
+    "front": 4,
+    "side": 2,
+    "podium": 2.5,
+    "colH": 7.5,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "The temple of Hercules the Guardian at the end of the Circus Flaminius, said by Ovid to have been approved by the Sibylline Books; restored by Sulla.",
+   "sources": [
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "6.209-212"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 186",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Hercules Magnus Custos"
+   ],
+   "note": "Ovid places it at one end of the Circus ('altera pars circi'); the ESE end is taken by the Theatre of Marcellus in our model, so it is set on the north side toward the WNW end, facing the Circus. Position, date (Hannibalic war) and form are conjectural."
+  },
+  {
+   "id": "amphitheatre_statilius_taurus",
+   "monument": "amphitheatre_of_statilius_taurus",
+   "name": "Amphitheatre of Statilius Taurus",
+   "from": -29,
+   "to": 64,
+   "builderName": "T. Statilius Taurus",
+   "template": "amphitheatre",
+   "loc": [
+    12.47535,
+    41.89425
+   ],
+   "rot": 75.0,
+   "w": 70.0,
+   "l": 95.0,
+   "h": 18.0,
+   "params": {
+    "a": 95.0,
+    "b": 70.0,
+    "arenaA": 55.0,
+    "arenaB": 30.0,
+    "storeys": 2,
+    "bays": 48,
+    "attic": false,
+    "mat": {
+     "facade": "tufa",
+     "cavea": "timber",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "conjectural",
+   "summary": "Rome's first permanent amphitheatre, built in stone (partly) by Augustus' general T. Statilius Taurus and opened with games in 29 BC; Caligula found it too modest. It burned in the Great Fire of 64 and was not rebuilt.",
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Augustus",
+     "r": "29.5"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "51.23.1"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "62.18.2"
+    },
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "5.3.8"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 11",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Amphitheatrum Statilii Tauri",
+    "Coarelli, Il Campo Marzio dalle origini alla fine della repubblica (1997)"
+   ],
+   "note": "Location unknown. Hypotheses: southern Campus near the Circus Flaminius (followed here, north of the circus' rounded end); Lanciani's Monte Citorio. Size and form invented (probably part stone, part timber)."
+  },
+  {
+   "id": "area_sacra_argentina_v1",
+   "monument": "area_sacra_largo_argentina",
+   "name": "Area Sacra di Largo Argentina (beaten-earth level)",
+   "from": -290,
+   "to": -112,
+   "template": "platform",
+   "loc": [
+    12.47692,
+    41.8953
+   ],
+   "rot": 90.0,
+   "w": 125.0,
+   "l": 64.0,
+   "h": 0.2,
+   "footprint": [
+    [
+     12.477306,
+     41.895862
+    ],
+    [
+     12.477306,
+     41.894738
+    ],
+    [
+     12.476534,
+     41.894738
+    ],
+    [
+     12.476534,
+     41.895862
+    ],
+    [
+     12.477306,
+     41.895862
+    ]
+   ],
+   "params": {
+    "facade": "plain",
+    "mat": {
+     "top": "grass"
+    }
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "The open sacred area in front of the temples, at first an unpaved surface around Temple C.",
+   "sources": [],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Coarelli et al., L'Area Sacra di Largo Argentina I (1981)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000)"
+   ],
+   "note": "Footprint of the excavated precinct (Largo di Torre Argentina) plus a margin to the east; temples face east (rot 90)."
+  },
+  {
+   "id": "area_sacra_argentina_v2",
+   "monument": "area_sacra_largo_argentina",
+   "name": "Area Sacra di Largo Argentina (tufa pavement)",
+   "from": -111,
+   "to": 79,
+   "template": "platform",
+   "loc": [
+    12.47692,
+    41.8953
+   ],
+   "rot": 90.0,
+   "w": 125.0,
+   "l": 64.0,
+   "h": 0.3,
+   "footprint": [
+    [
+     12.477306,
+     41.895862
+    ],
+    [
+     12.477306,
+     41.894738
+    ],
+    [
+     12.476534,
+     41.894738
+    ],
+    [
+     12.476534,
+     41.895862
+    ],
+    [
+     12.477306,
+     41.895862
+    ]
+   ],
+   "params": {
+    "facade": "plain",
+    "mat": {
+     "top": "tufa"
+    }
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "After a fire usually dated to 111 BC the whole area was raised about 1.4 m and paved in tufa slabs, unifying the temples A, C and the newer D on one level.",
+   "sources": [],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Coarelli et al., L'Area Sacra di Largo Argentina I (1981)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000)"
+   ],
+   "note": "Dating of the pavement to after the fire of 111 BC follows Coarelli."
+  },
+  {
+   "id": "area_sacra_argentina_v3",
+   "monument": "area_sacra_largo_argentina",
+   "name": "Area Sacra di Largo Argentina (Domitianic travertine pavement)",
+   "from": 81,
+   "to": 9999,
+   "begun": 80,
+   "builder": "domitian",
+   "template": "platform",
+   "loc": [
+    12.47692,
+    41.8953
+   ],
+   "rot": 90.0,
+   "w": 125.0,
+   "l": 64.0,
+   "h": 0.4,
+   "footprint": [
+    [
+     12.477306,
+     41.895862
+    ],
+    [
+     12.477306,
+     41.894738
+    ],
+    [
+     12.476534,
+     41.894738
+    ],
+    [
+     12.476534,
+     41.895862
+    ],
+    [
+     12.477306,
+     41.895862
+    ]
+   ],
+   "params": {
+    "facade": "plain",
+    "mat": {
+     "top": "paving_travertine"
+    }
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "After the fire of AD 80 Domitian repaved the area in travertine, still visible today, and restored the temples.",
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "66.24.2"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Coarelli et al., L'Area Sacra di Largo Argentina I (1981)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000)"
+   ]
+  },
+  {
+   "id": "largo_argentina_c_v1",
+   "monument": "largo_argentina_temple_c",
+   "name": "Temple C (Feronia?)",
+   "from": -290,
+   "to": 79,
+   "builder": "manius_curius_dentatus",
+   "template": "temple",
+   "loc": [
+    12.476772,
+    41.895115
+   ],
+   "rot": 90.0,
+   "w": 17.1,
+   "l": 30.5,
+   "h": 16.8,
+   "params": {
+    "order": "tuscan",
+    "plan": "peripteros_sine_postico",
+    "front": 6,
+    "side": 7,
+    "podium": 4.25,
+    "colH": 8.5,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "The oldest of the four temples, on a high tufa podium with an archaic moulding of the late 4th or early 3rd century BC; its terracottas date to the 290s-280s. Probably the temple of Feronia vowed by M'. Curius Dentatus after his conquest of the Sabines in 290 BC.",
+   "sources": [],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Coarelli et al., L'Area Sacra di Largo Argentina I (1981)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000)"
+   ],
+   "note": "Identification with Feronia (Coarelli) rests on the calendars placing her temple in the Campus. Podium ~30.5 x 17.1 m, ~4.25 m high; peripteral without rear columns. Centre measured on satellite imagery of the excavation."
+  },
+  {
+   "id": "largo_argentina_c_v2",
+   "monument": "largo_argentina_temple_c",
+   "name": "Temple C (Domitianic restoration)",
+   "from": 81,
+   "to": 9999,
+   "begun": 80,
+   "builder": "domitian",
+   "template": "temple",
+   "loc": [
+    12.476772,
+    41.895115
+   ],
+   "rot": 90.0,
+   "w": 17.1,
+   "l": 30.5,
+   "h": 16.8,
+   "params": {
+    "order": "tuscan",
+    "plan": "peripteros_sine_postico",
+    "front": 6,
+    "side": 7,
+    "podium": 4.25,
+    "colH": 8.5,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "brick",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "Restored after the fire of 80, when the cella received its black and white mosaic floor and walls rebuilt in brick-faced concrete.",
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "66.24.2"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Coarelli et al., L'Area Sacra di Largo Argentina I (1981)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000)"
+   ]
+  },
+  {
+   "id": "largo_argentina_a_v1",
+   "monument": "largo_argentina_temple_a",
+   "name": "Temple A (Juturna?), first phase",
+   "from": -241,
+   "to": -101,
+   "builder": "gaius_lutatius_catulus",
+   "template": "temple",
+   "loc": [
+    12.476819,
+    41.895669
+   ],
+   "rot": 90.0,
+   "w": 9.5,
+   "l": 16.0,
+   "h": 13.8,
+   "params": {
+    "order": "tuscan",
+    "plan": "in_antis",
+    "front": 2,
+    "side": 2,
+    "podium": 4.0,
+    "colH": 7.0,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "A small shrine on a 4 m tufa podium, 9.5 x 16 m, probably the temple of Juturna built by C. Lutatius Catulus after his naval victory off the Aegates Islands in 241 BC that ended the First Punic War.",
+   "sources": [
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "1.463-464"
+    },
+    {
+     "a": "Servius",
+     "w": "Commentary on the Aeneid",
+     "r": "12.139"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Coarelli et al., L'Area Sacra di Largo Argentina I (1981)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000)"
+   ],
+   "note": "Identification with Juturna (Coarelli) based on Ovid's Juturna 'in Campo' and Catulus' Aegates victory."
+  },
+  {
+   "id": "largo_argentina_a_v2",
+   "monument": "largo_argentina_temple_a",
+   "name": "Temple A (Juturna?), peripteral rebuilding",
+   "from": -100,
+   "to": 79,
+   "template": "temple",
+   "loc": [
+    12.476819,
+    41.895669
+   ],
+   "rot": 90.0,
+   "w": 15.5,
+   "l": 28.0,
+   "h": 17.6,
+   "params": {
+    "order": "ionic",
+    "plan": "peripteral",
+    "front": 6,
+    "side": 9,
+    "podium": 4.0,
+    "colH": 9.5,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "travertine",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "Rebuilt around 100 BC as a hexastyle peripteral temple with tufa columns on an enlarged podium, aligned with the new pavement.",
+   "sources": [],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Coarelli et al., L'Area Sacra di Largo Argentina I (1981)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000)"
+   ],
+   "note": "Dimensions approximate; columns later re-cut. The church of S. Nicola de' Calcarario (10th century) was later built into it."
+  },
+  {
+   "id": "largo_argentina_a_v3",
+   "monument": "largo_argentina_temple_a",
+   "name": "Temple A (Domitianic)",
+   "from": 81,
+   "to": 9999,
+   "begun": 80,
+   "template": "temple",
+   "loc": [
+    12.476819,
+    41.895669
+   ],
+   "rot": 90.0,
+   "w": 15.5,
+   "l": 28.0,
+   "h": 17.6,
+   "params": {
+    "order": "ionic",
+    "plan": "peripteral",
+    "front": 6,
+    "side": 9,
+    "podium": 4.0,
+    "colH": 9.5,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "travertine",
+     "walls": "brick",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "Restored after the fire of 80 with travertine column replacements. In the 10th century the church of S. Nicola de Calcarario rose inside it.",
+   "sources": [],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Coarelli et al., L'Area Sacra di Largo Argentina I (1981)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000)"
+   ]
+  },
+  {
+   "id": "largo_argentina_b_v1",
+   "monument": "largo_argentina_temple_b",
+   "name": "Temple B (Fortuna Huiusce Diei)",
+   "from": -101,
+   "to": -61,
+   "builder": "catulus_cos102",
+   "template": "tholos",
+   "loc": [
+    12.476815,
+    41.895386
+   ],
+   "rot": 90.0,
+   "w": 19.2,
+   "l": 19.2,
+   "h": 17.5,
+   "params": {
+    "diameter": 19.2,
+    "columns": 18,
+    "colH": 11.0,
+    "podium": 2.8,
+    "roof": "cone",
+    "order": "corinthian",
+    "mat": {
+     "podium": "tufa",
+     "columns": "tufa",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "A round temple ringed by 18 columns, vowed by Q. Lutatius Catulus at the battle of Vercellae against the Cimbri in 101 BC to the Fortune of This Very Day. Its cult statue was a colossal acrolith by Skopas Minor (?), whose head and arm survive (Centrale Montemartini). Six columns stand.",
+   "sources": [
+    {
+     "a": "Plutarch",
+     "w": "Marius",
+     "r": "26.2"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Natural History",
+     "r": "34.54"
+    },
+    {
+     "a": "Varro",
+     "w": "De re rustica",
+     "r": "3.5.12"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Coarelli et al., L'Area Sacra di Largo Argentina I (1981)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000)"
+   ],
+   "note": "Diameter of the colonnade about 19 m; column height ~11 m estimated from the surviving tufa columns. The cella stood free inside the colonnade in this phase."
+  },
+  {
+   "id": "largo_argentina_b_v2",
+   "monument": "largo_argentina_temple_b",
+   "name": "Temple B (enlarged cella)",
+   "from": -60,
+   "to": 79,
+   "template": "tholos",
+   "loc": [
+    12.476815,
+    41.895386
+   ],
+   "rot": 90.0,
+   "w": 19.2,
+   "l": 22.0,
+   "h": 17.5,
+   "params": {
+    "diameter": 19.2,
+    "columns": 18,
+    "colH": 11.0,
+    "podium": 2.8,
+    "roof": "cone",
+    "order": "corinthian",
+    "wallsBetweenColumns": true,
+    "mat": {
+     "podium": "tufa",
+     "columns": "tufa",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "In a second Republican phase the intercolumniations were walled up to enlarge the cella and the podium and front stair were extended.",
+   "sources": [],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Coarelli et al., L'Area Sacra di Largo Argentina I (1981)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000)"
+   ],
+   "note": "Date of the second phase approximate (mid-1st century BC)."
+  },
+  {
+   "id": "largo_argentina_b_v3",
+   "monument": "largo_argentina_temple_b",
+   "name": "Temple B (Domitianic)",
+   "from": 81,
+   "to": 9999,
+   "begun": 80,
+   "template": "tholos",
+   "loc": [
+    12.476815,
+    41.895386
+   ],
+   "rot": 90.0,
+   "w": 19.2,
+   "l": 22.0,
+   "h": 17.5,
+   "params": {
+    "diameter": 19.2,
+    "columns": 18,
+    "colH": 11.0,
+    "podium": 2.8,
+    "roof": "cone",
+    "order": "corinthian",
+    "wallsBetweenColumns": true,
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "brick",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "Restored after the fire of 80 at the level of the new travertine pavement.",
+   "sources": [],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Coarelli et al., L'Area Sacra di Largo Argentina I (1981)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000)"
+   ]
+  },
+  {
+   "id": "largo_argentina_d_v1",
+   "monument": "largo_argentina_temple_d",
+   "name": "Temple D (Lares Permarini?)",
+   "from": -179,
+   "to": -79,
+   "builder": "marcus_aemilius_lepidus_cos187",
+   "template": "temple",
+   "loc": [
+    12.47682,
+    41.89487
+   ],
+   "rot": 90.0,
+   "w": 22.0,
+   "l": 40.0,
+   "h": 17.9,
+   "params": {
+    "order": "tuscan",
+    "plan": "prostyle",
+    "front": 6,
+    "side": 4,
+    "podium": 3.0,
+    "colH": 10.0,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "The largest of the four, mostly still under Via Florida. Probably the temple of the Lares Permarini, the guardians of seafarers, vowed by L. Aemilius Regillus in the naval battle against Antiochus' fleet in 190 BC and dedicated by M. Aemilius Lepidus as censor on 22 December 179, 'in porticu Minucia'.",
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "40.52.4-7"
+    },
+    {
+     "a": "Macrobius",
+     "w": "Saturnalia",
+     "r": "1.10.10"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Coarelli et al., L'Area Sacra di Largo Argentina I (1981)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000)"
+   ],
+   "note": "Identification follows Coarelli (the Fasti Praenestini place the Lares Permarini in the Porticus Minucia). Only the northern part is excavated; size about 40 x 22 m."
+  },
+  {
+   "id": "largo_argentina_d_v2",
+   "monument": "largo_argentina_temple_d",
+   "name": "Temple D (late Republican travertine rebuilding)",
+   "from": -78,
+   "to": 79,
+   "template": "temple",
+   "loc": [
+    12.47682,
+    41.89487
+   ],
+   "rot": 90.0,
+   "w": 22.0,
+   "l": 40.0,
+   "h": 19.2,
+   "params": {
+    "order": "corinthian",
+    "plan": "peripteros_sine_postico",
+    "front": 6,
+    "side": 8,
+    "podium": 3.0,
+    "colH": 11.0,
+    "steps": "front",
+    "mat": {
+     "podium": "travertine",
+     "columns": "travertine",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "Rebuilt in travertine in the late Republic.",
+   "sources": [],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Coarelli et al., L'Area Sacra di Largo Argentina I (1981)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000)"
+   ],
+   "note": "Date of the rebuilding approximate."
+  },
+  {
+   "id": "largo_argentina_d_v3",
+   "monument": "largo_argentina_temple_d",
+   "name": "Temple D (Domitianic)",
+   "from": 81,
+   "to": 9999,
+   "begun": 80,
+   "template": "temple",
+   "loc": [
+    12.47682,
+    41.89487
+   ],
+   "rot": 90.0,
+   "w": 22.0,
+   "l": 40.0,
+   "h": 19.2,
+   "params": {
+    "order": "corinthian",
+    "plan": "peripteros_sine_postico",
+    "front": 6,
+    "side": 8,
+    "podium": 3.0,
+    "colH": 11.0,
+    "steps": "front",
+    "mat": {
+     "podium": "travertine",
+     "columns": "travertine",
+     "walls": "brick",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "Restored after the fire of 80 with brick-faced walls.",
+   "sources": [],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Coarelli et al., L'Area Sacra di Largo Argentina I (1981)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000)"
+   ]
+  },
+  {
+   "id": "latrina_largo_argentina",
+   "monument": "latrina_largo_argentina",
+   "name": "Great latrine of the Area Sacra",
+   "from": 81,
+   "to": 9999,
+   "template": "compound",
+   "loc": [
+    12.4766,
+    41.89556
+   ],
+   "rot": 90.0,
+   "w": 40.0,
+   "l": 8.0,
+   "h": 5.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 40.0,
+      "l": 8.0,
+      "h": 5.0,
+      "mat": "brick"
+     }
+    ]
+   },
+   "importance": 1,
+   "certainty": "excavated",
+   "summary": "A large public latrine built behind Temples A and B against the Hecatostylum in the imperial period.",
+   "sources": [],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Coarelli et al., L'Area Sacra di Largo Argentina I (1981)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000)"
+   ],
+   "note": "Long axis N-S behind the temples; built after the Domitianic repaving (date approximate). w (40 m) runs N-S across the east-facing front."
+  },
+  {
+   "id": "porticus_minucia_vetus_v1",
+   "monument": "porticus_minucia",
+   "name": "Porticus Minucia Vetus",
+   "from": -107,
+   "to": 79,
+   "builderName": "M. Minucius Rufus (cos. 110 BC)",
+   "template": "porticus",
+   "loc": [
+    12.477,
+    41.8953
+   ],
+   "rot": 90.0,
+   "w": 130.0,
+   "l": 70.0,
+   "h": 8.0,
+   "footprint": [
+    [
+     12.477422,
+     41.895885
+    ],
+    [
+     12.477422,
+     41.894715
+    ],
+    [
+     12.476578,
+     41.894715
+    ],
+    [
+     12.476578,
+     41.895885
+    ],
+    [
+     12.477422,
+     41.895885
+    ]
+   ],
+   "params": {
+    "depth": 7.0,
+    "colH": 6.5,
+    "double": false,
+    "garden": false,
+    "sides": [
+     "n",
+     "e",
+     "w"
+    ],
+    "mat": {
+     "columns": "tufa",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "conjectural",
+   "summary": "Built by M. Minucius Rufus from the spoils of his Thracian victory (triumph 106 BC). In Coarelli's interpretation it enclosed the four Largo Argentina temples, Temple D being described as 'in porticu Minucia'.",
+   "sources": [
+    {
+     "a": "Velleius Paterculus",
+     "w": "Roman History",
+     "r": "2.8.3"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 315",
+    "Coarelli, Il Campo Marzio dalle origini alla fine della repubblica (1997)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Porticus Minucia vetus",
+    "Stanford Digital Forma Urbis Romae Project (formaurbis.stanford.edu)"
+   ],
+   "note": "Debated. Coarelli: around the Area Sacra di Largo Argentina (followed here). Others (Manacorda, Rodriguez-Almeida) put the Minucia at Via delle Botteghe Oscure. sides: n = front (east), e = right (south), w = left (north); the back (west) is closed by the Porticus of Pompey and its Curia."
+  },
+  {
+   "id": "porticus_minucia_vetus_v2",
+   "monument": "porticus_minucia",
+   "name": "Porticus Minucia Vetus (Domitianic)",
+   "from": 81,
+   "to": 9999,
+   "begun": 80,
+   "template": "porticus",
+   "loc": [
+    12.477,
+    41.8953
+   ],
+   "rot": 90.0,
+   "w": 130.0,
+   "l": 70.0,
+   "h": 8.5,
+   "footprint": [
+    [
+     12.477422,
+     41.895885
+    ],
+    [
+     12.477422,
+     41.894715
+    ],
+    [
+     12.476578,
+     41.894715
+    ],
+    [
+     12.476578,
+     41.895885
+    ],
+    [
+     12.477422,
+     41.895885
+    ]
+   ],
+   "params": {
+    "depth": 7.0,
+    "colH": 7.0,
+    "double": false,
+    "garden": false,
+    "sides": [
+     "n",
+     "e",
+     "w"
+    ],
+    "mat": {
+     "columns": "travertine",
+     "walls": "brick",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "conjectural",
+   "summary": "Rebuilt with the Area Sacra after the fire of 80.",
+   "sources": [],
+   "scholarship": [
+    "Coarelli, Il Campo Marzio dalle origini alla fine della repubblica (1997)"
+   ],
+   "note": "As v1."
+  },
+  {
+   "id": "porticus_minucia_frumentaria",
+   "monument": "porticus_minucia_frumentaria",
+   "name": "Porticus Minucia Frumentaria",
+   "from": 45,
+   "to": 9999,
+   "builder": "claudius",
+   "template": "porticus",
+   "loc": [
+    12.47985,
+    41.8952
+   ],
+   "rot": 356.0,
+   "w": 100.0,
+   "l": 100.0,
+   "h": 9.0,
+   "params": {
+    "depth": 8.0,
+    "colH": 7.0,
+    "double": false,
+    "garden": false,
+    "ostia": 45,
+    "mat": {
+     "columns": "travertine",
+     "walls": "brick",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "conjectural",
+   "summary": "The seat of the monthly free grain distribution to the plebs, where citizens presented their tesserae at one of 45 numbered entrances (ostia); it existed by the reign of Claudius.",
+   "sources": [
+    {
+     "a": "Regionary Catalogues",
+     "w": "Notitia",
+     "r": "Regio IX"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 315-316",
+    "Coarelli, Il Campo Marzio dalle origini alla fine della repubblica (1997)",
+    "Manacorda, Crypta Balbi: archeologia e storia di un paesaggio urbano (2001)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Porticus Minucia frumentaria"
+   ],
+   "note": "Coarelli puts it immediately east of the Crypta Balbi around the temple at Via delle Botteghe Oscure. Size (about 100 m square) and date are conjectural."
+  },
+  {
+   "id": "temple_nymphs_v1",
+   "monument": "temple_of_the_nymphs",
+   "name": "Temple of the Nymphs (Aedes Nympharum)",
+   "from": -179,
+   "to": -57,
+   "template": "temple",
+   "loc": [
+    12.479488,
+    41.895245
+   ],
+   "rot": 86.0,
+   "w": 18.0,
+   "l": 28.0,
+   "h": 16.2,
+   "params": {
+    "order": "tuscan",
+    "plan": "peripteros_sine_postico",
+    "front": 6,
+    "side": 7,
+    "podium": 3.0,
+    "colH": 9.0,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Where the censors' records were kept. Clodius' gangs burned it in 57 BC to destroy the census records, as Cicero repeatedly charged.",
+   "sources": [
+    {
+     "a": "Cicero",
+     "w": "Pro Milone",
+     "r": "73"
+    },
+    {
+     "a": "Cicero",
+     "w": "De haruspicum responso",
+     "r": "57"
+    },
+    {
+     "a": "Cicero",
+     "w": "Paradoxa Stoicorum",
+     "r": "31"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 268",
+    "Coarelli, Il Campo Marzio dalle origini alla fine della repubblica (1997)",
+    "Manacorda, Crypta Balbi (2001)"
+   ],
+   "note": "Identified by Coarelli with the temple remains under Via delle Botteghe Oscure, later inside the Porticus Minucia Frumentaria. Date of founding unknown (179 BC assumed, with Lepidus' censorship); orientation guessed."
+  },
+  {
+   "id": "temple_nymphs_v2",
+   "monument": "temple_of_the_nymphs",
+   "name": "Temple of the Nymphs (rebuilt)",
+   "from": -55,
+   "to": 9999,
+   "template": "temple",
+   "loc": [
+    12.479488,
+    41.895245
+   ],
+   "rot": 86.0,
+   "w": 18.0,
+   "l": 28.0,
+   "h": 17.5,
+   "params": {
+    "order": "corinthian",
+    "plan": "peripteros_sine_postico",
+    "front": 6,
+    "side": 7,
+    "podium": 3.0,
+    "colH": 10.0,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "travertine",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Rebuilt after Clodius' arson; the visible podium under Via delle Botteghe Oscure belongs to a late Republican phase.",
+   "sources": [],
+   "scholarship": [
+    "Coarelli, Il Campo Marzio dalle origini alla fine della repubblica (1997)"
+   ],
+   "note": "As v1."
+  },
+  {
+   "id": "villa_publica_v1",
+   "monument": "villa_publica",
+   "name": "Villa Publica",
+   "from": -435,
+   "to": -195,
+   "template": "compound",
+   "loc": [
+    12.47956,
+    41.8964
+   ],
+   "rot": 176.0,
+   "w": 70.0,
+   "l": 100.0,
+   "h": 7.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "wall",
+      "x": 0,
+      "y": 0,
+      "w": 70.0,
+      "l": 100.0,
+      "h": 2.5,
+      "mat": "tufa"
+     },
+     {
+      "shape": "court",
+      "x": 0,
+      "y": 25.0,
+      "w": 30.0,
+      "l": 22.0,
+      "h": 7.0,
+      "ringDepth": 6.0,
+      "mat": "stucco"
+     }
+    ]
+   },
+   "importance": 3,
+   "certainty": "conjectural",
+   "summary": "Built by the censors of 435 BC as the base of the census and the levy, an official residence in an enclosed park where generals awaiting a triumph and foreign envoys could stay outside the pomerium.",
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "4.22.7"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 430",
+    "Coarelli, Il Campo Marzio dalle origini alla fine della repubblica (1997)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Villa Publica"
+   ],
+   "note": "Location debated: south of the Saepta, on the later site of the Divorum (followed here, Richardson) or at Via delle Botteghe Oscure. Form invented: a walled park with a modest courtyard house."
+  },
+  {
+   "id": "villa_publica_v2",
+   "monument": "villa_publica",
+   "name": "Villa Publica (rebuilt 194 BC)",
+   "from": -194,
+   "to": 80,
+   "template": "compound",
+   "loc": [
+    12.47956,
+    41.8964
+   ],
+   "rot": 176.0,
+   "w": 70.0,
+   "l": 100.0,
+   "h": 8.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "wall",
+      "x": 0,
+      "y": 0,
+      "w": 70.0,
+      "l": 100.0,
+      "h": 3.0,
+      "mat": "stucco"
+     },
+     {
+      "shape": "court",
+      "x": 0,
+      "y": 25.0,
+      "w": 36.0,
+      "l": 26.0,
+      "h": 8.0,
+      "ringDepth": 7.0,
+      "mat": "stucco"
+     }
+    ]
+   },
+   "importance": 3,
+   "certainty": "conjectural",
+   "summary": "Rebuilt and enlarged by the censors of 194 BC; a coin of 59 BC shows a two-storey colonnaded building. Sulla had 6,000 prisoners massacred here in 82 BC within earshot of the Senate, and Varro set his dialogue on farming here. It disappeared under Domitian's Divorum after the fire of 80.",
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "34.44.5"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Sulla",
+     "r": "30.2"
+    },
+    {
+     "a": "Varro",
+     "w": "De re rustica",
+     "r": "3.2.1"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 430",
+    "Coarelli, Il Campo Marzio dalle origini alla fine della repubblica (1997)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Villa Publica"
+   ],
+   "note": "As v1."
+  },
+  {
+   "id": "ovile_saepta_republican",
+   "monument": "saepta_julia",
+   "name": "Saepta (Ovile), Republican voting enclosure",
+   "from": -300,
+   "to": -27,
+   "template": "porticus",
+   "loc": [
+    12.47815,
+    41.8978
+   ],
+   "rot": 176.0,
+   "w": 110.0,
+   "l": 290.0,
+   "h": 3.0,
+   "params": {
+    "depth": 3.0,
+    "colH": 2.5,
+    "double": false,
+    "garden": false,
+    "mat": {
+     "columns": "timber",
+     "walls": "timber",
+     "roof": "timber"
+    }
+   },
+   "importance": 3,
+   "certainty": "conjectural",
+   "summary": "The wooden pens (the 'sheepfold') in which the centuries of the comitia centuriata were marshalled to vote in the Campus Martius, replaced by Caesar's and Agrippa's marble Saepta.",
+   "sources": [
+    {
+     "a": "Cicero",
+     "w": "Ad Atticum",
+     "r": "4.16.8"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "26.22.11"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 340",
+    "Coarelli, Il Campo Marzio dalle origini alla fine della repubblica (1997)"
+   ],
+   "note": "Assumed to have occupied roughly the site of the later Saepta Julia; form and start date invented."
+  },
+  {
+   "id": "ara_martis",
+   "monument": "ara_martis",
+   "name": "Altar of Mars (Ara Martis in Campo)",
+   "from": -509,
+   "to": 9999,
+   "template": "altar",
+   "loc": [
+    12.479,
+    41.89665
+   ],
+   "rot": 86.0,
+   "w": 12.0,
+   "l": 12.0,
+   "h": 3.0,
+   "params": {
+    "enclosure": {
+     "w": 12.0,
+     "l": 12.0,
+     "h": 1.2
+    },
+    "altar": {
+     "w": 4.0,
+     "l": 3.0,
+     "h": 1.6
+    },
+    "mat": {
+     "altar": "tufa"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "The ancient altar of Mars that gave the Campus its name, where the censors performed the lustrum that closed the census. It stood near the Villa Publica.",
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "35.10.12"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "40.45.8"
+    },
+    {
+     "a": "Festus",
+     "w": "De verborum significatu",
+     "r": "p. 204 L"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 245",
+    "Coarelli, Il Campo Marzio dalle origini alla fine della repubblica (1997)"
+   ],
+   "note": "Location near the Villa Publica per Livy; exact spot unknown."
+  },
+  {
+   "id": "theatre_pompey_v1",
+   "monument": "theatre_of_pompey_mon",
+   "name": "Theatre of Pompey",
+   "from": -55,
+   "to": -33,
+   "begun": -61,
+   "builder": "pompey",
+   "template": "theatre",
+   "loc": [
+    12.474056,
+    41.895341
+   ],
+   "rot": 92.0,
+   "w": 150.0,
+   "l": 95.0,
+   "h": 45.0,
+   "params": {
+    "diameter": 150.0,
+    "orchestra": 50.0,
+    "storeys": 3,
+    "scaena": {
+     "w": 95.0,
+     "depth": 20.0,
+     "h": 30.0
+    },
+    "templeOnTop": false,
+    "temple": "separate record temple_venus_victrix",
+    "seats": 17500,
+    "mat": {
+     "facade": "travertine",
+     "cavea": "concrete_faced",
+     "scaena": "marble_color",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 5,
+   "certainty": "reconstructed",
+   "summary": "Rome's first permanent stone theatre, dedicated by Pompey in his second consulship in 55 BC with games in which 500 lions and 18 elephants died. To evade the old ban on permanent theatres, a temple of Venus Victrix crowned the top of the cavea so that the seats served as its steps; the temple was dedicated in 52. The cavea was about 150 m across.",
+   "phases": [
+    {
+     "y": -55,
+     "t": "theatre dedicated"
+    },
+    {
+     "y": -52,
+     "t": "temple of Venus Victrix dedicated"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Natural History",
+     "r": "8.20-21"
+    },
+    {
+     "a": "Tertullian",
+     "w": "De spectaculis",
+     "r": "10.5"
+    },
+    {
+     "a": "Aulus Gellius",
+     "w": "Attic Nights",
+     "r": "10.1.7"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "39.38"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Pompey",
+     "r": "52.4"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 383-385",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Packer, Burge and Gagliardo, 'Looking again at Pompey's theater', AJA 111 (2007)",
+    "Gagliardo and Packer, 'A new look at Pompey's theater', AJA 110 (2006)",
+    "Stanford Digital Forma Urbis Romae Project (formaurbis.stanford.edu), fr. 39"
+   ],
+   "note": "Cavea centre fitted to the curve of Via di Grotta Pinta, which follows the inner cavea; the outer edge reaches the houses of Piazza del Biscione. The stage faced east toward the porticus: rot 92 (audience looks slightly south of east), consistent with the Curia Pompeia ~200 m away on the same axis. Height ~45 m to the temple roof (estimate). Seat count of 17,500 is the Regionary figure divided; ancient numbers vary (Pliny 40,000)."
+  },
+  {
+   "id": "theatre_pompey_v1b",
+   "monument": "theatre_of_pompey_mon",
+   "name": "Theatre of Pompey (Augustan restoration)",
+   "from": -32,
+   "to": 21,
+   "builder": "augustus",
+   "template": "theatre",
+   "loc": [
+    12.474056,
+    41.895341
+   ],
+   "rot": 92.0,
+   "w": 150.0,
+   "l": 95.0,
+   "h": 45.0,
+   "params": {
+    "diameter": 150.0,
+    "orchestra": 50.0,
+    "storeys": 3,
+    "scaena": {
+     "w": 95.0,
+     "depth": 20.0,
+     "h": 30.0
+    },
+    "templeOnTop": false,
+    "temple": "separate record temple_venus_victrix",
+    "seats": 17500,
+    "mat": {
+     "facade": "travertine",
+     "cavea": "concrete_faced",
+     "scaena": "marble_color",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 5,
+   "certainty": "reconstructed",
+   "summary": "Augustus restored the theatre at great expense in 32 BC without adding his own name, and placed Pompey's statue, removed from the Curia, on a marble arch facing the theatre's royal door.",
+   "sources": [
+    {
+     "a": "Res Gestae Divi Augusti",
+     "w": "",
+     "r": "20.1"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Augustus",
+     "r": "31.5"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 383-385",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Packer, Burge and Gagliardo, 'Looking again at Pompey's theater', AJA 111 (2007)",
+    "Gagliardo and Packer, 'A new look at Pompey's theater', AJA 110 (2006)",
+    "Stanford Digital Forma Urbis Romae Project (formaurbis.stanford.edu), fr. 39"
+   ]
+  },
+  {
+   "id": "theatre_pompey_v2",
+   "monument": "theatre_of_pompey_mon",
+   "name": "Theatre of Pompey (Tiberian-Claudian rebuilding)",
+   "from": 22,
+   "to": 79,
+   "builder": "tiberius",
+   "template": "theatre",
+   "loc": [
+    12.474056,
+    41.895341
+   ],
+   "rot": 92.0,
+   "w": 150.0,
+   "l": 95.0,
+   "h": 45.0,
+   "params": {
+    "diameter": 150.0,
+    "orchestra": 50.0,
+    "storeys": 3,
+    "scaena": {
+     "w": 95.0,
+     "depth": 20.0,
+     "h": 30.0
+    },
+    "templeOnTop": false,
+    "temple": "separate record temple_venus_victrix",
+    "seats": 17500,
+    "mat": {
+     "facade": "travertine",
+     "cavea": "concrete_faced",
+     "scaena": "marble_color",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 5,
+   "certainty": "reconstructed",
+   "summary": "Burned in AD 22; Tiberius began the rebuilding, Caligula continued it and Claudius rededicated it in Pompey's name. Nero had it gilded inside and out for one day for the visit of Tiridates of Armenia in 66.",
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "3.72"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "6.45"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Claudius",
+     "r": "21.1"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Natural History",
+     "r": "33.54"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "63.6.1"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 383-385",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Packer, Burge and Gagliardo, 'Looking again at Pompey's theater', AJA 111 (2007)",
+    "Gagliardo and Packer, 'A new look at Pompey's theater', AJA 110 (2006)",
+    "Stanford Digital Forma Urbis Romae Project (formaurbis.stanford.edu), fr. 39"
+   ],
+   "note": "Form as before; the fire mostly damaged the scaena."
+  },
+  {
+   "id": "theatre_pompey_v3",
+   "monument": "theatre_of_pompey_mon",
+   "name": "Theatre of Pompey (Flavian to Diocletianic)",
+   "from": 81,
+   "to": 506,
+   "begun": 80,
+   "template": "theatre",
+   "loc": [
+    12.474056,
+    41.895341
+   ],
+   "rot": 92.0,
+   "w": 150.0,
+   "l": 95.0,
+   "h": 45.0,
+   "params": {
+    "diameter": 150.0,
+    "orchestra": 50.0,
+    "storeys": 3,
+    "scaena": {
+     "w": 95.0,
+     "depth": 20.0,
+     "h": 30.0
+    },
+    "templeOnTop": false,
+    "temple": "separate record temple_venus_victrix",
+    "seats": 17500,
+    "mat": {
+     "facade": "travertine",
+     "cavea": "concrete_faced",
+     "scaena": "marble_color",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 5,
+   "certainty": "reconstructed",
+   "summary": "The scaena burned again in AD 80 and was restored; Septimius Severus repaired it, and Diocletian and Maximian restored the theatre after the fire of 283. It remained in use for spectacles into the 5th century.",
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "66.24.2"
+    },
+    {
+     "a": "Chronographer of 354",
+     "w": "Chronica urbis Romae",
+     "r": "Diocletian"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 383-385",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Packer, Burge and Gagliardo, 'Looking again at Pompey's theater', AJA 111 (2007)",
+    "Gagliardo and Packer, 'A new look at Pompey's theater', AJA 110 (2006)",
+    "Stanford Digital Forma Urbis Romae Project (formaurbis.stanford.edu), fr. 39"
+   ]
+  },
+  {
+   "id": "theatre_pompey_v4",
+   "monument": "theatre_of_pompey_mon",
+   "name": "Theatre of Pompey (Theodoric's restoration)",
+   "from": 507,
+   "to": 9999,
+   "builder": "theodoric_the_great",
+   "template": "theatre",
+   "loc": [
+    12.474056,
+    41.895341
+   ],
+   "rot": 92.0,
+   "w": 150.0,
+   "l": 95.0,
+   "h": 40.0,
+   "params": {
+    "diameter": 150.0,
+    "orchestra": 50.0,
+    "storeys": 3,
+    "scaena": {
+     "w": 95.0,
+     "depth": 20.0,
+     "h": 24.0
+    },
+    "templeOnTop": false,
+    "temple": "separate record temple_venus_victrix",
+    "seats": 17500,
+    "mat": {
+     "facade": "travertine",
+     "cavea": "concrete_faced",
+     "scaena": "marble_color",
+     "roof": "roof_tile"
+    }
+   },
+   "ruin": {
+    "from": 560,
+    "state": "half"
+   },
+   "importance": 5,
+   "certainty": "reconstructed",
+   "summary": "Theodoric commissioned the senator Symmachus to restore the theatre, whose great vaults were threatening collapse; his letter marvels at the 'caves' of the cavea. After the Gothic wars it fell slowly into ruin and was built over in the Middle Ages, its curve preserved by the houses of Via di Grotta Pinta.",
+   "sources": [
+    {
+     "a": "Cassiodorus",
+     "w": "Variae",
+     "r": "4.51"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 383-385",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Packer, Burge and Gagliardo, 'Looking again at Pompey's theater', AJA 111 (2007)",
+    "Gagliardo and Packer, 'A new look at Pompey's theater', AJA 110 (2006)",
+    "Stanford Digital Forma Urbis Romae Project (formaurbis.stanford.edu), fr. 39"
+   ],
+   "note": "Restoration date c. 507-511. Upper parts reduced to show decay."
+  },
+  {
+   "id": "porticus_pompeiana_v1",
+   "monument": "porticus_pompeiana",
+   "name": "Porticus of Pompey",
+   "from": -55,
+   "to": 246,
+   "builder": "pompey",
+   "template": "porticus",
+   "loc": [
+    12.475304,
+    41.895308
+   ],
+   "rot": 92.0,
+   "w": 135.0,
+   "l": 167.0,
+   "h": 11.0,
+   "footprint": [
+    [
+     12.476339,
+     41.895889
+    ],
+    [
+     12.476283,
+     41.894675
+    ],
+    [
+     12.474269,
+     41.894727
+    ],
+    [
+     12.474325,
+     41.895941
+    ],
+    [
+     12.476339,
+     41.895889
+    ]
+   ],
+   "params": {
+    "depth": 9.0,
+    "colH": 9.0,
+    "double": true,
+    "garden": true,
+    "groves": "plane trees",
+    "mat": {
+     "columns": "marble_color",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 4,
+   "certainty": "reconstructed",
+   "summary": "The great quadriporticus behind the stage of Pompey's theatre, about 180 x 135 m, planted with double rows of plane trees and fountains, hung with paintings and tapestries and full of statues: the favourite promenade of Rome, where Catullus hunted for his friend and Ovid sent lovers looking. At its far (east) end stood the Curia of Pompey.",
+   "sources": [
+    {
+     "a": "Catullus",
+     "w": "Carmina",
+     "r": "55.6"
+    },
+    {
+     "a": "Propertius",
+     "w": "Elegies",
+     "r": "2.32.11-16"
+    },
+    {
+     "a": "Ovid",
+     "w": "Ars amatoria",
+     "r": "1.67"
+    },
+    {
+     "a": "Martial",
+     "w": "Epigrams",
+     "r": "11.47.3"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Natural History",
+     "r": "35.59"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 383-385",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Packer, Burge and Gagliardo, 'Looking again at Pompey's theater', AJA 111 (2007)",
+    "Gagliardo and Packer, 'A new look at Pompey's theater', AJA 110 (2006)",
+    "Stanford Digital Forma Urbis Romae Project (formaurbis.stanford.edu), fr. 39",
+    "Stanford Digital Forma Urbis Romae Project (formaurbis.stanford.edu), fr. 39"
+   ],
+   "note": "Marble Plan shows the garden with a double colonnade. Length set to 167 m between the back of the scaena and the Curia (the often quoted 180 m includes the Curia block); axis rot 92 with the theatre."
+  },
+  {
+   "id": "porticus_pompeiana_v2",
+   "monument": "porticus_pompeiana",
+   "name": "Porticus of Pompey (burned)",
+   "from": 247,
+   "to": 293,
+   "template": "porticus",
+   "loc": [
+    12.475304,
+    41.895308
+   ],
+   "rot": 92.0,
+   "w": 135.0,
+   "l": 167.0,
+   "h": 9.0,
+   "footprint": [
+    [
+     12.476339,
+     41.895889
+    ],
+    [
+     12.476283,
+     41.894675
+    ],
+    [
+     12.474269,
+     41.894727
+    ],
+    [
+     12.474325,
+     41.895941
+    ],
+    [
+     12.476339,
+     41.895889
+    ]
+   ],
+   "params": {
+    "depth": 9.0,
+    "colH": 9.0,
+    "double": true,
+    "garden": true,
+    "groves": "plane trees",
+    "mat": {
+     "columns": "marble_color",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "ruin": {
+    "from": 247,
+    "state": "roofless"
+   },
+   "importance": 4,
+   "certainty": "reconstructed",
+   "summary": "The porticus and the Hecatostylum burned under Philip the Arab.",
+   "sources": [
+    {
+     "a": "Chronographer of 354",
+     "w": "Chronica urbis Romae",
+     "r": "Philippus"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 383-385",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Packer, Burge and Gagliardo, 'Looking again at Pompey's theater', AJA 111 (2007)",
+    "Gagliardo and Packer, 'A new look at Pompey's theater', AJA 110 (2006)",
+    "Stanford Digital Forma Urbis Romae Project (formaurbis.stanford.edu), fr. 39"
+   ]
+  },
+  {
+   "id": "porticus_pompeiana_v3",
+   "monument": "porticus_pompeiana",
+   "name": "Porticus Iovia and Herculia (Diocletianic Porticus Pompeianae)",
+   "from": 294,
+   "to": 9999,
+   "begun": 285,
+   "builder": "diocletian",
+   "template": "porticus",
+   "loc": [
+    12.475304,
+    41.895308
+   ],
+   "rot": 92.0,
+   "w": 135.0,
+   "l": 167.0,
+   "h": 11.0,
+   "footprint": [
+    [
+     12.476339,
+     41.895889
+    ],
+    [
+     12.476283,
+     41.894675
+    ],
+    [
+     12.474269,
+     41.894727
+    ],
+    [
+     12.474325,
+     41.895941
+    ],
+    [
+     12.476339,
+     41.895889
+    ]
+   ],
+   "params": {
+    "depth": 9.0,
+    "colH": 9.0,
+    "double": true,
+    "garden": true,
+    "groves": "plane trees",
+    "mat": {
+     "columns": "granite",
+     "walls": "brick",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 4,
+   "certainty": "reconstructed",
+   "summary": "Diocletian and Maximian rebuilt the twin porticoes, renamed Porticus Iovia and Porticus Herculia after their divine patrons; the Regionary Catalogues list 'Porticus II'.",
+   "sources": [
+    {
+     "a": "Chronographer of 354",
+     "w": "Chronica urbis Romae",
+     "r": "Diocletian"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 383-385",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Packer, Burge and Gagliardo, 'Looking again at Pompey's theater', AJA 111 (2007)",
+    "Gagliardo and Packer, 'A new look at Pompey's theater', AJA 110 (2006)",
+    "Stanford Digital Forma Urbis Romae Project (formaurbis.stanford.edu), fr. 39"
+   ],
+   "note": "Identification of the Porticus Iovia and Herculia with the Pompeian porticoes is standard but not certain."
+  },
+  {
+   "id": "curia_pompeia_v1",
+   "monument": "curia_pompeia",
+   "name": "Curia of Pompey",
+   "from": -55,
+   "to": -43,
+   "builder": "pompey",
+   "template": "basilica",
+   "loc": [
+    12.47643,
+    41.89527
+   ],
+   "rot": 272.0,
+   "w": 25.0,
+   "l": 20.0,
+   "h": 15.0,
+   "params": {
+    "nave": 25.0,
+    "aisles": 1,
+    "storeys": 1,
+    "facade": "colonnade",
+    "apses": "none",
+    "clerestory": false,
+    "colH": 9.0,
+    "mat": {
+     "walls": "tufa",
+     "columns": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "The hall at the east end of the porticus where the Senate met while the Curia Hostilia was being rebuilt. Here on the Ides of March 44 BC Caesar was stabbed 23 times and fell at the foot of Pompey's statue. Its tufa platform lies behind Temples B and C of Largo Argentina.",
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Divus Julius",
+     "r": "80.4"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Divus Julius",
+     "r": "82"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Caesar",
+     "r": "66"
+    },
+    {
+     "a": "Appian",
+     "w": "Civil Wars",
+     "r": "2.117"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 104",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)",
+    "Coarelli, Il Foro Romano II (1985)"
+   ],
+   "note": "Faces west (rot 272) into the porticus; its back wall abutted the temples. Dimensions approximate from the excavated platform (about 25 m wide)."
+  },
+  {
+   "id": "curia_pompeia_v2",
+   "monument": "curia_pompeia",
+   "name": "Curia of Pompey (walled up)",
+   "from": -42,
+   "to": 9999,
+   "template": "basilica",
+   "loc": [
+    12.47643,
+    41.89527
+   ],
+   "rot": 272.0,
+   "w": 25.0,
+   "l": 20.0,
+   "h": 15.0,
+   "params": {
+    "nave": 25.0,
+    "aisles": 1,
+    "storeys": 1,
+    "facade": "closed",
+    "apses": "none",
+    "clerestory": false,
+    "colH": 9.0,
+    "mat": {
+     "walls": "tufa",
+     "columns": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "After the murder the Senate declared the place accursed and had it walled up; Augustus moved Pompey's statue to a marble arch facing the theatre. In the imperial period a concrete structure, perhaps a memorial, was built in the closed hall.",
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Divus Julius",
+     "r": "88"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Augustus",
+     "r": "31.5"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "47.19.1"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 104",
+    "Coarelli, Il Foro Romano II (1985)"
+   ]
+  },
+  {
+   "id": "hecatostylum_v1",
+   "monument": "hecatostylum",
+   "name": "Hecatostylum (Porch of a Hundred Columns)",
+   "from": -55,
+   "to": 246,
+   "template": "colonnade",
+   "loc": [
+    12.47563,
+    41.895956
+   ],
+   "rot": 92.0,
+   "w": 8.0,
+   "l": 176.0,
+   "h": 8.0,
+   "params": {
+    "line": [
+     [
+      12.47458,
+      41.895983
+     ],
+     [
+      12.476692,
+      41.895938
+     ]
+    ],
+    "depth": 8.0,
+    "colH": 7.0,
+    "mat": {
+     "columns": "marble_color",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "documented",
+   "summary": "A long colonnade of a hundred columns along the north side of the Pompeian complex and the Area Sacra, shown on the Marble Plan; Martial calls it the 'hundred columns'.",
+   "sources": [
+    {
+     "a": "Martial",
+     "w": "Epigrams",
+     "r": "2.14.9"
+    },
+    {
+     "a": "Propertius",
+     "w": "Elegies",
+     "r": "2.32.11"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 188",
+    "Stanford Digital Forma Urbis Romae Project (formaurbis.stanford.edu), fr. 39",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Hecatostylum"
+   ],
+   "note": "Line along the north flank (Marble Plan); exact length unknown, set at ~176 m. Probably part of Pompey's project (date assumed)."
+  },
+  {
+   "id": "hecatostylum_v2",
+   "monument": "hecatostylum",
+   "name": "Hecatostylum (burned)",
+   "from": 247,
+   "to": 293,
+   "template": "colonnade",
+   "loc": [
+    12.47563,
+    41.895956
+   ],
+   "rot": 92.0,
+   "w": 8.0,
+   "l": 176.0,
+   "h": 5.0,
+   "params": {
+    "line": [
+     [
+      12.47458,
+      41.895983
+     ],
+     [
+      12.476692,
+      41.895938
+     ]
+    ],
+    "depth": 8.0,
+    "colH": 7.0,
+    "mat": {
+     "columns": "marble_color",
+     "roof": "roof_tile"
+    }
+   },
+   "ruin": {
+    "from": 247,
+    "state": "roofless"
+   },
+   "importance": 1,
+   "certainty": "documented",
+   "summary": "Burned under Philip the Arab together with the Porticus of Pompey.",
+   "sources": [
+    {
+     "a": "Chronographer of 354",
+     "w": "Chronica urbis Romae",
+     "r": "Philippus"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 188"
+   ]
+  },
+  {
+   "id": "hecatostylum_v3",
+   "monument": "hecatostylum",
+   "name": "Hecatostylum (Diocletianic)",
+   "from": 294,
+   "to": 9999,
+   "begun": 285,
+   "template": "colonnade",
+   "loc": [
+    12.47563,
+    41.895956
+   ],
+   "rot": 92.0,
+   "w": 8.0,
+   "l": 176.0,
+   "h": 8.0,
+   "params": {
+    "line": [
+     [
+      12.47458,
+      41.895983
+     ],
+     [
+      12.476692,
+      41.895938
+     ]
+    ],
+    "depth": 8.0,
+    "colH": 7.0,
+    "mat": {
+     "columns": "granite",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "documented",
+   "summary": "Restored by Diocletian and Maximian.",
+   "sources": [
+    {
+     "a": "Chronographer of 354",
+     "w": "Chronica urbis Romae",
+     "r": "Diocletian"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 188"
+   ]
+  },
+  {
+   "id": "temple_fortuna_equestris",
+   "monument": "temple_of_fortuna_equestris",
+   "name": "Temple of Fortuna Equestris",
+   "from": -173,
+   "to": 10,
+   "builderName": "Q. Fulvius Flaccus (cos. 179 BC)",
+   "template": "temple",
+   "loc": [
+    12.4733,
+    41.89665
+   ],
+   "rot": 176.0,
+   "w": 16.0,
+   "l": 26.0,
+   "h": 16.0,
+   "params": {
+    "order": "ionic",
+    "plan": "prostyle",
+    "front": 6,
+    "side": 2,
+    "podium": 3.0,
+    "colH": 9.0,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "stucco",
+     "roof": "marble_white"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Vowed by Q. Fulvius Flaccus in a cavalry battle in Spain in 180 BC and dedicated in 173; he scandalously stripped the marble roof tiles from the temple of Juno Lacinia at Croton for it and was made to return them. Vitruvius saw it 'by the stone theatre'; by AD 22 it no longer existed.",
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "40.40.10"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "42.3.1-11"
+    },
+    {
+     "a": "Vitruvius",
+     "w": "De architectura",
+     "r": "3.3.2"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "3.71"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 154",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Fortuna Equestris, aedes"
+   ],
+   "note": "Location 'ad theatrum lapideum' (Vitruvius); placed just north of the cavea of Pompey's theatre. Disappearance date between Vitruvius and AD 22 (to = 10 arbitrary)."
+  },
+  {
+   "id": "theatre_balbus_v1",
+   "monument": "theatre_of_balbus",
+   "name": "Theatre of Balbus",
+   "from": -13,
+   "to": 79,
+   "builder": "lucius_cornelius_balbus_minor",
+   "template": "theatre",
+   "loc": [
+    12.47802,
+    41.89475
+   ],
+   "rot": 88.0,
+   "w": 90.0,
+   "l": 60.0,
+   "h": 24.0,
+   "params": {
+    "diameter": 90.0,
+    "orchestra": 28.0,
+    "storeys": 2,
+    "scaena": {
+     "w": 60.0,
+     "depth": 14.0,
+     "h": 24.0
+    },
+    "templeOnTop": false,
+    "seats": 7700,
+    "onyxColumns": 4,
+    "mat": {
+     "facade": "travertine",
+     "cavea": "concrete_faced",
+     "scaena": "marble_color",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 4,
+   "certainty": "reconstructed",
+   "summary": "The smallest of Rome's three stone theatres, built by L. Cornelius Balbus the Younger from the spoils of his African triumph (19 BC) and dedicated in 13 BC, when the Tiber was in flood and Balbus could reach it only by boat. Its stage boasted four small columns of onyx.",
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Augustus",
+     "r": "29.5"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "54.25.2"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Natural History",
+     "r": "36.60"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 381",
+    "Manacorda, Crypta Balbi: archeologia e storia di un paesaggio urbano (2001)",
+    "Gatti, in Carettoni et al., La pianta marmorea di Roma antica (1960)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Theatrum Balbi",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)"
+   ],
+   "note": "After Gatti and Manacorda the cavea lies under Palazzo Caetani / Palazzo Mattei di Paganica with the stage on the east, backed by the Crypta Balbi. Diameter ~90 m. rot 88 (audience looks east)."
+  },
+  {
+   "id": "theatre_balbus_v2",
+   "monument": "theatre_of_balbus",
+   "name": "Theatre of Balbus (restored after 80)",
+   "from": 81,
+   "to": 9999,
+   "begun": 80,
+   "template": "theatre",
+   "loc": [
+    12.47802,
+    41.89475
+   ],
+   "rot": 88.0,
+   "w": 90.0,
+   "l": 60.0,
+   "h": 24.0,
+   "params": {
+    "diameter": 90.0,
+    "orchestra": 28.0,
+    "storeys": 2,
+    "scaena": {
+     "w": 60.0,
+     "depth": 14.0,
+     "h": 24.0
+    },
+    "templeOnTop": false,
+    "seats": 7700,
+    "onyxColumns": 4,
+    "mat": {
+     "facade": "travertine",
+     "cavea": "concrete_faced",
+     "scaena": "marble_color",
+     "roof": "roof_tile"
+    }
+   },
+   "ruin": {
+    "from": 560,
+    "state": "half"
+   },
+   "importance": 4,
+   "certainty": "reconstructed",
+   "summary": "Burned in 80 and restored; still listed in the Regionary Catalogues of the 4th century.",
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "66.24.2"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 381",
+    "Manacorda, Crypta Balbi: archeologia e storia di un paesaggio urbano (2001)",
+    "Gatti, in Carettoni et al., La pianta marmorea di Roma antica (1960)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Theatrum Balbi",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)"
+   ]
+  },
+  {
+   "id": "crypta_balbi_v1",
+   "monument": "crypta_balbi",
+   "name": "Crypta Balbi",
+   "from": -13,
+   "to": 79,
+   "builder": "lucius_cornelius_balbus_minor",
+   "template": "porticus",
+   "loc": [
+    12.47866,
+    41.89465
+   ],
+   "rot": 88.0,
+   "w": 60.0,
+   "l": 40.0,
+   "h": 8.0,
+   "params": {
+    "depth": 6.0,
+    "colH": 6.0,
+    "double": false,
+    "garden": false,
+    "exedra": {
+     "radius": 9.0,
+     "side": "back"
+    },
+    "mat": {
+     "columns": "travertine",
+     "walls": "reticulate",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "The porticus post scaenam of Balbus' theatre, a courtyard surrounded by a cryptoporticus with an exedra at its east side; excavated from 1981 under the block of Via delle Botteghe Oscure (Museo Nazionale Romano, Crypta Balbi).",
+   "sources": [],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 381",
+    "Manacorda, Crypta Balbi: archeologia e storia di un paesaggio urbano (2001)",
+    "Gatti, in Carettoni et al., La pianta marmorea di Roma antica (1960)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Theatrum Balbi",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)"
+   ],
+   "note": "Footprint ~60 x 40 m approximated from Manacorda's plan."
+  }
+ ]
+}

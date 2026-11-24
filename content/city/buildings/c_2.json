@@ -1,0 +1,4318 @@
+{
+ "district": "C",
+ "buildings": [
+  {
+   "id": "crypta_balbi_v2",
+   "monument": "crypta_balbi",
+   "name": "Crypta Balbi (imperial)",
+   "from": 81,
+   "to": 399,
+   "begun": 80,
+   "template": "porticus",
+   "loc": [
+    12.47866,
+    41.89465
+   ],
+   "rot": 88.0,
+   "w": 60.0,
+   "l": 40.0,
+   "h": 8.0,
+   "params": {
+    "depth": 6.0,
+    "colH": 6.0,
+    "double": false,
+    "garden": false,
+    "exedra": {
+     "radius": 9.0,
+     "side": "back"
+    },
+    "mat": {
+     "columns": "travertine",
+     "walls": "brick",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "Restored after the fire of 80; Domitianic brickwork survives.",
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "66.24.2"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 381",
+    "Manacorda, Crypta Balbi: archeologia e storia di un paesaggio urbano (2001)",
+    "Gatti, in Carettoni et al., La pianta marmorea di Roma antica (1960)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Theatrum Balbi",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)"
+   ]
+  },
+  {
+   "id": "crypta_balbi_v3",
+   "monument": "crypta_balbi",
+   "name": "Crypta Balbi (late antique workshops and latrine)",
+   "from": 400,
+   "to": 9999,
+   "template": "porticus",
+   "loc": [
+    12.47866,
+    41.89465
+   ],
+   "rot": 88.0,
+   "w": 60.0,
+   "l": 40.0,
+   "h": 7.0,
+   "params": {
+    "depth": 6.0,
+    "colH": 6.0,
+    "double": false,
+    "garden": false,
+    "exedra": {
+     "radius": 9.0,
+     "side": "back"
+    },
+    "mat": {
+     "columns": "travertine",
+     "walls": "brick",
+     "roof": "roof_tile"
+    }
+   },
+   "ruin": {
+    "from": 500,
+    "state": "half"
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "In the 5th century the porticoes were subdivided, the exedra became a public latrine, and by the 7th century workshops working metal, bone and glass occupied the ruins: the best-excavated sequence of early medieval Rome.",
+   "sources": [],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 381",
+    "Manacorda, Crypta Balbi: archeologia e storia di un paesaggio urbano (2001)",
+    "Gatti, in Carettoni et al., La pianta marmorea di Roma antica (1960)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Theatrum Balbi",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)"
+   ],
+   "note": "Transition dates approximate."
+  },
+  {
+   "id": "pantheon_v1",
+   "monument": "pantheon",
+   "name": "Pantheon of Agrippa",
+   "from": -25,
+   "to": 80,
+   "begun": -27,
+   "builder": "agrippa",
+   "template": "temple",
+   "loc": [
+    12.476866,
+    41.898686
+   ],
+   "rot": 356.0,
+   "w": 43.8,
+   "l": 40.0,
+   "h": 24.0,
+   "params": {
+    "order": "corinthian",
+    "plan": "prostyle",
+    "front": 10,
+    "side": 3,
+    "podium": 1.5,
+    "colH": 12.0,
+    "steps": "front",
+    "cella": {
+     "w": 43.8,
+     "l": 19.8
+    },
+    "caryatids": true,
+    "mat": {
+     "podium": "travertine",
+     "columns": "marble_white",
+     "walls": "marble_white",
+     "roof": "bronze"
+    }
+   },
+   "importance": 5,
+   "certainty": "conjectural",
+   "summary": "Built by Agrippa in 27-25 BC in his third consulship as part of his monumentalisation of the Campus Martius, decorated with caryatids by Diogenes of Athens and bronze capitals of Syracusan bronze. Dio says Agrippa wanted to name it after Augustus and place his statue inside; refused, he put statues of Augustus and himself in the pronaos.",
+   "phases": [
+    {
+     "y": -25,
+     "t": "completed"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "53.27.2-4"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Natural History",
+     "r": "36.38"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Natural History",
+     "r": "34.13"
+    },
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "896"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 283-286",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)",
+    "MacDonald, The Pantheon: Design, Meaning and Progeny (1976)",
+    "Marder and Wilson Jones (eds), The Pantheon from Antiquity to the Present (2015)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Pantheon",
+    "La Rocca, 'Agrippa's Pantheon and its origin', in Marder and Wilson Jones (2015)"
+   ],
+   "note": "Form debated. Beltrami (1892-93) found remains he read as a T-shaped temple with a transverse cella 43.76 x 19.82 m facing SOUTH; the 1996-97 excavations under the portico showed the Agrippan building also faced NORTH, with a pronaos about 21 m wide, and La Rocca argues for a circular open precinct behind. Modelled as a north-facing (rot 356) rectangular temple with transverse cella on Beltrami's dimensions; treat as one hypothesis."
+  },
+  {
+   "id": "pantheon_v2",
+   "monument": "pantheon",
+   "name": "Pantheon (Domitianic restoration)",
+   "from": 84,
+   "to": 110,
+   "begun": 80,
+   "builder": "domitian",
+   "template": "temple",
+   "loc": [
+    12.476866,
+    41.898686
+   ],
+   "rot": 356.0,
+   "w": 43.8,
+   "l": 40.0,
+   "h": 24.0,
+   "params": {
+    "order": "corinthian",
+    "plan": "prostyle",
+    "front": 10,
+    "side": 3,
+    "podium": 1.5,
+    "colH": 12.0,
+    "steps": "front",
+    "cella": {
+     "w": 43.8,
+     "l": 19.8
+    },
+    "mat": {
+     "podium": "travertine",
+     "columns": "marble_white",
+     "walls": "marble_white",
+     "roof": "bronze"
+    }
+   },
+   "importance": 4,
+   "certainty": "conjectural",
+   "summary": "Burned in the fire of AD 80 and restored by Domitian; struck by lightning and burned again in 110 under Trajan.",
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "66.24.2"
+    },
+    {
+     "a": "Chronographer of 354",
+     "w": "Chronica urbis Romae",
+     "r": "Domitian"
+    },
+    {
+     "a": "Orosius",
+     "w": "Historiae adversus paganos",
+     "r": "7.12.5"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 283-286",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)",
+    "MacDonald, The Pantheon: Design, Meaning and Progeny (1976)",
+    "Marder and Wilson Jones (eds), The Pantheon from Antiquity to the Present (2015)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Pantheon"
+   ],
+   "note": "Form as v1, conjectural."
+  },
+  {
+   "id": "pantheon_v3",
+   "monument": "pantheon",
+   "name": "Pantheon (Hadrianic rotunda)",
+   "from": 125,
+   "to": 201,
+   "begun": 113,
+   "builder": "hadrian",
+   "template": "centralplan",
+   "loc": [
+    12.476873,
+    41.898614
+   ],
+   "rot": 356.0,
+   "w": 56.0,
+   "l": 84.0,
+   "h": 43.4,
+   "params": {
+    "diameter": 56.0,
+    "innerDiameter": 43.3,
+    "drumH": 30.0,
+    "domeH": 13.4,
+    "sides": 0,
+    "oculus": 8.9,
+    "portico": {
+     "front": 8,
+     "side": 3,
+     "colH": 14.15,
+     "w": 33.1,
+     "l": 15.6,
+     "pedimentH": 6.5
+    },
+    "intermediate": {
+     "w": 34.0,
+     "l": 7.5,
+     "h": 28.0
+    },
+    "mat": {
+     "drum": "brick",
+     "dome": "gilded",
+     "portico": "granite",
+     "pediment": "marble_white",
+     "roof": "bronze"
+    }
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "Rebuilt from scratch under Hadrian (brick stamps of c. 114-126; perhaps begun under Trajan by Apollodorus) with Agrippa's inscription repeated on the frieze. A rotunda whose concrete dome spans 43.3 m, exactly equal to its height, open to the sky through an 8.9 m oculus, fronted by a porch of sixteen monolithic granite columns in three rows and a tall intermediate block. Hadrian held court here.",
+   "phases": [
+    {
+     "y": 113,
+     "t": "construction begins (Trajanic or early Hadrianic)"
+    },
+    {
+     "y": 125,
+     "t": "completed c. 125-128"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Hadrian",
+     "r": "19.10"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "69.7.1"
+    },
+    {
+     "a": "Ammianus Marcellinus",
+     "w": "Res Gestae",
+     "r": "16.10.14"
+    },
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "896"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 283-286",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)",
+    "MacDonald, The Pantheon: Design, Meaning and Progeny (1976)",
+    "Marder and Wilson Jones (eds), The Pantheon from Antiquity to the Present (2015)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Pantheon",
+    "Davies, Hemsoll and Wilson Jones, 'The Pantheon: triumph of Rome or triumph of compromise?', Art History 10 (1987)"
+   ],
+   "note": "loc = rotunda centre (schema anchor); portico faces 356 (just west of north). diameter = outer diameter of the drum (wall ~6.2 m thick); innerDiameter 43.3 m. Portico 33.1 x 15.6 m, front columns 11.9 m shafts (14.15 m with base and capital). The dome's tiles were gilt bronze until Constans II removed them in 663."
+  },
+  {
+   "id": "pantheon_v4",
+   "monument": "pantheon",
+   "name": "Pantheon (Severan restoration)",
+   "from": 202,
+   "to": 608,
+   "builder": "septimius_severus",
+   "template": "centralplan",
+   "loc": [
+    12.476873,
+    41.898614
+   ],
+   "rot": 356.0,
+   "w": 56.0,
+   "l": 84.0,
+   "h": 43.4,
+   "params": {
+    "diameter": 56.0,
+    "innerDiameter": 43.3,
+    "drumH": 30.0,
+    "domeH": 13.4,
+    "sides": 0,
+    "oculus": 8.9,
+    "portico": {
+     "front": 8,
+     "side": 3,
+     "colH": 14.15,
+     "w": 33.1,
+     "l": 15.6,
+     "pedimentH": 6.5
+    },
+    "intermediate": {
+     "w": 34.0,
+     "l": 7.5,
+     "h": 28.0
+    },
+    "mat": {
+     "drum": "brick",
+     "dome": "gilded",
+     "portico": "granite",
+     "pediment": "marble_white",
+     "roof": "bronze"
+    }
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "Restored by Septimius Severus and Caracalla in 202, recorded in the second inscription on the architrave. Closed as a temple after the anti-pagan laws of the 390s, it stood intact but unused for two centuries.",
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "896"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 283-286",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)",
+    "MacDonald, The Pantheon: Design, Meaning and Progeny (1976)",
+    "Marder and Wilson Jones (eds), The Pantheon from Antiquity to the Present (2015)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Pantheon"
+   ]
+  },
+  {
+   "id": "pantheon_v5",
+   "monument": "pantheon",
+   "name": "Santa Maria ad Martyres (Pantheon)",
+   "from": 609,
+   "to": 9999,
+   "builder": "phocas",
+   "builderName": "Pope Boniface IV with the emperor Phocas",
+   "template": "centralplan",
+   "loc": [
+    12.476873,
+    41.898614
+   ],
+   "rot": 356.0,
+   "w": 56.0,
+   "l": 84.0,
+   "h": 43.4,
+   "params": {
+    "diameter": 56.0,
+    "innerDiameter": 43.3,
+    "drumH": 30.0,
+    "domeH": 13.4,
+    "sides": 0,
+    "oculus": 8.9,
+    "portico": {
+     "front": 8,
+     "side": 3,
+     "colH": 14.15,
+     "w": 33.1,
+     "l": 15.6,
+     "pedimentH": 6.5
+    },
+    "intermediate": {
+     "w": 34.0,
+     "l": 7.5,
+     "h": 28.0
+    },
+    "mat": {
+     "drum": "brick",
+     "dome": "gilded",
+     "portico": "granite",
+     "pediment": "marble_white",
+     "roof": "bronze"
+    }
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "The emperor Phocas gave the Pantheon to Pope Boniface IV, who consecrated it on 13 May 609 (or 610) as the church of Santa Maria ad Martyres, bringing cartloads of martyrs' bones from the catacombs. The first pagan temple in Rome converted into a church, which is why it survives complete.",
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "",
+     "r": "69 (Boniface IV)"
+    },
+    {
+     "a": "Bede",
+     "w": "Historia ecclesiastica",
+     "r": "2.4"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 283-286",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)",
+    "MacDonald, The Pantheon: Design, Meaning and Progeny (1976)",
+    "Marder and Wilson Jones (eds), The Pantheon from Antiquity to the Present (2015)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Pantheon"
+   ],
+   "note": "Date 609 is traditional; some prefer 610 or 613."
+  },
+  {
+   "id": "pantheon_area_v1",
+   "monument": "pantheon_forecourt",
+   "name": "Area of the Pantheon (Agrippan square)",
+   "from": -25,
+   "to": 124,
+   "template": "forum",
+   "loc": [
+    12.476778,
+    41.899628
+   ],
+   "rot": 356.0,
+   "w": 60.0,
+   "l": 120.0,
+   "h": 0.3,
+   "footprint": [
+    [
+     12.476366,
+     41.900148
+    ],
+    [
+     12.477088,
+     41.900186
+    ],
+    [
+     12.47719,
+     41.899108
+    ],
+    [
+     12.476468,
+     41.89907
+    ],
+    [
+     12.476366,
+     41.900148
+    ]
+   ],
+   "params": {
+    "wallH": 2.5,
+    "colonnades": 0,
+    "exedrae": null,
+    "paving": "paving_travertine"
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "An open square north of Agrippa's Pantheon; its travertine pavement was found under Piazza della Rotonda, about 2.5 m below today's level.",
+   "sources": [],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 283-286",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)",
+    "MacDonald, The Pantheon: Design, Meaning and Progeny (1976)",
+    "Marder and Wilson Jones (eds), The Pantheon from Antiquity to the Present (2015)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Pantheon"
+   ],
+   "note": "Extent to the north conjectural."
+  },
+  {
+   "id": "pantheon_area_v2",
+   "monument": "pantheon_forecourt",
+   "name": "Porticoed forecourt of the Pantheon",
+   "from": 125,
+   "to": 9999,
+   "template": "porticus",
+   "loc": [
+    12.476778,
+    41.899628
+   ],
+   "rot": 356.0,
+   "w": 60.0,
+   "l": 120.0,
+   "h": 10.0,
+   "footprint": [
+    [
+     12.476366,
+     41.900148
+    ],
+    [
+     12.477088,
+     41.900186
+    ],
+    [
+     12.47719,
+     41.899108
+    ],
+    [
+     12.476468,
+     41.89907
+    ],
+    [
+     12.476366,
+     41.900148
+    ]
+   ],
+   "params": {
+    "depth": 7.0,
+    "colH": 8.0,
+    "double": false,
+    "garden": false,
+    "sides": [
+     "e",
+     "w",
+     "s"
+    ],
+    "mat": {
+     "columns": "granite",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "Hadrian framed the approach with a long colonnaded court in front of the porch, so that from inside it the rotunda was hidden and the facade appeared like a conventional temple front; perhaps closed at the north by an arch.",
+   "sources": [],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 283-286",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)",
+    "MacDonald, The Pantheon: Design, Meaning and Progeny (1976)",
+    "Marder and Wilson Jones (eds), The Pantheon from Antiquity to the Present (2015)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Pantheon"
+   ],
+   "note": "Colonnades on the two long sides and the far (north) end; the rotunda end is open. Length 120 m conjectural."
+  },
+  {
+   "id": "basilica_neptuni_v1",
+   "monument": "basilica_neptuni",
+   "name": "Basilica of Neptune (Agrippan Stoa of Poseidon)",
+   "from": -25,
+   "to": 79,
+   "builder": "agrippa",
+   "template": "basilica",
+   "loc": [
+    12.476911,
+    41.89821
+   ],
+   "rot": 176.0,
+   "w": 45.0,
+   "l": 19.0,
+   "h": 18.0,
+   "params": {
+    "nave": 13.0,
+    "aisles": 1,
+    "storeys": 1,
+    "facade": "colonnade",
+    "apses": "none",
+    "clerestory": true,
+    "colH": 9.0,
+    "mat": {
+     "walls": "stucco",
+     "columns": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "conjectural",
+   "summary": "Agrippa built a hall to Neptune in 25 BC to celebrate his naval victories, which Dio calls the Stoa of Poseidon, decorated with a painting of the Argonauts (hence perhaps the Porticus Argonautarum).",
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "53.27.1"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "66.24.2"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 54",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)"
+   ],
+   "note": "Agrippan building assumed to occupy the site of the Hadrianic hall behind the Pantheon. Form conjectural."
+  },
+  {
+   "id": "basilica_neptuni_v2",
+   "monument": "basilica_neptuni",
+   "name": "Basilica of Neptune (Hadrianic)",
+   "from": 125,
+   "to": 9999,
+   "builder": "hadrian",
+   "template": "basilica",
+   "loc": [
+    12.476911,
+    41.89821
+   ],
+   "rot": 176.0,
+   "w": 45.0,
+   "l": 19.0,
+   "h": 22.0,
+   "params": {
+    "nave": 19.0,
+    "aisles": 1,
+    "storeys": 1,
+    "facade": "closed",
+    "apses": "end",
+    "clerestory": false,
+    "vaulted": true,
+    "colH": 12.0,
+    "mat": {
+     "walls": "brick",
+     "columns": "marble_color",
+     "roof": "concrete"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "Rebuilt by Hadrian as a cross-vaulted hall with an apse and fluted columns against the walls; its frieze of dolphins and tridents is still visible on Via della Palombella, built against the back of the Pantheon.",
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Hadrian",
+     "r": "19.10"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 54",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Basilica Neptuni"
+   ],
+   "note": "Hall about 45 x 19 m, long axis E-W directly behind the rotunda; rot 176 (outward face south)."
+  },
+  {
+   "id": "baths_agrippa_v1",
+   "monument": "baths_of_agrippa",
+   "name": "Baths of Agrippa",
+   "from": -19,
+   "to": 79,
+   "begun": -25,
+   "builder": "agrippa",
+   "template": "baths",
+   "loc": [
+    12.47695,
+    41.89715
+   ],
+   "rot": 356.0,
+   "w": 100.0,
+   "l": 120.0,
+   "h": 22.0,
+   "params": {
+    "core": {
+     "w": 100.0,
+     "l": 120.0,
+     "h": 18.0
+    },
+    "caldarium": {
+     "radius": 12.5,
+     "h": 22.0
+    },
+    "frigidarium": {
+     "w": 30.0,
+     "l": 20.0,
+     "h": 18.0
+    },
+    "precinct": null,
+    "exedrae": 0,
+    "mat": {
+     "walls": "reticulate",
+     "vaults": "concrete",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 4,
+   "certainty": "reconstructed",
+   "summary": "Rome's first great public baths: Agrippa built a laconicum (sweat-bath) in 25 BC and completed the baths when his Aqua Virgo arrived in 19 BC; at his death in 12 BC he left them to the Roman people for free use. Lysippus' Apoxyomenos stood in front; Tiberius removed it to his bedroom until the crowd in the theatre demanded it back.",
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "53.27.1"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "54.29.4"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Natural History",
+     "r": "34.62"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Natural History",
+     "r": "36.189"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 386-387",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Haselberger et al., Mapping Augustan Rome (JRA Suppl. 50, 2002)",
+    "Stanford Digital Forma Urbis Romae Project (formaurbis.stanford.edu), fr. 37",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Thermae Agrippae"
+   ],
+   "note": "The central round hall (diameter ~25 m) survives as the Arco della Ciambella [12.477014, 41.896895]; the bath block is reconstructed around it from Palladio's drawings and the Marble Plan. Overall size approximate."
+  },
+  {
+   "id": "baths_agrippa_v2",
+   "monument": "baths_of_agrippa",
+   "name": "Baths of Agrippa (Flavian-Hadrianic rebuilding)",
+   "from": 81,
+   "to": 343,
+   "begun": 80,
+   "template": "baths",
+   "loc": [
+    12.47695,
+    41.89715
+   ],
+   "rot": 356.0,
+   "w": 100.0,
+   "l": 120.0,
+   "h": 22.0,
+   "params": {
+    "core": {
+     "w": 100.0,
+     "l": 120.0,
+     "h": 18.0
+    },
+    "caldarium": {
+     "radius": 12.5,
+     "h": 22.0
+    },
+    "frigidarium": {
+     "w": 30.0,
+     "l": 20.0,
+     "h": 18.0
+    },
+    "precinct": null,
+    "exedrae": 0,
+    "mat": {
+     "walls": "brick",
+     "vaults": "concrete",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 4,
+   "certainty": "reconstructed",
+   "summary": "Burned in 80 and rebuilt, with further restoration under Hadrian and the Severans; the round hall in brick-faced concrete dates from this rebuilding.",
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "66.24.2"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Hadrian",
+     "r": "19.10"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 386-387",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Haselberger et al., Mapping Augustan Rome (JRA Suppl. 50, 2002)",
+    "Stanford Digital Forma Urbis Romae Project (formaurbis.stanford.edu), fr. 37",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Thermae Agrippae"
+   ]
+  },
+  {
+   "id": "baths_agrippa_v3",
+   "monument": "baths_of_agrippa",
+   "name": "Baths of Agrippa (restored by Constantius II and Constans)",
+   "from": 344,
+   "to": 9999,
+   "builder": "constans_i",
+   "template": "baths",
+   "loc": [
+    12.47695,
+    41.89715
+   ],
+   "rot": 356.0,
+   "w": 100.0,
+   "l": 120.0,
+   "h": 22.0,
+   "params": {
+    "core": {
+     "w": 100.0,
+     "l": 120.0,
+     "h": 18.0
+    },
+    "caldarium": {
+     "radius": 12.5,
+     "h": 22.0
+    },
+    "frigidarium": {
+     "w": 30.0,
+     "l": 20.0,
+     "h": 18.0
+    },
+    "precinct": null,
+    "exedrae": 0,
+    "mat": {
+     "walls": "brick",
+     "vaults": "concrete",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 4,
+   "certainty": "reconstructed",
+   "summary": "Restored in the 340s by the sons of Constantine, as an inscription records; the aqueducts' cutting in 537 ended their working life.",
+   "sources": [
+    {
+     "a": "Building inscription",
+     "w": "restoration by Constantius II and Constans (CIL VI)"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 386-387",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Haselberger et al., Mapping Augustan Rome (JRA Suppl. 50, 2002)",
+    "Stanford Digital Forma Urbis Romae Project (formaurbis.stanford.edu), fr. 37",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Thermae Agrippae"
+   ],
+   "note": "Attribution of the inscription to these baths follows the usual view."
+  },
+  {
+   "id": "stagnum_agrippae",
+   "monument": "stagnum_agrippae",
+   "name": "Stagnum Agrippae",
+   "from": -19,
+   "to": 300,
+   "template": "pool",
+   "loc": [
+    12.4754,
+    41.8968
+   ],
+   "rot": 356.0,
+   "w": 160.0,
+   "l": 100.0,
+   "h": 0.0,
+   "params": {
+    "depth": 1.5,
+    "mat": {
+     "water": "water",
+     "edge": "travertine"
+    }
+   },
+   "importance": 3,
+   "certainty": "conjectural",
+   "summary": "An artificial lake fed by the Aqua Virgo west of the Baths of Agrippa, in which bathers could swim; Nero gave a notorious banquet on a raft in it in 64, with brothels along the banks.",
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "15.37"
+    },
+    {
+     "a": "Ovid",
+     "w": "Epistulae ex Ponto",
+     "r": "1.8.37-38"
+    },
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "5.3.8"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 386-387",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Haselberger et al., Mapping Augustan Rome (JRA Suppl. 50, 2002)",
+    "Stanford Digital Forma Urbis Romae Project (formaurbis.stanford.edu), fr. 37",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Thermae Agrippae",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)"
+   ],
+   "note": "Position (west of the baths, near Sant'Andrea della Valle and Corso Vittorio) and size (~160 x 100 m) are reconstructions; its disappearance date is unknown (to = 300 arbitrary)."
+  },
+  {
+   "id": "euripus_agrippae",
+   "monument": "euripus_agrippae",
+   "name": "Euripus (canal of the Stagnum)",
+   "from": -19,
+   "to": 379,
+   "template": "pool",
+   "loc": [
+    12.4705,
+    41.8969
+   ],
+   "rot": 290.0,
+   "w": 4.0,
+   "l": 760.0,
+   "h": 0.0,
+   "footprint": [
+    [
+     12.474422,
+     41.896778
+    ],
+    [
+     12.473002,
+     41.896698
+    ],
+    [
+     12.471496,
+     41.896658
+    ],
+    [
+     12.469989,
+     41.896979
+    ],
+    [
+     12.468484,
+     41.897581
+    ],
+    [
+     12.466383,
+     41.898682
+    ],
+    [
+     12.466417,
+     41.898718
+    ],
+    [
+     12.468516,
+     41.897619
+    ],
+    [
+     12.470011,
+     41.897021
+    ],
+    [
+     12.471504,
+     41.896702
+    ],
+    [
+     12.472998,
+     41.896742
+    ],
+    [
+     12.474418,
+     41.896822
+    ],
+    [
+     12.474422,
+     41.896778
+    ]
+   ],
+   "params": {
+    "depth": 1.2,
+    "line": [
+     [
+      12.47442,
+      41.8968
+     ],
+     [
+      12.473,
+      41.89672
+     ],
+     [
+      12.4715,
+      41.89668
+     ],
+     [
+      12.47,
+      41.897
+     ],
+     [
+      12.4685,
+      41.8976
+     ],
+     [
+      12.4664,
+      41.8987
+     ]
+    ],
+    "mat": {
+     "water": "water",
+     "edge": "travertine"
+    }
+   },
+   "importance": 2,
+   "certainty": "reconstructed",
+   "summary": "The canal that carried water from the Stagnum Agrippae west to the Tiber, about 800 m long; stretches of its travertine channel were found under the Palazzo della Cancelleria beside the tomb of Hirtius.",
+   "sources": [
+    {
+     "a": "Ovid",
+     "w": "Epistulae ex Ponto",
+     "r": "1.8.38"
+    },
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "5.3.8"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 151",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Euripus"
+   ],
+   "note": "Course from the Stagnum along the line of Corso Vittorio, under the Cancelleria, to the river near San Giovanni dei Fiorentini; only the Cancelleria stretch is excavated. End date assumed (built over by San Lorenzo in Damaso)."
+  },
+  {
+   "id": "porticus_boni_eventus",
+   "monument": "porticus_boni_eventus",
+   "name": "Porticus Boni Eventus",
+   "from": 374,
+   "to": 9999,
+   "template": "colonnade",
+   "loc": [
+    12.477,
+    41.89649
+   ],
+   "rot": 176.0,
+   "w": 8.0,
+   "l": 100.0,
+   "h": 12.0,
+   "params": {
+    "line": [
+     [
+      12.4764,
+      41.8965
+     ],
+     [
+      12.4776,
+      41.89648
+     ]
+    ],
+    "depth": 8.0,
+    "colH": 10.0,
+    "mat": {
+     "columns": "travertine",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "A huge porticus built by the city prefect Claudius in 374 near the Baths of Agrippa, named after the nearby Temple of Bonus Eventus; massive travertine pillars attributed to it have been seen under houses of the area.",
+   "sources": [
+    {
+     "a": "Ammianus Marcellinus",
+     "w": "Res Gestae",
+     "r": "29.6.19"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 313",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Porticus Boni Eventus"
+   ],
+   "note": "Line along the south side of the Baths of Agrippa is a guess; Coarelli and others relate it to remains east of the baths."
+  },
+  {
+   "id": "temple_bonus_eventus",
+   "monument": "temple_of_bonus_eventus",
+   "name": "Temple of Bonus Eventus",
+   "from": -20,
+   "to": 9999,
+   "template": "temple",
+   "loc": [
+    12.4772,
+    41.89625
+   ],
+   "rot": 356.0,
+   "w": 13.0,
+   "l": 20.0,
+   "h": 13.4,
+   "params": {
+    "order": "corinthian",
+    "plan": "prostyle",
+    "front": 4,
+    "side": 2,
+    "podium": 2.0,
+    "colH": 8.0,
+    "steps": "front",
+    "mat": {
+     "podium": "concrete_faced",
+     "columns": "marble_white",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "A temple of 'Good Outcome' near the Baths of Agrippa, which gave its name to the porticus of 374.",
+   "sources": [
+    {
+     "a": "Ammianus Marcellinus",
+     "w": "Res Gestae",
+     "r": "29.6.19"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 59"
+   ],
+   "note": "Location and date conjectural."
+  },
+  {
+   "id": "saepta_julia_v1",
+   "monument": "saepta_julia",
+   "name": "Saepta Julia",
+   "from": -26,
+   "to": 79,
+   "begun": -54,
+   "builder": "agrippa",
+   "builderName": "planned by Julius Caesar; completed by Agrippa",
+   "template": "porticus",
+   "loc": [
+    12.47825,
+    41.8978
+   ],
+   "rot": 176.0,
+   "w": 120.0,
+   "l": 310.0,
+   "h": 12.0,
+   "footprint": [
+    [
+     12.479102,
+     41.896447
+    ],
+    [
+     12.477658,
+     41.896371
+    ],
+    [
+     12.477398,
+     41.899153
+    ],
+    [
+     12.478842,
+     41.899229
+    ],
+    [
+     12.479102,
+     41.896447
+    ]
+   ],
+   "params": {
+    "depth": 12.0,
+    "colH": 10.0,
+    "double": true,
+    "garden": false,
+    "sides": [
+     "n",
+     "s"
+    ],
+    "mat": {
+     "columns": "marble_white",
+     "walls": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 4,
+   "certainty": "documented",
+   "summary": "Caesar planned in 54 BC a marble voting enclosure a mile around; Lepidus continued it and Agrippa finished and dedicated it in 26 BC, adorned with marble tablets and paintings. A vast colonnaded court about 310 x 120 m, its long sides formed by the Porticus Argonautarum (west, by the Pantheon) and the Porticus Meleagri (east). As voting lost its meaning it served for gladiatorial shows, a naumachia under Augustus, and as a luxury market.",
+   "phases": [
+    {
+     "y": -54,
+     "t": "Caesar's plan and land purchases"
+    },
+    {
+     "y": -26,
+     "t": "dedicated by Agrippa"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Cicero",
+     "w": "Ad Atticum",
+     "r": "4.16.8"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "53.23.1-2"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Augustus",
+     "r": "43.1"
+    },
+    {
+     "a": "Martial",
+     "w": "Epigrams",
+     "r": "2.14.5-6"
+    },
+    {
+     "a": "Martial",
+     "w": "Epigrams",
+     "r": "9.59"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 340-341",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Haselberger et al., Mapping Augustan Rome (JRA Suppl. 50, 2002)",
+    "Stanford Digital Forma Urbis Romae Project (formaurbis.stanford.edu), fr. 37",
+    "Gatti, in Carettoni et al., La pianta marmorea di Roma antica (1960)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Saepta Iulia"
+   ],
+   "note": "Marble Plan fragments show its east side with the label SAEPTA IULIA. Long axis N-S east of the Pantheon and the Baths of Agrippa, from Via del Seminario to near Via del Plebiscito; rot 176 (main end toward the south and the Diribitorium) is a convention."
+  },
+  {
+   "id": "saepta_julia_v2",
+   "monument": "saepta_julia",
+   "name": "Saepta Julia (Flavian)",
+   "from": 81,
+   "to": 124,
+   "begun": 80,
+   "template": "porticus",
+   "loc": [
+    12.47825,
+    41.8978
+   ],
+   "rot": 176.0,
+   "w": 120.0,
+   "l": 310.0,
+   "h": 12.0,
+   "footprint": [
+    [
+     12.479102,
+     41.896447
+    ],
+    [
+     12.477658,
+     41.896371
+    ],
+    [
+     12.477398,
+     41.899153
+    ],
+    [
+     12.478842,
+     41.899229
+    ],
+    [
+     12.479102,
+     41.896447
+    ]
+   ],
+   "params": {
+    "depth": 12.0,
+    "colH": 10.0,
+    "double": true,
+    "garden": false,
+    "sides": [
+     "n",
+     "s"
+    ],
+    "mat": {
+     "columns": "marble_white",
+     "walls": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 4,
+   "certainty": "documented",
+   "summary": "Burned in 80 and restored under Domitian.",
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "66.24.2"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 340-341",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Haselberger et al., Mapping Augustan Rome (JRA Suppl. 50, 2002)",
+    "Stanford Digital Forma Urbis Romae Project (formaurbis.stanford.edu), fr. 37",
+    "Gatti, in Carettoni et al., La pianta marmorea di Roma antica (1960)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Saepta Iulia"
+   ]
+  },
+  {
+   "id": "saepta_julia_v3",
+   "monument": "saepta_julia",
+   "name": "Saepta Julia (Hadrianic)",
+   "from": 125,
+   "to": 9999,
+   "builder": "hadrian",
+   "template": "porticus",
+   "loc": [
+    12.47825,
+    41.8978
+   ],
+   "rot": 176.0,
+   "w": 120.0,
+   "l": 310.0,
+   "h": 12.0,
+   "footprint": [
+    [
+     12.479102,
+     41.896447
+    ],
+    [
+     12.477658,
+     41.896371
+    ],
+    [
+     12.477398,
+     41.899153
+    ],
+    [
+     12.478842,
+     41.899229
+    ],
+    [
+     12.479102,
+     41.896447
+    ]
+   ],
+   "params": {
+    "depth": 12.0,
+    "colH": 10.0,
+    "double": true,
+    "garden": false,
+    "sides": [
+     "n",
+     "s"
+    ],
+    "mat": {
+     "columns": "marble_white",
+     "walls": "brick",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 4,
+   "certainty": "documented",
+   "summary": "Restored by Hadrian with the Pantheon and the Basilica of Neptune; shown on the Severan Marble Plan.",
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Hadrian",
+     "r": "19.10"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 340-341",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Haselberger et al., Mapping Augustan Rome (JRA Suppl. 50, 2002)",
+    "Stanford Digital Forma Urbis Romae Project (formaurbis.stanford.edu), fr. 37",
+    "Gatti, in Carettoni et al., La pianta marmorea di Roma antica (1960)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Saepta Iulia"
+   ]
+  },
+  {
+   "id": "diribitorium",
+   "monument": "diribitorium",
+   "name": "Diribitorium",
+   "from": -7,
+   "to": 9999,
+   "begun": -12,
+   "builder": "augustus",
+   "template": "basilica",
+   "loc": [
+    12.47825,
+    41.89615
+   ],
+   "rot": 176.0,
+   "w": 100.0,
+   "l": 45.0,
+   "h": 26.0,
+   "params": {
+    "nave": 45.0,
+    "aisles": 0,
+    "storeys": 1,
+    "facade": "closed",
+    "apses": "none",
+    "clerestory": false,
+    "colH": 0,
+    "spanBeams": "larch, 100 ft",
+    "mat": {
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "ruin": {
+    "from": 80,
+    "state": "roofless"
+   },
+   "importance": 3,
+   "certainty": "documented",
+   "summary": "The hall where votes were counted, begun by Agrippa and opened by Augustus in 7 BC: the largest building ever covered by a single roof, its larch beams 100 feet long. After it burned in 80 it could not be re-roofed and stood open to the sky in Dio's day.",
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "55.8.3-4"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "66.24.2"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Natural History",
+     "r": "16.201"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 113",
+    "Stanford Digital Forma Urbis Romae Project (formaurbis.stanford.edu), fr. 37",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Diribitorium"
+   ],
+   "note": "South of the Saepta (Marble Plan). Clear span ~30 m (100 Roman feet); overall size estimated."
+  },
+  {
+   "id": "porticus_divorum",
+   "monument": "porticus_divorum",
+   "name": "Porticus Divorum (Divorum)",
+   "from": 90,
+   "to": 9999,
+   "begun": 81,
+   "builder": "domitian",
+   "template": "compound",
+   "loc": [
+    12.47956,
+    41.8964
+   ],
+   "rot": 356.0,
+   "w": 55.0,
+   "l": 160.0,
+   "h": 14.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "court",
+      "x": 0,
+      "y": 0,
+      "w": 55.0,
+      "l": 160.0,
+      "h": 9.0,
+      "ringDepth": 8.0,
+      "mat": "marble_white"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 78.0,
+      "w": 22.0,
+      "l": 6.0,
+      "h": 14.0,
+      "mat": "marble_white"
+     }
+    ],
+    "note": "triple arch at the north end; the temples of Divus Vespasianus and Divus Titus are separate records"
+   },
+   "importance": 3,
+   "certainty": "documented",
+   "summary": "Domitian's porticus to the deified members of his family, Vespasian and Titus, built over the old Villa Publica after the fire of 80: a long colonnaded court entered through a triple arch, with the two small temples of the Divi and an altar inside. The Marble Plan shows it.",
+   "sources": [
+    {
+     "a": "Chronographer of 354",
+     "w": "Chronica urbis Romae",
+     "r": "Domitian"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 111",
+    "Stanford Digital Forma Urbis Romae Project (formaurbis.stanford.edu), fr. 36-37",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Divorum, porticus, templum"
+   ],
+   "note": "Marble Plan size is about 200 x 55 m; shortened to 160 m here to avoid the Porticus Minucia Frumentaria placed to the south (positions in this zone are mutually dependent). Orientation of arch and temples assumed."
+  },
+  {
+   "id": "iseum_campense_v1",
+   "monument": "iseum_campense",
+   "name": "Iseum Campense (first sanctuary)",
+   "from": -40,
+   "to": 19,
+   "template": "compound",
+   "loc": [
+    12.4794,
+    41.898375
+   ],
+   "rot": 176.0,
+   "w": 70.0,
+   "l": 215.0,
+   "h": 18.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 60.0,
+      "l": 215.0,
+      "h": 0.3,
+      "mat": "paving_travertine"
+     },
+     {
+      "shape": "gable",
+      "x": 0,
+      "y": -88.0,
+      "w": 22.0,
+      "l": 30.0,
+      "h": 18.0,
+      "mat": "marble_white"
+     }
+    ]
+   },
+   "importance": 3,
+   "certainty": "conjectural",
+   "summary": "In 43 BC the triumvirs voted a temple to Isis and Serapis; a sanctuary in the Campus existed under Augustus. In AD 19 Tiberius, after a scandal in which a knight seduced a noblewoman in the temple disguised as the god Anubis, crucified the priests, razed the temple and threw the cult statue into the Tiber.",
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "47.15.4"
+    },
+    {
+     "a": "Josephus",
+     "w": "Jewish Antiquities",
+     "r": "18.65-80"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 211-212",
+    "Lembke, Das Iseum Campense in Rom (1994)",
+    "Stanford Digital Forma Urbis Romae Project (formaurbis.stanford.edu), fr. 35",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Isis Campensis"
+   ],
+   "note": "Whether the triumviral temple was built here is uncertain; modelled as a simple precinct with temple."
+  },
+  {
+   "id": "iseum_campense_v2",
+   "monument": "iseum_campense",
+   "name": "Iseum Campense (rebuilt)",
+   "from": 38,
+   "to": 79,
+   "begun": 37,
+   "builder": "caligula",
+   "template": "compound",
+   "loc": [
+    12.4794,
+    41.898375
+   ],
+   "rot": 176.0,
+   "w": 70.0,
+   "l": 215.0,
+   "h": 18.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 60.0,
+      "l": 215.0,
+      "h": 0.3,
+      "mat": "paving_travertine"
+     },
+     {
+      "shape": "colonnade",
+      "x": 32.0,
+      "y": 0,
+      "w": 6.0,
+      "l": 215.0,
+      "h": 8.0,
+      "colH": 7.0,
+      "mat": "granite"
+     },
+     {
+      "shape": "colonnade",
+      "x": -32.0,
+      "y": 0,
+      "w": 6.0,
+      "l": 215.0,
+      "h": 8.0,
+      "colH": 7.0,
+      "mat": "granite"
+     },
+     {
+      "shape": "gable",
+      "x": 0,
+      "y": -88.0,
+      "w": 22.0,
+      "l": 30.0,
+      "h": 18.0,
+      "mat": "marble_white"
+     },
+     {
+      "shape": "hemicycle",
+      "x": 0,
+      "y": 92.0,
+      "radius": 30.0,
+      "depth": 30.0,
+      "angle": 180,
+      "w": 60.0,
+      "l": 30.0,
+      "h": 15.0,
+      "mat": "brick"
+     },
+     {
+      "shape": "box",
+      "x": -35.0,
+      "y": 0,
+      "w": 6.0,
+      "l": 14.0,
+      "h": 13.0,
+      "mat": "travertine"
+     },
+     {
+      "shape": "box",
+      "x": 35.0,
+      "y": 0,
+      "w": 6.0,
+      "l": 14.0,
+      "h": 13.0,
+      "mat": "travertine"
+     }
+    ]
+   },
+   "importance": 4,
+   "certainty": "reconstructed",
+   "summary": "Rebuilt, probably under Caligula; Vespasian and Titus spent the night here before their Jewish triumph in 71.",
+   "sources": [
+    {
+     "a": "Josephus",
+     "w": "Jewish War",
+     "r": "7.123"
+    },
+    {
+     "a": "Juvenal",
+     "w": "Satires",
+     "r": "6.528-529"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 211-212",
+    "Lembke, Das Iseum Campense in Rom (1994)",
+    "Stanford Digital Forma Urbis Romae Project (formaurbis.stanford.edu), fr. 35",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Isis Campensis"
+   ],
+   "note": "Caligulan rebuilding inferred."
+  },
+  {
+   "id": "iseum_campense_v3",
+   "monument": "iseum_campense",
+   "name": "Iseum and Serapeum (Domitianic)",
+   "from": 81,
+   "to": 221,
+   "begun": 80,
+   "builder": "domitian",
+   "template": "compound",
+   "loc": [
+    12.4794,
+    41.898375
+   ],
+   "rot": 176.0,
+   "w": 70.0,
+   "l": 215.0,
+   "h": 18.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 60.0,
+      "l": 215.0,
+      "h": 0.3,
+      "mat": "paving_travertine"
+     },
+     {
+      "shape": "colonnade",
+      "x": 32.0,
+      "y": 0,
+      "w": 6.0,
+      "l": 215.0,
+      "h": 8.0,
+      "colH": 7.0,
+      "mat": "granite"
+     },
+     {
+      "shape": "colonnade",
+      "x": -32.0,
+      "y": 0,
+      "w": 6.0,
+      "l": 215.0,
+      "h": 8.0,
+      "colH": 7.0,
+      "mat": "granite"
+     },
+     {
+      "shape": "gable",
+      "x": 0,
+      "y": -88.0,
+      "w": 22.0,
+      "l": 30.0,
+      "h": 18.0,
+      "mat": "marble_white"
+     },
+     {
+      "shape": "hemicycle",
+      "x": 0,
+      "y": 92.0,
+      "radius": 30.0,
+      "depth": 30.0,
+      "angle": 180,
+      "w": 60.0,
+      "l": 30.0,
+      "h": 15.0,
+      "mat": "brick"
+     },
+     {
+      "shape": "box",
+      "x": -35.0,
+      "y": 0,
+      "w": 6.0,
+      "l": 14.0,
+      "h": 13.0,
+      "mat": "travertine"
+     },
+     {
+      "shape": "box",
+      "x": 35.0,
+      "y": 0,
+      "w": 6.0,
+      "l": 14.0,
+      "h": 13.0,
+      "mat": "travertine"
+     }
+    ]
+   },
+   "importance": 4,
+   "certainty": "reconstructed",
+   "summary": "After the fire of 80 Domitian rebuilt the Iseum and Serapeum on a grand scale with Egyptian obelisks, sphinxes, lions and baboons in granite and basalt, many still in Roman and Vatican collections. A long court (dromos) led from the temple of Isis at the north to the semicircular Serapeum at the south.",
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "66.24.2"
+    },
+    {
+     "a": "Eutropius",
+     "w": "Breviarium",
+     "r": "7.23.5"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 211-212",
+    "Lembke, Das Iseum Campense in Rom (1994)",
+    "Stanford Digital Forma Urbis Romae Project (formaurbis.stanford.edu), fr. 35",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Isis Campensis"
+   ],
+   "note": "Plan from the Marble Plan fragments and Lembke: court ~215 x 60 m between the Saepta and the Via Lata, Serapeum exedra under Santo Stefano del Cacco. rot 176 with the Serapeum as the 'front'."
+  },
+  {
+   "id": "iseum_campense_v4",
+   "monument": "iseum_campense",
+   "name": "Iseum and Serapeum (Severan)",
+   "from": 222,
+   "to": 9999,
+   "builder": "severus_alexander",
+   "template": "compound",
+   "loc": [
+    12.4794,
+    41.898375
+   ],
+   "rot": 176.0,
+   "w": 70.0,
+   "l": 215.0,
+   "h": 18.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 60.0,
+      "l": 215.0,
+      "h": 0.3,
+      "mat": "paving_travertine"
+     },
+     {
+      "shape": "colonnade",
+      "x": 32.0,
+      "y": 0,
+      "w": 6.0,
+      "l": 215.0,
+      "h": 8.0,
+      "colH": 7.0,
+      "mat": "granite"
+     },
+     {
+      "shape": "colonnade",
+      "x": -32.0,
+      "y": 0,
+      "w": 6.0,
+      "l": 215.0,
+      "h": 8.0,
+      "colH": 7.0,
+      "mat": "granite"
+     },
+     {
+      "shape": "gable",
+      "x": 0,
+      "y": -88.0,
+      "w": 22.0,
+      "l": 30.0,
+      "h": 18.0,
+      "mat": "marble_white"
+     },
+     {
+      "shape": "hemicycle",
+      "x": 0,
+      "y": 92.0,
+      "radius": 30.0,
+      "depth": 30.0,
+      "angle": 180,
+      "w": 60.0,
+      "l": 30.0,
+      "h": 15.0,
+      "mat": "brick"
+     },
+     {
+      "shape": "box",
+      "x": -35.0,
+      "y": 0,
+      "w": 6.0,
+      "l": 14.0,
+      "h": 13.0,
+      "mat": "travertine"
+     },
+     {
+      "shape": "box",
+      "x": 35.0,
+      "y": 0,
+      "w": 6.0,
+      "l": 14.0,
+      "h": 13.0,
+      "mat": "travertine"
+     }
+    ]
+   },
+   "ruin": {
+    "from": 420,
+    "state": "half"
+   },
+   "importance": 4,
+   "certainty": "reconstructed",
+   "summary": "Embellished by Severus Alexander. The cult survived to the end of the 4th century; afterwards the sanctuary decayed and its statues were buried, to be found under Santa Maria sopra Minerva and Santo Stefano del Cacco.",
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Severus Alexander",
+     "r": "26.8"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 211-212",
+    "Lembke, Das Iseum Campense in Rom (1994)",
+    "Stanford Digital Forma Urbis Romae Project (formaurbis.stanford.edu), fr. 35",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Isis Campensis"
+   ]
+  },
+  {
+   "id": "arco_di_camilliano",
+   "monument": "iseum_campense_east_arch",
+   "name": "East gate of the Iseum ('Arco di Camilliano')",
+   "from": 81,
+   "to": 9999,
+   "template": "arch",
+   "loc": [
+    12.479833,
+    41.898398
+   ],
+   "rot": 86.0,
+   "w": 12.0,
+   "l": 6.0,
+   "h": 14.0,
+   "params": {
+    "bays": 3,
+    "depth": 6.0,
+    "atticH": 2.5,
+    "columns": "engaged",
+    "quadriga": false,
+    "mat": {
+     "body": "travertine"
+    }
+   },
+   "importance": 2,
+   "certainty": "documented",
+   "summary": "The monumental eastern entrance to the Iseum from the Via Lata side, standing until 1585 as the 'Arco di Camilliano'.",
+   "sources": [],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 211-212",
+    "Lembke, Das Iseum Campense in Rom (1994)",
+    "Stanford Digital Forma Urbis Romae Project (formaurbis.stanford.edu), fr. 35",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Isis Campensis",
+    "Lanciani, Forma Urbis Romae (1893-1901)"
+   ],
+   "note": "Position on the east side of the court, on its transverse axis; form simplified."
+  },
+  {
+   "id": "iseum_obelisk_1",
+   "monument": "iseum_obelisk_1",
+   "name": "Obelisk of the Iseum: Macuteo obelisk (now Piazza della Rotonda)",
+   "from": 81,
+   "to": 9999,
+   "template": "obelisk",
+   "loc": [
+    12.479366,
+    41.898734
+   ],
+   "rot": 176.0,
+   "w": 1.0,
+   "l": 1.0,
+   "h": 7.84,
+   "params": {
+    "h": 6.34,
+    "base": 1.5,
+    "mat": {
+     "shaft": "granite",
+     "base": "marble_white"
+    }
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "One of the small Egyptian obelisks (Ramesses II, Apries) set up in the Iseum, probably in the Domitianic rebuilding, and found in the area in modern times.",
+   "sources": [],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 211-212",
+    "Lembke, Das Iseum Campense in Rom (1994)",
+    "Stanford Digital Forma Urbis Romae Project (formaurbis.stanford.edu), fr. 35",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Isis Campensis"
+   ],
+   "note": "Exact placements in the dromos are conjectural."
+  },
+  {
+   "id": "iseum_obelisk_2",
+   "monument": "iseum_obelisk_2",
+   "name": "Obelisk of the Iseum: Minerva obelisk (now on Bernini's elephant)",
+   "from": 81,
+   "to": 9999,
+   "template": "obelisk",
+   "loc": [
+    12.479417,
+    41.898195
+   ],
+   "rot": 176.0,
+   "w": 1.0,
+   "l": 1.0,
+   "h": 6.97,
+   "params": {
+    "h": 5.47,
+    "base": 1.5,
+    "mat": {
+     "shaft": "granite",
+     "base": "marble_white"
+    }
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "One of the small Egyptian obelisks (Ramesses II, Apries) set up in the Iseum, probably in the Domitianic rebuilding, and found in the area in modern times.",
+   "sources": [],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 211-212",
+    "Lembke, Das Iseum Campense in Rom (1994)",
+    "Stanford Digital Forma Urbis Romae Project (formaurbis.stanford.edu), fr. 35",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Isis Campensis"
+   ],
+   "note": "Exact placements in the dromos are conjectural."
+  },
+  {
+   "id": "iseum_obelisk_3",
+   "monument": "iseum_obelisk_3",
+   "name": "Obelisk of the Iseum: Dogali obelisk (now Viale delle Terme)",
+   "from": 81,
+   "to": 9999,
+   "template": "obelisk",
+   "loc": [
+    12.479442,
+    41.897926
+   ],
+   "rot": 176.0,
+   "w": 1.0,
+   "l": 1.0,
+   "h": 7.84,
+   "params": {
+    "h": 6.34,
+    "base": 1.5,
+    "mat": {
+     "shaft": "granite",
+     "base": "marble_white"
+    }
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "One of the small Egyptian obelisks (Ramesses II, Apries) set up in the Iseum, probably in the Domitianic rebuilding, and found in the area in modern times.",
+   "sources": [],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 211-212",
+    "Lembke, Das Iseum Campense in Rom (1994)",
+    "Stanford Digital Forma Urbis Romae Project (formaurbis.stanford.edu), fr. 35",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Isis Campensis"
+   ],
+   "note": "Exact placements in the dromos are conjectural."
+  },
+  {
+   "id": "temple_minerva_chalcidica",
+   "monument": "temple_of_minerva_chalcidica",
+   "name": "Temple of Minerva Chalcidica",
+   "from": 90,
+   "to": 9999,
+   "builder": "domitian",
+   "template": "tholos",
+   "loc": [
+    12.4803,
+    41.8979
+   ],
+   "rot": 266.0,
+   "w": 20.0,
+   "l": 20.0,
+   "h": 17.0,
+   "params": {
+    "diameter": 20.0,
+    "columns": 16,
+    "colH": 9.0,
+    "podium": 2.0,
+    "roof": "dome",
+    "order": "corinthian",
+    "mat": {
+     "podium": "travertine",
+     "columns": "marble_white",
+     "walls": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "A temple of Minerva built by Domitian, Minerva being his patron goddess; the medieval name Santa Maria sopra Minerva preserves the memory of a Minerva sanctuary in the area.",
+   "sources": [
+    {
+     "a": "Chronographer of 354",
+     "w": "Chronica urbis Romae",
+     "r": "Domitian"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 256",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Minerva Chalcidica"
+   ],
+   "note": "Placed east of the Iseum toward the Via Lata (Collegio Romano area). A round temple drawn in this area in the Renaissance is often identified with it; position and form conjectural."
+  },
+  {
+   "id": "hadrianeum_precinct",
+   "monument": "hadrianeum",
+   "name": "Precinct of the Hadrianeum",
+   "from": 145,
+   "to": 9999,
+   "template": "porticus",
+   "loc": [
+    12.479436,
+    41.899759
+   ],
+   "rot": 86.0,
+   "w": 62.0,
+   "l": 100.0,
+   "h": 12.0,
+   "params": {
+    "depth": 8.0,
+    "colH": 9.5,
+    "double": false,
+    "garden": false,
+    "mat": {
+     "columns": "marble_color",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "The temple stood in a colonnaded square; reliefs of personified provinces from its attic or podium survive in the Capitoline and Naples museums.",
+   "sources": [],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 184",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Hadrianus, divus, templum"
+   ],
+   "note": "Size of the precinct estimated; entrance on the east toward the Via Lata."
+  },
+  {
+   "id": "hadrianeum_temple",
+   "monument": "hadrianeum_temple",
+   "name": "Temple of Divus Hadrianus (Hadrianeum)",
+   "from": 145,
+   "to": 9999,
+   "builder": "antoninus_pius",
+   "template": "temple",
+   "loc": [
+    12.47946,
+    41.89976
+   ],
+   "rot": 86.0,
+   "w": 34.0,
+   "l": 52.0,
+   "h": 26.2,
+   "params": {
+    "order": "corinthian",
+    "plan": "peripteral",
+    "front": 8,
+    "side": 13,
+    "podium": 4.0,
+    "colH": 14.8,
+    "steps": "front",
+    "mat": {
+     "podium": "peperino",
+     "columns": "marble_white",
+     "walls": "peperino",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "Dedicated by Antoninus Pius in 145 to his deified adoptive father. Eleven Proconnesian marble columns of the north flank, 14.8 m high, stand in the facade of the former Stock Exchange on Piazza di Pietra, with the peperino cella wall behind.",
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Antoninus Pius",
+     "r": "8.2"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 184",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Hadrianus, divus, templum"
+   ],
+   "note": "Octastyle peripteral, 8 x 13. The surviving colonnade (north flank) runs along Piazza di Pietra; facade toward the east (Via Lata), rot 86 from the Campus grid."
+  },
+  {
+   "id": "temple_matidia",
+   "monument": "temple_of_matidia",
+   "name": "Temple of Diva Matidia",
+   "from": 121,
+   "to": 9999,
+   "builder": "hadrian",
+   "template": "temple",
+   "loc": [
+    12.4783,
+    41.8996
+   ],
+   "rot": 176.0,
+   "w": 36.0,
+   "l": 48.0,
+   "h": 28.7,
+   "params": {
+    "order": "corinthian",
+    "plan": "prostyle",
+    "front": 10,
+    "side": 4,
+    "podium": 3.5,
+    "colH": 17.0,
+    "steps": "front",
+    "mat": {
+     "podium": "concrete_faced",
+     "columns": "marble_color",
+     "walls": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "conjectural",
+   "summary": "The first temple in Rome to a deified woman not of an emperor's direct blood: Hadrian's mother-in-law Matidia, consecrated in 119. Cipollino column shafts 1.7 m thick (one survives in Vicolo della Spada d'Orlando) imply a huge temple flanked by the basilicas of Matidia and Marciana.",
+   "sources": [
+    {
+     "a": "Regionary Catalogues",
+     "w": "Notitia",
+     "r": "Regio IX"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 246",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Matidia, templum"
+   ],
+   "note": "Site from the cipollino column fragments near Piazza Capranica and inscribed lead pipes; orientation (south-facing) and size are estimates from the column diameter."
+  },
+  {
+   "id": "basilicae_marcianae_matidiae",
+   "monument": "basilicae_marcianae_matidiae",
+   "name": "Basilicas of Marciana and Matidia",
+   "from": 121,
+   "to": 9999,
+   "builder": "hadrian",
+   "template": "compound",
+   "loc": [
+    12.4783,
+    41.8996
+   ],
+   "rot": 176.0,
+   "w": 84.0,
+   "l": 48.0,
+   "h": 16.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "gable",
+      "x": -32.0,
+      "y": 0,
+      "w": 20.0,
+      "l": 48.0,
+      "h": 16.0,
+      "mat": "stucco"
+     },
+     {
+      "shape": "gable",
+      "x": 32.0,
+      "y": 0,
+      "w": 20.0,
+      "l": 48.0,
+      "h": 16.0,
+      "mat": "stucco"
+     }
+    ]
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Two halls named after Trajan's sister Marciana and her daughter Matidia flanking the temple of Matidia.",
+   "sources": [
+    {
+     "a": "Regionary Catalogues",
+     "w": "Notitia",
+     "r": "Regio IX"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 55",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000)"
+   ],
+   "note": "Arrangement flanking the temple conjectural."
+  },
+  {
+   "id": "baths_nero_v1",
+   "monument": "baths_of_nero",
+   "name": "Baths of Nero (Thermae Neronianae)",
+   "from": 62,
+   "to": 226,
+   "begun": 60,
+   "builder": "nero",
+   "template": "baths",
+   "loc": [
+    12.475,
+    41.8991
+   ],
+   "rot": 266.0,
+   "w": 190.0,
+   "l": 120.0,
+   "h": 24.0,
+   "params": {
+    "core": {
+     "w": 190.0,
+     "l": 120.0,
+     "h": 20.0
+    },
+    "caldarium": {
+     "radius": 13.0,
+     "h": 24.0
+    },
+    "frigidarium": {
+     "w": 40.0,
+     "l": 25.0,
+     "h": 24.0
+    },
+    "natatio": {
+     "w": 50.0,
+     "l": 25.0
+    },
+    "exedrae": 2,
+    "mat": {
+     "walls": "brick",
+     "vaults": "concrete",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 4,
+   "certainty": "reconstructed",
+   "summary": "Nero's baths, the first symmetrical 'imperial' bath plan, built c. 62-64 between the Pantheon and the later Stadium of Domitian. Martial's quip: 'What is worse than Nero? What is better than Nero's baths?'",
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Nero",
+     "r": "12.3"
+    },
+    {
+     "a": "Martial",
+     "w": "Epigrams",
+     "r": "7.34.4-5"
+    },
+    {
+     "a": "Statius",
+     "w": "Silvae",
+     "r": "1.5.62"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 393",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Thermae Neronianae / Alexandrinae",
+    "Ghini, Le terme Alessandrine nel Campo Marzio (1988)"
+   ],
+   "note": "Footprint ~190 x 120 m from Palladio's drawings of the Severan rebuilding, under Palazzo Madama, Palazzo Giustiniani and Sant'Eustachio. Axis of symmetry assumed E-W with the caldarium toward the west (rot 266); conjectural."
+  },
+  {
+   "id": "baths_nero_v2",
+   "monument": "baths_of_nero",
+   "name": "Baths of Alexander Severus (Thermae Alexandrinae)",
+   "from": 227,
+   "to": 9999,
+   "begun": 223,
+   "builder": "severus_alexander",
+   "template": "baths",
+   "loc": [
+    12.475,
+    41.8991
+   ],
+   "rot": 266.0,
+   "w": 190.0,
+   "l": 120.0,
+   "h": 24.0,
+   "params": {
+    "core": {
+     "w": 190.0,
+     "l": 120.0,
+     "h": 20.0
+    },
+    "caldarium": {
+     "radius": 13.0,
+     "h": 24.0
+    },
+    "frigidarium": {
+     "w": 40.0,
+     "l": 25.0,
+     "h": 24.0
+    },
+    "natatio": {
+     "w": 50.0,
+     "l": 25.0
+    },
+    "exedrae": 2,
+    "mat": {
+     "walls": "brick",
+     "vaults": "concrete",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 4,
+   "certainty": "reconstructed",
+   "summary": "Rebuilt and enlarged by Severus Alexander in 227, who brought a new aqueduct (Aqua Alexandrina) to feed them; granite columns from them were used to restore the Pantheon's portico in the 17th century.",
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Severus Alexander",
+     "r": "25.3-4"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 393",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Thermae Neronianae / Alexandrinae",
+    "Ghini, Le terme Alessandrine nel Campo Marzio (1988)"
+   ]
+  },
+  {
+   "id": "gymnasium_neronis",
+   "monument": "gymnasium_neronis",
+   "name": "Gymnasium of Nero",
+   "from": 61,
+   "to": 62,
+   "builder": "nero",
+   "template": "porticus",
+   "loc": [
+    12.475,
+    41.9003
+   ],
+   "rot": 176.0,
+   "w": 100.0,
+   "l": 60.0,
+   "h": 10.0,
+   "params": {
+    "depth": 8.0,
+    "colH": 8.0,
+    "double": false,
+    "garden": true,
+    "mat": {
+     "columns": "marble_white",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Nero dedicated a Greek-style gymnasium in 60/61 with free oil for senators and knights; struck by lightning in 62, it burned down, and a bronze statue of Nero melted into a shapeless mass.",
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "14.47"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "15.22"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Nero",
+     "r": "12.3"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 393",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Thermae Neronianae / Alexandrinae",
+    "Ghini, Le terme Alessandrine nel Campo Marzio (1988)"
+   ],
+   "note": "Probably adjoining the baths; placed north of them. Form conjectural."
+  },
+  {
+   "id": "stadium_domitian_v1",
+   "monument": "stadium_of_domitian",
+   "name": "Stadium of Domitian",
+   "from": 86,
+   "to": 227,
+   "begun": 80,
+   "builder": "domitian",
+   "template": "stadium",
+   "loc": [
+    12.47309,
+    41.89899
+   ],
+   "rot": 176.6,
+   "w": 106.0,
+   "l": 275.0,
+   "h": 26.0,
+   "params": {
+    "l": 275.0,
+    "w": 106.0,
+    "tiers": 22.0,
+    "arena": {
+     "l": 240.0,
+     "w": 54.0
+    },
+    "seats": 30000,
+    "storeys": 2,
+    "mat": {
+     "facade": "travertine",
+     "cavea": "brick",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "Built by Domitian for the Greek athletic contests of his Capitoline Games (first held in 86): 275 x 106 m with a travertine arcaded facade in two orders and seats for about 30,000. Its arena survives as Piazza Navona, the curved north end and straight south end still legible in the square.",
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Domitian",
+     "r": "5"
+    },
+    {
+     "a": "Chronographer of 354",
+     "w": "Chronica urbis Romae",
+     "r": "Domitian"
+    },
+    {
+     "a": "Ammianus Marcellinus",
+     "w": "Res Gestae",
+     "r": "16.10.14"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 366-367",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)",
+    "Colini, Stadium Domitiani (1943)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Stadium Domitiani"
+   ],
+   "note": "Axis measured on satellite imagery of Piazza Navona: bearing 176.6 from the curved north end toward the straight south end (schema stadium convention). Remains of the north curve visible at Via di Tor Sanguigna."
+  },
+  {
+   "id": "stadium_domitian_v2",
+   "monument": "stadium_of_domitian",
+   "name": "Stadium of Domitian (restored by Severus Alexander)",
+   "from": 228,
+   "to": 9999,
+   "builder": "severus_alexander",
+   "template": "stadium",
+   "loc": [
+    12.47309,
+    41.89899
+   ],
+   "rot": 176.6,
+   "w": 106.0,
+   "l": 275.0,
+   "h": 26.0,
+   "params": {
+    "l": 275.0,
+    "w": 106.0,
+    "tiers": 22.0,
+    "arena": {
+     "l": 240.0,
+     "w": 54.0
+    },
+    "seats": 30000,
+    "storeys": 2,
+    "mat": {
+     "facade": "travertine",
+     "cavea": "brick",
+     "roof": "roof_tile"
+    }
+   },
+   "ruin": {
+    "from": 560,
+    "state": "half"
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "Restored by Severus Alexander, who held gladiatorial games here while the fire-damaged Colosseum was being repaired. Constantius II admired it on his visit in 357. In the Middle Ages houses were built into its cavea, preserving its shape; the martyr Agnes was venerated in its arcades.",
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Severus Alexander",
+     "r": "24.3"
+    },
+    {
+     "a": "Ammianus Marcellinus",
+     "w": "Res Gestae",
+     "r": "16.10.14"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 366-367",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2007)",
+    "Colini, Stadium Domitiani (1943)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Stadium Domitiani"
+   ]
+  },
+  {
+   "id": "odeum_domitian_v1",
+   "monument": "odeum_of_domitian",
+   "name": "Odeum of Domitian",
+   "from": 86,
+   "to": 105,
+   "begun": 80,
+   "builder": "domitian",
+   "template": "odeum",
+   "loc": [
+    12.4735,
+    41.897
+   ],
+   "rot": 357.0,
+   "w": 90.0,
+   "l": 60.0,
+   "h": 25.0,
+   "params": {
+    "diameter": 90.0,
+    "seats": 10600,
+    "mat": {
+     "facade": "travertine",
+     "walls": "brick",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "A roofed hall for musical contests of the Capitoline Games, south of the Stadium. The curved facade of Palazzo Massimo alle Colonne follows its cavea.",
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Domitian",
+     "r": "5"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 276",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Odeum",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)"
+   ],
+   "note": "Cavea curve under Palazzo Massimo on Corso Vittorio, with a cipollino column of the stage in Piazza de' Massimi to the north: the audience looked north (rot 357). Diameter ~90 m estimated from the curve; the Regionary capacity of 10,600 'loca' is unreliable."
+  },
+  {
+   "id": "odeum_domitian_v2",
+   "monument": "odeum_of_domitian",
+   "name": "Odeum of Domitian (completed by Apollodorus)",
+   "from": 106,
+   "to": 9999,
+   "builder": "trajan",
+   "template": "odeum",
+   "loc": [
+    12.4735,
+    41.897
+   ],
+   "rot": 357.0,
+   "w": 90.0,
+   "l": 60.0,
+   "h": 25.0,
+   "params": {
+    "diameter": 90.0,
+    "seats": 10600,
+    "mat": {
+     "facade": "travertine",
+     "walls": "brick",
+     "roof": "roof_tile"
+    }
+   },
+   "ruin": {
+    "from": 560,
+    "state": "half"
+   },
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "Completed or rebuilt by Trajan's architect Apollodorus of Damascus; Ammianus lists it with the Pantheon and the Stadium among the wonders Constantius II saw in 357.",
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "69.4.1"
+    },
+    {
+     "a": "Ammianus Marcellinus",
+     "w": "Res Gestae",
+     "r": "16.10.14"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 276"
+   ]
+  },
+  {
+   "id": "column_marcus_aurelius",
+   "monument": "column_of_marcus_aurelius",
+   "name": "Column of Marcus Aurelius",
+   "from": 193,
+   "to": 9999,
+   "begun": 180,
+   "builder": "commodus",
+   "template": "column",
+   "loc": [
+    12.479987,
+    41.900848
+   ],
+   "rot": 86.0,
+   "w": 7.0,
+   "l": 7.0,
+   "h": 42.0,
+   "params": {
+    "pedestal": 10.1,
+    "shaft": 29.6,
+    "diameter": 3.7,
+    "spiral": true,
+    "statue": true,
+    "mat": {
+     "shaft": "marble_white",
+     "pedestal": "marble_white",
+     "statue": "gilded"
+    }
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "A 100-foot spiral column of Luna marble, modelled on Trajan's, whose frieze narrates Marcus Aurelius' wars against the Marcomanni and Sarmatians (172-175), including the 'rain miracle'. Begun after his death in 180, it was finished by 193, when its custodian Adrastus was granted timber from the scaffolding to build himself a house beside it.",
+   "phases": [
+    {
+     "y": 180,
+     "t": "begun after the death of Marcus"
+    },
+    {
+     "y": 193,
+     "t": "finished (Adrastus inscription)"
+    }
+   ],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "1585"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 95",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Columna Marci Aurelii Antonini",
+    "Scheid and Huet (eds), Autour de la colonne Aurelienne (2000)"
+   ],
+   "note": "Location from the monument in Piazza Colonna. Column 29.6 m (100 Roman feet) on a pedestal originally ~10 m high (now partly buried), total ~39.7 m plus the bronze statue. rot 86 (entrance side) is assumed."
+  },
+  {
+   "id": "temple_divus_marcus",
+   "monument": "temple_of_divus_marcus",
+   "name": "Temple of Divus Marcus",
+   "from": 181,
+   "to": 9999,
+   "builder": "commodus",
+   "template": "temple",
+   "loc": [
+    12.47935,
+    41.90125
+   ],
+   "rot": 86.0,
+   "w": 22.0,
+   "l": 36.0,
+   "h": 23.4,
+   "params": {
+    "order": "corinthian",
+    "plan": "peripteral",
+    "front": 6,
+    "side": 11,
+    "podium": 3.5,
+    "colH": 14.0,
+    "steps": "front",
+    "mat": {
+     "podium": "concrete_faced",
+     "columns": "marble_white",
+     "walls": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "conjectural",
+   "summary": "The Senate decreed a temple to the deified Marcus Aurelius with its own priesthood; it is thought to have stood west of his column.",
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Marcus Aurelius",
+     "r": "18.8"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 246",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Marcus, divus, templum"
+   ],
+   "note": "Site unknown; west of the column toward Montecitorio is the usual guess. Form invented."
+  },
+  {
+   "id": "column_antoninus_pius",
+   "monument": "column_of_antoninus_pius",
+   "name": "Column of Antoninus Pius",
+   "from": 161,
+   "to": 9999,
+   "builder": "marcus_aurelius",
+   "template": "column",
+   "loc": [
+    12.477421,
+    41.90155
+   ],
+   "rot": 356.0,
+   "w": 4.5,
+   "l": 4.5,
+   "h": 21.0,
+   "params": {
+    "pedestal": 2.5,
+    "shaft": 14.75,
+    "diameter": 1.9,
+    "spiral": false,
+    "statue": true,
+    "mat": {
+     "shaft": "granite",
+     "pedestal": "marble_white",
+     "statue": "bronze"
+    }
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "A plain monolith of red Aswan granite, 50 feet high, raised by Marcus Aurelius and Lucius Verus to Antoninus Pius and Faustina after his death in 161. Its marble pedestal, with the apotheosis of the imperial couple and the cavalry parade of the funeral games, was found in 1703 and is in the Vatican.",
+   "sources": [],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 94",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Columna Antonini Pii"
+   ],
+   "note": "Base found in 1703 in the garden of the Casa della Missione north-west of Montecitorio; shaft 14.75 m. Total height with statue estimated. Orientation of the inscribed face uncertain."
+  },
+  {
+   "id": "ustrinum_antonini_pii",
+   "monument": "ustrinum_antonini_pii",
+   "name": "Ustrinum of Antoninus Pius",
+   "from": 161,
+   "to": 9999,
+   "builder": "marcus_aurelius",
+   "template": "altar",
+   "loc": [
+    12.477542,
+    41.901955
+   ],
+   "rot": 356.0,
+   "w": 30.0,
+   "l": 30.0,
+   "h": 4.0,
+   "params": {
+    "enclosure": {
+     "w": 30.0,
+     "l": 30.0,
+     "h": 2.5
+    },
+    "altar": {
+     "w": 13.0,
+     "l": 13.0,
+     "h": 3.0
+    },
+    "mat": {
+     "enclosure": "travertine",
+     "altar": "travertine",
+     "railing": "bronze"
+    }
+   },
+   "importance": 2,
+   "certainty": "documented",
+   "summary": "The cremation precinct of Antoninus Pius and Faustina: a travertine enclosure with an iron railing around a central platform for the pyre, found with the column base in 1703.",
+   "sources": [],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 402",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Ustrinum Antoninorum"
+   ],
+   "note": "Placed just north of the column base; layout simplified."
+  },
+  {
+   "id": "ustrinum_marci",
+   "monument": "ustrinum_marci",
+   "name": "Ustrinum of Marcus Aurelius (?)",
+   "from": 180,
+   "to": 9999,
+   "template": "altar",
+   "loc": [
+    12.4784,
+    41.90215
+   ],
+   "rot": 356.0,
+   "w": 30.0,
+   "l": 30.0,
+   "h": 4.0,
+   "params": {
+    "enclosure": {
+     "w": 30.0,
+     "l": 30.0,
+     "h": 2.5
+    },
+    "altar": {
+     "w": 13.0,
+     "l": 13.0,
+     "h": 3.0
+    },
+    "mat": {
+     "enclosure": "travertine",
+     "altar": "travertine",
+     "railing": "bronze"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "A second cremation enclosure of the same type found under Piazza del Parlamento in 1907, attributed to Marcus Aurelius or another Antonine.",
+   "sources": [],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 402",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Ustrinum (Marci?)"
+   ],
+   "note": "Attribution and exact position uncertain."
+  },
+  {
+   "id": "arch_claudius_via_lata",
+   "monument": "arch_of_claudius",
+   "name": "Arch of Claudius (Via Lata)",
+   "from": 52,
+   "to": 9999,
+   "begun": 51,
+   "builder": "claudius",
+   "template": "arch",
+   "loc": [
+    12.48114,
+    41.8996
+   ],
+   "rot": 347.0,
+   "w": 13.0,
+   "l": 7.0,
+   "h": 16.0,
+   "params": {
+    "bays": 1,
+    "depth": 7.0,
+    "atticH": 4.0,
+    "columns": "engaged",
+    "quadriga": false,
+    "aqueduct": "Aqua Virgo",
+    "mat": {
+     "body": "travertine",
+     "facing": "marble_white"
+    }
+   },
+   "importance": 3,
+   "certainty": "documented",
+   "summary": "The Senate's arch for Claudius' conquest of Britain, built in 51-52 where the Aqua Virgo crossed the Via Lata, so that the aqueduct ran through its attic. The inscription recorded the surrender of eleven British kings without loss.",
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "920"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "60.22.1"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 23",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Arcus Claudii (a. 51-52 d.C.)",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)"
+   ],
+   "note": "Remains found in Via del Corso at Piazza Sciarra; the arch spanned the road, rot = road bearing (347, measured on the modern Corso between Piazza Venezia and Piazza Colonna). Number of bays uncertain."
+  },
+  {
+   "id": "arcus_novus",
+   "monument": "arcus_novus",
+   "name": "Arcus Novus",
+   "from": 303,
+   "to": 9999,
+   "builder": "diocletian",
+   "template": "arch",
+   "loc": [
+    12.481566,
+    41.89825
+   ],
+   "rot": 347.0,
+   "w": 20.0,
+   "l": 8.0,
+   "h": 18.0,
+   "params": {
+    "bays": 3,
+    "depth": 8.0,
+    "atticH": 4.0,
+    "columns": "freestanding",
+    "quadriga": false,
+    "mat": {
+     "body": "brick",
+     "facing": "marble_white"
+    }
+   },
+   "importance": 3,
+   "certainty": "documented",
+   "summary": "A 'new arch' built by Diocletian over the Via Lata, probably for his vicennalia of 303-304, reusing Claudian reliefs (now in the Boboli Gardens and Villa Medici); demolished in 1491 when Santa Maria in Via Lata was rebuilt.",
+   "sources": [
+    {
+     "a": "Chronographer of 354",
+     "w": "Chronica urbis Romae",
+     "r": "Diocletian"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 26",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Arcus Novus"
+   ],
+   "note": "Position beside Santa Maria in Via Lata; form simplified."
+  },
+  {
+   "id": "arco_di_portogallo_v1",
+   "monument": "arco_di_portogallo",
+   "name": "Arch of Hadrian (?) on the Via Flaminia",
+   "from": 136,
+   "to": 349,
+   "template": "arch",
+   "loc": [
+    12.479301,
+    41.902969
+   ],
+   "rot": 359.0,
+   "w": 12.0,
+   "l": 7.0,
+   "h": 16.0,
+   "params": {
+    "bays": 1,
+    "depth": 7.0,
+    "atticH": 4.0,
+    "columns": "engaged",
+    "quadriga": false,
+    "mat": {
+     "body": "marble_white"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Two Hadrianic reliefs (an apotheosis of Sabina and an imperial address) later built into the Arco di Portogallo may come from an arch of Hadrian standing on this spot, or may have been brought from elsewhere.",
+   "sources": [],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 23",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Arcus Hadriani"
+   ],
+   "note": "Highly conjectural predecessor; included because the brief asks for the debated Arch of Hadrian."
+  },
+  {
+   "id": "arco_di_portogallo_v2",
+   "monument": "arco_di_portogallo",
+   "name": "Arco di Portogallo",
+   "from": 350,
+   "to": 9999,
+   "template": "arch",
+   "loc": [
+    12.479301,
+    41.902969
+   ],
+   "rot": 359.0,
+   "w": 12.0,
+   "l": 7.0,
+   "h": 16.0,
+   "params": {
+    "bays": 1,
+    "depth": 7.0,
+    "atticH": 4.0,
+    "columns": "freestanding",
+    "quadriga": false,
+    "mat": {
+     "body": "brick",
+     "facing": "marble_white"
+    }
+   },
+   "importance": 3,
+   "certainty": "documented",
+   "summary": "A late antique arch over the Via Flaminia beside the later Palazzo Fiano, decorated with two Hadrianic reliefs, demolished in 1662 by Alexander VII to widen the Corso. Its modern name comes from a Portuguese cardinal's palace nearby. It is sometimes called the Arch of Marcus Aurelius, since one view dates the arch or its reliefs to him.",
+   "sources": [],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 23",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Arcus Hadriani; Arco di Portogallo",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)"
+   ],
+   "note": "Spanned the Via Flaminia south of the Ara Pacis site; rot follows the road (~357 here). Construction date late antique (c. 350 assumed)."
+  },
+  {
+   "id": "campus_agrippae",
+   "monument": "campus_agrippae",
+   "name": "Campus Agrippae",
+   "from": -7,
+   "to": 273,
+   "builder": "augustus",
+   "template": "garden",
+   "loc": [
+    12.4813,
+    41.9016
+   ],
+   "rot": 266.0,
+   "w": 260.0,
+   "l": 420.0,
+   "h": 0.0,
+   "footprint": [
+    [
+     12.48145,
+     41.8995
+    ],
+    [
+     12.4835,
+     41.8995
+    ],
+    [
+     12.4835,
+     41.9035
+    ],
+    [
+     12.4797,
+     41.9035
+    ],
+    [
+     12.4802,
+     41.9019
+    ],
+    [
+     12.48099,
+     41.9005
+    ],
+    [
+     12.48145,
+     41.8995
+    ]
+   ],
+   "params": {
+    "trees": 0.4,
+    "kind": "park"
+   },
+   "importance": 2,
+   "certainty": "reconstructed",
+   "summary": "The park Agrippa laid out east of the Via Lata, opened to the people by Augustus in 7 BC with the Porticus Vipsania along its edge.",
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "55.8.4"
+    },
+    {
+     "a": "Aulus Gellius",
+     "w": "Attic Nights",
+     "r": "14.5.1"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 65",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Campus Agrippae"
+   ],
+   "note": "Extent conjectural; the Temple of Sol later occupied its northern part."
+  },
+  {
+   "id": "porticus_vipsania",
+   "monument": "porticus_vipsania",
+   "name": "Porticus Vipsania",
+   "from": -7,
+   "to": 9999,
+   "builderName": "Vipsania Polla; completed by Augustus",
+   "template": "colonnade",
+   "loc": [
+    12.4809,
+    41.9007
+   ],
+   "rot": 527.0,
+   "w": 15.0,
+   "l": 270.0,
+   "h": 10.0,
+   "params": {
+    "line": [
+     [
+      12.481282,
+      41.8996
+     ],
+     [
+      12.480989,
+      41.900484
+     ],
+     [
+      12.48011,
+      41.9019
+     ]
+    ],
+    "depth": 15.0,
+    "colH": 8.5,
+    "double": true,
+    "mat": {
+     "columns": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "conjectural",
+   "summary": "Begun by Agrippa's sister Vipsania Polla and completed by Augustus, it displayed Agrippa's great map of the world, drawn from his commentaries. Galba's soldiers were stationed in it in 69.",
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Natural History",
+     "r": "3.17"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "55.8.4"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Histories",
+     "r": "1.31"
+    },
+    {
+     "a": "Martial",
+     "w": "Epigrams",
+     "r": "4.18.1"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 319",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Porticus Vipsania",
+    "Haselberger et al., Mapping Augustan Rome (JRA Suppl. 50, 2002)"
+   ],
+   "note": "Along the east side of the Via Lata north of the Aqua Virgo arch (Martial's dripping arch); extent and form conjectural."
+  },
+  {
+   "id": "ara_providentiae",
+   "monument": "ara_providentiae",
+   "name": "Altar of Providentia Augusta (?)",
+   "from": 20,
+   "to": 9999,
+   "builder": "tiberius",
+   "template": "altar",
+   "loc": [
+    12.481,
+    41.9011
+   ],
+   "rot": 266.0,
+   "w": 12.0,
+   "l": 12.0,
+   "h": 4.0,
+   "params": {
+    "enclosure": {
+     "w": 12.0,
+     "l": 12.0,
+     "h": 3.5
+    },
+    "altar": {
+     "w": 4.0,
+     "l": 3.0,
+     "h": 1.8
+    },
+    "mat": {
+     "enclosure": "marble_white",
+     "altar": "marble_white"
+    }
+   },
+   "importance": 1,
+   "certainty": "conjectural",
+   "summary": "An altar to the Providence of Augustus set up under Tiberius, at which the Arval Brethren sacrificed; the Arval acts locate it in the Campus Agrippae.",
+   "sources": [
+    {
+     "a": "Acta Fratrum Arvalium",
+     "w": ""
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 323",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Providentia Augusta, ara"
+   ],
+   "note": "Placement within the Campus Agrippae is a guess; date c. AD 20 assumed."
+  },
+  {
+   "id": "temple_sol_invictus",
+   "monument": "temple_of_sol_aurelian",
+   "name": "Temple of Sol Invictus (Templum Solis)",
+   "from": 274,
+   "to": 9999,
+   "builder": "aurelian",
+   "template": "compound",
+   "loc": [
+    12.4813,
+    41.9026
+   ],
+   "rot": 266.0,
+   "w": 130.0,
+   "l": 270.0,
+   "h": 30.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "court",
+      "x": 0,
+      "y": 65.0,
+      "w": 130.0,
+      "l": 125.0,
+      "h": 11.0,
+      "ringDepth": 10.0,
+      "mat": "marble_white"
+     },
+     {
+      "shape": "hemicycle",
+      "x": 0,
+      "y": 65.0,
+      "radius": 62.0,
+      "depth": 20.0,
+      "angle": 180,
+      "w": 124.0,
+      "l": 20.0,
+      "h": 11.0,
+      "mat": "marble_white"
+     },
+     {
+      "shape": "court",
+      "x": 0,
+      "y": -65.0,
+      "w": 130.0,
+      "l": 140.0,
+      "h": 13.0,
+      "ringDepth": 10.0,
+      "mat": "marble_white"
+     },
+     {
+      "shape": "cylinder",
+      "x": 0,
+      "y": -65.0,
+      "w": 34.0,
+      "l": 34.0,
+      "h": 30.0,
+      "mat": "marble_white"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 133.0,
+      "w": 30.0,
+      "l": 6.0,
+      "h": 15.0,
+      "mat": "marble_white"
+     }
+    ]
+   },
+   "importance": 4,
+   "certainty": "conjectural",
+   "summary": "Aurelian's temple of the Unconquered Sun, built after his victory over Palmyra and dedicated on 25 December 274, filled with Palmyrene spoils and served by a new college of pontifices Solis. Wine for the plebs was stored in its porticoes.",
+   "phases": [
+    {
+     "y": 274,
+     "t": "dedicated 25 December"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Aurelian",
+     "r": "25.6"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Aurelian",
+     "r": "35.3"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Aurelian",
+     "r": "39.2"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Aurelian",
+     "r": "48.4"
+    },
+    {
+     "a": "Zosimus",
+     "w": "New History",
+     "r": "1.61.2"
+    },
+    {
+     "a": "Eutropius",
+     "w": "Breviarium",
+     "r": "9.15.1"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 363-364",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Sol, templum",
+    "Hijmans, 'Temple and priests of Sol in the city of Rome', Mouseion 10 (2010)"
+   ],
+   "note": "Debated. The Regionary Catalogues put it in Regio VII (Via Lata). The preferred site is east of the Via Lata in the former Campus Agrippae around San Silvestro in Capite, where Renaissance drawings (Palladio and others) record a huge double precinct: an outer court with semicircular ends and an inner court with a round(?) temple. The older location on the Quirinal (Colonna gardens) is now assigned to Caracalla's Serapeum. Dimensions follow the drawings loosely; front toward the Via Lata (rot 266)."
+  },
+  {
+   "id": "horologium_obelisk",
+   "monument": "horologium_augusti",
+   "name": "Obelisk of the Horologium (Solarium) Augusti",
+   "from": -10,
+   "to": 9999,
+   "builder": "augustus",
+   "template": "obelisk",
+   "loc": [
+    12.478,
+    41.90256
+   ],
+   "rot": 176.0,
+   "w": 3.0,
+   "l": 3.0,
+   "h": 30.0,
+   "params": {
+    "h": 21.79,
+    "base": 6.5,
+    "globe": true,
+    "mat": {
+     "shaft": "granite",
+     "base": "granite",
+     "globe": "gilded"
+    }
+   },
+   "importance": 4,
+   "certainty": "documented",
+   "summary": "An obelisk of Psammetichus II brought from Heliopolis and set up by Augustus in 10 BC, after the conquest of Egypt, as the gnomon of a great meridian (or sundial) in the northern Campus; Pliny says its gilded ball cast the shadow, but that the readings had gone wrong for some 30 years in his day. Now in Piazza di Montecitorio.",
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Natural History",
+     "r": "36.72-73"
+    },
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "17.1.27"
+    },
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "702"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 190-191",
+    "Buchner, Die Sonnenuhr des Augustus (1982)",
+    "Heslin, 'Augustus, Domitian and the so-called Horologium Augusti', JRS 97 (2007)",
+    "Haselberger (ed.), The Horologium of Augustus: Debate and Context (JRA Suppl. 99, 2014)",
+    "Haselberger et al., Mapping Augustan Rome (JRA Suppl. 50, 2002)"
+   ],
+   "note": "Found in 1748 (and partly in 1512) under houses north of Piazza del Parlamento; placed here per that find-spot. Shaft 21.79 m; pedestal and globe add ~8 m."
+  },
+  {
+   "id": "horologium_pavement_v1",
+   "monument": "horologium_meridian",
+   "name": "Meridian pavement of Augustus",
+   "from": -10,
+   "to": 89,
+   "template": "platform",
+   "loc": [
+    12.47794,
+    41.902965
+   ],
+   "rot": 0.0,
+   "w": 50.0,
+   "l": 90.0,
+   "h": 0.2,
+   "params": {
+    "facade": "plain",
+    "lines": "bronze letters and zodiac signs",
+    "mat": {
+     "top": "paving_travertine"
+    }
+   },
+   "importance": 3,
+   "certainty": "conjectural",
+   "summary": "A travertine pavement with a bronze meridian line north of the obelisk on which the noon shadow marked the seasons and zodiac signs. Buchner reconstructed a full sundial grid some 160 m across, aligned so that on Augustus' birthday the shadow pointed to the Ara Pacis; later work (Heslin, Haselberger) favours a meridian line only.",
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Natural History",
+     "r": "36.72-73"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 190-191",
+    "Buchner, Die Sonnenuhr des Augustus (1982)",
+    "Heslin, 'Augustus, Domitian and the so-called Horologium Augusti', JRS 97 (2007)",
+    "Haselberger (ed.), The Horologium of Augustus: Debate and Context (JRA Suppl. 99, 2014)",
+    "Haselberger et al., Mapping Augustan Rome (JRA Suppl. 50, 2002)"
+   ],
+   "note": "Only the meridian with Greek inscriptions was found (Via di Campo Marzio 48), at the Flavian level. Extent here is a compromise and conjectural."
+  },
+  {
+   "id": "horologium_pavement_v2",
+   "monument": "horologium_meridian",
+   "name": "Meridian of the Horologium (Domitianic relaying)",
+   "from": 90,
+   "to": 9999,
+   "builder": "domitian",
+   "template": "platform",
+   "loc": [
+    12.47794,
+    41.902965
+   ],
+   "rot": 0.0,
+   "w": 50.0,
+   "l": 90.0,
+   "h": 0.2,
+   "params": {
+    "facade": "plain",
+    "lines": "bronze letters (Greek inscriptions)",
+    "mat": {
+     "top": "paving_travertine"
+    }
+   },
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "The meridian was relaid about 1.6 m higher, probably under Domitian; a stretch with bronze Greek letters naming the zodiac signs and the Etesian winds survives in a cellar at Via di Campo Marzio 48.",
+   "sources": [],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 190-191",
+    "Buchner, Die Sonnenuhr des Augustus (1982)",
+    "Heslin, 'Augustus, Domitian and the so-called Horologium Augusti', JRS 97 (2007)",
+    "Haselberger (ed.), The Horologium of Augustus: Debate and Context (JRA Suppl. 99, 2014)",
+    "Haselberger et al., Mapping Augustan Rome (JRA Suppl. 50, 2002)"
+   ],
+   "note": "Date of relaying (Flavian) approximate."
+  },
+  {
+   "id": "ara_pacis",
+   "monument": "ara_pacis_mon",
+   "name": "Ara Pacis Augustae",
+   "from": -9,
+   "to": 119,
+   "begun": -13,
+   "builder": "augustus",
+   "template": "altar",
+   "loc": [
+    12.47916,
+    41.903054
+   ],
+   "rot": 267.0,
+   "w": 10.6,
+   "l": 11.6,
+   "h": 6.3,
+   "params": {
+    "enclosure": {
+     "w": 10.6,
+     "l": 11.6,
+     "h": 6.3
+    },
+    "altar": {
+     "w": 7.2,
+     "l": 5.9,
+     "h": 3.2
+    },
+    "steps": 9,
+    "doors": [
+     "front",
+     "back"
+    ],
+    "mat": {
+     "enclosure": "marble_white",
+     "altar": "marble_white"
+    }
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "The Altar of Augustan Peace, decreed by the Senate on 4 July 13 BC on Augustus' return from Spain and Gaul and dedicated on 30 January 9 BC. A marble precinct carved with the procession of the imperial family, Aeneas, Tellus and acanthus scrolls, enclosing the altar where magistrates, priests and Vestals sacrificed yearly.",
+   "phases": [
+    {
+     "y": -13,
+     "t": "decreed 4 July"
+    },
+    {
+     "y": -9,
+     "t": "dedicated 30 January"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Res Gestae Divi Augusti",
+     "w": "",
+     "r": "12.2"
+    },
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "1.709-722"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 287-289",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Haselberger et al., Mapping Augustan Rome (JRA Suppl. 50, 2002)",
+    "Rossini, Ara Pacis (2006)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Pax Augusta, ara"
+   ],
+   "note": "Original site under Palazzo Fiano at Via in Lucina, just west of the Via Flaminia; reassembled in 1938 by the Mausoleum. Precinct 11.6 x 10.6 m, main door and stair on the west toward the Campus (rot 267), back door toward the Via Flaminia. As the ground rose, a retaining wall was built around it in the 2nd century."
+  },
+  {
+   "id": "mausoleum_augustus_v1",
+   "monument": "mausoleum_of_augustus",
+   "name": "Mausoleum of Augustus",
+   "from": -28,
+   "to": 409,
+   "begun": -28,
+   "builder": "augustus",
+   "template": "mausoleum",
+   "loc": [
+    12.47639,
+    41.90608
+   ],
+   "rot": 177.0,
+   "w": 87.0,
+   "l": 87.0,
+   "h": 42.0,
+   "params": {
+    "diameter": 87.0,
+    "drumH": 12.0,
+    "tumulusH": 26.0,
+    "tiers": 3,
+    "statue": true,
+    "trees": "evergreen (cypress?)",
+    "pillars": "bronze tablets of the Res Gestae at the entrance",
+    "mat": {
+     "drum": "travertine",
+     "core": "reticulate",
+     "tumulus": "grass",
+     "statue": "bronze"
+    }
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "Begun by Octavian in 28 BC, after Actium, between the Via Flaminia and the Tiber: a huge drum 87 m across faced in travertine, carrying an earthen mound planted with evergreens and topped by a bronze statue of Augustus, about 42 m high. Marcellus was the first buried (23 BC); Augustus' ashes followed in AD 14, then the Julio-Claudians to Nerva. Bronze pillars at the entrance carried the Res Gestae.",
+   "phases": [
+    {
+     "y": -23,
+     "t": "Marcellus buried"
+    },
+    {
+     "y": 14,
+     "t": "ashes of Augustus deposited"
+    },
+    {
+     "y": 98,
+     "t": "Nerva the last emperor interred"
+    }
+   ],
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Augustus",
+     "r": "100.4"
+    },
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "5.3.8"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "53.30.5"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "3.9"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 247-249",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Haselberger et al., Mapping Augustan Rome (JRA Suppl. 50, 2002)",
+    "von Hesberg and Panciera, Das Mausoleum des Augustus (1994)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Mausoleum Augusti"
+   ],
+   "note": "Centre from the standing ruin (Piazza Augusto Imperatore). Entrance on the south (rot 177, Campus grid). Upper reconstruction (stepped drums vs. tumulus) debated; height ~42 m."
+  },
+  {
+   "id": "mausoleum_augustus_v2",
+   "monument": "mausoleum_of_augustus",
+   "name": "Mausoleum of Augustus (plundered)",
+   "from": 410,
+   "to": 9999,
+   "template": "mausoleum",
+   "loc": [
+    12.47639,
+    41.90608
+   ],
+   "rot": 177.0,
+   "w": 87.0,
+   "l": 87.0,
+   "h": 36.0,
+   "params": {
+    "diameter": 87.0,
+    "drumH": 12.0,
+    "tumulusH": 26.0,
+    "tiers": 3,
+    "statue": false,
+    "trees": "evergreen (cypress?)",
+    "pillars": "bronze tablets of the Res Gestae at the entrance",
+    "mat": {
+     "drum": "travertine",
+     "core": "reticulate",
+     "tumulus": "grass",
+     "statue": "bronze"
+    }
+   },
+   "ruin": {
+    "from": 410,
+    "state": "half"
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "The tomb is said to have been plundered by Alaric's Goths in 410 and its urns scattered; it decayed into a fortified mound of the Colonna in the Middle Ages.",
+   "sources": [],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 247-249",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Haselberger et al., Mapping Augustan Rome (JRA Suppl. 50, 2002)",
+    "von Hesberg and Panciera, Das Mausoleum des Augustus (1994)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Mausoleum Augusti"
+   ],
+   "note": "Plundering in 410 is traditional rather than securely attested."
+  },
+  {
+   "id": "mausoleum_augustus_obelisk_east",
+   "monument": "mausoleum_augustus_obelisk_east",
+   "name": "Obelisk at the Mausoleum of Augustus (east)",
+   "from": 90,
+   "to": 9999,
+   "template": "obelisk",
+   "loc": [
+    12.47658,
+    41.905619
+   ],
+   "rot": 177.0,
+   "w": 2.0,
+   "l": 2.0,
+   "h": 18.0,
+   "params": {
+    "h": 14.7,
+    "base": 3.0,
+    "mat": {
+     "shaft": "granite",
+     "base": "travertine"
+    }
+   },
+   "importance": 3,
+   "certainty": "documented",
+   "summary": "One of a pair of uninscribed granite obelisks flanking the entrance of the Mausoleum, now on the Esquiline (behind Santa Maria Maggiore, 14.75 m) and the Quirinal (14.64 m).",
+   "sources": [
+    {
+     "a": "Ammianus Marcellinus",
+     "w": "Res Gestae",
+     "r": "17.4.16"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 247-249",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Haselberger et al., Mapping Augustan Rome (JRA Suppl. 50, 2002)",
+    "von Hesberg and Panciera, Das Mausoleum des Augustus (1994)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Mausoleum Augusti"
+   ],
+   "note": "Not mentioned by Strabo; probably added later, perhaps under Domitian (from = 90 assumed). Found near the entrance in 1519 and 1527."
+  },
+  {
+   "id": "mausoleum_augustus_obelisk_west",
+   "monument": "mausoleum_augustus_obelisk_west",
+   "name": "Obelisk at the Mausoleum of Augustus (west)",
+   "from": 90,
+   "to": 9999,
+   "template": "obelisk",
+   "loc": [
+    12.476266,
+    41.905607
+   ],
+   "rot": 177.0,
+   "w": 2.0,
+   "l": 2.0,
+   "h": 18.0,
+   "params": {
+    "h": 14.7,
+    "base": 3.0,
+    "mat": {
+     "shaft": "granite",
+     "base": "travertine"
+    }
+   },
+   "importance": 3,
+   "certainty": "documented",
+   "summary": "One of a pair of uninscribed granite obelisks flanking the entrance of the Mausoleum, now on the Esquiline (behind Santa Maria Maggiore, 14.75 m) and the Quirinal (14.64 m).",
+   "sources": [
+    {
+     "a": "Ammianus Marcellinus",
+     "w": "Res Gestae",
+     "r": "17.4.16"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 247-249",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Haselberger et al., Mapping Augustan Rome (JRA Suppl. 50, 2002)",
+    "von Hesberg and Panciera, Das Mausoleum des Augustus (1994)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Mausoleum Augusti"
+   ],
+   "note": "Not mentioned by Strabo; probably added later, perhaps under Domitian (from = 90 assumed). Found near the entrance in 1519 and 1527."
+  },
+  {
+   "id": "ustrinum_augusti",
+   "monument": "ustrinum_augusti",
+   "name": "Ustrinum (Busta) of Augustus",
+   "from": 14,
+   "to": 9999,
+   "template": "altar",
+   "loc": [
+    12.4779,
+    41.90555
+   ],
+   "rot": 266.0,
+   "w": 30.0,
+   "l": 30.0,
+   "h": 4.0,
+   "params": {
+    "enclosure": {
+     "w": 30.0,
+     "l": 30.0,
+     "h": 2.5
+    },
+    "altar": {
+     "w": 10.0,
+     "l": 10.0,
+     "h": 2.5
+    },
+    "trees": "black poplars",
+    "mat": {
+     "enclosure": "travertine",
+     "railing": "bronze",
+     "altar": "travertine"
+    }
+   },
+   "importance": 2,
+   "certainty": "documented",
+   "summary": "Strabo describes the place where Augustus' body was burned: an enclosure of white marble with an iron railing, planted inside with black poplars, in the middle of the Campus near the Mausoleum. Cippi of imperial family members cremated here were found in 1777 near San Carlo al Corso.",
+   "sources": [
+    {
+     "a": "Strabo",
+     "w": "Geography",
+     "r": "5.3.8"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Augustus",
+     "r": "100.3-4"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 247-249",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Haselberger et al., Mapping Augustan Rome (JRA Suppl. 50, 2002)",
+    "von Hesberg and Panciera, Das Mausoleum des Augustus (1994)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Mausoleum Augusti",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 402"
+   ],
+   "note": "Placed east of the Mausoleum toward the Via Flaminia where the cippi were found."
+  },
+  {
+   "id": "tomb_of_hirtius",
+   "monument": "tomb_of_hirtius",
+   "name": "Tomb of Aulus Hirtius",
+   "from": -43,
+   "to": 379,
+   "template": "tomb",
+   "loc": [
+    12.4719,
+    41.8965
+   ],
+   "rot": 86.0,
+   "w": 6.0,
+   "l": 6.0,
+   "h": 4.5,
+   "params": {
+    "kind": "altar",
+    "w": 6.0,
+    "h": 4.5,
+    "mat": {
+     "body": "travertine"
+    }
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "The consul Hirtius, killed at Mutina in 43 BC, was given a public burial in the Campus Martius, an exceptional honour. His travertine tomb was found in 1938-40 beneath the courtyard of the Palazzo della Cancelleria beside the Euripus.",
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Periochae",
+     "r": "119"
+    },
+    {
+     "a": "Valerius Maximus",
+     "w": "Facta et dicta memorabilia",
+     "r": "5.2.10"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 354",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)"
+   ],
+   "note": "Under the Cancelleria courtyard; covered by the basilica of San Lorenzo in Damaso in late antiquity (end date assumed)."
+  },
+  {
+   "id": "tomb_of_sulla",
+   "monument": "tomb_of_sulla",
+   "name": "Tomb of Sulla",
+   "from": -78,
+   "to": 9999,
+   "builder": "sulla",
+   "template": "tomb",
+   "loc": [
+    12.4703,
+    41.8995
+   ],
+   "rot": 86.0,
+   "w": 8.0,
+   "l": 8.0,
+   "h": 6.0,
+   "params": {
+    "kind": "altar",
+    "w": 8.0,
+    "h": 6.0,
+    "mat": {
+     "body": "travertine"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Sulla was cremated and buried in the Campus Martius with an unprecedented funeral in 78 BC; his epitaph, which he wrote himself, said no friend ever outdid him in kindness nor enemy in harm. Caracalla restored the tomb.",
+   "sources": [
+    {
+     "a": "Plutarch",
+     "w": "Sulla",
+     "r": "38.3-4"
+    },
+    {
+     "a": "Appian",
+     "w": "Civil Wars",
+     "r": "1.105-106"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "78.13.7"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 357"
+   ],
+   "note": "Site unknown; placed in the western Campus."
+  },
+  {
+   "id": "tomb_of_julia",
+   "monument": "tomb_of_julia",
+   "name": "Tomb of Julia, daughter of Caesar",
+   "from": -54,
+   "to": 9999,
+   "template": "tomb",
+   "loc": [
+    12.4753,
+    41.9045
+   ],
+   "rot": 176.0,
+   "w": 9.0,
+   "l": 9.0,
+   "h": 7.0,
+   "params": {
+    "kind": "drum",
+    "w": 9.0,
+    "h": 7.0,
+    "mat": {
+     "body": "travertine"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "When Julia, Caesar's daughter and Pompey's wife, died in childbirth in 54 BC, the people seized her body from the consuls and buried it in the Campus Martius. Caesar's pyre was prepared next to it in 44.",
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "39.64"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Pompey",
+     "r": "53.5"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Divus Julius",
+     "r": "84.1"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 353"
+   ],
+   "note": "Site unknown; placed in the northern Campus."
+  },
+  {
+   "id": "tomb_of_bibulus",
+   "monument": "tomb_of_bibulus",
+   "name": "Tomb of C. Poplicius Bibulus",
+   "from": -60,
+   "to": 9999,
+   "template": "tomb",
+   "loc": [
+    12.483183,
+    41.895214
+   ],
+   "rot": 266.0,
+   "w": 6.5,
+   "l": 5.0,
+   "h": 9.0,
+   "params": {
+    "kind": "aedicula",
+    "w": 6.5,
+    "h": 9.0,
+    "mat": {
+     "body": "travertine"
+    }
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "A plebeian aedile's tomb granted by the Senate on public land at the start of the Via Flaminia, at the foot of the Capitoline; its travertine facade with pilasters and inscription still stands by the Vittoriano.",
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "1319"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 352",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)"
+   ],
+   "note": "Date early to mid 1st century BC. Facade faces west onto the ancient road."
+  },
+  {
+   "id": "sepulcrum_domitiorum",
+   "monument": "sepulcrum_domitiorum",
+   "name": "Tomb of the Domitii (Nero's tomb)",
+   "from": -40,
+   "to": 9999,
+   "template": "tomb",
+   "loc": [
+    12.4769,
+    41.9112
+   ],
+   "rot": 266.0,
+   "w": 12.0,
+   "l": 12.0,
+   "h": 9.0,
+   "params": {
+    "kind": "drum",
+    "w": 12.0,
+    "h": 9.0,
+    "mat": {
+     "body": "marble_white"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "The family tomb of the Domitii Ahenobarbi on the Collis Hortulorum (Pincian), visible from the Campus; Nero's ashes were placed here in a porphyry sarcophagus with an altar of Luna marble, enclosed in Thasian marble.",
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Nero",
+     "r": "50"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 352",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Sepulcrum Domitiorum"
+   ],
+   "note": "Tradition puts it at the site of Santa Maria del Popolo, under the Pincian slope; form conjectural."
+  },
+  {
+   "id": "horti_luculliani_terraces_v1",
+   "monument": "horti_luculliani_terraces",
+   "name": "Terraces of the Gardens of Lucullus",
+   "from": -60,
+   "to": 47,
+   "builder": "lucius_licinius_lucullus",
+   "template": "compound",
+   "loc": [
+    12.4829,
+    41.907
+   ],
+   "rot": 266.0,
+   "w": 170.0,
+   "l": 130.0,
+   "h": 34.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "terrace",
+      "x": 0,
+      "y": 45.0,
+      "w": 170.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "terrace",
+      "x": 0,
+      "y": 0,
+      "w": 130.0,
+      "l": 45.0,
+      "h": 18.0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "hemicycle",
+      "x": 0,
+      "y": -30.0,
+      "radius": 40.0,
+      "depth": 40.0,
+      "angle": 180,
+      "w": 80.0,
+      "l": 40.0,
+      "h": 26.0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": -55.0,
+      "w": 30.0,
+      "l": 18.0,
+      "h": 34.0,
+      "mat": "stucco"
+     }
+    ]
+   },
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "Lucullus spent his Asian fortune on terraced gardens on the Pincian slope facing the Campus, crowned by a great exedra and nymphaeum. Later owned by Valerius Asiaticus, whom Messalina drove to suicide to seize them.",
+   "sources": [
+    {
+     "a": "Plutarch",
+     "w": "Lucullus",
+     "r": "39.2"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "11.1"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 200",
+    "Broise and Jolivet, in Cima and La Rocca (eds), Horti Romani (1998)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Horti Luculliani"
+   ],
+   "note": "Following Broise and Jolivet's reconstruction around Trinita dei Monti and Villa Medici: stepped terraces with a hemicycle (~80 m across) facing west. Dimensions approximate."
+  },
+  {
+   "id": "horti_luculliani_terraces_v2",
+   "monument": "horti_luculliani_terraces",
+   "name": "Terraces of the Gardens of Lucullus (imperial property)",
+   "from": 48,
+   "to": 9999,
+   "template": "compound",
+   "loc": [
+    12.4829,
+    41.907
+   ],
+   "rot": 266.0,
+   "w": 170.0,
+   "l": 130.0,
+   "h": 34.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "terrace",
+      "x": 0,
+      "y": 45.0,
+      "w": 170.0,
+      "l": 50.0,
+      "h": 8.0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "terrace",
+      "x": 0,
+      "y": 0,
+      "w": 130.0,
+      "l": 45.0,
+      "h": 18.0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "hemicycle",
+      "x": 0,
+      "y": -30.0,
+      "radius": 40.0,
+      "depth": 40.0,
+      "angle": 180,
+      "w": 80.0,
+      "l": 40.0,
+      "h": 26.0,
+      "mat": "concrete_faced"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "y": -55.0,
+      "w": 30.0,
+      "l": 18.0,
+      "h": 34.0,
+      "mat": "stucco"
+     }
+    ]
+   },
+   "ruin": {
+    "from": 550,
+    "state": "half"
+   },
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "Messalina was killed in these gardens in 48 after her mock marriage to Silius; the estate passed to the emperors and later to the Acilii Glabriones.",
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "11.37"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 200",
+    "Broise and Jolivet, in Cima and La Rocca (eds), Horti Romani (1998)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Horti Luculliani"
+   ]
+  },
+  {
+   "id": "mausoleum_hadrian_v1",
+   "monument": "mausoleum_of_hadrian",
+   "name": "Mausoleum of Hadrian",
+   "from": 139,
+   "to": 402,
+   "begun": 123,
+   "builder": "antoninus_pius",
+   "builderName": "Hadrian; completed by Antoninus Pius",
+   "template": "mausoleum",
+   "loc": [
+    12.466418,
+    41.90302
+   ],
+   "rot": 177.0,
+   "w": 89.0,
+   "l": 89.0,
+   "h": 48.0,
+   "params": {
+    "base": {
+     "w": 89.0,
+     "h": 15.0
+    },
+    "diameter": 64.0,
+    "drumH": 21.0,
+    "tumulusH": 10.0,
+    "tiers": 2,
+    "statue": true,
+    "quadriga": true,
+    "mat": {
+     "base": "marble_white",
+     "drum": "marble_white",
+     "core": "tufa",
+     "tumulus": "grass",
+     "statue": "gilded"
+    }
+   },
+   "importance": 5,
+   "certainty": "excavated",
+   "summary": "Hadrian's dynastic tomb across the Tiber in his family's gardens, linked to the Campus by the Pons Aelius: a square base about 89 m a side carrying a drum 64 m across and 21 m high, faced in Parian marble with statues, crowned by a smaller structure with a bronze quadriga. Completed by Antoninus Pius in 139; the emperors to Caracalla were buried in it.",
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Hadrian",
+     "r": "19.11"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "69.23.1"
+    },
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "5.22.12-15"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 249-251",
+    "Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010)",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000), s.v. Mausoleum Hadriani",
+    "Pierce, 'The Mausoleum of Hadrian and the Pons Aelius', JRS 15 (1925)"
+   ],
+   "note": "Centre fitted to the drum on satellite imagery (Castel Sant'Angelo). Entrance toward the bridge, rot 177. Upper storey reconstruction debated; total height ~48 m."
+  }
+ ]
+}
