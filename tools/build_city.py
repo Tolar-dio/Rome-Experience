@@ -273,11 +273,26 @@ def gather():
                     pass
     # coordinator patches
     for f in sorted(glob.glob(os.path.join(CONTENT, 'patches', '*.json'))):
-        P_ = json.load(open(f)).get('set', {})
+        try:
+            PD = json.load(open(f))
+        except Exception as e:
+            print('  !! bad patch', f, e); continue
+        P_ = PD.get('set', {}) or {}
+        dels = set(PD.get('delete', []) or [])
         for coll in ('buildings', 'gates', 'walls', 'streets', 'aqueducts', 'cityEvents', 'cityPlaces', 'routes'):
+            if dels:
+                C[coll] = [o for o in C[coll] if not (isinstance(o, dict) and (o.get('id') in dels or f"{o.get('id')}@{o.get('_src')}" in dels))]
             for o in C[coll]:
                 if isinstance(o, dict) and o.get('id') in P_:
                     o.update(P_[o['id']])
+            pass
+        for o in (PD.get('add', {}) or {}).get('corrections', []):
+            C['terrain'].setdefault('corrections', []).append(o)
+        for coll in ('buildings', 'gates', 'walls', 'streets', 'aqueducts', 'cityEvents', 'cityPlaces', 'routes'):
+            for o in (PD.get('add', {}) or {}).get(coll, []):
+                if isinstance(o, dict) and o.get('id'):
+                    o['_src'] = os.path.basename(f)
+                    C[coll].append(o)
     return C
 
 
@@ -287,15 +302,18 @@ if __name__ == '__main__':
     print('content:', {k: (len(v) if isinstance(v, list) else len(v.keys())) for k, v in C.items()})
     meta = {}
     if 'terrain' in stages or 'city' in stages:
-        import build_terrain
-        import pickle
-        cache = os.path.join(SRC, 'terrain_cache.pkl')
+        import build_terrain, pickle, copy
+        cache = os.path.join(SRC, 'terrain_cache2.pkl')
         if 'terrain' in stages or not os.path.exists(cache):
-            tmeta, sampler = build_terrain.build(C['terrain'])
-            pickle.dump((tmeta, sampler), open(cache, 'wb'))
+            sampler, info = build_terrain.build(C['terrain'])
+            pickle.dump((sampler, info), open(cache, 'wb'))
         else:
-            tmeta, sampler = pickle.load(open(cache, 'rb'))
-        meta['terrain'] = tmeta
+            sampler, info = pickle.load(open(cache, 'rb'))
+        meta['terrain'] = {}
     if 'city' in stages:
         import build_city_content as bcc
-        bcc.build(C, meta, sampler)
+        city = bcc.build(C, meta, sampler)
+        build_terrain.apply_pads(sampler, city['buildings'])
+        city['meta']['terrain'] = build_terrain.write(sampler, info)
+        with open(os.path.join(OUT, 'city.json'), 'w') as fh:
+            json.dump(city, fh, separators=(',', ':'), ensure_ascii=False)

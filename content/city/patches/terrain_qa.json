@@ -1,0 +1,105 @@
+{
+ "note": "Coordinator terrain fixes from QA: the TINITALY model reads the excavated Forum as 25-35 m (trees, pit walls); the research 'set' polygon covered only the piazza.",
+ "add": {
+  "corrections": [
+   {
+    "id": "forum_valley_floor_qa",
+    "name": "Forum Romanum valley floor around the piazza (QA)",
+    "mode": "set",
+    "polygon": [
+     [
+      12.484,
+      41.89235
+     ],
+     [
+      12.48405,
+      41.893
+     ],
+     [
+      12.4849,
+      41.89368
+     ],
+     [
+      12.486,
+      41.89322
+     ],
+     [
+      12.4866,
+      41.89282
+     ],
+     [
+      12.48725,
+      41.89212
+     ],
+     [
+      12.48722,
+      41.89122
+     ],
+     [
+      12.4864,
+      41.89105
+     ],
+     [
+      12.48555,
+      41.89118
+     ],
+     [
+      12.4847,
+      41.8916
+     ],
+     [
+      12.4844,
+      41.89182
+     ]
+    ],
+    "levels": [
+     {
+      "y": -1000,
+      "elev": 7.0
+     },
+     {
+      "y": -700,
+      "elev": 7.5
+     },
+     {
+      "y": -625,
+      "elev": 9.3
+     },
+     {
+      "y": -575,
+      "elev": 11.0
+     },
+     {
+      "y": -174,
+      "elev": 11.6
+     },
+     {
+      "y": -80,
+      "elev": 12.1
+     },
+     {
+      "y": -46,
+      "elev": 12.8
+     },
+     {
+      "y": -14,
+      "elev": 13.2
+     },
+     {
+      "y": 300,
+      "elev": 13.4
+     },
+     {
+      "y": 608,
+      "elev": 13.6
+     }
+    ],
+    "fromYear": -1000,
+    "toYear": 641,
+    "priority": 89,
+    "certainty": "reconstructed",
+    "note": "Extends the excavated piazza level over the surrounding valley floor so the basilicas, temples and the Atrium Vestae stand on ground rather than in the DEM's pit walls. Slightly above the piazza level, which sat lowest."
+   }
+  ]
+ }
+}

@@ -347,7 +347,9 @@ T.circus = (B, b) => {
   ellipseWall(B, 0, fC, r, r, 0, H, arcadeMat(mF), { a0: Math.PI, a1: Math.PI * 2, segs: 24, bays: Math.round(Math.PI * r / 4.8), storeyH: H / 3 });
   ellipseBand(B, 0, fC, r - seatD, r - seatD, 3, r, r, H, [mSeat[0], PAT.seats], { a0: Math.PI, a1: Math.PI * 2, segs: 24, seatV: true });
   // arena
-  prism(B, [[-W / 2 + seatD, fG - 8], [W / 2 - seatD, fG - 8], [W / 2 - seatD, fC], ...Array.from({ length: 13 }, (_, i) => { const t = Math.PI * 2 - i / 12 * Math.PI; return [Math.cos(t) * (r - seatD), fC + Math.sin(t) * (r - seatD)]; }).slice(1), [-W / 2 + seatD, fC]], 0, 0.2, mSand, { walls: false, top: mSand });
+  box(B, 0, 0, (fC + fG - 8) / 2, W - 2 * seatD, 0.25, fG - 8 - fC, mSand, { sides: [0, 0, 0, 0] });
+  cyl(B, 0, 0, fC, r - seatD, 0.25, mSand, { segs: 16, a0: Math.PI, a1: Math.PI * 2, cap: false });
+  prism(B, Array.from({ length: 17 }, (_, i) => { const t = Math.PI + i / 16 * Math.PI; return [Math.cos(t) * (r - seatD), fC + Math.sin(t) * (r - seatD)]; }), 0, 0.25, mSand, { walls: false, top: mSand });
   // spina
   const sp = p.spina || {};
   const sl = num(sp.l, L * 0.55), sw = num(sp.w, 8);
@@ -358,7 +360,7 @@ T.circus = (B, b) => {
   // carceres
   const nC = Math.round(num(p.carceres, 12));
   box(B, 0, 0, fG - 4, W, H * 0.55, 8, mF, { top: 'roof_tile' });
-  arcadeFace(B, -W / 2, fG - 8.05, W / 2, fG - 8.05, 0, H * 0.45, 1, W / nC, MAT.dark, false);
+  arcadeFace(B, -W / 2, fG - 8.05, W / 2, fG - 8.05, 0, H * 0.55, 1, W / nC, M(b, 'carceres', 'marble_white'), false);
   if (p.pulvinar) { const sx = (p.pulvinar === 'left' ? -1 : 1) * W / 2; box(B, sx, 0, sc - 20, 10, H + 6, 16, MAT.marble_white); gable(B, sx, H + 6, sc - 20, 10, 16, 2, MAT.roof_tile, { pediment: 'marble_white' }); }
 };
 function obeliskAt(B, x, f, y0, h) { box(B, x, y0, f, h * 0.14, h * 0.12, h * 0.14, MAT.granite); cyl(B, x, y0 + h * 0.12, f, h * 0.06, h, matOf([0xa58b6f, PAT.granite]), { segs: 4, r2: h * 0.038, a0: Math.PI / 4, a1: Math.PI / 4 + Math.PI * 2 }); }

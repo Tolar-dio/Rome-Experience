@@ -109,7 +109,8 @@ def dedupe(items, warn):
             fb, tb = yr(b.get('from'), YMIN), yr(b.get('to'), YMAX)
             if min(ta, tb) - max(fa, fb) < 5:
                 continue
-            same_m = a.get('monument') and a.get('monument') == b.get('monument')
+            ma, mb = a.get('monument') or a.get('id'), b.get('monument') or b.get('id')
+            same_m = ma == mb or re.sub(r'_(v\d+|\d+|[ab])$', '', str(a.get('id'))) == re.sub(r'_(v\d+|\d+|[ab])$', '', str(b.get('id')))
             na, nb = ' '.join(norm(a.get('name'))), ' '.join(norm(b.get('name')))
             sim = difflib.SequenceMatcher(None, na, nb).ratio()
             if a.get('template') == 'garden' and b.get('template') == 'garden' and not (same_m or sim > 0.88):
@@ -226,6 +227,28 @@ def build(C, meta, sampler):
             rec['ru'] = [yr(ru['from'], t), ru.get('state', 'roofless')]
         blds.append(rec)
         stash('b', rid, raw)
+
+    # version chains: a version ends the year before its successor (same monument) begins, when they overlap briefly
+    bym2 = {}
+    for r in blds:
+        bym2.setdefault(r['m'], []).append(r)
+    clipped = 0
+    for m, vs in bym2.items():
+        vs.sort(key=lambda r: (r['b'], r['f']))
+        for a, b in zip(vs[:-1], vs[1:]):
+            if a['tp'] in ('garden', 'obelisk') or b['tp'] in ('garden', 'obelisk'):
+                continue
+            ov = a['t'] - b['b'] + 1
+            if 0 < ov <= 40 and b['b'] > a['b']:
+                a['t'] = b['b'] - 1 if b['b'] - 1 != 0 else -1
+                if a['f'] > a['t']:
+                    a['f'] = a['t']
+                if a['b'] > a['f']:
+                    a['b'] = a['f']
+                clipped += 1
+            elif ov > 40:
+                warn.append(f"long overlap {a['id']} / {b['id']} ({ov} y)")
+    print('version chains clipped:', clipped)
 
     # waters as pool buildings
     for wtr in C['terrain'].get('waters', []) or []:
@@ -397,4 +420,5 @@ def build(C, meta, sampler):
         json.dump(text, fh, separators=(',', ':'), ensure_ascii=False)
     print('city:', city['meta']['counts'])
     print('warnings:', len(warn), warn[:15])
+    open(os.path.join(os.path.dirname(ROOT), 'srcdata', 'city_warnings.txt'), 'w').write('\n'.join(warn))
     return city

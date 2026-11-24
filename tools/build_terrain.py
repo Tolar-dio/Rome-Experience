@@ -234,6 +234,77 @@ class Ancient:
 def build(terr):
     A = Ancient(terr)
     snaps = [A.surface(y) for y in SNAP_YEARS]
+    river = (A.rdist < A.rwidth / 2).astype(np.uint8) * 255 if A.center else np.zeros((TN, TN), np.uint8)
+    info = {'water': [{'y': y, 'wl': round(A.water_level(y), 2)} for y in range(-509, 642, 25)], 'waterLevel': round(A.water_level(100), 2), 'river': river}
+    return Sampler(SNAP_YEARS, snaps), info
+
+
+PAD_SKIP = {'garden', 'pool', 'bridge', 'harbor', 'ship_island', 'colonnade', 'obelisk', 'column', 'statue', 'altar', 'fountain', 'tomb', 'hut'}
+
+
+def apply_pads(sampler, blds):
+    """Cut a level terrace for each building at its base height, in every snapshot from the year it was begun.
+    Ancient builders levelled or terraced their sites; without this, buildings at the foot of slopes sink into the DEM."""
+    from matplotlib.path import Path
+    gx = TX0 + np.arange(TN) * TSTEP
+    n = 0
+    for b in blds:
+        if b['tp'] in PAD_SKIP or b.get('water') or b.get('ln'):
+            continue
+        w, l = b['w'], b['l']
+        if w * l < 60 or max(w, l) > 900:
+            continue
+        t = math.radians(b['r']); c, s_ = math.cos(t), math.sin(t)
+        if b.get('fp') and len(b['fp']) >= 3:
+            poly = np.array(b['fp'], float)
+        else:
+            loc = [(-w / 2, -l / 2), (w / 2, -l / 2), (w / 2, l / 2), (-w / 2, l / 2)]
+            poly = np.array([(b['x'] + X * c + F * s_, b['z'] + X * s_ - F * c) for X, F in loc])
+        margin = min(12.0, 4 + 0.12 * min(w, l))
+        x0, z0 = poly.min(0) - margin; x1, z1 = poly.max(0) + margin
+        i0 = max(0, int((x0 - TX0) / TSTEP)); i1 = min(TN - 1, int((x1 - TX0) / TSTEP) + 1)
+        j0 = max(0, int((z0 - TZ0) / TSTEP)); j1 = min(TN - 1, int((z1 - TZ0) / TSTEP) + 1)
+        if i1 <= i0 or j1 <= j0:
+            continue
+        X, Z = np.meshgrid(gx[i0:i1 + 1], TZ0 + np.arange(j0, j1 + 1) * TSTEP)
+        inside = Path(poly).contains_points(np.c_[X.ravel(), Z.ravel()]).reshape(X.shape)
+        from scipy.ndimage import distance_transform_edt
+        d = distance_transform_edt(~inside) * TSTEP
+        wgt = np.where(inside, 1.0, np.where(d < margin, 0.5 + 0.5 * np.cos(np.pi * d / margin), 0.0))
+        target = b['y'] + 0.15
+        for k, y in enumerate(sampler.years):
+            if y < b['b'] and k + 1 < len(sampler.years) and sampler.years[k + 1] <= b['b']:
+                continue
+            if y < b['b']:
+                continue
+            H = sampler.snaps[k][j0:j1 + 1, i0:i1 + 1]
+            H -= np.maximum(0, H - target) * wgt
+        n += 1
+    print('building terraces cut:', n)
+    # between dense monuments, bring the ground down toward the surrounding building bases (streets and squares
+    # ran at the level of the buildings that lined them; the DEM between excavated monuments reads pit walls and fill)
+    from scipy.ndimage import gaussian_filter
+    for k, y in enumerate(sampler.years):
+        num = np.zeros((TN, TN), np.float32); den = np.zeros((TN, TN), np.float32)
+        for b in blds:
+            if b['tp'] in PAD_SKIP or b.get('water') or b.get('ln') or not (b['b'] <= y <= b['t']):
+                continue
+            a = min(b['w'] * b['l'], 20000)
+            if a < 60:
+                continue
+            i = int(round((b['x'] - TX0) / TSTEP)); j = int(round((b['z'] - TZ0) / TSTEP))
+            if 0 <= i < TN and 0 <= j < TN:
+                num[j, i] += a * b['y']; den[j, i] += a
+        nb = gaussian_filter(num, 6); db = gaussian_filter(den, 6)
+        field = np.where(db > 1e-3, nb / np.maximum(db, 1e-3), 0)
+        dens = np.clip(db / 25.0, 0, 1)   # ~ one 2,500 m2 building within ~50 m gives full weight
+        H = sampler.snaps[k]
+        drop = np.clip(H - (field + 1.5), 0, 10) * dens
+        H -= drop
+
+
+def write(sampler, info):
+    snaps = sampler.snaps
     base = snaps[0]
     enc = lambda H: np.clip((H + 20) * 100, 0, 65535).astype('<u2')
     enc(base).tofile(os.path.join(SRC, 'terrain_base.bin'))
@@ -253,14 +324,12 @@ def build(terr):
         f.write(bytes(blob))
     with gzip.open(os.path.join(OUT, 'terrain.bin.gz'), 'wb', 9) as f:
         f.write(enc(base).tobytes())
-    river = (A.rdist < A.rwidth / 2).astype(np.uint8) * 255 if A.center else np.zeros((TN, TN), np.uint8)
-    river.tofile(os.path.join(SRC, 'river.bin'))
-    wl = [{'y': y, 'wl': round(A.water_level(y), 2)} for y in range(-509, 642, 25)]
+    info['river'].tofile(os.path.join(SRC, 'river.bin'))
     meta = {'n': TN, 'x0': TX0, 'z0': TZ0, 'size': TSIZE, 'step': TSTEP, 'enc': 'u16 (h+20)*100', 'tile': TILE,
-            'snapYears': SNAP_YEARS, 'snaps': smeta, 'snapEnc': 'i2 cm delta vs base', 'water': wl, 'waterLevel': round(A.water_level(100), 2), 'layers': [],
-            'dem': 'TINITALY 1.1 (INGV, CC BY 4.0) with research corrections'}
+            'snapYears': SNAP_YEARS, 'snaps': smeta, 'snapEnc': 'i2 cm delta vs base', 'water': info['water'], 'waterLevel': info['waterLevel'], 'layers': [],
+            'dem': 'TINITALY 1.1 (INGV, CC BY 4.0) with research corrections and building terraces'}
     print('terrain snapshots', len(SNAP_YEARS), 'tile bytes', len(blob))
-    return meta, Sampler(SNAP_YEARS, snaps)
+    return meta
 
 
 class Sampler:

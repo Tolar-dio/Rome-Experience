@@ -138,6 +138,7 @@ function cityMonLink(m) {
   if (exists(m) && lookup(m)?.kind === 'monument') return link(m, null, 'monument');
   const vs = D.cityByMonument?.get(m);
   if (vs?.length) return link(vs[vs.length - 1].id, vs[vs.length - 1].n, 'building');
+  for (const k of ['gate', 'wall', 'aqueduct', 'street']) if (D.byKind[k]?.has(m)) return link(m, D.byKind[k].get(m).n, k);
   return esc(m.replace(/_/g, ' '));
 }
 function cityBuilding(b) {
@@ -168,7 +169,9 @@ function cityLine(kind, k, o, sub, extra) {
   const t = ctext(k, o.id);
   let html = head('Rome · ' + kind, o.n || o.id, esc([sub, fmtRange(o.f, o.t > 2000 ? 641 : o.t), extra].filter(Boolean).join(' · ')));
   html += `<div class="d-body">${t.summary ? `<p class="summary">${richText(t.summary, exists)}</p>` : ''}${t.modern ? `<p class="meta">Modern course: ${esc(t.modern)}</p>` : ''}`;
-  if (t.phases?.length) html += `<h4>History</h4><dl class="kv">${t.phases.map((ph) => `<dt><a class="ent" data-action="year" data-y="${ph.y}">${esc(fmtYear(ph.y))}</a></dt><dd>${richText(ph.t, exists)}</dd>`).join('')}</dl>`;
+  if (t.phases?.length) html += `<h4>History</h4><dl class="kv">${t.phases.filter((ph) => ph.t).map((ph) => `<dt><a class="ent" data-action="year" data-y="${ph.y}">${esc(fmtYear(ph.y))}</a></dt><dd>${richText(ph.t, exists)}</dd>`).join('')}</dl>`;
+  const evs = D.cityEventsByMonument?.get(o.id) || [];
+  if (evs.length) html += `<h4>What happened here</h4><ul class="rows">${evs.map((e) => `<li class="row" data-id="${esc(e.id)}" data-kind="cityevent"><div class="when">${esc(fmtYear(e.y))}</div><div class="what"><div class="ttl">${esc(e.ti)}</div></div></li>`).join('')}</ul>`;
   if (t.note) html += `<p class="muted">${richText(t.note, exists)}</p>`;
   return html + sourcesBlock(t.sources, t.scholarship) + '</div>';
 }
