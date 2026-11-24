@@ -222,7 +222,7 @@ class Ancient:
                 inside &= ~self.isl_mask
             from scipy.ndimage import distance_transform_edt
             dout = distance_transform_edt(~inside) * TSTEP
-            bankw = 30.0
+            bankw = 70.0
             t = np.clip(dout / bankw, 0, 1)
             bank = wl + 1.2 + (np.maximum(H, wl + 1.6) - wl - 1.2) * (t * t * (3 - 2 * t))
             H = np.where(inside, np.minimum(H, bed), np.where(dout < bankw, np.minimum(H, bank), H))
