@@ -40,6 +40,13 @@ async function boot() {
   on('year', renderYearplate);
   on('mapStats', renderLegend);
   map.on('moveend', () => renderLegend());
+  // offer the 3D city when the map is zoomed into Rome
+  const here = document.createElement('button');
+  here.className = 'enter3d-here'; here.hidden = true; here.textContent = 'See this in 3D';
+  document.querySelector('.stage').appendChild(here);
+  const check3d = () => { const c = map.getCenter(); here.hidden = !(map.getZoom() >= 12 && c.lng > 12.43 && c.lng < 12.542 && c.lat > 41.85 && c.lat < 41.935); };
+  map.on('moveend', check3d);
+  here.onclick = () => { const c = map.getCenter(); import('./city/mount.js').then(async (m) => { await m.openCity(); const PHI = 41.8925 * Math.PI / 180; const x = (c.lng - 12.4853) * (111412.84 * Math.cos(PHI) - 93.5 * Math.cos(3 * PHI)); const z = -(c.lat - 41.8925) * (111132.92 - 559.82 * Math.cos(2 * PHI)); m.focusOn({ x, z, d: Math.max(250, 9000 / Math.pow(2, map.getZoom() - 11)) }); }); };
   renderYearplate();
 }
 

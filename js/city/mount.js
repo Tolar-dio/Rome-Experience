@@ -123,28 +123,30 @@ function renderToolbar() {
     <button class="chip" data-a="exit" title="Back to the atlas map">Atlas map</button>
     <select class="chip" data-a="view" aria-label="Viewpoints"><option value="">Go to…</option>${VIEWS.map((v) => `<option value="${v.id}">${esc(v.n)}</option>`).join('')}</select>
     <select class="chip" data-a="tour" aria-label="Tours"><option value="">Tours…</option>${(c.city.tours || []).map((t) => `<option value="${esc(t.id)}">${esc(t.title)} (${esc(t.sub || '')})</option>`).join('')}</select>
-    <button class="chip" data-a="prevch" title="Jump back to the previous year when a major building began, was finished or disappeared">‹ change</button><button class="chip" data-a="nextch" title="Jump to the next year when a major building began, was finished or disappeared">change ›</button>
+    <span class="seg"><button class="chip" data-a="prevch" title="Previous year when a major building began, was finished or disappeared, or something happened">‹</button><span class="seg-l">change</span><button class="chip" data-a="nextch" title="Next year when a major building began, was finished or disappeared, or something happened">›</button></span>
     <button class="chip ${c.walk ? 'on' : ''}" data-a="walk" title="Walk at street level (WASD or arrows, drag to look, Shift to run, Esc to stop)">Walk</button>
-    <span class="c3d-sep"></span>
-    <button class="chip ${L.labels ? 'on' : ''}" data-l="labels">Names</button>
-    <button class="chip ${L.events ? 'on' : ''}" data-l="events">Events</button>
-    <select class="chip" data-a="win" aria-label="Event window" title="Which events to pin"><option value="0" ${c.eventWindow === 0 ? 'selected' : ''}>this year</option><option value="5" ${c.eventWindow === 5 ? 'selected' : ''}>±5 years</option><option value="25" ${c.eventWindow === 25 ? 'selected' : ''}>±25 years</option><option value="100" ${c.eventWindow === 100 ? 'selected' : ''}>±100 years</option></select>
-    <button class="chip ${L.places ? 'on' : ''}" data-l="places">Daily life</button>
-    <button class="chip ${L.fabric ? 'on' : ''}" data-l="fabric" title="Generated housing">Housing</button>
-    <button class="chip ${L.shadows ? 'on' : ''}" data-l="shadows">Shadows</button>
-    <label class="c3d-sun" title="Time of day">☀ <input type="range" min="6" max="19.5" step="0.25" value="${c.sunHour}" data-a="sun" aria-label="Time of day"></label>`;
+    <span class="c3d-show"><button class="chip" data-a="show" aria-expanded="false">Show</button><div class="c3d-pop" hidden>
+      <label><input type="checkbox" data-l="labels" ${L.labels ? 'checked' : ''}> Building names</label>
+      <label><input type="checkbox" data-l="events" ${L.events ? 'checked' : ''}> Events pinned to the spot</label>
+      <label class="sub">window <select data-a="win"><option value="0" ${c.eventWindow === 0 ? 'selected' : ''}>this year</option><option value="5" ${c.eventWindow === 5 ? 'selected' : ''}>±5 years</option><option value="25" ${c.eventWindow === 25 ? 'selected' : ''}>±25 years</option><option value="100" ${c.eventWindow === 100 ? 'selected' : ''}>±100 years</option></select></label>
+      <label><input type="checkbox" data-l="places" ${L.places ? 'checked' : ''}> Daily life: shops, baths, stations, houses</label>
+      <label><input type="checkbox" data-l="fabric" ${L.fabric ? 'checked' : ''}> Ordinary housing (generated)</label>
+      <label><input type="checkbox" data-l="shadows" ${L.shadows ? 'checked' : ''}> Shadows</label>
+      <label class="sun">Time of day <input type="range" min="6" max="19.5" step="0.25" value="${c.sunHour}" data-a="sun" aria-label="Time of day"></label>
+    </div></span>`;
   tb.onclick = (e) => {
     const b = e.target.closest('button'); if (!b) return;
     if (b.dataset.a === 'exit') closeCity();
     else if (b.dataset.a === 'nextch' || b.dataset.a === 'prevch') jumpChange(b.dataset.a === 'nextch' ? 1 : -1);
     else if (b.dataset.a === 'walk') { c.setWalk(!c.walk); renderToolbar(); $('c3dHint').hidden = !c.walk; }
-    else if (b.dataset.l) { c.setLayer(b.dataset.l, !c.layers[b.dataset.l]); renderToolbar(); }
+    else if (b.dataset.a === 'show') { const pop = tb.querySelector('.c3d-pop'); pop.hidden = !pop.hidden; b.setAttribute('aria-expanded', String(!pop.hidden)); }
   };
   tb.onchange = (e) => {
     const t = e.target;
     if (t.dataset.a === 'view' && t.value) { focusOn(t.value); t.value = ''; }
     if (t.dataset.a === 'tour' && t.value) { startCityTour(t.value); t.value = ''; }
     if (t.dataset.a === 'win') { c.eventWindow = +t.value; c.refreshLabels = true; c.dirty = true; }
+    if (t.dataset.l) c.setLayer(t.dataset.l, t.checked);
   };
   tb.oninput = (e) => { if (e.target.dataset.a === 'sun') c.setSun(+e.target.value); };
 }

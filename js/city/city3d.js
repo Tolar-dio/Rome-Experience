@@ -453,10 +453,13 @@ export class City3D {
     const camPos = cam.position;
     const boxes = [];
     const sorted = this.labelItems.slice().sort((a, b) => b.imp - a.imp);
+    let shown = 0;
+    const cap = this.walk ? 10 : 22;
     for (const it of sorted) {
+      if (shown >= cap && it.type !== 'event') { it.el.style.display = 'none'; continue; }
       v.set(it.x, it.yy, it.z);
       const dist = camPos.distanceTo(v);
-      const maxD = it.type === 'event' ? 6000 : it.type === 'hill' ? 9000 : it.imp >= 5 ? 4200 : it.imp >= 4 ? 2600 : it.imp >= 3 ? 1300 : 650;
+      const maxD = it.type === 'event' ? 6000 : it.type === 'hill' ? 9000 : it.type === 'place' ? 400 : it.imp >= 5 ? 4200 : it.imp >= 4 ? 1800 : it.imp >= 3 ? 700 : it.imp >= 2 ? 320 : 160;
       v.project(cam);
       if (v.z > 1 || dist > maxD || Math.abs(v.x) > 1.1 || Math.abs(v.y) > 1.1) { it.el.style.display = 'none'; continue; }
       const sx = (v.x + 1) / 2 * w, sy = (1 - v.y) / 2 * h;
@@ -464,6 +467,7 @@ export class City3D {
       const bx = { x0: sx - bw / 2, x1: sx + bw / 2, y0: sy - bh, y1: sy };
       if (it.type !== 'event' && boxes.some((o) => !(bx.x1 < o.x0 || bx.x0 > o.x1 || bx.y1 < o.y0 || bx.y0 > o.y1))) { it.el.style.display = 'none'; continue; }
       boxes.push(bx);
+      shown++;
       it.el.style.display = '';
       it.el.style.transform = `translate(${sx.toFixed(1)}px, ${sy.toFixed(1)}px) translate(-50%, -100%)`;
     }

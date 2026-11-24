@@ -399,3 +399,15 @@ a { color: var(--porphyry); }
 .c3d-tour .ct-nav button.primary { background: var(--ink); color: #F4EFE6; border-color: var(--ink); }
 .c3d-tour .ct-nav button:disabled { opacity: .4; cursor: default; }
 @media (max-width: 760px) { .c3d-tour { width: calc(100% - 16px); bottom: 54px; } }
+.enter3d-here { position: absolute; top: 12px; left: 50%; transform: translateX(-50%); z-index: 6; background: var(--porphyry); color: #F4EFE6; border: 0; border-radius: 18px; padding: 7px 16px; font-family: var(--ui); font-weight: 600; font-size: 13px; box-shadow: 0 6px 18px rgba(10,20,30,.3); cursor: pointer; }
+.enter3d-here[hidden] { display: none; }
+#app.city-mode .enter3d-here { display: none; }
+.c3d-bar .seg { display: inline-flex; align-items: center; background: rgba(242,241,237,.93); border-radius: 18px; box-shadow: 0 3px 10px rgba(10,20,30,.18); }
+.c3d-bar .seg .chip { box-shadow: none; border: 0; background: transparent; padding: 4px 10px; font-size: 15px; line-height: 1; }
+.c3d-bar .seg .seg-l { font-family: var(--ui); font-size: 12px; color: var(--ink-3); }
+.c3d-show { position: relative; }
+.c3d-pop { position: absolute; right: 0; top: calc(100% + 6px); background: rgba(242,241,237,.98); border-radius: var(--radius-m); box-shadow: 0 8px 24px rgba(10,20,30,.28); padding: 10px 12px; width: 280px; font-family: var(--ui); font-size: 13px; display: grid; gap: 7px; z-index: 9; }
+.c3d-pop[hidden] { display: none; }
+.c3d-pop label { display: flex; align-items: center; gap: 7px; }
+.c3d-pop label.sub { padding-left: 22px; color: var(--ink-3); }
+.c3d-pop label.sun input { flex: 1; accent-color: var(--gilt); }
