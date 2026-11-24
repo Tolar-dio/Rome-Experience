@@ -741,7 +741,7 @@
     "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000)",
     "Albertson, 'Zenodorus's Colossus of Nero', MAAR 46 (2001)"
    ],
-   "note": "Placed in the centre of the vestibule court, under the later Temple of Venus and Roma."
+   "note": "Placed in the centre of the vestibule court (district A record domus_aurea_vestibule), under the later Temple of Venus and Roma."
   },
   {
    "id": "colossus_neronis_v2",
@@ -1426,11 +1426,6 @@
      "a": "Notitia",
      "w": "Regio III",
      "r": "summum choragium"
-    },
-    {
-     "a": "CIL",
-     "w": "VI",
-     "r": "776"
     }
    ],
    "scholarship": [
@@ -1659,7 +1654,7 @@
   },
   {
    "id": "domus_transitoria_link",
-   "monument": "domus_transitoria",
+   "monument": "domus_transitoria_galleries",
    "name": "Domus Transitoria (Palatine-Esquiline galleries)",
    "from": 60,
    "to": 64,
@@ -1723,7 +1718,7 @@
     "Ball, The Domus Aurea and the Roman Architectural Revolution (2003)",
     "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)"
    ],
-   "note": "Line entirely conjectural, from the NE corner of the Palatine across the valley and up the Oppius to the gardens."
+   "note": "Line entirely conjectural, from the NE corner of the Palatine across the valley and up the Oppius to the gardens. The Palatine part (domus_transitoria) is modelled by district A."
   },
   {
    "id": "domus_aurea_oppian_wing",
@@ -2059,75 +2054,6 @@
    "note": "Shape idealised as an ellipse slightly larger than the Colosseum ring."
   },
   {
-   "id": "domus_aurea_vestibulum",
-   "monument": "domus_aurea_vestibulum",
-   "name": "Vestibule of the Domus Aurea (Velia)",
-   "from": 68,
-   "to": 79,
-   "begun": 64,
-   "builder": "nero",
-   "template": "porticus",
-   "loc": [
-    12.489665,
-    41.890858
-   ],
-   "rot": 257,
-   "w": 100.0,
-   "l": 145.0,
-   "h": 12.0,
-   "footprint": [
-    [
-     12.490653,
-     41.890566
-    ],
-    [
-     12.490382,
-     41.891444
-    ],
-    [
-     12.488677,
-     41.89115
-    ],
-    [
-     12.488948,
-     41.890272
-    ],
-    [
-     12.490653,
-     41.890566
-    ]
-   ],
-   "params": {
-    "depth": 9.0,
-    "colH": 9.5,
-    "double": true,
-    "garden": false,
-    "triple": "porticus triplex a mile long (Suetonius)"
-   },
-   "importance": 4,
-   "certainty": "reconstructed",
-   "summary": "The monumental entrance court of the Golden House on the Velia, on the axis of the Sacra Via from the Forum, framed by colonnades and centred on the colossal statue of Nero. The Flavians dismantled it; Hadrian built the Temple of Venus and Roma on its platform.",
-   "phases": [],
-   "sources": [
-    {
-     "a": "Suetonius",
-     "w": "Nero",
-     "r": "31.1"
-    },
-    {
-     "a": "Martial",
-     "w": "Liber spectaculorum",
-     "r": "2.3-4"
-    }
-   ],
-   "scholarship": [
-    "Ball, The Domus Aurea and the Roman Architectural Revolution (2003)",
-    "Rea (ed.), Rota Colisei: la valle del Colosseo attraverso i secoli (2002)",
-    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)"
-   ],
-   "note": "Outline taken as the later Venus and Roma platform (about 145 x 100 m), entrance facing WSW down the Sacra Via (rot 257)."
-  },
-  {
    "id": "nymphaeum_via_annibaldi",
    "monument": "nymphaeum_via_annibaldi",
    "name": "Nymphaeum of Via degli Annibaldi",
@@ -2393,173 +2319,6 @@
     "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)"
    ],
    "note": "Outer ellipse = building plus 17.5 m on each side."
-  },
-  {
-   "id": "curiae_veteres_v1",
-   "monument": "curiae_veteres",
-   "name": "Curiae Veteres (archaic-Republican)",
-   "from": -509,
-   "to": -11,
-   "builder": null,
-   "template": "compound",
-   "loc": [
-    12.4899,
-    41.88985
-   ],
-   "rot": 45,
-   "w": 30.0,
-   "l": 20.0,
-   "h": 7.0,
-   "footprint": [
-    [
-     12.489687,
-     41.889882
-    ],
-    [
-     12.489943,
-     41.889691
-    ],
-    [
-     12.490113,
-     41.889818
-    ],
-    [
-     12.489857,
-     41.890009
-    ],
-    [
-     12.489687,
-     41.889882
-    ]
-   ],
-   "params": {
-    "blocks": [
-     {
-      "shape": "court",
-      "x": 0,
-      "y": 0,
-      "w": 30.0,
-      "l": 20.0,
-      "h": 6.0,
-      "mat": "tufa",
-      "ringDepth": 5.0
-     },
-     {
-      "shape": "box",
-      "x": 0,
-      "y": -6,
-      "w": 8.0,
-      "l": 6.0,
-      "h": 7.0,
-      "mat": "tufa"
-     }
-    ]
-   },
-   "importance": 2,
-   "certainty": "excavated",
-   "summary": "The old meeting houses of the thirty curiae, traditionally founded by Romulus at the NE corner of the Palatine; excavated by Panella's team beside the Meta Sudans, with phases from the 6th century BC.",
-   "phases": [],
-   "sources": [
-    {
-     "a": "Varro",
-     "w": "De lingua Latina",
-     "r": "5.155"
-    },
-    {
-     "a": "Tacitus",
-     "w": "Annales",
-     "r": "12.24"
-    }
-   ],
-   "scholarship": [
-    "Panella (ed.), Meta Sudans I (1996)",
-    "Carandini (ed.), The Atlas of Ancient Rome (2017)"
-   ],
-   "note": "At the junction of the Palatine and the Colosseum valley (boundary with district A). Plan schematic."
-  },
-  {
-   "id": "curiae_veteres_v2",
-   "monument": "curiae_veteres",
-   "name": "Curiae Veteres (Augustan rebuilding)",
-   "from": -10,
-   "to": 64,
-   "begun": -15,
-   "builder": "augustus",
-   "template": "compound",
-   "loc": [
-    12.4899,
-    41.88985
-   ],
-   "rot": 45,
-   "w": 30.0,
-   "l": 20.0,
-   "h": 7.0,
-   "footprint": [
-    [
-     12.489687,
-     41.889882
-    ],
-    [
-     12.489943,
-     41.889691
-    ],
-    [
-     12.490113,
-     41.889818
-    ],
-    [
-     12.489857,
-     41.890009
-    ],
-    [
-     12.489687,
-     41.889882
-    ]
-   ],
-   "params": {
-    "blocks": [
-     {
-      "shape": "court",
-      "x": 0,
-      "y": 0,
-      "w": 30.0,
-      "l": 20.0,
-      "h": 6.0,
-      "mat": "reticulate",
-      "ringDepth": 5.0
-     },
-     {
-      "shape": "box",
-      "x": 0,
-      "y": -6,
-      "w": 8.0,
-      "l": 6.0,
-      "h": 7.0,
-      "mat": "tufa"
-     }
-    ]
-   },
-   "importance": 2,
-   "certainty": "excavated",
-   "summary": "Rebuilt under Augustus, as an inscription of the curiae attests, and destroyed in the fire of 64; the site was then covered by the Neronian and Flavian works of the valley.",
-   "phases": [],
-   "sources": [
-    {
-     "a": "Varro",
-     "w": "De lingua Latina",
-     "r": "5.155"
-    },
-    {
-     "a": "Tacitus",
-     "w": "Annales",
-     "r": "12.24"
-    }
-   ],
-   "scholarship": [
-    "Panella (ed.), Meta Sudans I (1996)",
-    "Carandini (ed.), The Atlas of Ancient Rome (2017)"
-   ],
-   "note": "At the junction of the Palatine and the Colosseum valley (boundary with district A). Plan schematic."
   },
   {
    "id": "baths_of_titus_v1",
@@ -3504,7 +3263,7 @@
    "rot": 265,
    "w": 180.0,
    "l": 200.0,
-   "h": 8.0,
+   "h": 3.0,
    "footprint": [
     [
      12.494297,
@@ -3529,6 +3288,8 @@
    ],
    "params": {
     "facade": "arcade",
+    "retainingH": 12.0,
+    "top": "level with the natural top of the Caelian; retaining walls rise 10-15 m above the valley on the N and W",
     "arcades": "two storeys of rusticated travertine arcades on the W side (visible under SS. Giovanni e Paolo)",
     "mat": {
      "facade": "travertine",
@@ -3589,7 +3350,7 @@
     {
      "a": "Frontinus",
      "w": "De aquaeductu",
-     "r": "2.76"
+     "r": "1.20"
     }
    ],
    "scholarship": [

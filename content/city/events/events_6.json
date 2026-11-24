@@ -1,0 +1,2966 @@
+{
+ "cityEvents": [
+  {
+   "id": "ransom_statues_melted_408",
+   "year": 408,
+   "month": 12,
+   "title": "Alaric's ransom: statues melted, including Virtue",
+   "summary": "To pay Alaric 5000 pounds of gold and 30,000 of silver, the senate stripped temple statues of their ornaments and melted some down, among them Virtus; Zosimus says courage died in Rome with it.",
+   "loc": [
+    12.482013,
+    41.892252
+   ],
+   "locName": "temple statues of the city (unspecified)",
+   "precision": "approx",
+   "monument": "area_capitolina",
+   "event": "siege_of_rome_408",
+   "people": [
+    "alaric_i",
+    "honorius"
+   ],
+   "cats": [
+    "military",
+    "religious"
+   ],
+   "sources": [
+    {
+     "a": "Zosimus",
+     "w": "New History",
+     "r": "5.41.6-7"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "basilica_aemilia_burned_410",
+   "year": 410,
+   "month": 8,
+   "title": "The Basilica Aemilia burns; coins fused to the floor",
+   "summary": "The basilica on the Forum was burned in the sack; bronze coins dropped by money-changers melted into its marble pavement, where green stains still show, and the hall was never rebuilt.",
+   "loc": [
+    12.486082,
+    41.892625
+   ],
+   "locName": "the pavement of the Basilica Aemilia",
+   "precision": "building",
+   "monument": "basilica_aemilia",
+   "event": "sack_of_rome_410",
+   "people": [
+    "alaric_i"
+   ],
+   "cats": [
+    "military",
+    "disaster",
+    "daily"
+   ],
+   "sources": [],
+   "certainty": "reconstructed",
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": "Evidence archaeological (fused coins of the early 5th century); the 410 date is the accepted interpretation."
+  },
+  {
+   "id": "marcella_beaten_aventine_410",
+   "year": 410,
+   "month": 8,
+   "title": "Marcella beaten by the Goths on the Aventine",
+   "summary": "Goths burst into Marcella's house on the Aventine demanding gold; she showed her coarse tunic, was beaten, and begged only that her ward Principia be spared. They escorted both to the basilica of St Paul, where she died soon after.",
+   "loc": [
+    12.4815,
+    41.884
+   ],
+   "locName": "Marcella's house on the Aventine",
+   "precision": "area",
+   "monument": null,
+   "event": "sack_of_rome_410",
+   "people": [
+    "jerome",
+    "alaric_i"
+   ],
+   "cats": [
+    "military",
+    "violence",
+    "christian"
+   ],
+   "sources": [
+    {
+     "a": "Jerome",
+     "w": "Letters",
+     "r": "127.13-14"
+    }
+   ],
+   "certainty": "reconstructed"
+  },
+  {
+   "id": "vessels_procession_st_peters_410",
+   "year": 410,
+   "month": 8,
+   "title": "Goths escort St Peter's treasure to the basilica",
+   "summary": "A Goth found an elderly virgin guarding gold vessels belonging to St Peter; Alaric ordered them carried to the basilica, and Romans and Goths together sang hymns along the route under drawn swords.",
+   "loc": [
+    12.453942,
+    41.902155
+   ],
+   "locName": "the procession to Old St Peter's",
+   "precision": "building",
+   "monument": "old_st_peters",
+   "event": "sack_of_rome_410",
+   "people": [
+    "alaric_i",
+    "orosius"
+   ],
+   "cats": [
+    "christian",
+    "military"
+   ],
+   "sources": [
+    {
+     "a": "Orosius",
+     "w": "Histories against the Pagans",
+     "r": "7.39.3-14"
+    },
+    {
+     "a": "Augustine",
+     "w": "City of God",
+     "r": "1.1"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "alaric_porta_salaria_410",
+   "year": 410,
+   "month": 8,
+   "day": 24,
+   "title": "The Goths enter by the Porta Salaria",
+   "summary": "On the night of 24 August Alaric's Goths entered Rome through the Porta Salaria, opened, as later told, by treachery or by the slaves of Proba; for three days they sacked the city, the first time in 800 years an enemy had taken it.",
+   "loc": [
+    12.498138,
+    41.91077
+   ],
+   "locName": "the Porta Salaria in the Aurelian Wall",
+   "precision": "exact",
+   "monument": "porta_salaria",
+   "event": "sack_of_rome_410",
+   "people": [
+    "alaric_i",
+    "honorius",
+    "galla_placidia"
+   ],
+   "cats": [
+    "military",
+    "violence"
+   ],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "3.2.14-27"
+    },
+    {
+     "a": "Orosius",
+     "w": "Histories against the Pagans",
+     "r": "7.39-40"
+    },
+    {
+     "a": "Jordanes",
+     "w": "Getica",
+     "r": "156"
+    },
+    {
+     "a": "Marcellinus Comes",
+     "w": "Chronicle",
+     "r": "410"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "horti_sallustiani_burned_410",
+   "year": 410,
+   "month": 8,
+   "day": 24,
+   "title": "The house of Sallust set on fire",
+   "summary": "Procopius says the Goths burned the houses next to the gate, including the house of Sallust in the gardens near the Porta Salaria, which was still standing half-burned in his own day.",
+   "loc": [
+    12.4953,
+    41.9066
+   ],
+   "locName": "the palace in the Horti Sallustiani by the Porta Salaria",
+   "precision": "building",
+   "monument": "horti_sallustiani",
+   "event": "sack_of_rome_410",
+   "people": [
+    "alaric_i"
+   ],
+   "cats": [
+    "military",
+    "disaster"
+   ],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "3.2.24"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "eulalius_boniface_lateran_419",
+   "year": 419,
+   "month": 3,
+   "title": "Rival popes: Eulalius holds the Lateran at Easter",
+   "summary": "After the double election of December 418, Eulalius seized the Lateran to celebrate Easter, against the emperor's order; troops expelled him and Boniface was recognised.",
+   "loc": [
+    12.505899,
+    41.885798
+   ],
+   "locName": "the Lateran basilica",
+   "precision": "building",
+   "monument": "lateran_basilica",
+   "event": null,
+   "people": [
+    "honorius",
+    "galla_placidia"
+   ],
+   "cats": [
+    "christian",
+    "political"
+   ],
+   "sources": [
+    {
+     "a": "Collectio Avellana",
+     "w": "letter",
+     "r": "14-35"
+    },
+    {
+     "a": "Liber Pontificalis",
+     "w": "Life",
+     "r": "Boniface I"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "santa_sabina_built",
+   "year": 432,
+   "title": "Santa Sabina built on the Aventine",
+   "summary": "Under Celestine I the Illyrian priest Peter built the basilica of S. Sabina, recorded in its mosaic dedication; its cypress doors carry one of the earliest crucifixion images.",
+   "loc": [
+    12.479777,
+    41.884503
+   ],
+   "locName": "S. Sabina on the Aventine",
+   "precision": "building",
+   "monument": "santa_sabina",
+   "event": null,
+   "people": [],
+   "cats": [
+    "christian",
+    "construction"
+   ],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "Life",
+     "r": "Celestine"
+    }
+   ],
+   "certainty": "documented",
+   "note": "Built 422-432."
+  },
+  {
+   "id": "santa_maria_maggiore_sixtus_432",
+   "year": 432,
+   "title": "Sixtus III builds Santa Maria Maggiore",
+   "summary": "After the Council of Ephesus, Pope Sixtus III built the great basilica of the Mother of God on the Esquiline, its arch inscribed 'Xystus episcopus plebi Dei'.",
+   "loc": [
+    12.498438,
+    41.897613
+   ],
+   "locName": "S. Maria Maggiore on the Esquiline",
+   "precision": "building",
+   "monument": "santa_maria_maggiore",
+   "event": null,
+   "people": [],
+   "cats": [
+    "christian",
+    "construction"
+   ],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "Life",
+     "r": "Sixtus III"
+    }
+   ],
+   "certainty": "documented",
+   "note": "432-440."
+  },
+  {
+   "id": "earthquake_443",
+   "year": 443,
+   "title": "Earthquake in Rome",
+   "summary": "An earthquake struck Rome, bringing down statues and porticoes; the Colosseum was damaged in this or later quakes.",
+   "loc": [
+    12.492231,
+    41.89021
+   ],
+   "locName": "the city (damage to statues and porticoes)",
+   "precision": "approx",
+   "monument": "colosseum",
+   "event": null,
+   "people": [
+    "valentinian_iii"
+   ],
+   "cats": [
+    "disaster"
+   ],
+   "sources": [
+    {
+     "a": "Paul the Deacon",
+     "w": "Historia Romana",
+     "r": "13.16"
+    }
+   ],
+   "certainty": "conjectural",
+   "note": "Date and attribution uncertain; damage to the Colosseum at this time is linked by geologists to the Monte Vettore fault (Galli et al., 2019). Marker at the Colosseum as the best-attested damaged building."
+  },
+  {
+   "id": "leo_sermon_sun_steps",
+   "year": 451,
+   "month": 12,
+   "day": 25,
+   "title": "Leo rebukes Romans who bow to the sun on St Peter's steps",
+   "summary": "Preaching at Christmas, Pope Leo complained that some Christians, after climbing the steps of St Peter's, turned round and bowed to the rising sun before entering.",
+   "loc": [
+    12.455,
+    41.90215
+   ],
+   "locName": "the steps of Old St Peter's",
+   "precision": "building",
+   "monument": "old_st_peters",
+   "event": null,
+   "people": [
+    "pope_leo_i"
+   ],
+   "cats": [
+    "christian",
+    "religious",
+    "daily"
+   ],
+   "sources": [
+    {
+     "a": "Leo the Great",
+     "w": "Sermons",
+     "r": "27.4"
+    }
+   ],
+   "certainty": "documented",
+   "note": "Sermon datable to Leo's pontificate (440-461); year representative."
+  },
+  {
+   "id": "valentinian_iii_killed_campus_455",
+   "year": 455,
+   "month": 3,
+   "day": 16,
+   "title": "Valentinian III killed in the Campus Martius",
+   "summary": "Watching athletes in the Campus Martius, Valentinian was struck down by Optila and Thraustila, guardsmen of the murdered Aetius, at the instigation of Petronius Maximus. The western Theodosian dynasty ended.",
+   "loc": [
+    12.4755,
+    41.9015
+   ],
+   "locName": "the Campus Martius (some sources: 'ad duas lauros' on the Via Labicana)",
+   "precision": "approx",
+   "monument": null,
+   "event": "assassination_of_valentinian_iii_455",
+   "people": [
+    "valentinian_iii",
+    "petronius_maximus",
+    "aetius"
+   ],
+   "cats": [
+    "violence",
+    "political"
+   ],
+   "sources": [
+    {
+     "a": "Prosper of Aquitaine",
+     "w": "Epitoma Chronicon",
+     "r": "1375"
+    },
+    {
+     "a": "Marcellinus Comes",
+     "w": "Chronicle",
+     "r": "455"
+    },
+    {
+     "a": "John of Antioch",
+     "w": "Fragments",
+     "r": "fr 201"
+    }
+   ],
+   "certainty": "reconstructed"
+  },
+  {
+   "id": "vandals_strip_capitol_455",
+   "year": 455,
+   "month": 6,
+   "title": "Vandals strip the gilded roof of the Capitoline temple",
+   "summary": "In fourteen days of methodical plunder the Vandals loaded their ships with the palace treasures and took half the gilded bronze roof tiles of the Temple of Jupiter Capitolinus.",
+   "loc": [
+    12.48195,
+    41.89235
+   ],
+   "locName": "the roof of the Temple of Jupiter Optimus Maximus",
+   "precision": "building",
+   "monument": "temple_of_jupiter_optimus_maximus",
+   "event": "vandal_sack_of_rome_455",
+   "people": [
+    "gaiseric",
+    "licinia_eudoxia"
+   ],
+   "cats": [
+    "military"
+   ],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "3.5.3-5"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "vandals_take_temple_treasure_455",
+   "year": 455,
+   "month": 6,
+   "title": "The Jerusalem Temple treasure carried to Carthage",
+   "summary": "Among the loot were the vessels of the Jerusalem Temple displayed by Vespasian in the Temple of Peace and kept in the palace; Belisarius brought them back from Carthage in 534.",
+   "loc": [
+    12.487357,
+    41.892733
+   ],
+   "locName": "the Templum Pacis / palace treasury",
+   "precision": "building",
+   "monument": "templum_pacis",
+   "event": "vandal_sack_of_rome_455",
+   "people": [
+    "gaiseric",
+    "belisarius"
+   ],
+   "cats": [
+    "military",
+    "religious"
+   ],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "4.9.5-9"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "leo_meets_gaiseric_455",
+   "year": 455,
+   "month": 6,
+   "day": 2,
+   "title": "Pope Leo meets Gaiseric at the gates",
+   "summary": "Three days after Petronius Maximus was stoned to death fleeing the city, the Vandals arrived; Leo went out to Gaiseric and obtained that there would be no burning, killing or torture, only plunder.",
+   "loc": [
+    12.46995,
+    41.8807
+   ],
+   "locName": "outside the gates (traditionally the Porta Portuensis, on the road from Portus)",
+   "precision": "approx",
+   "monument": "aurelian_wall",
+   "event": "vandal_sack_of_rome_455",
+   "people": [
+    "pope_leo_i",
+    "gaiseric",
+    "petronius_maximus"
+   ],
+   "cats": [
+    "military",
+    "christian"
+   ],
+   "sources": [
+    {
+     "a": "Prosper of Aquitaine",
+     "w": "Epitoma Chronicon",
+     "r": "1375"
+    },
+    {
+     "a": "Victor of Vita",
+     "w": "History of the Vandal Persecution",
+     "r": "1.24"
+    }
+   ],
+   "certainty": "conjectural",
+   "note": "The meeting place is not given; the Vandals came from Portus."
+  },
+  {
+   "id": "sidonius_prays_apostles_467",
+   "year": 467,
+   "title": "Sidonius prays at the apostles' tomb before entering Rome",
+   "summary": "Arriving from Gaul in 467, Sidonius went first to the threshold of the apostles before entering the city, which he found in carnival mood for Ricimer's wedding to the emperor's daughter.",
+   "loc": [
+    12.453942,
+    41.902155
+   ],
+   "locName": "the tomb of Peter at the Vatican",
+   "precision": "building",
+   "monument": "old_st_peters",
+   "event": null,
+   "people": [
+    "sidonius_apollinaris",
+    "ricimer",
+    "anthemius"
+   ],
+   "cats": [
+    "christian",
+    "daily"
+   ],
+   "sources": [
+    {
+     "a": "Sidonius Apollinaris",
+     "w": "Letters",
+     "r": "1.5.9-11"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "sidonius_panegyric_468",
+   "year": 468,
+   "month": 1,
+   "day": 1,
+   "title": "Sidonius' panegyric of Anthemius",
+   "summary": "The Gallic aristocrat Sidonius Apollinaris delivered a verse panegyric for Anthemius' consulship before the senate and was rewarded with the prefecture of the city, from which he had to manage a grain crisis.",
+   "loc": [
+    12.485397,
+    41.892962
+   ],
+   "locName": "the senate house",
+   "precision": "building",
+   "monument": "curia_iulia",
+   "event": null,
+   "people": [
+    "sidonius_apollinaris",
+    "anthemius",
+    "ricimer"
+   ],
+   "cats": [
+    "literary",
+    "political"
+   ],
+   "sources": [
+    {
+     "a": "Sidonius Apollinaris",
+     "w": "Letters",
+     "r": "1.9.5-7"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "arvandus_tiber_island_469",
+   "year": 469,
+   "title": "Arvandus imprisoned on the Tiber Island",
+   "summary": "The disgraced prefect of Gaul Arvandus, convicted of treasonable letters to the Visigoths, was held on 'the island of the Epidaurian serpent' to await execution, later commuted to exile.",
+   "loc": [
+    12.478343,
+    41.890257
+   ],
+   "locName": "the Tiber Island (former sanctuary of Aesculapius)",
+   "precision": "building",
+   "monument": "temple_of_aesculapius",
+   "event": null,
+   "people": [
+    "sidonius_apollinaris",
+    "anthemius",
+    "euric"
+   ],
+   "cats": [
+    "legal",
+    "political"
+   ],
+   "sources": [
+    {
+     "a": "Sidonius Apollinaris",
+     "w": "Letters",
+     "r": "1.7.12"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "sant_agata_goti_ricimer",
+   "year": 470,
+   "title": "Ricimer's Arian church of S. Agata",
+   "summary": "Ricimer decorated the church of the Goths on the Quirinal slope with an apse mosaic recording his gift; it served the Arian Goths until it was reconsecrated to Catholic use by Gregory the Great in 592.",
+   "loc": [
+    12.489311,
+    41.896417
+   ],
+   "locName": "S. Agata dei Goti on the Quirinal slope",
+   "precision": "building",
+   "monument": "sant_agata_dei_goti",
+   "event": null,
+   "people": [
+    "ricimer",
+    "gregory_the_great"
+   ],
+   "cats": [
+    "christian",
+    "construction"
+   ],
+   "sources": [
+    {
+     "a": "Corpus Inscriptionum Latinarum",
+     "w": "inscription",
+     "r": "VI 1195"
+    },
+    {
+     "a": "Gregory the Great",
+     "w": "Dialogues",
+     "r": "3.30"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "bilimer_killed_pons_aelius_472",
+   "year": 472,
+   "title": "Battle at the bridge of Hadrian",
+   "summary": "During Ricimer's siege of Anthemius, the general Bilimer came from Gaul to help the emperor and was killed fighting Ricimer's troops at the bridge by Hadrian's Mausoleum.",
+   "loc": [
+    12.466475,
+    41.9018
+   ],
+   "locName": "the Pons Aelius before the Mausoleum of Hadrian",
+   "precision": "building",
+   "monument": "pons_aelius",
+   "event": "siege_of_rome_472",
+   "people": [
+    "ricimer",
+    "anthemius"
+   ],
+   "cats": [
+    "military",
+    "violence"
+   ],
+   "sources": [
+    {
+     "a": "Paul the Deacon",
+     "w": "Historia Romana",
+     "r": "15.4"
+    }
+   ],
+   "certainty": "reconstructed"
+  },
+  {
+   "id": "anthemius_killed_chrysogonus_472",
+   "year": 472,
+   "month": 7,
+   "day": 11,
+   "title": "Anthemius beheaded in S. Crisogono",
+   "summary": "After five months of siege and famine Ricimer's men broke in; Anthemius hid among the beggars at the church of the martyr Chrysogonus in Trastevere, where Gundobad found and beheaded him. Malalas instead places the killing at St Peter's.",
+   "loc": [
+    12.473512,
+    41.889116
+   ],
+   "locName": "the church of S. Crisogono in Trastevere",
+   "precision": "building",
+   "monument": "san_crisogono",
+   "event": "siege_of_rome_472",
+   "people": [
+    "anthemius",
+    "ricimer",
+    "gundobad",
+    "olybrius"
+   ],
+   "cats": [
+    "violence",
+    "political"
+   ],
+   "sources": [
+    {
+     "a": "John of Antioch",
+     "w": "Fragments",
+     "r": "fr 209"
+    },
+    {
+     "a": "John Malalas",
+     "w": "Chronographia",
+     "r": "14.45"
+    },
+    {
+     "a": "Cassiodorus",
+     "w": "Chronica",
+     "r": "1293"
+    }
+   ],
+   "certainty": "reconstructed"
+  },
+  {
+   "id": "senators_names_colosseum_seats",
+   "year": 476,
+   "title": "Senators' names carved on the Colosseum seats",
+   "summary": "Under Odoacer, the reserved seats of the amphitheatre's lower tiers were inscribed with the names of senatorial families; erased and recarved names show how the places changed hands.",
+   "loc": [
+    12.492231,
+    41.89021
+   ],
+   "locName": "the podium seats of the Flavian Amphitheatre",
+   "precision": "building",
+   "monument": "colosseum",
+   "event": null,
+   "people": [
+    "odoacer"
+   ],
+   "cats": [
+    "daily",
+    "spectacle"
+   ],
+   "sources": [
+    {
+     "a": "Corpus Inscriptionum Latinarum",
+     "w": "inscription",
+     "r": "VI 32099-32248"
+    }
+   ],
+   "certainty": "documented",
+   "note": "Inscriptions mostly of the later 5th century; year representative."
+  },
+  {
+   "id": "basilius_restores_colosseum",
+   "year": 484,
+   "title": "Colosseum repaired after an earthquake",
+   "summary": "The prefect Decius Marius Venantius Basilius restored at his own expense the arena and podium of the amphitheatre ruined by an 'abominable earthquake'.",
+   "loc": [
+    12.492231,
+    41.89021
+   ],
+   "locName": "the arena and podium of the Flavian Amphitheatre",
+   "precision": "building",
+   "monument": "colosseum",
+   "event": null,
+   "people": [
+    "odoacer"
+   ],
+   "cats": [
+    "construction",
+    "disaster"
+   ],
+   "sources": [
+    {
+     "a": "Corpus Inscriptionum Latinarum",
+     "w": "inscription",
+     "r": "VI 1716"
+    }
+   ],
+   "certainty": "documented",
+   "note": "Earthquake of 484 or 508 (consul of 484 or 508 of the same name)."
+  },
+  {
+   "id": "gelasius_ends_lupercalia",
+   "year": 495,
+   "month": 2,
+   "day": 15,
+   "title": "Pope Gelasius condemns the Lupercalia",
+   "summary": "In a letter to the senator Andromachus, Gelasius attacked Christians who still kept the Lupercalia, the naked run around the Palatine, as a guarantee of fertility and health; it is the last record of the festival.",
+   "loc": [
+    12.4849,
+    41.8884
+   ],
+   "locName": "the Lupercal and the course around the Palatine",
+   "precision": "area",
+   "monument": "lupercal",
+   "event": null,
+   "people": [],
+   "cats": [
+    "christian",
+    "religious"
+   ],
+   "sources": [
+    {
+     "a": "Pope Gelasius I",
+     "w": "Letter against Andromachus"
+    }
+   ],
+   "certainty": "documented",
+   "note": "Date c. 494-495."
+  },
+  {
+   "id": "double_election_498",
+   "year": 498,
+   "month": 11,
+   "day": 22,
+   "title": "Two popes elected on the same day",
+   "summary": "Symmachus was consecrated in the Lateran basilica and the archpriest Laurentius, backed by the pro-Byzantine senators, in S. Maria Maggiore; Theodoric decided for Symmachus.",
+   "loc": [
+    12.505899,
+    41.885798
+   ],
+   "locName": "the Lateran (Symmachus) and S. Maria Maggiore (Laurentius)",
+   "precision": "building",
+   "monument": "lateran_basilica",
+   "event": null,
+   "people": [
+    "theodoric_the_great"
+   ],
+   "cats": [
+    "christian",
+    "political"
+   ],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "Life",
+     "r": "Symmachus"
+    },
+    {
+     "a": "Anonymus Valesianus",
+     "w": "Pars posterior",
+     "r": "65"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "theodoric_met_st_peters_500",
+   "year": 500,
+   "title": "Theodoric received at St Peter's",
+   "summary": "On his only visit to Rome, Theodoric went first to St Peter's 'as devoutly as a Catholic', where Pope Symmachus, the senate and the people met him with rejoicing outside the city.",
+   "loc": [
+    12.453942,
+    41.902155
+   ],
+   "locName": "Old St Peter's on the Vatican",
+   "precision": "building",
+   "monument": "old_st_peters",
+   "event": null,
+   "people": [
+    "theodoric_the_great"
+   ],
+   "cats": [
+    "political",
+    "christian"
+   ],
+   "sources": [
+    {
+     "a": "Anonymus Valesianus",
+     "w": "Pars posterior",
+     "r": "65"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "theodoric_ad_palmam_500",
+   "year": 500,
+   "title": "Theodoric speaks to the people 'at the Palm'",
+   "summary": "Entering the city, Theodoric came to the senate and addressed the people at the place called Ad Palmam, between the Curia and the Arch of Severus, promising to keep everything the emperors had decreed.",
+   "loc": [
+    12.485,
+    41.89288
+   ],
+   "locName": "Ad Palmam, between the Curia and the Arch of Septimius Severus",
+   "precision": "building",
+   "monument": "curia_iulia",
+   "event": null,
+   "people": [
+    "theodoric_the_great"
+   ],
+   "cats": [
+    "political"
+   ],
+   "sources": [
+    {
+     "a": "Anonymus Valesianus",
+     "w": "Pars posterior",
+     "r": "66"
+    }
+   ],
+   "certainty": "reconstructed",
+   "note": "The Palma was probably the open area by the Curia (also called Palma Aurea)."
+  },
+  {
+   "id": "theodoric_games_palace_walls_500",
+   "year": 500,
+   "title": "Theodoric's tricennalia: games, palace and walls",
+   "summary": "Theodoric entered the palace in triumph, gave games in the Circus and a distribution of grain, and assigned 200 pounds of gold a year from the wine tax for repairs to the palace and the city walls.",
+   "loc": [
+    12.4857,
+    41.8859
+   ],
+   "locName": "the Circus Maximus and the Palatine palace",
+   "precision": "building",
+   "monument": "circus_maximus",
+   "event": null,
+   "people": [
+    "theodoric_the_great"
+   ],
+   "cats": [
+    "spectacle",
+    "political",
+    "construction"
+   ],
+   "sources": [
+    {
+     "a": "Anonymus Valesianus",
+     "w": "Pars posterior",
+     "r": "67"
+    },
+    {
+     "a": "Cassiodorus",
+     "w": "Variae",
+     "r": "1.25"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "odoin_beheaded_sessorium_500",
+   "year": 500,
+   "title": "Count Odoin beheaded in the Sessorian palace",
+   "summary": "The Gothic count Odoin, accused of plotting against Theodoric, was beheaded in the palace called the Sessorium by S. Croce.",
+   "loc": [
+    12.516316,
+    41.888927
+   ],
+   "locName": "the Sessorian palace (S. Croce in Gerusalemme)",
+   "precision": "building",
+   "monument": "sessorium",
+   "event": null,
+   "people": [
+    "theodoric_the_great"
+   ],
+   "cats": [
+    "violence",
+    "political"
+   ],
+   "sources": [
+    {
+     "a": "Anonymus Valesianus",
+     "w": "Pars posterior",
+     "r": "68-69"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "laurentian_schism_street_fighting",
+   "year": 502,
+   "title": "Street battles of the Laurentian schism",
+   "summary": "For four years partisans of Laurentius held the Lateran and churches of the city while Symmachus was confined to St Peter's; clergy were killed in the streets and nuns dragged from convents.",
+   "loc": [
+    12.453942,
+    41.902155
+   ],
+   "locName": "St Peter's (Symmachus' refuge) and the streets of Rome",
+   "precision": "area",
+   "monument": "old_st_peters",
+   "event": null,
+   "people": [
+    "theodoric_the_great"
+   ],
+   "cats": [
+    "christian",
+    "violence"
+   ],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "Life",
+     "r": "Symmachus"
+    }
+   ],
+   "certainty": "documented",
+   "note": "502-506."
+  },
+  {
+   "id": "symmachus_restores_pompey",
+   "year": 510,
+   "title": "Symmachus restores the Theatre of Pompey",
+   "summary": "Theodoric asked the senator Symmachus to repair the huge, crumbling Theatre of Pompey, whose vaults, he wrote, seemed to be caves hollowed in a mountain, offering state funds.",
+   "loc": [
+    12.473611,
+    41.895278
+   ],
+   "locName": "the Theatre of Pompey",
+   "precision": "building",
+   "monument": "theatre_of_pompey_mon",
+   "event": null,
+   "people": [
+    "theodoric_the_great",
+    "cassiodorus",
+    "boethius"
+   ],
+   "cats": [
+    "construction"
+   ],
+   "sources": [
+    {
+     "a": "Cassiodorus",
+     "w": "Variae",
+     "r": "4.51"
+    }
+   ],
+   "certainty": "documented",
+   "note": "Q. Aurelius Memmius Symmachus, father-in-law of Boethius; c. 507-511."
+  },
+  {
+   "id": "theodoric_cloacae_bronze",
+   "year": 510,
+   "title": "Theodoric orders the cloacae cleared and bronze thieves punished",
+   "summary": "Cassiodorus' letters order the repair of the great sewers, 'so wonderful that they surpass the wonders of other cities', and the punishment of those stealing bronze and lead from monuments and aqueducts.",
+   "loc": [
+    12.480237,
+    41.888834
+   ],
+   "locName": "the Cloaca Maxima and public monuments",
+   "precision": "building",
+   "monument": "cloaca_maxima",
+   "event": null,
+   "people": [
+    "theodoric_the_great",
+    "cassiodorus"
+   ],
+   "cats": [
+    "construction",
+    "legal",
+    "daily"
+   ],
+   "sources": [
+    {
+     "a": "Cassiodorus",
+     "w": "Variae",
+     "r": "3.30-31"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "eutharic_games_519",
+   "year": 519,
+   "title": "Eutharic's consular games with African beasts",
+   "summary": "For the consulship of Theodoric's son-in-law Eutharic, Rome saw beasts never seen before, sent from Africa, displayed in the amphitheatre; Cassiodorus says the people wondered at them.",
+   "loc": [
+    12.492231,
+    41.89021
+   ],
+   "locName": "the Flavian Amphitheatre",
+   "precision": "building",
+   "monument": "colosseum",
+   "event": null,
+   "people": [
+    "theodoric_the_great",
+    "cassiodorus"
+   ],
+   "cats": [
+    "spectacle"
+   ],
+   "sources": [
+    {
+     "a": "Cassiodorus",
+     "w": "Chronica",
+     "r": "1364"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "boethius_sons_consuls_522",
+   "year": 522,
+   "month": 1,
+   "day": 1,
+   "title": "Boethius' two sons consuls together",
+   "summary": "Boethius watched his two young sons led as consuls from their house to the senate house by the senators and people; he gave the panegyric of Theodoric in the Curia and then distributed largesse to the crowd in the Circus. He recalled it in prison as the summit of his fortune.",
+   "loc": [
+    12.485397,
+    41.892962
+   ],
+   "locName": "the Curia and then the Circus Maximus",
+   "precision": "building",
+   "monument": "curia_iulia",
+   "event": null,
+   "people": [
+    "boethius",
+    "theodoric_the_great"
+   ],
+   "cats": [
+    "political",
+    "literary"
+   ],
+   "sources": [
+    {
+     "a": "Boethius",
+     "w": "Consolation of Philosophy",
+     "r": "2.3.8, 2.4.7"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "last_venatio_523",
+   "year": 523,
+   "title": "Last recorded beast hunts in the Colosseum",
+   "summary": "Theodoric wrote to the consul Maximus approving the expense of venationes in the amphitheatre while deploring the cruelty of the beast fighters, who leapt over and dodged the animals; it is the last attested hunt.",
+   "loc": [
+    12.492231,
+    41.89021
+   ],
+   "locName": "the arena of the Flavian Amphitheatre",
+   "precision": "building",
+   "monument": "colosseum",
+   "event": null,
+   "people": [
+    "theodoric_the_great",
+    "cassiodorus"
+   ],
+   "cats": [
+    "spectacle"
+   ],
+   "sources": [
+    {
+     "a": "Cassiodorus",
+     "w": "Variae",
+     "r": "5.42"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "cosma_damiano_mosaics_527",
+   "year": 527,
+   "title": "Felix IV turns a Forum hall into Santi Cosma e Damiano",
+   "summary": "With Theodoric's and Amalasuntha's gift, Pope Felix IV made the hall of the Templum Pacis behind the 'Temple of Romulus' into a church of the doctor saints, the first church in the Forum, with the apse mosaic of Christ on clouds.",
+   "loc": [
+    12.48749,
+    41.892058
+   ],
+   "locName": "SS. Cosma e Damiano in the former hall of the Templum Pacis",
+   "precision": "building",
+   "monument": "santi_cosma_e_damiano",
+   "event": null,
+   "people": [
+    "amalasuntha"
+   ],
+   "cats": [
+    "christian",
+    "construction"
+   ],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "Life",
+     "r": "Felix IV"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "agapetus_library_caelian_535",
+   "year": 535,
+   "title": "Agapetus' library on the Caelian",
+   "summary": "Pope Agapetus and Cassiodorus planned a Christian school in Rome like those of Alexandria; a library was built at Agapetus' family house on the Clivus Scauri, where an inscription 'Bibliotheca Agapeti' was found.",
+   "loc": [
+    12.4915,
+    41.8864
+   ],
+   "locName": "the library of Agapetus on the Clivus Scauri (by S. Gregorio)",
+   "precision": "building",
+   "monument": null,
+   "event": null,
+   "people": [
+    "cassiodorus"
+   ],
+   "cats": [
+    "christian",
+    "literary"
+   ],
+   "sources": [
+    {
+     "a": "Cassiodorus",
+     "w": "Institutiones",
+     "r": "praef 1"
+    }
+   ],
+   "certainty": "reconstructed"
+  },
+  {
+   "id": "belisarius_enters_asinaria_536",
+   "year": 536,
+   "month": 12,
+   "day": 9,
+   "title": "Belisarius enters by the Porta Asinaria as the Goths leave",
+   "summary": "Invited by Pope Silverius and the people, Belisarius marched in through the Asinarian Gate on 9 December while the Gothic garrison left by the Flaminian Gate; he sent the keys of the city to Justinian.",
+   "loc": [
+    12.50868,
+    41.885675
+   ],
+   "locName": "the Porta Asinaria (Goths leaving by the Porta Flaminia)",
+   "precision": "exact",
+   "monument": "porta_asinaria",
+   "event": "siege_of_rome_537",
+   "people": [
+    "belisarius",
+    "witiges",
+    "justinian_i"
+   ],
+   "cats": [
+    "military",
+    "political"
+   ],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "5.14.14-15"
+    },
+    {
+     "a": "Liber Pontificalis",
+     "w": "Life",
+     "r": "Silverius"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "janus_doors_opened_537",
+   "year": 537,
+   "title": "Someone secretly tries to open the doors of Janus",
+   "summary": "During the siege, Procopius reports, some Romans secretly tried to force open the bronze doors of the little temple of Janus in the Forum before the Curia, closed in time of peace, in the old belief that it would bring war's luck; they did not quite succeed.",
+   "loc": [
+    12.48558,
+    41.89288
+   ],
+   "locName": "the bronze shrine of Janus in front of the Curia",
+   "precision": "exact",
+   "monument": "temple_of_janus_geminus",
+   "event": "siege_of_rome_537",
+   "people": [],
+   "cats": [
+    "religious",
+    "omen",
+    "military"
+   ],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "5.25.18-25"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "neronian_plain_battle_537",
+   "year": 537,
+   "title": "Battle in the Plain of Nero",
+   "summary": "A great sortie from the Pincian and Salarian gates and across the Tiber to the Plain of Nero routed part of the Gothic army, but the Roman citizen volunteers broke and the attack ended in retreat to the walls.",
+   "loc": [
+    12.458,
+    41.9065
+   ],
+   "locName": "the Campus Neronis by the Vatican",
+   "precision": "area",
+   "monument": null,
+   "event": "siege_of_rome_537",
+   "people": [
+    "belisarius"
+   ],
+   "cats": [
+    "military"
+   ],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "5.28-29"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "belisarius_shut_out_salaria_537",
+   "year": 537,
+   "month": 3,
+   "title": "Belisarius locked out of his own city",
+   "summary": "After fighting all day at the bridge on the Via Salaria, Belisarius rode back at nightfall to the Salarian gate covered in blood and dust; the defenders, told he was dead, would not open, and he led a last charge under the walls before being let in.",
+   "loc": [
+    12.498138,
+    41.91077
+   ],
+   "locName": "the Porta Salaria at nightfall",
+   "precision": "exact",
+   "monument": "porta_salaria",
+   "event": "siege_of_rome_537",
+   "people": [
+    "belisarius",
+    "witiges"
+   ],
+   "cats": [
+    "military"
+   ],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "5.18.19-29"
+    }
+   ],
+   "certainty": "documented",
+   "note": "The battle itself was at the Pons Salarius over the Anio, just N of the model area."
+  },
+  {
+   "id": "gothic_camps_neronian_field_537",
+   "year": 537,
+   "month": 3,
+   "title": "Seven Gothic camps ring the city",
+   "summary": "Witiges built six fortified camps on the left bank from the Flaminian to the Praenestine Gate and a seventh across the Tiber in the Plain of Nero by the Vatican, closing the Milvian bridge.",
+   "loc": [
+    12.458,
+    41.9065
+   ],
+   "locName": "the Gothic camp in the Campus Neronis by the Vatican",
+   "precision": "approx",
+   "monument": null,
+   "event": "siege_of_rome_537",
+   "people": [
+    "witiges"
+   ],
+   "cats": [
+    "military"
+   ],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "5.19.2-12"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "aqueducts_cut_537",
+   "year": 537,
+   "month": 3,
+   "title": "The Goths cut all the aqueducts",
+   "summary": "The Goths broke all fourteen aqueducts so no water reached the city; Belisarius sealed their channels with masonry lest the enemy creep in through them. The baths of Rome fell silent and most never worked again.",
+   "loc": [
+    12.515207,
+    41.891429
+   ],
+   "locName": "where the aqueducts enter the city at the Porta Maggiore",
+   "precision": "area",
+   "monument": "porta_praenestina",
+   "event": "siege_of_rome_537",
+   "people": [
+    "witiges",
+    "belisarius"
+   ],
+   "cats": [
+    "military",
+    "disaster"
+   ],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "5.19.13-18"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "floating_mills_tiber_537",
+   "year": 537,
+   "month": 3,
+   "title": "Belisarius' floating mills below the Janiculum",
+   "summary": "With the Janiculum mills dry, Belisarius moored boats in the Tiber below the bridge and hung millwheels between them in the current; when the Goths sent logs and corpses downstream to wreck them, he stretched chains across the river.",
+   "loc": [
+    12.4706,
+    41.8922
+   ],
+   "locName": "the Tiber below the bridge at the foot of the Janiculum",
+   "precision": "approx",
+   "monument": "pons_aurelius",
+   "event": "siege_of_rome_537",
+   "people": [
+    "belisarius"
+   ],
+   "cats": [
+    "military",
+    "daily"
+   ],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "5.19.19-27"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "belisarius_shoots_goth_salaria_537",
+   "year": 537,
+   "month": 3,
+   "title": "Belisarius shoots a Gothic chief at the Salarian gate",
+   "summary": "As the Goths' siege towers drawn by oxen approached the Salarian gate on the day of the great assault, Belisarius laughed, shot an armoured Gothic leader through the neck, and had his archers shoot only the oxen, stranding the towers.",
+   "loc": [
+    12.498138,
+    41.91077
+   ],
+   "locName": "the battlements of the Porta Salaria",
+   "precision": "exact",
+   "monument": "porta_salaria",
+   "event": "siege_of_rome_537",
+   "people": [
+    "belisarius",
+    "witiges"
+   ],
+   "cats": [
+    "military",
+    "violence"
+   ],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "5.22.1-9"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "statues_hurled_hadrians_tomb_537",
+   "year": 537,
+   "month": 3,
+   "title": "Defenders hurl statues from Hadrian's tomb",
+   "summary": "Attacked at close quarters at the Mausoleum of Hadrian, which formed a bastion of the wall by the Aurelian (St Peter's) gate, the defenders broke up the marble statues on its summit and threw the pieces down on the Goths.",
+   "loc": [
+    12.466358,
+    41.903044
+   ],
+   "locName": "the summit of the Mausoleum of Hadrian",
+   "precision": "exact",
+   "monument": "mausoleum_of_hadrian",
+   "event": "siege_of_rome_537",
+   "people": [
+    "witiges",
+    "belisarius"
+   ],
+   "cats": [
+    "military",
+    "violence"
+   ],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "5.22.12-25"
+    }
+   ],
+   "certainty": "documented",
+   "scholarship": [
+    "Lanciani, The Destruction of Ancient Rome (1899)"
+   ]
+  },
+  {
+   "id": "vivarium_fight_537",
+   "year": 537,
+   "month": 3,
+   "title": "Fight in the Vivarium by the Praenestine Gate",
+   "summary": "At the weakest point of the wall, the Vivarium where animals for the shows had been kept, the Goths broke through the outer enclosure; Belisarius let them in and then sallied out, trapping and slaughtering them and burning their engines.",
+   "loc": [
+    12.514,
+    41.8903
+   ],
+   "locName": "the Vivarium between the outer and inner walls near the Porta Praenestina",
+   "precision": "approx",
+   "monument": "aurelian_wall",
+   "event": "siege_of_rome_537",
+   "people": [
+    "belisarius",
+    "witiges"
+   ],
+   "cats": [
+    "military",
+    "violence"
+   ],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "5.22.10-11, 5.23.13-23"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "broken_wall_st_peter_537",
+   "year": 537,
+   "month": 3,
+   "title": "The 'Broken Wall' left to St Peter's protection",
+   "summary": "Near the Flaminian and Pincian gates a stretch of wall had long been split and leaning outward; Belisarius wished to rebuild it, but the Romans said St Peter had promised to guard it, and indeed the Goths never attacked there.",
+   "loc": [
+    12.4805,
+    41.9123
+   ],
+   "locName": "the Muro Torto on the Pincian",
+   "precision": "exact",
+   "monument": "aurelian_wall",
+   "event": "siege_of_rome_537",
+   "people": [
+    "belisarius"
+   ],
+   "cats": [
+    "military",
+    "christian"
+   ],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "5.23.3-8"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "silverius_deposed_pincian_537",
+   "year": 537,
+   "month": 3,
+   "title": "Pope Silverius deposed in the Pincian palace",
+   "summary": "Accused of corresponding with the Goths, Pope Silverius was summoned to Belisarius' headquarters in the Pincian palace, stripped of his pallium in Antonina's presence and sent into exile; Vigilius was made pope.",
+   "loc": [
+    12.487,
+    41.9085
+   ],
+   "locName": "the Domus Pinciana near the Porta Pinciana, Belisarius' headquarters",
+   "precision": "approx",
+   "monument": "porta_pinciana",
+   "event": "deposition_of_silverius_537",
+   "people": [
+    "belisarius",
+    "antonina",
+    "pope_vigilius",
+    "theodora"
+   ],
+   "cats": [
+    "christian",
+    "political"
+   ],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "5.25.13"
+    },
+    {
+     "a": "Liber Pontificalis",
+     "w": "Life",
+     "r": "Silverius"
+    },
+    {
+     "a": "Liberatus of Carthage",
+     "w": "Breviarium",
+     "r": "22"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "goths_aqueduct_attempt_538",
+   "year": 538,
+   "title": "Goths try to enter through the Aqua Virgo channel",
+   "summary": "During the truce the Goths crept along the dry channel of the Aqua Virgo under the Pincian, intending to come up inside the city; a guard saw a torch light and Belisarius blocked the passage.",
+   "loc": [
+    12.4842,
+    41.906
+   ],
+   "locName": "the channel of the Aqua Virgo under the Pincian",
+   "precision": "approx",
+   "monument": "aqua_virgo_mon",
+   "event": "siege_of_rome_537",
+   "people": [
+    "belisarius",
+    "witiges"
+   ],
+   "cats": [
+    "military"
+   ],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "6.9.1-11"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "campus_barbaricus_538",
+   "year": 538,
+   "title": "The Goths' fort under the aqueduct arches",
+   "summary": "To blockade the Via Latina and Appia, the Goths walled up the arches where two aqueducts cross twice, near the later Tor Fiscale, and held it with 7000 men; the place was afterwards called the Campus Barbaricus.",
+   "loc": [
+    12.5375,
+    41.8642
+   ],
+   "locName": "the crossing of the Aqua Claudia and Aqua Marcia arcades (Tor Fiscale)",
+   "precision": "approx",
+   "monument": "aqua_claudia",
+   "event": "siege_of_rome_537",
+   "people": [
+    "witiges"
+   ],
+   "cats": [
+    "military"
+   ],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "6.3.3-7"
+    }
+   ],
+   "certainty": "reconstructed"
+  },
+  {
+   "id": "goths_lift_siege_milvian_538",
+   "year": 538,
+   "month": 3,
+   "title": "The Goths raise the siege; carnage at the Milvian Bridge",
+   "summary": "After a year and nine days the Goths burned their camps and withdrew across the Milvian Bridge; Belisarius attacked as they crossed and many were killed or drowned.",
+   "loc": [
+    12.466944,
+    41.935556
+   ],
+   "locName": "the Milvian Bridge",
+   "precision": "building",
+   "monument": "pons_milvius",
+   "event": "siege_of_rome_537",
+   "people": [
+    "belisarius",
+    "witiges"
+   ],
+   "cats": [
+    "military",
+    "violence"
+   ],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "6.10.13-20"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "vigilius_seized_santa_cecilia_545",
+   "year": 545,
+   "month": 11,
+   "day": 22,
+   "title": "Pope Vigilius seized at S. Cecilia",
+   "summary": "While celebrating the feast of St Cecilia in her church in Trastevere, Vigilius was arrested by the imperial agent Anthemius and taken to a ship on the Tiber for Constantinople; the crowd threw stones after him.",
+   "loc": [
+    12.475833,
+    41.887572
+   ],
+   "locName": "S. Cecilia in Trastevere",
+   "precision": "building",
+   "monument": "santa_cecilia",
+   "event": null,
+   "people": [
+    "pope_vigilius",
+    "justinian_i",
+    "theodora"
+   ],
+   "cats": [
+    "christian",
+    "political"
+   ],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "Life",
+     "r": "Vigilius"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "famine_father_tiber_546",
+   "year": 546,
+   "title": "Famine: a father throws himself into the Tiber",
+   "summary": "During Totila's blockade the Romans ate nettles, dogs and mice while Bessas sold grain at extortionate prices; one father of five, unable to feed his children, covered his face and leapt from a bridge into the Tiber before their eyes.",
+   "loc": [
+    12.47819,
+    41.89098
+   ],
+   "locName": "a bridge over the Tiber",
+   "precision": "approx",
+   "monument": "pons_fabricius_mon",
+   "event": "totila_takes_rome_546",
+   "people": [
+    "totila"
+   ],
+   "cats": [
+    "disaster",
+    "daily"
+   ],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "7.17.19-25"
+    }
+   ],
+   "certainty": "documented",
+   "note": "Procopius does not name the bridge."
+  },
+  {
+   "id": "totila_enters_asinaria_546",
+   "year": 546,
+   "month": 12,
+   "day": 17,
+   "title": "Totila enters by the Porta Asinaria",
+   "summary": "Four Isaurian guards let the Goths in by night through the Asinarian gate, lowering them on ropes to open it; the garrison and Bessas fled, and Totila entered a nearly empty, starving city.",
+   "loc": [
+    12.50868,
+    41.885675
+   ],
+   "locName": "the Porta Asinaria",
+   "precision": "exact",
+   "monument": "porta_asinaria",
+   "event": "totila_takes_rome_546",
+   "people": [
+    "totila"
+   ],
+   "cats": [
+    "military"
+   ],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "7.20.4-19"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "pelagius_pleads_totila_546",
+   "year": 546,
+   "month": 12,
+   "day": 17,
+   "title": "Deacon Pelagius pleads with Totila at St Peter's",
+   "summary": "Totila went to pray at St Peter's; the deacon Pelagius met him with the Gospels and begged him to spare the Romans, and Totila stopped the killing. Rusticiana, Boethius' widow, who had overthrown Theodoric's statues, was protected.",
+   "loc": [
+    12.453942,
+    41.902155
+   ],
+   "locName": "Old St Peter's",
+   "precision": "building",
+   "monument": "old_st_peters",
+   "event": "totila_takes_rome_546",
+   "people": [
+    "totila",
+    "boethius"
+   ],
+   "cats": [
+    "christian",
+    "military"
+   ],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "7.20.22-31"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "rome_emptied_547",
+   "year": 547,
+   "month": 1,
+   "title": "Rome left empty of people",
+   "summary": "Totila tore down about a third of the walls and thought of razing the city; dissuaded by Belisarius' letter, he left with the senators and removed the whole population, so that, says Procopius, no human being was left in Rome.",
+   "loc": [
+    12.48525,
+    41.8923
+   ],
+   "locName": "the whole city",
+   "precision": "area",
+   "monument": "forum_romanum",
+   "event": "totila_takes_rome_546",
+   "people": [
+    "totila",
+    "belisarius"
+   ],
+   "cats": [
+    "military",
+    "disaster"
+   ],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "7.22.6-19"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "belisarius_rebuilds_walls_547",
+   "year": 547,
+   "month": 4,
+   "title": "Belisarius reoccupies Rome and rebuilds the walls",
+   "summary": "Belisarius marched into the empty city and in 25 days refilled the breaches with loose stones without mortar, planting stakes in the ditches; Totila's attacks on the half-built walls failed.",
+   "loc": [
+    12.50868,
+    41.885675
+   ],
+   "locName": "the breached Aurelian Wall",
+   "precision": "area",
+   "monument": "porta_asinaria",
+   "event": null,
+   "people": [
+    "belisarius",
+    "totila"
+   ],
+   "cats": [
+    "military",
+    "construction"
+   ],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "7.24.1-27"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "last_races_circus_maximus_550",
+   "year": 550,
+   "title": "Totila holds the last races in the Circus Maximus",
+   "summary": "Determined to treat Rome as his own, Totila brought back senators and citizens and held horse races in the Circus Maximus, the last recorded there.",
+   "loc": [
+    12.4857,
+    41.8859
+   ],
+   "locName": "the Circus Maximus",
+   "precision": "building",
+   "monument": "circus_maximus",
+   "event": "totila_retakes_rome_550",
+   "people": [
+    "totila"
+   ],
+   "cats": [
+    "spectacle",
+    "political"
+   ],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "7.37.4"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "garrison_hadrians_tomb_550",
+   "year": 550,
+   "month": 1,
+   "title": "Last stand at Hadrian's tomb",
+   "summary": "Four hundred cavalrymen under Paulus took refuge in the Mausoleum of Hadrian and the bridge before it; without food, they prepared a last charge but accepted Totila's terms, most joining his army.",
+   "loc": [
+    12.466358,
+    41.903044
+   ],
+   "locName": "the Mausoleum of Hadrian and the Pons Aelius",
+   "precision": "building",
+   "monument": "mausoleum_of_hadrian",
+   "event": "totila_retakes_rome_550",
+   "people": [
+    "totila"
+   ],
+   "cats": [
+    "military"
+   ],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "7.36.17-28"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "totila_enters_ostiensis_550",
+   "year": 550,
+   "month": 1,
+   "day": 16,
+   "title": "Totila takes Rome by the Gate of St Paul",
+   "summary": "Isaurian guards, unpaid for years, opened the Porta Ostiensis to the Goths at night while trumpeters made a diversion on the river side; the Byzantine garrison fled toward Centumcellae and was cut down.",
+   "loc": [
+    12.481436,
+    41.876636
+   ],
+   "locName": "the Porta Ostiensis (Porta S. Paolo)",
+   "precision": "exact",
+   "monument": "porta_ostiensis",
+   "event": "totila_retakes_rome_550",
+   "people": [
+    "totila"
+   ],
+   "cats": [
+    "military"
+   ],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "7.36.7-15"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "narses_retakes_rome_552",
+   "year": 552,
+   "title": "Narses retakes Rome; keys sent to Constantinople",
+   "summary": "After Busta Gallorum, Narses attacked Rome on several sides; Dagisthaeus scaled an undefended part of the wall, the Goths in Hadrian's tomb surrendered, and the keys of the city were sent to Justinian, the fifth capture of Rome in his reign.",
+   "loc": [
+    12.466358,
+    41.903044
+   ],
+   "locName": "the walls and the Mausoleum of Hadrian",
+   "precision": "building",
+   "monument": "mausoleum_of_hadrian",
+   "event": null,
+   "people": [
+    "narses",
+    "justinian_i",
+    "teia"
+   ],
+   "cats": [
+    "military"
+   ],
+   "sources": [
+    {
+     "a": "Procopius",
+     "w": "Wars",
+     "r": "8.33.14-27"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "pelagius_oath_st_peters_556",
+   "year": 556,
+   "title": "Pope Pelagius swears his innocence at St Peter's",
+   "summary": "Suspected of complicity in Vigilius' death, Pelagius walked with Narses in procession from S. Pancrazio to St Peter's and, holding the Gospels and the cross over his head, swore from the ambo that he had done Vigilius no harm.",
+   "loc": [
+    12.453942,
+    41.902155
+   ],
+   "locName": "the ambo of Old St Peter's",
+   "precision": "building",
+   "monument": "old_st_peters",
+   "event": null,
+   "people": [
+    "narses",
+    "pope_vigilius"
+   ],
+   "cats": [
+    "christian",
+    "political"
+   ],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "Life",
+     "r": "Pelagius I"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "santa_maria_antiqua_palace",
+   "year": 565,
+   "title": "Santa Maria Antiqua in the palace vestibule",
+   "summary": "A hall at the foot of the Palatine, once part of the imperial entrance from the Forum, was turned into the church of S. Maria Antiqua, perhaps for the Byzantine governor's court; its frescoes accumulate through the 7th and 8th centuries.",
+   "loc": [
+    12.485569,
+    41.890918
+   ],
+   "locName": "S. Maria Antiqua at the NW foot of the Palatine",
+   "precision": "building",
+   "monument": "santa_maria_antiqua",
+   "event": null,
+   "people": [
+    "justin_ii"
+   ],
+   "cats": [
+    "christian",
+    "construction"
+   ],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "Life",
+     "r": "John VII"
+    }
+   ],
+   "certainty": "reconstructed",
+   "note": "Conversion c. 550-570; date approximate."
+  },
+  {
+   "id": "fortunatus_virgil_forum_trajan",
+   "year": 565,
+   "title": "Virgil still read aloud in the Forum of Trajan",
+   "summary": "Venantius Fortunatus, writing as he left Italy, imagines his poems being recited 'in the Forum of Trajan', where Rome still listened to Virgil being read in public.",
+   "loc": [
+    12.485245,
+    41.894922
+   ],
+   "locName": "the Forum of Trajan",
+   "precision": "building",
+   "monument": "forum_of_trajan_mon",
+   "event": null,
+   "people": [
+    "venantius_fortunatus"
+   ],
+   "cats": [
+    "literary",
+    "daily"
+   ],
+   "sources": [
+    {
+     "a": "Venantius Fortunatus",
+     "w": "Carmina",
+     "r": "3.18.7-8, 7.8.26"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "narses_bridge_salaria_565",
+   "year": 565,
+   "title": "Narses rebuilds a bridge 'more admirably than before'",
+   "summary": "After the Gothic wars Narses restored bridges around Rome destroyed by Totila; the inscription of the Pons Salarius records his victory over the Goths.",
+   "loc": [
+    12.498138,
+    41.91077
+   ],
+   "locName": "the Via Salaria out of the Porta Salaria (bridge just beyond the model area)",
+   "precision": "approx",
+   "monument": "porta_salaria",
+   "event": null,
+   "people": [
+    "narses"
+   ],
+   "cats": [
+    "construction"
+   ],
+   "sources": [
+    {
+     "a": "Corpus Inscriptionum Latinarum",
+     "w": "inscription",
+     "r": "VI 1199"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "san_lorenzo_pelagius_579",
+   "year": 579,
+   "title": "Pelagius II rebuilds S. Lorenzo during the Lombard siege",
+   "summary": "During the Lombard siege of Rome Pope Pelagius II rebuilt the shrine of St Lawrence on the Via Tiburtina, cutting it into the hillside; he appears in the arch mosaic offering the church.",
+   "loc": [
+    12.52132,
+    41.902561
+   ],
+   "locName": "S. Lorenzo fuori le mura",
+   "precision": "building",
+   "monument": "san_lorenzo_fuori_le_mura",
+   "event": null,
+   "people": [],
+   "cats": [
+    "christian",
+    "construction"
+   ],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "Life",
+     "r": "Pelagius II"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "tiber_flood_589",
+   "year": 589,
+   "month": 11,
+   "title": "Great Tiber flood: serpents and a dragon swept to the sea",
+   "summary": "In November 589 the Tiber overflowed the walls and flooded much of the city, ruining churches and the papal granaries; Gregory of Tours' deacon saw a multitude of snakes and a great dragon carried down to the sea. Plague followed.",
+   "loc": [
+    12.4755,
+    41.9015
+   ],
+   "locName": "the low city and the walls along the Tiber",
+   "precision": "area",
+   "monument": null,
+   "event": "plague_in_rome_590",
+   "people": [],
+   "cats": [
+    "disaster",
+    "omen"
+   ],
+   "sources": [
+    {
+     "a": "Gregory of Tours",
+     "w": "Histories",
+     "r": "10.1"
+    },
+    {
+     "a": "Paul the Deacon",
+     "w": "Historia Langobardorum",
+     "r": "3.24"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "litany_clergy_cosma_590",
+   "year": 590,
+   "title": "Sevenfold litany: the clergy set out from SS. Cosma e Damiano",
+   "summary": "Gregory ordered a sevenfold procession for three days; the clergy were to set out from the church of SS. Cosma e Damiano in the Forum, chanting, toward S. Maria Maggiore.",
+   "loc": [
+    12.48749,
+    41.892058
+   ],
+   "locName": "SS. Cosma e Damiano in the Forum",
+   "precision": "building",
+   "monument": "santi_cosma_e_damiano",
+   "event": "pontificate_of_gregory_590",
+   "people": [
+    "gregory_the_great"
+   ],
+   "cats": [
+    "christian",
+    "disaster"
+   ],
+   "sources": [
+    {
+     "a": "Gregory of Tours",
+     "w": "Histories",
+     "r": "10.1"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "litany_abbots_gervasius_590",
+   "year": 590,
+   "title": "Litany: the abbots set out from SS. Gervasio e Protasio",
+   "summary": "The abbots and their monks gathered at the church of the martyrs Gervasius and Protasius, the titulus of Vestina (S. Vitale), at the foot of the Quirinal.",
+   "loc": [
+    12.490709,
+    41.899757
+   ],
+   "locName": "SS. Gervasio e Protasio (S. Vitale) in the valley below the Quirinal",
+   "precision": "building",
+   "monument": "san_vitale",
+   "event": "pontificate_of_gregory_590",
+   "people": [
+    "gregory_the_great"
+   ],
+   "cats": [
+    "christian",
+    "disaster"
+   ],
+   "sources": [
+    {
+     "a": "Gregory of Tours",
+     "w": "Histories",
+     "r": "10.1"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "litany_abbesses_marcellinus_590",
+   "year": 590,
+   "title": "Litany: the abbesses set out from SS. Marcellino e Pietro",
+   "summary": "The abbesses with their nuns set out from the church of the martyrs Marcellinus and Peter near the Lateran.",
+   "loc": [
+    12.503018,
+    41.889029
+   ],
+   "locName": "SS. Marcellino e Pietro on the Via Labicana by the Lateran",
+   "precision": "building",
+   "monument": "santi_marcellino_e_pietro",
+   "event": "pontificate_of_gregory_590",
+   "people": [
+    "gregory_the_great"
+   ],
+   "cats": [
+    "christian",
+    "disaster"
+   ],
+   "sources": [
+    {
+     "a": "Gregory of Tours",
+     "w": "Histories",
+     "r": "10.1"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "litany_children_giovanni_paolo_590",
+   "year": 590,
+   "title": "Litany: the children set out from SS. Giovanni e Paolo",
+   "summary": "The children of Rome were assembled at the church of John and Paul on the Caelian.",
+   "loc": [
+    12.492095,
+    41.886561
+   ],
+   "locName": "SS. Giovanni e Paolo on the Clivus Scauri, Caelian",
+   "precision": "building",
+   "monument": "santi_giovanni_e_paolo",
+   "event": "pontificate_of_gregory_590",
+   "people": [
+    "gregory_the_great"
+   ],
+   "cats": [
+    "christian",
+    "disaster"
+   ],
+   "sources": [
+    {
+     "a": "Gregory of Tours",
+     "w": "Histories",
+     "r": "10.1"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "litany_laymen_stephen_590",
+   "year": 590,
+   "title": "Litany: the laymen set out from S. Stefano",
+   "summary": "The laymen gathered at the church of the protomartyr Stephen, usually identified with S. Stefano Rotondo on the Caelian.",
+   "loc": [
+    12.496719,
+    41.884679
+   ],
+   "locName": "S. Stefano Rotondo on the Caelian",
+   "precision": "building",
+   "monument": "santo_stefano_rotondo",
+   "event": "pontificate_of_gregory_590",
+   "people": [
+    "gregory_the_great"
+   ],
+   "cats": [
+    "christian",
+    "disaster"
+   ],
+   "sources": [
+    {
+     "a": "Gregory of Tours",
+     "w": "Histories",
+     "r": "10.1"
+    }
+   ],
+   "certainty": "reconstructed"
+  },
+  {
+   "id": "litany_widows_euphemia_590",
+   "year": 590,
+   "title": "Litany: the widows set out from S. Eufemia",
+   "summary": "The widows gathered at the church of St Euphemia on the Vicus Patricius below the Esquiline.",
+   "loc": [
+    12.4962,
+    41.898
+   ],
+   "locName": "S. Eufemia on the Vicus Patricius (destroyed)",
+   "precision": "approx",
+   "monument": null,
+   "event": "pontificate_of_gregory_590",
+   "people": [
+    "gregory_the_great"
+   ],
+   "cats": [
+    "christian",
+    "disaster"
+   ],
+   "sources": [
+    {
+     "a": "Gregory of Tours",
+     "w": "Histories",
+     "r": "10.1"
+    }
+   ],
+   "certainty": "reconstructed"
+  },
+  {
+   "id": "litany_wives_clemente_590",
+   "year": 590,
+   "title": "Litany: the married women set out from S. Clemente",
+   "summary": "The married women gathered at the church of St Clement in the valley between the Caelian and the Esquiline.",
+   "loc": [
+    12.497479,
+    41.889368
+   ],
+   "locName": "S. Clemente",
+   "precision": "building",
+   "monument": "san_clemente",
+   "event": "pontificate_of_gregory_590",
+   "people": [
+    "gregory_the_great"
+   ],
+   "cats": [
+    "christian",
+    "disaster"
+   ],
+   "sources": [
+    {
+     "a": "Gregory of Tours",
+     "w": "Histories",
+     "r": "10.1"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "litany_eighty_die_590",
+   "year": 590,
+   "title": "Eighty fall dead during the litany",
+   "summary": "As the seven processions converged on S. Maria Maggiore, chanting Kyrie eleison, eighty people collapsed and died within an hour, yet Gregory continued preaching and the procession went on.",
+   "loc": [
+    12.498438,
+    41.897613
+   ],
+   "locName": "the converging processions at S. Maria Maggiore",
+   "precision": "building",
+   "monument": "santa_maria_maggiore",
+   "event": "plague_in_rome_590",
+   "people": [
+    "gregory_the_great"
+   ],
+   "cats": [
+    "christian",
+    "disaster"
+   ],
+   "sources": [
+    {
+     "a": "Gregory of Tours",
+     "w": "Histories",
+     "r": "10.1"
+    },
+    {
+     "a": "Paul the Deacon",
+     "w": "Historia Langobardorum",
+     "r": "3.24"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "angel_hadrians_tomb_legend_590",
+   "year": 590,
+   "title": "The angel sheathing his sword over Hadrian's tomb",
+   "summary": "Later legend says that as Gregory's procession crossed toward St Peter's, he saw the archangel Michael on top of Hadrian's Mausoleum sheathing a bloody sword, a sign that the plague had ended; the monument has been Castel Sant'Angelo since.",
+   "loc": [
+    12.466358,
+    41.903044
+   ],
+   "locName": "the summit of the Mausoleum of Hadrian",
+   "precision": "exact",
+   "monument": "mausoleum_of_hadrian",
+   "event": "plague_in_rome_590",
+   "people": [
+    "gregory_the_great"
+   ],
+   "cats": [
+    "christian",
+    "omen"
+   ],
+   "sources": [
+    {
+     "a": "Jacobus de Voragine",
+     "w": "Legenda Aurea",
+     "r": "46"
+    }
+   ],
+   "certainty": "conjectural",
+   "note": "The vision is first recorded in the 13th century; contemporary sources do not mention it."
+  },
+  {
+   "id": "pelagius_ii_dies_plague_590",
+   "year": 590,
+   "month": 2,
+   "day": 7,
+   "title": "Pope Pelagius II dies of the plague",
+   "summary": "The plague that followed the flood struck the clergy first; Pelagius II died among the first victims in February 590 and the deacon Gregory was chosen to succeed him.",
+   "loc": [
+    12.453942,
+    41.902155
+   ],
+   "locName": "buried at St Peter's",
+   "precision": "building",
+   "monument": "old_st_peters",
+   "event": "plague_in_rome_590",
+   "people": [
+    "gregory_the_great"
+   ],
+   "cats": [
+    "disaster",
+    "christian",
+    "funeral"
+   ],
+   "sources": [
+    {
+     "a": "Gregory of Tours",
+     "w": "Histories",
+     "r": "10.1"
+    },
+    {
+     "a": "Liber Pontificalis",
+     "w": "Life",
+     "r": "Pelagius II"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "gregory_consecrated_590",
+   "year": 590,
+   "month": 9,
+   "day": 3,
+   "title": "Gregory consecrated bishop at St Peter's",
+   "summary": "After trying to flee, Gregory was consecrated pope at St Peter's on 3 September 590, once the emperor Maurice's confirmation arrived.",
+   "loc": [
+    12.453942,
+    41.902155
+   ],
+   "locName": "Old St Peter's",
+   "precision": "building",
+   "monument": "old_st_peters",
+   "event": "pontificate_of_gregory_590",
+   "people": [
+    "gregory_the_great",
+    "maurice"
+   ],
+   "cats": [
+    "christian",
+    "political"
+   ],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "Life",
+     "r": "Gregory I"
+    },
+    {
+     "a": "Gregory of Tours",
+     "w": "Histories",
+     "r": "10.1"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "agilulf_captives_walls_593",
+   "year": 593,
+   "title": "Gregory sees Romans led off roped by the neck",
+   "summary": "With the Lombard king Agilulf before the walls, Gregory broke off his sermons on Ezekiel: from the walls he had seen Romans led away with ropes round their necks like dogs to be sold in Gaul.",
+   "loc": [
+    12.498138,
+    41.91077
+   ],
+   "locName": "the Aurelian Wall (Agilulf's army before the city)",
+   "precision": "area",
+   "monument": "porta_salaria",
+   "event": "agilulf_besieges_rome_593",
+   "people": [
+    "gregory_the_great",
+    "agilulf"
+   ],
+   "cats": [
+    "military",
+    "christian",
+    "literary"
+   ],
+   "sources": [
+    {
+     "a": "Gregory the Great",
+     "w": "Homilies on Ezekiel",
+     "r": "2.10.24"
+    },
+    {
+     "a": "Paul the Deacon",
+     "w": "Historia Langobardorum",
+     "r": "4.8"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "mission_from_st_andrew_597",
+   "year": 596,
+   "title": "Augustine's mission leaves St Andrew's on the Caelian",
+   "summary": "Gregory sent Augustine, prior of his own monastery of St Andrew on the Clivus Scauri, his family's house, with about forty monks to convert the English.",
+   "loc": [
+    12.4909,
+    41.8858
+   ],
+   "locName": "the monastery of St Andrew on the Clivus Scauri (S. Gregorio al Celio)",
+   "precision": "building",
+   "monument": null,
+   "event": "gregorian_mission_597",
+   "people": [
+    "gregory_the_great"
+   ],
+   "cats": [
+    "christian"
+   ],
+   "sources": [
+    {
+     "a": "Bede",
+     "w": "Ecclesiastical History",
+     "r": "1.23"
+    },
+    {
+     "a": "Gregory the Great",
+     "w": "Registrum epistularum",
+     "r": "6.50-60"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "phocas_icons_lateran_603",
+   "year": 603,
+   "month": 4,
+   "day": 25,
+   "title": "Images of Phocas and Leontia acclaimed at the Lateran",
+   "summary": "The portraits of the new emperor Phocas and his wife arrived in Rome and were acclaimed by clergy and senate in the Lateran basilica: 'Hear us, Christ! Long life to Phocas Augustus!'; Gregory had them placed in the oratory of St Caesarius in the Palatine palace.",
+   "loc": [
+    12.505899,
+    41.885798
+   ],
+   "locName": "the Lateran basilica, then the oratory of St Caesarius on the Palatine",
+   "precision": "building",
+   "monument": "lateran_basilica",
+   "event": "revolt_of_phocas_602",
+   "people": [
+    "phocas",
+    "gregory_the_great"
+   ],
+   "cats": [
+    "political",
+    "christian"
+   ],
+   "sources": [
+    {
+     "a": "Gregory the Great",
+     "w": "Registrum epistularum",
+     "r": "13.1 (appendix)"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "gregory_buried_st_peters_604",
+   "year": 604,
+   "month": 3,
+   "day": 12,
+   "title": "Gregory the Great buried in the portico of St Peter's",
+   "summary": "Gregory died after years of illness and was buried in the portico of St Peter's, where his epitaph called him 'God's consul'. A famine followed and the people turned against his memory.",
+   "loc": [
+    12.455,
+    41.90215
+   ],
+   "locName": "the portico of Old St Peter's",
+   "precision": "building",
+   "monument": "old_st_peters",
+   "event": "death_of_gregory_the_great_604",
+   "people": [
+    "gregory_the_great"
+   ],
+   "cats": [
+    "christian",
+    "funeral"
+   ],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "Life",
+     "r": "Gregory I"
+    },
+    {
+     "a": "John the Deacon",
+     "w": "Life of Gregory the Great",
+     "r": "4.68-69"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "column_phocas_608",
+   "year": 608,
+   "month": 8,
+   "day": 1,
+   "title": "Column of Phocas: the last monument of the Forum",
+   "summary": "The exarch Smaragdus set a gilded statue of the emperor Phocas on a reused fluted column in front of the Rostra, 'for the innumerable benefits of his piety and the peace procured for Italy'; Phocas was overthrown two years later.",
+   "loc": [
+    12.484849,
+    41.892445
+   ],
+   "locName": "in front of the Rostra in the Forum",
+   "precision": "exact",
+   "monument": "column_of_phocas",
+   "event": "column_of_phocas_608",
+   "people": [
+    "phocas"
+   ],
+   "cats": [
+    "construction",
+    "political"
+   ],
+   "sources": [
+    {
+     "a": "Corpus Inscriptionum Latinarum",
+     "w": "inscription",
+     "r": "VI 1200"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "pantheon_consecrated_609",
+   "year": 609,
+   "month": 5,
+   "day": 13,
+   "title": "The Pantheon becomes S. Maria ad Martyres",
+   "summary": "With Phocas' permission Pope Boniface IV consecrated the Pantheon as a church of the Virgin and all martyrs, bringing in bones from the catacombs; it became the first pagan temple in Rome turned into a church, which saved it.",
+   "loc": [
+    12.476873,
+    41.898614
+   ],
+   "locName": "the Pantheon (S. Maria ad Martyres)",
+   "precision": "building",
+   "monument": "pantheon",
+   "event": "pantheon_consecrated_609",
+   "people": [
+    "phocas"
+   ],
+   "cats": [
+    "christian",
+    "construction"
+   ],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "Life",
+     "r": "Boniface IV"
+    },
+    {
+     "a": "Bede",
+     "w": "Ecclesiastical History",
+     "r": "2.4"
+    },
+    {
+     "a": "Paul the Deacon",
+     "w": "Historia Langobardorum",
+     "r": "4.36"
+    }
+   ],
+   "certainty": "documented",
+   "note": "The traditional date of 13 May 609 (possibly 610 or 613)."
+  },
+  {
+   "id": "earthquake_scabies_618",
+   "year": 618,
+   "month": 8,
+   "title": "Earthquake followed by a skin plague",
+   "summary": "Under Pope Deusdedit a great earthquake struck in August, followed by an epidemic of 'scabies' so disfiguring that the dead could not be recognised.",
+   "loc": [
+    12.48525,
+    41.8923
+   ],
+   "locName": "the city",
+   "precision": "area",
+   "monument": "forum_romanum",
+   "event": null,
+   "people": [],
+   "cats": [
+    "disaster"
+   ],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "Life",
+     "r": "Deusdedit"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "deusdedit_dies_618",
+   "year": 618,
+   "month": 11,
+   "day": 8,
+   "title": "Pope Deusdedit dies after the earthquake and plague",
+   "summary": "Deusdedit, who had personally cared for the sick in the epidemic after the earthquake, died and was buried in St Peter's, leaving a bequest of a full year's stipend to all his clergy.",
+   "loc": [
+    12.453942,
+    41.902155
+   ],
+   "locName": "burial at Old St Peter's",
+   "precision": "building",
+   "monument": "old_st_peters",
+   "event": null,
+   "people": [],
+   "cats": [
+    "christian",
+    "funeral",
+    "disaster"
+   ],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "Life",
+     "r": "Deusdedit"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "honorius_venus_roma_tiles",
+   "year": 630,
+   "title": "Bronze roof tiles of the Temple of Roma taken for St Peter's",
+   "summary": "With the emperor Heraclius' consent, Pope Honorius I stripped the gilded bronze tiles from 'the temple called of Rome', the Temple of Venus and Roma, to roof St Peter's.",
+   "loc": [
+    12.489657,
+    41.890894
+   ],
+   "locName": "the Temple of Venus and Roma",
+   "precision": "building",
+   "monument": "temple_of_venus_and_roma_mon",
+   "event": null,
+   "people": [
+    "pope_honorius_i",
+    "heraclius"
+   ],
+   "cats": [
+    "construction",
+    "christian"
+   ],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "Life",
+     "r": "Honorius I"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "curia_becomes_sant_adriano_630",
+   "year": 630,
+   "title": "The senate house becomes the church of Sant'Adriano",
+   "summary": "Honorius I turned the Curia Iulia, the senate house rebuilt by Diocletian, into the church of S. Adriano 'in Tribus Fatis', which preserved its walls and bronze doors.",
+   "loc": [
+    12.485397,
+    41.892962
+   ],
+   "locName": "the Curia Iulia (S. Adriano)",
+   "precision": "building",
+   "monument": "curia_iulia",
+   "event": null,
+   "people": [
+    "pope_honorius_i"
+   ],
+   "cats": [
+    "christian",
+    "construction"
+   ],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "Life",
+     "r": "Honorius I"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "sant_agnese_honorius_rebuilt",
+   "year": 630,
+   "title": "Honorius rebuilds Sant'Agnese over the martyr's tomb",
+   "summary": "Honorius built a new galleried basilica on the Via Nomentana sunk to the level of St Agnes' tomb in the catacomb, with the apse mosaic showing the saint between two popes.",
+   "loc": [
+    12.518893,
+    41.922935
+   ],
+   "locName": "S. Agnese fuori le mura on the Via Nomentana",
+   "precision": "building",
+   "monument": "sant_agnese_fuori_le_mura",
+   "event": null,
+   "people": [
+    "pope_honorius_i"
+   ],
+   "cats": [
+    "christian",
+    "construction"
+   ],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "Life",
+     "r": "Honorius I"
+    }
+   ],
+   "certainty": "documented",
+   "note": "Built 625-638."
+  },
+  {
+   "id": "san_pancrazio_honorius",
+   "year": 630,
+   "title": "Honorius I rebuilds S. Pancrazio on the Janiculum",
+   "summary": "Honorius I rebuilt the basilica over the tomb of the boy martyr Pancras on the Via Aurelia outside the Porta Aurelia, where oaths were sworn on the saint's relics.",
+   "loc": [
+    12.453937,
+    41.884956
+   ],
+   "locName": "S. Pancrazio on the Via Aurelia",
+   "precision": "building",
+   "monument": "san_pancrazio",
+   "event": null,
+   "people": [
+    "pope_honorius_i"
+   ],
+   "cats": [
+    "christian",
+    "construction"
+   ],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "Life",
+     "r": "Honorius I"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "honorius_curia_rostra_630",
+   "year": 630,
+   "title": "Bronze of the Curia doors and Rostra survive the conversion",
+   "summary": "When the Curia became the church of S. Adriano, its Diocletianic bronze doors were left in place; they were moved to the Lateran in the 17th century, where they still hang.",
+   "loc": [
+    12.485397,
+    41.892962
+   ],
+   "locName": "the bronze doors of the Curia Iulia",
+   "precision": "exact",
+   "monument": "curia_iulia",
+   "event": null,
+   "people": [
+    "pope_honorius_i"
+   ],
+   "cats": [
+    "construction",
+    "christian"
+   ],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "Life",
+     "r": "Honorius I"
+    }
+   ],
+   "certainty": "reconstructed"
+  },
+  {
+   "id": "lateran_plundered_640",
+   "year": 640,
+   "title": "The Lateran treasury plundered by the imperial army",
+   "summary": "With the see vacant, the chartularius Maurice incited the unpaid army to besiege the Lateran for three days, then sealed its treasure, and the exarch Isaac came from Ravenna to seize it and send part to Heraclius.",
+   "loc": [
+    12.505899,
+    41.885798
+   ],
+   "locName": "the Lateran episcopium and treasury",
+   "precision": "building",
+   "monument": "lateran_basilica",
+   "event": null,
+   "people": [
+    "heraclius"
+   ],
+   "cats": [
+    "military",
+    "christian",
+    "scandal"
+   ],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "Life",
+     "r": "Severinus"
+    }
+   ],
+   "certainty": "documented",
+   "note": "Event of 640, before Severinus' consecration (28 May 640)."
+  },
+  {
+   "id": "san_venanzio_lateran_641",
+   "year": 641,
+   "title": "John IV builds the chapel of S. Venanzio",
+   "summary": "The Dalmatian pope John IV built an oratory beside the Lateran baptistery for relics of martyrs brought from Dalmatia and Istria, ravaged by the Avars and Slavs; its mosaic survives.",
+   "loc": [
+    12.504293,
+    41.886145
+   ],
+   "locName": "the oratory of S. Venanzio by the Lateran baptistery",
+   "precision": "building",
+   "monument": "lateran_baptistery",
+   "event": null,
+   "people": [],
+   "cats": [
+    "christian",
+    "construction"
+   ],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "Life",
+     "r": "John IV"
+    }
+   ],
+   "certainty": "documented"
+  }
+ ]
+}

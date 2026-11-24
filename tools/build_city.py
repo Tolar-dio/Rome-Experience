@@ -232,7 +232,7 @@ def load_json_dir(sub):
 def gather():
     C = {'terrain': {}, 'buildings': [], 'walls': [], 'gates': [], 'streets': [], 'aqueducts': [], 'regions': [], 'servianRegions': [],
          'cityEvents': [], 'routes': [], 'cityPlaces': [], 'population': [], 'urbanization': [], 'fires': [], 'cityTours': []}
-    subs = ['terrain', 'framework', 'infra', 'buildings', 'events', 'life', 'tours']
+    subs = ['terrain', 'framework', 'infra', 'buildings', 'events', 'life', 'tours']  # patches applied after
     extra = os.environ.get('CITY_EXTRA')
     if extra:
         subs.append(os.path.abspath(extra))
@@ -271,6 +271,13 @@ def gather():
                     C[k] += v
                 elif k in C and isinstance(v, dict) and k == 'terrain':
                     pass
+    # coordinator patches
+    for f in sorted(glob.glob(os.path.join(CONTENT, 'patches', '*.json'))):
+        P_ = json.load(open(f)).get('set', {})
+        for coll in ('buildings', 'gates', 'walls', 'streets', 'aqueducts', 'cityEvents', 'cityPlaces', 'routes'):
+            for o in C[coll]:
+                if isinstance(o, dict) and o.get('id') in P_:
+                    o.update(P_[o['id']])
     return C
 
 

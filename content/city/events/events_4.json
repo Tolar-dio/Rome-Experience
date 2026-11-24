@@ -1,0 +1,3220 @@
+{
+ "cityEvents": [
+  {
+   "id": "refugees_campus_martius_64",
+   "year": 64,
+   "month": 7,
+   "title": "Refugees sheltered in the Campus Martius",
+   "summary": "Nero opened the Campus Martius, the buildings of Agrippa and his own gardens to the homeless, put up temporary shelters, and cut the price of grain.",
+   "loc": [
+    12.4755,
+    41.9015
+   ],
+   "locName": "the Campus Martius and the buildings of Agrippa",
+   "precision": "area",
+   "monument": null,
+   "event": "great_fire_of_rome",
+   "people": [
+    "nero"
+   ],
+   "cats": [
+    "disaster",
+    "daily"
+   ],
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "15.39"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "great_fire_starts_circus_64",
+   "year": 64,
+   "month": 7,
+   "day": 19,
+   "title": "The Great Fire breaks out in the shops of the Circus",
+   "summary": "On the night of 19 July fire broke out in the shops full of flammable goods along the Circus Maximus where it adjoins the Palatine and Caelian; driven by wind it raced along the length of the Circus and up into the hills.",
+   "loc": [
+    12.4884,
+    41.8855
+   ],
+   "locName": "the tabernae at the E (curved) end of the Circus Maximus, under the Palatine and Caelian",
+   "precision": "exact",
+   "monument": "circus_maximus",
+   "event": "great_fire_of_rome",
+   "people": [
+    "nero"
+   ],
+   "cats": [
+    "disaster"
+   ],
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "15.38"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Nero",
+     "r": "38"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "62.16-18"
+    }
+   ],
+   "certainty": "documented",
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": "Tacitus: 'in ea parte circi ortum quae Palatino Caelioque montibus contigua est'."
+  },
+  {
+   "id": "fire_stops_esquiline_64",
+   "year": 64,
+   "month": 7,
+   "day": 24,
+   "title": "The fire stopped at the foot of the Esquiline",
+   "summary": "On the sixth day the fire was halted at the foot of the Esquiline by demolishing buildings to leave bare ground; it then broke out again in Tigellinus' Aemilian estate and burned three more days. Of fourteen regions only four were intact.",
+   "loc": [
+    12.503,
+    41.8963
+   ],
+   "locName": "the foot of the Esquiline, where a firebreak was cleared",
+   "precision": "area",
+   "monument": null,
+   "event": "great_fire_of_rome",
+   "people": [
+    "nero",
+    "tigellinus"
+   ],
+   "cats": [
+    "disaster"
+   ],
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "15.40"
+    }
+   ],
+   "certainty": "reconstructed",
+   "note": "The firebreak's exact line is unknown; marker on the Esquiline slope."
+  },
+  {
+   "id": "fire_restarts_aemiliana_64",
+   "year": 64,
+   "month": 7,
+   "day": 25,
+   "title": "Second outbreak in the Aemiliana estates",
+   "summary": "The fire flared up again in the Aemilian property of Tigellinus in the Campus Martius, feeding the rumour that Nero wanted to found a new city named after himself.",
+   "loc": [
+    12.4745,
+    41.9015
+   ],
+   "locName": "the praedia Aemiliana of Tigellinus, Campus Martius",
+   "precision": "approx",
+   "monument": null,
+   "event": "great_fire_of_rome",
+   "people": [
+    "tigellinus",
+    "nero"
+   ],
+   "cats": [
+    "disaster",
+    "scandal"
+   ],
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "15.40"
+    },
+    {
+     "a": "Varro",
+     "w": "De re rustica",
+     "r": "3.2.6"
+    }
+   ],
+   "certainty": "conjectural"
+  },
+  {
+   "id": "paul_tomb_ostiensis",
+   "year": 65,
+   "title": "Paul buried on the Via Ostiensis",
+   "summary": "Paul, beheaded under Nero, was buried by tradition beside the Via Ostiensis, where the presbyter Gaius pointed to his 'trophy' c. 200; Constantine and then the three emperors of 384 built his basilica over it.",
+   "loc": [
+    12.477756,
+    41.858602
+   ],
+   "locName": "the tomb under the altar of San Paolo fuori le mura",
+   "precision": "building",
+   "monument": "st_pauls_outside_the_walls",
+   "event": "martyrdom_of_peter_and_paul",
+   "people": [
+    "paul_of_tarsus",
+    "nero"
+   ],
+   "cats": [
+    "christian",
+    "funeral"
+   ],
+   "sources": [
+    {
+     "a": "Eusebius",
+     "w": "Ecclesiastical History",
+     "r": "2.25.7"
+    },
+    {
+     "a": "Liber Pontificalis",
+     "w": "Life",
+     "r": "Cornelius"
+    }
+   ],
+   "certainty": "reconstructed"
+  },
+  {
+   "id": "lateranus_executed_esquiline_65",
+   "year": 65,
+   "title": "Consul-designate Lateranus executed at the slaves' execution ground",
+   "summary": "Plautius Lateranus was dragged to the place reserved for the punishment of slaves and beheaded by a tribune, without even being allowed to embrace his children.",
+   "loc": [
+    12.503,
+    41.8963
+   ],
+   "locName": "the execution ground outside the Porta Esquilina",
+   "precision": "approx",
+   "monument": null,
+   "event": null,
+   "people": [
+    "nero"
+   ],
+   "cats": [
+    "violence",
+    "political"
+   ],
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "15.60"
+    }
+   ],
+   "certainty": "reconstructed",
+   "note": "The 'locus servilibus poenis sepositus' is usually placed in the Esquiline field outside the gate."
+  },
+  {
+   "id": "poppaea_funeral_65",
+   "year": 65,
+   "title": "Poppaea embalmed and laid in the Mausoleum",
+   "summary": "Poppaea died from a kick by Nero while pregnant. Instead of cremation her body was embalmed with spices in the manner of foreign kings and placed in the Mausoleum of Augustus; Nero praised her beauty from the Rostra.",
+   "loc": [
+    12.47639,
+    41.90611
+   ],
+   "locName": "the Mausoleum of Augustus; eulogy on the Rostra",
+   "precision": "building",
+   "monument": "mausoleum_of_augustus",
+   "event": null,
+   "people": [
+    "poppaea_sabina",
+    "nero"
+   ],
+   "cats": [
+    "funeral",
+    "scandal"
+   ],
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "16.6"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Nero",
+     "r": "35.3"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Natural History",
+     "r": "12.83"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "pisonian_plot_circus_65",
+   "year": 65,
+   "month": 4,
+   "day": 19,
+   "title": "The Pisonian plot set for the Circus games of Ceres",
+   "summary": "The conspirators planned to kill Nero at the Ludi Ceriales in the Circus, near the Temple of Ceres; the plot was betrayed the day before by the freedman Milichus.",
+   "loc": [
+    12.4825,
+    41.8872
+   ],
+   "locName": "the Circus Maximus near the Temple of Ceres",
+   "precision": "building",
+   "monument": "circus_maximus",
+   "event": null,
+   "people": [
+    "gaius_calpurnius_piso_conspirator",
+    "nero",
+    "seneca",
+    "lucan"
+   ],
+   "cats": [
+    "political",
+    "violence"
+   ],
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "15.53-55"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "tiridates_crowned_rostra_66",
+   "year": 66,
+   "title": "Tiridates crowned in the Forum",
+   "summary": "At dawn, before praetorians drawn up around the temples of the Forum, the Armenian king climbed the Rostra, knelt to Nero seated in triumphal dress, and received the diadem; Janus was closed.",
+   "loc": [
+    12.484636,
+    41.892615
+   ],
+   "locName": "the Rostra in the Forum",
+   "precision": "building",
+   "monument": "rostra",
+   "event": "coronation_of_tiridates",
+   "people": [
+    "tiridates_i_of_armenia",
+    "nero"
+   ],
+   "cats": [
+    "political",
+    "spectacle"
+   ],
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Nero",
+     "r": "13"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "63.4-5"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "golden_day_pompey_66",
+   "year": 66,
+   "title": "The 'Golden Day' in the Theatre of Pompey",
+   "summary": "For Tiridates, Nero had the whole interior of Pompey's theatre gilded in a day, with purple awnings embroidered with Nero driving a chariot among stars.",
+   "loc": [
+    12.473611,
+    41.895278
+   ],
+   "locName": "the Theatre of Pompey",
+   "precision": "building",
+   "monument": "theatre_of_pompey_mon",
+   "event": "coronation_of_tiridates",
+   "people": [
+    "nero",
+    "tiridates_i_of_armenia"
+   ],
+   "cats": [
+    "spectacle"
+   ],
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Natural History",
+     "r": "33.54"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "63.6.1-2"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "nero_ashes_domitii_tomb_68",
+   "year": 68,
+   "title": "Nero's ashes in the tomb of the Domitii on the Pincian",
+   "summary": "His nurses and Acte placed his remains in the family tomb of the Domitii on the Hill of Gardens, visible from the Campus Martius, in a porphyry sarcophagus; for years flowers appeared there.",
+   "loc": [
+    12.476447,
+    41.911378
+   ],
+   "locName": "tomb of the Domitii on the Pincian slope (near S. Maria del Popolo)",
+   "precision": "approx",
+   "monument": null,
+   "event": "death_of_nero",
+   "people": [
+    "nero"
+   ],
+   "cats": [
+    "funeral"
+   ],
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Nero",
+     "r": "50, 57"
+    }
+   ],
+   "certainty": "reconstructed"
+  },
+  {
+   "id": "nero_flight_past_camp_68",
+   "year": 68,
+   "month": 6,
+   "day": 9,
+   "title": "Nero flees past the Praetorian Camp",
+   "summary": "Barefoot and in a cloak, Nero rode out with four companions toward his freedman Phaon's villa between the Via Salaria and Nomentana; passing near the camp he heard the soldiers cheering Galba. He died at the villa that night.",
+   "loc": [
+    12.502137,
+    41.908564
+   ],
+   "locName": "from the palace past the Castra Praetoria to the Nomentan road",
+   "precision": "approx",
+   "monument": "porta_nomentana",
+   "event": "death_of_nero",
+   "people": [
+    "nero"
+   ],
+   "cats": [
+    "political"
+   ],
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Nero",
+     "r": "48-49"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "63.27-29"
+    }
+   ],
+   "certainty": "reconstructed",
+   "note": "The Aurelian Porta Nomentana did not yet exist; marker on the line of the road just beyond the camp."
+  },
+  {
+   "id": "otho_hailed_miliarium_69",
+   "year": 69,
+   "month": 1,
+   "day": 15,
+   "title": "Otho hailed emperor at the Golden Milestone",
+   "summary": "Otho slipped away from Galba's sacrifice at the Temple of Apollo and met 23 soldiers at the Golden Milestone below the Temple of Saturn, who hailed him and carried him in a litter to the camp.",
+   "loc": [
+    12.484382,
+    41.892578
+   ],
+   "locName": "the Miliarium Aureum below the Temple of Saturn",
+   "precision": "exact",
+   "monument": "miliarium_aureum",
+   "event": "murder_of_galba",
+   "people": [
+    "otho",
+    "galba"
+   ],
+   "cats": [
+    "political",
+    "military"
+   ],
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Histories",
+     "r": "1.27"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Otho",
+     "r": "6.2"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Galba",
+     "r": "24-25"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "galba_killed_lacus_curtius_69",
+   "year": 69,
+   "month": 1,
+   "day": 15,
+   "title": "Galba murdered at the Lacus Curtius",
+   "summary": "Carried in his chair into the crowded Forum, Galba was thrown out by his panicking bearers beside the Lacus Curtius. Otho's cavalry cut him down, offering his neck; his head was carried on a pole around the camp.",
+   "loc": [
+    12.485088,
+    41.892342
+   ],
+   "locName": "beside the Lacus Curtius in the centre of the Forum",
+   "precision": "exact",
+   "monument": "lacus_curtius",
+   "event": "murder_of_galba",
+   "people": [
+    "galba",
+    "otho"
+   ],
+   "cats": [
+    "violence",
+    "political"
+   ],
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Histories",
+     "r": "1.40-41"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Galba",
+     "r": "19-20"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Galba",
+     "r": "26-27"
+    }
+   ],
+   "certainty": "documented",
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ]
+  },
+  {
+   "id": "piso_killed_vesta_69",
+   "year": 69,
+   "month": 1,
+   "day": 15,
+   "title": "Piso Licinianus dragged from the Temple of Vesta",
+   "summary": "Galba's adopted heir took refuge in the Temple of Vesta, sheltered by a slave; he was dragged out and killed at the temple door.",
+   "loc": [
+    12.486197,
+    41.891694
+   ],
+   "locName": "doorway of the Temple of Vesta",
+   "precision": "exact",
+   "monument": "temple_of_vesta",
+   "event": "murder_of_galba",
+   "people": [
+    "piso_licinianus",
+    "otho"
+   ],
+   "cats": [
+    "violence",
+    "political"
+   ],
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Histories",
+     "r": "1.43"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Galba",
+     "r": "27"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "tiber_flood_otho_69",
+   "year": 69,
+   "month": 3,
+   "title": "Flood wrecks the Pons Sublicius as Otho prepares for war",
+   "summary": "A sudden flood broke the Pons Sublicius, flooded the low city and the Campus Martius and blocked the Via Flaminia, taken as an omen against Otho's campaign.",
+   "loc": [
+    12.479525,
+    41.887675
+   ],
+   "locName": "the Pons Sublicius and the Campus Martius",
+   "precision": "area",
+   "monument": "pons_sublicius",
+   "event": null,
+   "people": [
+    "otho"
+   ],
+   "cats": [
+    "disaster",
+    "omen"
+   ],
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Histories",
+     "r": "1.86"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Otho",
+     "r": "8.3"
+    },
+    {
+     "a": "Plutarch",
+     "w": "Otho",
+     "r": "4.5"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "vitellius_enters_rome_69",
+   "year": 69,
+   "month": 7,
+   "title": "Vitellius enters Rome in a general's cloak",
+   "summary": "Vitellius set out from the Milvian Bridge on horseback in uniform, ready to enter the city as a conqueror; his friends persuaded him to change into the toga, and his army filled the city.",
+   "loc": [
+    12.466944,
+    41.935556
+   ],
+   "locName": "from the Milvian Bridge to the Capitol",
+   "precision": "building",
+   "monument": "pons_milvius",
+   "event": null,
+   "people": [
+    "vitellius"
+   ],
+   "cats": [
+    "political",
+    "military"
+   ],
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Histories",
+     "r": "2.89"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Vitellius",
+     "r": "11"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "vitellius_abdication_rostra_69",
+   "year": 69,
+   "month": 12,
+   "day": 18,
+   "title": "Vitellius tries to abdicate at the Rostra",
+   "summary": "Dressed in black, Vitellius came down from the palace and offered his dagger to the consul before the Rostra; the crowd blocked the way to the Temple of Concord, where he meant to lay down his insignia, and forced him back to the palace.",
+   "loc": [
+    12.484636,
+    41.892615
+   ],
+   "locName": "the Rostra; the crowd blocked the road to the Temple of Concord",
+   "precision": "building",
+   "monument": "rostra",
+   "event": null,
+   "people": [
+    "vitellius",
+    "titus_flavius_sabinus_praefectus"
+   ],
+   "cats": [
+    "political"
+   ],
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Histories",
+     "r": "3.67-68"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Vitellius",
+     "r": "15.4"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "capitol_burns_flavian_69",
+   "year": 69,
+   "month": 12,
+   "day": 19,
+   "title": "The Capitol burns in the fighting",
+   "summary": "Vitellian troops stormed the Capitol where Flavius Sabinus held out, attacking up the Clivus Capitolinus and the Hundred Steps; fire spread from the houses to the porticoes and the Temple of Jupiter burned to the ground.",
+   "loc": [
+    12.48195,
+    41.89235
+   ],
+   "locName": "the Temple of Jupiter Optimus Maximus and the Clivus Capitolinus",
+   "precision": "building",
+   "monument": "temple_of_jupiter_optimus_maximus",
+   "event": "burning_of_the_capitol_69",
+   "people": [
+    "titus_flavius_sabinus_praefectus",
+    "domitian",
+    "vitellius"
+   ],
+   "cats": [
+    "military",
+    "disaster",
+    "violence"
+   ],
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Histories",
+     "r": "3.71-72"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Vitellius",
+     "r": "15.3"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "65.17"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "domitian_escapes_isiac_69",
+   "year": 69,
+   "month": 12,
+   "day": 19,
+   "title": "Domitian escapes the Capitol dressed as a priest of Isis",
+   "summary": "Hidden in the temple keeper's quarters, the young Domitian slipped out in linen as a devotee of Isis and hid with a client, Cornelius Primus, near the Velabrum.",
+   "loc": [
+    12.4829,
+    41.8897
+   ],
+   "locName": "a house near the Velabrum",
+   "precision": "area",
+   "monument": null,
+   "event": "burning_of_the_capitol_69",
+   "people": [
+    "domitian"
+   ],
+   "cats": [
+    "military",
+    "religious"
+   ],
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Histories",
+     "r": "3.74"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Domitian",
+     "r": "1.2"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "sabinus_body_gemoniae_69",
+   "year": 69,
+   "month": 12,
+   "day": 19,
+   "title": "Flavius Sabinus killed and thrown on the Gemonian Stairs",
+   "summary": "Vespasian's brother was dragged in chains before Vitellius at the palace and hacked to death by the crowd; his head was cut off and his body thrown down the Gemonian Stairs.",
+   "loc": [
+    12.48438,
+    41.89323
+   ],
+   "locName": "the Scalae Gemoniae",
+   "precision": "building",
+   "monument": "scalae_gemoniae",
+   "event": null,
+   "people": [
+    "titus_flavius_sabinus_praefectus",
+    "vitellius"
+   ],
+   "cats": [
+    "violence",
+    "political"
+   ],
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Histories",
+     "r": "3.74"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Vitellius",
+     "r": "15.3"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "flavian_fighting_campus_sallust_69",
+   "year": 69,
+   "month": 12,
+   "day": 20,
+   "title": "Street fighting in the Campus Martius and the Gardens of Sallust",
+   "summary": "The Flavian army attacked in three columns down the Via Flaminia, along the river and the Via Salaria; there was fighting in the Gardens of Sallust and the Campus Martius while the populace watched and cheered as at the games.",
+   "loc": [
+    12.4953,
+    41.9066
+   ],
+   "locName": "the Horti Sallustiani and the Campus Martius",
+   "precision": "area",
+   "monument": "horti_sallustiani",
+   "event": "death_of_vitellius",
+   "people": [
+    "marcus_antonius_primus",
+    "vitellius"
+   ],
+   "cats": [
+    "military",
+    "violence"
+   ],
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Histories",
+     "r": "3.82-83"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "castra_praetoria_stormed_69",
+   "year": 69,
+   "month": 12,
+   "day": 20,
+   "title": "Flavians storm the Praetorian Camp",
+   "summary": "The last Vitellians fought from the walls and towers of the Castra Praetoria; the attackers battered the gates with siege methods and the defenders died to the last man.",
+   "loc": [
+    12.5058,
+    41.9059
+   ],
+   "locName": "the Castra Praetoria",
+   "precision": "building",
+   "monument": "castra_praetoria_mon",
+   "event": "death_of_vitellius",
+   "people": [
+    "marcus_antonius_primus"
+   ],
+   "cats": [
+    "military",
+    "violence"
+   ],
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Histories",
+     "r": "3.84"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "vitellius_gemoniae_69",
+   "year": 69,
+   "month": 12,
+   "day": 20,
+   "title": "Vitellius dragged to the Gemonian Stairs",
+   "summary": "Found hiding in a doorkeeper's lodge in the deserted palace, Vitellius was led half-naked with a noose round his neck through the Forum, forced to watch his statues fall, tortured and killed at the Gemonian Stairs; his body was dragged into the Tiber.",
+   "loc": [
+    12.48438,
+    41.89323
+   ],
+   "locName": "the Scalae Gemoniae, reached from the palace through the Forum",
+   "precision": "exact",
+   "monument": "scalae_gemoniae",
+   "event": "death_of_vitellius",
+   "people": [
+    "vitellius"
+   ],
+   "cats": [
+    "violence",
+    "political"
+   ],
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Histories",
+     "r": "3.84-85"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Vitellius",
+     "r": "16-17"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "65.20-21"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "capitol_restoration_ceremony_70",
+   "year": 70,
+   "month": 6,
+   "day": 21,
+   "title": "Ceremony for rebuilding the Capitol",
+   "summary": "The area of the burned temple was purified with water from springs and rivers; the praetor Helvidius Priscus dedicated the site and magistrates, priests and people hauled the first stone with ropes. Vespasian later carried rubble on his own head.",
+   "loc": [
+    12.48195,
+    41.89235
+   ],
+   "locName": "the site of the Capitoline temple",
+   "precision": "building",
+   "monument": "temple_of_jupiter_optimus_maximus",
+   "event": null,
+   "people": [
+    "helvidius_priscus",
+    "vespasian"
+   ],
+   "cats": [
+    "religious",
+    "construction"
+   ],
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Histories",
+     "r": "4.53"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Divus Vespasianus",
+     "r": "8.5"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "flavian_triumph_porticus_octaviae_71",
+   "year": 71,
+   "month": 6,
+   "title": "Vespasian and Titus start their triumph at the Porticus Octaviae",
+   "summary": "After spending the night near the temple of Isis, Vespasian and Titus came at dawn, crowned with laurel, to the Porticus Octaviae where the senate waited; they offered prayers, breakfasted and set off through the Porta Triumphalis.",
+   "loc": [
+    12.478533,
+    41.892436
+   ],
+   "locName": "the Porticus Octaviae (start of the procession)",
+   "precision": "building",
+   "monument": "porticus_octaviae",
+   "event": "flavian_triumph_71",
+   "people": [
+    "vespasian",
+    "titus",
+    "josephus"
+   ],
+   "cats": [
+    "triumph"
+   ],
+   "sources": [
+    {
+     "a": "Josephus",
+     "w": "Jewish War",
+     "r": "7.123-131"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "simon_bar_giora_executed_71",
+   "year": 71,
+   "month": 6,
+   "title": "Simon bar Giora executed in the Forum",
+   "summary": "As the triumph reached the Temple of Jupiter on the Capitol, the procession halted until news came that Simon son of Giora, led in the triumph with a noose around his neck, had been put to death in the Forum.",
+   "loc": [
+    12.484585,
+    41.893143
+   ],
+   "locName": "the Forum / Carcer below the Capitol",
+   "precision": "building",
+   "monument": "carcer_tullianum",
+   "event": "flavian_triumph_71",
+   "people": [
+    "simon_bar_giora",
+    "vespasian",
+    "titus"
+   ],
+   "cats": [
+    "triumph",
+    "violence"
+   ],
+   "sources": [
+    {
+     "a": "Josephus",
+     "w": "Jewish War",
+     "r": "7.153-155"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "jerusalem_spoils_templum_pacis_75",
+   "year": 75,
+   "title": "Temple of Peace dedicated with the spoils of Jerusalem",
+   "summary": "Vespasian dedicated his Temple of Peace with a garden court and galleries of famous Greek works; the golden vessels of the Jerusalem Temple were displayed there, while the Law and purple veils were kept in the palace.",
+   "loc": [
+    12.487357,
+    41.892733
+   ],
+   "locName": "the Templum Pacis",
+   "precision": "building",
+   "monument": "templum_pacis",
+   "event": "temple_of_peace",
+   "people": [
+    "vespasian"
+   ],
+   "cats": [
+    "construction",
+    "religious"
+   ],
+   "sources": [
+    {
+     "a": "Josephus",
+     "w": "Jewish War",
+     "r": "7.158-162"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "66.15.1"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Natural History",
+     "r": "36.102"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "colossus_rededicated_sol_75",
+   "year": 75,
+   "title": "Nero's Colossus rededicated to the Sun",
+   "summary": "Vespasian had Nero's 120-foot bronze statue in the vestibule of the Golden House given the rays of the Sun god and rewarded the engineer who proposed moving columns to the Capitol cheaply.",
+   "loc": [
+    12.489657,
+    41.890894
+   ],
+   "locName": "the vestibule of the Domus Aurea on the Velia (later site of the Temple of Venus and Roma)",
+   "precision": "approx",
+   "monument": "temple_of_venus_and_roma_mon",
+   "event": null,
+   "people": [
+    "vespasian",
+    "nero"
+   ],
+   "cats": [
+    "construction",
+    "religious"
+   ],
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Divus Vespasianus",
+     "r": "18"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "66.15.1"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Natural History",
+     "r": "34.45"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "fire_campus_capitol_80",
+   "year": 80,
+   "title": "Three-day fire in the Campus Martius and on the Capitol",
+   "summary": "While Titus was in Campania, a fire burned the Temple of Serapis and Isis, the Saepta, the Temple of Neptune, the Baths of Agrippa, the Pantheon, the Diribitorium, the Theatre of Balbus, Pompey's stage, the Porticus Octaviae and the newly rebuilt Capitoline temple.",
+   "loc": [
+    12.4785,
+    41.8975
+   ],
+   "locName": "the central Campus Martius (Saepta, Pantheon, Iseum) and the Capitol",
+   "precision": "area",
+   "monument": "saepta_julia",
+   "event": "fire_and_plague_of_80",
+   "people": [
+    "titus"
+   ],
+   "cats": [
+    "disaster"
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "66.24.1-3"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Divus Titus",
+     "r": "8.3"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "colosseum_inaugural_games_80",
+   "year": 80,
+   "title": "The Colosseum's 100-day inaugural games",
+   "summary": "Titus opened the Flavian Amphitheatre with a hundred days of games: 9000 animals killed in one day, women fighting beasts, cranes and elephants, and the arena flooded for a sea battle. Martial's Book of Spectacles celebrates the shows.",
+   "loc": [
+    12.492231,
+    41.89021
+   ],
+   "locName": "the arena of the Flavian Amphitheatre",
+   "precision": "building",
+   "monument": "colosseum",
+   "event": "inauguration_of_the_colosseum",
+   "people": [
+    "titus",
+    "martial"
+   ],
+   "cats": [
+    "spectacle",
+    "construction"
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "66.25"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Divus Titus",
+     "r": "7.3"
+    },
+    {
+     "a": "Martial",
+     "w": "Liber Spectaculorum"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "selius_dinner_hunt",
+   "year": 85,
+   "title": "Selius hunts for a dinner invitation through the porticoes",
+   "summary": "Martial follows the parasite Selius as he tries every haunt: the portico of Europa, the Saepta, the temples of Isis and Serapis, the Hecatostylon and Pompey's portico, then the baths of Fortunatus, Faustus, Gryllus and Lupus.",
+   "loc": [
+    12.4785,
+    41.8975
+   ],
+   "locName": "the Saepta and porticoes of the Campus Martius",
+   "precision": "area",
+   "monument": "saepta_julia",
+   "event": null,
+   "people": [
+    "martial"
+   ],
+   "cats": [
+    "literary",
+    "daily"
+   ],
+   "sources": [
+    {
+     "a": "Martial",
+     "w": "Epigrams",
+     "r": "2.14"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "capitoline_agon_stadium_86",
+   "year": 86,
+   "title": "First Capitoline Games in the new stadium",
+   "summary": "Domitian founded the four-yearly Capitoline contest in music, athletics and horsemanship, presiding in Greek dress with a crown bearing the Capitoline triad; the athletic events were held in his stadium in the Campus Martius.",
+   "loc": [
+    12.4731,
+    41.8989
+   ],
+   "locName": "the Stadium of Domitian (Piazza Navona)",
+   "precision": "building",
+   "monument": "stadium_of_domitian",
+   "event": "agon_capitolinus_86",
+   "people": [
+    "domitian"
+   ],
+   "cats": [
+    "spectacle"
+   ],
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Domitian",
+     "r": "4.4"
+    },
+    {
+     "a": "Censorinus",
+     "w": "De die natali",
+     "r": "18.15"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "martial_pear_tree_flat",
+   "year": 86,
+   "title": "Martial's third-floor flat 'at the Pear Tree'",
+   "summary": "Martial tells an acquaintance not to send his slave all the way to his lodgings 'ad Pirum' on the Quirinal, up three high flights of stairs; better to buy his book at Atrectus' shop opposite Caesar's forum.",
+   "loc": [
+    12.4895,
+    41.9008
+   ],
+   "locName": "Martial's flat at the Pear Tree on the Quirinal, third floor",
+   "precision": "approx",
+   "monument": null,
+   "event": null,
+   "people": [
+    "martial"
+   ],
+   "cats": [
+    "literary",
+    "daily"
+   ],
+   "sources": [
+    {
+     "a": "Martial",
+     "w": "Epigrams",
+     "r": "1.117.6-7"
+    }
+   ],
+   "certainty": "reconstructed",
+   "note": "'Ad Pirum' was a locality on the Quirinal; Martial later had a small house there (Mart 9.18, 10.58)."
+  },
+  {
+   "id": "atrectus_bookshop_argiletum",
+   "year": 86,
+   "title": "Atrectus' bookshop in the Argiletum",
+   "summary": "'Opposite Caesar's forum there is a shop with its doorposts covered with titles'; there Atrectus will hand over Martial's first book polished with pumice and purple for five denarii.",
+   "loc": [
+    12.487,
+    41.89365
+   ],
+   "locName": "a bookshop in the Argiletum opposite the Forum of Caesar",
+   "precision": "street",
+   "monument": "argiletum",
+   "event": null,
+   "people": [
+    "martial"
+   ],
+   "cats": [
+    "literary",
+    "daily"
+   ],
+   "sources": [
+    {
+     "a": "Martial",
+     "w": "Epigrams",
+     "r": "1.117.9-17, 1.3"
+    }
+   ],
+   "certainty": "reconstructed"
+  },
+  {
+   "id": "secundus_bookshop_pacis",
+   "year": 86,
+   "title": "Secundus' bookshop behind the Temple of Peace",
+   "summary": "Martial advertises a portable parchment edition of his poems sold by Secundus, freedman of Lucensis, 'behind the threshold of Peace and the Forum of Pallas', a rare early mention of the codex.",
+   "loc": [
+    12.488,
+    41.8933
+   ],
+   "locName": "behind the Templum Pacis and the Forum of Nerva",
+   "precision": "approx",
+   "monument": null,
+   "event": null,
+   "people": [
+    "martial"
+   ],
+   "cats": [
+    "literary",
+    "daily"
+   ],
+   "sources": [
+    {
+     "a": "Martial",
+     "w": "Epigrams",
+     "r": "1.2"
+    }
+   ],
+   "certainty": "reconstructed"
+  },
+  {
+   "id": "secular_games_88",
+   "year": 88,
+   "title": "Domitian's Secular Games",
+   "summary": "Domitian held the Secular Games, reckoning from Augustus' rather than Claudius' celebration, with nocturnal rites by the Tiber at the Tarentum; Tacitus took part as one of the Fifteen.",
+   "loc": [
+    12.4675,
+    41.8994
+   ],
+   "locName": "the Tarentum in the NW Campus Martius",
+   "precision": "building",
+   "monument": "tarentum_altar",
+   "event": "ludi_saeculares_88",
+   "people": [
+    "domitian",
+    "tacitus"
+   ],
+   "cats": [
+    "religious",
+    "spectacle"
+   ],
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Domitian",
+     "r": "4.3"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annals",
+     "r": "11.11"
+    },
+    {
+     "a": "Censorinus",
+     "w": "De die natali",
+     "r": "17.11"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "domitian_black_banquet",
+   "year": 89,
+   "title": "Domitian's black banquet",
+   "summary": "Domitian invited senators and knights to a room painted entirely black, with tombstone-shaped place cards and boys painted black as ghosts; the terrified guests were sent home and then showered with gifts.",
+   "loc": [
+    12.486603,
+    41.888796
+   ],
+   "locName": "a dining room of the Domus Flavia",
+   "precision": "approx",
+   "monument": "domus_flavia",
+   "event": null,
+   "people": [
+    "domitian"
+   ],
+   "cats": [
+    "scandal"
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "67.9"
+    }
+   ],
+   "certainty": "reconstructed",
+   "note": "Dio places it after the Dacian war, c. 89."
+  },
+  {
+   "id": "saturnalia_feast_amphitheatre",
+   "year": 89,
+   "month": 12,
+   "day": 1,
+   "title": "Domitian's Saturnalia feast for the whole people",
+   "summary": "Statius describes the Kalends of December when Domitian feasted the entire city in the amphitheatre: fruit and pastries rained from ropes, servers carried food to every row, and there were shows of women and dwarfs fighting by torchlight.",
+   "loc": [
+    12.492231,
+    41.89021
+   ],
+   "locName": "the Flavian Amphitheatre",
+   "precision": "building",
+   "monument": "colosseum",
+   "event": null,
+   "people": [
+    "domitian",
+    "statius"
+   ],
+   "cats": [
+    "spectacle",
+    "daily",
+    "literary"
+   ],
+   "sources": [
+    {
+     "a": "Statius",
+     "w": "Silvae",
+     "r": "1.6"
+    }
+   ],
+   "certainty": "reconstructed",
+   "note": "Year uncertain (between 88 and 95)."
+  },
+  {
+   "id": "neronian_fire_altars_domitian",
+   "year": 90,
+   "title": "Domitian's altars for the Neronian fire",
+   "summary": "In fulfilment of a vow made after the fire of 64, Domitian set up altars in every region to avert fires, with annual sacrifices on the Volcanalia; one survives on the Quirinal.",
+   "loc": [
+    12.4891,
+    41.9004
+   ],
+   "locName": "altar of the Neronian fire on the Quirinal (Via del Quirinale)",
+   "precision": "exact",
+   "monument": null,
+   "event": null,
+   "people": [
+    "domitian"
+   ],
+   "cats": [
+    "religious",
+    "disaster"
+   ],
+   "sources": [
+    {
+     "a": "Corpus Inscriptionum Latinarum",
+     "w": "inscription",
+     "r": "VI 826"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "vestal_cornelia_buried_91",
+   "year": 91,
+   "title": "Chief Vestal Cornelia buried alive",
+   "summary": "Domitian, as pontifex maximus, condemned the Chief Vestal Cornelia for unchastity without hearing her; protesting her innocence, she was led to the underground chamber at the Colline Gate and entombed. Her alleged lover Celer was beaten to death with rods in the Comitium.",
+   "loc": [
+    12.4976,
+    41.9062
+   ],
+   "locName": "the Campus Sceleratus inside the Porta Collina",
+   "precision": "approx",
+   "monument": "servian_wall_mon",
+   "event": "execution_of_vestal_cornelia",
+   "people": [
+    "domitian"
+   ],
+   "cats": [
+    "religious",
+    "violence",
+    "scandal"
+   ],
+   "sources": [
+    {
+     "a": "Pliny the Younger",
+     "w": "Letters",
+     "r": "4.11"
+    },
+    {
+     "a": "Suetonius",
+     "w": "Domitian",
+     "r": "8.4"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "67.3.3-4"
+    }
+   ],
+   "certainty": "documented",
+   "note": "Date given as 89-91; Celer's beating took place in the Comitium (Suet. Dom. 8.4)."
+  },
+  {
+   "id": "equus_domitiani_91",
+   "year": 91,
+   "title": "Giant equestrian statue of Domitian in the Forum",
+   "summary": "A colossal bronze of Domitian on horseback was set up in the middle of the Forum, its forefoot on the head of the Rhine; Statius wrote a poem for its dedication. Its concrete foundation still lies in the square.",
+   "loc": [
+    12.4854,
+    41.89235
+   ],
+   "locName": "centre of the Forum Romanum, by the Lacus Curtius",
+   "precision": "exact",
+   "monument": "forum_romanum",
+   "event": null,
+   "people": [
+    "domitian",
+    "statius"
+   ],
+   "cats": [
+    "construction",
+    "political",
+    "literary"
+   ],
+   "sources": [
+    {
+     "a": "Statius",
+     "w": "Silvae",
+     "r": "1.1"
+    }
+   ],
+   "certainty": "reconstructed",
+   "scholarship": [
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ]
+  },
+  {
+   "id": "domitian_edict_streets_92",
+   "year": 92,
+   "title": "Domitian clears the shops from the streets",
+   "summary": "Martial celebrates an edict banning shopkeepers from encroaching on the streets: no more chained wine flasks on pillars, barbers shaving in the crowd, or cooks blocking the way. 'Now it is Rome; recently it was one big shop.'",
+   "loc": [
+    12.487,
+    41.89365
+   ],
+   "locName": "the shop-lined streets of the centre (Argiletum, Subura)",
+   "precision": "area",
+   "monument": "argiletum",
+   "event": null,
+   "people": [
+    "domitian",
+    "martial"
+   ],
+   "cats": [
+    "daily",
+    "legal",
+    "literary"
+   ],
+   "sources": [
+    {
+     "a": "Martial",
+     "w": "Epigrams",
+     "r": "7.61"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "mamurra_shopping_saepta",
+   "year": 94,
+   "title": "Mamurra window-shops in the Saepta",
+   "summary": "Martial's Mamurra spends a whole day in the luxury shops of the Saepta Julia, fingering slaves, tortoiseshell couches, Corinthian bronzes and crystal cups, and finally buys two cheap cups for an as.",
+   "loc": [
+    12.4785,
+    41.8975
+   ],
+   "locName": "the luxury shops of the Saepta Julia",
+   "precision": "building",
+   "monument": "saepta_julia",
+   "event": null,
+   "people": [
+    "martial"
+   ],
+   "cats": [
+    "literary",
+    "daily"
+   ],
+   "sources": [
+    {
+     "a": "Martial",
+     "w": "Epigrams",
+     "r": "9.59"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "martial_book_to_pliny_esquiline",
+   "year": 95,
+   "title": "Martial's book goes up past the Orpheus fountain to Pliny's house",
+   "summary": "Martial sends his tenth book to Pliny on the Esquiline: up the steep path from the Subura, where it will see Orpheus dripping on top of his watery theatre and the animals around him, and Pliny's house just beyond.",
+   "loc": [
+    12.4967,
+    41.89465
+   ],
+   "locName": "the Lacus Orphei at the top of the Clivus Suburanus, Esquiline",
+   "precision": "approx",
+   "monument": "lacus_orphei",
+   "event": null,
+   "people": [
+    "martial",
+    "pliny_the_younger"
+   ],
+   "cats": [
+    "literary",
+    "daily"
+   ],
+   "sources": [
+    {
+     "a": "Martial",
+     "w": "Epigrams",
+     "r": "10.20"
+    }
+   ],
+   "certainty": "reconstructed"
+  },
+  {
+   "id": "phyllis_ashes_gens_flavia_96",
+   "year": 96,
+   "month": 9,
+   "title": "Domitian's nurse takes his ashes to the Temple of the Flavians",
+   "summary": "His nurse Phyllis cremated him at her villa on the Via Latina and secretly mixed his ashes with those of his niece Julia in the Temple of the Flavian family on the Quirinal, built on the site of his birthplace.",
+   "loc": [
+    12.489441,
+    41.902688
+   ],
+   "locName": "the Templum Gentis Flaviae on the Quirinal (site of Domitian's birthplace 'ad Malum Punicum')",
+   "precision": "approx",
+   "monument": "templum_gentis_flaviae",
+   "event": null,
+   "people": [
+    "domitian",
+    "julia_flavia"
+   ],
+   "cats": [
+    "funeral"
+   ],
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Domitian",
+     "r": "1.1, 17.3"
+    }
+   ],
+   "certainty": "reconstructed"
+  },
+  {
+   "id": "domitian_shields_torn_curia_96",
+   "year": 96,
+   "month": 9,
+   "title": "Senators tear down Domitian's images in the Curia",
+   "summary": "The senate packed into the Curia abused the dead emperor, had ladders brought to wrench down his shields and portraits, and decreed that his inscriptions be erased everywhere.",
+   "loc": [
+    12.485397,
+    41.892962
+   ],
+   "locName": "the Curia Iulia",
+   "precision": "building",
+   "monument": "curia_iulia",
+   "event": null,
+   "people": [
+    "domitian",
+    "nerva"
+   ],
+   "cats": [
+    "political"
+   ],
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Domitian",
+     "r": "23.1"
+    },
+    {
+     "a": "Pliny the Younger",
+     "w": "Panegyricus",
+     "r": "52.4-5"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "68.1.1"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "domitian_murdered_bedroom_96",
+   "year": 96,
+   "month": 9,
+   "day": 18,
+   "title": "Domitian murdered in his bedroom",
+   "summary": "The steward Stephanus, his arm bandaged to hide a dagger, handed Domitian a list of conspirators in his bedroom and stabbed him in the groin; others joined in, and the emperor died with seven wounds fighting for the sword under his pillow.",
+   "loc": [
+    12.487038,
+    41.888063
+   ],
+   "locName": "Domitian's bedroom in the residential wing of the palace",
+   "precision": "approx",
+   "monument": "domus_augustana",
+   "event": "assassination_of_domitian",
+   "people": [
+    "domitian",
+    "domitia_longina"
+   ],
+   "cats": [
+    "violence",
+    "political"
+   ],
+   "sources": [
+    {
+     "a": "Suetonius",
+     "w": "Domitian",
+     "r": "16-17"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "67.17-18"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "nerva_adopts_trajan_capitol_97",
+   "year": 97,
+   "month": 10,
+   "title": "Nerva adopts Trajan before Jupiter on the Capitol",
+   "summary": "Humiliated by the praetorians' mutiny, the old emperor climbed the Capitol with news of a victory in Pannonia and, before the altar of Jupiter, announced the adoption of Trajan, then governor of Upper Germany.",
+   "loc": [
+    12.48195,
+    41.89235
+   ],
+   "locName": "before the Temple of Jupiter Optimus Maximus",
+   "precision": "building",
+   "monument": "temple_of_jupiter_optimus_maximus",
+   "event": null,
+   "people": [
+    "nerva",
+    "trajan",
+    "casperius_aelianus"
+   ],
+   "cats": [
+    "political",
+    "religious"
+   ],
+   "sources": [
+    {
+     "a": "Pliny the Younger",
+     "w": "Panegyricus",
+     "r": "8"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "68.3.4"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "trajan_enters_on_foot_99",
+   "year": 99,
+   "title": "Trajan enters Rome on foot",
+   "summary": "Returning from the frontier as emperor, Trajan entered the city walking among the senators, while the roofs groaned under spectators and the old and sick were carried out to see him.",
+   "loc": [
+    12.481,
+    41.899
+   ],
+   "locName": "along the Via Lata / Flaminia into the city",
+   "precision": "street",
+   "monument": null,
+   "event": "trajan_enters_rome_99",
+   "people": [
+    "trajan",
+    "plotina",
+    "pliny_the_younger"
+   ],
+   "cats": [
+    "political"
+   ],
+   "sources": [
+    {
+     "a": "Pliny the Younger",
+     "w": "Panegyricus",
+     "r": "22-23"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "marius_priscus_trial_100",
+   "year": 100,
+   "month": 1,
+   "title": "Trial of Marius Priscus: Pliny and Tacitus prosecute",
+   "summary": "In January 100 the senate, with Trajan presiding as consul, heard the extortion case of the proconsul of Africa; Pliny spoke for nearly five hours by lamplight and Tacitus replied 'eloquently and with majesty'.",
+   "loc": [
+    12.485397,
+    41.892962
+   ],
+   "locName": "the Curia Iulia",
+   "precision": "building",
+   "monument": "curia_iulia",
+   "event": "trial_of_marius_priscus_100",
+   "people": [
+    "pliny_the_younger",
+    "tacitus",
+    "trajan"
+   ],
+   "cats": [
+    "legal",
+    "political",
+    "literary"
+   ],
+   "sources": [
+    {
+     "a": "Pliny the Younger",
+     "w": "Letters",
+     "r": "2.11"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "pliny_panegyricus_100",
+   "year": 100,
+   "month": 9,
+   "day": 1,
+   "title": "Pliny delivers the Panegyricus",
+   "summary": "On taking up his suffect consulship, Pliny thanked Trajan in the senate with the speech later expanded into the Panegyricus, a portrait of the ideal emperor set against Domitian.",
+   "loc": [
+    12.485397,
+    41.892962
+   ],
+   "locName": "the Curia Iulia",
+   "precision": "building",
+   "monument": "curia_iulia",
+   "event": null,
+   "people": [
+    "pliny_the_younger",
+    "trajan"
+   ],
+   "cats": [
+    "literary",
+    "political"
+   ],
+   "sources": [
+    {
+     "a": "Pliny the Younger",
+     "w": "Panegyricus"
+    },
+    {
+     "a": "Pliny the Younger",
+     "w": "Letters",
+     "r": "3.18"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "juvenal_subura_martial",
+   "year": 101,
+   "title": "Juvenal sweating in the Subura",
+   "summary": "From his farm in Spain Martial pictures his friend Juvenal wandering restlessly through the noisy Subura, climbing the Caelian, and sweating in his toga on the thresholds of the great.",
+   "loc": [
+    12.4923,
+    41.8953
+   ],
+   "locName": "the Subura and the slopes of the Caelian",
+   "precision": "area",
+   "monument": null,
+   "event": null,
+   "people": [
+    "juvenal",
+    "martial"
+   ],
+   "cats": [
+    "literary",
+    "daily"
+   ],
+   "sources": [
+    {
+     "a": "Martial",
+     "w": "Epigrams",
+     "r": "12.18"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "pliny_centumviral_basilica_iulia",
+   "year": 106,
+   "title": "Pliny's great speech in the Basilica Julia",
+   "summary": "Defending Attia Viriola, disinherited by her old father, Pliny spoke before all four panels of the Centumviral court sitting together in the Basilica Julia; the galleries were packed with men and women leaning over to listen.",
+   "loc": [
+    12.484774,
+    41.891957
+   ],
+   "locName": "the Centumviral court in the Basilica Julia",
+   "precision": "building",
+   "monument": "basilica_iulia",
+   "event": null,
+   "people": [
+    "pliny_the_younger"
+   ],
+   "cats": [
+    "legal",
+    "literary",
+    "daily"
+   ],
+   "sources": [
+    {
+     "a": "Pliny the Younger",
+     "w": "Letters",
+     "r": "6.33"
+    },
+    {
+     "a": "Pliny the Younger",
+     "w": "Letters",
+     "r": "2.14"
+    }
+   ],
+   "certainty": "documented",
+   "note": "Pliny Ep. 2.14 complains of hired claques in the same court."
+  },
+  {
+   "id": "dacian_triumph_games_107",
+   "year": 107,
+   "title": "Trajan's 123 days of games for the Dacian victory",
+   "summary": "To celebrate the conquest of Dacia Trajan gave games lasting 123 days in which 11,000 animals were killed and 10,000 gladiators fought.",
+   "loc": [
+    12.492231,
+    41.89021
+   ],
+   "locName": "the Flavian Amphitheatre",
+   "precision": "building",
+   "monument": "colosseum",
+   "event": "dacian_triumph_107",
+   "people": [
+    "trajan",
+    "decebalus"
+   ],
+   "cats": [
+    "spectacle",
+    "triumph"
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "68.15.1"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "baths_trajan_opened_109",
+   "year": 109,
+   "month": 6,
+   "day": 22,
+   "title": "Baths of Trajan opened",
+   "summary": "Trajan dedicated his vast baths on the Oppian, built over the buried wing of Nero's Golden House; two days later the Aqua Traiana began to flow across the Tiber.",
+   "loc": [
+    12.4965,
+    41.8918
+   ],
+   "locName": "the Baths of Trajan on the Oppian",
+   "precision": "building",
+   "monument": "baths_of_trajan",
+   "event": "baths_of_trajan",
+   "people": [
+    "trajan",
+    "apollodorus_of_damascus"
+   ],
+   "cats": [
+    "construction",
+    "daily"
+   ],
+   "sources": [
+    {
+     "a": "Fasti Ostienses",
+     "w": "inscription"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "juvenal_porta_capena",
+   "year": 110,
+   "title": "Umbricius leaves Rome at the dripping Porta Capena",
+   "summary": "In Juvenal's third satire Umbricius loads his household onto a single cart at 'the old arch and damp Capena', where the aqueduct drips, and rails against Rome's fires, collapsing tenements, night traffic and Greeks, while the grove of Egeria is rented to Jews.",
+   "loc": [
+    12.49048,
+    41.883943
+   ],
+   "locName": "the Porta Capena under the dripping arches of the Aqua Marcia",
+   "precision": "building",
+   "monument": "porta_capena",
+   "event": null,
+   "people": [
+    "juvenal"
+   ],
+   "cats": [
+    "literary",
+    "daily"
+   ],
+   "sources": [
+    {
+     "a": "Juvenal",
+     "w": "Satires",
+     "r": "3.10-20"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "juvenal_night_streets",
+   "year": 110,
+   "title": "Juvenal: the perils of the night streets",
+   "summary": "The same satire describes Rome at night: carts jammed in the narrow lanes keep the sick awake, pots thrown from high windows crack the pavement, and drunken bullies pick fights with the poor man walking home by moonlight.",
+   "loc": [
+    12.4923,
+    41.8953
+   ],
+   "locName": "the narrow streets of the Subura",
+   "precision": "area",
+   "monument": null,
+   "event": null,
+   "people": [
+    "juvenal"
+   ],
+   "cats": [
+    "literary",
+    "daily"
+   ],
+   "sources": [
+    {
+     "a": "Juvenal",
+     "w": "Satires",
+     "r": "3.232-314"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "forum_trajan_dedicated_112",
+   "year": 112,
+   "month": 1,
+   "day": 1,
+   "title": "Forum of Trajan dedicated",
+   "summary": "Trajan dedicated his forum, designed by Apollodorus of Damascus, with the Basilica Ulpia and the gilded equestrian statue; the Fasti Ostienses record the date.",
+   "loc": [
+    12.485245,
+    41.894922
+   ],
+   "locName": "the Forum of Trajan",
+   "precision": "building",
+   "monument": "forum_of_trajan_mon",
+   "event": "forum_of_trajan",
+   "people": [
+    "trajan",
+    "apollodorus_of_damascus"
+   ],
+   "cats": [
+    "construction"
+   ],
+   "sources": [
+    {
+     "a": "Fasti Ostienses",
+     "w": "inscription"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "68.16.3"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "trajan_column_hill_inscription",
+   "year": 113,
+   "title": "Trajan's Column marks the height of the cut hillside",
+   "summary": "The column's inscription states it was set up to show how high a hill had been removed for the great works of the forum, the saddle that joined the Capitol to the Quirinal; its spiral relief of 155 scenes was viewed from the terraces of the libraries on either side.",
+   "loc": [
+    12.484034,
+    41.895663
+   ],
+   "locName": "the library terraces beside Trajan's Column",
+   "precision": "building",
+   "monument": "bibliotheca_ulpia_sw",
+   "event": "trajans_column",
+   "people": [
+    "trajan",
+    "apollodorus_of_damascus"
+   ],
+   "cats": [
+    "construction",
+    "literary"
+   ],
+   "sources": [
+    {
+     "a": "Corpus Inscriptionum Latinarum",
+     "w": "inscription",
+     "r": "VI 960"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "68.16.3"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "trajan_column_dedicated_113",
+   "year": 113,
+   "month": 5,
+   "day": 12,
+   "title": "Trajan's Column dedicated",
+   "summary": "The 100-foot column with its spiral frieze of the Dacian wars was dedicated; its inscription claims to show how high the hillside removed for the forum had been.",
+   "loc": [
+    12.484273,
+    41.895808
+   ],
+   "locName": "Trajan's Column between the libraries",
+   "precision": "exact",
+   "monument": "column_of_trajan",
+   "event": "trajans_column",
+   "people": [
+    "trajan"
+   ],
+   "cats": [
+    "construction"
+   ],
+   "sources": [
+    {
+     "a": "Fasti Ostienses",
+     "w": "inscription"
+    },
+    {
+     "a": "Corpus Inscriptionum Latinarum",
+     "w": "inscription",
+     "r": "VI 960"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "68.16.3"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "trajan_ashes_column_117",
+   "year": 117,
+   "title": "Trajan's ashes placed in the base of his column",
+   "summary": "Trajan died in Cilicia; his ashes in a golden urn were placed in the chamber in the base of his column, the only emperor buried inside the pomerium.",
+   "loc": [
+    12.484273,
+    41.895808
+   ],
+   "locName": "burial chamber in the pedestal of Trajan's Column",
+   "precision": "exact",
+   "monument": "column_of_trajan",
+   "event": "death_of_trajan",
+   "people": [
+    "trajan",
+    "hadrian",
+    "plotina"
+   ],
+   "cats": [
+    "funeral"
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "69.2.3"
+    },
+    {
+     "a": "Eutropius",
+     "w": "Breviarium",
+     "r": "8.5.2"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "hadrian_burns_debts_118",
+   "year": 118,
+   "title": "Hadrian burns the tax-debt records in Trajan's forum",
+   "summary": "To win popularity Hadrian cancelled 900 million sesterces owed to the treasury and had the records burned publicly in the Forum of Trajan.",
+   "loc": [
+    12.485245,
+    41.894922
+   ],
+   "locName": "the Forum of Trajan",
+   "precision": "building",
+   "monument": "forum_of_trajan_mon",
+   "event": null,
+   "people": [
+    "hadrian"
+   ],
+   "cats": [
+    "political",
+    "legal"
+   ],
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Hadrian",
+     "r": "7.6"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "69.8.1"
+    },
+    {
+     "a": "Corpus Inscriptionum Latinarum",
+     "w": "inscription",
+     "r": "VI 967"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "venus_roma_founded_parilia_121",
+   "year": 121,
+   "month": 4,
+   "day": 21,
+   "title": "Temple of Venus and Roma founded on Rome's birthday",
+   "summary": "Hadrian founded the largest temple in Rome on the Velia on the Parilia, the city's birthday, renaming the festival the Romaea.",
+   "loc": [
+    12.489657,
+    41.890894
+   ],
+   "locName": "Temple of Venus and Roma on the Velia",
+   "precision": "building",
+   "monument": "temple_of_venus_and_roma_mon",
+   "event": "temple_of_venus_and_roma",
+   "people": [
+    "hadrian"
+   ],
+   "cats": [
+    "religious",
+    "construction"
+   ],
+   "sources": [
+    {
+     "a": "Athenaeus",
+     "w": "Deipnosophistae",
+     "r": "8.361f"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Hadrian",
+     "r": "19.12"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "pantheon_hadrian_dedicated",
+   "year": 125,
+   "title": "Hadrian's Pantheon completed under Agrippa's name",
+   "summary": "Hadrian rebuilt the Pantheon with its unreinforced concrete dome 43.3 m across, but modestly kept Agrippa's original inscription on the porch, and sometimes held court there.",
+   "loc": [
+    12.476873,
+    41.898614
+   ],
+   "locName": "the Pantheon in the Campus Martius",
+   "precision": "building",
+   "monument": "pantheon",
+   "event": "pantheon_rebuilt",
+   "people": [
+    "hadrian",
+    "agrippa"
+   ],
+   "cats": [
+    "construction",
+    "religious"
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "53.27.2-3, 69.7.1"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Hadrian",
+     "r": "19.10"
+    },
+    {
+     "a": "Corpus Inscriptionum Latinarum",
+     "w": "inscription",
+     "r": "VI 896"
+    }
+   ],
+   "certainty": "documented",
+   "note": "Brick stamps date construction c. 118-128."
+  },
+  {
+   "id": "colossus_moved_elephants",
+   "year": 128,
+   "title": "Twenty-four elephants move the Colossus",
+   "summary": "To clear the site of his temple, Hadrian had the architect Decrianus move the Colossus upright, still standing, to a new base beside the Flavian Amphitheatre using 24 elephants.",
+   "loc": [
+    12.49102,
+    41.89078
+   ],
+   "locName": "the new base of the Colossus NW of the Colosseum",
+   "precision": "exact",
+   "monument": "colossus_neronis",
+   "event": null,
+   "people": [
+    "hadrian"
+   ],
+   "cats": [
+    "construction"
+   ],
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Hadrian",
+     "r": "19.12-13"
+    }
+   ],
+   "certainty": "documented",
+   "note": "The base survived until 1936; date between 121 and 135."
+  },
+  {
+   "id": "apollodorus_criticises_temple",
+   "year": 130,
+   "title": "Apollodorus mocks Hadrian's temple",
+   "summary": "Shown the plans of the Temple of Venus and Roma, Apollodorus said the seated goddesses were too big for their cellas: if they wished to stand up and go out, they could not. Dio says Hadrian banished and then killed him.",
+   "loc": [
+    12.489657,
+    41.890894
+   ],
+   "locName": "Temple of Venus and Roma",
+   "precision": "building",
+   "monument": "temple_of_venus_and_roma_mon",
+   "event": null,
+   "people": [
+    "apollodorus_of_damascus",
+    "hadrian"
+   ],
+   "cats": [
+    "literary",
+    "scandal"
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "69.4.1-5"
+    }
+   ],
+   "certainty": "reconstructed"
+  },
+  {
+   "id": "athenaeum_hadrian",
+   "year": 135,
+   "title": "Hadrian's Athenaeum for rhetors and poets",
+   "summary": "Hadrian founded a school 'which they call the Athenaeum' for the liberal arts; tiered lecture halls found under Piazza Venezia in 2008 are identified with it.",
+   "loc": [
+    12.483232,
+    41.895864
+   ],
+   "locName": "the Athenaeum under Piazza Venezia",
+   "precision": "building",
+   "monument": "athenaeum_hadriani",
+   "event": null,
+   "people": [
+    "hadrian"
+   ],
+   "cats": [
+    "literary",
+    "construction"
+   ],
+   "sources": [
+    {
+     "a": "Aurelius Victor",
+     "w": "De Caesaribus",
+     "r": "14.3"
+    }
+   ],
+   "certainty": "reconstructed"
+  },
+  {
+   "id": "hadrian_ashes_mausoleum_139",
+   "year": 139,
+   "title": "Hadrian's ashes laid in his mausoleum",
+   "summary": "Hadrian died at Baiae in 138; Antoninus Pius, who had to force the senate to deify him, laid his ashes in the new Mausoleum across the Tiber, reached by the Pons Aelius, the following year.",
+   "loc": [
+    12.466358,
+    41.903044
+   ],
+   "locName": "the Mausoleum of Hadrian",
+   "precision": "building",
+   "monument": "mausoleum_of_hadrian",
+   "event": "mausoleum_of_hadrian",
+   "people": [
+    "hadrian",
+    "antoninus_pius",
+    "sabina"
+   ],
+   "cats": [
+    "funeral"
+   ],
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Antoninus Pius",
+     "r": "5.1"
+    },
+    {
+     "a": "Corpus Inscriptionum Latinarum",
+     "w": "inscription",
+     "r": "VI 984"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "faustina_temple_141",
+   "year": 141,
+   "title": "Temple of Diva Faustina on the Sacra Via",
+   "summary": "Antoninus Pius built a temple to his deified wife Faustina facing the Sacra Via; after his own death in 161 the senate added his name to the inscription, and its columns later fronted the church of S. Lorenzo in Miranda.",
+   "loc": [
+    12.48669,
+    41.89214
+   ],
+   "locName": "Temple of Antoninus and Faustina on the Sacra Via",
+   "precision": "building",
+   "monument": "temple_of_antoninus_and_faustina",
+   "event": "temple_of_antoninus_and_faustina_141",
+   "people": [
+    "antoninus_pius",
+    "faustina_the_elder"
+   ],
+   "cats": [
+    "religious",
+    "construction",
+    "funeral"
+   ],
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Antoninus Pius",
+     "r": "6.7"
+    },
+    {
+     "a": "Corpus Inscriptionum Latinarum",
+     "w": "inscription",
+     "r": "VI 1005"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "hadrianeum_dedicated_145",
+   "year": 145,
+   "title": "Temple of Divus Hadrianus dedicated",
+   "summary": "Antoninus dedicated the temple of his deified father in the Campus Martius, its podium decorated with personified provinces; eleven columns stand in the facade of the Piazza di Pietra stock exchange.",
+   "loc": [
+    12.479444,
+    41.899722
+   ],
+   "locName": "the Hadrianeum (Piazza di Pietra)",
+   "precision": "building",
+   "monument": "hadrianeum",
+   "event": "hadrianeum_dedicated_145",
+   "people": [
+    "antoninus_pius",
+    "hadrian"
+   ],
+   "cats": [
+    "religious",
+    "construction"
+   ],
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Antoninus Pius",
+     "r": "8.2"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "rome_900th_anniversary_148",
+   "year": 148,
+   "month": 4,
+   "day": 21,
+   "title": "Rome's 900th birthday",
+   "summary": "Antoninus Pius celebrated the ninth centenary of the city with games and animals from all over the world, and coins showing Romulus, the wolf and twins, and Aeneas.",
+   "loc": [
+    12.4857,
+    41.8859
+   ],
+   "locName": "the Circus Maximus and the amphitheatre",
+   "precision": "building",
+   "monument": "circus_maximus",
+   "event": "rome_900th_anniversary_148",
+   "people": [
+    "antoninus_pius"
+   ],
+   "cats": [
+    "spectacle",
+    "religious"
+   ],
+   "sources": [
+    {
+     "a": "Aurelius Victor",
+     "w": "De Caesaribus",
+     "r": "15.4"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Antoninus Pius",
+     "r": "10.9"
+    }
+   ],
+   "certainty": "reconstructed"
+  },
+  {
+   "id": "gellius_library_tiberiana",
+   "year": 150,
+   "title": "Gellius reads in the library of the Domus Tiberiana",
+   "summary": "Aulus Gellius sat with Fronto's circle in the library of the palace of Tiberius when a book of Cato was brought; elsewhere he reads old praetors' edicts in the library of the Temple of Trajan.",
+   "loc": [
+    12.486183,
+    41.890318
+   ],
+   "locName": "the library of the Domus Tiberiana",
+   "precision": "building",
+   "monument": "domus_tiberiana",
+   "event": null,
+   "people": [
+    "marcus_cornelius_fronto"
+   ],
+   "cats": [
+    "literary",
+    "daily"
+   ],
+   "sources": [
+    {
+     "a": "Aulus Gellius",
+     "w": "Attic Nights",
+     "r": "13.20.1, 11.17.1"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "gellius_library_pacis",
+   "year": 150,
+   "title": "Gellius consults a book in the Temple of Peace library",
+   "summary": "Gellius tells how he searched for Aelius Stilo's commentary in the library of the Temple of Peace, one of Rome's great public collections until the fire of 192.",
+   "loc": [
+    12.487357,
+    41.892733
+   ],
+   "locName": "the library of the Templum Pacis",
+   "precision": "building",
+   "monument": "templum_pacis",
+   "event": null,
+   "people": [],
+   "cats": [
+    "literary"
+   ],
+   "sources": [
+    {
+     "a": "Aulus Gellius",
+     "w": "Attic Nights",
+     "r": "16.8.2"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "fire_340_insulae_antoninus",
+   "year": 150,
+   "title": "Fire destroys 340 apartment blocks",
+   "summary": "Under Antoninus Pius a fire consumed 340 tenements and houses in one blaze; the emperor paid for rebuilding.",
+   "loc": [
+    12.4923,
+    41.8953
+   ],
+   "locName": "the dense residential districts (site unrecorded)",
+   "precision": "approx",
+   "monument": null,
+   "event": "disasters_under_antoninus",
+   "people": [
+    "antoninus_pius"
+   ],
+   "cats": [
+    "disaster",
+    "daily"
+   ],
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Antoninus Pius",
+     "r": "9.1"
+    }
+   ],
+   "certainty": "conjectural",
+   "note": "District not stated; placed in the Subura as a representative dense quarter."
+  },
+  {
+   "id": "circus_collapse_antoninus",
+   "year": 150,
+   "title": "Seating of the Circus Maximus collapses",
+   "summary": "Under Antoninus Pius part of the stands of the Circus Maximus collapsed during the games; the Chronograph of 354 records 1112 people killed.",
+   "loc": [
+    12.4857,
+    41.8859
+   ],
+   "locName": "the seating of the Circus Maximus",
+   "precision": "building",
+   "monument": "circus_maximus",
+   "event": "disasters_under_antoninus",
+   "people": [
+    "antoninus_pius"
+   ],
+   "cats": [
+    "disaster",
+    "spectacle"
+   ],
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Antoninus Pius",
+     "r": "9.1"
+    },
+    {
+     "a": "Chronograph of 354",
+     "w": "Chronica urbis Romae"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "monte_testaccio_amphorae",
+   "year": 150,
+   "title": "Oil amphorae piled into Monte Testaccio",
+   "summary": "Behind the river warehouses, broken olive-oil jars from Spain and Africa were stacked in terraces into an artificial hill; painted labels date most of its 50 million sherds to AD 140-250.",
+   "loc": [
+    12.475142,
+    41.875844
+   ],
+   "locName": "Monte Testaccio behind the Emporium",
+   "precision": "building",
+   "monument": "monte_testaccio",
+   "event": null,
+   "people": [],
+   "cats": [
+    "daily"
+   ],
+   "sources": [
+    {
+     "a": "Corpus Inscriptionum Latinarum",
+     "w": "inscription",
+     "r": "XV 3636-4529"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "trajan_library_edicts_gellius",
+   "year": 150,
+   "title": "Old praetors' edicts read in the library of Trajan's temple",
+   "summary": "Gellius reports sitting with a friend in the library of the Temple of Trajan and finding there the edicts of ancient praetors.",
+   "loc": [
+    12.484034,
+    41.895663
+   ],
+   "locName": "the libraries of the Forum of Trajan",
+   "precision": "building",
+   "monument": "bibliotheca_ulpia_sw",
+   "event": null,
+   "people": [],
+   "cats": [
+    "literary"
+   ],
+   "sources": [
+    {
+     "a": "Aulus Gellius",
+     "w": "Attic Nights",
+     "r": "11.17.1"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "antoninus_funeral_column_161",
+   "year": 161,
+   "month": 3,
+   "title": "Funeral of Antoninus Pius; a column on the ustrinum",
+   "summary": "Antoninus was cremated in the northern Campus Martius; his adopted sons set up a column of red granite on a carved base showing his apotheosis with Faustina beside the ustrinum.",
+   "loc": [
+    12.477421,
+    41.90155
+   ],
+   "locName": "column base of Antoninus Pius by the Antonine ustrinum",
+   "precision": "building",
+   "monument": "column_of_antoninus_pius",
+   "event": "death_of_antoninus_pius",
+   "people": [
+    "antoninus_pius",
+    "marcus_aurelius",
+    "lucius_verus",
+    "faustina_the_elder"
+   ],
+   "cats": [
+    "funeral",
+    "construction"
+   ],
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Marcus Aurelius",
+     "r": "7.10-11"
+    },
+    {
+     "a": "Corpus Inscriptionum Latinarum",
+     "w": "inscription",
+     "r": "VI 1004"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "tiber_flood_162",
+   "year": 162,
+   "title": "Tiber flood ruins buildings and causes famine",
+   "summary": "Early in the joint reign a great flood of the Tiber destroyed many buildings in the city, drowned animals and caused a severe famine, which the emperors relieved personally.",
+   "loc": [
+    12.4755,
+    41.9015
+   ],
+   "locName": "the low city along the Tiber",
+   "precision": "area",
+   "monument": null,
+   "event": "tiber_flood_162",
+   "people": [
+    "marcus_aurelius",
+    "lucius_verus"
+   ],
+   "cats": [
+    "disaster"
+   ],
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Marcus Aurelius",
+     "r": "8.4-5"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "galen_dissection_templum_pacis",
+   "year": 163,
+   "title": "Galen's public anatomies at the Temple of Peace",
+   "summary": "Newly arrived from Pergamum, Galen gave public demonstrations, cutting the nerves of a squealing pig to silence it, before an audience of senators and philosophers; the learned met daily at the Temple of Peace.",
+   "loc": [
+    12.487357,
+    41.892733
+   ],
+   "locName": "the Templum Pacis, meeting place of physicians and philosophers",
+   "precision": "building",
+   "monument": "templum_pacis",
+   "event": "galen_arrives_in_rome_162",
+   "people": [
+    "galen"
+   ],
+   "cats": [
+    "literary",
+    "daily"
+   ],
+   "sources": [
+    {
+     "a": "Galen",
+     "w": "De praecognitione",
+     "r": "5"
+    },
+    {
+     "a": "Galen",
+     "w": "De anatomicis administrationibus",
+     "r": "8.3"
+    },
+    {
+     "a": "Galen",
+     "w": "De libris propriis",
+     "r": "2"
+    }
+   ],
+   "certainty": "reconstructed"
+  },
+  {
+   "id": "justin_martyr_trial_165",
+   "year": 165,
+   "title": "Justin Martyr condemned by the city prefect",
+   "summary": "Asked where Christians met, Justin told the prefect Rusticus he lived 'above the bath of Myrtinus' and taught anyone who came there; he and six companions were scourged and beheaded.",
+   "loc": [
+    12.495433,
+    41.898437
+   ],
+   "locName": "Justin's lodging 'above the bath of Myrtinus' (perhaps on the Viminal)",
+   "precision": "approx",
+   "monument": "santa_pudenziana",
+   "event": "martyrdom_of_justin",
+   "people": [
+    "justin_martyr",
+    "quintus_junius_rusticus"
+   ],
+   "cats": [
+    "christian",
+    "legal",
+    "violence"
+   ],
+   "sources": [
+    {
+     "a": "Acts of Justin",
+     "w": "Recension A/B",
+     "r": "3"
+    },
+    {
+     "a": "Eusebius",
+     "w": "Ecclesiastical History",
+     "r": "4.16"
+    }
+   ],
+   "certainty": "conjectural",
+   "note": "The bath's site is unknown; a medieval tradition linked it with the baths of Novatus at S. Pudenziana."
+  },
+  {
+   "id": "plague_carts_166",
+   "year": 166,
+   "title": "Plague in Rome: bodies carried out in carts",
+   "summary": "The army returning from the East brought the plague; so many died that corpses were taken from the city in carts and wagons, and Marcus paid for the funerals of the poor.",
+   "loc": [
+    12.503,
+    41.8963
+   ],
+   "locName": "the Esquiline burial grounds outside the city",
+   "precision": "approx",
+   "monument": null,
+   "event": "plague_reaches_rome_166",
+   "people": [
+    "marcus_aurelius",
+    "lucius_verus",
+    "galen"
+   ],
+   "cats": [
+    "disaster",
+    "funeral"
+   ],
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Marcus Aurelius",
+     "r": "13.3-6"
+    },
+    {
+     "a": "Orosius",
+     "w": "Histories against the Pagans",
+     "r": "7.15.5-6"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "triumph_column_marcus_176",
+   "year": 176,
+   "month": 12,
+   "day": 23,
+   "title": "Triumph of Marcus and Commodus; a column voted",
+   "summary": "Marcus and his son Commodus triumphed over the Germans and Sarmatians; a spiral column modelled on Trajan's was later raised beside the Via Flaminia to commemorate the wars.",
+   "loc": [
+    12.48,
+    41.900833
+   ],
+   "locName": "the Column of Marcus Aurelius on the Via Lata",
+   "precision": "building",
+   "monument": "column_of_marcus_aurelius",
+   "event": "triumph_176_and_column_of_marcus",
+   "people": [
+    "marcus_aurelius",
+    "commodus"
+   ],
+   "cats": [
+    "triumph",
+    "construction"
+   ],
+   "sources": [
+    {
+     "a": "Historia Augusta",
+     "w": "Commodus",
+     "r": "2.4"
+    },
+    {
+     "a": "Corpus Inscriptionum Latinarum",
+     "w": "inscription",
+     "r": "VI 1585"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "galen_forged_book_sandalarius",
+   "year": 180,
+   "title": "Galen sees a book falsely sold under his name",
+   "summary": "In the Vicus Sandalarius, where most of Rome's bookshops were, Galen watched a man buy a book labelled 'Galen the doctor' and a scholar read two lines and tear off the title, declaring it was not his style, which moved him to list his genuine works.",
+   "loc": [
+    12.4883,
+    41.8931
+   ],
+   "locName": "the bookshops of the Vicus Sandalarius near the Templum Pacis",
+   "precision": "approx",
+   "monument": null,
+   "event": null,
+   "people": [
+    "galen"
+   ],
+   "cats": [
+    "literary",
+    "daily"
+   ],
+   "sources": [
+    {
+     "a": "Galen",
+     "w": "De libris propriis",
+     "r": "prooem."
+    },
+    {
+     "a": "Aulus Gellius",
+     "w": "Attic Nights",
+     "r": "18.4.1"
+    }
+   ],
+   "certainty": "reconstructed"
+  },
+  {
+   "id": "quintianus_dagger_amphitheatre_182",
+   "year": 182,
+   "title": "Assassination attempt in the amphitheatre entrance",
+   "summary": "In the dark passage into the amphitheatre Claudius Pompeianus Quintianus drew a dagger on Commodus crying 'The senate sends you this!' and was seized before he struck. Lucilla, who had planned the plot, was exiled and killed.",
+   "loc": [
+    12.492231,
+    41.89021
+   ],
+   "locName": "the entrance passage of the amphitheatre",
+   "precision": "building",
+   "monument": "colosseum",
+   "event": null,
+   "people": [
+    "commodus",
+    "lucilla"
+   ],
+   "cats": [
+    "violence",
+    "political"
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "73.4.4"
+    },
+    {
+     "a": "Herodian",
+     "w": "History of the Empire after Marcus",
+     "r": "1.8.5-6"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Commodus",
+     "r": "4.2-3"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "plague_189",
+   "year": 189,
+   "title": "Plague kills 2000 a day",
+   "summary": "Dio, then in Rome, records the greatest plague he had known, killing often 2000 people a day; Commodus withdrew to Laurentum on his doctors' advice.",
+   "loc": [
+    12.48525,
+    41.8923
+   ],
+   "locName": "the whole city",
+   "precision": "area",
+   "monument": "forum_romanum",
+   "event": "plague_in_rome_189",
+   "people": [
+    "commodus",
+    "cassius_dio"
+   ],
+   "cats": [
+    "disaster"
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "73.14.3-4"
+    },
+    {
+     "a": "Herodian",
+     "w": "History of the Empire after Marcus",
+     "r": "1.12.1-2"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "cleander_riot_circus_190",
+   "year": 190,
+   "title": "Riot in the Circus brings down Cleander",
+   "summary": "During a famine a strange tall woman with children led the crowd at the races in the Circus in shouts against the prefect Cleander; the crowd marched to Commodus' villa, was charged by cavalry, and fought back from the rooftops in the streets. Commodus surrendered Cleander's head.",
+   "loc": [
+    12.4857,
+    41.8859
+   ],
+   "locName": "the Circus Maximus during the races",
+   "precision": "building",
+   "monument": "circus_maximus",
+   "event": "fall_of_cleander",
+   "people": [
+    "cleander",
+    "commodus",
+    "marcia"
+   ],
+   "cats": [
+    "political",
+    "violence"
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "73.13"
+    },
+    {
+     "a": "Herodian",
+     "w": "History of the Empire after Marcus",
+     "r": "1.12.3-13.6"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "colossus_commodus_hercules_192",
+   "year": 192,
+   "title": "The Colossus given Commodus' head as Hercules",
+   "summary": "Commodus renamed Rome Colonia Commodiana and had the head of the Colossus replaced with his own portrait, adding a club and a lion at its feet and an inscription boasting of his victories as a gladiator.",
+   "loc": [
+    12.49102,
+    41.89078
+   ],
+   "locName": "the Colossus beside the Flavian Amphitheatre",
+   "precision": "exact",
+   "monument": "colossus_neronis",
+   "event": "commodus_as_hercules",
+   "people": [
+    "commodus"
+   ],
+   "cats": [
+    "scandal",
+    "religious"
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "73.22.3"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Commodus",
+     "r": "17.9-10"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "fire_192_templum_pacis",
+   "year": 192,
+   "title": "The fire of 192 burns the Temple of Peace",
+   "summary": "After an earth tremor, a fire started at night and burned the Temple of Peace with its treasures and libraries, the warehouses of Egyptian and Arabian goods, and spread to the palace and the Temple of Vesta.",
+   "loc": [
+    12.487357,
+    41.892733
+   ],
+   "locName": "the Templum Pacis and the Sacra Via warehouses",
+   "precision": "building",
+   "monument": "templum_pacis",
+   "event": "fire_of_192",
+   "people": [
+    "commodus",
+    "galen"
+   ],
+   "cats": [
+    "disaster"
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "73.24.1-3"
+    },
+    {
+     "a": "Herodian",
+     "w": "History of the Empire after Marcus",
+     "r": "1.14.2-6"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "galen_storerooms_burned_192",
+   "year": 192,
+   "title": "Galen loses his drugs and books in the Sacra Via warehouses",
+   "summary": "Galen lost his rare drugs, instruments, and books, including his own unpublished works, stored in the warehouses on the Sacra Via, and the Palatine libraries burned too; he wrote 'On the Avoidance of Grief' about his losses.",
+   "loc": [
+    12.4882,
+    41.89165
+   ],
+   "locName": "the Horrea Piperataria on the Sacra Via (under the later Basilica of Maxentius)",
+   "precision": "building",
+   "monument": "horrea_piperataria",
+   "event": "fire_of_192",
+   "people": [
+    "galen"
+   ],
+   "cats": [
+    "disaster",
+    "literary"
+   ],
+   "sources": [
+    {
+     "a": "Galen",
+     "w": "De indolentia (Peri alupias)",
+     "r": "1-20"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "palladium_carried_192",
+   "year": 192,
+   "title": "The Vestals carry the Palladium along the Sacra Via",
+   "summary": "When the Temple of Vesta caught fire, the Vestals carried the Palladium, brought from Troy and never before seen in public, along the Sacra Via to the palace.",
+   "loc": [
+    12.48665,
+    41.89195
+   ],
+   "locName": "the Sacra Via from the Temple of Vesta to the palace",
+   "precision": "street",
+   "monument": null,
+   "event": "fire_of_192",
+   "people": [],
+   "cats": [
+    "disaster",
+    "religious"
+   ],
+   "sources": [
+    {
+     "a": "Herodian",
+     "w": "History of the Empire after Marcus",
+     "r": "1.14.4-5"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "commodus_arena_ostrich_192",
+   "year": 192,
+   "month": 11,
+   "title": "Commodus fights in the arena; Dio chews laurel",
+   "summary": "At the Plebeian Games Commodus shot beasts from a raised gallery and fought as a secutor; he cut off an ostrich's head and came toward the senators waving it. Dio and his neighbours chewed laurel leaves from their garlands to keep from laughing.",
+   "loc": [
+    12.492231,
+    41.89021
+   ],
+   "locName": "the arena and senatorial seats of the Flavian Amphitheatre",
+   "precision": "building",
+   "monument": "colosseum",
+   "event": "commodus_as_hercules",
+   "people": [
+    "commodus",
+    "cassius_dio"
+   ],
+   "cats": [
+    "spectacle",
+    "scandal"
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "73.17-21"
+    },
+    {
+     "a": "Herodian",
+     "w": "History of the Empire after Marcus",
+     "r": "1.15"
+    }
+   ],
+   "certainty": "documented"
+  },
+  {
+   "id": "commodus_strangled_192",
+   "year": 192,
+   "month": 12,
+   "day": 31,
+   "title": "Commodus strangled by the wrestler Narcissus",
+   "summary": "On the eve of the new year, after Marcia's poison failed, the athlete Narcissus strangled Commodus in his bath. The Historia Augusta places the murder in the Vectilian House on the Caelian, to which he had moved from the palace.",
+   "loc": [
+    12.493,
+    41.8885
+   ],
+   "locName": "the Domus Vectiliana on the Caelian (HA); Dio and Herodian imply the palace",
+   "precision": "approx",
+   "monument": null,
+   "event": "assassination_of_commodus",
+   "people": [
+    "commodus",
+    "marcia",
+    "julius_laetus"
+   ],
+   "cats": [
+    "violence",
+    "political"
+   ],
+   "sources": [
+    {
+     "a": "Cassius Dio",
+     "w": "Roman History",
+     "r": "73.22.4-6"
+    },
+    {
+     "a": "Herodian",
+     "w": "History of the Empire after Marcus",
+     "r": "1.17"
+    },
+    {
+     "a": "Historia Augusta",
+     "w": "Commodus",
+     "r": "16.3, 17.1-2"
+    }
+   ],
+   "certainty": "reconstructed",
+   "note": "The Vectilian House is unlocated; marker on the Caelian near the Ludus Magnus."
+  }
+ ]
+}

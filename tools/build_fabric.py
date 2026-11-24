@@ -278,7 +278,7 @@ def main():
                     dens = d0 * max(0.0, 1 - (dist / R) ** 2.2) if dist < R else 0
                     kind = typ
                     st = (3, 6) if typ == 'insulae' else (1, 3)
-                if min(1.0, dens * 1.3) <= L['r']:
+                if min(1.0, dens * 1.55) <= L['r']:
                     kind = None
             if kind:
                 kind = {'insulae': 'insula', 'houses': 'house', 'huts': 'hut', 'mixed': 'insula' if L['seed'] < 0.6 else 'domus', 'domus': 'domus', 'villas': 'villa',

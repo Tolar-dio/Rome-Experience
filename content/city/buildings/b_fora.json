@@ -1373,11 +1373,6 @@
      "a": "Augustus",
      "w": "Res Gestae",
      "r": "35"
-    },
-    {
-     "a": "Velleius Paterculus",
-     "w": "Historiae",
-     "r": "2.39.2"
     }
    ],
    "scholarship": [
@@ -2560,11 +2555,6 @@
      "a": "Aulus Gellius",
      "w": "Noctes Atticae",
      "r": "13.25.1"
-    },
-    {
-     "a": "Venantius Fortunatus",
-     "w": "Carmina",
-     "r": "3.18.7-8"
     }
    ],
    "scholarship": [
@@ -3399,82 +3389,6 @@
    "note": "Line approximates the curve concentric with the hemicycle, about 13 m above forum level."
   },
   {
-   "id": "atrium_libertatis_v1",
-   "monument": "atrium_libertatis",
-   "name": "Atrium Libertatis (Republican)",
-   "from": -212,
-   "to": -40,
-   "builder": null,
-   "template": "compound",
-   "loc": [
-    12.4846,
-    41.895
-   ],
-   "rot": 141,
-   "w": 40.0,
-   "l": 50.0,
-   "h": 14.0,
-   "footprint": [
-    [
-     12.484598,
-     41.895288
-    ],
-    [
-     12.484223,
-     41.895062
-    ],
-    [
-     12.484602,
-     41.894712
-    ],
-    [
-     12.484977,
-     41.894938
-    ],
-    [
-     12.484598,
-     41.895288
-    ]
-   ],
-   "params": {
-    "blocks": [
-     {
-      "shape": "court",
-      "x": 0,
-      "y": 0,
-      "w": 40.0,
-      "l": 50.0,
-      "h": 12.0,
-      "mat": "tufa",
-      "ringDepth": 10.0,
-      "storeys": 2
-     }
-    ]
-   },
-   "importance": 2,
-   "certainty": "conjectural",
-   "summary": "The office of the censors, where their records and the tablets of the census were kept and hostages were held in 212 BC. It probably stood on the saddle between the Capitol and the Quirinal.",
-   "phases": [],
-   "sources": [
-    {
-     "a": "Livy",
-     "w": "Ab urbe condita",
-     "r": "25.7.12"
-    },
-    {
-     "a": "Livy",
-     "w": "Ab urbe condita",
-     "r": "43.16.13"
-    }
-   ],
-   "scholarship": [
-    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)",
-    "Packer, The Forum of Trajan in Rome: A Study of the Monuments (1997)",
-    "Coarelli, Rome and Environs: An Archaeological Guide (2007)"
-   ],
-   "note": "Location debated (Capitol-Quirinal saddle under Trajan's forum, or N of the Forum of Caesar); size invented to a modest courtyard type."
-  },
-  {
    "id": "atrium_libertatis_v2",
    "monument": "atrium_libertatis",
    "name": "Atrium Libertatis (rebuilt by Asinius Pollio)",
@@ -3530,23 +3444,18 @@
    },
    "importance": 2,
    "certainty": "conjectural",
-   "summary": "Rebuilt by C. Asinius Pollio from his Dalmatian spoils after 39 BC and fitted with the first public library in Rome, Greek and Latin, adorned with portraits of authors. The site was probably removed when Trajan cut away the saddle; some scholars think its functions passed to the Basilica Ulpia.",
+   "summary": "Rebuilt by C. Asinius Pollio from his Dalmatian spoils after 39 BC and fitted with the first public library in Rome, Greek and Latin, adorned with portraits of authors; the censors' archives stayed here. It probably disappeared when Trajan cut away the Capitol-Quirinal saddle, its functions passing to the Basilica Ulpia.",
    "phases": [],
    "sources": [
-    {
-     "a": "Livy",
-     "w": "Ab urbe condita",
-     "r": "25.7.12"
-    },
-    {
-     "a": "Livy",
-     "w": "Ab urbe condita",
-     "r": "43.16.13"
-    },
     {
      "a": "Pliny the Elder",
      "w": "Naturalis Historia",
      "r": "7.115"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis Historia",
+     "r": "35.10"
     },
     {
      "a": "Suetonius",
@@ -3564,7 +3473,7 @@
     "Packer, The Forum of Trajan in Rome: A Study of the Monuments (1997)",
     "Coarelli, Rome and Environs: An Archaeological Guide (2007)"
    ],
-   "note": "Location debated (Capitol-Quirinal saddle under Trajan's forum, or N of the Forum of Caesar); size invented to a modest courtyard type."
+   "note": "Location debated. District A models the Republican phase (atrium_libertatis_v1, to 55 BC) N of the Comitium following Coarelli; if Caesar's forum displaced it, Pollio's rebuilding is placed here on the saddle later removed for Trajan's forum. Size invented."
   },
   {
    "id": "athenaeum_hadriani",

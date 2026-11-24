@@ -1,0 +1,8859 @@
+{
+"streets": [
+{
+"id": "sacra_via_forum",
+"name": "Sacra Via (Forum stretch)",
+"modern": "Via Sacra (archaeological path)",
+"line": [
+[
+12.4847,
+41.89283
+],
+[
+12.48495,
+41.89272
+],
+[
+12.485195,
+41.892614
+],
+[
+12.486367,
+41.892071
+],
+[
+12.486594,
+41.891957
+],
+[
+12.486756,
+41.891836
+]
+],
+"w": 7.0,
+"from": -509,
+"to": 9999,
+"paved": -174,
+"rank": 1,
+"certainty": "excavated",
+"length_m": 204,
+"ends": [
+"Clivus Capitolinus (Arch of Septimius Severus)",
+"Regia / Temple of Divus Iulius"
+],
+"note": "Through the Forum from the foot of the Clivus Capitolinus (by the later Arch of Septimius Severus) along the front of the Basilica Aemilia to the Regia and the Temple of Divus Iulius, where the Velia ascent begins. Line from the excavated pavement as mapped in OpenStreetMap. The paving of city streets with basalt is first recorded for the censors of 174 BC; Sullan, Augustan and later pavements overlie each other.",
+"sources": [
+{
+"a": "Livy",
+"w": "Ab urbe condita",
+"r": "41.27.5"
+},
+{
+"a": "Varro",
+"w": "De lingua Latina",
+"r": "5.47"
+}
+],
+"scholarship": [
+"Platner-Ashby, Sacra Via 456-459",
+"Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010) 99-101"
+]
+},
+{
+"id": "sacra_via_velia_republican",
+"name": "Sacra Via (Velia ascent, Republican-Augustan course)",
+"modern": "under the Velia (Via Sacra path east of the Regia)",
+"line": [
+[
+12.4868,
+41.8919
+],
+[
+12.48735,
+41.8917
+],
+[
+12.48785,
+41.89145
+],
+[
+12.48825,
+41.8911
+],
+[
+12.48845,
+41.89085
+],
+[
+12.48856,
+41.89062
+],
+[
+12.4887,
+41.89045
+],
+[
+12.4893,
+41.89028
+],
+[
+12.4901,
+41.89013
+],
+[
+12.49048,
+41.89014
+]
+],
+"w": 5.0,
+"from": -509,
+"to": 64,
+"paved": -174,
+"rank": 1,
+"certainty": "reconstructed",
+"length_m": 387,
+"ends": [
+"Regia",
+"Meta Sudans valley"
+],
+"note": "From the Regia up the Velia past the House of the Rex Sacrorum and the Fornix Fabianus (121 BC) to the summa Sacra Via by Jupiter Stator and the Porta Mugonia, then down to the valley of the later Colosseum. Augustan pavement 5 m wide, falling from 28.3 m a.s.l. east of the Arch of Titus to 12.6 m at the Temple of Divus Iulius (Platner). The pre-Neronian street curved slightly north of the later straight avenue; drawn a few metres north of the imperial line.",
+"sources": [
+{
+"a": "Livy",
+"w": "Ab urbe condita",
+"r": "41.27.5"
+},
+{
+"a": "Horace",
+"w": "Satires",
+"r": "1.9.1"
+}
+],
+"scholarship": [
+"Platner-Ashby, Sacra Via 457-458",
+"Richardson, NTDAR (1992) 338-340"
+]
+},
+{
+"id": "sacra_via_velia_imperial",
+"name": "Sacra Via (Neronian-Hadrianic avenue)",
+"modern": "Via Sacra (archaeological path), Regia to Meta Sudans",
+"line": [
+[
+12.486594,
+41.891957
+],
+[
+12.486756,
+41.891836
+],
+[
+12.487329,
+41.891654
+],
+[
+12.487802,
+41.891473
+],
+[
+12.487948,
+41.891397
+],
+[
+12.488248,
+41.891151
+],
+[
+12.488334,
+41.891112
+],
+[
+12.488404,
+41.890991
+],
+[
+12.488577,
+41.890882
+],
+[
+12.488572,
+41.890761
+],
+[
+12.488519,
+41.890691
+],
+[
+12.490481,
+41.890141
+]
+],
+"w": 30.0,
+"from": 65,
+"to": 9999,
+"paved": 65,
+"rank": 1,
+"certainty": "excavated",
+"length_m": 405,
+"ends": [
+"Regia",
+"Meta Sudans / Colosseum"
+],
+"phases": [
+{
+"y": 65,
+"t": "Neronian porticoed avenue to the Domus Aurea vestibule."
+},
+{
+"y": 81,
+"t": "Arch of Titus at the summa Sacra Via."
+},
+{
+"y": 135,
+"t": "Realigned in front of the Temple of Venus and Roma (Hadrian)."
+},
+{
+"y": 308,
+"t": "Basilica of Maxentius replaces the north porticoes."
+}
+],
+"note": "After the fire of 64 Nero rebuilt the ascent as a straight porticoed avenue leading to the vestibule of the Domus Aurea; after Hadrian built the Temple of Venus and Roma the street from the Regia to the Velia was an avenue about 30 m wide lined with porticoes and shops (Platner). Maxentius' basilica (308-312) swallowed the northern shops. East of the Arch of Titus it runs down past the Meta Sudans. Width 30 m applies to the Velia stretch.",
+"sources": [
+{
+"a": "Tacitus",
+"w": "Annales",
+"r": "15.38-43"
+},
+{
+"a": "Suetonius",
+"w": "Nero",
+"r": "31"
+}
+],
+"scholarship": [
+"Platner-Ashby, Sacra Via 458",
+"Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010) 117-119"
+]
+},
+{
+"id": "nova_via",
+"name": "Nova Via",
+"modern": "excavated street on the north slope of the Palatine",
+"line": [
+[
+12.4887,
+41.89045
+],
+[
+12.488341,
+41.890536
+],
+[
+12.48601,
+41.891295
+],
+[
+12.4856,
+41.8912
+],
+[
+12.4852,
+41.89095
+],
+[
+12.4849,
+41.89055
+],
+[
+12.4846,
+41.89015
+]
+],
+"w": 4.5,
+"from": -509,
+"to": 9999,
+"paved": -20,
+"rank": 2,
+"certainty": "excavated",
+"length_m": 423,
+"ends": [
+"summa Sacra Via (Arch of Titus)",
+"Velabrum (Porta Romanula)"
+],
+"gates": [
+"porta_mugonia",
+"porta_romanula"
+],
+"note": "Runs along the north foot of the Palatine above the House of the Vestals, from the summa Sacra Via near the Porta Mugonia west to the north corner of the hill, then (conjecturally) down the west side to the Velabrum by the Porta Romanula and the shrine of Volupia (Varro LL 5.43, 5.164, 6.24). Excavated pavement at 23.40 m behind the Atrium Vestae and 32.30 m at the Clivus Palatinus (Platner). The central stretch is from OpenStreetMap; the western end is blocked by the Domitianic hall and its course there is conjectural.",
+"sources": [
+{
+"a": "Varro",
+"w": "De lingua Latina",
+"r": "5.43; 5.164; 6.24"
+},
+{
+"a": "Livy",
+"w": "Ab urbe condita",
+"r": "5.32.6"
+},
+{
+"a": "Ovid",
+"w": "Fasti",
+"r": "6.396"
+}
+],
+"scholarship": [
+"Platner-Ashby, Nova Via",
+"Richardson, NTDAR (1992) 269-270"
+]
+},
+{
+"id": "vicus_vestae",
+"name": "Vicus Vestae (conjectural)",
+"modern": "ramp from the Lacus Iuturnae to S. Maria Antiqua",
+"line": [
+[
+12.48635,
+41.89175
+],
+[
+12.48595,
+41.89152
+],
+[
+12.48565,
+41.8913
+],
+[
+12.4855,
+41.8911
+]
+],
+"w": 4.0,
+"from": -509,
+"to": 9999,
+"paved": null,
+"rank": 3,
+"certainty": "conjectural",
+"length_m": 102,
+"note": "Street of Region VIII known from an inscription (CIL VI 30960); perhaps the ramp from the Temple of Vesta past the Temple of Castor to the north-west corner of the Palatine (Theodenat), Ovid's 'qua nova Romano nunc via iuncta foro est' (Fasti 6.396).",
+"sources": [
+{
+"a": "Ovid",
+"w": "Fasti",
+"r": "6.389-396"
+}
+],
+"scholarship": [
+"Platner-Ashby, Vicus Vestae"
+]
+},
+{
+"id": "vicus_tuscus",
+"name": "Vicus Tuscus",
+"modern": "Via di San Teodoro",
+"line": [
+[
+12.485817,
+41.892326
+],
+[
+12.485558,
+41.892014
+],
+[
+12.485177,
+41.891392
+],
+[
+12.484928,
+41.891309
+],
+[
+12.484226,
+41.890364
+],
+[
+12.483841,
+41.889767
+],
+[
+12.48372,
+41.889444
+],
+[
+12.483536,
+41.888544
+],
+[
+12.483261,
+41.888186
+],
+[
+12.483,
+41.8878
+],
+[
+12.4827,
+41.8875
+],
+[
+12.482336,
+41.887145
+]
+],
+"w": 6.0,
+"from": -509,
+"to": 9999,
+"paved": -174,
+"rank": 1,
+"certainty": "excavated",
+"length_m": 657,
+"ends": [
+"Forum Romanum",
+"Circus Maximus (carceres) / Forum Boarium"
+],
+"note": "From the Forum between the Basilica Iulia and the Temple of Castor south-west along the foot of the Palatine (Via di San Teodoro) through the Velabrum to the Circus Maximus and Forum Boarium; route of the pompa circensis. Named after Etruscans settled there after Porsenna's war (Livy 2.14.9). Shops of silk, incense (vicus turarius) and clothing; brick-cube pavement seen in 1899 between Basilica and temple.",
+"sources": [
+{
+"a": "Livy",
+"w": "Ab urbe condita",
+"r": "2.14.9; 27.37.15"
+},
+{
+"a": "Horace",
+"w": "Satires",
+"r": "2.3.228"
+},
+{
+"a": "Martial",
+"w": "Epigrams",
+"r": "11.27.11"
+}
+],
+"scholarship": [
+"Platner-Ashby, Vicus Tuscus 579-580",
+"Richardson, NTDAR (1992) 431"
+]
+},
+{
+"id": "vicus_iugarius",
+"name": "Vicus Iugarius",
+"modern": "Vico Jugario",
+"line": [
+[
+12.484325,
+41.892417
+],
+[
+12.484048,
+41.892119
+],
+[
+12.4837,
+41.89185
+],
+[
+12.48325,
+41.89155
+],
+[
+12.4827,
+41.8913
+],
+[
+12.481907,
+41.891071
+],
+[
+12.48133,
+41.891018
+],
+[
+12.480546,
+41.890897
+],
+[
+12.48078,
+41.89115
+]
+],
+"w": 6.0,
+"from": -509,
+"to": 9999,
+"paved": -174,
+"rank": 1,
+"certainty": "excavated",
+"length_m": 405,
+"ends": [
+"Forum Romanum (Temple of Saturn)",
+"Porta Carmentalis / Forum Holitorium"
+],
+"gates": [
+"porta_carmentalis"
+],
+"note": "From the Forum between the Basilica Iulia and the Temple of Saturn along the southern foot of the Capitol to the Porta Carmentalis and the Forum Holitorium; part of the primeval route from the north and east to the Tiber crossing below the island (Platner). Altar of Ops and Ceres; the Lacus Servilius at its Forum end.",
+"sources": [
+{
+"a": "Livy",
+"w": "Ab urbe condita",
+"r": "24.47.15; 27.37.14; 35.21.6"
+},
+{
+"a": "Festus",
+"w": "De verborum significatu",
+"r": "92 L"
+}
+],
+"scholarship": [
+"Platner-Ashby, Vicus Iugarius 574-575",
+"Richardson, NTDAR (1992) 427"
+]
+},
+{
+"id": "argiletum",
+"name": "Argiletum",
+"modern": "under the Forum of Nerva (Via della Madonna dei Monti direction)",
+"line": [
+[
+12.485214,
+41.892606
+],
+[
+12.485253,
+41.892665
+],
+[
+12.485409,
+41.892787
+],
+[
+12.485677,
+41.892955
+],
+[
+12.48605,
+41.89315
+],
+[
+12.4864,
+41.8934
+],
+[
+12.4867,
+41.89365
+]
+],
+"w": 7.0,
+"from": -509,
+"to": 84,
+"paved": -174,
+"rank": 1,
+"certainty": "reconstructed",
+"length_m": 170,
+"ends": [
+"Forum Romanum (Curia)",
+"Subura (primae fauces)"
+],
+"note": "Main street from the Forum between the Curia and the Basilica Aemilia north-east to the Subura; shops and booksellers (Martial 1.3.1, 1.117). Domitian and Nerva turned it into the Forum Transitorium (dedicated 97), after which the route ran through that forum. Start from the excavated stretch (OpenStreetMap).",
+"sources": [
+{
+"a": "Varro",
+"w": "De lingua Latina",
+"r": "5.157"
+},
+{
+"a": "Martial",
+"w": "Epigrams",
+"r": "1.3.1; 1.117.9-12; 2.17"
+},
+{
+"a": "Livy",
+"w": "Ab urbe condita",
+"r": "1.19.2"
+}
+],
+"scholarship": [
+"Platner-Ashby, Argiletum",
+"Richardson, NTDAR (1992) 37-38"
+]
+},
+{
+"id": "clivus_capitolinus",
+"name": "Clivus Capitolinus",
+"modern": "Via del Foro Romano / Via di Monte Tarpeo (upper part)",
+"line": [
+[
+12.48465,
+41.89262
+],
+[
+12.48445,
+41.89256
+],
+[
+12.484424,
+41.892638
+],
+[
+12.484375,
+41.892671
+],
+[
+12.484276,
+41.89269
+],
+[
+12.484173,
+41.892675
+],
+[
+12.483702,
+41.89227
+],
+[
+12.483214,
+41.89198
+],
+[
+12.483038,
+41.892066
+],
+[
+12.48275,
+41.89195
+],
+[
+12.48245,
+41.8919
+],
+[
+12.48225,
+41.892
+]
+],
+"w": 6.0,
+"from": -509,
+"to": 9999,
+"paved": -174,
+"rank": 1,
+"certainty": "excavated",
+"length_m": 251,
+"ends": [
+"Forum Romanum (Arch of Tiberius)",
+"Area Capitolina (Temple of Jupiter)"
+],
+"gates": [
+"porta_pandana"
+],
+"note": "From the Forum by the Arch of Tiberius past the north front and west side of the Temple of Saturn, turning sharply at the Porticus Deorum Consentium and climbing at about 1:8 to the Area Capitolina, which it entered from the south-east (Platner). The triumphal route's last stretch. Paved by the censors of 174 BC (Livy 41.27.7); Sullan and Augustan pavements survive.",
+"sources": [
+{
+"a": "Livy",
+"w": "Ab urbe condita",
+"r": "41.27.7"
+},
+{
+"a": "Cicero",
+"w": "Pro Milone",
+"r": "64"
+},
+{
+"a": "Servius",
+"w": "In Aeneidem",
+"r": "2.116"
+}
+],
+"scholarship": [
+"Platner-Ashby, Clivus Capitolinus 122-123",
+"Richardson, NTDAR (1992) 89"
+]
+},
+{
+"id": "clivus_capitolinus_arx_branch",
+"name": "Branch of the Clivus Capitolinus to the Arx",
+"modern": "Via di S. Pietro in Carcere / steps to the Aracoeli (approx.)",
+"line": [
+[
+12.48435,
+41.89268
+],
+[
+12.484,
+41.893
+],
+[
+12.4837,
+41.89335
+],
+[
+12.48345,
+41.8937
+],
+[
+12.48325,
+41.894
+]
+],
+"w": 4.0,
+"from": -509,
+"to": 9999,
+"paved": null,
+"rank": 3,
+"certainty": "conjectural",
+"length_m": 174,
+"note": "The branch that led up to the Arx 'which was at first the more important of the two' (Platner); no trace survives. Drawn past the Asylum saddle north of the Tabularium.",
+"scholarship": [
+"Platner-Ashby, Clivus Capitolinus"
+]
+},
+{
+"id": "clivus_argentarius",
+"name": "Clivus Argentarius",
+"modern": "Clivo Argentario",
+"line": [
+[
+12.484768,
+41.893024
+],
+[
+12.484796,
+41.893263
+],
+[
+12.484621,
+41.893394
+],
+[
+12.484535,
+41.893634
+],
+[
+12.484318,
+41.894026
+],
+[
+12.484188,
+41.894083
+],
+[
+12.4839,
+41.8946
+],
+[
+12.4835,
+41.89495
+],
+[
+12.4832,
+41.89515
+]
+],
+"w": 5.0,
+"from": -509,
+"to": 9999,
+"paved": -20,
+"rank": 1,
+"certainty": "excavated",
+"length_m": 281,
+"ends": [
+"Forum Romanum (Carcer)",
+"Porta Fontinalis / Via Lata"
+],
+"gates": [
+"porta_fontinalis"
+],
+"note": "From the Forum by the Carcer north along the east foot of the Arx, behind the Forum of Caesar, to the Porta Fontinalis, continuing as the Via Lata. Name medieval (from the argentarii); stretch of pavement and tabernae preserved behind the Forum of Caesar (OpenStreetMap trace).",
+"scholarship": [
+"Platner-Ashby, Clivus Argentarius",
+"Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010) 166"
+]
+},
+{
+"id": "clivus_palatinus",
+"name": "Clivus Palatinus",
+"modern": "Clivo Palatino (archaeological path)",
+"line": [
+[
+12.488519,
+41.890691
+],
+[
+12.488258,
+41.890437
+],
+[
+12.488093,
+41.890128
+],
+[
+12.487955,
+41.89013
+],
+[
+12.487885,
+41.890165
+],
+[
+12.487873,
+41.890366
+],
+[
+12.4875,
+41.8901
+],
+[
+12.4871,
+41.88975
+],
+[
+12.4868,
+41.88945
+]
+],
+"w": 6.0,
+"from": -509,
+"to": 9999,
+"paved": -20,
+"rank": 2,
+"certainty": "excavated",
+"length_m": 249,
+"ends": [
+"Arch of Titus",
+"Area Palatina (Domus Flavia)"
+],
+"note": "Modern name for the ascent from the summa Sacra Via by the Arch of Titus to the Palatine summit and the area in front of the Domus Flavia; Sullan pavement at about 29 m, Augustan above, Neronian about 17 m wide (Platner).",
+"scholarship": [
+"Platner-Ashby, Cliva: Clivus Palatinus",
+"Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010) 136"
+]
+},
+{
+"id": "clivus_victoriae",
+"name": "Clivus Victoriae",
+"modern": "Clivo della Vittoria (archaeological path)",
+"line": [
+[
+12.4845,
+41.88995
+],
+[
+12.485035,
+41.890375
+],
+[
+12.485468,
+41.890637
+],
+[
+12.485977,
+41.891002
+],
+[
+12.485947,
+41.890981
+],
+[
+12.486475,
+41.890863
+],
+[
+12.486663,
+41.8908
+],
+[
+12.486923,
+41.890578
+],
+[
+12.487062,
+41.890544
+],
+[
+12.487233,
+41.890458
+],
+[
+12.4877,
+41.89025
+]
+],
+"w": 4.0,
+"from": -509,
+"to": 9999,
+"paved": -80,
+"rank": 2,
+"certainty": "excavated",
+"length_m": 343,
+"ends": [
+"Porta Romanula (Velabrum)",
+"Palatine summit (Domus Tiberiana)"
+],
+"gates": [
+"porta_romanula"
+],
+"note": "Ascent to the Palatine from the Velabrum, named from the Temple of Victoria. Began at the Porta Romanula a little south of S. Teodoro, skirted the cliff to the north corner of the hill and turned sharply right under the substructures of the Domus Tiberiana (Platner); a Sullan repaving is alluded to in an inscription. Path from OpenStreetMap.",
+"sources": [
+{
+"a": "Festus",
+"w": "De verborum significatu",
+"r": "262 L"
+}
+],
+"scholarship": [
+"Platner-Ashby, Cliva: Clivus Victoriae"
+]
+},
+{
+"id": "scalae_caci",
+"name": "Scalae Caci",
+"modern": "stair at the SW corner of the Palatine",
+"line": [
+[
+12.48415,
+41.88835
+],
+[
+12.484222,
+41.888594
+],
+[
+12.48445,
+41.88895
+],
+[
+12.48465,
+41.88915
+],
+[
+12.483682,
+41.88926
+]
+],
+"w": 3.0,
+"from": -509,
+"to": 9999,
+"paved": null,
+"rank": 3,
+"certainty": "excavated",
+"length_m": 181,
+"note": "Stair from the Circus Maximus / Forum Boarium side up to the Germalus by the hut of Romulus (Solinus 1.18); remains of the ancient stair survive at the south-west corner.",
+"sources": [
+{
+"a": "Solinus",
+"w": "Collectanea",
+"r": "1.18"
+},
+{
+"a": "Plutarch",
+"w": "Romulus",
+"r": "20.4"
+}
+],
+"scholarship": [
+"Platner-Ashby, Scalae Caci"
+]
+},
+{
+"id": "centum_gradus",
+"name": "Centum Gradus",
+"modern": "stair from the Forum Holitorium up the Capitoline (Monte Caprino area)",
+"line": [
+[
+12.4813,
+41.89115
+],
+[
+12.4816,
+41.89145
+],
+[
+12.4818,
+41.8917
+],
+[
+12.48205,
+41.89185
+]
+],
+"w": 3.0,
+"from": -509,
+"to": 9999,
+"paved": null,
+"rank": 3,
+"certainty": "conjectural",
+"length_m": 101,
+"note": "The Hundred Steps leading up to the Tarpeian Rock from the Forum Holitorium side (Tacitus, Hist. 3.71).",
+"sources": [
+{
+"a": "Tacitus",
+"w": "Historiae",
+"r": "3.71"
+}
+],
+"scholarship": [
+"Richardson, NTDAR (1992) 77"
+]
+},
+{
+"id": "scalae_gemoniae",
+"name": "Scalae Gemoniae",
+"modern": "stair from the Arx down to the Carcer",
+"line": [
+[
+12.4837,
+41.8939
+],
+[
+12.48405,
+41.89365
+],
+[
+12.48435,
+41.89345
+],
+[
+12.4846,
+41.8933
+]
+],
+"w": 3.0,
+"from": -31,
+"to": 9999,
+"paved": null,
+"rank": 3,
+"certainty": "reconstructed",
+"length_m": 100,
+"note": "Stair from the Arx down to the Forum beside the Carcer, where bodies of the executed were exposed (first named under Tiberius; Valerius Maximus 6.3.3, 6.9.13; Suetonius, Tib. 61).",
+"sources": [
+{
+"a": "Suetonius",
+"w": "Tiberius",
+"r": "53; 61"
+},
+{
+"a": "Cassius Dio",
+"w": "Historia Romana",
+"r": "58.5.6; 58.11.5"
+}
+],
+"scholarship": [
+"Platner-Ashby, Scalae Gemoniae"
+]
+},
+{
+"id": "vicus_velabri",
+"name": "Street of the Velabrum (Vicus Tuscus to the Forum Boarium)",
+"modern": "Via del Velabro",
+"line": [
+[
+12.481907,
+41.891071
+],
+[
+12.482069,
+41.890287
+],
+[
+12.482165,
+41.88947
+],
+[
+12.482893,
+41.889488
+],
+[
+12.482989,
+41.889295
+],
+[
+12.483308,
+41.889376
+],
+[
+12.483411,
+41.889461
+],
+[
+12.483745,
+41.889532
+]
+],
+"w": 6.0,
+"from": -509,
+"to": 9999,
+"paved": -174,
+"rank": 2,
+"certainty": "documented",
+"length_m": 332,
+"ends": [
+"Vicus Tuscus",
+"Forum Boarium"
+],
+"note": "Street from the Vicus Tuscus through the Velabrum past the Arcus Argentariorum (204) and the Ianus Quadrifrons to the Forum Boarium; preserved by Via del Velabro beside S. Giorgio.",
+"scholarship": [
+"Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010) 286-289",
+"Coarelli, Rome and Environs (2007) 312-314"
+]
+},
+{
+"id": "vicus_curiarum",
+"name": "Vicus Curiarum",
+"modern": "north end of Via di San Gregorio by the Meta Sudans",
+"line": [
+[
+12.49048,
+41.89014
+],
+[
+12.4906,
+41.8897
+],
+[
+12.4905,
+41.8892
+]
+],
+"w": 6.0,
+"from": -509,
+"to": 9999,
+"paved": null,
+"rank": 3,
+"certainty": "conjectural",
+"length_m": 106,
+"note": "Street of Region X named from the Curiae Veteres (Capitoline Base, CIL VI 975); the Curiae have been found by Panella's excavations by the Meta Sudans at the NE corner of the Palatine.",
+"scholarship": [
+"Platner-Ashby, Vicus Curiarum",
+"Panella (ed.), Meta Sudans I (1996)"
+]
+},
+{
+"id": "road_palatine_east_foot",
+"name": "Road along the east foot of the Palatine (Meta Sudans - Porta Capena)",
+"modern": "Via di San Gregorio",
+"line": [
+[
+12.49048,
+41.89014
+],
+[
+12.4906,
+41.8895
+],
+[
+12.490434,
+41.88867
+],
+[
+12.490351,
+41.888567
+],
+[
+12.490293,
+41.888422
+],
+[
+12.489382,
+41.885263
+],
+[
+12.49048,
+41.883943
+]
+],
+"w": 8.0,
+"from": -509,
+"to": 9999,
+"paved": -20,
+"rank": 1,
+"certainty": "documented",
+"length_m": 727,
+"ends": [
+"Meta Sudans / Arch of Constantine",
+"Porta Capena"
+],
+"gates": [
+"porta_capena"
+],
+"note": "Valley road between the Palatine and the Caelian from the Meta Sudans to the Porta Capena and the Via Appia: route of triumphs from the Circus Maximus toward the Sacra Via, passing the Arch of Constantine (315) and the Septizodium (203). Called 'Via Triumphalis' in modern literature without ancient warrant (Platner). Modern Via di San Gregorio.",
+"scholarship": [
+"Platner-Ashby, Via Triumphalis (2)",
+"Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010) 293"
+]
+},
+{
+"id": "circus_maximus_north_street",
+"name": "Street along the north side of the Circus Maximus",
+"modern": "Via dei Cerchi",
+"line": [
+[
+12.489205,
+41.884907
+],
+[
+12.483144,
+41.888247
+],
+[
+12.482133,
+41.88891
+]
+],
+"w": 6.0,
+"from": -509,
+"to": 9999,
+"paved": null,
+"rank": 2,
+"certainty": "reconstructed",
+"length_m": 737,
+"ends": [
+"Forum Boarium",
+"Porta Capena"
+],
+"note": "Street along the Palatine side of the Circus Maximus from the Forum Boarium to the Porta Capena, outside the circus facade arcades; the procession of the pompa circensis entered the circus at the carceres end.",
+"scholarship": [
+"Coarelli, Rome and Environs (2007) 328-333"
+]
+},
+{
+"id": "circus_maximus_south_street",
+"name": "Street along the south (Aventine) side of the Circus Maximus",
+"modern": "Via del Circo Massimo",
+"line": [
+[
+12.48225,
+41.887194
+],
+[
+12.4839,
+41.88625
+],
+[
+12.4858,
+41.88485
+],
+[
+12.4877,
+41.88345
+],
+[
+12.49048,
+41.883943
+]
+],
+"w": 6.0,
+"from": -509,
+"to": 9999,
+"paved": null,
+"rank": 2,
+"certainty": "reconstructed",
+"length_m": 853,
+"ends": [
+"Forum Boarium / Porta Trigemina",
+"Porta Capena"
+],
+"note": "Street along the Aventine side of the Circus Maximus, from the Porta Trigemina area to the Porta Capena; temples of Ceres, Mercury and Flora above.",
+"scholarship": [
+"Coarelli, Rome and Environs (2007) 328-333"
+]
+},
+{
+"id": "vicus_apollinis",
+"name": "Vicus Apollinis (conjectural)",
+"modern": "Palatine summit, Area Palatina to the Temple of Apollo",
+"line": [
+[
+12.4868,
+41.88945
+],
+[
+12.4863,
+41.88915
+],
+[
+12.4859,
+41.88895
+]
+],
+"w": 5.0,
+"from": -28,
+"to": 9999,
+"paved": null,
+"rank": 3,
+"certainty": "conjectural",
+"length_m": 93,
+"note": "Street of Region X (Capitoline Base); drawn from the head of the Clivus Palatinus to the precinct of Apollo Palatinus.",
+"scholarship": [
+"Platner-Ashby, Vicus Apollinis"
+]
+},
+{
+"id": "clivus_acilius",
+"name": "Clivus / Compitum Acilium (Velia)",
+"modern": "Clivo di Acilio",
+"line": [
+[
+12.49005,
+41.892496
+],
+[
+12.489672,
+41.892023
+],
+[
+12.489734,
+41.892045
+],
+[
+12.489824,
+41.892037
+],
+[
+12.490217,
+41.89181
+],
+[
+12.490637,
+41.891475
+],
+[
+12.490693,
+41.891406
+],
+[
+12.490711,
+41.891332
+]
+],
+"w": 5.0,
+"from": -509,
+"to": 9999,
+"paved": null,
+"rank": 3,
+"certainty": "reconstructed",
+"length_m": 184,
+"note": "Lane on the Velia from the Sacra Via toward the Carinae; the Compitum Acilium (shrine of the Lares) was found in 1932 during the cutting of Via dell'Impero. Path from OpenStreetMap.",
+"scholarship": [
+"Richardson, NTDAR (1992) 96 (Compitum Acilium)"
+]
+},
+{
+"id": "subura_main_street",
+"name": "Subura (main street)",
+"modern": "Via della Madonna dei Monti - Via Leonina",
+"line": [
+[
+12.4867,
+41.89365
+],
+[
+12.490818,
+41.894555
+],
+[
+12.490197,
+41.894401
+],
+[
+12.489378,
+41.894138
+],
+[
+12.487829,
+41.893831
+],
+[
+12.490818,
+41.894555
+],
+[
+12.490997,
+41.894617
+],
+[
+12.492664,
+41.894884
+]
+],
+"w": 6.0,
+"from": -509,
+"to": 9999,
+"paved": null,
+"rank": 1,
+"certainty": "reconstructed",
+"length_m": 1037,
+"ends": [
+"Argiletum (Forum of Augustus)",
+"Piazza della Suburra (Clivus Suburanus / Vicus Patricius)"
+],
+"note": "Main street of the Subura from the end of the Argiletum (behind the fire wall of the Forum of Augustus) east to the fork of the Clivus Suburanus and Vicus Patricius (Piazza della Suburra). Its line is preserved by Via della Madonna dei Monti and Via Leonina.",
+"sources": [
+{
+"a": "Juvenal",
+"w": "Satires",
+"r": "3.5; 11.51"
+},
+{
+"a": "Martial",
+"w": "Epigrams",
+"r": "12.18.2"
+}
+],
+"scholarship": [
+"Platner-Ashby, Subura",
+"Coarelli, Rome and Environs (2007) 186"
+]
+},
+{
+"id": "clivus_suburanus",
+"name": "Clivus Suburanus",
+"modern": "Via in Selci - Via di San Martino ai Monti - Via di San Vito",
+"line": [
+[
+12.4955,
+41.8949
+],
+[
+12.497231,
+41.895046
+],
+[
+12.496952,
+41.894935
+],
+[
+12.496403,
+41.894762
+],
+[
+12.495993,
+41.894656
+],
+[
+12.495746,
+41.894625
+],
+[
+12.494824,
+41.894622
+],
+[
+12.494206,
+41.894665
+],
+[
+12.4941,
+41.894699
+],
+[
+12.494006,
+41.894853
+],
+[
+12.497682,
+41.895297
+],
+[
+12.498866,
+41.8957
+],
+[
+12.499712,
+41.895946
+],
+[
+12.500031,
+41.895891
+],
+[
+12.501262,
+41.895816
+],
+[
+12.501363,
+41.895766
+]
+],
+"w": 6.0,
+"from": -509,
+"to": 9999,
+"paved": -174,
+"rank": 1,
+"certainty": "documented",
+"length_m": 1066,
+"ends": [
+"Subura",
+"Porta Esquilina (Arch of Gallienus)"
+],
+"gates": [
+"porta_esquilina"
+],
+"note": "Continuation of the Subura climbing between the Oppius and Cispius to the Porta Esquilina; ancient pavement follows the line of Via di S. Lucia in Selci, Via di S. Martino and Via di S. Vito (Platner). Shown on the Marble Plan with the Porticus Liviae on its south side.",
+"sources": [
+{
+"a": "Martial",
+"w": "Epigrams",
+"r": "5.22.5; 10.19.5"
+}
+],
+"scholarship": [
+"Platner-Ashby, Cliva: Clivus Suburanus",
+"Richardson, NTDAR (1992) 91"
+]
+},
+{
+"id": "vicus_patricius",
+"name": "Vicus Patricius",
+"modern": "Via Urbana",
+"line": [
+[
+12.49638,
+41.89994
+],
+[
+12.496871,
+41.899392
+],
+[
+12.496024,
+41.898498
+],
+[
+12.495949,
+41.898374
+],
+[
+12.495522,
+41.897879
+],
+[
+12.493573,
+41.895693
+],
+[
+12.493016,
+41.894984
+],
+[
+12.4995,
+41.8996
+],
+[
+12.5004,
+41.9009
+],
+[
+12.5011,
+41.9022
+]
+],
+"w": 6.0,
+"from": -509,
+"to": 9999,
+"paved": -174,
+"rank": 1,
+"certainty": "documented",
+"length_m": 1721,
+"ends": [
+"Subura",
+"Porta Viminalis"
+],
+"gates": [
+"porta_viminalis"
+],
+"note": "Branched from the Subura and ran north-east between the Cispius and Viminal to the Porta Viminalis (Marble Plan frg. 9); boundary of Regions IV and VI; corresponds closely to Via Urbana (Platner). Church of S. Pudenziana on it.",
+"sources": [
+{
+"a": "Festus",
+"w": "De verborum significatu",
+"r": "247 L"
+},
+{
+"a": "Martial",
+"w": "Epigrams",
+"r": "7.73.2; 10.68.2"
+}
+],
+"scholarship": [
+"Platner-Ashby, Vicus Patricius 576-577",
+"Richardson, NTDAR (1992) 429"
+]
+},
+{
+"id": "vicus_longus",
+"name": "Vicus Longus",
+"modern": "Via dei Serpenti, then across Via Nazionale (pavement found near the Banca d'Italia) to the Baths of Diocletian",
+"line": [
+[
+12.490806,
+41.894552
+],
+[
+12.491007,
+41.894101
+],
+[
+12.489624,
+41.897722
+],
+[
+12.489524,
+41.897868
+],
+[
+12.489236,
+41.898089
+],
+[
+12.4924,
+41.8989
+],
+[
+12.4934,
+41.8995
+],
+[
+12.4945,
+41.9002
+],
+[
+12.4955,
+41.9009
+],
+[
+12.4963,
+41.9015
+]
+],
+"w": 6.0,
+"from": -509,
+"to": 9999,
+"paved": -174,
+"rank": 1,
+"certainty": "reconstructed",
+"length_m": 1236,
+"ends": [
+"Subura",
+"Baths of Diocletian (SW side)"
+],
+"note": "Street through the valley between the Quirinal and the Viminal; its pavement crosses Via Nazionale at about 20 degrees near the Banca d'Italia and was traced for 1 km toward the Baths of Diocletian (Platner). The lower end is taken up Via dei Serpenti from the Subura. Shrines of Pudicitia Plebeia (296 BC), Febris and Fortuna. The north-eastern stretch through the baths' site is a separate record (vicus_longus_northeast).",
+"sources": [
+{
+"a": "Livy",
+"w": "Ab urbe condita",
+"r": "10.23.6"
+},
+{
+"a": "Valerius Maximus",
+"w": "Facta et dicta",
+"r": "2.5.6"
+}
+],
+"scholarship": [
+"Platner-Ashby, Vicus Longus 575",
+"Richardson, NTDAR (1992) 428"
+]
+},
+{
+"id": "vicus_longus_northeast",
+"name": "Vicus Longus (north-east stretch, built over by the Baths of Diocletian)",
+"modern": "under the Baths of Diocletian to Via XX Settembre at Via Quintino Sella",
+"line": [
+[
+12.4963,
+41.9015
+],
+[
+12.497,
+41.9027
+],
+[
+12.4975,
+41.904
+],
+[
+12.4977,
+41.9053
+],
+[
+12.4976,
+41.9065
+],
+[
+12.4973,
+41.9073
+],
+[
+12.497822,
+41.90688
+]
+],
+"w": 6.0,
+"from": -509,
+"to": 297,
+"paved": -174,
+"rank": 1,
+"certainty": "reconstructed",
+"length_m": 731,
+"ends": [
+"Vicus Longus",
+"Alta Semita (inside Porta Collina)"
+],
+"note": "Last stretch to the Alta Semita just inside the Porta Collina, near where Via Quintino Sella meets Via XX Settembre; destroyed by the Baths of Diocletian (298-306) (Platner).",
+"scholarship": [
+"Platner-Ashby, Vicus Longus"
+]
+},
+{
+"id": "clivus_salutis",
+"name": "Clivus Salutis (Vicus Salutaris)",
+"modern": "Via della Consulta",
+"line": [
+[
+12.489288,
+41.898122
+],
+[
+12.487339,
+41.899566
+]
+],
+"w": 4.5,
+"from": -509,
+"to": 9999,
+"paved": null,
+"rank": 2,
+"certainty": "documented",
+"length_m": 228,
+"ends": [
+"Alta Semita",
+"Vicus Longus"
+],
+"note": "Connected the Alta Semita with the Vicus Longus along the line of Via della Consulta; pavement found up to 18 m below ground; vicus Salutaris inscription found at the SW end of Via del Quirinale (Platner).",
+"sources": [
+{
+"a": "Symmachus",
+"w": "Epistulae",
+"r": "5.54.2"
+}
+],
+"scholarship": [
+"Platner-Ashby, Cliva: Clivus Salutis"
+]
+},
+{
+"id": "vicus_insteianus",
+"name": "Vicus Insteianus (Insteius)",
+"modern": "destroyed by the imperial fora (Largo Magnanapoli slope)",
+"line": [
+[
+12.48595,
+41.8958
+],
+[
+12.4863,
+41.8949
+],
+[
+12.48635,
+41.8954
+],
+[
+12.48645,
+41.8959
+],
+[
+12.48655,
+41.89635
+]
+],
+"w": 4.0,
+"from": -509,
+"to": 106,
+"paved": null,
+"rank": 3,
+"certainty": "conjectural",
+"length_m": 267,
+"note": "Street on the collis Latiaris (southern Quirinal) where a great flood of water burst out in 214 BC; probably ascended near the Porta Fontinalis and Piazza Magnanapoli and was destroyed by the imperial fora (Platner).",
+"sources": [
+{
+"a": "Varro",
+"w": "De lingua Latina",
+"r": "5.52"
+},
+{
+"a": "Livy",
+"w": "Ab urbe condita",
+"r": "24.10.8"
+}
+],
+"scholarship": [
+"Platner-Ashby, Vicus Insteius"
+]
+},
+{
+"id": "alta_semita",
+"name": "Alta Semita",
+"modern": "Via del Quirinale",
+"line": [
+[
+12.487412,
+41.899512
+],
+[
+12.4866,
+41.8989
+],
+[
+12.487109,
+41.899384
+],
+[
+12.489138,
+41.900866
+],
+[
+12.490739,
+41.901969
+]
+],
+"w": 6.0,
+"from": -509,
+"to": 9999,
+"paved": -174,
+"rank": 1,
+"certainty": "documented",
+"length_m": 581,
+"ends": [
+"Piazza del Quirinale (Porta Salutaris / Sanqualis)",
+"Quattro Fontane"
+],
+"note": "Ridge road of the Quirinal from near the Porta Sanqualis / Salutaris to the Porta Collina, corresponding to Via del Quirinale and Via XX Settembre; ancient pavement about 1.8 m below the present level (Platner). Temples of Salus and Quirinus, later the Baths of Constantine, Temple of Serapis and Horti Sallustiani nearby. This record covers the stretch to the Quattro Fontane.",
+"sources": [
+{
+"a": "Notitia",
+"w": "Regionaria",
+"r": "Reg. VI"
+}
+],
+"scholarship": [
+"Platner-Ashby, Alta Semita",
+"Richardson, NTDAR (1992) 9"
+]
+},
+{
+"id": "vicus_portae_collinae",
+"name": "Vicus Portae Collinae (Alta Semita, north-east stretch)",
+"modern": "Via XX Settembre",
+"line": [
+[
+12.49074,
+41.90197
+],
+[
+12.492278,
+41.903046
+],
+[
+12.492438,
+41.903187
+],
+[
+12.493999,
+41.904232
+],
+[
+12.494042,
+41.904285
+],
+[
+12.494036,
+41.904346
+],
+[
+12.494219,
+41.904469
+],
+[
+12.494249,
+41.904441
+],
+[
+12.495387,
+41.905193
+],
+[
+12.498814,
+41.907567
+],
+[
+12.4988,
+41.90755
+]
+],
+"w": 6.0,
+"from": -509,
+"to": 9999,
+"paved": -174,
+"rank": 1,
+"certainty": "documented",
+"length_m": 924,
+"ends": [
+"Quattro Fontane",
+"Porta Collina"
+],
+"gates": [
+"porta_collina"
+],
+"note": "North-eastern part of the Alta Semita from the Quattro Fontane past S. Susanna to the Porta Collina, probably called Vicus Portae Collinae (inscription CIL VI 450 found near S. Susanna).",
+"scholarship": [
+"Platner-Ashby, Alta Semita"
+]
+},
+{
+"id": "clivus_mamuri",
+"name": "Clivus Mamuri",
+"modern": "Quirinal, from Via del Quirinale south-east (conjectural)",
+"line": [
+[
+12.4893,
+41.9008
+],
+[
+12.49,
+41.9001
+],
+[
+12.4907,
+41.8995
+],
+[
+12.4913,
+41.899
+],
+[
+12.491457,
+41.898658
+]
+],
+"w": 4.0,
+"from": -509,
+"to": 9999,
+"paved": null,
+"rank": 3,
+"certainty": "conjectural",
+"length_m": 300,
+"note": "Named from the statue of Mamurius Veturius, maker of the ancilia, near the Temple of Quirinus and the Curia Saliorum; probably ran south-east from the Alta Semita (Platner).",
+"scholarship": [
+"Platner-Ashby, Cliva: Clivus Mamuri"
+]
+},
+{
+"id": "vicus_collis_viminalis",
+"name": "Vicus Collis Viminalis",
+"modern": "Via Napoli - Via del Viminale ridge, on to the Porta Chiusa",
+"line": [
+[
+12.493889,
+41.899811
+],
+[
+12.4947,
+41.8991
+],
+[
+12.4959,
+41.8997
+],
+[
+12.4973,
+41.9004
+],
+[
+12.4987,
+41.9011
+],
+[
+12.5,
+41.9017
+],
+[
+12.5011,
+41.9022
+],
+[
+12.5025,
+41.9019
+],
+[
+12.5042,
+41.9015
+],
+[
+12.506,
+41.9011
+],
+[
+12.508272,
+41.900947
+]
+],
+"w": 5.0,
+"from": -509,
+"to": 9999,
+"paved": null,
+"rank": 2,
+"certainty": "documented",
+"length_m": 1352,
+"ends": [
+"Via Napoli (Viminal)",
+"Porta Viminalis / Porta Chiusa"
+],
+"gates": [
+"porta_viminalis",
+"porta_chiusa"
+],
+"note": "Ridge road of the Viminal to the Porta Viminalis; pavement found on a line from Via Napoli to the Porta Chiusa (Platner), so the stretch beyond the Servian gate ran on to the later Aurelian gate. Inscriptions CIL VI 2227-2228.",
+"scholarship": [
+"Platner-Ashby, Vicus Collis Viminalis"
+]
+},
+{
+"id": "vicus_cuprius",
+"name": "Vicus Cuprius (Cyprius)",
+"modern": "Via del Cardello - Via del Colosseo",
+"line": [
+[
+12.49031,
+41.892472
+],
+[
+12.489886,
+41.893253
+],
+[
+12.489586,
+41.893736
+],
+[
+12.488564,
+41.893341
+],
+[
+12.488837,
+41.893166
+],
+[
+12.48902,
+41.893004
+],
+[
+12.489147,
+41.892926
+],
+[
+12.49005,
+41.892496
+],
+[
+12.490182,
+41.892462
+],
+[
+12.49031,
+41.892472
+],
+[
+12.490411,
+41.892265
+],
+[
+12.49086,
+41.891574
+],
+[
+12.490929,
+41.891525
+],
+[
+12.491017,
+41.8915
+]
+],
+"w": 5.0,
+"from": -509,
+"to": 9999,
+"paved": null,
+"rank": 2,
+"certainty": "reconstructed",
+"length_m": 552,
+"ends": [
+"Tigillum Sororium (Velia)",
+"Subura"
+],
+"note": "From the Tigillum Sororium north across the slope of the Carinae to the Subura; it crossed the Clivus Orbius at its highest point where Tullia drove over her father's body (Livy 1.48.6). Line approximately that of Via del Cardello and Via del Colosseo (Platner). Varro derives the name from Sabine 'ciprum', good.",
+"sources": [
+{
+"a": "Livy",
+"w": "Ab urbe condita",
+"r": "1.48.6"
+},
+{
+"a": "Varro",
+"w": "De lingua Latina",
+"r": "5.159"
+},
+{
+"a": "Dionysius of Halicarnassus",
+"w": "Antiquitates Romanae",
+"r": "3.22.8"
+}
+],
+"scholarship": [
+"Platner-Ashby, Vicus Cuprius 572"
+]
+},
+{
+"id": "clivus_orbius",
+"name": "Clivus Orbius (Urbius)",
+"modern": "Via di San Pietro in Vincoli (approx.)",
+"line": [
+[
+12.492408,
+41.893837
+],
+[
+12.4919,
+41.8935
+],
+[
+12.49235,
+41.8936
+],
+[
+12.4928,
+41.8937
+],
+[
+12.4932,
+41.89365
+],
+[
+12.4938,
+41.89345
+],
+[
+12.4945,
+41.8933
+]
+],
+"w": 5.0,
+"from": -509,
+"to": 9999,
+"paved": null,
+"rank": 2,
+"certainty": "reconstructed",
+"length_m": 283,
+"note": "Ancient name of the street up the Carinae to the top of the Oppius, crossing the Vicus Cuprius; afterwards called Vicus Sceleratus. Probably corresponds in part with Via di S. Pietro in Vincoli, where ancient pavement has been found (Platner).",
+"sources": [
+{
+"a": "Livy",
+"w": "Ab urbe condita",
+"r": "1.48.6"
+},
+{
+"a": "Solinus",
+"w": "Collectanea",
+"r": "1.25"
+}
+],
+"scholarship": [
+"Platner-Ashby, Cliva: Clivus Orbius"
+]
+},
+{
+"id": "vicus_sceleratus",
+"name": "Vicus Sceleratus",
+"modern": "Via di San Francesco di Paola (traditional)",
+"line": [
+[
+12.49276,
+41.894451
+],
+[
+12.492192,
+41.894324
+],
+[
+12.492408,
+41.893837
+]
+],
+"w": 4.0,
+"from": -534,
+"to": 9999,
+"paved": null,
+"rank": 3,
+"certainty": "conjectural",
+"length_m": 106,
+"note": "The 'Wicked Street' where Tullia drove her carriage over the body of Servius Tullius (Livy 1.48.7; Ovid Fasti 6.609); in fact the upper part of the Clivus Orbius. Tradition attaches it to the stepped Via di S. Francesco di Paola below S. Pietro in Vincoli.",
+"sources": [
+{
+"a": "Livy",
+"w": "Ab urbe condita",
+"r": "1.48.7"
+},
+{
+"a": "Ovid",
+"w": "Fasti",
+"r": "6.609"
+},
+{
+"a": "Dionysius of Halicarnassus",
+"w": "Antiquitates Romanae",
+"r": "4.39"
+}
+],
+"scholarship": [
+"Platner-Ashby, Cliva: Clivus Orbius"
+]
+},
+{
+"id": "clivus_pullius",
+"name": "Clivus Pullius",
+"modern": "from the Subura across the west end of the Oppius past S. Pietro in Vincoli (conjectural)",
+"line": [
+[
+12.4927,
+41.8946
+],
+[
+12.4929,
+41.8941
+],
+[
+12.4931,
+41.8937
+],
+[
+12.4933,
+41.8932
+],
+[
+12.4933,
+41.8927
+],
+[
+12.493757,
+41.893464
+]
+],
+"w": 4.0,
+"from": -509,
+"to": 9999,
+"paved": null,
+"rank": 3,
+"certainty": "conjectural",
+"length_m": 312,
+"note": "Ran south from the Subura across the western end of the Oppius to the Fagutal, past the site of S. Pietro in Vincoli; inscription of the clivumpullenses (CIL VI 31893) and the church of S. Giovanni in Carapullo (Platner).",
+"sources": [
+{
+"a": "Varro",
+"w": "De lingua Latina",
+"r": "5.158"
+},
+{
+"a": "Solinus",
+"w": "Collectanea",
+"r": "1.26"
+}
+],
+"scholarship": [
+"Platner-Ashby, Cliva: Clivus Pullius"
+]
+},
+{
+"id": "vicus_sandaliarius",
+"name": "Vicus Sandaliarius",
+"modern": "north part of Via del Colosseo (conjectural)",
+"line": [
+[
+12.491007,
+41.894101
+],
+[
+12.4905,
+41.8937
+],
+[
+12.4909,
+41.89335
+],
+[
+12.4913,
+41.893
+],
+[
+12.4919,
+41.8935
+]
+],
+"w": 4.5,
+"from": -509,
+"to": 9999,
+"paved": null,
+"rank": 3,
+"certainty": "conjectural",
+"length_m": 238,
+"note": "Street of Region IV, probably north-east of the Templum Pacis near the Temple of Tellus, perhaps coinciding with the northern part of Via del Colosseo (Platner); the Apollo Sandaliarius of Augustus and the booksellers (Gellius 18.4.1; Galen).",
+"sources": [
+{
+"a": "Suetonius",
+"w": "Augustus",
+"r": "57.1"
+},
+{
+"a": "Aulus Gellius",
+"w": "Noctes Atticae",
+"r": "18.4.1"
+}
+],
+"scholarship": [
+"Platner-Ashby, Vicus Sandaliarius"
+]
+},
+{
+"id": "street_baths_trajan_clivus",
+"name": "Street from the Baths of Trajan to the Clivus Suburanus",
+"modern": "Via delle Sette Sale direction (found 1922)",
+"line": [
+[
+12.4945,
+41.8933
+],
+[
+12.495,
+41.8929
+],
+[
+12.4952,
+41.8936
+],
+[
+12.4954,
+41.8943
+],
+[
+12.4955,
+41.8949
+]
+],
+"w": 4.0,
+"from": 110,
+"to": 9999,
+"paved": 110,
+"rank": 3,
+"certainty": "conjectural",
+"length_m": 287,
+"note": "Street that ran northward from the west side of the Baths of Trajan to join the Clivus Suburanus, found in 1922 (Platner); bordered the Porticus Liviae on the Marble Plan.",
+"scholarship": [
+"Platner-Ashby, Cliva: Clivus Suburanus, n. 2",
+"Stanford Digital Forma Urbis Romae, frg. 10"
+]
+},
+{
+"id": "via_biberatica",
+"name": "Via Biberatica (Markets of Trajan)",
+"modern": "Via Biberatica (modern name, Mercati di Traiano)",
+"line": [
+[
+12.48595,
+41.8958
+],
+[
+12.48625,
+41.89615
+],
+[
+12.48665,
+41.89625
+],
+[
+12.48705,
+41.89605
+],
+[
+12.4873,
+41.8957
+],
+[
+12.486429,
+41.895797
+]
+],
+"w": 4.0,
+"from": 110,
+"to": 9999,
+"paved": 110,
+"rank": 3,
+"certainty": "excavated",
+"length_m": 238,
+"note": "Paved street winding through the upper levels of Trajan's Markets, lined with shops; the name is medieval/modern. Drawn from the published plan of the markets (approximate).",
+"scholarship": [
+"Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010) 183-188"
+]
+},
+{
+"id": "clivus_scauri",
+"name": "Clivus Scauri",
+"modern": "Clivo di Scauro",
+"line": [
+[
+12.48977,
+41.886607
+],
+[
+12.490666,
+41.886463
+],
+[
+12.492395,
+41.886265
+],
+[
+12.4939,
+41.8859
+],
+[
+12.4953,
+41.8855
+]
+],
+"w": 5.0,
+"from": -509,
+"to": 9999,
+"paved": null,
+"rank": 2,
+"certainty": "excavated",
+"length_m": 477,
+"note": "Climbs the Caelian from the valley of the Circus Maximus beside SS. Giovanni e Paolo, whose 2nd-3rd century houses and arcades line it; also called Vicus Trium Ararum. Medieval buttress arches span it.",
+"scholarship": [
+"Platner-Ashby, Clivus Scauri",
+"Claridge, Rome (Oxford Archaeological Guide, 2nd ed. 2010) 330"
+]
+},
+{
+"id": "vicus_capitis_africae",
+"name": "Vicus Capitis Africae",
+"modern": "Via Claudia (to S. Stefano Rotondo)",
+"line": [
+[
+12.49383,
+41.889555
+],
+[
+12.493681,
+41.889138
+],
+[
+12.495162,
+41.886181
+],
+[
+12.496,
+41.8852
+],
+[
+12.4966,
+41.88455
+]
+],
+"w": 5.0,
+"from": -509,
+"to": 9999,
+"paved": null,
+"rank": 2,
+"certainty": "reconstructed",
+"length_m": 616,
+"ends": [
+"Colosseum",
+"Macellum Magnum"
+],
+"note": "From the Colosseum to the Macellum Magnum (S. Stefano Rotondo) along the east side of the Temple of Claudius; the Paedagogium of imperial slaves stood on it (Caput Africae). Line of Via Claudia.",
+"scholarship": [
+"Platner-Ashby, Caput Africae",
+"Richardson, NTDAR (1992) 70"
+]
+},
+{
+"id": "via_caelimontana",
+"name": "Via Caelimontana (urban road from the Porta Caelimontana to the Lateran)",
+"modern": "Via di Santo Stefano Rotondo",
+"line": [
+[
+12.4953,
+41.8855
+],
+[
+12.503305,
+41.887276
+],
+[
+12.502662,
+41.887278
+],
+[
+12.502292,
+41.887245
+],
+[
+12.502061,
+41.887173
+],
+[
+12.500793,
+41.886875
+],
+[
+12.499306,
+41.886396
+],
+[
+12.498994,
+41.886262
+],
+[
+12.498236,
+41.885867
+],
+[
+12.497699,
+41.885669
+],
+[
+12.496932,
+41.885432
+],
+[
+12.496388,
+41.885306
+],
+[
+12.495955,
+41.885284
+],
+[
+12.49561,
+41.885317
+]
+],
+"w": 6.0,
+"from": -509,
+"to": 9999,
+"paved": null,
+"rank": 2,
+"certainty": "reconstructed",
+"length_m": 1381,
+"ends": [
+"Porta Caelimontana",
+"Lateran"
+],
+"gates": [
+"porta_caelimontana"
+],
+"note": "Ridge road of the Caelian from the Servian gate east past the Macellum Magnum toward the Lateran and the Porta Asinaria; houses of the senatorial aristocracy (Laterani, Valerii) on it.",
+"scholarship": [
+"Coarelli, Rome and Environs (2007) 200-206"
+]
+},
+{
+"id": "via_tusculana_urban",
+"name": "Road from the Porta Querquetulana to the Lateran (Via Tusculana / Asinaria, urban)",
+"modern": "Via di San Giovanni in Laterano",
+"line": [
+[
+12.4981,
+41.88915
+],
+[
+12.494228,
+41.890147
+],
+[
+12.496794,
+41.889331
+],
+[
+12.502741,
+41.88749
+],
+[
+12.503069,
+41.887386
+],
+[
+12.503305,
+41.887276
+],
+[
+12.503932,
+41.887199
+],
+[
+12.50868,
+41.885675
+]
+],
+"w": 6.0,
+"from": -509,
+"to": 9999,
+"paved": null,
+"rank": 1,
+"certainty": "reconstructed",
+"length_m": 1641,
+"ends": [
+"Porta Querquetulana",
+"Porta Asinaria"
+],
+"gates": [
+"porta_querquetulana",
+"porta_asinaria"
+],
+"note": "Valley road from the Servian Porta Querquetulana past the Ludus Magnus and the Castra Peregrina to the Lateran and the Porta Asinaria, where it continued as the Via Asinaria; S. Clemente on it. Line of Via di S. Giovanni in Laterano.",
+"scholarship": [
+"Platner-Ashby, Via Asinaria",
+"Coarelli, Rome and Environs (2007) 200"
+]
+},
+{
+"id": "vicus_statae_matris",
+"name": "Vicus Statae Matris",
+"modern": "Caelian, near the Via della Navicella (conjectural)",
+"line": [
+[
+12.498195,
+41.882785
+],
+[
+12.497782,
+41.88256
+],
+[
+12.497639,
+41.882683
+],
+[
+12.496694,
+41.883284
+],
+[
+12.496515,
+41.883461
+],
+[
+12.496381,
+41.883705
+],
+[
+12.495943,
+41.884799
+],
+[
+12.495707,
+41.885108
+],
+[
+12.495526,
+41.885474
+]
+],
+"w": 4.0,
+"from": -509,
+"to": 9999,
+"paved": null,
+"rank": 3,
+"certainty": "conjectural",
+"length_m": 427,
+"note": "Street on the Caelian in Region II known from an altar of Stata Mater found in 1906; drawn on Via della Navicella.",
+"scholarship": [
+"Platner-Ashby, Vicus Statae Matris"
+]
+},
+{
+"id": "clivus_publicius",
+"name": "Clivus Publicius",
+"modern": "Clivo dei Publicii",
+"line": [
+[
+12.48225,
+41.887194
+],
+[
+12.482234,
+41.887049
+],
+[
+12.482306,
+41.886863
+],
+[
+12.48297,
+41.885967
+],
+[
+12.482814,
+41.885591
+],
+[
+12.482411,
+41.885292
+],
+[
+12.482682,
+41.884796
+],
+[
+12.482846,
+41.88429
+],
+[
+12.482998,
+41.884013
+],
+[
+12.4833,
+41.8833
+],
+[
+12.4836,
+41.8824
+],
+[
+12.4839,
+41.8815
+]
+],
+"w": 5.0,
+"from": -238,
+"to": 9999,
+"paved": -238,
+"rank": 1,
+"certainty": "documented",
+"length_m": 683,
+"ends": [
+"Forum Boarium (Porta Trigemina)",
+"Aventine summit (temple of Diana)"
+],
+"note": "Built and paved by the plebeian aediles L. and M. Publicius Malleolus about 238 BC, from the Forum Boarium near the west end of the Circus and the Porta Trigemina up across the Aventine past the Temple of Diana to the Vicus Piscinae Publicae (Platner). Burned in 203 BC, so thickly built up.",
+"sources": [
+{
+"a": "Festus",
+"w": "De verborum significatu",
+"r": "276 L"
+},
+{
+"a": "Varro",
+"w": "De lingua Latina",
+"r": "5.158"
+},
+{
+"a": "Ovid",
+"w": "Fasti",
+"r": "5.293-294"
+},
+{
+"a": "Livy",
+"w": "Ab urbe condita",
+"r": "26.10.6; 27.37.15; 30.26.5"
+}
+],
+"scholarship": [
+"Platner-Ashby, Cliva: Clivus Publicius",
+"Richardson, NTDAR (1992) 90"
+]
+},
+{
+"id": "vicus_armilustri",
+"name": "Vicus Armilustri",
+"modern": "Via di Santa Sabina - Via di Sant'Alessio",
+"line": [
+[
+12.482411,
+41.885292
+],
+[
+12.481551,
+41.885166
+],
+[
+12.481322,
+41.885096
+],
+[
+12.48028,
+41.884321
+],
+[
+12.482103,
+41.881277
+],
+[
+12.479144,
+41.883428
+]
+],
+"w": 5.0,
+"from": -509,
+"to": 9999,
+"paved": null,
+"rank": 2,
+"certainty": "reconstructed",
+"length_m": 929,
+"note": "Street of the Armilustrium, the open area on the Aventine where the arms of the army were purified (19 October), near S. Sabina in Via di S. Sabina (Platner).",
+"sources": [
+{
+"a": "Varro",
+"w": "De lingua Latina",
+"r": "5.153; 6.22"
+},
+{
+"a": "Livy",
+"w": "Ab urbe condita",
+"r": "27.37.4"
+}
+],
+"scholarship": [
+"Platner-Ashby, Armilustrium"
+]
+},
+{
+"id": "clivus_rocca_savella",
+"name": "Ascent from the river to S. Sabina (Clivo di Rocca Savella)",
+"modern": "Clivo di Rocca Savella",
+"line": [
+[
+12.481198,
+41.885018
+],
+[
+12.480364,
+41.885691
+],
+[
+12.480846,
+41.886502
+],
+[
+12.480792,
+41.886657
+],
+[
+12.48051,
+41.88694
+]
+],
+"w": 3.5,
+"from": -509,
+"to": 9999,
+"paved": null,
+"rank": 3,
+"certainty": "reconstructed",
+"length_m": 258,
+"note": "Stepped lane up the north-west cliff of the Aventine from the riverside (Porta Trigemina) to the summit, on an ancient line.",
+"scholarship": [
+"Coarelli, Rome and Environs (2007) 341"
+]
+},
+{
+"id": "vicus_piscinae_publicae",
+"name": "Vicus Piscinae Publicae",
+"modern": "Viale Aventino (valley between the two Aventine summits)",
+"line": [
+[
+12.4843,
+41.8809
+],
+[
+12.4855,
+41.8816
+],
+[
+12.4867,
+41.8824
+],
+[
+12.4879,
+41.8832
+],
+[
+12.489,
+41.8838
+],
+[
+12.49048,
+41.883943
+]
+],
+"w": 6.0,
+"from": -509,
+"to": 9999,
+"paved": null,
+"rank": 2,
+"certainty": "conjectural",
+"length_m": 631,
+"gates": [
+"porta_raudusculana",
+"porta_capena"
+],
+"note": "Street named from the Piscina Publica (an old public pool south of the Circus Maximus); the Clivus Publicius ran to it (Platner). Drawn through the valley between the Aventine summits from the Porta Raudusculana to the Porta Capena.",
+"scholarship": [
+"Platner-Ashby, Piscina Publica"
+]
+},
+{
+"id": "vicus_portae_raudusculanae",
+"name": "Vicus Portae Raudusculanae",
+"modern": "Viale Aventino (south part)",
+"line": [
+[
+12.4843,
+41.8809
+],
+[
+12.4838,
+41.88
+],
+[
+12.4832,
+41.879
+],
+[
+12.4826,
+41.878
+],
+[
+12.482,
+41.8772
+],
+[
+12.48166,
+41.876911
+]
+],
+"w": 5.0,
+"from": -353,
+"to": 9999,
+"paved": null,
+"rank": 2,
+"certainty": "conjectural",
+"length_m": 497,
+"gates": [
+"porta_raudusculana"
+],
+"note": "Street from the Porta Raudusculana down to the Via Ostiensis near the later Porta Ostiensis, on the line of the southern Viale Aventino.",
+"scholarship": [
+"Platner-Ashby, Porta Raudusculana"
+]
+},
+{
+"id": "vicus_portae_naeviae",
+"name": "Vicus Portae Naeviae",
+"modern": "Via di San Saba (approx.)",
+"line": [
+[
+12.4873,
+41.8801
+],
+[
+12.4872,
+41.8793
+],
+[
+12.4877,
+41.8784
+],
+[
+12.4883,
+41.8775
+],
+[
+12.488734,
+41.877697
+]
+],
+"w": 5.0,
+"from": -353,
+"to": 9999,
+"paved": null,
+"rank": 3,
+"certainty": "conjectural",
+"length_m": 352,
+"gates": [
+"porta_naevia"
+],
+"note": "Street named from the Porta Naevia (Capitoline Base), leading south from the gate toward the Via Ardeatina.",
+"scholarship": [
+"Platner-Ashby, Porta Naevia"
+]
+},
+{
+"id": "clivus_delphini",
+"name": "Clivus Delphini",
+"modern": "Via di Santa Balbina",
+"line": [
+[
+12.49036,
+41.881545
+],
+[
+12.488738,
+41.881197
+],
+[
+12.489584,
+41.880053
+],
+[
+12.489649,
+41.880033
+],
+[
+12.489168,
+41.879063
+],
+[
+12.489168,
+41.878979
+],
+[
+12.489244,
+41.878887
+],
+[
+12.488164,
+41.878398
+]
+],
+"w": 4.5,
+"from": -509,
+"to": 9999,
+"paved": null,
+"rank": 3,
+"certainty": "conjectural",
+"length_m": 532,
+"note": "Street of Region XII in the Regionary Catalogue, probably a little north of the Baths of Caracalla, possibly connecting the Via Nova with the Via Ardeatina along Via di S. Balbina (Platner).",
+"scholarship": [
+"Platner-Ashby, Cliva: Clivus Delphini"
+]
+},
+{
+"id": "vicus_honoris_et_virtutis",
+"name": "Vicus Honoris et Virtutis",
+"modern": "Caelian slope south of the Porta Capena (conjectural)",
+"line": [
+[
+12.491,
+41.8832
+],
+[
+12.4918,
+41.8834
+],
+[
+12.4925,
+41.8837
+],
+[
+12.492011,
+41.883327
+]
+],
+"w": 4.0,
+"from": -205,
+"to": 9999,
+"paved": null,
+"rank": 3,
+"certainty": "conjectural",
+"length_m": 195,
+"note": "Ran from the Via Appia to the Temple of Honos and Virtus on the slope of the Caelian a short distance south of the Porta Capena (Platner).",
+"scholarship": [
+"Platner-Ashby, Vicus Honoris et Virtutis"
+]
+},
+{
+"id": "vicus_camenarum",
+"name": "Vicus Camenarum",
+"modern": "Via di Valle delle Camene",
+"line": [
+[
+12.489777,
+41.884612
+],
+[
+12.490213,
+41.884568
+],
+[
+12.490431,
+41.884482
+],
+[
+12.493064,
+41.882557
+],
+[
+12.493282,
+41.882447
+],
+[
+12.49368,
+41.882319
+],
+[
+12.49387,
+41.882208
+],
+[
+12.494725,
+41.881507
+],
+[
+12.494948,
+41.881295
+],
+[
+12.495085,
+41.881066
+],
+[
+12.495127,
+41.880855
+],
+[
+12.495091,
+41.880769
+]
+],
+"w": 4.5,
+"from": -509,
+"to": 9999,
+"paved": null,
+"rank": 3,
+"certainty": "conjectural",
+"length_m": 638,
+"note": "Street of Region I named from the grove and spring of the Camenae outside the Porta Capena; drawn on Via di Valle delle Camene.",
+"scholarship": [
+"Platner-Ashby, Camenae"
+]
+},
+{
+"id": "via_nova_caracalla",
+"name": "Via Nova (Caracalla)",
+"modern": "Viale Guido Baccelli side of the Baths of Caracalla (approx.)",
+"line": [
+[
+12.490534,
+41.883364
+],
+[
+12.4899,
+41.8829
+],
+[
+12.4903,
+41.8817
+],
+[
+12.4908,
+41.8804
+],
+[
+12.4914,
+41.879
+],
+[
+12.4922,
+41.8777
+],
+[
+12.4931,
+41.8766
+],
+[
+12.4928,
+41.8771
+]
+],
+"w": 30.0,
+"from": 212,
+"to": 9999,
+"paved": 212,
+"rank": 1,
+"certainty": "documented",
+"length_m": 888,
+"ends": [
+"Porta Capena",
+"south of the Baths of Caracalla"
+],
+"note": "Built by Caracalla parallel to the Via Appia along the front of his baths ('viam novam munivit, quae est sub eius thermis', HA Carac. 9.9); shown on the Marble Plan about 30 m wide, three times the width of the Appia (Platner). Drawn along the west front of the bath precinct; exact line conjectural.",
+"sources": [
+{
+"a": "Historia Augusta",
+"w": "Caracalla",
+"r": "9.9"
+},
+{
+"a": "Aurelius Victor",
+"w": "De Caesaribus",
+"r": "21.4"
+}
+],
+"scholarship": [
+"Platner-Ashby, Viae: Via Nova",
+"Richardson, NTDAR (1992) 418"
+]
+},
+{
+"id": "vicus_sulpicius",
+"name": "Vicus Sulpicius (ulterior and citerior)",
+"modern": "south side of the Baths of Caracalla (conjectural)",
+"line": [
+[
+12.489779,
+41.876665
+],
+[
+12.4902,
+41.877
+],
+[
+12.4915,
+41.8769
+],
+[
+12.4928,
+41.8771
+],
+[
+12.494,
+41.8776
+],
+[
+12.4951,
+41.8782
+]
+],
+"w": 5.0,
+"from": -150,
+"to": 9999,
+"paved": null,
+"rank": 3,
+"certainty": "conjectural",
+"length_m": 497,
+"note": "Street on which the Baths of Caracalla stood (HA Elag. 17.9); most probably on their southern side, inside Region I, divided in two by the Via Appia (Platner).",
+"sources": [
+{
+"a": "Historia Augusta",
+"w": "Elagabalus",
+"r": "17.9"
+}
+],
+"scholarship": [
+"Platner-Ashby, Vicus Sulpicius"
+]
+},
+{
+"id": "via_lata",
+"name": "Via Lata (urban Via Flaminia, southern stretch)",
+"modern": "Via del Corso (Piazza Venezia - Piazza Colonna)",
+"line": [
+[
+12.4832,
+41.89515
+],
+[
+12.4827,
+41.8956
+],
+[
+12.48215,
+41.89625
+],
+[
+12.482192,
+41.896677
+],
+[
+12.481141,
+41.899251
+],
+[
+12.480853,
+41.900073
+],
+[
+12.48045,
+41.900969
+],
+[
+12.4801,
+41.901
+]
+],
+"w": 11.0,
+"from": -220,
+"to": 9999,
+"paved": -220,
+"rank": 1,
+"certainty": "documented",
+"length_m": 726,
+"ends": [
+"Porta Fontinalis",
+"Piazza Colonna (Column of Marcus Aurelius)"
+],
+"gates": [
+"porta_fontinalis"
+],
+"phases": [
+{
+"y": -220,
+"t": "C. Flaminius builds the Via Flaminia (censor 220 BC)."
+},
+{
+"y": -27,
+"t": "Augustus restores the Flaminia."
+},
+{
+"y": 52,
+"t": "Arch of Claudius carrying the Aqua Virgo over the street."
+}
+],
+"note": "Urban stretch of the Via Flaminia from the Porta Fontinalis past the tomb of Bibulus along the eastern edge of the Campus Martius; name Via Lata first appears in the Notitia (Reg. VII). Arches of Claudius (51-52) and the Arcus Novus (Diocletian) spanned it; porticoes lined it; the Saepta and Iseum to the west. Line of Via del Corso, which keeps the ancient alignment (ancient level 5-8 m down).",
+"sources": [
+{
+"a": "Livy",
+"w": "Periochae",
+"r": "20"
+},
+{
+"a": "Augustus",
+"w": "Res Gestae",
+"r": "20.5"
+}
+],
+"scholarship": [
+"Platner-Ashby, Viae: Via Lata",
+"Haselberger et al., Mapping Augustan Rome (2002)"
+]
+},
+{
+"id": "via_flaminia_urban",
+"name": "Via Flaminia (urban, Piazza Colonna to the Porta Flaminia)",
+"modern": "Via del Corso (Piazza Colonna - Piazza del Popolo)",
+"line": [
+[
+12.4801,
+41.901
+],
+[
+12.48045,
+41.900969
+],
+[
+12.479821,
+41.902442
+],
+[
+12.479742,
+41.902562
+],
+[
+12.47745,
+41.908107
+],
+[
+12.476506,
+41.910305
+],
+[
+12.4765,
+41.9105
+],
+[
+12.475956,
+41.91155
+]
+],
+"w": 10.0,
+"from": -220,
+"to": 9999,
+"paved": -220,
+"rank": 1,
+"certainty": "documented",
+"length_m": 1265,
+"ends": [
+"Piazza Colonna",
+"Porta Flaminia"
+],
+"gates": [
+"porta_flaminia"
+],
+"note": "Northern part of the urban Via Flaminia through the Campus Martius past the Column of Marcus Aurelius, the Ara Pacis and Horologium (to the west) and the Mausoleum of Augustus to the Porta Flaminia (from 275). Line of Via del Corso.",
+"sources": [
+{
+"a": "Livy",
+"w": "Periochae",
+"r": "20"
+}
+],
+"scholarship": [
+"Platner-Ashby, Via Flaminia",
+"Haselberger et al., Mapping Augustan Rome (2002)"
+]
+},
+{
+"id": "via_flaminia_extra",
+"name": "Via Flaminia (outside the walls to the Pons Milvius)",
+"modern": "Via Flaminia",
+"line": [
+[
+12.47594,
+41.911653
+],
+[
+12.475828,
+41.911965
+],
+[
+12.475948,
+41.911991
+],
+[
+12.475862,
+41.912108
+],
+[
+12.475671,
+41.912547
+],
+[
+12.474481,
+41.915446
+],
+[
+12.474432,
+41.915436
+],
+[
+12.474153,
+41.916074
+],
+[
+12.474022,
+41.916444
+],
+[
+12.473026,
+41.9188
+],
+[
+12.472774,
+41.919223
+],
+[
+12.471397,
+41.922683
+],
+[
+12.468412,
+41.929967
+],
+[
+12.467349,
+41.932725
+],
+[
+12.467329,
+41.932904
+],
+[
+12.467364,
+41.933384
+],
+[
+12.467107,
+41.933143
+],
+[
+12.466612,
+41.934315
+],
+[
+12.4672,
+41.9349
+]
+],
+"w": 9.0,
+"from": -220,
+"to": 9999,
+"paved": -220,
+"rank": 1,
+"certainty": "documented",
+"length_m": 2790,
+"ends": [
+"Porta Flaminia",
+"Pons Milvius"
+],
+"gates": [
+"porta_flaminia"
+],
+"note": "From the Porta Flaminia north between the Pincian and the river, lined with tombs, to the Pons Milvius (rebuilt 109 BC) at the edge of the model area; scene of Constantine's victory over Maxentius in 312.",
+"sources": [
+{
+"a": "Livy",
+"w": "Periochae",
+"r": "20"
+},
+{
+"a": "Lactantius",
+"w": "De mortibus persecutorum",
+"r": "44"
+}
+],
+"scholarship": [
+"Platner-Ashby, Via Flaminia"
+]
+},
+{
+"id": "via_recta",
+"name": "'Via Recta' (east-west street of the northern Campus Martius)",
+"modern": "Via dei Coronari - Via delle Coppelle - Via degli Uffici del Vicario",
+"line": [
+[
+12.4669,
+41.9011
+],
+[
+12.467653,
+41.900548
+],
+[
+12.469011,
+41.900527
+],
+[
+12.470198,
+41.900478
+],
+[
+12.471738,
+41.900477
+],
+[
+12.472535,
+41.900444
+],
+[
+12.472504,
+41.900288
+],
+[
+12.472522,
+41.900279
+],
+[
+12.472426,
+41.900174
+],
+[
+12.472697,
+41.900454
+],
+[
+12.472825,
+41.900497
+],
+[
+12.473107,
+41.900521
+],
+[
+12.473279,
+41.900508
+],
+[
+12.473281,
+41.900457
+],
+[
+12.473722,
+41.900441
+],
+[
+12.473875,
+41.90052
+],
+[
+12.474588,
+41.900537
+],
+[
+12.476095,
+41.900527
+],
+[
+12.476555,
+41.900489
+],
+[
+12.476595,
+41.900984
+],
+[
+12.47658,
+41.90117
+],
+[
+12.477063,
+41.901106
+],
+[
+12.477947,
+41.901114
+],
+[
+12.478214,
+41.900996
+],
+[
+12.478585,
+41.90094
+],
+[
+12.478921,
+41.900946
+],
+[
+12.479403,
+41.901014
+],
+[
+12.4801,
+41.9009
+]
+],
+"w": 7.0,
+"from": -20,
+"to": 9999,
+"paved": null,
+"rank": 2,
+"certainty": "reconstructed",
+"length_m": 1270,
+"ends": [
+"Tiber bank (Tarentum / Pons Aelius)",
+"Via Lata (Column of Marcus Aurelius)"
+],
+"note": "Straight street from the river at the Tarentum / later Pons Aelius east past the north end of the Stadium of Domitian to the Via Lata near the Column of Marcus Aurelius; its line is kept by Via dei Coronari and its continuation. The name 'Via Recta' rests on a misreading of Seneca (Apoc. 13), where 'Via Tecta' is right (Platner); kept here as the conventional label.",
+"scholarship": [
+"Platner-Ashby, Via Tecta (on Via Recta)",
+"Lanciani, Forma Urbis Romae, pl. 8 and 15",
+"Haselberger et al., Mapping Augustan Rome (2002)"
+]
+},
+{
+"id": "via_tecta",
+"name": "Via Tecta (Porticus Maximae)",
+"modern": "Via del Portico d'Ottavia - S. Maria del Pianto - Giubbonari - Cappellari - Banchi Vecchi - Banco di S. Spirito",
+"line": [
+[
+12.478933,
+41.892878
+],
+[
+12.4786,
+41.8926
+],
+[
+12.47832,
+41.892524
+],
+[
+12.478198,
+41.892619
+],
+[
+12.476791,
+41.893166
+],
+[
+12.475775,
+41.89362
+],
+[
+12.475974,
+41.893878
+],
+[
+12.475802,
+41.89396
+],
+[
+12.475305,
+41.894016
+],
+[
+12.475237,
+41.893918
+],
+[
+12.475178,
+41.893962
+],
+[
+12.47373,
+41.894421
+],
+[
+12.473579,
+41.894489
+],
+[
+12.473049,
+41.894819
+],
+[
+12.47257,
+41.895186
+],
+[
+12.47152,
+41.89575
+],
+[
+12.470829,
+41.896167
+],
+[
+12.470297,
+41.896457
+],
+[
+12.469945,
+41.896689
+],
+[
+12.46982,
+41.896818
+],
+[
+12.469756,
+41.896984
+],
+[
+12.469737,
+41.897146
+],
+[
+12.469914,
+41.897102
+],
+[
+12.469244,
+41.897249
+],
+[
+12.468687,
+41.897286
+],
+[
+12.468026,
+41.897359
+],
+[
+12.4678,
+41.89746
+],
+[
+12.467587,
+41.89763
+],
+[
+12.467087,
+41.898117
+],
+[
+12.466826,
+41.898432
+],
+[
+12.466683,
+41.898677
+],
+[
+12.466605,
+41.899154
+],
+[
+12.466431,
+41.899437
+],
+[
+12.466601,
+41.899559
+],
+[
+12.466642,
+41.899892
+],
+[
+12.466521,
+41.901073
+]
+],
+"w": 7.0,
+"from": -50,
+"to": 9999,
+"paved": null,
+"rank": 1,
+"certainty": "reconstructed",
+"length_m": 1650,
+"ends": [
+"Porticus Octaviae / Circus Flaminius",
+"Pons Aelius"
+],
+"phases": [
+{
+"y": -50,
+"t": "Porticoed street (date unknown, by the early Empire)."
+},
+{
+"y": 381,
+"t": "Rebuilt as the Porticus Maximae (379-383)."
+}
+],
+"note": "Covered street of the Campus Martius linking the Flaminian district and the Circus Flaminius with the Tarentum by the river (Seneca, Apoc. 13; Martial 3.5.5, 8.75.1-2). Ancient pavement found in Via di Pescheria, del Pianto, de' Giubbonari, de' Cappellari and del Banco di S. Spirito, on the line of the fragments of the Porticus Maximae (Platner). In 379-383 Gratian, Valentinian II and Theodosius rebuilt it as the Porticus Maximae, a colonnaded street to the Pons Aelius (CIL VI 1184). Possibly the 'Via Fornicata' of Livy 22.36.8.",
+"sources": [
+{
+"a": "Seneca",
+"w": "Apocolocyntosis",
+"r": "13"
+},
+{
+"a": "Martial",
+"w": "Epigrams",
+"r": "3.5.5; 8.75.1-2"
+},
+{
+"a": "Livy",
+"w": "Ab urbe condita",
+"r": "22.36.8"
+}
+],
+"scholarship": [
+"Platner-Ashby, Via Tecta",
+"Richardson, NTDAR (1992) 419",
+"Haselberger et al., Mapping Augustan Rome (2002)"
+]
+},
+{
+"id": "vicus_pallacinae",
+"name": "Vicus Pallacinae (conjectural)",
+"modern": "Via delle Botteghe Oscure - Via di San Marco",
+"line": [
+[
+12.477335,
+41.895172
+],
+[
+12.4766,
+41.8947
+],
+[
+12.477312,
+41.894955
+],
+[
+12.477896,
+41.894981
+],
+[
+12.478007,
+41.895012
+],
+[
+12.478106,
+41.89499
+],
+[
+12.479898,
+41.895047
+],
+[
+12.479903,
+41.894951
+],
+[
+12.480136,
+41.894962
+],
+[
+12.480692,
+41.895047
+],
+[
+12.480811,
+41.895031
+],
+[
+12.480921,
+41.894982
+],
+[
+12.480982,
+41.895026
+],
+[
+12.481089,
+41.895004
+],
+[
+12.481177,
+41.895093
+],
+[
+12.481366,
+41.8952
+],
+[
+12.48154,
+41.895264
+],
+[
+12.48178,
+41.895305
+],
+[
+12.4817,
+41.8956
+],
+[
+12.482415,
+41.895937
+]
+],
+"w": 6.0,
+"from": -200,
+"to": 9999,
+"paved": null,
+"rank": 2,
+"certainty": "conjectural",
+"length_m": 648,
+"note": "Street of the Pallacinae district near S. Marco (Cicero, Pro Roscio Amerino 18; balneae Pallacinae); placed on the east-west line of Via delle Botteghe Oscure along the north side of the Porticus Minucia and Crypta Balbi, an ancient alignment.",
+"scholarship": [
+"Platner-Ashby, Pallacina",
+"Richardson, NTDAR (1992) 282"
+]
+},
+{
+"id": "triumphal_road_forum_holitorium",
+"name": "Road from the Porta Carmentalis through the Forum Holitorium to the Circus Flaminius",
+"modern": "Via del Teatro di Marcello (west side) / Via del Portico d'Ottavia",
+"line": [
+[
+12.48078,
+41.89115
+],
+[
+12.4803,
+41.8915
+],
+[
+12.4799,
+41.892
+],
+[
+12.4795,
+41.8925
+],
+[
+12.4789,
+41.8929
+],
+[
+12.4783,
+41.8932
+],
+[
+12.47796,
+41.892712
+]
+],
+"w": 8.0,
+"from": -509,
+"to": 9999,
+"paved": null,
+"rank": 1,
+"certainty": "reconstructed",
+"length_m": 373,
+"ends": [
+"Porta Carmentalis",
+"Circus Flaminius"
+],
+"gates": [
+"porta_carmentalis"
+],
+"note": "Street from the Servian gate past the temples of Janus, Spes and Juno Sospita and the Theatre of Marcellus to the Porticus Octaviae and the Circus Flaminius; part of the triumphal route in reverse.",
+"scholarship": [
+"Coarelli, Rome and Environs (2007) 266-275"
+]
+},
+{
+"id": "via_foro_olitorio",
+"name": "Street of the Forum Holitorium (Via del Foro Olitorio)",
+"modern": "Via del Foro Olitorio",
+"line": [
+[
+12.480546,
+41.890897
+],
+[
+12.480249,
+41.890866
+],
+[
+12.479418,
+41.890662
+],
+[
+12.480546,
+41.890897
+]
+],
+"w": 5.0,
+"from": -509,
+"to": 9999,
+"paved": null,
+"rank": 3,
+"certainty": "reconstructed",
+"length_m": 195,
+"note": "Short street from the Vicus Iugarius / Porta Carmentalis toward the river along the south side of the Forum Holitorium temples.",
+"scholarship": [
+"Coarelli, Rome and Environs (2007) 314"
+]
+},
+{
+"id": "street_area_sacra_east",
+"name": "Street east of the Area Sacra of Largo Argentina",
+"modern": "Via di San Nicola de' Cesarini",
+"line": [
+[
+12.477335,
+41.895172
+],
+[
+12.47726,
+41.895851
+],
+[
+12.477394,
+41.8964
+]
+],
+"w": 5.0,
+"from": -100,
+"to": 9999,
+"paved": null,
+"rank": 3,
+"certainty": "conjectural",
+"length_m": 138,
+"note": "North-south street between the Area Sacra and the Porticus Minucia, on the line of Via di S. Nicola de' Cesarini.",
+"scholarship": [
+"Coarelli, Rome and Environs (2007) 278-283"
+]
+},
+{
+"id": "vicus_aesculeti",
+"name": "Vicus Aesculeti",
+"modern": "toward Via di S. Bartolomeo dei Vaccinari (south Campus Martius)",
+"line": [
+[
+12.472503,
+41.893628
+],
+[
+12.4736,
+41.8928
+],
+[
+12.4743,
+41.8931
+],
+[
+12.4751,
+41.8933
+],
+[
+12.4759,
+41.8934
+]
+],
+"w": 4.0,
+"from": -200,
+"to": 9999,
+"paved": null,
+"rank": 3,
+"certainty": "conjectural",
+"length_m": 334,
+"note": "Known from an altar of the magistri vici Aescleti found in Via Arenula about 100 m from the Tiber; pavement in the Via di S. Bartolommeo (Platner).",
+"scholarship": [
+"Platner-Ashby, Vicus Aesculeti"
+]
+},
+{
+"id": "vicus_caprarius",
+"name": "Vicus Caprarius",
+"modern": "Via dei Lucchesi - Via delle Vergini line",
+"line": [
+[
+12.483866,
+41.900034
+],
+[
+12.48355,
+41.9005
+],
+[
+12.48385,
+41.89995
+],
+[
+12.4841,
+41.8993
+],
+[
+12.48425,
+41.8987
+]
+],
+"w": 4.0,
+"from": -50,
+"to": 9999,
+"paved": null,
+"rank": 3,
+"certainty": "conjectural",
+"length_m": 267,
+"note": "Ran south from the Aqua Virgo and Campus Agrippae; pavement in Via dei Lucchesi and at Via delle Vergini / Via dell'Umilta (Platner); a castellum of the Aqua Virgo is now visible in the vicus (the 'Citta dell'acqua').",
+"scholarship": [
+"Platner-Ashby, Vicus Caprarius"
+]
+},
+{
+"id": "street_pons_agrippae",
+"name": "Street from the Pons Agrippae into the Campus Martius",
+"modern": "Via dei Pettinari",
+"line": [
+[
+12.4713,
+41.8927
+],
+[
+12.471387,
+41.892804
+],
+[
+12.472654,
+41.89374
+],
+[
+12.4724,
+41.8945
+],
+[
+12.472946,
+41.894898
+]
+],
+"w": 5.0,
+"from": -20,
+"to": 9999,
+"paved": null,
+"rank": 2,
+"certainty": "conjectural",
+"length_m": 312,
+"note": "From the bridgehead of the Pons Agrippae / Pons Aurelius (Ponte Sisto) north toward the Theatre of Pompey and the Via Tecta, on the line of Via dei Pettinari.",
+"scholarship": [
+"Platner-Ashby, Pons Agrippae",
+"Haselberger et al., Mapping Augustan Rome (2002)"
+]
+},
+{
+"id": "street_circus_flaminius_north",
+"name": "Street along the north side of the Circus Flaminius",
+"modern": "Via dei Funari - Via di S. Maria de' Calderari (approx.)",
+"line": [
+[
+12.478953,
+41.895017
+],
+[
+12.479,
+41.8942
+],
+[
+12.4777,
+41.894
+],
+[
+12.4765,
+41.8938
+],
+[
+12.4753,
+41.8935
+]
+],
+"w": 6.0,
+"from": -200,
+"to": 9999,
+"paved": null,
+"rank": 3,
+"certainty": "conjectural",
+"length_m": 408,
+"note": "Street on the northern edge of the open area of the Circus Flaminius (whose extent is debated: Gatti / Coarelli), between the porticoes and the Theatre of Balbus.",
+"scholarship": [
+"Coarelli, Rome and Environs (2007) 266-271",
+"Haselberger et al., Mapping Augustan Rome (2002)"
+]
+},
+{
+"id": "vicus_censori",
+"name": "Vicus Censori (street across the Tiber Island)",
+"modern": "Ponte Fabricio - Via di Ponte Quattro Capi - Piazza S. Bartolomeo - Ponte Cestio",
+"line": [
+[
+12.479218,
+41.892229
+],
+[
+12.4793,
+41.8917
+],
+[
+12.478503,
+41.891295
+],
+[
+12.477659,
+41.89058
+],
+[
+12.477716,
+41.890557
+],
+[
+12.477659,
+41.890492
+],
+[
+12.477716,
+41.890557
+],
+[
+12.477659,
+41.89058
+],
+[
+12.477562,
+41.8905
+],
+[
+12.47746,
+41.890382
+],
+[
+12.477161,
+41.889617
+],
+[
+12.47685,
+41.889715
+],
+[
+12.476658,
+41.889738
+],
+[
+12.476417,
+41.8893
+],
+[
+12.476779,
+41.889283
+]
+],
+"w": 6.0,
+"from": -62,
+"to": 9999,
+"paved": -62,
+"rank": 2,
+"certainty": "reconstructed",
+"length_m": 516,
+"ends": [
+"Forum Holitorium",
+"Trastevere (Piazza in Piscinula)"
+],
+"note": "Probably the only vicus on the island (CIL VI 975); the route from the Forum Holitorium over the Pons Fabricius (62 BC), past the Temple of Aesculapius, over the Pons Cestius (rebuilt 370 as Pons Gratiani) to Trastevere.",
+"scholarship": [
+"Platner-Ashby, Vicus Censori"
+]
+},
+{
+"id": "street_pons_aemilius_forum_boarium",
+"name": "Street from the Pons Aemilius to the Forum Boarium",
+"modern": "Via Luigi Petroselli (south end) / Piazza della Bocca della Verita",
+"line": [
+[
+12.4799,
+41.88925
+],
+[
+12.4806,
+41.8892
+],
+[
+12.4814,
+41.8891
+],
+[
+12.4823,
+41.8893
+]
+],
+"w": 7.0,
+"from": -179,
+"to": 9999,
+"paved": -174,
+"rank": 2,
+"certainty": "reconstructed",
+"length_m": 204,
+"ends": [
+"Pons Aemilius",
+"Forum Boarium"
+],
+"gates": [
+"porta_flumentana"
+],
+"note": "Approach from the Pons Aemilius (piers 179 BC, arches 142 BC) past the Temple of Portunus and the Porta Flumentana into the Forum Boarium and the Velabrum: the city end of the Via Aurelia.",
+"scholarship": [
+"Platner-Ashby, Pons Aemilius",
+"Coarelli, Rome and Environs (2007) 309"
+]
+},
+{
+"id": "street_pons_sublicius",
+"name": "Street from the Pons Sublicius to the Porta Trigemina",
+"modern": "Lungotevere Aventino (inland) near Piazza dell'Emporio",
+"line": [
+[
+12.4793,
+41.8876
+],
+[
+12.48,
+41.88765
+],
+[
+12.4806,
+41.8877
+],
+[
+12.481,
+41.8877
+]
+],
+"w": 6.0,
+"from": -509,
+"to": 9999,
+"paved": null,
+"rank": 2,
+"certainty": "conjectural",
+"length_m": 142,
+"gates": [
+"porta_trigemina"
+],
+"note": "Short approach from the wooden Pons Sublicius (whose site is debated, just below the Aventine) to the Porta Trigemina and the Forum Boarium.",
+"scholarship": [
+"Platner-Ashby, Pons Sublicius"
+]
+},
+{
+"id": "via_aurelia_urban",
+"name": "Via Aurelia (Trastevere stretch)",
+"modern": "Via della Lungaretta - Piazza S. Maria in Trastevere - Via della Paglia - Via Garibaldi",
+"line": [
+[
+12.4767,
+41.8893
+],
+[
+12.4755,
+41.8893
+],
+[
+12.474,
+41.8893
+],
+[
+12.4722,
+41.8894
+],
+[
+12.4706,
+41.8894
+],
+[
+12.4697,
+41.8893
+],
+[
+12.4687,
+41.8897
+],
+[
+12.4676,
+41.8899
+],
+[
+12.4665,
+41.8897
+],
+[
+12.4655,
+41.8893
+],
+[
+12.4645,
+41.889
+],
+[
+12.4633,
+41.8887
+],
+[
+12.4623,
+41.8885
+],
+[
+12.461483,
+41.888447
+]
+],
+"w": 6.0,
+"from": -241,
+"to": 9999,
+"paved": -241,
+"rank": 1,
+"certainty": "reconstructed",
+"length_m": 1307,
+"ends": [
+"Pons Aemilius / Pons Cestius",
+"Porta Aurelia (S. Pancrazio)"
+],
+"gates": [
+"porta_aurelia"
+],
+"note": "From the Pons Aemilius and the island bridges west through Trastevere along Via della Lungaretta (which preserves the line) past S. Maria in Trastevere and up the Janiculum to the Porta Aurelia (from 275); built or regularised about 241 BC (C. Aurelius Cotta). Upper course on the Janiculum approximate.",
+"scholarship": [
+"Platner-Ashby, Via Aurelia",
+"Coarelli, Rome and Environs (2007) 377"
+]
+},
+{
+"id": "via_aurelia_vetus_extra",
+"name": "Via Aurelia Vetus (outside the Porta Aurelia)",
+"modern": "Via Aurelia Antica",
+"line": [
+[
+12.461483,
+41.888447
+],
+[
+12.458462,
+41.88756
+],
+[
+12.457651,
+41.887362
+],
+[
+12.457367,
+41.887353
+],
+[
+12.457019,
+41.887422
+],
+[
+12.456566,
+41.88762
+],
+[
+12.456324,
+41.887766
+],
+[
+12.455544,
+41.888332
+],
+[
+12.455129,
+41.888542
+],
+[
+12.454856,
+41.888633
+],
+[
+12.454394,
+41.888746
+],
+[
+12.453263,
+41.888972
+],
+[
+12.45048,
+41.88885
+],
+[
+12.447997,
+41.889025
+],
+[
+12.440877,
+41.889221
+],
+[
+12.440145,
+41.889258
+],
+[
+12.439141,
+41.889351
+],
+[
+12.43797,
+41.889484
+],
+[
+12.436106,
+41.889956
+],
+[
+12.434804,
+41.890148
+],
+[
+12.434387,
+41.890156
+],
+[
+12.432469,
+41.890836
+],
+[
+12.432118,
+41.890922
+],
+[
+12.431667,
+41.890994
+],
+[
+12.43,
+41.889
+]
+],
+"w": 6.0,
+"from": -241,
+"to": 9999,
+"paved": -241,
+"rank": 1,
+"certainty": "documented",
+"length_m": 2846,
+"ends": [
+"Porta Aurelia",
+"edge of model (west)"
+],
+"gates": [
+"porta_aurelia"
+],
+"note": "West from the Porta Aurelia along the north side of the later Villa Doria Pamphili toward the coast; the Aqua Traiana runs beside it. Curatores administered the Aurelia vetus and nova, Cornelia and Triumphalis together (CIL VI 1512).",
+"scholarship": [
+"Platner-Ashby, Via Aurelia"
+]
+},
+{
+"id": "clivus_rutarius",
+"name": "Clivus Rutarius",
+"modern": "Clivo Rutario (modern street named after it)",
+"line": [
+[
+12.451523,
+41.881316
+],
+[
+12.451441,
+41.880886
+],
+[
+12.451504,
+41.880634
+],
+[
+12.451629,
+41.880443
+],
+[
+12.451788,
+41.880282
+],
+[
+12.451936,
+41.88017
+],
+[
+12.452127,
+41.880079
+],
+[
+12.452349,
+41.880012
+],
+[
+12.452632,
+41.879966
+],
+[
+12.452869,
+41.879964
+],
+[
+12.453104,
+41.879998
+],
+[
+12.453329,
+41.880064
+],
+[
+12.453504,
+41.880151
+],
+[
+12.453626,
+41.880236
+],
+[
+12.453804,
+41.880428
+],
+[
+12.453853,
+41.880445
+]
+],
+"w": 4.0,
+"from": -200,
+"to": 9999,
+"paved": null,
+"rank": 3,
+"certainty": "conjectural",
+"length_m": 324,
+"note": "Known from one inscription (CIL VI 7803); either part of the Via Aurelia outside the Porta Aurelia or a street running into it (Platner). Drawn on the modern Clivo Rutario in Monteverde.",
+"scholarship": [
+"Platner-Ashby, Cliva: Clivus Rutarius"
+]
+},
+{
+"id": "via_portuensis_urban",
+"name": "Via Portuensis / Campana (Trastevere stretch)",
+"modern": "Via dei Vascellari - Via di S. Michele - Via Portuense",
+"line": [
+[
+12.4767,
+41.8893
+],
+[
+12.476193,
+41.888616
+],
+[
+12.475733,
+41.887893
+],
+[
+12.475629,
+41.887862
+],
+[
+12.47542,
+41.887614
+],
+[
+12.475272,
+41.887479
+],
+[
+12.475249,
+41.887244
+],
+[
+12.474875,
+41.88666
+],
+[
+12.476172,
+41.886096
+],
+[
+12.47528,
+41.885378
+],
+[
+12.473913,
+41.884368
+],
+[
+12.473941,
+41.884267
+],
+[
+12.474164,
+41.884143
+],
+[
+12.474497,
+41.883869
+],
+[
+12.474123,
+41.88391
+],
+[
+12.474026,
+41.883872
+],
+[
+12.473821,
+41.883732
+],
+[
+12.470964,
+41.881445
+],
+[
+12.470302,
+41.880899
+],
+[
+12.470078,
+41.880666
+]
+],
+"w": 6.0,
+"from": -509,
+"to": 9999,
+"paved": null,
+"rank": 1,
+"certainty": "reconstructed",
+"length_m": 1329,
+"ends": [
+"Pons Aemilius / Piazza in Piscinula",
+"Porta Portuensis"
+],
+"gates": [
+"porta_portuensis"
+],
+"note": "From the bridges at the island south along the river behind the harbour of Trastevere to the Porta Portuensis (from 275): the old salt road (Via Campana) to the Campus Salinarum at the river mouth, later also the road to Claudius' harbour (Portus).",
+"scholarship": [
+"Platner-Ashby, Via Portuensis",
+"Platner-Ashby, Via Campana"
+]
+},
+{
+"id": "via_campana_extra",
+"name": "Via Campana (outside the Porta Portuensis)",
+"modern": "Via Portuense (valley stretch)",
+"line": [
+[
+12.470078,
+41.880666
+],
+[
+12.469107,
+41.879377
+],
+[
+12.468688,
+41.878778
+],
+[
+12.468381,
+41.878183
+],
+[
+12.46811,
+41.877513
+],
+[
+12.467873,
+41.877063
+],
+[
+12.467828,
+41.876621
+],
+[
+12.4674,
+41.876687
+],
+[
+12.467325,
+41.875776
+],
+[
+12.467249,
+41.875586
+],
+[
+12.467208,
+41.875106
+],
+[
+12.467532,
+41.875086
+],
+[
+12.467476,
+41.874353
+],
+[
+12.467446,
+41.874251
+],
+[
+12.46749,
+41.874248
+],
+[
+12.467506,
+41.874221
+],
+[
+12.467405,
+41.873224
+],
+[
+12.467343,
+41.873202
+],
+[
+12.467404,
+41.873149
+],
+[
+12.467394,
+41.8729
+],
+[
+12.467347,
+41.872859
+],
+[
+12.467253,
+41.872864
+],
+[
+12.467187,
+41.872788
+],
+[
+12.467258,
+41.87275
+],
+[
+12.467363,
+41.872591
+],
+[
+12.467336,
+41.872056
+],
+[
+12.466828,
+41.871962
+],
+[
+12.466409,
+41.871814
+],
+[
+12.465961,
+41.871555
+],
+[
+12.465775,
+41.871406
+],
+[
+12.465672,
+41.871285
+],
+[
+12.465579,
+41.871092
+],
+[
+12.465142,
+41.869803
+],
+[
+12.465152,
+41.869678
+],
+[
+12.465234,
+41.869635
+],
+[
+12.465133,
+41.86939
+],
+[
+12.465074,
+41.86892
+],
+[
+12.46457,
+41.867973
+],
+[
+12.464361,
+41.867376
+],
+[
+12.464359,
+41.867231
+],
+[
+12.464311,
+41.86703
+],
+[
+12.46419,
+41.866794
+],
+[
+12.463931,
+41.866666
+],
+[
+12.463109,
+41.866393
+],
+[
+12.462572,
+41.866333
+],
+[
+12.461811,
+41.866323
+],
+[
+12.461449,
+41.866257
+],
+[
+12.460091,
+41.865684
+],
+[
+12.458031,
+41.864733
+],
+[
+12.457365,
+41.864471
+],
+[
+12.456085,
+41.864067
+],
+[
+12.455483,
+41.863817
+],
+[
+12.454706,
+41.863418
+],
+[
+12.454504,
+41.863308
+],
+[
+12.454169,
+41.863046
+],
+[
+12.45375,
+41.862771
+],
+[
+12.452627,
+41.861776
+],
+[
+12.452512,
+41.861638
+],
+[
+12.451842,
+41.860632
+],
+[
+12.451575,
+41.860376
+],
+[
+12.451242,
+41.859892
+],
+[
+12.450872,
+41.859512
+],
+[
+12.45015,
+41.859038
+],
+[
+12.449591,
+41.858628
+],
+[
+12.449175,
+41.858387
+],
+[
+12.448812,
+41.85826
+],
+[
+12.448104,
+41.858115
+],
+[
+12.447895,
+41.858032
+],
+[
+12.447688,
+41.857901
+],
+[
+12.447548,
+41.857767
+],
+[
+12.45,
+41.855
+],
+[
+12.454431,
+41.85
+]
+],
+"w": 6.0,
+"from": -509,
+"to": 9999,
+"paved": null,
+"rank": 1,
+"certainty": "reconstructed",
+"length_m": 4592,
+"ends": [
+"Porta Portuensis",
+"edge of model (south-west)"
+],
+"gates": [
+"porta_portuensis"
+],
+"note": "Along the right bank of the Tiber toward the Campus Salinarum Romanarum; modern Via Portuense follows the valley route at first. Sanctuary of the Dea Dia (Arval Brothers) at the 5th mile, beyond the model area.",
+"scholarship": [
+"Platner-Ashby, Via Campana"
+]
+},
+{
+"id": "via_portuensis_extra",
+"name": "Via Portuensis (Claudian road over the hills, outside the gate)",
+"modern": "Monteverde ridge (approx.)",
+"line": [
+[
+12.46995,
+41.8807
+],
+[
+12.4686,
+41.8787
+],
+[
+12.4665,
+41.8762
+],
+[
+12.4638,
+41.873
+],
+[
+12.4607,
+41.8693
+],
+[
+12.4573,
+41.8655
+],
+[
+12.4535,
+41.8614
+],
+[
+12.4493,
+41.8571
+],
+[
+12.445,
+41.8528
+],
+[
+12.4422,
+41.85
+]
+],
+"w": 6.0,
+"from": 46,
+"to": 9999,
+"paved": null,
+"rank": 2,
+"certainty": "conjectural",
+"length_m": 4122,
+"gates": [
+"porta_portuensis"
+],
+"note": "The road to Portus built after Claudius' harbour (AD 42-64), keeping to the higher ground south-west of the river valley; necropolis of Pozzo Pantaleo and Jewish catacomb of Monteverde along it. Course in the model area approximate.",
+"scholarship": [
+"Platner-Ashby, Via Portuensis"
+]
+},
+{
+"id": "road_lungara",
+"name": "Road from the Porta Septimiana to the Vatican",
+"modern": "Via della Lungara",
+"line": [
+[
+12.467605,
+41.892239
+],
+[
+12.467322,
+41.892747
+],
+[
+12.466696,
+41.893715
+],
+[
+12.465638,
+41.895119
+],
+[
+12.464865,
+41.896059
+],
+[
+12.463334,
+41.898041
+],
+[
+12.463218,
+41.898203
+],
+[
+12.463222,
+41.898235
+],
+[
+12.463285,
+41.898269
+],
+[
+12.462,
+41.8997
+],
+[
+12.4612,
+41.9003
+]
+],
+"w": 6.0,
+"from": -30,
+"to": 9999,
+"paved": null,
+"rank": 2,
+"certainty": "reconstructed",
+"length_m": 1053,
+"ends": [
+"Porta Septimiana",
+"Vatican (Porta S. Spirito)"
+],
+"gates": [
+"porta_septimiana"
+],
+"note": "Road along the right bank between the Horti Caesaris / Agrippinae and the river from Trastevere to the Vatican plain; the medieval Via Sancta to St Peter's. Ancient date assumed.",
+"scholarship": [
+"Coarelli, Rome and Environs (2007) 378"
+]
+},
+{
+"id": "street_porta_septimiana_trastevere",
+"name": "Street from the Porta Septimiana into Trastevere",
+"modern": "Via della Scala",
+"line": [
+[
+12.467605,
+41.892239
+],
+[
+12.467747,
+41.891998
+],
+[
+12.468152,
+41.891233
+],
+[
+12.46873,
+41.890386
+],
+[
+12.468803,
+41.890237
+],
+[
+12.468632,
+41.889712
+]
+],
+"w": 5.0,
+"from": -30,
+"to": 9999,
+"paved": null,
+"rank": 3,
+"certainty": "conjectural",
+"length_m": 304,
+"gates": [
+"porta_septimiana"
+],
+"note": "Street from the north gate of Trastevere south to S. Maria in Trastevere, on the line of Via della Scala."
+},
+{
+"id": "street_pons_aurelius_trastevere",
+"name": "Street from the Pons Aurelius into Trastevere",
+"modern": "Via del Moro",
+"line": [
+[
+12.4704,
+41.892
+],
+[
+12.470157,
+41.891362
+],
+[
+12.470411,
+41.891027
+],
+[
+12.470596,
+41.890833
+],
+[
+12.470901,
+41.890418
+],
+[
+12.471013,
+41.890087
+],
+[
+12.471013,
+41.8894
+]
+],
+"w": 5.0,
+"from": 147,
+"to": 9999,
+"paved": null,
+"rank": 3,
+"certainty": "conjectural",
+"length_m": 310,
+"note": "From the right-bank end of the Pons Aurelius (Antonine, rebuilt by Valentinian I as Pons Valentiniani) toward S. Maria in Trastevere, on Via del Moro.",
+"scholarship": [
+"Platner-Ashby, Pons Aurelius"
+]
+},
+{
+"id": "vicus_tiberini",
+"name": "Vicus Tiberini (conjectural)",
+"modern": "Via della Lungarina",
+"line": [
+[
+12.476109,
+41.888484
+],
+[
+12.4755,
+41.8887
+],
+[
+12.477552,
+41.889267
+],
+[
+12.47704,
+41.889302
+],
+[
+12.4767,
+41.889
+]
+],
+"w": 4.0,
+"from": -50,
+"to": 9999,
+"paved": null,
+"rank": 3,
+"certainty": "conjectural",
+"length_m": 324,
+"note": "Street of Region XIV on the Capitoline Base; Lanciani gave the name to a street found under Via della Lungarina between Viale del Re and Piazza del Drago (Platner).",
+"scholarship": [
+"Platner-Ashby, Vicus Tiberini"
+]
+},
+{
+"id": "via_cornelia",
+"name": "Via Cornelia",
+"modern": "under the Borgo and the nave of St Peter's, then west",
+"line": [
+[
+12.4651,
+41.9003
+],
+[
+12.4623,
+41.901
+],
+[
+12.4593,
+41.9017
+],
+[
+12.4565,
+41.90225
+],
+[
+12.4534,
+41.9025
+],
+[
+12.4503,
+41.9022
+],
+[
+12.4474,
+41.9014
+],
+[
+12.4435,
+41.901
+],
+[
+12.436,
+41.9008
+],
+[
+12.43,
+41.9007
+],
+[
+12.43,
+41.8995
+]
+],
+"w": 6.0,
+"from": -100,
+"to": 9999,
+"paved": null,
+"rank": 1,
+"certainty": "reconstructed",
+"length_m": 3103,
+"ends": [
+"Pons Neronianus",
+"edge of model (west)"
+],
+"note": "From the Pons Neronianus west across the Vatican plain along the north side of the Circus of Gaius and Nero, with the Vatican necropolis (and St Peter's tomb) on its north side, then west through the later Porta Pertusa; after the Pons Aelius was built it was prolonged east to it (Platner). St Peter's (from c. 320) was built over the necropolis beside it.",
+"sources": [
+{
+"a": "Liber Pontificalis",
+"w": "Vita Silvestri",
+"r": "34.16"
+}
+],
+"scholarship": [
+"Platner-Ashby, Via Cornelia",
+"Liverani and Spinola, The Vatican Necropoles (2010)"
+]
+},
+{
+"id": "via_triumphalis",
+"name": "Via Triumphalis",
+"modern": "Borgo - Santa Rosa necropolis - Via Trionfale",
+"line": [
+[
+12.4651,
+41.9003
+],
+[
+12.4625,
+41.9028
+],
+[
+12.4595,
+41.9047
+],
+[
+12.456,
+41.9056
+],
+[
+12.4525,
+41.9059
+],
+[
+12.4502,
+41.9068
+],
+[
+12.4489,
+41.9086
+],
+[
+12.448574,
+41.909509
+],
+[
+12.448571,
+41.909527
+],
+[
+12.448982,
+41.909636
+],
+[
+12.449332,
+41.910939
+],
+[
+12.449582,
+41.91174
+],
+[
+12.449724,
+41.912084
+],
+[
+12.449979,
+41.912529
+],
+[
+12.450204,
+41.912872
+],
+[
+12.450513,
+41.913224
+],
+[
+12.450845,
+41.913561
+],
+[
+12.451167,
+41.913842
+],
+[
+12.450562,
+41.914465
+],
+[
+12.449766,
+41.915132
+],
+[
+12.449619,
+41.915348
+],
+[
+12.449513,
+41.915672
+],
+[
+12.449522,
+41.915838
+],
+[
+12.449668,
+41.916482
+],
+[
+12.449677,
+41.916666
+],
+[
+12.449602,
+41.916905
+],
+[
+12.449358,
+41.917332
+],
+[
+12.449355,
+41.917459
+],
+[
+12.449414,
+41.917517
+],
+[
+12.450152,
+41.917815
+],
+[
+12.45039,
+41.917939
+],
+[
+12.450558,
+41.918068
+],
+[
+12.4506,
+41.918202
+],
+[
+12.450533,
+41.91829
+],
+[
+12.450419,
+41.918309
+],
+[
+12.44986,
+41.918059
+],
+[
+12.44937,
+41.917921
+],
+[
+12.449079,
+41.91787
+],
+[
+12.448919,
+41.917872
+],
+[
+12.448847,
+41.917889
+],
+[
+12.448802,
+41.91794
+],
+[
+12.448787,
+41.918021
+],
+[
+12.448829,
+41.918072
+],
+[
+12.44959,
+41.918312
+],
+[
+12.449894,
+41.91845
+],
+[
+12.450029,
+41.918596
+],
+[
+12.450047,
+41.918758
+],
+[
+12.449984,
+41.918864
+],
+[
+12.449842,
+41.91901
+],
+[
+12.44916,
+41.919545
+],
+[
+12.448975,
+41.919649
+],
+[
+12.448316,
+41.919885
+],
+[
+12.448196,
+41.919964
+],
+[
+12.448076,
+41.920149
+],
+[
+12.447943,
+41.920764
+],
+[
+12.44788,
+41.92194
+],
+[
+12.448062,
+41.924043
+],
+[
+12.448048,
+41.924532
+],
+[
+12.447828,
+41.925049
+],
+[
+12.447501,
+41.926253
+],
+[
+12.447331,
+41.926655
+],
+[
+12.447083,
+41.927011
+],
+[
+12.446459,
+41.927712
+],
+[
+12.445723,
+41.928857
+],
+[
+12.44474,
+41.930078
+],
+[
+12.444292,
+41.930692
+],
+[
+12.443939,
+41.931043
+],
+[
+12.443709,
+41.931208
+],
+[
+12.443031,
+41.931596
+],
+[
+12.442175,
+41.932235
+],
+[
+12.44151,
+41.932587
+],
+[
+12.441317,
+41.932714
+],
+[
+12.43977,
+41.934031
+],
+[
+12.434259,
+41.934921
+],
+[
+12.434079,
+41.93483
+],
+[
+12.433916,
+41.934791
+],
+[
+12.433516,
+41.934792
+],
+[
+12.433159,
+41.93486
+],
+[
+12.43282,
+41.934953
+],
+[
+12.43,
+41.934
+]
+],
+"w": 6.0,
+"from": -100,
+"to": 9999,
+"paved": null,
+"rank": 1,
+"certainty": "reconstructed",
+"length_m": 6147,
+"ends": [
+"Pons Neronianus",
+"Monte Mario (edge of model)"
+],
+"note": "From the Pons Neronianus north-west across the Vatican plain (the Santa Rosa and Autoparco sections of the Vatican necropolis lie on it) and up Monte Mario on the line of modern Via Trionfale to Veii. Southern stretch approximate.",
+"scholarship": [
+"Platner-Ashby, Via Triumphalis",
+"Steinby (ed.), La necropoli della Via Triumphalis (2003)"
+]
+},
+{
+"id": "via_aurelia_nova",
+"name": "Via Aurelia Nova",
+"modern": "Borgo - Via di Porta Cavalleggeri - Via Aurelia",
+"line": [
+[
+12.4651,
+41.9003
+],
+[
+12.4615,
+41.9002
+],
+[
+12.4585,
+41.9003
+],
+[
+12.456311,
+41.900283
+],
+[
+12.455101,
+41.90026
+],
+[
+12.454417,
+41.900073
+],
+[
+12.453941,
+41.899994
+],
+[
+12.453591,
+41.89987
+],
+[
+12.453409,
+41.899843
+],
+[
+12.452527,
+41.899794
+],
+[
+12.449191,
+41.899697
+],
+[
+12.448605,
+41.89965
+],
+[
+12.447877,
+41.899551
+],
+[
+12.447611,
+41.899551
+],
+[
+12.44738,
+41.899613
+],
+[
+12.447243,
+41.899697
+],
+[
+12.446568,
+41.900392
+],
+[
+12.446458,
+41.900436
+],
+[
+12.44607,
+41.900519
+],
+[
+12.445968,
+41.900572
+],
+[
+12.445355,
+41.901193
+],
+[
+12.445121,
+41.901024
+],
+[
+12.444609,
+41.900498
+],
+[
+12.443278,
+41.898842
+],
+[
+12.443115,
+41.898724
+],
+[
+12.442766,
+41.898641
+],
+[
+12.440762,
+41.898533
+],
+[
+12.438791,
+41.898297
+],
+[
+12.437953,
+41.898071
+],
+[
+12.436223,
+41.8975
+],
+[
+12.435813,
+41.897384
+],
+[
+12.435538,
+41.89734
+],
+[
+12.434685,
+41.897431
+],
+[
+12.433948,
+41.897456
+],
+[
+12.432889,
+41.897421
+],
+[
+12.432099,
+41.897341
+],
+[
+12.431894,
+41.897354
+],
+[
+12.431751,
+41.897397
+],
+[
+12.43,
+41.8995
+]
+],
+"w": 6.0,
+"from": 100,
+"to": 9999,
+"paved": null,
+"rank": 2,
+"certainty": "conjectural",
+"length_m": 3312,
+"note": "Later branch of the Aurelia (attested in curator inscriptions, CIL VI 1512) leaving the Vatican district south of the Circus of Gaius and Nero and joining the old road further west; the medieval Porta Cavalleggeri stands on it.",
+"scholarship": [
+"Platner-Ashby, Via Aurelia"
+]
+},
+{
+"id": "porticus_sancti_petri",
+"name": "Porticus to St Peter's (from the Pons Aelius)",
+"modern": "Via della Conciliazione (line of the demolished Spina di Borgo)",
+"line": [
+[
+12.4664,
+41.9025
+],
+[
+12.4645,
+41.9023
+],
+[
+12.462,
+41.9021
+],
+[
+12.4595,
+41.902
+],
+[
+12.4573,
+41.902
+]
+],
+"w": 8.0,
+"from": 400,
+"to": 9999,
+"paved": null,
+"rank": 2,
+"certainty": "conjectural",
+"length_m": 759,
+"note": "Covered colonnade along which pilgrims walked from the Pons Aelius to St Peter's, mentioned by Procopius (Wars 5.19.4 refers to the road; the portico is described in later sources). Date and line approximate.",
+"sources": [
+{
+"a": "Procopius",
+"w": "Wars",
+"r": "5.19.4"
+}
+],
+"scholarship": [
+"Richardson, NTDAR (1992) 316"
+]
+},
+{
+"id": "road_pons_aelius_neronianus",
+"name": "Right-bank road between the Pons Aelius and the Pons Neronianus",
+"modern": "Borgo Santo Spirito (east end) / Lungotevere Vaticano",
+"line": [
+[
+12.4664,
+41.9025
+],
+[
+12.4659,
+41.9016
+],
+[
+12.4654,
+41.9009
+],
+[
+12.4651,
+41.9003
+]
+],
+"w": 6.0,
+"from": 134,
+"to": 9999,
+"paved": null,
+"rank": 3,
+"certainty": "conjectural",
+"length_m": 268,
+"note": "Link along the right bank between the two bridgeheads past the Mausoleum of Hadrian.",
+"scholarship": [
+"Richardson, NTDAR (1992) 299"
+]
+},
+{
+"id": "via_appia_urban",
+"name": "Via Appia (Porta Capena to the Porta Appia)",
+"modern": "Viale delle Terme di Caracalla - Via di Porta San Sebastiano",
+"line": [
+[
+12.49048,
+41.883943
+],
+[
+12.490265,
+41.883803
+],
+[
+12.490144,
+41.883928
+],
+[
+12.49019,
+41.88365
+],
+[
+12.490336,
+41.883515
+],
+[
+12.490766,
+41.883187
+],
+[
+12.495022,
+41.880564
+],
+[
+12.495256,
+41.880328
+],
+[
+12.4954,
+41.880022
+],
+[
+12.495484,
+41.879915
+],
+[
+12.495948,
+41.879572
+],
+[
+12.496424,
+41.879319
+],
+[
+12.498437,
+41.877821
+],
+[
+12.499193,
+41.877169
+],
+[
+12.499424,
+41.876938
+],
+[
+12.500033,
+41.876217
+],
+[
+12.500813,
+41.875132
+],
+[
+12.501217,
+41.87437
+],
+[
+12.501368,
+41.87395
+],
+[
+12.501437,
+41.873829
+],
+[
+12.501533,
+41.873494
+],
+[
+12.501629,
+41.873384
+],
+[
+12.501952,
+41.873575
+]
+],
+"w": 9.0,
+"from": -312,
+"to": 9999,
+"paved": -296,
+"rank": 1,
+"certainty": "documented",
+"length_m": 1622,
+"ends": [
+"Porta Capena",
+"Porta Appia"
+],
+"gates": [
+"porta_capena",
+"porta_appia"
+],
+"phases": [
+{
+"y": -312,
+"t": "Built by Appius Claudius."
+},
+{
+"y": -296,
+"t": "Footway paved to the temple of Mars."
+},
+{
+"y": -189,
+"t": "Portico (Via Tecta) to the temple of Mars."
+},
+{
+"y": 275,
+"t": "Crossed by the Aurelian Wall at the Porta Appia."
+}
+],
+"note": "Built by the censor Ap. Claudius Caecus in 312 BC from the Porta Capena. In 296 BC a footway was paved in squared stone from the gate to the temple of Mars (Livy 10.23.12) and in 293 the road itself paved with selce to Bovillae (Livy 10.47.4); in 189 BC the stretch to the temple of Mars got a portico (the 'Via Tecta' outside the Porta Capena, Ovid Fasti 6.191-192). Between the Porta Capena and Piazzale Numa Pompilio it passed east of the Baths of Caracalla (Viale delle Terme di Caracalla); the Via Latina forked off at Piazzale Numa Pompilio; Via di Porta S. Sebastiano preserves the line to the gate, past the Tomb of the Scipios.",
+"sources": [
+{
+"a": "Livy",
+"w": "Ab urbe condita",
+"r": "9.29.6; 10.23.12; 10.47.4; 38.28.3"
+},
+{
+"a": "Ovid",
+"w": "Fasti",
+"r": "6.191-192"
+}
+],
+"scholarship": [
+"Platner-Ashby, Via Appia",
+"Coarelli, Rome and Environs (2007) 344-352"
+]
+},
+{
+"id": "clivus_martis",
+"name": "Clivus Martis",
+"modern": "Via di Porta San Sebastiano (last stretch before the gate)",
+"line": [
+[
+12.5003,
+41.8749
+],
+[
+12.500847,
+41.875074
+],
+[
+12.501217,
+41.87437
+],
+[
+12.501368,
+41.87395
+],
+[
+12.501437,
+41.873829
+],
+[
+12.501533,
+41.873494
+],
+[
+12.501629,
+41.873384
+],
+[
+12.501952,
+41.873575
+]
+],
+"w": 9.0,
+"from": -388,
+"to": 9999,
+"paved": -296,
+"rank": 2,
+"certainty": "reconstructed",
+"length_m": 283,
+"gates": [
+"porta_appia"
+],
+"note": "The ascent of the Via Appia to the temple of Mars (dedicated 388 BC) just before the line of the later Aurelian Wall; its grade was later lowered (CIL VI 1270) (Platner).",
+"sources": [
+{
+"a": "Livy",
+"w": "Ab urbe condita",
+"r": "10.23.12; 38.28.3"
+}
+],
+"scholarship": [
+"Platner-Ashby, Cliva: Clivus Martis"
+]
+},
+{
+"id": "via_appia_extra",
+"name": "Via Appia (outside the walls)",
+"modern": "Via Appia Antica",
+"line": [
+[
+12.501952,
+41.873575
+],
+[
+12.50158,
+41.873253
+],
+[
+12.501993,
+41.872284
+],
+[
+12.502042,
+41.872109
+],
+[
+12.50204,
+41.871784
+],
+[
+12.501909,
+41.870934
+],
+[
+12.501941,
+41.870556
+],
+[
+12.502082,
+41.86988
+],
+[
+12.502491,
+41.868406
+],
+[
+12.502877,
+41.867319
+],
+[
+12.503061,
+41.86695
+],
+[
+12.503489,
+41.86645
+],
+[
+12.503529,
+41.866408
+],
+[
+12.504451,
+41.866106
+],
+[
+12.504811,
+41.865965
+],
+[
+12.505128,
+41.865798
+],
+[
+12.505402,
+41.865612
+],
+[
+12.505793,
+41.865293
+],
+[
+12.509275,
+41.862178
+],
+[
+12.514695,
+41.857414
+],
+[
+12.520079,
+41.8526
+],
+[
+12.520941,
+41.851798
+],
+[
+12.521721,
+41.851138
+],
+[
+12.5235,
+41.85
+]
+],
+"w": 8.0,
+"from": -312,
+"to": 9999,
+"paved": -293,
+"rank": 1,
+"certainty": "documented",
+"length_m": 3316,
+"ends": [
+"Porta Appia",
+"Tomb of Caecilia Metella (edge of model)"
+],
+"gates": [
+"porta_appia"
+],
+"note": "From the Porta Appia south-east past the Almo crossing, the catacombs (Callixtus, San Sebastiano), the villa and circus of Maxentius and the Tomb of Caecilia Metella to the edge of the model area; lined with tombs. Modern Via Appia Antica on the ancient line.",
+"sources": [
+{
+"a": "Livy",
+"w": "Ab urbe condita",
+"r": "10.47.4"
+},
+{
+"a": "Procopius",
+"w": "Wars",
+"r": "5.14.6-11"
+}
+],
+"scholarship": [
+"Platner-Ashby, Via Appia"
+]
+},
+{
+"id": "via_latina_urban",
+"name": "Via Latina (fork from the Appia to the Porta Latina)",
+"modern": "Via di Porta Latina",
+"line": [
+[
+12.496035,
+41.879845
+],
+[
+12.496121,
+41.879776
+],
+[
+12.496234,
+41.879429
+],
+[
+12.496424,
+41.879319
+],
+[
+12.497867,
+41.878759
+],
+[
+12.499082,
+41.878129
+],
+[
+12.500751,
+41.87736
+],
+[
+12.50174,
+41.87683
+],
+[
+12.502488,
+41.876519
+]
+],
+"w": 7.0,
+"from": -450,
+"to": 9999,
+"paved": null,
+"rank": 1,
+"certainty": "documented",
+"length_m": 663,
+"ends": [
+"Via Appia (Piazzale Numa Pompilio)",
+"Porta Latina"
+],
+"gates": [
+"porta_latina"
+],
+"note": "Left the Porta Capena with the Appia and forked off at Piazzale Numa Pompilio toward the Porta Latina (from 275), on the line of Via di Porta Latina; older than the Appia, the route to the Sacco valley.",
+"scholarship": [
+"Platner-Ashby, Via Latina"
+]
+},
+{
+"id": "via_latina_extra",
+"name": "Via Latina (outside the walls)",
+"modern": "Via Latina",
+"line": [
+[
+12.502621,
+41.876469
+],
+[
+12.502917,
+41.876441
+],
+[
+12.503029,
+41.876387
+],
+[
+12.504162,
+41.875717
+],
+[
+12.50602,
+41.874671
+],
+[
+12.506581,
+41.874595
+],
+[
+12.506803,
+41.874586
+],
+[
+12.507075,
+41.874518
+],
+[
+12.508337,
+41.874297
+],
+[
+12.508517,
+41.874311
+],
+[
+12.5092,
+41.874213
+],
+[
+12.514201,
+41.873239
+],
+[
+12.515153,
+41.873043
+],
+[
+12.515503,
+41.872928
+],
+[
+12.517243,
+41.871953
+],
+[
+12.520402,
+41.870255
+],
+[
+12.522293,
+41.869257
+],
+[
+12.522384,
+41.869257
+],
+[
+12.522412,
+41.869202
+],
+[
+12.522395,
+41.869117
+],
+[
+12.522846,
+41.868868
+],
+[
+12.52294,
+41.868879
+],
+[
+12.522907,
+41.86883
+],
+[
+12.523024,
+41.868738
+],
+[
+12.523808,
+41.868311
+],
+[
+12.523968,
+41.868262
+],
+[
+12.524123,
+41.868257
+],
+[
+12.525671,
+41.867348
+],
+[
+12.524,
+41.866
+],
+[
+12.5305,
+41.8625
+],
+[
+12.5365,
+41.8585
+],
+[
+12.5419,
+41.855
+]
+],
+"w": 7.0,
+"from": -450,
+"to": 9999,
+"paved": null,
+"rank": 1,
+"certainty": "reconstructed",
+"length_m": 4359,
+"ends": [
+"Porta Latina",
+"edge of model (south-east)"
+],
+"gates": [
+"porta_latina"
+],
+"note": "South-east from the Porta Latina through the necropolis (tombs of the Valerii and Pancratii beyond the model area) toward the Alban hills; modern Via Latina for the first stretch, then extrapolated on its bearing.",
+"scholarship": [
+"Platner-Ashby, Via Latina"
+]
+},
+{
+"id": "via_ardeatina_urban",
+"name": "Via Ardeatina (Porta Naevia to the Porta Ardeatina)",
+"modern": "west and south of the Baths of Caracalla (Viale Guido Baccelli area)",
+"line": [
+[
+12.4873,
+41.8801
+],
+[
+12.488,
+41.8786
+],
+[
+12.4893,
+41.877
+],
+[
+12.4913,
+41.8756
+],
+[
+12.4938,
+41.8744
+],
+[
+12.4957,
+41.8737
+],
+[
+12.497108,
+41.873242
+]
+],
+"w": 6.0,
+"from": -300,
+"to": 9999,
+"paved": null,
+"rank": 2,
+"certainty": "reconstructed",
+"length_m": 1162,
+"ends": [
+"Porta Naevia",
+"Porta Ardeatina"
+],
+"gates": [
+"porta_naevia",
+"porta_ardeatina"
+],
+"note": "From the Servian Porta Naevia south past the west side of the Baths of Caracalla (the Clivus Delphini linked it with the Via Nova) to the Porta Ardeatina. Exact course inside the circuit conjectural.",
+"scholarship": [
+"Platner-Ashby, Via Ardeatina"
+]
+},
+{
+"id": "via_ardeatina_extra",
+"name": "Via Ardeatina (outside the walls)",
+"modern": "Via di Porta Ardeatina - Via Ardeatina",
+"line": [
+[
+12.497003,
+41.873143
+],
+[
+12.497217,
+41.873101
+],
+[
+12.500886,
+41.873119
+],
+[
+12.50158,
+41.873253
+],
+[
+12.502036,
+41.872141
+],
+[
+12.50204,
+41.871784
+],
+[
+12.501909,
+41.870934
+],
+[
+12.501941,
+41.870556
+],
+[
+12.502107,
+41.869774
+],
+[
+12.502491,
+41.868406
+],
+[
+12.502969,
+41.867104
+],
+[
+12.503061,
+41.86695
+],
+[
+12.503529,
+41.866408
+],
+[
+12.503689,
+41.866009
+],
+[
+12.504012,
+41.864939
+],
+[
+12.504191,
+41.863917
+],
+[
+12.504487,
+41.863348
+],
+[
+12.504721,
+41.862799
+],
+[
+12.505003,
+41.861989
+],
+[
+12.505199,
+41.861312
+],
+[
+12.505284,
+41.861131
+],
+[
+12.505372,
+41.860999
+],
+[
+12.505543,
+41.860824
+],
+[
+12.506193,
+41.860338
+],
+[
+12.507046,
+41.859899
+],
+[
+12.50784,
+41.859375
+],
+[
+12.508225,
+41.859017
+],
+[
+12.508894,
+41.858332
+],
+[
+12.508943,
+41.858249
+],
+[
+12.508904,
+41.858128
+],
+[
+12.510051,
+41.857763
+],
+[
+12.510237,
+41.857679
+],
+[
+12.510359,
+41.857587
+],
+[
+12.510529,
+41.857393
+],
+[
+12.510704,
+41.857065
+],
+[
+12.511055,
+41.855829
+],
+[
+12.511176,
+41.85556
+],
+[
+12.511374,
+41.855355
+],
+[
+12.512039,
+41.854843
+],
+[
+12.512352,
+41.854572
+],
+[
+12.512604,
+41.854297
+],
+[
+12.513362,
+41.853297
+],
+[
+12.511,
+41.851
+],
+[
+12.509972,
+41.85
+]
+],
+"w": 6.0,
+"from": -300,
+"to": 9999,
+"paved": null,
+"rank": 2,
+"certainty": "reconstructed",
+"length_m": 3386,
+"ends": [
+"Porta Ardeatina",
+"edge of model (south)"
+],
+"gates": [
+"porta_ardeatina"
+],
+"note": "South from the Porta Ardeatina between the Appia and the Ostiensis, past the catacombs of Domitilla and Callixtus (western side).",
+"scholarship": [
+"Platner-Ashby, Via Ardeatina"
+]
+},
+{
+"id": "via_ostiensis_urban",
+"name": "Via Ostiensis (Porta Trigemina to the Porta Ostiensis)",
+"modern": "Via Marmorata",
+"line": [
+[
+12.481,
+41.8877
+],
+[
+12.480371,
+41.887753
+],
+[
+12.480305,
+41.887459
+],
+[
+12.480142,
+41.887006
+],
+[
+12.479926,
+41.886601
+],
+[
+12.479755,
+41.886345
+],
+[
+12.479016,
+41.885506
+],
+[
+12.476419,
+41.883368
+],
+[
+12.476363,
+41.882875
+],
+[
+12.476414,
+41.882624
+],
+[
+12.476503,
+41.882486
+],
+[
+12.47645,
+41.88243
+],
+[
+12.476651,
+41.882223
+],
+[
+12.476887,
+41.881898
+],
+[
+12.47951,
+41.878137
+],
+[
+12.479721,
+41.877943
+],
+[
+12.480739,
+41.877183
+],
+[
+12.480886,
+41.877119
+],
+[
+12.481515,
+41.876973
+],
+[
+12.48166,
+41.876911
+],
+[
+12.481727,
+41.876814
+],
+[
+12.481738,
+41.876647
+],
+[
+12.481436,
+41.876636
+]
+],
+"w": 8.0,
+"from": -509,
+"to": 9999,
+"paved": null,
+"rank": 1,
+"certainty": "documented",
+"length_m": 1585,
+"ends": [
+"Porta Trigemina",
+"Porta Ostiensis"
+],
+"gates": [
+"porta_trigemina",
+"porta_ostiensis"
+],
+"note": "From the Porta Trigemina along the foot of the Aventine through the Emporium district (Porticus Aemilia, Horrea Galbana, Monte Testaccio to the west) to the Porta Ostiensis beside the Pyramid of Cestius; line of Via Marmorata.",
+"scholarship": [
+"Platner-Ashby, Via Ostiensis",
+"Coarelli, Rome and Environs (2007) 352"
+]
+},
+{
+"id": "via_ostiensis_extra",
+"name": "Via Ostiensis (outside the walls)",
+"modern": "Via Ostiense",
+"line": [
+[
+12.481436,
+41.876636
+],
+[
+12.480881,
+41.875659
+],
+[
+12.480838,
+41.875529
+],
+[
+12.480159,
+41.87156
+],
+[
+12.479985,
+41.870361
+],
+[
+12.479891,
+41.869925
+],
+[
+12.479343,
+41.866523
+],
+[
+12.47834,
+41.860695
+],
+[
+12.478343,
+41.860513
+],
+[
+12.478428,
+41.860153
+],
+[
+12.478419,
+41.86005
+],
+[
+12.478053,
+41.858518
+],
+[
+12.477846,
+41.857785
+],
+[
+12.477756,
+41.857572
+],
+[
+12.477457,
+41.857066
+],
+[
+12.477391,
+41.856846
+],
+[
+12.477167,
+41.855643
+],
+[
+12.476581,
+41.852029
+],
+[
+12.476411,
+41.851789
+],
+[
+12.475302,
+41.850487
+],
+[
+12.475234,
+41.850342
+],
+[
+12.473,
+41.8505
+]
+],
+"w": 8.0,
+"from": -509,
+"to": 9999,
+"paved": null,
+"rank": 1,
+"certainty": "documented",
+"length_m": 3180,
+"ends": [
+"Porta Ostiensis",
+"S. Paolo fuori le mura / edge"
+],
+"gates": [
+"porta_ostiensis"
+],
+"note": "From the Porta Ostiensis south past the tomb of St Paul (basilica of S. Paolo, rebuilt from 386) to the edge of the model area; the road to Ostia.",
+"scholarship": [
+"Platner-Ashby, Via Ostiensis"
+]
+},
+{
+"id": "porticus_sancti_pauli",
+"name": "Porticus to S. Paolo (colonnaded Via Ostiensis)",
+"modern": "Via Ostiense, gate to basilica",
+"line": [
+[
+12.481436,
+41.876636
+],
+[
+12.480881,
+41.875659
+],
+[
+12.480838,
+41.875529
+],
+[
+12.480159,
+41.87156
+],
+[
+12.479985,
+41.870361
+],
+[
+12.479891,
+41.869925
+],
+[
+12.479343,
+41.866523
+],
+[
+12.47834,
+41.860695
+],
+[
+12.478343,
+41.860513
+],
+[
+12.478428,
+41.860153
+],
+[
+12.478419,
+41.86005
+],
+[
+12.477937,
+41.858109
+],
+[
+12.4768,
+41.8586
+],
+[
+12.478022,
+41.858408
+]
+],
+"w": 8.0,
+"from": 400,
+"to": 9999,
+"paved": null,
+"rank": 2,
+"certainty": "conjectural",
+"length_m": 2300,
+"gates": [
+"porta_ostiensis"
+],
+"note": "Procopius (Wars 6.4.9) says a covered portico led from the Porta Ostiensis to the church of St Paul, 14 stades away; date of construction unknown (late 4th - 5th century assumed).",
+"sources": [
+{
+"a": "Procopius",
+"w": "Wars",
+"r": "6.4.9"
+}
+],
+"scholarship": [
+"Richardson, NTDAR (1992) 316"
+]
+},
+{
+"id": "via_salaria_vetus_urban",
+"name": "Via Salaria Vetus (Porta Collina to the Porta Pinciana)",
+"modern": "through the Horti Sallustiani valley (Via Sallustiana - Via di Porta Pinciana direction)",
+"line": [
+[
+12.4988,
+41.90755
+],
+[
+12.4976,
+41.9081
+],
+[
+12.496,
+41.9085
+],
+[
+12.4943,
+41.9088
+],
+[
+12.4925,
+41.909
+],
+[
+12.4905,
+41.9093
+],
+[
+12.488386,
+41.909473
+]
+],
+"w": 6.0,
+"from": -509,
+"to": 9999,
+"paved": null,
+"rank": 2,
+"certainty": "conjectural",
+"length_m": 899,
+"ends": [
+"Porta Collina",
+"Porta Pinciana"
+],
+"gates": [
+"porta_collina",
+"porta_pinciana"
+],
+"note": "Older line of the Salaria, leaving the Porta Collina and running north-west through the valley of the Horti Sallustiani to the later Porta Pinciana, beyond which it continued as Via Pinciana. Course inside the Aurelian circuit conjectural.",
+"scholarship": [
+"Platner-Ashby, Via Salaria",
+"Platner-Ashby, Porta Pinciana"
+]
+},
+{
+"id": "via_salaria_vetus_extra",
+"name": "Via Salaria Vetus (outside the Porta Pinciana)",
+"modern": "Via Pinciana, then across Parioli",
+"line": [
+[
+12.488386,
+41.909473
+],
+[
+12.489004,
+41.90994
+],
+[
+12.489241,
+41.910032
+],
+[
+12.490852,
+41.910897
+],
+[
+12.491186,
+41.911007
+],
+[
+12.491694,
+41.911292
+],
+[
+12.491793,
+41.911377
+],
+[
+12.492166,
+41.911886
+],
+[
+12.492211,
+41.912013
+],
+[
+12.492374,
+41.912246
+],
+[
+12.492517,
+41.912393
+],
+[
+12.493202,
+41.913347
+],
+[
+12.493406,
+41.913551
+],
+[
+12.493509,
+41.913767
+],
+[
+12.493738,
+41.914082
+],
+[
+12.49413,
+41.915468
+],
+[
+12.4965,
+41.921
+],
+[
+12.4985,
+41.9265
+],
+[
+12.5003,
+41.9315
+],
+[
+12.5013,
+41.9348
+]
+],
+"w": 6.0,
+"from": -509,
+"to": 9999,
+"paved": null,
+"rank": 2,
+"certainty": "conjectural",
+"length_m": 3087,
+"gates": [
+"porta_pinciana"
+],
+"note": "North from the Porta Pinciana along Via Pinciana and across the Parioli heights to rejoin the Salaria before the Anio (catacombs of Pamphilus and Basilla on it). Beyond Via Pinciana extrapolated.",
+"scholarship": [
+"Platner-Ashby, Via Salaria"
+]
+},
+{
+"id": "via_salaria_urban",
+"name": "Via Salaria (Porta Collina to the Porta Salaria)",
+"modern": "Via Piave (approx.)",
+"line": [
+[
+12.498814,
+41.907567
+],
+[
+12.498135,
+41.910795
+]
+],
+"w": 7.0,
+"from": -509,
+"to": 9999,
+"paved": null,
+"rank": 1,
+"certainty": "reconstructed",
+"length_m": 363,
+"ends": [
+"Porta Collina",
+"Porta Salaria"
+],
+"gates": [
+"porta_collina",
+"porta_salaria"
+],
+"note": "The salt road, from the Porta Collina north to the Porta Salaria between the Horti Sallustiani and the Castra Praetoria; line roughly that of Via Piave.",
+"scholarship": [
+"Platner-Ashby, Via Salaria"
+]
+},
+{
+"id": "via_salaria_extra",
+"name": "Via Salaria (outside the walls)",
+"modern": "Via Salaria",
+"line": [
+[
+12.498138,
+41.91077
+],
+[
+12.497558,
+41.91353
+],
+[
+12.496998,
+41.915917
+],
+[
+12.496799,
+41.916874
+],
+[
+12.496735,
+41.916975
+],
+[
+12.496786,
+41.917147
+],
+[
+12.497566,
+41.918705
+],
+[
+12.498517,
+41.919533
+],
+[
+12.498553,
+41.919615
+],
+[
+12.499363,
+41.920293
+],
+[
+12.501276,
+41.922173
+],
+[
+12.502158,
+41.922992
+],
+[
+12.50318,
+41.924039
+],
+[
+12.505165,
+41.925982
+],
+[
+12.50682,
+41.927865
+],
+[
+12.50637,
+41.928044
+],
+[
+12.506832,
+41.928578
+],
+[
+12.50656,
+41.928711
+],
+[
+12.506201,
+41.928986
+],
+[
+12.50616,
+41.929097
+],
+[
+12.506048,
+41.929148
+],
+[
+12.506055,
+41.929396
+],
+[
+12.506031,
+41.929483
+],
+[
+12.505785,
+41.92976
+],
+[
+12.505785,
+41.930036
+],
+[
+12.505911,
+41.930537
+],
+[
+12.505867,
+41.930876
+],
+[
+12.505634,
+41.931779
+],
+[
+12.504952,
+41.933626
+],
+[
+12.50479,
+41.934217
+],
+[
+12.504703,
+41.934208
+],
+[
+12.504678,
+41.934382
+],
+[
+12.504546,
+41.934694
+],
+[
+12.504646,
+41.934767
+],
+[
+12.504642,
+41.934859
+]
+],
+"w": 7.0,
+"from": -509,
+"to": 9999,
+"paved": null,
+"rank": 1,
+"certainty": "documented",
+"length_m": 3055,
+"ends": [
+"Porta Salaria",
+"edge of model (north)"
+],
+"gates": [
+"porta_salaria"
+],
+"note": "North from the Porta Salaria past the catacomb of Priscilla toward the Pons Salarius on the Anio, just beyond the model area; lined with tombs.",
+"scholarship": [
+"Platner-Ashby, Via Salaria"
+]
+},
+{
+"id": "via_nomentana_urban",
+"name": "Via Nomentana (Porta Collina to the Porta Nomentana)",
+"modern": "Via XX Settembre (north-east end)",
+"line": [
+[
+12.498814,
+41.907567
+],
+[
+12.500713,
+41.90891
+],
+[
+12.50111,
+41.908976
+],
+[
+12.50144,
+41.909182
+],
+[
+12.5013,
+41.9093
+],
+[
+12.502137,
+41.908564
+]
+],
+"w": 7.0,
+"from": -509,
+"to": 9999,
+"paved": null,
+"rank": 1,
+"certainty": "reconstructed",
+"length_m": 412,
+"ends": [
+"Porta Collina",
+"Porta Nomentana"
+],
+"gates": [
+"porta_collina",
+"porta_nomentana"
+],
+"note": "From the Porta Collina north-east to the Porta Nomentana, on the line of the upper Via XX Settembre toward Porta Pia.",
+"scholarship": [
+"Platner-Ashby, Via Nomentana"
+]
+},
+{
+"id": "via_nomentana_extra",
+"name": "Via Nomentana (outside the walls)",
+"modern": "Via Nomentana",
+"line": [
+[
+12.502137,
+41.908564
+],
+[
+12.502154,
+41.90976
+],
+[
+12.503028,
+41.91034
+],
+[
+12.503576,
+41.910739
+],
+[
+12.503785,
+41.910935
+],
+[
+12.504177,
+41.911194
+],
+[
+12.50421,
+41.911289
+],
+[
+12.50409,
+41.911264
+],
+[
+12.504176,
+41.911396
+],
+[
+12.516733,
+41.91995
+],
+[
+12.516973,
+41.920232
+],
+[
+12.517602,
+41.921251
+],
+[
+12.51783,
+41.921527
+],
+[
+12.518603,
+41.922237
+],
+[
+12.519245,
+41.922776
+],
+[
+12.519406,
+41.922962
+],
+[
+12.519715,
+41.923235
+],
+[
+12.520218,
+41.923556
+],
+[
+12.520947,
+41.92425
+],
+[
+12.521126,
+41.92445
+],
+[
+12.523604,
+41.926791
+],
+[
+12.52595,
+41.929454
+],
+[
+12.526881,
+41.930618
+],
+[
+12.526925,
+41.930664
+],
+[
+12.527009,
+41.930698
+],
+[
+12.528047,
+41.931989
+],
+[
+12.529044,
+41.932945
+],
+[
+12.529595,
+41.933321
+],
+[
+12.5285,
+41.9345
+]
+],
+"w": 7.0,
+"from": -509,
+"to": 9999,
+"paved": null,
+"rank": 1,
+"certainty": "documented",
+"length_m": 3812,
+"ends": [
+"Porta Nomentana",
+"edge of model (north-east)"
+],
+"gates": [
+"porta_nomentana"
+],
+"note": "North-east from the Porta Nomentana past Sant'Agnese and the Mausoleum of Constantina (Santa Costanza) to the edge of the model area.",
+"scholarship": [
+"Platner-Ashby, Via Nomentana"
+]
+},
+{
+"id": "via_tiburtina_praenestina_urban_common",
+"name": "Via Tiburtina / Praenestina / Labicana (common start outside the Porta Esquilina)",
+"modern": "Via di S. Vito east end - Piazza Vittorio (north side)",
+"line": [
+[
+12.501364,
+41.895771
+],
+[
+12.5025,
+41.8957
+],
+[
+12.5037,
+41.8956
+]
+],
+"w": 8.0,
+"from": -509,
+"to": 9999,
+"paved": null,
+"rank": 1,
+"certainty": "reconstructed",
+"length_m": 195,
+"gates": [
+"porta_esquilina"
+],
+"note": "The roads to Tibur, Praeneste and Labici left the Porta Esquilina together and divided near the later Nymphaeum of Alexander ('Trofei di Mario', Piazza Vittorio).",
+"scholarship": [
+"Coarelli, Rome and Environs (2007) 192-197"
+]
+},
+{
+"id": "via_tiburtina_urban",
+"name": "Via Tiburtina (urban, to the Porta Tiburtina)",
+"modern": "Piazza Vittorio - Via Principe Amedeo direction - Porta S. Lorenzo",
+"line": [
+[
+12.5037,
+41.8956
+],
+[
+12.5052,
+41.896
+],
+[
+12.5068,
+41.8964
+],
+[
+12.5084,
+41.8968
+],
+[
+12.5097,
+41.89715
+],
+[
+12.510313,
+41.897479
+]
+],
+"w": 7.0,
+"from": -509,
+"to": 9999,
+"paved": null,
+"rank": 1,
+"certainty": "reconstructed",
+"length_m": 590,
+"ends": [
+"Porta Esquilina (fork)",
+"Porta Tiburtina"
+],
+"gates": [
+"porta_tiburtina"
+],
+"note": "From the fork by the Nymphaeum of Alexander north-east to the Porta Tiburtina (from 275), passing under the Augustan aqueduct arch. Inner course approximate.",
+"scholarship": [
+"Platner-Ashby, Via Tiburtina"
+]
+},
+{
+"id": "via_tiburtina_extra",
+"name": "Via Tiburtina (outside the walls)",
+"modern": "Via Tiburtina",
+"line": [
+[
+12.510313,
+41.897479
+],
+[
+12.511582,
+41.896959
+],
+[
+12.5155,
+41.898997
+],
+[
+12.517407,
+41.900018
+],
+[
+12.51763,
+41.900107
+],
+[
+12.518267,
+41.900432
+],
+[
+12.519498,
+41.901086
+],
+[
+12.519559,
+41.901177
+],
+[
+12.519588,
+41.901302
+],
+[
+12.519557,
+41.901378
+],
+[
+12.519612,
+41.901443
+],
+[
+12.519607,
+41.901488
+],
+[
+12.519727,
+41.901536
+],
+[
+12.519978,
+41.901587
+],
+[
+12.520044,
+41.901649
+],
+[
+12.519978,
+41.901587
+],
+[
+12.519627,
+41.901501
+],
+[
+12.519598,
+41.901435
+],
+[
+12.519379,
+41.901547
+],
+[
+12.519209,
+41.901905
+],
+[
+12.519112,
+41.901954
+],
+[
+12.519384,
+41.902358
+],
+[
+12.519646,
+41.902604
+],
+[
+12.520513,
+41.903813
+],
+[
+12.52085,
+41.904215
+],
+[
+12.521568,
+41.904974
+],
+[
+12.523357,
+41.906668
+],
+[
+12.523835,
+41.907029
+],
+[
+12.524346,
+41.907349
+],
+[
+12.524801,
+41.907577
+],
+[
+12.525323,
+41.907774
+],
+[
+12.525771,
+41.907901
+],
+[
+12.526473,
+41.908062
+],
+[
+12.527474,
+41.908165
+],
+[
+12.529594,
+41.908147
+],
+[
+12.530908,
+41.908162
+],
+[
+12.531851,
+41.908119
+],
+[
+12.532511,
+41.908144
+],
+[
+12.534006,
+41.908145
+],
+[
+12.534804,
+41.908118
+],
+[
+12.537331,
+41.90832
+],
+[
+12.542,
+41.9075
+]
+],
+"w": 7.0,
+"from": -509,
+"to": 9999,
+"paved": null,
+"rank": 1,
+"certainty": "documented",
+"length_m": 3375,
+"ends": [
+"Porta Tiburtina",
+"S. Lorenzo / edge of model"
+],
+"gates": [
+"porta_tiburtina"
+],
+"note": "From the Porta Tiburtina east past the tomb of St Lawrence (basilica of S. Lorenzo, Constantinian funerary basilica and Pelagius II's church of 579-590) toward Tibur.",
+"scholarship": [
+"Platner-Ashby, Via Tiburtina"
+]
+},
+{
+"id": "porticus_sancti_laurentii",
+"name": "Porticus to S. Lorenzo",
+"modern": "Via Tiburtina, gate to basilica",
+"line": [
+[
+12.510313,
+41.897479
+],
+[
+12.511582,
+41.896959
+],
+[
+12.5155,
+41.898997
+],
+[
+12.517407,
+41.900018
+],
+[
+12.51763,
+41.900107
+],
+[
+12.518267,
+41.900432
+],
+[
+12.519498,
+41.901086
+],
+[
+12.519559,
+41.901177
+],
+[
+12.519588,
+41.901302
+],
+[
+12.519557,
+41.901378
+],
+[
+12.519612,
+41.901443
+],
+[
+12.519607,
+41.901488
+],
+[
+12.520002,
+41.901601
+],
+[
+12.5209,
+41.9024
+],
+[
+12.519812,
+41.902835
+]
+],
+"w": 7.0,
+"from": 450,
+"to": 9999,
+"paved": null,
+"rank": 3,
+"certainty": "conjectural",
+"length_m": 1223,
+"gates": [
+"porta_tiburtina"
+],
+"note": "Covered portico from the Porta Tiburtina to S. Lorenzo, like those to St Peter's and St Paul's; attested in medieval sources, ancient date assumed.",
+"scholarship": [
+"Richardson, NTDAR (1992) 316"
+]
+},
+{
+"id": "clivus_bassilli",
+"name": "Clivus Bassilli",
+"modern": "off the Via Tiburtina in the Verano cemetery (conjectural)",
+"line": [
+[
+12.519,
+41.9016
+],
+[
+12.5198,
+41.903
+],
+[
+12.5204,
+41.9043
+]
+],
+"w": 4.0,
+"from": -50,
+"to": 9999,
+"paved": null,
+"rank": 3,
+"certainty": "conjectural",
+"length_m": 322,
+"note": "Road known from one inscription (CIL VI 36364) that branched off the Via Tiburtina in the area of the cemetery of S. Lorenzo (Platner).",
+"scholarship": [
+"Platner-Ashby, Cliva: Clivus Bassilli"
+]
+},
+{
+"id": "via_praenestina_labicana_urban",
+"name": "Via Praenestina and Labicana (urban, to the Porta Maggiore)",
+"modern": "Piazza Vittorio - Via Principe Eugenio direction - Porta Maggiore",
+"line": [
+[
+12.5037,
+41.8956
+],
+[
+12.506,
+41.8948
+],
+[
+12.5085,
+41.894
+],
+[
+12.511,
+41.8931
+],
+[
+12.5133,
+41.8922
+],
+[
+12.515207,
+41.891429
+]
+],
+"w": 8.0,
+"from": -509,
+"to": 9999,
+"paved": null,
+"rank": 1,
+"certainty": "reconstructed",
+"length_m": 1063,
+"ends": [
+"Porta Esquilina (fork)",
+"Porta Praenestina-Labicana"
+],
+"gates": [
+"porta_praenestina_labicana"
+],
+"note": "From the fork south-east across the Esquiline past the Horti Liciniani and the Tomb of Eurysaces to the twin arches of the Porta Maggiore, where the Praenestina (north arch) and Labicana (south arch) divided. Inner course approximate.",
+"scholarship": [
+"Platner-Ashby, Via Praenestina",
+"Platner-Ashby, Via Labicana"
+]
+},
+{
+"id": "via_praenestina_extra",
+"name": "Via Praenestina (outside the walls)",
+"modern": "Via Prenestina",
+"line": [
+[
+12.515207,
+41.891429
+],
+[
+12.514985,
+41.891113
+],
+[
+12.515036,
+41.891099
+],
+[
+12.515075,
+41.891155
+],
+[
+12.515227,
+41.891125
+],
+[
+12.515341,
+41.891138
+],
+[
+12.515707,
+41.891539
+],
+[
+12.515877,
+41.891486
+],
+[
+12.51597,
+41.891581
+],
+[
+12.516091,
+41.891613
+],
+[
+12.516216,
+41.891596
+],
+[
+12.516775,
+41.891371
+],
+[
+12.516944,
+41.89134
+],
+[
+12.51797,
+41.891484
+],
+[
+12.518901,
+41.891397
+],
+[
+12.520649,
+41.891309
+],
+[
+12.521521,
+41.891172
+],
+[
+12.524142,
+41.890978
+],
+[
+12.524469,
+41.890973
+],
+[
+12.52605,
+41.891035
+],
+[
+12.526858,
+41.891086
+],
+[
+12.527009,
+41.891114
+],
+[
+12.527093,
+41.891219
+],
+[
+12.527134,
+41.891234
+],
+[
+12.531624,
+41.892028
+],
+[
+12.531987,
+41.892086
+],
+[
+12.533468,
+41.892243
+],
+[
+12.535256,
+41.892387
+],
+[
+12.536127,
+41.892417
+],
+[
+12.537189,
+41.892427
+],
+[
+12.539147,
+41.892349
+],
+[
+12.539533,
+41.892353
+],
+[
+12.541924,
+41.892699
+],
+[
+12.541923,
+41.892618
+]
+],
+"w": 7.0,
+"from": -509,
+"to": 9999,
+"paved": null,
+"rank": 1,
+"certainty": "documented",
+"length_m": 2358,
+"ends": [
+"Porta Maggiore",
+"edge of model (east)"
+],
+"gates": [
+"porta_praenestina_labicana"
+],
+"note": "East from the Porta Maggiore toward Gabii and Praeneste (originally Via Gabina).",
+"scholarship": [
+"Platner-Ashby, Via Praenestina",
+"Platner-Ashby, Viae: Via Gabina"
+]
+},
+{
+"id": "via_labicana_extra",
+"name": "Via Labicana (outside the walls)",
+"modern": "Via Casilina",
+"line": [
+[
+12.515207,
+41.891429
+],
+[
+12.514985,
+41.891113
+],
+[
+12.515364,
+41.890991
+],
+[
+12.515557,
+41.891029
+],
+[
+12.515725,
+41.891014
+],
+[
+12.516058,
+41.890864
+],
+[
+12.516153,
+41.890972
+],
+[
+12.518903,
+41.889593
+],
+[
+12.519899,
+41.889149
+],
+[
+12.520726,
+41.888717
+],
+[
+12.522002,
+41.888109
+],
+[
+12.522839,
+41.888983
+],
+[
+12.527217,
+41.886604
+],
+[
+12.528424,
+41.885886
+],
+[
+12.530077,
+41.884761
+],
+[
+12.530532,
+41.884481
+],
+[
+12.532389,
+41.88343
+],
+[
+12.533013,
+41.883136
+],
+[
+12.533188,
+41.883089
+],
+[
+12.533811,
+41.883052
+],
+[
+12.534669,
+41.882833
+],
+[
+12.540096,
+41.881016
+],
+[
+12.540337,
+41.881767
+],
+[
+12.540453,
+41.883923
+],
+[
+12.542,
+41.912676
+]
+],
+"w": 7.0,
+"from": -509,
+"to": 9999,
+"paved": null,
+"rank": 1,
+"certainty": "documented",
+"length_m": 6080,
+"ends": [
+"Porta Maggiore",
+"edge of model (east)"
+],
+"gates": [
+"porta_praenestina_labicana"
+],
+"note": "South-east from the Porta Maggiore toward Labici; at the 3rd mile (just beyond the model edge) the catacomb of Marcellinus and Peter and the Mausoleum of Helena. Line of Via Casilina.",
+"scholarship": [
+"Platner-Ashby, Via Labicana"
+]
+},
+{
+"id": "via_asinaria_extra",
+"name": "Via Asinaria (outside the Porta Asinaria)",
+"modern": "Via Appia Nuova (first stretch, approx.)",
+"line": [
+[
+12.50868,
+41.885675
+],
+[
+12.50904,
+41.885803
+],
+[
+12.509127,
+41.8857
+],
+[
+12.509374,
+41.885569
+],
+[
+12.509596,
+41.885407
+],
+[
+12.509878,
+41.885349
+],
+[
+12.510544,
+41.884785
+],
+[
+12.510639,
+41.88476
+],
+[
+12.510719,
+41.884784
+],
+[
+12.51368,
+41.882368
+],
+[
+12.513898,
+41.882442
+],
+[
+12.514156,
+41.882464
+],
+[
+12.514418,
+41.882422
+],
+[
+12.51466,
+41.882311
+],
+[
+12.514879,
+41.882107
+],
+[
+12.514945,
+41.881921
+],
+[
+12.51492,
+41.881642
+],
+[
+12.51478,
+41.881439
+],
+[
+12.516654,
+41.879877
+],
+[
+12.517,
+41.88
+],
+[
+12.522,
+41.8765
+],
+[
+12.527,
+41.873
+],
+[
+12.542,
+41.8625
+]
+],
+"w": 6.0,
+"from": -200,
+"to": 9999,
+"paved": null,
+"rank": 2,
+"certainty": "conjectural",
+"length_m": 3889,
+"gates": [
+"porta_asinaria"
+],
+"note": "Road from the Porta Asinaria south-east, joining the Via Latina further out (Platner, Via Asinaria); first stretch drawn on Via Appia Nuova, which starts at the neighbouring Porta S. Giovanni.",
+"scholarship": [
+"Platner-Ashby, Via Asinaria"
+]
+},
+{
+"id": "road_viminalis_castra",
+"name": "Road from the Porta Viminalis to the Castra Praetoria",
+"modern": "Via Castro Pretorio direction",
+"line": [
+[
+12.5011,
+41.9022
+],
+[
+12.5023,
+41.9033
+],
+[
+12.5035,
+41.9046
+],
+[
+12.5048,
+41.9061
+]
+],
+"w": 7.0,
+"from": 23,
+"to": 9999,
+"paved": null,
+"rank": 2,
+"certainty": "reconstructed",
+"length_m": 532,
+"gates": [
+"porta_viminalis"
+],
+"note": "From the Porta Viminalis north-east to the west gate (porta decumana) of the praetorian camp.",
+"scholarship": [
+"Richardson, NTDAR (1992) 78"
+]
+},
+{
+"id": "road_porta_metrovia",
+"name": "Road to the Porta Metrovia",
+"modern": "Via della Navicella - Porta Metronia",
+"line": [
+[
+12.4966,
+41.88455
+],
+[
+12.4974,
+41.8836
+],
+[
+12.498644,
+41.882324
+]
+],
+"w": 5.0,
+"from": 275,
+"to": 9999,
+"paved": null,
+"rank": 3,
+"certainty": "conjectural",
+"length_m": 300,
+"gates": [
+"porta_metrovia"
+],
+"note": "Branch from the Caelian ridge road at the Macellum Magnum down to the postern of the Porta Metrovia."
+},
+{
+"id": "road_lateran_sessorium",
+"name": "Road from the Lateran to the Sessorium and the Porta Maggiore",
+"modern": "Via Domenico Fontana - Via di S. Croce in Gerusalemme (approx.)",
+"line": [
+[
+12.507,
+41.8863
+],
+[
+12.5095,
+41.8871
+],
+[
+12.5122,
+41.888
+],
+[
+12.5145,
+41.8892
+],
+[
+12.5151,
+41.8909
+]
+],
+"w": 6.0,
+"from": 200,
+"to": 9999,
+"paved": null,
+"rank": 3,
+"certainty": "conjectural",
+"length_m": 900,
+"note": "Link inside the walls between the Lateran, the Sessorian palace (S. Croce, Amphitheatrum Castrense) and the Porta Maggiore along the line of the Claudian aqueduct.",
+"scholarship": [
+"Coarelli, Rome and Environs (2007) 199"
+]
+},
+{
+"id": "street_porta_quirinalis_campus",
+"name": "Descent from the Porta Quirinalis toward the Campus Martius",
+"modern": "Via Rasella",
+"line": [
+[
+12.49,
+41.902
+],
+[
+12.489318,
+41.902747
+],
+[
+12.486278,
+41.902252
+]
+],
+"w": 4.5,
+"from": -509,
+"to": 9999,
+"paved": null,
+"rank": 3,
+"certainty": "conjectural",
+"length_m": 359,
+"gates": [
+"porta_quirinalis"
+],
+"note": "From the Servian Porta Quirinalis down the north slope of the Quirinal toward the Campus and the Aqua Virgo district, on the line of Via Rasella."
+},
+{
+"id": "descent_porta_salutaris",
+"name": "Descent from the Porta Salutaris to the Campus Martius",
+"modern": "Via della Dataria",
+"line": [
+[
+12.4854,
+41.8998
+],
+[
+12.485817,
+41.899782
+],
+[
+12.485556,
+41.899854
+],
+[
+12.483866,
+41.900034
+]
+],
+"w": 5.0,
+"from": -509,
+"to": 9999,
+"paved": null,
+"rank": 2,
+"certainty": "reconstructed",
+"length_m": 200,
+"gates": [
+"porta_salutaris"
+],
+"note": "From the Porta Salutaris west down the Quirinal slope to the Campus (Via della Dataria); continuation of the Clivus Salutis outside the gate.",
+"scholarship": [
+"Platner-Ashby, Cliva: Clivus Salutis"
+]
+},
+{
+"id": "road_porta_sanqualis_campus",
+"name": "Road from the Porta Sanqualis to the Campus Martius",
+"modern": "Via della Pilotta - Piazza SS. Apostoli",
+"line": [
+[
+12.4865,
+41.8964
+],
+[
+12.485023,
+41.897242
+],
+[
+12.484751,
+41.898029
+],
+[
+12.484432,
+41.898814
+]
+],
+"w": 5.0,
+"from": -509,
+"to": 106,
+"paved": null,
+"rank": 3,
+"certainty": "conjectural",
+"length_m": 336,
+"gates": [
+"porta_sanqualis"
+],
+"note": "From the Servian gate at Largo Magnanapoli north-west along the foot of the Quirinal (Via della Pilotta) toward the Campus; superseded by the Trajanic works (end date assumed)."
+},
+{
+"id": "vicus_portae_lavernalis",
+"name": "Road from the Porta Lavernalis to the Via Ostiensis",
+"modern": "west slope of the Aventine (conjectural)",
+"line": [
+[
+12.4795,
+41.8818
+],
+[
+12.4788,
+41.8813
+],
+[
+12.4781,
+41.8807
+],
+[
+12.4775,
+41.8802
+],
+[
+12.477949,
+41.880375
+]
+],
+"w": 4.5,
+"from": -353,
+"to": 9999,
+"paved": null,
+"rank": 3,
+"certainty": "conjectural",
+"length_m": 286,
+"gates": [
+"porta_lavernalis"
+],
+"note": "From the Porta Lavernalis down to the Via Ostiensis (Via Marmorata) in the Emporium district.",
+"scholarship": [
+"Platner-Ashby, Porta Lavernalis"
+]
+},
+{
+"id": "vicus_sabuci",
+"name": "Vicus Sabuci",
+"modern": "Via Merulana near S. Martino ai Monti (conjectural)",
+"line": [
+[
+12.499608,
+41.895916
+],
+[
+12.499101,
+41.896888
+],
+[
+12.499338,
+41.896612
+],
+[
+12.50073,
+41.894127
+],
+[
+12.5006,
+41.8943
+],
+[
+12.5023,
+41.8944
+]
+],
+"w": 5.0,
+"from": -50,
+"to": 9999,
+"paved": null,
+"rank": 3,
+"certainty": "conjectural",
+"length_m": 616,
+"note": "Street of Region III known from an inscription (CIL VI 801) found in Via Merulana near S. Martino ai Monti (Platner).",
+"scholarship": [
+"Platner-Ashby, Vicus Sabuci"
+]
+},
+{
+"id": "vicus_sobrius",
+"name": "Vicus Sobrius (Mercurius Sobrius)",
+"modern": "Esquiline near the Torre Cantarelli (conjectural)",
+"line": [
+[
+12.5023,
+41.8944
+],
+[
+12.5028,
+41.8937
+],
+[
+12.5033,
+41.893
+]
+],
+"w": 4.0,
+"from": -50,
+"to": 9999,
+"paved": null,
+"rank": 3,
+"certainty": "conjectural",
+"length_m": 176,
+"note": "Street where Mercury was offered milk instead of wine (Festus 296-297 L); a shrine of Mercury found in 1888 near the Torre Cantarelli on the Esquiline may belong to it (Platner).",
+"sources": [
+{
+"a": "Festus",
+"w": "De verborum significatu",
+"r": "382 L"
+}
+],
+"scholarship": [
+"Platner-Ashby, Vicus Sobrius"
+]
+}
+]
+}

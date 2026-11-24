@@ -3663,15 +3663,15 @@
   },
   {
    "id": "thermae_novati",
-   "monument": "thermae_novati",
+   "monument": "santa_pudenziana",
    "name": "Baths of Novatus",
    "from": 150,
    "to": 389,
    "builder": null,
    "template": "baths",
    "loc": [
-    12.495,
-    41.8979
+    12.495433,
+    41.898437
    ],
    "rot": 315,
    "w": 40.0,
@@ -3679,24 +3679,24 @@
    "h": 14.0,
    "footprint": [
     [
-     12.495085,
-     41.897582
+     12.495518,
+     41.898119
     ],
     [
-     12.495427,
-     41.897836
+     12.49586,
+     41.898373
     ],
     [
-     12.494915,
-     41.898218
+     12.495348,
+     41.898755
     ],
     [
-     12.494573,
-     41.897964
+     12.495006,
+     41.898501
     ],
     [
-     12.495085,
-     41.897582
+     12.495518,
+     41.898119
     ]
    ],
    "params": {
@@ -3748,7 +3748,7 @@
     "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
     "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
    ],
-   "note": "Placed at the church site (Pleiades puts Thermae Novati 150 m SW)."
+   "note": "Placed at district D's Santa Pudenziana (from 390) and given its monument id so the hall chains into the church; Pleiades puts the Thermae Novati 150 m SW."
   },
   {
    "id": "thermae_olympiadis",
@@ -4078,11 +4078,6 @@
      "a": "Cornelius Nepos",
      "w": "Atticus",
      "r": "13.2"
-    },
-    {
-     "a": "Cicero",
-     "w": "Ad Atticum",
-     "r": "4.1.4"
     }
    ],
    "scholarship": [

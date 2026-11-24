@@ -1103,7 +1103,7 @@
   },
   {
    "id": "castra_porta_principalis_sinistra",
-   "wall": "aurelian_wall",
+   "wall": "castra_praetoria_outer_walls",
    "name": "North gate of the Castra Praetoria (walled)",
    "loc": [
     12.50578,
@@ -1129,7 +1129,7 @@
     }
    ],
    "certainty": "excavated",
-   "note": "Gate of the praetorian camp in the north side, walled up when Aurelian absorbed the camp; the blocked arch is still visible. OSM labels it Porta Praetoriana.",
+   "note": "Gate of the praetorian camp in the north side, walled up when Aurelian absorbed the camp; the blocked arch is still visible. OSM labels it Porta Praetoriana. From 275 these walls form part of the aurelian_wall line.",
    "sources": [],
    "scholarship": [
     "Richardson, NTDAR (1992) 78-79"
@@ -1137,7 +1137,7 @@
   },
   {
    "id": "castra_porta_principalis_dextra",
-   "wall": "aurelian_wall",
+   "wall": "castra_praetoria_outer_walls",
    "name": "East gate of the Castra Praetoria (walled)",
    "loc": [
     12.508924,
@@ -1163,7 +1163,7 @@
     }
    ],
    "certainty": "excavated",
-   "note": "East gate of the camp (Porta Principalis Dextera in OSM), blocked when the camp entered the Aurelian circuit.",
+   "note": "East gate of the camp (Porta Principalis Dextera in OSM), blocked when the camp entered the Aurelian circuit. From 275 these walls form part of the aurelian_wall line.",
    "sources": [],
    "scholarship": [
     "Richardson, NTDAR (1992) 78-79"
@@ -1397,10 +1397,6 @@
     {
      "y": 401,
      "t": "Honorian rebuilding (401-403): travertine arch, towers raised."
-    },
-    {
-     "y": 537,
-     "t": "Walled up during the siege? (uncertain)."
     }
    ],
    "certainty": "excavated",

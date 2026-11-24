@@ -260,7 +260,7 @@ def build(C, meta, base):
         x, z = to_local(*q)
         rec = {'id': g.get('id'), 'n': g.get('name'), 'wall': g.get('wall'), 'x': round(x, 2), 'z': round(z, 2), 'r': num(g.get('rot'), 0),
                'f': yr(g.get('from'), YMIN), 't': yr(g.get('to'), YMAX), 'w': num(g.get('w'), 6), 'h': num(g.get('h'), 10),
-               'tw': g.get('towers') or 'none', 'bays': int(num(g.get('bays'), 1))}
+               'tw': g.get('towers') or 'none', 'bays': int(num(g.get('bays'), 1)), 'ng': 1 if g.get('noGeom') else 0}
         rec['y'] = round(layers.height(base, x, z, max(rec['f'], -800)), 2)
         gates.append(rec)
         stash('g', rec['id'], g)
@@ -323,6 +323,22 @@ def build(C, meta, base):
             rec['y2'] = yr(ev.get('endYear'), y)
         events.append(rec)
         stash('e', rec['id'], ev)
+    # snap 'building'-precision events to the version of their monument standing that year
+    bym = {}
+    for b in blds:
+        bym.setdefault(b['m'], []).append(b); bym.setdefault(b['id'], []).append(b)
+    snapped = 0
+    for e in events:
+        if e['pr'] != 'building' or not e.get('m'):
+            continue
+        cands = [b for b in bym.get(e['m'], []) if b['b'] <= e['y'] <= b['t']] or bym.get(e['m'], [])
+        if not cands:
+            continue
+        b = min(cands, key=lambda b: abs(b['x'] - e['x']) + abs(b['z'] - e['z']))
+        d = math.hypot(b['x'] - e['x'], b['z'] - e['z'])
+        if 15 < d < 400:
+            e['x'], e['z'] = b['x'], b['z']; snapped += 1
+    print('events snapped to buildings:', snapped)
     events.sort(key=lambda e: (e['y'], e.get('mo') or 13, e.get('d') or 0))
     places = []
     for pl in C['cityPlaces']:

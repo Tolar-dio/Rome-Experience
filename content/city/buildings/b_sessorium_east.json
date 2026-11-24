@@ -890,16 +890,6 @@
      },
      {
       "shape": "box",
-      "x": 68,
-      "y": -77,
-      "w": 21.7,
-      "l": 36.5,
-      "h": 22.0,
-      "mat": "brick",
-      "role": "great hall (later Santa Croce)"
-     },
-     {
-      "shape": "box",
       "x": 122,
       "y": 8,
       "w": 20.0,
@@ -1060,7 +1050,7 @@
    },
    "importance": 4,
    "certainty": "excavated",
-   "summary": "After 312 the palace became the residence of Constantine's mother Helena, who restored the nearby baths; a hall of the palace became the church of Santa Croce in Gerusalemme (district D) to hold the relics of the Cross. Still an imperial residence in the 5th century; Valentinian III and Theodoric's officials used it.",
+   "summary": "After 312 the palace became the residence of Constantine's mother Helena, who restored the nearby baths; its great hall became, about 325, the church of Santa Croce in Gerusalemme (district D) to hold the relics of the Cross. Still an imperial residence in the 5th century; Valentinian III and Theodoric's officials used it.",
    "phases": [],
    "sources": [],
    "scholarship": [
@@ -1068,20 +1058,20 @@
     "Coates-Stephens, Porta Maggiore: Monument and Landscape (2004)",
     "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
    ],
-   "note": "Centre from Pleiades (Palatium Sessorianum). Grid assumed parallel to the hall of Santa Croce (rot 65). Block positions of the great hall and apsed hall computed from their Pleiades points. The great hall is omitted from this version because it is the church from c. 330 (district D) and is given separately up to 329."
+   "note": "Centre from Pleiades (Palatium Sessorianum). Grid assumed parallel to the hall of Santa Croce (rot 65). Block positions of the great hall and apsed hall computed from their Pleiades points. The great hall is omitted from both palace versions because it is the church from 325 (district D) and is given separately up to 324."
   },
   {
    "id": "sessorium_great_hall",
    "monument": "sessorium_great_hall",
    "name": "Great hall of the Sessorium (before Santa Croce)",
    "from": 215,
-   "to": 329,
+   "to": 324,
    "begun": 205,
    "builder": "elagabalus",
    "template": "compound",
    "loc": [
-    12.515926,
-    41.888048
+    12.515882,
+    41.888213
    ],
    "rot": 65,
    "w": 21.7,
@@ -1089,24 +1079,24 @@
    "h": 22.0,
    "footprint": [
     [
-     12.515671,
-     41.888067
+     12.515627,
+     41.888232
     ],
     [
-     12.515782,
-     41.88789
+     12.515738,
+     41.888055
     ],
     [
-     12.516181,
-     41.888029
+     12.516137,
+     41.888194
     ],
     [
-     12.51607,
-     41.888206
+     12.516026,
+     41.888371
     ],
     [
-     12.515671,
-     41.888067
+     12.515627,
+     41.888232
     ]
    ],
    "params": {
@@ -1135,14 +1125,14 @@
    },
    "importance": 3,
    "certainty": "excavated",
-   "summary": "A tall rectangular hall of the palace, about 36.5 x 21.7 m, lit by large arched windows; about 325-330 it was converted into the church of Santa Croce in Gerusalemme (district D), whose brick walls still incorporate it.",
+   "summary": "A tall rectangular hall of the palace, about 36.5 x 21.7 m, lit by large arched windows; about 325 it was converted into the church of Santa Croce in Gerusalemme (district D), whose brick walls still incorporate it.",
    "phases": [],
    "sources": [],
    "scholarship": [
     "Claridge, Rome: An Oxford Archaeological Guide (2nd ed., 2010)",
     "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
    ],
-   "note": "Location from Pleiades (Santa Croce). Record ends where district D's church begins."
+   "note": "Same position and monument id as district D's santa_croce_in_gerusalemme (from 325), so the hall chains into the church."
   },
   {
    "id": "sessorium_apsed_hall",
@@ -1366,7 +1356,7 @@
     {
      "a": "Historia Augusta",
      "w": "Heliogabalus",
-     "r": "14.5"
+     "r": "13.5"
     }
    ],
    "scholarship": [
@@ -1749,6 +1739,178 @@
     "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
    ],
    "note": "Boundary conjectural; the palace, circus and amphitheatre are separate records."
+  },
+  {
+   "id": "horti_tauriani",
+   "monument": "horti_tauriani",
+   "name": "Horti Tauriani",
+   "from": -30,
+   "to": 9999,
+   "builder": null,
+   "template": "garden",
+   "loc": [
+    12.5138,
+    41.8918
+   ],
+   "rot": 0,
+   "w": 250.0,
+   "l": 250.0,
+   "h": 1.0,
+   "footprint": [
+    [
+     12.5115,
+     41.8935
+    ],
+    [
+     12.515,
+     41.8932
+    ],
+    [
+     12.516,
+     41.8905
+    ],
+    [
+     12.5125,
+     41.89
+    ],
+    [
+     12.5112,
+     41.8915
+    ],
+    [
+     12.5115,
+     41.8935
+    ]
+   ],
+   "params": {
+    "trees": 0.8,
+    "kind": "park"
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Gardens of the Statilii Tauri near the later Porta Maggiore. Agrippina coveted them and drove T. Statilius Taurus to suicide in 53 with a trumped-up charge, after which they became imperial property; the underground basilica lies within them.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Annales",
+     "r": "12.59"
+    }
+   ],
+   "scholarship": [
+    "Coates-Stephens, Porta Maggiore: Monument and Landscape (2004)",
+    "Haeuber, The Eastern Part of the Mons Oppius in Rome (2014)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Boundary conjectural; placed from the aqueduct landmarks near Porta Maggiore."
+  },
+  {
+   "id": "horti_pallantiani",
+   "monument": "horti_pallantiani",
+   "name": "Horti Pallantiani",
+   "from": 40,
+   "to": 9999,
+   "builder": null,
+   "template": "garden",
+   "loc": [
+    12.5105,
+    41.8908
+   ],
+   "rot": 0,
+   "w": 250.0,
+   "l": 250.0,
+   "h": 1.0,
+   "footprint": [
+    [
+     12.509,
+     41.892
+    ],
+    [
+     12.5118,
+     41.8918
+    ],
+    [
+     12.5122,
+     41.8898
+    ],
+    [
+     12.5095,
+     41.8895
+    ],
+    [
+     12.509,
+     41.892
+    ]
+   ],
+   "params": {
+    "trees": 0.8,
+    "kind": "park"
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Gardens of Claudius' powerful freedman Pallas on the E Esquiline, mentioned by Frontinus as a landmark on the aqueduct lines; imperial after his murder in 62.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Coates-Stephens, Porta Maggiore: Monument and Landscape (2004)",
+    "Haeuber, The Eastern Part of the Mons Oppius in Rome (2014)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Boundary conjectural; placed from the aqueduct landmarks near Porta Maggiore."
+  },
+  {
+   "id": "horti_epaphroditiani",
+   "monument": "horti_epaphroditiani",
+   "name": "Horti Epaphroditiani",
+   "from": 60,
+   "to": 9999,
+   "builder": null,
+   "template": "garden",
+   "loc": [
+    12.5088,
+    41.8946
+   ],
+   "rot": 0,
+   "w": 250.0,
+   "l": 250.0,
+   "h": 1.0,
+   "footprint": [
+    [
+     12.5075,
+     41.8958
+    ],
+    [
+     12.51,
+     41.8956
+    ],
+    [
+     12.5102,
+     41.8935
+    ],
+    [
+     12.5078,
+     41.8935
+    ],
+    [
+     12.5075,
+     41.8958
+    ]
+   ],
+   "params": {
+    "trees": 0.8,
+    "kind": "park"
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Gardens of Nero's freedman and secretary Epaphroditus, who helped Nero kill himself in 68, on the Esquiline near the later Minerva Medica; named by Frontinus on the aqueduct routes.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Coates-Stephens, Porta Maggiore: Monument and Landscape (2004)",
+    "Haeuber, The Eastern Part of the Mons Oppius in Rome (2014)",
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992)"
+   ],
+   "note": "Boundary conjectural; placed from the aqueduct landmarks near Porta Maggiore."
   }
  ]
 }

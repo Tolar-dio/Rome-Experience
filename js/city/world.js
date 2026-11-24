@@ -84,6 +84,7 @@ export function buildWorld(city, terrain, onProgress = () => {}) {
 
   // ---------------------------------------------------------------- gates
   for (const g of city.gates || []) {
+    if (g.ng) continue;
     const i = add({ kind: 'gate', rec: g }, { from: g.f, to: g.t, begun: g.f, baseY: g.y, height: g.h + 6 });
     const B = getBatch(g.x, g.z);
     B.setFrame(g.x, g.y - 1, g.z, g.r || 0, i);
