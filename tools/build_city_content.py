@@ -245,10 +245,12 @@ def build(C, meta, base):
         ln = line_local(wl.get('line'))
         if len(ln) < 2:
             continue
-        phases = [{'y': yr(ph.get('y'), 0), 'h': num(ph.get('h'))} for ph in (wl.get('phases') or []) if isinstance(ph, dict) and num(ph.get('h'))]
+        phases = [{'y': yr(ph.get('y'), 0), 'h': num(ph.get('h')), 'br': num(ph.get('breachFraction'))} for ph in (wl.get('phases') or []) if isinstance(ph, dict) and (num(ph.get('h')) or ph.get('breachFraction') is not None)]
         rec = {'id': wl.get('id'), 'n': wl.get('name'), 'f': yr(wl.get('from'), YMIN), 't': yr(wl.get('to'), YMAX), 'ln': [q[:2] for q in ln],
                'h': num(wl.get('h'), 8), 'th': num(wl.get('thickness'), 3), 'mat': wl.get('mat') or 'tufa', 'closed': bool(wl.get('closed')),
-               'tw': wl.get('towers') if isinstance(wl.get('towers'), dict) else None, 'ph': phases, 'kind': wl.get('kind')}
+               'tw': wl.get('towers') if isinstance(wl.get('towers'), dict) else None, 'ph': phases, 'kind': wl.get('kind') or ('agger' if wl.get('agger') else None)}
+        if wl.get('agger'):
+            rec['ag'] = {'w': num(wl['agger'].get('rampartW'), 30), 'h': num(wl['agger'].get('rampartH'), 8), 'side': wl['agger'].get('side', 'inner')}
         rec['gy'] = [round(layers.height(base, q[0], q[1], max(rec['f'], -800)), 2) for q in rec['ln']]
         walls.append(rec)
         stash('w', rec['id'], wl)

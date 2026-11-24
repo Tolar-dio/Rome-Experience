@@ -43,19 +43,29 @@ export function buildWorld(city, terrain, onProgress = () => {}) {
 
   // ---------------------------------------------------------------- walls
   for (const w of city.walls || []) {
-    const steps = [{ y: w.f, h: w.h }].concat((w.ph || []).filter((p) => p.h && p.y > w.f && p.y <= w.t).sort((a, b) => a.y - b.y));
+    // phases change height and breaches; carry the last known value forward
+    const raw = (w.ph || []).filter((p) => p.y > w.f && p.y <= w.t).sort((a, b) => a.y - b.y);
+    const steps = [{ y: w.f, h: w.h, br: 0 }];
+    for (const p of raw) { const prev = steps[steps.length - 1]; const st = { y: p.y, h: p.h || prev.h, br: p.br != null ? p.br : prev.br }; if (st.h !== prev.h || st.br !== prev.br) { if (prev.y === st.y) steps[steps.length - 1] = st; else steps.push(st); } }
     for (let k = 0; k < steps.length; k++) {
       const f = steps[k].y, t = k + 1 < steps.length ? steps[k + 1].y - 1 : w.t;
-      const h = steps[k].h;
+      const h = steps[k].h, br = steps[k].br || 0;
       const i = add({ kind: 'wall', rec: w }, { from: f, to: t, begun: f === w.f ? Math.max(w.f - 6, -800) : f, baseY: -1000, height: 3000 });
       const m = matOf(w.mat, 'tufa');
       const pts = w.ln;
+      const breached = (j) => br > 0 && ((Math.sin(j * 12.9898 + 78.233) * 43758.5453) % 1 + 1) % 1 < br;
       for (let j = 0; j < pts.length - 1; j++) {
         const [x0, z0] = pts[j], [x1, z1] = pts[j + 1];
         const g0 = terrain.heightAt(x0, z0), g1 = terrain.heightAt(x1, z1);
         const y0 = Math.min(g0, g1) - 2.5;
-        const top = Math.max(g0, g1) + h;
-        segBox(getBatch((x0 + x1) / 2, (z0 + z1) / 2), i, x0, z0, x1, z1, y0, top - y0, w.th || 3, m, true);
+        const top = Math.max(g0, g1) + (breached(j) ? h * 0.25 : h);
+        const Bw = getBatch((x0 + x1) / 2, (z0 + z1) / 2);
+        if (w.ag) {
+          // earth rampart behind the stone facing wall, offset to the inner side
+          const L = Math.hypot(x1 - x0, z1 - z0) || 1, nx = -(z1 - z0) / L, nz = (x1 - x0) / L, off = (w.ag.side === 'outer' ? -1 : 1) * w.ag.w / 2;
+          segBox(Bw, i, x0 + nx * off, z0 + nz * off, x1 + nx * off, z1 + nz * off, Math.min(g0, g1) - 2, Math.max(g0, g1) + Math.min(h, w.ag.h) * 0.85 - Math.min(g0, g1) + 2, w.ag.w, [0x8a8a55, PAT.grass], true);
+        }
+        segBox(Bw, i, x0, z0, x1, z1, y0, top - y0, w.th || 3, m, true);
       }
       // towers
       const tw = w.tw;
