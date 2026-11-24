@@ -238,6 +238,12 @@ def gather():
         subs.append(os.path.abspath(extra))
     for sub in subs:
         for f, d in load_json_dir(sub):
+            if isinstance(d, dict):
+                for k_, v_ in d.items():
+                    if isinstance(v_, list):
+                        for o_ in v_:
+                            if isinstance(o_, dict):
+                                o_['_src'] = os.path.basename(f)
             if isinstance(d, list):
                 # bare list: guess
                 key = 'buildings' if sub in ('buildings',) or sub.startswith('/') else ('cityEvents' if sub == 'events' else None)

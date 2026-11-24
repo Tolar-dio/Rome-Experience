@@ -77,6 +77,50 @@ class Layers:
         return h
 
 
+def dedupe(items, warn):
+    """Drop versions written twice by different research passes (same structure, overlapping years, same spot)."""
+    import difflib
+    pts = []
+    for r in items:
+        q = ll(r.get('loc')) if isinstance(r, dict) else None
+        if not q and isinstance(r, dict) and r.get('line'):
+            ln = [ll(p) for p in r['line']]; ln = [p for p in ln if p]
+            if ln:
+                q = ln[len(ln) // 2]
+        pts.append(to_local(*q) if q else None)
+    drop = set()
+    norm = lambda s: re.sub(r'\(.*?\)|\b(the|of|temple|v\d+)\b|[^a-z ]', ' ', (s or '').lower()).split()
+    for i in range(len(items)):
+        if i in drop or pts[i] is None:
+            continue
+        a = items[i]
+        for j in range(i + 1, len(items)):
+            if j in drop or pts[j] is None:
+                continue
+            b = items[j]
+            if a.get('_src') == b.get('_src'):
+                continue
+            d = math.hypot(pts[i][0] - pts[j][0], pts[i][1] - pts[j][1])
+            if d > 45:
+                continue
+            fa, ta = yr(a.get('from'), YMIN), yr(a.get('to'), YMAX)
+            fb, tb = yr(b.get('from'), YMIN), yr(b.get('to'), YMAX)
+            if min(ta, tb) - max(fa, fb) < 5:
+                continue
+            same_m = a.get('monument') and a.get('monument') == b.get('monument')
+            na, nb = ' '.join(norm(a.get('name'))), ' '.join(norm(b.get('name')))
+            sim = difflib.SequenceMatcher(None, na, nb).ratio()
+            if not (same_m or (sim > 0.62 and a.get('template') == b.get('template')) or (sim > 0.8)):
+                continue
+            score = lambda r: len(json.dumps(r)) + (800 if r.get('footprint') else 0) + (400 if r.get('params') else 0)
+            loser = j if score(a) >= score(b) else i
+            drop.add(loser)
+            warn.append(f"dup: kept {items[i if loser == j else j].get('id')} ({items[i if loser == j else j].get('_src')}) over {items[loser].get('id')} ({items[loser].get('_src')})")
+            if loser == i:
+                break
+    return [r for k, r in enumerate(items) if k not in drop]
+
+
 def build(C, meta, base):
     layers = Layers(meta['terrain'])
     text = {}
@@ -93,6 +137,7 @@ def build(C, meta, base):
     # ------------------------------------------------------------ buildings
     blds = []
     seen = set()
+    C['buildings'] = dedupe(C['buildings'], warn)
     for raw in C['buildings']:
         if not isinstance(raw, dict):
             continue
