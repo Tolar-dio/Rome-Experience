@@ -8,8 +8,8 @@ export const D = {
   provinces: [], monuments: [], mints: [], hoards: [], coinage: [], sites: [], routes: [], tours: [], tactics: null,
 };
 
-const KINDS = ['event', 'person', 'war', 'campaign', 'place', 'polity', 'legion', 'frontier', 'road', 'source', 'glossary', 'region', 'province', 'monument', 'mint', 'hoard', 'site', 'route', 'coinage'];
-const KIND_PREF = ['event', 'person', 'war', 'campaign', 'legion', 'polity', 'place', 'province', 'monument', 'site', 'mint', 'hoard', 'route', 'region', 'frontier', 'road', 'source', 'glossary', 'coinage'];
+const KINDS = ['event', 'person', 'war', 'campaign', 'place', 'polity', 'legion', 'frontier', 'road', 'source', 'glossary', 'region', 'province', 'monument', 'mint', 'hoard', 'site', 'route', 'coinage', 'building', 'cityevent', 'cityplace', 'street', 'wall', 'gate', 'aqueduct', 'cityregion'];
+const KIND_PREF = ['event', 'person', 'war', 'campaign', 'legion', 'polity', 'place', 'province', 'monument', 'site', 'mint', 'hoard', 'route', 'region', 'frontier', 'road', 'source', 'glossary', 'coinage', 'building', 'cityevent', 'cityplace', 'gate', 'wall', 'aqueduct', 'street', 'cityregion'];
 
 async function getJSON(url) {
   const r = await fetch(url);
@@ -89,7 +89,7 @@ export async function loadChapters() {
 export function lookup(id, kind) {
   if (!id) return null;
   if (kind && D.byKind[kind]?.has(id)) return { kind, obj: D.byKind[kind].get(id) };
-  for (const k of KIND_PREF) if (D.byKind[k].has(id)) return { kind: k, obj: D.byKind[k].get(id) };
+  for (const k of KIND_PREF) if (D.byKind[k]?.has(id)) return { kind: k, obj: D.byKind[k].get(id) };
   return null;
 }
 export const exists = (id) => !!lookup(id);

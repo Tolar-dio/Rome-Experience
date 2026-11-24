@@ -26,6 +26,7 @@
       <div class="search-results" id="searchResults" role="listbox"></div>
     </div>
     <div class="top-actions">
+      <button class="chip chip-3d" id="city3dBtn" title="Walk and fly through the city of Rome in 3D, year by year">3D Rome</button>
       <button class="chip" id="compareBtn" title="Overlay another year's Roman frontier">Compare</button>
       <button class="chip" id="quizBtn" title="Guess the year from the map">Quiz</button>
       <button class="chip" id="layersBtn" aria-haspopup="true" aria-expanded="false">Layers</button>
@@ -57,6 +58,14 @@
     <div class="hoverinfo" id="hoverinfo"></div>
     <div class="layers-pop" id="layersPop" hidden></div>
     <div class="march" id="march" hidden></div>
+    <div id="city3d" class="city3d" hidden>
+      <div class="c3d-view"></div>
+      <div class="c3d-bar" id="c3dBar"></div>
+      <div class="c3d-yr" id="c3dYear"></div>
+      <div class="c3d-info" id="c3dInfo" hidden></div>
+      <div class="c3d-hint" id="c3dHint" hidden>W A S D or arrow keys to walk · drag to look · Shift to run · Esc to stop</div>
+      <div class="c3d-boot" hidden><div class="msg">Loading the city</div><div class="bar"><i></i></div></div>
+    </div>
   </main>
 
   <aside class="detail" id="detail" aria-live="polite" hidden></aside>

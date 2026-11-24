@@ -8,6 +8,7 @@ import { focusRange, resetRange } from './timeline.js';
 import { renderCharts } from './charts.js';
 import { flyToCity, MON_COLORS } from './extras.js';
 import { startTour } from './tours.js';
+import { openCity, cityYear, isCityOpen, VIEWS } from './city/mount.js';
 import { coinCard } from './detail.js';
 
 const panel = () => document.getElementById('panel');
@@ -30,6 +31,8 @@ export function initPanels() {
     const y = e.target.closest('[data-year]');
     if (y) setYear(parseInt(y.dataset.year, 10));
   });
+  on('cityLoaded', () => { if (S.tab === 'city') render(); });
+  on('cityMode', () => { if (S.tab === 'city') render(); });
   on('year', debounce(() => { if (['year', 'army', 'rulers', 'city', 'coins', 'data'].includes(S.tab) && !document.getElementById('app').classList.contains('panel-closed')) render(); if (S.tab === 'chronicle') scrollChronicle(); if (S.tab === 'sources') renderSourcesHead(); }, 120));
   showTab(S.tab);
 }
@@ -232,7 +235,19 @@ const TABS = {
   city() {
     const y = S.year;
     const standing = (m) => { const st = m.begun ?? m.built; return (st === undefined || st === null || st <= y) && !(m.destroyed && m.destroyed < y); };
-    let h = `<h2>Urbs</h2><p class="lede">The cities themselves. Zoom in and the monuments standing in ${esc(fmtYear(y))} appear on a faint modern street plan, with the AWMC city walls and aqueducts. Buildings under construction are pale.</p>
+    let h = `<h2>Urbs</h2><div class="c3d-cta"><button id="enter3d" class="cta">${isCityOpen() ? 'You are in 3D Rome' : 'Enter 3D Rome'}</button><p>The city rebuilt in three dimensions for ${esc(fmtYear(y))}: terrain, walls, aqueducts, streets and every documented building, rising and falling with the timeline. Events are pinned to the spot where they happened.</p>${isCityOpen() ? `<div class="filters">${VIEWS.map((v) => `<button data-view="${v.id}">${esc(v.n)}</button>`).join('')}</div>` : ''}</div>`;
+    const cy = cityYear(y);
+    if (cy) {
+      h += `<h3>In the city, ${esc(fmtYear(y))}</h3><p class="meta">${cy.standing} documented structures standing.</p>`;
+      const row = (id, kind, when, ttl, sum) => `<li class="row" data-id="${esc(id)}" data-kind="${kind}"><div class="when">${when}</div><div class="what"><div class="ttl">${esc(ttl)}</div>${sum ? `<div class="sum">${esc(sum)}</div>` : ''}</div></li>`;
+      const items = [];
+      for (const e of cy.ev) items.push(row(e.id, 'cityevent', e.mo ? esc(['', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'][e.mo] || '') + (e.d ? ' ' + e.d : '') : '', e.ti, (e.cats || []).join(', ')));
+      for (const b of cy.begun) items.push(row(b.id, 'building', 'begun', b.n, 'construction starts'));
+      for (const b of cy.done) items.push(row(b.id, 'building', 'done', b.n, b.b < b.f ? `built ${fmtYear(b.b)} to ${fmtYear(b.f)}` : 'appears'));
+      for (const b of cy.gone) items.push(row(b.id, 'building', 'gone', b.n, 'last year standing in this form'));
+      h += items.length ? `<ul class="rows">${items.join('')}</ul>` : '<p class="muted">Nothing recorded in the city this year.</p>';
+    }
+    h += `<h3>On the atlas map</h3><p class="lede">Zoom in on the map and the monuments standing in ${esc(fmtYear(y))} appear on a faint modern street plan, with the AWMC city walls and aqueducts.</p>
       <div class="filters"><button class="on" id="goRome">Fly to Rome</button><button id="goConst">Fly to Constantinople</button></div>`;
     for (const [city, label] of [['rome', 'Rome'], ['constantinople', 'Constantinople']]) {
       const list = D.monuments.filter((m) => (m.city || 'rome') === city && standing(m)).sort((a, b) => (a.built ?? -9999) - (b.built ?? -9999));
@@ -317,6 +332,8 @@ AFTER.army = () => {
 };
 AFTER.sources = () => renderGantt();
 AFTER.city = () => {
+  document.getElementById('enter3d')?.addEventListener('click', () => openCity());
+  document.querySelectorAll('[data-view]').forEach((b) => b.addEventListener('click', () => import('./city/mount.js').then((m) => m.focusOn(b.dataset.view))));
   document.getElementById('goRome')?.addEventListener('click', () => flyToCity('rome'));
   document.getElementById('goConst')?.addEventListener('click', () => flyToCity('constantinople'));
 };

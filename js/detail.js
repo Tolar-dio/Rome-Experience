@@ -12,6 +12,7 @@ const history = [];
 
 export function initDetail() {
   on('select', (sel) => { if (sel) render(sel); else close(); });
+  on('cityText', () => { if (S.selected && ['building', 'cityevent', 'cityplace', 'street', 'wall', 'gate', 'aqueduct', 'cityregion'].includes(S.selected.kind)) { history.pop(); render(S.selected); } });
   box().addEventListener('click', (e) => {
     const a = e.target.closest('[data-id]');
     if (a && !a.dataset.action) { e.preventDefault(); openId(a.dataset.id, a.dataset.kind); return; }
@@ -35,6 +36,10 @@ function close() {
   box().hidden = true; box().innerHTML = ''; stopMarch(); document.getElementById('march').hidden = true; }
 
 function action(act, ds) {
+  if (act === 'in3d' || act === 'in3dxz') {
+    import('./city/mount.js').then(async (m) => { await m.openCity(); const c = m.getCity(); if (!c) return; if (act === 'in3d') { const i = c.versionFor(ds.id3, S.year); if (i >= 0) c.focusRecord(i); } else c.focusXZ(+ds.x, +ds.z, 220); });
+    return;
+  }
   const sel = S.selected;
   const r = sel && lookup(sel.id, sel.kind);
   if (act === 'close') select(null);
@@ -122,6 +127,50 @@ export function coinCard(c) {
   if (kv.length) h += `<dl class="kv">${kv.map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join('')}</dl>`;
   if (c.sources?.length) h += `<p class="meta">${c.sources.map((x) => `${esc(x.a || '')}${x.w ? ', ' + esc(x.w) : ''}${x.r ? ' ' + esc(x.r) : ''}`).join('; ')}</p>`;
   return h + '</div>';
+}
+
+
+// ------------------------------------------------------------- city (3D) articles
+const PRECISION = { exact: 'pinned to the spot by the sources', building: 'in or at the building', street: 'on the street', area: 'in the district', approx: 'approximate (reasoned placement)' };
+const TPL_LABEL = { temple: 'temple', tholos: 'round temple', basilica: 'basilica', church: 'church', centralplan: 'rotunda', theatre: 'theatre', amphitheatre: 'amphitheatre', circus: 'circus', stadium: 'stadium', odeum: 'odeum', porticus: 'portico', colonnade: 'colonnade', forum: 'forum', baths: 'baths', balneum: 'bath-house', arch: 'arch', column: 'column', obelisk: 'obelisk', mausoleum: 'mausoleum', pyramid: 'pyramid tomb', tomb: 'tomb', compound: 'complex', horrea: 'warehouse', insula: 'apartment block', domus: 'house', bridge: 'bridge', fountain: 'fountain', altar: 'altar', statue: 'statue', platform: 'terrace', garden: 'gardens', pool: 'water', hut: 'hut', harbor: 'quay', ship_island: 'island embankment' };
+const ctext = (k, id) => (D.cityText && D.cityText[`${k}:${id}`]) || {};
+function cityMonLink(m) {
+  if (exists(m) && lookup(m)?.kind === 'monument') return link(m, null, 'monument');
+  const vs = D.cityByMonument?.get(m);
+  if (vs?.length) return link(vs[vs.length - 1].id, vs[vs.length - 1].n, 'building');
+  return esc(m.replace(/_/g, ' '));
+}
+function cityBuilding(b) {
+  const t = ctext('b', b.id);
+  const range = b.b < b.f ? `begun ${fmtYear(b.b)}, finished ${fmtYear(b.f)}` : `from ${fmtYear(b.f)}`;
+  const end = b.t > 2000 ? 'still standing in 641' : `to ${fmtYear(b.t)}`;
+  let html = head(`Rome · ${esc(TPL_LABEL[b.tp] || b.tp)}${b.water ? '' : ''}`, b.n, `${esc(range)} · ${esc(end)}${t.builder ? ' · ' + link(t.builder, t.builderName, 'person') : t.builderName ? ' · ' + esc(t.builderName) : ''}`,
+    `<button data-action="in3d" data-id3="${esc(b.id)}">Fly to it</button><button data-action="year" data-y="${b.f}">Go to ${esc(fmtYear(b.f))}</button>`);
+  html += `<div class="d-body">`;
+  if (t.summary) html += `<p class="summary">${richText(t.summary, exists)}</p>`;
+  const dims = [b.w && `${Math.round(b.w)} m across`, b.l && `${Math.round(b.l)} m deep`, b.h && `${Math.round(b.h)} m high`].filter(Boolean).join(', ');
+  const p = b.p || {};
+  const facts = [];
+  if (p.order) facts.push(`${p.order} order`); if (p.plan) facts.push(String(p.plan).replace(/_/g, ' '));
+  if (p.front) facts.push(`${p.front} columns across the front`); if (p.diameter) facts.push(`${p.diameter} m diameter`);
+  if (p.podium) facts.push(`podium ${p.podium} m`); if (p.colH) facts.push(`columns ${p.colH} m`);
+  html += `<p class="meta">${esc(dims)}${facts.length ? ' · ' + esc(facts.join(', ')) : ''}${b.c ? ' · ' + cert(b.c) : ''}</p>`;
+  if (t.phases?.length) html += `<h4>History</h4><dl class="kv">${t.phases.map((ph) => `<dt><a class="ent" data-action="year" data-y="${ph.y}">${esc(fmtYear(ph.y))}</a></dt><dd>${richText(ph.t, exists)}</dd>`).join('')}</dl>`;
+  const vs = (D.cityByMonument?.get(b.m) || []).slice().sort((a, c) => a.f - c.f);
+  if (vs.length > 1) html += `<h4>Every version of the building</h4><ul class="rows">${vs.map((v) => `<li class="row${v.id === b.id ? ' on' : ''}" data-id="${esc(v.id)}" data-kind="building"><div class="when">${esc(fmtYear(v.f))}</div><div class="what"><div class="ttl">${esc(v.n)}</div><div class="sum">${esc(fmtRange(v.b, v.t > 2000 ? 641 : v.t))}</div></div></li>`).join('')}</ul>`;
+  if (b.m && b.m !== b.id && exists(b.m) && lookup(b.m)?.kind === 'monument') html += `<p class="meta">In the monuments gazetteer: ${link(b.m, null, 'monument')}</p>`;
+  const evs = (D.cityEventsByMonument?.get(b.m) || []).concat(b.m !== b.id ? D.cityEventsByMonument?.get(b.id) || [] : []);
+  if (evs.length) html += `<h4>What happened here</h4><ul class="rows">${evs.map((e) => `<li class="row" data-id="${esc(e.id)}" data-kind="cityevent"><div class="when">${esc(fmtYear(e.y))}</div><div class="what"><div class="ttl">${esc(e.ti)}</div></div></li>`).join('')}</ul>`;
+  if (t.note) html += `<p class="muted">${richText(t.note, exists)}</p>`;
+  return html + sourcesBlock(t.sources, t.scholarship) + '</div>';
+}
+function cityLine(kind, k, o, sub, extra) {
+  const t = ctext(k, o.id);
+  let html = head('Rome · ' + kind, o.n || o.id, esc([sub, fmtRange(o.f, o.t > 2000 ? 641 : o.t), extra].filter(Boolean).join(' · ')));
+  html += `<div class="d-body">${t.summary ? `<p class="summary">${richText(t.summary, exists)}</p>` : ''}${t.modern ? `<p class="meta">Modern course: ${esc(t.modern)}</p>` : ''}`;
+  if (t.phases?.length) html += `<h4>History</h4><dl class="kv">${t.phases.map((ph) => `<dt><a class="ent" data-action="year" data-y="${ph.y}">${esc(fmtYear(ph.y))}</a></dt><dd>${richText(ph.t, exists)}</dd>`).join('')}</dl>`;
+  if (t.note) html += `<p class="muted">${richText(t.note, exists)}</p>`;
+  return html + sourcesBlock(t.sources, t.scholarship) + '</div>';
 }
 
 const R = {
@@ -267,7 +316,7 @@ const R = {
   monument(m) {
     const city = m.city === 'constantinople' ? 'Constantinople' : 'Rome';
     let html = head(`${city} · ${esc(m.type || 'monument')}`, m.name, [m.begun && m.begun !== m.built ? `begun ${esc(fmtYear(m.begun))}` : '', m.built !== undefined && m.built !== null ? `dedicated ${esc(fmtYear(m.built))}` : '', m.builder ? link(m.builder, m.builderName, 'person') : m.builderName ? esc(m.builderName) : ''].filter(Boolean).join(' · '),
-      m.built !== undefined && m.built !== null ? `<button data-action="year" data-y="${m.built}">Go to its dedication</button>` : '');
+      (m.built !== undefined && m.built !== null ? `<button data-action="year" data-y="${m.built}">Go to its dedication</button>` : '') + ((m.city || 'rome') === 'rome' ? `<button data-action="in3d" data-id3="${esc(m.id)}">See it in 3D</button>` : ''));
     html += `<div class="d-body"><p class="summary"><span class="swatch" style="background:${MON_COLORS[m.type] || '#777'}"></span>${richText(m.summary, exists)}</p>`;
     if (m.phases?.length) html += `<h4>History</h4><dl class="kv">${m.phases.map((p) => `<dt><a class="ent" data-action="year" data-y="${p.y}">${esc(fmtYear(p.y))}</a></dt><dd>${richText(p.t, exists)}</dd>`).join('')}</dl>`;
     if (m.destroyed) html += `<p><b>End.</b> ${esc(fmtYear(m.destroyed))}</p>`;
@@ -298,6 +347,41 @@ const R = {
   coinage(c) {
     let html = head(`Coinage · ${esc(c.kind || '')}`, c.t, `${esc(fmtYear(c.year))}${c.endYear ? ' to ' + esc(fmtYear(c.endYear)) : ''}`, `<button data-action="year" data-y="${c.year}">Go to ${esc(fmtYear(c.year))}</button>`);
     return html + `<div class="d-body">${coinCard(c)}</div>`;
+  },
+
+  building(b) { return cityBuilding(b); },
+  cityevent(e) {
+    const t = ctext('e', e.id);
+    const date = [e.d, e.mo ? monthName(e.mo) : '', fmtYear(e.y)].filter(Boolean).join(' ');
+    let html = head('In the city · ' + esc((e.cats || []).join(', ')), e.ti, esc(date) + (t.locName ? ` · ${esc(t.locName)}` : ''),
+      `<button data-action="year" data-y="${e.y}">Go to ${esc(fmtYear(e.y))}</button><button data-action="in3dxz" data-x="${e.x}" data-z="${e.z}">Show the spot in 3D</button>`);
+    html += `<div class="d-body">`;
+    if (t.summary) html += `<p class="summary">${richText(t.summary, exists)}</p>`;
+    html += `<p class="meta">Location: ${esc(PRECISION[e.pr] || e.pr)}${e.m ? ' · ' + cityMonLink(e.m) : ''}</p>`;
+    if (e.pp?.length) html += `<h4>People</h4><p>${e.pp.map((p) => link(p, null, 'person')).join(', ')}</p>`;
+    if (e.ev && exists(e.ev)) html += `<p class="meta">In the chronicle: ${link(e.ev, null, 'event')}</p>`;
+    if (t.certainty) html += `<p class="meta">${cert(String(t.certainty).length < 14 ? t.certainty : 'disputed')}</p>`;
+    if (t.note) html += `<p class="muted">${richText(t.note, exists)}</p>`;
+    return html + sourcesBlock(t.sources, t.scholarship) + '</div>';
+  },
+  cityplace(p) {
+    const t = ctext('p', p.id);
+    let html = head('Rome · ' + esc(String(p.k).replace(/_/g, ' ')), p.n, esc(fmtRange(p.f, p.t > 2000 ? 641 : p.t)), `<button data-action="in3dxz" data-x="${p.x}" data-z="${p.z}">Show in 3D</button>`);
+    html += `<div class="d-body">${t.summary ? `<p class="summary">${richText(t.summary, exists)}</p>` : ''}${t.note ? `<p class="muted">${richText(t.note, exists)}</p>` : ''}`;
+    return html + sourcesBlock(t.sources, t.scholarship) + '</div>';
+  },
+  street(st) { return cityLine('Street', 's', st, st.rk === 1 ? 'main street' : st.rk === 2 ? 'street' : 'lane', st.pv ? `paved ${fmtYear(st.pv)}` : ''); },
+  wall(w) { return cityLine('City wall', 'w', w, '', w.ph?.length ? w.ph.map((p) => `${fmtYear(p.y)}: ${p.h} m`).join('; ') : ''); },
+  aqueduct(a) { return cityLine('Aqueduct', 'a', a, '', ''); },
+  gate(g) { return cityLine('Gate', 'g', g, '', ''); },
+  cityregion(r) {
+    const t = ctext('r', r.id);
+    let html = head(r.servian ? 'Servian region' : 'Augustan region ' + esc(String(r.num || '')), r.n, esc(fmtRange(r.f, r.t > 2000 ? 641 : r.t)));
+    html += `<div class="d-body">${t.character ? `<p class="summary">${richText(t.character, exists)}</p>` : ''}`;
+    const cat = r.cat || {};
+    const keys = Object.keys(cat);
+    if (keys.length) html += `<h4>Regionary Catalogue (4th century)</h4><dl class="kv">${keys.map((k) => `<dt>${esc(k.replace(/_/g, ' '))}</dt><dd>${esc(String(cat[k]))}</dd>`).join('')}</dl>`;
+    return html + (t.note ? `<p class="muted">${richText(t.note, exists)}</p>` : '') + '</div>';
   },
   region(r) {
     const c = controlAt(r, S.year);

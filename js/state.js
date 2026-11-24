@@ -65,6 +65,7 @@ export function writeHash() {
     p.set('y', S.year);
     if (S.selected) p.set('s', `${S.selected.kind}:${S.selected.id}`);
     if (S.tab !== 'year') p.set('t', S.tab);
+    if (S.cityMode) p.set('city', '1');
     history.replaceState(null, '', '#' + p.toString());
   }, 250);
 }

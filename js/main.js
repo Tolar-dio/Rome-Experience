@@ -8,6 +8,7 @@ import { initPanels, showTab } from './panels.js';
 import { initDetail } from './detail.js';
 import { initSearch } from './search.js';
 import { startTour, startQuiz, toggleCompare } from './tours.js';
+import { initCityMount } from './city/mount.js';
 
 const $ = (id) => document.getElementById(id);
 
@@ -35,6 +36,7 @@ async function boot() {
   initPanels();
   initSearch();
   bindControls();
+  initCityMount();
   on('year', renderYearplate);
   on('mapStats', renderLegend);
   map.on('moveend', () => renderLegend());

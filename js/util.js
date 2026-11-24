@@ -90,4 +90,5 @@ export const KIND_LABEL = {
   event: 'Event', person: 'Person', war: 'War', campaign: 'Campaign', place: 'Place', polity: 'State / people',
   legion: 'Legion', frontier: 'Frontier', road: 'Road', source: 'Ancient source', glossary: 'Term', region: 'Region', chapter: 'Chapter',
   province: 'Province', monument: 'Monument', mint: 'Mint', hoard: 'Hoard', site: 'Site', route: 'Route', coinage: 'Coinage',
+  building: 'Building', cityevent: 'In the city', cityplace: 'City place', street: 'Street', wall: 'City wall', gate: 'Gate', aqueduct: 'Aqueduct', cityregion: 'Region of the city',
 };
