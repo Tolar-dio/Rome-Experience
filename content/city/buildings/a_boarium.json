@@ -1,0 +1,2196 @@
+{
+ "buildings": [
+  {
+   "id": "forum_boarium_square",
+   "monument": "forum_boarium",
+   "name": "Forum Boarium",
+   "from": -509,
+   "to": 9999,
+   "builder": null,
+   "template": "forum",
+   "loc": [
+    12.480862,
+    41.888809
+   ],
+   "rot": 107.1,
+   "w": 63.0,
+   "l": 139.0,
+   "h": 0.5,
+   "footprint": [
+    [
+     12.480976,
+     41.889494
+    ],
+    [
+     12.480636,
+     41.889408
+    ],
+    [
+     12.480495,
+     41.889273
+    ],
+    [
+     12.48047,
+     41.889168
+    ],
+    [
+     12.480505,
+     41.888738
+    ],
+    [
+     12.48057,
+     41.88861
+    ],
+    [
+     12.480802,
+     41.888556
+    ],
+    [
+     12.481028,
+     41.888222
+    ],
+    [
+     12.481132,
+     41.888212
+    ],
+    [
+     12.481241,
+     41.888358
+    ],
+    [
+     12.481317,
+     41.888554
+    ],
+    [
+     12.481271,
+     41.888783
+    ],
+    [
+     12.480976,
+     41.889494
+    ]
+   ],
+   "params": {
+    "wallH": 0,
+    "colonnades": 0,
+    "exedrae": null,
+    "paving": "paving_travertine"
+   },
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "The cattle market by the river landing, Rome's oldest trading place, between the Palatine, the Capitol and the Tiber: a cluster of the oldest cults (Hercules, Portunus, Fortuna, Mater Matuta) around the port, where Greek and Phoenician traders met Latins and Etruscans. A bronze bull from Aegina marked it.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "10.23.3"
+    },
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "6.477-480"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis historia",
+     "r": "34.10"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annales",
+     "r": "12.24"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 162-164",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) II s.v. Forum Boarium (Coarelli)",
+    "Coarelli, Il Foro Boario (1988)"
+   ],
+   "note": "Footprint is the present archaeological area around the two Republican temples; the ancient square extended further north and east."
+  },
+  {
+   "id": "temple_portunus_v1",
+   "monument": "temple_of_portunus",
+   "name": "Shrine of Portunus (archaic)",
+   "from": -509,
+   "to": -301,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.480902,
+    41.889251
+   ],
+   "rot": 342.6,
+   "w": 8.0,
+   "l": 14.0,
+   "h": 6.0,
+   "params": {
+    "order": "tuscan",
+    "plan": "prostyle",
+    "front": 2,
+    "side": 1,
+    "podium": 1.5,
+    "colH": 3.5,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "timber",
+     "walls": "mudbrick",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "The god of the harbour and of gates had his shrine (Portunium) by the river landing from early times; his festival, the Portunalia of 17 August, belongs to the oldest calendar.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Varro",
+     "w": "De lingua Latina",
+     "r": "6.19"
+    },
+    {
+     "a": "Festus",
+     "w": "De verborum significatu",
+     "r": "s.v. Portunium"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 319",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) IV s.v. Portunus, aedes (Buzzetti)",
+    "Adam, Le temple de Portunus au Forum Boarium (1994)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2nd ed. 2014)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": "Hypothetical first shrine on the later site."
+  },
+  {
+   "id": "temple_portunus_v2",
+   "monument": "temple_of_portunus",
+   "name": "Temple of Portunus (mid-Republican)",
+   "from": -300,
+   "to": -81,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.480902,
+    41.889251
+   ],
+   "rot": 342.6,
+   "w": 11.0,
+   "l": 32.0,
+   "h": 12.7,
+   "params": {
+    "order": "tuscan",
+    "plan": "prostyle",
+    "front": 4,
+    "side": 3,
+    "podium": 2.5,
+    "colH": 7.0,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "tufa",
+     "walls": "tufa",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "A tufa temple on a podium about 11 x 32 m of the late 4th or 3rd century BC, found under the present building.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Varro",
+     "w": "De lingua Latina",
+     "r": "6.19"
+    },
+    {
+     "a": "Festus",
+     "w": "De verborum significatu",
+     "r": "s.v. Portunium"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 319",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) IV s.v. Portunus, aedes (Buzzetti)",
+    "Adam, Le temple de Portunus au Forum Boarium (1994)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2nd ed. 2014)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": ""
+  },
+  {
+   "id": "temple_portunus_v3",
+   "monument": "temple_of_portunus",
+   "name": "Temple of Portunus",
+   "from": -80,
+   "to": 9999,
+   "begun": -100,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.480902,
+    41.889251
+   ],
+   "rot": 342.6,
+   "w": 11.9,
+   "l": 25.6,
+   "h": 14.5,
+   "params": {
+    "order": "ionic",
+    "plan": "pseudoperipteral",
+    "front": 4,
+    "side": 7,
+    "podium": 2.6,
+    "colH": 8.24,
+    "steps": "front_full",
+    "mat": {
+     "podium": "travertine",
+     "columns": "travertine",
+     "walls": "tufa",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "The well-preserved Ionic temple by the river port, built about 100-80 BC: tetrastyle and pseudoperipteral, a porch two columns deep and a cella ringed by engaged half-columns, travertine for the free columns and corners and stuccoed tufa for the rest, on a podium 11.87 x 25.60 m. Restored in the 1st century AD; it became a church in 872, which saved it.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Varro",
+     "w": "De lingua Latina",
+     "r": "6.19"
+    },
+    {
+     "a": "Festus",
+     "w": "De verborum significatu",
+     "r": "s.v. Portunium"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 319",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) IV s.v. Portunus, aedes (Buzzetti)",
+    "Adam, Le temple de Portunus au Forum Boarium (1994)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2nd ed. 2014)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": "OSM outline; facade faces NNW (343). Ionic columns 8.24 m."
+  },
+  {
+   "id": "temple_hercules_victor_v1",
+   "monument": "temple_of_hercules_victor",
+   "name": "Round Temple of Hercules Victor (Olivarius)",
+   "from": -120,
+   "to": 14,
+   "builder": null,
+   "template": "tholos",
+   "loc": [
+    12.480766,
+    41.888743
+   ],
+   "rot": 90,
+   "w": 14.8,
+   "l": 14.8,
+   "h": 17.5,
+   "params": {
+    "diameter": 14.8,
+    "columns": 20,
+    "colH": 10.66,
+    "podium": 1.0,
+    "roof": "cone",
+    "order": "corinthian",
+    "mat": {
+     "podium": "tufa",
+     "columns": "marble_white",
+     "walls": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "The oldest surviving marble building in Rome, built about 120 BC of Pentelic marble, probably by the Greek architect Hermodorus of Salamis for the oil merchant M. Octavius Herrenus, and dedicated to Hercules Victor (Olivarius, patron of the oil trade): a cella ringed by twenty Corinthian columns on a stepped base, 14.8 m across.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Macrobius",
+     "w": "Saturnalia",
+     "r": "3.6.10"
+    },
+    {
+     "a": "Servius",
+     "w": "ad Aen.",
+     "r": "8.363"
+    },
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "33936"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 187",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) III s.v. Hercules Invictus/Olivarius (Coarelli)",
+    "Rakob and Heilmeyer, Der Rundtempel am Tiber in Rom (1973)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2nd ed. 2014)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": "OSM outline; door toward the east (bearing c. 90)."
+  },
+  {
+   "id": "temple_hercules_victor_v2",
+   "monument": "temple_of_hercules_victor",
+   "name": "Round Temple of Hercules Victor (Tiberian restoration)",
+   "from": 15,
+   "to": 9999,
+   "builder": "tiberius",
+   "template": "tholos",
+   "loc": [
+    12.480766,
+    41.888743
+   ],
+   "rot": 90,
+   "w": 14.8,
+   "l": 14.8,
+   "h": 17.5,
+   "params": {
+    "diameter": 14.8,
+    "columns": 20,
+    "colH": 10.66,
+    "podium": 1.0,
+    "roof": "cone",
+    "order": "corinthian",
+    "mat": {
+     "podium": "tufa",
+     "columns": "marble_white",
+     "walls": "marble_white",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "After flood damage nine columns and eleven capitals were replaced in Luna marble under Tiberius. It later became the church of Santa Maria del Sole.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Macrobius",
+     "w": "Saturnalia",
+     "r": "3.6.10"
+    },
+    {
+     "a": "Servius",
+     "w": "ad Aen.",
+     "r": "8.363"
+    },
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "33936"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 187",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) III s.v. Hercules Invictus/Olivarius (Coarelli)",
+    "Rakob and Heilmeyer, Der Rundtempel am Tiber in Rom (1973)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2nd ed. 2014)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ara_maxima_v1",
+   "monument": "ara_maxima",
+   "name": "Ara Maxima of Hercules",
+   "from": -509,
+   "to": 64,
+   "builder": null,
+   "template": "altar",
+   "loc": [
+    12.481773,
+    41.888075
+   ],
+   "rot": 303.4,
+   "w": 21.0,
+   "l": 31.0,
+   "h": 4.0,
+   "params": {
+    "enclosure": {
+     "w": 21,
+     "l": 31,
+     "h": 4
+    },
+    "altar": {
+     "w": 4,
+     "l": 6,
+     "h": 1.5
+    }
+   },
+   "importance": 4,
+   "certainty": "reconstructed",
+   "summary": "The Greatest Altar of Hercules Invictus, set up by Evander or by Hercules himself after killing Cacus, served until 312 BC by the Potitii and Pinarii; generals dedicated a tithe of their booty here. Coarelli identifies it with the massive tufa platform under Santa Maria in Cosmedin.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "1.7.10-15"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "9.29.9-11"
+    },
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Antiquitates Romanae",
+     "r": "1.40"
+    },
+    {
+     "a": "Tacitus",
+     "w": "Annales",
+     "r": "15.41"
+    },
+    {
+     "a": "Vergil",
+     "w": "Aeneid",
+     "r": "8.268-272"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 186-187",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) III s.v. Hercules Invictus, Ara Maxima (Coarelli)"
+   ],
+   "note": "Placed on the tufa podium in the crypt of Santa Maria in Cosmedin (Coarelli)."
+  },
+  {
+   "id": "ara_maxima_v2",
+   "monument": "ara_maxima",
+   "name": "Ara Maxima of Hercules (rebuilt after 64)",
+   "from": 65,
+   "to": 9999,
+   "builder": null,
+   "template": "altar",
+   "loc": [
+    12.481773,
+    41.888075
+   ],
+   "rot": 303.4,
+   "w": 21.0,
+   "l": 31.0,
+   "h": 4.0,
+   "params": {
+    "enclosure": {
+     "w": 21,
+     "l": 31,
+     "h": 4
+    },
+    "altar": {
+     "w": 4,
+     "l": 6,
+     "h": 1.5
+    }
+   },
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "Listed by Tacitus among the venerable monuments burned in 64 and restored afterwards; dedications of urban praetors continue into the 3rd century.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Annales",
+     "r": "15.41"
+    },
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "312-319"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 187"
+   ],
+   "note": ""
+  },
+  {
+   "id": "temple_hercules_pompeianus",
+   "monument": "temple_of_hercules_pompeianus",
+   "name": "Temple of Hercules Pompeianus",
+   "from": -55,
+   "to": 9999,
+   "builder": "pompey",
+   "template": "temple",
+   "loc": [
+    12.4823,
+    41.88785
+   ],
+   "rot": 300,
+   "w": 15.0,
+   "l": 24.0,
+   "h": 14.4,
+   "params": {
+    "order": "tuscan",
+    "plan": "tuscan_alae",
+    "front": 4,
+    "side": 4,
+    "podium": 2.5,
+    "colH": 8.0,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "stucco",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "Temple of Hercules near the Circus Maximus restored or rebuilt by Pompey, cited by Vitruvius with that of Ceres as an example of the widely spaced Tuscan (araeostyle) temple with terracotta and gilded bronze pediment figures.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Vitruvius",
+     "w": "De architectura",
+     "r": "3.3.5"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis historia",
+     "r": "34.57"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 188"
+   ],
+   "note": "Site near the Ara Maxima toward the Circus unknown."
+  },
+  {
+   "id": "santomobono_archaic_temple",
+   "monument": "sant_omobono_temples",
+   "name": "Archaic temple at Sant Omobono",
+   "from": -509,
+   "to": -501,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.48137,
+    41.89074
+   ],
+   "rot": 168.7,
+   "w": 10.3,
+   "l": 10.3,
+   "h": 8.8,
+   "params": {
+    "order": "tuscan",
+    "plan": "prostyle",
+    "front": 2,
+    "side": 1,
+    "podium": 1.8,
+    "colH": 4.5,
+    "steps": "front",
+    "acroteria": true,
+    "mat": {
+     "podium": "tufa",
+     "columns": "timber",
+     "walls": "mudbrick",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "The earliest known temple in Rome, a small Tuscan shrine of about 580-540 BC on a high podium with lavish terracottas including a Hercules and Minerva acroterial group; dismantled about 500 BC when the site was raised for the twin temples.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "5.19.6"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "5.23.7"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "24.47.15-16"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "25.7.6"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "33.27.4"
+    },
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Antiquitates Romanae",
+     "r": "4.27.7"
+    },
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "6.479-480"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 155, 246",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) II s.v. Fortuna et Mater Matuta, aedes (Pisani Sartorio)",
+    "Brocato and Terrenato (eds.), Nuovi studi sull area archeologica di Sant Omobono (2016)",
+    "Diffendale et al., in Journal of Roman Archaeology 29 (2016)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2nd ed. 2014)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": "Under the later temple of Mater Matuta (church of Sant Omobono)."
+  },
+  {
+   "id": "santomobono_platform",
+   "monument": "sant_omobono_temples",
+   "name": "Sacred area platform of Sant Omobono",
+   "from": -500,
+   "to": 9999,
+   "builder": null,
+   "template": "platform",
+   "loc": [
+    12.481323,
+    41.890663
+   ],
+   "rot": 168.7,
+   "w": 47.0,
+   "l": 47.0,
+   "h": 4.0,
+   "params": {
+    "facade": "plain",
+    "mat": {
+     "walls": "tufa"
+    }
+   },
+   "importance": 2,
+   "certainty": "excavated",
+   "summary": "About 500 BC the sanctuary was buried under a fill some 4-6 m deep and a square platform about 47 m across built to carry twin temples with their altars.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "5.19.6"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "5.23.7"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "24.47.15-16"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "25.7.6"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "33.27.4"
+    },
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Antiquitates Romanae",
+     "r": "4.27.7"
+    },
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "6.479-480"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 155, 246",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) II s.v. Fortuna et Mater Matuta, aedes (Pisani Sartorio)",
+    "Brocato and Terrenato (eds.), Nuovi studi sull area archeologica di Sant Omobono (2016)",
+    "Diffendale et al., in Journal of Roman Archaeology 29 (2016)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2nd ed. 2014)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": "Common platform; facing of the temples toward SSE (169) from the outline of the excavation area; disputed."
+  },
+  {
+   "id": "temple_mater_matuta_v1",
+   "monument": "sant_omobono_temples",
+   "name": "Temple of Mater Matuta (Forum Boarium, first twin temple)",
+   "from": -499,
+   "to": -397,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.481184,
+    41.890679
+   ],
+   "rot": 168.7,
+   "w": 12.0,
+   "l": 20.0,
+   "h": 16.2,
+   "params": {
+    "order": "tuscan",
+    "plan": "prostyle",
+    "front": 4,
+    "side": 3,
+    "podium": 6.5,
+    "colH": 7.0,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "timber",
+     "walls": "tufa",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "One of the twin temples on the new platform, traditionally founded by Servius Tullius; the two goddesses shared a festival on 11 June.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "5.19.6"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "5.23.7"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "24.47.15-16"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "25.7.6"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "33.27.4"
+    },
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Antiquitates Romanae",
+     "r": "4.27.7"
+    },
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "6.479-480"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 155, 246",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) II s.v. Fortuna et Mater Matuta, aedes (Pisani Sartorio)",
+    "Brocato and Terrenato (eds.), Nuovi studi sull area archeologica di Sant Omobono (2016)",
+    "Diffendale et al., in Journal of Roman Archaeology 29 (2016)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2nd ed. 2014)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": "Which temple is which is uncertain; Mater Matuta assumed under the church of Sant Omobono (west), Fortuna to the east. Podium height includes the raised platform."
+  },
+  {
+   "id": "temple_mater_matuta_v2",
+   "monument": "sant_omobono_temples",
+   "name": "Temple of Mater Matuta (Forum Boarium, 4th century BC)",
+   "from": -396,
+   "to": -214,
+   "builder": "marcus_furius_camillus",
+   "template": "temple",
+   "loc": [
+    12.481184,
+    41.890679
+   ],
+   "rot": 168.7,
+   "w": 12.0,
+   "l": 20.0,
+   "h": 16.8,
+   "params": {
+    "order": "tuscan",
+    "plan": "peripteros_sine_postico",
+    "front": 4,
+    "side": 3,
+    "podium": 6.5,
+    "colH": 7.0,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "tufa",
+     "walls": "tufa",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "Camillus rebuilt and rededicated the temple of Mater Matuta after the capture of Veii in 396 BC.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "5.19.6"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "5.23.7"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "24.47.15-16"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "25.7.6"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "33.27.4"
+    },
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Antiquitates Romanae",
+     "r": "4.27.7"
+    },
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "6.479-480"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 155, 246",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) II s.v. Fortuna et Mater Matuta, aedes (Pisani Sartorio)",
+    "Brocato and Terrenato (eds.), Nuovi studi sull area archeologica di Sant Omobono (2016)",
+    "Diffendale et al., in Journal of Roman Archaeology 29 (2016)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2nd ed. 2014)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": ""
+  },
+  {
+   "id": "temple_mater_matuta_v3",
+   "monument": "sant_omobono_temples",
+   "name": "Temple of Mater Matuta (Forum Boarium, after 213 BC)",
+   "from": -212,
+   "to": 9999,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.481184,
+    41.890679
+   ],
+   "rot": 168.7,
+   "w": 12.0,
+   "l": 20.0,
+   "h": 17.4,
+   "params": {
+    "order": "tuscan",
+    "plan": "peripteros_sine_postico",
+    "front": 4,
+    "side": 3,
+    "podium": 6.5,
+    "colH": 7.5,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "tufa",
+     "walls": "tufa",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "Both temples burned in the great fire of 213 BC that swept from the Salinae to the Porta Carmentalis and were rebuilt by triumviri appointed in 212; the visible podia belong to this phase, repaved again under Domitian. A Christian church occupied the site from the 6th century.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "5.19.6"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "5.23.7"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "24.47.15-16"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "25.7.6"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "33.27.4"
+    },
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Antiquitates Romanae",
+     "r": "4.27.7"
+    },
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "6.479-480"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 155, 246",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) II s.v. Fortuna et Mater Matuta, aedes (Pisani Sartorio)",
+    "Brocato and Terrenato (eds.), Nuovi studi sull area archeologica di Sant Omobono (2016)",
+    "Diffendale et al., in Journal of Roman Archaeology 29 (2016)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2nd ed. 2014)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": ""
+  },
+  {
+   "id": "temple_fortuna_v1",
+   "monument": "sant_omobono_temples",
+   "name": "Temple of Fortuna (Forum Boarium, first twin temple)",
+   "from": -499,
+   "to": -397,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.481444,
+    41.890717
+   ],
+   "rot": 168.7,
+   "w": 12.0,
+   "l": 20.0,
+   "h": 16.2,
+   "params": {
+    "order": "tuscan",
+    "plan": "prostyle",
+    "front": 4,
+    "side": 3,
+    "podium": 6.5,
+    "colH": 7.0,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "timber",
+     "walls": "tufa",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "One of the twin temples on the new platform, traditionally founded by Servius Tullius; the two goddesses shared a festival on 11 June.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "5.19.6"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "5.23.7"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "24.47.15-16"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "25.7.6"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "33.27.4"
+    },
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Antiquitates Romanae",
+     "r": "4.27.7"
+    },
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "6.479-480"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 155, 246",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) II s.v. Fortuna et Mater Matuta, aedes (Pisani Sartorio)",
+    "Brocato and Terrenato (eds.), Nuovi studi sull area archeologica di Sant Omobono (2016)",
+    "Diffendale et al., in Journal of Roman Archaeology 29 (2016)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2nd ed. 2014)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": "Which temple is which is uncertain; Mater Matuta assumed under the church of Sant Omobono (west), Fortuna to the east. Podium height includes the raised platform."
+  },
+  {
+   "id": "temple_fortuna_v2",
+   "monument": "sant_omobono_temples",
+   "name": "Temple of Fortuna (Forum Boarium, 4th century BC)",
+   "from": -396,
+   "to": -214,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.481444,
+    41.890717
+   ],
+   "rot": 168.7,
+   "w": 12.0,
+   "l": 20.0,
+   "h": 16.8,
+   "params": {
+    "order": "tuscan",
+    "plan": "peripteros_sine_postico",
+    "front": 4,
+    "side": 3,
+    "podium": 6.5,
+    "colH": 7.0,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "tufa",
+     "walls": "tufa",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "Rebuilt with its twin in the 4th century BC.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "5.19.6"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "5.23.7"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "24.47.15-16"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "25.7.6"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "33.27.4"
+    },
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Antiquitates Romanae",
+     "r": "4.27.7"
+    },
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "6.479-480"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 155, 246",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) II s.v. Fortuna et Mater Matuta, aedes (Pisani Sartorio)",
+    "Brocato and Terrenato (eds.), Nuovi studi sull area archeologica di Sant Omobono (2016)",
+    "Diffendale et al., in Journal of Roman Archaeology 29 (2016)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2nd ed. 2014)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": ""
+  },
+  {
+   "id": "temple_fortuna_v3",
+   "monument": "sant_omobono_temples",
+   "name": "Temple of Fortuna (Forum Boarium, after 213 BC)",
+   "from": -212,
+   "to": 9999,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.481444,
+    41.890717
+   ],
+   "rot": 168.7,
+   "w": 12.0,
+   "l": 20.0,
+   "h": 17.4,
+   "params": {
+    "order": "tuscan",
+    "plan": "peripteros_sine_postico",
+    "front": 4,
+    "side": 3,
+    "podium": 6.5,
+    "colH": 7.5,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "tufa",
+     "walls": "tufa",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "Both temples burned in the great fire of 213 BC that swept from the Salinae to the Porta Carmentalis and were rebuilt by triumviri appointed in 212; the visible podia belong to this phase, repaved again under Domitian. A Christian church occupied the site from the 6th century.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "5.19.6"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "5.23.7"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "24.47.15-16"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "25.7.6"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "33.27.4"
+    },
+    {
+     "a": "Dionysius of Halicarnassus",
+     "w": "Antiquitates Romanae",
+     "r": "4.27.7"
+    },
+    {
+     "a": "Ovid",
+     "w": "Fasti",
+     "r": "6.479-480"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 155, 246",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) II s.v. Fortuna et Mater Matuta, aedes (Pisani Sartorio)",
+    "Brocato and Terrenato (eds.), Nuovi studi sull area archeologica di Sant Omobono (2016)",
+    "Diffendale et al., in Journal of Roman Archaeology 29 (2016)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2nd ed. 2014)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fornix_stertinii_1",
+   "monument": "fornices_stertinii",
+   "name": "Fornix of L. Stertinius 1",
+   "from": -196,
+   "to": 64,
+   "builder": null,
+   "template": "arch",
+   "loc": [
+    12.481447,
+    41.890405
+   ],
+   "rot": 168.7,
+   "w": 6.0,
+   "l": 3.0,
+   "h": 8.0,
+   "params": {
+    "bays": 1,
+    "depth": 3.0,
+    "atticH": 1.5,
+    "columns": "none",
+    "quadriga": false
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "L. Stertinius set up two arches with gilded statues in the Forum Boarium in front of the temples of Fortuna and Mater Matuta from his Spanish booty in 196 BC, among the first honorific arches in Rome.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "33.27.3-4"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 153",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) II s.v. Fornices Stertinii"
+   ],
+   "note": "In front of the twin temples; positions and end date conjectural."
+  },
+  {
+   "id": "fornix_stertinii_2",
+   "monument": "fornices_stertinii",
+   "name": "Fornix of L. Stertinius 2",
+   "from": -196,
+   "to": 64,
+   "builder": null,
+   "template": "arch",
+   "loc": [
+    12.481341,
+    41.890389
+   ],
+   "rot": 168.7,
+   "w": 6.0,
+   "l": 3.0,
+   "h": 8.0,
+   "params": {
+    "bays": 1,
+    "depth": 3.0,
+    "atticH": 1.5,
+    "columns": "none",
+    "quadriga": false
+   },
+   "importance": 2,
+   "certainty": "conjectural",
+   "summary": "L. Stertinius set up two arches with gilded statues in the Forum Boarium in front of the temples of Fortuna and Mater Matuta from his Spanish booty in 196 BC, among the first honorific arches in Rome.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "33.27.3-4"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 153",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) II s.v. Fornices Stertinii"
+   ],
+   "note": "In front of the twin temples; positions and end date conjectural."
+  },
+  {
+   "id": "forum_holitorium_square",
+   "monument": "forum_holitorium",
+   "name": "Forum Holitorium",
+   "from": -509,
+   "to": 9999,
+   "builder": null,
+   "template": "forum",
+   "loc": [
+    12.480413,
+    41.891194
+   ],
+   "rot": 71.2,
+   "w": 70.0,
+   "l": 45.0,
+   "h": 0.5,
+   "footprint": [
+    [
+     12.48002,
+     41.891428
+    ],
+    [
+     12.480292,
+     41.890829
+    ],
+    [
+     12.480806,
+     41.89096
+    ],
+    [
+     12.480534,
+     41.891559
+    ],
+    [
+     12.48002,
+     41.891428
+    ]
+   ],
+   "params": {
+    "wallH": 0,
+    "colonnades": 0,
+    "exedrae": null,
+    "paving": "paving_travertine"
+   },
+   "importance": 2,
+   "certainty": "reconstructed",
+   "summary": "The vegetable market outside the Porta Carmentalis between the Capitol and the river, closed on the west by a row of four Republican temples and on the north by the Theatre of Marcellus.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Varro",
+     "w": "De lingua Latina",
+     "r": "5.146"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "21.62.3"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 164",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) II s.v. Forum Holitorium (Coarelli)"
+   ],
+   "note": "Area drawn east of the temple fronts; outline schematic."
+  },
+  {
+   "id": "temple_janus_holitorium_v1",
+   "monument": "temples_forum_holitorium",
+   "name": "Temple of Janus (Forum Holitorium)",
+   "from": -260,
+   "to": 16,
+   "builder": "gaius_duilius",
+   "template": "temple",
+   "loc": [
+    12.479882,
+    41.89124
+   ],
+   "rot": 71.2,
+   "w": 14.0,
+   "l": 27.0,
+   "h": 16.1,
+   "params": {
+    "order": "ionic",
+    "plan": "peripteral",
+    "front": 6,
+    "side": 9,
+    "podium": 3.0,
+    "colH": 9.0,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "peperino",
+     "walls": "tufa",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "Built by C. Duilius after the naval victory of Mylae in 260 BC, the northern of the three surviving temples whose remains are built into San Nicola in Carcere.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Annales",
+     "r": "2.49"
+    },
+    {
+     "a": "Festus",
+     "w": "De verborum significatu",
+     "r": "358L"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 206, 211, 366",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) III s.v. Ianus, aedes (apud Forum Holitorium) (Crozzoli Aite); IV s.v. Spes, aedes (Coarelli)",
+    "Crozzoli Aite, I tre templi del Foro Olitorio (1981)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2nd ed. 2014)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": "Northern temple (Ionic) following Coarelli; the OSM labels follow the alternative that makes it Spes. Facade toward the forum (ENE, 71)."
+  },
+  {
+   "id": "temple_janus_holitorium_v2",
+   "monument": "temples_forum_holitorium",
+   "name": "Temple of Janus (Forum Holitorium, Tiberian)",
+   "from": 17,
+   "to": 9999,
+   "builder": "tiberius",
+   "template": "temple",
+   "loc": [
+    12.479882,
+    41.89124
+   ],
+   "rot": 71.2,
+   "w": 14.0,
+   "l": 27.0,
+   "h": 16.7,
+   "params": {
+    "order": "ionic",
+    "plan": "peripteral",
+    "front": 6,
+    "side": 9,
+    "podium": 3.0,
+    "colH": 9.5,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "travertine",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "Restored and rededicated by Tiberius in AD 17, its Ionic columns are still visible along the north side of San Nicola.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Annales",
+     "r": "2.49"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 206, 211, 366",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) III s.v. Ianus, aedes (apud Forum Holitorium) (Crozzoli Aite); IV s.v. Spes, aedes (Coarelli)",
+    "Crozzoli Aite, I tre templi del Foro Olitorio (1981)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2nd ed. 2014)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": ""
+  },
+  {
+   "id": "temple_juno_sospita_v1",
+   "monument": "temples_forum_holitorium",
+   "name": "Temple of Juno Sospita (Forum Holitorium)",
+   "from": -194,
+   "to": -91,
+   "builder": "gaius_cornelius_cethegus_cos197",
+   "template": "temple",
+   "loc": [
+    12.479956,
+    41.891077
+   ],
+   "rot": 71.2,
+   "w": 15.0,
+   "l": 30.0,
+   "h": 17.9,
+   "params": {
+    "order": "ionic",
+    "plan": "peripteral",
+    "front": 6,
+    "side": 11,
+    "podium": 3.5,
+    "colH": 10.0,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "peperino",
+     "walls": "tufa",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "Vowed by C. Cornelius Cethegus against the Insubres in 197 BC and dedicated in 194, the middle and largest of the three temples; the church of San Nicola in Carcere stands on its podium.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "32.30.10"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "34.53.3"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 206, 211, 366",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) III s.v. Ianus, aedes (apud Forum Holitorium) (Crozzoli Aite); IV s.v. Spes, aedes (Coarelli)",
+    "Crozzoli Aite, I tre templi del Foro Olitorio (1981)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2nd ed. 2014)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": "Middle temple under the church nave."
+  },
+  {
+   "id": "temple_juno_sospita_v2",
+   "monument": "temples_forum_holitorium",
+   "name": "Temple of Juno Sospita (restored 90 BC)",
+   "from": -90,
+   "to": 9999,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.479956,
+    41.891077
+   ],
+   "rot": 71.2,
+   "w": 15.0,
+   "l": 30.0,
+   "h": 17.9,
+   "params": {
+    "order": "ionic",
+    "plan": "peripteral",
+    "front": 6,
+    "side": 11,
+    "podium": 3.5,
+    "colH": 10.0,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "travertine",
+     "walls": "stucco",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "Restored in 90 BC by the consul L. Iulius Caesar after Caecilia Metella dreamt that the goddess had been driven out by filth.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Cicero",
+     "w": "De divinatione",
+     "r": "1.4"
+    },
+    {
+     "a": "Julius Obsequens",
+     "w": "Prodigiorum liber",
+     "r": "55"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 206, 211, 366",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) III s.v. Ianus, aedes (apud Forum Holitorium) (Crozzoli Aite); IV s.v. Spes, aedes (Coarelli)",
+    "Crozzoli Aite, I tre templi del Foro Olitorio (1981)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2nd ed. 2014)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": ""
+  },
+  {
+   "id": "temple_spes_v1",
+   "monument": "temples_forum_holitorium",
+   "name": "Temple of Spes (Forum Holitorium)",
+   "from": -258,
+   "to": -214,
+   "builder": "aulus_atilius_calatinus",
+   "template": "temple",
+   "loc": [
+    12.480022,
+    41.890931
+   ],
+   "rot": 71.2,
+   "w": 11.0,
+   "l": 25.0,
+   "h": 13.3,
+   "params": {
+    "order": "doric",
+    "plan": "peripteral",
+    "front": 6,
+    "side": 11,
+    "podium": 2.5,
+    "colH": 7.5,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "peperino",
+     "walls": "tufa",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "Temple of Hope dedicated by A. Atilius Calatinus during the First Punic War, the southern of the three; burned in the fire of 213 BC.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Cicero",
+     "w": "De legibus",
+     "r": "2.28"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "24.47.15"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 206, 211, 366",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) III s.v. Ianus, aedes (apud Forum Holitorium) (Crozzoli Aite); IV s.v. Spes, aedes (Coarelli)",
+    "Crozzoli Aite, I tre templi del Foro Olitorio (1981)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2nd ed. 2014)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": "Southern (Doric) temple following Coarelli."
+  },
+  {
+   "id": "temple_spes_v2",
+   "monument": "temples_forum_holitorium",
+   "name": "Temple of Spes (rebuilt 212 BC)",
+   "from": -212,
+   "to": -31,
+   "builder": null,
+   "template": "temple",
+   "loc": [
+    12.480022,
+    41.890931
+   ],
+   "rot": 71.2,
+   "w": 11.0,
+   "l": 25.0,
+   "h": 13.3,
+   "params": {
+    "order": "doric",
+    "plan": "peripteral",
+    "front": 6,
+    "side": 11,
+    "podium": 2.5,
+    "colH": 7.5,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "peperino",
+     "walls": "tufa",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "Rebuilt in 212 BC; burned again in 31 BC.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "25.7.6"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "50.10.3"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 206, 211, 366",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) III s.v. Ianus, aedes (apud Forum Holitorium) (Crozzoli Aite); IV s.v. Spes, aedes (Coarelli)",
+    "Crozzoli Aite, I tre templi del Foro Olitorio (1981)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2nd ed. 2014)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": ""
+  },
+  {
+   "id": "temple_spes_v3",
+   "monument": "temples_forum_holitorium",
+   "name": "Temple of Spes (Germanicus)",
+   "from": 17,
+   "to": 9999,
+   "builder": "germanicus",
+   "template": "temple",
+   "loc": [
+    12.480022,
+    41.890931
+   ],
+   "rot": 71.2,
+   "w": 11.0,
+   "l": 25.0,
+   "h": 13.3,
+   "params": {
+    "order": "doric",
+    "plan": "peripteral",
+    "front": 6,
+    "side": 11,
+    "podium": 2.5,
+    "colH": 7.5,
+    "steps": "front",
+    "mat": {
+     "podium": "tufa",
+     "columns": "peperino",
+     "walls": "tufa",
+     "roof": "roof_tile"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "Dedicated anew by Germanicus in AD 17; its Doric columns are embedded in the south wall of San Nicola in Carcere.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Tacitus",
+     "w": "Annales",
+     "r": "2.49"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 206, 211, 366",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) III s.v. Ianus, aedes (apud Forum Holitorium) (Crozzoli Aite); IV s.v. Spes, aedes (Coarelli)",
+    "Crozzoli Aite, I tre templi del Foro Olitorio (1981)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2nd ed. 2014)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": ""
+  },
+  {
+   "id": "arch_of_janus_quadrifrons",
+   "monument": "arch_of_janus",
+   "name": "Arch of Janus (Quadrifrons)",
+   "from": 340,
+   "to": 9999,
+   "builder": null,
+   "template": "arch",
+   "loc": [
+    12.482768,
+    41.889356
+   ],
+   "rot": 341.9,
+   "w": 12.0,
+   "l": 12.0,
+   "h": 16.0,
+   "params": {
+    "bays": "quadrifrons",
+    "depth": 12.0,
+    "atticH": 0,
+    "columns": "none",
+    "quadriga": false,
+    "mat": {
+     "walls": "marble_white"
+    }
+   },
+   "importance": 4,
+   "certainty": "excavated",
+   "summary": "A four-way arch of marble-faced brick over a crossroads of the Velabrum at the edge of the Forum Boarium, with tiers of niches for statues; the 'arcus divi Constantini' of the Regionary catalogue, built for Constantine or his son Constantius II, perhaps as a shelter for the cattle traders.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Notitia",
+     "w": "Regio XI"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 207",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) III s.v. Ianus Quadrifrons (Coarelli)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": "OSM outline; 12 x 12 m, c. 16 m high without its lost attic. Date after 337 assumed."
+  },
+  {
+   "id": "arch_of_the_argentarii",
+   "monument": "arcus_argentariorum",
+   "name": "Arch of the Argentarii",
+   "from": 204,
+   "to": 9999,
+   "builder": null,
+   "template": "arch",
+   "loc": [
+    12.483003,
+    41.889491
+   ],
+   "rot": 269,
+   "w": 5.9,
+   "l": 3.3,
+   "h": 6.2,
+   "params": {
+    "bays": 1,
+    "depth": 3.3,
+    "atticH": 1.2,
+    "columns": "none",
+    "quadriga": false,
+    "mat": {
+     "walls": "marble_white"
+    }
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "A flat-lintelled marble gateway set up in 204 by the bankers and cattle dealers of the Forum Boarium for Septimius Severus, Julia Domna and their sons, with reliefs of sacrifice; Geta and Plautianus were erased from it. The church of San Giorgio in Velabro was later built against it.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "1035"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 26",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) I s.v. Arcus Argentariorum (Pisani Sartorio)",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": "OSM outline; decorated face coplanar with the church facade (W)."
+  },
+  {
+   "id": "statio_annonae",
+   "monument": "statio_annonae",
+   "name": "Statio Annonae",
+   "from": 380,
+   "to": 599,
+   "builder": null,
+   "template": "colonnade",
+   "loc": [
+    12.481723,
+    41.8881
+   ],
+   "rot": 303.4,
+   "w": 18.0,
+   "l": 30.0,
+   "h": 10.0,
+   "params": {
+    "line": [
+     [
+      12.481804,
+      41.887962
+     ],
+     [
+      12.481522,
+      41.888102
+     ]
+    ],
+    "depth": 9,
+    "colH": 7.5
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "A late-antique colonnaded hall of the grain supply administration at the Forum Boarium, whose columns are still embedded in the walls of Santa Maria in Cosmedin.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "CIL",
+     "w": "VI",
+     "r": "1151"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 368",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) IV s.v. Statio Annonae (Coarelli)",
+    "Coarelli, Rome and Environs: An Archaeological Guide (2nd ed. 2014)"
+   ],
+   "note": "Under Santa Maria in Cosmedin; dated to the late 4th century."
+  },
+  {
+   "id": "santa_maria_in_cosmedin_diaconia",
+   "monument": "santa_maria_in_cosmedin",
+   "name": "Diaconia of Santa Maria (later in Cosmedin)",
+   "from": 600,
+   "to": 9999,
+   "builder": null,
+   "template": "church",
+   "loc": [
+    12.481723,
+    41.8881
+   ],
+   "rot": 303.4,
+   "w": 20.0,
+   "l": 33.0,
+   "h": 12.0,
+   "params": {
+    "nave": 10,
+    "aisles": 1,
+    "transept": false,
+    "apse": true,
+    "atrium": null,
+    "narthex": false
+   },
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "In the 6th century the hall became a diaconia, a church-welfare station distributing food to the poor; Pope Hadrian I rebuilt it as a basilica for the Greek community in the 8th century.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Liber Pontificalis",
+     "w": "Hadrian I"
+    }
+   ],
+   "scholarship": [
+    "Coarelli, Rome and Environs: An Archaeological Guide (2nd ed. 2014)",
+    "Krautheimer, Corpus Basilicarum Christianarum Romae II (1959)"
+   ],
+   "note": "Foundation date c. 600 approximate."
+  },
+  {
+   "id": "san_teodoro",
+   "monument": "san_teodoro",
+   "name": "San Teodoro",
+   "from": 590,
+   "to": 9999,
+   "builder": null,
+   "template": "centralplan",
+   "loc": [
+    12.484688,
+    41.890478
+   ],
+   "rot": 287.1,
+   "w": 17.0,
+   "l": 23.0,
+   "h": 14.0,
+   "params": {
+    "diameter": 17,
+    "drumH": 10,
+    "domeH": 4,
+    "sides": 0,
+    "oculus": 0,
+    "portico": null,
+    "intermediate": null
+   },
+   "importance": 2,
+   "certainty": "reconstructed",
+   "summary": "A round church at the foot of the Palatine beside the Horrea Agrippiana, built in the 6th century inside Roman horrea walls, with an apse mosaic of Christ and the soldier-saint Theodore.",
+   "phases": [],
+   "sources": [],
+   "scholarship": [
+    "Coarelli, Rome and Environs: An Archaeological Guide (2nd ed. 2014)",
+    "Krautheimer, Corpus Basilicarum Christianarum Romae IV (1970)"
+   ],
+   "note": "OSM outline; date late 6th century approximate."
+  },
+  {
+   "id": "cloaca_maxima_outlet_v1",
+   "monument": "cloaca_maxima",
+   "name": "Outlet of the Cloaca (archaic channel)",
+   "from": -509,
+   "to": -101,
+   "builder": "tarquinius_superbus",
+   "template": "compound",
+   "loc": [
+    12.480237,
+    41.888834
+   ],
+   "rot": 255,
+   "w": 6.0,
+   "l": 6.0,
+   "h": 3.0,
+   "params": {
+    "blocks": [
+     {
+      "shape": "box",
+      "x": 0,
+      "y": 0,
+      "w": 6,
+      "l": 6,
+      "h": 3,
+      "z": 0,
+      "mat": "tufa"
+     }
+    ]
+   },
+   "importance": 2,
+   "certainty": "reconstructed",
+   "summary": "The great drain of the Forum valley, begun under the Tarquins as an open channel lined with cappellaccio, reached the Tiber here below the Forum Boarium.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "1.38.6"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "1.56.2"
+    },
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis historia",
+     "r": "36.104-108"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 91-92",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) I s.v. Cloaca Maxima (Bauer)"
+   ],
+   "note": "OSM point of the outlet near Ponte Palatino."
+  },
+  {
+   "id": "cloaca_maxima_outlet_v2",
+   "monument": "cloaca_maxima",
+   "name": "Outlet of the Cloaca Maxima (vaulted)",
+   "from": -100,
+   "to": 9999,
+   "builder": null,
+   "template": "compound",
+   "loc": [
+    12.480237,
+    41.888834
+   ],
+   "rot": 255,
+   "w": 6.5,
+   "l": 6.0,
+   "h": 5.5,
+   "params": {
+    "blocks": [
+     {
+      "shape": "vault",
+      "x": 0,
+      "y": 0,
+      "w": 6.5,
+      "l": 6,
+      "h": 5.5,
+      "z": 0,
+      "mat": "peperino"
+     }
+    ]
+   },
+   "importance": 3,
+   "certainty": "excavated",
+   "summary": "The arched mouth of the vaulted Cloaca, about 4.5 m wide, with a triple ring of Gabine stone voussoirs, probably of the early 1st century BC; Agrippa sailed through the sewers in 33 BC.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Pliny the Elder",
+     "w": "Naturalis historia",
+     "r": "36.104"
+    },
+    {
+     "a": "Cassius Dio",
+     "w": "Historia Romana",
+     "r": "49.43.1"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 92",
+    "Claridge, Rome: An Oxford Archaeological Guide (2nd ed. 2010)"
+   ],
+   "note": ""
+  },
+  {
+   "id": "portus_tiberinus_v1",
+   "monument": "portus_tiberinus",
+   "name": "River landing of the Forum Boarium",
+   "from": -509,
+   "to": -194,
+   "builder": null,
+   "template": "harbor",
+   "loc": [
+    12.4797,
+    41.88965
+   ],
+   "rot": 160,
+   "w": 8.0,
+   "l": 280.0,
+   "h": 3.0,
+   "params": {
+    "line": [
+     [
+      12.47905,
+      41.8909
+     ],
+     [
+      12.4793,
+      41.8904
+     ],
+     [
+      12.47965,
+      41.8899
+     ],
+     [
+      12.47995,
+      41.8894
+     ],
+     [
+      12.4802,
+      41.88885
+     ],
+     [
+      12.4804,
+      41.8884
+     ]
+    ]
+   },
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "Rome's first harbour, the beaches and timber wharves below the Forum Boarium where river and sea trade came ashore at the ford by the Tiber island.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "35.10.12"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "40.51.4"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 322",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) IV s.v. Portus Tiberinus (Mocchegiani Carpano)"
+   ],
+   "note": "Line along the ancient left bank between the Pons Fabricius and the Porta Trigemina."
+  },
+  {
+   "id": "portus_tiberinus_v2",
+   "monument": "portus_tiberinus",
+   "name": "Portus Tiberinus",
+   "from": -193,
+   "to": 9999,
+   "builder": null,
+   "template": "harbor",
+   "loc": [
+    12.4797,
+    41.88965
+   ],
+   "rot": 160,
+   "w": 10.0,
+   "l": 280.0,
+   "h": 4.5,
+   "params": {
+    "line": [
+     [
+      12.47905,
+      41.8909
+     ],
+     [
+      12.4793,
+      41.8904
+     ],
+     [
+      12.47965,
+      41.8899
+     ],
+     [
+      12.47995,
+      41.8894
+     ],
+     [
+      12.4802,
+      41.88885
+     ],
+     [
+      12.4804,
+      41.8884
+     ]
+    ]
+   },
+   "importance": 3,
+   "certainty": "reconstructed",
+   "summary": "After the Emporium was opened below the Aventine in 193 BC the old landing became the Portus Tiberinus, with stone quays, warehouses and the office of the river port.",
+   "phases": [],
+   "sources": [
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "35.10.12"
+    },
+    {
+     "a": "Livy",
+     "w": "Ab urbe condita",
+     "r": "41.27.8"
+    }
+   ],
+   "scholarship": [
+    "Richardson, A New Topographical Dictionary of Ancient Rome (1992) 322",
+    "Steinby (ed.), Lexicon Topographicum Urbis Romae (1993-2000) IV s.v. Portus Tiberinus"
+   ],
+   "note": ""
+  }
+ ]
+}
