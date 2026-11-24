@@ -203,7 +203,7 @@ T.basilica = (B, b) => {
   const fh = aisleH;
   if (facade === 'closed' || facade === 'tabernae') {
     box(B, 0, 0, 0, W, fh, L, mWall, { top: false });
-    if (facade === 'tabernae') arcadeFace(B, -W / 2, L / 2 + 0.05, W / 2, L / 2 + 0.05, 0, fh * 0.45, 1, 5, MAT.dark, false);
+    if (facade === 'tabernae') arcadeFace(B, -W / 2, L / 2 + 0.05, W / 2, L / 2 + 0.05, 0, fh * 0.45, 1, 5, mWall, false);
   } else {
     arcadeBox(B, 0, 0, 0, W, fh, L, storeys, facade === 'arcade' ? 5.2 : 4.0, mFac, { open: true, double: 6 });
     box(B, 0, 0, 0, W - 0.3, 0.3, L - 0.3, MAT.marble_color, { top: 'marble_color' });
@@ -212,8 +212,8 @@ T.basilica = (B, b) => {
   // raised nave with clerestory
   const naveTop = H - nave * 0.14;
   box(B, 0, fh * 0.5, 0, nave, naveTop - fh * 0.5, L * 0.92, mWall, { top: false });
-  if (p.clerestory !== false) arcadeFace(B, -nave / 2 - 0.05, L * 0.46, -nave / 2 - 0.05, -L * 0.46, fh + 0.5, naveTop - fh - 1, 1, 6, MAT.dark, false);
-  if (p.clerestory !== false) arcadeFace(B, nave / 2 + 0.05, -L * 0.46, nave / 2 + 0.05, L * 0.46, fh + 0.5, naveTop - fh - 1, 1, 6, MAT.dark, false);
+  if (p.clerestory !== false) arcadeFace(B, -nave / 2 - 0.05, L * 0.46, -nave / 2 - 0.05, -L * 0.46, fh + 0.5, naveTop - fh - 1, 1, 6, mWall, false);
+  if (p.clerestory !== false) arcadeFace(B, nave / 2 + 0.05, -L * 0.46, nave / 2 + 0.05, L * 0.46, fh + 0.5, naveTop - fh - 1, 1, 6, mWall, false);
   gable(B, 0, naveTop, 0, nave, L * 0.92, nave * 0.14, mRoof, { pediment: mWall });
   const ap = (p.apses || 'none').toLowerCase();
   if (ap === 'end' || ap === 'both') cyl(B, 0, 0, -L / 2, nave * 0.42, fh, mWall, { segs: 12, a0: Math.PI, a1: Math.PI * 2, cap: false });
@@ -236,8 +236,8 @@ T.church = (B, b) => {
     hip(B, 0, aisleH, bodyF, W, bodyL, (W - nave) * 0.12, mRoof, { eave: 0.4 });
   }
   box(B, 0, 0, bodyF, nave, naveH, bodyL, mWall, { top: false });
-  arcadeFace(B, -nave / 2 - 0.05, bodyF + bodyL / 2 - 1, -nave / 2 - 0.05, bodyF - bodyL / 2 + 1, aisleH + 0.6, naveH - aisleH - 1.2, 1, 4.5, MAT.dark, false);
-  arcadeFace(B, nave / 2 + 0.05, bodyF - bodyL / 2 + 1, nave / 2 + 0.05, bodyF + bodyL / 2 - 1, aisleH + 0.6, naveH - aisleH - 1.2, 1, 4.5, MAT.dark, false);
+  arcadeFace(B, -nave / 2 - 0.05, bodyF + bodyL / 2 - 1, -nave / 2 - 0.05, bodyF - bodyL / 2 + 1, aisleH + 0.6, naveH - aisleH - 1.2, 1, 4.5, mWall, false);
+  arcadeFace(B, nave / 2 + 0.05, bodyF - bodyL / 2 + 1, nave / 2 + 0.05, bodyF + bodyL / 2 - 1, aisleH + 0.6, naveH - aisleH - 1.2, 1, 4.5, mWall, false);
   gable(B, 0, naveH, bodyF, nave, bodyL, nave * 0.16, mRoof, { pediment: mWall });
   if (p.transept) { const tw = W * 1.15, tl = nave * 0.9; box(B, 0, 0, bodyF - bodyL / 2 + tl / 2, tw, naveH, tl, mWall, { top: false }); gable(B, 0, naveH, bodyF - bodyL / 2 + tl / 2, tw, tl, nave * 0.16, mRoof, { axis: 'x', pediment: mWall }); }
   if (p.apse !== false) { cyl(B, 0, 0, bodyF - bodyL / 2, nave * 0.42, naveH * 0.82, mWall, { segs: 14, a0: Math.PI, a1: Math.PI * 2, cap: false }); dome(B, 0, naveH * 0.82, bodyF - bodyL / 2, nave * 0.42, nave * 0.18, mRoof, { segs: 14, rings: 3 }); }
@@ -462,20 +462,20 @@ T.baths = (B, b) => {
   // central block
   const cw = core.w, cl = core.l, ch = num(core.h, H * 0.7);
   box(B, 0, 0, coreF, cw, ch * 0.62, cl, mWall, { top: 'roof_tile' });
-  arcadeFace(B, -cw / 2, coreF + cl / 2 + 0.05, cw / 2, coreF + cl / 2 + 0.05, ch * 0.18, ch * 0.4, 1, 7, MAT.dark, false);
-  arcadeFace(B, cw / 2, coreF - cl / 2 - 0.05, -cw / 2, coreF - cl / 2 - 0.05, ch * 0.18, ch * 0.4, 1, 7, MAT.dark, false);
+  arcadeFace(B, -cw / 2, coreF + cl / 2 + 0.05, cw / 2, coreF + cl / 2 + 0.05, ch * 0.18, ch * 0.4, 1, 7, mWall, false);
+  arcadeFace(B, cw / 2, coreF - cl / 2 - 0.05, -cw / 2, coreF - cl / 2 - 0.05, ch * 0.18, ch * 0.4, 1, 7, mWall, false);
   // frigidarium: tall cross-vaulted hall across the centre
   const fr = p.frigidarium && p.frigidarium.w ? p.frigidarium : { w: cw * 0.28, l: cl * 0.5, h: ch };
   box(B, 0, 0, coreF, fr.w, num(fr.h, ch) * 0.8, fr.l, mWall, { top: false });
   vault(B, 0, num(fr.h, ch) * 0.8, coreF, fr.w, fr.l, fr.w * 0.25, mRoof);
   vault(B, 0, num(fr.h, ch) * 0.8, coreF, fr.w * 0.9, fr.l, fr.w * 0.22, mRoof);
-  arcadeFace(B, -fr.w / 2 - 0.05, coreF + fr.l / 2, -fr.w / 2 - 0.05, coreF - fr.l / 2, ch * 0.62, num(fr.h, ch) * 0.18, 1, fr.l / 3, MAT.dark, false);
-  arcadeFace(B, fr.w / 2 + 0.05, coreF - fr.l / 2, fr.w / 2 + 0.05, coreF + fr.l / 2, ch * 0.62, num(fr.h, ch) * 0.18, 1, fr.l / 3, MAT.dark, false);
+  arcadeFace(B, -fr.w / 2 - 0.05, coreF + fr.l / 2, -fr.w / 2 - 0.05, coreF - fr.l / 2, ch * 0.62, num(fr.h, ch) * 0.18, 1, fr.l / 3, mWall, false);
+  arcadeFace(B, fr.w / 2 + 0.05, coreF - fr.l / 2, fr.w / 2 + 0.05, coreF + fr.l / 2, ch * 0.62, num(fr.h, ch) * 0.18, 1, fr.l / 3, mWall, false);
   // caldarium: domed rotunda projecting from the back (toward -F is the "front" for many baths; follow F-)
   const ca = p.caldarium || {};
   const cr = num(ca.radius, Math.min(cw * 0.12, 26)), chh = num(ca.h, ch * 0.75);
   cyl(B, 0, 0, coreF - cl / 2, cr, chh, mWall, { segs: 20, cap: false });
-  arcadeFace(B, -cr * 0.7, coreF - cl / 2 - cr * 0.72, cr * 0.7, coreF - cl / 2 - cr * 0.72, chh * 0.35, chh * 0.5, 1, cr * 0.5, MAT.dark, false);
+  arcadeFace(B, -cr * 0.7, coreF - cl / 2 - cr * 0.72, cr * 0.7, coreF - cl / 2 - cr * 0.72, chh * 0.35, chh * 0.5, 1, cr * 0.5, mWall, false);
   dome(B, 0, chh, coreF - cl / 2, cr, cr * 0.75, MAT.concrete_faced, { segs: 20, rings: 5 });
   // natatio
   const na = p.natatio && p.natatio.w ? p.natatio : { w: cw * 0.35, l: cl * 0.25 };
@@ -493,10 +493,10 @@ T.arch = (B, b) => {
   const bodyH = H - atticH;
   if (bays === 'q') {
     box(B, 0, 0, 0, W, bodyH, L, mW, { top: false });
-    arcadeFace(B, -W / 2, L / 2 + 0.03, W / 2, L / 2 + 0.03, 0, bodyH, 1, W, MAT.dark, false);
-    arcadeFace(B, W / 2, -L / 2 - 0.03, -W / 2, -L / 2 - 0.03, 0, bodyH, 1, W, MAT.dark, false);
-    arcadeFace(B, W / 2 + 0.03, L / 2, W / 2 + 0.03, -L / 2, 0, bodyH, 1, L, MAT.dark, false);
-    arcadeFace(B, -W / 2 - 0.03, -L / 2, -W / 2 - 0.03, L / 2, 0, bodyH, 1, L, MAT.dark, false);
+    arcadeFace(B, -W / 2, L / 2 + 0.03, W / 2, L / 2 + 0.03, 0, bodyH, 1, W, mW, false);
+    arcadeFace(B, W / 2, -L / 2 - 0.03, -W / 2, -L / 2 - 0.03, 0, bodyH, 1, W, mW, false);
+    arcadeFace(B, W / 2 + 0.03, L / 2, W / 2 + 0.03, -L / 2, 0, bodyH, 1, L, mW, false);
+    arcadeFace(B, -W / 2 - 0.03, -L / 2, -W / 2 - 0.03, L / 2, 0, bodyH, 1, L, mW, false);
   } else {
     const n = bays === 3 ? 3 : 1;
     // piers and openings drawn as a box with dark arch patches on front/back, see-through via side gaps
@@ -608,7 +608,7 @@ T.horrea = (B, b) => {
   const p = b.p, st = Math.max(1, Math.round(num(p.storeys, 2)));
   const ct = p.court && p.court.w ? p.court : { w: b.w * 0.5, l: b.l * 0.55 };
   block(B, b, { shape: 'court', x: 0, y: 0, w: b.w, l: b.l, h: b.h || st * 4.2, ringDepth: Math.min((b.w - ct.w) / 2, (b.l - ct.l) / 2), colonnade: false, garden: false });
-  arcadeFace(B, -b.w / 2, b.l / 2 + 0.04, b.w / 2, b.l / 2 + 0.04, 0, b.h || st * 4.2, st, 4, MAT.dark, false);
+  arcadeFace(B, -b.w / 2, b.l / 2 + 0.04, b.w / 2, b.l / 2 + 0.04, 0, b.h || st * 4.2, st, 4, M(b, "walls", "brick"), false);
 };
 T.insula = (B, b) => { const st = Math.max(1, Math.round(num(b.p.storeys, 5))); const H = b.h || st * 3.2; box(B, 0, 0, 0, b.w, H, b.l, [0xd9b48a, PAT.windows], { top: false, uvFn: (k, len, h) => [0, 0, len, 0, len, h, 0, h] }); hip(B, 0, H, 0, b.w, b.l, 1.6, MAT.roof_tile, { eave: 0.5 }); };
 T.domus = (B, b) => {

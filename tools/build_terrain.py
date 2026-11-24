@@ -255,13 +255,14 @@ def apply_pads(sampler, blds):
         if w * l < 60 or max(w, l) > 900:
             continue
         t = math.radians(b['r']); c, s_ = math.cos(t), math.sin(t)
-        if b.get('fp') and len(b['fp']) >= 3:
+        uses_fp = b['tp'] in ('forum', 'platform') or (b['tp'] == 'compound' and not (b.get('p') or {}).get('blocks'))
+        if uses_fp and b.get('fp') and len(b['fp']) >= 3:
             poly = np.array(b['fp'], float)
         else:
             loc = [(-w / 2, -l / 2), (w / 2, -l / 2), (w / 2, l / 2), (-w / 2, l / 2)]
             poly = np.array([(b['x'] + X * c + F * s_, b['z'] + X * s_ - F * c) for X, F in loc])
         margin = min(12.0, 4 + 0.12 * min(w, l))
-        x0, z0 = poly.min(0) - margin; x1, z1 = poly.max(0) + margin
+        x0, z0 = poly.min(0) - margin - TSTEP; x1, z1 = poly.max(0) + margin + TSTEP
         i0 = max(0, int((x0 - TX0) / TSTEP)); i1 = min(TN - 1, int((x1 - TX0) / TSTEP) + 1)
         j0 = max(0, int((z0 - TZ0) / TSTEP)); j1 = min(TN - 1, int((z1 - TZ0) / TSTEP) + 1)
         if i1 <= i0 or j1 <= j0:
@@ -270,12 +271,13 @@ def apply_pads(sampler, blds):
         inside = Path(poly).contains_points(np.c_[X.ravel(), Z.ravel()]).reshape(X.shape)
         from scipy.ndimage import distance_transform_edt
         d = distance_transform_edt(~inside) * TSTEP
-        wgt = np.where(inside, 1.0, np.where(d < margin, 0.5 + 0.5 * np.cos(np.pi * d / margin), 0.0))
+        # grid points are ~8 m apart: treat everything within one cell of the footprint as inside, then feather
+        dd = np.maximum(0, d - TSTEP)
+        wgt = np.where(inside | (dd <= 0), 1.0, np.where(dd < margin, 0.5 + 0.5 * np.cos(np.pi * dd / margin), 0.0))
         target = b['y'] + 0.15
         for k, y in enumerate(sampler.years):
-            if y < b['b'] and k + 1 < len(sampler.years) and sampler.years[k + 1] <= b['b']:
-                continue
-            if y < b['b']:
+            # pad every snapshot from the one preceding the start of construction, so interpolation never buries it
+            if k + 1 < len(sampler.years) and sampler.years[k + 1] <= b['b']:
                 continue
             H = sampler.snaps[k][j0:j1 + 1, i0:i1 + 1]
             H -= np.maximum(0, H - target) * wgt

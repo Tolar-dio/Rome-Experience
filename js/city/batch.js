@@ -184,6 +184,11 @@ export function gable(B, cx, y0, cf, w, l, rise, m, o = {}) {
     // left slope, right slope (uv: u across tiles along F, v up the slope)
     B.quad([cx - hw, y0, F], [cx - hw, y0, L], [cx, y1, L], [cx, y1, F], roofM, [F, 0, L, 0, L, slope, F, slope]);
     B.quad([cx + hw, y0, L], [cx + hw, y0, F], [cx, y1, F], [cx, y1, L], roofM, [L, 0, F, 0, F, slope, L, slope]);
+    if (o.under !== false) { // timber underside, visible under the eaves and above the pediments
+      const um = MAT.timber;
+      B.quad([cx, y1, F], [cx, y1, L], [cx - hw, y0, L], [cx - hw, y0, F], um);
+      B.quad([cx, y1, L], [cx, y1, F], [cx + hw, y0, F], [cx + hw, y0, L], um);
+    }
     if (o.ends !== false) {
       const ew = w / 2; // pediment sits on the wall line
       B.triangle([cx + ew, y0, F], [cx - ew, y0, F], [cx, y0 + rise * (ew / hw), F], pm, [cx + ew, y0, cx - ew, y0, cx, y0 + rise]);
@@ -195,6 +200,11 @@ export function gable(B, cx, y0, cf, w, l, rise, m, o = {}) {
     const slope = Math.hypot(hl, rise);
     B.quad([cx + hw, y0, cf + hl], [cx - hw, y0, cf + hl], [cx - hw, y1, cf], [cx + hw, y1, cf], roofM, [cx + hw, 0, cx - hw, 0, cx - hw, slope, cx + hw, slope]);
     B.quad([cx - hw, y0, cf - hl], [cx + hw, y0, cf - hl], [cx + hw, y1, cf], [cx - hw, y1, cf], roofM, [cx - hw, 0, cx + hw, 0, cx + hw, slope, cx - hw, slope]);
+    if (o.under !== false) {
+      const um = MAT.timber;
+      B.quad([cx + hw, y1, cf], [cx - hw, y1, cf], [cx - hw, y0, cf + hl], [cx + hw, y0, cf + hl], um);
+      B.quad([cx - hw, y1, cf], [cx + hw, y1, cf], [cx + hw, y0, cf - hl], [cx - hw, y0, cf - hl], um);
+    }
     if (o.ends !== false) {
       const el = l / 2;
       B.triangle([cx + w / 2, y0, cf - el], [cx + w / 2, y0, cf + el], [cx + w / 2, y0 + rise * (el / hl), cf], pm);
