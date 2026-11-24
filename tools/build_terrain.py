@@ -98,7 +98,7 @@ class Ancient:
             if mask is None and not (mode == 'ridge' and line):
                 continue
             self.prep.append({'c': c, 'mask': mask, 'mode': mode, 'line': line,
-                              'soft': soft(mask, 25 if mode == 'add' else 12) if mask is not None else None})
+                              'soft': soft(mask, 25 if mode == 'add' else (40 if mode == 'set' else 12)) if mask is not None else None})
         self.prep.sort(key=lambda p: p['c'].get('priority', 0))
         # valley control points
         self.valleys = []

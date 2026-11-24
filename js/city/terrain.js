@@ -199,7 +199,7 @@ float tfbm(vec2 p){ return tn(p)*0.5+tn(p*2.1)*0.28+tn(p*4.3)*0.14+tn(p*9.1)*0.0
     vec2 g = (vTW.xz - uGroundBox.xy) / uGroundBox.zw;
     vec4 gt = texture2D(uGround, g);
     // r: urban (trodden earth / paving), g: garden, b: burnt
-    c = mix(c, mix(vec3(0.50, 0.43, 0.34), vec3(0.44, 0.40, 0.35), n2), gt.r * 0.85);
+    c = mix(c, mix(vec3(0.66, 0.60, 0.50), vec3(0.60, 0.56, 0.50), n2), gt.r * 0.8);
     c = mix(c, vec3(0.36, 0.44, 0.22) * (0.8 + 0.4 * n2), gt.g * 0.8);
     c = mix(c, vec3(0.16, 0.13, 0.11), gt.b * 0.85);
     if (uFireBit >= 0.0) {
