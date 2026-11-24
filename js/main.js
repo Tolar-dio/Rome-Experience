@@ -197,12 +197,14 @@ function openGuide() {
   g.innerHTML = `<div class="modal-card"><button class="d-close" id="gClose" aria-label="Close">×</button>
     <h2>Orbis</h2><p class="lede">An atlas, encyclopedia and history of Rome from the first consuls to the death of Heraclius: 1,150 years, year by year.</p>
     <p>The map shows who held every region in the selected year: Roman rule in cinnabar, allies hatched, client kingdoms dotted, contested land cross-hatched, and every rival state in its own colour. Drag the timeline at the bottom, press <kbd>Space</kbd> to play, <kbd>←</kbd> <kbd>→</kbd> to step a year (<kbd>Shift</kbd> for ten), <kbd>/</kbd> to search. Scroll on the timeline to zoom it.</p>
+    <div class="c3d-cta"><button class="cta" id="gCity">Enter 3D Rome</button><p>The city itself, rebuilt in three dimensions year by year: the ancient ground and the Tiber, walls, gates, aqueducts, streets and some 600 documented monuments in more than 900 dated versions, with 564 events pinned to the spot where they happened. Drag to pan, right-drag to turn, scroll to zoom, double-click to fly closer, or press Walk to go on foot.</p></div>
     <p>The left rail opens the year's state of the world, the full chronicle, wars and campaign routes you can follow on the map, the encyclopedia, a narrative history in chapters, the army and its frontiers, the fasti and dynasties, the surviving ancient sources and the numbers.</p>
     ${D.tours.length ? `<h3>Take a guided tour</h3><ul class="rows">${D.tours.map((t) => `<li class="row" data-gtour="${esc(t.id)}"><div class="when">${t.stops?.length || 0} stops</div><div class="what"><div class="ttl">${esc(t.title)}</div></div></li>`).join('')}</ul>` : ''}
     <h3>Or jump to a moment</h3><ul class="rows">${TOURS.map((t, i) => `<li class="row" data-tour="${i}"><div class="when">${esc(fmtYear(t.y))}</div><div class="what"><div class="ttl">${esc(t.t)}</div></div></li>`).join('')}</ul>
     <p class="meta" style="margin-top:14px">Territory is reconstructed region by region from standard scholarship and is approximate, especially for tribal peoples, the early Republic and the steppe. Uncertain items are marked. Geography: Natural Earth; Ancient World Mapping Center (ODbL); optional DARE and Esri tiles.</p></div>`;
   const close = () => { g.hidden = true; try { localStorage.setItem('orbis.seenGuide', '1'); } catch (e) { /* */ } };
   $('gClose').onclick = close;
+  $('gCity').onclick = () => { close(); import('./city/mount.js').then((m) => m.openCity('forum')); };
   g.onclick = (e) => {
     if (e.target === g) close();
     const gt = e.target.closest('[data-gtour]');

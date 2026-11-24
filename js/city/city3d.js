@@ -474,7 +474,7 @@ export class City3D {
       const dist = camPos.distanceTo(v);
       const maxD = it.type === 'event' ? 6000 : it.type === 'region' ? 12000 : it.type === 'hill' ? 9000 : it.type === 'subhill' ? 900 : it.type === 'place' ? 400 : it.imp >= 5 ? 4200 : it.imp >= 4 ? 1800 : it.imp >= 3 ? 700 : it.imp >= 2 ? 320 : 160;
       v.project(cam);
-      if (v.z > 1 || dist > maxD || Math.abs(v.x) > 1.1 || Math.abs(v.y) > 1.1) { it.el.style.display = 'none'; continue; }
+      if (v.z > 1 || dist > (this.walk && it.type !== 'event' ? Math.min(maxD, 230) : maxD) || Math.abs(v.x) > 1.1 || Math.abs(v.y) > 1.1) { it.el.style.display = 'none'; continue; }
       const sx = (v.x + 1) / 2 * w, sy = (1 - v.y) / 2 * h;
       const bw = Math.min(220, it.text.length * 6.5 + 16), bh = 18;
       const bx = { x0: sx - bw / 2, x1: sx + bw / 2, y0: sy - bh, y1: sy };
